@@ -1,51 +1,40 @@
 from lxml import html
-from sys import argv
+import sys
 import requests
 import os
-
+import re
+from chtwrite import cheatwriter
 #cheat scraper for http://bsfree.shadowflareindustries.com/ navigate to the system and codetype you want, copy url
 #run the script with "python scraper.py 'url'"
 
-systempage = argv[1]
-baseurl = 'http://bsfree.shadowflareindustries.com/'
-outdir = argv[2]
+
+baseurl = 'http://bsfree.org/'
+supported = "Gameboy", "Gameboy Advance", "Sega Game Gear", "Genesis", "Nintendo Entertainment System", "Sega Master System", "Playstation", "Super Nintendo", "Sega Saturn"
 
 
-page = requests.get(systempage)
+page = requests.get(baseurl)
 tree = html.fromstring(page.text)
 
-#urls and game names to be used as file names
-url = tree.xpath('//td[@class="codedescalt"]//a/@href')
-chtfilenames = [slash.replace('/', '_') for slash in tree.xpath('//td[@class="codedescalt"]/a[@href]/text()')]
+sysurl = tree.xpath('//td[@class="codedescalt"]//a/@href')
+system = tree.xpath('//td[@class="codedescalt"]/a[@href]/text()')
 
-for number, codepage in enumerate(url):
-	outfile = outdir + chtfilenames[number] + '.cht'
+supsys = [system.index(sup) for sup in supported]
 
-	page = requests.get(baseurl + codepage)
-	tree = html.fromstring(page.text)
-	
-	target = open(outfile, 'wb')
-	code=[]
-#This will create a list of code descriptions
-	codedesc = [x.encode('UTF8') for x in tree.xpath('//td[@class="codedesc"]/text()')]
-#This will create a list of codes and format them for the outfile
-	for td in tree.xpath('//tr/td[@class="code"][last()]'):
-		hacker = td.text
-		code.append('+'.join(
-        text.replace('\n', '').replace(' ', '+') for text in td.getprevious().itertext()))
+for idx3 in supsys:
+	page2 = requests.get(baseurl + sysurl[idx3])
 
-	codesamount = len(codedesc) -1
-	
-	print "writing %s" % (outfile)
-	
-	target.write("cheats = {0} \n\n".format(codesamount))
+	tree2 = html.fromstring(page2.text)
 
-#writes the codes
-	for idx, val in enumerate(codedesc):
-		target.write("cheat%d_desc = \" %s\"\n" % (idx, val))
-		target.write("cheat%d_code = \"%s\"\n" % (idx, code[idx].encode('utf')))
-		target.write("cheat%d_enable = false \n" % (idx))
-		target.write('\n')
+	cdtype = tree2.xpath('//td[@class="codedescalt"]//a/@href')
+	nmtype = tree2.xpath('//td[@class="codedescalt"]/a[@href]/text()')
+	outdir = system[idx3]
+	if not os.path.exists(outdir):
+		os.mkdir(outdir)
+	for idxnum, chttype in enumerate(cdtype):
 	
-	print "finished writing %s" % (outfile)
+		contentdir = outdir + "/" + nmtype[idxnum]
+		if not os.path.exists(contentdir):
+			os.mkdir(contentdir)
+			print "created: " + contentdir
+			cheatwriter( baseurl=baseurl, chttype=chttype, outdir=contentdir )
 
