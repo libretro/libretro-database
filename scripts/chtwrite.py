@@ -11,7 +11,7 @@ def cheatwriter( baseurl, chttype, outdir ):
 	tree = html.fromstring(page.text)
 #urls and game names to be used as file names	
 	gameurl = tree.xpath('//td[@class="codedescalt"]//a/@href')
-	chtfilenames = [re.sub('[^0-9a-zA-Z\s]+', '', nogo).replace('  ', ' ').rstrip() for nogo in tree.xpath('//td[@class="codedescalt"]/a[@href]/text()')]
+	chtfilenames = [re.sub('[^0-9a-zA-Z\s]+', '', nogo).replace('  ', ' ').rstrip().lstrip() for nogo in tree.xpath('//td[@class="codedescalt"]/a[@href]/text()')]
 
 	for number, codepage in enumerate(gameurl):
 		outfile = outdir + '/' + chtfilenames[number] + '.cht'

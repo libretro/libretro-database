@@ -36,5 +36,5 @@ for idx3 in supsys:
 		if not os.path.exists(contentdir):
 			os.mkdir(contentdir)
 			print "created: " + contentdir
-			cheatwriter( baseurl=baseurl, chttype=chttype, outdir=contentdir )
+		cheatwriter( baseurl=baseurl, chttype=chttype, outdir=contentdir )
 
