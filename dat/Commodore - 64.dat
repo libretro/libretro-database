@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Commodore - 64"
 	description "Commodore - 64"
-	version 20130331-070011
+	version 20151122-035618
 	comment "no-intro | www.no-intro.org"
 )
 
@@ -88,27 +88,11 @@ game (
 )
 
 game (
-	name "[BIOS] Commodore 64 (USA, Europe) (R3)"
-	description "[BIOS] Commodore 64 (USA, Europe) (R3)"
-	rom ( name "901225-01 (USA, Europe) (R3).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
-	rom ( name "901226-01 (USA, Europe) (R3).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
-	rom ( name "901227-03 (USA, Europe) (R3).u4" size 8192 crc DBE3E7C7 md5 39065497630802346BCE17963F13C092 sha1 1D503E56DF85A62FEE696E7618DC5B4E781DF1BB )
-)
-
-game (
-	name "[BIOS] Commodore 64 (USA, Europe) (R2)"
-	description "[BIOS] Commodore 64 (USA, Europe) (R2)"
-	rom ( name "901225-01 (USA, Europe) (R2).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
-	rom ( name "901226-01 (USA, Europe) (R2).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
-	rom ( name "901227-02 (USA, Europe) (R2).u4" size 8192 crc A5C687B3 md5 7360B296D64E18B88F6CF52289FD99A1 sha1 0E2E4EE3F2D41F00BED72F9AB588B83E306FDB13 )
-)
-
-game (
-	name "[BIOS] Commodore 64 (USA, Europe) (R1)"
-	description "[BIOS] Commodore 64 (USA, Europe) (R1)"
-	rom ( name "901225-01 (USA, Europe) (R1).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
-	rom ( name "901226-01 (USA, Europe) (R1).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
-	rom ( name "901227-01 (USA, Europe) (R1).u4" size 8192 crc DCE782FA md5 1AE0EA224F2B291DAFA2C20B990BB7D4 sha1 87CC04D61FC748B82DF09856847BB5C2754A2033 )
+	name "[BIOS] Commodore 64 (Sweden) (R2)"
+	description "[BIOS] Commodore 64 (Sweden) (R2)"
+	rom ( name "901226-01 (Sweden) (R2).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
+	rom ( name "swedish-01 (Sweden) (R2).u5" size 4096 crc BEE9B3FD md5 5973267E85B7B2B574E780874843180B sha1 446AE58F7110D74D434301491209299F66798D8A )
+	rom ( name "swedish-02 (Sweden) (R2).u4" size 8192 crc 8F294C51 md5 B3F80A9D41512CCD0A4288F581385103 sha1 1EC15D62E5F691ED24CC5AF637732EC41E576AD8 )
 )
 
 game (
@@ -120,11 +104,27 @@ game (
 )
 
 game (
-	name "[BIOS] Commodore 64 (Sweden) (R2)"
-	description "[BIOS] Commodore 64 (Sweden) (R2)"
-	rom ( name "901226-01 (Sweden) (R2).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
-	rom ( name "swedish-01 (Sweden) (R2).u5" size 4096 crc BEE9B3FD md5 5973267E85B7B2B574E780874843180B sha1 446AE58F7110D74D434301491209299F66798D8A )
-	rom ( name "swedish-02 (Sweden) (R2).u4" size 8192 crc 8F294C51 md5 B3F80A9D41512CCD0A4288F581385103 sha1 1EC15D62E5F691ED24CC5AF637732EC41E576AD8 )
+	name "[BIOS] Commodore 64 (USA, Europe) (R1)"
+	description "[BIOS] Commodore 64 (USA, Europe) (R1)"
+	rom ( name "901225-01 (USA, Europe) (R1).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
+	rom ( name "901226-01 (USA, Europe) (R1).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
+	rom ( name "901227-01 (USA, Europe) (R1).u4" size 8192 crc DCE782FA md5 1AE0EA224F2B291DAFA2C20B990BB7D4 sha1 87CC04D61FC748B82DF09856847BB5C2754A2033 )
+)
+
+game (
+	name "[BIOS] Commodore 64 (USA, Europe) (R2)"
+	description "[BIOS] Commodore 64 (USA, Europe) (R2)"
+	rom ( name "901225-01 (USA, Europe) (R2).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
+	rom ( name "901226-01 (USA, Europe) (R2).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
+	rom ( name "901227-02 (USA, Europe) (R2).u4" size 8192 crc A5C687B3 md5 7360B296D64E18B88F6CF52289FD99A1 sha1 0E2E4EE3F2D41F00BED72F9AB588B83E306FDB13 )
+)
+
+game (
+	name "[BIOS] Commodore 64 (USA, Europe) (R3)"
+	description "[BIOS] Commodore 64 (USA, Europe) (R3)"
+	rom ( name "901225-01 (USA, Europe) (R3).u5" size 4096 crc EC4272EE md5 12A4202F5331D45AF846AF6C58FBA946 sha1 ADC7C31E18C7C7413D54802EF2F4193DA14711AA )
+	rom ( name "901226-01 (USA, Europe) (R3).u3" size 8192 crc F833D117 md5 57AF4AE21D4B705C2991D98ED5C1F7B8 sha1 79015323128650C742A3694C9429AA91F355905E )
+	rom ( name "901227-03 (USA, Europe) (R3).u4" size 8192 crc DBE3E7C7 md5 39065497630802346BCE17963F13C092 sha1 1D503E56DF85A62FEE696E7618DC5B4E781DF1BB )
 )
 
 game (
@@ -202,6 +202,12 @@ game (
 )
 
 game (
+	name "Action Replay Professional (Europe) (v4.2) (Program) (Unl)"
+	description "Action Replay Professional (Europe) (v4.2) (Program) (Unl)"
+	rom ( name "Action Replay Professional (Europe) (v4.2) (Program).crt" size 32896 crc 55416F3A md5 81B506974FB0168B62E91F20B5C921EB sha1 32B0DBB6BAC3D8D74D76EF0B038663B8A4D06D54 )
+)
+
+game (
 	name "Action Replay Professional (Europe) (v6.0) (Program) (Unl)"
 	description "Action Replay Professional (Europe) (v6.0) (Program) (Unl)"
 	rom ( name "Action Replay Professional (Europe) (v6.0) (Program).crt" size 32896 crc 56EE0EFE md5 4B5AA6C899E1DED103B46122881CD655 sha1 EC921BFBF15B482531975AE2F1EB767E627C0FC3 )
@@ -211,12 +217,6 @@ game (
 	name "Action Replay Professional (USA) (v5.0) (Program) (Unl)"
 	description "Action Replay Professional (USA) (v5.0) (Program) (Unl)"
 	rom ( name "Action Replay Professional (USA) (v5.0) (Program).crt" size 32896 crc 042E05B4 md5 42FABE0F889D6A3A1F1B29ADFDB8FC33 sha1 82230BF6AF26007CEEB44CF4F249B94B4F13C9B3 )
-)
-
-game (
-	name "Action Replay Professional (Europe) (v4.2) (Program) (Unl)"
-	description "Action Replay Professional (Europe) (v4.2) (Program) (Unl)"
-	rom ( name "Action Replay Professional (Europe) (v4.2) (Program).crt" size 32896 crc 55416F3A md5 81B506974FB0168B62E91F20B5C921EB sha1 32B0DBB6BAC3D8D74D76EF0B038663B8A4D06D54 )
 )
 
 game (
@@ -298,15 +298,15 @@ game (
 )
 
 game (
-	name "Avenger (USA, Europe) (v03) (MAX)"
-	description "Avenger (USA, Europe) (v03) (MAX)"
-	rom ( name "Avenger (USA, Europe) (v03) (MAX).crt" size 8272 crc 6FBF905D md5 8110868B11147000BC19A3628E977F59 sha1 9CD408062F2BD902800393516F0981733E86B5AC )
-)
-
-game (
 	name "Avenger (Japan) (v02) (MAX)"
 	description "Avenger (Japan) (v02) (MAX)"
 	rom ( name "Avenger (Japan) (v02) (MAX).crt" size 8272 crc 5356AF90 md5 1D3FE16C2F5630E6B1B5142E3C0C3F8C sha1 6791DE8D8C5514F2EEA7F20B64BDAB358F5EAF32 )
+)
+
+game (
+	name "Avenger (USA, Europe) (v03) (MAX)"
+	description "Avenger (USA, Europe) (v03) (MAX)"
+	rom ( name "Avenger (USA, Europe) (v03) (MAX).crt" size 8272 crc 6FBF905D md5 8110868B11147000BC19A3628E977F59 sha1 9CD408062F2BD902800393516F0981733E86B5AC )
 )
 
 game (
@@ -425,18 +425,18 @@ game (
 )
 
 game (
-	name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program)"
-	description "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program)"
-	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program) (hn613128).bin" size 16384 crc 927793EC md5 22232DC88A410EAB21DDBF247DF11A1B sha1 2005CF7D8DC024B7BBB730DEC6BBEB2EA9E81E57 )
-	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program) (hn61364).bin" size 8192 crc F617BEC4 md5 91B6AF5A19CF00DFE73FA10DB961AB2B sha1 C5EF2418CF9DBA3E14F586D5D6997F271B521A24 )
-)
-
-game (
 	name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Program)"
 	description "Calc Result - The Spread Sheet - Easy (USA, Europe) (Program)"
 	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Program) (ECRBLK).bin" size 8194 crc A977F2D4 md5 B5563DA546C024AB2A040032934D8BA2 sha1 141104CC3B5536C54FE54EE6417DC6B0CE3C821A )
 	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Program) (ECRBLU).bin" size 8194 crc 1E394B6C md5 788CB31614C62B42F7546D5F021B12EE sha1 D8F893DD1D87AB77A4E4D9FFD3B3F97D000E8A2E )
 	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Program) (ECRGRN).bin" size 8194 crc F569C49C md5 3E4A0A8183B32581BD18EBA2F7DBD31D sha1 4567CBE4B23670449A904F74DCF5ED56C52C16E7 )
+)
+
+game (
+	name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program)"
+	description "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program)"
+	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program) (hn613128).bin" size 16384 crc 927793EC md5 22232DC88A410EAB21DDBF247DF11A1B sha1 2005CF7D8DC024B7BBB730DEC6BBEB2EA9E81E57 )
+	rom ( name "Calc Result - The Spread Sheet - Easy (USA, Europe) (Alt 1) (Program) (hn61364).bin" size 8192 crc F617BEC4 md5 91B6AF5A19CF00DFE73FA10DB961AB2B sha1 C5EF2418CF9DBA3E14F586D5D6997F271B521A24 )
 )
 
 game (
@@ -482,15 +482,15 @@ game (
 )
 
 game (
-	name "Clowns (Japan) (v02) (MAX)"
-	description "Clowns (Japan) (v02) (MAX)"
-	rom ( name "Clowns (Japan) (v02) (MAX).crt" size 8272 crc 3EF0B782 md5 5C9DCCB57B10F5E4500FF44E7AD5C843 sha1 B0150D708A086B985C4C81867791BD96FC22811C )
-)
-
-game (
 	name "Clowns (Japan) (v01) (MAX)"
 	description "Clowns (Japan) (v01) (MAX)"
 	rom ( name "Clowns (Japan) (v01) (MAX).crt" size 8272 crc 6E56ABA1 md5 0BCBCEE0642E1722B17D3E37FC101194 sha1 988E3C433EC22B6A5B83F9A1214084A7D793BA2B )
+)
+
+game (
+	name "Clowns (Japan) (v02) (MAX)"
+	description "Clowns (Japan) (v02) (MAX)"
+	rom ( name "Clowns (Japan) (v02) (MAX).crt" size 8272 crc 3EF0B782 md5 5C9DCCB57B10F5E4500FF44E7AD5C843 sha1 B0150D708A086B985C4C81867791BD96FC22811C )
 )
 
 game (
@@ -627,15 +627,15 @@ game (
 )
 
 game (
-	name "Dot Gobbler (USA, Europe) (Alt 1)"
-	description "Dot Gobbler (USA, Europe) (Alt 1)"
-	rom ( name "Dot Gobbler (USA, Europe) (Alt 1).crt" size 8272 crc 99072C64 md5 D3EE06AADFE79FB963FE76A4A3123F54 sha1 484738DF7A6DD66BA2878489A94C53523855D120 )
-)
-
-game (
 	name "Dot Gobbler (USA, Europe)"
 	description "Dot Gobbler (USA, Europe)"
 	rom ( name "Dot Gobbler (USA, Europe).crt" size 8272 crc D3007491 md5 A6E570659C2F41E99FBD1FFA6342E72F sha1 B5FCB02678E3C0C65BEBB27C31900DF0B6C024DA )
+)
+
+game (
+	name "Dot Gobbler (USA, Europe) (Alt 1)"
+	description "Dot Gobbler (USA, Europe) (Alt 1)"
+	rom ( name "Dot Gobbler (USA, Europe) (Alt 1).crt" size 8272 crc 99072C64 md5 D3EE06AADFE79FB963FE76A4A3123F54 sha1 484738DF7A6DD66BA2878489A94C53523855D120 )
 )
 
 game (
@@ -732,9 +732,9 @@ game (
 )
 
 game (
-	name "Final Cartridge III, The (USA, Europe) (Nov 87) (Program)"
-	description "Final Cartridge III, The (USA, Europe) (Nov 87) (Program)"
-	rom ( name "Final Cartridge III, The (USA, Europe) (Nov 87) (Program).crt" size 65664 crc B96F2C80 md5 E4F17229EAF424F45E02871CFE3154DC sha1 A95735DB3066DAEE316B7EEBA242A03BD3B801D8 )
+	name "Final Cartridge III, The (USA, Europe) (Dec 88) (Program)"
+	description "Final Cartridge III, The (USA, Europe) (Dec 88) (Program)"
+	rom ( name "Final Cartridge III, The (USA, Europe) (Dec 88) (Program).crt" size 65664 crc 69734B98 md5 4461F3E55CE52B33BEA8A55C2C0F4C7B sha1 EC4967E58EABEE5BCD7AD4FA3976C6BE7CE3BC90 )
 )
 
 game (
@@ -744,15 +744,15 @@ game (
 )
 
 game (
-	name "Final Cartridge III, The (USA, Europe) (Sep 87) (Program)"
-	description "Final Cartridge III, The (USA, Europe) (Sep 87) (Program)"
-	rom ( name "Final Cartridge III, The (USA, Europe) (Sep 87) (Program).crt" size 65664 crc CC80B501 md5 93EA6B1F701B169097C04511E360B905 sha1 2F626C9D64D6C07A679CD9FE47A9E906FE64177C )
+	name "Final Cartridge III, The (USA, Europe) (Nov 87) (Program)"
+	description "Final Cartridge III, The (USA, Europe) (Nov 87) (Program)"
+	rom ( name "Final Cartridge III, The (USA, Europe) (Nov 87) (Program).crt" size 65664 crc B96F2C80 md5 E4F17229EAF424F45E02871CFE3154DC sha1 A95735DB3066DAEE316B7EEBA242A03BD3B801D8 )
 )
 
 game (
-	name "Final Cartridge III, The (USA, Europe) (Dec 88) (Program)"
-	description "Final Cartridge III, The (USA, Europe) (Dec 88) (Program)"
-	rom ( name "Final Cartridge III, The (USA, Europe) (Dec 88) (Program).crt" size 65664 crc 69734B98 md5 4461F3E55CE52B33BEA8A55C2C0F4C7B sha1 EC4967E58EABEE5BCD7AD4FA3976C6BE7CE3BC90 )
+	name "Final Cartridge III, The (USA, Europe) (Sep 87) (Program)"
+	description "Final Cartridge III, The (USA, Europe) (Sep 87) (Program)"
+	rom ( name "Final Cartridge III, The (USA, Europe) (Sep 87) (Program).crt" size 65664 crc CC80B501 md5 93EA6B1F701B169097C04511E360B905 sha1 2F626C9D64D6C07A679CD9FE47A9E906FE64177C )
 )
 
 game (
@@ -1056,15 +1056,15 @@ game (
 )
 
 game (
-	name "Magic Desk I - Type and File (USA, Europe) (VICE) (Program)"
-	description "Magic Desk I - Type and File (USA, Europe) (VICE) (Program)"
-	rom ( name "Magic Desk I - Type and File (USA, Europe) (VICE) (Program).crt" size 32896 crc 036788ED md5 FA81A60AB654F2C1242995A4DED268B7 sha1 FB12662C820E55E4AA17657F8855440D5641AE1C )
-)
-
-game (
 	name "Magic Desk I - Type and File (USA, Europe) (CCS) (Program)"
 	description "Magic Desk I - Type and File (USA, Europe) (CCS) (Program)"
 	rom ( name "Magic Desk I - Type and File (USA, Europe) (CCS) (Program).crt" size 32896 crc FDE73767 md5 5FB28506C9D743EE579FD25E253F03C7 sha1 26FDBE0DC801D2F74C5F2D5E2134742E92F6A369 )
+)
+
+game (
+	name "Magic Desk I - Type and File (USA, Europe) (VICE) (Program)"
+	description "Magic Desk I - Type and File (USA, Europe) (VICE) (Program)"
+	rom ( name "Magic Desk I - Type and File (USA, Europe) (VICE) (Program).crt" size 32896 crc 036788ED md5 FA81A60AB654F2C1242995A4DED268B7 sha1 FB12662C820E55E4AA17657F8855440D5641AE1C )
 )
 
 game (
@@ -1236,9 +1236,9 @@ game (
 )
 
 game (
-	name "Navy Seals (Europe)"
-	description "Navy Seals (Europe)"
-	rom ( name "Navy Seals (Europe).crt" size 131392 crc 65FA2C3D md5 486B18FBC2A4830DC790F78FBEE506CE sha1 140F7DD0125C9F5F6CAF47E4EB0997AEEF316979 )
+	name "Navy SEALs (Europe)"
+	description "Navy SEALs (Europe)"
+	rom ( name "Navy SEALs (Europe).crt" size 131392 crc 65FA2C3D md5 486B18FBC2A4830DC790F78FBEE506CE sha1 140F7DD0125C9F5F6CAF47E4EB0997AEEF316979 )
 )
 
 game (
@@ -1423,15 +1423,15 @@ game (
 )
 
 game (
-	name "Radar Rat Race (Japan) (v02) (Alt 1) (MAX)"
-	description "Radar Rat Race (Japan) (v02) (Alt 1) (MAX)"
-	rom ( name "Radar Rat Race (Japan) (v02) (Alt 1) (MAX).crt" size 8272 crc 04F400E2 md5 CD24678FEA44A2512B0449E7433A5E41 sha1 7FE40CB69AA40C0AA3B3330C5E3CE344F52B4437 )
-)
-
-game (
 	name "Radar Rat Race (Japan) (v02) (MAX)"
 	description "Radar Rat Race (Japan) (v02) (MAX)"
 	rom ( name "Radar Rat Race (Japan) (v02) (MAX).crt" size 8272 crc 742E5F29 md5 953268D49B474E125A99FA31097935F9 sha1 04D1ADCCF057C0E9D403FECB7058F7285B1E115E )
+)
+
+game (
+	name "Radar Rat Race (Japan) (v02) (Alt 1) (MAX)"
+	description "Radar Rat Race (Japan) (v02) (Alt 1) (MAX)"
+	rom ( name "Radar Rat Race (Japan) (v02) (Alt 1) (MAX).crt" size 8272 crc 04F400E2 md5 CD24678FEA44A2512B0449E7433A5E41 sha1 7FE40CB69AA40C0AA3B3330C5E3CE344F52B4437 )
 )
 
 game (
@@ -1750,15 +1750,15 @@ game (
 )
 
 game (
-	name "Super Snapshot 5 (USA) (Program)"
-	description "Super Snapshot 5 (USA) (Program)"
-	rom ( name "Super Snapshot 5 (USA) (Program).crt" size 65664 crc 5FB3E89C md5 05C8A05452BB722D6A4FA25CBDA51D11 sha1 9C4B1776F53891DECBC9D782A5EBCDFFD7E4017F )
-)
-
-game (
 	name "Super Snapshot 5 (Europe) (Program)"
 	description "Super Snapshot 5 (Europe) (Program)"
 	rom ( name "Super Snapshot 5 (Europe) (Program).crt" size 65664 crc 82E2E4A0 md5 DD0937D190006F2FD6357D14B6F82C97 sha1 AE0D64F1CB66E6D207421D7A3787100E07485877 )
+)
+
+game (
+	name "Super Snapshot 5 (USA) (Program)"
+	description "Super Snapshot 5 (USA) (Program)"
+	rom ( name "Super Snapshot 5 (USA) (Program).crt" size 65664 crc 5FB3E89C md5 05C8A05452BB722D6A4FA25CBDA51D11 sha1 9C4B1776F53891DECBC9D782A5EBCDFFD7E4017F )
 )
 
 game (
