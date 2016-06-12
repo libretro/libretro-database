@@ -1,0 +1,52 @@
+clrmamepro (
+	name "Lutro"
+	description "Lutro"
+	comment "DAT file containing Lutro games."
+	version 0.0.1
+	date "2016-06-11"
+	author "Rob Loach"
+	homepage https://github.com/libretro/libretro-lutro
+	url https://github.com/RobLoach/libretro-lutro.dat#readme
+)
+
+game (
+	name "Game of Life"
+	description "Game of Life"
+	rom ( name "lutro-game-of-life.lutro" crc d8106235 )
+)
+
+game (
+	name "IYFCT"
+	description "IYFCT"
+	rom ( name "lutro-iyfct.lutro" crc fb95f8f6 )
+)
+
+game (
+	name "Platformer"
+	description "Platformer"
+	rom ( name "lutro-platformer.lutro" crc f22cb75f )
+)
+
+game (
+	name "Pong"
+	description "Pong"
+	rom ( name "lutro-pong.lutro" crc 6da9daaa )
+)
+
+game (
+	name "Sienna"
+	description "Sienna"
+	rom ( name "lutro-sienna.lutro" crc cafc5568 )
+)
+
+game (
+	name "Snake"
+	description "Snake"
+	rom ( name "lutro-snake.lutro" crc 5d6f4103 )
+)
+
+game (
+	name "Tetris"
+	description "Tetris"
+	rom ( name "lutro-tetris.lutro" crc 441465f4 )
+)
