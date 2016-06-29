@@ -2,63 +2,63 @@ clrmamepro (
 	name "Lutro"
 	description "Lutro"
 	comment "DAT file containing Lutro games."
-	version 0.0.1
-	date "2016-06-11"
-	author "Rob Loach"
+	version 0.1.0
+	date "2016-06-29"
+	author "libretro"
 	homepage https://github.com/libretro/libretro-lutro
-	url https://github.com/RobLoach/libretro-lutro.dat#readme
+	url https://github.com/libretro/libretro-lutro
 )
 
 game (
 	name "Game of Life"
 	description "Game of Life"
-	rom ( name "main.lua" crc 8b18cc53 )
+	rom ( name "game-of-life.lutro" )
 )
 
 game (
-	name "IYFCT"
-	description "IYFCT"
-	rom ( name "main.lua" crc d5e77e87 )
+	name "In Your Face City Trains"
+	description "In Your Face City Trains"
+	rom ( name "lutro-iyfct.lutro" )
 )
 
 game (
 	name "Platformer"
 	description "Platformer"
-	rom ( name "main.lua" crc fe4781fb )
+	rom ( name "lutro-platformer.lutro" )
 )
 
 game (
 	name "Pong"
 	description "Pong"
-	rom ( name "main.lua" crc bebbbaf0 )
+	rom ( name "lutro-pong.lutro" )
 )
 
 game (
 	name "Sienna"
 	description "Sienna"
-	rom ( name "main.lua" crc 432264d )
+	rom ( name "lutro-sienna.lutro" )
 )
 
 game (
 	name "Snake"
 	description "Snake"
-	rom ( name "main.lua" crc 6e3d72c8 )
+	rom ( name "lutro-snake.lutro" )
 )
 
 game (
 	name "Spaceship"
 	description "Spaceship"
-	rom ( name "main.lua" crc 283908 )
+	rom ( name "lutro-spaceship.lutro" )
 )
 
 game (
 	name "Tetris"
 	description "Tetris"
-	rom ( name "main.lua" crc c89c89ec )
+	rom ( name "lutro-tetris.lutro" )
 )
 
 game (
-	name "Lutris"
-	description "Lutris"
-	rom ( name "main.lua" crc 6e9204f0 )
+	name "Lutris Launcher"
+	description "Lutris Launcher"
+	rom ( name "love-lutris.lutro" )
 )
