@@ -1,14 +1,26 @@
 clrmamepro (
 	name "Nintendo - Game Boy"
 	description "Nintendo - Game Boy"
-	version 20160410-010246
+	version 20160716-070330
 	comment "no-intro | www.no-intro.org"
+)
+
+game (
+	name "[BIOS] Nintendo Game Boy Boot ROM (World) (Rev 1)"
+	description "[BIOS] Nintendo Game Boy Boot ROM (World) (Rev 1)"
+	rom ( name "[BIOS] Nintendo Game Boy Boot ROM (World) (Rev 1).gb" size 256 crc 59C8598E md5 32FBBD84168D3482956EB3C5051637F5 sha1 4ED31EC6B0B175BB109C0EB5FD3D193DA823339F )
 )
 
 game (
 	name "[BIOS] Nintendo Game Boy Boot ROM (World)"
 	description "[BIOS] Nintendo Game Boy Boot ROM (World)"
-	rom ( name "[BIOS] Nintendo Game Boy Boot ROM (World).gb" size 256 crc 59C8598E md5 32FBBD84168D3482956EB3C5051637F5 sha1 4ED31EC6B0B175BB109C0EB5FD3D193DA823339F )
+	rom ( name "[BIOS] Nintendo Game Boy Boot ROM (World).gb" size 256 crc C2F5CC97 md5 A8F84A0AC44DA5D3F0EE19F9CEA80A8C sha1 8BD501E31921E9601788316DBD3CE9833A97BCBC )
+)
+
+game (
+	name "[BIOS] Nintendo Game Boy Pocket Boot ROM (World)"
+	description "[BIOS] Nintendo Game Boy Pocket Boot ROM (World)"
+	rom ( name "[BIOS] Nintendo Game Boy Pocket Boot ROM (World).gb" size 256 crc E6920754 md5 71A378E71FF30B2D8A1F02BF5C7896AA sha1 4E68F9DA03C310E84C523654B9026E51F26CE7F0 )
 )
 
 game (
@@ -1755,7 +1767,7 @@ game (
 game (
 	name "Dennis the Menace (USA)"
 	description "Dennis the Menace (USA)"
-	rom ( name "Dennis the Menace (USA).gb" size 131072 crc 7EB0CD32 md5 F064BD662FDCB40A9F6926CC3BAEE116 sha1 4695B50738ADD92926DC5D4B48568B037DF7CDB9 )
+	rom ( name "Dennis the Menace (USA).gb" size 131072 crc 7EB0CD32 md5 F064BD662FDCB40A9F6926CC3BAEE116 sha1 4695B50738ADD92926DC5D4B48568B037DF7CDB9 flags verified )
 )
 
 game (
@@ -4819,6 +4831,12 @@ game (
 )
 
 game (
+	name "Mick & Mack as the Global Gladiators (USA) (Proto)"
+	description "Mick & Mack as the Global Gladiators (USA) (Proto)"
+	rom ( name "Mick & Mack as the Global Gladiators (USA) (Proto).gb" size 131072 crc 1E8A59C2 md5 A774E4D7C2E05D0DBBDE260EC807BB59 sha1 81456302F06DD7B026854ABBF8BB34804A14DFA1 )
+)
+
+game (
 	name "Mickey Mouse (Europe)"
 	description "Mickey Mouse (Europe)"
 	rom ( name "Mickey Mouse (Europe).gb" size 131072 crc FC50DEE7 md5 FECC3F5A95CCAEC78F83892933D8159F sha1 B8E708DFE7496C712BD3EF171429D81CB6619252 flags verified )
@@ -5449,9 +5467,9 @@ game (
 )
 
 game (
-	name "Nekketsu Koukou Dodgeball-bu - Kyouteki! Toukyuu Senshi no Maki (Japan)"
-	description "Nekketsu Koukou Dodgeball-bu - Kyouteki! Toukyuu Senshi no Maki (Japan)"
-	rom ( name "Nekketsu Koukou Dodgeball-bu - Kyouteki! Toukyuu Senshi no Maki (Japan).gb" size 131072 crc 7EAF671A md5 1D94024621B825E9FBE7E46ED4E0A567 sha1 4AD83D6EDC948CAE10221B7AAF8FD8B999D4B489 )
+	name "Nekketsu Koukou Dodgeball-bu - Kyouteki! Dodge Soldier no Maki (Japan)"
+	description "Nekketsu Koukou Dodgeball-bu - Kyouteki! Dodge Soldier no Maki (Japan)"
+	rom ( name "Nekketsu Koukou Dodgeball-bu - Kyouteki! Dodge Soldier no Maki (Japan).gb" size 131072 crc 7EAF671A md5 1D94024621B825E9FBE7E46ED4E0A567 sha1 4AD83D6EDC948CAE10221B7AAF8FD8B999D4B489 )
 )
 
 game (
@@ -5877,7 +5895,7 @@ game (
 game (
 	name "Pac-In-Time (USA) (SGB Enhanced)"
 	description "Pac-In-Time (USA) (SGB Enhanced)"
-	rom ( name "Pac-In-Time (USA) (SGB Enhanced).gb" size 262144 crc 50A15DC8 md5 54EF4BB8C3D272AF5BB78B4306F37248 sha1 282F9BBABD5A57D5E7755E5D00F4D65094F816D5 )
+	rom ( name "Pac-In-Time (USA) (SGB Enhanced).gb" size 262144 crc 50A15DC8 md5 54EF4BB8C3D272AF5BB78B4306F37248 sha1 282F9BBABD5A57D5E7755E5D00F4D65094F816D5 flags verified )
 )
 
 game (
@@ -6165,7 +6183,7 @@ game (
 game (
 	name "Picross 2 (Japan) (SGB Enhanced)"
 	description "Picross 2 (Japan) (SGB Enhanced)"
-	rom ( name "Picross 2 (Japan) (SGB Enhanced).gb" size 524288 crc F5AA5902 md5 142D1F9F4B868780824CCA20010AD4D8 sha1 57788519111CBE9E20B43D1935E9F52AE165E858 )
+	rom ( name "Picross 2 (Japan) (SGB Enhanced).gb" size 524288 crc F5AA5902 md5 142D1F9F4B868780824CCA20010AD4D8 sha1 57788519111CBE9E20B43D1935E9F52AE165E858 flags verified )
 )
 
 game (
@@ -7398,9 +7416,9 @@ game (
 )
 
 game (
-	name "Shanghai (Japan)"
-	description "Shanghai (Japan)"
-	rom ( name "Shanghai (Japan).gb" size 32768 crc 7C29672B md5 FEF106AA1596FE49144B02A837D7D9EB sha1 7756E8C955E3BD4FE9B007C9EA4C83F914A100AE flags verified )
+	name "Shanghai (Japan) (HAL Laboratory)"
+	description "Shanghai (Japan) (HAL Laboratory)"
+	rom ( name "Shanghai (Japan) (HAL Laboratory).gb" size 32768 crc 7C29672B md5 FEF106AA1596FE49144B02A837D7D9EB sha1 7756E8C955E3BD4FE9B007C9EA4C83F914A100AE flags verified )
 )
 
 game (
@@ -7808,7 +7826,7 @@ game (
 game (
 	name "Spiritual Warfare (USA) (Unl)"
 	description "Spiritual Warfare (USA) (Unl)"
-	rom ( name "Spiritual Warfare (USA) (Unl).gb" size 262144 crc F7A961BA md5 37E017C8D1A45BAB609FB5B43FB64337 sha1 6E6AE5DBD8FF8B8F41B8411EF119E96E4ECF763F )
+	rom ( name "Spiritual Warfare (USA) (Unl).gb" size 262144 crc F7A961BA md5 37E017C8D1A45BAB609FB5B43FB64337 sha1 6E6AE5DBD8FF8B8F41B8411EF119E96E4ECF763F flags verified )
 )
 
 game (
