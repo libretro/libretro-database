@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Nintendo DSi (DLC)"
 	description "Nintendo - Nintendo DSi (DLC)"
-	version 20151226-131352
+	version 20160814-070812
 	comment "no-intro | www.no-intro.org"
 )
 
@@ -9,21 +9,28 @@ game (
 	name "1001 Blockbusters (Europe)"
 	description "1001 Blockbusters (Europe)"
 	serial "KIOP"
-	rom ( name "1001 Blockbusters (Europe).nds" size 6066176 crc BF7060DF md5 EABDB473B369678F5818241584C6CFAF sha1 219F92C87BF47756AA88029D72317D6074B0C114 )
+	rom ( name "1001 Blockbusters (Europe).nds" size 6066176 crc BF7060DF md5 EABDB473B369678F5818241584C6CFAF sha1 219F92C87BF47756AA88029D72317D6074B0C114 flags verified )
+)
+
+game (
+	name "1001 BlockBusters (USA)"
+	description "1001 BlockBusters (USA)"
+	serial "KIOE"
+	rom ( name "1001 BlockBusters (USA).nds" size 6072320 crc 875801EA md5 17178D749E87E2912040DD4E570B1DEB sha1 5E4539EB996D780667B141905903C3549FA9949A flags verified )
 )
 
 game (
 	name "101 MiniGolf World (USA)"
 	description "101 MiniGolf World (USA)"
 	serial "KXIE"
-	rom ( name "101 MiniGolf World (USA).nds" size 8728576 crc 4F1C744A md5 70B1BE47C367AC000A76F55FDC5A5C9E sha1 53F97E8469B29ADFE8124DA44318621AD82243B1 )
+	rom ( name "101 MiniGolf World (USA).nds" size 8728576 crc 4F1C744A md5 70B1BE47C367AC000A76F55FDC5A5C9E sha1 53F97E8469B29ADFE8124DA44318621AD82243B1 flags verified )
 )
 
 game (
 	name "16 Shot! Shooting Watch (USA)"
 	description "16 Shot! Shooting Watch (USA)"
 	serial "KI6E"
-	rom ( name "16 Shot! Shooting Watch (USA).nds" size 1804288 crc 0FC8B3DC md5 A3E5F0D86EB30CC51113A47E65B9A86C sha1 8B6E3D6143A8A2CBDDD128844526161A258B9D6A )
+	rom ( name "16 Shot! Shooting Watch (USA).nds" size 1804288 crc 0FC8B3DC md5 A3E5F0D86EB30CC51113A47E65B9A86C sha1 8B6E3D6143A8A2CBDDD128844526161A258B9D6A flags verified )
 )
 
 game (
@@ -34,17 +41,38 @@ game (
 )
 
 game (
+	name "1st Class Poker & BlackJack (USA)"
+	description "1st Class Poker & BlackJack (USA)"
+	serial "KYPE"
+	rom ( name "1st Class Poker & BlackJack (USA).nds" size 4567040 crc 715F91CA md5 8EEB616FA38E0CDBBA88BE8B63922D19 sha1 587AE80FA5648DA497C6462BFF31CBA045033D29 )
+)
+
+game (
 	name "2-in-1 Solitaire (Europe, Australia)"
 	description "2-in-1 Solitaire (Europe, Australia)"
 	serial "KSLV"
-	rom ( name "2-in-1 Solitaire (Europe, Australia).nds" size 783360 crc 36EAFFC0 md5 1003221FF54E433D29E3B67E2ADBB2E4 sha1 9F7E37F2C60C5CD24D9010999C8AFE2931E8E066 )
+	rom ( name "2-in-1 Solitaire (Europe, Australia).nds" size 783360 crc 36EAFFC0 md5 1003221FF54E433D29E3B67E2ADBB2E4 sha1 9F7E37F2C60C5CD24D9010999C8AFE2931E8E066 flags verified )
 )
 
 game (
 	name "21 - Blackjack (USA)"
 	description "21 - Blackjack (USA)"
 	serial "KBJE"
-	rom ( name "21 - Blackjack (USA).nds" size 6198272 crc E490B4D0 md5 FD828F5AE7D6D03EB8A43F3A5BC7C093 sha1 D696F458B51EB8DB4784C04936E2BC383B3B4370 )
+	rom ( name "21 - Blackjack (USA).nds" size 6198272 crc E490B4D0 md5 FD828F5AE7D6D03EB8A43F3A5BC7C093 sha1 D696F458B51EB8DB4784C04936E2BC383B3B4370 flags verified )
+)
+
+game (
+	name "24-7 Solitaire (Europe)"
+	description "24-7 Solitaire (Europe)"
+	serial "K4IP"
+	rom ( name "24-7 Solitaire (Europe).nds" size 2831360 crc AD93B7E8 md5 1E10B4F23A113B52D5D5B835139DC6FA sha1 DB56D7783EB58E0192C286B178BD61B4AFA11555 flags verified )
+)
+
+game (
+	name "24-7 Solitaire (USA)"
+	description "24-7 Solitaire (USA)"
+	serial "K4IE"
+	rom ( name "24-7 Solitaire (USA).nds" size 2634752 crc 7F4FB5FF md5 91E4F576AC735485931FDDA17DF85E7B sha1 A7D8D608D8110A802AC4A9B8E54CAC94FADB71F3 )
 )
 
 game (
@@ -58,7 +86,7 @@ game (
 	name "3D Space Tank (Europe, Australia)"
 	description "3D Space Tank (Europe, Australia)"
 	serial "KDXV"
-	rom ( name "3D Space Tank (Europe, Australia).nds" size 16519168 crc DDA258B7 md5 F3CC64F4F00FA109E8EB1DAC6B53B493 sha1 89339A17DC3B14E679723D5BAEC8E4E407A76EA5 )
+	rom ( name "3D Space Tank (Europe, Australia).nds" size 16519168 crc DDA258B7 md5 F3CC64F4F00FA109E8EB1DAC6B53B493 sha1 89339A17DC3B14E679723D5BAEC8E4E407A76EA5 flags verified )
 )
 
 game (
@@ -69,59 +97,150 @@ game (
 )
 
 game (
+	name "5 in 1 Solitaire (USA)"
+	description "5 in 1 Solitaire (USA)"
+	serial "K5IE"
+	rom ( name "5 in 1 Solitaire (USA).nds" size 5763072 crc B00D394B md5 38DEC2666489B2E7D5A776B51A93E68B sha1 3438FD2F533C63763EF3F37843E7A7F4FF4CDE00 )
+)
+
+game (
 	name "505 Tangram (USA)"
 	description "505 Tangram (USA)"
 	serial "K2OE"
-	rom ( name "505 Tangram (USA).nds" size 3516416 crc 3531FDA1 md5 82447B0CE24FAB2ECAE77EAA00535742 sha1 852754F2AB4EF16F5EE3FBE7CF2CC315C51208AA )
+	rom ( name "505 Tangram (USA).nds" size 3516416 crc 3531FDA1 md5 82447B0CE24FAB2ECAE77EAA00535742 sha1 852754F2AB4EF16F5EE3FBE7CF2CC315C51208AA flags verified )
 )
 
 game (
 	name "99Bullets (USA)"
 	description "99Bullets (USA)"
 	serial "K99E"
-	rom ( name "99Bullets (USA).nds" size 6176768 crc 0CDAB2D0 md5 84ACC253B5B345744563325C1B046A1E sha1 73C2B1FFFC6EC46AE8D7E486D76F9EEEE83A0561 )
+	rom ( name "99Bullets (USA).nds" size 6176768 crc 0CDAB2D0 md5 84ACC253B5B345744563325C1B046A1E sha1 73C2B1FFFC6EC46AE8D7E486D76F9EEEE83A0561 flags verified )
+)
+
+game (
+	name "99Bullets (Europe)"
+	description "99Bullets (Europe)"
+	serial "K99P"
+	rom ( name "99Bullets (Europe).nds" size 6202368 crc AD349622 md5 DD339D6353838EF3839828520737A387 sha1 729077CF8E843172807C162C6D6DFA776B90011F )
 )
 
 game (
 	name "99Seconds (USA)"
 	description "99Seconds (USA)"
 	serial "KXTE"
-	rom ( name "99Seconds (USA).nds" size 6045696 crc 54A3654E md5 0680BFCBCC06E223FC423479EEAAA040 sha1 7DE39C31927FBA28FBFE81CE50CAC98F2C522FEB )
+	rom ( name "99Seconds (USA).nds" size 6045696 crc 54A3654E md5 0680BFCBCC06E223FC423479EEAAA040 sha1 7DE39C31927FBA28FBFE81CE50CAC98F2C522FEB flags verified )
+)
+
+game (
+	name "Aahh! Spot the difference (USA)"
+	description "Aahh! Spot the difference (USA)"
+	serial "KVSE"
+	rom ( name "Aahh! Spot the difference (USA).nds" size 4692992 crc E68176FA md5 DEB93A9E59EF95ADAF2560B0358D1593 sha1 6DFF56F100E780BE43AF2C852D3E7C2D45CDE452 )
+)
+
+game (
+	name "Absolute BrickBuster (USA)"
+	description "Absolute BrickBuster (USA)"
+	serial "K6QE"
+	rom ( name "Absolute BrickBuster (USA).nds" size 4962304 crc 0CED4250 md5 8E1924643334E83DC58DB93AFA63C6F3 sha1 6A75119830547AB8C94FAD10E887FD9D5746A851 )
+)
+
+game (
+	name "Absolute Chess (USA)"
+	description "Absolute Chess (USA)"
+	serial "KCZE"
+	rom ( name "Absolute Chess (USA).nds" size 6093824 crc ED268EDA md5 963F0DBC1C11CCB728BDAA3A11494DFE sha1 F48308FD764E4A7D356FE4817B8AB777EFE559BD )
+)
+
+game (
+	name "Absolute Reversi (USA)"
+	description "Absolute Reversi (USA)"
+	serial "KA8E"
+	rom ( name "Absolute Reversi (USA).nds" size 5697536 crc 1DF2E866 md5 F4F1E55EA52D3278796EFA15ED76629D sha1 21963B6819532CF28DA32E6A67F133D564DA5AF7 )
 )
 
 game (
 	name "Abyss (USA)"
 	description "Abyss (USA)"
 	serial "KXGE"
-	rom ( name "Abyss (USA).nds" size 4714496 crc E7DBB06B md5 A26ECEECC9E5DFD82ED9AD8BD6D482A6 sha1 8F492F389AD90B9BA8E9CCB02EFD267E70280593 )
+	rom ( name "Abyss (USA).nds" size 4714496 crc E7DBB06B md5 A26ECEECC9E5DFD82ED9AD8BD6D482A6 sha1 8F492F389AD90B9BA8E9CCB02EFD267E70280593 flags verified )
+)
+
+game (
+	name "Academy - Checkers (Europe)"
+	description "Academy - Checkers (Europe)"
+	serial "K4QP"
+	rom ( name "Academy - Checkers (Europe).nds" size 4432896 crc DEE7BA9A md5 415ECF65E9BCF06D16960DA64FAC9BFA sha1 B863707558151B230243D6F68F158F717BEC96DC flags verified )
+)
+
+game (
+	name "Academy - Tic-Tac-Toe (USA)"
+	description "Academy - Tic-Tac-Toe (USA)"
+	serial "KT3E"
+	rom ( name "Academy - Tic-Tac-Toe (USA).nds" size 3677184 crc 473B9CED md5 6158EB6C6E2012F35DA9AB960184DBF2 sha1 6F829104458889431C88E6B47607ABF0A4189571 )
+)
+
+game (
+	name "Accel Knights - Na ga Tame Ware wa Ken o Toru (Japan)"
+	description "Accel Knights - Na ga Tame Ware wa Ken o Toru (Japan)"
+	serial "KXNJ"
+	rom ( name "Accel Knights - Na ga Tame Ware wa Ken o Toru (Japan).nds" size 9966592 crc 7FA19FEE md5 16451F2D0F080F364C42C17A96AD78B5 sha1 3F7FAD1C6E8939CA63AD325397656D7C7BF944F0 )
+)
+
+game (
+	name "Ace Mathician (USA)"
+	description "Ace Mathician (USA)"
+	serial "KQKE"
+	rom ( name "Ace Mathician (USA).nds" size 4538368 crc 2CAE9F9C md5 377CAD2671331B1B1CBDA3B4CF6845B1 sha1 F00DFF2BBF764ECA993DB837538C52CA844545CE flags verified )
 )
 
 game (
 	name "Advanced Circuits (USA)"
 	description "Advanced Circuits (USA)"
 	serial "KACE"
-	rom ( name "Advanced Circuits (USA).nds" size 5979136 crc B15671B4 md5 533DFEBDB63444207EA1F35A872CBB55 sha1 113375ABC906688CC42B2BF03EF5F611D32F2A6C )
+	rom ( name "Advanced Circuits (USA).nds" size 5979136 crc B15671B4 md5 533DFEBDB63444207EA1F35A872CBB55 sha1 113375ABC906688CC42B2BF03EF5F611D32F2A6C flags verified )
 )
 
 game (
 	name "Advanced Circuits (Europe, Australia)"
 	description "Advanced Circuits (Europe, Australia)"
 	serial "KACV"
-	rom ( name "Advanced Circuits (Europe, Australia).nds" size 6042624 crc 4A88F94C md5 974DD948E81E7398CB2992D1D5CA935F sha1 DAC4E7D2BB573A9BB9FFD50249D581FF37968956 )
+	rom ( name "Advanced Circuits (Europe, Australia).nds" size 6042624 crc 4A88F94C md5 974DD948E81E7398CB2992D1D5CA935F sha1 DAC4E7D2BB573A9BB9FFD50249D581FF37968956 flags verified )
+)
+
+game (
+	name "Afterzoom (USA)"
+	description "Afterzoom (USA)"
+	serial "KZ6E"
+	rom ( name "Afterzoom (USA).nds" size 9869312 crc 294C2BC1 md5 D06CD7099AB770CE119ABA36F585E518 sha1 7B0FC63DDE8FB640D66454E6E2260C43D9310889 flags verified )
+)
+
+game (
+	name "Afterzoom (Europe)"
+	description "Afterzoom (Europe)"
+	serial "KZ6P"
+	rom ( name "Afterzoom (Europe).nds" size 10084352 crc 9E2AA25F md5 E62FFBC729B63A9F07991EAECC1ECA06 sha1 418A52BB30744E5A843C36E95FD255DB01BC47F9 )
 )
 
 game (
 	name "AiRace (USA)"
 	description "AiRace (USA)"
 	serial "KARE"
-	rom ( name "AiRace (USA).nds" size 12258304 crc A61ED8B7 md5 D1CBEF8EA90F8A2BDD1EF5EE3B060C49 sha1 3D4886F2A9F065DF52734E67F57EC83763012153 )
+	rom ( name "AiRace (USA).nds" size 12258304 crc A61ED8B7 md5 D1CBEF8EA90F8A2BDD1EF5EE3B060C49 sha1 3D4886F2A9F065DF52734E67F57EC83763012153 flags verified )
+)
+
+game (
+	name "AiRace (Europe, Australia)"
+	description "AiRace (Europe, Australia)"
+	serial "KARV"
+	rom ( name "AiRace (Europe, Australia).nds" size 12342272 crc 288CE9DA md5 9833699B6E96BDCECDC877E85FF9AADB sha1 3AB6F371D9B294848F53504AE704E30F30B10B30 flags verified )
 )
 
 game (
 	name "AiRace - Tunnel (USA)"
 	description "AiRace - Tunnel (USA)"
 	serial "KATE"
-	rom ( name "AiRace - Tunnel (USA).nds" size 5203968 crc F982AEEF md5 4C2D8CD6AFE5A9FF1F4275C2FF319A26 sha1 34E968346B30875F15CB1F4022DF7F99AFB3EA0C )
+	rom ( name "AiRace - Tunnel (USA).nds" size 5203968 crc F982AEEF md5 4C2D8CD6AFE5A9FF1F4275C2FF319A26 sha1 34E968346B30875F15CB1F4022DF7F99AFB3EA0C flags verified )
 )
 
 game (
@@ -135,112 +254,189 @@ game (
 	name "Airport Mania - First Flight (USA)"
 	description "Airport Mania - First Flight (USA)"
 	serial "KFAE"
-	rom ( name "Airport Mania - First Flight (USA).nds" size 5940224 crc F5D362B5 md5 5260FD1EA56C70D251D97210E3893780 sha1 6785DBB4FFB5E5A2A6560645CEF026CFB150FDCB )
+	rom ( name "Airport Mania - First Flight (USA).nds" size 5940224 crc F5D362B5 md5 5260FD1EA56C70D251D97210E3893780 sha1 6785DBB4FFB5E5A2A6560645CEF026CFB150FDCB flags verified )
+)
+
+game (
+	name "Airport Mania - First Flight (Europe, Australia)"
+	description "Airport Mania - First Flight (Europe, Australia)"
+	serial "KFAV"
+	rom ( name "Airport Mania - First Flight (Europe, Australia).nds" size 6060032 crc B863C40D md5 F0C90017723E7F3CA2A86CFD90F42401 sha1 02B1774D2AC91909D240158C86D6F15FD6B1A5D2 )
 )
 
 game (
 	name "Airport Mania - Non-Stop Flights (USA)"
 	description "Airport Mania - Non-Stop Flights (USA)"
 	serial "KAFE"
-	rom ( name "Airport Mania - Non-Stop Flights (USA).nds" size 6277120 crc 0733BEA0 md5 6C8A790386B87C749142C98A01014FD5 sha1 03D9482DF4244727C8461483D4D494759C20E41A )
+	rom ( name "Airport Mania - Non-Stop Flights (USA).nds" size 6277120 crc 0733BEA0 md5 6C8A790386B87C749142C98A01014FD5 sha1 03D9482DF4244727C8461483D4D494759C20E41A flags verified )
+)
+
+game (
+	name "Airport Mania - Non-Stop Flights (Europe, Australia)"
+	description "Airport Mania - Non-Stop Flights (Europe, Australia)"
+	serial "KAFV"
+	rom ( name "Airport Mania - Non-Stop Flights (Europe, Australia).nds" size 6032384 crc 7707BB90 md5 CD3862384931E2E34169E54E397A2D62 sha1 D7C76539EE121DA42ECBCD69E3CC3BA70BAD8FB6 )
+)
+
+game (
+	name "Al to Harapeko Monster (Japan)"
+	description "Al to Harapeko Monster (Japan)"
+	serial "KP9J"
+	rom ( name "Al to Harapeko Monster (Japan).nds" size 6728704 crc BC2E50C2 md5 52B7B30CD41F23218C1EB905E5400F7C sha1 D7C53DB815E2631FA632BCD02FC0826EB4132D33 )
 )
 
 game (
 	name "AlphaBounce (Europe, Australia)"
 	description "AlphaBounce (Europe, Australia)"
 	serial "K2XV"
-	rom ( name "AlphaBounce (Europe, Australia).nds" size 8052736 crc 79215A49 md5 08651558438A567AF22964FCF97BD8B3 sha1 95F307BFFB986A0E5CB0669B616C5F0DE8417B00 )
+	rom ( name "AlphaBounce (Europe, Australia).nds" size 8052736 crc 79215A49 md5 08651558438A567AF22964FCF97BD8B3 sha1 95F307BFFB986A0E5CB0669B616C5F0DE8417B00 flags verified )
 )
 
 game (
 	name "Alt-Play - Jason Rohrer Anthology (USA)"
 	description "Alt-Play - Jason Rohrer Anthology (USA)"
 	serial "KJRE"
-	rom ( name "Alt-Play - Jason Rohrer Anthology (USA).nds" size 5825536 crc 7D335600 md5 F000F344231DF53C0DBC48AF706C373A sha1 C9C30B20A565017227BA1D6F367E28DF4734A26C )
+	rom ( name "Alt-Play - Jason Rohrer Anthology (USA).nds" size 5825536 crc 7D335600 md5 F000F344231DF53C0DBC48AF706C373A sha1 C9C30B20A565017227BA1D6F367E28DF4734A26C flags verified )
 )
 
 game (
 	name "American Popstar - Road to Celebrity (USA)"
 	description "American Popstar - Road to Celebrity (USA)"
 	serial "KPOE"
-	rom ( name "American Popstar - Road to Celebrity (USA).nds" size 16205824 crc 1250C490 md5 852CEE671865BB1AEE781D70F4D9EFB8 sha1 E0BEDDDBEB5B6E9CE624BD3091C84C6AF2C44125 )
+	rom ( name "American Popstar - Road to Celebrity (USA).nds" size 16205824 crc 1250C490 md5 852CEE671865BB1AEE781D70F4D9EFB8 sha1 E0BEDDDBEB5B6E9CE624BD3091C84C6AF2C44125 flags verified )
+)
+
+game (
+	name "Amoebattle (USA)"
+	description "Amoebattle (USA)"
+	serial "KUAE"
+	rom ( name "Amoebattle (USA).nds" size 11489280 crc 0BCCA5C6 md5 218345CF49D95F3A45C2FA53BBBA388F sha1 82276407ADBF041292D883C05C310F0F8781A664 )
+)
+
+game (
+	name "Anata no Rakuraku Drum Machine (Japan)"
+	description "Anata no Rakuraku Drum Machine (Japan)"
+	serial "KQDJ"
+	rom ( name "Anata no Rakuraku Drum Machine (Japan).nds" size 3900416 crc 35DF29DA md5 411DE79CBB7F436C16BD012FCE9CD59D sha1 F5B86574F594D81AA0090F83F9A24345D15D0A84 )
+)
+
+game (
+	name "Anata no Rakuraku Electronic Keyboard (Japan)"
+	description "Anata no Rakuraku Electronic Keyboard (Japan)"
+	serial "KK7J"
+	rom ( name "Anata no Rakuraku Electronic Keyboard (Japan).nds" size 3453952 crc 51D10C5C md5 068DF78924ACC0BE3BA033211366C043 sha1 299391B04CF80A801A2384D751ABCB4E1FE53618 )
+)
+
+game (
+	name "Ancient Tribe (USA)"
+	description "Ancient Tribe (USA)"
+	serial "KAEE"
+	rom ( name "Ancient Tribe (USA).nds" size 6257664 crc 9C44F709 md5 F62DA13C444D6DC6E444473B0E3E23C8 sha1 99BE3CB9F3D67C21EDAD57444AD4B4FCEA26308F flags verified )
 )
 
 game (
 	name "Animal Crossing Calculator (USA)"
 	description "Animal Crossing Calculator (USA)"
 	serial "KWGE"
-	rom ( name "Animal Crossing Calculator (USA).nds" size 2178048 crc 6894131E md5 0925D698641E220ABB0C77D4A4A69C3C sha1 E36B276A0A0A5BCD483953707FCCFB5AC1CDA142 )
+	rom ( name "Animal Crossing Calculator (USA).nds" size 2178048 crc 6894131E md5 0925D698641E220ABB0C77D4A4A69C3C sha1 E36B276A0A0A5BCD483953707FCCFB5AC1CDA142 flags verified )
+)
+
+game (
+	name "Animal Crossing Calculator (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Animal Crossing Calculator (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "KWGV"
+	rom ( name "Animal Crossing Calculator (Europe, Australia) (En,Fr,De,Es,It).nds" size 2476032 crc 82D99CDD md5 1D2A6F4A3D94C77B3487E202535DF95F sha1 A162265DE4263DC88FA01EB68DA9B646295A4DF8 flags verified )
 )
 
 game (
 	name "Animal Crossing Clock (USA)"
 	description "Animal Crossing Clock (USA)"
 	serial "KWCE"
-	rom ( name "Animal Crossing Clock (USA).nds" size 1935360 crc 58B66BD6 md5 76A135C006CDB406AA85F0AF25E6235B sha1 B73F87CC7E1E9B43CF23D84F069A8C289E5227E8 )
+	rom ( name "Animal Crossing Clock (USA).nds" size 1935360 crc 58B66BD6 md5 76A135C006CDB406AA85F0AF25E6235B sha1 B73F87CC7E1E9B43CF23D84F069A8C289E5227E8 flags verified )
+)
+
+game (
+	name "Animal Crossing Clock (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Animal Crossing Clock (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "KWCV"
+	rom ( name "Animal Crossing Clock (Europe, Australia) (En,Fr,De,Es,It).nds" size 2115584 crc FF610D36 md5 6695C2D9B25D44201EEBFE5E4904E8A6 sha1 4C9BCF6E59BA2B70EA2D8A73F2E995E7E892C152 flags verified )
 )
 
 game (
 	name "Anonymous Notes 1 - From The Abyss (USA)"
 	description "Anonymous Notes 1 - From The Abyss (USA)"
 	serial "KVIE"
-	rom ( name "Anonymous Notes 1 - From The Abyss (USA).nds" size 6047744 crc 95F64B4A md5 7D7EB7D838BC9A33B62D6C3DC2CC745B sha1 F2123D79D495A03C831A4F774A6E691B0EF861A7 )
+	rom ( name "Anonymous Notes 1 - From The Abyss (USA).nds" size 6047744 crc 95F64B4A md5 7D7EB7D838BC9A33B62D6C3DC2CC745B sha1 F2123D79D495A03C831A4F774A6E691B0EF861A7 flags verified )
 )
 
 game (
 	name "Anonymous Notes 1 - From The Abyss (Europe)"
 	description "Anonymous Notes 1 - From The Abyss (Europe)"
 	serial "KVIP"
-	rom ( name "Anonymous Notes 1 - From The Abyss (Europe).nds" size 6049792 crc 4B4F584F md5 EB361DC455F0CE8F4895523E69579327 sha1 8A1483D3AD18857DA8FA6909D46CFA9BEA304CEF )
+	rom ( name "Anonymous Notes 1 - From The Abyss (Europe).nds" size 6049792 crc 4B4F584F md5 EB361DC455F0CE8F4895523E69579327 sha1 8A1483D3AD18857DA8FA6909D46CFA9BEA304CEF flags verified )
 )
 
 game (
 	name "Anonymous Notes 2 - From The Abyss (USA)"
 	description "Anonymous Notes 2 - From The Abyss (USA)"
 	serial "KV2E"
-	rom ( name "Anonymous Notes 2 - From The Abyss (USA).nds" size 5865472 crc 8F2DBD63 md5 E7649733AC6268C299A536CBEF209AEA sha1 E608857B508A2C085EB07B7CFCC7B1E818B30E5E )
+	rom ( name "Anonymous Notes 2 - From The Abyss (USA).nds" size 5865472 crc 8F2DBD63 md5 E7649733AC6268C299A536CBEF209AEA sha1 E608857B508A2C085EB07B7CFCC7B1E818B30E5E flags verified )
 )
 
 game (
 	name "Anonymous Notes 2 - From The Abyss (Europe)"
 	description "Anonymous Notes 2 - From The Abyss (Europe)"
 	serial "KV2P"
-	rom ( name "Anonymous Notes 2 - From The Abyss (Europe).nds" size 5867520 crc D58FF863 md5 9D2DCC1BD9AFE484BA11902B68E33511 sha1 A068BF3A29E841F262C09F259693C6210E8460A1 )
+	rom ( name "Anonymous Notes 2 - From The Abyss (Europe).nds" size 5867520 crc D58FF863 md5 9D2DCC1BD9AFE484BA11902B68E33511 sha1 A068BF3A29E841F262C09F259693C6210E8460A1 flags verified )
 )
 
 game (
 	name "Anonymous Notes 3 - From The Abyss (USA)"
 	description "Anonymous Notes 3 - From The Abyss (USA)"
 	serial "KV3E"
-	rom ( name "Anonymous Notes 3 - From The Abyss (USA).nds" size 6352896 crc 905CD82E md5 3BF5FB868456EDF1BC46349D7CEBB447 sha1 5D99336435C587E268C3A71A4498991A96F7EB58 )
+	rom ( name "Anonymous Notes 3 - From The Abyss (USA).nds" size 6352896 crc 905CD82E md5 3BF5FB868456EDF1BC46349D7CEBB447 sha1 5D99336435C587E268C3A71A4498991A96F7EB58 flags verified )
 )
 
 game (
 	name "Anonymous Notes 4 - From The Abyss (USA)"
 	description "Anonymous Notes 4 - From The Abyss (USA)"
 	serial "KV4E"
-	rom ( name "Anonymous Notes 4 - From The Abyss (USA).nds" size 7659520 crc F481C509 md5 AF01CEB2872624EFCC55383FABA576F4 sha1 164F0DE54A16186FCA95D3E153C9FF62BD68954D )
+	rom ( name "Anonymous Notes 4 - From The Abyss (USA).nds" size 7659520 crc F481C509 md5 AF01CEB2872624EFCC55383FABA576F4 sha1 164F0DE54A16186FCA95D3E153C9FF62BD68954D flags verified )
+)
+
+game (
+	name "Antipole (USA)"
+	description "Antipole (USA)"
+	serial "KJHE"
+	rom ( name "Antipole (USA).nds" size 10993664 crc 7141FB2B md5 44B647B085C779E4C2C656F029E088D2 sha1 AEF00E152105D0C8A3CBFE1D4CB8FEF5A26E188B )
 )
 
 game (
 	name "Arcade Bowling (USA)"
 	description "Arcade Bowling (USA)"
 	serial "K4BE"
-	rom ( name "Arcade Bowling (USA).nds" size 3397632 crc 392FFA85 md5 57FBDB0A24A97A6A81FE07A0C0D4C3C6 sha1 BA9977FAE0A62FDD19A882AC6C4B208EBFCB8FFD )
+	rom ( name "Arcade Bowling (USA).nds" size 3397632 crc 392FFA85 md5 57FBDB0A24A97A6A81FE07A0C0D4C3C6 sha1 BA9977FAE0A62FDD19A882AC6C4B208EBFCB8FFD flags verified )
 )
 
 game (
 	name "Arctic Escape (USA)"
 	description "Arctic Escape (USA)"
 	serial "KQAE"
-	rom ( name "Arctic Escape (USA).nds" size 4673536 crc 9195C817 md5 005F3089641119682F9CFF92C87A7B2A sha1 EB7C661B8D6D75AAAC658EDF6F1BDE5AC1797C07 )
+	rom ( name "Arctic Escape (USA).nds" size 4673536 crc 9195C817 md5 005F3089641119682F9CFF92C87A7B2A sha1 EB7C661B8D6D75AAAC658EDF6F1BDE5AC1797C07 flags verified )
 )
 
 game (
 	name "Army Defender (USA)"
 	description "Army Defender (USA)"
 	serial "KAYE"
-	rom ( name "Army Defender (USA).nds" size 4882432 crc BAB40C1C md5 4D99F3185133642EB4E16E094D985108 sha1 A6405A3FF866D3C6CBD37EE252F3EBD652970E25 )
+	rom ( name "Army Defender (USA).nds" size 4882432 crc BAB40C1C md5 4D99F3185133642EB4E16E094D985108 sha1 A6405A3FF866D3C6CBD37EE252F3EBD652970E25 flags verified )
+)
+
+game (
+	name "Army Defender (Europe)"
+	description "Army Defender (Europe)"
+	serial "KAYP"
+	rom ( name "Army Defender (Europe).nds" size 4913152 crc DEA25EA2 md5 1407039E48134F9E6AF00DF60BB5AA1B sha1 32940B0F0233B568DA36176CF0E9290B9F1ED3F2 )
 )
 
 game (
@@ -251,66 +447,136 @@ game (
 )
 
 game (
+	name "Arrow of Laputa (Japan)"
+	description "Arrow of Laputa (Japan)"
+	serial "KYAJ"
+	rom ( name "Arrow of Laputa (Japan).nds" size 10708992 crc 310246B6 md5 FF2407DEB4F8CEBB85B5CDF245AA2A41 sha1 FA7B0C64E3C85C5685F21A314720F889A959AE05 )
+)
+
+game (
 	name "Art Academy - First Semester (USA)"
 	description "Art Academy - First Semester (USA)"
 	serial "KAIE"
-	rom ( name "Art Academy - First Semester (USA).nds" size 13963264 crc C96A20CC md5 AD141BB7599A34AAF0B14A63AC587A5A sha1 7376F2F22415F01474C472AD09003EEF1F730BC4 )
+	rom ( name "Art Academy - First Semester (USA).nds" size 13963264 crc C96A20CC md5 AD141BB7599A34AAF0B14A63AC587A5A sha1 7376F2F22415F01474C472AD09003EEF1F730BC4 flags verified )
+)
+
+game (
+	name "Art Academy - First Semester (Europe, Australia)"
+	description "Art Academy - First Semester (Europe, Australia)"
+	serial "KAIV"
+	rom ( name "Art Academy - First Semester (Europe, Australia).nds" size 14099456 crc B1954D71 md5 CB9BCFAA0FBE130518E68FAA2FD023F0 sha1 5D8165002E4E532F1387D7DDE39B5A1EC59C85AA flags verified )
 )
 
 game (
 	name "Art Academy - Second Semester (USA)"
 	description "Art Academy - Second Semester (USA)"
 	serial "KA2E"
-	rom ( name "Art Academy - Second Semester (USA).nds" size 15348736 crc 21EA29C4 md5 E6DCC53D7E1244A607C74B27A2F02899 sha1 7C583C2A94E511E1CB5C349883F5E193E3B72BEA )
+	rom ( name "Art Academy - Second Semester (USA).nds" size 15348736 crc 21EA29C4 md5 E6DCC53D7E1244A607C74B27A2F02899 sha1 7C583C2A94E511E1CB5C349883F5E193E3B72BEA flags verified )
+)
+
+game (
+	name "Art Academy - Second Semester (Europe, Australia)"
+	description "Art Academy - Second Semester (Europe, Australia)"
+	serial "KA2V"
+	rom ( name "Art Academy - Second Semester (Europe, Australia).nds" size 15436800 crc 45015200 md5 149A0095E0E1A7E627861203F84FF66E sha1 FB3C3CD3C2278A5CDBEBD04EF44C7C7CA147FF6B )
+)
+
+game (
+	name "Art Style - AQUIA (USA)"
+	description "Art Style - AQUIA (USA)"
+	serial "KAAE"
+	rom ( name "Art Style - AQUIA (USA).nds" size 11820032 crc D7A8A2EE md5 70E7E05A6CCF20BE74A1F2312C6FF98C sha1 C16FA2BEAAC20F5A78C3D04360ED3BE0085E1E45 flags verified )
 )
 
 game (
 	name "Art Style - AQUITE (Europe, Australia)"
 	description "Art Style - AQUITE (Europe, Australia)"
 	serial "KAAV"
-	rom ( name "Art Style - AQUITE (Europe, Australia).nds" size 11972608 crc 0B355060 md5 D54D85E928DBF210B146F49CB7B47E1C sha1 D3D7B8ED70BFF635101126C5F4AA0FA4051205CB )
+	rom ( name "Art Style - AQUITE (Europe, Australia).nds" size 11972608 crc 0B355060 md5 D54D85E928DBF210B146F49CB7B47E1C sha1 D3D7B8ED70BFF635101126C5F4AA0FA4051205CB flags verified )
+)
+
+game (
+	name "Art Style - BASE 10 (USA)"
+	description "Art Style - BASE 10 (USA)"
+	serial "KADE"
+	rom ( name "Art Style - BASE 10 (USA).nds" size 12526592 crc 3DE661E2 md5 DAB4DF4A47DA4AAE2A656BBCF3878741 sha1 B5267367061412D4F411B5C40C680451D96D15FA flags verified )
+)
+
+game (
+	name "Art Style - BOXLIFE (USA)"
+	description "Art Style - BOXLIFE (USA)"
+	serial "KAHE"
+	rom ( name "Art Style - BOXLIFE (USA).nds" size 8880128 crc 8B1FD9E8 md5 797323D5055519A692E737A841A127B8 sha1 103D6C0E080D428DED57E7529ADC5BD887C340E7 flags verified )
 )
 
 game (
 	name "Art Style - BOXLIFE (Europe, Australia)"
 	description "Art Style - BOXLIFE (Europe, Australia)"
 	serial "KAHV"
-	rom ( name "Art Style - BOXLIFE (Europe, Australia).nds" size 9040896 crc 0E8B0688 md5 E0FCBF3900DAF26ADBCCD8EDFF2F7417 sha1 E5DFCB6578C710353AF68B1E21ED9BCCB6732CD2 )
+	rom ( name "Art Style - BOXLIFE (Europe, Australia).nds" size 9040896 crc 0E8B0688 md5 E0FCBF3900DAF26ADBCCD8EDFF2F7417 sha1 E5DFCB6578C710353AF68B1E21ED9BCCB6732CD2 flags verified )
+)
+
+game (
+	name "Art Style - CODE (Europe, Australia)"
+	description "Art Style - CODE (Europe, Australia)"
+	serial "KADV"
+	rom ( name "Art Style - CODE (Europe, Australia).nds" size 12837888 crc F5F7E502 md5 C53CC6467ECAA20E842D3AA6221FA99B sha1 887954BF242007D341DA03F253F908EEA88F5467 flags verified )
+)
+
+game (
+	name "Art Style - DIGIDRIVE (USA) (Rev 1)"
+	description "Art Style - DIGIDRIVE (USA) (Rev 1)"
+	serial "KAVE"
+	rom ( name "Art Style - DIGIDRIVE (USA) (Rev 1).nds" size 11772928 crc D04B5106 md5 C627840E569CC94FB9B23A3A9DAEE22C sha1 2894F9D819236544BD9B157229918C3229C2B884 flags verified )
 )
 
 game (
 	name "Art Style - INTERSECT (Europe, Australia) (Rev 1)"
 	description "Art Style - INTERSECT (Europe, Australia) (Rev 1)"
 	serial "KAVV"
-	rom ( name "Art Style - INTERSECT (Europe, Australia) (Rev 1).nds" size 11777024 crc 46D995D0 md5 A122A201CA52B90554117CD0EB8180FB sha1 5BD29DC98D8F48573F5C593FFD166972029F32F6 )
+	rom ( name "Art Style - INTERSECT (Europe, Australia) (Rev 1).nds" size 11777024 crc 46D995D0 md5 A122A201CA52B90554117CD0EB8180FB sha1 5BD29DC98D8F48573F5C593FFD166972029F32F6 flags verified )
 )
 
 game (
-	name "Art Style Series - AQUIA (USA)"
-	description "Art Style Series - AQUIA (USA)"
-	serial "KAAE"
-	rom ( name "Art Style Series - AQUIA (USA).nds" size 11820032 crc D7A8A2EE md5 70E7E05A6CCF20BE74A1F2312C6FF98C sha1 C16FA2BEAAC20F5A78C3D04360ED3BE0085E1E45 )
+	name "Art Style - KUBOS (Europe, Australia)"
+	description "Art Style - KUBOS (Europe, Australia)"
+	serial "KAKV"
+	rom ( name "Art Style - KUBOS (Europe, Australia).nds" size 7690240 crc 6D7EC5F3 md5 EDE8D8BF821684196F1EF74FE18C1F9C sha1 87B9A2BE3C43267BE8C245A1F302E3CB53B00C97 )
 )
 
 game (
-	name "Art Style Series - BASE 10 (USA)"
-	description "Art Style Series - BASE 10 (USA)"
-	serial "KADE"
-	rom ( name "Art Style Series - BASE 10 (USA).nds" size 12526592 crc 3DE661E2 md5 DAB4DF4A47DA4AAE2A656BBCF3878741 sha1 B5267367061412D4F411B5C40C680451D96D15FA )
+	name "Art Style - NEMREM (Europe, Australia)"
+	description "Art Style - NEMREM (Europe, Australia)"
+	serial "KASV"
+	rom ( name "Art Style - NEMREM (Europe, Australia).nds" size 8837120 crc 4AB55F91 md5 0AA7CE9D8F13C02B77B4A44CE01E670E sha1 FA6EAA54C552B10C3D2A988BCC6C9618CC8D457E )
 )
 
 game (
-	name "Art Style Series - BOXLIFE (USA)"
-	description "Art Style Series - BOXLIFE (USA)"
-	serial "KAHE"
-	rom ( name "Art Style Series - BOXLIFE (USA).nds" size 8880128 crc 8B1FD9E8 md5 797323D5055519A692E737A841A127B8 sha1 103D6C0E080D428DED57E7529ADC5BD887C340E7 )
+	name "Art Style - PiCOPiCT (Europe, Australia)"
+	description "Art Style - PiCOPiCT (Europe, Australia)"
+	serial "KAPV"
+	rom ( name "Art Style - PiCOPiCT (Europe, Australia).nds" size 5816320 crc 408E7B05 md5 3B2A5638EF775AFC815A5D1538CF5FEE sha1 DA9B7327E7B538B8802D02A797FF2FC40D8C51F6 flags verified )
 )
 
 game (
-	name "Art Style Series - CODE (Europe, Australia)"
-	description "Art Style Series - CODE (Europe, Australia)"
-	serial "KADV"
-	rom ( name "Art Style Series - CODE (Europe, Australia).nds" size 12837888 crc F5F7E502 md5 C53CC6467ECAA20E842D3AA6221FA99B sha1 887954BF242007D341DA03F253F908EEA88F5467 )
+	name "Art Style - PiCTOBiTS (USA)"
+	description "Art Style - PiCTOBiTS (USA)"
+	serial "KAPE"
+	rom ( name "Art Style - PiCTOBiTS (USA).nds" size 5683200 crc 50BC058A md5 F56EC1C1129FB1DA05DBCA22588A9231 sha1 5C6A82E83068C06A226E8920FF2F6C1CBADFC99F flags verified )
+)
+
+game (
+	name "Art Style - precipice (USA)"
+	description "Art Style - precipice (USA)"
+	serial "KAKE"
+	rom ( name "Art Style - precipice (USA).nds" size 7577600 crc 279885C4 md5 F3A38698DF1D620EF81F90488393270A sha1 95740CBD21FF5D6C8281E531DE4EFFD204400393 flags verified )
+)
+
+game (
+	name "Art Style - ZENGAGE (USA)"
+	description "Art Style - ZENGAGE (USA)"
+	serial "KASE"
+	rom ( name "Art Style - ZENGAGE (USA).nds" size 8754176 crc E5BAE69E md5 2F8FF763A233937751F7EC0F9EA95608 sha1 1D37BBFD0D0CC381227980CA872A3918D9C57829 flags verified )
 )
 
 game (
@@ -321,38 +587,17 @@ game (
 )
 
 game (
-	name "Art Style Series - DIGIDRIVE (USA) (Rev 1)"
-	description "Art Style Series - DIGIDRIVE (USA) (Rev 1)"
-	serial "KAVE"
-	rom ( name "Art Style Series - DIGIDRIVE (USA) (Rev 1).nds" size 11772928 crc D04B5106 md5 C627840E569CC94FB9B23A3A9DAEE22C sha1 2894F9D819236544BD9B157229918C3229C2B884 )
+	name "Art Style Series - DECODE (Japan) (Rev 1)"
+	description "Art Style Series - DECODE (Japan) (Rev 1)"
+	serial "KADJ"
+	rom ( name "Art Style Series - DECODE (Japan) (Rev 1).nds" size 12048384 crc E37CBEB5 md5 701079662D3E3E6AC6BBE646DAB898BF sha1 E0B1125FBF9E81F773210F6CFEB2E4C7C175673A )
 )
 
 game (
-	name "Art Style Series - PiCTOBiTS (USA)"
-	description "Art Style Series - PiCTOBiTS (USA)"
-	serial "KAPE"
-	rom ( name "Art Style Series - PiCTOBiTS (USA).nds" size 5683200 crc 50BC058A md5 F56EC1C1129FB1DA05DBCA22588A9231 sha1 5C6A82E83068C06A226E8920FF2F6C1CBADFC99F )
-)
-
-game (
-	name "Art Style Series - PiCTOBiTS (Europe, Australia)"
-	description "Art Style Series - PiCTOBiTS (Europe, Australia)"
-	serial "KAPV"
-	rom ( name "Art Style Series - PiCTOBiTS (Europe, Australia).nds" size 5816320 crc 408E7B05 md5 3B2A5638EF775AFC815A5D1538CF5FEE sha1 DA9B7327E7B538B8802D02A797FF2FC40D8C51F6 )
-)
-
-game (
-	name "Art Style Series - precipice (USA)"
-	description "Art Style Series - precipice (USA)"
-	serial "KAKE"
-	rom ( name "Art Style Series - precipice (USA).nds" size 7577600 crc 279885C4 md5 F3A38698DF1D620EF81F90488393270A sha1 95740CBD21FF5D6C8281E531DE4EFFD204400393 )
-)
-
-game (
-	name "Art Style Series - ZENGAGE (USA)"
-	description "Art Style Series - ZENGAGE (USA)"
-	serial "KASE"
-	rom ( name "Art Style Series - ZENGAGE (USA).nds" size 8754176 crc E5BAE69E md5 2F8FF763A233937751F7EC0F9EA95608 sha1 1D37BBFD0D0CC381227980CA872A3918D9C57829 )
+	name "Art Style Series - PiCOPiCT (Japan)"
+	description "Art Style Series - PiCOPiCT (Japan)"
+	serial "KAPJ"
+	rom ( name "Art Style Series - PiCOPiCT (Japan).nds" size 5677056 crc 6FE1B9CE md5 9D7301D9756514522E2D9376AD50371C sha1 9299EB94477A0C4FCD77A4DF67878753C16CDC60 )
 )
 
 game (
@@ -370,6 +615,41 @@ game (
 )
 
 game (
+	name "Asphalt 4 - Elite Racing (Europe, Australia)"
+	description "Asphalt 4 - Elite Racing (Europe, Australia)"
+	serial "KA4V"
+	rom ( name "Asphalt 4 - Elite Racing (Europe, Australia).nds" size 14448640 crc 5676F49F md5 4AA27CE0355978D5263D99CF7980A851 sha1 F47C6EE13CE75FB3FB9B73F1525498F255F80347 )
+)
+
+game (
+	name "at Chess Challenge Spirits (Japan)"
+	description "at Chess Challenge Spirits (Japan)"
+	serial "KCZJ"
+	rom ( name "at Chess Challenge Spirits (Japan).nds" size 5945344 crc 75272203 md5 83B64B6778AE4ED9F7A7EB57D9EB33DB sha1 10B25B58470A37FED5F6097132778348399353AE )
+)
+
+game (
+	name "at Enta! Taisen Mahjong 2 (Japan)"
+	description "at Enta! Taisen Mahjong 2 (Japan)"
+	serial "KTJJ"
+	rom ( name "at Enta! Taisen Mahjong 2 (Japan).nds" size 6096896 crc 9ADBF7A3 md5 349BD6502013A94411B36705A66EAA94 sha1 5AA92457B9253A33F4F123B9AAA7F3FF4731554D )
+)
+
+game (
+	name "at Enta! Taisen Shogi 2 (Japan)"
+	description "at Enta! Taisen Shogi 2 (Japan)"
+	serial "KT4J"
+	rom ( name "at Enta! Taisen Shogi 2 (Japan).nds" size 5869568 crc 1BC4C899 md5 DB931C98307BADE5D7ADEB6FB4D4C357 sha1 70EAE9BA2267101DCA5A94375D338D361313B82A )
+)
+
+game (
+	name "at Shogi Challenge Spirits (Japan)"
+	description "at Shogi Challenge Spirits (Japan)"
+	serial "K4GJ"
+	rom ( name "at Shogi Challenge Spirits (Japan).nds" size 5820416 crc 1BEEDCC4 md5 F80439697A3E3F03BE7150945AC7805C sha1 CB453E47B964F1907A9FCB0B944AAB433E532747 )
+)
+
+game (
 	name "Atsumeru Egao Chou (Japan)"
 	description "Atsumeru Egao Chou (Japan)"
 	serial "KAGJ"
@@ -380,49 +660,49 @@ game (
 	name "Aura-Aura Climber (USA)"
 	description "Aura-Aura Climber (USA)"
 	serial "KSRE"
-	rom ( name "Aura-Aura Climber (USA).nds" size 4862976 crc 8815C8A4 md5 2E57607D40ED18BCA0E7144667E4BFC1 sha1 919F94298AD28C09CD69823FFD86325FC8D4E81F )
+	rom ( name "Aura-Aura Climber (USA).nds" size 4862976 crc 8815C8A4 md5 2E57607D40ED18BCA0E7144667E4BFC1 sha1 919F94298AD28C09CD69823FFD86325FC8D4E81F flags verified )
 )
 
 game (
-	name "Aura-Aura Climber (Europe, Australia)"
-	description "Aura-Aura Climber (Europe, Australia)"
+	name "Aura-Aura Climber (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Aura-Aura Climber (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KSRV"
-	rom ( name "Aura-Aura Climber (Europe, Australia).nds" size 5992448 crc 6D09C918 md5 7882F8097236519F4297FC371CA0BB17 sha1 D936289DDB66D26B3355AEFDB369FA31FC511D4D )
+	rom ( name "Aura-Aura Climber (Europe, Australia) (En,Fr,De,Es,It).nds" size 5992448 crc 6D09C918 md5 7882F8097236519F4297FC371CA0BB17 sha1 D936289DDB66D26B3355AEFDB369FA31FC511D4D flags verified )
 )
 
 game (
 	name "Battle of Giants - Dragons - Bronze Edition (USA)"
 	description "Battle of Giants - Dragons - Bronze Edition (USA)"
 	serial "KBAE"
-	rom ( name "Battle of Giants - Dragons - Bronze Edition (USA).nds" size 15667200 crc B69AB975 md5 F196DD187A500BED67B28C655EB73432 sha1 923418E8BD2585411F9D3A1BF67254AC889D169C )
+	rom ( name "Battle of Giants - Dragons - Bronze Edition (USA).nds" size 15667200 crc B69AB975 md5 F196DD187A500BED67B28C655EB73432 sha1 923418E8BD2585411F9D3A1BF67254AC889D169C flags verified )
 )
 
 game (
 	name "Bejeweled Twist (USA)"
 	description "Bejeweled Twist (USA)"
 	serial "KBEE"
-	rom ( name "Bejeweled Twist (USA).nds" size 12292096 crc A9A24967 md5 5B13BFA8680EE45DA3E124C0C5C1AA03 sha1 24B55B89530DEFDD34B786865E7F5B9A84802FDA )
+	rom ( name "Bejeweled Twist (USA).nds" size 12292096 crc A9A24967 md5 5B13BFA8680EE45DA3E124C0C5C1AA03 sha1 24B55B89530DEFDD34B786865E7F5B9A84802FDA flags verified )
 )
 
 game (
 	name "Bird & Beans (USA) (En,Fr,Es)"
 	description "Bird & Beans (USA) (En,Fr,Es)"
 	serial "KP6E"
-	rom ( name "Bird & Beans (USA) (En,Fr,Es).nds" size 1287168 crc 275C540B md5 02D8BCF07BA5D6F683ED6DA92D9B613E sha1 95F20180D02CE15EAD56F066F7D096F36479EC9E )
+	rom ( name "Bird & Beans (USA) (En,Fr,Es).nds" size 1287168 crc 275C540B md5 02D8BCF07BA5D6F683ED6DA92D9B613E sha1 95F20180D02CE15EAD56F066F7D096F36479EC9E flags verified )
 )
 
 game (
 	name "Bird & Bombs (Europe, Australia)"
 	description "Bird & Bombs (Europe, Australia)"
 	serial "KSPV"
-	rom ( name "Bird & Bombs (Europe, Australia).nds" size 3248128 crc 35C5836E md5 D3A354B18B8A2AFA2FDD642277701583 sha1 A6933144B5E4D333CF9DF20E165CD92540C551D8 )
+	rom ( name "Bird & Bombs (Europe, Australia).nds" size 3248128 crc 35C5836E md5 D3A354B18B8A2AFA2FDD642277701583 sha1 A6933144B5E4D333CF9DF20E165CD92540C551D8 flags verified )
 )
 
 game (
 	name "BlayzBloo - Super Melee Brawlers Battle Royale (USA)"
 	description "BlayzBloo - Super Melee Brawlers Battle Royale (USA)"
 	serial "KBZE"
-	rom ( name "BlayzBloo - Super Melee Brawlers Battle Royale (USA).nds" size 9148416 crc 5D69B96A md5 08042DF0E4D4341474D09F5544B62FF9 sha1 966A48C4BF283C8ED3BDF7795FD67F6BFE7BBFA0 )
+	rom ( name "BlayzBloo - Super Melee Brawlers Battle Royale (USA).nds" size 9148416 crc 5D69B96A md5 08042DF0E4D4341474D09F5544B62FF9 sha1 966A48C4BF283C8ED3BDF7795FD67F6BFE7BBFA0 flags verified )
 )
 
 game (
@@ -433,59 +713,94 @@ game (
 )
 
 game (
+	name "Bloons (USA)"
+	description "Bloons (USA)"
+	serial "KBLE"
+	rom ( name "Bloons (USA).nds" size 6693888 crc FBFAB256 md5 5565EF606A048118B155F2D2F634AF01 sha1 807A7860FC8208C125E3595C317290692A94AE9C flags verified )
+)
+
+game (
+	name "Bloons TD (USA)"
+	description "Bloons TD (USA)"
+	serial "KLNE"
+	rom ( name "Bloons TD (USA).nds" size 4332544 crc 8A09185C md5 B4EB7753E8F4CB2FFA2B6AFE384FE2D2 sha1 B452ADF42DC4BE8B13FF32FB6C1BC76A4790F68D flags verified )
+)
+
+game (
 	name "Bloons TD 4 (Europe)"
 	description "Bloons TD 4 (Europe)"
 	serial "KUVP"
-	rom ( name "Bloons TD 4 (Europe).nds" size 7065600 crc 734C4633 md5 E1905726352B423673E9A73313B3C415 sha1 C4D8D77403138EB5CDC3075C91943B266D258CDF )
+	rom ( name "Bloons TD 4 (Europe).nds" size 7065600 crc 734C4633 md5 E1905726352B423673E9A73313B3C415 sha1 C4D8D77403138EB5CDC3075C91943B266D258CDF flags verified )
 )
 
 game (
 	name "Bomberman Blitz (USA)"
 	description "Bomberman Blitz (USA)"
 	serial "KBBE"
-	rom ( name "Bomberman Blitz (USA).nds" size 6325248 crc 880D972E md5 B500301F503318F4967166FD1F10406C sha1 7C609C4F395F0CF6C43BD52B5F0AC54EFEE2890F )
+	rom ( name "Bomberman Blitz (USA).nds" size 6325248 crc 880D972E md5 B500301F503318F4967166FD1F10406C sha1 7C609C4F395F0CF6C43BD52B5F0AC54EFEE2890F flags verified )
+)
+
+game (
+	name "Bomberman Blitz (Europe, Australia)"
+	description "Bomberman Blitz (Europe, Australia)"
+	serial "KBBV"
+	rom ( name "Bomberman Blitz (Europe, Australia).nds" size 8569856 crc C9287C95 md5 C0F0BA49B88FF84778271D2CA33317DB sha1 75ED6FF5E3253D4BF404B37FA6274BA773CE77F0 )
+)
+
+game (
+	name "Bookstore Dream (USA)"
+	description "Bookstore Dream (USA)"
+	serial "KQVE"
+	rom ( name "Bookstore Dream (USA).nds" size 4425728 crc FA2F2753 md5 BE0A1BDEA75CA59FAAF0F0D9CE2EFF90 sha1 F3BA1ABC87B4A1E2CD2DA217E7892F888E4FE588 flags verified )
+)
+
+game (
+	name "Bookstore Dream (Europe, Australia)"
+	description "Bookstore Dream (Europe, Australia)"
+	serial "KQVV"
+	rom ( name "Bookstore Dream (Europe, Australia).nds" size 4490240 crc B672E654 md5 CBB8C3EBAE40EEA99DE8AB1263974A20 sha1 7835549CD3073A800EE45D18626AEF7BE19D3F83 flags verified )
 )
 
 game (
 	name "Bookworm (USA)"
 	description "Bookworm (USA)"
 	serial "KBKE"
-	rom ( name "Bookworm (USA).nds" size 6628352 crc 8832C4E6 md5 6D59D39BA433DCBD3396FB6AF738D978 sha1 85D198ED2435B95C5A502119CA98DBE1A7632E36 )
+	rom ( name "Bookworm (USA).nds" size 6628352 crc 8832C4E6 md5 6D59D39BA433DCBD3396FB6AF738D978 sha1 85D198ED2435B95C5A502119CA98DBE1A7632E36 flags verified )
 )
 
 game (
 	name "Boom Boom Squaries (USA)"
 	description "Boom Boom Squaries (USA)"
 	serial "KBME"
-	rom ( name "Boom Boom Squaries (USA).nds" size 3745792 crc CD26E2A8 md5 8BAD6AB64A45F8AF1E1FB60B54547466 sha1 53DA2E94219460BA2AB9C41576BD5BAD5578ABD8 )
+	rom ( name "Boom Boom Squaries (USA).nds" size 3745792 crc CD26E2A8 md5 8BAD6AB64A45F8AF1E1FB60B54547466 sha1 53DA2E94219460BA2AB9C41576BD5BAD5578ABD8 flags verified )
 )
 
 game (
 	name "Brain Age Express - Arts & Letters (USA) (Rev 1)"
 	description "Brain Age Express - Arts & Letters (USA) (Rev 1)"
 	serial "KNDE"
-	rom ( name "Brain Age Express - Arts & Letters (USA) (Rev 1).nds" size 8886272 crc 0DED0623 md5 DF181A808EDA13522C5B0D7F152521DB sha1 7791E920090180C3C9F862316CB7293EF57C6856 )
+	rom ( name "Brain Age Express - Arts & Letters (USA) (Rev 1).nds" size 8886272 crc 0DED0623 md5 DF181A808EDA13522C5B0D7F152521DB sha1 7791E920090180C3C9F862316CB7293EF57C6856 flags verified )
 )
 
 game (
 	name "Brain Age Express - Math (USA) (Rev 2)"
 	description "Brain Age Express - Math (USA) (Rev 2)"
 	serial "KNRE"
-	rom ( name "Brain Age Express - Math (USA) (Rev 2).nds" size 7671808 crc 050ECC91 md5 E403D0BACB9EB207BD093F80DB8FF1C2 sha1 DDBCCB28B10C4926300DDAC3B52DA1A03352E7CD )
+	rom ( name "Brain Age Express - Math (USA) (Rev 2).nds" size 7671808 crc 050ECC91 md5 E403D0BACB9EB207BD093F80DB8FF1C2 sha1 DDBCCB28B10C4926300DDAC3B52DA1A03352E7CD flags verified )
 )
 
 game (
 	name "Brain Age Express - Sudoku (USA) (Rev 2)"
 	description "Brain Age Express - Sudoku (USA) (Rev 2)"
 	serial "KN9E"
-	rom ( name "Brain Age Express - Sudoku (USA) (Rev 2).nds" size 3159040 crc 621CB39F md5 114D157E31583C81F8A20757A25EE736 sha1 2E34B636B7E37C44CDF5AFE090ECBB1C55828432 )
+	rom ( name "Brain Age Express - Sudoku (USA) (Rev 2).nds" size 3159040 crc 621CB39F md5 114D157E31583C81F8A20757A25EE736 sha1 2E34B636B7E37C44CDF5AFE090ECBB1C55828432 flags verified )
 )
 
 game (
 	name "Brain Challenge (USA)"
 	description "Brain Challenge (USA)"
 	serial "KBCE"
-	rom ( name "Brain Challenge (USA).nds" size 14800896 crc 22B64A8A md5 0FDE46593B26D806EC983201958748B0 sha1 42796C2729CB821F81B34C6E110C9CFA5EA92C3B )
+	rom ( name "Brain Challenge (USA).nds" size 14800896 crc 22B64A8A md5 0FDE46593B26D806EC983201958748B0 sha1 42796C2729CB821F81B34C6E110C9CFA5EA92C3B flags verified )
 )
 
 game (
@@ -499,7 +814,7 @@ game (
 	name "Bugs'N'Balls (Europe)"
 	description "Bugs'N'Balls (Europe)"
 	serial "KKQP"
-	rom ( name "Bugs'N'Balls (Europe).nds" size 6273024 crc FA27385E md5 B85AF7AE4C4EC749716DA7054A9DE653 sha1 A9F253D205DBED5DF09E9E991B8B2A636CC08A05 )
+	rom ( name "Bugs'N'Balls (Europe).nds" size 6273024 crc FA27385E md5 B85AF7AE4C4EC749716DA7054A9DE653 sha1 A9F253D205DBED5DF09E9E991B8B2A636CC08A05 flags verified )
 )
 
 game (
@@ -513,14 +828,21 @@ game (
 	name "Calculator (USA) (Rev 1)"
 	description "Calculator (USA) (Rev 1)"
 	serial "KCYE"
-	rom ( name "Calculator (USA) (Rev 1).nds" size 1907712 crc D9457FED md5 01847F46DAB9707203CEE0B94BDC726B sha1 D339904875086AE8384207DB547C04996EECC895 )
+	rom ( name "Calculator (USA) (Rev 1).nds" size 1907712 crc D9457FED md5 01847F46DAB9707203CEE0B94BDC726B sha1 D339904875086AE8384207DB547C04996EECC895 flags verified )
 )
 
 game (
 	name "Calculator (Europe, Australia)"
 	description "Calculator (Europe, Australia)"
 	serial "KCYV"
-	rom ( name "Calculator (Europe, Australia).nds" size 1917952 crc DBD6D114 md5 9D64D00A7CDB55DD862D28FBB0329AA9 sha1 2FC405D0E9134666B7C092B1C2264A3D002C1F3B )
+	rom ( name "Calculator (Europe, Australia).nds" size 1917952 crc DBD6D114 md5 9D64D00A7CDB55DD862D28FBB0329AA9 sha1 2FC405D0E9134666B7C092B1C2264A3D002C1F3B flags verified )
+)
+
+game (
+	name "Candle Route (USA)"
+	description "Candle Route (USA)"
+	serial "K9YE"
+	rom ( name "Candle Route (USA).nds" size 3908608 crc A938029A md5 7DE9F1D941716B6FA0EB4BD9E186234C sha1 BBCA3DBD91C3DAD45A0FA2BDEF254ACA10157442 )
 )
 
 game (
@@ -538,10 +860,24 @@ game (
 )
 
 game (
+	name "Castle Conqueror (USA)"
+	description "Castle Conqueror (USA)"
+	serial "KCNE"
+	rom ( name "Castle Conqueror (USA).nds" size 11874304 crc ACB6EE7C md5 B0C8D55DF88472FF66ADB395C8B6A208 sha1 2ED9B690831D64CA408038640BBCC0A1DCF94DFD )
+)
+
+game (
+	name "Castle Conqueror - Against (Europe, Australia)"
+	description "Castle Conqueror - Against (Europe, Australia)"
+	serial "KQOV"
+	rom ( name "Castle Conqueror - Against (Europe, Australia).nds" size 8417280 crc DBDC6C15 md5 7BD43A52489EB8802813025C7D9B662A sha1 5EF0B62855BD67745B66D2D299872755216FF045 )
+)
+
+game (
 	name "Castle Conqueror - Heroes (Europe, Australia)"
 	description "Castle Conqueror - Heroes (Europe, Australia)"
 	serial "KC5V"
-	rom ( name "Castle Conqueror - Heroes (Europe, Australia).nds" size 10281984 crc 8B95DC26 md5 99FC1509EE43C4312197E771EAE43165 sha1 86BE3C2A037EFB01CFF54BC320958993616AF2CE )
+	rom ( name "Castle Conqueror - Heroes (Europe, Australia).nds" size 10281984 crc 8B95DC26 md5 99FC1509EE43C4312197E771EAE43165 sha1 86BE3C2A037EFB01CFF54BC320958993616AF2CE flags verified )
 )
 
 game (
@@ -562,21 +898,35 @@ game (
 	name "Castle of Magic (USA)"
 	description "Castle of Magic (USA)"
 	serial "KCME"
-	rom ( name "Castle of Magic (USA).nds" size 12178432 crc 90B795DE md5 AD762327EEF20ECFD77BE6F16EF0976A sha1 97C15D3C2000119046BB3274AECDF4C5AB0FD13E )
+	rom ( name "Castle of Magic (USA).nds" size 12178432 crc 90B795DE md5 AD762327EEF20ECFD77BE6F16EF0976A sha1 97C15D3C2000119046BB3274AECDF4C5AB0FD13E flags verified )
 )
 
 game (
 	name "Castle of Magic (Europe, Australia)"
 	description "Castle of Magic (Europe, Australia)"
 	serial "KCMV"
-	rom ( name "Castle of Magic (Europe, Australia).nds" size 12213248 crc 228A3666 md5 0216D376576B00E2483958B4AE56722E sha1 10636AEA98424E19D8C784EED76D11976FA9DF3D )
+	rom ( name "Castle of Magic (Europe, Australia).nds" size 12213248 crc 228A3666 md5 0216D376576B00E2483958B4AE56722E sha1 10636AEA98424E19D8C784EED76D11976FA9DF3D flags verified )
+)
+
+game (
+	name "Cat Frenzy (USA)"
+	description "Cat Frenzy (USA)"
+	serial "KVXE"
+	rom ( name "Cat Frenzy (USA).nds" size 4083712 crc 251CDEE8 md5 53FDDC5CA58AE1A1C246A5152680B5F9 sha1 F4A07451D4A03DC79E3B1458C5A773491DDED00A )
 )
 
 game (
 	name "Cave Story (USA)"
 	description "Cave Story (USA)"
 	serial "KCVE"
-	rom ( name "Cave Story (USA).nds" size 5972992 crc FE96D488 md5 F18811731C26A6AAD35B4B47A4DA5518 sha1 1DBD52C55092484CB01D51520D4FB560FB579924 )
+	rom ( name "Cave Story (USA).nds" size 5972992 crc FE96D488 md5 F18811731C26A6AAD35B4B47A4DA5518 sha1 1DBD52C55092484CB01D51520D4FB560FB579924 flags verified )
+)
+
+game (
+	name "Chikaragami - Rikishi (Japan)"
+	description "Chikaragami - Rikishi (Japan)"
+	serial "KRSJ"
+	rom ( name "Chikaragami - Rikishi (Japan).nds" size 11657216 crc F9DD1D66 md5 3B4D0089A3490A9EDEF21D4AE6E7883C sha1 0E79378093F4B156FBD598C339DA0D2508FE28D5 )
 )
 
 game (
@@ -605,6 +955,13 @@ game (
 	description "Chotto Magic Taizen - Funny Face (Japan)"
 	serial "KMFJ"
 	rom ( name "Chotto Magic Taizen - Funny Face (Japan).nds" size 3013632 crc A610DA11 md5 17108253F71F45922CF65B13903AC02C sha1 E0CF78F1873C993F4650448C7E90454520C7F7A0 )
+)
+
+game (
+	name "Chotto Magic Taizen - Nensha Camera (Japan)"
+	description "Chotto Magic Taizen - Nensha Camera (Japan)"
+	serial "KMNJ"
+	rom ( name "Chotto Magic Taizen - Nensha Camera (Japan).nds" size 2574336 crc 7DEEA8C4 md5 91B667724D938F3FE9AE6DC6D2B758FB sha1 E8FBF5C3A9C729517DFB44E03F168E71F01A3199 )
 )
 
 game (
@@ -646,21 +1003,21 @@ game (
 	name "Clubhouse Games Express - Card Classics (USA, Australia) (Rev 1)"
 	description "Clubhouse Games Express - Card Classics (USA, Australia) (Rev 1)"
 	serial "KTRT"
-	rom ( name "Clubhouse Games Express - Card Classics (USA, Australia) (Rev 1).nds" size 4041728 crc 7F626587 md5 9ED019D8E7AE85204DA827785948B9A8 sha1 582571CF6927A03D573B6C66C3363D1D7A0BF3DE )
+	rom ( name "Clubhouse Games Express - Card Classics (USA, Australia) (Rev 1).nds" size 4041728 crc 7F626587 md5 9ED019D8E7AE85204DA827785948B9A8 sha1 582571CF6927A03D573B6C66C3363D1D7A0BF3DE flags verified )
 )
 
 game (
 	name "Clubhouse Games Express - Family Favorites (USA, Australia)"
 	description "Clubhouse Games Express - Family Favorites (USA, Australia)"
 	serial "KTCT"
-	rom ( name "Clubhouse Games Express - Family Favorites (USA, Australia).nds" size 4697088 crc 02A8A025 md5 E3AB1B81B20CD7F5DC9A4A7E5B2FE93C sha1 71571A2A06E3EC967D6D3BB96796A0DBB0919027 )
+	rom ( name "Clubhouse Games Express - Family Favorites (USA, Australia).nds" size 4697088 crc 02A8A025 md5 E3AB1B81B20CD7F5DC9A4A7E5B2FE93C sha1 71571A2A06E3EC967D6D3BB96796A0DBB0919027 flags verified )
 )
 
 game (
 	name "Clubhouse Games Express - Strategy Pack (USA, Australia)"
 	description "Clubhouse Games Express - Strategy Pack (USA, Australia)"
 	serial "KTDT"
-	rom ( name "Clubhouse Games Express - Strategy Pack (USA, Australia).nds" size 4728832 crc 21F17069 md5 1C7AD74EC46C6606B5DAC7DF2CF4648B sha1 483825B5A6F95F980B8235597F950B1350E9E5D8 )
+	rom ( name "Clubhouse Games Express - Strategy Pack (USA, Australia).nds" size 4728832 crc 21F17069 md5 1C7AD74EC46C6606B5DAC7DF2CF4648B sha1 483825B5A6F95F980B8235597F950B1350E9E5D8 flags verified )
 )
 
 game (
@@ -668,6 +1025,13 @@ game (
 	description "Come On! Dragons (USA)"
 	serial "KX4E"
 	rom ( name "Come On! Dragons (USA).nds" size 4459520 crc 81E6B5BF md5 874D8CD39B5F78EE7F422F48702C7968 sha1 993B79DC34A0C1E21801ED411A51510C17E8E2FC )
+)
+
+game (
+	name "Come On! Dragons (Europe)"
+	description "Come On! Dragons (Europe)"
+	serial "KX4P"
+	rom ( name "Come On! Dragons (Europe).nds" size 4515840 crc 80A70CA8 md5 E7F929D7ECA486A086F25DB6E7B70420 sha1 E4C58DB93F3F9E456C8FACA1A11C7D07B3655D0B )
 )
 
 game (
@@ -695,42 +1059,175 @@ game (
 	name "Crash-Course Domo (USA)"
 	description "Crash-Course Domo (USA)"
 	serial "KDCE"
-	rom ( name "Crash-Course Domo (USA).nds" size 2278400 crc B74A06D5 md5 E67F6FBB7E224E75D4BF7016C4A93644 sha1 D35FBC08150B53C0750BC3F523159A5673777126 )
+	rom ( name "Crash-Course Domo (USA).nds" size 2278400 crc B74A06D5 md5 E67F6FBB7E224E75D4BF7016C4A93644 sha1 D35FBC08150B53C0750BC3F523159A5673777126 flags verified )
 )
 
 game (
 	name "Crazy Cheebo - Puzzle Party (Europe)"
 	description "Crazy Cheebo - Puzzle Party (Europe)"
 	serial "KCQP"
-	rom ( name "Crazy Cheebo - Puzzle Party (Europe).nds" size 6013952 crc BFAF2C73 md5 9F3A4D7535F772752075759C363B06A8 sha1 EE584445AAE9DB6AF26CB3D4E135E41E79D0CAE0 )
+	rom ( name "Crazy Cheebo - Puzzle Party (Europe).nds" size 6013952 crc BFAF2C73 md5 9F3A4D7535F772752075759C363B06A8 sha1 EE584445AAE9DB6AF26CB3D4E135E41E79D0CAE0 flags verified )
+)
+
+game (
+	name "Crazy Chicken - Director's Cut (Europe)"
+	description "Crazy Chicken - Director's Cut (Europe)"
+	serial "KQZP"
+	rom ( name "Crazy Chicken - Director's Cut (Europe).nds" size 11573248 crc 9B5D3C58 md5 3B45D4B66C07FE8A57F7388AE0DB4635 sha1 3C8CA459151EF166B43A46A2A43085F5AD6B9BD1 )
+)
+
+game (
+	name "Crazy Chicken - Pirates (Europe)"
+	description "Crazy Chicken - Pirates (Europe)"
+	serial "KQPP"
+	rom ( name "Crazy Chicken - Pirates (Europe).nds" size 6216704 crc BCAFEF16 md5 E45B34A2BE36D00BC438341C4C10D71D sha1 C04401299D77D003AFD070123E1CF7EE7F9E04A0 )
+)
+
+game (
+	name "Crazy Golf (Europe, Australia)"
+	description "Crazy Golf (Europe, Australia)"
+	serial "KZGV"
+	rom ( name "Crazy Golf (Europe, Australia).nds" size 6037504 crc 5C93912E md5 04B8FC5D6593366AFD9FAB7D6B34B54B sha1 1B580A5008BABBDB9BA8FBC34B805EFFFAD09D43 flags verified )
+)
+
+game (
+	name "Crazy Hamster (Europe)"
+	description "Crazy Hamster (Europe)"
+	serial "KK2P"
+	rom ( name "Crazy Hamster (Europe).nds" size 5661696 crc 3F55F631 md5 146812F9C4B0F1DF9BF48A2DB7FFDB59 sha1 C79F19C1A807288AE42AE561FE85142117D4B21B flags verified )
+)
+
+game (
+	name "Crazy Hamster (USA)"
+	description "Crazy Hamster (USA)"
+	serial "KK2E"
+	rom ( name "Crazy Hamster (USA).nds" size 5524480 crc 9B4264B9 md5 B88647D24B7232E6FA3E1D5C2B6E68C4 sha1 4ADD06014919341293438594D76639E07AF175A3 )
+)
+
+game (
+	name "Crazy Train (USA)"
+	description "Crazy Train (USA)"
+	serial "K5UE"
+	rom ( name "Crazy Train (USA).nds" size 4279296 crc F528C459 md5 B72513B0EF1539E09CE5D67F3123F8E1 sha1 03F595CED8FE42A308BDB09B245AC2A83E57CCF2 flags verified )
+)
+
+game (
+	name "Crazy Train (USA) (Rev 1)"
+	description "Crazy Train (USA) (Rev 1)"
+	serial "K5UE"
+	rom ( name "Crazy Train (USA) (Rev 1).nds" size 4357120 crc 9205D9D8 md5 8E3A3507792D1AA3E9EED5A2B998EE0E sha1 F90C0A6DE94703B7C541A2F72E443C2898530580 )
+)
+
+game (
+	name "Crystal Adventure (Europe)"
+	description "Crystal Adventure (Europe)"
+	serial "KXDP"
+	rom ( name "Crystal Adventure (Europe).nds" size 4874240 crc 8E0AB2D6 md5 04278F80CC4E6C6BE6DCFE15E567DF10 sha1 C9DCCEEE507C98F6DDD769C0BE1EC2B66CCE25C2 )
+)
+
+game (
+	name "Crystal Monsters (USA)"
+	description "Crystal Monsters (USA)"
+	serial "KCOE"
+	rom ( name "Crystal Monsters (USA).nds" size 9062400 crc 74949518 md5 84C8A91781EF337092891F53ACC8778F sha1 65D7BD6326BF24B5D7C89144ECD885FF323F884D flags verified )
+)
+
+game (
+	name "Crystal Monsters (Europe, Australia)"
+	description "Crystal Monsters (Europe, Australia)"
+	serial "KCOV"
+	rom ( name "Crystal Monsters (Europe, Australia).nds" size 9491456 crc BBA104C6 md5 82F2F2B1E2F497174133E03F356652CC sha1 94E132F3E7F51CC3BF5F144BEEEA2C1A5609375F )
+)
+
+game (
+	name "Cut the Rope (USA)"
+	description "Cut the Rope (USA)"
+	serial "KKTE"
+	rom ( name "Cut the Rope (USA).nds" size 12132352 crc 5B79CAC0 md5 7F6B64CA7D2009FD3EF361E7A63EF1FE sha1 2F7535F7B012CA47A11F173D1CDF9AD38BE6ACEB flags verified )
+)
+
+game (
+	name "Cut the Rope (Europe, Australia)"
+	description "Cut the Rope (Europe, Australia)"
+	serial "KKTV"
+	rom ( name "Cut the Rope (Europe, Australia).nds" size 12132352 crc B7833D51 md5 7FE65324BD66984F2C9C310EA8DAF071 sha1 8F4A417B3881286332749AC15DF35F9849835556 )
 )
 
 game (
 	name "Dark Void Zero (USA)"
 	description "Dark Void Zero (USA)"
 	serial "KDVE"
-	rom ( name "Dark Void Zero (USA).nds" size 9526272 crc 9CD99CB8 md5 0963DBAB486179452145E324F1AB4058 sha1 AB8B68FB23BDDAFAED35C826BBF2E0BA16D842A9 )
+	rom ( name "Dark Void Zero (USA).nds" size 9526272 crc 9CD99CB8 md5 0963DBAB486179452145E324F1AB4058 sha1 AB8B68FB23BDDAFAED35C826BBF2E0BA16D842A9 flags verified )
+)
+
+game (
+	name "Dark Void Zero (Europe, Australia)"
+	description "Dark Void Zero (Europe, Australia)"
+	serial "KDVV"
+	rom ( name "Dark Void Zero (Europe, Australia).nds" size 9525248 crc D3EFCCC3 md5 C2B23281D1089509514B7B012F272E08 sha1 E1539AE3B724307E5E747FCD23AC1D338B09B3FD flags verified )
+)
+
+game (
+	name "Date Or Ditch (Europe, Australia)"
+	description "Date Or Ditch (Europe, Australia)"
+	serial "KD2V"
+	rom ( name "Date Or Ditch (Europe, Australia).nds" size 8945664 crc 05DF3346 md5 C2C66530D4AAF75B5919EB6F39EDE46F sha1 F2730D527D96F9042CCACB75C5DC1E0CEE21B441 )
+)
+
+game (
+	name "Dekisugi Tingle Pack (Japan)"
+	description "Dekisugi Tingle Pack (Japan)"
+	serial "KCPJ"
+	rom ( name "Dekisugi Tingle Pack (Japan).nds" size 11113472 crc 7AC4F27D md5 D6298C1339FC883197B9A7B4C5D907A6 sha1 564D446BF12B23CF7AD05148498F8FEF76EC8DA7 )
 )
 
 game (
 	name "Dictionary 6 in 1 with Camera Function (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Dictionary 6 in 1 with Camera Function (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	serial "KCDV"
-	rom ( name "Dictionary 6 in 1 with Camera Function (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).nds" size 12342272 crc 20E0AA37 md5 E76B934BA62C0FDD78919B9C55A35743 sha1 4822B5FB20BB95DF60EE11F35F4812D08C7C7252 )
+	rom ( name "Dictionary 6 in 1 with Camera Function (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).nds" size 12342272 crc 20E0AA37 md5 E76B934BA62C0FDD78919B9C55A35743 sha1 4822B5FB20BB95DF60EE11F35F4812D08C7C7252 flags verified )
+)
+
+game (
+	name "Digger Dan & Kaboom (Europe)"
+	description "Digger Dan & Kaboom (Europe)"
+	serial "KBHP"
+	rom ( name "Digger Dan & Kaboom (Europe).nds" size 6825984 crc FA626707 md5 6ACDCFEDAD56639176E611B19CE404B5 sha1 7138A38A55B85E619A5E2CB7BBDACA6195AE81CE flags verified )
 )
 
 game (
 	name "DodoGo! (Europe, Australia)"
 	description "DodoGo! (Europe, Australia)"
 	serial "K2GV"
-	rom ( name "DodoGo! (Europe, Australia).nds" size 16411648 crc EE26CB48 md5 B0026E45B8029C13A601EFF96CD9B1C7 sha1 C319036D10E2374A75FDE3F6657F95E3111136C7 )
+	rom ( name "DodoGo! (Europe, Australia).nds" size 16411648 crc EE26CB48 md5 B0026E45B8029C13A601EFF96CD9B1C7 sha1 C319036D10E2374A75FDE3F6657F95E3111136C7 flags verified )
+)
+
+game (
+	name "DodoGo! Robo (Europe, Australia)"
+	description "DodoGo! Robo (Europe, Australia)"
+	serial "KG5V"
+	rom ( name "DodoGo! Robo (Europe, Australia).nds" size 5602304 crc 1407EA9D md5 E714C0FC9FD3A2F7445584D71DEEBF57 sha1 86B1573FB7FD9A0EB14B683D371FA561ABC2B07A )
+)
+
+game (
+	name "Dokodemo Wii no Ma (Japan) (Rev 1)"
+	description "Dokodemo Wii no Ma (Japan) (Rev 1)"
+	serial "KDGJ"
+	rom ( name "Dokodemo Wii no Ma (Japan) (Rev 1).nds" size 3150848 crc 688DA259 md5 59F41B5A7AF219B23238108015426530 sha1 8B3132D16F4EC2D5471A11D050AB4282A4A08E84 )
+)
+
+game (
+	name "Don't Cross the Line (USA)"
+	description "Don't Cross the Line (USA)"
+	serial "KMLE"
+	rom ( name "Don't Cross the Line (USA).nds" size 4434944 crc 3C77AB9D md5 AC3FD45E154298EE611A308ACB43C53C sha1 A865723AAA9D02056DF477372B76ABB37860AFA3 flags verified )
 )
 
 game (
 	name "DotMan (USA)"
 	description "DotMan (USA)"
 	serial "KHEE"
-	rom ( name "DotMan (USA).nds" size 4466688 crc 8BD91E84 md5 709DB10696D75EF80D985CA49FE5D6AD sha1 2CDB083A882DFD55AD2202BC74EBBB1C9C6B31F5 )
+	rom ( name "DotMan (USA).nds" size 4466688 crc 8BD91E84 md5 709DB10696D75EF80D985CA49FE5D6AD sha1 2CDB083A882DFD55AD2202BC74EBBB1C9C6B31F5 flags verified )
 )
 
 game (
@@ -741,17 +1238,31 @@ game (
 )
 
 game (
+	name "Dr. Mario Express (USA) (Rev 1)"
+	description "Dr. Mario Express (USA) (Rev 1)"
+	serial "KD9E"
+	rom ( name "Dr. Mario Express (USA) (Rev 1).nds" size 3900416 crc FAEB9B63 md5 3B5C3D7EFB502D78ED02D14F88CE144B sha1 BE973DA1C3D95DC8331148D69BCD9EE199AEA8C8 flags verified )
+)
+
+game (
+	name "Dragon Quest Monsters - Battle Road Victory - Senyou Color Code Scanner (Japan) (Rev 1)"
+	description "Dragon Quest Monsters - Battle Road Victory - Senyou Color Code Scanner (Japan) (Rev 1)"
+	serial "KBVJ"
+	rom ( name "Dragon Quest Monsters - Battle Road Victory - Senyou Color Code Scanner (Japan) (Rev 1).nds" size 2259968 crc 6EFD9847 md5 E823ED79C521459AF51A36F912A442D6 sha1 63C7E9D0A4F312A93B20BF2E307F37A913D61A8B )
+)
+
+game (
 	name "Dragon Quest Wars (USA)"
 	description "Dragon Quest Wars (USA)"
 	serial "KDQE"
-	rom ( name "Dragon Quest Wars (USA).nds" size 11000832 crc F3990A9E md5 A84DEB247AC21EEC6BD1A52E8251B37B sha1 03065D9CB13DD53A055F57C1BF9EDC345BE13D63 )
+	rom ( name "Dragon Quest Wars (USA).nds" size 11000832 crc F3990A9E md5 A84DEB247AC21EEC6BD1A52E8251B37B sha1 03065D9CB13DD53A055F57C1BF9EDC345BE13D63 flags verified )
 )
 
 game (
 	name "Dragon Quest Wars (Europe, Australia)"
 	description "Dragon Quest Wars (Europe, Australia)"
 	serial "KDQV"
-	rom ( name "Dragon Quest Wars (Europe, Australia).nds" size 11000832 crc FB024049 md5 95B7A00CF6ECD8EB2F27C00CE2DB0A2F sha1 3A86869A0432E3438E4E33B154789062F987413D )
+	rom ( name "Dragon Quest Wars (Europe, Australia).nds" size 11000832 crc FB024049 md5 95B7A00CF6ECD8EB2F27C00CE2DB0A2F sha1 3A86869A0432E3438E4E33B154789062F987413D flags verified )
 )
 
 game (
@@ -765,7 +1276,14 @@ game (
 	name "Dragon's Lair (Europe, Australia)"
 	description "Dragon's Lair (Europe, Australia)"
 	serial "KDLV"
-	rom ( name "Dragon's Lair (Europe, Australia).nds" size 16492544 crc 4D54C0CA md5 681833ACF944AF6D7864613753F130CE sha1 B2223C1C765C01E8D4F53816F4A8DD4858A90ED4 )
+	rom ( name "Dragon's Lair (Europe, Australia).nds" size 16492544 crc 4D54C0CA md5 681833ACF944AF6D7864613753F130CE sha1 B2223C1C765C01E8D4F53816F4A8DD4858A90ED4 flags verified )
+)
+
+game (
+	name "Dragon's Lair (USA)"
+	description "Dragon's Lair (USA)"
+	serial "KDLE"
+	rom ( name "Dragon's Lair (USA).nds" size 16478208 crc 5FD0A40C md5 2741AB3D9527E4622294580445695EBE sha1 7BC6A18FD9DFE4E59ED8EE3BBEF8A42E35A2A59E )
 )
 
 game (
@@ -776,10 +1294,31 @@ game (
 )
 
 game (
+	name "Drift Street International (Europe, Australia)"
+	description "Drift Street International (Europe, Australia)"
+	serial "KIFV"
+	rom ( name "Drift Street International (Europe, Australia).nds" size 9626624 crc 9ADE01A2 md5 A00A7AA0C8202FA9F946A488A673C678 sha1 2EA03D1C0582B9420F5364B93536FCF9F252E310 flags verified )
+)
+
+game (
+	name "Drift Street International (USA)"
+	description "Drift Street International (USA)"
+	serial "KIFE"
+	rom ( name "Drift Street International (USA).nds" size 9572352 crc CCA4A840 md5 C4B357DCA9EEA6A6BCDA3E4CAF9EC4CB sha1 24C23FAA1BC2E776B51CEFA44E60BA46A5A36EE9 )
+)
+
+game (
 	name "Earthworm Jim (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Earthworm Jim (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KEWV"
 	rom ( name "Earthworm Jim (Europe, Australia) (En,Fr,De,Es,It).nds" size 12119040 crc 69DD08D6 md5 5D711B4DA72765A9BC991D459F5C1F02 sha1 E39E62A9C9E99186C41A419943CB34129BBB4F66 )
+)
+
+game (
+	name "Earthworm Jim (USA)"
+	description "Earthworm Jim (USA)"
+	serial "KEWE"
+	rom ( name "Earthworm Jim (USA).nds" size 12061696 crc 86C842A2 md5 3F6490648AD5BA2A67019A29712829F2 sha1 C90EFBF5AC522592B5A2555E3E19661C9575CE68 )
 )
 
 game (
@@ -790,87 +1329,157 @@ game (
 )
 
 game (
-	name "Electronic Keyboard (USA)"
-	description "Electronic Keyboard (USA)"
-	serial "KK7E"
-	rom ( name "Electronic Keyboard (USA).nds" size 3401728 crc B172FC21 md5 C79EB0B792B4F7A360C837F3274DADAE sha1 BD6EA02EC23C0CD647CDE505C169D46C301023C1 )
-)
-
-game (
 	name "Electroplankton - Beatnes (USA)"
 	description "Electroplankton - Beatnes (USA)"
 	serial "KEIE"
-	rom ( name "Electroplankton - Beatnes (USA).nds" size 3037184 crc 8C296C23 md5 CAF02C2ABC94C159A814733F29FC6BA2 sha1 4096E201BF8E3B80B5F725AEB36E4B7BD9CA9158 )
+	rom ( name "Electroplankton - Beatnes (USA).nds" size 3037184 crc 8C296C23 md5 CAF02C2ABC94C159A814733F29FC6BA2 sha1 4096E201BF8E3B80B5F725AEB36E4B7BD9CA9158 flags verified )
+)
+
+game (
+	name "Electroplankton - Beatnes (Europe, Australia)"
+	description "Electroplankton - Beatnes (Europe, Australia)"
+	serial "KEIV"
+	rom ( name "Electroplankton - Beatnes (Europe, Australia).nds" size 4391936 crc 159E8D71 md5 6CF8590F43AA797DE0BE5023777C80E1 sha1 C1706CA4B0D3904B0B23BE61D859D6EA381D2A07 )
+)
+
+game (
+	name "Electroplankton - Hanenbon (Japan)"
+	description "Electroplankton - Hanenbon (Japan)"
+	serial "KEBJ"
+	rom ( name "Electroplankton - Hanenbon (Japan).nds" size 2667520 crc 544E3E77 md5 1BB989258F928575BC70F3038DC191E6 sha1 18AEBB5EE71D17C533D2F2003F20337F45FD9353 )
 )
 
 game (
 	name "Electroplankton - Hanenbow (USA)"
 	description "Electroplankton - Hanenbow (USA)"
 	serial "KEBE"
-	rom ( name "Electroplankton - Hanenbow (USA).nds" size 2767872 crc 79CE030D md5 E8E4B90EA2996C58FBF6E29CC24AAB1B sha1 B2E4D2EB83288D7B96A9906F603B67FF4D6EE519 )
+	rom ( name "Electroplankton - Hanenbow (USA).nds" size 2767872 crc 79CE030D md5 E8E4B90EA2996C58FBF6E29CC24AAB1B sha1 B2E4D2EB83288D7B96A9906F603B67FF4D6EE519 flags verified )
+)
+
+game (
+	name "Electroplankton - Hanenbow (Europe, Australia)"
+	description "Electroplankton - Hanenbow (Europe, Australia)"
+	serial "KEBV"
+	rom ( name "Electroplankton - Hanenbow (Europe, Australia).nds" size 4005888 crc CBE8A760 md5 D3C48B3281D2B16278091543A98B4128 sha1 CAD53F73335FB7ACA3D85E0B7BD2EF6173B60246 )
 )
 
 game (
 	name "Electroplankton - Lumiloop (USA)"
 	description "Electroplankton - Lumiloop (USA)"
 	serial "KEGE"
-	rom ( name "Electroplankton - Lumiloop (USA).nds" size 3357696 crc 9722913C md5 C4E72E1DBA348E76B55DA4042DF59578 sha1 8948247D3F64FC688CB3B3A395077A971979F061 )
+	rom ( name "Electroplankton - Lumiloop (USA).nds" size 3357696 crc 9722913C md5 C4E72E1DBA348E76B55DA4042DF59578 sha1 8948247D3F64FC688CB3B3A395077A971979F061 flags verified )
+)
+
+game (
+	name "Electroplankton - Lumiloop (Europe, Australia)"
+	description "Electroplankton - Lumiloop (Europe, Australia)"
+	serial "KEGV"
+	rom ( name "Electroplankton - Lumiloop (Europe, Australia).nds" size 4641792 crc C45C98F8 md5 B5C941C79E00F079B24CAF5073643E43 sha1 9381CCF9EC28132A7B0939785D13651AB1AC2E41 )
 )
 
 game (
 	name "Electroplankton - Luminarrow (USA)"
 	description "Electroplankton - Luminarrow (USA)"
 	serial "KECE"
-	rom ( name "Electroplankton - Luminarrow (USA).nds" size 2888704 crc E2ED00A3 md5 4D49E697B15E463CA67A9D5888724C00 sha1 400A6F6569D913CC16801E91A60468A5EA90EA7E )
+	rom ( name "Electroplankton - Luminarrow (USA).nds" size 2888704 crc E2ED00A3 md5 4D49E697B15E463CA67A9D5888724C00 sha1 400A6F6569D913CC16801E91A60468A5EA90EA7E flags verified )
+)
+
+game (
+	name "Electroplankton - Luminarrow (Europe, Australia)"
+	description "Electroplankton - Luminarrow (Europe, Australia)"
+	serial "KECV"
+	rom ( name "Electroplankton - Luminarrow (Europe, Australia).nds" size 4216832 crc A264A91C md5 E931302F4C92A79676328AB5F9FFDEE3 sha1 1A2874E3D1211B576FC1EF5C00BED42398C4A101 )
 )
 
 game (
 	name "Electroplankton - Marine-Crystals (USA)"
 	description "Electroplankton - Marine-Crystals (USA)"
 	serial "KEHE"
-	rom ( name "Electroplankton - Marine-Crystals (USA).nds" size 2744320 crc 7259E5B1 md5 8468A1A8B1A6CE8206559AE2A9416177 sha1 6FA5F70222754ADD8FE683A0F3B80759653B21C2 )
+	rom ( name "Electroplankton - Marine-Crystals (USA).nds" size 2744320 crc 7259E5B1 md5 8468A1A8B1A6CE8206559AE2A9416177 sha1 6FA5F70222754ADD8FE683A0F3B80759653B21C2 flags verified )
+)
+
+game (
+	name "Electroplankton - Marine-Crystals (Europe, Australia)"
+	description "Electroplankton - Marine-Crystals (Europe, Australia)"
+	serial "KEHV"
+	rom ( name "Electroplankton - Marine-Crystals (Europe, Australia).nds" size 4028416 crc 948003A9 md5 CE126175395913DD66E697295A15FD67 sha1 FE7921C21D3A422017B6DFF828D1B8B7784724CA )
 )
 
 game (
 	name "Electroplankton - Nanocarp (USA)"
 	description "Electroplankton - Nanocarp (USA)"
 	serial "KEFE"
-	rom ( name "Electroplankton - Nanocarp (USA).nds" size 2658304 crc 667D4784 md5 5747315433CD26F14CE243316DB4F619 sha1 1293A1444E23FA502B9337EA14C145B917AEBCE6 )
+	rom ( name "Electroplankton - Nanocarp (USA).nds" size 2658304 crc 667D4784 md5 5747315433CD26F14CE243316DB4F619 sha1 1293A1444E23FA502B9337EA14C145B917AEBCE6 flags verified )
+)
+
+game (
+	name "Electroplankton - Nanocarp (Europe, Australia)"
+	description "Electroplankton - Nanocarp (Europe, Australia)"
+	serial "KEFV"
+	rom ( name "Electroplankton - Nanocarp (Europe, Australia).nds" size 4102144 crc 1D5B9992 md5 13F41C859121C22F1B4168ABE045E326 sha1 3E4CC9A57C972AEB7AB2F1DAB8FD7683141A251E )
 )
 
 game (
 	name "Electroplankton - Rec-Rec (USA)"
 	description "Electroplankton - Rec-Rec (USA)"
 	serial "KEEE"
-	rom ( name "Electroplankton - Rec-Rec (USA).nds" size 3384320 crc C52142F3 md5 994CC98C2B7C772A76309C81D2B09CD9 sha1 DF20547FBAF9E0B030CC6E794D4AD849171CDE23 )
+	rom ( name "Electroplankton - Rec-Rec (USA).nds" size 3384320 crc C52142F3 md5 994CC98C2B7C772A76309C81D2B09CD9 sha1 DF20547FBAF9E0B030CC6E794D4AD849171CDE23 flags verified )
+)
+
+game (
+	name "Electroplankton - Rec-Rec (Europe, Australia)"
+	description "Electroplankton - Rec-Rec (Europe, Australia)"
+	serial "KEEV"
+	rom ( name "Electroplankton - Rec-Rec (Europe, Australia).nds" size 4673536 crc 43422B5F md5 EE76DCC486ED1A8FA2B4175FE3BDF6E2 sha1 FDF3142CE595F4FC264E5D1C764B407E24884898 )
 )
 
 game (
 	name "Electroplankton - Sun-Animalcule (USA)"
 	description "Electroplankton - Sun-Animalcule (USA)"
 	serial "KEDE"
-	rom ( name "Electroplankton - Sun-Animalcule (USA).nds" size 2847744 crc C914F6DB md5 BA7F107BB8BD3FF52F837EC65BA5E32B sha1 AD400D03A88ED3C8153DD8765853C3E85F825C33 )
+	rom ( name "Electroplankton - Sun-Animalcule (USA).nds" size 2847744 crc C914F6DB md5 BA7F107BB8BD3FF52F837EC65BA5E32B sha1 AD400D03A88ED3C8153DD8765853C3E85F825C33 flags verified )
+)
+
+game (
+	name "Electroplankton - Sun-Animalcule (Europe, Australia)"
+	description "Electroplankton - Sun-Animalcule (Europe, Australia)"
+	serial "KEDV"
+	rom ( name "Electroplankton - Sun-Animalcule (Europe, Australia).nds" size 4118528 crc BF6B3C75 md5 D23C98A67584023057C4D48EC15F5C72 sha1 6B09A06B4A7FC65A01409E4DD2E53888D7ED33CE )
 )
 
 game (
 	name "Electroplankton - Trapy (USA)"
 	description "Electroplankton - Trapy (USA)"
 	serial "KEAE"
-	rom ( name "Electroplankton - Trapy (USA).nds" size 2908160 crc 06FF731E md5 DB8EBD76E1DD1FBFE65B9A025952A0CF sha1 B88ABF2739163C9480A8041D87548BC729920314 )
+	rom ( name "Electroplankton - Trapy (USA).nds" size 2908160 crc 06FF731E md5 DB8EBD76E1DD1FBFE65B9A025952A0CF sha1 B88ABF2739163C9480A8041D87548BC729920314 flags verified )
+)
+
+game (
+	name "Electroplankton - Trapy (Europe, Australia)"
+	description "Electroplankton - Trapy (Europe, Australia)"
+	serial "KEAV"
+	rom ( name "Electroplankton - Trapy (Europe, Australia).nds" size 4132864 crc 005F612A md5 93B30779E5BF2F33C2F9D575A80B2E8D sha1 9B376E867AEA8AC8C0F276DC9CED9C1C9349FC58 )
 )
 
 game (
 	name "Electroplankton - Varvoice (USA)"
 	description "Electroplankton - Varvoice (USA)"
 	serial "KEJE"
-	rom ( name "Electroplankton - Varvoice (USA).nds" size 2440192 crc 6F72F93A md5 91679BB5E1DA93F31F258C4CB4846F73 sha1 21D748BAA24A168424C83DB3AF91D6AC9F9A6DD3 )
+	rom ( name "Electroplankton - Varvoice (USA).nds" size 2440192 crc 6F72F93A md5 91679BB5E1DA93F31F258C4CB4846F73 sha1 21D748BAA24A168424C83DB3AF91D6AC9F9A6DD3 flags verified )
+)
+
+game (
+	name "Electroplankton - Varvoice (Europe, Australia)"
+	description "Electroplankton - Varvoice (Europe, Australia)"
+	serial "KEJV"
+	rom ( name "Electroplankton - Varvoice (Europe, Australia).nds" size 4271104 crc C3D70B2A md5 76EA772B5B1CD1B0245D22CE7C4651D7 sha1 22D983C479A0367072DD1E1730FAFAAB645AAA0C )
 )
 
 game (
 	name "Elemental Masters (Europe) (En,De)"
 	description "Elemental Masters (Europe) (En,De)"
 	serial "KEMP"
-	rom ( name "Elemental Masters (Europe) (En,De).nds" size 16707584 crc DD1C6A59 md5 985460ACC04F59580BB860DB7BC9CD8D sha1 570119C265C83CC41EA80766D3ACA8AF6E135A59 )
+	rom ( name "Elemental Masters (Europe) (En,De).nds" size 16707584 crc DD1C6A59 md5 985460ACC04F59580BB860DB7BC9CD8D sha1 570119C265C83CC41EA80766D3ACA8AF6E135A59 flags verified )
 )
 
 game (
@@ -884,14 +1493,14 @@ game (
 	name "Escape the Virus - Swarm Survival (Europe)"
 	description "Escape the Virus - Swarm Survival (Europe)"
 	serial "KXEP"
-	rom ( name "Escape the Virus - Swarm Survival (Europe).nds" size 5274624 crc 44220C65 md5 E2608D815A2728EB4238B19920658D43 sha1 68EEEB15718056B98FBD9BF217EFEF98CA8E262B )
+	rom ( name "Escape the Virus - Swarm Survival (Europe).nds" size 5274624 crc 44220C65 md5 E2608D815A2728EB4238B19920658D43 sha1 68EEEB15718056B98FBD9BF217EFEF98CA8E262B flags verified )
 )
 
 game (
 	name "Escapee GO! (USA)"
 	description "Escapee GO! (USA)"
 	serial "KESE"
-	rom ( name "Escapee GO! (USA).nds" size 5484544 crc EB7B2674 md5 D1B498BE049FBA1F901AD48DA28F9A31 sha1 8B88CAEB45E8523E222B74D451E81261006AB7DA )
+	rom ( name "Escapee GO! (USA).nds" size 5484544 crc EB7B2674 md5 D1B498BE049FBA1F901AD48DA28F9A31 sha1 8B88CAEB45E8523E222B74D451E81261006AB7DA flags verified )
 )
 
 game (
@@ -916,6 +1525,55 @@ game (
 )
 
 game (
+	name "Extreme Hangman (USA)"
+	description "Extreme Hangman (USA)"
+	serial "KEXE"
+	rom ( name "Extreme Hangman (USA).nds" size 4482048 crc 9D5E4743 md5 5FC1FCE63D0C74FF7E8DB12F0F9E18DD sha1 C164E2FE13DB83F3CC5D87DA47031A4578E97C3C flags verified )
+)
+
+game (
+	name "Extreme Hangman 2 (USA)"
+	description "Extreme Hangman 2 (USA)"
+	serial "KXHE"
+	rom ( name "Extreme Hangman 2 (USA).nds" size 4930560 crc 2C81921A md5 AEEBCD038897AEBFB1830E4FACBAC224 sha1 94EA8F9F4C5B979DC027F40DB4703C96115FFAE1 flags verified )
+)
+
+game (
+	name "Face Pilot - Fly With Your Nintendo DSi Camera! (USA)"
+	description "Face Pilot - Fly With Your Nintendo DSi Camera! (USA)"
+	serial "KYBE"
+	rom ( name "Face Pilot - Fly With Your Nintendo DSi Camera! (USA).nds" size 8956928 crc 45710B72 md5 2C67425B31C23A2E615AC20E5B34C28C sha1 F5853A2CB510E7B29D60A4E7DF410C695EBA27F1 flags verified )
+)
+
+game (
+	name "Faceez (USA)"
+	description "Faceez (USA)"
+	serial "KFZE"
+	rom ( name "Faceez (USA).nds" size 4874240 crc 9DAD7143 md5 E4D43074E9EAA96823AB98DCBE06B88A sha1 E4162B1516E281C896524AC84045048FD49B5865 flags verified )
+)
+
+game (
+	name "Faceez (Europe, Australia)"
+	description "Faceez (Europe, Australia)"
+	serial "KFZV"
+	rom ( name "Faceez (Europe, Australia).nds" size 5016576 crc 9D30D8F5 md5 A36FF7A1F217226237C7E92AC2E490B0 sha1 5F400C468157E74A67F19CEC9B2AC4C3F9744868 )
+)
+
+game (
+	name "Faceez - Monsters! (Europe)"
+	description "Faceez - Monsters! (Europe)"
+	serial "KFMP"
+	rom ( name "Faceez - Monsters! (Europe).nds" size 5112832 crc 0E98F13E md5 55820C3F392CC9F98B89C8D6D889C1FA sha1 F1F43A409C419E84FEEBF56E5B7587A88712C292 )
+)
+
+game (
+	name "Fairy Tale, A (Europe, Australia)"
+	description "Fairy Tale, A (Europe, Australia)"
+	serial "KFYV"
+	rom ( name "Fairy Tale, A (Europe, Australia).nds" size 6171648 crc 2EF1F3DD md5 AF2C688CD346CAD4B98916F6D0B3A592 sha1 FBB747D984A8B9079666609257D37ACCF5272A48 flags verified )
+)
+
+game (
 	name "Famicom Wars DS - Ushinawareta Hikari (Japan)"
 	description "Famicom Wars DS - Ushinawareta Hikari (Japan)"
 	serial "Z2EJ"
@@ -923,10 +1581,31 @@ game (
 )
 
 game (
+	name "Fantasy Slots - Adventure Slots and Games (USA)"
+	description "Fantasy Slots - Adventure Slots and Games (USA)"
+	serial "KSFE"
+	rom ( name "Fantasy Slots - Adventure Slots and Games (USA).nds" size 10075136 crc 6AE65B9C md5 1EA285E622F35E8F0324ABD1F5680CF1 sha1 93126F13E06CB2CFD11CB276EC7BACF8E1E6C5A9 )
+)
+
+game (
+	name "Ferrari GT - Evolution (Europe, Australia) (Rev 1)"
+	description "Ferrari GT - Evolution (Europe, Australia) (Rev 1)"
+	serial "KFRV"
+	rom ( name "Ferrari GT - Evolution (Europe, Australia) (Rev 1).nds" size 15775744 crc CA73D9EF md5 0135344AD77095D66DE3DFC244315402 sha1 C9CAB307E117D9EA033B80A9D5C3A6CC56EBF112 flags verified )
+)
+
+game (
 	name "Fieldrunners (USA)"
 	description "Fieldrunners (USA)"
 	serial "KFDE"
-	rom ( name "Fieldrunners (USA).nds" size 13328384 crc 33AED092 md5 E2E706E74B8825273E88C4B12705BAF2 sha1 639FAA78E1A08F3CE0ADC4AF82918720F1B35DB6 )
+	rom ( name "Fieldrunners (USA).nds" size 13328384 crc 33AED092 md5 E2E706E74B8825273E88C4B12705BAF2 sha1 639FAA78E1A08F3CE0ADC4AF82918720F1B35DB6 flags verified )
+)
+
+game (
+	name "Fieldrunners (Europe, Australia)"
+	description "Fieldrunners (Europe, Australia)"
+	serial "KFDV"
+	rom ( name "Fieldrunners (Europe, Australia).nds" size 13372416 crc 5DEA0768 md5 DF2FEC41BEEED1C45E692856DE7C1624 sha1 AA718F03B801E52668E689E0B4E9360714600B10 )
 )
 
 game (
@@ -940,21 +1619,42 @@ game (
 	name "Flashlight (USA)"
 	description "Flashlight (USA)"
 	serial "KFSE"
-	rom ( name "Flashlight (USA).nds" size 2938880 crc 8412146E md5 D1877F22DC5DCC264091213A53B2557F sha1 8CBB03AA3D5CF87B79C43F35A7AB965885E4018A )
+	rom ( name "Flashlight (USA).nds" size 2938880 crc 8412146E md5 D1877F22DC5DCC264091213A53B2557F sha1 8CBB03AA3D5CF87B79C43F35A7AB965885E4018A flags verified )
+)
+
+game (
+	name "Flashlight (Europe)"
+	description "Flashlight (Europe)"
+	serial "KFSP"
+	rom ( name "Flashlight (Europe).nds" size 2949120 crc D29006BC md5 1E09B577E9FD0EEC57438574728E9D44 sha1 A88AEA02A67C63645C75AE55D351A09B61ECF7D7 )
 )
 
 game (
 	name "Flight Control (USA)"
 	description "Flight Control (USA)"
 	serial "KFIE"
-	rom ( name "Flight Control (USA).nds" size 7062528 crc 2241783E md5 2464BC04606E2F1CFF33CAABBD9C5305 sha1 2019FCA988A25880D9AE7EAFB028195A6B63382E )
+	rom ( name "Flight Control (USA).nds" size 7062528 crc 2241783E md5 2464BC04606E2F1CFF33CAABBD9C5305 sha1 2019FCA988A25880D9AE7EAFB028195A6B63382E flags verified )
+)
+
+game (
+	name "Flight Control (Europe, Australia)"
+	description "Flight Control (Europe, Australia)"
+	serial "KFIV"
+	rom ( name "Flight Control (Europe, Australia).nds" size 7081984 crc 48660382 md5 2E7D42DAA47F29C6EB8C1E9DD47BC6C5 sha1 2D4500B32F39F4E47274DAB054C8C71FCB2FE802 )
 )
 
 game (
 	name "Flip the Core (Europe)"
 	description "Flip the Core (Europe)"
 	serial "KKRP"
-	rom ( name "Flip the Core (Europe).nds" size 9355264 crc 0CA02CB2 md5 EDA5D995C62C8E1DD3A036A533B94C1D sha1 B17B13158396C893A634CA349C5DE1FEA05E1DB6 )
+	rom ( name "Flip the Core (Europe).nds" size 9355264 crc 0CA02CB2 md5 EDA5D995C62C8E1DD3A036A533B94C1D sha1 B17B13158396C893A634CA349C5DE1FEA05E1DB6 flags verified )
+)
+
+game (
+	name "Flip the Core (USA)"
+	description "Flip the Core (USA)"
+	serial "KKRE"
+	rom ( name "Flip the Core (USA).nds" size 9304064 crc 54225AA6 md5 0DD65210CEDD21FB76796A20108E2F53 sha1 FF81AF91669C992B9E544286CC3229A61BAEB09D )
 )
 
 game (
@@ -979,17 +1679,38 @@ game (
 )
 
 game (
+	name "Flipper (USA)"
+	description "Flipper (USA)"
+	serial "KFPE"
+	rom ( name "Flipper (USA).nds" size 7651328 crc 841A958B md5 FBDAAE00A0FB2EA5A04AAE5AD554F8CA sha1 A14D0702B02E4A188081EC4A835E452B5E447919 flags verified )
+)
+
+game (
+	name "Flipper 2 - Flush the Goldfish (USA)"
+	description "Flipper 2 - Flush the Goldfish (USA)"
+	serial "KKNE"
+	rom ( name "Flipper 2 - Flush the Goldfish (USA).nds" size 8519680 crc E9BB43BB md5 9B02330EEF06983876EAC11DAC079275 sha1 0C1E7C9FD182B5687267C5A6D1A60A9B28904AF4 flags verified )
+)
+
+game (
 	name "Foto Face - The Face Stealer Strikes (Europe, Australia)"
 	description "Foto Face - The Face Stealer Strikes (Europe, Australia)"
 	serial "K4TV"
-	rom ( name "Foto Face - The Face Stealer Strikes (Europe, Australia).nds" size 14718976 crc CB0C5AEE md5 25603A9BB6B35D422962EFE46C080BC1 sha1 E3B7576FF193CD8385CF1AE054A9B7DF2735A060 )
+	rom ( name "Foto Face - The Face Stealer Strikes (Europe, Australia).nds" size 14718976 crc CB0C5AEE md5 25603A9BB6B35D422962EFE46C080BC1 sha1 E3B7576FF193CD8385CF1AE054A9B7DF2735A060 flags verified )
+)
+
+game (
+	name "Foto Face - The Face Stealer Strikes (USA)"
+	description "Foto Face - The Face Stealer Strikes (USA)"
+	serial "K4TE"
+	rom ( name "Foto Face - The Face Stealer Strikes (USA).nds" size 14689280 crc 310A7D0E md5 F51B77E2347C3C2914DB279D7299955E sha1 8296A0F80D5BEA319C211D871F03DA40B07D1CFC flags verified )
 )
 
 game (
 	name "Frenzic (Europe) (En,Fr,De,Es,It)"
 	description "Frenzic (Europe) (En,Fr,De,Es,It)"
 	serial "KFOP"
-	rom ( name "Frenzic (Europe) (En,Fr,De,Es,It).nds" size 4628480 crc 611C36C6 md5 0370B44B78499908DF60878B38E68BB2 sha1 9378B83E5CAB5A5C2B354DD04B3A534DB0711CFC )
+	rom ( name "Frenzic (Europe) (En,Fr,De,Es,It).nds" size 4628480 crc 611C36C6 md5 0370B44B78499908DF60878B38E68BB2 sha1 9378B83E5CAB5A5C2B354DD04B3A534DB0711CFC flags verified )
 )
 
 game (
@@ -1000,10 +1721,45 @@ game (
 )
 
 game (
+	name "G.G Series - All Breaker (Japan)"
+	description "G.G Series - All Breaker (Japan)"
+	serial "K27J"
+	rom ( name "G.G Series - All Breaker (Japan).nds" size 4771840 crc C0E3069D md5 725DF5430C73BFC69A546558047E4267 sha1 920DAD3ED1D0650A81F55DF7357DB45E9EABFE63 )
+)
+
+game (
 	name "G.G Series - Altered Weapon (USA)"
 	description "G.G Series - Altered Weapon (USA)"
 	serial "K2ZE"
 	rom ( name "G.G Series - Altered Weapon (USA).nds" size 4924416 crc CE396496 md5 8178BCC2C58131588CB65BF978D07850 sha1 BD0C109B87D7BC3A605CF686CE44BAC3E5279B5C )
+)
+
+game (
+	name "G.G Series - Assault Buster (Japan)"
+	description "G.G Series - Assault Buster (Japan)"
+	serial "KABJ"
+	rom ( name "G.G Series - Assault Buster (Japan).nds" size 3052544 crc 2C28FBCD md5 4D99DECD5B065D9318CDAB421893D02D sha1 87DCFC1E92B8162656D2BEC3FDDF7DFD7C3C6F2A )
+)
+
+game (
+	name "G.G Series - Cho Hero Ouga (Japan)"
+	description "G.G Series - Cho Hero Ouga (Japan)"
+	serial "KOGJ"
+	rom ( name "G.G Series - Cho Hero Ouga (Japan).nds" size 4101120 crc 85CBE3AC md5 BEDBB6813C1B9BFBB5ACD2968233D32D sha1 D914CB8B4BF44B5488395679EAD33409E3D81A50 )
+)
+
+game (
+	name "G.G Series - Chou Hero Ouga 2 (Japan)"
+	description "G.G Series - Chou Hero Ouga 2 (Japan)"
+	serial "KOZJ"
+	rom ( name "G.G Series - Chou Hero Ouga 2 (Japan).nds" size 6176768 crc 4577020B md5 CABF8F8FA9B362FD89A7CCFF52DF5CEE sha1 E7939416D73487F4AB126182CD523523E0BAE043 )
+)
+
+game (
+	name "G.G Series - D-Tank (Japan)"
+	description "G.G Series - D-Tank (Japan)"
+	serial "KTAJ"
+	rom ( name "G.G Series - D-Tank (Japan).nds" size 3796992 crc 4AAC626F md5 23B07C7B38EC8DA827DD30ECB9E292F1 sha1 4EF148072198F6D7A4E8B2B649DB19D196011E8D )
 )
 
 game (
@@ -1021,17 +1777,45 @@ game (
 )
 
 game (
+	name "G.G Series - Energy Chain (Japan)"
+	description "G.G Series - Energy Chain (Japan)"
+	serial "KD7J"
+	rom ( name "G.G Series - Energy Chain (Japan).nds" size 1854464 crc 0C007B4A md5 033FA7BABA92DE8986B178A32C257EAB sha1 930125D7B18F4951536EA01858CCA1C77E7E9CD8 )
+)
+
+game (
 	name "G.G Series - Horizontal Bar (USA)"
 	description "G.G Series - Horizontal Bar (USA)"
 	serial "KT2E"
-	rom ( name "G.G Series - Horizontal Bar (USA).nds" size 2816000 crc E86DBE03 md5 F799480F3359B173911607EFB742A7BB sha1 31A7A16480CCBFA264DCD8C586E560A5AD1723B3 )
+	rom ( name "G.G Series - Horizontal Bar (USA).nds" size 2816000 crc E86DBE03 md5 F799480F3359B173911607EFB742A7BB sha1 31A7A16480CCBFA264DCD8C586E560A5AD1723B3 flags verified )
 )
 
 game (
 	name "G.G Series - Ninja Karakuri Den (USA)"
 	description "G.G Series - Ninja Karakuri Den (USA)"
 	serial "KAQE"
-	rom ( name "G.G Series - Ninja Karakuri Den (USA).nds" size 2909184 crc 4519148B md5 42B7D27E5F05985ED1293A8F4C7F8D52 sha1 2CED848BF23A9B8478CF901E674B384B5AC48668 )
+	rom ( name "G.G Series - Ninja Karakuri Den (USA).nds" size 2909184 crc 4519148B md5 42B7D27E5F05985ED1293A8F4C7F8D52 sha1 2CED848BF23A9B8478CF901E674B384B5AC48668 flags verified )
+)
+
+game (
+	name "G.G Series - Ninja Karakuri Den 2 (Japan)"
+	description "G.G Series - Ninja Karakuri Den 2 (Japan)"
+	serial "KQ2J"
+	rom ( name "G.G Series - Ninja Karakuri Den 2 (Japan).nds" size 3914752 crc E60FE86D md5 8039A61A59DEF704496DE5732B1760AD sha1 3ECD6D9797AA981A8FE754A22BCCE9FA34D4E45C )
+)
+
+game (
+	name "G.G Series - Score Attacker (Japan)"
+	description "G.G Series - Score Attacker (Japan)"
+	serial "K5GJ"
+	rom ( name "G.G Series - Score Attacker (Japan).nds" size 4800512 crc 886E050A md5 C0030BB59C36D53603CF7FF97A13A79F sha1 71D2F137D1D9EDFDC4F400200EF46D269684829D )
+)
+
+game (
+	name "G.G Series - Super Hero Ogre (USA)"
+	description "G.G Series - Super Hero Ogre (USA)"
+	serial "KOGE"
+	rom ( name "G.G Series - Super Hero Ogre (USA).nds" size 4200448 crc 7591F426 md5 4A6B9BFF12E41E56023390F5FB6AA696 sha1 E8DAC825C658EF3C3CD8EEBBE7A4B542C3AA97D9 flags verified )
 )
 
 game (
@@ -1039,6 +1823,13 @@ game (
 	description "G.G Series - The Spiky Blowfish (USA)"
 	serial "K5NE"
 	rom ( name "G.G Series - The Spiky Blowfish (USA).nds" size 3722240 crc F03F032F md5 4CFBE6CF32A7FFD72A511BE48AC0910B sha1 CF8098AFDA0248E4549FB42FE6BB5DFB621783B6 )
+)
+
+game (
+	name "G.G Series - Vertex (Japan)"
+	description "G.G Series - Vertex (Japan)"
+	serial "KVEJ"
+	rom ( name "G.G Series - Vertex (Japan).nds" size 2154496 crc 94E42060 md5 FDDBA0546ABD168CF17548058B2193B5 sha1 BA9DF6BB7BBE68F9EB6111D214F42268041B712A )
 )
 
 game (
@@ -1052,77 +1843,105 @@ game (
 	name "G.G Series - Z-One (USA)"
 	description "G.G Series - Z-One (USA)"
 	serial "KNZE"
-	rom ( name "G.G Series - Z-One (USA).nds" size 2580480 crc 5D37DB85 md5 21EEE9DE22F10000555CBDF24E4A46D6 sha1 29E88BC61E850E2E36991B33C09D1494F8748157 )
+	rom ( name "G.G Series - Z-One (USA).nds" size 2580480 crc 5D37DB85 md5 21EEE9DE22F10000555CBDF24E4A46D6 sha1 29E88BC61E850E2E36991B33C09D1494F8748157 flags verified )
+)
+
+game (
+	name "G.G Series - Z-One 2 (Japan)"
+	description "G.G Series - Z-One 2 (Japan)"
+	serial "KZ2J"
+	rom ( name "G.G Series - Z-One 2 (Japan).nds" size 3362816 crc D86A0FF5 md5 4ACBE753E5015DC54CB9B4D73808FE85 sha1 5403B2BD70A6C60D1FD517E585DF9867BBDD72E7 )
+)
+
+game (
+	name "Gaia's Moon (Europe)"
+	description "Gaia's Moon (Europe)"
+	serial "KKGP"
+	rom ( name "Gaia's Moon (Europe).nds" size 6204416 crc C2223BF2 md5 0C7C9BF28EE300FDED58D95BCC8B2BA9 sha1 DFBE634C2E01B88AD484E8D15A1EB03C94608A19 )
+)
+
+game (
+	name "Gaia's Moon (USA)"
+	description "Gaia's Moon (USA)"
+	serial "KKGE"
+	rom ( name "Gaia's Moon (USA).nds" size 6168576 crc FB378176 md5 0940D487981D52F206CEE5C7218B8C20 sha1 7B36559A6FB2CFBE1235FB1ADD3C93E2DF0B2B6C )
 )
 
 game (
 	name "Galaxy Saver (USA)"
 	description "Galaxy Saver (USA)"
 	serial "KBNE"
-	rom ( name "Galaxy Saver (USA).nds" size 4779008 crc A42F1C75 md5 45FC07C03985F413A54BA4A9EA1E15FE sha1 03C1931EE0EAE608756E6AC596AB6AC3E5898AD6 )
+	rom ( name "Galaxy Saver (USA).nds" size 4779008 crc A42F1C75 md5 45FC07C03985F413A54BA4A9EA1E15FE sha1 03C1931EE0EAE608756E6AC596AB6AC3E5898AD6 flags verified )
 )
 
 game (
 	name "Game & Watch - Ball (USA, Europe)"
 	description "Game & Watch - Ball (USA, Europe)"
 	serial "KGBO"
-	rom ( name "Game & Watch - Ball (USA, Europe).nds" size 1550336 crc B90286ED md5 53528FBC90C389B43C1FC6665F93BA5D sha1 D17D261CC73490387FAF2D408148A7FF7778D6EF )
+	rom ( name "Game & Watch - Ball (USA, Europe).nds" size 1550336 crc B90286ED md5 53528FBC90C389B43C1FC6665F93BA5D sha1 D17D261CC73490387FAF2D408148A7FF7778D6EF flags verified )
 )
 
 game (
 	name "Game & Watch - Chef (USA, Europe)"
 	description "Game & Watch - Chef (USA, Europe)"
 	serial "KGCO"
-	rom ( name "Game & Watch - Chef (USA, Europe).nds" size 1713152 crc BDC410C7 md5 D094745BA23676BCB92E328E73E2082E sha1 53241DEB0CB707B505804D7607077F2159738E82 )
+	rom ( name "Game & Watch - Chef (USA, Europe).nds" size 1713152 crc BDC410C7 md5 D094745BA23676BCB92E328E73E2082E sha1 53241DEB0CB707B505804D7607077F2159738E82 flags verified )
 )
 
 game (
 	name "Game & Watch - Donkey Kong Jr. (USA, Europe)"
 	description "Game & Watch - Donkey Kong Jr. (USA, Europe)"
 	serial "KGDO"
-	rom ( name "Game & Watch - Donkey Kong Jr. (USA, Europe).nds" size 1775616 crc 7466C798 md5 4E9783FEB7AA34003EF63DD129393B38 sha1 7FD4B4F69D780561A3D9007EF14B4EEA329E5EDC )
+	rom ( name "Game & Watch - Donkey Kong Jr. (USA, Europe).nds" size 1775616 crc 7466C798 md5 4E9783FEB7AA34003EF63DD129393B38 sha1 7FD4B4F69D780561A3D9007EF14B4EEA329E5EDC flags verified )
 )
 
 game (
 	name "Game & Watch - Flagman (USA, Europe)"
 	description "Game & Watch - Flagman (USA, Europe)"
 	serial "KGGO"
-	rom ( name "Game & Watch - Flagman (USA, Europe).nds" size 1679360 crc 740219C3 md5 79EC581CFE13896B68B200C311249C3D sha1 19775CEAE005C49E774DF617910928B28ABD27D3 )
+	rom ( name "Game & Watch - Flagman (USA, Europe).nds" size 1679360 crc 740219C3 md5 79EC581CFE13896B68B200C311249C3D sha1 19775CEAE005C49E774DF617910928B28ABD27D3 flags verified )
 )
 
 game (
 	name "Game & Watch - Helmet (USA, Europe)"
 	description "Game & Watch - Helmet (USA, Europe)"
 	serial "KGHO"
-	rom ( name "Game & Watch - Helmet (USA, Europe).nds" size 1639424 crc 5DD8A0F3 md5 A279ECBA06CDE09BF555039C3453FE53 sha1 701AB85B4F0173A0910F8C8F4C2C673D4C039619 )
+	rom ( name "Game & Watch - Helmet (USA, Europe).nds" size 1639424 crc 5DD8A0F3 md5 A279ECBA06CDE09BF555039C3453FE53 sha1 701AB85B4F0173A0910F8C8F4C2C673D4C039619 flags verified )
+)
+
+game (
+	name "Game & Watch - Helmet (Japan)"
+	description "Game & Watch - Helmet (Japan)"
+	serial "KGHJ"
+	rom ( name "Game & Watch - Helmet (Japan).nds" size 1469440 crc 78B459D9 md5 4FD07DF358FDDDF9FF000013A4A4C9AA sha1 1E2860F15699ECFE4532F4A671A24AC6720555C8 )
 )
 
 game (
 	name "Game & Watch - Judge (USA, Europe)"
 	description "Game & Watch - Judge (USA, Europe)"
 	serial "KGJO"
-	rom ( name "Game & Watch - Judge (USA, Europe).nds" size 1666048 crc 4A119577 md5 C0CB744F6E249741ED0288775011358E sha1 F0CFFF1AFE7AAF00C899A88598D59D6574806FFC )
+	rom ( name "Game & Watch - Judge (USA, Europe).nds" size 1666048 crc 4A119577 md5 C0CB744F6E249741ED0288775011358E sha1 F0CFFF1AFE7AAF00C899A88598D59D6574806FFC flags verified )
 )
 
 game (
 	name "Game & Watch - Manhole (USA, Europe)"
 	description "Game & Watch - Manhole (USA, Europe)"
 	serial "KGMO"
-	rom ( name "Game & Watch - Manhole (USA, Europe).nds" size 1697792 crc 558C0829 md5 5E09C25539A3EB9A6ECBA33806BEEBFC sha1 FEED99BFC504345BBA80484B40FB55744F7324D2 )
+	rom ( name "Game & Watch - Manhole (USA, Europe).nds" size 1697792 crc 558C0829 md5 5E09C25539A3EB9A6ECBA33806BEEBFC sha1 FEED99BFC504345BBA80484B40FB55744F7324D2 flags verified )
 )
 
 game (
 	name "Game & Watch - Mario's Cement Factory (USA, Europe)"
 	description "Game & Watch - Mario's Cement Factory (USA, Europe)"
 	serial "KGFO"
-	rom ( name "Game & Watch - Mario's Cement Factory (USA, Europe).nds" size 1750016 crc E0533A2F md5 FCE41D85502DDAF7276D34B7C38D5ACF sha1 AE9DC2C076D417A1862F7E4AC406BA67027B7F41 )
+	rom ( name "Game & Watch - Mario's Cement Factory (USA, Europe).nds" size 1750016 crc E0533A2F md5 FCE41D85502DDAF7276D34B7C38D5ACF sha1 AE9DC2C076D417A1862F7E4AC406BA67027B7F41 flags verified )
 )
 
 game (
 	name "Game & Watch - Vermin (USA, Europe)"
 	description "Game & Watch - Vermin (USA, Europe)"
 	serial "KGVO"
-	rom ( name "Game & Watch - Vermin (USA, Europe).nds" size 1593344 crc 2030B307 md5 F33881A314AC069110F32BEA28A25643 sha1 9618B5956895AB1893778240741FEEFDE92B919B )
+	rom ( name "Game & Watch - Vermin (USA, Europe).nds" size 1593344 crc 2030B307 md5 F33881A314AC069110F32BEA28A25643 sha1 9618B5956895AB1893778240741FEEFDE92B919B flags verified )
 )
 
 game (
@@ -1133,6 +1952,13 @@ game (
 )
 
 game (
+	name "Gangstar 2 - Kings of L.A. (USA)"
+	description "Gangstar 2 - Kings of L.A. (USA)"
+	serial "KGNE"
+	rom ( name "Gangstar 2 - Kings of L.A. (USA).nds" size 11677696 crc F0B0353D md5 8E984E155B32E2E94838FB3BB1C5FC58 sha1 BD7F7E2EA1EBED92551D52EA8BCDB4BAD61029F5 flags verified )
+)
+
+game (
 	name "Glory Days - Tactical Defense (Europe)"
 	description "Glory Days - Tactical Defense (Europe)"
 	serial "KGKP"
@@ -1140,10 +1966,17 @@ game (
 )
 
 game (
+	name "Glory Days - Tactical Defense (USA)"
+	description "Glory Days - Tactical Defense (USA)"
+	serial "KGKE"
+	rom ( name "Glory Days - Tactical Defense (USA).nds" size 6198272 crc 9C26E9C9 md5 2E042180B077A28B8DAFC6B65D7AA409 sha1 C8B2B78EB91B389ECE079A2A3BA6A1AA6089F8EA flags verified )
+)
+
+game (
 	name "Glow Artisan (USA)"
 	description "Glow Artisan (USA)"
 	serial "KGLE"
-	rom ( name "Glow Artisan (USA).nds" size 8227840 crc 260132D7 md5 0696F990610E789E8EE24F69993F56AA sha1 00C7C1D60F8B547E0C20AF9A93F27304E60C020C )
+	rom ( name "Glow Artisan (USA).nds" size 8227840 crc 260132D7 md5 0696F990610E789E8EE24F69993F56AA sha1 00C7C1D60F8B547E0C20AF9A93F27304E60C020C flags verified )
 )
 
 game (
@@ -1157,49 +1990,98 @@ game (
 	name "GO Series - 10 Second Run (USA)"
 	description "GO Series - 10 Second Run (USA)"
 	serial "KJUE"
-	rom ( name "GO Series - 10 Second Run (USA).nds" size 5444608 crc A90BD7E3 md5 B0CCD02835DB83BB16D52E89EB55E0DE sha1 4B7AC9BD326564C91765687C559E9F18B554DF44 )
+	rom ( name "GO Series - 10 Second Run (USA).nds" size 5444608 crc A90BD7E3 md5 B0CCD02835DB83BB16D52E89EB55E0DE sha1 4B7AC9BD326564C91765687C559E9F18B554DF44 flags verified )
+)
+
+game (
+	name "GO Series - 10 Second Run (Europe)"
+	description "GO Series - 10 Second Run (Europe)"
+	serial "KJUP"
+	rom ( name "GO Series - 10 Second Run (Europe).nds" size 5472256 crc 7156EBAE md5 6792B876DBDDE2F12B359F48701ECD3F sha1 6177B7C816226362021FC11F3C04FF97B5C2D7D5 )
+)
+
+game (
+	name "GO Series - Captain Sub (USA)"
+	description "GO Series - Captain Sub (USA)"
+	serial "K3NE"
+	rom ( name "GO Series - Captain Sub (USA).nds" size 3774464 crc B13CCA7D md5 AC4C1C1EC368202BC0DB98A3F0476E22 sha1 C8DFA84C7434FE2BA25F2A343FA9CC4B6478FFFD )
+)
+
+game (
+	name "GO Series - Defense Wars (USA)"
+	description "GO Series - Defense Wars (USA)"
+	serial "KWTE"
+	rom ( name "GO Series - Defense Wars (USA).nds" size 3556352 crc A47E2D60 md5 C044509222FC293ECBC1FCDC5C55A78F sha1 5EC4FCC4D7CCCA292D0C53BC44E1215CE14E85DB flags verified )
 )
 
 game (
 	name "GO Series - Earth Saver (USA)"
 	description "GO Series - Earth Saver (USA)"
 	serial "KB8E"
-	rom ( name "GO Series - Earth Saver (USA).nds" size 4114432 crc A530015C md5 91526AD171CB5F429B28D766924AD4A0 sha1 6B85D7B4CBE0A0DA2C7953897D82661CD7FBDD6F )
+	rom ( name "GO Series - Earth Saver (USA).nds" size 4114432 crc A530015C md5 91526AD171CB5F429B28D766924AD4A0 sha1 6B85D7B4CBE0A0DA2C7953897D82661CD7FBDD6F flags verified )
 )
 
 game (
 	name "GO Series - Fishing Resort (USA)"
 	description "GO Series - Fishing Resort (USA)"
 	serial "KFBE"
-	rom ( name "GO Series - Fishing Resort (USA).nds" size 5695488 crc CDBE5C34 md5 8302EF3B77B5822ABD098B047DAD4573 sha1 93AD0F997569AD1DC1736B25A76597D0600A2DF2 )
+	rom ( name "GO Series - Fishing Resort (USA).nds" size 5695488 crc CDBE5C34 md5 8302EF3B77B5822ABD098B047DAD4573 sha1 93AD0F997569AD1DC1736B25A76597D0600A2DF2 flags verified )
+)
+
+game (
+	name "GO Series - Fishing Resort (Europe)"
+	description "GO Series - Fishing Resort (Europe)"
+	serial "KFBP"
+	rom ( name "GO Series - Fishing Resort (Europe).nds" size 5745664 crc BD44DF79 md5 A1DB279BD9318383957DDD96D364A678 sha1 5983F34175E99C629B546ED823195497C0015185 )
+)
+
+game (
+	name "GO Series - Ivy the Kiwi mini (Europe, Australia)"
+	description "GO Series - Ivy the Kiwi mini (Europe, Australia)"
+	serial "KIKV"
+	rom ( name "GO Series - Ivy the Kiwi mini (Europe, Australia).nds" size 8094720 crc C98045E5 md5 C3E8300FA350B45513B5409713888B9F sha1 F4C10F0B14E039A3C1808CE736D4CFE5EECACA9F )
 )
 
 game (
 	name "GO Series - Picdun (USA) (Rev 1)"
 	description "GO Series - Picdun (USA) (Rev 1)"
 	serial "KPQE"
-	rom ( name "GO Series - Picdun (USA) (Rev 1).nds" size 12183552 crc 9002B5AE md5 06618524E7A1A85BD14EA3A1C77336A3 sha1 9511B4F5E02A901767502018F0BFF212D44B9C65 )
+	rom ( name "GO Series - Picdun (USA) (Rev 1).nds" size 12183552 crc 9002B5AE md5 06618524E7A1A85BD14EA3A1C77336A3 sha1 9511B4F5E02A901767502018F0BFF212D44B9C65 flags verified )
 )
 
 game (
 	name "GO Series - Portable Shrine Wars (USA)"
 	description "GO Series - Portable Shrine Wars (USA)"
 	serial "KOQE"
-	rom ( name "GO Series - Portable Shrine Wars (USA).nds" size 4238336 crc D4F0241E md5 57AEAB86A66C7A43129913AE97B6CC07 sha1 4FC8FC1739876454BA1C212CBB6242EA9CE4B026 )
+	rom ( name "GO Series - Portable Shrine Wars (USA).nds" size 4238336 crc D4F0241E md5 57AEAB86A66C7A43129913AE97B6CC07 sha1 4FC8FC1739876454BA1C212CBB6242EA9CE4B026 flags verified )
 )
 
 game (
 	name "GO Series - Tower of Deus (USA)"
 	description "GO Series - Tower of Deus (USA)"
 	serial "KT8E"
-	rom ( name "GO Series - Tower of Deus (USA).nds" size 4209664 crc E963736A md5 A67CEC7B32DBB04E92CD86549EB44385 sha1 40BB95A6A634A0F3F1CCED6C883645141D6952B0 )
+	rom ( name "GO Series - Tower of Deus (USA).nds" size 4209664 crc E963736A md5 A67CEC7B32DBB04E92CD86549EB44385 sha1 40BB95A6A634A0F3F1CCED6C883645141D6952B0 flags verified )
+)
+
+game (
+	name "GO Series - Tower of Deus (Europe)"
+	description "GO Series - Tower of Deus (Europe)"
+	serial "KT8P"
+	rom ( name "GO Series - Tower of Deus (Europe).nds" size 4248576 crc 87B1C638 md5 FE9167F18E0B7F622C65438D300664AA sha1 2A4584D38055C7CA421F173091FAEABC7AFF07D7 )
 )
 
 game (
 	name "GO Series - Undead Storm (USA)"
 	description "GO Series - Undead Storm (USA)"
 	serial "KZOE"
-	rom ( name "GO Series - Undead Storm (USA).nds" size 6228992 crc 50298A6A md5 F4C1EB7AD1634143E00691D97A308867 sha1 7F667E9EF53A960162D7AC2CDA08343061FB22E3 )
+	rom ( name "GO Series - Undead Storm (USA).nds" size 6228992 crc 50298A6A md5 F4C1EB7AD1634143E00691D97A308867 sha1 7F667E9EF53A960162D7AC2CDA08343061FB22E3 flags verified )
+)
+
+game (
+	name "GO Series - Undead Storm (Europe)"
+	description "GO Series - Undead Storm (Europe)"
+	serial "KZOP"
+	rom ( name "GO Series - Undead Storm (Europe).nds" size 6334464 crc 4B59C861 md5 C5A62D28FFAB2C9049D09DB3B5277D4B sha1 35E10427AC7265A1DDA278E8D5657B15381C1F1F )
 )
 
 game (
@@ -1210,6 +2092,34 @@ game (
 )
 
 game (
+	name "Go! Go! Kokopolo (USA) (Rev 1)"
+	description "Go! Go! Kokopolo (USA) (Rev 1)"
+	serial "K3GE"
+	rom ( name "Go! Go! Kokopolo (USA) (Rev 1).nds" size 16702464 crc A1EB33BC md5 CC7143BD4CB89ED029FF24E7FE34ED85 sha1 287A912910BF0AB2C4201751B9DC098E505FDFE8 flags verified )
+)
+
+game (
+	name "Go! Go! Kokopolo (USA)"
+	description "Go! Go! Kokopolo (USA)"
+	serial "K3GE"
+	rom ( name "Go! Go! Kokopolo (USA).nds" size 16701440 crc 88762557 md5 824DF3826D2CD152566285330A810C0E sha1 90DE41E7B4935B3FBCF994C55CF7D6C5D38CCB16 flags verified )
+)
+
+game (
+	name "Go! Go! Kokopolo (Europe) (Rev 1)"
+	description "Go! Go! Kokopolo (Europe) (Rev 1)"
+	serial "K3GP"
+	rom ( name "Go! Go! Kokopolo (Europe) (Rev 1).nds" size 16730112 crc E66C53A5 md5 FE3A46DEC992E4A3E2F3F409C3D04400 sha1 BDA4E8DA922471BC99A4A342C339E3E34CE05BAE )
+)
+
+game (
+	name "Go! Go! Kokopolo (Europe)"
+	description "Go! Go! Kokopolo (Europe)"
+	serial "K3GP"
+	rom ( name "Go! Go! Kokopolo (Europe).nds" size 16730112 crc 43FEAD64 md5 76E482FAF7A1A3F15470810F7D1644CC sha1 230E094A65F5890023193FD8E0D9FCA6B7AB69E8 )
+)
+
+game (
 	name "Gold Fever (Europe, Australia)"
 	description "Gold Fever (Europe, Australia)"
 	serial "KG7V"
@@ -1217,10 +2127,17 @@ game (
 )
 
 game (
+	name "Goony (USA)"
+	description "Goony (USA)"
+	serial "KXKE"
+	rom ( name "Goony (USA).nds" size 5276672 crc 882FC4C1 md5 006BC2EFAF67E57526DECFD13BD41E5C sha1 506BCC1F7B6F626D77A4DDFD43B7EDDA2E2759FF flags verified )
+)
+
+game (
 	name "Guitar Rock Tour (USA)"
 	description "Guitar Rock Tour (USA)"
 	serial "KGRE"
-	rom ( name "Guitar Rock Tour (USA).nds" size 10792960 crc 4B1885B6 md5 C88AE747022B6BEB0E1B599190520CD5 sha1 D8D3B059AA35B3866DB9583517E09654085BF056 )
+	rom ( name "Guitar Rock Tour (USA).nds" size 10792960 crc 4B1885B6 md5 C88AE747022B6BEB0E1B599190520CD5 sha1 D8D3B059AA35B3866DB9583517E09654085BF056 flags verified )
 )
 
 game (
@@ -1231,10 +2148,17 @@ game (
 )
 
 game (
+	name "Hakokoro (Japan)"
+	description "Hakokoro (Japan)"
+	serial "KK6J"
+	rom ( name "Hakokoro (Japan).nds" size 7631872 crc 946CB59A md5 220FDB14EDA9558B26701B229EA3D602 sha1 21C28CBDC96A960F559D45399AF3216B7C2546EC )
+)
+
+game (
 	name "Hard-Hat Domo (USA)"
 	description "Hard-Hat Domo (USA)"
 	serial "KDHE"
-	rom ( name "Hard-Hat Domo (USA).nds" size 1524736 crc 678A0BE6 md5 7E863EEC0FEDA01E693D720882BE651D sha1 81F98982BFC3F04AB81F8BFD4DB6074B584A5FF9 )
+	rom ( name "Hard-Hat Domo (USA).nds" size 1524736 crc 678A0BE6 md5 7E863EEC0FEDA01E693D720882BE651D sha1 81F98982BFC3F04AB81F8BFD4DB6074B584A5FF9 flags verified )
 )
 
 game (
@@ -1245,38 +2169,115 @@ game (
 )
 
 game (
+	name "Hidden Photo (USA)"
+	description "Hidden Photo (USA)"
+	serial "KHJE"
+	rom ( name "Hidden Photo (USA).nds" size 12212224 crc 6FFEDB71 md5 2857565128B51AE57EE02AF7B88352D3 sha1 73619B6F8DA549DCB4C56D165D03F1E751E206C7 )
+)
+
+game (
 	name "Hobonichi no Kenkou Techou (Japan)"
 	description "Hobonichi no Kenkou Techou (Japan)"
 	serial "KENJ"
-	rom ( name "Hobonichi no Kenkou Techou (Japan).nds" size 5294080 crc FBB8A814 md5 540575C4695171E39250DAB638B0A078 sha1 DEDDAF8D97796FD6EC56DAFE6CF15A7C52244CB7 )
+	rom ( name "Hobonichi no Kenkou Techou (Japan).nds" size 5294080 crc FBB8A814 md5 540575C4695171E39250DAB638B0A078 sha1 DEDDAF8D97796FD6EC56DAFE6CF15A7C52244CB7 flags verified )
+)
+
+game (
+	name "I am in the Movie (USA)"
+	description "I am in the Movie (USA)"
+	serial "KXJE"
+	rom ( name "I am in the Movie (USA).nds" size 2999296 crc 8F54DF6E md5 755489A82ED1D54A30ED3ACC8692ED9D sha1 CD4A60AC0CAC2A6FF45A8BF9B5098A4CCDA4B39D )
 )
 
 game (
 	name "I Must Run! (Europe)"
 	description "I Must Run! (Europe)"
 	serial "KURP"
-	rom ( name "I Must Run! (Europe).nds" size 5520384 crc 7279BFFD md5 D440F7FF3A2CCDCDE57D43E702B51A53 sha1 D7951D790545E2A17DB9167BCC13927AD7DBF7AB )
+	rom ( name "I Must Run! (Europe).nds" size 5520384 crc 7279BFFD md5 D440F7FF3A2CCDCDE57D43E702B51A53 sha1 D7951D790545E2A17DB9167BCC13927AD7DBF7AB flags verified )
+)
+
+game (
+	name "I Must Run! (USA)"
+	description "I Must Run! (USA)"
+	serial "KURE"
+	rom ( name "I Must Run! (USA).nds" size 5473280 crc 5D8601F8 md5 9A830343870A850A0A22967FA3F5CEE1 sha1 786FB9476DCC0E1EAE87192ABD23DB200C015344 )
+)
+
+game (
+	name "Ichimoudajin! Nekoking (Japan)"
+	description "Ichimoudajin! Nekoking (Japan)"
+	serial "KNEJ"
+	rom ( name "Ichimoudajin! Nekoking (Japan).nds" size 5370880 crc 61D7A9EB md5 DF9E0CC5F31C2A48850713E06B2B165E sha1 B80C05AF06C71568E240C8E9EF97CC341CB9F68A )
 )
 
 game (
 	name "Inchworm Animation (Europe)"
 	description "Inchworm Animation (Europe)"
 	serial "KIWP"
-	rom ( name "Inchworm Animation (Europe).nds" size 4713472 crc ED7DD324 md5 96787230DBB479EADEA47F9C881D8C57 sha1 3AE538FCB4D2E6D1930B6B651EB3E194E4991DF6 )
+	rom ( name "Inchworm Animation (Europe).nds" size 4713472 crc ED7DD324 md5 96787230DBB479EADEA47F9C881D8C57 sha1 3AE538FCB4D2E6D1930B6B651EB3E194E4991DF6 flags verified )
+)
+
+game (
+	name "Inchworm Animation (USA)"
+	description "Inchworm Animation (USA)"
+	serial "KIWE"
+	rom ( name "Inchworm Animation (USA).nds" size 4065280 crc C43AAED3 md5 8D7A4D4BA49F36831EFEB7CB0AE5E867 sha1 359D1B129876CBA401D6BDE78D0FBE2F0C6A2942 flags verified )
+)
+
+game (
+	name "Inchworm Animation (Australia)"
+	description "Inchworm Animation (Australia)"
+	serial "KIWU"
+	rom ( name "Inchworm Animation (Australia).nds" size 4056064 crc A7777D7D md5 90138C775574E8F42D79B3686B86E10F sha1 8444A9A6BC66ECECDDF7A98EF18BBC83D045E63C )
+)
+
+game (
+	name "iSpot Japan (USA)"
+	description "iSpot Japan (USA)"
+	serial "K3JE"
+	rom ( name "iSpot Japan (USA).nds" size 6285312 crc 04A023B3 md5 695370A7CC6887CFD2BCC163ECF9BFA9 sha1 7BD94A7C8077B8E901FB2DD7B432CFC8DF91219C flags verified )
+)
+
+game (
+	name "Itsudemo Pri-Kura Kiradeko Premium (Japan) (Rev 1)"
+	description "Itsudemo Pri-Kura Kiradeko Premium (Japan) (Rev 1)"
+	serial "KHDJ"
+	rom ( name "Itsudemo Pri-Kura Kiradeko Premium (Japan) (Rev 1).nds" size 12371968 crc 42A7CF8F md5 EF656C1DFABA8D4599E94F21F06E5C43 sha1 654DAE7CDF14E19F5556B42E5E71868252AD5F6C )
+)
+
+game (
+	name "Jaseiken Necromancer - Nightmare Reborn (Japan)"
+	description "Jaseiken Necromancer - Nightmare Reborn (Japan)"
+	serial "KU6J"
+	rom ( name "Jaseiken Necromancer - Nightmare Reborn (Japan).nds" size 15332352 crc F5253D17 md5 31BB7023D4113726DFB77BD00694383B sha1 F3C5DE93A5294D79357C30AE4CF1AE6D6DBA642A )
 )
 
 game (
 	name "JellyCar 2 (USA)"
 	description "JellyCar 2 (USA)"
 	serial "KJYE"
-	rom ( name "JellyCar 2 (USA).nds" size 15106048 crc 35C703A7 md5 A4E441EFB79D2456B84184A119917199 sha1 EBDC129B8F3EDBF2D3ED36F9B61AF3FE6271A354 )
+	rom ( name "JellyCar 2 (USA).nds" size 15106048 crc 35C703A7 md5 A4E441EFB79D2456B84184A119917199 sha1 EBDC129B8F3EDBF2D3ED36F9B61AF3FE6271A354 flags verified )
 )
 
 game (
 	name "Jibun de Tsukuru Nintendo DS Guide (Japan)"
 	description "Jibun de Tsukuru Nintendo DS Guide (Japan)"
 	serial "KG3J"
-	rom ( name "Jibun de Tsukuru Nintendo DS Guide (Japan).nds" size 2811904 crc C780DAE1 md5 F7A5E95CE73A44AB2D66BD13D93EE31F sha1 7BEE63FF08D6E08F90CA7B3696AC95B8023EA80C )
+	rom ( name "Jibun de Tsukuru Nintendo DS Guide (Japan).nds" size 2811904 crc C780DAE1 md5 F7A5E95CE73A44AB2D66BD13D93EE31F sha1 7BEE63FF08D6E08F90CA7B3696AC95B8023EA80C flags verified )
+)
+
+game (
+	name "Joshikou Dash (Japan)"
+	description "Joshikou Dash (Japan)"
+	serial "KNOJ"
+	rom ( name "Joshikou Dash (Japan).nds" size 5220352 crc D72E29F9 md5 310711A0C33BBD365D1E5A589D57BF28 sha1 126D5832383686E1C7D197D4012E515864B9A75C )
+)
+
+game (
+	name "Just Sing! Christmas Songs (Europe)"
+	description "Just Sing! Christmas Songs (Europe)"
+	serial "K4CP"
+	rom ( name "Just Sing! Christmas Songs (Europe).nds" size 6182912 crc 2D5F93CA md5 28A46A87947DD98C30AAFCCFE7CF8AAA sha1 6364DAA2E15F2B3A4F612189429ED88A6F3A5CF1 )
 )
 
 game (
@@ -1290,7 +2291,21 @@ game (
 	name "Kappa's Trail, A (USA)"
 	description "Kappa's Trail, A (USA)"
 	serial "KPAE"
-	rom ( name "Kappa's Trail, A (USA).nds" size 10354688 crc 52E3734E md5 179F35AF782843805A1DB181574CE586 sha1 37BDB6A09D9C7E991294C4A4EB077295BEDC8277 )
+	rom ( name "Kappa's Trail, A (USA).nds" size 10354688 crc 52E3734E md5 179F35AF782843805A1DB181574CE586 sha1 37BDB6A09D9C7E991294C4A4EB077295BEDC8277 flags verified )
+)
+
+game (
+	name "Katanuki (Japan)"
+	description "Katanuki (Japan)"
+	serial "KTNJ"
+	rom ( name "Katanuki (Japan).nds" size 4635648 crc 1A725B78 md5 1A097052AC319D0BD586C63423493DC5 sha1 9D98501FF99AAA61E07B61CA6E496C0206485D58 )
+)
+
+game (
+	name "Korogashi Puzzle Katamari Damacy (Japan)"
+	description "Korogashi Puzzle Katamari Damacy (Japan)"
+	serial "KTMJ"
+	rom ( name "Korogashi Puzzle Katamari Damacy (Japan).nds" size 7644160 crc FA33A6FA md5 69CA016D69419315F3561DEE9E97CA2F sha1 51A9A9CD317E8ADE2A772D305AC2E6A929D96559 )
 )
 
 game (
@@ -1301,31 +2316,31 @@ game (
 )
 
 game (
-	name "Learning Piano (USA)"
-	description "Learning Piano (USA)"
-	serial "K88E"
-	rom ( name "Learning Piano (USA).nds" size 4448256 crc 27F6A5CD md5 D8E2466BA98EDFE53FFC36C0570B389F sha1 195EFF9069C6538266111315AF4B3EAC669A224E )
-)
-
-game (
 	name "Legend of Zelda, The - Four Swords Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Legend of Zelda, The - Four Swords Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KQ9V"
-	rom ( name "Legend of Zelda, The - Four Swords Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It).nds" size 14848000 crc D5B25CC5 md5 017874C19380006FC5E540588F2C8C5D sha1 F151325756B6804D5C27E20AB8E70FE69239CBBF )
+	rom ( name "Legend of Zelda, The - Four Swords Anniversary Edition (Europe, Australia) (En,Fr,De,Es,It).nds" size 14848000 crc D5B25CC5 md5 017874C19380006FC5E540588F2C8C5D sha1 F151325756B6804D5C27E20AB8E70FE69239CBBF flags verified )
 )
 
 game (
 	name "Legend of Zelda, The - Four Swords Anniversary Edition (USA) (En,Fr,Es)"
 	description "Legend of Zelda, The - Four Swords Anniversary Edition (USA) (En,Fr,Es)"
 	serial "KQ9E"
-	rom ( name "Legend of Zelda, The - Four Swords Anniversary Edition (USA) (En,Fr,Es).nds" size 14496768 crc 0EEE2777 md5 E7223EC76A60804205A3EC41BD8A563A sha1 E0A0086DF319F4A921111083FBEA18A66527A801 )
+	rom ( name "Legend of Zelda, The - Four Swords Anniversary Edition (USA) (En,Fr,Es).nds" size 14496768 crc 0EEE2777 md5 E7223EC76A60804205A3EC41BD8A563A sha1 E0A0086DF319F4A921111083FBEA18A66527A801 flags verified )
 )
 
 game (
 	name "Legends of Exidia (USA)"
 	description "Legends of Exidia (USA)"
 	serial "KLEE"
-	rom ( name "Legends of Exidia (USA).nds" size 9628672 crc B5021D4D md5 7D8137440CB5CB47619816F09B09B0F0 sha1 2B387F3C192699BAA811BF4173B5928A61FCED9F )
+	rom ( name "Legends of Exidia (USA).nds" size 9628672 crc B5021D4D md5 7D8137440CB5CB47619816F09B09B0F0 sha1 2B387F3C192699BAA811BF4173B5928A61FCED9F flags verified )
+)
+
+game (
+	name "Legends of Exidia (Europe, Australia)"
+	description "Legends of Exidia (Europe, Australia)"
+	serial "KLEV"
+	rom ( name "Legends of Exidia (Europe, Australia).nds" size 9628672 crc 2ACB2E9F md5 8E38EE2997FC93F47B490CDA7A6092FD sha1 85DB5C2F5B912F272C538894BFE76A46E7F3D568 flags verified )
 )
 
 game (
@@ -1333,6 +2348,13 @@ game (
 	description "Let's Create! Pottery (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KLJV"
 	rom ( name "Let's Create! Pottery (Europe, Australia) (En,Fr,De,Es,It).nds" size 10376192 crc 136989B3 md5 C1DB519D506023AF9AE342DE8EDBEC31 sha1 F6104E77CFA9A4B51E851581B89197B88923B87B )
+)
+
+game (
+	name "Let's Golf! (Europe, Australia)"
+	description "Let's Golf! (Europe, Australia)"
+	serial "KLGV"
+	rom ( name "Let's Golf! (Europe, Australia).nds" size 16638976 crc 60799326 md5 E7E7532D4B5C298DB379A1E98683FDBD sha1 70ABA7A0ABDD29292F8185C815FB8DC465EF5EB8 )
 )
 
 game (
@@ -1346,7 +2368,7 @@ game (
 	name "Link 'n' Launch (USA)"
 	description "Link 'n' Launch (USA)"
 	serial "KPTE"
-	rom ( name "Link 'n' Launch (USA).nds" size 4690944 crc 06B571AF md5 83548EB7315F32B370846B83F6049FDB sha1 94C2875994587B808949FD8671B83AF80AD12CAC )
+	rom ( name "Link 'n' Launch (USA).nds" size 4690944 crc 06B571AF md5 83548EB7315F32B370846B83F6049FDB sha1 94C2875994587B808949FD8671B83AF80AD12CAC flags verified )
 )
 
 game (
@@ -1360,14 +2382,42 @@ game (
 	name "Little Bit of... Brain Training, A - Arts Edition (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Little Bit of... Brain Training, A - Arts Edition (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	serial "KNDV"
-	rom ( name "Little Bit of... Brain Training, A - Arts Edition (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).nds" size 12608512 crc 5F79B5FF md5 B17A8BBEEE9FF3540611690C17D89992 sha1 A38D586557515DB910D68C9A3560F6C216F38CF2 )
+	rom ( name "Little Bit of... Brain Training, A - Arts Edition (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).nds" size 12608512 crc 5F79B5FF md5 B17A8BBEEE9FF3540611690C17D89992 sha1 A38D586557515DB910D68C9A3560F6C216F38CF2 flags verified )
+)
+
+game (
+	name "Little Bit of... Brain Training, A - Maths Edition (Europe, Australia) (Rev 1)"
+	description "Little Bit of... Brain Training, A - Maths Edition (Europe, Australia) (Rev 1)"
+	serial "KNRV"
+	rom ( name "Little Bit of... Brain Training, A - Maths Edition (Europe, Australia) (Rev 1).nds" size 10689536 crc 19900DDB md5 4E7E1FC86DA513E5B31ADBB13C080D7B sha1 348C06C588F1BDC82A80AF9C4D170B004E449C9D )
+)
+
+game (
+	name "Little Bit of... Magic Made Fun, A - Deep Psyche (Europe)"
+	description "Little Bit of... Magic Made Fun, A - Deep Psyche (Europe)"
+	serial "KM9P"
+	rom ( name "Little Bit of... Magic Made Fun, A - Deep Psyche (Europe).nds" size 2374656 crc 2BB74C5A md5 E58F9C8F85E6CD844FA34F8562AD19C8 sha1 2E489AAF4DC2E01D0A630E4D82EA9AFBB21EBBE7 )
+)
+
+game (
+	name "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (Fr,De,It) (Rev 1)"
+	description "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (Fr,De,It) (Rev 1)"
+	serial "KMFX"
+	rom ( name "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (Fr,De,It) (Rev 1).nds" size 5121024 crc 31649F03 md5 B4193B1BED981E0DF96F57249DE029AA sha1 62A96716917629918E7DA7254B58C1A0AF82D85A )
+)
+
+game (
+	name "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (En,Es)"
+	description "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (En,Es)"
+	serial "KMFP"
+	rom ( name "Little Bit of... Magic Made Fun, A - Funny Face (Europe) (En,Es).nds" size 3122176 crc 29B1AD6F md5 F8F11B0F16DB677C3BDE26E98C9C8DF6 sha1 7C442832B1DA82D6D0A7EF701EE55CE2BDBF0015 )
 )
 
 game (
 	name "Little Bit of... Magic Made Fun, A - Matchmaker (Europe)"
 	description "Little Bit of... Magic Made Fun, A - Matchmaker (Europe)"
 	serial "KMDP"
-	rom ( name "Little Bit of... Magic Made Fun, A - Matchmaker (Europe).nds" size 6076416 crc 9AFD0ADD md5 DF18BAF13D8494A62BB3EE978DE2E415 sha1 0CF92B0C5216FBC067A768C1FD06FC0AA047A55C )
+	rom ( name "Little Bit of... Magic Made Fun, A - Matchmaker (Europe).nds" size 6076416 crc 9AFD0ADD md5 DF18BAF13D8494A62BB3EE978DE2E415 sha1 0CF92B0C5216FBC067A768C1FD06FC0AA047A55C flags verified )
 )
 
 game (
@@ -1378,38 +2428,94 @@ game (
 )
 
 game (
+	name "Little Bit of... Magic Made Fun, A - Psychic Camera (Europe)"
+	description "Little Bit of... Magic Made Fun, A - Psychic Camera (Europe)"
+	serial "KMNP"
+	rom ( name "Little Bit of... Magic Made Fun, A - Psychic Camera (Europe).nds" size 4884480 crc E8BE3FBB md5 187DAF5C3AA8169142E3E9BE3DCF28DD sha1 3AFAA9B52637E2905BB0E659501434F23BB191EE )
+)
+
+game (
+	name "Little Bit of... Magic Made Fun, A - Shuffle Games (Europe)"
+	description "Little Bit of... Magic Made Fun, A - Shuffle Games (Europe)"
+	serial "KMSP"
+	rom ( name "Little Bit of... Magic Made Fun, A - Shuffle Games (Europe).nds" size 2565120 crc D427764D md5 B7547567B1F55A0D2A1045D0BC424E70 sha1 E2FA16F2A75586D38BA60E0C563E712114CA648D )
+)
+
+game (
+	name "Little Bit of..., A - Dr. Mario (Europe, Australia)"
+	description "Little Bit of..., A - Dr. Mario (Europe, Australia)"
+	serial "KD9V"
+	rom ( name "Little Bit of..., A - Dr. Mario (Europe, Australia).nds" size 4083712 crc 4BEAC667 md5 03B0B420AF66ADE359AD4ED8FB8C040F sha1 C1F98203D38A1A8EE5136738FC7E1149E5270364 )
+)
+
+game (
+	name "Little Bit of..., A - Nintendo Touch Golf (Europe, Australia)"
+	description "Little Bit of..., A - Nintendo Touch Golf (Europe, Australia)"
+	serial "K72V"
+	rom ( name "Little Bit of..., A - Nintendo Touch Golf (Europe, Australia).nds" size 15370240 crc 242ADBC2 md5 0F4A736A6BBF7F416142CD480D342D4C sha1 FF378C450E419766C66F73E2707334135256DFDF )
+)
+
+game (
+	name "Little Bit of..., A - Puzzle League (Europe, Australia)"
+	description "Little Bit of..., A - Puzzle League (Europe, Australia)"
+	serial "KPNV"
+	rom ( name "Little Bit of..., A - Puzzle League (Europe, Australia).nds" size 5714944 crc FC414AE1 md5 B6FE5C082994648B01B5E3A4ACF7E4E8 sha1 F1758BC437222E247861B2B8B8AA5B14121E894E )
+)
+
+game (
+	name "Little Red Riding Hood's Zombie BBQ (Europe)"
+	description "Little Red Riding Hood's Zombie BBQ (Europe)"
+	serial "KZBP"
+	rom ( name "Little Red Riding Hood's Zombie BBQ (Europe).nds" size 15818752 crc 4DA7BC12 md5 D028A398F758599C7E2ED1D4179E3DF4 sha1 BEDFDAABEA142999F11B060C0002EBAD3D9D34D4 )
+)
+
+game (
 	name "Littlest Pet Shop (Europe, Australia)"
 	description "Littlest Pet Shop (Europe, Australia)"
 	serial "KLPV"
-	rom ( name "Littlest Pet Shop (Europe, Australia).nds" size 14834688 crc DA878154 md5 DA802F5448CF16ED1FBA606B8F3EED30 sha1 DCFC7FF058DF05B3B4B2A66BC7E4901BC7E1EAD6 )
+	rom ( name "Littlest Pet Shop (Europe, Australia).nds" size 14834688 crc DA878154 md5 DA802F5448CF16ED1FBA606B8F3EED30 sha1 DCFC7FF058DF05B3B4B2A66BC7E4901BC7E1EAD6 flags verified )
+)
+
+game (
+	name "Lola's Alphabet Train (USA)"
+	description "Lola's Alphabet Train (USA)"
+	serial "KLKE"
+	rom ( name "Lola's Alphabet Train (USA).nds" size 5201920 crc E3FF4C31 md5 FBB438D1E19C8A3ED37E891A894082B6 sha1 CE10DC4B6D746E897CB72E046F22C893BA8C271B )
 )
 
 game (
 	name "Looksley's Line Up (USA)"
 	description "Looksley's Line Up (USA)"
 	serial "KRGE"
-	rom ( name "Looksley's Line Up (USA).nds" size 9138176 crc 1EDDAB7A md5 76468525B782EEF5B88D2C9F90292A37 sha1 6BA17F9A0AA812DDCA3D2FDA6FF396F1D1E25E6C )
+	rom ( name "Looksley's Line Up (USA).nds" size 9138176 crc 1EDDAB7A md5 76468525B782EEF5B88D2C9F90292A37 sha1 6BA17F9A0AA812DDCA3D2FDA6FF396F1D1E25E6C flags verified )
 )
 
 game (
 	name "Maestro! Green Groove (Europe, Australia)"
 	description "Maestro! Green Groove (Europe, Australia)"
 	serial "KM6V"
-	rom ( name "Maestro! Green Groove (Europe, Australia).nds" size 11755520 crc 7A05B34E md5 51B2F0AFE4A84ABA2D33CCADC36AAC17 sha1 0FE543DE1C2DABECDA4CD87CF733B6177D909B1F )
+	rom ( name "Maestro! Green Groove (Europe, Australia).nds" size 11755520 crc 7A05B34E md5 51B2F0AFE4A84ABA2D33CCADC36AAC17 sha1 0FE543DE1C2DABECDA4CD87CF733B6177D909B1F flags verified )
+)
+
+game (
+	name "Magical fantasista (Japan) (Rev 1)"
+	description "Magical fantasista (Japan) (Rev 1)"
+	serial "KFJJ"
+	rom ( name "Magical fantasista (Japan) (Rev 1).nds" size 5439488 crc 9FC79F7F md5 08CD0625BE91A7286E5603289ABC3738 sha1 FDD4A19BDEAB4D46953F97FADD3BDD0E53A7EEA1 )
 )
 
 game (
 	name "Magical Whip (USA)"
 	description "Magical Whip (USA)"
 	serial "KWME"
-	rom ( name "Magical Whip (USA).nds" size 6004736 crc 8D02E926 md5 CAF7503176DE6B9083B69280F30EABA7 sha1 5237B1DC1EE92B98818A05AFB88CBFC78B7C4B64 )
+	rom ( name "Magical Whip (USA).nds" size 6004736 crc 8D02E926 md5 CAF7503176DE6B9083B69280F30EABA7 sha1 5237B1DC1EE92B98818A05AFB88CBFC78B7C4B64 flags verified )
 )
 
 game (
 	name "Magnetic Joe (USA)"
 	description "Magnetic Joe (USA)"
 	serial "KJOE"
-	rom ( name "Magnetic Joe (USA).nds" size 16574464 crc B8C22E6D md5 98EAACEC868B24B02A25D0526B81F091 sha1 7442DE625D7CA53AB2FCA5EDD7C9B4DAF5E57E89 )
+	rom ( name "Magnetic Joe (USA).nds" size 16574464 crc B8C22E6D md5 98EAACEC868B24B02A25D0526B81F091 sha1 7442DE625D7CA53AB2FCA5EDD7C9B4DAF5E57E89 flags verified )
 )
 
 game (
@@ -1423,63 +2529,70 @@ game (
 	name "Mario Calculator (USA) (Rev 1)"
 	description "Mario Calculator (USA) (Rev 1)"
 	serial "KWFE"
-	rom ( name "Mario Calculator (USA) (Rev 1).nds" size 1724416 crc 1A01A40C md5 3E9952D252877A1BFABA5146346923A6 sha1 F6C0E21CB4142FF61EAE312528EDFFE5A664FE29 )
+	rom ( name "Mario Calculator (USA) (Rev 1).nds" size 1724416 crc 1A01A40C md5 3E9952D252877A1BFABA5146346923A6 sha1 F6C0E21CB4142FF61EAE312528EDFFE5A664FE29 flags verified )
 )
 
 game (
 	name "Mario Calculator (Europe, Australia)"
 	description "Mario Calculator (Europe, Australia)"
 	serial "KWFV"
-	rom ( name "Mario Calculator (Europe, Australia).nds" size 1932288 crc 155AEDE0 md5 492FD0E0794D635DAD05A300A6780CCD sha1 D7BCF8B9DFAE00883135A2850CA65EC87BCFAFE5 )
+	rom ( name "Mario Calculator (Europe, Australia).nds" size 1932288 crc 155AEDE0 md5 492FD0E0794D635DAD05A300A6780CCD sha1 D7BCF8B9DFAE00883135A2850CA65EC87BCFAFE5 flags verified )
 )
 
 game (
 	name "Mario Clock (USA) (Rev 1)"
 	description "Mario Clock (USA) (Rev 1)"
 	serial "KWBE"
-	rom ( name "Mario Clock (USA) (Rev 1).nds" size 2795520 crc 74DBCF24 md5 5E3A2D90FB04A2F54F6B51E2196E2486 sha1 74D2C303AAE8D06D29326D9AB5BB8B9D5850BAEA )
+	rom ( name "Mario Clock (USA) (Rev 1).nds" size 2795520 crc 74DBCF24 md5 5E3A2D90FB04A2F54F6B51E2196E2486 sha1 74D2C303AAE8D06D29326D9AB5BB8B9D5850BAEA flags verified )
 )
 
 game (
 	name "Mario Clock (Europe, Australia)"
 	description "Mario Clock (Europe, Australia)"
 	serial "KWBV"
-	rom ( name "Mario Clock (Europe, Australia).nds" size 2931712 crc E385B8A6 md5 E37D351FDD29102D340BC584075DDEAC sha1 3A843A6306F4F8EFC3D8F7DD0FB2819FE7A94924 )
+	rom ( name "Mario Clock (Europe, Australia).nds" size 2931712 crc E385B8A6 md5 E37D351FDD29102D340BC584075DDEAC sha1 3A843A6306F4F8EFC3D8F7DD0FB2819FE7A94924 flags verified )
 )
 
 game (
 	name "Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1)"
 	description "Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1)"
 	serial "KDME"
-	rom ( name "Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1).nds" size 14730240 crc 45AC8BE5 md5 77DF82CD845D7165C94751604C6AE867 sha1 27F30A02E777188B84EECCE5E440E5CB64BB0AF3 )
+	rom ( name "Mario vs. Donkey Kong - Minis March Again! (USA) (Rev 1).nds" size 14730240 crc 45AC8BE5 md5 77DF82CD845D7165C94751604C6AE867 sha1 27F30A02E777188B84EECCE5E440E5CB64BB0AF3 flags verified )
 )
 
 game (
 	name "Mario vs. Donkey Kong - Minis March Again! (Europe, Australia)"
 	description "Mario vs. Donkey Kong - Minis March Again! (Europe, Australia)"
 	serial "KDMV"
-	rom ( name "Mario vs. Donkey Kong - Minis March Again! (Europe, Australia).nds" size 16011264 crc B6862E23 md5 EB65B06136EE43512C7C9AA695A7236A sha1 12CFD4FA75F34CBCFE9163B68D2BB7DFDBD5F3F9 )
+	rom ( name "Mario vs. Donkey Kong - Minis March Again! (Europe, Australia).nds" size 16011264 crc B6862E23 md5 EB65B06136EE43512C7C9AA695A7236A sha1 12CFD4FA75F34CBCFE9163B68D2BB7DFDBD5F3F9 flags verified )
 )
 
 game (
 	name "Master of Illusion Express - Deep Psyche (USA, Australia)"
 	description "Master of Illusion Express - Deep Psyche (USA, Australia)"
 	serial "KM9T"
-	rom ( name "Master of Illusion Express - Deep Psyche (USA, Australia).nds" size 2274304 crc 42528D43 md5 0B4A591C1D613B681328967CC344D322 sha1 B819F0C4065F89E43C43BA2CD9736470FEFBA07D )
+	rom ( name "Master of Illusion Express - Deep Psyche (USA, Australia).nds" size 2274304 crc 42528D43 md5 0B4A591C1D613B681328967CC344D322 sha1 B819F0C4065F89E43C43BA2CD9736470FEFBA07D flags verified )
 )
 
 game (
 	name "Master of Illusion Express - Funny Face (USA, Australia)"
 	description "Master of Illusion Express - Funny Face (USA, Australia)"
 	serial "KMFT"
-	rom ( name "Master of Illusion Express - Funny Face (USA, Australia).nds" size 2339840 crc 0AA52EA1 md5 AEB06FA3479438791761939B5A2A9577 sha1 7B3A65789F6178BFF07C0E79051536D467045F2C )
+	rom ( name "Master of Illusion Express - Funny Face (USA, Australia).nds" size 2339840 crc 0AA52EA1 md5 AEB06FA3479438791761939B5A2A9577 sha1 7B3A65789F6178BFF07C0E79051536D467045F2C flags verified )
+)
+
+game (
+	name "Master of Illusion Express - Matchmaker (USA, Australia)"
+	description "Master of Illusion Express - Matchmaker (USA, Australia)"
+	serial "KMDT"
+	rom ( name "Master of Illusion Express - Matchmaker (USA, Australia).nds" size 2596864 crc C4583668 md5 F14517E12BE7CF72EAFEEF19721FEEF1 sha1 3D93C6209CE8E99267368526EBD9BA2D223EAD3F flags verified )
 )
 
 game (
 	name "Master of Illusion Express - Shuffle Games (USA, Australia)"
 	description "Master of Illusion Express - Shuffle Games (USA, Australia)"
 	serial "KMST"
-	rom ( name "Master of Illusion Express - Shuffle Games (USA, Australia).nds" size 2277376 crc C39DE9B3 md5 E37D984089B5F19FEF4A3391D5BFC87D sha1 87C4A7553C2DD9BA914D2BD6F17BFA9EDE748244 )
+	rom ( name "Master of Illusion Express - Shuffle Games (USA, Australia).nds" size 2277376 crc C39DE9B3 md5 E37D984089B5F19FEF4A3391D5BFC87D sha1 87C4A7553C2DD9BA914D2BD6F17BFA9EDE748244 flags verified )
 )
 
 game (
@@ -1493,21 +2606,35 @@ game (
 	name "Metal Torrent (USA)"
 	description "Metal Torrent (USA)"
 	serial "K59E"
-	rom ( name "Metal Torrent (USA).nds" size 4423680 crc 4CDE5F3C md5 6BD3E221772E31486A36DD1480ACFDF3 sha1 35BB323046AD4A2FEA12CC489A3F9AA4102DF9E9 )
+	rom ( name "Metal Torrent (USA).nds" size 4423680 crc 4CDE5F3C md5 6BD3E221772E31486A36DD1480ACFDF3 sha1 35BB323046AD4A2FEA12CC489A3F9AA4102DF9E9 flags verified )
 )
 
 game (
 	name "Mighty Flip Champs! (USA)"
 	description "Mighty Flip Champs! (USA)"
 	serial "KMGE"
-	rom ( name "Mighty Flip Champs! (USA).nds" size 6190080 crc B9CC5E05 md5 02DB79A454C0478A5FFF4DB0B87F1DA6 sha1 DB8D16DC9DF0BABBC0D1ED23FF8FACF6E686591B )
+	rom ( name "Mighty Flip Champs! (USA).nds" size 6190080 crc B9CC5E05 md5 02DB79A454C0478A5FFF4DB0B87F1DA6 sha1 DB8D16DC9DF0BABBC0D1ED23FF8FACF6E686591B flags verified )
+)
+
+game (
+	name "Mighty Flip Champs! (Europe, Australia)"
+	description "Mighty Flip Champs! (Europe, Australia)"
+	serial "KMGV"
+	rom ( name "Mighty Flip Champs! (Europe, Australia).nds" size 6898688 crc 0ECE6DE1 md5 97818E5178B0247BB296CDF10033F522 sha1 7C1CF00F91251FF522FFEAAE7AB3110A3E1E97EE )
 )
 
 game (
 	name "Mighty Milky Way (USA)"
 	description "Mighty Milky Way (USA)"
 	serial "KWYE"
-	rom ( name "Mighty Milky Way (USA).nds" size 11380736 crc 8C1A3ABC md5 3F02B267D76C0637BD77EA4720A1C590 sha1 E9C848963939D09C4656F7939FF6968FC90846D4 )
+	rom ( name "Mighty Milky Way (USA).nds" size 11380736 crc 8C1A3ABC md5 3F02B267D76C0637BD77EA4720A1C590 sha1 E9C848963939D09C4656F7939FF6968FC90846D4 flags verified )
+)
+
+game (
+	name "Mighty Milky Way (Europe)"
+	description "Mighty Milky Way (Europe)"
+	serial "KWYP"
+	rom ( name "Mighty Milky Way (Europe).nds" size 11446272 crc 44ED6D43 md5 45A5C6FF7B550AE50E4E747D2471E4F1 sha1 CD5A883961D7BF9B732DE9E073EB9C4226AA346C )
 )
 
 game (
@@ -1521,28 +2648,231 @@ game (
 	name "Mixed Messages (USA)"
 	description "Mixed Messages (USA)"
 	serial "KMME"
-	rom ( name "Mixed Messages (USA).nds" size 6025216 crc CC4F5D24 md5 0C235BD43CB11B5F48FAC4315279F248 sha1 17D2CB5E720D8FD914BF0138E61E6C750FB5588A )
+	rom ( name "Mixed Messages (USA).nds" size 6025216 crc CC4F5D24 md5 0C235BD43CB11B5F48FAC4315279F248 sha1 17D2CB5E720D8FD914BF0138E61E6C750FB5588A flags verified )
+)
+
+game (
+	name "Mixed Messages (Europe, Australia)"
+	description "Mixed Messages (Europe, Australia)"
+	serial "KMMV"
+	rom ( name "Mixed Messages (Europe, Australia).nds" size 6073344 crc 73F6A5C8 md5 4849F9AD49CFD39AADB7949FB821E21C sha1 7B18EA81650D7006D7960E8558F99F7C2AA8A6EA )
 )
 
 game (
 	name "Moke Moke (USA)"
 	description "Moke Moke (USA)"
 	serial "KNYE"
-	rom ( name "Moke Moke (USA).nds" size 3740672 crc 5AFFB868 md5 8A0E33DD3A598DFAFE07DC195585A253 sha1 C19ED6F0B62AC42E16B71F6DC6675B539B953B38 )
+	rom ( name "Moke Moke (USA).nds" size 3740672 crc 5AFFB868 md5 8A0E33DD3A598DFAFE07DC195585A253 sha1 C19ED6F0B62AC42E16B71F6DC6675B539B953B38 flags verified )
+)
+
+game (
+	name "Mr. Brain (Japan)"
+	description "Mr. Brain (Japan)"
+	serial "KMBJ"
+	rom ( name "Mr. Brain (Japan).nds" size 2452480 crc 57ACB576 md5 54EE136B215890AB3F5B60567B3F2830 sha1 34BCAC1B67D4700F83619F8EE7C6FE201EA57AC4 )
+)
+
+game (
+	name "Mr. Driller - Drill till you Drop (USA)"
+	description "Mr. Driller - Drill till you Drop (USA)"
+	serial "KDRE"
+	rom ( name "Mr. Driller - Drill till you Drop (USA).nds" size 7400448 crc 1BD29F53 md5 C3B6050A70E01064517151CDE8C3A934 sha1 79E14DA943333E98F31060A8A0C8BF1C4610372A )
+)
+
+game (
+	name "Music on - Electric Guitar (USA)"
+	description "Music on - Electric Guitar (USA)"
+	serial "KIEE"
+	rom ( name "Music on - Electric Guitar (USA).nds" size 3296256 crc 0F6FDA75 md5 846C87368E79490F2133DFBF4B93227C sha1 E19043D83F6D76A04A1275C29673F6D9585D4C1D )
+)
+
+game (
+	name "Music on - Electric Guitar (Europe, Australia)"
+	description "Music on - Electric Guitar (Europe, Australia)"
+	serial "KIEV"
+	rom ( name "Music on - Electric Guitar (Europe, Australia).nds" size 3329024 crc 5BFAB51E md5 8F0F0408B8B5C3922C06BF8144A14F78 sha1 C7D3276006E2C384F9676854B988F0546CF15F67 )
+)
+
+game (
+	name "Music on - Electronic Keyboard (USA)"
+	description "Music on - Electronic Keyboard (USA)"
+	serial "KK7E"
+	rom ( name "Music on - Electronic Keyboard (USA).nds" size 3401728 crc B172FC21 md5 C79EB0B792B4F7A360C837F3274DADAE sha1 BD6EA02EC23C0CD647CDE505C169D46C301023C1 flags verified )
+)
+
+game (
+	name "Music on - Electronic Keyboard (Europe, Australia)"
+	description "Music on - Electronic Keyboard (Europe, Australia)"
+	serial "KK7V"
+	rom ( name "Music on - Electronic Keyboard (Europe, Australia).nds" size 3434496 crc 0DEDD41C md5 CDBE9AD27B566CDB47B3F48A55CA2BD8 sha1 34A69FC94870826A18C3E5D896BE5B28B3F5DAB3 )
+)
+
+game (
+	name "Music on - Learning Piano (USA)"
+	description "Music on - Learning Piano (USA)"
+	serial "K88E"
+	rom ( name "Music on - Learning Piano (USA).nds" size 4448256 crc 27F6A5CD md5 D8E2466BA98EDFE53FFC36C0570B389F sha1 195EFF9069C6538266111315AF4B3EAC669A224E flags verified )
+)
+
+game (
+	name "Music on - Learning Piano (Europe)"
+	description "Music on - Learning Piano (Europe)"
+	serial "K88P"
+	rom ( name "Music on - Learning Piano (Europe).nds" size 4483072 crc 4DC86859 md5 B052CDE2576E3450ACB81962B26DF406 sha1 F99D96C40E4FBE01EC5143502F59A39612E936B7 )
+)
+
+game (
+	name "Music on - Learning Piano Vol. 2 (USA)"
+	description "Music on - Learning Piano Vol. 2 (USA)"
+	serial "KI7E"
+	rom ( name "Music on - Learning Piano Vol. 2 (USA).nds" size 4325376 crc C1B009E8 md5 9C3A396CA9629075F89290C5E2BE2760 sha1 7664EF418567E8F84711BF37E579F26DAB14C36B )
+)
+
+game (
+	name "Music on - Playing Piano (USA)"
+	description "Music on - Playing Piano (USA)"
+	serial "KICE"
+	rom ( name "Music on - Playing Piano (USA).nds" size 4554752 crc AF27C114 md5 EA55F66F25F265C33AF1083F0175E710 sha1 5F494C40425FAB49A7EC5AA100FF3BA46C897FAC flags verified )
+)
+
+game (
+	name "Music On - Retro Keyboard (USA)"
+	description "Music On - Retro Keyboard (USA)"
+	serial "KRHE"
+	rom ( name "Music On - Retro Keyboard (USA).nds" size 3510272 crc 4299D158 md5 4A513615891297270B96BC83A89C7D39 sha1 DC20E015069335AF73566BFA6B7713B9337F9896 flags verified )
+)
+
+game (
+	name "Music On - Retro Keyboard (Europe, Australia)"
+	description "Music On - Retro Keyboard (Europe, Australia)"
+	serial "KRHV"
+	rom ( name "Music On - Retro Keyboard (Europe, Australia).nds" size 3543040 crc 13FBA44F md5 EACD133A1FCCA29A0416AECB1AE47678 sha1 B5DF6E6E3E3B9048F03E2D0D16DC8FA616A470B6 )
+)
+
+game (
+	name "My Asian Farm (Europe)"
+	description "My Asian Farm (Europe)"
+	serial "KL3P"
+	rom ( name "My Asian Farm (Europe).nds" size 5884928 crc 7FCF8A50 md5 F58C9165F44B2697806FD179BCF00135 sha1 4655A818DD536970C251FF78CA766E8B42AF31CC )
+)
+
+game (
+	name "My Australian Farm (Europe)"
+	description "My Australian Farm (Europe)"
+	serial "KL4P"
+	rom ( name "My Australian Farm (Europe).nds" size 5647360 crc 1524A2D6 md5 1EF01B3348CE2E2E825776E1CD20F20E sha1 BEAB0ECA91A937A1B4E50BE7DB4D0C4731B6E65C )
+)
+
+game (
+	name "My Exotic Farm (Europe, Australia)"
+	description "My Exotic Farm (Europe, Australia)"
+	serial "KMVV"
+	rom ( name "My Exotic Farm (Europe, Australia).nds" size 5673984 crc 4B5B0A39 md5 AAF45477C12654AB363036DC4ABAC839 sha1 836D022CA2814A2E8106CB3B39F4C12F7F1CA844 )
+)
+
+game (
+	name "My Farm (Europe, Australia)"
+	description "My Farm (Europe, Australia)"
+	serial "KMRV"
+	rom ( name "My Farm (Europe, Australia).nds" size 5809152 crc 720CEFD1 md5 2D42462485F368F7D01B674C5AF5784B sha1 235D45014D3CFE827275DA3028F98758AF4E18D3 )
+)
+
+game (
+	name "My Farm (USA) (Rev 1)"
+	description "My Farm (USA) (Rev 1)"
+	serial "KMRE"
+	rom ( name "My Farm (USA) (Rev 1).nds" size 5763072 crc 59EB620E md5 9FA2F7E88D6AF3A45A497C6898A9755A sha1 81D1ECD8AA4DE107354296B0D2393CF700D1CEE6 )
+)
+
+game (
+	name "myDiary (USA)"
+	description "myDiary (USA)"
+	serial "KYIE"
+	rom ( name "myDiary (USA).nds" size 1676288 crc C309F88C md5 751F9CBAA9082A268B40CDF16BCB3B66 sha1 B818DC3D0729E56356CA6A98F61D5782E8A6E27D flags verified )
 )
 
 game (
 	name "myNotebook - Blue (USA)"
 	description "myNotebook - Blue (USA)"
 	serial "KNBE"
-	rom ( name "myNotebook - Blue (USA).nds" size 2254848 crc 8904B69C md5 E1CF54BAE7C72F8FD9858F2CA256D78E sha1 9C3DB55EA205F869C74306250A5FB2F4970D8C82 )
+	rom ( name "myNotebook - Blue (USA).nds" size 2254848 crc 8904B69C md5 E1CF54BAE7C72F8FD9858F2CA256D78E sha1 9C3DB55EA205F869C74306250A5FB2F4970D8C82 flags verified )
+)
+
+game (
+	name "myNotebook - Blue (Europe, Australia)"
+	description "myNotebook - Blue (Europe, Australia)"
+	serial "KNBV"
+	rom ( name "myNotebook - Blue (Europe, Australia).nds" size 2310144 crc 945AF801 md5 8F8EEF521A134B40EA962A86E425D7B2 sha1 95BD14D60ABC126C8523C0BA25EDE424F13C77DA )
+)
+
+game (
+	name "myNotebook - Carbon (Europe, Australia)"
+	description "myNotebook - Carbon (Europe, Australia)"
+	serial "KN5V"
+	rom ( name "myNotebook - Carbon (Europe, Australia).nds" size 2705408 crc 91445B49 md5 60F6E6EFE8838C9DBBF0A5367A7ABE69 sha1 94E07BBB2527060C6F4CC4B8AEEFD3622ADC346D )
+)
+
+game (
+	name "myNotebook - Carbon (USA)"
+	description "myNotebook - Carbon (USA)"
+	serial "KN5E"
+	rom ( name "myNotebook - Carbon (USA).nds" size 2640896 crc 04A41A1C md5 F5F515A9588D8B1A0C6409B562771032 sha1 8B8170886A45E489797EFC04FA3CF65A56418B95 )
+)
+
+game (
+	name "myNotebook - Green (USA)"
+	description "myNotebook - Green (USA)"
+	serial "KNGE"
+	rom ( name "myNotebook - Green (USA).nds" size 2254848 crc B2EB39B6 md5 A949AFA51BE187C1EC1C52AE73CB1B3E sha1 C79D496D035B766D071E9E937D1DCD989D20196A )
+)
+
+game (
+	name "myNotebook - Red (Europe, Australia)"
+	description "myNotebook - Red (Europe, Australia)"
+	serial "KNLV"
+	rom ( name "myNotebook - Red (Europe, Australia).nds" size 2311168 crc EDFE3E81 md5 2AF482E81E6CDCDD3C5FE9C323FA91A4 sha1 7F6B23222EE319BD72CCE684D400C0FAC043C963 flags verified )
+)
+
+game (
+	name "myNotebook - Red (USA)"
+	description "myNotebook - Red (USA)"
+	serial "KNLE"
+	rom ( name "myNotebook - Red (USA).nds" size 2254848 crc 4138EF76 md5 748C304A9A9E0004D3802F8436796DC2 sha1 55D119806C573A8ABA24ACB24B222B98E2C25F4E )
+)
+
+game (
+	name "myNotebook - Tan (USA)"
+	description "myNotebook - Tan (USA)"
+	serial "KN7E"
+	rom ( name "myNotebook - Tan (USA).nds" size 2641920 crc 5C830ADB md5 9492C4184ED68CA8494B8652A225A835 sha1 2FA4CC31F60379A69F2ADCBB73801A909054BAD5 )
+)
+
+game (
+	name "myPostcards (USA)"
+	description "myPostcards (USA)"
+	serial "KMHE"
+	rom ( name "myPostcards (USA).nds" size 3997696 crc DFFC7941 md5 B43B48A729E81CF819AE2900F1159B3F sha1 4C3B3F24B6170C676766D6540B309F0CE595A2EC )
 )
 
 game (
 	name "MySims Camera (USA)"
 	description "MySims Camera (USA)"
 	serial "KMYE"
-	rom ( name "MySims Camera (USA).nds" size 4827136 crc 25F28DE2 md5 9578735B47A1E2CAD67C0553C464F59A sha1 18616F1E8C285D6D28270EB0AFD41C6187B73AB3 )
+	rom ( name "MySims Camera (USA).nds" size 4827136 crc 25F28DE2 md5 9578735B47A1E2CAD67C0553C464F59A sha1 18616F1E8C285D6D28270EB0AFD41C6187B73AB3 flags verified )
+)
+
+game (
+	name "MySims Camera (Europe, Australia)"
+	description "MySims Camera (Europe, Australia)"
+	serial "KMYV"
+	rom ( name "MySims Camera (Europe, Australia).nds" size 4978688 crc 4AA291C6 md5 0EA27B06DCF37624E07E6DEE71378F26 sha1 E74C9274E837550379BB6D42BC65DC54240F5EEE flags verified )
+)
+
+game (
+	name "Nazo no Minigame (Japan)"
+	description "Nazo no Minigame (Japan)"
+	serial "KN3J"
+	rom ( name "Nazo no Minigame (Japan).nds" size 7489536 crc D66D80A0 md5 AA9CCF7C0E37905FF13B7E06E69F1699 sha1 22DEEE5E2AF777A3B169DA960A5F0F259B2C18A3 )
 )
 
 game (
@@ -1556,7 +2886,14 @@ game (
 	name "Nintendo Countdown Calendar (Europe, Australia)"
 	description "Nintendo Countdown Calendar (Europe, Australia)"
 	serial "KAUV"
-	rom ( name "Nintendo Countdown Calendar (Europe, Australia).nds" size 4583424 crc 6E97D2A1 md5 3BD1D1B83385B784202752CDB898BDEE sha1 6DDBB995B93B590FBD98B6747AB3A3B9DF4D66C9 )
+	rom ( name "Nintendo Countdown Calendar (Europe, Australia).nds" size 4583424 crc 6E97D2A1 md5 3BD1D1B83385B784202752CDB898BDEE sha1 6DDBB995B93B590FBD98B6747AB3A3B9DF4D66C9 flags verified )
+)
+
+game (
+	name "Nintendo Countdown Calendar (USA)"
+	description "Nintendo Countdown Calendar (USA)"
+	serial "KAUE"
+	rom ( name "Nintendo Countdown Calendar (USA).nds" size 3060736 crc 5446CE0B md5 C4C0DB95D6EF51B5EF4D7AF21B846204 sha1 72946EE1A38E56B0E2CAFCD88C9E50854D77CA16 flags verified )
 )
 
 game (
@@ -1581,10 +2918,17 @@ game (
 )
 
 game (
+	name "Nintendo DSi + Internet (USA)"
+	description "Nintendo DSi + Internet (USA)"
+	serial "K2DE"
+	rom ( name "Nintendo DSi + Internet (USA).nds" size 10595328 crc A187486D md5 9E27863E0EE151A4EB657EA2DD7D6C33 sha1 EC37C889565A418B0A7AB2D9F8195CF55ACCBE8F )
+)
+
+game (
 	name "Nintendo DSi - Instrument Tuner (USA)"
 	description "Nintendo DSi - Instrument Tuner (USA)"
 	serial "KTUE"
-	rom ( name "Nintendo DSi - Instrument Tuner (USA).nds" size 1918976 crc D4A6916E md5 1378274ED2DE69FA2848EB6685F60725 sha1 ADD8FA1AAF930D9CE248C07E206DBE5CDC0B398C )
+	rom ( name "Nintendo DSi - Instrument Tuner (USA).nds" size 1918976 crc D4A6916E md5 1378274ED2DE69FA2848EB6685F60725 sha1 ADD8FA1AAF930D9CE248C07E206DBE5CDC0B398C flags verified )
 )
 
 game (
@@ -1658,6 +3002,13 @@ game (
 )
 
 game (
+	name "Nintendo DSi Metronome (USA)"
+	description "Nintendo DSi Metronome (USA)"
+	serial "KMTE"
+	rom ( name "Nintendo DSi Metronome (USA).nds" size 1482752 crc F24D82AC md5 27ADD27858A2A192925E28C31BE1FA0B sha1 10DBB281D4F54A8E8BBF03C8945BA18F59821F36 flags verified )
+)
+
+game (
 	name "Nintendo DSi Shop (USA) (Rev 12)"
 	description "Nintendo DSi Shop (USA) (Rev 12)"
 	serial "HNFE"
@@ -1672,73 +3023,192 @@ game (
 )
 
 game (
+	name "Nintendo DSi Tokei - Doubutsu no Mori Type (Japan)"
+	description "Nintendo DSi Tokei - Doubutsu no Mori Type (Japan)"
+	serial "KWCJ"
+	rom ( name "Nintendo DSi Tokei - Doubutsu no Mori Type (Japan).nds" size 1725440 crc 72D372DD md5 D4FA88F9A89F278D9A6BC7ABC1CF9E28 sha1 81BC53D294DF61F4C77E1711378698DCAAB64A2B )
+)
+
+game (
+	name "Nintendo Fan Network (USA) (Rev 1)"
+	description "Nintendo Fan Network (USA) (Rev 1)"
+	serial "K8UE"
+	rom ( name "Nintendo Fan Network (USA) (Rev 1).nds" size 1520640 crc AE5EAC36 md5 17562F38F7A663017F8A06768E422820 sha1 74A794B27D266CB9E15056E7B82B109B19F2447F flags verified )
+)
+
+game (
+	name "Nintendoji (Japan)"
+	description "Nintendoji (Japan)"
+	serial "K9KJ"
+	rom ( name "Nintendoji (Japan).nds" size 18436096 crc 13AD0586 md5 C4AF6F5DE987CE8421DA8CF99089D289 sha1 3207D6CF8F3D1F0A63BEC7AAF286EE5A6EF34D98 )
+)
+
+game (
+	name "Noroi no Game - Chi (Japan)"
+	description "Noroi no Game - Chi (Japan)"
+	serial "KJIJ"
+	rom ( name "Noroi no Game - Chi (Japan).nds" size 7562240 crc 3BC74EC0 md5 FC1B738CD71AAB68796DD390CD36C128 sha1 669BBCCDC99F5FE91C51EF3738EFE3C5493414C4 flags verified )
+)
+
+game (
+	name "Noroi no Game - Goku (Japan)"
+	description "Noroi no Game - Goku (Japan)"
+	serial "KG9J"
+	rom ( name "Noroi no Game - Goku (Japan).nds" size 8932352 crc 3B9CD89F md5 1FA5CBD64A8F59E4400EDE80313C94C2 sha1 94504F0466BA2E7AD7B8E34F2D16238053D849B1 )
+)
+
+game (
+	name "Number Battle (USA)"
+	description "Number Battle (USA)"
+	serial "KSUE"
+	rom ( name "Number Battle (USA).nds" size 4686848 crc 8CF99139 md5 D174A37FCCF26944521486E491E94F68 sha1 AD053393273EA5DC0FC5CEB2790DA031DE823E25 )
+)
+
+game (
+	name "Oregon Trail, The (USA)"
+	description "Oregon Trail, The (USA)"
+	serial "KORE"
+	rom ( name "Oregon Trail, The (USA).nds" size 12473344 crc 40061C5E md5 AB017FF4EC6236900942ADA7CD6B6336 sha1 BCF52F550EF604956444F45FF075B9E918985279 )
+)
+
+game (
 	name "Oscar in Toyland (USA)"
 	description "Oscar in Toyland (USA)"
 	serial "KOTE"
-	rom ( name "Oscar in Toyland (USA).nds" size 4757504 crc 37C69263 md5 A67BFF3821B1E72C16DB863AE27178A0 sha1 44FACD371DCC37FFDAD92915B3D3E7768C198E0B )
+	rom ( name "Oscar in Toyland (USA).nds" size 4757504 crc 37C69263 md5 A67BFF3821B1E72C16DB863AE27178A0 sha1 44FACD371DCC37FFDAD92915B3D3E7768C198E0B flags verified )
+)
+
+game (
+	name "Panewa! (Japan)"
+	description "Panewa! (Japan)"
+	serial "KPWJ"
+	rom ( name "Panewa! (Japan).nds" size 9175040 crc 22B54C2A md5 77607B6E8FA41715ED2B71E74B2A05DB sha1 D5F6797170062FA77B205B5C1F32A3E193B0639B )
 )
 
 game (
 	name "Paper Airplane Chase (USA)"
 	description "Paper Airplane Chase (USA)"
 	serial "KAME"
-	rom ( name "Paper Airplane Chase (USA).nds" size 1386496 crc 8729AA36 md5 38424EE14EB4C88A459C1A7194A097D0 sha1 4783384E5F66B0F2958AC86B7C74E5763A62FEC5 )
+	rom ( name "Paper Airplane Chase (USA).nds" size 1386496 crc 8729AA36 md5 38424EE14EB4C88A459C1A7194A097D0 sha1 4783384E5F66B0F2958AC86B7C74E5763A62FEC5 flags verified )
+)
+
+game (
+	name "Paper Plane (Europe, Australia)"
+	description "Paper Plane (Europe, Australia)"
+	serial "KAMV"
+	rom ( name "Paper Plane (Europe, Australia).nds" size 1518592 crc 140E6830 md5 C436366F4150266A2E10E99BC6B0F1A5 sha1 51CFAD2792DF7357CEDDD6D2466C3295E9F54BA8 )
 )
 
 game (
 	name "Paul's Shooting Adventure (USA)"
 	description "Paul's Shooting Adventure (USA)"
 	serial "KPJE"
-	rom ( name "Paul's Shooting Adventure (USA).nds" size 4150272 crc D3F7975F md5 7C47B8B7B6B3B7E99E15C0D80E355987 sha1 9FD6E0589D2956F95600899C3593F1DD49E973C9 )
+	rom ( name "Paul's Shooting Adventure (USA).nds" size 4150272 crc D3F7975F md5 7C47B8B7B6B3B7E99E15C0D80E355987 sha1 9FD6E0589D2956F95600899C3593F1DD49E973C9 flags verified )
+)
+
+game (
+	name "Paul's Shooting Adventure 2 (USA)"
+	description "Paul's Shooting Adventure 2 (USA)"
+	serial "KUSE"
+	rom ( name "Paul's Shooting Adventure 2 (USA).nds" size 5381120 crc 7D7B79ED md5 D4F07574D51561C4F1668937BD5CDEE8 sha1 06704D05F23E27278AA956DEB32E81A1FEC1E208 )
 )
 
 game (
 	name "Penguin Patrol (USA)"
 	description "Penguin Patrol (USA)"
 	serial "K5PE"
-	rom ( name "Penguin Patrol (USA).nds" size 5724160 crc F34315F9 md5 3C2E8CE0BBAE3357ADB203622CB6F953 sha1 6D2E65F287E9B6C193C7554659D473E7BCBE156A )
+	rom ( name "Penguin Patrol (USA).nds" size 5724160 crc F34315F9 md5 3C2E8CE0BBAE3357ADB203622CB6F953 sha1 6D2E65F287E9B6C193C7554659D473E7BCBE156A flags verified )
 )
 
 game (
 	name "Petit Computer (USA)"
 	description "Petit Computer (USA)"
 	serial "KNAE"
-	rom ( name "Petit Computer (USA).nds" size 4730880 crc CE90DCEB md5 F0A86B004B2221DE0C320E722D867D09 sha1 EFC6E28CF72EC413D79957C623363AF0C48FCD5D )
+	rom ( name "Petit Computer (USA).nds" size 4730880 crc CE90DCEB md5 F0A86B004B2221DE0C320E722D867D09 sha1 EFC6E28CF72EC413D79957C623363AF0C48FCD5D flags verified )
+)
+
+game (
+	name "Petit Computer (Europe)"
+	description "Petit Computer (Europe)"
+	serial "KNAP"
+	rom ( name "Petit Computer (Europe).nds" size 4432896 crc 6E7F7435 md5 80EB6D31C7E7BA0FF9DB8561900BBAAB sha1 FE3BF1E3B4124C544F130143B4963466E8F41CDD )
 )
 
 game (
 	name "PHANTASY STAR 0 Mini (Japan)"
 	description "PHANTASY STAR 0 Mini (Japan)"
 	serial "KPSJ"
-	rom ( name "PHANTASY STAR 0 Mini (Japan).nds" size 15730688 crc CD482272 md5 A23CDE3E81E08FA6DC81FEC262A690DB sha1 B012C1778A26E2549E8BB87FE56FE385FA5201CB )
+	rom ( name "PHANTASY STAR 0 Mini (Japan).nds" size 15730688 crc CD482272 md5 A23CDE3E81E08FA6DC81FEC262A690DB sha1 B012C1778A26E2549E8BB87FE56FE385FA5201CB flags verified )
 )
 
 game (
 	name "Photo Clock (Europe, Australia) (Rev 1)"
 	description "Photo Clock (Europe, Australia) (Rev 1)"
 	serial "KWDV"
-	rom ( name "Photo Clock (Europe, Australia) (Rev 1).nds" size 672768 crc FA61E6F8 md5 912FE90F67C68477316349FD80C49EBF sha1 10894A4B70ED62E05AB65F9422FD982DCE8903A7 )
+	rom ( name "Photo Clock (Europe, Australia) (Rev 1).nds" size 672768 crc FA61E6F8 md5 912FE90F67C68477316349FD80C49EBF sha1 10894A4B70ED62E05AB65F9422FD982DCE8903A7 flags verified )
 )
 
 game (
 	name "Photo Clock (USA) (Rev 1)"
 	description "Photo Clock (USA) (Rev 1)"
 	serial "KWDE"
-	rom ( name "Photo Clock (USA) (Rev 1).nds" size 628736 crc 06D14CA5 md5 37162418ECFA20988D293E947D10D7A6 sha1 F4D1BEEF7D8A1D21D445AD346769D65AD0330855 )
+	rom ( name "Photo Clock (USA) (Rev 1).nds" size 628736 crc 06D14CA5 md5 37162418ECFA20988D293E947D10D7A6 sha1 F4D1BEEF7D8A1D21D445AD346769D65AD0330855 flags verified )
 )
 
 game (
 	name "Photo Dojo (USA)"
 	description "Photo Dojo (USA)"
 	serial "KPBE"
-	rom ( name "Photo Dojo (USA).nds" size 2576384 crc F0A229A9 md5 488464D0775B8DDEB22546A09C225341 sha1 A8D65BD5CAA4D2658A3DACC4A6C1A50B2004667D )
+	rom ( name "Photo Dojo (USA).nds" size 2576384 crc F0A229A9 md5 488464D0775B8DDEB22546A09C225341 sha1 A8D65BD5CAA4D2658A3DACC4A6C1A50B2004667D flags verified )
 )
 
 game (
 	name "Photo Dojo (Europe, Australia)"
 	description "Photo Dojo (Europe, Australia)"
 	serial "KPBV"
-	rom ( name "Photo Dojo (Europe, Australia).nds" size 2531328 crc A55D63FB md5 89C87040E291774E95B53D17998A7693 sha1 E4CC0D01399E3CCB9F2E4278F29C5B5AEA2C4646 )
+	rom ( name "Photo Dojo (Europe, Australia).nds" size 2531328 crc A55D63FB md5 89C87040E291774E95B53D17998A7693 sha1 E4CC0D01399E3CCB9F2E4278F29C5B5AEA2C4646 flags verified )
+)
+
+game (
+	name "Photo Dojo (Italy)"
+	description "Photo Dojo (Italy)"
+	serial "KPBI"
+	rom ( name "Photo Dojo (Italy).nds" size 2541568 crc 82611878 md5 7311CF8B7D8BA1ADA6AF8BDE7D2EC9BE sha1 093F6A47ECD5734122BCA9EB50A89015E392A419 )
+)
+
+game (
+	name "Photo Dojo (Spain)"
+	description "Photo Dojo (Spain)"
+	serial "KPBS"
+	rom ( name "Photo Dojo (Spain).nds" size 2539520 crc 7BD8944F md5 B75CFEFF2387BBE7CAA63B79C08A4247 sha1 3B4CE12990AD00321FEBBACCFCF594346794AD79 )
+)
+
+game (
+	name "Photo Dojo (Germany)"
+	description "Photo Dojo (Germany)"
+	serial "KPBD"
+	rom ( name "Photo Dojo (Germany).nds" size 2544640 crc C4D51BAB md5 EF21B22A715F93AC8782FCBD42BE6A6B sha1 371E7E795D2DAFC5FCB70800C2B050056C05C22E )
+)
+
+game (
+	name "Photo Dojo (France)"
+	description "Photo Dojo (France)"
+	serial "KPBF"
+	rom ( name "Photo Dojo (France).nds" size 2552832 crc F8D4B03D md5 8403FF72A2943BD1A7ABAC9B7FADDE27 sha1 C0F12924671050B22EF9D4DB919486DA6FA48008 )
+)
+
+game (
+	name "Photo Stand Tsuki - Ban-Bro DX Radio (Japan)"
+	description "Photo Stand Tsuki - Ban-Bro DX Radio (Japan)"
+	serial "KBRJ"
+	rom ( name "Photo Stand Tsuki - Ban-Bro DX Radio (Japan).nds" size 3997696 crc BE1BD96D md5 14F7C02F873780EF9B5A5E98CF1692E5 sha1 10CB6DAFE62919707E3296AB2D883A5C952172CE )
+)
+
+game (
+	name "PickDun (Japan)"
+	description "PickDun (Japan)"
+	serial "K9DJ"
+	rom ( name "PickDun (Japan).nds" size 5531648 crc A57465F6 md5 70BDF64657BC4A19AD7B99C3174DDA3C sha1 5DF2D25BE1B2FB08634E32D1BCB66FED3FB57580 )
 )
 
 game (
@@ -1752,21 +3222,35 @@ game (
 	name "PictureBook Games - The Royal Bluff (USA)"
 	description "PictureBook Games - The Royal Bluff (USA)"
 	serial "KE3E"
-	rom ( name "PictureBook Games - The Royal Bluff (USA).nds" size 6068224 crc B39547E4 md5 922609C642171031D825ED855CB03503 sha1 D5FF4AD63F8BC7B5EAD3389EC0D27C04D0E6BBD8 )
+	rom ( name "PictureBook Games - The Royal Bluff (USA).nds" size 6068224 crc B39547E4 md5 922609C642171031D825ED855CB03503 sha1 D5FF4AD63F8BC7B5EAD3389EC0D27C04D0E6BBD8 flags verified )
 )
 
 game (
 	name "Pinball Pulse - The Ancients Beckon (USA)"
 	description "Pinball Pulse - The Ancients Beckon (USA)"
 	serial "KZPE"
-	rom ( name "Pinball Pulse - The Ancients Beckon (USA).nds" size 10260480 crc 0115E7FD md5 BE7FBD40A412EB280172563AB65E5A2F sha1 867089B48767A12D162DE0B7D168AE8F53345923 )
+	rom ( name "Pinball Pulse - The Ancients Beckon (USA).nds" size 10260480 crc 0115E7FD md5 BE7FBD40A412EB280172563AB65E5A2F sha1 867089B48767A12D162DE0B7D168AE8F53345923 flags verified )
 )
 
 game (
-	name "Playing Piano (USA)"
-	description "Playing Piano (USA)"
-	serial "KICE"
-	rom ( name "Playing Piano (USA).nds" size 4554752 crc AF27C114 md5 EA55F66F25F265C33AF1083F0175E710 sha1 5F494C40425FAB49A7EC5AA100FF3BA46C897FAC )
+	name "Pinball Pulse - The Ancients Beckon (Europe, Australia)"
+	description "Pinball Pulse - The Ancients Beckon (Europe, Australia)"
+	serial "KZPV"
+	rom ( name "Pinball Pulse - The Ancients Beckon (Europe, Australia).nds" size 11442176 crc 97F96300 md5 BF3381B5D6834F290592A89E015F7D85 sha1 2424C3677ABC3BC7D37F51653AF84CD32CAEC9C4 flags verified )
+)
+
+game (
+	name "Plants vs. Zombies (USA)"
+	description "Plants vs. Zombies (USA)"
+	serial "KZLE"
+	rom ( name "Plants vs. Zombies (USA).nds" size 15739904 crc 1D3E83AF md5 D376DC3ADB86C4BA467278EEBD7D04DF sha1 D92A5D620338DCB0866513CE2FD973AFEB9487D1 flags verified )
+)
+
+game (
+	name "Plants vs. Zombies (Europe, Australia)"
+	description "Plants vs. Zombies (Europe, Australia)"
+	serial "KZLV"
+	rom ( name "Plants vs. Zombies (Europe, Australia).nds" size 16609280 crc 537AE1F3 md5 35DD9F290EB70B0065716130EC944BCA sha1 0EC09D2D1879E5490EB4E5F52B6B5B9976DBE903 )
 )
 
 game (
@@ -1780,49 +3264,77 @@ game (
 	name "Pop Island (Europe)"
 	description "Pop Island (Europe)"
 	serial "KPPP"
-	rom ( name "Pop Island (Europe).nds" size 12483584 crc 3D58C8B9 md5 068DD593BB5E1D06CA6036DA2C113E85 sha1 E5BF2C1470FA7CE650707907DFDE6FF0DBA17CB0 )
+	rom ( name "Pop Island (Europe).nds" size 12483584 crc 3D58C8B9 md5 068DD593BB5E1D06CA6036DA2C113E85 sha1 E5BF2C1470FA7CE650707907DFDE6FF0DBA17CB0 flags verified )
+)
+
+game (
+	name "Pop Island (USA)"
+	description "Pop Island (USA)"
+	serial "KPPE"
+	rom ( name "Pop Island (USA).nds" size 12530688 crc 4BCB4677 md5 0BE83AF942F8B6C97240735F16B96053 sha1 528CD969ECD5763E571A4A1870E17B274E99AC46 )
 )
 
 game (
 	name "Pop Island - Paperfield (USA)"
 	description "Pop Island - Paperfield (USA)"
 	serial "KPFE"
-	rom ( name "Pop Island - Paperfield (USA).nds" size 6208512 crc 963B8104 md5 6143AFBD487193921FCB9DF7EF218FAE sha1 9B40E397FCF6302A570C06C060EA74A1ECBC765F )
+	rom ( name "Pop Island - Paperfield (USA).nds" size 6208512 crc 963B8104 md5 6143AFBD487193921FCB9DF7EF218FAE sha1 9B40E397FCF6302A570C06C060EA74A1ECBC765F flags verified )
 )
 
 game (
 	name "Pop Island - Paperfield (Europe)"
 	description "Pop Island - Paperfield (Europe)"
 	serial "KPFP"
-	rom ( name "Pop Island - Paperfield (Europe).nds" size 6242304 crc 4FB53EA0 md5 2DC30FE2595B5A3C298F0BF9BDADF58D sha1 275972ECC51C92D7D07AE1B407B776797346B89E )
+	rom ( name "Pop Island - Paperfield (Europe).nds" size 6242304 crc 4FB53EA0 md5 2DC30FE2595B5A3C298F0BF9BDADF58D sha1 275972ECC51C92D7D07AE1B407B776797346B89E flags verified )
 )
 
 game (
 	name "Pop+ Solo (USA)"
 	description "Pop+ Solo (USA)"
 	serial "KPIE"
-	rom ( name "Pop+ Solo (USA).nds" size 3014656 crc F55B6971 md5 4B8689EB2A7AD8FD18C9F005F8A00FC3 sha1 056BEC5EBC85B033DB1E135C7EA4906D9A918B02 )
+	rom ( name "Pop+ Solo (USA).nds" size 3014656 crc F55B6971 md5 4B8689EB2A7AD8FD18C9F005F8A00FC3 sha1 056BEC5EBC85B033DB1E135C7EA4906D9A918B02 flags verified )
 )
 
 game (
 	name "Pop+ Solo (Europe, Australia)"
 	description "Pop+ Solo (Europe, Australia)"
 	serial "KPIV"
-	rom ( name "Pop+ Solo (Europe, Australia).nds" size 3173376 crc C2537184 md5 138CA473DCD230FB3ED7F632A33490B8 sha1 EAC8FF4A1A8DA2B50542719555D11EAE56B23EAB )
+	rom ( name "Pop+ Solo (Europe, Australia).nds" size 3173376 crc C2537184 md5 138CA473DCD230FB3ED7F632A33490B8 sha1 EAC8FF4A1A8DA2B50542719555D11EAE56B23EAB flags verified )
 )
 
 game (
 	name "Primrose (USA)"
 	description "Primrose (USA)"
 	serial "K2RE"
-	rom ( name "Primrose (USA).nds" size 5486592 crc DDDAD958 md5 5B3DDB6C282ED009659A756D9221972E sha1 7C6372B8CD6D7C32556D38DC7F62207E21B9B789 )
+	rom ( name "Primrose (USA).nds" size 5486592 crc DDDAD958 md5 5B3DDB6C282ED009659A756D9221972E sha1 7C6372B8CD6D7C32556D38DC7F62207E21B9B789 flags verified )
+)
+
+game (
+	name "Pro Jumper! Guilty Gear Tangent! (USA)"
+	description "Pro Jumper! Guilty Gear Tangent! (USA)"
+	serial "KFVE"
+	rom ( name "Pro Jumper! Guilty Gear Tangent! (USA).nds" size 9734144 crc 68BC6DCD md5 B4C79FCCE2E136594B818F9084A7340B sha1 748D23800CC7C0DCE022633051E3474A5EA11FCE )
 )
 
 game (
 	name "Pro-Putt Domo (USA)"
 	description "Pro-Putt Domo (USA)"
 	serial "KDPE"
-	rom ( name "Pro-Putt Domo (USA).nds" size 3234816 crc 6D0EE2D1 md5 DE6F1C0F436BDABB01426D0F9BD204AB sha1 B4A246C4C3652E7A33B96D23C673E324C17321D7 )
+	rom ( name "Pro-Putt Domo (USA).nds" size 3234816 crc 6D0EE2D1 md5 DE6F1C0F436BDABB01426D0F9BD204AB sha1 B4A246C4C3652E7A33B96D23C673E324C17321D7 flags verified )
+)
+
+game (
+	name "Publisher Dream (USA)"
+	description "Publisher Dream (USA)"
+	serial "KXUE"
+	rom ( name "Publisher Dream (USA).nds" size 5320704 crc 4BFE5BE1 md5 B0D8ED5E5007E2352B4A54EC801EA5A1 sha1 0EDDEF0C8D27AAEC67028CE64912DCC32FC70793 flags verified )
+)
+
+game (
+	name "Publisher Dream (Europe)"
+	description "Publisher Dream (Europe)"
+	serial "KXUP"
+	rom ( name "Publisher Dream (Europe).nds" size 5376000 crc A6D475EE md5 29316FBE625714C568BAA934846C9362 sha1 F3C3DE4EF44477081A803EC7419BE57BFBFC0236 )
 )
 
 game (
@@ -1843,7 +3355,28 @@ game (
 	name "Puzzle League - Express (USA)"
 	description "Puzzle League - Express (USA)"
 	serial "KPNE"
-	rom ( name "Puzzle League - Express (USA).nds" size 5531648 crc 6B8A6EA0 md5 B9C1704E3B23C338A4136CCF40266F28 sha1 43A5B4A6C428358081E470FC9F86053E2D1A6DDD )
+	rom ( name "Puzzle League - Express (USA).nds" size 5531648 crc 6B8A6EA0 md5 B9C1704E3B23C338A4136CCF40266F28 sha1 43A5B4A6C428358081E470FC9F86053E2D1A6DDD flags verified )
+)
+
+game (
+	name "Puzzle Quest - Challenge of the Warlords (USA)"
+	description "Puzzle Quest - Challenge of the Warlords (USA)"
+	serial "KPZE"
+	rom ( name "Puzzle Quest - Challenge of the Warlords (USA).nds" size 15694848 crc A8774C84 md5 3E593F78B33545A37C06BCF696C1B5FA sha1 F93F2E2527E296521BFA2D254CFFA843079AFF89 )
+)
+
+game (
+	name "Pyoro (Europe, Australia)"
+	description "Pyoro (Europe, Australia)"
+	serial "KP6V"
+	rom ( name "Pyoro (Europe, Australia).nds" size 1416192 crc 486760CB md5 2198EE4C1B84654CA2A47D256C2B5482 sha1 8634FB6CA7F626FF3C88EE8686352131A3B0B320 flags verified )
+)
+
+game (
+	name "Quick Fill Q (USA)"
+	description "Quick Fill Q (USA)"
+	serial "KUME"
+	rom ( name "Quick Fill Q (USA).nds" size 3856384 crc 6CFF46A4 md5 4611863068848C3011B4FAE628E42B3F sha1 95E743C80F01D19FE5F914ECB68364589082AAF7 )
 )
 
 game (
@@ -1857,28 +3390,42 @@ game (
 	name "Rabi Laby (USA)"
 	description "Rabi Laby (USA)"
 	serial "KLBE"
-	rom ( name "Rabi Laby (USA).nds" size 4185088 crc 871DC604 md5 2B89DA80380E16F9D9BCEA8E685DC2F7 sha1 0B1ADC909B3EB307F9B7E1460B764BD7932E9AF1 )
+	rom ( name "Rabi Laby (USA).nds" size 4185088 crc 871DC604 md5 2B89DA80380E16F9D9BCEA8E685DC2F7 sha1 0B1ADC909B3EB307F9B7E1460B764BD7932E9AF1 flags verified )
+)
+
+game (
+	name "Rabi Laby (Europe)"
+	description "Rabi Laby (Europe)"
+	serial "KLBP"
+	rom ( name "Rabi Laby (Europe).nds" size 4333568 crc 2473BE52 md5 BC935D9FBB681CF19BEDAC44E615008C sha1 15D4FE180EE2D2358264983DDB415C047074CD64 )
 )
 
 game (
 	name "Rabi Laby 2 (USA)"
 	description "Rabi Laby 2 (USA)"
 	serial "KLVE"
-	rom ( name "Rabi Laby 2 (USA).nds" size 4550656 crc 8A8E871D md5 70896476B20B619D25ECA6FDE31701B2 sha1 65CD2D4ACEFA188D1C0565ACD1D9152474EA76FF )
+	rom ( name "Rabi Laby 2 (USA).nds" size 4550656 crc 8A8E871D md5 70896476B20B619D25ECA6FDE31701B2 sha1 65CD2D4ACEFA188D1C0565ACD1D9152474EA76FF flags verified )
+)
+
+game (
+	name "Rabi Laby 2 (Europe)"
+	description "Rabi Laby 2 (Europe)"
+	serial "KLVP"
+	rom ( name "Rabi Laby 2 (Europe).nds" size 4647936 crc 880603F3 md5 1F3935BC3DE971D3261554505982235F sha1 EFCDD63FF15D8C5066402A9FCF5ADDA0560B8671 )
 )
 
 game (
 	name "Rayman (USA)"
 	description "Rayman (USA)"
 	serial "KRME"
-	rom ( name "Rayman (USA).nds" size 16137216 crc 6A80A547 md5 C115007B78F6FB7CF9F4DE967E1A2377 sha1 D18F5A9203FD2A9B6118210A9F0F6F0DE878AAF0 )
+	rom ( name "Rayman (USA).nds" size 16137216 crc 6A80A547 md5 C115007B78F6FB7CF9F4DE967E1A2377 sha1 D18F5A9203FD2A9B6118210A9F0F6F0DE878AAF0 flags verified )
 )
 
 game (
 	name "Rayman (Europe, Australia)"
 	description "Rayman (Europe, Australia)"
 	serial "KRMV"
-	rom ( name "Rayman (Europe, Australia).nds" size 16137216 crc 2CC34362 md5 388668C81CC6D868DED98D55EF1BD53A sha1 1C1F4A70A61D74FE7CFB3E9CBE4FF2F5BCEDFC5D )
+	rom ( name "Rayman (Europe, Australia).nds" size 16137216 crc 2CC34362 md5 388668C81CC6D868DED98D55EF1BD53A sha1 1C1F4A70A61D74FE7CFB3E9CBE4FF2F5BCEDFC5D flags verified )
 )
 
 game (
@@ -1892,14 +3439,14 @@ game (
 	name "Reflect Missile (Europe, Australia)"
 	description "Reflect Missile (Europe, Australia)"
 	serial "KDZV"
-	rom ( name "Reflect Missile (Europe, Australia).nds" size 5396480 crc ADC5A5A6 md5 624FDB118E031CF06EEEC5F3465B8D39 sha1 93321C8A5FF6B83C2F25510E6247CCDF1831B073 )
+	rom ( name "Reflect Missile (Europe, Australia).nds" size 5396480 crc ADC5A5A6 md5 624FDB118E031CF06EEEC5F3465B8D39 sha1 93321C8A5FF6B83C2F25510E6247CCDF1831B073 flags verified )
 )
 
 game (
-	name "Retro Keyboard (USA)"
-	description "Retro Keyboard (USA)"
-	serial "KRHE"
-	rom ( name "Retro Keyboard (USA).nds" size 3510272 crc 4299D158 md5 4A513615891297270B96BC83A89C7D39 sha1 DC20E015069335AF73566BFA6B7713B9337F9896 )
+	name "Remote Racers (Europe, Australia)"
+	description "Remote Racers (Europe, Australia)"
+	serial "KQRV"
+	rom ( name "Remote Racers (Europe, Australia).nds" size 6285312 crc B8EC9749 md5 3847A8666D7EE018C01345FBB9F579A2 sha1 4F3A9688F99A50260A21C2884E5AD1A386307D95 flags verified )
 )
 
 game (
@@ -1910,31 +3457,52 @@ game (
 )
 
 game (
+	name "Rhythm Core Alpha (USA)"
+	description "Rhythm Core Alpha (USA)"
+	serial "K5AE"
+	rom ( name "Rhythm Core Alpha (USA).nds" size 6181888 crc 70496678 md5 ED97269ADAA74C43FBC7BA01CE1159C0 sha1 EF9EADF2CA134C68C4E3C51357B4656150CD2AC0 )
+)
+
+game (
+	name "Rhythm Core Alpha 2 (USA)"
+	description "Rhythm Core Alpha 2 (USA)"
+	serial "KY4E"
+	rom ( name "Rhythm Core Alpha 2 (USA).nds" size 7871488 crc FB908F4C md5 18B28AA1E95EEB5C622D712BEBBD3426 sha1 5439A735D2A7FC902EDB96E508F848B6C549E56D )
+)
+
+game (
 	name "Rittai Kakushi E - Attakoreda (Japan)"
 	description "Rittai Kakushi E - Attakoreda (Japan)"
 	serial "KRGJ"
-	rom ( name "Rittai Kakushi E - Attakoreda (Japan).nds" size 8790016 crc F2A17240 md5 E450803D3EC234B92D3B272B12028A01 sha1 4CD76A636451CCD7C8347DED673C74A52685A651 )
+	rom ( name "Rittai Kakushi E - Attakoreda (Japan).nds" size 8790016 crc F2A17240 md5 E450803D3EC234B92D3B272B12028A01 sha1 4CD76A636451CCD7C8347DED673C74A52685A651 flags verified )
 )
 
 game (
 	name "Robot Rescue (USA)"
 	description "Robot Rescue (USA)"
 	serial "KRTE"
-	rom ( name "Robot Rescue (USA).nds" size 4044800 crc 960E7C90 md5 DA826C91034DAA84CC969BE752A29A87 sha1 FD3EE61DD4511C6E49DA4FED7C3DFD1D4A86D992 )
+	rom ( name "Robot Rescue (USA).nds" size 4044800 crc 960E7C90 md5 DA826C91034DAA84CC969BE752A29A87 sha1 FD3EE61DD4511C6E49DA4FED7C3DFD1D4A86D992 flags verified )
+)
+
+game (
+	name "Robot Rescue (Europe, Australia)"
+	description "Robot Rescue (Europe, Australia)"
+	serial "KRTV"
+	rom ( name "Robot Rescue (Europe, Australia).nds" size 5681152 crc FA2A06C9 md5 23B147ADA3577A084BC3ACDA12968BFE sha1 D88E7C62A01CD0B4F358EA6308046C4EBFD5C296 )
 )
 
 game (
 	name "Rock-n-Roll Domo (USA) (Rev 1)"
 	description "Rock-n-Roll Domo (USA) (Rev 1)"
 	serial "KD6E"
-	rom ( name "Rock-n-Roll Domo (USA) (Rev 1).nds" size 3741696 crc F4BFC0BB md5 C098F887C1B7C9F6DEDDD205089DF5F9 sha1 D1997589275B34CAC324167D6714D60DFB957AC3 )
+	rom ( name "Rock-n-Roll Domo (USA) (Rev 1).nds" size 3741696 crc F4BFC0BB md5 C098F887C1B7C9F6DEDDD205089DF5F9 sha1 D1997589275B34CAC324167D6714D60DFB957AC3 flags verified )
 )
 
 game (
 	name "Rytmik (USA)"
 	description "Rytmik (USA)"
 	serial "KRKE"
-	rom ( name "Rytmik (USA).nds" size 12999680 crc 7CC6A6C3 md5 67D18E6DDA179E83D4CAE4EE28F23722 sha1 6FABD858097B3FB8E030906556B4A3A0BBA635F3 )
+	rom ( name "Rytmik (USA).nds" size 12999680 crc 7CC6A6C3 md5 67D18E6DDA179E83D4CAE4EE28F23722 sha1 6FABD858097B3FB8E030906556B4A3A0BBA635F3 flags verified )
 )
 
 game (
@@ -1945,17 +3513,66 @@ game (
 )
 
 game (
+	name "Rytmik Retrobits (Europe, Australia)"
+	description "Rytmik Retrobits (Europe, Australia)"
+	serial "KYRV"
+	rom ( name "Rytmik Retrobits (Europe, Australia).nds" size 13609984 crc B66D2CBA md5 90573C82D3CA3E18C344E668E639F066 sha1 3FB4C56C787A5B50591D0A4C456904E87CE4BA65 )
+)
+
+game (
+	name "Rytmik Rock Edition (USA)"
+	description "Rytmik Rock Edition (USA)"
+	serial "KRQE"
+	rom ( name "Rytmik Rock Edition (USA).nds" size 13701120 crc 5F340BA6 md5 0F6DA0C91D3B6EA8F863AC612A658D1A sha1 0A4559BD267EBD8C6D075ECDF0F40FA3D844BB73 )
+)
+
+game (
+	name "Sagittarius-A-Star (Japan)"
+	description "Sagittarius-A-Star (Japan)"
+	serial "K8XJ"
+	rom ( name "Sagittarius-A-Star (Japan).nds" size 4385792 crc 38CA3379 md5 9AFBF19B09178FE3E9FF93C703E04FE6 sha1 47B8A23C6F3EDE40AE55838D5E5B92C5538AE3BE )
+)
+
+game (
+	name "Sakutto Hamareru Hori Hori Action - Mr. Driller (Japan)"
+	description "Sakutto Hamareru Hori Hori Action - Mr. Driller (Japan)"
+	serial "KDRJ"
+	rom ( name "Sakutto Hamareru Hori Hori Action - Mr. Driller (Japan).nds" size 7411712 crc 191EADFE md5 C4D8DD7C90F38C7A5586CD381C72B49A sha1 358057E3E94B96C5EDEE0D379CF6267660E9EB91 )
+)
+
+game (
+	name "Sawaru Made in Wario DL (Japan)"
+	description "Sawaru Made in Wario DL (Japan)"
+	serial "Z2AJ"
+	rom ( name "Sawaru Made in Wario DL (Japan).nds" size 27817984 crc A86838B0 md5 D12149360E8DE973A39DD0F145760642 sha1 13DD4AD11728346283C314A435B8567D31BAF7CF )
+)
+
+game (
+	name "Scrabble Classic (USA)"
+	description "Scrabble Classic (USA)"
+	serial "KSIE"
+	rom ( name "Scrabble Classic (USA).nds" size 12443648 crc CC8D90D1 md5 72EB4FF2DAD6AD4AF627683530F1A81E sha1 AAFE81931DDC4EB6EA89E57295FFD24DB7F88F68 )
+)
+
+game (
+	name "Sea Battle (Europe)"
+	description "Sea Battle (Europe)"
+	serial "KRWP"
+	rom ( name "Sea Battle (Europe).nds" size 12140544 crc 1DB193A8 md5 2EC98EC1125439F052D653C6FC29B319 sha1 41AE2874EE211FCD65C815F0F1331EDFE62A9EA4 )
+)
+
+game (
 	name "Shantae - Risky's Revenge (USA)"
 	description "Shantae - Risky's Revenge (USA)"
 	serial "KS3E"
-	rom ( name "Shantae - Risky's Revenge (USA).nds" size 16728064 crc D479B709 md5 EF14ED36436FF95197FDFF8C6E9A61F2 sha1 F984C96E72913E1BDFC31E9FFA8B377C7AF5E016 )
+	rom ( name "Shantae - Risky's Revenge (USA).nds" size 16728064 crc D479B709 md5 EF14ED36436FF95197FDFF8C6E9A61F2 sha1 F984C96E72913E1BDFC31E9FFA8B377C7AF5E016 flags verified )
 )
 
 game (
 	name "Shantae - Risky's Revenge (Europe)"
 	description "Shantae - Risky's Revenge (Europe)"
 	serial "KS3P"
-	rom ( name "Shantae - Risky's Revenge (Europe).nds" size 16739328 crc 84FFB275 md5 8B01E13C9C8A574B8130048C6560AB84 sha1 720481DC79CFB6D225D58B282B17BEC28CCE14CF )
+	rom ( name "Shantae - Risky's Revenge (Europe).nds" size 16739328 crc 84FFB275 md5 8B01E13C9C8A574B8130048C6560AB84 sha1 720481DC79CFB6D225D58B282B17BEC28CCE14CF flags verified )
 )
 
 game (
@@ -1973,45 +3590,129 @@ game (
 )
 
 game (
+	name "Simple DS Series Vol. 2 - The Misshitsu Kara no Dasshutsu - Gakkou-Hen (Japan)"
+	description "Simple DS Series Vol. 2 - The Misshitsu Kara no Dasshutsu - Gakkou-Hen (Japan)"
+	serial "KM5J"
+	rom ( name "Simple DS Series Vol. 2 - The Misshitsu Kara no Dasshutsu - Gakkou-Hen (Japan).nds" size 10827776 crc 84157907 md5 3DE2019C983AD3A31C0112879E3FF0CA sha1 0ED20182A665EC6D41B5E749B18AE699A905CD34 )
+)
+
+game (
+	name "Simple DS Series Vol. 3 - The Misshitsu Kara no Dasshutsu - Prison Break (Japan)"
+	description "Simple DS Series Vol. 3 - The Misshitsu Kara no Dasshutsu - Prison Break (Japan)"
+	serial "K5QJ"
+	rom ( name "Simple DS Series Vol. 3 - The Misshitsu Kara no Dasshutsu - Prison Break (Japan).nds" size 11595776 crc 433127D4 md5 037019BD3B6FA34597B19A0C76C19746 sha1 4BC6286098EE39AB280C5A289F958573593119FA )
+)
+
+game (
+	name "Simple DS Series Vol. 4 - The Misshitsu Kara no Dasshutsu - Karakuri Yashiki (Japan)"
+	description "Simple DS Series Vol. 4 - The Misshitsu Kara no Dasshutsu - Karakuri Yashiki (Japan)"
+	serial "KEYJ"
+	rom ( name "Simple DS Series Vol. 4 - The Misshitsu Kara no Dasshutsu - Karakuri Yashiki (Japan).nds" size 12101632 crc EC1AF917 md5 8C156252C6BFF3765C5E22863BDCC730 sha1 AE7A3F664E279D96462771266BBD86C263E70E98 )
+)
+
+game (
+	name "Simple DS Series Vol. 5 - The Misshitsu Kara no Dasshutsu - Nangoku no Conveni (Japan)"
+	description "Simple DS Series Vol. 5 - The Misshitsu Kara no Dasshutsu - Nangoku no Conveni (Japan)"
+	serial "K5KJ"
+	rom ( name "Simple DS Series Vol. 5 - The Misshitsu Kara no Dasshutsu - Nangoku no Conveni (Japan).nds" size 10530816 crc 0F37A3D0 md5 C1B3433509E0569592F335B1CDEEC8B8 sha1 9A74D3EEF0A9E4CBD70C13DC783B93FABFD80DBE )
+)
+
+game (
+	name "Simply Mahjong (Europe)"
+	description "Simply Mahjong (Europe)"
+	serial "K4JP"
+	rom ( name "Simply Mahjong (Europe).nds" size 3647488 crc D4E5F4C4 md5 C910F342F5ABD48635D54C0984333D59 sha1 853845D8BA583789C13845CFC9A43DF3F4C5253F )
+)
+
+game (
 	name "Sleep Clock (Europe, Australia)"
 	description "Sleep Clock (Europe, Australia)"
 	serial "KMZV"
-	rom ( name "Sleep Clock (Europe, Australia).nds" size 5464064 crc CDA6565C md5 BE8CFB873CF7A2FCB0DBBC21C400B9BF sha1 E6701429451D4DCAB8C6C70E9C8636FCCBE2958E )
+	rom ( name "Sleep Clock (Europe, Australia).nds" size 5464064 crc CDA6565C md5 BE8CFB873CF7A2FCB0DBBC21C400B9BF sha1 E6701429451D4DCAB8C6C70E9C8636FCCBE2958E flags verified )
+)
+
+game (
+	name "Snapdots (USA, Australia)"
+	description "Snapdots (USA, Australia)"
+	serial "KTYT"
+	rom ( name "Snapdots (USA, Australia).nds" size 3278848 crc F27D55FC md5 5A280CAEA7A01D1A59025EA6D363BFF8 sha1 1A386E762C3FA2BDF8A8B4EE9ED7C3D203138D55 flags verified )
+)
+
+game (
+	name "Sokomania (Europe)"
+	description "Sokomania (Europe)"
+	serial "KSOP"
+	rom ( name "Sokomania (Europe).nds" size 3865600 crc 47A21A26 md5 24DB9222ACC34B62D525EDD9478087E9 sha1 B08A536AD32010586FABA217153DC6F9EE92AEF4 )
+)
+
+game (
+	name "Sokomania 2 - Cool Job (Europe)"
+	description "Sokomania 2 - Cool Job (Europe)"
+	serial "KSVP"
+	rom ( name "Sokomania 2 - Cool Job (Europe).nds" size 5671936 crc 96A3A09C md5 6975E02DAA56C4F392D6BBFAFF010043 sha1 9B322DFA57B221E3602BA54B97C16EF302D8553A )
 )
 
 game (
 	name "Soul of Darkness (USA)"
 	description "Soul of Darkness (USA)"
 	serial "KSKE"
-	rom ( name "Soul of Darkness (USA).nds" size 9934848 crc 4E63DB87 md5 746CA2CB5755F153496582750E4198B5 sha1 AC557A884473F1EDDC02AFA2100ECFF5648B03C1 )
+	rom ( name "Soul of Darkness (USA).nds" size 9934848 crc 4E63DB87 md5 746CA2CB5755F153496582750E4198B5 sha1 AC557A884473F1EDDC02AFA2100ECFF5648B03C1 flags verified )
 )
 
 game (
 	name "Soul of Darkness (Europe, Australia)"
 	description "Soul of Darkness (Europe, Australia)"
 	serial "KSKV"
-	rom ( name "Soul of Darkness (Europe, Australia).nds" size 9934848 crc 5CAB4831 md5 184DA884DBBAF53B8A956CF6130A7F63 sha1 227FFEBC935C15D01B16F7AA3214231E215F4DDB )
+	rom ( name "Soul of Darkness (Europe, Australia).nds" size 9934848 crc 5CAB4831 md5 184DA884DBBAF53B8A956CF6130A7F63 sha1 227FFEBC935C15D01B16F7AA3214231E215F4DDB flags verified )
 )
 
 game (
 	name "Sparkle Snapshots (USA)"
 	description "Sparkle Snapshots (USA)"
 	serial "KHDE"
-	rom ( name "Sparkle Snapshots (USA).nds" size 12444672 crc EEB48497 md5 B346BCD3AF040F016760C46CAAF51AC6 sha1 B54790B04081E3781F1B39C472A4F49586B0FC9C )
+	rom ( name "Sparkle Snapshots (USA).nds" size 12444672 crc EEB48497 md5 B346BCD3AF040F016760C46CAAF51AC6 sha1 B54790B04081E3781F1B39C472A4F49586B0FC9C flags verified )
+)
+
+game (
+	name "Spin Six (USA)"
+	description "Spin Six (USA)"
+	serial "KQ6E"
+	rom ( name "Spin Six (USA).nds" size 13102080 crc FB92A9AA md5 82028528C53B54A59A4A4DF57BC28424 sha1 5284317A0E092B29574A8444C01C4699C619F8BD flags verified )
+)
+
+game (
+	name "Spin Six (Europe, Australia)"
+	description "Spin Six (Europe, Australia)"
+	serial "KQ6V"
+	rom ( name "Spin Six (Europe, Australia).nds" size 13102080 crc A19FF3CC md5 D4AFA47239925CB79FBF5CBF8F187D46 sha1 EE7D303888F15DA85660B49ACF9F1D7F3D23F1FD flags verified )
+)
+
+game (
+	name "Spirit Hunters Inc - Light (USA)"
+	description "Spirit Hunters Inc - Light (USA)"
+	serial "KGTE"
+	rom ( name "Spirit Hunters Inc - Light (USA).nds" size 12736512 crc DA91C2BA md5 30D7854C745F3CD703BC96B2B272857F sha1 950276C891D083FB7C3F6742B791D977A3F89847 )
+)
+
+game (
+	name "Spotto! (USA)"
+	description "Spotto! (USA)"
+	serial "KSPE"
+	rom ( name "Spotto! (USA).nds" size 2779136 crc 692FA4B9 md5 232934DFCC5CA7F54B5BE43BA909A19A sha1 35324C540C3BE0D0523C5C97E8F122087D6D6FE0 flags verified )
 )
 
 game (
 	name "Starship Defense (USA)"
 	description "Starship Defense (USA)"
 	serial "KDYE"
-	rom ( name "Starship Defense (USA).nds" size 9351168 crc 2A76D762 md5 5D01AD0BB3F1C3A81BDDB55EEB975893 sha1 3DD00ADC862D7CA9F372B6953C1FC884E3CD6C4A )
+	rom ( name "Starship Defense (USA).nds" size 9351168 crc 2A76D762 md5 5D01AD0BB3F1C3A81BDDB55EEB975893 sha1 3DD00ADC862D7CA9F372B6953C1FC884E3CD6C4A flags verified )
 )
 
 game (
 	name "Starship Patrol (Europe, Australia)"
 	description "Starship Patrol (Europe, Australia)"
 	serial "KDYV"
-	rom ( name "Starship Patrol (Europe, Australia).nds" size 9558016 crc 5D11F20E md5 406E60A525935D1A6F8C48D8008D340C sha1 A3C6AB030CC6A53AFD961808E77C1E07E58A901C )
+	rom ( name "Starship Patrol (Europe, Australia).nds" size 9558016 crc 5D11F20E md5 406E60A525935D1A6F8C48D8008D340C sha1 A3C6AB030CC6A53AFD961808E77C1E07E58A901C flags verified )
 )
 
 game (
@@ -2019,6 +3720,13 @@ game (
 	description "SteamWorld Tower Defense (Europe, Australia)"
 	serial "KSWV"
 	rom ( name "SteamWorld Tower Defense (Europe, Australia).nds" size 6305792 crc 122562AE md5 4A0AE273994563051EDEDADD6C7DECAA sha1 0D7A5B5A66AA51FF77B46BEFFDD52B4235190C61 )
+)
+
+game (
+	name "SteamWorld Tower Defense (USA)"
+	description "SteamWorld Tower Defense (USA)"
+	serial "KSWE"
+	rom ( name "SteamWorld Tower Defense (USA).nds" size 6305792 crc E8748919 md5 EF03F36DE9A2C878FDE1E1E7F2985F47 sha1 961F4871EDE03D5B467483814AD614B1EDEC2944 )
 )
 
 game (
@@ -2043,10 +3751,45 @@ game (
 )
 
 game (
+	name "Sudoku (USA) (Rev 1)"
+	description "Sudoku (USA) (Rev 1)"
+	serial "K4DE"
+	rom ( name "Sudoku (USA) (Rev 1).nds" size 3474432 crc 2B657D0A md5 57EDE02A7CC53BD55C505E64966890C8 sha1 63BD327408805CB7902AD28BF5C9A45B754D484F flags verified )
+)
+
+game (
+	name "Sudoku (Europe, Australia) (Rev 1)"
+	description "Sudoku (Europe, Australia) (Rev 1)"
+	serial "K4DV"
+	rom ( name "Sudoku (Europe, Australia) (Rev 1).nds" size 3580928 crc 2FDAD1DC md5 AA2F1AFCDF1B5931340D50CF95318121 sha1 8C594132B6490155FC395C4436E5F48DF1DE58FB )
+)
+
+game (
+	name "Sudoku 150! For Challengers (Europe, Australia)"
+	description "Sudoku 150! For Challengers (Europe, Australia)"
+	serial "KSMV"
+	rom ( name "Sudoku 150! For Challengers (Europe, Australia).nds" size 4330496 crc FDF0E9DF md5 7D3B25FE56A92437EA1914D3FF1BD3C3 sha1 9C3E26374017A3E83124054C96DEC09CCBB49880 )
+)
+
+game (
+	name "Sudoku 150-Mon! (Japan)"
+	description "Sudoku 150-Mon! (Japan)"
+	serial "KSMJ"
+	rom ( name "Sudoku 150-Mon! (Japan).nds" size 3142656 crc E29108E8 md5 75ADA83426645484DB6AB65E30DE35B2 sha1 FBDF73A9C47C3C5E805D4D446771407B6BA27BD3 )
+)
+
+game (
 	name "Sudoku 4Pockets (Europe)"
 	description "Sudoku 4Pockets (Europe)"
 	serial "K4FP"
 	rom ( name "Sudoku 4Pockets (Europe).nds" size 2254848 crc 7D618A35 md5 9E9A9BB16DF983E26A4A81EE82105DCA sha1 CCBBAB96312CB1375C7416ED0FD0F48D8BBFF147 )
+)
+
+game (
+	name "Sudoku 50! For Beginners (Europe, Australia)"
+	description "Sudoku 50! For Beginners (Europe, Australia)"
+	serial "KSHV"
+	rom ( name "Sudoku 50! For Beginners (Europe, Australia).nds" size 4257792 crc A05B3231 md5 4F04D322152D614ED0793FE2388AFBF6 sha1 4CB3B081BFD1B973F5EEAF74C34075BB6EE744A7 )
 )
 
 game (
@@ -2057,10 +3800,38 @@ game (
 )
 
 game (
+	name "Sudoku Sensei (Europe, Australia)"
+	description "Sudoku Sensei (Europe, Australia)"
+	serial "K4SV"
+	rom ( name "Sudoku Sensei (Europe, Australia).nds" size 4260864 crc DA13C2B8 md5 C0F50E6E95E31AABBDC508DA099A8693 sha1 A3B050EFBAA235EF8A1770F9D12AD212996357B4 )
+)
+
+game (
+	name "Sudoku Shokyuu 50-Mon! (Japan)"
+	description "Sudoku Shokyuu 50-Mon! (Japan)"
+	serial "KSHJ"
+	rom ( name "Sudoku Shokyuu 50-Mon! (Japan).nds" size 3126272 crc 2FC506CB md5 3F3031818E389041290BE3F34FE05289 sha1 A5FBF4409CE911DC679B22ABCD1287A575D09B64 )
+)
+
+game (
 	name "Sudoku Student (USA)"
 	description "Sudoku Student (USA)"
 	serial "KSHE"
 	rom ( name "Sudoku Student (USA).nds" size 3628032 crc 3879AA65 md5 6F7989F99762BA623EB48F59D588F931 sha1 CBB425B6556B8B76A264E2EFF5B6C95ACAD873D3 )
+)
+
+game (
+	name "Sujin Taisen - Number Battles (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Sujin Taisen - Number Battles (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "KSUV"
+	rom ( name "Sujin Taisen - Number Battles (Europe, Australia) (En,Fr,De,Es,It).nds" size 8074240 crc 621572F2 md5 3968C33E022895CEAA8888E9EA6D4E80 sha1 D62E35292ABDAA8CE883A24569B9EF320E335072 flags verified )
+)
+
+game (
+	name "Super Yum Yum - Puzzle Adventures (Europe, Australia)"
+	description "Super Yum Yum - Puzzle Adventures (Europe, Australia)"
+	serial "K4PV"
+	rom ( name "Super Yum Yum - Puzzle Adventures (Europe, Australia).nds" size 12226560 crc A7638FB8 md5 97F7CC1C3BF947C8A057CD0214399556 sha1 382A085B2F019CE43DBFF4188F46A9525D9B7F4D flags verified )
 )
 
 game (
@@ -2071,31 +3842,45 @@ game (
 )
 
 game (
+	name "System Flaw - Recruit (USA)"
+	description "System Flaw - Recruit (USA)"
+	serial "KSYE"
+	rom ( name "System Flaw - Recruit (USA).nds" size 5946368 crc DBCDFB94 md5 1485B398E40C74B923C28D45C6DE82CC sha1 CE8305DD25DB0A955155E837836F2580C0840162 flags verified )
+)
+
+game (
 	name "Tales in a Box - Hidden shapes in perspective! (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Tales in a Box - Hidden shapes in perspective! (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KRGV"
-	rom ( name "Tales in a Box - Hidden shapes in perspective! (Europe, Australia) (En,Fr,De,Es,It).nds" size 9933824 crc E0832C8B md5 D73A1D29C1DAF02976BD7F093DE98D34 sha1 22619D5EAFD0E1DD0D0295849EBB1F22565A900B )
+	rom ( name "Tales in a Box - Hidden shapes in perspective! (Europe, Australia) (En,Fr,De,Es,It).nds" size 9933824 crc E0832C8B md5 D73A1D29C1DAF02976BD7F093DE98D34 sha1 22619D5EAFD0E1DD0D0295849EBB1F22565A900B flags verified )
 )
 
 game (
 	name "Tetris Party Live (USA)"
 	description "Tetris Party Live (USA)"
 	serial "KTEE"
-	rom ( name "Tetris Party Live (USA).nds" size 11760640 crc C913F72B md5 95099BD2363B4340E085C20F63E3C995 sha1 40988DE6136BA42D779F2B866E8B0EEE486F0966 )
+	rom ( name "Tetris Party Live (USA).nds" size 11760640 crc C913F72B md5 95099BD2363B4340E085C20F63E3C995 sha1 40988DE6136BA42D779F2B866E8B0EEE486F0966 flags verified )
 )
 
 game (
 	name "Tetris Party Live (Europe, Australia)"
 	description "Tetris Party Live (Europe, Australia)"
 	serial "KTEV"
-	rom ( name "Tetris Party Live (Europe, Australia).nds" size 12081152 crc 4AA1755F md5 1BD959E63C7A24225BED613F88E6D433 sha1 01619B92AAE59B0FA3A6511E2B3D739179CF71F2 )
+	rom ( name "Tetris Party Live (Europe, Australia).nds" size 12081152 crc 4AA1755F md5 1BD959E63C7A24225BED613F88E6D433 sha1 01619B92AAE59B0FA3A6511E2B3D739179CF71F2 flags verified )
 )
 
 game (
 	name "Thorium Wars (USA)"
 	description "Thorium Wars (USA)"
 	serial "KTWE"
-	rom ( name "Thorium Wars (USA).nds" size 14592000 crc 9BFAAE13 md5 2C3B0AD9530D721BFA0EAAE8208267BA sha1 5F687AD66969D1374E9B6986F502ECE0B6A892BA )
+	rom ( name "Thorium Wars (USA).nds" size 14592000 crc 9BFAAE13 md5 2C3B0AD9530D721BFA0EAAE8208267BA sha1 5F687AD66969D1374E9B6986F502ECE0B6A892BA flags verified )
+)
+
+game (
+	name "Topoloco (Europe)"
+	description "Topoloco (Europe)"
+	serial "KT5P"
+	rom ( name "Topoloco (Europe).nds" size 10999808 crc C01B7560 md5 27FA879A059E728EC734F64685936AB2 sha1 BE351951F3425F092558F21C5234954E1E3840A4 )
 )
 
 game (
@@ -2109,14 +3894,35 @@ game (
 	name "Tori to Mame (Japan)"
 	description "Tori to Mame (Japan)"
 	serial "KP6J"
-	rom ( name "Tori to Mame (Japan).nds" size 1698816 crc 4CB1FBE1 md5 5917055EBD8F27DA215534301B4F0617 sha1 C07262539EB454C11404F86A9F1666CD3260699A )
+	rom ( name "Tori to Mame (Japan).nds" size 1698816 crc 4CB1FBE1 md5 5917055EBD8F27DA215534301B4F0617 sha1 C07262539EB454C11404F86A9F1666CD3260699A flags verified )
+)
+
+game (
+	name "Touch Solitaire (USA)"
+	description "Touch Solitaire (USA)"
+	serial "KSLE"
+	rom ( name "Touch Solitaire (USA).nds" size 576512 crc 39577271 md5 480635A1E56F6EECBC8FB4A82A732075 sha1 3E028CD0B39CF8221E3A7C00A172AFE80CC2A6E7 )
 )
 
 game (
 	name "Trailblaze - Puzzle Incinerator (Europe, Australia)"
 	description "Trailblaze - Puzzle Incinerator (Europe, Australia)"
 	serial "K4KV"
-	rom ( name "Trailblaze - Puzzle Incinerator (Europe, Australia).nds" size 7527424 crc 5E67DCB6 md5 319397B0ECD86D68D8F3BE648F95F914 sha1 D60FF1C188D4BD47E30AC1697244FD5F89058201 )
+	rom ( name "Trailblaze - Puzzle Incinerator (Europe, Australia).nds" size 7527424 crc 5E67DCB6 md5 319397B0ECD86D68D8F3BE648F95F914 sha1 D60FF1C188D4BD47E30AC1697244FD5F89058201 flags verified )
+)
+
+game (
+	name "Trajectile (USA)"
+	description "Trajectile (USA)"
+	serial "KDZE"
+	rom ( name "Trajectile (USA).nds" size 5396480 crc 02FB2644 md5 8EA3D1E73FFD2556EF97F74931B3604A sha1 B3033FE0CC656380C08FB66DF4868EA2B2F4471D )
+)
+
+game (
+	name "Treasure Hunter X (Europe)"
+	description "Treasure Hunter X (Europe)"
+	serial "K4EP"
+	rom ( name "Treasure Hunter X (Europe).nds" size 3268608 crc 8C7D7383 md5 8918CD74F02BA2C9A163B2CA01A22932 sha1 DEF2FDED80B6355FEB37049181058B1DE01C39A6 )
 )
 
 game (
@@ -2131,6 +3937,27 @@ game (
 	description "Ugoku Memo Chou (Japan) (Rev 2)"
 	serial "KGUJ"
 	rom ( name "Ugoku Memo Chou (Japan) (Rev 2).nds" size 2894848 crc 5D0F3030 md5 990584865B48A2404E19B2E06323872D sha1 DA1BE4F291C8D74DC9551E5A441555C80EA79851 )
+)
+
+game (
+	name "Uno (USA)"
+	description "Uno (USA)"
+	serial "KUNE"
+	rom ( name "Uno (USA).nds" size 8342528 crc 07AB7F1F md5 7DB6E699AB8B43359CE146630F88691A sha1 B0D951375F31D41BC85C80ED2CB08772BA3B4E66 flags verified )
+)
+
+game (
+	name "Uno (Europe, Australia)"
+	description "Uno (Europe, Australia)"
+	serial "KUNV"
+	rom ( name "Uno (Europe, Australia).nds" size 8420352 crc A5BC7443 md5 C80806CCB148A8FD764C3A49F327046B sha1 F628B1286A82F2D82D254A7DAD136429C581E25D )
+)
+
+game (
+	name "Uno (Japan)"
+	description "Uno (Japan)"
+	serial "KUNJ"
+	rom ( name "Uno (Japan).nds" size 8245248 crc 58760773 md5 42954DE44C145AD2AC94AB2EE81D2FA9 sha1 FDF0FFB9DD4D24EF4902C80D22DB022AB1EDE0B5 )
 )
 
 game (
@@ -2151,14 +3978,28 @@ game (
 	name "Viking Invasion (USA)"
 	description "Viking Invasion (USA)"
 	serial "KVKE"
-	rom ( name "Viking Invasion (USA).nds" size 13021184 crc 67EBC238 md5 09EA679FD5162B6C11AFC172F2768B3D sha1 FC4B4C3DC3DE68E557C40AE98FB3759194098610 )
+	rom ( name "Viking Invasion (USA).nds" size 13021184 crc 67EBC238 md5 09EA679FD5162B6C11AFC172F2768B3D sha1 FC4B4C3DC3DE68E557C40AE98FB3759194098610 flags verified )
+)
+
+game (
+	name "Viking Invasion (Europe, Australia)"
+	description "Viking Invasion (Europe, Australia)"
+	serial "KVKV"
+	rom ( name "Viking Invasion (Europe, Australia).nds" size 13118464 crc 6BAE702A md5 4F8D88A19D28479A09B9FEB19497B4FB sha1 D76B717489A45D69D4A3B630ECA3EE00B01754D9 )
+)
+
+game (
+	name "Wakugumi - Monochrome Puzzle (Europe, Australia)"
+	description "Wakugumi - Monochrome Puzzle (Europe, Australia)"
+	serial "KK4V"
+	rom ( name "Wakugumi - Monochrome Puzzle (Europe, Australia).nds" size 5754880 crc 548DB874 md5 0275D5904884DB70E17F7AA0E6495D44 sha1 19BD6D1DB75518B7847B0C739EB4E4DB439AC60F flags verified )
 )
 
 game (
 	name "WarioWare - Snapped! (USA) (Rev 1)"
 	description "WarioWare - Snapped! (USA) (Rev 1)"
 	serial "KUWE"
-	rom ( name "WarioWare - Snapped! (USA) (Rev 1).nds" size 7831552 crc 4B8E95C8 md5 74AF8F1B81B483EC4106F0C5C54FC754 sha1 C638CA0568FCF8CF4756A5FDA75A7FBFC30FB4D0 )
+	rom ( name "WarioWare - Snapped! (USA) (Rev 1).nds" size 7831552 crc 4B8E95C8 md5 74AF8F1B81B483EC4106F0C5C54FC754 sha1 C638CA0568FCF8CF4756A5FDA75A7FBFC30FB4D0 flags verified )
 )
 
 game (
@@ -2172,14 +4013,42 @@ game (
 	name "WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It)"
 	description "WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KUWV"
-	rom ( name "WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It).nds" size 9951232 crc 469813AF md5 A680BCB0B2C3640D8321EFA3A6EE116D sha1 584FAA72E93B72A64EC82EE3EB2FFEDF4E926B6A )
+	rom ( name "WarioWare - Snapped! (Europe, Australia) (En,Fr,De,Es,It).nds" size 9951232 crc 469813AF md5 A680BCB0B2C3640D8321EFA3A6EE116D sha1 584FAA72E93B72A64EC82EE3EB2FFEDF4E926B6A flags verified )
+)
+
+game (
+	name "WarioWare - Touched! DL (USA, Australia)"
+	description "WarioWare - Touched! DL (USA, Australia)"
+	serial "Z2AT"
+	rom ( name "WarioWare - Touched! DL (USA, Australia).nds" size 29039616 crc C8A5A061 md5 3B160E496BA652D997FFBA0332A95C66 sha1 C445E6DD1CBED04644553CC0EB4956EDD8420F66 flags verified )
+)
+
+game (
+	name "WarioWare - Touched! DL (Europe)"
+	description "WarioWare - Touched! DL (Europe)"
+	serial "Z2AP"
+	rom ( name "WarioWare - Touched! DL (Europe).nds" size 30485504 crc E6927EC5 md5 8BB8BED06837E914E893B5AD35E2DCA1 sha1 A782EB33619ECAD6040CE7F2C5E0B9DC2BB9946D )
+)
+
+game (
+	name "Whack-A-Friend (USA)"
+	description "Whack-A-Friend (USA)"
+	serial "KWQE"
+	rom ( name "Whack-A-Friend (USA).nds" size 2002944 crc D42B9377 md5 7A2249B89A29C140473E0DE5E5865E69 sha1 D28EA07B15B9D3564634B1884A63C157B96F8067 flags verified )
+)
+
+game (
+	name "Where's Wally - The Fantastic Journey - Travel Pack 1 (Europe, Australia)"
+	description "Where's Wally - The Fantastic Journey - Travel Pack 1 (Europe, Australia)"
+	serial "KOIV"
+	rom ( name "Where's Wally - The Fantastic Journey - Travel Pack 1 (Europe, Australia).nds" size 15859712 crc 2A11494B md5 B78058926945C561BC43A5C1789E409C sha1 2A63D08C1168192DD2B754D2C350190649BD6566 )
 )
 
 game (
 	name "White-Water Domo (USA)"
 	description "White-Water Domo (USA)"
 	serial "KDWE"
-	rom ( name "White-Water Domo (USA).nds" size 2540544 crc 0A24AB77 md5 979E70B0A0D19BECF09D4661D0703F0F sha1 3210DA0E36DF9BD61C2EB5A46A67E17FADCE3D9F )
+	rom ( name "White-Water Domo (USA).nds" size 2540544 crc 0A24AB77 md5 979E70B0A0D19BECF09D4661D0703F0F sha1 3210DA0E36DF9BD61C2EB5A46A67E17FADCE3D9F flags verified )
 )
 
 game (
@@ -2193,7 +4062,7 @@ game (
 	name "X-Scape (USA)"
 	description "X-Scape (USA)"
 	serial "KDXE"
-	rom ( name "X-Scape (USA).nds" size 16290816 crc C4D73567 md5 BAF3339EF9D8F7FC2D3A0A1424BDB005 sha1 EA958A7B79AD530206A8B7E5D56A7E0F32E8581C )
+	rom ( name "X-Scape (USA).nds" size 16290816 crc C4D73567 md5 BAF3339EF9D8F7FC2D3A0A1424BDB005 sha1 EA958A7B79AD530206A8B7E5D56A7E0F32E8581C flags verified )
 )
 
 game (
@@ -2225,6 +4094,20 @@ game (
 )
 
 game (
+	name "Yummy Yummy Cooking Jam (Europe, Australia)"
+	description "Yummy Yummy Cooking Jam (Europe, Australia)"
+	serial "KYUV"
+	rom ( name "Yummy Yummy Cooking Jam (Europe, Australia).nds" size 12496896 crc 74CB8075 md5 5B01E984BE35565D2B9A64874957A7DC sha1 1DC0BDFA162EC5CAEA85C1D0B4FDB7A13FAE594F )
+)
+
+game (
+	name "Zacross (Japan)"
+	description "Zacross (Japan)"
+	serial "KZXJ"
+	rom ( name "Zacross (Japan).nds" size 4081664 crc F73B03FE md5 53B8C039BF2D71548CB2049E139E0995 sha1 9996B4C8A924041FA9186881A03AAB0C4DA0BA3F )
+)
+
+game (
 	name "Zaojiao Leyuan wo de Tonghua Huiben - Xiaohai tu de Gushi (China) (iQue)"
 	description "Zaojiao Leyuan wo de Tonghua Huiben - Xiaohai tu de Gushi (China) (iQue)"
 	serial "K2LC"
@@ -2235,21 +4118,21 @@ game (
 	name "Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan)"
 	description "Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan)"
 	serial "KQ9J"
-	rom ( name "Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan).nds" size 14131200 crc C42B9288 md5 057F5E9DD5451766793B2107894771A9 sha1 F1B663AC2112BAC6FBC92142E9B5649B71DA0D09 )
+	rom ( name "Zelda no Densetsu - 4-tsu no Tsurugi - 25th Kinen Edition (Japan).nds" size 14131200 crc C42B9288 md5 057F5E9DD5451766793B2107894771A9 sha1 F1B663AC2112BAC6FBC92142E9B5649B71DA0D09 flags verified )
 )
 
 game (
 	name "Zenonia (Europe, Australia)"
 	description "Zenonia (Europe, Australia)"
 	serial "KZAV"
-	rom ( name "Zenonia (Europe, Australia).nds" size 13771776 crc 0A4A7DC3 md5 7D3FEA386E7636AEB06B05889EF40575 sha1 2BA5349DFFCFF85604F45B4E6A9C93E2D0FAEFCB )
+	rom ( name "Zenonia (Europe, Australia).nds" size 13771776 crc 0A4A7DC3 md5 7D3FEA386E7636AEB06B05889EF40575 sha1 2BA5349DFFCFF85604F45B4E6A9C93E2D0FAEFCB flags verified )
 )
 
 game (
 	name "ZENONIA (USA)"
 	description "ZENONIA (USA)"
 	serial "KZAE"
-	rom ( name "ZENONIA (USA).nds" size 13654016 crc E6B36FE8 md5 F2A9091B2CA6B647FFC5D5FEE8227E35 sha1 8480665EC1326C97215E85746369335A851E3E55 )
+	rom ( name "ZENONIA (USA).nds" size 13654016 crc E6B36FE8 md5 F2A9091B2CA6B647FFC5D5FEE8227E35 sha1 8480665EC1326C97215E85746369335A851E3E55 flags verified )
 )
 
 game (
@@ -2267,9 +4150,37 @@ game (
 )
 
 game (
+	name "Zombie Blaster (USA)"
+	description "Zombie Blaster (USA)"
+	serial "K7KE"
+	rom ( name "Zombie Blaster (USA).nds" size 9409536 crc E7D9EC78 md5 D0A25FD00C14E37E845C666E5533E8A1 sha1 CCD14A1E25300562E05B03514331BCF5CC4940C0 flags verified )
+)
+
+game (
+	name "Zombie Blaster (USA) (Rev 1)"
+	description "Zombie Blaster (USA) (Rev 1)"
+	serial "K7KE"
+	rom ( name "Zombie Blaster (USA) (Rev 1).nds" size 9409536 crc 9C214ED8 md5 E0B7F8636DCC6F67D93D72B7F2DD564D sha1 3103B8EEEA229D296A77A3A8E3031ECE926A2D32 flags verified )
+)
+
+game (
+	name "Zoo Frenzy (USA)"
+	description "Zoo Frenzy (USA)"
+	serial "KZFE"
+	rom ( name "Zoo Frenzy (USA).nds" size 11273216 crc C4D45A71 md5 A5E5A5B03AFB3B401C22D9A0CF825A58 sha1 0101058EB28A878DE13486D239BE96B9EA1CEFD9 flags verified )
+)
+
+game (
 	name "Zoonies - Escape from Makatu (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Zoonies - Escape from Makatu (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "KZSV"
 	rom ( name "Zoonies - Escape from Makatu (Europe, Australia) (En,Fr,De,Es,It).nds" size 10141696 crc EF97B228 md5 C7B02A6BDE9F5B1BB15994FE32516E9E sha1 A3DEF86E05EB27495EE843681688CBFFC1D043C4 )
+)
+
+game (
+	name "Zoonies - Escape from Makatu (USA)"
+	description "Zoonies - Escape from Makatu (USA)"
+	serial "KZSE"
+	rom ( name "Zoonies - Escape from Makatu (USA).nds" size 10100736 crc 5C0F8F50 md5 CB6E9218A732DE5D10F25E843AE2A437 sha1 0F447DDCAC19EA53992F8CF2FD7AE3F7930D2988 )
 )
 
