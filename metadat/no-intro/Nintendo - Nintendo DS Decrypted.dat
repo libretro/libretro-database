@@ -1,8 +1,26 @@
 clrmamepro (
 	name "Nintendo - Nintendo DS"
 	description "Nintendo - Nintendo DS"
-	version 20160922-092332
+	version 20161019-184929
 	comment "no-intro | www.no-intro.org"
+)
+
+game (
+	name "[BIOS] Nintendo DS ARM7TDMI (World)"
+	description "[BIOS] Nintendo DS ARM7TDMI (World)"
+	rom ( name "[BIOS] Nintendo DS ARM7TDMI (World).nds" size 16384 crc 1280F0D5 md5 DF692A80A5B1BC90728BC3DFC76CD948 sha1 24F67BDEA115A2C847C8813A262502EE1607B7DF flags verified )
+)
+
+game (
+	name "[BIOS] Nintendo DS ARM7TDMI (GBA Mode) (World)"
+	description "[BIOS] Nintendo DS ARM7TDMI (GBA Mode) (World)"
+	rom ( name "[BIOS] Nintendo DS ARM7TDMI (GBA Mode) (World).nds" size 16384 crc A6473709 md5 1C0D67DB9E1208B95A1506B1688A0AD6 sha1 C11531D5261006810CDC954BD4BEC0AFE3187B35 flags verified )
+)
+
+game (
+	name "[BIOS] Nintendo DS ARM946E-S (World)"
+	description "[BIOS] Nintendo DS ARM946E-S (World)"
+	rom ( name "[BIOS] Nintendo DS ARM946E-S (World).nds" size 4096 crc 2AB23573 md5 A392174EB3E572FED6447E956BDE4B25 sha1 BFAAC75F101C135E32E2AAF541DE6B1BE4C8C62D flags verified )
 )
 
 game (
@@ -415,7 +433,7 @@ game (
 	name "2 Games in 1 - Jewel Master - Cradle of Egypt + Mahjongg - Ancient Egypt (Europe) (En,Fr,De,Es,It,Nl)"
 	description "2 Games in 1 - Jewel Master - Cradle of Egypt + Mahjongg - Ancient Egypt (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "BXJP"
-	rom ( name "2 Games in 1 - Jewel Master - Cradle of Egypt + Mahjongg - Ancient Egypt (Europe) (En,Fr,De,Es,It,Nl).nds" size 8388608 crc 207D4993 md5 2752896D7B200ED24DA98A6D7FAEAC68 sha1 5631B29197717454248F65E90D3627F584FD64A7 )
+	rom ( name "2 Games in 1 - Jewel Master - Cradle of Egypt + Mahjongg - Ancient Egypt (Europe) (En,Fr,De,Es,It,Nl).nds" size 8388608 crc 207D4993 md5 2752896D7B200ED24DA98A6D7FAEAC68 sha1 5631B29197717454248F65E90D3627F584FD64A7 flags verified )
 )
 
 game (
@@ -1973,10 +1991,10 @@ game (
 )
 
 game (
-	name "Ant Nation (Europe) (En,Fr,De,Es,It) [b]"
-	description "Ant Nation (Europe) (En,Fr,De,Es,It) [b]"
+	name "Ant Nation (Europe) (En,Fr,De,Es,It)"
+	description "Ant Nation (Europe) (En,Fr,De,Es,It)"
 	serial "BANP"
-	rom ( name "Ant Nation (Europe) (En,Fr,De,Es,It) [b].nds" size 16777216 crc 197277B5 md5 DE36AD2E5E9D6C67BEBD95DFCC7638A8 sha1 4EE23824920A45BFA9B3D4EA5DCF881AD0BA80BC flags baddump )
+	rom ( name "Ant Nation (Europe) (En,Fr,De,Es,It).nds" size 16777216 crc 00F7A863 md5 3F5590FC7F32FE62B5F88A4D85A044E5 sha1 048CF6DAB5D3DAB70E5381F55902EF851FA45149 )
 )
 
 game (
@@ -2998,7 +3016,7 @@ game (
 	name "Bakugan - Defenders of the Core (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	description "Bakugan - Defenders of the Core (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	serial "B4BP"
-	rom ( name "Bakugan - Defenders of the Core (Europe) (En,Fr,De,Es,It,Nl,Sv).nds" size 67108864 crc 7776F9AE md5 42547F3AC3D1375A57CF8297C826DE26 sha1 6A26ECA94AC7991D9B69621BF18F1F8FCCFBDDBC )
+	rom ( name "Bakugan - Defenders of the Core (Europe) (En,Fr,De,Es,It,Nl,Sv).nds" size 67108864 crc 7776F9AE md5 42547F3AC3D1375A57CF8297C826DE26 sha1 6A26ECA94AC7991D9B69621BF18F1F8FCCFBDDBC flags verified )
 )
 
 game (
@@ -3443,10 +3461,10 @@ game (
 )
 
 game (
-	name "Beat the Intro (Europe) [b]"
-	description "Beat the Intro (Europe) [b]"
+	name "Beat the Intro (Europe)"
+	description "Beat the Intro (Europe)"
 	serial "BEIP"
-	rom ( name "Beat the Intro (Europe) [b].nds" size 16777216 crc 0BC78C39 md5 2AEDF950C75A7736B0592415363DA2CF sha1 4FDCE968098C3D4B127B0D93BE78CC10AFFC6852 flags baddump )
+	rom ( name "Beat the Intro (Europe).nds" size 16777216 crc 69D020AB md5 BDC075714C569584AE814CD6A21680CB sha1 FA2DC6070FD49997035FCB93DAA6F1E0A51C6F67 )
 )
 
 game (
@@ -5651,7 +5669,7 @@ game (
 	name "Captain Morgane and the Golden Turtle (Europe) (En,Fr,De,Es,It)"
 	description "Captain Morgane and the Golden Turtle (Europe) (En,Fr,De,Es,It)"
 	serial "TGTP"
-	rom ( name "Captain Morgane and the Golden Turtle (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 0B895467 md5 B5ED3BDDAB3B68A22BB452C69B824014 sha1 7F3AFA403227B123FBB08CBBD81D1BD09C8228E3 )
+	rom ( name "Captain Morgane and the Golden Turtle (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 0B895467 md5 B5ED3BDDAB3B68A22BB452C69B824014 sha1 7F3AFA403227B123FBB08CBBD81D1BD09C8228E3 flags verified )
 )
 
 game (
@@ -5928,10 +5946,10 @@ game (
 )
 
 game (
-	name "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) [b]"
-	description "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) [b]"
+	name "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
+	description "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
 	serial "CASP"
-	rom ( name "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) [b].nds" size 33554432 crc 3CD46197 md5 61DF002CD6B795D4DE27BE7D1F9EF679 sha1 658255D341E08C8A0DFF98E59D0035738739EBF3 flags baddump )
+	rom ( name "Casper's Scare School - Classroom Capers (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).nds" size 33554432 crc 074521F6 md5 7E313AE86BA3536AF55EB40C45AE875C sha1 348E096444912EBD3398580EF1F2247B07C058D0 )
 )
 
 game (
@@ -6061,10 +6079,10 @@ game (
 )
 
 game (
-	name "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It) [b]"
-	description "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It) [b]"
+	name "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It)"
+	description "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It)"
 	serial "CWFP"
-	rom ( name "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It) [b].nds" size 33554432 crc FE173553 md5 03D2821AAF4B0EC034D0FAC047CFBE85 sha1 F74AE1FFE2B5E28C53CE7F1A0EF974D20E06FF3A flags baddump )
+	rom ( name "Cate West - The Vanishing Files (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc B4AF5B2E md5 FA9A9EA99F1CF898AC5E5B8B594C12A7 sha1 8BD9175851ABE08A0943532702444E13FFBDC0EA )
 )
 
 game (
@@ -6757,7 +6775,7 @@ game (
 	name "Christmas Carol, A (Europe) (En,Fr,Es,Nl)"
 	description "Christmas Carol, A (Europe) (En,Fr,Es,Nl)"
 	serial "BXMP"
-	rom ( name "Christmas Carol, A (Europe) (En,Fr,Es,Nl).nds" size 67108864 crc 53AE2F5E md5 96001CE328688CF30E229BCCF942B5CF sha1 DFC2EF869E4772FDC8539E8D84B578B51F0EFB60 )
+	rom ( name "Christmas Carol, A (Europe) (En,Fr,Es,Nl).nds" size 67108864 crc 53AE2F5E md5 96001CE328688CF30E229BCCF942B5CF sha1 DFC2EF869E4772FDC8539E8D84B578B51F0EFB60 flags verified )
 )
 
 game (
@@ -6950,6 +6968,13 @@ game (
 )
 
 game (
+	name "Chuugaku Eitango Target 1800 DS (Japan) (Japan) (Rev 1)"
+	description "Chuugaku Eitango Target 1800 DS (Japan) (Japan) (Rev 1)"
+	serial "AE8J"
+	rom ( name "Chuugaku Eitango Target 1800 DS (Japan) (Japan) (Rev 1).nds" size 67108864 crc 86EE594C md5 FD00AC13069FDB18FE7F352D608AA195 sha1 E61B7B017B21096D1B31F022896906ED6A1D4813 )
+)
+
+game (
 	name "Chuugaku Junbi - 5 Kyouka Kanpeki DS (Japan)"
 	description "Chuugaku Junbi - 5 Kyouka Kanpeki DS (Japan)"
 	serial "TCJJ"
@@ -7125,10 +7150,10 @@ game (
 )
 
 game (
-	name "Cloudy with a Chance of Meatballs (Europe) [b]"
-	description "Cloudy with a Chance of Meatballs (Europe) [b]"
+	name "Cloudy with a Chance of Meatballs (Europe)"
+	description "Cloudy with a Chance of Meatballs (Europe)"
 	serial "CZAP"
-	rom ( name "Cloudy with a Chance of Meatballs (Europe) [b].nds" size 33554432 crc AB407927 md5 1ECDAEEF9BD704C3BA09446866CC733B sha1 E90B77842BA1458AF0154B888B3C954A8775C81E flags baddump )
+	rom ( name "Cloudy with a Chance of Meatballs (Europe).nds" size 33554432 crc AAB1F63D md5 7076A3D699396CD0C23FD54D641E5B0E sha1 485EF41FAAB427BFCCC766D550B16F061DE16BF3 )
 )
 
 game (
@@ -7555,7 +7580,7 @@ game (
 	name "Cooking Mama (USA)"
 	description "Cooking Mama (USA)"
 	serial "ACCE"
-	rom ( name "Cooking Mama (USA).nds" size 33554432 crc 7FE24E59 md5 A5457C3AFD786A1FCC69A009838C2C28 sha1 C0F556A46F3AB77E559E3E9AFAC146C535C1663C )
+	rom ( name "Cooking Mama (USA).nds" size 33554432 crc 7FE24E59 md5 A5457C3AFD786A1FCC69A009838C2C28 sha1 C0F556A46F3AB77E559E3E9AFAC146C535C1663C flags verified )
 )
 
 game (
@@ -8787,7 +8812,7 @@ game (
 	name "Denksport Varia (Netherlands)"
 	description "Denksport Varia (Netherlands)"
 	serial "CQLH"
-	rom ( name "Denksport Varia (Netherlands).nds" size 8388608 crc 0DF29962 md5 77768CF3F30D6C0FA37D75CD02434059 sha1 1C8ADCFB908D669DD0EB489529E7FCC6322A4126 )
+	rom ( name "Denksport Varia (Netherlands).nds" size 8388608 crc 0DF29962 md5 77768CF3F30D6C0FA37D75CD02434059 sha1 1C8ADCFB908D669DD0EB489529E7FCC6322A4126 flags verified )
 )
 
 game (
@@ -11853,7 +11878,7 @@ game (
 	name "Emily Archer - The Curse of King Tut's Tomb (Europe) (Fr,Nl)"
 	description "Emily Archer - The Curse of King Tut's Tomb (Europe) (Fr,Nl)"
 	serial "BUEY"
-	rom ( name "Emily Archer - The Curse of King Tut's Tomb (Europe) (Fr,Nl).nds" size 33554432 crc 1E2FA922 md5 0050EC57600F21CA6B12B91A4C9202E7 sha1 1B3ED6A95A2E7E7C610C05CCC1CF8ED4819AF732 )
+	rom ( name "Emily Archer - The Curse of King Tut's Tomb (Europe) (Fr,Nl).nds" size 33554432 crc 1E2FA922 md5 0050EC57600F21CA6B12B91A4C9202E7 sha1 1B3ED6A95A2E7E7C610C05CCC1CF8ED4819AF732 flags verified )
 )
 
 game (
@@ -12116,10 +12141,10 @@ game (
 )
 
 game (
-	name "Escape the Museum (Europe) (En,Fr,Nl) [b]"
-	description "Escape the Museum (Europe) (En,Fr,Nl) [b]"
+	name "Escape the Museum (Europe) (En,Fr,Nl)"
+	description "Escape the Museum (Europe) (En,Fr,Nl)"
 	serial "BE3X"
-	rom ( name "Escape the Museum (Europe) (En,Fr,Nl) [b].nds" size 67108864 crc BDD8FB07 md5 874F1C3A008027CFD09B37DB76570BFC sha1 F92E06CF4E52136554860A625E4CD3D11957ADF8 flags baddump )
+	rom ( name "Escape the Museum (Europe) (En,Fr,Nl).nds" size 67108864 crc B9ED9B11 md5 63F1352083ADB2C18EBF3245D64831D0 sha1 6B0159624895A1F2192D8EB42283E5B2C83B89E5 )
 )
 
 game (
@@ -12305,10 +12330,10 @@ game (
 )
 
 game (
-	name "Family Fortunes (Europe) [b]"
-	description "Family Fortunes (Europe) [b]"
+	name "Family Fortunes (Europe)"
+	description "Family Fortunes (Europe)"
 	serial "BFTP"
-	rom ( name "Family Fortunes (Europe) [b].nds" size 16777216 crc 902CF678 md5 57A901964212D4370D18B7712ECD41BB sha1 A1EAF40CB269C3A91E164C57FD85595A7EA6E143 flags baddump )
+	rom ( name "Family Fortunes (Europe).nds" size 16777216 crc 94B04903 md5 ECBBAB9B12FDA43F937307425A65F296 sha1 6F326618F014FDB564D4A466C4BA9831478AF222 )
 )
 
 game (
@@ -12518,7 +12543,7 @@ game (
 	name "FIFA 08 (Europe) (En,Fr,De,Es,It) (Rev 1)"
 	description "FIFA 08 (Europe) (En,Fr,De,Es,It) (Rev 1)"
 	serial "YF8P"
-	rom ( name "FIFA 08 (Europe) (En,Fr,De,Es,It) (Rev 1).nds" size 33554432 crc F746349E md5 85B7DE2A10F1FD99F246821CF1B1AB6B sha1 66A213989DB1F3B3BD4022C97757DB7628E54E76 )
+	rom ( name "FIFA 08 (Europe) (En,Fr,De,Es,It) (Rev 1).nds" size 33554432 crc F746349E md5 85B7DE2A10F1FD99F246821CF1B1AB6B sha1 66A213989DB1F3B3BD4022C97757DB7628E54E76 flags verified )
 )
 
 game (
@@ -12539,7 +12564,7 @@ game (
 	name "FIFA 09 (Europe) (En,Fr,De,Es,It)"
 	description "FIFA 09 (Europe) (En,Fr,De,Es,It)"
 	serial "CF9P"
-	rom ( name "FIFA 09 (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 1B5A2CA0 md5 4B18367898742FF74DB2383C79E2E1E3 sha1 478F0FC75EBF4BD43FA57F30BB111DE679327830 )
+	rom ( name "FIFA 09 (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 1B5A2CA0 md5 4B18367898742FF74DB2383C79E2E1E3 sha1 478F0FC75EBF4BD43FA57F30BB111DE679327830 flags verified )
 )
 
 game (
@@ -12854,7 +12879,7 @@ game (
 	name "Finding Nemo - Escape to the Big Blue (USA)"
 	description "Finding Nemo - Escape to the Big Blue (USA)"
 	serial "AFNE"
-	rom ( name "Finding Nemo - Escape to the Big Blue (USA).nds" size 33554432 crc AEE8B9D0 md5 B98C910C9F6C06C9E585D0AE2E3F6E16 sha1 296A67395982D733476B9EFD093B184260F3ACD2 )
+	rom ( name "Finding Nemo - Escape to the Big Blue (USA).nds" size 33554432 crc AEE8B9D0 md5 B98C910C9F6C06C9E585D0AE2E3F6E16 sha1 296A67395982D733476B9EFD093B184260F3ACD2 flags verified )
 )
 
 game (
@@ -13880,10 +13905,10 @@ game (
 )
 
 game (
-	name "Game Hits (Europe) (En,Fr,De,Es,It,Nl) [b]"
-	description "Game Hits (Europe) (En,Fr,De,Es,It,Nl) [b]"
+	name "Game Hits (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Game Hits (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "C7GP"
-	rom ( name "Game Hits (Europe) (En,Fr,De,Es,It,Nl) [b].nds" size 16777216 crc 4E5DD9FF md5 C20EF7725FFFFC27C2017CDBF30C20C9 sha1 C883A656A48F840DFBD70F0D2A090136AC92901E flags baddump )
+	rom ( name "Game Hits (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc E42577AE md5 C74340E63A725C9535F8571D7AF46735 sha1 21A4E5985E3DC8A908D1D3849F46FAB2FBFAA7F7 )
 )
 
 game (
@@ -14405,10 +14430,10 @@ game (
 )
 
 game (
-	name "Girls Only (Europe) (En,Fr,De,Es,It,Nl) [b]"
-	description "Girls Only (Europe) (En,Fr,De,Es,It,Nl) [b]"
+	name "Girls Only (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Girls Only (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "BGLP"
-	rom ( name "Girls Only (Europe) (En,Fr,De,Es,It,Nl) [b].nds" size 16777216 crc AFF48722 md5 FDF3854F334806C9395C18244FBEBCFD sha1 88B85A43D81EB0A2970722DD55F299109C350AF8 flags baddump )
+	rom ( name "Girls Only (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc 85BFDA49 md5 329A29349174110F2BAED624127C6D20 sha1 66DBC7FB19E4DA624BE8A4B8275DC3248CE9C969 )
 )
 
 game (
@@ -14506,7 +14531,7 @@ game (
 	name "Go, Diego, Go! - Safari Rescue (Europe) (En,Fr,Nl)"
 	description "Go, Diego, Go! - Safari Rescue (Europe) (En,Fr,Nl)"
 	serial "YEQY"
-	rom ( name "Go, Diego, Go! - Safari Rescue (Europe) (En,Fr,Nl).nds" size 16777216 crc 9C30BA47 md5 8CDBDF81636B33E4F39AF4D2E6820C1B sha1 B4C5F5A59774AA88FA267E403347A842A11F1BCA )
+	rom ( name "Go, Diego, Go! - Safari Rescue (Europe) (En,Fr,Nl).nds" size 16777216 crc 9C30BA47 md5 8CDBDF81636B33E4F39AF4D2E6820C1B sha1 B4C5F5A59774AA88FA267E403347A842A11F1BCA flags verified )
 )
 
 game (
@@ -15430,7 +15455,7 @@ game (
 	name "Hannah Montana (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Hannah Montana (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "AHNP"
-	rom ( name "Hannah Montana (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc BEEE460A md5 70051D523E9E9EE2BBD035DD2187ABA0 sha1 78DF36CF3B3BC6A4D0C934F4DB0B7E46A71D0222 )
+	rom ( name "Hannah Montana (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc BEEE460A md5 70051D523E9E9EE2BBD035DD2187ABA0 sha1 78DF36CF3B3BC6A4D0C934F4DB0B7E46A71D0222 flags verified )
 )
 
 game (
@@ -15584,7 +15609,7 @@ game (
 	name "Happy Party with Hello Kitty & Friends! (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Happy Party with Hello Kitty & Friends! (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "YW3P"
-	rom ( name "Happy Party with Hello Kitty & Friends! (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc D9BA810D md5 03E50F21D6D6762CE7D5FE3F87265C36 sha1 9CB092103C79B07EB85C12E5FAB042D477D20AB5 )
+	rom ( name "Happy Party with Hello Kitty & Friends! (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc D9BA810D md5 03E50F21D6D6762CE7D5FE3F87265C36 sha1 9CB092103C79B07EB85C12E5FAB042D477D20AB5 flags verified )
 )
 
 game (
@@ -16179,7 +16204,7 @@ game (
 	name "Heroes of Hellas 2 - Olympia (Europe) (En,Fr,De,Nl)"
 	description "Heroes of Hellas 2 - Olympia (Europe) (En,Fr,De,Nl)"
 	serial "B82P"
-	rom ( name "Heroes of Hellas 2 - Olympia (Europe) (En,Fr,De,Nl).nds" size 16777216 crc 74E8CF1F md5 75F4C2054AF423CEEDC9164AC235A80E sha1 A3CFD0DA72CA3688EE2671314FBC3B12060305C5 )
+	rom ( name "Heroes of Hellas 2 - Olympia (Europe) (En,Fr,De,Nl).nds" size 16777216 crc 74E8CF1F md5 75F4C2054AF423CEEDC9164AC235A80E sha1 A3CFD0DA72CA3688EE2671314FBC3B12060305C5 flags verified )
 )
 
 game (
@@ -16246,10 +16271,10 @@ game (
 )
 
 game (
-	name "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl) [b]"
-	description "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl) [b]"
+	name "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl)"
+	description "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl)"
 	serial "BHYX"
-	rom ( name "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl) [b].nds" size 33554432 crc E4EBE0ED md5 149B2C1FFC7B39A0B970A41BB5CEC76F sha1 98DE540F43DA11197742D8DBA2944592FAF15D01 flags baddump )
+	rom ( name "Hidden Mysteries - Buckingham Palace (Europe) (En,Fr,Nl).nds" size 33554432 crc 0F634DDC md5 8E757DF60618EFE1E58A57E18703B581 sha1 37AEA7EB3336169493334EC5809BC064BECBE626 )
 )
 
 game (
@@ -16379,10 +16404,10 @@ game (
 )
 
 game (
-	name "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1) [b]"
-	description "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1) [b]"
+	name "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1)"
+	description "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1)"
 	serial "CJ4P"
-	rom ( name "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1) [b].nds" size 16777216 crc 2541D539 md5 65BF34421366855CE609ADDCEB802B00 sha1 EAC7F250777E52B0C6FE4D746927FBA4C11F0908 flags baddump )
+	rom ( name "Hidden Objects - The Big Journey (Europe) (En,Fr,De,Nl) (Rev 1).nds" size 16777216 crc 4F0F4841 md5 D37FCCD225E2ED7DF127170C5D696830 sha1 8A0A29F4A88FCA855B98D11092801F6C2305B573 )
 )
 
 game (
@@ -16403,7 +16428,7 @@ game (
 	name "High School Musical - Makin' the Cut! (Europe) (En,Fr,De,Es,It)"
 	description "High School Musical - Makin' the Cut! (Europe) (En,Fr,De,Es,It)"
 	serial "AI2P"
-	rom ( name "High School Musical - Makin' the Cut! (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 1FFC42F8 md5 1315F20221A0E47283BC1751E28B44D3 sha1 B1A48A52DE8384C4115869C28FA7251040C3B017 )
+	rom ( name "High School Musical - Makin' the Cut! (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 1FFC42F8 md5 1315F20221A0E47283BC1751E28B44D3 sha1 B1A48A52DE8384C4115869C28FA7251040C3B017 flags verified )
 )
 
 game (
@@ -16998,7 +17023,7 @@ game (
 	name "Hotel Transylvania (Europe) (En,Fr,Nl)"
 	description "Hotel Transylvania (Europe) (En,Fr,Nl)"
 	serial "THVY"
-	rom ( name "Hotel Transylvania (Europe) (En,Fr,Nl).nds" size 67108864 crc E0065997 md5 884536DE3A774608ACE3D0E438A44531 sha1 AE4E2850B8BADD13910A6B2F9F42BCB59D477884 )
+	rom ( name "Hotel Transylvania (Europe) (En,Fr,Nl).nds" size 67108864 crc E0065997 md5 884536DE3A774608ACE3D0E438A44531 sha1 AE4E2850B8BADD13910A6B2F9F42BCB59D477884 flags verified )
 )
 
 game (
@@ -17758,10 +17783,10 @@ game (
 )
 
 game (
-	name "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da) [b]"
-	description "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da) [b]"
+	name "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)"
+	description "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)"
 	serial "CFDP"
-	rom ( name "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da) [b].nds" size 134217728 crc 4944841F md5 A8276A0E171F72532E456FA054F88F8F sha1 F77DF12A44C782489774EDA495884F7E30BBF2E0 flags baddump )
+	rom ( name "Imagine - Fashion Model (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da).nds" size 134217728 crc B5BCFCDD md5 DCA18D2B6E94992523CF544A41E8443C sha1 E8FCC793F9C1772C9CEE620016A008DA393467A3 )
 )
 
 game (
@@ -18748,7 +18773,7 @@ game (
 	name "Jam Sessions - Sing & Play Guitar (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Jam Sessions - Sing & Play Guitar (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "AHDP"
-	rom ( name "Jam Sessions - Sing & Play Guitar (Europe) (En,Fr,De,Es,It,Nl).nds" size 67108864 crc 55008AF2 md5 A0332F1A278EBF72EBDDFB751902D496 sha1 542C05A9159BD1CE3CD0B479B42B391B066D4B1D )
+	rom ( name "Jam Sessions - Sing & Play Guitar (Europe) (En,Fr,De,Es,It,Nl).nds" size 67108864 crc 55008AF2 md5 A0332F1A278EBF72EBDDFB751902D496 sha1 542C05A9159BD1CE3CD0B479B42B391B066D4B1D flags verified )
 )
 
 game (
@@ -19322,7 +19347,7 @@ game (
 	name "Jewel Quest 5 - The Sleepless Star (Europe) (En,Fr,De,Nl)"
 	description "Jewel Quest 5 - The Sleepless Star (Europe) (En,Fr,De,Nl)"
 	serial "TJ5P"
-	rom ( name "Jewel Quest 5 - The Sleepless Star (Europe) (En,Fr,De,Nl).nds" size 16777216 crc 00068243 md5 CA8E03673B92FA1E67AA91F661D5C2E7 sha1 036D62BAE7BA955E90E6E29625FD71F135D30443 )
+	rom ( name "Jewel Quest 5 - The Sleepless Star (Europe) (En,Fr,De,Nl).nds" size 16777216 crc 00068243 md5 CA8E03673B92FA1E67AA91F661D5C2E7 sha1 036D62BAE7BA955E90E6E29625FD71F135D30443 flags verified )
 )
 
 game (
@@ -22584,7 +22609,7 @@ game (
 	name "LEGO Star Wars - The Complete Saga (Europe) (En,Fr,De,Es,It,Da)"
 	description "LEGO Star Wars - The Complete Saga (Europe) (En,Fr,De,Es,It,Da)"
 	serial "YLGP"
-	rom ( name "LEGO Star Wars - The Complete Saga (Europe) (En,Fr,De,Es,It,Da).nds" size 67108864 crc BC39E766 md5 0026406295D0B0B2974FCB11EB315D0F sha1 450109512A1334C22E439FA75F633E619FC7907C )
+	rom ( name "LEGO Star Wars - The Complete Saga (Europe) (En,Fr,De,Es,It,Da).nds" size 67108864 crc BC39E766 md5 0026406295D0B0B2974FCB11EB315D0F sha1 450109512A1334C22E439FA75F633E619FC7907C flags verified )
 )
 
 game (
@@ -22819,10 +22844,10 @@ game (
 )
 
 game (
-	name "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It) [b]"
-	description "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It) [b]"
+	name "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It)"
+	description "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It)"
 	serial "CJSP"
-	rom ( name "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It) [b].nds" size 16777216 crc 1355D9CA md5 67AEB42789177765A9FE3CE1DD85BCF0 sha1 A0EC9703413689703FE1FF9EDB910970058A8078 flags baddump )
+	rom ( name "Let's Play Fashion Designer (Europe) (En,Fr,De,Es,It).nds" size 16777216 crc AEEADE99 md5 D956E2AA3382397A1D3DA0ED704FF02F sha1 E49B27B2126631209E130765515CDCA99F5FF595 )
 )
 
 game (
@@ -23004,7 +23029,7 @@ game (
 	name "Linda Hyde - Vampire Mansion (Europe) (En,Fr,Nl)"
 	description "Linda Hyde - Vampire Mansion (Europe) (En,Fr,Nl)"
 	serial "BYEP"
-	rom ( name "Linda Hyde - Vampire Mansion (Europe) (En,Fr,Nl).nds" size 33554432 crc 17729D21 md5 6EB8734FAAB91E45419B0811C7627F31 sha1 830C4FCEC9BD37B2BB60D53DED824AF4CB8DD126 )
+	rom ( name "Linda Hyde - Vampire Mansion (Europe) (En,Fr,Nl).nds" size 33554432 crc 17729D21 md5 6EB8734FAAB91E45419B0811C7627F31 sha1 830C4FCEC9BD37B2BB60D53DED824AF4CB8DD126 flags verified )
 )
 
 game (
@@ -23025,7 +23050,7 @@ game (
 	name "Lingo Deluxe (Netherlands)"
 	description "Lingo Deluxe (Netherlands)"
 	serial "B67H"
-	rom ( name "Lingo Deluxe (Netherlands).nds" size 16777216 crc F82684B5 md5 387C82769538A81486F4ED1E5D324AE4 sha1 CF9393F030833E27903840DA53C6F60A309A91E4 )
+	rom ( name "Lingo Deluxe (Netherlands).nds" size 16777216 crc F82684B5 md5 387C82769538A81486F4ED1E5D324AE4 sha1 CF9393F030833E27903840DA53C6F60A309A91E4 flags verified )
 )
 
 game (
@@ -23242,7 +23267,7 @@ game (
 	name "Littlest Pet Shop - Winter (USA) (En,Fr,Es)"
 	description "Littlest Pet Shop - Winter (USA) (En,Fr,Es)"
 	serial "CPWE"
-	rom ( name "Littlest Pet Shop - Winter (USA) (En,Fr,Es).nds" size 67108864 crc 0921A879 md5 F849EE3328973162625B943ACF0AF6F5 sha1 B6736D0A53409AD849F976664FC03769B65B2DC1 )
+	rom ( name "Littlest Pet Shop - Winter (USA) (En,Fr,Es).nds" size 67108864 crc 0921A879 md5 F849EE3328973162625B943ACF0AF6F5 sha1 B6736D0A53409AD849F976664FC03769B65B2DC1 flags verified )
 )
 
 game (
@@ -23536,7 +23561,7 @@ game (
 	name "Lost in Blue 3 (Europe) (En,Fr,De,Es,It)"
 	description "Lost in Blue 3 (Europe) (En,Fr,De,Es,It)"
 	serial "YL3P"
-	rom ( name "Lost in Blue 3 (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc C8B660F0 md5 D4D9FA56DBBC2CAFA38221DAB43991BE sha1 8C9151877BB34E65904C2575731B46666FB868D2 )
+	rom ( name "Lost in Blue 3 (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc C8B660F0 md5 D4D9FA56DBBC2CAFA38221DAB43991BE sha1 8C9151877BB34E65904C2575731B46666FB868D2 flags verified )
 )
 
 game (
@@ -24394,10 +24419,10 @@ game (
 )
 
 game (
-	name "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl) [b]"
-	description "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl) [b]"
+	name "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "CQJP"
-	rom ( name "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl) [b].nds" size 8388608 crc FA83870B md5 83626A7C8E173F6D73CE199883B3EBC2 sha1 37937258A091ED92A6C9CE2A2F4DEA818208A394 flags baddump )
+	rom ( name "Mahjongg - Ancient Mayas (Europe) (En,Fr,De,Es,It,Nl).nds" size 8388608 crc 9E6BD556 md5 E0A91E75C28ED0C5CA9641D1B78BB925 sha1 6B0706CF6AD7B280534DF211DF1B2B819F631941 )
 )
 
 game (
@@ -25916,7 +25941,7 @@ game (
 	name "Mega Mindy (Europe) (Fr,Nl) (Rev 2)"
 	description "Mega Mindy (Europe) (Fr,Nl) (Rev 2)"
 	serial "BMRX"
-	rom ( name "Mega Mindy (Europe) (Fr,Nl) (Rev 2).nds" size 33554432 crc 96EA7371 md5 1D66C01816853D486967B72C314BFC40 sha1 CC09154F5EC89918903F73E9B680B9F2C1559591 )
+	rom ( name "Mega Mindy (Europe) (Fr,Nl) (Rev 2).nds" size 33554432 crc 96EA7371 md5 1D66C01816853D486967B72C314BFC40 sha1 CC09154F5EC89918903F73E9B680B9F2C1559591 flags verified )
 )
 
 game (
@@ -28818,10 +28843,10 @@ game (
 )
 
 game (
-	name "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl) [b]"
-	description "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl) [b]"
+	name "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl)"
+	description "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl)"
 	serial "BJHY"
-	rom ( name "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl) [b].nds" size 16777216 crc C7DE04C8 md5 D4825AC8796329FA272A79BF55FA5555 sha1 137D94D0D00EB625D9973B5CD81A99E9C9D15317 flags baddump )
+	rom ( name "Mysterious Case of Dr. Jekyll & Mr. Hyde, The (Europe) (Fr,Nl).nds" size 16777216 crc 9C159FB0 md5 4A89BBCBFE53517D2A4C06035DAAEF05 sha1 69F51A9A12E431FEA11C0598A643CA2F48765E96 )
 )
 
 game (
@@ -28968,7 +28993,7 @@ game (
 	name "Mystery Stories - Mountains of Madness (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Mystery Stories - Mountains of Madness (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "TMSP"
-	rom ( name "Mystery Stories - Mountains of Madness (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc 41ABCB69 md5 6D400FBF947F49DC322FEA6F77A51312 sha1 24F163433BE3F0EDE3DE4B15E3DAD183FD455AB1 )
+	rom ( name "Mystery Stories - Mountains of Madness (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc 41ABCB69 md5 6D400FBF947F49DC322FEA6F77A51312 sha1 24F163433BE3F0EDE3DE4B15E3DAD183FD455AB1 flags verified )
 )
 
 game (
@@ -29528,7 +29553,7 @@ game (
 	name "Natalie Brooks - Mystery at Hillcrest High (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Natalie Brooks - Mystery at Hillcrest High (Europe) (En,Fr,De,Es,It,Nl)"
 	serial "BNIP"
-	rom ( name "Natalie Brooks - Mystery at Hillcrest High (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc 3EB39F32 md5 7EFEB2E125F44AA3063E58C3E21995DF sha1 E5C02DF6FD5F9D3B95FBF0C664C39CD10AF43848 )
+	rom ( name "Natalie Brooks - Mystery at Hillcrest High (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc 3EB39F32 md5 7EFEB2E125F44AA3063E58C3E21995DF sha1 E5C02DF6FD5F9D3B95FBF0C664C39CD10AF43848 flags verified )
 )
 
 game (
@@ -31915,7 +31940,7 @@ game (
 	name "Percy Jackson & the Lightning Thief (Europe) (En,Fr,De,Es,It)"
 	description "Percy Jackson & the Lightning Thief (Europe) (En,Fr,De,Es,It)"
 	serial "BJOP"
-	rom ( name "Percy Jackson & the Lightning Thief (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc BFA4EAA8 md5 DE3C923362B512F4C8E9A1C6CD612BCF sha1 77A7A13BB0EF712C55C9CC7A0AD8D1989CB9CB62 )
+	rom ( name "Percy Jackson & the Lightning Thief (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc BFA4EAA8 md5 DE3C923362B512F4C8E9A1C6CD612BCF sha1 77A7A13BB0EF712C55C9CC7A0AD8D1989CB9CB62 flags verified )
 )
 
 game (
@@ -32307,7 +32332,7 @@ game (
 	name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	description "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	serial "CD8P"
-	rom ( name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).nds" size 33554432 crc B13468EE md5 16E07802153864603DBE1C416DBFA2C8 sha1 70F55AB0D833424A4D42B8B88F597D92BEEAC6CE )
+	rom ( name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).nds" size 33554432 crc B13468EE md5 16E07802153864603DBE1C416DBFA2C8 sha1 70F55AB0D833424A4D42B8B88F597D92BEEAC6CE flags verified )
 )
 
 game (
@@ -33452,10 +33477,10 @@ game (
 )
 
 game (
-	name "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced) [b]"
-	description "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced) [b]"
+	name "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced)"
+	description "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced)"
 	serial "IRAS"
-	rom ( name "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced) [b].nds" size 268435456 crc B979777B md5 353C728B2072C01226F4F7E20F109372 sha1 2E0EB8546FD022AF29F132858661D0D538DD4D06 flags baddump )
+	rom ( name "Pokemon - Edicion Blanca (Spain) (NDSi Enhanced).nds" size 268435456 crc 32657121 md5 EE29A2FD2F90A51FE2D1B872CF2B99DF sha1 4CC963CA925409FF0F12F3C417D1CBE1094BF934 )
 )
 
 game (
@@ -34673,7 +34698,7 @@ game (
 	name "Princess Lillifee - My Wonderful World (Europe) (Fr,De,Nl)"
 	description "Princess Lillifee - My Wonderful World (Europe) (Fr,De,Nl)"
 	serial "YYLZ"
-	rom ( name "Princess Lillifee - My Wonderful World (Europe) (Fr,De,Nl).nds" size 67108864 crc D8EDC84E md5 10BDC42D6EDA403149270A9E468A93E2 sha1 B3CE63A3BAA326D58EFF177CF4B28EA06D6EB0CC )
+	rom ( name "Princess Lillifee - My Wonderful World (Europe) (Fr,De,Nl).nds" size 67108864 crc D8EDC84E md5 10BDC42D6EDA403149270A9E468A93E2 sha1 B3CE63A3BAA326D58EFF177CF4B28EA06D6EB0CC flags verified )
 )
 
 game (
@@ -35429,7 +35454,7 @@ game (
 	name "Puzzle Kingdoms (Europe) (En,Fr,De,Es,It)"
 	description "Puzzle Kingdoms (Europe) (En,Fr,De,Es,It)"
 	serial "CZNP"
-	rom ( name "Puzzle Kingdoms (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc DB9094B5 md5 959718ABC450679F502F9A35A320DDF8 sha1 0AC6A3265481E772FADD3363918D5E6C5EFA3D46 )
+	rom ( name "Puzzle Kingdoms (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc DB9094B5 md5 959718ABC450679F502F9A35A320DDF8 sha1 0AC6A3265481E772FADD3363918D5E6C5EFA3D46 flags verified )
 )
 
 game (
@@ -35478,7 +35503,7 @@ game (
 	name "Puzzle Quest - Challenge of the Warlords (Europe)"
 	description "Puzzle Quest - Challenge of the Warlords (Europe)"
 	serial "AQWP"
-	rom ( name "Puzzle Quest - Challenge of the Warlords (Europe).nds" size 16777216 crc 8C17C3AB md5 FB91DA84E26BE32CE74032B568BFB52B sha1 C54A3EE91A8AC73C38914828EA36CA0E037E0327 )
+	rom ( name "Puzzle Quest - Challenge of the Warlords (Europe).nds" size 16777216 crc 8C17C3AB md5 FB91DA84E26BE32CE74032B568BFB52B sha1 C54A3EE91A8AC73C38914828EA36CA0E037E0327 flags verified )
 )
 
 game (
@@ -35751,7 +35776,7 @@ game (
 	name "Quest Trio, The - Jewels, Cards and Tiles (Europe) (Fr,Nl)"
 	description "Quest Trio, The - Jewels, Cards and Tiles (Europe) (Fr,Nl)"
 	serial "CQEX"
-	rom ( name "Quest Trio, The - Jewels, Cards and Tiles (Europe) (Fr,Nl).nds" size 67108864 crc 7095E89F md5 1C473E911254E65448B267266AF8E256 sha1 C68C5D57AC782478272A78477A716EE9763F6425 )
+	rom ( name "Quest Trio, The - Jewels, Cards and Tiles (Europe) (Fr,Nl).nds" size 67108864 crc 7095E89F md5 1C473E911254E65448B267266AF8E256 sha1 C68C5D57AC782478272A78477A716EE9763F6425 flags verified )
 )
 
 game (
@@ -35905,7 +35930,7 @@ game (
 	name "Race Driver - Grid (Europe) (En,Fr,De,Es,It)"
 	description "Race Driver - Grid (Europe) (En,Fr,De,Es,It)"
 	serial "YG6P"
-	rom ( name "Race Driver - Grid (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc A87CE7FA md5 9FEC68A53032A3B412D4FAB506FF13CC sha1 259E3E3A04B7233A8FB33832EAB756FEC6106E08 )
+	rom ( name "Race Driver - Grid (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc A87CE7FA md5 9FEC68A53032A3B412D4FAB506FF13CC sha1 259E3E3A04B7233A8FB33832EAB756FEC6106E08 flags verified )
 )
 
 game (
@@ -36010,7 +36035,7 @@ game (
 	name "Rango (Europe) (En,Fr,De,Es,It)"
 	description "Rango (Europe) (En,Fr,De,Es,It)"
 	serial "BXGP"
-	rom ( name "Rango (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 27EA74EC md5 8F3E9624E1EBACFD542EB24B7908674C sha1 67E97B35D87EB503B744F8B93059E8A85587AA37 )
+	rom ( name "Rango (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 27EA74EC md5 8F3E9624E1EBACFD542EB24B7908674C sha1 67E97B35D87EB503B744F8B93059E8A85587AA37 flags verified )
 )
 
 game (
@@ -36052,7 +36077,7 @@ game (
 	name "Ratatouille (Australia)"
 	description "Ratatouille (Australia)"
 	serial "ALWU"
-	rom ( name "Ratatouille (Australia).nds" size 33554432 crc E0EA15B2 md5 C2540B527A13DF82A5FDBBD90D1C0A0C sha1 66E4B98DFB37C03D57F44EC42B1CCB5601F7B7C7 )
+	rom ( name "Ratatouille (Australia).nds" size 33554432 crc E0EA15B2 md5 C2540B527A13DF82A5FDBBD90D1C0A0C sha1 66E4B98DFB37C03D57F44EC42B1CCB5601F7B7C7 flags verified )
 )
 
 game (
@@ -36168,10 +36193,10 @@ game (
 )
 
 game (
-	name "Ready Steady Cook - The Game (Europe) [b]"
-	description "Ready Steady Cook - The Game (Europe) [b]"
+	name "Ready Steady Cook - The Game (Europe)"
+	description "Ready Steady Cook - The Game (Europe)"
 	serial "CRNP"
-	rom ( name "Ready Steady Cook - The Game (Europe) [b].nds" size 16777216 crc 921BA12C md5 995B8B6A7DD8B2A975A2C009213063E0 sha1 6102C86FE0371B37948DA624673A3EB9CCBD3B3A flags baddump )
+	rom ( name "Ready Steady Cook - The Game (Europe).nds" size 16777216 crc C62A6650 md5 C703269C81F6F31D0AA4D4F0412B7286 sha1 BE32F23F703663920A5612632D86A40D1293C68A )
 )
 
 game (
@@ -36871,7 +36896,7 @@ game (
 	name "Rollercoaster Park (Europe) (En,Fr,Nl)"
 	description "Rollercoaster Park (Europe) (En,Fr,Nl)"
 	serial "BRCP"
-	rom ( name "Rollercoaster Park (Europe) (En,Fr,Nl).nds" size 67108864 crc D6D7F58C md5 5FBBDEE7C7AD6A76B724DCC01B825294 sha1 3D93437059E2D821DE476AC00B156C5C7349092D )
+	rom ( name "Rollercoaster Park (Europe) (En,Fr,Nl).nds" size 67108864 crc D6D7F58C md5 5FBBDEE7C7AD6A76B724DCC01B825294 sha1 3D93437059E2D821DE476AC00B156C5C7349092D flags verified )
 )
 
 game (
@@ -37323,10 +37348,10 @@ game (
 )
 
 game (
-	name "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) [b]"
-	description "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) [b]"
+	name "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
+	description "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	serial "CJIP"
-	rom ( name "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) [b].nds" size 33554432 crc 0866ED62 md5 0E9B685EB37196A0F6542A39FA6CFE41 sha1 0BF068C2EF995782E3DC1706F72585D3FD304351 flags baddump )
+	rom ( name "Sam Power - Footballer (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).nds" size 33554432 crc 88324952 md5 09218442EE4832EB69DBE2A6EB0A8A41 sha1 7490238E8C96758A598CC1703661FDA451EEFA74 )
 )
 
 game (
@@ -41960,7 +41985,7 @@ game (
 	name "Surf's Up (Europe) (En,Fr,Es)"
 	description "Surf's Up (Europe) (En,Fr,Es)"
 	serial "AXUP"
-	rom ( name "Surf's Up (Europe) (En,Fr,Es).nds" size 33554432 crc 6D45D4A7 md5 FC30FBB5ADABA1F594B95DF39A24B1D6 sha1 CC1F13002FB7517BDEEEA7D77E4561CB6E59F130 )
+	rom ( name "Surf's Up (Europe) (En,Fr,Es).nds" size 33554432 crc 6D45D4A7 md5 FC30FBB5ADABA1F594B95DF39A24B1D6 sha1 CC1F13002FB7517BDEEEA7D77E4561CB6E59F130 flags verified )
 )
 
 game (
@@ -44165,7 +44190,7 @@ game (
 	name "Tony Hawk's Proving Ground (Europe) (En,Fr,De,Es,It)"
 	description "Tony Hawk's Proving Ground (Europe) (En,Fr,De,Es,It)"
 	serial "YT9P"
-	rom ( name "Tony Hawk's Proving Ground (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc A9085E77 md5 21A5FE6ED8618B9AB4E78BDE0983BB77 sha1 495DBB885D8C439D0B73F3F035DC29FA53576AAC )
+	rom ( name "Tony Hawk's Proving Ground (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc A9085E77 md5 21A5FE6ED8618B9AB4E78BDE0983BB77 sha1 495DBB885D8C439D0B73F3F035DC29FA53576AAC flags verified )
 )
 
 game (
@@ -44365,10 +44390,10 @@ game (
 )
 
 game (
-	name "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl) [b]"
-	description "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl) [b]"
+	name "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl)"
+	description "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl)"
 	serial "CT4P"
-	rom ( name "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl) [b].nds" size 16777216 crc 2B8F67E9 md5 C9AF51961D6597376C11599EF7CED843 sha1 D1C262AE94E6AD54DFE7989646D5659B6B2F02A5 flags baddump )
+	rom ( name "Totally Spies! 4 - Around the World (Europe) (En,Fr,Es,Nl).nds" size 16777216 crc 5CBEB4DE md5 7ED13EA3EAE563F9AB5893D19605D05B sha1 19909B5AFE61B6551B429BEB843DAAD9F865A22B )
 )
 
 game (
