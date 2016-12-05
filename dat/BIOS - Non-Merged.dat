@@ -1,12 +1,12 @@
 clrmamepro (
-	name "Libretro - BIOS (Non-Merged)"
-	version "20161204"
+	name "Libretro - BIOS - Non-Merged"
+	version "20161205"
 	homepage "http://github.com/libretro/libretro-database"
 )
 
 game (
-	name "BIOS (Non-Merged)"
-	comment "BIOS (Non-Merged)"
+	name "BIOS - Non-Merged"
+	comment "BIOS - Non-Merged"
 )
 
 game (
@@ -135,9 +135,17 @@ game (
 	rom ( name mpr-17933.bin size 524288 crc 4afcf0fa md5 3240872c70984b6cbfda1586cab68dbe sha1 faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3 )
 	rom ( name saturn_bios.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
 	rom ( name sega_101.bin size 524288 crc 224b752c md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
+	comment "Sega - Saturn (incomplete)"
+	rom ( name sega_100.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
+	rom ( name sega_100a.bin size crc f90f0089 md5 sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
+	rom ( name sega1003.bin size crc b3c63c25 md5 sha1 7b23b53d62de0f29a23e423d0fe751dfb469c2fa )
+	rom ( name vsaturn.bin size crc e4d61811 md5 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
+	rom ( name mpr-18100.bin size crc f90f0089 md5 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
+	rom ( name hisaturn.bin size crc 721e1b60 md5 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
 )
 
 game (
+
 	name "Sony - PlayStation"
 	rom ( name scph5500.bin size 524288 crc ff3eeb8c md5 8dd7d5296a650fac7319bce665a6a53c sha1 b05def971d8ec59f346f2d9ac21fb742e3eb6917 )
 	rom ( name scph5501.bin size 524288 crc 8d8cb7e4 md5 490f666e1afb15b7362b406ed1cea246 sha1 0555c6fae8906f3f09baf5988f00e55f88e9f30b )
