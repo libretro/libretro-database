@@ -9,10 +9,10 @@ game (
 	comment "BIOS - Merged"
 
 	comment "Arcade (various)"
-	rom ( name "neo-geo.rom" size 131072 crc 9036D879 md5 2968f59f44bf328639aa79391aeeeab4 sha1 4f5ed7105b7128794654ce82b51723e16e389543 )
+	rom ( name neo-geo.rom size 131072 crc 9036D879 md5 2968f59f44bf328639aa79391aeeeab4 sha1 4f5ed7105b7128794654ce82b51723e16e389543 )
 
 	comment "Atari - 5200"
-	rom ( name "5200.rom" size 2048 crc 4248D3E3 md5 281f20ea4320404ec820fb7ec0693b38 sha1 6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530 )
+	rom ( name 5200.rom size 2048 crc 4248D3E3 md5 281f20ea4320404ec820fb7ec0693b38 sha1 6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530 )
 
 	comment "Atari - 7800"
 	rom ( name "7800 BIOS (E).rom" size 16384 crc d5b61170 md5 397bb566584be7b9764e7a68974c4263 sha1 5a140136a16d1d83e4ff32a19409ca376a8df874 )
@@ -44,7 +44,9 @@ game (
 	rom ( name syscard3.pce size 262656 crc 64f78e3c md5 ff1a674273fe3540ccef576376407d1d sha1 1b4c260326d905bc718812dad0f68089977f427b )
 
 	comment "NEC - PC-FX"
-	rom ( name pcfx.bios size 1048576 crc ac3ed590 md5 1c8996258dfe6c1a07df305f0a3e5758 sha1 0534726e90a52a4651c4c9041c619554010b83f1 )
+	rom ( name pcfxbios.bin size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
+	comment "NEC - PC-FX (incomplete)"
+	rom ( name pcfxv101.bin size "236102c9" sha1 "8b662f7548078be52a871565e19511ccca28c5c8" )
 
 	comment "Nintendo - Famicom Disk System"
 	rom ( name disksys.rom size 8192 crc 5e607dcf md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
