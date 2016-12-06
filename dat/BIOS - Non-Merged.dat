@@ -1,62 +1,52 @@
 clrmamepro (
-	name "libretro - Bios"
-	description "Bios images for libretro cores."
-	category "libretro"
-	version "0.0.1"
-	date "2016-06-05"
-	author "libretro Team"
+	name "Libretro - BIOS - Non-Merged"
+	version "20161205"
 	homepage "http://github.com/libretro/libretro-database"
 )
 
 game (
-	name "The 3DO Company - 3DO"
-	description "The 3DO Company - 3DO"
-	rom ( name goldstar.bin size 1048576 crc b6f5028b md5 8639fd5e549bd6238cfee79e3e749114 sha1 c4a2e5336f77fb5f743de1eea2cda43675ee2de7 )
-	rom ( name panafz1.bin size 1048576 crc c8c8ff89 md5 f47264dd47fe30f73ab3c010015c155b sha1 34bf189111295f74d7b7dfc1f304d98b8d36325a )
-	rom ( name panafz10.bin size 1048576 crc 58242cee md5 51f2f43ae2f3508a14d9f56597e2d3ce sha1 3c912300775d1ad730dc35757e279c274c0acaad )
-	rom ( name sanyotry.bin size 1048576 crc d5cbc509 md5 35fa1a1ebaaeea286dc5cd15487c13ea sha1 b01c53da256dde43ffec4ad3fc3adfa8d635e943 )
+	name "BIOS - Non-Merged"
+	comment "BIOS - Non-Merged"
+)
+
+game (
+	name "Arcade (various)"
+	rom ( name "neo-geo.rom" size 131072 crc 9036D879 md5 2968f59f44bf328639aa79391aeeeab4 sha1 4f5ed7105b7128794654ce82b51723e16e389543 )
 )
 
 game (
 	name "Atari - 5200"
-	description "Atari - 5200"
-	rom ( name "5200.rom" size 2048 crc 4248D3E3 md5 281F20EA4320404EC820FB7EC0693B38 sha1 6AD7A1E8C9FAD486FBEC9498CB48BF5BC3ADC530 )
+	rom ( name "5200.rom" size 2048 crc 4248D3E3 md5 281f20ea4320404ec820fb7ec0693b38 sha1 6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530 )
 )
 
 game (
 	name "Atari - 7800"
-	description "Atari - 7800"
-	rom ( name "7800 BIOS (U).rom" size 4096 crc 5d13730c md5 0763f1ffb006ddbe32e52d497ee848ae sha1 d9d134bb6b36907c615a594cc7688f7bfcef5b43 )
 	rom ( name "7800 BIOS (E).rom" size 16384 crc d5b61170 md5 397bb566584be7b9764e7a68974c4263 sha1 5a140136a16d1d83e4ff32a19409ca376a8df874 )
+	rom ( name "7800 BIOS (U).rom" size 4096 crc 5d13730c md5 0763f1ffb006ddbe32e52d497ee848ae sha1 d9d134bb6b36907c615a594cc7688f7bfcef5b43 )
 )
 
 game (
 	name "Atari - Lynx"
-	description "Atari - Lynx"
 	rom ( name lynxboot.img size 512 crc 0d973c9d md5 fcd403db69f54290b51035d82f835e7b sha1 e4ed47fae31693e016b081c6bda48da5b70d7ccb )
 )
 
 game (
 	name "Atari - ST"
-	description "Atari - ST"
 	rom ( name tos.img size 196608 crc d3c32283 md5 c1c57ce48e8ee4135885cee9e63a68a2 sha1 735793fdba07fe8d5295caa03484f6ef3de931f5 )
 )
 
 game (
 	name "ID Software - Doom"
-	description "ID Software - Doom"
 	rom ( name prboom.wad size 143312 crc a5751b99 md5 72ae1b47820fcc93cc0df9c428d0face sha1 5f4aed208301449c2e9514edfd325fe9dead76fa )
 )
 
 game (
 	name "Magnavox - Odyssey2"
-	description "Magnavox - Odyssey2"
 	rom ( name o2rom.bin size 1024 crc 8016a315 md5 562d5ebf9e030a40d6fabfc2f33139fd sha1 b2e1955d957a475de2411770452eff4ea19f4cee )
 )
 
 game (
 	name "Microsoft - MSX"
-	description "Microsoft - MSX"
 	rom ( name MSX.ROM size 32768 crc a317e6b4 md5 364a1a579fe5cb8dba54519bcfcdac0d sha1 e998f0c441f4f1800ef44e42cd1659150206cf79 )
 	rom ( name MSX2.ROM size 32768 crc 6cdaf3a5 md5 ec3a01c91f24fbddcbcab0ad301bc9ef sha1 6103b39f1e38d1aa2d84b1c3219c44f1abb5436e )
 	rom ( name MSX2EXT.ROM size 16384 crc 66237ecf md5 2183c2aff17cf4297bdb496de78c2e8a sha1 5c1f9c7fb655e43d38e5dd1fcc6b942b2ff68b02 )
@@ -65,40 +55,43 @@ game (
 )
 
 game (
-	name "NEC - PC-FX"
-	description "NEC - PC-FX"
-	rom ( name pcfx.bios size 1048576 crc ac3ed590 md5 1c8996258dfe6c1a07df305f0a3e5758 sha1 0534726e90a52a4651c4c9041c619554010b83f1 )
-	rom ( name pcfx.rom size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
-)
-
-game (
 	name "NEC - PC Engine - TurboGrafx 16"
-	description "NEC - PC Engine - TurboGrafx 16"
 	rom ( name syscard3.pce size 262656 crc 64f78e3c md5 ff1a674273fe3540ccef576376407d1d sha1 1b4c260326d905bc718812dad0f68089977f427b )
 )
 
 game (
-	name "Nintendo - Famicom Disk System"
-	description "Nintendo - Famicom Disk System"
-	rom ( name disksys.rom size 8192 crc 5e607dcf md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
+	name "NEC - PC Engine SuperGrafx"
+	rom ( name syscard3.pce size 262656 crc 64f78e3c md5 ff1a674273fe3540ccef576376407d1d sha1 1b4c260326d905bc718812dad0f68089977f427b )
+)
+
+game (
+	name "NEC - PC-FX"
+	rom ( name pcfx.bios size 1048576 crc ac3ed590 md5 1c8996258dfe6c1a07df305f0a3e5758 sha1 0534726e90a52a4651c4c9041c619554010b83f1 )
 )
 
 game (
 	name "Nintendo - Game Boy Advance"
-	description "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
 )
 
 game (
 	name "Nintendo - Nintendo Entertainment System"
-	description "Nintendo - Nintendo Entertainment System"
 	rom ( name NstDatabase.xml size 1009534 crc ebb2196c md5 7bfe8c0540ed4bd6a0f1e2a0f0118ced sha1 26322f182540211e9b5e3647675b7c593706ae2b )
+	comment "Nintendo - Famicom Disk System"
+	rom ( name disksys.rom size 8192 crc 5e607dcf md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
+)
+
+game (
+	name "Nintendo - Pokemon Mini"
+	rom ( name bios.min size 4096 crc AED3C14D md5 1e4fb124a3a886865acb574f388c803d sha1 daad4113713ed776fbd47727762bca81ba74915f )
 )
 
 game (
 	name "Nintendo - Super Nintendo Entertainment System"
-	description "Nintendo - Super Nintendo Entertainment System"
+	rom ( name BS-X.bin size 1048576 crc f51f07a0 md5 fed4d8242cfbed61343d53d48432aced sha1 604556b2e62860af18db5a77f2956ebc75450020 )
 	rom ( name cx4.data.rom size 3072 crc b6e76a6a md5 037ac4296b6b6a5c47c440188d3c72e3 sha1 a002f4efba42775a31185d443f3ed1790b0e949a )
+	rom ( name dsp1.data.rom size 2048 crc C8347CBD md5 3d81b45fa0c2aa8b852dfb1ece7c0971 sha1 589c158685fe3cf88c7ca77cb6083f0e4de9c7c3 )
+	rom ( name dsp1.program.rom size 6144 crc DB9A4C92 md5 ae209fbe789fbf11a48aea5ab1197321 sha1 c5d283604beebb3d832f15a0b3fc60d10dd4bddc )
 	rom ( name dsp1b.data.rom size 2048 crc 37a252c6 md5 1e3f568634a7d8284020dddc0ae905bc sha1 19d5e822fe15ee6942e9921c3d8275a761a969df )
 	rom ( name dsp1b.program.rom size 6144 crc 66a73998 md5 d10f446888e097cbf500f3f663cf4f6d sha1 03c6c0bdb40846c42aeff6b716e1ea0e001c3ae3 )
 	rom ( name dsp2.data.rom size 2048 crc b3893c70 md5 e9417e29223b139c3c4b635a2a3b8744 sha1 aed9167cc2897cd8d0432f0b8f713fabbc48f5c4 )
@@ -113,24 +106,21 @@ game (
 	rom ( name st011.data.rom size 4096 crc 803256a7 md5 10bd3f4aa949737ab9836512c35bcc29 sha1 798ab84110ca93a6e73a540f4146d21f8d9e1442 )
 	rom ( name st011.program.rom size 49152 crc a741e9fb md5 95222ebf1c0c2990bcf25db43743f032 sha1 375eca92592621e83881f3a9d7fd5ea3e5b306dc )
 	rom ( name st018.data.rom size 32768 crc b5255459 md5 49c898b60d0f15e90d0ba780dd12f366 sha1 b19c0f8f207d62fdabf4bf71442826063bccc626 )
-	rom ( name st018.program.rom size 131072 crc f73d5e10 md5 dda40ccd57390c96e49d30a041f9a9e7 sha1 388e3721b94cd074d6ba0eca8616523d2118a6c3 )
-	rom ( name BS-X.bin size 1048576 crc f51f07a0 md5 fed4d8242cfbed61343d53d48432aced sha1 604556b2e62860af18db5a77f2956ebc75450020 )
+   rom ( name st018.program.rom size 131072 crc f73d5e10 md5 dda40ccd57390c96e49d30a041f9a9e7 sha1 388e3721b94cd074d6ba0eca8616523d2118a6c3 )
 )
 
 game (
 	name "Sega - Dreamcast"
-	description "Sega - Dreamcast"
 	rom ( name dc_boot.bin size 2097152 crc 89f2b1a1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
 	rom ( name dc_flash.bin size 131072 crc c611b498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
 )
 
 game (
 	name "Sega - Mega Drive - Genesis"
-	description "Sega - Mega Drive - Genesis"
 	rom ( name areplay.bin size 32768 crc 95ff7c3e md5 a0028b3043f9d59ceeb03da5b073b30d sha1 1e0f246826be4ebc7b99bb3f9de7f1de347122e5 )
-	rom ( name bios_CD_J.bin size 131072 crc 9d2da8f2 md5 278a9397d192149e84e820ac621a8edd sha1 4846f448160059a7da0215a5df12ca160f26dd69 )
 	rom ( name bios.gg size 1024 crc 0ebea9d4 md5 672e104c3be3a238301aceffc3b23fd6 sha1 914aa165e3d879f060be77870d345b60cfeb4ede )
 	rom ( name bios_CD_E.bin size 131072 crc 529ac15a md5 e66fa1dc5820d254611fdcdba0662372 sha1 f891e0ea651e2232af0c5c4cb46a0cae2ee8f356 )
+	rom ( name bios_CD_J.bin size 131072 crc 9d2da8f2 md5 278a9397d192149e84e820ac621a8edd sha1 4846f448160059a7da0215a5df12ca160f26dd69 )
 	rom ( name bios_CD_U.bin size 131072 crc c6d10268 md5 2efd74e3232ff260e371b99f84024f7f sha1 f4f315adcef9b8feb0364c21ab7f0eaf5457f3ed )
 	rom ( name bios_E.sms size 8192 crc 0072ed54 md5 840481177270d5642a14ca71ee72844c sha1 c315672807d8ddb8d91443729405c766dd95cae7 )
 	rom ( name bios_J.sms size 8192 crc 48d44a13 md5 24a519c53f67b00640d0048ef7089105 sha1 a8c1b39a2e41137835eda6a5de6d46dd9fadbaf2 )
@@ -142,15 +132,21 @@ game (
 
 game (
 	name "Sega - Saturn"
-	description "Sega - Saturn"
 	rom ( name mpr-17933.bin size 524288 crc 4afcf0fa md5 3240872c70984b6cbfda1586cab68dbe sha1 faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3 )
 	rom ( name saturn_bios.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
 	rom ( name sega_101.bin size 524288 crc 224b752c md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
+	comment "Sega - Saturn (incomplete)"
+	rom ( name sega_100.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
+	rom ( name sega_100a.bin size crc f90f0089 md5 sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
+	rom ( name sega1003.bin size crc b3c63c25 md5 sha1 7b23b53d62de0f29a23e423d0fe751dfb469c2fa )
+	rom ( name vsaturn.bin size crc e4d61811 md5 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
+	rom ( name mpr-18100.bin size crc f90f0089 md5 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
+	rom ( name hisaturn.bin size crc 721e1b60 md5 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
 )
 
 game (
+
 	name "Sony - PlayStation"
-	description "Sony - PlayStation"
 	rom ( name scph5500.bin size 524288 crc ff3eeb8c md5 8dd7d5296a650fac7319bce665a6a53c sha1 b05def971d8ec59f346f2d9ac21fb742e3eb6917 )
 	rom ( name scph5501.bin size 524288 crc 8d8cb7e4 md5 490f666e1afb15b7362b406ed1cea246 sha1 0555c6fae8906f3f09baf5988f00e55f88e9f30b )
 	rom ( name scph5502.bin size 524288 crc d786f0b9 md5 32736f17079d0b2b7024407c39bd3050 sha1 f6bc2d1f5eb6593de7d089c425ac681d6fffd3f0 )
@@ -158,6 +154,14 @@ game (
 
 game (
 	name "Sony - PlayStation Portable"
-	description "Sony - PlayStation Portable"
 	rom ( name ppge_atlas.zim size 784968 crc 1e8709c1 md5 a93fc411c1ce7d001a2a812643c70085 sha1 02dcd1d5928c13f0305f3af356f935fee11debde )
 )
+
+game (
+	name "The 3DO Company - 3DO"
+	rom ( name goldstar.bin size 1048576 crc b6f5028b md5 8639fd5e549bd6238cfee79e3e749114 sha1 c4a2e5336f77fb5f743de1eea2cda43675ee2de7 )
+	rom ( name panafz1.bin size 1048576 crc c8c8ff89 md5 f47264dd47fe30f73ab3c010015c155b sha1 34bf189111295f74d7b7dfc1f304d98b8d36325a )
+	rom ( name panafz10.bin size 1048576 crc 58242cee md5 51f2f43ae2f3508a14d9f56597e2d3ce sha1 3c912300775d1ad730dc35757e279c274c0acaad )
+	rom ( name sanyotry.bin size 1048576 crc d5cbc509 md5 35fa1a1ebaaeea286dc5cd15487c13ea sha1 b01c53da256dde43ffec4ad3fc3adfa8d635e943 )
+)
+
