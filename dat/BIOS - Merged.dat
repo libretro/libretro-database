@@ -24,7 +24,7 @@ game (
 	comment "Atari - ST"
 	rom ( name tos.img size 196608 crc d3c32283 md5 c1c57ce48e8ee4135885cee9e63a68a2 sha1 735793fdba07fe8d5295caa03484f6ef3de931f5 )
 
-	comment "ID Software - Doom"
+	comment "Id Software - Doom"
 	rom ( name prboom.wad size 143312 crc a5751b99 md5 72ae1b47820fcc93cc0df9c428d0face sha1 5f4aed208301449c2e9514edfd325fe9dead76fa )
 
 	comment "Magnavox - Odyssey2"
@@ -44,15 +44,23 @@ game (
 	rom ( name syscard3.pce size 262656 crc 64f78e3c md5 ff1a674273fe3540ccef576376407d1d sha1 1b4c260326d905bc718812dad0f68089977f427b )
 
 	comment "NEC - PC-FX"
+	rom ( name fx-scsi.rom size 524288 crc f3e60e5e md5 430e9745f9235c515bc8e652d6ca3004 sha1 65482a23ac5c10a6095aee1db5824cca54ead6e5 )
 	rom ( name pcfxbios.bin size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
-	comment "NEC - PC-FX (incomplete)"
-	rom ( name pcfxv101.bin size "236102c9" sha1 "8b662f7548078be52a871565e19511ccca28c5c8" )
+	rom ( name pcfxv101.bin size 1048576 crc 236102c9 md5 e2fb7c7220e3a7838c2dd7e401a7f3d8 sha1 8b662f7548078be52a871565e19511ccca28c5c8 )
+	name "NEC - PC-FX (incomplete)"
+   rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
 
 	comment "Nintendo - Famicom Disk System"
 	rom ( name disksys.rom size 8192 crc 5e607dcf md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
 
 	comment "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
+
+   comment "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
+	rom ( name IPL.bin size crc md5 sha1 adler32 1FCE3FD6 )
+	rom ( name IPL.bin size crc md5 sha1 adler32 4D5935D1 )
+	rom ( name IPL.bin size crc md5 sha1 adler32 87424396 )
+	rom ( name IPL.bin size crc md5 sha1 adler32 A0EA7341 )
 
 	comment "Nintendo - Nintendo Entertainment System"
 	rom ( name NstDatabase.xml size 1009534 crc ebb2196c md5 7bfe8c0540ed4bd6a0f1e2a0f0118ced sha1 26322f182540211e9b5e3647675b7c593706ae2b )
@@ -102,14 +110,13 @@ game (
 	rom ( name mpr-17933.bin size 524288 crc 4afcf0fa md5 3240872c70984b6cbfda1586cab68dbe sha1 faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3 )
 	rom ( name saturn_bios.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
 	rom ( name sega_101.bin size 524288 crc 224b752c md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
-
 	comment "Sega - Saturn (incomplete)"
+	rom ( name hisaturn.bin size 524288 crc 721e1b60 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
+	rom ( name mpr-18100.bin size 524288 crc 3408dbf4 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
+	rom ( name sega1003.bin size 524288 crc b3c63c25 sha1 7b23b53d62de0f29a23e423d0fe751dfb469c2fa )
 	rom ( name sega_100.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
-	rom ( name sega_100a.bin size crc f90f0089 md5 sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
-	rom ( name sega1003.bin size crc b3c63c25 md5 sha1 7b23b53d62de0f29a23e423d0fe751dfb469c2fa )
-	rom ( name vsaturn.bin size crc e4d61811 md5 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
-	rom ( name mpr-18100.bin size crc f90f0089 md5 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
-	rom ( name hisaturn.bin size crc 721e1b60 md5 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
+	rom ( name sega_100a.bin size 524288 crc f90f0089 sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
+	rom ( name vsaturn.bin size 524288 crc e4d61811 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
 
 	comment "Sony - PlayStation"
 	rom ( name scph5500.bin size 524288 crc ff3eeb8c md5 8dd7d5296a650fac7319bce665a6a53c sha1 b05def971d8ec59f346f2d9ac21fb742e3eb6917 )
