@@ -1,6 +1,6 @@
 clrmamepro (
 	name "Libretro - BIOS - Non-Merged"
-	version "20161205"
+	date 2016-12-11
 	homepage "http://github.com/libretro/libretro-database"
 )
 
@@ -70,7 +70,7 @@ game (
 	rom ( name pcfxbios.bin size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
 	rom ( name pcfxv101.bin size 1048576 crc 236102c9 md5 e2fb7c7220e3a7838c2dd7e401a7f3d8 sha1 8b662f7548078be52a871565e19511ccca28c5c8 )
 	name "NEC - PC-FX (incomplete)"
-   rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
+	rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
 )
 
 game (
@@ -79,11 +79,16 @@ game (
 )
 
 game (
-   name "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
+	name "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
 	rom ( name IPL.bin size crc md5 sha1 adler32 1FCE3FD6 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 4D5935D1 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 87424396 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 A0EA7341 )
+)
+
+game (
+	name "Nintendo - Nintendo 64DD"
+	rom ( name 64DD_IPL.bin size 4194304 crc 7f933ce2 md5 8d3d9f294b6e174bc7b1d2fd1c727530 sha1 bf861922dcb78c316360e3e742f4f70ff63c9bc3 )
 )
 
 game (
@@ -118,7 +123,7 @@ game (
 	rom ( name st011.data.rom size 4096 crc 803256a7 md5 10bd3f4aa949737ab9836512c35bcc29 sha1 798ab84110ca93a6e73a540f4146d21f8d9e1442 )
 	rom ( name st011.program.rom size 49152 crc a741e9fb md5 95222ebf1c0c2990bcf25db43743f032 sha1 375eca92592621e83881f3a9d7fd5ea3e5b306dc )
 	rom ( name st018.data.rom size 32768 crc b5255459 md5 49c898b60d0f15e90d0ba780dd12f366 sha1 b19c0f8f207d62fdabf4bf71442826063bccc626 )
-   rom ( name st018.program.rom size 131072 crc f73d5e10 md5 dda40ccd57390c96e49d30a041f9a9e7 sha1 388e3721b94cd074d6ba0eca8616523d2118a6c3 )
+	rom ( name st018.program.rom size 131072 crc f73d5e10 md5 dda40ccd57390c96e49d30a041f9a9e7 sha1 388e3721b94cd074d6ba0eca8616523d2118a6c3 )
 )
 
 game (
