@@ -1,6 +1,6 @@
 clrmamepro (
 	name "Libretro - BIOS - Merged"
-	version "20161205"
+	date 2016-12-11
 	homepage "http://github.com/libretro/libretro-database"
 )
 
@@ -48,7 +48,7 @@ game (
 	rom ( name pcfxbios.bin size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
 	rom ( name pcfxv101.bin size 1048576 crc 236102c9 md5 e2fb7c7220e3a7838c2dd7e401a7f3d8 sha1 8b662f7548078be52a871565e19511ccca28c5c8 )
 	name "NEC - PC-FX (incomplete)"
-   rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
+	rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
 
 	comment "Nintendo - Famicom Disk System"
 	rom ( name disksys.rom size 8192 crc 5e607dcf md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
@@ -56,11 +56,14 @@ game (
 	comment "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
 
-   comment "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
+	comment "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
 	rom ( name IPL.bin size crc md5 sha1 adler32 1FCE3FD6 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 4D5935D1 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 87424396 )
 	rom ( name IPL.bin size crc md5 sha1 adler32 A0EA7341 )
+
+	comment "Nintendo - Nintendo 64DD"
+	rom ( name 64DD_IPL.bin size 4194304 crc 7f933ce2 md5 8d3d9f294b6e174bc7b1d2fd1c727530 sha1 bf861922dcb78c316360e3e742f4f70ff63c9bc3 )
 
 	comment "Nintendo - Nintendo Entertainment System"
 	rom ( name NstDatabase.xml size 1009534 crc ebb2196c md5 7bfe8c0540ed4bd6a0f1e2a0f0118ced sha1 26322f182540211e9b5e3647675b7c593706ae2b )
