@@ -1,6 +1,6 @@
 clrmamepro (
 	name "Libretro - BIOS - Non-Merged"
-	date 2016-12-11
+	version 2016-12-11
 	homepage "http://github.com/libretro/libretro-database"
 )
 
@@ -67,9 +67,10 @@ game (
 game (
 	name "NEC - PC-FX"
 	rom ( name fx-scsi.rom size 524288 crc f3e60e5e md5 430e9745f9235c515bc8e652d6ca3004 sha1 65482a23ac5c10a6095aee1db5824cca54ead6e5 )
+	rom ( name pcfx.bios size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
 	rom ( name pcfxbios.bin size 1048576 crc 76ffb97a md5 08e36edbea28a017f79f8d4f7ff9b6d7 sha1 1a77fd83e337f906aecab27a1604db064cf10074 )
 	rom ( name pcfxv101.bin size 1048576 crc 236102c9 md5 e2fb7c7220e3a7838c2dd7e401a7f3d8 sha1 8b662f7548078be52a871565e19511ccca28c5c8 )
-	name "NEC - PC-FX (incomplete)"
+	comment "NEC - PC-FX (incomplete)"
 	rom ( name pcfxga.rom size 1048576 crc 41c3776b sha1 a9372202a5db302064c994fcda9b24d29bb1b41c )
 )
 
@@ -79,11 +80,11 @@ game (
 )
 
 game (
-	name "Nintendo - GameCube (incomplete) USA, USA_v1_1, JAP, PAL"
-	rom ( name IPL.bin size crc md5 sha1 adler32 1FCE3FD6 )
-	rom ( name IPL.bin size crc md5 sha1 adler32 4D5935D1 )
-	rom ( name IPL.bin size crc md5 sha1 adler32 87424396 )
-	rom ( name IPL.bin size crc md5 sha1 adler32 A0EA7341 )
+	name "Nintendo - GameCube (incomplete) - Using Adler32. USA 1FCE3FD6, USA_v1_1 4D5935D1, JAP 87424396, PAL A0EA7341"
+	rom ( name "IPL.bin (USA 1.0)" size 1 crc 1000000 md5 10000000000000000000000000000000 )
+	rom ( name "IPL.bin (USA 1.1)" size 2 crc 2000000 md5 20000000000000000000000000000000 )
+	rom ( name "IPL.bin (JAP 1.0)" size 3 crc 3000000 md5 30000000000000000000000000000000 )
+	rom ( name "IPL.bin (PAL 1.0)" size 4 crc 4000000 md5 40000000000000000000000000000000 )
 )
 
 game (
