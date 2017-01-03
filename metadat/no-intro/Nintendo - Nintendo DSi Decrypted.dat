@@ -3,6 +3,7 @@ clrmamepro (
 	description "Nintendo - Nintendo DSi"
 	version 20160821-062620
 	comment "no-intro | www.no-intro.org"
+	forcenodump required
 )
 
 game (
@@ -62,17 +63,17 @@ game (
 )
 
 game (
-	name "System - Flaw (USA)"
-	description "System - Flaw (USA)"
-	serial "DSYE"
-	rom ( name "System - Flaw (USA).dsi" size 33554432 crc 319870FD md5 E45CC21A32B73A9B0E80E11B23E304CE sha1 8177108EFDDAB15226B4ADD1837EBA560D7B9F11 )
-)
-
-game (
 	name "System - Flaw (Europe)"
 	description "System - Flaw (Europe)"
 	serial "DSYP"
 	rom ( name "System - Flaw (Europe).dsi" size 33554432 crc AC1B0E9B md5 7BCB9DC3A5BAD4EBFBD6FED6E892E20E sha1 29AE360E84DE1EAAFF7EBDB41866353F39EE2F3B )
+)
+
+game (
+	name "System - Flaw (USA)"
+	description "System - Flaw (USA)"
+	serial "DSYE"
+	rom ( name "System - Flaw (USA).dsi" size 33554432 crc 319870FD md5 E45CC21A32B73A9B0E80E11B23E304CE sha1 8177108EFDDAB15226B4ADD1837EBA560D7B9F11 )
 )
 
 game (
@@ -81,4 +82,3 @@ game (
 	serial "DD3D"
 	rom ( name "Wimmelbild-Creator (Germany).dsi" size 33554432 crc D686F0BC md5 33E9DB9A240CBA9902B6547D1404E92E sha1 5F068EA1F7D2559E74B85BC6F52C5266B985E3B6 )
 )
-
