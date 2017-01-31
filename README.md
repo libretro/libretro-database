@@ -34,10 +34,10 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |MAME|MAME 0.78|
 |Microsoft - MSX|[No-Intro](http://datomatic.no-intro.org)|
 |Microsoft - MSX 2|[No-Intro](http://datomatic.no-intro.org)|
-|NEC - PC Engine CD - TurboGrafx-CD|Redump > Trurip > TOSEC|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|NEC - PC Engine CD - TurboGrafx-CD|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |NEC - PC Engine - TurboGrafx 16|[No-Intro](http://datomatic.no-intro.org)|
 |NEC - SuperGrafx|[No-Intro](http://datomatic.no-intro.org)|
-|NEC - PC-FX|Redump > Trurip > TOSEC|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|NEC - PC-FX|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Nintendo - Famicom Disk System|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Nintendo DS|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Game Boy|[No-Intro](http://datomatic.no-intro.org)|
@@ -49,18 +49,18 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Nintendo - Virtual Boy|[No-Intro](http://datomatic.no-intro.org)|
 |Quake|Unknown|
 |Phillips - Videopac+|[No-Intro](http://datomatic.no-intro.org)|
-|ScummVM|Gruby's ScummVM Adventure Pack|
+|ScummVM|Gruby's ScummVM Adventure Pack|[libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm)|
 |Sega - 32X|[No-Intro](http://datomatic.no-intro.org)|
-|Sega - Dreamcast|Redump > Trurip > TOSEC|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|Sega - Dreamcast|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Sega - Game Gear|[No-Intro](http://datomatic.no-intro.org)|
 |Sega - Master System - Mark III|[No-Intro](http://datomatic.no-intro.org)|
 |Sega - Mega Drive - Genesis|[No-Intro](http://datomatic.no-intro.org)|
-|Sega - Mega CD - Sega CD|Redump|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
-|Sega - Saturn|Redump > Trurip > TOSEC|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|Sega - Mega CD - Sega CD|Redump|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Sega - Saturn|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Sega - SG-1000|[No-Intro](http://datomatic.no-intro.org)|
-|Sony - PlayStation|Redump > Trurip > TOSEC|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|Sony - PlayStation|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Sony - PlayStation Portable|[No-Intro](http://datomatic.no-intro.org)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
 |SNK - Neo Geo Pocket|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo Pocket Color|[No-Intro](http://datomatic.no-intro.org)|
-|SNK - Neo Geo CD|Redump|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|SNK - Neo Geo CD|Redump|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Uzebox|Unknown|
