@@ -56,11 +56,14 @@ game (
 	comment "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
 
-	comment "Nintendo - GameCube (incomplete) - Using Adler32. USA 1FCE3FD6, USA_v1_1 4D5935D1, JAP 87424396, PAL A0EA7341"
-	rom ( name "IPL.bin (USA 1.0)" size 1 crc 1000000 md5 10000000000000000000000000000000 )
-	rom ( name "IPL.bin (USA 1.1)" size 2 crc 2000000 md5 20000000000000000000000000000000 )
-	rom ( name "IPL.bin (JAP 1.0)" size 3 crc 3000000 md5 30000000000000000000000000000000 )
-	rom ( name "IPL.bin (PAL 1.0)" size 4 crc 4000000 md5 40000000000000000000000000000000 )
+	comment "Nintendo - GameCube"
+	rom ( name gc-ntsc-10.bin size 2097152 crc 6dac1f2a md5 fc924a7c879b661abc37cec4f018fdf3 sha1 a1837968288253ed541f2b11440b68f5a9b33875 )
+	rom ( name gc-pal-10.bin size 2097152 crc 4f319f43 md5 0cdda509e2da83c85bfe423dd87346cc sha1 f27c63e5394e2fd1606f70df004c4fc2d6027700 )
+	rom ( name gc-pal-12.bin size 2097152 crc ad1b7f16 md5 db92574caab77a7ec99d4605fd6f2450 sha1 80b8744ff5e43585392f55546bd03a673d11ef5f )
+	rom ( name gc-dvd-20010608.bin size 131072 crc c047465a md5 561532ad496f644897952d2cef5bb431 sha1 27872c201e87b06a19bf85d36c796ef383f8d52d )
+	rom ( name gc-dvd-20010831.bin size 131072 crc 54c7d10e md5 b953eb1a8fc9922b3f7051c1cdc451f1 sha1 ae7233cae8f94749796e0b740d6021e3b00a8926 )
+	rom ( name gc-dvd-20020402.bin size 131072 crc 8bbef508 md5 413154dd0e2c824c9b18b807fd03ec4e sha1 691e46213d8428befdf568157e670b971ab94e1d )
+	rom ( name gc-dvd-20020823.bin size 131072 crc 5205222b md5 c03f6bbaf644eb9b3ee261dbe199eb42 sha1 2faaf92bcaffe675f54f7249d30f3791507e22ab )
 
 	comment "Nintendo - Nintendo 64DD"
 	rom ( name 64DD_IPL.bin size 4194304 crc 7f933ce2 md5 8d3d9f294b6e174bc7b1d2fd1c727530 sha1 bf861922dcb78c316360e3e742f4f70ff63c9bc3 )
