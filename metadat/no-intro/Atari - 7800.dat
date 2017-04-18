@@ -1,15 +1,8 @@
 clrmamepro (
 	name "Atari - 7800"
 	description "Atari - 7800"
-	header "No-Intro_A7800.xml"
-	version 20140326-040142
-	comment "no-intro | www.no-intro.org"
-)
-
-game (
-	name "Ace of Aces (USA)"
-	description "Ace of Aces (USA)"
-	rom ( name "Ace of Aces (USA).a78" size 131072 crc 05A2B94C md5 0BE996D25144966D5541C9EB4919B289 sha1 EFD20BD321A81D67FB6430D9BA93D23FB90D8029 )
+	version "2017.3.5"
+	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
@@ -19,9 +12,9 @@ game (
 )
 
 game (
-	name "Alien Brigade (USA)"
-	description "Alien Brigade (USA)"
-	rom ( name "Alien Brigade (USA).a78" size 147456 crc C8849D36 md5 877DCC97A775ED55081864B2DBF5F1E2 sha1 A8629FAC962CC20B263A60BB2D2386D605713387 )
+	name "Ace of Aces (USA)"
+	description "Ace of Aces (USA)"
+	rom ( name "Ace of Aces (USA).a78" size 131072 crc 05A2B94C md5 0BE996D25144966D5541C9EB4919B289 sha1 EFD20BD321A81D67FB6430D9BA93D23FB90D8029 )
 )
 
 game (
@@ -31,15 +24,15 @@ game (
 )
 
 game (
-	name "Asteroids (USA)"
-	description "Asteroids (USA)"
-	rom ( name "Asteroids (USA).a78" size 16384 crc DFB93F40 md5 07342C78619BA6FFCC61C10E907E3B50 sha1 D96EC4E043FCDACAB367D8A69D29904B3B2896F1 )
+	name "Alien Brigade (USA)"
+	description "Alien Brigade (USA)"
+	rom ( name "Alien Brigade (USA).a78" size 147456 crc C8849D36 md5 877DCC97A775ED55081864B2DBF5F1E2 sha1 A8629FAC962CC20B263A60BB2D2386D605713387 )
 )
 
 game (
-	name "Ballblazer (USA)"
-	description "Ballblazer (USA)"
-	rom ( name "Ballblazer (USA).a78" size 32768 crc A4C4808B md5 8FC3A695EAEA3984912D98ED4A543376 sha1 4EB5424360691A38B199D91A0E2C9095D0862DBE )
+	name "Asteroids (USA)"
+	description "Asteroids (USA)"
+	rom ( name "Asteroids (USA).a78" size 16384 crc DFB93F40 md5 07342C78619BA6FFCC61C10E907E3B50 sha1 D96EC4E043FCDACAB367D8A69D29904B3B2896F1 )
 )
 
 game (
@@ -49,9 +42,9 @@ game (
 )
 
 game (
-	name "Barnyard Blaster (USA)"
-	description "Barnyard Blaster (USA)"
-	rom ( name "Barnyard Blaster (USA).a78" size 131072 crc ED0A587D md5 42682415906C21C6AF80E4198403FFDA sha1 CBCDE3D85C8778DEA402394568677884CD781DE3 )
+	name "Ballblazer (USA)"
+	description "Ballblazer (USA)"
+	rom ( name "Ballblazer (USA).a78" size 32768 crc A4C4808B md5 8FC3A695EAEA3984912D98ED4A543376 sha1 4EB5424360691A38B199D91A0E2C9095D0862DBE )
 )
 
 game (
@@ -61,21 +54,27 @@ game (
 )
 
 game (
+	name "Barnyard Blaster (USA)"
+	description "Barnyard Blaster (USA)"
+	rom ( name "Barnyard Blaster (USA).a78" size 131072 crc ED0A587D md5 42682415906C21C6AF80E4198403FFDA sha1 CBCDE3D85C8778DEA402394568677884CD781DE3 )
+)
+
+game (
 	name "Baseball (Europe)"
 	description "Baseball (Europe)"
 	rom ( name "Baseball (Europe).a78" size 32768 crc 68D48FDC md5 386BDED4A944BAE455FEDF56206DD1DD sha1 C44FE244206590ABC26FBBD520A5726353899E35 )
 )
 
 game (
-	name "Basketbrawl (USA)"
-	description "Basketbrawl (USA)"
-	rom ( name "Basketbrawl (USA).a78" size 131072 crc C8B9D7B5 md5 F5F6B69C5EB4B55FC163158D1A6B423E sha1 39877A4C88498BF6656451E3D1ACAF7E8638BDFD )
-)
-
-game (
 	name "Basketbrawl (Europe)"
 	description "Basketbrawl (Europe)"
 	rom ( name "Basketbrawl (Europe).a78" size 131072 crc A4265D4B md5 FBA002089FCFA176454AB507E0EB76CB sha1 E7EF6B11BB6836FF7D11A25F8D4E2C9361FA69B3 )
+)
+
+game (
+	name "Basketbrawl (USA)"
+	description "Basketbrawl (USA)"
+	rom ( name "Basketbrawl (USA).a78" size 131072 crc C8B9D7B5 md5 F5F6B69C5EB4B55FC163158D1A6B423E sha1 39877A4C88498BF6656451E3D1ACAF7E8638BDFD )
 )
 
 game (
@@ -103,15 +102,15 @@ game (
 )
 
 game (
-	name "Commando (USA)"
-	description "Commando (USA)"
-	rom ( name "Commando (USA).a78" size 131072 crc CD1A98C5 md5 2E8E28F6AD8B9B9267D518D880C73EBB sha1 F8AE7DA650AD38675B81675B77096794A9CD52E8 )
-)
-
-game (
 	name "Commando (Europe)"
 	description "Commando (Europe)"
 	rom ( name "Commando (Europe).a78" size 131072 crc 7C211612 md5 55DA6C6C3974D013F517E725AA60F48E sha1 2BDAD24967FE4F5492AE294B1CCF8F148930A419 )
+)
+
+game (
+	name "Commando (USA)"
+	description "Commando (USA)"
+	rom ( name "Commando (USA).a78" size 131072 crc CD1A98C5 md5 2E8E28F6AD8B9B9267D518D880C73EBB sha1 F8AE7DA650AD38675B81675B77096794A9CD52E8 )
 )
 
 game (
@@ -139,15 +138,15 @@ game (
 )
 
 game (
-	name "Dark Chambers (USA)"
-	description "Dark Chambers (USA)"
-	rom ( name "Dark Chambers (USA).a78" size 131072 crc 366777F1 md5 179B76FF729D4849B8F66A502398ACAE sha1 848077F15114FEC31F8290BE2583566F4486FE65 )
-)
-
-game (
 	name "Dark Chambers (Europe)"
 	description "Dark Chambers (Europe)"
 	rom ( name "Dark Chambers (Europe).a78" size 131072 crc C93A563E md5 A2B8E2F159642C4B91DE82E9A2928494 sha1 2B888C95B31109FFD0441F586BA18F21A3A4F22E )
+)
+
+game (
+	name "Dark Chambers (USA)"
+	description "Dark Chambers (USA)"
+	rom ( name "Dark Chambers (USA).a78" size 131072 crc 366777F1 md5 179B76FF729D4849B8F66A502398ACAE sha1 848077F15114FEC31F8290BE2583566F4486FE65 )
 )
 
 game (
@@ -175,15 +174,15 @@ game (
 )
 
 game (
-	name "Donkey Kong (USA)"
-	description "Donkey Kong (USA)"
-	rom ( name "Donkey Kong (USA).a78" size 49152 crc 065E063F md5 19F1EE292A23636BD57D408B62DE79C7 sha1 820C852CAA7957179BF7D6FAF2E6922DDE5A1A8E )
-)
-
-game (
 	name "Donkey Kong (Europe)"
 	description "Donkey Kong (Europe)"
 	rom ( name "Donkey Kong (Europe).a78" size 49152 crc 0A43D1C5 md5 8E96EF14CE9B5D84BCBC996B66D6D4C7 sha1 DC69FA8FDF3FCBA8557195358B8D206463652E0F )
+)
+
+game (
+	name "Donkey Kong (USA)"
+	description "Donkey Kong (USA)"
+	rom ( name "Donkey Kong (USA).a78" size 49152 crc 065E063F md5 19F1EE292A23636BD57D408B62DE79C7 sha1 820C852CAA7957179BF7D6FAF2E6922DDE5A1A8E )
 )
 
 game (
@@ -199,27 +198,27 @@ game (
 )
 
 game (
-	name "Double Dragon (USA)"
-	description "Double Dragon (USA)"
-	rom ( name "Double Dragon (USA).a78" size 131072 crc AA265865 md5 543484C00BA233736BCABA2DA20EEEA9 sha1 C3FB140836A4ED84CDA7A999832703E8B72C0D21 )
-)
-
-game (
 	name "Double Dragon (Europe)"
 	description "Double Dragon (Europe)"
 	rom ( name "Double Dragon (Europe).a78" size 131072 crc F29ABDB2 md5 DE2EBAFCF0E37AAA9D0E9525A7F4DD62 sha1 210F3AC989549E89425E7677127715AEE713AF32 )
 )
 
 game (
-	name "F-18 Hornet (USA)"
-	description "F-18 Hornet (USA)"
-	rom ( name "F-18 Hornet (USA).a78" size 65536 crc 63D1C7C1 md5 2251A6A0F3AEC84CC0AFF66FC9FA91E8 sha1 13A18A6B85DB6222B01D37800E5E57DB616A85A6 )
+	name "Double Dragon (USA)"
+	description "Double Dragon (USA)"
+	rom ( name "Double Dragon (USA).a78" size 131072 crc AA265865 md5 543484C00BA233736BCABA2DA20EEEA9 sha1 C3FB140836A4ED84CDA7A999832703E8B72C0D21 )
 )
 
 game (
 	name "F-18 Hornet (Europe)"
 	description "F-18 Hornet (Europe)"
 	rom ( name "F-18 Hornet (Europe).a78" size 65536 crc E5D714B0 md5 E7709DA8E49D3767301947A0A0B9D2E6 sha1 673D912B2F9AB7A43F95E0E90BD80249B360FE0D )
+)
+
+game (
+	name "F-18 Hornet (USA)"
+	description "F-18 Hornet (USA)"
+	rom ( name "F-18 Hornet (USA).a78" size 65536 crc 63D1C7C1 md5 2251A6A0F3AEC84CC0AFF66FC9FA91E8 sha1 13A18A6B85DB6222B01D37800E5E57DB616A85A6 )
 )
 
 game (
@@ -235,27 +234,27 @@ game (
 )
 
 game (
-	name "Fight Night (USA)"
-	description "Fight Night (USA)"
-	rom ( name "Fight Night (USA).a78" size 131072 crc 720EBC74 md5 07DBBFE612A0A28E283C01545E59F25E sha1 1E8A8704A77B15E70CBC72B0AE9BC25FB91D7C21 )
-)
-
-game (
 	name "Fight Night (Europe)"
 	description "Fight Night (Europe)"
 	rom ( name "Fight Night (Europe).a78" size 131072 crc 64D9C4BE md5 E80F24E953563E6B61556737D67D3836 sha1 DED89F3A4AC0D95AA158C98302B7939E5B89E4C6 )
 )
 
 game (
-	name "Food Fight (USA)"
-	description "Food Fight (USA)"
-	rom ( name "Food Fight (USA).a78" size 32768 crc E64A5CDE md5 CF76B00244105B8E03CDC37677EC1073 sha1 3F5F42D5AAF6CCD4979658A1387AAC5933549357 )
+	name "Fight Night (USA)"
+	description "Fight Night (USA)"
+	rom ( name "Fight Night (USA).a78" size 131072 crc 720EBC74 md5 07DBBFE612A0A28E283C01545E59F25E sha1 1E8A8704A77B15E70CBC72B0AE9BC25FB91D7C21 )
 )
 
 game (
 	name "Food Fight (Europe)"
 	description "Food Fight (Europe)"
 	rom ( name "Food Fight (Europe).a78" size 49152 crc C64549EC md5 DE0D4F5A9BF1C1BDDEE3ED2F7EC51209 sha1 40B8E5EEB9E9AD7239963ED79DC085092CCBEC4C )
+)
+
+game (
+	name "Food Fight (USA)"
+	description "Food Fight (USA)"
+	rom ( name "Food Fight (USA).a78" size 32768 crc E64A5CDE md5 CF76B00244105B8E03CDC37677EC1073 sha1 3F5F42D5AAF6CCD4979658A1387AAC5933549357 )
 )
 
 game (
@@ -307,27 +306,27 @@ game (
 )
 
 game (
-	name "Jinks (USA)"
-	description "Jinks (USA)"
-	rom ( name "Jinks (USA).a78" size 131072 crc 0818D8CD md5 045FD12050B7F2B842D5970F2414E912 sha1 472BC12C437B015A9E317BAC092529F3295033B8 )
-)
-
-game (
 	name "Jinks (Europe)"
 	description "Jinks (Europe)"
 	rom ( name "Jinks (Europe).a78" size 131072 crc 9207ED3B md5 DFB86F4D06F05AD00CF418F0A59A24F7 sha1 EB16DE0C3D5C4E769AE2314BA21C4DD3BCA33C88 )
 )
 
 game (
-	name "Joust (USA)"
-	description "Joust (USA)"
-	rom ( name "Joust (USA).a78" size 32768 crc 2C430BCE md5 F18B3B897A25AB3885B43B4BD141B396 sha1 1CCD7C232BCFD5A65D26B9DECFE4ECEADCBE314C )
+	name "Jinks (USA)"
+	description "Jinks (USA)"
+	rom ( name "Jinks (USA).a78" size 131072 crc 0818D8CD md5 045FD12050B7F2B842D5970F2414E912 sha1 472BC12C437B015A9E317BAC092529F3295033B8 )
 )
 
 game (
 	name "Joust (Europe)"
 	description "Joust (Europe)"
 	rom ( name "Joust (Europe).a78" size 49152 crc 9B3BE616 md5 F2DAE0264A4B4A73762B9D7177E989F6 sha1 AAE5B9EE00C39D577858ABA9D1FD791194BE2C0C )
+)
+
+game (
+	name "Joust (USA)"
+	description "Joust (USA)"
+	rom ( name "Joust (USA).a78" size 32768 crc 2C430BCE md5 F18B3B897A25AB3885B43B4BD141B396 sha1 1CCD7C232BCFD5A65D26B9DECFE4ECEADCBE314C )
 )
 
 game (
@@ -361,27 +360,27 @@ game (
 )
 
 game (
-	name "Mario Bros. (USA)"
-	description "Mario Bros. (USA)"
-	rom ( name "Mario Bros. (USA).a78" size 49152 crc 8021A13B md5 431CA060201EE1F9EB49D44962874049 sha1 12E04B67094AF622641C536379C69ECAD2EE98ED )
-)
-
-game (
 	name "Mario Bros. (Europe)"
 	description "Mario Bros. (Europe)"
 	rom ( name "Mario Bros. (Europe).a78" size 49152 crc EFAD3D9D md5 D2E861306BE78E44248BB71D7475D8A3 sha1 881BEFF5103713E655FED80B32E0BBD774E78EE8 )
 )
 
 game (
-	name "Mat Mania Challenge (USA)"
-	description "Mat Mania Challenge (USA)"
-	rom ( name "Mat Mania Challenge (USA).a78" size 131072 crc ABA91829 md5 37B5692E33A98115E574185FA8398C22 sha1 BB849B603CF1091E4F032936B209FF33FC3B714E )
+	name "Mario Bros. (USA)"
+	description "Mario Bros. (USA)"
+	rom ( name "Mario Bros. (USA).a78" size 49152 crc 8021A13B md5 431CA060201EE1F9EB49D44962874049 sha1 12E04B67094AF622641C536379C69ECAD2EE98ED )
 )
 
 game (
 	name "Mat Mania Challenge (Europe)"
 	description "Mat Mania Challenge (Europe)"
 	rom ( name "Mat Mania Challenge (Europe).a78" size 131072 crc 065F3873 md5 6819C37B96063B024898A19DBAE2DF54 sha1 119BB784F1A0638CC6778841131CA1766E94A112 )
+)
+
+game (
+	name "Mat Mania Challenge (USA)"
+	description "Mat Mania Challenge (USA)"
+	rom ( name "Mat Mania Challenge (USA).a78" size 131072 crc ABA91829 md5 37B5692E33A98115E574185FA8398C22 sha1 BB849B603CF1091E4F032936B209FF33FC3B714E )
 )
 
 game (
@@ -397,15 +396,15 @@ game (
 )
 
 game (
-	name "Meltdown (USA)"
-	description "Meltdown (USA)"
-	rom ( name "Meltdown (USA).a78" size 131072 crc 4A8F2171 md5 BEDC30EC43587E0C98FC38C39C1EF9D0 sha1 E601C45AAA1CC25F01493867664C8B9FEFECA70E )
-)
-
-game (
 	name "Meltdown (Europe)"
 	description "Meltdown (Europe)"
 	rom ( name "Meltdown (Europe).a78" size 131072 crc 177FC850 md5 C80155D7EEC9E3DCB79AA6B83C9CCD1E sha1 AC448F369C3C6334415095E4FF344FDD73B473BE )
+)
+
+game (
+	name "Meltdown (USA)"
+	description "Meltdown (USA)"
+	rom ( name "Meltdown (USA).a78" size 131072 crc 4A8F2171 md5 BEDC30EC43587E0C98FC38C39C1EF9D0 sha1 E601C45AAA1CC25F01493867664C8B9FEFECA70E )
 )
 
 game (
@@ -427,15 +426,15 @@ game (
 )
 
 game (
-	name "Motor Psycho (USA)"
-	description "Motor Psycho (USA)"
-	rom ( name "Motor Psycho (USA).a78" size 131072 crc 1E219482 md5 3BC8F554CF86F8132A623CC2201A564B sha1 B9381F4D0413B6C48E27F26ED94C7A9EB1A49624 )
-)
-
-game (
 	name "Motor Psycho (Europe)"
 	description "Motor Psycho (Europe)"
 	rom ( name "Motor Psycho (Europe).a78" size 131072 crc 38BB45BA md5 5330BFE428A6B601B7E76C2CFC4CD049 sha1 3B72D6B3E28CA9182F1F25DC57115D2EC33AA63E )
+)
+
+game (
+	name "Motor Psycho (USA)"
+	description "Motor Psycho (USA)"
+	rom ( name "Motor Psycho (USA).a78" size 131072 crc 1E219482 md5 3BC8F554CF86F8132A623CC2201A564B sha1 B9381F4D0413B6C48E27F26ED94C7A9EB1A49624 )
 )
 
 game (
@@ -451,27 +450,27 @@ game (
 )
 
 game (
-	name "Ninja Golf (USA)"
-	description "Ninja Golf (USA)"
-	rom ( name "Ninja Golf (USA).a78" size 131072 crc CB48E8DC md5 220121F771FC4B98CEF97DC040E8D378 sha1 96D0E59E703770EEA8D8D9C2C4E5A87CE6F2DE76 )
-)
-
-game (
 	name "Ninja Golf (Europe)"
 	description "Ninja Golf (Europe)"
 	rom ( name "Ninja Golf (Europe).a78" size 131072 crc 2B5382B7 md5 EA0C859AA54FE5EAF4C1F327FAB06221 sha1 99CE5711E38FF7EF3311216F954CF0AB70E289CF )
 )
 
 game (
-	name "One-on-One Basketball (USA)"
-	description "One-on-One Basketball (USA)"
-	rom ( name "One-on-One Basketball (USA).a78" size 49152 crc 7D9370FB md5 74569571A208F8B0B1CCFB22D7C914E1 sha1 5173F892A8D70AECA6C324C138C56208E0DB2B98 )
+	name "Ninja Golf (USA)"
+	description "Ninja Golf (USA)"
+	rom ( name "Ninja Golf (USA).a78" size 131072 crc CB48E8DC md5 220121F771FC4B98CEF97DC040E8D378 sha1 96D0E59E703770EEA8D8D9C2C4E5A87CE6F2DE76 )
 )
 
 game (
 	name "One-on-One Basketball (Europe)"
 	description "One-on-One Basketball (Europe)"
 	rom ( name "One-on-One Basketball (Europe).a78" size 49152 crc 7A628295 md5 8DBA0425F0262E5704581D8757A1A6E3 sha1 01DFC5E4E615CF20EE4F07245285F85684EE445D )
+)
+
+game (
+	name "One-on-One Basketball (USA)"
+	description "One-on-One Basketball (USA)"
+	rom ( name "One-on-One Basketball (USA).a78" size 49152 crc 7D9370FB md5 74569571A208F8B0B1CCFB22D7C914E1 sha1 5173F892A8D70AECA6C324C138C56208E0DB2B98 )
 )
 
 game (
@@ -505,15 +504,15 @@ game (
 )
 
 game (
-	name "Pole Position II (USA)"
-	description "Pole Position II (USA)"
-	rom ( name "Pole Position II (USA).a78" size 32768 crc A85FB962 md5 584582BB09EE8122E7FC09DC7D1ED813 sha1 CCFA6F3F83DDBED2A2FB32735FEA316A718FBAAA )
-)
-
-game (
 	name "Pole Position II (Europe)"
 	description "Pole Position II (Europe)"
 	rom ( name "Pole Position II (Europe).a78" size 32768 crc D751C7A6 md5 865457E0E0F48253B08F77B9E18F93B2 sha1 268E53B5B2117BF853E0AAE6ADB0B2D3AAD8AD5C )
+)
+
+game (
+	name "Pole Position II (USA)"
+	description "Pole Position II (USA)"
+	rom ( name "Pole Position II (USA).a78" size 32768 crc A85FB962 md5 584582BB09EE8122E7FC09DC7D1ED813 sha1 CCFA6F3F83DDBED2A2FB32735FEA316A718FBAAA )
 )
 
 game (
@@ -595,15 +594,15 @@ game (
 )
 
 game (
-	name "Super Skateboardin' (USA)"
-	description "Super Skateboardin' (USA)"
-	rom ( name "Super Skateboardin' (USA).a78" size 32768 crc 13B68650 md5 59B5793BECE1C80F77B55D60FB39CB94 sha1 666D9383C112B66026898E6002B803801E269C51 )
-)
-
-game (
 	name "Super Skateboardin' (Europe)"
 	description "Super Skateboardin' (Europe)"
 	rom ( name "Super Skateboardin' (Europe).a78" size 32768 crc 8F167BA9 md5 95D7C321DCE8F57623A9C5B4947BB375 sha1 FAB349584AF7B6B3F9B034AF3034F43257E2C25F )
+)
+
+game (
+	name "Super Skateboardin' (USA)"
+	description "Super Skateboardin' (USA)"
+	rom ( name "Super Skateboardin' (USA).a78" size 32768 crc 13B68650 md5 59B5793BECE1C80F77B55D60FB39CB94 sha1 666D9383C112B66026898E6002B803801E269C51 )
 )
 
 game (
@@ -613,15 +612,15 @@ game (
 )
 
 game (
-	name "Title Match Pro Wrestling (USA)"
-	description "Title Match Pro Wrestling (USA)"
-	rom ( name "Title Match Pro Wrestling (USA).a78" size 32768 crc BC23C57B md5 1AF475FF6429A160752B592F0F92B287 sha1 80D11BCBB953CCD8BF3C3E64162711E7EDB95090 )
-)
-
-game (
 	name "Title Match Pro Wrestling (Europe)"
 	description "Title Match Pro Wrestling (Europe)"
 	rom ( name "Title Match Pro Wrestling (Europe).a78" size 32768 crc 16B54D5B md5 3BB9C8D9ADC912DD7F8471C97445CD8D sha1 7AB281C9B69692823B3B6B594856172363C507B5 )
+)
+
+game (
+	name "Title Match Pro Wrestling (USA)"
+	description "Title Match Pro Wrestling (USA)"
+	rom ( name "Title Match Pro Wrestling (USA).a78" size 32768 crc BC23C57B md5 1AF475FF6429A160752B592F0F92B287 sha1 80D11BCBB953CCD8BF3C3E64162711E7EDB95090 )
 )
 
 game (
@@ -667,15 +666,15 @@ game (
 )
 
 game (
-	name "Xenophobe (USA)"
-	description "Xenophobe (USA)"
-	rom ( name "Xenophobe (USA).a78" size 131072 crc 5FD9A141 md5 05FB699DB9EEF564E2FE45C568746DBC sha1 867ADBFD7539FF81E68726ED6F5FF7326409539F )
-)
-
-game (
 	name "Xenophobe (Europe)"
 	description "Xenophobe (Europe)"
 	rom ( name "Xenophobe (Europe).a78" size 131072 crc CF0E44F1 md5 70937C3184F0BE33D06F7F4382CA54DE sha1 B2CF7D6164D6E5ACD47E9F6D7CF60BB0F775B4A3 )
+)
+
+game (
+	name "Xenophobe (USA)"
+	description "Xenophobe (USA)"
+	rom ( name "Xenophobe (USA).a78" size 131072 crc 5FD9A141 md5 05FB699DB9EEF564E2FE45C568746DBC sha1 867ADBFD7539FF81E68726ED6F5FF7326409539F )
 )
 
 game (
@@ -689,4 +688,3 @@ game (
 	description "Xevious (USA)"
 	rom ( name "Xevious (USA).a78" size 32768 crc 75FC124F md5 D7DC17379AA25E5AE3C14B9E780C6F6D sha1 1D4F0335B152239553534FCBBACDCA273802E3BD )
 )
-

@@ -1,11 +1,8 @@
 clrmamepro (
 	name "Atari - Lynx"
 	description "Atari - Lynx"
-	header "No-Intro_LNX.xml"
-	version 20170204-120333
-	author "BigFred, kazumi213, relax, xuom2"
-	homepage "No-Intro"
-	url "http://www.no-intro.org"
+	version "2017.3.5"
+	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
@@ -69,15 +66,15 @@ game (
 )
 
 game (
-	name "Blue Lightning (USA) (Demo)"
-	description "Blue Lightning (USA) (Demo)"
-	rom ( name "Blue Lightning (USA) (Demo).lnx" size 131072 crc BFE36525 md5 7C3CB287DE2D9F67FF342B4E42592732 sha1 57ECE74AC94D65D86A960A44D9896E17B816BBDE )
-)
-
-game (
 	name "Blue Lightning (USA, Europe)"
 	description "Blue Lightning (USA, Europe)"
 	rom ( name "Blue Lightning (USA, Europe).lnx" size 131072 crc DAF587B1 md5 F7B4775771BC25D9053AF5C69A8C8B2A sha1 BE08076586F76DB368DB1769380DCBB6DE2A6513 )
+)
+
+game (
+	name "Blue Lightning (USA) (Demo)"
+	description "Blue Lightning (USA) (Demo)"
+	rom ( name "Blue Lightning (USA) (Demo).lnx" size 131072 crc BFE36525 md5 7C3CB287DE2D9F67FF342B4E42592732 sha1 57ECE74AC94D65D86A960A44D9896E17B816BBDE )
 )
 
 game (
