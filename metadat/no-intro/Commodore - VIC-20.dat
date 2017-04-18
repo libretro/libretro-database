@@ -1,8 +1,8 @@
 clrmamepro (
 	name "Commodore - VIC-20"
 	description "Commodore - VIC-20"
-	version 20161023-222239
-	comment "no-intro | www.no-intro.org"
+	version "2017.3.5"
+	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
@@ -218,8 +218,7 @@ game (
 game (
 	name "Cannonball Blitz (Japan, USA)"
 	description "Cannonball Blitz (Japan, USA)"
-	rom ( name "Cannonball Blitz $2000 (Japan, USA).20" size 4096 crc A72E825A md5 1A89E53198A1C2179B48E6EA16919FB8 sha1 1E9CA737475B7BB6F87BBA66F69125F8C894E1E7 )
-	rom ( name "Cannonball Blitz $A000 (Japan, USA).a0" size 8192 crc 0007FACF md5 8A2ACAE44FCDE5FB897B3A9EFC339F0F sha1 35DD45295F074B4AAFF7026E9BD006794187EDD0 )
+	rom ( name "Cannonball Blitz (Japan, USA).a0" size 8192 crc 0007FACF md5 8A2ACAE44FCDE5FB897B3A9EFC339F0F sha1 35DD45295F074B4AAFF7026E9BD006794187EDD0 )
 )
 
 game (
@@ -337,15 +336,15 @@ game (
 )
 
 game (
-	name "Cosmic Cruncher (World) (Alt 2)"
-	description "Cosmic Cruncher (World) (Alt 2)"
-	rom ( name "Cosmic Cruncher (World) (Alt 2).a0" size 8192 crc B545BD68 md5 4AAF74EB672420E88AB6DF3EEFB47EB6 sha1 BCEC5781F40B2522BCA9B303B14D2CE137BA9AC1 )
-)
-
-game (
 	name "Cosmic Cruncher (World) (Alt 1)"
 	description "Cosmic Cruncher (World) (Alt 1)"
 	rom ( name "Cosmic Cruncher (World) (Alt 1).a0" size 8192 crc 93674261 md5 2E24E58886273A64073EC7E794646724 sha1 EE6CB8958220DE1B2753920D27318121EB4692BA )
+)
+
+game (
+	name "Cosmic Cruncher (World) (Alt 2)"
+	description "Cosmic Cruncher (World) (Alt 2)"
+	rom ( name "Cosmic Cruncher (World) (Alt 2).a0" size 8192 crc B545BD68 md5 4AAF74EB672420E88AB6DF3EEFB47EB6 sha1 BCEC5781F40B2522BCA9B303B14D2CE137BA9AC1 )
 )
 
 game (
@@ -583,15 +582,15 @@ game (
 )
 
 game (
-	name "HesMon (World) (v1.1) (Program)"
-	description "HesMon (World) (v1.1) (Program)"
-	rom ( name "HesMon (World) (v1.1) (Program).a0" size 4096 crc E6C5B849 md5 719C57D0DC9565D0B17A6D6C69873A0B sha1 7802BA9BD3787CF9B7883659CF82C6200248BC59 )
-)
-
-game (
 	name "HesMon (World) (v1.1) (Alt 1) (Program)"
 	description "HesMon (World) (v1.1) (Alt 1) (Program)"
 	rom ( name "HesMon (World) (v1.1) (Alt 1) (Program).a0" size 4096 crc DE4937F5 md5 7691331E58217A010BE6BE82994BACD6 sha1 2944EB748747BCF2F1E8A8B1CE71B7199A6F36F8 )
+)
+
+game (
+	name "HesMon (World) (v1.1) (Program)"
+	description "HesMon (World) (v1.1) (Program)"
+	rom ( name "HesMon (World) (v1.1) (Program).a0" size 4096 crc E6C5B849 md5 719C57D0DC9565D0B17A6D6C69873A0B sha1 7802BA9BD3787CF9B7883659CF82C6200248BC59 )
 )
 
 game (
@@ -621,13 +620,13 @@ game (
 game (
 	name "IFR (Flight Simulator) (World)"
 	description "IFR (Flight Simulator) (World)"
-	rom ( name "IFR Flight Simulator (World).a0" size 8192 crc FB97BD96 md5 C0678C9DFDABD2D8AB68662282B0F15F sha1 130873B7E2DDE965AF451F730D08956D12CFADBE )
+	rom ( name "IFR (Flight Simulator) (World).a0" size 8192 crc FB97BD96 md5 C0678C9DFDABD2D8AB68662282B0F15F sha1 130873B7E2DDE965AF451F730D08956D12CFADBE )
 )
 
 game (
 	name "IFR (Flight Simulator) (World) (Alt 1)"
 	description "IFR (Flight Simulator) (World) (Alt 1)"
-	rom ( name "IFR Flight Simulator (World) (Alt 1).a0" size 8192 crc 9770700A md5 1E313D20DC963094FD67A6A4EB914F1F sha1 BFF917BE0BA3067639787B03ECE0BEB6AF39D15A )
+	rom ( name "IFR (Flight Simulator) (World) (Alt 1).a0" size 8192 crc 9770700A md5 1E313D20DC963094FD67A6A4EB914F1F sha1 BFF917BE0BA3067639787B03ECE0BEB6AF39D15A )
 )
 
 game (
@@ -669,8 +668,7 @@ game (
 game (
 	name "K-Razy Antiks (Europe)"
 	description "K-Razy Antiks (Europe)"
-	rom ( name "K-Razy Antiks $6000 (Europe).60" size 4096 crc 86479A98 md5 1F829C67556DB8072554186645574DF1 sha1 146A05D559F76EDC267C68A65ACA1FC759F4A9A9 )
-	rom ( name "K-Razy Antiks $A000 (Europe).a0" size 8192 crc 324E2A30 md5 E116E96475E50A0A2C5008A2F52B8B2A sha1 887EAA98420655628997D7C89622E9B285955649 )
+	rom ( name "K-Razy Antiks (Europe).a0" size 8192 crc 324E2A30 md5 E116E96475E50A0A2C5008A2F52B8B2A sha1 887EAA98420655628997D7C89622E9B285955649 )
 )
 
 game (
@@ -706,8 +704,7 @@ game (
 game (
 	name "Lunar Leeper (Japan, USA)"
 	description "Lunar Leeper (Japan, USA)"
-	rom ( name "Lunar Leeper $2000 (Japan, USA).20" size 4096 crc D1C647E2 md5 BB423DF252F44C52F4A48B41B2451A7E sha1 2034E60A8A38C2962CFAF0FE5C4212AFD161DB8A )
-	rom ( name "Lunar Leeper $A000 (Japan, USA).a0" size 8192 crc AF98FF32 md5 7FC6B1FF3A04EBA75D7FE10B1D7F6AE0 sha1 C9C24E54CC62D33CB897E0198B8F82FC1D9F2323 )
+	rom ( name "Lunar Leeper (Japan, USA).a0" size 8192 crc AF98FF32 md5 7FC6B1FF3A04EBA75D7FE10B1D7F6AE0 sha1 C9C24E54CC62D33CB897E0198B8F82FC1D9F2323 )
 )
 
 game (
@@ -747,15 +744,15 @@ game (
 )
 
 game (
-	name "Menagerie (World) (Alt 2)"
-	description "Menagerie (World) (Alt 2)"
-	rom ( name "Menagerie (World) (Alt 2).a0" size 8192 crc 3F47DA5D md5 A103A8A02F9F02A1A1A77C8E306D3297 sha1 04F9130A34FF0681A87440372921757EF81F109C )
-)
-
-game (
 	name "Menagerie (World) (Alt 1)"
 	description "Menagerie (World) (Alt 1)"
 	rom ( name "Menagerie (World) (Alt 1).a0" size 8192 crc 95C40CDF md5 02A2F8AC0D20DC56DF4DCD0B849F54C1 sha1 79ADE827388F03CC065DA302EEFB4462555962E5 )
+)
+
+game (
+	name "Menagerie (World) (Alt 2)"
+	description "Menagerie (World) (Alt 2)"
+	rom ( name "Menagerie (World) (Alt 2).a0" size 8192 crc 3F47DA5D md5 A103A8A02F9F02A1A1A77C8E306D3297 sha1 04F9130A34FF0681A87440372921757EF81F109C )
 )
 
 game (
@@ -807,6 +804,12 @@ game (
 )
 
 game (
+	name "Money Wars (Japan, USA) (Alt 1)"
+	description "Money Wars (Japan, USA) (Alt 1)"
+	rom ( name "Money Wars (Japan, USA) (Alt 1).a0" size 8192 crc 2C20505C md5 121A419AE95598896DA7AAD430C42F4B sha1 BE17447953D0AC80DD04937DC2B02E025359A4F1 )
+)
+
+game (
 	name "Money Wars (Japan, USA) (Alt 2)"
 	description "Money Wars (Japan, USA) (Alt 2)"
 	rom ( name "Money Wars (Japan, USA) (Alt 2).a0" size 8192 crc 97DDC091 md5 A243DA0C9BD7A2D9C79FF7361A2D93E7 sha1 383B950BB6EECFA620ADC1E2E4A5633AF1AA0F3E )
@@ -816,12 +819,6 @@ game (
 	name "Money Wars (Japan, USA) (Alt 3)"
 	description "Money Wars (Japan, USA) (Alt 3)"
 	rom ( name "Money Wars (Japan, USA) (Alt 3).a0" size 8192 crc 0ED4912B md5 1550A3B59AD28333EFB26D4EE1F0A52A sha1 B85A1DDA128905DC7F2CFCA3858FA33BC08265F2 )
-)
-
-game (
-	name "Money Wars (Japan, USA) (Alt 1)"
-	description "Money Wars (Japan, USA) (Alt 1)"
-	rom ( name "Money Wars (Japan, USA) (Alt 1).a0" size 8192 crc 2C20505C md5 121A419AE95598896DA7AAD430C42F4B sha1 BE17447953D0AC80DD04937DC2B02E025359A4F1 )
 )
 
 game (
@@ -899,8 +896,7 @@ game (
 game (
 	name "Outworld (Japan, USA)"
 	description "Outworld (Japan, USA)"
-	rom ( name "Outworld $6000 (Japan, USA).60" size 4096 crc 6DD5DA16 md5 B4E62CD525EAAC300C3D8BF47AFE239F sha1 91899C4769880277E16CB63E825E2E2B5E2B0071 )
-	rom ( name "Outworld $A000 (Japan, USA).a0" size 4096 crc F67A2B0F md5 17F2C48666CE5BF82E264B3735EF6CF7 sha1 71CB6C1CFD4EAB706C58C47E7AC5B666DB60C890 )
+	rom ( name "Outworld (Japan, USA).a0" size 4096 crc F67A2B0F md5 17F2C48666CE5BF82E264B3735EF6CF7 sha1 71CB6C1CFD4EAB706C58C47E7AC5B666DB60C890 )
 )
 
 game (
@@ -1054,15 +1050,15 @@ game (
 )
 
 game (
-	name "Rat Hotel (Japan, USA)"
-	description "Rat Hotel (Japan, USA)"
-	rom ( name "Rat Hotel (Japan, USA).a0" size 8192 crc 12434785 md5 475A824C68654A394EB73123330F484F sha1 B6D2DA93084F8657AF1BF34C9E9A3B35A5573C81 )
+	name "Rat Hotel (Europe)"
+	description "Rat Hotel (Europe)"
+	rom ( name "Rat Hotel (Europe).a0" size 8192 crc C521D02F md5 9D05834C3F72584239AF91BD3CAB1BAF sha1 317494773A4EB3CDEB66C9F36D8BEC7613E50D80 )
 )
 
 game (
-	name "Rat Hotel (Europe)"
-	description "Rat Hotel (Europe)"
-	rom ( name "Rat Hotel (Japan, USA) (Alt 1).a0" size 8192 crc C521D02F md5 9D05834C3F72584239AF91BD3CAB1BAF sha1 317494773A4EB3CDEB66C9F36D8BEC7613E50D80 )
+	name "Rat Hotel (Japan, USA)"
+	description "Rat Hotel (Japan, USA)"
+	rom ( name "Rat Hotel (Japan, USA).a0" size 8192 crc 12434785 md5 475A824C68654A394EB73123330F484F sha1 B6D2DA93084F8657AF1BF34C9E9A3B35A5573C81 )
 )
 
 game (
@@ -1090,15 +1086,15 @@ game (
 )
 
 game (
-	name "Road Race (Japan, USA) (Alt 2)"
-	description "Road Race (Japan, USA) (Alt 2)"
-	rom ( name "Road Race (Japan, USA) (Alt 2).a0" size 8192 crc 2696282B md5 1DFD5461CA2F17457C38025FFF5D5AFD sha1 F15367430418A1B13951B7E6AD283B80E6471679 )
-)
-
-game (
 	name "Road Race (Japan, USA) (Alt 1)"
 	description "Road Race (Japan, USA) (Alt 1)"
 	rom ( name "Road Race (Japan, USA) (Alt 1).a0" size 8192 crc 109562DD md5 66A299F5FC98F85C6081F60B794AD213 sha1 44239F1C1EE28AA3A000D49D6F4EA41E7B40445A )
+)
+
+game (
+	name "Road Race (Japan, USA) (Alt 2)"
+	description "Road Race (Japan, USA) (Alt 2)"
+	rom ( name "Road Race (Japan, USA) (Alt 2).a0" size 8192 crc 2696282B md5 1DFD5461CA2F17457C38025FFF5D5AFD sha1 F15367430418A1B13951B7E6AD283B80E6471679 )
 )
 
 game (
@@ -1146,8 +1142,7 @@ game (
 game (
 	name "Satellites and Meteorites! (Japan, USA)"
 	description "Satellites and Meteorites! (Japan, USA)"
-	rom ( name "Satellites and Meteorites! $6000 (Japan, USA).60" size 4096 crc EB3361C6 md5 FBB023CF6C005B423E7195C95218BDDD sha1 7376391E363074BF99843BFB2ECF4277EDB6D17D )
-	rom ( name "Satellites and Meteorites! $A000 (Japan, USA).a0" size 4096 crc BE390D00 md5 294F7B6AAACD0DAF2EB865E33F205F09 sha1 53AFAD6A1C2FB87A82ECB28D86258EA2D78615CB )
+	rom ( name "Satellites and Meteorites! (Japan, USA).a0" size 4096 crc BE390D00 md5 294F7B6AAACD0DAF2EB865E33F205F09 sha1 53AFAD6A1C2FB87A82ECB28D86258EA2D78615CB )
 )
 
 game (
@@ -1237,7 +1232,7 @@ game (
 game (
 	name "Space Ric-O-Shay (Japan, USA) [b]"
 	description "Space Ric-O-Shay (Japan, USA) [b]"
-	rom ( name "Space Ric-O-Shay (Japan, USA) [b].a0" size 4096 crc AF2FD976 md5 A6FFEA04BEB07D09284BF50DB264573F sha1 E44317B0943E1D77BF5826C13F51C4085A1A7669 flags baddump )
+	rom ( name "Space Ric-O-Shay (Japan, USA) [b].a0" size 4096 crc AF2FD976 md5 A6FFEA04BEB07D09284BF50DB264573F sha1 E44317B0943E1D77BF5826C13F51C4085A1A7669 )
 )
 
 game (
@@ -1327,15 +1322,13 @@ game (
 game (
 	name "Story Machine (World)"
 	description "Story Machine (World)"
-	rom ( name "Story Machine $6000 (World).60" size 8192 crc 8BA0E1A0 md5 E68D1574D8B83DC61ABA28FDDF203F2B sha1 97052C7BC17688FAEBC1483C8CC9F958AD1FF9D6 )
-	rom ( name "Story Machine $A000 (World).a0" size 4096 crc B691D4DF md5 E9613664C1A54788673D66E078B4199C sha1 7BE1DECCC0B9DED4A49D1991DC421CFA199F91AA )
+	rom ( name "Story Machine (World).a0" size 4096 crc B691D4DF md5 E9613664C1A54788673D66E078B4199C sha1 7BE1DECCC0B9DED4A49D1991DC421CFA199F91AA )
 )
 
 game (
 	name "Story Machine (World) (Alt 1)"
 	description "Story Machine (World) (Alt 1)"
-	rom ( name "Story Machine $6000 (World) (Alt 1).60" size 8192 crc 40C02A8E md5 45CC57F0280C60C3942CF78A96C579C8 sha1 8A34D5C1B5D7E9BDF66033BF11567AB7E7BC1776 )
-	rom ( name "Story Machine $A000 (World) (Alt 1).a0" size 4096 crc B691D4DF md5 E9613664C1A54788673D66E078B4199C sha1 7BE1DECCC0B9DED4A49D1991DC421CFA199F91AA )
+	rom ( name "Story Machine (World) (Alt 1).a0" size 4096 crc B691D4DF md5 E9613664C1A54788673D66E078B4199C sha1 7BE1DECCC0B9DED4A49D1991DC421CFA199F91AA )
 )
 
 game (
@@ -1347,8 +1340,7 @@ game (
 game (
 	name "Submarine Commander (World)"
 	description "Submarine Commander (World)"
-	rom ( name "Submarine Commander $6000 (World).60" size 4096 crc 8817B702 md5 3212256573230C6199E89345AA251B65 sha1 3311C1C9B864447349DA3987056DE2E7628496CE )
-	rom ( name "Submarine Commander $A000 (World).a0" size 8192 crc E402FB1D md5 63CFF23DC7DF736570347FBB9B26E949 sha1 0AA97E2931446B1286A01F563198E7C40F5B4678 )
+	rom ( name "Submarine Commander (World).a0" size 8192 crc E402FB1D md5 63CFF23DC7DF736570347FBB9B26E949 sha1 0AA97E2931446B1286A01F563198E7C40F5B4678 )
 )
 
 game (
@@ -1454,9 +1446,9 @@ game (
 )
 
 game (
-	name "Turtle Graphics (World) (Program)"
-	description "Turtle Graphics (World) (Program)"
-	rom ( name "Turtle Graphics (World) (Program).a0" size 8192 crc B0FC4418 md5 8A1193FB04655888A09A198CD9D9DE9B sha1 4ED3BA195A1255E8D5EA74082F012EBBDE98668B )
+	name "Turtle Graphics (World) (Alt 1) (Program)"
+	description "Turtle Graphics (World) (Alt 1) (Program)"
+	rom ( name "Turtle Graphics (World) (Alt 1) (Program).a0" size 8192 crc C7BF4DB9 md5 600BE1ABAC8D02BC11B45A83DD171F8F sha1 F6723C8225ED7EFD0F277BDEF42F27D51FE2525A )
 )
 
 game (
@@ -1466,9 +1458,9 @@ game (
 )
 
 game (
-	name "Turtle Graphics (World) (Alt 1) (Program)"
-	description "Turtle Graphics (World) (Alt 1) (Program)"
-	rom ( name "Turtle Graphics (World) (Alt 1) (Program).a0" size 8192 crc C7BF4DB9 md5 600BE1ABAC8D02BC11B45A83DD171F8F sha1 F6723C8225ED7EFD0F277BDEF42F27D51FE2525A )
+	name "Turtle Graphics (World) (Program)"
+	description "Turtle Graphics (World) (Program)"
+	rom ( name "Turtle Graphics (World) (Program).a0" size 8192 crc B0FC4418 md5 8A1193FB04655888A09A198CD9D9DE9B sha1 4ED3BA195A1255E8D5EA74082F012EBBDE98668B )
 )
 
 game (
@@ -1498,19 +1490,19 @@ game (
 game (
 	name "VC Song-Cartridge - Inventio-Pac (Germany) (Program) [b]"
 	description "VC Song-Cartridge - Inventio-Pac (Germany) (Program) [b]"
-	rom ( name "VC Song-Cartridge - Inventio-Pac (Germany) (Program) [b].a0" size 8192 crc B6F449CF md5 88206E74A1D561612FA4B8301063CBAD sha1 B851389C7ED30E4A519ABA6342D1CC6161631F1C flags baddump )
-)
-
-game (
-	name "VC Song-Cartridge - The Mad Boogy (Germany) (Program)"
-	description "VC Song-Cartridge - The Mad Boogy (Germany) (Program)"
-	rom ( name "VC Song-Cartridge - The Mad Boogy (Germany) (Program).a0" size 8192 crc 98730BFB md5 9ABC09D673D2ED433701E073BC79BBAD sha1 46F0C59278716FC337672C952D8A9EB07BD1D013 )
+	rom ( name "VC Song-Cartridge - Inventio-Pac (Germany) (Program) [b].a0" size 8192 crc B6F449CF md5 88206E74A1D561612FA4B8301063CBAD sha1 B851389C7ED30E4A519ABA6342D1CC6161631F1C )
 )
 
 game (
 	name "VC Song-Cartridge - The Mad Boogy (Germany) (Alt 1) (Program)"
 	description "VC Song-Cartridge - The Mad Boogy (Germany) (Alt 1) (Program)"
 	rom ( name "VC Song-Cartridge - The Mad Boogy (Germany) (Alt 1) (Program).a0" size 8192 crc A1AEF256 md5 935533880D2603ADEB1A6C6BFEC86958 sha1 2DE4D9786CB56BF4FAD52059D6B41803FD279C76 )
+)
+
+game (
+	name "VC Song-Cartridge - The Mad Boogy (Germany) (Program)"
+	description "VC Song-Cartridge - The Mad Boogy (Germany) (Program)"
+	rom ( name "VC Song-Cartridge - The Mad Boogy (Germany) (Program).a0" size 8192 crc 98730BFB md5 9ABC09D673D2ED433701E073BC79BBAD sha1 46F0C59278716FC337672C952D8A9EB07BD1D013 )
 )
 
 game (
@@ -1562,21 +1554,21 @@ game (
 )
 
 game (
-	name "VIC Music Composer, The (Japan, USA) (Program)"
-	description "VIC Music Composer, The (Japan, USA) (Program)"
-	rom ( name "VIC Music Composer, The (Japan, USA) (Program).a0" size 8192 crc 6EC257AB md5 7F9B83241A0933323F8EE64AF6E60FBF sha1 4879A29477DB77F2F57F557EF36CCF07550A922A )
-)
-
-game (
 	name "VIC Music Composer, The (Japan, USA) (Alt 1) (Program)"
 	description "VIC Music Composer, The (Japan, USA) (Alt 1) (Program)"
 	rom ( name "VIC Music Composer, The (Japan, USA) (Alt 1) (Program).a0" size 8192 crc F24498D1 md5 AF129B82FB860D7F54F25BEF47E71D7E sha1 E3BA0B528C7C9A4AAD741D0B68D2348DEA0BACE2 )
 )
 
 game (
+	name "VIC Music Composer, The (Japan, USA) (Program)"
+	description "VIC Music Composer, The (Japan, USA) (Program)"
+	rom ( name "VIC Music Composer, The (Japan, USA) (Program).a0" size 8192 crc 6EC257AB md5 7F9B83241A0933323F8EE64AF6E60FBF sha1 4879A29477DB77F2F57F557EF36CCF07550A922A )
+)
+
+game (
 	name "VIC Rabbit (World) (Program) [b]"
 	description "VIC Rabbit (World) (Program) [b]"
-	rom ( name "VIC Rabbit (World) (Program) [b].80" size 2048 crc 7E413BD7 md5 F1A2545084BCE26AEF83C17586B37646 sha1 1ADE230F85C5E430B0365C1A2A0BC3BDE37955EB flags baddump )
+	rom ( name "VIC Rabbit (World) (Program) [b].80" size 2048 crc 7E413BD7 md5 F1A2545084BCE26AEF83C17586B37646 sha1 1ADE230F85C5E430B0365C1A2A0BC3BDE37955EB )
 )
 
 game (
@@ -1676,15 +1668,15 @@ game (
 )
 
 game (
-	name "Visible Solar System, The (World) (Alt 2)"
-	description "Visible Solar System, The (World) (Alt 2)"
-	rom ( name "Visible Solar System, The (World) (Alt 2).a0" size 8192 crc 0A9B0456 md5 4972D577EEFE5E38FF227F0327BA0BF6 sha1 A7B767173316EECB1407083AB4715963BEF9D751 )
-)
-
-game (
 	name "Visible Solar System, The (World) (Alt 1)"
 	description "Visible Solar System, The (World) (Alt 1)"
 	rom ( name "Visible Solar System, The (World) (Alt 1).a0" size 8192 crc EE5D7A91 md5 F53A942FBA13C3DF1CCB82D31B728188 sha1 94F2AC4D58E9FFE4861C00DE5551BDCB60B9DBF7 )
+)
+
+game (
+	name "Visible Solar System, The (World) (Alt 2)"
+	description "Visible Solar System, The (World) (Alt 2)"
+	rom ( name "Visible Solar System, The (World) (Alt 2).a0" size 8192 crc 0A9B0456 md5 4972D577EEFE5E38FF227F0327BA0BF6 sha1 A7B767173316EECB1407083AB4715963BEF9D751 )
 )
 
 game (
@@ -1706,9 +1698,9 @@ game (
 )
 
 game (
-	name "Wordcraft 20 (World) (Program)"
-	description "Wordcraft 20 (World) (Program)"
-	rom ( name "Wordcraft 20 (World) (Program).60" size 16384 crc DB78D8FC md5 F466AEC99F2F8137C102ABB6E45EF8CC sha1 3C4E0B98051FCB9A0900BF497A56D9091EAEE699 )
+	name "Wordcraft 20 (World) (Alt 1) (Program)"
+	description "Wordcraft 20 (World) (Alt 1) (Program)"
+	rom ( name "Wordcraft 20 (World) (Alt 1) (Program).60" size 16384 crc 37557060 md5 08B9A034F9779B7C9F6B0848AF0159A3 sha1 FA7B47F80018CE607644FE82DC2080992327EB8A )
 )
 
 game (
@@ -1718,9 +1710,9 @@ game (
 )
 
 game (
-	name "Wordcraft 20 (World) (Alt 1) (Program)"
-	description "Wordcraft 20 (World) (Alt 1) (Program)"
-	rom ( name "Wordcraft 20 (World) (Alt 1) (Program).60" size 16384 crc 37557060 md5 08B9A034F9779B7C9F6B0848AF0159A3 sha1 FA7B47F80018CE607644FE82DC2080992327EB8A )
+	name "Wordcraft 20 (World) (Program)"
+	description "Wordcraft 20 (World) (Program)"
+	rom ( name "Wordcraft 20 (World) (Program).60" size 16384 crc DB78D8FC md5 F466AEC99F2F8137C102ABB6E45EF8CC sha1 3C4E0B98051FCB9A0900BF497A56D9091EAEE699 )
 )
 
 game (
@@ -1734,4 +1726,3 @@ game (
 	description "Write Now! (World) (SYS 41000) (Program)"
 	rom ( name "Write Now! (World) (SYS 41000) (Program).a0" size 8192 crc 3616451E md5 EDB2F53CDB2B529B2F38071BEDD6E611 sha1 E4B9A71DFD5B31406A681A7E5B09888039789FD2 )
 )
-

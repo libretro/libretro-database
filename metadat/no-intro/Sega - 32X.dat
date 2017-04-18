@@ -1,8 +1,8 @@
 clrmamepro (
 	name "Sega - 32X"
 	description "Sega - 32X"
-	version 20161022-095033
-	comment "no-intro | www.no-intro.org"
+	version "2017.3.5"
+	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
@@ -96,15 +96,15 @@ game (
 )
 
 game (
-	name "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA)"
-	description "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA)"
-	rom ( name "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA).32x" size 3145728 crc D3D0A2FE md5 B90A2A1EEC015911AA445F9C41D7BC32 sha1 DC77B1E5C888C2C4284766915A5020BB14EE681D )
-)
-
-game (
 	name "Golf Magazine 36 Great Holes Starring Fred Couples (Europe)"
 	description "Golf Magazine 36 Great Holes Starring Fred Couples (Europe)"
 	rom ( name "Golf Magazine 36 Great Holes Starring Fred Couples (Europe).32x" size 3145728 crc 6EF99202 md5 F772E22B574406E3E20C172117050973 sha1 55848F7C54533FD2A19011DB661EF261CD8BDB22 )
+)
+
+game (
+	name "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA)"
+	description "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA)"
+	rom ( name "Golf Magazine 36 Great Holes Starring Fred Couples (Japan, USA).32x" size 3145728 crc D3D0A2FE md5 B90A2A1EEC015911AA445F9C41D7BC32 sha1 DC77B1E5C888C2C4284766915A5020BB14EE681D )
 )
 
 game (
@@ -156,15 +156,15 @@ game (
 )
 
 game (
-	name "Metal Head (Japan, USA) (En,Ja)"
-	description "Metal Head (Japan, USA) (En,Ja)"
-	rom ( name "Metal Head (Japan, USA) (En,Ja).32x" size 3145728 crc EF5553FF md5 03CC5D7549D71BA4E9DDC1BEAE3805FB sha1 4E872FBB44ECB2BD730ABD8CC8F32F96B10582C0 )
-)
-
-game (
 	name "Metal Head (Europe) (En,Ja)"
 	description "Metal Head (Europe) (En,Ja)"
 	rom ( name "Metal Head (Europe) (En,Ja).32x" size 3145728 crc BF9B8376 md5 5AB011DAE907F77E68EB764BEC3870D8 sha1 2A7767024E23B55FE193D586A96A3BA3C92E7EA8 )
+)
+
+game (
+	name "Metal Head (Japan, USA) (En,Ja)"
+	description "Metal Head (Japan, USA) (En,Ja)"
+	rom ( name "Metal Head (Japan, USA) (En,Ja).32x" size 3145728 crc EF5553FF md5 03CC5D7549D71BA4E9DDC1BEAE3805FB sha1 4E872FBB44ECB2BD730ABD8CC8F32F96B10582C0 )
 )
 
 game (
@@ -180,15 +180,15 @@ game (
 )
 
 game (
-	name "Motocross Championship (USA)"
-	description "Motocross Championship (USA)"
-	rom ( name "Motocross Championship (USA).32x" size 2097152 crc A21C5761 md5 2C4A934985021624D48725B8D7B039E8 sha1 5F1A107991AAF9EFF0B3CE864B2E3151F56ABE7B )
-)
-
-game (
 	name "Motocross Championship (Europe)"
 	description "Motocross Championship (Europe)"
 	rom ( name "Motocross Championship (Europe).32x" size 2097152 crc AE3364E9 md5 6BC365808A00B8A640DD86CCB5A0EA24 sha1 AF0CB8626825E1B431EBA07B8A9B571186745C16 )
+)
+
+game (
+	name "Motocross Championship (USA)"
+	description "Motocross Championship (USA)"
+	rom ( name "Motocross Championship (USA).32x" size 2097152 crc A21C5761 md5 2C4A934985021624D48725B8D7B039E8 sha1 5F1A107991AAF9EFF0B3CE864B2E3151F56ABE7B )
 )
 
 game (
@@ -264,12 +264,6 @@ game (
 )
 
 game (
-	name "Star Wars Arcade (USA)"
-	description "Star Wars Arcade (USA)"
-	rom ( name "Star Wars Arcade (USA).32x" size 2621440 crc 2F16B44A md5 AE3A42C6297EF25C6018A209FDA0194E sha1 F4FFAAF1D8330EA971643021BE3F3203E1EA065D )
-)
-
-game (
 	name "Star Wars Arcade (Europe)"
 	description "Star Wars Arcade (Europe)"
 	rom ( name "Star Wars Arcade (Europe).32x" size 2621440 crc 82E82660 md5 BFAA6FD031490C26E25F3D59D9C37497 sha1 A877CBF704FE7480966FD88A3C39EFB6A39392AC )
@@ -279,6 +273,12 @@ game (
 	name "Star Wars Arcade (Japan)"
 	description "Star Wars Arcade (Japan)"
 	rom ( name "Star Wars Arcade (Japan).32x" size 2621440 crc F4E9B846 md5 F6E8648A6CED9017C9F0BF0CA544F17F sha1 282767A07E453E868DE52B46BF11DEF3D071BDA6 )
+)
+
+game (
+	name "Star Wars Arcade (USA)"
+	description "Star Wars Arcade (USA)"
+	rom ( name "Star Wars Arcade (USA).32x" size 2621440 crc 2F16B44A md5 AE3A42C6297EF25C6018A209FDA0194E sha1 F4FFAAF1D8330EA971643021BE3F3203E1EA065D )
 )
 
 game (
@@ -306,21 +306,27 @@ game (
 )
 
 game (
-	name "Virtua Fighter (Japan, USA)"
-	description "Virtua Fighter (Japan, USA)"
-	rom ( name "Virtua Fighter (Japan, USA).32x" size 4194304 crc B5DE9626 md5 901E97C9F731FBDF1F1EAD0FBF58249A sha1 F35754F4BFE3A53722D7A799F88FACE0FD13C424 )
-)
-
-game (
 	name "Virtua Fighter (Europe)"
 	description "Virtua Fighter (Europe)"
 	rom ( name "Virtua Fighter (Europe).32x" size 4194304 crc 25AEA73C md5 ADCF6C6150D1BC3D073D3754B22EBC69 sha1 24B3063284A914C76D8D1F681E3ED6323B0D7D0B )
 )
 
 game (
+	name "Virtua Fighter (Japan, USA)"
+	description "Virtua Fighter (Japan, USA)"
+	rom ( name "Virtua Fighter (Japan, USA).32x" size 4194304 crc B5DE9626 md5 901E97C9F731FBDF1F1EAD0FBF58249A sha1 F35754F4BFE3A53722D7A799F88FACE0FD13C424 )
+)
+
+game (
 	name "Virtua Hamster (USA) (Proto)"
 	description "Virtua Hamster (USA) (Proto)"
 	rom ( name "Virtua Hamster (USA) (Proto).32x" size 2097152 crc CD54AC37 md5 B3A4929FCB61BC9ECDFD9AC453860FC1 sha1 C10F98D9DB73AE90BE5E5D556B663A5AFF015CEF )
+)
+
+game (
+	name "Virtua Racing Deluxe (Europe)"
+	description "Virtua Racing Deluxe (Europe)"
+	rom ( name "Virtua Racing Deluxe (Europe).32x" size 3145728 crc 27F14B5F md5 C30A6430B1A7E819BD2DDE63A41D4D57 sha1 BB26DDDE26CD07191D872E8A76A170CA3326F781 )
 )
 
 game (
@@ -333,12 +339,6 @@ game (
 	name "Virtua Racing Deluxe (USA)"
 	description "Virtua Racing Deluxe (USA)"
 	rom ( name "Virtua Racing Deluxe (USA).32x" size 3145728 crc 7896B62E md5 72B1AD0F949F68DA7D0A6339ECD51A3F sha1 18DFDEB50780C2623E60A6587D7ED701A1CF81F1 )
-)
-
-game (
-	name "Virtua Racing Deluxe (Europe)"
-	description "Virtua Racing Deluxe (Europe)"
-	rom ( name "Virtua Racing Deluxe (Europe).32x" size 3145728 crc 27F14B5F md5 C30A6430B1A7E819BD2DDE63A41D4D57 sha1 BB26DDDE26CD07191D872E8A76A170CA3326F781 )
 )
 
 game (
@@ -364,4 +364,3 @@ game (
 	description "X-Men (USA) (Proto)"
 	rom ( name "X-Men (USA) (Proto).32x" size 4194304 crc D61FEBC0 md5 BDD19A34A887A4AA6067CCFB617B9041 sha1 CD3FA2ACE2FDBF4B6402CB52EEB208010BF31029 )
 )
-

@@ -1,10 +1,8 @@
 clrmamepro (
 	name "Sega - PICO"
 	description "Sega - PICO"
-	version 20170203-101014
-	author "BigFred, C. V. Reynolds, Connie, fuzzball, Gefflon, Money_114, Powerpuff, relax, TeamEurope, xuom2"
-	homepage "No-Intro"
-	url "http://www.no-intro.org"
+	version "2017.3.5"
+	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
@@ -14,23 +12,20 @@ game (
 )
 
 game (
-	name "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)"
-	description "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)"
-	serial "HPC-6013-01"
-	rom ( name "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1).md" size 524288 crc 238DD68A md5 6E006385B2CF89123E0FE17DE19E6A67 sha1 C8A5AEAB3451617A11B4ECB7E43D78AD9D0DAAA2 )
+	name "3-choume no Tama - Momo-chan wa Doko! (Japan)"
+	description "3-choume no Tama - Momo-chan wa Doko! (Japan)"
+	rom ( name "3-choume no Tama - Momo-chan wa Doko! (Japan).md" size 524288 crc B0473895 md5 91888618EA59FE3F524BDA802326130E sha1 2F30B7017A02DB7FFE483B36388A8D2747732AA1 )
 )
 
 game (
-	name "3-choume no Tama - Momo-chan wa Doko! (Japan)"
-	description "3-choume no Tama - Momo-chan wa Doko! (Japan)"
-	serial "HPC-6013-00"
-	rom ( name "3-choume no Tama - Momo-chan wa Doko! (Japan).md" size 524288 crc B0473895 md5 91888618EA59FE3F524BDA802326130E sha1 2F30B7017A02DB7FFE483B36388A8D2747732AA1 )
+	name "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)"
+	description "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1)"
+	rom ( name "3-choume no Tama - Momo-chan wa Doko! (Japan) (Rev 1).md" size 524288 crc 238DD68A md5 6E006385B2CF89123E0FE17DE19E6A67 sha1 C8A5AEAB3451617A11B4ECB7E43D78AD9D0DAAA2 )
 )
 
 game (
 	name "6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1 (Japan)"
 	description "6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1 (Japan)"
-	serial "HPC-6075"
 	rom ( name "6000-nin no Sensei-tachi ga Tsukutta Tanoshii Shougakkou Tanken 1 (Japan).md" size 2097152 crc D62E3372 md5 175F8BA083DF54257AFAFE941735D018 sha1 71804B391CA24D6DE1775CFDF0D5A21F7D90B768 )
 )
 
@@ -43,21 +38,19 @@ game (
 game (
 	name "A Bug's Life (Japan)"
 	description "A Bug's Life (Japan)"
-	serial "HPC-6080"
 	rom ( name "A Bug's Life (Japan).md" size 2097152 crc 96EE02A2 md5 7F24B0C2092155AEF0F7ADCAC8F52842 sha1 AFF437671CBFA0119B1828C47E538FF32DB3A0DB )
+)
+
+game (
+	name "A Year at Pooh Corner (Europe)"
+	description "A Year at Pooh Corner (Europe)"
+	rom ( name "A Year at Pooh Corner (Europe).md" size 524288 crc 6C9EA7FC md5 BE3FBE69B16E4BAC2C69D2396D6DE756 sha1 C063E2DC2789DB0D72FE478BEA010AC6841F3AAB )
 )
 
 game (
 	name "A Year at Pooh Corner (USA)"
 	description "A Year at Pooh Corner (USA)"
 	rom ( name "A Year at Pooh Corner (USA).md" size 524288 crc 333E88D2 md5 26D3A3D57E3D470712C71E55BF9322F0 sha1 65581AA9B77A5011039FF88A5B282C77EF0C9E81 )
-)
-
-game (
-	name "A Year at Pooh Corner (Europe)"
-	description "A Year at Pooh Corner (Europe)"
-	serial "MK-49021-05"
-	rom ( name "A Year at Pooh Corner (Europe).md" size 524288 crc 6C9EA7FC md5 BE3FBE69B16E4BAC2C69D2396D6DE756 sha1 C063E2DC2789DB0D72FE478BEA010AC6841F3AAB )
 )
 
 game (
@@ -87,7 +80,6 @@ game (
 game (
 	name "Ai to Yume to Bouken Sanrio Puroland (Japan)"
 	description "Ai to Yume to Bouken Sanrio Puroland (Japan)"
-	serial "HPC-6014"
 	rom ( name "Ai to Yume to Bouken Sanrio Puroland (Japan).md" size 1048576 crc 6BEFD952 md5 1A6ABAEB03F89C8ACAA5C645CCECF014 sha1 3DA7124A74F53330D87D25EB5032B41ECA022FF1 )
 )
 
@@ -100,21 +92,18 @@ game (
 game (
 	name "Anpanman Eigo - Tanosii Kanibaru (Taiwan)"
 	description "Anpanman Eigo - Tanosii Kanibaru (Taiwan)"
-	serial "MK-49800-16"
 	rom ( name "Anpanman Eigo - Tanosii Kanibaru (Taiwan).md" size 1048576 crc D2F15D6F md5 87AE8E5422B3F1AA7BBAC2FD4206889F sha1 A2014920D3C255130738F687C49C2ADE3CD37331 )
 )
 
 game (
 	name "Anpanman to PC Renshuu! (Japan)"
 	description "Anpanman to PC Renshuu! (Japan)"
-	serial "HPC-6102"
 	rom ( name "Anpanman to PC Renshuu! (Japan).md" size 2097152 crc 7080CC7A md5 74B6BE7337A1A0748710FC3EDDAEC007 sha1 0DF483EAA1AB7D1C56B0A2EDE6B385ED14393E46 )
 )
 
 game (
 	name "Ashita no Nadja (Japan)"
 	description "Ashita no Nadja (Japan)"
-	serial "T-133430"
 	rom ( name "Ashita no Nadja (Japan).md" size 2097152 crc 0A7F07CC md5 DD9E81F5B113C50E69D7A1BE48184C70 sha1 19DD2E42EE1D785DFE52EC334AB5B226259F9BA5 )
 )
 
@@ -133,14 +122,12 @@ game (
 game (
 	name "Bakuryuu Sentai Abaranger (Japan)"
 	description "Bakuryuu Sentai Abaranger (Japan)"
-	serial "HPC-T133440-00"
 	rom ( name "Bakuryuu Sentai Abaranger (Japan).md" size 2097152 crc 0BD73CF6 md5 022693669340E0E89A8B0F2289221D8F sha1 DF12E28A2F1E49F51D2D8968D38993F2F93B648C )
 )
 
 game (
 	name "Barbapapa no Uchuu Ryokou (Japan)"
 	description "Barbapapa no Uchuu Ryokou (Japan)"
-	serial "HPC-6036"
 	rom ( name "Barbapapa no Uchuu Ryokou (Japan).md" size 524288 crc D9AD6EFF md5 2358D2DCF7167F985F515B53D6F5BBC5 sha1 3B1D65CF77C1C70011D9B12C8531CEAEEBD0E98D )
 )
 
@@ -177,7 +164,6 @@ game (
 game (
 	name "Bishoujo Senshi Sailor Moon SuperS (Japan)"
 	description "Bishoujo Senshi Sailor Moon SuperS (Japan)"
-	serial "T-133130-00"
 	rom ( name "Bishoujo Senshi Sailor Moon SuperS (Japan).md" size 524288 crc A616E7B3 md5 978DC0C74E915AC4F31BFCA2E784584A sha1 773CA5EF704A17227F25318D6E5113C0A72BF5E8 )
 )
 
@@ -190,35 +176,30 @@ game (
 game (
 	name "Choukou Senshi Changerion (Japan)"
 	description "Choukou Senshi Changerion (Japan)"
-	serial "HPC-6038"
 	rom ( name "Choukou Senshi Changerion (Japan).md" size 524288 crc 763CBCF4 md5 52E7D06F9940A0D6530C3A3C576A9B4F sha1 68A592EBE972A984EB6C631A363BD60C384ED5AF )
 )
 
 game (
 	name "Conveni de o-Kaimono! (Japan)"
 	description "Conveni de o-Kaimono! (Japan)"
-	serial "HPC-6094"
 	rom ( name "Conveni de o-Kaimono! (Japan).md" size 2097152 crc C95A4EF3 md5 2379C2B1309765719A03347FB6214772 sha1 24D03589C4192E139F0EB33CE6E4B4A87C949A9B )
-)
-
-game (
-	name "Cooking Pico (Korea) (Samsung Pico)"
-	description "Cooking Pico (Korea) (Samsung Pico)"
-	serial "HPC-6076"
-	rom ( name "Cooking Pico (Korea) (Samsung Pico).md" size 2097152 crc C8FD3AD4 md5 2C579CF7728AAB08B89C0709052E6CE9 sha1 6D35B3411DF37222ACB3A36E4C7830E92A8E3FBA )
 )
 
 game (
 	name "Cooking Pico (Japan)"
 	description "Cooking Pico (Japan)"
-	serial "HPC-6076"
-	rom ( name "Cooking Pico (Japan).md" size 2097152 crc B94F7D54 md5 850A977DA3CCC1A9CD839420F33BDE00 sha1 DABEB440ADBB7477CC880C51FB0CFC1E5F99D23B flags verified )
+	rom ( name "Cooking Pico (Japan).md" size 2097152 crc B94F7D54 md5 850A977DA3CCC1A9CD839420F33BDE00 sha1 DABEB440ADBB7477CC880C51FB0CFC1E5F99D23B )
+)
+
+game (
+	name "Cooking Pico (Korea) (Samsung Pico)"
+	description "Cooking Pico (Korea) (Samsung Pico)"
+	rom ( name "Cooking Pico (Korea) (Samsung Pico).md" size 2097152 crc C8FD3AD4 md5 2C579CF7728AAB08B89C0709052E6CE9 sha1 6D35B3411DF37222ACB3A36E4C7830E92A8E3FBA )
 )
 
 game (
 	name "Copera no Chikyuu Daisuki (Japan) (Mixt Book Player - Copera)"
 	description "Copera no Chikyuu Daisuki (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-9"
 	rom ( name "Copera no Chikyuu Daisuki (Japan) (Mixt Book Player - Copera).md" size 1048576 crc 9A5DD562 md5 9D56E4ED21D91630FB7A94090A8D6AC5 sha1 730195FC41EFB923A4F8E8ACD5228D1AE8B16C16 )
 )
 
@@ -231,14 +212,12 @@ game (
 game (
 	name "Copera no Time Machine (Japan) (Mixt Book Player - Copera)"
 	description "Copera no Time Machine (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-3"
 	rom ( name "Copera no Time Machine (Japan) (Mixt Book Player - Copera).md" size 1048576 crc A7D33072 md5 CC13B093F0BFA16EA55D3E1525A0008D sha1 081C61E35478FFDDA6EDA58F40BE056732F35595 )
 )
 
 game (
 	name "Cores Magicas (Brazil)"
 	description "Cores Magicas (Brazil)"
-	serial "MPR-18319"
 	rom ( name "Cores Magicas (Brazil).md" size 524288 crc 81046D4D md5 88E227DEB63122C35175B4688BAC5366 sha1 CA2FFBA211E088A9B1F0047E86013E65E2948B04 )
 )
 
@@ -251,14 +230,12 @@ game (
 game (
 	name "Crayon Shin-chan no o-Ekaki Note (Japan)"
 	description "Crayon Shin-chan no o-Ekaki Note (Japan)"
-	serial "T-133080-00"
 	rom ( name "Crayon Shin-chan no o-Ekaki Note (Japan).md" size 524288 crc 843C3AF4 md5 C91C1F60CA33AB70342BF635AA299879 sha1 878733FFB5B0464F82F102F8500650BFE0B4ADD4 )
 )
 
 game (
 	name "Crayon Shin-chan no Ora to Issho ni Asobou yo! (Japan)"
 	description "Crayon Shin-chan no Ora to Issho ni Asobou yo! (Japan)"
-	serial "T-133020-00"
 	rom ( name "Crayon Shin-chan no Ora to Issho ni Asobou yo! (Japan).md" size 524288 crc 966002FB md5 989D596683C2A88F2611F80CE9D43976 sha1 07C0ACDC0871A962D9BFCC79178A1C8E8FEC4953 )
 )
 
@@ -277,14 +254,12 @@ game (
 game (
 	name "Dance Pico - Hashitte Odotte Chou Happy! (Japan)"
 	description "Dance Pico - Hashitte Odotte Chou Happy! (Japan)"
-	serial "HPC-6118"
 	rom ( name "Dance Pico - Hashitte Odotte Chou Happy! (Japan).md" size 2097152 crc 412F06FC md5 19633B006956281A39364D2B37E4401E sha1 E53362675C66762C3046BC03D03C22CF2C745C01 )
 )
 
 game (
 	name "Dare ga Deru kana Moshimoshi Pico de TV to o-Shaberi! (Japan)"
 	description "Dare ga Deru kana Moshimoshi Pico de TV to o-Shaberi! (Japan)"
-	serial "HPC-6046"
 	rom ( name "Dare ga Deru kana Moshimoshi Pico de TV to o-Shaberi! (Japan).md" size 1048576 crc 13DF7314 md5 578F88E7736A195981A222DF12682E78 sha1 22F0D1C6A37EFF02EE3A277EA9DF018304557CCF )
 )
 
@@ -297,7 +272,6 @@ game (
 game (
 	name "Denji Sentai Megaranger (Japan)"
 	description "Denji Sentai Megaranger (Japan)"
-	serial "T-133220-00"
 	rom ( name "Denji Sentai Megaranger (Japan).md" size 524288 crc B69B31BA md5 9FCA8984FABECC5E2295D9E3889C32A1 sha1 F1FD7787E6BCBBA207DBB8B0A43960FE8618C2E4 )
 )
 
@@ -310,7 +284,6 @@ game (
 game (
 	name "Disney Princess - Ariel (Japan)"
 	description "Disney Princess - Ariel (Japan)"
-	serial "HPC-6138-00"
 	rom ( name "Disney Princess - Ariel (Japan).md" size 2097152 crc 581361F7 md5 DE8EA03FA42BFEFAD5EB692F27900341 sha1 921AD22EEE062DD053C24590CBF05A9C4D591882 )
 )
 
@@ -323,14 +296,12 @@ game (
 game (
 	name "Disney Princess - Princess ni Naritai! (Japan) (Rev 1)"
 	description "Disney Princess - Princess ni Naritai! (Japan) (Rev 1)"
-	serial "HPC-6136-01"
 	rom ( name "Disney Princess - Princess ni Naritai! (Japan) (Rev 1).md" size 2097152 crc 5D8D1EDA md5 EFDCC7E4026494A44FD5B697BCDE1F3C sha1 31D47CAD551AA46D78565A17A78914DAB3AB58ED )
 )
 
 game (
 	name "Disney Princess Suteki ni Lesson! Hiragana-Katakana (Japan)"
 	description "Disney Princess Suteki ni Lesson! Hiragana-Katakana (Japan)"
-	serial "HPC-6145"
 	rom ( name "Disney Princess Suteki ni Lesson! Hiragana-Katakana (Japan).md" size 2097152 crc 761E7D3C md5 BCD2677B40FFFDB54D7B3E609A2BC074 sha1 F7E35CB1084130B95CA5ADD40E263D15DC54B6A5 )
 )
 
@@ -343,14 +314,12 @@ game (
 game (
 	name "Do Re Mi Fa Densetsu (Japan) (Mixt Book Player - Copera)"
 	description "Do Re Mi Fa Densetsu (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-2"
 	rom ( name "Do Re Mi Fa Densetsu (Japan) (Mixt Book Player - Copera).md" size 1048576 crc 24AA1251 md5 4613AAD140E70F206BA1FE70DD8BC44B sha1 1A7D5156AA3F2FFBA168BCE1BBD9436CB0C11510 )
 )
 
 game (
 	name "Donald no Obake Taiji (Japan)"
 	description "Donald no Obake Taiji (Japan)"
-	serial "HPC-6005-00"
 	rom ( name "Donald no Obake Taiji (Japan).md" size 524288 crc D660D6FA md5 FE238A9D488EFE6BDE241367B737C9D5 sha1 342916B5F08E90FAE7EE9BD77A3FFD98286BF2F8 )
 )
 
@@ -369,7 +338,6 @@ game (
 game (
 	name "Doraemon - Chiiku Asobi Dora-Land (Japan)"
 	description "Doraemon - Chiiku Asobi Dora-Land (Japan)"
-	serial "HPC-T226100-00"
 	rom ( name "Doraemon - Chiiku Asobi Dora-Land (Japan).md" size 2097152 crc A83470CA md5 4D0EB335A74758ECC0FC558DB4E7032C sha1 E37F722D4C04CB965BBEBD3DA22B9F97F836C315 )
 )
 
@@ -388,21 +356,18 @@ game (
 game (
 	name "Doraemon - Ensoku, Imohori, Undoukai (Japan) (10th Anniversary)"
 	description "Doraemon - Ensoku, Imohori, Undoukai (Japan) (10th Anniversary)"
-	serial "T-226090"
 	rom ( name "Doraemon - Ensoku, Imohori, Undoukai (Japan) (10th Anniversary).md" size 2097152 crc 5ADCB456 md5 D1AFFD50D2B48289DB0084D2E1CA01FE sha1 9609C98DD34E6D5E5D0389D019C3017B9F244AFF )
 )
 
 game (
 	name "Doraemon - Issho ni Utaou! Doraemon - Waku Waku Karaoke (Japan)"
 	description "Doraemon - Issho ni Utaou! Doraemon - Waku Waku Karaoke (Japan)"
-	serial "HPC-6072"
 	rom ( name "Doraemon - Issho ni Utaou! Doraemon - Waku Waku Karaoke (Japan).md" size 2097152 crc 17D36259 md5 09DABA3865F06F738D63B91AA16BE489 sha1 69F191DB6BCCB53C81561A5D3C3E47D7FCC45DA9 )
 )
 
 game (
 	name "Doraemon - Kazoete, Kantan Kazu Tokei (Japan)"
 	description "Doraemon - Kazoete, Kantan Kazu Tokei (Japan)"
-	serial "T-226050-00"
 	rom ( name "Doraemon - Kazoete, Kantan Kazu Tokei (Japan).md" size 2097152 crc C603FB1B md5 293EBF8DB1370D676FCCD45C48B34990 sha1 44AB8AC936683446A9B2A438AB22E878521EC32C )
 )
 
@@ -415,35 +380,30 @@ game (
 game (
 	name "Doraemon - Nobita to Maigo no Kyouryuu (Japan) (Rev 2)"
 	description "Doraemon - Nobita to Maigo no Kyouryuu (Japan) (Rev 2)"
-	serial "HPC-6004-02"
 	rom ( name "Doraemon - Nobita to Maigo no Kyouryuu (Japan) (Rev 2).md" size 524288 crc 190DADBE md5 67C12E20045C0088AA63B2592DC89ADE sha1 4BA7A3B30033F1C5B5ADFD3EC7A1500AC912790D )
 )
 
 game (
 	name "Doraemon - Time Machine de Daibouken (Japan)"
 	description "Doraemon - Time Machine de Daibouken (Japan)"
-	serial "T-226010-00"
 	rom ( name "Doraemon - Time Machine de Daibouken (Japan).md" size 524288 crc 7010775A md5 FCC3A3F7B8FBD8E3D53D6AAFCB69A21B sha1 ACFA501EDDBAD82DFFBC75A988C7413B97B952C2 )
 )
 
 game (
 	name "Doraemon - Yometa yo, Kaketa yo Hiragana Katakana (Japan)"
 	description "Doraemon - Yometa yo, Kaketa yo Hiragana Katakana (Japan)"
-	serial "T-226040-00"
 	rom ( name "Doraemon - Yometa yo, Kaketa yo Hiragana Katakana (Japan).md" size 2097152 crc 67EAE2D0 md5 74178C932883A011A6CD0787C47D7CB6 sha1 7C1D2F216EBCB28261E3A28E119266318B834FF1 )
 )
 
 game (
 	name "Doraemon - Youchien wa Tanoshii na (Japan)"
 	description "Doraemon - Youchien wa Tanoshii na (Japan)"
-	serial "T-226020-00"
 	rom ( name "Doraemon - Youchien wa Tanoshii na (Japan).md" size 1048576 crc C68C35C0 md5 54EA60B4FF81EB16ADAC0F0EFD8CC279 sha1 DF2A97A73CFF3C097D16A18CD673177D6824C7AB )
 )
 
 game (
 	name "Doraemon Machinaka (Taiwan)"
 	description "Doraemon Machinaka (Taiwan)"
-	serial "MK-49805-16"
 	rom ( name "Doraemon Machinaka (Taiwan).md" size 524288 crc CDC2855A md5 ED7543CD150054756DDCFE9D8D576B1F sha1 C9F8DA3B87491543F9B9784136DBD433B2970978 )
 )
 
@@ -456,14 +416,12 @@ game (
 game (
 	name "Doubutsu Pico - Hamster Land (Japan)"
 	description "Doubutsu Pico - Hamster Land (Japan)"
-	serial "T133390-00"
 	rom ( name "Doubutsu Pico - Hamster Land (Japan).md" size 1048576 crc 8FF36CDE md5 2A34B173DAE75AAD415208AD9DA04C40 sha1 07CEAC76997CB9442BE45FFB8E23C226F699359B )
 )
 
 game (
 	name "Dreamland Tour (Korea) (Samsung Pico)"
 	description "Dreamland Tour (Korea) (Samsung Pico)"
-	serial "T-102161-08"
 	rom ( name "Dreamland Tour (Korea) (Samsung Pico).md" size 1048576 crc 7D2AAA9A md5 308C82DC3863A41F2750569DBAC2E34C sha1 17060B1D622FA8DFFE0DB2DE748472C21AAAC364 )
 )
 
@@ -476,50 +434,49 @@ game (
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 1 Patty And Her Family - Patty-chan Family (Japan) (Rev 1)"
 	description "ECC Junior no Hajimete Eigo Vol. 1 Patty And Her Family - Patty-chan Family (Japan) (Rev 1)"
-	serial "HPC-6103-01"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 1 Patty And Her Family - Patty-chan Family (Japan) (Rev 1).md" size 4194304 crc 2650E0C1 md5 6DDAD3BE86D31663809D46348C8A62C6 sha1 2E69A43AFE121AD394667FB784BC7203D9DF2A12 )
 )
 
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 2 Patty Goes On A Picnic - Patty-chan no Picnic (Japan)"
 	description "ECC Junior no Hajimete Eigo Vol. 2 Patty Goes On A Picnic - Patty-chan no Picnic (Japan)"
-	serial "HPC-6104"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 2 Patty Goes On A Picnic - Patty-chan no Picnic (Japan).md" size 4194304 crc C867237A md5 731B72BF4AEC104E090DD8691CBFAA22 sha1 F69CC420CC178D1EFD9C76C853A9AA8D8CC24091 )
 )
 
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 3 Happy Birthday, Patty! - Patty-chan no o-Tanjoubi (Japan)"
 	description "ECC Junior no Hajimete Eigo Vol. 3 Happy Birthday, Patty! - Patty-chan no o-Tanjoubi (Japan)"
-	serial "HPC-6105"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 3 Happy Birthday, Patty! - Patty-chan no o-Tanjoubi (Japan).md" size 4194304 crc A7FAF67C md5 E4A2686D2B5F5A0AFD159F16B72B4E76 sha1 25527816EBEA51395B1ABF011E3784EB24662D78 )
 )
 
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 4 Patty Loves Animals - Doubutsu Daisuki, Patty-chan (Japan)"
 	description "ECC Junior no Hajimete Eigo Vol. 4 Patty Loves Animals - Doubutsu Daisuki, Patty-chan (Japan)"
-	serial "HPC-6106"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 4 Patty Loves Animals - Doubutsu Daisuki, Patty-chan (Japan).md" size 4194304 crc D412C517 md5 7B38C0A394D9E01D8CCECFB3ADA434A4 sha1 9CD14906040C3C5F5E4232BBD91DABA5BFE2670A )
 )
 
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 5 Merry Christmas, Patty! - Merry Christmas, Patty-chan (Japan)"
 	description "ECC Junior no Hajimete Eigo Vol. 5 Merry Christmas, Patty! - Merry Christmas, Patty-chan (Japan)"
-	serial "HPC-6107"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 5 Merry Christmas, Patty! - Merry Christmas, Patty-chan (Japan).md" size 4194304 crc 7AED02A7 md5 39A0530811A558A876696C5D2D510016 sha1 9A4F2B0A0C0C8AE0BBB5977C6743E18BC65C39E0 )
 )
 
 game (
 	name "ECC Junior no Hajimete Eigo Vol. 6 Patty Goes to the Amusement Park - Patty-chan Yuuenchi ni Iku (Japan)"
 	description "ECC Junior no Hajimete Eigo Vol. 6 Patty Goes to the Amusement Park - Patty-chan Yuuenchi ni Iku (Japan)"
-	serial "HPC-6108"
 	rom ( name "ECC Junior no Hajimete Eigo Vol. 6 Patty Goes to the Amusement Park - Patty-chan Yuuenchi ni Iku (Japan).md" size 4194304 crc 8F3335A8 md5 3AA4DA64B9026BBDA7E592067CB6290F sha1 7A9910D88C25197AE31F70B80F9A336DD133CBA7 )
 )
 
 game (
 	name "Ecco Jr. - No fundo do mar! (Brazil)"
 	description "Ecco Jr. - No fundo do mar! (Brazil)"
-	serial "MPR-18318"
 	rom ( name "Ecco Jr. - No fundo do mar! (Brazil).md" size 524288 crc 557670CF md5 293EE04E1702B61AFB5C0AF9D67BEE75 sha1 FC8936611B4FB868838FD1AD60FBA4944E4F8822 )
+)
+
+game (
+	name "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe)"
+	description "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe)"
+	rom ( name "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe).md" size 524288 crc 19D01424 md5 F8ECD78E7ECFAA8D355CD8DBDD0595A7 sha1 E958DE86E66FCA658E59E55207621CA8226B8831 )
 )
 
 game (
@@ -529,16 +486,8 @@ game (
 )
 
 game (
-	name "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe)"
-	description "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe)"
-	serial "MK-49022-05"
-	rom ( name "Ecco Jr. and The Great Ocean Treasure Hunt! (Europe).md" size 524288 crc 19D01424 md5 F8ECD78E7ECFAA8D355CD8DBDD0595A7 sha1 E958DE86E66FCA658E59E55207621CA8226B8831 )
-)
-
-game (
 	name "Ecco Jr. e la Grande Caccia al Tesoro nell'Oceano! (Italy)"
 	description "Ecco Jr. e la Grande Caccia al Tesoro nell'Oceano! (Italy)"
-	serial "MK-49022-13"
 	rom ( name "Ecco Jr. e la Grande Caccia al Tesoro nell'Oceano! (Italy).md" size 524288 crc 03CA1014 md5 7452382B8C6BAD64DC13B3AAD5553D20 sha1 64E5D8F749E9E6C839B3655C9E8CF38E699C058D )
 )
 
@@ -575,21 +524,24 @@ game (
 game (
 	name "El Profesor Pico en el Mundo de los Colores (Spain)"
 	description "El Profesor Pico en el Mundo de los Colores (Spain)"
-	serial "MK-49041-06"
 	rom ( name "El Profesor Pico en el Mundo de los Colores (Spain).md" size 524288 crc 1596DC6A md5 B7012FEF5CE7517DD38628369259B2FF sha1 56C27945258C46BAD7F6B71F57838184349D5882 )
+)
+
+game (
+	name "Ett Ar Med Nalle Puh (Sweden)"
+	description "Ett Ar Med Nalle Puh (Sweden)"
+	rom ( name "Ett Ar Med Nalle Puh (Sweden).md" size 524288 crc 0A48BBB9 md5 554186D6823641384669B72EF76D79DF sha1 A702D91A72066BEA72E7CFF9013F1B94F2623761 )
 )
 
 game (
 	name "Exciting! Hataraku Norimono-tachi (Japan)"
 	description "Exciting! Hataraku Norimono-tachi (Japan)"
-	serial "T-193040"
 	rom ( name "Exciting! Hataraku Norimono-tachi (Japan).md" size 1048576 crc EAF2B204 md5 9D7FDE07895CB58B8E945F4A672D5A2E sha1 3D572469AF1E38B748452894A55566AC23892523 )
 )
 
 game (
 	name "Fishing Pico - Donald no Adventure Fishing (Japan)"
 	description "Fishing Pico - Donald no Adventure Fishing (Japan)"
-	serial "HPC-6082"
 	rom ( name "Fishing Pico - Donald no Adventure Fishing (Japan).md" size 2097152 crc 5BC3BE15 md5 C48E4FE3EB951CF2C6047B665BCEC776 sha1 2BBDCE0AABF19CE1BDE30EFD39DE83B1AD4B9970 )
 )
 
@@ -614,7 +566,6 @@ game (
 game (
 	name "Gakken Hajimete no Moji, Kotoba (Japan)"
 	description "Gakken Hajimete no Moji, Kotoba (Japan)"
-	serial "T-169080"
 	rom ( name "Gakken Hajimete no Moji, Kotoba (Japan).md" size 2097152 crc E1F3F407 md5 59F994B0103141218C80F7355B76CEBD sha1 948685170CB41200E255D10DB23E73D33F92B92A )
 )
 
@@ -645,15 +596,13 @@ game (
 game (
 	name "Gakken no o-Benkyou Soft - Kazu, Suuji (Japan)"
 	description "Gakken no o-Benkyou Soft - Kazu, Suuji (Japan)"
-	serial "T-169050"
 	rom ( name "Gakken no o-Benkyou Soft - Kazu, Suuji (Japan).md" size 1048576 crc 1C828987 md5 52CF14358FB584884A45CC6581A1CF57 sha1 C12F22A7D2A99C01CD0FB70154EEE07B41420D30 )
 )
 
 game (
-	name "Gakken no Obenkyou Soft - Tashizan Hikizan (Japan)"
-	description "Gakken no Obenkyou Soft - Tashizan Hikizan (Japan)"
-	serial "T-169070-00"
-	rom ( name "Gakken no Obenkyou Soft - Tashizan Hikizan (Japan).md" size 524288 crc 25639A73 md5 A8A6E60096955D31B8BADC2E4526CE1B sha1 D0A768236E21D05EA1734691AB9031EA7A4B3E47 )
+	name "Gakken no o-Benkyou Soft - Tashizan Hikizan (Japan)"
+	description "Gakken no o-Benkyou Soft - Tashizan Hikizan (Japan)"
+	rom ( name "Gakken no o-Benkyou Soft - Tashizan Hikizan (Japan).md" size 524288 crc 25639A73 md5 A8A6E60096955D31B8BADC2E4526CE1B sha1 D0A768236E21D05EA1734691AB9031EA7A4B3E47 )
 )
 
 game (
@@ -683,7 +632,6 @@ game (
 game (
 	name "Gegege no Kitarou (Japan)"
 	description "Gegege no Kitarou (Japan)"
-	serial "T-133180"
 	rom ( name "Gegege no Kitarou (Japan).md" size 524288 crc F1E31A7B md5 2BB40BB2E3AB70A55D2B4E4BC1337C85 sha1 8F4636E2181132715E068A4251064CF120E91D66 )
 )
 
@@ -750,49 +698,42 @@ game (
 game (
 	name "Heisei Kyouiku Iinkai Jr. Mezase Yuutousei (Japan)"
 	description "Heisei Kyouiku Iinkai Jr. Mezase Yuutousei (Japan)"
-	serial "T-150270-00"
 	rom ( name "Heisei Kyouiku Iinkai Jr. Mezase Yuutousei (Japan).md" size 524288 crc 8BA23BBE md5 C1976D4B6A8F06A9E070D91475D68E59 sha1 85E6ED98F5E7BFA04C1B099BBA79DDD34CCDD40E )
 )
 
 game (
 	name "Heisei Tensai Bakabon - Minna de Family Resturant ni Iku no da! (Japan)"
 	description "Heisei Tensai Bakabon - Minna de Family Resturant ni Iku no da! (Japan)"
-	serial "T-170010"
 	rom ( name "Heisei Tensai Bakabon - Minna de Family Resturant ni Iku no da! (Japan).md" size 524288 crc 3656AF85 md5 901C10D53BC5A3880F19DD5597B7FC98 sha1 708CD58D6182A4F2448BE3D2DB97943C063A04F9 )
 )
 
 game (
 	name "Hello Kitty no Castelo (Brazil)"
 	description "Hello Kitty no Castelo (Brazil)"
-	serial "MPR-18316"
 	rom ( name "Hello Kitty no Castelo (Brazil).md" size 524288 crc 788DE189 md5 F46ED729B5908480177D80C8E461E599 sha1 C58A8B64D6372E85199B03C379AAE2CFB0308A62 )
 )
 
 game (
 	name "Hello Kitty no Suteki na O-tanjoubi (Japan)"
 	description "Hello Kitty no Suteki na O-tanjoubi (Japan)"
-	serial "HPC-6040-00"
 	rom ( name "Hello Kitty no Suteki na O-tanjoubi (Japan).md" size 1048576 crc 45DED176 md5 5AC3AD77AD766135854AB79756CF9BE1 sha1 A451D2674A3D7AA88B8A0BEFB96F48B55FF77BC1 )
 )
 
 game (
 	name "Hello Kitty no Tanoshii Butoukai (Japan)"
 	description "Hello Kitty no Tanoshii Butoukai (Japan)"
-	serial "HPC-6002-00"
 	rom ( name "Hello Kitty no Tanoshii Butoukai (Japan).md" size 524288 crc 18256466 md5 6DC0250EBE206184FCB2B9D8EBA6AAB1 sha1 1DFFEA9F1087CDF4C92C1091F9033BD97F2E28E3 )
 )
 
 game (
 	name "Hello Kitty no Tanoshii o-Mise-ya-san (Japan)"
 	description "Hello Kitty no Tanoshii o-Mise-ya-san (Japan)"
-	serial "HPC-6117-00"
 	rom ( name "Hello Kitty no Tanoshii o-Mise-ya-san (Japan).md" size 2097152 crc D56D174D md5 016218DF8939A12DC6E840491DEE2B51 sha1 B563B40F5B8975C01CBF468E6398930FD1830643 )
 )
 
 game (
 	name "Hello Kitty to McDonald's de Asobo! (Japan)"
 	description "Hello Kitty to McDonald's de Asobo! (Japan)"
-	serial "HPC-6100"
 	rom ( name "Hello Kitty to McDonald's de Asobo! (Japan).md" size 2097152 crc 829A4EC5 md5 7591A7265F42F450B4A8E9F65342B45C sha1 22B8A709F88CD9A7D22C5538FD39D253AF3F98C1 )
 )
 
@@ -805,28 +746,24 @@ game (
 game (
 	name "Hirake! Ponkikki - Party o Hirakou! (Japan)"
 	description "Hirake! Ponkikki - Party o Hirakou! (Japan)"
-	serial "HPC-6003"
 	rom ( name "Hirake! Ponkikki - Party o Hirakou! (Japan).md" size 524288 crc 369D5E12 md5 71DA28DA0E137C994A6C50CF205E9A5A sha1 13D3C6D97CD703A7450272B44AD37E38C5339DEE )
-)
-
-game (
-	name "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection)"
-	description "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection)"
-	serial "T-133490"
-	rom ( name "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection).md" size 2097152 crc 91E0AEAC md5 0CE03C1DDAC95BD27318A356E0C987F3 sha1 2F3A5F3B1B5C096C4037B1C1025F5DBD7F8D524D )
 )
 
 game (
 	name "Issho ni Hashirou Kikansha Thomas (Japan)"
 	description "Issho ni Hashirou Kikansha Thomas (Japan)"
-	serial "T-133140"
 	rom ( name "Issho ni Hashirou Kikansha Thomas (Japan).md" size 524288 crc E5B93C6C md5 C9F7973FD52C86B718AFA9608EF57045 sha1 BF542822F90BD5C5590B8AE637B85C5EA982688C )
+)
+
+game (
+	name "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection)"
+	description "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection)"
+	rom ( name "Issho ni Hashirou Kikansha Thomas (Japan) (Best Selection).md" size 2097152 crc 91E0AEAC md5 0CE03C1DDAC95BD27318A356E0C987F3 sha1 2F3A5F3B1B5C096C4037B1C1025F5DBD7F8D524D )
 )
 
 game (
 	name "Itsudemo Issho Doraemon (Japan)"
 	description "Itsudemo Issho Doraemon (Japan)"
-	serial "HPC-6081"
 	rom ( name "Itsudemo Issho Doraemon (Japan).md" size 2097152 crc DA7E56DC md5 D27DBE6BED70E6836ADE17526984D505 sha1 FAC2A89ED72A7FB85C6D02A46048A062DE67486D )
 )
 
@@ -851,14 +788,12 @@ game (
 game (
 	name "Kaitou Saint Tail - Saint Tail to One, Two, Three! (Japan)"
 	description "Kaitou Saint Tail - Saint Tail to One, Two, Three! (Japan)"
-	serial "HPC-6035-00"
 	rom ( name "Kaitou Saint Tail - Saint Tail to One, Two, Three! (Japan).md" size 1048576 crc E1ABF964 md5 96D9BDF6BF4D6F874C48050C9F033D33 sha1 174F46776F27D133E947DDD6DC8929F29B76D071 )
 )
 
 game (
 	name "Kamen Rider 555 (Japan)"
 	description "Kamen Rider 555 (Japan)"
-	serial "T-133450"
 	rom ( name "Kamen Rider 555 (Japan).md" size 2097152 crc 2194FAD5 md5 3AA789A325E290E921D69F6099458BFD sha1 944F588CC0BCF2311852E83DFC4A67387AADA3AF )
 )
 
@@ -877,14 +812,12 @@ game (
 game (
 	name "Kero Kero Keroppi no Harikiri Undoukai (Japan)"
 	description "Kero Kero Keroppi no Harikiri Undoukai (Japan)"
-	serial "HPC-6006"
 	rom ( name "Kero Kero Keroppi no Harikiri Undoukai (Japan).md" size 524288 crc 8386AB4C md5 E619B738B41F21502908E412B0CA2367 sha1 6E424A9F3CE358B93A5DCD29315DD2DB809C6989 )
 )
 
 game (
 	name "Keyboard Pico 2 Set with Sawattemiyou! Yoiko no Hajimete Keyboard (Japan)"
 	description "Keyboard Pico 2 Set with Sawattemiyou! Yoiko no Hajimete Keyboard (Japan)"
-	serial "HPC-6052-00"
 	rom ( name "Keyboard Pico 2 Set with Sawattemiyou! Yoiko no Hajimete Keyboard (Japan).md" size 1048576 crc 01B0869E md5 750D6AFD48ABA9D0C39971921BFB4C44 sha1 95DD0C0517BFA468486A14959EBB1B10A70227D7 )
 )
 
@@ -903,7 +836,6 @@ game (
 game (
 	name "Kiki & Lala - Hoshi no Kazu Asobi (Japan)"
 	description "Kiki & Lala - Hoshi no Kazu Asobi (Japan)"
-	serial "HPC-6133"
 	rom ( name "Kiki & Lala - Hoshi no Kazu Asobi (Japan).md" size 2097152 crc 8250F8D6 md5 31EE8AD055BA87EF17982488202F373E sha1 C1322828A22148CC678FA637F156CB56D49E50A4 )
 )
 
@@ -922,7 +854,6 @@ game (
 game (
 	name "Kosume Pico Motto Kawaiku Naritai na (Japan)"
 	description "Kosume Pico Motto Kawaiku Naritai na (Japan)"
-	serial "HPC-6112"
 	rom ( name "Kosume Pico Motto Kawaiku Naritai na (Japan).md" size 2097152 crc BFC8FA4B md5 DD07EA2EAC1F8A96EB622D6079C2352E sha1 07C4EE9F8CD73FF64EA9C18FC8573E1BF57A4D5F )
 )
 
@@ -941,7 +872,6 @@ game (
 game (
 	name "Kuma no Pooh-san - Tanoshii Tashizan Hikizan (Japan)"
 	description "Kuma no Pooh-san - Tanoshii Tashizan Hikizan (Japan)"
-	serial "HPC-6137-00"
 	rom ( name "Kuma no Pooh-san - Tanoshii Tashizan Hikizan (Japan).md" size 2097152 crc EDA6B93C md5 C6E042579B41DDCBBC635949F9D665BD sha1 5DC53A2B40BB3F11181862C819A9FD4D02E77D9C )
 )
 
@@ -960,14 +890,12 @@ game (
 game (
 	name "Lancio di Topolino nel Passato (Italy)"
 	description "Lancio di Topolino nel Passato (Italy)"
-	serial "MK-49024-13"
 	rom ( name "Lancio di Topolino nel Passato (Italy).md" size 524288 crc 6E406F2C md5 637BE7F90A159C0683C5AA618FEA9CF6 sha1 16702AE751798A59E7C81C3E373CEB247B1EA0C3 )
 )
 
 game (
 	name "Lapices de Colores Magicos (Spain)"
 	description "Lapices de Colores Magicos (Spain)"
-	serial "MK-49026-06"
 	rom ( name "Lapices de Colores Magicos (Spain).md" size 524288 crc 7FE5394E md5 1939D9EA912EE4F0CA1310200A9C1C94 sha1 5E40B09D2F14FDAC6069C09118A6AF8C76F488B8 )
 )
 
@@ -984,9 +912,14 @@ game (
 )
 
 game (
+	name "Lejonkungen Aventyr (Sweden)"
+	description "Lejonkungen Aventyr (Sweden)"
+	rom ( name "Lejonkungen Aventyr (Sweden).md" size 1048576 crc C515EB6E md5 091E4EDF90AE0B5F3F1C248132AD660B sha1 F72F9037C7F21A6BA5BEBD7F835AE74BE352D29A )
+)
+
+game (
 	name "Les Aventures du Roi Lion (France)"
 	description "Les Aventures du Roi Lion (France)"
-	serial "MK-49037-09, MPR-18557-U"
 	rom ( name "Les Aventures du Roi Lion (France).md" size 1048576 crc F8A95177 md5 AA1EA874328BACAB73BE1E7C9D4733E5 sha1 8C1853E1C6EBA378CB2EFC71039462CBB021C0ED )
 )
 
@@ -1009,22 +942,20 @@ game (
 )
 
 game (
+	name "Magic Crayons (Europe)"
+	description "Magic Crayons (Europe)"
+	rom ( name "Magic Crayons (Europe).md" size 524288 crc 8F97E8FB md5 78DCD821661D08EC4EB9EAD7183C461A sha1 C03F33FABF77989F0177A20B786447728EAAE96E )
+)
+
+game (
 	name "Magic Crayons (USA)"
 	description "Magic Crayons (USA)"
 	rom ( name "Magic Crayons (USA).md" size 1048576 crc A443512B md5 5C0CC1398694A3434A038C49E50DC401 sha1 08A3236FA54A6A4993BAF5CF4C1FFBD77739C6BF )
 )
 
 game (
-	name "Magic Crayons (Europe)"
-	description "Magic Crayons (Europe)"
-	serial "MK-49026-05"
-	rom ( name "Magic Crayons (Europe).md" size 524288 crc 8F97E8FB md5 78DCD821661D08EC4EB9EAD7183C461A sha1 C03F33FABF77989F0177A20B786447728EAAE96E )
-)
-
-game (
 	name "Magic Knight Rayearth - Magic Knight Tanjou (Japan)"
 	description "Magic Knight Rayearth - Magic Knight Tanjou (Japan)"
-	serial "HPC-6022-00"
 	rom ( name "Magic Knight Rayearth - Magic Knight Tanjou (Japan).md" size 1048576 crc 5E3762E2 md5 CBFC096B7466EE78B9E69221CFA2DAB8 sha1 86CED0EB5329C1CEBFFFC5CD977F7988A6E0C0A9 )
 )
 
@@ -1043,21 +974,18 @@ game (
 game (
 	name "McDonald's de Asobo! (Japan)"
 	description "McDonald's de Asobo! (Japan)"
-	serial "HPC-6079"
 	rom ( name "McDonald's de Asobo! (Japan).md" size 2097152 crc 474D946E md5 3CDE721D78BA49F685B3D9FA7EA24D54 sha1 3615CF2F28133C3D35003BEF16A517D5379E9C20 )
 )
 
 game (
 	name "Melody Land (Japan) (Mixt Book Player - Copera)"
 	description "Melody Land (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-1"
 	rom ( name "Melody Land (Japan) (Mixt Book Player - Copera).md" size 1048576 crc 9B05ACC9 md5 43E1B061F492C0E7C7BF8687DC30528F sha1 CD4F3260309A1236F6F0D491F385D4DECECA349E )
 )
 
 game (
 	name "Mezase Pro Yakyuu (Japan)"
 	description "Mezase Pro Yakyuu (Japan)"
-	serial "HPC-6021-00"
 	rom ( name "Mezase Pro Yakyuu (Japan).md" size 1048576 crc C66D53D2 md5 1DBD567DE71A553163E01D89C229E121 sha1 8989810067E9AABC8FE01646FE2E6D9FCA4A7059 )
 )
 
@@ -1076,14 +1004,12 @@ game (
 game (
 	name "Mickey - Le Echa un Vistazo al Pasado (Spain)"
 	description "Mickey - Le Echa un Vistazo al Pasado (Spain)"
-	serial "MK-49024-06"
 	rom ( name "Mickey - Le Echa un Vistazo al Pasado (Spain).md" size 524288 crc 64809150 md5 C48607261238D58240E2EA5739D20E5D sha1 76A7A97D11B7A86E68E88E6BB1238C9C3B998B35 )
 )
 
 game (
 	name "Mickey - Viajando no Tempo (Brazil)"
 	description "Mickey - Viajando no Tempo (Brazil)"
-	serial "MPR-18315"
 	rom ( name "Mickey - Viajando no Tempo (Brazil).md" size 524288 crc A1D63B9A md5 1620574607623845254AD72FFCBD012C sha1 B1912DD0DDD19C38CC5DFEB92E669535B2E1619F )
 )
 
@@ -1094,17 +1020,15 @@ game (
 )
 
 game (
-	name "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1)"
-	description "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1)"
-	serial "T-255010-01"
-	rom ( name "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1).md" size 524288 crc F3D95A84 md5 57C2E9E5E86724CCB286CA1D1744D96E sha1 25D7B87E42E69E49D813B7F49888696DD5924C51 )
+	name "Mickey no Tokyo Disneyland Stamp Rally (Japan)"
+	description "Mickey no Tokyo Disneyland Stamp Rally (Japan)"
+	rom ( name "Mickey no Tokyo Disneyland Stamp Rally (Japan).md" size 524288 crc BBD0D994 md5 B484045089E756F0747AE9297EB224B4 sha1 94BA4902C9675CD9BF9E6F0449EE87C34C90072B )
 )
 
 game (
-	name "Mickey no Tokyo Disneyland Stamp Rally (Japan)"
-	description "Mickey no Tokyo Disneyland Stamp Rally (Japan)"
-	serial "T-255010"
-	rom ( name "Mickey no Tokyo Disneyland Stamp Rally (Japan).md" size 524288 crc BBD0D994 md5 B484045089E756F0747AE9297EB224B4 sha1 94BA4902C9675CD9BF9E6F0449EE87C34C90072B )
+	name "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1)"
+	description "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1)"
+	rom ( name "Mickey no Tokyo Disneyland Stamp Rally (Japan) (Rev 1).md" size 524288 crc F3D95A84 md5 57C2E9E5E86724CCB286CA1D1744D96E sha1 25D7B87E42E69E49D813B7F49888696DD5924C51 )
 )
 
 game (
@@ -1116,21 +1040,19 @@ game (
 game (
 	name "Mickey no Yukai na Bouken (Japan) (Rev 1)"
 	description "Mickey no Yukai na Bouken (Japan) (Rev 1)"
-	serial "HPC-6001-01"
 	rom ( name "Mickey no Yukai na Bouken (Japan) (Rev 1).md" size 524288 crc A07DB677 md5 F370CB60D5886901583DE20409D9DA74 sha1 2D385F42D609B3F0C1B9C392A3DC2195E89FBCD3 )
-)
-
-game (
-	name "Mickey to Ooki na Furudokei (Taiwan)"
-	description "Mickey to Ooki na Furudokei (Taiwan)"
-	serial "MK-49807-16"
-	rom ( name "Mickey to Ooki na Furudokei (Taiwan).md" size 1048576 crc 27B74C2D md5 27E2A5D47AFABED32A494C101E8C922A sha1 459B9C49124894E0A3E5124D13CE34FF109FF076 )
 )
 
 game (
 	name "Mickey to Ooki na Furudokei (Japan) (Rev 2)"
 	description "Mickey to Ooki na Furudokei (Japan) (Rev 2)"
 	rom ( name "Mickey to Ooki na Furudokei (Japan) (Rev 2).md" size 1048576 crc CB331903 md5 F1776EFC0E2A75ED69D415244F470A2E sha1 C790D72AEF37A835E977231E8097C1F4950A1B11 )
+)
+
+game (
+	name "Mickey to Ooki na Furudokei (Taiwan)"
+	description "Mickey to Ooki na Furudokei (Taiwan)"
+	rom ( name "Mickey to Ooki na Furudokei (Taiwan).md" size 1048576 crc 27B74C2D md5 27E2A5D47AFABED32A494C101E8C922A sha1 459B9C49124894E0A3E5124D13CE34FF109FF076 )
 )
 
 game (
@@ -1142,7 +1064,6 @@ game (
 game (
 	name "Mickey's Blast into the Past (Europe)"
 	description "Mickey's Blast into the Past (Europe)"
-	serial "MK-49024-05"
 	rom ( name "Mickey's Blast into the Past (Europe).md" size 524288 crc 28D87851 md5 9D3795CADC0C036A89137497D5FE76D4 sha1 82482636109E42135AE7DB677D92FF814A684633 )
 )
 
@@ -1179,14 +1100,12 @@ game (
 game (
 	name "MiniMoni. - Eigo de Asobun Da pyon! (Japan)"
 	description "MiniMoni. - Eigo de Asobun Da pyon! (Japan)"
-	serial "HPC-6122"
 	rom ( name "MiniMoni. - Eigo de Asobun Da pyon! (Japan).md" size 2097152 crc 9CEDFAC5 md5 7306F4A500DCA8716B1E9AE87D1F5D6C sha1 DEA9772E3503180A844B4728E3ED8EEB0911A978 )
 )
 
 game (
 	name "MiniMoni. - Shougakkou e Ikun Da pyon! (Japan)"
 	description "MiniMoni. - Shougakkou e Ikun Da pyon! (Japan)"
-	serial "HPC-6120-00"
 	rom ( name "MiniMoni. - Shougakkou e Ikun Da pyon! (Japan).md" size 2097152 crc BFE1CEB5 md5 80A981E9163BADC79467CB38E375611B sha1 B0F82F3B7AD188656A048DD24FFF8B844CA6068C )
 )
 
@@ -1205,14 +1124,12 @@ game (
 game (
 	name "Minna de Odorou - Oz no Mahoutsukai (Japan)"
 	description "Minna de Odorou - Oz no Mahoutsukai (Japan)"
-	serial "HPC-6037-00"
 	rom ( name "Minna de Odorou - Oz no Mahoutsukai (Japan).md" size 2097152 crc B2C17F1B md5 E6184456D3FEB265266FFD4B91744531 sha1 0C60D4FF8CEF472BB9EC01AF21D503A5BF8CFAA6 )
 )
 
 game (
 	name "Moero!! Robocon - o-Ekaki Robocon!! (Japan)"
 	description "Moero!! Robocon - o-Ekaki Robocon!! (Japan)"
-	serial "T-133290"
 	rom ( name "Moero!! Robocon - o-Ekaki Robocon!! (Japan).md" size 524288 crc E4116DC0 md5 730A215B11A910C30992FCD38CC447B7 sha1 78B17719D1D3DC81394509AC6F988C05D50B638A )
 )
 
@@ -1225,7 +1142,6 @@ game (
 game (
 	name "Muat Tago Galka (Korea) (Samsung Pico)"
 	description "Muat Tago Galka (Korea) (Samsung Pico)"
-	serial "T-102151-08"
 	rom ( name "Muat Tago Galka (Korea) (Samsung Pico).md" size 1048576 crc 9974D421 md5 9680138F0AF6BC87D588FAA169457DCF sha1 7026DEC346CE459AD5E81F3C4D209E2480D6626C )
 )
 
@@ -1244,28 +1160,24 @@ game (
 game (
 	name "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - Asobi Ippai Uta Ippai! (Japan)"
 	description "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - Asobi Ippai Uta Ippai! (Japan)"
-	serial "T-133090"
 	rom ( name "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - Asobi Ippai Uta Ippai! (Japan).md" size 524288 crc A26F6CEB md5 CAC9C46D522117B7ACD89E2658B042BA sha1 7A13953F214DC56CAA2565317CE984AB6C302B37 )
 )
 
 game (
 	name "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - o-Ekaki Daaisuki! - Omoshiro o-Ekaki Daishuugou! (Japan)"
 	description "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - o-Ekaki Daaisuki! - Omoshiro o-Ekaki Daishuugou! (Japan)"
-	serial "HPC-6068"
 	rom ( name "NHK o-Kaasan to Issho - Do Re Mi Fa Donut! - o-Ekaki Daaisuki! - Omoshiro o-Ekaki Daishuugou! (Japan).md" size 1048576 crc D3172171 md5 38DDC99619237CF043F2FCA588D88642 sha1 1FD236710576CA69A5F361EE721FC26F64C00F4B )
 )
 
 game (
 	name "NHK o-Kaasan to Issho - Genki na Ko Atsumare! (Japan)"
 	description "NHK o-Kaasan to Issho - Genki na Ko Atsumare! (Japan)"
-	serial "HPC-6025"
 	rom ( name "NHK o-Kaasan to Issho - Genki na Ko Atsumare! (Japan).md" size 1048576 crc 6275CC32 md5 00BA3DC63B3A70CC2FCAAA5F8888E431 sha1 F9D2F7A3B88CBFFB1F77D595D2EB151A5FDEEC92 )
 )
 
 game (
 	name "NHK o-Kaasan to Issho - Goo Choco Lantan - Minna de o-Ekaki! - Tanoshii Asobi mo ippai! (Japan)"
 	description "NHK o-Kaasan to Issho - Goo Choco Lantan - Minna de o-Ekaki! - Tanoshii Asobi mo ippai! (Japan)"
-	serial "HPC-6092-00"
 	rom ( name "NHK o-Kaasan to Issho - Goo Choco Lantan - Minna de o-Ekaki! - Tanoshii Asobi mo ippai! (Japan).md" size 2097152 crc 40764BCF md5 0C56E900AC5281CB94935BD42EBDB31B sha1 9143B0688DCA4C9557E8A1D05E2810CAD818FAFB )
 )
 
@@ -1278,7 +1190,6 @@ game (
 game (
 	name "Nintama Rantarou (Japan)"
 	description "Nintama Rantarou (Japan)"
-	serial "T133150-00"
 	rom ( name "Nintama Rantarou (Japan).md" size 524288 crc EB563723 md5 361277E67E13D3FCE1774DF9F17E02FA sha1 ECB68EF756DACBF15B100BA29F62F0588C05457B )
 )
 
@@ -1297,42 +1208,36 @@ game (
 game (
 	name "O Rei Leao - As Aventuras De Simba (Brazil)"
 	description "O Rei Leao - As Aventuras De Simba (Brazil)"
-	serial "e0e0fef1"
 	rom ( name "O Rei Leao - As Aventuras De Simba (Brazil).md" size 1048576 crc E0E0FEF1 md5 BEAC8448A5360423E8ABD688A6AC28EE sha1 32C18F081935A2752C942A1570AEDB9B9B4ADE18 )
 )
 
 game (
 	name "o-Sewa Shimasho! Aka-chan Pico (Japan)"
 	description "o-Sewa Shimasho! Aka-chan Pico (Japan)"
-	serial "HPC-6109"
 	rom ( name "o-Sewa Shimasho! Aka-chan Pico (Japan).md" size 2097152 crc 1E843A86 md5 CDF5109E254CC3958CBE754EC4E80B9D sha1 3494B01637C5546C537839EDAC0471A1105797BB )
 )
 
 game (
 	name "Ojamajo Doremi # (Japan)"
 	description "Ojamajo Doremi # (Japan)"
-	serial "T-133330"
 	rom ( name "Ojamajo Doremi # (Japan).md" size 1048576 crc B4858FFF md5 36B7C8EBC1B1D3E824CCDFF10134F561 sha1 44BF0EE3D134174A736703E0E1354B4544A681E7 )
 )
 
 game (
 	name "Ojamajo Doremi Dokka~n! (Japan)"
 	description "Ojamajo Doremi Dokka~n! (Japan)"
-	serial "T-133410-00"
 	rom ( name "Ojamajo Doremi Dokka~n! (Japan).md" size 2097152 crc 9C31107F md5 526050E8FF22509A975312B2BE86D5AC sha1 F96F74ADBFF56DFD1685FD769828DCC56429404E )
 )
 
 game (
 	name "Ojarumaru (Japan)"
 	description "Ojarumaru (Japan)"
-	serial "T-133310-00"
 	rom ( name "Ojarumaru (Japan).md" size 524288 crc EA435ADA md5 068EA34D38AACB69DE6BFFC0D9585D6F sha1 AD87574E303A6792743409599BBA25C56D777F88 )
 )
 
 game (
 	name "Ongaku Daisuki Snoopy (Japan)"
 	description "Ongaku Daisuki Snoopy (Japan)"
-	serial "HPC-6030-00"
 	rom ( name "Ongaku Daisuki Snoopy (Japan).md" size 1048576 crc 287E866F md5 80D185E9A79CEFE77D41CBC9C316F424 sha1 28C9DC463534E7E152890E0C2A105F149DCA34CD )
 )
 
@@ -1345,21 +1250,18 @@ game (
 game (
 	name "Otto Katachitchi (Japan) (Mixt Book Player - Copera)"
 	description "Otto Katachitchi (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-4"
 	rom ( name "Otto Katachitchi (Japan) (Mixt Book Player - Copera).md" size 1048576 crc D1AEE834 md5 0A63402C8EA767E9B5419EC386F24B2D sha1 93C825160286B483904428EECE2B14E521C20D15 )
 )
 
 game (
 	name "Ougon Yuusha Goldran Himitsu Daihyakka (Japan)"
 	description "Ougon Yuusha Goldran Himitsu Daihyakka (Japan)"
-	serial "T-103020"
 	rom ( name "Ougon Yuusha Goldran Himitsu Daihyakka (Japan).md" size 524288 crc 9A167A43 md5 9AB7EE48C43236F0B16100CBB43FE3E9 sha1 A5C3DA1403FC8A17ABEFA68B8DBCDE751CFA74A9 )
 )
 
 game (
 	name "Outa no Canvas (Japan) (Mixt Book Player - Copera)"
 	description "Outa no Canvas (Japan) (Mixt Book Player - Copera)"
-	serial "MMGS-5"
 	rom ( name "Outa no Canvas (Japan) (Mixt Book Player - Copera).md" size 1048576 crc B25E7134 md5 098B96C6A2D9C27BE529EE00A3B4CA93 sha1 0578314E66B2385E0520A421AF695CCFEF44F076 )
 )
 
@@ -1372,21 +1274,18 @@ game (
 game (
 	name "Paketto 2 Yukai na Nakama to Game de Kazu Asobi (Japan)"
 	description "Paketto 2 Yukai na Nakama to Game de Kazu Asobi (Japan)"
-	serial "HPC-6048"
 	rom ( name "Paketto 2 Yukai na Nakama to Game de Kazu Asobi (Japan).md" size 2097152 crc 6DD450F5 md5 911434F73AD47C81F091AA5634D715DC sha1 56579B02774EC28521E1B25F16DEBE43BC43149F )
 )
 
 game (
 	name "Pecola no Daibouken - Maboroshi no Ice Cream o Sagase! (Japan)"
 	description "Pecola no Daibouken - Maboroshi no Ice Cream o Sagase! (Japan)"
-	serial "HPC-6066"
 	rom ( name "Pecola no Daibouken - Maboroshi no Ice Cream o Sagase! (Japan).md" size 1048576 crc 8B393840 md5 BB929E06A749BBF3436D07A3B5F88825 sha1 E89F1BCD17D4D3BA6F97BD16A13336E094B90210 )
 )
 
 game (
 	name "Pengin Ukiuki Bikkuri Suizokukan - Meiro Puzzle (Japan)"
 	description "Pengin Ukiuki Bikkuri Suizokukan - Meiro Puzzle (Japan)"
-	serial "HPC-6008-00"
 	rom ( name "Pengin Ukiuki Bikkuri Suizokukan - Meiro Puzzle (Japan).md" size 524288 crc 502CCAA3 md5 B8D0620F773C57C8F8E017E82F25863D sha1 92EFDA23D282BA2D2D7BFB5490442B55795AB9CE )
 )
 
@@ -1399,28 +1298,25 @@ game (
 game (
 	name "Pet to Issho ni Tanoshiku Asobo - Pasokon Pico (Japan)"
 	description "Pet to Issho ni Tanoshiku Asobo - Pasokon Pico (Japan)"
-	serial "HPC-6144"
 	rom ( name "Pet to Issho ni Tanoshiku Asobo - Pasokon Pico (Japan).md" size 2097152 crc BDAD4962 md5 A76F08F769EB9DCD777DEAB2AA5638B0 sha1 60C7404A81EDCF1D558DBBD97EDA0D93FC4227D9 )
 )
 
 game (
 	name "Petapeta Chokkin Asoberu Zukan - Doubutsu (Japan)"
 	description "Petapeta Chokkin Asoberu Zukan - Doubutsu (Japan)"
-	serial "HPC-6028-00"
 	rom ( name "Petapeta Chokkin Asoberu Zukan - Doubutsu (Japan).md" size 524288 crc 4F0EDCE3 md5 7B48A4FC6420424393969130E4A74260 sha1 9782459DCA47AC06890789F5299BCC0BF7466BC8 )
-)
-
-game (
-	name "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary)"
-	description "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary)"
-	serial "HPC-6124"
-	rom ( name "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary).md" size 2097152 crc E0EA39C0 md5 003BA695BE2371E4EDA21CDAFBAA5060 sha1 AE35761B41632DFBE4F1A6F3065A5DB2514D5558 )
 )
 
 game (
 	name "Peter Pan - Neverland e Ikou! (Japan)"
 	description "Peter Pan - Neverland e Ikou! (Japan)"
 	rom ( name "Peter Pan - Neverland e Ikou! (Japan).md" size 1048576 crc E91EF80A md5 A60486010E55982B361FA9F40C8E3A3F sha1 68ACB94634912E38D3D25385BD00B3832042EEDC )
+)
+
+game (
+	name "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary)"
+	description "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary)"
+	rom ( name "Peter Pan - Neverland e Ikou! (Japan) (10th Anniversary).md" size 2097152 crc E0EA39C0 md5 003BA695BE2371E4EDA21CDAFBAA5060 sha1 AE35761B41632DFBE4F1A6F3065A5DB2514D5558 )
 )
 
 game (
@@ -1444,14 +1340,18 @@ game (
 game (
 	name "Plarail Pico - Plarail de Asobou! (Japan)"
 	description "Plarail Pico - Plarail de Asobou! (Japan)"
-	serial "HPC-6099"
 	rom ( name "Plarail Pico - Plarail de Asobou! (Japan).md" size 2097152 crc 442298EE md5 C0C70C27BF76B5913B581DE4FE58C12C sha1 E40812561106E177B7874E6F7827AAAD26B1740D )
+)
+
+game (
+	name "Pocahontas - Riverbend Adventures (USA)"
+	description "Pocahontas - Riverbend Adventures (USA)"
+	rom ( name "Pocahontas - Riverbend Adventures (USA).md" size 1048576 crc EDF2218B md5 9E69816C04E46E20C181A478548E5ADB sha1 B2C70BB26F9FED925B6BEAB27DB73D8FC7E21CD7 )
 )
 
 game (
 	name "Pocahontas (Brazil)"
 	description "Pocahontas (Brazil)"
-	serial "MPR-18808"
 	rom ( name "Pocahontas (Brazil).md" size 1048576 crc 752114C8 md5 1EB991CE2EB02872D9DB7B40A8B2F7E6 sha1 F1CA449A2AAB70F1F4AEB4430E9EE0F7384D6364 )
 )
 
@@ -1459,13 +1359,6 @@ game (
 	name "Pocahontas (Europe)"
 	description "Pocahontas (Europe)"
 	rom ( name "Pocahontas (Europe).md" size 1048576 crc DEEFBFD9 md5 99B591162383355A437D589E03380528 sha1 8376F01619DEF050FA7A2F53D48AA32AB0E860CD )
-)
-
-game (
-	name "Pocahontas - Riverbend Adventures (USA)"
-	description "Pocahontas - Riverbend Adventures (USA)"
-	serial "MK-49030-00"
-	rom ( name "Pocahontas - Riverbend Adventures (USA).md" size 1048576 crc EDF2218B md5 9E69816C04E46E20C181A478548E5ADB sha1 B2C70BB26F9FED925B6BEAB27DB73D8FC7E21CD7 )
 )
 
 game (
@@ -1487,16 +1380,15 @@ game (
 )
 
 game (
-	name "Pooh-san no Hajimete no Eigo (Japan) (Rev 1)"
-	description "Pooh-san no Hajimete no Eigo (Japan) (Rev 1)"
-	rom ( name "Pooh-san no Hajimete no Eigo (Japan) (Rev 1).md" size 2097152 crc 265A764A md5 2CBC051B8BE53419B89A6A5467D23DB2 sha1 A6FC3B973518678CAF89605F841CAD6407C7E861 )
+	name "Pooh-san no Hajimete no Eigo (Japan)"
+	description "Pooh-san no Hajimete no Eigo (Japan)"
+	rom ( name "Pooh-san no Hajimete no Eigo (Japan).md" size 2097152 crc 7E4F093C md5 988FA5A5552885B263C7C7CCE0F67033 sha1 29BFFCE1AECAA7CC439AD18A23ECB4D5C919AD65 )
 )
 
 game (
-	name "Pooh-san no Hajimete no Eigo (Japan)"
-	description "Pooh-san no Hajimete no Eigo (Japan)"
-	serial "HPC-T255060-00"
-	rom ( name "Pooh-san no Hajimete no Eigo (Japan).md" size 2097152 crc 7E4F093C md5 988FA5A5552885B263C7C7CCE0F67033 sha1 29BFFCE1AECAA7CC439AD18A23ECB4D5C919AD65 )
+	name "Pooh-san no Hajimete no Eigo (Japan) (Rev 1)"
+	description "Pooh-san no Hajimete no Eigo (Japan) (Rev 1)"
+	rom ( name "Pooh-san no Hajimete no Eigo (Japan) (Rev 1).md" size 2097152 crc 265A764A md5 2CBC051B8BE53419B89A6A5467D23DB2 sha1 A6FC3B973518678CAF89605F841CAD6407C7E861 )
 )
 
 game (
@@ -1514,7 +1406,6 @@ game (
 game (
 	name "Pooh-san to Tanoshii Nakama-tachi (Japan)"
 	description "Pooh-san to Tanoshii Nakama-tachi (Japan)"
-	serial "HPC-6054-00"
 	rom ( name "Pooh-san to Tanoshii Nakama-tachi (Japan).md" size 524288 crc 4811D334 md5 C58A5395987A737D118CDDC1DABDD585 sha1 7321CDECB77D27E7FDE6CD3937A24D24DE6D35DF )
 )
 
@@ -1527,7 +1418,6 @@ game (
 game (
 	name "Professor Pico and the Paintbox Puzzle (Europe)"
 	description "Professor Pico and the Paintbox Puzzle (Europe)"
-	serial "MK-49041-05"
 	rom ( name "Professor Pico and the Paintbox Puzzle (Europe).md" size 524288 crc 2E81A633 md5 62B4F6DE7BE60031C8F4C50E1E15E9B2 sha1 A32376E294D0B7F0CC2043965891784BBE614E09 )
 )
 
@@ -1564,7 +1454,6 @@ game (
 game (
 	name "Rhythm Pico - Pippi-chan to Rhythm Asobi (Japan)"
 	description "Rhythm Pico - Pippi-chan to Rhythm Asobi (Japan)"
-	serial "HPC-6074"
 	rom ( name "Rhythm Pico - Pippi-chan to Rhythm Asobi (Japan).md" size 2097152 crc 1652EA8D md5 193EF26BDB399925653CCC4CCEF05D2A sha1 F99A6701E6295EDB41E887F50474A873CAC3DB57 )
 )
 
@@ -1577,7 +1466,6 @@ game (
 game (
 	name "Richard Scarry's Huckle and Lowly's Busiest Day Ever (Europe)"
 	description "Richard Scarry's Huckle and Lowly's Busiest Day Ever (Europe)"
-	serial "MK-49028-05"
 	rom ( name "Richard Scarry's Huckle and Lowly's Busiest Day Ever (Europe).md" size 1048576 crc E9604594 md5 2C339C7B3924EAE258BB99510B9ADBE5 sha1 24C892B87C0A55AA10B5A8559C3EDDBAA15AF69A )
 )
 
@@ -1612,16 +1500,15 @@ game (
 )
 
 game (
-	name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1)"
-	description "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1)"
-	rom ( name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1).md" size 524288 crc 836F6478 md5 07837733934A39359876CE0F85D940D9 sha1 6194C99AC07AC343DC98FEE23A8D77AA7049D779 )
+	name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan)"
+	description "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan)"
+	rom ( name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan).md" size 524288 crc 6080779D md5 4CC4A71CCD6FFE87E035D01D94A49BB4 sha1 5BE121B25AB4CDA4C7859707107EC04B42F25469 )
 )
 
 game (
-	name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan)"
-	description "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan)"
-	serial "T-150210-00"
-	rom ( name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan).md" size 524288 crc 6080779D md5 4CC4A71CCD6FFE87E035D01D94A49BB4 sha1 5BE121B25AB4CDA4C7859707107EC04B42F25469 )
+	name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1)"
+	description "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1)"
+	rom ( name "Sanou Kaihatsu Series 1 - Atama ga Yoku Naru - Zukei Ninshiki (Japan) (Rev 1).md" size 524288 crc 836F6478 md5 07837733934A39359876CE0F85D940D9 sha1 6194C99AC07AC343DC98FEE23A8D77AA7049D779 )
 )
 
 game (
@@ -1639,7 +1526,6 @@ game (
 game (
 	name "Sanou Kaihatsu Series 5 - Meiro - Kioku (Japan)"
 	description "Sanou Kaihatsu Series 5 - Meiro - Kioku (Japan)"
-	serial "T-150240-00"
 	rom ( name "Sanou Kaihatsu Series 5 - Meiro - Kioku (Japan).md" size 524288 crc 6340C18A md5 EBD5AAEBFEEF22F6E2BB3A2AD87276C0 sha1 101D5652FFD704788F1F44B671BE843E3430E58A )
 )
 
@@ -1652,21 +1538,18 @@ game (
 game (
 	name "Sanrio Festival - Tanoshii Card-zukuri (Japan)"
 	description "Sanrio Festival - Tanoshii Card-zukuri (Japan)"
-	serial "HPC-6031-00"
 	rom ( name "Sanrio Festival - Tanoshii Card-zukuri (Japan).md" size 524288 crc 732373F6 md5 6C07BD38A6B6A986CB9EF2343768ADD6 sha1 7DAD2AD9F60E508D264EFD048686788CFDD2F73F )
 )
 
 game (
 	name "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan)"
 	description "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan)"
-	serial "HPC-6026-00"
 	rom ( name "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan).md" size 1048576 crc B69E3BAA md5 4B2425070D3532A8CFECD46AFEBF7C90 sha1 EA7B9E819E282D7BE83B07A5CA6258F01FB77541 )
 )
 
 game (
 	name "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan) (Rev 1)"
 	description "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan) (Rev 1)"
-	serial "HPC-6123-01"
 	rom ( name "Sanrio Puroland de Dance Carnival - Minna de o-Ryouri o-Saihou (Japan) (Rev 1).md" size 1048576 crc A947A477 md5 A871C4F12AB60B54F140047D2C425AC2 sha1 80CF679B4D542E0C9DDE7D026F4A37BD8DCB7C29 )
 )
 
@@ -1679,7 +1562,6 @@ game (
 game (
 	name "Satonaka Machiko no Tanoshii Origami (Japan)"
 	description "Satonaka Machiko no Tanoshii Origami (Japan)"
-	serial "T-233010-00"
 	rom ( name "Satonaka Machiko no Tanoshii Origami (Japan).md" size 524288 crc 90D39634 md5 755D372D57ED45E36F2F92D797BF1138 sha1 531DB0B4BCE64D312E73B97341E4EAF134506068 )
 )
 
@@ -1704,7 +1586,6 @@ game (
 game (
 	name "Shichida Makoto Kanshuu - Unou Image Training - Sansuu, Eigo de Mojars ni Chousen - The Arithmetic & ABC Fight VS Mojars - Image Training for the Right Side of the Brain (Japan)"
 	description "Shichida Makoto Kanshuu - Unou Image Training - Sansuu, Eigo de Mojars ni Chousen - The Arithmetic & ABC Fight VS Mojars - Image Training for the Right Side of the Brain (Japan)"
-	serial "HPC-T075010"
 	rom ( name "Shichida Makoto Kanshuu - Unou Image Training - Sansuu, Eigo de Mojars ni Chousen - The Arithmetic & ABC Fight VS Mojars - Image Training for the Right Side of the Brain (Japan).md" size 2097152 crc 42A578A8 md5 3B717970C330811C734CB34B313F8D48 sha1 5CA5F0EF8741ACB5D58CE0F61E6789EC2ADB00EA )
 )
 
@@ -1717,49 +1598,42 @@ game (
 game (
 	name "Shima Shima Tora no Shimajiro - Tanoshii Ichinichi (Japan)"
 	description "Shima Shima Tora no Shimajiro - Tanoshii Ichinichi (Japan)"
-	serial "HPC-6085-00"
 	rom ( name "Shima Shima Tora no Shimajiro - Tanoshii Ichinichi (Japan).md" size 2097152 crc D228A783 md5 1D4194098C9CF794429C63D6B0685F24 sha1 1B2C4A81C88A86274F0A24F63AE4EE59339B8E67 )
 )
 
 game (
 	name "Shin Ultra Hero (Japan)"
 	description "Shin Ultra Hero (Japan)"
-	serial "T-133280"
 	rom ( name "Shin Ultra Hero (Japan).md" size 524288 crc 92097565 md5 0C703F3BDA93D4A9D416070B5CCE416B sha1 DB7648DD4B9C54F46B5248EE9C726848AE59998B )
 )
 
 game (
 	name "Shin Ultraman Pico - Ultra Fighting Base (Japan)"
 	description "Shin Ultraman Pico - Ultra Fighting Base (Japan)"
-	serial "T-133380-00"
 	rom ( name "Shin Ultraman Pico - Ultra Fighting Base (Japan).md" size 1048576 crc 203DC701 md5 35D9A87E8B962FF0C3399162AAE70E30 sha1 4D2D17BDDB03B4AB179F4DB1FFA2482137B51A29 )
 )
 
 game (
 	name "Shinseiki Ultraman Densetsu (Japan)"
 	description "Shinseiki Ultraman Densetsu (Japan)"
-	serial "T-133420-00"
 	rom ( name "Shinseiki Ultraman Densetsu (Japan).md" size 1048576 crc CFD50A38 md5 82ACF55DBD92B59AE43CD6C479A1F750 sha1 971706BD87E7D611DDF379AD87FAD7B3560F0ECB )
 )
 
 game (
 	name "Shirayukihime (Japan)"
 	description "Shirayukihime (Japan)"
-	serial "HPC-6077"
 	rom ( name "Shirayukihime (Japan).md" size 2097152 crc 6B2493A2 md5 C3CCCC6269A7B1CDBA34FA38F33D1B06 sha1 DAAD822FFBCF1784F5CDA10984D4FC62352B7844 )
 )
 
 game (
 	name "Smart Alex and Smart Alice - Curious Kids (USA)"
 	description "Smart Alex and Smart Alice - Curious Kids (USA)"
-	serial "MK -49029-00"
 	rom ( name "Smart Alex and Smart Alice - Curious Kids (USA).md" size 524288 crc 8B5E7490 md5 A23897661B56E03FD89767FD37B5C3F9 sha1 1D809139FD2926107A9FAE6270B10615C6F6477F )
 )
 
 game (
 	name "Snoopy no Gakugeikai (Japan)"
 	description "Snoopy no Gakugeikai (Japan)"
-	serial "HPC-6016-00"
 	rom ( name "Snoopy no Gakugeikai (Japan).md" size 524288 crc B76CD97C md5 70690FE656DA25E38A071103FAB451F9 sha1 6D6B49249CD4513D59E1C863FED5F273113D7E9B )
 )
 
@@ -1770,23 +1644,21 @@ game (
 )
 
 game (
-	name "Sonic The Hedgehog's Gameworld (USA)"
-	description "Sonic The Hedgehog's Gameworld (USA)"
-	rom ( name "Sonic The Hedgehog's Gameworld (USA).md" size 524288 crc E472A795 md5 825674B726B2545019C4B7BDEE05D6B7 sha1 839D8BE99EABF371BB992166471C877DB6F6E265 )
+	name "Sonic The Hedgehog's Gameworld (Japan)"
+	description "Sonic The Hedgehog's Gameworld (Japan)"
+	rom ( name "Sonic The Hedgehog's Gameworld (Japan).md" size 524288 crc DF7A9599 md5 FC9F9E294F09072956227C2D0DAD903E sha1 6AF6BF20056CCAC6ECDC0EBAD323EAF4BFFB5963 )
 )
 
 game (
 	name "Sonic The Hedgehog's Gameworld (Japan) (Rev 1)"
 	description "Sonic The Hedgehog's Gameworld (Japan) (Rev 1)"
-	serial "HPC-6010-01"
 	rom ( name "Sonic The Hedgehog's Gameworld (Japan) (Rev 1).md" size 524288 crc B8F507FA md5 ABEE1C260E051EE1B52B651FBB6D6355 sha1 A2F920EA5737EB24591274F84B28DA97DB72A151 )
 )
 
 game (
-	name "Sonic The Hedgehog's Gameworld (Japan)"
-	description "Sonic The Hedgehog's Gameworld (Japan)"
-	serial "HPC-6010-00"
-	rom ( name "Sonic The Hedgehog's Gameworld (Japan).md" size 524288 crc DF7A9599 md5 FC9F9E294F09072956227C2D0DAD903E sha1 6AF6BF20056CCAC6ECDC0EBAD323EAF4BFFB5963 )
+	name "Sonic The Hedgehog's Gameworld (USA)"
+	description "Sonic The Hedgehog's Gameworld (USA)"
+	rom ( name "Sonic The Hedgehog's Gameworld (USA).md" size 524288 crc E472A795 md5 825674B726B2545019C4B7BDEE05D6B7 sha1 839D8BE99EABF371BB992166471C877DB6F6E265 )
 )
 
 game (
@@ -1798,14 +1670,12 @@ game (
 game (
 	name "Soreike! Anpanman - Anpanman no Chie no World (Japan)"
 	description "Soreike! Anpanman - Anpanman no Chie no World (Japan)"
-	serial "HPC-6131-00"
 	rom ( name "Soreike! Anpanman - Anpanman no Chie no World (Japan).md" size 4194304 crc 1F633203 md5 B8732F0EAAC07A1E109C321F3E6F5E87 sha1 F663E6DC7E5919773571E84B27E1882160DD1C01 )
 )
 
 game (
 	name "Soreike! Anpanman - Anpanman no Hitori de Dekichatta! (Japan)"
 	description "Soreike! Anpanman - Anpanman no Hitori de Dekichatta! (Japan)"
-	serial "HPC-6146-01"
 	rom ( name "Soreike! Anpanman - Anpanman no Hitori de Dekichatta! (Japan).md" size 2097152 crc 0EE99056 md5 670E71E290C2A9E8A809DB31C08F4D13 sha1 AF10335AF9C0A61FC6D6390EF648038E7776A57A )
 )
 
@@ -1824,7 +1694,6 @@ game (
 game (
 	name "Soreike! Anpanman - Anpanman to Suuji Asobi (Japan)"
 	description "Soreike! Anpanman - Anpanman to Suuji Asobi (Japan)"
-	serial "HPC-6091"
 	rom ( name "Soreike! Anpanman - Anpanman to Suuji Asobi (Japan).md" size 2097152 crc 515AC6AD md5 762FD45447329B9B238BD15A2E29BA64 sha1 B79329D8A4327C6627713D533D5E108EA5FBBEE4 )
 )
 
@@ -1843,7 +1712,6 @@ game (
 game (
 	name "Soreike! Anpanman Eigo to Nakayoshi Youchien de ABC (Japan)"
 	description "Soreike! Anpanman Eigo to Nakayoshi Youchien de ABC (Japan)"
-	serial "HPC-6012"
 	rom ( name "Soreike! Anpanman Eigo to Nakayoshi Youchien de ABC (Japan).md" size 1048576 crc 700E90DB md5 265E3FBFA9FB9DE2E69165EA4CE18FD3 sha1 FC07A121CA26E6CCB32E09B15E55BC72C3A83848 )
 )
 
@@ -1856,35 +1724,30 @@ game (
 game (
 	name "Soreike! Anpanman no Medalympic World (Japan)"
 	description "Soreike! Anpanman no Medalympic World (Japan)"
-	serial "T-133120-00"
 	rom ( name "Soreike! Anpanman no Medalympic World (Japan).md" size 524288 crc EDA45344 md5 9BB08BB01DD9B173ABD60AF9AC958372 sha1 D7A63C7FE9682C3271452FDAAB816ED51CB9DA17 )
 )
 
 game (
 	name "Soreike! Anpanman no Medalympic World 2 (Japan)"
 	description "Soreike! Anpanman no Medalympic World 2 (Japan)"
-	serial "HPC-T133300"
 	rom ( name "Soreike! Anpanman no Medalympic World 2 (Japan).md" size 524288 crc 3C57E47D md5 C4D1D62DF9072DD447E07894A2D91B82 sha1 4335E65D238C46A286E2D0CE8D821D35799AB76A )
 )
 
 game (
 	name "Soreike! Anpanman no Medalympic World 2 (Japan) (Best Selection)"
 	description "Soreike! Anpanman no Medalympic World 2 (Japan) (Best Selection)"
-	serial "T-133460"
 	rom ( name "Soreike! Anpanman no Medalympic World 2 (Japan) (Best Selection).md" size 524288 crc 8DAB2EC3 md5 DEAFA41DED91054D602319B0E7F0CE19 sha1 6EE0CE5DB07C4F3FEBA319F77F714A399176E72E )
 )
 
 game (
 	name "Soreike! Anpanman no Ohanashi Daisuki Anpanman (Japan)"
 	description "Soreike! Anpanman no Ohanashi Daisuki Anpanman (Japan)"
-	serial "T-133030-00"
 	rom ( name "Soreike! Anpanman no Ohanashi Daisuki Anpanman (Japan).md" size 524288 crc 6ED63704 md5 57DABC40D81E46A45EE29056DFC2E0F3 sha1 B443D6D5EC4109C3239B860EAC5AB024FFB68D1E )
 )
 
 game (
 	name "Susie-chan to Marvy o-Tetsudai Da~isuki! (Japan)"
 	description "Susie-chan to Marvy o-Tetsudai Da~isuki! (Japan)"
-	serial "HPC-6089"
 	rom ( name "Susie-chan to Marvy o-Tetsudai Da~isuki! (Japan).md" size 2097152 crc 178FD129 md5 A05BD898417C65F3844AC349D8DD0EA7 sha1 87C129AE9C253DF476A4B588FDAA8AFC0E4ECF67 )
 )
 
@@ -1895,16 +1758,15 @@ game (
 )
 
 game (
-	name "Tails and the Music Maker (USA)"
-	description "Tails and the Music Maker (USA)"
-	rom ( name "Tails and the Music Maker (USA).md" size 524288 crc 982154AB md5 3CA902DBEB56A28362FBBFCDCEC02D50 sha1 807EE1ED88FFDD780754043D836A848864155844 )
+	name "Tails and the Music Maker (Europe)"
+	description "Tails and the Music Maker (Europe)"
+	rom ( name "Tails and the Music Maker (Europe).md" size 524288 crc 3FD2C406 md5 A87F5CC9341C3E49E4E1F1FD31E95FDE sha1 E44E6F6520B5A9B07EA2F3CADF6114D746897595 )
 )
 
 game (
-	name "Tails and the Music Maker (Europe)"
-	description "Tails and the Music Maker (Europe)"
-	serial "MK-49023-05"
-	rom ( name "Tails and the Music Maker (Europe).md" size 524288 crc 3FD2C406 md5 A87F5CC9341C3E49E4E1F1FD31E95FDE sha1 E44E6F6520B5A9B07EA2F3CADF6114D746897595 )
+	name "Tails and the Music Maker (USA)"
+	description "Tails and the Music Maker (USA)"
+	rom ( name "Tails and the Music Maker (USA).md" size 524288 crc 982154AB md5 3CA902DBEB56A28362FBBFCDCEC02D50 sha1 807EE1ED88FFDD780754043D836A848864155844 )
 )
 
 game (
@@ -1916,7 +1778,6 @@ game (
 game (
 	name "Tails no Mundo da Musica (Brazil)"
 	description "Tails no Mundo da Musica (Brazil)"
-	serial "MPR-18317"
 	rom ( name "Tails no Mundo da Musica (Brazil).md" size 524288 crc 2BC80B15 md5 22377AD55B2E62219CC50C7B890F82CC sha1 4206D0264EDC636D8A4D435BAA87070FB8CBEE5A )
 )
 
@@ -1933,21 +1794,20 @@ game (
 )
 
 game (
-	name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)"
-	description "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)"
-	rom ( name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan).md" size 524288 crc AE02801D md5 E7A25BEF41BFBFC9FE7722EB42D2590E sha1 19C061BA15C32AC4A9EE321263E36A87BB48157D )
-)
-
-game (
 	name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien '95 Nendo Ban (Japan)"
 	description "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien '95 Nendo Ban (Japan)"
 	rom ( name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien '95 Nendo Ban (Japan).md" size 524288 crc 5AC3927E md5 130A24199E8335A33ABB371C90D68C83 sha1 F2A6AE4C7728DD6D8052D6F9425BC06E5764941A )
 )
 
 game (
+	name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)"
+	description "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan)"
+	rom ( name "Tanoshiku Asonde Nouryoku Up!! - Tanoshii Youchien (Japan).md" size 524288 crc AE02801D md5 E7A25BEF41BFBFC9FE7722EB42D2590E sha1 19C061BA15C32AC4A9EE321263E36A87BB48157D )
+)
+
+game (
 	name "The Cloud is Wizard (Korea) (Samsung Pico)"
 	description "The Cloud is Wizard (Korea) (Samsung Pico)"
-	serial "T-102131-08"
 	rom ( name "The Cloud is Wizard (Korea) (Samsung Pico).md" size 1048576 crc 70B7440E md5 F470D15BD3A3903E398933B36B12F898 sha1 D6F7B9C9E5714AFEBFDB116480F73976EAE23D17 )
 )
 
@@ -1960,7 +1820,6 @@ game (
 game (
 	name "Tokusou Sentai Dekaranger (Japan)"
 	description "Tokusou Sentai Dekaranger (Japan)"
-	serial "T-133470"
 	rom ( name "Tokusou Sentai Dekaranger (Japan).md" size 2097152 crc 9D5067A3 md5 79E5CAF29BB5089050ED90A2F10B3242 sha1 79A09C334B518357D380D09350BC31F0DF0AE243 )
 )
 
@@ -1979,21 +1838,18 @@ game (
 game (
 	name "Tomica Pico - Bokura no Machi Tomica Town de Asobou! (Japan)"
 	description "Tomica Pico - Bokura no Machi Tomica Town de Asobou! (Japan)"
-	serial "HPC-6086"
 	rom ( name "Tomica Pico - Bokura no Machi Tomica Town de Asobou! (Japan).md" size 2097152 crc A1ACE3B8 md5 F641146992B2CDBD85ADD475812B72DA sha1 57C3DA145E97FFD94397C2C265EFD05AE4E43DD9 )
 )
 
 game (
 	name "Tomica Pico Rescue Parking ~Shokai-Tomica Fuzoku~ (Japan)"
 	description "Tomica Pico Rescue Parking ~Shokai-Tomica Fuzoku~ (Japan)"
-	serial "HPC-6114"
 	rom ( name "Tomica Pico Rescue Parking ~Shokai-Tomica Fuzoku~ (Japan).md" size 2097152 crc 3E53C515 md5 262C787B7F84C4645A26AEB9D5BE8187 sha1 FFF0D70882C10ADAB3065BEBE4CE07AEE690F674 )
 )
 
 game (
 	name "Tottoko Hamtarou Tottoko Tanoshiku Aiueo - Maboroshin no Hikaru Tane o Mitsukeru no dah! (Japan)"
 	description "Tottoko Hamtarou Tottoko Tanoshiku Aiueo - Maboroshin no Hikaru Tane o Mitsukeru no dah! (Japan)"
-	serial "HPC-6142"
 	rom ( name "Tottoko Hamtarou Tottoko Tanoshiku Aiueo - Maboroshin no Hikaru Tane o Mitsukeru no dah! (Japan).md" size 2097152 crc 037B7DFB md5 9097DC0DF04C0FF5005971D489A41158 sha1 B001E0D43194DCE3CB9AA7136C67E54C19FFFA05 )
 )
 
@@ -2006,49 +1862,42 @@ game (
 game (
 	name "Tottoko Hamutaro - Oekaki Ippai! Ham-chans! (Japan)"
 	description "Tottoko Hamutaro - Oekaki Ippai! Ham-chans! (Japan)"
-	serial "HPC-T226080"
 	rom ( name "Tottoko Hamutaro - Oekaki Ippai! Ham-chans! (Japan).md" size 2097152 crc C71101D8 md5 51C82517E3EE3BF7324240111A284A6C sha1 6E7C1CEEEDF9C8ED641A7332FB1FE1A06D48FC17 )
-)
-
-game (
-	name "Toy Story 2 (Korea) (Samsung Pico)"
-	description "Toy Story 2 (Korea) (Samsung Pico)"
-	serial "HPC-6090"
-	rom ( name "Toy Story 2 (Korea) (Samsung Pico).md" size 2097152 crc 27EF458E md5 813575D83AAE18FF38608EF05C0A94F1 sha1 E4F908D235D25D21390A8965416A34C91B880B63 )
 )
 
 game (
 	name "Toy Story 2 - Woody Sousaku Daisakusen!! (Japan)"
 	description "Toy Story 2 - Woody Sousaku Daisakusen!! (Japan)"
-	serial "HPC-6090"
 	rom ( name "Toy Story 2 - Woody Sousaku Daisakusen!! (Japan).md" size 2097152 crc DCEA1CA1 md5 03F59B55BACA261E859AA638F03A33E5 sha1 FB1618898E0B3EA860BF5E4B6CF6EC257F4C5DA9 )
+)
+
+game (
+	name "Toy Story 2 (Korea) (Samsung Pico)"
+	description "Toy Story 2 (Korea) (Samsung Pico)"
+	rom ( name "Toy Story 2 (Korea) (Samsung Pico).md" size 2097152 crc 27EF458E md5 813575D83AAE18FF38608EF05C0A94F1 sha1 E4F908D235D25D21390A8965416A34C91B880B63 )
 )
 
 game (
 	name "Uchuu Bouken Space Shuttle Pilot (Japan)"
 	description "Uchuu Bouken Space Shuttle Pilot (Japan)"
-	serial "HPC-6058"
 	rom ( name "Uchuu Bouken Space Shuttle Pilot (Japan).md" size 1048576 crc E77F3C70 md5 020326B6FA4AF8008887B451D8B3CA7A sha1 2DCE1D752A922FC94D9F580A605714FFDCFBD042 )
 )
 
 game (
 	name "Ultra Hero (Japan)"
 	description "Ultra Hero (Japan)"
-	serial "T-133110"
 	rom ( name "Ultra Hero (Japan).md" size 524288 crc A6CBD22E md5 706FC2C214AB476DA40F9C40DFA7C8BA sha1 4A6731FDFDE7F65D3D8B481FF54B6CAD922A335A )
 )
 
 game (
 	name "Ultraman Dyna (Japan)"
 	description "Ultraman Dyna (Japan)"
-	serial "T-133260"
 	rom ( name "Ultraman Dyna (Japan).md" size 524288 crc 501E97D9 md5 B8CB404DAB2449A858AE73CEAAD81973 sha1 B1BEC7FA1FCA53205FC7FEC2547C8DA4DA4928B2 )
 )
 
 game (
 	name "Ultraman Kids - Tobidase! Space Picnic (Japan)"
 	description "Ultraman Kids - Tobidase! Space Picnic (Japan)"
-	serial "T-170020"
 	rom ( name "Ultraman Kids - Tobidase! Space Picnic (Japan).md" size 524288 crc 093357D5 md5 7CC4361A5216F3856B20256A0D22C170 sha1 4A9BF5F5352933BB18DA5F7A33DA83589A04241C )
 )
 
@@ -2067,14 +1916,12 @@ game (
 game (
 	name "Un Anno con Winny Puh (Italy)"
 	description "Un Anno con Winny Puh (Italy)"
-	serial "MK-49021-13"
 	rom ( name "Un Anno con Winny Puh (Italy).md" size 524288 crc B9594101 md5 4FEB0036AD5CCAA86369CD9DC14590D7 sha1 F03ED21A23A7777DBCD9D816712542730B6968CF )
 )
 
 game (
 	name "Un Ano en la Esquina de Pooh (Spain)"
 	description "Un Ano en la Esquina de Pooh (Spain)"
-	serial "MK-49021-06"
 	rom ( name "Un Ano en la Esquina de Pooh (Spain).md" size 524288 crc 804448BB md5 0E022D39BB163368A38C15E8328CFD7B sha1 826800F8EDD285CD156EA53989B634A7881D6354 )
 )
 
@@ -2099,14 +1946,12 @@ game (
 game (
 	name "Unou Kaihatsu Series 10 - Nontan to Issho - Wai Wai Nippon (Japan)"
 	description "Unou Kaihatsu Series 10 - Nontan to Issho - Wai Wai Nippon (Japan)"
-	serial "T-150120-00"
 	rom ( name "Unou Kaihatsu Series 10 - Nontan to Issho - Wai Wai Nippon (Japan).md" size 1048576 crc C41E801F md5 A2363DD52910F3242C464B3A51B54B24 sha1 DC13F49AF69FC3137FBA2E535FDFE09ACA495B49 )
 )
 
 game (
 	name "Unou Kaihatsu Series 11 - Heisei Kyouiku Iinkai Jr. (Japan)"
 	description "Unou Kaihatsu Series 11 - Heisei Kyouiku Iinkai Jr. (Japan)"
-	serial "T-150130-00"
 	rom ( name "Unou Kaihatsu Series 11 - Heisei Kyouiku Iinkai Jr. (Japan).md" size 1048576 crc CB3F7654 md5 06D1936FE7B7C67AD3B68256CAE83CEB sha1 9BA109E6EDA70E0A5D0885F746E22574C33B81F1 )
 )
 
@@ -2131,7 +1976,6 @@ game (
 game (
 	name "Unou Kaihatsu Series 5 - Hello Kitty no Suteki na Takaramono (Japan)"
 	description "Unou Kaihatsu Series 5 - Hello Kitty no Suteki na Takaramono (Japan)"
-	serial "T-150090-00"
 	rom ( name "Unou Kaihatsu Series 5 - Hello Kitty no Suteki na Takaramono (Japan).md" size 1048576 crc 6262F11D md5 B2E700286C680EC8E28A82CEB188930B sha1 9A6293F12A47D403B950B96E0FB9D2B9ED769804 )
 )
 
@@ -2162,21 +2006,18 @@ game (
 game (
 	name "Unten Thomas Deluxe Set (Japan)"
 	description "Unten Thomas Deluxe Set (Japan)"
-	serial "T-133320-00"
 	rom ( name "Unten Thomas Deluxe Set (Japan).md" size 1048576 crc CF027DDA md5 484D09A217E99976DBF929334534063F sha1 0C4A456B14EC345784517AD8339FB9B9B341CF86 )
 )
 
 game (
 	name "Yasashiku o-Teate Pico Clinic! - Kangofu-san Pico (Japan)"
 	description "Yasashiku o-Teate Pico Clinic! - Kangofu-san Pico (Japan)"
-	serial "HPC-6095"
 	rom ( name "Yasashiku o-Teate Pico Clinic! - Kangofu-san Pico (Japan).md" size 2097152 crc 8EB4BB04 md5 EA6269A8FCF312A8F23B0A749E47B6B8 sha1 665DCB0B332D5BD9FCC1F7DE3DAE4CFD8BDDE899 )
 )
 
 game (
 	name "Yobeba Kotaeru - Doraemon - Nobita to Himitsu Dougu o Mitsukeyou! (Japan)"
 	description "Yobeba Kotaeru - Doraemon - Nobita to Himitsu Dougu o Mitsukeyou! (Japan)"
-	serial "HPC-6041"
 	rom ( name "Yobeba Kotaeru - Doraemon - Nobita to Himitsu Dougu o Mitsukeyou! (Japan).md" size 1048576 crc 39F38A22 md5 DC31DA516DFB081E615A829F4453D170 sha1 DF0F45C8B229E648347BC932225F185C0FE2465F )
 )
 
@@ -2195,21 +2036,18 @@ game (
 game (
 	name "Yukai na Mori no Packet (Japan)"
 	description "Yukai na Mori no Packet (Japan)"
-	serial "HPC-6034-00,  MPR-18804"
 	rom ( name "Yukai na Mori no Packet (Japan).md" size 1048576 crc D130D765 md5 0E571DDA849FAA3C724E24BAEC92C943 sha1 97C99F623285AF22A1F3201B7B1A2665C7BBB649 )
 )
 
 game (
 	name "Yume no Crayon Oukoku (Japan)"
 	description "Yume no Crayon Oukoku (Japan)"
-	serial "T-133270"
 	rom ( name "Yume no Crayon Oukoku (Japan).md" size 524288 crc 0518D160 md5 E16F4084A28632754C2484C571267220 sha1 85F7569C2EA7956998C677E5B6947CA22D3DA5EB )
 )
 
 game (
 	name "Zai Weini Tiandilide Yinian (Taiwan)"
 	description "Zai Weini Tiandilide Yinian (Taiwan)"
-	serial "MK-49021-16"
 	rom ( name "Zai Weini Tiandilide Yinian (Taiwan).md" size 524288 crc 072A429A md5 88A0D671C2F72771BBBC609A0DD0B6B7 sha1 FADFB37537389FA636BA1C1DA0D5CDCEAAF35F06 )
 )
 
