@@ -31,7 +31,7 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Id Software - Doom|Unknown|
 |Lutro|Unknown|
 |Magnavox - Odyssey2|[No-Intro](http://datomatic.no-intro.org)|
-|MAME|MAME 0.78|
+|MAME|MAME 0.37b5, 0.78, 0.139, 0.159|
 |Microsoft - MSX|[No-Intro](http://datomatic.no-intro.org)|
 |Microsoft - MSX 2|[No-Intro](http://datomatic.no-intro.org)|
 |NEC - PC Engine CD - TurboGrafx-CD|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
