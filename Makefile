@@ -6,5 +6,6 @@ all:
 install:
 	mkdir -p $(DESTDIR)
 	cp -ar * $(DESTDIR)
+	rm $(DESTDIR)/metadat
 	rm $(DESTDIR)/Makefile
 	rm $(DESTDIR)/configure
