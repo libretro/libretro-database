@@ -1,11 +1,11 @@
+INSTALLDIR := /usr/share/libretro/database
+
 all:
 	@echo "Nothing to make for libretro-database."
 
 install:
-ifneq ($(DESTDIR),)
-	mkdir -p $(DESTDIR)
-	cp -ar * $(DESTDIR)
-	rm -rf $(DESTDIR)/metadat $(DESTDIR)/scripts $(DESTDIR)/dat $(DESTDIR)/Makefile $(DESTDIR)/configure
-else
-	@echo "Define DESTDIR if you are installing files to a specific directory."
-endif
+	mkdir -p $(DESTDIR)$(INSTALLDIR)
+	cp -ar -t $(DESTDIR)$(INSTALLDIR) cht cursors rdb
+
+test-install: all
+	DESTDIR=/tmp/build $(MAKE) install
