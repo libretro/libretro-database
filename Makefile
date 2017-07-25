@@ -1,4 +1,5 @@
-INSTALLDIR := /usr/share/libretro/database
+PREFIX := /usr
+INSTALLDIR := $(PREFIX)/share/libretro/database
 
 all:
 	@echo "Nothing to make for libretro-database."
