@@ -64,3 +64,16 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |SNK - Neo Geo Pocket Color|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo CD|Redump|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Uzebox|Unknown|
+
+## Building
+
+To build the RDB files, run the following commands...
+
+```
+git clone https://github.com/libretro/libretro-super.git
+cd libretro-super
+./libretro-fetch.sh retroarch
+./libretro-build-database.sh
+```
+
+You will find the updated RDB files over in the retroarch/media directory.
