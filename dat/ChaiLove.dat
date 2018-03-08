@@ -1,8 +1,8 @@
 clrmamepro (
 	name "ChaiLove"
 	description "2D Game Framework with ChaiScript"
-	version 2017-12-17
-	homepage "http://github.com/RobLoach/ChaiLove"
+	version 2018-03-05
+	homepage "http://github.com/libretro/libretro-chailove"
 )
 
 game (
@@ -16,4 +16,17 @@ game (
 	releaseday "2"
 	version "0.14.0"
 	rom ( name "Floppy Bird.chailove" size 5169227 crc 14f8be32 )
+)
+
+game (
+	name "Nyan Cat"
+	description "Nyan Cat re-implementation in ChaiLove"
+	developer "Rob Loach"
+	genre "Action"
+	users 1
+	releaseyear "2018"
+	releasemonth "3"
+	releaseday "5"
+	version "1.1.0"
+	rom ( name "Nyan Cat.chailove" size 37049404 crc 15944465 )
 )
