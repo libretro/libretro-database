@@ -1,7 +1,7 @@
 clrmamepro (
 	name "ChaiLove"
 	description "2D Game Framework with ChaiScript"
-	version 2018-03-05
+	version 2018-04-24
 	homepage "http://github.com/libretro/libretro-chailove"
 )
 
@@ -14,8 +14,34 @@ game (
 	releaseyear "2017"
 	releasemonth "11"
 	releaseday "2"
-	version "0.18.0"
-	rom ( name "Floppy Bird.chailove" size 5169224 crc 4a38d955 )
+	version "0.19.0"
+	rom ( name "Floppy Bird.chailove" size 5169265 crc c60628bb )
+)
+
+game (
+	name "Game of Life"
+	description "The Game of Life in ChaiLove"
+	developer "Rob Loach"
+	genre "Puzzle"
+	users 1
+	releaseyear "2018"
+	releasemonth "2"
+	releaseday "21"
+	version "1.1."
+	rom ( name "GameOfLife.chailove" size 1655 crc 7139548b )
+)
+
+game (
+	name "JSTest"
+	description "Test your joystick configurations in ChaiLove"
+	developer "Rob Loach"
+	genre "Simulation"
+	users 1
+	releaseyear "2018"
+	releasemonth "3"
+	releaseday "5"
+	version "1.1.1"
+	rom ( name "JSTest.chailove" size 1256986 crc 45a10836 )
 )
 
 game (
@@ -28,5 +54,18 @@ game (
 	releasemonth "3"
 	releaseday "5"
 	version "1.1.0"
-	rom ( name "Nyan Cat.chailove" size 37049404 crc 15944465 )
+	rom ( name "Nyan Cat.chailove" size 37019634 crc 62cd64eb )
+)
+
+game (
+	name "Snake"
+	description "Snake game done in ChaiLove"
+	developer "Rob Loach"
+	genre "Action"
+	users 1
+	releaseyear "2018"
+	releasemonth "3"
+	releaseday "5"
+	version "0.20.1"
+	rom ( name "Snake.chai" size 4247 crc 44e709ea )
 )
