@@ -1,7 +1,7 @@
 clrmamepro (
 	name "NEC - PC Engine CD - TurboGrafx-CD"
 	description "NEC - PC Engine CD - TurboGrafx-CD"
-	version "2018.3.12"
+	version "2018.9.29"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -15,6 +15,12 @@ game (
 	name "3x3 Eyes - Sanjiyan Henjou (Japan)"
 	description "3x3 Eyes - Sanjiyan Henjou (Japan)"
 	rom ( name "3x3 Eyes - Sanjiyan Henjou (Japan) (Track 1).bin" size 3048192 crc 1e75a8a5 md5 6d021840620341dfa8d8b083dde16cf8 sha1 1fe702fb2bf48aad06d603a67d700bf16f5f12c1 )
+)
+
+game (
+	name "AV Tanjou (Japan) (Unl) (Alt 2)"
+	description "AV Tanjou (Japan) (Unl) (Alt 2)"
+	rom ( name "AV Tanjou (Japan) (Unl) (Alt 2) (Track 01).bin" size 4647552 crc ba4c966b md5 127b2f426bef62b9704c1f1fc2f030da sha1 a1b7d46a31f173135242c6eb8ee1a378bd9c6c81 )
 )
 
 game (
@@ -45,12 +51,6 @@ game (
 	name "Asuka 120% Maxima - Burning Fest. Maxima (Japan)"
 	description "Asuka 120% Maxima - Burning Fest. Maxima (Japan)"
 	rom ( name "Asuka 120% Maxima - Burning Fest. Maxima (Japan) (Track 01).bin" size 13778016 crc a8f428b3 md5 8d2cff508c99bab31a09d1f06e88c7dc sha1 9d5f5e11db1114f24ff8cea0d284421ece4bea64 )
-)
-
-game (
-	name "AV Tanjou (Japan) (Unl) (Alt 2)"
-	description "AV Tanjou (Japan) (Unl) (Alt 2)"
-	rom ( name "AV Tanjou (Japan) (Unl) (Alt 2) (Track 01).bin" size 4647552 crc ba4c966b md5 127b2f426bef62b9704c1f1fc2f030da sha1 a1b7d46a31f173135242c6eb8ee1a378bd9c6c81 )
 )
 
 game (
@@ -90,6 +90,12 @@ game (
 )
 
 game (
+	name "Bomberman '94 (Japan) (Sample)"
+	description "Bomberman '94 (Japan) (Sample)"
+	rom ( name "Bomberman '94 (Japan) (Sample) (Track 1).bin" size 7077168 crc e84baae9 md5 ce7570578f3d4dd611996b681471a8b2 sha1 cea5135e07ffde45628028ebece5261ce01da965 )
+)
+
+game (
 	name "Bomberman - Panic Bomber (Japan) (FAAT)"
 	description "Bomberman - Panic Bomber (Japan) (FAAT)"
 	rom ( name "Bomberman - Panic Bomber (Japan) (FAAT) (Track 01).bin" size 5736528 crc d3056ca5 md5 827bace2dcf4275e4aaee5a38a31b5b5 sha1 1d05a9c33cba71694373b185fa4036419236f129 )
@@ -99,12 +105,6 @@ game (
 	name "Bomberman - Panic Bomber (Japan) (FABT)"
 	description "Bomberman - Panic Bomber (Japan) (FABT)"
 	rom ( name "Bomberman - Panic Bomber (Japan) (FABT) (Track 01).bin" size 5736528 crc 01b0b815 md5 0fc870644d4f42f07eb139c88bd28dff sha1 bcd4e0f558445da9a835d2f139b415d5e71dc10f )
-)
-
-game (
-	name "Bomberman '94 (Japan) (Sample)"
-	description "Bomberman '94 (Japan) (Sample)"
-	rom ( name "Bomberman '94 (Japan) (Sample) (Track 1).bin" size 7077168 crc e84baae9 md5 ce7570578f3d4dd611996b681471a8b2 sha1 cea5135e07ffde45628028ebece5261ce01da965 )
 )
 
 game (
@@ -252,15 +252,15 @@ game (
 )
 
 game (
-	name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan)"
-	description "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan)"
-	rom ( name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Track 01).bin" size 7516992 crc 16664adb md5 4bbfb5d509fdf2dd18d1060c544a4c8a sha1 ceb8af9b0e462997a931d80c45490bdba268b749 )
-)
-
-game (
 	name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Sample)"
 	description "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Sample)"
 	rom ( name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Sample) (Track 1).bin" size 8589504 crc 11084755 md5 0d391fe073941efbb9627264acbc9db1 sha1 f6412c9ab727e8781c149f9f31f7a44a82a2f1eb )
+)
+
+game (
+	name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan)"
+	description "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan)"
+	rom ( name "Far East of Eden - Tengai Makyou - Fuun Kabuki-den (Japan) (Track 01).bin" size 7516992 crc 16664adb md5 4bbfb5d509fdf2dd18d1060c544a4c8a sha1 ceb8af9b0e462997a931d80c45490bdba268b749 )
 )
 
 game (
@@ -297,6 +297,12 @@ game (
 	name "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan)"
 	description "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan)"
 	rom ( name "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan) (Track 1).bin" size 8589504 crc 5b8fb0f5 md5 dde6388d76c24b3051528e8c281f431a sha1 6474db6d797320a4532e0f0cd872e1aa6b0b683f )
+)
+
+game (
+	name "GS (Ghost Sweeper) Mikami (Japan)"
+	description "GS (Ghost Sweeper) Mikami (Japan)"
+	rom ( name "GS (Ghost Sweeper) Mikami (Japan) (Track 01).bin" size 12968928 crc aef67026 md5 716d7bd8e2876e0d954fdf01b618457a sha1 c180d88e7a7c79dd0b2fee8e6281ab6a4771cc91 )
 )
 
 game (
@@ -342,21 +348,15 @@ game (
 )
 
 game (
-	name "GS (Ghost Sweeper) Mikami (Japan)"
-	description "GS (Ghost Sweeper) Mikami (Japan)"
-	rom ( name "GS (Ghost Sweeper) Mikami (Japan) (Track 01).bin" size 12968928 crc aef67026 md5 716d7bd8e2876e0d954fdf01b618457a sha1 c180d88e7a7c79dd0b2fee8e6281ab6a4771cc91 )
+	name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt)"
+	description "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt)"
+	rom ( name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt) (Track 01).bin" size 8478960 crc 87af9dc1 md5 919f26f655382ae65926565dbded8330 sha1 2a69677a2928d09082122cf89d060ef079b18571 )
 )
 
 game (
 	name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan)"
 	description "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan)"
 	rom ( name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Track 01).bin" size 8478960 crc a33bbf80 md5 a74509c07c0e43f7122d7438aeb31752 sha1 726b76590dd197b9dd0ee409e9d79355fa9c0d09 )
-)
-
-game (
-	name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt)"
-	description "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt)"
-	rom ( name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Alt) (Track 01).bin" size 8478960 crc 87af9dc1 md5 919f26f655382ae65926565dbded8330 sha1 2a69677a2928d09082122cf89d060ef079b18571 )
 )
 
 game (
@@ -588,21 +588,15 @@ game (
 )
 
 game (
-	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
-	description "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
-	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 4567584 crc d161c487 md5 5d5d46a8bf4a8f28e3f915908a8e420c sha1 c6dd32a0d2ed187a1808b571838e9b48f22479ce )
-)
-
-game (
 	name "NEXZR (Japan)"
 	description "NEXZR (Japan)"
 	rom ( name "NEXZR (Japan) (Track 01).bin" size 6801984 crc a3e48369 md5 1872f19ec572e7ee0c1550a9bd3e0ad7 sha1 bec1887ebedba2c930ffc04514f291d1d6b5cbe9 )
 )
 
 game (
-	name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
-	description "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
-	rom ( name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan) (Track 01).bin" size 7914480 crc 13cb4446 md5 6e9e149fa09a71483c84479fe004e307 sha1 fcfd46d7739312a6ee697b5c540b3441d530c78b )
+	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
+	description "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
+	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 4567584 crc d161c487 md5 5d5d46a8bf4a8f28e3f915908a8e420c sha1 c6dd32a0d2ed187a1808b571838e9b48f22479ce )
 )
 
 game (
@@ -621,6 +615,12 @@ game (
 	name "PC Engine Hyper Catalog CD-ROM 4 (Japan)"
 	description "PC Engine Hyper Catalog CD-ROM 4 (Japan)"
 	rom ( name "PC Engine Hyper Catalog CD-ROM 4 (Japan) (Track 01).bin" size 7928592 crc a1fe0dc4 md5 7af13eaf34331f184ea2fdefb43bc2c8 sha1 da563ca2208e15cf25e0eb4368c8e585d543a181 )
+)
+
+game (
+	name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
+	description "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
+	rom ( name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan) (Track 01).bin" size 7914480 crc 13cb4446 md5 6e9e149fa09a71483c84479fe004e307 sha1 fcfd46d7739312a6ee697b5c540b3441d530c78b )
 )
 
 game (
@@ -696,6 +696,12 @@ game (
 )
 
 game (
+	name "Ranma 1-2 (Japan)"
+	description "Ranma 1-2 (Japan)"
+	rom ( name "Ranma 1-2 (Japan) (Track 01).bin" size 5574240 crc cc1e114f md5 b4e92cbe51330b0c0df4fde81a59e571 sha1 a35b314130be055b605d5087698db667057975b0 )
+)
+
+game (
 	name "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan)"
 	description "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan)"
 	rom ( name "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan) (Track 01).bin" size 5574240 crc a7f6c736 md5 8d7369f183f0ef1d424d1d962449dd84 sha1 cdd19ee0a917a0be1d36ca491ec92a0f29b49189 )
@@ -705,12 +711,6 @@ game (
 	name "Ranma 1-2 - Toraware no Hanayome (Japan)"
 	description "Ranma 1-2 - Toraware no Hanayome (Japan)"
 	rom ( name "Ranma 1-2 - Toraware no Hanayome (Japan) (Track 01).bin" size 5214384 crc 66e44128 md5 95483521ac0dc3a0a929df69faa398d5 sha1 bb29ddd747366f7aba6e437ed032361e2868ac70 )
-)
-
-game (
-	name "Ranma 1-2 (Japan)"
-	description "Ranma 1-2 (Japan)"
-	rom ( name "Ranma 1-2 (Japan) (Track 01).bin" size 5574240 crc cc1e114f md5 b4e92cbe51330b0c0df4fde81a59e571 sha1 a35b314130be055b605d5087698db667057975b0 )
 )
 
 game (
@@ -810,15 +810,15 @@ game (
 )
 
 game (
-	name "Sotsugyou - Graduation (Japan)"
-	description "Sotsugyou - Graduation (Japan)"
-	rom ( name "Sotsugyou - Graduation (Japan) (Track 01).bin" size 7161840 crc bf25dd4f md5 e791102b131facb73fdace1e5791abd2 sha1 ea84d542c80477ad86603a3b3d3f4e4ed80c83ce )
-)
-
-game (
 	name "Sotsugyou - Graduation (Japan) (Rev 1)"
 	description "Sotsugyou - Graduation (Japan) (Rev 1)"
 	rom ( name "Sotsugyou - Graduation (Japan) (Rev 1) (Track 01).bin" size 7161840 crc fe30ecb5 md5 03bc2fa8da0339988ecfbb11b0f4f4bc sha1 5879b032a05db77994b66523d5a1ce8040a2ffad )
+)
+
+game (
+	name "Sotsugyou - Graduation (Japan)"
+	description "Sotsugyou - Graduation (Japan)"
+	rom ( name "Sotsugyou - Graduation (Japan) (Track 01).bin" size 7161840 crc bf25dd4f md5 e791102b131facb73fdace1e5791abd2 sha1 ea84d542c80477ad86603a3b3d3f4e4ed80c83ce )
 )
 
 game (
@@ -855,6 +855,12 @@ game (
 	name "Startling Odyssey II - Maryuu Sensou (Japan) (Sample)"
 	description "Startling Odyssey II - Maryuu Sensou (Japan) (Sample)"
 	rom ( name "Startling Odyssey II - Maryuu Sensou (Japan) (Sample) (Track 01).bin" size 6416256 crc b69bf971 md5 29cd88635a3e9dfb6aa6663e59333323 sha1 6d31ff2be9d327e3ad7b839a62ce11f7b91361d2 )
+)
+
+game (
+	name "Steam-Heart's (Japan)"
+	description "Steam-Heart's (Japan)"
+	rom ( name "Steam-Heart's (Japan) (Track 01).bin" size 9462096 crc 2d3d7ff5 md5 93fd08e914931e96c9b3f9ad540649e4 sha1 ced3d60759347fe4989f220e4b12ffa72428235b )
 )
 
 game (
@@ -990,15 +996,15 @@ game (
 )
 
 game (
-	name "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
-	description "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
-	rom ( name "Yami no Ketsuzoku - Harukanaru Kioku (Japan) (Track 01).bin" size 7916832 crc 0965ae86 md5 0a667d2004b0aac59e2c96fe6e8f203c sha1 cd75b71c2c943aeaa33cc861c5332bf2a93ea571 )
-)
-
-game (
 	name "YaWaRa! 2 - A Fashionable Judo Girl! (Japan)"
 	description "YaWaRa! 2 - A Fashionable Judo Girl! (Japan)"
 	rom ( name "YaWaRa! 2 - A Fashionable Judo Girl! (Japan) (Track 1).bin" size 8391936 crc 7be92899 md5 48e4416d9b0ddb8e5c60a4b610e21f3e sha1 d4a80c48bb84a814779879214abddd96892ef7cd )
+)
+
+game (
+	name "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
+	description "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
+	rom ( name "Yami no Ketsuzoku - Harukanaru Kioku (Japan) (Track 01).bin" size 7916832 crc 0965ae86 md5 0a667d2004b0aac59e2c96fe6e8f203c sha1 cd75b71c2c943aeaa33cc861c5332bf2a93ea571 )
 )
 
 game (
