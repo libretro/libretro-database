@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sony - PlayStation Vita"
 	description "Sony - PlayStation Vita"
-	version "2018.3.12"
+	version "2018.9.29"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -174,6 +174,12 @@ game (
 )
 
 game (
+	name "DJMax Technika Tune (USA)"
+	description "DJMax Technika Tune (USA)"
+	rom ( name "DJMax Technika Tune (USA).vpk" size 3313556141 crc 00A3A815 md5 0BD8D034DB07C3DB0AEF4FFD3A017522 sha1 7F78A91372DB518E15E7D3FFD773229DECFF4E71 )
+)
+
+game (
 	name "Danganronpa - Trigger Happy Havoc (USA)"
 	description "Danganronpa - Trigger Happy Havoc (USA)"
 	rom ( name "Danganronpa - Trigger Happy Havoc (USA).vpk" size 1328076231 crc 774F515B md5 931332FC70EE8457A45229DAEC0DD2E4 sha1 9E56A4AFCCBF2CA2E74DE128D210AAF67709E84C )
@@ -252,12 +258,6 @@ game (
 )
 
 game (
-	name "DJMax Technika Tune (USA)"
-	description "DJMax Technika Tune (USA)"
-	rom ( name "DJMax Technika Tune (USA).vpk" size 3313556141 crc 00A3A815 md5 0BD8D034DB07C3DB0AEF4FFD3A017522 sha1 7F78A91372DB518E15E7D3FFD773229DECFF4E71 )
-)
-
-game (
 	name "Dragon Ball Z - Battle of Z (Europe)"
 	description "Dragon Ball Z - Battle of Z (Europe)"
 	rom ( name "Dragon Ball Z - Battle of Z (Europe).vpk" size 1524419470 crc 9D2B2B49 md5 F2CC0CAC8E40D13B534BAD496273F8DA sha1 D7D1A193F5751F407ECB27FE5AE475D96D1F8228 )
@@ -312,9 +312,9 @@ game (
 )
 
 game (
-	name "Dynasty Warriors Next (USA) [b]"
-	description "Dynasty Warriors Next (USA) [b]"
-	rom ( name "Dynasty Warriors Next (USA) [b].vpk" size 1522366132 crc 4A167B6B md5 FF3758A43BC173B029C25D8C7E1EE91A sha1 267A623FB8D1D935FD2684FBC60A160A01D9FAA0 )
+	name "Dynasty Warriors Next (USA)"
+	description "Dynasty Warriors Next (USA)"
+	rom ( name "Dynasty Warriors Next (USA).psv" size 1958739968 crc A1A112BF md5 81EAD9E996CDA6C8732A7F61D911E342 sha1 C5E398C18FBEB4CDFA86F2EF13CB13906C7FD8E1 )
 )
 
 game (
@@ -342,24 +342,6 @@ game (
 )
 
 game (
-	name "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
-	description "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
-	rom ( name "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru).vpk" size 124370735 crc D8BCD799 md5 61C79E89C8C5310EFD29B6E4EEBA6717 sha1 903E5FF0640CB32B0DFA2E999F2DE2042C7A532C )
-)
-
-game (
-	name "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
-	description "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
-	rom ( name "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru).vpk" size 153455045 crc 0B61940E md5 0E0D4FF63D057386053817B5A14E7EB5 sha1 02FE322F18FC35F6D360111C38132420925A304D )
-)
-
-game (
-	name "Fez (USA)"
-	description "Fez (USA)"
-	rom ( name "Fez (USA).vpk" size 223271776 crc 0092AA36 md5 B3791456C103576D7CEE2BBEC9849768 sha1 C453F5F47A69F7211C9A6E7480E772CE65AFEA38 )
-)
-
-game (
 	name "FIFA 14 (Europe)"
 	description "FIFA 14 (Europe)"
 	rom ( name "FIFA 14 (Europe).vpk" size 2769171345 crc 51258F4D md5 AF629455BEBE48F89000D78946591362 sha1 D475C87BA0DC885B8C7BD6CB9E14EACD588D63B2 )
@@ -381,6 +363,24 @@ game (
 	name "FIFA Soccer 13 (USA)"
 	description "FIFA Soccer 13 (USA)"
 	rom ( name "FIFA Soccer 13 (USA).vpk" size 3016747694 crc 5C2730A3 md5 BA455CB9E6C959BBC40FE49519F75B9A sha1 2C91E8FAFEF0AC8AFD52C789B660988DBA9FC2D3 )
+)
+
+game (
+	name "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
+	description "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
+	rom ( name "Farming Simulator 14 (Europe) (En,Fr,De,Es,It,Pt,Ru).vpk" size 124370735 crc D8BCD799 md5 61C79E89C8C5310EFD29B6E4EEBA6717 sha1 903E5FF0640CB32B0DFA2E999F2DE2042C7A532C )
+)
+
+game (
+	name "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
+	description "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru)"
+	rom ( name "Farming Simulator 16 (Europe) (En,Fr,De,Es,It,Pt,Ru).vpk" size 153455045 crc 0B61940E md5 0E0D4FF63D057386053817B5A14E7EB5 sha1 02FE322F18FC35F6D360111C38132420925A304D )
+)
+
+game (
+	name "Fez (USA)"
+	description "Fez (USA)"
+	rom ( name "Fez (USA).vpk" size 223271776 crc 0092AA36 md5 B3791456C103576D7CEE2BBEC9849768 sha1 C453F5F47A69F7211C9A6E7480E772CE65AFEA38 )
 )
 
 game (
@@ -438,15 +438,15 @@ game (
 )
 
 game (
-	name "Hatsune Miku - Project Diva F 2nd (USA)"
-	description "Hatsune Miku - Project Diva F 2nd (USA)"
-	rom ( name "Hatsune Miku - Project Diva F 2nd (USA).vpk" size 3209760631 crc 39B50185 md5 194E771733BE56FF096591784BAEC4A2 sha1 5B5468FE183D41D015F2545B79283466C796EB0A )
-)
-
-game (
 	name "Hatsune Miku - Project DIVA X (USA)"
 	description "Hatsune Miku - Project DIVA X (USA)"
 	rom ( name "Hatsune Miku - Project DIVA X (USA).vpk" size 2671236065 crc 477B6408 md5 18D0448DB20F5E59CCA35C1935A17724 sha1 9B31A6B1C41AD0BE4879378DAE825BC6BC7A7E5C )
+)
+
+game (
+	name "Hatsune Miku - Project Diva F 2nd (USA)"
+	description "Hatsune Miku - Project Diva F 2nd (USA)"
+	rom ( name "Hatsune Miku - Project Diva F 2nd (USA).vpk" size 3209760631 crc 39B50185 md5 194E771733BE56FF096591784BAEC4A2 sha1 5B5468FE183D41D015F2545B79283466C796EB0A )
 )
 
 game (
@@ -513,18 +513,6 @@ game (
 	name "Killzone - Mercenary (Europe) (En,Fr,De,Es,It,Nl,Pt)"
 	description "Killzone - Mercenary (Europe) (En,Fr,De,Es,It,Nl,Pt)"
 	rom ( name "Killzone - Mercenary (Europe) (En,Fr,De,Es,It,Nl,Pt).vpk" size 3547533527 crc 8C8E3194 md5 33A08CE1C627DB74F453E179DED7C650 sha1 F360E521C852397253E7062F0163062C2A45FDB7 )
-)
-
-game (
-	name "Legend of Heroes, The - Trails of Cold Steel (USA)"
-	description "Legend of Heroes, The - Trails of Cold Steel (USA)"
-	rom ( name "Legend of Heroes, The - Trails of Cold Steel (USA).vpk" size 2853940430 crc 8935293B md5 E8D8819FD8287A0D9B7B3C07983AB4E9 sha1 E0AAC48B0620232E770BE1C08FC88E93EA638BF3 )
-)
-
-game (
-	name "Legend of Heroes, The - Trails of Cold Steel II (Europe)"
-	description "Legend of Heroes, The - Trails of Cold Steel II (Europe)"
-	rom ( name "Legend of Heroes, The - Trails of Cold Steel II (Europe).vpk" size 3245432188 crc 0C12F327 md5 071BF40288F9ADF8B3ACF25DDF7F5BB6 sha1 E3CE604E8E700431294D20D6434C4E39E068EB37 )
 )
 
 game (
@@ -606,6 +594,18 @@ game (
 )
 
 game (
+	name "Legend of Heroes, The - Trails of Cold Steel (USA)"
+	description "Legend of Heroes, The - Trails of Cold Steel (USA)"
+	rom ( name "Legend of Heroes, The - Trails of Cold Steel (USA).vpk" size 2853940430 crc 8935293B md5 E8D8819FD8287A0D9B7B3C07983AB4E9 sha1 E0AAC48B0620232E770BE1C08FC88E93EA638BF3 )
+)
+
+game (
+	name "Legend of Heroes, The - Trails of Cold Steel II (Europe)"
+	description "Legend of Heroes, The - Trails of Cold Steel II (Europe)"
+	rom ( name "Legend of Heroes, The - Trails of Cold Steel II (Europe).vpk" size 3245432188 crc 0C12F327 md5 071BF40288F9ADF8B3ACF25DDF7F5BB6 sha1 E3CE604E8E700431294D20D6434C4E39E068EB37 )
+)
+
+game (
 	name "Little Deviants (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	description "Little Deviants (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	rom ( name "Little Deviants (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).vpk" size 965782311 crc 39F0F233 md5 32B83B68E9F94FD956EDF8E56D99976B sha1 87615C73EE0FFF369910A5C56E2ADEBB7624404F )
@@ -618,15 +618,15 @@ game (
 )
 
 game (
-	name "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	description "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	rom ( name "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).vpk" size 1601880089 crc 7E3CE38B md5 0921EECE084A962F6CC958CAD948C3A5 sha1 5D28BA1402167B269C56888E1E64E34B85227500 )
-)
-
-game (
 	name "LittleBigPlanet PS Vita (Europe)"
 	description "LittleBigPlanet PS Vita (Europe)"
 	rom ( name "LittleBigPlanet PS Vita (Europe).vpk" size 1681829193 crc 6EBA9F42 md5 75A2E915FCDDBB847F138F1D7EC56041 sha1 0E8F6DC2CFB14A0C54EA571465952FCF362CE3EA )
+)
+
+game (
+	name "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	rom ( name "LittleBigPlanet PS Vita - Marvel Super Hero Edition (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).vpk" size 1601880089 crc 7E3CE38B md5 0921EECE084A962F6CC958CAD948C3A5 sha1 5D28BA1402167B269C56888E1E64E34B85227500 )
 )
 
 game (
@@ -654,6 +654,36 @@ game (
 )
 
 game (
+	name "MLB 12 - The Show (USA)"
+	description "MLB 12 - The Show (USA)"
+	rom ( name "MLB 12 - The Show (USA).vpk" size 2951775667 crc B2BA5F71 md5 8A935D8D1C1FAB9C1809E5DBF9B385A8 sha1 6C4F780196D04604939603E1C18AC6D572711A1D )
+)
+
+game (
+	name "MLB 13 - The Show (USA)"
+	description "MLB 13 - The Show (USA)"
+	rom ( name "MLB 13 - The Show (USA).vpk" size 3389382443 crc 0926C0AD md5 2501C658E0B09C18BAD8769AF5E7C292 sha1 FF35C408D6CE7A1F34AF19F4F4F7EC8B1A5D3C52 )
+)
+
+game (
+	name "MLB 14 - The Show (USA)"
+	description "MLB 14 - The Show (USA)"
+	rom ( name "MLB 14 - The Show (USA).vpk" size 2879455189 crc 50B6A2E2 md5 785E8D9FDC3E9985076F791C88A085C0 sha1 26348927E5E25CD7541B2B15BD1AFB372608A800 )
+)
+
+game (
+	name "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It)"
+	description "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It)"
+	rom ( name "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It).vpk" size 609258355 crc 6E95E750 md5 F2273CC5751507FC07D4B0D8D32BE895 sha1 A4B077D44E63D6C01144A61BC1BAE8D0100CFF38 )
+)
+
+game (
+	name "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It)"
+	description "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It)"
+	rom ( name "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It).vpk" size 1181415234 crc F9029F54 md5 9C4F0620E7742AF09683583D7EEF8057 sha1 B158075C94D2E29BB72EEA9BF1494EF32BA61094 )
+)
+
+game (
 	name "Madden NFL 13 (USA)"
 	description "Madden NFL 13 (USA)"
 	rom ( name "Madden NFL 13 (USA).vpk" size 3019591083 crc 52F459A0 md5 F30E7561203FC41CB225F16879B7B9E9 sha1 5CA77781B1646EA44F42B990539A1FD6553D8DE2 )
@@ -678,9 +708,9 @@ game (
 )
 
 game (
-	name "Metal Gear Solid HD Collection (USA) [b]"
-	description "Metal Gear Solid HD Collection (USA) [b]"
-	rom ( name "Metal Gear Solid HD Collection (USA) [b].vpk" size 3584940580 crc C560F2FB md5 1369B3F6F5E3965A35581013B7A5B9A3 sha1 E423ECF9A4950884A56B68CC10B80EA51ADA1D29 )
+	name "Metal Gear Solid HD Collection (USA)"
+	description "Metal Gear Solid HD Collection (USA)"
+	rom ( name "Metal Gear Solid HD Collection (USA).psv" size 3959422976 crc 29DB9E6F md5 D2A0625FE553CF968079FA6FE9C1A767 sha1 61AB84CC9BE05AFF042BCD2F2C4DE3831CCFF2E3 )
 )
 
 game (
@@ -699,24 +729,6 @@ game (
 	name "Minecraft - PlayStation Vita Edition (Europe)"
 	description "Minecraft - PlayStation Vita Edition (Europe)"
 	rom ( name "Minecraft - PlayStation Vita Edition (Europe).vpk" size 164575411 crc AA118B57 md5 6572C128D161C6A986B3C7FC7C63B4EC sha1 7FB7D8230930BFDB35CF358EFFB77F1DCB0CF102 )
-)
-
-game (
-	name "MLB 12 - The Show (USA)"
-	description "MLB 12 - The Show (USA)"
-	rom ( name "MLB 12 - The Show (USA).vpk" size 2951775667 crc B2BA5F71 md5 8A935D8D1C1FAB9C1809E5DBF9B385A8 sha1 6C4F780196D04604939603E1C18AC6D572711A1D )
-)
-
-game (
-	name "MLB 13 - The Show (USA)"
-	description "MLB 13 - The Show (USA)"
-	rom ( name "MLB 13 - The Show (USA).vpk" size 3389382443 crc 0926C0AD md5 2501C658E0B09C18BAD8769AF5E7C292 sha1 FF35C408D6CE7A1F34AF19F4F4F7EC8B1A5D3C52 )
-)
-
-game (
-	name "MLB 14 - The Show (USA)"
-	description "MLB 14 - The Show (USA)"
-	rom ( name "MLB 14 - The Show (USA).vpk" size 2879455189 crc 50B6A2E2 md5 785E8D9FDC3E9985076F791C88A085C0 sha1 26348927E5E25CD7541B2B15BD1AFB372608A800 )
 )
 
 game (
@@ -744,12 +756,6 @@ game (
 )
 
 game (
-	name "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It)"
-	description "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It)"
-	rom ( name "MUD - FIM Motocross World Championship (Europe) (En,Fr,De,Es,It).vpk" size 609258355 crc 6E95E750 md5 F2273CC5751507FC07D4B0D8D32BE895 sha1 A4B077D44E63D6C01144A61BC1BAE8D0100CFF38 )
-)
-
-game (
 	name "Muppets Movie, The - Adventures (Europe) (En,Fr,De,Es,It,Nl,Pt,El)"
 	description "Muppets Movie, The - Adventures (Europe) (En,Fr,De,Es,It,Nl,Pt,El)"
 	rom ( name "Muppets Movie, The - Adventures (Europe) (En,Fr,De,Es,It,Nl,Pt,El).vpk" size 913122537 crc 79A54FE6 md5 EA4FC3525864CF3DC110C22691C7DD0B sha1 42BD5E303994B0D942E95B56A3973C024676A996 )
@@ -759,12 +765,6 @@ game (
 	name "Muramasa Rebirth (USA) (En,Ja)"
 	description "Muramasa Rebirth (USA) (En,Ja)"
 	rom ( name "Muramasa Rebirth (USA) (En,Ja).vpk" size 477527291 crc 7589FED4 md5 9B10C29E9F3C9110C6E8780042C3D9DE sha1 D84B3C2E7DE10555F8D6A7731941B1C64F9C439C )
-)
-
-game (
-	name "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It)"
-	description "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It)"
-	rom ( name "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It).vpk" size 1181415234 crc F9029F54 md5 9C4F0620E7742AF09683583D7EEF8057 sha1 B158075C94D2E29BB72EEA9BF1494EF32BA61094 )
 )
 
 game (
@@ -906,15 +906,15 @@ game (
 )
 
 game (
-	name "Resistance - Burning Skies (Europe)"
-	description "Resistance - Burning Skies (Europe)"
-	rom ( name "Resistance - Burning Skies (Europe).vpk" size 3130140248 crc F401315D md5 DD9AE4F6EFB13FEBD9FE9A36CC81D2A8 sha1 D9A9F2F9106E4D4DF80B6A3C989AE2E9D9C9C0F3 )
-)
-
-game (
 	name "Resistance - Burning Skies (Europe) (Fr,De,It)"
 	description "Resistance - Burning Skies (Europe) (Fr,De,It)"
 	rom ( name "Resistance - Burning Skies (Europe) (Fr,De,It).vpk" size 2987963574 crc B7F0D932 md5 E78FF6A3E43FED562C4251B36CE43380 sha1 534A6F6AB1A6DAD78E8FC034663756D4BFB2AE46 )
+)
+
+game (
+	name "Resistance - Burning Skies (Europe)"
+	description "Resistance - Burning Skies (Europe)"
+	rom ( name "Resistance - Burning Skies (Europe).vpk" size 3130140248 crc F401315D md5 DD9AE4F6EFB13FEBD9FE9A36CC81D2A8 sha1 D9A9F2F9106E4D4DF80B6A3C989AE2E9D9C9C0F3 )
 )
 
 game (
@@ -933,6 +933,12 @@ game (
 	name "Rugby World Cup 2015 (Europe) (En,Fr,De,Es,It)"
 	description "Rugby World Cup 2015 (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Rugby World Cup 2015 (Europe) (En,Fr,De,Es,It).vpk" size 1254173624 crc C563D90D md5 EA6A103EF384D60B75654A8C89B28A74 sha1 5168A7C98C76121CDFAD09BB4AEA5A7271D4A3C2 )
+)
+
+game (
+	name "SUPERBEAT - XONiC (USA)"
+	description "SUPERBEAT - XONiC (USA)"
+	rom ( name "SUPERBEAT - XONiC (USA).vpk" size 3089743324 crc 204ABFFB md5 2572F7E42627C20A553EFCB2C24E7C4C sha1 32D5127AD2181B0713CEE2CE7D07A5E9745F9987 )
 )
 
 game (
@@ -1062,12 +1068,6 @@ game (
 )
 
 game (
-	name "SUPERBEAT - XONiC (USA)"
-	description "SUPERBEAT - XONiC (USA)"
-	rom ( name "SUPERBEAT - XONiC (USA).vpk" size 3089743324 crc 204ABFFB md5 2572F7E42627C20A553EFCB2C24E7C4C sha1 32D5127AD2181B0713CEE2CE7D07A5E9745F9987 )
-)
-
-game (
 	name "Superdimension Neptune VS Sega Hard Girls (USA)"
 	description "Superdimension Neptune VS Sega Hard Girls (USA)"
 	rom ( name "Superdimension Neptune VS Sega Hard Girls (USA).vpk" size 1606830638 crc 640B4841 md5 5B725769B8AD18CE4EF4E13F1EC3CA5C sha1 BB9DA0455F214DB9532C9DA39DE018CFC9DD80E4 )
@@ -1077,6 +1077,12 @@ game (
 	name "Supremacy MMA (USA)"
 	description "Supremacy MMA (USA)"
 	rom ( name "Supremacy MMA (USA).vpk" size 1441827652 crc 4248DBED md5 09D5D952DB2B88AFC32347659EC53CB3 sha1 AE8F8770DD65E662B7105C4EE09B352A56BA164C )
+)
+
+game (
+	name "Sword Art Online - Hollow Realization (Europe) (En,Fr,De,Es,It)"
+	description "Sword Art Online - Hollow Realization (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Sword Art Online - Hollow Realization (Europe) (En,Fr,De,Es,It).vpk" size 3042153669 crc 47B1B2AB md5 4F4D095BBF3646C7708F0AF0C1438888 sha1 55EE4FBC69E04837AA1804965735A98A99093C48 )
 )
 
 game (
@@ -1230,6 +1236,24 @@ game (
 )
 
 game (
+	name "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	description "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	rom ( name "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 735109963 crc AB9FF176 md5 735A9394810E1C9BB73EB875D68FD861 sha1 2FCB6E6F27FE6A4367F0B9D7AC4FDC5E64EDCFFE )
+)
+
+game (
+	name "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	description "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	rom ( name "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 1647245080 crc 3272C92B md5 50407EFBAFC421F7473922A67D8FDC21 sha1 CF7B8BC6522663A9B80ACAE6B65102286805576D )
+)
+
+game (
+	name "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	description "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
+	rom ( name "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 3036377621 crc 8F6B4DBC md5 600D943CE291D8C765F208116AA2427A sha1 6B62D25569817690040EA97FE763E2D3DD223EC1 )
+)
+
+game (
 	name "Walking Dead, The - A Telltale Games Series - The Complete First Season (USA) (En,Fr,De,Es,It)"
 	description "Walking Dead, The - A Telltale Games Series - The Complete First Season (USA) (En,Fr,De,Es,It)"
 	rom ( name "Walking Dead, The - A Telltale Games Series - The Complete First Season (USA) (En,Fr,De,Es,It).vpk" size 2278873513 crc 20E0E11B md5 51F8AC26A3465A5E0EC0868CB37C21FE sha1 223E1F6C6B29FBD0657BC7158669A990B06D8437 )
@@ -1260,33 +1284,15 @@ game (
 )
 
 game (
-	name "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	description "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	rom ( name "WRC 3 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 735109963 crc AB9FF176 md5 735A9394810E1C9BB73EB875D68FD861 sha1 2FCB6E6F27FE6A4367F0B9D7AC4FDC5E64EDCFFE )
-)
-
-game (
-	name "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	description "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	rom ( name "WRC 4 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 1647245080 crc 3272C92B md5 50407EFBAFC421F7473922A67D8FDC21 sha1 CF7B8BC6522663A9B80ACAE6B65102286805576D )
-)
-
-game (
-	name "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	description "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It)"
-	rom ( name "WRC 5 - FIA World Rally Championship (Europe) (En,Fr,De,Es,It).vpk" size 3036377621 crc 8F6B4DBC md5 600D943CE291D8C765F208116AA2427A sha1 6B62D25569817690040EA97FE763E2D3DD223EC1 )
+	name "XBLAZE - Lost Memories (USA)"
+	description "XBLAZE - Lost Memories (USA)"
+	rom ( name "XBLAZE - Lost Memories (USA).vpk" size 2488582706 crc 45E20A49 md5 8E7189C98D57F23312F91D384D3F43A2 sha1 3EAD75F63E2B363B0B4BDBF1E1A85A3E551A6CEF )
 )
 
 game (
 	name "XBlaze - Code Embryo (USA)"
 	description "XBlaze - Code Embryo (USA)"
 	rom ( name "XBlaze - Code Embryo (USA).vpk" size 1475612423 crc 0D1ED326 md5 278A080BE4517C586D456755BCD5CF25 sha1 989A066774FB2BFCFC48AD7A2BD8ABBEF78B5C20 )
-)
-
-game (
-	name "XBLAZE - Lost Memories (USA)"
-	description "XBLAZE - Lost Memories (USA)"
-	rom ( name "XBLAZE - Lost Memories (USA).vpk" size 2488582706 crc 45E20A49 md5 8E7189C98D57F23312F91D384D3F43A2 sha1 3EAD75F63E2B363B0B4BDBF1E1A85A3E551A6CEF )
 )
 
 game (
