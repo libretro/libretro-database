@@ -67,13 +67,4 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 
 ## Building
 
-To build the RDB files, run the following commands...
-
-```
-git clone https://github.com/libretro/libretro-super.git
-cd libretro-super
-./libretro-fetch.sh retroarch
-./libretro-build-database.sh
-```
-
-You will find the updated RDB files over in the retroarch/media directory.
+To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [RetroArch/libretro-db/README.md](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md).
