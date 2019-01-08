@@ -26,7 +26,7 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Bandai - WonderSwan Color|[No-Intro](http://datomatic.no-intro.org)|
 |Cave Story|[CaveStory.org (English or Japanese)](http://www.cavestory.org)|
 |DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
-|FB Alpha - Arcade Games|FB Alpha v0.2.97.42|
+|FB Alpha - Arcade Games|FB Alpha v0.2.97.44|[lr-fbalpha dats](https://github.com/libretro/fbalpha/tree/master/dats)|
 |GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|
 |Id Software - Doom|Unknown|
 |Lutro|Unknown|
