@@ -2,7 +2,7 @@ clrmamepro (
 	name "BIOS"
 	description "BIOS"
 	comment "BIOS files required by libretro, merged into one folder."
-	version "2019-01-08"
+	version "2019-01-13"
 	author "libretro"
 	homepage "http://github.com/libretro/libretro-database"
 	url "http://github.com/libretro/libretro-database"
@@ -130,21 +130,28 @@ game (
 	rom ( name dc_boot.bin size 2097152 crc 89f2b1a1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
 	rom ( name dc_flash.bin size 131072 crc c611b498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
 	rom ( name naomi_boot.bin size 2097152 crc d2a1c6bf md5 3bffafac42a7767d8dcecf771f5552ba sha1 6d27d71aec4dfba98f66316ae74a1426d567698a )
-
-	comment "Sega - Mega Drive - Genesis"
-	rom ( name areplay.bin size 32768 crc 95ff7c3e md5 a0028b3043f9d59ceeb03da5b073b30d sha1 1e0f246826be4ebc7b99bb3f9de7f1de347122e5 )
+	
+	comment "Sega - Game Gear"
 	rom ( name bios.gg size 1024 crc 0ebea9d4 md5 672e104c3be3a238301aceffc3b23fd6 sha1 914aa165e3d879f060be77870d345b60cfeb4ede )
-	rom ( name bios_CD_E.bin size 131072 crc 529ac15a md5 e66fa1dc5820d254611fdcdba0662372 sha1 f891e0ea651e2232af0c5c4cb46a0cae2ee8f356 )
-	rom ( name bios_CD_J.bin size 131072 crc 9d2da8f2 md5 278a9397d192149e84e820ac621a8edd sha1 4846f448160059a7da0215a5df12ca160f26dd69 )
-	rom ( name bios_CD_U.bin size 131072 crc c6d10268 md5 2efd74e3232ff260e371b99f84024f7f sha1 f4f315adcef9b8feb0364c21ab7f0eaf5457f3ed )
+	
+	comment "Sega - Master System - Mark III"
 	rom ( name bios_E.sms size 8192 crc 0072ed54 md5 840481177270d5642a14ca71ee72844c sha1 c315672807d8ddb8d91443729405c766dd95cae7 )
 	rom ( name bios_J.sms size 8192 crc 48d44a13 md5 24a519c53f67b00640d0048ef7089105 sha1 a8c1b39a2e41137835eda6a5de6d46dd9fadbaf2 )
 	rom ( name bios_U.sms size 8192 crc 0072ed54 md5 840481177270d5642a14ca71ee72844c sha1 c315672807d8ddb8d91443729405c766dd95cae7 )
+	
+	comment "Sega - Mega CD - Sega CD""
+	rom ( name bios_CD_E.bin size 131072 crc 529ac15a md5 e66fa1dc5820d254611fdcdba0662372 sha1 f891e0ea651e2232af0c5c4cb46a0cae2ee8f356 )
+	rom ( name bios_CD_J.bin size 131072 crc 9d2da8f2 md5 278a9397d192149e84e820ac621a8edd sha1 4846f448160059a7da0215a5df12ca160f26dd69 )
+	rom ( name bios_CD_U.bin size 131072 crc c6d10268 md5 2efd74e3232ff260e371b99f84024f7f sha1 f4f315adcef9b8feb0364c21ab7f0eaf5457f3ed )
+	
+	comment "Sega - Mega Drive - Genesis"
+	rom ( name bios_MD.bin size 16384 crc 5f5e64eb md5 45e298905a08f9cfb38fd504cd6dbc84 sha1 453fca4e1db6fae4a10657c4451bccbb71955628 )
+	rom ( name areplay.bin size 32768 crc 95ff7c3e md5 a0028b3043f9d59ceeb03da5b073b30d sha1 1e0f246826be4ebc7b99bb3f9de7f1de347122e5 )
 	rom ( name ggenie.bin size 32768 crc 14dbce4a md5 e8af7fe115a75c849f6aab3701e7799b sha1 937e1878ebd104f489e6bdbc410a184f79f1144a )
 	rom ( name sk.bin size 2097152 crc 0658f691 md5 4ea493ea4e9f6c9ebfccbdb15110367e sha1 88d6499d874dcb5721ff58d76fe1b9af811192e3 )
 	rom ( name sk2chip.bin size 262144 crc 4dcfd55c md5 b4e76e416b887f4e7413ba76fa735f16 sha1 70429f1d80503a0632f603bf762fe0bbaa881d22 )
 	rom ( name rom.db size 17742 crc c94e8c8b md5 ff4a3572475236e859e3e9ac5c87d1f1 sha1 02c287d10da6de579af7a4ce73b134bbdf23c970 )
-
+	
 	comment "Sega - Saturn"
 	rom ( name mpr-17933.bin size 524288 crc 4afcf0fa md5 3240872c70984b6cbfda1586cab68dbe sha1 faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3 )
 	rom ( name mpr-18811-mx.ic1 size 2097152 crc 90412e10 md5 255113ba943c92a54facd25a10fd780c sha1 a67cd4f550751f8b91de2b8b74528ab4e0c11c77 )
