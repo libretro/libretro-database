@@ -2,7 +2,7 @@ clrmamepro (
 	name "BIOS"
 	description "BIOS"
 	comment "BIOS files required by libretro, merged into one folder."
-	version "2019-01-14"
+	version "2019-01-16"
 	author "libretro"
 	homepage "http://github.com/libretro/libretro-database"
 	url "http://github.com/libretro/libretro-database"
@@ -27,6 +27,12 @@ game (
 	comment "Arcade (various)"
 	rom ( name neo-geo.rom size 131072 crc 9036d879 md5 2968f59f44bf328639aa79391aeeeab4 sha1 4f5ed7105b7128794654ce82b51723e16e389543 )
 
+	comment "Atari - 400-800"
+	rom ( name ATARIBAS.ROM size 8192 crc 7d684184 md5 0bac0c6a50104045d902df4503a4c30b sha1 3693c9cb9bf3b41bae1150f7a8264992468fc8c0 )
+	rom ( name ATARIOSA.ROM size 10240 crc 72b3fed4 md5 eb1f32f5d9f382db1bbfb8d7f9cb343a sha1 6dd53356159a129ed12367beb3b24a771d41adb0 )
+	rom ( name ATARIOSB.ROM size 10240 crc 3e28a1fe md5 a3e8d617c95d08031fe1b20d541434b2 sha1 f1f0741b1d34fb4350cf7cb8ab3b6ea11cdd8174 )
+	rom ( name ATARIXL.ROM size 16384 crc 1f9cd270 md5 06daac977823773a3eea3422fd26a703 sha1 ae4f523ba08b6fd59f3cae515a2b2410bbd98f55 )
+
 	comment "Atari - 5200"
 	rom ( name 5200.rom size 2048 crc 4248d3e3 md5 281f20ea4320404ec820fb7ec0693b38 sha1 6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530 )
 
@@ -39,6 +45,14 @@ game (
 
 	comment "Atari - ST"
 	rom ( name tos.img size 196608 crc d3c32283 md5 c1c57ce48e8ee4135885cee9e63a68a2 sha1 735793fdba07fe8d5295caa03484f6ef3de931f5 )
+
+	comment "Coleco - ColecoVision"
+	rom ( name coleco.rom size 8192 crc 3aa93ef3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
+
+	comment "Commodore - Amiga"
+	rom ( name kick34005.A500 size 262144 crc c4f0f55f md5 82a21c1890cae844b3df741f2762d48d sha1 891e9a547772fe0c6c19b610baf8bc4ea7fcb785 )
+	rom ( name kick40063.A600 size 524288 crc fc24ae0d md5 e40a5dfb3d017ba8779faba30cbd1c8e sha1 3b7f1493b27e212830f989f26ca76c02049f09ca )
+	rom ( name kick40068.A1200 size 524288 crc 1483a091 md5 646773759326fbac3b2311fd8c8793ee sha1 e21545723fe8374e91342617604f1b3d703094f1 )
 
 	comment "Id Software - Doom"
 	rom ( name prboom.wad size 143312 crc a5751b99 md5 72ae1b47820fcc93cc0df9c428d0face sha1 5f4aed208301449c2e9514edfd325fe9dead76fa )
@@ -62,13 +76,14 @@ game (
 	rom ( name MSX2P.ROM size 32768 crc 00870134 md5 6d8c0ca64e726c82a4b726e9b01cdf1e sha1 e2fbd56e42da637609d23ae9df9efd1b4241b18a )
 	rom ( name MSX2PEXT.ROM size 16384 crc b8ba44d3 md5 7c8243c71d8f143b2531f01afa6a05dc sha1 fe0254cbfc11405b79e7c86c7769bd6322b04995 )
 
-	comment "NEC - PC Engine - TurboGrafx 16"
+	comment "NEC - PC Engine - TurboGrafx 16 - SuperGrafx"
 	rom ( name gecard.pce size 32768 crc 51a12d90 md5 6d2cb14fc3e1f65ceb135633d1694122 sha1 014881a959e045e00f4db8f52955200865d40280 )
+	rom ( name gexpress.pce size 32768 crc 51a12d90 md5 6d2cb14fc3e1f65ceb135633d1694122 sha1 014881a959e045e00f4db8f52955200865d40280 )
+	rom ( name syscard1.pce size 262144 crc 3f9f95a4 md5 2b7ccb3d86baa18f6402c176f3065082 sha1 a39a66da7de6ba94ab84d04eef7afeec7d4ee66a )
+	rom ( name syscard2.pce size 262144 crc 283b74e0 md5 3cdd6614a918616bfc41c862e889dd79 sha1 88da02e2503f7c32810f5d93a34849d470742b6d )
+	rom ( name syscard2u.pce size 262144 crc ff2a5ec3 md5 94279f315e8b52904f65ab3108542afe sha1 2bea3dac98f84b2f2f469fa77ea720b8770d598d )
 	rom ( name syscard3.pce size 262144 crc 6d9a73ef md5 38179df8f4ac870017db21ebcbf53114 sha1 79f5ff55dd10187c7fd7b8daab0b3ffbd1f56a2c )
-
-	comment "NEC - PC Engine SuperGrafx"
-	rom ( name gecard.pce size 32768 crc 51a12d90 md5 6d2cb14fc3e1f65ceb135633d1694122 sha1 014881a959e045e00f4db8f52955200865d40280 )
-	rom ( name syscard3.pce size 262144 crc 6d9a73ef md5 38179df8f4ac870017db21ebcbf53114 sha1 79f5ff55dd10187c7fd7b8daab0b3ffbd1f56a2c )
+	rom ( name syscard3u.pce size 262144 crc 2b5b75fe md5 0754f903b52e3b3342202bdafb13efa5 sha1 d02611d99921986147c753df14c7349b31d71950 )
 
 	comment "NEC - PC-FX"
 	rom ( name fx-scsi.rom size 524288 crc f3e60e5e md5 430e9745f9235c515bc8e652d6ca3004 sha1 65482a23ac5c10a6095aee1db5824cca54ead6e5 )
@@ -178,19 +193,18 @@ game (
 	rom ( name rom.db size 17742 crc c94e8c8b md5 ff4a3572475236e859e3e9ac5c87d1f1 sha1 02c287d10da6de579af7a4ce73b134bbdf23c970 )
 	rom ( name sk.bin size 2097152 crc 0658f691 md5 4ea493ea4e9f6c9ebfccbdb15110367e sha1 88d6499d874dcb5721ff58d76fe1b9af811192e3 )
 	rom ( name sk2chip.bin size 262144 crc 4dcfd55c md5 b4e76e416b887f4e7413ba76fa735f16 sha1 70429f1d80503a0632f603bf762fe0bbaa881d22 )
-	
+
 	comment "Sega - Saturn"
+	rom ( name hisaturn.bin size 524288 crc 721e1b60 md5 3ea3202e2634cb47cb90f3a05c015010 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
 	rom ( name mpr-17933.bin size 524288 crc 4afcf0fa md5 3240872c70984b6cbfda1586cab68dbe sha1 faa8ea183a6d7bbe5d4e03bb1332519800d3fbc3 )
+	rom ( name mpr-18100.bin size 524288 crc 3408dbf4 md5 cb2cebc1b6e573b7c44523d037edcd45 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
 	rom ( name mpr-18811-mx.ic1 size 2097152 crc 90412e10 md5 255113ba943c92a54facd25a10fd780c sha1 a67cd4f550751f8b91de2b8b74528ab4e0c11c77 )
 	rom ( name mpr-19367-mx.ic1 size 2097152 crc b9644b52 md5 1cd19988d1d72a3e7caa0b73234c96b4 sha1 56c1b93da6b660bf393fbf48ca47569000ef4047 )
 	rom ( name saturn_bios.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
-	rom ( name sega_101.bin size 524288 crc 224b752c md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
-	comment "Sega - Saturn (incomplete)"
-	rom ( name hisaturn.bin size 524288 crc 721e1b60 md5 3ea3202e2634cb47cb90f3a05c015010 sha1 49d8493008fa715ca0c94d99817a5439d6f2c796 )
-	rom ( name mpr-18100.bin size 524288 crc 3408dbf4 md5 cb2cebc1b6e573b7c44523d037edcd45 sha1 8a22710e09ce75f39625894366cafe503ed1942d )
 	rom ( name sega1003.bin size 524288 crc b3c63c25 md5 74570fed4d44b2682b560c8cd44b8b6a sha1 7b23b53d62de0f29a23e423d0fe751dfb469c2fa )
 	rom ( name sega_100.bin size 524288 crc 2aba43c2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
 	rom ( name sega_100a.bin size 524288 crc f90f0089 md5 f273555d7d91e8a5a6bfd9bcf066331c sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
+	rom ( name sega_101.bin size 524288 crc 224b752c md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
 	rom ( name vsaturn.bin size 524288 crc e4d61811 md5 ac4e4b6522e200c0d23d371a8cecbfd3 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
 
 	comment "Sharp - X68000"
@@ -201,9 +215,12 @@ game (
 	rom ( name iplromxv.dat size 131072 crc 00eeb408 md5 0617321daa182c3f3d6f41fd02fb3275 sha1 e33cdcdb69cd257b0b211ef46e7a8b144637db57 )
 
 	comment "Sony - PlayStation"
+	rom ( name scph101.bin size 524288 crc 171bdcec md5 6e3735ff4c7dc899ee98981385f6f3d0 sha1 dcffe16bd90a723499ad46c641424981338d8378 )
+	rom ( name scph1001.bin size 524288 crc 37157331 md5 924e392ed05558ffdb115408c263dccf sha1 10155d8d6e6e832d6ea66db9bc098321fb5e8ebf )
 	rom ( name scph5500.bin size 524288 crc ff3eeb8c md5 8dd7d5296a650fac7319bce665a6a53c sha1 b05def971d8ec59f346f2d9ac21fb742e3eb6917 )
 	rom ( name scph5501.bin size 524288 crc 8d8cb7e4 md5 490f666e1afb15b7362b406ed1cea246 sha1 0555c6fae8906f3f09baf5988f00e55f88e9f30b )
 	rom ( name scph5502.bin size 524288 crc d786f0b9 md5 32736f17079d0b2b7024407c39bd3050 sha1 f6bc2d1f5eb6593de7d089c425ac681d6fffd3f0 )
+	rom ( name scph7001.bin size 524288 crc 502224b6 md5 1e68c231d0896b7eadcad1d7d8e76129 sha1 14df4f6c1e367ce097c11deae21566b4fe5647a9 )
 
 	comment "Sony - PlayStation Portable"
 	rom ( name ppge_atlas.zim size 784968 crc 1e8709c1 md5 a93fc411c1ce7d001a2a812643c70085 sha1 02dcd1d5928c13f0305f3af356f935fee11debde )
