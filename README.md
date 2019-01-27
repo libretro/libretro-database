@@ -63,6 +63,7 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |SNK - Neo Geo Pocket|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo Pocket Color|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo CD|Redump|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Thomson - MO/TO|[ScreenScraper](https://www.screenscraper.fr)|[theodore repository](https://github.com/Zlika/theodore/libretro-database)|
 |Uzebox|Unknown|
 
 ## Building
