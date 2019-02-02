@@ -1,8 +1,14 @@
 clrmamepro (
 	name "Nintendo - Super Nintendo Entertainment System"
 	description "Nintendo - Super Nintendo Entertainment System"
-	version "2018.9.29"
+	version "2019.2.1"
 	homepage "http://github.com/robloach/libretro-dats"
+)
+
+game (
+	name "_Nintendo Super Famicom [T-En] Docs"
+	description "_Nintendo Super Famicom [T-En] Docs"
+	rom ( name "Ys V - Kefin, Lost Kingdom of Sand (Japan) [T-En by Aeon Genesis v1.00] [n].txt" size 2373 crc b01eead7 md5 95ab8f043feda9abf6a3e590f802a3ec sha1 b5bdf505d3f60a191c5a68a2464431189d2818d9 )
 )
 
 game (
@@ -42,9 +48,9 @@ game (
 )
 
 game (
-	name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0]"
-	description "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0]"
-	rom ( name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0].sfc" size 1572864 crc d798a184 md5 a5a41386a4a6f3432801cfa60d02666c sha1 6984e38af83bf77b3ac7336aa555cb7bea1a561d )
+	name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0]"
+	description "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0]"
+	rom ( name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0].sfc" size 2097152 crc 7dc5c418 md5 bbf905e1d38d96be953e499bbb9b9e49 sha1 70425d866cdcc061d4fe34c83c0daebca452da42 )
 )
 
 game (
@@ -54,9 +60,9 @@ game (
 )
 
 game (
-	name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0]"
-	description "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0]"
-	rom ( name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by gorgyrip v1.0].sfc" size 2097152 crc 7dc5c418 md5 bbf905e1d38d96be953e499bbb9b9e49 sha1 70425d866cdcc061d4fe34c83c0daebca452da42 )
+	name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0]"
+	description "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0]"
+	rom ( name "Amazing Spider-Man, The - Lethal Foes (Japan) [T-En by Kepeb v1.0].sfc" size 1572864 crc d798a184 md5 a5a41386a4a6f3432801cfa60d02666c sha1 6984e38af83bf77b3ac7336aa555cb7bea1a561d )
 )
 
 game (
@@ -72,12 +78,6 @@ game (
 )
 
 game (
-	name "Aretha (Japan) [T-En by Dynamic Designs v1.00]"
-	description "Aretha (Japan) [T-En by Dynamic Designs v1.00]"
-	rom ( name "Aretha (Japan) [T-En by Dynamic Designs v1.00].sfc" size 2621440 crc 69abc8d0 md5 92ba221cfcfecb2234e89f22284ed8f7 sha1 8db637a7c352e8c73f21585431e3af1ec14540fb )
-)
-
-game (
 	name "Armored Police Metal Jack (Japan) [T-En by MrRichard999+FlashPV+Jink640 v2.0] [n]"
 	description "Armored Police Metal Jack (Japan) [T-En by MrRichard999+FlashPV+Jink640 v2.0] [n]"
 	rom ( name "Armored Police Metal Jack (Japan) [T-En by MrRichard999+FlashPV+Jink640 v2.0] [n].sfc" size 1048576 crc 1b356ce3 md5 48dbfc9d5799e9b015ddb8b6e0fbb3a4 sha1 6dc4d8807f5a0a7eb1803170e1c36c84637555d6 )
@@ -90,51 +90,15 @@ game (
 )
 
 game (
-	name "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n]"
-	description "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n]"
-	rom ( name "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n].sfc" size 2097152 crc 2c5ccac8 md5 120ba709e4b780af4b3ad565b95e1509 sha1 a55006d4cef4b24cdd2f30dfa6331db830dbb577 )
-)
-
-game (
-	name "BS Legend of Zelda, The - Ancient Stone Tablets (Japan) (BS) [T-En by Euclid v1.0] [n]"
-	description "BS Legend of Zelda, The - Ancient Stone Tablets (Japan) (BS) [T-En by Euclid v1.0] [n]"
-	rom ( name "BS Legend of Zelda, The - Ancient Stone Tablets - Chapter 4 (Japan) (BS) [T-En by Euclid v1.0] [n].sfc" size 4194304 crc 014dbd4a md5 9d70209fd5a650c565f7f4cb4966e70f sha1 4daa7b25dc2aa0f9f3b9195d1555e670c817ee9d )
-)
-
-game (
-	name "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest (Japan) (BS) [T-En by Euclid v1.0] [n]"
-	description "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest (Japan) (BS) [T-En by Euclid v1.0] [n]"
-	rom ( name "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest - Chapter 4 (Japan) (BS) [T-En by Euclid v1.0] [n].sfc" size 4194304 crc 56f5ebf3 md5 e3a83100b1886eba3fab472a56dde36a sha1 aa2637fcb934a8b5e9736cb1a177abe807bd2acc )
-)
-
-game (
-	name "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0]"
-	description "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0]"
-	rom ( name "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0].sfc" size 1572864 crc 77c70c74 md5 fbc724d47c0bd7cb7cbc56d42803d1d7 sha1 9600fbdd7b37911298dd4a73f3d09680543bf1d7 )
-)
-
-game (
-	name "BS Super Mario USA - Power Challenge (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0]"
-	description "BS Super Mario USA - Power Challenge (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0]"
-	rom ( name "BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0].sfc" size 1048576 crc 3b5a5041 md5 539d8fc4e2df9fa5bb2fa0b9ad585e47 sha1 a9399ef9acc65b2ae2cf4a64c78086cb66170eca )
-)
-
-game (
-	name "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n]"
-	description "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n]"
-	rom ( name "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n].sfc" size 1048576 crc e5a91ad4 md5 96cf17bf589fcbfa6f8de2dc84f19fa2 sha1 4891d739a8a8b67923681bad4fb67edab2e90e50 )
+	name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3]"
+	description "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3]"
+	rom ( name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3].sfc" size 3145728 crc 58b496a5 md5 496f3f33490a966bb88a4285688988bf sha1 af462a9ad781e3021c9a786a2b0c557a0f3559ca )
 )
 
 game (
 	name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3] (Emulation Hack)"
 	description "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3] (Emulation Hack)"
 	rom ( name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3] (Emulation Hack).sfc" size 3145728 crc 48922837 md5 80cc3ba62d13216e34bdc872542d5f77 sha1 c4399c0f2f4963553245fe1dcd23580c8186f3c4 )
-)
-
-game (
-	name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3]"
-	description "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3]"
-	rom ( name "Bahamut Lagoon (Japan) [T-En by DeJap+Neill Corlett+Tomato v1.3].sfc" size 3145728 crc 58b496a5 md5 496f3f33490a966bb88a4285688988bf sha1 af462a9ad781e3021c9a786a2b0c557a0f3559ca )
 )
 
 game (
@@ -174,12 +138,6 @@ game (
 )
 
 game (
-	name "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music)"
-	description "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music)"
-	rom ( name "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music).sfc" size 4194304 crc 1169783e md5 0d15877595f4d1a3b11e33c801f85b47 sha1 925ba577078b0e83337c7b472111badc6e65196c )
-)
-
-game (
 	name "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] (Through the Fire and Flames) [n]"
 	description "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] (Through the Fire and Flames) [n]"
 	rom ( name "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] (Through the Fire and Flames) [n].sfc" size 4194304 crc efb81e29 md5 07572460a6a305519f6ac3cc97b827ce sha1 19dfcd38e0ba9fca839135de04ab590c93da82fe )
@@ -189,6 +147,48 @@ game (
 	name "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] [n]"
 	description "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] [n]"
 	rom ( name "Breath of Fire II - The Fated Child (USA) [T-En by Watercrown Productions v1.2b] [n].sfc" size 4194304 crc 1320298e md5 299e96968accb96b9e0d9a4154e220a5 sha1 86cf3c2d850b066f099e217f9ad39813b45e9de2 )
+)
+
+game (
+	name "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music)"
+	description "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music)"
+	rom ( name "Breath of Fire II (USA) [T-En by Watercrown Productions v1.2b] (Original Title Screen Music).sfc" size 4194304 crc 1169783e md5 0d15877595f4d1a3b11e33c801f85b47 sha1 925ba577078b0e83337c7b472111badc6e65196c )
+)
+
+game (
+	name "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest (Japan) (BS) [T-En by Euclid v1.0] [n]"
+	description "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest (Japan) (BS) [T-En by Euclid v1.0] [n]"
+	rom ( name "BS Legend of Zelda, The - Ancient Stone Tablets - Master Quest - Chapter 4 (Japan) (BS) [T-En by Euclid v1.0] [n].sfc" size 4194304 crc 56f5ebf3 md5 e3a83100b1886eba3fab472a56dde36a sha1 aa2637fcb934a8b5e9736cb1a177abe807bd2acc )
+)
+
+game (
+	name "BS Legend of Zelda, The - Ancient Stone Tablets (Japan) (BS) [T-En by Euclid v1.0] [n]"
+	description "BS Legend of Zelda, The - Ancient Stone Tablets (Japan) (BS) [T-En by Euclid v1.0] [n]"
+	rom ( name "BS Legend of Zelda, The - Ancient Stone Tablets - Chapter 4 (Japan) (BS) [T-En by Euclid v1.0] [n].sfc" size 4194304 crc 014dbd4a md5 9d70209fd5a650c565f7f4cb4966e70f sha1 4daa7b25dc2aa0f9f3b9195d1555e670c817ee9d )
+)
+
+game (
+	name "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n]"
+	description "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n]"
+	rom ( name "BS Legend of Zelda, The (Japan) (BS) [Hack+T-En by MottZilla v0.95] [n].sfc" size 2097152 crc 2c5ccac8 md5 120ba709e4b780af4b3ad565b95e1509 sha1 a55006d4cef4b24cdd2f30dfa6331db830dbb577 )
+)
+
+game (
+	name "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0]"
+	description "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0]"
+	rom ( name "BS Super Aleste (Japan) (BS) [T-En by tettsui77 v1.0].sfc" size 1572864 crc 77c70c74 md5 fbc724d47c0bd7cb7cbc56d42803d1d7 sha1 9600fbdd7b37911298dd4a73f3d09680543bf1d7 )
+)
+
+game (
+	name "BS Super Mario USA - Power Challenge (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0]"
+	description "BS Super Mario USA - Power Challenge (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0]"
+	rom ( name "BS Super Mario USA - Power Challenge - Dai-4-kai (Japan) (BS SoundLink) [Hack by Con & Duke Serkol v1.1] [T-En by pacnsacdave v1.0].sfc" size 1048576 crc 3b5a5041 md5 539d8fc4e2df9fa5bb2fa0b9ad585e47 sha1 a9399ef9acc65b2ae2cf4a64c78086cb66170eca )
+)
+
+game (
+	name "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n]"
+	description "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n]"
+	rom ( name "BS-X - The Town Whose Name Was Stolen (Japan) (BS) [T-En by LuigiBlood v1.3] [n].sfc" size 1048576 crc e5a91ad4 md5 96cf17bf589fcbfa6f8de2dc84f19fa2 sha1 4891d739a8a8b67923681bad4fb67edab2e90e50 )
 )
 
 game (
@@ -204,15 +204,15 @@ game (
 )
 
 game (
-	name "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01]"
-	description "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01]"
-	rom ( name "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01].sfc" size 6291456 crc a9671ea3 md5 3bdc014de7ed0a7de617a872a13cda70 sha1 de6448bee7492bf78109b83bef76b6c9bf484f81 )
+	name "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e]"
+	description "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e]"
+	rom ( name "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e].sfc" size 524288 crc f530a415 md5 1611da14e10042879d2b0cc85dfa03e9 sha1 4e77529c1d73e63fc6deb08da5ad3e044aec8fc5 )
 )
 
 game (
-	name "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0]"
-	description "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0]"
-	rom ( name "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0].sfc" size 6291456 crc b7c9b14e md5 23663146fcc5f985c74f68feab88b4a9 sha1 a95aba29cb57103b69f51cda835ad5572f23583f )
+	name "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01]"
+	description "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01]"
+	rom ( name "Chrono Trigger (USA) [T-En by Chrono Compendium v1.01].sfc" size 6291456 crc a9671ea3 md5 3bdc014de7ed0a7de617a872a13cda70 sha1 de6448bee7492bf78109b83bef76b6c9bf484f81 )
 )
 
 game (
@@ -222,9 +222,9 @@ game (
 )
 
 game (
-	name "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e]"
-	description "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e]"
-	rom ( name "Chrono Trigger - Music Library (Japan) (BS) [T-En by Terminus Traduction v1.00e].sfc" size 524288 crc f530a415 md5 1611da14e10042879d2b0cc85dfa03e9 sha1 4e77529c1d73e63fc6deb08da5ad3e044aec8fc5 )
+	name "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0]"
+	description "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0]"
+	rom ( name "Chrono Trigger (USA) [T-En by Doctor L v1.01] [Add by LethargicOwl v1.0].sfc" size 6291456 crc b7c9b14e md5 23663146fcc5f985c74f68feab88b4a9 sha1 a95aba29cb57103b69f51cda835ad5572f23583f )
 )
 
 game (
@@ -294,12 +294,6 @@ game (
 )
 
 game (
-	name "Densetsu no Ogre Battle - The March of the Black Queen (Japan) (NP) [T-En by FinS v1.2]"
-	description "Densetsu no Ogre Battle - The March of the Black Queen (Japan) (NP) [T-En by FinS v1.2]"
-	rom ( name "Densetsu no Ogre Battle - The March of the Black Queen (Japan) (NP) [T-En by FinS v1.2].sfc" size 2097152 crc 2d28c079 md5 53f8533b214504fc746ae3356b56d82d sha1 55c9e6dd65dbf037d2389f35816655b5de8a4568 )
-)
-
-game (
 	name "Dezaemon (Japan) [T-En by Aeon Genesis v1.00] [Add by mwksoul v1.0] [n]"
 	description "Dezaemon (Japan) [T-En by Aeon Genesis v1.00] [Add by mwksoul v1.0] [n]"
 	rom ( name "Dezaemon (Japan) [T-En by Aeon Genesis v1.00] [Add by mwksoul v1.0] [n].sfc" size 524288 crc 32f9c958 md5 e577f1535189b2c3e730afa63ce6e787 sha1 3abca6dc1b7731f46ca27f07705294c7011a871b )
@@ -360,6 +354,12 @@ game (
 )
 
 game (
+	name "Dragon Ball Z - Super Goku Legend - Part 1 (Japan) [T-En by Kakkoii Translations v3.13] [i] [n]"
+	description "Dragon Ball Z - Super Goku Legend - Part 1 (Japan) [T-En by Kakkoii Translations v3.13] [i] [n]"
+	rom ( name "Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [T-En by Kakkoii Translations v3.13] [i].sfc" size 2097152 crc 63d4e96a md5 2b740f5bf94c31ae65f1b2aa393de8d7 sha1 d27b266d559aeef525aa058dafe52afe7e488e53 )
+)
+
+game (
 	name "Dragon Ball Z - Super Goku Legend - Part 2 (Japan) [T-En by Commando Ginew v1.0] [i] [n]"
 	description "Dragon Ball Z - Super Goku Legend - Part 2 (Japan) [T-En by Commando Ginew v1.0] [i] [n]"
 	rom ( name "Dragon Ball Z - Super Gokuu Den - Kakusei Hen (Japan) [T-En by Commando Ginew v1.0] [i].sfc" size 2097152 crc 67bd2296 md5 ae946c9cb5aecefa9bc6599600f2d022 sha1 061a6241e0c6f2442f594c17b926a8b5282960f3 )
@@ -375,12 +375,6 @@ game (
 	name "Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [T-En by Kakkoii Translations v0.98] [Manga]"
 	description "Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [T-En by Kakkoii Translations v0.98] [Manga]"
 	rom ( name "Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [T-En by Kakkoii Translations v0.98] [Manga].sfc" size 2097152 crc 48c377f0 md5 afb3d1562105d99743e9216e237c6759 sha1 8fb696e29d6952b9217ca46d254020009f3a3c69 )
-)
-
-game (
-	name "Dragon Ball Z - Super Goku Legend - Part 1 (Japan) [T-En by Kakkoii Translations v3.13] [i] [n]"
-	description "Dragon Ball Z - Super Goku Legend - Part 1 (Japan) [T-En by Kakkoii Translations v3.13] [i] [n]"
-	rom ( name "Dragon Ball Z - Super Gokuu Den - Totsugeki Hen (Japan) [T-En by Kakkoii Translations v3.13] [i].sfc" size 2097152 crc 63d4e96a md5 2b740f5bf94c31ae65f1b2aa393de8d7 sha1 d27b266d559aeef525aa058dafe52afe7e488e53 )
 )
 
 game (
@@ -402,27 +396,21 @@ game (
 )
 
 game (
-	name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0]"
-	description "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0]"
-	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0].sfc" size 2097152 crc fa0422d4 md5 a5253fa61f54230d692117d803c5f6d5 sha1 65887eba48798a06a9622b192e3465cd1e9e1332 )
-)
-
-game (
 	name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ]"
 	description "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ]"
 	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ].sfc" size 2097152 crc b5ae1e89 md5 7dd0c11fedca7ac517c2480533afbecf sha1 8e868e3c70279d26b37887d9715811fedc69a6f4 )
 )
 
 game (
-	name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0]"
-	description "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0]"
-	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0].sfc" size 2097152 crc cf6a44a2 md5 eea44c11376a4e448e795a5511fd6fd6 sha1 678a5eb3d5fdc05f521644f5670744faa612b6c5 )
+	name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0]"
+	description "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0]"
+	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DQ] [Add by Mziab v1.0].sfc" size 2097152 crc fa0422d4 md5 a5253fa61f54230d692117d803c5f6d5 sha1 65887eba48798a06a9622b192e3465cd1e9e1332 )
 )
 
 game (
-	name "Dragon Warrior I & II (Japan) [T-En by RPGOne v2.0 DW] [n]"
-	description "Dragon Warrior I & II (Japan) [T-En by RPGOne v2.0 DW] [n]"
-	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW].sfc" size 2097152 crc 80c078ff md5 153bf4cd05d8f4bdee2ab734a28b8c7f sha1 8675595cf3a08c1c81d10b3daa43bc80a65c06b5 )
+	name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0]"
+	description "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0]"
+	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW] [Add by Mziab v1.0].sfc" size 2097152 crc cf6a44a2 md5 eea44c11376a4e448e795a5511fd6fd6 sha1 678a5eb3d5fdc05f521644f5670744faa612b6c5 )
 )
 
 game (
@@ -438,12 +426,6 @@ game (
 )
 
 game (
-	name "Dragon Warrior V (Japan) [T-En by DeJap+Partial Translations v2.01] [n]"
-	description "Dragon Warrior V (Japan) [T-En by DeJap+Partial Translations v2.01] [n]"
-	rom ( name "Dragon Quest V - Tenkuu no Hanayome (Japan) [T-En by DeJap+Partial Translations v2.01].sfc" size 2097152 crc 9400cb3c md5 5651c58a1c87c42f6b91519969658a88 sha1 7eb872685fb1428aa81b2ae8eaa5d82db88c14e9 )
-)
-
-game (
 	name "Dragon Quest VI - Realms of Revelation (Japan) [T-En by NoPrgress v0.90b2] [n]"
 	description "Dragon Quest VI - Realms of Revelation (Japan) [T-En by NoPrgress v0.90b2] [n]"
 	rom ( name "Dragon Quest VI - Realms of Revelation (Japan) [T-En by NoPrgress v0.90b2] [n].sfc" size 4194304 crc 276d9893 md5 6a081ae0acae2fae2fb2bdb77bb82c21 sha1 30c3ee0ada93480af2ce0e7ab691f8f2d505f70d )
@@ -453,6 +435,18 @@ game (
 	name "Dragon Squadron Danzarb (Japan) [T-En by Aeon Genesis v1.00] [n]"
 	description "Dragon Squadron Danzarb (Japan) [T-En by Aeon Genesis v1.00] [n]"
 	rom ( name "Dragon Squadron Danzarb (Japan) [T-En by Aeon Genesis v1.00] [n].sfc" size 1572864 crc e1019337 md5 f16cf49fe6fd0ed4814f1d6efb451c74 sha1 5cd70a38e6f76ca76a7479f4b78043e983b455a6 )
+)
+
+game (
+	name "Dragon Warrior I & II (Japan) [T-En by RPGOne v2.0 DW] [n]"
+	description "Dragon Warrior I & II (Japan) [T-En by RPGOne v2.0 DW] [n]"
+	rom ( name "Dragon Quest I & II (Japan) [T-En by RPGOne v2.0 DW].sfc" size 2097152 crc 80c078ff md5 153bf4cd05d8f4bdee2ab734a28b8c7f sha1 8675595cf3a08c1c81d10b3daa43bc80a65c06b5 )
+)
+
+game (
+	name "Dragon Warrior V (Japan) [T-En by DeJap+Partial Translations v2.01] [n]"
+	description "Dragon Warrior V (Japan) [T-En by DeJap+Partial Translations v2.01] [n]"
+	rom ( name "Dragon Quest V - Tenkuu no Hanayome (Japan) [T-En by DeJap+Partial Translations v2.01].sfc" size 2097152 crc 9400cb3c md5 5651c58a1c87c42f6b91519969658a88 sha1 7eb872685fb1428aa81b2ae8eaa5d82db88c14e9 )
 )
 
 game (
@@ -498,15 +492,21 @@ game (
 )
 
 game (
+	name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21]"
+	description "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21]"
+	rom ( name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21].sfc" size 1572864 crc 3b97b364 md5 84a1f4488f5b56f8793a0e12fdcff4b9 sha1 26a860bf54534c2d72668d726d3d7f22037878a3 )
+)
+
+game (
 	name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21] [Add by Spooniest v1.0]"
 	description "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21] [Add by Spooniest v1.0]"
 	rom ( name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21] [Add by Spooniest v1.0].sfc" size 1572864 crc c733941f md5 61f76df73381360a2b36fe28dde8cd84 sha1 99a9a72f48f273baeb98f83d79725c4d2e40a858 )
 )
 
 game (
-	name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21]"
-	description "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21]"
-	rom ( name "Final Fantasy IV (Japan) (Rev 1) [T-En by J2e Translations v3.21].sfc" size 1572864 crc 3b97b364 md5 84a1f4488f5b56f8793a0e12fdcff4b9 sha1 26a860bf54534c2d72668d726d3d7f22037878a3 )
+	name "Final Fantasy V (Japan) [T-En by RPGe v1.10]"
+	description "Final Fantasy V (Japan) [T-En by RPGe v1.10]"
+	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10].sfc" size 2621440 crc 17444605 md5 5245a6ed780d896f416cc8824aa36182 sha1 8d5a83770c3d6f2b29b7825b5a17434616ec1c60 )
 )
 
 game (
@@ -528,9 +528,9 @@ game (
 )
 
 game (
-	name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2]"
-	description "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2]"
-	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2].sfc" size 2621440 crc 5267ba92 md5 cabb4067feb3e1a5d69ae9fa64d741f9 sha1 7915b4ed4100eb3692e03f8f663a8cd7333ede6b )
+	name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name]"
+	description "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name]"
+	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name].sfc" size 2621440 crc 29f73ca7 md5 709fde1597b6f1de6255d73b607ed309 sha1 7666d4706b715fe3d842aa705b7017b30ed49c46 )
 )
 
 game (
@@ -540,15 +540,9 @@ game (
 )
 
 game (
-	name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name]"
-	description "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name]"
-	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by noisecross v1.0] [Captured Monster Name].sfc" size 2621440 crc 29f73ca7 md5 709fde1597b6f1de6255d73b607ed309 sha1 7666d4706b715fe3d842aa705b7017b30ed49c46 )
-)
-
-game (
-	name "Final Fantasy V (Japan) [T-En by RPGe v1.10]"
-	description "Final Fantasy V (Japan) [T-En by RPGe v1.10]"
-	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10].sfc" size 2621440 crc 17444605 md5 5245a6ed780d896f416cc8824aa36182 sha1 8d5a83770c3d6f2b29b7825b5a17434616ec1c60 )
+	name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2]"
+	description "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2]"
+	rom ( name "Final Fantasy V (Japan) [T-En by RPGe v1.10] [Add by Spooniest v1.1] [Legend of the Crystals] [Add by Leet Sketcher v1.2].sfc" size 2621440 crc 5267ba92 md5 cabb4067feb3e1a5d69ae9fa64d741f9 sha1 7915b4ed4100eb3692e03f8f663a8cd7333ede6b )
 )
 
 game (
@@ -558,15 +552,15 @@ game (
 )
 
 game (
-	name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix)"
-	description "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix)"
-	rom ( name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix).sfc" size 4194304 crc 7ec72a6c md5 5ae6b02074ccd3b81b1a941c3b38cdf3 sha1 2773801e44947f78e444705aaa9d301e2be6ba36 )
-)
-
-game (
 	name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b]"
 	description "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b]"
 	rom ( name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b].sfc" size 4194304 crc bb80a273 md5 de7c2c41441cc7442d4882101e64a5f3 sha1 1d0d8739e706d3f5fb41a4c0cd03774961354d39 )
+)
+
+game (
+	name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix)"
+	description "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix)"
+	rom ( name "Final Fantasy VI (Japan) [T-En by RPGOne v1.2b] (All Bugs Fix).sfc" size 4194304 crc 7ec72a6c md5 5ae6b02074ccd3b81b1a941c3b38cdf3 sha1 2773801e44947f78e444705aaa9d301e2be6ba36 )
 )
 
 game (
@@ -744,6 +738,12 @@ game (
 )
 
 game (
+	name "Jerry Boy (Japan) [T-En by Chris Covell v1.0]"
+	description "Jerry Boy (Japan) [T-En by Chris Covell v1.0]"
+	rom ( name "Jerry Boy (Japan) [T-En by Chris Covell v1.0].sfc" size 1048576 crc 3230ea4f md5 bd6c161e1e23419960561536994a2e1b sha1 3ef52da1c3f4ad3ff694cd52d6ff0ffa41d8e5cc )
+)
+
+game (
 	name "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Alt Font by KingMike v1.0]"
 	description "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Alt Font by KingMike v1.0]"
 	rom ( name "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Alt Font by KingMike v1.0].sfc" size 1048576 crc f23d0061 md5 35748003eb0e3c45a8aa78eb9a7cddb4 sha1 1eba44f841c9da25c0717f24f311ac1b6374964c )
@@ -759,12 +759,6 @@ game (
 	name "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Controls Hack by KingMike v1.0]"
 	description "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Controls Hack by KingMike v1.0]"
 	rom ( name "Jerry Boy (Japan) [T-En by Chris Covell v1.0] [Controls Hack by KingMike v1.0].sfc" size 1048576 crc e1429180 md5 c050c7a75d3531a9c5cc843505760b8e sha1 cc0b302b382c37e740edec37e91d04560b369635 )
-)
-
-game (
-	name "Jerry Boy (Japan) [T-En by Chris Covell v1.0]"
-	description "Jerry Boy (Japan) [T-En by Chris Covell v1.0]"
-	rom ( name "Jerry Boy (Japan) [T-En by Chris Covell v1.0].sfc" size 1048576 crc 3230ea4f md5 bd6c161e1e23419960561536994a2e1b sha1 3ef52da1c3f4ad3ff694cd52d6ff0ffa41d8e5cc )
 )
 
 game (
@@ -816,9 +810,9 @@ game (
 )
 
 game (
-	name "Laplace's Demon (Japan) [T-En by Aeon Genesis v2.0] [n]"
-	description "Laplace's Demon (Japan) [T-En by Aeon Genesis v2.0] [n]"
-	rom ( name "Laplace's Demon (Japan) [T-En by Aeon Genesis v2.0] [n].sfc" size 2097152 crc 6105876c md5 a7db0b34a245ca1ac0240918339d365c sha1 b0dfcc096e1c6952c94b2cbcf1e9bbfe71809ac5 )
+	name "Laplace no Ma (Japan) [T-En by Aeon Genesis v0.95b]"
+	description "Laplace no Ma (Japan) [T-En by Aeon Genesis v0.95b]"
+	rom ( name "Laplace no Ma (Japan) [T-En by Aeon Genesis v0.95b].sfc" size 2097152 crc 6cdb0dae md5 08a1495d62af1c0461f54f0354793fb7 sha1 b4cfebe7afa6d5fac1f46aa4cb88e2f13189d2b7 )
 )
 
 game (
@@ -852,15 +846,15 @@ game (
 )
 
 game (
-	name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0]"
-	description "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0]"
-	rom ( name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0].sfc" size 2621440 crc b6cd0bab md5 ec98dd14344271652a0e244cf8b8d7f4 sha1 207875cdb2c5f6132c050982f6a8a219c83f09de )
-)
-
-game (
 	name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe]"
 	description "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe]"
 	rom ( name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe].sfc" size 2621440 crc 5ad071f3 md5 65884a7aff5949fa171072fd994f29ee sha1 a4fd4324f36f73f953f42f1677a75b1608b14c9a )
+)
+
+game (
+	name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0]"
+	description "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0]"
+	rom ( name "Live A Live (Japan) [T-En by Aeon Genesis v2.00 Deluxe] [Add by jensma v1.0].sfc" size 2621440 crc b6cd0bab md5 ec98dd14344271652a0e244cf8b8d7f4 sha1 207875cdb2c5f6132c050982f6a8a219c83f09de )
 )
 
 game (
@@ -870,15 +864,15 @@ game (
 )
 
 game (
-	name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type)"
-	description "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type)"
-	rom ( name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type).sfc" size 1572864 crc 6f7a7c7b md5 d7edb6403d1a41d3399fa56828ba624d sha1 81cdc7012a363f81713f253bb8e5da2b7d79fcb6 )
-)
-
-game (
 	name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01]"
 	description "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01]"
 	rom ( name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01].sfc" size 1572864 crc 0c9e7d8e md5 78357f96b8c13089732b4306ff5eafe3 sha1 d8167670731dbb02372a2783de5b49c194d20554 )
+)
+
+game (
+	name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type)"
+	description "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type)"
+	rom ( name "Magic Knight Rayearth (Japan) [T-En by RPGe v1.01] (Hard Type).sfc" size 1572864 crc 6f7a7c7b md5 d7edb6403d1a41d3399fa56828ba624d sha1 81cdc7012a363f81713f253bb8e5da2b7d79fcb6 )
 )
 
 game (
@@ -1158,12 +1152,6 @@ game (
 )
 
 game (
-	name "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n]"
-	description "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n]"
-	rom ( name "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n].sfc" size 1048576 crc 9bf7d5e1 md5 c1a1e55c83d33b7fe3f4935c7c5af45a sha1 2b015f6818f6d129c64d5d4b1b2ee89d24819c24 )
-)
-
-game (
 	name "Sailor Moon Super S - Floating Panic (Japan) [T-En by Dynamic Designs v1.01] [DiC-Cloverway] [n]"
 	description "Sailor Moon Super S - Floating Panic (Japan) [T-En by Dynamic Designs v1.01] [DiC-Cloverway] [n]"
 	rom ( name "Sailor Moon Super S - Floating Panic (Japan) [T-En by Dynamic Designs v1.01] [DiC-Cloverway] [n].sfc" size 1572864 crc 38f99df9 md5 09ef4480cddd617e9e53a3d3335bac0f sha1 05f44072dd27c649e9bfa3e9b171de3e84d72fb2 )
@@ -1179,6 +1167,12 @@ game (
 	name "Sanrio World Smash Ball! (Japan) [T-En by Suicidal Translations v1.00]"
 	description "Sanrio World Smash Ball! (Japan) [T-En by Suicidal Translations v1.00]"
 	rom ( name "Sanrio World Smash Ball! (Japan) [T-En by Suicidal Translations v1.00].sfc" size 294912 crc 6a3cd3b1 md5 991b24ad37b6c6afd59b4bdbbec0f5cd sha1 cd10c2542df4579be57d5033a980dbf6e2c1547e )
+)
+
+game (
+	name "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n]"
+	description "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n]"
+	rom ( name "SD The Great Battle - A New Challenge (Japan) [T-En by Aeon Genesis v1.0] [n].sfc" size 1048576 crc 9bf7d5e1 md5 c1a1e55c83d33b7fe3f4935c7c5af45a sha1 2b015f6818f6d129c64d5d4b1b2ee89d24819c24 )
 )
 
 game (
@@ -1200,15 +1194,15 @@ game (
 )
 
 game (
-	name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0]"
-	description "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0]"
-	rom ( name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0].sfc" size 2097152 crc 9165294a md5 7590a77f8f6661bb8877d3acdb33c944 sha1 3581a9a51354ad68662dca6a6856da2963f62562 )
-)
-
-game (
 	name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00]"
 	description "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00]"
 	rom ( name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00].sfc" size 2097152 crc 1afe71a8 md5 e0450bd7cae39aed72cb8535fc39048c sha1 8baf25db85c711db265dce027d6802ade2c98e86 )
+)
+
+game (
+	name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0]"
+	description "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0]"
+	rom ( name "Shin Megami Tensei (Japan) [T-En by Aeon Genesis v1.00] [Add by Orden v1.0].sfc" size 2097152 crc 9165294a md5 7590a77f8f6661bb8877d3acdb33c944 sha1 3581a9a51354ad68662dca6a6856da2963f62562 )
 )
 
 game (
@@ -1248,15 +1242,15 @@ game (
 )
 
 game (
-	name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010]"
-	description "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010]"
-	rom ( name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010].sfc" size 1048576 crc 85c7e727 md5 085817b184f94327d92b9fee4d3ed1de sha1 9a87f264af6b1266500882e0c1848dd34effd38d )
-)
-
-game (
 	name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00]"
 	description "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00]"
 	rom ( name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00].sfc" size 1048576 crc a797f974 md5 e27fb54db09b3bc1cbb6d05b8f42ddbf sha1 e6a66a8e6c929f569c8d3d625a571d8790866b42 )
+)
+
+game (
+	name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010]"
+	description "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010]"
+	rom ( name "Star Fox 2 (Japan) (Proto) (Alt 1) [T-En by Aeon Genesis v1.00] [Add by ManuLoewe v20.07.2010].sfc" size 1048576 crc 85c7e727 md5 085817b184f94327d92b9fee4d3ed1de sha1 9a87f264af6b1266500882e0c1848dd34effd38d )
 )
 
 game (
@@ -1398,6 +1392,12 @@ game (
 )
 
 game (
+	name "Tales of Phantasia (Japan) [T-En by DeJap v1.2]"
+	description "Tales of Phantasia (Japan) [T-En by DeJap v1.2]"
+	rom ( name "Tales of Phantasia (Japan) [T-En by DeJap v1.2].sfc" size 6291456 crc 14612848 md5 9bb90422fcfb32581121a7d8588827b0 sha1 5d1f0ab7bc58ebf5423e23bc1ee9bff5a070c742 )
+)
+
+game (
 	name "Tales of Phantasia (Japan) [T-En by DeJap v1.2] (Alt Font)"
 	description "Tales of Phantasia (Japan) [T-En by DeJap v1.2] (Alt Font)"
 	rom ( name "Tales of Phantasia (Japan) [T-En by DeJap v1.2] (Alt Font).sfc" size 6291456 crc 4aafa3ae md5 ce81fd69b8cbcb9ea00568e2edb8d71e sha1 82d0411ccb3c5e366dd1468e7ee89572b9f489aa )
@@ -1407,12 +1407,6 @@ game (
 	name "Tales of Phantasia (Japan) [T-En by DeJap v1.2] [Add by Spinner 8 and friends v1.0]"
 	description "Tales of Phantasia (Japan) [T-En by DeJap v1.2] [Add by Spinner 8 and friends v1.0]"
 	rom ( name "Tales of Phantasia (Japan) [T-En by DeJap v1.2] [Add by Spinner 8 and friends v1.0].sfc" size 6291456 crc e917baf3 md5 838a0e35c936bbad54eaa9c2dd287412 sha1 c81ad7ce68149afcc1813d0d029bf42f98043ea8 )
-)
-
-game (
-	name "Tales of Phantasia (Japan) [T-En by DeJap v1.2]"
-	description "Tales of Phantasia (Japan) [T-En by DeJap v1.2]"
-	rom ( name "Tales of Phantasia (Japan) [T-En by DeJap v1.2].sfc" size 6291456 crc 14612848 md5 9bb90422fcfb32581121a7d8588827b0 sha1 5d1f0ab7bc58ebf5423e23bc1ee9bff5a070c742 )
 )
 
 game (
@@ -1551,10 +1545,4 @@ game (
 	name "Ys V - Kefin, Lost Kingdom of Sand (Japan) [T-En by Aeon Genesis v1.00] [n]"
 	description "Ys V - Kefin, Lost Kingdom of Sand (Japan) [T-En by Aeon Genesis v1.00] [n]"
 	rom ( name "Ys V - Kefin, Lost Kingdom of Sand (Japan) [T-En by Aeon Genesis v1.00] [n].sfc" size 3145728 crc bebe867e md5 b27591ad95c4904e584c5b2523de4b0d sha1 3880b2e621c6bdd99b447af1431c502e4efc055d )
-)
-
-game (
-	name "_Nintendo Super Famicom [T-En] Docs"
-	description "_Nintendo Super Famicom [T-En] Docs"
-	rom ( name "Ys V - Kefin, Lost Kingdom of Sand (Japan) [T-En by Aeon Genesis v1.00] [n].txt" size 2373 crc b01eead7 md5 95ab8f043feda9abf6a3e590f802a3ec sha1 b5bdf505d3f60a191c5a68a2464431189d2818d9 )
 )
