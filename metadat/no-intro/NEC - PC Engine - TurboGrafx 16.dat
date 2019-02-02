@@ -1,7 +1,7 @@
 clrmamepro (
 	name "NEC - PC Engine - TurboGrafx 16"
 	description "NEC - PC Engine - TurboGrafx 16"
-	version "2018.9.29"
+	version "2019.2.1"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -15,12 +15,6 @@ game (
 	name "21 Emon - Mezase Hotel Ou!! (Japan)"
 	description "21 Emon - Mezase Hotel Ou!! (Japan)"
 	rom ( name "21 Emon - Mezase Hotel Ou!! (Japan).pce" size 524288 crc 73614660 md5 86E3ED839F053BB99EBF1760439C3A3C sha1 DE80A0D266916799EE5666815D9FD11602BDBDEC )
-)
-
-game (
-	name "AV Poker - World Gambler (Japan) (Unl)"
-	description "AV Poker - World Gambler (Japan) (Unl)"
-	rom ( name "AV Poker - World Gambler (Japan) (Unl).pce" size 524288 crc B866D282 md5 D395BEB4A1E3FC80831870995B169358 sha1 9D71B3DCA401EA02595917CE5A3DBE8FB6EDB7BB )
 )
 
 game (
@@ -114,6 +108,12 @@ game (
 )
 
 game (
+	name "AV Poker - World Gambler (Japan) (Unl)"
+	description "AV Poker - World Gambler (Japan) (Unl)"
+	rom ( name "AV Poker - World Gambler (Japan) (Unl).pce" size 524288 crc B866D282 md5 D395BEB4A1E3FC80831870995B169358 sha1 9D71B3DCA401EA02595917CE5A3DBE8FB6EDB7BB )
+)
+
+game (
 	name "Ballistix (Japan)"
 	description "Ballistix (Japan)"
 	rom ( name "Ballistix (Japan).pce" size 262144 crc 8ACFC8AA md5 6DE6635138B034E133720D11279B8EA7 sha1 E687ABEB0F94E85FAFA52E92B0BEB82542F0C368 )
@@ -162,27 +162,27 @@ game (
 )
 
 game (
-	name "Benkei Gaiden (Japan) (Alt 1)"
-	description "Benkei Gaiden (Japan) (Alt 1)"
-	rom ( name "Benkei Gaiden (Japan) (Alt 1).pce" size 393216 crc E1A73797 md5 FE54EE82279992CEF3AEB14AA3F795D9 sha1 4BC46592F3707A7C3E514ABC23E640E3194879AD )
-)
-
-game (
 	name "Benkei Gaiden (Japan)"
 	description "Benkei Gaiden (Japan)"
 	rom ( name "Benkei Gaiden (Japan).pce" size 393216 crc C9626A43 md5 41E5131613FD41B9CAB87191CEE474A5 sha1 0BE41C774E7EE75B84EFDC2B05A7A45EC0201503 )
 )
 
 game (
-	name "Bikkuriman World (Japan) (Alt 1)"
-	description "Bikkuriman World (Japan) (Alt 1)"
-	rom ( name "Bikkuriman World (Japan) (Alt 1).pce" size 262144 crc 34893891 md5 FE2DAB5A24D21EF36089E88F62B53865 sha1 B063DC0057AB7CD00A6A46F080EA5AF776948043 )
+	name "Benkei Gaiden (Japan) (Alt 1)"
+	description "Benkei Gaiden (Japan) (Alt 1)"
+	rom ( name "Benkei Gaiden (Japan) (Alt 1).pce" size 393216 crc E1A73797 md5 FE54EE82279992CEF3AEB14AA3F795D9 sha1 4BC46592F3707A7C3E514ABC23E640E3194879AD )
 )
 
 game (
 	name "Bikkuriman World (Japan)"
 	description "Bikkuriman World (Japan)"
 	rom ( name "Bikkuriman World (Japan).pce" size 262144 crc 2841FD1E md5 7822065CAF6C6B5CD8F16189915B4E21 sha1 5C09536BBD46337BD563818F637AFE2A609BB08B )
+)
+
+game (
+	name "Bikkuriman World (Japan) (Alt 1)"
+	description "Bikkuriman World (Japan) (Alt 1)"
+	rom ( name "Bikkuriman World (Japan) (Alt 1).pce" size 262144 crc 34893891 md5 FE2DAB5A24D21EF36089E88F62B53865 sha1 B063DC0057AB7CD00A6A46F080EA5AF776948043 )
 )
 
 game (
@@ -210,15 +210,21 @@ game (
 )
 
 game (
-	name "Bomberman '93 (Japan)"
-	description "Bomberman '93 (Japan)"
-	rom ( name "Bomberman '93 (Japan).pce" size 524288 crc B300C5D0 md5 17A08FCA7468A24039F1A6C97015807F sha1 64131AEB6753BFFDE2910D641C73B56108874320 )
+	name "Bomberman - Users Battle (Japan)"
+	description "Bomberman - Users Battle (Japan)"
+	rom ( name "Bomberman - Users Battle (Japan).pce" size 262144 crc 1489FA51 md5 DCCEDF6D85EA5CF9C37C1C963B328735 sha1 96BA02050843CACB149859128A8F3313BFF44358 )
 )
 
 game (
-	name "Bomberman '93 (USA)"
-	description "Bomberman '93 (USA)"
-	rom ( name "Bomberman '93 (USA).pce" size 524288 crc 56171C1C md5 795321485B7D58701CD5B661D6AD636A sha1 709B47DE6E0EBC18FB80C951D5CFAA6CE82D6CE0 )
+	name "Bomberman '93 - Special Version (Japan)"
+	description "Bomberman '93 - Special Version (Japan)"
+	rom ( name "Bomberman '93 - Special Version (Japan).pce" size 524288 crc 02309AA0 md5 8930D24E64BE677B898423A295B2BDE0 sha1 79AF6D5987267238CF8F729AF79E25349CB0BF03 )
+)
+
+game (
+	name "Bomberman '93 (Japan)"
+	description "Bomberman '93 (Japan)"
+	rom ( name "Bomberman '93 (Japan).pce" size 524288 crc B300C5D0 md5 17A08FCA7468A24039F1A6C97015807F sha1 64131AEB6753BFFDE2910D641C73B56108874320 )
 )
 
 game (
@@ -228,9 +234,9 @@ game (
 )
 
 game (
-	name "Bomberman '93 - Special Version (Japan)"
-	description "Bomberman '93 - Special Version (Japan)"
-	rom ( name "Bomberman '93 - Special Version (Japan).pce" size 524288 crc 02309AA0 md5 8930D24E64BE677B898423A295B2BDE0 sha1 79AF6D5987267238CF8F729AF79E25349CB0BF03 )
+	name "Bomberman '93 (USA)"
+	description "Bomberman '93 (USA)"
+	rom ( name "Bomberman '93 (USA).pce" size 524288 crc 56171C1C md5 795321485B7D58701CD5B661D6AD636A sha1 709B47DE6E0EBC18FB80C951D5CFAA6CE82D6CE0 )
 )
 
 game (
@@ -249,12 +255,6 @@ game (
 	name "Bomberman (USA)"
 	description "Bomberman (USA)"
 	rom ( name "Bomberman (USA).pce" size 262144 crc 5F6F3C2A md5 22945308EB41396F39C00444BE9F251F sha1 DC63680E579764BBACB7F07514F4F49AB888D3B1 )
-)
-
-game (
-	name "Bomberman - Users Battle (Japan)"
-	description "Bomberman - Users Battle (Japan)"
-	rom ( name "Bomberman - Users Battle (Japan).pce" size 262144 crc 1489FA51 md5 DCCEDF6D85EA5CF9C37C1C963B328735 sha1 96BA02050843CACB149859128A8F3313BFF44358 )
 )
 
 game (
@@ -366,15 +366,15 @@ game (
 )
 
 game (
-	name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1)"
-	description "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1)"
-	rom ( name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1).pce" size 524288 crc 84098884 md5 8649845540952B77BAA7A8AD9B2BA36C sha1 D35065EA90324765742CFBD1B72AA56ACC585F98 )
-)
-
-game (
 	name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan)"
 	description "Chikudenya Toubei - Kubikiri Yakata Yori (Japan)"
 	rom ( name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan).pce" size 524288 crc CAB21B2E md5 230232534784E6B36C0E8B5DF1572CBC sha1 75805BFD024C105BF450D5367953D0F9D4517EEF )
+)
+
+game (
+	name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1)"
+	description "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1)"
+	rom ( name "Chikudenya Toubei - Kubikiri Yakata Yori (Japan) (Alt 1).pce" size 524288 crc 84098884 md5 8649845540952B77BAA7A8AD9B2BA36C sha1 D35065EA90324765742CFBD1B72AA56ACC585F98 )
 )
 
 game (
@@ -408,15 +408,15 @@ game (
 )
 
 game (
-	name "Coryoon - Child of Dragon (Japan) (Alt 1)"
-	description "Coryoon - Child of Dragon (Japan) (Alt 1)"
-	rom ( name "Coryoon - Child of Dragon (Japan) (Alt 1).pce" size 524288 crc D5389889 md5 355D6A12B2512361A49572EF0EE296A1 sha1 9C840B7452B6EC87DB24CC75180EBB1C970BD3E8 )
-)
-
-game (
 	name "Coryoon - Child of Dragon (Japan)"
 	description "Coryoon - Child of Dragon (Japan)"
 	rom ( name "Coryoon - Child of Dragon (Japan).pce" size 524288 crc B4D29E3B md5 A02C4E74D78C7E02F1FF1DBF13ACA711 sha1 709595F04DEFCC55181F7502A0065E4C22D5FB19 )
+)
+
+game (
+	name "Coryoon - Child of Dragon (Japan) (Alt 1)"
+	description "Coryoon - Child of Dragon (Japan) (Alt 1)"
+	rom ( name "Coryoon - Child of Dragon (Japan) (Alt 1).pce" size 524288 crc D5389889 md5 355D6A12B2512361A49572EF0EE296A1 sha1 9C840B7452B6EC87DB24CC75180EBB1C970BD3E8 )
 )
 
 game (
@@ -492,27 +492,27 @@ game (
 )
 
 game (
-	name "Dead Moon (USA)"
-	description "Dead Moon (USA)"
-	rom ( name "Dead Moon (USA).pce" size 524288 crc F5D98B0B md5 47E3D20A759659E30CEF20AAAA5731B0 sha1 B289533A795EF874CC9BAC158E3035101F892475 )
-)
-
-game (
 	name "Dead Moon - Getsu Sekai no Akumu (Japan)"
 	description "Dead Moon - Getsu Sekai no Akumu (Japan)"
 	rom ( name "Dead Moon - Getsu Sekai no Akumu (Japan).pce" size 524288 crc 56739BC7 md5 E133DE02B11031CF8A010E07BD772F3F sha1 D86BA171B459C286243306407311D85D013A2833 )
 )
 
 game (
-	name "Deep Blue (USA)"
-	description "Deep Blue (USA)"
-	rom ( name "Deep Blue (USA).pce" size 262144 crc 16B40B44 md5 AE3165E430F12FD57DE382AB34E16DEE sha1 91B8DD861D848033BB95B0C8C5E878EE827FEF41 )
+	name "Dead Moon (USA)"
+	description "Dead Moon (USA)"
+	rom ( name "Dead Moon (USA).pce" size 524288 crc F5D98B0B md5 47E3D20A759659E30CEF20AAAA5731B0 sha1 B289533A795EF874CC9BAC158E3035101F892475 )
 )
 
 game (
 	name "Deep Blue - Kaitei Shinwa (Japan)"
 	description "Deep Blue - Kaitei Shinwa (Japan)"
 	rom ( name "Deep Blue - Kaitei Shinwa (Japan).pce" size 262144 crc 053A0F83 md5 12C28460B65B5E1D898AC77C30124122 sha1 F9CB1E26B4274759890844C36D8FD8E9CD1A195C )
+)
+
+game (
+	name "Deep Blue (USA)"
+	description "Deep Blue (USA)"
+	rom ( name "Deep Blue (USA).pce" size 262144 crc 16B40B44 md5 AE3165E430F12FD57DE382AB34E16DEE sha1 91B8DD861D848033BB95B0C8C5E878EE827FEF41 )
 )
 
 game (
@@ -576,15 +576,15 @@ game (
 )
 
 game (
-	name "Download (Japan) (Alt 1)"
-	description "Download (Japan) (Alt 1)"
-	rom ( name "Download (Japan) (Alt 1).pce" size 524288 crc 4E0DE488 md5 B9D993A7CD1E25E20FD06818C3387882 sha1 EE4A7F7DDA0B22AAF043EAA4820759DDC20DFF37 )
-)
-
-game (
 	name "Download (Japan)"
 	description "Download (Japan)"
 	rom ( name "Download (Japan).pce" size 524288 crc 85101C20 md5 10DE08141486E768E6743D9A1C2C57F4 sha1 847BD22CCCDF929DEF8FC348B973FAEE2688E648 )
+)
+
+game (
+	name "Download (Japan) (Alt 1)"
+	description "Download (Japan) (Alt 1)"
+	rom ( name "Download (Japan) (Alt 1).pce" size 524288 crc 4E0DE488 md5 B9D993A7CD1E25E20FD06818C3387882 sha1 EE4A7F7DDA0B22AAF043EAA4820759DDC20DFF37 )
 )
 
 game (
@@ -594,15 +594,15 @@ game (
 )
 
 game (
-	name "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1)"
-	description "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1)"
-	rom ( name "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1).pce" size 524288 crc C89CE75A md5 6FB2BE6F35F0FCAD1F0B61E710AECDB8 sha1 A2F17E33A36D6E67052AD4A1C3343E2E6624EB85 )
-)
-
-game (
 	name "Dragon Saber - After Story of Dragon Spirit (Japan)"
 	description "Dragon Saber - After Story of Dragon Spirit (Japan)"
 	rom ( name "Dragon Saber - After Story of Dragon Spirit (Japan).pce" size 524288 crc 3219849C md5 A8DBE74D6CB012951478202E3B5EA08A sha1 6D94CD3E27DBE1694229F7F006DC821BE4764AA2 )
+)
+
+game (
+	name "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1)"
+	description "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1)"
+	rom ( name "Dragon Saber - After Story of Dragon Spirit (Japan) (Alt 1).pce" size 524288 crc C89CE75A md5 6FB2BE6F35F0FCAD1F0B61E710AECDB8 sha1 A2F17E33A36D6E67052AD4A1C3343E2E6624EB85 )
 )
 
 game (
@@ -690,15 +690,15 @@ game (
 )
 
 game (
-	name "F1 Circus (Japan) (Alt 1)"
-	description "F1 Circus (Japan) (Alt 1)"
-	rom ( name "F1 Circus (Japan) (Alt 1).pce" size 524288 crc 79705779 md5 206A99B78D3239D2D84F8C7182EFA83B sha1 6EEB1A6DB725C9E96D1A4B24A8D3A944B12813E1 )
-)
-
-game (
 	name "F1 Circus (Japan)"
 	description "F1 Circus (Japan)"
 	rom ( name "F1 Circus (Japan).pce" size 524288 crc E14DEE08 md5 ABE73A499D4006E3906E97C7D31FB4CC sha1 9A83F109F785FE75D58661645C95FF25A0699571 )
+)
+
+game (
+	name "F1 Circus (Japan) (Alt 1)"
+	description "F1 Circus (Japan) (Alt 1)"
+	rom ( name "F1 Circus (Japan) (Alt 1).pce" size 524288 crc 79705779 md5 206A99B78D3239D2D84F8C7182EFA83B sha1 6EEB1A6DB725C9E96D1A4B24A8D3A944B12813E1 )
 )
 
 game (
@@ -756,15 +756,15 @@ game (
 )
 
 game (
-	name "Final Soldier (Japan) (En)"
-	description "Final Soldier (Japan) (En)"
-	rom ( name "Final Soldier (Japan) (En).pce" size 524288 crc AF2DD2AF md5 FE5B3F899F0EE5994508F259BBB74CFE sha1 CE89C6EA5D9EB36A642742ECAD9C35C16B761C49 )
-)
-
-game (
 	name "Final Soldier - Special Version (Japan) (En)"
 	description "Final Soldier - Special Version (Japan) (En)"
 	rom ( name "Final Soldier - Special Version (Japan) (En).pce" size 524288 crc 02A578C5 md5 838E1AE033F797BAD4A122A593604A8F sha1 BA15992964C84D4C5998F5622AE78AD843CDA5F0 )
+)
+
+game (
+	name "Final Soldier (Japan) (En)"
+	description "Final Soldier (Japan) (En)"
+	rom ( name "Final Soldier (Japan) (En).pce" size 524288 crc AF2DD2AF md5 FE5B3F899F0EE5994508F259BBB74CFE sha1 CE89C6EA5D9EB36A642742ECAD9C35C16B761C49 )
 )
 
 game (
@@ -846,15 +846,15 @@ game (
 )
 
 game (
-	name "Genpei Toumaden (Japan)"
-	description "Genpei Toumaden (Japan)"
-	rom ( name "Genpei Toumaden (Japan).pce" size 524288 crc B926C682 md5 C3357CC104FEB0686EDE96B099A2DE2D sha1 C9AC518E9541C204D532FD531AAAD5CD06763986 )
-)
-
-game (
 	name "Genpei Toumaden - Kan no Ni (Japan)"
 	description "Genpei Toumaden - Kan no Ni (Japan)"
 	rom ( name "Genpei Toumaden - Kan no Ni (Japan).pce" size 524288 crc 8793758C md5 F6B763E45180BD47A689D03890A82344 sha1 FC712391B09C3FF2D6C894260F4B4C10B77219AF )
+)
+
+game (
+	name "Genpei Toumaden (Japan)"
+	description "Genpei Toumaden (Japan)"
+	rom ( name "Genpei Toumaden (Japan).pce" size 524288 crc B926C682 md5 C3357CC104FEB0686EDE96B099A2DE2D sha1 C9AC518E9541C204D532FD531AAAD5CD06763986 )
 )
 
 game (
@@ -888,15 +888,15 @@ game (
 )
 
 game (
-	name "Gunhed (Japan)"
-	description "Gunhed (Japan)"
-	rom ( name "Gunhed (Japan).pce" size 393216 crc A17D4D7E md5 537C1976F0306E264DA966A907B93E3F sha1 0107D93FF5D10325092D45E6BFD21E8130EFEED7 )
-)
-
-game (
 	name "Gunhed - Special Version (Japan)"
 	description "Gunhed - Special Version (Japan)"
 	rom ( name "Gunhed - Special Version (Japan).pce" size 262144 crc 57F183AE md5 CF91D85FA31A2BAF459C65ADDAA4326E sha1 F21597E7D04506C515B156ACEA7FDB4C70A5C1C8 )
+)
+
+game (
+	name "Gunhed (Japan)"
+	description "Gunhed (Japan)"
+	rom ( name "Gunhed (Japan).pce" size 393216 crc A17D4D7E md5 537C1976F0306E264DA966A907B93E3F sha1 0107D93FF5D10325092D45E6BFD21E8130EFEED7 )
 )
 
 game (
@@ -936,15 +936,15 @@ game (
 )
 
 game (
-	name "Hit the Ice - VHL - The Official Video Hockey League (Japan)"
-	description "Hit the Ice - VHL - The Official Video Hockey League (Japan)"
-	rom ( name "Hit the Ice - VHL - The Official Video Hockey League (Japan).pce" size 393216 crc 7ACB60C8 md5 E313B6D6C03C3F1D7F05750697104D67 sha1 1452D2161D1DA401F05C36A0A50492A6DF9DC010 )
-)
-
-game (
 	name "Hit the Ice - VHL - The Official Video Hockey League (USA)"
 	description "Hit the Ice - VHL - The Official Video Hockey League (USA)"
 	rom ( name "Hit the Ice - VHL - The Official Video Hockey League (USA).pce" size 393216 crc 8B29C3AA md5 D2F94B64B528C320D5EE148FE77F05F5 sha1 19F201FFEB790C4D5685E5241CF5B37C25E15480 )
+)
+
+game (
+	name "Hit the Ice - VHL - The Video Hockey League (Japan)"
+	description "Hit the Ice - VHL - The Video Hockey League (Japan)"
+	rom ( name "Hit the Ice - VHL - The Video Hockey League (Japan).pce" size 393216 crc 7ACB60C8 md5 E313B6D6C03C3F1D7F05750697104D67 sha1 1452D2161D1DA401F05C36A0A50492A6DF9DC010 )
 )
 
 game (
@@ -972,15 +972,15 @@ game (
 )
 
 game (
-	name "J. League Greatest Eleven (Japan)"
-	description "J. League Greatest Eleven (Japan)"
-	rom ( name "J. League Greatest Eleven (Japan).pce" size 524288 crc 0AD97B04 md5 CF3C65B99A222A4E72824EADC58C09CD sha1 092AC9337C5B63F2ACE2141E976444501DDA0E6E )
-)
-
-game (
 	name "J.J. & Jeff (USA)"
 	description "J.J. & Jeff (USA)"
 	rom ( name "J.J. & Jeff (USA).pce" size 262144 crc E01C5127 md5 B614F91296AAED8AFABD4F03F4EE40D1 sha1 18AE2D9031F49E54145D83FF90DF4189C36ADEF1 )
+)
+
+game (
+	name "J.League Greatest Eleven (Japan)"
+	description "J.League Greatest Eleven (Japan)"
+	rom ( name "J.League Greatest Eleven (Japan).pce" size 524288 crc 0AD97B04 md5 CF3C65B99A222A4E72824EADC58C09CD sha1 092AC9337C5B63F2ACE2141E976444501DDA0E6E )
 )
 
 game (
@@ -1008,15 +1008,15 @@ game (
 )
 
 game (
-	name "Jaseiken Necromancer (Japan) (Virtual Console)"
-	description "Jaseiken Necromancer (Japan) (Virtual Console)"
-	rom ( name "Jaseiken Necromancer (Japan) (Virtual Console).pce" size 262144 crc 32C950BE md5 7A87AEB137A1744C7A1ECEAB4E785C56 sha1 C8EFF40FEA012983D383ABFFA47A953A1A217334 )
-)
-
-game (
 	name "Jaseiken Necromancer (Japan)"
 	description "Jaseiken Necromancer (Japan)"
 	rom ( name "Jaseiken Necromancer (Japan).pce" size 262144 crc 53109AE6 md5 6E6A1D3C2119B88C42D6CC516C71CDBA sha1 49B4122EA576A7C1C8D1AE2C5BF627E550367246 )
+)
+
+game (
+	name "Jaseiken Necromancer (Japan) (Virtual Console)"
+	description "Jaseiken Necromancer (Japan) (Virtual Console)"
+	rom ( name "Jaseiken Necromancer (Japan) (Virtual Console).pce" size 262144 crc 32C950BE md5 7A87AEB137A1744C7A1ECEAB4E785C56 sha1 C8EFF40FEA012983D383ABFFA47A953A1A217334 )
 )
 
 game (
@@ -1026,27 +1026,27 @@ game (
 )
 
 game (
-	name "Jinmu Denshou (Japan) (Alt 1)"
-	description "Jinmu Denshou (Japan) (Alt 1)"
-	rom ( name "Jinmu Denshou (Japan) (Alt 1).pce" size 524288 crc 84240EF9 md5 31D2DCE8774ADC6C030BAEBEBCBC20C4 sha1 735BA5D77F49288E360B2908D989EFBDC8B7ADF4 )
-)
-
-game (
 	name "Jinmu Denshou (Japan)"
 	description "Jinmu Denshou (Japan)"
 	rom ( name "Jinmu Denshou (Japan).pce" size 524288 crc C150637A md5 B7BD7BB88393A97BDF6072534177FE7D sha1 E38D6D83120301A7BEFA7F496F1A93768060032D )
 )
 
 game (
-	name "Juuouki (Japan) (Alt 1)"
-	description "Juuouki (Japan) (Alt 1)"
-	rom ( name "Juuouki (Japan) (Alt 1).pce" size 524288 crc 6A628982 md5 B5D09F3233D18B96FBF5E0375CB2F93E sha1 20A413B8C5AE86502FC21F55096B89B2D7350DC2 )
+	name "Jinmu Denshou (Japan) (Alt 1)"
+	description "Jinmu Denshou (Japan) (Alt 1)"
+	rom ( name "Jinmu Denshou (Japan) (Alt 1).pce" size 524288 crc 84240EF9 md5 31D2DCE8774ADC6C030BAEBEBCBC20C4 sha1 735BA5D77F49288E360B2908D989EFBDC8B7ADF4 )
 )
 
 game (
 	name "Juuouki (Japan)"
 	description "Juuouki (Japan)"
 	rom ( name "Juuouki (Japan).pce" size 524288 crc C8C7D63E md5 2B47CEEA374D6C11471310CAEC5CCB36 sha1 8B274906E2488FA3A6BE467C5BD8A2AC150D5801 )
+)
+
+game (
+	name "Juuouki (Japan) (Alt 1)"
+	description "Juuouki (Japan) (Alt 1)"
+	rom ( name "Juuouki (Japan) (Alt 1).pce" size 524288 crc 6A628982 md5 B5D09F3233D18B96FBF5E0375CB2F93E sha1 20A413B8C5AE86502FC21F55096B89B2D7350DC2 )
 )
 
 game (
@@ -1134,15 +1134,15 @@ game (
 )
 
 game (
-	name "Kung Fu, The (Japan) (Virtual Console)"
-	description "Kung Fu, The (Japan) (Virtual Console)"
-	rom ( name "Kung Fu, The (Japan) (Virtual Console).pce" size 262144 crc 3872C2B3 md5 4D72D145A429663CF859C4D4AABBCF5C sha1 2612F40B72AC96516678949182465839CD4EE85B )
-)
-
-game (
 	name "Kung Fu, The (Japan)"
 	description "Kung Fu, The (Japan)"
 	rom ( name "Kung Fu, The (Japan).pce" size 262144 crc B552C906 md5 B6F712B2AB6726A80A0E328F58D9E1B2 sha1 DABDB21BEF771282461F7BFEE390A622217159AC )
+)
+
+game (
+	name "Kung Fu, The (Japan) (Virtual Console)"
+	description "Kung Fu, The (Japan) (Virtual Console)"
+	rom ( name "Kung Fu, The (Japan) (Virtual Console).pce" size 262144 crc 3872C2B3 md5 4D72D145A429663CF859C4D4AABBCF5C sha1 2612F40B72AC96516678949182465839CD4EE85B )
 )
 
 game (
@@ -1230,15 +1230,15 @@ game (
 )
 
 game (
-	name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1)"
-	description "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1)"
-	rom ( name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1).pce" size 524288 crc 3E4D432A md5 3229F6FBDF069DA5DF4A6622EF828100 sha1 0C613A18559F7C11FF50B181EE2E68A8FE0BB587 )
-)
-
-game (
 	name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan)"
 	description "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan)"
 	rom ( name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan).pce" size 524288 crc F4148600 md5 EA0659C4607948EA54BD5D61799AC1A1 sha1 66D9A1B80CDBF88D7F8BE4C2C37901E9DF4195DC )
+)
+
+game (
+	name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1)"
+	description "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1)"
+	rom ( name "Mahjong Gakuen Mild - Touma Soushirou Toujou (Japan) (Alt 1).pce" size 524288 crc 3E4D432A md5 3229F6FBDF069DA5DF4A6622EF828100 sha1 0C613A18559F7C11FF50B181EE2E68A8FE0BB587 )
 )
 
 game (
@@ -1368,27 +1368,21 @@ game (
 )
 
 game (
-	name "Moto Roader II (Japan) (Alt 1)"
-	description "Moto Roader II (Japan) (Alt 1)"
-	rom ( name "Moto Roader II (Japan) (Alt 1).pce" size 393216 crc 4BA525BA md5 FC54C4B40385805E9CB560BA29914DCE sha1 E1288B2BA9875BE14CD16AD7E590FC002A42290E )
-)
-
-game (
 	name "Moto Roader II (Japan)"
 	description "Moto Roader II (Japan)"
 	rom ( name "Moto Roader II (Japan).pce" size 393216 crc 0B7F6E5F md5 61BF2F34550C6F0DB25C9F5221EDE032 sha1 101F6E3C90B314496B73EE9FEAB9A98F8D9B7821 )
 )
 
 game (
-	name "Mr. Heli no Daibouken (Japan)"
-	description "Mr. Heli no Daibouken (Japan)"
-	rom ( name "Mr. Heli no Daibouken (Japan).pce" size 524288 crc 2CB92290 md5 31867AB522FF7B9937987EC473DB0A11 sha1 DF6346583D7169FFDEC03925C9B15D3E4F066079 )
+	name "Moto Roader II (Japan) (Alt 1)"
+	description "Moto Roader II (Japan) (Alt 1)"
+	rom ( name "Moto Roader II (Japan) (Alt 1).pce" size 393216 crc 4BA525BA md5 FC54C4B40385805E9CB560BA29914DCE sha1 E1288B2BA9875BE14CD16AD7E590FC002A42290E )
 )
 
 game (
-	name "NHK Taiga Drama - Taiheiki (Japan)"
-	description "NHK Taiga Drama - Taiheiki (Japan)"
-	rom ( name "NHK Taiga Drama - Taiheiki (Japan).pce" size 524288 crc A32430D5 md5 DE11F469ADCB4465B49743FD2F1E3250 sha1 B7F407DC377A32F8B0D22DD3444405BC2E674741 )
+	name "Mr. Heli no Daibouken (Japan)"
+	description "Mr. Heli no Daibouken (Japan)"
+	rom ( name "Mr. Heli no Daibouken (Japan).pce" size 524288 crc 2CB92290 md5 31867AB522FF7B9937987EC473DB0A11 sha1 DF6346583D7169FFDEC03925C9B15D3E4F066079 )
 )
 
 game (
@@ -1476,6 +1470,12 @@ game (
 )
 
 game (
+	name "NHK Taiga Drama - Taiheiki (Japan)"
+	description "NHK Taiga Drama - Taiheiki (Japan)"
+	rom ( name "NHK Taiga Drama - Taiheiki (Japan).pce" size 524288 crc A32430D5 md5 DE11F469ADCB4465B49743FD2F1E3250 sha1 B7F407DC377A32F8B0D22DD3444405BC2E674741 )
+)
+
+game (
 	name "Night Creatures (USA)"
 	description "Night Creatures (USA)"
 	rom ( name "Night Creatures (USA).pce" size 524288 crc C159761B md5 E658E63F886560E9C388E2A9EE2EB349 sha1 16C4B43F92F5BC6C99FE84F71DAFF76CF1C0D0A6 )
@@ -1560,54 +1560,6 @@ game (
 )
 
 game (
-	name "PC Denjin - Punkic Cyborgs (Japan)"
-	description "PC Denjin - Punkic Cyborgs (Japan)"
-	rom ( name "PC Denjin - Punkic Cyborgs (Japan).pce" size 524288 crc 740491C2 md5 7320BC8FB2A9417EE63CF77ADA108753 sha1 7713236070C2D5252FAA651B6A8B7726CADB9BF4 )
-)
-
-game (
-	name "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1)"
-	description "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1)"
-	rom ( name "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1).pce" size 393216 crc 67B35E6E md5 096B2F0AC6747824F838A4206EFF6374 sha1 2C36256E77E74D5528366D35F0A55C45BC37D5A5 )
-)
-
-game (
-	name "PC Genjin - Pithecanthropus Computerurus (Japan)"
-	description "PC Genjin - Pithecanthropus Computerurus (Japan)"
-	rom ( name "PC Genjin - Pithecanthropus Computerurus (Japan).pce" size 393216 crc 2CB5CD55 md5 0E997FD6E47E9212A90B0A137D65283D sha1 40FAB9EA76D94D5569A977B1EB5A1DFB54978485 )
-)
-
-game (
-	name "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)"
-	description "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)"
-	rom ( name "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console).pce" size 524288 crc D4CE3572 md5 03E2B03BED0D20671DA98A5086D76A3B sha1 88968B7F7D88329A18F440B78934897450F4E25D )
-)
-
-game (
-	name "PC Genjin 2 - Pithecanthropus Computerurus (Japan)"
-	description "PC Genjin 2 - Pithecanthropus Computerurus (Japan)"
-	rom ( name "PC Genjin 2 - Pithecanthropus Computerurus (Japan).pce" size 524288 crc 3028F7CA md5 1D7DBC1ECFF5F6661BFFB6C2CFE1912F sha1 EF2B10E9BD35428BFF3D67B9F77DD3FF50D91F2E )
-)
-
-game (
-	name "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)"
-	description "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)"
-	rom ( name "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample).pce" size 786432 crc 6F6ED301 md5 F93ADF9857CABA9829DD6D8D37B2E94D sha1 55515655A818C0F2E1AA3B76B87022F125B915DB )
-)
-
-game (
-	name "PC Genjin 3 - Pithecanthropus Computerurus (Japan)"
-	description "PC Genjin 3 - Pithecanthropus Computerurus (Japan)"
-	rom ( name "PC Genjin 3 - Pithecanthropus Computerurus (Japan).pce" size 1048576 crc A170B60E md5 5356014F520019F6ADCBB1CBE1543DBE sha1 201AAEAFCCC9247CF25FD6661C5798AABCC7B329 )
-)
-
-game (
-	name "PC Pachi-Slot - Idol Gambler (Japan) (Unl)"
-	description "PC Pachi-Slot - Idol Gambler (Japan) (Unl)"
-	rom ( name "PC Pachi-Slot - Idol Gambler (Japan) (Unl).pce" size 524288 crc 0AA88F33 md5 9424CAFFD567E880AEA512DC823ACA22 sha1 6D0C8FFC7071D5A25ED6F3EE1325FE021EAD6F89 )
-)
-
-game (
 	name "Pac-Land (Japan)"
 	description "Pac-Land (Japan)"
 	rom ( name "Pac-Land (Japan).pce" size 262144 crc 14FAD3BA md5 E77AD358D00D7E052A129FC232556FF1 sha1 FC0166DA82ED3CF4A4E06FC6C73FD3184BA8BB3B )
@@ -1650,9 +1602,51 @@ game (
 )
 
 game (
-	name "Populous (Japan) (Alt 1)"
-	description "Populous (Japan) (Alt 1)"
-	rom ( name "Populous (Japan) (Alt 1).pce" size 524288 crc 0A9ADE99 md5 130A6D649D4498D6998D60211A18A4DB sha1 8E021703241C20EBD2A40EE55788C3A5FC4B8592 )
+	name "PC Denjin - Punkic Cyborgs (Japan)"
+	description "PC Denjin - Punkic Cyborgs (Japan)"
+	rom ( name "PC Denjin - Punkic Cyborgs (Japan).pce" size 524288 crc 740491C2 md5 7320BC8FB2A9417EE63CF77ADA108753 sha1 7713236070C2D5252FAA651B6A8B7726CADB9BF4 )
+)
+
+game (
+	name "PC Genjin - Pithecanthropus Computerurus (Japan)"
+	description "PC Genjin - Pithecanthropus Computerurus (Japan)"
+	rom ( name "PC Genjin - Pithecanthropus Computerurus (Japan).pce" size 393216 crc 2CB5CD55 md5 0E997FD6E47E9212A90B0A137D65283D sha1 40FAB9EA76D94D5569A977B1EB5A1DFB54978485 )
+)
+
+game (
+	name "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1)"
+	description "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1)"
+	rom ( name "PC Genjin - Pithecanthropus Computerurus (Japan) (Alt 1).pce" size 393216 crc 67B35E6E md5 096B2F0AC6747824F838A4206EFF6374 sha1 2C36256E77E74D5528366D35F0A55C45BC37D5A5 )
+)
+
+game (
+	name "PC Genjin 2 - Pithecanthropus Computerurus (Japan)"
+	description "PC Genjin 2 - Pithecanthropus Computerurus (Japan)"
+	rom ( name "PC Genjin 2 - Pithecanthropus Computerurus (Japan).pce" size 524288 crc 3028F7CA md5 1D7DBC1ECFF5F6661BFFB6C2CFE1912F sha1 EF2B10E9BD35428BFF3D67B9F77DD3FF50D91F2E )
+)
+
+game (
+	name "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)"
+	description "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console)"
+	rom ( name "PC Genjin 2 - Pithecanthropus Computerurus (Japan) (Virtual Console).pce" size 524288 crc D4CE3572 md5 03E2B03BED0D20671DA98A5086D76A3B sha1 88968B7F7D88329A18F440B78934897450F4E25D )
+)
+
+game (
+	name "PC Genjin 3 - Pithecanthropus Computerurus (Japan)"
+	description "PC Genjin 3 - Pithecanthropus Computerurus (Japan)"
+	rom ( name "PC Genjin 3 - Pithecanthropus Computerurus (Japan).pce" size 1048576 crc A170B60E md5 5356014F520019F6ADCBB1CBE1543DBE sha1 201AAEAFCCC9247CF25FD6661C5798AABCC7B329 )
+)
+
+game (
+	name "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)"
+	description "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample)"
+	rom ( name "PC Genjin 3 - Pithecanthropus Computerurus (Japan) (Sample).pce" size 786432 crc 6F6ED301 md5 F93ADF9857CABA9829DD6D8D37B2E94D sha1 55515655A818C0F2E1AA3B76B87022F125B915DB )
+)
+
+game (
+	name "PC Pachi-Slot - Idol Gambler (Japan) (Unl)"
+	description "PC Pachi-Slot - Idol Gambler (Japan) (Unl)"
+	rom ( name "PC Pachi-Slot - Idol Gambler (Japan) (Unl).pce" size 524288 crc 0AA88F33 md5 9424CAFFD567E880AEA512DC823ACA22 sha1 6D0C8FFC7071D5A25ED6F3EE1325FE021EAD6F89 )
 )
 
 game (
@@ -1662,15 +1656,21 @@ game (
 )
 
 game (
-	name "Power Drift (Japan) (Alt 1)"
-	description "Power Drift (Japan) (Alt 1)"
-	rom ( name "Power Drift (Japan) (Alt 1).pce" size 524288 crc 99E6D988 md5 31E99416CECB9D0CEE4C96604EA86045 sha1 D5277A014B98D93ABD29B35EAFDF1A8EE28A1FF8 )
+	name "Populous (Japan) (Alt 1)"
+	description "Populous (Japan) (Alt 1)"
+	rom ( name "Populous (Japan) (Alt 1).pce" size 524288 crc 0A9ADE99 md5 130A6D649D4498D6998D60211A18A4DB sha1 8E021703241C20EBD2A40EE55788C3A5FC4B8592 )
 )
 
 game (
 	name "Power Drift (Japan)"
 	description "Power Drift (Japan)"
 	rom ( name "Power Drift (Japan).pce" size 524288 crc 25E0F6E9 md5 C7F4C99CCB9F56EF954F3CCF332CE0DB sha1 1FFE1111A570B0CCA256A356965FD6CDF7BCF2E9 )
+)
+
+game (
+	name "Power Drift (Japan) (Alt 1)"
+	description "Power Drift (Japan) (Alt 1)"
+	rom ( name "Power Drift (Japan) (Alt 1).pce" size 524288 crc 99E6D988 md5 31E99416CECB9D0CEE4C96604EA86045 sha1 D5277A014B98D93ABD29B35EAFDF1A8EE28A1FF8 )
 )
 
 game (
@@ -1746,9 +1746,9 @@ game (
 )
 
 game (
-	name "Pro Tennis World Court (Japan)"
-	description "Pro Tennis World Court (Japan)"
-	rom ( name "Pro Tennis World Court (Japan).pce" size 262144 crc 11A36745 md5 FB0E0CA7BDF2B7D8BEED1D8C8A2AF749 sha1 1330FE108135E63ACF8FF8938B38CA7B2B5F6AF0 )
+	name "Pro Tennis - World Court (Japan)"
+	description "Pro Tennis - World Court (Japan)"
+	rom ( name "Pro Tennis - World Court (Japan).pce" size 262144 crc 11A36745 md5 FB0E0CA7BDF2B7D8BEED1D8C8A2AF749 sha1 1330FE108135E63ACF8FF8938B38CA7B2B5F6AF0 )
 )
 
 game (
@@ -1932,15 +1932,15 @@ game (
 )
 
 game (
-	name "SideArms (USA)"
-	description "SideArms (USA)"
-	rom ( name "SideArms (USA).pce" size 262144 crc D1993C9F md5 A97B9AF7E814DEB4E4358A466E7CD3C2 sha1 773A372EF5EE599EBD6F048FDDB86739E255583E )
-)
-
-game (
 	name "SideArms - Hyper Dyne (Japan)"
 	description "SideArms - Hyper Dyne (Japan)"
 	rom ( name "SideArms - Hyper Dyne (Japan).pce" size 262144 crc E5E7B8B7 md5 C1E1D8E68B3F4B04990093A73D1AD77E sha1 B732B3485BD8841D3571221170B04B7F699E9109 )
+)
+
+game (
+	name "SideArms (USA)"
+	description "SideArms (USA)"
+	rom ( name "SideArms (USA).pce" size 262144 crc D1993C9F md5 A97B9AF7E814DEB4E4358A466E7CD3C2 sha1 773A372EF5EE599EBD6F048FDDB86739E255583E )
 )
 
 game (
@@ -1974,6 +1974,12 @@ game (
 )
 
 game (
+	name "Soldier Blade - Special Version (Japan)"
+	description "Soldier Blade - Special Version (Japan)"
+	rom ( name "Soldier Blade - Special Version (Japan).pce" size 524288 crc F39F38ED md5 5283B6DAAE3E3C4523A86EF974CFEEDE sha1 328A85924778D742CC5B191AC60D79A7ED9B0620 )
+)
+
+game (
 	name "Soldier Blade (Japan)"
 	description "Soldier Blade (Japan)"
 	rom ( name "Soldier Blade (Japan).pce" size 524288 crc 8420B12B md5 E78E5212D85D614060AE31135E4F4BFE sha1 BB6259ECFEE3CC28DDBF1B1C1416F281ECCCBE31 )
@@ -1983,12 +1989,6 @@ game (
 	name "Soldier Blade (USA)"
 	description "Soldier Blade (USA)"
 	rom ( name "Soldier Blade (USA).pce" size 524288 crc 4BB68B13 md5 59D23B7AF39EA827ECEB1D7E2CC363C0 sha1 3B4CC242F68A1D61C83A1A0DBDEE23D2AE8F1427 )
-)
-
-game (
-	name "Soldier Blade - Special Version (Japan)"
-	description "Soldier Blade - Special Version (Japan)"
-	rom ( name "Soldier Blade - Special Version (Japan).pce" size 524288 crc F39F38ED md5 5283B6DAAE3E3C4523A86EF974CFEEDE sha1 328A85924778D742CC5B191AC60D79A7ED9B0620 )
 )
 
 game (
@@ -2082,15 +2082,15 @@ game (
 )
 
 game (
-	name "Super Momotarou Dentetsu (Japan) (Alt 1)"
-	description "Super Momotarou Dentetsu (Japan) (Alt 1)"
-	rom ( name "Super Momotarou Dentetsu (Japan) (Alt 1).pce" size 393216 crc 3EB5304A md5 F365369BF476CEBCCB48F3A38FE39CC6 sha1 353A1FF7997DF5D7BE6EE03F1157FD746939ED61 )
-)
-
-game (
 	name "Super Momotarou Dentetsu (Japan)"
 	description "Super Momotarou Dentetsu (Japan)"
 	rom ( name "Super Momotarou Dentetsu (Japan).pce" size 393216 crc 69D52E7A md5 EF3F7D0333B5EE8F09068C6A1BED71AF sha1 E4C6129E98CF37FCE6CFC5352D112B1EC728D166 )
+)
+
+game (
+	name "Super Momotarou Dentetsu (Japan) (Alt 1)"
+	description "Super Momotarou Dentetsu (Japan) (Alt 1)"
+	rom ( name "Super Momotarou Dentetsu (Japan) (Alt 1).pce" size 393216 crc 3EB5304A md5 F365369BF476CEBCCB48F3A38FE39CC6 sha1 353A1FF7997DF5D7BE6EE03F1157FD746939ED61 )
 )
 
 game (
@@ -2112,9 +2112,9 @@ game (
 )
 
 game (
-	name "Super Volleyball (Japan)"
-	description "Super Volleyball (Japan)"
-	rom ( name "Super Volleyball (Japan).pce" size 262144 crc CE2E4F9F md5 93EBC97BA0985310AB07E932264BB8E1 sha1 46DD4ACEBE25DE38F28E56CF149B24B42F3AEF31 )
+	name "Super Volley Ball (Japan)"
+	description "Super Volley Ball (Japan)"
+	rom ( name "Super Volley Ball (Japan).pce" size 262144 crc CE2E4F9F md5 93EBC97BA0985310AB07E932264BB8E1 sha1 46DD4ACEBE25DE38F28E56CF149B24B42F3AEF31 )
 )
 
 game (
@@ -2130,42 +2130,6 @@ game (
 )
 
 game (
-	name "TV Sports Basketball (Japan)"
-	description "TV Sports Basketball (Japan)"
-	rom ( name "TV Sports Basketball (Japan).pce" size 524288 crc 10B60601 md5 6BFE35219D3E479489BEFB2921A5EA7B sha1 A4B8766DB8ACC6E8F76772B278609F80E55AF67F )
-)
-
-game (
-	name "TV Sports Basketball (USA)"
-	description "TV Sports Basketball (USA)"
-	rom ( name "TV Sports Basketball (USA).pce" size 524288 crc EA54D653 md5 36DA17B2E751EC8660BB12F9CB2EB6B2 sha1 6C0FDEAFA9DC1C4B7F935866E5BC620DD3151F3C )
-)
-
-game (
-	name "TV Sports Football (Japan)"
-	description "TV Sports Football (Japan)"
-	rom ( name "TV Sports Football (Japan).pce" size 393216 crc 968D908A md5 F3CA8091A325067F442630AF4CB4E53B sha1 2BA8E2DA6E2AA26722CDC5F1646163444B2BB98F )
-)
-
-game (
-	name "TV Sports Football (USA)"
-	description "TV Sports Football (USA)"
-	rom ( name "TV Sports Football (USA).pce" size 393216 crc 5E25B557 md5 94DC4D0D2A35A151B01F8A0433B12B12 sha1 B73F44AD60E0F4B13C6B80F5509CB51245CC8106 )
-)
-
-game (
-	name "TV Sports Hockey (Japan)"
-	description "TV Sports Hockey (Japan)"
-	rom ( name "TV Sports Hockey (Japan).pce" size 393216 crc E7529890 md5 94D50A7E9871935C32A97C11E27DE39A sha1 7EF8BC6E42C4BF023802A659C7856670DAE02449 )
-)
-
-game (
-	name "TV Sports Hockey (USA)"
-	description "TV Sports Hockey (USA)"
-	rom ( name "TV Sports Hockey (USA).pce" size 393216 crc 97FE5BCF md5 85B530CC0513F23F1BCCED8BE7F7E503 sha1 F5CDE3AF4FAC59E402A9C96C4ADBBC9E55CE5936 )
-)
-
-game (
 	name "Taito Chase H.Q. (Japan)"
 	description "Taito Chase H.Q. (Japan)"
 	rom ( name "Taito Chase H.Q. (Japan).pce" size 393216 crc 6F4FD790 md5 12D5098D64869E784CF10029838DF21F sha1 F4CD413A1F87027194B7CADFBAAA714C137E877F )
@@ -2178,21 +2142,21 @@ game (
 )
 
 game (
-	name "Takeda Shingen (Japan) (Alt 1)"
-	description "Takeda Shingen (Japan) (Alt 1)"
-	rom ( name "Takeda Shingen (Japan) (Alt 1).pce" size 262144 crc DF7AF71C md5 A402C5F2B38FC8733D7EB4A6082EE945 sha1 1D662DF0936971E21B702633A8C75844753911C9 )
-)
-
-game (
 	name "Takeda Shingen (Japan)"
 	description "Takeda Shingen (Japan)"
 	rom ( name "Takeda Shingen (Japan).pce" size 262144 crc F022BE13 md5 A7C20F8D0359B63C568A1AB6EE560CC0 sha1 902202B2990B1737DB3AB4D7DB801715D54EB814 )
 )
 
 game (
-	name "Takin' It to the Hoop (USA)"
-	description "Takin' It to the Hoop (USA)"
-	rom ( name "Takin' It to the Hoop (USA).pce" size 262144 crc E9D51797 md5 FFBA5F3B04A2FAF9A991E8FA3A5D4008 sha1 1F36230EFDE7025730C1A0DBF3AA47B887440ECD )
+	name "Takeda Shingen (Japan) (Alt 1)"
+	description "Takeda Shingen (Japan) (Alt 1)"
+	rom ( name "Takeda Shingen (Japan) (Alt 1).pce" size 262144 crc DF7AF71C md5 A402C5F2B38FC8733D7EB4A6082EE945 sha1 1D662DF0936971E21B702633A8C75844753911C9 )
+)
+
+game (
+	name "Takin' it to the Hoop (USA)"
+	description "Takin' it to the Hoop (USA)"
+	rom ( name "Takin' it to the Hoop (USA).pce" size 262144 crc E9D51797 md5 FFBA5F3B04A2FAF9A991E8FA3A5D4008 sha1 1F36230EFDE7025730C1A0DBF3AA47B887440ECD )
 )
 
 game (
@@ -2202,15 +2166,15 @@ game (
 )
 
 game (
-	name "Tatsujin (Japan) (Proto)"
-	description "Tatsujin (Japan) (Proto)"
-	rom ( name "Tatsujin (Japan) (Proto).pce" size 524288 crc C1B26659 md5 D1B5FE051C357A2F8D166697D0F7DB09 sha1 C36FB68B7FDA1E4E1D021F6AE00522C9832BD225 )
-)
-
-game (
 	name "Tatsujin (Japan)"
 	description "Tatsujin (Japan)"
 	rom ( name "Tatsujin (Japan).pce" size 524288 crc A6088275 md5 0674F72871D7A779D262B519D244E33A sha1 DDA768075FBF8C0624E2C1F217B1092513B1C942 )
+)
+
+game (
+	name "Tatsujin (Japan) (Proto)"
+	description "Tatsujin (Japan) (Proto)"
+	rom ( name "Tatsujin (Japan) (Proto).pce" size 524288 crc C1B26659 md5 D1B5FE051C357A2F8D166697D0F7DB09 sha1 C36FB68B7FDA1E4E1D021F6AE00522C9832BD225 )
 )
 
 game (
@@ -2328,6 +2292,42 @@ game (
 )
 
 game (
+	name "TV Sports Basketball (Japan)"
+	description "TV Sports Basketball (Japan)"
+	rom ( name "TV Sports Basketball (Japan).pce" size 524288 crc 10B60601 md5 6BFE35219D3E479489BEFB2921A5EA7B sha1 A4B8766DB8ACC6E8F76772B278609F80E55AF67F )
+)
+
+game (
+	name "TV Sports Basketball (USA)"
+	description "TV Sports Basketball (USA)"
+	rom ( name "TV Sports Basketball (USA).pce" size 524288 crc EA54D653 md5 36DA17B2E751EC8660BB12F9CB2EB6B2 sha1 6C0FDEAFA9DC1C4B7F935866E5BC620DD3151F3C )
+)
+
+game (
+	name "TV Sports Football (Japan)"
+	description "TV Sports Football (Japan)"
+	rom ( name "TV Sports Football (Japan).pce" size 393216 crc 968D908A md5 F3CA8091A325067F442630AF4CB4E53B sha1 2BA8E2DA6E2AA26722CDC5F1646163444B2BB98F )
+)
+
+game (
+	name "TV Sports Football (USA)"
+	description "TV Sports Football (USA)"
+	rom ( name "TV Sports Football (USA).pce" size 393216 crc 5E25B557 md5 94DC4D0D2A35A151B01F8A0433B12B12 sha1 B73F44AD60E0F4B13C6B80F5509CB51245CC8106 )
+)
+
+game (
+	name "TV Sports Hockey (Japan)"
+	description "TV Sports Hockey (Japan)"
+	rom ( name "TV Sports Hockey (Japan).pce" size 393216 crc E7529890 md5 94D50A7E9871935C32A97C11E27DE39A sha1 7EF8BC6E42C4BF023802A659C7856670DAE02449 )
+)
+
+game (
+	name "TV Sports Hockey (USA)"
+	description "TV Sports Hockey (USA)"
+	rom ( name "TV Sports Hockey (USA).pce" size 393216 crc 97FE5BCF md5 85B530CC0513F23F1BCCED8BE7F7E503 sha1 F5CDE3AF4FAC59E402A9C96C4ADBBC9E55CE5936 )
+)
+
+game (
 	name "USA Pro Basketball (Japan)"
 	description "USA Pro Basketball (Japan)"
 	rom ( name "USA Pro Basketball (Japan).pce" size 262144 crc 1CAD4B7F md5 63B5FFE340E140AA2B4B2C6C8635934B sha1 62F3E0C56D22C015BEA15FE04CD16FAE380FEFCD )
@@ -2352,15 +2352,15 @@ game (
 )
 
 game (
-	name "Victory Run (USA)"
-	description "Victory Run (USA)"
-	rom ( name "Victory Run (USA).pce" size 262144 crc 85CBD045 md5 BC4361C967514EF29293778AD748A6B7 sha1 BAB16031A16490415CEDD5BA47CBE4CADC3D8727 )
-)
-
-game (
 	name "Victory Run - Eikou no 13,000km (Japan)"
 	description "Victory Run - Eikou no 13,000km (Japan)"
 	rom ( name "Victory Run - Eikou no 13,000km (Japan).pce" size 262144 crc 03E28CFF md5 1A09D66CAEAD5BC0F7669DC1AF346D9C sha1 68044C5FB23F27697FF88657A22EF60FF6D61396 )
+)
+
+game (
+	name "Victory Run (USA)"
+	description "Victory Run (USA)"
+	rom ( name "Victory Run (USA).pce" size 262144 crc 85CBD045 md5 BC4361C967514EF29293778AD748A6B7 sha1 BAB16031A16490415CEDD5BA47CBE4CADC3D8727 )
 )
 
 game (
@@ -2430,15 +2430,15 @@ game (
 )
 
 game (
-	name "World Class Baseball (USA)"
-	description "World Class Baseball (USA)"
-	rom ( name "World Class Baseball (USA).pce" size 262144 crc 4186D0C0 md5 B125AF2EDD2F27E04E693B4B5112FED7 sha1 FAB372A908533FD444B6C829F881F2DE103D93B6 )
-)
-
-game (
 	name "World Class Baseball (USA, Europe) (Virtual Console)"
 	description "World Class Baseball (USA, Europe) (Virtual Console)"
 	rom ( name "World Class Baseball (USA, Europe) (Virtual Console).pce" size 262144 crc 61B3C8C8 md5 1298416A88FC063775FB165C3AD430A9 sha1 F4396A9BCAAF94A02B6C77D0B45FB3EA55AFDD84 )
+)
+
+game (
+	name "World Class Baseball (USA)"
+	description "World Class Baseball (USA)"
+	rom ( name "World Class Baseball (USA).pce" size 262144 crc 4186D0C0 md5 B125AF2EDD2F27E04E693B4B5112FED7 sha1 FAB372A908533FD444B6C829F881F2DE103D93B6 )
 )
 
 game (
@@ -2478,27 +2478,27 @@ game (
 )
 
 game (
-	name "Youkai Douchuuki (Japan) (Virtual Console)"
-	description "Youkai Douchuuki (Japan) (Virtual Console)"
-	rom ( name "Youkai Douchuuki (Japan) (Virtual Console).pce" size 262144 crc 80C3F824 md5 CD2C47EAEB842CBCFE2EBCBE5710BF61 sha1 A258201C6258C8E108C7CE80A39C456EF9116260 )
-)
-
-game (
 	name "Youkai Douchuuki (Japan)"
 	description "Youkai Douchuuki (Japan)"
 	rom ( name "Youkai Douchuuki (Japan).pce" size 262144 crc F131B706 md5 46E8CA81EC6A426AE9E5B3372D4F2C29 sha1 F96913628138605374F2ACC493C5C59DC635018A )
 )
 
 game (
-	name "Zero4 Champ (Japan) (v1.5)"
-	description "Zero4 Champ (Japan) (v1.5)"
-	rom ( name "Zero4 Champ (Japan) (v1.5).pce" size 524288 crc B77F2E2F md5 CF51006C86541B94E8305F456C4D47C5 sha1 2B664760931CC6011D31CAE310410DAB7CBA2067 )
+	name "Youkai Douchuuki (Japan) (Virtual Console)"
+	description "Youkai Douchuuki (Japan) (Virtual Console)"
+	rom ( name "Youkai Douchuuki (Japan) (Virtual Console).pce" size 262144 crc 80C3F824 md5 CD2C47EAEB842CBCFE2EBCBE5710BF61 sha1 A258201C6258C8E108C7CE80A39C456EF9116260 )
 )
 
 game (
 	name "Zero4 Champ (Japan)"
 	description "Zero4 Champ (Japan)"
 	rom ( name "Zero4 Champ (Japan).pce" size 524288 crc EE156721 md5 A755177ECFE1910928FA74D818A10E7C sha1 79D9878E285E426B9CA58E15249A1BC98186D4E9 )
+)
+
+game (
+	name "Zero4 Champ (Japan) (v1.5)"
+	description "Zero4 Champ (Japan) (v1.5)"
+	rom ( name "Zero4 Champ (Japan) (v1.5).pce" size 524288 crc B77F2E2F md5 CF51006C86541B94E8305F456C4D47C5 sha1 2B664760931CC6011D31CAE310410DAB7CBA2067 )
 )
 
 game (

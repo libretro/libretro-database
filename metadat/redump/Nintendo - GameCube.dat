@@ -1,8 +1,14 @@
 clrmamepro (
 	name "Nintendo - GameCube"
 	description "Nintendo - GameCube"
-	version "2018.9.29"
+	version "2019.2.1"
 	homepage "http://github.com/robloach/libretro-dats"
+)
+
+game (
+	name "007 - Agent im Kreuzfeuer (Germany)"
+	description "007 - Agent im Kreuzfeuer (Germany)"
+	rom ( name "007 - Agent im Kreuzfeuer (Germany).iso" size 1459978240 crc 43c1d6a0 md5 a91e2b43028eee80f6e953a542dee9c9 sha1 34d610e08042b896fc5c077e6e7060fc00b77aa4 )
 )
 
 game (
@@ -21,12 +27,6 @@ game (
 	name "007 - Agent Under Fire (USA) (v1.01)"
 	description "007 - Agent Under Fire (USA) (v1.01)"
 	rom ( name "007 - Agent Under Fire (USA) (v1.01).iso" size 1459978240 crc e9a1e1b2 md5 998e51a469dcad2d9e9842acf7debe5f sha1 7c8a0148f0e5d5b1f40bdfb098eba1935df1932e )
-)
-
-game (
-	name "007 - Agent im Kreuzfeuer (Germany)"
-	description "007 - Agent im Kreuzfeuer (Germany)"
-	rom ( name "007 - Agent im Kreuzfeuer (Germany).iso" size 1459978240 crc 43c1d6a0 md5 a91e2b43028eee80f6e953a542dee9c9 sha1 34d610e08042b896fc5c077e6e7060fc00b77aa4 )
 )
 
 game (
@@ -132,6 +132,12 @@ game (
 )
 
 game (
+	name "1080 Avalanche (Korea)"
+	description "1080 Avalanche (Korea)"
+	rom ( name "1080 Avalanche (Korea).iso" size 1459978240 crc dccc98a2 md5 8b837ce9beb131654da90e7f3d7962a2 sha1 8e5d3faa4842a2097c7a478dea4ab1f5353517ce )
+)
+
+game (
 	name "1080 Avalanche (USA)"
 	description "1080 Avalanche (USA)"
 	rom ( name "1080 Avalanche (USA).iso" size 1459978240 crc 2c37cf08 md5 dd2a3befbcb26481ba5edd203e470174 sha1 09b059208054434df2dadf20b96292b8e11fa908 )
@@ -222,15 +228,15 @@ game (
 )
 
 game (
-	name "2002 FIFA World Cup (Europe) (Fr,Nl)"
-	description "2002 FIFA World Cup (Europe) (Fr,Nl)"
-	rom ( name "2002 FIFA World Cup (Europe) (Fr,Nl).iso" size 1459978240 crc 5980022f md5 54411489d800faf171f5ff203b1a0c46 sha1 b7e6aa5d84e35fe1de1879c9dcd12c0c1987e275 )
-)
-
-game (
 	name "2002 FIFA World Cup (Europe)"
 	description "2002 FIFA World Cup (Europe)"
 	rom ( name "2002 FIFA World Cup (Europe).iso" size 1459978240 crc 510c6864 md5 52124ca10af6550fcfda836680847d62 sha1 b4be262730a88d019cf99c785117bd5a7e0b4fa6 )
+)
+
+game (
+	name "2002 FIFA World Cup (Europe) (Fr,Nl)"
+	description "2002 FIFA World Cup (Europe) (Fr,Nl)"
+	rom ( name "2002 FIFA World Cup (Europe) (Fr,Nl).iso" size 1459978240 crc 5980022f md5 54411489d800faf171f5ff203b1a0c46 sha1 b7e6aa5d84e35fe1de1879c9dcd12c0c1987e275 )
 )
 
 game (
@@ -264,27 +270,9 @@ game (
 )
 
 game (
-	name "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It)"
-	description "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It)"
-	rom ( name "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc d16161b8 md5 6f3333aabb42daa702471cc91a082995 sha1 14f79375a078fb4aaf3c172493ac12bf92e0e51e )
-)
-
-game (
-	name "ATV - Quad Power Racing 2 (USA)"
-	description "ATV - Quad Power Racing 2 (USA)"
-	rom ( name "ATV - Quad Power Racing 2 (USA).iso" size 1459978240 crc 8af3eed7 md5 4712e192117bee2d53fc8ec7577f0a38 sha1 f9c6a0bdd336d0e3a3d48b8d25874f514635f37f )
-)
-
-game (
 	name "Ace Golf (Europe) (En,Fr)"
 	description "Ace Golf (Europe) (En,Fr)"
 	rom ( name "Ace Golf (Europe) (En,Fr).iso" size 1459978240 crc c4e54bee md5 e8a77e4c9c3a935c564d2a0399d34f5a sha1 7c2529a724489d2643dbef3b3b356303e2e2089a )
-)
-
-game (
-	name "Action Replay for GameCube (Europe) (Unl) (Version 1.14b)"
-	description "Action Replay for GameCube (Europe) (Unl) (Version 1.14b)"
-	rom ( name "Action Replay for GameCube (Europe) (Unl) (Version 1.14b).iso" size 1459978240 crc f61cf908 md5 bb59fa5ce23cde960da07150915b73b5 sha1 902309465c6f9a9933097f74aff0e4b6df338204 )
 )
 
 game (
@@ -294,9 +282,27 @@ game (
 )
 
 game (
+	name "Action Replay for GameCube (Europe) (Unl) (Version 1.0E)"
+	description "Action Replay for GameCube (Europe) (Unl) (Version 1.0E)"
+	rom ( name "Action Replay for GameCube (Europe) (Unl) (Version 1.0E).iso" size 1459978240 crc 03eba636 md5 34f1ea25e476aebce0cbe3ef6f92a2f1 sha1 7e141f84183afe60a31317fabcfcd6764e0fd3fb )
+)
+
+game (
+	name "Action Replay for GameCube (Europe) (Unl) (Version 1.14b)"
+	description "Action Replay for GameCube (Europe) (Unl) (Version 1.14b)"
+	rom ( name "Action Replay for GameCube (Europe) (Unl) (Version 1.14b).iso" size 1459978240 crc f61cf908 md5 bb59fa5ce23cde960da07150915b73b5 sha1 902309465c6f9a9933097f74aff0e4b6df338204 )
+)
+
+game (
 	name "Action Replay for GameCube (USA) (Unl) (Version 1.06)"
 	description "Action Replay for GameCube (USA) (Unl) (Version 1.06)"
 	rom ( name "Action Replay for GameCube (USA) (Unl) (Version 1.06).iso" size 1459978240 crc 872f96e4 md5 f89229e8ac5673e85cd296046d0ec804 sha1 c2ab52a11169f39a60a0776137276648d8dda130 )
+)
+
+game (
+	name "Action Replay for GameCube (USA) (Unl) (Version 1.12)"
+	description "Action Replay for GameCube (USA) (Unl) (Version 1.12)"
+	rom ( name "Action Replay for GameCube (USA) (Unl) (Version 1.12).iso" size 1459978240 crc 11a23cfc md5 c5d066a48c05fd2afce1fa85f6e15af7 sha1 40aece170c862d7d9d5731185b527184fa8f989e )
 )
 
 game (
@@ -306,15 +312,93 @@ game (
 )
 
 game (
-	name "Advance Game Port (USA) (Unl) (Rev 1)"
-	description "Advance Game Port (USA) (Unl) (Rev 1)"
-	rom ( name "Advance Game Port (USA) (Unl) (Rev 1).iso" size 1459978240 crc f9450866 md5 c8a95eb91168de341237a7450c090865 sha1 ed9f3c29f061b5fde7ec989af515020b241a8fb7 )
+	name "Action Replay Ultimate Cheats for Use with Enter the Matrix (UK) (Unl)"
+	description "Action Replay Ultimate Cheats for Use with Enter the Matrix (UK) (Unl)"
+	rom ( name "Action Replay Ultimate Cheats for Use with Enter the Matrix (UK) (Unl).iso" size 1459978240 crc 2815b922 md5 2a1ba0f54f320ee5fc664cb9e9ca3f1b sha1 4ecf67a3220477382f4ea251ae25588930a6c3de )
+)
+
+game (
+	name "Action Replay Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl)"
+	description "Action Replay Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl)"
+	rom ( name "Action Replay Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl).iso" size 1459978240 crc 4913dc0f md5 b664b68b01cd760bb1379e9946424373 sha1 8948c6d999374e1d190d956dcdcc0528ec49d8e6 )
+)
+
+game (
+	name "Action Replay Ultimate Cheats for Use with Pokemon Colosseum (UK) (Unl)"
+	description "Action Replay Ultimate Cheats for Use with Pokemon Colosseum (UK) (Unl)"
+	rom ( name "Action Replay Ultimate Cheats for Use with Pokemon Colosseum (UK) (Unl).iso" size 1459978240 crc f9fedbf8 md5 08fd7ca36c9f7f49cc598918e78bb1a2 sha1 7e18c28a92eefe04f515979e2cdf955ae29cf7e5 )
+)
+
+game (
+	name "Action Replay Ultimate Cheats fuer Enter the Matrix (Germany) (Unl)"
+	description "Action Replay Ultimate Cheats fuer Enter the Matrix (Germany) (Unl)"
+	rom ( name "Action Replay Ultimate Cheats fuer Enter the Matrix (Germany) (Unl).iso" size 1459978240 crc c7e200f3 md5 91210e67823aa225bb0c4106f9071413 sha1 817d938ed89dfe26dde227ea792d60c211e4a5be )
+)
+
+game (
+	name "Action Replay Ultimate Cheats fuer Pokemon Colosseum (Germany) (Unl)"
+	description "Action Replay Ultimate Cheats fuer Pokemon Colosseum (Germany) (Unl)"
+	rom ( name "Action Replay Ultimate Cheats fuer Pokemon Colosseum (Germany) (Unl).iso" size 1459978240 crc 371898c1 md5 57ce534db0a790b40691860b42b76cc3 sha1 6850df1182aadc8d50a9baa39b7f36982f10f18a )
+)
+
+game (
+	name "Action Replay Ultimate Codes for Use with Enter the Matrix (USA) (Unl)"
+	description "Action Replay Ultimate Codes for Use with Enter the Matrix (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes for Use with Enter the Matrix (USA) (Unl).iso" size 1459978240 crc e7f301b7 md5 4d4ecc6ea710e0b6380f1211be51dbe4 sha1 c074cdf8b4634ff920434bea9298e6cc0ad16353 )
+)
+
+game (
+	name "Action Replay Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl)"
+	description "Action Replay Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl).iso" size 1459978240 crc a04b47b2 md5 58524db19505b1f975b7c53f337b7a5a sha1 fbbd09c399e3b0c35156b9faa2279469ade30e2d )
+)
+
+game (
+	name "Action Replay Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl)"
+	description "Action Replay Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl).iso" size 1459978240 crc 31daf617 md5 fdec4360f182abad56603d06b5db5915 sha1 b5ae7e27f74dd2b84b4c874664cb37182e4de6ae )
+)
+
+game (
+	name "Action Replay Ultimate Codes for Use with Wario World (USA) (Unl)"
+	description "Action Replay Ultimate Codes for Use with Wario World (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes for Use with Wario World (USA) (Unl).iso" size 1459978240 crc 20410c84 md5 fbe98461f7401921ad9a2f0370c2a910 sha1 f9f1a00c719c49969febab32558307705aa8bdb1 )
+)
+
+game (
+	name "Action Replay Ultimate Codes Greatest Hits - Best Buy Achievers Weekend 2004 (USA) (Unl)"
+	description "Action Replay Ultimate Codes Greatest Hits - Best Buy Achievers Weekend 2004 (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes Greatest Hits - Best Buy Achievers Weekend 2004 (USA) (Unl).iso" size 1459978240 crc b1b28589 md5 61b22346c3fc2603e41879d10a3261e7 sha1 bef17cf5b4660b64d70c1fdab9dc8bb4d37e2468 )
+)
+
+game (
+	name "Action Replay Ultimate Codes Max Pack (USA) (Unl)"
+	description "Action Replay Ultimate Codes Max Pack (USA) (Unl)"
+	rom ( name "Action Replay Ultimate Codes Max Pack (USA) (Unl).iso" size 1459978240 crc aaff05b0 md5 0d8fc6262f59b463a12a4e689bd8da90 sha1 1f88836eb44e1323cafe7f007e0ec12c3ee00179 )
+)
+
+game (
+	name "Action Replay Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl)"
+	description "Action Replay Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl)"
+	rom ( name "Action Replay Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl).iso" size 1459978240 crc 1f756dad md5 1cd54bc9a93b94bff0569339b51eb2b1 sha1 1ddada2e0a4ad8a5fc314d1e98fce3e0e4f6d4b1 )
+)
+
+game (
+	name "Action Replay Ultimative Cheats Greatest Hits 2003 (Germany) (Unl)"
+	description "Action Replay Ultimative Cheats Greatest Hits 2003 (Germany) (Unl)"
+	rom ( name "Action Replay Ultimative Cheats Greatest Hits 2003 (Germany) (Unl).iso" size 1459978240 crc 521901a5 md5 988339b7acc62dd2c1ddc7d18eaf5eb5 sha1 7b8f16bb3b736a2e35ff9cd255abb3ee17603598 )
 )
 
 game (
 	name "Advance Game Port (USA) (Unl)"
 	description "Advance Game Port (USA) (Unl)"
 	rom ( name "Advance Game Port (USA) (Unl).iso" size 1459978240 crc 56fe3b5e md5 74b27d8e97bb5820876e2959a7484409 sha1 4e448ab4189f3ab09f4b5a9dbf2355792d8c956e )
+)
+
+game (
+	name "Advance Game Port (USA) (Unl) (Rev 1)"
+	description "Advance Game Port (USA) (Unl) (Rev 1)"
+	rom ( name "Advance Game Port (USA) (Unl) (Rev 1).iso" size 1459978240 crc f9450866 md5 c8a95eb91168de341237a7450c090865 sha1 ed9f3c29f061b5fde7ec989af515020b241a8fb7 )
 )
 
 game (
@@ -450,9 +534,15 @@ game (
 )
 
 game (
-	name "Auto Modellista (USA)"
-	description "Auto Modellista (USA)"
-	rom ( name "Auto Modellista (USA).iso" size 1459978240 crc ab80ecfb md5 15c01fd233fb32e0ccf147c4214f9699 sha1 800b74412f60939c2d93d7f1ce679cd3da068e55 )
+	name "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It)"
+	description "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It)"
+	rom ( name "ATV - Quad Power Racing 2 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc d16161b8 md5 6f3333aabb42daa702471cc91a082995 sha1 14f79375a078fb4aaf3c172493ac12bf92e0e51e )
+)
+
+game (
+	name "ATV - Quad Power Racing 2 (USA)"
+	description "ATV - Quad Power Racing 2 (USA)"
+	rom ( name "ATV - Quad Power Racing 2 (USA).iso" size 1459978240 crc 8af3eed7 md5 4712e192117bee2d53fc8ec7577f0a38 sha1 f9c6a0bdd336d0e3a3d48b8d25874f514635f37f )
 )
 
 game (
@@ -462,15 +552,9 @@ game (
 )
 
 game (
-	name "BMX XXX (Europe) (En,Fr,De,Es)"
-	description "BMX XXX (Europe) (En,Fr,De,Es)"
-	rom ( name "BMX XXX (Europe) (En,Fr,De,Es).iso" size 1459978240 crc fb96b569 md5 6e055e37ba55299a33671ff85f4d6876 sha1 4b2cb21f91a42df34b094d2c528cdbef35ca6c08 )
-)
-
-game (
-	name "BMX XXX (USA)"
-	description "BMX XXX (USA)"
-	rom ( name "BMX XXX (USA).iso" size 1459978240 crc e84d9bd6 md5 c3fe071d90154f78558b8beccd444d64 sha1 8e0957bf307226fd46da4acd7bd18ecb1f31a78f )
+	name "Auto Modellista (USA)"
+	description "Auto Modellista (USA)"
+	rom ( name "Auto Modellista (USA).iso" size 1459978240 crc ab80ecfb md5 15c01fd233fb32e0ccf147c4214f9699 sha1 800b74412f60939c2d93d7f1ce679cd3da068e55 )
 )
 
 game (
@@ -540,6 +624,12 @@ game (
 )
 
 game (
+	name "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan)"
+	description "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan)"
+	rom ( name "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan).iso" size 1459978240 crc e5643fc5 md5 520534e0510064140d2820940a459e67 sha1 c7e199162da5512779011361760d8b35f8d98aee )
+)
+
+game (
 	name "Baten Kaitos - Eternal Wings and the Lost Ocean (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	description "Baten Kaitos - Eternal Wings and the Lost Ocean (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	rom ( name "Baten Kaitos - Eternal Wings and the Lost Ocean (Europe) (En,Fr,De,Es,It) (Disc 1).iso" size 1459978240 crc 33313506 md5 bbaa18906e55acbf8d1016459653e25e sha1 8e82342567ccaabf5d31929d5f465cffe5654d10 )
@@ -561,12 +651,6 @@ game (
 	name "Baten Kaitos - Eternal Wings and the Lost Ocean (USA) (Disc 2)"
 	description "Baten Kaitos - Eternal Wings and the Lost Ocean (USA) (Disc 2)"
 	rom ( name "Baten Kaitos - Eternal Wings and the Lost Ocean (USA) (Disc 2).iso" size 1459978240 crc c5cf7b30 md5 29365851deaad16e865a351c3444ea39 sha1 a2a4b75e7866d9272407da95ec93986bef4c7dfc )
-)
-
-game (
-	name "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan)"
-	description "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan)"
-	rom ( name "Baten Kaitos - Eternal Wings and the Lost Ocean - Special Experience Disc (Japan).iso" size 1459978240 crc e5643fc5 md5 520534e0510064140d2820940a459e67 sha1 c7e199162da5512779011361760d8b35f8d98aee )
 )
 
 game (
@@ -792,18 +876,6 @@ game (
 )
 
 game (
-	name "Biohazard (Japan) (Disc 1)"
-	description "Biohazard (Japan) (Disc 1)"
-	rom ( name "Biohazard (Japan) (Disc 1).iso" size 1459978240 crc 15108252 md5 20cb8d4cb322aa503d1b8a49c43cdebf sha1 0f70a4168fc9f28bcec24f01ca7fdbd195a13ab6 )
-)
-
-game (
-	name "Biohazard (Japan) (Disc 2)"
-	description "Biohazard (Japan) (Disc 2)"
-	rom ( name "Biohazard (Japan) (Disc 2).iso" size 1459978240 crc 99c1d130 md5 bfbf8e0f249cf8dd8fcb913793301a8c sha1 e85928a2bed988781cc46abf4cc816b6f190af46 )
-)
-
-game (
 	name "Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 1)"
 	description "Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 1)"
 	rom ( name "Biohazard - Code - Veronica - Kanzenban (Japan) (Disc 1).iso" size 1459978240 crc 2d513956 md5 6c988307da488343cf4f3a39479f351b sha1 98d7993593549a2f4de119798e7d22ff2ae4a6f6 )
@@ -825,6 +897,18 @@ game (
 	name "Biohazard - Special Edition (Japan)"
 	description "Biohazard - Special Edition (Japan)"
 	rom ( name "Biohazard - Special Edition (Japan).iso" size 1459978240 crc 4435e4bf md5 7515a6cb0f3655f151b4ed23d21194be sha1 efcc1c75562854d4768e2bc94d83efef5fb13f6b )
+)
+
+game (
+	name "Biohazard (Japan) (Disc 1)"
+	description "Biohazard (Japan) (Disc 1)"
+	rom ( name "Biohazard (Japan) (Disc 1).iso" size 1459978240 crc 15108252 md5 20cb8d4cb322aa503d1b8a49c43cdebf sha1 0f70a4168fc9f28bcec24f01ca7fdbd195a13ab6 )
+)
+
+game (
+	name "Biohazard (Japan) (Disc 2)"
+	description "Biohazard (Japan) (Disc 2)"
+	rom ( name "Biohazard (Japan) (Disc 2).iso" size 1459978240 crc 99c1d130 md5 bfbf8e0f249cf8dd8fcb913793301a8c sha1 e85928a2bed988781cc46abf4cc816b6f190af46 )
 )
 
 game (
@@ -858,6 +942,12 @@ game (
 )
 
 game (
+	name "Biohazard Zero - Trial Edition (Japan)"
+	description "Biohazard Zero - Trial Edition (Japan)"
+	rom ( name "Biohazard Zero - Trial Edition (Japan).iso" size 1459978240 crc c089501e md5 c899ff60d41eaa5acc3e79d95264ae19 sha1 4bdeef939026e8eef36802703c29b5f77281a18c )
+)
+
+game (
 	name "Biohazard Zero (Japan) (Disc 1)"
 	description "Biohazard Zero (Japan) (Disc 1)"
 	rom ( name "Biohazard Zero (Japan) (Disc 1).iso" size 1459978240 crc eeee4e93 md5 d042c42ab577de62da0c9e483008a5a3 sha1 ca05364e6b55bc517cada9560912fb6b2194e83e )
@@ -867,12 +957,6 @@ game (
 	name "Biohazard Zero (Japan) (Disc 2)"
 	description "Biohazard Zero (Japan) (Disc 2)"
 	rom ( name "Biohazard Zero (Japan) (Disc 2).iso" size 1459978240 crc fb5b204a md5 ccd0978d8e5b3b4d4c69b5460b1e410a sha1 5d1d5fbc8de48403764cbf812c9bf6d5392919eb )
-)
-
-game (
-	name "Biohazard Zero - Trial Edition (Japan)"
-	description "Biohazard Zero - Trial Edition (Japan)"
-	rom ( name "Biohazard Zero - Trial Edition (Japan).iso" size 1459978240 crc c089501e md5 c899ff60d41eaa5acc3e79d95264ae19 sha1 4bdeef939026e8eef36802703c29b5f77281a18c )
 )
 
 game (
@@ -984,6 +1068,18 @@ game (
 )
 
 game (
+	name "BMX XXX (Europe) (En,Fr,De,Es)"
+	description "BMX XXX (Europe) (En,Fr,De,Es)"
+	rom ( name "BMX XXX (Europe) (En,Fr,De,Es).iso" size 1459978240 crc fb96b569 md5 6e055e37ba55299a33671ff85f4d6876 sha1 4b2cb21f91a42df34b094d2c528cdbef35ca6c08 )
+)
+
+game (
+	name "BMX XXX (USA)"
+	description "BMX XXX (USA)"
+	rom ( name "BMX XXX (USA).iso" size 1459978240 crc e84d9bd6 md5 c3fe071d90154f78558b8beccd444d64 sha1 8e0957bf307226fd46da4acd7bd18ecb1f31a78f )
+)
+
+game (
 	name "Bobobo-bo Bo-bobo Dassutsu! Hajike Royale (Japan)"
 	description "Bobobo-bo Bo-bobo Dassutsu! Hajike Royale (Japan)"
 	rom ( name "Bobobo-bo Bo-bobo Dassutsu! Hajike Royale (Japan).iso" size 1459978240 crc fe7af832 md5 0dd7a9b923e409309eda87752391e30a sha1 08dfb5289e780657687ab239a47c11f3493f4a17 )
@@ -1065,6 +1161,12 @@ game (
 	name "Bomberman Land 2 (Japan)"
 	description "Bomberman Land 2 (Japan)"
 	rom ( name "Bomberman Land 2 (Japan).iso" size 1459978240 crc 37a12b37 md5 38c81513c5ee1cfc1b2c36825d6b2e6b sha1 270ad06de305e3cbc076e81be4920113d8306c5b )
+)
+
+game (
+	name "Bonus Powersaves (USA) (Unl)"
+	description "Bonus Powersaves (USA) (Unl)"
+	rom ( name "Bonus Powersaves (USA) (Unl).iso" size 1459978240 crc 9a3fe338 md5 cf40ea94aca6d7aa11db574ece398275 sha1 b223c42a8303332014784940dec29e42ce24da85 )
 )
 
 game (
@@ -1164,24 +1266,6 @@ game (
 )
 
 game (
-	name "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl)"
-	description "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl)"
-	rom ( name "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl).iso" size 1459978240 crc a1c6b7a4 md5 675b776a351538024efe97c072753e57 sha1 a76d56191449ed3d7665e253ee3345af013bb2f2 )
-)
-
-game (
-	name "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl)"
-	description "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl)"
-	rom ( name "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl).iso" size 1459978240 crc e584a9f1 md5 2881bce3b401482fc548723730583985 sha1 041a57690305fad36334b3c70a2f44edaed84e8b )
-)
-
-game (
-	name "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl)"
-	description "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl)"
-	rom ( name "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl).iso" size 1459978240 crc 2e098a57 md5 3a25ca6e9686b8c0812af6d11cfc3814 sha1 5ade106173204e7daf8e53368451c600d181a999 )
-)
-
-game (
 	name "Cabela's Big Game Hunter 2005 Adventures (USA)"
 	description "Cabela's Big Game Hunter 2005 Adventures (USA)"
 	rom ( name "Cabela's Big Game Hunter 2005 Adventures (USA).iso" size 1459978240 crc 5bcf4946 md5 8660dc7a418dcaf5334009524e290a6c sha1 850f29ca0d98cad7d604c8f980876c54e273d5a5 )
@@ -1260,6 +1344,12 @@ game (
 )
 
 game (
+	name "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe)"
+	description "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe)"
+	rom ( name "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe).iso" size 1459978240 crc ff84c3d3 md5 c56a8a3f2930f85d270b7e880e01ca08 sha1 9546224c012b2431deedd4e2d6fbbae46a1b9e2f )
+)
+
+game (
 	name "Capcom vs. SNK 2 EO (Japan)"
 	description "Capcom vs. SNK 2 EO (Japan)"
 	rom ( name "Capcom vs. SNK 2 EO (Japan).iso" size 1459978240 crc b2c307e1 md5 bf6872dacaea7d6c08b97e826242902a sha1 67ce498bc63c4fc99c5639666d439e9eb19209ac )
@@ -1269,12 +1359,6 @@ game (
 	name "Capcom vs. SNK 2 EO (USA)"
 	description "Capcom vs. SNK 2 EO (USA)"
 	rom ( name "Capcom vs. SNK 2 EO (USA).iso" size 1459978240 crc 5f03b7d8 md5 0f153f7d7b97c9df1d4d55a9f70cfde6 sha1 f5ecef62b8a6ed8f76eec3319be7168352c5d5ae )
-)
-
-game (
-	name "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe)"
-	description "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe)"
-	rom ( name "Capcom vs. SNK 2 EO - Millionaire Fighting 2001 (Europe).iso" size 1459978240 crc ff84c3d3 md5 c56a8a3f2930f85d270b7e880e01ca08 sha1 9546224c012b2431deedd4e2d6fbbae46a1b9e2f )
 )
 
 game (
@@ -1329,6 +1413,24 @@ game (
 	name "Catwoman (USA)"
 	description "Catwoman (USA)"
 	rom ( name "Catwoman (USA).iso" size 1459978240 crc 210c61e4 md5 35a7d1a35dfbcde290597b593ebd42b8 sha1 0adc3a1802c07031af0417f1a839269b566d6112 )
+)
+
+game (
+	name "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl)"
+	description "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl)"
+	rom ( name "CD avec les Codes Action Replay Exclusivement pour le Jeu The Legend of Zelda - The Wind Waker (France) (Unl).iso" size 1459978240 crc e584a9f1 md5 2881bce3b401482fc548723730583985 sha1 041a57690305fad36334b3c70a2f44edaed84e8b )
+)
+
+game (
+	name "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl)"
+	description "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl)"
+	rom ( name "CD avec les Codes Exclusifs et Inedits pour le Jeu Metroid Prime (France) (Unl).iso" size 1459978240 crc 2e098a57 md5 3a25ca6e9686b8c0812af6d11cfc3814 sha1 5ade106173204e7daf8e53368451c600d181a999 )
+)
+
+game (
+	name "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl)"
+	description "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl)"
+	rom ( name "CD Exclusif avec les Codes pour les Jeux Resident Evil et Resident Evil Zero (France) (Unl).iso" size 1459978240 crc a1c6b7a4 md5 675b776a351538024efe97c072753e57 sha1 a76d56191449ed3d7665e253ee3345af013bb2f2 )
 )
 
 game (
@@ -1506,15 +1608,21 @@ game (
 )
 
 game (
+	name "Conflict - Desert Storm II - Back to Baghdad (USA)"
+	description "Conflict - Desert Storm II - Back to Baghdad (USA)"
+	rom ( name "Conflict - Desert Storm II - Back to Baghdad (USA).iso" size 1459978240 crc 0eeb2191 md5 7a52c85861bed0376d48bb8156a0ec2c sha1 9612a07c22a4f848de834194dbaa1ca0a5bdda3f )
+)
+
+game (
 	name "Conflict - Desert Storm II (Europe) (En,Fr,De,Es,It)"
 	description "Conflict - Desert Storm II (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Conflict - Desert Storm II (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 97b5de11 md5 48e84c19c050616d1f7b81ea9e9ed8fc sha1 0a926d18a97bd18dcb4ef51048d04fe9d327d700 )
 )
 
 game (
-	name "Conflict - Desert Storm II - Back to Baghdad (USA)"
-	description "Conflict - Desert Storm II - Back to Baghdad (USA)"
-	rom ( name "Conflict - Desert Storm II - Back to Baghdad (USA).iso" size 1459978240 crc 0eeb2191 md5 7a52c85861bed0376d48bb8156a0ec2c sha1 9612a07c22a4f848de834194dbaa1ca0a5bdda3f )
+	name "Coupe du Monde FIFA 2002 (France)"
+	description "Coupe du Monde FIFA 2002 (France)"
+	rom ( name "Coupe du Monde FIFA 2002 (France).iso" size 1459978240 crc f3de87a7 md5 d223250f71b82efe411d4710bd2c9d22 sha1 a88bd9f7d619df59558d2043b57730d3e23935b4 )
 )
 
 game (
@@ -1620,9 +1728,129 @@ game (
 )
 
 game (
-	name "Cube - Cheats CD 01 (Europe) (Unl)"
-	description "Cube - Cheats CD 01 (Europe) (Unl)"
-	rom ( name "Cube - Cheats CD 01 (Europe) (Unl).iso" size 1459978240 crc 3bda1560 md5 ba8dd80ae7c11b51c0a609d99c07a8b6 sha1 c7abf65ee74b15619afa8277f2ca59ed57d247df )
+	name "Cube CD 01 (20) (Europe) (Unl)"
+	description "Cube CD 01 (20) (Europe) (Unl)"
+	rom ( name "Cube CD 01 (20) (Europe) (Unl).iso" size 1459978240 crc 3bda1560 md5 ba8dd80ae7c11b51c0a609d99c07a8b6 sha1 c7abf65ee74b15619afa8277f2ca59ed57d247df )
+)
+
+game (
+	name "Cube CD 02 (21) (Europe) (Unl)"
+	description "Cube CD 02 (21) (Europe) (Unl)"
+	rom ( name "Cube CD 02 (21) (Europe) (Unl).iso" size 1459978240 crc 564bddf9 md5 e3e55b7ba681f9f0f9c107245df731d4 sha1 29f48aea1763f86760b2dafb9d528c435bfdfeed )
+)
+
+game (
+	name "Cube CD 03 (22) (Europe) (Unl)"
+	description "Cube CD 03 (22) (Europe) (Unl)"
+	rom ( name "Cube CD 03 (22) (Europe) (Unl).iso" size 1459978240 crc 4d3bc980 md5 63183383a906a65cda29c30d35c8026a sha1 9e0d0fc0c61e284542bde3c6c5fa9b04105df612 )
+)
+
+game (
+	name "Cube CD 04 (23) (Europe) (Unl)"
+	description "Cube CD 04 (23) (Europe) (Unl)"
+	rom ( name "Cube CD 04 (23) (Europe) (Unl).iso" size 1459978240 crc ceb11a37 md5 570491e09928e0214be8c2d074684a9d sha1 b4f382b2d25ba4726af1a0754e600275445f6951 )
+)
+
+game (
+	name "Cube CD 05 (24) (Europe) (Unl)"
+	description "Cube CD 05 (24) (Europe) (Unl)"
+	rom ( name "Cube CD 05 (24) (Europe) (Unl).iso" size 1459978240 crc 2188e0bf md5 a6aa526a5d2556905d7a61d4b7e6610b sha1 a1f4a282ffd9dbfaa22b76065404b8737ea9139e )
+)
+
+game (
+	name "Cube CD 06 (25) (Europe) (Unl)"
+	description "Cube CD 06 (25) (Europe) (Unl)"
+	rom ( name "Cube CD 06 (25) (Europe) (Unl).iso" size 1459978240 crc 20843654 md5 2a91e8400172225f20c10fd2f6b2327d sha1 28b59d6c1289655db9961bf10bacf81401ad6836 )
+)
+
+game (
+	name "Cube CD 07 (26) (Europe) (Unl)"
+	description "Cube CD 07 (26) (Europe) (Unl)"
+	rom ( name "Cube CD 07 (26) (Europe) (Unl).iso" size 1459978240 crc 094e050d md5 9ba9a23a6478773a1b51cf2619bbc498 sha1 902c20039d49000b43e0ed6da972aa2846461bfb )
+)
+
+game (
+	name "Cube CD 08 (27) (Europe) (Unl)"
+	description "Cube CD 08 (27) (Europe) (Unl)"
+	rom ( name "Cube CD 08 (27) (Europe) (Unl).iso" size 1459978240 crc a7648498 md5 d11e4b0672880d9fdcae762eee4f919a sha1 b06488214824a2e1eaf215eb792d2767f6472e3e )
+)
+
+game (
+	name "Cube CD 09 (28) (Europe) (Unl)"
+	description "Cube CD 09 (28) (Europe) (Unl)"
+	rom ( name "Cube CD 09 (28) (Europe) (Unl).iso" size 1459978240 crc 77a5a747 md5 d659ae6d451d6253ef1bd3cf6bcf8fe2 sha1 561511a150af7239e8b740d398315c626ecb8eb6 )
+)
+
+game (
+	name "Cube CD 10 (29) (Europe) (Unl)"
+	description "Cube CD 10 (29) (Europe) (Unl)"
+	rom ( name "Cube CD 10 (29) (Europe) (Unl).iso" size 1459978240 crc d58bb1d1 md5 7aa303a1ee2cca606eb7293d1e5d40e1 sha1 3643191bacbb49b3a1c10a302f36dd2ecd76ac70 )
+)
+
+game (
+	name "Cube CD 11 (30) (Europe) (Unl)"
+	description "Cube CD 11 (30) (Europe) (Unl)"
+	rom ( name "Cube CD 11 (30) (Europe) (Unl).iso" size 1459978240 crc de08bb29 md5 00a76920368c9719c6767b5d739eb5a9 sha1 9bcb7602cee82c533d950b9a424a5c793760a9ed )
+)
+
+game (
+	name "Cube CD 12 (31) (Europe) (Unl)"
+	description "Cube CD 12 (31) (Europe) (Unl)"
+	rom ( name "Cube CD 12 (31) (Europe) (Unl).iso" size 1459978240 crc 67acea2c md5 5d92c8e5057945c0944a0a4cbc5aa068 sha1 810c918a0469d1cd054cf37d2829ecfb25091c08 )
+)
+
+game (
+	name "Cube CD 13 (32) (Europe) (Unl)"
+	description "Cube CD 13 (32) (Europe) (Unl)"
+	rom ( name "Cube CD 13 (32) (Europe) (Unl).iso" size 1459978240 crc 4ee5dc34 md5 879a354177cbe51f602269480c423ecd sha1 1961a864c80d92de323b710ca2125bf45806473f )
+)
+
+game (
+	name "Cube CD 14 (33) (Europe) (Unl)"
+	description "Cube CD 14 (33) (Europe) (Unl)"
+	rom ( name "Cube CD 14 (33) (Europe) (Unl).iso" size 1459978240 crc a0976106 md5 187ec5c9fd1547092875a3c8f13a41b1 sha1 33b310b0a1b203333cee44fa0c81dcfba879e686 )
+)
+
+game (
+	name "Cube CD 15 (34) (Europe) (Unl)"
+	description "Cube CD 15 (34) (Europe) (Unl)"
+	rom ( name "Cube CD 15 (34) (Europe) (Unl).iso" size 1459978240 crc 4b9b91e6 md5 08522ad068345eca61ea22dc92f6cb45 sha1 2f362a1547d958e3d772fe9d8c400bc57e5d17f4 )
+)
+
+game (
+	name "Cube CD 16 (35) (Europe) (Unl)"
+	description "Cube CD 16 (35) (Europe) (Unl)"
+	rom ( name "Cube CD 16 (35) (Europe) (Unl).iso" size 1459978240 crc e5c0156e md5 ed3ba85d06eba0f60f84891e1f849d44 sha1 20e01588318a0aa88277f941b4e625bea34cf1ca )
+)
+
+game (
+	name "Cube CD 17 (36) (Europe) (Unl)"
+	description "Cube CD 17 (36) (Europe) (Unl)"
+	rom ( name "Cube CD 17 (36) (Europe) (Unl).iso" size 1459978240 crc 9e7dc646 md5 5d381c783a736b73bbcb5133b39c181e sha1 8cf84262a897d440fe7a18e2b85bada188534cad )
+)
+
+game (
+	name "Cube CD 18 (37) (Europe) (Unl)"
+	description "Cube CD 18 (37) (Europe) (Unl)"
+	rom ( name "Cube CD 18 (37) (Europe) (Unl).iso" size 1459978240 crc 1be165b7 md5 123af675aac82a2f6c4a51c297353336 sha1 ec1c5307e8a5c06c3181ca4125ba7e2b5abe8a2c )
+)
+
+game (
+	name "Cube CD 19 (38) (Europe) (Unl)"
+	description "Cube CD 19 (38) (Europe) (Unl)"
+	rom ( name "Cube CD 19 (38) (Europe) (Unl).iso" size 1459978240 crc 1570e92e md5 fd0dee6c5b4850e9ceab350721528314 sha1 b347fece4943897882e2a38b14c5691c36f2b023 )
+)
+
+game (
+	name "Cube CD 20 (39) (Europe) (Unl)"
+	description "Cube CD 20 (39) (Europe) (Unl)"
+	rom ( name "Cube CD 20 (39) (Europe) (Unl).iso" size 1459978240 crc c46232ec md5 5fdf1a4b2990721f87f82b78c433c5bd sha1 f7d097bc8f1417f520243c72cc6e8a912a7fb0a7 )
+)
+
+game (
+	name "Cube CD 20 (40) (Europe) (Unl)"
+	description "Cube CD 20 (40) (Europe) (Unl)"
+	rom ( name "Cube CD 20 (40) (Europe) (Unl).iso" size 1459978240 crc eb7f7bc6 md5 1a4ba7a7d5bd2a195c0c4a4426940239 sha1 571dc6e8aa538e2501f89a5706b23b8f9e170e8f )
 )
 
 game (
@@ -1644,15 +1872,15 @@ game (
 )
 
 game (
-	name "Custom Robo (USA)"
-	description "Custom Robo (USA)"
-	rom ( name "Custom Robo (USA).iso" size 1459978240 crc c450109c md5 546e5108173bceb4d5c8ca27b3fcfc96 sha1 fff6e74590366a5c0c5ba0d40c8ccf94770bcb16 )
-)
-
-game (
 	name "Custom Robo - Battle Revolution (Japan)"
 	description "Custom Robo - Battle Revolution (Japan)"
 	rom ( name "Custom Robo - Battle Revolution (Japan).iso" size 1459978240 crc 4df76b35 md5 6c74f607554a4d991e0a783b14d8b232 sha1 5bc6196df3cee9410f07777d6bbc7593f5ad1948 )
+)
+
+game (
+	name "Custom Robo (USA)"
+	description "Custom Robo (USA)"
+	rom ( name "Custom Robo (USA).iso" size 1459978240 crc c450109c md5 546e5108173bceb4d5c8ca27b3fcfc96 sha1 fff6e74590366a5c0c5ba0d40c8ccf94770bcb16 )
 )
 
 game (
@@ -1686,15 +1914,15 @@ game (
 )
 
 game (
-	name "Dakar 2 (Europe) (En,Fr,De,Es,It)"
-	description "Dakar 2 (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Dakar 2 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 010d1982 md5 dc71d75741cf8761bfb95160e07e52d5 sha1 6c02418be937cf90856c5e67913bfe13e5bcbb2a )
-)
-
-game (
 	name "Dakar 2 - The World's Ultimate Rally (USA) (En,Fr,De,Es,It)"
 	description "Dakar 2 - The World's Ultimate Rally (USA) (En,Fr,De,Es,It)"
 	rom ( name "Dakar 2 - The World's Ultimate Rally (USA) (En,Fr,De,Es,It).iso" size 1459978240 crc fd421f87 md5 b603f891b9601b1e09e359919595a679 sha1 d87edcb7e85eb7c2e068f3fca99fcafd1486288c )
+)
+
+game (
+	name "Dakar 2 (Europe) (En,Fr,De,Es,It)"
+	description "Dakar 2 (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Dakar 2 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 010d1982 md5 dc71d75741cf8761bfb95160e07e52d5 sha1 6c02418be937cf90856c5e67913bfe13e5bcbb2a )
 )
 
 game (
@@ -1788,15 +2016,15 @@ game (
 )
 
 game (
-	name "Defender (USA)"
-	description "Defender (USA)"
-	rom ( name "Defender (USA).iso" size 1459978240 crc 53ae96a5 md5 ba494301ef873157b61a1299cf6328be sha1 e5d9991b638686b8debdca39203e3d08e6551a96 )
-)
-
-game (
 	name "Defender - For All Mankind (Europe) (En,Fr,De,Es,It)"
 	description "Defender - For All Mankind (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Defender - For All Mankind (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc eb7ee458 md5 aaf205c648d9f4ff6b946e1ce9da126b sha1 b440611c014727b68aaa47a0192d225949dbbd3c )
+)
+
+game (
+	name "Defender (USA)"
+	description "Defender (USA)"
+	rom ( name "Defender (USA).iso" size 1459978240 crc 53ae96a5 md5 ba494301ef873157b61a1299cf6328be sha1 e5d9991b638686b8debdca39203e3d08e6551a96 )
 )
 
 game (
@@ -1884,6 +2112,12 @@ game (
 )
 
 game (
+	name "Disney no Magical Park (Japan)"
+	description "Disney no Magical Park (Japan)"
+	rom ( name "Disney no Magical Park (Japan).iso" size 1459978240 crc 424a87e4 md5 897c4749ea2f7f1abe56eda0a10e2957 sha1 174fd6f295dd840ebb6a59e636df5c7aa936b260 )
+)
+
+game (
 	name "Disney Sports - American Football (Japan)"
 	description "Disney Sports - American Football (Japan)"
 	rom ( name "Disney Sports - American Football (Japan).iso" size 1459978240 crc 7225d2ea md5 9404e21c1860c39f06fd33a309296c1e sha1 4f249f1786bdd1926e8231b08a261018f2c6cc02 )
@@ -1947,168 +2181,6 @@ game (
 	name "Disney Sports - Soccer (USA)"
 	description "Disney Sports - Soccer (USA)"
 	rom ( name "Disney Sports - Soccer (USA).iso" size 1459978240 crc 16be950f md5 f4fc53df07e411ec7ad0b8a8fa972949 sha1 622833775231b615aed19c4d7589aff5c8081631 )
-)
-
-game (
-	name "Disney no Magical Park (Japan)"
-	description "Disney no Magical Park (Japan)"
-	rom ( name "Disney no Magical Park (Japan).iso" size 1459978240 crc 424a87e4 md5 897c4749ea2f7f1abe56eda0a10e2957 sha1 174fd6f295dd840ebb6a59e636df5c7aa936b260 )
-)
-
-game (
-	name "Disney's Chicken Little (Europe)"
-	description "Disney's Chicken Little (Europe)"
-	rom ( name "Disney's Chicken Little (Europe).iso" size 1459978240 crc 0444ce35 md5 172a02e376a37d326da1720662212bce sha1 be2832c6394290a69a15517a490d1f9a4509bfbe )
-)
-
-game (
-	name "Disney's Chicken Little (Japan)"
-	description "Disney's Chicken Little (Japan)"
-	rom ( name "Disney's Chicken Little (Japan).iso" size 1459978240 crc 46cbf564 md5 e082d0208430577a2f37f1636cb9d792 sha1 a4b08ebb3fe7b41a904c69034ebc20fac62354ed )
-)
-
-game (
-	name "Disney's Chicken Little (USA)"
-	description "Disney's Chicken Little (USA)"
-	rom ( name "Disney's Chicken Little (USA).iso" size 1459978240 crc 8124d7b4 md5 c405accb2cb596da872fad9541909fa8 sha1 cdf5837a29f27f882ef1fa74e169b1a8e0d1e996 )
-)
-
-game (
-	name "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr)"
-	description "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr)"
-	rom ( name "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr).iso" size 1459978240 crc f8769f5d md5 f6b779f5a7757f9a5d3258a832545b5a sha1 ba86d4ee6d56f6c1977d975907be8028a22699bb )
-)
-
-game (
-	name "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It)"
-	description "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc b265ea6e md5 7380bd8887a4338cedc76f2f53d90aa8 sha1 acec0a3fe6da742a64aeaa97f27b3eb742eb46e4 )
-)
-
-game (
-	name "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
-	description "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc c70d859d md5 ae62daf163809c1a58a153298ffa56b4 sha1 89fa851892bd0f05192c7d79d15aa83668f833cf )
-)
-
-game (
-	name "Disney's Extreme Skate Adventure (Europe) (Es,It)"
-	description "Disney's Extreme Skate Adventure (Europe) (Es,It)"
-	rom ( name "Disney's Extreme Skate Adventure (Europe) (Es,It).iso" size 1459978240 crc 5f08972a md5 1d4b3ec22f4876847a11ff8387fac5f5 sha1 bdb76353026e44619b95e3417d4d5f06e6bd0377 )
-)
-
-game (
-	name "Disney's Extreme Skate Adventure (Europe) (Fr,De)"
-	description "Disney's Extreme Skate Adventure (Europe) (Fr,De)"
-	rom ( name "Disney's Extreme Skate Adventure (Europe) (Fr,De).iso" size 1459978240 crc 3544f0b0 md5 810f4a0f4c2fbde06a5d3355edcf0732 sha1 cc6f87117d4a239ef3328d24b18a757c44ad3a64 )
-)
-
-game (
-	name "Disney's Extreme Skate Adventure (Europe)"
-	description "Disney's Extreme Skate Adventure (Europe)"
-	rom ( name "Disney's Extreme Skate Adventure (Europe).iso" size 1459978240 crc 119f3b75 md5 a66e632cea696e5489b724e84d6aec13 sha1 12fc768643018f4f72d8dc36809d6cf34141b956 )
-)
-
-game (
-	name "Disney's Extreme Skate Adventure (USA)"
-	description "Disney's Extreme Skate Adventure (USA)"
-	rom ( name "Disney's Extreme Skate Adventure (USA).iso" size 1459978240 crc 940c7c23 md5 cbf0b925d7ef55098574f861627f5324 sha1 21d616bebf834bba3fbfb09ea7df27f4d3637c3a )
-)
-
-game (
-	name "Disney's Hide & Sneak (Europe) (En,Fr,De)"
-	description "Disney's Hide & Sneak (Europe) (En,Fr,De)"
-	rom ( name "Disney's Hide & Sneak (Europe) (En,Fr,De).iso" size 1459978240 crc f79900ff md5 ff7f7ba0b516a65c618bc6f136227d72 sha1 be0885c5a5ca6c94e2271d657d52073a23b33f06 )
-)
-
-game (
-	name "Disney's Hide & Sneak (USA)"
-	description "Disney's Hide & Sneak (USA)"
-	rom ( name "Disney's Hide & Sneak (USA).iso" size 1459978240 crc 489321af md5 38c74e0587c845548ecd2269c1d8c232 sha1 d747cbc9e71636490b98fdc26ecad40323a46a08 )
-)
-
-game (
-	name "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It)"
-	description "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc af3fbca8 md5 ab2ac45f906726ff11509556452f38ee sha1 041a3ff4f1e2b405180478f43408ece5a552ba8f )
-)
-
-game (
-	name "Disney's Magical Mirror Starring Mickey Mouse (USA)"
-	description "Disney's Magical Mirror Starring Mickey Mouse (USA)"
-	rom ( name "Disney's Magical Mirror Starring Mickey Mouse (USA).iso" size 1459978240 crc 61f36ffd md5 baf1ffe1b585fa447dce54444e463fc4 sha1 4896cabdedacc60a5d7c74d0aefe1092f56336c5 )
-)
-
-game (
-	name "Disney's Mickey Mouse no Fushigi na Kagami (Japan)"
-	description "Disney's Mickey Mouse no Fushigi na Kagami (Japan)"
-	rom ( name "Disney's Mickey Mouse no Fushigi na Kagami (Japan).iso" size 1459978240 crc 650bbc8c md5 3c6301f69e37f46c9603f1b4541bffb2 sha1 361fe4b288e9ad9f0c338618d0c16114fc4d7a6d )
-)
-
-game (
-	name "Disney's Mickey to Minnie Trick & Chase (Japan)"
-	description "Disney's Mickey to Minnie Trick & Chase (Japan)"
-	rom ( name "Disney's Mickey to Minnie Trick & Chase (Japan).iso" size 1459978240 crc 583d116e md5 ff155ea04cdf72d31bd0e33fbd264ba2 sha1 42b944d1a178ccb396f351f2f456e49503b5f8bd )
-)
-
-game (
-	name "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It)"
-	description "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It)"
-	rom ( name "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It).iso" size 1459978240 crc da5f53dd md5 f0ffa80667c71ecfdc6d181bc49de7bc sha1 b67f3494c9e403382d0be3985800685e70a8f198 )
-)
-
-game (
-	name "Disney's Party (Europe) (En,Fr,De,Es,It)"
-	description "Disney's Party (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Disney's Party (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 7a5c5be0 md5 780048192af3fe8368e9ce9f5ee197e7 sha1 ff81b366334a61ca4b0ff9b62abe879b6157f4a6 )
-)
-
-game (
-	name "Disney's Party (USA)"
-	description "Disney's Party (USA)"
-	rom ( name "Disney's Party (USA).iso" size 1459978240 crc dcaef127 md5 0b65436787bf060dc8e0333d017ee892 sha1 ce491a27669e84a106be4ad60606b339ba33a280 )
-)
-
-game (
-	name "Disney's Piglet's Big Game (Europe)"
-	description "Disney's Piglet's Big Game (Europe)"
-	rom ( name "Disney's Piglet's Big Game (Europe).iso" size 1459978240 crc 9945cb3d md5 6b0dd0013e48770bf3c541f9f78a7ecd sha1 f187c54cd6e7cf37770ad456e5aa7debfa26aa95 )
-)
-
-game (
-	name "Disney's Piglet's Big Game (USA)"
-	description "Disney's Piglet's Big Game (USA)"
-	rom ( name "Disney's Piglet's Big Game (USA).iso" size 1459978240 crc 03134803 md5 6dcc11dab3bf7fc938163af3681b510f sha1 9cd021bd95b6cc96cc4b81b506f4bf74a56914c1 )
-)
-
-game (
-	name "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It)"
-	description "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 251ad1e8 md5 fbd0cd21a89fde6338cef789c9dab039 sha1 42efd57c2961c5dce5cd9139103168ee15f866c8 )
-)
-
-game (
-	name "Disney's Tarzan - Untamed (USA) (En,Fr)"
-	description "Disney's Tarzan - Untamed (USA) (En,Fr)"
-	rom ( name "Disney's Tarzan - Untamed (USA) (En,Fr).iso" size 1459978240 crc ef54571a md5 b39c6f3e9c0613b3de67344e98a820be sha1 df981e1ccb8fe6bde8991817dbfda4e788e7e8ee )
-)
-
-game (
-	name "Disney's The Haunted Mansion (USA)"
-	description "Disney's The Haunted Mansion (USA)"
-	rom ( name "Disney's The Haunted Mansion (USA).iso" size 1459978240 crc 457b6b08 md5 2082f0d43283addaa4c7cb4fa22aed6f sha1 9e0f4693146295d3705745ebab25354ce6dd9244 )
-)
-
-game (
-	name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl)"
-	description "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl)"
-	rom ( name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl).iso" size 1459978240 crc 27252f80 md5 6eb08cd7bacdcdba5a44cf44a1255b88 sha1 17c2c749dc603a933252c129387339ba5b715a69 )
-)
-
-game (
-	name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es)"
-	description "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es)"
-	rom ( name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es).iso" size 1459978240 crc 87234a2b md5 0d256b70d7223dd1608f3706169631a4 sha1 73b2a2c2796faaef5370dff8a8646a14f757b699 )
 )
 
 game (
@@ -2184,6 +2256,12 @@ game (
 )
 
 game (
+	name "Disney-Pixar Finding Nemo (Korea)"
+	description "Disney-Pixar Finding Nemo (Korea)"
+	rom ( name "Disney-Pixar Finding Nemo (Korea).iso" size 1459978240 crc 312420a2 md5 7ee187f776e1cbed1f8836e645560d46 sha1 340ef094dfe69c0253e1539911f7f508d91108fa )
+)
+
+game (
 	name "Disney-Pixar Finding Nemo (USA) (v1.00)"
 	description "Disney-Pixar Finding Nemo (USA) (v1.00)"
 	rom ( name "Disney-Pixar Finding Nemo (USA) (v1.00).iso" size 1459978240 crc a997457f md5 18f7f037f7de19ef40defa1c1891dcb6 sha1 c9dac666b835a3092d3aca68f3621b343d145dcb )
@@ -2220,15 +2298,15 @@ game (
 )
 
 game (
-	name "Disney-Pixar Mr. Incredible (Japan)"
-	description "Disney-Pixar Mr. Incredible (Japan)"
-	rom ( name "Disney-Pixar Mr. Incredible (Japan).iso" size 1459978240 crc e0addb4c md5 3dd63a89d5982eb7ab97170787aa00bf sha1 31ff0e4916d0fb704cf6e392f50885b17a6da235 )
-)
-
-game (
 	name "Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou (Japan)"
 	description "Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou (Japan)"
 	rom ( name "Disney-Pixar Mr. Incredible - Kyouteki Underminder Toujou (Japan).iso" size 1459978240 crc 9c0aefd7 md5 9c780140c65d75bb2834a8fdcff93c4c sha1 b0fa305d6435048478ccf8f4d2667404ea2c87e1 )
+)
+
+game (
+	name "Disney-Pixar Mr. Incredible (Japan)"
+	description "Disney-Pixar Mr. Incredible (Japan)"
+	rom ( name "Disney-Pixar Mr. Incredible (Japan).iso" size 1459978240 crc e0addb4c md5 3dd63a89d5982eb7ab97170787aa00bf sha1 31ff0e4916d0fb704cf6e392f50885b17a6da235 )
 )
 
 game (
@@ -2241,6 +2319,24 @@ game (
 	name "Disney-Pixar Ratatouille (USA)"
 	description "Disney-Pixar Ratatouille (USA)"
 	rom ( name "Disney-Pixar Ratatouille (USA).iso" size 1459978240 crc b8fc1dd1 md5 f4eb6225f2bbd2664321e646a1351144 sha1 37e41a67a74a1043c72dd2138fe3ba14ffc6f3e1 )
+)
+
+game (
+	name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr)"
+	description "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr)"
+	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr).iso" size 1459978240 crc 66c57057 md5 c54ce84a91f3bbed61e56204fdc87e1f sha1 5e4f0f9690aa5ac3d53ecc47614f7ae718e040ea )
+)
+
+game (
+	name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De)"
+	description "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De)"
+	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De).iso" size 1459978240 crc f1faffb9 md5 9d35107bd340e65a047df0635e7e730b sha1 77eebc4066f40628af9bcf5302fbcefa19638c4c )
+)
+
+game (
+	name "Disney-Pixar The Incredibles - Rise of the Underminer (USA)"
+	description "Disney-Pixar The Incredibles - Rise of the Underminer (USA)"
+	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (USA).iso" size 1459978240 crc 539e1ca6 md5 776efc70a57fb62e2dc77f011f870473 sha1 e9015fc11b1a33796c932eab724d77883e71d867 )
 )
 
 game (
@@ -2262,21 +2358,159 @@ game (
 )
 
 game (
-	name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr)"
-	description "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr)"
-	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (En,Fr).iso" size 1459978240 crc 66c57057 md5 c54ce84a91f3bbed61e56204fdc87e1f sha1 5e4f0f9690aa5ac3d53ecc47614f7ae718e040ea )
+	name "Disney's Chicken Little (Europe)"
+	description "Disney's Chicken Little (Europe)"
+	rom ( name "Disney's Chicken Little (Europe).iso" size 1459978240 crc 0444ce35 md5 172a02e376a37d326da1720662212bce sha1 be2832c6394290a69a15517a490d1f9a4509bfbe )
 )
 
 game (
-	name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De)"
-	description "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De)"
-	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (Europe) (Fr,De).iso" size 1459978240 crc f1faffb9 md5 9d35107bd340e65a047df0635e7e730b sha1 77eebc4066f40628af9bcf5302fbcefa19638c4c )
+	name "Disney's Chicken Little (Japan)"
+	description "Disney's Chicken Little (Japan)"
+	rom ( name "Disney's Chicken Little (Japan).iso" size 1459978240 crc 46cbf564 md5 e082d0208430577a2f37f1636cb9d792 sha1 a4b08ebb3fe7b41a904c69034ebc20fac62354ed )
 )
 
 game (
-	name "Disney-Pixar The Incredibles - Rise of the Underminer (USA)"
-	description "Disney-Pixar The Incredibles - Rise of the Underminer (USA)"
-	rom ( name "Disney-Pixar The Incredibles - Rise of the Underminer (USA).iso" size 1459978240 crc 539e1ca6 md5 776efc70a57fb62e2dc77f011f870473 sha1 e9015fc11b1a33796c932eab724d77883e71d867 )
+	name "Disney's Chicken Little (USA)"
+	description "Disney's Chicken Little (USA)"
+	rom ( name "Disney's Chicken Little (USA).iso" size 1459978240 crc 8124d7b4 md5 c405accb2cb596da872fad9541909fa8 sha1 cdf5837a29f27f882ef1fa74e169b1a8e0d1e996 )
+)
+
+game (
+	name "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr)"
+	description "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr)"
+	rom ( name "Disney's Donald Duck - Goin' Quackers (USA) (En,Fr).iso" size 1459978240 crc f8769f5d md5 f6b779f5a7757f9a5d3258a832545b5a sha1 ba86d4ee6d56f6c1977d975907be8028a22699bb )
+)
+
+game (
+	name "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It)"
+	description "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Disney's Donald Duck - Phantomias - Platyrhynchos Kineticus (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc b265ea6e md5 7380bd8887a4338cedc76f2f53d90aa8 sha1 acec0a3fe6da742a64aeaa97f27b3eb742eb46e4 )
+)
+
+game (
+	name "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
+	description "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Disney's Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc c70d859d md5 ae62daf163809c1a58a153298ffa56b4 sha1 89fa851892bd0f05192c7d79d15aa83668f833cf )
+)
+
+game (
+	name "Disney's Extreme Skate Adventure (Europe)"
+	description "Disney's Extreme Skate Adventure (Europe)"
+	rom ( name "Disney's Extreme Skate Adventure (Europe).iso" size 1459978240 crc 119f3b75 md5 a66e632cea696e5489b724e84d6aec13 sha1 12fc768643018f4f72d8dc36809d6cf34141b956 )
+)
+
+game (
+	name "Disney's Extreme Skate Adventure (Europe) (Es,It)"
+	description "Disney's Extreme Skate Adventure (Europe) (Es,It)"
+	rom ( name "Disney's Extreme Skate Adventure (Europe) (Es,It).iso" size 1459978240 crc 5f08972a md5 1d4b3ec22f4876847a11ff8387fac5f5 sha1 bdb76353026e44619b95e3417d4d5f06e6bd0377 )
+)
+
+game (
+	name "Disney's Extreme Skate Adventure (Europe) (Fr,De)"
+	description "Disney's Extreme Skate Adventure (Europe) (Fr,De)"
+	rom ( name "Disney's Extreme Skate Adventure (Europe) (Fr,De).iso" size 1459978240 crc 3544f0b0 md5 810f4a0f4c2fbde06a5d3355edcf0732 sha1 cc6f87117d4a239ef3328d24b18a757c44ad3a64 )
+)
+
+game (
+	name "Disney's Extreme Skate Adventure (USA)"
+	description "Disney's Extreme Skate Adventure (USA)"
+	rom ( name "Disney's Extreme Skate Adventure (USA).iso" size 1459978240 crc 940c7c23 md5 cbf0b925d7ef55098574f861627f5324 sha1 21d616bebf834bba3fbfb09ea7df27f4d3637c3a )
+)
+
+game (
+	name "Disney's Hide & Sneak (Europe) (En,Fr,De)"
+	description "Disney's Hide & Sneak (Europe) (En,Fr,De)"
+	rom ( name "Disney's Hide & Sneak (Europe) (En,Fr,De).iso" size 1459978240 crc f79900ff md5 ff7f7ba0b516a65c618bc6f136227d72 sha1 be0885c5a5ca6c94e2271d657d52073a23b33f06 )
+)
+
+game (
+	name "Disney's Hide & Sneak (USA)"
+	description "Disney's Hide & Sneak (USA)"
+	rom ( name "Disney's Hide & Sneak (USA).iso" size 1459978240 crc 489321af md5 38c74e0587c845548ecd2269c1d8c232 sha1 d747cbc9e71636490b98fdc26ecad40323a46a08 )
+)
+
+game (
+	name "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It)"
+	description "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Disney's Magical Mirror Starring Mickey Mouse (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc af3fbca8 md5 ab2ac45f906726ff11509556452f38ee sha1 041a3ff4f1e2b405180478f43408ece5a552ba8f )
+)
+
+game (
+	name "Disney's Magical Mirror Starring Mickey Mouse (USA)"
+	description "Disney's Magical Mirror Starring Mickey Mouse (USA)"
+	rom ( name "Disney's Magical Mirror Starring Mickey Mouse (USA).iso" size 1459978240 crc 61f36ffd md5 baf1ffe1b585fa447dce54444e463fc4 sha1 4896cabdedacc60a5d7c74d0aefe1092f56336c5 )
+)
+
+game (
+	name "Disney's Mickey Mouse no Fushigi na Kagami (Japan)"
+	description "Disney's Mickey Mouse no Fushigi na Kagami (Japan)"
+	rom ( name "Disney's Mickey Mouse no Fushigi na Kagami (Japan).iso" size 1459978240 crc 650bbc8c md5 3c6301f69e37f46c9603f1b4541bffb2 sha1 361fe4b288e9ad9f0c338618d0c16114fc4d7a6d )
+)
+
+game (
+	name "Disney's Mickey to Minnie Trick & Chase (Japan)"
+	description "Disney's Mickey to Minnie Trick & Chase (Japan)"
+	rom ( name "Disney's Mickey to Minnie Trick & Chase (Japan).iso" size 1459978240 crc 583d116e md5 ff155ea04cdf72d31bd0e33fbd264ba2 sha1 42b944d1a178ccb396f351f2f456e49503b5f8bd )
+)
+
+game (
+	name "Disney's Party (Europe) (En,Fr,De,Es,It)"
+	description "Disney's Party (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Disney's Party (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 7a5c5be0 md5 780048192af3fe8368e9ce9f5ee197e7 sha1 ff81b366334a61ca4b0ff9b62abe879b6157f4a6 )
+)
+
+game (
+	name "Disney's Party (USA)"
+	description "Disney's Party (USA)"
+	rom ( name "Disney's Party (USA).iso" size 1459978240 crc dcaef127 md5 0b65436787bf060dc8e0333d017ee892 sha1 ce491a27669e84a106be4ad60606b339ba33a280 )
+)
+
+game (
+	name "Disney's Piglet's Big Game (Europe)"
+	description "Disney's Piglet's Big Game (Europe)"
+	rom ( name "Disney's Piglet's Big Game (Europe).iso" size 1459978240 crc 9945cb3d md5 6b0dd0013e48770bf3c541f9f78a7ecd sha1 f187c54cd6e7cf37770ad456e5aa7debfa26aa95 )
+)
+
+game (
+	name "Disney's Piglet's Big Game (USA)"
+	description "Disney's Piglet's Big Game (USA)"
+	rom ( name "Disney's Piglet's Big Game (USA).iso" size 1459978240 crc 03134803 md5 6dcc11dab3bf7fc938163af3681b510f sha1 9cd021bd95b6cc96cc4b81b506f4bf74a56914c1 )
+)
+
+game (
+	name "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It)"
+	description "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It)"
+	rom ( name "Disney's PK - Out of the Shadows (USA) (En,Fr,De,It).iso" size 1459978240 crc da5f53dd md5 f0ffa80667c71ecfdc6d181bc49de7bc sha1 b67f3494c9e403382d0be3985800685e70a8f198 )
+)
+
+game (
+	name "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It)"
+	description "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Disney's Tarzan - Freeride (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 251ad1e8 md5 fbd0cd21a89fde6338cef789c9dab039 sha1 42efd57c2961c5dce5cd9139103168ee15f866c8 )
+)
+
+game (
+	name "Disney's Tarzan - Untamed (USA) (En,Fr)"
+	description "Disney's Tarzan - Untamed (USA) (En,Fr)"
+	rom ( name "Disney's Tarzan - Untamed (USA) (En,Fr).iso" size 1459978240 crc ef54571a md5 b39c6f3e9c0613b3de67344e98a820be sha1 df981e1ccb8fe6bde8991817dbfda4e788e7e8ee )
+)
+
+game (
+	name "Disney's The Haunted Mansion (USA)"
+	description "Disney's The Haunted Mansion (USA)"
+	rom ( name "Disney's The Haunted Mansion (USA).iso" size 1459978240 crc 457b6b08 md5 2082f0d43283addaa4c7cb4fa22aed6f sha1 9e0f4693146295d3705745ebab25354ce6dd9244 )
+)
+
+game (
+	name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl)"
+	rom ( name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (Europe) (En,Fr,De,Es,It,Nl).iso" size 1459978240 crc 27252f80 md5 6eb08cd7bacdcdba5a44cf44a1255b88 sha1 17c2c749dc603a933252c129387339ba5b715a69 )
+)
+
+game (
+	name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es)"
+	description "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es)"
+	rom ( name "Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es).iso" size 1459978240 crc 87234a2b md5 0d256b70d7223dd1608f3706169631a4 sha1 73b2a2c2796faaef5370dff8a8646a14f757b699 )
 )
 
 game (
@@ -2334,6 +2568,12 @@ game (
 )
 
 game (
+	name "Donkey Konga 2 - Hit Song Parade (Japan)"
+	description "Donkey Konga 2 - Hit Song Parade (Japan)"
+	rom ( name "Donkey Konga 2 - Hit Song Parade (Japan).iso" size 1459978240 crc 83d4b6b7 md5 164e01612eb8d3adb45fbb52aec359ee sha1 14f9bb9707509ac794b35e41d352e120ec1b496e )
+)
+
+game (
 	name "Donkey Konga 2 (Europe) (En,Fr,De,Es,It)"
 	description "Donkey Konga 2 (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Donkey Konga 2 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 17badc37 md5 0a7615a21f204628ad30c6b6f9a7242d sha1 e353032678e2583bd8fc80b1a2960e6d40737d3c )
@@ -2343,12 +2583,6 @@ game (
 	name "Donkey Konga 2 (USA)"
 	description "Donkey Konga 2 (USA)"
 	rom ( name "Donkey Konga 2 (USA).iso" size 1459978240 crc 2e31a3de md5 583506969ab42c376309946ebc3f1e40 sha1 0dd09785ccf7ea60b112dcf916ff5d1fc19d9d6d )
-)
-
-game (
-	name "Donkey Konga 2 - Hit Song Parade (Japan)"
-	description "Donkey Konga 2 - Hit Song Parade (Japan)"
-	rom ( name "Donkey Konga 2 - Hit Song Parade (Japan).iso" size 1459978240 crc 83d4b6b7 md5 164e01612eb8d3adb45fbb52aec359ee sha1 14f9bb9707509ac794b35e41d352e120ec1b496e )
 )
 
 game (
@@ -2406,12 +2640,6 @@ game (
 )
 
 game (
-	name "Dragon Ball Z (Japan)"
-	description "Dragon Ball Z (Japan)"
-	rom ( name "Dragon Ball Z (Japan).iso" size 1459978240 crc 5421b026 md5 372abf1c213e848d5cdc7d6259fb51f3 sha1 9d1bfe80a44cf4321729cfef14812294ab62baef )
-)
-
-game (
 	name "Dragon Ball Z - Budokai (Europe) (En,Fr,De,Es,It)"
 	description "Dragon Ball Z - Budokai (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Dragon Ball Z - Budokai (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc a4997206 md5 e71d45b8177be0ec49af721b5f1c17ce sha1 a3c82ef95802ac9c7af7d028867b1848d9ed2a65 )
@@ -2442,15 +2670,21 @@ game (
 )
 
 game (
-	name "Dragon Drive - D-Masters Shot (Japan) (Anime Disc)"
-	description "Dragon Drive - D-Masters Shot (Japan) (Anime Disc)"
-	rom ( name "Dragon Drive - D-Masters Shot (Japan) (Anime Disc).iso" size 1459978240 crc da779b93 md5 b7ca67e05bfa9246097cac03b41aad60 sha1 e9ecd2a7b0d92b5e72d72c24fa4671d17dd2f5be )
+	name "Dragon Ball Z (Japan)"
+	description "Dragon Ball Z (Japan)"
+	rom ( name "Dragon Ball Z (Japan).iso" size 1459978240 crc 5421b026 md5 372abf1c213e848d5cdc7d6259fb51f3 sha1 9d1bfe80a44cf4321729cfef14812294ab62baef )
 )
 
 game (
 	name "Dragon Drive - D-Masters Shot (Japan)"
 	description "Dragon Drive - D-Masters Shot (Japan)"
 	rom ( name "Dragon Drive - D-Masters Shot (Japan).iso" size 1459978240 crc d8613785 md5 d8787a0d516dec5991198610e38296d7 sha1 20a2d9a8e2cfb7cc3ed97e2e4b2de45ebe81e2bd )
+)
+
+game (
+	name "Dragon Drive - D-Masters Shot (Japan) (Anime Disc)"
+	description "Dragon Drive - D-Masters Shot (Japan) (Anime Disc)"
+	rom ( name "Dragon Drive - D-Masters Shot (Japan) (Anime Disc).iso" size 1459978240 crc da779b93 md5 b7ca67e05bfa9246097cac03b41aad60 sha1 e9ecd2a7b0d92b5e72d72c24fa4671d17dd2f5be )
 )
 
 game (
@@ -2598,15 +2832,15 @@ game (
 )
 
 game (
-	name "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It)"
-	description "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It)"
-	rom ( name "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It).iso" size 1459978240 crc 2bd507c3 md5 ebba8aebda5b68c144c14800ecc3343b sha1 8bdd081ca2c49254b45eb615eeefe0eabb19a281 )
-)
-
-game (
 	name "DreamWorks Shrek - SuperSlam (Europe)"
 	description "DreamWorks Shrek - SuperSlam (Europe)"
 	rom ( name "DreamWorks Shrek - SuperSlam (Europe).iso" size 1459978240 crc a5b27ee8 md5 0b82f430bcf48b84819e2e4b676444d3 sha1 387ce067f0dcbc8bde76d1a0c4a9f60b39fd2d69 )
+)
+
+game (
+	name "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It)"
+	description "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It)"
+	rom ( name "DreamWorks Shrek - SuperSlam (Europe) (En,Fr,Es,It).iso" size 1459978240 crc 2bd507c3 md5 ebba8aebda5b68c144c14800ecc3343b sha1 8bdd081ca2c49254b45eb615eeefe0eabb19a281 )
 )
 
 game (
@@ -2649,24 +2883,6 @@ game (
 	name "Duel Masters Nettou! Battle Arena (Japan)"
 	description "Duel Masters Nettou! Battle Arena (Japan)"
 	rom ( name "Duel Masters Nettou! Battle Arena (Japan).iso" size 1459978240 crc 083490ef md5 a90d05d08e14a4c8fbdd7dd2a9866177 sha1 2719818be042f40578249b7cb3c03f54f244de80 )
-)
-
-game (
-	name "ESPN International Winter Sports (Europe) (En,Fr,De,It)"
-	description "ESPN International Winter Sports (Europe) (En,Fr,De,It)"
-	rom ( name "ESPN International Winter Sports (Europe) (En,Fr,De,It).iso" size 1459978240 crc 6709e88e md5 e04c90b9debf16a07e8c7b026cf0b3ba sha1 09755604b9360f5133afc4c8d995b8c22483614f )
-)
-
-game (
-	name "ESPN International Winter Sports 2002 (USA)"
-	description "ESPN International Winter Sports 2002 (USA)"
-	rom ( name "ESPN International Winter Sports 2002 (USA).iso" size 1459978240 crc 6f3bc227 md5 165bc0683c3bb5044016f149dc17b23a sha1 22a9dd9b0480e9926b488dd98f3d0b7ec9aaac61 )
-)
-
-game (
-	name "ESPN MLS ExtraTime 2002 (USA)"
-	description "ESPN MLS ExtraTime 2002 (USA)"
-	rom ( name "ESPN MLS ExtraTime 2002 (USA).iso" size 1459978240 crc d16f9ed3 md5 9b09ba9faf2739e0cb6a0b6d6e2ab135 sha1 b0f76a6236acb9b8bc24ae0d3c4b4a7469e3bbf7 )
 )
 
 game (
@@ -2745,6 +2961,24 @@ game (
 	name "Enter the Matrix (USA) (Disc 2)"
 	description "Enter the Matrix (USA) (Disc 2)"
 	rom ( name "Enter the Matrix (USA) (Disc 2).iso" size 1459978240 crc 65531d54 md5 f9f269c53b1f0c60d970667d4209acd9 sha1 947fd35cac720507d85c32c5a2017d8ba5352d9c )
+)
+
+game (
+	name "ESPN International Winter Sports (Europe) (En,Fr,De,It)"
+	description "ESPN International Winter Sports (Europe) (En,Fr,De,It)"
+	rom ( name "ESPN International Winter Sports (Europe) (En,Fr,De,It).iso" size 1459978240 crc 6709e88e md5 e04c90b9debf16a07e8c7b026cf0b3ba sha1 09755604b9360f5133afc4c8d995b8c22483614f )
+)
+
+game (
+	name "ESPN International Winter Sports 2002 (USA)"
+	description "ESPN International Winter Sports 2002 (USA)"
+	rom ( name "ESPN International Winter Sports 2002 (USA).iso" size 1459978240 crc 6f3bc227 md5 165bc0683c3bb5044016f149dc17b23a sha1 22a9dd9b0480e9926b488dd98f3d0b7ec9aaac61 )
+)
+
+game (
+	name "ESPN MLS ExtraTime 2002 (USA)"
+	description "ESPN MLS ExtraTime 2002 (USA)"
+	rom ( name "ESPN MLS ExtraTime 2002 (USA).iso" size 1459978240 crc d16f9ed3 md5 9b09ba9faf2739e0cb6a0b6d6e2ab135 sha1 b0f76a6236acb9b8bc24ae0d3c4b4a7469e3bbf7 )
 )
 
 game (
@@ -2853,6 +3087,60 @@ game (
 	name "F1 Career Challenge (Europe) (En,Fr,De,It)"
 	description "F1 Career Challenge (Europe) (En,Fr,De,It)"
 	rom ( name "F1 Career Challenge (Europe) (En,Fr,De,It).iso" size 1459978240 crc 361f47d5 md5 21991c0ba6184a4fd75f5af3b911be4f sha1 5999f5bd5bf793dddf0326e7a14b60379173b5bc )
+)
+
+game (
+	name "Fairly OddParents, The - Breakin' da Rules (USA)"
+	description "Fairly OddParents, The - Breakin' da Rules (USA)"
+	rom ( name "Fairly OddParents, The - Breakin' da Rules (USA).iso" size 1459978240 crc 2f1368f6 md5 b5052ea184d3b725473e503b66d485ea sha1 2b5591f7dce9950e635b49c17dd8b2e9ae5edcf2 )
+)
+
+game (
+	name "Fairly OddParents, The - Shadow Showdown (USA)"
+	description "Fairly OddParents, The - Shadow Showdown (USA)"
+	rom ( name "Fairly OddParents, The - Shadow Showdown (USA).iso" size 1459978240 crc 97194e38 md5 949e22308c8d269245f1fc66076fbeea sha1 6db97025f9d7aad45b9ceb8049cdfb93895e9358 )
+)
+
+game (
+	name "Family Stadium 2003 (Japan)"
+	description "Family Stadium 2003 (Japan)"
+	rom ( name "Family Stadium 2003 (Japan).iso" size 1459978240 crc 69b9e609 md5 d6fe5f8e1b6c915c6812b073ac23aada sha1 d49244a31f95a77c296fba70b8b6550b7e017efc )
+)
+
+game (
+	name "Fantastic 4 (Europe)"
+	description "Fantastic 4 (Europe)"
+	rom ( name "Fantastic 4 (Europe).iso" size 1459978240 crc f621dcbd md5 7458fabc0e0e4cbf0f185d3185378038 sha1 ebea8ffe65e257988075347c669f91fd5843d72b )
+)
+
+game (
+	name "Fantastic 4 (Germany)"
+	description "Fantastic 4 (Germany)"
+	rom ( name "Fantastic 4 (Germany).iso" size 1459978240 crc c57a318d md5 2d64888fc0fa8d48bc7b3a4bf6701e8e sha1 69248a75267c4256309c04a58323a2c6236afa92 )
+)
+
+game (
+	name "Fantastic 4 (Netherlands)"
+	description "Fantastic 4 (Netherlands)"
+	rom ( name "Fantastic 4 (Netherlands).iso" size 1459978240 crc bb91f33d md5 1db6f3e8e3e00ea03eb69d6e99e58900 sha1 fe85e12193472254399104ca457a7e9ab554988b )
+)
+
+game (
+	name "Fantastic 4 (Spain)"
+	description "Fantastic 4 (Spain)"
+	rom ( name "Fantastic 4 (Spain).iso" size 1459978240 crc 167a9ca6 md5 a21ac401f25789a8b33f70cfe1e6c5df sha1 1925072630a0ac8f51e5f15403ff8deee9f22b3e )
+)
+
+game (
+	name "Fantastic 4 (USA)"
+	description "Fantastic 4 (USA)"
+	rom ( name "Fantastic 4 (USA).iso" size 1459978240 crc 68ae5965 md5 eea5a284c44699068824b60882768c5e sha1 c8e2fbdd6cee241a1847bb64f572af85759848b0 )
+)
+
+game (
+	name "Fantastici 4, I (Italy)"
+	description "Fantastici 4, I (Italy)"
+	rom ( name "Fantastici 4, I (Italy).iso" size 1459978240 crc 9afbee92 md5 46c998d7cf5078afd4f6fba345cd16bc sha1 407dfed33f32da01d52512eb2d7d0a0ae58da4d4 )
 )
 
 game (
@@ -3044,7 +3332,7 @@ game (
 game (
 	name "FIFA Soccer 2003 (USA)"
 	description "FIFA Soccer 2003 (USA)"
-	rom ( name "FIFA Soccer 2003 (USA).iso" size 1459978240 crc b6e52a67 md5 805d8c85f25bed24cc030a2369315afa sha1 ef1910c48953f724c69e5b5240a2727f6a72bca9 )
+	rom ( name "FIFA Soccer 2003 (USA).iso" size 1459978240 crc 8c59699f md5 9e2f6a7432ea89fbc7b928671f4db904 sha1 af829d3e118131a9dc133d8d5e06ba555bd94b6b )
 )
 
 game (
@@ -3099,60 +3387,6 @@ game (
 	name "FIFA World Cup Germany 2006 (USA)"
 	description "FIFA World Cup Germany 2006 (USA)"
 	rom ( name "FIFA World Cup Germany 2006 (USA).iso" size 1459978240 crc 89b553bf md5 164d1527b93dad57252c61fa77f17c27 sha1 5a5ffb1ff4c170de89e988a430dcd55b0011a474 )
-)
-
-game (
-	name "Fairly OddParents, The - Breakin' da Rules (USA)"
-	description "Fairly OddParents, The - Breakin' da Rules (USA)"
-	rom ( name "Fairly OddParents, The - Breakin' da Rules (USA).iso" size 1459978240 crc 2f1368f6 md5 b5052ea184d3b725473e503b66d485ea sha1 2b5591f7dce9950e635b49c17dd8b2e9ae5edcf2 )
-)
-
-game (
-	name "Fairly OddParents, The - Shadow Showdown (USA)"
-	description "Fairly OddParents, The - Shadow Showdown (USA)"
-	rom ( name "Fairly OddParents, The - Shadow Showdown (USA).iso" size 1459978240 crc 97194e38 md5 949e22308c8d269245f1fc66076fbeea sha1 6db97025f9d7aad45b9ceb8049cdfb93895e9358 )
-)
-
-game (
-	name "Family Stadium 2003 (Japan)"
-	description "Family Stadium 2003 (Japan)"
-	rom ( name "Family Stadium 2003 (Japan).iso" size 1459978240 crc 69b9e609 md5 d6fe5f8e1b6c915c6812b073ac23aada sha1 d49244a31f95a77c296fba70b8b6550b7e017efc )
-)
-
-game (
-	name "Fantastic 4 (Europe)"
-	description "Fantastic 4 (Europe)"
-	rom ( name "Fantastic 4 (Europe).iso" size 1459978240 crc f621dcbd md5 7458fabc0e0e4cbf0f185d3185378038 sha1 ebea8ffe65e257988075347c669f91fd5843d72b )
-)
-
-game (
-	name "Fantastic 4 (Germany)"
-	description "Fantastic 4 (Germany)"
-	rom ( name "Fantastic 4 (Germany).iso" size 1459978240 crc c57a318d md5 2d64888fc0fa8d48bc7b3a4bf6701e8e sha1 69248a75267c4256309c04a58323a2c6236afa92 )
-)
-
-game (
-	name "Fantastic 4 (Netherlands)"
-	description "Fantastic 4 (Netherlands)"
-	rom ( name "Fantastic 4 (Netherlands).iso" size 1459978240 crc bb91f33d md5 1db6f3e8e3e00ea03eb69d6e99e58900 sha1 fe85e12193472254399104ca457a7e9ab554988b )
-)
-
-game (
-	name "Fantastic 4 (Spain)"
-	description "Fantastic 4 (Spain)"
-	rom ( name "Fantastic 4 (Spain).iso" size 1459978240 crc 167a9ca6 md5 a21ac401f25789a8b33f70cfe1e6c5df sha1 1925072630a0ac8f51e5f15403ff8deee9f22b3e )
-)
-
-game (
-	name "Fantastic 4 (USA)"
-	description "Fantastic 4 (USA)"
-	rom ( name "Fantastic 4 (USA).iso" size 1459978240 crc 68ae5965 md5 eea5a284c44699068824b60882768c5e sha1 c8e2fbdd6cee241a1847bb64f572af85759848b0 )
-)
-
-game (
-	name "Fantastici 4, I (Italy)"
-	description "Fantastici 4, I (Italy)"
-	rom ( name "Fantastici 4, I (Italy).iso" size 1459978240 crc 9afbee92 md5 46c998d7cf5078afd4f6fba345cd16bc sha1 407dfed33f32da01d52512eb2d7d0a0ae58da4d4 )
 )
 
 game (
@@ -3240,12 +3474,6 @@ game (
 )
 
 game (
-	name "FreeLoader for GameCube (Europe) (Unl)"
-	description "FreeLoader for GameCube (Europe) (Unl)"
-	rom ( name "FreeLoader for GameCube (Europe) (Unl).iso" size 1459978240 crc cd1d9d4b md5 36125f88444d13d20fa9adf625fe3dd6 sha1 4206af8814e7853807a24473f4199c1a70371605 )
-)
-
-game (
 	name "Freedom Fighters (Europe)"
 	description "Freedom Fighters (Europe)"
 	rom ( name "Freedom Fighters (Europe).iso" size 1459978240 crc 9cc5b41e md5 9c9324ff9ee6e79bebe2e39b41de5eb8 sha1 2a09f9f07e0bbd6ef35d8942241de952f370ebb8 )
@@ -3282,6 +3510,18 @@ game (
 )
 
 game (
+	name "FreeLoader for GameCube (Europe) (Unl)"
+	description "FreeLoader for GameCube (Europe) (Unl)"
+	rom ( name "FreeLoader for GameCube (Europe) (Unl).iso" size 1459978240 crc cd1d9d4b md5 36125f88444d13d20fa9adf625fe3dd6 sha1 4206af8814e7853807a24473f4199c1a70371605 )
+)
+
+game (
+	name "FreeLoader for GameCube (Europe) (Unl) (Version 1.06)"
+	description "FreeLoader for GameCube (Europe) (Unl) (Version 1.06)"
+	rom ( name "FreeLoader for GameCube (Europe) (Unl) (Version 1.06).iso" size 1459978240 crc 7e80c1b9 md5 92ee4870ef12f5fdc5ad106ffe5ed177 sha1 c74183c91d1667904423373c54a977f3f4909647 )
+)
+
+game (
 	name "Freestyle Metal X (USA)"
 	description "Freestyle Metal X (USA)"
 	rom ( name "Freestyle Metal X (USA).iso" size 1459978240 crc 7b59a773 md5 56d73e3be3a25cd080302519970c41c2 sha1 ee6d2787f8809e61d41e94eac12efe255c1ff6b9 )
@@ -3294,15 +3534,15 @@ game (
 )
 
 game (
-	name "Frogger (Japan)"
-	description "Frogger (Japan)"
-	rom ( name "Frogger (Japan).iso" size 1459978240 crc d42140e1 md5 ef21cc212ea6e44f5fe442852cd90824 sha1 6b3b04b5fb9dad8c311040d9676a0af4ceff54d4 )
-)
-
-game (
 	name "Frogger - Ancient Shadow (USA) (En,Es)"
 	description "Frogger - Ancient Shadow (USA) (En,Es)"
 	rom ( name "Frogger - Ancient Shadow (USA) (En,Es).iso" size 1459978240 crc 232ffdd4 md5 e5efb0529b5daa067bae5e024aa5f857 sha1 550da76aea8fb869751e164fb4a3d38f80728761 )
+)
+
+game (
+	name "Frogger (Japan)"
+	description "Frogger (Japan)"
+	rom ( name "Frogger (Japan).iso" size 1459978240 crc d42140e1 md5 ef21cc212ea6e44f5fe442852cd90824 sha1 6b3b04b5fb9dad8c311040d9676a0af4ceff54d4 )
 )
 
 game (
@@ -3342,18 +3582,6 @@ game (
 )
 
 game (
-	name "GT Cube (Japan) (v1.00)"
-	description "GT Cube (Japan) (v1.00)"
-	rom ( name "GT Cube (Japan) (v1.00).iso" size 1459978240 crc 9d548e41 md5 c597b036def037e7f35013aa50ffcaea sha1 49e6a3ca391ae5870171f50c08be0df4985e7522 )
-)
-
-game (
-	name "GT Cube (Japan) (v1.01)"
-	description "GT Cube (Japan) (v1.01)"
-	rom ( name "GT Cube (Japan) (v1.01).iso" size 1459978240 crc 7db76a36 md5 cec9a83e85844b1c386d62f58701c8e2 sha1 1efc45640d2394f489833b3a9ee82f0b4124567c )
-)
-
-game (
 	name "Gadget Racers (Europe) (En,Fr,De,Es,It)"
 	description "Gadget Racers (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Gadget Racers (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc e04a0eba md5 c7945229eefae34dc586af3dbc01634a sha1 a7edbc83364c164ebc06cfa420fec7ddbee8a7b6 )
@@ -3366,15 +3594,15 @@ game (
 )
 
 game (
-	name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01)"
-	description "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01)"
-	rom ( name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01).iso" size 1459978240 crc 5ecd9681 md5 019a4ebb28d180d1a734ee011cea1ca7 sha1 f8ac4741e85de70d9e96922a93dfb28edc45161f )
-)
-
-game (
 	name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It,Nl) (v1.02)"
 	description "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It,Nl) (v1.02)"
 	rom ( name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It,Nl) (v1.02).iso" size 1459978240 crc 1e26380c md5 a064265997d2e5b378793a45e18e48b7 sha1 ede1fb4415e68f948e5febe93aa01c90a05f0a59 )
+)
+
+game (
+	name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01)"
+	description "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01)"
+	rom ( name "Game Boy Player Start-Up Disc (Europe) (En,Fr,De,Es,It) (v1.01).iso" size 1459978240 crc 5ecd9681 md5 019a4ebb28d180d1a734ee011cea1ca7 sha1 f8ac4741e85de70d9e96922a93dfb28edc45161f )
 )
 
 game (
@@ -3393,6 +3621,12 @@ game (
 	name "Game Boy Player Start-Up Disc (Japan) (v1.03)"
 	description "Game Boy Player Start-Up Disc (Japan) (v1.03)"
 	rom ( name "Game Boy Player Start-Up Disc (Japan) (v1.03).iso" size 1459978240 crc dff567cb md5 add4733c48c596619df27b36a4a499f3 sha1 1040b0508ee01e00d5bf1b71d9e830f0f761c0f7 )
+)
+
+game (
+	name "Game Boy Player Start-Up Disc (Korea)"
+	description "Game Boy Player Start-Up Disc (Korea)"
+	rom ( name "Game Boy Player Start-Up Disc (Korea).iso" size 1459978240 crc 1e6560ed md5 8e2c412fe5ba846ca2286c09538bde7f sha1 cc8847687fde26619b50953c6093ff3570811560 )
 )
 
 game (
@@ -3441,6 +3675,12 @@ game (
 	name "Gekitou Pro Yakyuu - Mizushima Shinji All Stars vs. Pro Yakyuu (Japan)"
 	description "Gekitou Pro Yakyuu - Mizushima Shinji All Stars vs. Pro Yakyuu (Japan)"
 	rom ( name "Gekitou Pro Yakyuu - Mizushima Shinji All Stars vs. Pro Yakyuu (Japan).iso" size 1459978240 crc 1758503b md5 07227b055bbeb7868d5d960250606460 sha1 66c33dd39d28fe7f0a33d4a96f4c5a4e12e19e07 )
+)
+
+game (
+	name "Gekkan Nintendo Tentou Demo 2002.10.1 (Japan)"
+	description "Gekkan Nintendo Tentou Demo 2002.10.1 (Japan)"
+	rom ( name "Gekkan Nintendo Tentou Demo 2002.10.1 (Japan).iso" size 1459978240 crc 182f38eb md5 a4dfc6f5ea073c5c29fcf776130e6945 sha1 800c6a94ba4e15a053bf974d33623ffff5804fd8 )
 )
 
 game (
@@ -3510,6 +3750,12 @@ game (
 )
 
 game (
+	name "Gekkan Nintendo Tentou Demo 2006.4.1 (Japan)"
+	description "Gekkan Nintendo Tentou Demo 2006.4.1 (Japan)"
+	rom ( name "Gekkan Nintendo Tentou Demo 2006.4.1 (Japan).iso" size 1459978240 crc e3d27b56 md5 888b58dc49e10457c301f666de6e09cf sha1 5e16b92a44deb4d8fc4e8ca6347821f127410ff9 )
+)
+
+game (
 	name "Generation of Chaos Exceed - Yami no Koujo Roze (Japan)"
 	description "Generation of Chaos Exceed - Yami no Koujo Roze (Japan)"
 	rom ( name "Generation of Chaos Exceed - Yami no Koujo Roze (Japan).iso" size 1459978240 crc a02c9488 md5 10ebf8122d7f51bbf6e02e4e913ded40 sha1 9231f18a0f51c09ff8a13ec3e9d779e7d49e50ca )
@@ -3531,6 +3777,12 @@ game (
 	name "Gladius (Europe) (En,Es,It)"
 	description "Gladius (Europe) (En,Es,It)"
 	rom ( name "Gladius (Europe) (En,Es,It).iso" size 1459978240 crc b52a7368 md5 4e7f13f4599bc2f49db4e24e5269528a sha1 29bec8c0c44674edac8ed9b4852968816ef1861a )
+)
+
+game (
+	name "Gladius (France)"
+	description "Gladius (France)"
+	rom ( name "Gladius (France).iso" size 1459978240 crc 7af9ec4e md5 85175dc79e70b382229c3a5520d2bb6c sha1 e8dbbaedae332b02db9a968c021dd19b071704d7 )
 )
 
 game (
@@ -3690,6 +3942,18 @@ game (
 )
 
 game (
+	name "GT Cube (Japan) (v1.00)"
+	description "GT Cube (Japan) (v1.00)"
+	rom ( name "GT Cube (Japan) (v1.00).iso" size 1459978240 crc 9d548e41 md5 c597b036def037e7f35013aa50ffcaea sha1 49e6a3ca391ae5870171f50c08be0df4985e7522 )
+)
+
+game (
+	name "GT Cube (Japan) (v1.01)"
+	description "GT Cube (Japan) (v1.01)"
+	rom ( name "GT Cube (Japan) (v1.01).iso" size 1459978240 crc 7db76a36 md5 cec9a83e85844b1c386d62f58701c8e2 sha1 1efc45640d2394f489833b3a9ee82f0b4124567c )
+)
+
+game (
 	name "Gun (Europe) (En,Fr,Es,It)"
 	description "Gun (Europe) (En,Fr,Es,It)"
 	rom ( name "Gun (Europe) (En,Fr,Es,It).iso" size 1459978240 crc aa652d0d md5 fa092e0701f2c02bca4d614ee74e073b sha1 cd3674a6537b4f50cbbc4533e354288c7ae11318 )
@@ -3738,6 +4002,12 @@ game (
 )
 
 game (
+	name "Harry Potter and the Chamber of Secrets (Europe)"
+	description "Harry Potter and the Chamber of Secrets (Europe)"
+	rom ( name "Harry Potter and the Chamber of Secrets (Europe).iso" size 1459978240 crc 97d0fbb3 md5 2e0df737435beb701c77672d7e80e113 sha1 92c7119517cd53c75a7c13f302951b53810e2c2c )
+)
+
+game (
 	name "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De)"
 	description "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De)"
 	rom ( name "Harry Potter and the Chamber of Secrets (Europe) (En,Fr,De).iso" size 1459978240 crc e97541b4 md5 d1c41b717ea84f7cefd8157591665ec0 sha1 5cfc262cfe3f0bb06417b42ada960b7cddbbb948 )
@@ -3747,12 +4017,6 @@ game (
 	name "Harry Potter and the Chamber of Secrets (Europe) (Es,It,Pt)"
 	description "Harry Potter and the Chamber of Secrets (Europe) (Es,It,Pt)"
 	rom ( name "Harry Potter and the Chamber of Secrets (Europe) (Es,It,Pt).iso" size 1459978240 crc ea3a774b md5 a93940325551e194cb844b01ee58ce87 sha1 8d1f052bee04e1b0696b85cb65fb2177077292c8 )
-)
-
-game (
-	name "Harry Potter and the Chamber of Secrets (Europe)"
-	description "Harry Potter and the Chamber of Secrets (Europe)"
-	rom ( name "Harry Potter and the Chamber of Secrets (Europe).iso" size 1459978240 crc 97d0fbb3 md5 2e0df737435beb701c77672d7e80e113 sha1 92c7119517cd53c75a7c13f302951b53810e2c2c )
 )
 
 game (
@@ -3828,15 +4092,15 @@ game (
 )
 
 game (
-	name "Harry Potter en de Vuurbeker (Netherlands)"
-	description "Harry Potter en de Vuurbeker (Netherlands)"
-	rom ( name "Harry Potter en de Vuurbeker (Netherlands).iso" size 1459978240 crc d169b5cc md5 8fd35136abd95c7d8a244d86276a6636 sha1 1462b833667c15aa0914b6e5b73cd2b5244466b2 )
-)
-
-game (
 	name "Harry Potter en de gevangene van Azkaban (Netherlands)"
 	description "Harry Potter en de gevangene van Azkaban (Netherlands)"
 	rom ( name "Harry Potter en de gevangene van Azkaban (Netherlands).iso" size 1459978240 crc 87b6039c md5 f28f08b06bc8972ef4cfa7f8a05d3f33 sha1 6a37241895fa091a2136e753ed43cf7f3cc1c907 )
+)
+
+game (
+	name "Harry Potter en de Vuurbeker (Netherlands)"
+	description "Harry Potter en de Vuurbeker (Netherlands)"
+	rom ( name "Harry Potter en de Vuurbeker (Netherlands).iso" size 1459978240 crc d169b5cc md5 8fd35136abd95c7d8a244d86276a6636 sha1 1462b833667c15aa0914b6e5b73cd2b5244466b2 )
 )
 
 game (
@@ -4614,27 +4878,27 @@ game (
 )
 
 game (
-	name "Jikkyou Powerful Pro Yakyuu 12 (Japan)"
-	description "Jikkyou Powerful Pro Yakyuu 12 (Japan)"
-	rom ( name "Jikkyou Powerful Pro Yakyuu 12 (Japan).iso" size 1459978240 crc a7ac5df7 md5 bb6614e6d71023d46d38e5837ffc292f sha1 bb098b38999f6c11f106a6f60a56ff1b76d0eb11 )
-)
-
-game (
 	name "Jikkyou Powerful Pro Yakyuu 12 - Ketteiban (Japan)"
 	description "Jikkyou Powerful Pro Yakyuu 12 - Ketteiban (Japan)"
 	rom ( name "Jikkyou Powerful Pro Yakyuu 12 - Ketteiban (Japan).iso" size 1459978240 crc 16faa65b md5 619dde16ed7122838308d8f9aeb3189d sha1 b0ef8d0fb9be2a17ac98ff91381ccfb0ee0f6e53 )
 )
 
 game (
-	name "Jikkyou Powerful Pro Yakyuu 9 (Japan)"
-	description "Jikkyou Powerful Pro Yakyuu 9 (Japan)"
-	rom ( name "Jikkyou Powerful Pro Yakyuu 9 (Japan).iso" size 1459978240 crc 9b7268c4 md5 0fc7781da7dd28303c0b3cd1f0f0391e sha1 8a029784b41819d54944a3f1d449db6177c36ec4 )
+	name "Jikkyou Powerful Pro Yakyuu 12 (Japan)"
+	description "Jikkyou Powerful Pro Yakyuu 12 (Japan)"
+	rom ( name "Jikkyou Powerful Pro Yakyuu 12 (Japan).iso" size 1459978240 crc a7ac5df7 md5 bb6614e6d71023d46d38e5837ffc292f sha1 bb098b38999f6c11f106a6f60a56ff1b76d0eb11 )
 )
 
 game (
 	name "Jikkyou Powerful Pro Yakyuu 9 - Ketteiban (Japan)"
 	description "Jikkyou Powerful Pro Yakyuu 9 - Ketteiban (Japan)"
 	rom ( name "Jikkyou Powerful Pro Yakyuu 9 - Ketteiban (Japan).iso" size 1459978240 crc fa09af6e md5 4c792871f66087b7a397d945f5a94576 sha1 4e6008eed0186043fe9caa6778cf1679d513e072 )
+)
+
+game (
+	name "Jikkyou Powerful Pro Yakyuu 9 (Japan)"
+	description "Jikkyou Powerful Pro Yakyuu 9 (Japan)"
+	rom ( name "Jikkyou Powerful Pro Yakyuu 9 (Japan).iso" size 1459978240 crc 9b7268c4 md5 0fc7781da7dd28303c0b3cd1f0f0391e sha1 8a029784b41819d54944a3f1d449db6177c36ec4 )
 )
 
 game (
@@ -4686,15 +4950,15 @@ game (
 )
 
 game (
-	name "Kelly Slater's Pro Surfer (Europe) (En,Fr,De)"
-	description "Kelly Slater's Pro Surfer (Europe) (En,Fr,De)"
-	rom ( name "Kelly Slater's Pro Surfer (Europe) (En,Fr,De).iso" size 1459978240 crc b4709cc4 md5 98648830ef3683fba4f526aaded05367 sha1 d7bb0317eefe3f10aba10531e6f1a7b09fb2ae2e )
-)
-
-game (
 	name "Kelly Slater's Pro Surfer (Europe)"
 	description "Kelly Slater's Pro Surfer (Europe)"
 	rom ( name "Kelly Slater's Pro Surfer (Europe).iso" size 1459978240 crc 81976bf2 md5 4b7e77ec727d0659955967c827f889bb sha1 9890a8804b8edab23839c708affe969d611752d1 )
+)
+
+game (
+	name "Kelly Slater's Pro Surfer (Europe) (En,Fr,De)"
+	description "Kelly Slater's Pro Surfer (Europe) (En,Fr,De)"
+	rom ( name "Kelly Slater's Pro Surfer (Europe) (En,Fr,De).iso" size 1459978240 crc b4709cc4 md5 98648830ef3683fba4f526aaded05367 sha1 d7bb0317eefe3f10aba10531e6f1a7b09fb2ae2e )
 )
 
 game (
@@ -4728,39 +4992,39 @@ game (
 )
 
 game (
-	name "Killer 7 (Europe) (En,Fr,De) (Disc 1)"
-	description "Killer 7 (Europe) (En,Fr,De) (Disc 1)"
-	rom ( name "Killer 7 (Europe) (En,Fr,De) (Disc 1).iso" size 1459978240 crc 77aec1e7 md5 b55ca1e15ea751501a9fb684b6f1a6a3 sha1 c0320797013ff9e3bc2bf703a6e30357aa31c056 )
+	name "Killer7 (Europe) (En,Fr,De) (Disc 1)"
+	description "Killer7 (Europe) (En,Fr,De) (Disc 1)"
+	rom ( name "Killer7 (Europe) (En,Fr,De) (Disc 1).iso" size 1459978240 crc 77aec1e7 md5 b55ca1e15ea751501a9fb684b6f1a6a3 sha1 c0320797013ff9e3bc2bf703a6e30357aa31c056 )
 )
 
 game (
-	name "Killer 7 (Europe) (En,Fr,De) (Disc 2)"
-	description "Killer 7 (Europe) (En,Fr,De) (Disc 2)"
-	rom ( name "Killer 7 (Europe) (En,Fr,De) (Disc 2).iso" size 1459978240 crc c0a57674 md5 fda1f2fa62b0a0999f94471f56a662a3 sha1 7bcc386ee8dbb85a0a9b241e69c2189459049311 )
+	name "Killer7 (Europe) (En,Fr,De) (Disc 2)"
+	description "Killer7 (Europe) (En,Fr,De) (Disc 2)"
+	rom ( name "Killer7 (Europe) (En,Fr,De) (Disc 2).iso" size 1459978240 crc c0a57674 md5 fda1f2fa62b0a0999f94471f56a662a3 sha1 7bcc386ee8dbb85a0a9b241e69c2189459049311 )
 )
 
 game (
-	name "Killer 7 (Japan) (Disc 1)"
-	description "Killer 7 (Japan) (Disc 1)"
-	rom ( name "Killer 7 (Japan) (Disc 1).iso" size 1459978240 crc f5b8313f md5 705faf2118e0f456ae7866024577a7f3 sha1 75480f110b642ccc469914528edaf762161d5717 )
+	name "Killer7 (Japan) (Disc 1)"
+	description "Killer7 (Japan) (Disc 1)"
+	rom ( name "Killer7 (Japan) (Disc 1).iso" size 1459978240 crc f5b8313f md5 705faf2118e0f456ae7866024577a7f3 sha1 75480f110b642ccc469914528edaf762161d5717 )
 )
 
 game (
-	name "Killer 7 (Japan) (Disc 2)"
-	description "Killer 7 (Japan) (Disc 2)"
-	rom ( name "Killer 7 (Japan) (Disc 2).iso" size 1459978240 crc d24ac1b5 md5 c6efb28197fa52eb76d3ba877770f63b sha1 19daec84a3ded20ff3e9aa8abd05d9278ead6719 )
+	name "Killer7 (Japan) (Disc 2)"
+	description "Killer7 (Japan) (Disc 2)"
+	rom ( name "Killer7 (Japan) (Disc 2).iso" size 1459978240 crc d24ac1b5 md5 c6efb28197fa52eb76d3ba877770f63b sha1 19daec84a3ded20ff3e9aa8abd05d9278ead6719 )
 )
 
 game (
-	name "Killer 7 (USA) (Disc 1)"
-	description "Killer 7 (USA) (Disc 1)"
-	rom ( name "Killer 7 (USA) (Disc 1).iso" size 1459978240 crc 64f21d40 md5 4cdb132c4ab2d95b9095fdb1647e9636 sha1 20d7c2a1b7f156c671166d3d552ad4645fa0c3d7 )
+	name "Killer7 (USA) (Disc 1)"
+	description "Killer7 (USA) (Disc 1)"
+	rom ( name "Killer7 (USA) (Disc 1).iso" size 1459978240 crc 64f21d40 md5 4cdb132c4ab2d95b9095fdb1647e9636 sha1 20d7c2a1b7f156c671166d3d552ad4645fa0c3d7 )
 )
 
 game (
-	name "Killer 7 (USA) (Disc 2)"
-	description "Killer 7 (USA) (Disc 2)"
-	rom ( name "Killer 7 (USA) (Disc 2).iso" size 1459978240 crc 3d830b55 md5 58a84314ef4ccf17bd118a03009f93ad sha1 6c3aad4b78364b8c2c18241650783128dc1d0dbe )
+	name "Killer7 (USA) (Disc 2)"
+	description "Killer7 (USA) (Disc 2)"
+	rom ( name "Killer7 (USA) (Disc 2).iso" size 1459978240 crc 3d830b55 md5 58a84314ef4ccf17bd118a03009f93ad sha1 6c3aad4b78364b8c2c18241650783128dc1d0dbe )
 )
 
 game (
@@ -4851,42 +5115,6 @@ game (
 	name "Kyojin no Doshin (Japan)"
 	description "Kyojin no Doshin (Japan)"
 	rom ( name "Kyojin no Doshin (Japan).iso" size 1459978240 crc 21fc1ca2 md5 e50ae224bae53b9c139b8c04bd61dc9c sha1 832a2845a1a0d1320dace4caed4df0ca01e44c95 )
-)
-
-game (
-	name "LEGO Star Wars - The Video Game (Europe) (Fr,De)"
-	description "LEGO Star Wars - The Video Game (Europe) (Fr,De)"
-	rom ( name "LEGO Star Wars - The Video Game (Europe) (Fr,De).iso" size 1459978240 crc d43d1d0e md5 e55770f10bb763d9a2ade3c46069a01c sha1 93c1dcf381ce1e3556c20598a5528f04651c7bc5 )
-)
-
-game (
-	name "LEGO Star Wars - The Video Game (Europe)"
-	description "LEGO Star Wars - The Video Game (Europe)"
-	rom ( name "LEGO Star Wars - The Video Game (Europe).iso" size 1459978240 crc 0d2ca119 md5 a83cc0581cc51cdb5d90ec66aa8510b5 sha1 3098a117c8febab5b342a1c9f326089772ce601f )
-)
-
-game (
-	name "LEGO Star Wars - The Video Game (USA)"
-	description "LEGO Star Wars - The Video Game (USA)"
-	rom ( name "LEGO Star Wars - The Video Game (USA).iso" size 1459978240 crc 8416d40e md5 f7383a85d57345468d360cb68ebd4a88 sha1 28a61c8be3404941e734899d8faec38616207f7a )
-)
-
-game (
-	name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00)"
-	description "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00)"
-	rom ( name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00).iso" size 1459978240 crc fe39cc58 md5 ccfec9c72124de261da72fd61d3aac19 sha1 229c1048dd45d547da7289a0ac9cd385fb69c196 )
-)
-
-game (
-	name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01)"
-	description "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01)"
-	rom ( name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01).iso" size 1459978240 crc 8a5483e9 md5 8f1891665e48b9ab9f5a68d79f3827bc sha1 af3d7503bd78ef9c3eca7bbd835cc87dfa447e0e )
-)
-
-game (
-	name "LEGO Star Wars II - The Original Trilogy (USA)"
-	description "LEGO Star Wars II - The Original Trilogy (USA)"
-	rom ( name "LEGO Star Wars II - The Original Trilogy (USA).iso" size 1459978240 crc cea162cd md5 12be79c1b0b1c16a8239cc428328b61d sha1 c05b3c23a9836f1b5ae48e113e6749f9a1588012 )
 )
 
 game (
@@ -5037,6 +5265,42 @@ game (
 	name "Legends of Wrestling II (USA)"
 	description "Legends of Wrestling II (USA)"
 	rom ( name "Legends of Wrestling II (USA).iso" size 1459978240 crc c1f26489 md5 0da8e690157c2d2ff3770d1cb93cea89 sha1 4800f338d120e1ecd9cb48a2a295050ebcff887f )
+)
+
+game (
+	name "LEGO Star Wars - The Video Game (Europe)"
+	description "LEGO Star Wars - The Video Game (Europe)"
+	rom ( name "LEGO Star Wars - The Video Game (Europe).iso" size 1459978240 crc 0d2ca119 md5 a83cc0581cc51cdb5d90ec66aa8510b5 sha1 3098a117c8febab5b342a1c9f326089772ce601f )
+)
+
+game (
+	name "LEGO Star Wars - The Video Game (Europe) (Fr,De)"
+	description "LEGO Star Wars - The Video Game (Europe) (Fr,De)"
+	rom ( name "LEGO Star Wars - The Video Game (Europe) (Fr,De).iso" size 1459978240 crc d43d1d0e md5 e55770f10bb763d9a2ade3c46069a01c sha1 93c1dcf381ce1e3556c20598a5528f04651c7bc5 )
+)
+
+game (
+	name "LEGO Star Wars - The Video Game (USA)"
+	description "LEGO Star Wars - The Video Game (USA)"
+	rom ( name "LEGO Star Wars - The Video Game (USA).iso" size 1459978240 crc 8416d40e md5 f7383a85d57345468d360cb68ebd4a88 sha1 28a61c8be3404941e734899d8faec38616207f7a )
+)
+
+game (
+	name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00)"
+	description "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00)"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.00).iso" size 1459978240 crc fe39cc58 md5 ccfec9c72124de261da72fd61d3aac19 sha1 229c1048dd45d547da7289a0ac9cd385fb69c196 )
+)
+
+game (
+	name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01)"
+	description "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01)"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Da) (v1.01).iso" size 1459978240 crc 8a5483e9 md5 8f1891665e48b9ab9f5a68d79f3827bc sha1 af3d7503bd78ef9c3eca7bbd835cc87dfa447e0e )
+)
+
+game (
+	name "LEGO Star Wars II - The Original Trilogy (USA)"
+	description "LEGO Star Wars II - The Original Trilogy (USA)"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (USA).iso" size 1459978240 crc cea162cd md5 12be79c1b0b1c16a8239cc428328b61d sha1 c05b3c23a9836f1b5ae48e113e6749f9a1588012 )
 )
 
 game (
@@ -5214,54 +5478,6 @@ game (
 )
 
 game (
-	name "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It)"
-	description "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It)"
-	rom ( name "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc ec6ed5ae md5 26f19a580a180a33ba88e960def9fc51 sha1 6f8f2ee2e811f792e6b74cc440c1bb149296dfe3 )
-)
-
-game (
-	name "MC Groovz Dance Craze (USA)"
-	description "MC Groovz Dance Craze (USA)"
-	rom ( name "MC Groovz Dance Craze (USA).iso" size 1459978240 crc 9b5dff04 md5 e51a8da2bfea7f971727816e562c84fd sha1 c6bbebce6a6e782d9cec0b3bdfdba41d3f119dbe )
-)
-
-game (
-	name "MLB SlugFest 2003 (USA)"
-	description "MLB SlugFest 2003 (USA)"
-	rom ( name "MLB SlugFest 2003 (USA).iso" size 1459978240 crc a1aab9d9 md5 a8beca930233f9ecc185e5b41bd84399 sha1 5d503f254e148073449c1c63b257caa84e4309d5 )
-)
-
-game (
-	name "MLB SlugFest 2004 (USA)"
-	description "MLB SlugFest 2004 (USA)"
-	rom ( name "MLB SlugFest 2004 (USA).iso" size 1459978240 crc 71c33ab7 md5 7fcf6fcc9c71bb5dc8ea4e6f31469abd sha1 f1422f2bb4f39eac915bf4411b99dedb3b8176a3 )
-)
-
-game (
-	name "MVP Baseball 2004 (USA)"
-	description "MVP Baseball 2004 (USA)"
-	rom ( name "MVP Baseball 2004 (USA).iso" size 1459978240 crc 24e7e406 md5 36a2c220c0ad4537b9c16670fb85ba8c sha1 853b634d2ca9842db85cdc6c5d081695650f13b8 )
-)
-
-game (
-	name "MVP Baseball 2005 (USA)"
-	description "MVP Baseball 2005 (USA)"
-	rom ( name "MVP Baseball 2005 (USA).iso" size 1459978240 crc 1906a04e md5 bde89e9178c2066e457c9c4b34935280 sha1 445a5f329aa340703a6e62723f73efc24fc71340 )
-)
-
-game (
-	name "MX SuperFly (Europe)"
-	description "MX SuperFly (Europe)"
-	rom ( name "MX SuperFly (Europe).iso" size 1459978240 crc e32d18d8 md5 99a777a7a0ef117925f97644f3785d20 sha1 b1f75a8a4b37e7698b10ab4872d318b596655195 )
-)
-
-game (
-	name "MX SuperFly (USA)"
-	description "MX SuperFly (USA)"
-	rom ( name "MX SuperFly (USA).iso" size 1459978240 crc 94f77878 md5 cab7d9e495f15896e36027a96d3aa976 sha1 86bdd68b75865a4cd53350bcf4665713a5d8b760 )
-)
-
-game (
 	name "Madden NFL 06 (Europe)"
 	description "Madden NFL 06 (Europe)"
 	rom ( name "Madden NFL 06 (Europe).iso" size 1459978240 crc 4bdf0add md5 af2ef9cfca13ec9371ed1df03d3d5ef9 sha1 a57e33834ba940ad1570bd37a4aca40f52b5cd62 )
@@ -5382,15 +5598,15 @@ game (
 )
 
 game (
-	name "Mario Kart - Double Dash!! (USA) (Bonus Disc)"
-	description "Mario Kart - Double Dash!! (USA) (Bonus Disc)"
-	rom ( name "Mario Kart - Double Dash!! (USA) (Bonus Disc).iso" size 1459978240 crc 7c7068a9 md5 2d4b9f26fc33de2d4d4fff5232e4e592 sha1 2ce40058a13c89964988851a1a0174e711d1f0b6 )
-)
-
-game (
 	name "Mario Kart - Double Dash!! (USA)"
 	description "Mario Kart - Double Dash!! (USA)"
 	rom ( name "Mario Kart - Double Dash!! (USA).iso" size 1459978240 crc 099e2c6d md5 97f9ebc39ab4244e419848793988561a sha1 34bdef709a1ae9799fdabe8e54cff1c7d3665f2b )
+)
+
+game (
+	name "Mario Kart - Double Dash!! (USA) (Bonus Disc)"
+	description "Mario Kart - Double Dash!! (USA) (Bonus Disc)"
+	rom ( name "Mario Kart - Double Dash!! (USA) (Bonus Disc).iso" size 1459978240 crc 7c7068a9 md5 2d4b9f26fc33de2d4d4fff5232e4e592 sha1 2ce40058a13c89964988851a1a0174e711d1f0b6 )
 )
 
 game (
@@ -5439,6 +5655,12 @@ game (
 	name "Mario Party 5 (Japan)"
 	description "Mario Party 5 (Japan)"
 	rom ( name "Mario Party 5 (Japan).iso" size 1459978240 crc 2f14b6ee md5 556bea088a1072502121bfe6d883ad0c sha1 933dc62c964212e7e40c630a522f1267d60753cf )
+)
+
+game (
+	name "Mario Party 5 (Korea)"
+	description "Mario Party 5 (Korea)"
+	rom ( name "Mario Party 5 (Korea).iso" size 1459978240 crc c77497e4 md5 cf1c84f1bf0066b46b76390fd1620608 sha1 7e2a6d9ba0b4c4bd0cb98a2a5353a66fa3c59f00 )
 )
 
 game (
@@ -5595,6 +5817,18 @@ game (
 	name "MaxPlay Classic Games Volume 01 (Europe, Australia) (Unl)"
 	description "MaxPlay Classic Games Volume 01 (Europe, Australia) (Unl)"
 	rom ( name "MaxPlay Classic Games Volume 01 (Europe, Australia) (Unl).iso" size 1459978240 crc 105ddf80 md5 41fdf786d436e99e57a77c32e8bfcb86 sha1 30d8863de2c28110706c72b305c7560c0d5da777 )
+)
+
+game (
+	name "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It)"
+	description "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It)"
+	rom ( name "MC Groovz Dance Craze (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc ec6ed5ae md5 26f19a580a180a33ba88e960def9fc51 sha1 6f8f2ee2e811f792e6b74cc440c1bb149296dfe3 )
+)
+
+game (
+	name "MC Groovz Dance Craze (USA)"
+	description "MC Groovz Dance Craze (USA)"
+	rom ( name "MC Groovz Dance Craze (USA).iso" size 1459978240 crc 9b5dff04 md5 e51a8da2bfea7f971727816e562c84fd sha1 c6bbebce6a6e782d9cec0b3bdfdba41d3f119dbe )
 )
 
 game (
@@ -5802,6 +6036,12 @@ game (
 )
 
 game (
+	name "Metal Arms - Glitch in the System (France)"
+	description "Metal Arms - Glitch in the System (France)"
+	rom ( name "Metal Arms - Glitch in the System (France).iso" size 1459978240 crc d60a61f5 md5 94fc50f8c08099d277c10c3269736f5a sha1 b6b2ac6d5e4c1c721bfa52ed814d30b3152666e4 )
+)
+
+game (
 	name "Metal Arms - Glitch in the System (Germany)"
 	description "Metal Arms - Glitch in the System (Germany)"
 	rom ( name "Metal Arms - Glitch in the System (Germany).iso" size 1459978240 crc 874c290c md5 327eec175774b24c53f43b5bde129c99 sha1 c78b6f068e23e7bb245fb00353d55c716af1d938 )
@@ -5811,6 +6051,12 @@ game (
 	name "Metal Arms - Glitch in the System (USA)"
 	description "Metal Arms - Glitch in the System (USA)"
 	rom ( name "Metal Arms - Glitch in the System (USA).iso" size 1459978240 crc 239a5474 md5 c0127b69963591edcac97437bc407272 sha1 b73ead2e11f5d6ec80c5270855b0e57f96a63455 )
+)
+
+game (
+	name "Metal Gear Solid - The Twin Snakes - Special Disc (Japan)"
+	description "Metal Gear Solid - The Twin Snakes - Special Disc (Japan)"
+	rom ( name "Metal Gear Solid - The Twin Snakes - Special Disc (Japan).iso" size 1459978240 crc 7697e706 md5 8433b28379d8533ecd3d09dd864d078e sha1 7deb1f25832a40d3db234122ed675294cc4c3cf6 )
 )
 
 game (
@@ -5847,12 +6093,6 @@ game (
 	name "Metal Gear Solid - The Twin Snakes (USA) (Disc 2)"
 	description "Metal Gear Solid - The Twin Snakes (USA) (Disc 2)"
 	rom ( name "Metal Gear Solid - The Twin Snakes (USA) (Disc 2).iso" size 1459978240 crc ff7bcd0a md5 8d316f3b9438977101b7b8e0cb5c1418 sha1 53feecef9a16509d82946dee6a88d353c054f1ae )
-)
-
-game (
-	name "Metal Gear Solid - The Twin Snakes - Special Disc (Japan)"
-	description "Metal Gear Solid - The Twin Snakes - Special Disc (Japan)"
-	rom ( name "Metal Gear Solid - The Twin Snakes - Special Disc (Japan).iso" size 1459978240 crc 7697e706 md5 8433b28379d8533ecd3d09dd864d078e sha1 7deb1f25832a40d3db234122ed675294cc4c3cf6 )
 )
 
 game (
@@ -5904,15 +6144,15 @@ game (
 )
 
 game (
-	name "Metroid Prime 2 - Echoes (USA) (Bonus Disc)"
-	description "Metroid Prime 2 - Echoes (USA) (Bonus Disc)"
-	rom ( name "Metroid Prime 2 - Echoes (USA) (Bonus Disc).iso" size 1459978240 crc 2db1d1b2 md5 9f896293ce056a5675c4968ca6285fb6 sha1 dfbbaa44e5c8a1cf4cc9500c9f382f4f41c60503 )
-)
-
-game (
 	name "Metroid Prime 2 - Echoes (USA)"
 	description "Metroid Prime 2 - Echoes (USA)"
 	rom ( name "Metroid Prime 2 - Echoes (USA).iso" size 1459978240 crc f9bc88b6 md5 ce781ad1452311ca86667cf8dbd7d112 sha1 6af3496391bfe4ae97769f2fe85f0f575f2e3d5a )
+)
+
+game (
+	name "Metroid Prime 2 - Echoes (USA) (Bonus Disc)"
+	description "Metroid Prime 2 - Echoes (USA) (Bonus Disc)"
+	rom ( name "Metroid Prime 2 - Echoes (USA) (Bonus Disc).iso" size 1459978240 crc 2db1d1b2 md5 9f896293ce056a5675c4968ca6285fb6 sha1 dfbbaa44e5c8a1cf4cc9500c9f382f4f41c60503 )
 )
 
 game (
@@ -5982,6 +6222,18 @@ game (
 )
 
 game (
+	name "MLB SlugFest 2003 (USA)"
+	description "MLB SlugFest 2003 (USA)"
+	rom ( name "MLB SlugFest 2003 (USA).iso" size 1459978240 crc a1aab9d9 md5 a8beca930233f9ecc185e5b41bd84399 sha1 5d503f254e148073449c1c63b257caa84e4309d5 )
+)
+
+game (
+	name "MLB SlugFest 2004 (USA)"
+	description "MLB SlugFest 2004 (USA)"
+	rom ( name "MLB SlugFest 2004 (USA).iso" size 1459978240 crc 71c33ab7 md5 7fcf6fcc9c71bb5dc8ea4e6f31469abd sha1 f1422f2bb4f39eac915bf4411b99dedb3b8176a3 )
+)
+
+game (
 	name "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Kan (Japan)"
 	description "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Kan (Japan)"
 	rom ( name "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Kan (Japan).iso" size 1459978240 crc 11aaa0d2 md5 9d9e62433a9e0d96d8209ced63a51602 sha1 9421acb0d07e5b912b3addf0dd1c7a7b17790198 )
@@ -6024,15 +6276,15 @@ game (
 )
 
 game (
-	name "Monster House (Europe) (En,Fr,De,Es,It)"
-	description "Monster House (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Monster House (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 7c687243 md5 acb470cfb7b8299f0e3ecefd6cd65893 sha1 5fd5930179e56d52cb0646868a75494904afc251 )
-)
-
-game (
 	name "Monster House (Europe)"
 	description "Monster House (Europe)"
 	rom ( name "Monster House (Europe).iso" size 1459978240 crc 1ad234df md5 3654d185f772cc2b9958b19239b39a8f sha1 54b7a72387b12e308ed7d47e3c619564cee761a8 )
+)
+
+game (
+	name "Monster House (Europe) (En,Fr,De,Es,It)"
+	description "Monster House (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Monster House (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 7c687243 md5 acb470cfb7b8299f0e3ecefd6cd65893 sha1 5fd5930179e56d52cb0646868a75494904afc251 )
 )
 
 game (
@@ -6066,9 +6318,15 @@ game (
 )
 
 game (
-	name "Mortal Kombat - Deadly Alliance (USA)"
-	description "Mortal Kombat - Deadly Alliance (USA)"
-	rom ( name "Mortal Kombat - Deadly Alliance (USA).iso" size 1459978240 crc 5c380e32 md5 7b2a52d5d19fe179811c168aa2cc0875 sha1 1a1c84e8bc1a5ec1d8a6d3d3c7b6ff2ac6e3e95c )
+	name "Mortal Kombat - Deadly Alliance (USA) (v1.00)"
+	description "Mortal Kombat - Deadly Alliance (USA) (v1.00)"
+	rom ( name "Mortal Kombat - Deadly Alliance (USA) (v1.00).iso" size 1459978240 crc 5c380e32 md5 7b2a52d5d19fe179811c168aa2cc0875 sha1 1a1c84e8bc1a5ec1d8a6d3d3c7b6ff2ac6e3e95c )
+)
+
+game (
+	name "Mortal Kombat - Deadly Alliance (USA) (v1.01)"
+	description "Mortal Kombat - Deadly Alliance (USA) (v1.01)"
+	rom ( name "Mortal Kombat - Deadly Alliance (USA) (v1.01).iso" size 1459978240 crc 0e77f296 md5 b73137fffd679169ea61cb4e964536ef sha1 e6122dd2d997d1f97868d17daffdb9654a76c8b8 )
 )
 
 game (
@@ -6102,6 +6360,30 @@ game (
 )
 
 game (
+	name "MVP Baseball 2004 (USA)"
+	description "MVP Baseball 2004 (USA)"
+	rom ( name "MVP Baseball 2004 (USA).iso" size 1459978240 crc 24e7e406 md5 36a2c220c0ad4537b9c16670fb85ba8c sha1 853b634d2ca9842db85cdc6c5d081695650f13b8 )
+)
+
+game (
+	name "MVP Baseball 2005 (USA)"
+	description "MVP Baseball 2005 (USA)"
+	rom ( name "MVP Baseball 2005 (USA).iso" size 1459978240 crc 1906a04e md5 bde89e9178c2066e457c9c4b34935280 sha1 445a5f329aa340703a6e62723f73efc24fc71340 )
+)
+
+game (
+	name "MX SuperFly (Europe)"
+	description "MX SuperFly (Europe)"
+	rom ( name "MX SuperFly (Europe).iso" size 1459978240 crc e32d18d8 md5 99a777a7a0ef117925f97644f3785d20 sha1 b1f75a8a4b37e7698b10ab4872d318b596655195 )
+)
+
+game (
+	name "MX SuperFly (USA)"
+	description "MX SuperFly (USA)"
+	rom ( name "MX SuperFly (USA).iso" size 1459978240 crc 94f77878 md5 cab7d9e495f15896e36027a96d3aa976 sha1 86bdd68b75865a4cd53350bcf4665713a5d8b760 )
+)
+
+game (
 	name "Mystic Heroes (Europe)"
 	description "Mystic Heroes (Europe)"
 	rom ( name "Mystic Heroes (Europe).iso" size 1459978240 crc 68446d9d md5 cc49e5ba086345710b363cabe8e58592 sha1 3a83e2bde78ddc7e9d9803fecef609db4d3f4256 )
@@ -6123,6 +6405,90 @@ game (
 	name "Mystic Heroes (USA)"
 	description "Mystic Heroes (USA)"
 	rom ( name "Mystic Heroes (USA).iso" size 1459978240 crc 080d3384 md5 30e9296bd2bca38e63e106930722660e sha1 e02fe0ebe68431be9fefdfddb5776f65cd1268ab )
+)
+
+game (
+	name "Namco Museum (USA)"
+	description "Namco Museum (USA)"
+	rom ( name "Namco Museum (USA).iso" size 1459978240 crc 316232a1 md5 4d8c33d91ecc2256f107959f07c030ef sha1 37e1aa080fb79cf857ad76adf0a86bdbd011959b )
+)
+
+game (
+	name "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It)"
+	description "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 361fcd95 md5 2e354b89a06ba201c91161ecf9740e70 sha1 3ec88a7fed241122b76bf993bc9d03e0cef4b92f )
+)
+
+game (
+	name "Namco Museum 50th Anniversary (USA)"
+	description "Namco Museum 50th Anniversary (USA)"
+	rom ( name "Namco Museum 50th Anniversary (USA).iso" size 1459978240 crc db8a8831 md5 97fc6fdc7757f70678f8640917c28114 sha1 96052b07ac71cdb1ace7abe72a8eac6a3191eff7 )
+)
+
+game (
+	name "Naruto - Clash of Ninja - European Version (Europe) (En,Fr,De,Es,It)"
+	description "Naruto - Clash of Ninja - European Version (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Naruto - Clash of Ninja - European Version (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc e8e1dcb8 md5 2b76e07ee007ce1674a197b20a0555fe sha1 e6c56a4083d77096f542066685b164fed9a84ee2 )
+)
+
+game (
+	name "Naruto - Clash of Ninja (USA)"
+	description "Naruto - Clash of Ninja (USA)"
+	rom ( name "Naruto - Clash of Ninja (USA).iso" size 1459978240 crc 6853771d md5 28cdd8c9eae1ebbbe8d11a8c91b366fd sha1 d805ce192324ad414de66c23b2222cd18c913f92 )
+)
+
+game (
+	name "Naruto - Clash of Ninja 2 (USA)"
+	description "Naruto - Clash of Ninja 2 (USA)"
+	rom ( name "Naruto - Clash of Ninja 2 (USA).iso" size 1459978240 crc 81a9f11d md5 1345ddb06467c7cc2c5c82d0d5e7b1d6 sha1 c5865c64b490862a7e1499db3622a07192eaa9ac )
+)
+
+game (
+	name "Naruto - Clash of Ninja 2 (USA) (Demo)"
+	description "Naruto - Clash of Ninja 2 (USA) (Demo)"
+	rom ( name "Naruto - Clash of Ninja 2 (USA) (Demo).iso" size 1459978240 crc a58b7bf7 md5 60ab975a509e8c71c48d078f1142689e sha1 6b53d6be8b52a2189143571ddaaf1a1789d866d1 )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! (Japan)"
+	description "Naruto - Gekitou Ninja Taisen! (Japan)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! (Japan).iso" size 1459978240 crc d4d66a59 md5 60984e9954be576fee160737c57c9f93 sha1 8803996c6bf5d737980f717dae61b1a3908784b4 )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00)"
+	description "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00).iso" size 1459978240 crc 96c9fcb5 md5 f3d7ca2374c4e756a2680d8208016223 sha1 199a3a0741947ca2ea64cf8e7e14869a023e5cb2 )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01)"
+	description "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01).iso" size 1459978240 crc b49ec944 md5 fd3aa8640fdb9410d4d6cbac7c35c272 sha1 d4150ca736a64ca1c5e2ce2b096a4af7a614a2f9 )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00)"
+	description "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00).iso" size 1459978240 crc 102146fd md5 f65096558efa7a004cbbd215f9087e0e sha1 13cfe03840739dff23c37c129bb698ca6ce3a12b )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01)"
+	description "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01).iso" size 1459978240 crc b1493f38 md5 fe115430566380f23768623f57ddafa0 sha1 23ed9f6499d772869d0fb411c8a24c584218182b )
+)
+
+game (
+	name "Naruto - Gekitou Ninja Taisen! 4 (Japan)"
+	description "Naruto - Gekitou Ninja Taisen! 4 (Japan)"
+	rom ( name "Naruto - Gekitou Ninja Taisen! 4 (Japan).iso" size 1459978240 crc 60aefa3e md5 20cdb87874ce4f2db4717fb43682e026 sha1 14ddb65699d885e3e7ebd0f728c3d44f0ec0332d )
+)
+
+game (
+	name "Naruto Collection (Japan) (Demo)"
+	description "Naruto Collection (Japan) (Demo)"
+	rom ( name "Naruto Collection (Japan) (Demo).iso" size 1459978240 crc 435e70ec md5 26b110b68039c43ddee1944c7de6ff23 sha1 d30391ef091eb5d11a5340564a4af0b684bbc3a8 )
 )
 
 game (
@@ -6240,6 +6606,12 @@ game (
 )
 
 game (
+	name "NBA Street V3 - Mario de Dunk (Japan)"
+	description "NBA Street V3 - Mario de Dunk (Japan)"
+	rom ( name "NBA Street V3 - Mario de Dunk (Japan).iso" size 1459978240 crc 9f4dcbdd md5 f1465c20c9d8c431dad348c9e9c16841 sha1 bbe2066f093916bfde725d9e2fb318b492fb2f7a )
+)
+
+game (
 	name "NBA Street V3 (Europe) (En,Fr,De)"
 	description "NBA Street V3 (Europe) (En,Fr,De)"
 	rom ( name "NBA Street V3 (Europe) (En,Fr,De).iso" size 1459978240 crc 42be441b md5 4ddeaa137d88f67de1099c938d082751 sha1 66b3b332e99cd1662ee5a54707a9e4e2c13439cd )
@@ -6249,12 +6621,6 @@ game (
 	name "NBA Street V3 (USA)"
 	description "NBA Street V3 (USA)"
 	rom ( name "NBA Street V3 (USA).iso" size 1459978240 crc 8a0e96cb md5 2da7d788886a972420a08faf5fa04632 sha1 5474b36795484e18d26c7120ef431613bdde0d29 )
-)
-
-game (
-	name "NBA Street V3 - Mario de Dunk (Japan)"
-	description "NBA Street V3 - Mario de Dunk (Japan)"
-	rom ( name "NBA Street V3 - Mario de Dunk (Japan).iso" size 1459978240 crc 9f4dcbdd md5 f1465c20c9d8c431dad348c9e9c16841 sha1 bbe2066f093916bfde725d9e2fb318b492fb2f7a )
 )
 
 game (
@@ -6297,6 +6663,144 @@ game (
 	name "NCAA Football 2005 (USA)"
 	description "NCAA Football 2005 (USA)"
 	rom ( name "NCAA Football 2005 (USA).iso" size 1459978240 crc 2d24164c md5 a5046f1bfa86702bf3ae78ff763d2334 sha1 2c6e1bcab1e933891f5753199c9fed5b626a0b3e )
+)
+
+game (
+	name "Need for Speed - Carbon (Europe)"
+	description "Need for Speed - Carbon (Europe)"
+	rom ( name "Need for Speed - Carbon (Europe).iso" size 1459978240 crc 00052f80 md5 d1ae4bebadc01c4ca1dde6d100e3dedb sha1 a732a02abba8bd9109bc84bc8d0f047644a24597 )
+)
+
+game (
+	name "Need for Speed - Carbon (France)"
+	description "Need for Speed - Carbon (France)"
+	rom ( name "Need for Speed - Carbon (France).iso" size 1459978240 crc 582270b0 md5 c12c489ba30b4a02ff9ae44bc8337b5a sha1 cd0fe2586fd5c450e694cf2572eee2b5e925a54a )
+)
+
+game (
+	name "Need for Speed - Carbon (Germany)"
+	description "Need for Speed - Carbon (Germany)"
+	rom ( name "Need for Speed - Carbon (Germany).iso" size 1459978240 crc fd7813ff md5 6446175d09f065c84d4919450178fd44 sha1 3b414e7c0a01a156910537d61823d46aa34fee3c )
+)
+
+game (
+	name "Need for Speed - Carbon (USA)"
+	description "Need for Speed - Carbon (USA)"
+	rom ( name "Need for Speed - Carbon (USA).iso" size 1459978240 crc ff139c62 md5 e9ecacbd68a425337be47944b7ea6b87 sha1 0dcbcada6cdfa50a026327785a86376e1059f5d9 )
+)
+
+game (
+	name "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De)"
+	description "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De)"
+	rom ( name "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De).iso" size 1459978240 crc 39fe6d58 md5 11b6dfe2d930485917f7ac69d9d449c5 sha1 10b0dd40e9cee2c3ee3cba002018623d8d8a9242 )
+)
+
+game (
+	name "Need for Speed - Hot Pursuit 2 (USA)"
+	description "Need for Speed - Hot Pursuit 2 (USA)"
+	rom ( name "Need for Speed - Hot Pursuit 2 (USA).iso" size 1459978240 crc 6e9f4afe md5 f12d73674be53affb0a87a9e48e101e8 sha1 196f068f33ca03489ebb45d249753bd29f61f29e )
+)
+
+game (
+	name "Need for Speed - Most Wanted (Europe)"
+	description "Need for Speed - Most Wanted (Europe)"
+	rom ( name "Need for Speed - Most Wanted (Europe).iso" size 1459978240 crc 9713eec0 md5 b8c865d5b6a440fba1e55850bd1f66c8 sha1 0ddb88b8ae7412100a5e98fe36f022997c4258e5 )
+)
+
+game (
+	name "Need for Speed - Most Wanted (France)"
+	description "Need for Speed - Most Wanted (France)"
+	rom ( name "Need for Speed - Most Wanted (France).iso" size 1459978240 crc 37196f5a md5 2c945df089d7967e1f5eb13d1c40f43a sha1 9fc63840b422f5a3e83c1c92c04951a77480c8fc )
+)
+
+game (
+	name "Need for Speed - Most Wanted (Germany)"
+	description "Need for Speed - Most Wanted (Germany)"
+	rom ( name "Need for Speed - Most Wanted (Germany).iso" size 1459978240 crc fc0c00e1 md5 f2246e483f25cd3c1d325a9240497c6d sha1 01d0ab9a91cc1adea2726afb25ae19c969ad765e )
+)
+
+game (
+	name "Need for Speed - Most Wanted (Japan)"
+	description "Need for Speed - Most Wanted (Japan)"
+	rom ( name "Need for Speed - Most Wanted (Japan).iso" size 1459978240 crc 538a5ed9 md5 10adf7ad68c62a0cc76aeb3412461bd5 sha1 82d566de225a0de1e46db4e6761c91337f1439fc )
+)
+
+game (
+	name "Need for Speed - Most Wanted (USA)"
+	description "Need for Speed - Most Wanted (USA)"
+	rom ( name "Need for Speed - Most Wanted (USA).iso" size 1459978240 crc d9f1d3e5 md5 ccae1994b8ab098ff427e6ef95ea7909 sha1 8cfef78c00835c572523663e30a11c34ef3758b7 )
+)
+
+game (
+	name "Need for Speed - Underground (Europe)"
+	description "Need for Speed - Underground (Europe)"
+	rom ( name "Need for Speed - Underground (Europe).iso" size 1459978240 crc 4584dc3b md5 4ee3b6c5d66cc088c8b82baf8c02eae5 sha1 a3c0c830a015d167900757148030f69b867efc31 )
+)
+
+game (
+	name "Need for Speed - Underground (Europe) (Alt)"
+	description "Need for Speed - Underground (Europe) (Alt)"
+	rom ( name "Need for Speed - Underground (Europe) (Alt).iso" size 1459978240 crc 3873b78f md5 bb87941bef76e658dff90d98b6a1e6a2 sha1 798c8e855cdf883ca2f00558e18439155fb08815 )
+)
+
+game (
+	name "Need for Speed - Underground (France)"
+	description "Need for Speed - Underground (France)"
+	rom ( name "Need for Speed - Underground (France).iso" size 1459978240 crc 1952782e md5 bb44feab0886e3da4070d4d55611fedf sha1 bd87e25d36a9a8a3d23380aaa533c0ea8b3824e6 )
+)
+
+game (
+	name "Need for Speed - Underground (Germany)"
+	description "Need for Speed - Underground (Germany)"
+	rom ( name "Need for Speed - Underground (Germany).iso" size 1459978240 crc 89160c7c md5 e80ab06493365fca7e400d4c87e778d6 sha1 65f646bd48de53ebdeb14ce261b2e3a15534cd1e )
+)
+
+game (
+	name "Need for Speed - Underground (Japan)"
+	description "Need for Speed - Underground (Japan)"
+	rom ( name "Need for Speed - Underground (Japan).iso" size 1459978240 crc 836cfeda md5 0bbec5772993666a3d4a235aaa63cf12 sha1 a6be9b697d06a3dc12b0b88b466a247233ce176e )
+)
+
+game (
+	name "Need for Speed - Underground (USA)"
+	description "Need for Speed - Underground (USA)"
+	rom ( name "Need for Speed - Underground (USA).iso" size 1459978240 crc 01c154ba md5 c20f02454166bc8fa08f84307871ac7d sha1 d6882a712509e8bba75ee8837bcac65f8352b1d1 )
+)
+
+game (
+	name "Need for Speed - Underground 2 (Europe)"
+	description "Need for Speed - Underground 2 (Europe)"
+	rom ( name "Need for Speed - Underground 2 (Europe).iso" size 1459978240 crc 1d8ab780 md5 308b4bad57a4666d2597a6b4e0e85722 sha1 bc13ffbdc8558c3172f2fb7c29a24d9615016cf5 )
+)
+
+game (
+	name "Need for Speed - Underground 2 (France)"
+	description "Need for Speed - Underground 2 (France)"
+	rom ( name "Need for Speed - Underground 2 (France).iso" size 1459978240 crc fa76df3a md5 6e846832929e4d025d34358f69748c80 sha1 ef3b371500fd786f9d151be38671e978cd22ecb4 )
+)
+
+game (
+	name "Need for Speed - Underground 2 (Germany)"
+	description "Need for Speed - Underground 2 (Germany)"
+	rom ( name "Need for Speed - Underground 2 (Germany).iso" size 1459978240 crc 83b3c758 md5 89c3c4148a5ae00db23fc68834d9ea84 sha1 831eee2df2899f7e0d91442a33071dabeac89ccf )
+)
+
+game (
+	name "Need for Speed - Underground 2 (Japan)"
+	description "Need for Speed - Underground 2 (Japan)"
+	rom ( name "Need for Speed - Underground 2 (Japan).iso" size 1459978240 crc 909806ff md5 5a87df1521e05790544696829fb15b35 sha1 f48152195058b5d40d1955d3db43e4ee81fd6f15 )
+)
+
+game (
+	name "Need for Speed - Underground 2 (USA)"
+	description "Need for Speed - Underground 2 (USA)"
+	rom ( name "Need for Speed - Underground 2 (USA).iso" size 1459978240 crc 5e49b1d7 md5 4d5120a533007d18d3297ee2edab9533 sha1 e22ebaa2ee05cab39e0c64ee1d1e40ac0b38d5ed )
+)
+
+game (
+	name "Neighbours from Hell (Europe) (En,Fr,De,Es,It)"
+	description "Neighbours from Hell (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Neighbours from Hell (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc dabc41e2 md5 af7f2f51b45befeb3d5139f9769fa7cc sha1 edaa52325d6eb3966d991b76c2ec53c31713b4d2 )
 )
 
 game (
@@ -6456,228 +6960,6 @@ game (
 )
 
 game (
-	name "Namco Museum (USA)"
-	description "Namco Museum (USA)"
-	rom ( name "Namco Museum (USA).iso" size 1459978240 crc 316232a1 md5 4d8c33d91ecc2256f107959f07c030ef sha1 37e1aa080fb79cf857ad76adf0a86bdbd011959b )
-)
-
-game (
-	name "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It)"
-	description "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Namco Museum 50th Anniversary (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 361fcd95 md5 2e354b89a06ba201c91161ecf9740e70 sha1 3ec88a7fed241122b76bf993bc9d03e0cef4b92f )
-)
-
-game (
-	name "Namco Museum 50th Anniversary (USA)"
-	description "Namco Museum 50th Anniversary (USA)"
-	rom ( name "Namco Museum 50th Anniversary (USA).iso" size 1459978240 crc db8a8831 md5 97fc6fdc7757f70678f8640917c28114 sha1 96052b07ac71cdb1ace7abe72a8eac6a3191eff7 )
-)
-
-game (
-	name "Naruto - Clash of Ninja (Europe) (En,Fr,De,Es,It)"
-	description "Naruto - Clash of Ninja (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Naruto - Clash of Ninja (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc e8e1dcb8 md5 2b76e07ee007ce1674a197b20a0555fe sha1 e6c56a4083d77096f542066685b164fed9a84ee2 )
-)
-
-game (
-	name "Naruto - Clash of Ninja (USA)"
-	description "Naruto - Clash of Ninja (USA)"
-	rom ( name "Naruto - Clash of Ninja (USA).iso" size 1459978240 crc 6853771d md5 28cdd8c9eae1ebbbe8d11a8c91b366fd sha1 d805ce192324ad414de66c23b2222cd18c913f92 )
-)
-
-game (
-	name "Naruto - Clash of Ninja 2 (USA) (Demo)"
-	description "Naruto - Clash of Ninja 2 (USA) (Demo)"
-	rom ( name "Naruto - Clash of Ninja 2 (USA) (Demo).iso" size 1459978240 crc a58b7bf7 md5 60ab975a509e8c71c48d078f1142689e sha1 6b53d6be8b52a2189143571ddaaf1a1789d866d1 )
-)
-
-game (
-	name "Naruto - Clash of Ninja 2 (USA)"
-	description "Naruto - Clash of Ninja 2 (USA)"
-	rom ( name "Naruto - Clash of Ninja 2 (USA).iso" size 1459978240 crc 81a9f11d md5 1345ddb06467c7cc2c5c82d0d5e7b1d6 sha1 c5865c64b490862a7e1499db3622a07192eaa9ac )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! (Japan)"
-	description "Naruto - Gekitou Ninja Taisen! (Japan)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! (Japan).iso" size 1459978240 crc d4d66a59 md5 60984e9954be576fee160737c57c9f93 sha1 8803996c6bf5d737980f717dae61b1a3908784b4 )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00)"
-	description "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.00).iso" size 1459978240 crc 96c9fcb5 md5 f3d7ca2374c4e756a2680d8208016223 sha1 199a3a0741947ca2ea64cf8e7e14869a023e5cb2 )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01)"
-	description "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! 2 (Japan) (v1.01).iso" size 1459978240 crc b49ec944 md5 fd3aa8640fdb9410d4d6cbac7c35c272 sha1 d4150ca736a64ca1c5e2ce2b096a4af7a614a2f9 )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00)"
-	description "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.00).iso" size 1459978240 crc 102146fd md5 f65096558efa7a004cbbd215f9087e0e sha1 13cfe03840739dff23c37c129bb698ca6ce3a12b )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01)"
-	description "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! 3 (Japan) (v1.01).iso" size 1459978240 crc b1493f38 md5 fe115430566380f23768623f57ddafa0 sha1 23ed9f6499d772869d0fb411c8a24c584218182b )
-)
-
-game (
-	name "Naruto - Gekitou Ninja Taisen! 4 (Japan)"
-	description "Naruto - Gekitou Ninja Taisen! 4 (Japan)"
-	rom ( name "Naruto - Gekitou Ninja Taisen! 4 (Japan).iso" size 1459978240 crc 60aefa3e md5 20cdb87874ce4f2db4717fb43682e026 sha1 14ddb65699d885e3e7ebd0f728c3d44f0ec0332d )
-)
-
-game (
-	name "Naruto Collection (Japan) (Demo)"
-	description "Naruto Collection (Japan) (Demo)"
-	rom ( name "Naruto Collection (Japan) (Demo).iso" size 1459978240 crc 435e70ec md5 26b110b68039c43ddee1944c7de6ff23 sha1 d30391ef091eb5d11a5340564a4af0b684bbc3a8 )
-)
-
-game (
-	name "Need for Speed - Carbon (Europe)"
-	description "Need for Speed - Carbon (Europe)"
-	rom ( name "Need for Speed - Carbon (Europe).iso" size 1459978240 crc 00052f80 md5 d1ae4bebadc01c4ca1dde6d100e3dedb sha1 a732a02abba8bd9109bc84bc8d0f047644a24597 )
-)
-
-game (
-	name "Need for Speed - Carbon (France)"
-	description "Need for Speed - Carbon (France)"
-	rom ( name "Need for Speed - Carbon (France).iso" size 1459978240 crc 582270b0 md5 c12c489ba30b4a02ff9ae44bc8337b5a sha1 cd0fe2586fd5c450e694cf2572eee2b5e925a54a )
-)
-
-game (
-	name "Need for Speed - Carbon (Germany)"
-	description "Need for Speed - Carbon (Germany)"
-	rom ( name "Need for Speed - Carbon (Germany).iso" size 1459978240 crc fd7813ff md5 6446175d09f065c84d4919450178fd44 sha1 3b414e7c0a01a156910537d61823d46aa34fee3c )
-)
-
-game (
-	name "Need for Speed - Carbon (USA)"
-	description "Need for Speed - Carbon (USA)"
-	rom ( name "Need for Speed - Carbon (USA).iso" size 1459978240 crc ff139c62 md5 e9ecacbd68a425337be47944b7ea6b87 sha1 0dcbcada6cdfa50a026327785a86376e1059f5d9 )
-)
-
-game (
-	name "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De)"
-	description "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De)"
-	rom ( name "Need for Speed - Hot Pursuit 2 (Europe) (En,Fr,De).iso" size 1459978240 crc 39fe6d58 md5 11b6dfe2d930485917f7ac69d9d449c5 sha1 10b0dd40e9cee2c3ee3cba002018623d8d8a9242 )
-)
-
-game (
-	name "Need for Speed - Hot Pursuit 2 (USA)"
-	description "Need for Speed - Hot Pursuit 2 (USA)"
-	rom ( name "Need for Speed - Hot Pursuit 2 (USA).iso" size 1459978240 crc 6e9f4afe md5 f12d73674be53affb0a87a9e48e101e8 sha1 196f068f33ca03489ebb45d249753bd29f61f29e )
-)
-
-game (
-	name "Need for Speed - Most Wanted (Europe)"
-	description "Need for Speed - Most Wanted (Europe)"
-	rom ( name "Need for Speed - Most Wanted (Europe).iso" size 1459978240 crc 9713eec0 md5 b8c865d5b6a440fba1e55850bd1f66c8 sha1 0ddb88b8ae7412100a5e98fe36f022997c4258e5 )
-)
-
-game (
-	name "Need for Speed - Most Wanted (France)"
-	description "Need for Speed - Most Wanted (France)"
-	rom ( name "Need for Speed - Most Wanted (France).iso" size 1459978240 crc 37196f5a md5 2c945df089d7967e1f5eb13d1c40f43a sha1 9fc63840b422f5a3e83c1c92c04951a77480c8fc )
-)
-
-game (
-	name "Need for Speed - Most Wanted (Germany)"
-	description "Need for Speed - Most Wanted (Germany)"
-	rom ( name "Need for Speed - Most Wanted (Germany).iso" size 1459978240 crc fc0c00e1 md5 f2246e483f25cd3c1d325a9240497c6d sha1 01d0ab9a91cc1adea2726afb25ae19c969ad765e )
-)
-
-game (
-	name "Need for Speed - Most Wanted (Japan)"
-	description "Need for Speed - Most Wanted (Japan)"
-	rom ( name "Need for Speed - Most Wanted (Japan).iso" size 1459978240 crc 538a5ed9 md5 10adf7ad68c62a0cc76aeb3412461bd5 sha1 82d566de225a0de1e46db4e6761c91337f1439fc )
-)
-
-game (
-	name "Need for Speed - Most Wanted (USA)"
-	description "Need for Speed - Most Wanted (USA)"
-	rom ( name "Need for Speed - Most Wanted (USA).iso" size 1459978240 crc d9f1d3e5 md5 ccae1994b8ab098ff427e6ef95ea7909 sha1 8cfef78c00835c572523663e30a11c34ef3758b7 )
-)
-
-game (
-	name "Need for Speed - Underground (Europe) (Alt)"
-	description "Need for Speed - Underground (Europe) (Alt)"
-	rom ( name "Need for Speed - Underground (Europe) (Alt).iso" size 1459978240 crc 3873b78f md5 bb87941bef76e658dff90d98b6a1e6a2 sha1 798c8e855cdf883ca2f00558e18439155fb08815 )
-)
-
-game (
-	name "Need for Speed - Underground (Europe)"
-	description "Need for Speed - Underground (Europe)"
-	rom ( name "Need for Speed - Underground (Europe).iso" size 1459978240 crc 4584dc3b md5 4ee3b6c5d66cc088c8b82baf8c02eae5 sha1 a3c0c830a015d167900757148030f69b867efc31 )
-)
-
-game (
-	name "Need for Speed - Underground (France)"
-	description "Need for Speed - Underground (France)"
-	rom ( name "Need for Speed - Underground (France).iso" size 1459978240 crc 1952782e md5 bb44feab0886e3da4070d4d55611fedf sha1 bd87e25d36a9a8a3d23380aaa533c0ea8b3824e6 )
-)
-
-game (
-	name "Need for Speed - Underground (Germany)"
-	description "Need for Speed - Underground (Germany)"
-	rom ( name "Need for Speed - Underground (Germany).iso" size 1459978240 crc 89160c7c md5 e80ab06493365fca7e400d4c87e778d6 sha1 65f646bd48de53ebdeb14ce261b2e3a15534cd1e )
-)
-
-game (
-	name "Need for Speed - Underground (Japan)"
-	description "Need for Speed - Underground (Japan)"
-	rom ( name "Need for Speed - Underground (Japan).iso" size 1459978240 crc 836cfeda md5 0bbec5772993666a3d4a235aaa63cf12 sha1 a6be9b697d06a3dc12b0b88b466a247233ce176e )
-)
-
-game (
-	name "Need for Speed - Underground (USA)"
-	description "Need for Speed - Underground (USA)"
-	rom ( name "Need for Speed - Underground (USA).iso" size 1459978240 crc 01c154ba md5 c20f02454166bc8fa08f84307871ac7d sha1 d6882a712509e8bba75ee8837bcac65f8352b1d1 )
-)
-
-game (
-	name "Need for Speed - Underground 2 (Europe)"
-	description "Need for Speed - Underground 2 (Europe)"
-	rom ( name "Need for Speed - Underground 2 (Europe).iso" size 1459978240 crc 1d8ab780 md5 308b4bad57a4666d2597a6b4e0e85722 sha1 bc13ffbdc8558c3172f2fb7c29a24d9615016cf5 )
-)
-
-game (
-	name "Need for Speed - Underground 2 (France)"
-	description "Need for Speed - Underground 2 (France)"
-	rom ( name "Need for Speed - Underground 2 (France).iso" size 1459978240 crc fa76df3a md5 6e846832929e4d025d34358f69748c80 sha1 ef3b371500fd786f9d151be38671e978cd22ecb4 )
-)
-
-game (
-	name "Need for Speed - Underground 2 (Germany)"
-	description "Need for Speed - Underground 2 (Germany)"
-	rom ( name "Need for Speed - Underground 2 (Germany).iso" size 1459978240 crc 83b3c758 md5 89c3c4148a5ae00db23fc68834d9ea84 sha1 831eee2df2899f7e0d91442a33071dabeac89ccf )
-)
-
-game (
-	name "Need for Speed - Underground 2 (Japan)"
-	description "Need for Speed - Underground 2 (Japan)"
-	rom ( name "Need for Speed - Underground 2 (Japan).iso" size 1459978240 crc 909806ff md5 5a87df1521e05790544696829fb15b35 sha1 f48152195058b5d40d1955d3db43e4ee81fd6f15 )
-)
-
-game (
-	name "Need for Speed - Underground 2 (USA)"
-	description "Need for Speed - Underground 2 (USA)"
-	rom ( name "Need for Speed - Underground 2 (USA).iso" size 1459978240 crc 5e49b1d7 md5 4d5120a533007d18d3297ee2edab9533 sha1 e22ebaa2ee05cab39e0c64ee1d1e40ac0b38d5ed )
-)
-
-game (
-	name "Neighbours from Hell (Europe) (En,Fr,De,Es,It)"
-	description "Neighbours from Hell (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Neighbours from Hell (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc dabc41e2 md5 af7f2f51b45befeb3d5139f9769fa7cc sha1 edaa52325d6eb3966d991b76c2ec53c31713b4d2 )
-)
-
-game (
 	name "Nick Jr. Dora the Explorer - Journey to the Purple Planet (Europe) (En,Fr)"
 	description "Nick Jr. Dora the Explorer - Journey to the Purple Planet (Europe) (En,Fr)"
 	rom ( name "Nick Jr. Dora the Explorer - Journey to the Purple Planet (Europe) (En,Fr).iso" size 1459978240 crc 278087cc md5 2196dfb872b9423a330668eba7ca0699 sha1 0a909d11ff972003d22cf459d97c2d8c99155f17 )
@@ -6708,15 +6990,15 @@ game (
 )
 
 game (
-	name "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl)"
-	description "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl)"
-	rom ( name "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl).iso" size 1459978240 crc 81bb3b5a md5 5027c12e466a640a3391e6d3bc41baf8 sha1 96f7624d6939a0eea19ee27a134f222588317c8d )
-)
-
-game (
 	name "Nickelodeon Barnyard (Europe)"
 	description "Nickelodeon Barnyard (Europe)"
 	rom ( name "Nickelodeon Barnyard (Europe).iso" size 1459978240 crc 5ded17ac md5 5ef2f2c24714a0dbdbd74224ea8bb167 sha1 50a853cdec2558517d8033ee653a23c4aa34bb25 )
+)
+
+game (
+	name "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl)"
+	description "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl)"
+	rom ( name "Nickelodeon Barnyard (Europe) (Fr,Es,It,Nl).iso" size 1459978240 crc 81bb3b5a md5 5027c12e466a640a3391e6d3bc41baf8 sha1 96f7624d6939a0eea19ee27a134f222588317c8d )
 )
 
 game (
@@ -6738,18 +7020,6 @@ game (
 )
 
 game (
-	name "Nickelodeon Jimmy Neutron - Boy Genius (Europe)"
-	description "Nickelodeon Jimmy Neutron - Boy Genius (Europe)"
-	rom ( name "Nickelodeon Jimmy Neutron - Boy Genius (Europe).iso" size 1459978240 crc dde140e6 md5 f86da2a0b1f62ac739b5285c5ff44c9f sha1 113c01a27ed0c9a68d5e85ba65dd218a484a17ba )
-)
-
-game (
-	name "Nickelodeon Jimmy Neutron - Boy Genius (USA)"
-	description "Nickelodeon Jimmy Neutron - Boy Genius (USA)"
-	rom ( name "Nickelodeon Jimmy Neutron - Boy Genius (USA).iso" size 1459978240 crc 8988c485 md5 e278a2ddc10185a691ed99dde12d47c2 sha1 90861e1c1e5003388449b1ca41b7de014526ce1c )
-)
-
-game (
 	name "Nickelodeon Jimmy Neutron - Boy Genius - Attack of the Twonkies (Europe)"
 	description "Nickelodeon Jimmy Neutron - Boy Genius - Attack of the Twonkies (Europe)"
 	rom ( name "Nickelodeon Jimmy Neutron - Boy Genius - Attack of the Twonkies (Europe).iso" size 1459978240 crc fc40d4c4 md5 c2595a8a0d347d2cdea219b3c3121604 sha1 c7e695c833fc05b6af8f2554f7b4b9aca8e6cad7 )
@@ -6762,9 +7032,27 @@ game (
 )
 
 game (
+	name "Nickelodeon Jimmy Neutron - Boy Genius (Europe)"
+	description "Nickelodeon Jimmy Neutron - Boy Genius (Europe)"
+	rom ( name "Nickelodeon Jimmy Neutron - Boy Genius (Europe).iso" size 1459978240 crc dde140e6 md5 f86da2a0b1f62ac739b5285c5ff44c9f sha1 113c01a27ed0c9a68d5e85ba65dd218a484a17ba )
+)
+
+game (
+	name "Nickelodeon Jimmy Neutron - Boy Genius (USA)"
+	description "Nickelodeon Jimmy Neutron - Boy Genius (USA)"
+	rom ( name "Nickelodeon Jimmy Neutron - Boy Genius (USA).iso" size 1459978240 crc 8988c485 md5 e278a2ddc10185a691ed99dde12d47c2 sha1 90861e1c1e5003388449b1ca41b7de014526ce1c )
+)
+
+game (
 	name "Nickelodeon Jimmy Neutron - Der mutige Erfinder (Germany)"
 	description "Nickelodeon Jimmy Neutron - Der mutige Erfinder (Germany)"
 	rom ( name "Nickelodeon Jimmy Neutron - Der mutige Erfinder (Germany).iso" size 1459978240 crc 7b8e27a0 md5 9a321eb08dd8cfdf09991e716f67531e sha1 8b6e65b1f4dcff45768ed1e87140f0c612cdd393 )
+)
+
+game (
+	name "Nickelodeon Les Razmoket - La Rancon Royale (France)"
+	description "Nickelodeon Les Razmoket - La Rancon Royale (France)"
+	rom ( name "Nickelodeon Les Razmoket - La Rancon Royale (France).iso" size 1459978240 crc abd8768a md5 f76d7076c1d5f1827569f265ef0c35aa sha1 34a7bad8deb06a41ad43ef4666eec1cd13a115e4 )
 )
 
 game (
@@ -6828,6 +7116,12 @@ game (
 )
 
 game (
+	name "Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab (Netherlands)"
+	description "Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab (Netherlands)"
+	rom ( name "Nickelodeon SpongeBob SquarePants - Creatuur van de Krokante Krab (Netherlands).iso" size 1459978240 crc 58dc71d7 md5 45df2c017c82f4737ed154f3c53e0bfe sha1 d1da9a9aede1c44063f066da35623ff9a92c3b8c )
+)
+
+game (
 	name "Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan! (Netherlands)"
 	description "Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan! (Netherlands)"
 	rom ( name "Nickelodeon SpongeBob SquarePants - Licht uit, Camera aan! (Netherlands).iso" size 1459978240 crc c94da0aa md5 4e8e084fbe32a7635eca6c3e5fb008de sha1 4a17f80c7f6c887bdc446f556c06aca0beb459f7 )
@@ -6858,15 +7152,15 @@ game (
 )
 
 game (
-	name "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl)"
-	description "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl)"
-	rom ( name "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl).iso" size 1459978240 crc 084ea086 md5 5c8a6eeeb849e20c59bc245a56d4f174 sha1 09606bce7bc063d257f006973f1b5c70e8e9cd42 )
-)
-
-game (
 	name "Nickelodeon SpongeBob SquarePants - The Movie (Europe)"
 	description "Nickelodeon SpongeBob SquarePants - The Movie (Europe)"
 	rom ( name "Nickelodeon SpongeBob SquarePants - The Movie (Europe).iso" size 1459978240 crc 334aac70 md5 62bc84bfcad66e8d24f83873b247b628 sha1 f13f66669639b95d2c63f51cc3deea1b334998e5 )
+)
+
+game (
+	name "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl)"
+	description "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl)"
+	rom ( name "Nickelodeon SpongeBob SquarePants - The Movie (Europe) (Fr,Nl).iso" size 1459978240 crc 084ea086 md5 5c8a6eeeb849e20c59bc245a56d4f174 sha1 09606bce7bc063d257f006973f1b5c70e8e9cd42 )
 )
 
 game (
@@ -7056,15 +7350,15 @@ game (
 )
 
 game (
-	name "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo)"
-	description "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo)"
-	rom ( name "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc 965f3101 md5 9e61d49977f63c924c81d2f18e58b9bb sha1 ee9bbb75376ca8ca099d0501a244b5f1e40d44ee )
-)
-
-game (
 	name "P.N. 03 (Europe) (En,Fr,De,Es,It)"
 	description "P.N. 03 (Europe) (En,Fr,De,Es,It)"
 	rom ( name "P.N. 03 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc e8fcfd60 md5 a8b580c8a7473eef631d821d8dc0b500 sha1 aff34d325443c2f7f1f51c81630624cbd9ef0704 )
+)
+
+game (
+	name "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo)"
+	description "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo)"
+	rom ( name "P.N. 03 (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc 965f3101 md5 9e61d49977f63c924c81d2f18e58b9bb sha1 ee9bbb75376ca8ca099d0501a244b5f1e40d44ee )
 )
 
 game (
@@ -7092,15 +7386,15 @@ game (
 )
 
 game (
-	name "Pac-Man Vs. (Japan) (Club Nintendo Genteiban)"
-	description "Pac-Man Vs. (Japan) (Club Nintendo Genteiban)"
-	rom ( name "Pac-Man Vs. (Japan) (Club Nintendo Genteiban).iso" size 1459978240 crc fc20e594 md5 8cb7788eda2c87412be6bfadadf9e0cf sha1 ae368a896534f1da7125cae5500d23c9f079a5f9 )
-)
-
-game (
 	name "Pac-Man Vs. (Japan)"
 	description "Pac-Man Vs. (Japan)"
 	rom ( name "Pac-Man Vs. (Japan).iso" size 1459978240 crc 93a80006 md5 99821e6427280c55b00ff3fd6fdd3b94 sha1 29b08d9ea3c4bd37524b3cfbae356c82d82ee170 )
+)
+
+game (
+	name "Pac-Man Vs. (Japan) (Club Nintendo Genteiban)"
+	description "Pac-Man Vs. (Japan) (Club Nintendo Genteiban)"
+	rom ( name "Pac-Man Vs. (Japan) (Club Nintendo Genteiban).iso" size 1459978240 crc fc20e594 md5 8cb7788eda2c87412be6bfadadf9e0cf sha1 ae368a896534f1da7125cae5500d23c9f079a5f9 )
 )
 
 game (
@@ -7224,15 +7518,15 @@ game (
 )
 
 game (
-	name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban)"
-	description "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban)"
-	rom ( name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban).iso" size 1459978240 crc 230570e1 md5 9bb50932002a39647afb23ad7b0a8b9a sha1 053dd0cf25247dd087fec77a2d5018d7c58a6979 )
-)
-
-game (
 	name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan)"
 	description "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan)"
 	rom ( name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan).iso" size 1459978240 crc 37f76934 md5 bf25d3ae9cd5eb4827ec8f77fe367006 sha1 20a9fcee7b5374ba90fc14fd0cc9562f318cfff0 )
+)
+
+game (
+	name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban)"
+	description "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban)"
+	rom ( name "Phantasy Star Online Episode III - C.A.R.D. Revolution (Japan) (Taikenban).iso" size 1459978240 crc 230570e1 md5 9bb50932002a39647afb23ad7b0a8b9a sha1 053dd0cf25247dd087fec77a2d5018d7c58a6979 )
 )
 
 game (
@@ -7344,6 +7638,12 @@ game (
 )
 
 game (
+	name "Pokemon Channel - Bangumi Kakuchou Pack (Japan)"
+	description "Pokemon Channel - Bangumi Kakuchou Pack (Japan)"
+	rom ( name "Pokemon Channel - Bangumi Kakuchou Pack (Japan).iso" size 1459978240 crc 092cb122 md5 6d5943a801ac7a186af91cd742668287 sha1 05768272a73497fb4559cd0bee501120fe445817 )
+)
+
+game (
 	name "Pokemon Channel (Australia)"
 	description "Pokemon Channel (Australia)"
 	rom ( name "Pokemon Channel (Australia).iso" size 1459978240 crc bbda6e33 md5 b8458021c748c1462302e053ef5b202d sha1 71b4703d8f5fcf72d75cd70e5e3ae94f134b6f7f )
@@ -7368,9 +7668,15 @@ game (
 )
 
 game (
-	name "Pokemon Channel - Bangumi Kakuchou Pack (Japan)"
-	description "Pokemon Channel - Bangumi Kakuchou Pack (Japan)"
-	rom ( name "Pokemon Channel - Bangumi Kakuchou Pack (Japan).iso" size 1459978240 crc 092cb122 md5 6d5943a801ac7a186af91cd742668287 sha1 05768272a73497fb4559cd0bee501120fe445817 )
+	name "Pokemon Colosseum - Kakuchou Disc (Japan)"
+	description "Pokemon Colosseum - Kakuchou Disc (Japan)"
+	rom ( name "Pokemon Colosseum - Kakuchou Disc (Japan).iso" size 1459978240 crc 9cd57878 md5 46d42fce73c2fea5a2ca5172506f1762 sha1 55cee5519b185233a96ba900e49dc012814f46b5 )
+)
+
+game (
+	name "Pokemon Colosseum - Nintendo Tokusei Disc (Japan)"
+	description "Pokemon Colosseum - Nintendo Tokusei Disc (Japan)"
+	rom ( name "Pokemon Colosseum - Nintendo Tokusei Disc (Japan).iso" size 1459978240 crc 82e211c1 md5 b67194c8a3d3d3d3f1789b2b65daa925 sha1 104d65e2a2f64c2978bbda0d971ff24ae9566fc5 )
 )
 
 game (
@@ -7386,27 +7692,15 @@ game (
 )
 
 game (
-	name "Pokemon Colosseum (USA) (Bonus Disc)"
-	description "Pokemon Colosseum (USA) (Bonus Disc)"
-	rom ( name "Pokemon Colosseum (USA) (Bonus Disc).iso" size 1459978240 crc 147f54c9 md5 81620f774d142df466aab9c4bff7a686 sha1 f21a6883f3a29679472a913813341b3f59f4173a )
-)
-
-game (
 	name "Pokemon Colosseum (USA)"
 	description "Pokemon Colosseum (USA)"
 	rom ( name "Pokemon Colosseum (USA).iso" size 1459978240 crc 0704554f md5 e3f389dc5662b9f941769e370195ec90 sha1 96b2b686d202a13dd15261fb7cffbcb2f08c0a77 )
 )
 
 game (
-	name "Pokemon Colosseum - Kakuchou Disc (Japan)"
-	description "Pokemon Colosseum - Kakuchou Disc (Japan)"
-	rom ( name "Pokemon Colosseum - Kakuchou Disc (Japan).iso" size 1459978240 crc 9cd57878 md5 46d42fce73c2fea5a2ca5172506f1762 sha1 55cee5519b185233a96ba900e49dc012814f46b5 )
-)
-
-game (
-	name "Pokemon Colosseum - Nintendo Tokusei Disc (Japan)"
-	description "Pokemon Colosseum - Nintendo Tokusei Disc (Japan)"
-	rom ( name "Pokemon Colosseum - Nintendo Tokusei Disc (Japan).iso" size 1459978240 crc 82e211c1 md5 b67194c8a3d3d3d3f1789b2b65daa925 sha1 104d65e2a2f64c2978bbda0d971ff24ae9566fc5 )
+	name "Pokemon Colosseum (USA) (Bonus Disc)"
+	description "Pokemon Colosseum (USA) (Bonus Disc)"
+	rom ( name "Pokemon Colosseum (USA) (Bonus Disc).iso" size 1459978240 crc 147f54c9 md5 81620f774d142df466aab9c4bff7a686 sha1 f21a6883f3a29679472a913813341b3f59f4173a )
 )
 
 game (
@@ -7572,15 +7866,15 @@ game (
 )
 
 game (
-	name "R-Racing Evolution (USA)"
-	description "R-Racing Evolution (USA)"
-	rom ( name "R-Racing Evolution (USA).iso" size 1459978240 crc 059e8cce md5 cb0cb99aa8a3bfe5e8e832cb866c990e sha1 f04e500607367e5aa568dac82a05ba9c8d280fcf )
-)
-
-game (
 	name "R-Racing Evolution - Life in the Fast Lane (Japan)"
 	description "R-Racing Evolution - Life in the Fast Lane (Japan)"
 	rom ( name "R-Racing Evolution - Life in the Fast Lane (Japan).iso" size 1459978240 crc b4d639f9 md5 ea37d996d705cef9e9bb2099e3f8c86e sha1 6d1af5e03faf84bddd77703f29bd03e38336c08e )
+)
+
+game (
+	name "R-Racing Evolution (USA)"
+	description "R-Racing Evolution (USA)"
+	rom ( name "R-Racing Evolution (USA).iso" size 1459978240 crc 059e8cce md5 cb0cb99aa8a3bfe5e8e832cb866c990e sha1 f04e500607367e5aa568dac82a05ba9c8d280fcf )
 )
 
 game (
@@ -7626,9 +7920,9 @@ game (
 )
 
 game (
-	name "Rayman Arena (USA)"
-	description "Rayman Arena (USA)"
-	rom ( name "Rayman Arena (USA).iso" size 1459978240 crc e0f783ed md5 4e7b4dd0444ebfeb7ec2ab253116d437 sha1 de0c744db56f18c23a12609ec7b17f47aac9caae )
+	name "Rayman Arena (USA) (En,Fr,Es)"
+	description "Rayman Arena (USA) (En,Fr,Es)"
+	rom ( name "Rayman Arena (USA) (En,Fr,Es).iso" size 1459978240 crc e0f783ed md5 4e7b4dd0444ebfeb7ec2ab253116d437 sha1 de0c744db56f18c23a12609ec7b17f47aac9caae )
 )
 
 game (
@@ -7686,30 +7980,6 @@ game (
 )
 
 game (
-	name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1)"
-	description "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1)"
-	rom ( name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1).iso" size 1459978240 crc 3431e6f1 md5 c581fab5fd10f55b76188e86194199c1 sha1 3717ee92672a6c6194e34a8ec07111fc71d8e5f1 )
-)
-
-game (
-	name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2)"
-	description "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2)"
-	rom ( name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2).iso" size 1459978240 crc e68566ac md5 457944f833fc2f5e8ff394cfdf2e1b7c sha1 ef16289779911b90dda11789bc0f5fbd1d415d86 )
-)
-
-game (
-	name "Resident Evil (USA) (Disc 1)"
-	description "Resident Evil (USA) (Disc 1)"
-	rom ( name "Resident Evil (USA) (Disc 1).iso" size 1459978240 crc 24519740 md5 bdd0fe3848c4ab1441dc6c9ee209426b sha1 a176666f7d48dde2f464788ea8f2cef28c182537 )
-)
-
-game (
-	name "Resident Evil (USA) (Disc 2)"
-	description "Resident Evil (USA) (Disc 2)"
-	rom ( name "Resident Evil (USA) (Disc 2).iso" size 1459978240 crc 8e5597c1 md5 7defd099e98944bc93684d4733bfe68b sha1 a44bcc7dc3ab10f68727d0ecf722c80a2be41156 )
-)
-
-game (
 	name "Resident Evil - Code - Veronica X (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	description "Resident Evil - Code - Veronica X (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	rom ( name "Resident Evil - Code - Veronica X (Europe) (En,Fr,De,Es,It) (Disc 1).iso" size 1459978240 crc 048e89b3 md5 e518c5cbc3c5596f8468b765cd16c1f2 sha1 901fd98bf587bcbe63e0ed1e39b3091317ab3a7e )
@@ -7731,6 +8001,30 @@ game (
 	name "Resident Evil - Code - Veronica X (USA) (Disc 2)"
 	description "Resident Evil - Code - Veronica X (USA) (Disc 2)"
 	rom ( name "Resident Evil - Code - Veronica X (USA) (Disc 2).iso" size 1459978240 crc 17270b07 md5 c4373cdcaa79b863fba94b1cae0efeb0 sha1 4feae623f0c38caa28fc19075a7d28637273b251 )
+)
+
+game (
+	name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1)"
+	description "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1)"
+	rom ( name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 1).iso" size 1459978240 crc 3431e6f1 md5 c581fab5fd10f55b76188e86194199c1 sha1 3717ee92672a6c6194e34a8ec07111fc71d8e5f1 )
+)
+
+game (
+	name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2)"
+	description "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2)"
+	rom ( name "Resident Evil (Europe) (En,Fr,De,Es,It) (Disc 2).iso" size 1459978240 crc e68566ac md5 457944f833fc2f5e8ff394cfdf2e1b7c sha1 ef16289779911b90dda11789bc0f5fbd1d415d86 )
+)
+
+game (
+	name "Resident Evil (USA) (Disc 1)"
+	description "Resident Evil (USA) (Disc 1)"
+	rom ( name "Resident Evil (USA) (Disc 1).iso" size 1459978240 crc 24519740 md5 bdd0fe3848c4ab1441dc6c9ee209426b sha1 a176666f7d48dde2f464788ea8f2cef28c182537 )
+)
+
+game (
+	name "Resident Evil (USA) (Disc 2)"
+	description "Resident Evil (USA) (Disc 2)"
+	rom ( name "Resident Evil (USA) (Disc 2).iso" size 1459978240 crc 8e5597c1 md5 7defd099e98944bc93684d4733bfe68b sha1 a44bcc7dc3ab10f68727d0ecf722c80a2be41156 )
 )
 
 game (
@@ -7956,111 +8250,15 @@ game (
 )
 
 game (
-	name "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban)"
-	description "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban)"
-	rom ( name "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban).iso" size 1459978240 crc e3295a1a md5 e6a7b56b6797522eebde066c7b908888 sha1 93cdfd981976cdae55cebbc235bbaab0d142025f )
-)
-
-game (
 	name "Rune II - Koruten no Kagi no Himitsu (Japan)"
 	description "Rune II - Koruten no Kagi no Himitsu (Japan)"
 	rom ( name "Rune II - Koruten no Kagi no Himitsu (Japan).iso" size 1459978240 crc da18dc25 md5 6659a52d5f293e76f02a9a363c1ab099 sha1 664f586b7e6f3675b44e1622d63a80811164fbcf )
 )
 
 game (
-	name "SD Gundam - Gashapon Wars (Japan) (Taikenban)"
-	description "SD Gundam - Gashapon Wars (Japan) (Taikenban)"
-	rom ( name "SD Gundam - Gashapon Wars (Japan) (Taikenban).iso" size 1459978240 crc 1644b443 md5 cbe0951ad0852fa269a3435c859d325d sha1 ff47e2bccfb74d000b2a745da57a0fdf9be56365 )
-)
-
-game (
-	name "SD Gundam - Gashapon Wars (Japan)"
-	description "SD Gundam - Gashapon Wars (Japan)"
-	rom ( name "SD Gundam - Gashapon Wars (Japan).iso" size 1459978240 crc d5f67251 md5 df13fef53a110c6a92ed121e62783d60 sha1 e76a2e3956dc6ad8ad4cfd839e5358288be2368f )
-)
-
-game (
-	name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It)"
-	description "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It)"
-	rom ( name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 8dd1d444 md5 4d9c85203f6cdb4bd8c92415d812728a sha1 ec93bda1ac8010df333d881600a608cc9d08fe8d )
-)
-
-game (
-	name "SRS - Street Racing Syndicate (USA)"
-	description "SRS - Street Racing Syndicate (USA)"
-	rom ( name "SRS - Street Racing Syndicate (USA).iso" size 1459978240 crc 718f9112 md5 548dda53207aff4f16b1942ad62fe812 sha1 51f51587bf1ba669cb0745501f3e2395fb80cb4a )
-)
-
-game (
-	name "SSX 3 (Europe) (En,Fr,De,Es)"
-	description "SSX 3 (Europe) (En,Fr,De,Es)"
-	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8eb360c9 md5 087a5a59d976b0843ab5917df38d0b45 sha1 f9e40540666e7d5c5f1ffee5d28947cfdc89a9c9 )
-)
-
-game (
-	name "SSX 3 (Japan)"
-	description "SSX 3 (Japan)"
-	rom ( name "SSX 3 (Japan).iso" size 1459978240 crc 281ee750 md5 8b25854016fe7289cfa444543b2e9aa8 sha1 003e6c542d911cc1ef64f93f1a7aa9808cfb1779 )
-)
-
-game (
-	name "SSX 3 (USA)"
-	description "SSX 3 (USA)"
-	rom ( name "SSX 3 (USA).iso" size 1459978240 crc bd94fd62 md5 fb6ce25daf8550dae472b8d84596acc1 sha1 9f047c3c3389b5f2ad464afc472dd15cb0083474 )
-)
-
-game (
-	name "SSX On Tour (Europe) (En,Fr,De)"
-	description "SSX On Tour (Europe) (En,Fr,De)"
-	rom ( name "SSX On Tour (Europe) (En,Fr,De).iso" size 1459978240 crc 886defd6 md5 e86b6fc0db336d2e55c08b23d76ab554 sha1 2a6055689d79602d92a5bbbcf9d5a9613301d802 )
-)
-
-game (
-	name "SSX On Tour (Europe)"
-	description "SSX On Tour (Europe)"
-	rom ( name "SSX On Tour (Europe).iso" size 1459978240 crc d8e0133a md5 733ddb87d8c86f1b85d54286757ae9f7 sha1 f6f62212eea172243f7247db390ae64e2a545299 )
-)
-
-game (
-	name "SSX On Tour (USA)"
-	description "SSX On Tour (USA)"
-	rom ( name "SSX On Tour (USA).iso" size 1459978240 crc 4e61b495 md5 3eb9a702b5a42f81222ea47ae0c6cef0 sha1 f633939221a42114c5b185de796529a63ddc0839 )
-)
-
-game (
-	name "SSX On Tour with Mario (Japan)"
-	description "SSX On Tour with Mario (Japan)"
-	rom ( name "SSX On Tour with Mario (Japan).iso" size 1459978240 crc 9a452794 md5 43cc22b1d72b5fdc190bcb6ee58142dc sha1 e70d66334a81edd218f171f1d3690e680d38c215 )
-)
-
-game (
-	name "SSX Tricky (Europe) (En,Fr,De)"
-	description "SSX Tricky (Europe) (En,Fr,De)"
-	rom ( name "SSX Tricky (Europe) (En,Fr,De).iso" size 1459978240 crc e0e8b174 md5 54cabb3c41f91af0134e761a980b7da8 sha1 360c53b9e61f9beed6d31ff2e4782a60cdc111e3 )
-)
-
-game (
-	name "SSX Tricky (Japan)"
-	description "SSX Tricky (Japan)"
-	rom ( name "SSX Tricky (Japan).iso" size 1459978240 crc a0f36492 md5 bea4da9c3d9f965bd3c386f6eadb7de6 sha1 4241aa2d9c6f9722250cc388b5040b7f71da4985 )
-)
-
-game (
-	name "SSX Tricky (USA)"
-	description "SSX Tricky (USA)"
-	rom ( name "SSX Tricky (USA).iso" size 1459978240 crc 753173c7 md5 47c64f8e60ecd70161b772adb7f25109 sha1 7adecbf91fff0c2b5907b2fd725a11d060ef95e0 )
-)
-
-game (
-	name "SX Superstar (Europe) (En,Fr,De,Es)"
-	description "SX Superstar (Europe) (En,Fr,De,Es)"
-	rom ( name "SX Superstar (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 620f8c2d md5 7b9dbf456858458f45687ab15f95ff16 sha1 5af235c4143596f1a0353ace32a6f48cae8dbfb3 )
-)
-
-game (
-	name "SX Superstar (USA)"
-	description "SX Superstar (USA)"
-	rom ( name "SX Superstar (USA).iso" size 1459978240 crc be6371cb md5 730b0308cd2f94302130f449202bdaeb sha1 7a9635030d77b193ab901cddf837e9b71fd2a1ce )
+	name "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban)"
+	description "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban)"
+	rom ( name "Rune II - Koruten no Kagi no Himitsu (Japan) (Taikenban).iso" size 1459978240 crc e3295a1a md5 e6a7b56b6797522eebde066c7b908888 sha1 93cdfd981976cdae55cebbc235bbaab0d142025f )
 )
 
 game (
@@ -8085,6 +8283,12 @@ game (
 	name "Scooby-Doo! Fluch der Folianten (Germany)"
 	description "Scooby-Doo! Fluch der Folianten (Germany)"
 	rom ( name "Scooby-Doo! Fluch der Folianten (Germany).iso" size 1459978240 crc 586dc955 md5 5423bdc41509eeaeba054e0ab641e099 sha1 954f0c8b43a9869cef2693710c6084dee3d81fb6 )
+)
+
+game (
+	name "Scooby-Doo! La Nuit des 100 Frissons (France)"
+	description "Scooby-Doo! La Nuit des 100 Frissons (France)"
+	rom ( name "Scooby-Doo! La Nuit des 100 Frissons (France).iso" size 1459978240 crc de0abf46 md5 441d0144a8e7d6b4e791de6398206b5b sha1 743c63c1a0a7008710d750ad5d496aa7e59729ce )
 )
 
 game (
@@ -8151,6 +8355,18 @@ game (
 	name "Scorpion King, The - Rise of the Akkadian (USA)"
 	description "Scorpion King, The - Rise of the Akkadian (USA)"
 	rom ( name "Scorpion King, The - Rise of the Akkadian (USA).iso" size 1459978240 crc 9e55240c md5 87c847b9c241e6d66b97378b7be38c95 sha1 debf7239220bc6104ac4c5ee0eb203c77b6635ae )
+)
+
+game (
+	name "SD Gundam - Gashapon Wars (Japan)"
+	description "SD Gundam - Gashapon Wars (Japan)"
+	rom ( name "SD Gundam - Gashapon Wars (Japan).iso" size 1459978240 crc d5f67251 md5 df13fef53a110c6a92ed121e62783d60 sha1 e76a2e3956dc6ad8ad4cfd839e5358288be2368f )
+)
+
+game (
+	name "SD Gundam - Gashapon Wars (Japan) (Taikenban)"
+	description "SD Gundam - Gashapon Wars (Japan) (Taikenban)"
+	rom ( name "SD Gundam - Gashapon Wars (Japan) (Taikenban).iso" size 1459978240 crc 1644b443 md5 cbe0951ad0852fa269a3435c859d325d sha1 ff47e2bccfb74d000b2a745da57a0fdf9be56365 )
 )
 
 game (
@@ -8412,6 +8628,18 @@ game (
 )
 
 game (
+	name "Sims 2, The - Pets (Europe) (En,Fr,De)"
+	description "Sims 2, The - Pets (Europe) (En,Fr,De)"
+	rom ( name "Sims 2, The - Pets (Europe) (En,Fr,De).iso" size 1459978240 crc 0032356d md5 85cd1905195458ac93f07fa9fe836302 sha1 42047506fc923051d67c29107331b754244361ee )
+)
+
+game (
+	name "Sims 2, The - Pets (USA)"
+	description "Sims 2, The - Pets (USA)"
+	rom ( name "Sims 2, The - Pets (USA).iso" size 1459978240 crc be2b127c md5 f3f5b13600ae780e042a8dc7b4106751 sha1 38750d2b70e58165587a9f75fe8d82a1c4cd9381 )
+)
+
+game (
 	name "Sims 2, The (Europe) (En,Fr,De,Nl)"
 	description "Sims 2, The (Europe) (En,Fr,De,Nl)"
 	rom ( name "Sims 2, The (Europe) (En,Fr,De,Nl).iso" size 1459978240 crc e9bb9d5e md5 ab75f91fcd50f76fcaf184d89beb7270 sha1 644577943df675b0f91c56e3aa9c3edbf4bc096e )
@@ -8424,15 +8652,15 @@ game (
 )
 
 game (
-	name "Sims 2, The - Pets (Europe) (En,Fr,De)"
-	description "Sims 2, The - Pets (Europe) (En,Fr,De)"
-	rom ( name "Sims 2, The - Pets (Europe) (En,Fr,De).iso" size 1459978240 crc 0032356d md5 85cd1905195458ac93f07fa9fe836302 sha1 42047506fc923051d67c29107331b754244361ee )
+	name "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl)"
+	rom ( name "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl).iso" size 1459978240 crc f6eedf9a md5 5a1bac829b877003eaf0752dc4dd1acc sha1 0cf28bff09e4912f0440681db4109b7e058e9a06 )
 )
 
 game (
-	name "Sims 2, The - Pets (USA)"
-	description "Sims 2, The - Pets (USA)"
-	rom ( name "Sims 2, The - Pets (USA).iso" size 1459978240 crc be2b127c md5 f3f5b13600ae780e042a8dc7b4106751 sha1 38750d2b70e58165587a9f75fe8d82a1c4cd9381 )
+	name "Sims, The - Bustin' Out (USA)"
+	description "Sims, The - Bustin' Out (USA)"
+	rom ( name "Sims, The - Bustin' Out (USA).iso" size 1459978240 crc 6939bbc4 md5 ed9dd7a0bdbb2057a0b3c1b771129769 sha1 59d2a3308ee4c3ef853ffc472e556baf20156f4e )
 )
 
 game (
@@ -8451,18 +8679,6 @@ game (
 	name "Sims, The (USA)"
 	description "Sims, The (USA)"
 	rom ( name "Sims, The (USA).iso" size 1459978240 crc 019589c8 md5 554d552c82fb423caeb0e98e7d8c7650 sha1 378a3589e3f4e35ac844c9cfe6a25f9e764c9299 )
-)
-
-game (
-	name "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl)"
-	description "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl)"
-	rom ( name "Sims, The - Bustin' Out (Europe) (En,Fr,De,Es,It,Nl).iso" size 1459978240 crc f6eedf9a md5 5a1bac829b877003eaf0752dc4dd1acc sha1 0cf28bff09e4912f0440681db4109b7e058e9a06 )
-)
-
-game (
-	name "Sims, The - Bustin' Out (USA)"
-	description "Sims, The - Bustin' Out (USA)"
-	rom ( name "Sims, The - Bustin' Out (USA).iso" size 1459978240 crc 6939bbc4 md5 ed9dd7a0bdbb2057a0b3c1b771129769 sha1 59d2a3308ee4c3ef853ffc472e556baf20156f4e )
 )
 
 game (
@@ -8520,12 +8736,6 @@ game (
 )
 
 game (
-	name "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es)"
-	description "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es)"
-	rom ( name "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es).iso" size 1459978240 crc df558413 md5 33a86929c71dcb0cab980121379eb5de sha1 7c969b25acfec194382ff24f8ebcc7e7671368d9 )
-)
-
-game (
 	name "Sonic Adventure DX - Director's Cut (Europe) (En,Ja,Fr,De,Es)"
 	description "Sonic Adventure DX - Director's Cut (Europe) (En,Ja,Fr,De,Es)"
 	rom ( name "Sonic Adventure DX - Director's Cut (Europe) (En,Ja,Fr,De,Es).iso" size 1459978240 crc 9ba7f3af md5 2136ed4b6a27dc64066c8a689918dce0 sha1 99ce5f51388919a95d571a730c50362ba14277c3 )
@@ -8535,6 +8745,12 @@ game (
 	name "Sonic Adventure DX - Director's Cut (USA) (En,Ja,Fr,De,Es)"
 	description "Sonic Adventure DX - Director's Cut (USA) (En,Ja,Fr,De,Es)"
 	rom ( name "Sonic Adventure DX - Director's Cut (USA) (En,Ja,Fr,De,Es).iso" size 1459978240 crc f4e4e141 md5 b5d979135826338fa0d90d40f907c9b2 sha1 70c7ae65cd83c65675e279cd15cbf69cdda29565 )
+)
+
+game (
+	name "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es)"
+	description "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es)"
+	rom ( name "Sonic Adventure DX (Japan) (En,Ja,Fr,De,Es).iso" size 1459978240 crc df558413 md5 33a86929c71dcb0cab980121379eb5de sha1 7c969b25acfec194382ff24f8ebcc7e7671368d9 )
 )
 
 game (
@@ -8622,21 +8838,27 @@ game (
 )
 
 game (
-	name "Soulcalibur II (USA) (Demo)"
-	description "Soulcalibur II (USA) (Demo)"
-	rom ( name "Soulcalibur II (USA) (Demo).iso" size 1459978240 crc 989e11d9 md5 a1b88b3099aaeaffbc11204ea0dfe6e3 sha1 d4edce2b38653e232ac8e7a16139f7093bb4448d )
-)
-
-game (
 	name "Soulcalibur II (USA)"
 	description "Soulcalibur II (USA)"
 	rom ( name "Soulcalibur II (USA).iso" size 1459978240 crc 89779810 md5 0c8ec93f3f4f4e00d5a46443225c169c sha1 49f281fbe7086a4eb400a03c869fcac5f90df55a )
 )
 
 game (
+	name "Soulcalibur II (USA) (Demo)"
+	description "Soulcalibur II (USA) (Demo)"
+	rom ( name "Soulcalibur II (USA) (Demo).iso" size 1459978240 crc 989e11d9 md5 a1b88b3099aaeaffbc11204ea0dfe6e3 sha1 d4edce2b38653e232ac8e7a16139f7093bb4448d )
+)
+
+game (
 	name "Space Raiders (Japan)"
 	description "Space Raiders (Japan)"
 	rom ( name "Space Raiders (Japan).iso" size 1459978240 crc aae6405b md5 025ad670dd18dad2b2af515bce6abafa sha1 5949871c1c8cb1780857354b70a911e85a6a886e )
+)
+
+game (
+	name "Space Raiders (Korea)"
+	description "Space Raiders (Korea)"
+	rom ( name "Space Raiders (Korea).iso" size 1459978240 crc c0c2035b md5 37dc248647182a0dfb2d0145f309e492 sha1 7455dd8fd823201a94d2adc9c7947aed01acaa2c )
 )
 
 game (
@@ -8826,6 +9048,84 @@ game (
 )
 
 game (
+	name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.00)"
+	description "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.00)"
+	rom ( name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.00).iso" size 1459978240 crc 0aee62b4 md5 aa7c57f97d5cae9307fb03c04766420b sha1 f28436d3ac6d1fbaa9fa5e4b2ed8b2e9db0364da )
+)
+
+game (
+	name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.01)"
+	description "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.01)"
+	rom ( name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It) (v1.01).iso" size 1459978240 crc 8dd1d444 md5 4d9c85203f6cdb4bd8c92415d812728a sha1 ec93bda1ac8010df333d881600a608cc9d08fe8d )
+)
+
+game (
+	name "SRS - Street Racing Syndicate (USA)"
+	description "SRS - Street Racing Syndicate (USA)"
+	rom ( name "SRS - Street Racing Syndicate (USA).iso" size 1459978240 crc 718f9112 md5 548dda53207aff4f16b1942ad62fe812 sha1 51f51587bf1ba669cb0745501f3e2395fb80cb4a )
+)
+
+game (
+	name "SSX 3 (Europe) (En,Fr,De,Es)"
+	description "SSX 3 (Europe) (En,Fr,De,Es)"
+	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8eb360c9 md5 087a5a59d976b0843ab5917df38d0b45 sha1 f9e40540666e7d5c5f1ffee5d28947cfdc89a9c9 )
+)
+
+game (
+	name "SSX 3 (Japan)"
+	description "SSX 3 (Japan)"
+	rom ( name "SSX 3 (Japan).iso" size 1459978240 crc 281ee750 md5 8b25854016fe7289cfa444543b2e9aa8 sha1 003e6c542d911cc1ef64f93f1a7aa9808cfb1779 )
+)
+
+game (
+	name "SSX 3 (USA)"
+	description "SSX 3 (USA)"
+	rom ( name "SSX 3 (USA).iso" size 1459978240 crc bd94fd62 md5 fb6ce25daf8550dae472b8d84596acc1 sha1 9f047c3c3389b5f2ad464afc472dd15cb0083474 )
+)
+
+game (
+	name "SSX On Tour (Europe)"
+	description "SSX On Tour (Europe)"
+	rom ( name "SSX On Tour (Europe).iso" size 1459978240 crc d8e0133a md5 733ddb87d8c86f1b85d54286757ae9f7 sha1 f6f62212eea172243f7247db390ae64e2a545299 )
+)
+
+game (
+	name "SSX On Tour (Europe) (En,Fr,De)"
+	description "SSX On Tour (Europe) (En,Fr,De)"
+	rom ( name "SSX On Tour (Europe) (En,Fr,De).iso" size 1459978240 crc 886defd6 md5 e86b6fc0db336d2e55c08b23d76ab554 sha1 2a6055689d79602d92a5bbbcf9d5a9613301d802 )
+)
+
+game (
+	name "SSX On Tour (USA)"
+	description "SSX On Tour (USA)"
+	rom ( name "SSX On Tour (USA).iso" size 1459978240 crc 4e61b495 md5 3eb9a702b5a42f81222ea47ae0c6cef0 sha1 f633939221a42114c5b185de796529a63ddc0839 )
+)
+
+game (
+	name "SSX On Tour with Mario (Japan)"
+	description "SSX On Tour with Mario (Japan)"
+	rom ( name "SSX On Tour with Mario (Japan).iso" size 1459978240 crc 9a452794 md5 43cc22b1d72b5fdc190bcb6ee58142dc sha1 e70d66334a81edd218f171f1d3690e680d38c215 )
+)
+
+game (
+	name "SSX Tricky (Europe) (En,Fr,De)"
+	description "SSX Tricky (Europe) (En,Fr,De)"
+	rom ( name "SSX Tricky (Europe) (En,Fr,De).iso" size 1459978240 crc e0e8b174 md5 54cabb3c41f91af0134e761a980b7da8 sha1 360c53b9e61f9beed6d31ff2e4782a60cdc111e3 )
+)
+
+game (
+	name "SSX Tricky (Japan)"
+	description "SSX Tricky (Japan)"
+	rom ( name "SSX Tricky (Japan).iso" size 1459978240 crc a0f36492 md5 bea4da9c3d9f965bd3c386f6eadb7de6 sha1 4241aa2d9c6f9722250cc388b5040b7f71da4985 )
+)
+
+game (
+	name "SSX Tricky (USA)"
+	description "SSX Tricky (USA)"
+	rom ( name "SSX Tricky (USA).iso" size 1459978240 crc 753173c7 md5 47c64f8e60ecd70161b772adb7f25109 sha1 7adecbf91fff0c2b5907b2fd725a11d060ef95e0 )
+)
+
+game (
 	name "Star Fox - Assault (Europe) (En,Fr,De,Es,It)"
 	description "Star Fox - Assault (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Star Fox - Assault (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc ee2d4247 md5 d77a7aa0d0e3bf52572ce4b8251c1339 sha1 5b4dd349d9fbf36024b7e729419b0f19e690f05f )
@@ -8952,18 +9252,6 @@ game (
 )
 
 game (
-	name "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample)"
-	description "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample)"
-	rom ( name "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample).iso" size 1459978240 crc 913ae6a5 md5 dc105cb68964a211f744c9f21eb6f229 sha1 3a12dbbc4a408cabea5274ee27aa268d0873df3c )
-)
-
-game (
-	name "Star Wars - Rogue Squadron II (Japan)"
-	description "Star Wars - Rogue Squadron II (Japan)"
-	rom ( name "Star Wars - Rogue Squadron II (Japan).iso" size 1459978240 crc eb88ddf3 md5 64c27983a9e05d05f980a9f5ce256358 sha1 60217e5b1f87148d2f34b7b58a9f1cad3fa62453 )
-)
-
-game (
 	name "Star Wars - Rogue Squadron II - Rogue Leader (Europe)"
 	description "Star Wars - Rogue Squadron II - Rogue Leader (Europe)"
 	rom ( name "Star Wars - Rogue Squadron II - Rogue Leader (Europe).iso" size 1459978240 crc 51fc19e0 md5 15c49ff1dc836d19a1f275ac46ef4398 sha1 0a0bf8aa760b6f3afadd299bbdf89ed8ec15ffba )
@@ -9000,21 +9288,27 @@ game (
 )
 
 game (
-	name "Star Wars - Rogue Squadron III (Japan)"
-	description "Star Wars - Rogue Squadron III (Japan)"
-	rom ( name "Star Wars - Rogue Squadron III (Japan).iso" size 1459978240 crc 496a6823 md5 54c100435255fbf2e94b2fa0446a7c62 sha1 2e361177b858ac0a84b4fc7a2b01ad7377c1b8f8 )
+	name "Star Wars - Rogue Squadron II (Japan)"
+	description "Star Wars - Rogue Squadron II (Japan)"
+	rom ( name "Star Wars - Rogue Squadron II (Japan).iso" size 1459978240 crc eb88ddf3 md5 64c27983a9e05d05f980a9f5ce256358 sha1 60217e5b1f87148d2f34b7b58a9f1cad3fa62453 )
 )
 
 game (
-	name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo)"
-	description "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo)"
-	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc 3657ba07 md5 7ae2720a0984e16489e2f049c224fe71 sha1 b47bc2a3bbcaa56b680d9efc2e2b32812ae42e04 )
+	name "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample)"
+	description "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample)"
+	rom ( name "Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample).iso" size 1459978240 crc 913ae6a5 md5 dc105cb68964a211f744c9f21eb6f229 sha1 3a12dbbc4a408cabea5274ee27aa268d0873df3c )
 )
 
 game (
 	name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It)"
 	description "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 54ca6364 md5 4e2e2806303314bda2cd989a86358653 sha1 f3134c1238fe86f343d2e8ac992d4e2f8ac09294 )
+)
+
+game (
+	name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo)"
+	description "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo)"
+	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc 3657ba07 md5 7ae2720a0984e16489e2f049c224fe71 sha1 b47bc2a3bbcaa56b680d9efc2e2b32812ae42e04 )
 )
 
 game (
@@ -9030,15 +9324,21 @@ game (
 )
 
 game (
+	name "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
+	description "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
+	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (USA).iso" size 1459978240 crc 040a6155 md5 a7e88ee9209080785c4923b571cc1936 sha1 4d648ddcc354e9ab15c51530501a4ca2ee087fb7 )
+)
+
+game (
 	name "Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc)"
 	description "Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc)"
 	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc).iso" size 1459978240 crc 1621d87a md5 236088fbf738089f5af43cafc360720a sha1 5f9596e1819cd2574a6846562dd67da0e08b81ec )
 )
 
 game (
-	name "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
-	description "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
-	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (USA).iso" size 1459978240 crc 040a6155 md5 a7e88ee9209080785c4923b571cc1936 sha1 4d648ddcc354e9ab15c51530501a4ca2ee087fb7 )
+	name "Star Wars - Rogue Squadron III (Japan)"
+	description "Star Wars - Rogue Squadron III (Japan)"
+	rom ( name "Star Wars - Rogue Squadron III (Japan).iso" size 1459978240 crc 496a6823 md5 54c100435255fbf2e94b2fa0446a7c62 sha1 2e361177b858ac0a84b4fc7a2b01ad7377c1b8f8 )
 )
 
 game (
@@ -9216,15 +9516,15 @@ game (
 )
 
 game (
-	name "Super Monkey Ball 2 (Japan) (Taikenban)"
-	description "Super Monkey Ball 2 (Japan) (Taikenban)"
-	rom ( name "Super Monkey Ball 2 (Japan) (Taikenban).iso" size 1459978240 crc a589af5a md5 504c7cc0324b8db686f7a0812673ee75 sha1 81c0a8cad85df074e24c9a2d029633e3cca5461b )
-)
-
-game (
 	name "Super Monkey Ball 2 (Japan)"
 	description "Super Monkey Ball 2 (Japan)"
 	rom ( name "Super Monkey Ball 2 (Japan).iso" size 1459978240 crc eef3b2d8 md5 bdda137a7a73b0214c61deb14288de70 sha1 579bc2001c57009aac374e17ba9a5a9b36928506 )
+)
+
+game (
+	name "Super Monkey Ball 2 (Japan) (Taikenban)"
+	description "Super Monkey Ball 2 (Japan) (Taikenban)"
+	rom ( name "Super Monkey Ball 2 (Japan) (Taikenban).iso" size 1459978240 crc a589af5a md5 504c7cc0324b8db686f7a0812673ee75 sha1 81c0a8cad85df074e24c9a2d029633e3cca5461b )
 )
 
 game (
@@ -9324,51 +9624,15 @@ game (
 )
 
 game (
-	name "TMNT (Europe) (En,Fr,De,Es,It)"
-	description "TMNT (Europe) (En,Fr,De,Es,It)"
-	rom ( name "TMNT (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 1731f531 md5 6e958c31a57777ae696941a6bddf3803 sha1 2432202be9f6422b7af07950d7d99fb94668cbf2 )
+	name "SX Superstar (Europe) (En,Fr,De,Es)"
+	description "SX Superstar (Europe) (En,Fr,De,Es)"
+	rom ( name "SX Superstar (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 620f8c2d md5 7b9dbf456858458f45687ab15f95ff16 sha1 5af235c4143596f1a0353ace32a6f48cae8dbfb3 )
 )
 
 game (
-	name "TMNT (USA) (En,Fr,Es)"
-	description "TMNT (USA) (En,Fr,Es)"
-	rom ( name "TMNT (USA) (En,Fr,Es).iso" size 1459978240 crc 9f10edbc md5 c42b49bd54bf0f0195e6cc2241d8dfeb sha1 590f408297cc12b46528a12c7b6b8ea9a439bfdd )
-)
-
-game (
-	name "TMNT - Mutant Melee (USA)"
-	description "TMNT - Mutant Melee (USA)"
-	rom ( name "TMNT - Mutant Melee (USA).iso" size 1459978240 crc 2eb43a22 md5 b17b54ae5e8efc4316e97676a9716004 sha1 0c6f6bf4726e8dec64b5d2dcb6a10259b5f9b201 )
-)
-
-game (
-	name "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It)"
-	description "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It)"
-	rom ( name "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc b30a2bad md5 a1ce51bc67b68cd7264e9c13ed3f4c16 sha1 1d9387eef888176eb42e12b4e1b85dde1a0c1d95 )
-)
-
-game (
-	name "TY the Tasmanian Tiger (USA)"
-	description "TY the Tasmanian Tiger (USA)"
-	rom ( name "TY the Tasmanian Tiger (USA).iso" size 1459978240 crc f4d308cc md5 8ab3b0df681cd40cdb9ed70b3f8346f6 sha1 f7c2a13498af113eea7ba6f18903480f52cd398d )
-)
-
-game (
-	name "TY the Tasmanian Tiger - Night of the Quinkan (USA)"
-	description "TY the Tasmanian Tiger - Night of the Quinkan (USA)"
-	rom ( name "TY the Tasmanian Tiger - Night of the Quinkan (USA).iso" size 1459978240 crc 0580f689 md5 96b98555222f5450579af11d89a1ce3b sha1 34c4809c04868086d75c89ba2e1554a5163db85c )
-)
-
-game (
-	name "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De)"
-	description "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De)"
-	rom ( name "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De).iso" size 1459978240 crc 28f8097d md5 f1bfb131500479bd6d47898003f8e3a8 sha1 b75e55f94d3392e028e5e530eb6aba72afdf4351 )
-)
-
-game (
-	name "TY the Tasmanian Tiger 2 - Bush Rescue (USA)"
-	description "TY the Tasmanian Tiger 2 - Bush Rescue (USA)"
-	rom ( name "TY the Tasmanian Tiger 2 - Bush Rescue (USA).iso" size 1459978240 crc 228c96be md5 1ebafa9484da7438da17401c526de12e sha1 ecd85c6a6bdf4898b892625ac23a22edf8c62eec )
+	name "SX Superstar (USA)"
+	description "SX Superstar (USA)"
+	rom ( name "SX Superstar (USA).iso" size 1459978240 crc be6371cb md5 730b0308cd2f94302130f449202bdaeb sha1 7a9635030d77b193ab901cddf837e9b71fd2a1ce )
 )
 
 game (
@@ -9495,6 +9759,12 @@ game (
 	name "Taz - Wanted (USA) (En,Fr,De,Es,It)"
 	description "Taz - Wanted (USA) (En,Fr,De,Es,It)"
 	rom ( name "Taz - Wanted (USA) (En,Fr,De,Es,It).iso" size 1459978240 crc a6c9c6a1 md5 029dfab32a3e3f360bbb902dcc1f1320 sha1 0a640b9988f16f133a50fd3366ee0f806776a4b8 )
+)
+
+game (
+	name "Teen Titans (France) (En,Fr)"
+	description "Teen Titans (France) (En,Fr)"
+	rom ( name "Teen Titans (France) (En,Fr).iso" size 1459978240 crc b9dd64cc md5 8d8c3ced9dd4238c0a4445c30dcd8979 sha1 8afa2ac34626b8a2ea4361ead4f96397cbc9d67d )
 )
 
 game (
@@ -9732,6 +10002,30 @@ game (
 )
 
 game (
+	name "TMNT - Mutant Melee (USA)"
+	description "TMNT - Mutant Melee (USA)"
+	rom ( name "TMNT - Mutant Melee (USA).iso" size 1459978240 crc 2eb43a22 md5 b17b54ae5e8efc4316e97676a9716004 sha1 0c6f6bf4726e8dec64b5d2dcb6a10259b5f9b201 )
+)
+
+game (
+	name "TMNT (Europe) (En,Fr,De,Es,It)"
+	description "TMNT (Europe) (En,Fr,De,Es,It)"
+	rom ( name "TMNT (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 1731f531 md5 6e958c31a57777ae696941a6bddf3803 sha1 2432202be9f6422b7af07950d7d99fb94668cbf2 )
+)
+
+game (
+	name "TMNT (USA) (En,Fr,Es)"
+	description "TMNT (USA) (En,Fr,Es)"
+	rom ( name "TMNT (USA) (En,Fr,Es).iso" size 1459978240 crc 9f10edbc md5 c42b49bd54bf0f0195e6cc2241d8dfeb sha1 590f408297cc12b46528a12c7b6b8ea9a439bfdd )
+)
+
+game (
+	name "Tom and Jerry in War of the Whiskers (USA)"
+	description "Tom and Jerry in War of the Whiskers (USA)"
+	rom ( name "Tom and Jerry in War of the Whiskers (USA).iso" size 1459978240 crc 6435e657 md5 3f837a87dad6384731b1fa1dcae03466 sha1 6edc7f06977580b75fb9f08a05aca676f2c39e12 )
+)
+
+game (
 	name "Tom Clancy's Ghost Recon (Europe) (En,Fr,Es,It)"
 	description "Tom Clancy's Ghost Recon (Europe) (En,Fr,Es,It)"
 	rom ( name "Tom Clancy's Ghost Recon (Europe) (En,Fr,Es,It).iso" size 1459978240 crc 40c8b0a6 md5 14b186c3cb5224527e15ae5b7344ab11 sha1 c249b5c55365eccc55c841243d901f3a6e8446d8 )
@@ -9786,30 +10080,6 @@ game (
 )
 
 game (
-	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo)"
-	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo)"
-	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc ce53a492 md5 f67314c8c39db317575ae8c8f9d90964 sha1 c35b5c78a5380ea481eabdb60c1540f9d1e691d2 )
-)
-
-game (
-	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo)"
-	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo)"
-	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo).iso" size 1459978240 crc 981dbbb1 md5 dd616fed6c2f2f703c3bc14abbd61826 sha1 a601595d6780636483d3ee94be1495b808dc0c35 )
-)
-
-game (
-	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)"
-	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc f21a73a8 md5 d7e09902b7e7c266c59577cb66b3c863 sha1 7eac076ccc42a314a1a6696a7f91ced828a9857a )
-)
-
-game (
-	name "Tom Clancy's Splinter Cell (USA)"
-	description "Tom Clancy's Splinter Cell (USA)"
-	rom ( name "Tom Clancy's Splinter Cell (USA).iso" size 1459978240 crc cbf5d874 md5 56c6f8a0c98e23ffbcde0e1139146001 sha1 f45ed55c0e7be802d444a1bc4509c8cabbce4d89 )
-)
-
-game (
 	name "Tom Clancy's Splinter Cell - Chaos Theory (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	description "Tom Clancy's Splinter Cell - Chaos Theory (Europe) (En,Fr,De,Es,It) (Disc 1)"
 	rom ( name "Tom Clancy's Splinter Cell - Chaos Theory (Europe) (En,Fr,De,Es,It) (Disc 1).iso" size 1459978240 crc a8498ddc md5 c802fcb5ae87d4a3db3678a862c09f3b sha1 ad1240f74cbe7611177a8cc5e607aec038c4482c )
@@ -9858,15 +10128,15 @@ game (
 )
 
 game (
-	name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It)"
-	description "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It)"
-	rom ( name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It).iso" size 1459978240 crc 385aa575 md5 c377b2cf4ae34d593ac307737787d5b7 sha1 6d4edfbf3542db027516dafe3e86282fd302021a )
-)
-
-game (
 	name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe)"
 	description "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe)"
 	rom ( name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe).iso" size 1459978240 crc 355d85bd md5 398f0a775bc1c0ba2df9725f4c2ac8ba sha1 ac9d2d98d1977dfea50df4ed05b22dd6340fb55e )
+)
+
+game (
+	name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It)"
+	description "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It)"
+	rom ( name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Fr,De,Es,It).iso" size 1459978240 crc 385aa575 md5 c377b2cf4ae34d593ac307737787d5b7 sha1 6d4edfbf3542db027516dafe3e86282fd302021a )
 )
 
 game (
@@ -9876,9 +10146,27 @@ game (
 )
 
 game (
-	name "Tom and Jerry in War of the Whiskers (USA)"
-	description "Tom and Jerry in War of the Whiskers (USA)"
-	rom ( name "Tom and Jerry in War of the Whiskers (USA).iso" size 1459978240 crc 6435e657 md5 3f837a87dad6384731b1fa1dcae03466 sha1 6edc7f06977580b75fb9f08a05aca676f2c39e12 )
+	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)"
+	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc f21a73a8 md5 d7e09902b7e7c266c59577cb66b3c863 sha1 7eac076ccc42a314a1a6696a7f91ced828a9857a )
+)
+
+game (
+	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo)"
+	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo)"
+	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc ce53a492 md5 f67314c8c39db317575ae8c8f9d90964 sha1 c35b5c78a5380ea481eabdb60c1540f9d1e691d2 )
+)
+
+game (
+	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo)"
+	description "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo)"
+	rom ( name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It) (Promo).iso" size 1459978240 crc 981dbbb1 md5 dd616fed6c2f2f703c3bc14abbd61826 sha1 a601595d6780636483d3ee94be1495b808dc0c35 )
+)
+
+game (
+	name "Tom Clancy's Splinter Cell (USA)"
+	description "Tom Clancy's Splinter Cell (USA)"
+	rom ( name "Tom Clancy's Splinter Cell (USA).iso" size 1459978240 crc cbf5d874 md5 56c6f8a0c98e23ffbcde0e1139146001 sha1 f45ed55c0e7be802d444a1bc4509c8cabbce4d89 )
 )
 
 game (
@@ -10032,15 +10320,15 @@ game (
 )
 
 game (
-	name "True Crime - New York City (Europe) (Fr,Es,It)"
-	description "True Crime - New York City (Europe) (Fr,Es,It)"
-	rom ( name "True Crime - New York City (Europe) (Fr,Es,It).iso" size 1459978240 crc d90e962a md5 7a16c6a75cbc069143eea5962be2eeb1 sha1 51e18ca04a6673699809d24a7192dd7a219a6f4e )
-)
-
-game (
 	name "True Crime - New York City (Europe)"
 	description "True Crime - New York City (Europe)"
 	rom ( name "True Crime - New York City (Europe).iso" size 1459978240 crc 0307ccb5 md5 8208a1904e82dd8a15f9088711520225 sha1 7a08b5daea04c1a16bcf574e3edc3c61bd230097 )
+)
+
+game (
+	name "True Crime - New York City (Europe) (Fr,Es,It)"
+	description "True Crime - New York City (Europe) (Fr,Es,It)"
+	rom ( name "True Crime - New York City (Europe) (Fr,Es,It).iso" size 1459978240 crc d90e962a md5 7a16c6a75cbc069143eea5962be2eeb1 sha1 51e18ca04a6673699809d24a7192dd7a219a6f4e )
 )
 
 game (
@@ -10098,6 +10386,36 @@ game (
 )
 
 game (
+	name "TY the Tasmanian Tiger - Night of the Quinkan (USA)"
+	description "TY the Tasmanian Tiger - Night of the Quinkan (USA)"
+	rom ( name "TY the Tasmanian Tiger - Night of the Quinkan (USA).iso" size 1459978240 crc 0580f689 md5 96b98555222f5450579af11d89a1ce3b sha1 34c4809c04868086d75c89ba2e1554a5163db85c )
+)
+
+game (
+	name "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It)"
+	description "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It)"
+	rom ( name "TY the Tasmanian Tiger (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc b30a2bad md5 a1ce51bc67b68cd7264e9c13ed3f4c16 sha1 1d9387eef888176eb42e12b4e1b85dde1a0c1d95 )
+)
+
+game (
+	name "TY the Tasmanian Tiger (USA)"
+	description "TY the Tasmanian Tiger (USA)"
+	rom ( name "TY the Tasmanian Tiger (USA).iso" size 1459978240 crc f4d308cc md5 8ab3b0df681cd40cdb9ed70b3f8346f6 sha1 f7c2a13498af113eea7ba6f18903480f52cd398d )
+)
+
+game (
+	name "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De)"
+	description "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De)"
+	rom ( name "TY the Tasmanian Tiger 2 - Bush Rescue (Europe) (En,Fr,De).iso" size 1459978240 crc 28f8097d md5 f1bfb131500479bd6d47898003f8e3a8 sha1 b75e55f94d3392e028e5e530eb6aba72afdf4351 )
+)
+
+game (
+	name "TY the Tasmanian Tiger 2 - Bush Rescue (USA)"
+	description "TY the Tasmanian Tiger 2 - Bush Rescue (USA)"
+	rom ( name "TY the Tasmanian Tiger 2 - Bush Rescue (USA).iso" size 1459978240 crc 228c96be md5 1ebafa9484da7438da17401c526de12e sha1 ecd85c6a6bdf4898b892625ac23a22edf8c62eec )
+)
+
+game (
 	name "UEFA Champions League 2004-2005 (Europe)"
 	description "UEFA Champions League 2004-2005 (Europe)"
 	rom ( name "UEFA Champions League 2004-2005 (Europe).iso" size 1459978240 crc 73c4baf2 md5 8ea0a562cd55ba9dc877ae6b565f4bda sha1 86f390b815688ce7358e813060153d3516cf6640 )
@@ -10134,21 +10452,9 @@ game (
 )
 
 game (
-	name "Ultimate Cheats for Use with Enter the Matrix (UK) (Unl)"
-	description "Ultimate Cheats for Use with Enter the Matrix (UK) (Unl)"
-	rom ( name "Ultimate Cheats for Use with Enter the Matrix (UK) (Unl).iso" size 1459978240 crc 2815b922 md5 2a1ba0f54f320ee5fc664cb9e9ca3f1b sha1 4ecf67a3220477382f4ea251ae25588930a6c3de )
-)
-
-game (
-	name "Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl)"
-	description "Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl)"
-	rom ( name "Ultimate Cheats for Use with Mario Kart - Double Dash!! (UK) (Unl).iso" size 1459978240 crc 4913dc0f md5 b664b68b01cd760bb1379e9946424373 sha1 8948c6d999374e1d190d956dcdcc0528ec49d8e6 )
-)
-
-game (
-	name "Ultimate Cheats fuer Enter the Matrix (Germany) (Unl)"
-	description "Ultimate Cheats fuer Enter the Matrix (Germany) (Unl)"
-	rom ( name "Ultimate Cheats fuer Enter the Matrix (Germany) (Unl).iso" size 1459978240 crc c7e200f3 md5 91210e67823aa225bb0c4106f9071413 sha1 817d938ed89dfe26dde227ea792d60c211e4a5be )
+	name "Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker (UK) (Unl)"
+	description "Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker (UK) (Unl)"
+	rom ( name "Ultimate Cheats for Use with The Legend of Zelda - The Wind Waker (UK) (Unl).iso" size 1459978240 crc 42257ce1 md5 23a63fb620a33db0289ecfc5457160ee sha1 80d2b087862d5f148870c212e721131571811e3f )
 )
 
 game (
@@ -10164,27 +10470,9 @@ game (
 )
 
 game (
-	name "Ultimate Codes Max Pack (USA) (Unl)"
-	description "Ultimate Codes Max Pack (USA) (Unl)"
-	rom ( name "Ultimate Codes Max Pack (USA) (Unl).iso" size 1459978240 crc aaff05b0 md5 0d8fc6262f59b463a12a4e689bd8da90 sha1 1f88836eb44e1323cafe7f007e0ec12c3ee00179 )
-)
-
-game (
 	name "Ultimate Codes for Use with Animal Crossing (USA) (Unl)"
 	description "Ultimate Codes for Use with Animal Crossing (USA) (Unl)"
 	rom ( name "Ultimate Codes for Use with Animal Crossing (USA) (Unl).iso" size 1459978240 crc 6611ebb9 md5 9641b07e6aad8010520aff52be904dfd sha1 69aa9b61f5d32e4b8bace16939b5a41aa9e4e46d )
-)
-
-game (
-	name "Ultimate Codes for Use with Enter the Matrix (USA) (Unl)"
-	description "Ultimate Codes for Use with Enter the Matrix (USA) (Unl)"
-	rom ( name "Ultimate Codes for Use with Enter the Matrix (USA) (Unl).iso" size 1459978240 crc e7f301b7 md5 4d4ecc6ea710e0b6380f1211be51dbe4 sha1 c074cdf8b4634ff920434bea9298e6cc0ad16353 )
-)
-
-game (
-	name "Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl)"
-	description "Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl)"
-	rom ( name "Ultimate Codes for Use with Final Fantasy - Crystal Chronicles (USA) (Unl).iso" size 1459978240 crc a04b47b2 md5 58524db19505b1f975b7c53f337b7a5a sha1 fbbd09c399e3b0c35156b9faa2279469ade30e2d )
 )
 
 game (
@@ -10197,18 +10485,6 @@ game (
 	name "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker (USA) (Unl)"
 	description "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker (USA) (Unl)"
 	rom ( name "Ultimate Codes for Use with The Legend of Zelda - The Wind Waker (USA) (Unl).iso" size 1459978240 crc 4805f346 md5 2d2baf2357b963d7900998a4b7a0824f sha1 aefc60ae7ec0f0ac715552b13bf5457d88360885 )
-)
-
-game (
-	name "Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl)"
-	description "Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl)"
-	rom ( name "Ultimate Codes for Use with The Legend of Zelda - Twilight Princess (USA) (Unl).iso" size 1459978240 crc 31daf617 md5 fdec4360f182abad56603d06b5db5915 sha1 b5ae7e27f74dd2b84b4c874664cb37182e4de6ae )
-)
-
-game (
-	name "Ultimate Codes for Use with Wario World (USA) (Unl)"
-	description "Ultimate Codes for Use with Wario World (USA) (Unl)"
-	rom ( name "Ultimate Codes for Use with Wario World (USA) (Unl).iso" size 1459978240 crc 20410c84 md5 fbe98461f7401921ad9a2f0370c2a910 sha1 f9f1a00c719c49969febab32558307705aa8bdb1 )
 )
 
 game (
@@ -10257,18 +10533,6 @@ game (
 	name "Ultimate Spider-Man (USA)"
 	description "Ultimate Spider-Man (USA)"
 	rom ( name "Ultimate Spider-Man (USA).iso" size 1459978240 crc 1858118d md5 2fc4364cba13534eacda868311c3d6e4 sha1 602dc1ff1537f5944093fe944a24a16dcf1144fa )
-)
-
-game (
-	name "Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl)"
-	description "Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl)"
-	rom ( name "Ultimative Cheatcodes fuer Final Fantasy - Crystal Chronicles (Germany) (Unl).iso" size 1459978240 crc 1f756dad md5 1cd54bc9a93b94bff0569339b51eb2b1 sha1 1ddada2e0a4ad8a5fc314d1e98fce3e0e4f6d4b1 )
-)
-
-game (
-	name "Ultimative Cheats Greatest Hits 2003 (Germany) (Unl)"
-	description "Ultimative Cheats Greatest Hits 2003 (Germany) (Unl)"
-	rom ( name "Ultimative Cheats Greatest Hits 2003 (Germany) (Unl).iso" size 1459978240 crc 521901a5 md5 988339b7acc62dd2c1ddc7d18eaf5eb5 sha1 7b8f16bb3b736a2e35ff9cd255abb3ee17603598 )
 )
 
 game (
@@ -10344,6 +10608,24 @@ game (
 )
 
 game (
+	name "Viewtiful Joe - Battle Carnival (Japan)"
+	description "Viewtiful Joe - Battle Carnival (Japan)"
+	rom ( name "Viewtiful Joe - Battle Carnival (Japan).iso" size 1459978240 crc 83f0950c md5 eba1f35591d9c04e8ecfbe0fab1b6d5c sha1 378808c3f78444f70f28e98b30a82dab63d63e65 )
+)
+
+game (
+	name "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It)"
+	description "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 3a26b188 md5 41dac2e1ff9d5eee1b939fac3165af2f sha1 555789c864fa4fa3d8f21d502702fbf622a4eea1 )
+)
+
+game (
+	name "Viewtiful Joe - Red Hot Rumble (USA)"
+	description "Viewtiful Joe - Red Hot Rumble (USA)"
+	rom ( name "Viewtiful Joe - Red Hot Rumble (USA).iso" size 1459978240 crc 68af0a7d md5 8632b2fde4697a5fa37d11f753487ac6 sha1 c166e3a11af341af8a2d939b71b855ede56208ba )
+)
+
+game (
 	name "Viewtiful Joe (Europe) (En,Fr,De,Es,It)"
 	description "Viewtiful Joe (Europe) (En,Fr,De,Es,It)"
 	rom ( name "Viewtiful Joe (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 205a62cf md5 a1a4dd42b98207b744215e9e1140de11 sha1 dd5739a45974f70f4ce1ce0e309d2341cde5eac9 )
@@ -10374,21 +10656,9 @@ game (
 )
 
 game (
-	name "Viewtiful Joe - Battle Carnival (Japan)"
-	description "Viewtiful Joe - Battle Carnival (Japan)"
-	rom ( name "Viewtiful Joe - Battle Carnival (Japan).iso" size 1459978240 crc 83f0950c md5 eba1f35591d9c04e8ecfbe0fab1b6d5c sha1 378808c3f78444f70f28e98b30a82dab63d63e65 )
-)
-
-game (
-	name "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It)"
-	description "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Viewtiful Joe - Red Hot Rumble (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 3a26b188 md5 41dac2e1ff9d5eee1b939fac3165af2f sha1 555789c864fa4fa3d8f21d502702fbf622a4eea1 )
-)
-
-game (
-	name "Viewtiful Joe - Red Hot Rumble (USA)"
-	description "Viewtiful Joe - Red Hot Rumble (USA)"
-	rom ( name "Viewtiful Joe - Red Hot Rumble (USA).iso" size 1459978240 crc 68af0a7d md5 8632b2fde4697a5fa37d11f753487ac6 sha1 c166e3a11af341af8a2d939b71b855ede56208ba )
+	name "Viewtiful Joe 2 - Black Film no Nazo (Japan)"
+	description "Viewtiful Joe 2 - Black Film no Nazo (Japan)"
+	rom ( name "Viewtiful Joe 2 - Black Film no Nazo (Japan).iso" size 1459978240 crc 3b2e6215 md5 4ec086aa491d7623a7b75b8e898d3175 sha1 9c0da460719a82ebf32465c1b69d66bc31c3b637 )
 )
 
 game (
@@ -10401,12 +10671,6 @@ game (
 	name "Viewtiful Joe 2 (USA)"
 	description "Viewtiful Joe 2 (USA)"
 	rom ( name "Viewtiful Joe 2 (USA).iso" size 1459978240 crc f07ac0d5 md5 a699c7877262014a1aee35793a945875 sha1 0d28d082d9c4860661cda87e868fc242cd9d2453 )
-)
-
-game (
-	name "Viewtiful Joe 2 - Black Film no Nazo (Japan)"
-	description "Viewtiful Joe 2 - Black Film no Nazo (Japan)"
-	rom ( name "Viewtiful Joe 2 - Black Film no Nazo (Japan).iso" size 1459978240 crc 3b2e6215 md5 4ec086aa491d7623a7b75b8e898d3175 sha1 9c0da460719a82ebf32465c1b69d66bc31c3b637 )
 )
 
 game (
@@ -10446,129 +10710,21 @@ game (
 )
 
 game (
-	name "WTA Tour Tennis (USA)"
-	description "WTA Tour Tennis (USA)"
-	rom ( name "WTA Tour Tennis (USA).iso" size 1459978240 crc 2869aa07 md5 b52269da25e94e6f74bff7d49093852e sha1 a1485e794bd5f995805d91c133f33307eb76a8c4 )
-)
-
-game (
-	name "WTA Tour Tennis - Pro Evolution (Japan)"
-	description "WTA Tour Tennis - Pro Evolution (Japan)"
-	rom ( name "WTA Tour Tennis - Pro Evolution (Japan).iso" size 1459978240 crc 12f33c3f md5 dbd1c1e7b7861598018e7ce5b274e587 sha1 b13b6b1ea76df7e1518a1a0fe16757339736a056 )
-)
-
-game (
-	name "WWE Crush Hour (Europe)"
-	description "WWE Crush Hour (Europe)"
-	rom ( name "WWE Crush Hour (Europe).iso" size 1459978240 crc 45ba3b10 md5 a5149505a6929d0f4879eb2905ce9f00 sha1 0c5bf0fed3a8b82531221dca6405570400aaf6dc )
-)
-
-game (
-	name "WWE Crush Hour (USA)"
-	description "WWE Crush Hour (USA)"
-	rom ( name "WWE Crush Hour (USA).iso" size 1459978240 crc 0f41d7a7 md5 df519bfd14bee790fe2d644a0a963507 sha1 3016f706eb15fedfd663699697d9bfb91315b336 )
-)
-
-game (
-	name "WWE Day of Reckoning (Europe) (v1.00)"
-	description "WWE Day of Reckoning (Europe) (v1.00)"
-	rom ( name "WWE Day of Reckoning (Europe) (v1.00).iso" size 1459978240 crc 54be3da6 md5 18ee1317099ae3d1164278e8b17f6569 sha1 435be34e19a29c10d8643fe213416140a1cddf5b )
-)
-
-game (
-	name "WWE Day of Reckoning (Europe) (v1.01)"
-	description "WWE Day of Reckoning (Europe) (v1.01)"
-	rom ( name "WWE Day of Reckoning (Europe) (v1.01).iso" size 1459978240 crc f1960a2b md5 48626d24a99cdf44e8b1d8acc099f9b5 sha1 cad7358cc4262d7d144620b9e5fe04662b2e436f )
-)
-
-game (
-	name "WWE Day of Reckoning (Japan)"
-	description "WWE Day of Reckoning (Japan)"
-	rom ( name "WWE Day of Reckoning (Japan).iso" size 1459978240 crc dbd7ef56 md5 8d9c9f1c93fb20efd725230613b5496d sha1 0ea922e28e16881c7352f40920dbf9a4452182d4 )
-)
-
-game (
-	name "WWE Day of Reckoning (USA) (v1.00)"
-	description "WWE Day of Reckoning (USA) (v1.00)"
-	rom ( name "WWE Day of Reckoning (USA) (v1.00).iso" size 1459978240 crc 5a944fd2 md5 509b1a90c4ba801ad609f957cbe03e64 sha1 eaefe9d80198b598cba19a3a13edf2d9d3cce7ce )
-)
-
-game (
-	name "WWE Day of Reckoning (USA) (v1.01)"
-	description "WWE Day of Reckoning (USA) (v1.01)"
-	rom ( name "WWE Day of Reckoning (USA) (v1.01).iso" size 1459978240 crc 6dba0ca7 md5 8bbaafee99f47ffe6db7c7b8637802fc sha1 9117498d0a873631e1bb9b29ed42c1b882dfbf5e )
-)
-
-game (
-	name "WWE Day of Reckoning 2 (Europe)"
-	description "WWE Day of Reckoning 2 (Europe)"
-	rom ( name "WWE Day of Reckoning 2 (Europe).iso" size 1459978240 crc 069a9097 md5 4aba987ccdc00115e01c91ef5ea71bbc sha1 117b885e85c2b3b246aff1bebe331f821d6cc955 )
-)
-
-game (
-	name "WWE Day of Reckoning 2 (USA)"
-	description "WWE Day of Reckoning 2 (USA)"
-	rom ( name "WWE Day of Reckoning 2 (USA).iso" size 1459978240 crc bb092c3a md5 fac766a3bb0ebf32a200907d41e3ff8f sha1 01322b3738ff5720fb612497522a9d0afe0a6fed )
-)
-
-game (
-	name "WWE WrestleMania X8 (Europe)"
-	description "WWE WrestleMania X8 (Europe)"
-	rom ( name "WWE WrestleMania X8 (Europe).iso" size 1459978240 crc 1f1f9bc4 md5 8d45ee6b24f6dfc1f536a6b6a1c3def3 sha1 e4bd18ef200b4694ca26ba281b5dc036aa623a86 )
-)
-
-game (
-	name "WWE WrestleMania X8 (Japan)"
-	description "WWE WrestleMania X8 (Japan)"
-	rom ( name "WWE WrestleMania X8 (Japan).iso" size 1459978240 crc 879a0d04 md5 0bfd0256f6a321a826bc522a6281e914 sha1 c8ecbec3adbf14a473b55fe19d52df06a3504244 )
-)
-
-game (
-	name "WWE WrestleMania X8 (USA)"
-	description "WWE WrestleMania X8 (USA)"
-	rom ( name "WWE WrestleMania X8 (USA).iso" size 1459978240 crc a37b1923 md5 b7badf498f504a4b78c59d96d29b12a0 sha1 eecf81eb80f9349a142dc049629dec7afd252a1d )
-)
-
-game (
-	name "WWE WrestleMania XIX (Europe, Australia)"
-	description "WWE WrestleMania XIX (Europe, Australia)"
-	rom ( name "WWE WrestleMania XIX (Europe, Australia).iso" size 1459978240 crc b5e83a66 md5 edc6b6274960219acf546376dca90862 sha1 8f58c79033b90749a2edc615bf343dbe4dcd7222 )
-)
-
-game (
-	name "WWE WrestleMania XIX (Japan)"
-	description "WWE WrestleMania XIX (Japan)"
-	rom ( name "WWE WrestleMania XIX (Japan).iso" size 1459978240 crc 46f53afb md5 a2c5fed081aa7b9768785ffd4209e092 sha1 85d713f41e548be53afa5fc78759fdd4643d6152 )
-)
-
-game (
-	name "WWE WrestleMania XIX (Korea)"
-	description "WWE WrestleMania XIX (Korea)"
-	rom ( name "WWE WrestleMania XIX (Korea).iso" size 1459978240 crc a95c10e2 md5 4680314c045daecb684b69d0ce1a6862 sha1 85e0932677caa9c4a15e1b1e3919735bab203484 )
-)
-
-game (
-	name "WWE WrestleMania XIX (USA)"
-	description "WWE WrestleMania XIX (USA)"
-	rom ( name "WWE WrestleMania XIX (USA).iso" size 1459978240 crc 635116c6 md5 c13c47a5ed24a675545c99a15e44529d sha1 4746c3b9de58f43d1a5c803ed0c3adba628ee861 )
-)
-
-game (
 	name "Wai Wai Golf (Japan)"
 	description "Wai Wai Golf (Japan)"
 	rom ( name "Wai Wai Golf (Japan).iso" size 1459978240 crc a7b76963 md5 5a8eb5e15b92a9704dd11f54bbddf2aa sha1 d01159f40f3a47e434275b40970aa0844ee91892 )
 )
 
 game (
-	name "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It)"
-	description "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It)"
-	rom ( name "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 9071b965 md5 5843838d805a05e547bddcfc83b59239 sha1 ce6c54f2a3508a92aa28798e51a8e019c4d23075 )
-)
-
-game (
 	name "Wallace & Gromit in Project Zoo (Europe)"
 	description "Wallace & Gromit in Project Zoo (Europe)"
 	rom ( name "Wallace & Gromit in Project Zoo (Europe).iso" size 1459978240 crc c58576dd md5 dfe55017cc9a76da5863382f4f48de3f sha1 adcbdc5a4fdb2701ad2130f68be20c577e4dc981 )
+)
+
+game (
+	name "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It)"
+	description "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It)"
+	rom ( name "Wallace & Gromit in Project Zoo (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 9071b965 md5 5843838d805a05e547bddcfc83b59239 sha1 ce6c54f2a3508a92aa28798e51a8e019c4d23075 )
 )
 
 game (
@@ -10593,6 +10749,12 @@ game (
 	name "Wario World (Japan)"
 	description "Wario World (Japan)"
 	rom ( name "Wario World (Japan).iso" size 1459978240 crc abf6cfad md5 33483304b7f190ddad9581bc271f6ce0 sha1 f589e452625c246d8b83ec8bbe2b0711386a42e1 )
+)
+
+game (
+	name "Wario World (Korea)"
+	description "Wario World (Korea)"
+	rom ( name "Wario World (Korea).iso" size 1459978240 crc e66d1c48 md5 049bfc15190474d3a5adccb861cc8741 sha1 0f018ab06c1890e26dd4f1643b9b87ba736129d5 )
 )
 
 game (
@@ -10704,6 +10866,114 @@ game (
 )
 
 game (
+	name "WTA Tour Tennis (USA)"
+	description "WTA Tour Tennis (USA)"
+	rom ( name "WTA Tour Tennis (USA).iso" size 1459978240 crc 2869aa07 md5 b52269da25e94e6f74bff7d49093852e sha1 a1485e794bd5f995805d91c133f33307eb76a8c4 )
+)
+
+game (
+	name "WTA Tour Tennis Pro Evolution (Japan)"
+	description "WTA Tour Tennis Pro Evolution (Japan)"
+	rom ( name "WTA Tour Tennis Pro Evolution (Japan).iso" size 1459978240 crc 12f33c3f md5 dbd1c1e7b7861598018e7ce5b274e587 sha1 b13b6b1ea76df7e1518a1a0fe16757339736a056 )
+)
+
+game (
+	name "WWE Crush Hour (Europe)"
+	description "WWE Crush Hour (Europe)"
+	rom ( name "WWE Crush Hour (Europe).iso" size 1459978240 crc 45ba3b10 md5 a5149505a6929d0f4879eb2905ce9f00 sha1 0c5bf0fed3a8b82531221dca6405570400aaf6dc )
+)
+
+game (
+	name "WWE Crush Hour (USA)"
+	description "WWE Crush Hour (USA)"
+	rom ( name "WWE Crush Hour (USA).iso" size 1459978240 crc 0f41d7a7 md5 df519bfd14bee790fe2d644a0a963507 sha1 3016f706eb15fedfd663699697d9bfb91315b336 )
+)
+
+game (
+	name "WWE Day of Reckoning (Europe) (v1.00)"
+	description "WWE Day of Reckoning (Europe) (v1.00)"
+	rom ( name "WWE Day of Reckoning (Europe) (v1.00).iso" size 1459978240 crc 54be3da6 md5 18ee1317099ae3d1164278e8b17f6569 sha1 435be34e19a29c10d8643fe213416140a1cddf5b )
+)
+
+game (
+	name "WWE Day of Reckoning (Europe) (v1.01)"
+	description "WWE Day of Reckoning (Europe) (v1.01)"
+	rom ( name "WWE Day of Reckoning (Europe) (v1.01).iso" size 1459978240 crc f1960a2b md5 48626d24a99cdf44e8b1d8acc099f9b5 sha1 cad7358cc4262d7d144620b9e5fe04662b2e436f )
+)
+
+game (
+	name "WWE Day of Reckoning (Japan)"
+	description "WWE Day of Reckoning (Japan)"
+	rom ( name "WWE Day of Reckoning (Japan).iso" size 1459978240 crc dbd7ef56 md5 8d9c9f1c93fb20efd725230613b5496d sha1 0ea922e28e16881c7352f40920dbf9a4452182d4 )
+)
+
+game (
+	name "WWE Day of Reckoning (USA) (v1.00)"
+	description "WWE Day of Reckoning (USA) (v1.00)"
+	rom ( name "WWE Day of Reckoning (USA) (v1.00).iso" size 1459978240 crc 5a944fd2 md5 509b1a90c4ba801ad609f957cbe03e64 sha1 eaefe9d80198b598cba19a3a13edf2d9d3cce7ce )
+)
+
+game (
+	name "WWE Day of Reckoning (USA) (v1.01)"
+	description "WWE Day of Reckoning (USA) (v1.01)"
+	rom ( name "WWE Day of Reckoning (USA) (v1.01).iso" size 1459978240 crc 6dba0ca7 md5 8bbaafee99f47ffe6db7c7b8637802fc sha1 9117498d0a873631e1bb9b29ed42c1b882dfbf5e )
+)
+
+game (
+	name "WWE Day of Reckoning 2 (Europe)"
+	description "WWE Day of Reckoning 2 (Europe)"
+	rom ( name "WWE Day of Reckoning 2 (Europe).iso" size 1459978240 crc 069a9097 md5 4aba987ccdc00115e01c91ef5ea71bbc sha1 117b885e85c2b3b246aff1bebe331f821d6cc955 )
+)
+
+game (
+	name "WWE Day of Reckoning 2 (USA)"
+	description "WWE Day of Reckoning 2 (USA)"
+	rom ( name "WWE Day of Reckoning 2 (USA).iso" size 1459978240 crc bb092c3a md5 fac766a3bb0ebf32a200907d41e3ff8f sha1 01322b3738ff5720fb612497522a9d0afe0a6fed )
+)
+
+game (
+	name "WWE WrestleMania X8 (Europe)"
+	description "WWE WrestleMania X8 (Europe)"
+	rom ( name "WWE WrestleMania X8 (Europe).iso" size 1459978240 crc 1f1f9bc4 md5 8d45ee6b24f6dfc1f536a6b6a1c3def3 sha1 e4bd18ef200b4694ca26ba281b5dc036aa623a86 )
+)
+
+game (
+	name "WWE WrestleMania X8 (Japan)"
+	description "WWE WrestleMania X8 (Japan)"
+	rom ( name "WWE WrestleMania X8 (Japan).iso" size 1459978240 crc 879a0d04 md5 0bfd0256f6a321a826bc522a6281e914 sha1 c8ecbec3adbf14a473b55fe19d52df06a3504244 )
+)
+
+game (
+	name "WWE WrestleMania X8 (USA)"
+	description "WWE WrestleMania X8 (USA)"
+	rom ( name "WWE WrestleMania X8 (USA).iso" size 1459978240 crc a37b1923 md5 b7badf498f504a4b78c59d96d29b12a0 sha1 eecf81eb80f9349a142dc049629dec7afd252a1d )
+)
+
+game (
+	name "WWE WrestleMania XIX (Europe, Australia)"
+	description "WWE WrestleMania XIX (Europe, Australia)"
+	rom ( name "WWE WrestleMania XIX (Europe, Australia).iso" size 1459978240 crc b5e83a66 md5 edc6b6274960219acf546376dca90862 sha1 8f58c79033b90749a2edc615bf343dbe4dcd7222 )
+)
+
+game (
+	name "WWE WrestleMania XIX (Japan)"
+	description "WWE WrestleMania XIX (Japan)"
+	rom ( name "WWE WrestleMania XIX (Japan).iso" size 1459978240 crc 46f53afb md5 a2c5fed081aa7b9768785ffd4209e092 sha1 85d713f41e548be53afa5fc78759fdd4643d6152 )
+)
+
+game (
+	name "WWE WrestleMania XIX (Korea)"
+	description "WWE WrestleMania XIX (Korea)"
+	rom ( name "WWE WrestleMania XIX (Korea).iso" size 1459978240 crc a95c10e2 md5 4680314c045daecb684b69d0ce1a6862 sha1 85e0932677caa9c4a15e1b1e3919735bab203484 )
+)
+
+game (
+	name "WWE WrestleMania XIX (USA)"
+	description "WWE WrestleMania XIX (USA)"
+	rom ( name "WWE WrestleMania XIX (USA).iso" size 1459978240 crc 635116c6 md5 c13c47a5ed24a675545c99a15e44529d sha1 4746c3b9de58f43d1a5c803ed0c3adba628ee861 )
+)
+
+game (
 	name "X-Men - Next Dimension (Europe)"
 	description "X-Men - Next Dimension (Europe)"
 	rom ( name "X-Men - Next Dimension (Europe).iso" size 1459978240 crc c6b5cb92 md5 2dd9f6eb4d85ba50860e0dac2b3a8c89 sha1 918b997aaa84be2537f76bb13d6e26c1fb03a44d )
@@ -10728,27 +10998,27 @@ game (
 )
 
 game (
-	name "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es)"
-	description "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es)"
-	rom ( name "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es).iso" size 1459978240 crc cb63c6bc md5 bc2c66b5899a505d7990c9e9e5013ae7 sha1 650d35557e6a470437ae1da6ec0090f8ddc6e8a2 )
-)
-
-game (
 	name "X-Men 2 - Wolverine's Revenge (Europe)"
 	description "X-Men 2 - Wolverine's Revenge (Europe)"
 	rom ( name "X-Men 2 - Wolverine's Revenge (Europe).iso" size 1459978240 crc aab221f8 md5 30dfce9be9ba41aad0e0d81a129f9900 sha1 e36486ed74e09056c44d3b816317c944701125d5 )
 )
 
 game (
-	name "X-Men Legends (Europe) (En,Fr,De)"
-	description "X-Men Legends (Europe) (En,Fr,De)"
-	rom ( name "X-Men Legends (Europe) (En,Fr,De).iso" size 1459978240 crc 6bd8d896 md5 8d1bf694987c027a1296d2705804ac86 sha1 0a7003cd7a07d2512a9ec281678dac8e0973328d )
+	name "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es)"
+	description "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es)"
+	rom ( name "X-Men 2 - Wolverine's Revenge (Europe) (Fr,De,Es).iso" size 1459978240 crc cb63c6bc md5 bc2c66b5899a505d7990c9e9e5013ae7 sha1 650d35557e6a470437ae1da6ec0090f8ddc6e8a2 )
 )
 
 game (
 	name "X-Men Legends (Europe)"
 	description "X-Men Legends (Europe)"
 	rom ( name "X-Men Legends (Europe).iso" size 1459978240 crc b2c2ead5 md5 2510e752f87fabafd4a44545a53849e7 sha1 3a3f1be12281f1f6380aad9d4a9c234e7e1a8620 )
+)
+
+game (
+	name "X-Men Legends (Europe) (En,Fr,De)"
+	description "X-Men Legends (Europe) (En,Fr,De)"
+	rom ( name "X-Men Legends (Europe) (En,Fr,De).iso" size 1459978240 crc 6bd8d896 md5 8d1bf694987c027a1296d2705804ac86 sha1 0a7003cd7a07d2512a9ec281678dac8e0973328d )
 )
 
 game (
@@ -10818,15 +11088,15 @@ game (
 )
 
 game (
-	name "XIII (Europe) (Fr,De,Es,It)"
-	description "XIII (Europe) (Fr,De,Es,It)"
-	rom ( name "XIII (Europe) (Fr,De,Es,It).iso" size 1459978240 crc 55bfdbe1 md5 08c39a364e5e34e9299c01fa1350c5be sha1 d7171b9caa496f212963fa3b89362eea7aa20294 )
-)
-
-game (
 	name "XIII (Europe)"
 	description "XIII (Europe)"
 	rom ( name "XIII (Europe).iso" size 1459978240 crc 8fe48666 md5 9d4c9624a295faa79aff14759514a030 sha1 81764e0786262ef03f78b3a18bceb9ceb8421b2d )
+)
+
+game (
+	name "XIII (Europe) (Fr,De,Es,It)"
+	description "XIII (Europe) (Fr,De,Es,It)"
+	rom ( name "XIII (Europe) (Fr,De,Es,It).iso" size 1459978240 crc 55bfdbe1 md5 08c39a364e5e34e9299c01fa1350c5be sha1 d7171b9caa496f212963fa3b89362eea7aa20294 )
 )
 
 game (

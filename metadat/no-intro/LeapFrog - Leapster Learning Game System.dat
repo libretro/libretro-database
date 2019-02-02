@@ -1,7 +1,7 @@
 clrmamepro (
 	name "LeapFrog - Leapster Learning Game System"
 	description "LeapFrog - Leapster Learning Game System"
-	version "2018.9.29"
+	version "2019.2.1"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -42,6 +42,12 @@ game (
 )
 
 game (
+	name "Cars - Supercharged (USA)"
+	description "Cars - Supercharged (USA)"
+	rom ( name "Cars - Supercharged (USA).bin" size 8388608 crc BECA3909 md5 E4A580CB87293282DD5665A52F54919A sha1 8CDA80251D6E45427DBA6ACBAE5DFF306EB84D34 )
+)
+
+game (
 	name "Cars (France)"
 	description "Cars (France)"
 	rom ( name "Cars (France).bin" size 8388608 crc B6AABB7B md5 FF1DFCCC895528FCFE58129225252B4F sha1 82CC91536BE8C18C10089C4AD85B9A82E63B824B )
@@ -63,12 +69,6 @@ game (
 	name "Cars (USA)"
 	description "Cars (USA)"
 	rom ( name "Cars (USA).bin" size 8388608 crc D4A7E5D4 md5 49FDB04F42432A4314B5F6617EDCA9B9 sha1 C831DB237E73E61E863E4F477DCC0298488B3D69 )
-)
-
-game (
-	name "Cars - Supercharged (USA)"
-	description "Cars - Supercharged (USA)"
-	rom ( name "Cars - Supercharged (USA).bin" size 8388608 crc BECA3909 md5 E4A580CB87293282DD5665A52F54919A sha1 8CDA80251D6E45427DBA6ACBAE5DFF306EB84D34 )
 )
 
 game (
@@ -126,15 +126,15 @@ game (
 )
 
 game (
-	name "Disney Princess (USA)"
-	description "Disney Princess (USA)"
-	rom ( name "Disney Princess (USA).bin" size 8388608 crc 5CCB2AD3 md5 DAA80DAA4F5E1421ACD86781377F459A sha1 42740F6597F4A2EB878A54DDBF75452A2CCA301D )
-)
-
-game (
 	name "Disney Princess - Worlds of Enchantment (USA)"
 	description "Disney Princess - Worlds of Enchantment (USA)"
 	rom ( name "Disney Princess - Worlds of Enchantment (USA).bin" size 8388608 crc 2465F01D md5 B7AC2DDEC54ECC8ED017488703104237 sha1 D37D7EA21CF8ED01ECF497C3C99185529AEE59AF )
+)
+
+game (
+	name "Disney Princess (USA)"
+	description "Disney Princess (USA)"
+	rom ( name "Disney Princess (USA).bin" size 8388608 crc 5CCB2AD3 md5 DAA80DAA4F5E1421ACD86781377F459A sha1 42740F6597F4A2EB878A54DDBF75452A2CCA301D )
 )
 
 game (
@@ -378,15 +378,15 @@ game (
 )
 
 game (
-	name "Scooby Doo! (USA)"
-	description "Scooby Doo! (USA)"
-	rom ( name "Scooby Doo! (USA).bin" size 8388608 crc 4CD2C497 md5 369E564D58FF6906592973C6C8A0AB6C sha1 9F06CB4ABA2399464A799910BE9DF1D5678BB23A )
-)
-
-game (
 	name "Scooby Doo! - Spooky Snacks! (USA)"
 	description "Scooby Doo! - Spooky Snacks! (USA)"
 	rom ( name "Scooby Doo! - Spooky Snacks! (USA).bin" size 4194304 crc 19DA3DD8 md5 620BF020A2EC75945914552000F01EA9 sha1 8966D8D1E65EA0F778C9B435DE94DA793A874EFE )
+)
+
+game (
+	name "Scooby Doo! (USA)"
+	description "Scooby Doo! (USA)"
+	rom ( name "Scooby Doo! (USA).bin" size 8388608 crc 4CD2C497 md5 369E564D58FF6906592973C6C8A0AB6C sha1 9F06CB4ABA2399464A799910BE9DF1D5678BB23A )
 )
 
 game (
@@ -426,12 +426,6 @@ game (
 )
 
 game (
-	name "SpongeBob SquarePants - Through the Wormhole (USA)"
-	description "SpongeBob SquarePants - Through the Wormhole (USA)"
-	rom ( name "SpongeBob SquarePants - Through the Wormhole (USA).bin" size 4194304 crc 6B24A3EF md5 0868871A41B3C62F0A7C82E3DCDF853D sha1 34DFB9DDEF02731440085F3A1DAD80654AD29C76 )
-)
-
-game (
 	name "Spongebob Schwammkopf - Zeitreise durch das Wurmloch (Germany)"
 	description "Spongebob Schwammkopf - Zeitreise durch das Wurmloch (Germany)"
 	rom ( name "Spongebob Schwammkopf - Zeitreise durch das Wurmloch (Germany).bin" size 4194304 crc 8761FC61 md5 1E57F52F4D10C8C2C16328671972505D sha1 90B0E1FAF6964EC74643A45B46F0B064EBF9EA8A )
@@ -444,15 +438,21 @@ game (
 )
 
 game (
+	name "Spongebob Squarepants - Saves the Day (USA)"
+	description "Spongebob Squarepants - Saves the Day (USA)"
+	rom ( name "Spongebob Squarepants - Saves the Day (USA).bin" size 8388608 crc 0F2AD725 md5 2F17BDF282CC780BA0B424B8387B7943 sha1 258E5B006086A7FD4CFA4460F3008604A5D87E1D )
+)
+
+game (
 	name "Spongebob Squarepants - Saves the Day (USA) (L-MAX)"
 	description "Spongebob Squarepants - Saves the Day (USA) (L-MAX)"
 	rom ( name "Spongebob Squarepants - Saves the Day (USA) (L-MAX).bin" size 8388608 crc 4D893B32 md5 6C01EA794CF327C7679FCC0FA5D801AA sha1 B108972CBD1408AA395AF64EF0760E99CB956D28 )
 )
 
 game (
-	name "Spongebob Squarepants - Saves the Day (USA)"
-	description "Spongebob Squarepants - Saves the Day (USA)"
-	rom ( name "Spongebob Squarepants - Saves the Day (USA).bin" size 8388608 crc 0F2AD725 md5 2F17BDF282CC780BA0B424B8387B7943 sha1 258E5B006086A7FD4CFA4460F3008604A5D87E1D )
+	name "SpongeBob SquarePants - Through the Wormhole (USA)"
+	description "SpongeBob SquarePants - Through the Wormhole (USA)"
+	rom ( name "SpongeBob SquarePants - Through the Wormhole (USA).bin" size 4194304 crc 6B24A3EF md5 0868871A41B3C62F0A7C82E3DCDF853D sha1 34DFB9DDEF02731440085F3A1DAD80654AD29C76 )
 )
 
 game (

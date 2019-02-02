@@ -1,14 +1,26 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2018.9.29"
+	version "2019.2.1"
 	homepage "http://github.com/robloach/libretro-dats"
+)
+
+game (
+	name "3D Atlas (Europe)"
+	description "3D Atlas (Europe)"
+	rom ( name "3D Atlas (Europe).bin" size 771060864 crc 230c0578 md5 ce41818eb6073447649b84d14aba602b sha1 475454b06e0380d6a0a55bb48b375d669e2bb7af )
 )
 
 game (
 	name "3D Atlas (USA)"
 	description "3D Atlas (USA)"
 	rom ( name "3D Atlas (USA).bin" size 771408960 crc bcdcea48 md5 ae6969ffd6a2af26d7f3088f06098872 sha1 996e585abadadfafd703f530765183ddef2fb960 )
+)
+
+game (
+	name "3DO Game Guru (USA)"
+	description "3DO Game Guru (USA)"
+	rom ( name "3DO Game Guru (USA).bin" size 362325600 crc 4dd05faa md5 782fcff91ae557500bb084306b06b48c sha1 ecec11a0cc250d5256a4593245fe5faa9d626e8a )
 )
 
 game (
@@ -24,15 +36,27 @@ game (
 )
 
 game (
+	name "3DO Interactive Sampler CD, The (USA)"
+	description "3DO Interactive Sampler CD, The (USA)"
+	rom ( name "3DO Interactive Sampler CD, The (USA).bin" size 536938080 crc b10d9f99 md5 334804d5373cee8ee0801dc768f00cbd sha1 1a46ac1804a2e60143742c859ef288f954f8ae8c )
+)
+
+game (
 	name "3DO Interactive Sampler, The (Europe)"
 	description "3DO Interactive Sampler, The (Europe)"
 	rom ( name "3DO Interactive Sampler, The (Europe).bin" size 536585280 crc 77f35e5f md5 96dda7eba3d994d5d770ce73515d87b8 sha1 525f890af602c1ad24a4e5e874f4bb9f8fff93a6 )
 )
 
 game (
-	name "Advanced Dungeons & Dragons - Slayer (USA)"
-	description "Advanced Dungeons & Dragons - Slayer (USA)"
-	rom ( name "Advanced Dungeons & Dragons - Slayer (USA).bin" size 355956384 crc 041de279 md5 0691734de3689cac01bc984ee8409e61 sha1 a7fbb2e74d226410aea05c5f61380fb09252573e )
+	name "Advanced Dungeons & Dragons - Slayer (USA) (3DO Action Pak)"
+	description "Advanced Dungeons & Dragons - Slayer (USA) (3DO Action Pak)"
+	rom ( name "Advanced Dungeons & Dragons - Slayer (USA) (3DO Action Pak).bin" size 355956384 crc 041de279 md5 0691734de3689cac01bc984ee8409e61 sha1 a7fbb2e74d226410aea05c5f61380fb09252573e )
+)
+
+game (
+	name "AI Shougi (Japan)"
+	description "AI Shougi (Japan)"
+	rom ( name "AI Shougi (Japan).bin" size 30811200 crc 7284d1ca md5 749d3c61d1451bc411d32566d052903d sha1 bb069b3064ebe0c38f49fb006a45fdfaba358e0d )
 )
 
 game (
@@ -48,9 +72,21 @@ game (
 )
 
 game (
+	name "Alone in the Dark (USA)"
+	description "Alone in the Dark (USA)"
+	rom ( name "Alone in the Dark (USA).bin" size 422184000 crc 2c03e3af md5 192de93ff970cc04caa49d4a723a390f sha1 d643c74677b283ec01431c6457d21f888747c77b )
+)
+
+game (
 	name "Alone in the Dark 2 (Japan)"
 	description "Alone in the Dark 2 (Japan)"
 	rom ( name "Alone in the Dark 2 (Japan).bin" size 674722944 crc 75806561 md5 f34469326d74dfc427137269de7b58fe sha1 889ff1aa271870df43c8ff7021abc86f1179ebb0 )
+)
+
+game (
+	name "Alone in the Dark 2 (USA)"
+	description "Alone in the Dark 2 (USA)"
+	rom ( name "Alone in the Dark 2 (USA).bin" size 674906400 crc c4351a5e md5 0cbb06c9daa8239837624111c8ae1132 sha1 feef790130d05ca5446be4550e4f8799e5f983aa )
 )
 
 game (
@@ -66,9 +102,9 @@ game (
 )
 
 game (
-	name "BFS - Blue Forest Story (Japan)"
-	description "BFS - Blue Forest Story (Japan)"
-	rom ( name "BFS - Blue Forest Story (Japan).bin" size 386057280 crc d4a491a4 md5 6eae65a8b0c64e2a9672dd5ab8f6981f sha1 13824c911bcb6985e6b1726f9b94439b5674adee )
+	name "AutoBahn Tokio (Japan) (Demo)"
+	description "AutoBahn Tokio (Japan) (Demo)"
+	rom ( name "AutoBahn Tokio (Japan) (Demo).bin" size 54895680 crc 50885b80 md5 ada554a9a5a559450b687c7964d3321f sha1 a68463877ba311561dfd359b8cc44bc88305db76 )
 )
 
 game (
@@ -114,9 +150,21 @@ game (
 )
 
 game (
+	name "BC Racers (USA)"
+	description "BC Racers (USA)"
+	rom ( name "BC Racers (USA).bin" size 376776288 crc 1bd862ef md5 ccf17b45d0c9fa6e37f9eca73b6b9ef8 sha1 9b0d708ada37a514003060155afbfe15b61905d6 )
+)
+
+game (
 	name "Belzerion (Japan)"
 	description "Belzerion (Japan)"
 	rom ( name "Belzerion (Japan).bin" size 602817600 crc 89f29880 md5 ec792777dd212200533ead9db528fdf1 sha1 c0779fa4ba435e7a54e97293e391df3a827bf955 )
+)
+
+game (
+	name "BFS - Blue Forest Story (Japan)"
+	description "BFS - Blue Forest Story (Japan)"
+	rom ( name "BFS - Blue Forest Story (Japan).bin" size 386057280 crc d4a491a4 md5 6eae65a8b0c64e2a9672dd5ab8f6981f sha1 13824c911bcb6985e6b1726f9b94439b5674adee )
 )
 
 game (
@@ -141,6 +189,30 @@ game (
 	name "Blonde Justice (USA)"
 	description "Blonde Justice (USA)"
 	rom ( name "Blonde Justice (USA).bin" size 633276000 crc 3f6fc658 md5 0e183156f364470c7fcecebf7868cce0 sha1 470de2f8b01329b805582067989db28f35f030dd )
+)
+
+game (
+	name "Bonogurashi (Japan)"
+	description "Bonogurashi (Japan)"
+	rom ( name "Bonogurashi (Japan).bin" size 530216064 crc 81db726a md5 5812fcdd5fcd4fcd722a0bc54e5a0e56 sha1 dd3c6bc94074935ee90664d207eb9d20f544f092 )
+)
+
+game (
+	name "BrainDead 13 (USA) (Disc 1)"
+	description "BrainDead 13 (USA) (Disc 1)"
+	rom ( name "BrainDead 13 (USA) (Disc 1).bin" size 771413664 crc 939a863c md5 575dd343076bca267b1dc3f3ed2d76f1 sha1 6e7c6a74c574941ae471500f7f1c70a47517f53a )
+)
+
+game (
+	name "BrainDead 13 (USA) (Disc 2)"
+	description "BrainDead 13 (USA) (Disc 2)"
+	rom ( name "BrainDead 13 (USA) (Disc 2).bin" size 506832480 crc 747f1ca8 md5 204d700defbc5f65cc078ac89d1a6794 sha1 981dbcc139e7cc275c213cd027797fb9a15fcad4 )
+)
+
+game (
+	name "Burning Soldier (Canada)"
+	description "Burning Soldier (Canada)"
+	rom ( name "Burning Soldier (Canada).bin" size 602817600 crc 1695d07a md5 01acb0d060dd85043f05d35f41fcf120 sha1 38bf99415ceeedf8a63dd7bd24dde75bbf34931d )
 )
 
 game (
@@ -192,6 +264,12 @@ game (
 )
 
 game (
+	name "Casper (USA)"
+	description "Casper (USA)"
+	rom ( name "Casper (USA).bin" size 241202304 crc 44e35ce2 md5 1e10eb74db0bc8628276ff258e0ee444 sha1 43dd88d2695f222b23b435b008df8ce166861fe8 )
+)
+
+game (
 	name "Chiki Chiki Machine Mou Race - Kenken to Black Maou no Ijiwaru Daisakusen (Japan)"
 	description "Chiki Chiki Machine Mou Race - Kenken to Black Maou no Ijiwaru Daisakusen (Japan)"
 	rom ( name "Chiki Chiki Machine Mou Race - Kenken to Black Maou no Ijiwaru Daisakusen (Japan).bin" size 555001440 crc 39bc5e6c md5 955f273408d3d95418962d2591f7b97e sha1 64b92ec326446b10cb93cc18be358aeb15761f70 )
@@ -207,6 +285,12 @@ game (
 	name "Corpse Killer (USA)"
 	description "Corpse Killer (USA)"
 	rom ( name "Corpse Killer (USA).bin" size 753350304 crc e535d9d5 md5 cd0f44e19e28930a8144c6b514f24dc6 sha1 0d544ca6aa60e6d8f8135fe0fc2204f6ad03d7be )
+)
+
+game (
+	name "Coven, The (USA)"
+	description "Coven, The (USA)"
+	rom ( name "Coven, The (USA).bin" size 602822304 crc 628475f2 md5 d668b87ebba229bcb7c5c48f6cacba5b sha1 b11ecf18bab270d7cfb32d677fe57472d89a8bec )
 )
 
 game (
@@ -240,18 +324,6 @@ game (
 )
 
 game (
-	name "D (Europe) (Disc 1)"
-	description "D (Europe) (Disc 1)"
-	rom ( name "D (Europe) (Disc 1).bin" size 620532864 crc b88f7b01 md5 0588ca558232ecc7d1dc4c80a934582d sha1 ad9ceac2555d9346668136c3fd627575f703fca4 )
-)
-
-game (
-	name "D (Europe) (Disc 2)"
-	description "D (Europe) (Disc 2)"
-	rom ( name "D (Europe) (Disc 2).bin" size 560321664 crc 41710003 md5 d597065ac2f1c097fcede29ad1dfd4b7 sha1 92a655a118a261ffa074537d6dd94eb891bee301 )
-)
-
-game (
 	name "D (Germany) (Disc 1)"
 	description "D (Germany) (Disc 1)"
 	rom ( name "D (Germany) (Disc 1).bin" size 620880960 crc a4a315d2 md5 3e6377da184353cf68cfe104340eb00f sha1 60c9a52c9efdf0893606e7df4573a94199155148 )
@@ -261,6 +333,18 @@ game (
 	name "D (Germany) (Disc 2)"
 	description "D (Germany) (Disc 2)"
 	rom ( name "D (Germany) (Disc 2).bin" size 548627520 crc dce0cc98 md5 c3fd3cca293133b727ab8a227623afb7 sha1 3d3b20ec831446fe7fafb52447b1f913a545235c )
+)
+
+game (
+	name "D (USA, Europe) (Disc 1)"
+	description "D (USA, Europe) (Disc 1)"
+	rom ( name "D (USA, Europe) (Disc 1).bin" size 620532864 crc b88f7b01 md5 0588ca558232ecc7d1dc4c80a934582d sha1 ad9ceac2555d9346668136c3fd627575f703fca4 )
+)
+
+game (
+	name "D (USA, Europe) (Disc 2)"
+	description "D (USA, Europe) (Disc 2)"
+	rom ( name "D (USA, Europe) (Disc 2).bin" size 560321664 crc 41710003 md5 d597065ac2f1c097fcede29ad1dfd4b7 sha1 92a655a118a261ffa074537d6dd94eb891bee301 )
 )
 
 game (
@@ -294,30 +378,6 @@ game (
 )
 
 game (
-	name "Daedalus Encounter, The (USA) (Disc 1)"
-	description "Daedalus Encounter, The (USA) (Disc 1)"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474f05c md5 374eafbd0524dabaa3a326180260f57f sha1 a332d9236498c225bf42704343fd31d50f66b9e4 )
-)
-
-game (
-	name "Daedalus Encounter, The (USA) (Disc 2)"
-	description "Daedalus Encounter, The (USA) (Disc 2)"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 2).bin" size 771060864 crc 1dcbc404 md5 adbdaa8483eca2af76288c0ea1973e21 sha1 b8ba5719e09ed98a893bb9ab6b31b535ce30c012 )
-)
-
-game (
-	name "Daedalus Encounter, The (USA) (Disc 3)"
-	description "Daedalus Encounter, The (USA) (Disc 3)"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 3).bin" size 771060864 crc fdc4aa42 md5 cb55d8980412484e83fe50d0e6be877b sha1 57d018cb88a4182720de85a2ee1fa0b7b00f76ca )
-)
-
-game (
-	name "Daedalus Encounter, The (USA) (Disc 4)"
-	description "Daedalus Encounter, The (USA) (Disc 4)"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 4).bin" size 771060864 crc c43f91d2 md5 0c5bf88b3532e9446138d8f7836a6f5b sha1 d9f6076fd37e8aa508e62a1b41dc8f207b940a30 )
-)
-
-game (
 	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)"
 	description "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)"
 	rom ( name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1).bin" size 771060864 crc 5d5bcbfe md5 4a70140039c75ea6ab6033a84d0d7e80 sha1 a0b5483fed2f12ecd26643be0acf0ba696b01cb2 )
@@ -342,6 +402,30 @@ game (
 )
 
 game (
+	name "Daedalus Encounter, The (USA) (Disc 1)"
+	description "Daedalus Encounter, The (USA) (Disc 1)"
+	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474f05c md5 374eafbd0524dabaa3a326180260f57f sha1 a332d9236498c225bf42704343fd31d50f66b9e4 )
+)
+
+game (
+	name "Daedalus Encounter, The (USA) (Disc 2)"
+	description "Daedalus Encounter, The (USA) (Disc 2)"
+	rom ( name "Daedalus Encounter, The (USA) (Disc 2).bin" size 771060864 crc 1dcbc404 md5 adbdaa8483eca2af76288c0ea1973e21 sha1 b8ba5719e09ed98a893bb9ab6b31b535ce30c012 )
+)
+
+game (
+	name "Daedalus Encounter, The (USA) (Disc 3)"
+	description "Daedalus Encounter, The (USA) (Disc 3)"
+	rom ( name "Daedalus Encounter, The (USA) (Disc 3).bin" size 771060864 crc fdc4aa42 md5 cb55d8980412484e83fe50d0e6be877b sha1 57d018cb88a4182720de85a2ee1fa0b7b00f76ca )
+)
+
+game (
+	name "Daedalus Encounter, The (USA) (Disc 4)"
+	description "Daedalus Encounter, The (USA) (Disc 4)"
+	rom ( name "Daedalus Encounter, The (USA) (Disc 4).bin" size 771060864 crc c43f91d2 md5 0c5bf88b3532e9446138d8f7836a6f5b sha1 d9f6076fd37e8aa508e62a1b41dc8f207b940a30 )
+)
+
+game (
 	name "Demolition Man (Japan)"
 	description "Demolition Man (Japan)"
 	rom ( name "Demolition Man (Japan).bin" size 529011840 crc 296cb50e md5 f44feffa58c2993f2292eb345bf002c1 sha1 19c9ee16223a11fb2095399a38a3bd0a1f169459 )
@@ -351,6 +435,12 @@ game (
 	name "Demolition Man (USA)"
 	description "Demolition Man (USA)"
 	rom ( name "Demolition Man (USA).bin" size 529359936 crc 14e1cc80 md5 63031679656a4df000a727f9013582fc sha1 865eb9c9b224daa8fa13c5b1ccffb3680ffa4c5e )
+)
+
+game (
+	name "DinoPark Tycoon (USA)"
+	description "DinoPark Tycoon (USA)"
+	rom ( name "DinoPark Tycoon (USA).bin" size 632923200 crc 2b23fb99 md5 108d2f25ca9a8b09541e30352d59696f sha1 a8ea584619a052050c9120b87d04eafeaa59ba32 )
 )
 
 game (
@@ -396,9 +486,45 @@ game (
 )
 
 game (
-	name "Dragon's Lair (USA)"
-	description "Dragon's Lair (USA)"
-	rom ( name "Dragon's Lair (USA).bin" size 241903200 crc 86df003f md5 b594b1139f792200068bb9a7a78686bb sha1 e442268056949583abe1d02222facafbe6f1e41d )
+	name "Dragon's Lair (USA) (3DO Action Pak)"
+	description "Dragon's Lair (USA) (3DO Action Pak)"
+	rom ( name "Dragon's Lair (USA) (3DO Action Pak).bin" size 241903200 crc 86df003f md5 b594b1139f792200068bb9a7a78686bb sha1 e442268056949583abe1d02222facafbe6f1e41d )
+)
+
+game (
+	name "Drug Wars (USA)"
+	description "Drug Wars (USA)"
+	rom ( name "Drug Wars (USA).bin" size 688322208 crc 96436a20 md5 d5186ccef16cde0779a3be0b15659574 sha1 9bfa677541194f76923f11d240dc312844614dde )
+)
+
+game (
+	name "Emit Vol. 1 - Toki no Maigo (Japan)"
+	description "Emit Vol. 1 - Toki no Maigo (Japan)"
+	rom ( name "Emit Vol. 1 - Toki no Maigo (Japan).bin" size 277677120 crc 78e8bed0 md5 3a1b2460d378f0ca9d8967906345a37a sha1 a61b48c328fda91acb46e47d33408fa8584cfdd8 )
+)
+
+game (
+	name "Emit Vol. 2 - Inochigake no Tabi (Japan)"
+	description "Emit Vol. 2 - Inochigake no Tabi (Japan)"
+	rom ( name "Emit Vol. 2 - Inochigake no Tabi (Japan).bin" size 259613760 crc 53a70a70 md5 e3e0b033972e167b39dae659bb0f990c sha1 b44fafb99c972b06d7010656022b574d2aa8abae )
+)
+
+game (
+	name "Emit Vol. 3 - Watashi ni Sayonara o (Japan)"
+	description "Emit Vol. 3 - Watashi ni Sayonara o (Japan)"
+	rom ( name "Emit Vol. 3 - Watashi ni Sayonara o (Japan).bin" size 211444800 crc 45dd6b47 md5 8499c3f043bef8ef90486ba7a7e3c03c sha1 3dc631a137a8fcabae3cdaaeb9efcffbfdf538ea )
+)
+
+game (
+	name "Endlessly (USA)"
+	description "Endlessly (USA)"
+	rom ( name "Endlessly (USA).bin" size 602469504 crc ac3bf597 md5 585b051cf834553b0fd03f6c42dc109f sha1 c1d06371341e20aeb0866f526c00baa3c4fc215c )
+)
+
+game (
+	name "Escape from Monster Manor (Europe)"
+	description "Escape from Monster Manor (Europe)"
+	rom ( name "Escape from Monster Manor (Europe).bin" size 542606400 crc b62c9fe9 md5 d070ad7a46d3456bad36bcf4658620eb sha1 3d16a9611aaad00faafb8d8a56d96825abdcfaa3 )
 )
 
 game (
@@ -438,36 +564,6 @@ game (
 )
 
 game (
-	name "Emit Vol. 1 - Toki no Maigo (Japan)"
-	description "Emit Vol. 1 - Toki no Maigo (Japan)"
-	rom ( name "Emit Vol. 1 - Toki no Maigo (Japan).bin" size 277677120 crc 78e8bed0 md5 3a1b2460d378f0ca9d8967906345a37a sha1 a61b48c328fda91acb46e47d33408fa8584cfdd8 )
-)
-
-game (
-	name "Emit Vol. 2 - Inochigake no Tabi (Japan)"
-	description "Emit Vol. 2 - Inochigake no Tabi (Japan)"
-	rom ( name "Emit Vol. 2 - Inochigake no Tabi (Japan).bin" size 259613760 crc 53a70a70 md5 e3e0b033972e167b39dae659bb0f990c sha1 b44fafb99c972b06d7010656022b574d2aa8abae )
-)
-
-game (
-	name "Escape from Monster Manor (Europe)"
-	description "Escape from Monster Manor (Europe)"
-	rom ( name "Escape from Monster Manor (Europe).bin" size 542606400 crc b62c9fe9 md5 d070ad7a46d3456bad36bcf4658620eb sha1 3d16a9611aaad00faafb8d8a56d96825abdcfaa3 )
-)
-
-game (
-	name "FIFA International Soccer (Europe)"
-	description "FIFA International Soccer (Europe)"
-	rom ( name "FIFA International Soccer (Europe).bin" size 711197760 crc 28feda8e md5 33e21296a5c7ffb5fb696d9f40a5dca8 sha1 c2fe8afefa878ad79a2409f4d6d4c0cb73e8b9ba )
-)
-
-game (
-	name "FIFA International Soccer (USA)"
-	description "FIFA International Soccer (USA)"
-	rom ( name "FIFA International Soccer (USA).bin" size 711550560 crc 9bd2a7e9 md5 2f61e24a3999ef4b2f144d89d9db8225 sha1 96317ed4b8ca331a8372a394bc87c766542dc769 )
-)
-
-game (
 	name "Family Feud (USA)"
 	description "Family Feud (USA)"
 	rom ( name "Family Feud (USA).bin" size 506479680 crc 84301052 md5 4e8388326b343f1f86bbcf43229e7796 sha1 8a833c82b048566f26d33146b44db6254e8d08f2 )
@@ -492,21 +588,33 @@ game (
 )
 
 game (
+	name "FIFA International Soccer (Europe)"
+	description "FIFA International Soccer (Europe)"
+	rom ( name "FIFA International Soccer (Europe).bin" size 711197760 crc 28feda8e md5 33e21296a5c7ffb5fb696d9f40a5dca8 sha1 c2fe8afefa878ad79a2409f4d6d4c0cb73e8b9ba )
+)
+
+game (
+	name "FIFA International Soccer (USA)"
+	description "FIFA International Soccer (USA)"
+	rom ( name "FIFA International Soccer (USA).bin" size 711550560 crc 9bd2a7e9 md5 2f61e24a3999ef4b2f144d89d9db8225 sha1 96317ed4b8ca331a8372a394bc87c766542dc769 )
+)
+
+game (
 	name "Fire Ball!! (Japan)"
 	description "Fire Ball!! (Japan)"
 	rom ( name "Fire Ball!! (Japan).bin" size 58858800 crc 898ebecd md5 3817209b021273a5b9a63c9d0c1d964c sha1 6dfd62a439abfcd06f6c4ee4a10567d2fb7f064e )
 )
 
 game (
-	name "Flashback (Japan) (En,Ja,Fr,De,It,Nl)"
-	description "Flashback (Japan) (En,Ja,Fr,De,It,Nl)"
-	rom ( name "Flashback (Japan) (En,Ja,Fr,De,It,Nl).bin" size 301761600 crc 9cf75c52 md5 0cf6671b1362bd652ced5af3c32b62f2 sha1 28fa3ae8912e2cc52fc40a29c5216e1f7d336880 )
-)
-
-game (
 	name "Flashback - The Quest for Identity (USA)"
 	description "Flashback - The Quest for Identity (USA)"
 	rom ( name "Flashback - The Quest for Identity (USA).bin" size 301761600 crc 7fc8dfd3 md5 42f37cf86fd06e948d8a4213e4223839 sha1 404dda1922b96844d1be9fc6f5af1c101feed006 )
+)
+
+game (
+	name "Flashback (Japan) (En,Ja,Fr,De,It,Nl)"
+	description "Flashback (Japan) (En,Ja,Fr,De,It,Nl)"
+	rom ( name "Flashback (Japan) (En,Ja,Fr,De,It,Nl).bin" size 301761600 crc 9cf75c52 md5 0cf6671b1362bd652ced5af3c32b62f2 sha1 28fa3ae8912e2cc52fc40a29c5216e1f7d336880 )
 )
 
 game (
@@ -552,15 +660,15 @@ game (
 )
 
 game (
-	name "Gex (Europe)"
-	description "Gex (Europe)"
-	rom ( name "Gex (Europe).bin" size 464331840 crc 97c7a820 md5 d37e7929c6302b116352d0db85b5a982 sha1 586626a1d35bda93208b9801424c74353860e065 )
-)
-
-game (
 	name "Gex (Japan)"
 	description "Gex (Japan)"
 	rom ( name "Gex (Japan).bin" size 464331840 crc 902341be md5 3ece1e8a3da69308af574ac7349d4d44 sha1 03d63f453edd1fe8f349e65be339324fc50aea52 )
+)
+
+game (
+	name "Gex (USA, Europe)"
+	description "Gex (USA, Europe)"
+	rom ( name "Gex (USA, Europe).bin" size 464331840 crc 97c7a820 md5 d37e7929c6302b116352d0db85b5a982 sha1 586626a1d35bda93208b9801424c74353860e065 )
 )
 
 game (
@@ -573,6 +681,12 @@ game (
 	name "Great! Soccer Kid (Japan)"
 	description "Great! Soccer Kid (Japan)"
 	rom ( name "Great! Soccer Kid (Japan).bin" size 662680704 crc 6271850e md5 0ddab193a8e72e55aac493aa7a0031e0 sha1 df1a1d27de67bcc884c89276d1ef91ccd9320e00 )
+)
+
+game (
+	name "Gridders (Japan)"
+	description "Gridders (Japan)"
+	rom ( name "Gridders (Japan).bin" size 579085920 crc 35ad32db md5 e7bb46edd5461305212b3e83e9ab364f sha1 d70ef716e57985041e69e9ba7f4d18158af213bf )
 )
 
 game (
@@ -600,6 +714,12 @@ game (
 )
 
 game (
+	name "Hatsubai 1 Shuunen - 3DO REAL - Tokubetsu Premium CD (Japan)"
+	description "Hatsubai 1 Shuunen - 3DO REAL - Tokubetsu Premium CD (Japan)"
+	rom ( name "Hatsubai 1 Shuunen - 3DO REAL - Tokubetsu Premium CD (Japan).bin" size 759018624 crc 8e781671 md5 d3429ab229a0b1fcc9d0cc8d59079ae6 sha1 1b412dffe8c35981fdf4a9f6de52080c36e0df84 )
+)
+
+game (
 	name "Hell - A Cyberpunk Thriller (USA)"
 	description "Hell - A Cyberpunk Thriller (USA)"
 	rom ( name "Hell - A Cyberpunk Thriller (USA).bin" size 771060864 crc 037387b4 md5 6da38c637a0b4ca88b1320107a091fab sha1 988ac0978d0701719095304089d6abd5b0575e81 )
@@ -615,6 +735,12 @@ game (
 	name "Hirata Shougo Interactive Ehon - Cinderella (Japan) (En,Ja,Fr)"
 	description "Hirata Shougo Interactive Ehon - Cinderella (Japan) (En,Ja,Fr)"
 	rom ( name "Hirata Shougo Interactive Ehon - Cinderella (Japan) (En,Ja,Fr).bin" size 530564160 crc 4fee839d md5 445cafc860bf6af260d9a97ae9601dbe sha1 41084a1901a784bd534cbc86eb6bb2f5b215be17 )
+)
+
+game (
+	name "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta (Japan) (En,Ja,Fr)"
+	description "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta (Japan) (En,Ja,Fr)"
+	rom ( name "Hirata Shougo Interactive Ehon - Sanbiki no Kobuta (Japan) (En,Ja,Fr).bin" size 506479680 crc bc2a41ea md5 f26fead0c602798ce9b7d463eefd653f sha1 1e53199d3befc08eed4d2ff9cb40ed01428e2ff4 )
 )
 
 game (
@@ -636,9 +762,15 @@ game (
 )
 
 game (
-	name "Idol Mahjong Final Romance 2 - Hyper Edition (Japan)"
-	description "Idol Mahjong Final Romance 2 - Hyper Edition (Japan)"
-	rom ( name "Idol Mahjong Final Romance 2 - Hyper Edition (Japan).bin" size 193381440 crc a643ca04 md5 d8b1d1fe1433c587d62011dbbb2e3929 sha1 99ce029b310bb5b4d1a875b4a7c28c3e04e47539 )
+	name "Idol Mahjong - Final Romance 2 - Hyper Edition (Japan)"
+	description "Idol Mahjong - Final Romance 2 - Hyper Edition (Japan)"
+	rom ( name "Idol Mahjong - Final Romance 2 - Hyper Edition (Japan).bin" size 193381440 crc a643ca04 md5 d8b1d1fe1433c587d62011dbbb2e3929 sha1 99ce029b310bb5b4d1a875b4a7c28c3e04e47539 )
+)
+
+game (
+	name "Igo Time Trial - Tsumego I (Japan)"
+	description "Igo Time Trial - Tsumego I (Japan)"
+	rom ( name "Igo Time Trial - Tsumego I (Japan).bin" size 48874560 crc 0df9a74d md5 59a03139f5f1024251b5713ed79589fe sha1 3301358b3d91472d2e14f4b7ded6c83468342f70 )
 )
 
 game (
@@ -648,15 +780,21 @@ game (
 )
 
 game (
-	name "Incredible Machine, The (USA)"
-	description "Incredible Machine, The (USA)"
-	rom ( name "Incredible Machine, The (USA).bin" size 467944512 crc 66c929a2 md5 e428eeb0074c0a39fbf53450324b7912 sha1 a88a79a2706090e3e49cc65f730cc9667ada7407 )
+	name "Immortal Desire (USA)"
+	description "Immortal Desire (USA)"
+	rom ( name "Immortal Desire (USA).bin" size 603170400 crc 9c5bc61e md5 1724a2d8cfaecee7a2f0570cf59ab1c5 sha1 a79f80375691013090c1e54b8ef41445a8c0472b )
 )
 
 game (
 	name "Incredible Machine, The - Pararancho (Japan)"
 	description "Incredible Machine, The - Pararancho (Japan)"
 	rom ( name "Incredible Machine, The - Pararancho (Japan).bin" size 455048496 crc 7b6aac9c md5 bd4c713b361aa1351d56141fb7f05fab sha1 8720631af16ccd06b8a9602dd0e8fd57d7e23a40 )
+)
+
+game (
+	name "Incredible Machine, The (USA)"
+	description "Incredible Machine, The (USA)"
+	rom ( name "Incredible Machine, The (USA).bin" size 467944512 crc 66c929a2 md5 e428eeb0074c0a39fbf53450324b7912 sha1 a88a79a2706090e3e49cc65f730cc9667ada7407 )
 )
 
 game (
@@ -732,6 +870,12 @@ game (
 )
 
 game (
+	name "Johnny Bazookatone (USA)"
+	description "Johnny Bazookatone (USA)"
+	rom ( name "Johnny Bazookatone (USA).bin" size 494089344 crc 36eafc34 md5 9af61fca4bb849eb433372e9b8db076a sha1 135ee990e786f3729e491f6ab139e658c6697398 )
+)
+
+game (
 	name "Jurassic Park Interactive (Japan)"
 	description "Jurassic Park Interactive (Japan)"
 	rom ( name "Jurassic Park Interactive (Japan).bin" size 458310720 crc 047f6a84 md5 cf2cc92426f3e61939a191f1f399bae1 sha1 346453ca6ed327108894aa870d0001a78d31c36e )
@@ -786,6 +930,12 @@ game (
 )
 
 game (
+	name "Lemmings (USA)"
+	description "Lemmings (USA)"
+	rom ( name "Lemmings (USA).bin" size 484808352 crc da328ef8 md5 4e4259f0878671f4efef32bbf62b496e sha1 8d067afefee5bae1750ac629cb6e74aca3648439 )
+)
+
+game (
 	name "Let's Go Skiing (USA)"
 	description "Let's Go Skiing (USA)"
 	rom ( name "Let's Go Skiing (USA).bin" size 687113280 crc 2cd406d5 md5 728b8fdef3716ddad4d766118f94b659 sha1 ab9cc9621032157270ee3008919737f3f671e956 )
@@ -801,6 +951,12 @@ game (
 	name "Life Stage, The - Virtual House (Japan)"
 	description "Life Stage, The - Virtual House (Japan)"
 	rom ( name "Life Stage, The - Virtual House (Japan).bin" size 476726880 crc 0be105d8 md5 1fe5d181285dc06c7657384dd83e426b sha1 2f614002e3c8cfb1f8f893a8a7b75c544dd923d3 )
+)
+
+game (
+	name "Life Stage, The - Virtual House (USA)"
+	description "Life Stage, The - Virtual House (USA)"
+	rom ( name "Life Stage, The - Virtual House (USA).bin" size 470352960 crc ed4c1363 md5 5001a77df8b4f30ef4641c26883c4f23 sha1 136e8027c1f7aeb53497489dda54fcff4dfb4185 )
 )
 
 game (
@@ -870,9 +1026,27 @@ game (
 )
 
 game (
+	name "Lost Eden (USA)"
+	description "Lost Eden (USA)"
+	rom ( name "Lost Eden (USA).bin" size 768652416 crc ab70cf63 md5 739afb552c0ef04606c29777ee1a570a sha1 4391fc2cc5fb2ff678a6c11a0051748c5110ab9f )
+)
+
+game (
 	name "Lost Files of Sherlock Holmes, The (USA)"
 	description "Lost Files of Sherlock Holmes, The (USA)"
 	rom ( name "Lost Files of Sherlock Holmes, The (USA).bin" size 771413664 crc b829eea0 md5 b31c41700b0eafc69f780c576d658d41 sha1 f6ecd5d6a0fcb5a25fbdb8bb370bb2af98ee1d58 )
+)
+
+game (
+	name "Love Bites (USA)"
+	description "Love Bites (USA)"
+	rom ( name "Love Bites (USA).bin" size 641705568 crc 01b3c380 md5 a94defa59dad124a70bd084015b473b9 sha1 6ce99daa8022b61280b7766d1937690045d10798 )
+)
+
+game (
+	name "Lucienne's Quest (USA)"
+	description "Lucienne's Quest (USA)"
+	rom ( name "Lucienne's Quest (USA).bin" size 229508160 crc 37fb22fb md5 76d38e2d996f78ba488280af4d784c67 sha1 95b75e0e636f235fe3c49b68d56787029ca53909 )
 )
 
 game (
@@ -942,6 +1116,12 @@ game (
 )
 
 game (
+	name "Monoshiri Jiyuugaku - Ogura Hyakunin Isshu-hen (Japan)"
+	description "Monoshiri Jiyuugaku - Ogura Hyakunin Isshu-hen (Japan)"
+	rom ( name "Monoshiri Jiyuugaku - Ogura Hyakunin Isshu-hen (Japan).bin" size 241202304 crc 2ec6a816 md5 17ad1bbf6ecc52668c2be5f034acadb7 sha1 047d984fbf5dfc13b632d54ab4df4182e1576884 )
+)
+
+game (
 	name "Murphy da yo Zen'in Shuugou!! (Japan) (En,Ja)"
 	description "Murphy da yo Zen'in Shuugou!! (Japan) (En,Ja)"
 	rom ( name "Murphy da yo Zen'in Shuugou!! (Japan) (En,Ja).bin" size 759366720 crc 49fef5b4 md5 7e328f28ef9daae813b97951f539842a sha1 e6cc861440bbfdefbcdc4da413045e8eaacc60fa )
@@ -966,15 +1146,21 @@ game (
 )
 
 game (
-	name "NFL Madden Football (Japan)"
-	description "NFL Madden Football (Japan)"
-	rom ( name "NFL Madden Football (Japan).bin" size 482395200 crc 3a45f01f md5 4ea6b44ee2d4ddb00d867b82446dd0a4 sha1 a659df170b2e65585e64e8b8561f39411909053a )
-)
-
-game (
 	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
 	description "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
 	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan).bin" size 735282240 crc 07069ac5 md5 5fa18b526bbc3b9ad0c3a3bf0f4cded4 sha1 507a8e89c96de43b7066f76cd646f8d5d3faba07 )
+)
+
+game (
+	name "NeuroDancer - Journey into the Neuronet! (USA)"
+	description "NeuroDancer - Journey into the Neuronet! (USA)"
+	rom ( name "NeuroDancer - Journey into the Neuronet! (USA).bin" size 722891904 crc 3b796b89 md5 a079944b14cb5624b3feed9a06cf9f64 sha1 1ec9c49b80f230194dd1ecc7e7bf5654a9b0be8f )
+)
+
+game (
+	name "NFL Madden Football (Japan)"
+	description "NFL Madden Football (Japan)"
+	rom ( name "NFL Madden Football (Japan).bin" size 482395200 crc 3a45f01f md5 4ea6b44ee2d4ddb00d867b82446dd0a4 sha1 a659df170b2e65585e64e8b8561f39411909053a )
 )
 
 game (
@@ -987,6 +1173,12 @@ game (
 	name "Night Trap (Japan) (Disc 2)"
 	description "Night Trap (Japan) (Disc 2)"
 	rom ( name "Night Trap (Japan) (Disc 2).bin" size 636098400 crc eaa73c23 md5 38f2e5386278d068e51dbadc21f4eea8 sha1 e022aafbd6119c3c42d5f0fea43446dfb266fc86 )
+)
+
+game (
+	name "Night Trap (USA) (Disc 1)"
+	description "Night Trap (USA) (Disc 1)"
+	rom ( name "Night Trap (USA) (Disc 1).bin" size 776870304 crc fc54f01d md5 e767867345aeac8945cd535b35fa48fc sha1 dcc03e5e0315b3c2998d6f96683d08b0cb7770fe )
 )
 
 game (
@@ -1020,6 +1212,12 @@ game (
 )
 
 game (
+	name "Nova-Storm (Japan)"
+	description "Nova-Storm (Japan)"
+	rom ( name "Nova-Storm (Japan).bin" size 733729920 crc dc0b8d79 md5 032f17dcc581aac0b4e62ac5db4f71e6 sha1 addb50e98e3751a0f020f592035600972ed6c1fd )
+)
+
+game (
 	name "Oceans Below (Japan)"
 	description "Oceans Below (Japan)"
 	rom ( name "Oceans Below (Japan).bin" size 750589056 crc b51911e9 md5 de2531821e9269a5cd3bd8869884ce9e sha1 76b829ab19e662e2bb24deae4c8fda623458c7db )
@@ -1050,6 +1248,12 @@ game (
 )
 
 game (
+	name "Onee-san to Issho! Janken Paradise (Japan)"
+	description "Onee-san to Issho! Janken Paradise (Japan)"
+	rom ( name "Onee-san to Issho! Janken Paradise (Japan).bin" size 602817600 crc 6d50a358 md5 006e66ea4bd3f5650a008a3ebc61be01 sha1 dccf8f65730074160bea5bb8c1d13f9ed3e2fa52 )
+)
+
+game (
 	name "Outer World (Japan)"
 	description "Outer World (Japan)"
 	rom ( name "Outer World (Japan).bin" size 723240000 crc c2388c16 md5 b5e8fe43fb8ff816d8a4821e7a0e6906 sha1 fcc43988869a9450d562e87184083acbb0b85a5b )
@@ -1062,15 +1266,33 @@ game (
 )
 
 game (
-	name "PGA Tour 96 (USA)"
-	description "PGA Tour 96 (USA)"
-	rom ( name "PGA Tour 96 (USA).bin" size 723244704 crc 89884e4d md5 ff33636bc0f7a8617aa017feeb36aa3a sha1 d26e959b0ef6388c3ef2a5c935785aba7eea4cab )
+	name "Paddock Note '95 (Japan)"
+	description "Paddock Note '95 (Japan)"
+	rom ( name "Paddock Note '95 (Japan).bin" size 776225856 crc 42df6e40 md5 6492396cee4463993e26c6fa9c3f459e sha1 f2c78abcb5d39f3e7c88f80f1d382bab422ae3d8 )
 )
 
 game (
-	name "PO'ed (USA, Europe)"
-	description "PO'ed (USA, Europe)"
-	rom ( name "PO'ed (USA, Europe).bin" size 482748000 crc 953ff819 md5 9a63c0142a03d00f18419513304474ad sha1 00e821255eb6db38e181205ecaa7b05f53274440 )
+	name "Paddock Note '95 (Japan) (Rev 1)"
+	description "Paddock Note '95 (Japan) (Rev 1)"
+	rom ( name "Paddock Note '95 (Japan) (Rev 1).bin" size 775877760 crc 101c6272 md5 0ef7e5330184fcbb3437cee39c6a9fbb sha1 f4b87b68647bef35d3c7c1deeffbaccf370b63fb )
+)
+
+game (
+	name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan)"
+	description "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan)"
+	rom ( name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan).bin" size 530916960 crc 98c5ba17 md5 e1fbcd1439f1f5e7b31db74139035879 sha1 a98676a61d7c9ed8bfce6cc4b949bdb3f9a1684d )
+)
+
+game (
+	name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZAZ)"
+	description "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZAZ)"
+	rom ( name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZAZ).bin" size 608485920 crc 03894c74 md5 0a4ca4588311a7ebd156dbb64500803e sha1 ae13eec909335c3e219d35e557aedfd9d0d34bcb )
+)
+
+game (
+	name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZBZ)"
+	description "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZBZ)"
+	rom ( name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA) (ZBZ).bin" size 765740640 crc 9639b99b md5 40d05adb0238d6d357a4572b16992f2b sha1 6e1bea94ff1af4bcd58f05207523c7b3502a988d )
 )
 
 game (
@@ -1086,30 +1308,6 @@ game (
 )
 
 game (
-	name "Paddock Note '95 (Japan) (Rev 1)"
-	description "Paddock Note '95 (Japan) (Rev 1)"
-	rom ( name "Paddock Note '95 (Japan) (Rev 1).bin" size 775877760 crc 101c6272 md5 0ef7e5330184fcbb3437cee39c6a9fbb sha1 f4b87b68647bef35d3c7c1deeffbaccf370b63fb )
-)
-
-game (
-	name "Paddock Note '95 (Japan)"
-	description "Paddock Note '95 (Japan)"
-	rom ( name "Paddock Note '95 (Japan).bin" size 776225856 crc 42df6e40 md5 6492396cee4463993e26c6fa9c3f459e sha1 f2c78abcb5d39f3e7c88f80f1d382bab422ae3d8 )
-)
-
-game (
-	name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan)"
-	description "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan)"
-	rom ( name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (Japan).bin" size 530916960 crc 98c5ba17 md5 e1fbcd1439f1f5e7b31db74139035879 sha1 a98676a61d7c9ed8bfce6cc4b949bdb3f9a1684d )
-)
-
-game (
-	name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA)"
-	description "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA)"
-	rom ( name "Panasonic REAL 3DO Interactive Multiplayer - Sampler CD (USA).bin" size 765740640 crc 9639b99b md5 40d05adb0238d6d357a4572b16992f2b sha1 6e1bea94ff1af4bcd58f05207523c7b3502a988d )
-)
-
-game (
 	name "Pebble Beach Golf Links (USA)"
 	description "Pebble Beach Golf Links (USA)"
 	rom ( name "Pebble Beach Golf Links (USA).bin" size 434230944 crc 65c58fde md5 bca4c31459cca101cbd04c014bc0a1da sha1 e2af00fbee7406641ebfc7985da4d6eced0cb749 )
@@ -1122,21 +1320,45 @@ game (
 )
 
 game (
-	name "Perfect World - Combat in a Digital World (Japan) (Demo)"
-	description "Perfect World - Combat in a Digital World (Japan) (Demo)"
-	rom ( name "Perfect World - Combat in a Digital World (Japan) (Demo).bin" size 745772160 crc 907bfef9 md5 87ae9dcfd3892866c3cbb08c62cf001c sha1 157a0f747a3b81ebe67fc8c21a8b8639011b470c )
-)
-
-game (
 	name "Perfect World - Combat in a Digital World (Japan)"
 	description "Perfect World - Combat in a Digital World (Japan)"
 	rom ( name "Perfect World - Combat in a Digital World (Japan).bin" size 745772160 crc 00343026 md5 1edc2e1fb1533ef083eb14e81cbb3da0 sha1 aa02daa79450c44c9108d5f32742de7777a7f838 )
 )
 
 game (
+	name "Perfect World - Combat in a Digital World (Japan) (Demo)"
+	description "Perfect World - Combat in a Digital World (Japan) (Demo)"
+	rom ( name "Perfect World - Combat in a Digital World (Japan) (Demo).bin" size 745772160 crc 907bfef9 md5 87ae9dcfd3892866c3cbb08c62cf001c sha1 157a0f747a3b81ebe67fc8c21a8b8639011b470c )
+)
+
+game (
+	name "PGA Tour 96 (USA)"
+	description "PGA Tour 96 (USA)"
+	rom ( name "PGA Tour 96 (USA).bin" size 723244704 crc 89884e4d md5 ff33636bc0f7a8617aa017feeb36aa3a sha1 d26e959b0ef6388c3ef2a5c935785aba7eea4cab )
+)
+
+game (
 	name "Phoenix 3 (USA)"
 	description "Phoenix 3 (USA)"
 	rom ( name "Phoenix 3 (USA).bin" size 722891904 crc 65060082 md5 09267ef9940687e182a206802e3ca5cf sha1 0640009042b54ff534a0158217955625b913e457 )
+)
+
+game (
+	name "Plumbers Don't Wear Ties (USA)"
+	description "Plumbers Don't Wear Ties (USA)"
+	rom ( name "Plumbers Don't Wear Ties (USA).bin" size 708789312 crc 8b8cfd44 md5 6bb8b63a6d1c1c187d1c2e882f378a4f sha1 b446f85c7237c0c765d407788fa4e999ff896e95 )
+)
+
+game (
+	name "PO'ed (USA, Europe)"
+	description "PO'ed (USA, Europe)"
+	rom ( name "PO'ed (USA, Europe).bin" size 482748000 crc 953ff819 md5 9a63c0142a03d00f18419513304474ad sha1 00e821255eb6db38e181205ecaa7b05f53274440 )
+)
+
+game (
+	name "Policenauts - Pilot Disk (Japan)"
+	description "Policenauts - Pilot Disk (Japan)"
+	rom ( name "Policenauts - Pilot Disk (Japan).bin" size 722891904 crc ac083775 md5 e32357a72a9ac23eea728bed5fb9855e sha1 256f6f50ef55391c22ead4cea1cb70c9d58877c3 )
 )
 
 game (
@@ -1149,12 +1371,6 @@ game (
 	name "Policenauts (Japan) (Disc 2)"
 	description "Policenauts (Japan) (Disc 2)"
 	rom ( name "Policenauts (Japan) (Disc 2).bin" size 765039744 crc 0c4427a6 md5 8d6b9b89d1f88adea1a8ee4552e27727 sha1 7a24ed576bad82d0ca684aa655886904311c5d52 )
-)
-
-game (
-	name "Policenauts - Pilot Disk (Japan)"
-	description "Policenauts - Pilot Disk (Japan)"
-	rom ( name "Policenauts - Pilot Disk (Japan).bin" size 722891904 crc ac083775 md5 e32357a72a9ac23eea728bed5fb9855e sha1 256f6f50ef55391c22ead4cea1cb70c9d58877c3 )
 )
 
 game (
@@ -1188,6 +1404,18 @@ game (
 )
 
 game (
+	name "Pro Stadium (Japan)"
+	description "Pro Stadium (Japan)"
+	rom ( name "Pro Stadium (Japan).bin" size 482395200 crc 89c25fb6 md5 083e4ded92bc65ca9680e67bb52c6c39 sha1 065600604f5960b00a02f13c7c3bbe9a3aba0c63 )
+)
+
+game (
+	name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo)"
+	description "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo)"
+	rom ( name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo).bin" size 398099520 crc 9bdbc0ae md5 186acc4b4ff6837fe9eabfa79f2a8f06 sha1 3c68e8f0a9890f376a1b76fd4482beedb838b501 )
+)
+
+game (
 	name "Psychic Detective (USA) (Disc 1)"
 	description "Psychic Detective (USA) (Disc 1)"
 	rom ( name "Psychic Detective (USA) (Disc 1).bin" size 753350304 crc 0be9d21e md5 7709c9d1c907fb23860edc57761f0801 sha1 a28be28f2105921430ac177861034d0c512eef21 )
@@ -1212,6 +1440,12 @@ game (
 )
 
 game (
+	name "Putt-Putt Joins the Parade (Japan) (En,Ja)"
+	description "Putt-Putt Joins the Parade (Japan) (En,Ja)"
+	rom ( name "Putt-Putt Joins the Parade (Japan) (En,Ja).bin" size 145212480 crc d17737b6 md5 a2bd3f35307341e62707358a1bc27efd sha1 36944442f66ad459d40663554d00091b590a8d7e )
+)
+
+game (
 	name "Putt-Putt Joins the Parade (USA)"
 	description "Putt-Putt Joins the Parade (USA)"
 	rom ( name "Putt-Putt Joins the Parade (USA).bin" size 96695424 crc 64bf7518 md5 e33ca2a044a56ec8c86185cac4646a16 sha1 92c542f0179109dce606ceb7eaf64f58a2a759dd )
@@ -1224,15 +1458,15 @@ game (
 )
 
 game (
-	name "Puzzle Bobble (Japan) (Demo)"
-	description "Puzzle Bobble (Japan) (Demo)"
-	rom ( name "Puzzle Bobble (Japan) (Demo).bin" size 45261888 crc 2e6abbf2 md5 4a9c08c409399402f8ed1f33df095ee3 sha1 f8a03074547b5d47d25d30a742b97f289f360ddd )
-)
-
-game (
 	name "Puzzle Bobble (Japan)"
 	description "Puzzle Bobble (Japan)"
 	rom ( name "Puzzle Bobble (Japan).bin" size 165336192 crc 41640a2f md5 db0f6ee9607a25729f9f080216bc5e39 sha1 d729ebc2bad9382a728c3d59d1839a79751bdc72 )
+)
+
+game (
+	name "Puzzle Bobble (Japan) (Demo)"
+	description "Puzzle Bobble (Japan) (Demo)"
+	rom ( name "Puzzle Bobble (Japan) (Demo).bin" size 45261888 crc 2e6abbf2 md5 4a9c08c409399402f8ed1f33df095ee3 sha1 f8a03074547b5d47d25d30a742b97f289f360ddd )
 )
 
 game (
@@ -1242,9 +1476,9 @@ game (
 )
 
 game (
-	name "Quarantine (USA) (RE3)"
-	description "Quarantine (USA) (RE3)"
-	rom ( name "Quarantine (USA) (RE3).bin" size 157254720 crc 0eec9b15 md5 b615d51726307b0ae1fce077d1f36055 sha1 ac3ed4006a0cf6022e4947a4dec3bbb2cd890417 )
+	name "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3)"
+	description "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3)"
+	rom ( name "Quarantine (USA, Japan) (En,Ja,Fr,De,Es) (RE3).bin" size 157254720 crc 0eec9b15 md5 b615d51726307b0ae1fce077d1f36055 sha1 ac3ed4006a0cf6022e4947a4dec3bbb2cd890417 )
 )
 
 game (
@@ -1254,27 +1488,27 @@ game (
 )
 
 game (
-	name "Return Fire (Europe) (v1.0)"
-	description "Return Fire (Europe) (v1.0)"
-	rom ( name "Return Fire (Europe) (v1.0).bin" size 542258304 crc b4d1faff md5 e1ff7f1d642d4928fa37c929aabe6ae5 sha1 30e6d60dbc9a28d6b900cf332fcdbdbdf7e9a7a2 )
+	name "Return Fire - Maps o' Death (Europe)"
+	description "Return Fire - Maps o' Death (Europe)"
+	rom ( name "Return Fire - Maps o' Death (Europe).bin" size 603170400 crc 35ee8045 md5 6402072740d415201ad813c80814ef35 sha1 6544f1e555eb9e79e624486896845dd1609755ba )
 )
 
 game (
-	name "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar)"
-	description "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar)"
-	rom ( name "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar).bin" size 542606400 crc 97bebe57 md5 5898afc015fe6ebf18f565ed2220ac4b sha1 d18b5ebb3b84b70c9e8d5fabf144ee24318b76db )
+	name "Return Fire (Europe)"
+	description "Return Fire (Europe)"
+	rom ( name "Return Fire (Europe).bin" size 542258304 crc b4d1faff md5 e1ff7f1d642d4928fa37c929aabe6ae5 sha1 30e6d60dbc9a28d6b900cf332fcdbdbdf7e9a7a2 )
+)
+
+game (
+	name "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar) (Rev 1)"
+	description "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar) (Rev 1)"
+	rom ( name "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar) (Rev 1).bin" size 542606400 crc 97bebe57 md5 5898afc015fe6ebf18f565ed2220ac4b sha1 d18b5ebb3b84b70c9e8d5fabf144ee24318b76db )
 )
 
 game (
 	name "Return Fire (USA)"
 	description "Return Fire (USA)"
 	rom ( name "Return Fire (USA).bin" size 542606400 crc 94e75084 md5 a8b2b331d55a6296b29697db16c4a9be sha1 9c8b8caf7481e68a772d6c2abdee06f6a93cb56b )
-)
-
-game (
-	name "Return Fire - Maps o' Death (Europe)"
-	description "Return Fire - Maps o' Death (Europe)"
-	rom ( name "Return Fire - Maps o' Death (Europe).bin" size 603170400 crc 35ee8045 md5 6402072740d415201ad813c80814ef35 sha1 6544f1e555eb9e79e624486896845dd1609755ba )
 )
 
 game (
@@ -1314,15 +1548,9 @@ game (
 )
 
 game (
-	name "SHADOW - War of Succession (USA)"
-	description "SHADOW - War of Succession (USA)"
-	rom ( name "SHADOW - War of Succession (USA).bin" size 277681824 crc 8a8d6590 md5 56a239e5c654c7d69ca4f38ffc39f110 sha1 5972f0f5bdb30cafbaf1ade682dc74ceb1634719 )
-)
-
-game (
-	name "SHADOW Warriors (Japan)"
-	description "SHADOW Warriors (Japan)"
-	rom ( name "SHADOW Warriors (Japan).bin" size 271656000 crc 5c2436a3 md5 390be20291562cef36f4ac55b82e25a9 sha1 934e706af45e88b8e22d42fe49203a5fbf67f559 )
+	name "Robinson's Requiem (USA)"
+	description "Robinson's Requiem (USA)"
+	rom ( name "Robinson's Requiem (USA).bin" size 361624704 crc da69800a md5 3d16a3a34106118d00d5acbe24eee211 sha1 5d3b1e11e2b31debf363c731d562ba130a3f75ff )
 )
 
 game (
@@ -1341,6 +1569,12 @@ game (
 	name "Samurai Shodown (USA, Europe)"
 	description "Samurai Shodown (USA, Europe)"
 	rom ( name "Samurai Shodown (USA, Europe).bin" size 572712000 crc 44a871b5 md5 b0a0bf31f20b8a1fc45d2ea552c94540 sha1 74d1c853b76f82b90c391738aac0879e90146507 )
+)
+
+game (
+	name "Sangokushi IV (Japan)"
+	description "Sangokushi IV (Japan)"
+	rom ( name "Sangokushi IV (Japan).bin" size 426147120 crc 32492f94 md5 6d204cedc9a9a7888ee18783f5d27685 sha1 9adf5ef94b0a77c0486d3105121df6dec315b97e )
 )
 
 game (
@@ -1380,33 +1614,45 @@ game (
 )
 
 game (
+	name "Sex (USA)"
+	description "Sex (USA)"
+	rom ( name "Sex (USA).bin" size 504424032 crc 8732f7a2 md5 b0fb9daf8ca36056ea855bcdbfe8b4db sha1 c52e71bd73581ff56c55ed6b26cc340dd2cceed8 )
+)
+
+game (
+	name "SHADOW - War of Succession (USA)"
+	description "SHADOW - War of Succession (USA)"
+	rom ( name "SHADOW - War of Succession (USA).bin" size 277681824 crc 8a8d6590 md5 56a239e5c654c7d69ca4f38ffc39f110 sha1 5972f0f5bdb30cafbaf1ade682dc74ceb1634719 )
+)
+
+game (
+	name "SHADOW Warriors (Japan)"
+	description "SHADOW Warriors (Japan)"
+	rom ( name "SHADOW Warriors (Japan).bin" size 271656000 crc 5c2436a3 md5 390be20291562cef36f4ac55b82e25a9 sha1 934e706af45e88b8e22d42fe49203a5fbf67f559 )
+)
+
+game (
 	name "Shanghai - Banri no Choujou - The Great Wall (Japan) (Rev 1)"
 	description "Shanghai - Banri no Choujou - The Great Wall (Japan) (Rev 1)"
 	rom ( name "Shanghai - Banri no Choujou - The Great Wall (Japan) (Rev 1).bin" size 121128000 crc 1ee07dfb md5 27721e2fdd5864a3ee8597ed6cd2a897 sha1 1cdfab57ffcc71d981ec45028b3de018ecefa605 )
 )
 
 game (
-	name "Shanghai - Triple Threat (USA)"
-	description "Shanghai - Triple Threat (USA)"
-	rom ( name "Shanghai - Triple Threat (USA).bin" size 121128000 crc 6f52c892 md5 6cdc0627b30858420d9cdff1fceacb98 sha1 23334e04329637dfec2151aa1f2dd077fba69677 )
+	name "Shanghai - Triple-Threat (USA)"
+	description "Shanghai - Triple-Threat (USA)"
+	rom ( name "Shanghai - Triple-Threat (USA).bin" size 121128000 crc 6f52c892 md5 6cdc0627b30858420d9cdff1fceacb98 sha1 23334e04329637dfec2151aa1f2dd077fba69677 )
+)
+
+game (
+	name "Shanghai - Triple-Threat (USA) (3DO Action Pak)"
+	description "Shanghai - Triple-Threat (USA) (3DO Action Pak)"
+	rom ( name "Shanghai - Triple-Threat (USA) (3DO Action Pak).bin" size 121132704 crc 1f75fe7b md5 d13477474234d77c370f5040108db3e0 sha1 820db988b02e2e019ba5aa54a6a287fd9c304d01 )
 )
 
 game (
 	name "Shelley Duvall's It's a Bird's Life (USA)"
 	description "Shelley Duvall's It's a Bird's Life (USA)"
 	rom ( name "Shelley Duvall's It's a Bird's Life (USA).bin" size 404125344 crc 9b29dd4b md5 d5019c6d0666a2be0ae537b59f7b86c5 sha1 46331607319db6127beb900de49ecaa7480c298d )
-)
-
-game (
-	name "Shock Wave (Japan)"
-	description "Shock Wave (Japan)"
-	rom ( name "Shock Wave (Japan).bin" size 746976384 crc 4fce1633 md5 5cfa4ac02ff11dabe940d7c22af4c2fe sha1 9b94aa76b6a08ad1c1c78fe83856ad3eb3ea0650 )
-)
-
-game (
-	name "Shock Wave (USA)"
-	description "Shock Wave (USA)"
-	rom ( name "Shock Wave (USA).bin" size 747329184 crc 5d77f078 md5 1fa86975f226a7db24fe513368b62e69 sha1 403da6c5c27c9785f255b0cbe9adfb55c122a6d3 )
 )
 
 game (
@@ -1419,6 +1665,18 @@ game (
 	name "Shock Wave - Operation JumpGate (USA, Europe)"
 	description "Shock Wave - Operation JumpGate (USA, Europe)"
 	rom ( name "Shock Wave - Operation JumpGate (USA, Europe).bin" size 361972800 crc a7b46aa7 md5 2541c45f1209e7eae7c53012fdc2370d sha1 20e8382d7a083b66a9e4cb9176af6a27247303b8 )
+)
+
+game (
+	name "Shock Wave (Japan)"
+	description "Shock Wave (Japan)"
+	rom ( name "Shock Wave (Japan).bin" size 746976384 crc 4fce1633 md5 5cfa4ac02ff11dabe940d7c22af4c2fe sha1 9b94aa76b6a08ad1c1c78fe83856ad3eb3ea0650 )
+)
+
+game (
+	name "Shock Wave (USA)"
+	description "Shock Wave (USA)"
+	rom ( name "Shock Wave (USA).bin" size 747329184 crc 5d77f078 md5 1fa86975f226a7db24fe513368b62e69 sha1 403da6c5c27c9785f255b0cbe9adfb55c122a6d3 )
 )
 
 game (
@@ -1560,6 +1818,12 @@ game (
 )
 
 game (
+	name "Strahl (Japan)"
+	description "Strahl (Japan)"
+	rom ( name "Strahl (Japan).bin" size 649782336 crc 01798b71 md5 6ea64cb621a782ec63227c3ec4ab8c80 sha1 337ca0b80cb043376cdf4dc328d4a94a93e0ccf6 )
+)
+
+game (
 	name "Striker - World Cup Special (Europe)"
 	description "Striker - World Cup Special (Europe)"
 	rom ( name "Striker - World Cup Special (Europe).bin" size 482047104 crc 9b25745f md5 e27af8a08f938793c81e20083de78ac7 sha1 5b9c29097d3db9d7d5073769292457c1fc867684 )
@@ -1578,21 +1842,27 @@ game (
 )
 
 game (
-	name "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc)"
-	description "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc)"
-	rom ( name "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc).bin" size 140395584 crc b8a62aad md5 ce0620ce551367881952fc66da9cdf72 sha1 41a487ba38532a5a70e038622d4ccbd5f4296c62 )
-)
-
-game (
 	name "Super Street Fighter II Turbo (Europe)"
 	description "Super Street Fighter II Turbo (Europe)"
 	rom ( name "Super Street Fighter II Turbo (Europe).bin" size 357155904 crc 84c80206 md5 5416f2c4986ad91fbd28d6db08baf5cd sha1 a395ba2271d8322af893407837be7125b0aa0a82 )
 )
 
 game (
-	name "Super Street Fighter II Turbo (USA)"
-	description "Super Street Fighter II Turbo (USA)"
-	rom ( name "Super Street Fighter II Turbo (USA).bin" size 357155904 crc 01bf555c md5 3315cb5f2d5db8991ca67dab030f5f33 sha1 1f0765a37412bd6bd82ac9d5649d2cbfb8867b52 )
+	name "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc)"
+	description "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc)"
+	rom ( name "Super Street Fighter II Turbo (Europe) (4 Character Demo Disc).bin" size 140395584 crc b8a62aad md5 ce0620ce551367881952fc66da9cdf72 sha1 41a487ba38532a5a70e038622d4ccbd5f4296c62 )
+)
+
+game (
+	name "Super Street Fighter II Turbo (USA) (RE1)"
+	description "Super Street Fighter II Turbo (USA) (RE1)"
+	rom ( name "Super Street Fighter II Turbo (USA) (RE1).bin" size 357155904 crc 01bf555c md5 3315cb5f2d5db8991ca67dab030f5f33 sha1 1f0765a37412bd6bd82ac9d5649d2cbfb8867b52 )
+)
+
+game (
+	name "Super Street Fighter II Turbo (USA) (RE2)"
+	description "Super Street Fighter II Turbo (USA) (RE2)"
+	rom ( name "Super Street Fighter II Turbo (USA) (RE2).bin" size 357160608 crc a872e811 md5 2d87230ea274b7e80cd7ce599e412a4b sha1 1a61540f71aa15df914615200c4b46d2105a25c7 )
 )
 
 game (
@@ -1611,6 +1881,12 @@ game (
 	name "Super Wing Commander (Japan)"
 	description "Super Wing Commander (Japan)"
 	rom ( name "Super Wing Commander (Japan).bin" size 602817600 crc df14e9c2 md5 041364e80028eccba3aee6b4d90024f0 sha1 5e28b5ea38027e62d466bd36c5e068f27416d285 )
+)
+
+game (
+	name "SuperModels Go Wild (USA)"
+	description "SuperModels Go Wild (USA)"
+	rom ( name "SuperModels Go Wild (USA).bin" size 663381600 crc aa202fa1 md5 8e350f8972bf2aee3578feec266e47b0 sha1 b8a3a504b900042e11a7fdcfeb1a15b36d66f9d7 )
 )
 
 game (
@@ -1638,15 +1914,15 @@ game (
 )
 
 game (
-	name "Syndicate (Europe) (Demo)"
-	description "Syndicate (Europe) (Demo)"
-	rom ( name "Syndicate (Europe) (Demo).bin" size 134374464 crc 362895d7 md5 eda8e8d654efa709694351e743e46ebd sha1 5e9470685e6b13aac3c3d8e517a5631340415afa )
-)
-
-game (
 	name "Syndicate (Europe)"
 	description "Syndicate (Europe)"
 	rom ( name "Syndicate (Europe).bin" size 129557568 crc 16aa6cea md5 170b66bccd565b5d3ec279f8e803bb20 sha1 07ab4244bc8a2394a37ccf1ea3d2b6bc4536b8c7 )
+)
+
+game (
+	name "Syndicate (Europe) (Demo)"
+	description "Syndicate (Europe) (Demo)"
+	rom ( name "Syndicate (Europe) (Demo).bin" size 134374464 crc 362895d7 md5 eda8e8d654efa709694351e743e46ebd sha1 5e9470685e6b13aac3c3d8e517a5631340415afa )
 )
 
 game (
@@ -1764,15 +2040,15 @@ game (
 )
 
 game (
-	name "Total Eclipse (USA)"
-	description "Total Eclipse (USA)"
-	rom ( name "Total Eclipse (USA).bin" size 385709184 crc 367cdef2 md5 9ef166fd384c8399437b431304e1ea03 sha1 c1e9c2670dbf63e1e1eb6475992eb329b8beffa6 )
-)
-
-game (
 	name "Total Eclipse (USA, Europe) (Not for Resale)"
 	description "Total Eclipse (USA, Europe) (Not for Resale)"
 	rom ( name "Total Eclipse (USA, Europe) (Not for Resale).bin" size 422184000 crc 9119e43d md5 ade1df39023c1f5fe0a3f65481740568 sha1 715869e4eecdc202983d0b688b78a76648182f00 )
+)
+
+game (
+	name "Total Eclipse (USA)"
+	description "Total Eclipse (USA)"
+	rom ( name "Total Eclipse (USA).bin" size 385709184 crc 367cdef2 md5 9ef166fd384c8399437b431304e1ea03 sha1 c1e9c2670dbf63e1e1eb6475992eb329b8beffa6 )
 )
 
 game (
@@ -1806,12 +2082,6 @@ game (
 )
 
 game (
-	name "Twisted (Japan)"
-	description "Twisted (Japan)"
-	rom ( name "Twisted (Japan).bin" size 744916032 crc 14e6949a md5 850d21cfbd182f3450d02fb6ae726a9f sha1 d4cede6849859008ae5e786abb90f7a4d666aa48 )
-)
-
-game (
 	name "Twisted - The Game Show (Europe)"
 	description "Twisted - The Game Show (Europe)"
 	rom ( name "Twisted - The Game Show (Europe).bin" size 746976384 crc 20a5bcc5 md5 be584a51f1c735f3f106bb55a0af5fbb sha1 28d2e95b64d8c77cb6995399a47ccf0c0f221a6c )
@@ -1821,6 +2091,12 @@ game (
 	name "Twisted - The Game Show (USA)"
 	description "Twisted - The Game Show (USA)"
 	rom ( name "Twisted - The Game Show (USA).bin" size 746976384 crc 2cc6e83b md5 01d0d86a66797a5a48ff227b6b4b0391 sha1 f9ccedc3d4fda12e38794d8eb6c7f5d1d47d5028 )
+)
+
+game (
+	name "Twisted (Japan)"
+	description "Twisted (Japan)"
+	rom ( name "Twisted (Japan).bin" size 744916032 crc 14e6949a md5 850d21cfbd182f3450d02fb6ae726a9f sha1 d4cede6849859008ae5e786abb90f7a4d666aa48 )
 )
 
 game (
@@ -1836,15 +2112,9 @@ game (
 )
 
 game (
-	name "VR Stalker (Europe) (Improved Version)"
-	description "VR Stalker (Europe) (Improved Version)"
-	rom ( name "VR Stalker (Europe) (Improved Version).bin" size 175318080 crc 56de4120 md5 7a722e31b6958ab73c424eeccbf06716 sha1 563d4c3259f2b4e5f58921351cd92fd4c2f1bb64 )
-)
-
-game (
-	name "VR Stalker (USA)"
-	description "VR Stalker (USA)"
-	rom ( name "VR Stalker (USA).bin" size 422536800 crc 25597e83 md5 18ea11a4d5ffd56e6d21edd0f8628b8f sha1 ecb40ea9467c06c7c88d0cbdae500a02e6533787 )
+	name "V Goal Soccer '96 (Japan)"
+	description "V Goal Soccer '96 (Japan)"
+	rom ( name "V Goal Soccer '96 (Japan).bin" size 313803840 crc 6c5cef3b md5 84d61265adedd197df04239f490510c0 sha1 f7f977cfaf68f1e0b13f8461235a3e08ddc31bf0 )
 )
 
 game (
@@ -1866,6 +2136,12 @@ game (
 )
 
 game (
+	name "Virtual Puppet Reika (Japan)"
+	description "Virtual Puppet Reika (Japan)"
+	rom ( name "Virtual Puppet Reika (Japan).bin" size 572363904 crc 4cc06f05 md5 6155bb2cee884ac40de16a6c26829b8d sha1 fe3957e04b4b76226788cf30b7ecf45ddc6d0ebd )
+)
+
+game (
 	name "Virtual Quest - Pharaoh no Fuuin (Japan)"
 	description "Virtual Quest - Pharaoh no Fuuin (Japan)"
 	rom ( name "Virtual Quest - Pharaoh no Fuuin (Japan).bin" size 602817600 crc 802b4c4b md5 ca8612ea4c4867b06375841946653afe sha1 09601f2100117c0f5b20fe4b5f93c5d9aa9f156f )
@@ -1884,6 +2160,18 @@ game (
 )
 
 game (
+	name "VR Stalker (Europe) (Improved Version)"
+	description "VR Stalker (Europe) (Improved Version)"
+	rom ( name "VR Stalker (Europe) (Improved Version).bin" size 175318080 crc 56de4120 md5 7a722e31b6958ab73c424eeccbf06716 sha1 563d4c3259f2b4e5f58921351cd92fd4c2f1bb64 )
+)
+
+game (
+	name "VR Stalker (USA)"
+	description "VR Stalker (USA)"
+	rom ( name "VR Stalker (USA).bin" size 422536800 crc 25597e83 md5 18ea11a4d5ffd56e6d21edd0f8628b8f sha1 ecb40ea9467c06c7c88d0cbdae500a02e6533787 )
+)
+
+game (
 	name "Waialae Country Club (USA)"
 	description "Waialae Country Club (USA)"
 	rom ( name "Waialae Country Club (USA).bin" size 458310720 crc 2a6d27e4 md5 fe36e6f686e82caad3e75eae4876653e sha1 72b460207b6f96f05ed0a6ca2c45d09b773d008c )
@@ -1899,24 +2187,6 @@ game (
 	name "Way of the Warrior (USA)"
 	description "Way of the Warrior (USA)"
 	rom ( name "Way of the Warrior (USA).bin" size 371606592 crc 799492da md5 85f2187469da41b2845484acc04bf413 sha1 062150c5f89b3e83a3856b67cd733d0b7f566103 )
-)
-
-game (
-	name "Wing Commander III - Heart of the Tiger (Europe) (Disc 2)"
-	description "Wing Commander III - Heart of the Tiger (Europe) (Disc 2)"
-	rom ( name "Wing Commander III - Heart of the Tiger (Europe) (Disc 2).bin" size 771060864 crc 92bdf6bd md5 8e0e89a6f986e9bd5a2cd73a0154be2d sha1 8fb5d8ddc8be389c5b04d6714a56341e9bccb58a )
-)
-
-game (
-	name "Wing Commander III - Heart of the Tiger (Europe) (Disc 3)"
-	description "Wing Commander III - Heart of the Tiger (Europe) (Disc 3)"
-	rom ( name "Wing Commander III - Heart of the Tiger (Europe) (Disc 3).bin" size 771060864 crc 406ff629 md5 ca461cec83df80a1135a4c13e13f5a49 sha1 95f2d6a6e4348c1e21a6bf98ec30b37b8565d59f )
-)
-
-game (
-	name "Wing Commander III - Heart of the Tiger (Europe) (Disc 4)"
-	description "Wing Commander III - Heart of the Tiger (Europe) (Disc 4)"
-	rom ( name "Wing Commander III - Heart of the Tiger (Europe) (Disc 4).bin" size 771060864 crc 2979176b md5 95a1a031aae6b92bc536d88d640e7ae9 sha1 d4af53cb6b8d6e16b152b7692fba2e9a85119681 )
 )
 
 game (
@@ -1944,15 +2214,63 @@ game (
 )
 
 game (
+	name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 2)"
+	description "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 2)"
+	rom ( name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 2).bin" size 771060864 crc 92bdf6bd md5 8e0e89a6f986e9bd5a2cd73a0154be2d sha1 8fb5d8ddc8be389c5b04d6714a56341e9bccb58a )
+)
+
+game (
+	name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 3)"
+	description "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 3)"
+	rom ( name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 3).bin" size 771060864 crc 406ff629 md5 ca461cec83df80a1135a4c13e13f5a49 sha1 95f2d6a6e4348c1e21a6bf98ec30b37b8565d59f )
+)
+
+game (
+	name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 4)"
+	description "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 4)"
+	rom ( name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 4).bin" size 771060864 crc 2979176b md5 95a1a031aae6b92bc536d88d640e7ae9 sha1 d4af53cb6b8d6e16b152b7692fba2e9a85119681 )
+)
+
+game (
+	name "Wing Commander III - Heart of the Tiger (USA) (Disc 1)"
+	description "Wing Commander III - Heart of the Tiger (USA) (Disc 1)"
+	rom ( name "Wing Commander III - Heart of the Tiger (USA) (Disc 1).bin" size 771060864 crc 8f9d3bc9 md5 41b3ad46d21ae7f13a481fe5a9644627 sha1 c4d8f8cbb11c659d052fedc953476a5f0c16a15b )
+)
+
+game (
 	name "Winning Post (Japan)"
 	description "Winning Post (Japan)"
 	rom ( name "Winning Post (Japan).bin" size 289371264 crc e235907f md5 0596fcff2f4107f05c35a80fcdd73e01 sha1 e3c73c511848c865930c3b15b9893d3b65eb5355 )
 )
 
 game (
+	name "Wolfenstein 3D (Japan)"
+	description "Wolfenstein 3D (Japan)"
+	rom ( name "Wolfenstein 3D (Japan).bin" size 133170240 crc 29c1a178 md5 064a2e8209b2caf56481929716746e25 sha1 1fb556ccc6ce9d313b7ccc195b068561ece0ac0e )
+)
+
+game (
 	name "Wolfenstein 3D (USA)"
 	description "Wolfenstein 3D (USA)"
 	rom ( name "Wolfenstein 3D (USA).bin" size 133363104 crc cd23091e md5 b635fb5f28f8c0a058bd40a2fb79337c sha1 fee290ef7293b5facdc75bcdc332968836cef738 )
+)
+
+game (
+	name "Woody Woodpecker and Friends - Volume One (USA) (RE-1)"
+	description "Woody Woodpecker and Friends - Volume One (USA) (RE-1)"
+	rom ( name "Woody Woodpecker and Friends - Volume One (USA) (RE-1).bin" size 603170400 crc 414c4e57 md5 8cee7900c2b908f0a616239eadbf8a5c sha1 c0d7fab8dbb0b4cfd1ebba9c4599cb6d2ca8c7ee )
+)
+
+game (
+	name "Woody Woodpecker and Friends - Volume Three (USA)"
+	description "Woody Woodpecker and Friends - Volume Three (USA)"
+	rom ( name "Woody Woodpecker and Friends - Volume Three (USA).bin" size 602822304 crc ec260301 md5 17bc9f850b127e24b11140a70fa50b4a sha1 968dcb7d5ba37e78075a5704948f5737c621e0d1 )
+)
+
+game (
+	name "Woody Woodpecker and Friends - Volume Two (USA)"
+	description "Woody Woodpecker and Friends - Volume Two (USA)"
+	rom ( name "Woody Woodpecker and Friends - Volume Two (USA).bin" size 602469504 crc 2033bd9c md5 b6d113feb3f8cfd0abe2b0a982673a79 sha1 6d31ea621aa407e6b8249be65ddfbeab41e55440 )
 )
 
 game (
