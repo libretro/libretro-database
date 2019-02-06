@@ -2,7 +2,7 @@ clrmamepro (
 	name "BIOS - Non-Merged"
 	description "BIOS - Non-Merged"
 	comment "BIOS files required by libretro. The non-merged version provides files organized by platform folder."
-	version "2019-01-16"
+	version "2019-02-06"
 	author "libretro"
 	homepage "http://github.com/libretro/libretro-database"
 	url "http://github.com/libretro/libretro-database"
@@ -93,11 +93,16 @@ game (
 
 game (
 	name "Microsoft - MSX"
+	rom ( name DISK.ROM size 16384 crc 721f61df md5 80dcd1ad1a4cf65d64b7ba10504e8190 sha1 032cb1c1c75b9a191fa1230978971698d9d2a17f )
+	rom ( name FMPAC.ROM size 65536 crc 0e84505d md5 6f69cc8b5ed761b03afd78000dfb0e19 sha1 9d789166e3caf28e4742fe933d962e99618c633d )
+	rom ( name KANJI.ROM size 131072 crc c9651b32 md5 febe8782b466d7c3b16de6d104826b34 sha1 84a645becec0a25d3ab7a909cde1b242699a8662 )
 	rom ( name MSX.ROM size 32768 crc 94ee12f3 md5 aa95aea2563cd5ec0a0919b44cc17d47 sha1 409e82adac40f6bdd18eb6c84e8b2fbdc7fb5498 )
 	rom ( name MSX2.ROM size 32768 crc 6cdaf3a5 md5 ec3a01c91f24fbddcbcab0ad301bc9ef sha1 6103b39f1e38d1aa2d84b1c3219c44f1abb5436e )
 	rom ( name MSX2EXT.ROM size 16384 crc 66237ecf md5 2183c2aff17cf4297bdb496de78c2e8a sha1 5c1f9c7fb655e43d38e5dd1fcc6b942b2ff68b02 )
 	rom ( name MSX2P.ROM size 32768 crc 00870134 md5 6d8c0ca64e726c82a4b726e9b01cdf1e sha1 e2fbd56e42da637609d23ae9df9efd1b4241b18a )
 	rom ( name MSX2PEXT.ROM size 16384 crc b8ba44d3 md5 7c8243c71d8f143b2531f01afa6a05dc sha1 fe0254cbfc11405b79e7c86c7769bd6322b04995 )
+	rom ( name MSXDOS2.ROM size 65536 crc 1c430991 md5 6418d091cd6907bbcf940324339e43bb sha1 c36c9e0f96738a340381e23b4f97245388801a46 )
+	rom ( name PAINTER.ROM size 65536 crc 1bda68a3 md5 403cdea1cbd2bb24fae506941f8f655e sha1 7fd2a28c4fdaeb140f3c8c8fb90271b1472c97b9 )
 )
 
 game (
