@@ -1,8 +1,8 @@
 clrmamepro (
 	name "Doom"
 	description "Doom"
-	version 2019.04.21
-	author "Obiwantje, libretro"
+	version 2019.04.22
+	author "Obiwantje, LodanZark, libretro"
 )
 
 game (
@@ -48,6 +48,18 @@ game (
 )
 
 game (
+	name "Doom (Demo)"
+	description "Doom (Demo)"
+	rom ( name DOOM1.WAD size 4207819 crc eedae672 md5 90facab21eede7981be10790e3f82da2 sha1 fc0359e191bd257b3507863ae412ef3250515866 )
+)
+
+game (
+	name "Doom (PocketPC)"
+	description "Doom (PocketPC)"
+	rom ( name DOOM.WAD size 14445632 crc 4500749f md5 dae77aff77a0491e3b7254c9c8401aa8 sha1 a89b39d91122882214c3088b8cd6b308713bd7c2 )
+)
+
+game (
 	name "Doom (Press-Release Beta)"
 	description "Doom (Press-Release Beta)"
 	rom ( name DOOMPRES.WAD size 5468456 crc ff9bd960 md5 049e32f18d9c9529630366cfc72726ea sha1 692994db9579be4201730b9ac77797fae2111bde )
@@ -75,12 +87,6 @@ game (
 	name "Doom (v0.5) (Alpha)"
 	description "Doom (v0.5) (Alpha)"
 	rom ( name DOOM.WAD size 3522207 crc 8fe33445 md5 9c877480b8ef33b7074f1f0c07ed6487 sha1 d3648d720b5324ce3c7bf58cf019e395911d677e )
-)
-
-game (
-	name "Doom (Demo)"
-	description "Doom (Demo)"
-	rom ( name DOOM1.WAD size 4207819 crc eedae672 md5 90facab21eede7981be10790e3f82da2 sha1 fc0359e191bd257b3507863ae412ef3250515866 )
 )
 
 game (
@@ -168,12 +174,6 @@ game (
 )
 
 game (
-	name "Doom (PocketPC)"
-	description "Doom (PocketPC)"
-	rom ( name DOOM.WAD size 14445632 crc 4500749f md5 dae77aff77a0491e3b7254c9c8401aa8 sha1 a89b39d91122882214c3088b8cd6b308713bd7c2 )
-)
-
-game (
 	name "Doom II - Hell on Earth (BFG Edition)"
 	description "Doom II - Hell on Earth (BFG Edition)"
 	rom ( name DOOM2.WAD size 14691821 crc 927a778a md5 c3bea40570c23e511a7ed3ebcd9865f7 sha1 a59548125f59f6aa1a41c22f615557d3dd2e85a9 )
@@ -189,6 +189,12 @@ game (
 	name "Doom II - Hell on Earth (Classic Complete) (PlayStation 3)"
 	description "Doom II - Hell on Earth (Classic Complete) (PlayStation 3)"
 	rom ( name DOOM2.WAD size 14599800 crc 451446e2 md5 4c3db5f23b145fccd24c9b84aba3b7dd sha1 ca8db908a7c9fbac764f34c148f0bcc78d18553e )
+)
+
+game (
+	name "Doom II - Hell on Earth (Tapwave Zodiac)"
+	description "Doom II - Hell on Earth (Tapwave Zodiac)"
+	rom ( name DOOM2.WAD size 14639397 crc 541a97c2 md5 9640fc4b2c8447bbd28f2080725d5c51 sha1 2cda310805397ae44059bbcaed3cd602f4864a82 )
 )
 
 game (
@@ -234,8 +240,8 @@ game (
 )
 
 game (
-	name "Doom II - Hell on Earth (Xbox 360)"
-	description "Doom II - Hell on Earth (Xbox 360)"
+	name "Doom II - Hell on Earth (XBLA)"
+	description "Doom II - Hell on Earth (XBLA)"
 	rom ( name DOOM2.WAD size 14685034 crc 3f2b4852 md5 43c2df32dc6c740cb11f34dc5ab693fa sha1 55e445badd63d8841ebea887910c26c62c7f525e )
 )
 
@@ -246,9 +252,15 @@ game (
 )
 
 game (
-	name "Doom II - No Rest for the Living"
-	description "Doom II - No Rest for the Living"
+	name "Doom II - No Rest for the Living (BFG Edition)"
+	description "Doom II - No Rest for the Living (BFG Edition)"
 	rom ( name NERVE.WAD size 3819855 crc ad7f9292 md5 967d5ae23daf45196212ae1b605da3b0 sha1 3451288383fb16e196f273d9f85d58c1fda97bf4 )
+)
+
+game (
+	name "Doom II - No Rest for the Living (BFG Edition) (Xbox 360)"
+	description "Doom II - No Rest for the Living (BFG Edition) (Xbox 360)"
+	rom ( name NERVE.WAD size 3786293 crc 0fe8df75 md5 4f47bb32bf5fd06bc1cc0b4a2e8e3910 sha1 bb78b34dba684cc1ef1eea21f37092c6784d3b6f )
 )
 
 game (
@@ -259,15 +271,15 @@ game (
 )
 
 game (
-	name "Final Doom - Evilution (id Anthology)"
-	description "Final Doom - Evilution (id Anthology)"
-	rom ( name TNT.WAD size 18654796 crc d4bb05c0 md5 1d39e405bf6ee3df69a8d2646c8d5c49 sha1 4a65c8b960225505187c36040b41a40b152f8f3e )
-)
-
-game (
 	name "Final Doom - Evilution (Classic Complete) (PlayStation 3)"
 	description "Final Doom - Evilution (Classic Complete) (PlayStation 3)"
 	rom ( name TNT.WAD size 18222568 crc d5b82d26 md5 be626c12b7c9d94b1dfb9c327566b4ff sha1 139e26d801a64b404b8d898defca10227a61867b )
+)
+
+game (
+	name "Final Doom - Evilution (id Anthology)"
+	description "Final Doom - Evilution (id Anthology)"
+	rom ( name TNT.WAD size 18654796 crc d4bb05c0 md5 1d39e405bf6ee3df69a8d2646c8d5c49 sha1 4a65c8b960225505187c36040b41a40b152f8f3e )
 )
 
 game (
@@ -277,15 +289,15 @@ game (
 )
 
 game (
-	name "Final Doom - The Plutonia Experiment (id Anthology)"
-	description "Final Doom - The Plutonia Experiment (id Anthology)"
-	rom ( name PLUTONIA.WAD size 18240172 crc 15cd1448 md5 3493be7e1e2588bc9c8b31eab2587a04 sha1 f131cbe1946d7fddb3caec4aa258c83399c21e60 )
-)
-
-game (
 	name "Final Doom - The Plutonia Experiment (Classic Complete) (PlayStation 3)"
 	description "Final Doom - The Plutonia Experiment (Classic Complete) (PlayStation 3)"
 	rom ( name PLUTONIA.WAD size 17417800 crc e5f2abe3 md5 b77ca6a809c4fae086162dad8e7a1335 sha1 327f8c41ebd4138354e9fca63cebbbd1b9489749 )
+)
+
+game (
+	name "Final Doom - The Plutonia Experiment (id Anthology)"
+	description "Final Doom - The Plutonia Experiment (id Anthology)"
+	rom ( name PLUTONIA.WAD size 18240172 crc 15cd1448 md5 3493be7e1e2588bc9c8b31eab2587a04 sha1 f131cbe1946d7fddb3caec4aa258c83399c21e60 )
 )
 
 game (
@@ -307,15 +319,21 @@ game (
 )
 
 game (
-	name "HACX"
-	description "HACX"
-	rom ( name HACX.WAD size 22102300 crc b95a03d2 md5 b7fd2f43f3382cf012dc6b097a3cb182 sha1 1125a16243d1e1d5259e0f387d955382432f1424 )
-)
-
-game (
 	name "HACX (Demo)"
 	description "HACX (Demo)"
 	rom ( name HACXSW.WAD size 9745911 crc 5e11e85e md5 4268af0335f9454c489a794058cd02f2 sha1 126432aef79cf85c7e1134e88174880b38610008 )
+)
+
+game (
+	name "HACX"
+	description "HACX"
+	rom ( name HACX.WAD crc b9a93237 md5 1511a7032ebc834a3884cf390d7f186e sha1 dc6df745e342eaea325677a40184e10cbc6629d7 )
+)
+
+game (
+	name "HACX (v1.1)"
+	description "HACX (v1.1)"
+	rom ( name HACX.WAD size 22102300 crc b95a03d2 md5 b7fd2f43f3382cf012dc6b097a3cb182 sha1 1125a16243d1e1d5259e0f387d955382432f1424 )
 )
 
 game (
@@ -399,14 +417,20 @@ game (
 )
 
 game (
+	name "Hexen - Beyond Heretic (Beta) (Demo)"
+	description "Hexen - Beyond Heretic (Beta) (Demo)"
+	rom ( name HEXEN.WAD size 10615976 crc c0e5a448 md5 9178a32a496ff5befebfe6c47dac106c sha1 f1015d659329733a237c00f2c6208243fa95e2f7 )
+)
+
+game (
 	name "Hexen - Beyond Heretic (Mac Edition)"
 	description "Hexen - Beyond Heretic (Mac Edition)"
 	rom ( name HEXEN.WAD size 21078584 crc d6379951 md5 b68140a796f6fd7f3a5d3226a32b93be sha1 4343fbe5aef905ef6d077a1517a50c919e5cc906 )
 )
 
 game (
-	name "Hexen - Beyond Heretic (Mac Edition - Demo)"
-	description "Hexen - Beyond Heretic (Mac Edition - Demo)"
+	name "Hexen - Beyond Heretic (Mac Edition) (Demo)"
+	description "Hexen - Beyond Heretic (Mac Edition) (Demo)"
 	rom ( name HEXEN.WAD size 13596228 crc 8929dbfa md5 925f9f5000e17dc84b0a6a3bed3a6f31 sha1 c2338e52c06c3a4925b9a9fb2c720252fe917c08 )
 )
 
@@ -456,6 +480,7 @@ game (
 	name "Lost Episodes of Doom, The"
 	description "Lost Episodes of Doom, The"
 	rom ( name JPTR_V40.WAD size 2313675 crc 368a45b2 md5 8111f6ea0263a7fcfee5ba3dd06c5554 sha1 9dd7699086f5519c21f4ff24459069e887bb015e )
+	rom ( name JPTR_FIX.WAD size 134904 crc 3fb9dc6f md5 61fcc8f66c40ae77a9acae49755e24a9 sha1 af6dc6bed42d8bf5ea91d091e13b48dd4f06ce3d )
 )
 
 game (
@@ -493,22 +518,29 @@ game (
 	name "Perdition's Gate"
 	description "Perdition's Gate"
 	rom ( name PG-RAW-X.WAD size 7012512 crc eaeb3ec0 md5 2e179a5aa598f02e9ef132c9cfed7a1a sha1 38635b065258ac562ac9dd75a40901be68f2ef4e )
+	rom ( name PG-RAW.WAD size 7008400 crc afa09215 md5 22bde2b7714c4e059a557c009666265f sha1 a06af291e447389094f62a2a2734c521a9c17f95 )
 	rom ( name PGDEMO16.WAD size 29776 crc f84e30b4 md5 a1bf1cb53930441663231701d5dce766 sha1 ecae7b1d851853dbe02ecca62650344ac1652b7d )
 	rom ( name PGDEMO17.WAD size 29776 crc 40492caa md5 38718a9618f38b78ba30c7f8892dec31 sha1 8553435b8a95da72f77eb65befbf49210108cd2a )
 	rom ( name PGDEMO18.WAD size 29776 crc debe7472 md5 43fe4c4fef6ececfe8eecb4a618eab07 sha1 7c2507f9349f7f5a02a2c310c35127bfc4231b1d )
 	rom ( name PGDEMO19.WAD size 29776 crc 66b9686c md5 0219f6c19d35c7c99168bb16cc653950 sha1 b263a10ce17d65ca953c7ac32923f45c3e41d7fb )
-	rom ( name PG-RAW.WAD size 7008400 crc afa09215 md5 22bde2b7714c4e059a557c009666265f sha1 a06af291e447389094f62a2a2734c521a9c17f95 )
 )
 
 game (
 	name "Perdition's Gate (Demo)"
 	description "Perdition's Gate (Demo)"
 	rom ( name PG-LTD-X.WAD size 2811816 crc 40d781d5 md5 6f87b2efe8820f257c29e821e96ad5a9 sha1 791afa256fead52f7f8db7b2f9ac1250fa8177d3 )
+	rom ( name PG-LTD.WAD size 2807704 crc bf223dd2 md5 7d1f8cba50cfc0f9334ad5950604c80c sha1 56d98c7046d26955dfea6110eef7394b6677f989 )
 	rom ( name PGDEMO16.WAD size 55228 crc dfbbfbc8 md5 7ae425d1bf1d0655040382739f741e7d sha1 9a070d11a5e54d6eb484803248d551b3b250698b )
 	rom ( name PGDEMO17.WAD size 55228 crc 1d2c4343 md5 a786beb8614e77cd0a16c3390ef1db2a sha1 02609f16fe12dfed70ec800535936a658763dc12 )
 	rom ( name PGDEMO18.WAD size 55228 crc 3d596231 md5 5f5314d9927d72c8a3ce18e873b3c1c6 sha1 29e0e20c0365527961595447072364de7821ba45 )
 	rom ( name PGDEMO19.WAD size 55228 crc ffcedaba md5 781035cf5b8300fd93cdcb639bdeb0f9 sha1 2ba85090eaa133499fbfedb13310d6bac6390a4e )
-	rom ( name PG-LTD.WAD size 2807704 crc bf223dd2 md5 7d1f8cba50cfc0f9334ad5950604c80c sha1 56d98c7046d26955dfea6110eef7394b6677f989 )
+)
+
+game (
+	name "PSXDoom (v2.135)"
+	description "PSXDoom (v2.135)"
+	rom ( name psxload.pk3 size 291 crc 27a5e09b md5 03e21568433a9c3706b65db8d6d0d142 sha1 f838c075129dbf9d5e13d3d455a2828d8bd9a495 )
+	rom ( name psxtcmus.pk3 size 80247802 crc 122fd0e6 md5 97e2808b2fb3937487379bab1f2cb911 sha1 f06b0b38ed5c8f76d8e4ea9119fd06d83c75092b )
 )
 
 game (
@@ -580,20 +612,20 @@ game (
 )
 
 game (
-	name "Ultimate Doom, The (BFG Edition, Classic Complete) (PlayStation 3)"
-	description "Ultimate Doom, The (BFG Edition, Classic Complete) (PlayStation 3)"
-	rom ( name DOOM.WAD size 12474561 crc 3f646587 md5 e4f120eab6fb410a5b6e11c947832357 sha1 117015379c529573510be08cf59810aa10bb934e )
-)
-
-game (
 	name "Ultimate Doom, The (BFG Edition) (Xbox 360)"
 	description "Ultimate Doom, The (BFG Edition) (Xbox 360)"
 	rom ( name DOOM.WAD size 12474561 crc 6010fd43 md5 7912931e44c7d56e021084a256659800 sha1 d6a9f0172eca101471128ec61be975361f2ad28e )
 )
 
 game (
-	name "Ultimate Doom, The (Xbox 360)"
-	description "Ultimate Doom, The (Xbox 360)"
+	name "Ultimate Doom, The (BFG Edition, Classic Complete) (PlayStation 3)"
+	description "Ultimate Doom, The (BFG Edition, Classic Complete) (PlayStation 3)"
+	rom ( name DOOM.WAD size 12474561 crc 3f646587 md5 e4f120eab6fb410a5b6e11c947832357 sha1 117015379c529573510be08cf59810aa10bb934e )
+)
+
+game (
+	name "Ultimate Doom, The (XBLA)"
+	description "Ultimate Doom, The (XBLA)"
 	rom ( name DOOM.WAD size 12475196 crc b8583cd5 md5 72286ddc680d47b9138053dd944b2a3d sha1 37de4510216eb3ce9a835dd939109443375d10c5 )
 )
 
@@ -601,15 +633,4 @@ game (
 	name "Ultimate Doom, The (Xbox)"
 	description "Ultimate Doom, The (Xbox)"
 	rom ( name DOOM.WAD size 12538385 crc ff1ba733 md5 0c8758f102ccafe26a3040bee8ba5021 sha1 1d1d4f69fe14fa255228d8243470678b1b4efdc5 )
-)
-game (
-	name "Doom II - Hell on Earth (Tapwave Zodiac)"
-	description "Doom II - Hell on Earth (Tapwave Zodiac)"
-	rom ( name DOOM2.WAD size 14639397 crc 541a97c2 md5 9640fc4b2c8447bbd28f2080725d5c51 sha1 2cda310805397ae44059bbcaed3cd602f4864a82 )
-)
-
-game (
-	name "Doom II - No Rest for the Living (BFG Edition) (Xbox 360)"
-	description "Doom II - No Rest for the Living (BFG Edition) (Xbox 360)"
-	rom ( name NERVE.WAD size 3786293 crc 0fe8df75 md5 4f47bb32bf5fd06bc1cc0b4a2e8e3910 sha1 bb78b34dba684cc1ef1eea21f37092c6784d3b6f )
 )
