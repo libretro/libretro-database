@@ -26,9 +26,11 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Bandai - WonderSwan Color|[No-Intro](http://datomatic.no-intro.org)|
 |Cave Story|[CaveStory.org (English or Japanese)](http://www.cavestory.org)|
 |DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
-|FB Alpha - Arcade Games|FB Alpha v0.2.97.44|[lr-fbalpha dats](https://github.com/libretro/fbalpha/tree/master/dats)|
+|FB Alpha - Arcade Games|pre-0.2.97.44|[lr-fbalpha dats](https://github.com/libretro/fbalpha/tree/master/dats)|
+|FB Alpha (FB Edition) - Arcade Games| 0.2.97.44 (WIP)|[lr-FBAlphaFB dats](https://github.com/libretro/FBAlphaFB/tree/master/dats)|
 |GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|
-|Id Software - Doom|Unknown|
+|Id Software - Doom|Unknown|[libretro-database-doom](https://github.com/libretro/libretro-database/blob/master/dat/DOOM.dat)|
+|Id Software - Quake|Unknown|[libretro-database-quake](https://github.com/libretro/libretro-database/blob/master/dat/Quake1.dat)|
 |Lutro|Unknown|
 |Magnavox - Odyssey2|[No-Intro](http://datomatic.no-intro.org)|
 |MAME|MAME 0.37b5, 0.78, 0.139, 0.159|
@@ -47,7 +49,6 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Nintendo - Nintendo Entertainment System|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Super Nintendo Entertainment System|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Virtual Boy|[No-Intro](http://datomatic.no-intro.org)|
-|Quake|Unknown|
 |Phillips - Videopac+|[No-Intro](http://datomatic.no-intro.org)|
 |ScummVM|Gruby's ScummVM Adventure Pack|[libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm)|
 |Sega - 32X|[No-Intro](http://datomatic.no-intro.org)|
