@@ -27,7 +27,7 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |Cave Story|[CaveStory.org (English or Japanese)](http://www.cavestory.org)|
 |DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
 |FinalBurn Alpha - Arcade Games|pre-0.2.97.44|[lr-fbalpha dats](https://github.com/libretro/fbalpha/tree/master/dats)|
-|FinalBurn Neo - Arcade Games|0.2.97.44 (WIP)|[lr-FBAlphaFB dats](https://github.com/libretro/fbneo/tree/master/dats)|
+|FinalBurn Neo - Arcade Games|0.2.97.44 (WIP)|[lr-FBNeo dats](https://github.com/libretro/fbneo/tree/master/dats)|
 |GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|
 |Id Software - Doom|Unknown|[libretro-database-doom](https://github.com/libretro/libretro-database/blob/master/dat/DOOM.dat)|
 |Id Software - Quake|Unknown|[libretro-database-quake](https://github.com/libretro/libretro-database/blob/master/dat/Quake1.dat)|
