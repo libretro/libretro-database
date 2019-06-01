@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-# FBA_dat_gen.py
+# FBNeo_dat_gen.py
 # Written in 2017 by SpiralBrad <SpiralBrad@spiralgoat.com>
 
-## usage: FBA_dat_gen.py [-h] -dat DAT -path PATH [-output_file OUTPUT_FILE]
+## usage: FBNeo_dat_gen.py [-h] -dat DAT -path PATH [-output_file OUTPUT_FILE]
 ##                       [-header_name HEADER_NAME]
 ##                       [-header_description HEADER_DESCRIPTION]
 ##                       [-header_version HEADER_VERSION]
@@ -14,7 +14,7 @@
 ## optional arguments:
 ##   -h, --help            show this help message and exit
 ##   -output_file OUTPUT_FILE
-##                         Path to the target output file; example: FB Alpha - 
+##                         Path to the target output file; example: FBNeo - 
 ##                         Arcade games.dat
 ##   -header_name HEADER_NAME
 ##                         Override the clrmamepro(name) in the output .dat
@@ -30,9 +30,9 @@
 ##   -path PATH            Path to a split, ClrMamePro verified and TorrentZipped 
 ##                         ROM set matching the Arcade only dat
 ## 
-## example usage: python3 FBA_dat_gen.py -dat "FB Alpha v0.2.97.42 (ClrMame Pro 
+## example usage: python3 FBA_dat_gen.py -dat "FBNeo v0.2.97.42 (ClrMame Pro 
 ##                  XML).dat" -path  "/path/to/split/verified/torrentzipped/roms/" 
-##                  -output_file "FB Alpha - Arcade Games.dat"
+##                  -output_file "FBNeo - Arcade Games.dat"
 
 #-   To the extent possible under law, the author(s) have dedicated all 
 #-   copyright and related and neighboring rights to this software to the 
@@ -69,7 +69,7 @@ def setup_argparse():
     required_arguments = parser.add_argument_group('required arguments')
     required_arguments.add_argument('-dat', help='Misc -> Generate dat file -> Generate dat (Arcade only)', required=True)
     required_arguments.add_argument('-path', help='Path to a split, ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat', required=True)
-    parser.add_argument('-output_file', help='Path to the target output file; example: FB Alpha - Arcade games.dat')
+    parser.add_argument('-output_file', help='Path to the target output file; example: FBNeo - Arcade games.dat')
     parser.add_argument('-header_name', help='Override the clrmamepro(name) in the output .dat')
     parser.add_argument('-header_description', help='Override the clrmamepro(description) in the output .dat')
     parser.add_argument('-header_version', help='Override the clrmamepro(version) in the output .dat')
@@ -77,9 +77,9 @@ def setup_argparse():
     if len(sys.argv[1:])==0:
         parser.print_help()
         print('\n'.join(['',
-                         'example usage: python3 FBA_dat_gen.py -dat "FB Alpha v0.2.97.42 (ClrMame Pro ', 
+                         'example usage: python3 FBA_dat_gen.py -dat "FBNeo v0.2.97.42 (ClrMame Pro ', 
                          '                 XML).dat" -path  "/path/to/split/verified/torrentzipped/roms/" ',
-                         '                 -output_file "FB Alpha - Arcade Games.dat"']))
+                         '                 -output_file "FBNeo - Arcade Games.dat"']))
         parser.exit()
     return parser
 
@@ -120,7 +120,7 @@ def get_header_version(args, dat_root, parser):
 def get_header_description(args, version):
     """Return the description by generationg via the <version> or the -header_description argument"""
     if not args.header_description:
-        header_description = 'FB Alpha v' + version + ' Arcade Games'
+        header_description = 'FBNeo v' + version + ' Arcade Games'
     else:
         header_description = args.header_description
     return header_description
