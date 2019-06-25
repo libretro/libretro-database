@@ -17,7 +17,7 @@ libretro-super:
 	git clone https://github.com/libretro/libretro-super.git
 
 libretro-super/retroarch: libretro-super
-	cd libretro-super && ./libretro-fetch.sh retroarch
+	cd libretro-super && SHALLOW_CLONE=1 ./libretro-fetch.sh retroarch
 
 build: libretro-super/retroarch
 	rm -rf libretro-super/retroarch/media/libretrodb/dat
