@@ -12,3 +12,18 @@ install:
 
 test-install: all
 	DESTDIR=/tmp/build $(MAKE) install
+
+libretro-super:
+	git clone https://github.com/libretro/libretro-super.git
+
+libretro-super/retroarch: libretro-super
+	cd libretro-super && ./libretro-fetch.sh retroarch
+
+build: libretro-super/retroarch
+	rm -rf libretro-super/retroarch/media/libretrodb/dat
+	rm -rf libretro-super/retroarch/media/libretrodb/metadat
+	rm -rf libretro-super/retroarch/media/libretrodb/rdb
+	cp -rf dat metadat rdb libretro-super/retroarch/media/libretrodb
+	cd libretro-super && ./libretro-build-database.sh
+	rm -rf rdb
+	cp -rf libretro-super/retroarch/media/libretrodb/rdb .
