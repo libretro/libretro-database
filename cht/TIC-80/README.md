@@ -14,7 +14,7 @@ These are cheats available for [TIC-80 games](https://tic.computer/play) when pl
 
 To create a cheat, you'll use the following format:
 
-My Game.cht
+`TIC-80/My Game.cht`
 ```
 cheats = 2
 
