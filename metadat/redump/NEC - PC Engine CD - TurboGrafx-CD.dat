@@ -1,20 +1,20 @@
 clrmamepro (
 	name "NEC - PC Engine CD - TurboGrafx-CD"
 	description "NEC - PC Engine CD - TurboGrafx-CD"
-	version "2019.2.1"
+	version "2019.8.31"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
-	name "3 Games in 1 - Gate of Thunder + Bonk's Adventure + Bonk's Revenge (USA)"
-	description "3 Games in 1 - Gate of Thunder + Bonk's Adventure + Bonk's Revenge (USA)"
-	rom ( name "3 Games in 1 - Gate of Thunder + Bonk's Adventure + Bonk's Revenge (USA) (Track 01).bin" size 7916832 crc ecf8b16b md5 e25cf5e45442703396a239611ea901be sha1 9a8ba8d225d9575ab09b8a612cb86164c4902cac )
+	name "3x3 Eyes - Sanjiyan Henjou (Japan) (Rev 1)"
+	description "3x3 Eyes - Sanjiyan Henjou (Japan) (Rev 1)"
+	rom ( name "3x3 Eyes - Sanjiyan Henjou (Japan) (Rev 1) (Track 1).bin" size 3048192 crc 1e75a8a5 md5 6d021840620341dfa8d8b083dde16cf8 sha1 1fe702fb2bf48aad06d603a67d700bf16f5f12c1 )
 )
 
 game (
-	name "3x3 Eyes - Sanjiyan Henjou (Japan)"
-	description "3x3 Eyes - Sanjiyan Henjou (Japan)"
-	rom ( name "3x3 Eyes - Sanjiyan Henjou (Japan) (Track 1).bin" size 3048192 crc 1e75a8a5 md5 6d021840620341dfa8d8b083dde16cf8 sha1 1fe702fb2bf48aad06d603a67d700bf16f5f12c1 )
+	name "AV Tanjou (Japan) (Unl) (Alt 2)"
+	description "AV Tanjou (Japan) (Unl) (Alt 2)"
+	rom ( name "AV Tanjou (Japan) (Unl) (Alt 2) (Track 01).bin" size 4647552 crc ba4c966b md5 127b2f426bef62b9704c1f1fc2f030da sha1 a1b7d46a31f173135242c6eb8ee1a378bd9c6c81 )
 )
 
 game (
@@ -54,12 +54,6 @@ game (
 )
 
 game (
-	name "AV Tanjou (Japan) (Unl) (Alt 2)"
-	description "AV Tanjou (Japan) (Unl) (Alt 2)"
-	rom ( name "AV Tanjou (Japan) (Unl) (Alt 2) (Track 01).bin" size 4647552 crc ba4c966b md5 127b2f426bef62b9704c1f1fc2f030da sha1 a1b7d46a31f173135242c6eb8ee1a378bd9c6c81 )
-)
-
-game (
 	name "Bakuden - Unbalance Zone (Japan)"
 	description "Bakuden - Unbalance Zone (Japan)"
 	rom ( name "Bakuden - Unbalance Zone (Japan) (Track 01).bin" size 3727920 crc 084561dc md5 359470c53833fea19fc039ca20ceb3ff sha1 8a7066caccda0f50c092f671a99e333ddb82abbb )
@@ -75,12 +69,6 @@ game (
 	name "Basted (Japan)"
 	description "Basted (Japan)"
 	rom ( name "Basted (Japan) (Track 01).bin" size 7484064 crc add212aa md5 8a81c27d25125b019e391fd795bcb2b6 sha1 94da794921c9c4251c77a08de456b58f15e8cbf2 )
-)
-
-game (
-	name "Bazar de Gozarre no Game de Gozarre (Japan)"
-	description "Bazar de Gozarre no Game de Gozarre (Japan)"
-	rom ( name "Bazar de Gozarre no Game de Gozarre (Japan) (Track 01).bin" size 7914480 crc b979500c md5 a25a2c129b7100092cc40e9b6e176a63 sha1 9ac3f1a11d434d186466917f1c7955bf7670c910 )
 )
 
 game (
@@ -111,12 +99,6 @@ game (
 	name "Bomberman - Panic Bomber (Japan) (FABT)"
 	description "Bomberman - Panic Bomber (Japan) (FABT)"
 	rom ( name "Bomberman - Panic Bomber (Japan) (FABT) (Track 01).bin" size 5736528 crc 01b0b815 md5 0fc870644d4f42f07eb139c88bd28dff sha1 bcd4e0f558445da9a835d2f139b415d5e71dc10f )
-)
-
-game (
-	name "Bomberman '94 (Japan) (Sample)"
-	description "Bomberman '94 (Japan) (Sample)"
-	rom ( name "Bomberman '94 (Japan) (Sample) (Track 1).bin" size 7077168 crc e84baae9 md5 ce7570578f3d4dd611996b681471a8b2 sha1 cea5135e07ffde45628028ebece5261ce01da965 )
 )
 
 game (
@@ -153,6 +135,12 @@ game (
 	name "CD Pachi-Slot - Bishoujo Gambler (Japan) (Unl)"
 	description "CD Pachi-Slot - Bishoujo Gambler (Japan) (Unl)"
 	rom ( name "CD Pachi-Slot - Bishoujo Gambler (Japan) (Unl) (Track 01).bin" size 4433520 crc 132f1629 md5 75875138e682d860e50a35a17b99a357 sha1 c2bbc3be7f7fd6090854e0fe02db7e8df41fa299 )
+)
+
+game (
+	name "Camp California (USA)"
+	description "Camp California (USA)"
+	rom ( name "Camp California (USA) (Track 01).bin" size 2573088 crc 8b250736 md5 c66fd0d378c0c3b0f8a342f4a2150330 sha1 f0513a548aeb57804d390169296daa9a4834a924 )
 )
 
 game (
@@ -252,15 +240,15 @@ game (
 )
 
 game (
-	name "Doukyuusei (Japan) (Rev 4)"
-	description "Doukyuusei (Japan) (Rev 4)"
-	rom ( name "Doukyuusei (Japan) (Rev 4) (Track 1).bin" size 7914480 crc 3c73890d md5 d80510a2348091411a158397e14a6fc2 sha1 334c39e04eecd1db16868aaa63dcfa5146eac073 )
-)
-
-game (
 	name "Dragon Ball Z - Idainaru Son Gokuu Densetsu (Japan) (FABT)"
 	description "Dragon Ball Z - Idainaru Son Gokuu Densetsu (Japan) (FABT)"
 	rom ( name "Dragon Ball Z - Idainaru Son Gokuu Densetsu (Japan) (FABT) (Track 01).bin" size 7914480 crc d211686b md5 432a6fb4709ec6c814ff15e18119eabb sha1 896bc12d92f80ad7743529e4e10cdde69c428f3f )
+)
+
+game (
+	name "Dynastic Hero, The (USA)"
+	description "Dynastic Hero, The (USA)"
+	rom ( name "Dynastic Hero, The (USA) (Track 01).bin" size 7916832 crc ecf8b16b md5 e25cf5e45442703396a239611ea901be sha1 9a8ba8d225d9575ab09b8a612cb86164c4902cac )
 )
 
 game (
@@ -276,15 +264,15 @@ game (
 )
 
 game (
-	name "Exile - Wicked Phenomenon (USA)"
-	description "Exile - Wicked Phenomenon (USA)"
-	rom ( name "Exile - Wicked Phenomenon (USA) (Track 01).bin" size 5334336 crc 4e7cb113 md5 39d966de4b9ce01a51a068e5aa940e73 sha1 7b6a06f01eedb07ea9fe1733a03a755b8558a33b )
-)
-
-game (
 	name "Exile (USA)"
 	description "Exile (USA)"
 	rom ( name "Exile (USA) (Track 01).bin" size 5670672 crc a1e88475 md5 627e1fbb4d81a81600c2efc56ae18246 sha1 8acdfda6e27b661c9d94a616272b8d18d8de5b78 )
+)
+
+game (
+	name "Exile - Wicked Phenomenon (USA)"
+	description "Exile - Wicked Phenomenon (USA)"
+	rom ( name "Exile - Wicked Phenomenon (USA) (Track 01).bin" size 5334336 crc 4e7cb113 md5 39d966de4b9ce01a51a068e5aa940e73 sha1 7b6a06f01eedb07ea9fe1733a03a755b8558a33b )
 )
 
 game (
@@ -297,12 +285,6 @@ game (
 	name "Fantastic Night Dreams - Cotton (Japan) (En,Ja)"
 	description "Fantastic Night Dreams - Cotton (Japan) (En,Ja)"
 	rom ( name "Fantastic Night Dreams - Cotton (Japan) (En,Ja) (Track 01).bin" size 7914480 crc be54da16 md5 a02f9c41066af8a3ec668fc665daec64 sha1 e79c11b9ead91fc03864d440c54da427b51ae760 )
-)
-
-game (
-	name "Fantastic Night Dreams - Cotton (USA)"
-	description "Fantastic Night Dreams - Cotton (USA)"
-	rom ( name "Fantastic Night Dreams - Cotton (USA) (Track 01).bin" size 7914480 crc 16841024 md5 c7ec65c2c430ec5e01ea1e781b5fb933 sha1 2e5a9235aaa4c04baefb8a5104fa2c2977869191 )
 )
 
 game (
@@ -327,12 +309,6 @@ game (
 	name "Fighting Street (Japan) (Rev 4)"
 	description "Fighting Street (Japan) (Rev 4)"
 	rom ( name "Fighting Street (Japan) (Rev 4) (Track 01).bin" size 7914480 crc 3ae91d8d md5 e9dd10bbe517245bc71e75162a08d34e sha1 a1139f80da805f94e5a57aab605418e4c98e2aec )
-)
-
-game (
-	name "Fighting Street (USA)"
-	description "Fighting Street (USA)"
-	rom ( name "Fighting Street (USA) (Track 01).bin" size 7914480 crc 17623548 md5 77232c745e40cc155ad72c1b79780986 sha1 e1baaf01eee215def8bd6f6aa080e3a41ffc74f4 )
 )
 
 game (
@@ -363,6 +339,12 @@ game (
 	name "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan)"
 	description "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan)"
 	rom ( name "Fushigi no Umi no Nadia - The Secret of Blue Water (Japan) (Track 1).bin" size 8589504 crc 5b8fb0f5 md5 dde6388d76c24b3051528e8c281f431a sha1 6474db6d797320a4532e0f0cd872e1aa6b0b683f )
+)
+
+game (
+	name "GS (Ghost Sweeper) Mikami (Japan)"
+	description "GS (Ghost Sweeper) Mikami (Japan)"
+	rom ( name "GS (Ghost Sweeper) Mikami (Japan) (Track 01).bin" size 12968928 crc aef67026 md5 716d7bd8e2876e0d954fdf01b618457a sha1 c180d88e7a7c79dd0b2fee8e6281ab6a4771cc91 )
 )
 
 game (
@@ -408,12 +390,6 @@ game (
 )
 
 game (
-	name "GS (Ghost Sweeper) Mikami (Japan)"
-	description "GS (Ghost Sweeper) Mikami (Japan)"
-	rom ( name "GS (Ghost Sweeper) Mikami (Japan) (Track 01).bin" size 12968928 crc aef67026 md5 716d7bd8e2876e0d954fdf01b618457a sha1 c180d88e7a7c79dd0b2fee8e6281ab6a4771cc91 )
-)
-
-game (
 	name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan)"
 	description "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan)"
 	rom ( name "Gyuwambler Jiko Chuushinha - Gekitou 36 Janshi (Japan) (Track 01).bin" size 8478960 crc a33bbf80 md5 a74509c07c0e43f7122d7438aeb31752 sha1 726b76590dd197b9dd0ee409e9d79355fa9c0d09 )
@@ -450,6 +426,12 @@ game (
 )
 
 game (
+	name "Hawiian Island Girls (USA) (Unl)"
+	description "Hawiian Island Girls (USA) (Unl)"
+	rom ( name "Hawiian Island Girls (USA) (Unl).bin" size 2763600 crc abd11e53 md5 01cb2fb1edb33f07c7af4eadbb05010b sha1 4aac11efbe83a4ac2b04dc47ffc639065d9cea94 )
+)
+
+game (
 	name "Hawk F-123 (Japan)"
 	description "Hawk F-123 (Japan)"
 	rom ( name "Hawk F-123 (Japan) (Track 01).bin" size 7916832 crc 50fa91fb md5 0d644a2fa3ec9fc80ce1240cc63c8e8e sha1 908b488db4ab0ef66b65cf93a7daaa20542df57d )
@@ -462,9 +444,27 @@ game (
 )
 
 game (
+	name "Hyper Dyne - SideArms Special (Japan) (Alt)"
+	description "Hyper Dyne - SideArms Special (Japan) (Alt)"
+	rom ( name "Hyper Dyne - SideArms Special (Japan) (Alt) (Track 01).bin" size 7914480 crc bdce14bb md5 9f7e4482bdc9bbadd25b223cf9fb37a2 sha1 0ccc2f76981e95c9078ae9e0f312f3f70ad93e9e )
+)
+
+game (
 	name "Hyper Wars (Japan) (SAAS)"
 	description "Hyper Wars (Japan) (SAAS)"
 	rom ( name "Hyper Wars (Japan) (SAAS) (Track 01).bin" size 7914480 crc 6b62ccf3 md5 9a24ee7be41b9a7738ad9c6f46802668 sha1 f91c2f4ceaf384b8a45232b904c61b727dbcbf37 )
+)
+
+game (
+	name "Hypernova Blast (USA) (Unl)"
+	description "Hypernova Blast (USA) (Unl)"
+	rom ( name "Hypernova Blast (USA) (Unl) (Track 01).bin" size 21518448 crc ebcc7a88 md5 8a5e426ebf32cbadd5a014185c56c513 sha1 b4ab4a9cd33c648c0cbc285c23e07bc9b63abb01 )
+)
+
+game (
+	name "Implode (USA) (Unl)"
+	description "Implode (USA) (Unl)"
+	rom ( name "Implode (USA) (Unl) (Track 01).bin" size 2217936 crc ca38443a md5 4311398dd2c07e6ba7bd0137f30be273 sha1 e6ac208247b025508ccce5d755ecab68c937ee49 )
 )
 
 game (
@@ -477,6 +477,12 @@ game (
 	name "Inoue Mami - Kono Hoshi ni Tatta Hitori no Kimi (Japan)"
 	description "Inoue Mami - Kono Hoshi ni Tatta Hitori no Kimi (Japan)"
 	rom ( name "Inoue Mami - Kono Hoshi ni Tatta Hitori no Kimi (Japan) (Track 1).bin" size 8194368 crc 39fef712 md5 3072440eb8baec79b6eaf18055122a7d sha1 51e159799e254e63567de1e209516a3a78356085 )
+)
+
+game (
+	name "It Came from the Desert (USA)"
+	description "It Came from the Desert (USA)"
+	rom ( name "It Came from the Desert (USA) (Track 01).bin" size 406423248 crc 00d1894b md5 b50cac60b6b1b8bfbc607c83e29b2b44 sha1 da4e406ea89d521286e455aed386319a2c5202ae )
 )
 
 game (
@@ -495,6 +501,12 @@ game (
 	name "Jantei Monogatari 3 - Saver Angels (Japan)"
 	description "Jantei Monogatari 3 - Saver Angels (Japan)"
 	rom ( name "Jantei Monogatari 3 - Saver Angels (Japan) (Track 01).bin" size 5456640 crc 4a1aec88 md5 da3d7084f87bfdaccb23ad18247850d1 sha1 a5f233df65eda1eb92081a3d7693b799992f18bf )
+)
+
+game (
+	name "John Madden Duo CD Football (USA)"
+	description "John Madden Duo CD Football (USA)"
+	rom ( name "John Madden Duo CD Football (USA) (RE) (Track 01).bin" size 7914480 crc 9fc5a9d7 md5 7edabc9f9a913b0059fda54ed32514d2 sha1 83c976e1281e20350a1f6dcf8dadc800d0d3785f )
 )
 
 game (
@@ -552,6 +564,18 @@ game (
 )
 
 game (
+	name "Laser Soft Visual Collection Vol. 2 - Valis Visual-shuu (Japan)"
+	description "Laser Soft Visual Collection Vol. 2 - Valis Visual-shuu (Japan)"
+	rom ( name "Laser Soft Visual Collection Vol. 2 - Valis Visual-shuu (Japan) (Track 01).bin" size 7914480 crc b979500c md5 a25a2c129b7100092cc40e9b6e176a63 sha1 9ac3f1a11d434d186466917f1c7955bf7670c910 )
+)
+
+game (
+	name "Last Alert (USA)"
+	description "Last Alert (USA)"
+	rom ( name "Last Alert (USA) (Track 01).bin" size 7916832 crc 808d9f0d md5 d86aa8050da37330834a332f92555366 sha1 e7378abbc613e76c9470d33f1f2affdf0b3b5b99 )
+)
+
+game (
 	name "Last Armageddon (Japan) (Rev 5)"
 	description "Last Armageddon (Japan) (Rev 5)"
 	rom ( name "Last Armageddon (Japan) (Rev 5) (Track 01).bin" size 7912128 crc 31d7b2d4 md5 ad67cca1938a9ef67d90732d23330e16 sha1 23982930f0b9efffbe904906ff85bbbbd909264d )
@@ -576,21 +600,33 @@ game (
 )
 
 game (
+	name "Local Girls of Hawaii, The (USA) (Unl)"
+	description "Local Girls of Hawaii, The (USA) (Unl)"
+	rom ( name "Local Girls of Hawaii, The (USA) (Unl).bin" size 3186960 crc 1a342ad8 md5 76b72666c4160756fc528f88d8e18ce7 sha1 3074f37d214819d1dc0a59b12a2fe2b402e622c4 )
+)
+
+game (
+	name "Lords of the Rising Sun (USA)"
+	description "Lords of the Rising Sun (USA)"
+	rom ( name "Lords of the Rising Sun (USA) (Track 01).bin" size 7914480 crc 17623548 md5 77232c745e40cc155ad72c1b79780986 sha1 e1baaf01eee215def8bd6f6aa080e3a41ffc74f4 )
+)
+
+game (
 	name "Mad Stalker - Full Metal Force (Japan)"
 	description "Mad Stalker - Full Metal Force (Japan)"
 	rom ( name "Mad Stalker - Full Metal Force (Japan) (Track 01).bin" size 3704400 crc d1607bfd md5 b5198a64cbf4e5eef976d8d86fb106e3 sha1 aca2cea4a3873036c335b367c58016c68f8324cb )
 )
 
 game (
-	name "Madou Monogatari I - Honoo no Sotsuenji (Japan)"
-	description "Madou Monogatari I - Honoo no Sotsuenji (Japan)"
-	rom ( name "Madou Monogatari I - Honoo no Sotsuenji (Japan) (Track 01).bin" size 36387792 crc 2e1a4001 md5 fed7aa2ed737408fe06c0c55ac5bd4ef sha1 7eaa77ce75eac4caaf5db71f41dcbc675886ec1d )
+	name "Mad Stalker - Full Metal Force (Japan) (Sample)"
+	description "Mad Stalker - Full Metal Force (Japan) (Sample)"
+	rom ( name "Mad Stalker - Full Metal Force (Japan) (Sample) (Track 1).bin" size 7914480 crc 3c73890d md5 d80510a2348091411a158397e14a6fc2 sha1 334c39e04eecd1db16868aaa63dcfa5146eac073 )
 )
 
 game (
-	name "Magical Dinosaur Tour (USA)"
-	description "Magical Dinosaur Tour (USA)"
-	rom ( name "Magical Dinosaur Tour (USA) (Track 1).bin" size 7916832 crc 808d9f0d md5 d86aa8050da37330834a332f92555366 sha1 e7378abbc613e76c9470d33f1f2affdf0b3b5b99 )
+	name "Madou Monogatari I - Honoo no Sotsuenji (Japan)"
+	description "Madou Monogatari I - Honoo no Sotsuenji (Japan)"
+	rom ( name "Madou Monogatari I - Honoo no Sotsuenji (Japan) (Track 01).bin" size 36387792 crc 2e1a4001 md5 fed7aa2ed737408fe06c0c55ac5bd4ef sha1 7eaa77ce75eac4caaf5db71f41dcbc675886ec1d )
 )
 
 game (
@@ -615,6 +651,18 @@ game (
 	name "Mamono Hunter Youko - Tooki Yobigoe (Japan)"
 	description "Mamono Hunter Youko - Tooki Yobigoe (Japan)"
 	rom ( name "Mamono Hunter Youko - Tooki Yobigoe (Japan) (Track 01).bin" size 8208480 crc 42f662f8 md5 16f18dc1bbd43bbfb0758515a4b3652c sha1 f37d0803fd518104d9153b8ed5446ede01cc03fc )
+)
+
+game (
+	name "Meteor Blaster DX (USA) (Unl)"
+	description "Meteor Blaster DX (USA) (Unl)"
+	rom ( name "Meteor Blaster DX (USA) (Unl) (Track 01).bin" size 5049744 crc 84c37434 md5 b3f35f310ab4fb4811f59e771170eb75 sha1 b85752342c9f2f3df82c21806555e9dc0086c236 )
+)
+
+game (
+	name "Meteor Blaster DX (USA) (Unl) (Rerelease)"
+	description "Meteor Blaster DX (USA) (Unl) (Rerelease)"
+	rom ( name "Meteor Blaster DX (USA) (Unl) (Rerelease) (Track 01).bin" size 9800784 crc efc2ee90 md5 2c0072c6b16e24daca38121fb892e9e4 sha1 a1b09680b012a47996eada11fe85b7bfd3b1a437 )
 )
 
 game (
@@ -654,21 +702,15 @@ game (
 )
 
 game (
-	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
-	description "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
-	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 4567584 crc d161c487 md5 5d5d46a8bf4a8f28e3f915908a8e420c sha1 c6dd32a0d2ed187a1808b571838e9b48f22479ce )
-)
-
-game (
 	name "NEXZR (Japan)"
 	description "NEXZR (Japan)"
 	rom ( name "NEXZR (Japan) (Track 01).bin" size 6801984 crc a3e48369 md5 1872f19ec572e7ee0c1550a9bd3e0ad7 sha1 bec1887ebedba2c930ffc04514f291d1d6b5cbe9 )
 )
 
 game (
-	name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
-	description "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
-	rom ( name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan) (Track 01).bin" size 7914480 crc 13cb4446 md5 6e9e149fa09a71483c84479fe004e307 sha1 fcfd46d7739312a6ee697b5c540b3441d530c78b )
+	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
+	description "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
+	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 4567584 crc d161c487 md5 5d5d46a8bf4a8f28e3f915908a8e420c sha1 c6dd32a0d2ed187a1808b571838e9b48f22479ce )
 )
 
 game (
@@ -690,9 +732,21 @@ game (
 )
 
 game (
+	name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
+	description "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan)"
+	rom ( name "Pachio-kun 3 - Pachi-Slot & Pachinko (Japan) (Track 01).bin" size 7914480 crc 13cb4446 md5 6e9e149fa09a71483c84479fe004e307 sha1 fcfd46d7739312a6ee697b5c540b3441d530c78b )
+)
+
+game (
 	name "Pop'n Magic (Japan)"
 	description "Pop'n Magic (Japan)"
 	rom ( name "Pop'n Magic (Japan) (Track 01).bin" size 8090880 crc 585f9c4d md5 b06e3b51a8068f937db2a3cf77b5e045 sha1 aff1226570472415c6287a6dea287b3453697e69 )
+)
+
+game (
+	name "Popful Mail (Japan) (Sample)"
+	description "Popful Mail (Japan) (Sample)"
+	rom ( name "Popful Mail (Japan) (Sample) (Track 01).bin" size 10504032 crc b6d94e80 md5 e6eaf5c3b87fda064be1bdbd8c89aac9 sha1 c933ee28beb9d22a7cb51416b08b909cc61678f0 )
 )
 
 game (
@@ -762,6 +816,12 @@ game (
 )
 
 game (
+	name "Ranma 1-2 (Japan)"
+	description "Ranma 1-2 (Japan)"
+	rom ( name "Ranma 1-2 (Japan) (Track 01).bin" size 5574240 crc cc1e114f md5 b4e92cbe51330b0c0df4fde81a59e571 sha1 a35b314130be055b605d5087698db667057975b0 )
+)
+
+game (
 	name "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan)"
 	description "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan)"
 	rom ( name "Ranma 1-2 - Datou, Ganso Musabetsu Kakutou-ryuu! (Japan) (Track 01).bin" size 5574240 crc a7f6c736 md5 8d7369f183f0ef1d424d1d962449dd84 sha1 cdd19ee0a917a0be1d36ca491ec92a0f29b49189 )
@@ -771,12 +831,6 @@ game (
 	name "Ranma 1-2 - Toraware no Hanayome (Japan)"
 	description "Ranma 1-2 - Toraware no Hanayome (Japan)"
 	rom ( name "Ranma 1-2 - Toraware no Hanayome (Japan) (Track 01).bin" size 5214384 crc 66e44128 md5 95483521ac0dc3a0a929df69faa398d5 sha1 bb29ddd747366f7aba6e437ed032361e2868ac70 )
-)
-
-game (
-	name "Ranma 1-2 (Japan)"
-	description "Ranma 1-2 (Japan)"
-	rom ( name "Ranma 1-2 (Japan) (Track 01).bin" size 5574240 crc cc1e114f md5 b4e92cbe51330b0c0df4fde81a59e571 sha1 a35b314130be055b605d5087698db667057975b0 )
 )
 
 game (
@@ -810,12 +864,6 @@ game (
 )
 
 game (
-	name "ROM^2 Karaoke Volume 4 (Japan)"
-	description "ROM^2 Karaoke Volume 4 (Japan)"
-	rom ( name "ROM^2 Karaoke Volume 4 (Japan) (Track 01).bin" size 7914480 crc bdce14bb md5 9f7e4482bdc9bbadd25b223cf9fb37a2 sha1 0ccc2f76981e95c9078ae9e0f312f3f70ad93e9e )
-)
-
-game (
 	name "Ruin - Kami no Isan (Japan)"
 	description "Ruin - Kami no Isan (Japan)"
 	rom ( name "Ruin - Kami no Isan (Japan) (Track 01).bin" size 6082272 crc 4fb777f4 md5 4de394cf06d2488eb61a88f95a26b1bb sha1 6a41ee7e0c2177c87ae9be45d036d51345c5863b )
@@ -834,15 +882,33 @@ game (
 )
 
 game (
-	name "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo) (FABT)"
-	description "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo) (FABT)"
-	rom ( name "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo) (FABT) (Track 01).bin" size 3638544 crc 7a5d3604 md5 9dc16a48c02c56422772a911440a8145 sha1 5df7bff5d661d7811a30eec654c54c1b5860343e )
+	name "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo)"
+	description "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo)"
+	rom ( name "Seiya Monogatari - Anearth Fantasy Stories (Japan) (Demo) (Track 01).bin" size 3638544 crc 7a5d3604 md5 9dc16a48c02c56422772a911440a8145 sha1 5df7bff5d661d7811a30eec654c54c1b5860343e )
+)
+
+game (
+	name "Shape Shifter (USA)"
+	description "Shape Shifter (USA)"
+	rom ( name "Shape Shifter (USA) (Track 01).bin" size 6806688 crc 2a49f11e md5 f49a0922d189f2c07b169d8600469f85 sha1 5b87a9bad26d4391e7059acce258f48c18e0efef )
 )
 
 game (
 	name "Sherlock Holmes - Consulting Detective (Japan)"
 	description "Sherlock Holmes - Consulting Detective (Japan)"
 	rom ( name "Sherlock Holmes - Consulting Detective (Japan).bin" size 687066240 crc 85bf2f60 md5 a819b490eba680e0f81b584f9057f8c5 sha1 7ff0600386c3bc3ea5de2723709baba1c75cc474 )
+)
+
+game (
+	name "Sherlock Holmes - Consulting Detective (USA)"
+	description "Sherlock Holmes - Consulting Detective (USA)"
+	rom ( name "Sherlock Holmes - Consulting Detective (USA).bin" size 686254800 crc b617632f md5 17384201fd019eaeec75f0a7a541a344 sha1 43b7c020f03e54b1e9debcd9b1ac43fa2c45f6be )
+)
+
+game (
+	name "Sherlock Holmes - Consulting Detective - Volume 2 (USA)"
+	description "Sherlock Holmes - Consulting Detective - Volume 2 (USA)"
+	rom ( name "Sherlock Holmes - Consulting Detective - Volume 2 (USA) (Track 1).bin" size 2575440 crc 19b0219d md5 e2b57641c022f99065888c4b2855471d sha1 b8acd880bc35cc663b77a4c8fe62a4a7aa146b3f )
 )
 
 game (
@@ -867,6 +933,12 @@ game (
 	name "SimEarth - The Living Planet (Japan)"
 	description "SimEarth - The Living Planet (Japan)"
 	rom ( name "SimEarth - The Living Planet (Japan) (Track 01).bin" size 8128512 crc 5aa2a2b9 md5 ba262cafc4475fc176aafcea6cccbef9 sha1 8519c29b009e8edfaf328f0c0ed29cd1ade24a71 )
+)
+
+game (
+	name "SimEarth - The Living Planet (USA)"
+	description "SimEarth - The Living Planet (USA)"
+	rom ( name "SimEarth - The Living Planet (USA) (Track 01).bin" size 8128512 crc 255d5c66 md5 dacacdc641a8dcd0c0feba33fdbdf32f sha1 2ca9d460e53eddfe50493cc7b4f66ec089f05356 )
 )
 
 game (
@@ -912,6 +984,12 @@ game (
 )
 
 game (
+	name "Spriggan Mark 2 - Re Terraform Project (Japan)"
+	description "Spriggan Mark 2 - Re Terraform Project (Japan)"
+	rom ( name "Spriggan Mark 2 - Re Terraform Project (Japan) (Track 01).bin" size 6489168 crc 63083585 md5 c6ab018f89bd8c1599ac7e04fde91fc1 sha1 37a448a237dd44850a31243d92bd9a1da7b45b56 )
+)
+
+game (
 	name "Star Breaker (Japan)"
 	description "Star Breaker (Japan)"
 	rom ( name "Star Breaker (Japan) (Track 01).bin" size 6418608 crc 603f19b5 md5 a1ff6485058fe6d6c96f587020a8e27a sha1 1695be250412e8042735c6c6858d81a64ce82bc1 )
@@ -948,6 +1026,12 @@ game (
 )
 
 game (
+	name "Super Air Zonk - Rockabilly-Paradise (USA)"
+	description "Super Air Zonk - Rockabilly-Paradise (USA)"
+	rom ( name "Super Air Zonk - Rockabilly-Paradise (USA) (Track 01).bin" size 7914480 crc 16841024 md5 c7ec65c2c430ec5e01ea1e781b5fb933 sha1 2e5a9235aaa4c04baefb8a5104fa2c2977869191 )
+)
+
+game (
 	name "Super Real Mahjong P.V Custom (Japan)"
 	description "Super Real Mahjong P.V Custom (Japan)"
 	rom ( name "Super Real Mahjong P.V Custom (Japan) (Track 01).bin" size 3723216 crc d9ab146b md5 444aa171ab89005a7908e96e9a70e50f sha1 4dae54065f659e7da4e78d14842ae2f153a8677a )
@@ -978,6 +1062,18 @@ game (
 )
 
 game (
+	name "SydMead's TerraForming (USA)"
+	description "SydMead's TerraForming (USA)"
+	rom ( name "SydMead's TerraForming (USA) (Track 01).bin" size 7077168 crc e84baae9 md5 ce7570578f3d4dd611996b681471a8b2 sha1 cea5135e07ffde45628028ebece5261ce01da965 )
+)
+
+game (
+	name "TV Show, The (Japan)"
+	description "TV Show, The (Japan)"
+	rom ( name "TV Show, The (Japan) (Track 01).bin" size 7916832 crc 22144d0f md5 ad1067d0bcc2ffeea540d3b985c51188 sha1 3b472f5e80bbf8259e09f8e4f547567bddb02490 )
+)
+
+game (
 	name "Tadaima Yuusha Boshuu-chuu (Japan)"
 	description "Tadaima Yuusha Boshuu-chuu (Japan)"
 	rom ( name "Tadaima Yuusha Boshuu-chuu (Japan) (Track 01).bin" size 7914480 crc ac237896 md5 acc4537f83d6ee407e5923b992c0ed05 sha1 f856d5f1fd53112476639dd95f676360644f65f6 )
@@ -999,6 +1095,12 @@ game (
 	name "Tenchi Muyou! Ryououki (Japan)"
 	description "Tenchi Muyou! Ryououki (Japan)"
 	rom ( name "Tenchi Muyou! Ryououki (Japan) (Track 01).bin" size 14274288 crc 668b651d md5 9fd0899a2b34f844a3f40dab24dc328a sha1 e079b6fcdee8836414de68dd0661aaec4ef7ac55 )
+)
+
+game (
+	name "Tenchi o Kurau (Japan)"
+	description "Tenchi o Kurau (Japan)"
+	rom ( name "Tenchi o Kurau (Japan) (Track 01).bin" size 6190464 crc e674b7d8 md5 0b81aa9b9bebcd3d898630f711884be9 sha1 f7b9dd8fe4f1ededa120a91ce759e9562a3f4c61 )
 )
 
 game (
@@ -1050,12 +1152,6 @@ game (
 )
 
 game (
-	name "Valis III (USA)"
-	description "Valis III (USA)"
-	rom ( name "Valis III (USA) (Track 01).bin" size 7916832 crc 22144d0f md5 ad1067d0bcc2ffeea540d3b985c51188 sha1 3b472f5e80bbf8259e09f8e4f547567bddb02490 )
-)
-
-game (
 	name "Vasteel (USA)"
 	description "Vasteel (USA)"
 	rom ( name "Vasteel (USA) (Track 01).bin" size 7914480 crc e5b26abf md5 3b58c6a0ab8977325ea05ed3af1adb7c sha1 bff6315bf0bc04dacd3cf943f30e6a7555bcbaf2 )
@@ -1086,15 +1182,15 @@ game (
 )
 
 game (
-	name "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
-	description "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
-	rom ( name "Yami no Ketsuzoku - Harukanaru Kioku (Japan) (Track 01).bin" size 7916832 crc 0965ae86 md5 0a667d2004b0aac59e2c96fe6e8f203c sha1 cd75b71c2c943aeaa33cc861c5332bf2a93ea571 )
-)
-
-game (
 	name "YaWaRa! 2 - A Fashionable Judo Girl! (Japan)"
 	description "YaWaRa! 2 - A Fashionable Judo Girl! (Japan)"
 	rom ( name "YaWaRa! 2 - A Fashionable Judo Girl! (Japan) (Track 1).bin" size 8391936 crc 7be92899 md5 48e4416d9b0ddb8e5c60a4b610e21f3e sha1 d4a80c48bb84a814779879214abddd96892ef7cd )
+)
+
+game (
+	name "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
+	description "Yami no Ketsuzoku - Harukanaru Kioku (Japan)"
+	rom ( name "Yami no Ketsuzoku - Harukanaru Kioku (Japan) (Track 01).bin" size 7916832 crc 0965ae86 md5 0a667d2004b0aac59e2c96fe6e8f203c sha1 cd75b71c2c943aeaa33cc861c5332bf2a93ea571 )
 )
 
 game (
