@@ -8,7 +8,6 @@
 import glob
 import re
 import configparser
-import collections
 
 dat_file_names = glob.glob("dat/*.dat")
 dat_file_names.extend(glob.glob("metadat/*/*.dat"))
