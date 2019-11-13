@@ -21,7 +21,7 @@ for dat_file_name in dat_file_names:
         config = configparser.ConfigParser()
         for name in names:
             escaped = name.replace('%', '%%')
-            config['DEFAULT'][escaped] = escaped
+            config['DEFAULT'][name] = escaped
         ini_file_name = "l10n/en/" + dat_file_name.split('/')[-1].replace('.dat', '.ini')
         with open(ini_file_name, 'w') as ini_file:
             config.write(ini_file)
