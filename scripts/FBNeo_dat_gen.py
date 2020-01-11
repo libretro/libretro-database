@@ -8,7 +8,7 @@
 ##                       [-header_description HEADER_DESCRIPTION]
 ##                       [-header_version HEADER_VERSION]
 ## 
-## Generates Final Burn Alpha .dat file needed for RetroArch/libretro-
+## Generates Final Burn Neo .dat file needed for RetroArch/libretro-
 ## db/c_converter
 ## 
 ## optional arguments:
@@ -65,7 +65,7 @@ def main():
 
 def setup_argparse():
     """Set up the argparse arguments and return the argparse instance"""
-    parser = argparse.ArgumentParser(prog='FBgen.py', description='Generates Final Burn Alpha .dat file needed for RetroArch/libretro-db/c_converter')
+    parser = argparse.ArgumentParser(prog='FBgen.py', description='Generates Final Burn Neo .dat file needed for RetroArch/libretro-db/c_converter')
     required_arguments = parser.add_argument_group('required arguments')
     required_arguments.add_argument('-dat', help='Misc -> Generate dat file -> Generate dat (Arcade only)', required=True)
     required_arguments.add_argument('-path', help='Path to a split, ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat', required=True)
@@ -98,7 +98,7 @@ def get_datroot(dat, parser):
 def get_header_name(args):
     """Return the default header name or the -header_name argument"""
     if not args.header_name:
-        header_name = 'FB Alpha - Arcade Games'
+        header_name = 'FBNeo - Arcade Games'
     else:
         header_name = args.header_name
     return header_name
@@ -149,26 +149,29 @@ def generate_game_list(dat_root, path):
             # 'gpriders.zip' kludge hack, as of at least 0.2.97.42
             #   - rom is exact to 'gprider.zip' and does not exist in a split set
             if game.get('name') != 'gpriders':
-                entry = GameEntry()
-                # set name ('description' in FBA-generated-dat)
-                entry.name = game.find('description').text
-                # set year
-                entry.year = game.find('year').text
-                # set publisher ('manufacturer' in FBA-generated-dat)
-                entry.publisher = game.find('manufacturer').text
-                # set zip filename
-                entry.zip = game.get('name') + '.zip'
-                zip_path = os.path.join(path, entry.zip)
-                # set zip size
-                entry.size = os.path.getsize(zip_path)
-                # set zip crc
-                entry.crc = get_crc(zip_path)
-                # set zip md5
-                entry.md5 = get_md5(zip_path)
-                # set zip sha1
-                entry.sha1 = get_sha1(zip_path)
-                # Add to game_entries list
-                game_entries.append(entry)
+            # same 0.2.97.44
+                if game.get('name') != 'natodefa':
+                    if game.get('name') != 'marioo':
+                        entry = GameEntry()
+                        # set name ('description' in FBA-generated-dat)
+                        entry.name = game.find('description').text
+                        # set year
+                        entry.year = game.find('year').text
+                        # set publisher ('manufacturer' in FBA-generated-dat)
+                        entry.publisher = game.find('manufacturer').text
+                        # set zip filename
+                        entry.zip = game.get('name') + '.zip'
+                        zip_path = os.path.join(path, entry.zip)
+                        # set zip size
+                        entry.size = os.path.getsize(zip_path)
+                        # set zip crc
+                        entry.crc = get_crc(zip_path)
+                        # set zip md5
+                        entry.md5 = get_md5(zip_path)
+                        # set zip sha1
+                        entry.sha1 = get_sha1(zip_path)
+                        # Add to game_entries list
+                        game_entries.append(entry)
 
             # Sort game_entries list
             game_entries.sort(key=operator.attrgetter('name'))
