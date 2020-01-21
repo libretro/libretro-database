@@ -29,7 +29,7 @@ cheat1_enable = false
 
 The `cheat0_code` represents a string of numbers. The first number is the index in [persistent memory](https://github.com/nesbox/TIC-80/wiki/pmem), and the second number is the desired value. This can be multiple pairs of index values.
 
-In the above example, `cheat0_code = "0 1"` would the same as calling `pmem(0, 1)`. For `cheat1_code = "1 58 2 45 3 41 4 99999 5 69"`, that would be the same as calling...
+In the above example, `cheat0_code = "0 1"` would the same as calling `pmem(0, 1)`. For `cheat1_code = "1 58 2 45 3 41"`, that would be the same as calling...
 
 ```
 pmem(1, 58)
