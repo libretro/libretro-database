@@ -1,0 +1,21 @@
+stages:
+  - package
+
+.package-base:
+  image: $CI_SERVER_HOST:5050/libretro-infrastructure/libretro-build-amd64-ubuntu:latest
+  stage: package
+  variables:
+    MEDIA_PATH: .media
+  script:
+    - mkdir -p ${MEDIA_PATH}/${CI_PROJECT_NAME}
+    - mkdir -p ${MEDIA_PATH}/${CI_PROJECT_NAME}/cursors
+    - mkdir -p ${MEDIA_PATH}/${CI_PROJECT_NAME}/rdb
+    - cp -R ./cursors/*.dbc ${MEDIA_PATH}/${CI_PROJECT_NAME}/cursors
+    - cp -R ./rdb/*.rdb ${MEDIA_PATH}/${CI_PROJECT_NAME}/rdb
+  artifacts:
+    paths:
+    - ${MEDIA_PATH}
+    expire_in: 1 day
+
+libretro-package-any:
+  extends: .package-base
