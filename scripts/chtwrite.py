@@ -1,7 +1,5 @@
 from lxml import html
-import sys
 import requests
-import os
 import re
 
 
@@ -49,7 +47,6 @@ def cheatwriter( baseurl, chttype, outdir ):
 			
 			print "finished writing %s" % (outfile)
 		except Exception:
-			pass
 			print "error writing " + outfile
 	return;
 
