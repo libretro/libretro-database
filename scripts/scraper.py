@@ -1,8 +1,6 @@
 from lxml import html
-import sys
 import requests
 import os
-import re
 from chtwrite import cheatwriter
 #cheat scraper for http://bsfree.shadowflareindustries.com/ navigate to the system and codetype you want, copy url
 #run the script with "python scraper.py 'url'"
