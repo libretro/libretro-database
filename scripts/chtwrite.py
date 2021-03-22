@@ -23,7 +23,6 @@ def cheatwriter( baseurl, chttype, outdir ):
 		codedesc = [x.encode('UTF8') for x in tree.xpath('//td[@class="codedesc"]/text()')]
 #This will create a list of codes and format them for the outfile
 		for td in tree.xpath('//tr/td[@class="code"][last()]'):
-			hacker = td.text
 			code.append('+'.join(
     	    text.replace('\n', '').replace(' ', '+') for text in td.getprevious().itertext()))
 		
