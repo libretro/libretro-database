@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Doom"
 	description "Doom"
-	version 2021.11.15
+	version 2021.11.18
 	author "Obiwantje, LodanZark, libretro"
 )
 
@@ -12,7 +12,7 @@ game (
 )
 
 game (
-	name "Adventures of Square, The - Episodes 1 & 2"
+	name "Adventures of Square, The - Episodes 1 & 2 (v2.1)"
 	description "Adventures of Square, The - Episodes 1 & 2 (v2.1)"
 	rom ( name SQUARE1.PK3 size 45202919 crc a2858888 md5 582CBE67EBD506DD55786552482099F8 sha1 A4BD92BDE933FCCC1761D749A2A0EE855F436C83 )
 )
@@ -35,7 +35,6 @@ game (
 	rom ( name BLASPHEM-0.1.7.WAD size 20210180  crc a9ce8940 md5 be3b96948b523ba1f95ec7411cc9d569 sha1 cb5b47301c3ea8e0eca38a819b83770b3889fdd1 )
 )
 
-
 game (
 	name "Chex Quest"
 	description "Chex Quest"
@@ -49,7 +48,7 @@ game (
 )
 
 game (
-	name "Chex Quest 3"
+	name "Chex Quest 3 (v1.4)"
 	description "Chex Quest 3 (v1.4)"
 	rom ( name CHEX3.WAD size 19191031 crc 34aa2168 md5 bce163d06521f9d15f9686786e64df13 sha1 f0581563604543060c1dce2f148fd74412adb8b8 )
 )
@@ -58,18 +57,6 @@ game (
 	name "Delaweare"
 	description "Delaweare"
 	rom ( name DELAWEARE.WAD size 83219726 crc 787548eb md5 9691100ff85b0902be3851890ec5aca9 sha1 b1319702b200d95adf8da277fa237c7c0318a1b6 )
-)
-
-game (
-	name "Doom & Doom II (EXTRAS.WAD) (Unity)"
-	description "Doom & Doom II (EXTRAS.WAD) (Unity)"
-	rom ( name EXTRAS.WAD size 64779 crc 8068229f md5 0c7caf25ad1584721ff5ecc38dec97a0 sha1 55a6a95c99d7fe7b9501d34b0afecd3252a629e1 )
-)
-
-game (
-	name "Doom & Doom II (EXTRAS.WAD) (Unity) (Update - September 3)"
-	description "Doom & Doom II (EXTRAS.WAD) (Unity) (Update - September 3)"
-	rom ( name EXTRAS.WAD size 64587 crc 82bccddc 38e1bb6cdd1e4227eef13d22f6e35209 sha1 0f2a7139b640e19a08f384562f907cb0734b0512 )
 )
 
 game (
@@ -241,8 +228,16 @@ game (
 )
 
 game (
-	name "Doom II - Hell on Earth (Unity) (v1.1)"
-	description "Doom II - Hell on Earth (Unity) (v1.1)"
+	name "Doom II - Hell on Earth (Unity)"
+	description "Doom II - Hell on Earth (Unity)"
+	rom ( name EXTRAS.WAD size 64779 crc 8068229f md5 0c7caf25ad1584721ff5ecc38dec97a0 sha1 55a6a95c99d7fe7b9501d34b0afecd3252a629e1 )
+	rom ( name DOOM2.WAD size 14685607 crc 22c291c8 md5 7895d10c281305c45a7e5f01b3f7b1d8 sha1 b723882122e90b61a1d92a11dcfcf9cbf95a407e )
+)
+
+game (
+	name "Doom II - Hell on Earth (Unity) (Update - September 3)"
+	description "Doom II - Hell on Earth (Unity) (Update - September 3)"
+	rom ( name EXTRAS.WAD size 64587 crc 82bccddc md5 38e1bb6cdd1e4227eef13d22f6e35209 sha1 0f2a7139b640e19a08f384562f907cb0734b0512 )
 	rom ( name DOOM2.WAD size 14685607 crc 22c291c8 md5 7895d10c281305c45a7e5f01b3f7b1d8 sha1 b723882122e90b61a1d92a11dcfcf9cbf95a407e )
 )
 
@@ -309,6 +304,14 @@ game (
 game (
 	name "Doom II - No Rest for the Living (Unity)"
 	description "Doom II - No Rest for the Living (Unity)"
+	rom ( name EXTRAS.WAD size 64779 crc 8068229f md5 0c7caf25ad1584721ff5ecc38dec97a0 sha1 55a6a95c99d7fe7b9501d34b0afecd3252a629e1 )
+	rom ( name NERVE.WAD size 3821966 crc ab68447f md5 4214c47651b63ee2257b1c2490a518c9 sha1 321e951f6cc6e9d51bc16eac53e0d001f0f3f338 )
+)
+
+game (
+	name "Doom II - No Rest for the Living (Unity) (Update - September 3)"
+	description "Doom II - No Rest for the Living (Unity) (Update - September 3)"
+	rom ( name EXTRAS.WAD size 64587 crc 82bccddc md5 38e1bb6cdd1e4227eef13d22f6e35209 sha1 0f2a7139b640e19a08f384562f907cb0734b0512 )
 	rom ( name NERVE.WAD size 3821966 crc ab68447f md5 4214c47651b63ee2257b1c2490a518c9 sha1 321e951f6cc6e9d51bc16eac53e0d001f0f3f338 )
 )
 
@@ -751,8 +754,16 @@ game (
 )
 
 game (
-	name "Ultimate Doom, The (Unity) (v1.1)"
-	description "Ultimate Doom, The (Unity) (v1.1)"
+	name "Ultimate Doom, The (Unity)"
+	description "Ultimate Doom, The (Unity)"
+	rom ( name EXTRAS.WAD size 64779 crc 8068229f md5 0c7caf25ad1584721ff5ecc38dec97a0 sha1 55a6a95c99d7fe7b9501d34b0afecd3252a629e1 )
+	rom ( name DOOM.WAD size 12468955 crc 346a4bfd md5 21b200688d0fa7c1b6f63703d2bdd455 sha1 08ab2507e1d525c4c06b6df4f6d5862568a6b009 )
+)
+
+game (
+	name "Ultimate Doom, The (Unity) (Update - September 3)"
+	description "Ultimate Doom, The (Unity) (Update - September 3)"
+	rom ( name EXTRAS.WAD size 64587 crc 82bccddc md5 38e1bb6cdd1e4227eef13d22f6e35209 sha1 0f2a7139b640e19a08f384562f907cb0734b0512 )
 	rom ( name DOOM.WAD size 12468955 crc 346a4bfd md5 21b200688d0fa7c1b6f63703d2bdd455 sha1 08ab2507e1d525c4c06b6df4f6d5862568a6b009 )
 )
 
