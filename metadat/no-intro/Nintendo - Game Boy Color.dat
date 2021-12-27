@@ -1,14 +1,15 @@
 clrmamepro (
 	name "Nintendo - Game Boy Color"
 	description "Nintendo - Game Boy Color"
-	version "2019.8.31"
+	version "2021.10.24"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
 	name "007 - The World Is Not Enough (USA, Europe)"
 	description "007 - The World Is Not Enough (USA, Europe)"
-	rom ( name "007 - The World Is Not Enough (USA, Europe).gbc" size 2097152 crc E038E666 md5 1F1FB3CF8783F880BC796D667BE60231 sha1 DD6E952B730C4BD85F8734156D43A2616B68C053 )
+	serial "BO7E"
+	rom ( name "007 - The World Is Not Enough (USA, Europe).gbc" size 2097152 crc E038E666 md5 1F1FB3CF8783F880BC796D667BE60231 sha1 DD6E952B730C4BD85F8734156D43A2616B68C053 serial "BO7E" )
 )
 
 game (
@@ -83,7 +84,8 @@ game (
 	name "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl)"
 	description "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
-	rom ( name "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 8CDAB77F md5 429E6DA4B32D8CAA22E78D92C0FEBD12 sha1 11EE7BA924F80E1C546AF4749EA46AC5C8C75A5D )
+	serial "BVPP"
+	rom ( name "3D Pocket Pool (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 8CDAB77F md5 429E6DA4B32D8CAA22E78D92C0FEBD12 sha1 11EE7BA924F80E1C546AF4749EA46AC5C8C75A5D serial "BVPP" )
 )
 
 game (
@@ -1192,13 +1194,6 @@ game (
 )
 
 game (
-	name "CGB Test Cartridge (Japan) (En)"
-	description "CGB Test Cartridge (Japan) (En)"
-	region "Japan"
-	rom ( name "CGB Test Cartridge (Japan) (En).gbc" size 65536 crc 4C050E29 md5 656B6F47251D18C1606C41E53EF62119 sha1 5133D3DC7A4CED9D059DC72F0F351CB44E22F096 )
-)
-
-game (
 	name "Caesars Palace II (USA, Europe)"
 	description "Caesars Palace II (USA, Europe)"
 	rom ( name "Caesars Palace II (USA, Europe).gbc" size 1048576 crc 351BA5EA md5 64396458BB3A82F26F522E85291B5FC5 sha1 B7520B3C91813DF9A447C11CCC4D4381F106CA52 )
@@ -2081,7 +2076,8 @@ game (
 	name "Doug - La Grande Aventure (France)"
 	description "Doug - La Grande Aventure (France)"
 	region "France"
-	rom ( name "Doug - La Grande Aventure (France).gbc" size 1048576 crc A9E62F1A md5 01FB7107B8432D3EED3E131605D682A3 sha1 818804E3BC300B0A027A4E34055412C58D73F05E )
+	serial "BDUF"
+	rom ( name "Doug - La Grande Aventure (France).gbc" size 1048576 crc A9E62F1A md5 01FB7107B8432D3EED3E131605D682A3 sha1 818804E3BC300B0A027A4E34055412C58D73F05E serial "BDUF" )
 )
 
 game (
@@ -2421,7 +2417,8 @@ game (
 game (
 	name "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible)"
 	description "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible)"
-	rom ( name "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible).gbc" size 1048576 crc 2E65DAAF md5 002D0D5FD2F668798DA1991B5FD5B4D8 sha1 78F9BD7F8C40274CF7282892A45E814103944060 )
+	serial "AEBE"
+	rom ( name "Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible).gbc" size 1048576 crc 2E65DAAF md5 002D0D5FD2F668798DA1991B5FD5B4D8 sha1 78F9BD7F8C40274CF7282892A45E814103944060 serial "AEBE" )
 )
 
 game (
@@ -2711,7 +2708,8 @@ game (
 	name "Freestyle Scooter (Europe)"
 	description "Freestyle Scooter (Europe)"
 	region "Europe"
-	rom ( name "Freestyle Scooter (Europe).gbc" size 1048576 crc EE79117D md5 0155BB1D60A477EEEB148033210EECF3 sha1 CF6AE174584BBFB5AE30478841114443ADC00245 )
+	serial "BRZP"
+	rom ( name "Freestyle Scooter (Europe).gbc" size 1048576 crc EE79117D md5 0155BB1D60A477EEEB148033210EECF3 sha1 CF6AE174584BBFB5AE30478841114443ADC00245 serial "BRZP" )
 )
 
 game (
@@ -2936,10 +2934,24 @@ game (
 )
 
 game (
+	name "Game Boy Wars Pocket Tactics (Japan) (Beta)"
+	description "Game Boy Wars Pocket Tactics (Japan) (Beta)"
+	region "Japan"
+	rom ( name "Game Boy Wars Pocket Tactics (Japan) (Beta).gbc" size 1048576 crc 7E8EA9A5 md5 ECF0D8121278D810BF40C4DE8A2A080B sha1 A729D9ECD2B2ABCD04B11122183F48C303D227B1 )
+)
+
+game (
 	name "Game Conveni 21 (Japan) (GB Compatible)"
 	description "Game Conveni 21 (Japan) (GB Compatible)"
 	region "Japan"
 	rom ( name "Game Conveni 21 (Japan) (GB Compatible).gbc" size 1048576 crc 994314B3 md5 76A95FEE3D90722FD935C7658512F5CC sha1 6803617ABC46DB83DBEC08D10E03B9F9297F260E )
+)
+
+game (
+	name "GameShark MX (USA) (US v1.02) (Unl)"
+	description "GameShark MX (USA) (US v1.02) (Unl)"
+	region "USA"
+	rom ( name "GameShark MX (USA) (US v1.02) (Unl).gbc" size 262144 crc 300E03BA md5 956B38B3692985FBD2850D8983916DDB sha1 D3EB3E7BC9042A3A9BDC6017620842C52D07CB07 )
 )
 
 game (
@@ -3543,7 +3555,8 @@ game (
 	name "Hello Kitty no Happy House (Japan)"
 	description "Hello Kitty no Happy House (Japan)"
 	region "Japan"
-	rom ( name "Hello Kitty no Happy House (Japan).gbc" size 4194304 crc 159FE5E7 md5 0121AA4C2909FF7DFF2190B7889956FD sha1 B5CBABEC048E1F77FEE7830BDB564F21369FAEEF )
+	serial "BK7J"
+	rom ( name "Hello Kitty no Happy House (Japan).gbc" size 4194304 crc 159FE5E7 md5 0121AA4C2909FF7DFF2190B7889956FD sha1 B5CBABEC048E1F77FEE7830BDB564F21369FAEEF serial "BK7J" )
 )
 
 game (
@@ -3944,7 +3957,8 @@ game (
 game (
 	name "Jeremy McGrath Supercross 2000 (USA, Europe)"
 	description "Jeremy McGrath Supercross 2000 (USA, Europe)"
-	rom ( name "Jeremy McGrath Supercross 2000 (USA, Europe).gbc" size 1048576 crc F0F9ABE6 md5 0143DBB62B1A88E7CCE65F9779CE9D4B sha1 5B48252BDE9F47D0FFD33F0E84CF30EC769946E7 )
+	serial "AJUE"
+	rom ( name "Jeremy McGrath Supercross 2000 (USA, Europe).gbc" size 1048576 crc F0F9ABE6 md5 0143DBB62B1A88E7CCE65F9779CE9D4B sha1 5B48252BDE9F47D0FFD33F0E84CF30EC769946E7 serial "AJUE" )
 )
 
 game (
@@ -4250,7 +4264,8 @@ game (
 	name "Keitai Denjuu Telefang - Power Version (Japan) (GB Compatible)"
 	description "Keitai Denjuu Telefang - Power Version (Japan) (GB Compatible)"
 	region "Japan"
-	rom ( name "Keitai Denjuu Telefang - Power Version (Japan) (GB Compatible).gbc" size 2097152 crc 8B61CFCC md5 04F7EA139FEF2BC2E3F70B2C23933D2E sha1 BAAF7FB9F9958CA22982BA0600BC0CB8A7FC4764 )
+	serial "BTXJ"
+	rom ( name "Keitai Denjuu Telefang - Power Version (Japan) (GB Compatible).gbc" size 2097152 crc 8B61CFCC md5 04F7EA139FEF2BC2E3F70B2C23933D2E sha1 BAAF7FB9F9958CA22982BA0600BC0CB8A7FC4764 serial "BTXJ" )
 )
 
 game (
@@ -4264,7 +4279,8 @@ game (
 	name "Kelly Club (USA)"
 	description "Kelly Club (USA)"
 	region "USA"
-	rom ( name "Kelly Club (USA).gbc" size 1048576 crc 6E39EBC4 md5 0107666C622E3BF3E225ECC6FE4FEE42 sha1 D47519A0295C3A76BC68C54AE94CCCE039BCD3EE )
+	serial "BKIE"
+	rom ( name "Kelly Club (USA).gbc" size 1048576 crc 6E39EBC4 md5 0107666C622E3BF3E225ECC6FE4FEE42 sha1 D47519A0295C3A76BC68C54AE94CCCE039BCD3EE serial "BKIE" )
 )
 
 game (
@@ -4842,6 +4858,13 @@ game (
 )
 
 game (
+	name "Looney Tunes Collector - Martian Alert! (Europe) (Fr) (Beta)"
+	description "Looney Tunes Collector - Martian Alert! (Europe) (Fr) (Beta)"
+	region "Europe"
+	rom ( name "Looney Tunes Collector - Martian Alert! (Europe) (Fr) (Beta).gbc" size 2097152 crc 3ACB4840 md5 5CC6AD2A2406C6C860F36107F6EB414E sha1 4C05C1A15BB90FEB09FBC2D8DFBFB42794313936 )
+)
+
+game (
 	name "Looney Tunes Collector - Martian Quest! (Japan)"
 	description "Looney Tunes Collector - Martian Quest! (Japan)"
 	region "Japan"
@@ -5157,6 +5180,13 @@ game (
 	description "Mahjong Quest (Japan) (SGB Enhanced) (GB Compatible)"
 	region "Japan"
 	rom ( name "Mahjong Quest (Japan) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc C870B88F md5 8B25AD9BD8ECD09A346C736011EA612B sha1 3AB49CE8AA69013C1B2D9427926513E21D5EFE1D )
+)
+
+game (
+	name "Mail Junkies World Port (United Kingdom) (UK v1.01) (Unl)"
+	description "Mail Junkies World Port (United Kingdom) (UK v1.01) (Unl)"
+	region "United Kingdom"
+	rom ( name "Mail Junkies World Port (United Kingdom) (UK v1.01) (Unl).gbc" size 262144 crc D4DF856F md5 498A332679B9CE4392AF8D9B0567BF24 sha1 004DEB1E75FFA08080028CB4C08A7C981C313EB8 )
 )
 
 game (
@@ -5531,7 +5561,8 @@ game (
 	name "Metamode (Japan)"
 	description "Metamode (Japan)"
 	region "Japan"
-	rom ( name "Metamode (Japan).gbc" size 2097152 crc A76EED5B md5 017CDE0DB5D27525AF84123F1CE81EDF sha1 1C1D74C810B90CF4D2EE32859EAEA569A5B45C3F )
+	serial "BTMJ"
+	rom ( name "Metamode (Japan).gbc" size 2097152 crc A76EED5B md5 017CDE0DB5D27525AF84123F1CE81EDF sha1 1C1D74C810B90CF4D2EE32859EAEA569A5B45C3F serial "BTMJ" )
 )
 
 game (
@@ -6843,6 +6874,14 @@ game (
 )
 
 game (
+	name "Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible)"
+	description "Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible)"
+	region "Germany"
+	serial "AAXD"
+	rom ( name "Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible).gbc" size 2097152 crc 576F5CED md5 A3799918A413D72787D4434935DF2117 sha1 76FA60D66B2F22A035ADC54C61AAD9A415C894CD serial "AAXD" )
+)
+
+game (
 	name "Pokemon - Silberne Edition (Germany) (SGB Enhanced) (GB Compatible)"
 	description "Pokemon - Silberne Edition (Germany) (SGB Enhanced) (GB Compatible)"
 	region "Germany"
@@ -6915,7 +6954,8 @@ game (
 	name "Pokemon Picross (Japan) (Proto)"
 	description "Pokemon Picross (Japan) (Proto)"
 	region "Japan"
-	rom ( name "Pokemon Picross (Japan) (Proto).gbc" size 2097152 crc CF647F4B md5 35D2E7924408A3460E5C1A770ACF3A8A sha1 8204064B7149357939B57342820E7955749183B6 )
+	serial "AKVJ"
+	rom ( name "Pokemon Picross (Japan) (Proto).gbc" size 2097152 crc CF647F4B md5 35D2E7924408A3460E5C1A770ACF3A8A sha1 8204064B7149357939B57342820E7955749183B6 serial "AKVJ" )
 )
 
 game (
@@ -7207,6 +7247,13 @@ game (
 	description "Prince Naseem Boxing (Europe) (En,Fr,De)"
 	region "Europe"
 	rom ( name "Prince Naseem Boxing (Europe) (En,Fr,De).gbc" size 2097152 crc 91DEF753 md5 033DADE2CC761D6F360DAEECFF9D6F90 sha1 F0500B3CA8A24B3BD2C11E77FBE4C75DB178DFBE )
+)
+
+game (
+	name "Prince of Persia (Japan) (Proto)"
+	description "Prince of Persia (Japan) (Proto)"
+	region "Japan"
+	rom ( name "Prince of Persia (Japan) (Proto).gbc" size 1048576 crc D7DBBE1E md5 18E83737127010B90AA8EA4D3982B461 sha1 6FD97E1F75570E7568B3DC4AB28834813AFB4484 )
 )
 
 game (
@@ -8271,10 +8318,16 @@ game (
 )
 
 game (
-	name "Shaun Palmer's Pro Snowboarder (USA)"
-	description "Shaun Palmer's Pro Snowboarder (USA)"
+	name "Shantae (USA) (Beta)"
+	description "Shantae (USA) (Beta)"
 	region "USA"
-	rom ( name "Shaun Palmer's Pro Snowboarder (USA).gbc" size 2097152 crc 709CDA93 md5 3BCB284142A35A8D86550C2F34549DCC sha1 3563D3085198BF40BA92C4DE40093E5FA2D422D5 )
+	rom ( name "Shantae (USA) (Beta).gbc" size 4194304 crc 3B4D6C50 md5 AFD4AE2F42DA36DDB740FA6A5B06D74E sha1 141DC57955E84D51F0099C0709A0626D43AB8FA7 )
+)
+
+game (
+	name "Shaun Palmer's Pro Snowboarder (USA, Australia)"
+	description "Shaun Palmer's Pro Snowboarder (USA, Australia)"
+	rom ( name "Shaun Palmer's Pro Snowboarder (USA, Australia).gbc" size 2097152 crc 709CDA93 md5 3BCB284142A35A8D86550C2F34549DCC sha1 3563D3085198BF40BA92C4DE40093E5FA2D422D5 )
 )
 
 game (
@@ -8829,7 +8882,8 @@ game (
 game (
 	name "Super Mario Bros. Deluxe (USA, Europe) (Rev 1)"
 	description "Super Mario Bros. Deluxe (USA, Europe) (Rev 1)"
-	rom ( name "Super Mario Bros. Deluxe (USA, Europe) (Rev 1).gbc" size 1048576 crc 90AB047B md5 1FD75C2B798C04ACD4B99AD2F1006280 sha1 07295CD60AE44183EBECB013930727E0404169D5 )
+	serial "AHYE"
+	rom ( name "Super Mario Bros. Deluxe (USA, Europe) (Rev 1).gbc" size 1048576 crc 90AB047B md5 1FD75C2B798C04ACD4B99AD2F1006280 sha1 07295CD60AE44183EBECB013930727E0404169D5 serial "AHYE" )
 )
 
 game (
@@ -9034,10 +9088,11 @@ game (
 )
 
 game (
-	name "Taisen Tsumeshougi (Japan) (NP) (GB Compatible)"
-	description "Taisen Tsumeshougi (Japan) (NP) (GB Compatible)"
+	name "Taisen Tsume Shougi (Japan) (NP) (GB Compatible)"
+	description "Taisen Tsume Shougi (Japan) (NP) (GB Compatible)"
 	region "Japan"
-	rom ( name "Taisen Tsumeshougi (Japan) (NP) (GB Compatible).gbc" size 1048576 crc 95310C8B md5 E49185B5B5268F17A923A459E84BED0D sha1 813B97785076D2A17B19FA48EE2E0047C54259E0 )
+	serial "DMG-BTSJ"
+	rom ( name "Taisen Tsume Shougi (Japan) (NP) (GB Compatible).gbc" size 1048576 crc 95310C8B md5 E49185B5B5268F17A923A459E84BED0D sha1 813B97785076D2A17B19FA48EE2E0047C54259E0 serial "DMG-BTSJ" )
 )
 
 game (
@@ -9393,7 +9448,8 @@ game (
 game (
 	name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta)"
 	description "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta)"
-	rom ( name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc 58590868 md5 545B4875C01233EDBDC6C2CD001AEC25 sha1 3F7259E9DEF8BE46E9B1F2956182084276F105ED )
+	serial "AT9E"
+	rom ( name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc 58590868 md5 545B4875C01233EDBDC6C2CD001AEC25 sha1 3F7259E9DEF8BE46E9B1F2956182084276F105ED serial "AT9E" )
 )
 
 game (
@@ -9577,7 +9633,8 @@ game (
 	name "Towers II - Plight of the Stargazer (USA) (Proto 1) (2001-12-09)"
 	description "Towers II - Plight of the Stargazer (USA) (Proto 1) (2001-12-09)"
 	region "USA"
-	rom ( name "Towers II - Plight of the Stargazer (USA) (Proto 1) (2001-12-09).gbc" size 1048576 crc 5784BCE0 md5 2B0AD9175FA23C2E278E2174D08DF821 sha1 8072C36E198BD5D102052D5175B88E1A45CCA9E8 )
+	serial "BTOE"
+	rom ( name "Towers II - Plight of the Stargazer (USA) (Proto 1) (2001-12-09).gbc" size 1048576 crc 5784BCE0 md5 2B0AD9175FA23C2E278E2174D08DF821 sha1 8072C36E198BD5D102052D5175B88E1A45CCA9E8 serial "BTOE" )
 )
 
 game (
@@ -9611,7 +9668,8 @@ game (
 game (
 	name "Toy Story Racer (USA, Europe)"
 	description "Toy Story Racer (USA, Europe)"
-	rom ( name "Toy Story Racer (USA, Europe).gbc" size 2097152 crc D911DD97 md5 01A67ED2DC935044BA69EDA42BDDEBF3 sha1 5DEB31321A86B260AA84CAB5E45A3FA36CE5EFBD )
+	serial "BT5E"
+	rom ( name "Toy Story Racer (USA, Europe).gbc" size 2097152 crc D911DD97 md5 01A67ED2DC935044BA69EDA42BDDEBF3 sha1 5DEB31321A86B260AA84CAB5E45A3FA36CE5EFBD serial "BT5E" )
 )
 
 game (
@@ -9697,6 +9755,12 @@ game (
 )
 
 game (
+	name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (Beta) (GB Compatible)"
+	description "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (Beta) (GB Compatible)"
+	rom ( name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (Beta) (GB Compatible).gbc" size 1048576 crc DAE30864 md5 1C146CE4743C94923843F6AA07A15A47 sha1 886C73348F4DD50E3EA916F96B8DAA2451997DCC )
+)
+
+game (
 	name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (GB Compatible)"
 	description "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (GB Compatible)"
 	rom ( name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (GB Compatible).gbc" size 1048576 crc 6EDA6A3A md5 28D6C613FDF608FE241FB3CE183AAAE5 sha1 FB7856AF0205CC749174CDA9EB51AE137984558C )
@@ -9762,6 +9826,12 @@ game (
 	description "Tyrannosaurus Tex (USA) (Proto)"
 	region "USA"
 	rom ( name "Tyrannosaurus Tex (USA) (Proto).gbc" size 2097152 crc 1BD4E588 md5 4B355F96EA75826AD0E48055482BADEA sha1 E2FCC7FCC643F9D7FC61ACCE6C5ED1F8ABC13FA0 )
+)
+
+game (
+	name "Tyrannosaurus Tex (World) (Aftermarket) (Unl)"
+	description "Tyrannosaurus Tex (World) (Aftermarket) (Unl)"
+	rom ( name "Tyrannosaurus Tex (World) (Aftermarket) (Unl).gbc" size 2097152 crc E90504C1 md5 691CEE571646D8A2C1A00355F4CE4DF0 sha1 7E41E92F92FF06101E48DEE758420F1BD3959013 )
 )
 
 game (
@@ -10422,7 +10492,8 @@ game (
 	name "Zidane Football Generation (Europe) (En,Fr,De,Es,It)"
 	description "Zidane Football Generation (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
-	rom ( name "Zidane Football Generation (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc E96DBFB5 md5 0044C80FB6C6C7C49466DAFE6637D61A sha1 06385470BB0B4EF6C743AB6A5E7F8D7A97F6100B )
+	serial "BZSP"
+	rom ( name "Zidane Football Generation (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc E96DBFB5 md5 0044C80FB6C6C7C49466DAFE6637D61A sha1 06385470BB0B4EF6C743AB6A5E7F8D7A97F6100B serial "BZSP" )
 )
 
 game (

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Game Gear"
 	description "Sega - Game Gear"
-	version "2019.8.31"
+	version "2021.10.24"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -616,6 +616,13 @@ game (
 	description "Bram Stoker's Dracula (USA)"
 	region "USA"
 	rom ( name "Bram Stoker's Dracula (USA).gg" size 262144 crc D966EC47 md5 EBE94E98FD693B69F323E31AD8131163 sha1 BDE7280D4FEAB1C27DDA228EF821C7A1C63A9E07 )
+)
+
+game (
+	name "BreakThru! (USA) (Proto)"
+	description "BreakThru! (USA) (Proto)"
+	region "USA"
+	rom ( name "BreakThru! (USA) (Proto).gg" size 131072 crc 64D7A694 md5 7001220EFDF95C6E02F9FF43960436AC sha1 571BD543320BC67C4103630C804705955BC5250A )
 )
 
 game (
@@ -1265,6 +1272,12 @@ game (
 )
 
 game (
+	name "Dynamite Headdy (USA, Europe) (Beta) (Earlier)"
+	description "Dynamite Headdy (USA, Europe) (Beta) (Earlier)"
+	rom ( name "Dynamite Headdy (USA, Europe) (Beta) (Earlier).gg" size 524288 crc 843556B1 md5 1B5883C2B693C60177724C0CCCA60866 sha1 1F5628E2AA21A3EDE186297062CAAA400DEC2EA2 )
+)
+
+game (
 	name "Earthworm Jim (Europe)"
 	description "Earthworm Jim (Europe)"
 	region "Europe"
@@ -1507,16 +1520,31 @@ game (
 )
 
 game (
-	name "GG Aleste (Japan)"
-	description "GG Aleste (Japan)"
+	name "GG Aleste (Japan) (En)"
+	description "GG Aleste (Japan) (En)"
 	region "Japan"
-	rom ( name "GG Aleste (Japan).gg" size 262144 crc 1B80A75B md5 43301E7C15FE11F66B29B00E6EC47A52 sha1 4C13DC3601A1702692C35EB6C89F0E09AB966F69 )
+	rom ( name "GG Aleste (Japan) (En).gg" size 262144 crc 1B80A75B md5 43301E7C15FE11F66B29B00E6EC47A52 sha1 4C13DC3601A1702692C35EB6C89F0E09AB966F69 )
 )
 
 game (
-	name "GG Aleste 3 (World) (Aleste Collection)"
-	description "GG Aleste 3 (World) (Aleste Collection)"
-	rom ( name "GG Aleste 3 (World) (Aleste Collection).gg" size 1048576 crc 5AE64731 md5 BA860AFBF7B7EB2B1BA08C957D44B34C sha1 FBEF21541ADC445C92ABF7C92E97088CB073AAFA )
+	name "GG Aleste (Japan) (En) (Aleste Collection)"
+	description "GG Aleste (Japan) (En) (Aleste Collection)"
+	region "Japan"
+	rom ( name "GG Aleste (Japan) (En) (Aleste Collection).gg" size 262144 crc 0A49407D md5 D652AB08184BC3439220C79FE7C36A60 sha1 16F97080C3464D013C2C18B8E3357BB850E1C51C )
+)
+
+game (
+	name "GG Aleste 3 (Japan) (En) (Aleste Collection)"
+	description "GG Aleste 3 (Japan) (En) (Aleste Collection)"
+	region "Japan"
+	rom ( name "GG Aleste 3 (Japan) (En) (Aleste Collection).gg" size 1048576 crc 5AE64731 md5 BA860AFBF7B7EB2B1BA08C957D44B34C sha1 FBEF21541ADC445C92ABF7C92E97088CB073AAFA )
+)
+
+game (
+	name "GG Aleste II (Japan) (En) (Aleste Collection)"
+	description "GG Aleste II (Japan) (En) (Aleste Collection)"
+	region "Japan"
+	rom ( name "GG Aleste II (Japan) (En) (Aleste Collection).gg" size 262144 crc 13596065 md5 3632BFBA5A1455F55879E54974A8012D sha1 8E563C259280274B932A5969D4C188AFEC1A9D3B )
 )
 
 game (
@@ -2440,6 +2468,12 @@ game (
 	name "Mortal Kombat (USA, Europe)"
 	description "Mortal Kombat (USA, Europe)"
 	rom ( name "Mortal Kombat (USA, Europe).gg" size 524288 crc 07494F2A md5 F9971DC9D78214F94856F6E886B1C8C2 sha1 EF634649B846B3F49D2C68739B36019E4FAE0464 )
+)
+
+game (
+	name "Mortal Kombat (USA, Europe) (Beta)"
+	description "Mortal Kombat (USA, Europe) (Beta)"
+	rom ( name "Mortal Kombat (USA, Europe) (Beta).gg" size 524288 crc 16DB4F6A md5 EFD7BC7767E9C87D1027627BA814CDDD sha1 0D2CA2DE933993ED45B20EF736237BC774DD3914 )
 )
 
 game (
@@ -5177,20 +5211,6 @@ game (
 	description "X-Men - Mojo World (USA) (Beta) (1996-06-29)"
 	region "USA"
 	rom ( name "X-Men - Mojo World (USA) (Beta) (1996-06-29).gg" size 524288 crc BA71DA19 md5 F501EC43DA19ECB13DD162BEE2B9E380 sha1 CC3FC3B57BCD4DAEA90A572C935013D286EBBB99 )
-)
-
-game (
-	name "X-Terminator (Europe) (v2.1) (Program) (Unl)"
-	description "X-Terminator (Europe) (v2.1) (Program) (Unl)"
-	region "Europe"
-	rom ( name "X-Terminator (Europe) (v2.1) (Program) (Unl).gg" size 8192 crc 0F448220 md5 9477020282FC817925348CCE2823103C sha1 B6664C21A99A96392FE79237D326E96AC0BDD52A )
-)
-
-game (
-	name "X-Terminator (Japan) (v2.1) (Program) (Unl)"
-	description "X-Terminator (Japan) (v2.1) (Program) (Unl)"
-	region "Japan"
-	rom ( name "X-Terminator (Japan) (v2.1) (Program) (Unl).gg" size 8192 crc E498090D md5 6C9633D99174D48EE92794B8BD7B3510 sha1 EE2123CC2ADDD9E48D3F4DC909334504C5B330AB )
 )
 
 game (

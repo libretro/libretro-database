@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 2600"
 	description "Atari - 2600"
-	version "2019.8.31"
+	version "2021.10.24"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -172,6 +172,12 @@ game (
 )
 
 game (
+	name "Air-Sea Battle ~ Target Fun (Japan, USA) (Atari Anthology)"
+	description "Air-Sea Battle ~ Target Fun (Japan, USA) (Atari Anthology)"
+	rom ( name "Air-Sea Battle ~ Target Fun (Japan, USA) (Atari Anthology).a26" size 2048 crc 2A2A9F81 md5 835967C3A2475D852286F04B1B8C62D9 sha1 FE70D356B84C9BEF28497332C6B36D9B52A0205D )
+)
+
+game (
 	name "Airlock (Europe)"
 	description "Airlock (Europe)"
 	region "Europe"
@@ -206,10 +212,10 @@ game (
 )
 
 game (
-	name "Aliens Return (Europe)"
-	description "Aliens Return (Europe)"
+	name "Alien's Return (Europe)"
+	description "Alien's Return (Europe)"
 	region "Europe"
-	rom ( name "Aliens Return (Europe).a26" size 4096 crc C161F53B md5 103F1756D9DC0DD2B16B53AD0F0F1859 sha1 4C41379F0DD9880384FCBB46BAD9FBAAF109A477 )
+	rom ( name "Alien's Return (Europe).a26" size 4096 crc C161F53B md5 103F1756D9DC0DD2B16B53AD0F0F1859 sha1 4C41379F0DD9880384FCBB46BAD9FBAAF109A477 )
 )
 
 game (
@@ -334,6 +340,13 @@ game (
 )
 
 game (
+	name "Asteroids (USA) (Atari Anthology)"
+	description "Asteroids (USA) (Atari Anthology)"
+	region "USA"
+	rom ( name "Asteroids (USA) (Atari Anthology).a26" size 8192 crc 70A59647 md5 CCBD36746ED4525821A8083B0D6D2C2C sha1 8423F99092B454AED89F89F5D7DA658CAF7AF016 )
+)
+
+game (
 	name "Astroblast (Europe)"
 	description "Astroblast (Europe)"
 	region "Europe"
@@ -365,6 +378,12 @@ game (
 	description "Atari Video Cube (USA)"
 	region "USA"
 	rom ( name "Atari Video Cube (USA).a26" size 4096 crc 272AE37F md5 3F540A30FDEE0B20AED7288E4A5EA528 sha1 D1563C24208766CF8D28DE7AF995021A9F89D7E1 )
+)
+
+game (
+	name "Atari Video Cube (USA, Europe) (Atari Anthology)"
+	description "Atari Video Cube (USA, Europe) (Atari Anthology)"
+	rom ( name "Atari Video Cube (USA, Europe) (Atari Anthology).a26" size 4096 crc 8172299E md5 7E860C06FCD1AB31C6975DAEC7FA1E84 sha1 AC141BB18CACC5D197FF4F9B5BEF18683C989474 )
 )
 
 game (
@@ -713,15 +732,29 @@ game (
 )
 
 game (
-	name "Bobby is Going Home (Brazil) (Unl)"
-	description "Bobby is Going Home (Brazil) (Unl)"
-	rom ( name "Bobby is Going Home (Brazil) (NTSC) (Unl).a26" size 4096 crc 358940E3 md5 075069AD80CDE15ECA69E3C98BD66714 sha1 E00202DA428DB2D05E30CDD59488E5E0D405C678 )
+	name "Bobby Is Going Home (Brazil) (Unl)"
+	description "Bobby Is Going Home (Brazil) (Unl)"
+	rom ( name "Bobby Is Going Home (Brazil) (NTSC) (Unl).a26" size 4096 crc 358940E3 md5 075069AD80CDE15ECA69E3C98BD66714 sha1 E00202DA428DB2D05E30CDD59488E5E0D405C678 )
 )
 
 game (
-	name "Bobby is Going Home (Brazil) (Europe) (Unl)"
-	description "Bobby is Going Home (Brazil) (Europe) (Unl)"
-	rom ( name "Bobby is Going Home (Brazil) (PAL) (Unl).a26" size 4096 crc 5C4A04C8 md5 3CBDF71BB9FD261FBC433717F547D738 sha1 876C3B01E68568100DB716BC69BF58189ACB72C2 )
+	name "Bobby Is Going Home (Brazil) (Europe) (Unl)"
+	description "Bobby Is Going Home (Brazil) (Europe) (Unl)"
+	rom ( name "Bobby Is Going Home (Brazil) (PAL) (Unl).a26" size 4096 crc 5C4A04C8 md5 3CBDF71BB9FD261FBC433717F547D738 sha1 876C3B01E68568100DB716BC69BF58189ACB72C2 )
+)
+
+game (
+	name "Bobby Is Going Home (Europe) (Beta)"
+	description "Bobby Is Going Home (Europe) (Beta)"
+	region "Europe"
+	rom ( name "Bobby Is Going Home (Europe) (Beta).a26" size 4096 crc 3E662128 md5 CCB56107FF0492232065B85493DAA635 sha1 4AEF30B43249621E09A690D54EBE23377289A997 )
+)
+
+game (
+	name "Bobby Is Going Home (USA)"
+	description "Bobby Is Going Home (USA)"
+	region "USA"
+	rom ( name "Bobby Is Going Home (USA).a26" size 4096 crc 99A2A654 md5 521F4DD1EB84A09B2B19959A41839AAD sha1 6C4A96AEC21F6CEDE3F43CD12842BC7238648770 )
 )
 
 game (
@@ -729,20 +762,6 @@ game (
 	description "Bobby is Going Home (Europe)"
 	region "Europe"
 	rom ( name "Bobby is Going Home (Europe).a26" size 4096 crc F061E27F md5 2823364702595FEEA24A3FBEE138A243 sha1 50E26688FDD3EADCFA83240616267A8F60216C25 )
-)
-
-game (
-	name "Bobby is Going Home (Europe) (Beta)"
-	description "Bobby is Going Home (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Bobby is Going Home (Europe) (Beta).a26" size 4096 crc 3E662128 md5 CCB56107FF0492232065B85493DAA635 sha1 4AEF30B43249621E09A690D54EBE23377289A997 )
-)
-
-game (
-	name "Bobby is Going Home (USA)"
-	description "Bobby is Going Home (USA)"
-	region "USA"
-	rom ( name "Bobby is Going Home (USA).a26" size 4096 crc 99A2A654 md5 521F4DD1EB84A09B2B19959A41839AAD sha1 6C4A96AEC21F6CEDE3F43CD12842BC7238648770 )
 )
 
 game (
@@ -1204,10 +1223,22 @@ game (
 )
 
 game (
+	name "Colours (USA, Europe) (Atari Anthology)"
+	description "Colours (USA, Europe) (Atari Anthology)"
+	rom ( name "Colours (USA, Europe) (Atari Anthology).a26" size 2048 crc 30464C79 md5 8946FBAFAC46158F020B7CB27993769E sha1 FBDC0CD86C15653BBA0C7A220FFE5DB6A771E76C )
+)
+
+game (
 	name "Combat (Europe)"
 	description "Combat (Europe)"
 	region "Europe"
 	rom ( name "Combat (Europe).a26" size 2048 crc 7BEE5800 md5 E8AA36E3D49E9BFA654C25DCC19C74E6 sha1 61C8A4B011B2CC31D1FAA304A6B76ACBD4CAD25C )
+)
+
+game (
+	name "Combat (USA, Europe) (Atari Anthology)"
+	description "Combat (USA, Europe) (Atari Anthology)"
+	rom ( name "Combat (USA, Europe) (Atari Anthology).a26" size 2048 crc 0D64A9C5 md5 0D213AC07D3BE0D51D3084769BEBAC17 sha1 1426772D1AA61D7074749AFE4CEC79BA82724D72 )
 )
 
 game (
@@ -1610,10 +1641,10 @@ game (
 )
 
 game (
-	name "Dukes of Hazzard (USA)"
-	description "Dukes of Hazzard (USA)"
+	name "Dukes of Hazzard (USA) (Proto)"
+	description "Dukes of Hazzard (USA) (Proto)"
 	region "USA"
-	rom ( name "Dukes of Hazzard (USA).a26" size 16384 crc 2DB406DC md5 51DE328E79D919D7234CF19C1CD77FBC sha1 C061D753435DCB7275A8764F4AD003B05FA100ED )
+	rom ( name "Dukes of Hazzard (USA) (Proto).a26" size 16384 crc 2DB406DC md5 51DE328E79D919D7234CF19C1CD77FBC sha1 C061D753435DCB7275A8764F4AD003B05FA100ED )
 )
 
 game (
@@ -2310,10 +2341,10 @@ game (
 )
 
 game (
-	name "Jungle Fever ~ Knight on the Town (USA)"
-	description "Jungle Fever ~ Knight on the Town (USA)"
+	name "Jungle Fever (USA)"
+	description "Jungle Fever (USA)"
 	region "USA"
-	rom ( name "Jungle Fever ~ Knight on the Town (USA).a26" size 4096 crc 0123617B md5 2CCCC079C15E9AF94246F867FFC7E9BF sha1 9A0EE845D9928D4DB003B07B927BB2C1F628E725 )
+	rom ( name "Jungle Fever (USA).a26" size 4096 crc 0123617B md5 2CCCC079C15E9AF94246F867FFC7E9BF sha1 9A0EE845D9928D4DB003B07B927BB2C1F628E725 )
 )
 
 game (
@@ -2366,6 +2397,13 @@ game (
 )
 
 game (
+	name "Kid Vid Voice Module (USA) (Audio Tapes)"
+	description "Kid Vid Voice Module (USA) (Audio Tapes)"
+	region "USA"
+	rom ( name "KVSHARED.WAV" size 3059116 crc FFF1FB4D md5 818525569CB66D481D9CD48C2B0F7360 sha1 9ADF10CDF1DE833B194C7D8797AD1F041AD98DD3 )
+)
+
+game (
 	name "Killer Satellites (USA)"
 	description "Killer Satellites (USA)"
 	region "USA"
@@ -2391,6 +2429,13 @@ game (
 	description "Klax (USA)"
 	region "USA"
 	rom ( name "Klax (USA).a26" size 16384 crc 6BC47721 md5 2C29182EDF0965A7F56FE0897D2F84BA sha1 3162259C6DBFBB57A2EA41D849155702151EE39B )
+)
+
+game (
+	name "Knight on the Town (USA)"
+	description "Knight on the Town (USA)"
+	region "USA"
+	rom ( name "Knight on the Town (USA).a26" size 4096 crc ACEA70A6 md5 7FCD1766DE75C614A3CCC31B25DD5B7A sha1 759597D1D779CFDFD7AA30FD28A59ACC58CA2533 )
 )
 
 game (
@@ -2429,10 +2474,10 @@ game (
 )
 
 game (
-	name "Lady In Wading (USA)"
-	description "Lady In Wading (USA)"
+	name "Lady in Wading (USA)"
+	description "Lady in Wading (USA)"
 	region "USA"
-	rom ( name "Lady In Wading (USA).a26" size 4096 crc F197BBCC md5 95A89D1BF767D7CC9D0D5093D579BA61 sha1 6D59DFEA26B7A06545A817F03F62A59BE8993587 )
+	rom ( name "Lady in Wading (USA).a26" size 4096 crc F197BBCC md5 95A89D1BF767D7CC9D0D5093D579BA61 sha1 6D59DFEA26B7A06545A817F03F62A59BE8993587 )
 )
 
 game (
@@ -3045,10 +3090,10 @@ game (
 )
 
 game (
-	name "Party Mix - Bop a Buggy, Tug of War, Wizard's Keep, Down on the Line, Handcar (USA)"
-	description "Party Mix - Bop a Buggy, Tug of War, Wizard's Keep, Down on the Line, Handcar (USA)"
+	name "Party Mix (USA)"
+	description "Party Mix (USA)"
 	region "USA"
-	rom ( name "Party Mix - Bop a Buggy, Tug of War, Wizard's Keep, Down on the Line, Handcar (USA).a26" size 25344 crc 8B8AE545 md5 012B8E6EF3B5FD5AABC94075C527709D sha1 600E3A32B19B3B164AAAFB538B4399EDA669845A )
+	rom ( name "Party Mix (USA).a26" size 25344 crc 8B8AE545 md5 012B8E6EF3B5FD5AABC94075C527709D sha1 600E3A32B19B3B164AAAFB538B4399EDA669845A )
 )
 
 game (
@@ -3308,6 +3353,12 @@ game (
 	description "Quadrun (USA)"
 	region "USA"
 	rom ( name "Quadrun (USA).a26" size 8192 crc 8D3C887B md5 024365007A87F213CBE8EF5F2E8E1333 sha1 B8D6F508EDBF713E52F0CBF235D5E17ADD2FBF2E )
+)
+
+game (
+	name "Quadrun (USA, Europe) (Atari Anthology)"
+	description "Quadrun (USA, Europe) (Atari Anthology)"
+	rom ( name "Quadrun (USA, Europe) (Atari Anthology).a26" size 8192 crc 35592D43 md5 392D34C0498075DD58DF0CE7CD491EA2 sha1 1E634A8733CBC50462D363562B80013343D2FAC3 )
 )
 
 game (
@@ -3843,10 +3894,10 @@ game (
 )
 
 game (
-	name "Snail against Squirrel (Europe)"
-	description "Snail against Squirrel (Europe)"
+	name "Snail Against Squirrel (Europe)"
+	description "Snail Against Squirrel (Europe)"
 	region "Europe"
-	rom ( name "Snail against Squirrel (Europe).a26" size 4096 crc 5C5B9E1A md5 898B5467551D32AF48A604802407B6E8 sha1 E7BF450CF3A3F40DE9D24D89968A4BC89B53CB18 )
+	rom ( name "Snail Against Squirrel (Europe).a26" size 4096 crc 5C5B9E1A md5 898B5467551D32AF48A604802407B6E8 sha1 E7BF450CF3A3F40DE9D24D89968A4BC89B53CB18 )
 )
 
 game (
@@ -3903,6 +3954,12 @@ game (
 	description "Sorcerer's Apprentice (USA)"
 	region "USA"
 	rom ( name "Sorcerer's Apprentice (USA).a26" size 8192 crc E5DBFED1 md5 5F7AE9A7F8D79A3B37E8FC841F65643A sha1 AE3009E921F23254BB71F67C8CB2D7D6DE2845A5 )
+)
+
+game (
+	name "Sound (USA, Europe) (Atari Anthology)"
+	description "Sound (USA, Europe) (Atari Anthology)"
+	rom ( name "Sound (USA, Europe) (Atari Anthology).a26" size 2048 crc 31372FB1 md5 E7F0C32CD0BCD08628191914794F84F2 sha1 EF2F4E7CB425EAA4C7CCE9F399C288076DAD2C9D )
 )
 
 game (
@@ -4277,10 +4334,22 @@ game (
 )
 
 game (
+	name "Super Baseball (USA, Europe) (Atari Anthology)"
+	description "Super Baseball (USA, Europe) (Atari Anthology)"
+	rom ( name "Super Baseball (USA, Europe) (Atari Anthology).a26" size 16384 crc 2245F170 md5 7ADBCF78399B19596671EDBFFC3D34AA sha1 B066A60EA1DF1DB0A55271C7608B0E19E4D18A1E )
+)
+
+game (
 	name "Super Breakout (USA)"
 	description "Super Breakout (USA)"
 	region "USA"
 	rom ( name "Super Breakout (USA).a26" size 4096 crc B0F20D31 md5 8885D0CE11C5B40C3A8A8D9ED28CEFEF sha1 AC2AAD2196C155C1D87D6F42FA88891825F4FDE6 )
+)
+
+game (
+	name "Super Breakout (USA, Europe) (Atari Anthology)"
+	description "Super Breakout (USA, Europe) (Atari Anthology)"
+	rom ( name "Super Breakout (USA, Europe) (Atari Anthology).a26" size 4096 crc 171DBE92 md5 0AD9A358E361256B94F3FB4F2FA5A3B1 sha1 E380E243C671E954E86AA1A3A0BFEB36D5E0C3E2 )
 )
 
 game (
@@ -4382,6 +4451,12 @@ game (
 )
 
 game (
+	name "SwordQuest - EarthWorld (USA, Europe) (Atari Anthology)"
+	description "SwordQuest - EarthWorld (USA, Europe) (Atari Anthology)"
+	rom ( name "SwordQuest - EarthWorld (USA, Europe) (Atari Anthology).a26" size 8192 crc D5E21B79 md5 05EBD183EA854C0A1B56C218246FBBAE sha1 05DB3D09FA3DAC80C70AAE2E39F1AD7C31C62F02 )
+)
+
+game (
 	name "SwordQuest - FireWorld (USA)"
 	description "SwordQuest - FireWorld (USA)"
 	region "USA"
@@ -4414,6 +4489,12 @@ game (
 	description "Tac-Scan (USA)"
 	region "USA"
 	rom ( name "Tac-Scan (USA).a26" size 4096 crc A2A42BEC md5 D45EBF130ED9070EA8EBD56176E48A38 sha1 55E98FE14B07460734781A6AA2F4F1646830C0AF )
+)
+
+game (
+	name "Tank AI (USA, Europe)"
+	description "Tank AI (USA, Europe)"
+	rom ( name "Tank AI (USA, Europe).a26" size 16384 crc A7CEEA56 md5 4704E6DAE883E35FE31E09E06D4DDBFC sha1 0C382DB92D8E6F3589DA2E020B024BC24BC7DFC6 )
 )
 
 game (
@@ -4466,6 +4547,13 @@ game (
 )
 
 game (
+	name "Tempest (USA) (Proto) (Atari Anthology)"
+	description "Tempest (USA) (Proto) (Atari Anthology)"
+	region "USA"
+	rom ( name "Tempest (USA) (Proto) (Atari Anthology).a26" size 8192 crc E6DABC1B md5 18AA009ECEC98106AC1CB3079A555A12 sha1 3DD11DABB1A98A45443AE6F088E7E02CBD5B6AA0 )
+)
+
+game (
 	name "Tennis (USA)"
 	description "Tennis (USA)"
 	region "USA"
@@ -4473,10 +4561,17 @@ game (
 )
 
 game (
-	name "Texas Chainsaw Massacre, The (USA) (Proto)"
-	description "Texas Chainsaw Massacre, The (USA) (Proto)"
+	name "Texas Chainsaw Massacre, The (USA)"
+	description "Texas Chainsaw Massacre, The (USA)"
 	region "USA"
-	rom ( name "Texas Chainsaw Massacre, The (USA) (Proto).a26" size 4096 crc EC389CAA md5 5EEB81292992E057B290A5CD196F155D sha1 717122A4184BC8DB41E65AB7C369C40B21C048D9 )
+	rom ( name "Texas Chainsaw Massacre, The (USA).a26" size 4096 crc EC389CAA md5 5EEB81292992E057B290A5CD196F155D sha1 717122A4184BC8DB41E65AB7C369C40B21C048D9 )
+)
+
+game (
+	name "Texas Chainsaw Massacre, The (USA) (Beta)"
+	description "Texas Chainsaw Massacre, The (USA) (Beta)"
+	region "USA"
+	rom ( name "Texas Chainsaw Massacre, The (USA) (Beta).a26" size 4096 crc EA9A4268 md5 2D15B092E8350912EC4B2E5E750FA1C6 sha1 1F1660223ABEEE3113C3F75BF4D9CBB3B1CF49E4 )
 )
 
 game (
@@ -4571,10 +4666,10 @@ game (
 )
 
 game (
-	name "Treasure Island ~ Duck Shoot (Europe)"
-	description "Treasure Island ~ Duck Shoot (Europe)"
+	name "Treasure Island (Europe)"
+	description "Treasure Island (Europe)"
 	region "Europe"
-	rom ( name "Treasure Island ~ Duck Shoot (Europe).a26" size 4096 crc 907F1D90 md5 1BB91BAE919DDBD655FA25C54EA6F532 sha1 D1437E291FBC1927FCCE14ABC21A58A423E15368 )
+	rom ( name "Treasure Island (Europe).a26" size 4096 crc 907F1D90 md5 1BB91BAE919DDBD655FA25C54EA6F532 sha1 D1437E291FBC1927FCCE14ABC21A58A423E15368 )
 )
 
 game (
@@ -4725,10 +4820,10 @@ game (
 )
 
 game (
-	name "Walker ~ Schussel Der Polizistenschreck (Europe)"
-	description "Walker ~ Schussel Der Polizistenschreck (Europe)"
+	name "Walker ~ Schussel, der Polizistenschreck (Europe)"
+	description "Walker ~ Schussel, der Polizistenschreck (Europe)"
 	region "Europe"
-	rom ( name "Walker ~ Schussel Der Polizistenschreck (Europe).a26" size 4096 crc DA8E49FB md5 7FF53F6922708119E7BF478D7D618C86 sha1 25E2043775A08762E3FC98ECB96FBF46B20E860E )
+	rom ( name "Walker ~ Schussel, der Polizistenschreck (Europe).a26" size 4096 crc DA8E49FB md5 7FF53F6922708119E7BF478D7D618C86 sha1 25E2043775A08762E3FC98ECB96FBF46B20E860E )
 )
 
 game (
@@ -4851,18 +4946,18 @@ game (
 )
 
 game (
-	name "Xevious (USA) (01-18-1984) (Proto)"
-	description "Xevious (USA) (01-18-1984) (Proto)"
-	region "USA"
-	serial "CX2695"
-	rom ( name "Xevious (USA) (01-18-1984) (Proto).a26" size 8192 crc F5802A6C md5 AF6F3E9718BCCFCD8AFB421F96561A34 sha1 53F941CABF661A9CE763142B070571F6FD4C8820 serial "CX2695" )
-)
-
-game (
 	name "Xevious (USA) (08-02-1983) (Proto)"
 	description "Xevious (USA) (08-02-1983) (Proto)"
 	region "USA"
 	rom ( name "Xevious (USA) (08-02-1983) (Proto).a26" size 8192 crc 2EF09F4A md5 C6688781F4AB844852F4E3352772289B sha1 73133B81196E5CBC1CEC99EEFC1223DDB8F4CA83 )
+)
+
+game (
+	name "Xevious (USA) (1984-01-18) (Proto)"
+	description "Xevious (USA) (1984-01-18) (Proto)"
+	region "USA"
+	serial "CX2695"
+	rom ( name "Xevious (USA) (1984-01-18) (Proto).a26" size 8192 crc F5802A6C md5 AF6F3E9718BCCFCD8AFB421F96561A34 sha1 53F941CABF661A9CE763142B070571F6FD4C8820 serial "CX2695" )
 )
 
 game (

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Coleco - ColecoVision"
 	description "Coleco - ColecoVision"
-	version "2019.8.31"
+	version "2021.10.24"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -314,6 +314,13 @@ game (
 )
 
 game (
+	name "Defender (USA) (BUG Fixed)"
+	description "Defender (USA) (BUG Fixed)"
+	region "USA"
+	rom ( name "Defender (USA) (BUG Fixed).col" size 24576 crc 46A909CC md5 AD5000952034853819769CE22B9CF788 sha1 6A640C652378950F4F0B95E38CB1E4BA003E3F3A )
+)
+
+game (
 	name "Destructor (USA, Europe)"
 	description "Destructor (USA, Europe)"
 	rom ( name "Destructor (USA, Europe).col" size 32768 crc 56C358A6 md5 EC72A0E3BEBE07BA631A8DCB750C1591 sha1 35283C51F448D877625049266C0C4687BF57AB42 )
@@ -402,10 +409,10 @@ game (
 )
 
 game (
-	name "Fall Guy (Europe) (Proto)"
-	description "Fall Guy (Europe) (Proto)"
-	region "Europe"
-	rom ( name "Fall Guy (Europe) (Proto).col" size 16384 crc 8A731B38 md5 BD905555983C05456AB81EA154A570B1 sha1 0E5C84D8FB8A9428AED399F4A9F9309B26BCE990 )
+	name "Fall Guy (USA) (Proto)"
+	description "Fall Guy (USA) (Proto)"
+	region "USA"
+	rom ( name "Fall Guy (USA) (Proto).col" size 16384 crc 8A731B38 md5 BD905555983C05456AB81EA154A570B1 sha1 0E5C84D8FB8A9428AED399F4A9F9309B26BCE990 )
 )
 
 game (
@@ -416,17 +423,10 @@ game (
 )
 
 game (
-	name "Final Test Cartridge (USA)"
-	description "Final Test Cartridge (USA)"
+	name "Fireman (USA) (Proto)"
+	description "Fireman (USA) (Proto)"
 	region "USA"
-	rom ( name "Final Test Cartridge (USA).col" size 8192 crc 3AE4B58C md5 34EFC675F8EEF63F9AB5F0F7F7A37EC1 sha1 CEF53B9EAE8DFBD877E18277980975F862F95F9D )
-)
-
-game (
-	name "Fireman (Europe) (Proto)"
-	description "Fireman (Europe) (Proto)"
-	region "Europe"
-	rom ( name "Fireman (Europe) (Proto).col" size 32768 crc 64EC761E md5 B8E8E3700D9A67192451C89452C8BC73 sha1 077182C21B67182B334D4A6B69AAB44EB3EECDA9 )
+	rom ( name "Fireman (USA) (Proto).col" size 32768 crc 64EC761E md5 B8E8E3700D9A67192451C89452C8BC73 sha1 077182C21B67182B334D4A6B69AAB44EB3EECDA9 )
 )
 
 game (
@@ -484,15 +484,15 @@ game (
 )
 
 game (
-	name "Front Line (USA, Europe)"
-	description "Front Line (USA, Europe)"
-	rom ( name "Front Line (USA, Europe).col" size 24576 crc D0110137 md5 4520EE5D8D0FCF151A3332966F7EBDA0 sha1 62CA275776E4184032224E61B6D01D0636D7E846 )
+	name "Front Line (USA, Europe) (Standard Controller)"
+	description "Front Line (USA, Europe) (Standard Controller)"
+	rom ( name "Front Line (USA, Europe) (Standard Controller).col" size 24576 crc D0110137 md5 4520EE5D8D0FCF151A3332966F7EBDA0 sha1 62CA275776E4184032224E61B6D01D0636D7E846 )
 )
 
 game (
-	name "Front Line (USA, Europe) (Green Version)"
-	description "Front Line (USA, Europe) (Green Version)"
-	rom ( name "Front Line (USA, Europe) (Green Version).col" size 24576 crc E16E0917 md5 D145DE191E3F694C7F0920787CCBDA48 sha1 68889D9410BE82CE20F1EEDFB5861DCE4BD270D0 )
+	name "Front Line (USA, Europe) (Super Action Controller)"
+	description "Front Line (USA, Europe) (Super Action Controller)"
+	rom ( name "Front Line (USA, Europe) (Super Action Controller).col" size 24576 crc E16E0917 md5 D145DE191E3F694C7F0920787CCBDA48 sha1 68889D9410BE82CE20F1EEDFB5861DCE4BD270D0 )
 )
 
 game (
@@ -567,7 +567,7 @@ game (
 	name "James Bond 007 (USA)"
 	description "James Bond 007 (USA)"
 	region "USA"
-	rom ( name "James Bond 007 (USA).col" size 16384 crc A3205F21 md5 D6C263A445BBBD87D156AE40FC4B930B sha1 23823B4F564CB916AB411D8822531EB3A1A57346 )
+	rom ( name "James Bond 007 (USA).col" size 12288 crc 561F2530 md5 C7EA91D9AC4D4A104D8E7832F8DB3962 sha1 22EE76C680E94FA016263473D0FFDBED1EA5AB7B )
 )
 
 game (
@@ -1123,13 +1123,6 @@ game (
 )
 
 game (
-	name "Super Sketch - Sketch Master (USA) (Program)"
-	description "Super Sketch - Sketch Master (USA) (Program)"
-	region "USA"
-	rom ( name "Super Sketch - Sketch Master (USA) (Program).col" size 8192 crc 8627300A md5 A46D20D65533ED979933FC1CFE6C0AD7 sha1 3ACBAE2580C38BFEA9CE7EC06274EDD39607016D )
-)
-
-game (
 	name "Sword and the Sorcerer, The (USA) (Demo)"
 	description "Sword and the Sorcerer, The (USA) (Demo)"
 	region "USA"
@@ -1231,17 +1224,17 @@ game (
 )
 
 game (
-	name "Video Hustler (Europe) (Proto 1)"
-	description "Video Hustler (Europe) (Proto 1)"
-	region "Europe"
-	rom ( name "Video Hustler (Europe) (Proto 1).col" size 8192 crc 841D168F md5 95F8000444FD86EF02EE39AE265BDBA0 sha1 5F481FF47762A812C73BB120E60F31EE99FD6B5F )
+	name "Video Hustler (USA) (Proto 1)"
+	description "Video Hustler (USA) (Proto 1)"
+	region "USA"
+	rom ( name "Video Hustler (USA) (Proto 1).col" size 8192 crc 841D168F md5 95F8000444FD86EF02EE39AE265BDBA0 sha1 5F481FF47762A812C73BB120E60F31EE99FD6B5F )
 )
 
 game (
-	name "Video Hustler (Europe) (Proto 2)"
-	description "Video Hustler (Europe) (Proto 2)"
-	region "Europe"
-	rom ( name "Video Hustler (Europe) (Proto 2).col" size 8192 crc A9177B20 md5 7F8BBD4A62AEDAB44E4CC115A6EDC637 sha1 08172D85140C004241AB585FC41CDC7841F8290B )
+	name "Video Hustler (USA) (Proto 2)"
+	description "Video Hustler (USA) (Proto 2)"
+	region "USA"
+	rom ( name "Video Hustler (USA) (Proto 2).col" size 8192 crc A9177B20 md5 7F8BBD4A62AEDAB44E4CC115A6EDC637 sha1 08172D85140C004241AB585FC41CDC7841F8290B )
 )
 
 game (
@@ -1279,10 +1272,10 @@ game (
 )
 
 game (
-	name "Yolk's on You, The (Europe) (Proto)"
-	description "Yolk's on You, The (Europe) (Proto)"
+	name "Yolk's on you, The (Europe) (Proto)"
+	description "Yolk's on you, The (Europe) (Proto)"
 	region "Europe"
-	rom ( name "Yolk's on You, The (Europe) (Proto).col" size 16384 crc 997AD8DE md5 C10AACA46D063771339D3E5A0582BAAD sha1 9B5BFB69D37042D131A5C9576F927E09F44F9666 )
+	rom ( name "Yolk's on you, The (Europe) (Proto).col" size 16384 crc 997AD8DE md5 C10AACA46D063771339D3E5A0582BAAD sha1 9B5BFB69D37042D131A5C9576F927E09F44F9666 )
 )
 
 game (

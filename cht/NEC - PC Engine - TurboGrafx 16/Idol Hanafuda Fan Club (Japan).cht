@@ -1,18 +1,13 @@
-cheat0_address = "18"
-cheat0_address_bit_position = "0"
-cheat0_big_endian = "false"
-cheat0_cheat_type = "1"
-cheat0_code = ""
-cheat0_desc = "Infinite Time - In-Game Turn"
-cheat0_enable = "false"
-cheat0_handler = "1"
-cheat0_memory_search_size = "3"
-cheat0_rumble_port = "0"
-cheat0_rumble_primary_duration = "0"
-cheat0_rumble_primary_strength = "0"
-cheat0_rumble_secondary_duration = "0"
-cheat0_rumble_secondary_strength = "0"
-cheat0_rumble_type = "0"
-cheat0_rumble_value = "0"
-cheat0_value = "5"
-cheats = "1"
+cheats = 3
+
+cheat0_desc = "Infinite Time (Menu)"
+cheat0_code = "1f1236:0f"
+cheat0_enable = false
+
+cheat1_desc = "Infinite Time (In-Game Turn)"
+cheat1_code = "1f0012:05"
+cheat1_enable = false
+
+cheat2_desc = "Infinite Magic Power"
+cheat2_code = "1f1239:09+1f123a:09+1f123b:09"
+cheat2_enable = false
