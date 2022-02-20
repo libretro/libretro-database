@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Game Gear"
 	description "Sega - Game Gear"
-	version "2021.10.24"
+	version "2022.2.20"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -58,9 +58,9 @@ game (
 	rom ( name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06).gg" size 524282 crc 50C2F1AD md5 A8021DBDC5EA3F78A2DE605B818731F7 sha1 8CEBB48B14C4C1EE4D168F764B074A87CC4E5324 )
 )
 game (
-	name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt 1)"
-	description "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt 1)"
-	rom ( name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt 1).gg" size 524282 crc C403264A md5 53FA0E407603598C57E7739240C33BB6 sha1 0AFD0624BD054430B7894C24E2FB186D5F44AF99 )
+	name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt)"
+	description "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt)"
+	rom ( name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-06) (Alt).gg" size 524282 crc C403264A md5 53FA0E407603598C57E7739240C33BB6 sha1 0AFD0624BD054430B7894C24E2FB186D5F44AF99 )
 )
 game (
 	name "Adventures of Batman & Robin, The (USA, Europe) (Beta) (1995-05-07)"
@@ -151,14 +151,20 @@ game (
 	rom ( name "Arch Rivals - The Arcade Game (USA).gg" size 262144 crc F0204191 md5 6AE0A492CC0427D4097A7B4336CAEDD2 sha1 9A2260A9CB9564A18F50EDC8149A9E1E517BF649 )
 )
 game (
-	name "Arena - Maze of Death ~ Arena (USA, Europe)"
-	description "Arena - Maze of Death ~ Arena (USA, Europe)"
-	rom ( name "Arena - Maze of Death ~ Arena (USA, Europe).gg" size 524288 crc 7CB3FACF md5 CE3E5094025B10C3885FF1DA53A46D2F sha1 91E411D979789F2E31DCFE94FB7F757815F60680 )
+	name "Archer Maclean's Dropzone (Europe)"
+	description "Archer Maclean's Dropzone (Europe)"
+	region "Europe"
+	rom ( name "Archer Maclean's Dropzone (Europe).gg" size 131072 crc 152F0DCC md5 65DF09530F9C8F02AB11982228D7D18E sha1 B78BC3FE6BFBC7D6F5E85D59D79BE19BF7372BCC )
 )
 game (
-	name "Ariel the Little Mermaid (USA, Europe, Brazil)"
-	description "Ariel the Little Mermaid (USA, Europe, Brazil)"
-	rom ( name "Ariel the Little Mermaid (USA, Europe, Brazil).gg" size 262144 crc 97E3A18C md5 E786FB76FB3808A7B4906AA3BA9FF1A7 sha1 D2F1B95A6D0A2CACD93ED307A5A6576F954A7D56 )
+	name "Arena (USA, Europe)"
+	description "Arena (USA, Europe)"
+	rom ( name "Arena (USA, Europe).gg" size 524288 crc 7CB3FACF md5 CE3E5094025B10C3885FF1DA53A46D2F sha1 91E411D979789F2E31DCFE94FB7F757815F60680 )
+)
+game (
+	name "Ariel - The Little Mermaid (USA, Europe, Brazil)"
+	description "Ariel - The Little Mermaid (USA, Europe, Brazil)"
+	rom ( name "Ariel - The Little Mermaid (USA, Europe, Brazil).gg" size 262144 crc 97E3A18C md5 E786FB76FB3808A7B4906AA3BA9FF1A7 sha1 D2F1B95A6D0A2CACD93ED307A5A6576F954A7D56 )
 )
 game (
 	name "Arliel - Crystal Densetsu (Japan)"
@@ -214,14 +220,14 @@ game (
 	rom ( name "Asterix and the Secret Mission (Europe) (En,Fr,De).gg" size 524288 crc C01A8051 md5 2FD39F40BB06026F414E0CC9FF549ACA sha1 8AB4EA406A0503B09C1BD89E3217C5735B36EBED )
 )
 game (
+	name "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil)"
+	description "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil)"
+	rom ( name "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil).gg" size 262144 crc 663BCF8A md5 71E87C98E849C71DFD9A21A4A9FF56B4 sha1 9F5BF2973225B8EE337FCEC460829724A0C63D9E )
+)
+game (
 	name "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (Beta) (1991-08-10)"
 	description "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (Beta) (1991-08-10)"
 	rom ( name "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (Beta) (1991-08-10).gg" size 262144 crc 3435AB54 md5 1D8CC7E9A742312294FC1DACE252907F sha1 FE0F433AEBD6E3C4B61E4E155323FE6932369459 )
-)
-game (
-	name "Ax Battler - A Legend of Golden Axe ~ Golden Axe (USA, Europe, Brazil)"
-	description "Ax Battler - A Legend of Golden Axe ~ Golden Axe (USA, Europe, Brazil)"
-	rom ( name "Ax Battler - A Legend of Golden Axe ~ Golden Axe (USA, Europe, Brazil).gg" size 262144 crc 663BCF8A md5 71E87C98E849C71DFD9A21A4A9FF56B4 sha1 9F5BF2973225B8EE337FCEC460829724A0C63D9E )
 )
 game (
 	name "Ax Battler - Golden Axe Densetsu (Japan)"
@@ -264,20 +270,10 @@ game (
 	rom ( name "Baku Baku Animal - Sekai Shiikugakari Senshu-ken (Japan).gg" size 262144 crc 7174B802 md5 55B9B96F12E1786DC293A1C45768F013 sha1 270E071342ADB41406568E171DF4959656ED02BF )
 )
 game (
-	name "Barbie Super Model (USA) (Proto)"
-	description "Barbie Super Model (USA) (Proto)"
+	name "Barbie Super Model (USA) (Proto) (1994-08-25)"
+	description "Barbie Super Model (USA) (Proto) (1994-08-25)"
 	region "USA"
-	rom ( name "Barbie Super Model (USA) (Proto).gg" size 262144 crc 03A0CE9E md5 68CE612E422707B6C0DE7508F3D0C8BE sha1 4FABAF794081074AC1A76EB0EFC4262EFB627610 )
-)
-game (
-	name "Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World)"
-	description "Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World)"
-	rom ( name "Bare Knuckle II ~ Streets of Rage 2 ~ Streets of Rage II (World).gg" size 524288 crc 0B618409 md5 5566E332F860DC0F9DA1507FD7FEB1CD sha1 2804B355347BDA6E2903078BA30ED6B3A289EBBA )
-)
-game (
-	name "Bare Knuckle ~ Streets of Rage (World)"
-	description "Bare Knuckle ~ Streets of Rage (World)"
-	rom ( name "Bare Knuckle ~ Streets of Rage (World).gg" size 262144 crc 3D8BCF1D md5 1ECE7480D21FB862A65233BA126282D3 sha1 CA8C8A00EE838E994B2FA17E595DDD40D898CF42 )
+	rom ( name "Barbie Super Model (USA) (Proto) (1994-08-25).gg" size 262144 crc 03A0CE9E md5 68CE612E422707B6C0DE7508F3D0C8BE sha1 4FABAF794081074AC1A76EB0EFC4262EFB627610 )
 )
 game (
 	name "Batman Forever (World)"
@@ -371,10 +367,10 @@ game (
 	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11).gg" size 262144 crc 81A5E68F md5 569522844EC3899986924F3189641DEC sha1 AF14FCB9329C0DED9775473EF78E241FB6B2D365 )
 )
 game (
-	name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt 1)"
-	description "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt 1)"
+	name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt)"
+	description "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt)"
 	region "USA"
-	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt 1).gg" size 262144 crc 50D400B8 md5 B7C215603299CECEF14FF56E610CE008 sha1 2D6ECB588299BBE9CB0EB54954663043355D759E )
+	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-11) (Alt).gg" size 262144 crc 50D400B8 md5 B7C215603299CECEF14FF56E610CE008 sha1 2D6ECB588299BBE9CB0EB54954663043355D759E )
 )
 game (
 	name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-12)"
@@ -425,10 +421,10 @@ game (
 	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26).gg" size 262144 crc 217B1EF0 md5 E625E9882D82E41582195B3C00CD959E sha1 BD1FF3C4669379B2A02BD8E1D76B9C02FEFC783E )
 )
 game (
-	name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt 1)"
-	description "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt 1)"
+	name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt)"
+	description "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt)"
 	region "USA"
-	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt 1).gg" size 262144 crc 167A4AF6 md5 9D5AACD4432A16AABF05E9497C5DE343 sha1 09BB4A3E936DCCE34B46090F5F2F1353DEE1D6F6 )
+	rom ( name "Berenstain Bears' Camping Adventure, The (USA) (Beta) (1994-08-26) (Alt).gg" size 262144 crc 167A4AF6 md5 9D5AACD4432A16AABF05E9497C5DE343 sha1 09BB4A3E936DCCE34B46090F5F2F1353DEE1D6F6 )
 )
 game (
 	name "Berlin no Kabe (Japan)"
@@ -498,9 +494,9 @@ game (
 	rom ( name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08).gg" size 524288 crc 91258ADC md5 EEB18688A3CDA16294B857B7C2D27FED sha1 50897D1CBDA11E7B20678924D7461F8ACD6F0686 )
 )
 game (
-	name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt 1)"
-	description "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt 1)"
-	rom ( name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt 1).gg" size 524288 crc 9907A738 md5 BC9C506ABD42D4D6BDD17DB719B175BF sha1 C8844BFDA83A94CE648588EF945A0D76503B84CE )
+	name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt)"
+	description "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt)"
+	rom ( name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-08) (Alt).gg" size 524288 crc 9907A738 md5 BC9C506ABD42D4D6BDD17DB719B175BF sha1 C8844BFDA83A94CE648588EF945A0D76503B84CE )
 )
 game (
 	name "Bonkers Wax Up! (USA, Europe) (Beta) (1994-12-11)"
@@ -708,9 +704,9 @@ game (
 	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29).gg" size 524288 crc D3614E4E md5 1CACA1B696BFD7EF568AA4045D2A0D5F sha1 6FD25C55C8CC6B10F928AF6D5DE83D61685DF940 )
 )
 game (
-	name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt 1)"
-	description "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt 1)"
-	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt 1).gg" size 524288 crc E1112763 md5 229BB462E39C5818AB955E0CE2C4396C sha1 F72C381FABEF9286DA6A7EDE230156277364C5D1 )
+	name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt)"
+	description "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt)"
+	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-29) (Alt).gg" size 524288 crc E1112763 md5 229BB462E39C5818AB955E0CE2C4396C sha1 F72C381FABEF9286DA6A7EDE230156277364C5D1 )
 )
 game (
 	name "Chicago Syndicate (USA, Brazil) (Beta) (1995-06-30)"
@@ -758,9 +754,9 @@ game (
 	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21).gg" size 524288 crc 26CED733 md5 60C9D77D377D23A287EE2FAEBB4E686F sha1 5C6DB9314CBC4C7933DACC076E59948147AD79AE )
 )
 game (
-	name "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt 1)"
-	description "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt 1)"
-	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt 1).gg" size 524288 crc 8E149BB8 md5 426BF54F5D71DD06352DE572CC587D98 sha1 17887BE88692097ACC74488B16A255B7B6B95AEE )
+	name "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt)"
+	description "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt)"
+	rom ( name "Chicago Syndicate (USA, Brazil) (Beta) (1995-07-21) (Alt).gg" size 524288 crc 8E149BB8 md5 426BF54F5D71DD06352DE572CC587D98 sha1 17887BE88692097ACC74488B16A255B7B6B95AEE )
 )
 game (
 	name "Choplifter III (USA)"
@@ -988,10 +984,10 @@ game (
 	rom ( name "Double Dragon (USA, Europe) (Beta).gg" size 262144 crc 331904C0 md5 662D42206945815AE7ACF13E406EFD9B sha1 B24AA3E31EFBF09E8D0D9AE9D07B4D219B648F96 )
 )
 game (
-	name "Dr. Franken (Europe) (Proto)"
-	description "Dr. Franken (Europe) (Proto)"
+	name "Dr. Franken (Europe) (Demo)"
+	description "Dr. Franken (Europe) (Demo)"
 	region "Europe"
-	rom ( name "Dr. Franken (Europe) (Proto).gg" size 131072 crc C9907DCE md5 8FDBA752802F09CFA1583BF0192E3554 sha1 E64E08DB40C9E2358535B143CF7A18BC7C315846 )
+	rom ( name "Dr. Franken (Europe) (Demo).gg" size 131072 crc C9907DCE md5 8FDBA752802F09CFA1583BF0192E3554 sha1 E64E08DB40C9E2358535B143CF7A18BC7C315846 )
 )
 game (
 	name "Dr. Robotnik's Mean Bean Machine (USA, Europe)"
@@ -1039,12 +1035,6 @@ game (
 	rom ( name "Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console).gg" size 131072 crc 9C8534EC md5 E6D6FDB864D7878B7B444C7200B84B7C sha1 DF135DD54638E2CE1F18D670C98B0313484D70BC )
 )
 game (
-	name "Dropzone (Europe)"
-	description "Dropzone (Europe)"
-	region "Europe"
-	rom ( name "Dropzone (Europe).gg" size 131072 crc 152F0DCC md5 65DF09530F9C8F02AB11982228D7D18E sha1 B78BC3FE6BFBC7D6F5E85D59D79BE19BF7372BCC )
-)
-game (
 	name "Dunk Kids (Japan)"
 	description "Dunk Kids (Japan)"
 	region "Japan"
@@ -1055,6 +1045,12 @@ game (
 	description "Dynamite Headdy (Japan)"
 	region "Japan"
 	rom ( name "Dynamite Headdy (Japan).gg" size 524288 crc F6AF4B6B md5 79A0D819E9CDDEBCB80E28A174FF2005 sha1 A8E3F447089537B52E40958C07610BFEAD82442D )
+)
+game (
+	name "Dynamite Headdy (Japan) (Beta)"
+	description "Dynamite Headdy (Japan) (Beta)"
+	region "Japan"
+	rom ( name "Dynamite Headdy (Japan) (Beta).gg" size 524288 crc 843556B1 md5 1B5883C2B693C60177724C0CCCA60866 sha1 1F5628E2AA21A3EDE186297062CAAA400DEC2EA2 )
 )
 game (
 	name "Dynamite Headdy (USA, Europe)"
@@ -1077,11 +1073,6 @@ game (
 	rom ( name "Dynamite Headdy (USA, Europe) (Beta) (1994-07-05).gg" size 524288 crc C7BEA89A md5 2264B89876A197C63B3936CADEF13FF6 sha1 59807E03D32837DB34E2912D0E85DB812EDF823C )
 )
 game (
-	name "Dynamite Headdy (USA, Europe) (Beta) (Earlier)"
-	description "Dynamite Headdy (USA, Europe) (Beta) (Earlier)"
-	rom ( name "Dynamite Headdy (USA, Europe) (Beta) (Earlier).gg" size 524288 crc 843556B1 md5 1B5883C2B693C60177724C0CCCA60866 sha1 1F5628E2AA21A3EDE186297062CAAA400DEC2EA2 )
-)
-game (
 	name "Earthworm Jim (Europe)"
 	description "Earthworm Jim (Europe)"
 	region "Europe"
@@ -1099,36 +1090,36 @@ game (
 	rom ( name "Ecco - The Tides of Time (USA, Europe, Brazil).gg" size 524288 crc E2F3B203 md5 8F8CBAEF1A8E1BECFCC7F07B134A3D83 sha1 61913F6803977BB54FDA7C3D969DC2C0F7C6DA62 )
 )
 game (
-	name "Ecco the Dolphin (Japan)"
-	description "Ecco the Dolphin (Japan)"
+	name "Ecco The Dolphin (Japan)"
+	description "Ecco The Dolphin (Japan)"
 	region "Japan"
-	rom ( name "Ecco the Dolphin (Japan).gg" size 524288 crc A32EB9D5 md5 A506FC04C7A0DFAF37423FF0A38AEB2E sha1 5F0DE698E8E0D4323B36BD78E2BD1AF1C3370F3E )
+	rom ( name "Ecco The Dolphin (Japan).gg" size 524288 crc A32EB9D5 md5 A506FC04C7A0DFAF37423FF0A38AEB2E sha1 5F0DE698E8E0D4323B36BD78E2BD1AF1C3370F3E )
 )
 game (
-	name "Ecco the Dolphin (USA, Europe, Brazil)"
-	description "Ecco the Dolphin (USA, Europe, Brazil)"
-	rom ( name "Ecco the Dolphin (USA, Europe, Brazil).gg" size 524288 crc 866C7113 md5 CCD970B22303887734FAFB8E45B1E43F sha1 7C6C8F44D5AA799726ADC3A9E21C9F35CACEA87F )
+	name "Ecco The Dolphin (USA, Europe, Brazil)"
+	description "Ecco The Dolphin (USA, Europe, Brazil)"
+	rom ( name "Ecco The Dolphin (USA, Europe, Brazil).gg" size 524288 crc 866C7113 md5 CCD970B22303887734FAFB8E45B1E43F sha1 7C6C8F44D5AA799726ADC3A9E21C9F35CACEA87F )
 )
 game (
-	name "Ecco the Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14)"
-	description "Ecco the Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14)"
-	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
+	name "Ecco The Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14)"
+	description "Ecco The Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14)"
+	rom ( name "Ecco The Dolphin (USA, Europe, Brazil) (Beta 1) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
 )
 game (
-	name "Ecco the Dolphin (USA, Europe, Brazil) (Beta 2)"
-	description "Ecco the Dolphin (USA, Europe, Brazil) (Beta 2)"
-	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (Beta 2).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
+	name "Ecco The Dolphin (USA, Europe, Brazil) (Beta 2) (July, 1993)"
+	description "Ecco The Dolphin (USA, Europe, Brazil) (Beta 2) (July, 1993)"
+	rom ( name "Ecco The Dolphin (USA, Europe, Brazil) (Beta 2) (July, 1993).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
 )
 game (
-	name "Ecco the Dolphin II (Japan)"
-	description "Ecco the Dolphin II (Japan)"
+	name "Ecco The Dolphin II (Japan)"
+	description "Ecco The Dolphin II (Japan)"
 	region "Japan"
-	rom ( name "Ecco the Dolphin II (Japan).gg" size 524288 crc BA9CEF4F md5 E4E654AA1730565220120844DAD6B444 sha1 36095F4C92F6F66ED6BC20D9B96227D6FB0DAE5B )
+	rom ( name "Ecco The Dolphin II (Japan).gg" size 524288 crc BA9CEF4F md5 E4E654AA1730565220120844DAD6B444 sha1 36095F4C92F6F66ED6BC20D9B96227D6FB0DAE5B )
 )
 game (
 	name "Empire Syndicate (Unknown) (Beta)"
 	description "Empire Syndicate (Unknown) (Beta)"
-	rom ( name "Empire Syndicate (Unknown) (Beta).gg" size 524288 crc 635BC4F5 md5 9C63D29C6DF6D6678ED500AEDE3FD1E0 sha1 0F4F83552680129D242A5F7646CF6739D3ECB70A )
+	rom ( name "Empire Syndicate (Unknown) (Beta).gg" size 524288 crc 64F17CAC md5 788AA0241B03B64CC885A20E49151DAF sha1 475D071662A326E931ACA78ABBD9C7E27D6595C0 )
 )
 game (
 	name "Ernie Els Golf (Europe) (En,Fr,De,Es,It)"
@@ -1159,15 +1150,15 @@ game (
 	rom ( name "F-15 Strike Eagle (USA, Europe).gg" size 262144 crc 8BDB0806 md5 69CC38014650BDD0AF0A2B7D7E9C46EC sha1 4BFDAFA848223598CA16699AD44FE4A19A1C2BA2 )
 )
 game (
+	name "F1 (USA, Europe)"
+	description "F1 (USA, Europe)"
+	rom ( name "F1 (USA, Europe).gg" size 262144 crc D0A93E00 md5 93B3E1B682474FFD9985C0A5688D45BF sha1 B5A1985D671E8B9E0EED7922E6DB695011071E99 )
+)
+game (
 	name "F1 - World Championship Edition (Europe)"
 	description "F1 - World Championship Edition (Europe)"
 	region "Europe"
 	rom ( name "F1 - World Championship Edition (Europe).gg" size 262144 crc 107092D0 md5 309ABE6822C52DF971856912C77A57CC sha1 A42A647923A5AF940EF63AB27D3100C3DA53E30B )
-)
-game (
-	name "F1~ Formula One (USA, Europe)"
-	description "F1~ Formula One (USA, Europe)"
-	rom ( name "F1~ Formula One (USA, Europe).gg" size 262144 crc D0A93E00 md5 93B3E1B682474FFD9985C0A5688D45BF sha1 B5A1985D671E8B9E0EED7922E6DB695011071E99 )
 )
 game (
 	name "FIFA International Soccer (Japan)"
@@ -1202,14 +1193,14 @@ game (
 	rom ( name "Fantastic Dizzy (USA, Europe) (En,Fr,De,Es,It).sms" size 262144 crc C888222B md5 66A8E3133A047FA7D44968EFD3C30720 sha1 B6A13D51C72B576738F0D7E8E328DB2FFEB0B38C )
 )
 game (
+	name "Fantasy Zone (Japan, Europe)"
+	description "Fantasy Zone (Japan, Europe)"
+	rom ( name "Fantasy Zone (Japan, Europe).gg" size 131072 crc D69097E8 md5 4C6C42493B5AF22540E6C2014D2C367A sha1 5951D500D6F53B0537F045ADB85D94068A838F32 )
+)
+game (
 	name "Fantasy Zone (USA, Brazil)"
 	description "Fantasy Zone (USA, Brazil)"
 	rom ( name "Fantasy Zone (USA, Brazil).gg" size 131072 crc FAD007DF md5 9C314C791AD0A98CDA6BD7D39C0A2774 sha1 57563B00EEFFE678B2EEBEAFA790015F3C164262 )
-)
-game (
-	name "Fantasy Zone Gear ~ Fantasy Zone (Japan, Europe)"
-	description "Fantasy Zone Gear ~ Fantasy Zone (Japan, Europe)"
-	rom ( name "Fantasy Zone Gear ~ Fantasy Zone (Japan, Europe).gg" size 131072 crc D69097E8 md5 4C6C42493B5AF22540E6C2014D2C367A sha1 5951D500D6F53B0537F045ADB85D94068A838F32 )
 )
 game (
 	name "Fatal Fury Special (Europe)"
@@ -1255,9 +1246,7 @@ game (
 game (
 	name "Frogger (USA) (Proto)"
 	description "Frogger (USA) (Proto)"
-	genre "Action"
-	franchise "Frogger"
-	developer "Sega"
+	region "USA"
 	rom ( name "Frogger (USA) (Proto).gg" size 131072 crc 02BBF994 md5 0D78EA34987AE32F1CE844A3F647189F sha1 B917AC6FBD3E5D18C07246F1309D81943EE1DD47 )
 )
 game (
@@ -1284,11 +1273,6 @@ game (
 	rom ( name "G-LOC - Air Battle (USA, Europe, Brazil).gg" size 131072 crc 18DE59ED md5 EC61986C03B1BB9C1862BDDD6432BF26 sha1 407DA6E4D0916D3F54AD1BA8D45FACE04DAD5657 )
 )
 game (
-	name "G-Sonic ~ Sonic Blast (World)"
-	description "G-Sonic ~ Sonic Blast (World)"
-	rom ( name "G-Sonic ~ Sonic Blast (World).gg" size 1048576 crc 031B9DA9 md5 56E1561D981A9A7C240CDD8D5580CCF0 sha1 11241BE4082F6F9D057488AE75CCDD482F623F8C )
-)
-game (
 	name "GG Aleste (Japan) (En)"
 	description "GG Aleste (Japan) (En)"
 	region "Japan"
@@ -1313,11 +1297,6 @@ game (
 	rom ( name "GG Aleste II (Japan) (En) (Aleste Collection).gg" size 262144 crc 13596065 md5 3632BFBA5A1455F55879E54974A8012D sha1 8E563C259280274B932A5969D4C188AFEC1A9D3B )
 )
 game (
-	name "GG Aleste II ~ Power Strike II (Japan, Europe)"
-	description "GG Aleste II ~ Power Strike II (Japan, Europe)"
-	rom ( name "GG Aleste II ~ Power Strike II (Japan, Europe).gg" size 262144 crc 09DE1528 md5 D5836EC389EC2C81BD54728B96B87152 sha1 E4DB2140761B43426024BD08C4372BB9B8979D3D )
-)
-game (
 	name "GG Portrait - Pai Chen (Japan)"
 	description "GG Portrait - Pai Chen (Japan)"
 	region "Japan"
@@ -1330,25 +1309,10 @@ game (
 	rom ( name "GG Portrait - Yuuki Akira (Japan).gg" size 524288 crc 51159F8F md5 82D3C23CF9617174AA47BED8E76438DF sha1 4CBB453663665A06E986A6AB015A041463B48373 )
 )
 game (
-	name "GG Shinobi II, The ~ Shinobi II - The Silent Fury (World)"
-	description "GG Shinobi II, The ~ Shinobi II - The Silent Fury (World)"
-	rom ( name "GG Shinobi II, The ~ Shinobi II - The Silent Fury (World).gg" size 262144 crc 6201C694 md5 48D741774004EAB9C19C1DD43758BF2B sha1 CD57301D16202EA02D9F97BD8B17D71772782C94 )
-)
-game (
 	name "GG Shinobi, The (Japan)"
 	description "GG Shinobi, The (Japan)"
 	region "Japan"
 	rom ( name "GG Shinobi, The (Japan).gg" size 262144 crc 83926BD1 md5 21D2E4E7C508E6ABBB12BB96C7AAC868 sha1 C5E1C2329F94F0804140792A3E3D5BE2AC0D5D0D )
-)
-game (
-	name "GG Shinobi, The ~ Shinobi (World) (Rev 1)"
-	description "GG Shinobi, The ~ Shinobi (World) (Rev 1)"
-	rom ( name "GG Shinobi, The ~ Shinobi (World) (Rev 1).gg" size 262144 crc 30F1C984 md5 8FA7438DEC1403F2E9D7B1CA60B29F1A sha1 2E7303F82D885CB84FA557E211954808C8EBE779 )
-)
-game (
-	name "GG Shinobi, The ~ Shinobi (World) (Rev 1) (Virtual Console)"
-	description "GG Shinobi, The ~ Shinobi (World) (Rev 1) (Virtual Console)"
-	rom ( name "GG Shinobi, The ~ Shinobi (World) (Rev 1) (Virtual Console).gg" size 262144 crc B62D934A md5 A0C373A38EC4271AC42EC99AFA2A6BE3 sha1 9AD7313DA97EF00463800199AB9E4E6F39FBCB0D )
 )
 game (
 	name "GP Rider (Japan)"
@@ -1536,9 +1500,9 @@ game (
 	rom ( name "In the Wake of Vampire (Japan) (En) (Virtual Console).gg" size 262144 crc 036E03F8 md5 3DCB0E5020D6D9D650A7196FDFE8C5AC sha1 2EE1AAC941829AE172C4913383D14FAA8ACD09D5 )
 )
 game (
-	name "Incredible Crash Dummies, The ~ Crash Dummy - Slick Bouya no Daichousen (World)"
-	description "Incredible Crash Dummies, The ~ Crash Dummy - Slick Bouya no Daichousen (World)"
-	rom ( name "Incredible Crash Dummies, The ~ Crash Dummy - Slick Bouya no Daichousen (World).gg" size 262144 crc 087FC247 md5 4D7FAFE13D1AA4C9EA893BD4EC2F8332 sha1 6858554FC26F2382A262736854496E11F0925D40 )
+	name "Incredible Crash Dummies, The (World)"
+	description "Incredible Crash Dummies, The (World)"
+	rom ( name "Incredible Crash Dummies, The (World).gg" size 262144 crc 087FC247 md5 4D7FAFE13D1AA4C9EA893BD4EC2F8332 sha1 6858554FC26F2382A262736854496E11F0925D40 )
 )
 game (
 	name "Incredible Hulk, The (USA, Europe)"
@@ -1598,10 +1562,10 @@ game (
 	rom ( name "James Pond II - Codename RoboCod (USA).gg" size 524288 crc 9FB5C155 md5 13F37A4434AEF5140752F1717A1CC936 sha1 6C4A9C1613BC436033B54914ACAF951C62593972 )
 )
 game (
-	name "Jang Pung II (Korea) (Unl)"
-	description "Jang Pung II (Korea) (Unl)"
+	name "Jang Pung II (Korea) (En) (Unl)"
+	description "Jang Pung II (Korea) (En) (Unl)"
 	region "Korea"
-	rom ( name "Jang Pung II (Korea) (Unl).sms" size 262144 crc 76C5BDFB md5 9B95B6E6609DAA8EA413F223F426C8FF sha1 2B3BB8FD76FE706D7E564B372D2D71DFCE53CB1B )
+	rom ( name "Jang Pung II (Korea) (En) (Unl).sms" size 262144 crc 76C5BDFB md5 9B95B6E6609DAA8EA413F223F426C8FF sha1 2B3BB8FD76FE706D7E564B372D2D71DFCE53CB1B )
 )
 game (
 	name "Jeopardy! (USA)"
@@ -1616,10 +1580,9 @@ game (
 	rom ( name "Jeopardy! - Sports Edition (USA).gg" size 262144 crc 2DD850B7 md5 5D1351B4F7579D36A1250F5B5F5A507F sha1 55CB5CB3C37E8403EBF4A47560F0ECE416323C56 )
 )
 game (
-	name "Joe Montana Football (Japan)"
-	description "Joe Montana Football (Japan)"
-	region "Japan"
-	rom ( name "Joe Montana Football (Japan).gg" size 262144 crc 4A98678B md5 5227E282029D0E31BB16949B52A041BA sha1 253196B98D83B910C289B0211B6DE025C66C916C )
+	name "Joe Montana Football (Japan, Brazil) (En) (Rev 1)"
+	description "Joe Montana Football (Japan, Brazil) (En) (Rev 1)"
+	rom ( name "Joe Montana Football (Japan, Brazil) (En) (Rev 1).gg" size 262144 crc 4A98678B md5 5227E282029D0E31BB16949B52A041BA sha1 253196B98D83B910C289B0211B6DE025C66C916C )
 )
 game (
 	name "Joe Montana Football (USA, Europe)"
@@ -1768,9 +1731,9 @@ game (
 	rom ( name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30).gg" size 524288 crc A0565A5C md5 A1262BE4B5F8BCFCB8DE33D9CB364328 sha1 14F266482BFD25238C6E44087C26ACA329D4FA64 )
 )
 game (
-	name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt 1)"
-	description "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt 1)"
-	rom ( name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt 1).gg" size 524288 crc 63020617 md5 30356BDDE5B7A4F171096BD522D90657 sha1 94EC7C72E2FB6E4BD51EF55EAC9646FB2FA8D791 )
+	name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt)"
+	description "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt)"
+	rom ( name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-09-30) (Alt).gg" size 524288 crc 63020617 md5 30356BDDE5B7A4F171096BD522D90657 sha1 94EC7C72E2FB6E4BD51EF55EAC9646FB2FA8D791 )
 )
 game (
 	name "Legend of Illusion Starring Mickey Mouse (USA, Europe) (Beta) (1994-10-11)"
@@ -1798,10 +1761,10 @@ game (
 	rom ( name "Lemmings (World) (Beta).gg" size 262144 crc 51548F61 md5 E49134DDD959298BE16A6A702EB4A7A0 sha1 31B9926EFFF652151C8390529FC2C8A211AAFB0B )
 )
 game (
-	name "Lemmings 2 - The Tribes (Europe) (Proto)"
-	description "Lemmings 2 - The Tribes (Europe) (Proto)"
+	name "Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)"
+	description "Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04)"
 	region "Europe"
-	rom ( name "Lemmings 2 - The Tribes (Europe) (Proto).gg" size 524288 crc FBC807E1 md5 BC7ABC4F5C8A35A383EED5A4A94DE10B sha1 AD0CE8FC8CE9E5EF9B68B76FB7F3ECED4245D5C4 )
+	rom ( name "Lemmings 2 - The Tribes (Europe) (Proto) (1995-09-04).gg" size 524288 crc FBC807E1 md5 BC7ABC4F5C8A35A383EED5A4A94DE10B sha1 AD0CE8FC8CE9E5EF9B68B76FB7F3ECED4245D5C4 )
 )
 game (
 	name "Lion King, The (Europe)"
@@ -1864,10 +1827,10 @@ game (
 	rom ( name "Lion King, The (USA) (Beta) (1994-08-17).gg" size 514618 crc B65030D0 md5 0095169D594D5AF219A85810575792F0 sha1 D3D44F8CBE32970F2E138C183078B8190808E625 )
 )
 game (
-	name "Lion King, The (USA) (Beta) (1994-08-17) (Alt 1)"
-	description "Lion King, The (USA) (Beta) (1994-08-17) (Alt 1)"
+	name "Lion King, The (USA) (Beta) (1994-08-17) (Alt)"
+	description "Lion King, The (USA) (Beta) (1994-08-17) (Alt)"
 	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-17) (Alt 1).gg" size 514538 crc 4214C474 md5 A2C2ADC670CC61CF52918A0C65F372A5 sha1 6301D8EDE680007E645C84D24064DF5E76EA996B )
+	rom ( name "Lion King, The (USA) (Beta) (1994-08-17) (Alt).gg" size 514538 crc 4214C474 md5 A2C2ADC670CC61CF52918A0C65F372A5 sha1 6301D8EDE680007E645C84D24064DF5E76EA996B )
 )
 game (
 	name "Lion King, The (USA) (Beta) (1994-08-20)"
@@ -1934,10 +1897,10 @@ game (
 	rom ( name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan).gg" size 524288 crc 0A634D79 md5 B8B5305EC2F68D7BB3C9F622A13EBA7C sha1 DD590C9086161B1F97573C48720C32CC5506DABC )
 )
 game (
-	name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev 1)"
-	description "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev 1)"
+	name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)"
+	description "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)"
 	region "Japan"
-	rom ( name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev 1).gg" size 524288 crc 568F4825 md5 1294C965ABDD845F554B30B311DEE272 sha1 673670F954176FFAB28A0280AA49856A457F36B1 )
+	rom ( name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A).gg" size 524288 crc 568F4825 md5 1294C965ABDD845F554B30B311DEE272 sha1 673670F954176FFAB28A0280AA49856A457F36B1 )
 )
 game (
 	name "Magic Knight Rayearth (Japan)"
@@ -2071,9 +2034,9 @@ game (
 	rom ( name "Mighty Morphin Power Rangers (USA, Europe) (Beta) (1994-07-16).gg" size 524288 crc 2887F04A md5 8E91D4325C93F6C2BAE7B7775A43C6AF sha1 88A90AC68FE67872CDEE9C4AB2B77595347297EB )
 )
 game (
-	name "Mighty Morphin Power Rangers - The Movie (USA, Europe)"
-	description "Mighty Morphin Power Rangers - The Movie (USA, Europe)"
-	rom ( name "Mighty Morphin Power Rangers - The Movie (USA, Europe).gg" size 524288 crc B47C19E5 md5 F9ACD8F01CAA8D11150A53B37B435AA2 sha1 DFE7DC7B2DF143DA4F4EEB32051A6D373DDDBA5D )
+	name "Mighty Morphin Power Rangers - The Movie (USA, Europe, Brazil)"
+	description "Mighty Morphin Power Rangers - The Movie (USA, Europe, Brazil)"
+	rom ( name "Mighty Morphin Power Rangers - The Movie (USA, Europe, Brazil).gg" size 524288 crc B47C19E5 md5 F9ACD8F01CAA8D11150A53B37B435AA2 sha1 DFE7DC7B2DF143DA4F4EEB32051A6D373DDDBA5D )
 )
 game (
 	name "Moldorian - Hikari to Yami no Sister (Japan)"
@@ -2221,9 +2184,9 @@ game (
 	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25).gg" size 262144 crc 188A319E md5 4A09050BB04A2665C8B0D2492C904F4A sha1 23CDDA16537505AFA407704F493C0ED4E51D6373 )
 )
 game (
-	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt 1)"
-	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt 1)"
-	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt 1).gg" size 262144 crc AFC8A69E md5 3B19C5001767DDC703C9B174EAEA7F16 sha1 305C1CA1B947694B61CFD896ABCA5C6F9EC287F3 )
+	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt)"
+	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt)"
+	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-25) (Alt).gg" size 262144 crc AFC8A69E md5 3B19C5001767DDC703C9B174EAEA7F16 sha1 305C1CA1B947694B61CFD896ABCA5C6F9EC287F3 )
 )
 game (
 	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-26)"
@@ -2241,9 +2204,9 @@ game (
 	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28).gg" size 262144 crc D15AA940 md5 A89B9D8CCBB33588ED3F8CA648B4A4B2 sha1 54060A0430A898F9AC32EB685758F5144A347531 )
 )
 game (
-	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt 1)"
-	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt 1)"
-	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt 1).gg" size 262144 crc 82E882D6 md5 24766136B950587D350EC3A371E1FF52 sha1 E9B3ACC9C18FF76D3A48400DA39EAE98F42D3E5D )
+	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt)"
+	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt)"
+	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-02-28) (Alt).gg" size 262144 crc 82E882D6 md5 24766136B950587D350EC3A371E1FF52 sha1 E9B3ACC9C18FF76D3A48400DA39EAE98F42D3E5D )
 )
 game (
 	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-01)"
@@ -2266,9 +2229,9 @@ game (
 	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04).gg" size 262144 crc A82049DF md5 ECB29489C9B83EF5D9618D3C8A59596F sha1 60E804882A04F376E6914EBD9683268D016D0D69 )
 )
 game (
-	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt 1)"
-	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt 1)"
-	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt 1).gg" size 262144 crc 80C0586C md5 D5D04AEC7A9A9B0082C7FCF84670A0E0 sha1 CD2114CE46EEC5B0E4BC4F1C4C65926B4C37541A )
+	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt)"
+	description "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt)"
+	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-04) (Alt).gg" size 262144 crc 80C0586C md5 D5D04AEC7A9A9B0082C7FCF84670A0E0 sha1 CD2114CE46EEC5B0E4BC4F1C4C65926B4C37541A )
 )
 game (
 	name "NBA Action Starring David Robinson (USA, Brazil) (Beta) (1994-03-05)"
@@ -2318,13 +2281,13 @@ game (
 	name "NFL '95 (USA) (Beta) (1994-08-25)"
 	description "NFL '95 (USA) (Beta) (1994-08-25)"
 	region "USA"
-	rom ( name "NFL '95 (USA) (Beta) (1994-08-25).gg" size 524288 crc 7F769052 md5 5DC6F3FA5FFAE1D0B86DF46FE5B2CA63 sha1 0D79198D43250AD4A745DA7853050A3DB8F2803C )
+	rom ( name "NFL '95 (USA) (Beta) (1994-08-25).gg" size 524288 crc FE140EAA md5 E0A30FF3EE49B55C0B4A1BBA3E38D375 sha1 B79AF203BC01EA1C59563E34105CB36CAD158CCA )
 )
 game (
-	name "NFL '95 (USA) (Beta) (1994-08-25) (Alt 1)"
-	description "NFL '95 (USA) (Beta) (1994-08-25) (Alt 1)"
+	name "NFL '95 (USA) (Beta) (1994-08-25) (Alt)"
+	description "NFL '95 (USA) (Beta) (1994-08-25) (Alt)"
 	region "USA"
-	rom ( name "NFL '95 (USA) (Beta) (1994-08-25) (Alt 1).gg" size 524288 crc FE140EAA md5 E0A30FF3EE49B55C0B4A1BBA3E38D375 sha1 B79AF203BC01EA1C59563E34105CB36CAD158CCA )
+	rom ( name "NFL '95 (USA) (Beta) (1994-08-25) (Alt).gg" size 524288 crc 7F769052 md5 5DC6F3FA5FFAE1D0B86DF46FE5B2CA63 sha1 0D79198D43250AD4A745DA7853050A3DB8F2803C )
 )
 game (
 	name "NFL '95 (USA) (Beta) (1994-08-26)"
@@ -2363,10 +2326,10 @@ game (
 	rom ( name "NFL '95 (USA) (Beta) (1994-09-11).gg" size 524288 crc 088E4B6D md5 77422578EA98BB4C5A56D1C7C2A10A38 sha1 7A5C9883FA5775EE357DE76E60B5435ACFA4F47F )
 )
 game (
-	name "NFL '95 (USA) (Beta) (1994-09-11) (Alt 1)"
-	description "NFL '95 (USA) (Beta) (1994-09-11) (Alt 1)"
+	name "NFL '95 (USA) (Beta) (1994-09-11) (Alt)"
+	description "NFL '95 (USA) (Beta) (1994-09-11) (Alt)"
 	region "USA"
-	rom ( name "NFL '95 (USA) (Beta) (1994-09-11) (Alt 1).gg" size 524288 crc C57C6AFD md5 CF2A3C76FAD2242E2BB92EC86364D7E0 sha1 087C59DACE9AFBD2CD6B53BFE896F33820B03F5E )
+	rom ( name "NFL '95 (USA) (Beta) (1994-09-11) (Alt).gg" size 524288 crc C57C6AFD md5 CF2A3C76FAD2242E2BB92EC86364D7E0 sha1 087C59DACE9AFBD2CD6B53BFE896F33820B03F5E )
 )
 game (
 	name "NFL '95 (USA) (Beta) (1994-09-12)"
@@ -2381,10 +2344,10 @@ game (
 	rom ( name "NFL '95 (USA) (Beta) (1994-09-14).gg" size 524288 crc 2828CB66 md5 504903CDB862EA6BBEF42064DACD596F sha1 E76270BFBE8A64173FBA9CA14D15679FB340D0C9 )
 )
 game (
-	name "NFL '95 (USA) (Beta) (1994-09-14) (Alt 1)"
-	description "NFL '95 (USA) (Beta) (1994-09-14) (Alt 1)"
+	name "NFL '95 (USA) (Beta) (1994-09-14) (Alt)"
+	description "NFL '95 (USA) (Beta) (1994-09-14) (Alt)"
 	region "USA"
-	rom ( name "NFL '95 (USA) (Beta) (1994-09-14) (Alt 1).gg" size 524288 crc 474A162B md5 0160334FA5EAFF0F7AF775917DE8AF5A sha1 441468692EE04852424DAC693697389C93F44482 )
+	rom ( name "NFL '95 (USA) (Beta) (1994-09-14) (Alt).gg" size 524288 crc 474A162B md5 0160334FA5EAFF0F7AF775917DE8AF5A sha1 441468692EE04852424DAC693697389C93F44482 )
 )
 game (
 	name "NFL Quarterback Club (World)"
@@ -2482,12 +2445,6 @@ game (
 	rom ( name "NHL All-Star Hockey (USA) (Beta) (1995-01-24).gg" size 524288 crc 54F5EFB2 md5 A04CEF1B75E430398A39B7D4BE2D9A0D sha1 318B3F3615F7B94E9F375F8B1C7A0A98C2BFE3AB )
 )
 game (
-	name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 1)"
-	description "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 1)"
-	region "USA"
-	rom ( name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 1).gg" size 524288 crc 0A4A6830 md5 817CAE63BCF3FAA2CF3FF38020F62945 sha1 C7C54814C416BD3A1EED38E13A1644FE3F57160E )
-)
-game (
 	name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 2)"
 	description "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 2)"
 	region "USA"
@@ -2498,6 +2455,12 @@ game (
 	description "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 3)"
 	region "USA"
 	rom ( name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt 3).gg" size 524288 crc 74BE3C4C md5 C5D00F9B3AFE49ADB8E4FED06F943330 sha1 235A09F13EECD83D6C278A5E476A93004FF78C9B )
+)
+game (
+	name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt)"
+	description "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt)"
+	region "USA"
+	rom ( name "NHL All-Star Hockey (USA) (Beta) (1995-01-24) (Alt).gg" size 524288 crc 0A4A6830 md5 817CAE63BCF3FAA2CF3FF38020F62945 sha1 C7C54814C416BD3A1EED38E13A1644FE3F57160E )
 )
 game (
 	name "NHL All-Star Hockey (USA) (Beta) (1995-01-25)"
@@ -2588,10 +2551,10 @@ game (
 	rom ( name "Off the Wall (USA) (Proto) (1992-06-28).gg" size 262144 crc 71FE9C80 md5 34E7C24068BD2050DB6B2E0C2AF4D844 sha1 27146E93E62A6CF5FC998FB9A2563B51B21334B4 )
 )
 game (
-	name "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv) (Rev 1)"
-	description "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv) (Rev 1)"
+	name "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
+	description "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Europe"
-	rom ( name "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv) (Rev 1).sms" size 262144 crc 1D93246E md5 59E311B86223273016A1E70B9C881AF2 sha1 53FD026008BE77CD0CDA7080E67A87A7BAD33A6A )
+	rom ( name "Olympic Gold (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size 262144 crc 1D93246E md5 59E311B86223273016A1E70B9C881AF2 sha1 53FD026008BE77CD0CDA7080E67A87A7BAD33A6A )
 )
 game (
 	name "Olympic Gold (Japan, USA, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)"
@@ -2599,10 +2562,10 @@ game (
 	rom ( name "Olympic Gold (Japan, USA, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).sms" size 262144 crc A2F9C7AF md5 D52C5DB48882C0C126572A0CDEB5F472 sha1 B7E5AE436CCAA9984297B0C14969922D189CB10C )
 )
 game (
-	name "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl) (Pirate)"
-	description "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl) (Pirate)"
+	name "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl)"
+	description "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl)"
 	region "Taiwan"
-	rom ( name "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl) (Pirate).gg" size 262144 crc 3382D73F md5 A08E0A90ABB143272D4B5F94B1A9846F sha1 CC922D900534841730A2019E407D374A04276933 )
+	rom ( name "Olympic Gold (Taiwan) (En,Fr,De,Es,It,Nl,Pt,Sv) (Unl).gg" size 262144 crc 3382D73F md5 A08E0A90ABB143272D4B5F94B1A9846F sha1 CC922D900534841730A2019E407D374A04276933 )
 )
 game (
 	name "Ottifants, The (Europe) (En,Fr,De,Es,It)"
@@ -2616,9 +2579,9 @@ game (
 	rom ( name "OutRun (Europe, Brazil).gg" size 131072 crc 9014B322 md5 31BA1DE018853EAD9B43B522DF540C0C sha1 41D5F3F95CA8CD288842BAD7BB5F7940C2BAA86D )
 )
 game (
-	name "OutRun (Japan, Korea)"
-	description "OutRun (Japan, Korea)"
-	rom ( name "OutRun (Japan, Korea).gg" size 131072 crc D58CB27C md5 6D6FBA255CE324E80915F65F5D27CB14 sha1 284A68102EB71958A3553626EA3DD56485453300 )
+	name "OutRun (Japan, Europe, Korea)"
+	description "OutRun (Japan, Europe, Korea)"
+	rom ( name "OutRun (Japan, Europe, Korea).gg" size 131072 crc D58CB27C md5 6D6FBA255CE324E80915F65F5D27CB14 sha1 284A68102EB71958A3553626EA3DD56485453300 )
 )
 game (
 	name "OutRun Europa (Europe)"
@@ -2795,6 +2758,11 @@ game (
 	rom ( name "Power Drive (Europe).gg" size 524288 crc AC369AE3 md5 920F469A6E365E7EA288A7EF8DC8536A sha1 C523DB9FCF30D7F8AF5E5A298BA01F59D124FF72 )
 )
 game (
+	name "Power Strike II (Japan, Europe)"
+	description "Power Strike II (Japan, Europe)"
+	rom ( name "Power Strike II (Japan, Europe).gg" size 262144 crc 09DE1528 md5 D5836EC389EC2C81BD54728B96B87152 sha1 E4DB2140761B43426024BD08C4372BB9B8979D3D )
+)
+game (
 	name "Predator 2 (USA, Europe)"
 	description "Predator 2 (USA, Europe)"
 	rom ( name "Predator 2 (USA, Europe).sms" size 262144 crc E5F789B9 md5 886649DC63ACA898CE30A32348192CD5 sha1 76464809826A0CEED7CFD68A8FE5E06C06BD96FC )
@@ -2839,9 +2807,9 @@ game (
 	rom ( name "Psychic World (Japan) (En).gg" size 131072 crc AFCC7828 md5 A764B44555AADB48C519E7C85BDF7895 sha1 1C0074C811ED4EB369BE31C1BC7D851E40AE8797 )
 )
 game (
-	name "Psychic World (USA, Europe, Brazil)"
-	description "Psychic World (USA, Europe, Brazil)"
-	rom ( name "Psychic World (USA, Europe, Brazil).gg" size 131072 crc 73779B22 md5 52CFDDC12AF6A3A64030F62CCF6ACA83 sha1 3BE13F79EEB26B82343AFAB3E740B3A1D35978EB )
+	name "Psychic World (USA, Europe, Brazil) (Rev 1)"
+	description "Psychic World (USA, Europe, Brazil) (Rev 1)"
+	rom ( name "Psychic World (USA, Europe, Brazil) (Rev 1).gg" size 131072 crc 73779B22 md5 52CFDDC12AF6A3A64030F62CCF6ACA83 sha1 3BE13F79EEB26B82343AFAB3E740B3A1D35978EB )
 )
 game (
 	name "Putt & Putter (Japan, Korea)"
@@ -2849,9 +2817,9 @@ game (
 	rom ( name "Putt & Putter (Japan, Korea).gg" size 131072 crc 407AC070 md5 1EBB46CE09CC88C6DDB62F6318E958A4 sha1 2D4A72E6F5DB344240C2A65141B08E57A4B52416 )
 )
 game (
-	name "Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf (USA, Europe, Brazil)"
-	description "Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf (USA, Europe, Brazil)"
-	rom ( name "Putt & Putter - Miniature Golf ~ Putt & Putter ~ Minigolf (USA, Europe, Brazil).gg" size 131072 crc ECC301DD md5 61C0B40329F89007AB44CC5EB29ADDFD sha1 7038A6E60106EBA19E0AFF56C14749C2DBB5DE5F )
+	name "Putt & Putter (USA, Europe, Brazil)"
+	description "Putt & Putter (USA, Europe, Brazil)"
+	rom ( name "Putt & Putter (USA, Europe, Brazil).gg" size 131072 crc ECC301DD md5 61C0B40329F89007AB44CC5EB29ADDFD sha1 7038A6E60106EBA19E0AFF56C14749C2DBB5DE5F )
 )
 game (
 	name "Puyo Puyo (Japan) (En,Ja)"
@@ -2941,6 +2909,11 @@ game (
 	rom ( name "Rise of the Robots (USA, Europe).gg" size 524288 crc 100B77B2 md5 EBCEDB0B611788408D1B27171B77AD6B sha1 9BA2F734ECCF5B2CEEFAA69CEBDF7399BC9032D8 )
 )
 game (
+	name "Ristar (World)"
+	description "Ristar (World)"
+	rom ( name "Ristar (World).gg" size 524288 crc EFE65B3B md5 06F0A495FBB70FAD50246DA715F8ADD7 sha1 D0D950097471553B6A96DC9CF0FB14DDB3A7DDA2 )
+)
+game (
 	name "Ristar (World) (Beta) (1994-09-09)"
 	description "Ristar (World) (Beta) (1994-09-09)"
 	rom ( name "Ristar (World) (Beta) (1994-09-09).gg" size 524288 crc A1C214BD md5 2B302F29D4F6D87E4250329A8DBA0739 sha1 F746E8E99F4FCA811A32716D96A4E6528EC930EB )
@@ -2964,11 +2937,6 @@ game (
 	name "Ristar (World) (Beta) (1994-11-02)"
 	description "Ristar (World) (Beta) (1994-11-02)"
 	rom ( name "Ristar (World) (Beta) (1994-11-02).gg" size 524288 crc 302D2B4B md5 E93B6E37CB8B6CAF6C62262CF63A7D8A sha1 CF2A646D5C4B3F717A5C2A29D193210ABBF770CA )
-)
-game (
-	name "Ristar ~ Ristar - The Shooting Star (World)"
-	description "Ristar ~ Ristar - The Shooting Star (World)"
-	rom ( name "Ristar ~ Ristar - The Shooting Star (World).gg" size 524288 crc EFE65B3B md5 06F0A495FBB70FAD50246DA715F8ADD7 sha1 D0D950097471553B6A96DC9CF0FB14DDB3A7DDA2 )
 )
 game (
 	name "Road Rash (Europe)"
@@ -3065,10 +3033,10 @@ game (
 	rom ( name "Shanghai II (Japan).gg" size 131072 crc 2AE8C75F md5 A9D1712DCA313BA021844F62EEC8A08C sha1 5180891EC0AE08D784DD89222D9FFD7F88A59691 )
 )
 game (
-	name "Shanghai II (Japan) (Rev 1)"
-	description "Shanghai II (Japan) (Rev 1)"
+	name "Shanghai II (Japan) (Rev A)"
+	description "Shanghai II (Japan) (Rev A)"
 	region "Japan"
-	rom ( name "Shanghai II (Japan) (Rev 1).gg" size 131072 crc 81314249 md5 C228D31CF77BD03AC457E2D22F5B2BD1 sha1 82210B387344AAEBAE8CF03029967CD0C906BEFF )
+	rom ( name "Shanghai II (Japan) (Rev A).gg" size 131072 crc 81314249 md5 C228D31CF77BD03AC457E2D22F5B2BD1 sha1 82210B387344AAEBAE8CF03029967CD0C906BEFF )
 )
 game (
 	name "Shaq Fu (USA)"
@@ -3142,6 +3110,21 @@ game (
 	rom ( name "Shining Force Gaiden II - Jashin no Kakusei (Japan).gg" size 524288 crc 30374681 md5 8857422E565412A59C77CB29550715E4 sha1 2DD374DB661315E51E9EEDEBF346A5A4DED0C3BE )
 )
 game (
+	name "Shinobi (World) (Rev A)"
+	description "Shinobi (World) (Rev A)"
+	rom ( name "Shinobi (World) (Rev A).gg" size 262144 crc 30F1C984 md5 8FA7438DEC1403F2E9D7B1CA60B29F1A sha1 2E7303F82D885CB84FA557E211954808C8EBE779 )
+)
+game (
+	name "Shinobi (World) (Rev A) (Virtual Console)"
+	description "Shinobi (World) (Rev A) (Virtual Console)"
+	rom ( name "Shinobi (World) (Rev A) (Virtual Console).gg" size 262144 crc B62D934A md5 A0C373A38EC4271AC42EC99AFA2A6BE3 sha1 9AD7313DA97EF00463800199AB9E4E6F39FBCB0D )
+)
+game (
+	name "Shinobi II - The Silent Fury (World)"
+	description "Shinobi II - The Silent Fury (World)"
+	rom ( name "Shinobi II - The Silent Fury (World).gg" size 262144 crc 6201C694 md5 48D741774004EAB9C19C1DD43758BF2B sha1 CD57301D16202EA02D9F97BD8B17D71772782C94 )
+)
+game (
 	name "Side Pocket (USA)"
 	description "Side Pocket (USA)"
 	region "USA"
@@ -3153,9 +3136,9 @@ game (
 	rom ( name "Simpsons, The - Bart vs. the Space Mutants (USA, Europe).gg" size 262144 crc C0009274 md5 A9DAC5C7F2DC324232C3B5A3263B761A sha1 C8BBC1EA5B9B60EBCD15EFC2DC850E0FFD20DAE0 )
 )
 game (
-	name "Simpsons, The - Bart vs. the World ~ Bart World (World)"
-	description "Simpsons, The - Bart vs. the World ~ Bart World (World)"
-	rom ( name "Simpsons, The - Bart vs. the World ~ Bart World (World).gg" size 262144 crc DA7BD5C7 md5 B71C156BB1FCFA6C3C48924A7B3747FF sha1 256672261C9A2D35E10EB06E990E8EBC46FB35C1 )
+	name "Simpsons, The - Bart vs. the World (World)"
+	description "Simpsons, The - Bart vs. the World (World)"
+	rom ( name "Simpsons, The - Bart vs. the World (World).gg" size 262144 crc DA7BD5C7 md5 B71C156BB1FCFA6C3C48924A7B3747FF sha1 256672261C9A2D35E10EB06E990E8EBC46FB35C1 )
 )
 game (
 	name "Simpsons, The - Bartman Meets Radioactive Man (USA)"
@@ -3216,6 +3199,11 @@ game (
 	rom ( name "Sonic & Tails 2 (Japan).gg" size 524288 crc 496BCE64 md5 05F5B6201CCECE80FACAF99FA7CF5A6E sha1 BB14ED43CF815E82F55E79753D0A7C8A24E24E7F )
 )
 game (
+	name "Sonic Blast (World)"
+	description "Sonic Blast (World)"
+	rom ( name "Sonic Blast (World).gg" size 1048576 crc 031B9DA9 md5 56E1561D981A9A7C240CDD8D5580CCF0 sha1 11241BE4082F6F9D057488AE75CCDD482F623F8C )
+)
+game (
 	name "Sonic Blast (World) (Beta) (1996-05-31)"
 	description "Sonic Blast (World) (Beta) (1996-05-31)"
 	rom ( name "Sonic Blast (World) (Beta) (1996-05-31).gg" size 524288 crc C09EF45B md5 7B758A3F8ACD3D6FEF82B163DA1D2A34 sha1 5D9FA949AEDDFC4251D7B8A58CB1122F190ECD36 )
@@ -3268,9 +3256,9 @@ game (
 	rom ( name "Sonic Drift (Japan) (En) (Demo).gg" size 524288 crc BAAC1FC0 md5 DB3E87DC719C5D6F13859EEE81CCA297 sha1 462BDF9BFAC3EB9B389142B55BE39608C3343223 )
 )
 game (
-	name "Sonic Drift Racing ~ Sonic Drift 2 (World)"
-	description "Sonic Drift Racing ~ Sonic Drift 2 (World)"
-	rom ( name "Sonic Drift Racing ~ Sonic Drift 2 (World).gg" size 524288 crc D6E8A305 md5 B39D1E9A40DFD3508EE4003CD28DA452 sha1 FE597C5CFBBC31E54F2484EB5B33C21C66CF0290 )
+	name "Sonic Drift 2 (World)"
+	description "Sonic Drift 2 (World)"
+	rom ( name "Sonic Drift 2 (World).gg" size 524288 crc D6E8A305 md5 B39D1E9A40DFD3508EE4003CD28DA452 sha1 FE597C5CFBBC31E54F2484EB5B33C21C66CF0290 )
 )
 game (
 	name "Sonic Labyrinth (USA, Europe) (Virtual Console)"
@@ -3283,109 +3271,109 @@ game (
 	rom ( name "Sonic Labyrinth (World).gg" size 524288 crc 5550173B md5 AA6598585B2CDB92A14476BEEB34991B sha1 E24BF33D8D5A79F371485F20F207B6B26F5B341E )
 )
 game (
-	name "Sonic Spinball (USA, Europe)"
-	description "Sonic Spinball (USA, Europe)"
-	rom ( name "Sonic Spinball (USA, Europe).gg" size 524288 crc A9210434 md5 8E3B44FDA375AD9748B678E9C6B45502 sha1 DF21D42B55B1B4A25704957FE323728B775EB84D )
+	name "Sonic Spinball (USA, Europe, Brazil)"
+	description "Sonic Spinball (USA, Europe, Brazil)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil).gg" size 524288 crc A9210434 md5 8E3B44FDA375AD9748B678E9C6B45502 sha1 DF21D42B55B1B4A25704957FE323728B775EB84D )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-07)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-07)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-07).gg" size 524288 crc 3283580D md5 697986B161416F0A825C36E9B9CAE1B8 sha1 1B6F1469D0E707AAB3EBA3C6748F350A30EB530F )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-07)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-07)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-07).gg" size 524288 crc 3283580D md5 697986B161416F0A825C36E9B9CAE1B8 sha1 1B6F1469D0E707AAB3EBA3C6748F350A30EB530F )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-10)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-10)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-10).gg" size 524288 crc 1A736612 md5 D434BC645921890AD458E7CF01813395 sha1 81DC53C9103FAB356014E7E45082FC562CDD59EC )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-10)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-10)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-10).gg" size 524288 crc 1A736612 md5 D434BC645921890AD458E7CF01813395 sha1 81DC53C9103FAB356014E7E45082FC562CDD59EC )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-11)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-11)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-11).gg" size 524288 crc 1AED8F62 md5 97F87F9FBD32F90377C07A4F4DAC51F7 sha1 CEC96B3372A4ECB39AC7BD51829D4F641FF8D198 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-11)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-11)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-11).gg" size 524288 crc 1AED8F62 md5 97F87F9FBD32F90377C07A4F4DAC51F7 sha1 CEC96B3372A4ECB39AC7BD51829D4F641FF8D198 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-21)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-21)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-21).gg" size 524288 crc 46657B4E md5 AB5D01525D4CFAE5BF59F5B11A6340F8 sha1 6B08DD5E60E957739CD7C8DEA5F9FCB2BF82009C )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-21)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-21)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-21).gg" size 524288 crc 46657B4E md5 AB5D01525D4CFAE5BF59F5B11A6340F8 sha1 6B08DD5E60E957739CD7C8DEA5F9FCB2BF82009C )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-28)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-28)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-28).gg" size 524288 crc 1233C3E3 md5 3E6179C47A1FD6E62FBB49745F3CAD7E sha1 41260C00F83592C6C21800750BD25359F8CCE911 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-28)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-28)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-28).gg" size 524288 crc 1233C3E3 md5 3E6179C47A1FD6E62FBB49745F3CAD7E sha1 41260C00F83592C6C21800750BD25359F8CCE911 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-29)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-29)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-29).gg" size 524288 crc AA7AEDB0 md5 385114C0DF7E23898B83F038AD51F77C sha1 F3A3B701F7700459B0A4175E6B8C24AB68518F40 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-29)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-29)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-29).gg" size 524288 crc AA7AEDB0 md5 385114C0DF7E23898B83F038AD51F77C sha1 F3A3B701F7700459B0A4175E6B8C24AB68518F40 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-03-30)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-03-30)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-03-30).gg" size 524288 crc 2CA34AB2 md5 88FA2EDE48D9F04EC84F4EBDA1735067 sha1 A066324F8D781EA218EA61689EEA6D6254BF9AAB )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-30)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-30)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-03-30).gg" size 524288 crc 2CA34AB2 md5 88FA2EDE48D9F04EC84F4EBDA1735067 sha1 A066324F8D781EA218EA61689EEA6D6254BF9AAB )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-05)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-05)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-05).gg" size 524288 crc 09B913D5 md5 0E0235B01732D3E16ECBCF9A128A7707 sha1 35ED35FDA5FC8D5F1AC1068157C176BB216769E4 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-05)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-05)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-05).gg" size 524288 crc 09B913D5 md5 0E0235B01732D3E16ECBCF9A128A7707 sha1 35ED35FDA5FC8D5F1AC1068157C176BB216769E4 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-12)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-12)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-12).gg" size 524288 crc F8A432F6 md5 CF90A8293D1AC1DC7A79D3C2AC7DB48A sha1 3FD285036F794574B7310CA093A6D5D5BC244BC7 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-12)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-12)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-12).gg" size 524288 crc F8A432F6 md5 CF90A8293D1AC1DC7A79D3C2AC7DB48A sha1 3FD285036F794574B7310CA093A6D5D5BC244BC7 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-13)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-13)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-13).gg" size 524288 crc 1F1ABF2C md5 128F3975903C44A150183579B880E7C1 sha1 A4C3D6B3601D321003AAD3B759487BDDB4CD64B3 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-13)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-13)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-13).gg" size 524288 crc 1F1ABF2C md5 128F3975903C44A150183579B880E7C1 sha1 A4C3D6B3601D321003AAD3B759487BDDB4CD64B3 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-15)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-15)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-15).gg" size 524288 crc E3B5CD1E md5 11751E817EB8FDAE3117D37B77848E23 sha1 E59E3D9B0A8D9ADB13A32CFDBE027ADE81C8DED1 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-15)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-15)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-15).gg" size 524288 crc E3B5CD1E md5 11751E817EB8FDAE3117D37B77848E23 sha1 E59E3D9B0A8D9ADB13A32CFDBE027ADE81C8DED1 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-21)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-21)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-21).gg" size 524288 crc BBAECF7C md5 82B1F2656E2FA356DF07ABD0F2EC950E sha1 F0ABF46487ACC6A2A93B3E7E93DBE9F651CCBD41 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-21)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-21)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-21).gg" size 524288 crc BBAECF7C md5 82B1F2656E2FA356DF07ABD0F2EC950E sha1 F0ABF46487ACC6A2A93B3E7E93DBE9F651CCBD41 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-27)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-27)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-27).gg" size 376832 crc 07D32244 md5 351ED856988FC763309613C7B7B71F6A sha1 2BE84549AEECF580EF25290B7255270EDE38B830 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-27)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-27)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-27).gg" size 376832 crc 07D32244 md5 351ED856988FC763309613C7B7B71F6A sha1 2BE84549AEECF580EF25290B7255270EDE38B830 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-29)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-29)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-29).gg" size 524288 crc 221C4BA4 md5 D7E2839B0A18C811C490C4D2450556CE sha1 AB9AC3B4EBECD02C8F3B0D29B921A3D8BCF96458 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29).gg" size 524288 crc 221C4BA4 md5 D7E2839B0A18C811C490C4D2450556CE sha1 AB9AC3B4EBECD02C8F3B0D29B921A3D8BCF96458 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-04-29) (Alt 1)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-04-29) (Alt 1)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-04-29) (Alt 1).gg" size 524288 crc 30A7D062 md5 8F1DB6CD04BB574A9175A4D177826025 sha1 35954B7E65E663FBA3066046E971316D5E573158 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29) (Alt)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29) (Alt)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-04-29) (Alt).gg" size 524288 crc 30A7D062 md5 8F1DB6CD04BB574A9175A4D177826025 sha1 35954B7E65E663FBA3066046E971316D5E573158 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-05-03)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-05-03)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-05-03).gg" size 524288 crc E2FE976A md5 088D45240470EA834A37318CB187488A sha1 7577EEF2AC9823A539D6AF1C2673D1702D29695F )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-03)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-03)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-03).gg" size 524288 crc E2FE976A md5 088D45240470EA834A37318CB187488A sha1 7577EEF2AC9823A539D6AF1C2673D1702D29695F )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-05-05)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-05-05)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-05-05).gg" size 524288 crc BE76BF30 md5 F4713905BFF582A7895D2FF3FB2CEBCB sha1 975232A729179C1DB5307C072593CDBF83E233D6 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-05)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-05)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-05).gg" size 524288 crc BE76BF30 md5 F4713905BFF582A7895D2FF3FB2CEBCB sha1 975232A729179C1DB5307C072593CDBF83E233D6 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-05-06)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-05-06)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-05-06).gg" size 524288 crc A4833D27 md5 0EF8F22D8D95427A5C22ACA684E3CD46 sha1 36CD00138F78BF31EE6098D1F5B0B2E870AB5637 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-06)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-06)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-06).gg" size 524288 crc A4833D27 md5 0EF8F22D8D95427A5C22ACA684E3CD46 sha1 36CD00138F78BF31EE6098D1F5B0B2E870AB5637 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-05-25)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-05-25)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-05-25).gg" size 524288 crc A035FD5C md5 AE8747357AF5CBAF4743F1FED69EB93C sha1 CF9AFBC274AFCD28931BB1298C53BFDF6E04A9B6 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-25)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-25)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-25).gg" size 524288 crc A035FD5C md5 AE8747357AF5CBAF4743F1FED69EB93C sha1 CF9AFBC274AFCD28931BB1298C53BFDF6E04A9B6 )
 )
 game (
-	name "Sonic Spinball (USA, Europe) (Beta) (1994-05-30)"
-	description "Sonic Spinball (USA, Europe) (Beta) (1994-05-30)"
-	rom ( name "Sonic Spinball (USA, Europe) (Beta) (1994-05-30).gg" size 524288 crc 6107819D md5 06CC26DB4CCC2418E0F204073E04D35B sha1 8C16865212AD284A0929869A95980BCDF3D9BA81 )
+	name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-30)"
+	description "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-30)"
+	rom ( name "Sonic Spinball (USA, Europe, Brazil) (Beta) (1994-05-30).gg" size 524288 crc 6107819D md5 06CC26DB4CCC2418E0F204073E04D35B sha1 8C16865212AD284A0929869A95980BCDF3D9BA81 )
 )
 game (
 	name "Sonic The Hedgehog (Japan, Europe, Brazil) (Rev 1)"
@@ -3499,13 +3487,13 @@ game (
 	name "Sports Trivia (USA) (Beta) (1995-04-25)"
 	description "Sports Trivia (USA) (Beta) (1995-04-25)"
 	region "USA"
-	rom ( name "Sports Trivia (USA) (Beta) (1995-04-25).gg" size 131072 crc 895AF58A md5 4828E8A6E54322AC2971799B42DB2C65 sha1 8E42323155C0E0F0CD050E66F89F821CB884F7A1 )
+	rom ( name "Sports Trivia (USA) (Beta) (1995-04-25).gg" size 131072 crc 7524957C md5 BFB92AF247E23BB346B520696DAA133F sha1 90834A82AA40F69ABF57D34D1910D829D8632AF0 )
 )
 game (
-	name "Sports Trivia (USA) (Beta) (1995-04-25) (Alt 1)"
-	description "Sports Trivia (USA) (Beta) (1995-04-25) (Alt 1)"
+	name "Sports Trivia (USA) (Beta) (1995-04-25) (Alt)"
+	description "Sports Trivia (USA) (Beta) (1995-04-25) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia (USA) (Beta) (1995-04-25) (Alt 1).gg" size 131072 crc 7524957C md5 BFB92AF247E23BB346B520696DAA133F sha1 90834A82AA40F69ABF57D34D1910D829D8632AF0 )
+	rom ( name "Sports Trivia (USA) (Beta) (1995-04-25) (Alt).gg" size 131072 crc 895AF58A md5 4828E8A6E54322AC2971799B42DB2C65 sha1 8E42323155C0E0F0CD050E66F89F821CB884F7A1 )
 )
 game (
 	name "Sports Trivia (USA) (Beta) (1995-04-27)"
@@ -3550,10 +3538,10 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20).gg" size 262144 crc E7AFF566 md5 2530515806476AC70499D3E2398ECC03 sha1 693CC753FC94EB5D79FB0BF0E4CB484DD1FB57F3 )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt 1)"
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt 1).gg" size 262144 crc A3E57816 md5 E1A51809A76D502E46524FE26547D6AB sha1 70E71C0581019C89BD2C38EE45B05BFF84FC3EB0 )
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-20) (Alt).gg" size 262144 crc A3E57816 md5 E1A51809A76D502E46524FE26547D6AB sha1 70E71C0581019C89BD2C38EE45B05BFF84FC3EB0 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-21)"
@@ -3568,16 +3556,16 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23).gg" size 262144 crc 27816C09 md5 9BB2AD9D4D42BA57B38EFABE05917DBA sha1 5AD1ED30FCC414B237C6A9057E3F43913C3EBF23 )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 1)"
-	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 1).gg" size 262144 crc ACB7E580 md5 0171A4BE8D76A17C65C0201B93AFD4BF sha1 227F12188CEAA0577CD6604804D1228E342C67A2 )
-)
-game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 2)"
 	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 2)"
 	region "USA"
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt 2).gg" size 262144 crc 9A8AD5CA md5 89690558608D6DFD3A32AC87896D7BA9 sha1 7A9DFD2CA7ECBA07EF141AD9F2428052B441E200 )
+)
+game (
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt)"
+	region "USA"
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-23) (Alt).gg" size 262144 crc ACB7E580 md5 0171A4BE8D76A17C65C0201B93AFD4BF sha1 227F12188CEAA0577CD6604804D1228E342C67A2 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27)"
@@ -3586,10 +3574,10 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27).gg" size 262144 crc 517BD817 md5 EC2426DE4B6714A8D45F98D3D66B3101 sha1 3AE00363F54B73C47D6E6125E3A7D3741F33FCCF )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt 1)"
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt 1).gg" size 262144 crc 511B1D24 md5 39184C43BCF496798D7E4F2C8D0C8EE9 sha1 B7BA8F1C6EC2958DA3A040AB56F9915F13723A70 )
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-27) (Alt).gg" size 262144 crc 511B1D24 md5 39184C43BCF496798D7E4F2C8D0C8EE9 sha1 B7BA8F1C6EC2958DA3A040AB56F9915F13723A70 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29)"
@@ -3598,16 +3586,16 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29).gg" size 262144 crc E906FBD8 md5 A92C7A78C8F4FCCF277F7433E13F4AAC sha1 3410BAFB1757988F1CB270745DFA9AC22212539B )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 1)"
-	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 1).gg" size 262144 crc 05047357 md5 A4D70C3485D181ED85CDA7948573444E sha1 50CCE09EE3C077FEAF7AD9DF1E2A9F4FDE0E7691 )
-)
-game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 2)"
 	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 2)"
 	region "USA"
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt 2).gg" size 262144 crc E80459B3 md5 AD9BEF2DB05C35EEBCE898337CB7A69D sha1 CFCB94207728F781602FF8375CDA3C2DE25B7EED )
+)
+game (
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt)"
+	region "USA"
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-29) (Alt).gg" size 262144 crc 05047357 md5 A4D70C3485D181ED85CDA7948573444E sha1 50CCE09EE3C077FEAF7AD9DF1E2A9F4FDE0E7691 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30)"
@@ -3616,10 +3604,10 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30).gg" size 262144 crc 302B9B36 md5 422E19429929D701297E30FA7BB8182D sha1 D462337A78F85882E7EBCB95E129AB18E75E44A4 )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt 1)"
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt 1).gg" size 262144 crc F3F9A87B md5 8054A299A0A496E87615FA4B459F3986 sha1 0AC64A9077DDCB53D2D35748F13B9D462F27AB51 )
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-03-30) (Alt).gg" size 262144 crc F3F9A87B md5 8054A299A0A496E87615FA4B459F3986 sha1 0AC64A9077DDCB53D2D35748F13B9D462F27AB51 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-03)"
@@ -3634,10 +3622,10 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04).gg" size 262144 crc D61A366F md5 50F33D0ADE43639AC23B65CA5E26CA37 sha1 463DBAAFD144C430F3B62DBB53578F26441BFDB8 )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt 1)"
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt 1).gg" size 262144 crc C68762E6 md5 2A88235F6F65422D5797EB3CE036067F sha1 DBAB3669DA5A204CE78AF3FC5A1749A08C39262E )
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-04) (Alt).gg" size 262144 crc C68762E6 md5 2A88235F6F65422D5797EB3CE036067F sha1 DBAB3669DA5A204CE78AF3FC5A1749A08C39262E )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05)"
@@ -3646,16 +3634,16 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05).gg" size 262144 crc F88A55F4 md5 FF1FF7C0281613EC69873F135F10CE1D sha1 C857BEF7EED535D1F827AD439DF112B3B0C05CF8 )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 1)"
-	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 1).gg" size 262144 crc 818EC54C md5 0D593EA6045295BEE86B783BD391B838 sha1 48FF2E462D0B17022C8085133447DD7EEDAC898B )
-)
-game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 2)"
 	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 2)"
 	region "USA"
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt 2).gg" size 262144 crc 93B98F19 md5 13B955B107B97A8BB3BFA71A6BC3E649 sha1 A57C18ADFA86E86B3E43F605617205A219AAFDFB )
+)
+game (
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt)"
+	region "USA"
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-05) (Alt).gg" size 262144 crc 818EC54C md5 0D593EA6045295BEE86B783BD391B838 sha1 48FF2E462D0B17022C8085133447DD7EEDAC898B )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-06)"
@@ -3670,10 +3658,10 @@ game (
 	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07).gg" size 262144 crc 352E8B8C md5 31D7E2FB812D5706B14387E685D388B7 sha1 E4938D6B435FCE12B4B73591447422342B919E9F )
 )
 game (
-	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt 1)"
-	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt 1)"
+	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt)"
+	description "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt)"
 	region "USA"
-	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt 1).gg" size 262144 crc 961AE378 md5 902D771384C7C84E8888B7A1ED84821B sha1 34986C53709EF347A8EC620DBE7B35FEF8FF3EF0 )
+	rom ( name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-07) (Alt).gg" size 262144 crc 961AE378 md5 902D771384C7C84E8888B7A1ED84821B sha1 34986C53709EF347A8EC620DBE7B35FEF8FF3EF0 )
 )
 game (
 	name "Sports Trivia - Championship Edition (USA) (Beta) (1995-04-11)"
@@ -3744,6 +3732,21 @@ game (
 	description "Street Hero (USA) (Proto 2)"
 	region "USA"
 	rom ( name "Street Hero (USA) (Proto 2).gg" size 524288 crc FB481971 md5 4290E4E83D37B142E39B2B0AD1366A8C sha1 7218B455819DD965FFCB720AD11458270BD7F3C6 )
+)
+game (
+	name "Streets of Rage (World)"
+	description "Streets of Rage (World)"
+	rom ( name "Streets of Rage (World).gg" size 262144 crc 3D8BCF1D md5 1ECE7480D21FB862A65233BA126282D3 sha1 CA8C8A00EE838E994B2FA17E595DDD40D898CF42 )
+)
+game (
+	name "Streets of Rage 2 (World)"
+	description "Streets of Rage 2 (World)"
+	rom ( name "Streets of Rage 2 (World).gg" size 524288 crc 0B618409 md5 5566E332F860DC0F9DA1507FD7FEB1CD sha1 2804B355347BDA6E2903078BA30ED6B3A289EBBA )
+)
+game (
+	name "Streets of Rage 2 (World) (Beta)"
+	description "Streets of Rage 2 (World) (Beta)"
+	rom ( name "Streets of Rage 2 (World) (Beta).gg" size 524288 crc 6C395A69 md5 3EDB60B0434B48C80DF97E99CB660654 sha1 15589214EB8570C9B2BF2EDE14803D08C77C29F8 )
 )
 game (
 	name "Striker (Europe) (En,Fr,De,Es,It)"
@@ -3897,14 +3900,14 @@ game (
 	rom ( name "T2 - The Arcade Game (USA, Europe).gg" size 524288 crc 9479C83A md5 D459D14BADDFA9F8A69E91F79BE71B9B sha1 12B6F5542B6CEBFE872096EAB2A885D297EEFA2F )
 )
 game (
-	name "Tails Adventure ~ Tails Adventures (World) (En,Ja)"
-	description "Tails Adventure ~ Tails Adventures (World) (En,Ja)"
-	rom ( name "Tails Adventure ~ Tails Adventures (World) (En,Ja).gg" size 524288 crc 5BB6E5D6 md5 A8BDB1BEED088FF83C725C5AF6B85E1F sha1 DA3DF145B8E9F2A2E680D2C92939084D4530ED90 )
+	name "Tails Adventure (World) (En,Ja)"
+	description "Tails Adventure (World) (En,Ja)"
+	rom ( name "Tails Adventure (World) (En,Ja).gg" size 524288 crc 5BB6E5D6 md5 A8BDB1BEED088FF83C725C5AF6B85E1F sha1 DA3DF145B8E9F2A2E680D2C92939084D4530ED90 )
 )
 game (
-	name "Tails Adventure ~ Tails Adventures (World) (En,Ja) (Virtual Console)"
-	description "Tails Adventure ~ Tails Adventures (World) (En,Ja) (Virtual Console)"
-	rom ( name "Tails Adventure ~ Tails Adventures (World) (En,Ja) (Virtual Console).gg" size 524288 crc A354EA49 md5 C2FE111A6E569EC6D58B9ECC32DE0E12 sha1 8A3C327B328DEF981779CE436DF7857578C01883 )
+	name "Tails Adventure (World) (En,Ja) (Virtual Console)"
+	description "Tails Adventure (World) (En,Ja) (Virtual Console)"
+	rom ( name "Tails Adventure (World) (En,Ja) (Virtual Console).gg" size 524288 crc A354EA49 md5 C2FE111A6E569EC6D58B9ECC32DE0E12 sha1 8A3C327B328DEF981779CE436DF7857578C01883 )
 )
 game (
 	name "Tails no Skypatrol (Japan)"
@@ -3981,11 +3984,6 @@ game (
 	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-10).gg" size 524288 crc 92388016 md5 BD832F0910005DAD0750C4A211D714FC sha1 ED5A66C278FC429FD4DDB993C4A7BDF2D2400A3A )
 )
 game (
-	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-12)"
-	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-12)"
-	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-12).gg" size 524288 crc A43FDFAD md5 2A8ED6F2ACDE315546B62B30DFBB7F43 sha1 6482E281447B586C533A45527DB52BD5C333EBDD )
-)
-game (
 	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-14)"
 	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-14)"
 	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-14).gg" size 524288 crc 9267D968 md5 EE2FADEBCD57021B9AE80D6C0349462E sha1 8800DA06EA2AA3982CF2E294B165F5E1A9CAB63C )
@@ -3994,6 +3992,11 @@ game (
 	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-19)"
 	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-19)"
 	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-19).gg" size 524288 crc 57747640 md5 84D3C8C1921019CF783C8D5B9B52F0FC sha1 D32127A67F988062407D92BB1DFDF3CE38210E31 )
+)
+game (
+	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-21)"
+	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-21)"
+	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-21).gg" size 524288 crc A43FDFAD md5 2A8ED6F2ACDE315546B62B30DFBB7F43 sha1 6482E281447B586C533A45527DB52BD5C333EBDD )
 )
 game (
 	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-08-23)"
@@ -4021,9 +4024,9 @@ game (
 	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05).gg" size 524288 crc 61330A58 md5 E03CC0209501D5AA8796F9C5779C3E69 sha1 B383C0E67E47BB1B6F2402948408DA1D5418C354 )
 )
 game (
-	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt 1)"
-	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt 1)"
-	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt 1).gg" size 524288 crc D84A631C md5 11D0E1392A58D2B28B7E236A20F8A760 sha1 02B726D8C0DA2F51076AD95DDC750D423636A807 )
+	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt)"
+	description "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt)"
+	rom ( name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-05) (Alt).gg" size 524288 crc D84A631C md5 11D0E1392A58D2B28B7E236A20F8A760 sha1 02B726D8C0DA2F51076AD95DDC750D423636A807 )
 )
 game (
 	name "Taz in Escape from Mars (USA, Europe) (Beta) (1994-09-06)"
@@ -4221,15 +4224,15 @@ game (
 	rom ( name "Wimbledon (World).gg" size 131072 crc CE1108FD md5 05E39EB8DC19C023F4A4FED36C058675 sha1 6AA588E0AA93C5C74C80F7044DE49933291AF4E9 )
 )
 game (
-	name "Winter Olympic Games ~ Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)"
-	description "Winter Olympic Games ~ Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)"
-	rom ( name "Winter Olympic Games ~ Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No).gg" size 524288 crc D15D335B md5 6AF2738B6B12780A017FA743485FC396 sha1 6F9942792072626F1322E11835DBC5E2E94AA718 )
-)
-game (
 	name "Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)"
 	description "Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)"
 	region "Japan"
 	rom ( name "Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No).gg" size 524288 crc D5195A39 md5 527A3EB0197DC9FB519BCB328A62B466 sha1 578FC35FE155DCA2C9ADF17464D23AAF8205148F )
+)
+game (
+	name "Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)"
+	description "Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No)"
+	rom ( name "Winter Olympics (USA, Europe) (En,Fr,De,Es,It,Pt,Sv,No).gg" size 524288 crc D15D335B md5 6AF2738B6B12780A017FA743485FC396 sha1 6F9942792072626F1322E11835DBC5E2E94AA718 )
 )
 game (
 	name "Wizard Pinball (Europe)"
@@ -4279,14 +4282,14 @@ game (
 	rom ( name "Woody Pop (USA, Europe, Brazil).gg" size 32768 crc B74F3A4F md5 A23E89266DDAD3C856E7401D04A49C6C sha1 4EFBFA1D3234D8F1800A06AB72B2177FBA6914CB )
 )
 game (
-	name "World Class Leaderboard Golf ~ World Class Leader Board (USA, Europe)"
-	description "World Class Leaderboard Golf ~ World Class Leader Board (USA, Europe)"
-	rom ( name "World Class Leaderboard Golf ~ World Class Leader Board (USA, Europe).gg" size 262144 crc 868FE528 md5 13F72ACFEA47587F9AA9F655BF98653C sha1 23B28CF137ADC947FFD1AF649CF3C8D64E6FADC1 )
+	name "World Class Leaderboard (USA, Europe)"
+	description "World Class Leaderboard (USA, Europe)"
+	rom ( name "World Class Leaderboard (USA, Europe).gg" size 262144 crc 868FE528 md5 13F72ACFEA47587F9AA9F655BF98653C sha1 23B28CF137ADC947FFD1AF649CF3C8D64E6FADC1 )
 )
 game (
-	name "World Cup USA 94 (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
-	description "World Cup USA 94 (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
-	rom ( name "World Cup USA 94 (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).gg" size 524288 crc D2BB3690 md5 D95D381C6AFFB8345EE5457655E393D1 sha1 5596ECB5B7A28027E5C0AD1C8ACC73C45E7A1265 )
+	name "World Cup USA 94 (USA, Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)"
+	description "World Cup USA 94 (USA, Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)"
+	rom ( name "World Cup USA 94 (USA, Europe, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv).gg" size 524288 crc D2BB3690 md5 D95D381C6AFFB8345EE5457655E393D1 sha1 5596ECB5B7A28027E5C0AD1C8ACC73C45E7A1265 )
 )
 game (
 	name "World Derby (Japan)"
@@ -4471,8 +4474,8 @@ game (
 	rom ( name "Zoop (USA).gg" size 131072 crc 3247FF8B md5 1516A213225C93BB6D411651BA5A5BE1 sha1 F58359FFA7BC3EC82913BE128D141E5D41926B88 )
 )
 game (
-	name "Zoop (USA) (Beta)"
-	description "Zoop (USA) (Beta)"
+	name "Zoop (USA) (Beta) (1995-08-11)"
+	description "Zoop (USA) (Beta) (1995-08-11)"
 	region "USA"
-	rom ( name "Zoop (USA) (Beta).gg" size 131072 crc F397F041 md5 61FC222F0C737FACF3583CF90B7A2BEA sha1 F704412387C1FE91D94D2C1405F8A49768320D0C )
+	rom ( name "Zoop (USA) (Beta) (1995-08-11).gg" size 131072 crc F397F041 md5 61FC222F0C737FACF3583CF90B7A2BEA sha1 F704412387C1FE91D94D2C1405F8A49768320D0C )
 )
