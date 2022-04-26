@@ -180,7 +180,7 @@ def generate_game_list(dat_root, path):
         for entry in game_entries:
             text_entry = ['game (',
                           '\t' + 'name "%s"' % entry.name,
-                          '\t' + 'year %s' % entry.year,
+                          '\t' + 'year "%s"' % entry.year,
                           '\t' + 'publisher "%s"' % entry.publisher,
                           '\t' + 'rom ( name %s size %s crc %s md5 %s sha1 %s )' % (entry.zip, entry.size, entry.crc, entry.md5, entry.sha1),
                           ')',
