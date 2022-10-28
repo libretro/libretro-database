@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Philips - CD-i"
 	description "Philips - CD-i"
-	version "2022.2.20"
+	version "2022.10.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -1311,6 +1311,34 @@ game (
 	rom ( name "Black Rain (Europe) (Disc 2) (Rev 1).bin" size 654973200 crc AFC3C60E md5 C8CCFF3195D145E6684CAFC01BAE9088 sha1 ABBBC2E9A2E890D2149B6ED435B7B9D932D99C70 serial "811-1036-1" )
 )
 game (
+	name "Black Rain (France) (Disc 1)"
+	description "Black Rain (France) (Disc 1)"
+	region "France"
+	serial "812-1030"
+	rom ( name "Black Rain (France) (Disc 1).bin" size 644036400 crc 8C2411CF md5 EE3A3390141E75FC6A81DF7BAD18A2BA sha1 CFC51F68D35EDE8937BB7F923DF69C484542FE7A serial "812-1030" )
+)
+game (
+	name "Black Rain (France) (Disc 1)"
+	description "Black Rain (France) (Disc 1)"
+	region "France"
+	serial "812-1030-0"
+	rom ( name "Black Rain (France) (Disc 1).bin" size 644036400 crc 8C2411CF md5 EE3A3390141E75FC6A81DF7BAD18A2BA sha1 CFC51F68D35EDE8937BB7F923DF69C484542FE7A serial "812-1030-0" )
+)
+game (
+	name "Black Rain (France) (Disc 2)"
+	description "Black Rain (France) (Disc 2)"
+	region "France"
+	serial "812-1031"
+	rom ( name "Black Rain (France) (Disc 2).bin" size 654973200 crc 84E52F9E md5 91BCA1B7CFC8EEABA12E3020F5D68930 sha1 47011AA83458E3632F2240D589BDD5B65CC1D4C7 serial "812-1031" )
+)
+game (
+	name "Black Rain (France) (Disc 2)"
+	description "Black Rain (France) (Disc 2)"
+	region "France"
+	serial "812-1031-1"
+	rom ( name "Black Rain (France) (Disc 2).bin" size 654973200 crc 84E52F9E md5 91BCA1B7CFC8EEABA12E3020F5D68930 sha1 47011AA83458E3632F2240D589BDD5B65CC1D4C7 serial "812-1031-1" )
+)
+game (
 	name "Black Rain (Germany) (Disc 1)"
 	description "Black Rain (Germany) (Disc 1)"
 	region "Germany"
@@ -1683,6 +1711,13 @@ game (
 	rom ( name "CD Technique 1 - CD-I Autosurveillance des Stations d'Epuration (France).bin" size 223769280 crc 4236A9EE md5 5C101C198DD83854331FCA47F17D61EF sha1 7F2337AA720FD3B7D7373ADD2D7013576055E0DF )
 )
 game (
+	name "CD-I CD Interactive (Japan) (Fixed Dump)"
+	description "CD-I CD Interactive (Japan) (Fixed Dump)"
+	region "Japan"
+	serial "JIM-00001"
+	rom ( name "CD-I CD Interactive (Japan) (Fixed Dump).bin" size 148881600 crc 00FA5E40 md5 73275D281A2B35478A4789C194D9BD5C sha1 311248142D84A96AAB156B7A2A8C9432498939AF serial "JIM-00001" )
+)
+game (
 	name "CD-I Full Motion Video Demo - James Bond - 09-06-1992 (Europe)"
 	description "CD-I Full Motion Video Demo - James Bond - 09-06-1992 (Europe)"
 	region "Europe"
@@ -1939,6 +1974,13 @@ game (
 	description "CD-i Means Business (USA)"
 	region "USA"
 	rom ( name "CD-i Means Business (USA).bin" size 628360320 crc 4600B627 md5 D12B7AE89AE39DEFBBB1FD98083D7E5F sha1 77F5F2CCE8C7F50D3FA76D72A2A2DAD51FAAD57F )
+)
+game (
+	name "CD-i Music Book - Classical Guitar Volume 1 (USA)"
+	description "CD-i Music Book - Classical Guitar Volume 1 (USA)"
+	region "USA"
+	serial "310-690-244-2"
+	rom ( name "CD-i Music Book - Classical Guitar Volume 1 (USA).bin" size 123385920 crc 4F14C8D4 md5 7FE71952B8C2B8D2F45F4E5979C692D8 sha1 10590CA1B06841EE5B280E128B7A8F96BEEFDB80 serial "310-690-244-2" )
 )
 game (
 	name "CD-i Music Book - Classical Guitar Volume 1 (USA)"
@@ -3323,8 +3365,27 @@ game (
 	name "Caricature (Europe)"
 	description "Caricature (Europe)"
 	region "Europe"
+	serial "811-0001"
+	rom ( name "Caricature (Europe).bin" size 384034560 crc 89518B8B md5 558182A9FB2AA797A9B537DFAFBF4FF6 sha1 5008B3EF3B940E7FA9DDEDFA1A9DA23A1AE51097 serial "811-0001" )
+)
+game (
+	name "Caricature (Europe)"
+	description "Caricature (Europe)"
+	region "Europe"
 	serial "814-0049"
 	rom ( name "Caricature (Europe).bin" size 384034560 crc 89518B8B md5 558182A9FB2AA797A9B537DFAFBF4FF6 sha1 5008B3EF3B940E7FA9DDEDFA1A9DA23A1AE51097 serial "814-0049" )
+)
+game (
+	name "Caricature (UK)"
+	description "Caricature (UK)"
+	serial "811-0001"
+	rom ( name "Caricature (UK).bin" size 384375600 crc D84FC809 md5 3AB3E37410E516702E32B3BE2965D2DF sha1 05CA3785F2DCA93E04B672F76AA1235EE95C3A42 serial "811-0001" )
+)
+game (
+	name "Caricature (UK) (Alt)"
+	description "Caricature (UK) (Alt)"
+	serial "811-0001"
+	rom ( name "Caricature (UK) (Alt).bin" size 384034560 crc EA75A0B0 md5 D5D07A7608DAB8869A8130E67E68371E sha1 B472F3785F6F853E579F09B336075B8EA8DD1E2E serial "811-0001" )
 )
 game (
 	name "Cartoon Jukebox (Europe) (Alt)"
@@ -3830,6 +3891,13 @@ game (
 	rom ( name "Cool Oldies Jukebox (Europe).bin" size 625984800 crc 0365BE66 md5 32E86C72E48EFBCBB7576A353606BA2A sha1 0D2A3CEE254CD6AF0AFD46AD2A117B2E31144DEE serial "310690007-2" )
 )
 game (
+	name "Cosecha del Sol, La - Vincent van Gogh Revivido (Spain)"
+	description "Cosecha del Sol, La - Vincent van Gogh Revivido (Spain)"
+	region "Spain"
+	serial "816-0013"
+	rom ( name "Cosecha del Sol, La - Vincent van Gogh Revivido (Spain).bin" size 651997920 crc 5517B374 md5 8649AB562186A4A93AE74E2820B4D762 sha1 6BD3CAA0E4511500BD621C0EAC0E448ECEFB5A2D serial "816-0013" )
+)
+game (
 	name "Count Down to the Future (USA)"
 	description "Count Down to the Future (USA)"
 	region "USA"
@@ -3935,18 +4003,6 @@ game (
 	region "USA"
 	serial "310690292-2-1"
 	rom ( name "Cream of Eric Clapton, The (USA) (Disc 2).bin" size 320166000 crc DB948338 md5 EBE97A9A5A79FF6CD508D954042B286D sha1 9221796FB667E1DF62C663EC7549A64AC49CB702 serial "310690292-2-1" )
-)
-game (
-	name "Create Your Own Caricature (UK)"
-	description "Create Your Own Caricature (UK)"
-	serial "811-0001"
-	rom ( name "Create Your Own Caricature (UK).bin" size 384375600 crc D84FC809 md5 3AB3E37410E516702E32B3BE2965D2DF sha1 05CA3785F2DCA93E04B672F76AA1235EE95C3A42 serial "811-0001" )
-)
-game (
-	name "Create Your Own Caricature (UK) (Alt)"
-	description "Create Your Own Caricature (UK) (Alt)"
-	serial "811-0001"
-	rom ( name "Create Your Own Caricature (UK) (Alt).bin" size 384034560 crc EA75A0B0 md5 D5D07A7608DAB8869A8130E67E68371E sha1 B472F3785F6F853E579F09B336075B8EA8DD1E2E serial "811-0001" )
 )
 game (
 	name "Creation for the Imagination (USA)"
@@ -4120,6 +4176,12 @@ game (
 	description "Dark Castle (USA, Europe)"
 	serial "310690026-2"
 	rom ( name "Dark Castle (USA, Europe).bin" size 142178400 crc 7ADF9390 md5 A477AA7D5652349BABCD742C40953843 sha1 608F5ADA0E1714A8639BD52D3E6E15DA82A0EDB9 serial "310690026-2" )
+)
+game (
+	name "Dark Castle (USA, Europe)"
+	description "Dark Castle (USA, Europe)"
+	serial "690-026-2"
+	rom ( name "Dark Castle (USA, Europe).bin" size 142178400 crc 7ADF9390 md5 A477AA7D5652349BABCD742C40953843 sha1 608F5ADA0E1714A8639BD52D3E6E15DA82A0EDB9 serial "690-026-2" )
 )
 game (
 	name "Dark Castle (USA, Europe)"
@@ -4305,6 +4367,13 @@ game (
 	region "France"
 	serial "812-0130"
 	rom ( name "Dictionnaire Hachette Multimedia (France) (1995) (Version Digital Video).bin" size 780181920 crc 15296B91 md5 68AF3DE6AC89A4459299EB89EDD1484F sha1 A28D40517A2CF045E492491CB0023B29E59DC4DD serial "812-0130" )
+)
+game (
+	name "Dictionnaire Hachette Multimedia (France) (Beta)"
+	description "Dictionnaire Hachette Multimedia (France) (Beta)"
+	region "France"
+	serial "8120097"
+	rom ( name "Dictionnaire Hachette Multimedia (France) (Beta).bin" size 720982080 crc CBAEC5BE md5 CD70688B1C52682BFC6BB0DDC1C7D029 sha1 AE399DC4E0E6B409CA99C27E1D1EDA9F1DA8AD6A serial "8120097" )
 )
 game (
 	name "Dictionnaire Hachette Multimedia (France) (Demo)"
@@ -4671,6 +4740,13 @@ game (
 	rom ( name "Ecolauto - No 3 - Cours de Formation B (France).bin" size 246082704 crc AA6D134E md5 8F044F479DB4B3431221980E53B4FEB1 sha1 88E9F18749A379022AA2930A606E150A1F360613 serial "3-2-6-94" )
 )
 game (
+	name "Ecolauto - No 4 - Tests Codoroute (France)"
+	description "Ecolauto - No 4 - Tests Codoroute (France)"
+	region "France"
+	serial "4-1-12-96"
+	rom ( name "Ecolauto - No 4 - Tests Codoroute (France).bin" size 404842704 crc 537896A3 md5 0F673D8E16EBFCE757CF26E899185477 sha1 2A48EBCCD5123BC78AB3125A40DEA1E2E8B4F3F5 serial "4-1-12-96" )
+)
+game (
 	name "Ecolauto - No 5 - Tests Codoroute (France)"
 	description "Ecolauto - No 5 - Tests Codoroute (France)"
 	region "France"
@@ -4784,6 +4860,12 @@ game (
 game (
 	name "Escape from CyberCity (USA, Europe)"
 	description "Escape from CyberCity (USA, Europe)"
+	serial "690-0712"
+	rom ( name "Escape from CyberCity (USA, Europe).bin" size 459275040 crc 5D5496CB md5 DDB39AD3F8122E87D8A7F1B22764D021 sha1 ED330C3238CEF06DE78332C77C649FBCAC7DE8EF serial "690-0712" )
+)
+game (
+	name "Escape from CyberCity (USA, Europe)"
+	description "Escape from CyberCity (USA, Europe)"
 	serial "810-0005"
 	rom ( name "Escape from CyberCity (USA, Europe).bin" size 459275040 crc 5D5496CB md5 DDB39AD3F8122E87D8A7F1B22764D021 sha1 ED330C3238CEF06DE78332C77C649FBCAC7DE8EF serial "810-0005" )
 )
@@ -4836,6 +4918,13 @@ game (
 	region "Europe"
 	serial "810-0094"
 	rom ( name "European Party (Europe).bin" size 562186800 crc F2317C96 md5 681B3AC4439A83C098275D4E5F1BC01B sha1 5FE1EDFA7A4DD10DCFF65B1D6E73778130FBC6A5 serial "810-0094" )
+)
+game (
+	name "European School, The (Europe)"
+	description "European School, The (Europe)"
+	region "Europe"
+	serial "819-0041"
+	rom ( name "European School, The (Europe).bin" size 156831360 crc C2736208 md5 616D1B29242410DCE21C15BC72E432BE sha1 0DBDB89123EF258AFF60C1D6A78115EC58FC33DE serial "819-0041" )
 )
 game (
 	name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)"
@@ -4934,6 +5023,12 @@ game (
 	description "Face Kitchen (UK) (Beta)"
 	serial "8110002"
 	rom ( name "Face Kitchen (UK) (Beta).bin" size 366041760 crc 37076458 md5 EF2CBC6F01C92B26CE766567F88F2189 sha1 30E8DE18DA07BA1FC003D98F4C2495435217B11F serial "8110002" )
+)
+game (
+	name "Facom F96 (France)"
+	description "Facom F96 (France)"
+	region "France"
+	rom ( name "Facom F96 (France).bin" size 602076720 crc 637F889A md5 B236BB5AD01DC9AB03EF03EA27AD1477 sha1 AABA1A346C0ABF00E400CE65B640A2DAB1F36AC5 )
 )
 game (
 	name "Fahren Lernen A - Version 1-99 (Germany)"
@@ -5372,10 +5467,10 @@ game (
 	rom ( name "Full Swing, The (Europe).bin" size 520203600 crc BCA6B548 md5 A7FCF9357633E33E5FA106CA4150CE57 sha1 D1ACFF2CF7632B516E79EC2E58D70C62B93C93A8 serial "819-0035" )
 )
 game (
-	name "Fun Tower (Europe)"
-	description "Fun Tower (Europe)"
+	name "Fun Tower (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Fun Tower (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
-	rom ( name "Fun Tower (Europe).bin" size 642806304 crc 931F0873 md5 0710CD9E5A9363C92DB989F8829245D7 sha1 E4DD8EC6A32DA803239FEB551066E80DDA99BD53 )
+	rom ( name "Fun Tower (Europe) (En,Fr,De,Es,It,Nl).bin" size 642806304 crc 931F0873 md5 0710CD9E5A9363C92DB989F8829245D7 sha1 E4DD8EC6A32DA803239FEB551066E80DDA99BD53 )
 )
 game (
 	name "Futbol (Spain)"
@@ -5889,6 +5984,12 @@ game (
 	rom ( name "Guidare e Pilotare (Italy) (En,It) (Beta).bin" size 653390304 crc 6D5DA24B md5 FBD97E5BAE5C6066FD1181269B41F6C6 sha1 4B8B2B679ED6C4582E79B4BA49545A0F533CDFB9 )
 )
 game (
+	name "Guide to Heavy Duty Pumps in the Construction Market (USA)"
+	description "Guide to Heavy Duty Pumps in the Construction Market (USA)"
+	region "USA"
+	rom ( name "Guide to Heavy Duty Pumps in the Construction Market (USA).bin" size 395665200 crc 3B4C007F md5 67867A69077E44A95370F709099140F6 sha1 F11C01AE4D41D8565D517114A681F69BF4519A47 )
+)
+game (
 	name "Guignols de l'Info, Les... le Jeu! (France)"
 	description "Guignols de l'Info, Les... le Jeu! (France)"
 	region "France"
@@ -6016,6 +6117,122 @@ game (
 	region "Germany"
 	serial "RTV-6003"
 	rom ( name "Hieroglyph (Germany).bin" size 29287104 crc F967B685 md5 A7D1613A1C6D6833EA4FE1003CA7ACE7 sha1 9A9982688BC71F6FBF1E7ACDC3F38A04D76212D9 serial "RTV-6003" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 1)"
+	description "Historia Universal del Arte (Spain) (Disc 1)"
+	region "Spain"
+	serial "L.01.01"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 1).bin" size 577361904 crc 95B1E340 md5 9DB1883FA8A684A919B1D6FF2A9658FF sha1 202355F8AA5C7A56301E7D39AE95A8075E4FF7F7 serial "L.01.01" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 1)"
+	description "Historia Universal del Arte (Spain) (Disc 1)"
+	region "Spain"
+	serial "L.01.01-0"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 1).bin" size 577361904 crc 95B1E340 md5 9DB1883FA8A684A919B1D6FF2A9658FF sha1 202355F8AA5C7A56301E7D39AE95A8075E4FF7F7 serial "L.01.01-0" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 2)"
+	description "Historia Universal del Arte (Spain) (Disc 2)"
+	region "Spain"
+	serial "L.01.01"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 2).bin" size 266192304 crc C04C60C1 md5 3EAD0C3737BAB98E27F4966A6222DBD2 sha1 5AD99002DED6ED25DBC29B02D958B0F418F8566E serial "L.01.01" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 2)"
+	description "Historia Universal del Arte (Spain) (Disc 2)"
+	region "Spain"
+	serial "L.01.01-1"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 2).bin" size 266192304 crc C04C60C1 md5 3EAD0C3737BAB98E27F4966A6222DBD2 sha1 5AD99002DED6ED25DBC29B02D958B0F418F8566E serial "L.01.01-1" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 3)"
+	description "Historia Universal del Arte (Spain) (Disc 3)"
+	region "Spain"
+	serial "L.01.01"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 3).bin" size 375560304 crc 253CA70E md5 BADEB67A2085B1C7459A421EC29A21B7 sha1 9EA844994D12E39932336F2F634B0EF62302BD46 serial "L.01.01" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 3)"
+	description "Historia Universal del Arte (Spain) (Disc 3)"
+	region "Spain"
+	serial "L.01.01-2"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 3).bin" size 375560304 crc 253CA70E md5 BADEB67A2085B1C7459A421EC29A21B7 sha1 9EA844994D12E39932336F2F634B0EF62302BD46 serial "L.01.01-2" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 4)"
+	description "Historia Universal del Arte (Spain) (Disc 4)"
+	region "Spain"
+	serial "L.01.01"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 4).bin" size 577538304 crc A9C8CA08 md5 57F2414A55500964F2E593A979A34F51 sha1 1A0D8AD9B643BDD4289FB02D1B34CE3E627F5B86 serial "L.01.01" )
+)
+game (
+	name "Historia Universal del Arte (Spain) (Disc 4)"
+	description "Historia Universal del Arte (Spain) (Disc 4)"
+	region "Spain"
+	serial "L.01.01-3"
+	rom ( name "Historia Universal del Arte (Spain) (Disc 4).bin" size 577538304 crc A9C8CA08 md5 57F2414A55500964F2E593A979A34F51 sha1 1A0D8AD9B643BDD4289FB02D1B34CE3E627F5B86 serial "L.01.01-3" )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 1) (Les Primeres Cultures)"
+	description "Historia de les Civilitzacions (Spain) (Disc 1) (Les Primeres Cultures)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 1) (Les Primeres Cultures).bin" size 707545104 crc E41BBA93 md5 2992A23FD6C97DC495137460A739ADF6 sha1 6A7324065A75C5195BC723E3820427FD0928F2C3 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 10) (El Segle XX)"
+	description "Historia de les Civilitzacions (Spain) (Disc 10) (El Segle XX)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 10) (El Segle XX).bin" size 670501104 crc 270475BB md5 F31AADC625C2589E9ACBD15EF857C0A6 sha1 6EF23BAD8D457F7F98AF90F9670AF2474276A121 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 2) (L'Antiguitat Classica)"
+	description "Historia de les Civilitzacions (Spain) (Disc 2) (L'Antiguitat Classica)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 2) (L'Antiguitat Classica).bin" size 680555904 crc 75941DFC md5 7235AB25B2E03301072EC0909E385FEB sha1 F125F3C725E19DC7D2E86FB9F21D58C018467098 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 3) (El Mon Cristia)"
+	description "Historia de les Civilitzacions (Spain) (Disc 3) (El Mon Cristia)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 3) (El Mon Cristia).bin" size 677380704 crc 6FD1F0E1 md5 11F6FF0C36056681FFC66F7CB4514259 sha1 B49F92EA0F07FFF1D2571A89762594BF506E9D0F )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 4) (L'Islam Medieval)"
+	description "Historia de les Civilitzacions (Spain) (Disc 4) (L'Islam Medieval)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 4) (L'Islam Medieval).bin" size 584065104 crc FC6A0FC3 md5 F5B9CF6F71FB0C646489F9BCA99FBB39 sha1 E9545E359CBDD419F78D8C0B4FF4459C0EF87975 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 5) (Cultures Precolombines)"
+	description "Historia de les Civilitzacions (Spain) (Disc 5) (Cultures Precolombines)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 5) (Cultures Precolombines).bin" size 669442704 crc A80C77F3 md5 839B618BAE646BAA56BBE55EE2E89C96 sha1 C883AEF2F543365784EF260EDC79C32A512733BC )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 6) (Europa a L'Edat Moderna)"
+	description "Historia de les Civilitzacions (Spain) (Disc 6) (Europa a L'Edat Moderna)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 6) (Europa a L'Edat Moderna).bin" size 694138704 crc 7D5C8AE0 md5 831F64C2F46A20CABAA22CFA5B819047 sha1 65B31343507230D18FEB16A4142BED8E0C5C37C5 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 7) (Els Pobles D'Asia)"
+	description "Historia de les Civilitzacions (Spain) (Disc 7) (Els Pobles D'Asia)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 7) (Els Pobles D'Asia).bin" size 639454704 crc 33573967 md5 41B1F81F191285CBA8BF7F9BE01A3996 sha1 A34EF272C242C2745066DF35331C817E391AD347 )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 8) (Noves Cultures)"
+	description "Historia de les Civilitzacions (Spain) (Disc 8) (Noves Cultures)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 8) (Noves Cultures).bin" size 612112704 crc 47390F9A md5 83824F2E6A715D1BA90545EF34504DBC sha1 75CE347C0F43C65B19A6F767BE4FAFDF4D2112BC )
+)
+game (
+	name "Historia de les Civilitzacions (Spain) (Disc 9) (Origens del Mon Contemporani)"
+	description "Historia de les Civilitzacions (Spain) (Disc 9) (Origens del Mon Contemporani)"
+	region "Spain"
+	rom ( name "Historia de les Civilitzacions (Spain) (Disc 9) (Origens del Mon Contemporani).bin" size 638043504 crc 2E051616 md5 19452AE23B808D56EB346ED8442E1DDF sha1 303ACF52EED882C29C919B623514DB8C76F37C0F )
 )
 game (
 	name "Historia del Arte Espanol (Spain) (Disc 1) (Los Origenes - Prehistoria y Primeras Civilizaciones)"
@@ -6564,11 +6781,207 @@ game (
 	rom ( name "Interactive Math - Whole Numbers (USA) (En,Es).bin" size 643688304 crc 20EB489A md5 32E9A3F3DDEF4E5E935BADB37DDA59B2 sha1 3D09CB46E18641C95DA2A040D987721B4085D1DC )
 )
 game (
+	name "Interactive Video Charts - Apr. '95-4 (Germany)"
+	description "Interactive Video Charts - Apr. '95-4 (Germany)"
+	region "Germany"
+	serial "ma-007"
+	rom ( name "Interactive Video Charts - Apr. '95-4 (Germany).bin" size 521972304 crc F3E0650C md5 26B8B08F5281A43FF1A2B6EE61D6F10F sha1 A9B1D68145A762016A982A97320F32B32BEEAB8D serial "ma-007" )
+)
+game (
+	name "Interactive Video Charts - April 96 (Germany)"
+	description "Interactive Video Charts - April 96 (Germany)"
+	region "Germany"
+	serial "ma-014"
+	rom ( name "Interactive Video Charts - April 96 (Germany).bin" size 646687104 crc E9DABD50 md5 5090FF4ADD62C025B6A11E9DA8A0D5C5 sha1 8EE2D863FFACFB871F6A5C034F623DE534B762AF serial "ma-014" )
+)
+game (
+	name "Interactive Video Charts - April 97 (Germany)"
+	description "Interactive Video Charts - April 97 (Germany)"
+	region "Germany"
+	serial "ma-026"
+	rom ( name "Interactive Video Charts - April 97 (Germany).bin" size 681261504 crc ADAAEA47 md5 FF74E660A28875C2C6826B5397E15409 sha1 0BC3EAA5C3B3ACB5A195262680C40DE095E33019 serial "ma-026" )
+)
+game (
+	name "Interactive Video Charts - Aug. '95-7 (Germany)"
+	description "Interactive Video Charts - Aug. '95-7 (Germany)"
+	region "Germany"
+	serial "ma-010"
+	rom ( name "Interactive Video Charts - Aug. '95-7 (Germany).bin" size 503097504 crc E8E951A1 md5 CF3136B0481759D3E53C37BB1E5D3B57 sha1 5F47F1C520AF67C5D20AC4BAE4F32BB77CB277DB serial "ma-010" )
+)
+game (
+	name "Interactive Video Charts - August 97 (Germany)"
+	description "Interactive Video Charts - August 97 (Germany)"
+	region "Germany"
+	serial "ma-031"
+	rom ( name "Interactive Video Charts - August 97 (Germany).bin" size 674553600 crc 7285939F md5 1B2D722322F1C3CA7DB783059C539366 sha1 0002FD999305753B834E3FA60297012C5BB6C11B serial "ma-031" )
+)
+game (
+	name "Interactive Video Charts - Dez. '94-3 (Germany)"
+	description "Interactive Video Charts - Dez. '94-3 (Germany)"
+	region "Germany"
+	serial "ma-003"
+	rom ( name "Interactive Video Charts - Dez. '94-3 (Germany).bin" size 548251200 crc B7069EA1 md5 14625E197AB1162F6FD1FE0EA4C85F07 sha1 C5688FE28F17B66ABF0F65032E529D482BA98427 serial "ma-003" )
+)
+game (
+	name "Interactive Video Charts - Dezember 96 (Germany)"
+	description "Interactive Video Charts - Dezember 96 (Germany)"
+	region "Germany"
+	serial "ma-022"
+	rom ( name "Interactive Video Charts - Dezember 96 (Germany).bin" size 647392704 crc 21F9E9E5 md5 BC1DFEDC6E9F84C2CF6B2F0805C8F558 sha1 403A57AFD771BD81A13E25CF39F2A93A542BFFF8 serial "ma-022" )
+)
+game (
+	name "Interactive Video Charts - Februar 96 (Germany)"
+	description "Interactive Video Charts - Februar 96 (Germany)"
+	region "Germany"
+	serial "ma-012"
+	rom ( name "Interactive Video Charts - Februar 96 (Germany).bin" size 668384304 crc F5120A24 md5 6F249D10E173C5A73018A2AA8A1691E3 sha1 747747F7242B8BB3E603A6FF6F93573FC04BEA25 serial "ma-012" )
+)
+game (
+	name "Interactive Video Charts - Jan. '95-1 (Germany)"
+	description "Interactive Video Charts - Jan. '95-1 (Germany)"
+	region "Germany"
+	serial "ma-004"
+	rom ( name "Interactive Video Charts - Jan. '95-1 (Germany).bin" size 538377504 crc AB1567A1 md5 9508A6EECD3CADBE3D8C4B5956D039EB sha1 74C027A1646B565D9799FDA9CAC7DF1FA2C2B397 serial "ma-004" )
+)
+game (
+	name "Interactive Video Charts - Januar 96 (Germany)"
+	description "Interactive Video Charts - Januar 96 (Germany)"
+	region "Germany"
+	serial "ma-011"
+	rom ( name "Interactive Video Charts - Januar 96 (Germany).bin" size 695549904 crc 0BA822F6 md5 06A20B1E99820FD87B19ADAE4EA24A7E sha1 D45E9F2F4C3DE1EA03CB8128EE8400C981F9605E serial "ma-011" )
+)
+game (
+	name "Interactive Video Charts - Januar 97 (Germany)"
+	description "Interactive Video Charts - Januar 97 (Germany)"
+	region "Germany"
+	serial "ma-023"
+	rom ( name "Interactive Video Charts - Januar 97 (Germany).bin" size 686200704 crc 3B803770 md5 22F6DE6BAA26AF40ED953B4DE5810A51 sha1 17F8E83B22DF08000401359388C86D688D871F90 serial "ma-023" )
+)
+game (
+	name "Interactive Video Charts - Juli 96 (Germany)"
+	description "Interactive Video Charts - Juli 96 (Germany)"
+	region "Germany"
+	serial "ma-017"
+	rom ( name "Interactive Video Charts - Juli 96 (Germany).bin" size 659383200 crc A5E4E3E4 md5 B5FB17CD5516BDC8586E480DEA87C249 sha1 ACF845DC574AFAA19A8A5E6791AE993AC65260A8 serial "ma-017" )
+)
+game (
+	name "Interactive Video Charts - Juli 97 (Germany)"
+	description "Interactive Video Charts - Juli 97 (Germany)"
+	region "Germany"
+	serial "ma-030"
+	rom ( name "Interactive Video Charts - Juli 97 (Germany).bin" size 710186400 crc 9BF944D7 md5 F45461A1BBA1F4064B6EC3796359440B sha1 E15E8BBC4619DB5C3380AF693D6FED1BAEA472D2 serial "ma-030" )
+)
+game (
+	name "Interactive Video Charts - Juni 96 (Germany)"
+	description "Interactive Video Charts - Juni 96 (Germany)"
+	region "Germany"
+	serial "ma-016"
+	rom ( name "Interactive Video Charts - Juni 96 (Germany).bin" size 650215104 crc B661A3F8 md5 847FABC4CF519B26702434C4CD0EEEDC sha1 FD884507F5076CC68A45F99C408498DC531CBB21 serial "ma-016" )
+)
+game (
+	name "Interactive Video Charts - Juni 97 (Germany)"
+	description "Interactive Video Charts - Juni 97 (Germany)"
+	region "Germany"
+	serial "ma-028"
+	rom ( name "Interactive Video Charts - Juni 97 (Germany).bin" size 618813552 crc 954E9D51 md5 EB3C225F29A4C29FE75EE1EF933C11CA sha1 9ACA240456CCDBC006535753ED1DCE09383CC225 serial "ma-028" )
+)
+game (
+	name "Interactive Video Charts - Maerz '95-3 (Germany)"
+	description "Interactive Video Charts - Maerz '95-3 (Germany)"
+	region "Germany"
+	serial "ma-006"
+	rom ( name "Interactive Video Charts - Maerz '95-3 (Germany).bin" size 520913904 crc 7BB3C272 md5 F7D679263371CA61A76C0558EF0523DA sha1 80FC6C6091579AB856F6DC5C577E15768B9E8222 serial "ma-006" )
+)
+game (
+	name "Interactive Video Charts - Maerz 96 (Germany)"
+	description "Interactive Video Charts - Maerz 96 (Germany)"
+	region "Germany"
+	serial "ma-013"
+	rom ( name "Interactive Video Charts - Maerz 96 (Germany).bin" size 636985104 crc D9ACB4BA md5 8BDF29A4F037293F20134D5D4EE4ACDC sha1 E941C2E885F0C383CEE6C71DA02C614E5964E9EC serial "ma-013" )
+)
+game (
 	name "Interactive Video Charts - Maerz 97 (Germany)"
 	description "Interactive Video Charts - Maerz 97 (Germany)"
 	region "Germany"
 	serial "ma-025"
 	rom ( name "Interactive Video Charts - Maerz 97 (Germany).bin" size 682496304 crc B404D56B md5 F8D050E751F9443FD38142F51C229DF9 sha1 FB930A14574AB940689B5DA96AB8ECAD23C63FC3 serial "ma-025" )
+)
+game (
+	name "Interactive Video Charts - Mai '95-5 (Germany)"
+	description "Interactive Video Charts - Mai '95-5 (Germany)"
+	region "Germany"
+	serial "ma-008"
+	rom ( name "Interactive Video Charts - Mai '95-5 (Germany).bin" size 528675504 crc B080BAE6 md5 7B3348ED0CF554DA4AFF8242A5189430 sha1 595FD2E14E605D04F30EEA296797EC528939FF8A serial "ma-008" )
+)
+game (
+	name "Interactive Video Charts - Mai 96 (Germany)"
+	description "Interactive Video Charts - Mai 96 (Germany)"
+	region "Germany"
+	serial "ma-015"
+	rom ( name "Interactive Video Charts - Mai 96 (Germany).bin" size 682138800 crc 9BCB595B md5 6E377130142132D6DD925062EB26B34F sha1 EE776F563B291EABDE0ED9672039EDD4368081C1 serial "ma-015" )
+)
+game (
+	name "Interactive Video Charts - Mai 97 (Germany)"
+	description "Interactive Video Charts - Mai 97 (Germany)"
+	region "Germany"
+	serial "ma-027"
+	rom ( name "Interactive Video Charts - Mai 97 (Germany).bin" size 698195904 crc 3203D289 md5 2CA8A8E4AD8E153D72CB5B0700508D17 sha1 4426CE9BE9D34A023610D73660A27D7E15B21D18 serial "ma-027" )
+)
+game (
+	name "Interactive Video Charts - November 96 (Germany)"
+	description "Interactive Video Charts - November 96 (Germany)"
+	region "Germany"
+	serial "ma-021"
+	rom ( name "Interactive Video Charts - November 96 (Germany).bin" size 608231904 crc 2C9C1BFA md5 3E3139669D8D4E7228BCEC1636E45772 sha1 5EFA9D51AE2BCF705F4F7C74555E4BB9A9E2C224 serial "ma-021" )
+)
+game (
+	name "Interactive Video Charts - November 97 (Germany)"
+	description "Interactive Video Charts - November 97 (Germany)"
+	region "Germany"
+	serial "ma-034"
+	rom ( name "Interactive Video Charts - November 97 (Germany).bin" size 677027904 crc 49CCE01C md5 8B10C9106EA21FB7AEBE4B0917C30C1F sha1 FB675BFF6CB28335A5F863E92FB81E65F8704B05 serial "ma-034" )
+)
+game (
+	name "Interactive Video Charts - Oct. '94-1 (Germany)"
+	description "Interactive Video Charts - Oct. '94-1 (Germany)"
+	region "Germany"
+	serial "ma-001"
+	rom ( name "Interactive Video Charts - Oct. '94-1 (Germany).bin" size 506797200 crc 3F7F9E87 md5 AC44311AD03F9E48B6BFD16CCE2DD0F7 sha1 B89D90A3A81A085074BC01C325B918085C9B989F serial "ma-001" )
+)
+game (
+	name "Interactive Video Charts - Oktober 96 (Germany)"
+	description "Interactive Video Charts - Oktober 96 (Germany)"
+	region "Germany"
+	serial "ma-020"
+	rom ( name "Interactive Video Charts - Oktober 96 (Germany).bin" size 701018304 crc 4BCEA9F4 md5 1411611F3992CFBDCEA419AC05772C38 sha1 18EF382F6738A7C811EAD7D19CD2DE5D98D5FAB4 serial "ma-020" )
+)
+game (
+	name "Interactive Video Charts - Oktober 97 (Germany)"
+	description "Interactive Video Charts - Oktober 97 (Germany)"
+	region "Germany"
+	serial "ma-033"
+	rom ( name "Interactive Video Charts - Oktober 97 (Germany).bin" size 633628800 crc 5013D680 md5 33709F58A0D224BAFA40798891A8F280 sha1 379BEBFDFD58DE6EA41F454E57F43A7E75B43A92 serial "ma-033" )
+)
+game (
+	name "Interactive Video Charts - September 96 (Germany)"
+	description "Interactive Video Charts - September 96 (Germany)"
+	region "Germany"
+	serial "ma-019"
+	rom ( name "Interactive Video Charts - September 96 (Germany).bin" size 668556000 crc 528B6533 md5 BA855C94815E5331CD6CA912308BD80E sha1 7A46C4FE03350627374A7621477EF5483EA6F409 serial "ma-019" )
+)
+game (
+	name "Interactive Video Charts - September 97 (Germany)"
+	description "Interactive Video Charts - September 97 (Germany)"
+	region "Germany"
+	serial "ma-032"
+	rom ( name "Interactive Video Charts - September 97 (Germany).bin" size 693957600 crc 2D2D6D62 md5 76F75D61E5FA34271ACFF3810A119966 sha1 2C6DA5881AF2DCC08BB468169E6DED7206B5A705 serial "ma-032" )
+)
+game (
+	name "Interactive Voyage of Discovery through the Unique World of Unisource, An (Europe)"
+	description "Interactive Voyage of Discovery through the Unique World of Unisource, An (Europe)"
+	region "Europe"
+	serial "MAD-081007110612"
+	rom ( name "Interactive Voyage of Discovery through the Unique World of Unisource, An (Europe).bin" size 782691504 crc A0463DBB md5 53F20119D56C478F7F7BD5069803C06F sha1 E452C7F16FC33C4B9E6484140108DEDFEECF17BC serial "MAD-081007110612" )
 )
 game (
 	name "International Tennis Open (Europe) (En,Fr)"
@@ -6716,6 +7129,13 @@ game (
 	rom ( name "Itineraires en Ophtalmologie (France).bin" size 363031200 crc BB745C8C md5 2D0FA7873E8165855E408EAF8189B394 sha1 950285334FBC403CAA9E58DA1900786A405570D1 )
 )
 game (
+	name "J'Invente Mes Histoires - Histoires Magiques (France)"
+	description "J'Invente Mes Histoires - Histoires Magiques (France)"
+	region "France"
+	serial "812-0028"
+	rom ( name "J'Invente Mes Histoires - Histoires Magiques (France).bin" size 204036000 crc 25540887 md5 E6DFB885088D3D76D350243C9B9B2BFC sha1 26C2AC4238F6A6F10767BCA3FD4A2016A774F399 serial "812-0028" )
+)
+game (
 	name "Jack Sprite vs. the Crimson Ghost (USA) (Unl)"
 	description "Jack Sprite vs. the Crimson Ghost (USA) (Unl)"
 	region "USA"
@@ -6756,6 +7176,13 @@ game (
 	region "Japan"
 	serial "JNMSTD-001"
 	rom ( name "Japan Media System, Inc. - JNMS Test Disc (Japan).bin" size 276312960 crc 8D848F42 md5 1FFDFCFCAA1D8E398FA64C6FE6372A0B sha1 ED07CA52F8C74D2E16C28F7B567529A513F7DD6A serial "JNMSTD-001" )
+)
+game (
+	name "Jazz - Methode de Guitare (France)"
+	description "Jazz - Methode de Guitare (France)"
+	region "France"
+	serial "812-0068"
+	rom ( name "Jazz - Methode de Guitare (France).bin" size 602135520 crc F302CD49 md5 7F51B5D529A533F8990EC2B689200EA7 sha1 B7CF9641286F6BAAAC3A38F11B0F19681251421A serial "812-0068" )
 )
 game (
 	name "Jazz Giants - From Big Band to Bossa Nova (USA, Europe)"
@@ -6802,6 +7229,34 @@ game (
 	region "USA"
 	serial "310-690-263-2"
 	rom ( name "Jeopardy! (USA) (Beta).bin" size 471870000 crc 741CFDB9 md5 8F2DF68E69BF934D9AA5241D88E93871 sha1 E500995A3351527658696760ADB0B7F9FD6B6C68 serial "310-690-263-2" )
+)
+game (
+	name "Jeux de Guerre (France) (Disc 1)"
+	description "Jeux de Guerre (France) (Disc 1)"
+	region "France"
+	serial "812-1026"
+	rom ( name "Jeux de Guerre (France) (Disc 1).bin" size 594468000 crc 47DE86D8 md5 83A262EF5056490814B9B349325C578B sha1 595490FB6F0E37FB2B1699930FA9510463D9D9EA serial "812-1026" )
+)
+game (
+	name "Jeux de Guerre (France) (Disc 1)"
+	description "Jeux de Guerre (France) (Disc 1)"
+	region "France"
+	serial "812-1026-0"
+	rom ( name "Jeux de Guerre (France) (Disc 1).bin" size 594468000 crc 47DE86D8 md5 83A262EF5056490814B9B349325C578B sha1 595490FB6F0E37FB2B1699930FA9510463D9D9EA serial "812-1026-0" )
+)
+game (
+	name "Jeux de Guerre (France) (Disc 2)"
+	description "Jeux de Guerre (France) (Disc 2)"
+	region "France"
+	serial "812-1027"
+	rom ( name "Jeux de Guerre (France) (Disc 2).bin" size 617047200 crc 1AED2D33 md5 FA5DF6DB19587BF62155A9C7FC165D73 sha1 0D19295CF1E801D4350D3A18563970E5A1517C48 serial "812-1027" )
+)
+game (
+	name "Jeux de Guerre (France) (Disc 2)"
+	description "Jeux de Guerre (France) (Disc 2)"
+	region "France"
+	serial "812-1027-1"
+	rom ( name "Jeux de Guerre (France) (Disc 2).bin" size 617047200 crc 1AED2D33 md5 FA5DF6DB19587BF62155A9C7FC165D73 sha1 0D19295CF1E801D4350D3A18563970E5A1517C48 serial "812-1027-1" )
 )
 game (
 	name "Jigsaw - The Ultimate Electronic Puzzle (Europe)"
@@ -7142,7 +7597,12 @@ game (
 game (
 	name "Keeping Customers Cool (UK)"
 	description "Keeping Customers Cool (UK)"
-	rom ( name "Keeping Customers Cool (UK).bin" size 776870304 crc AF9CFB14 md5 C52A19793A6D080E910D01209231E8CB sha1 3C4B23A71E6B9E7E7438CD106D3727FB85C83B83 )
+	rom ( name "Keeping Customers Cool (UK).bin" size 752694096 crc B8C73E50 md5 7CEE80347523C6185ED0F6A7931E00AA sha1 34467F765144A497C5047E3984B7572DDC0184CE )
+)
+game (
+	name "Keeping Customers Cool (UK) (Rev 1)"
+	description "Keeping Customers Cool (UK) (Rev 1)"
+	rom ( name "Keeping Customers Cool (UK) (Rev 1).bin" size 776870304 crc AF9CFB14 md5 C52A19793A6D080E910D01209231E8CB sha1 3C4B23A71E6B9E7E7438CD106D3727FB85C83B83 )
 )
 game (
 	name "Kether (Europe) (En,Fr)"
@@ -7334,18 +7794,32 @@ game (
 	rom ( name "Land van Ooit, Het (Netherlands) (Track 01).bin" size 369910800 crc 77714484 md5 807A0D111C9701ACB96CE65CB2FF4E07 sha1 10C69C5FF316F38120E3EC18017B1E13BE241CD9 serial "LVO1995.001" )
 )
 game (
-	name "Language Director - Deutsch - Level 1 - Disc 1 (Europe)"
-	description "Language Director - Deutsch - Level 1 - Disc 1 (Europe)"
+	name "Language Director - Deutsch - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Deutsch - Level 1 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6030/01A"
-	rom ( name "Language Director - Deutsch - Level 1 - Disc 1 (Europe).bin" size 411012000 crc FEA0DE7F md5 0BEB062F77520725AA097674E1B1B306 sha1 7458A1E1BEC29968EA76C74A0692E2A31C24B5A2 serial "ILC-6030/01A" )
+	rom ( name "Language Director - Deutsch - Level 1 (Europe) (Disc 1).bin" size 411012000 crc FEA0DE7F md5 0BEB062F77520725AA097674E1B1B306 sha1 7458A1E1BEC29968EA76C74A0692E2A31C24B5A2 serial "ILC-6030/01A" )
 )
 game (
-	name "Language Director - Deutsch - Level 1 - Disc 2 (Europe)"
-	description "Language Director - Deutsch - Level 1 - Disc 2 (Europe)"
+	name "Language Director - Deutsch - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Deutsch - Level 1 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6030/01A-0"
+	rom ( name "Language Director - Deutsch - Level 1 (Europe) (Disc 1).bin" size 411012000 crc FEA0DE7F md5 0BEB062F77520725AA097674E1B1B306 sha1 7458A1E1BEC29968EA76C74A0692E2A31C24B5A2 serial "ILC-6030/01A-0" )
+)
+game (
+	name "Language Director - Deutsch - Level 1 (Europe) (Disc 2)"
+	description "Language Director - Deutsch - Level 1 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6030/01B"
-	rom ( name "Language Director - Deutsch - Level 1 - Disc 2 (Europe).bin" size 382435200 crc C5D90D70 md5 4C75F2488C1C302061E0B157C046F20F sha1 BA5D3718ACBE0EDF21EC37A1E78CDB0E6459B057 serial "ILC-6030/01B" )
+	rom ( name "Language Director - Deutsch - Level 1 (Europe) (Disc 2).bin" size 382435200 crc C5D90D70 md5 4C75F2488C1C302061E0B157C046F20F sha1 BA5D3718ACBE0EDF21EC37A1E78CDB0E6459B057 serial "ILC-6030/01B" )
+)
+game (
+	name "Language Director - Deutsch - Level 1 (Europe) (Disc 2)"
+	description "Language Director - Deutsch - Level 1 (Europe) (Disc 2)"
+	region "Europe"
+	serial "ILC-6030/01B-1"
+	rom ( name "Language Director - Deutsch - Level 1 (Europe) (Disc 2).bin" size 382435200 crc C5D90D70 md5 4C75F2488C1C302061E0B157C046F20F sha1 BA5D3718ACBE0EDF21EC37A1E78CDB0E6459B057 serial "ILC-6030/01B-1" )
 )
 game (
 	name "Language Director - Deutsch - Level 2 (Europe) (Disc 1)"
@@ -7446,6 +7920,20 @@ game (
 	rom ( name "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 2).bin" size 469929600 crc 748C057A md5 4F39E5791B2620C390195C47EF29DA3B sha1 6921FA69E9BB0E6B1E9EE929452A4BAB49EC75E3 serial "ILC-6010/01B-1" )
 )
 game (
+	name "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3)"
+	description "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3)"
+	region "Europe"
+	serial "ILC-6010/01B"
+	rom ( name "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3).bin" size 469576800 crc 434CFB50 md5 DD00AAA7E9D9E39DF15D669A8FD53E27 sha1 32CBD07787754559A1F10CFD22DB54CDE4B921C7 serial "ILC-6010/01B" )
+)
+game (
+	name "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3)"
+	description "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3)"
+	region "Europe"
+	serial "ILC-6010/01B-1"
+	rom ( name "Language Director - English - Level 1 (Europe) (Disc 2) (Rev 3).bin" size 469576800 crc 434CFB50 md5 DD00AAA7E9D9E39DF15D669A8FD53E27 sha1 32CBD07787754559A1F10CFD22DB54CDE4B921C7 serial "ILC-6010/01B-1" )
+)
+game (
 	name "Language Director - English - Level 2 (Europe) (Disc 1)"
 	description "Language Director - English - Level 2 (Europe) (Disc 1)"
 	region "Europe"
@@ -7530,248 +8018,277 @@ game (
 	rom ( name "Language Director - English - Level 3 (Europe) (Disc 2).bin" size 522144000 crc 6AF63A26 md5 795B8E5F01EA13F24AD5AA8DC62D1EED sha1 B7745DC361D49C1D6F1E3BF029E0F6B557F8BC0A serial "ILC-6010/03B-1" )
 )
 game (
-	name "Language Director - French - Level 1 (Europe) (Disc 1)"
-	description "Language Director - French - Level 1 (Europe) (Disc 1)"
+	name "Language Director - Espanol - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 1 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/01A"
+	rom ( name "Language Director - Espanol - Level 1 (Europe) (Disc 1).bin" size 349977600 crc EF0C1389 md5 820304B20BCF0B6813509B9A6BBFB16E sha1 390252DC3D9991E679FC3192514EBF56AAC8898E serial "ILC-6040/01A" )
+)
+game (
+	name "Language Director - Espanol - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 1 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/01A-0"
+	rom ( name "Language Director - Espanol - Level 1 (Europe) (Disc 1).bin" size 349977600 crc EF0C1389 md5 820304B20BCF0B6813509B9A6BBFB16E sha1 390252DC3D9991E679FC3192514EBF56AAC8898E serial "ILC-6040/01A-0" )
+)
+game (
+	name "Language Director - Espanol - Level 2 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 2 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/02A"
+	rom ( name "Language Director - Espanol - Level 2 (Europe) (Disc 1).bin" size 484923600 crc 7D1268D1 md5 559204CE25B146D77D128F73DF13F080 sha1 4641B5E78F95EF93F12705188AB68C5FFFB01B39 serial "ILC-6040/02A" )
+)
+game (
+	name "Language Director - Espanol - Level 2 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 2 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/02A-0"
+	rom ( name "Language Director - Espanol - Level 2 (Europe) (Disc 1).bin" size 484923600 crc 7D1268D1 md5 559204CE25B146D77D128F73DF13F080 sha1 4641B5E78F95EF93F12705188AB68C5FFFB01B39 serial "ILC-6040/02A-0" )
+)
+game (
+	name "Language Director - Espanol - Level 2 (Europe) (Disc 2)"
+	description "Language Director - Espanol - Level 2 (Europe) (Disc 2)"
+	region "Europe"
+	serial "ILC-6040/02B"
+	rom ( name "Language Director - Espanol - Level 2 (Europe) (Disc 2).bin" size 287532000 crc 6F7E5167 md5 648DF7BA684B6BB63FD63732516C2288 sha1 5D3171F6B65B24E2FE1C65DF311C08CE54FEB44F serial "ILC-6040/02B" )
+)
+game (
+	name "Language Director - Espanol - Level 2 (Europe) (Disc 2)"
+	description "Language Director - Espanol - Level 2 (Europe) (Disc 2)"
+	region "Europe"
+	serial "ILC-6040/02B-1"
+	rom ( name "Language Director - Espanol - Level 2 (Europe) (Disc 2).bin" size 287532000 crc 6F7E5167 md5 648DF7BA684B6BB63FD63732516C2288 sha1 5D3171F6B65B24E2FE1C65DF311C08CE54FEB44F serial "ILC-6040/02B-1" )
+)
+game (
+	name "Language Director - Espanol - Level 3 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 3 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/03A"
+	rom ( name "Language Director - Espanol - Level 3 (Europe) (Disc 1).bin" size 454935600 crc DE43649C md5 254ED33E8D148082A07C424D20421AF4 sha1 1AC96FF7B8805AF7E010B0142EE11CCC593244A7 serial "ILC-6040/03A" )
+)
+game (
+	name "Language Director - Espanol - Level 3 (Europe) (Disc 1)"
+	description "Language Director - Espanol - Level 3 (Europe) (Disc 1)"
+	region "Europe"
+	serial "ILC-6040/03A-0"
+	rom ( name "Language Director - Espanol - Level 3 (Europe) (Disc 1).bin" size 454935600 crc DE43649C md5 254ED33E8D148082A07C424D20421AF4 sha1 1AC96FF7B8805AF7E010B0142EE11CCC593244A7 serial "ILC-6040/03A-0" )
+)
+game (
+	name "Language Director - Espanol - Level 3 (Europe) (Disc 2)"
+	description "Language Director - Espanol - Level 3 (Europe) (Disc 2)"
+	region "Europe"
+	serial "ILC-6040/03B"
+	rom ( name "Language Director - Espanol - Level 3 (Europe) (Disc 2).bin" size 489686400 crc 682E7656 md5 B4DC138A18CAFDF7ADA799E949231255 sha1 2768BB2BCECE718F09636705AFE2E769D67916C5 serial "ILC-6040/03B" )
+)
+game (
+	name "Language Director - Espanol - Level 3 (Europe) (Disc 2)"
+	description "Language Director - Espanol - Level 3 (Europe) (Disc 2)"
+	region "Europe"
+	serial "ILC-6040/03B-1"
+	rom ( name "Language Director - Espanol - Level 3 (Europe) (Disc 2).bin" size 489686400 crc 682E7656 md5 B4DC138A18CAFDF7ADA799E949231255 sha1 2768BB2BCECE718F09636705AFE2E769D67916C5 serial "ILC-6040/03B-1" )
+)
+game (
+	name "Language Director - Francais - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 1 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/01A"
-	rom ( name "Language Director - French - Level 1 (Europe) (Disc 1).bin" size 446821200 crc 7E7A4E84 md5 9600DF4EA1C3B591A4BCAD6BB8E18805 sha1 05BCA6A4435D3978E1594DFF733AA0A825EDAED3 serial "ILC-6020/01A" )
+	rom ( name "Language Director - Francais - Level 1 (Europe) (Disc 1).bin" size 446821200 crc 7E7A4E84 md5 9600DF4EA1C3B591A4BCAD6BB8E18805 sha1 05BCA6A4435D3978E1594DFF733AA0A825EDAED3 serial "ILC-6020/01A" )
 )
 game (
-	name "Language Director - French - Level 1 (Europe) (Disc 1)"
-	description "Language Director - French - Level 1 (Europe) (Disc 1)"
+	name "Language Director - Francais - Level 1 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 1 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/01A-0"
-	rom ( name "Language Director - French - Level 1 (Europe) (Disc 1).bin" size 446821200 crc 7E7A4E84 md5 9600DF4EA1C3B591A4BCAD6BB8E18805 sha1 05BCA6A4435D3978E1594DFF733AA0A825EDAED3 serial "ILC-6020/01A-0" )
+	rom ( name "Language Director - Francais - Level 1 (Europe) (Disc 1).bin" size 446821200 crc 7E7A4E84 md5 9600DF4EA1C3B591A4BCAD6BB8E18805 sha1 05BCA6A4435D3978E1594DFF733AA0A825EDAED3 serial "ILC-6020/01A-0" )
 )
 game (
-	name "Language Director - French - Level 1 (Europe) (Disc 2)"
-	description "Language Director - French - Level 1 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 1 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 1 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/01B"
-	rom ( name "Language Director - French - Level 1 (Europe) (Disc 2).bin" size 484570800 crc 833CCD92 md5 0E74752636D7ECC4FA9271310E8D142A sha1 C9871191136D2DDB32707B30E3F64CA72101A095 serial "ILC-6020/01B" )
+	rom ( name "Language Director - Francais - Level 1 (Europe) (Disc 2).bin" size 484570800 crc 833CCD92 md5 0E74752636D7ECC4FA9271310E8D142A sha1 C9871191136D2DDB32707B30E3F64CA72101A095 serial "ILC-6020/01B" )
 )
 game (
-	name "Language Director - French - Level 1 (Europe) (Disc 2)"
-	description "Language Director - French - Level 1 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 1 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 1 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/01B-1"
-	rom ( name "Language Director - French - Level 1 (Europe) (Disc 2).bin" size 484570800 crc 833CCD92 md5 0E74752636D7ECC4FA9271310E8D142A sha1 C9871191136D2DDB32707B30E3F64CA72101A095 serial "ILC-6020/01B-1" )
+	rom ( name "Language Director - Francais - Level 1 (Europe) (Disc 2).bin" size 484570800 crc 833CCD92 md5 0E74752636D7ECC4FA9271310E8D142A sha1 C9871191136D2DDB32707B30E3F64CA72101A095 serial "ILC-6020/01B-1" )
 )
 game (
-	name "Language Director - French - Level 2 (Europe) (Disc 1)"
-	description "Language Director - French - Level 2 (Europe) (Disc 1)"
+	name "Language Director - Francais - Level 2 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 2 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/02A"
-	rom ( name "Language Director - French - Level 2 (Europe) (Disc 1).bin" size 499564800 crc 83229DE1 md5 223955A81F028BD6EBF9607948708AA5 sha1 B44F419EE56B3E983D867EBB37573D3FE0F3EAC3 serial "ILC-6020/02A" )
+	rom ( name "Language Director - Francais - Level 2 (Europe) (Disc 1).bin" size 499564800 crc 83229DE1 md5 223955A81F028BD6EBF9607948708AA5 sha1 B44F419EE56B3E983D867EBB37573D3FE0F3EAC3 serial "ILC-6020/02A" )
 )
 game (
-	name "Language Director - French - Level 2 (Europe) (Disc 1)"
-	description "Language Director - French - Level 2 (Europe) (Disc 1)"
+	name "Language Director - Francais - Level 2 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 2 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/02A-0"
-	rom ( name "Language Director - French - Level 2 (Europe) (Disc 1).bin" size 499564800 crc 83229DE1 md5 223955A81F028BD6EBF9607948708AA5 sha1 B44F419EE56B3E983D867EBB37573D3FE0F3EAC3 serial "ILC-6020/02A-0" )
+	rom ( name "Language Director - Francais - Level 2 (Europe) (Disc 1).bin" size 499564800 crc 83229DE1 md5 223955A81F028BD6EBF9607948708AA5 sha1 B44F419EE56B3E983D867EBB37573D3FE0F3EAC3 serial "ILC-6020/02A-0" )
 )
 game (
-	name "Language Director - French - Level 2 (Europe) (Disc 2)"
-	description "Language Director - French - Level 2 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 2 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 2 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/02B"
-	rom ( name "Language Director - French - Level 2 (Europe) (Disc 2).bin" size 316285200 crc FA51D90E md5 BD73420A6B54644A44E0CD5158F144D7 sha1 BACA83002B14BB0B3CA36A157C903E6EF81C8865 serial "ILC-6020/02B" )
+	rom ( name "Language Director - Francais - Level 2 (Europe) (Disc 2).bin" size 316285200 crc FA51D90E md5 BD73420A6B54644A44E0CD5158F144D7 sha1 BACA83002B14BB0B3CA36A157C903E6EF81C8865 serial "ILC-6020/02B" )
 )
 game (
-	name "Language Director - French - Level 2 (Europe) (Disc 2)"
-	description "Language Director - French - Level 2 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 2 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 2 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/02B-1"
-	rom ( name "Language Director - French - Level 2 (Europe) (Disc 2).bin" size 316285200 crc FA51D90E md5 BD73420A6B54644A44E0CD5158F144D7 sha1 BACA83002B14BB0B3CA36A157C903E6EF81C8865 serial "ILC-6020/02B-1" )
+	rom ( name "Language Director - Francais - Level 2 (Europe) (Disc 2).bin" size 316285200 crc FA51D90E md5 BD73420A6B54644A44E0CD5158F144D7 sha1 BACA83002B14BB0B3CA36A157C903E6EF81C8865 serial "ILC-6020/02B-1" )
 )
 game (
-	name "Language Director - French - Level 3 (Europe) (Disc 1)"
-	description "Language Director - French - Level 3 (Europe) (Disc 1)"
+	name "Language Director - Francais - Level 3 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 3 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/03A"
-	rom ( name "Language Director - French - Level 3 (Europe) (Disc 1).bin" size 530434800 crc 54E32A6C md5 9B1500E62413B16EA30F3BE83B621AF8 sha1 4268FC5B3642B0EBF39F051E63205F899163F255 serial "ILC-6020/03A" )
+	rom ( name "Language Director - Francais - Level 3 (Europe) (Disc 1).bin" size 530434800 crc 54E32A6C md5 9B1500E62413B16EA30F3BE83B621AF8 sha1 4268FC5B3642B0EBF39F051E63205F899163F255 serial "ILC-6020/03A" )
 )
 game (
-	name "Language Director - French - Level 3 (Europe) (Disc 1)"
-	description "Language Director - French - Level 3 (Europe) (Disc 1)"
+	name "Language Director - Francais - Level 3 (Europe) (Disc 1)"
+	description "Language Director - Francais - Level 3 (Europe) (Disc 1)"
 	region "Europe"
 	serial "ILC-6020/03A-0"
-	rom ( name "Language Director - French - Level 3 (Europe) (Disc 1).bin" size 530434800 crc 54E32A6C md5 9B1500E62413B16EA30F3BE83B621AF8 sha1 4268FC5B3642B0EBF39F051E63205F899163F255 serial "ILC-6020/03A-0" )
+	rom ( name "Language Director - Francais - Level 3 (Europe) (Disc 1).bin" size 530434800 crc 54E32A6C md5 9B1500E62413B16EA30F3BE83B621AF8 sha1 4268FC5B3642B0EBF39F051E63205F899163F255 serial "ILC-6020/03A-0" )
 )
 game (
-	name "Language Director - French - Level 3 (Europe) (Disc 2)"
-	description "Language Director - French - Level 3 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 3 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 3 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/03B"
-	rom ( name "Language Director - French - Level 3 (Europe) (Disc 2).bin" size 597996000 crc 7A63AFF0 md5 11922BED9AA9DC597248F9419E51DEB6 sha1 F7731D1416E357BA24F0382D635D9F6418C004DF serial "ILC-6020/03B" )
+	rom ( name "Language Director - Francais - Level 3 (Europe) (Disc 2).bin" size 597996000 crc 7A63AFF0 md5 11922BED9AA9DC597248F9419E51DEB6 sha1 F7731D1416E357BA24F0382D635D9F6418C004DF serial "ILC-6020/03B" )
 )
 game (
-	name "Language Director - French - Level 3 (Europe) (Disc 2)"
-	description "Language Director - French - Level 3 (Europe) (Disc 2)"
+	name "Language Director - Francais - Level 3 (Europe) (Disc 2)"
+	description "Language Director - Francais - Level 3 (Europe) (Disc 2)"
 	region "Europe"
 	serial "ILC-6020/03B-1"
-	rom ( name "Language Director - French - Level 3 (Europe) (Disc 2).bin" size 597996000 crc 7A63AFF0 md5 11922BED9AA9DC597248F9419E51DEB6 sha1 F7731D1416E357BA24F0382D635D9F6418C004DF serial "ILC-6020/03B-1" )
+	rom ( name "Language Director - Francais - Level 3 (Europe) (Disc 2).bin" size 597996000 crc 7A63AFF0 md5 11922BED9AA9DC597248F9419E51DEB6 sha1 F7731D1416E357BA24F0382D635D9F6418C004DF serial "ILC-6020/03B-1" )
 )
 game (
 	name "Language Director - Guided Tour - Deutsch - Level 1 (Europe)"
 	description "Language Director - Guided Tour - Deutsch - Level 1 (Europe)"
 	region "Europe"
-	rom ( name "Language Director - Guided Tour - Deutsch - Level 1 (Europe).bin" size 260366400 crc 71801910 md5 3AB527CE64FB6CD35E54BE465073FCB8 sha1 8FC4F1A97A4720404800AFC7779A8123DFDD122D )
+	serial "ILC-6030/01C"
+	rom ( name "Language Director - Guided Tour - Deutsch - Level 1 (Europe).bin" size 260366400 crc 71801910 md5 3AB527CE64FB6CD35E54BE465073FCB8 sha1 8FC4F1A97A4720404800AFC7779A8123DFDD122D serial "ILC-6030/01C" )
 )
 game (
-	name "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
 	region "Europe"
 	serial "ILC-6030/02C"
-	rom ( name "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 288237600 crc 20BAC270 md5 B5B52EF1C923BA2AC57624706F7CBB55 sha1 DBBCF32183D362BE203B205D5E43405AC53148DB serial "ILC-6030/02C" )
+	rom ( name "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 288237600 crc 20BAC270 md5 B5B52EF1C923BA2AC57624706F7CBB55 sha1 DBBCF32183D362BE203B205D5E43405AC53148DB serial "ILC-6030/02C" )
 )
 game (
-	name "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
 	region "Europe"
 	serial "ILC-6030/02C--1"
-	rom ( name "Language Director - Guided Tour - Deutsch Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 288237600 crc 20BAC270 md5 B5B52EF1C923BA2AC57624706F7CBB55 sha1 DBBCF32183D362BE203B205D5E43405AC53148DB serial "ILC-6030/02C--1" )
+	rom ( name "Language Director - Guided Tour - Deutsch - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 288237600 crc 20BAC270 md5 B5B52EF1C923BA2AC57624706F7CBB55 sha1 DBBCF32183D362BE203B205D5E43405AC53148DB serial "ILC-6030/02C--1" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1)"
+	description "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1)"
 	region "Europe"
 	serial "ILC-6010/01C"
-	rom ( name "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 254016000 crc AA9B6105 md5 7085B0C84A45A6950A2964ACDD61E633 sha1 BF8F14B5436170010632672109F154C0AFC742D3 serial "ILC-6010/01C" )
+	rom ( name "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1).bin" size 406602000 crc 11D3A79B md5 5896C47E51FE082D8834492B887DC927 sha1 AE87069F8A1B5A5A28F0DC0A8CC845984F6E44B8 serial "ILC-6010/01C" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1)"
+	description "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1)"
 	region "Europe"
 	serial "ILC-6010/01C--1"
-	rom ( name "Language Director - Guided Tour - English Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 254016000 crc AA9B6105 md5 7085B0C84A45A6950A2964ACDD61E633 sha1 BF8F14B5436170010632672109F154C0AFC742D3 serial "ILC-6010/01C--1" )
+	rom ( name "Language Director - Guided Tour - English - Level 1 (Europe) (Disc 0) (Rev 1).bin" size 406602000 crc 11D3A79B md5 5896C47E51FE082D8834492B887DC927 sha1 AE87069F8A1B5A5A28F0DC0A8CC845984F6E44B8 serial "ILC-6010/01C--1" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)"
-	description "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)"
+	name "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
 	region "Europe"
 	serial "ILC-6010/01C"
-	rom ( name "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1).bin" size 438530400 crc CF5684CF md5 43088986D3E5E2D6FCF181B0C417B4DD sha1 7303EE68A5771731F307B954CC79FD270F95712F serial "ILC-6010/01C" )
+	rom ( name "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 254016000 crc AA9B6105 md5 7085B0C84A45A6950A2964ACDD61E633 sha1 BF8F14B5436170010632672109F154C0AFC742D3 serial "ILC-6010/01C" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)"
-	description "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1)"
+	name "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	region "Europe"
+	serial "ILC-6010/01C--1"
+	rom ( name "Language Director - Guided Tour - English - Level 1 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 254016000 crc AA9B6105 md5 7085B0C84A45A6950A2964ACDD61E633 sha1 BF8F14B5436170010632672109F154C0AFC742D3 serial "ILC-6010/01C--1" )
+)
+game (
+	name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1)"
+	description "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1)"
+	region "Europe"
+	serial "ILC-6010/01C"
+	rom ( name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1).bin" size 438530400 crc CF5684CF md5 43088986D3E5E2D6FCF181B0C417B4DD sha1 7303EE68A5771731F307B954CC79FD270F95712F serial "ILC-6010/01C" )
+)
+game (
+	name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1)"
+	description "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1)"
 	region "Europe"
 	serial "ILC-6010/02C"
-	rom ( name "Language Director - Guided Tour - English Level 1 (Europe) (Rev 1).bin" size 438530400 crc CF5684CF md5 43088986D3E5E2D6FCF181B0C417B4DD sha1 7303EE68A5771731F307B954CC79FD270F95712F serial "ILC-6010/02C" )
+	rom ( name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Sl,Ar,Tr) (Rev 1).bin" size 438530400 crc CF5684CF md5 43088986D3E5E2D6FCF181B0C417B4DD sha1 7303EE68A5771731F307B954CC79FD270F95712F serial "ILC-6010/02C" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
 	region "Europe"
 	serial "ILC-6010/02C"
-	rom ( name "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 284533200 crc EED1BA59 md5 BF72F29331EC3B8AE9E46C4CC80E4E9C sha1 16F561767DF288E4933258BDA7762BF829586D9F serial "ILC-6010/02C" )
+	rom ( name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 284533200 crc EED1BA59 md5 BF72F29331EC3B8AE9E46C4CC80E4E9C sha1 16F561767DF288E4933258BDA7762BF829586D9F serial "ILC-6010/02C" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
-	description "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
+	description "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0)"
 	region "Europe"
 	serial "ILC-6010/02C--1"
-	rom ( name "Language Director - Guided Tour - English Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 284533200 crc EED1BA59 md5 BF72F29331EC3B8AE9E46C4CC80E4E9C sha1 16F561767DF288E4933258BDA7762BF829586D9F serial "ILC-6010/02C--1" )
+	rom ( name "Language Director - Guided Tour - English - Level 2 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Sk) (Disc 0).bin" size 284533200 crc EED1BA59 md5 BF72F29331EC3B8AE9E46C4CC80E4E9C sha1 16F561767DF288E4933258BDA7762BF829586D9F serial "ILC-6010/02C--1" )
 )
 game (
-	name "Language Director - Guided Tour - English Level 3 (Europe)"
-	description "Language Director - Guided Tour - English Level 3 (Europe)"
+	name "Language Director - Guided Tour - English - Level 3 (Europe)"
+	description "Language Director - Guided Tour - English - Level 3 (Europe)"
 	region "Europe"
 	serial "ILC-6010/03C"
-	rom ( name "Language Director - Guided Tour - English Level 3 (Europe).bin" size 110073600 crc 9BA71F35 md5 2A1A6599B9BD87C8D903F0317732F6C2 sha1 C7F233EBF6ECCB8D754EF227A3543B959F919900 serial "ILC-6010/03C" )
+	rom ( name "Language Director - Guided Tour - English - Level 3 (Europe).bin" size 110073600 crc 9BA71F35 md5 2A1A6599B9BD87C8D903F0317732F6C2 sha1 C7F233EBF6ECCB8D754EF227A3543B959F919900 serial "ILC-6010/03C" )
 )
 game (
-	name "Language Director - Guided Tour - French - Level 1 (Europe)"
-	description "Language Director - Guided Tour - French - Level 1 (Europe)"
-	region "Europe"
-	serial "ILC-6020/01C"
-	rom ( name "Language Director - Guided Tour - French - Level 1 (Europe).bin" size 251017200 crc 835558BA md5 A1E0EC565B5446F98739012FA173E968 sha1 6222AD8BA66FB774200F391FD14893700D9020DB serial "ILC-6020/01C" )
-)
-game (
-	name "Language Director - Guided Tour - French - Level 2 (Europe)"
-	description "Language Director - Guided Tour - French - Level 2 (Europe)"
-	region "Europe"
-	serial "ILC-6020/02C"
-	rom ( name "Language Director - Guided Tour - French - Level 2 (Europe).bin" size 287708400 crc EEEB828E md5 B64AF6860120166241922ACA378FD782 sha1 99CFEF9FB10DF68CF930A047D50E364B665FD238 serial "ILC-6020/02C" )
-)
-game (
-	name "Language Director - Guided Tour - French - Level 3 (Europe)"
-	description "Language Director - Guided Tour - French - Level 3 (Europe)"
-	region "Europe"
-	serial "ILC-6020/03C"
-	rom ( name "Language Director - Guided Tour - French - Level 3 (Europe).bin" size 120834000 crc 8083A63A md5 E0ED24C12169EB68F36C63F4BD7A7DAC sha1 BA3F13324277BDA6FB5AC88F66E326B49B4F66FB serial "ILC-6020/03C" )
-)
-game (
-	name "Language Director - Guided Tour - Spanish - Level 2 (Europe)"
-	description "Language Director - Guided Tour - Spanish - Level 2 (Europe)"
+	name "Language Director - Guided Tour - Espanol - Level 2 (Europe)"
+	description "Language Director - Guided Tour - Espanol - Level 2 (Europe)"
 	region "Europe"
 	serial "ILC-6040/02C"
-	rom ( name "Language Director - Guided Tour - Spanish - Level 2 (Europe).bin" size 305877600 crc 9DECCBE5 md5 CDF1453BD247EFFBCF60DAB325091833 sha1 8DCFF2278A34316A6BC48DEB9EE882A21FE5BC19 serial "ILC-6040/02C" )
+	rom ( name "Language Director - Guided Tour - Espanol - Level 2 (Europe).bin" size 305877600 crc 9DECCBE5 md5 CDF1453BD247EFFBCF60DAB325091833 sha1 8DCFF2278A34316A6BC48DEB9EE882A21FE5BC19 serial "ILC-6040/02C" )
 )
 game (
-	name "Language Director - Guided Tour - Spanish - Level 3 (Europe)"
-	description "Language Director - Guided Tour - Spanish - Level 3 (Europe)"
+	name "Language Director - Guided Tour - Espanol - Level 3 (Europe)"
+	description "Language Director - Guided Tour - Espanol - Level 3 (Europe)"
 	region "Europe"
 	serial "ILC-6040/03C"
-	rom ( name "Language Director - Guided Tour - Spanish - Level 3 (Europe).bin" size 107956800 crc 39011F3B md5 5D576585543E3C670F5C7C5549AF0DCB sha1 FEDDE11B412347E9F4C53F4BEF8445EE9AE6A840 serial "ILC-6040/03C" )
+	rom ( name "Language Director - Guided Tour - Espanol - Level 3 (Europe).bin" size 107956800 crc 39011F3B md5 5D576585543E3C670F5C7C5549AF0DCB sha1 FEDDE11B412347E9F4C53F4BEF8445EE9AE6A840 serial "ILC-6040/03C" )
 )
 game (
-	name "Language Director - Spanish - Level 2 (Europe) (Disc 1)"
-	description "Language Director - Spanish - Level 2 (Europe) (Disc 1)"
+	name "Language Director - Guided Tour - Francais - Level 1 (Europe)"
+	description "Language Director - Guided Tour - Francais - Level 1 (Europe)"
 	region "Europe"
-	serial "ILC-6040/02A"
-	rom ( name "Language Director - Spanish - Level 2 (Europe) (Disc 1).bin" size 484923600 crc 7D1268D1 md5 559204CE25B146D77D128F73DF13F080 sha1 4641B5E78F95EF93F12705188AB68C5FFFB01B39 serial "ILC-6040/02A" )
+	serial "ILC-6020/01C"
+	rom ( name "Language Director - Guided Tour - Francais - Level 1 (Europe).bin" size 251017200 crc 835558BA md5 A1E0EC565B5446F98739012FA173E968 sha1 6222AD8BA66FB774200F391FD14893700D9020DB serial "ILC-6020/01C" )
 )
 game (
-	name "Language Director - Spanish - Level 2 (Europe) (Disc 1)"
-	description "Language Director - Spanish - Level 2 (Europe) (Disc 1)"
+	name "Language Director - Guided Tour - Francais - Level 2 (Europe)"
+	description "Language Director - Guided Tour - Francais - Level 2 (Europe)"
 	region "Europe"
-	serial "ILC-6040/02A-0"
-	rom ( name "Language Director - Spanish - Level 2 (Europe) (Disc 1).bin" size 484923600 crc 7D1268D1 md5 559204CE25B146D77D128F73DF13F080 sha1 4641B5E78F95EF93F12705188AB68C5FFFB01B39 serial "ILC-6040/02A-0" )
+	serial "ILC-6020/02C"
+	rom ( name "Language Director - Guided Tour - Francais - Level 2 (Europe).bin" size 287708400 crc EEEB828E md5 B64AF6860120166241922ACA378FD782 sha1 99CFEF9FB10DF68CF930A047D50E364B665FD238 serial "ILC-6020/02C" )
 )
 game (
-	name "Language Director - Spanish - Level 2 (Europe) (Disc 2)"
-	description "Language Director - Spanish - Level 2 (Europe) (Disc 2)"
+	name "Language Director - Guided Tour - Francais - Level 3 (Europe)"
+	description "Language Director - Guided Tour - Francais - Level 3 (Europe)"
 	region "Europe"
-	serial "ILC-6040/02B"
-	rom ( name "Language Director - Spanish - Level 2 (Europe) (Disc 2).bin" size 287532000 crc 6F7E5167 md5 648DF7BA684B6BB63FD63732516C2288 sha1 5D3171F6B65B24E2FE1C65DF311C08CE54FEB44F serial "ILC-6040/02B" )
-)
-game (
-	name "Language Director - Spanish - Level 2 (Europe) (Disc 2)"
-	description "Language Director - Spanish - Level 2 (Europe) (Disc 2)"
-	region "Europe"
-	serial "ILC-6040/02B-1"
-	rom ( name "Language Director - Spanish - Level 2 (Europe) (Disc 2).bin" size 287532000 crc 6F7E5167 md5 648DF7BA684B6BB63FD63732516C2288 sha1 5D3171F6B65B24E2FE1C65DF311C08CE54FEB44F serial "ILC-6040/02B-1" )
-)
-game (
-	name "Language Director - Spanish - Level 3 (Europe) (Disc 1)"
-	description "Language Director - Spanish - Level 3 (Europe) (Disc 1)"
-	region "Europe"
-	serial "ILC-6040/03A"
-	rom ( name "Language Director - Spanish - Level 3 (Europe) (Disc 1).bin" size 454935600 crc DE43649C md5 254ED33E8D148082A07C424D20421AF4 sha1 1AC96FF7B8805AF7E010B0142EE11CCC593244A7 serial "ILC-6040/03A" )
-)
-game (
-	name "Language Director - Spanish - Level 3 (Europe) (Disc 1)"
-	description "Language Director - Spanish - Level 3 (Europe) (Disc 1)"
-	region "Europe"
-	serial "ILC-6040/03A-0"
-	rom ( name "Language Director - Spanish - Level 3 (Europe) (Disc 1).bin" size 454935600 crc DE43649C md5 254ED33E8D148082A07C424D20421AF4 sha1 1AC96FF7B8805AF7E010B0142EE11CCC593244A7 serial "ILC-6040/03A-0" )
-)
-game (
-	name "Language Director - Spanish - Level 3 (Europe) (Disc 2)"
-	description "Language Director - Spanish - Level 3 (Europe) (Disc 2)"
-	region "Europe"
-	serial "ILC-6040/03B"
-	rom ( name "Language Director - Spanish - Level 3 (Europe) (Disc 2).bin" size 489686400 crc 682E7656 md5 B4DC138A18CAFDF7ADA799E949231255 sha1 2768BB2BCECE718F09636705AFE2E769D67916C5 serial "ILC-6040/03B" )
-)
-game (
-	name "Language Director - Spanish - Level 3 (Europe) (Disc 2)"
-	description "Language Director - Spanish - Level 3 (Europe) (Disc 2)"
-	region "Europe"
-	serial "ILC-6040/03B-1"
-	rom ( name "Language Director - Spanish - Level 3 (Europe) (Disc 2).bin" size 489686400 crc 682E7656 md5 B4DC138A18CAFDF7ADA799E949231255 sha1 2768BB2BCECE718F09636705AFE2E769D67916C5 serial "ILC-6040/03B-1" )
+	serial "ILC-6020/03C"
+	rom ( name "Language Director - Guided Tour - Francais - Level 3 (Europe).bin" size 120834000 crc 8083A63A md5 E0ED24C12169EB68F36C63F4BD7A7DAC sha1 BA3F13324277BDA6FB5AC88F66E326B49B4F66FB serial "ILC-6020/03C" )
 )
 game (
 	name "Lanzor 30MG - Septembre 1994 (France)"
@@ -7921,6 +8438,34 @@ game (
 	description "Levi's Trend 97 (Europe)"
 	region "Europe"
 	rom ( name "Levi's Trend 97 (Europe).bin" size 94555104 crc A89A58B3 md5 BC5BBE556F5B85CBB1DFAEA7EC21B02C sha1 159BE707C7611391E5FCE004BA8AD9A50F347DCC )
+)
+game (
+	name "Liaison Fatale (France) (Disc 1)"
+	description "Liaison Fatale (France) (Disc 1)"
+	region "France"
+	serial "812-1034"
+	rom ( name "Liaison Fatale (France) (Disc 1).bin" size 624456000 crc 041CD958 md5 C35E676473DCA3BC68604DD5D8BA33F5 sha1 47A40A637DD0C08C690F3C5563AD25C5572BDAA7 serial "812-1034" )
+)
+game (
+	name "Liaison Fatale (France) (Disc 1)"
+	description "Liaison Fatale (France) (Disc 1)"
+	region "France"
+	serial "812-1034-0"
+	rom ( name "Liaison Fatale (France) (Disc 1).bin" size 624456000 crc 041CD958 md5 C35E676473DCA3BC68604DD5D8BA33F5 sha1 47A40A637DD0C08C690F3C5563AD25C5572BDAA7 serial "812-1034-0" )
+)
+game (
+	name "Liaison Fatale (France) (Disc 2)"
+	description "Liaison Fatale (France) (Disc 2)"
+	region "France"
+	serial "812-1035"
+	rom ( name "Liaison Fatale (France) (Disc 2).bin" size 611226000 crc B5A0BC0A md5 ED6EC1D414D176F0FFC014C45055BFF6 sha1 822335616290BC278B415F06669898F3FF1187A7 serial "812-1035" )
+)
+game (
+	name "Liaison Fatale (France) (Disc 2)"
+	description "Liaison Fatale (France) (Disc 2)"
+	region "France"
+	serial "812-1035-1"
+	rom ( name "Liaison Fatale (France) (Disc 2).bin" size 611226000 crc B5A0BC0A md5 ED6EC1D414D176F0FFC014C45055BFF6 sha1 822335616290BC278B415F06669898F3FF1187A7 serial "812-1035-1" )
 )
 game (
 	name "Liberto - Une Liberte Nouvelle ~ Liberto - Il Soffitto in Piena Libera (Europe) (Fr,It)"
@@ -8742,6 +9287,12 @@ game (
 	rom ( name "Merlin's Apprentice (USA) (Rev 1).bin" size 309899520 crc 2AAF7924 md5 7B59E7ADDB5F1710D5D510561BC26406 sha1 D8FCDCB3F593D1E789D04E1FF9428D09A0E4ABE1 serial "310-690-099-2" )
 )
 game (
+	name "Merz + Co. GmbH & Co. - Tetesept Erkaeltungsmedizin (Germany)"
+	description "Merz + Co. GmbH & Co. - Tetesept Erkaeltungsmedizin (Germany)"
+	region "Germany"
+	rom ( name "Merz + Co. GmbH & Co. - Tetesept Erkaeltungsmedizin (Germany).bin" size 254197104 crc 621D91B0 md5 254D6D065E1C4FD5A3EE4E5BB94B3AB1 sha1 70B3DE7D044E0BE0482598071AE48A552544D285 )
+)
+game (
 	name "Methode de Guitare Rock avec Paul Personne (France)"
 	description "Methode de Guitare Rock avec Paul Personne (France)"
 	region "France"
@@ -8787,6 +9338,12 @@ game (
 	description "Mission on Music - June 1995 (Europe)"
 	region "Europe"
 	rom ( name "Mission on Music - June 1995 (Europe) (Track 1).bin" size 275188704 crc 432E91B0 md5 CB2212A5C365A7F02B56AE2E564D729C sha1 86397CE9E6F295C2BE04B63B1B8BC67A4C87BF53 )
+)
+game (
+	name "Money at Work (UK)"
+	description "Money at Work (UK)"
+	serial "819-0026"
+	rom ( name "Money at Work (UK) (Track 1).bin" size 182578704 crc 34E481FA md5 2E7C124563A3EB408422263675C11890 sha1 B2CDCF0C07D67AFECDCD368CB81EC1ACED95792C serial "819-0026" )
 )
 game (
 	name "Monty Python's Invasion from the Planet Skyron (Europe)"
@@ -8949,6 +9506,11 @@ game (
 	rom ( name "Multimedia Partner Program (Europe).bin" size 112190400 crc FD020426 md5 3159846FA81E32330ED56066BB1545DA sha1 97467BFB19CDD0C83687CEAAB504F84662BA8D03 )
 )
 game (
+	name "Museo Amparo (Latin America)"
+	description "Museo Amparo (Latin America)"
+	rom ( name "Museo Amparo (Latin America).bin" size 549968160 crc C7A61788 md5 6706F438848E55B2823EF71DEB392B45 sha1 2BC12ADCF16EBECF125441DAC68C1AA5AE39B486 )
+)
+game (
 	name "Mutant Rampage - Bodyslam (Europe)"
 	description "Mutant Rampage - Bodyslam (Europe)"
 	region "Europe"
@@ -9036,6 +9598,12 @@ game (
 	description "Mystic Midway - Rest in Pieces (USA, Europe)"
 	serial "310690152-2"
 	rom ( name "Mystic Midway - Rest in Pieces (USA, Europe).bin" size 195145440 crc 16FEBB9D md5 BD693F7EC0B5216A336AE63CF42DE8A9 sha1 82A11BFBDC23D8F07B5E1B623CECA687E8F9F674 serial "310690152-2" )
+)
+game (
+	name "Mystic Midway - Rest in Pieces (USA, Europe)"
+	description "Mystic Midway - Rest in Pieces (USA, Europe)"
+	serial "690-152-2"
+	rom ( name "Mystic Midway - Rest in Pieces (USA, Europe).bin" size 195145440 crc 16FEBB9D md5 BD693F7EC0B5216A336AE63CF42DE8A9 sha1 82A11BFBDC23D8F07B5E1B623CECA687E8F9F674 serial "690-152-2" )
 )
 game (
 	name "Mystic Midway - Rest in Pieces (USA, Europe)"
@@ -9420,6 +9988,12 @@ game (
 	rom ( name "Nuri e Asobi I - Paint School I (Japan).bin" size 179340000 crc 61E31E24 md5 3F48BD8057B78552B502E9F6A641941A sha1 99D1AE2F33915580FD94FF506ADC4DC547F11F4F serial "PCIM-00002" )
 )
 game (
+	name "OSHA MHE Forklifts (USA)"
+	description "OSHA MHE Forklifts (USA)"
+	region "USA"
+	rom ( name "OSHA MHE Forklifts (USA).bin" size 578773104 crc 291199F2 md5 284367D80F3B5D2A4E80F17FD5BE835D sha1 E2BF10454E530767C07C58BEB71E9E12D8E352F8 )
+)
+game (
 	name "Objectif Transparence (France)"
 	description "Objectif Transparence (France)"
 	region "France"
@@ -9479,6 +10053,18 @@ game (
 	name "Oil of Ulay - Colour Collection - Colour Consultant (UK)"
 	description "Oil of Ulay - Colour Collection - Colour Consultant (UK)"
 	rom ( name "Oil of Ulay - Colour Collection - Colour Consultant (UK).bin" size 251092464 crc C27D0C3D md5 2FCAB304CB8018BC2BAEFB077394A787 sha1 45DF7CD106084ADDEE92203B43D194249220A02A )
+)
+game (
+	name "Omgaan met Steriele Medische Hulpmiddelen (Netherlands)"
+	description "Omgaan met Steriele Medische Hulpmiddelen (Netherlands)"
+	region "Netherlands"
+	rom ( name "Omgaan met Steriele Medische Hulpmiddelen (Netherlands).bin" size 698506368 crc 21D94FE1 md5 DA25ADC4C723218D790B4852434A2851 sha1 9572244A0C1B1F9A82A87BA81770BEF781260FBD )
+)
+game (
+	name "Omgaan met Steriele Medische Hulpmiddelen (Netherlands) (Demo)"
+	description "Omgaan met Steriele Medische Hulpmiddelen (Netherlands) (Demo)"
+	region "Netherlands"
+	rom ( name "Omgaan met Steriele Medische Hulpmiddelen (Netherlands) (Demo).bin" size 416896704 crc A5583709 md5 D4A30F0E4E979E924BE7BB65C9B9FDE1 sha1 DC15683FA7E4F22415CA067E68068C32EBFC99FD )
 )
 game (
 	name "One Step Ahead (Germany)"
@@ -9546,11 +10132,11 @@ game (
 	rom ( name "OptImage Media Showcase (USA) (Track 1).bin" size 45158400 crc 5618301B md5 FF20EFF5677997541BA747D5769A6180 sha1 15CA54A19ED29BA56EBE9EDF8FB15F90AC113C22 )
 )
 game (
-	name "Origami (Europe)"
-	description "Origami (Europe)"
+	name "Origami (Europe) (En,Fr,De,Nl)"
+	description "Origami (Europe) (En,Fr,De,Nl)"
 	region "Europe"
 	serial "810-0041"
-	rom ( name "Origami (Europe).bin" size 767692800 crc B112C628 md5 A16739746AB3D6758276F3CF5883DFD6 sha1 A4FBC080B3E2A6689EE8001ED0A3C1BF0142A4B6 serial "810-0041" )
+	rom ( name "Origami (Europe) (En,Fr,De,Nl).bin" size 767692800 crc B112C628 md5 A16739746AB3D6758276F3CF5883DFD6 sha1 A4FBC080B3E2A6689EE8001ED0A3C1BF0142A4B6 serial "810-0041" )
 )
 game (
 	name "Osterreichs Werbepreise - Vier Highlights (Austria)"
@@ -9653,6 +10239,13 @@ game (
 	rom ( name "Paint School I (USA) (Rev 1).bin" size 179351760 crc CC9FD562 md5 4DBFB82040B62F8D8B3CB7B2B74C9602 sha1 2E31DDD743E6DC06109155CF05423B0E2CA4B8F4 serial "310690009-2" )
 )
 game (
+	name "Paint School II (Asia) (En,Ja,Zh,Ko)"
+	description "Paint School II (Asia) (En,Ja,Zh,Ko)"
+	region "Asia"
+	serial "810-0037"
+	rom ( name "Paint School II (Asia) (En,Ja,Zh,Ko).bin" size 319707360 crc 46EBD39C md5 CEA2137EAD795FD3B8B7F1158D76CF05 sha1 1E1FEAF18977DCD6B16D9D92DAA4C2B47C779D9F serial "810-0037" )
+)
+game (
 	name "Paint School II (Europe)"
 	description "Paint School II (Europe)"
 	region "Europe"
@@ -9685,7 +10278,14 @@ game (
 	description "Paint School II (USA)"
 	region "USA"
 	serial "310690002-2"
-	rom ( name "Paint School II (USA).bin" size 162640800 crc E21A41E9 md5 80AB5B7484786EBB25F5B2608542C423 sha1 66C5ECD7E1C81D790C8F4C87675F030A1061E091 serial "310690002-2" )
+	rom ( name "Paint School II (USA).bin" size 162993600 crc 5867FF86 md5 A489C1F45743E48D23FF9646F0E4BECA sha1 E71612981E30FC9F2465550D10EF9362E370A16F serial "310690002-2" )
+)
+game (
+	name "Paint School II (USA) (Rev 1)"
+	description "Paint School II (USA) (Rev 1)"
+	region "USA"
+	serial "310690002-2"
+	rom ( name "Paint School II (USA) (Rev 1).bin" size 162640800 crc E21A41E9 md5 80AB5B7484786EBB25F5B2608542C423 sha1 66C5ECD7E1C81D790C8F4C87675F030A1061E091 serial "310690002-2" )
 )
 game (
 	name "Palm Springs Open, The (Germany)"
@@ -9730,6 +10330,18 @@ game (
 game (
 	name "Palm Springs Open, The (World)"
 	description "Palm Springs Open, The (World)"
+	serial "690-0132"
+	rom ( name "Palm Springs Open, The (World).bin" size 266787360 crc 02A9D271 md5 780161E564EFA150499C762603202F9B sha1 2C34BB7539FD2285B2EEBCAA4C38336234F325B3 serial "690-0132" )
+)
+game (
+	name "Palm Springs Open, The (World)"
+	description "Palm Springs Open, The (World)"
+	serial "699-013-2"
+	rom ( name "Palm Springs Open, The (World).bin" size 266787360 crc 02A9D271 md5 780161E564EFA150499C762603202F9B sha1 2C34BB7539FD2285B2EEBCAA4C38336234F325B3 serial "699-013-2" )
+)
+game (
+	name "Palm Springs Open, The (World)"
+	description "Palm Springs Open, The (World)"
 	serial "814-0030"
 	rom ( name "Palm Springs Open, The (World).bin" size 266787360 crc 02A9D271 md5 780161E564EFA150499C762603202F9B sha1 2C34BB7539FD2285B2EEBCAA4C38336234F325B3 serial "814-0030" )
 )
@@ -9744,6 +10356,13 @@ game (
 	description "Paranasal Sinuses & Anterior Skull Base - Volume 1-I (Europe)"
 	region "Europe"
 	rom ( name "Paranasal Sinuses & Anterior Skull Base - Volume 1-I (Europe).bin" size 232316448 crc E4D95BD8 md5 4FCE667ADA6E01A04EBB59B516B3880E sha1 FA20EDB0BAF5197A8D9EFF1C2B022CEFAF985DD9 )
+)
+game (
+	name "Paris Belle Epoque (France)"
+	description "Paris Belle Epoque (France)"
+	region "France"
+	serial "812-0105"
+	rom ( name "Paris Belle Epoque (France).bin" size 688971360 crc DCDD78D7 md5 09A8F121B3518751C5A6C9DC7BDBCCF8 sha1 D7DC78C026C0ABE3E5405942353A1C5BEA9645DE serial "812-0105" )
 )
 game (
 	name "Patriot Games (UK) (Disc 1)"
@@ -9874,6 +10493,13 @@ game (
 	name "Pecos Bill (Europe)"
 	description "Pecos Bill (Europe)"
 	region "Europe"
+	serial "310690012-2"
+	rom ( name "Pecos Bill (Europe).bin" size 573822144 crc D4E5F80B md5 947E00555E030B2B0FDAA7F30EF91E8F sha1 45EB7DA16F1D2FDD3CB9B2776B48BEEB3AB252DE serial "310690012-2" )
+)
+game (
+	name "Pecos Bill (Europe)"
+	description "Pecos Bill (Europe)"
+	region "Europe"
 	serial "699-012-2"
 	rom ( name "Pecos Bill (Europe).bin" size 573822144 crc D4E5F80B md5 947E00555E030B2B0FDAA7F30EF91E8F sha1 45EB7DA16F1D2FDD3CB9B2776B48BEEB3AB252DE serial "699-012-2" )
 )
@@ -9930,6 +10556,12 @@ game (
 	rom ( name "Performers, De - 1995 Introducing - NOB Interactive (Netherlands).bin" size 629047104 crc A6F66C62 md5 824561B0AC896BDD11AE0E6F7AD1F804 sha1 8D5FFF56A5D046C151E6DA7672DE95B81819C978 )
 )
 game (
+	name "Personenauto de Theorie (Netherlands) (Disc 2) (Opleiding 3-4)"
+	description "Personenauto de Theorie (Netherlands) (Disc 2) (Opleiding 3-4)"
+	region "Netherlands"
+	rom ( name "Personenauto de Theorie (Netherlands) (Disc 2) (Opleiding 3-4).bin" size 542611104 crc 56F7F165 md5 1582A73AAFB075774B69E27815C34E83 sha1 C60AB6BAD5D6F5477D5D6BB22725C46DB11BE7E7 )
+)
+game (
 	name "Pete Townshend Live (USA) (Demo)"
 	description "Pete Townshend Live (USA) (Demo)"
 	region "USA"
@@ -9952,21 +10584,6 @@ game (
 	name "Peugeot - Product Range Information - For Showroom Use - March 97 (UK)"
 	description "Peugeot - Product Range Information - For Showroom Use - March 97 (UK)"
 	rom ( name "Peugeot - Product Range Information - For Showroom Use - March 97 (UK).bin" size 770696304 crc 94EAFF8D md5 3275D776959EE102BFB41B45F980F1F7 sha1 4CC89BD17AB55C3C899EB4AA444CA5773AE28359 )
-)
-game (
-	name "Peugeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)"
-	description "Peugeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)"
-	rom ( name "Peugeot - Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK).bin" size 639450000 crc E6836F4A md5 1700BD8F02DAB656051B9D91311752CA sha1 57C489FEFDDE3CDB722F8CB47A33E4E995300D6A )
-)
-game (
-	name "Peugeot - Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK)"
-	description "Peugeot - Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK)"
-	rom ( name "Peugeot - Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK).bin" size 580713504 crc D617F007 md5 E3F8C518D94BFA98982BB65729D8354F sha1 21AB7C4D13833F59C3793A3C67A2B01940187C8F )
-)
-game (
-	name "Peugeot - Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK)"
-	description "Peugeot - Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK)"
-	rom ( name "Peugeot - Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK).bin" size 781809504 crc 1CBF9FC1 md5 29161EF6AC446A01B2A517872120C170 sha1 B144CE7C6D5A25677B26E39FCA64CADFD0B27D99 )
 )
 game (
 	name "Peugeot - The Passport Experience (UK)"
@@ -10067,6 +10684,12 @@ game (
 	rom ( name "Philips Demo CD-i v.2 (Europe) (En,Fr,Nl).bin" size 480341904 crc 943E2626 md5 3DC70410549DDA8082B72391AFB1F33B sha1 8615AC33938A82EACF9BD398456BC9D504243CA7 )
 )
 game (
+	name "Philips Einladung CD-i Praesentation (Germany)"
+	description "Philips Einladung CD-i Praesentation (Germany)"
+	region "Germany"
+	rom ( name "Philips Einladung CD-i Praesentation (Germany).bin" size 265834800 crc DB0B2151 md5 30E3632A4ED2BED5FA40C3D2ECEA9EEF sha1 10A7DD9532A0EAA5F57493C72C4A2F030EE1CC50 )
+)
+game (
 	name "Philips Farbfernsehen - Demo CD-i Widescreen Plus (Germany)"
 	description "Philips Farbfernsehen - Demo CD-i Widescreen Plus (Germany)"
 	region "Germany"
@@ -10131,7 +10754,13 @@ game (
 	name "Philips Professional CD-i - A World of Opportunities (USA)"
 	description "Philips Professional CD-i - A World of Opportunities (USA)"
 	region "USA"
-	rom ( name "Philips Professional CD-i - A World of Opportunities (USA).bin" size 232142400 crc DB1BB405 md5 52FFFDDDDA5F0445626A7693B5811DC4 sha1 34C8E8D2524884B57F196A175ED058E8BFCE75BA )
+	rom ( name "Philips Professional CD-i - A World of Opportunities (USA).bin" size 118371456 crc 57FBF4CC md5 1DE5EB264AB48FDCD7DAC8755BE72055 sha1 B6E04662423BB8CDF909EE7722E16AD60DDAD925 )
+)
+game (
+	name "Philips Professional CD-i - A World of Opportunities (USA) (Alt)"
+	description "Philips Professional CD-i - A World of Opportunities (USA) (Alt)"
+	region "USA"
+	rom ( name "Philips Professional CD-i - A World of Opportunities (USA) (Alt).bin" size 232142400 crc DB1BB405 md5 52FFFDDDDA5F0445626A7693B5811DC4 sha1 34C8E8D2524884B57F196A175ED058E8BFCE75BA )
 )
 game (
 	name "Philips Sound & Vision - Replay - Winning Spirit Workshops CD-i - April 1995 (Netherlands)"
@@ -10392,6 +11021,13 @@ game (
 	name "Power Hitter (Europe) (Rev 1)"
 	description "Power Hitter (Europe) (Rev 1)"
 	region "Europe"
+	serial "812-0060"
+	rom ( name "Power Hitter (Europe) (Rev 1).bin" size 394223424 crc 5EC51C48 md5 936D28D99381544E021061D2AAEAA214 sha1 9F19819E14D62AE0E51B5B93842DA99200935D8D serial "812-0060" )
+)
+game (
+	name "Power Hitter (Europe) (Rev 1)"
+	description "Power Hitter (Europe) (Rev 1)"
+	region "Europe"
 	serial "814-0050"
 	rom ( name "Power Hitter (Europe) (Rev 1).bin" size 394223424 crc 5EC51C48 md5 936D28D99381544E021061D2AAEAA214 sha1 9F19819E14D62AE0E51B5B93842DA99200935D8D serial "814-0050" )
 )
@@ -10532,6 +11168,13 @@ game (
 	rom ( name "Private Lesson Series - Jazz Guitar (USA, Europe).bin" size 610273440 crc CF0AC1B8 md5 5680FEAEBE82ADC89A072155BAC8F218 sha1 D26578BE7BCA7C142B35E6CC3AA97598701CFDDD serial "814-0021" )
 )
 game (
+	name "Private Lesson Series - Methode de Guitare Classique (France)"
+	description "Private Lesson Series - Methode de Guitare Classique (France)"
+	region "France"
+	serial "812-0058"
+	rom ( name "Private Lesson Series - Methode de Guitare Classique (France).bin" size 538537440 crc CFB9496C md5 7E66A1EF9A34C6C37936B06F351AE298 sha1 1E96AF79B10CD14A39CF70F248F6A6219CD4CC23 serial "812-0058" )
+)
+game (
 	name "Private Lesson Series - Rock Guitar - A Beginner's Guide (Europe)"
 	description "Private Lesson Series - Rock Guitar - A Beginner's Guide (Europe)"
 	region "Europe"
@@ -10581,6 +11224,12 @@ game (
 	region "Italy"
 	serial "IM99003"
 	rom ( name "QuizMania (Italy).bin" size 321048000 crc FA35B53E md5 FE837B88A1582F5B978DE56E59E86DC0 sha1 3823D0D4ADE971A89737C3E1AEC1F7A8D76C4264 serial "IM99003" )
+)
+game (
+	name "RAV 2 - Renault (Netherlands) (Demo)"
+	description "RAV 2 - Renault (Netherlands) (Demo)"
+	region "Netherlands"
+	rom ( name "RAV 2 - Renault (Netherlands) (Demo).bin" size 125949600 crc 32213F1B md5 ED7D88A5E03F7C10B001A4F2FC929031 sha1 666E21497BB85FA1ABC6AEA2D670171D15F05057 )
 )
 game (
 	name "Rabobank TV - Versie 11 99 (Netherlands)"
@@ -10663,6 +11312,13 @@ game (
 	rom ( name "Rembrandt - His Art and the Music of His Era (USA) (Track 01).bin" size 507702720 crc F3D632F0 md5 969A394240FEE97C2F2F3B1C13FBBA34 sha1 9828D9725F64A783B241B64964B3542A6AC6C96D serial "310690154-2" )
 )
 game (
+	name "Renacimiento de Florencia, El (Spain)"
+	description "Renacimiento de Florencia, El (Spain)"
+	region "Spain"
+	serial "816-0014"
+	rom ( name "Renacimiento de Florencia, El (Spain).bin" size 641378640 crc 2A3FF3DE md5 1AC9968A8F2D63A6257B4D405C452A88 sha1 6DCA83A4DB234C4AAEC93EA4C872FBDF2AAE3E5D serial "816-0014" )
+)
+game (
 	name "Renaissance Gallery, The (Europe)"
 	description "Renaissance Gallery, The (Europe)"
 	region "Europe"
@@ -10727,6 +11383,18 @@ game (
 	name "Report Writing (UK)"
 	description "Report Writing (UK)"
 	rom ( name "Report Writing (UK).bin" size 330225504 crc 463EE606 md5 E02AEABEC4FEEE5D063E265738A112C7 sha1 8651C6730D8306B102F7CCCF329F87D27C136E3A )
+)
+game (
+	name "Resa i Vaesternorrland, En (Sweden)"
+	description "Resa i Vaesternorrland, En (Sweden)"
+	region "Sweden"
+	rom ( name "Resa i Vaesternorrland, En (Sweden).bin" size 732942000 crc B8B82921 md5 5BFC62B8407A89416FB6659C08151145 sha1 338C48927FF451F1459634E5590913C131FC2A44 )
+)
+game (
+	name "Reserviert Ist Garantiert! (Germany)"
+	description "Reserviert Ist Garantiert! (Germany)"
+	region "Germany"
+	rom ( name "Reserviert Ist Garantiert! (Germany).bin" size 387555504 crc 8E3CAB5E md5 200EA3029E3AD900D58A7CBF587E3ABA sha1 24368D7506945AD58ADBEBFA4ADE8F1085E015C4 )
 )
 game (
 	name "Retratos de Cidades - Lisboa (Portugal)"
@@ -10936,10 +11604,22 @@ game (
 	rom ( name "Royal Classics CDi Sampler - The Classics You Love (Europe) (Track 01).bin" size 172526256 crc C637EACC md5 319F4913FF57275CA3D2E48F05E2D8A1 sha1 94C424CCD1FC87796E0997B385FE0D2CF0031AC9 serial "RoyCDi-01" )
 )
 game (
-	name "Rules of Golf, The (Europe)"
-	description "Rules of Golf, The (Europe)"
-	region "Europe"
-	rom ( name "Rules of Golf, The (Europe).bin" size 533962800 crc 2ED25542 md5 3A9FC2B685D1D1E6CF70CB3904DAEE14 sha1 D1AF9F3931B2C0AF3DE5BAB02C574F2F30D68B08 )
+	name "Rules of Golf, The (Belgium)"
+	description "Rules of Golf, The (Belgium)"
+	region "Belgium"
+	rom ( name "Rules of Golf, The (Belgium).bin" size 533962800 crc 2ED25542 md5 3A9FC2B685D1D1E6CF70CB3904DAEE14 sha1 D1AF9F3931B2C0AF3DE5BAB02C574F2F30D68B08 )
+)
+game (
+	name "SVO - Opleiding voor de Vleessector - Het Bewerken van Varkensvlees (Netherlands)"
+	description "SVO - Opleiding voor de Vleessector - Het Bewerken van Varkensvlees (Netherlands)"
+	region "Netherlands"
+	rom ( name "SVO - Opleiding voor de Vleessector - Het Bewerken van Varkensvlees (Netherlands).bin" size 621461904 crc 3B77777D md5 EA8FDF9898A99F6712DC3CD78AD23321 sha1 4AB49068176B827AEE98DA3875443DA6DB85E53F )
+)
+game (
+	name "SVO - Opleiding voor de Vleessector - Hygiene en Verse Voeding (Netherlands)"
+	description "SVO - Opleiding voor de Vleessector - Hygiene en Verse Voeding (Netherlands)"
+	region "Netherlands"
+	rom ( name "SVO - Opleiding voor de Vleessector - Hygiene en Verse Voeding (Netherlands).bin" size 476108304 crc 61A5C2B5 md5 42CE0099B34CAACBE1EA21852C5F0969 sha1 29AE6CDE59C6807015AB3477D252B7514C1987D8 )
 )
 game (
 	name "Saelis Cirkus Aeventyr (Sweden)"
@@ -10977,18 +11657,16 @@ game (
 	rom ( name "Salzburger Land (Europe) (En,De).bin" size 759578400 crc F6FCC09D md5 6A2D5F76CC0BC2232DAA799CAE7DB136 sha1 A297C9175DA9794B3FE34BCBE206ED9B0F48D6D8 serial "810-0149" )
 )
 game (
-	name "Sandy's Circus Adventure (USA)"
-	description "Sandy's Circus Adventure (USA)"
-	region "USA"
+	name "Sandy's Circus Adventure (USA, Europe)"
+	description "Sandy's Circus Adventure (USA, Europe)"
 	serial "310-690-022-2"
-	rom ( name "Sandy's Circus Adventure (USA).bin" size 484747200 crc 8CA39749 md5 2D247A6D8B7EE36861750FA8DAA24AA4 sha1 258555C8CBA593FA7F8B0A3C354AB554C9BEA1B8 serial "310-690-022-2" )
+	rom ( name "Sandy's Circus Adventure (USA, Europe).bin" size 484747200 crc 8CA39749 md5 2D247A6D8B7EE36861750FA8DAA24AA4 sha1 258555C8CBA593FA7F8B0A3C354AB554C9BEA1B8 serial "310-690-022-2" )
 )
 game (
-	name "Sandy's Circus Adventure (USA)"
-	description "Sandy's Circus Adventure (USA)"
-	region "USA"
+	name "Sandy's Circus Adventure (USA, Europe)"
+	description "Sandy's Circus Adventure (USA, Europe)"
 	serial "310690022-2"
-	rom ( name "Sandy's Circus Adventure (USA).bin" size 484747200 crc 8CA39749 md5 2D247A6D8B7EE36861750FA8DAA24AA4 sha1 258555C8CBA593FA7F8B0A3C354AB554C9BEA1B8 serial "310690022-2" )
+	rom ( name "Sandy's Circus Adventure (USA, Europe).bin" size 484747200 crc 8CA39749 md5 2D247A6D8B7EE36861750FA8DAA24AA4 sha1 258555C8CBA593FA7F8B0A3C354AB554C9BEA1B8 serial "310690022-2" )
 )
 game (
 	name "Sandy's Circus Avontuur (Netherlands)"
@@ -11024,6 +11702,13 @@ game (
 	region "Europe"
 	serial "310690030-2"
 	rom ( name "Sargon Chess (Europe).bin" size 396170880 crc 1B60A603 md5 6735CD5EC37AC322F60587316B1F5D1F sha1 C1320AB7F7A976F08773753868C3BF6FB42A49DF serial "310690030-2" )
+)
+game (
+	name "Sargon Chess (Europe)"
+	description "Sargon Chess (Europe)"
+	region "Europe"
+	serial "690-030-2"
+	rom ( name "Sargon Chess (Europe).bin" size 396170880 crc 1B60A603 md5 6735CD5EC37AC322F60587316B1F5D1F sha1 C1320AB7F7A976F08773753868C3BF6FB42A49DF serial "690-030-2" )
 )
 game (
 	name "Sargon Chess (Europe)"
@@ -11126,6 +11811,12 @@ game (
 	rom ( name "Screendisc Interactive Preview Systems - The Preview System (USA).bin" size 679140000 crc 8330E2F2 md5 3B79E7510C77BAAF860296E5B1A5B074 sha1 D1D046A3968274C179ABB3AD842E0AF7FCA1F12E )
 )
 game (
+	name "Seasons Greetings from Philips Media (Europe)"
+	description "Seasons Greetings from Philips Media (Europe)"
+	region "Europe"
+	rom ( name "Seasons Greetings from Philips Media (Europe) (Track 1).bin" size 102488400 crc 248D7339 md5 37B3085D1EB6E44E84264F31F5B353D9 sha1 238DAAEBCD8F5F43A6C59BC98691B6681836AB4B )
+)
+game (
 	name "Secret Mission (Europe)"
 	description "Secret Mission (Europe)"
 	region "Europe"
@@ -11173,6 +11864,37 @@ game (
 	region "Europe"
 	serial "810-0046"
 	rom ( name "Secrets of Tatjana (Europe) (Track 1).bin" size 412070400 crc F3BF1363 md5 F216C60C21C2BE2276855536C687F63E sha1 20C96964148B9373F29F627DB997B11BDE5D38B1 serial "810-0046" )
+)
+game (
+	name "Self Selling Disc (USA)"
+	description "Self Selling Disc (USA)"
+	region "USA"
+	rom ( name "Self Selling Disc (USA).bin" size 352976400 crc FCD77B7B md5 4F4A4D3B794F4F9D1F1C4400E9B8BEC5 sha1 0084E7DE3812B72201D51D18EBB8AD81E543EFA7 )
+)
+game (
+	name "Sell It to Me! Part One - Preparing The Way (UK)"
+	description "Sell It to Me! Part One - Preparing The Way (UK)"
+	rom ( name "Sell It to Me! Part One - Preparing The Way (UK).bin" size 412957104 crc FF4BD8A4 md5 15B4FB35CCD448B8D38950DDF880AC58 sha1 3CCAF494A9190B8EAB0F22DC910881AB0BF4D6C5 )
+)
+game (
+	name "Selling for Real - Demonstration and Handover & Delivery (UK)"
+	description "Selling for Real - Demonstration and Handover & Delivery (UK)"
+	rom ( name "Selling for Real - Demonstration and Handover & Delivery (UK).bin" size 505033200 crc 0CEB120E md5 7424CCAB3AD869F256183BA26372E53A sha1 D0EBF6114367C2EF9A760E7A14FF1F20B9F4F161 )
+)
+game (
+	name "Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)"
+	description "Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK)"
+	rom ( name "Selling for Real - Interactive Video Sales Training - Handling Telephone Sales Enquiries and Making Appraisals Pay (UK).bin" size 639450000 crc E6836F4A md5 1700BD8F02DAB656051B9D91311752CA sha1 57C489FEFDDE3CDB722F8CB47A33E4E995300D6A )
+)
+game (
+	name "Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK)"
+	description "Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK)"
+	rom ( name "Selling for Real - Interactive Video Sales Training - Paperwork, Bloody Paperwork and Selling to Women (UK).bin" size 580713504 crc D617F007 md5 E3F8C518D94BFA98982BB65729D8354F sha1 21AB7C4D13833F59C3793A3C67A2B01940187C8F )
+)
+game (
+	name "Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK)"
+	description "Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK)"
+	rom ( name "Selling for Real - Interactive Video Sales Training - Selling You to You and Taking Personal Control (UK).bin" size 781809504 crc 1CBF9FC1 md5 29161EF6AC446A01B2A517872120C170 sha1 B144CE7C6D5A25677B26E39FCA64CADFD0B27D99 )
 )
 game (
 	name "Serie Privelessen - Klassieke Gitaar - Handleiding voor Beginners (Netherlands)"
@@ -11306,6 +12028,12 @@ game (
 	region "USA"
 	serial "310690309-2-1"
 	rom ( name "Sliver (USA) (Disc 2).bin" size 525142800 crc 00A4A6AC md5 FDD27083F53199B128130313BCD1A2AC sha1 B147A692C93D5C524AE30E76180D52FE4E590D85 serial "310690309-2-1" )
+)
+game (
+	name "Smilde (Netherlands)"
+	description "Smilde (Netherlands)"
+	region "Netherlands"
+	rom ( name "Smilde (Netherlands).bin" size 270425904 crc 005014D6 md5 B8E113EEDCA6DB66E56C725442EDB009 sha1 6280653F5D154F22C9F00B431C30CA6A123402C7 )
 )
 game (
 	name "Smithsonian Presents the Riches of Coins, The (USA)"
@@ -11443,6 +12171,13 @@ game (
 	rom ( name "Staat in de Sterren, Het (Netherlands).bin" size 734000400 crc 310411C4 md5 47F85C20A1D989C31034185E61657CBC sha1 B7E1FA6E9C5EC9AABA9F5522780E5204FFCB1CA7 serial "814-0108" )
 )
 game (
+	name "Standaard Interactieve Encyclopedie (Netherlands) (Demo)"
+	description "Standaard Interactieve Encyclopedie (Netherlands) (Demo)"
+	region "Netherlands"
+	serial "818-0081"
+	rom ( name "Standaard Interactieve Encyclopedie (Netherlands) (Demo).bin" size 123656400 crc 006A9C75 md5 06CF2FFC1B6055E992FACA9737ED0E76 sha1 BDB1840970445915E1B599525F8A549AB8716CA1 serial "818-0081" )
+)
+game (
 	name "Star Trek VI - Das unentdeckte Land (Germany) (Disc 1)"
 	description "Star Trek VI - Das unentdeckte Land (Germany) (Disc 1)"
 	region "Germany"
@@ -11469,6 +12204,34 @@ game (
 	region "Germany"
 	serial "813-1024-1"
 	rom ( name "Star Trek VI - Das unentdeckte Land (Germany) (Disc 2).bin" size 590058000 crc CD585154 md5 786F438F2C259142A77453F85F66C75A sha1 1D751F9131A35D99133E81A922D7C6F90962D561 serial "813-1024-1" )
+)
+game (
+	name "Star Trek VI - Terre Inconnue (France) (Disc 1)"
+	description "Star Trek VI - Terre Inconnue (France) (Disc 1)"
+	region "France"
+	serial "812-1032"
+	rom ( name "Star Trek VI - Terre Inconnue (France) (Disc 1).bin" size 585648000 crc 44901358 md5 43FAAF405D448092346A5CB7619B6AFD sha1 7F89B9071E1E8F769BC5F3D9CE03B9F7207EB7F2 serial "812-1032" )
+)
+game (
+	name "Star Trek VI - Terre Inconnue (France) (Disc 1)"
+	description "Star Trek VI - Terre Inconnue (France) (Disc 1)"
+	region "France"
+	serial "812-1032-0"
+	rom ( name "Star Trek VI - Terre Inconnue (France) (Disc 1).bin" size 585648000 crc 44901358 md5 43FAAF405D448092346A5CB7619B6AFD sha1 7F89B9071E1E8F769BC5F3D9CE03B9F7207EB7F2 serial "812-1032-0" )
+)
+game (
+	name "Star Trek VI - Terre Inconnue (France) (Disc 2)"
+	description "Star Trek VI - Terre Inconnue (France) (Disc 2)"
+	region "France"
+	serial "812-1033"
+	rom ( name "Star Trek VI - Terre Inconnue (France) (Disc 2).bin" size 590058000 crc 8A176235 md5 164B60EA8C6B536ABF7100601573E341 sha1 FD790FA2DD78C1A3A371F5D5FDB3660CF5DCEFAA serial "812-1033" )
+)
+game (
+	name "Star Trek VI - Terre Inconnue (France) (Disc 2)"
+	description "Star Trek VI - Terre Inconnue (France) (Disc 2)"
+	region "France"
+	serial "812-1033-1"
+	rom ( name "Star Trek VI - Terre Inconnue (France) (Disc 2).bin" size 590058000 crc 8A176235 md5 164B60EA8C6B536ABF7100601573E341 sha1 FD790FA2DD78C1A3A371F5D5FDB3660CF5DCEFAA serial "812-1033-1" )
 )
 game (
 	name "Star Trek VI - The Undiscovered Country (Europe) (Disc 1)"
@@ -11900,6 +12663,12 @@ game (
 	rom ( name "Swiss Click (Switzerland).bin" size 727650000 crc CABEE809 md5 B968A6A770FBF19480E713E1CEBEEC93 sha1 EB50C1A26C081BA73EF9A09A2F85F9574C17CC18 )
 )
 game (
+	name "Synthelabo - Cardio-Vasculaire Dausse 1995 - Cours de Perfectionnement en Imagerie Cardiaque (France)"
+	description "Synthelabo - Cardio-Vasculaire Dausse 1995 - Cours de Perfectionnement en Imagerie Cardiaque (France)"
+	region "France"
+	rom ( name "Synthelabo - Cardio-Vasculaire Dausse 1995 - Cours de Perfectionnement en Imagerie Cardiaque (France).bin" size 300938400 crc FD283171 md5 31B84977D913A6AB5DAD3FE2DE3E753D sha1 BC5A9B68ED9BBD2158C391B492228ADC6931990C )
+)
+game (
 	name "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 1995)"
 	description "TF1 - Le Journal Interactif 1995 et le Jeu des Stars de l'Info (France) (Disc 1) (Le Journal Interactif 1995)"
 	region "France"
@@ -12007,6 +12776,13 @@ game (
 	name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)"
 	description "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)"
 	region "Europe"
+	serial "811-0015"
+	rom ( name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt).bin" size 671025600 crc D2D6EBC1 md5 7785A754569FF74B67B71C1A9C36E742 sha1 D10E38BCDD0962B5E25F3C19DD206DF783C3726D serial "811-0015" )
+)
+game (
+	name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)"
+	description "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt)"
+	region "Europe"
 	serial "812-0049"
 	rom ( name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt).bin" size 671025600 crc D2D6EBC1 md5 7785A754569FF74B67B71C1A9C36E742 sha1 D10E38BCDD0962B5E25F3C19DD206DF783C3726D serial "812-0049" )
 )
@@ -12066,18 +12842,16 @@ game (
 	rom ( name "TeleApotheke - Winterprogramm 1995 (B) (Germany).bin" size 221633664 crc 5D97E8DA md5 1EB385677A9398873F8CF59B00B70F97 sha1 9CF475DB05945A5C8E74EDC5BDBAF90565932AB4 )
 )
 game (
-	name "Tell Me Why - One (USA)"
-	description "Tell Me Why - One (USA)"
-	region "USA"
+	name "Tell Me Why - One (USA, Europe)"
+	description "Tell Me Why - One (USA, Europe)"
 	serial "310-690-062-2"
-	rom ( name "Tell Me Why - One (USA).bin" size 601147680 crc 35B880CE md5 623BE6C026A8B7B2BC1F16E1E05BA837 sha1 804CABF18AC0C2651158EE2C7274C23A81C051E5 serial "310-690-062-2" )
+	rom ( name "Tell Me Why - One (USA, Europe).bin" size 601147680 crc 35B880CE md5 623BE6C026A8B7B2BC1F16E1E05BA837 sha1 804CABF18AC0C2651158EE2C7274C23A81C051E5 serial "310-690-062-2" )
 )
 game (
-	name "Tell Me Why - One (USA)"
-	description "Tell Me Why - One (USA)"
-	region "USA"
+	name "Tell Me Why - One (USA, Europe)"
+	description "Tell Me Why - One (USA, Europe)"
 	serial "310690003-2"
-	rom ( name "Tell Me Why - One (USA).bin" size 601147680 crc 35B880CE md5 623BE6C026A8B7B2BC1F16E1E05BA837 sha1 804CABF18AC0C2651158EE2C7274C23A81C051E5 serial "310690003-2" )
+	rom ( name "Tell Me Why - One (USA, Europe).bin" size 601147680 crc 35B880CE md5 623BE6C026A8B7B2BC1F16E1E05BA837 sha1 804CABF18AC0C2651158EE2C7274C23A81C051E5 serial "310690003-2" )
 )
 game (
 	name "Tell Me Why - Two (USA, Europe)"
@@ -12401,6 +13175,13 @@ game (
 	name "Time Life Presents - 35mm Photography (Europe)"
 	description "Time Life Presents - 35mm Photography (Europe)"
 	region "Europe"
+	serial "310690017-2"
+	rom ( name "Time Life Presents - 35mm Photography (Europe).bin" size 640143840 crc D3D263A8 md5 D4249167FB27765A50B4251B691E89DF sha1 98722DFE5DF75BAA6B2047CAB6D8132682B597DE serial "310690017-2" )
+)
+game (
+	name "Time Life Presents - 35mm Photography (Europe)"
+	description "Time Life Presents - 35mm Photography (Europe)"
+	region "Europe"
 	serial "690-017-2"
 	rom ( name "Time Life Presents - 35mm Photography (Europe).bin" size 640143840 crc D3D263A8 md5 D4249167FB27765A50B4251B691E89DF sha1 98722DFE5DF75BAA6B2047CAB6D8132682B597DE serial "690-017-2" )
 )
@@ -12527,6 +13308,34 @@ game (
 	description "Tom's Magic Picture Show (UK)"
 	serial "811-0009"
 	rom ( name "Tom's Magic Picture Show (UK).bin" size 189277200 crc AED2F62E md5 298DB6EB4B0C8D6FDE9FDB254FEE3E81 sha1 5676B9F9427B22295A14C3043FF7F9E48E29D345 serial "811-0009" )
+)
+game (
+	name "Top Gun (France) (Disc 1)"
+	description "Top Gun (France) (Disc 1)"
+	region "France"
+	serial "812-1020"
+	rom ( name "Top Gun (France) (Disc 1).bin" size 620222400 crc 78F773D3 md5 C1FFDD17D67F3A627BA2A85813A6D600 sha1 7D2B3F5BC7FA8E9028D21DC28AD41AC1ECEDA3FE serial "812-1020" )
+)
+game (
+	name "Top Gun (France) (Disc 1)"
+	description "Top Gun (France) (Disc 1)"
+	region "France"
+	serial "812-1020-0"
+	rom ( name "Top Gun (France) (Disc 1).bin" size 620222400 crc 78F773D3 md5 C1FFDD17D67F3A627BA2A85813A6D600 sha1 7D2B3F5BC7FA8E9028D21DC28AD41AC1ECEDA3FE serial "812-1020-0" )
+)
+game (
+	name "Top Gun (France) (Disc 2)"
+	description "Top Gun (France) (Disc 2)"
+	region "France"
+	serial "812-1021"
+	rom ( name "Top Gun (France) (Disc 2).bin" size 517910400 crc D8ACE675 md5 2F0D019F72773E41E0D43CA93235808F sha1 2155CDFFE7BA9F71EB8897EE929E1662D576F4FF serial "812-1021" )
+)
+game (
+	name "Top Gun (France) (Disc 2)"
+	description "Top Gun (France) (Disc 2)"
+	region "France"
+	serial "812-1021-1"
+	rom ( name "Top Gun (France) (Disc 2).bin" size 517910400 crc D8ACE675 md5 2F0D019F72773E41E0D43CA93235808F sha1 2155CDFFE7BA9F71EB8897EE929E1662D576F4FF serial "812-1021-1" )
 )
 game (
 	name "Top Gun (Germany) (Disc 1)"
@@ -12713,6 +13522,13 @@ game (
 	rom ( name "UEFA Champions League (Europe) (Demo).bin" size 107608704 crc 1D4A2266 md5 73EBC6504E169C245D58F7FD35F704E7 sha1 09435BDBBF7B07FC069D26388280483E96F32DA4 serial "818-0063" )
 )
 game (
+	name "UEFA Champions League 95-96 (Europe)"
+	description "UEFA Champions League 95-96 (Europe)"
+	region "Europe"
+	serial "810-0288"
+	rom ( name "UEFA Champions League 95-96 (Europe).bin" size 744408000 crc 496145D4 md5 064837E5E7B144B7AD80AF820F3F1C66 sha1 1FCE009488EAE0642317E1B0D2F8B6512D6F2A84 serial "810-0288" )
+)
+game (
 	name "UEFA Champions League 95-96 (France)"
 	description "UEFA Champions League 95-96 (France)"
 	region "France"
@@ -12725,6 +13541,13 @@ game (
 	region "Italy"
 	serial "815-0110"
 	rom ( name "UEFA Champions League 95-96 (Italy).bin" size 744760800 crc B1D4DBBD md5 A0F674D8AC414D3B7CFF363A8DFC08BC sha1 D458D8907F80F6F04A4A8AD5D98E787FFD34013D serial "815-0110" )
+)
+game (
+	name "UEFA Champions League 95-96 (Netherlands)"
+	description "UEFA Champions League 95-96 (Netherlands)"
+	region "Netherlands"
+	serial "814-0131"
+	rom ( name "UEFA Champions League 95-96 (Netherlands).bin" size 746524800 crc C24F73C4 md5 5CF401EB670034C66530DF38AAA0884B sha1 6F94EC3616B28FF7A15D34F8BFD0C9F531FA2DC5 serial "814-0131" )
 )
 game (
 	name "UEFA Champions League 95-96 (Portugal)"
@@ -12928,6 +13751,13 @@ game (
 	region "Netherlands"
 	serial "950165"
 	rom ( name "Vapro - Inleiding Procestechniek & Introduction to Process Technology (Netherlands) (En,Nl).bin" size 651798000 crc 39FC8662 md5 BA1846F984FCC30BE29C12152399603D sha1 1930719A480AE5D45509F029A8B8E0563AA7743F serial "950165" )
+)
+game (
+	name "Vapro - Procesbeheersing Deel 1 (Netherlands)"
+	description "Vapro - Procesbeheersing Deel 1 (Netherlands)"
+	region "Netherlands"
+	serial "9512/1.0"
+	rom ( name "Vapro - Procesbeheersing Deel 1 (Netherlands).bin" size 501681600 crc 30504189 md5 8831D61154B17D5B59698143E1720B02 sha1 D6977BD81DCD3FE68893684CD746B885BE0EFEB5 serial "9512/1.0" )
 )
 game (
 	name "Vapro - Procesbeheersing Deel 2 (Netherlands)"
@@ -13247,10 +14077,24 @@ game (
 	rom ( name "Volvo 440-460 - Colour & Upholstery - 1995 (Europe).bin" size 314173104 crc F8E69A9E md5 8CF6AAEB0E873EBF2BC344A8A6CC958E sha1 6C79F7EDBF2BA4B2EC912883A884B5A1CD8D34DF )
 )
 game (
+	name "Volvo 440-460 - Colour & Upholstery - 1996 (Europe)"
+	description "Volvo 440-460 - Colour & Upholstery - 1996 (Europe)"
+	region "Europe"
+	serial "MS/PV-527-7900-2"
+	rom ( name "Volvo 440-460 - Colour & Upholstery - 1996 (Europe).bin" size 375736704 crc FF78D759 md5 A81B066C1036779CC4209779180A1999 sha1 1B8277089855C29C6915CF614FD16C7F03865ECC serial "MS/PV-527-7900-2" )
+)
+game (
 	name "Volvo 440-460 - Information Produit - 1995 (Europe)"
 	description "Volvo 440-460 - Information Produit - 1995 (Europe)"
 	region "Europe"
 	rom ( name "Volvo 440-460 - Information Produit - 1995 (Europe).bin" size 368327904 crc BD01E86D md5 8B13A161F91A1AC554C177B16F5B694B sha1 0DE435CCA081508C90AFF0861C10F9904914077F )
+)
+game (
+	name "Volvo 440-460 - Product Information - 1996 (Europe)"
+	description "Volvo 440-460 - Product Information - 1996 (Europe)"
+	region "Europe"
+	serial "MS/PV-527-7916-1"
+	rom ( name "Volvo 440-460 - Product Information - 1996 (Europe).bin" size 360037104 crc 47BFB114 md5 B21F006F1E2157412376B9532324AC00 sha1 91E393987508AA04413DD11F0A1A8C90E3B78AA8 serial "MS/PV-527-7916-1" )
 )
 game (
 	name "Volvo 850 - Colour & Upholstery (Europe)"
@@ -13737,6 +14581,12 @@ game (
 	rom ( name "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta).bin" size 753957120 crc 1AF52950 md5 56A92145333DDC88A430DCC3D579CA18 sha1 72A5BADEAB0387F5A703359DF60F575BA770FEE2 serial "310-690-180-2" )
 )
 game (
+	name "Wall in Motion - Upper GI Motility Visualized as Never Before (Europe)"
+	description "Wall in Motion - Upper GI Motility Visualized as Never Before (Europe)"
+	region "Europe"
+	rom ( name "Wall in Motion - Upper GI Motility Visualized as Never Before (Europe) (Track 1).bin" size 444880800 crc F0853347 md5 F50AA0429E1E1B23732513F4AF60916C sha1 D4EAB41C1FCE235A26A62D0334DF4B91A3AFFEE8 )
+)
+game (
 	name "Wayne's World (UK) (Disc 1)"
 	description "Wayne's World (UK) (Disc 1)"
 	serial "811-1027"
@@ -13833,6 +14683,13 @@ game (
 	rom ( name "Whack a Bubble (Europe).bin" size 182931504 crc 78B18A68 md5 157FFEFC5BA34994AB2C9E671521A964 sha1 E2731C21863AFEB85B2235435B27A45B50FBA4A4 serial "NF140697" )
 )
 game (
+	name "What Is Multimedia (Europe)"
+	description "What Is Multimedia (Europe)"
+	region "Europe"
+	serial "CDI10000890"
+	rom ( name "What Is Multimedia (Europe).bin" size 331460304 crc 3FAF97FE md5 703DED51BCAEAE0DB6E92EB195DE7515 sha1 BE35FF1684421103FEEAA97ECC3C6C8A2DF7EF65 serial "CDI10000890" )
+)
+game (
 	name "What is CD-i (Europe)"
 	description "What is CD-i (Europe)"
 	region "Europe"
@@ -13921,6 +14778,12 @@ game (
 	description "Who's Tommy, The - See Me, Feel Me, Hear Me (Europe)"
 	region "Europe"
 	rom ( name "Who's Tommy, The - See Me, Feel Me, Hear Me (Europe) (Track 1).bin" size 278712000 crc 9A7430A6 md5 2E86DA9E97EB98FA64637520A86772B2 sha1 86A82152CA78F424A08334121A05CDB3AC35365D )
+)
+game (
+	name "Why CD-i (Europe)"
+	description "Why CD-i (Europe)"
+	region "Europe"
+	rom ( name "Why CD-i (Europe).bin" size 380494800 crc 51F0B413 md5 B91816BE04A8EB188017AAFE1EE3F9DF sha1 6535D74B432B0FE7EC42A2D0087386BE3E18AB90 )
 )
 game (
 	name "Wie das Rhinozeros zu seiner Haut kam (Germany) (En,De)"
@@ -14056,6 +14919,34 @@ game (
 	description "Xplora 1 - Peter Gabriel's Secret World (USA, Europe)"
 	serial "819-1029"
 	rom ( name "Xplora 1 - Peter Gabriel's Secret World (USA, Europe).bin" size 721770000 crc 998C9E66 md5 D3378DF2317B3E385D7CC62B22BE9CAA sha1 934BE55FB819603401C386E79345036ACA2EC9E4 serial "819-1029" )
+)
+game (
+	name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1)"
+	description "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1)"
+	region "France"
+	serial "812-1022"
+	rom ( name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1).bin" size 548956800 crc 8BBCB193 md5 D3D8ED7D91BC49C625D64C05A6A59BA1 sha1 DB86812DA52D4CA5301EA406ADB5E072FECED301 serial "812-1022" )
+)
+game (
+	name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1)"
+	description "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1)"
+	region "France"
+	serial "812-1022-0"
+	rom ( name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 1).bin" size 548956800 crc 8BBCB193 md5 D3D8ED7D91BC49C625D64C05A6A59BA1 sha1 DB86812DA52D4CA5301EA406ADB5E072FECED301 serial "812-1022-0" )
+)
+game (
+	name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2)"
+	description "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2)"
+	region "France"
+	serial "812-1023"
+	rom ( name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2).bin" size 341157600 crc 47CED52C md5 5726A19A0FE4E99C2E37DCFF85F3A058 sha1 C2FAB7EE58194EAC17CFB8EE632872BE0BF7A7CA serial "812-1023" )
+)
+game (
+	name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2)"
+	description "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2)"
+	region "France"
+	serial "812-1023-1"
+	rom ( name "Y a-t-il un Flic Pour Sauver le President (France) (Disc 2).bin" size 341157600 crc 47CED52C md5 5726A19A0FE4E99C2E37DCFF85F3A058 sha1 C2FAB7EE58194EAC17CFB8EE632872BE0BF7A7CA serial "812-1023-1" )
 )
 game (
 	name "Yamaha - 1996 CD-i Programme - French Market (France)"
@@ -14278,6 +15169,12 @@ game (
 	region "Netherlands"
 	serial "814-0110"
 	rom ( name "Zoo... Eenvoudig - Dierenencyclopedie (Netherlands).bin" size 724651200 crc 5D404C65 md5 DB4A8FF8E6EAD61CD0D8CC96BD14C868 sha1 352E1643F8D2C7D5AB43EADF78C62E93DC1F6AC9 serial "814-0110" )
+)
+game (
+	name "Zorg voor Houding en Beweging (Netherlands) (Demo)"
+	description "Zorg voor Houding en Beweging (Netherlands) (Demo)"
+	region "Netherlands"
+	rom ( name "Zorg voor Houding en Beweging (Netherlands) (Demo).bin" size 664322400 crc E824F8C0 md5 E1B0B95ADF57F1167362B59D918BE5A7 sha1 1790F21C1AE61F0708B27A20AB2FDDD619F9B845 )
 )
 game (
 	name "eScape (Europe)"

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Game Boy"
 	description "Nintendo - Game Boy"
-	version "2022.2.20"
+	version "2022.10.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -14,7 +14,7 @@ game (
 game (
 	name "1bit Game Collection (World) (Aftermarket) (Homebrew)"
 	description "1bit Game Collection (World) (Aftermarket) (Homebrew)"
-	rom ( name "1bit Game Collection (World) (Aftermarket) (Homebrew).gbc" size 131072 crc 7230319A md5 21D7FBE2AFBE65143C19E2AE9FD17756 sha1 8AB9B6D16E374172F9A88A3EDED19F4888179143 )
+	rom ( name "1bit Game Collection (World) (Aftermarket) (Homebrew).gb" size 131072 crc 7230319A md5 21D7FBE2AFBE65143C19E2AE9FD17756 sha1 8AB9B6D16E374172F9A88A3EDED19F4888179143 )
 )
 game (
 	name "3 Choume no Tama - Tama and Friends - 3 Choume Obake Panic!! (Japan)"
@@ -1362,6 +1362,21 @@ game (
 	rom ( name "Bugs Bunny Crazy Castle, The (USA, Europe).gb" size 65536 crc 403E1B7E md5 43189B859C0036119F233D46B1F2E9FD sha1 2A3E982E542A849F95B4497025CA5B04DB2ABE8C )
 )
 game (
+	name "Bung Greetings Demo (World) (Demo) (Homebrew)"
+	description "Bung Greetings Demo (World) (Demo) (Homebrew)"
+	rom ( name "Bung Greetings Demo (World) (Demo) (Homebrew).gb" size 65536 crc 1AE05AF4 md5 B6DA1BE691EE98480F943E4FCDF5222D sha1 BB01F845D330377749AEB6DF1F7BEA0EFF78BB89 )
+)
+game (
+	name "Bung New Year's Greetings Demo (World) (Demo) (Homebrew)"
+	description "Bung New Year's Greetings Demo (World) (Demo) (Homebrew)"
+	rom ( name "Bung New Year's Greetings Demo (World) (Demo) (Homebrew).gb" size 65536 crc 493D4A1E md5 0D327DB8AABF20A0F6C4698F594B939C sha1 737402FE70924F893FC212393EEB7F46F225745A )
+)
+game (
+	name "Bung's Math Test (World) (Homebrew)"
+	description "Bung's Math Test (World) (Homebrew)"
+	rom ( name "Bung's Math Test (World) (Homebrew).gb" size 32768 crc EBEDA9D2 md5 DD059180386C5D7B7B5C580D0E557A93 sha1 68581C24793E8EA63F3273EFA7BC098309D77D1A )
+)
+game (
 	name "Burai Fighter Deluxe (USA, Europe)"
 	description "Burai Fighter Deluxe (USA, Europe)"
 	rom ( name "Burai Fighter Deluxe (USA, Europe).gb" size 65536 crc 3C86F5DB md5 DD5AA6E85827A3CE6E4B7500E75A3262 sha1 178E18B7E6E65E726B4E06F80D89C55332EA868B )
@@ -1982,7 +1997,7 @@ game (
 game (
 	name "DMG Express (World) (v2.0.1) (Aftermarket) (Homebrew)"
 	description "DMG Express (World) (v2.0.1) (Aftermarket) (Homebrew)"
-	rom ( name "DMG Express (World) (v2.0.1) (Aftermarket) (Homebrew).gbc" size 262144 crc 4C2364A4 md5 832F6DA29F0D9284B4672A68BCAB0BC1 sha1 3077AFD1920EA041DD2631834276A6234076B485 )
+	rom ( name "DMG Express (World) (v2.0.1) (Aftermarket) (Homebrew).gb" size 262144 crc 4C2364A4 md5 832F6DA29F0D9284B4672A68BCAB0BC1 sha1 3077AFD1920EA041DD2631834276A6234076B485 )
 )
 game (
 	name "DMG Express (World) (v3.0.1) (Aftermarket) (Homebrew)"
@@ -2295,6 +2310,11 @@ game (
 	name "Doctor GB Card Demo (World) (Demo) (Homebrew)"
 	description "Doctor GB Card Demo (World) (Demo) (Homebrew)"
 	rom ( name "Doctor GB Card Demo (World) (Demo) (Homebrew).gb" size 32768 crc B5DFDC26 md5 84B3043CC7DA78EF20DF223C1FC5E5A0 sha1 1D403B254971FAA5834BC48ADFD42CC0BBED3FE4 )
+)
+game (
+	name "Doctor GB Card Demo (World) (Demo) (Homebrew) (Alt)"
+	description "Doctor GB Card Demo (World) (Demo) (Homebrew) (Alt)"
+	rom ( name "Doctor GB Card Demo (World) (Demo) (Homebrew) (Alt).gb" size 32768 crc 3592390B md5 FAF003B4A560AC647F9545752384E52C sha1 A6E3B81B8664F41EB18770CD5757ED4D8338BE54 )
 )
 game (
 	name "Dodge Boy (Japan)"
@@ -3168,6 +3188,11 @@ game (
 	rom ( name "GB Basketball (Japan).gb" size 131072 crc D9B24D21 md5 F97902058640F3700B5ACFF422969BA3 sha1 65F73DB2942D400A4C555FBCFD6313F07303D4E4 )
 )
 game (
+	name "GB Corp. (World) (Aftermarket) (Homebrew)"
+	description "GB Corp. (World) (Aftermarket) (Homebrew)"
+	rom ( name "GB Corp. (World) (Aftermarket) (Homebrew).gb" size 32768 crc FD2E40F4 md5 958670DAECCC225FE23E74A60BE59541 sha1 E442316132506FF223A9E5F33D874B71EC09D71A )
+)
+game (
 	name "GB Genjin (Japan)"
 	description "GB Genjin (Japan)"
 	region "Japan"
@@ -3202,11 +3227,6 @@ game (
 	rom ( name "GB-Wordyl (World) (Ca) (Aftermarket) (Homebrew).gb" size 32768 crc 164999EB md5 C8AAF7B73F70F3D600A1D6C435F8349E sha1 197D3D194D4CB6CAE9A358F7FB53D6DE649E7C5F )
 )
 game (
-	name "GB-Wordyl (World) (Cornish Edition) (Aftermarket) (Homebrew)"
-	description "GB-Wordyl (World) (Cornish Edition) (Aftermarket) (Homebrew)"
-	rom ( name "GB-Wordyl (World) (Cornish Edition) (Aftermarket) (Homebrew).gb" size 32768 crc F795689C md5 AB00DEF91C7D2F6D29D3F0C629102033 sha1 9A332127182E8155D1A3DC53E1382A6C9DDE6AEB )
-)
-game (
 	name "GB-Wordyl (World) (De) (Aftermarket) (Homebrew)"
 	description "GB-Wordyl (World) (De) (Aftermarket) (Homebrew)"
 	rom ( name "GB-Wordyl (World) (De) (Aftermarket) (Homebrew).gb" size 32768 crc 60B075D1 md5 B13DDA5F217D1E8050AF087A3F5AC6BC sha1 0A66254B2327B48657DE64D6102AC05F1E8700E7 )
@@ -3230,6 +3250,11 @@ game (
 	name "GB-Wordyl (World) (It) (Aftermarket) (Homebrew)"
 	description "GB-Wordyl (World) (It) (Aftermarket) (Homebrew)"
 	rom ( name "GB-Wordyl (World) (It) (Aftermarket) (Homebrew).gb" size 32768 crc D81AB567 md5 25B8E4D2AA1E09BBD5E68ADCAD582B84 sha1 1DFD3C4508FFB6598662BCF1B16EC109A9282DD5 )
+)
+game (
+	name "GB-Wordyl (World) (Kw) (Aftermarket) (Homebrew)"
+	description "GB-Wordyl (World) (Kw) (Aftermarket) (Homebrew)"
+	rom ( name "GB-Wordyl (World) (Kw) (Aftermarket) (Homebrew).gb" size 32768 crc F795689C md5 AB00DEF91C7D2F6D29D3F0C629102033 sha1 9A332127182E8155D1A3DC53E1382A6C9DDE6AEB )
 )
 game (
 	name "GB-Wordyl (World) (Nl) (Aftermarket) (Homebrew)"
@@ -3927,6 +3952,12 @@ game (
 	rom ( name "Gunman Clive (World) (Aftermarket) (Homebrew).gb" size 65536 crc 11F5FDED md5 587BE2DD01BB27EB938FE6C8484A9281 sha1 EC03763DB2C0D754E2EB7E98384ED92FC8AEEB1D )
 )
 game (
+	name "Gunship (USA) (Aftermarket) (Homebrew)"
+	description "Gunship (USA) (Aftermarket) (Homebrew)"
+	region "USA"
+	rom ( name "Gunship (USA) (Aftermarket) (Homebrew).gb" size 131072 crc BD31EEF8 md5 6A7CB6E2DF241E843569C539B724BB5D sha1 A801977C3746799CFB4D8BDFD679E45CCCD3B719 )
+)
+game (
 	name "HAL Wrestling (USA)"
 	description "HAL Wrestling (USA)"
 	region "USA"
@@ -4525,6 +4556,11 @@ game (
 	description "Jet Pak Man (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Jet Pak Man (Europe) (Proto).gb" size 32768 crc E40DFC1B md5 3F2F5EC07A222C281796691BB43249F9 sha1 0080F76961164810D6C0543D951A465CFA1CAB54 )
+)
+game (
+	name "Jet Set Willy (World) (Aftermarket) (Homebrew)"
+	description "Jet Set Willy (World) (Aftermarket) (Homebrew)"
+	rom ( name "Jet Set Willy (World) (Aftermarket) (Homebrew).gb" size 262144 crc 1686D7ED md5 8F29087400DD29A867682F22E7470B45 sha1 0E594224506FD087E36C66BB66905D4C91B02461 )
 )
 game (
 	name "Jetsons, The - Robot Panic (Japan) (Proto)"
@@ -5512,6 +5548,11 @@ game (
 	rom ( name "Magical Taruruuto-kun 2 - Raibaa Zone Panic!! (Japan).gb" size 131072 crc 0AAD5217 md5 E928D1F7DFAFF38ABC7937A6E092CEC4 sha1 3BE6C6B8CEC80A0FE0F6EDBBE40496F4D077C750 )
 )
 game (
+	name "Magipanels (World) (Rev 1) (Demo) (Aftermarket) (Homebrew)"
+	description "Magipanels (World) (Rev 1) (Demo) (Aftermarket) (Homebrew)"
+	rom ( name "Magipanels (World) (Rev 1) (Demo) (Aftermarket) (Homebrew).gb" size 131072 crc 76FCBC30 md5 AF4ED547284EC6449114DC1B06AB7976 sha1 7A759372BD013DCDB59C9131A2908085FC04D648 )
+)
+game (
 	name "Magnetic Soccer (Europe)"
 	description "Magnetic Soccer (Europe)"
 	region "Europe"
@@ -5838,6 +5879,11 @@ game (
 	description "Metal Masters (USA) (Beta)"
 	region "USA"
 	rom ( name "Metal Masters (USA) (Beta).gb" size 131072 crc 3378064B md5 200626CC703CEBB4E3F31B725A705220 sha1 572C820F7EC7A3C96DF9AF441DA244BEFA5223B9 )
+)
+game (
+	name "Meteorite (World) (Aftermarket) (Homebrew)"
+	description "Meteorite (World) (Aftermarket) (Homebrew)"
+	rom ( name "Meteorite (World) (Aftermarket) (Homebrew).gb" size 262144 crc 50CF593D md5 8A54D5D6C4938661AB6B015369F7B12B sha1 0E88A47FAF3273F87C1EAD7F789FAEB06D5333F3 )
 )
 game (
 	name "Metroid II - Return of Samus (World)"
@@ -7091,10 +7137,10 @@ game (
 	rom ( name "Pac-Attack (USA) (SGB Enhanced).gb" size 131072 crc 94E0AF9C md5 8A0430CF49ABDA1FC055C16D2BBEA387 sha1 3FB6907D2352B34E0E60E3AE7B1D32F3E0C84FC9 )
 )
 game (
-	name "Pac-In-Time (Europe) (Rev 1) (Possible Proto) (SGB Enhanced)"
-	description "Pac-In-Time (Europe) (Rev 1) (Possible Proto) (SGB Enhanced)"
+	name "Pac-In-Time (Europe) (Rev 1) (SGB Enhanced)"
+	description "Pac-In-Time (Europe) (Rev 1) (SGB Enhanced)"
 	region "Europe"
-	rom ( name "Pac-In-Time (Europe) (Rev 1) (Possible Proto) (SGB Enhanced).gb" size 262144 crc 7FF79DF9 md5 FEF3CB8003ACB11FF75A2201BB517877 sha1 F30108B8E422C4B9776C90C884710194508545EA )
+	rom ( name "Pac-In-Time (Europe) (Rev 1) (SGB Enhanced).gb" size 262144 crc 7FF79DF9 md5 FEF3CB8003ACB11FF75A2201BB517877 sha1 F30108B8E422C4B9776C90C884710194508545EA )
 )
 game (
 	name "Pac-In-Time (Europe) (SGB Enhanced)"
@@ -7301,6 +7347,11 @@ game (
 	rom ( name "Pang (Europe) (Beta).gb" size 131072 crc 54D2754A md5 DF5835E45B4540087133AF202F7D67F6 sha1 B57D436D8A83F2FB1E42BAD3150893EF8FFAB0D4 )
 )
 game (
+	name "Panty Hunty (World) (v1.4) (Aftermarket) (Homebrew)"
+	description "Panty Hunty (World) (v1.4) (Aftermarket) (Homebrew)"
+	rom ( name "Panty Hunty (World) (v1.4) (Aftermarket) (Homebrew).gb" size 524288 crc CE707B9A md5 7A8E19E290EE3A6BC2687E331CD0DB06 sha1 B5757B268A09D9085D469EDA0676991F7361AD8C )
+)
+game (
 	name "Paperboy (USA, Europe)"
 	description "Paperboy (USA, Europe)"
 	rom ( name "Paperboy (USA, Europe).gb" size 65536 crc 46DE32BA md5 DCABC0879C258E54048237D280FFA7DA sha1 4103B51BBD75572181D407821890F167462A996B )
@@ -7411,17 +7462,12 @@ game (
 game (
 	name "Phobos Dere .GB (World) (Aftermarket) (Homebrew)"
 	description "Phobos Dere .GB (World) (Aftermarket) (Homebrew)"
-	rom ( name "Phobos Dere .GB (World) (Aftermarket) (Homebrew).gbc" size 1048576 crc AE97F4F8 md5 A1D55314D4D98E93EAF8DE42E1AC5BC8 sha1 E541505078EE5E7E5C897B4621CC693CE71E35BA )
-)
-game (
-	name "Phobos Dere .GB (World) (Analogue Pocket) (Aftermarket) (Homebrew)"
-	description "Phobos Dere .GB (World) (Analogue Pocket) (Aftermarket) (Homebrew)"
-	rom ( name "Phobos Dere .GB (World) (Analogue Pocket) (Aftermarket) (Homebrew).pocket" size 1048576 crc DB5815B6 md5 054E47E6AEE2CD1AB5CA80C258177447 sha1 DA857956E6CC402C6B9D49F8C9B080BF0D875F9B )
+	rom ( name "Phobos Dere .GB (World) (Aftermarket) (Homebrew).gb" size 1048576 crc AE97F4F8 md5 A1D55314D4D98E93EAF8DE42E1AC5BC8 sha1 E541505078EE5E7E5C897B4621CC693CE71E35BA )
 )
 game (
 	name "Phobos Dere .GB (World) (Rev 1) (Demo) (Aftermarket) (Homebrew)"
 	description "Phobos Dere .GB (World) (Rev 1) (Demo) (Aftermarket) (Homebrew)"
-	rom ( name "Phobos Dere .GB (World) (Rev 1) (Demo) (Aftermarket) (Homebrew).gbc" size 262144 crc 58362B86 md5 90AD297835B0FAC6C28A5C84B8D1C7AC sha1 B4CC3C3735BC134E34B97E08ED24C57AEF5C5CCF )
+	rom ( name "Phobos Dere .GB (World) (Rev 1) (Demo) (Aftermarket) (Homebrew).gb" size 262144 crc 58362B86 md5 90AD297835B0FAC6C28A5C84B8D1C7AC sha1 B4CC3C3735BC134E34B97E08ED24C57AEF5C5CCF )
 )
 game (
 	name "Picross 2 (Japan) (SGB Enhanced)"
@@ -7518,6 +7564,11 @@ game (
 	name "Pixel Who - The Lost Legions (World) (v1.0) (Aftermarket) (Homebrew)"
 	description "Pixel Who - The Lost Legions (World) (v1.0) (Aftermarket) (Homebrew)"
 	rom ( name "Pixel Who - The Lost Legions (World) (v1.0) (Aftermarket) (Homebrew).gb" size 1048576 crc F41CF2A7 md5 239CB2527756A4B509DCC45BA6BD1D75 sha1 C07378C774602060F1F93F18FBFD3F0D552FE2D2 )
+)
+game (
+	name "Plants Eat My Zombies (World) (v1.1) (Aftermarket) (Homebrew)"
+	description "Plants Eat My Zombies (World) (v1.1) (Aftermarket) (Homebrew)"
+	rom ( name "Plants Eat My Zombies (World) (v1.1) (Aftermarket) (Homebrew).gb" size 524288 crc 60C84F2E md5 0A5CC3C3BC487534740ACA1DB4DA6575 sha1 C39EC5E6A9A0BE0970B56E788C3F60E9821DBBD3 )
 )
 game (
 	name "Play Action Football (USA)"
@@ -8303,6 +8354,11 @@ game (
 	rom ( name "Radar Mission (USA, Europe).gb" size 131072 crc 581DA9C9 md5 82D650A781EF372126A863D519C01AAE sha1 5AB5998A84EEBC769F75C482CB0A5586ED97E888 )
 )
 game (
+	name "Raffles (World) (Aftermarket) (Homebrew)"
+	description "Raffles (World) (Aftermarket) (Homebrew)"
+	rom ( name "Raffles (World) (Aftermarket) (Homebrew).gb" size 262144 crc 0B400A91 md5 78FF544ADA44BF6832E970F78EE2C8A9 sha1 AADFE3FD0720696547B73B272354B592B96F98F7 )
+)
+game (
 	name "Raging Fighter (USA, Europe)"
 	description "Raging Fighter (USA, Europe)"
 	rom ( name "Raging Fighter (USA, Europe).gb" size 262144 crc 1EF3BEDB md5 1752014C81020E4DBCE44C47C301DAF9 sha1 3E9AE5693208B8C377792C0FB67D682C6158B14D )
@@ -8367,9 +8423,9 @@ game (
 	rom ( name "Red October o Oe! (Japan).gb" size 131072 crc C2E7BE35 md5 22EF15C88A371718D81B36F957F4F664 sha1 48D5F02A126C32423569065F31D2C5695E39FD2F )
 )
 game (
-	name "Remute - Living Electronics (World) (Aftermarket) (Unl)"
-	description "Remute - Living Electronics (World) (Aftermarket) (Unl)"
-	rom ( name "Remute - Living Electronics (World) (Aftermarket) (Unl).gb" size 2097152 crc 1CED0A62 md5 615B1B2E4135363DF4F0FAAE5E98AAFD sha1 BC4BF12344D3B9D028A7013C84B94AEA515BE196 )
+	name "Remute - Living Electronics (World) (Aftermarket) (Homebrew)"
+	description "Remute - Living Electronics (World) (Aftermarket) (Homebrew)"
+	rom ( name "Remute - Living Electronics (World) (Aftermarket) (Homebrew).gb" size 2097152 crc 1CED0A62 md5 615B1B2E4135363DF4F0FAAE5E98AAFD sha1 BC4BF12344D3B9D028A7013C84B94AEA515BE196 )
 )
 game (
 	name "Ren & Stimpy Show, The - Space Cadet Adventures (USA)"
@@ -9090,6 +9146,11 @@ game (
 	rom ( name "Sloth Story (World) (v1.0) (Aftermarket) (Homebrew).gb" size 262144 crc C873F232 md5 836C4E027F8A2BFC593CE3032CBB40D9 sha1 369D2AFEC4FFB59D4F3A59EE684C5BFEC0B34FF8 )
 )
 game (
+	name "Sludge & Sorcery (World) (Aftermarket) (Homebrew)"
+	description "Sludge & Sorcery (World) (Aftermarket) (Homebrew)"
+	rom ( name "Sludge & Sorcery (World) (Aftermarket) (Homebrew).gb" size 1048576 crc C906C5AF md5 4D401D54A616BE45156E253213A6F04F sha1 0E0D472B282E3EA590E0F126BAF633EF0D9298FA )
+)
+game (
 	name "Small Soldiers (USA, Europe) (SGB Enhanced)"
 	description "Small Soldiers (USA, Europe) (SGB Enhanced)"
 	rom ( name "Small Soldiers (USA, Europe) (SGB Enhanced).gb" size 524288 crc DBF106D1 md5 46B6AE39B3140F81D66BE8338A8BCEA3 sha1 FCE53AED026E3171AC5C26D21D5DBCBBB2C14968 )
@@ -9357,6 +9418,11 @@ game (
 	name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2) (1993-04-11)"
 	description "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2) (1993-04-11)"
 	rom ( name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2) (1993-04-11).gb" size 131072 crc BF2D1F10 md5 0127C54D0BD22DB6ECDA3796E68861C6 sha1 34740DC60663EF33C42573A26E7B207F2CFE4A16 )
+)
+game (
+	name "Spiky Harold (World) (Aftermarket) (Homebrew)"
+	description "Spiky Harold (World) (Aftermarket) (Homebrew)"
+	rom ( name "Spiky Harold (World) (Aftermarket) (Homebrew).gb" size 524288 crc 2AC1B945 md5 E5190278DA9E7675533B2CFDBF5CFFC4 sha1 B8F37A64524BDE4C2B6E9A1938ED6E5C0A5AAD7C )
 )
 game (
 	name "Spirit of F-1, The (Europe)"
@@ -10892,6 +10958,11 @@ game (
 	rom ( name "VS Battler (Japan).gb" size 65536 crc 20AE389A md5 B394B99267DA2B55C74FC67C369C1057 sha1 5F99C7767CBBF5AD9164805214875D7054F49F14 )
 )
 game (
+	name "Vampire Night Shift (World) (Aftermarket) (Homebrew)"
+	description "Vampire Night Shift (World) (Aftermarket) (Homebrew)"
+	rom ( name "Vampire Night Shift (World) (Aftermarket) (Homebrew).gb" size 262144 crc 88ACBC1A md5 8F86DB5CA5019627325F722761DB3015 sha1 EF617803C2CDB14CFE3B3B2111AA239A3744E29E )
+)
+game (
 	name "Vattle Giuce (Japan)"
 	description "Vattle Giuce (Japan)"
 	region "Japan"
@@ -11324,6 +11395,27 @@ game (
 	description "Yannick Noah Tennis (France) (En)"
 	region "France"
 	rom ( name "Yannick Noah Tennis (France) (En).gb" size 65536 crc 402D4D47 md5 38412BA58B750D1A838137ADE975F62A sha1 5BC39C44DA587A89BEF7478617C402855A1B5B24 )
+)
+game (
+	name "Year After, The (USA) (Aftermarket) (Homebrew)"
+	description "Year After, The (USA) (Aftermarket) (Homebrew)"
+	region "USA"
+	rom ( name "Year After, The (USA) (Aftermarket) (Homebrew).gb" size 1048576 crc 4E463A1A md5 675F64CBCC158260DC8652CBE1DBCDB6 sha1 5D84F53F38AA24F54A6F897CA69FFC5D978805AF )
+)
+game (
+	name "Year After, The (World) (Beta) (Aftermarket) (Homebrew)"
+	description "Year After, The (World) (Beta) (Aftermarket) (Homebrew)"
+	rom ( name "Year After, The (World) (Beta) (Aftermarket) (Homebrew).gb" size 1048576 crc F15351C8 md5 4E60A2F1EDBEF45F0794A95DC0607234 sha1 A78FF2EEF780287BBDC37DF122CFC1C504526662 )
+)
+game (
+	name "Year After, The (World) (Fr) (Beta) (Aftermarket) (Homebrew)"
+	description "Year After, The (World) (Fr) (Beta) (Aftermarket) (Homebrew)"
+	rom ( name "Year After, The (World) (Fr) (Beta) (Aftermarket) (Homebrew).gb" size 1048576 crc FBC50EE8 md5 48FE5119E80F17E9663AF671922ABEA2 sha1 52C27E64FB37412C97A53D5DDE52C3803FD1E4F7 )
+)
+game (
+	name "Year After, The (World) (Pt) (Beta) (Aftermarket) (Homebrew)"
+	description "Year After, The (World) (Pt) (Beta) (Aftermarket) (Homebrew)"
+	rom ( name "Year After, The (World) (Pt) (Beta) (Aftermarket) (Homebrew).gb" size 1048576 crc B70C1C7F md5 2F6556846CC09E6165FF05DF60BB072B sha1 CE25CDF6A6264586423E76E34DC42779D39A1CB1 )
 )
 game (
 	name "Yogi Bear's Gold Rush (Europe)"
