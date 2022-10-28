@@ -3,7 +3,7 @@ clrmamepro (
 	description "ScummVM"
 	comment "DAT file containing game files to launch ScummVM games from RetroArch."
 	category "ScummVM"
-	version "2021.12.23"
+	version "2022.9.8"
 	author "Rob Loach"
 	homepage "http://github.com/RobLoach/libretro-database-scummvm"
 )
@@ -78,6 +78,24 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "10indians-1 ScummVM File"
 	rom ( name "Mysterious Adventures 10_ Ten Little Indians (Multi-OS)[with graphics] ScummVM File.scummvm" size 11 crc d7db460b )
+)
+
+game (
+	name "Mysterious Adventures 10: Ten Little Indians (Commodore 64)"
+	description "Mysterious Adventures 10: Ten Little Indians (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "10indians-c64"
+	rom ( name "10LITTLE.T64" size 20383 crc ef7c14a7 md5 561ad8904cd3fdf4a5a061a297cfb615 sha1 4ab1e5798ba3adb42ea2c5a0c8f37e1a85231aac )
+)
+
+game (
+	name "Mysterious Adventures 10: Ten Little Indians (Commodore 64)"
+	description "Mysterious Adventures 10: Ten Little Indians (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "10indians-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 10_ Ten Little Indians (Commodore 64) ScummVM File.scummvm" size 13 crc fa026754 )
 )
 
 game (
@@ -162,60 +180,6 @@ game (
 )
 
 game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(DOS)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(DOS)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making"
-	rom ( name "MAKINGOF.ROM" size 32 crc 074585c3 md5 d83837aea9bacbc44649c1685a90aa7d sha1 a9fe105f925ca8fbf13491eb3999c7bbdf393722 )
-)
-
-game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(DOS)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(DOS)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making ScummVM File"
-	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(DOS)[!] ScummVM File.scummvm" size 10 crc 6324c6b5 )
-)
-
-game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making-mac"
-	rom ( name "MAKINGMAC.ROM" size 36 crc ee8b734a md5 4b56d95dd7f0774870810aef9d5f80bd sha1 0f78de2403d5fc0327b76ce7a3119c465d4991a6 )
-)
-
-game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making-mac ScummVM File"
-	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Macintosh)[!] ScummVM File.scummvm" size 14 crc 1931f96 )
-)
-
-game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making-mac-1"
-	rom ( name "MAKINGMAC.ROM" size 38 crc 6c3c1bf2 md5 36e239356b3887b1ad9785a28ba71ff4 sha1 0143359f208c2f75a97902d094496307749f7aba )
-)
-
-game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
-	releaseyear "1995"
-	developer "Trilobyte"
-	code "11h-making-mac-1 ScummVM File"
-	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Macintosh)[Installed][!] ScummVM File.scummvm" size 16 crc 9a3e69d0 )
-)
-
-game (
 	name "11th Hour, The: The Sequel to 'The 7th Guest' (Windows)"
 	description "11th Hour, The: The Sequel to 'The 7th Guest' (Windows)"
 	releaseyear "1995"
@@ -225,21 +189,30 @@ game (
 )
 
 game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' (DOS/German)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' (DOS/German)"
+	name "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/German)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/German)"
 	releaseyear "1995"
 	developer "Trilobyte"
 	code "11h-win-de"
-	rom ( name "DISK.1" size 227 crc dd0398ea md5 5c0428cd3659fc7bbcd0aa16485ed5da sha1 636bac832781b42707a9fa42fd5caab0a8adf975 )
+	rom ( name "SAMPLE.MT" size 65026 crc 19a6e54b md5 5e57e09ed7b5a2ea6fca5e9c92774756 sha1 7808859fe3323fe24feb2cca5adefa7b64bced45 )
 )
 
 game (
-	name "11th Hour, The: The Sequel to 'The 7th Guest' (DOS/German)"
-	description "11th Hour, The: The Sequel to 'The 7th Guest' (DOS/German)"
+	name "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/German)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/German)"
 	releaseyear "1995"
 	developer "Trilobyte"
 	code "11h-win-de ScummVM File"
-	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' (DOS_German)[!] ScummVM File.scummvm" size 10 crc a5b5f001 )
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' (Windows_German)[!] ScummVM File.scummvm" size 10 crc a5b5f001 )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/French)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' (Windows/French)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "11h-win-fr ScummVM File"
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' (Windows_French)[!] ScummVM File.scummvm" size 10 crc 14501744 )
 )
 
 game (
@@ -1734,6 +1707,13 @@ game (
 	description "ScummVM - MORTEVIELLE Engine Games"
 	code "ScummVM MORTEVIELLE ScummVM File"
 	rom ( name "ScummVM - MORTEVIELLE Engine Games ScummVM File.scummvm" size 19 crc e0b383a6 )
+)
+
+game (
+	name "ScummVM - MTROPOLIS Engine Games"
+	description "ScummVM - MTROPOLIS Engine Games"
+	code "ScummVM MTROPOLIS ScummVM File"
+	rom ( name "ScummVM - MTROPOLIS Engine Games ScummVM File.scummvm" size 17 crc e3c7b829 )
 )
 
 game (
@@ -3924,6 +3904,96 @@ game (
 )
 
 game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64"
+	rom ( name "Adventureland.d64" size 174848 crc b10c2728 md5 ccd3e3c805134b4fc36ad92e1cae623f sha1 c990b03f6050ba67864bfcde8f92f6e0c60282a7 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64 ScummVM File"
+	rom ( name "Scott Adams Adventure 01_ Adventureland (Commodore 64)[D64] ScummVM File.scummvm" size 17 crc c86a28 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-1"
+	rom ( name "adventureland-a1.d64" size 175531 crc d7ce75c1 md5 6c3de0b0ef39fad9d63e788de8cd972c sha1 efc0297a58184b7c92d6218067defb3e4f7456d0 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-1 ScummVM File"
+	rom ( name "Scott Adams Adventure 01_ Adventureland (Commodore 64)[D64][a1] ScummVM File.scummvm" size 19 crc c0176e0e )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-2"
+	rom ( name "adventureland-a2.d64" size 175531 crc c7194632 md5 547036c586bfcd53e741ecfad74e3001 sha1 15167366aeeee9ffe1a769fda278c91dc13f4625 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-2 ScummVM File"
+	rom ( name "Scott Adams Adventure 01_ Adventureland (Commodore 64)[D64][a2] ScummVM File.scummvm" size 19 crc 591e3fb4 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-3"
+	rom ( name "Adventure#01.t64" size 27152 crc 0c119558 md5 21f9857ee377daecb88efa8a5072a7ae sha1 33875363765a656ce4327f00c8f751afce52bc2a )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	description "Scott Adams Adventure 01: Adventureland (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-c64-3 ScummVM File"
+	rom ( name "Scott Adams Adventure 01_ Adventureland (Commodore 64)[T64] ScummVM File.scummvm" size 19 crc 2e190f22 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (TI99/4A)"
+	description "Scott Adams Adventure 01: Adventureland (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-ti9"
+	rom ( name "adv01.fiad" size 10774 crc 296fa3f8 md5 9be009cabd01662f455b0a9801048cc2 sha1 9c55a95eb725967795b9e69cd7f1000c4ebc4a03 )
+)
+
+game (
+	name "Scott Adams Adventure 01: Adventureland (TI99/4A)"
+	description "Scott Adams Adventure 01: Adventureland (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "adventureland-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 01_ Adventureland (TI99_4A) ScummVM File.scummvm" size 17 crc 5a33e2fb )
+)
+
+game (
 	name "Scott Adams Adventure 01: Adventureland (Multi-OS)"
 	description "Scott Adams Adventure 01: Adventureland (Multi-OS)"
 	releaseyear "1980"
@@ -5046,6 +5116,42 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "akyrz-1 ScummVM File"
 	rom ( name "Mysterious Adventures 08_ The Wizard of Akyrz (Multi-OS)[with graphics] ScummVM File.scummvm" size 7 crc cff83a4c )
+)
+
+game (
+	name "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	description "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "akyrz-c64"
+	rom ( name "WIZRDADV.D64" size 174848 crc b30db691 md5 c423ad31ab3f6b45f0215c2e7fc3eb7e sha1 3239be60dac1c7b8f87cf0bc7a8bd2e99e8e69d1 )
+)
+
+game (
+	name "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	description "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "akyrz-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 08_ The Wizard of Akyrz (Commodore 64)[D64] ScummVM File.scummvm" size 9 crc 1c899ba2 )
+)
+
+game (
+	name "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	description "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "akyrz-c64-1"
+	rom ( name "WIZARDOA.T64" size 19425 crc ae94b7b6 md5 20539863deec962b452bbb27e0fde1f1 sha1 1059a7e1936ffb0b853eb5e362a0e223536d09b9 )
+)
+
+game (
+	name "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	description "Mysterious Adventures 08: The Wizard of Akyrz (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "akyrz-c64-1 ScummVM File"
+	rom ( name "Mysterious Adventures 08_ The Wizard of Akyrz (Commodore 64)[T64] ScummVM File.scummvm" size 11 crc cbc1c004 )
 )
 
 game (
@@ -7281,6 +7387,24 @@ game (
 )
 
 game (
+	name "Mysterious Adventures 03: Arrow of Death Part 1 (Commodore 64)"
+	description "Mysterious Adventures 03: Arrow of Death Part 1 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "arrowofdeath1-c64"
+	rom ( name "ARROWOD1.T64" size 23366 crc a5ba5f55 md5 a52d70cb01e9904cc2b43f90311c8590 sha1 b899d65b239d28478e40cd3c8c4df416ae82e585 )
+)
+
+game (
+	name "Mysterious Adventures 03: Arrow of Death Part 1 (Commodore 64)"
+	description "Mysterious Adventures 03: Arrow of Death Part 1 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "arrowofdeath1-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 03_ Arrow of Death Part 1 (Commodore 64) ScummVM File.scummvm" size 17 crc 36c03111 )
+)
+
+game (
 	name "Mysterious Adventures 03: Arrow of Death Part 1 (Spectrum)"
 	description "Mysterious Adventures 03: Arrow of Death Part 1 (Spectrum)"
 	releaseyear "1994"
@@ -7386,6 +7510,24 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "arrowofdeath2-1 ScummVM File"
 	rom ( name "Mysterious Adventures 04_ Arrow of Death Part 2 (Multi-OS)[with graphics] ScummVM File.scummvm" size 15 crc 95a9d325 )
+)
+
+game (
+	name "Mysterious Adventures 03: Arrow of Death Part 2 (Commodore 64)"
+	description "Mysterious Adventures 03: Arrow of Death Part 2 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "arrowofdeath2-c64"
+	rom ( name "ARROWOD2.T64" size 24546 crc 034e17d9 md5 0beff434e3369bc8bda00db6bd6bd874 sha1 fe37e22e6a4f04739ca1c80fd1d7efe874ddcdd9 )
+)
+
+game (
+	name "Mysterious Adventures 03: Arrow of Death Part 2 (Commodore 64)"
+	description "Mysterious Adventures 03: Arrow of Death Part 2 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "arrowofdeath2-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 03_ Arrow of Death Part 2 (Commodore 64) ScummVM File.scummvm" size 17 crc 71604bc1 )
 )
 
 game (
@@ -11929,6 +12071,15 @@ game (
 	description "Blackwell Deception, The (Windows)"
 	releaseyear "2011"
 	developer "Wadjet Eye Games"
+	code "blackwell4"
+	rom ( name "Deception.exe" size 304040703 crc 70333ee1 md5 6c56bd8abbe6ac2c0279bbd3f0a5b484 sha1 73d39964c4699fb965f2088454ebe1a3680d6a7c )
+)
+
+game (
+	name "Blackwell Deception, The (Windows)"
+	description "Blackwell Deception, The (Windows)"
+	releaseyear "2011"
+	developer "Wadjet Eye Games"
 	code "blackwell4 ScummVM File"
 	rom ( name "Blackwell Deception, The (Windows)[GoG, v2.1.0.13][!] ScummVM File.scummvm" size 10 crc a6d81efb )
 )
@@ -12024,12 +12175,12 @@ game (
 )
 
 game (
-	name "Blackwell Deception, The (Linux)"
-	description "Blackwell Deception, The (Linux)"
-	releaseyear "2011"
+	name "Blackwell Epiphany, The (Windows)"
+	description "Blackwell Epiphany, The (Windows)"
+	releaseyear "2014"
 	developer "Wadjet Eye Games"
-	code "blackwell4-linux ScummVM File"
-	rom ( name "Blackwell Deception, The (Linux)[GoG, v2.0.0.3][!] ScummVM File.scummvm" size 16 crc c0537784 )
+	code "blackwell5"
+	rom ( name "epiphany.exe" size 281849897 crc a2b96a23 md5 b9a2b0c1d00eea55f47490803fefe10d sha1 2f5ad3d6794c078c7d69b72e052d4ad162afbf47 )
 )
 
 game (
@@ -12075,15 +12226,6 @@ game (
 	developer "Wadjet Eye Games"
 	code "blackwell5-2 ScummVM File"
 	rom ( name "Blackwell Epiphany, The (Windows)[Steam, 2021-03-02][!] ScummVM File.scummvm" size 12 crc a5a1d06a )
-)
-
-game (
-	name "Blackwell Epiphany, The (Linux)"
-	description "Blackwell Epiphany, The (Linux)"
-	releaseyear "2014"
-	developer "Wadjet Eye Games"
-	code "blackwell5-linux ScummVM File"
-	rom ( name "Blackwell Epiphany, The (Linux)[GoG, v2.0.0.2][!] ScummVM File.scummvm" size 16 crc 66247c30 )
 )
 
 game (
@@ -16281,6 +16423,24 @@ game (
 )
 
 game (
+	name "Mysterious Adventures 06: Circus (Commodore 64)"
+	description "Mysterious Adventures 06: Circus (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "circus-c64"
+	rom ( name "CIRCUS1.T64" size 17001 crc 62f2acc8 md5 f9f90c4af841a7b8121b7ba470371aa4 sha1 f36a6af41a83a2449a1769510adae725afac914f )
+)
+
+game (
+	name "Mysterious Adventures 06: Circus (Commodore 64)"
+	description "Mysterious Adventures 06: Circus (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "circus-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 06_ Circus (Commodore 64) ScummVM File.scummvm" size 10 crc 284d4158 )
+)
+
+game (
 	name "Mysterious Adventures 06: Circus (Spectrum)"
 	description "Mysterious Adventures 06: Circus (Spectrum)"
 	releaseyear "1994"
@@ -16440,6 +16600,78 @@ game (
 	developer "Scott Adams"
 	code "claymorguesorcerer-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 13_ Sorcerer of Claymorgue Castle (PDA) ScummVM File.scummvm" size 20 crc f12dca29 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64"
+	rom ( name "Adventure_#13.t64" size 49373 crc 6efeedf3 md5 b5e409fb83e2a8877b9737e03b797086 sha1 35c77a6a31147677e3a7e1f069a5c108141f78e9 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64 ScummVM File"
+	rom ( name "Scott Adams Adventure 13_ Sorcerer of Claymorgue Castle (Commodore 64) ScummVM File.scummvm" size 22 crc b9bec889 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-1"
+	rom ( name "SORCCLAYALT.T64" size 48223 crc 68e2812b md5 c9a64030ef0261ccfb921d754526a3d4 sha1 93a13d89009a78006cad1f853b68ff5390492914 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-1 ScummVM File"
+	rom ( name "Scott Adams Adventure 13_ Sorcerer of Claymorgue Castle (Commodore 64)[a1] ScummVM File.scummvm" size 24 crc 4fd39814 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-2"
+	rom ( name "Adventure_#13_ABC.t64" size 37167 crc 08570230 md5 9e298d784d21abdac1b32cbad44528b8 sha1 5a78d533010c7c3a09a14967291f9ffadbc4e083 )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-2 ScummVM File"
+	rom ( name "Scott Adams Adventure 13_ Sorcerer of Claymorgue Castle (Commodore 64)[a2] ScummVM File.scummvm" size 24 crc d6dac9ae )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-3"
+	rom ( name "Sorcerer_of_Claymorgue_Castle_ABC.t64" size 28663 crc 1eeaa1a8 md5 5c9ce263bfe439dee9af8af48eb76c31 sha1 9343d10d6f42ee9495300509fdfb1aaf8add3a3f )
+)
+
+game (
+	name "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	description "Scott Adams Adventure 13: Sorcerer of Claymorgue Castle (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "claymorguesorcerer-c64-3 ScummVM File"
+	rom ( name "Scott Adams Adventure 13_ Sorcerer of Claymorgue Castle (Commodore 64)[a3] ScummVM File.scummvm" size 24 crc a1ddf938 )
 )
 
 game (
@@ -17671,17 +17903,17 @@ game (
 	description "Cruise for a Corpse (Atari ST)"
 	releaseyear "1991"
 	developer "Delphine Software"
-	code "cruise-st ScummVM File"
-	rom ( name "Cruise for a Corpse (Atari ST) ScummVM File.scummvm" size 9 crc 2d5c49b1 )
+	code "cruise-st"
+	rom ( name "SYSTEM.FNT" size 6882 crc b278ac16 md5 a9d5045166bf9db521f5d8edda36b0dc sha1 373ba1c0641a5d2b7e475398905a95e455932e87 )
 )
 
 game (
-	name "Cruise for a Corpse (Atari ST/French)"
-	description "Cruise for a Corpse (Atari ST/French)"
+	name "Cruise for a Corpse (Atari ST)"
+	description "Cruise for a Corpse (Atari ST)"
 	releaseyear "1991"
 	developer "Delphine Software"
-	code "cruise-st-fr ScummVM File"
-	rom ( name "Cruise for a Corpse (Atari ST_French)[!] ScummVM File.scummvm" size 12 crc c582ad09 )
+	code "cruise-st ScummVM File"
+	rom ( name "Cruise for a Corpse (Atari ST) ScummVM File.scummvm" size 9 crc 2d5c49b1 )
 )
 
 game (
@@ -22886,6 +23118,123 @@ game (
 )
 
 game (
+	name "Gold and Glory: The Road to El Dorado {Gold und Ruhm: Der Weg nach El Dorado}(PlayStation/German)"
+	description "Gold and Glory: The Road to El Dorado {Gold und Ruhm: Der Weg nach El Dorado}(PlayStation/German)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-de"
+	rom ( name "SLES_031.85" size 1982464 crc 1c5ca2f1 md5 76ef25ed0cb915542c16b320ad8458cc sha1 097d96e5be69237a8bac9041330856e292e20484 )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Gold und Ruhm: Der Weg nach El Dorado}(PlayStation/German)"
+	description "Gold and Glory: The Road to El Dorado {Gold und Ruhm: Der Weg nach El Dorado}(PlayStation/German)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-de ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado {Gold und Ruhm_ Der Weg nach El Dorado}(PlayStation_German)[unsupported yet][!] ScummVM File.scummvm" size 15 crc bd8ceacf )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Oro y Gloria: La ruta hacia El Dorado}(PlayStation/Spanish)"
+	description "Gold and Glory: The Road to El Dorado {Oro y Gloria: La ruta hacia El Dorado}(PlayStation/Spanish)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-es"
+	rom ( name "SLES_031.87" size 1982464 crc 3fd8e10e md5 c686c9975a32b135aa287f54b4fd06c2 sha1 e88eafdddd728ab688acc39cace71bf48ea7278b )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Oro y Gloria: La ruta hacia El Dorado}(PlayStation/Spanish)"
+	description "Gold and Glory: The Road to El Dorado {Oro y Gloria: La ruta hacia El Dorado}(PlayStation/Spanish)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-es ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado {Oro y Gloria_ La ruta hacia El Dorado}(PlayStation_Spanish)[unsupported yet][!] ScummVM File.scummvm" size 15 crc 50436edf )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Pour l'Or et la Gloire: La Route d'Eldorado}(PlayStation/French)"
+	description "Gold and Glory: The Road to El Dorado {Pour l'Or et la Gloire: La Route d'Eldorado}(PlayStation/French)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-fr"
+	rom ( name "SLES_031.84" size 1982464 crc 9f3c2e7f md5 4c58e9708f9e2588f5d74b2367479fa1 sha1 911b564305f89a7ce0e810b791e1a1a1efd7bfe8 )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Pour l'Or et la Gloire: La Route d'Eldorado}(PlayStation/French)"
+	description "Gold and Glory: The Road to El Dorado {Pour l'Or et la Gloire: La Route d'Eldorado}(PlayStation/French)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-fr ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado {Pour l'Or et la Gloire_ La Route d'Eldorado}(PlayStation_French)[unsupported yet][!] ScummVM File.scummvm" size 15 crc c690d8a )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	description "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-gb"
+	rom ( name "SLES_029.34" size 1982464 crc 90372ead md5 f9d76c444d0bc8cac083133232c42704 sha1 c1f1f2d6a79c61fafea7e4ce51e3e8b4c1669b83 )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	description "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-gb ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado (PlayStation)[EU][unsupported yet][!]] ScummVM File.scummvm" size 15 crc 8c52caf )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Oro e Gloria: La Strada per El Dorado}(PlayStation/Italian)"
+	description "Gold and Glory: The Road to El Dorado {Oro e Gloria: La Strada per El Dorado}(PlayStation/Italian)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-it"
+	rom ( name "SLES_031.86" size 1982464 crc 3632579f md5 d49659311cfcef1f4924ee3ef712ce7e sha1 bfba73e9ce999803a9d474e917c11032fc540d4f )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado {Oro e Gloria: La Strada per El Dorado}(PlayStation/Italian)"
+	description "Gold and Glory: The Road to El Dorado {Oro e Gloria: La Strada per El Dorado}(PlayStation/Italian)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-it ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado {Oro e Gloria_ La Strada per El Dorado}(PlayStation_Italian)[unsupported yet][!] ScummVM File.scummvm" size 15 crc 6292b470 )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	description "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-us"
+	rom ( name "SLUS_013.12" size 1982464 crc 51f8cf04 md5 bf94c91f5bdde5bdfc5ed69c7a020a03 sha1 7a7f6bfa7954d9b4ef39b07f6bfad1e5980139e7 )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	description "Gold and Glory: The Road to El Dorado (PlayStation)]"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-psx-us ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado (PlayStation)[US][unsupported yet][!]] ScummVM File.scummvm" size 15 crc 1a817c8e )
+)
+
+game (
+	name "Gold and Glory: The Road to El Dorado (Windows)"
+	description "Gold and Glory: The Road to El Dorado (Windows)"
+	releaseyear "2000"
+	developer "Revolution Software"
+	code "eldorado-win ScummVM File"
+	rom ( name "Gold and Glory_ The Road to El Dorado (Windows)[!] ScummVM File.scummvm" size 12 crc 9c5cda1c )
+)
+
+game (
 	name "When I Was Shot By Elephants III (Multi-OS)"
 	description "When I Was Shot By Elephants III (Multi-OS)"
 	releaseyear "2012"
@@ -24817,7 +25166,7 @@ game (
 	releaseyear "1995"
 	developer "Humongous Entertainment"
 	code "farm-mac ScummVM File"
-	rom ( name "Let's Explore the Farm with Buzzy the Knowledge Bug (Macintosh) ScummVM File.scummvm" size 8 crc c3256ba6 )
+	rom ( name "Let's Explore the Farm with Buzzy the Knowledge Bug (Macintosh)[!] ScummVM File.scummvm" size 8 crc c3256ba6 )
 )
 
 game (
@@ -25511,6 +25860,24 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "feasibility-1 ScummVM File"
 	rom ( name "Mysterious Adventures 07_ Feasibility Experiment (Multi-OS)[with graphics] ScummVM File.scummvm" size 13 crc c40a52a9 )
+)
+
+game (
+	name "Mysterious Adventures 07: Feasibility Experiment (Commodore 64)"
+	description "Mysterious Adventures 07: Feasibility Experiment (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "feasibility-c64"
+	rom ( name "FEASIBIL.T64" size 23163 crc 67aff72d md5 60ecfccbf32038ded4b7dfc09bf7ebdd sha1 fd9268e3e2f7e4483c4de86810f5d9fdf7fca70f )
+)
+
+game (
+	name "Mysterious Adventures 07: Feasibility Experiment (Commodore 64)"
+	description "Mysterious Adventures 07: Feasibility Experiment (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "feasibility-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 07_ Feasibility Experiment (Commodore 64) ScummVM File.scummvm" size 15 crc 7ce97e93 )
 )
 
 game (
@@ -28921,7 +29288,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4 ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)[!] ScummVM File.scummvm" size 7 crc c23d5a5 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)[US][HE 98][!] ScummVM File.scummvm" size 7 crc c23d5a5 )
 )
 
 game (
@@ -28939,7 +29306,25 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-de ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fisch und das Geheimnis der Salzwasserschlucht}(Multi-OS_German) ScummVM File.scummvm" size 10 crc 7206e87a )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fisch und das Geheimnis der Salzwasserschlucht}(Multi-OS_German)[HE 99][!] ScummVM File.scummvm" size 10 crc 7206e87a )
+)
+
+game (
+	name "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)"
+	description "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)"
+	releaseyear "2001"
+	developer "Humongous Entertainment"
+	code "freddi4-gb"
+	rom ( name "FreddiHRBG.(a)" size 117445462 crc a736cafe md5 d510ab76c6cb8b642c4eb9702be9b543 sha1 ce4b7e0f405a20db850f9e6ac929de3376adbe23 )
+)
+
+game (
+	name "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)"
+	description "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)"
+	releaseyear "2001"
+	developer "Humongous Entertainment"
+	code "freddi4-gb ScummVM File"
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch (Multi-OS)[UK][HE 99][!] ScummVM File.scummvm" size 10 crc c74f2e1a )
 )
 
 game (
@@ -28957,7 +29342,7 @@ game (
 	releaseyear "2001"
 	developer "Humongous Entertainment"
 	code "freddi4-mini-de ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fisch und das Geheimnis der Salzwasserschlucht}_Mini Game_(Windows_German)[!] ScummVM File.scummvm" size 15 crc f1a51ba8 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fisch und das Geheimnis der Salzwasserschlucht}_Mini Game_(Windows_German)[HE 99][!] ScummVM File.scummvm" size 15 crc f1a51ba8 )
 )
 
 game (
@@ -28975,7 +29360,7 @@ game (
 	releaseyear "2001"
 	developer "Humongous Entertainment"
 	code "freddi4-mini-fr ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Marine Malice_ Le Mystère du Ranch aux Cochons}_Mini Game_(Windows_French)[!] ScummVM File.scummvm" size 15 crc 4040fced )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Marine Malice_ Le Mystère du Ranch aux Cochons}_Mini Game_(Windows_French)[HE 99][!] ScummVM File.scummvm" size 15 crc 4040fced )
 )
 
 game (
@@ -28993,7 +29378,7 @@ game (
 	releaseyear "2001"
 	developer "Humongous Entertainment"
 	code "freddi4-mini-it ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Pesce_ Il caso dei Maialini con le Pinne}_Mini Game_(Windows_Italian)[!] ScummVM File.scummvm" size 15 crc 2ebb4517 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Pesce_ Il caso dei Maialini con le Pinne}_Mini Game_(Windows_Italian)[HE 99][!] ScummVM File.scummvm" size 15 crc 2ebb4517 )
 )
 
 game (
@@ -29011,7 +29396,7 @@ game (
 	releaseyear "2001"
 	developer "Humongous Entertainment"
 	code "freddi4-mini-nl ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fish_ De Kidnapping in de Zilte Zee}_Mini Game_(Windows_Dutch)[!] ScummVM File.scummvm" size 15 crc 72964b86 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fish_ De Kidnapping in de Zilte Zee}_Mini Game_(Windows_Dutch)[HE 99][!] ScummVM File.scummvm" size 15 crc 72964b86 )
 )
 
 game (
@@ -29029,7 +29414,7 @@ game (
 	releaseyear "2001"
 	developer "Humongous Entertainment"
 	code "freddi4-mini-us ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch _Mini Game_(Windows)[!] ScummVM File.scummvm" size 15 crc 56a88de9 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch _Mini Game_(Windows)[HE 99][!] ScummVM File.scummvm" size 15 crc 56a88de9 )
 )
 
 game (
@@ -29047,7 +29432,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-nl ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fish_ De Kidnapping in de Zilte Zee}(Multi-OS_Dutch) ScummVM File.scummvm" size 10 crc f135b854 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Fish_ De Kidnapping in de Zilte Zee}(Multi-OS_Dutch)[HE 98] ScummVM File.scummvm" size 10 crc f135b854 )
 )
 
 game (
@@ -29065,7 +29450,25 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-ru ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian) ScummVM File.scummvm" size 10 crc 73294dc9 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[HE 98] ScummVM File.scummvm" size 10 crc 73294dc9 )
+)
+
+game (
+	name "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди: Дело о Банде Соленого Ущелья}(Windows/Russian)"
+	description "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди: Дело о Банде Соленого Ущелья}(Windows/Russian)"
+	releaseyear "1999"
+	developer "Humongous Entertainment"
+	code "freddi4-ru-1"
+	rom ( name "Freddi4.(a)" size 117852838 crc 73bf7428 md5 e94f3f560ec3dce8cb3a6b510ae457b7 sha1 613d3607f0ffc187811843573bde5ef1660b23a7 )
+)
+
+game (
+	name "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди: Дело о Банде Соленого Ущелья}(Windows/Russian)"
+	description "Freddi Fish: The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди: Дело о Банде Соленого Ущелья}(Windows/Russian)"
+	releaseyear "1999"
+	developer "Humongous Entertainment"
+	code "freddi4-ru-1 ScummVM File"
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[HE 99] ScummVM File.scummvm" size 12 crc 22786a29 )
 )
 
 game (
@@ -29083,7 +29486,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-win-fr ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Marine Malice_ Le Mystère du Ranch aux Cochons}(Windows_French) ScummVM File.scummvm" size 14 crc 4c14bdec )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Marine Malice_ Le Mystère du Ranch aux Cochons}(Windows_French)[HE 99] ScummVM File.scummvm" size 14 crc 4c14bdec )
 )
 
 game (
@@ -29101,7 +29504,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-win-it ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Pesce_ Il caso dei Maialini con le Pinne}(Windows_Italian) ScummVM File.scummvm" size 14 crc 22ef0416 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Freddi Pesce_ Il caso dei Maialini con le Pinne}(Windows_Italian)[HE 99] ScummVM File.scummvm" size 14 crc 22ef0416 )
 )
 
 game (
@@ -29119,7 +29522,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-win-ru ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Russobit-M] ScummVM File.scummvm" size 14 crc fcdeff1a )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Russobit-M][HE 99] ScummVM File.scummvm" size 14 crc fcdeff1a )
 )
 
 game (
@@ -29137,7 +29540,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-win-ru-1 ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Akella] ScummVM File.scummvm" size 16 crc ad02a1a2 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Akella][HE 99] ScummVM File.scummvm" size 16 crc ad02a1a2 )
 )
 
 game (
@@ -29155,7 +29558,7 @@ game (
 	releaseyear "1999"
 	developer "Humongous Entertainment"
 	code "freddi4-win-ru-2 ScummVM File"
-	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Unencrypted] ScummVM File.scummvm" size 16 crc 340bf018 )
+	rom ( name "Freddi Fish_ The Case of the Hogfish Rustlers of Briny Gulch {Рыбка Фредди_ Дело о Банде Соленого Ущелья}(Windows_Russian)[Unencrypted][HE 98] ScummVM File.scummvm" size 16 crc 340bf018 )
 )
 
 game (
@@ -29942,24 +30345,6 @@ game (
 )
 
 game (
-	name "Future Wars: Time Travellers {Les Voyageurs du Temps: La Menace}(CD/DOS/French)"
-	description "Future Wars: Time Travellers {Les Voyageurs du Temps: La Menace}(CD/DOS/French)"
-	releaseyear "2018"
-	developer "Sony & Threepwang"
-	code "fw-cd-fr ScummVM File"
-	rom ( name "Future Wars_ Time Travellers {Les Voyageurs du Temps_ La Menace}(CD_DOS_French)[!] ScummVM File.scummvm" size 8 crc 36b4ea53 )
-)
-
-game (
-	name "Future Wars: Time Travellers {Future Wars: Adventures in Time}(CD/DOS)"
-	description "Future Wars: Time Travellers {Future Wars: Adventures in Time}(CD/DOS)"
-	releaseyear "1994"
-	developer "Sony"
-	code "fw-cd-us ScummVM File"
-	rom ( name "Future Wars_ Time Travellers {Future Wars_ Adventures in Time}(CD_DOS)[US][!] ScummVM File.scummvm" size 8 crc 205c9b57 )
-)
-
-game (
 	name "Future Wars: Time Travellers (DOS/Hungarian)"
 	description "Future Wars: Time Travellers (DOS/Hungarian)"
 	releaseyear "1990"
@@ -30504,24 +30889,6 @@ game (
 	description "Gemini Rue (Windows/German)"
 	releaseyear "2011"
 	developer "Wadjet Eye Games"
-	code "geminirue-de-1 ScummVM File"
-	rom ( name "Gemini Rue (Windows_German)[Steam][!] ScummVM File.scummvm" size 14 crc 331cdc73 )
-)
-
-game (
-	name "Gemini Rue (Windows/German)"
-	description "Gemini Rue (Windows/German)"
-	releaseyear "2011"
-	developer "Wadjet Eye Games"
-	code "geminirue-de-2 ScummVM File"
-	rom ( name "Gemini Rue (Windows_German)[Humble Bundle][!] ScummVM File.scummvm" size 14 crc aa158dc9 )
-)
-
-game (
-	name "Gemini Rue (Windows/German)"
-	description "Gemini Rue (Windows/German)"
-	releaseyear "2011"
-	developer "Wadjet Eye Games"
 	code "geminirue-de-3"
 	rom ( name "Gemini Rue.exe" size 64650419 crc 80c9f0d3 md5 8ea12191304d01453bf6afb0eabdd4bf sha1 a05ca7afb7e15765b3e95374fc074cb56ab90b5a )
 )
@@ -30533,15 +30900,6 @@ game (
 	developer "Wadjet Eye Games"
 	code "geminirue-de-3 ScummVM File"
 	rom ( name "Gemini Rue (Windows_German)[German Retail][!] ScummVM File.scummvm" size 14 crc dd12bd5f )
-)
-
-game (
-	name "Gemini Rue (Windows/German)"
-	description "Gemini Rue (Windows/German)"
-	releaseyear "2011"
-	developer "Wadjet Eye Games"
-	code "geminirue-de-4 ScummVM File"
-	rom ( name "Gemini Rue (Windows_German)[GoG, v2.0][!] ScummVM File.scummvm" size 14 crc 437628fc )
 )
 
 game (
@@ -30821,6 +31179,24 @@ game (
 	developer "Scott Adams"
 	code "ghosttown-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 09_ Ghost Town (PDA) ScummVM File.scummvm" size 11 crc 27fed17c )
+)
+
+game (
+	name "Scott Adams Adventure 09: Ghost Town (TI99/4A)"
+	description "Scott Adams Adventure 09: Ghost Town (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "ghosttown-ti9"
+	rom ( name "adv09.fiad" size 10170 crc a825f885 md5 c5d8999e1983f9a42c43fc34589c30ef sha1 640967f63c69af78ad0dfcbec3f8890c81abe478 )
+)
+
+game (
+	name "Scott Adams Adventure 09: Ghost Town (TI99/4A)"
+	description "Scott Adams Adventure 09: Ghost Town (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "ghosttown-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 09_ Ghost Town (TI99_4A) ScummVM File.scummvm" size 13 crc aeecf674 )
 )
 
 game (
@@ -33209,6 +33585,42 @@ game (
 )
 
 game (
+	name "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	description "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "goldenbaton-c64"
+	rom ( name "GoldenBaton-Unk.d64" size 174848 crc d0f9ec99 md5 ed22cb234af638e7d9f570b937f9fc52 sha1 0fa9a08a7a28329181f746692e3267028d94b15f )
+)
+
+game (
+	name "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	description "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "goldenbaton-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 01_ The Golden Baton (Commodore 64)[D64] ScummVM File.scummvm" size 15 crc 9c27a66c )
+)
+
+game (
+	name "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	description "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "goldenbaton-c64-1"
+	rom ( name "GOLDENBA.T64" size 20848 crc f6c3bb06 md5 75cad4153ebf6668fa0fe345df9a571b sha1 e3d383f3e30e3551f7cc5295e2978480174d2bcb )
+)
+
+game (
+	name "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	description "Mysterious Adventures 01: The Golden Baton (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "goldenbaton-c64-1 ScummVM File"
+	rom ( name "Mysterious Adventures 01_ The Golden Baton (Commodore 64)[T64] ScummVM File.scummvm" size 17 crc c6d0f67b )
+)
+
+game (
 	name "Mysterious Adventures 01: The Golden Baton (Spectrum)"
 	description "Mysterious Adventures 01: The Golden Baton (Spectrum)"
 	releaseyear "1994"
@@ -33350,6 +33762,24 @@ game (
 	developer "Scott Adams"
 	code "goldenvoyage-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 12_ The Golden Voyage (PDA) ScummVM File.scummvm" size 14 crc 79b5383f )
+)
+
+game (
+	name "Scott Adams Adventure 12: The Golden Voyage (TI99/4A)"
+	description "Scott Adams Adventure 12: The Golden Voyage (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "goldenvoyage-ti9"
+	rom ( name "adv12.fiad" size 10346 crc 9d62b4a6 md5 3382f578fd690fd2412502cc796f58f6 sha1 7611a89f42de34ca7006602c35d310a153ce24ce )
+)
+
+game (
+	name "Scott Adams Adventure 12: The Golden Voyage (TI99/4A)"
+	description "Scott Adams Adventure 12: The Golden Voyage (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "goldenvoyage-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 12_ The Golden Voyage (TI99_4A) ScummVM File.scummvm" size 16 crc ac6eee25 )
 )
 
 game (
@@ -33537,6 +33967,15 @@ game (
 	description "Gold Rush! (DOS)"
 	releaseyear "1988"
 	developer "Sierra On-Line"
+	code "goldrush-2"
+	rom ( name "GRVOL.0" size 25070 crc e6cbcdae md5 099cf878595fea15a4b2506d40b8ea53 sha1 eba83fc4c765f24eee76dbe1f6c7f932508f6981 )
+)
+
+game (
+	name "Gold Rush! (DOS)"
+	description "Gold Rush! (DOS)"
+	releaseyear "1988"
+	developer "Sierra On-Line"
 	code "goldrush-2 ScummVM File"
 	rom ( name "Gold Rush! (DOS)[v2.01][5x360k][!] ScummVM File.scummvm" size 10 crc bbdb9f8 )
 )
@@ -33629,15 +34068,6 @@ game (
 	developer "Sierra On-Line"
 	code "goldrush-es ScummVM File"
 	rom ( name "Gold Rush! (DOS_Spanish)[v1.0][u] ScummVM File.scummvm" size 11 crc 5d99c30f )
-)
-
-game (
-	name "Gold Rush! (Macintosh)"
-	description "Gold Rush! (Macintosh)"
-	releaseyear "1988"
-	developer "Sierra On-Line"
-	code "goldrush-mac ScummVM File"
-	rom ( name "Gold Rush! (Macintosh)[v2.01][!] ScummVM File.scummvm" size 12 crc e0bc7a56 )
 )
 
 game (
@@ -34124,6 +34554,132 @@ game (
 	developer "Broderbund Software"
 	code "gregory-win-fr ScummVM File"
 	rom ( name "Gregory and the Hot Air Balloon {Grégoire et la Montgolfière}(Windows_French) ScummVM File.scummvm" size 14 crc 2c14cafc )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64"
+	rom ( name "Gremlins.d64" size 174848 crc 48b698e4 md5 33c920f7ba150dfa1a832d510eebd8fe sha1 c1831963a95cb244ad7c747246b5a0f1f62661f9 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64 ScummVM File"
+	rom ( name "Gremlins_ The Adventure (Commodore 64)[D64] ScummVM File.scummvm" size 12 crc be342eb0 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-1"
+	rom ( name "Gremlins_adventure.d64" size 174848 crc e9b030a1 md5 95b2582a89c59961d5b709c9b32e4131 sha1 42d60e307376dbd1094182ce956809d486650899 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-1 ScummVM File"
+	rom ( name "Gremlins_ The Adventure (Commodore 64)[D64][a1] ScummVM File.scummvm" size 14 crc 83e5569 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-2"
+	rom ( name "Gremlins_Adventure_REM.d64" size 174848 crc 80cc9f03 md5 644c366956202d41df0ea1c4303c5895 sha1 ebf474d1ba8911bf0466fce0f6550bd3d2691859 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-2 ScummVM File"
+	rom ( name "Gremlins_ The Adventure (Commodore 64)[D64][a2] ScummVM File.scummvm" size 14 crc 913704d3 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-3"
+	rom ( name "Gremlins-TheAdventure.d64" size 174848 crc 5134df24 md5 947e35037cf02269ac013857925137ce sha1 73bd984d69d11d4a285aebf9ee393c7453667db4 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-3 ScummVM File"
+	rom ( name "Gremlins_ The Adventure (Commodore 64)[D64][a3] ScummVM File.scummvm" size 14 crc e6303445 )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-4"
+	rom ( name "Gremlins-a.t64" size 56724 crc 3ccb7193 md5 efaef19d4b714e4758fcb57fd487d041 sha1 3c7c5b0b1f33cdf8b31a3eb38b5d7f4df5466f1c )
+)
+
+game (
+	name "Gremlins: The Adventure (Commodore 64)"
+	description "Gremlins: The Adventure (Commodore 64)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-4 ScummVM File"
+	rom ( name "Gremlins_ The Adventure (Commodore 64)[T64] ScummVM File.scummvm" size 14 crc 7854a1e6 )
+)
+
+game (
+	name "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	description "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-de"
+	rom ( name "Gremlins-de.d64" size 174848 crc 4687e875 md5 c60977950ff22ae57483f073345b8373 sha1 f3a720ae950003959b780b254ff429d380916871 )
+)
+
+game (
+	name "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	description "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-de ScummVM File"
+	rom ( name "Gremlins_ The Adventure {Gremlins_ Das Abenteuer}(Commodore 64_German)[D64] ScummVM File.scummvm" size 15 crc 1c7034e2 )
+)
+
+game (
+	name "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	description "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-de-1"
+	rom ( name "Gremlins-de.t64" size 49155 crc 64dad1c5 md5 f41406e2ef2a38b67d6b5be3261498f4 sha1 4ad823f1dfe79cf07f6cdf353aa5b5dc02d70fae )
+)
+
+game (
+	name "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	description "Gremlins: The Adventure {Gremlins: Das Abenteuer}(Commodore 64/German)"
+	releaseyear "1983"
+	developer "Brian Howarth"
+	code "gremlins-c64-de-1 ScummVM File"
+	rom ( name "Gremlins_ The Adventure {Gremlins_ Das Abenteuer}(Commodore 64_German)[T64] ScummVM File.scummvm" size 17 crc 7dd13181 )
 )
 
 game (
@@ -42101,8 +42657,8 @@ game (
 )
 
 game (
-	name "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
-	description "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
 	releaseyear "2005"
 	developer "Intermezzo"
 	code "kingsquest2"
@@ -42110,17 +42666,17 @@ game (
 )
 
 game (
-	name "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
-	description "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
 	releaseyear "2005"
 	developer "Intermezzo"
 	code "kingsquest2 ScummVM File"
-	rom ( name "Kings Quest 2 1_4_ Breast Intentions (DOS_Fanmade)[v2.0 Aug 16][!] ScummVM File.scummvm" size 11 crc 8e083b99 )
+	rom ( name "Kings Quest 2 ¼_ Breast Intentions (DOS_Fanmade)[v2.0 Aug 16][!] ScummVM File.scummvm" size 11 crc 8e083b99 )
 )
 
 game (
-	name "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
-	description "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
 	releaseyear "2005"
 	developer "Intermezzo"
 	code "kingsquest2-1"
@@ -42128,12 +42684,30 @@ game (
 )
 
 game (
-	name "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
-	description "Kings Quest 2 1/4: Breast Intentions (DOS/Fanmade)"
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade)"
 	releaseyear "2005"
 	developer "Intermezzo"
 	code "kingsquest2-1 ScummVM File"
-	rom ( name "Kings Quest 2 1_4_ Breast Intentions (DOS_Fanmade)[v2.0 Mar 26][!] ScummVM File.scummvm" size 13 crc 21a51e55 )
+	rom ( name "Kings Quest 2 ¼_ Breast Intentions (DOS_Fanmade)[v2.0 Mar 26][!] ScummVM File.scummvm" size 13 crc 21a51e55 )
+)
+
+game (
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade/Spanish)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade/Spanish)"
+	releaseyear "2005"
+	developer "Intermezzo"
+	code "kingsquest2-es"
+	rom ( name "VOL.0" size 653343 crc 98b7032c md5 9a85c4cb028e14ca009f18c3d2f7a935 sha1 cf258a6d6a03694da450c598fa5c620ee434e4a5 )
+)
+
+game (
+	name "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade/Spanish)"
+	description "Kings Quest 2 ¼: Breast Intentions (DOS/Fanmade/Spanish)"
+	releaseyear "2005"
+	developer "Intermezzo"
+	code "kingsquest2-es ScummVM File"
+	rom ( name "Kings Quest 2 ¼_ Breast Intentions (DOS_Fanmade_Spanish)[!] ScummVM File.scummvm" size 14 crc def9573e )
 )
 
 game (
@@ -43563,6 +44137,15 @@ game (
 	description "King's Quest III: To Heir is Human VGA Remake (Windows)"
 	releaseyear "2006"
 	developer "Infamous Adventures"
+	code "kq3vga"
+	rom ( name "KQ3.exe" size 5883843 crc 0f7097ef md5 39c34a0647a96fe896b6994ad72e4956 sha1 493bcdaef8d003b52ec87b1bdb2381bd9c9dde78 )
+)
+
+game (
+	name "King's Quest III: To Heir is Human VGA Remake (Windows)"
+	description "King's Quest III: To Heir is Human VGA Remake (Windows)"
+	releaseyear "2006"
+	developer "Infamous Adventures"
 	code "kq3vga ScummVM File"
 	rom ( name "King's Quest III_ To Heir is Human VGA Remake (Windows)[!] ScummVM File.scummvm" size 6 crc b5a87846 )
 )
@@ -43583,15 +44166,6 @@ game (
 	developer "AGD Interactive"
 	code "kq3vga-1 ScummVM File"
 	rom ( name "King's Quest III_ To Heir is Human VGA Remake (Windows)[AGD v1.0][!] ScummVM File.scummvm" size 8 crc c8d0ec0f )
-)
-
-game (
-	name "King's Quest III: To Heir is Human VGA Remake (Macintosh)"
-	description "King's Quest III: To Heir is Human VGA Remake (Macintosh)"
-	releaseyear "2006"
-	developer "Infamous Adventures"
-	code "kq3vga-mac ScummVM File"
-	rom ( name "King's Quest III_ To Heir is Human VGA Remake (Macintosh)[!] ScummVM File.scummvm" size 10 crc a206d563 )
 )
 
 game (
@@ -44293,7 +44867,7 @@ game (
 	releaseyear "1991"
 	developer "Sierra On-Line"
 	code "kq5-es-1 ScummVM File"
-	rom ( name "King's Quest V_ Absence Makes the Heart Go Yonder (DOS_Spanish)[8x1.4MB][u][!] ScummVM File.scummvm" size 8 crc e4e14e5d )
+	rom ( name "King's Quest V_ Absence Makes the Heart Go Yonder (DOS_Spanish)[8x1.4MB][!] ScummVM File.scummvm" size 8 crc e4e14e5d )
 )
 
 game (
@@ -45318,7 +45892,7 @@ game (
 	description "Legend of Kyrandia, The (DOS/Korean/Extracted)"
 	releaseyear "1992"
 	developer "Westwood Studios"
-	code "kyra1-kr"
+	code "kyra1-ko"
 	rom ( name "_NPC.EMC" size 8004 crc a369b898 md5 575d8a10623f4532176ed6b510a31bc2 sha1 60975b613f32f25843f38ace8b4eef9befe88c2b )
 )
 
@@ -45327,8 +45901,8 @@ game (
 	description "Legend of Kyrandia, The (DOS/Korean/Extracted)"
 	releaseyear "1992"
 	developer "Westwood Studios"
-	code "kyra1-kr ScummVM File"
-	rom ( name "Legend of Kyrandia, The (DOS_Korean_Extracted)[unsupported yet][!] ScummVM File.scummvm" size 8 crc 33ebec40 )
+	code "kyra1-ko ScummVM File"
+	rom ( name "Legend of Kyrandia, The (DOS_Korean_Extracted)[!] ScummVM File.scummvm" size 8 crc 50ed8099 )
 )
 
 game (
@@ -46112,6 +46686,24 @@ game (
 	developer "Westwood Studios"
 	code "kyra3-fr-3 ScummVM File"
 	rom ( name "Legend of Kyrandia, The_ Malcolm's Revenge (DOS_French)[Installed from Chinese CD][!] ScummVM File.scummvm" size 10 crc 3844826d )
+)
+
+game (
+	name ""Legend of Kyrandia, The: Malcolm's Revenge (DOS/Hebrew)"
+	description ""Legend of Kyrandia, The: Malcolm's Revenge (DOS/Hebrew)"
+	releaseyear "1994"
+	developer "Westwood Studios"
+	code "kyra3-he"
+	rom ( name "6.FNT" size 3728 crc 16047a79 md5 a7c437e6f2ea4f23302b25d70fac7905 sha1 040d24e77ea8250f7b1952c4efb5dae54288cb88 )
+)
+
+game (
+	name ""Legend of Kyrandia, The: Malcolm's Revenge (DOS/Hebrew)"
+	description ""Legend of Kyrandia, The: Malcolm's Revenge (DOS/Hebrew)"
+	releaseyear "1994"
+	developer "Westwood Studios"
+	code "kyra3-he ScummVM File"
+	rom ( name "_Legend of Kyrandia, The_ Malcolm's Revenge (DOS_Hebrew)[AdventureBrew RC1][!] ScummVM File.scummvm" size 8 crc 311cf2cf )
 )
 
 game (
@@ -48041,6 +48633,24 @@ game (
 )
 
 game (
+	name "Little Big Adventure (Windows)"
+	description "Little Big Adventure (Windows)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-1"
+	rom ( name "TLBA1C.exe" size 4404224 crc 8f8d74e4 md5 a5c17c21492d3567b0b744b4cb1bd739 sha1 35ee1e9129d4dcb00fe0c50ecc44b8551f236701 )
+)
+
+game (
+	name "Little Big Adventure (Windows)"
+	description "Little Big Adventure (Windows)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-1 ScummVM File"
+	rom ( name "Little Big Adventure (Windows)[GoG Classic][!] ScummVM File.scummvm" size 9 crc 6602a8c8 )
+)
+
+game (
 	name "Little Big Adventure (Enhanced Version/Windows/German)"
 	description "Little Big Adventure (Enhanced Version/Windows/German)"
 	releaseyear "1994"
@@ -48056,6 +48666,24 @@ game (
 	developer "Adeline Software"
 	code "lba-win-de ScummVM File"
 	rom ( name "Little Big Adventure (Enhanced Version_Windows_German)[DotEmu_Steam][!] ScummVM File.scummvm" size 10 crc bdcf9b61 )
+)
+
+game (
+	name "Little Big Adventure (Windows/German)"
+	description "Little Big Adventure (Windows/German)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-de-1"
+	rom ( name "GERMAN.ROM" size 36 crc 867840f9 md5 0c65b282c5ba8c7a3ac10494605d08b6 sha1 2d3379ce11d9fddfc78d48d14043b071d10b34d5 )
+)
+
+game (
+	name "Little Big Adventure (Windows/German)"
+	description "Little Big Adventure (Windows/German)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-de-1 ScummVM File"
+	rom ( name "Little Big Adventure (Windows_German)[GoG Classic][!] ScummVM File.scummvm" size 12 crc 2b16e5cf )
 )
 
 game (
@@ -48077,6 +48705,24 @@ game (
 )
 
 game (
+	name "Little Big Adventure (Windows/Spanish)"
+	description "Little Big Adventure (Windows/Spanish)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-es-1"
+	rom ( name "SPANISH.ROM" size 36 crc 65e04b76 md5 082b51f898266bf7b733184e256f14c3 sha1 1f5627f000877a358df9384ca70a7f68a260426b )
+)
+
+game (
+	name "Little Big Adventure (Windows/Spanish)"
+	description "Little Big Adventure (Windows/Spanish)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-es-1 ScummVM File"
+	rom ( name "Little Big Adventure (Windows_Spanish)[GoG Classic][!] ScummVM File.scummvm" size 12 crc 8b015d68 )
+)
+
+game (
 	name "Little Big Adventure (Enhanced Version/Windows/French)"
 	description "Little Big Adventure (Enhanced Version/Windows/French)"
 	releaseyear "1994"
@@ -48095,6 +48741,24 @@ game (
 )
 
 game (
+	name "Little Big Adventure (Windows/French)"
+	description "Little Big Adventure (Windows/French)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-fr-1"
+	rom ( name "FRENCH.ROM" size 36 crc 09b25710 md5 29c7525a86e44767101ea96efb815223 sha1 a9be5e4c606b9017285be3f9de68f5ea7583466e )
+)
+
+game (
+	name "Little Big Adventure (Windows/French)"
+	description "Little Big Adventure (Windows/French)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-fr-1 ScummVM File"
+	rom ( name "Little Big Adventure (Windows_French)[GoG Classic][!] ScummVM File.scummvm" size 12 crc 987698b1 )
+)
+
+game (
 	name "Little Big Adventure (Enhanced Version/Windows/Italian)"
 	description "Little Big Adventure (Enhanced Version/Windows/Italian)"
 	releaseyear "1994"
@@ -48110,6 +48774,24 @@ game (
 	developer "Adeline Software"
 	code "lba-win-it ScummVM File"
 	rom ( name "Little Big Adventure (Enhanced Version_Windows_Italian)[DotEmu_Steam][!] ScummVM File.scummvm" size 10 crc 62d1c5de )
+)
+
+game (
+	name "Little Big Adventure (Windows/Italian)"
+	description "Little Big Adventure (Windows/Italian)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-it-1"
+	rom ( name "ITALIAN.ROM" size 36 crc bc4d116c md5 12edbdf2348a83ef054b862e9b3a35a2 sha1 1a0624d42dffd36c2beffafebe6c62c9139de472 )
+)
+
+game (
+	name "Little Big Adventure (Windows/Italian)"
+	description "Little Big Adventure (Windows/Italian)"
+	releaseyear "2022"
+	developer "Adeline Software"
+	code "lba-win-it-1 ScummVM File"
+	rom ( name "Little Big Adventure (Windows_Italian)[GoG Classic][!] ScummVM File.scummvm" size 12 crc c498f455 )
 )
 
 game (
@@ -50108,6 +50790,24 @@ game (
 	developer "Westwood Studios"
 	code "lol-es ScummVM File"
 	rom ( name "Lands of Lore_ The Throne of Chaos (DOS_Spanish_Extracted)[v1.23][!] ScummVM File.scummvm" size 6 crc 4575ac72 )
+)
+
+game (
+	name "Lands of Lore: The Throne of Chaos (DOS/Spanish/Compressed)"
+	description "Lands of Lore: The Throne of Chaos (DOS/Spanish/Compressed)"
+	releaseyear "1993"
+	developer "Westwood Studios"
+	code "lol-es-1"
+	rom ( name "WESTWOOD.1" size 1326593 crc ca90249b md5 457dbfc090faa9a6c14066c5f3d89e58 sha1 c372c8c50e9067a687f40aa894951b5413bcffa8 )
+)
+
+game (
+	name "Lands of Lore: The Throne of Chaos (DOS/Spanish/Compressed)"
+	description "Lands of Lore: The Throne of Chaos (DOS/Spanish/Compressed)"
+	releaseyear "1993"
+	developer "Westwood Studios"
+	code "lol-es-1 ScummVM File"
+	rom ( name "Lands of Lore_ The Throne of Chaos (DOS_Spanish_Compressed)[v1.23][!] ScummVM File.scummvm" size 8 crc f244f9e8 )
 )
 
 game (
@@ -52766,8 +53466,8 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-cd-de"
@@ -52775,17 +53475,17 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-cd-de ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (CD_DOS_German)[!] ScummVM File.scummvm" size 10 crc 70b0c3e2 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Reiss auf oder schieb' ab}(CD_DOS_German)[!] ScummVM File.scummvm" size 10 crc 70b0c3e2 )
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-cd-fr"
@@ -52793,17 +53493,17 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-cd-fr ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (CD_DOS_French)[!] ScummVM File.scummvm" size 10 crc c15524a7 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Tu t'accroches ou tu décroches}(CD_DOS_French)[!] ScummVM File.scummvm" size 10 crc c15524a7 )
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-de"
@@ -52811,12 +53511,12 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-de ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (DOS_German)[!] ScummVM File.scummvm" size 7 crc d9925576 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Reiss auf oder schieb' ab}(DOS_German)[!] ScummVM File.scummvm" size 7 crc d9925576 )
 )
 
 game (
@@ -52838,8 +53538,8 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-fr"
@@ -52847,12 +53547,12 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-fr ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (DOS_French) ScummVM File.scummvm" size 7 crc 6877b233 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Tu t'accroches ou tu décroches}(DOS_French) ScummVM File.scummvm" size 7 crc 6877b233 )
 )
 
 game (
@@ -52874,8 +53574,8 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/Polish)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/Polish)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Larry 6: Z impetem w glab}(DOS/Polish)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Larry 6: Z impetem w glab}(DOS/Polish)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-pl"
@@ -52883,12 +53583,12 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/Polish)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (DOS/Polish)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Larry 6: Z impetem w glab}(DOS/Polish)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Larry 6: Z impetem w glab}(DOS/Polish)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6-pl ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (DOS_Polish)[u][!] ScummVM File.scummvm" size 7 crc 8ee03a87 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Larry 6_ Z impetem w glab}(DOS_Polish)[u][!] ScummVM File.scummvm" size 7 crc 8ee03a87 )
 )
 
 game (
@@ -52910,8 +53610,8 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/Hi-res/DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/Hi-res/DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6hires-de"
@@ -52919,12 +53619,12 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/German)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/German)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/Hi-res/DOS/German)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Reiss auf oder schieb' ab}(CD/Hi-res/DOS/German)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6hires-de ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (CD_Hi-res_DOS_German)[!] ScummVM File.scummvm" size 12 crc d8f389c8 )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Reiss auf oder schieb' ab}(CD_Hi-res_DOS_German)[!] ScummVM File.scummvm" size 12 crc d8f389c8 )
 )
 
 game (
@@ -52946,8 +53646,8 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/Hi-res/DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/Hi-res/DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6hires-fr"
@@ -52955,12 +53655,12 @@ game (
 )
 
 game (
-	name "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/French)"
-	description "Leisure Suit Larry 6: Shape Up or Slip Out! (CD/Hi-res/DOS/French)"
+	name "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/Hi-res/DOS/French)"
+	description "Leisure Suit Larry 6: Shape Up or Slip Out! {Leisure Suit Larry 6: Tu t'accroches ou tu décroches}(CD/Hi-res/DOS/French)"
 	releaseyear "1993"
 	developer "Sierra On-Line"
 	code "lsl6hires-fr ScummVM File"
-	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! (CD_Hi-res_DOS_French)[!] ScummVM File.scummvm" size 12 crc 69166e8d )
+	rom ( name "Leisure Suit Larry 6_ Shape Up or Slip Out! {Leisure Suit Larry 6_ Tu t'accroches ou tu décroches}(CD_Hi-res_DOS_French)[!] ScummVM File.scummvm" size 12 crc 69166e8d )
 )
 
 game (
@@ -53726,6 +54426,78 @@ game (
 	developer "Jon Ingold"
 	code "makeitgood ScummVM File"
 	rom ( name "Make it Good (Multi-OS)[R13-090921] ScummVM File.scummvm" size 10 crc b6ed24ed )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-mac"
+	rom ( name "MAKINGMAC.ROM" size 35 crc 6339c25d md5 19384acd95e136f045f12469abe78b86 sha1 43a1c0cce550d01fbb08590e061816a0cd9ede14 )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Macintosh)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-mac ScummVM File"
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Macintosh)[!] ScummVM File.scummvm" size 13 crc 37ae1261 )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win"
+	rom ( name "MAKINGOF.ROM" size 35 crc ced86406 md5 db2be2fdc11c8252784fbea51a36152c sha1 ed6375ff363023860a9a3dbb1950b238f47b7dab )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win ScummVM File"
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Windows)[!] ScummVM File.scummvm" size 13 crc 9077c272 )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/German)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/German)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win-de"
+	rom ( name "MAKINGOF.ROM" size 49 crc d2a34063 md5 4bef9fb25ac07eac92fd2415dcc00007 sha1 14e8e31c78c55db2bb055ed27618613f83d2352b )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/German)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/German)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win-de ScummVM File"
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Windows_German)[!] ScummVM File.scummvm" size 16 crc 9345da28 )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/French)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/French)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win-fr"
+	rom ( name "MAKINGOF.ROM" size 49 crc fd3220d6 md5 569bcd1a38943d65ebf392cacf71c1eb sha1 13dd3a718e9ea7c73349edd01c35a4cf6c3e00cf )
+)
+
+game (
+	name "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/French)"
+	description "11th Hour, The: The Sequel to 'The 7th Guest' |Making Of|(Windows/French)"
+	releaseyear "1995"
+	developer "Trilobyte"
+	code "making11h-win-fr ScummVM File"
+	rom ( name "11th Hour, The_ The Sequel to 'The 7th Guest' _Making Of_(Windows_French)[!] ScummVM File.scummvm" size 16 crc 22a03d6d )
 )
 
 game (
@@ -54836,6 +55608,24 @@ game (
 )
 
 game (
+	name "Marvel Adventure #1: Questprobe 1: The Hulk (Commodore 64)"
+	description "Marvel Adventure #1: Questprobe 1: The Hulk (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure-c64"
+	rom ( name "Questprobe1-Hulk.d64" size 174848 crc 40882ac8 md5 d80e133dd396565f773052cb317e8222 sha1 62fd71c1457c78311e6c4cfe862ac303ba4f3542 )
+)
+
+game (
+	name "Marvel Adventure #1: Questprobe 1: The Hulk (Commodore 64)"
+	description "Marvel Adventure #1: Questprobe 1: The Hulk (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure-c64 ScummVM File"
+	rom ( name "Marvel Adventure #1_ Questprobe 1_ The Hulk (Commodore 64) ScummVM File.scummvm" size 19 crc 1902d6ad )
+)
+
+game (
 	name "Marvel Adventure #2: Questprobe 2: Spiderman (Multi-OS)"
 	description "Marvel Adventure #2: Questprobe 2: Spiderman (Multi-OS)"
 	releaseyear "1980"
@@ -54851,6 +55641,42 @@ game (
 	developer "Scott Adams"
 	code "marveladventure2 ScummVM File"
 	rom ( name "Marvel Adventure #2_ Questprobe 2_ Spiderman (Multi-OS) ScummVM File.scummvm" size 16 crc b5249fb2 )
+)
+
+game (
+	name "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	description "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure2-c64"
+	rom ( name "QUESTPR2-SPIDERMA.D64" size 174848 crc 3c41f082 md5 5d0ea85ca1f260ca718a6bbb6da4cdb9 sha1 6621d97756fa990ef9d6028f7f820a8cdf850f79 )
+)
+
+game (
+	name "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	description "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure2-c64 ScummVM File"
+	rom ( name "Marvel Adventure #2_ Questprobe 2_ Spiderman (Commodore 64)[D64] ScummVM File.scummvm" size 20 crc 9af2673f )
+)
+
+game (
+	name "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	description "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure2-c64-1"
+	rom ( name "QUESTPR2.T64" size 36466 crc d9bc412e md5 7c43e343554547363737eede8885afd6 sha1 1b7c2ee91004c5629e0444b307bbe68ad778d608 )
+)
+
+game (
+	name "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	description "Marvel Adventure #2: Questprobe 2: Spiderman (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "marveladventure2-c64-1 ScummVM File"
+	rom ( name "Marvel Adventure #2_ Questprobe 2_ Spiderman (Commodore 64)[T64] ScummVM File.scummvm" size 22 crc bb250c1f )
 )
 
 game (
@@ -55484,15 +56310,6 @@ game (
 )
 
 game (
-	name "Manhunter: New York (Macintosh)"
-	description "Manhunter: New York (Macintosh)"
-	releaseyear "1988"
-	developer "Sierra On-Line"
-	code "mh1-mac ScummVM File"
-	rom ( name "Manhunter_ New York (Macintosh)[v1.22][!] ScummVM File.scummvm" size 7 crc b5e1abce )
-)
-
-game (
 	name "Manhunter: New York (Atari ST)"
 	description "Manhunter: New York (Atari ST)"
 	releaseyear "1988"
@@ -55526,6 +56343,15 @@ game (
 	developer "Sierra On-Line"
 	code "mh2 ScummVM File"
 	rom ( name "Manhunter_ San Francisco (DOS)[3x720k][!] ScummVM File.scummvm" size 3 crc dabd314e )
+)
+
+game (
+	name "Manhunter: San Francisco (DOS)"
+	description "Manhunter: San Francisco (DOS)"
+	releaseyear "1989"
+	developer "Sierra On-Line"
+	code "mh2-1"
+	rom ( name "MH2VOL.1" size 45837 crc 3539ae1f md5 bf45a64a94194012c8aece31f509c885 sha1 8dd0a58cf898cfd3702cce6e5492a03e13cde283 )
 )
 
 game (
@@ -55628,15 +56454,6 @@ game (
 )
 
 game (
-	name "Manhunter: San Francisco (Macintosh)"
-	description "Manhunter: San Francisco (Macintosh)"
-	releaseyear "1989"
-	developer "Sierra On-Line"
-	code "mh2-mac ScummVM File"
-	rom ( name "Manhunter_ San Francisco (Macintosh)[v3.03][!] ScummVM File.scummvm" size 7 crc f241d11e )
-)
-
-game (
 	name "Manhunter: San Francisco (Atari ST)"
 	description "Manhunter: San Francisco (Atari ST)"
 	releaseyear "1989"
@@ -55669,7 +56486,7 @@ game (
 	releaseyear "1986"
 	developer "Sierra On-Line"
 	code "mickey ScummVM File"
-	rom ( name "Mickey's Space Adventure (DOS) ScummVM File.scummvm" size 6 crc cdc8824d )
+	rom ( name "Mickey's Space Adventure (DOS)[2x360k][!] ScummVM File.scummvm" size 6 crc cdc8824d )
 )
 
 game (
@@ -55967,6 +56784,24 @@ game (
 	developer "Scott Adams"
 	code "missionimpossible-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 03_ Mission Impossible (PDA) ScummVM File.scummvm" size 19 crc 649145e4 )
+)
+
+game (
+	name "Scott Adams Adventure 03: Mission Impossible (TI99/4A)"
+	description "Scott Adams Adventure 03: Mission Impossible (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "missionimpossible-ti9"
+	rom ( name "adv03.fiad" size 10562 crc c060aa70 md5 2245b8bbbc1c6375ac570d4a7177926b sha1 2129c4797f55f2f2a5dd0c374b9c460259020907 )
+)
+
+game (
+	name "Scott Adams Adventure 03: Mission Impossible (TI99/4A)"
+	description "Scott Adams Adventure 03: Mission Impossible (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "missionimpossible-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 03_ Mission Impossible (TI99_4A) ScummVM File.scummvm" size 21 crc e016e254 )
 )
 
 game (
@@ -57707,6 +58542,24 @@ game (
 )
 
 game (
+	name "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Hebrew)"
+	description "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Hebrew)"
+	releaseyear "2022"
+	developer "Lucasfilm/LogicDeLuxe"
+	code "monkey2-2nd-he"
+	rom ( name "MONKEY2.000" size 10835 crc 49a7a79e md5 9f0a200df45c1c6c944cda21c134ff50 sha1 a7e7e8e7b175e765c04f68c18ed73777ae6d07e8 )
+)
+
+game (
+	name "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Hebrew)"
+	description "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Hebrew)"
+	releaseyear "2022"
+	developer "Lucasfilm/LogicDeLuxe"
+	code "monkey2-2nd-he ScummVM File"
+	rom ( name "Monkey Island 2_ LeChuck's Revenge (SE Talkie_DOS_Hebrew)[AdventureBrew][!] ScummVM File.scummvm" size 14 crc 8583f47 )
+)
+
+game (
 	name "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Italian)"
 	description "Monkey Island 2: LeChuck's Revenge (SE Talkie/DOS/Italian)"
 	releaseyear "2014"
@@ -59084,6 +59937,60 @@ game (
 )
 
 game (
+	name "Muppet Treasure Island (Windows)"
+	description "Muppet Treasure Island (Windows)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win"
+	rom ( name "MTI1.MPL" size 28500187 crc bd36b34a md5 522c253e113c653118f0285f0508845f sha1 494cc1e98ac500e30e953ea47e47fe2d1b53bddf )
+)
+
+game (
+	name "Muppet Treasure Island (Windows)"
+	description "Muppet Treasure Island (Windows)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win ScummVM File"
+	rom ( name "Muppet Treasure Island (Windows)[unsupported yet][!] ScummVM File.scummvm" size 7 crc 6e4f3d37 )
+)
+
+game (
+	name "Muppet Treasure Island {Los Muppets en la Isla del Tesoro}(Windows/Spanish)"
+	description "Muppet Treasure Island {Los Muppets en la Isla del Tesoro}(Windows/Spanish)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win-es"
+	rom ( name "MTI1.MPL" size 28605614 crc ed8c02f6 md5 3338a940c0c76b2d5049f5580859dce4 sha1 42d134a98f98f002e3108015f56ad66dd728c7ba )
+)
+
+game (
+	name "Muppet Treasure Island {Los Muppets en la Isla del Tesoro}(Windows/Spanish)"
+	description "Muppet Treasure Island {Los Muppets en la Isla del Tesoro}(Windows/Spanish)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win-es ScummVM File"
+	rom ( name "Muppet Treasure Island {Los Muppets en la Isla del Tesoro}(Windows_Spanish)[unsupported yet][!] ScummVM File.scummvm" size 10 crc b3fd5401 )
+)
+
+game (
+	name "Muppet Treasure Island {I Muppet nell'Isola del Tesoro}(Windows/Italian)"
+	description "Muppet Treasure Island {I Muppet nell'Isola del Tesoro}(Windows/Italian)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win-it"
+	rom ( name "MTI1.MPL" size 28280783 crc 29e92805 md5 73d4a8c2fd183fb4ad5f153b1a3007ac sha1 4347776aba77f23afa81c23ddee989ba10f67340 )
+)
+
+game (
+	name "Muppet Treasure Island {I Muppet nell'Isola del Tesoro}(Windows/Italian)"
+	description "Muppet Treasure Island {I Muppet nell'Isola del Tesoro}(Windows/Italian)"
+	releaseyear "1996"
+	developer "Rocket Science Games"
+	code "mti-win-it ScummVM File"
+	rom ( name "Muppet Treasure Island {I Muppet nell'Isola del Tesoro}(Windows_Italian)[unsupported yet][!] ScummVM File.scummvm" size 10 crc 812c8eae )
+)
+
+game (
 	name "Mudlarks (Windows)"
 	description "Mudlarks (Windows)"
 	releaseyear "2014"
@@ -59288,6 +60195,42 @@ game (
 	developer "Bart Gold & Wayne Twitchell"
 	code "mylk-win ScummVM File"
 	rom ( name "Mylk (Windows)[!] ScummVM File.scummvm" size 8 crc db3be301 )
+)
+
+game (
+	name "11 Mysterious Adventures: Disk 1 (C64)"
+	description "11 Mysterious Adventures: Disk 1 (C64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "mysadv1"
+	rom ( name "MYSTADV1.D64" size 174848 crc 0be2caef md5 b4d8fc4eabed4f2400717303561ad0fa sha1 5681c62837cea1efc5d63dc9014025cea647e967 )
+)
+
+game (
+	name "11 Mysterious Adventures: Disk 1 (C64)"
+	description "11 Mysterious Adventures: Disk 1 (C64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "mysadv1 ScummVM File"
+	rom ( name "11 Mysterious Adventures_ Disk 1 (C64)[01-06][!] ScummVM File.scummvm" size 7 crc 1ad199d )
+)
+
+game (
+	name "11 Mysterious Adventures: Disk 2 (C64)"
+	description "11 Mysterious Adventures: Disk 2 (C64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "mysadv2"
+	rom ( name "MYSTADV2.D64" size 174848 crc 87ecdc78 md5 3ce5ea1a0473244bf469fd3c51f1dc48 sha1 2c8a5c45fbbcc97c93eb3eae025c49f535670b95 )
+)
+
+game (
+	name "11 Mysterious Adventures: Disk 2 (C64)"
+	description "11 Mysterious Adventures: Disk 2 (C64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "mysadv2 ScummVM File"
+	rom ( name "11 Mysterious Adventures_ Disk 2 (C64)[07-11][!] ScummVM File.scummvm" size 7 crc 98a44827 )
 )
 
 game (
@@ -59678,8 +60621,8 @@ game (
 )
 
 game (
-	name "Myst III: Exile {神秘岛3：放逐}(Windows/Chinese (Simplified))"
-	description "Myst III: Exile {神秘岛3：放逐}(Windows/Chinese (Simplified))"
+	name ""Myst III: Exile {神秘岛3：放逐}(Windows/Chinese (Simplified))"
+	description ""Myst III: Exile {神秘岛3：放逐}(Windows/Chinese (Simplified))"
 	releaseyear "2001"
 	developer "Presto Studios"
 	code "myst3-win-cn ScummVM File"
@@ -59828,6 +60771,24 @@ game (
 	developer "Scott Adams"
 	code "mysteryfunhouse-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 07_ Mystery Fun House (PDA) ScummVM File.scummvm" size 17 crc 858ee247 )
+)
+
+game (
+	name "Scott Adams Adventure 07: Mystery Fun House (TI99/4A)"
+	description "Scott Adams Adventure 07: Mystery Fun House (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "mysteryfunhouse-ti9"
+	rom ( name "adv07.fiad" size 10594 crc 30d7f74f md5 284ef16feb75297fb04d64f516c9cec8 sha1 6e9bcc254f2b97be3f50b8aa4a979690bbd56f03 )
+)
+
+game (
+	name "Scott Adams Adventure 07: Mystery Fun House (TI99/4A)"
+	description "Scott Adams Adventure 07: Mystery Fun House (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "mysteryfunhouse-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 07_ Mystery Fun House (TI99_4A) ScummVM File.scummvm" size 19 crc 2d8eda2a )
 )
 
 game (
@@ -61244,6 +62205,78 @@ game (
 )
 
 game (
+	name "Obsidian (Macintosh)"
+	description "Obsidian (Macintosh)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-mac ScummVM File"
+	rom ( name "Obsidian (Macintosh)[v1.0 1997-01-13][!] ScummVM File.scummvm" size 12 crc d13ae4bb )
+)
+
+game (
+	name "Obsidian (Macintosh)]"
+	description "Obsidian (Macintosh)]"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-mac-1 ScummVM File"
+	rom ( name "Obsidian (Macintosh)[Data Forks Only]][!] ScummVM File.scummvm" size 14 crc 907bc802 )
+)
+
+game (
+	name "Obsidian (Windows)"
+	description "Obsidian (Windows)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win"
+	rom ( name "Obsidian Data 1.MPL" size 14755456 crc 69844e44 md5 2906bfa987379544d1f1fe926e6dd556 sha1 acb0febf38b0dcbe021adc2156d01c034c087921 )
+)
+
+game (
+	name "Obsidian (Windows)"
+	description "Obsidian (Windows)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win ScummVM File"
+	rom ( name "Obsidian (Windows)[v1.0 1997-01-13][!] ScummVM File.scummvm" size 12 crc 76e334a8 )
+)
+
+game (
+	name "Obsidian {ProSieben Mystery: Obsidian}(Windows/German)"
+	description "Obsidian {ProSieben Mystery: Obsidian}(Windows/German)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win-de"
+	rom ( name "Obsidian Data 1.MPL" size 18972392 crc 2406af7c md5 aee41cc04630fca9d68da02c1a341690 sha1 8bc731d77aafdc7e58eaebae97ac071e78bc84fa )
+)
+
+game (
+	name "Obsidian {ProSieben Mystery: Obsidian}(Windows/German)"
+	description "Obsidian {ProSieben Mystery: Obsidian}(Windows/German)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win-de ScummVM File"
+	rom ( name "Obsidian {ProSieben Mystery_ Obsidian}(Windows_German)[!] ScummVM File.scummvm" size 15 crc a6df7b4e )
+)
+
+game (
+	name "Obsidian {Obsidian: Alla Frontiera della Logica}(Windows/Italian)"
+	description "Obsidian {Obsidian: Alla Frontiera della Logica}(Windows/Italian)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win-it"
+	rom ( name "Obsidian Data 1.MPL" size 16306671 crc 7396d25d md5 95da69291c9e6a50e387cfd85fbfc4ee sha1 069dbb1d2d769080e9c0ff458b220e5efe773fd8 )
+)
+
+game (
+	name "Obsidian {Obsidian: Alla Frontiera della Logica}(Windows/Italian)"
+	description "Obsidian {Obsidian: Alla Frontiera della Logica}(Windows/Italian)"
+	releaseyear "1997"
+	developer "Rocket Science Games"
+	code "obsidian-win-it ScummVM File"
+	rom ( name "Obsidian {Obsidian_ Alla Frontiera della Logica}(Windows_Italian)[!] ScummVM File.scummvm" size 15 crc 79c125f1 )
+)
+
+game (
 	name "Ocaso Mortal (Multi-OS/Spanish)"
 	description "Ocaso Mortal (Multi-OS/Spanish)"
 	releaseyear "2002"
@@ -62621,6 +63654,24 @@ game (
 )
 
 game (
+	name "Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows/Spanish)"
+	description "Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows/Spanish)"
+	releaseyear "2022"
+	developer "Humongous Entertainment"
+	code "pajama2-win-es"
+	rom ( name "PAJAMA2.HE0" size 60557 crc 37596c95 md5 44118e6b383a0c6da485716c279637b0 sha1 f4dc409a3520df973e9e48c53c9392da72041d85 )
+)
+
+game (
+	name "Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows/Spanish)"
+	description "Pajama Sam 2: Thunder and Lightning Aren't so Frightening (Windows/Spanish)"
+	releaseyear "2022"
+	developer "Humongous Entertainment"
+	code "pajama2-win-es ScummVM File"
+	rom ( name "Pajama Sam 2_ Thunder and Lightning Aren't so Frightening (Windows_Spanish)[!] ScummVM File.scummvm" size 14 crc 5e2d011 )
+)
+
+game (
 	name "Pajama Sam 2: Thunder and Lightning Aren't so Frightening {Sam Pyjam 2: Héros Météo}(Windows/French)"
 	description "Pajama Sam 2: Thunder and Lightning Aren't so Frightening {Sam Pyjam 2: Héros Météo}(Windows/French)"
 	releaseyear "1998"
@@ -63728,6 +64779,24 @@ game (
 )
 
 game (
+	name "Mysterious Adventures 09: Perseus and Andromeda (Commodore 64)"
+	description "Mysterious Adventures 09: Perseus and Andromeda (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "perseus-c64"
+	rom ( name "PERSEUS.T64" size 20523 crc 9c32733e md5 98bdc5ba48db629e3aa70fbeb3e019d1 sha1 09564d5d3bc5a5d315a0512d4c470ffa9bb71f75 )
+)
+
+game (
+	name "Mysterious Adventures 09: Perseus and Andromeda (Commodore 64)"
+	description "Mysterious Adventures 09: Perseus and Andromeda (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "perseus-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 09_ Perseus and Andromeda (Commodore 64) ScummVM File.scummvm" size 11 crc d293537e )
+)
+
+game (
 	name "Mysterious Adventures 09: Perseus and Andromeda (Spectrum)"
 	description "Mysterious Adventures 09: Perseus and Andromeda (Spectrum)"
 	releaseyear "1994"
@@ -64292,6 +65361,24 @@ game (
 	developer "Scott and Alexis Adams"
 	code "pirateadventure-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 02_ Pirate Adventure (PDA) ScummVM File.scummvm" size 17 crc eae76154 )
+)
+
+game (
+	name "Scott Adams Adventure 02: Pirate Adventure (TI99/4A)"
+	description "Scott Adams Adventure 02: Pirate Adventure (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott and Alexis Adams"
+	code "pirateadventure-ti9"
+	rom ( name "adv02.fiad" size 10488 crc 57dbb8bc md5 5663b9dc714b9b69902ae09597856531 sha1 28d66287fba87669502796382140269d893daf37 )
+)
+
+game (
+	name "Scott Adams Adventure 02: Pirate Adventure (TI99/4A)"
+	description "Scott Adams Adventure 02: Pirate Adventure (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott and Alexis Adams"
+	code "pirateadventure-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 02_ Pirate Adventure (TI99_4A) ScummVM File.scummvm" size 19 crc 38d0264b )
 )
 
 game (
@@ -66955,7 +68042,7 @@ game (
 	releaseyear "2012"
 	developer "Wadjet Eye Games"
 	code "primordia-4 ScummVM File"
-	rom ( name "Primordia (Windows_English,German,Spanish,French,Italian)[GoG, v2.6][u][!] ScummVM File.scummvm" size 11 crc 8534c2a0 )
+	rom ( name "Primordia (Windows_English,German,Spanish,French,Italian)[GoG, v2.6][!] ScummVM File.scummvm" size 11 crc 8534c2a0 )
 )
 
 game (
@@ -67496,6 +68583,24 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "pulsar7-1 ScummVM File"
 	rom ( name "Mysterious Adventures 05_ Escape from Pulsar 7 (Multi-OS)[with graphics] ScummVM File.scummvm" size 9 crc 60e8e5b )
+)
+
+game (
+	name "Mysterious Adventures 05: Escape from Pulsar 7 (Commodore 64)"
+	description "Mysterious Adventures 05: Escape from Pulsar 7 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "pulsar7-c64"
+	rom ( name "ESCAPEP7.T64" size 18111 crc 2455f91e md5 b5c04ad6558ceb32bb21e7e9abe45f3d sha1 b71e0cdc4b446c9be496b83368b36e50b6c35cad )
+)
+
+game (
+	name "Mysterious Adventures 05: Escape from Pulsar 7 (Commodore 64)"
+	description "Mysterious Adventures 05: Escape from Pulsar 7 (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "pulsar7-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 05_ Escape from Pulsar 7 (Commodore 64) ScummVM File.scummvm" size 11 crc d506a157 )
 )
 
 game (
@@ -68414,6 +69519,24 @@ game (
 	developer "Alvin Files"
 	code "pyramidofdoom-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 08_ Pyramid of Doom (PDA) ScummVM File.scummvm" size 15 crc 70c0db20 )
+)
+
+game (
+	name "Scott Adams Adventure 08: Pyramid of Doom (TI99/4A)"
+	description "Scott Adams Adventure 08: Pyramid of Doom (TI99/4A)"
+	releaseyear "1980"
+	developer "Alvin Files"
+	code "pyramidofdoom-ti9"
+	rom ( name "adv08.fiad" size 10242 crc 69030169 md5 ff672e3170bc10e2d04d5eae6e8d4205 sha1 37b3e1175084274d85a2372b49aaa6a069e71304 )
+)
+
+game (
+	name "Scott Adams Adventure 08: Pyramid of Doom (TI99/4A)"
+	description "Scott Adams Adventure 08: Pyramid of Doom (TI99/4A)"
+	releaseyear "1980"
+	developer "Alvin Files"
+	code "pyramidofdoom-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 08_ Pyramid of Doom (TI99_4A) ScummVM File.scummvm" size 17 crc 58375a0c )
 )
 
 game (
@@ -77683,7 +78806,7 @@ game (
 	releaseyear "2008"
 	developer "Arberth Studios"
 	code "rhiannon-win-1 ScummVM File"
-	rom ( name "Rhiannon_ Curse of the Four Branches (Windows)[Premium Edition][!] ScummVM File.scummvm" size 14 crc a675dd66 )
+	rom ( name "Rhiannon_ Curse of the Four Branches (Windows)[Premium Edition][GoG, v1.0.0][!] ScummVM File.scummvm" size 14 crc a675dd66 )
 )
 
 game (
@@ -78368,6 +79491,78 @@ game (
 	developer "Ryan Veeder and Emily Boegheim"
 	code "robinandorchid ScummVM File"
 	rom ( name "Robin & Orchid (Multi-OS)[R4-140602] ScummVM File.scummvm" size 14 crc c96099cf )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64"
+	rom ( name "robin_of_sherwood.d64" size 174848 crc 806fd3cf md5 10109d9776b9372f9c768b53a664b113 sha1 2028aae68684fa9ec5a83fbaa0f611965bc89f9f )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64 ScummVM File"
+	rom ( name "Robin of Sherwood_ The Touchstones of Rhiannon (Commodore 64)[D64] ScummVM File.scummvm" size 19 crc f1758a09 )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-1"
+	rom ( name "robin_of_sherwood.t64" size 46736 crc 4f5188cc md5 386a729f8e50684d222b5236a242ed3a sha1 0bbc43970f13019f11752f746c476f0c214f77a4 )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-1 ScummVM File"
+	rom ( name "Robin of Sherwood_ The Touchstones of Rhiannon (Commodore 64)[T64] ScummVM File.scummvm" size 21 crc ec826828 )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-2"
+	rom ( name "ROBINOFS.T64" size 36278 crc b87f3390 md5 701c19d4f93b2529606451c999d9a006 sha1 89398d9284c4fd5ce82dfb07c97645080e6461bb )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-2 ScummVM File"
+	rom ( name "Robin of Sherwood_ The Touchstones of Rhiannon (Commodore 64)[T64][a1] ScummVM File.scummvm" size 21 crc 758b3992 )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-3"
+	rom ( name "SHERWOOD.T64" size 45807 crc a08b75fb md5 fb06216b42d21918f38493d43b571993 sha1 832ed568f18f22b5c5aef83f1e93bf20bb93757a )
+)
+
+game (
+	name "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	description "Robin of Sherwood: The Touchstones of Rhiannon (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "robinofsherwood-c64-3 ScummVM File"
+	rom ( name "Robin of Sherwood_ The Touchstones of Rhiannon (Commodore 64)[T64][a2] ScummVM File.scummvm" size 21 crc 28c0904 )
 )
 
 game (
@@ -79766,6 +80961,24 @@ game (
 )
 
 game (
+	name "Scott Adams Adventure 10 & 11: Savage Island, Part 1 & 2 (Commodore 64)"
+	description "Scott Adams Adventure 10 & 11: Savage Island, Part 1 & 2 (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "savageisland-c64"
+	rom ( name "SavageIsland.d64" size 174848 crc ff801256 md5 414d459ceb211230356ad823475866b3 sha1 ac5bc524182531cc6dd989012cb4d920ea606c35 )
+)
+
+game (
+	name "Scott Adams Adventure 10 & 11: Savage Island, Part 1 & 2 (Commodore 64)"
+	description "Scott Adams Adventure 10 & 11: Savage Island, Part 1 & 2 (Commodore 64)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "savageisland-c64 ScummVM File"
+	rom ( name "Scott Adams Adventure 10 & 11_ Savage Island, Part 1 & 2 (Commodore 64) ScummVM File.scummvm" size 16 crc fd256c92 )
+)
+
+game (
 	name "Scott Adams Adventure 10: Savage Island, Part 1 (Multi-OS)"
 	description "Scott Adams Adventure 10: Savage Island, Part 1 (Multi-OS)"
 	releaseyear "1980"
@@ -79799,6 +81012,24 @@ game (
 	developer "Scott Adams"
 	code "savageisland1-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 10_ Savage Island, Part 1 (PDA) ScummVM File.scummvm" size 15 crc ad5d3534 )
+)
+
+game (
+	name "Scott Adams Adventure 10: Savage Island, Part 1 (TI99/4A)"
+	description "Scott Adams Adventure 10: Savage Island, Part 1 (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "savageisland1-ti9"
+	rom ( name "adv10.fiad" size 10170 crc 4d737637 md5 15be128b714593ea66bd9ed2627f76bf sha1 1cfbe8e29e81a6e2cb6bab03a8df3a0e856db366 )
+)
+
+game (
+	name "Scott Adams Adventure 10: Savage Island, Part 1 (TI99/4A)"
+	description "Scott Adams Adventure 10: Savage Island, Part 1 (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams"
+	code "savageisland1-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 10_ Savage Island, Part 1 (TI99_4A) ScummVM File.scummvm" size 17 crc 312b9fbb )
 )
 
 game (
@@ -79853,6 +81084,24 @@ game (
 	developer "Scott Adams & Russ Wetmore"
 	code "savageisland2-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 11_ Savage Island, Part 2 (PDA) ScummVM File.scummvm" size 15 crc af1b8b6d )
+)
+
+game (
+	name "Scott Adams Adventure 11: Savage Island, Part 2 (TI99/4A)"
+	description "Scott Adams Adventure 11: Savage Island, Part 2 (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams & Russ Wetmore"
+	code "savageisland2-ti9"
+	rom ( name "adv11.fiad" size 12616 crc 890d0ac3 md5 b4b1a1b44b712b9230fcbfce41912e0c sha1 dad93f781691eb4b29ddffab3f0a942cf8ca2d6e )
+)
+
+game (
+	name "Scott Adams Adventure 11: Savage Island, Part 2 (TI99/4A)"
+	description "Scott Adams Adventure 11: Savage Island, Part 2 (TI99/4A)"
+	releaseyear "1980"
+	developer "Scott Adams & Russ Wetmore"
+	code "savageisland2-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 11_ Savage Island, Part 2 (TI99_4A) ScummVM File.scummvm" size 17 crc 768be56b )
 )
 
 game (
@@ -80792,6 +82041,42 @@ game (
 )
 
 game (
+	name "Seas of Blood (Commodore 64)"
+	description "Seas of Blood (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "seasofblood-c64"
+	rom ( name "Seas_of_Blood.d64" size 174848 crc 1048c3d6 md5 0300c2d21289157539bbd03ab4e366ee sha1 42ce0fa50998c77c036c6e35d4e799a4a03ba7b5 )
+)
+
+game (
+	name "Seas of Blood (Commodore 64)"
+	description "Seas of Blood (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "seasofblood-c64 ScummVM File"
+	rom ( name "Seas of Blood (Commodore 64)[D64] ScummVM File.scummvm" size 15 crc fab63fe2 )
+)
+
+game (
+	name "Seas of Blood (Commodore 64)"
+	description "Seas of Blood (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "seasofblood-c64-2"
+	rom ( name "Seas_of_Blood_SCI_666.t64" size 41481 crc 9b5ea1ef md5 b45f0cefa626a64d2b4c110ed44c125d sha1 6387e5a5d0077612158abb731c2452306787af9c )
+)
+
+game (
+	name "Seas of Blood (Commodore 64)"
+	description "Seas of Blood (Commodore 64)"
+	releaseyear "1985"
+	developer "Michael Woodroffe and Brian Howarth"
+	code "seasofblood-c64-2 ScummVM File"
+	rom ( name "Seas of Blood (Commodore 64)[T64] ScummVM File.scummvm" size 17 crc 730a5f75 )
+)
+
+game (
 	name "Seastalker: You and the Ultramarine Bioceptor (Multi-OS)"
 	description "Seastalker: You and the Ultramarine Bioceptor (Multi-OS)"
 	releaseyear "1985"
@@ -81616,7 +82901,7 @@ game (
 	releaseyear "2016"
 	developer "Wadjet Eye Games"
 	code "shardlight-2"
-	rom ( name "audio.vox" size 245033600 crc 727c265f md5 f837efb3065f318768581db305fc0379 sha1 0491173b9a9070b5e6e755491ed3bb95d56b5df9 )
+	rom ( name "Shardlight.exe" size 643460198 crc 533cf0ac md5 cb972d417348a769089d80a4d2df77c1 sha1 53a3dab29f3e1bcffabd748fd9162ba5cc98903b )
 )
 
 game (
@@ -81626,6 +82911,24 @@ game (
 	developer "Wadjet Eye Games"
 	code "shardlight-2 ScummVM File"
 	rom ( name "Shardlight (Windows)[GoG, v2.3][u][!] ScummVM File.scummvm" size 12 crc 7baf0f1b )
+)
+
+game (
+	name "Shardlight (Windows)"
+	description "Shardlight (Windows)"
+	releaseyear "2016"
+	developer "Wadjet Eye Games"
+	code "shardlight-3"
+	rom ( name "Shardlight.exe" size 643461930 crc 3d4ed2fc md5 ebd20f4bc51680c2092b8fcea88a562c sha1 cf32d07c37ebedb495e8720de6bf1fc8c7a8d51b )
+)
+
+game (
+	name "Shardlight (Windows)"
+	description "Shardlight (Windows)"
+	releaseyear "2016"
+	developer "Wadjet Eye Games"
+	code "shardlight-3 ScummVM File"
+	rom ( name "Shardlight (Windows)[GoG, v2.4][u][!] ScummVM File.scummvm" size 12 crc ca83f8d )
 )
 
 game (
@@ -82012,7 +83315,7 @@ game (
 	releaseyear "2013"
 	developer "Wadjet Eye Games"
 	code "shivah-4 ScummVM File"
-	rom ( name "Shivah, The (Windows)[GoG, v2.1][u][!] ScummVM File.scummvm" size 8 crc 620da4c1 )
+	rom ( name "Shivah, The (Windows)[GoG, v2.1][!] ScummVM File.scummvm" size 8 crc 620da4c1 )
 )
 
 game (
@@ -82398,6 +83701,15 @@ game (
 	description "Simon the Sorcerer (CD/DOS)"
 	releaseyear "1993"
 	developer "Adventure Soft"
+	code "simon1-cd"
+	rom ( name "SIMON.GME" size 6943110 crc fc06fc76 md5 9eb5897a270cb7f4785ad3b2462959aa sha1 3fbed7917a5e93a4cd3e1313482b5247bf9f3ef1 )
+)
+
+game (
+	name "Simon the Sorcerer (CD/DOS)"
+	description "Simon the Sorcerer (CD/DOS)"
+	releaseyear "1993"
+	developer "Adventure Soft"
 	code "simon1-cd ScummVM File"
 	rom ( name "Simon the Sorcerer (CD_DOS)[!] ScummVM File.scummvm" size 9 crc a94fdefa )
 )
@@ -82418,15 +83730,6 @@ game (
 	developer "Adventure Soft"
 	code "simon1-cd-1 ScummVM File"
 	rom ( name "Simon the Sorcerer (CD_DOS)[Infocom][!] ScummVM File.scummvm" size 11 crc bf151781 )
-)
-
-game (
-	name "Simon the Sorcerer (CD/Archimedes)"
-	description "Simon the Sorcerer (CD/Archimedes)"
-	releaseyear "1995"
-	developer "Drastic Measures, GamesWare"
-	code "simon1-cd-acorn ScummVM File"
-	rom ( name "Simon the Sorcerer (CD_Archimedes)[!] ScummVM File.scummvm" size 15 crc e4abbfae )
 )
 
 game (
@@ -82940,15 +84243,6 @@ game (
 	developer "Adventure Soft"
 	code "simon2-cd-win"
 	rom ( name "SIMON2.GME" size 20046789 crc f6d80af5 md5 a03bd98fca6f60b30300ce56a4363d77 sha1 9ade175af3910f1ad2b8acdbfb6a137893a28b72 )
-)
-
-game (
-	name "Simon the Sorcerer II (CD/Windows)"
-	description "Simon the Sorcerer II (CD/Windows)"
-	releaseyear "1995"
-	developer "Adventure Soft"
-	code "simon2-cd-win ScummVM File"
-	rom ( name "Simon the Sorcerer II (CD_Windows)[!] ScummVM File.scummvm" size 13 crc 43feb07 )
 )
 
 game (
@@ -89930,9 +91224,9 @@ game (
 	name "Space Quest II: Vohaul's Revenge (DOS)"
 	description "Space Quest II: Vohaul's Revenge (DOS)"
 	releaseyear "1987"
-	developer "Sierra On-Line"
+	developer "Sierra"
 	code "sq2"
-	rom ( name "VOL.2" size 411126 crc 6dbdff2f md5 59266c9fc69edbcba3adff888a5a2d1e sha1 e1418b6768e0c84c9d92a925f0d906fc9a4cd63f )
+	rom ( name "VOL.0" size 70313 crc fd471c99 md5 3e09c8580506212cd3494b5df8ea6cbc sha1 5f9cba6dced32737c5a80f7cf2e805541c9fa422 )
 )
 
 game (
@@ -92375,6 +93669,24 @@ game (
 )
 
 game (
+	name "Strangeland (Windows/English,German,Turkish,Hungarian)"
+	description "Strangeland (Windows/English,German,Turkish,Hungarian)"
+	releaseyear "2022"
+	developer "Wormwood Studios"
+	code "strangeland-5"
+	rom ( name "German.tra" size 903312 crc 6cd49013 md5 94d130b9c5d1a13587a6523671d37c05 sha1 3bdc3736cc8e62903dba7b6ec0ad35208481b978 )
+)
+
+game (
+	name "Strangeland (Windows/English,German,Turkish,Hungarian)"
+	description "Strangeland (Windows/English,German,Turkish,Hungarian)"
+	releaseyear "2022"
+	developer "Wormwood Studios"
+	code "strangeland-5 ScummVM File"
+	rom ( name "Strangeland (Windows_English,German,Turkish,Hungarian)[GoG, v2.7][u][!] ScummVM File.scummvm" size 13 crc 19b61435 )
+)
+
+game (
 	name "Strangeland (Windows/Hungarian)"
 	description "Strangeland (Windows/Hungarian)"
 	releaseyear "2021"
@@ -92426,6 +93738,24 @@ game (
 	developer "Scott Adams"
 	code "strangeodyssey-1 ScummVM File"
 	rom ( name "Scott Adams Adventure 06_ Strange Odyssey (PDA) ScummVM File.scummvm" size 16 crc 7a70ea5c )
+)
+
+game (
+	name "Scott Adams Adventure 06: Strange Odyssey (TI99/4A)"
+	description "Scott Adams Adventure 06: Strange Odyssey (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "strangeodyssey-ti9"
+	rom ( name "adv06.fiad" size 10170 crc 1ced1c5c md5 6769f82a10b51427599aedb27b7d26d3 sha1 638c70b36a84c34dd85457673527c5374432a612 )
+)
+
+game (
+	name "Scott Adams Adventure 06: Strange Odyssey (TI99/4A)"
+	description "Scott Adams Adventure 06: Strange Odyssey (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "strangeodyssey-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 06_ Strange Odyssey (TI99_4A) ScummVM File.scummvm" size 18 crc 8a63667c )
 )
 
 game (
@@ -92564,6 +93894,24 @@ game (
 )
 
 game (
+	name "Sumatra- Fate of Yandi (Windows/English,German,Spanish,French)"
+	description "Sumatra- Fate of Yandi (Windows/English,German,Spanish,French)"
+	releaseyear "2022"
+	developer "Cloak and Dagger Games"
+	code "sumatra-1"
+	rom ( name "audio.vox" size 77032706 crc 0e3024b5 md5 6e788bedccdfb93fce31c259074c6b83 sha1 d25784f5612c84d570d55593e97fa2f5d927fae2 )
+)
+
+game (
+	name "Sumatra- Fate of Yandi (Windows/English,German,Spanish,French)"
+	description "Sumatra- Fate of Yandi (Windows/English,German,Spanish,French)"
+	releaseyear "2022"
+	developer "Cloak and Dagger Games"
+	code "sumatra-1 ScummVM File"
+	rom ( name "Sumatra- Fate of Yandi (Windows_English,German,Spanish,French)[GoG, v1.2][u][!] ScummVM File.scummvm" size 9 crc 17db504a )
+)
+
+game (
 	name "Sunrise: The Game (Windows/German)"
 	description "Sunrise: The Game (Windows/German)"
 	releaseyear "2007"
@@ -92579,6 +93927,24 @@ game (
 	developer "TML-Edition OHG"
 	code "sunrise-win-de ScummVM File"
 	rom ( name "Sunrise_ The Game (Windows_German) ScummVM File.scummvm" size 14 crc de1471 )
+)
+
+game (
+	name "Supergran: The Adventure (Commodore 64)"
+	description "Supergran: The Adventure (Commodore 64)"
+	releaseyear "1985"
+	developer "Brian Howarth & Jon Blacow"
+	code "supergran-c64"
+	rom ( name "SUPERADV.T64" size 29295 crc 250738ee md5 f09b0625c59f748d054d3b7e599e3f34 sha1 1c464ea67504e338f2d5d1a41decf29294a5c57d )
+)
+
+game (
+	name "Supergran: The Adventure (Commodore 64)"
+	description "Supergran: The Adventure (Commodore 64)"
+	releaseyear "1985"
+	developer "Brian Howarth & Jon Blacow"
+	code "supergran-c64 ScummVM File"
+	rom ( name "Supergran_ The Adventure (Commodore 64) ScummVM File.scummvm" size 13 crc 5708cc91 )
 )
 
 game (
@@ -93239,6 +94605,24 @@ game (
 )
 
 game (
+	name "Broken Sword II: The Smoking Mirror {חרב שבורה 2: המראה המעשנת}(Windows/Hebrew)"
+	description "Broken Sword II: The Smoking Mirror {חרב שבורה 2: המראה המעשנת}(Windows/Hebrew)"
+	releaseyear "2022"
+	developer "Revolution Software & AdventureBrew"
+	code "sword2-he"
+	rom ( name "GENERAL.CLU" size 7059728 crc d4398946 md5 cdb61af52e02c803a8f3f1030d010c14 sha1 319a6d6e9f4a5ac5021e3bae2fbc505a77ae5fe0 )
+)
+
+game (
+	name "Broken Sword II: The Smoking Mirror {חרב שבורה 2: המראה המעשנת}(Windows/Hebrew)"
+	description "Broken Sword II: The Smoking Mirror {חרב שבורה 2: המראה המעשנת}(Windows/Hebrew)"
+	releaseyear "2022"
+	developer "Revolution Software & AdventureBrew"
+	code "sword2-he ScummVM File"
+	rom ( name "Broken Sword II_ The Smoking Mirror {חרב שבורה 2_ המראה המעשנת}(Windows_Hebrew)[with English voice][!] ScummVM File.scummvm" size 9 crc 245fa39d )
+)
+
+game (
 	name "Broken Sword II: The Smoking Mirror (Windows/Hungarian)"
 	description "Broken Sword II: The Smoking Mirror (Windows/Hungarian)"
 	releaseyear "1997"
@@ -93883,7 +95267,7 @@ game (
 	releaseyear "1993"
 	developer "Trilobyte"
 	code "t7g"
-	rom ( name "AT.RL" size 760 crc 31634d00 md5 c0b257d351b4ad3780afad8797b1119a sha1 8a30909213376f36b225b9f5b94dd9b588d8799b )
+	rom ( name "AT.GJD" size 45171574 crc 125816a4 md5 a24e6c5e22cfcf6d7653039e7256012a sha1 f0f5fec37fb4f86eba66b4c91bb1e99c98d80e13 )
 )
 
 game (
@@ -93914,12 +95298,21 @@ game (
 )
 
 game (
-	name "7th Guest, The (Macintosh)"
-	description "7th Guest, The (Macintosh)"
-	releaseyear "1994"
-	developer "Trilobyte"
-	code "t7g-mac ScummVM File"
-	rom ( name "7th Guest, The (Macintosh) ScummVM File.scummvm" size 7 crc d2cf29a )
+	name "7th Guest, The: 25th Anniversary Edition (Windows)"
+	description "7th Guest, The: 25th Anniversary Edition (Windows)"
+	releaseyear "2019"
+	developer "MojoTouch"
+	code "t7g-remastered-win"
+	rom ( name "AGU16.ogg" size 4766932 crc a7f62ccc md5 672f3cddb0f6f30d85da00dcaafafc48 sha1 8d5e7a0235fd9ca4fdfd6e71c83ff5a69bb4d73b )
+)
+
+game (
+	name "7th Guest, The: 25th Anniversary Edition (Windows)"
+	description "7th Guest, The: 25th Anniversary Edition (Windows)"
+	releaseyear "2019"
+	developer "MojoTouch"
+	code "t7g-remastered-win ScummVM File"
+	rom ( name "7th Guest, The_ 25th Anniversary Edition (Windows)[GoG, v1.1.6][!] ScummVM File.scummvm" size 18 crc 49274168 )
 )
 
 game (
@@ -96281,6 +97674,24 @@ game (
 )
 
 game (
+	name "Scott Adams Adventure 05: The Count (TI99/4A)"
+	description "Scott Adams Adventure 05: The Count (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "thecount-ti9"
+	rom ( name "adv05.fiad" size 10326 crc dffac16b md5 e5138603ffdb70ce3efc3f4ea6039401 sha1 736d0f551068d97f6df062a4dc3813c5685f7854 )
+)
+
+game (
+	name "Scott Adams Adventure 05: The Count (TI99/4A)"
+	description "Scott Adams Adventure 05: The Count (TI99/4A)"
+	releaseyear "1982"
+	developer "Scott Adams"
+	code "thecount-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 05_ The Count (TI99_4A) ScummVM File.scummvm" size 12 crc 8703f3fb )
+)
+
+game (
 	name "Scott Adams Adventure 05: The Count (Multi-OS)"
 	description "Scott Adams Adventure 05: The Count (Multi-OS)"
 	releaseyear "1982"
@@ -96736,7 +98147,7 @@ game (
 	releaseyear "1990"
 	developer "Origin Systems"
 	code "thesavageempire"
-	rom ( name "BKGRND.LZC" size 70126 crc 3df91024 md5 94b8813e23a6ea8a46d4ac7dc5e3933c sha1 67ccad0a852c922227ca2f082cc3c882bbec10dd )
+	rom ( name "CREATE.LZC" size 378460 crc fb038167 md5 f4b67c81dc53229b7b3113a92123aef5 sha1 2e7523980f47533a61ba3f78b8b76faee1bbbd77 )
 )
 
 game (
@@ -96745,7 +98156,25 @@ game (
 	releaseyear "1990"
 	developer "Origin Systems"
 	code "thesavageempire ScummVM File"
-	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[!] ScummVM File.scummvm" size 15 crc b3b907db )
+	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[v1.6][!] ScummVM File.scummvm" size 15 crc b3b907db )
+)
+
+game (
+	name "Worlds of Ultima: The Savage Empire (DOS)"
+	description "Worlds of Ultima: The Savage Empire (DOS)"
+	releaseyear "1990"
+	developer "Origin Systems"
+	code "thesavageempire-1"
+	rom ( name "CREATE.LZC" size 378442 crc 9fa90825 md5 4c980ece58710a735327a9908311cbb3 sha1 bf39780d5f8c5b8665464dd1a3fbb4b3908e74f3 )
+)
+
+game (
+	name "Worlds of Ultima: The Savage Empire (DOS)"
+	description "Worlds of Ultima: The Savage Empire (DOS)"
+	releaseyear "1990"
+	developer "Origin Systems"
+	code "thesavageempire-1 ScummVM File"
+	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[v2.1][!] ScummVM File.scummvm" size 17 crc cc8572e4 )
 )
 
 game (
@@ -96754,7 +98183,7 @@ game (
 	releaseyear "1990"
 	developer "Origin Systems"
 	code "thesavageempire_enh"
-	rom ( name "MAPTILES.VGA" size 112536 crc 40e81bfd md5 e105b8e3ed2d379f3d67d7d41028c0bf sha1 8430d3c417c263a4b4b80c724ebb59ed5cf02d66 )
+	rom ( name "ENHANCED.ROM" size 53 crc 2ea96234 md5 48955bea4eec372351d635520e0027a1 sha1 83d6b9fca3951a0883e63edde4607edae5d9e73a )
 )
 
 game (
@@ -96763,7 +98192,25 @@ game (
 	releaseyear "1990"
 	developer "Origin Systems"
 	code "thesavageempire_enh ScummVM File"
-	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[Enhanced][!] ScummVM File.scummvm" size 19 crc d754b9ba )
+	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[Enhanced, v1.6][!] ScummVM File.scummvm" size 19 crc d754b9ba )
+)
+
+game (
+	name "Worlds of Ultima: The Savage Empire (DOS)"
+	description "Worlds of Ultima: The Savage Empire (DOS)"
+	releaseyear "1990"
+	developer "Origin Systems"
+	code "thesavageempire_enh-1"
+	rom ( name "ENHANCED.ROM" size 57 crc 227c1be0 md5 504aa9370fbb7115444c536ceb9a6290 sha1 43b54241f83a1fe37b016074305273b0ff5b3a29 )
+)
+
+game (
+	name "Worlds of Ultima: The Savage Empire (DOS)"
+	description "Worlds of Ultima: The Savage Empire (DOS)"
+	releaseyear "1990"
+	developer "Origin Systems"
+	code "thesavageempire_enh-1 ScummVM File"
+	rom ( name "Worlds of Ultima_ The Savage Empire (DOS)[Enhanced, v2.1][!] ScummVM File.scummvm" size 21 crc 9cbad264 )
 )
 
 game (
@@ -97145,6 +98592,24 @@ game (
 )
 
 game (
+	name "Mysterious Adventures 02: The Time Machine (Commodore 64)"
+	description "Mysterious Adventures 02: The Time Machine (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "timemachine-c64"
+	rom ( name "TIMEMACH.T64" size 20530 crc 302359cc md5 d7bea6a07c064256daa64719e31623bd sha1 56957d50afcff5fc6ee672447cfe6ab7909c402b )
+)
+
+game (
+	name "Mysterious Adventures 02: The Time Machine (Commodore 64)"
+	description "Mysterious Adventures 02: The Time Machine (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "timemachine-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 02_ The Time Machine (Commodore 64) ScummVM File.scummvm" size 15 crc 8eb0271c )
+)
+
+game (
 	name "Mysterious Adventures 02: The Time Machine (Spectrum)"
 	description "Mysterious Adventures 02: The Time Machine (Spectrum)"
 	releaseyear "1994"
@@ -97275,26 +98740,17 @@ game (
 	description "Tender Loving Care (CD/Windows)"
 	releaseyear "1998"
 	developer "Aftermath Media LLC"
-	code "tlc-win"
-	rom ( name "DISK.1" size 84 crc b40f376b md5 32a1afa68478f1f9d2b25eeea427f2e3 sha1 5c7948475f6a65e25bdec64757e1eb4c302cee4b )
+	code "tlc-cd-win ScummVM File"
+	rom ( name "Tender Loving Care (CD_Windows)[1998-05-01][!] ScummVM File.scummvm" size 10 crc a970f9de )
 )
 
 game (
-	name "Tender Loving Care (CD/Windows)"
-	description "Tender Loving Care (CD/Windows)"
+	name "Tender Loving Care {Die Versuchung}(CD/Windows/German)"
+	description "Tender Loving Care {Die Versuchung}(CD/Windows/German)"
 	releaseyear "1998"
 	developer "Aftermath Media LLC"
-	code "tlc-win ScummVM File"
-	rom ( name "Tender Loving Care (CD_Windows) ScummVM File.scummvm" size 7 crc 393c7c7d )
-)
-
-game (
-	name "Tender Loving Care (DVD/Windows)"
-	description "Tender Loving Care (DVD/Windows)"
-	releaseyear "1998"
-	developer "Aftermath Media LLC"
-	code "tlc-win-1"
-	rom ( name "DISK.1" size 77 crc cb0b6d1d md5 07fd3381128b0035a72d41548241c82b sha1 6bc6a5b7d7448b8b9ac8c9a9d9014054104ea48f )
+	code "tlc-cd-win-de ScummVM File"
+	rom ( name "Tender Loving Care {Die Versuchung}(CD_Windows_German)[1998-04-08][!] ScummVM File.scummvm" size 13 crc e1f1048e )
 )
 
 game (
@@ -97302,8 +98758,17 @@ game (
 	description "Tender Loving Care (DVD/Windows)"
 	releaseyear "1998"
 	developer "Aftermath Media LLC"
-	code "tlc-win-1 ScummVM File"
-	rom ( name "Tender Loving Care (DVD_Windows)[1998-08-26][unsupported yet][!] ScummVM File.scummvm" size 9 crc f30f4bba )
+	code "tlc-dvd-win ScummVM File"
+	rom ( name "Tender Loving Care (DVD_Windows)[1998-08-26][unsupported yet][!] ScummVM File.scummvm" size 11 crc 3ad97ca5 )
+)
+
+game (
+	name "Tender Loving Care {Die Versuchung}(DVD/Windows/German)"
+	description "Tender Loving Care {Die Versuchung}(DVD/Windows/German)"
+	releaseyear "1998"
+	developer "Aftermath Media LLC"
+	code "tlc-dvd-win-de ScummVM File"
+	rom ( name "Tender Loving Care {Die Versuchung}(DVD_Windows_German)[1998-08-23][unsupported yet][!] ScummVM File.scummvm" size 14 crc 50abf4ee )
 )
 
 game (
@@ -99327,17 +100792,17 @@ game (
 	description "Uncle Henry's Playhouse (Windows)"
 	releaseyear "1996"
 	developer "Trilobyte"
-	code "unclehenry-win"
-	rom ( name "BACK.RAW" size 85248 crc cab38ebc md5 4fe65bf2918bc1f3dda52a820f5c3616 sha1 d6ca9dc8450e1161f88c81690e1226970440d300 )
+	code "unclehenry-win ScummVM File"
+	rom ( name "Uncle Henry's Playhouse (Windows)[!] ScummVM File.scummvm" size 14 crc 726c061a )
 )
 
 game (
-	name "Uncle Henry's Playhouse (Windows)"
-	description "Uncle Henry's Playhouse (Windows)"
+	name "Uncle Henry's Playhouse (Windows/German)"
+	description "Uncle Henry's Playhouse (Windows/German)"
 	releaseyear "1996"
 	developer "Trilobyte"
-	code "unclehenry-win ScummVM File"
-	rom ( name "Uncle Henry's Playhouse (Windows) ScummVM File.scummvm" size 14 crc 726c061a )
+	code "unclehenry-win-de ScummVM File"
+	rom ( name "Uncle Henry's Playhouse (Windows_German)[!] ScummVM File.scummvm" size 17 crc f0729bf4 )
 )
 
 game (
@@ -100466,6 +101931,24 @@ game (
 )
 
 game (
+	name "Scott Adams Adventure 04: Voodoo Castle (TI99/4A)"
+	description "Scott Adams Adventure 04: Voodoo Castle (TI99/4A)"
+	releaseyear "1983"
+	developer "Scott and Alexis Adams"
+	code "voodoocastle-ti9"
+	rom ( name "adv04.fiad" size 10424 crc e8526c6b md5 8d2e6f4d3770a22e08338973c39d1d03 sha1 fec54983ef89d6d1315bc2023e3253957d01197b )
+)
+
+game (
+	name "Scott Adams Adventure 04: Voodoo Castle (TI99/4A)"
+	description "Scott Adams Adventure 04: Voodoo Castle (TI99/4A)"
+	releaseyear "1983"
+	developer "Scott and Alexis Adams"
+	code "voodoocastle-ti9 ScummVM File"
+	rom ( name "Scott Adams Adventure 04_ Voodoo Castle (TI99_4A) ScummVM File.scummvm" size 16 crc 745d9d0c )
+)
+
+game (
 	name "Scott Adams Adventure 04: Voodoo Castle (Multi-OS)"
 	description "Scott Adams Adventure 04: Voodoo Castle (Multi-OS)"
 	releaseyear "1983"
@@ -100880,15 +102363,6 @@ game (
 )
 
 game (
-	name "Waxworks (Floppy/DOS)"
-	description "Waxworks (Floppy/DOS)"
-	releaseyear "1992"
-	developer "Accolade"
-	code "waxworks ScummVM File"
-	rom ( name "Waxworks (Floppy_DOS)[!] ScummVM File.scummvm" size 8 crc 39c07a43 )
-)
-
-game (
 	name "Waxworks (Floppy/Amiga/German)"
 	description "Waxworks (Floppy/Amiga/German)"
 	releaseyear "1992"
@@ -100983,6 +102457,15 @@ game (
 	description "Waxworks (Floppy/DOS)"
 	releaseyear "1992"
 	developer "Accolade"
+	code "waxworks-gog"
+	rom ( name "002.VGA" size 12578 crc a450f5f6 md5 10c9b618a47ddc6f8cab54ed6287a823 sha1 ada0bd5420fc4f589586e7614726f168ebd878ee )
+)
+
+game (
+	name "Waxworks (Floppy/DOS)"
+	description "Waxworks (Floppy/DOS)"
+	releaseyear "1992"
+	developer "Accolade"
 	code "waxworks-gog ScummVM File"
 	rom ( name "Waxworks (Floppy_DOS)[gog][!] ScummVM File.scummvm" size 12 crc 4b0fb3da )
 )
@@ -101021,6 +102504,24 @@ game (
 	developer "Brian Howarth & Evin Robertson"
 	code "waxworks11-1 ScummVM File"
 	rom ( name "Mysterious Adventures 11_ Waxworks (Multi-OS)[with graphics] ScummVM File.scummvm" size 12 crc 79b6d0b9 )
+)
+
+game (
+	name "Mysterious Adventures 11: Waxworks (Commodore 64)"
+	description "Mysterious Adventures 11: Waxworks (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "waxworks11-c64"
+	rom ( name "WAXWORKS.T64" size 18961 crc b1d19787 md5 903ed3fc15a430c28e334c3d7b4ac067 sha1 eb5cb3befbd4ef7dab583773c3fe62984ce25d3a )
+)
+
+game (
+	name "Mysterious Adventures 11: Waxworks (Commodore 64)"
+	description "Mysterious Adventures 11: Waxworks (Commodore 64)"
+	releaseyear "1994"
+	developer "Brian Howarth & Paul David Doherty"
+	code "waxworks11-c64 ScummVM File"
+	rom ( name "Mysterious Adventures 11_ Waxworks (Commodore 64) ScummVM File.scummvm" size 14 crc 359d3372 )
 )
 
 game (
@@ -101687,15 +103188,6 @@ game (
 	developer "Sierra On-Line"
 	code "winnie ScummVM File"
 	rom ( name "Winnie the Pooh in the Hundred Acre Wood (DOS) ScummVM File.scummvm" size 6 crc 2390aac5 )
-)
-
-game (
-	name "Winnie the Pooh in the Hundred Acre Wood (Amiga)"
-	description "Winnie the Pooh in the Hundred Acre Wood (Amiga)"
-	releaseyear "1986"
-	developer "Sierra On-Line"
-	code "winnie-amiga"
-	rom ( name "OBJECT.1" size 442 crc bd06a05e md5 3298e21c366186787e5e2345af8d202b sha1 a0dc5827ba48ba0effee2c510d0a555039b149e1 )
 )
 
 game (
