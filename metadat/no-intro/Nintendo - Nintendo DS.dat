@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Nintendo DS"
 	description "Nintendo - Nintendo DS"
-	version "2022.10.28"
+	version "2023.04.30"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -76,6 +76,13 @@ game (
 	rom ( name "007 - Quantum of Solace (Europe) (Es,It).nds" size 33554432 crc 50501C02 md5 FC59502F8F2E4CBD6B4A1291DA962715 sha1 0AB236810EF7E31D97CCD85D53A7A26020FD5A6F serial "CQSX" )
 )
 game (
+	name "007 - Quantum of Solace (Korea)"
+	description "007 - Quantum of Solace (Korea)"
+	region "Korea"
+	serial "CQSK"
+	rom ( name "007 - Quantum of Solace (Korea).nds" size 33554432 crc 6967847A md5 8B1FE8ECF1E4F03AE49D434EA7C7DCF7 sha1 64BC4E0F64100172F2612F532E73999B9A1CBC77 serial "CQSK" )
+)
+game (
 	name "007 - Quantum of Solace (USA) (En,Fr)"
 	description "007 - Quantum of Solace (USA) (En,Fr)"
 	region "USA"
@@ -95,6 +102,13 @@ game (
 	region "Germany"
 	serial "YJYD"
 	rom ( name "1 gegen 100 (Germany).nds" size 8388608 crc 220D4186 md5 64EE6C3DE769F93DC47FF4FC5A3B5979 sha1 80A346745F8AAB540CEED1A04168AFC92C32F5EB serial "YJYD" )
+)
+game (
+	name "1 vs 100 (Australia)"
+	description "1 vs 100 (Australia)"
+	region "Australia"
+	serial "YJYP"
+	rom ( name "1 vs 100 (Australia).nds" size 8388608 crc A9C59AA6 md5 9F95759F95E451489CB0ED1BDF61D41E sha1 546FAA05D1C37D9418F27A0C370C8BF491443B6D serial "YJYP" )
 )
 game (
 	name "1 vs 100 (USA)"
@@ -324,6 +338,13 @@ game (
 	region "Europe"
 	serial "BGCP"
 	rom ( name "11 Card Games (Europe) (En,De,Es).nds" size 8388608 crc 3D29E171 md5 64EAA39BDD6CD807539AACDAF5AA684F sha1 A624968C47540711AD166518362BEB508E1BCD8E serial "BGCP" )
+)
+game (
+	name "12 (Europe)"
+	description "12 (Europe)"
+	region "Europe"
+	serial "CI2P"
+	rom ( name "12 (Europe).nds" size 8388608 crc 86B1E4CF md5 F9432D38B4473F6F8D4BE0384881E942 sha1 5C4A5CA179C6547A851A404DF75504E8571E4629 serial "CI2P" )
 )
 game (
 	name "123 Sesame Street - Cookie's Counting Carnival - The Videogame (Australia)"
@@ -676,11 +697,11 @@ game (
 	rom ( name "3 in 1 - My Vet Practice & Riding Star & My Vet Practice in Australia (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc E062D29E md5 D0BEFD9487888B938EC2376C688744E5 sha1 F07FAFB62B682B167CEBDC51E043A17B85ACDE22 serial "TM7P" )
 )
 game (
-	name "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It,Nl)"
-	description "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It,Nl)"
+	name "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It)"
+	description "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "B7LP"
-	rom ( name "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It,Nl).nds" size 8388608 crc 8FA376FA md5 209681DFD26ABB47B0E05E9D69CE4B1B sha1 6ED611EA228FA26EA4A6BBA6A9EA556E1895E015 serial "B7LP" )
+	rom ( name "3 in 1 - Solitaire, Mahjong & Tangram (Europe) (En,Fr,De,Es,It).nds" size 8388608 crc 8FA376FA md5 209681DFD26ABB47B0E05E9D69CE4B1B sha1 6ED611EA228FA26EA4A6BBA6A9EA556E1895E015 serial "B7LP" )
 )
 game (
 	name "4 Elements (Europe)"
@@ -1199,6 +1220,20 @@ game (
 	rom ( name "Addy Junior - Mein Koerper (Germany).nds" size 67108864 crc 8707C247 md5 BF6968E231E745182A6FCAC7190EC52F sha1 C86CB00516AC6BFEF19F3D632A9B8A2143DFFDBA serial "YHVD" )
 )
 game (
+	name "Adi l'Entraineur - Mathematiques, Francais CE1-CE2 (France)"
+	description "Adi l'Entraineur - Mathematiques, Francais CE1-CE2 (France)"
+	region "France"
+	serial "CACF"
+	rom ( name "Adi l'Entraineur - Mathematiques, Francais CE1-CE2 (France).nds" size 16777216 crc 54639107 md5 8396CE58CBBEF3A3ED0098057AF8D861 sha1 B8B140C53B9DCE086C8A17CFDE654E4039DB7EC2 serial "CACF" )
+)
+game (
+	name "Adi l'Entraineur - Mathematiques, Francais CM1-CM2 (France)"
+	description "Adi l'Entraineur - Mathematiques, Francais CM1-CM2 (France)"
+	region "France"
+	serial "CADF"
+	rom ( name "Adi l'Entraineur - Mathematiques, Francais CM1-CM2 (France).nds" size 16777216 crc A951A78A md5 BD32FD4AE2C8B6C9AA29BAF15BD3E7FF sha1 9BDCDF74E089D8B540E8C3654048C723F0F69916 serial "CADF" )
+)
+game (
 	name "Adi l'Entraineur - Objectif Anglais (France)"
 	description "Adi l'Entraineur - Objectif Anglais (France)"
 	region "France"
@@ -1582,6 +1617,12 @@ game (
 	rom ( name "All Kamen Rider - Rider Generation (Japan) (Beta) (2011-06-02).nds" size 67108864 crc 73B19440 md5 4F6E9712B014D3D43929EE475BEA6924 sha1 869B03E4FB6B06CD14AA58C06F5A1011773C0293 serial "TAKJ" )
 )
 game (
+	name "All Kamen Rider - Rider Generation - Taikenban (Japan) (Demo)"
+	description "All Kamen Rider - Rider Generation - Taikenban (Japan) (Demo)"
+	region "Japan"
+	rom ( name "All Kamen Rider - Rider Generation - Taikenban (Japan) (Demo).bcn" size 856 crc 7098564F md5 9FAE3D4B6C66FF4280701C19F86A6517 sha1 BDAF3B1F7F562979A3612BEB88986FCF01090424 )
+)
+game (
 	name "All Kamen Rider - Rider Generation 2 (Japan)"
 	description "All Kamen Rider - Rider Generation 2 (Japan)"
 	region "Japan"
@@ -1636,6 +1677,13 @@ game (
 	region "USA"
 	serial "BHVE"
 	rom ( name "Alpha and Omega (USA).nds" size 33554432 crc 9FCDFB1B md5 6F343EAB91BF1F0A10FE4646DE269DD0 sha1 84C9E94D0FE1DECBB825AFD60FC3235DD48815C5 serial "BHVE" )
+)
+game (
+	name "Alssongdalssong - Myeonghwatamheom DS (Korea)"
+	description "Alssongdalssong - Myeonghwatamheom DS (Korea)"
+	region "Korea"
+	serial "C48K"
+	rom ( name "Alssongdalssong - Myeonghwatamheom DS (Korea).nds" size 67108864 crc F605A8D7 md5 D9FE7DFD7D72CE14493C5F3973F8F0CE sha1 EDD07B6FBFF905F4A4C90267AECD7AD6668FF00D serial "C48K" )
 )
 game (
 	name "Alvin and the Chipmunks (Europe) (En,Fr,De,Es,It)"
@@ -2250,6 +2298,12 @@ game (
 	region "Europe"
 	serial "BANP"
 	rom ( name "Ant Nation (Europe) (En,Fr,De,Es,It).nds" size 16777216 crc 00F7A863 md5 3F5590FC7F32FE62B5F88A4D85A044E5 sha1 048CF6DAB5D3DAB70E5381F55902EF851FA45149 serial "BANP" )
+)
+game (
+	name "Ant Nation (USA) (Demo)"
+	description "Ant Nation (USA) (Demo)"
+	region "USA"
+	rom ( name "Ant Nation (USA) (Demo).bcn" size 856 crc 6982EC51 md5 1FE054DEBB0C98B877BF96A0C1F41B7E sha1 6127C1B1D3FC1DD4E0820FC935F5BAAE2541E5A6 )
 )
 game (
 	name "Ant Nation (USA) (En,Fr,Es)"
@@ -2947,6 +3001,13 @@ game (
 	rom ( name "Avatar - The Legend of Aang (Europe) (En,Fr,De,Nl).nds" size 67108864 crc BEDF86D9 md5 BE32DC1AC25760770EC73992AB072709 sha1 DDD284C0BB2E20704BB4F10C40B7306F052B3376 serial "AVAP" )
 )
 game (
+	name "Avatar - The Legend of Aang (Korea)"
+	description "Avatar - The Legend of Aang (Korea)"
+	region "Korea"
+	serial "CAVK"
+	rom ( name "Avatar - The Legend of Aang (Korea).nds" size 33554432 crc 5EB518D1 md5 493186281092957CC8184F63E1651D06 sha1 6FC7407D24899537154C6E80885953BD0C5154DB serial "CAVK" )
+)
+game (
 	name "Avatar - The Legend of Aang - Into the Inferno (Europe) (En,De,It,Nl)"
 	description "Avatar - The Legend of Aang - Into the Inferno (Europe) (En,De,It,Nl)"
 	region "Europe"
@@ -3024,6 +3085,13 @@ game (
 	rom ( name "B-17 - Fortress in the Sky (Europe) (En,Fr,Es,It).nds" size 8388608 crc B4FF7548 md5 81824B6AACB57DF286CFCC08D2118D80 sha1 5869C88E358AC5AF0076A0C2D85FB7F75CD5594E serial "AB7P" )
 )
 game (
+	name "B-17 - Fortress in the Sky (Europe) (En,Fr,Es,It) (Beta)"
+	description "B-17 - Fortress in the Sky (Europe) (En,Fr,Es,It) (Beta)"
+	region "Europe"
+	serial "AB7E"
+	rom ( name "B-17 - Fortress in the Sky (Europe) (En,Fr,Es,It) (Beta).nds" size 8388608 crc EA4B5E17 md5 C31708E89152A7E0FFE2B39FBECAE4C4 sha1 D49EA947B3260D16D5C4E6170A1F0E7B2B1509DF serial "AB7E" )
+)
+game (
 	name "B-17 - Fortress in the Sky (USA)"
 	description "B-17 - Fortress in the Sky (USA)"
 	region "USA"
@@ -3036,6 +3104,13 @@ game (
 	region "USA"
 	serial "CYBE"
 	rom ( name "B. Sokal Syberia (USA) (En,Fr,Es).nds" size 67108864 crc FCBF0949 md5 D59DE033138BB3B6E44CAD970B556152 sha1 32BA2BF63FDAF16B48DAF30F76A3F2AD5967DDE7 serial "CYBE" )
+)
+game (
+	name "BFF TV (Europe) (En,Fr,De,Es,It)"
+	description "BFF TV (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "BTVP"
+	rom ( name "BFF TV (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 7B1D0A4F md5 00271CCB6F913EB8759923ECE8A57EBC sha1 06D7D5EE1A41D6FDC494730EDD19C932A4DA2A10 serial "BTVP" )
 )
 game (
 	name "Baby Fashion Star (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (NDSi Enhanced)"
@@ -3176,6 +3251,13 @@ game (
 	region "USA"
 	serial "BBAE"
 	rom ( name "Backyard Sports - Sandlot Sluggers (USA).nds" size 33554432 crc F84D84E1 md5 8607F269C3FCB49DF3C10B221E33DDCF sha1 5627BBC328DF40568ABCFB2D41A0828948C9AFD0 serial "BBAE" )
+)
+game (
+	name "Backyardigans, The (Europe)"
+	description "Backyardigans, The (Europe)"
+	region "Europe"
+	serial "BBYP"
+	rom ( name "Backyardigans, The (Europe).nds" size 8388608 crc 543A663B md5 345846477DA8CEE336B53FECD440252B sha1 A8AAD3019C34D2B26274E573A6BFBA32E0D8F8EE serial "BBYP" )
 )
 game (
 	name "Backyardigans, The (USA)"
@@ -4391,13 +4473,6 @@ game (
 	rom ( name "Big Brain Academy (Spain) (Demo).bin" size 2486900 crc 26B69E52 md5 C4CBA0D39EF984934F3F07A19E1E48C9 sha1 F24341EA53CD420D563E40C71E7860C5A9635205 )
 )
 game (
-	name "Big Brain Academy (USA)"
-	description "Big Brain Academy (USA)"
-	region "USA"
-	serial "AYAE"
-	rom ( name "Big Brain Academy (USA).nds" size 8388608 crc 6F08ED9F md5 09E73EC34EAFB8693A08EF1EA64B580C sha1 80167B96CC69614CF0CD24F7685472166BFA31E6 serial "AYAE" )
-)
-game (
 	name "Big Brain Academy (USA) (Demo)"
 	description "Big Brain Academy (USA) (Demo)"
 	region "USA"
@@ -4410,6 +4485,12 @@ game (
 	region "USA"
 	serial "A43E"
 	rom ( name "Big Brain Academy (USA) (Demo) (Kiosk).nds" size 8388608 crc A8DD379D md5 F19CD3D1C8B03F03F8F99CD7FE716A6B sha1 D270B6EFD498971180C1CB6E75313A0FBA5BDC1F serial "A43E" )
+)
+game (
+	name "Big Brain Academy (USA, Australia)"
+	description "Big Brain Academy (USA, Australia)"
+	serial "AYAE"
+	rom ( name "Big Brain Academy (USA, Australia).nds" size 8388608 crc 6F08ED9F md5 09E73EC34EAFB8693A08EF1EA64B580C sha1 80167B96CC69614CF0CD24F7685472166BFA31E6 serial "AYAE" )
 )
 game (
 	name "Big Catch - Bass Fishing (Europe) (En,Fr,De,Es,It)"
@@ -4550,6 +4631,13 @@ game (
 	region "USA"
 	serial "AH8E"
 	rom ( name "Bionicle Heroes (USA).nds" size 33554432 crc 821F4CE4 md5 422551B13E44579FC9240294B1CBE98F sha1 AA0018F1E05A30E3631AB702705487231622AFA7 serial "AH8E" )
+)
+game (
+	name "Bisanggu - Exit DS (Korea)"
+	description "Bisanggu - Exit DS (Korea)"
+	region "Korea"
+	serial "YEXK"
+	rom ( name "Bisanggu - Exit DS (Korea).nds" size 33554432 crc 222FF2B2 md5 386EB712A873CF72E1477EA124BA4533 sha1 6F34C190B77048CC9448A49862D02F835EDFD36F serial "YEXK" )
 )
 game (
 	name "Biz Nouryoku DS Series - Miryoku Kaikaku (Japan)"
@@ -6121,6 +6209,13 @@ game (
 	rom ( name "Call of Duty - World at War (Europe).nds" size 67108864 crc 46124ADD md5 DB2B4650A590D5B59A01F0632E01553B sha1 787071F546BD6E4C70E54FA9E4964EB34B0E7944 serial "CALP" )
 )
 game (
+	name "Call of Duty - World at War (Korea)"
+	description "Call of Duty - World at War (Korea)"
+	region "Korea"
+	serial "CALK"
+	rom ( name "Call of Duty - World at War (Korea).nds" size 67108864 crc 957BA1BD md5 C7CD27C9AAF9DD718814B533ACCC8324 sha1 F28CFAC1A7AA7B26EF3AB0F2354AAD6636C641E0 serial "CALK" )
+)
+game (
 	name "Call of Duty - World at War (USA)"
 	description "Call of Duty - World at War (USA)"
 	region "USA"
@@ -6237,6 +6332,12 @@ game (
 	region "Japan"
 	serial "TCMJ"
 	rom ( name "Camping Mama + Papa - Fishing (Japan) (Demo) (DS Broadcast).nds" size 1154191 crc 77F59C61 md5 310D5E072E3FE452F6CCB47E3285ED9D sha1 3482BDF2D965574AE7336AAE45ABC6CEF4B14A22 serial "TCMJ" )
+)
+game (
+	name "Camping Mama + Papa - Taikenban (Japan) (Demo)"
+	description "Camping Mama + Papa - Taikenban (Japan) (Demo)"
+	region "Japan"
+	rom ( name "Camping Mama + Papa - Taikenban (Japan) (Demo).bcn" size 856 crc C806A2FE md5 0A0557FC2558B91A606D63D6A9C5ABCF sha1 51A44C3CCF019B27C81C5D7EC6F922BCBA545361 )
 )
 game (
 	name "Camping Mama - Outdoor Adventures (USA)"
@@ -6378,6 +6479,13 @@ game (
 	rom ( name "Carnival Games (USA) (En,Fr,Es) (Rev 1).nds" size 33554432 crc 9700C2CC md5 3F4FCF7F0D3C23D92BE273EBB754A7DC sha1 19EDBC57ADB97652D0FF09FB4C15F0D874E0407B serial "YYCE" )
 )
 game (
+	name "Cars (Europe)"
+	description "Cars (Europe)"
+	region "Europe"
+	serial "ACZP"
+	rom ( name "Cars (Europe).nds" size 16777216 crc 22DBC13E md5 38DA20C453F86C8CAFFB2FC0C5D3D050 sha1 93795CDDD24E1DA2B0A88C9A66BE500A23A991BD serial "ACZP" )
+)
+game (
 	name "Cars (Europe) (Es,Pt)"
 	description "Cars (Europe) (Es,Pt)"
 	region "Europe"
@@ -6390,12 +6498,6 @@ game (
 	region "Europe"
 	serial "ACZX"
 	rom ( name "Cars (Europe) (Fr,Nl).nds" size 16777216 crc F3CD60D8 md5 72B0045CE1398FF747EA2970A633ADE5 sha1 DC4DF43D130FEADD883AFF223EEFD5D645675EF8 serial "ACZX" )
-)
-game (
-	name "Cars (Europe, Australia)"
-	description "Cars (Europe, Australia)"
-	serial "ACZP"
-	rom ( name "Cars (Europe, Australia).nds" size 16777216 crc 22DBC13E md5 38DA20C453F86C8CAFFB2FC0C5D3D050 sha1 93795CDDD24E1DA2B0A88C9A66BE500A23A991BD serial "ACZP" )
 )
 game (
 	name "Cars (Germany)"
@@ -6637,6 +6739,13 @@ game (
 	region "Europe"
 	serial "YR9P"
 	rom ( name "Castlevania - Order of Ecclesia (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc F7B9390D md5 2B9DC9B44CCE2E786FDF1FF8D45D667C sha1 B62E2D0CD63BDB16E32F2D4A1D0AC90A242C8481 serial "YR9P" )
+)
+game (
+	name "Castlevania - Order of Ecclesia (Korea)"
+	description "Castlevania - Order of Ecclesia (Korea)"
+	region "Korea"
+	serial "YR9K"
+	rom ( name "Castlevania - Order of Ecclesia (Korea).nds" size 67108864 crc BE134C8F md5 D7BFCFBFF2F3CE97C03C500E6186B3FD sha1 94EEDC3A9A9F816AA5DE0DDD90FB73B5EF165923 serial "YR9K" )
 )
 game (
 	name "Castlevania - Order of Ecclesia (USA) (En,Fr)"
@@ -7251,6 +7360,20 @@ game (
 	region "Japan"
 	serial "YTXJ"
 	rom ( name "Chishiki-ou Series - Train Master (Japan).nds" size 67108864 crc 4086E681 md5 E7AD2CE5ABAC39BCB3959FD2D0C2A796 sha1 7DCEA44A281B1671FBE00D61B99B740CC1334E03 serial "YTXJ" )
+)
+game (
+	name "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Cheongongdaemoheom (Korea)"
+	description "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Cheongongdaemoheom (Korea)"
+	region "Korea"
+	serial "YL6K"
+	rom ( name "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Cheongongdaemoheom (Korea).nds" size 67108864 crc A90B1255 md5 E62F0150CFBFF7DC01F009B8FDA03DC2 sha1 73D3A6F0417DA62154658DFC880F03B38F7FCD48 serial "YL6K" )
+)
+game (
+	name "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Dragon Warriors (Korea)"
+	description "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Dragon Warriors (Korea)"
+	region "Korea"
+	serial "C66K"
+	rom ( name "Cho Geukjangpan Gaeguri Jungsa Keroro the Movie - Dragon Warriors (Korea).nds" size 67108864 crc 577537EB md5 1B4E31E5399C8B96821226AE94B5B1BC sha1 EA0294FF1D6FFA1A4DF13B799AC375F973168483 serial "C66K" )
 )
 game (
 	name "Chocobo to Mahou no Ehon (Japan)"
@@ -8318,16 +8441,18 @@ game (
 	rom ( name "Cooking Guide - Can't Decide What to Eat (Europe).nds" size 268435456 crc 5E2473FF md5 048C513ADF295A109C603BD6EF2BA5FE sha1 A12419236A8FD4772877382332EBAC4625A4BCAC serial "CNVP" )
 )
 game (
-	name "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 1)"
-	description "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 1)"
+	name "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 1)"
+	description "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 1)"
+	region "Europe"
 	serial "CNVP"
-	rom ( name "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 1).nds" size 268435456 crc 6DA18454 md5 3B71FE7916C293B142EC31F58E633C3A sha1 847BA26A08F7EE0BDD553E39818973750A481DE1 serial "CNVP" )
+	rom ( name "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 1).nds" size 268435456 crc 6DA18454 md5 3B71FE7916C293B142EC31F58E633C3A sha1 847BA26A08F7EE0BDD553E39818973750A481DE1 serial "CNVP" )
 )
 game (
-	name "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 2)"
-	description "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 2)"
+	name "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 2)"
+	description "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 2)"
+	region "Europe"
 	serial "CNVP"
-	rom ( name "Cooking Guide - Can't Decide What to Eat (Europe, Australia) (Rev 2).nds" size 268435456 crc 0BA7FD10 md5 093A342F5ED7BD301873540B639D5A9A sha1 472F027DAF1AED2E916A641D42B5F497DC2D6B25 serial "CNVP" )
+	rom ( name "Cooking Guide - Can't Decide What to Eat (Europe) (Rev 2).nds" size 268435456 crc 0BA7FD10 md5 093A342F5ED7BD301873540B639D5A9A sha1 472F027DAF1AED2E916A641D42B5F497DC2D6B25 serial "CNVP" )
 )
 game (
 	name "Cooking Mama (Europe) (De,Es,It)"
@@ -8778,6 +8903,13 @@ game (
 	rom ( name "Cosmos Chaos (USA) (Beta).nds" size 134217728 crc 90CC0D19 md5 30CD9899821C3BD56BFDF31A694D2539 sha1 AB39CF4F2902802E76D2FCC78EFE2C092CA52226 serial "B6CE" )
 )
 game (
+	name "Countdown - The Game (Europe)"
+	description "Countdown - The Game (Europe)"
+	region "Europe"
+	serial "BC3P"
+	rom ( name "Countdown - The Game (Europe).nds" size 8388608 crc 9EC9D30C md5 C17C6FE8B79003AEB9B64679E97F8FA8 sha1 95BA1D2181CDCD8ACF2F427074A825D5AA89CF5F serial "BC3P" )
+)
+game (
 	name "Cradle of Rome (USA) (En,Fr,De,Es,It,Nl)"
 	description "Cradle of Rome (USA) (En,Fr,De,Es,It,Nl)"
 	region "USA"
@@ -9194,11 +9326,11 @@ game (
 	rom ( name "Cruise Line Tycoon (Europe) (En,Fr,De,Es,It,Nl).nds" size 16777216 crc 71F4BDB0 md5 3143CF73C6873E514FF34A43E62B5940 sha1 174ED85E8035D4B3B1DEA1B4283AFCC3A9095744 serial "BCZP" )
 )
 game (
-	name "Crystal Mines (Europe) (En,Fr,De,Es,It)"
-	description "Crystal Mines (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Crystal Mines (Australia) (En,Fr,De,Es,It)"
+	description "Crystal Mines (Australia) (En,Fr,De,Es,It)"
+	region "Australia"
 	serial "YDYP"
-	rom ( name "Crystal Mines (Europe) (En,Fr,De,Es,It).nds" size 8388608 crc 99CCEAE5 md5 CB5C3225F6B69961D731F30684D46C0C sha1 2BB44387D4BCE614B8663A100DD46B1D8787CB2F serial "YDYP" )
+	rom ( name "Crystal Mines (Australia) (En,Fr,De,Es,It).nds" size 8388608 crc 99CCEAE5 md5 CB5C3225F6B69961D731F30684D46C0C sha1 2BB44387D4BCE614B8663A100DD46B1D8787CB2F serial "YDYP" )
 )
 game (
 	name "Culdcept DS (Japan)"
@@ -9901,6 +10033,13 @@ game (
 	rom ( name "DS Uranai Seikatsu Taikenban - Iroirona Uranai o Tegaru ni Tanoshimu Hen (Japan) (Demo).bcn" size 856 crc F4AE66D4 md5 01BC9CCBB4E8F34007965CE763659D2A sha1 6C90B057F3572556C4DB0390F563E40C1ED4938A )
 )
 game (
+	name "DS Vitamin - Widaehan Bapsang - Malhaneun! Geongangyori Giljabi (Korea)"
+	description "DS Vitamin - Widaehan Bapsang - Malhaneun! Geongangyori Giljabi (Korea)"
+	region "Korea"
+	serial "YVKK"
+	rom ( name "DS Vitamin - Widaehan Bapsang - Malhaneun! Geongangyori Giljabi (Korea).nds" size 134217728 crc 34D94028 md5 C6E77C56B1A64C4D993CE21126559F6E sha1 8308D6865057615D60FD336FFD6901B3CF6DCA85 serial "YVKK" )
+)
+game (
 	name "DS Yamamura Misa Suspense - Maiko Kogiku, Kisha Catherine, Sougiya Ishihara Akiko - Koto ni Mau Hana Sanrin - Kyoto Satsujin Jiken File (Japan)"
 	description "DS Yamamura Misa Suspense - Maiko Kogiku, Kisha Catherine, Sougiya Ishihara Akiko - Koto ni Mau Hana Sanrin - Kyoto Satsujin Jiken File (Japan)"
 	region "Japan"
@@ -10029,6 +10168,13 @@ game (
 	region "Japan"
 	serial "A8RJ"
 	rom ( name "Daito Giken Koushiki Pachi-Slot Simulator Hihouden - Ossu! Banchou - Yoshimune DS (Japan).nds" size 67108864 crc 363A930B md5 4DAFD547F7B0A66B99DC1FF82148F0E0 sha1 6FE1C06493946AE92E3F7B6046D0884496942D17 serial "A8RJ" )
+)
+game (
+	name "Dance Floor (Europe) (En,Fr,De,Es,It,Nl,Pt)"
+	description "Dance Floor (Europe) (En,Fr,De,Es,It,Nl,Pt)"
+	region "Europe"
+	serial "CKJP"
+	rom ( name "Dance Floor (Europe) (En,Fr,De,Es,It,Nl,Pt).nds" size 33554432 crc 785F9BDA md5 3067439C7255FB28E9F0A7FF7C5647E2 sha1 781C2703D88BCFC7CDFCC922039929164CB2F894 serial "CKJP" )
 )
 game (
 	name "Dance! - It's Your Stage (Europe) (En,De) (NDSi Enhanced)"
@@ -10838,6 +10984,13 @@ game (
 	rom ( name "Digimon Championship (Japan).nds" size 67108864 crc EE377DD5 md5 E7952723B628C8A8A95BD92F89885CC9 sha1 E3AD520CBE39913EC61E0BFCFAFE4614F509E692 serial "YDIJ" )
 )
 game (
+	name "Digimon Championship (Korea)"
+	description "Digimon Championship (Korea)"
+	region "Korea"
+	serial "YDIK"
+	rom ( name "Digimon Championship (Korea).nds" size 67108864 crc 836EC256 md5 D2FAAF849EE693C80F7AAB9020BCE83D sha1 B5B4A59AA60EB171DF75DD422664C7B814411E98 serial "YDIK" )
+)
+game (
 	name "Digimon Story (Japan)"
 	description "Digimon Story (Japan)"
 	region "Japan"
@@ -11286,6 +11439,20 @@ game (
 	rom ( name "Diva Girls - Divas on Ice (USA) (En,Fr,Es).nds" size 67108864 crc 48864105 md5 AC4338E1CCC8F0EED888D8B2725127DE sha1 4EFC55D4D512E3C621CE157B43994006FDAC2DE7 serial "CI4E" )
 )
 game (
+	name "Diva Girls - Making the Music (Europe) (En,Fr,De,Es,It)"
+	description "Diva Girls - Making the Music (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CV5P"
+	rom ( name "Diva Girls - Making the Music (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc A21E6FBC md5 BCBB6A5E6103F8EEB907C229C3A7251D sha1 D2604019A980EC48D26593BE604A15B750D2F903 serial "CV5P" )
+)
+game (
+	name "Diva Girls - Princess on Ice 2 (Europe) (En,Fr,De,Es,It)"
+	description "Diva Girls - Princess on Ice 2 (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CI4P"
+	rom ( name "Diva Girls - Princess on Ice 2 (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc D1E20F6A md5 6F9C98128F15AE35F7D670807BB3D7C3 sha1 30B96E5CC70EB3B55FBD6BA1DE128B0FC7DEB01D serial "CI4P" )
+)
+game (
 	name "Doctor Who - Evacuation Earth (Europe)"
 	description "Doctor Who - Evacuation Earth (Europe)"
 	region "Europe"
@@ -11541,6 +11708,13 @@ game (
 	region "USA"
 	serial "BDPE"
 	rom ( name "Dora Puppy (USA).nds" size 8388608 crc 6931306E md5 C0B55503044E8391EF6FF6C354869941 sha1 9602BE2072A526893DD2037CCB764893D65A9A2B serial "BDPE" )
+)
+game (
+	name "Dora the Explorer - Dora Puppy (Europe)"
+	description "Dora the Explorer - Dora Puppy (Europe)"
+	region "Europe"
+	serial "BDPP"
+	rom ( name "Dora the Explorer - Dora Puppy (Europe).nds" size 8388608 crc F4E4D69B md5 23F4064666D2BC10D3EBD0282006758D sha1 006239EFEDA317AEC4DF0E0DC3631CAA85820DBF serial "BDPP" )
 )
 game (
 	name "Dora the Explorer - Dora Puppy (Europe) (En,Fr,Es,Nl)"
@@ -11908,6 +12082,13 @@ game (
 	rom ( name "Dragon Ball DS (Japan).nds" size 67108864 crc 4472F77A md5 BD6EAF866A1F11CD77453127E5C2269D sha1 DEA98536B7B6ACDF91A632DC68AFBD24D492B7E7 serial "CG7J" )
 )
 game (
+	name "Dragon Ball DS (Korea)"
+	description "Dragon Ball DS (Korea)"
+	region "Korea"
+	serial "CG7K"
+	rom ( name "Dragon Ball DS (Korea).nds" size 67108864 crc AB0B00CD md5 5CEC8238424D3EF09FC31429C39BFFDB sha1 AB45BC9467A3467F1A97C31C15FF574AF5F827E4 serial "CG7K" )
+)
+game (
 	name "Dragon Ball DS 2 - Totsugeki! Red Ribbon Gun (Japan)"
 	description "Dragon Ball DS 2 - Totsugeki! Red Ribbon Gun (Japan)"
 	region "Japan"
@@ -12193,10 +12374,11 @@ game (
 	rom ( name "Dragon Quest VI - Realms of Revelation (USA) (Video).nds" size 2614472 crc 6350D0C0 md5 DCA41B31B0E131EA36B6276233B3053E sha1 645F570C74A50AB99C9D2EFBEE5EBC8BEBBD17BA serial "NTRJ" )
 )
 game (
-	name "Dragon Quest VI - Realms of Reverie (Europe, Australia) (En,Fr,De,Es,It)"
-	description "Dragon Quest VI - Realms of Reverie (Europe, Australia) (En,Fr,De,Es,It)"
+	name "Dragon Quest VI - Realms of Reverie (Europe) (En,Fr,De,Es,It)"
+	description "Dragon Quest VI - Realms of Reverie (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
 	serial "YVIP"
-	rom ( name "Dragon Quest VI - Realms of Reverie (Europe, Australia) (En,Fr,De,Es,It).nds" size 134217728 crc 3400A901 md5 E555F9F14EE1753DD18CAA4507A07CBE sha1 D88784546981F19B1E67291613F8BE6B07F165F6 serial "YVIP" )
+	rom ( name "Dragon Quest VI - Realms of Reverie (Europe) (En,Fr,De,Es,It).nds" size 134217728 crc 3400A901 md5 E555F9F14EE1753DD18CAA4507A07CBE sha1 D88784546981F19B1E67291613F8BE6B07F165F6 serial "YVIP" )
 )
 game (
 	name "Dragon Tamer - Sound Spirit (Japan)"
@@ -12290,12 +12472,14 @@ game (
 game (
 	name "Drawn to Life (Unknown) (Beta 2)"
 	description "Drawn to Life (Unknown) (Beta 2)"
-	rom ( name "Drawn to Life (Unknown) (Beta 2).nds" size 12368584 crc 9D700742 md5 3DF2AAE12C2D2AC3BF8C7D9624F7F8BF sha1 F98CBF0DA09C9555212799282C1F10658046E676 )
+	serial "NTRJ"
+	rom ( name "Drawn to Life (Unknown) (Beta 2).nds" size 12368584 crc 9D700742 md5 3DF2AAE12C2D2AC3BF8C7D9624F7F8BF sha1 F98CBF0DA09C9555212799282C1F10658046E676 serial "NTRJ" )
 )
 game (
 	name "Drawn to Life (Unknown) (Beta) (Milestone 5)"
 	description "Drawn to Life (Unknown) (Beta) (Milestone 5)"
-	rom ( name "Drawn to Life (Unknown) (Beta) (Milestone 5).nds" size 11779108 crc 7B71779D md5 E2B0C9CDD70587E6C9B9BBA84DD1F421 sha1 FA36C42ED73F9709D5EBACFBDD640C27C9D6D15D )
+	serial "NTRJ"
+	rom ( name "Drawn to Life (Unknown) (Beta) (Milestone 5).nds" size 11779108 crc 7B71779D md5 E2B0C9CDD70587E6C9B9BBA84DD1F421 sha1 FA36C42ED73F9709D5EBACFBDD640C27C9D6D15D serial "NTRJ" )
 )
 game (
 	name "Drawn to Life (Unknown) (Beta) (Milestone 6, 2006-12-04)"
@@ -12819,10 +13003,10 @@ game (
 	rom ( name "Eco-Creatures - Save the Forest (USA).nds" size 16777216 crc 0FEB8275 md5 49F36083F2EDD6044F7855CCBE971865 sha1 124083270F90758EBE82FA1890B0EADF04F924F0 serial "AERE" )
 )
 game (
-	name "Eco-Creatures - Save the Forest (USA) (Demo) (Nintendo Channel)"
-	description "Eco-Creatures - Save the Forest (USA) (Demo) (Nintendo Channel)"
+	name "Eco-Creatures - Save the Forest (USA) (Demo) (DS Download Station, Nintendo Channel)"
+	description "Eco-Creatures - Save the Forest (USA) (Demo) (DS Download Station, Nintendo Channel)"
 	region "USA"
-	rom ( name "Eco-Creatures - Save the Forest (USA) (Demo) (Nintendo Channel).bcn" size 856 crc E8FBC6E5 md5 C099F1337221F0184B3841450529D611 sha1 54EC19668B821FDB886CE51BBBA2DD9578E3DC83 )
+	rom ( name "Eco-Creatures - Save the Forest (USA) (Demo) (DS Download Station, Nintendo Channel).bcn" size 856 crc E8FBC6E5 md5 C099F1337221F0184B3841450529D611 sha1 54EC19668B821FDB886CE51BBBA2DD9578E3DC83 )
 )
 game (
 	name "Ecolis (Japan)"
@@ -13199,6 +13383,13 @@ game (
 	rom ( name "Elebits - Kai to Zero no Fushigi na Tabi (Japan).nds" size 67108864 crc BEB8C0F9 md5 B704FE748BE15BB11AFF4BEA7455E60E sha1 3DF8054BD4C809456E24B0E4F86710E9183F2BAD serial "YERJ" )
 )
 game (
+	name "Elebits - Kaiwa Zeroui Sinbihan Yeohaeng (Korea)"
+	description "Elebits - Kaiwa Zeroui Sinbihan Yeohaeng (Korea)"
+	region "Korea"
+	serial "YERK"
+	rom ( name "Elebits - Kaiwa Zeroui Sinbihan Yeohaeng (Korea).nds" size 67108864 crc E0234AC4 md5 43D53F38C01601800BA1C16C43E046DD sha1 AD7FC23F4A753403753C85F097E0DA4321B8B5B3 serial "YERK" )
+)
+game (
 	name "Elebits - The Adventures of Kai and Zero (USA) (Demo)"
 	description "Elebits - The Adventures of Kai and Zero (USA) (Demo)"
 	region "USA"
@@ -13280,6 +13471,13 @@ game (
 	region "Japan"
 	serial "BELJ"
 	rom ( name "Element Hunters (Japan).nds" size 33554432 crc 3C83E73B md5 698165481C34F41EDE97FA9FFB37C92D sha1 6A259AA20F986BEA90776BA20DC4118E999CA920 serial "BELJ" )
+)
+game (
+	name "Element Hunters (Korea)"
+	description "Element Hunters (Korea)"
+	region "Korea"
+	serial "BELK"
+	rom ( name "Element Hunters (Korea).nds" size 33554432 crc 01CB6327 md5 F335D08647E48B3ADAEE9B645BE73AFA sha1 858DE2F82A8A32811CC3D16FB2E846D6E5343C27 serial "BELK" )
 )
 game (
 	name "Elemental Monster - Itsu Hashira Gami no Nazo (Japan)"
@@ -13660,6 +13858,13 @@ game (
 	rom ( name "Entraineur Cerebral, L' - Kids (France).nds" size 16777216 crc DB869F46 md5 42CE8995CECCBB28DE41594BEDE025F7 sha1 A51DFE1EDD8DC1F5ED160A8660DC05E1880DAA8B serial "CI9F" )
 )
 game (
+	name "Equestrian Training (Europe)"
+	description "Equestrian Training (Europe)"
+	region "Europe"
+	serial "YGAP"
+	rom ( name "Equestrian Training (Europe).nds" size 16777216 crc 936BFCAF md5 6C4BF84AF1B2C19C4C593C9CD7F584C5 sha1 4D060927CB4A1DE91568A326A6BB81A362083F57 serial "YGAP" )
+)
+game (
 	name "Equitation - Galops 1 a 4 (France)"
 	description "Equitation - Galops 1 a 4 (France)"
 	region "France"
@@ -13831,7 +14036,7 @@ game (
 	description "FIFA 06 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	serial "AF6P"
-	rom ( name "FIFA 06 (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc DCA2BFEA md5 9C37085A7D887759619E32D2F1C124C2 sha1 F3E928F416D40F9D4D9CA89426A016D92494A7A8 serial "AF6P" )
+	rom ( name "FIFA 06 (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc 75931EDF md5 7A74CDA818339F6BF985085631D686B1 sha1 9691B31AA06626CD50AA441A5B8C1F6D8E6D5B22 serial "AF6P" )
 )
 game (
 	name "FIFA 07 (Europe) (En,Fr,De,Es,It,Nl)"
@@ -13869,11 +14074,25 @@ game (
 	rom ( name "FIFA 09 (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 1B5A2CA0 md5 4B18367898742FF74DB2383C79E2E1E3 sha1 478F0FC75EBF4BD43FA57F30BB111DE679327830 serial "CF9P" )
 )
 game (
+	name "FIFA 09 (Korea)"
+	description "FIFA 09 (Korea)"
+	region "Korea"
+	serial "CF9K"
+	rom ( name "FIFA 09 (Korea).nds" size 33554432 crc 5698E3F0 md5 4161E541C9E7ED68354B4BED09F9E1B8 sha1 14A78D3FFC160669B914645F05CA1464FBF96505 serial "CF9K" )
+)
+game (
 	name "FIFA 10 (Europe) (En,Fr,De,Es,It)"
 	description "FIFA 10 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "BFAP"
 	rom ( name "FIFA 10 (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 5C97092E md5 B2D00241696D99116AC6791D021E8195 sha1 816B4E3F74AD54EEDFB5C322982D1ACC4F84BCEF serial "BFAP" )
+)
+game (
+	name "FIFA 10 (Korea)"
+	description "FIFA 10 (Korea)"
+	region "Korea"
+	serial "BFAK"
+	rom ( name "FIFA 10 (Korea).nds" size 33554432 crc 9F87BE3B md5 6903F1A491E3B01FD97939CC37464606 sha1 DFB553AA4E66102BE90771E7BF816A96954F8887 serial "BFAK" )
 )
 game (
 	name "FIFA 11 (Europe) (En,Fr,De,Es,It) (NDSi Enhanced)"
@@ -14240,6 +14459,13 @@ game (
 	rom ( name "Ferrari Challenge - Trofeo Pirelli - European Series (Europe) (En,Fr,De,Es,It).nds" size 16777216 crc 4E6738A5 md5 057EB87BC4F4AFF6FA39F2DC3692C415 sha1 FD20EACFF05C0861B8798DD0BDD6DBF5EE3EADD7 serial "YFRP" )
 )
 game (
+	name "Fifi and the Flowertots (Europe)"
+	description "Fifi and the Flowertots (Europe)"
+	region "Europe"
+	serial "C53P"
+	rom ( name "Fifi and the Flowertots (Europe).nds" size 8388608 crc 0D4C8F39 md5 523E098BABBA83117965F1A6DB51F517 sha1 0D2DF6A3EB0BD575B784BE7BA8D593C24C930D41 serial "C53P" )
+)
+game (
 	name "Fifi and the Flowertots - Fifi's Garden Party (Europe)"
 	description "Fifi and the Flowertots - Fifi's Garden Party (Europe)"
 	region "Europe"
@@ -14259,6 +14485,13 @@ game (
 	region "Korea"
 	serial "BQPK"
 	rom ( name "Figure Princess - Dugeundugeun Skating - Geum-medaleul Noryeora! (Korea).nds" size 67108864 crc 4C833FA7 md5 193924B0A220AED244D5035D41AEF6B1 sha1 0209A435B22D2FB821DFBCC28E91459B91DA9F31 serial "BQPK" )
+)
+game (
+	name "Figure Skating - Eunban wiui Yojeong (Korea)"
+	description "Figure Skating - Eunban wiui Yojeong (Korea)"
+	region "Korea"
+	serial "AFQK"
+	rom ( name "Figure Skating - Eunban wiui Yojeong (Korea).nds" size 67108864 crc 95F803DA md5 25EB97F5DECF3519FC5E370983B4D65A sha1 F904ED971254C3AA7ACA3340DF7673A2EB37C402 serial "AFQK" )
 )
 game (
 	name "Final Fantasy - The 4 Heroes of Light (Europe)"
@@ -15969,6 +16202,13 @@ game (
 	rom ( name "General Knowledge for Dummies (Europe) (En,Fr,De).nds" size 16777216 crc 45635789 md5 534B90DE1904EF0118CC882B6524C2EB sha1 F5A8325429A75FD3827C5A5407FB70392D34CD8F serial "BGKP" )
 )
 game (
+	name "General Knowledge for Dummies (Europe) (En,Fr,De) (Beta)"
+	description "General Knowledge for Dummies (Europe) (En,Fr,De) (Beta)"
+	region "Europe"
+	serial "BGKP"
+	rom ( name "General Knowledge for Dummies (Europe) (En,Fr,De) (Beta).nds" size 16777216 crc 4C8A618F md5 814D6FF01A6FB40092AA8ADFD337EEFA sha1 B2D2EFFF971CBBB057444BA04A6568F81412D12D serial "BGKP" )
+)
+game (
 	name "Generator Rex - Agent of Providence (Europe) (En,Fr,De,Es,It)"
 	description "Generator Rex - Agent of Providence (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -16109,11 +16349,25 @@ game (
 	rom ( name "Gesundheits Coach, Der - Wohlfuehlen Jeden Tag (Germany).nds" size 16777216 crc A64B50A4 md5 7B572FAFDB177686A8AAA297463A1B5E sha1 2E3DF00141EF9B53E88386DB8A7F03BBF62E0BF4 serial "BD5D" )
 )
 game (
+	name "Geurigo, Malhago, Sijakaja! - Monster Farm DS (Korea)"
+	description "Geurigo, Malhago, Sijakaja! - Monster Farm DS (Korea)"
+	region "Korea"
+	serial "AFMK"
+	rom ( name "Geurigo, Malhago, Sijakaja! - Monster Farm DS (Korea).nds" size 67108864 crc C0E29E4D md5 EE1ABAA2ACA797FE3AF221A0D186357F sha1 59E576EEDAC266FD6EF30FBAA694B6011F4B9EA6 serial "AFMK" )
+)
+game (
 	name "Geuryeora, Touch! - Naega Mandeuneun Sesang (Korea)"
 	description "Geuryeora, Touch! - Naega Mandeuneun Sesang (Korea)"
 	region "Korea"
 	serial "YDWK"
 	rom ( name "Geuryeora, Touch! - Naega Mandeuneun Sesang (Korea).nds" size 33554432 crc CC84254C md5 E3115135163061D9DA6B28D2086D745B sha1 18A53CA78DF465C4F7DC0D7F30D680BFD8779953 serial "YDWK" )
+)
+game (
+	name "Geuryeora, Touch! - SpongeBob Nemobaji (Korea)"
+	description "Geuryeora, Touch! - SpongeBob Nemobaji (Korea)"
+	region "Korea"
+	serial "CDLK"
+	rom ( name "Geuryeora, Touch! - SpongeBob Nemobaji (Korea).nds" size 33554432 crc A6FE53C9 md5 E0FC4ED901923E5C2A9D82BD45590B4E sha1 58F976A95C7C92CA6DCF52B2F31CFF6CBE74944E serial "CDLK" )
 )
 game (
 	name "Ghost Trick (Japan)"
@@ -16205,6 +16459,13 @@ game (
 	region "USA"
 	serial "BZIE"
 	rom ( name "Giana Sisters DS (USA).nds" size 8388608 crc 33FB6E3E md5 30E4FECC19BE66BA6BF3D64269E7C5DC sha1 E958947A0EB7EA989168D0A060119ECD97361B11 serial "BZIE" )
+)
+game (
+	name "Gijeogui 100-kan Gyesanbeop (Korea)"
+	description "Gijeogui 100-kan Gyesanbeop (Korea)"
+	region "Korea"
+	serial "YX2K"
+	rom ( name "Gijeogui 100-kan Gyesanbeop (Korea).nds" size 8388608 crc 0BB26157 md5 40CB7B829F862B4DF732E9EEB684FAE1 sha1 AD5E090925CE2E29E9D91723372299FC22FCB0D9 serial "YX2K" )
 )
 game (
 	name "Gijutsu Hyouronsha Kanshuu - Kihonjouhou Gijutsusha DS (Japan)"
@@ -16979,6 +17240,13 @@ game (
 	rom ( name "Guitar Hero - On Tour (Japan).nds" size 134217728 crc 2DD68AF2 md5 BAD83690340980387C722C7782F8AC6F sha1 A35627E3C412239A8DC866B0DA2F5501F3803A77 serial "YGHJ" )
 )
 game (
+	name "Guitar Hero - On Tour (Korea)"
+	description "Guitar Hero - On Tour (Korea)"
+	region "Korea"
+	serial "YGHK"
+	rom ( name "Guitar Hero - On Tour (Korea).nds" size 134217728 crc 4A0AB07E md5 2C13EAFA0A1D4EB641C81E4C8E3B91A2 sha1 BAD4E8F7DEA3518C2115FBB208A2970927A7590E serial "YGHK" )
+)
+game (
 	name "Guitar Hero - On Tour (USA) (Demo) (Kiosk)"
 	description "Guitar Hero - On Tour (USA) (Demo) (Kiosk)"
 	region "USA"
@@ -17019,6 +17287,13 @@ game (
 	region "Europe"
 	serial "Y56X"
 	rom ( name "Guitar Hero - On Tour - Decades (Europe) (Fr,De,Es,It) (Demo) (Kiosk).nds" size 67108864 crc 54944EEB md5 B9494F6F5A241FF08EC2239E11BC1B08 sha1 509774B2107673C4674EF0B5D58BD8BB34F499FC serial "Y56X" )
+)
+game (
+	name "Guitar Hero - On Tour - Decades (Korea)"
+	description "Guitar Hero - On Tour - Decades (Korea)"
+	region "Korea"
+	serial "CGSK"
+	rom ( name "Guitar Hero - On Tour - Decades (Korea).nds" size 134217728 crc B8CA18A9 md5 B435375D6407453F394A977777930A20 sha1 259BB3945B21010D7B4C0D7AB2613C85B87C6EB3 serial "CGSK" )
 )
 game (
 	name "Guitar Hero - On Tour - Decades (USA) (En,Fr)"
@@ -17738,6 +18013,13 @@ game (
 	region "Germany"
 	serial "CH6D"
 	rom ( name "Harry Potter und der Halbblut-Prinz (Germany).nds" size 67108864 crc 1F8C1C11 md5 732F882E586BB0880D697ACBCE578965 sha1 8713560931827DB04D70D0AAB6B9B84FE08EFA7E serial "CH6D" )
+)
+game (
+	name "Harry Potterwa Honhyeorwangja (Korea)"
+	description "Harry Potterwa Honhyeorwangja (Korea)"
+	region "Korea"
+	serial "CH6K"
+	rom ( name "Harry Potterwa Honhyeorwangja (Korea).nds" size 67108864 crc 0BA6953F md5 FEA77EC48A3A2267B6EF038DCA0065D9 sha1 98E0E7948C55482F603A8F62074C9BFEF6B2AD67 serial "CH6K" )
 )
 game (
 	name "Harvest Fishing (Europe) (En,Fr,De,Es,It)"
@@ -18795,6 +19077,13 @@ game (
 	rom ( name "Horse Life - Adventures (USA) (En,Fr,Es).nds" size 33554432 crc F6107EC4 md5 5814AB68F71C270171DD201C2A28C630 sha1 9F0C99F438FE73E54FFFDB3BC355160478D51C1C serial "CHFE" )
 )
 game (
+	name "Horseland (Europe) (En,De,Nl,Sv)"
+	description "Horseland (Europe) (En,De,Nl,Sv)"
+	region "Europe"
+	serial "CH8P"
+	rom ( name "Horseland (Europe) (En,De,Nl,Sv).nds" size 33554432 crc 05D4DF5A md5 5AC4FD7EA71333AB6F3BEFDADC8DE922 sha1 FF452A04A032FF1C44F1358D017842E72B4C1507 serial "CH8P" )
+)
+game (
 	name "Horsez (USA) (En,Fr,Es)"
 	description "Horsez (USA) (En,Fr,Es)"
 	region "USA"
@@ -18976,6 +19265,13 @@ game (
 	rom ( name "Hotel Dusk - Room 215 (USA) (Video).nds" size 2611400 crc 3E8ED16A md5 E0238119A80CB903375AD016BF2E5EED sha1 52B4F04A8CDB944549FEDC209740C98DA0BE01E6 serial "NTRJ" )
 )
 game (
+	name "Hotel Duskui Bimil (Korea)"
+	description "Hotel Duskui Bimil (Korea)"
+	region "Korea"
+	serial "AWIK"
+	rom ( name "Hotel Duskui Bimil (Korea).nds" size 134217728 crc 3F3BE0C6 md5 246EE69A08DBA4C0B98EE1EA027B5F13 sha1 11816EB179E5EA57B39E6C503293EDFED7E9F57B serial "AWIK" )
+)
+game (
 	name "Hotel Giant DS (Europe) (En,Fr,De,Es,It)"
 	description "Hotel Giant DS (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -19030,6 +19326,12 @@ game (
 	region "Japan"
 	serial "CHLJ"
 	rom ( name "Hottarake no Shima - Kanata to Nijiiro no Kagami (Japan) (Rev 1).nds" size 67108864 crc C12F2A71 md5 636C7F152CC65939DCCBD4870C3B60FB sha1 78DCD7BD3A0E70387809F0B9859FAB3C6D28B7B1 serial "CHLJ" )
+)
+game (
+	name "Hottarake no Shima - Kanata to Nijiiro no Kagami - Taikenban (Japan) (Demo)"
+	description "Hottarake no Shima - Kanata to Nijiiro no Kagami - Taikenban (Japan) (Demo)"
+	region "Japan"
+	rom ( name "Hottarake no Shima - Kanata to Nijiiro no Kagami - Taikenban (Japan) (Demo).bcn" size 856 crc 0F250DA3 md5 669CD104D8E8421ADC546A572A81ED46 sha1 FA5760BAB7908FF6856AD909FB6C2080EDA364C2 )
 )
 game (
 	name "Houkago Mystery Club - 26 no Tobira (Japan)"
@@ -19186,6 +19488,13 @@ game (
 	rom ( name "Hurry Up Hedgehog! (USA).nds" size 8388608 crc DA68B34C md5 57F1AE27DDE53CB1E45B68252B03D025 sha1 C45960085CE15BDE7F0ED1E877B5B82A6B0BDFE7 serial "YHUE" )
 )
 game (
+	name "Hwansangsuhojeon - Tierkreis (Korea)"
+	description "Hwansangsuhojeon - Tierkreis (Korea)"
+	region "Korea"
+	serial "YG4K"
+	rom ( name "Hwansangsuhojeon - Tierkreis (Korea).nds" size 268435456 crc 00038342 md5 D66DEAADAA68460D196B15C5C9161AEA sha1 8E10DFE3D5631657D65D8DBF9914EFFF0C787F40 serial "YG4K" )
+)
+game (
 	name "Hysteria Hospital - Emergency Ward (Europe) (En,Fr,De,Es,It)"
 	description "Hysteria Hospital - Emergency Ward (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -19219,6 +19528,13 @@ game (
 	region "Europe"
 	serial "A2IP"
 	rom ( name "I Did It Mum! - Girl (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 26FDB294 md5 C8100C81DC15F699D50EACA5D6456906 sha1 E592C6A1C93F9112764431195ADF65B46295A5A9 serial "A2IP" )
+)
+game (
+	name "I Did It Mum! - Picture Book (Europe) (En,Fr,De,Es,It)"
+	description "I Did It Mum! - Picture Book (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "AVIP"
+	rom ( name "I Did It Mum! - Picture Book (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 94A3B2AA md5 21267FD0A28F3546DD66AB17C833ED6A sha1 E4353ED85D04EAE863A398625FCDBBCD53C4FB7B serial "AVIP" )
 )
 game (
 	name "I Did It Mum! 2 - Boy (Europe) (En,Fr,De,Es,It)"
@@ -20665,6 +20981,13 @@ game (
 	rom ( name "Izuna 2 - The Unemployed Ninja Returns (USA).nds" size 67108864 crc D98F38E6 md5 7F380805B72616A7FB45144213EB2AE9 sha1 C21141BCB1E1B93B59CA7F30F930E3D86A980C39 serial "YIZE" )
 )
 game (
+	name "J'Apprends l'Anglais CP-CM1 (Europe) (Fr,It)"
+	description "J'Apprends l'Anglais CP-CM1 (Europe) (Fr,It)"
+	region "Europe"
+	serial "CLEY"
+	rom ( name "J'Apprends l'Anglais CP-CM1 (Europe) (Fr,It).nds" size 67108864 crc 4E7EAEF6 md5 14044B4E81105B35736F00CD355C6781 sha1 8635BD6CCE7C0543BFDEC10E9CBE467F594E9FC8 serial "CLEY" )
+)
+game (
 	name "J4G - A Girl's World (Europe) (En,De)"
 	description "J4G - A Girl's World (Europe) (En,De)"
 	region "Europe"
@@ -20925,6 +21248,13 @@ game (
 	rom ( name "Jane's Hotel (USA) (En,Fr,Es).nds" size 16777216 crc 6C87F0A6 md5 2D51701F76DE4F63D3810616C01A09EC sha1 32451605ABE3AE2CACD9858A9E4F6331B1EE2058 serial "BJAE" )
 )
 game (
+	name "Jelly Belly - Ballistic Beans! (Europe) (En,Fr,De,Es,It)"
+	description "Jelly Belly - Ballistic Beans! (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CJJP"
+	rom ( name "Jelly Belly - Ballistic Beans! (Europe) (En,Fr,De,Es,It).nds" size 8388608 crc 025B3661 md5 78721673889C39B63BACF68696C33C42 sha1 AE5459881BD94AB10119220400D3497A833B7143 serial "CJJP" )
+)
+game (
 	name "Jelly Belly - Ballistic Beans! (USA) (En,Fr,Es)"
 	description "Jelly Belly - Ballistic Beans! (USA) (En,Fr,Es)"
 	region "USA"
@@ -20944,6 +21274,20 @@ game (
 	region "USA"
 	serial "YJEE"
 	rom ( name "Jenga - World Tour (USA).nds" size 16777216 crc 6243CA3D md5 42325D017DB1AE510D7B76D579E35E14 sha1 6AEB09318F71B1C44463D5B6818DF8CE0748C61F serial "YJEE" )
+)
+game (
+	name "Jeoldaepiryo - Yeongsugeo 1000 DS (Korea)"
+	description "Jeoldaepiryo - Yeongsugeo 1000 DS (Korea)"
+	region "Korea"
+	serial "YEOK"
+	rom ( name "Jeoldaepiryo - Yeongsugeo 1000 DS (Korea).nds" size 67108864 crc 95BC11FE md5 B41CC94C365B9A96783CE9132313EB0A sha1 D2C3AA952D0BCD40B3EC12CC444415784D204C28 serial "YEOK" )
+)
+game (
+	name "Jeoldaeuwi - Yeongdaneo 1900 DS (Korea)"
+	description "Jeoldaeuwi - Yeongdaneo 1900 DS (Korea)"
+	region "Korea"
+	serial "YE9K"
+	rom ( name "Jeoldaeuwi - Yeongdaneo 1900 DS (Korea).nds" size 67108864 crc CCEE6FA0 md5 7517AC6506D8E8664F33F707ED7068F1 sha1 B752F3E6C9DDFA6B4B79949454F9F3621DEDA0BE serial "YE9K" )
 )
 game (
 	name "Jeongukmin Model Audition Superstar DS (Korea)"
@@ -21597,6 +21941,13 @@ game (
 	rom ( name "Jjangguneun Monmallyeo - Buriburi - Tteogip Maeul Daemoheom! (Korea).nds" size 67108864 crc FB0601E7 md5 2A2FA4392AA70CC2685A62959557CFA9 sha1 80E85DF54D1001A326BA86A79CB0A655BCE9C290 serial "BQBK" )
 )
 game (
+	name "Jjangguneun Monmallyeo - Cinemaland Chalkak Chalkak Daesodong! (Korea)"
+	description "Jjangguneun Monmallyeo - Cinemaland Chalkak Chalkak Daesodong! (Korea)"
+	region "Korea"
+	serial "YRCK"
+	rom ( name "Jjangguneun Monmallyeo - Cinemaland Chalkak Chalkak Daesodong! (Korea).nds" size 134217728 crc 0838B23D md5 747995D6EE6B2B270D780893A2F194C4 sha1 0D47F173CCE9AB0723440F62750C6796FF9FE3A3 serial "YRCK" )
+)
+game (
 	name "Jjangguneun Monmallyeo - Mallangmallang Gomuchalheuk Daebyeonsin! (Korea)"
 	description "Jjangguneun Monmallyeo - Mallangmallang Gomuchalheuk Daebyeonsin! (Korea)"
 	region "Korea"
@@ -21609,6 +21960,13 @@ game (
 	region "Korea"
 	serial "BUCK"
 	rom ( name "Jjangguneun Monmallyeo - Won Peulleoseu Won! - Shock Seong Land Daegyeoljeon!! (Korea).nds" size 67108864 crc CE8A5B6E md5 97312ACF25651E2F33911819395B8A57 sha1 59841BB672B85D89EF3326A246DF6C34ED547449 serial "BUCK" )
+)
+game (
+	name "Jjangguneun Monmallyeo - Won Peulleoseu Won! - Shock Seong Land Daegyeoljeon!! (Korea) (Rev 1)"
+	description "Jjangguneun Monmallyeo - Won Peulleoseu Won! - Shock Seong Land Daegyeoljeon!! (Korea) (Rev 1)"
+	region "Korea"
+	serial "BUCK"
+	rom ( name "Jjangguneun Monmallyeo - Won Peulleoseu Won! - Shock Seong Land Daegyeoljeon!! (Korea) (Rev 1).nds" size 67108864 crc 185D7679 md5 9316F480FF463D62FC8D127A1470894C sha1 67503A41C11970E0C9AA53E6CC3FD58BF05B3562 serial "BUCK" )
 )
 game (
 	name "Jjangguneun Monmallyeo DS - Alssongdalssong Crayon Daejakjeon! (Korea)"
@@ -24482,6 +24840,13 @@ game (
 	rom ( name "LEGO Star Wars - The Complete Saga (USA).nds" size 67108864 crc 30585C28 md5 CA75C768DCC34AB590E60DF86D878D0B sha1 D4AAA1C24AB6EB731F685CECDE053D353919C391 serial "YLGE" )
 )
 game (
+	name "LEGO Star Wars II - The Original Trilogy (Europe) (DS Broadcast) (Multiplayer)"
+	description "LEGO Star Wars II - The Original Trilogy (Europe) (DS Broadcast) (Multiplayer)"
+	region "Europe"
+	serial "NTRJ"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (Europe) (DS Broadcast) (Multiplayer).nds" size 2801864 crc 5D289327 md5 D87316FAFEB17BD3343531886A473E1D sha1 7CE0BBA42539932B0B101EC47F168DF39E5AE164 serial "NTRJ" )
+)
+game (
 	name "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Es,It,Da)"
 	description "LEGO Star Wars II - The Original Trilogy (Europe) (En,Fr,De,Es,It,Da)"
 	region "Europe"
@@ -24496,6 +24861,13 @@ game (
 	rom ( name "LEGO Star Wars II - The Original Trilogy (Japan).nds" size 33554432 crc 4B2B3862 md5 01CBED3E5C61F3EF74651D36208E793D sha1 47FEC9A5F390F512364695277B97BFB5869536D2 serial "AL7J" )
 )
 game (
+	name "LEGO Star Wars II - The Original Trilogy (Japan) (En) (DS Broadcast) (Multiplayer)"
+	description "LEGO Star Wars II - The Original Trilogy (Japan) (En) (DS Broadcast) (Multiplayer)"
+	region "Japan"
+	serial "NTRJ"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (Japan) (En) (DS Broadcast) (Multiplayer).nds" size 2760392 crc 57BC8496 md5 E570E1DC7C7334776E6BACE4D6D4E4CA sha1 43F223D5530BED3F9B2EB53CF9C5B36951DD5C5F serial "NTRJ" )
+)
+game (
 	name "LEGO Star Wars II - The Original Trilogy (USA)"
 	description "LEGO Star Wars II - The Original Trilogy (USA)"
 	region "USA"
@@ -24503,11 +24875,31 @@ game (
 	rom ( name "LEGO Star Wars II - The Original Trilogy (USA).nds" size 33554432 crc 6F4D9CBC md5 1F875D6BE9D95EE6767270E6A191EE1A sha1 7C1AFA070797945BA5A2577C7DDFDED5CF2FC443 serial "AL7E" )
 )
 game (
+	name "LEGO Star Wars II - The Original Trilogy (USA) (DS Broadcast) (Multiplayer)"
+	description "LEGO Star Wars II - The Original Trilogy (USA) (DS Broadcast) (Multiplayer)"
+	region "USA"
+	serial "NTRJ"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (USA) (DS Broadcast) (Multiplayer).nds" size 2781896 crc BBF7B9B4 md5 A2796A3D3F43AB9996BB49E3E750D57B sha1 A232C1971E7A69C521E348DF1213E67AE3E98D70 serial "NTRJ" )
+)
+game (
 	name "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1)"
 	description "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1)"
 	region "USA"
 	serial "AL7E"
 	rom ( name "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1).nds" size 33554432 crc 5A3EB1E7 md5 1DA0BCCC00401DD8705C9340F5674A8B sha1 96AA30DECEA732EB03F7DA01E489C6CE576536A5 serial "AL7E" )
+)
+game (
+	name "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1) (DS Broadcast) (Multiplayer)"
+	description "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1) (DS Broadcast) (Multiplayer)"
+	region "USA"
+	serial "NTRJ"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (USA) (Rev 1) (DS Broadcast) (Multiplayer).nds" size 2795720 crc 0850BC56 md5 64B8AF5DC92D7C84890DD171EA1523BE sha1 F33B5F3D55D0F6BC01491E31C9CCABB439244A19 serial "NTRJ" )
+)
+game (
+	name "LEGO Star Wars II - The Original Trilogy (World) (Beta) (DS Broadcast) (Multiplayer)"
+	description "LEGO Star Wars II - The Original Trilogy (World) (Beta) (DS Broadcast) (Multiplayer)"
+	serial "NTRJ"
+	rom ( name "LEGO Star Wars II - The Original Trilogy (World) (Beta) (DS Broadcast) (Multiplayer).nds" size 2480840 crc 25E6DC68 md5 DD35B9D6BBD32F79A93EEF2E331B7551 sha1 8ED49BA46626885B6EE6B169B1F1AD12E4A491FF serial "NTRJ" )
 )
 game (
 	name "LEGO Star Wars III - The Clone Wars (Europe) (En,Fr,De,Es,It,Da)"
@@ -24685,6 +25077,27 @@ game (
 	rom ( name "Last Window - The Secret of Cape West (Europe) (En,Fr,De,Es,It).nds" size 134217728 crc 33396352 md5 7F83E14DEC475C0AC6E60F4A1B26B607 sha1 1DEE9BBFD7F18AABA6CCBF9E203027F83A6EC83D serial "YLUP" )
 )
 game (
+	name "Layton Gyosuwa Angmaui Sangja (Korea)"
+	description "Layton Gyosuwa Angmaui Sangja (Korea)"
+	region "Korea"
+	serial "YLTK"
+	rom ( name "Layton Gyosuwa Angmaui Sangja (Korea).nds" size 134217728 crc DC3359E6 md5 B6A82AF99EA272DFCB6685C145AA2E78 sha1 694B359DC8A942F30C4AF0E1DEAA740FCB594DB2 serial "YLTK" )
+)
+game (
+	name "Layton Gyosuwa Isanghan Maeul (Korea)"
+	description "Layton Gyosuwa Isanghan Maeul (Korea)"
+	region "Korea"
+	serial "A5FK"
+	rom ( name "Layton Gyosuwa Isanghan Maeul (Korea).nds" size 67108864 crc 41CBE77A md5 3167591FEC8FDCC56F7A86BECBF4783F sha1 D5501992FE34CBD11F6605A784EF039E6DC7E0AE serial "A5FK" )
+)
+game (
+	name "Layton Gyosuwa Isanghan Maeul (Korea) (Rev 1)"
+	description "Layton Gyosuwa Isanghan Maeul (Korea) (Rev 1)"
+	region "Korea"
+	serial "A5FK"
+	rom ( name "Layton Gyosuwa Isanghan Maeul (Korea) (Rev 1).nds" size 67108864 crc 19D74E6B md5 8FDDAD31D88A921A3AA100D11AFE1087 sha1 54B83C28AF9FF1813FDBB493594FA7886FF64722 serial "A5FK" )
+)
+game (
 	name "Layton Kyouju to Akuma no Hako (Japan)"
 	description "Layton Kyouju to Akuma no Hako (Japan)"
 	region "Japan"
@@ -24802,6 +25215,13 @@ game (
 	region "Europe"
 	serial "UZPP"
 	rom ( name "Learn with Pokemon - Typing Adventure (Europe).nds" size 134217728 crc 73D4AD7A md5 99655F755F06C3CA400BB9E080D25231 sha1 45184EC8998CA6FE4641DF154820AD6923B7DB1F serial "UZPP" )
+)
+game (
+	name "Learning Maths (Europe) (En,Fr,It)"
+	description "Learning Maths (Europe) (En,Fr,It)"
+	region "Europe"
+	serial "CLGY"
+	rom ( name "Learning Maths (Europe) (En,Fr,It).nds" size 67108864 crc 68123F3F md5 F6366C7610B7B1DF36E3CB997B776175 sha1 3F5E5E86D8D3EDE9376A5D30A577D6E553833A44 serial "CLGY" )
 )
 game (
 	name "Learning To Spell (USA)"
@@ -25677,6 +26097,13 @@ game (
 	rom ( name "Littlest Pet Shop - City Friends (USA) (En,Fr,Es).nds" size 67108864 crc 21B2A4A7 md5 32DF3490DE21A06D653865983A1072DB sha1 BB93259A07EFC7394DAB68CB4E3B9B665425EC79 serial "BLCE" )
 )
 game (
+	name "Littlest Pet Shop - Country Friends (Europe) (En,Fr,De,Es,Nl,Pt,Sv,No,Da,Fi)"
+	description "Littlest Pet Shop - Country Friends (Europe) (En,Fr,De,Es,Nl,Pt,Sv,No,Da,Fi)"
+	region "Europe"
+	serial "BLDP"
+	rom ( name "Littlest Pet Shop - Country Friends (Europe) (En,Fr,De,Es,Nl,Pt,Sv,No,Da,Fi).nds" size 67108864 crc F6ABCF2C md5 1B65B96C15F56CEC2ED964719313D2B2 sha1 776E6D379271CF637C83E30B46F7969932B82997 serial "BLDP" )
+)
+game (
 	name "Littlest Pet Shop - Country Friends (USA) (En,Fr,Es)"
 	description "Littlest Pet Shop - Country Friends (USA) (En,Fr,Es)"
 	region "USA"
@@ -25689,6 +26116,13 @@ game (
 	region "Europe"
 	serial "CPSP"
 	rom ( name "Littlest Pet Shop - Garden (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi,Pl,Cs).nds" size 67108864 crc D879D290 md5 0F37C18A547DD90E16AE40EF82B8E4C2 sha1 F0B9BF9D5F37370B9B252428B18A41F30102B17E serial "CPSP" )
+)
+game (
+	name "Littlest Pet Shop - Garden (Korea)"
+	description "Littlest Pet Shop - Garden (Korea)"
+	region "Korea"
+	serial "CPSK"
+	rom ( name "Littlest Pet Shop - Garden (Korea).nds" size 67108864 crc 37DD657D md5 503CC41FAB99B0C4849412A2DC47800E sha1 9E8B8B4D9FFB178A3554E4F9056AA2BE50B90CD3 serial "CPSK" )
 )
 game (
 	name "Littlest Pet Shop - Garden (USA) (En,Fr,Es)"
@@ -25821,7 +26255,7 @@ game (
 	description "Lock's Quest (USA) (Beta) (REV2751)"
 	region "USA"
 	serial "CSPE"
-	rom ( name "Lock's Quest (USA) (Beta) (REV2751).nds" size 268435456 crc DD42C800 md5 3878FB33A1EDD44AEC8EC4291A115E54 sha1 67E4919572AB149711C437A9D546E325028CC66A serial "CSPE" )
+	rom ( name "Lock's Quest (USA) (Beta) (REV2751).nds" size 33554432 crc 48820A74 md5 A1AABD553D92EC8C23B30035B2F4CD2D sha1 4DB7FC7D768C3AD163B0C280E8069E00C432FB9A serial "CSPE" )
 )
 game (
 	name "Lock's Quest (USA) (En,Fr)"
@@ -25835,7 +26269,7 @@ game (
 	description "Lock's Quest (USA) (En,Fr) (Beta) (REV1852)"
 	region "USA"
 	serial "CSPE"
-	rom ( name "Lock's Quest (USA) (En,Fr) (Beta) (REV1852).nds" size 268435456 crc 5BEB776A md5 314EA34C842559CE7766E955AD44581E sha1 D0CD55FDBE1A319D2FC12A677EBA4A61F1478FA8 serial "CSPE" )
+	rom ( name "Lock's Quest (USA) (En,Fr) (Beta) (REV1852).nds" size 33554432 crc BA009491 md5 22306E4BAEBA3D432FB55D03F51256C2 sha1 623A0341A4ECC6652D9DD060208090131DD31500 serial "CSPE" )
 )
 game (
 	name "Lock's Quest - Shinmai Archineer no Hyakunichi Sensou (Japan)"
@@ -26457,6 +26891,13 @@ game (
 	region "Korea"
 	serial "BCJK"
 	rom ( name "Mabeop Cheonja Mun DS 2 - Choehuui Hanja Mabeop (Korea).nds" size 268435456 crc 4BCE3C9D md5 48B5F805B25D22D949254F0BB6FECCBD sha1 4B54E07197CD85CD3EF30B18B1D39E8D6CFBCD4B serial "BCJK" )
+)
+game (
+	name "Mabeop Cheonjamun DS (Korea)"
+	description "Mabeop Cheonjamun DS (Korea)"
+	region "Korea"
+	serial "YNOK"
+	rom ( name "Mabeop Cheonjamun DS (Korea).nds" size 134217728 crc 37F65002 md5 1ABE130C5493EF7721B3C643153CDF0D sha1 0C44DFF977AE20810F18AB0348C31A18F3293161 serial "YNOK" )
 )
 game (
 	name "Maboshi's Arcade (USA) (WiiWare Broadcast)"
@@ -27300,6 +27741,13 @@ game (
 	region "Korea"
 	serial "CP2K"
 	rom ( name "Make-up Paradise (Korea).nds" size 67108864 crc 9E238CB9 md5 A2CB4113386C8CF153DC5DC3C62E2CE6 sha1 F2FB43ADF290E994F1751BCF690386D91AA49D1B serial "CP2K" )
+)
+game (
+	name "Makeup Princess (Korea)"
+	description "Makeup Princess (Korea)"
+	region "Korea"
+	serial "YPDK"
+	rom ( name "Makeup Princess (Korea).nds" size 33554432 crc B3FB0741 md5 9917F863AD118B378150443D4828E548 sha1 7E1FF609D9AB2E38847E4CC8FF9B8F0751DD9504 serial "YPDK" )
 )
 game (
 	name "Makeup Princess 2 - Princess Life (Korea) (NDSi Enhanced)"
@@ -28218,6 +28666,13 @@ game (
 	rom ( name "Marvel Super Hero Squad (Europe) (Es,It).nds" size 67108864 crc 2E227618 md5 56C7F726709C29A3C11CE0F0F02DF48A sha1 ED86418138FBD98D6AFEC4760936531D62C8DE9F serial "BMUY" )
 )
 game (
+	name "Marvel Super Hero Squad (Korea) (En,Ko)"
+	description "Marvel Super Hero Squad (Korea) (En,Ko)"
+	region "Korea"
+	serial "BMUK"
+	rom ( name "Marvel Super Hero Squad (Korea) (En,Ko).nds" size 33554432 crc D69C1CA2 md5 43F8A57E0B3027AEA7C421586B8A5147 sha1 B36089B1ECADA0A3F6DE9892B246A66B24FAB331 serial "BMUK" )
+)
+game (
 	name "Marvel Super Hero Squad (USA) (En,Fr,Es)"
 	description "Marvel Super Hero Squad (USA) (En,Fr,Es)"
 	region "USA"
@@ -28302,11 +28757,10 @@ game (
 	rom ( name "Master Jin Jin's IQ Challenge (USA).nds" size 33554432 crc F611AD0E md5 B2F479BA3DC177BE0979F35BCFE40F83 sha1 BBA108DDBD1C974466BD0A95BB737852665BFA1E serial "AJNE" )
 )
 game (
-	name "Master of Illusion (USA)"
-	description "Master of Illusion (USA)"
-	region "USA"
+	name "Master of Illusion (USA, Australia)"
+	description "Master of Illusion (USA, Australia)"
 	serial "AJQE"
-	rom ( name "Master of Illusion (USA).nds" size 16777216 crc 35AA534A md5 713B2417274D4A20212A8B746ADFE447 sha1 CFB576D981E60EB35C8AC94B43D42A8DCB779029 serial "AJQE" )
+	rom ( name "Master of Illusion (USA, Australia).nds" size 16777216 crc 35AA534A md5 713B2417274D4A20212A8B746ADFE447 sha1 CFB576D981E60EB35C8AC94B43D42A8DCB779029 serial "AJQE" )
 )
 game (
 	name "Master of the Monster Lair (USA)"
@@ -29045,6 +29499,20 @@ game (
 	rom ( name "Mes Amis Disney (France).nds" size 67108864 crc B3545ACC md5 429D8291FEFF3A091373990E8410BC64 sha1 2E9086312EBF9F2E5D43768B1C60CAE4790FAE22 serial "AXVF" )
 )
 game (
+	name "Metal Beyblade - Cyber Pegasis (Korea)"
+	description "Metal Beyblade - Cyber Pegasis (Korea)"
+	region "Korea"
+	serial "BBUK"
+	rom ( name "Metal Beyblade - Cyber Pegasis (Korea).nds" size 67108864 crc 5D23CB6D md5 6FA95890F14F937C52107AA8CB23043E sha1 7E64EF36444B7850171639385423216B30AE3D77 serial "BBUK" )
+)
+game (
+	name "Metal Beyblade 2 - Big Bang Bladers (Korea)"
+	description "Metal Beyblade 2 - Big Bang Bladers (Korea)"
+	region "Korea"
+	serial "BRZK"
+	rom ( name "Metal Beyblade 2 - Big Bang Bladers (Korea).nds" size 67108864 crc B93F6A25 md5 AC7DB78D390D55828F530F4508BD7885 sha1 57FF3D5E44A430CFA91742AAC39E162576280007 serial "BRZK" )
+)
+game (
 	name "Metal Fight Beyblade (Japan)"
 	description "Metal Fight Beyblade (Japan)"
 	region "Japan"
@@ -29119,6 +29587,13 @@ game (
 	region "Japan"
 	serial "YM7J"
 	rom ( name "Metal Slug 7 (Japan).nds" size 67108864 crc 89F4BBA2 md5 EC92801F460CD32AD499EE4BD9C17706 sha1 DF23052C3B8D152C9E05F195CFBD709C3F3E5E62 serial "YM7J" )
+)
+game (
+	name "Metal Slug 7 (Korea)"
+	description "Metal Slug 7 (Korea)"
+	region "Korea"
+	serial "YM7K"
+	rom ( name "Metal Slug 7 (Korea).nds" size 67108864 crc 2B466823 md5 8649053E13C34AA10E53D2065318FCAE sha1 76858A127997C78E80030BA1E820546C6F64D892 serial "YM7K" )
 )
 game (
 	name "Metal Slug 7 (USA)"
@@ -30199,6 +30674,27 @@ game (
 	region "Japan"
 	serial "ACHJ"
 	rom ( name "Mogitate Tingle no Barairo Rupee Land (Japan).nds" size 67108864 crc 01B44CBA md5 1935F531D76FBD879D7DA8C43FEB06EB sha1 5E83BCDC711DBB3D5B674CCFF2B4A1C878FFC6C5 serial "ACHJ" )
+)
+game (
+	name "Mokjjangiyagi - Colobockle Station (Korea)"
+	description "Mokjjangiyagi - Colobockle Station (Korea)"
+	region "Korea"
+	serial "ABCK"
+	rom ( name "Mokjjangiyagi - Colobockle Station (Korea).nds" size 33554432 crc EE53096B md5 F34DB7779BF6A7DC1B1D830C1FB9C52D sha1 557082B5234ABA7CE6E4AA9A34F6C9797425034B serial "ABCK" )
+)
+game (
+	name "Mokjjangiyagi - Colobockle Station for Girl (Korea)"
+	description "Mokjjangiyagi - Colobockle Station for Girl (Korea)"
+	region "Korea"
+	serial "AB4K"
+	rom ( name "Mokjjangiyagi - Colobockle Station for Girl (Korea).nds" size 67108864 crc BC0365FA md5 DBDD7F730A5CF26AC05AB7A74DEF6324 sha1 2FFE52996AB9BEA0F82635E21B7FAACB7512904C serial "AB4K" )
+)
+game (
+	name "Mokjjangiyagi - Neowa hamkke Jaraneun Seom (Korea)"
+	description "Mokjjangiyagi - Neowa hamkke Jaraneun Seom (Korea)"
+	region "Korea"
+	serial "ABJK"
+	rom ( name "Mokjjangiyagi - Neowa hamkke Jaraneun Seom (Korea).nds" size 67108864 crc A3876AAA md5 C0E8B22BF1EC37CF0CAD0421EA391E5F sha1 CA3744DABE522B17A29BC3AC22D41619B088422F serial "ABJK" )
 )
 game (
 	name "Momo Waliou Zhizao (China) (iDS)"
@@ -31458,6 +31954,13 @@ game (
 	rom ( name "My Horse & Me - Riding for Gold (USA) (En,Fr,Es).nds" size 33554432 crc B5CA3492 md5 0E2FF5C376BDAB84ACA3CFF2D91C7622 sha1 BDBE9C5527BC6DECCDD20F37B7F6C14FADB81AC4 serial "CXHE" )
 )
 game (
+	name "My Horse & Me 2 (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
+	description "My Horse & Me 2 (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
+	region "Europe"
+	serial "CXHP"
+	rom ( name "My Horse & Me 2 (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).nds" size 33554432 crc 9FC2CA6C md5 BBE29EC237B275B5212B705C40239F6F sha1 47E9D9EF65A6246F12D403CAA301559D69BE7A89 serial "CXHP" )
+)
+game (
 	name "My Horse Club (Europe) (En,De,Es,It,Nl)"
 	description "My Horse Club (Europe) (En,De,Es,It,Nl)"
 	region "Europe"
@@ -31484,6 +31987,13 @@ game (
 	region "Europe"
 	serial "YJLP"
 	rom ( name "My Little Baby (Europe) (En,De).nds" size 16777216 crc 212D72FC md5 959C959F9B24B8DA07C47B105410A1DE sha1 E1B28D093E51E4314D79DF005435CFA35E7B81C8 serial "YJLP" )
+)
+game (
+	name "My Little Baby (Europe) (En,Fr,De,Es)"
+	description "My Little Baby (Europe) (En,Fr,De,Es)"
+	region "Europe"
+	serial "YJLX"
+	rom ( name "My Little Baby (Europe) (En,Fr,De,Es).nds" size 16777216 crc 1341E763 md5 D42E00630B6C5F242A2F7368819EC155 sha1 4753B4A009FD9CCB9A759420EDAECDE2D23675F0 serial "YJLX" )
 )
 game (
 	name "My Little Flufties (Europe) (En,Fr,De,Es,It)"
@@ -31591,11 +32101,32 @@ game (
 	rom ( name "My Pet Hotel 2 (Europe) (Fr,Es).nds" size 33554432 crc F42DB427 md5 DECD303184B62B875DAB56278D75E4FE sha1 281D714F44633BCB3CB30B9C938D77B260A0F346 serial "AQ2Y" )
 )
 game (
+	name "My Pet Kitten (Europe) (En,Fr,De,Es,It)"
+	description "My Pet Kitten (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CKTP"
+	rom ( name "My Pet Kitten (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 600288D6 md5 AA49EAA559E8C023BF75571D822263CD sha1 72F235E24F97236FFD9CF1F526CD67C8741D28F1 serial "CKTP" )
+)
+game (
 	name "My Pet Parrot (Europe) (En,Fr,De,Es,It)"
 	description "My Pet Parrot (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "C4BP"
 	rom ( name "My Pet Parrot (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc E83CCDB7 md5 2F9C73E22B083D92437EDAAD8DED9E9C sha1 756B569ABEFF49D6E35285D7611FFDF5CE2A139C serial "C4BP" )
+)
+game (
+	name "My Pet Pony (Europe) (En,Fr,De,Es,It)"
+	description "My Pet Pony (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CPOP"
+	rom ( name "My Pet Pony (Europe) (En,Fr,De,Es,It).nds" size 16777216 crc CF1BCB86 md5 75EAFBE9973FA46D87E2BBDF0D1F9F98 sha1 2191B7E84FDC09C62E7AFA49230161A66FEB95E5 serial "CPOP" )
+)
+game (
+	name "My Pet Puppy (Europe) (En,Fr,De,Es,It)"
+	description "My Pet Puppy (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "CPHP"
+	rom ( name "My Pet Puppy (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 386A2139 md5 0BB2FF2E40181D07F0013D217B14AA25 sha1 7E90ED81FF4D5AD4A768DAAF42B82A00BD34586F serial "CPHP" )
 )
 game (
 	name "My Pet School (Europe) (En,Fr,Es,It)"
@@ -31630,7 +32161,7 @@ game (
 	description "My Puppy Shop (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)"
 	region "Europe"
 	serial "YPTP"
-	rom ( name "My Puppy Shop (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).nds" size 33554432 crc 72D407F8 md5 F2F9A780168BD43762D260CFB52A6E3A sha1 B3042189D17EA1A5B560A87D41448050B2AEF287 serial "YPTP" )
+	rom ( name "My Puppy Shop (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).nds" size 33554432 crc 2B1FB878 md5 06EA8864B6BACAAA11B83741AB4DD1C7 sha1 51C78BD52D72DF55D562A8207D64707AB4763C78 serial "YPTP" )
 )
 game (
 	name "My Reading Tutor (USA)"
@@ -31863,6 +32394,13 @@ game (
 	rom ( name "MySims - Kingdom (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Pl,Cs,Hu).nds" size 67108864 crc 8F065AB9 md5 CE20294F127D87C70BB8377823502A5F sha1 9672FE11EE303E74C8323714713299C216D71684 serial "CK5P" )
 )
 game (
+	name "MySims - Kingdom (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Pl,Cs,Hu) (Beta)"
+	description "MySims - Kingdom (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Pl,Cs,Hu) (Beta)"
+	region "Europe"
+	serial "CK5P"
+	rom ( name "MySims - Kingdom (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Pl,Cs,Hu) (Beta).nds" size 67108864 crc E3B74E1F md5 2D9F58C159F48936F10ECB936757C985 sha1 E05F867687902E036686AA3B5CF154EA561EC12C serial "CK5P" )
+)
+game (
 	name "MySims - Kingdom (USA) (En,Fr,Es)"
 	description "MySims - Kingdom (USA) (En,Fr,Es)"
 	region "USA"
@@ -31891,6 +32429,12 @@ game (
 	rom ( name "MySims - Party (USA) (En,Fr,Es).nds" size 33554432 crc 1D482D0F md5 7712BF1B749B8B9209812AE473D858D6 sha1 EED3A1D371CD754813DD12F1BDC6403778538DFA serial "CMSE" )
 )
 game (
+	name "MySims - Party - Trial Version (USA) (En,Fr,Es) (Demo)"
+	description "MySims - Party - Trial Version (USA) (En,Fr,Es) (Demo)"
+	region "USA"
+	rom ( name "MySims - Party - Trial Version (USA) (En,Fr,Es) (Demo).bcn" size 856 crc 42879547 md5 470E41FC842698A4FF9AA077CC60B250 sha1 615DF890DE69F0506BCF801798218A33F8ABF882 )
+)
+game (
 	name "MySims - Racing (Europe) (En,Fr,De,Es,It,Nl)"
 	description "MySims - Racing (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
@@ -31909,6 +32453,13 @@ game (
 	description "MySims - Racing (USA) (En,Fr,Es) (Rev 1) (Demo)"
 	region "USA"
 	rom ( name "MySims - Racing (USA) (En,Fr,Es) (Rev 1) (Demo).bcn" size 856 crc 11B905A1 md5 4004714E4EE7E8EBFD2C24833557C998 sha1 29E778621ED602ADEC4A29C8A2FD01AAC1537FED )
+)
+game (
+	name "MySims - Simdeurui Wangguk (Korea)"
+	description "MySims - Simdeurui Wangguk (Korea)"
+	region "Korea"
+	serial "CK5K"
+	rom ( name "MySims - Simdeurui Wangguk (Korea).nds" size 67108864 crc 443D383F md5 C48632BCC5B3440B4CC584E3CF62F45A sha1 00DC1066AB11AB74F977D6D3EE9FA908BB558633 serial "CK5K" )
 )
 game (
 	name "MySims - SkyHeroes (Europe) (En,Fr,De,Es,It,Nl)"
@@ -32030,11 +32581,10 @@ game (
 	rom ( name "Mystery Case Files - MillionHeir (USA) (En,Fr,Es).nds" size 134217728 crc F0B3AC90 md5 DBB1C831B0F5913347ED493AFB54C01C sha1 1690835FB64BD3C600E8AD85A7FF64AA21012E2E serial "YFCE" )
 )
 game (
-	name "Mystery Case Files - MillionHeir (USA) (En,Fr,Es) (Rev 1)"
-	description "Mystery Case Files - MillionHeir (USA) (En,Fr,Es) (Rev 1)"
-	region "USA"
+	name "Mystery Case Files - MillionHeir (USA, Australia) (En,Fr,Es) (Rev 1)"
+	description "Mystery Case Files - MillionHeir (USA, Australia) (En,Fr,Es) (Rev 1)"
 	serial "YFCE"
-	rom ( name "Mystery Case Files - MillionHeir (USA) (En,Fr,Es) (Rev 1).nds" size 134217728 crc 4563D165 md5 AC493E8A682BCE7007C9F908AA678DAF sha1 6BA121FED71C731DCCF55B076232BFEB5A7549B3 serial "YFCE" )
+	rom ( name "Mystery Case Files - MillionHeir (USA, Australia) (En,Fr,Es) (Rev 1).nds" size 134217728 crc 4563D165 md5 AC493E8A682BCE7007C9F908AA678DAF sha1 6BA121FED71C731DCCF55B076232BFEB5A7549B3 serial "YFCE" )
 )
 game (
 	name "Mystery Case Files - MillionHeir (USA, Europe, Australia) (Demo)"
@@ -32497,6 +33047,13 @@ game (
 	rom ( name "Narnia Koku Monogatari Dai-2 Shou - Caspian Ouji no Tsunobue (Japan).nds" size 67108864 crc BCAD8FF0 md5 7AAB400C9CEC2F922B13B0C9D6777230 sha1 925B0C5BFD585ED98A21E1587A5971588EC40EB3 serial "YQNJ" )
 )
 game (
+	name "Naruto - Choegangninja Daegyeoljip DS (Korea)"
+	description "Naruto - Choegangninja Daegyeoljip DS (Korea)"
+	region "Korea"
+	serial "ANRK"
+	rom ( name "Naruto - Choegangninja Daegyeoljip DS (Korea).nds" size 67108864 crc DD16F38D md5 D320B71B74469F3E5D0C20458F608C33 sha1 BB6A8BE1C74C4FF3C3A1C1845969DF2F8F2AC11E serial "ANRK" )
+)
+game (
 	name "Naruto - Ninja Council - European Version (Europe) (En,Fr,De,Es,It)"
 	description "Naruto - Ninja Council - European Version (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -32593,6 +33150,13 @@ game (
 	region "Korea"
 	serial "CNSK"
 	rom ( name "Naruto Jilpungjeon - Choegangninja Daegyeoljip 2 - Gyeokttol!! Naruto vs Sasuke (Korea).nds" size 67108864 crc 1AA8A365 md5 FA71BFAAD72EBBB89C853FA34960443A sha1 AD1D728227B83C058DCDC7C947F2621CE2AB2821 serial "CNSK" )
+)
+game (
+	name "Naruto Jilpungjeon - Daenantu! Geurimja Bunsinsul (Korea)"
+	description "Naruto Jilpungjeon - Daenantu! Geurimja Bunsinsul (Korea)"
+	region "Korea"
+	serial "YNRK"
+	rom ( name "Naruto Jilpungjeon - Daenantu! Geurimja Bunsinsul (Korea).nds" size 67108864 crc 15C3ADD0 md5 891087C7C32342D65A7E304AD39947C3 sha1 04F830117321109047CE08C1263CAE44830CBE9A serial "YNRK" )
 )
 game (
 	name "Naruto Jilpungjeon - Insuljeongae! Cha-Crash!! (Korea)"
@@ -32748,18 +33312,18 @@ game (
 	rom ( name "National Geographic - Panda (USA) (En,Fr).nds" size 33554432 crc FB5C326E md5 C1EAE718C421466AC9F3F182B0762B98 sha1 E0ECA938A078E3DD0D163DDB91ED5B5E0640A8E8 serial "YU6E" )
 )
 game (
+	name "National Geographic - Panda (USA) (En,Fr) (Beta 1)"
+	description "National Geographic - Panda (USA) (En,Fr) (Beta 1)"
+	region "USA"
+	serial "YU6J"
+	rom ( name "National Geographic - Panda (USA) (En,Fr) (Beta 1).nds" size 33554432 crc CA65A2FD md5 2D78A1EF1B35844F98AE6F4AE6896239 sha1 C980F681A5658FC0695484C52CA0B923DE8A9405 serial "YU6J" )
+)
+game (
 	name "National Geographic - Panda (USA) (En,Fr) (Beta 2)"
 	description "National Geographic - Panda (USA) (En,Fr) (Beta 2)"
 	region "USA"
 	serial "YU6E"
 	rom ( name "National Geographic - Panda (USA) (En,Fr) (Beta 2).nds" size 33554432 crc CC197558 md5 6A4B9431AC9400182CA20F121303F0CB sha1 B3CA55298D3FFFA2D3D23B000540A5FAFDBD25C1 serial "YU6E" )
-)
-game (
-	name "National Geographic - Panda (USA) (En,Fr) (Beta)"
-	description "National Geographic - Panda (USA) (En,Fr) (Beta)"
-	region "USA"
-	serial "YU6J"
-	rom ( name "National Geographic - Panda (USA) (En,Fr) (Beta).nds" size 33554432 crc CA65A2FD md5 2D78A1EF1B35844F98AE6F4AE6896239 sha1 C980F681A5658FC0695484C52CA0B923DE8A9405 serial "YU6J" )
 )
 game (
 	name "Nazonazo & Quiz - Ittou Nyuukon Q Mate! (Japan)"
@@ -32893,6 +33457,13 @@ game (
 	region "Europe"
 	serial "CNDP"
 	rom ( name "Need for Speed - Undercover (Europe) (En,Fr,De,Es,It,Nl).nds" size 67108864 crc DC9B5BBF md5 04596D2A5BFF57CEB67282010659B3B2 sha1 A6DB79681599867B7A9430EA75A26E56C7A6AF4D serial "CNDP" )
+)
+game (
+	name "Need for Speed - Undercover (Korea)"
+	description "Need for Speed - Undercover (Korea)"
+	region "Korea"
+	serial "CNDK"
+	rom ( name "Need for Speed - Undercover (Korea).nds" size 67108864 crc B7C8DBAB md5 6A0C0CA6EC739CCCD47ABCABF2FAA3B3 sha1 3379CD8E0EE00BC155907EE578BDC821376A8483 serial "CNDK" )
 )
 game (
 	name "Need for Speed - Undercover (USA) (En,Fr,De,Es,It,Nl)"
@@ -33119,6 +33690,13 @@ game (
 	rom ( name "New International Track & Field (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 347CDD62 md5 D0951040FDB444C4200F1E3F85CF13E3 sha1 2701F14B00F8753CBC052B5BB4B12E773AA5D8D6 serial "AFEP" )
 )
 game (
+	name "New International Track & Field (Korea)"
+	description "New International Track & Field (Korea)"
+	region "Korea"
+	serial "AFEK"
+	rom ( name "New International Track & Field (Korea).nds" size 67108864 crc 0A88EC3E md5 3AB69365A6753F57B19296DCCB69330D sha1 325C8446703A65FFDB9E09FAC94E272FC762563E serial "AFEK" )
+)
+game (
 	name "New International Track & Field (USA) (En,Fr,De,Es,It)"
 	description "New International Track & Field (USA) (En,Fr,De,Es,It)"
 	region "USA"
@@ -33168,11 +33746,18 @@ game (
 	rom ( name "New Super Mario Bros. (Japan).nds" size 33554432 crc 39109F4A md5 6138F8709A649099A4ED853E393E9EF1 sha1 2B1D4C6AEAFDD163AF34A7B1281CAECE834A8F57 serial "A2DJ" )
 )
 game (
-	name "New Super Mario Bros. (Japan) (Demo) (Kiosk)"
-	description "New Super Mario Bros. (Japan) (Demo) (Kiosk)"
+	name "New Super Mario Bros. (Japan) (Demo) (Kiosk, A85J)"
+	description "New Super Mario Bros. (Japan) (Demo) (Kiosk, A85J)"
 	region "Japan"
 	serial "A85J"
-	rom ( name "New Super Mario Bros. (Japan) (Demo) (Kiosk).nds" size 33554432 crc 9DDF95A9 md5 E47591C5DAF7FA22B0884B57C2FDD6D4 sha1 D7C8F08D57EDD33DFBEC62BC2136AF137BE9B50E serial "A85J" )
+	rom ( name "New Super Mario Bros. (Japan) (Demo) (Kiosk, A85J).nds" size 33554432 crc 9DDF95A9 md5 E47591C5DAF7FA22B0884B57C2FDD6D4 sha1 D7C8F08D57EDD33DFBEC62BC2136AF137BE9B50E serial "A85J" )
+)
+game (
+	name "New Super Mario Bros. (Japan) (Demo) (Kiosk, Y7QJ)"
+	description "New Super Mario Bros. (Japan) (Demo) (Kiosk, Y7QJ)"
+	region "Japan"
+	serial "Y7QJ"
+	rom ( name "New Super Mario Bros. (Japan) (Demo) (Kiosk, Y7QJ).nds" size 33554432 crc 0AE615D9 md5 D46EEF9567A9DBC23C9D8B0E09F934A8 sha1 46F68D668C269E9CC45B7E4121C27CAC105FF079 serial "Y7QJ" )
 )
 game (
 	name "New Super Mario Bros. (Korea)"
@@ -33510,6 +34095,13 @@ game (
 	rom ( name "Ninja Gaiden - Dragon Sword (Japan) (Demo).bcn" size 856 crc 273A9D99 md5 CC88358C7545A813D66E937497324A70 sha1 8AB81E9D87614B0609EC6633DA81066251079B4D )
 )
 game (
+	name "Ninja Gaiden - Dragon Sword (Korea)"
+	description "Ninja Gaiden - Dragon Sword (Korea)"
+	region "Korea"
+	serial "YNGK"
+	rom ( name "Ninja Gaiden - Dragon Sword (Korea).nds" size 134217728 crc 2CED1014 md5 69F175030FF70FD65F38481B973AAE67 sha1 0709EB68975CB7CDFF5CB9806D70484D16D71989 serial "YNGK" )
+)
+game (
 	name "Ninja Gaiden - Dragon Sword (USA)"
 	description "Ninja Gaiden - Dragon Sword (USA)"
 	region "USA"
@@ -33619,10 +34211,11 @@ game (
 	rom ( name "Nintendo Presents - Style Boutique (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk).nds" size 134217728 crc 93399B5A md5 6F8462043107339F90C93671E099F55A sha1 A15F2A2768BAF4B97D35E0B0FE787F006B3AE207 serial "Y7GP" )
 )
 game (
-	name "Nintendo Presents - Style Boutique (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
-	description "Nintendo Presents - Style Boutique (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
+	name "Nintendo Presents - Style Boutique (Europe) (En,Fr,De,Es,It) (Rev 1)"
+	description "Nintendo Presents - Style Boutique (Europe) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
 	serial "AZLP"
-	rom ( name "Nintendo Presents - Style Boutique (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).nds" size 268435456 crc 1C56BFCF md5 C8ABC001756986B481EE4993737269CE sha1 B94095EC39B94C93AA217CF846ABC14FED9E32AA serial "AZLP" )
+	rom ( name "Nintendo Presents - Style Boutique (Europe) (En,Fr,De,Es,It) (Rev 1).nds" size 268435456 crc 1C56BFCF md5 C8ABC001756986B481EE4993737269CE sha1 B94095EC39B94C93AA217CF846ABC14FED9E32AA serial "AZLP" )
 )
 game (
 	name "Nintendo Presents - Style Boutique - Trial Version (Europe, Australia) (Demo)"
@@ -33660,6 +34253,30 @@ game (
 	description "Nintendo Zone Wireless Distribution Box DS Card (World) (Rev 2) (Wi-Fi Kiosk)"
 	serial "AAFA"
 	rom ( name "Nintendo Zone Wireless Distribution Box DS Card (World) (Rev 2) (Wi-Fi Kiosk).nds" size 8388608 crc A06FC261 md5 95324774F09F8612893BFEC6405557F1 sha1 E34BFF048493DE637BEFC8B26B3F4BAD96CD7111 serial "AAFA" )
+)
+game (
+	name "Nintendo praesentiert - Style Boutique - Demo-Version (Germany) (Demo)"
+	description "Nintendo praesentiert - Style Boutique - Demo-Version (Germany) (Demo)"
+	region "Germany"
+	rom ( name "Nintendo praesentiert - Style Boutique - Demo-Version (Germany) (Demo).bcn" size 856 crc 85357886 md5 343D73D58C2FCA041AA1B04199EDF086 sha1 9ADB06EA8CA017F4885BAEE8ADD1D1A828C479AF )
+)
+game (
+	name "Nintendo presenta - Style Boutique - Version de prueba (Spain) (Demo)"
+	description "Nintendo presenta - Style Boutique - Version de prueba (Spain) (Demo)"
+	region "Spain"
+	rom ( name "Nintendo presenta - Style Boutique - Version de prueba (Spain) (Demo).bcn" size 856 crc 11F101E3 md5 51D51796D803E0835B3945BF3EF38D5D sha1 E7BF5891A2AD2C196D10C7D6FAEB3A151823DBD3 )
+)
+game (
+	name "Nintendo presenta - Style Boutique - Versione demo (Italy) (Demo)"
+	description "Nintendo presenta - Style Boutique - Versione demo (Italy) (Demo)"
+	region "Italy"
+	rom ( name "Nintendo presenta - Style Boutique - Versione demo (Italy) (Demo).bcn" size 856 crc 8E1D7D9E md5 A7D29396A0A7077C69E2B1AD5DDD8854 sha1 0E640FBDF9535277B4C60EE63426B0072AC97073 )
+)
+game (
+	name "Nintendo presente - La Maison du Style - Version demo (France) (Demo)"
+	description "Nintendo presente - La Maison du Style - Version demo (France) (Demo)"
+	region "France"
+	rom ( name "Nintendo presente - La Maison du Style - Version demo (France) (Demo).bcn" size 856 crc 6A2526A7 md5 74F3131797368B5575A38D2C8AC5A6F9 sha1 A6E742412270E3A5004A533CAE1C616A148DA780 )
 )
 game (
 	name "Nintendogs (Europe) (En,Fr,De,Es,It) (Demo) (Kiosk)"
@@ -34163,6 +34780,13 @@ game (
 	rom ( name "Oekaki Puzzle Battle! - Yuusha Ou GaoGaiGar Hen (Japan).nds" size 16777216 crc FBD8DDF6 md5 BD57C8A7A52CFCE4D909964B1E125CD2 sha1 DF6C79DA38383B18A195FBDEA6A0E85547F7FE75 serial "AMRJ" )
 )
 game (
+	name "Ogwangui Darin DS (Korea)"
+	description "Ogwangui Darin DS (Korea)"
+	region "Korea"
+	serial "BOWK"
+	rom ( name "Ogwangui Darin DS (Korea).nds" size 67108864 crc 70F31818 md5 5DBF430C688A02E8EBC156AC95E8521C sha1 0EB2FE5B0B58D8EBD253B431885AA1638F4392E7 serial "BOWK" )
+)
+game (
 	name "Oha Star 645 - Musshees no Fushigi na Nouen - Yoshimoto Geinin to Tomodachi Net (Japan)"
 	description "Oha Star 645 - Musshees no Fushigi na Nouen - Yoshimoto Geinin to Tomodachi Net (Japan)"
 	region "Japan"
@@ -34506,6 +35130,13 @@ game (
 	region "Europe"
 	serial "AFBP"
 	rom ( name "Original Frisbee Disc Sports - Ultimate & Golf (Europe) (En,Fr,De,Es,It).nds" size 8388608 crc C1C3A54D md5 437DAD5210B5A7BFBB470F88E0922036 sha1 5507B67C37C53E54368BD959099816BF3E239CB8 serial "AFBP" )
+)
+game (
+	name "Original Frisbee Disc Sports - Ultimate & Golf (Europe) (En,Fr,De,Es,It) (Beta)"
+	description "Original Frisbee Disc Sports - Ultimate & Golf (Europe) (En,Fr,De,Es,It) (Beta)"
+	region "Europe"
+	serial "AFBP"
+	rom ( name "Original Frisbee Disc Sports - Ultimate & Golf (Europe) (En,Fr,De,Es,It) (Beta).nds" size 8388608 crc 2A95EDA7 md5 014FB7303480D082EFF820C5BD64CE02 sha1 104534A2090AF5E16FFEA6699E7D33A73BE4A134 serial "AFBP" )
 )
 game (
 	name "Original Frisbee Disc Sports - Ultimate & Golf (USA)"
@@ -35667,6 +36298,13 @@ game (
 	rom ( name "Petz - Fantasy (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (NDSi Enhanced).nds" size 33554432 crc 04FF605E md5 6621AF7836F09FCD4C4675E46A68F919 sha1 1388316503068E59024010B9E5816F20902C9045 serial "VFZV" )
 )
 game (
+	name "Petz - Fashion Stars (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Petz - Fashion Stars (Europe) (En,Fr,De,Es,It,Nl)"
+	region "Europe"
+	serial "C54P"
+	rom ( name "Petz - Fashion Stars (Europe) (En,Fr,De,Es,It,Nl).nds" size 33554432 crc B9F6C71D md5 9BAA0605D0AA3EF5F316E2F17CB14010 sha1 5C66A680FEED3482142D47259F1B147321ED33AF serial "C54P" )
+)
+game (
 	name "Petz - Hamster Superstar (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	description "Petz - Hamster Superstar (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	region "Europe"
@@ -35770,6 +36408,13 @@ game (
 	region "Europe"
 	serial "CD8P"
 	rom ( name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).nds" size 33554432 crc B13468EE md5 16E07802153864603DBE1C416DBFA2C8 sha1 70F55AB0D833424A4D42B8B88F597D92BEEAC6CE serial "CD8P" )
+)
+game (
+	name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)"
+	description "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)"
+	region "Europe"
+	serial "CD8P"
+	rom ( name "Petz - My Puppy Family (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1).nds" size 33554432 crc 2509521E md5 53E1A62C5227C697BAF9BC61A72715EF sha1 B6B839AD2CE203081502B0AD748E28360662C08F serial "CD8P" )
 )
 game (
 	name "Petz - Nursery (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
@@ -37544,6 +38189,24 @@ game (
 	rom ( name "Pokemon Dash (USA) (Demo) (Kiosk).nds" size 16777216 crc 29D61A11 md5 68B0E1803288CD68A5CD9E86ACF7544B sha1 5E7F1110582E025FD636DB910193E5AAFA1D42AD serial "A24E" )
 )
 game (
+	name "Pokemon Donjon Mystere - Explorateurs du Ciel - Foret de l'Epreuve (France) (Demo)"
+	description "Pokemon Donjon Mystere - Explorateurs du Ciel - Foret de l'Epreuve (France) (Demo)"
+	region "France"
+	rom ( name "Pokemon Donjon Mystere - Explorateurs du Ciel - Foret de l'Epreuve (France) (Demo) (Alt).bcn" size 856 crc 4A192CA7 md5 E9211766EB16DE9E2D382F77F5573620 sha1 4610C54B9B3611C1E57217B97149722BB6143C1A )
+)
+game (
+	name "Pokemon Donjon Mystere - Explorateurs du Ciel - Petites Prairies (France) (Demo)"
+	description "Pokemon Donjon Mystere - Explorateurs du Ciel - Petites Prairies (France) (Demo)"
+	region "France"
+	rom ( name "Pokemon Donjon Mystere - Explorateurs du Ciel - Petites Prairies (France) (Demo).bcn" size 856 crc 656EDF6E md5 D80C5F8303410F4C9F4E27375CCB53FB sha1 3D37367234174F837BCCA5F8F75D04EF70108213 )
+)
+game (
+	name "Pokemon Donjon Mystere - Explorateurs du Ciel - Village Kecleon (France) (Demo)"
+	description "Pokemon Donjon Mystere - Explorateurs du Ciel - Village Kecleon (France) (Demo)"
+	region "France"
+	rom ( name "Pokemon Donjon Mystere - Explorateurs du Ciel - Village Kecleon (France) (Demo).bcn" size 856 crc 58E69BB5 md5 44AF04D62CAE8550C27A57DF74905877 sha1 4DE41C87AD7770DA08ECDF42F63CCF992C07FDD8 )
+)
+game (
 	name "Pokemon Fushigi no Dungeon - Ao no Kyuujotai (Japan)"
 	description "Pokemon Fushigi no Dungeon - Ao no Kyuujotai (Japan)"
 	region "Japan"
@@ -37570,6 +38233,12 @@ game (
 	region "Japan"
 	serial "C2SJ"
 	rom ( name "Pokemon Fushigi no Dungeon - Sora no Tankentai (Japan).nds" size 134217728 crc 8F9ED0D9 md5 87F62906D8367F6E51A9BC928B0E3612 sha1 7785138DD343B6F2D0F2C9CADC26B4AA927161D7 serial "C2SJ" )
+)
+game (
+	name "Pokemon Fushigi no Dungeon - Susume! Honoo no Boukendan - Controller (Japan) (WiiWare Broadcast)"
+	description "Pokemon Fushigi no Dungeon - Susume! Honoo no Boukendan - Controller (Japan) (WiiWare Broadcast)"
+	region "Japan"
+	rom ( name "Pokemon Fushigi no Dungeon - Susume! Honoo no Boukendan - Controller (Japan) (WiiWare Broadcast).bcn" size 856 crc 95D39355 md5 619DB9255F05B93B150F32DD53D11592 sha1 DFF4D3BACB7E08712B6CBCEF1FA8CC24582A9112 )
 )
 game (
 	name "Pokemon Fushigi no Dungeon - Toki no Tankentai (Japan)"
@@ -37606,6 +38275,24 @@ game (
 	rom ( name "Pokemon Link! Mini (Europe) (En,Fr,De,Es,It) (Demo) (DS Broadcast) (It).bcn" size 856 crc DBC7F470 md5 90DFF560EADD3614CB3D1EE4B6324D97 sha1 E47C4862D0246138E6961BB51AC3C5E77C730941 )
 )
 game (
+	name "Pokemon Mundo misterioso - Exploradores del Cielo - Aldea Oculta del Tendero (Spain) (Demo)"
+	description "Pokemon Mundo misterioso - Exploradores del Cielo - Aldea Oculta del Tendero (Spain) (Demo)"
+	region "Spain"
+	rom ( name "Pokemon Mundo misterioso - Exploradores del Cielo - Aldea Oculta del Tendero (Spain) (Demo).bcn" size 856 crc 99138E52 md5 B6E3327BCF0F01E804B108A6A0270963 sha1 AA6430D5072766A29A7E2D06F4A8A9C7DFA5E35D )
+)
+game (
+	name "Pokemon Mundo misterioso - Exploradores del Cielo - Bosque Brete (Spain) (Demo)"
+	description "Pokemon Mundo misterioso - Exploradores del Cielo - Bosque Brete (Spain) (Demo)"
+	region "Spain"
+	rom ( name "Pokemon Mundo misterioso - Exploradores del Cielo - Bosque Brete (Spain) (Demo) (Alt).bcn" size 856 crc 03201338 md5 5006AEBD1DE8799FB2AA2537BA205FE7 sha1 4CCAAE7D66626F12703FEBC32C1177E9A9D869DB )
+)
+game (
+	name "Pokemon Mundo misterioso - Exploradores del Cielo - Pradera Diminuta (Spain) (Demo)"
+	description "Pokemon Mundo misterioso - Exploradores del Cielo - Pradera Diminuta (Spain) (Demo)"
+	region "Spain"
+	rom ( name "Pokemon Mundo misterioso - Exploradores del Cielo - Pradera Diminuta (Spain) (Demo) (Alt).bcn" size 856 crc 98384114 md5 3DEEF167EAD8EE4A62919E0A9103FFED sha1 53F051E30067780D6A71D05651076BA50E30DB04 )
+)
+game (
 	name "Pokemon Mystery Dungeon - Blue Rescue Team (Europe) (En,Fr,De,Es,It)"
 	description "Pokemon Mystery Dungeon - Blue Rescue Team (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -37631,6 +38318,24 @@ game (
 	description "Pokemon Mystery Dungeon - Blue Rescue Team (USA, Australia)"
 	serial "APHE"
 	rom ( name "Pokemon Mystery Dungeon - Blue Rescue Team (USA, Australia).nds" size 33554432 crc B6C4143E md5 61373235DA72064E8C058FAE3C646916 sha1 503EDEF4FE6088BCA00616EFCAC3B13DA90CD105 serial "APHE" )
+)
+game (
+	name "Pokemon Mystery Dungeon - Esploratori del cielo - Piccole Lande (Italy) (Demo)"
+	description "Pokemon Mystery Dungeon - Esploratori del cielo - Piccole Lande (Italy) (Demo)"
+	region "Italy"
+	rom ( name "Pokemon Mystery Dungeon - Esploratori del cielo - Piccole Lande (Italy) (Demo).bcn" size 856 crc 7E9B44A8 md5 BC590B0E845CA008298D8996791BCF9E sha1 9D553394D6306C7D673F087617A83A6A3948560B )
+)
+game (
+	name "Pokemon Mystery Dungeon - Esploratori del cielo - Selva Intrepida (Italy) (Demo)"
+	description "Pokemon Mystery Dungeon - Esploratori del cielo - Selva Intrepida (Italy) (Demo)"
+	region "Italy"
+	rom ( name "Pokemon Mystery Dungeon - Esploratori del cielo - Selva Intrepida (Italy) (Demo) (Alt).bcn" size 856 crc 95960950 md5 C1EE7D415A0B276A20975F4969630A25 sha1 7CA428E80BDAE4736E3922971F79269FB5E881C3 )
+)
+game (
+	name "Pokemon Mystery Dungeon - Esploratori del cielo - Villaggio Kecleon (Italy) (Demo)"
+	description "Pokemon Mystery Dungeon - Esploratori del cielo - Villaggio Kecleon (Italy) (Demo)"
+	region "Italy"
+	rom ( name "Pokemon Mystery Dungeon - Esploratori del cielo - Villaggio Kecleon (Italy) (Demo).bcn" size 856 crc 11232209 md5 1F1F17CBF0E0105A98915449BD3925DA sha1 99253BA28B75BDE0E5EF0D45412DB3E89BD9E48A )
 )
 game (
 	name "Pokemon Mystery Dungeon - Explorers of Darkness (Europe) (En,Fr,De,Es,It)"
@@ -38002,6 +38707,13 @@ game (
 	region "USA"
 	serial "COYE"
 	rom ( name "Pony Friends 2 (USA) (En,Fr,De,Es,It).nds" size 67108864 crc 9F1A40AD md5 A08AD185863B9A85D6918CD5D95D9EDC sha1 CE66645A32A970E4F0B93C045515CC8906674441 serial "COYE" )
+)
+game (
+	name "Pony Luv (Europe) (En,Fr,De)"
+	description "Pony Luv (Europe) (En,Fr,De)"
+	region "Europe"
+	serial "YRQP"
+	rom ( name "Pony Luv (Europe) (En,Fr,De).nds" size 33554432 crc 76484147 md5 6BA482DC8BC153216D85ECD6FA165525 sha1 904CFCC6E8F0D976F8FD66CE2E17F7AB6397C41F serial "YRQP" )
 )
 game (
 	name "Pony Luv (USA) (En,Fr)"
@@ -38470,6 +39182,20 @@ game (
 	rom ( name "Prince of Persia - The Forgotten Sands (USA) (En,Fr,De,Es,It,Nl) (NDSi Enhanced).nds" size 33554432 crc 922EAD91 md5 169A7DF0962ADDF7CD93763DCAEC0629 sha1 0C84C65EE6B3FAA4EBC875FEE2A3F8B81D38F236 serial "VPPE" )
 )
 game (
+	name "Princess Angel - Baeguiui Cheonsa (Korea)"
+	description "Princess Angel - Baeguiui Cheonsa (Korea)"
+	region "Korea"
+	serial "B4NK"
+	rom ( name "Princess Angel - Baeguiui Cheonsa (Korea).nds" size 8388608 crc 361A63D6 md5 6FE6B485F3642F473FF127406786D93D sha1 A099A2A018F897B09EA87F3718FAAD6C47504893 serial "B4NK" )
+)
+game (
+	name "Princess Bakery (Korea)"
+	description "Princess Bakery (Korea)"
+	region "Korea"
+	serial "C4WK"
+	rom ( name "Princess Bakery (Korea).nds" size 33554432 crc EB2B9B0C md5 DC5C0914FB7158E78D4F43F2FD7397FF sha1 8B02E2F8ECB8503DB9A073C018291EA7F70C7EE8 serial "C4WK" )
+)
+game (
 	name "Princess Ballerina - Yumemiru 4-nin no Prima Donna (Japan)"
 	description "Princess Ballerina - Yumemiru 4-nin no Prima Donna (Japan)"
 	region "Japan"
@@ -38524,6 +39250,13 @@ game (
 	region "Japan"
 	serial "CP4J"
 	rom ( name "Princess Maker 4 - Special Edition (Japan).nds" size 134217728 crc 2E925FF3 md5 067DFA5C9D0B11432B58BD5D85A151A1 sha1 F4A97B5B45713FDCC77AC9874DC11A49BDBE8D6A serial "CP4J" )
+)
+game (
+	name "Princess Maker 4 - Special Edition (Korea)"
+	description "Princess Maker 4 - Special Edition (Korea)"
+	region "Korea"
+	serial "CP4K"
+	rom ( name "Princess Maker 4 - Special Edition (Korea).nds" size 134217728 crc 3120BDAC md5 01D10699518F491D13F0D8F8370826CD sha1 5FCB2955C3D879CBC2147F17C1DFD9992611886E serial "CP4K" )
 )
 game (
 	name "Princess Melody (Europe) (En,Fr,De,It,Nl)"
@@ -38983,10 +39716,11 @@ game (
 	rom ( name "Professor Layton and the Last Specter (USA).nds" size 268435456 crc 3F4F0E86 md5 0711856D982D5CD9544A2FAB347E76CF sha1 BBF8261BF23F4744BB80231D21786C2B22507CA7 serial "BLFE" )
 )
 game (
-	name "Professor Layton and the Lost Future (Europe, Australia)"
-	description "Professor Layton and the Lost Future (Europe, Australia)"
+	name "Professor Layton and the Lost Future (Europe)"
+	description "Professor Layton and the Lost Future (Europe)"
+	region "Europe"
 	serial "C3JP"
-	rom ( name "Professor Layton and the Lost Future (Europe, Australia).nds" size 268435456 crc 9F77C0D5 md5 CD419BD37361C1DFD16D3E038A46AF97 sha1 11D5FEDFD30E3B706E184FFDB62DF3C7A6C3F2FC serial "C3JP" )
+	rom ( name "Professor Layton and the Lost Future (Europe).nds" size 268435456 crc 9F77C0D5 md5 CD419BD37361C1DFD16D3E038A46AF97 sha1 11D5FEDFD30E3B706E184FFDB62DF3C7A6C3F2FC serial "C3JP" )
 )
 game (
 	name "Professor Layton and the Spectre's Call (Europe)"
@@ -39364,6 +40098,12 @@ game (
 	region "Japan"
 	serial "TA8J"
 	rom ( name "Puyo Puyo!! - Puyopuyo 20th Anniversary - Taikenban (Japan) (Demo) (Not For Resale).nds" size 16777216 crc 526323E5 md5 E749065418CA2EAE6B7FD6361C7FBC1F sha1 72BB41B0EE7EC4FE3F0B350E6502265F303BF9FE serial "TA8J" )
+)
+game (
+	name "Puyo Puyo!! - Puyopuyo 20th Anniversary - Taikenban (Japan) (Rev 1) (Demo)"
+	description "Puyo Puyo!! - Puyopuyo 20th Anniversary - Taikenban (Japan) (Rev 1) (Demo)"
+	region "Japan"
+	rom ( name "Puyo Puyo!! - Puyopuyo 20th Anniversary - Taikenban (Japan) (Rev 1) (Demo).bcn" size 856 crc 9EA3E5F4 md5 4FD85DCB404BED36117393B1412FB49A sha1 69C41267EFB1CBCBB9AACF33155C1AD7BE198D11 )
 )
 game (
 	name "Puzzle Bobble DS (Japan)"
@@ -39907,6 +40647,12 @@ game (
 	rom ( name "Quiz! Hexagon II (Japan).nds" size 67108864 crc 7BBCF8B8 md5 D7D0ABDB441ED3234F93A53A95CBC9D2 sha1 CF789B05A23EB2B898BD2B26850B8434AD1E597D serial "BHXJ" )
 )
 game (
+	name "Quiz! Hexagon II - Taikenban (Japan) (Demo)"
+	description "Quiz! Hexagon II - Taikenban (Japan) (Demo)"
+	region "Japan"
+	rom ( name "Quiz! Hexagon II - Taikenban (Japan) (Demo).bcn" size 856 crc 2F2B1C91 md5 4BC109C8DBDE5B24F668787686CF940C sha1 3753E151FEA9D439E61DF4ACC4635A0BB3EC54B0 )
+)
+game (
 	name "Quiz! Nihongo-ou (Japan)"
 	description "Quiz! Nihongo-ou (Japan)"
 	region "Japan"
@@ -40011,6 +40757,13 @@ game (
 	rom ( name "Rafa Nadal Tennis (USA) (En,Fr).nds" size 33554432 crc 00F0FD3A md5 46E66D00C5290282838D43E9C315786F sha1 C90F31CDD26B3E1F6AC5C00600DA72135388B877 serial "ARAE" )
 )
 game (
+	name "Ragnarok DS (Korea)"
+	description "Ragnarok DS (Korea)"
+	region "Korea"
+	serial "YRBK"
+	rom ( name "Ragnarok DS (Korea).nds" size 134217728 crc 4E26B3FE md5 F446B95F7626E04D533BAAA2EE2B95F2 sha1 07159993F57957DCF72F6125F5783F694C98EFDE serial "YRBK" )
+)
+game (
 	name "Ragnarok DS (USA)"
 	description "Ragnarok DS (USA)"
 	region "USA"
@@ -40095,6 +40848,13 @@ game (
 	rom ( name "Rapala Pro Bass Fishing (USA).nds" size 33554432 crc EB8C7E4D md5 9E7BFAA6BAC342995C4893C5B3A045F6 sha1 5DA9E6867FAAB151AF21A79B4AC902642D47F639 serial "B4RE" )
 )
 game (
+	name "Ratatouille (Europe)"
+	description "Ratatouille (Europe)"
+	region "Europe"
+	serial "ALWU"
+	rom ( name "Ratatouille (Europe).nds" size 33554432 crc E0EA15B2 md5 C2540B527A13DF82A5FDBBD90D1C0A0C sha1 66E4B98DFB37C03D57F44EC42B1CCB5601F7B7C7 serial "ALWU" )
+)
+game (
 	name "Ratatouille (Europe) (Es,Pt)"
 	description "Ratatouille (Europe) (Es,Pt)"
 	region "Europe"
@@ -40134,13 +40894,6 @@ game (
 	region "USA"
 	serial "ALWE"
 	rom ( name "Ratatouille (USA).nds" size 33554432 crc DA6230D3 md5 26347460222ED5D96C6A73DBA27C2B6F sha1 4A84EFAABAA03CE45D11FCD8D261E3AD0600E552 serial "ALWE" )
-)
-game (
-	name "Ratatouille (United Kingdom)"
-	description "Ratatouille (United Kingdom)"
-	region "United Kingdom"
-	serial "ALWU"
-	rom ( name "Ratatouille (United Kingdom).nds" size 33554432 crc E0EA15B2 md5 C2540B527A13DF82A5FDBBD90D1C0A0C sha1 66E4B98DFB37C03D57F44EC42B1CCB5601F7B7C7 serial "ALWU" )
 )
 game (
 	name "Ratatouille - Food Frenzy (Europe) (En,Fr,De,Es,It,El)"
@@ -40211,6 +40964,13 @@ game (
 	region "USA"
 	serial "YRRE"
 	rom ( name "Rayman - Raving Rabbids 2 (USA) (En,Fr,Es).nds" size 33554432 crc D6BC2D0F md5 526214080E2525143E513C6410E8387A sha1 F23B13644F8ACEF712B773419A99AB5F6507D1E1 serial "YRRE" )
+)
+game (
+	name "Rayman - Yeopgitokki - TV Party (Korea)"
+	description "Rayman - Yeopgitokki - TV Party (Korea)"
+	region "Korea"
+	serial "CRIK"
+	rom ( name "Rayman - Yeopgitokki - TV Party (Korea).nds" size 33554432 crc 8DF48540 md5 28AB3AA4F2D0E06EA770079E0BD6CD14 sha1 6D830FA4F59CB5F1F398D1AC5A25FC3B8820C6F4 serial "CRIK" )
 )
 game (
 	name "Rayman DS (Europe) (En,Fr,De,Es,It)"
@@ -40379,6 +41139,13 @@ game (
 	region "Europe"
 	serial "CBNP"
 	rom ( name "Real Stories - Mijn Babycreche (Europe) (En,Nl,Sv,No,Da).nds" size 33554432 crc FA4BBA7C md5 59111C5C2E811794CE6D934E41323038 sha1 BD7ECB8E53343F2CBC0DA11E800C60E0FFF50FCE serial "CBNP" )
+)
+game (
+	name "Real Stories - Mission Equitation (France)"
+	description "Real Stories - Mission Equitation (France)"
+	region "France"
+	serial "CMQF"
+	rom ( name "Real Stories - Mission Equitation (France).nds" size 33554432 crc A2BAE770 md5 1B9A26472D7B63F618580AA1A4019A2E sha1 8DF0ED19E718D23CB2BD32C061C700E1F3ED5680 serial "CMQF" )
 )
 game (
 	name "Real Stories - Passion 4 Fashion (Europe) (En,Nl,Sv,No,Da)"
@@ -41037,6 +41804,18 @@ game (
 	rom ( name "Rooms - The Main Building (Germany) (Demo).bcn" size 856 crc DF0DC914 md5 427F1345D7D02D503814FE5D4671D287 sha1 B83CEECE4F083C1BF1B1DC5B39727077CF433043 )
 )
 game (
+	name "Rooms - The Main Building (Italy) (Demo)"
+	description "Rooms - The Main Building (Italy) (Demo)"
+	region "Italy"
+	rom ( name "Rooms - The Main Building (Italy) (Demo).bcn" size 856 crc 033D9183 md5 A3DBE358CAF50A12786C2A1758641845 sha1 AA19C4FE429505C13435A0DF872FB639462DEB5D )
+)
+game (
+	name "Rooms - The Main Building (Spain) (Demo)"
+	description "Rooms - The Main Building (Spain) (Demo)"
+	region "Spain"
+	rom ( name "Rooms - The Main Building (Spain) (Demo).bcn" size 856 crc 593F0283 md5 2E741E921BF1128950AA40A7F150ACD0 sha1 5140E4955BE6965D970DCD55C5B73E478A7F5684 )
+)
+game (
 	name "Rooms - The Main Building (USA) (Demo)"
 	description "Rooms - The Main Building (USA) (Demo)"
 	region "USA"
@@ -41146,6 +41925,13 @@ game (
 	region "Japan"
 	serial "ARFJ"
 	rom ( name "Rune Factory - Shin Bokujou Monogatari (Japan).nds" size 134217728 crc 5AC42137 md5 FAAD27680C6B4B703C8D00B692CFE46C sha1 CE3C7E51AEB9EDF5DFF4B692D020D306ECE3C0D5 serial "ARFJ" )
+)
+game (
+	name "Rune Factory - Sinmokjjangiyagi (Korea)"
+	description "Rune Factory - Sinmokjjangiyagi (Korea)"
+	region "Korea"
+	serial "ARFK"
+	rom ( name "Rune Factory - Sinmokjjangiyagi (Korea).nds" size 134217728 crc 19FBA62C md5 FE08CE65DF47D2ADAB77AE6C9F03F953 sha1 90DA9ECD5170482A2AB74D71EA0D5A8AF7DE4338 serial "ARFK" )
 )
 game (
 	name "Rune Factory 2 (Japan)"
@@ -43194,6 +43980,13 @@ game (
 	rom ( name "SimAnimals (Japan) (En,Ja).nds" size 134217728 crc 9888B3AE md5 F471814567527DA0AD2F3754E074765F sha1 08797718A312C51F1218C5DA08D060BCD9C571D6 serial "CM3J" )
 )
 game (
+	name "SimAnimals (Korea) (En,Ko)"
+	description "SimAnimals (Korea) (En,Ko)"
+	region "Korea"
+	serial "CM3K"
+	rom ( name "SimAnimals (Korea) (En,Ko).nds" size 134217728 crc 900E1CB3 md5 E8FA907AAB2797DD59D7B9F470DC05AC sha1 1B8AC4B46DB56C1F928AEEF92BE3CA6182323430 serial "CM3K" )
+)
+game (
 	name "SimAnimals (USA) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)"
 	description "SimAnimals (USA) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da)"
 	region "USA"
@@ -43227,6 +44020,13 @@ game (
 	region "Europe"
 	serial "YC2P"
 	rom ( name "SimCity - Creator (Europe) (En,Fr,De,Es,It,Nl).nds" size 67108864 crc 5A9D9B5E md5 FEC02E6FF37589793554A4A3CB9FC1D0 sha1 CD50FC866F9B192A4816A49A852A40562BCE2590 serial "YC2P" )
+)
+game (
+	name "SimCity - Creator (Korea)"
+	description "SimCity - Creator (Korea)"
+	region "Korea"
+	serial "YC2K"
+	rom ( name "SimCity - Creator (Korea).nds" size 67108864 crc AE8C472B md5 F4B2911E9B391A8DDC2C26BE406DEE10 sha1 7AF255B6FE903B372B1AE5F22151ED58E286A7FD serial "YC2K" )
 )
 game (
 	name "SimCity - Creator (USA) (En,Fr,Es)"
@@ -44250,13 +45050,6 @@ game (
 	rom ( name "Sonic Rush (Europe) (En,Ja,Fr,De,Es,It).nds" size 67108864 crc 0A0DEC19 md5 69DCD5F80F00EAC0CBE03DAEDF5E473C sha1 52E5024EFCF7617A820FA23789B37E5168C3C4FC serial "ASCP" )
 )
 game (
-	name "Sonic Rush (Japan) (Demo) (DS Broadcast)"
-	description "Sonic Rush (Japan) (Demo) (DS Broadcast)"
-	region "Japan"
-	serial "NTRJ"
-	rom ( name "Sonic Rush (Japan) (Demo) (DS Broadcast).nds" size 825544 crc C9C6CD1F md5 64621C79E2625DECD406A7DC68A2A7C0 sha1 62432783DFCC19EA4DA54E4D9F6AC816850A473B serial "NTRJ" )
-)
-game (
 	name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It)"
 	description "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It)"
 	region "Japan"
@@ -44264,10 +45057,23 @@ game (
 	rom ( name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It).nds" size 67108864 crc 047DCE52 md5 BE3B2E1DC65ABA9CA290B51EBB5FCE20 sha1 8A5AF404F063ED0342E20DCB0AF0F42CE9509AC1 serial "ASCJ" )
 )
 game (
-	name "Sonic Rush (Japan, USA) (En,Ja) (Beta) (E3 2005 demo)"
-	description "Sonic Rush (Japan, USA) (En,Ja) (Beta) (E3 2005 demo)"
+	name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Demo) (DS Broadcast)"
+	description "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Demo) (DS Broadcast)"
+	region "Japan"
+	serial "NTRJ"
+	rom ( name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Demo) (DS Broadcast).nds" size 825544 crc C9C6CD1F md5 64621C79E2625DECD406A7DC68A2A7C0 sha1 62432783DFCC19EA4DA54E4D9F6AC816850A473B serial "NTRJ" )
+)
+game (
+	name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Multiplayer) (DS Broadcast)"
+	description "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Multiplayer) (DS Broadcast)"
+	region "Japan"
+	rom ( name "Sonic Rush (Japan) (En,Ja,Fr,De,Es,It) (Multiplayer) (DS Broadcast) (Es).bcn" size 856 crc 9E5D62F5 md5 276C51ED83F098CBE0C9F51CDC966A6A sha1 15B013AF192D004292837B3FC529F6B9597B7664 )
+)
+game (
+	name "Sonic Rush (Japan, USA) (En,Ja) (Demo) (Kiosk, E3 2005)"
+	description "Sonic Rush (Japan, USA) (En,Ja) (Demo) (Kiosk, E3 2005)"
 	serial "ASCJ"
-	rom ( name "Sonic Rush (Japan, USA) (En,Ja) (Beta) (E3 2005 demo).nds" size 67108864 crc 82E987FC md5 0B463B9A68F62BBEC6446EFEB6809C92 sha1 3CC80CA2F88D353510A3648EAF8CCFE5F4009046 serial "ASCJ" )
+	rom ( name "Sonic Rush (Japan, USA) (En,Ja) (Demo) (Kiosk, E3 2005).nds" size 67108864 crc 82E987FC md5 0B463B9A68F62BBEC6446EFEB6809C92 sha1 3CC80CA2F88D353510A3648EAF8CCFE5F4009046 serial "ASCJ" )
 )
 game (
 	name "Sonic Rush (USA) (En,Ja,Fr,De,Es,It)"
@@ -44285,13 +45091,6 @@ game (
 	name "Sonic Rush (USA, Europe) (Multiplayer) (DS Broadcast)"
 	description "Sonic Rush (USA, Europe) (Multiplayer) (DS Broadcast)"
 	rom ( name "Sonic Rush (USA, Europe) (Multiplayer) (DS Broadcast).bcn" size 856 crc 7EF137E4 md5 EDD3821C7AC893C52683685CA09E8A3B sha1 4E7B0B065187AC21BE8EF210BC919715BF16E42D )
-)
-game (
-	name "Sonic Rush - Multiplayer (Japan) (DS Broadcast)"
-	description "Sonic Rush - Multiplayer (Japan) (DS Broadcast)"
-	region "Japan"
-	serial "NTRJ"
-	rom ( name "Sonic Rush - Multiplayer (Japan) (DS Broadcast).nds" size 1004232 crc 5A70384D md5 C97142A8CF95897900F60C32CB0FD18D sha1 83952A6FD8500431AC8B1BD14B75A5D89B19AE62 serial "NTRJ" )
 )
 game (
 	name "Sonic Rush Adventure (Europe) (En,Ja,Fr,De,Es,It)"
@@ -44313,6 +45112,13 @@ game (
 	region "Japan"
 	serial "A3YJ"
 	rom ( name "Sonic Rush Adventure (Japan) (En,Ja,Fr,De,Es,It).nds" size 67108864 crc 853BD56D md5 54BBACE67D6EE4EE5C4DDC7261B6AF24 sha1 2D3EF3F259F8D2CBB08529C7F07022461CFA5840 serial "A3YJ" )
+)
+game (
+	name "Sonic Rush Adventure (Korea)"
+	description "Sonic Rush Adventure (Korea)"
+	region "Korea"
+	serial "A3YK"
+	rom ( name "Sonic Rush Adventure (Korea).nds" size 67108864 crc 8F6A0857 md5 A43D4D2FA0BB1206AB115A04A05DC886 sha1 8964FD8778C26B08B629CBAE36024C4346D61D82 serial "A3YK" )
 )
 game (
 	name "Sonic Rush Adventure (USA) (En,Ja,Fr,De,Es,It)"
@@ -44341,6 +45147,13 @@ game (
 	region "Japan"
 	serial "C4HJ"
 	rom ( name "Sonshi no Heihou DS (Japan).nds" size 134217728 crc EDF0449F md5 3F6DCE61355D7E64DC87243E4B0032FA sha1 DB64D1D2A84F4F732A3B1EE666DFD0F560BEDF7B serial "C4HJ" )
+)
+game (
+	name "Sonyeojeok Yeonae Hyeongmyeong - Love Revo!! DS (Korea)"
+	description "Sonyeojeok Yeonae Hyeongmyeong - Love Revo!! DS (Korea)"
+	region "Korea"
+	serial "YLVK"
+	rom ( name "Sonyeojeok Yeonae Hyeongmyeong - Love Revo!! DS (Korea).nds" size 67108864 crc D571E94D md5 ABF608A7846B8C9C8951056D19B6773E sha1 E00BD86E320B6DB39DCDBAEFEBF700B6F3D87E17 serial "YLVK" )
 )
 game (
 	name "Sora no Otoshimono Forte - Dreamy Season (Japan)"
@@ -44601,6 +45414,13 @@ game (
 	region "Japan"
 	serial "YW4J"
 	rom ( name "Spectral Force - Genesis (Japan).nds" size 67108864 crc 8F062E72 md5 3BB3AF12380EE8E89FF01AAC3F8A3164 sha1 D5D381EBC0747F1FFA8B290B6C0A305DC0C43CFD serial "YW4J" )
+)
+game (
+	name "Spectral Force - Genesis (Korea)"
+	description "Spectral Force - Genesis (Korea)"
+	region "Korea"
+	serial "YW4K"
+	rom ( name "Spectral Force - Genesis (Korea).nds" size 67108864 crc 1C50ABF9 md5 96C7E75E82B854DB32AFC08445109F4B sha1 4542C75AF243B28E9B882634C15ED3C3EA0BC9F5 serial "YW4K" )
 )
 game (
 	name "Spectral Force - Genesis (USA)"
@@ -44921,8 +45741,8 @@ game (
 	name "Spiderwick Chronicles, The (Europe) (En,Fr,De,Es,It)"
 	description "Spiderwick Chronicles, The (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
-	serial "YS8P"
-	rom ( name "Spiderwick Chronicles, The (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 1FD0AB92 md5 90D76D4876D34B7BFFB42218225D9B4E sha1 9DC8A3FD2BB0570511EE415E9D0B21E32A4E79BD serial "YS8P" )
+	serial "BC3P"
+	rom ( name "Spiderwick Chronicles, The (Europe) (En,Fr,De,Es,It).nds" size 67108864 crc 60F63C69 md5 8C4D109EBD349FA15C3EB3B799C1BCBC sha1 2C1B0527EDB53FCEC2DA51AA351F42E0EF7FEAAF serial "BC3P" )
 )
 game (
 	name "Spiderwick Chronicles, The (USA) (En,Fr,De,Es,It)"
@@ -44986,16 +45806,16 @@ game (
 	rom ( name "SpongeBob - SpongeBob's Truth or Square (Europe) (En,De,It,Nl).nds" size 33554432 crc 33BF4D87 md5 2E80A9A46D03B7F98D5EA4FC7FFF7488 sha1 A8CD389ABA2189355632AB4BF096688DDEB95629 serial "BSOP" )
 )
 game (
-	name "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (USA, Europe) (Multiplayer) (DS Broadcast)"
-	description "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (USA, Europe) (Multiplayer) (DS Broadcast)"
-	serial "B6BP"
-	rom ( name "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (USA, Europe) (Multiplayer) (DS Broadcast).nds" size 1483912 crc A818C451 md5 872C84743DD780B11E53E2275318C371 sha1 5297C6E9519667638B36C25B80803A5579FDDD90 serial "B6BP" )
+	name "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (Europe) (Multiplayer) (DS Broadcast)"
+	description "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (Europe) (Multiplayer) (DS Broadcast)"
+	region "Europe"
+	rom ( name "SpongeBob - Surf & Skate Roadtrip - Skate Half-Pipe (Europe) (Multiplayer) (DS Broadcast) (Nl).bcn" size 856 crc 4BA78D73 md5 0D3E14CB86723796E7D630D48FF8A49F sha1 5BD044C96ED4AF5298A99EF516B0E359AF76C5F2 )
 )
 game (
-	name "SpongeBob - Surf & Skate Roadtrip - Surf (USA, Europe) (Multiplayer) (DS Broadcast)"
-	description "SpongeBob - Surf & Skate Roadtrip - Surf (USA, Europe) (Multiplayer) (DS Broadcast)"
-	serial "B6BP"
-	rom ( name "SpongeBob - Surf & Skate Roadtrip - Surf (USA, Europe) (Multiplayer) (DS Broadcast).nds" size 1643656 crc 5A42B4C3 md5 89D955C12F21A3B0C63064707BD25AEB sha1 0865255EE433B915253EAC9242B6B8F0FC499EB6 serial "B6BP" )
+	name "SpongeBob - Surf & Skate Roadtrip - Surf (Europe) (Multiplayer) (DS Broadcast)"
+	description "SpongeBob - Surf & Skate Roadtrip - Surf (Europe) (Multiplayer) (DS Broadcast)"
+	region "Europe"
+	rom ( name "SpongeBob - Surf & Skate Roadtrip - Surf (Europe) (Multiplayer) (DS Broadcast) (Nl).bcn" size 856 crc 7B04B607 md5 383DA4FFCD94678A96B30434F74F47FE sha1 9637733997326BC317ED5A018DD7BD816F9C0E89 )
 )
 game (
 	name "SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Nl)"
@@ -45093,6 +45913,13 @@ game (
 	region "Europe"
 	serial "ANUP"
 	rom ( name "SpongeBob SquarePants and Friends Unite! (Europe) (En,Fr,De,Es,Nl).nds" size 16777216 crc 0E01F2C9 md5 332899323A3E6A2D9E6203CFD054C599 sha1 8BAF098B42BBA2114EECC2D46B104472F451E3E7 serial "ANUP" )
+)
+game (
+	name "SpongeBob Yori Daesodong (Korea) (En)"
+	description "SpongeBob Yori Daesodong (Korea) (En)"
+	region "Korea"
+	serial "CCKK"
+	rom ( name "SpongeBob Yori Daesodong (Korea) (En).nds" size 33554432 crc 5758FFD5 md5 0345D590DB3E3C339D50491E2475E1B0 sha1 ADD02FB63F1807CABF6914531F6A1128BCAE47B6 serial "CCKK" )
 )
 game (
 	name "SpongeBob and Friends - Battle for Volcano Island (Europe) (En,Fr,De,Es,It,Nl)"
@@ -45212,6 +46039,13 @@ game (
 	rom ( name "SpongeBob's Truth or Square (USA) (Demo) (Nintendo Channel).bin" size 1842727 crc 515D3BE6 md5 FE2D482D44C8EB24874F259852791C1C sha1 7297059D3B308CA7300A2F6CBEECCA8C673BD5DF )
 )
 game (
+	name "SpongeBobgwa Chingudeul (Korea)"
+	description "SpongeBobgwa Chingudeul (Korea)"
+	region "Korea"
+	serial "CS9K"
+	rom ( name "SpongeBobgwa Chingudeul (Korea).nds" size 33554432 crc 38763EDE md5 990E7980ED58CF8F2A629975FE5947AC sha1 AE66E73C63351F6679939B122010A45CBCB3F674 serial "CS9K" )
+)
+game (
 	name "SpongeBobui Atlantis (Korea)"
 	description "SpongeBobui Atlantis (Korea)"
 	region "Korea"
@@ -45250,6 +46084,13 @@ game (
 	region "Japan"
 	serial "YSPJ"
 	rom ( name "Spore Creatures (Japan) (En,Ja).nds" size 33554432 crc E4CB5B82 md5 85422F946B81582F1F23B1E13D8FECE9 sha1 C6B0A4FF48AE5C3E915BD6A4F1B3A412AA647E26 serial "YSPJ" )
+)
+game (
+	name "Spore Creatures (Korea)"
+	description "Spore Creatures (Korea)"
+	region "Korea"
+	serial "YSPK"
+	rom ( name "Spore Creatures (Korea).nds" size 33554432 crc 78625691 md5 AFE78C7C3593A29F79BE9883F142FEAF sha1 E9EF71B5BB40B87CE142E6CA426E5231585BC183 serial "YSPK" )
 )
 game (
 	name "Spore Creatures (USA) (En,Fr,De,Es,It) (Demo)"
@@ -45340,6 +46181,13 @@ game (
 	region "USA"
 	serial "ASSE"
 	rom ( name "Spyro - Shadow Legacy (USA) (Beta).nds" size 67108864 crc 94CADF7C md5 B2249FC513EEBE559A741EEE32925F02 sha1 0BA1C08BD1CF0D076EB8DA431AE081ED1CC82DE3 serial "ASSE" )
+)
+game (
+	name "Squeeballs Party (Europe) (En,Fr,De,Es,It)"
+	description "Squeeballs Party (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "BSVP"
+	rom ( name "Squeeballs Party (Europe) (En,Fr,De,Es,It).nds" size 33554432 crc 8F045421 md5 071CBD5938FA3F6F9370C7065F8AF7B1 sha1 84EB58FC3AF39E605A6EAFFC8887B820B4ECA65A serial "BSVP" )
 )
 game (
 	name "Squeeballs Party (USA)"
@@ -45549,6 +46397,13 @@ game (
 	region "Japan"
 	serial "YSTJ"
 	rom ( name "Star Wars - The Force Unleashed (Japan).nds" size 67108864 crc 8954639E md5 0637C66829E9202A375D160ED7B8415D sha1 9AFE09D8DBD48B14B5034CB2C6BF2742E2124CF3 serial "YSTJ" )
+)
+game (
+	name "Star Wars - The Force Unleashed (Korea)"
+	description "Star Wars - The Force Unleashed (Korea)"
+	region "Korea"
+	serial "YSTK"
+	rom ( name "Star Wars - The Force Unleashed (Korea).nds" size 67108864 crc DF6C1C61 md5 4C80EA751253D52E8D080CE5FA8C06D4 sha1 3DC200BE85B896E201A6A0BA76297A488C2F3BE3 serial "YSTK" )
 )
 game (
 	name "Star Wars - The Force Unleashed (USA) (En,Fr,De,Es,It)"
@@ -46053,11 +46908,10 @@ game (
 	rom ( name "Sumeoinneun Nunui Him - DS Allyeok Training (Korea).nds" size 33554432 crc A7FE2095 md5 B287DED23C5C918033937F1AE016CFFB sha1 F747C0866CE509E01DDDD8914D188527C44CD100 serial "AG3K" )
 )
 game (
-	name "Sumeoinneun Nunui Him - DS Allyeok Training (Korea) (Demo) (DS Broadcast)"
-	description "Sumeoinneun Nunui Him - DS Allyeok Training (Korea) (Demo) (DS Broadcast)"
+	name "Sumeoinneun Nunui Him - DS Allyeok Training - Cheheompan (Korea) (Demo) (DS Broadcast)"
+	description "Sumeoinneun Nunui Him - DS Allyeok Training - Cheheompan (Korea) (Demo) (DS Broadcast)"
 	region "Korea"
-	serial "NTRJ"
-	rom ( name "Sumeoinneun Nunui Him - DS Allyeok Training (Korea) (Demo) (DS Broadcast).nds" size 1434312 crc 23C577E6 md5 05D0BA16515FB2FCFC2BE49B48FBCCCF sha1 7630C64A9DC5548E361A058EF4999A0AFD67B940 serial "NTRJ" )
+	rom ( name "Sumeoinneun Nunui Him - DS Allyeok Training - Cheheompan (Korea) (Demo) (DS Broadcast).bcn" size 856 crc 99D15ABA md5 867A403F49F91502852680E192798357 sha1 6E3C7A98D94C9F76DF3740994F7CA122E1695FD1 )
 )
 game (
 	name "Sumeun Sojireul Kkaeuneun - Geurimgyosil (Korea) (NDSi Enhanced)"
@@ -46205,6 +47059,13 @@ game (
 	region "USA"
 	serial "AFTE"
 	rom ( name "Super Fruit Fall (USA).nds" size 8388608 crc DF5772B2 md5 56CAD666F89D2D56AC6AE12982E6DA09 sha1 59669E01426F86737414A6F286E29D631C570C78 serial "AFTE" )
+)
+game (
+	name "Super Fun Sudoku (Europe) (En,De,Es,It)"
+	description "Super Fun Sudoku (Europe) (En,De,Es,It)"
+	region "Europe"
+	serial "YUSP"
+	rom ( name "Super Fun Sudoku (Europe) (En,De,Es,It).nds" size 8388608 crc 70009240 md5 70250EFFDC0DBCAFD2C5FD958D370F15 sha1 D7EEA9D70563C1793238AA4131B797264F890AAA serial "YUSP" )
 )
 game (
 	name "Super Kaseki Horider (Japan) (NDSi Enhanced)"
@@ -46639,6 +47500,13 @@ game (
 	rom ( name "TNA Wrestling Impact! - Cross the Line (USA).nds" size 67108864 crc 2FCDB011 md5 13A49D0DDC0FDDB511A1A249542B20A6 sha1 ADF4F87C75B3FEF88CE8546CD128924DA13A105E serial "BTXE" )
 )
 game (
+	name "TOEIC DS - Haru 10-bun Yakjeomgeukbok +200 (Korea)"
+	description "TOEIC DS - Haru 10-bun Yakjeomgeukbok +200 (Korea)"
+	region "Korea"
+	serial "CT5K"
+	rom ( name "TOEIC DS - Haru 10-bun Yakjeomgeukbok +200 (Korea).nds" size 134217728 crc AE5981F7 md5 47E5C8CFF6393F48C4769B7683C697F2 sha1 4828A1A5DF820B1F01B91D617FF9E031D7900461 serial "CT5K" )
+)
+game (
 	name "TOEIC Test - Koushiki DS Training (Japan)"
 	description "TOEIC Test - Koushiki DS Training (Japan)"
 	region "Japan"
@@ -46672,6 +47540,13 @@ game (
 	region "Japan"
 	serial "AEYJ"
 	rom ( name "TOEIC Test DS Training (Japan) (Rev 3).nds" size 67108864 crc 7DB67757 md5 33E1F2E77D24C6CB5317C9FC41A52A5C sha1 8DA06A5AEC303C939AB9CF439200ECFB9DE58E0F serial "AEYJ" )
+)
+game (
+	name "TOEIC Test DS Training (Korea)"
+	description "TOEIC Test DS Training (Korea)"
+	region "Korea"
+	serial "AEYK"
+	rom ( name "TOEIC Test DS Training (Korea).nds" size 67108864 crc EAC84687 md5 05CDDC191E8FE0056E18AA54861E8F83 sha1 0AD0941D9A982F1278FC6B73D90F8C3EA952243B serial "AEYK" )
 )
 game (
 	name "TOEIC Test Eitango - Speed Master DS (Japan)"
@@ -47428,6 +48303,13 @@ game (
 	rom ( name "Tele 7 Jeux Inedits - Professeur Brainmaniac (France) (En,Fr,De,Es,It).nds" size 8388608 crc 80E5AE66 md5 E9DF0947FA1B753070505F77028FE5D2 sha1 D0BDC77296497BADB7FDB178C30DF33EAA9D4421 serial "AQEX" )
 )
 game (
+	name "Tele 7 Jeux Inedits - Texas Hold 'em Poker Pack (France)"
+	description "Tele 7 Jeux Inedits - Texas Hold 'em Poker Pack (France)"
+	region "France"
+	serial "ATXF"
+	rom ( name "Tele 7 Jeux Inedits - Texas Hold 'em Poker Pack (France).nds" size 16777216 crc DD608713 md5 60AC729532A38865FE5A69DBCDA6F5B9 sha1 31D4C86E3CAB5437A13ABEBFDB72B775D40092AA serial "ATXF" )
+)
+game (
 	name "Tele 7 Jeux Inedits - WordJong (France)"
 	description "Tele 7 Jeux Inedits - WordJong (France)"
 	region "France"
@@ -47580,6 +48462,12 @@ game (
 	region "Japan"
 	serial "ANKJ"
 	rom ( name "Tenohira Gakushuu - Zettai Onkan Training DS (Japan).nds" size 8388608 crc 410873F1 md5 E231B6ED8B566484AC18C9BA00CAE2E1 sha1 D75E68ECE7637CA5C0A2CFFD186726C32E42D0DC serial "ANKJ" )
+)
+game (
+	name "Tentai-Show, The (Japan) (Nintendo Game Seminar 2010)"
+	description "Tentai-Show, The (Japan) (Nintendo Game Seminar 2010)"
+	region "Japan"
+	rom ( name "Tentai-Show, The (Japan) (Nintendo Game Seminar 2010).bin" size 2157588 crc 12F48E8C md5 28008F44FDA9691491069F61F4451FBC sha1 58BE26B400BDF4AC803069F891A5CD3779ABF75E )
 )
 game (
 	name "Tentsunagi (Japan) (Rev 1) (Nintendo Game Seminar 2009)"
@@ -47790,12 +48678,6 @@ game (
 	region "USA"
 	serial "ARVE"
 	rom ( name "That's So Raven - Psychic on the Scene (USA).nds" size 33554432 crc 6D066C71 md5 BAAEC7C578F61E0393079B0E6467EB63 sha1 EE76F60B87DE2F82BC328AA80548AC0EC5DE71DA serial "ARVE" )
-)
-game (
-	name "The Tentai-Show (Japan) (Nintendo Game Seminar 2010)"
-	description "The Tentai-Show (Japan) (Nintendo Game Seminar 2010)"
-	region "Japan"
-	rom ( name "The Tentai-Show (Japan) (Nintendo Game Seminar 2010).bin" size 2157588 crc 12F48E8C md5 28008F44FDA9691491069F61F4451FBC sha1 58BE26B400BDF4AC803069F891A5CD3779ABF75E )
 )
 game (
 	name "Theme Park (Europe) (En,Ja,Fr,De,Es,It)"
@@ -48109,6 +48991,13 @@ game (
 	region "Japan"
 	serial "YHLJ"
 	rom ( name "Time Hollow - Ubawareta Kako o Motomete (Japan).nds" size 134217728 crc BF67D064 md5 0F58BF4A9A094A69FD0AAB581AB2541D sha1 C37E4778CDB640CA382DF8F1FAAEB8C0E7EFB2D9 serial "YHLJ" )
+)
+game (
+	name "Times, The - Crossword Challenge (Europe)"
+	description "Times, The - Crossword Challenge (Europe)"
+	region "Europe"
+	serial "YQOP"
+	rom ( name "Times, The - Crossword Challenge (Europe).nds" size 8388608 crc 9D498CE4 md5 D024AEDE331359538BE757E80F1FB284 sha1 233E4B35D4E092B4A5E6D2B81047F8BF28F741E6 serial "YQOP" )
 )
 game (
 	name "Timmy Time (Europe)"
@@ -49258,6 +50147,13 @@ game (
 	rom ( name "Touch Detective II (France).nds" size 33554432 crc 5D2CEB3C md5 F6BF67A5A61CE62B26144C943FAA8171 sha1 491BA648EE3BFDC8AE5F6132D9FA287FFE0FC7CD serial "AOJF" )
 )
 game (
+	name "Touch Dictionary (Korea)"
+	description "Touch Dictionary (Korea)"
+	region "Korea"
+	serial "ADWK"
+	rom ( name "Touch Dictionary (Korea).nds" size 67108864 crc 8DB30695 md5 AA9CB87B4C7D450CCC98368545CED0C2 sha1 25CA765C5839B4A063090F4768728B211B2CB75A serial "ADWK" )
+)
+game (
 	name "Touch Dictionary (Korea) (Rev 1)"
 	description "Touch Dictionary (Korea) (Rev 1)"
 	region "Korea"
@@ -49738,6 +50634,20 @@ game (
 	region "Germany"
 	serial "AFZD"
 	rom ( name "Transformers - Autobots (Germany) (Rev 1).nds" size 67108864 crc 76BEA66F md5 F5527C9317A516A53E196C16E6C7E472 sha1 8951394CF4AB9D01A5E42DCD269337640EA8D3AF serial "AFZD" )
+)
+game (
+	name "Transformers - Autobots (Italy)"
+	description "Transformers - Autobots (Italy)"
+	region "Italy"
+	serial "AFZI"
+	rom ( name "Transformers - Autobots (Italy).nds" size 67108864 crc AEC9022B md5 99692C15EEB913115BB6AA91903B4E67 sha1 F908EABF467265B4EE0A55D6F88609569C22D34E serial "AFZI" )
+)
+game (
+	name "Transformers - Autobots (Italy) (Rev 1)"
+	description "Transformers - Autobots (Italy) (Rev 1)"
+	region "Italy"
+	serial "AFZI"
+	rom ( name "Transformers - Autobots (Italy) (Rev 1).nds" size 67108864 crc 43FA025C md5 43D4A63636A0AA81C6F469C4A0BD2882 sha1 946DE3073DFFC9ACEA3B2A47C8E2D7AB4A48037A serial "AFZI" )
 )
 game (
 	name "Transformers - Autobots (Spain)"
@@ -50767,6 +51677,13 @@ game (
 	rom ( name "Up (Italy).nds" size 33554432 crc 01CB0F2C md5 FAFF3DF1B1E290BCF27749F1FC6E14DE sha1 6B797C0B1134A60F56500FF290281740CAA843F3 serial "CUYI" )
 )
 game (
+	name "Up (Korea)"
+	description "Up (Korea)"
+	region "Korea"
+	serial "CUYK"
+	rom ( name "Up (Korea).nds" size 33554432 crc 04A69055 md5 FFFA2D3E4AD27C83971CF9FA4FFE6DAD sha1 360E357B312A85F930103BB2945D62329B64A208 serial "CUYK" )
+)
+game (
 	name "Up (Spain)"
 	description "Up (Spain)"
 	region "Spain"
@@ -51170,6 +52087,13 @@ game (
 	rom ( name "Viva Pinata - Pocket Paradise (USA) (En,Fr,Es).nds" size 134217728 crc 3063378A md5 58B83DF8DC4B4B21619B91D86D32F274 sha1 F56D9611F0E010EECC1A2E88F1D6173F880EF2DC serial "CP3E" )
 )
 game (
+	name "Voca Mania - Ameliore Ton Vocabulaire en T'Amusant! (France)"
+	description "Voca Mania - Ameliore Ton Vocabulaire en T'Amusant! (France)"
+	region "France"
+	serial "CYCF"
+	rom ( name "Voca Mania - Ameliore Ton Vocabulaire en T'Amusant! (France).nds" size 33554432 crc 24BAAACC md5 4E0893FCE75A7BAF52E72DCD7863DF19 sha1 4D15809D66B3EC3371FC81A90B2403C3C441C531 serial "CYCF" )
+)
+game (
 	name "VocabStar English Advanced (Europe) (En,Fr,De,Es,It)"
 	description "VocabStar English Advanced (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -51259,6 +52183,13 @@ game (
 	region "Korea"
 	serial "AW8K"
 	rom ( name "WWE SmackDown dae Raw 2008 Featuring ECW (Korea).nds" size 67108864 crc D27BCC56 md5 7C54AC2A23941D7B9247309A630A7603 sha1 8B030FC413549B9D285E4FFDC4DDE9F5C8F97B11 serial "AW8K" )
+)
+game (
+	name "WWE SmackDown dae Raw 2009 Featuring ECW (Korea)"
+	description "WWE SmackDown dae Raw 2009 Featuring ECW (Korea)"
+	region "Korea"
+	serial "YW9K"
+	rom ( name "WWE SmackDown dae Raw 2009 Featuring ECW (Korea).nds" size 134217728 crc 7AEF3119 md5 FE0CAD4A735BE93B8E45CDC69C5F1A3F sha1 4815184D4866B823350FD65A7B577E80C6FFC6F0 serial "YW9K" )
 )
 game (
 	name "WWE SmackDown vs Raw 2008 Featuring ECW (Europe) (En,De,Es,It)"
@@ -53033,6 +53964,13 @@ game (
 	rom ( name "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Japan) (En,Ja,Fr,De,Es,It).nds" size 268435456 crc 5F7F8839 md5 FB3256B371B675F09FA56A2F67A2A33B sha1 7475680B13442A678911FEB6CFE205C1F7B86726 serial "CY8J" )
 )
 game (
+	name "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Korea) (En,Ja,Ko)"
+	description "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Korea) (En,Ja,Ko)"
+	region "Korea"
+	serial "CY8K"
+	rom ( name "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Korea) (En,Ja,Ko).nds" size 268435456 crc 02F969A5 md5 0106AD249DF8C10FC018FAB1D9E43FFD sha1 700BA4D826C3FBFAC1CEA25250E6E8F231F31C75 serial "CY8K" )
+)
+game (
 	name "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Korea) (En,Ja,Ko) (Rev 1)"
 	description "Yu-Gi-Oh! 5D's - Stardust Accelerator - World Championship 2009 (Korea) (En,Ja,Ko) (Rev 1)"
 	region "Korea"
@@ -53887,6 +54825,12 @@ game (
 	region "Japan"
 	serial "AZAJ"
 	rom ( name "Zunou ni Asekaku Game Series! Vol. 1 - Cool 104 Joker & Setline (Japan).nds" size 33554432 crc 58126FB5 md5 F24FEA60DD989F890D8F49F2633E2424 sha1 8412C85A3163D9679C345CE2BBB9F8F0A091BA4C serial "AZAJ" )
+)
+game (
+	name "de Blob (Unknown) (Proto)"
+	description "de Blob (Unknown) (Proto)"
+	serial "YDEE"
+	rom ( name "de Blob (Unknown) (Proto).nds" size 67108864 crc C3199F96 md5 CA4ECDC4A31585490305892F46818F4F sha1 0A33B848EBCB5059F9D9405E45E10150998360BB serial "YDEE" )
 )
 game (
 	name "de Blob 2 (Europe) (En,Fr,De,Es,It,Nl) (NDSi Enhanced)"

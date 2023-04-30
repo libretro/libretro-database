@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Mobile - Palm OS"
 	description "Mobile - Palm OS"
-	version "2022.10.28"
+	version "2023.04.30"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -102,16 +102,16 @@ game (
 	rom ( name "3D Air Hockey (USA) (v1.2) (Greyscale) (LoRes).prc" size 126905 crc 12E541C8 md5 9C23DA116FF8DB7F16BE28579D1BE40E sha1 92A4F77C36DF8642197F97BC4DB26F07D6E7F9F8 )
 )
 game (
+	name "3D Slider (USA) (2004-10-21) (Color)"
+	description "3D Slider (USA) (2004-10-21) (Color)"
+	region "USA"
+	rom ( name "3D Slider (USA) (Color) (2004-10-21).prc" size 489504 crc 8DDC9230 md5 1F95958EBD4AE5789717184F6E039682 sha1 9DDDA8275353718E4F4364762A34EC98576E3A08 )
+)
+game (
 	name "3D Slider (USA) (Color)"
 	description "3D Slider (USA) (Color)"
 	region "USA"
 	rom ( name "3D Slider (USA) (Color).prc" size 348735 crc AE17DF98 md5 673F0DD87C63CE0E9904143D51A438ED sha1 C96F13D259D1780CD555CE16B8CE03A2B07AA745 )
-)
-game (
-	name "3D Slider (USA) (Color) (2004-10-21)"
-	description "3D Slider (USA) (Color) (2004-10-21)"
-	region "USA"
-	rom ( name "3D Slider (USA) (Color) (2004-10-21).prc" size 489504 crc 8DDC9230 md5 1F95958EBD4AE5789717184F6E039682 sha1 9DDDA8275353718E4F4364762A34EC98576E3A08 )
 )
 game (
 	name "3D Slider (USA) (Greyscale)"
@@ -1356,28 +1356,28 @@ game (
 	rom ( name "Hoyle Spaces (USA) (Greyscale).prc" size 162836 crc 74BB2865 md5 E5884D25AFDC47A3E38502CF7C64CBA1 sha1 492756B9D7D791339A86E2E2E5B37AB22BDFF795 )
 )
 game (
+	name "Hoyle Video Poker (USA) (2002-06-04) (Color)"
+	description "Hoyle Video Poker (USA) (2002-06-04) (Color)"
+	region "USA"
+	rom ( name "Hoyle Video Poker (USA) (Color) (2002-06-04).prc" size 91431 crc A140D535 md5 9676061DB2E45E66E3EF9D6EDBF26642 sha1 68C175A66B06E35022A8F19A7B3B6142ECA46AFA )
+)
+game (
+	name "Hoyle Video Poker (USA) (2002-06-04) (Greyscale)"
+	description "Hoyle Video Poker (USA) (2002-06-04) (Greyscale)"
+	region "USA"
+	rom ( name "Hoyle Video Poker (USA) (Greyscale) (2002-06-04).prc" size 65853 crc DFC53BCE md5 29449D71EF7D2DACD2D082E8BC9E38D8 sha1 DF27835B7029D8685617C91AFA4D575A5DF3D39E )
+)
+game (
 	name "Hoyle Video Poker (USA) (Color)"
 	description "Hoyle Video Poker (USA) (Color)"
 	region "USA"
 	rom ( name "Hoyle Video Poker (USA) (Color).prc" size 90611 crc 50932FF7 md5 688EDF4A9ABC31CECE3D5C38D43A6622 sha1 5B8EAFDD195D5D408845414AA1CCD29CCB059D54 )
 )
 game (
-	name "Hoyle Video Poker (USA) (Color) (2002-06-04)"
-	description "Hoyle Video Poker (USA) (Color) (2002-06-04)"
-	region "USA"
-	rom ( name "Hoyle Video Poker (USA) (Color) (2002-06-04).prc" size 91431 crc A140D535 md5 9676061DB2E45E66E3EF9D6EDBF26642 sha1 68C175A66B06E35022A8F19A7B3B6142ECA46AFA )
-)
-game (
 	name "Hoyle Video Poker (USA) (Greyscale)"
 	description "Hoyle Video Poker (USA) (Greyscale)"
 	region "USA"
 	rom ( name "Hoyle Video Poker (USA) (Greyscale).prc" size 65039 crc 3B7DB36D md5 62A7D92CD1D13F9635AA04E3A7D07CDF sha1 06073D44161C836234B42C51C12985F125FB0F3F )
-)
-game (
-	name "Hoyle Video Poker (USA) (Greyscale) (2002-06-04)"
-	description "Hoyle Video Poker (USA) (Greyscale) (2002-06-04)"
-	region "USA"
-	rom ( name "Hoyle Video Poker (USA) (Greyscale) (2002-06-04).prc" size 65853 crc DFC53BCE md5 29449D71EF7D2DACD2D082E8BC9E38D8 sha1 DF27835B7029D8685617C91AFA4D575A5DF3D39E )
 )
 game (
 	name "Hoyle Word Searches (USA) (Greyscale)"
@@ -1464,8 +1464,8 @@ game (
 	rom ( name "Jumble (USA) (Color).prc" size 897347 crc 9CACDD85 md5 DEF75C47A5115238718F5AF70F3D1A40 sha1 176783A6B469286955D764BEDA57303E81AE7849 )
 )
 game (
-	name "Jumble (USA) (Color) (Demo)"
-	description "Jumble (USA) (Color) (Demo)"
+	name "Jumble (USA) (Demo) (Color)"
+	description "Jumble (USA) (Demo) (Color)"
 	region "USA"
 	rom ( name "Jumble (USA) (Color) (Demo).prc" size 621342 crc 5EBB8836 md5 ED519B2B5F978C56BF0C27A4DC23DE01 sha1 D3A0B11662905773F5C53B020B1000E29212E6DD )
 )
@@ -1935,16 +1935,34 @@ game (
 	rom ( name "Palm Hanafuda (Japan).prc" size 182864 crc EB434A66 md5 CFBF7B3D23CDE6F36D258AA656D14897 sha1 323B2F24F18506851318C347E423A108833308BB )
 )
 game (
+	name "Palm Mahjong (Japan) (2002-08-24) (256-Bit Color)"
+	description "Palm Mahjong (Japan) (2002-08-24) (256-Bit Color)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (256-Bit Color) (2002-08-24).prc" size 269254 crc 0FBAE01F md5 88DC34B1C08C55D2DF172211A1B4CE20 sha1 D65DF7922D2BAF8349AFB4F6FF350FE3C074AE48 )
+)
+game (
+	name "Palm Mahjong (Japan) (2002-08-24) (BW)"
+	description "Palm Mahjong (Japan) (2002-08-24) (BW)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (BW) (2002-08-24).prc" size 167115 crc 26FE50AC md5 29BE7A27755892D81627527981CA9956 sha1 6FC2D3A7BAB6D68763E000DC0BF24D8535D29B69 )
+)
+game (
+	name "Palm Mahjong (Japan) (2002-08-24) (Color)"
+	description "Palm Mahjong (Japan) (2002-08-24) (Color)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (Color) (2002-08-24).prc" size 217272 crc F0B71AF3 md5 81351F2F4C87F8470187485965C66A88 sha1 8D34A2FD33E5F8A86BDDB0B8551474D6F9EF36B9 )
+)
+game (
+	name "Palm Mahjong (Japan) (2002-08-24) (Greyscale)"
+	description "Palm Mahjong (Japan) (2002-08-24) (Greyscale)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (Greyscale) (2002-08-24).prc" size 209799 crc 7729EDF5 md5 DB9C0F4C0884B7CD03F991791EFAD760 sha1 7C150560D933AD97CEE368D53E36EA818D38ED1A )
+)
+game (
 	name "Palm Mahjong (Japan) (256-Bit Color)"
 	description "Palm Mahjong (Japan) (256-Bit Color)"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (256-Bit Color).prc" size 265162 crc 0D1618D1 md5 7068402D4A3C2439F491EFBA7B132611 sha1 5270A145FF664E473B631FDE3425B80AEC2E1818 )
-)
-game (
-	name "Palm Mahjong (Japan) (256-Bit Color) (2002-08-24)"
-	description "Palm Mahjong (Japan) (256-Bit Color) (2002-08-24)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (256-Bit Color) (2002-08-24).prc" size 269254 crc 0FBAE01F md5 88DC34B1C08C55D2DF172211A1B4CE20 sha1 D65DF7922D2BAF8349AFB4F6FF350FE3C074AE48 )
 )
 game (
 	name "Palm Mahjong (Japan) (BW)"
@@ -1953,34 +1971,16 @@ game (
 	rom ( name "Palm Mahjong (Japan) (BW).prc" size 163520 crc 97D2E006 md5 BCA6C52678C3BC1F58E13B487BA60A71 sha1 B8EE1CA41869A3C97910CB3A6C7ABF9E85264461 )
 )
 game (
-	name "Palm Mahjong (Japan) (BW) (2002-08-24)"
-	description "Palm Mahjong (Japan) (BW) (2002-08-24)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (BW) (2002-08-24).prc" size 167115 crc 26FE50AC md5 29BE7A27755892D81627527981CA9956 sha1 6FC2D3A7BAB6D68763E000DC0BF24D8535D29B69 )
-)
-game (
 	name "Palm Mahjong (Japan) (Color)"
 	description "Palm Mahjong (Japan) (Color)"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (Color).prc" size 214150 crc 51D55739 md5 397B5277EE269F55D9FE701D704A464C sha1 3F130FC49F16621FAEE76C24F2E2D431152A64CD )
 )
 game (
-	name "Palm Mahjong (Japan) (Color) (2002-08-24)"
-	description "Palm Mahjong (Japan) (Color) (2002-08-24)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (Color) (2002-08-24).prc" size 217272 crc F0B71AF3 md5 81351F2F4C87F8470187485965C66A88 sha1 8D34A2FD33E5F8A86BDDB0B8551474D6F9EF36B9 )
-)
-game (
 	name "Palm Mahjong (Japan) (Greyscale)"
 	description "Palm Mahjong (Japan) (Greyscale)"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (Greyscale).prc" size 206268 crc 84961162 md5 98B4CF36691B74E8C84AE36DBAD4B676 sha1 7B1BA807F94425AE82EF61DE6E663927841CBEF3 )
-)
-game (
-	name "Palm Mahjong (Japan) (Greyscale) (2002-08-24)"
-	description "Palm Mahjong (Japan) (Greyscale) (2002-08-24)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (Greyscale) (2002-08-24).prc" size 209799 crc 7729EDF5 md5 DB9C0F4C0884B7CD03F991791EFAD760 sha1 7C150560D933AD97CEE368D53E36EA818D38ED1A )
 )
 game (
 	name "Palm Solitaire & Casino (Japan) (Color)"
@@ -2740,14 +2740,14 @@ game (
 	rom ( name "Soroban Freaks (Japan).prc" size 7193 crc A0197524 md5 008B0DFCB3342F7DC54EF5909FFFF847 sha1 BE578C6B005A6E44F00DC9B57748758275D4FA8B )
 )
 game (
-	name "Space Invaders (USA) (HiRes) (Demo)"
-	description "Space Invaders (USA) (HiRes) (Demo)"
+	name "Space Invaders (USA) (Demo) (HiRes)"
+	description "Space Invaders (USA) (Demo) (HiRes)"
 	region "USA"
 	rom ( name "Space Invaders (USA) (HiRes) (Demo).prc" size 1806816 crc E52429FA md5 92C4259249A267F2CF14C66A4FBE6CB1 sha1 1626BB6ED9E4A524B5016276721BC0D2FC77F8C7 )
 )
 game (
-	name "Space Invaders (USA) (LoRes) (Demo)"
-	description "Space Invaders (USA) (LoRes) (Demo)"
+	name "Space Invaders (USA) (Demo) (LoRes)"
+	description "Space Invaders (USA) (Demo) (LoRes)"
 	region "USA"
 	rom ( name "Space Invaders (USA) (LoRes) (Demo).prc" size 878835 crc 0D6473EA md5 185472B21508F2330804BB42A1DD3576 sha1 DCF3F65D0D4D07B72D4B9454CEFD11C8578E4272 )
 )
@@ -3413,14 +3413,14 @@ game (
 	rom ( name "ZIOGolf (Japan) (Greyscale) (Visor).prc" size 61861 crc 5A0F31AB md5 D3A2A13F3F580830AC1C4AB21F02DFE2 sha1 1FC6CA10E89A2E3CDA8D5B267FEB8C42AA7277DD )
 )
 game (
-	name "Zap!2000 (USA) (Color) (Demo)"
-	description "Zap!2000 (USA) (Color) (Demo)"
+	name "Zap!2000 (USA) (Demo) (Color)"
+	description "Zap!2000 (USA) (Demo) (Color)"
 	region "USA"
 	rom ( name "Zap!2000 (USA) (Color) (Demo).prc" size 227865 crc C45278E7 md5 2C986F54634226339FBA952877488C25 sha1 90B58F7ABB27B5DFA13EF0F04BD7DE50EC22E2E8 )
 )
 game (
-	name "Zap!2000 (USA) (Greyscale) (Demo)"
-	description "Zap!2000 (USA) (Greyscale) (Demo)"
+	name "Zap!2000 (USA) (Demo) (Greyscale)"
+	description "Zap!2000 (USA) (Demo) (Greyscale)"
 	region "USA"
 	rom ( name "Zap!2000 (USA) (Greyscale) (Demo).prc" size 149081 crc FA10C8C7 md5 09A46A7273AD386AC96319DC7791D7BB sha1 0A5A133A5C9379E67E1F42EB27F7995D803F8553 )
 )
