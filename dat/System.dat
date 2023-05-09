@@ -2,7 +2,7 @@ clrmamepro (
 	name "System"
 	description "System"
 	comment "System, firmware, or BIOS files used by libretro."
-	version "2020.11.2"
+	version "2023.05.07"
 	author "libretro"
 	homepage "http://github.com/libretro/libretro-database"
 	url "http://github.com/libretro/libretro-database"
@@ -34,17 +34,11 @@ game (
 	rom ( name cpc_amsdos.rom size 16384 crc 1fe22ecd md5 25629dfe870d097469c217b95fdc1c95 sha1 39102c8e9cb55fcc0b9b62098780ed4a3cb6a4bb )
 
 	comment "Arcade"
-	rom ( name airlbios.zip size 715730 crc f83ec60f md5 7a11bfe0cc72886d032e386db68f890c sha1 f2a730530f4989ca0e8860aa4e455b6a5fe69e1d )
-	rom ( name awbios.zip size 42296 crc 67a14ad5 md5 85254fbe320ca82a768ec2c26bb08def sha1 7940c7bf29eee85a5b2fdec78750b19aa22895dc )
 	rom ( name bubsys.zip size 7950 crc 8fc2fd2e md5 f81298afd68a1a24a49a1a2d9f087964 sha1 1c0ffcd308b0c8c6dbb74ad8b811a0767200d366 )
 	rom ( name cchip.zip size 2700 crc 23debecb md5 df6f8a3d83c028a5cb9f2f2be60773f3 sha1 364f2302a145a0fd6de767d7f8484badde1d1a6e )
 	rom ( name decocass.zip size 16107 crc 5de524e5 md5 b7e1189b341bf6a8e270017c096d21b0 sha1 30b97b2670b79d0de41cba190324c504846c6fa1 )
-	rom ( name f355bios.zip size 1394278 crc 17516536 md5 547f3d12aed389058ca06148f1cca0ed sha1 b6ff66dcb5547bd91760d239ddf428a655631c53 )
-	rom ( name f355dlx.zip size 2328436 crc 23ac17be md5 1028615bcac4c31634a3364ce5c04044 sha1 48d1712d1b1cdfeeeb43c6287c17b0b6309cfaab )
-	rom ( name hod2bios.zip size 1479106 crc 0ddc6daf md5 f4011d3116500354edf7302a90402711 sha1 782c303cbdfab1027b04db74a63e27bdad5e0c53 )
 	rom ( name isgsm.zip size 10207 crc 26856bf9 md5 4a56d56e2219c5e2b006b66a4263c01c sha1 f590ccf688b4c05fa1da5c5dd92c224545170c3b )
 	rom ( name midssio.zip size 163 crc 7620bd32 md5 5904b0de768d1d506e766aa7e18994c1 sha1 54275c9833e497f71f76ab239030cc386c863991 )
-	rom ( name naomi.zip size 9321533 crc 6ee50181 md5 526eda1e2a7920c92c88178789d71d84 sha1 c96711c01c0158f161791d6fbe75d88329e8ac0a )
 	rom ( name neogeo.zip size 1859335 crc 81315163 md5 00dad01abdbf8ea9e79ad2fe11bdb182 sha1 deb62b0074b8cae4f162c257662136733cfc76ad )
 	rom ( name nmk004.zip size 3556 crc a6099353 md5 bfacf1a68792d5348f93cf724d2f1dda sha1 489256f5e2001070d2ad94c90d255282c71ed274 )
 	rom ( name pgm.zip size 2094636 crc bf3dd2ef md5 87cc944eef4c671aa2629a8ba48a08e0 sha1 c0c001ec80fa860857000f4cfc9844a28498a355 )
@@ -244,10 +238,18 @@ game (
 	rom ( name jopac.bin size 1024 crc 11647ca5 md5 279008e4a0db2dc5f1c048853b033828 sha1 54b8d2c1317628de51a85fc1c424423a986775e4 )
 
 	comment "Sega - Dreamcast"
-	rom ( name dc_boot.bin size 2097152 crc 89f2b1a1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
-	rom ( name dc_flash.bin size 131072 crc c611b498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
-	rom ( name naomi_boot.bin size 2097152 crc d2a1c6bf md5 3bffafac42a7767d8dcecf771f5552ba sha1 6d27d71aec4dfba98f66316ae74a1426d567698a )
-
+	rom ( name dc/dc_boot.bin size 2097152 crc 89f2b1a1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
+	rom ( name dc/boot.bin size 2097152 crc 89f2b1a1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
+	rom ( name dc/flash.bin size 131072 crc c611b498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
+	comment "Sega - Dreamcast-based Arcade"
+	rom ( name dc/airlbios.zip size 715730 crc f83ec60f md5 7a11bfe0cc72886d032e386db68f890c sha1 f2a730530f4989ca0e8860aa4e455b6a5fe69e1d )
+	rom ( name dc/awbios.zip size 42296 crc 67a14ad5 md5 85254fbe320ca82a768ec2c26bb08def sha1 7940c7bf29eee85a5b2fdec78750b19aa22895dc )
+	rom ( name dc/f355bios.zip size 1394278 crc 17516536 md5 547f3d12aed389058ca06148f1cca0ed sha1 b6ff66dcb5547bd91760d239ddf428a655631c53 )
+	rom ( name dc/f355dlx.zip size 2328436 crc 23ac17be md5 1028615bcac4c31634a3364ce5c04044 sha1 48d1712d1b1cdfeeeb43c6287c17b0b6309cfaab )
+	rom ( name dc/hod2bios.zip size 1479106 crc 0ddc6daf md5 f4011d3116500354edf7302a90402711 sha1 782c303cbdfab1027b04db74a63e27bdad5e0c53 )
+	rom ( name dc/naomi.zip size 9321533 crc 6ee50181 md5 526eda1e2a7920c92c88178789d71d84 sha1 c96711c01c0158f161791d6fbe75d88329e8ac0a )
+	rom ( name dc/naomi2.zip size 7022501 crc 2143196c md5 c50072cbab75673e1b1a6b94355e6fa8 sha1 2962e338ccc9f66f29b409f73ca27aeee79633ac )
+	
 	comment "Sega - Game Gear"
 	rom ( name bios.gg size 1024 crc 0ebea9d4 md5 672e104c3be3a238301aceffc3b23fd6 sha1 914aa165e3d879f060be77870d345b60cfeb4ede )
 
