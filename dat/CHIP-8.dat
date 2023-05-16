@@ -1,0 +1,13 @@
+clrmamepro (
+	name "CHIP-8"
+	description "libretro database for CHIP-8. Need to port the data from https://github.com/JohnEarnest/chip8Archive ."
+	version "2023.5.15"
+	homepage "http://github.com/libretro/libretro-database"
+)
+
+game (
+    title "Wonky Pong"
+    developer "TomRintjema"
+    description "Pong, but wonky. Made for Octojam IV."
+    rom ( name "wonkypong.ch8" crc 82d2dba8 )
+)
