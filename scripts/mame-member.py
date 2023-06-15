@@ -74,17 +74,17 @@ def crcmap(data):
     info = {}
 
     # Look for CRC collisions
-    for machine in data.itervalues():
-        for rom in machine['roms']:
+    for machine in data.items():
+        for rom in machine[1]["roms"]:
             crc = rom['crc']
             if crc in seen:
                 seen[crc] += 1
             else:
                 seen[crc] = 1
 
-    for machine in data.itervalues():
+    for machine in data.items():
         unique = None
-        for rom in machine['roms']:
+        for rom in machine[1]["roms"]:
             name = rom['name']
             if ' ' in name:
                 continue
@@ -93,7 +93,7 @@ def crcmap(data):
                 continue
             unique = crc
             continue
-        sys.stderr.write("{}: {}\n".format(unique, repr(machine['description'])))
+        sys.stderr.write("{}: {}\n".format(unique, repr(machine[1]["description"])))
         if unique is not None:
             info[unique] = machine
 
@@ -105,15 +105,15 @@ def emit(header, data, out):
     out.write('        version {}\n'.format(header['version']))
     out.write(')\n\n')
 
-    for crc, game in data.iteritems():
+    for crc, game in data.items():
         out.write('game (\n')
-        out.write(u'        name "{}"\n'.format(game['description']))
+        out.write(u'        name "{}"\n'.format(game[1]["description"]))
         if 'year' in game:
-            out.write('        year "{}"\n'.format(game['year']))
+            out.write('        year "{}"\n'.format(game[1]["year"]))
         if 'manufacturer' in game:
-            out.write(u'        developer "{}"\n'.format(game['manufacturer']))
+            out.write(u'        developer "{}"\n'.format(game[1]["manufacturer"]))
 
-        for rom in filter(lambda r: r['crc'] == crc, game['roms']):
+        for rom in filter(lambda r: r['crc'] == crc, game[1]["roms"]):
             if 'sha1' in rom:
                 out.write('        rom ( name {name} size {size} crc {crc} sha1 {sha1} )\n'.format(**rom))
             else:
