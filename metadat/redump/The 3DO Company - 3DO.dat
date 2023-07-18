@@ -1,7 +1,7 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2022.10.28"
+	version "2023.07.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -1184,11 +1184,32 @@ game (
 	rom ( name "Escape from Monster Manor (USA).bin" size 542611104 crc 3BAFD40D md5 7387F48A956D43028444EF7259041107 sha1 5663315CFE066AF79A03A9D5CC7A1CF52DD4E068 )
 )
 game (
+	name "Eye of Typhoon (Korea)"
+	description "Eye of Typhoon (Korea)"
+	region "Korea"
+	serial "VIC-PS0001K"
+	rom ( name "Eye of Typhoon (Korea).bin" size 123094272 crc F18FE0BA md5 94A935AE0A5EA86BB15EDB52D06B892A sha1 95EE3C4A1E2B0F8FAF30EFC87E7CDC0EC463DB5A serial "VIC-PS0001K" )
+)
+game (
 	name "Eye of Typhoon, The (Korea)"
 	description "Eye of Typhoon, The (Korea)"
 	region "Korea"
 	serial "GDT-GA391"
 	rom ( name "Eye of Typhoon, The (Korea).bin" size 157254720 crc 8E3E3F13 md5 84C1F1689581A8EC4A8FEE68C7A45BD0 sha1 46C72D1939B3ACC3F1BFD7E86F6D3E0B4219FEE2 serial "GDT-GA391" )
+)
+game (
+	name "Eye of Typhoon, The (Korea) (Disc 1)"
+	description "Eye of Typhoon, The (Korea) (Disc 1)"
+	region "Korea"
+	serial "VIC-PS0001K"
+	rom ( name "Eye of Typhoon, The (Korea) (Disc 1).bin" size 126104832 crc 2A79DEB4 md5 387FB01D2A80A1F0B646F37513C202DB sha1 78F9C2F093E8194E884D65428336C0DA6A574A9E serial "VIC-PS0001K" )
+)
+game (
+	name "Eye of Typhoon, The (Korea) (Disc 1)"
+	description "Eye of Typhoon, The (Korea) (Disc 1)"
+	region "Korea"
+	serial "VIC-PS0001K-0"
+	rom ( name "Eye of Typhoon, The (Korea) (Disc 1).bin" size 126104832 crc 2A79DEB4 md5 387FB01D2A80A1F0B646F37513C202DB sha1 78F9C2F093E8194E884D65428336C0DA6A574A9E serial "VIC-PS0001K-0" )
 )
 game (
 	name "F1GP (Japan)"
@@ -1209,6 +1230,18 @@ game (
 	description "FIFA International Soccer (Europe)"
 	region "Europe"
 	rom ( name "FIFA International Soccer (Europe).bin" size 711197760 crc 28FEDA8E md5 33E21296A5C7FFB5FB696D9F40A5DCA8 sha1 C2FE8AFEFA878AD79A2409F4D6D4C0CB73E8B9BA )
+)
+game (
+	name "FIFA International Soccer (USA, Korea)"
+	description "FIFA International Soccer (USA, Korea)"
+	serial "5408"
+	rom ( name "FIFA International Soccer (USA, Korea).bin" size 711550560 crc 9BD2A7E9 md5 2F61E24A3999EF4B2F144D89D9DB8225 sha1 96317ED4B8CA331A8372A394BC87C766542DC769 serial "5408" )
+)
+game (
+	name "FIFA International Soccer (USA, Korea)"
+	description "FIFA International Soccer (USA, Korea)"
+	serial "7461"
+	rom ( name "FIFA International Soccer (USA, Korea).bin" size 711550560 crc 9BD2A7E9 md5 2F61E24A3999EF4B2F144D89D9DB8225 sha1 96317ED4B8CA331A8372A394BC87C766542DC769 serial "7461" )
 )
 game (
 	name "FIFA International Soccer (USA, Korea)"
@@ -1801,6 +1834,12 @@ game (
 	rom ( name "John Madden NFL Football (Europe).bin" size 361972800 crc 02BA7933 md5 AAB36A893C8B170138E9C5DA56C5C8C1 sha1 8EDC6F6C02FFFBE569040E6EACA3D0849F3923B9 )
 )
 game (
+	name "Johnny Bazookatone (Europe)"
+	description "Johnny Bazookatone (Europe)"
+	region "Europe"
+	rom ( name "Johnny Bazookatone (Europe).bin" size 482748000 crc 1CD23AAC md5 DF34DF51150C746C246540D898325D02 sha1 994B264CDCA4D13639887312D6958D95116A2CBF )
+)
+game (
 	name "Johnny Bazookatone (USA)"
 	description "Johnny Bazookatone (USA)"
 	region "USA"
@@ -2066,6 +2105,12 @@ game (
 	rom ( name "Mad Dog II - The Lost Gold (USA).bin" size 650135136 crc 03A7AB44 md5 631916D5CBBFB71821ED444B2AC38AD2 sha1 35A30A7F8C55562410ED57782BC6D2E7829F4544 serial "ALG-000142" )
 )
 game (
+	name "Mad Dog II - The Lost Gold (USA) (Arcade CD-ROM)"
+	description "Mad Dog II - The Lost Gold (USA) (Arcade CD-ROM)"
+	region "USA"
+	rom ( name "Mad Dog II - The Lost Gold (USA) (Arcade CD-ROM).bin" size 647726688 crc A6C8CC2A md5 660E316C948C6F89B07BA42389DAB8F2 sha1 621DCEA07582ED4E4480943B6F2C8D7E27436022 )
+)
+game (
 	name "Mad Dog McCree (USA)"
 	description "Mad Dog McCree (USA)"
 	region "USA"
@@ -2129,13 +2174,20 @@ game (
 game (
 	name "MegaRace (USA, Europe) (En,Fr,De,Es,It)"
 	description "MegaRace (USA, Europe) (En,Fr,De,Es,It)"
-	rom ( name "MegaRace (USA, Europe) (En,Fr,De,Es,It).bin" size 771408960 crc A5BAA497 md5 0DCBE251A83FDFF54EE72674CDEFE608 sha1 C1C5486722CE26568C293C145712D549670297D2 )
+	serial "PR-7594"
+	rom ( name "MegaRace (USA, Europe) (En,Fr,De,Es,It).bin" size 771408960 crc A5BAA497 md5 0DCBE251A83FDFF54EE72674CDEFE608 sha1 C1C5486722CE26568C293C145712D549670297D2 serial "PR-7594" )
 )
 game (
 	name "MegaRace (USA, Korea) (En,Fr,De,Es,It)"
 	description "MegaRace (USA, Korea) (En,Fr,De,Es,It)"
 	serial "GDT-GA171"
 	rom ( name "MegaRace (USA, Korea) (En,Fr,De,Es,It).bin" size 771761760 crc CD338E24 md5 378D071CA32533C5FD03C2B98E0BDF0B sha1 091FC29F4A1752949473B2596FB6C36DC73709D1 serial "GDT-GA171" )
+)
+game (
+	name "Memory Gwanli CD (Korea)"
+	description "Memory Gwanli CD (Korea)"
+	region "Korea"
+	rom ( name "Memory Gwanli CD (Korea) (RE).bin" size 24790080 crc C2818AF6 md5 4470E41943C40B14EE1B19ED6F0298FD sha1 E5290474FD270CAFD2F8E9EDA31AEEFBEFF31759 )
 )
 game (
 	name "Microcosm (Japan)"
@@ -2583,6 +2635,13 @@ game (
 	rom ( name "Paddock Note '95 (Japan) (Rev 1).bin" size 775877760 crc 101C6272 md5 0EF7E5330184FCBB3437CEE39C6A9FBB sha1 F4B87B68647BEF35D3C7C1DEEFFBACCF370B63FB serial "FZ-SJ5851" )
 )
 game (
+	name "Panasonic 3DO Interaktiver Multiplayer Sampler Disc (Germany) (En,De)"
+	description "Panasonic 3DO Interaktiver Multiplayer Sampler Disc (Germany) (En,De)"
+	region "Germany"
+	serial "FZ-10C2G1-AS"
+	rom ( name "Panasonic 3DO Interaktiver Multiplayer Sampler Disc (Germany) (En,De).bin" size 723240000 crc B940E8B7 md5 D0083681E2DE9AF979907FB9F050C9BB sha1 D732D7D66248B2C1A88E8C3847FF7E630DF69456 serial "FZ-10C2G1-AS" )
+)
+game (
 	name "Panasonic REAL 3DO Interactive Multiplayer - Demonstration CD (USA)"
 	description "Panasonic REAL 3DO Interactive Multiplayer - Demonstration CD (USA)"
 	region "USA"
@@ -2639,10 +2698,10 @@ game (
 	rom ( name "Panasonic Special CD-ROM (Japan).bin" size 775877760 crc 8D4280BF md5 B09A8EEA7A43698BB0695AFFE868EA90 sha1 405A6CDD01E1E7C09281FCB4AEE8222198ADBD0B serial "FZ-JJ9DS0-5F" )
 )
 game (
-	name "Panzer General (USA)"
-	description "Panzer General (USA)"
-	region "USA"
-	rom ( name "Panzer General (USA).bin" size 723240000 crc 9BF7B932 md5 17A227EE61E3F8F6ECDA34A9A1689FD6 sha1 8C1B1814B63ACF47CFC636C86993F8C563152A85 )
+	name "Panzer General (USA, Germany)"
+	description "Panzer General (USA, Germany)"
+	serial "CS090225"
+	rom ( name "Panzer General (USA, Germany).bin" size 723240000 crc 9BF7B932 md5 17A227EE61E3F8F6ECDA34A9A1689FD6 sha1 8C1B1814B63ACF47CFC636C86993F8C563152A85 serial "CS090225" )
 )
 game (
 	name "Pebble Beach Golf Links (USA, Canada) (Rev 1)"
@@ -3146,6 +3205,13 @@ game (
 	rom ( name "Scramble Cobra (USA).bin" size 765039744 crc 4146CB3F md5 6FA5997CBE25629370E629518BB80E2F sha1 31D1747848FDF9F26E45F9086DD14188DBE8E658 serial "FZ-SM0404" )
 )
 game (
+	name "Scramble Cobra - Premium Version (Japan)"
+	description "Scramble Cobra - Premium Version (Japan)"
+	region "Japan"
+	serial "FZ-JJ9PSC-5H"
+	rom ( name "Scramble Cobra - Premium Version (Japan).bin" size 410141760 crc 04430640 md5 5DBAEAD3D7D7179026DEC98F663BFB4C sha1 18D59D877915F69EEE94BB90D599A4441216DD58 serial "FZ-JJ9PSC-5H" )
+)
+game (
 	name "Seal of the Pharaoh (USA)"
 	description "Seal of the Pharaoh (USA)"
 	region "USA"
@@ -3254,7 +3320,8 @@ game (
 	name "Shock Wave (USA) (Rev 1)"
 	description "Shock Wave (USA) (Rev 1)"
 	region "USA"
-	rom ( name "Shock Wave (USA) (RE1).bin" size 723592800 crc DD376DDE md5 B946BD69657AE12C787AB597CAB98181 sha1 530F7448CE98079EC59A6A61D34A63AC51E94E06 )
+	serial "7222"
+	rom ( name "Shock Wave (USA) (RE1).bin" size 723592800 crc DD376DDE md5 B946BD69657AE12C787AB597CAB98181 sha1 530F7448CE98079EC59A6A61D34A63AC51E94E06 serial "7222" )
 )
 game (
 	name "Shock Wave (USA) (Rev 2)"
@@ -3445,14 +3512,14 @@ game (
 	name "Space Hulk - Vengeance of the Blood Angels (Europe)"
 	description "Space Hulk - Vengeance of the Blood Angels (Europe)"
 	region "Europe"
-	serial "E210DCXD"
-	rom ( name "Space Hulk - Vengeance of the Blood Angels (Europe).bin" size 482395200 crc AB348E36 md5 C8299A08133F0A0DFF123DE291528D9F sha1 503C4DC696CFC2DA75C7A9A00A30DA6387C2E063 serial "E210DCXD" )
+	rom ( name "Space Hulk - Vengeance of the Blood Angels (Europe).bin" size 482395200 crc AB348E36 md5 C8299A08133F0A0DFF123DE291528D9F sha1 503C4DC696CFC2DA75C7A9A00A30DA6387C2E063 )
 )
 game (
 	name "Space Hulk - Vengeance of the Blood Angels (USA)"
 	description "Space Hulk - Vengeance of the Blood Angels (USA)"
 	region "USA"
-	rom ( name "Space Hulk - Vengeance of the Blood Angels (USA).bin" size 482399904 crc 643E0945 md5 B8B2D3F641B33CAC9F0D5E713B377C4F sha1 ECFC8444938E5AF4C63D56ABCD373E229748A98F )
+	serial "7373"
+	rom ( name "Space Hulk - Vengeance of the Blood Angels (USA).bin" size 482399904 crc 643E0945 md5 B8B2D3F641B33CAC9F0D5E713B377C4F sha1 ECFC8444938E5AF4C63D56ABCD373E229748A98F serial "7373" )
 )
 game (
 	name "Space Pirates (USA)"
@@ -4017,6 +4084,13 @@ game (
 	region "Japan"
 	serial "P-16"
 	rom ( name "Toyopet RV Paddock (Japan).bin" size 97043520 crc AAC82B0B md5 A58ED0F059CC7508EB9F9D5F41DD4569 sha1 96FB5ADFC2AE9E4F2C19D0BC1DF35442D0DF38DC serial "P-16" )
+)
+game (
+	name "Toyopet RV World (Japan)"
+	description "Toyopet RV World (Japan)"
+	region "Japan"
+	serial "PT-2RV"
+	rom ( name "Toyopet RV World (Japan).bin" size 458310720 crc DB9F952E md5 8DD586127B7B3EBCD0EFE02486EAE4B4 sha1 29915B6CE9E3C00C8D99F153085EC7A422D23316 serial "PT-2RV" )
 )
 game (
 	name "Tozasareta Yakata (Japan)"

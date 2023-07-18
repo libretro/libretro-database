@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - GameCube"
 	description "Nintendo - GameCube"
-	version "2022.10.28"
+	version "2023.07.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -585,17 +585,17 @@ game (
 	rom ( name "Advance Game Port (USA, Europe) (Unl) (Rev 2).iso" size 1459978240 crc F9450866 md5 C8A95EB91168DE341237A7450C090865 sha1 ED9F3C29F061B5FDE7EC989AF515020B241A8FB7 )
 )
 game (
-	name "Aggressive Inline (Europe) (Beta)"
-	description "Aggressive Inline (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Aggressive Inline (Europe) (Beta).iso" size 1459978240 crc CD008D1A md5 D47367B60E05FCB26928C30CE96ED89E sha1 169540C1931EFDFCDE8494852D940F578E44B646 )
-)
-game (
 	name "Aggressive Inline (Europe) (En,Fr,De,Es)"
 	description "Aggressive Inline (Europe) (En,Fr,De,Es)"
 	region "Europe"
 	serial "DL-DOL-GILP-EUR"
 	rom ( name "Aggressive Inline (Europe) (En,Fr,De,Es).iso" size 1459978240 crc BA889F64 md5 E7B3463EB2DA28C476FC075192FA44A8 sha1 F18FC2380ECD8F307E146479366081A9313A839E serial "DL-DOL-GILP-EUR" )
+)
+game (
+	name "Aggressive Inline (Europe) (En,Fr,De,Es) (Beta)"
+	description "Aggressive Inline (Europe) (En,Fr,De,Es) (Beta)"
+	region "Europe"
+	rom ( name "Aggressive Inline (Europe) (En,Fr,De,Es) (Beta).iso" size 1459978240 crc CD008D1A md5 D47367B60E05FCB26928C30CE96ED89E sha1 169540C1931EFDFCDE8494852D940F578E44B646 )
 )
 game (
 	name "Aggressive Inline (USA)"
@@ -2058,18 +2058,18 @@ game (
 	rom ( name "Chibi-Robo! (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 88080C8F md5 3491A233B72D2E5EBC1FA34D37CE84CF sha1 F321AA7FB1AE5101EC60F1BBCA8184898142135A serial "DL-DOL-GGTP-EUR" )
 )
 game (
+	name "Chibi-Robo! (Japan) (Rev 1)"
+	description "Chibi-Robo! (Japan) (Rev 1)"
+	region "Japan"
+	serial "DL-DOL-GGTJ-JPN"
+	rom ( name "Chibi-Robo! (Japan) (Rev 1).iso" size 1459978240 crc D3A3126F md5 B02364B7D3EF7ED39D00110712D32DE3 sha1 AF96A3D370A8BFD8C2082327B7D3E1ED1E9AD7B0 serial "DL-DOL-GGTJ-JPN" )
+)
+game (
 	name "Chibi-Robo! Plug into Adventure! (USA)"
 	description "Chibi-Robo! Plug into Adventure! (USA)"
 	region "USA"
 	serial "DL-DOL-GGTE-USA"
 	rom ( name "Chibi-Robo! Plug into Adventure! (USA).iso" size 1459978240 crc DB4C3C85 md5 FB0123C05FCEB74892B16ACC9387E894 sha1 9052F186411B49845323EAAEB014755BCF96321B serial "DL-DOL-GGTE-USA" )
-)
-game (
-	name "ChibiRobo! (Japan) (Rev 1)"
-	description "ChibiRobo! (Japan) (Rev 1)"
-	region "Japan"
-	serial "DL-DOL-GGTJ-JPN"
-	rom ( name "ChibiRobo! (Japan) (Rev 1).iso" size 1459978240 crc D3A3126F md5 B02364B7D3EF7ED39D00110712D32DE3 sha1 AF96A3D370A8BFD8C2082327B7D3E1ED1E9AD7B0 serial "DL-DOL-GGTJ-JPN" )
 )
 game (
 	name "Choro Q! (Japan)"
@@ -3714,17 +3714,17 @@ game (
 	rom ( name "Driven (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc 10AA713D md5 8E4937D335B908EFBB93C71275FAB92A sha1 2F100F4BAA7430E72F704E9D144929FD531C848E serial "DL-DOL-GDVP-EUR" )
 )
 game (
-	name "Driven (USA) (Beta)"
-	description "Driven (USA) (Beta)"
-	region "USA"
-	rom ( name "Driven (USA) (Beta).iso" size 1459978240 crc 9E54FB9F md5 B1215272232F86C5B4F9042E127DCC80 sha1 02DC6DEB91116A40E8B232F4C1A7D978B16711F8 )
-)
-game (
 	name "Driven (USA) (En,Fr,De,Es,It)"
 	description "Driven (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "DL-DOL-GDVE-USA"
 	rom ( name "Driven (USA) (En,Fr,De,Es,It).iso" size 1459978240 crc D3ECBAC7 md5 9AC406C4292ED67DBEEE284ACB1BE532 sha1 596F617F8F119C3A3305244AA3A9588ADCE05992 serial "DL-DOL-GDVE-USA" )
+)
+game (
+	name "Driven (USA) (En,Fr,De,Es,It) (Beta)"
+	description "Driven (USA) (En,Fr,De,Es,It) (Beta)"
+	region "USA"
+	rom ( name "Driven (USA) (En,Fr,De,Es,It) (Beta).iso" size 1459978240 crc 9E54FB9F md5 B1215272232F86C5B4F9042E127DCC80 sha1 02DC6DEB91116A40E8B232F4C1A7D978B16711F8 )
 )
 game (
 	name "Drome Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)"
@@ -4256,6 +4256,12 @@ game (
 	region "Germany"
 	serial "DL-DOL-G6FD-NOE"
 	rom ( name "FIFA Fussball-Weltmeisterschaft Deutschland 2006 (Germany).iso" size 1459978240 crc 10DC663F md5 5C82C77C71DAD32A0015F4A7E8A1858D sha1 65778416343C7E5D7E9205ED538CC97EFE2E8C72 serial "DL-DOL-G6FD-NOE" )
+)
+game (
+	name "FIFA Soccer 06 (Latin America)"
+	description "FIFA Soccer 06 (Latin America)"
+	serial "DL-DOL-GFJE-MSA"
+	rom ( name "FIFA Soccer 06 (Latin America).iso" size 1459978240 crc D5FE9AC7 md5 DDFCA3D4517BFC0647AD1CCD554821B1 sha1 45F28FFDF8A0BD1E4C40191A5BBED2EB6013D474 serial "DL-DOL-GFJE-MSA" )
 )
 game (
 	name "FIFA Soccer 06 (USA)"
@@ -5100,6 +5106,13 @@ game (
 	region "Japan"
 	serial "DL-DOL-E25J-DIS-01"
 	rom ( name "Gekkan Nintendo Tentou Demo 2005.11.1 (Japan) (Rev 1).iso" size 1459978240 crc FF8A5F3B md5 6BC05E2869EE644F6BFDB404A6634FF9 sha1 5F9DD57F698DC55CFAA8FD40B1BA841572D1DB9A serial "DL-DOL-E25J-DIS-01" )
+)
+game (
+	name "Gekkan Nintendo Tentou Demo 2005.12.1 (Japan)"
+	description "Gekkan Nintendo Tentou Demo 2005.12.1 (Japan)"
+	region "Japan"
+	serial "DL-DOL-E26J-DIS"
+	rom ( name "Gekkan Nintendo Tentou Demo 2005.12.1 (Japan).iso" size 1459978240 crc A3A49AA7 md5 354BD43C837B0971E28B30A1188A24B0 sha1 B425B2F1128B9D93C25159626165C510D6131188 serial "DL-DOL-E26J-DIS" )
 )
 game (
 	name "Gekkan Nintendo Tentou Demo 2005.2.1 (Japan)"
@@ -7080,6 +7093,12 @@ game (
 	rom ( name "LEGO Star Wars II - The Original Trilogy (USA).iso" size 1459978240 crc CEA162CD md5 12BE79C1B0B1C16A8239CC428328B61D sha1 C05B3C23A9836F1B5AE48E113E6749F9A1588012 serial "DL-DOL-GL7E-USA" )
 )
 game (
+	name "LEGO Super Soccer Adventure (Europe) (Proto)"
+	description "LEGO Super Soccer Adventure (Europe) (Proto)"
+	region "Europe"
+	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto).iso" size 1459978240 crc 5995AC59 md5 73D5970EBF47C19066784111DDAF95B1 sha1 174202CCE7207082FB4360739916F68D9893AF0E )
+)
+game (
 	name "Lara Croft Tomb Raider - Legend (Europe)"
 	description "Lara Croft Tomb Raider - Legend (Europe)"
 	region "Europe"
@@ -7791,6 +7810,13 @@ game (
 	region "Europe"
 	serial "DL-DOL-GMPP-EUR"
 	rom ( name "Mario Party 4 (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc BDD1556F md5 5DC6F6949F09DA56FD0313CBDB85FCA5 sha1 43969C1AD08C0C1769BB358ED9BFD33D25DEE27D serial "DL-DOL-GMPP-EUR" )
+)
+game (
+	name "Mario Party 4 (Europe) (En,Fr,De,Es,It) (Rev 1)"
+	description "Mario Party 4 (Europe) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
+	serial "DL-DOL-GMPP-EUR"
+	rom ( name "Mario Party 4 (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 1459978240 crc 867C5BC4 md5 A428B8E2AED658ABEB8819A9C743C87F sha1 3E7BE61DA6CA7D178C2CD765AAFBF51A5248C837 serial "DL-DOL-GMPP-EUR" )
 )
 game (
 	name "Mario Party 4 (Europe) (En,Fr,De,Es,It) (Rev 2)"
@@ -9467,13 +9493,6 @@ game (
 	rom ( name "Need for Speed - Underground (Europe).iso" size 1459978240 crc 4584DC3B md5 4EE3B6C5D66CC088C8B82BAF8C02EAE5 sha1 A3C0C830A015D167900757148030F69B867EFC31 serial "DL-DOL-GNDP-UKV" )
 )
 game (
-	name "Need for Speed - Underground (Europe) (Alt)"
-	description "Need for Speed - Underground (Europe) (Alt)"
-	region "Europe"
-	serial "DL-DOL-GNDP-UKV"
-	rom ( name "Need for Speed - Underground (Europe) (Alt).iso" size 1459978240 crc 3873B78F md5 BB87941BEF76E658DFF90D98B6A1E6A2 sha1 798C8E855CDF883CA2F00558E18439155FB08815 serial "DL-DOL-GNDP-UKV" )
-)
-game (
 	name "Need for Speed - Underground (France)"
 	description "Need for Speed - Underground (France)"
 	region "France"
@@ -9535,6 +9554,12 @@ game (
 	region "Japan"
 	serial "DL-DOL-G2NJ-JPN"
 	rom ( name "Need for Speed - Underground 2 (Japan).iso" size 1459978240 crc 909806FF md5 5A87DF1521E05790544696829FB15B35 sha1 F48152195058B5D40D1955D3DB43E4EE81FD6F15 serial "DL-DOL-G2NJ-JPN" )
+)
+game (
+	name "Need for Speed - Underground 2 (Latin America)"
+	description "Need for Speed - Underground 2 (Latin America)"
+	serial "DL-DOL-GUYE-USA"
+	rom ( name "Need for Speed - Underground 2 (Latin America).iso" size 1459978240 crc B72E0DD4 md5 34CD400D050DBF42B8D4429F8D325643 sha1 320741607126D497DDC66F17C2A32AE18BE4E542 serial "DL-DOL-GUYE-USA" )
 )
 game (
 	name "Need for Speed - Underground 2 (USA)"
@@ -10159,12 +10184,6 @@ game (
 	rom ( name "Peter Jackson's King Kong - The Official Game of the Movie (USA) (En,Fr,Es).iso" size 1459978240 crc EEFFA5EB md5 8AC57D2645ED752A491BD9F88703D394 sha1 1DB20E6C9CD7A238E3D13D5726C342B6C4CA7CEA serial "DL-DOL-GWKE-USA" )
 )
 game (
-	name "Phantasy Star Online Episode I & II (Europe) (Beta)"
-	description "Phantasy Star Online Episode I & II (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Phantasy Star Online Episode I & II (Europe) (Beta).iso" size 1459978240 crc 511E0436 md5 8F8B5FA80BAAEDF4FDD36DBC99377502 sha1 9A9DE58B2B1A79F9906948A3281EE33946DA7D74 )
-)
-game (
 	name "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es)"
 	description "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es)"
 	region "Europe"
@@ -10179,6 +10198,12 @@ game (
 	rom ( name "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es).iso" size 1459978240 crc C9C7FBFE md5 EE4C772CC90ECB6537A331538E1BF4DB sha1 DA74531ED5BD62AF29AF4AFE8AC33D97B0D21D4C serial "DL-DOL-GPOP-EUR-01" )
 )
 game (
+	name "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es) (Beta)"
+	description "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es) (Beta)"
+	region "Europe"
+	rom ( name "Phantasy Star Online Episode I & II (Europe) (En,Ja,Fr,De,Es) (Beta).iso" size 1459978240 crc 511E0436 md5 8F8B5FA80BAAEDF4FDD36DBC99377502 sha1 9A9DE58B2B1A79F9906948A3281EE33946DA7D74 )
+)
+game (
 	name "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 2)"
 	description "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 2)"
 	region "Japan"
@@ -10186,11 +10211,11 @@ game (
 	rom ( name "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 2).iso" size 1459978240 crc 15652426 md5 B4E4F4A315C485868437A010DEB72AEE sha1 E83D1F1E414EF9FEE3DE9A7E9BF792065EF529FD serial "DL-DOL-GPOJ-JPN" )
 )
 game (
-	name "Phantasy Star Online Episode I & II (Japan) (Rev 3)"
-	description "Phantasy Star Online Episode I & II (Japan) (Rev 3)"
+	name "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 3)"
+	description "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 3)"
 	region "Japan"
 	serial "DL-DOL-GPOJ-JPN-01"
-	rom ( name "Phantasy Star Online Episode I & II (Japan) (Rev 3).iso" size 1459978240 crc 930FEE66 md5 97780392136CBEA73EF36FFB7141E467 sha1 365CC555AB118A78756E0344707D524E86A8F729 serial "DL-DOL-GPOJ-JPN-01" )
+	rom ( name "Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es) (Rev 3).iso" size 1459978240 crc 930FEE66 md5 97780392136CBEA73EF36FFB7141E467 sha1 365CC555AB118A78756E0344707D524E86A8F729 serial "DL-DOL-GPOJ-JPN-01" )
 )
 game (
 	name "Phantasy Star Online Episode I & II (USA) (En,Ja,Fr,De,Es)"
@@ -10520,6 +10545,12 @@ game (
 	region "USA"
 	serial "DL-DOL-GPRE-USA"
 	rom ( name "Pool Paradise (USA).iso" size 1459978240 crc 53BB0B9C md5 21CA392EB0024D57A4FDDC09F58D1979 sha1 C4B698BC42E19095B5C4A8B0605DF02328D29E43 serial "DL-DOL-GPRE-USA" )
+)
+game (
+	name "Power Link Game Enhancer Disc (Europe) (Unl)"
+	description "Power Link Game Enhancer Disc (Europe) (Unl)"
+	region "Europe"
+	rom ( name "Power Link Game Enhancer Disc (Europe) (Unl).iso" size 1459978240 crc BF7B7C5A md5 278DFB43538E2EBC51ED2833CF3AADD7 sha1 3D1F2FAA48409CC0B8F2A5BDDEA07F1769A0CF4D )
 )
 game (
 	name "Power Rangers - Dino Thunder (Europe)"
@@ -11427,15 +11458,15 @@ game (
 	name "SSX 3 (Europe) (En,Fr,De,Es)"
 	description "SSX 3 (Europe) (En,Fr,De,Es)"
 	region "Europe"
-	serial "DL-DOL-GXBP-UKV"
-	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8EB360C9 md5 087A5A59D976B0843AB5917DF38D0B45 sha1 F9E40540666E7D5C5F1FFEE5D28947CFDC89A9C9 serial "DL-DOL-GXBP-UKV" )
+	serial "DL-DOL-GXBP-NOE"
+	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8EB360C9 md5 087A5A59D976B0843AB5917DF38D0B45 sha1 F9E40540666E7D5C5F1FFEE5D28947CFDC89A9C9 serial "DL-DOL-GXBP-NOE" )
 )
 game (
 	name "SSX 3 (Europe) (En,Fr,De,Es)"
 	description "SSX 3 (Europe) (En,Fr,De,Es)"
 	region "Europe"
-	serial "DL-DOL-GXBP-NOE"
-	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8EB360C9 md5 087A5A59D976B0843AB5917DF38D0B45 sha1 F9E40540666E7D5C5F1FFEE5D28947CFDC89A9C9 serial "DL-DOL-GXBP-NOE" )
+	serial "DL-DOL-GXBP-UKV"
+	rom ( name "SSX 3 (Europe) (En,Fr,De,Es).iso" size 1459978240 crc 8EB360C9 md5 087A5A59D976B0843AB5917DF38D0B45 sha1 F9E40540666E7D5C5F1FFEE5D28947CFDC89A9C9 serial "DL-DOL-GXBP-UKV" )
 )
 game (
 	name "SSX 3 (Japan)"
@@ -11492,6 +11523,13 @@ game (
 	region "Japan"
 	serial "DL-DOL-GSTJ-JPN"
 	rom ( name "SSX Tricky (Japan).iso" size 1459978240 crc A0F36492 md5 BEA4DA9C3D9F965BD3C386F6EADB7DE6 sha1 4241AA2D9C6F9722250CC388B5040B7F71DA4985 serial "DL-DOL-GSTJ-JPN" )
+)
+game (
+	name "SSX Tricky (Japan) (Jitsuen-you Sample)"
+	description "SSX Tricky (Japan) (Jitsuen-you Sample)"
+	region "Japan"
+	serial "DL-DOL-DSTJ-DIS"
+	rom ( name "SSX Tricky (Japan) (Jitsuen-you Sample).iso" size 1459978240 crc 190F43D4 md5 3FF1D6D48E5EC5E525ED508A3110517D sha1 D2D43EDD1BA2ECAF0806176191EF55CC04E2916B serial "DL-DOL-DSTJ-DIS" )
 )
 game (
 	name "SSX Tricky (USA)"
@@ -12754,25 +12792,25 @@ game (
 	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Europe) (En,Fr,De,Es,It) (Demo).iso" size 1459978240 crc 3657BA07 md5 7AE2720A0984E16489E2F049C224FE71 sha1 B47BC2A3BBCAA56B680D9EFC2E2B32812AE42E04 serial "DL-DOL-DLSP-EUR" )
 )
 game (
-	name "Star Wars - Rogue Squadron III - Rebel Strike (France)"
-	description "Star Wars - Rogue Squadron III - Rebel Strike (France)"
+	name "Star Wars - Rogue Squadron III - Rebel Strike (France) (En,Fr)"
+	description "Star Wars - Rogue Squadron III - Rebel Strike (France) (En,Fr)"
 	region "France"
 	serial "DL-DOL-GLRF-FRA"
-	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (France).iso" size 1459978240 crc E4438BB0 md5 955F45A43ABF1017B6DDF5B1A4E3ED4E sha1 C474C29C9B001D096B3F90B90581D2F57478C939 serial "DL-DOL-GLRF-FRA" )
+	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (France) (En,Fr).iso" size 1459978240 crc E4438BB0 md5 955F45A43ABF1017B6DDF5B1A4E3ED4E sha1 C474C29C9B001D096B3F90B90581D2F57478C939 serial "DL-DOL-GLRF-FRA" )
 )
 game (
-	name "Star Wars - Rogue Squadron III - Rebel Strike (Germany)"
-	description "Star Wars - Rogue Squadron III - Rebel Strike (Germany)"
+	name "Star Wars - Rogue Squadron III - Rebel Strike (Germany) (En,De)"
+	description "Star Wars - Rogue Squadron III - Rebel Strike (Germany) (En,De)"
 	region "Germany"
 	serial "DL-DOL-GLRD-NOE"
-	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Germany).iso" size 1459978240 crc 220C4EA3 md5 47625F0B0B4B0A5F9AE2308144E32465 sha1 C0066152153800D73271F165049C2B45FB95E6A8 serial "DL-DOL-GLRD-NOE" )
+	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (Germany) (En,De).iso" size 1459978240 crc 220C4EA3 md5 47625F0B0B4B0A5F9AE2308144E32465 sha1 C0066152153800D73271F165049C2B45FB95E6A8 serial "DL-DOL-GLRD-NOE" )
 )
 game (
-	name "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
-	description "Star Wars - Rogue Squadron III - Rebel Strike (USA)"
+	name "Star Wars - Rogue Squadron III - Rebel Strike (USA) (En,Fr,De,Es,It)"
+	description "Star Wars - Rogue Squadron III - Rebel Strike (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "DL-DOL-GLRE-USA"
-	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (USA).iso" size 1459978240 crc 040A6155 md5 A7E88EE9209080785C4923B571CC1936 sha1 4D648DDCC354E9AB15C51530501A4CA2EE087FB7 serial "DL-DOL-GLRE-USA" )
+	rom ( name "Star Wars - Rogue Squadron III - Rebel Strike (USA) (En,Fr,De,Es,It).iso" size 1459978240 crc 040A6155 md5 A7E88EE9209080785C4923B571CC1936 sha1 4D648DDCC354E9AB15C51530501A4CA2EE087FB7 serial "DL-DOL-GLRE-USA" )
 )
 game (
 	name "Star Wars - Rogue Squadron III - Rebel Strike (USA) (Limited Edition Preview Disc)"
@@ -15212,6 +15250,13 @@ game (
 	region "USA"
 	serial "DL-DOL-GX3E-USA"
 	rom ( name "XIII (USA) (En,Fr,Es).iso" size 1459978240 crc 22502290 md5 9A13A9F1D9E5B57C0934645A879499FC sha1 90F719A97045B63CADC81E407047CD9B02148A67 serial "DL-DOL-GX3E-USA" )
+)
+game (
+	name "Xeno Crisis (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl)"
+	description "Xeno Crisis (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl)"
+	region "Europe"
+	serial "BB-BMP-GCRP-EUR"
+	rom ( name "Xeno Crisis (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Unl).iso" size 115898368 crc 09EFF165 md5 97E28962CE7C4AC151EA4C0DEF64EEC9 sha1 38C8BDB906D21F4FD846A46B98AB591D5CE47278 serial "BB-BMP-GCRP-EUR" )
 )
 game (
 	name "Yu-Gi-Oh! Falsebound Kingdom - Kyokou ni Tozasareta Oukoku (Japan)"
