@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Microsoft - Xbox"
 	description "Microsoft - Xbox"
-	version "2022.10.28"
+	version "2023.07.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -181,6 +181,13 @@ game (
 	region "Australia"
 	serial "AC-035"
 	rom ( name "AFL Live Premiership Edition (Australia).iso" size 7825162240 crc 191FA1C4 md5 F622033FC8AE91392EF9AB29C7087C36 sha1 42185ECF7789E59918E20CE970E64E5F778E31DB serial "AC-035" )
+)
+game (
+	name "AFL Live Premiership Edition (Australia) (Rev 1)"
+	description "AFL Live Premiership Edition (Australia) (Rev 1)"
+	region "Australia"
+	serial "TQ-245"
+	rom ( name "AFL Live Premiership Edition (Australia) (Rev 1).iso" size 7825162240 crc F7E0BBD5 md5 50B784CB60D73762B090C920FF3F7D38 sha1 99F951B6FE84543B08592A6B40634D18E7B5E884 serial "TQ-245" )
 )
 game (
 	name "AFL Premiership (Australia)"
@@ -493,11 +500,11 @@ game (
 	rom ( name "Apex (Asia) (En,Fr,Es).iso" size 7825162240 crc 50073F2D md5 D37B2ABBE1A3C20C0D4736E8E03AEF56 sha1 025751C1E4F6FE926E41CA3B73CF1482422D839C serial "IG-021" )
 )
 game (
-	name "Apex (USA)"
-	description "Apex (USA)"
+	name "Apex (USA) (En,Fr,Es)"
+	description "Apex (USA) (En,Fr,Es)"
 	region "USA"
 	serial "IG-021"
-	rom ( name "Apex (USA).iso" size 7825162240 crc 447D4F7B md5 BB3AC37DE0EB449755742C31BF13E9D9 sha1 AFB266B1E9EFF44144FCAECF042AD7D23B5CD810 serial "IG-021" )
+	rom ( name "Apex (USA) (En,Fr,Es).iso" size 7825162240 crc 447D4F7B md5 BB3AC37DE0EB449755742C31BF13E9D9 sha1 AFB266B1E9EFF44144FCAECF042AD7D23B5CD810 serial "IG-021" )
 )
 game (
 	name "Aquaman - Battle for Atlantis (USA)"
@@ -769,6 +776,12 @@ game (
 	region "USA"
 	serial "IP-010"
 	rom ( name "Baldur's Gate - Dark Alliance II (USA).iso" size 7825162240 crc 9E29548D md5 3E552190EF5A9306E4819C304384578B sha1 75F38AD280F557F49BB1625A311BFA5A562C602F serial "IP-010" )
+)
+game (
+	name "Baldur's Gate - Dark Alliance II (USA) (Beta)"
+	description "Baldur's Gate - Dark Alliance II (USA) (Beta)"
+	region "USA"
+	rom ( name "Baldur's Gate - Dark Alliance II (USA) (Beta).iso" size 3919413248 crc 0E6BFB2B md5 AFA270289AE147BF817A10B671283C6A sha1 21A8F92263C3E838F710CAAD7402B36F4BEAA7A9 )
 )
 game (
 	name "Barbarian (Europe) (En,Fr,De,Es,It)"
@@ -1708,16 +1721,16 @@ game (
 	rom ( name "Call of Duty 2 - Big Red One (Germany).iso" size 7825162240 crc 0E7EF832 md5 82DABD6775E8FBDDCDBD0FE510700129 sha1 EC4CE003027CA305FBE3612394994E928C72E5F0 serial "AV-081" )
 )
 game (
-	name "Call of Duty 2 - Big Red One (USA, Australia) (Collector's Edition)"
-	description "Call of Duty 2 - Big Red One (USA, Australia) (Collector's Edition)"
-	serial "AV-081"
-	rom ( name "Call of Duty 2 - Big Red One (USA, Australia) (Collector's Edition).iso" size 7825162240 crc A59FCEB1 md5 10DD9355CDA828C1688AAE6B7435431E sha1 C16D664F1DD8C2BE649B54D747D591E46D4AC7E3 serial "AV-081" )
-)
-game (
 	name "Call of Duty 2 - Big Red One (World)"
 	description "Call of Duty 2 - Big Red One (World)"
 	serial "AV-081"
 	rom ( name "Call of Duty 2 - Big Red One (World).iso" size 7825162240 crc 7F89EDCF md5 44C6F128328FDEC092D64ADAA80CAFEF sha1 EA3A142B8C0370353C71680776A8C836909CBD94 serial "AV-081" )
+)
+game (
+	name "Call of Duty 2 - Big Red One (World) (Collector's Edition)"
+	description "Call of Duty 2 - Big Red One (World) (Collector's Edition)"
+	serial "AV-081"
+	rom ( name "Call of Duty 2 - Big Red One (World) (Collector's Edition).iso" size 7825162240 crc A59FCEB1 md5 10DD9355CDA828C1688AAE6B7435431E sha1 C16D664F1DD8C2BE649B54D747D591E46D4AC7E3 serial "AV-081" )
 )
 game (
 	name "Call of Duty 3 (Europe) (Fr,It)"
@@ -2461,11 +2474,11 @@ game (
 	rom ( name "Conan (Europe) (En,Fr,De,Es,It).iso" size 7825162240 crc A83758FB md5 99054B1492171887D85BE29F68BA9336 sha1 83AE0CD47992B67B8FB09323A6EFAD45D6A09DD9 serial "TM-008" )
 )
 game (
-	name "Conflict - Desert Storm (Europe) (En,Fr,De,Es,It)"
-	description "Conflict - Desert Storm (Europe) (En,Fr,De,Es,It)"
+	name "Conflict - Desert Storm (Europe)"
+	description "Conflict - Desert Storm (Europe)"
 	region "Europe"
 	serial "SC-001"
-	rom ( name "Conflict - Desert Storm (Europe) (En,Fr,De,Es,It).iso" size 7825162240 crc 40E98AD7 md5 AF79D527F787B509C96393E67BF40B8F sha1 8222EB5962165C9D503E829EB425F21339DC1A04 serial "SC-001" )
+	rom ( name "Conflict - Desert Storm (Europe).iso" size 7825162240 crc 40E98AD7 md5 AF79D527F787B509C96393E67BF40B8F sha1 8222EB5962165C9D503E829EB425F21339DC1A04 serial "SC-001" )
 )
 game (
 	name "Conflict - Desert Storm (USA)"
@@ -2626,11 +2639,10 @@ game (
 	rom ( name "Crash Bandicoot - The Wrath of Cortex (Asia).iso" size 7825162240 crc 77B00E31 md5 AB8473167F9B696EF068EA511CF275DC sha1 AA3731BBF4CE09BC28429EC570E5795A73038FDF serial "VU-003" )
 )
 game (
-	name "Crash Bandicoot - The Wrath of Cortex (Europe) (En,Fr,De,Es,It,Nl)"
-	description "Crash Bandicoot - The Wrath of Cortex (Europe) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
+	name "Crash Bandicoot - The Wrath of Cortex (Europe, Australia) (En,Fr,De,Es,It,Nl)"
+	description "Crash Bandicoot - The Wrath of Cortex (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	serial "VV-001"
-	rom ( name "Crash Bandicoot - The Wrath of Cortex (Europe) (En,Fr,De,Es,It,Nl).iso" size 7825162240 crc E86EBEB8 md5 3F7C67E0FCC107DAEF0EB547BC95C9C4 sha1 6175861CCD027B6124E1FA00EDE47E17617B043A serial "VV-001" )
+	rom ( name "Crash Bandicoot - The Wrath of Cortex (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 7825162240 crc E86EBEB8 md5 3F7C67E0FCC107DAEF0EB547BC95C9C4 sha1 6175861CCD027B6124E1FA00EDE47E17617B043A serial "VV-001" )
 )
 game (
 	name "Crash Bandicoot - The Wrath of Cortex (USA)"
@@ -4809,6 +4821,12 @@ game (
 	rom ( name "FlatOut (USA).iso" size 7825162240 crc 663EFDD3 md5 01F98ACB8D7292BDA0202F0E2A9A3F1C sha1 E34D30DEFABF415174BB4C40714C9F1A9195533E serial "EM-009" )
 )
 game (
+	name "FlatOut (USA) (Beta)"
+	description "FlatOut (USA) (Beta)"
+	region "USA"
+	rom ( name "FlatOut (USA) (Beta).iso" size 1383624704 crc 569779B0 md5 EA1080B6CBE3C1566975979DC8E9DABA sha1 CE28B0BDDE43EB71C2B28F308EFC8A7A534B8A18 )
+)
+game (
 	name "FlatOut 2 (Germany)"
 	description "FlatOut 2 (Germany)"
 	region "Germany"
@@ -5073,10 +5091,10 @@ game (
 	rom ( name "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 7825162240 crc 7DB8C18A md5 87FC1E8E627C1BF938D8D4B946F5DBFB sha1 1C7C317A2007BD5665B3AD7D8F1B9E7144588419 serial "TQ-034" )
 )
 game (
-	name "Full Spectrum Warrior (Japan, Asia) (En,Ja,Ko)"
-	description "Full Spectrum Warrior (Japan, Asia) (En,Ja,Ko)"
+	name "Full Spectrum Warrior (Japan, Korea) (En,Ja,Ko)"
+	description "Full Spectrum Warrior (Japan, Korea) (En,Ja,Ko)"
 	serial "TQ-034"
-	rom ( name "Full Spectrum Warrior (Japan, Asia) (En,Ja,Ko).iso" size 7825162240 crc 2602558E md5 1F9A878EF46039944A1EBD147B2D4D09 sha1 A503F3C8D9CF7FF4483084C248632B9870111F94 serial "TQ-034" )
+	rom ( name "Full Spectrum Warrior (Japan, Korea) (En,Ja,Ko).iso" size 7825162240 crc 2602558E md5 1F9A878EF46039944A1EBD147B2D4D09 sha1 A503F3C8D9CF7FF4483084C248632B9870111F94 serial "TQ-034" )
 )
 game (
 	name "Full Spectrum Warrior (USA)"
@@ -5502,11 +5520,11 @@ game (
 	rom ( name "Grand Theft Auto - Vice City (Germany).iso" size 7825162240 crc 4E4D7ADC md5 3D9811B1A34618D4FC4E984968335F68 sha1 6F7DD79520FB9B224698CE32D7816DA7C66D0EFA serial "TT-015" )
 )
 game (
-	name "Grand Theft Auto - Vice City (Japan)"
-	description "Grand Theft Auto - Vice City (Japan)"
+	name "Grand Theft Auto - Vice City (Japan) (Rev 1)"
+	description "Grand Theft Auto - Vice City (Japan) (Rev 1)"
 	region "Japan"
 	serial "TT-115"
-	rom ( name "Grand Theft Auto - Vice City (Japan).iso" size 7825162240 crc DD14F681 md5 1D78479DAE635EF390E32F8B3BCFAD78 sha1 385B03A1D8B95A8EB6E50F2B9C14512BA3D0D4AA serial "TT-115" )
+	rom ( name "Grand Theft Auto - Vice City (Japan) (Rev 1).iso" size 7825162240 crc DD14F681 md5 1D78479DAE635EF390E32F8B3BCFAD78 sha1 385B03A1D8B95A8EB6E50F2B9C14512BA3D0D4AA serial "TT-115" )
 )
 game (
 	name "Grand Theft Auto - Vice City (USA)"
@@ -6912,6 +6930,12 @@ game (
 	rom ( name "LEGO Star Wars II - The Original Trilogy (USA, Europe) (En,Fr,De,Es,It,Da).iso" size 7825162240 crc 76519CF5 md5 7D42D3CD3F77B782078AF3C86D1E4300 sha1 F95A9C76BFA0E9AFDFB9C9EFBB9369EDB9521B25 serial "LA-031" )
 )
 game (
+	name "LEGO Super Soccer Adventure (Europe) (Proto)"
+	description "LEGO Super Soccer Adventure (Europe) (Proto)"
+	region "Europe"
+	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto).iso" size 178716672 crc 46EA4F80 md5 56D616C6A2FDD112FBD2E4BCC13F76C2 sha1 9BC41F3327994CD7338AAA8A204E38BCA411E482 )
+)
+game (
 	name "LMA Manager 2003 (Europe)"
 	description "LMA Manager 2003 (Europe)"
 	region "Europe"
@@ -7503,7 +7527,8 @@ game (
 	name "Madden NFL 2004 (USA) (Rev 1)"
 	description "Madden NFL 2004 (USA) (Rev 1)"
 	region "USA"
-	rom ( name "Madden NFL 2004 (USA) (Rev 1).iso" size 7825162240 crc 31A8058A md5 8B3C49D4E3699E496FC6F0CE8FB4185A sha1 E46959DFFD0159F74DF646194D07A9B6296F4DAF )
+	serial "EA-054"
+	rom ( name "Madden NFL 2004 (USA) (Rev 1).iso" size 7825162240 crc 31A8058A md5 8B3C49D4E3699E496FC6F0CE8FB4185A sha1 E46959DFFD0159F74DF646194D07A9B6296F4DAF serial "EA-054" )
 )
 game (
 	name "Madden NFL 2005 (Europe)"
@@ -7913,11 +7938,11 @@ game (
 	rom ( name "MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It) (Bonus Disc).iso" size 7825162240 crc FFCF7DF9 md5 407660DBA5CF54ED8DF1F01D5CE1D5A6 sha1 D14D63A945ADFB5C452D4CC9C5EFA243907FF2C9 serial "MS-131" )
 )
 game (
-	name "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (En,Ja,Fr,De,Es,It) (Demo)"
-	description "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (En,Ja,Fr,De,Es,It) (Demo)"
+	name "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (Demo)"
+	description "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (Demo)"
 	region "USA"
 	serial "XL-019"
-	rom ( name "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (En,Ja,Fr,De,Es,It) (Demo).iso" size 7825162240 crc 4025D4F1 md5 ED9667701E0F7B5F5F8EE4F9E214882A sha1 E6C424327D59BDA3B163674FADAD28B7F90E9199 serial "XL-019" )
+	rom ( name "MechAssault 2 - Lone Wolf + OutRun 2 (USA) (Demo).iso" size 7825162240 crc 4025D4F1 md5 ED9667701E0F7B5F5F8EE4F9E214882A sha1 E6C424327D59BDA3B163674FADAD28B7F90E9199 serial "XL-019" )
 )
 game (
 	name "Medal of Honor - En Premiere Ligne (France)"
@@ -8227,6 +8252,13 @@ game (
 	region "USA"
 	serial "XX-007"
 	rom ( name "Microsoft Windows Media Center Extender for Xbox (USA).iso" size 7825162240 crc D8438B68 md5 D6E03D86121D61FA8BF636DDC6BBE994 sha1 E55897EE23D902FFE68FF6E04BAF7971FCC1655E serial "XX-007" )
+)
+game (
+	name "Microsoft Windows Media Center Extender for Xbox v1.01 (USA)"
+	description "Microsoft Windows Media Center Extender for Xbox v1.01 (USA)"
+	region "USA"
+	serial "XX-007"
+	rom ( name "Microsoft Windows Media Center Extender for Xbox v1.01 (USA).iso" size 7825162240 crc 9C56D246 md5 7A4A5C7E7081815206865002CC4FA1C4 sha1 D84774EFDC4C25052C6E5EE7019E52E97FBA8896 serial "XX-007" )
 )
 game (
 	name "Midnight Club 3 - DUB Edition (Europe) (En,Fr,De,Es,It)"
@@ -8731,6 +8763,12 @@ game (
 	region "Europe"
 	serial "SE-030"
 	rom ( name "NBA 2K3 (Europe).iso" size 7825162240 crc 0C2064E0 md5 EB89F9889384C92D64C2809DA5B4A68D sha1 BB08C4B08C41EA462EE63A54EE0FBA97B1171F62 serial "SE-030" )
+)
+game (
+	name "NBA 2K3 (Europe) (Beta)"
+	description "NBA 2K3 (Europe) (Beta)"
+	region "Europe"
+	rom ( name "NBA 2K3 (Europe) (Beta).iso" size 2148794368 crc 646F301F md5 6F2B81AD7437D9C0E1D7D2211ABDF9F3 sha1 1602CD7A9F574441DB8EB5A49F99E75B4B186833 )
 )
 game (
 	name "NBA 2K3 (USA)"
@@ -9942,6 +9980,12 @@ game (
 	rom ( name "Off-Road - Wide Open (Europe) (En,Fr,De,Es,It).iso" size 7825162240 crc 2FB5DC05 md5 B5B663630E3C752162D75BB9E93D3DAA sha1 CC6141167565EA0AE0E1D641528C85539F636B82 serial "IG-001" )
 )
 game (
+	name "Official Xbox 50 Best Games, The (UK)"
+	description "Official Xbox 50 Best Games, The (UK)"
+	serial "IM-001"
+	rom ( name "Official Xbox 50 Best Games, The (UK).iso" size 7825162240 crc 293FAE9D md5 5B003EB75669E1081E896CCE59E168A7 sha1 6975A437E6C4ACA61773C650FC9B730A60AC0B0C serial "IM-001" )
+)
+game (
 	name "Official Xbox Magazine Best of Xbox Game Demos Vol. 1 (USA)"
 	description "Official Xbox Magazine Best of Xbox Game Demos Vol. 1 (USA)"
 	region "USA"
@@ -10498,6 +10542,12 @@ game (
 	region "Europe"
 	serial "IM-028"
 	rom ( name "Official Xbox Magazine Game Disc 28 (Europe) (En,Fr,De,Es,It,Pt).iso" size 7825162240 crc 5C521A22 md5 889A435F5471C7F2076FA774FCAB7225 sha1 DEDF15175DA74C81F970D828E8AB9BC28FA3C1C3 serial "IM-028" )
+)
+game (
+	name "Official Xbox Magazine Game Disc 28 (Europe, Australia)"
+	description "Official Xbox Magazine Game Disc 28 (Europe, Australia)"
+	serial "IM-028"
+	rom ( name "Official Xbox Magazine Game Disc 28 (Europe, Australia).iso" size 7825162240 crc 06FB28A6 md5 23FF9467B4FDE3CB55022D889018F0D8 sha1 B728E62458494C4930F1965D9624C970AE26C892 serial "IM-028" )
 )
 game (
 	name "Official Xbox Magazine Game Disc 28 (USA)"
@@ -11072,13 +11122,6 @@ game (
 	region "Germany"
 	serial "IM-039"
 	rom ( name "Offizielle Xbox-Magazin, Das - Cover-DVD 04-2005 (Germany) (En,Fr,De,Es,It,Pt).iso" size 7825162240 crc 60400034 md5 BB5FBC2EDFEF767EB40C955D5C371C00 sha1 D2D6D97D26B65E208D1F6BB603EEE00AA927EBB1 serial "IM-039" )
-)
-game (
-	name "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2004 (Germany)"
-	description "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2004 (Germany)"
-	region "Germany"
-	serial "IM-028"
-	rom ( name "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2004 (Germany).iso" size 7825162240 crc 06FB28A6 md5 23FF9467B4FDE3CB55022D889018F0D8 sha1 B728E62458494C4930F1965D9624C970AE26C892 serial "IM-028" )
 )
 game (
 	name "Offizielle Xbox-Magazin, Das - Cover-DVD 05-2005 (Germany) (En,Fr,De,Es,It,Pt)"
@@ -12337,6 +12380,13 @@ game (
 	rom ( name "Raze's Hell (USA).iso" size 7825162240 crc 62ABAB71 md5 332C2B88186CE695E3B72274DD28168E sha1 72FD3C9180298ADD6622501DFFA9FB8EA3C3602F serial "MJ-017" )
 )
 game (
+	name "Re-Volt (Japan) (En,Ja,Fr,De,Es,It) (Beta)"
+	description "Re-Volt (Japan) (En,Ja,Fr,De,Es,It) (Beta)"
+	region "Japan"
+	serial "XL-008"
+	rom ( name "Re-Volt (Japan) (En,Ja,Fr,De,Es,It) (Beta).iso" size 7825162240 crc DF0FBDAB md5 0322EC9624AFD6C2F753B2E818C7771B sha1 BDDBE73B4A4BF423F513CCEA6C477F28A97EC60F serial "XL-008" )
+)
+game (
 	name "Re-Volt (World) (En,Ja,Fr,De,Es,It) (Beta)"
 	description "Re-Volt (World) (En,Ja,Fr,De,Es,It) (Beta)"
 	serial "XL-008"
@@ -12770,11 +12820,10 @@ game (
 	rom ( name "SNK vs. Capcom - SVC Chaos (Europe) (En,Fr,De,Es,It).iso" size 7825162240 crc 8994B025 md5 28C1746A089AF907F403AA87AFDDDF35 sha1 87ADCC5C8A3D63447698B9484185A875B0F498E0 serial "SN-001" )
 )
 game (
-	name "SNK vs. Capcom - SVC Chaos (USA)"
-	description "SNK vs. Capcom - SVC Chaos (USA)"
-	region "USA"
+	name "SNK vs. Capcom - SVC Chaos (USA, Japan) (En,Ja)"
+	description "SNK vs. Capcom - SVC Chaos (USA, Japan) (En,Ja)"
 	serial "SN-001"
-	rom ( name "SNK vs. Capcom - SVC Chaos (USA).iso" size 7825162240 crc 0FE232DD md5 423E0DC10AA514B013FCE77972F94E25 sha1 9C8ECCEE1E21D683066CFB3813D0FA66B643B52F serial "SN-001" )
+	rom ( name "SNK vs. Capcom - SVC Chaos (USA, Japan) (En,Ja).iso" size 7825162240 crc 0FE232DD md5 423E0DC10AA514B013FCE77972F94E25 sha1 9C8ECCEE1E21D683066CFB3813D0FA66B643B52F serial "SN-001" )
 )
 game (
 	name "SRS - Street Racing Syndicate (Europe) (En,Fr,De,Es,It)"
@@ -13721,6 +13770,12 @@ game (
 	rom ( name "Spartan - Total Warrior (USA).iso" size 7825162240 crc 35BB74ED md5 52B746BE0292D93FD906AC5E98EA7D6B sha1 9540DED56E738543632A6F94D77761BE4A0E0842 serial "SE-139" )
 )
 game (
+	name "Spartan - Total Warrior (USA) (Beta)"
+	description "Spartan - Total Warrior (USA) (Beta)"
+	region "USA"
+	rom ( name "Spartan - Total Warrior (USA) (Beta).iso" size 3919413248 crc 3CDACD4D md5 07F26B901983C449FAFBA446E71D5BB5 sha1 A0F470BEE3EC36D6A621E8148807AF848B70414A )
+)
+game (
 	name "Spartan - Total Warrior (USA) (Demo)"
 	description "Spartan - Total Warrior (USA) (Demo)"
 	region "USA"
@@ -13956,11 +14011,10 @@ game (
 	rom ( name "Spyro - A Hero's Tail (Europe) (En,Fr,De,Es,It,Nl).iso" size 7825162240 crc 6A30FCF4 md5 7D3715A6532A3DA797EBE44AA4BDF47D sha1 A361F6D92D67766A4963E442382FDD56470A3212 serial "VU-052" )
 )
 game (
-	name "Spyro - A Hero's Tail (USA)"
-	description "Spyro - A Hero's Tail (USA)"
-	region "USA"
+	name "Spyro - A Hero's Tail (USA, Asia)"
+	description "Spyro - A Hero's Tail (USA, Asia)"
 	serial "VU-052"
-	rom ( name "Spyro - A Hero's Tail (USA).iso" size 7825162240 crc 5D530EE2 md5 48DDF5C4C5A47CF80FD4BAA8B4490B52 sha1 6B3DB5A5A3F09190BB44E68FF6E580F3A5974715 serial "VU-052" )
+	rom ( name "Spyro - A Hero's Tail (USA, Asia).iso" size 7825162240 crc 5D530EE2 md5 48DDF5C4C5A47CF80FD4BAA8B4490B52 sha1 6B3DB5A5A3F09190BB44E68FF6E580F3A5974715 serial "VU-052" )
 )
 game (
 	name "Stacked with Daniel Negreanu (USA)"
@@ -14058,11 +14112,11 @@ game (
 	rom ( name "Star Wars - Caballeros de la Antigua Republica (Spain).iso" size 7825162240 crc 4AF271A7 md5 6418B61225C471A55C639E6A71519B3F sha1 A49D1AD67EFCE57FB050293A406B20B06E18D331 serial "LA-003" )
 )
 game (
-	name "Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths (Spain)"
-	description "Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths (Spain)"
+	name "Star Wars - Caballeros de la Antigua Republica II - Los Senores Sith (Spain)"
+	description "Star Wars - Caballeros de la Antigua Republica II - Los Senores Sith (Spain)"
 	region "Spain"
 	serial "LA-020"
-	rom ( name "Star Wars - Caballeros de la Antigua Republica 2 - Los Senores Siths (Spain).iso" size 7825162240 crc 8A655D14 md5 7D5B8D2F1C6C0F3ACAE5ECCC6B503782 sha1 AD880E84F48A6B99640766C40CD6C3B68B990A47 serial "LA-020" )
+	rom ( name "Star Wars - Caballeros de la Antigua Republica II - Los Senores Sith (Spain).iso" size 7825162240 crc 8A655D14 md5 7D5B8D2F1C6C0F3ACAE5ECCC6B503782 sha1 AD880E84F48A6B99640766C40CD6C3B68B990A47 serial "LA-020" )
 )
 game (
 	name "Star Wars - Episode III - Die Rache der Sith (Germany)"
@@ -15056,6 +15110,13 @@ game (
 	rom ( name "Test Drive Off-Road - Wide Open (USA).iso" size 7825162240 crc 1E544823 md5 C56594C8EEA7B43165B81ABC49D37A65 sha1 5B5427AE80CA2370233D0C3C525CA684F0F37B39 serial "IG-001" )
 )
 game (
+	name "Test Equipment Boot Loader Utility (USA)"
+	description "Test Equipment Boot Loader Utility (USA)"
+	region "USA"
+	serial "XB-001"
+	rom ( name "Test Equipment Boot Loader Utility (USA).iso" size 7838154752 crc FE346108 md5 775ED79537726FDF698D50E3949B14D4 sha1 726C2E073B77C032CFB5E7139A990EF202CAA6B6 serial "XB-001" )
+)
+game (
 	name "Tetris Worlds (Europe) (En,Fr,De)"
 	description "Tetris Worlds (Europe) (En,Fr,De)"
 	region "Europe"
@@ -15452,6 +15513,13 @@ game (
 	region "Asia"
 	serial "US-012"
 	rom ( name "Tom Clancy's Splinter Cell (Asia) (En,Fr).iso" size 7825162240 crc 128826BF md5 3981E6D1331837623564C0A17F35D5DA sha1 835195E261930F512A3F6C305429DA4905480276 serial "US-012" )
+)
+game (
+	name "Tom Clancy's Splinter Cell (Europe) (Demo)"
+	description "Tom Clancy's Splinter Cell (Europe) (Demo)"
+	region "Europe"
+	serial "US-012"
+	rom ( name "Tom Clancy's Splinter Cell (Europe) (Demo).iso" size 7825162240 crc C48D7357 md5 3907EC0506718741558877CC110047B2 sha1 F6E8C348C673F281BF162789A56E9FBF1F0FC111 serial "US-012" )
 )
 game (
 	name "Tom Clancy's Splinter Cell (Europe) (En,Fr,De,Es,It)"
@@ -16079,10 +16147,10 @@ game (
 	rom ( name "Una Serie de Catastroficas Desdichas de Lemony Snicket (Spain).iso" size 7825162240 crc 3A147CF2 md5 1F487C455435334D7859DFEA1D8DFCC6 sha1 60288EED325F4CDB035E9CAAC617C0B9029AD5A5 serial "AV-031" )
 )
 game (
-	name "Unreal Championship (Japan, Asia)"
-	description "Unreal Championship (Japan, Asia)"
+	name "Unreal Championship (Japan, Korea)"
+	description "Unreal Championship (Japan, Korea)"
 	serial "IG-036"
-	rom ( name "Unreal Championship (Japan, Asia).iso" size 7825162240 crc 14707F6C md5 09CD12F018779A556464CD55CE92E8E8 sha1 915EDEB37589E196378CF958EC11826F59891BA2 serial "IG-036" )
+	rom ( name "Unreal Championship (Japan, Korea).iso" size 7825162240 crc 14707F6C md5 09CD12F018779A556464CD55CE92E8E8 sha1 915EDEB37589E196378CF958EC11826F59891BA2 serial "IG-036" )
 )
 game (
 	name "Unreal Championship (USA, Europe) (En,Fr,De,Es,It)"
@@ -16399,11 +16467,10 @@ game (
 	rom ( name "WarPath (USA).iso" size 7825162240 crc FC4C9AFA md5 C215364A0DDAA9A5C5A9BEEC81965071 sha1 DDC5E2F994FD34228B2D40112EA153F70DF459A0 serial "GV-010" )
 )
 game (
-	name "Warriors, The (Europe) (En,Fr,De,Es,It)"
-	description "Warriors, The (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Warriors, The (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Warriors, The (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "TT-155"
-	rom ( name "Warriors, The (Europe) (En,Fr,De,Es,It).iso" size 7825162240 crc AB807281 md5 607FCE5C273E118218B40CDF53E474FE sha1 9B9146069204E194AE4CF6BFE6223FBD02D06F0D serial "TT-155" )
+	rom ( name "Warriors, The (Europe, Australia) (En,Fr,De,Es,It).iso" size 7825162240 crc AB807281 md5 607FCE5C273E118218B40CDF53E474FE sha1 9B9146069204E194AE4CF6BFE6223FBD02D06F0D serial "TT-155" )
 )
 game (
 	name "Warriors, The (USA)"
@@ -16887,6 +16954,20 @@ game (
 	rom ( name "Xbox 360 - Das Offizielle Xbox-Magazin - Demo Disk 12-2006 (Germany).iso" size 7825162240 crc 843D3B77 md5 6AF58D970E73290AA7D6A9BAFCC09B20 sha1 9625B47511C4FE2BDAF18EB3D2C5F97DCEAC7839 serial "IM-228" )
 )
 game (
+	name "Xbox 360 - Den Officiella Xbox-Tidningen Nr 1 - April 06 (Sweden)"
+	description "Xbox 360 - Den Officiella Xbox-Tidningen Nr 1 - April 06 (Sweden)"
+	region "Sweden"
+	serial "IM-211"
+	rom ( name "Xbox 360 - Den Officiella Xbox-Tidningen Nr 1 - April 06 (Sweden).iso" size 7825162240 crc 60AC02BF md5 E53BC5BAF351A27269EEA7617E0B71EA sha1 38DF8595007B5F2BFBD5F6370D835428F36C1A08 serial "IM-211" )
+)
+game (
+	name "Xbox 360 - Den Officiella Xbox-Tidningen Nr 2 - Juni 06 (Sweden)"
+	description "Xbox 360 - Den Officiella Xbox-Tidningen Nr 2 - Juni 06 (Sweden)"
+	region "Sweden"
+	serial "IM-226"
+	rom ( name "Xbox 360 - Den Officiella Xbox-Tidningen Nr 2 - Juni 06 (Sweden).iso" size 7825162240 crc 4F7637CE md5 B971B2B0C1A0D06D52C8D730113610D3 sha1 58B93A9C985B52E37C8FA4D06C6D88DAA8445B79 serial "IM-226" )
+)
+game (
 	name "Xbox 360 - The Official Australian Xbox Magazine Issue 04 - July-August 2006 (Australia)"
 	description "Xbox 360 - The Official Australian Xbox Magazine Issue 04 - July-August 2006 (Australia)"
 	region "Australia"
@@ -17157,6 +17238,13 @@ game (
 	region "USA"
 	serial "XK-051"
 	rom ( name "Xbox Demo Disc Version 4.5 (USA).iso" size 7825162240 crc C5957176 md5 B5BC07A260D5B3B8C33C554244B66700 sha1 517B7E35C83BE95D9A1379E776C8F20B96ED78D6 serial "XK-051" )
+)
+game (
+	name "Xbox Demo Disc Version 4.6 (USA)"
+	description "Xbox Demo Disc Version 4.6 (USA)"
+	region "USA"
+	serial "XK-053"
+	rom ( name "Xbox Demo Disc Version 4.6 (USA).iso" size 7825162240 crc 34A0241D md5 F48597A14850FCB4D364A566F4F76D20 sha1 7A060F0175AC0BF561DA94D4DEEBC5BF2A1E1EF9 serial "XK-053" )
 )
 game (
 	name "Xbox Demo Disk Version 1.0 (USA)"
