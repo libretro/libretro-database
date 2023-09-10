@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - Lynx"
 	description "Atari - Lynx"
-	version "2023.07.18"
+	version "2023.09.09"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -57,14 +57,14 @@ game (
 	rom ( name "Block Out (USA, Europe).lnx" size 131072 crc 3CD75DF3 md5 C81ABF2919EFFD525B83C2103B75E6CA sha1 AE177CF76953B7E0A56B03096BB5C9C9C9051177 )
 )
 game (
-	name "Blue Lightning (USA, Europe)"
-	description "Blue Lightning (USA, Europe)"
-	rom ( name "Blue Lightning (USA, Europe).lnx" size 131072 crc DAF587B1 md5 F7B4775771BC25D9053AF5C69A8C8B2A sha1 BE08076586F76DB368DB1769380DCBB6DE2A6513 )
+	name "Blue Lightning (World)"
+	description "Blue Lightning (World)"
+	rom ( name "Blue Lightning (World).lnx" size 131072 crc DAF587B1 md5 F7B4775771BC25D9053AF5C69A8C8B2A sha1 BE08076586F76DB368DB1769380DCBB6DE2A6513 )
 )
 game (
-	name "Blue Lightning (USA, Europe) (Demo)"
-	description "Blue Lightning (USA, Europe) (Demo)"
-	rom ( name "Blue Lightning (USA, Europe) (Demo).lnx" size 131072 crc BFE36525 md5 7C3CB287DE2D9F67FF342B4E42592732 sha1 57ECE74AC94D65D86A960A44D9896E17B816BBDE )
+	name "Blue Lightning (World) (Demo)"
+	description "Blue Lightning (World) (Demo)"
+	rom ( name "Blue Lightning (World) (Demo).lnx" size 131072 crc BFE36525 md5 7C3CB287DE2D9F67FF342B4E42592732 sha1 57ECE74AC94D65D86A960A44D9896E17B816BBDE )
 )
 game (
 	name "Bubble Trouble (USA, Europe)"
@@ -72,9 +72,20 @@ game (
 	rom ( name "Bubble Trouble (USA, Europe).lnx" size 262144 crc 333DAECE md5 90841F8FED54862F8A8750DDF212EB84 sha1 CB9F78FFB02216979A03ABB66301E4D3A8F01BFE )
 )
 game (
-	name "California Games (USA, Europe)"
-	description "California Games (USA, Europe)"
-	rom ( name "California Games (USA, Europe).lnx" size 131072 crc A08F0B59 md5 73E02BB77DCF857A6578F0E24B4ECB9E sha1 F13E010102CA527A9C393ACB52BB949A1BA93E3E )
+	name "Bug's Trip Redux, A (World) (Demo) (Aftermarket) (Unl)"
+	description "Bug's Trip Redux, A (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Bug's Trip Redux, A (World) (Demo) (Aftermarket) (Unl).lnx" size 262144 crc 36D352BE md5 4F4E6480D7157AEB5904554E038AE218 sha1 E565842D26841B36C8EB1B5A73F094AB0690B020 )
+)
+game (
+	name "Cabal (USA) (Demo)"
+	description "Cabal (USA) (Demo)"
+	region "USA"
+	rom ( name "Cabal (USA) (Demo).lnx" size 262144 crc F8158766 md5 3615DD6B8B805E193107B39C5A92B1F9 sha1 E7ACC3D4F69F31028C0DF7B9DA1A434BAF60E8E8 )
+)
+game (
+	name "California Games (World)"
+	description "California Games (World)"
+	rom ( name "California Games (World).lnx" size 131072 crc A08F0B59 md5 73E02BB77DCF857A6578F0E24B4ECB9E sha1 F13E010102CA527A9C393ACB52BB949A1BA93E3E )
 )
 game (
 	name "Centipede (USA) (Proto)"
@@ -88,9 +99,9 @@ game (
 	rom ( name "Checkered Flag (USA, Europe).lnx" size 262144 crc 19C5A7A5 md5 85B33C5E5985AB041ECC44555A8CFB42 sha1 F115BB5F98992D98C8D11B1DAA68BB1961B59660 )
 )
 game (
-	name "Chip's Challenge (USA, Europe)"
-	description "Chip's Challenge (USA, Europe)"
-	rom ( name "Chip's Challenge (USA, Europe).lnx" size 131072 crc 6A5F53ED md5 24611D1445EBD34AB79FB0AE996FF4E4 sha1 6A90E6627086E13D99BACBCAAFEA7AB2F6ABA8A0 )
+	name "Chip's Challenge (World)"
+	description "Chip's Challenge (World)"
+	rom ( name "Chip's Challenge (World).lnx" size 131072 crc 6A5F53ED md5 24611D1445EBD34AB79FB0AE996FF4E4 sha1 6A90E6627086E13D99BACBCAAFEA7AB2F6ABA8A0 )
 )
 game (
 	name "Crystal Mines II (USA, Europe)"
@@ -98,10 +109,16 @@ game (
 	rom ( name "Crystal Mines II (USA, Europe).lnx" size 131072 crc AEC474C8 md5 B4ACBD3C544A0D92CC8AD1380BF8A810 sha1 3364BDE38508C5C4FED5575295CC80C6F72EDEBE )
 )
 game (
-	name "Daemonsgate (USA) (Proto)"
-	description "Daemonsgate (USA) (Proto)"
+	name "Daemon's Gate (USA) (Proto 1)"
+	description "Daemon's Gate (USA) (Proto 1)"
 	region "USA"
-	rom ( name "Daemonsgate (USA) (Proto).lnx" size 262144 crc 99729395 md5 F8B4DEBD68EB0D7C578242FA74E1C593 sha1 5A3A21EB5DE37367D294E057F70A1F325BF23C4A )
+	rom ( name "Daemon's Gate (USA) (Proto 1).lnx" size 262144 crc 99729395 md5 F8B4DEBD68EB0D7C578242FA74E1C593 sha1 5A3A21EB5DE37367D294E057F70A1F325BF23C4A )
+)
+game (
+	name "Daemon's Gate (USA) (Proto 2)"
+	description "Daemon's Gate (USA) (Proto 2)"
+	region "USA"
+	rom ( name "Daemon's Gate (USA) (Proto 2).lnx" size 262144 crc EF529ED4 md5 F1C12B0C2284E7F7ABE948AA97B34AE1 sha1 4BD08D8EDD5F551782EEDC4D32CF627B9FB16C8B )
 )
 game (
 	name "Desert Strike - Return to the Gulf (USA, Europe)"
@@ -129,9 +146,9 @@ game (
 	rom ( name "Dracula the Undead (USA, Europe).lnx" size 262144 crc 33BB74C7 md5 3FF35996887C2FF95E275085EFBBBBED sha1 8F393F0FA8CE832E6298DB72F539CE4B961700E2 )
 )
 game (
-	name "Electrocop (USA, Europe)"
-	description "Electrocop (USA, Europe)"
-	rom ( name "Electrocop (USA, Europe).lnx" size 131072 crc BD97116B md5 C49CA94A908DB219224C6D5BAA206AB6 sha1 5BD6614BC98A882EC2F465278FE4F1ED6A4E972B )
+	name "Electrocop (World)"
+	description "Electrocop (World)"
+	rom ( name "Electrocop (World).lnx" size 131072 crc BD97116B md5 C49CA94A908DB219224C6D5BAA206AB6 sha1 5BD6614BC98A882EC2F465278FE4F1ED6A4E972B )
 )
 game (
 	name "European Soccer Challenge (USA, Europe)"
@@ -139,16 +156,21 @@ game (
 	rom ( name "European Soccer Challenge (USA, Europe).lnx" size 131072 crc F83397F9 md5 32E726AB7941EB1E833DCC4CF348A060 sha1 F1D0390A36055EF2B7CB5F7CE44F622A63D82E80 )
 )
 game (
-	name "Eye of the Beholder (USA) (Proto)"
-	description "Eye of the Beholder (USA) (Proto)"
+	name "Eye of the Beholder (USA) (Proto 1)"
+	description "Eye of the Beholder (USA) (Proto 1)"
 	region "USA"
-	rom ( name "Eye of the Beholder (USA) (Proto).lnx" size 131072 crc 6BCEAA9C md5 858480BB97D86A52B1CA17DC390A8BDC sha1 65C0517A59E0E93BAD91245EE8085B3483428707 )
+	rom ( name "Eye of the Beholder (USA) (Proto 1).lnx" size 131072 crc 6BCEAA9C md5 858480BB97D86A52B1CA17DC390A8BDC sha1 65C0517A59E0E93BAD91245EE8085B3483428707 )
 )
 game (
-	name "Eye of the Beholder (USA) (Unl)"
-	description "Eye of the Beholder (USA) (Unl)"
+	name "Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl)"
+	description "Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl)"
 	region "USA"
-	rom ( name "Eye of the Beholder (USA) (Unl).lnx" size 524288 crc F1B307CB md5 7B3F49BDA3162FAC51A387905E6FB6F4 sha1 CA3057AEFEFF15C1C73990D4CAE5ACA117878F61 )
+	rom ( name "Eye of the Beholder (USA) (Proto 2) (Aftermarket) (Unl).lnx" size 524288 crc AE8C70F0 md5 982986F482ECEF8BD0314F6B71152245 sha1 C06FC630278F618B09388EBF05E4F131CB3B8794 )
+)
+game (
+	name "Eye of the Beholder (World) (Unl)"
+	description "Eye of the Beholder (World) (Unl)"
+	rom ( name "Eye of the Beholder (World) (Unl).lnx" size 524288 crc F1B307CB md5 7B3F49BDA3162FAC51A387905E6FB6F4 sha1 CA3057AEFEFF15C1C73990D4CAE5ACA117878F61 )
 )
 game (
 	name "Fat Bobby (USA, Europe)"
@@ -161,24 +183,53 @@ game (
 	rom ( name "Fidelity Ultimate Chess Challenge, The (USA, Europe).lnx" size 131072 crc 7E4B5945 md5 19EB0CA77284B5D91A63EB02F6962930 sha1 F6AFA50F161FFFE5975CF5688A9314B8039D940F )
 )
 game (
-	name "Gates of Zendocon (USA, Europe)"
-	description "Gates of Zendocon (USA, Europe)"
-	rom ( name "Gates of Zendocon (USA, Europe).lnx" size 131072 crc 494CC568 md5 D5BE9118BCB14243468001B08C4AA21A sha1 4EB4D3EB29231B2E36D8EF6EDE64A568F469C5FE )
+	name "Friendly (World) (Demo) (Unl)"
+	description "Friendly (World) (Demo) (Unl)"
+	rom ( name "Friendly (World) (Demo) (Unl).lnx" size 131072 crc 68B0A428 md5 B6FF75C316D85967486A833E0F9ED8F0 sha1 D792813CE2F752A2F583C54D056703506C5ACEDC )
 )
 game (
-	name "Gauntlet - The Third Encounter (USA, Europe)"
-	description "Gauntlet - The Third Encounter (USA, Europe)"
-	rom ( name "Gauntlet - The Third Encounter (USA, Europe).lnx" size 131072 crc 7F0EC7AD md5 0B572C0DFB938849EEEC39B2C9583547 sha1 41D27F0717A93D05A9D3D1110F571F791D330F55 )
+	name "Full Court Press (USA) (Proto)"
+	description "Full Court Press (USA) (Proto)"
+	region "USA"
+	rom ( name "Full Court Press (USA) (Proto).lnx" size 262144 crc FF9E0126 md5 BB25F72460164C2319993E87668D9C69 sha1 6419332F565CF090313044C1815E540C72D8DD8A )
 )
 game (
-	name "Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04)"
-	description "Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04)"
-	rom ( name "Gauntlet - The Third Encounter (USA, Europe) (Beta) (1990-06-04).lnx" size 131072 crc DCD723E3 md5 8815EA087AF1AA89B4F7B65BD3CB8534 sha1 F2623DA3F8D762F4A834EEBBF0E521117EC39428 )
+	name "Gates of Zendocon (World)"
+	description "Gates of Zendocon (World)"
+	rom ( name "Gates of Zendocon (World).lnx" size 131072 crc 494CC568 md5 D5BE9118BCB14243468001B08C4AA21A sha1 4EB4D3EB29231B2E36D8EF6EDE64A568F469C5FE )
+)
+game (
+	name "Gauntlet - The Third Encounter (World)"
+	description "Gauntlet - The Third Encounter (World)"
+	rom ( name "Gauntlet - The Third Encounter (World).lnx" size 131072 crc 7F0EC7AD md5 0B572C0DFB938849EEEC39B2C9583547 sha1 41D27F0717A93D05A9D3D1110F571F791D330F55 )
+)
+game (
+	name "Gauntlet - The Third Encounter (World) (Beta) (1990-06-04)"
+	description "Gauntlet - The Third Encounter (World) (Beta) (1990-06-04)"
+	rom ( name "Gauntlet - The Third Encounter (World) (Beta) (1990-06-04).lnx" size 131072 crc DCD723E3 md5 8815EA087AF1AA89B4F7B65BD3CB8534 sha1 F2623DA3F8D762F4A834EEBBF0E521117EC39428 )
+)
+game (
+	name "Geoduel (USA) (Demo)"
+	description "Geoduel (USA) (Demo)"
+	region "USA"
+	rom ( name "Geoduel (USA) (Demo).lnx" size 262144 crc BD4BF2B0 md5 AA9CE261CE613992699436F5CA800B2C sha1 0B304F14D0FDC1387E51B2C8A8546C88E5E12D11 )
 )
 game (
 	name "Gordo 106 (USA, Europe)"
 	description "Gordo 106 (USA, Europe)"
 	rom ( name "Gordo 106 (USA, Europe).lnx" size 262144 crc D20A85FC md5 EB9B5B2B6160E5F3015BC2A669D886B6 sha1 298163CF4355D0E8AABA264CD7DCD828B1FC6BEC )
+)
+game (
+	name "Guardians, The - Storm Over Doria (USA) (Proto 1)"
+	description "Guardians, The - Storm Over Doria (USA) (Proto 1)"
+	region "USA"
+	rom ( name "Guardians, The - Storm Over Doria (USA) (Proto 1).lnx" size 262144 crc 0E335AA8 md5 6419BD35B15BC190BF55DE3025300422 sha1 9F02145A5640C4C373F45DCB5566E5AC36F32851 )
+)
+game (
+	name "Guardians, The - Storm Over Doria (USA) (Proto 2)"
+	description "Guardians, The - Storm Over Doria (USA) (Proto 2)"
+	region "USA"
+	rom ( name "Guardians, The - Storm Over Doria (USA) (Proto 2).lnx" size 262144 crc 8F0E72C6 md5 69B58D4482C69B4658D443F00975DAE4 sha1 31CADC20427C6BE236DB6024BCD280FC1661C235 )
 )
 game (
 	name "Hard Drivin' (USA, Europe)"
@@ -211,14 +262,14 @@ game (
 	rom ( name "Joust (USA, Europe).lnx" size 131072 crc 5DBA792A md5 440462507CF5CFFAA8D3D3A66F01AC6A sha1 EAD01F532BCAF535065DFD66B26D04B484D0066E )
 )
 game (
-	name "Klax (USA, Europe)"
-	description "Klax (USA, Europe)"
-	rom ( name "Klax (USA, Europe).lnx" size 262144 crc A53649F1 md5 F96A0DDCC72C971226E8FDFD95607C88 sha1 A1D2DC0771F4A30E539AB3261A21CC71ADC71550 )
+	name "Klax (World)"
+	description "Klax (World)"
+	rom ( name "Klax (World).lnx" size 262144 crc A53649F1 md5 F96A0DDCC72C971226E8FDFD95607C88 sha1 A1D2DC0771F4A30E539AB3261A21CC71ADC71550 )
 )
 game (
-	name "Klax (USA, Europe) (Beta)"
-	description "Klax (USA, Europe) (Beta)"
-	rom ( name "Klax (USA, Europe) (Beta).lnx" size 262144 crc 4D5D94F4 md5 57043E8E79588C067118A4D5F307CD76 sha1 B6CB710964A5FDD0A236BF38069BE40AA4037B6B )
+	name "Klax (World) (Beta)"
+	description "Klax (World) (Beta)"
+	rom ( name "Klax (World) (Beta).lnx" size 262144 crc 4D5D94F4 md5 57043E8E79588C067118A4D5F307CD76 sha1 B6CB710964A5FDD0A236BF38069BE40AA4037B6B )
 )
 game (
 	name "Krazy Ace - Miniature Golf (USA, Europe)"
@@ -236,10 +287,9 @@ game (
 	rom ( name "Lemmings (USA, Europe).lnx" size 262144 crc 39B9B8CC md5 3CAE85572DF3B43F0220326BF4BB3C8B sha1 4D430B1AACF207A631F81B2089688B82267D0394 )
 )
 game (
-	name "Lexis (USA)"
-	description "Lexis (USA)"
-	region "USA"
-	rom ( name "Lexis (USA).lnx" size 262144 crc 0271B6E9 md5 7EE41EDAEF283459C9DF93366C5DA267 sha1 B973CEE4A58DBAE5AB2D540B38DB90AAE78BA323 )
+	name "Lexis (World) (Aftermarket) (Unl)"
+	description "Lexis (World) (Aftermarket) (Unl)"
+	rom ( name "Lexis (World) (Aftermarket) (Unl).lnx" size 262144 crc 0271B6E9 md5 7EE41EDAEF283459C9DF93366C5DA267 sha1 B973CEE4A58DBAE5AB2D540B38DB90AAE78BA323 )
 )
 game (
 	name "Lode Runner (USA) (Proto 1)"
@@ -254,10 +304,16 @@ game (
 	rom ( name "Lode Runner (USA) (Proto 2).lnx" size 262144 crc AE5AC8A9 md5 908CED914B1308D166AE83226AA12985 sha1 700E95602FAE8439AA992238A8218360B0E5175F )
 )
 game (
-	name "Loopz (USA) (Proto) (1992-11-05)"
-	description "Loopz (USA) (Proto) (1992-11-05)"
+	name "Loopz (USA) (v0.04) (Proto) (1992-09-16)"
+	description "Loopz (USA) (v0.04) (Proto) (1992-09-16)"
 	region "USA"
-	rom ( name "Loopz (USA) (Proto) (1992-11-05).lnx" size 262144 crc B1C25EF1 md5 8399C8FBA48BA1A4389A96E75838DC49 sha1 B43B0841A5D315D8E515CEAECE29875BA6F9AFBB )
+	rom ( name "Loopz (USA) (v0.04) (Proto) (1992-09-16).lnx" size 262144 crc D2B07D4D md5 2D9B5D1FE7C868371357F42DBBF75131 sha1 F9E2ECE48ED2EAB61743836922FA8805C3332B89 )
+)
+game (
+	name "Loopz (USA) (v0.06) (Proto) (1992-11-05)"
+	description "Loopz (USA) (v0.06) (Proto) (1992-11-05)"
+	region "USA"
+	rom ( name "Loopz (USA) (v0.06) (Proto) (1992-11-05).lnx" size 262144 crc B1C25EF1 md5 8399C8FBA48BA1A4389A96E75838DC49 sha1 B43B0841A5D315D8E515CEAECE29875BA6F9AFBB )
 )
 game (
 	name "Lynx Casino (USA, Europe)"
@@ -281,15 +337,21 @@ game (
 	rom ( name "Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).lnx" size 262144 crc 4329084A md5 98C851C7ED924E1C7123C60E5164819E sha1 452F9A150EFE77205CD0162264FC4AD3DEF7526C )
 )
 game (
-	name "Marlboro Go! (Europe) (Proto)"
-	description "Marlboro Go! (Europe) (Proto)"
+	name "Marlboro Go! (Europe) (Proto 1)"
+	description "Marlboro Go! (Europe) (Proto 1)"
 	region "Europe"
-	rom ( name "Marlboro Go! (Europe) (Proto).lnx" size 262144 crc C3FA0D4D md5 194A3EEB876D2B74CC480F4D337D79B3 sha1 26B18B706359B093D0B1BBCA4DBA9CD2D73E0372 )
+	rom ( name "Marlboro Go! (Europe) (Proto 1).lnx" size 262144 crc B17A36AD md5 748BDA71D1F8EE328B086EE21AC3C3F9 sha1 D3FC3FF1843C3AD431AD053ADE9DBBE4A8F34822 )
 )
 game (
-	name "Ms. Pac-Man (USA, Europe)"
-	description "Ms. Pac-Man (USA, Europe)"
-	rom ( name "Ms. Pac-Man (USA, Europe).lnx" size 131072 crc 7DE3783A md5 192B6B764A3A1C7831E0A785FA4B5453 sha1 FF644034CD840F8C13B643C44EC2C685290E0326 )
+	name "Marlboro Go! (Europe) (Proto 2)"
+	description "Marlboro Go! (Europe) (Proto 2)"
+	region "Europe"
+	rom ( name "Marlboro Go! (Europe) (Proto 2).lnx" size 262144 crc C3FA0D4D md5 194A3EEB876D2B74CC480F4D337D79B3 sha1 26B18B706359B093D0B1BBCA4DBA9CD2D73E0372 )
+)
+game (
+	name "Ms. Pac-Man (World)"
+	description "Ms. Pac-Man (World)"
+	rom ( name "Ms. Pac-Man (World).lnx" size 131072 crc 7DE3783A md5 192B6B764A3A1C7831E0A785FA4B5453 sha1 FF644034CD840F8C13B643C44EC2C685290E0326 )
 )
 game (
 	name "NFL Football (USA, Europe)"
@@ -307,14 +369,20 @@ game (
 	rom ( name "Ninja Gaiden III - The Ancient Ship of Doom (USA, Europe).lnx" size 524288 crc F3E3F811 md5 C9ED2A3BDEFD6D5FDF67302D87B5CFB2 sha1 37861CC3025D9ADDBACE8D07C8F65961CBA29EAA )
 )
 game (
+	name "Ninja Nerd (USA) (Demo)"
+	description "Ninja Nerd (USA) (Demo)"
+	region "USA"
+	rom ( name "Ninja Nerd (USA) (Demo).lnx" size 262144 crc F428008D md5 0F8CA2827F6E05033BE0354692D5CC9B sha1 69F51159B6B4C1A454DDF78BD3CEF94548F4DB49 )
+)
+game (
 	name "Pac-Land (USA, Europe)"
 	description "Pac-Land (USA, Europe)"
 	rom ( name "Pac-Land (USA, Europe).lnx" size 131072 crc AA50DD22 md5 0A14754B351B4F11A1359E252B8EB992 sha1 58B57835703E3145A54E1C0ADA38C9218BF4CD3D )
 )
 game (
-	name "Paperboy (USA, Europe)"
-	description "Paperboy (USA, Europe)"
-	rom ( name "Paperboy (USA, Europe).lnx" size 131072 crc 4CDFBD57 md5 2A59D2CA6D6F07BC2791BF349E2778EE sha1 537BAE2C336DC9925F10505D4040965CA7434F5D )
+	name "Paperboy (World)"
+	description "Paperboy (World)"
+	rom ( name "Paperboy (World).lnx" size 131072 crc 4CDFBD57 md5 2A59D2CA6D6F07BC2791BF349E2778EE sha1 537BAE2C336DC9925F10505D4040965CA7434F5D )
 )
 game (
 	name "Pinball Jam (USA, Europe)"
@@ -332,6 +400,18 @@ game (
 	rom ( name "Pit-Fighter (USA, Europe) (Beta) (1992-10-13).lnx" size 524288 crc E7A5A4D0 md5 95581FD55A30557E2D2EC0419BB4BBB8 sha1 457A97A914AD90F11B6FCBE6EDA11D29D9D4E016 )
 )
 game (
+	name "Poker (Europe) (Fr) (Proto)"
+	description "Poker (Europe) (Fr) (Proto)"
+	region "Europe"
+	rom ( name "Poker (Europe) (Fr) (Proto).lnx" size 131072 crc C45BCD62 md5 AADB26F2A14EFBC1DCDDD3BCCD9026BF sha1 2F15242D1D144EC8970B6700630932DEF0E4203A )
+)
+game (
+	name "Pounce! (USA) (Proto)"
+	description "Pounce! (USA) (Proto)"
+	region "USA"
+	rom ( name "Pounce! (USA) (Proto).lnx" size 262144 crc 5D1ABFE7 md5 CC2933862113E46AA21F68C0536115C2 sha1 77649C82E5AAD890676700025976BCBA0C1EFF09 )
+)
+game (
 	name "Power Factor (USA, Europe)"
 	description "Power Factor (USA, Europe)"
 	rom ( name "Power Factor (USA, Europe).lnx" size 262144 crc 99C42034 md5 B29414B8C81CC9EF28EF2F7A09D6D876 sha1 1AD5386F43F60D848A40EE1237E5BD153FAEA23F )
@@ -342,15 +422,19 @@ game (
 	rom ( name "QIX (USA, Europe).lnx" size 131072 crc B9881423 md5 12E1EB0900402EF6DE8B72DDA5D22F47 sha1 30B8369EA396347D4847990691D880C313AACAE7 )
 )
 game (
-	name "Raiden (USA) (Proto)"
-	description "Raiden (USA) (Proto)"
-	region "USA"
-	rom ( name "Raiden (USA) (Proto).lnx" size 262144 crc BCD10C3A md5 ABFD6AE93C31E8F59AA934AD922CB4DD sha1 DF48F69A7257A40844812E5B0BDA9EFDF093B7F6 )
+	name "Raiden (USA, Europe)"
+	description "Raiden (USA, Europe)"
+	rom ( name "Raiden (USA, Europe).lnx" size 524288 crc 689F31A4 md5 00A522C806102FB56044097368247A81 sha1 EC89B8D69BE93245F3F4A9900A4D5E6FDC4AD7B1 )
 )
 game (
-	name "Rampage (USA, Europe)"
-	description "Rampage (USA, Europe)"
-	rom ( name "Rampage (USA, Europe).lnx" size 262144 crc B10B7C8E md5 E0CB426257761C3688A866332ED48340 sha1 771DBF246386DA37670324D34066671F3F43AC0E )
+	name "Raiden (USA, Europe) (Beta)"
+	description "Raiden (USA, Europe) (Beta)"
+	rom ( name "Raiden (USA, Europe) (Beta).lnx" size 262144 crc BCD10C3A md5 ABFD6AE93C31E8F59AA934AD922CB4DD sha1 DF48F69A7257A40844812E5B0BDA9EFDF093B7F6 )
+)
+game (
+	name "Rampage (World)"
+	description "Rampage (World)"
+	rom ( name "Rampage (World).lnx" size 262144 crc B10B7C8E md5 E0CB426257761C3688A866332ED48340 sha1 771DBF246386DA37670324D34066671F3F43AC0E )
 )
 game (
 	name "Rampart (USA, Europe)"
@@ -361,29 +445,35 @@ game (
 	name "Road Riot 4WD (USA) (Proto 1)"
 	description "Road Riot 4WD (USA) (Proto 1)"
 	region "USA"
-	rom ( name "Road Riot 4WD (USA) (Proto 1).lnx" size 262144 crc ECCEA0D5 md5 702E4D515D9F33698407B118C4CD373F sha1 F6D94F7DE242D20260985B30A252B24E7CF3884C )
+	rom ( name "Road Riot 4WD (USA) (Proto 1).lnx" size 262144 crc BFECEFC3 md5 E552D21050114EC3F441474E8FDED89C sha1 9A6B92EECA38C5333B1025730055190FE3BE4B64 )
 )
 game (
 	name "Road Riot 4WD (USA) (Proto 2)"
 	description "Road Riot 4WD (USA) (Proto 2)"
 	region "USA"
-	rom ( name "Road Riot 4WD (USA) (Proto 2).lnx" size 262144 crc 82555EEB md5 8E0680D9D484749297BD7F4CFD5B7354 sha1 6B83802CC058066D0C3776E52E6944BF18035FD0 )
+	rom ( name "Road Riot 4WD (USA) (Proto 2).lnx" size 262144 crc ECCEA0D5 md5 702E4D515D9F33698407B118C4CD373F sha1 F6D94F7DE242D20260985B30A252B24E7CF3884C )
 )
 game (
 	name "Road Riot 4WD (USA) (Proto 3)"
 	description "Road Riot 4WD (USA) (Proto 3)"
 	region "USA"
-	rom ( name "Road Riot 4WD (USA) (Proto 3).lnx" size 262144 crc 69959A3B md5 9222E42A160924DEE0C87A67FDBC48D0 sha1 63978DFD86782ACC101266D7BAB8677E32D7EA8F )
+	rom ( name "Road Riot 4WD (USA) (Proto 3).lnx" size 262144 crc 82555EEB md5 8E0680D9D484749297BD7F4CFD5B7354 sha1 6B83802CC058066D0C3776E52E6944BF18035FD0 )
 )
 game (
-	name "RoadBlasters (USA, Europe)"
-	description "RoadBlasters (USA, Europe)"
-	rom ( name "RoadBlasters (USA, Europe).lnx" size 262144 crc 6867E80C md5 39617EBB81F3C1DF27354C18571BD6C3 sha1 20233381F12A48BC61B2C4B7A8F602A2C8EBC8BA )
+	name "Road Riot 4WD (USA) (Proto 4)"
+	description "Road Riot 4WD (USA) (Proto 4)"
+	region "USA"
+	rom ( name "Road Riot 4WD (USA) (Proto 4).lnx" size 262144 crc 69959A3B md5 9222E42A160924DEE0C87A67FDBC48D0 sha1 63978DFD86782ACC101266D7BAB8677E32D7EA8F )
 )
 game (
-	name "Robo-Squash (USA, Europe)"
-	description "Robo-Squash (USA, Europe)"
-	rom ( name "Robo-Squash (USA, Europe).lnx" size 131072 crc D1DFF2B2 md5 F9FAA45E3C35E505249C3F9DF801737B sha1 144E4AA67BABC8F3E24C5547F8664C3C6CFF8601 )
+	name "RoadBlasters (World)"
+	description "RoadBlasters (World)"
+	rom ( name "RoadBlasters (World).lnx" size 262144 crc 6867E80C md5 39617EBB81F3C1DF27354C18571BD6C3 sha1 20233381F12A48BC61B2C4B7A8F602A2C8EBC8BA )
+)
+game (
+	name "Robo-Squash (World)"
+	description "Robo-Squash (World)"
+	rom ( name "Robo-Squash (World).lnx" size 131072 crc D1DFF2B2 md5 F9FAA45E3C35E505249C3F9DF801737B sha1 144E4AA67BABC8F3E24C5547F8664C3C6CFF8601 )
 )
 game (
 	name "Robotron 2084 (USA, Europe)"
@@ -391,9 +481,15 @@ game (
 	rom ( name "Robotron 2084 (USA, Europe).lnx" size 131072 crc 7A6049B5 md5 60C1DFBF112BBB2A49CF16EDDB191842 sha1 04048AA47C0FF99647608D4D1CCF48BA881A0F89 )
 )
 game (
-	name "Rygar (USA, Europe)"
-	description "Rygar (USA, Europe)"
-	rom ( name "Rygar (USA, Europe).lnx" size 262144 crc 67E5BDBA md5 FF6FFF314446AB70DFECB21E2DE4A2F6 sha1 8743769AF583AF681FD1D96AADB533D26B1B510D )
+	name "Rolling Thunder (USA) (Proto)"
+	description "Rolling Thunder (USA) (Proto)"
+	region "USA"
+	rom ( name "Rolling Thunder (USA) (Proto).lnx" size 262144 crc 467F8FD9 md5 F72A01BF1F9662253EE1ABFC27CD05D2 sha1 3A9CE2F7EF7889A993C9A8690D66E651B2A118D4 )
+)
+game (
+	name "Rygar (World)"
+	description "Rygar (World)"
+	rom ( name "Rygar (World).lnx" size 262144 crc 67E5BDBA md5 FF6FFF314446AB70DFECB21E2DE4A2F6 sha1 8743769AF583AF681FD1D96AADB533D26B1B510D )
 )
 game (
 	name "S.T.U.N. Runner (USA, Europe)"
@@ -411,9 +507,15 @@ game (
 	rom ( name "Shadow of the Beast (USA, Europe).lnx" size 262144 crc EB78BAA3 md5 F92D57198EF2DA30DBA63BDD7C15FF83 sha1 8B891B5DAFBA71740294C8DC818717D3B00BE3A5 )
 )
 game (
-	name "Shanghai (USA, Europe)"
-	description "Shanghai (USA, Europe)"
-	rom ( name "Shanghai (USA, Europe).lnx" size 131072 crc 192BCD04 md5 46634EB87E6380D4D10F7B80D177C1FF sha1 9E67E05545934A7D375597B0E8C469468C5748A4 )
+	name "Shanghai (World)"
+	description "Shanghai (World)"
+	rom ( name "Shanghai (World).lnx" size 131072 crc 192BCD04 md5 46634EB87E6380D4D10F7B80D177C1FF sha1 9E67E05545934A7D375597B0E8C469468C5748A4 )
+)
+game (
+	name "Spacewar (USA) (Demo)"
+	description "Spacewar (USA) (Demo)"
+	region "USA"
+	rom ( name "Spacewar (USA) (Demo).lnx" size 131072 crc 59510CB3 md5 8388B5140341EDCBA11CD0D4991D1578 sha1 2ABA7CC0506A040C97FB58E77B7F7393D60B9983 )
 )
 game (
 	name "Steel Talons (USA, Europe)"
@@ -441,9 +543,9 @@ game (
 	rom ( name "Switchblade II (USA, Europe).lnx" size 262144 crc 13657705 md5 4971DD8B47D3475DC8D31B5325C14459 sha1 256D55E8E9478C53E340321C858DF6710A9F69A6 )
 )
 game (
-	name "Todd's Adventures in Slime World (USA, Europe)"
-	description "Todd's Adventures in Slime World (USA, Europe)"
-	rom ( name "Todd's Adventures in Slime World (USA, Europe).lnx" size 131072 crc AE267E29 md5 4581AC0418679567DCE041C88CC97719 sha1 2B9C665456D17726EA57FD06CE2754A14382DC99 )
+	name "Todd's Adventures in Slime World (World)"
+	description "Todd's Adventures in Slime World (World)"
+	rom ( name "Todd's Adventures in Slime World (World).lnx" size 131072 crc AE267E29 md5 4581AC0418679567DCE041C88CC97719 sha1 2B9C665456D17726EA57FD06CE2754A14382DC99 )
 )
 game (
 	name "Toki (USA, Europe)"
@@ -466,9 +568,21 @@ game (
 	rom ( name "Viking Child (USA, Europe).lnx" size 262144 crc 8D56828B md5 44D7C4EA6B8D930075F5B05C94B5F973 sha1 47C32E4D816DDE797B6BBA2019F2E296BDAD02DD )
 )
 game (
+	name "Vindicators (USA) (Proto)"
+	description "Vindicators (USA) (Proto)"
+	region "USA"
+	rom ( name "Vindicators (USA) (Proto).lnx" size 131072 crc 6E084B3A md5 7ACF2074659B1B5717411E81E6C1A281 sha1 750014090B3A74B1D65C7706097ED5268F6FA331 )
+)
+game (
 	name "Warbirds (USA, Europe)"
 	description "Warbirds (USA, Europe)"
 	rom ( name "Warbirds (USA, Europe).lnx" size 131072 crc B946BA49 md5 E7F118AC59F985CEEA2ECFC0F17E9CC6 sha1 2C376581AC20FB5DE8538B51820E1F007CCA8260 )
+)
+game (
+	name "Wolfman (USA) (Demo) (Kiosk)"
+	description "Wolfman (USA) (Demo) (Kiosk)"
+	region "USA"
+	rom ( name "Wolfman (USA) (Demo) (Kiosk).lnx" size 262144 crc C5EBD679 md5 F94FD30D1F1DA38F300A19DE3C624152 sha1 EAEFA72C184C010AA32E1CDC60FAE9ACF543CDA1 )
 )
 game (
 	name "World Class Soccer (USA, Europe)"
@@ -476,9 +590,14 @@ game (
 	rom ( name "World Class Soccer (USA, Europe).lnx" size 262144 crc 91233794 md5 7FCF204013CBEDF7EAAF682FF5F216BA sha1 40100A0DB681B4EFCA4A491C88BF76A19105336F )
 )
 game (
-	name "Xenophobe (USA, Europe)"
-	description "Xenophobe (USA, Europe)"
-	rom ( name "Xenophobe (USA, Europe).lnx" size 131072 crc 9BED736D md5 69FB597CB4DB019C48FD2E0C1CC7B75C sha1 A1B4F7A4697310CAFEA1271BD4B41EEAFAE60FFA )
+	name "Xenophobe (World)"
+	description "Xenophobe (World)"
+	rom ( name "Xenophobe (World).lnx" size 131072 crc 9BED736D md5 69FB597CB4DB019C48FD2E0C1CC7B75C sha1 A1B4F7A4697310CAFEA1271BD4B41EEAFAE60FFA )
+)
+game (
+	name "Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl)"
+	description "Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl)"
+	rom ( name "Xump - The Final Run (World) (v1.20) (Aftermarket) (Unl).lnx" size 222832 crc 41E546A7 md5 E8CDDF7B04A935FD48AB030D2EDE8BE0 sha1 1381BFBD5CAAEEFAF44B886068F5542F4005A899 )
 )
 game (
 	name "Xybots (USA, Europe)"
@@ -486,19 +605,37 @@ game (
 	rom ( name "Xybots (USA, Europe).lnx" size 262144 crc 89E2A595 md5 C145BFE904E5D56F479DF44204B255DA sha1 5FF3C39A6919DB6D2270BB22E80E7680550C47BA )
 )
 game (
-	name "Zaku (USA) (Beta) (Unl)"
-	description "Zaku (USA) (Beta) (Unl)"
-	region "USA"
-	rom ( name "Zaku (USA) (Beta) (Unl).lnx" size 262144 crc B3747C71 md5 52997DE9AF205728A0E17EA3475F7AE2 sha1 530EA8C0A820746425017CBCC9F766531F5C6333 )
+	name "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Aftermarket) (Unl)"
+	description "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.00) (Aftermarket) (Unl).lnx" size 262144 crc A6FE24AF md5 22B13522EB382070763F282BDED16F39 sha1 78AB610F29E97B111CFE4C48B681A416D5E79D42 )
 )
 game (
-	name "Zaku (USA) (Unl)"
-	description "Zaku (USA) (Unl)"
-	region "USA"
-	rom ( name "Zaku (USA) (Unl).lnx" size 524288 crc 4EA845DA md5 6B9D6872961B22DE6B1B0CCED65D8E3F sha1 2723C29B4E00DD76402E9FC4DC50CB59B673B507 )
+	name "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Aftermarket) (Unl)"
+	description "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Yastuna Volume 1 - The Alchemy of Cubes (World) (v1.01) (Aftermarket) (Unl).lnx" size 262144 crc 6CF9CE19 md5 C40F43FFBA5C37D6731CF4FA4C78702A sha1 AFE4DB65A7207B1136BF251FC50E3C958E9419DC )
 )
 game (
-	name "Zarlor Mercenary (USA, Europe)"
-	description "Zarlor Mercenary (USA, Europe)"
-	rom ( name "Zarlor Mercenary (USA, Europe).lnx" size 131072 crc CB27199D md5 D008F41EC119E2C5C6A0782AEBF148A8 sha1 7005CDFA0A2E4A9611266CE50493CBB32351E069 )
+	name "Yastuna Volume 2 - The Space Incident (World) (v1.00) (Aftermarket) (Unl)"
+	description "Yastuna Volume 2 - The Space Incident (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "Yastuna Volume 2 - The Space Incident (World) (v1.00) (Aftermarket) (Unl).lnx" size 262144 crc 6B09D810 md5 BFFB5D9521CFA4E8A151DB5CEE9943DD sha1 E38728654920868905E2A7B1E98985ACAA9D21AE )
+)
+game (
+	name "Yastuna Volume 2 - The Space Incident (World) (v1.01) (Aftermarket) (Unl)"
+	description "Yastuna Volume 2 - The Space Incident (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Yastuna Volume 2 - The Space Incident (World) (v1.01) (Aftermarket) (Unl).lnx" size 262144 crc 21975E97 md5 DF4881703738614EE465559AD18E6E8E sha1 D54C9792C87B14E756225DB0FC2AFBEC013C2F29 )
+)
+game (
+	name "Zaku (World) (Beta) (Unl)"
+	description "Zaku (World) (Beta) (Unl)"
+	rom ( name "Zaku (World) (Beta) (Unl).lnx" size 262144 crc B3747C71 md5 52997DE9AF205728A0E17EA3475F7AE2 sha1 530EA8C0A820746425017CBCC9F766531F5C6333 )
+)
+game (
+	name "Zaku (World) (Unl)"
+	description "Zaku (World) (Unl)"
+	rom ( name "Zaku (World) (Unl).lnx" size 524288 crc 4EA845DA md5 6B9D6872961B22DE6B1B0CCED65D8E3F sha1 2723C29B4E00DD76402E9FC4DC50CB59B673B507 )
+)
+game (
+	name "Zarlor Mercenary (World)"
+	description "Zarlor Mercenary (World)"
+	rom ( name "Zarlor Mercenary (World).lnx" size 131072 crc CB27199D md5 D008F41EC119E2C5C6A0782AEBF148A8 sha1 7005CDFA0A2E4A9611266CE50493CBB32351E069 )
 )
