@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - GameCube"
 	description "Nintendo - GameCube"
-	version "2023.07.18"
+	version "2023.09.09"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -4271,6 +4271,12 @@ game (
 	rom ( name "FIFA Soccer 06 (USA).iso" size 1459978240 crc CF5816A2 md5 7FED21160ED91035B90751201C9D5530 sha1 87B1BF075B3A50B25A8E20132FBAD0713D01D322 serial "DL-DOL-GF6E-USA" )
 )
 game (
+	name "FIFA Soccer 07 (Latin America)"
+	description "FIFA Soccer 07 (Latin America)"
+	serial "DL-DOL-G7FE-MSA"
+	rom ( name "FIFA Soccer 07 (Latin America).iso" size 1459978240 crc EB1BE753 md5 F0F6029D90191AC10A92938597735F37 sha1 64BA3862474DC9708D7263E0136299F684F38EE6 serial "DL-DOL-G7FE-MSA" )
+)
+game (
 	name "FIFA Soccer 07 (USA) (En,Es)"
 	description "FIFA Soccer 07 (USA) (En,Es)"
 	region "USA"
@@ -4652,6 +4658,13 @@ game (
 	region "Japan"
 	serial "DL-DOL-GOTJ-JPN"
 	rom ( name "From TV Animation One Piece - Treasure Battle! (Japan).iso" size 1459978240 crc 81039A96 md5 4B97A8F0FE27B40B305ADE2A8244D917 sha1 C3CA1DBC4A8CD6F81A74C5231EF3A4F556E01EFC serial "DL-DOL-GOTJ-JPN" )
+)
+game (
+	name "Future GPX Cyber Formula - Road to the Evolution (Japan)"
+	description "Future GPX Cyber Formula - Road to the Evolution (Japan)"
+	region "Japan"
+	serial "DL-DOL-GC4J-JPN"
+	rom ( name "Future GPX Cyber Formula - Road to the Evolution (Japan).iso" size 1459978240 crc 6FAEBF04 md5 885CAD943F5F91AD888FF78BE8614F19 sha1 FD46226B01A5243CE1B5729A3843B8EA75947D76 serial "DL-DOL-GC4J-JPN" )
 )
 game (
 	name "Future Tactics - The Uprising (Europe) (En,Fr,De,Es,It)"
@@ -11483,34 +11496,6 @@ game (
 	rom ( name "SSX 3 (USA).iso" size 1459978240 crc BD94FD62 md5 FB6CE25DAF8550DAE472B8D84596ACC1 sha1 9F047C3C3389B5F2AD464AFC472DD15CB0083474 serial "DL-DOL-GXBE-USA" )
 )
 game (
-	name "SSX On Tour (Europe)"
-	description "SSX On Tour (Europe)"
-	region "Europe"
-	serial "DL-DOL-GXOP-EUR"
-	rom ( name "SSX On Tour (Europe).iso" size 1459978240 crc D8E0133A md5 733DDB87D8C86F1B85D54286757AE9F7 sha1 F6F62212EEA172243F7247DB390AE64E2A545299 serial "DL-DOL-GXOP-EUR" )
-)
-game (
-	name "SSX On Tour (Europe) (En,Fr,De)"
-	description "SSX On Tour (Europe) (En,Fr,De)"
-	region "Europe"
-	serial "DL-DOL-GXOX-FRA"
-	rom ( name "SSX On Tour (Europe) (En,Fr,De).iso" size 1459978240 crc 886DEFD6 md5 E86B6FC0DB336D2E55C08B23D76AB554 sha1 2A6055689D79602D92A5BBBCF9D5A9613301D802 serial "DL-DOL-GXOX-FRA" )
-)
-game (
-	name "SSX On Tour (USA)"
-	description "SSX On Tour (USA)"
-	region "USA"
-	serial "DL-DOL-GXOE-USA"
-	rom ( name "SSX On Tour (USA).iso" size 1459978240 crc 4E61B495 md5 3EB9A702B5A42F81222EA47AE0C6CEF0 sha1 F633939221A42114C5B185DE796529A63DDC0839 serial "DL-DOL-GXOE-USA" )
-)
-game (
-	name "SSX On Tour with Mario (Japan)"
-	description "SSX On Tour with Mario (Japan)"
-	region "Japan"
-	serial "DL-DOL-GXOJ-JPN"
-	rom ( name "SSX On Tour with Mario (Japan).iso" size 1459978240 crc 9A452794 md5 43CC22B1D72B5FDC190BCB6EE58142DC sha1 E70D66334A81EDD218F171F1D3690E680D38C215 serial "DL-DOL-GXOJ-JPN" )
-)
-game (
 	name "SSX Tricky (Europe) (En,Fr,De)"
 	description "SSX Tricky (Europe) (En,Fr,De)"
 	region "Europe"
@@ -11537,6 +11522,34 @@ game (
 	region "USA"
 	serial "DL-DOL-GSTE-USA"
 	rom ( name "SSX Tricky (USA).iso" size 1459978240 crc 753173C7 md5 47C64F8E60ECD70161B772ADB7F25109 sha1 7ADECBF91FFF0C2B5907B2FD725A11D060EF95E0 serial "DL-DOL-GSTE-USA" )
+)
+game (
+	name "SSX on Tour (Europe)"
+	description "SSX on Tour (Europe)"
+	region "Europe"
+	serial "DL-DOL-GXOP-EUR"
+	rom ( name "SSX on Tour (Europe).iso" size 1459978240 crc D8E0133A md5 733DDB87D8C86F1B85D54286757AE9F7 sha1 F6F62212EEA172243F7247DB390AE64E2A545299 serial "DL-DOL-GXOP-EUR" )
+)
+game (
+	name "SSX on Tour (Europe) (En,Fr,De)"
+	description "SSX on Tour (Europe) (En,Fr,De)"
+	region "Europe"
+	serial "DL-DOL-GXOX-FRA"
+	rom ( name "SSX on Tour (Europe) (En,Fr,De).iso" size 1459978240 crc 886DEFD6 md5 E86B6FC0DB336D2E55C08B23D76AB554 sha1 2A6055689D79602D92A5BBBCF9D5A9613301D802 serial "DL-DOL-GXOX-FRA" )
+)
+game (
+	name "SSX on Tour (USA)"
+	description "SSX on Tour (USA)"
+	region "USA"
+	serial "DL-DOL-GXOE-USA"
+	rom ( name "SSX on Tour (USA).iso" size 1459978240 crc 4E61B495 md5 3EB9A702B5A42F81222EA47AE0C6CEF0 sha1 F633939221A42114C5B185DE796529A63DDC0839 serial "DL-DOL-GXOE-USA" )
+)
+game (
+	name "SSX on Tour with Mario (Japan)"
+	description "SSX on Tour with Mario (Japan)"
+	region "Japan"
+	serial "DL-DOL-GXOJ-JPN"
+	rom ( name "SSX on Tour with Mario (Japan).iso" size 1459978240 crc 9A452794 md5 43CC22B1D72B5FDC190BCB6EE58142DC sha1 E70D66334A81EDD218F171F1D3690E680D38C215 serial "DL-DOL-GXOJ-JPN" )
 )
 game (
 	name "SX Superstar (Europe) (En,Fr,De,Es)"
@@ -11852,13 +11865,6 @@ game (
 	region "Japan"
 	serial "DL-DOL-GEVJ-JPN"
 	rom ( name "Shinki Sekai Evolutia (Japan).iso" size 1459978240 crc 8F6F5F3E md5 B5A94F957590DB8406901F24DB445DDD sha1 BF07041859E9BE4431EB528684230D5E125F02AE serial "DL-DOL-GEVJ-JPN" )
-)
-game (
-	name "Shinseiki GPX Cyber Formula - Road to the Evolution (Japan)"
-	description "Shinseiki GPX Cyber Formula - Road to the Evolution (Japan)"
-	region "Japan"
-	serial "DL-DOL-GC4J-JPN"
-	rom ( name "Shinseiki GPX Cyber Formula - Road to the Evolution (Japan).iso" size 1459978240 crc 6FAEBF04 md5 885CAD943F5F91AD888FF78BE8614F19 sha1 FD46226B01A5243CE1B5729A3843B8EA75947D76 serial "DL-DOL-GC4J-JPN" )
 )
 game (
 	name "Shonen Jump's One Piece - Grand Adventure (USA)"

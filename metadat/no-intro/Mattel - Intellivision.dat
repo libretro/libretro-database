@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Mattel - Intellivision"
 	description "Mattel - Intellivision"
-	version "2023.07.18"
+	version "2023.09.09"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -13,7 +13,7 @@ game (
 game (
 	name "Advanced Dungeons & Dragons (USA, Europe)"
 	description "Advanced Dungeons & Dragons (USA, Europe)"
-	rom ( name "Advanced Dungeons & Dragons (USA, Europe).int" size 16384 crc F8B1F2B7 md5 F1168C0894946C290685F133B81B4FAC sha1 C1ADD941F004130EE613DD73524AFA67432D75E0 )
+	rom ( name "Advanced Dungeons & Dragons (USA, Europe).int" size 12288 crc 9D4355AA md5 BC9FF9F10E2A1FDAC9CF6BD915F81715 sha1 4783CF6D52748E1CC4EB463033B79AEE72DB28CF )
 )
 game (
 	name "Advanced Dungeons & Dragons - Treasure of Tarmin (USA, Europe)"
@@ -38,14 +38,19 @@ game (
 	rom ( name "All-Star Major League Baseball (USA) (Beta).int" size 24576 crc B45633CF md5 92E0826C7D677D4038764A7933696921 sha1 A843B831F9B49EF88DD99414FDB56A0C71BF01B6 )
 )
 game (
-	name "Armor Battle (USA, Europe)"
-	description "Armor Battle (USA, Europe)"
-	rom ( name "Armor Battle (USA, Europe).int" size 8192 crc 6F91FBC1 md5 7FA60B1CB4ADAC3088727D5AC53EC183 sha1 8BF07BA83BD0DE42393187C6A3DF60B8E341505D )
+	name "Armor Battle (USA, Europe) (Fast Tanks)"
+	description "Armor Battle (USA, Europe) (Fast Tanks)"
+	rom ( name "Armor Battle (USA, Europe) (Fast Tanks).int" size 8192 crc 6F91FBC1 md5 7FA60B1CB4ADAC3088727D5AC53EC183 sha1 8BF07BA83BD0DE42393187C6A3DF60B8E341505D )
 )
 game (
-	name "Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube)"
-	description "Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube)"
-	rom ( name "Armor Battle (USA, Europe) (Intellivision Lives!) (Gamecube).int" size 8192 crc F405F823 md5 7D7ED146D133D87F73D2DA6738EB948E sha1 75CC1466913892C8D89934FEDE99F0D0E40F8191 )
+	name "Armor Battle (USA, Europe) (Fast Tanks) (Intellivision Lives!) (Gamecube)"
+	description "Armor Battle (USA, Europe) (Fast Tanks) (Intellivision Lives!) (Gamecube)"
+	rom ( name "Armor Battle (USA, Europe) (Fast Tanks) (Intellivision Lives!) (Gamecube).int" size 8192 crc F405F823 md5 7D7ED146D133D87F73D2DA6738EB948E sha1 75CC1466913892C8D89934FEDE99F0D0E40F8191 )
+)
+game (
+	name "Armor Battle (USA, Europe) (Slow Tanks)"
+	description "Armor Battle (USA, Europe) (Slow Tanks)"
+	rom ( name "Armor Battle (USA, Europe) (Slow Tanks).int" size 8192 crc 7DB97F65 md5 7F2478E931DC61C5A0F2B30EADA527C2 sha1 FA5151423DE4D8E4FE3D4307CB7AA9FF5207A32A )
 )
 game (
 	name "Astrosmash (USA, Europe)"
@@ -58,9 +63,14 @@ game (
 	rom ( name "Atlantis (USA, Europe).int" size 16384 crc 13FF363C md5 317EF1EE4D12DF7CE7DD57DBC273B4B1 sha1 094B207668C03A6D903270490F495DDC237CD8D7 )
 )
 game (
-	name "Auto Racing (World)"
-	description "Auto Racing (World)"
-	rom ( name "Auto Racing (World).int" size 8192 crc B35C1101 md5 97E865E173D137CF5576D080268F7DF5 sha1 2E3461853F60A1928C5C93BB23DEB9229E0230C9 )
+	name "Auto Racing (World) (Car-Relative Steering)"
+	description "Auto Racing (World) (Car-Relative Steering)"
+	rom ( name "Auto Racing (World) (Car-Relative Steering).int" size 8192 crc B35C1101 md5 97E865E173D137CF5576D080268F7DF5 sha1 2E3461853F60A1928C5C93BB23DEB9229E0230C9 )
+)
+game (
+	name "Auto Racing (World) (Screen-Relative Steering)"
+	description "Auto Racing (World) (Screen-Relative Steering)"
+	rom ( name "Auto Racing (World) (Screen-Relative Steering).int" size 8192 crc 28637E4E md5 BC1DCF0AE7724A273713A1F8F2D7DF2C sha1 CB01C33066EE9E9BFF254C5BF6E627EC19DC13FC )
 )
 game (
 	name "B-17 Bomber (USA, Europe)"
@@ -211,7 +221,7 @@ game (
 	name "Demonstration Cartridge - Blue (USA)"
 	description "Demonstration Cartridge - Blue (USA)"
 	region "USA"
-	rom ( name "Demonstration Cartridge - Blue (USA).int" size 16384 crc 02919024 md5 B9591D68433C4D0CF92BD2C2EBFDD2BB sha1 4E245F579C161E55DA55D3CFE8CDF632D279204B )
+	rom ( name "Demonstration Cartridge - Blue (USA).int" size 12288 crc C99E7554 md5 D3AE61336D17EC08D0414E7702F2408E sha1 FAA9B42FABC84F26CA15D296F9A5E16F36E465C2 )
 )
 game (
 	name "Demonstration Cartridge - Green (USA)"
@@ -276,9 +286,14 @@ game (
 	rom ( name "Duncan's Thin Ice (USA).int" size 32768 crc F3DF94E0 md5 0960019B1AFCF56BAA851D36FAC4D295 sha1 4DA7B8AD3575A8D036A38BCC2C70903A443DA602 )
 )
 game (
-	name "Electric Company, The - Math Fun (USA, Europe)"
-	description "Electric Company, The - Math Fun (USA, Europe)"
-	rom ( name "Electric Company, The - Math Fun (USA, Europe).int" size 8192 crc 54A3FC11 md5 DCBEA7CDE7D03F099680531FE7A80AB5 sha1 6CDB18D1DD3CD57058263904934B37D4713342E6 )
+	name "Electric Company, The - Math Fun (USA, Europe) (Forward Entry)"
+	description "Electric Company, The - Math Fun (USA, Europe) (Forward Entry)"
+	rom ( name "Electric Company, The - Math Fun (USA, Europe) (Forward Entry).int" size 8192 crc C3475FCA md5 1396CD69F6281646867B8FE24414DD2E sha1 AA1F233B84D55E5756C10C9A3FDF9DBC963FA945 )
+)
+game (
+	name "Electric Company, The - Math Fun (USA, Europe) (Reverse Entry)"
+	description "Electric Company, The - Math Fun (USA, Europe) (Reverse Entry)"
+	rom ( name "Electric Company, The - Math Fun (USA, Europe) (Reverse Entry).int" size 8192 crc 54A3FC11 md5 DCBEA7CDE7D03F099680531FE7A80AB5 sha1 6CDB18D1DD3CD57058263904934B37D4713342E6 )
 )
 game (
 	name "Electric Company, The - Word Fun (USA, Europe)"
@@ -439,7 +454,7 @@ game (
 game (
 	name "Lock 'N' Chase (USA, Europe)"
 	description "Lock 'N' Chase (USA, Europe)"
-	rom ( name "Lock 'N' Chase (USA, Europe).int" size 16384 crc E00D1399 md5 92C9CE0470CFC12E20DF5B0246C60FEA sha1 3958C1D400A76A9534E05F03FB34EFE90F32F113 )
+	rom ( name "Lock 'N' Chase (USA, Europe).int" size 12288 crc 04977992 md5 CCDE49CB2450992495156477EFF59E14 sha1 08454A5F7B44730AA8249623785DD7A6471AB98F )
 )
 game (
 	name "Lock 'N' Chase (USA, Europe) (v1.1)"
@@ -519,6 +534,11 @@ game (
 	name "Motocross (USA, Europe)"
 	description "Motocross (USA, Europe)"
 	rom ( name "Motocross (USA, Europe).int" size 16384 crc 5F6E1AF6 md5 1AB93DAB53B52EA6AA7D964682DFCF03 sha1 109E0A05E73239962DED327827C7957960802744 )
+)
+game (
+	name "Motocross (USA, Europe) (Alt)"
+	description "Motocross (USA, Europe) (Alt)"
+	rom ( name "Motocross (USA, Europe) (Alt).int" size 16384 crc EC89D2FD md5 6D8B8EE227F8A876DF852A2CC5CD9C07 sha1 8CE72D2E4E3C44A9A34C6488F3BF07EA47767160 )
 )
 game (
 	name "Mountain Madness - Super Pro Skiing (USA)"
@@ -698,7 +718,7 @@ game (
 game (
 	name "Royal Dealer (USA, Europe)"
 	description "Royal Dealer (USA, Europe)"
-	rom ( name "Royal Dealer (USA, Europe).int" size 16384 crc DCF4B15D md5 BCF1B30BA80303B36B1CC3BDD5042C1E sha1 0B53BB03D25C345657BAA388478AA8DF94026C33 )
+	rom ( name "Royal Dealer (USA, Europe).int" size 12288 crc 0458A491 md5 240A53F04E1B2E71463130CB58F539D9 sha1 918E59D79672577B8B327C5D00C95D03E5E0C920 )
 )
 game (
 	name "SNAFU (World)"
@@ -762,7 +782,12 @@ game (
 game (
 	name "Space Battle (World)"
 	description "Space Battle (World)"
-	rom ( name "Space Battle (World).int" size 8192 crc F95504E0 md5 8C11519753896450E6F38B8E338CB1F6 sha1 D6036C7E7C0DA20878FD7ACC9F6B476135D1E8D1 )
+	rom ( name "Space Battle (World).int" size 8192 crc E7DB639D md5 DDF114A06CB5F6B43D6190F78EA783E2 sha1 5AA473556905C3754633BEDEBF99785BB37C9786 )
+)
+game (
+	name "Space Battle (World) (v1.1)"
+	description "Space Battle (World) (v1.1)"
+	rom ( name "Space Battle (World) (v1.1).int" size 8192 crc F95504E0 md5 8C11519753896450E6F38B8E338CB1F6 sha1 D6036C7E7C0DA20878FD7ACC9F6B476135D1E8D1 )
 )
 game (
 	name "Space Hawk (USA, Europe)"
