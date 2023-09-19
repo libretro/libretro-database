@@ -7,7 +7,7 @@ RetroArch incoporates a ROM scanning system to automatically produce playlists. 
 - [`cht`](cht) Cheats to various games
 - [`cursors`](cursors) Provides methods in order to query the playlists
 - [`dat`](dat) Customized DAT files, maintained by the libretro team
-- [`metadata`](metadata) Different metadata and third-party DATs available to the systems
+- [`metadat`](metadat) Different metadata and third-party DATs available to the systems
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
 
