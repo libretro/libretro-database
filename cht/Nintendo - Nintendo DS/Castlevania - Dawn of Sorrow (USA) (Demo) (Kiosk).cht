@@ -1,0 +1,714 @@
+cheats = 187
+
+cheat0_desc = "Miscellaneous Codes"
+
+cheat1_desc = "Stop Demo Input Timer"
+cheat1_code = "020EDA1C+00000000"
+cheat1_enable = false
+
+cheat2_desc = "Stop Demo Input Timer (ASM)"
+cheat2_code = "52010880+05801F7C+02010880+E1A00000+D2000000+00000000"
+cheat2_enable = false
+
+cheat3_desc = "Max/Infinite Gold"
+cheat3_code = "020E370C+0098967F"
+cheat3_enable = false
+
+cheat4_desc = "Moon Jump"
+cheat4_code = "94000130+FFFD0000+A4000130+FF7D0000+020B6C2C+FFFFA900+D2000000+00000000"
+cheat4_enable = false
+
+cheat5_desc = "Infinite Double Jumps"
+cheat5_code = "521DEDA0+E2433001+021DEDA0+E2433000+021DEE14+E2422000+D2000000+00000000"
+cheat5_enable = false
+
+cheat6_desc = "One Hit Kills"
+cheat6_code = "521A6440+E0400008+021A6440+E0400000+D2000000+00000000"
+cheat6_enable = false
+
+cheat7_desc = "Hit Anywhere"
+cheat7_code = "5201292C+0A000018+0201292C+E1A00000+D2000000+00000000"
+cheat7_enable = false
+
+cheat8_desc = "Get Items and Souls From Anywhere"
+cheat8_code = "5201260C+0A000017+0201260C+E1A00000+D2000000+00000000"
+cheat8_enable = false
+
+cheat9_desc = "Rapid Fire for Guns"
+cheat9_code = "0234F0F0+0001011D+0234F120+00010127+E234FCE8+00000018+00000001+0234F0F0+00000001+0234F120+00000001+0234F0F0+D2000000+00000000"
+cheat9_enable = false
+
+cheat10_desc = "Rapid Fire for Bullet-Type Souls"
+cheat10_code = "0234E3B8+0007007D+0234FB90+00000009+0234FBA0+00000005+0234FBA4+0234E430"
+cheat10_enable = false
+
+cheat11_desc = "Fly Anywhere"
+cheat11_code = "94000130+FEEF0000+D9000000+020B6C1C+D4000000+00010000+D6000000+020B6C1C+D2000000+00000000+94000130+FEDF0000+D9000000+020B6C1C+D4000000+FFFF0000+D6000000+020B6C1C+D2000000+00000000+94000130+FEBF0000+D9000000+020B6C20+D4000000+FFFE0000+D6000000+020B6C20+D2000000+00000000+94000130+FE7F0000+D9000000+020B6C20+D4000000+00020000+D6000000+020B6C20+D2000000+00000000+94000130+FEFB0000+020B6C1C+00060000+020B6C20+0007F000+D2000000+00000000"
+cheat11_enable = false
+
+cheat12_desc = "Fast Sliding"
+cheat12_code = "94000130+FFDF0000+220B6BFD+00000007+120B6C2A+0000FFFF+120B6C28+00000000+D2000000+00000000+94000130+FFEF0000+220B6BFD+00000007+120B6C28+0000FFFF+D2000000+00000000"
+cheat12_enable = false
+
+cheat13_desc = "100% Soul Chance"
+cheat13_code = "94000130+FFFB0000+C0000000+00000075+2206B064+00000000+DC000000+00000024+D2000000+00000000"
+cheat13_enable = false
+
+cheat14_desc = "100% Soul Chance (ASM)"
+cheat14_code = "521A5EA8+CA000007+021A5EA8+E1A00000+D2000000+00000000"
+cheat14_enable = false
+
+cheat15_desc = "100% Item Drop Chance"
+cheat15_code = "94000130+FFFB0000+C0000000+00000075+2206B067+000000FF+DC000000+00000024+D2000000+00000000"
+cheat15_enable = false
+
+cheat16_desc = "100% Item Drop Chance (ASM)"
+cheat16_code = "521A5FB4+AA000015+021A5FB4+E1A00000+D2000000+00000000"
+cheat16_enable = false
+
+cheat17_desc = "100% Soul/Item Drop Chance (Beta)"
+cheat17_code = "520115FC+E1A00001+020115FC+E3A00000+D2000000+00000000"
+cheat17_enable = false
+
+cheat18_desc = "Collect a Soul to Get Max of That Soul"
+cheat18_code = "521CA07C+E1A01000+021CA07C+E3A01008+D2000000+00000000"
+cheat18_enable = false
+
+cheat19_desc = "Collect an Item to Get Max of That Item"
+cheat19_code = "521C8324+E1A02000+021C8324+E3A02008+D2000000+00000000"
+cheat19_enable = false
+
+cheat20_desc = "Disable Shatter Blocks"
+cheat20_code = "52005E20+E784010E+02005E20+E1A00000+D2000000+00000000"
+cheat20_enable = false
+
+cheat21_desc = "Easy Magic Seal Drawing (Beta)"
+cheat21_code = "5201A9CC+E3A00300+0201A9CC+E3A00000+D2000000+00000000"
+cheat21_enable = false
+
+cheat22_desc = "Skip Drawing Magic Seals"
+cheat22_code = "521F3080+E5D00A76+021F3080+E3A00001+D2000000+00000000"
+cheat22_enable = false
+
+cheat23_desc = "All Enemies Have One Health Point"
+cheat23_code = "94000130+FFFB0000+C0000000+00000075+1206B05E+00000001+1206B060+00000001+DC000000+00000024+D2000000+00000000"
+cheat23_enable = false
+
+cheat24_desc = "All Enemies Weak to All Damage Types"
+cheat24_code = "94000130+FFFB0000+C0000000+00000075+1206B06C+000017FF+1206B070+00000000+DC000000+00000024+D2000000+00000000"
+cheat24_enable = false
+
+cheat25_desc = "Skull Archer Arrow Fully Charged"
+cheat25_code = "521C0840+E2800001+021C0840+E2800C01+D2000000+00000000"
+cheat25_enable = false
+
+cheat26_desc = "Faster Guardian Transformations"
+cheat26_code = "521C1E1C+E2400001+021C1E1C+E2400010+D2000000+00000000"
+cheat26_enable = false
+
+cheat27_desc = "Game Enhancer Codes"
+
+cheat28_desc = "Instant Text Display"
+cheat28_code = "52028B88+1A000002+02028B88+EA000002+D2000000+00000000"
+cheat28_enable = false
+
+cheat29_desc = "Auto Text Dialogue"
+cheat29_code = "5202D358+1A000002+0202D358+EA000002+D2000000+00000000"
+cheat29_enable = false
+
+cheat30_desc = "Pause Menu in Julius Mode"
+cheat30_code = "94000130+FFF70000+920ACA70+00000000+920B6CE4+00000000+920E3516+00000101+220ACAA8+0000000A+D2000000+00000000"
+cheat30_enable = false
+
+cheat31_desc = "Character Codes"
+
+cheat32_desc = "Max/Infinite Health Points"
+cheat32_code = "D3000000+020E36D2+F20E36D0+00000002+D2000000+00000000"
+cheat32_enable = false
+
+cheat33_desc = "Max Health Points"
+cheat33_code = "120E36D0+0000044C+120E36D2+0000044C"
+cheat33_enable = false
+
+cheat34_desc = "Never Lose Health Points"
+cheat34_code = "521E0F7C+E1C023B0+021E0F7C+E1A00000+D2000000+00000000"
+cheat34_enable = false
+
+cheat35_desc = "Max/Infinite Magic Points"
+cheat35_code = "D3000000+020E36D6+F20E36D4+00000002+D2000000+00000000"
+cheat35_enable = false
+
+cheat36_desc = "Max Magic Points"
+cheat36_code = "120E36D4+000002FE+120E36D6+000002FE"
+cheat36_enable = false
+
+cheat37_desc = "Max Experience"
+cheat37_code = "020E3708+05F5E0FF"
+cheat37_enable = false
+
+cheat38_desc = "Invincible"
+cheat38_code = "120B6CB0+00000909+220B6CB3+00000079+120B6CE4+0000005A"
+cheat38_enable = false
+
+cheat39_desc = "Invincible (ASM)"
+cheat39_code = "520126C4+E5D80018+020126C4+E3A00000+D2000000+00000000"
+cheat39_enable = false
+
+cheat40_desc = "Invisibility"
+cheat40_code = "120B6C25+0000FFFF"
+cheat40_enable = false
+
+cheat41_desc = "Max Stats"
+cheat41_code = "120E362E+000001F2+020E3630+2323231E+020E3634+23232323"
+cheat41_enable = false
+
+cheat42_desc = "Max Base Stats"
+cheat42_code = "120E362E+00001388+120E3630+0000270F+120E3632+0000270F+120E3634+0000270F+120E3636+0000270F"
+cheat42_enable = false
+
+cheat43_desc = "STR Always 999"
+cheat43_code = "120E3630+0000E4A9"
+cheat43_enable = false
+
+cheat44_desc = "CON Always 999"
+cheat44_code = "120E3632+0000E4A9"
+cheat44_enable = false
+
+cheat45_desc = "INT Always 999"
+cheat45_code = "120E3634+0000E4A9"
+cheat45_enable = false
+
+cheat46_desc = "LCK Always 999"
+cheat46_code = "120E3636+0000E4A9"
+cheat46_enable = false
+
+cheat47_desc = "Max Level With Experience Set to Zero"
+cheat47_code = "220E36CC+00000063+020E3708+00000000"
+cheat47_enable = false
+
+cheat48_desc = "Status Always Good"
+cheat48_code = "020E3710+00000000+020E3714+00000000"
+cheat48_enable = false
+
+cheat49_desc = "Status Always Good (ASM)"
+cheat49_code = "521E1060+E1C137B0+021E1060+E1A00000+021E1090+E1A00000+D2000000+00000000"
+cheat49_enable = false
+
+cheat50_desc = "All Items and Souls Codes"
+
+cheat51_desc = "Weapons (Default)"
+cheat51_code = "94000130+FFFB0000+220E34A0+00000090+220E34AE+00000090+D5000000+00000099+C0000000+0000000C+D8000000+020E34A1+D2000000+00000000+94000130+FFFB0000+D5000000+00000099+C0000000+00000017+D8000000+020E34AF+D2000000+00000000"
+cheat51_enable = false
+
+cheat52_desc = "Weapons (Default + Unused)"
+cheat52_code = "94000130+FFFB0000+220E34C7+00000009+D5000000+00000099+C0000000+00000026+D8000000+020E34A0+D2000000+00000000"
+cheat52_enable = false
+
+cheat53_desc = "Armor"
+cheat53_code = "94000130+FFFB0000+D5000000+00000099+C0000000+0000000E+D8000000+020E34C8+D2000000+00000000"
+cheat53_enable = false
+
+cheat54_desc = "Accessories"
+cheat54_code = "94000130+FFFB0000+220E34E6+00000009+D5000000+00000099+C0000000+0000000E+D8000000+020E34D7+D2000000+00000000"
+cheat54_enable = false
+
+cheat55_desc = "Items (Default)"
+cheat55_code = "94000130+FFFB0000+020E3490+99990999+020E3494+99999999+120E3498+00009999+220E349A+00000019+D5000000+99999999+C0000000+00000004+D6000000+020E347C+D2000000+00000000"
+cheat55_enable = false
+
+cheat56_desc = "Items (Default + Unused)"
+cheat56_code = "94000130+FFFB0000+220E349A+00000019+D5000000+99999999+C0000000+0000001D+D8000000+020E347C+D2000000+00000000"
+cheat56_enable = false
+
+cheat57_desc = "Souls (Default)"
+cheat57_code = "94000130+FFFB0000+220E33AA+00000090+220E33CD+00000009+D5000000+00000099+C0000000+00000016+D8000000+020E3390+D2000000+00000000+94000130+FFFB0000+D5000000+00000099+C0000000+00000021+D8000000+020E33AB+D2000000+00000000"
+cheat57_enable = false
+
+cheat58_desc = "Souls (Default + Unused)"
+cheat58_code = "94000130+FFFB0000+220E33CD+00000009+D5000000+00000099+C0000000+0000003C+D8000000+020E3390+D2000000+00000000"
+cheat58_enable = false
+
+cheat59_desc = "Unlock All Codes"
+
+cheat60_desc = "All Ability-Type Effects"
+cheat60_code = "120E340A+00001111+120E340C+00000111+220E36DE+0000007F"
+cheat60_enable = false
+
+cheat61_desc = "All Magic Seals"
+cheat61_code = "220E3514+0000001F"
+cheat61_enable = false
+
+cheat62_desc = "Enable Castle Maps (Default)"
+cheat62_code = "94000130+FCFB0000+120E32EC+0000000D+D2000000+00000000"
+cheat62_enable = false
+
+cheat63_desc = "Enable Castle Maps (Default + Unused)"
+cheat63_code = "94000130+FCFB0000+120E32EC+00000FFF+D2000000+00000000"
+cheat63_enable = false
+
+cheat64_desc = "Enable Full Map"
+cheat64_code = "5202010C+11A01008+0202010C+E1A01008+02020110+E1A00000+02022B54+E3E00000+02022B58+E12FFF1E+D2000000+00000000"
+cheat64_enable = false
+
+cheat65_desc = "Access All Warp Rooms"
+cheat65_code = "120E3468+00000FFF"
+cheat65_enable = false
+
+cheat66_desc = "100.0% Map Rate"
+cheat66_code = "94000130+FCFB0000+E20E3100+00000190+F8000000+78007800+78C078C0+7FC0F8C0+04007C00+7800FC00+FFE07800+FEFC00E0+63FCFFFE+03FEFFFC+02488FFC+F078F048+F040F040+C040FFC0+80400040+840007C0+77E0FC00+000001C0+00000000+00000000+00000000+7FC00300+FC00FE00+E43FFC78+FC30C470+F870FFF0+1070B03F+04700030+1030FFF0+FC3FF870+FF31FC70+0400FFFF+FC61067F+10471807+00071FFF+07FF0003+E6018607+FE1FEF0F+1FFF0E00+0000FF07+00000000+00000000+00000000+00000000+3F180000+3F1F1E1F+3F0F3F1F+3FFF3F0F+FF013F03+3FFC6181+001C01FE+FF81F80F+FFC7FFC3+FFDFFFC7+1804FDFF+00C71FCC+FFC100C3+C004F3F7+C21FC20E+3F03E3FF+002001F0+00200020+07FC7E27+03FE0066+00000000+00000000+00000000+00000000+00000000+00000000+0038007C+003F0038+00380038+00380038+00390039+00390039+00390039+007C007F+00380038+003B0038+003B003B+003B003B+0038003B+0038003E+007E0038+00000000+00000000+00000040+00000000+01000000+07C00380+00000000+E00EF01E+8002C006+00000000+C0068002+F01EE00E+0000F83E+07C00000+01000380+D2000000+00000000"
+cheat66_enable = false
+
+cheat67_desc = "Enable Dual-Slot Mode Bonus Content"
+cheat67_code = "220ACA20+00000001"
+cheat67_enable = false
+
+cheat68_desc = "Enable Dual-Slot Mode Bonus Content (ASM)"
+cheat68_code = "52000CD8+E5900000+02000CD8+E1A00000+D2000000+00000000"
+cheat68_enable = false
+
+cheat69_desc = "Trail Color Modifier Codes - Soma Cruz"
+
+cheat70_desc = "Red"
+cheat70_code = "0220F798+100D0D1F+0220F79C+0400001F+1220F7B6+00000846"
+cheat70_enable = false
+
+cheat71_desc = "Orange"
+cheat71_code = "0220F798+100D141F+0220F79C+04000D1F+1220F7B6+00000866"
+cheat71_enable = false
+
+cheat72_desc = "Yellow"
+cheat72_code = "0220F798+100D1E1F+0220F79C+04001C1F+1220F7B6+000008A6"
+cheat72_enable = false
+
+cheat73_desc = "Green"
+cheat73_code = "0220F798+100D1F0E+0220F79C+04001F03+1220F7B6+000008C2"
+cheat73_enable = false
+
+cheat74_desc = "Light Blue"
+cheat74_code = "0220F798+101F1F0D+0220F79C+041F1F00+1220F7B6+000018C2"
+cheat74_enable = false
+
+cheat75_desc = "Blue"
+cheat75_code = "0220F798+101F0D0D+0220F79C+041F0000+1220F7B6+00001842"
+cheat75_enable = false
+
+cheat76_desc = "Purple"
+cheat76_code = "0220F798+101F0D17+0220F79C+041F0012+1220F7B6+00001844"
+cheat76_enable = false
+
+cheat77_desc = "Pink"
+cheat77_code = "0220F798+101F0D1F+0220F79C+041F001F+1220F7B6+00001846"
+cheat77_enable = false
+
+cheat78_desc = "Movement Speed Multiplier Codes"
+
+cheat79_desc = "x2"
+cheat79_code = "521D6C90+E0800006+021D6C90+E0800086+D2000000+00000000"
+cheat79_enable = false
+
+cheat80_desc = "x4"
+cheat80_code = "521D6C90+E0800006+021D6C90+E0800106+D2000000+00000000"
+cheat80_enable = false
+
+cheat81_desc = "Experience Multiplier Codes"
+
+cheat82_desc = "x2"
+cheat82_code = "521A61C0+E0820000+021A61C0+E0820080+D2000000+00000000"
+cheat82_enable = false
+
+cheat83_desc = "x4"
+cheat83_code = "521A61C0+E0820000+021A61C0+E0820100+D2000000+00000000"
+cheat83_enable = false
+
+cheat84_desc = "x8"
+cheat84_code = "521A61C0+E0820000+021A61C0+E0820180+D2000000+00000000"
+cheat84_enable = false
+
+cheat85_desc = "x16"
+cheat85_code = "521A61C0+E0820000+021A61C0+E0820200+D2000000+00000000"
+cheat85_enable = false
+
+cheat86_desc = "x32"
+cheat86_code = "521A61C0+E0820000+021A61C0+E0820280+D2000000+00000000"
+cheat86_enable = false
+
+cheat87_desc = "x64"
+cheat87_code = "521A61C0+E0820000+021A61C0+E0820300+D2000000+00000000"
+cheat87_enable = false
+
+cheat88_desc = "x128"
+cheat88_code = "521A61C0+E0820000+021A61C0+E0820380+D2000000+00000000"
+cheat88_enable = false
+
+cheat89_desc = "x256"
+cheat89_code = "521A61C0+E0820000+021A61C0+E0820400+D2000000+00000000"
+cheat89_enable = false
+
+cheat90_desc = "x512"
+cheat90_code = "521A61C0+E0820000+021A61C0+E0820480+D2000000+00000000"
+cheat90_enable = false
+
+cheat91_desc = "x1,024"
+cheat91_code = "521A61C0+E0820000+021A61C0+E0820500+D2000000+00000000"
+cheat91_enable = false
+
+cheat92_desc = "x2,048"
+cheat92_code = "521A61C0+E0820000+021A61C0+E0820580+D2000000+00000000"
+cheat92_enable = false
+
+cheat93_desc = "x4,096"
+cheat93_code = "521A61C0+E0820000+021A61C0+E0820600+D2000000+00000000"
+cheat93_enable = false
+
+cheat94_desc = "x8,192"
+cheat94_code = "521A61C0+E0820000+021A61C0+E0820680+D2000000+00000000"
+cheat94_enable = false
+
+cheat95_desc = "x16,384"
+cheat95_code = "521A61C0+E0820000+021A61C0+E0820700+D2000000+00000000"
+cheat95_enable = false
+
+cheat96_desc = "x32,768"
+cheat96_code = "521A61C0+E0820000+021A61C0+E0820780+D2000000+00000000"
+cheat96_enable = false
+
+cheat97_desc = "x65,536"
+cheat97_code = "521A61C0+E0820000+021A61C0+E0820800+D2000000+00000000"
+cheat97_enable = false
+
+cheat98_desc = "x131,072"
+cheat98_code = "521A61C0+E0820000+021A61C0+E0820880+D2000000+00000000"
+cheat98_enable = false
+
+cheat99_desc = "x262,144"
+cheat99_code = "521A61C0+E0820000+021A61C0+E0820900+D2000000+00000000"
+cheat99_enable = false
+
+cheat100_desc = "x524,288"
+cheat100_code = "521A61C0+E0820000+021A61C0+E0820980+D2000000+00000000"
+cheat100_enable = false
+
+cheat101_desc = "x1,048,576"
+cheat101_code = "521A61C0+E0820000+021A61C0+E0820A00+D2000000+00000000"
+cheat101_enable = false
+
+cheat102_desc = "x2,097,152"
+cheat102_code = "521A61C0+E0820000+021A61C0+E0820A80+D2000000+00000000"
+cheat102_enable = false
+
+cheat103_desc = "x4,194,304"
+cheat103_code = "521A61C0+E0820000+021A61C0+E0820B00+D2000000+00000000"
+cheat103_enable = false
+
+cheat104_desc = "x8,388,608"
+cheat104_code = "521A61C0+E0820000+021A61C0+E0820B80+D2000000+00000000"
+cheat104_enable = false
+
+cheat105_desc = "x16,777,216"
+cheat105_code = "521A61C0+E0820000+021A61C0+E0820C00+D2000000+00000000"
+cheat105_enable = false
+
+cheat106_desc = "x33,554,432"
+cheat106_code = "521A61C0+E0820000+021A61C0+E0820C80+D2000000+00000000"
+cheat106_enable = false
+
+cheat107_desc = "x67,108,864"
+cheat107_code = "521A61C0+E0820000+021A61C0+E0820D00+D2000000+00000000"
+cheat107_enable = false
+
+cheat108_desc = "x134,217,728"
+cheat108_code = "521A61C0+E0820000+021A61C0+E0820D80+D2000000+00000000"
+cheat108_enable = false
+
+cheat109_desc = "Damage Multiplier Codes"
+
+cheat110_desc = "x2"
+cheat110_code = "521A6440+E0400008+021A6440+E0400088+D2000000+00000000"
+cheat110_enable = false
+
+cheat111_desc = "x4"
+cheat111_code = "521A6440+E0400008+021A6440+E0400108+D2000000+00000000"
+cheat111_enable = false
+
+cheat112_desc = "x8"
+cheat112_code = "521A6440+E0400008+021A6440+E0400188+D2000000+00000000"
+cheat112_enable = false
+
+cheat113_desc = "x16"
+cheat113_code = "521A6440+E0400008+021A6440+E0400208+D2000000+00000000"
+cheat113_enable = false
+
+cheat114_desc = "x32"
+cheat114_code = "521A6440+E0400008+021A6440+E0400288+D2000000+00000000"
+cheat114_enable = false
+
+cheat115_desc = "x64"
+cheat115_code = "521A6440+E0400008+021A6440+E0400308+D2000000+00000000"
+cheat115_enable = false
+
+cheat116_desc = "x128"
+cheat116_code = "521A6440+E0400008+021A6440+E0400388+D2000000+00000000"
+cheat116_enable = false
+
+cheat117_desc = "x256"
+cheat117_code = "521A6440+E0400008+021A6440+E0400408+D2000000+00000000"
+cheat117_enable = false
+
+cheat118_desc = "x512"
+cheat118_code = "521A6440+E0400008+021A6440+E0400488+D2000000+00000000"
+cheat118_enable = false
+
+cheat119_desc = "x1,024"
+cheat119_code = "521A6440+E0400008+021A6440+E0400508+D2000000+00000000"
+cheat119_enable = false
+
+cheat120_desc = "x2,048"
+cheat120_code = "521A6440+E0400008+021A6440+E0400588+D2000000+00000000"
+cheat120_enable = false
+
+cheat121_desc = "Heart Multiplier Codes"
+
+cheat122_desc = "x2"
+cheat122_code = "521C9330+E0810000+021C9330+E0810080+D2000000+00000000"
+cheat122_enable = false
+
+cheat123_desc = "x4"
+cheat123_code = "521C9330+E0810000+021C9330+E0810100+D2000000+00000000"
+cheat123_enable = false
+
+cheat124_desc = "x8"
+cheat124_code = "521C9330+E0810000+021C9330+E0810180+D2000000+00000000"
+cheat124_enable = false
+
+cheat125_desc = "x16"
+cheat125_code = "521C9330+E0810000+021C9330+E0810200+D2000000+00000000"
+cheat125_enable = false
+
+cheat126_desc = "x32"
+cheat126_code = "521C9330+E0810000+021C9330+E0810280+D2000000+00000000"
+cheat126_enable = false
+
+cheat127_desc = "Magic Points Recovery Multiplier Codes"
+
+cheat128_desc = "x2"
+cheat128_code = "521E0C90+E0830000+021E0C90+E0830080+D2000000+00000000"
+cheat128_enable = false
+
+cheat129_desc = "x4"
+cheat129_code = "521E0C90+E0830000+021E0C90+E0830100+D2000000+00000000"
+cheat129_enable = false
+
+cheat130_desc = "x8"
+cheat130_code = "521E0C90+E0830000+021E0C90+E0830180+D2000000+00000000"
+cheat130_enable = false
+
+cheat131_desc = "x16"
+cheat131_code = "521E0C90+E0830000+021E0C90+E0830200+D2000000+00000000"
+cheat131_enable = false
+
+cheat132_desc = "x32"
+cheat132_code = "521E0C90+E0830000+021E0C90+E0830280+D2000000+00000000"
+cheat132_enable = false
+
+cheat133_desc = "x64"
+cheat133_code = "521E0C90+E0830000+021E0C90+E0830300+D2000000+00000000"
+cheat133_enable = false
+
+cheat134_desc = "x128"
+cheat134_code = "521E0C90+E0830000+021E0C90+E0830380+D2000000+00000000"
+cheat134_enable = false
+
+cheat135_desc = "x256"
+cheat135_code = "521E0C90+E0830000+021E0C90+E0830400+D2000000+00000000"
+cheat135_enable = false
+
+cheat136_desc = "x512"
+cheat136_code = "521E0C90+E0830000+021E0C90+E0830480+D2000000+00000000"
+cheat136_enable = false
+
+cheat137_desc = "Gold Multiplier Codes"
+
+cheat138_desc = "x2"
+cheat138_code = "521C8204+E08C0000+021C8204+E08C0080+D2000000+00000000"
+cheat138_enable = false
+
+cheat139_desc = "x4"
+cheat139_code = "521C8204+E08C0000+021C8204+E08C0100+D2000000+00000000"
+cheat139_enable = false
+
+cheat140_desc = "x8"
+cheat140_code = "521C8204+E08C0000+021C8204+E08C0180+D2000000+00000000"
+cheat140_enable = false
+
+cheat141_desc = "x16"
+cheat141_code = "521C8204+E08C0000+021C8204+E08C0200+D2000000+00000000"
+cheat141_enable = false
+
+cheat142_desc = "x32"
+cheat142_code = "521C8204+E08C0000+021C8204+E08C0280+D2000000+00000000"
+cheat142_enable = false
+
+cheat143_desc = "x64"
+cheat143_code = "521C8204+E08C0000+021C8204+E08C0300+D2000000+00000000"
+cheat143_enable = false
+
+cheat144_desc = "x128"
+cheat144_code = "521C8204+E08C0000+021C8204+E08C0380+D2000000+00000000"
+cheat144_enable = false
+
+cheat145_desc = "x256"
+cheat145_code = "521C8204+E08C0000+021C8204+E08C0400+D2000000+00000000"
+cheat145_enable = false
+
+cheat146_desc = "x512"
+cheat146_code = "521C8204+E08C0000+021C8204+E08C0480+D2000000+00000000"
+cheat146_enable = false
+
+cheat147_desc = "x1,024"
+cheat147_code = "521C8204+E08C0000+021C8204+E08C0500+D2000000+00000000"
+cheat147_enable = false
+
+cheat148_desc = "x2,048"
+cheat148_code = "521C8204+E08C0000+021C8204+E08C0580+D2000000+00000000"
+cheat148_enable = false
+
+cheat149_desc = "x4,096"
+cheat149_code = "521C8204+E08C0000+021C8204+E08C0600+D2000000+00000000"
+cheat149_enable = false
+
+cheat150_desc = "x8,192"
+cheat150_code = "521C8204+E08C0000+021C8204+E08C0680+D2000000+00000000"
+cheat150_enable = false
+
+cheat151_desc = "x16,384"
+cheat151_code = "521C8204+E08C0000+021C8204+E08C0700+D2000000+00000000"
+cheat151_enable = false
+
+cheat152_desc = "x32,768"
+cheat152_code = "521C8204+E08C0000+021C8204+E08C0780+D2000000+00000000"
+cheat152_enable = false
+
+cheat153_desc = "x65,536"
+cheat153_code = "521C8204+E08C0000+021C8204+E08C0800+D2000000+00000000"
+cheat153_enable = false
+
+cheat154_desc = "x131,072"
+cheat154_code = "521C8204+E08C0000+021C8204+E08C0880+D2000000+00000000"
+cheat154_enable = false
+
+cheat155_desc = "x262,144"
+cheat155_code = "521C8204+E08C0000+021C8204+E08C0900+D2000000+00000000"
+cheat155_enable = false
+
+cheat156_desc = "x524,288"
+cheat156_code = "521C8204+E08C0000+021C8204+E08C0980+D2000000+00000000"
+cheat156_enable = false
+
+cheat157_desc = "x1,048,576"
+cheat157_code = "521C8204+E08C0000+021C8204+E08C0A00+D2000000+00000000"
+cheat157_enable = false
+
+cheat158_desc = "x2,097,152"
+cheat158_code = "521C8204+E08C0000+021C8204+E08C0A80+D2000000+00000000"
+cheat158_enable = false
+
+cheat159_desc = "x4,194,304"
+cheat159_code = "521C8204+E08C0000+021C8204+E08C0B00+D2000000+00000000"
+cheat159_enable = false
+
+cheat160_desc = "x8,388,608"
+cheat160_code = "521C8204+E08C0000+021C8204+E08C0B80+D2000000+00000000"
+cheat160_enable = false
+
+cheat161_desc = "x16,777,216"
+cheat161_code = "521C8204+E08C0000+021C8204+E08C0C00+D2000000+00000000"
+cheat161_enable = false
+
+cheat162_desc = "Character Modifier Codes"
+
+cheat163_desc = "Soma Cruz"
+cheat163_code = "220E36CE+00000000"
+cheat163_enable = false
+
+cheat164_desc = "Julius Belmont"
+cheat164_code = "220E36CE+00000001"
+cheat164_enable = false
+
+cheat165_desc = "Yoko Belnades"
+cheat165_code = "220E36CE+00000002"
+cheat165_enable = false
+
+cheat166_desc = "Alucard"
+cheat166_code = "220E36CE+00000003"
+cheat166_enable = false
+
+cheat167_desc = "Game Mode Modifier Codes"
+
+cheat168_desc = "Soma Mode"
+cheat168_code = "94000130+FCFB0000+220E3517+00000000+220E3518+00000000+220E36CE+00000000+D2000000+00000000"
+cheat168_enable = false
+
+cheat169_desc = "Julius Mode"
+cheat169_code = "94000130+FCFB0000+220E3517+00000001+220E3518+00000002+220E36CE+00000001+D2000000+00000000"
+cheat169_enable = false
+
+cheat170_desc = "Difficulty Modifier Codes"
+
+cheat171_desc = "Normal"
+cheat171_code = "220E3519+00000000"
+cheat171_enable = false
+
+cheat172_desc = "Hard"
+cheat172_code = "220E3519+00000001"
+cheat172_enable = false
+
+cheat173_desc = "Game Time Codes"
+
+cheat174_desc = "00:00:00"
+cheat174_code = "020E32FC+00000000"
+cheat174_enable = false
+
+cheat175_desc = "99:59:59"
+cheat175_code = "020E32FC+014996C4"
+cheat175_enable = false
+
+cheat176_desc = "Organizer Codes"
+
+cheat177_desc = "Weapons"
+cheat177_code = "94000130+FFFB0000+020E34F4+FFFFFFFF+D2000000+00000000"
+cheat177_enable = false
+
+cheat178_desc = "Armor"
+cheat178_code = "94000130+FFFB0000+020E34F8+FFFFFFFF+D2000000+00000000"
+cheat178_enable = false
+
+cheat179_desc = "Accessories"
+cheat179_code = "94000130+FFFB0000+020E34FC+FFFFFFFF+D2000000+00000000"
+cheat179_enable = false
+
+cheat180_desc = "Bullet-Type Souls"
+cheat180_code = "94000130+FFFB0000+020E3500+FFFFFFFF+D2000000+00000000"
+cheat180_enable = false
+
+cheat181_desc = "Guardian-Type Souls"
+cheat181_code = "94000130+FFFB0000+020E3504+FFFFFFFF+D2000000+00000000"
+cheat181_enable = false
+
+cheat182_desc = "Enchant-Type Souls"
+cheat182_code = "94000130+FFFB0000+020E3508+FFFFFFFF+D2000000+00000000"
+cheat182_enable = false
+
+cheat183_desc = "Organize Everything"
+cheat183_code = "94000130+FFFB0000+D5000000+FFFFFFFF+C0000000+00000006+D6000000+020E34F4+D2000000+00000000"
+cheat183_enable = false
+
+cheat184_desc = "Warp Room Modifier Codes"
+
+cheat185_desc = "The Lost Village"
+cheat185_code = "94000130+FFFB0000+120E3366+00001800+D2000000+00000000"
+cheat185_enable = false
+
+cheat186_desc = "Demon Guest House"
+cheat186_code = "94000130+FFFB0000+120E3366+00003E01+D2000000+00000000"
+cheat186_enable = false
+
