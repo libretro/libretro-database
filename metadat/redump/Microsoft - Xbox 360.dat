@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Microsoft - Xbox 360"
 	description "Microsoft - Xbox 360"
-	version "2023.07.18"
+	version "2023.09.09"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -713,11 +713,11 @@ game (
 	rom ( name "Army of Two (Japan).iso" size 7835492352 crc 1833AAF6 md5 178B2EEEF9B14842F896783B13D90D47 sha1 A0B54C385CBF4D92DD38483DCD21DA83B28486C4 serial "EA-2127" )
 )
 game (
-	name "Army of Two (Korea) (En,Ja,Ko)"
-	description "Army of Two (Korea) (En,Ja,Ko)"
+	name "Army of Two (Korea) (En,Ko)"
+	description "Army of Two (Korea) (En,Ko)"
 	region "Korea"
 	serial "EA-2127"
-	rom ( name "Army of Two (Korea) (En,Ja,Ko).iso" size 7835492352 crc 9FAED6D0 md5 2CC3726BA2D895A6F80676A2F2A83400 sha1 53DF6BA83767DAA77881F5D64A60A08367AD8813 serial "EA-2127" )
+	rom ( name "Army of Two (Korea) (En,Ko).iso" size 7835492352 crc 9FAED6D0 md5 2CC3726BA2D895A6F80676A2F2A83400 sha1 53DF6BA83767DAA77881F5D64A60A08367AD8813 serial "EA-2127" )
 )
 game (
 	name "Army of Two (USA)"
@@ -872,6 +872,13 @@ game (
 	rom ( name "Assassin's Creed - Rogue (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Pl).iso" size 8738846720 crc E23294AE md5 8499FC97F1886549E8EEAF7D3CF4E18F sha1 D6108C350B2E1090895F5A15F0AFB36185BA9715 serial "US-2254" )
 )
 game (
+	name "Assassin's Creed II (Europe) (It,Pl,Ru)"
+	description "Assassin's Creed II (Europe) (It,Pl,Ru)"
+	region "Europe"
+	serial "US-2107"
+	rom ( name "Assassin's Creed II (Europe) (It,Pl,Ru).iso" size 7838695424 crc 4A09FE3B md5 8B4B218E88A8DD9939E30ED4D25BD241 sha1 46BE485030484B3F9FF6853FD62007DFAA8A1A12 serial "US-2107" )
+)
+game (
 	name "Assassin's Creed II (Japan) (Ja,It)"
 	description "Assassin's Creed II (Japan) (Ja,It)"
 	region "Japan"
@@ -884,13 +891,6 @@ game (
 	region "Korea"
 	serial "US-2107"
 	rom ( name "Assassin's Creed II (Korea) (It,Ko).iso" size 7838695424 crc 26E42385 md5 B813C3BB196C7FC0F4CB6B48128C49FB sha1 E647CFFDA3DDFFB184F8FB7EB41C38B11849DD22 serial "US-2107" )
-)
-game (
-	name "Assassin's Creed II (Poland)"
-	description "Assassin's Creed II (Poland)"
-	region "Poland"
-	serial "US-2107"
-	rom ( name "Assassin's Creed II (Poland).iso" size 7838695424 crc 4A09FE3B md5 8B4B218E88A8DD9939E30ED4D25BD241 sha1 46BE485030484B3F9FF6853FD62007DFAA8A1A12 serial "US-2107" )
 )
 game (
 	name "Assassin's Creed II (UK) (En,It)"
@@ -910,6 +910,13 @@ game (
 	region "Europe"
 	serial "US-2107"
 	rom ( name "Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).iso" size 7838695424 crc E91E7289 md5 47D805D85C0528EF6D57BDEB04442E99 sha1 EE7D4B94BC6DBA3FD11576612EAD1800CFD6132D serial "US-2107" )
+)
+game (
+	name "Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)"
+	description "Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1)"
+	region "Europe"
+	serial "US-2107"
+	rom ( name "Assassin's Creed II - Game of the Year Edition (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da) (Rev 1).iso" size 7838695424 crc 2CCE3DD2 md5 0A9EE8CDCDF622F0AF3647681041BC29 sha1 6D3E180CD8B9FBDCB1480E661A72C2F5C8CEC935 serial "US-2107" )
 )
 game (
 	name "Assassin's Creed II - Game of the Year Edition (Europe) (It,Pl,Ru)"
@@ -986,28 +993,56 @@ game (
 	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1)"
 	region "Europe"
 	serial "US-2222"
-	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1).iso" size 8738846720 crc AC53527F md5 7FB71D55AC1DA47232F49B041044B5B6 sha1 CC980FC2B25556B8BD2854047BBD12F4F35B2D78 serial "US-2222" )
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1).iso" size 8738846720 crc 830007DB md5 26CD8B73B4A072945AE65F24F9EE10B8 sha1 2CF0C9EF91EC0E42CA628C7D981F93E6E08713E0 serial "US-2222" )
 )
 game (
 	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1)"
 	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1)"
 	region "Europe"
 	serial "US-2222-0"
-	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1).iso" size 8738846720 crc AC53527F md5 7FB71D55AC1DA47232F49B041044B5B6 sha1 CC980FC2B25556B8BD2854047BBD12F4F35B2D78 serial "US-2222-0" )
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1).iso" size 8738846720 crc 830007DB md5 26CD8B73B4A072945AE65F24F9EE10B8 sha1 2CF0C9EF91EC0E42CA628C7D981F93E6E08713E0 serial "US-2222-0" )
+)
+game (
+	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1)"
+	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1)"
+	region "Europe"
+	serial "US-2222"
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1).iso" size 8738846720 crc AC53527F md5 7FB71D55AC1DA47232F49B041044B5B6 sha1 CC980FC2B25556B8BD2854047BBD12F4F35B2D78 serial "US-2222" )
+)
+game (
+	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1)"
+	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1)"
+	region "Europe"
+	serial "US-2222-0"
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 1) (Rev 1).iso" size 8738846720 crc AC53527F md5 7FB71D55AC1DA47232F49B041044B5B6 sha1 CC980FC2B25556B8BD2854047BBD12F4F35B2D78 serial "US-2222-0" )
 )
 game (
 	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2)"
 	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2)"
 	region "Europe"
 	serial "US-2222"
-	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2).iso" size 8738846720 crc D483EE7E md5 D5F7F48320D2EFC193452F3A8D18776D sha1 8D1451BF98FC6CDF7E140FED65D0505AC5E81D26 serial "US-2222" )
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2).iso" size 8738846720 crc 431E7EBA md5 C71AE00554594B57A780A27178E7E6DD sha1 4CDEECB628C3FA3CDFD0EAEBEF2D45CB9B858499 serial "US-2222" )
 )
 game (
 	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2)"
 	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2)"
 	region "Europe"
 	serial "US-2222-1"
-	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2).iso" size 8738846720 crc D483EE7E md5 D5F7F48320D2EFC193452F3A8D18776D sha1 8D1451BF98FC6CDF7E140FED65D0505AC5E81D26 serial "US-2222-1" )
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2).iso" size 8738846720 crc 431E7EBA md5 C71AE00554594B57A780A27178E7E6DD sha1 4CDEECB628C3FA3CDFD0EAEBEF2D45CB9B858499 serial "US-2222-1" )
+)
+game (
+	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1)"
+	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1)"
+	region "Europe"
+	serial "US-2222"
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1).iso" size 8738846720 crc D483EE7E md5 D5F7F48320D2EFC193452F3A8D18776D sha1 8D1451BF98FC6CDF7E140FED65D0505AC5E81D26 serial "US-2222" )
+)
+game (
+	name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1)"
+	description "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1)"
+	region "Europe"
+	serial "US-2222-1"
+	rom ( name "Assassin's Creed III (Europe) (Pl,Ru,Cs,Hu) (Disc 2) (Rev 1).iso" size 8738846720 crc D483EE7E md5 D5F7F48320D2EFC193452F3A8D18776D sha1 8D1451BF98FC6CDF7E140FED65D0505AC5E81D26 serial "US-2222-1" )
 )
 game (
 	name "Assassin's Creed III (Europe, Asia) (Disc 1)"
@@ -1056,34 +1091,6 @@ game (
 	description "Assassin's Creed III (Japan, Korea) (En,Ja,Zh,Ko) (Disc 2)"
 	serial "US-2222-1"
 	rom ( name "Assassin's Creed III (Japan, Korea) (En,Ja,Zh,Ko) (Disc 2).iso" size 8738846720 crc C768A8C3 md5 47C2101FE803B70B6DEF03719B249569 sha1 55D53693478D596BEAA19CBF7AB0E92898D70E3B serial "US-2222-1" )
-)
-game (
-	name "Assassin's Creed III (Poland) (Disc 1)"
-	description "Assassin's Creed III (Poland) (Disc 1)"
-	region "Poland"
-	serial "US-2222"
-	rom ( name "Assassin's Creed III (Poland) (Disc 1).iso" size 8738846720 crc 830007DB md5 26CD8B73B4A072945AE65F24F9EE10B8 sha1 2CF0C9EF91EC0E42CA628C7D981F93E6E08713E0 serial "US-2222" )
-)
-game (
-	name "Assassin's Creed III (Poland) (Disc 1)"
-	description "Assassin's Creed III (Poland) (Disc 1)"
-	region "Poland"
-	serial "US-2222-0"
-	rom ( name "Assassin's Creed III (Poland) (Disc 1).iso" size 8738846720 crc 830007DB md5 26CD8B73B4A072945AE65F24F9EE10B8 sha1 2CF0C9EF91EC0E42CA628C7D981F93E6E08713E0 serial "US-2222-0" )
-)
-game (
-	name "Assassin's Creed III (Poland) (Disc 2)"
-	description "Assassin's Creed III (Poland) (Disc 2)"
-	region "Poland"
-	serial "US-2222"
-	rom ( name "Assassin's Creed III (Poland) (Disc 2).iso" size 8738846720 crc 431E7EBA md5 C71AE00554594B57A780A27178E7E6DD sha1 4CDEECB628C3FA3CDFD0EAEBEF2D45CB9B858499 serial "US-2222" )
-)
-game (
-	name "Assassin's Creed III (Poland) (Disc 2)"
-	description "Assassin's Creed III (Poland) (Disc 2)"
-	region "Poland"
-	serial "US-2222-1"
-	rom ( name "Assassin's Creed III (Poland) (Disc 2).iso" size 8738846720 crc 431E7EBA md5 C71AE00554594B57A780A27178E7E6DD sha1 4CDEECB628C3FA3CDFD0EAEBEF2D45CB9B858499 serial "US-2222-1" )
 )
 game (
 	name "Assassin's Creed III (USA) (En,Fr,Es,Pt) (Disc 1) (Single-player)"
@@ -1274,13 +1281,6 @@ game (
 	region "USA"
 	serial "CN-2003"
 	rom ( name "Autobahn Polizei (USA).iso" size 7838695424 crc 53D629EC md5 AC31625A794C14FA11C824151DD88A06 sha1 96A3C943C2AAEC97590D7638F779339BAD29F58D serial "CN-2003" )
-)
-game (
-	name "Avatar - The Last Airbender - The Burning Earth (USA)"
-	description "Avatar - The Last Airbender - The Burning Earth (USA)"
-	region "USA"
-	serial "TQ-2017"
-	rom ( name "Avatar - The Last Airbender - The Burning Earth (USA).iso" size 7835492352 crc CB9922B6 md5 2D5B01CD04CDB9233117EBCDEB868FF8 sha1 59119EABB43F43601D048BAFC1C4EE4000FE80D9 serial "TQ-2017" )
 )
 game (
 	name "Back to the Future - The Game - 30th Anniversary Edition (USA) (En,Fr,De)"
@@ -1781,6 +1781,13 @@ game (
 	description "Battlestations - Midway (USA, Europe) (En,Fr,De,It)"
 	serial "SC-2009"
 	rom ( name "Battlestations - Midway (USA, Europe) (En,Fr,De,It).iso" size 7834892288 crc A36B7CD8 md5 85D4FE8D5EE94F23E7C6C50EA61442AF sha1 0DF838F3BBF647F625A0662ECA12D8C97370EAC5 serial "SC-2009" )
+)
+game (
+	name "Battlestations - Pacific (Japan)"
+	description "Battlestations - Pacific (Japan)"
+	region "Japan"
+	serial "SC-2025"
+	rom ( name "Battlestations - Pacific (Japan).iso" size 7838695424 crc F39191C1 md5 3B05A2DBDA216C92B4D0B5AE6D1F78AE sha1 72D4FA9E9C020FEB71F22F5604E08EE7C5A4A8AB serial "SC-2025" )
 )
 game (
 	name "Battlestations - Pacific (USA)"
@@ -4309,16 +4316,16 @@ game (
 	rom ( name "Dance Central (USA, Europe).iso" size 7838695424 crc 9496FCED md5 1D6ABEFF46E9646AE00FF8194B3206E7 sha1 1860A2D232183D833A3DD504C0078B4950453157 serial "TV-2003" )
 )
 game (
-	name "Dance Central 2 (USA, Asia)"
-	description "Dance Central 2 (USA, Asia)"
+	name "Dance Central 2 (World)"
+	description "Dance Central 2 (World)"
 	serial "73-2002"
-	rom ( name "Dance Central 2 (USA, Asia).iso" size 7838695424 crc 1614D4F8 md5 AEF9868FEC0E7F65F62749B30F6A03CC sha1 27BAD73EBB8D79E3C458294F2297C81A691376B6 serial "73-2002" )
+	rom ( name "Dance Central 2 (World).iso" size 7838695424 crc 1614D4F8 md5 AEF9868FEC0E7F65F62749B30F6A03CC sha1 27BAD73EBB8D79E3C458294F2297C81A691376B6 serial "73-2002" )
 )
 game (
-	name "Dance Central 3 (USA, Asia) (En,Zh)"
-	description "Dance Central 3 (USA, Asia) (En,Zh)"
+	name "Dance Central 3 (World) (En,Zh)"
+	description "Dance Central 3 (World) (En,Zh)"
 	serial "73-2009"
-	rom ( name "Dance Central 3 (USA, Asia) (En,Zh).iso" size 7838695424 crc 95318B1E md5 53243CCDCEF72E0C14FC7E56ABE119FA sha1 B335CB664367DE3B2437CA07DD3249E3F1991AE3 serial "73-2009" )
+	rom ( name "Dance Central 3 (World) (En,Zh).iso" size 7838695424 crc 95318B1E md5 53243CCDCEF72E0C14FC7E56ABE119FA sha1 B335CB664367DE3B2437CA07DD3249E3F1991AE3 serial "73-2009" )
 )
 game (
 	name "Dance Dance Revolution (USA)"
@@ -7236,6 +7243,12 @@ game (
 	rom ( name "Evil Within, The (Europe) (Fr,De,Es,It).iso" size 8738846720 crc 1261B837 md5 40EF5784747F0251D995FE821C3757B5 sha1 439BE505E4C568A8D7522B8D8A8FEB4D46392DD2 serial "BS-2036" )
 )
 game (
+	name "Evil Within, The (UK)"
+	description "Evil Within, The (UK)"
+	serial "BS-2036"
+	rom ( name "Evil Within, The (UK).iso" size 8738846720 crc 075DE8C9 md5 21F6B0E03F128D26E872D389C17B4653 sha1 B5AF9743E9EB06A4B0AFECD46E552F6102397AAF serial "BS-2036" )
+)
+game (
 	name "Evil Within, The (USA)"
 	description "Evil Within, The (USA)"
 	region "USA"
@@ -7243,10 +7256,10 @@ game (
 	rom ( name "Evil Within, The (USA).iso" size 8738846720 crc 0DEAC46E md5 39B6D95B1631B54EC610161F6741309A sha1 DB505BE4F28D643110642E64329C8F010359EA90 serial "BS-2036" )
 )
 game (
-	name "Experience Disc Version 1.0 (USA, Europe) (En,Fr,De,Es,It)"
-	description "Experience Disc Version 1.0 (USA, Europe) (En,Fr,De,Es,It)"
+	name "Experience Disc Version 1.0, The (USA, Europe) (En,Fr,De,Es,It)"
+	description "Experience Disc Version 1.0, The (USA, Europe) (En,Fr,De,Es,It)"
 	serial "XK-2017"
-	rom ( name "Experience Disc Version 1.0 (USA, Europe) (En,Fr,De,Es,It).iso" size 7838111744 crc 320F407A md5 C0734F0C7A2E939E73F504978C100929 sha1 F255380476D4760ECD2EF82741868984CC2EEE95 serial "XK-2017" )
+	rom ( name "Experience Disc Version 1.0, The (USA, Europe) (En,Fr,De,Es,It).iso" size 7838111744 crc 320F407A md5 C0734F0C7A2E939E73F504978C100929 sha1 F255380476D4760ECD2EF82741868984CC2EEE95 serial "XK-2017" )
 )
 game (
 	name "Experience Disc Version 1.4, The (USA)"
@@ -7275,6 +7288,13 @@ game (
 	region "USA"
 	serial "XK-2031"
 	rom ( name "Experience Disc Version 1.6, The (USA) (En,Fr,Es).iso" size 7834892288 crc 14828F40 md5 73395A808DBDD16A4E9A8DA67CB00E81 sha1 4A95C9C0A5CE6A886152B385314330B43D344FF3 serial "XK-2031" )
+)
+game (
+	name "Experience Disc Version 2.1, The (USA)"
+	description "Experience Disc Version 2.1, The (USA)"
+	region "USA"
+	serial "XK-2043"
+	rom ( name "Experience Disc Version 2.1, The (USA).iso" size 7834892288 crc BFC680C5 md5 60220BF5EFA6E48DF7311E61551E12D3 sha1 6E319D5ED4B84C988BA9D88D70F6EA211C0B4ABF serial "XK-2043" )
 )
 game (
 	name "Experience Disc Version 2.2, The (USA) (En,Fr,Es)"
@@ -7380,6 +7400,13 @@ game (
 	region "USA"
 	serial "XK-2104"
 	rom ( name "Experience Disc Version 6.0, The (USA).iso" size 7838695424 crc 944D3DCD md5 ACA92B2AB3E3B1DEFF0264ABBC8A00D2 sha1 7EE1F3ED067520B3F59A52DB853D6B7C81AF2EED serial "XK-2104" )
+)
+game (
+	name "Experience Disc Version 6.1G, The (USA) (En,Fr)"
+	description "Experience Disc Version 6.1G, The (USA) (En,Fr)"
+	region "USA"
+	serial "XK-2104"
+	rom ( name "Experience Disc Version 6.1G, The (USA) (En,Fr).iso" size 7838695424 crc 0038B057 md5 4B82939E4DACB3D5727718EFE3215B4C sha1 8C0EE252C6B134AC354E396E8B3065F72F153204 serial "XK-2104" )
 )
 game (
 	name "Experience Disc Version 6.4, The (USA)"
@@ -10058,6 +10085,13 @@ game (
 	rom ( name "Guitar Hero III - Legends of Rock (USA) (Demo).iso" size 7835492352 crc 7DD3643B md5 D415A05E7B5A5D9E67C6E6871873CE55 sha1 B1D7E7D2E84E07366794BB67C7116C32E50CBF0D serial "AV-2068" )
 )
 game (
+	name "Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It)"
+	description "Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It)"
+	region "USA"
+	serial "AV-2039"
+	rom ( name "Guitar Hero III - Legends of Rock (USA) (En,Fr,De,Es,It).iso" size 7835492352 crc E02CB4BF md5 C445C1EFD828F9A4AE141AAF2B202068 sha1 FEE5A263ECABF9229A3639997CECE88A1FB4B4B1 serial "AV-2039" )
+)
+game (
 	name "Guitar Hero III - Legends of Rock (USA, Europe) (En,Fr,De,Es,It)"
 	description "Guitar Hero III - Legends of Rock (USA, Europe) (En,Fr,De,Es,It)"
 	serial "AV-2039"
@@ -11299,6 +11333,13 @@ game (
 	rom ( name "John Woo Presents Stranglehold (World) (Beta).iso" size 7184547840 crc B6CC74FA md5 728D9CBB9E7B5C7769F0D8A385E63ACF sha1 EAF7ABFDCB204DA92017A239A1C7A917EC5581F5 )
 )
 game (
+	name "Jonah Lomu Rugby Challenge 2 (Europe)"
+	description "Jonah Lomu Rugby Challenge 2 (Europe)"
+	region "Europe"
+	serial "HE-2007"
+	rom ( name "Jonah Lomu Rugby Challenge 2 (Europe).iso" size 7838695424 crc E41D2914 md5 2B13733BAF9D158FB8B0D2CDD12AD0B0 sha1 1E7BC046A152542455B81ECD2D4ED97CCDF0258D serial "HE-2007" )
+)
+game (
 	name "Juiced 2 - Hot Import Nights (Australia) (Demo)"
 	description "Juiced 2 - Hot Import Nights (Australia) (Demo)"
 	region "Australia"
@@ -11463,11 +11504,10 @@ game (
 	rom ( name "Just Dance 3 (Europe).iso" size 8738846720 crc 93717E9E md5 FF788ADE7890D5CFD802CB2B51527791 sha1 ECC2665D17472AD8A1F73C792BE9A9CEF3DBB0F8 serial "US-2184" )
 )
 game (
-	name "Just Dance 3 (USA)"
-	description "Just Dance 3 (USA)"
-	region "USA"
+	name "Just Dance 3 (USA, Europe)"
+	description "Just Dance 3 (USA, Europe)"
 	serial "US-2184"
-	rom ( name "Just Dance 3 (USA).iso" size 8738846720 crc B2628F59 md5 9A9BEBE79F35491B9FB67A814DB9A102 sha1 7DF8444432065B3ED295AD682B74C0ADE87B25E0 serial "US-2184" )
+	rom ( name "Just Dance 3 (USA, Europe).iso" size 8738846720 crc B2628F59 md5 9A9BEBE79F35491B9FB67A814DB9A102 sha1 7DF8444432065B3ED295AD682B74C0ADE87B25E0 serial "US-2184" )
 )
 game (
 	name "Just Dance 4 (Europe)"
@@ -12760,6 +12800,13 @@ game (
 	rom ( name "Love Tore - Sweet (Japan).iso" size 7838695424 crc E0BAE848 md5 891F3BFC776BBC89E4B9975F2DA3974B sha1 F5004FB1A35EA112B5E22BCBA784E1F4AAD66242 serial "2G-2001" )
 )
 game (
+	name "Lucha Libre AAA - Heroes del Ring (USA)"
+	description "Lucha Libre AAA - Heroes del Ring (USA)"
+	region "USA"
+	serial "GX-2001"
+	rom ( name "Lucha Libre AAA - Heroes del Ring (USA).iso" size 7838695424 crc F076C5E6 md5 38E07BEBB387472767539286C3D8E8CC sha1 98F45BB212CF4657D5B39142E10DACD191E3FED8 serial "GX-2001" )
+)
+game (
 	name "Lucha Libre AAA - Heroes del Ring (USA) (Beta)"
 	description "Lucha Libre AAA - Heroes del Ring (USA) (Beta)"
 	region "USA"
@@ -13075,6 +13122,34 @@ game (
 	region "Japan"
 	serial "NM-2058-1"
 	rom ( name "Magnacarta II (Japan) (Disc 2).iso" size 7838695424 crc 1130CF7F md5 2FAB3F83044464AEA9FC588CCD472F35 sha1 A11D64CEA3FC0A3EAEB06E2758B278FDA90D106F serial "NM-2058-1" )
+)
+game (
+	name "Magnacarta II (Korea) (Disc 1)"
+	description "Magnacarta II (Korea) (Disc 1)"
+	region "Korea"
+	serial "NM-2065"
+	rom ( name "Magnacarta II (Korea) (Disc 1).iso" size 7838695424 crc 03DA473F md5 64F1DE1678FF7484F5E3A87CDF7F8FCF sha1 82FE4BC33223AAAE75BF3CE3BCA3F15D2D7FF048 serial "NM-2065" )
+)
+game (
+	name "Magnacarta II (Korea) (Disc 1)"
+	description "Magnacarta II (Korea) (Disc 1)"
+	region "Korea"
+	serial "NM-2065-0"
+	rom ( name "Magnacarta II (Korea) (Disc 1).iso" size 7838695424 crc 03DA473F md5 64F1DE1678FF7484F5E3A87CDF7F8FCF sha1 82FE4BC33223AAAE75BF3CE3BCA3F15D2D7FF048 serial "NM-2065-0" )
+)
+game (
+	name "Magnacarta II (Korea) (Disc 2)"
+	description "Magnacarta II (Korea) (Disc 2)"
+	region "Korea"
+	serial "NM-2065"
+	rom ( name "Magnacarta II (Korea) (Disc 2).iso" size 7838695424 crc C54E8651 md5 C344AD0A6182AB581AB4EC25EF19F6C9 sha1 3CFA456638203DBA9DA877C2AADA3A9281961426 serial "NM-2065" )
+)
+game (
+	name "Magnacarta II (Korea) (Disc 2)"
+	description "Magnacarta II (Korea) (Disc 2)"
+	region "Korea"
+	serial "NM-2065-1"
+	rom ( name "Magnacarta II (Korea) (Disc 2).iso" size 7838695424 crc C54E8651 md5 C344AD0A6182AB581AB4EC25EF19F6C9 sha1 3CFA456638203DBA9DA877C2AADA3A9281961426 serial "NM-2065-1" )
 )
 game (
 	name "Mahjong Dream C Club (Japan)"
@@ -14658,6 +14733,13 @@ game (
 	rom ( name "NASCAR '14 (USA).iso" size 7838695424 crc 7AA97EE0 md5 87D82BA0E75051978290461C8F74881C sha1 02A8BCAB0BAA4740B25F2AA760EA0A4F31E3CC9B serial "KM-2043" )
 )
 game (
+	name "NASCAR '15 (USA)"
+	description "NASCAR '15 (USA)"
+	region "USA"
+	serial "OH-2001"
+	rom ( name "NASCAR '15 (USA).iso" size 7838695424 crc B396DD2A md5 463D56C64921F66F45261AB4408CBA16 sha1 0BF5CC0BB221E900CEA8013E0B7C1A4382A48838 serial "OH-2001" )
+)
+game (
 	name "NASCAR 08 (Europe)"
 	description "NASCAR 08 (Europe)"
 	region "Europe"
@@ -14684,6 +14766,13 @@ game (
 	region "USA"
 	serial "AV-2195"
 	rom ( name "NASCAR 2011 - The Game (USA).iso" size 7838695424 crc D9DD27E9 md5 D389B410662E425A8150838DBE701D94 sha1 BFA9F71098FBBE50B3ABB2A6E6A0E25AC52CC2C0 serial "AV-2195" )
+)
+game (
+	name "NASCAR Unleashed (USA)"
+	description "NASCAR Unleashed (USA)"
+	region "USA"
+	serial "AV-2235"
+	rom ( name "NASCAR Unleashed (USA).iso" size 7838695424 crc EB53C639 md5 6AF7157BDB0901EB64A5C8C489C3F0A5 sha1 11F70EDD94DFD27EAE782D4505C8718AA7EF0474 serial "AV-2235" )
 )
 game (
 	name "NASCAR the Game - Inside Line (USA)"
@@ -15288,6 +15377,13 @@ game (
 	rom ( name "Naruto Shippuden - Ultimate Ninja Storm 3 Full Burst (Europe).iso" size 8738846720 crc 45E8CA34 md5 DFA7B2C85DE2F1660887445EDDB9C09C sha1 209BD97B895B8BFC3CDAFE7AF6D982FF6469123F serial "NM-2140" )
 )
 game (
+	name "Naruto Shippuden - Ultimate Ninja Storm 3 Full Burst (USA)"
+	description "Naruto Shippuden - Ultimate Ninja Storm 3 Full Burst (USA)"
+	region "USA"
+	serial "NM-2140"
+	rom ( name "Naruto Shippuden - Ultimate Ninja Storm 3 Full Burst (USA).iso" size 8738846720 crc B18E137A md5 A518386C43F0706A94E90F5C70BE1C32 sha1 97E600F4F3FE785CC242AE895345463729C794E6 serial "NM-2140" )
+)
+game (
 	name "Naruto Shippuden - Ultimate Ninja Storm Generations (Europe)"
 	description "Naruto Shippuden - Ultimate Ninja Storm Generations (Europe)"
 	region "Europe"
@@ -15648,6 +15744,13 @@ game (
 	description "NeverDead (USA, Europe) (En,Fr,De,Es,It)"
 	serial "KN-2079"
 	rom ( name "NeverDead (USA, Europe) (En,Fr,De,Es,It).iso" size 8738846720 crc 9B513CCE md5 20D3C3AB65138A5F97B1772923CF7B09 sha1 38CDE80CF5448B994E44B6AB454FA771621BA07B serial "KN-2079" )
+)
+game (
+	name "Nickelodeon Avatar - The Last Airbender - The Burning Earth (USA)"
+	description "Nickelodeon Avatar - The Last Airbender - The Burning Earth (USA)"
+	region "USA"
+	serial "TQ-2017"
+	rom ( name "Nickelodeon Avatar - The Last Airbender - The Burning Earth (USA).iso" size 7835492352 crc CB9922B6 md5 2D5B01CD04CDB9233117EBCDEB868FF8 sha1 59119EABB43F43601D048BAFC1C4EE4000FE80D9 serial "TQ-2017" )
 )
 game (
 	name "Nickelodeon Dance (USA)"
@@ -16345,16 +16448,52 @@ game (
 	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 101 (Australia, New Zealand).iso" size 8738846720 crc EC15B5D0 md5 DB2663220024C8A43A11321BAD0873C0 sha1 1156F5DCBC8A3098758AE1A7501ADB9830554CCF serial "IM-2147" )
 )
 game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 103 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 103 (Australia, New Zealand)"
+	serial "IM-2149"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 103 (Australia, New Zealand).iso" size 8738846720 crc F98FB4FB md5 8BF2ED1B97CE2361F53C7C2EDADE19D7 sha1 95501D7210417153242B601DE1B6CDFB5F79B44F serial "IM-2149" )
+)
+game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 104 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 104 (Australia, New Zealand)"
+	serial "IM-2150"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 104 (Australia, New Zealand).iso" size 8738846720 crc 804B3DE8 md5 644D64A504499DE98C50CD609C4853B9 sha1 270C3B92D7B18262508D4F5A39FF00D40D780B4A serial "IM-2150" )
+)
+game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 105 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 105 (Australia, New Zealand)"
+	serial "IM-2151"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 105 (Australia, New Zealand).iso" size 8738846720 crc D8512376 md5 4D647A45241F9BB5493B94B5BFB4C972 sha1 70F3F422A69DF0C5D1744EF76736E33B42386B30 serial "IM-2151" )
+)
+game (
 	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 106 (Australia, New Zealand)"
 	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 106 (Australia, New Zealand)"
 	serial "IM-2152"
 	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 106 (Australia, New Zealand).iso" size 8738846720 crc 4C4782BB md5 17C59A3F9D13568969C2144EC7D42836 sha1 AD2B3FCE5FFE03F6FF9674F892CC6ED9A5A88D16 serial "IM-2152" )
 )
 game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 107 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 107 (Australia, New Zealand)"
+	serial "IM-2153"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 107 (Australia, New Zealand).iso" size 8738846720 crc 8E92AB5E md5 7E5B34C8C02AA1D9D5A77B98662BFCF4 sha1 460F9011D329E7CCA0BF7A80F1CB8DA667FD5A13 serial "IM-2153" )
+)
+game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 108 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 108 (Australia, New Zealand)"
+	serial "IM-2154"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 108 (Australia, New Zealand).iso" size 7838695424 crc 2013E139 md5 30B35D6662DBF880A06CDAB6CC7C89E1 sha1 B3F7678F3EBF8F80699FCE5DCB99D279E26763F6 serial "IM-2154" )
+)
+game (
 	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 109 (Australia, New Zealand)"
 	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 109 (Australia, New Zealand)"
 	serial "IM-2155"
 	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 109 (Australia, New Zealand).iso" size 7838695424 crc FB749F63 md5 D63F9B6CCB34F895C4D79036BE2160B3 sha1 D6C011629603DD302C1FF5D7B550A7E02257B260 serial "IM-2155" )
+)
+game (
+	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 110 (Australia, New Zealand)"
+	description "Official Xbox Magazine, The - Australia & New Zealand - Issue 110 (Australia, New Zealand)"
+	serial "IM-2156"
+	rom ( name "Official Xbox Magazine, The - Australia & New Zealand - Issue 110 (Australia, New Zealand).iso" size 7838695424 crc 9EB14836 md5 D7DD7C8F7BBF95ACE55FBF473EB0AFA0 sha1 7D82CA98159C18072836404E72BDD8921B164D82 serial "IM-2156" )
 )
 game (
 	name "Official Xbox Magazine, The - Australia & New Zealand - Issue 111 (Australia, New Zealand)"
@@ -16685,6 +16824,12 @@ game (
 	rom ( name "PES 2011 - Pro Evolution Soccer (USA).iso" size 7838695424 crc FF85D43E md5 C5928CF2AFFDBB0A8AC64F3AFD210ADF sha1 A333EC8C085F3F1722EB77FC1BFA6026965DC895 serial "KN-2077" )
 )
 game (
+	name "PES 2012 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	description "PES 2012 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	serial "KN-2103"
+	rom ( name "PES 2012 - Pro Evolution Soccer (Brazil) (Es,Pt).iso" size 7838695424 crc A8EA0A4D md5 1C5BEB765F9198FF93A55C11CB334A72 sha1 7CA79A35974B9811F20E8F80BF641B2555B172D2 serial "KN-2103" )
+)
+game (
 	name "PES 2012 - Pro Evolution Soccer (Europe) (En,Nl,Sv,Ru,Ar,Tr)"
 	description "PES 2012 - Pro Evolution Soccer (Europe) (En,Nl,Sv,Ru,Ar,Tr)"
 	region "Europe"
@@ -16711,6 +16856,12 @@ game (
 	region "USA"
 	serial "KN-2103"
 	rom ( name "PES 2012 - Pro Evolution Soccer (USA).iso" size 7838695424 crc 00E80B48 md5 040449A8B77E4A637249FCF4C9EB32DB sha1 3631B843CE2AF3FAE7E8D457616EA7E1C28A543A serial "KN-2103" )
+)
+game (
+	name "PES 2013 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	description "PES 2013 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	serial "KN-2124"
+	rom ( name "PES 2013 - Pro Evolution Soccer (Brazil) (Es,Pt).iso" size 8738846720 crc 9B1B8CA6 md5 7408C41B8A38E25827ED90B678257CCF sha1 E88726E7C8092481B76336B86D7265A5A5EBE7D3 serial "KN-2124" )
 )
 game (
 	name "PES 2013 - Pro Evolution Soccer (Europe) (En,Nl,Sv,Ru,Ar,Tr)"
@@ -16748,6 +16899,12 @@ game (
 	rom ( name "PES 2013 - Pro Evolution Soccer (USA) (Rev 1).iso" size 8738846720 crc 3C6084FA md5 977EA723A418EA8806298DF22D79D015 sha1 7F325803AE5B062D9FA4634CBA3FDA387BE4B663 serial "KN-2124" )
 )
 game (
+	name "PES 2014 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	description "PES 2014 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	serial "KN-2134"
+	rom ( name "PES 2014 - Pro Evolution Soccer (Brazil) (Es,Pt).iso" size 8738846720 crc EAB4AA56 md5 636510BB45EE999DCE0251678EF054DA sha1 E62475A54D64A760BF0CF2872A51F06841D806D7 serial "KN-2134" )
+)
+game (
 	name "PES 2014 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	description "PES 2014 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	region "Europe"
@@ -16776,6 +16933,12 @@ game (
 	rom ( name "PES 2014 - Pro Evolution Soccer (USA).iso" size 8738846720 crc AB752E96 md5 748F0175A177351C8E50FE2DE322449F sha1 E01B31CB3F2C1CD1AB267951A8AD3C70FECF0678 serial "KN-2134" )
 )
 game (
+	name "PES 2015 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	description "PES 2015 - Pro Evolution Soccer (Brazil) (Es,Pt)"
+	serial "KN-2143"
+	rom ( name "PES 2015 - Pro Evolution Soccer (Brazil) (Es,Pt).iso" size 8738846720 crc 664BA86D md5 6EA2807C3692A6FDC2F93965AD70BB91 sha1 E1232B179C4843F4E9D7D3AAFA579AFFDD3647C8 serial "KN-2143" )
+)
+game (
 	name "PES 2015 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	description "PES 2015 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	region "Europe"
@@ -16795,6 +16958,12 @@ game (
 	region "USA"
 	serial "KN-2143"
 	rom ( name "PES 2015 - Pro Evolution Soccer (USA).iso" size 8738846720 crc CF016E35 md5 35D894B9EB30ADF33875E64C5B623AAC sha1 BBE7F2FF20C70BDB1CA07781017F987F4E4C4787 serial "KN-2143" )
+)
+game (
+	name "PES 2016 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	description "PES 2016 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	serial "KN-2145"
+	rom ( name "PES 2016 - Pro Evolution Soccer (Brazil) (En,Pt).iso" size 8738846720 crc 01F11BFB md5 A406F16753DD68176B32DA3F720C9455 sha1 41FD0504DD56076A8FA2D5F0F88347319131DED9 serial "KN-2145" )
 )
 game (
 	name "PES 2016 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
@@ -16818,6 +16987,12 @@ game (
 	rom ( name "PES 2016 - Pro Evolution Soccer (USA).iso" size 8738846720 crc E987E793 md5 86B00640AF968C6A2BC3A6806184E43B sha1 79F9C588D0C41924757448AA3F2DBDF626486EFD serial "KN-2145" )
 )
 game (
+	name "PES 2017 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	description "PES 2017 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	serial "J0-2001"
+	rom ( name "PES 2017 - Pro Evolution Soccer (Brazil) (En,Pt).iso" size 8738846720 crc E8E2E160 md5 BEC4D0B6818E2FE0D51E0C371B3B23F4 sha1 903E2BB0331325FDF1CE63A7E5C1D0CCBC8B3E58 serial "J0-2001" )
+)
+game (
 	name "PES 2017 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	description "PES 2017 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
 	region "Europe"
@@ -16830,6 +17005,12 @@ game (
 	region "Europe"
 	serial "J0-2001"
 	rom ( name "PES 2017 - Pro Evolution Soccer (Europe) (Es,Pt,El).iso" size 8738846720 crc F32F25F0 md5 D813D8E07301891E90C71BB05AB5E19B sha1 21BB6C1CE604E23EB9EDD17EDD362212BB97E97B serial "J0-2001" )
+)
+game (
+	name "PES 2018 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	description "PES 2018 - Pro Evolution Soccer (Brazil) (En,Pt)"
+	serial "J0-2003"
+	rom ( name "PES 2018 - Pro Evolution Soccer (Brazil) (En,Pt).iso" size 8738846720 crc 67A637A8 md5 D185D39FA9A4B8DB8DD5BB92CDF6956B sha1 FAD3EC8BFAFD6C10D9620457576C0DD522936920 serial "J0-2003" )
 )
 game (
 	name "PES 2018 - Pro Evolution Soccer (Europe) (En,Fr,De,It,Nl,Ru,Tr)"
@@ -18680,6 +18861,13 @@ game (
 	rom ( name "Scene It Box Office Smash! (USA) (En,Fr,Es).iso" size 7835492352 crc 81588F23 md5 4BB9641738BE22E202D94090A5961BDD sha1 975FEC4FD43E7C039242537D221D40F1E643DFCF serial "MS-2144" )
 )
 game (
+	name "Scene It Bright Lights! Big Screen! (Canada)"
+	description "Scene It Bright Lights! Big Screen! (Canada)"
+	region "Canada"
+	serial "WR-2038"
+	rom ( name "Scene It Bright Lights! Big Screen! (Canada).iso" size 7838695424 crc 59D99F5A md5 BAF3B946B93454F87AE0AF603E51A5C3 sha1 27B1BD678A5C08C2FB8F99CAF26A2791DD58023D serial "WR-2038" )
+)
+game (
 	name "Scene It Bright Lights! Big Screen! (USA)"
 	description "Scene It Bright Lights! Big Screen! (USA)"
 	region "USA"
@@ -19130,6 +19318,13 @@ game (
 	rom ( name "Silent Hill - Homecoming (USA) (En,Fr,De,Es,It).iso" size 7835492352 crc C6F60B54 md5 878B27FEDF48FAA7EF8F1CAC714C8DA6 sha1 9B0C782A35184D2612464400F7FF65BC1D1B5BCF serial "KN-2021" )
 )
 game (
+	name "Simpson, Les - Le Jeu (France)"
+	description "Simpson, Les - Le Jeu (France)"
+	region "France"
+	serial "EA-2057"
+	rom ( name "Simpson, Les - Le Jeu (France).iso" size 7835492352 crc 6EFBD211 md5 24CBC368BD4AC2B8ABBE752A7F260F37 sha1 7FF5432E397E80B9A2B19C12652413B2ACDFC89A serial "EA-2057" )
+)
+game (
 	name "Simpsons Game, The (Asia)"
 	description "Simpsons Game, The (Asia)"
 	region "Asia"
@@ -19342,6 +19537,12 @@ game (
 	region "Europe"
 	serial "AV-2281"
 	rom ( name "Skylanders - Swap Force (Europe) (Es,It).iso" size 8738846720 crc A16EA15C md5 F20A3CD8640B8FAED5F93A6B054FA7F5 sha1 A28EDA0E6A1D484E08832FCAF0DCA771061CF467 serial "AV-2281" )
+)
+game (
+	name "Skylanders - Swap Force (Latin America) (En,Es,Pt)"
+	description "Skylanders - Swap Force (Latin America) (En,Es,Pt)"
+	serial "AV-2281"
+	rom ( name "Skylanders - Swap Force (Latin America) (En,Es,Pt).iso" size 8738846720 crc 1FB81CCE md5 41952378D71124A93871958979285606 sha1 10F966131212387AE5E1AEB61498D71B32DF8BB3 serial "AV-2281" )
 )
 game (
 	name "Skylanders - Swap Force (USA)"
@@ -20419,42 +20620,6 @@ game (
 	rom ( name "Tetris Evolution (USA, Europe).iso" size 7835492352 crc 8194A3F2 md5 DC5D9152EF7D211650B48B6E83235468 sha1 4970798FA0B9BAB3C4482A3683AE7256FF1DBB83 serial "TQ-2007" )
 )
 game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 103 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 103 (Australia, New Zealand)"
-	serial "IM-2149"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 103 (Australia, New Zealand).iso" size 8738846720 crc F98FB4FB md5 8BF2ED1B97CE2361F53C7C2EDADE19D7 sha1 95501D7210417153242B601DE1B6CDFB5F79B44F serial "IM-2149" )
-)
-game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 104 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 104 (Australia, New Zealand)"
-	serial "IM-2150"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 104 (Australia, New Zealand).iso" size 8738846720 crc 804B3DE8 md5 644D64A504499DE98C50CD609C4853B9 sha1 270C3B92D7B18262508D4F5A39FF00D40D780B4A serial "IM-2150" )
-)
-game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 105 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 105 (Australia, New Zealand)"
-	serial "IM-2151"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 105 (Australia, New Zealand).iso" size 8738846720 crc D8512376 md5 4D647A45241F9BB5493B94B5BFB4C972 sha1 70F3F422A69DF0C5D1744EF76736E33B42386B30 serial "IM-2151" )
-)
-game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 107 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 107 (Australia, New Zealand)"
-	serial "IM-2153"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 107 (Australia, New Zealand).iso" size 8738846720 crc 8E92AB5E md5 7E5B34C8C02AA1D9D5A77B98662BFCF4 sha1 460F9011D329E7CCA0BF7A80F1CB8DA667FD5A13 serial "IM-2153" )
-)
-game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 108 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 108 (Australia, New Zealand)"
-	serial "IM-2154"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 108 (Australia, New Zealand).iso" size 7838695424 crc 2013E139 md5 30B35D6662DBF880A06CDAB6CC7C89E1 sha1 B3F7678F3EBF8F80699FCE5DCB99D279E26763F6 serial "IM-2154" )
-)
-game (
-	name "The Official Xbox Magazine - Australia & New Zealand - Issue 110 (Australia, New Zealand)"
-	description "The Official Xbox Magazine - Australia & New Zealand - Issue 110 (Australia, New Zealand)"
-	serial "IM-2156"
-	rom ( name "The Official Xbox Magazine - Australia & New Zealand - Issue 110 (Australia, New Zealand).iso" size 7838695424 crc 9EB14836 md5 D7DD7C8F7BBF95ACE55FBF473EB0AFA0 sha1 7D82CA98159C18072836404E72BDD8921B164D82 serial "IM-2156" )
-)
-game (
 	name "Thief (Europe) (En,De,It)"
 	description "Thief (Europe) (En,De,It)"
 	region "Europe"
@@ -20971,6 +21136,13 @@ game (
 	rom ( name "Tony Hawk - Ride (Europe).iso" size 7838695424 crc BC4EB64F md5 3BDC4E2E5C428212E93A3B17FA6751BD sha1 DBF743DD609577E950876F340EF61B30729FDBB1 serial "AV-2080" )
 )
 game (
+	name "Tony Hawk - Ride (USA)"
+	description "Tony Hawk - Ride (USA)"
+	region "USA"
+	serial "AV-2080"
+	rom ( name "Tony Hawk - Ride (USA).iso" size 7838695424 crc 32C74BE2 md5 A46EE3DE6B9FA41F04901B77A32D024F sha1 B38EFA3165CC5E9FEA7CFE2A45101D5ADF2C2DDE serial "AV-2080" )
+)
+game (
 	name "Tony Hawk - Shred (USA)"
 	description "Tony Hawk - Shred (USA)"
 	region "USA"
@@ -20997,6 +21169,13 @@ game (
 	region "Europe"
 	serial "AV-2013"
 	rom ( name "Tony Hawk's Project 8 (Europe).iso" size 7834892288 crc 68DA8B42 md5 73EE2F2462DCDB3D038B90093DDEB3B2 sha1 2D7C6E165F5357F4A056F5883B4F050431C5579B serial "AV-2013" )
+)
+game (
+	name "Tony Hawk's Project 8 (Europe) (Demo)"
+	description "Tony Hawk's Project 8 (Europe) (Demo)"
+	region "Europe"
+	serial "AV-2029"
+	rom ( name "Tony Hawk's Project 8 (Europe) (Demo).iso" size 7834892288 crc E35987CF md5 288A1B203A69062AD87885ABE3AEC1FC sha1 BD0A57C67A1B0809B221921EE2F4DEACA0F6D859 serial "AV-2029" )
 )
 game (
 	name "Tony Hawk's Project 8 (Japan)"
@@ -22852,13 +23031,6 @@ game (
 	region "Europe"
 	serial "IM-2029"
 	rom ( name "Xbox 360 - Le Magazine Officiel - Les Demos Jouables - Decembre 2006 - Janvier 2007 (Europe).iso" size 7834892288 crc 3DDE9619 md5 F8D733AAC9194016898216EB3137588E sha1 B6AD97F414BCE107C5BA8E55FDDCBD55BC1DE788 serial "IM-2029" )
-)
-game (
-	name "Xbox 360 - The Experience Disc Version 2.1 (USA)"
-	description "Xbox 360 - The Experience Disc Version 2.1 (USA)"
-	region "USA"
-	serial "XK-2043"
-	rom ( name "Xbox 360 - The Experience Disc Version 2.1 (USA).iso" size 7834892288 crc BFC680C5 md5 60220BF5EFA6E48DF7311E61551E12D3 sha1 6E319D5ED4B84C988BA9D88D70F6EA211C0B4ABF serial "XK-2043" )
 )
 game (
 	name "Xbox 360 - The Official Australian Xbox Magazine - Yearbook 2008 (Australia)"
