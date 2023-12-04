@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Mattel - Intellivision"
 	description "Mattel - Intellivision"
-	version "2023.09.09"
+	version "2023.12.04"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -14,6 +14,11 @@ game (
 	name "Advanced Dungeons & Dragons (USA, Europe)"
 	description "Advanced Dungeons & Dragons (USA, Europe)"
 	rom ( name "Advanced Dungeons & Dragons (USA, Europe).int" size 12288 crc 9D4355AA md5 BC9FF9F10E2A1FDAC9CF6BD915F81715 sha1 4783CF6D52748E1CC4EB463033B79AEE72DB28CF )
+)
+game (
+	name "Advanced Dungeons & Dragons (USA, Europe) (Alt)"
+	description "Advanced Dungeons & Dragons (USA, Europe) (Alt)"
+	rom ( name "Advanced Dungeons & Dragons (USA, Europe) (Alt).int" size 16384 crc 2B7C8160 md5 77D51CCA5A580911866CCD97837BFC10 sha1 B852997828AF08224984E67425B7A79094DDE5BA )
 )
 game (
 	name "Advanced Dungeons & Dragons - Treasure of Tarmin (USA, Europe)"
@@ -164,7 +169,12 @@ game (
 game (
 	name "Checkers (USA, Europe)"
 	description "Checkers (USA, Europe)"
-	rom ( name "Checkers (USA, Europe).int" size 8192 crc 36E1D858 md5 8122BB07816ACDCB3F0A037B72F02142 sha1 4FEF3342C0E7100113B4022E4395AD552FDDACF1 )
+	rom ( name "Checkers (USA, Europe).int" size 8192 crc 243807E2 md5 A545ABA4376A318B58C98415BF023214 sha1 FC9DC2C50F7907F499202A5B68DF970D51B9D218 )
+)
+game (
+	name "Checkers (USA, Europe) (Revision)"
+	description "Checkers (USA, Europe) (Revision)"
+	rom ( name "Checkers (USA, Europe) (Revision).int" size 8192 crc 36E1D858 md5 8122BB07816ACDCB3F0A037B72F02142 sha1 4FEF3342C0E7100113B4022E4395AD552FDDACF1 )
 )
 game (
 	name "Chip Shot - Super Pro Golf (USA)"
@@ -424,9 +434,14 @@ game (
 	rom ( name "Land Battle (USA) (Proto).int" size 16384 crc 3825C25B md5 712FA2E78A5D8B02C9DE067B798E2C69 sha1 97073F31A8C9B5B04E773FCB145C4235A4712FF7 )
 )
 game (
-	name "Las Vegas Poker & Blackjack (World)"
-	description "Las Vegas Poker & Blackjack (World)"
-	rom ( name "Las Vegas Poker & Blackjack (World).int" size 8192 crc 604611C0 md5 6506A1BF0C749FC768CB6B5162E0CBD7 sha1 A6C03E253E615A06F838E623DF5F557636FDF8E1 )
+	name "Las Vegas Poker & Blackjack (World) (1978)"
+	description "Las Vegas Poker & Blackjack (World) (1978)"
+	rom ( name "Las Vegas Poker & Blackjack (World) (1978).int" size 8192 crc 543DC31D md5 BD8A2439D3A3BBAF44E1A415BBBFD45D sha1 B5167EF37DA223D9D672C80B56B1FE20A6CCA401 )
+)
+game (
+	name "Las Vegas Poker & Blackjack (World) (1979)"
+	description "Las Vegas Poker & Blackjack (World) (1979)"
+	rom ( name "Las Vegas Poker & Blackjack (World) (1979).int" size 8192 crc 604611C0 md5 6506A1BF0C749FC768CB6B5162E0CBD7 sha1 A6C03E253E615A06F838E623DF5F557636FDF8E1 )
 )
 game (
 	name "Las Vegas Roulette (World)"
@@ -455,6 +470,11 @@ game (
 	name "Lock 'N' Chase (USA, Europe)"
 	description "Lock 'N' Chase (USA, Europe)"
 	rom ( name "Lock 'N' Chase (USA, Europe).int" size 12288 crc 04977992 md5 CCDE49CB2450992495156477EFF59E14 sha1 08454A5F7B44730AA8249623785DD7A6471AB98F )
+)
+game (
+	name "Lock 'N' Chase (USA, Europe) (Alt)"
+	description "Lock 'N' Chase (USA, Europe) (Alt)"
+	rom ( name "Lock 'N' Chase (USA, Europe) (Alt).int" size 16384 crc E00D1399 md5 92C9CE0470CFC12E20DF5B0246C60FEA sha1 3958C1D400A76A9534E05F03FB34EFE90F32F113 )
 )
 game (
 	name "Lock 'N' Chase (USA, Europe) (v1.1)"
@@ -669,7 +689,7 @@ game (
 game (
 	name "Q-bert (USA, Europe)"
 	description "Q-bert (USA, Europe)"
-	rom ( name "Q-bert (USA, Europe).int" size 16384 crc D8C9856A md5 1C697DF0BEB93EEC95407BF87285A58A sha1 60132870A1BF5F5B9D0AA19B4DD9C13A94702F70 )
+	rom ( name "Q-bert (USA, Europe).int" size 16384 crc 6E2DE5A7 md5 91CF4A3575C0D3CF1035174F06A36F67 sha1 49290F41B4DD6A9E088B1CAD2B1BBE48238B441F )
 )
 game (
 	name "Racing Cars (USA, Europe) (Intellivision Lives!)"
@@ -719,6 +739,11 @@ game (
 	name "Royal Dealer (USA, Europe)"
 	description "Royal Dealer (USA, Europe)"
 	rom ( name "Royal Dealer (USA, Europe).int" size 12288 crc 0458A491 md5 240A53F04E1B2E71463130CB58F539D9 sha1 918E59D79672577B8B327C5D00C95D03E5E0C920 )
+)
+game (
+	name "Royal Dealer (USA, Europe) (Alt)"
+	description "Royal Dealer (USA, Europe) (Alt)"
+	rom ( name "Royal Dealer (USA, Europe) (Alt).int" size 16384 crc 18077245 md5 0BC6650CC511EF3467B380EDD1370A82 sha1 34EBAD8A58A9CB68FCCFE11C4DC6FE93B4A57471 )
 )
 game (
 	name "SNAFU (World)"
