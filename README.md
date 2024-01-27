@@ -17,30 +17,68 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 
 |System|Source|Repository|
 |----|---|---|
-|The 3DO Company - 3DO|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Atari - 2600|[No-Intro](http://datomatic.no-intro.org)|
-|Atari - 7800|[No-Intro](http://datomatic.no-intro.org)|
-|Atari - Jaguar| [No-Intro](http://datomatic.no-intro.org)|
-|Atari - Lynx|[No-Intro](http://datomatic.no-intro.org)|
-|Bandai - WonderSwan|[No-Intro](http://datomatic.no-intro.org)|
-|Bandai - WonderSwan Color|[No-Intro](http://datomatic.no-intro.org)|
+|Amstrad - CPC| [Clean CPC DB](https://github.com/clean-cpc-db/dat) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Amstrad - GX4000|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Arduboy Inc - Arduboy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - 2600|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - 5200|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - 7800|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - 8-bit|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - Jaguar| [No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - Lynx|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atari - ST|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Atomiswave| |
+|Bandai - WonderSwan|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Bandai - WonderSwan Color|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Cannonball| |
+|Casio - Loopy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Casio - PV-1000|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Cave Story|[CaveStory.org (English or Japanese)](http://www.cavestory.org)|
+|ChaiLove| |
+|CHIP-8| |
+|Coleco - ColecoVision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - 64|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges, tapes and Preservation Project disk images)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - Amiga|WHDLoad > [No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - CD32|Redump > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - CDTV|Redump > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - PET|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - Plus-4|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges only)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Commodore - VIC-20|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges only)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Dinothawr| |
 |DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
-|FinalBurn Alpha - Arcade Games|pre-0.2.97.44|[lr-fbalpha dats](https://github.com/libretro/fbalpha/tree/master/dats)|
-|FinalBurn Neo - Arcade Games|0.2.97.44 (WIP)|[FBNeo/dats](https://github.com/libretro/FBNeo/tree/master/dats)|
-|GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|
+|Emerson - Arcadia 2001|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Entex - Adventure Vision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Epoch - Super Cassette Vision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Fairchild - Channel F|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|FinalBurn Neo - Arcade Games 1.0.0.03|[FBNeo/dats](https://github.com/libretro/FBNeo/tree/master/dats)|
+|Flashback| |
+|Funtech - Super Acan|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|GamePark - GP32|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|GCE - Vectrex|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Handheld Electronic Game| |
+|Hartung - Game Master|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Infocom - Z-Machine|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Jump 'n Bump| |
+|LeapFrog - Leapster Learning Game System|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|LowRes NX| |
 |Id Software - Doom|Unknown|[libretro-database-doom](https://github.com/libretro/libretro-database/blob/master/dat/DOOM.dat)|
 |Id Software - Quake|Unknown|[libretro-database-quake](https://github.com/libretro/libretro-database/blob/master/dat/Quake1.dat)|
 |Lutro|Unknown|
-|Magnavox - Odyssey2|[No-Intro](http://datomatic.no-intro.org)|
 |MAME|MAME 0.37b5, 0.78, 0.139, 0.159|
-|Microsoft - MSX|[No-Intro](http://datomatic.no-intro.org)|
-|Microsoft - MSX 2|[No-Intro](http://datomatic.no-intro.org)|
-|NEC - PC Engine CD - TurboGrafx-CD|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|NEC - PC Engine - TurboGrafx 16|[No-Intro](http://datomatic.no-intro.org)|
-|NEC - SuperGrafx|[No-Intro](http://datomatic.no-intro.org)|
-|NEC - PC-FX|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
-|Nintendo - Famicom Disk System|[No-Intro](http://datomatic.no-intro.org)|
+|Magnavox - Odyssey2|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Mattel - Intellivision|[No-Intro](http://datomatic.no-intro.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Microsoft - MSX|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Microsoft - MSX 2|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Microsoft - Xbox|Redump (Note: there is no libretro emulator)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|MicroW8| |
+|MrBoom| |
+|NEC - PC-8001 - PC-8801.rdb|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC-98|Redump > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC Engine - TurboGrafx 16|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC Engine SuperGrafx|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC Engine CD - TurboGrafx-CD|Redump > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|NEC - PC-FX|Redump > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|Nintendo - Family Computer Disk System|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Nintendo DS|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Game Boy|[No-Intro](http://datomatic.no-intro.org)|
 |Nintendo - Game Boy Advance|[No-Intro](http://datomatic.no-intro.org)|
@@ -64,6 +102,7 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |SNK - Neo Geo Pocket|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo Pocket Color|[No-Intro](http://datomatic.no-intro.org)|
 |SNK - Neo Geo CD|Redump|[libretro-dats](https://github.com/robloach/libretro-dats)|
+|The 3DO Company - 3DO|Redump > Trurip > TOSEC|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Thomson - MO/TO|[ScreenScraper](https://www.screenscraper.fr)|[libretro-database-thomson](https://github.com/Zlika/libretro-database-thomson)|
 |Uzebox|Unknown|
 
