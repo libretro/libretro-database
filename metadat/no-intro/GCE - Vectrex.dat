@@ -1,7 +1,7 @@
 clrmamepro (
 	name "GCE - Vectrex"
 	description "GCE - Vectrex"
-	version "2023.12.31"
+	version "2024.01.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -46,9 +46,16 @@ game (
 	rom ( name "Bedlam (USA, Europe).vec" size 4096 crc A2FA649B md5 268E75778F282D853D77ACF42C6C8734 sha1 3FF3FA4FEDA6D562DEDFF2A10CFA8679D8318044 )
 )
 game (
-	name "Berzerk (World)"
-	description "Berzerk (World)"
-	rom ( name "Berzerk (World).vec" size 4096 crc EAFE2455 md5 640AE7BD4538BAD11256999DB68DE5A0 sha1 E4BADD494ED548721328EF869D33AD70E3E522C9 )
+	name "Berzerk (Europe) (Rev 2)"
+	description "Berzerk (Europe) (Rev 2)"
+	region "Europe"
+	rom ( name "Berzerk (Europe) (Rev 2).vec" size 4096 crc E9D149DE md5 4CF69D28B334FB972B4C97397E92693A sha1 9E2221CE5F75B49A084C284CC9DB0DF4CC8A62EA )
+)
+game (
+	name "Berzerk (USA)"
+	description "Berzerk (USA)"
+	region "USA"
+	rom ( name "Berzerk (USA).vec" size 4096 crc EAFE2455 md5 640AE7BD4538BAD11256999DB68DE5A0 sha1 E4BADD494ED548721328EF869D33AD70E3E522C9 )
 )
 game (
 	name "Blitz! - Action Football (USA, Europe) (Alt)"
