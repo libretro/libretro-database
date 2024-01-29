@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Philips - CD-i"
 	description "Philips - CD-i"
-	version "2023.12.31"
+	version "2024.01.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -210,8 +210,11 @@ game (
 	rom ( name "7th Guest, The (Germany) (Disc 1) (Das Spiel) (Rev 1).bin" size 725182752 crc 483BC624 md5 03FF2D7BAB3DDEA710E8744FF37156AB sha1 2F47BD97089BDCEE48CCC1EB5D7FD83AC2633D39 serial "813-0116-0" )
 )
 game (
-	name "7th Guest, The (USA) (Beta) (1994-02-04)"
-	description "7th Guest, The (USA) (Beta) (1994-02-04)"
+	name "7th Guest, The (USA) (Beta)"
+	description "7th Guest, The (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "02"
+	releaseday "04"
 	region "USA"
 	serial "310-690-252-2"
 	rom ( name "7th Guest, The (USA) (Beta) (1994-02-04).bin" size 719363904 crc 63999D78 md5 429F7937AC0EF354CB45FD6955526BFC sha1 8D346CB59A200FC1EF5CB278A7D08811FC2E9273 serial "310-690-252-2" )
@@ -479,8 +482,11 @@ game (
 	rom ( name "Albero Azzurro, L' (Italy).bin" size 567831600 crc E7918F97 md5 7F3CC6EF4773F66D4F8FB4E129E6E2EF sha1 385B18053829DD2A3AFDA94B79CDE7B7B2B2C7E8 serial "815-0031" )
 )
 game (
-	name "Albero Azzurro, L' (Italy) (Beta) (1994-08-05)"
-	description "Albero Azzurro, L' (Italy) (Beta) (1994-08-05)"
+	name "Albero Azzurro, L' (Italy) (Beta)"
+	description "Albero Azzurro, L' (Italy) (Beta)"
+	releaseyear "1994"
+	releasemonth "08"
+	releaseday "05"
 	region "Italy"
 	serial "815-0031"
 	rom ( name "Albero Azzurro, L' (Italy) (Beta) (1994-08-05).bin" size 562363200 crc 22C5229C md5 C87EDC202073E61FFEA18745B47D28CA sha1 148400BB7DF6BBA54512066663E7E2D68488381A serial "815-0031" )
@@ -688,8 +694,11 @@ game (
 	rom ( name "Anne Willan Presents the Food of France (USA).bin" size 606286800 crc 638B6975 md5 BDC2746A16CC8B4BA06ED118E4BA07C9 sha1 F6FDD415F6AA63652D66A801CCF7538B62D370C7 serial "310690108-2" )
 )
 game (
-	name "Anne Willan Presents the Food of France (USA) (Beta) (1992-10-14)"
-	description "Anne Willan Presents the Food of France (USA) (Beta) (1992-10-14)"
+	name "Anne Willan Presents the Food of France (USA) (Beta)"
+	description "Anne Willan Presents the Food of France (USA) (Beta)"
+	releaseyear "1992"
+	releasemonth "10"
+	releaseday "14"
 	region "USA"
 	serial "310-690-108-2"
 	rom ( name "Anne Willan Presents the Food of France (USA) (Beta) (1992-10-14).bin" size 606463200 crc 48FE06B4 md5 2801547FFB6D02D7F198046BF846A379 sha1 B59003609B3291B65FF812F8B9BDC03A107C4CC9 serial "310-690-108-2" )
@@ -890,14 +899,20 @@ game (
 	rom ( name "Atlantis - The Last Resort (Europe).bin" size 598172400 crc AFA266CC md5 B54E17FA8D07ADA25BA9DD0C9216113F sha1 999B66C3A688280766D2F09EECF915F408FC9370 serial "811-0071" )
 )
 game (
-	name "Atlantis - The Last Resort (Europe) (Beta) (1995-08-21)"
-	description "Atlantis - The Last Resort (Europe) (Beta) (1995-08-21)"
+	name "Atlantis - The Last Resort (Europe) (Beta)"
+	description "Atlantis - The Last Resort (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "08"
+	releaseday "21"
 	region "Europe"
 	rom ( name "Atlantis - The Last Resort (Europe) (Beta) (1995-08-21).bin" size 88733904 crc CBA642B8 md5 77B63BB6384BFA47EDD4319EFA6FD7CA sha1 F71B7432ABCF5E70411D10F18E46A3BCDBF4BEA3 )
 )
 game (
-	name "Atlantis - The Last Resort (Europe) (Beta) (1996-09-18)"
-	description "Atlantis - The Last Resort (Europe) (Beta) (1996-09-18)"
+	name "Atlantis - The Last Resort (Europe) (Beta)"
+	description "Atlantis - The Last Resort (Europe) (Beta)"
+	releaseyear "1996"
+	releasemonth "09"
+	releaseday "18"
 	region "Europe"
 	serial "811-0071"
 	rom ( name "Atlantis - The Last Resort (Europe) (Beta) (1996-09-18).bin" size 598353504 crc 0230752C md5 86298C7122862411FE9C45B080AC0112 sha1 4532D8460F4C36CB181D9C19593E603DDECEA631 serial "811-0071" )
@@ -952,6 +967,13 @@ game (
 	description "BMB Karaoke 71 (Japan)"
 	region "Japan"
 	rom ( name "BMB Karaoke 71 (Japan).bin" size 825199200 crc B70A70C9 md5 7B8DF866F0AF5C5BFEB5E3931C239A6B sha1 C973CCA968DA918DE0CDD7408CD30CCE931D0441 )
+)
+game (
+	name "BMP Puzzle (Germany)"
+	description "BMP Puzzle (Germany)"
+	region "Germany"
+	serial "RTV-6012"
+	rom ( name "BMP Puzzle (Germany).bin" size 101434704 crc F870DD0A md5 BE2BFED6FE714FA73D66CC41994D629E sha1 9D9C48CE32AD5C44A0893DA41EF13B9120AC13B4 serial "RTV-6012" )
 )
 game (
 	name "BMW Motorrad- und Fahrerausstattung - 1996 (Germany) (Disc 3)"
@@ -1214,8 +1236,11 @@ game (
 	rom ( name "Berenstain-Baeren, Die - Selbst ist der Baer (Germany).bin" size 656748960 crc DC586612 md5 2A1E4CA5754D00FFB96D772A21BE3407 sha1 04F696CFB2EDA59B17665F3BAB15795B67387062 serial "813-0094" )
 )
 game (
-	name "Bertelsmann Universal Lexikon (Germany) (Beta) (1994-11-14)"
-	description "Bertelsmann Universal Lexikon (Germany) (Beta) (1994-11-14)"
+	name "Bertelsmann Universal Lexikon (Germany) (Beta)"
+	description "Bertelsmann Universal Lexikon (Germany) (Beta)"
+	releaseyear "1994"
+	releasemonth "11"
+	releaseday "14"
 	region "Germany"
 	serial "813-0114"
 	rom ( name "Bertelsmann Universal Lexikon (Germany) (Beta) (1994-11-14).bin" size 494625600 crc DCA343EB md5 595A05E928E155BBBADE4E225F28E483 sha1 00DE686EF69FC9C0AF86A641F4D016A0121771CF serial "813-0114" )
@@ -1288,8 +1313,11 @@ game (
 	rom ( name "Best of Draw 50 with Lee Ames, The (USA).bin" size 427240800 crc 121F5792 md5 B8333A8018351CC54C4E7C9FADEAEA6D sha1 8931024BCDBF88757F3EC92EE78C3277C845D2D2 serial "310690089-2" )
 )
 game (
-	name "Best of Draw 50 with Lee Ames, The (USA) (Beta) (1992-12-16)"
-	description "Best of Draw 50 with Lee Ames, The (USA) (Beta) (1992-12-16)"
+	name "Best of Draw 50 with Lee Ames, The (USA) (Beta)"
+	description "Best of Draw 50 with Lee Ames, The (USA) (Beta)"
+	releaseyear "1992"
+	releasemonth "12"
+	releaseday "16"
 	region "USA"
 	serial "310-690-089-2"
 	rom ( name "Best of Draw 50 with Lee Ames, The (USA) (Beta) (1992-12-16).bin" size 427240800 crc 7F20B22B md5 202C9697DBC8DF823396CA5F2B8F78BB sha1 311E207CB10FEAA279B004AE24362F7A608442A8 serial "310-690-089-2" )
@@ -1328,6 +1356,7 @@ game (
 game (
 	name "Bilincli Secim (Turkey)"
 	description "Bilincli Secim (Turkey)"
+	region "Turkey"
 	rom ( name "Bilincli Secim (Turkey).bin" size 511035504 crc BE7CBD94 md5 C232F7AB209CF10F408D61282B6918DD sha1 EE1B610168A2624308F2B7B0BBC5795EC3614E7B )
 )
 game (
@@ -1700,8 +1729,11 @@ game (
 	rom ( name "Burn-Cycle (Spain) (El Juego).bin" size 739233600 crc F7119954 md5 D7AF0A5F3F22BF6D5B7274526C47EE7C sha1 24C624D0388415C0999A4B48AAE5522176D4F613 serial "816-0057" )
 )
 game (
-	name "Burn-Cycle (USA) (Beta) (1994-08-02)"
-	description "Burn-Cycle (USA) (Beta) (1994-08-02)"
+	name "Burn-Cycle (USA) (Beta)"
+	description "Burn-Cycle (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "08"
+	releaseday "02"
 	region "USA"
 	serial "310-690-145-2"
 	rom ( name "Burn-Cycle (USA) (Beta) (1994-08-02).bin" size 742056000 crc EABFD1C5 md5 3C7F4D43DE98FA19A611C89426055827 sha1 156907CC61B57EBBA7680235988335FACD84E2E2 serial "310-690-145-2" )
@@ -2298,15 +2330,21 @@ game (
 	rom ( name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany).bin" size 765046800 crc B6218747 md5 638F9E03D5E5A6AB5D013BB64EF8F7E7 sha1 986CB2FF7C23D95B243CFE305E70508B41ECC8C7 serial "813-0115" )
 )
 game (
-	name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-05-31)"
-	description "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-05-31)"
+	name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)"
+	description "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)"
+	releaseyear "1995"
+	releasemonth "05"
+	releaseday "31"
 	region "Germany"
 	serial "813-0115"
 	rom ( name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-05-31).bin" size 755521200 crc C2AF2D66 md5 9DC1FC6374A2EA119D9871C4E5AA7B45 sha1 9117F983FBFC6FB8A2496919B8732DCC4F88BBE6 serial "813-0115" )
 )
 game (
-	name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-06-12)"
-	description "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-06-12)"
+	name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)"
+	description "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta)"
+	releaseyear "1995"
+	releasemonth "06"
+	releaseday "12"
 	region "Germany"
 	serial "813-0115"
 	rom ( name "CD-i mit der Maus, Die - Auf dem Bauernhof (Germany) (Beta) (1995-06-12).bin" size 738939600 crc 1E4FC1B4 md5 A9FFBFBD61E4AB09953672090CA100FF sha1 8FE4276D9C7266B7586F8846AA1DB8B9D533F780 serial "813-0115" )
@@ -2322,6 +2360,18 @@ game (
 	description "CD-i voor Demonstratie van Breedbeeld TV (Netherlands) (Rev 1)"
 	region "Netherlands"
 	rom ( name "CD-i voor Demonstratie van Breedbeeld TV (Netherlands) (Rev 1).bin" size 602053200 crc 4312650B md5 02E1BD1050B38CC70FA82FC870A8BDE9 sha1 8E65FE74697863EFE54E779D66A907E04D76A10F )
+)
+game (
+	name "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 1)"
+	description "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 1)"
+	region "Germany"
+	rom ( name "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 1).bin" size 593235552 crc 412AE4D0 md5 6BC7D9A846D893ACD2957F3F6EA247DB sha1 E47971C2FA87BF3D048851F5E14A9CDCEEC48D64 )
+)
+game (
+	name "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 2)"
+	description "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 2)"
+	region "Germany"
+	rom ( name "CD-i-Dent Patienteninformation Compact 4.0 (Germany) (Disc 2).bin" size 543175584 crc 9EAC4437 md5 410EF8F0545BA73EA013337E963C3231 sha1 3D9126C465F5D37B0689A77B72C40666652AB504 )
 )
 game (
 	name "CDA - Ein Unternehmensportrait (Germany)"
@@ -3540,8 +3590,11 @@ game (
 	rom ( name "Caesars World of Boxing (France).bin" size 606801888 crc D06CFA80 md5 ACA30882883D6681EDD2F25285893B34 sha1 89845C3B5C1802DC9071E6A3029A0A207E5ED713 serial "812-0080" )
 )
 game (
-	name "Caesars World of Boxing (USA) (Beta) (1993-12-03)"
-	description "Caesars World of Boxing (USA) (Beta) (1993-12-03)"
+	name "Caesars World of Boxing (USA) (Beta)"
+	description "Caesars World of Boxing (USA) (Beta)"
+	releaseyear "1993"
+	releasemonth "12"
+	releaseday "03"
 	region "USA"
 	serial "310-690-186-2"
 	rom ( name "Caesars World of Boxing (USA) (Beta) (1993-12-03).bin" size 593233200 crc C93C85DE md5 169AC250B2BFA25F0FB59FB1F9EBDD81 sha1 AD3FDE412FD0C3705F33FD52FD27274A2FD96750 serial "310-690-186-2" )
@@ -3717,8 +3770,11 @@ game (
 	rom ( name "Cartoon Jukebox (Netherlands).bin" size 531434400 crc 625C5FE9 md5 635A4485363609D8FC00F24D66CAC1BC sha1 25AFDF207EDEBF6F84C6D9C3D50E6DBD49AF2FED serial "814-0005" )
 )
 game (
-	name "Cartoon Jukebox (Netherlands) (Beta) (1992-07-23)"
-	description "Cartoon Jukebox (Netherlands) (Beta) (1992-07-23)"
+	name "Cartoon Jukebox (Netherlands) (Beta)"
+	description "Cartoon Jukebox (Netherlands) (Beta)"
+	releaseyear "1992"
+	releasemonth "07"
+	releaseday "23"
 	region "Netherlands"
 	rom ( name "Cartoon Jukebox (Netherlands) (Beta) (1992-07-23).bin" size 531998880 crc 05CAB77B md5 62D9B9798C8E6BDF872071CF55CB8094 sha1 8EAA17557AD46E79F748BFCFA14B0E4B25286E3B )
 )
@@ -3904,8 +3960,11 @@ game (
 	rom ( name "Christmas Crisis (Europe).bin" size 301114800 crc B97C8FB9 md5 674BA5195273CE53FEE9064AE0871F35 sha1 8E325B18CD60D922EB3A99AC371945E4DB5C2204 serial "810-0313" )
 )
 game (
-	name "Christmas Crisis (Europe) (Beta) (1995-09-25)"
-	description "Christmas Crisis (Europe) (Beta) (1995-09-25)"
+	name "Christmas Crisis (Europe) (Beta)"
+	description "Christmas Crisis (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "09"
+	releaseday "25"
 	region "Europe"
 	serial "810-0313"
 	rom ( name "Christmas Crisis (Europe) (Beta) (1995-09-25).bin" size 79203600 crc 85374B9C md5 9F2D022BF960238FB6AE55463AC9A71F sha1 973ACF90E6A5643B2B900AC712BFFB6A7F576C76 serial "810-0313" )
@@ -3970,8 +4029,11 @@ game (
 	rom ( name "Civil War, The - The South Secedes and War Begins (USA).bin" size 247665600 crc 4A0CE200 md5 B7CEDBE01D83AA7445D6E55D48F0C8E1 sha1 9EFF38B56C6F62773E79A60673792B9B0ACD19D3 serial "086299" )
 )
 game (
-	name "Classical Jukebox (USA) (Beta) (1991-08-28)"
-	description "Classical Jukebox (USA) (Beta) (1991-08-28)"
+	name "Classical Jukebox (USA) (Beta)"
+	description "Classical Jukebox (USA) (Beta)"
+	releaseyear "1991"
+	releasemonth "08"
+	releaseday "28"
 	region "USA"
 	serial "310-690-055-2"
 	rom ( name "Classical Jukebox (USA) (Beta) (1991-08-28).bin" size 636898080 crc 89DDCF0A md5 455D7064FD7A7BE1579292978E0C39F7 sha1 8CC3B9D1A5AD30D6C8891D882D817F7E21579E02 serial "310-690-055-2" )
@@ -4029,8 +4091,11 @@ game (
 	rom ( name "Cluedo - The Mystery Continues (Europe).bin" size 653914800 crc 961F45AA md5 20EC20DC5CBF2091BA10F73E575E28A3 sha1 E9CD1C4B19F823723BDFE9C14FBA586E99891EF3 serial "819-1038" )
 )
 game (
-	name "Cluedo - The Mystery Continues (Europe) (Beta) (1995-06-12)"
-	description "Cluedo - The Mystery Continues (Europe) (Beta) (1995-06-12)"
+	name "Cluedo - The Mystery Continues (Europe) (Beta)"
+	description "Cluedo - The Mystery Continues (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "06"
+	releaseday "12"
 	region "Europe"
 	serial "819-1038"
 	rom ( name "Cluedo - The Mystery Continues (Europe) (Beta) (1995-06-12).bin" size 653385600 crc 3D14AD64 md5 D1FC7AC7EFB809893251F5D6AA753371 sha1 35B8B920B2E8B35E537A4C8833FB62962A22E26E serial "819-1038" )
@@ -4094,6 +4159,7 @@ game (
 game (
 	name "Compton's Interactive Encyclopedia (Europe)"
 	description "Compton's Interactive Encyclopedia (Europe)"
+	releaseyear "1995"
 	region "Europe"
 	serial "810-0227"
 	rom ( name "Compton's Interactive Encyclopedia (Europe) (1995).bin" size 728729568 crc 2CDB1C1C md5 B25622E5BAD1039041C153C8A702FD30 sha1 5B991750375A5A46018D0E49CBE446320CB78DA3 serial "810-0227" )
@@ -4115,6 +4181,7 @@ game (
 game (
 	name "Compton's Interactive Encyclopedia (USA)"
 	description "Compton's Interactive Encyclopedia (USA)"
+	releaseyear "1995"
 	region "USA"
 	serial "310690170-2"
 	rom ( name "Compton's Interactive Encyclopedia (USA) (1995).bin" size 729120000 crc FD67A133 md5 E01030731FEC1047B833377D31F70F78 sha1 2658301DC9FFAA60BAD8292482B3593E6DBA0C39 serial "310690170-2" )
@@ -4122,6 +4189,7 @@ game (
 game (
 	name "Compton's Interactive Encyclopedia (USA) (Digital Video)"
 	description "Compton's Interactive Encyclopedia (USA) (Digital Video)"
+	releaseyear "1995"
 	region "USA"
 	serial "310690171-2"
 	rom ( name "Compton's Interactive Encyclopedia (USA) (1995) (Digital Video).bin" size 729072960 crc 76565D00 md5 516E00D75139C544AFBDB49897C253F8 sha1 20E3DCBDDDACCEB039DB0E5E956ABCFCEFEE03B4 serial "310690171-2" )
@@ -4140,8 +4208,11 @@ game (
 	rom ( name "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe).bin" size 627454800 crc 49CAFC39 md5 A7C9A3046C5BA9DA7BB4B66172D6D772 sha1 F64A3CF098EB4DF65E075A3BE5410FCB8EF39AAE serial "810-0086" )
 )
 game (
-	name "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta) (1994-09-20)"
-	description "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta) (1994-09-20)"
+	name "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta)"
+	description "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "09"
+	releaseday "20"
 	region "Europe"
 	serial "810-0086"
 	rom ( name "Concise Oxford Dictionary & Oxford Thesaurus, The (Europe) (Beta) (1994-09-20).bin" size 602582400 crc 89B72E7A md5 EFAA38B2F4AFFDB04CC66A9AC1771C04 sha1 41D0333C3F1412BD370143AD62D320838618C539 serial "810-0086" )
@@ -4703,6 +4774,7 @@ game (
 game (
 	name "Dictionnaire Hachette Multimedia (France)"
 	description "Dictionnaire Hachette Multimedia (France)"
+	releaseyear "1995"
 	region "France"
 	serial "812-0141"
 	rom ( name "Dictionnaire Hachette Multimedia (France) (1995).bin" size 711221280 crc 715997A9 md5 11A4916890F1AFCCFCC4CD15F62031DF sha1 725F2CC15A27D267AB8B5C8D3E9D410C5B7D91C6 serial "812-0141" )
@@ -4710,13 +4782,17 @@ game (
 game (
 	name "Dictionnaire Hachette Multimedia (France) (Version Digital Video)"
 	description "Dictionnaire Hachette Multimedia (France) (Version Digital Video)"
+	releaseyear "1995"
 	region "France"
 	serial "812-0130"
 	rom ( name "Dictionnaire Hachette Multimedia (France) (1995) (Version Digital Video).bin" size 780181920 crc 15296B91 md5 68AF3DE6AC89A4459299EB89EDD1484F sha1 A28D40517A2CF045E492491CB0023B29E59DC4DD serial "812-0130" )
 )
 game (
-	name "Dictionnaire Hachette Multimedia (France) (Beta) (1993-12-10)"
-	description "Dictionnaire Hachette Multimedia (France) (Beta) (1993-12-10)"
+	name "Dictionnaire Hachette Multimedia (France) (Beta)"
+	description "Dictionnaire Hachette Multimedia (France) (Beta)"
+	releaseyear "1993"
+	releasemonth "12"
+	releaseday "10"
 	region "France"
 	serial "8120097"
 	rom ( name "Dictionnaire Hachette Multimedia (France) (Beta) (1993-12-10).bin" size 720982080 crc CBAEC5BE md5 CD70688B1C52682BFC6BB0DDC1C7D029 sha1 AE399DC4E0E6B409CA99C27E1D1EDA9F1DA8AD6A serial "8120097" )
@@ -5159,8 +5235,11 @@ game (
 	rom ( name "Effacer (USA).bin" size 694968960 crc 6D5EE31D md5 428008EA69A034321CB138A59E571CFF sha1 EE0CEF72D4653E24B0939DEA2B084E2A024963EA serial "310690248-2" )
 )
 game (
-	name "Effectief Communiceren I - School Version (Netherlands) (Beta) (1994-07-12)"
-	description "Effectief Communiceren I - School Version (Netherlands) (Beta) (1994-07-12)"
+	name "Effectief Communiceren I - School Version (Netherlands) (Beta)"
+	description "Effectief Communiceren I - School Version (Netherlands) (Beta)"
+	releaseyear "1994"
+	releasemonth "07"
+	releaseday "12"
 	region "Netherlands"
 	rom ( name "Effectief Communiceren I - School Version (Netherlands) (Beta) (1994-07-12).bin" size 775976544 crc 2873251F md5 E21A3B79CE2C423EAEE5FDF87AF234CD sha1 A5D914C91214D66DA78DC60581C00FAAAEB462BC )
 )
@@ -5459,8 +5538,11 @@ game (
 	rom ( name "Enkhuizer Almanak 1997 (Netherlands).bin" size 271787712 crc D5183F33 md5 5E0F1FFFF4994646F2313C9C29694CCB sha1 55F01D91D1EA427BFE74A56665690CE2DBDD5AD6 serial "90-5094-001" )
 )
 game (
-	name "Enkhuizer Almanak 1997 (Netherlands) (Beta) (1996-10-14)"
-	description "Enkhuizer Almanak 1997 (Netherlands) (Beta) (1996-10-14)"
+	name "Enkhuizer Almanak 1997 (Netherlands) (Beta)"
+	description "Enkhuizer Almanak 1997 (Netherlands) (Beta)"
+	releaseyear "1996"
+	releasemonth "10"
+	releaseday "14"
 	region "Netherlands"
 	rom ( name "Enkhuizer Almanak 1997 (Netherlands) (Beta) (1996-10-14).bin" size 284008704 crc 03CB85A4 md5 C03ABC658995A876F96594F1455F3FA7 sha1 5F838EECAA8EB55176C7224BEA661454C2A9CB97 )
 )
@@ -5479,8 +5561,11 @@ game (
 	rom ( name "Ernte der Sonne - Vincent van Gogh (Germany).bin" size 651527520 crc 19131C00 md5 8B62350C2A90DFFB1A4278667F515A5B sha1 5E7D0581CFF8B5896CA4250CBF3B624D77BB4AD8 serial "813-0012" )
 )
 game (
-	name "Escape from CyberCity (Europe) (Beta) (1992-04-03)"
-	description "Escape from CyberCity (Europe) (Beta) (1992-04-03)"
+	name "Escape from CyberCity (Europe) (Beta)"
+	description "Escape from CyberCity (Europe) (Beta)"
+	releaseyear "1992"
+	releasemonth "04"
+	releaseday "03"
 	region "Europe"
 	rom ( name "Escape from CyberCity (Europe) (Beta) (1992-04-03).bin" size 472164000 crc 12388E8A md5 A7ACCDF0AEF2CC72E91F58C946EF23F6 sha1 069811E47DF374CAC8904D2CDFE722736B491687 )
 )
@@ -5545,8 +5630,11 @@ game (
 	rom ( name "Etoiles et Galaxies - Astronomie Flammarion (France).bin" size 527012640 crc C6E88F0F md5 49F222EE0974B289BE62B4B96E939039 sha1 35A14EAF10C58F97CC39AFDAF25F3F4ECFBF5E7B serial "812-0091" )
 )
 game (
-	name "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta) (1996-05-22)"
-	description "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta) (1996-05-22)"
+	name "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta)"
+	description "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta)"
+	releaseyear "1996"
+	releasemonth "05"
+	releaseday "22"
 	region "France"
 	rom ( name "Eureka - Gutenberg - L'Imprimerie et Ses Precurseurs (France) (Beta) (1996-05-22).bin" size 115370304 crc F86D5E51 md5 D9E9E82F844E6158B876C4041D4C398C sha1 4535F23B0A96491F2343AF9E2A68D91C49C9B9F5 )
 )
@@ -5572,14 +5660,20 @@ game (
 	rom ( name "European School, The (Europe).bin" size 156831360 crc C2736208 md5 616D1B29242410DCE21C15BC72E432BE sha1 0DBDB89123EF258AFF60C1D6A78115EC58FC33DE serial "819-0041" )
 )
 game (
-	name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-27)"
-	description "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-27)"
+	name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)"
+	description "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)"
+	releaseyear "1993"
+	releasemonth "05"
+	releaseday "27"
 	region "Netherlands"
 	rom ( name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-27).bin" size 200214000 crc F6933ADA md5 5D031CDA3350262C9F5706C0849EA83D sha1 44A8BC63D1E20221E759EE4F62B4F7BE803543DD )
 )
 game (
-	name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-28)"
-	description "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-28)"
+	name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)"
+	description "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto)"
+	releaseyear "1993"
+	releasemonth "05"
+	releaseday "28"
 	region "Netherlands"
 	rom ( name "Everything You Always Wanted to Ask John Hawkins (Netherlands) (Proto) (1993-05-28).bin" size 184867200 crc BAAA8A27 md5 AC7104569103CFD1B7E525576BE77286 sha1 6E6E03849A4B5126F6B7CA7BBC9B5A2A5CF1383F )
 )
@@ -5678,8 +5772,11 @@ game (
 	rom ( name "Face Kitchen (Europe) (Rev 1).bin" size 366037056 crc 8DB75DAA md5 2E769B79382B41F9C8AEBF0D1B6B4507 sha1 DDB63683FE8FDBC6480E61702D4A58D796CD98F2 serial "814-0051" )
 )
 game (
-	name "Face Kitchen (UK) (Beta) (1992-10-26)"
-	description "Face Kitchen (UK) (Beta) (1992-10-26)"
+	name "Face Kitchen (UK) (Beta)"
+	description "Face Kitchen (UK) (Beta)"
+	releaseyear "1992"
+	releasemonth "10"
+	releaseday "26"
 	serial "8110002"
 	rom ( name "Face Kitchen (UK) (Beta) (1992-10-26).bin" size 366041760 crc 37076458 md5 EF2CBC6F01C92B26CE766567F88F2189 sha1 30E8DE18DA07BA1FC003D98F4C2495435217B11F serial "8110002" )
 )
@@ -5822,8 +5919,11 @@ game (
 	rom ( name "Family Games II - Junkfood Jive (Europe).bin" size 436590000 crc 3579D874 md5 041850E4CA77569BB0F71749E14AA3B6 sha1 78C206B6DADD56259C61E124A29977D1338B6570 serial "810-0269" )
 )
 game (
-	name "Family Games II - Junkfood Jive (Europe) (Beta) (1995-06-12)"
-	description "Family Games II - Junkfood Jive (Europe) (Beta) (1995-06-12)"
+	name "Family Games II - Junkfood Jive (Europe) (Beta)"
+	description "Family Games II - Junkfood Jive (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "06"
+	releaseday "12"
 	region "Europe"
 	serial "810-0269"
 	rom ( name "Family Games II - Junkfood Jive (Europe) (Beta) (1995-06-12).bin" size 397252800 crc DA87205D md5 A6059AFC11671FB1264B308FD15518E6 sha1 B10D4BA32DAAEBED8A25CBFB5F2EA2DB27382B7A serial "810-0269" )
@@ -5885,8 +5985,11 @@ game (
 	rom ( name "Fatal Attraction (Netherlands) (Disc 2).bin" size 608674080 crc 644171B1 md5 EED2E62E03BA8FEB3C69508D0A174CB6 sha1 9FA13173DCF1AC2F6B477AC07FCFC67F436FB7CE serial "814-1105-1" )
 )
 game (
-	name "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto) (1995-10-19)"
-	description "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto) (1995-10-19)"
+	name "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto)"
+	description "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "19"
 	region "Europe"
 	rom ( name "Felix the Cat's Giant Electronic Comic Book (Europe) (Proto) (1995-10-19).bin" size 609995904 crc 7082F42B md5 A9C39CBA7ACC391C4F2EEF0A3143C8B8 sha1 57FF84D96C7E13295A6E2B0ECB61A255D8A38940 )
 )
@@ -6011,8 +6114,11 @@ game (
 	rom ( name "Flashback (Europe).bin" size 259484400 crc D5C68797 md5 D2871941B140EAD3D2086C674956D138 sha1 DEF4E2A40DDD82BEA3F6B6882E1F2BFCE4AAB02B serial "810-0259" )
 )
 game (
-	name "Flashback (Europe) (Beta) (1994-12-21)"
-	description "Flashback (Europe) (Beta) (1994-12-21)"
+	name "Flashback (Europe) (Beta)"
+	description "Flashback (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "12"
+	releaseday "21"
 	region "Europe"
 	serial "810-0202"
 	rom ( name "Flashback (Europe) (Beta) (1994-12-21).bin" size 411717600 crc 5D8E906E md5 7DCF73C654DCFCDC64BE9677D981508E sha1 DB2DF7965DF0E9295A0E57D077BA74CD0DDB3566 serial "810-0202" )
@@ -6025,8 +6131,11 @@ game (
 	rom ( name "Flashback (USA).bin" size 259837200 crc 8DAFBB6F md5 21FED9599BEEBE8F37B93ECF28B41521 sha1 7720478F3D2A9B80D4BB6CA1953BCC72612FBC71 serial "310690166-2" )
 )
 game (
-	name "Flight - The Universal Dream (USA) (Proto) (1993-08-12)"
-	description "Flight - The Universal Dream (USA) (Proto) (1993-08-12)"
+	name "Flight - The Universal Dream (USA) (Proto)"
+	description "Flight - The Universal Dream (USA) (Proto)"
+	releaseyear "1993"
+	releasemonth "08"
+	releaseday "12"
 	region "USA"
 	serial "310-690-126-2"
 	rom ( name "Flight - The Universal Dream (USA) (Proto) (1993-08-12).bin" size 780111360 crc DECEB66E md5 ACCBDCB0E1D6ED37C164A66831838D71 sha1 94C9FC8438FF103FD588BA10D733190FF4D1F798 serial "310-690-126-2" )
@@ -6072,8 +6181,11 @@ game (
 	rom ( name "Football (Europe).bin" size 762753600 crc 03B16B15 md5 2F2C52B5242C6DA1E64E087C4D61E401 sha1 B8113107B1D983FFC8DA63EED8AD0D534741895E serial "819-1003" )
 )
 game (
-	name "Football (Europe) (Beta) (1994-07-05)"
-	description "Football (Europe) (Beta) (1994-07-05)"
+	name "Football (Europe) (Beta)"
+	description "Football (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "07"
+	releaseday "05"
 	region "Europe"
 	serial "819-1003"
 	rom ( name "Football (Europe) (Beta) (1994-07-05).bin" size 752346000 crc 0C80F52C md5 186BC9C3DB0357B6EA058CF21A6F633C sha1 200BD30D74D560B04FE5E4EADBA58FF25DBE9B87 serial "819-1003" )
@@ -6589,8 +6701,11 @@ game (
 	rom ( name "Golf Tips (Europe) (En,Ja).bin" size 417009600 crc BCCA225E md5 543E6F1E7DEBD71893BF99D88C67C3FF sha1 A6C580DF0120F0087AD586CB91EAAFED35B0DAE1 )
 )
 game (
-	name "Golf Tips (Europe) (En,Ja) (Beta) (1993-01-10)"
-	description "Golf Tips (Europe) (En,Ja) (Beta) (1993-01-10)"
+	name "Golf Tips (Europe) (En,Ja) (Beta)"
+	description "Golf Tips (Europe) (En,Ja) (Beta)"
+	releaseyear "1993"
+	releasemonth "01"
+	releaseday "10"
 	region "Europe"
 	rom ( name "Golf Tips (Europe) (En,Ja) (Beta) (1993-01-10).bin" size 417538800 crc A4065F44 md5 144C9653394215CBF7D5C3E4FA235D9F sha1 4120611487F0BDD7E8C8BB050087C55CC96D4C24 )
 )
@@ -6696,8 +6811,11 @@ game (
 	rom ( name "Grundig - Das Car Audio-Programm 1995 (Germany).bin" size 130359600 crc D091C560 md5 13967E37235CCB45733CFE991BF890AC sha1 5D8842412B5D9998871F944F6195B05DD91BC0D8 )
 )
 game (
-	name "Guidare e Pilotare (Italy) (En,It) (Beta) (1996-06-03)"
-	description "Guidare e Pilotare (Italy) (En,It) (Beta) (1996-06-03)"
+	name "Guidare e Pilotare (Italy) (En,It) (Beta)"
+	description "Guidare e Pilotare (Italy) (En,It) (Beta)"
+	releaseyear "1996"
+	releasemonth "06"
+	releaseday "03"
 	region "Italy"
 	rom ( name "Guidare e Pilotare (Italy) (En,It) (Beta) (1996-06-03).bin" size 653390304 crc 6D5DA24B md5 FBD97E5BAE5C6066FD1181269B41F6C6 sha1 4B8B2B679ED6C4582E79B4BA49545A0F533CDFB9 )
 )
@@ -6811,21 +6929,30 @@ game (
 	rom ( name "Head Crash - Cranium Error (Europe) (Track 01).bin" size 55036800 crc B1B80C2F md5 E6AC0D99AFDF8BBE72A8CD17F8E0E24E sha1 DBB0D912D72894408C19B56610D0A5F59B3ABD63 serial "810-0110" )
 )
 game (
-	name "Head Crash - Cranium Error (Europe) (Beta) (1994-10-14)"
-	description "Head Crash - Cranium Error (Europe) (Beta) (1994-10-14)"
+	name "Head Crash - Cranium Error (Europe) (Beta)"
+	description "Head Crash - Cranium Error (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "10"
+	releaseday "14"
 	region "Europe"
 	serial "810-0110"
 	rom ( name "Head Crash - Cranium Error (Europe) (Beta) (1994-10-14) (Track 01).bin" size 55036800 crc 1169735A md5 A460B9572B0D95FFF614C089F85B5699 sha1 F905FBC1A037B9D222001FA5A6F9E18D9CB5BCC3 serial "810-0110" )
 )
 game (
-	name "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto) (1993-03-12)"
-	description "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto) (1993-03-12)"
+	name "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto)"
+	description "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto)"
+	releaseyear "1993"
+	releasemonth "03"
+	releaseday "12"
 	region "Europe"
 	rom ( name "Hello U.S.A. (Europe) (Disc 1) (Hit the Road!) (Proto) (1993-03-12).bin" size 456177456 crc 80AAD570 md5 269ED7A7354680390A9A80DD92388331 sha1 9B5218E10EB1A2AECEA9A15DD1C3A8FA5301A411 )
 )
 game (
-	name "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto) (1993-03-15)"
-	description "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto) (1993-03-15)"
+	name "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto)"
+	description "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto)"
+	releaseyear "1993"
+	releasemonth "03"
+	releaseday "15"
 	region "Europe"
 	rom ( name "Hello U.S.A. (Europe) (Disc 3) (The Heart of Country Music) (Proto) (1993-03-15).bin" size 425483856 crc 7397C596 md5 463D14C34E61646C9B4AAC154EE27DA8 sha1 47F8982611078BF6D4FC9AC10D323782BDD9C0D6 )
 )
@@ -7081,8 +7208,11 @@ game (
 	rom ( name "Hondenliefde (Netherlands).bin" size 738057600 crc 2E4A7424 md5 EE2E613A3A140A790A9AE3150DC832A7 sha1 100B9489A016BF13B70C8DB90A1C5E89E8DAEEE2 serial "819-1028" )
 )
 game (
-	name "Hondenliefde (Netherlands) (Beta) (1994-01-02)"
-	description "Hondenliefde (Netherlands) (Beta) (1994-01-02)"
+	name "Hondenliefde (Netherlands) (Beta)"
+	description "Hondenliefde (Netherlands) (Beta)"
+	releaseyear "1994"
+	releasemonth "01"
+	releaseday "02"
 	region "Netherlands"
 	serial "819-1028"
 	rom ( name "Hondenliefde (Netherlands) (Beta) (1994-01-02).bin" size 738586800 crc A59E811D md5 4114DB59D528C4ADD1DCCF023DA4C780 sha1 6352CE86BE06FD6F67DB757EC7841FBA0D34625B serial "819-1028" )
@@ -7179,8 +7309,11 @@ game (
 	rom ( name "How the Camel Got His Hump (USA) (En,Es).bin" size 512618400 crc 91BC369D md5 9343F8054865D00CD1FA74D292248923 sha1 A0D09488BF97DE8F387B3FB36A11B8FA4712AE26 serial "310690146-2" )
 )
 game (
-	name "How the Rhinoceros Got His Skin (USA) (Beta) (1991-08-21)"
-	description "How the Rhinoceros Got His Skin (USA) (Beta) (1991-08-21)"
+	name "How the Rhinoceros Got His Skin (USA) (Beta)"
+	description "How the Rhinoceros Got His Skin (USA) (Beta)"
+	releaseyear "1991"
+	releasemonth "08"
+	releaseday "21"
 	region "USA"
 	serial "310-690-023-2"
 	rom ( name "How the Rhinoceros Got His Skin (USA) (Beta) (1991-08-21).bin" size 427417200 crc 0DAA2EA1 md5 971B2C0E23EFE9E2FAF780B14FFE0705 sha1 C2E9B43CE8FFD9C29C1CD26BBDF602A797BBDE08 serial "310-690-023-2" )
@@ -7352,8 +7485,11 @@ game (
 	rom ( name "In-Store Attractor Disc (Europe).bin" size 33868800 crc 844D95B6 md5 4A760413E908D7D28154F94E43E9477F sha1 0D547BD04AA037623B6EF092E876CE79B5EBBC90 )
 )
 game (
-	name "Inca (Europe) (Beta) (1993-05-07)"
-	description "Inca (Europe) (Beta) (1993-05-07)"
+	name "Inca (Europe) (Beta)"
+	description "Inca (Europe) (Beta)"
+	releaseyear "1993"
+	releasemonth "05"
+	releaseday "07"
 	region "Europe"
 	serial "8180002"
 	rom ( name "Inca (Europe) (Beta) (1993-05-07).bin" size 631599024 crc 1D764164 md5 4CDABAF75401E8641CF7F8AF8322A996 sha1 7FADA7F07E1FA00F07CBD783A4CFB839840EDBC3 serial "8180002" )
@@ -8037,15 +8173,21 @@ game (
 	rom ( name "Jeopardy! (USA).bin" size 471517200 crc CE2F0DCA md5 035BDAAE80A17570CE23F03386B80D9B sha1 025C27427DBCECA4088FB086C7CFF4ECEC34868E serial "310690263-2" )
 )
 game (
-	name "Jeopardy! (USA) (Beta) (1994-07-22)"
-	description "Jeopardy! (USA) (Beta) (1994-07-22)"
+	name "Jeopardy! (USA) (Beta)"
+	description "Jeopardy! (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "07"
+	releaseday "22"
 	region "USA"
 	serial "310-690-263-2"
 	rom ( name "Jeopardy! (USA) (Beta) (1994-07-22).bin" size 416127600 crc 6EA4DE76 md5 0FEF81579AD6EA5B7B93C30C04937558 sha1 3312ADFAFF988211D59686DA6D60BC9A98318088 serial "310-690-263-2" )
 )
 game (
-	name "Jeopardy! (USA) (Beta) (1994-09-15)"
-	description "Jeopardy! (USA) (Beta) (1994-09-15)"
+	name "Jeopardy! (USA) (Beta)"
+	description "Jeopardy! (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "09"
+	releaseday "15"
 	region "USA"
 	serial "310-690-263-2"
 	rom ( name "Jeopardy! (USA) (Beta) (1994-09-15).bin" size 471870000 crc 741CFDB9 md5 8F2DF68E69BF934D9AA5241D88E93871 sha1 E500995A3351527658696760ADB0B7F9FD6B6C68 serial "310-690-263-2" )
@@ -8119,8 +8261,11 @@ game (
 	rom ( name "Jigsaw - The Ultimate Electronic Puzzle (USA).bin" size 320471760 crc 9FF8DDAC md5 3DA5D00017E69E9CE4025CEC22E17034 sha1 D7664528651AD7CA82DBDD05DCE10ADDA914E4A4 serial "310690029-2" )
 )
 game (
-	name "Joker's Wild! Jr., The (Europe) (Beta) (1994-05-30)"
-	description "Joker's Wild! Jr., The (Europe) (Beta) (1994-05-30)"
+	name "Joker's Wild! Jr., The (Europe) (Beta)"
+	description "Joker's Wild! Jr., The (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "05"
+	releaseday "30"
 	region "Europe"
 	serial "690-1822"
 	rom ( name "Joker's Wild! Jr., The (Europe) (Beta) (1994-05-30).bin" size 619516800 crc 8E56454B md5 1FE163F9057F928FA949237D5522CE78 sha1 9B12037D14284C8D1D8A15FC5C98EEA873D76799 serial "690-1822" )
@@ -8495,6 +8640,13 @@ game (
 	rom ( name "Kether (Europe) (En,Fr).bin" size 383140800 crc 71EA2CFD md5 8C194C11187D4AF8A1F93CA043B03569 sha1 7E93EF6D6298058055E94944F69ED3758444C5B8 serial "815-0100" )
 )
 game (
+	name "Kether (Europe) (En,Fr) (Beta)"
+	description "Kether (Europe) (En,Fr) (Beta)"
+	region "Europe"
+	serial "8120067"
+	rom ( name "Kether (Europe) (En,Fr) (Beta).bin" size 383493600 crc 4A383267 md5 2B6F5676B6B444A8C7815DCC0BF4DB19 sha1 3D1A0B71384D5825787B8C7A59C5D68CD1445607 serial "8120067" )
+)
+game (
 	name "Kether (Europe) (En,Fr) (Rev 1)"
 	description "Kether (Europe) (En,Fr) (Rev 1)"
 	region "Europe"
@@ -8523,8 +8675,11 @@ game (
 	rom ( name "Kether (USA) (En,Fr).bin" size 383493600 crc 0902EAE7 md5 139FFCCED2B51D6E481348A79D3988AF sha1 5524DC4D100CC020855EC83292B5834ED1D5AF8C serial "310690275-2" )
 )
 game (
-	name "Kether (USA) (En,Fr) (Beta) (1993-10-06)"
-	description "Kether (USA) (En,Fr) (Beta) (1993-10-06)"
+	name "Kether (USA) (En,Fr) (Beta)"
+	description "Kether (USA) (En,Fr) (Beta)"
+	releaseyear "1993"
+	releasemonth "10"
+	releaseday "06"
 	region "USA"
 	serial "310-690-275-2"
 	rom ( name "Kether (USA) (En,Fr) (Beta) (1993-10-06).bin" size 383493600 crc 9A74C16D md5 B04A7C78DFE8EFA91787612EEFD63FFD sha1 5435C5F28ECF62B22329B460C103FC4E051E281E serial "310-690-275-2" )
@@ -8564,8 +8719,11 @@ game (
 	rom ( name "Kiss (Europe).bin" size 760813200 crc 309E761E md5 A45106A8AFCFD375B567DC2E75BB04D3 sha1 9168BF0C5248C2E6029C24855410CCC7294EA721 serial "811-0047" )
 )
 game (
-	name "Kiss (Europe) (Beta) (1994-05-30)"
-	description "Kiss (Europe) (Beta) (1994-05-30)"
+	name "Kiss (Europe) (Beta)"
+	description "Kiss (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "05"
+	releaseday "30"
 	region "Europe"
 	serial "811-0047"
 	rom ( name "Kiss (Europe) (Beta) (1994-05-30).bin" size 760989600 crc BD2D1E4C md5 17AD49308C7477AAEB1A177C7A05244C sha1 E7E4B02977F513D37454D8FE6B361FB59B6BF412 serial "811-0047" )
@@ -9867,8 +10025,11 @@ game (
 	rom ( name "Mad Dog II - The Lost Gold (Europe).bin" size 345344160 crc 0654DAB0 md5 6CCBCB8222893E21319B9707922A2DE6 sha1 D16A1C197EEBC5B507950469CBBC0348212DB907 serial "810-0278" )
 )
 game (
-	name "Mad Dog II - The Lost Gold (Europe) (Beta) (1995-10-18)"
-	description "Mad Dog II - The Lost Gold (Europe) (Beta) (1995-10-18)"
+	name "Mad Dog II - The Lost Gold (Europe) (Beta)"
+	description "Mad Dog II - The Lost Gold (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "18"
 	region "Europe"
 	serial "810-0278"
 	rom ( name "Mad Dog II - The Lost Gold (Europe) (Beta) (1995-10-18).bin" size 345207744 crc 4D5ECEA0 md5 3CC0476E420C6BD47A4567ACD9B43001 sha1 63B35506BB3BE22D8C9FEAC783C61083C8294818 serial "810-0278" )
@@ -9916,8 +10077,11 @@ game (
 	rom ( name "Mad Dog McCree (USA) (Alt).bin" size 460145280 crc 3A6F046F md5 D1D634A1334FDB0F06BE34AF87A68702 sha1 8B0D4FFAE8B66E9F7357D9075A5EAF7E48883AD3 serial "310-690-058-2" )
 )
 game (
-	name "Mad Dog McCree (USA) (Beta) (1993-12-09)"
-	description "Mad Dog McCree (USA) (Beta) (1993-12-09)"
+	name "Mad Dog McCree (USA) (Beta)"
+	description "Mad Dog McCree (USA) (Beta)"
+	releaseyear "1993"
+	releasemonth "12"
+	releaseday "09"
 	region "USA"
 	serial "310-690-058-2"
 	rom ( name "Mad Dog McCree (USA) (Beta) (1993-12-09).bin" size 197003520 crc FFA82719 md5 7093536A61CD8A373C43FA77A9C96986 sha1 29214FBFB23354563BA608829453092992E6A98B serial "310-690-058-2" )
@@ -10011,8 +10175,11 @@ game (
 	rom ( name "Making the Grade (UK).bin" size 746348400 crc B4836AB6 md5 D3C42AB6EFB6AC4D1D2D8EBCE4D35A22 sha1 949204441A34F419F5740D71DCEB142AEF462CC1 )
 )
 game (
-	name "Making the Grade (UK) (Beta) (1994-12-08)"
-	description "Making the Grade (UK) (Beta) (1994-12-08)"
+	name "Making the Grade (UK) (Beta)"
+	description "Making the Grade (UK) (Beta)"
+	releaseyear "1994"
+	releasemonth "12"
+	releaseday "08"
 	rom ( name "Making the Grade (UK) (Beta) (1994-12-08).bin" size 746701200 crc 9E05BB27 md5 F9FD6ACC2DBF2CFBF1D7C39660A855F7 sha1 38D86B14FB8D0B6ED9EAA66FDEEC8704716AE262 )
 )
 game (
@@ -10171,8 +10338,11 @@ game (
 	rom ( name "Max Magic (Europe).bin" size 564889248 crc 6036CAD4 md5 CF14AC6A5763BF6586030F6562661609 sha1 8C41B6658F3BED6D25EEB54862D48EAF87843BCA serial "810-0191" )
 )
 game (
-	name "Max Magic (Europe) (Beta) (1994-08-18)"
-	description "Max Magic (Europe) (Beta) (1994-08-18)"
+	name "Max Magic (Europe) (Beta)"
+	description "Max Magic (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "08"
+	releaseday "18"
 	region "Europe"
 	serial "690-1132"
 	rom ( name "Max Magic (Europe) (Beta) (1994-08-18).bin" size 564950400 crc E095F817 md5 3F2B14291F3741EB54057E83AF3E598C sha1 174A11C780EE467F5F1B82CDCEFEA29CA75B0B54 serial "690-1132" )
@@ -10185,8 +10355,11 @@ game (
 	rom ( name "Max Magic (USA).bin" size 565232640 crc 51D974D7 md5 C66412198DFD1940FFDD53919651D009 sha1 065AB367924622DD6E9A5B07AF4657E36A702B73 serial "310690113-2" )
 )
 game (
-	name "Max Magic (USA) (Beta) (1994-08-24)"
-	description "Max Magic (USA) (Beta) (1994-08-24)"
+	name "Max Magic (USA) (Beta)"
+	description "Max Magic (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "08"
+	releaseday "24"
 	region "USA"
 	serial "310-690-113-2"
 	rom ( name "Max Magic (USA) (Beta) (1994-08-24).bin" size 565242048 crc B26E850E md5 B1945005A26F560134A31DB623F933C7 sha1 07103550FB3AC26CFCD7330E0D55F65CC85D4E2A serial "310-690-113-2" )
@@ -10261,8 +10434,11 @@ game (
 	rom ( name "Mega Maze (Europe).bin" size 89775840 crc 39661973 md5 4AEE20D05830458603939660121E5835 sha1 B0F10FB7C60A95963D3477F942415E3A02940007 serial "810-0156" )
 )
 game (
-	name "Mega Maze (Europe) (Beta) (1993-10-21)"
-	description "Mega Maze (Europe) (Beta) (1993-10-21)"
+	name "Mega Maze (Europe) (Beta)"
+	description "Mega Maze (Europe) (Beta)"
+	releaseyear "1993"
+	releasemonth "10"
+	releaseday "21"
 	region "Europe"
 	serial "8100163"
 	rom ( name "Mega Maze (Europe) (Beta) (1993-10-21).bin" size 89775840 crc A0EB4A64 md5 CDC81F9F829831D9ADDDD7BAC3FFD9F0 sha1 CE36A649930C3EB0C4990E6946AB340E355935CC serial "8100163" )
@@ -10412,8 +10588,11 @@ game (
 	rom ( name "Micro Machines (Europe) (Demo).bin" size 142006704 crc 3279A3B1 md5 A539BCE5E006A24AE30BD1A397881B8C sha1 12BB3C2FE0B9DA8C742E03AC3FAF51CE8548956B )
 )
 game (
-	name "MindQuest (Europe) (Proto) (1992-01-24)"
-	description "MindQuest (Europe) (Proto) (1992-01-24)"
+	name "MindQuest (Europe) (Proto)"
+	description "MindQuest (Europe) (Proto)"
+	releaseyear "1992"
+	releasemonth "01"
+	releaseday "24"
 	region "Europe"
 	serial "811-0023"
 	rom ( name "MindQuest (Europe) (Proto) (1992-01-24).bin" size 704894400 crc C98C2829 md5 BBBACF95EA816768EFEA7DCBE7E4E91E sha1 D35F22C6BABC3B7DE9A7674CDA547E0B8E419438 serial "811-0023" )
@@ -10438,8 +10617,11 @@ game (
 	rom ( name "Monty Python's Invasion from the Planet Skyron (Europe).bin" size 514029600 crc CA8A2B5C md5 21C28CB5892B63C1E440C35E64EBA4D8 sha1 9F572FE58FFC047AD9E2F1C79BD0084642537454 serial "819-1007" )
 )
 game (
-	name "Monty Python's Invasion from the Planet Skyron (Europe) (Beta) (1995-05-15)"
-	description "Monty Python's Invasion from the Planet Skyron (Europe) (Beta) (1995-05-15)"
+	name "Monty Python's Invasion from the Planet Skyron (Europe) (Beta)"
+	description "Monty Python's Invasion from the Planet Skyron (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "05"
+	releaseday "15"
 	region "Europe"
 	serial "819-1007"
 	rom ( name "Monty Python's Invasion from the Planet Skyron (Europe) (Beta) (1995-05-15).bin" size 511388304 crc 34AADF9E md5 829C603228C08F1F6E5D3DA8A678DD9F sha1 F57FCBBEB235B3ECD535DC60F60C6232C6C510EF serial "819-1007" )
@@ -10638,8 +10820,11 @@ game (
 	rom ( name "Mutant Rampage - Bodyslam (USA).bin" size 661241280 crc 029AAD4F md5 90AFC52BA4303E6D43EC29B72744D58B sha1 937E9E621584A50759272E42FC91408B4F41EA54 serial "310690282-2" )
 )
 game (
-	name "Mutant Rampage - Bodyslam (USA) (Beta) (1994-08-25)"
-	description "Mutant Rampage - Bodyslam (USA) (Beta) (1994-08-25)"
+	name "Mutant Rampage - Bodyslam (USA) (Beta)"
+	description "Mutant Rampage - Bodyslam (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "08"
+	releaseday "25"
 	region "USA"
 	serial "310-690-282-2"
 	rom ( name "Mutant Rampage - Bodyslam (USA) (Beta) (1994-08-25).bin" size 661241280 crc 408F4330 md5 9B7CAF8D43937D1C4AB89A13591B14FA sha1 6CB975CC7D315914D470FAA9E8A00A3AE7AB0797 serial "310-690-282-2" )
@@ -10665,8 +10850,11 @@ game (
 	rom ( name "Muzzy (Europe).bin" size 790801200 crc BDE33C63 md5 53391588340386AA04D12B66D9EC353F sha1 C1AB0AF879D94888BF2E90BDBAABF8B1DC8E669B serial "812-0136" )
 )
 game (
-	name "Muzzy (Europe) (Beta) (1994-07-14)"
-	description "Muzzy (Europe) (Beta) (1994-07-14)"
+	name "Muzzy (Europe) (Beta)"
+	description "Muzzy (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "07"
+	releaseday "14"
 	region "Europe"
 	serial "810-0084"
 	rom ( name "Muzzy (Europe) (Beta) (1994-07-14) (Track 1).bin" size 647388000 crc 2E3CEC3F md5 F697C2B0CB14D6821E0B12F3A5F83FBD sha1 D9C0B7D9B5D14D6A672E1151600827C776B383CC serial "810-0084" )
@@ -10794,15 +10982,21 @@ game (
 	rom ( name "NFL Hall of Fame Football (USA).bin" size 770868000 crc 34A93B85 md5 246EC55D6FF2F7E0E039634F80DFE99F sha1 864C4390C46983262F853BDD0D4DDE5B864871E9 serial "310690201-2" )
 )
 game (
-	name "NFL Hall of Fame Football (USA) (Beta) (1994-09-14)"
-	description "NFL Hall of Fame Football (USA) (Beta) (1994-09-14)"
+	name "NFL Hall of Fame Football (USA) (Beta)"
+	description "NFL Hall of Fame Football (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "09"
+	releaseday "14"
 	region "USA"
 	serial "310-690-201-2"
 	rom ( name "NFL Hall of Fame Football (USA) (Beta) (1994-09-14).bin" size 762753600 crc BE44641E md5 5336F040C7F3E319D144B5A8130EE497 sha1 CD9018D4EA3E5483BEF4230D7A9A7A2CD35CC0CA serial "310-690-201-2" )
 )
 game (
-	name "NFL Instant Replay (Europe) (Beta) (1995-06-15)"
-	description "NFL Instant Replay (Europe) (Beta) (1995-06-15)"
+	name "NFL Instant Replay (Europe) (Beta)"
+	description "NFL Instant Replay (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "06"
+	releaseday "15"
 	region "Europe"
 	serial "811-0111"
 	rom ( name "NFL Instant Replay (Europe) (Beta) (1995-06-15).bin" size 735399840 crc 79F8236B md5 FDA7B9F6C6DC2BD7E1EF9435DC6A07FF sha1 46AD7C84CCDCDBF04A28CB50EED51D858682D031 serial "811-0111" )
@@ -11735,8 +11929,11 @@ game (
 	rom ( name "Pecos Bill (USA).bin" size 573476400 crc 37AD7DE5 md5 0805193CB29D00E50C38DFDF27671990 sha1 85CC2CD08B4FEBDE474BAC4E24C04106F617E042 serial "310690012-2" )
 )
 game (
-	name "Pecos Bill (USA) (Beta) (1991-08-14)"
-	description "Pecos Bill (USA) (Beta) (1991-08-14)"
+	name "Pecos Bill (USA) (Beta)"
+	description "Pecos Bill (USA) (Beta)"
+	releaseyear "1991"
+	releasemonth "08"
+	releaseday "14"
 	region "USA"
 	serial "310-690-060-2"
 	rom ( name "Pecos Bill (USA) (Beta) (1991-08-14).bin" size 573829200 crc 46F4A371 md5 26ABD5765EFD0409FACC7B5FC2E7F13E sha1 92B96013CBC33AE5ED1604C78BAC76719D0CE3B1 serial "310-690-060-2" )
@@ -12387,8 +12584,11 @@ game (
 	rom ( name "Private Lesson Series - Classical Guitar (USA, Europe).bin" size 546957600 crc E0FD9FC1 md5 450A067104C1BE3D643471F3714EE2BE sha1 1FAF0AB85F71667606432BADF9302C5E7E2BC686 serial "810-0013" )
 )
 game (
-	name "Private Lesson Series - Jazz Guitar (USA) (Beta) (1992-07-31)"
-	description "Private Lesson Series - Jazz Guitar (USA) (Beta) (1992-07-31)"
+	name "Private Lesson Series - Jazz Guitar (USA) (Beta)"
+	description "Private Lesson Series - Jazz Guitar (USA) (Beta)"
+	releaseyear "1992"
+	releasemonth "07"
+	releaseday "31"
 	region "USA"
 	serial "310-690-079-2"
 	rom ( name "Private Lesson Series - Jazz Guitar (USA) (Beta) (1992-07-31).bin" size 610273440 crc 7B5D7122 md5 A90632D62121443EEE3A7046BA97A59D sha1 BC78BE71CFAFB1687AD6759B2F99E68E0653492A serial "310-690-079-2" )
@@ -12717,14 +12917,20 @@ game (
 	rom ( name "Rhythm Maker (USA).bin" size 49674240 crc 4DAB9B71 md5 21B53E6111BA4F89EFF2DC343BCE013F sha1 9417FB2A93010502CFD002A912EA5A9E84BD8399 serial "310690172-2" )
 )
 game (
-	name "Rhythm Maker (USA) (Beta) (1993-03-09)"
-	description "Rhythm Maker (USA) (Beta) (1993-03-09)"
+	name "Rhythm Maker (USA) (Beta)"
+	description "Rhythm Maker (USA) (Beta)"
+	releaseyear "1993"
+	releasemonth "03"
+	releaseday "09"
 	region "USA"
 	rom ( name "Rhythm Maker (USA) (Beta) (1993-03-09).bin" size 49321440 crc 047238DF md5 CEB1FBAD61D06633DFAC50075B1489F7 sha1 208609F535F3F77DA6106EF6383343F36FADA3EC )
 )
 game (
-	name "Rhythm Maker (USA) (Beta) (1993-03-09) (Alt)"
-	description "Rhythm Maker (USA) (Beta) (1993-03-09) (Alt)"
+	name "Rhythm Maker (USA) (Beta) (Alt)"
+	description "Rhythm Maker (USA) (Beta) (Alt)"
+	releaseyear "1993"
+	releasemonth "03"
+	releaseday "09"
 	region "USA"
 	serial "310-690-172-2"
 	rom ( name "Rhythm Maker (USA) (Beta) (1993-03-09) (Alt).bin" size 49674240 crc 3486D60A md5 F089B3C7C85200234BE983FDE1A5EC0B sha1 D52A20C5F882BE07AFBF4E8E13979E188135717F serial "310-690-172-2" )
@@ -12872,8 +13078,11 @@ game (
 	rom ( name "Rise of the Robots (Europe) (Alt).bin" size 306230400 crc 7565F8A7 md5 3B9C09668D96E49A2AB142E9D8A06B4B sha1 644FBD0B365430659BA199FC4D3DE1F6D966A0C8 serial "819-1031" )
 )
 game (
-	name "Rise of the Robots (Europe) (Beta) (1995-08-24)"
-	description "Rise of the Robots (Europe) (Beta) (1995-08-24)"
+	name "Rise of the Robots (Europe) (Beta)"
+	description "Rise of the Robots (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "08"
+	releaseday "24"
 	region "Europe"
 	serial "819-1012"
 	rom ( name "Rise of the Robots (Europe) (Beta) (1995-08-24).bin" size 306230400 crc 56CC6C83 md5 0FF9A76E27191F8D1BB164C9F64484CC sha1 8E080C7A2328BECC87ED328425BAB31249B6DDE7 serial "819-1012" )
@@ -13094,8 +13303,11 @@ game (
 	rom ( name "Sargon Chess (USA).bin" size 396335520 crc 7C2B904B md5 8A6D24CE2097ECE8F4C52D9F99C48096 sha1 5DCBD059F3DD567A27F21E5FC1FD961030D66ABA serial "310690097-2" )
 )
 game (
-	name "Sargon Chess (USA) (Beta) (1991-10-01)"
-	description "Sargon Chess (USA) (Beta) (1991-10-01)"
+	name "Sargon Chess (USA) (Beta)"
+	description "Sargon Chess (USA) (Beta)"
+	releaseyear "1991"
+	releasemonth "10"
+	releaseday "01"
 	region "USA"
 	serial "310-690-030-2"
 	rom ( name "Sargon Chess (USA) (Beta) (1991-10-01).bin" size 396194400 crc 5724B80D md5 994970519E487322F11C652C80EDE394 sha1 A20967DBEB0A62003EC6F59AAF2123D3AFF60E51 serial "310-690-030-2" )
@@ -13179,8 +13391,11 @@ game (
 	rom ( name "Secret Mission (Europe) (Alt).bin" size 636627600 crc 3F01F780 md5 56CF65DFFA5490A5E9203D7C20F04C45 sha1 E08BF6ADA38E02DC73D9929B309FDE75C14BD4AB serial "810-0272" )
 )
 game (
-	name "Secret Mission (Europe) (Beta) (1995-04-24)"
-	description "Secret Mission (Europe) (Beta) (1995-04-24)"
+	name "Secret Mission (Europe) (Beta)"
+	description "Secret Mission (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "04"
+	releaseday "24"
 	region "Europe"
 	serial "810-0272"
 	rom ( name "Secret Mission (Europe) (Beta) (1995-04-24).bin" size 604875600 crc CC0F215E md5 AE334A8E6C994FD410C71881C25A4A3B sha1 1FC7F9320CABB1BF84C52BC1FCED1AFEEF8E19B9 serial "810-0272" )
@@ -13339,8 +13554,11 @@ game (
 	rom ( name "Si Balla! (Italy).bin" size 622339200 crc E5E42B43 md5 56B2D05183E93E035339B681A1A9798B sha1 61E18B406820AAF44658C2E32AC5495830F4ABC7 serial "815-0066" )
 )
 game (
-	name "Si Balla! (Italy) (Beta) (1994-12-22)"
-	description "Si Balla! (Italy) (Beta) (1994-12-22)"
+	name "Si Balla! (Italy) (Beta)"
+	description "Si Balla! (Italy) (Beta)"
+	releaseyear "1994"
+	releasemonth "12"
+	releaseday "22"
 	region "Italy"
 	serial "815-0066"
 	rom ( name "Si Balla! (Italy) (Beta) (1994-12-22).bin" size 622692000 crc 9FFE027A md5 B956B14A6D31D8C192C0C59F6EB1FE7F sha1 8669B6B0BC201834CC5F6D011180FF60E34EBC19 serial "815-0066" )
@@ -13472,8 +13690,11 @@ game (
 	rom ( name "Solar System (Europe).bin" size 378131040 crc 385D8C7F md5 777B7348E040F5CC0F71D0D26E744981 sha1 0B6C474E9AFA22554683F73728FABA618635344E serial "811-0039" )
 )
 game (
-	name "Solitaire (Europe) (Proto) (1997-12-15)"
-	description "Solitaire (Europe) (Proto) (1997-12-15)"
+	name "Solitaire (Europe) (Proto)"
+	description "Solitaire (Europe) (Proto)"
+	releaseyear "1997"
+	releasemonth "12"
+	releaseday "15"
 	region "Europe"
 	rom ( name "Solitaire (Europe) (Proto) (1997-12-15).bin" size 17291904 crc 39EFCBDF md5 C9316C62E7A405BEE3C2B4B16389DC04 sha1 0CA74207CB8630A9F5543289B41EA9A119841245 )
 )
@@ -13801,8 +14022,11 @@ game (
 	rom ( name "Stickybear Preschool (Europe).bin" size 672140448 crc D9583749 md5 82A0C3F7A120014EBABF72FAD87CC790 sha1 117B7972BAB9827CB88B7A3DDECB34909ACD47F7 serial "810-0218" )
 )
 game (
-	name "Stickybear Preschool (Europe) (En,Es) (Beta) (1994-09-26)"
-	description "Stickybear Preschool (Europe) (En,Es) (Beta) (1994-09-26)"
+	name "Stickybear Preschool (Europe) (En,Es) (Beta)"
+	description "Stickybear Preschool (Europe) (En,Es) (Beta)"
+	releaseyear "1994"
+	releasemonth "09"
+	releaseday "26"
 	region "Europe"
 	serial "690-2572"
 	rom ( name "Stickybear Preschool (Europe) (En,Es) (Beta) (1994-09-26).bin" size 672493248 crc E899C964 md5 AAF6AFE07C9B767D742059608E48D081 sha1 E6A2F06005CA7960C5C5CDC6E2BBD25CC9520930 serial "690-2572" )
@@ -13822,8 +14046,11 @@ game (
 	rom ( name "Stickybear Preschool (USA) (En,Es).bin" size 672493248 crc 1502EBB4 md5 953C1218047617B4DD864E12D0C98079 sha1 0205936E470C877CC76D88D98C645E51B898284E serial "310690257-2" )
 )
 game (
-	name "Stickybear Preschool (USA) (En,Es) (Beta) (1994-09-21)"
-	description "Stickybear Preschool (USA) (En,Es) (Beta) (1994-09-21)"
+	name "Stickybear Preschool (USA) (En,Es) (Beta)"
+	description "Stickybear Preschool (USA) (En,Es) (Beta)"
+	releaseyear "1994"
+	releasemonth "09"
+	releaseday "21"
 	region "USA"
 	serial "310-690-257-2"
 	rom ( name "Stickybear Preschool (USA) (En,Es) (Beta) (1994-09-21).bin" size 672493248 crc D48B1157 md5 A761E5FDDED0CCBCD3A32F6ECD1E91D2 sha1 3EE5FFE738F12EDC62551D5999D0964F9B2FB151 serial "310-690-257-2" )
@@ -14024,8 +14251,11 @@ game (
 	rom ( name "Stunde der Patrioten, Die (Germany) (Disc 2).bin" size 617047200 crc 18F09657 md5 694B4AA271CACDCB32E3EFB72C7F5F81 sha1 D3E88C5BDE22EC872726A95391E52F9F398C8D4C serial "813-1004-1" )
 )
 game (
-	name "Super Mario's Wacky Worlds (USA) (Proto) (1993-03-03)"
-	description "Super Mario's Wacky Worlds (USA) (Proto) (1993-03-03)"
+	name "Super Mario's Wacky Worlds (USA) (Proto)"
+	description "Super Mario's Wacky Worlds (USA) (Proto)"
+	releaseyear "1993"
+	releasemonth "03"
+	releaseday "03"
 	region "USA"
 	rom ( name "Super Mario's Wacky Worlds (USA) (Proto) (1993-03-03).bin" size 128677920 crc A14D4EEC md5 AD88A5C99DB03A5067B032CF08FA6BE7 sha1 F0362C2184F5443F820F4153B73CD6E4DDF873B4 )
 )
@@ -14049,8 +14279,11 @@ game (
 	rom ( name "SuperTest (Europe) (De,It).bin" size 612637200 crc 5E8C065F md5 FA3D301BB35A65D8F1D0F1C9ACDD3640 sha1 CB793278C5AC7D9491B06523D18C8F1905DBA10D serial "810-0168" )
 )
 game (
-	name "SuperTest (Europe) (De,It) (Beta) (1995-04-11)"
-	description "SuperTest (Europe) (De,It) (Beta) (1995-04-11)"
+	name "SuperTest (Europe) (De,It) (Beta)"
+	description "SuperTest (Europe) (De,It) (Beta)"
+	releaseyear "1995"
+	releasemonth "04"
+	releaseday "11"
 	region "Europe"
 	serial "810-0168"
 	rom ( name "SuperTest (Europe) (De,It) (Beta) (1995-04-11).bin" size 586882800 crc 85ACDD5D md5 924F65E1B82FA5204775D0DB26FBA291 sha1 021C4874DE7CB27ECA9B181E15B7A41F9D8594B3 serial "810-0168" )
@@ -14166,8 +14399,11 @@ game (
 	rom ( name "TR-I - No World Order (USA).bin" size 750146880 crc 3AD6D4AD md5 60585A63956F611364278246B8CDE187 sha1 C70D04EEEA688A80851336394B86EC12B6F3199E serial "310690267-2" )
 )
 game (
-	name "TR-I - No World Order (USA) (Beta) (1993-06-22)"
-	description "TR-I - No World Order (USA) (Beta) (1993-06-22)"
+	name "TR-I - No World Order (USA) (Beta)"
+	description "TR-I - No World Order (USA) (Beta)"
+	releaseyear "1993"
+	releasemonth "06"
+	releaseday "22"
 	region "USA"
 	serial "310-690-267-2"
 	rom ( name "TR-I - No World Order (USA) (Beta) (1993-06-22).bin" size 750146880 crc 34888F31 md5 233DFF7707CB95C7175669766F9C55D0 sha1 378AE43B6ADADF2D5F6BA9A094F765FE8C155654 serial "310-690-267-2" )
@@ -14249,8 +14485,11 @@ game (
 	rom ( name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt).bin" size 671025600 crc D2D6EBC1 md5 7785A754569FF74B67B71C1A9C36E742 sha1 D10E38BCDD0962B5E25F3C19DD206DF783C3726D serial "815-0022" )
 )
 game (
-	name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta) (1992-08-28)"
-	description "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta) (1992-08-28)"
+	name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta)"
+	description "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta)"
+	releaseyear "1992"
+	releasemonth "08"
+	releaseday "28"
 	region "Europe"
 	rom ( name "Tangram (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt) (Beta) (1992-08-28).bin" size 536608800 crc 979CC751 md5 FC91520BC630D571E6FA564FF3F39A5A sha1 877650CDD4D85DF308B79C7C64438930171FCADE )
 )
@@ -14291,8 +14530,11 @@ game (
 	rom ( name "Tele CD-i Demonstrator (Europe).bin" size 147823200 crc 7DAD00C4 md5 18C569B0B4022DB5F524E1EBC023FC34 sha1 9CE2A2048511A18B40D5774A107D5651D6CEB6D4 serial "22-SW-1699" )
 )
 game (
-	name "Tele CD-i Demonstrator (Europe) (Beta) (1994-02-22)"
-	description "Tele CD-i Demonstrator (Europe) (Beta) (1994-02-22)"
+	name "Tele CD-i Demonstrator (Europe) (Beta)"
+	description "Tele CD-i Demonstrator (Europe) (Beta)"
+	releaseyear "1994"
+	releasemonth "02"
+	releaseday "22"
 	region "Europe"
 	rom ( name "Tele CD-i Demonstrator (Europe) (Beta) (1994-02-22).bin" size 100900800 crc 14B2AFC2 md5 10FAB6AC63CB7B2E476DD209C0CBC2EB sha1 563776200EFB5E0BC606C6E15263B65AD91EC604 )
 )
@@ -14377,8 +14619,11 @@ game (
 	rom ( name "Tesoro dell'Isola dei Giochi, Il (Italy).bin" size 360914400 crc 18168B3E md5 C1BA6B2F7012354C66A7FD970E81FF07 sha1 50C57BADF1B9498474AB38F05DC4D68AA42F6D2E serial "815-0067" )
 )
 game (
-	name "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta) (1994-12-02)"
-	description "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta) (1994-12-02)"
+	name "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta)"
+	description "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta)"
+	releaseyear "1994"
+	releasemonth "12"
+	releaseday "02"
 	region "Italy"
 	serial "815-0067"
 	rom ( name "Tesoro dell'Isola dei Giochi, Il (Italy) (Beta) (1994-12-02).bin" size 361267200 crc AC19C05C md5 8B1C14A431F37FD0B42C8911CA324AC9 sha1 0583F74EA4894DD5193DE2ADBDACFEFFEDF665D4 serial "815-0067" )
@@ -14402,14 +14647,20 @@ game (
 	rom ( name "Test Programados Mecanica (Spain).bin" size 221210304 crc F033FBB0 md5 6D94E0FCBE2003B12FD0D64FD5310541 sha1 B60DC93C750B8794076AC084F3C68A3BF0A28C0E )
 )
 game (
-	name "Test Reglamentacion Especifico C-C1 (Spain) (Proto) (1999-06-25)"
-	description "Test Reglamentacion Especifico C-C1 (Spain) (Proto) (1999-06-25)"
+	name "Test Reglamentacion Especifico C-C1 (Spain) (Proto)"
+	description "Test Reglamentacion Especifico C-C1 (Spain) (Proto)"
+	releaseyear "1999"
+	releasemonth "06"
+	releaseday "25"
 	region "Spain"
 	rom ( name "Test Reglamentacion Especifico C-C1 (Spain) (Proto) (1999-06-25).bin" size 42869904 crc 13A55EF2 md5 88A00C0F792542FF929BE4762F84CAD1 sha1 BC3CB328C2A05A62D66DDE5E0A932DEB34C32262 )
 )
 game (
-	name "Tetris (USA) (Beta) (1992-07-02)"
-	description "Tetris (USA) (Beta) (1992-07-02)"
+	name "Tetris (USA) (Beta)"
+	description "Tetris (USA) (Beta)"
+	releaseyear "1992"
+	releasemonth "07"
+	releaseday "02"
 	region "USA"
 	rom ( name "Tetris (USA) (Beta) (1992-07-02).bin" size 365242080 crc 8E04ABD2 md5 96729F6BAAAA492225FABAEBF375165A sha1 1CAE15C0A7C1B1B39D50E2CEB72A33C8A50832F2 )
 )
@@ -14516,8 +14767,11 @@ game (
 	rom ( name "Thunder in Paradise (USA) (Disc 1) (The Game).bin" size 737881200 crc F44FEFCA md5 48F76261ED0C6D89A229AD6888CE631E sha1 86F3DFFD2DA7114F316398069485371F097195D2 serial "310690133-2-0" )
 )
 game (
-	name "TicTac (Europe) (Proto) (1997-12-15)"
-	description "TicTac (Europe) (Proto) (1997-12-15)"
+	name "TicTac (Europe) (Proto)"
+	description "TicTac (Europe) (Proto)"
+	releaseyear "1997"
+	releasemonth "12"
+	releaseday "15"
 	region "Europe"
 	rom ( name "TicTac (Europe) (Proto) (1997-12-15).bin" size 10412304 crc 706C509E md5 56A2D727FF39D199EB9B3775D38C5F04 sha1 D83415FBA81D988F3EF43FB91A62CD8E2342C7BE )
 )
@@ -16175,8 +16429,11 @@ game (
 	rom ( name "Wacky World of Miniature Golf with Eugene Levy, The (USA).bin" size 754145280 crc C37EB424 md5 42FFB8F2608963508A1D93215DCECE8F sha1 E33C298ECBAFF23B1D7BDF91C03FBD3A5562792B serial "310690180-2" )
 )
 game (
-	name "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta) (1993-07-22)"
-	description "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta) (1993-07-22)"
+	name "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta)"
+	description "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta)"
+	releaseyear "1993"
+	releasemonth "07"
+	releaseday "22"
 	region "USA"
 	serial "310-690-180-2"
 	rom ( name "Wacky World of Miniature Golf with Eugene Levy, The (USA) (Beta) (1993-07-22).bin" size 753957120 crc 1AF52950 md5 56A92145333DDC88A430DCC3D579CA18 sha1 72A5BADEAB0387F5A703359DF60F575BA770FEE2 serial "310-690-180-2" )
@@ -16326,8 +16583,11 @@ game (
 	rom ( name "What is CD-i (Europe).bin" size 46040400 crc B777D59A md5 2CE11B0C6E4ED542DBC2F07492AF0797 sha1 857754B08CDBD546A0DC1AD8BE28EB258560B01C serial "818-0046" )
 )
 game (
-	name "What's It Worth Auction Game, The (Europe) (Proto) (1994-05-30)"
-	description "What's It Worth Auction Game, The (Europe) (Proto) (1994-05-30)"
+	name "What's It Worth Auction Game, The (Europe) (Proto)"
+	description "What's It Worth Auction Game, The (Europe) (Proto)"
+	releaseyear "1994"
+	releasemonth "05"
+	releaseday "30"
 	region "Europe"
 	serial "811-0046"
 	rom ( name "What's It Worth Auction Game, The (Europe) (Proto) (1994-05-30).bin" size 621104400 crc 1B47765B md5 B44C8A08A2F4D5DF0E07BDFDF4A30800 sha1 68F0849B6C49D8A0DC16EFB4D1AC86D9BCB235AF serial "811-0046" )
@@ -16375,8 +16635,11 @@ game (
 	rom ( name "Who Shot Johnny Rock (Europe).bin" size 347649120 crc 15F3ED92 md5 6A4357A8DBFFFD33F5F622F2E2813440 sha1 A4D9B089EAE54E97B366C6601F9D9C22D4DB4BB7 serial "810-0285" )
 )
 game (
-	name "Who Shot Johnny Rock (Europe) (Beta) (1995-04-24)"
-	description "Who Shot Johnny Rock (Europe) (Beta) (1995-04-24)"
+	name "Who Shot Johnny Rock (Europe) (Beta)"
+	description "Who Shot Johnny Rock (Europe) (Beta)"
+	releaseyear "1995"
+	releasemonth "04"
+	releaseday "24"
 	region "Europe"
 	serial "810-0285"
 	rom ( name "Who Shot Johnny Rock (Europe) (Beta) (1995-04-24).bin" size 330197280 crc C12C1799 md5 ADAD01D14302B8D568377922E654620A sha1 F4A576DDD555DD35C999DA29AF54384179837E5D serial "810-0285" )
@@ -16539,8 +16802,11 @@ game (
 	rom ( name "Worlds of..., The (Europe) (Track 1).bin" size 446468400 crc F3F0AFEC md5 BAE7AED50FA409D7F52ED20359B059BD sha1 E89FF4888E104956F221BAEB37A84F0EE41E3425 serial "811-0038" )
 )
 game (
-	name "Wuzzo Goes on Holiday (Europe) (Proto) (1994-02-23)"
-	description "Wuzzo Goes on Holiday (Europe) (Proto) (1994-02-23)"
+	name "Wuzzo Goes on Holiday (Europe) (Proto)"
+	description "Wuzzo Goes on Holiday (Europe) (Proto)"
+	releaseyear "1994"
+	releasemonth "02"
+	releaseday "23"
 	region "Europe"
 	rom ( name "Wuzzo Goes on Holiday (Europe) (Proto) (1994-02-23).bin" size 619874304 crc B83BEF21 md5 1324A53AD84CB8F136D0027EBD973C1C sha1 6637EDAD4DD14E64EE40E1235097772D9673F60E )
 )

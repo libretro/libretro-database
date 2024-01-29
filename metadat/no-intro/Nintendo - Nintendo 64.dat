@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Nintendo 64"
 	description "Nintendo - Nintendo 64"
-	version "2023.12.31"
+	version "2024.01.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -100,29 +100,65 @@ game (
 	rom ( name "1080 Snowboarding (USA) (En,Ja) (LodgeNet).v64" size 16777216 crc 4F5E35D9 md5 9AC2E60A1111C03C3DBED3845E55CD52 sha1 D74E47810EAA94929406004E82ECEABC3DC70FE5 )
 )
 game (
-	name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)"
-	description "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)"
+	name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "2048 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	rom ( name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl).z64" size 16777216 crc 2EA39D5C md5 0C7B165CF3553EF550067D0C46681097 sha1 B855C12D25C4DF358DF7C98810857E1E5C7FD5A4 )
+)
+game (
+	name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "2048 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	rom ( name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl).v64" size 16777216 crc 1F41E918 md5 8A4B29033E86789B10B4AD987D5F3F5B sha1 77C14C54A6B899DC40B4EA59697637579002CD35 )
+)
+game (
+	name "40 Winks (Europe) (En,Es,It) (Proto)"
+	description "40 Winks (Europe) (En,Es,It) (Proto)"
+	releaseyear "1999"
+	releasemonth "10"
+	releaseday "07"
 	region "Europe"
 	serial "N4WX"
 	rom ( name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07).z64" size 33554432 crc 7E718143 md5 0A5ACFEA0C7CF68AE25202040D5AD1EB sha1 3774E87AA383220060D330314F2C5BBB872F72CE serial "N4WX" )
 )
 game (
-	name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)"
-	description "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07)"
+	name "40 Winks (Europe) (En,Es,It) (Proto)"
+	description "40 Winks (Europe) (En,Es,It) (Proto)"
+	releaseyear "1999"
+	releasemonth "10"
+	releaseday "07"
 	region "Europe"
 	serial "N4WX"
 	rom ( name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07).v64" size 33554432 crc 366ED851 md5 0E76998245819741E9693B7ABB2C1D9C sha1 2EA62384321E12E2B9C33196AE662A77B2125AE4 serial "N4WX" )
 )
 game (
-	name "40 Winks (USA) (Proto) (2000-01-10)"
-	description "40 Winks (USA) (Proto) (2000-01-10)"
+	name "40 Winks (USA) (Aftermarket) (Unl)"
+	description "40 Winks (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "N4WE"
+	rom ( name "40 Winks (USA) (Aftermarket) (Unl).z64" size 33554432 crc 31C19633 md5 B88C172ED14F4ACB43C4A352D71CC640 sha1 420F0ED3B67F802B5F3AB4BD17167C266F8F36CE serial "N4WE" )
+)
+game (
+	name "40 Winks (USA) (Aftermarket) (Unl)"
+	description "40 Winks (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "N4WE"
+	rom ( name "40 Winks (USA) (Aftermarket) (Unl).v64" size 33554432 crc 15A0118F md5 BC3C22CA31182BA8274B4CDA793A1469 sha1 83F02505F7383BA89CD03CA1AAA0E4019AC714EC serial "N4WE" )
+)
+game (
+	name "40 Winks (USA) (Proto)"
+	description "40 Winks (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "10"
 	region "USA"
 	serial "N4WZ"
 	rom ( name "40 Winks (USA) (Proto) (2000-01-10).z64" size 33554432 crc 3A674026 md5 8C3E4FE5F6B2D37C66A71097E8B1C72A sha1 E671412580800013703BE666E56E1B7E512AA55C serial "N4WZ" )
 )
 game (
-	name "40 Winks (USA) (Proto) (2000-01-10)"
-	description "40 Winks (USA) (Proto) (2000-01-10)"
+	name "40 Winks (USA) (Proto)"
+	description "40 Winks (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "10"
 	region "USA"
 	serial "N4WZ"
 	rom ( name "40 Winks (USA) (Proto) (2000-01-10).v64" size 33554432 crc 266A9E05 md5 2360BA4D8EABADEFB5A6DE3C8DD3BDC2 sha1 F0F9EDCBA11182AA1D23ADB34E5255C3923136D7 serial "N4WZ" )
@@ -334,29 +370,41 @@ game (
 	rom ( name "Aidyn Chronicles - The First Mage (Europe).v64" size 33554432 crc 9DC07FC0 md5 13B3B8AC219F8A57783BC1779DF02901 sha1 DD8867A3B33C897FA9E7E1742C4BC0DF1207CFA8 serial "NAYP" )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02)"
-	description "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02)"
+	name "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	description "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	releaseyear "2001"
+	releasemonth "03"
+	releaseday "02"
 	region "Europe"
 	serial "NAYP"
 	rom ( name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02).z64" size 33554432 crc 7E1F78B8 md5 86FEF7DA7CB95D52D5980CD59EAB31A5 sha1 DC49455068B1CCA2ACC2E0D24306DD70978B559E serial "NAYP" )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02)"
-	description "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02)"
+	name "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	description "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	releaseyear "2001"
+	releasemonth "03"
+	releaseday "02"
 	region "Europe"
 	serial "NAYP"
 	rom ( name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-03-02).v64" size 33554432 crc 69B47449 md5 57865A4485A27650605AAFA621C2161E sha1 3AAF44792908EBF88A6581D7C065BFDDF77BBDA6 serial "NAYP" )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10)"
-	description "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10)"
+	name "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	description "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	releaseyear "2001"
+	releasemonth "04"
+	releaseday "10"
 	region "Europe"
 	serial "NAYP"
 	rom ( name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10).z64" size 33554432 crc 60C73748 md5 76AE4AFB0FDDDB8F28856179A3F2CD59 sha1 7B6DF16479D926B042B4FC6971BC89F9D1F46DFE serial "NAYP" )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10)"
-	description "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10)"
+	name "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	description "Aidyn Chronicles - The First Mage (Europe) (Beta)"
+	releaseyear "2001"
+	releasemonth "04"
+	releaseday "10"
 	region "Europe"
 	serial "NAYP"
 	rom ( name "Aidyn Chronicles - The First Mage (Europe) (Beta) (2001-04-10).v64" size 33554432 crc CB796153 md5 E14350DD86C460C5C53A91DF3AC7A215 sha1 8183E50014D6BCCCEEF5112D2A88836F250BC884 serial "NAYP" )
@@ -376,38 +424,56 @@ game (
 	rom ( name "Aidyn Chronicles - The First Mage (USA).v64" size 33554432 crc 8DA62304 md5 08D66E903C0DC4EB9736B0DD853FAB51 sha1 32EF42E143B74CB957A88DDB9249AF13B15B45E7 serial "NAYE" )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "02"
+	releaseday "10"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10).z64" size 33554432 crc C46D84A0 md5 CD24763BECFA1D0053E5438B0EF5E75E sha1 6E8E1D2A40076B8503A433947658456EF5B833B9 )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "02"
+	releaseday "10"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-02-10).v64" size 33554432 crc 6BAEE952 md5 7C2912724839E1AB47A90A57A4BD5E40 sha1 FB150A932DC70712FF2AAA10029799A1D7BB1872 )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "09"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09).z64" size 33554432 crc ABD43F3F md5 CC6EAE9ED582044CC27945684FD396CD sha1 D741CEAC3CF6B14AB16A1F8D4F1BF9858BBF6C3D )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "09"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-05-09).v64" size 33554432 crc 58DCDCCE md5 D192BE815416927D90FE012E8BD0B49F sha1 30DC41CDD364BC671BDA757762062248C71A701F )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "12"
+	releaseday "05"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05).z64" size 33554432 crc 2B39F8E3 md5 1AC9DEC95AD700412A7295DA39237155 sha1 330CC37425909022BAEA9AAE58AB49CDD903EED5 )
 )
 game (
-	name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05)"
-	description "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05)"
+	name "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	description "Aidyn Chronicles - The First Mage (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "12"
+	releaseday "05"
 	region "USA"
 	rom ( name "Aidyn Chronicles - The First Mage (USA) (Beta) (2000-12-05).v64" size 33554432 crc C04A8AC9 md5 253839562C16DF8A7954BE3A261A7766 sha1 93E66799347C697BD0078ACC4DAB1D8F44924AEA )
 )
@@ -1181,26 +1247,38 @@ game (
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl).v64" size 16777216 crc 56507793 md5 37D5409EBB172E00CEFAA8B1F14C39B2 sha1 A3E21EC8BF3DE87D257F254AB68879981EAED4A9 serial "NBPP" )
 )
 game (
-	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20)"
-	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20)"
+	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#20)"
+	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#20)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "15"
 	region "Europe"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20).z64" size 33554432 crc 1AC60460 md5 0068E81BF8037E7C8AF658F0DDAE9400 sha1 EA4C2FC9F7AE4AFADAEDA4E1095282B16F427CEE )
 )
 game (
-	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20)"
-	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20)"
+	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#20)"
+	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#20)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "15"
 	region "Europe"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#20).v64" size 33554432 crc 93FB213B md5 D1119561245485D9AD8B445A119B6095 sha1 57F00A457956EAAE6F9FB484EB456E1BB733F5D3 )
 )
 game (
-	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53)"
-	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53)"
+	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#53)"
+	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#53)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "15"
 	region "Europe"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53).z64" size 33554432 crc BB1CA04D md5 410BF50920C28CE6D2C36174F659B0D7 sha1 B0F2546C0DBC4D8CC095337A288736E785219D02 )
 )
 game (
-	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53)"
-	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53)"
+	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#53)"
+	description "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (#53)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "15"
 	region "Europe"
 	serial "!none!"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2000-01-15) (#53).v64" size 33554432 crc 9A25D5E4 md5 DF8D5DF3F4E8ED4C406217B0156BE647 sha1 C334A95AAF247A012E6E8B3E1B745DD9512AF89E serial "!none!" )
@@ -1582,15 +1660,21 @@ game (
 	rom ( name "Bust-A-Move 3 DX (Europe).v64" size 8388608 crc 9F3F484B md5 C7D54104CC455D90D31EDD761BEB7205 sha1 20B2704B12298987BB6151FF432D616866DC00C1 serial "NB3P" )
 )
 game (
-	name "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28)"
-	description "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28)"
+	name "Bust-A-Move 3 DX (USA) (Beta)"
+	description "Bust-A-Move 3 DX (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "08"
+	releaseday "28"
 	region "USA"
 	serial "NB3E"
 	rom ( name "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28).z64" size 8388608 crc 0EE608D2 md5 D74F0B8738EB1B46248FF286DF7615D3 sha1 A0F53D92C8AB70AAE0D8605C1CF8F2092A81D720 serial "NB3E" )
 )
 game (
-	name "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28)"
-	description "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28)"
+	name "Bust-A-Move 3 DX (USA) (Beta)"
+	description "Bust-A-Move 3 DX (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "08"
+	releaseday "28"
 	region "USA"
 	serial "NB3E"
 	rom ( name "Bust-A-Move 3 DX (USA) (Beta) (1998-08-28).v64" size 8388608 crc 6280BA4F md5 D50384B1229A0F49F61F5331DE47B836 sha1 118E4BB43A8D8AD4AD1EC7D8912C7BDDB717D1A4 serial "NB3E" )
@@ -1666,14 +1750,20 @@ game (
 	rom ( name "Carmageddon 64 (USA).v64" size 16777216 crc E78DEBB6 md5 0B3C3A0940B9034ECF84A8DB19B25200 sha1 AB3A1A52754FED3DEA98E587FB9CC4CD64973403 serial "NCDE" )
 )
 game (
-	name "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21)"
-	description "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21)"
+	name "Carnivale - Cenzo's Adventure (USA) (Proto)"
+	description "Carnivale - Cenzo's Adventure (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "21"
 	region "USA"
 	rom ( name "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21).z64" size 16777216 crc CF3A966B md5 62A20938EA563BA5E79FB3799993D17B sha1 2EFD826BC0907E970AC90C77B3482FA6127ADDDE )
 )
 game (
-	name "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21)"
-	description "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21)"
+	name "Carnivale - Cenzo's Adventure (USA) (Proto)"
+	description "Carnivale - Cenzo's Adventure (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "21"
 	region "USA"
 	rom ( name "Carnivale - Cenzo's Adventure (USA) (Proto) (2000-07-21).v64" size 16777216 crc 1415BD1D md5 5488CAD5FE3972ED0FD2A92BC75D7B8B sha1 220FF8756B1188EF82FDE5A046CF8707012475AF )
 )
@@ -2158,29 +2248,41 @@ game (
 	rom ( name "Conker's Bad Fur Day (USA).v64" size 67108864 crc 6ACDB3FC md5 220543F489A9828021EA82A69E6305A3 sha1 27D3123DD4A3D84CB1A7ECF2CED3BC44389F4607 serial "NFUE" )
 )
 game (
-	name "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000)"
-	description "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000)"
+	name "Conker's Bad Fur Day (USA) (Beta) (ECTS 2000)"
+	description "Conker's Bad Fur Day (USA) (Beta) (ECTS 2000)"
+	releaseyear "2000"
+	releasemonth "08"
+	releaseday "26"
 	region "USA"
 	serial "NFUE"
 	rom ( name "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000).z64" size 67108864 crc E1CDA95A md5 13ECBAEEF7111D5343D73A80E03E353A sha1 06597DC935651F8995BFACC30FDE6E621D44C3E1 serial "NFUE" )
 )
 game (
-	name "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000)"
-	description "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000)"
+	name "Conker's Bad Fur Day (USA) (Beta) (ECTS 2000)"
+	description "Conker's Bad Fur Day (USA) (Beta) (ECTS 2000)"
+	releaseyear "2000"
+	releasemonth "08"
+	releaseday "26"
 	region "USA"
 	serial "NFUE"
 	rom ( name "Conker's Bad Fur Day (USA) (Beta) (2000-08-26) (ECTS 2000).v64" size 67108864 crc AF9C5972 md5 2B5335B041B161A73C0EBA0D76B26CA0 sha1 92575EED941324B9CD7D29DF61E720B04D8B26CB serial "NFUE" )
 )
 game (
-	name "Conker's Bad Fur Day (USA) (Beta) (2000-10-25)"
-	description "Conker's Bad Fur Day (USA) (Beta) (2000-10-25)"
+	name "Conker's Bad Fur Day (USA) (Beta)"
+	description "Conker's Bad Fur Day (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "10"
+	releaseday "25"
 	region "USA"
 	serial "NFUE"
 	rom ( name "Conker's Bad Fur Day (USA) (Beta) (2000-10-25).z64" size 67108864 crc 4F73408C md5 70E9EB9BF2F7BC76CA38CE450BA01C2E sha1 3B99222EE76F6277A963142CD807B3DF25D5174F serial "NFUE" )
 )
 game (
-	name "Conker's Bad Fur Day (USA) (Beta) (2000-10-25)"
-	description "Conker's Bad Fur Day (USA) (Beta) (2000-10-25)"
+	name "Conker's Bad Fur Day (USA) (Beta)"
+	description "Conker's Bad Fur Day (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "10"
+	releaseday "25"
 	region "USA"
 	serial "NFUE"
 	rom ( name "Conker's Bad Fur Day (USA) (Beta) (2000-10-25).v64" size 67108864 crc C9822F5C md5 5C3D63E73C3A30E4B28D5F79045592D6 sha1 6956BD77351A91CDD22AF454A8D410A3B9C829F0 serial "NFUE" )
@@ -2508,14 +2610,20 @@ game (
 	rom ( name "Destruction Derby 64 (USA).v64" size 16777216 crc EF680F71 md5 5B9D74019FFCC91B8737CE09C0AF5030 sha1 31981B9B32814BBC3FE0C2A71C888858566352F9 serial "NDEE" )
 )
 game (
-	name "Destruction Derby 64 (USA) (Beta) (1998-07-31)"
-	description "Destruction Derby 64 (USA) (Beta) (1998-07-31)"
+	name "Destruction Derby 64 (USA) (Beta)"
+	description "Destruction Derby 64 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "07"
+	releaseday "31"
 	region "USA"
 	rom ( name "Destruction Derby 64 (USA) (Beta) (1998-07-31).z64" size 16777216 crc A0FF0874 md5 749AC5BC4E7F2B17274F6966DDBF6872 sha1 6C20DE318BD6C96409858BE3C09E14CE01B829A9 )
 )
 game (
-	name "Destruction Derby 64 (USA) (Beta) (1998-07-31)"
-	description "Destruction Derby 64 (USA) (Beta) (1998-07-31)"
+	name "Destruction Derby 64 (USA) (Beta)"
+	description "Destruction Derby 64 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "07"
+	releaseday "31"
 	region "USA"
 	rom ( name "Destruction Derby 64 (USA) (Beta) (1998-07-31).v64" size 16777216 crc 5726C048 md5 38A007DABC9C19F055914F3279817D04 sha1 368C64D15A08FDCA786EA900E517202C9B0C8DEA )
 )
@@ -2640,15 +2748,21 @@ game (
 	rom ( name "Die Hard 64 (USA) (Proto) (Level 3).v64" size 33554432 crc E5703251 md5 33D54B479BAADFE588B55014C09F139E sha1 D0A7BCD9720422D44B127B7C3FA7D949C31CEF92 )
 )
 game (
-	name "Dinosaur Planet (USA) (Proto) (2000-12-01)"
-	description "Dinosaur Planet (USA) (Proto) (2000-12-01)"
+	name "Dinosaur Planet (USA) (Proto)"
+	description "Dinosaur Planet (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "12"
+	releaseday "01"
 	region "USA"
 	serial "NDPE"
 	rom ( name "Dinosaur Planet (USA) (Proto) (2000-12-01).z64" size 67108864 crc A7DAF9FA md5 49F7BB346ADE39D1915C22E090FFD748 sha1 CB9760B49198F7B754593A01C8ED642211CAACDE serial "NDPE" )
 )
 game (
-	name "Dinosaur Planet (USA) (Proto) (2000-12-01)"
-	description "Dinosaur Planet (USA) (Proto) (2000-12-01)"
+	name "Dinosaur Planet (USA) (Proto)"
+	description "Dinosaur Planet (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "12"
+	releaseday "01"
 	region "USA"
 	serial "NDPE"
 	rom ( name "Dinosaur Planet (USA) (Proto) (2000-12-01).v64" size 67108864 crc F3B8ADD3 md5 D9237961F1A5096C7B5173F50BDBEB6E sha1 17CA9470AC5D3F961A5C76E964489A743380819C serial "NDPE" )
@@ -2755,6 +2869,16 @@ game (
 	rom ( name "Donkey Kong 64 (USA) (LodgeNet).v64" size 33554432 crc 0AB3AE03 md5 394DD769831F7C8288A0073679DD6C7D sha1 9D85ABF1A80B2C3A0013CB42420FB5B5191D42D8 )
 )
 game (
+	name "Donsol (World) (Aftermarket) (Unl)"
+	description "Donsol (World) (Aftermarket) (Unl)"
+	rom ( name "Donsol (World) (Aftermarket) (Unl).z64" size 1052672 crc A0E96C02 md5 3F345578242EB8C7F8F9710DF6432ABB sha1 BAC0791B68292E40C3971F84D7E23841EB8FAC32 )
+)
+game (
+	name "Donsol (World) (Aftermarket) (Unl)"
+	description "Donsol (World) (Aftermarket) (Unl)"
+	rom ( name "Donsol (World) (Aftermarket) (Unl).v64" size 1052672 crc 99E5B970 md5 67C0DD8A4D6D77C164A279B6E0EB273C sha1 42A0854BD0C0F8AEEA97B37401C792250BBBC482 )
+)
+game (
 	name "Doom 64 (Europe)"
 	description "Doom 64 (Europe)"
 	region "Europe"
@@ -2797,14 +2921,20 @@ game (
 	rom ( name "Doom 64 (USA).v64" size 8388608 crc 4DFB7CB6 md5 5A8684BC098428DD2A401F4CDAEE78DF sha1 B30F2B1B1CF70DC4B398BFF26F75EEDFF858540D serial "NDME" )
 )
 game (
-	name "Doom 64 (USA) (Beta) (1996-12-10)"
-	description "Doom 64 (USA) (Beta) (1996-12-10)"
+	name "Doom 64 (USA) (Beta)"
+	description "Doom 64 (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "10"
 	region "USA"
 	rom ( name "Doom 64 (USA) (Beta) (1996-12-10).z64" size 16777216 crc 68F7655E md5 31A8EFFFE1BE68BB1186EFA89D9C8896 sha1 398C9C1FE34BE41E47AB69C659FD093813692574 )
 )
 game (
-	name "Doom 64 (USA) (Beta) (1996-12-10)"
-	description "Doom 64 (USA) (Beta) (1996-12-10)"
+	name "Doom 64 (USA) (Beta)"
+	description "Doom 64 (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "10"
 	region "USA"
 	rom ( name "Doom 64 (USA) (Beta) (1996-12-10).v64" size 16777216 crc 521B7BDD md5 FBBFD9CD223B9B6461BBA24B2734EC7E sha1 5C83F16272C14523626ADA2721C522DBE124DDB7 )
 )
@@ -2931,14 +3061,20 @@ game (
 	rom ( name "Dragon Sword 64 (Europe) (Proto).v64" size 33554432 crc 3F174786 md5 78A4B23DA0CDBE342641C8348D9851EF sha1 75C20BB3E9B820FD63C69E4F2D9AB78B421D458E serial "MGVP" )
 )
 game (
-	name "Dragon Sword 64 (USA) (Proto) (1999-08-25)"
-	description "Dragon Sword 64 (USA) (Proto) (1999-08-25)"
+	name "Dragon Sword 64 (USA) (Proto)"
+	description "Dragon Sword 64 (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "08"
+	releaseday "25"
 	region "USA"
 	rom ( name "Dragon Sword 64 (USA) (Proto) (1999-08-25).z64" size 33554432 crc 2296B50D md5 942FC6737765AC718799A7F66202216C sha1 4478A6405F61014478BBC35CEE3A00EE1515D8CE )
 )
 game (
-	name "Dragon Sword 64 (USA) (Proto) (1999-08-25)"
-	description "Dragon Sword 64 (USA) (Proto) (1999-08-25)"
+	name "Dragon Sword 64 (USA) (Proto)"
+	description "Dragon Sword 64 (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "08"
+	releaseday "25"
 	region "USA"
 	rom ( name "Dragon Sword 64 (USA) (Proto) (1999-08-25).v64" size 33554432 crc BC5A6081 md5 85D77C74A989E6CFF1EF14D9F19313CC sha1 F5AC5EFF3C6EAF7DF9119C0F16504A90E70A59DC )
 )
@@ -3011,14 +3147,20 @@ game (
 	rom ( name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 1).v64" size 16777216 crc AF7DB35E md5 236578256A37A9DF74BBA9E14FA2AB8A sha1 A440CBD1326D2D1BE030E134DA079D579C2EE646 )
 )
 game (
-	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07)"
-	description "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07)"
+	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2)"
+	description "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2)"
+	releaseyear "2000"
+	releasemonth "03"
+	releaseday "07"
 	region "USA"
 	rom ( name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07).z64" size 33554432 crc 1E48D155 md5 08CE7620B31851CBB05D386FE22C7109 sha1 145E0CB7F3A0E866945631DCF633D31B26C7E6BC )
 )
 game (
-	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07)"
-	description "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07)"
+	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2)"
+	description "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2)"
+	releaseyear "2000"
+	releasemonth "03"
+	releaseday "07"
 	region "USA"
 	serial "!none!"
 	rom ( name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es) (Beta 2) (2000-03-07).v64" size 33554432 crc 79D52B78 md5 539A7FA34046337BC3F7CC33EBE58FAF sha1 FDE41BEA15F3DCE268532D7A8CE363D409A0545E serial "!none!" )
@@ -3638,12 +3780,14 @@ game (
 game (
 	name "F1 Racing Championship (Brazil) (En,Fr)"
 	description "F1 Racing Championship (Brazil) (En,Fr)"
+	region "Brazil"
 	serial "NFRE"
 	rom ( name "F1 Racing Championship (Brazil) (En,Fr).z64" size 16777216 crc C05B9184 md5 44D5F87127053A21DB120BD108B7AC0C sha1 4C95CEE963C9F8B477C41C03AFCCB3362A14E7CE serial "NFRE" )
 )
 game (
 	name "F1 Racing Championship (Brazil) (En,Fr)"
 	description "F1 Racing Championship (Brazil) (En,Fr)"
+	region "Brazil"
 	serial "NFRE"
 	rom ( name "F1 Racing Championship (Brazil) (En,Fr).v64" size 16777216 crc 7AD98002 md5 A678F1DAC5BD3224772E891108E1971A sha1 4FB7619AF8D48B6DD8D8057AD9F6567B9E84F446 serial "NFRE" )
 )
@@ -3900,6 +4044,26 @@ game (
 	rom ( name "Fighting Force 64 (USA).v64" size 16777216 crc ADE7DCA4 md5 A47AF0821704B001C3565C0C1D5AFEF1 sha1 3CE2DDAFAA5101D3B2F49210AB6E6976994E5FBE serial "NFFE" )
 )
 game (
+	name "Fission Failure 64 (World) (Aftermarket) (Unl)"
+	description "Fission Failure 64 (World) (Aftermarket) (Unl)"
+	rom ( name "Fission Failure 64 (World) (Aftermarket) (Unl).z64" size 15335424 crc FC267E35 md5 88A02053A4C7530F7A5450852FBA98A9 sha1 FCDC8F21FA636A8B17245B8F54E28A931F45F14F )
+)
+game (
+	name "Fission Failure 64 (World) (Aftermarket) (Unl)"
+	description "Fission Failure 64 (World) (Aftermarket) (Unl)"
+	rom ( name "Fission Failure 64 (World) (Aftermarket) (Unl).v64" size 15335424 crc 30291DA8 md5 CAE7929A35E22B5DA7238F2CDC9387AE sha1 D32549DFC604B23E4ADEBCA9849AF89FDAD29181 )
+)
+game (
+	name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	rom ( name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl).z64" size 8388608 crc BD94016E md5 4B175ED0F7EBCB74F529AF2E482FDF96 sha1 3B0CCD0D847D8FE2D9EC18AE8587A0184CAAE011 )
+)
+game (
+	name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl)"
+	rom ( name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl).v64" size 8388608 crc 76B4F472 md5 A3D7660C406DB9957EE05A286438B5E6 sha1 88B1F2F9A6041636D519D9BDA5F90DBA946FE145 )
+)
+game (
 	name "Flying Dragon (Europe)"
 	description "Flying Dragon (Europe)"
 	region "Europe"
@@ -4092,15 +4256,21 @@ game (
 	rom ( name "GT 64 - Championship Edition (USA).v64" size 12582912 crc B6DC4CFD md5 15AE9E64114F87DE8ADABD5A24CA8A2F sha1 BBF4039865FDCF30E403A45478DC6C8450944512 serial "NGCE" )
 )
 game (
-	name "GT 64 - Championship Edition (USA) (Beta) (1998-05-25)"
-	description "GT 64 - Championship Edition (USA) (Beta) (1998-05-25)"
+	name "GT 64 - Championship Edition (USA) (Beta)"
+	description "GT 64 - Championship Edition (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "05"
+	releaseday "25"
 	region "USA"
 	serial "NGCE"
 	rom ( name "GT 64 - Championship Edition (USA) (Beta) (1998-05-25).z64" size 16777216 crc 191BF504 md5 4690CAB33D0BC10B62D62CECDCAA50A1 sha1 6B58306825EF85A3A128DD5BC0BC0C21F517B3A2 serial "NGCE" )
 )
 game (
-	name "GT 64 - Championship Edition (USA) (Beta) (1998-05-25)"
-	description "GT 64 - Championship Edition (USA) (Beta) (1998-05-25)"
+	name "GT 64 - Championship Edition (USA) (Beta)"
+	description "GT 64 - Championship Edition (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "05"
+	releaseday "25"
 	region "USA"
 	serial "NGCE"
 	rom ( name "GT 64 - Championship Edition (USA) (Beta) (1998-05-25).v64" size 16777216 crc DB690612 md5 6FEB13476CA82D20A7766F36E79147E0 sha1 026D2D02A103E3C1D5DDFAFBC605E6110768CB14 serial "NGCE" )
@@ -4334,6 +4504,16 @@ game (
 	rom ( name "Gex 64 - Enter the Gecko (USA).v64" size 16777216 crc 3F90E7C2 md5 A949166A1EB9592C8F46471E7AAC290F sha1 8C10971D9052EF796973F4CE137858109A63A598 serial "NX2E" )
 )
 game (
+	name "Glamorous Zombie Flakes (World) (Aftermarket) (Unl)"
+	description "Glamorous Zombie Flakes (World) (Aftermarket) (Unl)"
+	rom ( name "Glamorous Zombie Flakes (World) (Aftermarket) (Unl).z64" size 3340016 crc ACD6288F md5 DE127AA55773643E1600FE2B4C69BDBE sha1 76779AE67A320C806D8745F60A98A399AAA8AF8B )
+)
+game (
+	name "Glamorous Zombie Flakes (World) (Aftermarket) (Unl)"
+	description "Glamorous Zombie Flakes (World) (Aftermarket) (Unl)"
+	rom ( name "Glamorous Zombie Flakes (World) (Aftermarket) (Unl).v64" size 3340016 crc 3E83DF4F md5 79A1C0F9F668C7716DAB0315BC69D631 sha1 B5525F08EE1A17AA94C5904CB28AED443C79A75C )
+)
+game (
 	name "Glover (Europe) (En,Fr,De)"
 	description "Glover (Europe) (En,Fr,De)"
 	region "Europe"
@@ -4362,18 +4542,38 @@ game (
 	rom ( name "Glover (USA).v64" size 8388608 crc D024893A md5 A43F68079C8FFF2920137585B39FC73E sha1 ED756CAE1582A4940DDB854B5376A0013F7F5634 serial "NGVE" )
 )
 game (
-	name "Glover (USA) (1998-09-04) (Beta)"
-	description "Glover (USA) (1998-09-04) (Beta)"
+	name "Glover (USA) (Beta)"
+	description "Glover (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "04"
 	region "USA"
 	serial "NGVE"
 	rom ( name "Glover (USA) (1998-09-04) (Beta).z64" size 25165824 crc 5E091E8F md5 9CC14C73EB1202C3D19633EE05AD5FC4 sha1 3DA3074FE998DBC6C47791A5B6DCBB5143B0FAD8 serial "NGVE" )
 )
 game (
-	name "Glover (USA) (1998-09-04) (Beta)"
-	description "Glover (USA) (1998-09-04) (Beta)"
+	name "Glover (USA) (Beta)"
+	description "Glover (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "04"
 	region "USA"
 	serial "NGVE"
 	rom ( name "Glover (USA) (1998-09-04) (Beta).v64" size 25165824 crc DB8A6C7C md5 8433319C3A428555B05424F6C739C408 sha1 DF3AD7A30DB393C0E647F61A454ED042408727A5 serial "NGVE" )
+)
+game (
+	name "Glover (USA) (En,Fr,De) (Aftermarket) (Unl)"
+	description "Glover (USA) (En,Fr,De) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Glover (USA) (En,Fr,De) (Aftermarket) (Unl).z64" size 8388608 crc 9FB6A52B md5 E2967F0A257F870D53AF51E887C0D501 sha1 BA11111CAA12764EBB1BB83A93AF4094D80018B5 serial "NGVE" )
+)
+game (
+	name "Glover (USA) (En,Fr,De) (Aftermarket) (Unl)"
+	description "Glover (USA) (En,Fr,De) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Glover (USA) (En,Fr,De) (Aftermarket) (Unl).v64" size 8388608 crc 89B2030E md5 B020214496F802D6DB53EBF96C621FC4 sha1 7EB719A5A81C35C13A52E673A9DF6E3E71C4FBB6 serial "NGVE" )
 )
 game (
 	name "Glover 2 (USA) (Proto 1)"
@@ -4470,6 +4670,20 @@ game (
 	region "Japan"
 	serial "NGEJ"
 	rom ( name "GoldenEye 007 (Japan).v64" size 12582912 crc C26FED78 md5 369BF90B44B050EF74B4759E29D85EE7 sha1 451B41B63D75677BD42DB89A56679208808FCFD0 serial "NGEJ" )
+)
+game (
+	name "GoldenEye 007 (Japan) (Switch Online)"
+	description "GoldenEye 007 (Japan) (Switch Online)"
+	region "Japan"
+	serial "NGEJ"
+	rom ( name "GoldenEye 007 (Japan) (Switch Online).z64" size 12582912 crc 92DD6DD5 md5 D41F3EF8F65CEDFA0D262D25FA968BBA sha1 A5F4FBF0ED959EDD61762940A20C042E6A02A070 serial "NGEJ" )
+)
+game (
+	name "GoldenEye 007 (Japan) (Switch Online)"
+	description "GoldenEye 007 (Japan) (Switch Online)"
+	region "Japan"
+	serial "NGEJ"
+	rom ( name "GoldenEye 007 (Japan) (Switch Online).v64" size 12582912 crc CE03D61E md5 5E435DD67566BA16BDA6836F845BF05F sha1 8089A622E372E130B48BBE01C3853D0174D18A64 serial "NGEJ" )
 )
 game (
 	name "GoldenEye 007 (USA)"
@@ -5136,14 +5350,20 @@ game (
 	rom ( name "International Superstar Soccer '98 (Europe).v64" size 12582912 crc 463FE8B7 md5 7AB4ED7CDABB83C9D507C7F50E7E4D12 sha1 4FC51FBE034F8572B4727756778DE7A27B43C81A serial "NWSP" )
 )
 game (
-	name "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)"
-	description "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)"
+	name "International Superstar Soccer '98 (Europe) (Beta)"
+	description "International Superstar Soccer '98 (Europe) (Beta)"
+	releaseyear "1998"
+	releasemonth "03"
+	releaseday "02"
 	region "Europe"
 	rom ( name "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02).z64" size 16777216 crc A63DCB66 md5 21EA0B80849B084AC3138FDE780E5DBB sha1 2FB15E4517EBE84F4A354E555716105FE69DD993 )
 )
 game (
-	name "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)"
-	description "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02)"
+	name "International Superstar Soccer '98 (Europe) (Beta)"
+	description "International Superstar Soccer '98 (Europe) (Beta)"
+	releaseyear "1998"
+	releasemonth "03"
+	releaseday "02"
 	region "Europe"
 	serial "!none!"
 	rom ( name "International Superstar Soccer '98 (Europe) (Beta) (1998-03-02).v64" size 16777216 crc 20E1CEA3 md5 44CA5531612C59B8262CCCC636A58A1D sha1 8BDF4B5E4A233715DCA98C9515E0907B7A53CBEE serial "!none!" )
@@ -5611,14 +5831,20 @@ game (
 	rom ( name "Jikkyou Powerful Pro Yakyuu 4 (Japan).v64" size 12582912 crc 8D2540F1 md5 BC1762B17751DB7BB7B2C55B8A9D6E70 sha1 73016B7C15BAE869B0D868E62B433400503EF540 serial "NP4J" )
 )
 game (
-	name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)"
-	description "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)"
+	name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta)"
+	description "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta)"
+	releaseyear "1996"
+	releasemonth "11"
+	releaseday "30"
 	region "Japan"
 	rom ( name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30).z64" size 16777216 crc 1B8B9A68 md5 ADA39573B25804610D8FAFAFF741B088 sha1 C780866C263F5D9AE8F70BAD558B0DE6D5795115 )
 )
 game (
-	name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)"
-	description "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30)"
+	name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta)"
+	description "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta)"
+	releaseyear "1996"
+	releasemonth "11"
+	releaseday "30"
 	region "Japan"
 	serial "!none!"
 	rom ( name "Jikkyou Powerful Pro Yakyuu 4 (Japan) (Beta) (1996-11-30).v64" size 16777216 crc 5243F075 md5 7D9DC1BA5A34B9B65B7DCF724FEEF5EF sha1 59FE44C940FDAD4FE9C852772B36C6C3FCFFCF09 serial "!none!" )
@@ -6264,29 +6490,41 @@ game (
 	rom ( name "Legend of Zelda, The - Majora's Mask (USA) (LodgeNet).v64" size 33554432 crc 168A3B0D md5 454D3E30A73826D6F3A2F2C04806AFDB sha1 F85E13F608A4F87D555CB572A32A4497B1848503 )
 )
 game (
-	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)"
-	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)"
+	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube)"
+	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube)"
+	releaseyear "2003"
+	releasemonth "02"
+	releaseday "13"
 	region "Europe"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube).z64" size 67108864 crc C188ACDA md5 AB1CA59D0039E3B34D82DB650B54D7B9 sha1 DA19CA4AAC723C155D55AE371107B8462044E350 serial "NZLP" )
 )
 game (
-	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)"
-	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube)"
+	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube)"
+	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube)"
+	releaseyear "2003"
+	releasemonth "02"
+	releaseday "13"
 	region "Europe"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-13) (GameCube).v64" size 67108864 crc 2796B9EB md5 8407D3C875EF1DC20DAF3A415A54EC82 sha1 26213BAD0C70521D5061C93E2661E18DC45925EA serial "NZLP" )
 )
 game (
-	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug)"
-	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug)"
+	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube) (Debug)"
+	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube) (Debug)"
+	releaseyear "2003"
+	releasemonth "02"
+	releaseday "21"
 	region "Europe"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug).z64" size 67108864 crc 5D1B2996 md5 3C10B67A76616AE2C162DEF7528724CF sha1 CEE6BC3C2A634B41728F2AF8DA54D9BF8CC14099 serial "NZLP" )
 )
 game (
-	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug)"
-	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug)"
+	name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube) (Debug)"
+	description "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (GameCube) (Debug)"
+	releaseyear "2003"
+	releasemonth "02"
+	releaseday "21"
 	region "Europe"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (Beta) (2003-02-21) (GameCube) (Debug).v64" size 67108864 crc 9F742B66 md5 F4FAA2E0BD2C391A5B0F8CAADB57DD70 sha1 A9059B56E761C9034FBE02FE4C24985AAA835DAC serial "NZLP" )
@@ -6456,6 +6694,30 @@ game (
 	region "USA"
 	serial "CZLE"
 	rom ( name "Legend of Zelda, The - Ocarina of Time - Master Quest (USA) (GameCube).v64" size 33554432 crc 7B89B13F md5 5E4E20F344128D32DF88CBBFB89C8E13 sha1 E1D070AD7B017DE9F992B362164DCD9D7F820F7E serial "CZLE" )
+)
+game (
+	name "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate)"
+	description "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate)"
+	region "USA"
+	rom ( name "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate).z64" size 33554432 crc 4D72D2D5 md5 2AD2A06456EA7D3B231CF9E406E6AE76 sha1 DC3D797F94259227796F283151F29CFAE2212DD2 )
+)
+game (
+	name "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate)"
+	description "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate)"
+	region "USA"
+	rom ( name "Legend of Zelda, The - The Sealed Palace (USA) (v1.21) (Aftermarket) (Pirate).v64" size 33554432 crc E53F0C1E md5 B50C2F1F9BEEE7C97A4A2A2F0323B5D2 sha1 0F9355317D91F471E9FF5AC768DEC5BFA337F4F7 )
+)
+game (
+	name "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate)"
+	description "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate)"
+	region "USA"
+	rom ( name "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate).z64" size 33554432 crc 91C1B340 md5 C65D67DD5B61EBC1F58D7202DDE78BBE sha1 177A175BCEA116CCC92F70FE2255AD3AE3294F13 )
+)
+game (
+	name "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate)"
+	description "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate)"
+	region "USA"
+	rom ( name "Legend of Zelda, The - The Sealed Palace (USA) (v1.3) (Aftermarket) (Pirate).v64" size 33554432 crc BE550D02 md5 2D22A86F6C38306AA1C77BE0159AF44D sha1 576F2DC947386C3E5D21B6605F32D01F7A1B2C43 )
 )
 game (
 	name "Let's Smash (Japan)"
@@ -6722,15 +6984,21 @@ game (
 	rom ( name "Madden NFL 99 (USA).v64" size 12582912 crc AC21A5BF md5 CE6D203535E27FB7A98FD6F2C10490A8 sha1 FD5DA6FEF67461FB5D6767D933663DCFA6E0F054 serial "N9ME" )
 )
 game (
-	name "Madden NFL 99 (USA) (1998-08-05) (Beta)"
-	description "Madden NFL 99 (USA) (1998-08-05) (Beta)"
+	name "Madden NFL 99 (USA) (Beta)"
+	description "Madden NFL 99 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "08"
+	releaseday "05"
 	region "USA"
 	serial "N9ME"
 	rom ( name "Madden NFL 99 (USA) (1998-08-05) (Beta).z64" size 16777216 crc 033A2CA6 md5 5F3D42D5F96191F3CE50D70E0E42127A sha1 80236FC4CE2BB95DE513F3B2BE74ACEC9DA4804C serial "N9ME" )
 )
 game (
-	name "Madden NFL 99 (USA) (1998-08-05) (Beta)"
-	description "Madden NFL 99 (USA) (1998-08-05) (Beta)"
+	name "Madden NFL 99 (USA) (Beta)"
+	description "Madden NFL 99 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "08"
+	releaseday "05"
 	region "USA"
 	serial "N9ME"
 	rom ( name "Madden NFL 99 (USA) (1998-08-05) (Beta).v64" size 16777216 crc E7F33CC8 md5 6EF343B14A68D653FF11A512A2DA82A3 sha1 4F38E57F5F6D0A0406B074D9B5473C3FE99A0F32 serial "N9ME" )
@@ -7934,14 +8202,20 @@ game (
 	rom ( name "Mortal Kombat Trilogy (USA).v64" size 12582912 crc 58E57C08 md5 11819262F59DBD61F9E6621483CC0245 sha1 FC82A5BBB306C3F855974DE18CF1B1BFFAC268FF serial "NMKE" )
 )
 game (
-	name "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta)"
-	description "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta)"
+	name "Mortal Kombat Trilogy (USA) (Beta)"
+	description "Mortal Kombat Trilogy (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "05"
+	releaseday "13"
 	region "USA"
 	rom ( name "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta).z64" size 16777216 crc EAB22C06 md5 B6A7B85C123DF4E0B9CC118578DBC9A2 sha1 2F95CE7F8233F1DF82E0AD39AD5BA6A5EBFB6DB7 )
 )
 game (
-	name "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta)"
-	description "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta)"
+	name "Mortal Kombat Trilogy (USA) (Beta)"
+	description "Mortal Kombat Trilogy (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "05"
+	releaseday "13"
 	region "USA"
 	rom ( name "Mortal Kombat Trilogy (USA) (1996-05-13) (Beta).v64" size 16777216 crc D969F8EA md5 39785FD2D0BF241CBFF6A395C07C6FD1 sha1 BA90EE2F01E6A4E8532E21A5578FD1ED8294016A )
 )
@@ -8170,14 +8444,20 @@ game (
 	rom ( name "NBA Jam 99 (USA).v64" size 12582912 crc F40C871A md5 6B1912A7269E4A2FEEA518653277B7B6 sha1 5303A21D20BEF75E6F77FBAEDD120391CB4131D5 serial "NB9E" )
 )
 game (
-	name "NBA Jam 99 (USA) (Beta) (1998-09-25)"
-	description "NBA Jam 99 (USA) (Beta) (1998-09-25)"
+	name "NBA Jam 99 (USA) (Beta)"
+	description "NBA Jam 99 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "25"
 	region "USA"
 	rom ( name "NBA Jam 99 (USA) (Beta) (1998-09-25).z64" size 16777216 crc 8BF6A686 md5 2FED0445C97A9D293A3FBA5C786B2C39 sha1 12D0CAED77721DF269FE3DB96AE1BC9733B9D45F )
 )
 game (
-	name "NBA Jam 99 (USA) (Beta) (1998-09-25)"
-	description "NBA Jam 99 (USA) (Beta) (1998-09-25)"
+	name "NBA Jam 99 (USA) (Beta)"
+	description "NBA Jam 99 (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "25"
 	region "USA"
 	rom ( name "NBA Jam 99 (USA) (Beta) (1998-09-25).v64" size 16777216 crc F0B6B504 md5 95D6C0F0613D0F9BAB17E87990AE1024 sha1 3D5C51E491F4F5B6A26185FF14AD96ED3AE4AF63 )
 )
@@ -8824,15 +9104,21 @@ game (
 	rom ( name "Nuclear Strike 64 (Germany).v64" size 33554432 crc D7200CC0 md5 3213B97FD995385E93396F92E0FB719C sha1 F60E68E8F8BC938967F8F26919FED1DC9AA46FCD serial "NCED" )
 )
 game (
-	name "Nuclear Strike 64 (Germany) (1999-11-17) (Beta)"
-	description "Nuclear Strike 64 (Germany) (1999-11-17) (Beta)"
+	name "Nuclear Strike 64 (Germany) (Beta)"
+	description "Nuclear Strike 64 (Germany) (Beta)"
+	releaseyear "1999"
+	releasemonth "11"
+	releaseday "17"
 	region "Germany"
 	serial "NCED"
 	rom ( name "Nuclear Strike 64 (Germany) (1999-11-17) (Beta).z64" size 33554432 crc 020B6443 md5 ACED6F89B3500C618AFE47C04F0256E8 sha1 FB1C682546B02B5D76FD83CF5B24E2A3C8285ADF serial "NCED" )
 )
 game (
-	name "Nuclear Strike 64 (Germany) (1999-11-17) (Beta)"
-	description "Nuclear Strike 64 (Germany) (1999-11-17) (Beta)"
+	name "Nuclear Strike 64 (Germany) (Beta)"
+	description "Nuclear Strike 64 (Germany) (Beta)"
+	releaseyear "1999"
+	releasemonth "11"
+	releaseday "17"
 	region "Germany"
 	serial "NCED"
 	rom ( name "Nuclear Strike 64 (Germany) (1999-11-17) (Beta).v64" size 33554432 crc B1D7EBD1 md5 FA066F38756D6D0C0571B8C925A6BB51 sha1 0F59E76A698C5E3D98C21339D72A20A16054A969 serial "NCED" )
@@ -8852,14 +9138,20 @@ game (
 	rom ( name "Nuclear Strike 64 (USA).v64" size 33554432 crc 1A70D11A md5 3B7330D7055AD8D514E4F516F2A80101 sha1 EA1371D29CBDEDE166A69C77B2C4A77D6EDAB77D serial "NCEE" )
 )
 game (
-	name "Nuclear Strike 64 (USA) (1999-09-21) (Beta)"
-	description "Nuclear Strike 64 (USA) (1999-09-21) (Beta)"
+	name "Nuclear Strike 64 (USA) (Beta)"
+	description "Nuclear Strike 64 (USA) (Beta)"
+	releaseyear "1999"
+	releasemonth "09"
+	releaseday "21"
 	region "USA"
 	rom ( name "Nuclear Strike 64 (USA) (1999-09-21) (Beta).z64" size 33554432 crc A23C4E0C md5 146E9B9F8BA71F202A89FA011FC7F2CE sha1 9E4867328AC65BEDC3A4058D3F5A82A84898D432 )
 )
 game (
-	name "Nuclear Strike 64 (USA) (1999-09-21) (Beta)"
-	description "Nuclear Strike 64 (USA) (1999-09-21) (Beta)"
+	name "Nuclear Strike 64 (USA) (Beta)"
+	description "Nuclear Strike 64 (USA) (Beta)"
+	releaseyear "1999"
+	releasemonth "09"
+	releaseday "21"
 	region "USA"
 	rom ( name "Nuclear Strike 64 (USA) (1999-09-21) (Beta).v64" size 33554432 crc 176112BA md5 3B2599457D7F8300E52CE5993950E8A3 sha1 6FC403399702DA65165023B6E17B2EE3314E366C )
 )
@@ -9292,15 +9584,21 @@ game (
 	rom ( name "Penny Racers (USA).v64" size 8388608 crc 06BEEA3F md5 A9E6E459908009B979C4CB649609A208 sha1 F8CA8A70653DBE488749FD3EA3E428FB9B1F72C8 serial "NCRE" )
 )
 game (
-	name "Perfect Dark (Europe) (2000-04-26) (Debug)"
-	description "Perfect Dark (Europe) (2000-04-26) (Debug)"
+	name "Perfect Dark (Europe) (Debug)"
+	description "Perfect Dark (Europe) (Debug)"
+	releaseyear "2000"
+	releasemonth "04"
+	releaseday "26"
 	region "Europe"
 	serial "NPDP"
 	rom ( name "Perfect Dark (Europe) (2000-04-26) (Debug).z64" size 33554432 crc B33C4A54 md5 AD2DE210A3455BA5EC541F0C78D91444 sha1 79E3213BBAC19B8E196E97E6348006C0506B27A9 serial "NPDP" )
 )
 game (
-	name "Perfect Dark (Europe) (2000-04-26) (Debug)"
-	description "Perfect Dark (Europe) (2000-04-26) (Debug)"
+	name "Perfect Dark (Europe) (Debug)"
+	description "Perfect Dark (Europe) (Debug)"
+	releaseyear "2000"
+	releasemonth "04"
+	releaseday "26"
 	region "Europe"
 	serial "NPDP"
 	rom ( name "Perfect Dark (Europe) (2000-04-26) (Debug).v64" size 33554432 crc 5C6AC287 md5 6591A8D4A54DF2EDD351080DD37CB924 sha1 278CEC1806EB39690CD2A3AE4838CFA8B8E630D2 serial "NPDP" )
@@ -9348,15 +9646,21 @@ game (
 	rom ( name "Perfect Dark (USA).v64" size 33554432 crc F0FE18F0 md5 EAEDD63AE7609C8C795DB93AA2437C4C sha1 EA43D1F09B47107AE0D1B7472BCA58D785E8573A serial "NPDE" )
 )
 game (
-	name "Perfect Dark (USA) (2000-03-22) (Debug)"
-	description "Perfect Dark (USA) (2000-03-22) (Debug)"
+	name "Perfect Dark (USA) (Debug)"
+	description "Perfect Dark (USA) (Debug)"
+	releaseyear "2000"
+	releasemonth "03"
+	releaseday "22"
 	region "USA"
 	serial "NPDE"
 	rom ( name "Perfect Dark (USA) (2000-03-22) (Debug).z64" size 33554432 crc B568A9FE md5 AA93F4DF16FCEADA399A749F5AD2F273 sha1 C831DC3D3068E0F2098DB55889DA0D6A08F26080 serial "NPDE" )
 )
 game (
-	name "Perfect Dark (USA) (2000-03-22) (Debug)"
-	description "Perfect Dark (USA) (2000-03-22) (Debug)"
+	name "Perfect Dark (USA) (Debug)"
+	description "Perfect Dark (USA) (Debug)"
+	releaseyear "2000"
+	releasemonth "03"
+	releaseday "22"
 	region "USA"
 	serial "NPDE"
 	rom ( name "Perfect Dark (USA) (2000-03-22) (Debug).v64" size 33554432 crc 0EA2645F md5 160FEDB6C2D81E2A19387BE1048CD79E sha1 40C60733840EE68AC60F0C951055C942A2573BFC serial "NPDE" )
@@ -10042,15 +10346,21 @@ game (
 	rom ( name "Powerpuff Girls, The - Chemical X-Traction (USA).v64" size 8388608 crc 4EE7CD7E md5 BA39CF3E29E026030B9D2BD23908F721 sha1 8F982BAB4F1857D6562113D120BCE82BD316F78D serial "NPQE" )
 )
 game (
-	name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27)"
-	description "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27)"
+	name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta)"
+	description "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta)"
+	releaseyear "2001"
+	releasemonth "09"
+	releaseday "27"
 	region "USA"
 	serial "NPQE"
 	rom ( name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27).z64" size 8388608 crc F53F1C36 md5 11BD90AFE31992F1F5E7E25433FE8D52 sha1 6CB8B06BFBBD765103C091A402CDC4053F05FA7A serial "NPQE" )
 )
 game (
-	name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27)"
-	description "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27)"
+	name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta)"
+	description "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta)"
+	releaseyear "2001"
+	releasemonth "09"
+	releaseday "27"
 	region "USA"
 	serial "NPQE"
 	rom ( name "Powerpuff Girls, The - Chemical X-Traction (USA) (Beta) (2001-09-27).v64" size 8388608 crc 536F3FE0 md5 EE8364FC4FF07BD6F1F2E07D8538106C sha1 0AA8A8BEF1BD8AC68F3BAC29F871D5C82C6D6785 serial "NPQE" )
@@ -10152,6 +10462,39 @@ game (
 	region "Japan"
 	serial "NPBJ"
 	rom ( name "Puzzle Bobble 64 (Japan).v64" size 8388608 crc 30238199 md5 3C411421611E82C81CA228E9EC2B81DB sha1 4E8B0BFB5A885919E63CB09618A0A3D938422301 serial "NPBJ" )
+)
+game (
+	name "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl)"
+	serial "BPYB"
+	rom ( name "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl).z64" size 2097152 crc B8874C09 md5 B98D8A94FE2F02384CB923FBB2F9D57E sha1 F5CD5146B934D2A9675F55C5CC7952841F67E0F0 serial "BPYB" )
+)
+game (
+	name "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl)"
+	rom ( name "Pyoro 64 (Unknown) (MPAL) (Aftermarket) (Unl).v64" size 2097152 crc C97F9B4C md5 74805E465147876102E2CE0AB94DB182 sha1 292E09420B4A9E05348997D4EE6BF396883812E7 )
+)
+game (
+	name "Pyoro 64 (Unknown) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (Aftermarket) (Unl)"
+	serial "BPYE"
+	rom ( name "Pyoro 64 (Unknown) (NTSC) (Aftermarket) (Unl).z64" size 2097152 crc B7EBDDC6 md5 2AC0F88BEA02D67896FFEAE9E8EC72E7 sha1 3B867CE49F4C2805604ADC94D0419CBC82AC07F4 serial "BPYE" )
+)
+game (
+	name "Pyoro 64 (Unknown) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (Aftermarket) (Unl)"
+	rom ( name "Pyoro 64 (Unknown) (NTSC) (Aftermarket) (Unl).v64" size 2097152 crc 6123E8D3 md5 E233CCFBC8185A0359BC7744B64ACF95 sha1 9255D25DFC301FB6833D0EA8B4294CBF5E3AFA30 )
+)
+game (
+	name "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl)"
+	serial "BPYI"
+	rom ( name "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl).z64" size 2097152 crc 1EE17B37 md5 250AD6BE7E97306364BFD8F420204D8A sha1 BE40F97A7D29EDE80FB83412F60264C73D49E495 serial "BPYI" )
+)
+game (
+	name "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl)"
+	description "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pyoro 64 (Unknown) (PAL) (Aftermarket) (Unl).v64" size 2097152 crc D9449233 md5 6D71A7981A428CBD57D9B7F6BA9ACE19 sha1 DFC2163C732FF062439AC6A7E5EA1AAC8E9BCF61 )
 )
 game (
 	name "Quake (Europe)"
@@ -10638,15 +10981,21 @@ game (
 	rom ( name "Road Rash 64 (Europe).v64" size 33554432 crc E3BC7725 md5 C881E7CEC084640AFBBDDC37F6EFD179 sha1 273C72F8C9F9D194B98375E3076972BFD7FDF64D serial "NROP" )
 )
 game (
-	name "Road Rash 64 (Europe) (Beta) (1999-10-12)"
-	description "Road Rash 64 (Europe) (Beta) (1999-10-12)"
+	name "Road Rash 64 (Europe) (Beta)"
+	description "Road Rash 64 (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "10"
+	releaseday "12"
 	region "Europe"
 	serial "NROP"
 	rom ( name "Road Rash 64 (Europe) (Beta) (1999-10-12).z64" size 33554432 crc 4FB98385 md5 436F93C0D8B1650BC308CCF344C08C93 sha1 615FED220A13096BB6FC4C5D7902C66FC5A044D7 serial "NROP" )
 )
 game (
-	name "Road Rash 64 (Europe) (Beta) (1999-10-12)"
-	description "Road Rash 64 (Europe) (Beta) (1999-10-12)"
+	name "Road Rash 64 (Europe) (Beta)"
+	description "Road Rash 64 (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "10"
+	releaseday "12"
 	region "Europe"
 	serial "NROP"
 	rom ( name "Road Rash 64 (Europe) (Beta) (1999-10-12).v64" size 33554432 crc 5556E78F md5 B2E36B8FAB7F6F5ABEF41FBAEE00D7DF sha1 A6D6D853139A95B30BF968349E9814243796B922 serial "NROP" )
@@ -10786,15 +11135,21 @@ game (
 	rom ( name "Robotron 64 (USA).v64" size 8388608 crc 18C2AD70 md5 BF966B20409C07671189714E89311197 sha1 67040305E6936711632610335EF6BB042DF5C506 serial "NRXE" )
 )
 game (
-	name "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)"
-	description "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)"
+	name "Rocket - Robot on Wheels (Europe) (Beta)"
+	description "Rocket - Robot on Wheels (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "09"
+	releaseday "29"
 	region "Europe"
 	serial "NSUP"
 	rom ( name "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29).z64" size 25165824 crc 7D766772 md5 C33561D58DC04CEE752A3A4BD1FB4797 sha1 0786E5BE0EA6522A1E9F1A9052DACAF01169298E serial "NSUP" )
 )
 game (
-	name "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)"
-	description "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29)"
+	name "Rocket - Robot on Wheels (Europe) (Beta)"
+	description "Rocket - Robot on Wheels (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "09"
+	releaseday "29"
 	region "Europe"
 	serial "NSUP"
 	rom ( name "Rocket - Robot on Wheels (Europe) (Beta) (1999-09-29).v64" size 25165824 crc 89A2ECB3 md5 703B7EE605944335669A02324A6E2E0B sha1 9438B1106D0701E03B88FF403712A47088FB6966 serial "NSUP" )
@@ -10842,6 +11197,20 @@ game (
 	rom ( name "Rockman Dash - Hagane no Boukenshin (Japan).v64" size 33554432 crc E1919C66 md5 530311472663F4885C387C90C8BB2FCF sha1 CD8C73A181A137DC8A4AC24E9F26CCC2518DC35F serial "NRHJ" )
 )
 game (
+	name "Ronaldinho's Soccer 64 (Brazil) (Pirate)"
+	description "Ronaldinho's Soccer 64 (Brazil) (Pirate)"
+	region "Brazil"
+	serial "NJPE"
+	rom ( name "Ronaldinho's Soccer 64 (Brazil) (Pirate).z64" size 8388608 crc C296ECA1 md5 14F1F43A0314C3E36D9D248E1F03EC2E sha1 93119CEE958AD7A7B28F6A945CFAA7829FE340DA serial "NJPE" )
+)
+game (
+	name "Ronaldinho's Soccer 64 (Brazil) (Pirate)"
+	description "Ronaldinho's Soccer 64 (Brazil) (Pirate)"
+	region "Brazil"
+	serial "NJPE"
+	rom ( name "Ronaldinho's Soccer 64 (Brazil) (Pirate).v64" size 8388608 crc 19380E04 md5 A8EC2EC0D25D5F920E9F53F5BBB9A653 sha1 DFD37B71DF3F22C4F65EE1477FD5E1BB07049537 serial "NJPE" )
+)
+game (
 	name "Rugrats - Die grosse Schatzsuche (Germany)"
 	description "Rugrats - Die grosse Schatzsuche (Germany)"
 	region "Germany"
@@ -10870,14 +11239,20 @@ game (
 	rom ( name "Rugrats - Scavenger Hunt (USA).v64" size 16777216 crc EA79AD0A md5 61DBD8183B1CD88CE41591537851F48A sha1 F69A4A88BC2374FEA96DFB06A42DBB5B9A5EB6B1 serial "NRGE" )
 )
 game (
-	name "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02)"
-	description "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02)"
+	name "Rugrats - Scavenger Hunt (USA) (Beta)"
+	description "Rugrats - Scavenger Hunt (USA) (Beta)"
+	releaseyear "1999"
+	releasemonth "04"
+	releaseday "02"
 	region "USA"
 	rom ( name "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02).z64" size 16777216 crc B839EA50 md5 A0E5EDF2E5841578325E91470E0B84DF sha1 4B359040D63801F89B0F583B13384A529E393F94 )
 )
 game (
-	name "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02)"
-	description "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02)"
+	name "Rugrats - Scavenger Hunt (USA) (Beta)"
+	description "Rugrats - Scavenger Hunt (USA) (Beta)"
+	releaseyear "1999"
+	releasemonth "04"
+	releaseday "02"
 	region "USA"
 	rom ( name "Rugrats - Scavenger Hunt (USA) (Beta) (1999-04-02).v64" size 16777216 crc C2135E10 md5 EC7C2E7B99DC40AB358B4EC50B436F00 sha1 A00CAFCA2E4E41198911D1BA0D1FAE495FEB608E )
 )
@@ -11114,6 +11489,16 @@ game (
 	rom ( name "San Francisco Rush 2049 (USA).v64" size 12582912 crc 1A03B9DE md5 2120248576E6398F2F90791E2EBD2EDA sha1 F79223F8060A530D0DC8683A923C3C60615AA0A0 serial "NRUE" )
 )
 game (
+	name "Sblobber 64 (World) (Aftermarket) (Unl)"
+	description "Sblobber 64 (World) (Aftermarket) (Unl)"
+	rom ( name "Sblobber 64 (World) (Aftermarket) (Unl).z64" size 5819136 crc A2369A35 md5 9DC86C6796476E70E10F6F3664A13898 sha1 AFD57182A2C5724D0366F5DDFAFC071DD58BBFD7 )
+)
+game (
+	name "Sblobber 64 (World) (Aftermarket) (Unl)"
+	description "Sblobber 64 (World) (Aftermarket) (Unl)"
+	rom ( name "Sblobber 64 (World) (Aftermarket) (Unl).v64" size 5819136 crc 9B1A418F md5 363EDEFFC630FB6E938D2D75BF4F3DE2 sha1 C303AF0EC3A28BEC4E56C96331CDD44543A7B696 )
+)
+game (
 	name "Scooby-Doo! - Classic Creep Capers (Europe)"
 	description "Scooby-Doo! - Classic Creep Capers (Europe)"
 	region "Europe"
@@ -11186,12 +11571,14 @@ game (
 game (
 	name "Shadow Man (Brazil)"
 	description "Shadow Man (Brazil)"
+	region "Brazil"
 	serial "NSDB"
 	rom ( name "Shadow Man (Brazil).z64" size 33554432 crc 61E6642C md5 FE2605193736A128AD65DB1C9835A130 sha1 93B2F3423C0AF3510E36785622A6DDE425DD136C serial "NSDB" )
 )
 game (
 	name "Shadow Man (Brazil)"
 	description "Shadow Man (Brazil)"
+	region "Brazil"
 	serial "NSDB"
 	rom ( name "Shadow Man (Brazil).v64" size 33554432 crc 679487B0 md5 61DE36474558DDCD175BE905EE20AC8B sha1 E7B05EAB4B8D78CA338499EB8AF503669E4A18BC serial "NSDB" )
 )
@@ -11518,12 +11905,14 @@ game (
 game (
 	name "South Park (Brazil)"
 	description "South Park (Brazil)"
+	region "Brazil"
 	serial "NDTB"
 	rom ( name "South Park (Brazil).z64" size 16777216 crc 235CAEC6 md5 D313AF5F8AF4D19F732A1A2C4D4D66BB sha1 26623418F8C6F271BA36B68EAECB18DB19563B2B serial "NDTB" )
 )
 game (
 	name "South Park (Brazil)"
 	description "South Park (Brazil)"
+	region "Brazil"
 	serial "NDTB"
 	rom ( name "South Park (Brazil).v64" size 16777216 crc 40AC4211 md5 EA5E83663F360F11F054A8B02F5EF7AE sha1 DEF6CE5C26BB8ACF51CB57002BEA707BCDF0EC15 serial "NDTB" )
 )
@@ -11612,28 +12001,40 @@ game (
 	rom ( name "South Park Rally (Europe).v64" size 16777216 crc DE023E0A md5 8D040504B81AA2E37C0A4AA795C9D12E sha1 63F95579B1F2A5E41E78343B59105EF08A290BF3 serial "NPRP" )
 )
 game (
-	name "South Park Rally (Europe) (Beta) (2000-01-08)"
-	description "South Park Rally (Europe) (Beta) (2000-01-08)"
+	name "South Park Rally (Europe) (Beta)"
+	description "South Park Rally (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "08"
 	region "Europe"
 	rom ( name "South Park Rally (Europe) (Beta) (2000-01-08).z64" size 16777216 crc 1C535592 md5 CDEE4B0529B33405A293D51CB3765C57 sha1 0A12D66E1014E55F216C8693774494C85915103B )
 )
 game (
-	name "South Park Rally (Europe) (Beta) (2000-01-08)"
-	description "South Park Rally (Europe) (Beta) (2000-01-08)"
+	name "South Park Rally (Europe) (Beta)"
+	description "South Park Rally (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "08"
 	region "Europe"
 	serial "!none!"
 	rom ( name "South Park Rally (Europe) (Beta) (2000-01-08).v64" size 16777216 crc 18382025 md5 D8C060D2F6BA1BBC27E50C79B34717A9 sha1 2FB5380304CD7587C5825CB8E8329F9310DFE365 serial "!none!" )
 )
 game (
-	name "South Park Rally (Europe) (Beta) (2000-01-17)"
-	description "South Park Rally (Europe) (Beta) (2000-01-17)"
+	name "South Park Rally (Europe) (Beta)"
+	description "South Park Rally (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "17"
 	region "Europe"
 	serial "NTUE"
 	rom ( name "South Park Rally (Europe) (Beta) (2000-01-17).z64" size 16777216 crc CF8D799D md5 E3C1C713917BB39AB9E5278894229A84 sha1 FEBE7CA41B605ED0ABFCE9F4BF83381802148CFA serial "NTUE" )
 )
 game (
-	name "South Park Rally (Europe) (Beta) (2000-01-17)"
-	description "South Park Rally (Europe) (Beta) (2000-01-17)"
+	name "South Park Rally (Europe) (Beta)"
+	description "South Park Rally (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "17"
 	region "Europe"
 	serial "NTUE"
 	rom ( name "South Park Rally (Europe) (Beta) (2000-01-17).v64" size 16777216 crc D1E102EC md5 CC3E802EA2227BBDA97EB820A61D124E sha1 DFAACF66320F8346AB3EACB0B8F8DF733CD4557E serial "NTUE" )
@@ -11653,29 +12054,41 @@ game (
 	rom ( name "South Park Rally (USA).v64" size 16777216 crc 2C1F0859 md5 39D0960F29634E5BB6AA21F00C1044E7 sha1 0309DF340D098F014C6673EC7CAD60EACE1BF166 serial "NPRE" )
 )
 game (
-	name "South Park Rally (USA) (Beta) (2000-01-14)"
-	description "South Park Rally (USA) (Beta) (2000-01-14)"
+	name "South Park Rally (USA) (Beta)"
+	description "South Park Rally (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "14"
 	region "USA"
 	serial "NSPE"
 	rom ( name "South Park Rally (USA) (Beta) (2000-01-14).z64" size 16777216 crc 3E3CD1E3 md5 A5B3B1D07AF3C0BB51091E68304CCE18 sha1 B2B1E520C69B9ADE878E3F4E5863315540059A3D serial "NSPE" )
 )
 game (
-	name "South Park Rally (USA) (Beta) (2000-01-14)"
-	description "South Park Rally (USA) (Beta) (2000-01-14)"
+	name "South Park Rally (USA) (Beta)"
+	description "South Park Rally (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "14"
 	region "USA"
 	serial "NSPE"
 	rom ( name "South Park Rally (USA) (Beta) (2000-01-14).v64" size 16777216 crc A6CEF958 md5 70D9D7BDEF7F42E3A4F464DBD79E3A3B sha1 A615C7C4269A6668999A05D3F576A5F5FC0C53BF serial "NSPE" )
 )
 game (
-	name "South Park Rally (USA) (Beta) (2000-01-27)"
-	description "South Park Rally (USA) (Beta) (2000-01-27)"
+	name "South Park Rally (USA) (Beta)"
+	description "South Park Rally (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "27"
 	region "USA"
 	serial "NTUE"
 	rom ( name "South Park Rally (USA) (Beta) (2000-01-27).z64" size 16777216 crc A0F81B94 md5 1BE2624E4C597B8094195A2348900514 sha1 3A92980E05B4207A849C822ACFCA55D42AB19F7E serial "NTUE" )
 )
 game (
-	name "South Park Rally (USA) (Beta) (2000-01-27)"
-	description "South Park Rally (USA) (Beta) (2000-01-27)"
+	name "South Park Rally (USA) (Beta)"
+	description "South Park Rally (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "01"
+	releaseday "27"
 	region "USA"
 	serial "NTUE"
 	rom ( name "South Park Rally (USA) (Beta) (2000-01-27).v64" size 16777216 crc FDF2B8F6 md5 08CECA4122D2F8A64B68B8A9A15E0EB9 sha1 46CC369B48DC412B6CA8BCA9C84E4C4624B27093 serial "NTUE" )
@@ -11861,14 +12274,20 @@ game (
 	rom ( name "Star Soldier - Vanishing Earth (Japan) (En).v64" size 12582912 crc F51D4C7C md5 8A51A0FF79F26A06F70083B2D079DAC1 sha1 F075EEB6890065CE827A900DF99E95F02F19098C serial "NS6J" )
 )
 game (
-	name "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10)"
-	description "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10)"
+	name "Star Soldier - Vanishing Earth (Japan) (En) (Beta)"
+	description "Star Soldier - Vanishing Earth (Japan) (En) (Beta)"
+	releaseyear "1998"
+	releasemonth "03"
+	releaseday "10"
 	region "Japan"
 	rom ( name "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10).z64" size 12582912 crc 2103103F md5 B6F9EE435B3F1B28D45BD367DFC197A4 sha1 01B62E6417F08FC2D1AEBC8C230111D5CC5D3739 )
 )
 game (
-	name "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10)"
-	description "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10)"
+	name "Star Soldier - Vanishing Earth (Japan) (En) (Beta)"
+	description "Star Soldier - Vanishing Earth (Japan) (En) (Beta)"
+	releaseyear "1998"
+	releasemonth "03"
+	releaseday "10"
 	region "Japan"
 	rom ( name "Star Soldier - Vanishing Earth (Japan) (En) (Beta) (1998-03-10).v64" size 12582912 crc EE371C06 md5 768D4859F0394FC2EA41D0EEB2A93361 sha1 B034183B9D31520DA8884E9F791BC99B0A9970D9 )
 )
@@ -11997,15 +12416,35 @@ game (
 	rom ( name "Star Wars - Shadows of the Empire (USA).v64" size 12582912 crc 02FAE534 md5 CB1E1F8D818AB3CADEA2CBE24994C9FE sha1 4BF31D88277583D458FA73E4B69CBAE068A227B5 serial "NSWE" )
 )
 game (
-	name "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)"
-	description "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)"
+	name "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)"
+	description "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NSWE"
+	rom ( name "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl).z64" size 16777216 crc 776A069B md5 4E12B97690897465A27BDF0DDA722826 sha1 6932F8B10A5DE27500521DE50D04E3BA097DD9D9 serial "NSWE" )
+)
+game (
+	name "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)"
+	description "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NSWE"
+	rom ( name "Star Wars - Shadows of the Empire (USA) (Aftermarket) (Unl).v64" size 16777216 crc A9693E97 md5 B909A35B7CAE705116AB570F7F74336E sha1 2A4D411B918056101B1174B5A605A8A2F1B49864 serial "NSWE" )
+)
+game (
+	name "Star Wars - Shadows of the Empire (USA) (Beta)"
+	description "Star Wars - Shadows of the Empire (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "10"
+	releaseday "15"
 	region "USA"
 	serial "NSWE"
 	rom ( name "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15).z64" size 12582912 crc 28368603 md5 4076973CFDA277FC876E9F066CC73DEB sha1 0F642F17693ADF1B97121A61BBECA37DF59BB55A serial "NSWE" )
 )
 game (
-	name "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)"
-	description "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15)"
+	name "Star Wars - Shadows of the Empire (USA) (Beta)"
+	description "Star Wars - Shadows of the Empire (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "10"
+	releaseday "15"
 	region "USA"
 	serial "NSWE"
 	rom ( name "Star Wars - Shadows of the Empire (USA) (Beta) (1996-10-15).v64" size 12582912 crc 448228CE md5 944AC4D381A42197F259BD734FBE1095 sha1 3509758F8920FCB653B7239580EA036D395A3C73 serial "NSWE" )
@@ -12151,6 +12590,20 @@ game (
 	rom ( name "Star Wars Episode I - Racer (USA).v64" size 33554432 crc 494C667A md5 DBBF693E7B9E264312B88B7310D18280 sha1 F7F84332057E3FDE3168C34D781B8C2B8C312E57 serial "NEPE" )
 )
 game (
+	name "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)"
+	description "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NEPE"
+	rom ( name "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl).z64" size 33554432 crc FB401A2A md5 0B2B4D3C38426763059D68AA53B86FDF sha1 F71908F15A14EE124F9B471467432ADE87E0951C serial "NEPE" )
+)
+game (
+	name "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)"
+	description "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NEPE"
+	rom ( name "Star Wars Episode I - Racer (USA) (Aftermarket) (Unl).v64" size 33554432 crc EE6A1F8F md5 6A68C2E513EF132DF7817117DEB80A9D sha1 63E9B2747BB7E918A677B04D1F346BB07C4EE14C serial "NEPE" )
+)
+game (
 	name "StarCraft 64 (Australia)"
 	description "StarCraft 64 (Australia)"
 	region "Australia"
@@ -12245,6 +12698,16 @@ game (
 	region "USA"
 	serial "NR3E"
 	rom ( name "Stunt Racer 64 (USA).v64" size 12582912 crc F60613DE md5 B84F3C943E89F3743BEFB4092DEED5CC sha1 69D2CCB020F710886E76F28288FEA2846E341527 serial "NR3E" )
+)
+game (
+	name "Styx (World) (Aftermarket) (Unl)"
+	description "Styx (World) (Aftermarket) (Unl)"
+	rom ( name "Styx (World) (Aftermarket) (Unl).z64" size 6767408 crc 7B5CFAEA md5 542BED9C63D531A7B180BA31924DA728 sha1 6A934BB7583D5E2BDA89AD8E42F2C5965917D446 )
+)
+game (
+	name "Styx (World) (Aftermarket) (Unl)"
+	description "Styx (World) (Aftermarket) (Unl)"
+	rom ( name "Styx (World) (Aftermarket) (Unl).v64" size 6767408 crc E3F835BC md5 3D2691D1197ACF3B32F76948EBF086AD sha1 4262C2224F54897960A981E545557BED906BD9AC )
 )
 game (
 	name "Super B-Daman - Battle Phoenix 64 (Japan)"
@@ -12495,14 +12958,20 @@ game (
 	rom ( name "Superman (Europe) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc 9CEF1753 md5 32D596185AE37074134CEB34CFB476FC sha1 660CBD7F4808D928F8C3DADA9851267B6058FA80 serial "NSPP" )
 )
 game (
-	name "Superman (USA) (Beta) (1998-09-06)"
-	description "Superman (USA) (Beta) (1998-09-06)"
+	name "Superman (USA) (Beta)"
+	description "Superman (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "06"
 	region "USA"
 	rom ( name "Superman (USA) (Beta) (1998-09-06).z64" size 33554432 crc A0897826 md5 19C9491DD517603BE2FA3020C2F2DEB2 sha1 9ECCD95652CF6BA95F2DC78C44A26FC0832DFE35 )
 )
 game (
-	name "Superman (USA) (Beta) (1998-09-06)"
-	description "Superman (USA) (Beta) (1998-09-06)"
+	name "Superman (USA) (Beta)"
+	description "Superman (USA) (Beta)"
+	releaseyear "1998"
+	releasemonth "09"
+	releaseday "06"
 	region "USA"
 	rom ( name "Superman (USA) (Beta) (1998-09-06).v64" size 33554432 crc FEA2232B md5 81E6954E92091B65629C1C66C502C69D sha1 AF23CEE64673738145F1FEC9203CBC1DDADB3EF5 )
 )
@@ -12533,6 +13002,16 @@ game (
 	region "Japan"
 	serial "NPZJ"
 	rom ( name "Susume! Taisen Puzzle Dama - Toukon! Marutama Chou (Japan).v64" size 8388608 crc DC83BCD3 md5 12CB5AB99EB3AEC0BAB422FC5C42906E sha1 ABD8ECDBFC3676488C4CB961439F13EF8DC7C0C7 serial "NPZJ" )
+)
+game (
+	name "Swoop 64, The (World) (Aftermarket) (Unl)"
+	description "Swoop 64, The (World) (Aftermarket) (Unl)"
+	rom ( name "Swoop 64, The (World) (Aftermarket) (Unl).z64" size 11912592 crc C31FC3CD md5 EB0B4D1541E40103C48C05F7BAA78C41 sha1 DBECF5099B574CDA8F32E7F6ED90B60ED6CAA2A3 )
+)
+game (
+	name "Swoop 64, The (World) (Aftermarket) (Unl)"
+	description "Swoop 64, The (World) (Aftermarket) (Unl)"
+	rom ( name "Swoop 64, The (World) (Aftermarket) (Unl).v64" size 11912592 crc AAE961BC md5 F92E12A7DC1FCEB4FB165792D1E4C9DF sha1 658D4AF642E45D3D60FE83F3A3893D70985CFCCB )
 )
 game (
 	name "Sydney 2000 (Europe) (Proto)"
@@ -12655,15 +13134,21 @@ game (
 	rom ( name "Taz Express (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc 85382541 md5 A9F437615049E404C7D70481B6AF25E2 sha1 FA61BD39F2A02BDF65FBE0B5730FF7C01F239B18 serial "NTXP" )
 )
 game (
-	name "Taz Express (USA) (Proto) (2000-05-15)"
-	description "Taz Express (USA) (Proto) (2000-05-15)"
+	name "Taz Express (USA) (Proto)"
+	description "Taz Express (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "15"
 	region "USA"
 	serial "NTXE"
 	rom ( name "Taz Express (USA) (Proto) (2000-05-15).z64" size 33554432 crc DDE7CFBD md5 7A94F94485BD28F0D6D67257050B26D4 sha1 674F73FE81E9121751ADD1E24991993B8DDE1B9B serial "NTXE" )
 )
 game (
-	name "Taz Express (USA) (Proto) (2000-05-15)"
-	description "Taz Express (USA) (Proto) (2000-05-15)"
+	name "Taz Express (USA) (Proto)"
+	description "Taz Express (USA) (Proto)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "15"
 	region "USA"
 	serial "NTXE"
 	rom ( name "Taz Express (USA) (Proto) (2000-05-15).v64" size 33554432 crc 9E9B2ED5 md5 4BBE988B3B13973CAF2A91465C42AB8A sha1 285E448D8CCD707CFB401DD6496834E2E2BCB567 serial "NTXE" )
@@ -12681,6 +13166,16 @@ game (
 	region "France"
 	serial "NWKF"
 	rom ( name "Telefoot Soccer 2000 (France).v64" size 16777216 crc FAD893EA md5 B3AC7EFA85C5E3BBD3667741F84660C7 sha1 D8F7D0557319B7B24DE2F9EF864A1A46F84F1DD8 serial "NWKF" )
+)
+game (
+	name "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl)"
+	description "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl)"
+	rom ( name "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl).z64" size 3080192 crc 7E130DF8 md5 03AF8F67EE32C964EEEAFE75647A85D2 sha1 7FA18E7A0851CE7F5DBFFF5EE02DC613FEC338D5 )
+)
+game (
+	name "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl)"
+	description "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl)"
+	rom ( name "Telelocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl).v64" size 3080192 crc 30E790BC md5 840475FB8FD80F910B5212317131D738 sha1 A2227F8743CD931988CF3F72B15405D6378D8ADD )
 )
 game (
 	name "Tetris 64 (Japan) (En)"
@@ -12837,15 +13332,21 @@ game (
 	rom ( name "Tom and Jerry in Fists of Furry (USA).v64" size 12582912 crc F0BFC6AB md5 9DCDFAB5FA65EFE5E18652E59A116E64 sha1 66C59EEF4370EDD573B3AEAD79E1C805CA768E1F serial "NTJE" )
 )
 game (
-	name "Tommy Thunder (USA) (Proto) (1997-10-01)"
-	description "Tommy Thunder (USA) (Proto) (1997-10-01)"
+	name "Tommy Thunder (USA) (Proto)"
+	description "Tommy Thunder (USA) (Proto)"
+	releaseyear "1997"
+	releasemonth "10"
+	releaseday "01"
 	region "USA"
 	serial "NNiE"
 	rom ( name "Tommy Thunder (USA) (Proto) (1997-10-01).z64" size 8388608 crc 66734854 md5 99F95AD4A3B0C78B6F58A0FC3AD22DB6 sha1 287FD68B5DE520ADE240889BC0133777FED5C671 serial "NNiE" )
 )
 game (
-	name "Tommy Thunder (USA) (Proto) (1997-10-01)"
-	description "Tommy Thunder (USA) (Proto) (1997-10-01)"
+	name "Tommy Thunder (USA) (Proto)"
+	description "Tommy Thunder (USA) (Proto)"
+	releaseyear "1997"
+	releasemonth "10"
+	releaseday "01"
 	region "USA"
 	serial "NNiE"
 	rom ( name "Tommy Thunder (USA) (Proto) (1997-10-01).v64" size 8388608 crc E5BC76D8 md5 C545548C47BC8CF4F9907A610F4EC66D sha1 9FFB0084E560395E788DCC18D6FA3D238F0E9853 serial "NNiE" )
@@ -12961,26 +13462,38 @@ game (
 	rom ( name "Tony Hawk's Pro Skater 2 (USA).v64" size 16777216 crc 6DF2D58E md5 BC77A627AD496C0668FD14558F0E9AC2 sha1 6C2D313AEA3724F5638738923A58C0E765BDDCFA serial "NTQE" )
 )
 game (
-	name "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)"
-	description "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)"
+	name "Tony Hawk's Pro Skater 2 (USA) (Beta)"
+	description "Tony Hawk's Pro Skater 2 (USA) (Beta)"
+	releaseyear "2001"
+	releasemonth "04"
+	releaseday "20"
 	region "USA"
 	rom ( name "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20).z64" size 33554432 crc 98D0D335 md5 317A4E89618B8B7955632C5F70177690 sha1 FAB693F9DA784837D10A3281D16EC5A1D3D733C9 )
 )
 game (
-	name "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)"
-	description "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20)"
+	name "Tony Hawk's Pro Skater 2 (USA) (Beta)"
+	description "Tony Hawk's Pro Skater 2 (USA) (Beta)"
+	releaseyear "2001"
+	releasemonth "04"
+	releaseday "20"
 	region "USA"
 	rom ( name "Tony Hawk's Pro Skater 2 (USA) (Beta) (2001-04-20).v64" size 33554432 crc 0B00F2A0 md5 30B67B60DD34B4CB73596776D38345E5 sha1 0FFB085CF1F93DC859C4EE35FEDE8BE0DDE830EF )
 )
 game (
-	name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)"
-	description "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)"
+	name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta)"
+	description "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta)"
+	releaseyear "2001"
+	releasemonth "06"
+	releaseday "04"
 	region "USA"
 	rom ( name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04).z64" size 33554432 crc BCF178C5 md5 6440A67E2C27BD9ADEDFC60939C2BF1B sha1 134289253CCCCBCABBF52660F28A49449C399EDE )
 )
 game (
-	name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)"
-	description "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04)"
+	name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta)"
+	description "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta)"
+	releaseyear "2001"
+	releasemonth "06"
+	releaseday "04"
 	region "USA"
 	rom ( name "Tony Hawk's Pro Skater 2 (USA) (v012) (Beta) (2001-06-04).v64" size 33554432 crc 064E41B4 md5 AA5AF24FE4848708EDDEC4354A105EA5 sha1 92E5E9808B3443668D75C039805FBB1BDA436AB2 )
 )
@@ -13203,14 +13716,20 @@ game (
 	rom ( name "Top Gear Rally 2 (Europe).v64" size 12582912 crc 88C8A6EA md5 E440BA3B06ABC2749D765D196323EED4 sha1 CDEBA42C305995A7FB66B26C8DAF4E135152ABEC serial "NL2P" )
 )
 game (
-	name "Top Gear Rally 2 (Europe) (Beta) (1999-08-31)"
-	description "Top Gear Rally 2 (Europe) (Beta) (1999-08-31)"
+	name "Top Gear Rally 2 (Europe) (Beta)"
+	description "Top Gear Rally 2 (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "08"
+	releaseday "31"
 	region "Europe"
 	rom ( name "Top Gear Rally 2 (Europe) (Beta) (1999-08-31).z64" size 16777216 crc 3C77C5D6 md5 C33CD926E1E71F39F7238AF7B9E0DC5C sha1 168DD383EDD88A921D25CF7EAEB18B2DA29C744A )
 )
 game (
-	name "Top Gear Rally 2 (Europe) (Beta) (1999-08-31)"
-	description "Top Gear Rally 2 (Europe) (Beta) (1999-08-31)"
+	name "Top Gear Rally 2 (Europe) (Beta)"
+	description "Top Gear Rally 2 (Europe) (Beta)"
+	releaseyear "1999"
+	releasemonth "08"
+	releaseday "31"
 	region "Europe"
 	rom ( name "Top Gear Rally 2 (Europe) (Beta) (1999-08-31).v64" size 16777216 crc 3985D3F3 md5 22C3E1EE8AB93CA636672DDF06D8FA48 sha1 4771835DB9DD9126C4F3943A664DA836E95F4286 )
 )
@@ -13717,14 +14236,20 @@ game (
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe).v64" size 33554432 crc 3113283E md5 0C92616A1E18DBF389378EF2A2C2E957 sha1 10DF040EF5D6B2E9E72A1BFA2BDE5C0D74F68A7F serial "NTKP" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)"
-	description "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)"
+	name "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "31"
 	region "Europe"
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31).z64" size 33554432 crc 66E63BBC md5 03D17AA3DC7663502017D3CC5A19AA8B sha1 DF10C5D421AEAB2AF438648588600839CD82B5E0 )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)"
-	description "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31)"
+	name "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "31"
 	region "Europe"
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-05-31).v64" size 33554432 crc 505E9066 md5 0488A90E2380F6183A2382DFC7A1209D sha1 12A22310E653B2389110E7708831634E3F9F18DB )
 )
@@ -13757,15 +14282,21 @@ game (
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-16T220245).v64" size 33554432 crc 4B81CA16 md5 D5A9C3528B75FA9AE466EDF1B3ED325A sha1 7BE2E9402E1BD5F58F593717C031361DA75505B5 serial "NSHT" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18)"
-	description "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18)"
+	name "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "18"
 	region "Europe"
 	serial "ABCD"
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18).z64" size 33554432 crc 9D96EDFD md5 ED64E19322382A86467666902760A76C sha1 2B7AA989EBD0DF1452DABC29F5D8F334E3F17529 serial "ABCD" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18)"
-	description "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18)"
+	name "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (Europe) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "18"
 	region "Europe"
 	serial "ABCD"
 	rom ( name "Turok 3 - Shadow of Oblivion (Europe) (Beta) (2000-07-18).v64" size 33554432 crc 9B41CE45 md5 0C704B65FDE28FA0D08FED2708A05441 sha1 CE4E84801B31D174C4D5CF4C4ADE2D6D430193C1 serial "ABCD" )
@@ -13785,55 +14316,79 @@ game (
 	rom ( name "Turok 3 - Shadow of Oblivion (USA).v64" size 33554432 crc E0D0D902 md5 0D522595B31AABBD5DCF914C7975770A sha1 0176E990FA8145DBBA9B1781B44A121EA014CDA4 serial "NTKE" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "03"
 	region "USA"
 	serial "NSHT"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03).z64" size 33554432 crc BD65EDE5 md5 DA557A2F10FB66BF966140FBB066772F sha1 AEBCD74971791A6CEDFF2760582A34522CDD7D55 serial "NSHT" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "05"
+	releaseday "03"
 	region "USA"
 	serial "NSHT"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-05-03).v64" size 33554432 crc D1E1B8B8 md5 BF91990F59E2C859514E61BFFD9720E2 sha1 8D9F25CACBA889D87998C82101BF06A99129A06D serial "NSHT" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "06"
+	releaseday "26"
 	region "USA"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26).z64" size 33554432 crc 58C4C0AB md5 F5738C4B804B0260B99AD39D49DDD43C sha1 F3CDDFC1BFCE0348C41217F9F4E053F8AB3DD4CA )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "06"
+	releaseday "26"
 	region "USA"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-06-26).v64" size 33554432 crc 264F32E0 md5 833D93C4A15DCABF57559C7725991E6E sha1 8B64E16EE1B86641EB4731B591DC499BA0AB23E1 )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "16"
 	region "USA"
 	serial "NSHT"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16).z64" size 33554432 crc D6C552D0 md5 4AE7C142D09F850F6AC0320034D80FA5 sha1 F589ACE7E502422B41178CC7CDAE29A3BDE9E117 serial "NSHT" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "16"
 	region "USA"
 	serial "NSHT"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-16).v64" size 33554432 crc 728F80EB md5 85CF6BA3E5036DA1CBA66BB99065C123 sha1 80036765F6C2E8172F3415EB7D6E60954A94B883 serial "NSHT" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "18"
 	region "USA"
 	serial "ABCD"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18).z64" size 33554432 crc 667B553D md5 9865A336B00E95601ED05A43A2422C23 sha1 0BAC8AA24D636F1B8E5A65A7FD95B9C282C3E495 serial "ABCD" )
 )
 game (
-	name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18)"
-	description "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18)"
+	name "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	description "Turok 3 - Shadow of Oblivion (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "18"
 	region "USA"
 	serial "ABCD"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18).v64" size 33554432 crc 9577BC31 md5 003870DE68EF6CC4F52780479E0AD0FF sha1 B3940CB5F2F10CB39C147F1FABF939C859D413C2 serial "ABCD" )
@@ -14351,14 +14906,20 @@ game (
 	rom ( name "WWF No Mercy (USA).v64" size 33554432 crc EE8C16C1 md5 6B698F27E29366B68DC518976BA844A6 sha1 3A902129BD2221C4411D05C642EF7F79AEFB1720 serial "NW4E" )
 )
 game (
-	name "WWF No Mercy (USA) (Beta) (2000-09-11)"
-	description "WWF No Mercy (USA) (Beta) (2000-09-11)"
+	name "WWF No Mercy (USA) (Beta)"
+	description "WWF No Mercy (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "09"
+	releaseday "11"
 	region "USA"
 	rom ( name "WWF No Mercy (USA) (Beta) (2000-09-11).z64" size 33554432 crc A526FF27 md5 5CE490CF86CFEABF28C19B4C8AFC3F24 sha1 1C2C5969F176A3A781CFC4D8A8E44DAF3632AD64 )
 )
 game (
-	name "WWF No Mercy (USA) (Beta) (2000-09-11)"
-	description "WWF No Mercy (USA) (Beta) (2000-09-11)"
+	name "WWF No Mercy (USA) (Beta)"
+	description "WWF No Mercy (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "09"
+	releaseday "11"
 	region "USA"
 	rom ( name "WWF No Mercy (USA) (Beta) (2000-09-11).v64" size 33554432 crc 3F556B4B md5 C676D1F81BA06EBC99838AC832F43227 sha1 333B64637A8ABED78F0FF2B2CFDB150C792C3735 )
 )
@@ -14753,14 +15314,20 @@ game (
 	rom ( name "Wetrix (USA) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc 4EDA94C1 md5 B0DF900CD2B612F23CE81E1AB28DABA2 sha1 80CC6C54CC9517A33E90CCF0CC9F2C03D1F050AD serial "NWTE" )
 )
 game (
-	name "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05)"
-	description "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05)"
+	name "Whack 'n' Roll (USA) (v0.8.2) (Beta)"
+	description "Whack 'n' Roll (USA) (v0.8.2) (Beta)"
+	releaseyear "1998"
+	releasemonth "02"
+	releaseday "05"
 	region "USA"
 	rom ( name "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05).z64" size 3823288 crc 74DF67BB md5 AAB9C595A91B9F26E12CAE2FF2649881 sha1 1D8F3B0CC37DC357CDDC8075FC749BC7D66B5331 )
 )
 game (
-	name "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05)"
-	description "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05)"
+	name "Whack 'n' Roll (USA) (v0.8.2) (Beta)"
+	description "Whack 'n' Roll (USA) (v0.8.2) (Beta)"
+	releaseyear "1998"
+	releasemonth "02"
+	releaseday "05"
 	region "USA"
 	rom ( name "Whack 'n' Roll (USA) (v0.8.2) (Beta) (1998-02-05).v64" size 3823288 crc FCDD8DB6 md5 3841E6BE21C492C1B76DD9D9C3911D58 sha1 8CA7E4580B10798E44F5E2069EDC0CA14E5F134E )
 )
@@ -14833,14 +15400,20 @@ game (
 	rom ( name "Wild Choppers (Japan).v64" size 8388608 crc FED21F49 md5 5BA61B7BC73E515F579A6A42DF21C8E2 sha1 E9794038F75DDADD6F57B0981B4E077766DCCA3E serial "NWCJ" )
 )
 game (
-	name "Wildwaters (USA) (1999-06-15) (Proto)"
-	description "Wildwaters (USA) (1999-06-15) (Proto)"
+	name "Wildwaters (USA) (Proto)"
+	description "Wildwaters (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "06"
+	releaseday "15"
 	region "USA"
 	rom ( name "Wildwaters (USA) (1999-06-15) (Proto).z64" size 16777216 crc 40443C67 md5 B867880C96C9E8D3130DDE5526C95439 sha1 3FF76B30A9179F1AC116CC04D560CE333DB443AF )
 )
 game (
-	name "Wildwaters (USA) (1999-06-15) (Proto)"
-	description "Wildwaters (USA) (1999-06-15) (Proto)"
+	name "Wildwaters (USA) (Proto)"
+	description "Wildwaters (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "06"
+	releaseday "15"
 	region "USA"
 	rom ( name "Wildwaters (USA) (1999-06-15) (Proto).v64" size 16777216 crc ECB6780C md5 0FF7F6DDFEF8B7ACEE9619B529983C80 sha1 ECB137225F46A8EEC882AEA0D52B213E9402581D )
 )
@@ -14927,6 +15500,26 @@ game (
 	region "USA"
 	serial "NWPE"
 	rom ( name "Wipeout 64 (USA).v64" size 8388608 crc 3E8CCE96 md5 CB63C8CD01A19341B725C9CBC8F28776 sha1 4B9D19E3010756D3106F8B20B2B90DADDB80BC1C serial "NWPE" )
+)
+game (
+	name "Wizard of the Board (World) (Aftermarket) (Unl)"
+	description "Wizard of the Board (World) (Aftermarket) (Unl)"
+	rom ( name "Wizard of the Board (World) (NTSC) (Aftermarket) (Unl).z64" size 8388608 crc 50D29638 md5 06EA696A8D4840F70C9BD7F0670194D6 sha1 A8D3C7F2563CFBA2C6BD3354C8F07309E5425785 )
+)
+game (
+	name "Wizard of the Board (World) (Aftermarket) (Unl)"
+	description "Wizard of the Board (World) (Aftermarket) (Unl)"
+	rom ( name "Wizard of the Board (World) (NTSC) (Aftermarket) (Unl).v64" size 8388608 crc E450056F md5 B9B03F2841A5B3FC46F8CA54C0E6A55D sha1 70CCA7B73DCA8FC9ED44F3A5FA5BAD3B9D3AC7B9 )
+)
+game (
+	name "Wizard of the Board (World) (PAL) (Aftermarket) (Unl)"
+	description "Wizard of the Board (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Wizard of the Board (World) (PAL) (Aftermarket) (Unl).z64" size 8388608 crc B51A283C md5 9155A67AA77A568BF4612C7EEA7C00F3 sha1 2AB6BF1188714CFE9FABD3A51A655A9A33E75C36 )
+)
+game (
+	name "Wizard of the Board (World) (PAL) (Aftermarket) (Unl)"
+	description "Wizard of the Board (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Wizard of the Board (World) (PAL) (Aftermarket) (Unl).v64" size 8388608 crc 9888E750 md5 0A67CA1477273D47D5456647B951AD4A sha1 1EB963C075F96408FDD3E90A9E638B5C251C29BB )
 )
 game (
 	name "Wonder Project J2 - Koruro no Mori no Jozet (Japan)"
@@ -15025,6 +15618,20 @@ game (
 	region "USA"
 	serial "NADE"
 	rom ( name "Worms Armageddon (USA) (En,Fr,Es).v64" size 12582912 crc 556268B7 md5 05765F60B64F167AB0CDA48183A72384 sha1 04D60D848A5CB9923EB95B016EEBB6AF829296F2 serial "NADE" )
+)
+game (
+	name "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NADE"
+	rom ( name "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl).z64" size 12582912 crc 85F1E911 md5 096C6F823F32F931CC1319855578049D sha1 A07CD80155B0845B8F1D9C30A9E5AF169A447897 serial "NADE" )
+)
+game (
+	name "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl)"
+	region "USA"
+	serial "NADE"
+	rom ( name "Worms Armageddon (USA) (En,Fr,Es) (Aftermarket) (Unl).v64" size 12582912 crc D155B143 md5 9B1AD3AA9CFF6D11066851E4C0D15F90 sha1 5272C8C2F1F597DA460EF7827549B36D4ED29FF8 serial "NADE" )
 )
 game (
 	name "X'treme Roller (USA) (Proto)"

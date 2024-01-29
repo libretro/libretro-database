@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 2600"
 	description "Atari - 2600"
-	version "2023.12.31"
+	version "2024.01.28"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -36,8 +36,11 @@ game (
 	rom ( name "3-D Tic-Tac-Toe (USA).a26" size 2048 crc 58805709 md5 0DB4F4150FECF77E4CE72CA4D04C052F sha1 21D983F2F52B84C22ECAE84B0943678AE2C31C10 )
 )
 game (
-	name "3-D Zapper (USA) (Proto) (1982-12-15)"
-	description "3-D Zapper (USA) (Proto) (1982-12-15)"
+	name "3-D Zapper (USA) (Proto)"
+	description "3-D Zapper (USA) (Proto)"
+	releaseyear "1982"
+	releasemonth "12"
+	releaseday "15"
 	region "USA"
 	rom ( name "3-D Zapper (USA) (Proto) (1982-12-15).a26" size 4096 crc 93C49A58 md5 4F32B24869D8C1310FECF039C6424DB6 sha1 5BEF293D891747E790CC083F1D663EFE372CEC3B )
 )
@@ -62,6 +65,7 @@ game (
 game (
 	name "Abre-te, Sesamo! (Brazil) (En) (Unl)"
 	description "Abre-te, Sesamo! (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Abre-te, Sesamo! (Brazil) (En) (Unl).a26" size 4096 crc 8CF511A4 md5 52385334AC9E9B713E13FFA4CC5CB940 sha1 CC00C5138FD1A3B723C5F1ACC90FF8E6E87942C1 )
 )
 game (
@@ -77,8 +81,11 @@ game (
 	rom ( name "Action Man - Action Force (Europe).a26" size 4096 crc 896446CF md5 B9F6FA399B8CD386C235983EC45E4355 sha1 9E6FB047EE9FA0A454CA23673ED9693430032DC6 )
 )
 game (
-	name "Actionauts (USA) (Proto) (1984-06-22)"
-	description "Actionauts (USA) (Proto) (1984-06-22)"
+	name "Actionauts (USA) (Proto)"
+	description "Actionauts (USA) (Proto)"
+	releaseyear "1984"
+	releasemonth "06"
+	releaseday "22"
 	region "USA"
 	rom ( name "Actionauts (USA) (Proto) (1984-06-22).a26" size 4096 crc CEDDF26B md5 A1BCBE0BFE6570DA2661FC4DE2F74E8A sha1 1804AD169E2AF9E14876FFB1261817B7EB846F1B )
 )
@@ -173,6 +180,7 @@ game (
 game (
 	name "Alien (Brazil) (En) (Unl)"
 	description "Alien (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Alien (Brazil) (En) (Unl).a26" size 4096 crc E61021EC md5 956496F81775DE0B69A116A0D1AD41CC sha1 ABF186C0108791D998F7738324D0E49A977B015B )
 )
 game (
@@ -194,14 +202,20 @@ game (
 	rom ( name "Alligator People (USA) (Proto).a26" size 4096 crc B3F6D395 md5 E1A51690792838C5C687DA80CD764D78 sha1 A1795D6371DDB0BC93BA6DF70299CC548DC88B99 )
 )
 game (
-	name "Alpha Beam (Europe) (Beta) (1983-06-03)"
-	description "Alpha Beam (Europe) (Beta) (1983-06-03)"
+	name "Alpha Beam (Europe) (Beta)"
+	description "Alpha Beam (Europe) (Beta)"
+	releaseyear "1983"
+	releasemonth "06"
+	releaseday "03"
 	region "Europe"
 	rom ( name "Alpha Beam (Europe) (Beta) (1983-06-03).a26" size 8192 crc 1651F45E md5 DF95E4AF466C809619299F49ECE92365 sha1 EA1124A3EAC39133F59D664545C33CC514022067 )
 )
 game (
-	name "Alpha Beam (Japan, USA) (En) (Beta) (1982-12-22)"
-	description "Alpha Beam (Japan, USA) (En) (Beta) (1982-12-22)"
+	name "Alpha Beam (Japan, USA) (En) (Beta)"
+	description "Alpha Beam (Japan, USA) (En) (Beta)"
+	releaseyear "1982"
+	releasemonth "12"
+	releaseday "22"
 	rom ( name "Alpha Beam (Japan, USA) (En) (Beta) (1982-12-22).a26" size 8192 crc 85F1CB08 md5 8F5AC5139419C5D49BACC296E342A247 sha1 7118F2401A0D34996762D9838D2F4BACF745FDE3 )
 )
 game (
@@ -228,24 +242,99 @@ game (
 	rom ( name "Amidar (USA).a26" size 4096 crc 8EB5BD72 md5 ACB7750B4D0C4BD34969802A7DEB2990 sha1 B89A5AC6593E83FBEBEE1FE7D4CEC81A7032C544 )
 )
 game (
+	name "Amoeba Jump (World) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (Aftermarket) (Unl)"
+	rom ( name "amoeba_jump_NTSC.bin" size 4096 crc BD556B76 md5 EBBBDF4A936732EBA7C16523507B1111 sha1 A0E55971BAC368902EB11838174F62D10E401A0A )
+)
+game (
+	name "Amoeba Jump (World) (PAL 50Hz) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (PAL 50Hz) (Aftermarket) (Unl)"
+	rom ( name "amoeba_jump_PAL50.bin" size 4096 crc 0366AD7C md5 CCDC570CD66B12D97755CAA88A3667EA sha1 DB7FCF14696C6D982D4DDC37E4841EEF5EFE3029 )
+)
+game (
+	name "Amoeba Jump (World) (PAL 60Hz) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (PAL 60Hz) (Aftermarket) (Unl)"
+	rom ( name "amoeba_jump_PAL60.bin" size 4096 crc FA04AE89 md5 CA0035430DAD7DD4F9391F232091D216 sha1 A4D87F3C130F4ED89B8E1C4D8F7C6BED87A88BCA )
+)
+game (
+	name "Amoeba Jump (World) (Retron 77 Version) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (Retron 77 Version) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump - R77.bin" size 4096 crc 4E7B271C md5 7761418D46AF069B8CD80C29FE6CD814 sha1 57E093068BE21F68FAEE4E5566A65F8A92A955E5 )
+)
+game (
+	name "Amoeba Jump (World) (v0.1) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v0.1) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v0.1.bin" size 4096 crc 4FFBB09B md5 2649013B983CE353473168D2A0CE2BD3 sha1 A69D25F01D02EE022D3CCA20542EA347EA1892DE )
+)
+game (
+	name "Amoeba Jump (World) (v1.1) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.1) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.1 NTSC.bin" size 4096 crc 515FA592 md5 3B395AE0CC96EDDEA898FF2DA4332481 sha1 B8DD13FE98DC818F1894A0DF0530F5E12264661E )
+)
+game (
+	name "Amoeba Jump (World) (v1.1) (PAL) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.1) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.1 PAL.bin" size 4096 crc E592D6C8 md5 4D39A281703687B285A1F132690EF498 sha1 3AB427FB531030B60A7C2DC5C42E76519A03C40B )
+)
+game (
+	name "Amoeba Jump (World) (v1.2) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.2) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.2 NTSC.bin" size 4096 crc A5617694 md5 03E976A52DBFB5EE03D92FD6C0E9A405 sha1 3F9ED9D8ECE40CAD7907C01B8A559110CAF59A3E )
+)
+game (
+	name "Amoeba Jump (World) (v1.2) (PAL) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.2) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.2 PAL.bin" size 4096 crc 3644C33A md5 04BFF96F7E878AAF4D65DCE325C8645A sha1 78FC003879B084E6E6477C16BA840F58712803AE )
+)
+game (
+	name "Amoeba Jump (World) (v1.3) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.3) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.3 NTSC.bin" size 4096 crc E4349CEF md5 539F3C42C4E15F450ED93CB96CE93AF5 sha1 DCCBFB28358CA8339920B584CF64465905CE1354 )
+)
+game (
+	name "Amoeba Jump (World) (v1.3) (PAL) (Aftermarket) (Unl)"
+	description "Amoeba Jump (World) (v1.3) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Amoeba Jump v1.3 PAL.bin" size 4096 crc 77112941 md5 0C72CC3A6658C1ABD4B735EF55FA72E4 sha1 B04B1181950E2BB898EA23FF11DE93C9B56FDC65 )
+)
+game (
 	name "AndroMan on the Moon (USA) (Proto)"
 	description "AndroMan on the Moon (USA) (Proto)"
 	region "USA"
 	rom ( name "AndroMan on the Moon (USA) (Proto).a26" size 8192 crc 18344A20 md5 0866E22F6F56F92EA1A14C8D8D01D29C sha1 3D3623FA0D87EA02F2A080D959A127223E757B3F )
 )
 game (
+	name "Angry Video Game Nerd K.O. Boxing (World) (Aftermarket) (Unl)"
+	description "Angry Video Game Nerd K.O. Boxing (World) (Aftermarket) (Unl)"
+	rom ( name "Angry Video Game Nerd K.O. Boxing (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 53F02C00 md5 6A7E6FC102BF7459F89419C548A79E2C sha1 BBCAC5C5B2384AB6AA83574E6B9486C4B60822D4 )
+)
+game (
+	name "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz) (Aftermarket) (Unl)"
+	description "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz) (Aftermarket) (Unl)"
+	rom ( name "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz) (Aftermarket) (Unl).bin" size 32768 crc 9A8505B6 md5 27279303DF0884B2423C2ED1FB7DDC92 sha1 F723B83145BD43E2FB4767E35BCB25958C8B2D03 )
+)
+game (
+	name "Anguna 2600 (World) (Aftermarket)"
+	description "Anguna 2600 (World) (Aftermarket)"
+	rom ( name "Anguna 2600 (World) (Aftermarket).bin" size 16384 crc D18E91A1 md5 F69A2458D29EFAFF1B4A76ADB923E984 sha1 8BFBF3D404A15DF315BF9C8BF0E5741AC1A42C96 )
+)
+game (
 	name "Apples and Dolls (Brazil) (En) (Unl)"
 	description "Apples and Dolls (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Apples and Dolls (Brazil) (En) (Unl).a26" size 4096 crc E7514705 md5 E73838C43040BCBC83E4204A3E72EEF4 sha1 62E92508CF43ACC28BFF8B03A197137D56A5DF79 )
 )
 game (
 	name "Aquaventure (Brazil) (En) (Proto) (Unl)"
 	description "Aquaventure (Brazil) (En) (Proto) (Unl)"
+	region "Brazil"
 	rom ( name "Aquaventure (Brazil) (En) (Proto) (Unl).a26" size 8192 crc 7FA61FA0 md5 F69D4FCF76942FCD9BDF3FD8FDE790FB sha1 CB400DE2653E125E704ABD8B0FE5DDDB43E3438B )
 )
 game (
-	name "Aquaventure (USA) (Proto) (1983-08-12)"
-	description "Aquaventure (USA) (Proto) (1983-08-12)"
+	name "Aquaventure (USA) (Proto)"
+	description "Aquaventure (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "08"
+	releaseday "12"
 	region "USA"
 	rom ( name "Aquaventure (USA) (Proto) (1983-08-12).a26" size 8192 crc 87A8CB8B md5 038E1E79C3D4410DEFDE4BFE0B99CC32 sha1 7D132AB776FF755B86BF4F204165AA54E9E1F1CF )
 )
@@ -278,6 +367,11 @@ game (
 	description "Assault (USA)"
 	region "USA"
 	rom ( name "Assault (USA).a26" size 4096 crc AB3A2B77 md5 DE78B3A064D374390AC0710F95EDDE92 sha1 0C03EBA97DF5178EEC5D4D0AEA4A6FE2F961C88F )
+)
+game (
+	name "Assembloids (World) (Aftermarket) (Unl)"
+	description "Assembloids (World) (Aftermarket) (Unl)"
+	rom ( name "Assembloids (World) (Aftermarket) (Unl).a26" size 4096 crc C106AB8F md5 35F2237213A6771500E324184C37D8B8 sha1 46E789A5843D5CE002932FD05386C580F3AEB026 )
 )
 game (
 	name "Asteroids (Europe)"
@@ -323,6 +417,7 @@ game (
 game (
 	name "Astrowar (Brazil) (En) (Unl)"
 	description "Astrowar (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Astrowar (Brazil) (En) (Unl).a26" size 4096 crc 7B4B7EAF md5 8F53A3B925F0FD961D9B8C4D46EE6755 sha1 B6F01797E3E8D80F4E33DA73E64AA2935AF96038 )
 )
 game (
@@ -429,6 +524,7 @@ game (
 game (
 	name "Barnstorming (Brazil) (En) (Unl)"
 	description "Barnstorming (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Barnstorming (Brazil) (En) (Unl).a26" size 4096 crc 281736D6 md5 5AE73916FA1DA8D38CEFF674FA25A78A sha1 72F0BD35B49E4A35F6E51DF6EC8EA579B5A673EB )
 )
 game (
@@ -491,13 +587,19 @@ game (
 	rom ( name "Battlezone (Japan, USA) (En).a26" size 8192 crc 9155DD1D md5 41F252A66C6301F1E8AB3612C19BC5D4 sha1 E4134A3B4A065C856802BC935C12FA7E9868110A )
 )
 game (
-	name "Battlezone (Japan, USA) (En) (Beta) (1983-05-02)"
-	description "Battlezone (Japan, USA) (En) (Beta) (1983-05-02)"
+	name "Battlezone (Japan, USA) (En) (Beta)"
+	description "Battlezone (Japan, USA) (En) (Beta)"
+	releaseyear "1983"
+	releasemonth "05"
+	releaseday "02"
 	rom ( name "Battlezone (Japan, USA) (En) (Beta) (1983-05-02).a26" size 8192 crc C1E6D7CF md5 E434C0E161DD3C3FB435EB6BAD2E182C sha1 FAFD522E36A4888DFC2A40B1D5879EE8A33D7931 )
 )
 game (
-	name "Battlezone (Japan, USA) (En) (Beta) (1983-05-12)"
-	description "Battlezone (Japan, USA) (En) (Beta) (1983-05-12)"
+	name "Battlezone (Japan, USA) (En) (Beta)"
+	description "Battlezone (Japan, USA) (En) (Beta)"
+	releaseyear "1983"
+	releasemonth "05"
+	releaseday "12"
 	rom ( name "Battlezone (Japan, USA) (En) (Beta) (1983-05-12).a26" size 8192 crc 63F31AF6 md5 5B85E987E2B1618769D97BA9182333D0 sha1 3E226D8FFA975B937D808F73F79B3F052C3B067E )
 )
 game (
@@ -515,6 +617,7 @@ game (
 game (
 	name "Beany Bopper (Brazil) (En) (Unl)"
 	description "Beany Bopper (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Beany Bopper (Brazil) (En) (Unl).a26" size 4096 crc 624C9345 md5 6A9E0C72FAB92DF70084ECCD9061FDBD sha1 73D55CF63CCABF881148E71DFDBD7D4445889F80 )
 )
 game (
@@ -526,6 +629,7 @@ game (
 game (
 	name "Beat'Em & Eat'Em (Brazil) (En) (Unl)"
 	description "Beat'Em & Eat'Em (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Beat'Em & Eat'Em (Brazil) (En) (Unl).a26" size 4096 crc E4F66058 md5 6C25F58FD184632CA76020F589BB3767 sha1 8E8E334FA481698D0ADB7F9CB7852E49AC462EB9 )
 )
 game (
@@ -561,6 +665,7 @@ game (
 game (
 	name "Berzerk (Brazil) (En) (Unl)"
 	description "Berzerk (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Berzerk (Brazil) (En) (Unl).a26" size 4096 crc F973D708 md5 FAC28963307B6E85082CCD77C88325E7 sha1 6BFFBBE1207662DE89C7EA02C1FCD004071FB9E4 )
 )
 game (
@@ -591,18 +696,27 @@ game (
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En).a26" size 8192 crc 96DC9A9C md5 1802CC46B879B229272501998C5DE04F sha1 5E4517DB83C061926130AB65975E3B83D9401CC9 )
 )
 game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1982-12-08)"
-	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1982-12-08)"
+	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	releaseyear "1982"
+	releasemonth "12"
+	releaseday "08"
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1982-12-08).a26" size 8192 crc 9DE03520 md5 AFD2CF258D51AE4965EE21ABBA3627AB sha1 A3AB3699D945AC356AEFF637046F197F9D6F7063 )
 )
 game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-02)"
-	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-02)"
+	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	releaseyear "1983"
+	releasemonth "05"
+	releaseday "02"
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-02).a26" size 8192 crc EEB65EFA md5 151FA3218D8D7600114EB5BCD79C85CB sha1 AAFB88EF8F95B1051CB8B6A153B165215C95C7BD )
 )
 game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-17)"
-	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-17)"
+	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	description "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
+	releaseyear "1983"
+	releasemonth "05"
+	releaseday "17"
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-17).a26" size 8192 crc 3A4038AC md5 0B17ED42984000DA8B727CA46143F87A sha1 E2B0304DE695CEA7C98344642254B7F181E928D2 )
 )
 game (
@@ -656,11 +770,13 @@ game (
 game (
 	name "Bobby Is Going Home (Brazil) (En) (Unl)"
 	description "Bobby Is Going Home (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Bobby Is Going Home (Brazil) (En) (NTSC) (Unl).a26" size 4096 crc 358940E3 md5 075069AD80CDE15ECA69E3C98BD66714 sha1 E00202DA428DB2D05E30CDD59488E5E0D405C678 )
 )
 game (
-	name "Bobby Is Going Home (Brazil) (En) (Europe) (Unl)"
-	description "Bobby Is Going Home (Brazil) (En) (Europe) (Unl)"
+	name "Bobby Is Going Home (Brazil) (En) (PAL) (Unl)"
+	description "Bobby Is Going Home (Brazil) (En) (PAL) (Unl)"
+	region "Brazil"
 	rom ( name "Bobby Is Going Home (Brazil) (En) (PAL) (Unl).a26" size 4096 crc 5C4A04C8 md5 3CBDF71BB9FD261FBC433717F547D738 sha1 876C3B01E68568100DB716BC69BF58189ACB72C2 )
 )
 game (
@@ -682,8 +798,11 @@ game (
 	rom ( name "Bobby Is Going Home (USA).a26" size 4096 crc 99A2A654 md5 521F4DD1EB84A09B2B19959A41839AAD sha1 6C4A96AEC21F6CEDE3F43CD12842BC7238648770 )
 )
 game (
-	name "Boggle (USA) (Proto) (1978-08-07)"
-	description "Boggle (USA) (Proto) (1978-08-07)"
+	name "Boggle (USA) (Proto)"
+	description "Boggle (USA) (Proto)"
+	releaseyear "1978"
+	releasemonth "08"
+	releaseday "07"
 	region "USA"
 	rom ( name "Boggle (USA) (Proto) (1978-08-07).a26" size 2048 crc 26B6BFEF md5 A5855D73D304D83EF07DDE03E379619F sha1 4ACCD4CC4F8F3A935CA178449A4AC62283639C53 )
 )
@@ -726,6 +845,7 @@ game (
 game (
 	name "Boxing (Brazil) (En) (Unl)"
 	description "Boxing (Brazil) (En) (Unl)"
+	region "Brazil"
 	rom ( name "Boxing (Brazil) (En) (Unl).a26" size 2048 crc 0411AE6B md5 A8B3EA6836B99BEA77C8F603CF1EA187 sha1 A7716AF544F0813CE7657BB8A1A55FF6088F09C3 )
 )
 game (
@@ -866,8 +986,11 @@ game (
 	rom ( name "Burning Desire (USA).a26" size 4096 crc 92F91D36 md5 19D6956FF17A959C48FCD8F4706A848D sha1 B233C37AA5164A54E2E7CC3DC621B331DDC6E55B )
 )
 game (
-	name "Cabbage Patch Kids - Adventures in the Park (USA) (Proto) (1984-09-13)"
-	description "Cabbage Patch Kids - Adventures in the Park (USA) (Proto) (1984-09-13)"
+	name "Cabbage Patch Kids - Adventures in the Park (USA) (Proto)"
+	description "Cabbage Patch Kids - Adventures in the Park (USA) (Proto)"
+	releaseyear "1984"
+	releasemonth "09"
+	releaseday "13"
 	region "USA"
 	rom ( name "Cabbage Patch Kids - Adventures in the Park (USA) (Proto) (1984-09-13).a26" size 8192 crc 7025D30D md5 66FCF7643D554F5E15D4D06BAB59FE70 sha1 FFDBA8AE22784CCC81A5A2E81A236ACE09E5B7F4 )
 )
@@ -1822,6 +1945,16 @@ game (
 	rom ( name "Glib - Video Word Game (USA).a26" size 4096 crc 50BB03A4 md5 2D9E5D8D083B6367EDA880E80DFDFAEB sha1 7BCA0F7A0F992782E4E4C90772BAC976CA963A6D )
 )
 game (
+	name "Go Fish! (World) (Aftermarket)"
+	description "Go Fish! (World) (Aftermarket)"
+	rom ( name "GoFish_NTSC.bin" size 8192 crc B99FC2BF md5 787A2FAEBADC670A887A0E2483B8F034 sha1 C8094B18EA8D7DD0E1824A5FFF2C26DD5F99A520 )
+)
+game (
+	name "Go Fish! (World) (PAL) (Aftermarket)"
+	description "Go Fish! (World) (PAL) (Aftermarket)"
+	rom ( name "GoFish_PAL.bin" size 8192 crc 9A08FC7C md5 1B64DBABA6BBC1D428E59F088E8018E7 sha1 F286F2E862CA8361C67D815AFD9D4E7B27094557 )
+)
+game (
 	name "Going-Up (USA) (Proto)"
 	description "Going-Up (USA) (Proto)"
 	region "USA"
@@ -1900,6 +2033,12 @@ game (
 	rom ( name "Gyruss (USA).a26" size 8192 crc 0D78E8A9 md5 B311AB95E85BC0162308390728A7361D sha1 4BD87BA8B3B6D7850E3EA41B4D494C3B12659F27 )
 )
 game (
+	name "H.E.R.O. (Europe)"
+	description "H.E.R.O. (Europe)"
+	region "Europe"
+	rom ( name "H.E.R.O. (Europe).a26" size 8192 crc 27FFD4E6 md5 467340A18158649AA5E02A4372DCFCCD sha1 3186A670BA626127151E364F33CA1BF0E189DFEA )
+)
+game (
 	name "H.E.R.O. (USA)"
 	description "H.E.R.O. (USA)"
 	region "USA"
@@ -1910,6 +2049,17 @@ game (
 	description "Halloween (USA)"
 	region "USA"
 	rom ( name "Halloween (USA).a26" size 4096 crc B1B11806 md5 30516CFBAA1BC3B5335EE53AD811F17A sha1 4C72CEC151F219866BF870FA7AC749A19CA501C9 )
+)
+game (
+	name "Halo 2600 (Europe) (PAL) (Aftermarket)"
+	description "Halo 2600 (Europe) (PAL) (Aftermarket)"
+	region "Europe"
+	rom ( name "Halo 2600 (Europe) (PAL) (Aftermarket).a26" size 4096 crc F16CAFAD md5 48DC69B885FC07CA3BEB7F8A2C12170C sha1 DC41E5DC18F55027369B20228A4D622A23D56666 )
+)
+game (
+	name "Halo 2600 (World) (Aftermarket) (Unl)"
+	description "Halo 2600 (World) (Aftermarket) (Unl)"
+	rom ( name "Halo2600_Final.bin" size 4096 crc 3978A823 md5 4AFA7F377EAE1CAFB4265C68F73F2718 sha1 2A9647E27AB27E6CF82B3BF122EDF212FA34AE86 )
 )
 game (
 	name "Hangman ~ Spelling (USA)"
@@ -1988,6 +2138,27 @@ game (
 	description "I.Q. Memory Teaser (Europe)"
 	region "Europe"
 	rom ( name "I.Q. Memory Teaser (Europe).a26" size 4096 crc 75AB6BA8 md5 DC33479D66615A3B09670775DE4C2A38 sha1 FA05A35DE4C401704538CC256F46440F42DE3DDB )
+)
+game (
+	name "INV+ (World) (Beta) (Aftermarket)"
+	description "INV+ (World) (Beta) (Aftermarket)"
+	releaseyear "2004"
+	releasemonth "04"
+	releaseday "08"
+	rom ( name "INV+ (World) (2004-04-08) (Beta) (Aftermarket).a26" size 4096 crc 37E26BAC md5 ACDE3415615C32A81A6CEA62FF43F6CD sha1 42E4A814FED49F36316E0DDD13FAFD72B6BCE8A0 )
+)
+game (
+	name "INV+ (World) (Beta) (Aftermarket)"
+	description "INV+ (World) (Beta) (Aftermarket)"
+	releaseyear "2004"
+	releasemonth "04"
+	releaseday "29"
+	rom ( name "INV+ (World) (2004-04-29) (Beta) (Aftermarket).a26" size 4096 crc A9F28173 md5 5327C461045D277E2066008885D8E9C2 sha1 4789E2D47BBBB529E40D4E0C0364FD937BA87393 )
+)
+game (
+	name "INV+ (World) (Aftermarket)"
+	description "INV+ (World) (Aftermarket)"
+	rom ( name "INV+ (World) (Aftermarket).a26" size 4096 crc 8EBDE037 md5 9EA8ED9DEC03082973244A080941E58A sha1 74DC0247A9C9E4ECEC1C173E01274E2391643A60 )
 )
 game (
 	name "IQ 180 (USA)"
@@ -2180,6 +2351,12 @@ game (
 	description "Kyphus (USA) (Proto)"
 	region "USA"
 	rom ( name "Kyphus (USA) (Proto).a26" size 4096 crc 79BD22E2 md5 B86552198F52CFCE721BAFB496363099 sha1 B4B55E0B6B5D7490565B00C03361199F05FB70B8 )
+)
+game (
+	name "Laaser Voley (Europe) (Pirate)"
+	description "Laaser Voley (Europe) (Pirate)"
+	region "Europe"
+	rom ( name "Laaser Voley (Europe) (Pirate).a26" size 4096 crc DC1D3627 md5 BCE4C291D0007F16997FAA5C4DB0A6B8 sha1 C513703D638C01B0C26922D5E3E7BFB65EA597DA )
 )
 game (
 	name "Lady in Wading (USA)"
@@ -2458,8 +2635,11 @@ game (
 	rom ( name "Mogul Maniac (USA).a26" size 4096 crc 50AFE04B md5 7AF40C1485CE9F29B1A7B069A2EB04A7 sha1 0B74A90A22A7A16F9C2131FABD76B7742DE0473E )
 )
 game (
-	name "Monkey Music (Unknown) (1982-08-18) (Proto)"
-	description "Monkey Music (Unknown) (1982-08-18) (Proto)"
+	name "Monkey Music (Unknown) (Proto)"
+	description "Monkey Music (Unknown) (Proto)"
+	releaseyear "1982"
+	releasemonth "08"
+	releaseday "18"
 	rom ( name "Monkey Music (Unknown) (1982-08-18) (Proto).a26" size 8192 crc 264FD499 md5 2E61C270C7CA2008FAE27E9A38C7A2A7 sha1 5DDB9C71A22B2973094A6142742D82C767E4AA3E )
 )
 game (
@@ -2594,6 +2774,12 @@ game (
 	rom ( name "Mysterious Thief, A (USA) (Proto).a26" size 4096 crc 8755C57C md5 FCBBD0A407D3FF7BF857B8A399280EA1 sha1 0D1C963EA040C60B296A26C46FAAAD472890499F )
 )
 game (
+	name "Mystery Science Theater 2600 (USA) (Aftermarket) (Pirate)"
+	description "Mystery Science Theater 2600 (USA) (Aftermarket) (Pirate)"
+	region "USA"
+	rom ( name "Mystery Science Theater 2600 (USA) (Aftermarket) (Pirate).a26" size 4096 crc 19747D95 md5 FA7E11A3DBEA4365975CD2F094E61D25 sha1 5C66B2E171A8AD00D605A5E756E60DE7B67C529B )
+)
+game (
 	name "Name This Game (USA)"
 	description "Name This Game (USA)"
 	region "USA"
@@ -2678,6 +2864,11 @@ game (
 	rom ( name "Omega Race (USA).a26" size 12288 crc E9876116 md5 9947F1EBABB56FD075A96C6D37351EFA sha1 DCAAB259E7617C7AC7D349893451896A9CA0E292 )
 )
 game (
+	name "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket)"
+	description "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket)"
+	rom ( name "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket).a26" size 32768 crc DD56E194 md5 94AE9D9A8561988164148B88D7891797 sha1 DD6B89D39FD57DC954D6948D0634EF23402993EA )
+)
+game (
 	name "Open Sesame (Europe) (Bit Corporation)"
 	description "Open Sesame (Europe) (Bit Corporation)"
 	region "Europe"
@@ -2718,6 +2909,11 @@ game (
 	description "Outlaw ~ Gunslinger (USA)"
 	region "USA"
 	rom ( name "Outlaw ~ Gunslinger (USA).a26" size 2048 crc 68DD7ACD md5 890C13590E0D8D5D6149737D930E4D95 sha1 F8EEAAF4635AC39B4BDF7DED1348BCE46313EF9F )
+)
+game (
+	name "Oystron (World) (Aftermarket) (Unl)"
+	description "Oystron (World) (Aftermarket) (Unl)"
+	rom ( name "Oystron (World) (Aftermarket) (Unl).bin" size 4096 crc 8155DCCF md5 91F0A708EEB93C133E9672AD2C8E0429 sha1 412E8A2438379878EE4DE5C6BF4E5A9EE2707C8B )
 )
 game (
 	name "Pac-Man (USA)"
@@ -3151,6 +3347,11 @@ game (
 	rom ( name "Robin Hood (USA).a26" size 8192 crc DF96102B md5 72A46E0C21F825518B7261C267AB886E sha1 7F9C2321C9F22CF2CDBCF1B3F0E563A1C53F68CA )
 )
 game (
+	name "Robo-Ninja Climb (World) (Aftermarket) (Unl)"
+	description "Robo-Ninja Climb (World) (Aftermarket) (Unl)"
+	rom ( name "Robo-Ninja Climb (World) (Aftermarket) (Unl).bin" size 8192 crc 21BCC276 md5 2372DD6D58B8BB34882E171CE1143D3C sha1 22FB7566FD96A02B17FA51A57CF3BCA085200670 )
+)
+game (
 	name "Robot Tank (USA)"
 	description "Robot Tank (USA)"
 	region "USA"
@@ -3205,14 +3406,20 @@ game (
 	rom ( name "SCRMNN (USA) (Proto).a26" size 4096 crc 6B0672A6 md5 EE681F566AAD6C07C61BBBFC66D74A27 sha1 D93C86970D3DF29326ACC35C0CE6679B83C2AFF2 )
 )
 game (
-	name "Saboteur (USA) (Proto) (1983-09-02)"
-	description "Saboteur (USA) (Proto) (1983-09-02)"
+	name "Saboteur (USA) (Proto)"
+	description "Saboteur (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "09"
+	releaseday "02"
 	region "USA"
 	rom ( name "Saboteur (USA) (Proto) (1983-09-02).bin" size 8192 crc C359C13D md5 1EC57BBD27BDBD08B60C391C4895C1CF sha1 85752AC6EB7045A9083425CD166609882A1C2C58 )
 )
 game (
-	name "Saboteur (USA) (Proto) (1983-12-20)"
-	description "Saboteur (USA) (Proto) (1983-12-20)"
+	name "Saboteur (USA) (Proto)"
+	description "Saboteur (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "12"
+	releaseday "20"
 	region "USA"
 	rom ( name "Saboteur (USA) (Proto) (1983-12-20).a26" size 8192 crc 7EFE0286 md5 A4ECB54F877CD94515527B11E698608C sha1 90CD987CCAFFB428E53FFD98563DBBE3BABD2E73 )
 )
@@ -3299,6 +3506,21 @@ game (
 	description "Sentinel (USA)"
 	region "USA"
 	rom ( name "Sentinel (USA).a26" size 16384 crc D457B245 md5 8DA51E0C4B6B46F7619425119C7D018E sha1 FCF5F8A7D6E59A339C2002E3D4084D87DEB670FE )
+)
+game (
+	name "Sheep It Up! - NTSC (World) (Aftermarket) (Unl)"
+	description "Sheep It Up! - NTSC (World) (Aftermarket) (Unl)"
+	rom ( name "Sheep It Up! - NTSC (World) (Aftermarket) (Unl).bin" size 4096 crc 5BE003AD md5 8DEBEBC61916692E2D66F2EDF4BED29C sha1 D22009A4C4E92E0533BF4379D743F80F53064FDE )
+)
+game (
+	name "Sheep It Up! - PAL (World) (Aftermarket) (Unl)"
+	description "Sheep It Up! - PAL (World) (Aftermarket) (Unl)"
+	rom ( name "Sheep It Up! - PAL (World) (Aftermarket) (Unl).bin" size 4096 crc 13DE1052 md5 1F6267DB16FFEB90BA48890D5F84AC9E sha1 B2D070404738C771E7C5BD3139858F7F8822D423 )
+)
+game (
+	name "Sheep It Up! - SECAM (World) (Aftermarket) (Unl)"
+	description "Sheep It Up! - SECAM (World) (Aftermarket) (Unl)"
+	rom ( name "Sheep It Up! - SECAM (World) (Aftermarket) (Unl).bin" size 4096 crc F915AD29 md5 DA3F54E89B54B0A2391D0513AB8C9861 sha1 566249FC4B955FE7BAAB05E4818724D3387674B3 )
 )
 game (
 	name "Shootin' Gallery (Europe) (Proto)"
@@ -4112,8 +4334,8 @@ game (
 	rom ( name "Tomarc the Barbarian (USA).a26" size 8192 crc B5B5AC84 md5 32DCD1B535F564EE38143A70A8146EFE sha1 489C9B572535721A0516A2B759E0B9C7F7A5B3CC )
 )
 game (
-	name "Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (Europe)"
-	description "Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (Europe)"
+	name "Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (PAL)"
+	description "Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (PAL)"
 	region "Europe"
 	rom ( name "Tomcat - The F-14 Fighter Simulator (Europe) (Activision Anthology - Remix Edition) (PAL).a26" size 16384 crc CB5D1C42 md5 155FA7F479DCBA3B10B1494E236D6010 sha1 D85E90ADBB4106B9C14EC95DE4798111331E939C )
 )
@@ -4298,6 +4520,51 @@ game (
 	rom ( name "Wall Break (Europe).a26" size 4096 crc 727408CD md5 372BDDF113D088BC572F94E98D8249F5 sha1 6EF3C2E8BB0D361D5A99AFD95F4E29A69B61BC4A )
 )
 game (
+	name "Wall Jump Ninja (World)  (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World)  (Aftermarket) (Unl)"
+	releaseyear "2015"
+	releasemonth "01"
+	releaseday "15"
+	rom ( name "wall_jump_ninja_20150115_v1_0_NTSC.bin" size 4096 crc 353215E0 md5 3C56C0C5F6F97850ED0AA7BCC2A4E30E sha1 A06FB0C60FFF651B0BE270E926F220706E86A5B4 )
+)
+game (
+	name "Wall Jump Ninja (World) (PAL 60Hz) (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World) (PAL 60Hz) (Aftermarket) (Unl)"
+	releaseyear "2015"
+	releasemonth "01"
+	releaseday "15"
+	rom ( name "wall_jump_ninja_20150115_v1_0_PAL60.bin" size 4096 crc B491C2B6 md5 2489359C38551A1D96CBAA4E52D8BB30 sha1 BD3E8686A09175F51A0FCB51115D9B91B0E6B852 )
+)
+game (
+	name "Wall Jump Ninja (World) (PAL) (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World) (PAL) (Aftermarket) (Unl)"
+	releaseyear "2015"
+	releasemonth "01"
+	releaseday "15"
+	rom ( name "wall_jump_ninja_20150115_v1_0_PAL.bin" size 4096 crc A6574F27 md5 195A8DDF9DEBCC1444A86AEF82B9C26D sha1 1C7DA4646C5F59596914F32EF7F4F04C0D62BFF3 )
+)
+game (
+	name "Wall Jump Ninja (World) (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World) (Aftermarket) (Unl)"
+	rom ( name "wall_jump_ninja_20160508_v1_1_PAL60.bin" size 4096 crc BB530A55 md5 EB56BEF863BED75F203429E568C23D05 sha1 FBA9479B04A1BB5C6CBD1893BE59630ACD3C8CB6 )
+)
+game (
+	name "Wall Jump Ninja (World) (v1.1)  (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World) (v1.1)  (Aftermarket) (Unl)"
+	releaseyear "2016"
+	releasemonth "05"
+	releaseday "08"
+	rom ( name "wall_jump_ninja_20160508_v1_1_NTSC.bin" size 4096 crc 4F053653 md5 5DA448A2E1A785D56BF4F04709678156 sha1 3864C9F26576BCB919FF00153A20418A1F7121C1 )
+)
+game (
+	name "Wall Jump Ninja (World) (v1.1) (PAL) (Aftermarket) (Unl)"
+	description "Wall Jump Ninja (World) (v1.1) (PAL) (Aftermarket) (Unl)"
+	releaseyear "2016"
+	releasemonth "05"
+	releaseday "08"
+	rom ( name "wall_jump_ninja_20160508_v1_1_PAL.bin" size 4096 crc 7C81E726 md5 9490206BA47A11332488240F3B91C477 sha1 8C99A56E2B3DADB0569C07BC13EB325DF8E42CB8 )
+)
+game (
 	name "Wall-Defender (USA)"
 	description "Wall-Defender (USA)"
 	region "USA"
@@ -4388,14 +4655,20 @@ game (
 	rom ( name "Xenophobe (USA).a26" size 16384 crc F875C406 md5 EAF744185D5E8DEF899950BA7C6E7BB5 sha1 160B6E36437AD6ACBC2686FBDE1002E2FA88C5FB )
 )
 game (
-	name "Xevious (USA) (Proto) (1983-08-02)"
-	description "Xevious (USA) (Proto) (1983-08-02)"
+	name "Xevious (USA) (Proto)"
+	description "Xevious (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "08"
+	releaseday "02"
 	region "USA"
 	rom ( name "Xevious (USA) (Proto) (1983-08-02).a26" size 8192 crc 2EF09F4A md5 C6688781F4AB844852F4E3352772289B sha1 73133B81196E5CBC1CEC99EEFC1223DDB8F4CA83 )
 )
 game (
-	name "Xevious (USA) (Proto) (1984-01-18)"
-	description "Xevious (USA) (Proto) (1984-01-18)"
+	name "Xevious (USA) (Proto)"
+	description "Xevious (USA) (Proto)"
+	releaseyear "1984"
+	releasemonth "01"
+	releaseday "18"
 	region "USA"
 	serial "CX2695"
 	rom ( name "Xevious (USA) (Proto) (1984-01-18).a26" size 8192 crc F5802A6C md5 AF6F3E9718BCCFCD8AFB421F96561A34 sha1 53F941CABF661A9CE763142B070571F6FD4C8820 serial "CX2695" )
@@ -4429,4 +4702,16 @@ game (
 	description "Zoo Keeper Sounds (USA) (Proto)"
 	region "USA"
 	rom ( name "Zoo Keeper Sounds (USA) (Proto).a26" size 2048 crc AE15C45D md5 A336BEAC1F0A835614200ECD9C41FD70 sha1 7F115CB41FC70889B933FD2C808044A2B6367261 )
+)
+game (
+	name "synthcart (Europe) (PAL) (Aftermarket)"
+	description "synthcart (Europe) (PAL) (Aftermarket)"
+	region "Europe"
+	rom ( name "synthcart (Europe) (PAL) (Aftermarket).a26" size 8192 crc C80EC2F8 md5 8B556C3D9CA8E5E6E665BD759B93FFAE sha1 C4C19C5E0D8B6FCF1AEAFA0BD3C88EF3F834C59B )
+)
+game (
+	name "synthcart (USA) (Aftermarket)"
+	description "synthcart (USA) (Aftermarket)"
+	region "USA"
+	rom ( name "synthcart (USA) (NTSC) (Aftermarket).a26" size 8192 crc 5DDD1EBA md5 2C2AEA31B01C6126C1A43E10CACBFD58 sha1 C24256C1D51246281A400FB03FC4CA465BD092DD )
 )
