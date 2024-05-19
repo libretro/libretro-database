@@ -1,10 +1,17 @@
 clrmamepro (
 	name "Sega - Dreamcast"
 	description "Sega - Dreamcast"
-	version "2024.01.28"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
+game (
+	name "09 Chairs (Japan)"
+	description "09 Chairs (Japan)"
+	region "Japan"
+	serial "SCLX-2004-(8848)"
+	rom ( name "09 Chairs (Japan) (Track 12).bin" size 240040416 crc 41886E5A md5 2E9A22BC9801684BE1E64C134403FE77 sha1 F7E6CCDC64664EFD119BBC858081E1FB529CE138 serial "SCLX-2004-(8848)" )
+)
 game (
 	name "102 Dalmatians - Puppies to the Rescue (UK)"
 	description "102 Dalmatians - Puppies to the Rescue (UK)"
@@ -204,6 +211,13 @@ game (
 	region "Japan"
 	serial "T-18705M"
 	rom ( name "After... Wasureenu Kizuna (Japan) (Track 3).bin" size 1185760800 crc ACF6A01D md5 31CD9397C045D45FA47F89E590406C64 sha1 747F081E30361945BFCDADF3A7486993E11DC59E serial "T-18705M" )
+)
+game (
+	name "After... Wasureenu Kizuna (Japan)"
+	description "After... Wasureenu Kizuna (Japan)"
+	region "Japan"
+	serial "T-18706M"
+	rom ( name "After... Wasureenu Kizuna (Japan) (Track 3).bin" size 1185760800 crc ACF6A01D md5 31CD9397C045D45FA47F89E590406C64 sha1 747F081E30361945BFCDADF3A7486993E11DC59E serial "T-18706M" )
 )
 game (
 	name "Aikagi - Hidamari to Kanojo no Heyagi (Japan)"
@@ -2422,13 +2436,6 @@ game (
 	rom ( name "Dream Passport 2 (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 8A1C7E3F md5 EC5D2B21BE6FB3D6E2828D61DB34C731 sha1 73E4860FB43DC82478B5C87CA39582E8400E47F8 serial "610-7180" )
 )
 game (
-	name "Dream Passport 2 (Japan) (Rev B)"
-	description "Dream Passport 2 (Japan) (Rev B)"
-	region "Japan"
-	serial "610-7180"
-	rom ( name "Dream Passport 2 (Japan) (Rev B) (Track 3).bin" size 1185760800 crc FE08E10F md5 D9DF28A55CD4C83A89C8B518754EE84A sha1 FD6E896CC3BAC91F15FF17DAD04DE2259251A432 serial "610-7180" )
-)
-game (
 	name "Dream Passport 3 (Japan)"
 	description "Dream Passport 3 (Japan)"
 	region "Japan"
@@ -2706,20 +2713,6 @@ game (
 	region "Europe"
 	serial "833-0003-05"
 	rom ( name "Dreamkey (Europe) (Track 3).bin" size 1185760800 crc C610E2AF md5 359D8AFA68AE0AABDE6D2ADF3D6DA8BB sha1 5E966F044558A21F0B6BD1776B30A5F2054A66E0 serial "833-0003-05" )
-)
-game (
-	name "Dreamkey (Europe) (Rev B)"
-	description "Dreamkey (Europe) (Rev B)"
-	region "Europe"
-	serial "832-0002-05"
-	rom ( name "Dreamkey (Europe) (Rev B) (Track 3).bin" size 1185760800 crc D2A13734 md5 0F3B5731B37FCFA655E771BE3E5FF493 sha1 E542A7FE0230728E9C16A527045706849319CF81 serial "832-0002-05" )
-)
-game (
-	name "Dreamkey (Europe) (Rev B)"
-	description "Dreamkey (Europe) (Rev B)"
-	region "Europe"
-	serial "833-0003-05"
-	rom ( name "Dreamkey (Europe) (Rev B) (Track 3).bin" size 1185760800 crc D2A13734 md5 0F3B5731B37FCFA655E771BE3E5FF493 sha1 E542A7FE0230728E9C16A527045706849319CF81 serial "833-0003-05" )
 )
 game (
 	name "Dreamkey (France)"
@@ -3710,6 +3703,13 @@ game (
 	rom ( name "F1 World Grand Prix for Dreamcast (Japan) (Track 03).bin" size 491022336 crc D14783FD md5 612F21979FDEC96C18B44EE79C2725C2 sha1 E6189D8149BEC22B07388A0379E41F180830A5D3 serial "T-3001M" )
 )
 game (
+	name "F1 World Grand Prix for Dreamcast (Japan) (Rev A)"
+	description "F1 World Grand Prix for Dreamcast (Japan) (Rev A)"
+	region "Japan"
+	serial "T-3001M"
+	rom ( name "F1 World Grand Prix for Dreamcast (Japan) (Rev A) (Track 03).bin" size 490688352 crc 5372EC34 md5 6D79A6D9245483AA9A63E349E5124642 sha1 7311D2981CB77D198C188F87A73EA1AC2C92AD0E serial "T-3001M" )
+)
+game (
 	name "F355 Challenge (Japan)"
 	description "F355 Challenge (Japan)"
 	region "Japan"
@@ -4031,13 +4031,6 @@ game (
 	rom ( name "Fur Fighters (Europe) (En,Fr,De,Es) (Track 3).bin" size 1185760800 crc 3C4BAC64 md5 6E3AE2996912E967D14A285EFA1E8148 sha1 9F2C3879CFCC206B62CF9BC047541619EBEF56E3 serial "T-8113D-50" )
 )
 game (
-	name "Fur Fighters (USA) (En,Fr,De,Es) (Rev B)"
-	description "Fur Fighters (USA) (En,Fr,De,Es) (Rev B)"
-	region "USA"
-	serial "T-8107N"
-	rom ( name "Fur Fighters (USA) (En,Fr,De,Es) (Rev B) (Track 3).bin" size 1185760800 crc BEF5D874 md5 62B3DDB55E509EE5DCD8E61E3C171F93 sha1 34D23AC4B81DD93C5EC93C54C908F7A57B281F97 serial "T-8107N" )
-)
-game (
 	name "Fur Fighters + Dead or Alive 2 (Europe) (Demo)"
 	description "Fur Fighters + Dead or Alive 2 (Europe) (Demo)"
 	region "Europe"
@@ -4313,13 +4306,6 @@ game (
 	region "Japan"
 	serial "T-40901M"
 	rom ( name "Golf Shiyou yo (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 7AC571A0 md5 5219FB69BB2F96430E7252EE2709D550 sha1 D2B2B0794493A5A0A85ECE53AF5D6AD142789E13 serial "T-40901M" )
-)
-game (
-	name "Golf Shiyou yo (Japan) (Rev B)"
-	description "Golf Shiyou yo (Japan) (Rev B)"
-	region "Japan"
-	serial "T-40901M"
-	rom ( name "Golf Shiyou yo (Japan) (Rev B) (Track 3).bin" size 1185760800 crc 9EAFC931 md5 2B90E9E21F7981FD424AD4010BC9FA31 sha1 237FFB4E8A630CE74C60EED0E8AD73C7406AECAC serial "T-40901M" )
 )
 game (
 	name "Golf Shiyou yo - Course Data-shuu - Adventure-hen (Japan)"
@@ -4768,11 +4754,11 @@ game (
 	rom ( name "House of the Dead 2, The (Japan) (Track 3).bin" size 1185760800 crc 7153600F md5 3974424BB41B1C086EA42FD88D90D66E sha1 69AA421FBCF6407381D04687B47F6BB5A92AF812 serial "HDR-0011" )
 )
 game (
-	name "House of the Dead 2, The (Japan) (Rev B)"
-	description "House of the Dead 2, The (Japan) (Rev B)"
+	name "House of the Dead 2, The (Japan) (Rev A)"
+	description "House of the Dead 2, The (Japan) (Rev A)"
 	region "Japan"
-	serial "HDR-0011"
-	rom ( name "House of the Dead 2, The (Japan) (Rev B) (Track 3).bin" size 1185760800 crc 4F401177 md5 D1A6DB7B669981F40DF64A878E5EA56E sha1 451D69AA6633AA7EB5E4FC2988F8576AA5387D85 serial "HDR-0011" )
+	serial "HDR-0007"
+	rom ( name "House of the Dead 2, The (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 5F3FE41B md5 240BDFBF71F29C2C6BC36D45FF78D407 sha1 6A0AADFD20EABB21CE1720D3AE4BF42588BF8BD0 serial "HDR-0007" )
 )
 game (
 	name "House of the Dead 2, The (Japan, Europe) (Taikenban)"
@@ -5260,6 +5246,12 @@ game (
 	rom ( name "Kao the Kangaroo (USA) (En,Es) (Track 03).bin" size 391452768 crc 62F636BA md5 ADD505F113A885ED70FCC2B50F6F58F4 sha1 4E2F4384135378884A12561276C455DABA50583D serial "T-22903N" )
 )
 game (
+	name "Karat DC-you - Pro Action Replay (Japan) (Unl)"
+	description "Karat DC-you - Pro Action Replay (Japan) (Unl)"
+	region "Japan"
+	rom ( name "Karat DC-you - Pro Action Replay (Japan) (Unl) (Track 2).bin" size 2972928 crc 72B75C0B md5 1E74B9E0FD7F7DBBCE6680C7FCF371EC sha1 01A9200CD25DB822A651963519014A3E08004E0F )
+)
+game (
 	name "Karat DC-you - Pro Action Replay 2 (Japan) (Unl)"
 	description "Karat DC-you - Pro Action Replay 2 (Japan) (Unl)"
 	region "Japan"
@@ -5363,6 +5355,13 @@ game (
 	region "Japan"
 	serial "T-47102M"
 	rom ( name "Kimi ga Nozomu Eien (Japan) (Track 3).bin" size 1185760800 crc 9A20F921 md5 D56C9F4DFC4972032086FC9960260C13 sha1 DA207C782797233F21CE6C878D74B2924DE2C507 serial "T-47102M" )
+)
+game (
+	name "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan)"
+	description "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan)"
+	region "Japan"
+	serial "T-39402M"
+	rom ( name "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (Track 3).bin" size 1185760800 crc F7D8C210 md5 D5B118EE8A48162B0602A351A43DC40D sha1 CBF86E2839004AA5A9282B1E35BB99F932686402 serial "T-39402M" )
 )
 game (
 	name "Kindan no Pet - Seaman - Gasse Hakase no Jikken-tou (Japan) (2001-nen Taiouban) (Rev A)"
@@ -5688,13 +5687,6 @@ game (
 	region "Europe"
 	serial "MK-51022-50"
 	rom ( name "MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev A) (Track 3).bin" size 1185760800 crc 272845CB md5 6DA290E90FBEFEF4423FBE35E38BAD2D sha1 A2FED73ACB415700D58DA91A11FCFFB98EBDAD32 serial "MK-51022-50" )
-)
-game (
-	name "MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev B)"
-	description "MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev B)"
-	region "Europe"
-	serial "MK-51022-50"
-	rom ( name "MSR - Metropolis Street Racer (Europe) (En,Fr,De,Es) (Rev B) (Track 3).bin" size 1185760800 crc E04C2015 md5 38A3203513165CBB7C88EE50112B74C3 sha1 E1FA8B923356537107B521645E5EBE3E672001D5 serial "MK-51022-50" )
 )
 game (
 	name "MSR - Metropolis Street Racer (USA) (Rev A)"
@@ -6758,11 +6750,11 @@ game (
 	rom ( name "Nijuuei (Japan) (Track 3).bin" size 1185760800 crc E4384640 md5 038661EFBC023F8B56FAB39D35729BDA sha1 5A1A92DB4F5AC8C9CFB4A22A76E772354713A07C serial "T-46505M" )
 )
 game (
-	name "Nishikaze no Kyoushikyoku - The Rhapsody of Zephyr (Japan)"
-	description "Nishikaze no Kyoushikyoku - The Rhapsody of Zephyr (Japan)"
+	name "Nishikaze no Rhapsody - The Rhapsody of Zephyr (Japan)"
+	description "Nishikaze no Rhapsody - The Rhapsody of Zephyr (Japan)"
 	region "Japan"
 	serial "T-44502M"
-	rom ( name "Nishikaze no Kyoushikyoku - The Rhapsody of Zephyr (Japan) (Track 3).bin" size 1185760800 crc 9EF7F85E md5 E5E66EBF7466EADEBC474B679997081F sha1 88B2FD7840D4C7547D5C542B546E9BE725F9BBFD serial "T-44502M" )
+	rom ( name "Nishikaze no Rhapsody - The Rhapsody of Zephyr (Japan) (Track 3).bin" size 1185760800 crc 9EF7F85E md5 E5E66EBF7466EADEBC474B679997081F sha1 88B2FD7840D4C7547D5C542B546E9BE725F9BBFD serial "T-44502M" )
 )
 game (
 	name "Nobunaga no Yabou - Reppuuden (Japan)"
@@ -7101,13 +7093,6 @@ game (
 	region "Japan"
 	serial "610-7990"
 	rom ( name "Phantasy Star Online (Japan) (Tentou-you Demo Movie) (Track 3).bin" size 869139264 crc B60CA5BC md5 0BD68DB1756D43719CA48B2EF3F4A657 sha1 A0DB718AFE1AB3A085765B2428C40E62E028EC5D serial "610-7990" )
-)
-game (
-	name "Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B)"
-	description "Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B)"
-	region "USA"
-	serial "51100"
-	rom ( name "Phantasy Star Online (USA) (En,Ja,Fr,De,Es) (Rev B) (Track 3).bin" size 1185760800 crc 6F65A922 md5 6BA51DA93F90B65357AA36D1D02D6C1D sha1 6A61981059F18982285EDB9C8E21AE0557B7935F serial "51100" )
 )
 game (
 	name "Phantasy Star Online Ver. 2 (Europe) (En,Ja,Fr,De,Es)"
@@ -7505,13 +7490,6 @@ game (
 	rom ( name "Pro Yakyuu Team o Tsukurou! & Asobou! (Japan) (Track 3).bin" size 1141079856 crc B1094583 md5 D24D839E719CB4EF58D94352BB7854C9 sha1 2567EB0468568FD805AA07D79060EBE6E335197E serial "HDR-0173" )
 )
 game (
-	name "Pro Yakyuu Team o Tsukurou! (Japan) (Rev B)"
-	description "Pro Yakyuu Team o Tsukurou! (Japan) (Rev B)"
-	region "Japan"
-	serial "HDR-0022"
-	rom ( name "Pro Yakyuu Team o Tsukurou! (Japan) (Rev B) (Track 5).bin" size 778735440 crc A13FFAB7 md5 1EDC5B25F7E8A7530B13DAF24AA10B94 sha1 597206C660CAF958B0C47B0C275CB9C1015AF5E5 serial "HDR-0022" )
-)
-game (
 	name "Pro Yakyuu Team o Tsukurou! (Japan) (Rev E)"
 	description "Pro Yakyuu Team o Tsukurou! (Japan) (Rev E)"
 	region "Japan"
@@ -7538,6 +7516,12 @@ game (
 	region "Europe"
 	serial "T-7022D-50"
 	rom ( name "Project Justice - Rival Schools 2 (Europe) (Track 3).bin" size 1185760800 crc 24B55CDA md5 30C59318D9B3B87A7CAC604D0635F2E3 sha1 269D92C9C151E8C99FCB2E257CFF727EAEC45634 serial "T-7022D-50" )
+)
+game (
+	name "Propeller Arena (USA) (Proto)"
+	description "Propeller Arena (USA) (Proto)"
+	region "USA"
+	rom ( name "Propeller Arena (USA) (Proto) (Track 3).bin" size 1185760800 crc 74446F13 md5 CAA392704776A842F1273761DD790B7F sha1 D40776E64A20AA19930C3F06406CBE9794505BE1 )
 )
 game (
 	name "Psychic Force 2012 (Europe)"
@@ -7863,20 +7847,6 @@ game (
 	region "Japan"
 	serial "T-30001M-0"
 	rom ( name "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev A) (Track 3).bin" size 1185760800 crc 1E5EC99F md5 1BF37CFE757691A6A0B1BAF7C1CB9B0A sha1 528F560F0BE039AFB36661DD377AC10C1C460B69 serial "T-30001M-0" )
-)
-game (
-	name "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B)"
-	description "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B)"
-	region "Japan"
-	serial "T-30001M"
-	rom ( name "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B) (Track 3).bin" size 1185760800 crc 187A63ED md5 790BF58B510546FCBA40C6FDD78FE3A7 sha1 74CC3B493E85BDC0270FD9204CD4B69A7DC1209F serial "T-30001M" )
-)
-game (
-	name "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B)"
-	description "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B)"
-	region "Japan"
-	serial "T-30001M-0"
-	rom ( name "Real Sound - Kaze no Regret (Japan) (Disc 1) (Rev B) (Track 3).bin" size 1185760800 crc 187A63ED md5 790BF58B510546FCBA40C6FDD78FE3A7 sha1 74CC3B493E85BDC0270FD9204CD4B69A7DC1209F serial "T-30001M-0" )
 )
 game (
 	name "Real Sound - Kaze no Regret (Japan) (Disc 2)"
@@ -8446,6 +8416,20 @@ game (
 	rom ( name "SGGG - Segagaga (Japan) (Track 3).bin" size 1185760800 crc E70D5478 md5 CBD9C06606B889926AA496639A309531 sha1 956643497581F62C0FDFA6713E5530BCAAD46F01 serial "HDR-0083" )
 )
 game (
+	name "SGGG - Segagaga (Japan)"
+	description "SGGG - Segagaga (Japan)"
+	region "Japan"
+	serial "HDR-0151"
+	rom ( name "SGGG - Segagaga (Japan) (Track 3).bin" size 1185760800 crc E70D5478 md5 CBD9C06606B889926AA496639A309531 sha1 956643497581F62C0FDFA6713E5530BCAAD46F01 serial "HDR-0151" )
+)
+game (
+	name "SGGG - Segagaga (Japan) (Rev A)"
+	description "SGGG - Segagaga (Japan) (Rev A)"
+	region "Japan"
+	serial "HDR-0171"
+	rom ( name "SGGG - Segagaga (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 077F747A md5 85211B6C75486505E7E007031E4ED116 sha1 9D8BE0FD482F9CF5103DE8A807D8694467775568 serial "HDR-0171" )
+)
+game (
 	name "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan)"
 	description "Saka Tsuku Tokudai-gou - J.League Pro Soccer Club o Tsukurou! (Japan)"
 	region "Japan"
@@ -8500,6 +8484,20 @@ game (
 	region "Japan"
 	serial "HDR-0089-1"
 	rom ( name "Sakura Taisen (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc C4DADE63 md5 33F4C80C7C66791A64D5AB238B96232A sha1 9D94ECC23A6564D67FB7990C894A195238FF8B49 serial "HDR-0089-1" )
+)
+game (
+	name "Sakura Taisen (Japan) (Disc 2) (Rev A)"
+	description "Sakura Taisen (Japan) (Disc 2) (Rev A)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen (Japan) (Disc 2) (Rev A) (Track 3).bin" size 1185760800 crc D44C86AF md5 62B928F54661DE633DA9B6A8D73538FF sha1 7C1E01F67C7E5CB3EA9BDB0F3151D596FBE6FE50 serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen (Japan) (Disc 2) (Rev A)"
+	description "Sakura Taisen (Japan) (Disc 2) (Rev A)"
+	region "Japan"
+	serial "HDR-0201-1"
+	rom ( name "Sakura Taisen (Japan) (Disc 2) (Rev A) (Track 3).bin" size 1185760800 crc D44C86AF md5 62B928F54661DE633DA9B6A8D73538FF sha1 7C1E01F67C7E5CB3EA9BDB0F3151D596FBE6FE50 serial "HDR-0201-1" )
 )
 game (
 	name "Sakura Taisen (Japan) (Omake Disc)"
@@ -8558,6 +8556,20 @@ game (
 	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A) (Track 3).bin" size 1185760800 crc 10AAC975 md5 D72EB5C5621CCD9F108BF2E334C90194 sha1 AC45D4563D8777CEF55BEDAF0D1C565B4D2A0B5F serial "HDR-0193-0" )
 )
 game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A) (Track 3).bin" size 1185760800 crc 10AAC975 md5 D72EB5C5621CCD9F108BF2E334C90194 sha1 AC45D4563D8777CEF55BEDAF0D1C565B4D2A0B5F serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A)"
+	region "Japan"
+	serial "HDR-0201-0"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 1) (Rev A) (Track 3).bin" size 1185760800 crc 10AAC975 md5 D72EB5C5621CCD9F108BF2E334C90194 sha1 AC45D4563D8777CEF55BEDAF0D1C565B4D2A0B5F serial "HDR-0201-0" )
+)
+game (
 	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2)"
 	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2)"
 	region "Japan"
@@ -8598,6 +8610,20 @@ game (
 	region "Japan"
 	serial "HDR-0193-1"
 	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A) (Track 3).bin" size 1185760800 crc 21B25116 md5 CAAAD88D92EA7F5DF874A25510D3FFDE sha1 EF81038B0BFA8A86E80240031CAE0C638275A38C serial "HDR-0193-1" )
+)
+game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A) (Track 3).bin" size 1185760800 crc 21B25116 md5 CAAAD88D92EA7F5DF874A25510D3FFDE sha1 EF81038B0BFA8A86E80240031CAE0C638275A38C serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A)"
+	region "Japan"
+	serial "HDR-0201-1"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 2) (Rev A) (Track 3).bin" size 1185760800 crc 21B25116 md5 CAAAD88D92EA7F5DF874A25510D3FFDE sha1 EF81038B0BFA8A86E80240031CAE0C638275A38C serial "HDR-0201-1" )
 )
 game (
 	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3)"
@@ -8642,6 +8668,20 @@ game (
 	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A) (Track 3).bin" size 1185760800 crc 31656D0D md5 AB58081CF102828CB7270AE99A3ADE57 sha1 9B3A19F48495A0B0BCDED931371228179B8B3EC9 serial "HDR-0193-2" )
 )
 game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A) (Track 3).bin" size 1185760800 crc 31656D0D md5 AB58081CF102828CB7270AE99A3ADE57 sha1 9B3A19F48495A0B0BCDED931371228179B8B3EC9 serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A)"
+	description "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A)"
+	region "Japan"
+	serial "HDR-0201-2"
+	rom ( name "Sakura Taisen 2 - Kimi, Shinitamou Koto Nakare (Japan) (Disc 3) (Rev A) (Track 3).bin" size 1185760800 crc 31656D0D md5 AB58081CF102828CB7270AE99A3ADE57 sha1 9B3A19F48495A0B0BCDED931371228179B8B3EC9 serial "HDR-0201-2" )
+)
+game (
 	name "Sakura Taisen 3 - Les Chattes Noires (Japan)"
 	description "Sakura Taisen 3 - Les Chattes Noires (Japan)"
 	region "Japan"
@@ -8684,6 +8724,34 @@ game (
 	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1) (Track 3).bin" size 1185760800 crc 89088356 md5 9DCADC3BB320D863BF3A22A57474A3A9 sha1 9FCFC0952D29B18F7442CA2B3549A04A029B4774 serial "HDR-0152-0" )
 )
 game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	region "Japan"
+	serial "HDR-0194"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1) (Track 3).bin" size 1185760800 crc 89088356 md5 9DCADC3BB320D863BF3A22A57474A3A9 sha1 9FCFC0952D29B18F7442CA2B3549A04A029B4774 serial "HDR-0194" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	region "Japan"
+	serial "HDR-0194-0"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1) (Track 3).bin" size 1185760800 crc 89088356 md5 9DCADC3BB320D863BF3A22A57474A3A9 sha1 9FCFC0952D29B18F7442CA2B3549A04A029B4774 serial "HDR-0194-0" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1) (Track 3).bin" size 1185760800 crc 89088356 md5 9DCADC3BB320D863BF3A22A57474A3A9 sha1 9FCFC0952D29B18F7442CA2B3549A04A029B4774 serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1)"
+	region "Japan"
+	serial "HDR-0201-0"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 1) (Track 3).bin" size 1185760800 crc 89088356 md5 9DCADC3BB320D863BF3A22A57474A3A9 sha1 9FCFC0952D29B18F7442CA2B3549A04A029B4774 serial "HDR-0201-0" )
+)
+game (
 	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
 	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
 	region "Japan"
@@ -8710,6 +8778,34 @@ game (
 	region "Japan"
 	serial "HDR-0152-1"
 	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc 49BC933D md5 72B5575CADED40943C57D56D85BECD97 sha1 F9F87D2A471EE7F6EED57040B78457E45B50CED2 serial "HDR-0152-1" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	region "Japan"
+	serial "HDR-0194"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc 49BC933D md5 72B5575CADED40943C57D56D85BECD97 sha1 F9F87D2A471EE7F6EED57040B78457E45B50CED2 serial "HDR-0194" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	region "Japan"
+	serial "HDR-0194-1"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc 49BC933D md5 72B5575CADED40943C57D56D85BECD97 sha1 F9F87D2A471EE7F6EED57040B78457E45B50CED2 serial "HDR-0194-1" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc 49BC933D md5 72B5575CADED40943C57D56D85BECD97 sha1 F9F87D2A471EE7F6EED57040B78457E45B50CED2 serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2)"
+	region "Japan"
+	serial "HDR-0201-1"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 2) (Track 3).bin" size 1185760800 crc 49BC933D md5 72B5575CADED40943C57D56D85BECD97 sha1 F9F87D2A471EE7F6EED57040B78457E45B50CED2 serial "HDR-0201-1" )
 )
 game (
 	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
@@ -8740,6 +8836,34 @@ game (
 	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3) (Track 3).bin" size 1185760800 crc B8FBFF6D md5 21EF6D072DD464C7E7D8B6C9A7EEA5BE sha1 50A1E6697B96C9038B593A34B4FA8B02EA0B383D serial "HDR-0152-2" )
 )
 game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	region "Japan"
+	serial "HDR-0194"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3) (Track 3).bin" size 1185760800 crc B8FBFF6D md5 21EF6D072DD464C7E7D8B6C9A7EEA5BE sha1 50A1E6697B96C9038B593A34B4FA8B02EA0B383D serial "HDR-0194" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	region "Japan"
+	serial "HDR-0194-2"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3) (Track 3).bin" size 1185760800 crc B8FBFF6D md5 21EF6D072DD464C7E7D8B6C9A7EEA5BE sha1 50A1E6697B96C9038B593A34B4FA8B02EA0B383D serial "HDR-0194-2" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3) (Track 3).bin" size 1185760800 crc B8FBFF6D md5 21EF6D072DD464C7E7D8B6C9A7EEA5BE sha1 50A1E6697B96C9038B593A34B4FA8B02EA0B383D serial "HDR-0201" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3)"
+	region "Japan"
+	serial "HDR-0201-2"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Disc 3) (Track 3).bin" size 1185760800 crc B8FBFF6D md5 21EF6D072DD464C7E7D8B6C9A7EEA5BE sha1 50A1E6697B96C9038B593A34B4FA8B02EA0B383D serial "HDR-0201-2" )
+)
+game (
 	name "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Tentou-you Demo Movie)"
 	description "Sakura Taisen 3 - Paris wa Moeteiru ka (Japan) (Tentou-you Demo Movie)"
 	region "Japan"
@@ -8752,6 +8876,13 @@ game (
 	region "Japan"
 	serial "HDR-0191"
 	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan) (Track 3).bin" size 1185760800 crc 523F4615 md5 066AB56C3BFA4290B6BE101099176E62 sha1 7F4906D2BA97BAD48D29E58C609FA03BA2797FB4 serial "HDR-0191" )
+)
+game (
+	name "Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan)"
+	description "Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan)"
+	region "Japan"
+	serial "HDR-0201"
+	rom ( name "Sakura Taisen 3 - Paris wa Moeteiru ka - Drama Download Disc (Japan) (Track 3).bin" size 1185760800 crc 523F4615 md5 066AB56C3BFA4290B6BE101099176E62 sha1 7F4906D2BA97BAD48D29E58C609FA03BA2797FB4 serial "HDR-0201" )
 )
 game (
 	name "Sakura Taisen 3 - Paris wa Moeteiru ka - Sakura Taisen 3 Movie Disc (Japan)"
@@ -9623,6 +9754,13 @@ game (
 	rom ( name "Shikigami no Shiro II (Japan) (Track 3).bin" size 1185760800 crc 9DD869F8 md5 C7D5CE7A2867D50D9B0B119758762264 sha1 0CFF305E708AC162F1E10D8BBC510F3EC417B49A serial "T-47701M" )
 )
 game (
+	name "Shikigami no Shiro II (Japan)"
+	description "Shikigami no Shiro II (Japan)"
+	region "Japan"
+	serial "T-47702M"
+	rom ( name "Shikigami no Shiro II (Japan) (Track 3).bin" size 1185760800 crc 9DD869F8 md5 C7D5CE7A2867D50D9B0B119758762264 sha1 0CFF305E708AC162F1E10D8BBC510F3EC417B49A serial "T-47702M" )
+)
+game (
 	name "Shin Honkaku Hanafuda (Japan)"
 	description "Shin Honkaku Hanafuda (Japan)"
 	region "Japan"
@@ -9903,11 +10041,11 @@ game (
 	rom ( name "Slave Zero (USA) (Track 3).bin" size 841329216 crc C3D99865 md5 B966999CF16599296A8CD756D7DD1152 sha1 801EBE652F2DE36FAD1BA770ED2DDB3AC4A606AB serial "T-15106N" )
 )
 game (
-	name "Snappers - 09 Chairs (Japan)"
-	description "Snappers - 09 Chairs (Japan)"
-	region "Japan"
-	serial "SCLX-2004"
-	rom ( name "Snappers - 09 Chairs (Japan) (Track 12).bin" size 240040416 crc 41886E5A md5 2E9A22BC9801684BE1E64C134403FE77 sha1 F7E6CCDC64664EFD119BBC858081E1FB529CE138 serial "SCLX-2004" )
+	name "Slave Zero (USA) (Rev A)"
+	description "Slave Zero (USA) (Rev A)"
+	region "USA"
+	serial "T-15106N"
+	rom ( name "Slave Zero (USA) (Rev A) (Track 3).bin" size 841997184 crc 6C493D18 md5 F02BA33F9D2E5A82947780980E386097 sha1 91924E3B774A50C2FC3F59E2D9176EE25EAF19B1 serial "T-15106N" )
 )
 game (
 	name "SnoCross Championship Racing (Europe) (En,Fr,De)"
@@ -10140,6 +10278,13 @@ game (
 	region "Japan"
 	serial "610-7173"
 	rom ( name "Soulcalibur (Japan) (Tentou Taikenban) (Track 3).bin" size 1185760800 crc 05610DAC md5 13C71EE8EB577318C217D92F7FD3EF10 sha1 294705AC98A88B18244DB081EFA890539BD5A783 serial "610-7173" )
+)
+game (
+	name "Soulcalibur (Japan) (Tokubetsu Taikenban)"
+	description "Soulcalibur (Japan) (Tokubetsu Taikenban)"
+	region "Japan"
+	serial "610-7175"
+	rom ( name "Soulcalibur (Japan) (Tokubetsu Taikenban) (Track 3).bin" size 1185760800 crc D1ACDEBA md5 A2C4C3989F362CE88EA10025350E4B10 sha1 34684E74416221B2032564DB75D19D7C6AE37216 serial "610-7175" )
 )
 game (
 	name "Soulcalibur (USA)"
@@ -11755,18 +11900,18 @@ game (
 	rom ( name "Virtua Fighter 3tb (USA) (Track 3).bin" size 1185760800 crc 2812870A md5 A0022E7C84E998DEFCA2A8549D14FBFB sha1 831B616BE8EB2ED2F98BBEEA271A4E8A9E3C152A serial "51001" )
 )
 game (
-	name "Virtua Fighter 4 Passport (Japan)"
-	description "Virtua Fighter 4 Passport (Japan)"
+	name "Virtua Fighter 4 Passport - VF.NET (Japan)"
+	description "Virtua Fighter 4 Passport - VF.NET (Japan)"
 	region "Japan"
 	serial "610-8088"
-	rom ( name "Virtua Fighter 4 Passport (Japan) (Track 3).bin" size 1185760800 crc 2A9D0056 md5 642199AE6218819C96608EB9F516B13C sha1 664EB899D4AB4B3C4316C15E9C34FEA5309CFD99 serial "610-8088" )
+	rom ( name "Virtua Fighter 4 Passport - VF.NET (Japan) (Track 3).bin" size 1185760800 crc 2A9D0056 md5 642199AE6218819C96608EB9F516B13C sha1 664EB899D4AB4B3C4316C15E9C34FEA5309CFD99 serial "610-8088" )
 )
 game (
-	name "Virtua Fighter History & VF4 (Japan)"
-	description "Virtua Fighter History & VF4 (Japan)"
+	name "Virtua Fighter History-VF4 (Japan) (Alt)"
+	description "Virtua Fighter History-VF4 (Japan) (Alt)"
 	region "Japan"
 	serial "610-8087"
-	rom ( name "Virtua Fighter History & VF4 (Japan) (Track 4).bin" size 1172375568 crc FE38340C md5 7FAE09C4CE0247C4469E72D9E288CBF2 sha1 8E3EAA102EA901387BB2FDE3F753AE073ED2DAB1 serial "610-8087" )
+	rom ( name "Virtua Fighter History-VF4 (Japan) (Alt) (Track 4).bin" size 1172375568 crc FE38340C md5 7FAE09C4CE0247C4469E72D9E288CBF2 sha1 8E3EAA102EA901387BB2FDE3F753AE073ED2DAB1 serial "610-8087" )
 )
 game (
 	name "Virtua Striker 2 (USA) (En,Ja,De,Es)"
@@ -12096,18 +12241,18 @@ game (
 	rom ( name "Wolflame (USA, Japan) (Unl) (Track 1).bin" size 572973072 crc 4F92359D md5 36678476B031416BE451BF9674CCA7A0 sha1 44DAC8298B471B1B595CCAA63FEF2EDFE19492BA )
 )
 game (
-	name "World Neverland 2 Plus - Pluto Kyouwakoku Monogatari (Japan)"
-	description "World Neverland 2 Plus - Pluto Kyouwakoku Monogatari (Japan)"
+	name "World Neverland 2 Plus - The Waktic Republic of Pluto (Japan)"
+	description "World Neverland 2 Plus - The Waktic Republic of Pluto (Japan)"
 	region "Japan"
 	serial "T-5303M"
-	rom ( name "World Neverland 2 Plus - Pluto Kyouwakoku Monogatari (Japan) (Track 3).bin" size 1185760800 crc 26DF5784 md5 B9FFAFC62BAE266412210B664BF11F2D sha1 A0CBBB9880ECA177B97E1FAE132530F1C5DC78DD serial "T-5303M" )
+	rom ( name "World Neverland 2 Plus - The Waktic Republic of Pluto (Japan) (Track 3).bin" size 1185760800 crc 26DF5784 md5 B9FFAFC62BAE266412210B664BF11F2D sha1 A0CBBB9880ECA177B97E1FAE132530F1C5DC78DD serial "T-5303M" )
 )
 game (
-	name "World Neverland Plus - Olerud Oukoku Monogatari (Japan)"
-	description "World Neverland Plus - Olerud Oukoku Monogatari (Japan)"
+	name "World Neverland Plus - The Olerud Kingdom Stories (Japan)"
+	description "World Neverland Plus - The Olerud Kingdom Stories (Japan)"
 	region "Japan"
 	serial "T-5301M"
-	rom ( name "World Neverland Plus - Olerud Oukoku Monogatari (Japan) (Track 3).bin" size 1185760800 crc 7B604441 md5 32318382FB9B46D5D844C89EFF0EF4E1 sha1 B84687B85BEA90C37D103BB50BCA6F201661F383 serial "T-5301M" )
+	rom ( name "World Neverland Plus - The Olerud Kingdom Stories (Japan) (Track 3).bin" size 1185760800 crc 7B604441 md5 32318382FB9B46D5D844C89EFF0EF4E1 sha1 B84687B85BEA90C37D103BB50BCA6F201661F383 serial "T-5301M" )
 )
 game (
 	name "World Series Baseball 2K1 (Japan)"

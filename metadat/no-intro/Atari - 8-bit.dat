@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 8-bit"
 	description "Atari - 8-bit"
-	version "2024.01.28"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -18,6 +18,11 @@ game (
 	rom ( name "A.E. (USA) (Side A).atx" size 95312 crc 8B22DEAF md5 D0E52B931CAA7DC7E3BF137BCBB2F0A9 sha1 C65516FDE218F1950D7FA8A96F1AD0222BF90B65 )
 )
 game (
+	name "Ace of Aces (USA, Europe)"
+	description "Ace of Aces (USA, Europe)"
+	rom ( name "Ace of Aces (USA, Europe).bin" size 131072 crc EBAD3DDB md5 97081BC626BFA004564CC725A5AACDFB sha1 7D87658412D983B368B9F6C75D3D6BE05485ACF9 )
+)
+game (
 	name "Acey-Deucey (USA)"
 	description "Acey-Deucey (USA)"
 	region "USA"
@@ -28,6 +33,62 @@ game (
 	description "Air Rescue I (USA)"
 	region "USA"
 	rom ( name "Air Rescue I (USA).atx" size 100208 crc A219E8EE md5 09F11AD7F67D4CF76FBB8A911B9BBEFF sha1 95E6F407CB4BC83F4BDD63FF1B42CC4D9675B723 )
+)
+game (
+	name "Archon (USA, Europe)"
+	description "Archon (USA, Europe)"
+	rom ( name "Archon (USA, Europe).bin" size 32768 crc 2636829F md5 77ABA8E96975B4BB7A714591505CE38F sha1 BFB2782A117CF3EFD5B71E225052F737658864C4 )
+)
+game (
+	name "Centipede (Europe)"
+	description "Centipede (Europe)"
+	region "Europe"
+	rom ( name "Centipede (Europe).atx" size 8192 crc 44BB1842 md5 A52EBB9034AF44BEA4AE73E088A102C3 sha1 2EED9A6BBC4C0396A0EFC48FC810F9363C23A3C3 )
+)
+game (
+	name "Desert Falcon (USA, Europe)"
+	description "Desert Falcon (USA, Europe)"
+	rom ( name "Desert Falcon (USA, Europe).bin" size 65536 crc A8F9324D md5 CBB80479B6C87B9E341C3662635A3AF4 sha1 FD4666796A4498339835D75DDB63C7B99D1D93BB )
+)
+game (
+	name "Joust (USA)"
+	description "Joust (USA)"
+	region "USA"
+	rom ( name "Joust (USA).bin" size 16384 crc F6EC618C md5 79E9146264BB499105AE6815B67C4B6A sha1 975C5B3F818D20C5FEB868A25159A678F8C34E1B )
+)
+game (
+	name "Missile Command (USA)"
+	description "Missile Command (USA)"
+	region "USA"
+	rom ( name "Missile Command (USA).bin" size 8192 crc D2E36392 md5 790B71981A0378508864BE428C84ADED sha1 DF5474E89183CA0313F50EA4FC72C67BF81C7351 )
+)
+game (
+	name "One-on-One (USA, Europe)"
+	description "One-on-One (USA, Europe)"
+	rom ( name "One-on-One (USA, Europe).bin" size 32768 crc AB060567 md5 2C074EC2CC675E6D2D6DD2AE7F6A7F82 sha1 D7EB0ED496DB4DE878C0F1688AA06ADE2E3A4BB2 )
+)
+game (
+	name "Pac-Man (Europe)"
+	description "Pac-Man (Europe)"
+	region "Europe"
+	rom ( name "Pac-Man (Europe).bin" size 8192 crc 61CF6167 md5 E66E9AF9AF01B019CD4E54ABA813FBAC sha1 BC600EF63F8D1BDD3911981C2752EA23DB959960 )
+)
+game (
+	name "Pole Position (Europe)"
+	description "Pole Position (Europe)"
+	region "Europe"
+	rom ( name "Pole Position (Europe).bin" size 16384 crc 581570C4 md5 97412C0BFFF456724E18FA24329E5C21 sha1 57BBB668072241925CC8D19561CC0D47B3D6A570 )
+)
+game (
+	name "Qix (USA)"
+	description "Qix (USA)"
+	region "USA"
+	rom ( name "Qix (USA).bin" size 8192 crc 967B8051 md5 9A93D84BFCBE8B98D37E411C22458A0C sha1 0454CED8BDF47402DCDA261AD12F6B805645BDBC )
+)
+game (
+	name "Rescue on Fractalus (USA, Europe)"
+	description "Rescue on Fractalus (USA, Europe)"
+	rom ( name "Rescue on Fractalus (USA, Europe).bin" size 65536 crc 1CA549AD md5 8DD03C7615DA801094D5E0B720387E8B sha1 36BC00B2E4452855D0681C50CDEC2403FFB2A6BB )
 )
 game (
 	name "Sargon III (USA) (Opening Book Disk) (5.25 inch)"
@@ -46,6 +107,17 @@ game (
 	description "Sargon III - Great Games and Chess Problems (USA) (5.25 inch)"
 	region "USA"
 	rom ( name "83.1.raw" size 260967 crc D89AACA3 md5 91B1D6664DF08648861ACF175BE209DA sha1 5ADD1D1FD22F66481AA23CED689E95109839AE42 )
+)
+game (
+	name "Star Raiders II (USA, Europe)"
+	description "Star Raiders II (USA, Europe)"
+	rom ( name "Star Raiders II (USA, Europe).bin" size 32768 crc 737D4196 md5 0986D1C14C159C4B9E18786C1DB326DA sha1 7E04D33D17A5DFCAB5E41FCA4AE6880730583DCE )
+)
+game (
+	name "Super Breakout (USA)"
+	description "Super Breakout (USA)"
+	region "USA"
+	rom ( name "Super Breakout (USA).bin" size 8192 crc 4DA14CF9 md5 7A312DF03DAB98276CE8195ED7E88BBA sha1 E0E3CFEE1DEEC5F57FCBD3C98F61225913FC6FB7 )
 )
 game (
 	name "Tristam Island (World) (v9) (Demo) (Aftermarket) (Unl)"

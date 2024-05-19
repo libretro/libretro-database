@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sony - PlayStation 3"
 	description "Sony - PlayStation 3"
-	version "2024.01.28"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -190,11 +190,16 @@ game (
 	rom ( name "3D Dot Game Heroes (Europe).iso" size 3584425984 crc 2581E77A md5 C6D19D8A8CE1CB90E67522EC366441C6 sha1 3ADDB442604B6D4834838E4825790D72FED30C4F serial "BLES-00875" )
 )
 game (
-	name "3D Dot Game Heroes (Japan)"
-	description "3D Dot Game Heroes (Japan)"
-	region "Japan"
+	name "3D Dot Game Heroes (Japan, Korea)"
+	description "3D Dot Game Heroes (Japan, Korea)"
+	serial "BCKS-10098"
+	rom ( name "3D Dot Game Heroes (Japan, Korea).iso" size 3271491584 crc BEE6D5B5 md5 7728265FB46F6333B8255BE88B660D0A sha1 ACA21D2F089418A636AB89FD3928727D551BC00D serial "BCKS-10098" )
+)
+game (
+	name "3D Dot Game Heroes (Japan, Korea)"
+	description "3D Dot Game Heroes (Japan, Korea)"
 	serial "BLJM-60180"
-	rom ( name "3D Dot Game Heroes (Japan).iso" size 3271491584 crc BEE6D5B5 md5 7728265FB46F6333B8255BE88B660D0A sha1 ACA21D2F089418A636AB89FD3928727D551BC00D serial "BLJM-60180" )
+	rom ( name "3D Dot Game Heroes (Japan, Korea).iso" size 3271491584 crc BEE6D5B5 md5 7728265FB46F6333B8255BE88B660D0A sha1 ACA21D2F089418A636AB89FD3928727D551BC00D serial "BLJM-60180" )
 )
 game (
 	name "3D Dot Game Heroes (USA)"
@@ -372,11 +377,10 @@ game (
 	rom ( name "Adam's Venture - Chronicles (Europe) (En,Fr,De,Es,It).iso" size 1841364992 crc A8E4E4BE md5 A4E44167BBB47B879AE9959582B22D64 sha1 2AB16705A93FACF243A0D7CE891F802723F65586 serial "BLES-02194" )
 )
 game (
-	name "Adidas miCoach (Europe) (En,Fr,De,Es,It)"
-	description "Adidas miCoach (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Adidas miCoach (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Adidas miCoach (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "BLES-01529"
-	rom ( name "Adidas miCoach (Europe) (En,Fr,De,Es,It).iso" size 21372469248 crc 2917EBCE md5 903B65BD78B4C71FB643655532E3C5DC sha1 EC8B0B3E874CBD861887EED6C69CC74EC5DBB46B serial "BLES-01529" )
+	rom ( name "Adidas miCoach (Europe, Australia) (En,Fr,De,Es,It).iso" size 21372469248 crc 2917EBCE md5 903B65BD78B4C71FB643655532E3C5DC sha1 EC8B0B3E874CBD861887EED6C69CC74EC5DBB46B serial "BLES-01529" )
 )
 game (
 	name "Adidas miCoach (USA) (En,Fr,Es)"
@@ -1413,8 +1417,22 @@ game (
 	name "Assassin's Creed (Russia)"
 	description "Assassin's Creed (Russia)"
 	region "Russia"
+	serial "BLES-00199"
+	rom ( name "Assassin's Creed (Russia).iso" size 7141654528 crc 1C19E745 md5 72DAD9555A513DE88E8ED7DCEBBE5943 sha1 8E79CE58848A8AAE531B8FC9DC4852CF3616C1BB serial "BLES-00199" )
+)
+game (
+	name "Assassin's Creed (Russia)"
+	description "Assassin's Creed (Russia)"
+	region "Russia"
 	serial "BLES-00199/E"
 	rom ( name "Assassin's Creed (Russia).iso" size 7141654528 crc 1C19E745 md5 72DAD9555A513DE88E8ED7DCEBBE5943 sha1 8E79CE58848A8AAE531B8FC9DC4852CF3616C1BB serial "BLES-00199/E" )
+)
+game (
+	name "Assassin's Creed (Russia)"
+	description "Assassin's Creed (Russia)"
+	region "Russia"
+	serial "BLES-00199/P"
+	rom ( name "Assassin's Creed (Russia).iso" size 7141654528 crc 1C19E745 md5 72DAD9555A513DE88E8ED7DCEBBE5943 sha1 8E79CE58848A8AAE531B8FC9DC4852CF3616C1BB serial "BLES-00199/P" )
 )
 game (
 	name "Assassin's Creed (USA) (En,Fr,De,Es,It)"
@@ -1457,6 +1475,13 @@ game (
 	region "Europe"
 	serial "BLES-00911"
 	rom ( name "Assassin's Creed - Brotherhood (Europe) (It,Pl,Ru).iso" size 7741505536 crc 1CFEF3DF md5 FE0073267AF9922683F62BF876A05B3D sha1 F09D7DC3808ECE33279B50E92CDD0F193FF62A63 serial "BLES-00911" )
+)
+game (
+	name "Assassin's Creed - Brotherhood (Europe) (It,Pl,Ru)"
+	description "Assassin's Creed - Brotherhood (Europe) (It,Pl,Ru)"
+	region "Europe"
+	serial "BLES-00911/E/RUS"
+	rom ( name "Assassin's Creed - Brotherhood (Europe) (It,Pl,Ru).iso" size 7741505536 crc 1CFEF3DF md5 FE0073267AF9922683F62BF876A05B3D sha1 F09D7DC3808ECE33279B50E92CDD0F193FF62A63 serial "BLES-00911/E/RUS" )
 )
 game (
 	name "Assassin's Creed - Brotherhood (Japan) (En,Ja,It)"
@@ -2597,6 +2622,12 @@ game (
 game (
 	name "Battlefield 3 (World) (En,Fr)"
 	description "Battlefield 3 (World) (En,Fr)"
+	serial "BLAS-50384"
+	rom ( name "Battlefield 3 (World) (En,Fr).iso" size 11632574464 crc BD769CDC md5 8CFAEE3766D96F308C5F1C9707CCCAD9 sha1 D02672D9125F1825243A867598CF5C3CAC5E8B78 serial "BLAS-50384" )
+)
+game (
+	name "Battlefield 3 (World) (En,Fr)"
+	description "Battlefield 3 (World) (En,Fr)"
 	serial "BLAS-50517"
 	rom ( name "Battlefield 3 (World) (En,Fr).iso" size 11632574464 crc BD769CDC md5 8CFAEE3766D96F308C5F1C9707CCCAD9 sha1 D02672D9125F1825243A867598CF5C3CAC5E8B78 serial "BLAS-50517" )
 )
@@ -3015,6 +3046,12 @@ game (
 	region "Japan"
 	serial "BLJM-60987"
 	rom ( name "Binary Domain (Japan) (En,Ja,Fr,De,Es,It).iso" size 12263555072 crc 426486F7 md5 149426659B891DF3F1CF0474A998167E sha1 1AB23033E0BF62BFBF4A26C22505BA9E7BCD53E6 serial "BLJM-60987" )
+)
+game (
+	name "Binary Domain (USA, Asia) (En,Ja)"
+	description "Binary Domain (USA, Asia) (En,Ja)"
+	serial "BCKS-10209"
+	rom ( name "Binary Domain (USA, Asia) (En,Ja).iso" size 12263555072 crc F8CA19FD md5 4C8BCF7D5292501D90E9D80E72FDD55F sha1 70CC4B1466EA3A01EDA8CF201E94F1D1EF3A33F3 serial "BCKS-10209" )
 )
 game (
 	name "Binary Domain (USA, Asia) (En,Ja)"
@@ -3802,11 +3839,16 @@ game (
 	rom ( name "Borderlands - The Pre-Sequel! (Japan).iso" size 4468965376 crc ACAA3801 md5 64C38328BBC2598EFFB77FB043119948 sha1 764316BC1A2435F2AD2EBFE849899DA4B9217283 serial "BLJS-10281" )
 )
 game (
-	name "Borderlands - The Pre-Sequel! (USA) (En,Fr,De,Es,It)"
-	description "Borderlands - The Pre-Sequel! (USA) (En,Fr,De,Es,It)"
-	region "USA"
+	name "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It)"
+	description "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It)"
+	serial "BLKS-20491"
+	rom ( name "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It).iso" size 6148390912 crc 4AD7E0E8 md5 7B921333F3F04544333EBD6811A9B7AB sha1 222F365D4B16A1F1F7605B268B6C121B7F0E836C serial "BLKS-20491" )
+)
+game (
+	name "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It)"
+	description "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It)"
 	serial "BLUS-31445"
-	rom ( name "Borderlands - The Pre-Sequel! (USA) (En,Fr,De,Es,It).iso" size 6148390912 crc 4AD7E0E8 md5 7B921333F3F04544333EBD6811A9B7AB sha1 222F365D4B16A1F1F7605B268B6C121B7F0E836C serial "BLUS-31445" )
+	rom ( name "Borderlands - The Pre-Sequel! (USA, Korea) (En,Fr,De,Es,It).iso" size 6148390912 crc 4AD7E0E8 md5 7B921333F3F04544333EBD6811A9B7AB sha1 222F365D4B16A1F1F7605B268B6C121B7F0E836C serial "BLUS-31445" )
 )
 game (
 	name "Borderlands 2 (Europe) (En,Fr,De,Es,It)"
@@ -3956,11 +3998,16 @@ game (
 	rom ( name "Brink (Japan).iso" size 5416484864 crc 5A70EA3A md5 D738B317918D90B6E61A30C5F986B091 sha1 AE7AE68FDDA16D1651073379519E92F25B7B0BB0 serial "BLJM-60355" )
 )
 game (
-	name "Brink (USA) (En,Fr,Es)"
-	description "Brink (USA) (En,Fr,Es)"
-	region "USA"
+	name "Brink (USA, Korea) (En,Fr,Es)"
+	description "Brink (USA, Korea) (En,Fr,Es)"
+	serial "BCKS-10165"
+	rom ( name "Brink (USA, Korea) (En,Fr,Es).iso" size 6058213376 crc 51E4FB18 md5 C305EC2FE8CBC107B968C653E4258010 sha1 CD65BD969573B21A8EE1347F819BC3133D0791F0 serial "BCKS-10165" )
+)
+game (
+	name "Brink (USA, Korea) (En,Fr,Es)"
+	description "Brink (USA, Korea) (En,Fr,Es)"
 	serial "BLUS-30310"
-	rom ( name "Brink (USA) (En,Fr,Es).iso" size 6058213376 crc 51E4FB18 md5 C305EC2FE8CBC107B968C653E4258010 sha1 CD65BD969573B21A8EE1347F819BC3133D0791F0 serial "BLUS-30310" )
+	rom ( name "Brink (USA, Korea) (En,Fr,Es).iso" size 6058213376 crc 51E4FB18 md5 C305EC2FE8CBC107B968C653E4258010 sha1 CD65BD969573B21A8EE1347F819BC3133D0791F0 serial "BLUS-30310" )
 )
 game (
 	name "Brothers in Arms - Hell's Highway (Europe) (En,Fr,Es,It)"
@@ -4880,6 +4927,13 @@ game (
 	rom ( name "Call of Duty - Modern Warfare 2 (France).iso" size 7972388864 crc DF115494 md5 B02251FC90E23B675D6F40476D89EB31 sha1 C3FBDFE4988A9F2B0F256EBE894B5628504A8E95 serial "BLES-00684" )
 )
 game (
+	name "Call of Duty - Modern Warfare 2 (France)"
+	description "Call of Duty - Modern Warfare 2 (France)"
+	region "France"
+	serial "BLES-00684/P"
+	rom ( name "Call of Duty - Modern Warfare 2 (France).iso" size 7972388864 crc DF115494 md5 B02251FC90E23B675D6F40476D89EB31 sha1 C3FBDFE4988A9F2B0F256EBE894B5628504A8E95 serial "BLES-00684/P" )
+)
+game (
 	name "Call of Duty - Modern Warfare 2 (Germany)"
 	description "Call of Duty - Modern Warfare 2 (Germany)"
 	region "Germany"
@@ -5317,6 +5371,13 @@ game (
 	name "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	description "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	region "Europe"
+	serial "BCES-01369"
+	rom ( name "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 3828809728 crc 3B09AAEB md5 C1D3346255A98D854F2C9F0139A7A43C sha1 6AA77BE090C2281E477FDCF71EE373096B2DAC92 serial "BCES-01369" )
+)
+game (
+	name "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	region "Europe"
 	serial "BCES-01369/POL"
 	rom ( name "Carnival Island (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 3828809728 crc 3B09AAEB md5 C1D3346255A98D854F2C9F0139A7A43C sha1 6AA77BE090C2281E477FDCF71EE373096B2DAC92 serial "BCES-01369/POL" )
 )
@@ -5583,6 +5644,13 @@ game (
 	name "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan)"
 	description "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan)"
 	region "Japan"
+	serial "BLJS-93006"
+	rom ( name "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan).iso" size 45066813440 crc 101052B1 md5 532A535A0C2EEF7FA1B6186F1D72EBEB sha1 0532182E05D45A01B312780C4E397394ACC1B53C serial "BLJS-93006" )
+)
+game (
+	name "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan)"
+	description "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan)"
+	region "Japan"
 	serial "BLJS-93007"
 	rom ( name "Chou Jikuu Yousai Macross - Ai Oboete Imasu ka - Hybrid Pack (Japan).iso" size 45066813440 crc 101052B1 md5 532A535A0C2EEF7FA1B6186F1D72EBEB sha1 0532182E05D45A01B312780C4E397394ACC1B53C serial "BLJS-93007" )
 )
@@ -5736,8 +5804,22 @@ game (
 	name "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It)"
 	description "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	serial "BLES-00673"
+	rom ( name "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It).iso" size 7569473536 crc BF8A344D md5 D43336C97D6972B8446F0B578FF1C9EE sha1 FE0E6889FE477235CBE763D91EA9A77CAB1885B0 serial "BLES-00673" )
+)
+game (
+	name "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It)"
+	description "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
 	serial "BLES-00673/P"
 	rom ( name "Colin McRae - DiRT 2 (Europe) (En,Fr,De,Es,It).iso" size 7569473536 crc BF8A344D md5 D43336C97D6972B8446F0B578FF1C9EE sha1 FE0E6889FE477235CBE763D91EA9A77CAB1885B0 serial "BLES-00673/P" )
+)
+game (
+	name "Colin McRae - DiRT 2 (Japan)"
+	description "Colin McRae - DiRT 2 (Japan)"
+	region "Japan"
+	serial "BLJM-60178"
+	rom ( name "Colin McRae - DiRT 2 (Japan).iso" size 7190151168 crc 60B1A475 md5 691E1008A3352E2FF755939F3C48A465 sha1 11CEC1561F9EE2BC97B2628EF3F85C35464CDD2E serial "BLJM-60178" )
 )
 game (
 	name "Colin McRae - DiRT 2 (Japan)"
@@ -6448,11 +6530,16 @@ game (
 	rom ( name "Dark Souls with Artorias of the Abyss Edition (Japan).iso" size 5605556224 crc 7B5D46C2 md5 7E83B5728252DD8BB1F66CE17F23AED5 sha1 7213BA6403AFFD0E367D3FA6052079FD54F2246C serial "BLJM-60517" )
 )
 game (
-	name "Dark Void (Europe) (En,Fr,De,Es,It)"
-	description "Dark Void (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Dark Void (Europe, Asia) (En,Fr,De,Es,It)"
+	description "Dark Void (Europe, Asia) (En,Fr,De,Es,It)"
 	serial "BLES-00723"
-	rom ( name "Dark Void (Europe) (En,Fr,De,Es,It).iso" size 5352587264 crc 2C0C90FB md5 7D6A08949365C54A61D6A7BA0E215909 sha1 F0CA9789906847C9F951DD5340A76DB06AC48735 serial "BLES-00723" )
+	rom ( name "Dark Void (Europe, Asia) (En,Fr,De,Es,It).iso" size 5352587264 crc 2C0C90FB md5 7D6A08949365C54A61D6A7BA0E215909 sha1 F0CA9789906847C9F951DD5340A76DB06AC48735 serial "BLES-00723" )
+)
+game (
+	name "Dark Void (Europe, Asia) (En,Fr,De,Es,It)"
+	description "Dark Void (Europe, Asia) (En,Fr,De,Es,It)"
+	serial "BLKS-20137"
+	rom ( name "Dark Void (Europe, Asia) (En,Fr,De,Es,It).iso" size 5352587264 crc 2C0C90FB md5 7D6A08949365C54A61D6A7BA0E215909 sha1 F0CA9789906847C9F951DD5340A76DB06AC48735 serial "BLKS-20137" )
 )
 game (
 	name "Dark Void (USA) (En,Fr,De,Es,It)"
@@ -6724,6 +6811,20 @@ game (
 	rom ( name "Dead Island - Zombie of the Year Edition (Japan).iso" size 7795245056 crc 57FF99C6 md5 688A366FAFB3ED29358A4DBF812B3D0C sha1 9AFB7C5DF8C8D1948E286888FF088582720E2FD9 serial "BLJS-10198" )
 )
 game (
+	name "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko)"
+	description "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko)"
+	region "Asia"
+	serial "BLAS-50230"
+	rom ( name "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko).iso" size 6346047488 crc F0E6E3EC md5 0FB5363AF550C08E7A654FFEF06CB17F sha1 7D594A2C95FCF3C9227B1D62A7E672A15652C8F3 serial "BLAS-50230" )
+)
+game (
+	name "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko)"
+	description "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko)"
+	region "Asia"
+	serial "BLKS-20213"
+	rom ( name "Dead Rising 2 (Asia) (En,Ja,Fr,Es,It,Ko).iso" size 6346047488 crc F0E6E3EC md5 0FB5363AF550C08E7A654FFEF06CB17F sha1 7D594A2C95FCF3C9227B1D62A7E672A15652C8F3 serial "BLKS-20213" )
+)
+game (
 	name "Dead Rising 2 (Europe) (En,Ja,Fr,Es,It,Ko)"
 	description "Dead Rising 2 (Europe) (En,Ja,Fr,Es,It,Ko)"
 	region "Europe"
@@ -6743,13 +6844,6 @@ game (
 	region "Japan"
 	serial "BLJM-60221"
 	rom ( name "Dead Rising 2 (Japan).iso" size 6346047488 crc CB633EFA md5 EF7B784D71E6F66E664C4A1C800CD662 sha1 5535798EA0F64FE45147E47547D1D6507231CE09 serial "BLJM-60221" )
-)
-game (
-	name "Dead Rising 2 (Korea) (En,Ja,Fr,Es,It,Ko)"
-	description "Dead Rising 2 (Korea) (En,Ja,Fr,Es,It,Ko)"
-	region "Korea"
-	serial "BLKS-20213"
-	rom ( name "Dead Rising 2 (Korea) (En,Ja,Fr,Es,It,Ko).iso" size 6346047488 crc F0E6E3EC md5 0FB5363AF550C08E7A654FFEF06CB17F sha1 7D594A2C95FCF3C9227B1D62A7E672A15652C8F3 serial "BLKS-20213" )
 )
 game (
 	name "Dead Rising 2 (USA) (En,Ja,Fr,Es,It,Ko)"
@@ -6841,13 +6935,6 @@ game (
 	rom ( name "Dead Space (USA, Korea) (En,Fr,Es).iso" size 10563026944 crc 80C634CC md5 990CFA06BE1DC11FDA8FC3DED2F88314 sha1 65F540482092FC0FD90AEACD8BF82E8A8BF2E27D serial "BLUS-30177GH" )
 )
 game (
-	name "Dead Space 2 (Australia) (En,Fr,De) (Limited Edition)"
-	description "Dead Space 2 (Australia) (En,Fr,De) (Limited Edition)"
-	region "Australia"
-	serial "BLES-01040/ANZ"
-	rom ( name "Dead Space 2 (Australia) (En,Fr,De) (Limited Edition).iso" size 14835646464 crc 8A860C06 md5 B8E18906587D120A029AFB173A83F739 sha1 2F24C153A8AC6779E346AFAEF1CE06BD2C5DB87B serial "BLES-01040/ANZ" )
-)
-game (
 	name "Dead Space 2 (Europe) (En,Es,It,Ru)"
 	description "Dead Space 2 (Europe) (En,Es,It,Ru)"
 	region "Europe"
@@ -6881,6 +6968,18 @@ game (
 	region "Europe"
 	serial "BLES-01190/P"
 	rom ( name "Dead Space 2 (Europe) (En,Fr,De).iso" size 14839447552 crc 89DF0E24 md5 AE51C10163742AC598179BE75709050D sha1 00387C545A674BCEFB50A60D678B0682E40A53FC serial "BLES-01190/P" )
+)
+game (
+	name "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition)"
+	description "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition)"
+	serial "BLES-01040"
+	rom ( name "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition).iso" size 14835646464 crc 8A860C06 md5 B8E18906587D120A029AFB173A83F739 sha1 2F24C153A8AC6779E346AFAEF1CE06BD2C5DB87B serial "BLES-01040" )
+)
+game (
+	name "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition)"
+	description "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition)"
+	serial "BLES-01040/ANZ"
+	rom ( name "Dead Space 2 (Europe, Australia) (En,Fr,De) (Limited Edition).iso" size 14835646464 crc 8A860C06 md5 B8E18906587D120A029AFB173A83F739 sha1 2F24C153A8AC6779E346AFAEF1CE06BD2C5DB87B serial "BLES-01040/ANZ" )
 )
 game (
 	name "Dead Space 2 (Germany) (En,De)"
@@ -7249,11 +7348,16 @@ game (
 	rom ( name "Destiny (Japan) (En,Ja,Fr,De,Es,It,Pt).iso" size 8197242880 crc B22C349B md5 F0B565B77D26D5E57BE2932D64C2FF09 sha1 4716E07CC1E1E317721D84A26DD5038CC87CADA8 serial "BCJS-35002" )
 )
 game (
-	name "Destiny (USA) (En,Fr,De,Es,It,Pt)"
-	description "Destiny (USA) (En,Fr,De,Es,It,Pt)"
-	region "USA"
+	name "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt)"
+	description "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt)"
+	serial "BLAS-50738"
+	rom ( name "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt).iso" size 8197242880 crc 449E4A5C md5 3AFADFDC2494A6F07EB4A23118AA6A5E sha1 87A5D5C620BFBF248502E840595059D2F67F77CC serial "BLAS-50738" )
+)
+game (
+	name "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt)"
+	description "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt)"
 	serial "BLUS-31181"
-	rom ( name "Destiny (USA) (En,Fr,De,Es,It,Pt).iso" size 8197242880 crc 449E4A5C md5 3AFADFDC2494A6F07EB4A23118AA6A5E sha1 87A5D5C620BFBF248502E840595059D2F67F77CC serial "BLUS-31181" )
+	rom ( name "Destiny (USA, Korea) (En,Fr,De,Es,It,Pt).iso" size 8197242880 crc 449E4A5C md5 3AFADFDC2494A6F07EB4A23118AA6A5E sha1 87A5D5C620BFBF248502E840595059D2F67F77CC serial "BLUS-31181" )
 )
 game (
 	name "Destroy All Humans! Path of the Furon (Europe) (En,Fr,De,Es,It)"
@@ -7843,6 +7947,12 @@ game (
 	rom ( name "Disney Infinity (Europe) (En,Pl,Ru,Ar).iso" size 8912371712 crc F8AB506C md5 0BB5CD74756B396D4597F846B813F76A sha1 5F9852C734F5CFB12BD74985E827BF5E0AAB415F serial "BLES-01843/RUS" )
 )
 game (
+	name "Disney Infinity (Scandinavia)"
+	description "Disney Infinity (Scandinavia)"
+	serial "BLES-01844"
+	rom ( name "Disney Infinity (Scandinavia).iso" size 9314172928 crc B4710D68 md5 0C136B439336FEA66473F4367173908D sha1 43341FC16C7E147A53DA6CB40EEBAA01C71DE330 serial "BLES-01844" )
+)
+game (
 	name "Disney Infinity (USA) (En,Fr,Es,Pt)"
 	description "Disney Infinity (USA) (En,Fr,Es,Pt)"
 	region "USA"
@@ -7869,6 +7979,12 @@ game (
 	region "Germany"
 	serial "BLES-02100"
 	rom ( name "Disney Infinity 2.0 - Play Without Limits (Germany).iso" size 8030584832 crc C7162593 md5 32671CC2FAB2FD8E6DEADF9448C053CB sha1 46167D0910F58AB114EF82F6B1EEE1766CB26C44 serial "BLES-02100" )
+)
+game (
+	name "Disney Infinity 2.0 - Play Without Limits (Scandinavia) (En,Sv,No,Da,Fi)"
+	description "Disney Infinity 2.0 - Play Without Limits (Scandinavia) (En,Sv,No,Da,Fi)"
+	serial "BLES-02065"
+	rom ( name "Disney Infinity 2.0 - Play Without Limits (Scandinavia) (En,Sv,No,Da,Fi).iso" size 10075832320 crc BB320C19 md5 106B0A37E67F1B1C517EAACAC1CF6A6E sha1 219D9957CCC8196663019C9E4CAA8542AA9F905F serial "BLES-02065" )
 )
 game (
 	name "Disney Infinity 2.0 Edition (USA) (En,Fr,Es,Pt)"
@@ -7934,11 +8050,11 @@ game (
 	rom ( name "Disney Phineas and Ferb - Across the 2nd Dimension (USA) (En,Fr,Es).iso" size 18419875840 crc B95E5765 md5 30221D75306E88A40E0A4826427C759D sha1 DDA0663FC25130CC788B53338601294DEB289585 serial "BLUS-30726" )
 )
 game (
-	name "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It)"
-	description "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It)"
+	name "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It,Nl)"
+	description "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	serial "BLES-00066"
-	rom ( name "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It).iso" size 6113984512 crc 214801DE md5 8E738A8AE0F02B252E1D2D8A20372581 sha1 A39D0438660DDA906CFBF5B1BB6474091E2414C5 serial "BLES-00066" )
+	rom ( name "Disney Pirates of the Caribbean - At World's End (Europe) (En,Fr,De,Es,It,Nl).iso" size 6113984512 crc 214801DE md5 8E738A8AE0F02B252E1D2D8A20372581 sha1 A39D0438660DDA906CFBF5B1BB6474091E2414C5 serial "BLES-00066" )
 )
 game (
 	name "Disney Pirates of the Caribbean - At World's End (Japan)"
@@ -8089,6 +8205,13 @@ game (
 	description "Disney Universe (USA, Korea) (En,Fr,Es)"
 	serial "BLUS-30773"
 	rom ( name "Disney Universe (USA, Korea) (En,Fr,Es).iso" size 5963644928 crc 8DB3F0AB md5 DF2EEFE45CA2F27C6A7A3E403385CCEE sha1 F9520E6503D7FAEB538BDBA08491BC8CA35A4445 serial "BLUS-30773" )
+)
+game (
+	name "Disney-Pixar Brave (Australia) (En,Fr,Es)"
+	description "Disney-Pixar Brave (Australia) (En,Fr,Es)"
+	region "Australia"
+	serial "BLES-01633"
+	rom ( name "Disney-Pixar Brave (Australia) (En,Fr,Es).iso" size 3083141120 crc F006B1C0 md5 15BD86D2B3D5EC4ADA438D2E8EA2F3DC sha1 688415D382502033C72CE17E8D2CCFD7D2B19C9A serial "BLES-01633" )
 )
 game (
 	name "Disney-Pixar Brave (Europe) (En,Fr,De,Es,It,Nl)"
@@ -8833,6 +8956,13 @@ game (
 	rom ( name "Dragon Ball Z - Burst Limit (Europe) (En,Fr,De,Es,It).iso" size 3758686208 crc 66CF8430 md5 E0A5F55224829F8715B857BFDC1AE364 sha1 88E99EF76374290C9738EB788128589330274E45 serial "BLES-00231" )
 )
 game (
+	name "Dragon Ball Z - Burst Limit (Europe) (En,Fr,De,Es,It)"
+	description "Dragon Ball Z - Burst Limit (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "BLES-00231"
+	rom ( name "Dragon Ball Z - Burst Limit (Europe) (En,Fr,De,Es,It).iso" size 3758686208 crc 66CF8430 md5 E0A5F55224829F8715B857BFDC1AE364 sha1 88E99EF76374290C9738EB788128589330274E45 serial "BLES-00231" )
+)
+game (
 	name "Dragon Ball Z - Burst Limit (Japan, Asia)"
 	description "Dragon Ball Z - Burst Limit (Japan, Asia)"
 	serial "BLAS-50054"
@@ -9275,6 +9405,13 @@ game (
 	region "Europe"
 	serial "BLES-00951"
 	rom ( name "Driver - San Francisco (Europe) (Pl,Ru).iso" size 7155089408 crc 81ADA49A md5 20A7C9B19C349E95DF654357812720C4 sha1 4376F0F7F716FD5508876A86FBD58D1D62DEF6B1 serial "BLES-00951" )
+)
+game (
+	name "Driver - San Francisco (Europe) (Pl,Ru)"
+	description "Driver - San Francisco (Europe) (Pl,Ru)"
+	region "Europe"
+	serial "BLES-00951/E"
+	rom ( name "Driver - San Francisco (Europe) (Pl,Ru).iso" size 7155089408 crc 81ADA49A md5 20A7C9B19C349E95DF654357812720C4 sha1 4376F0F7F716FD5508876A86FBD58D1D62DEF6B1 serial "BLES-00951/E" )
 )
 game (
 	name "Driver - San Francisco (Japan)"
@@ -9738,6 +9875,13 @@ game (
 	name "Elder Scrolls IV, The - Oblivion (Japan)"
 	description "Elder Scrolls IV, The - Oblivion (Japan)"
 	region "Japan"
+	serial "BLJM-60032"
+	rom ( name "Elder Scrolls IV, The - Oblivion (Japan).iso" size 5385355264 crc 850C3BF7 md5 94EB212E5976D761D479526F106E89A0 sha1 5DB654AEBAD6CFF9D382B3DC1593D648B3DEDB7F serial "BLJM-60032" )
+)
+game (
+	name "Elder Scrolls IV, The - Oblivion (Japan)"
+	description "Elder Scrolls IV, The - Oblivion (Japan)"
+	region "Japan"
 	serial "BLJS-50005"
 	rom ( name "Elder Scrolls IV, The - Oblivion (Japan).iso" size 5385355264 crc 850C3BF7 md5 94EB212E5976D761D479526F106E89A0 sha1 5DB654AEBAD6CFF9D382B3DC1593D648B3DEDB7F serial "BLJS-50005" )
 )
@@ -9896,18 +10040,23 @@ game (
 	rom ( name "Elder Scrolls V, The - Skyrim - Legendary Edition (Asia).iso" size 6599213056 crc 56609737 md5 0FAFE6356418B56439EAD567B1E9A04C sha1 0D291A9EA1B1BDFD08CF124D20612BD44947B24C serial "BLAS-50624" )
 )
 game (
-	name "Elder Scrolls V, The - Skyrim - Legendary Edition (Australia)"
-	description "Elder Scrolls V, The - Skyrim - Legendary Edition (Australia)"
-	region "Australia"
-	serial "BLES-01885"
-	rom ( name "Elder Scrolls V, The - Skyrim - Legendary Edition (Australia).iso" size 6619201536 crc 2DD76D3C md5 CD92A1D134A94DDA27E43F18CE4CCF77 sha1 7E500994AF25E675F8C3E00E65F0754337585714 serial "BLES-01885" )
-)
-game (
 	name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe) (Fr,De,Es,It)"
 	description "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe) (Fr,De,Es,It)"
 	region "Europe"
 	serial "BLES-01886"
 	rom ( name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe) (Fr,De,Es,It).iso" size 17907712000 crc B836B706 md5 5BDC1F71A0D51A163D68F3FF6C76A02E sha1 6383B0AA29FBFD51D2BCE82A381A58E0C82DFAEC serial "BLES-01886" )
+)
+game (
+	name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia)"
+	description "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia)"
+	serial "BLES-01885"
+	rom ( name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia).iso" size 6619201536 crc 2DD76D3C md5 CD92A1D134A94DDA27E43F18CE4CCF77 sha1 7E500994AF25E675F8C3E00E65F0754337585714 serial "BLES-01885" )
+)
+game (
+	name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia)"
+	description "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia)"
+	serial "BLES-01885/E"
+	rom ( name "Elder Scrolls V, The - Skyrim - Legendary Edition (Europe, Australia).iso" size 6619201536 crc 2DD76D3C md5 CD92A1D134A94DDA27E43F18CE4CCF77 sha1 7E500994AF25E675F8C3E00E65F0754337585714 serial "BLES-01885/E" )
 )
 game (
 	name "Elder Scrolls V, The - Skyrim - Legendary Edition (Japan)"
@@ -10597,6 +10746,13 @@ game (
 	rom ( name "FIFA 08 (Asia).iso" size 5243928576 crc 22724C8A md5 0583CED28009B7F9D72D73B75224F479 sha1 07A2021A879FC6F51A016E1B287C9A943C203162 serial "BLAS-50027" )
 )
 game (
+	name "FIFA 08 (Asia)"
+	description "FIFA 08 (Asia)"
+	region "Asia"
+	serial "BLKS-20038"
+	rom ( name "FIFA 08 (Asia).iso" size 5243928576 crc 22724C8A md5 0583CED28009B7F9D72D73B75224F479 sha1 07A2021A879FC6F51A016E1B287C9A943C203162 serial "BLKS-20038" )
+)
+game (
 	name "FIFA 08 (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	description "FIFA 08 (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
@@ -10898,18 +11054,22 @@ game (
 	rom ( name "FIFA 15 (Brazil).iso" size 7654866944 crc 2D67491D md5 782AABF35CE390F6310515D1D38A8A24 sha1 4800632D28221FBD9764C6A98B6288C7D02D7A04 serial "BLUS-31457" )
 )
 game (
-	name "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
-	description "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
-	region "Europe"
-	serial "BLES-02048"
-	rom ( name "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu).iso" size 11153244160 crc 18D53BDA md5 746475B52E9333C07B30C9BF6ECC68A8 sha1 84A9D62123F61FC9ADE08E41D0BA13AC5ABE0269 serial "BLES-02048" )
+	name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
+	description "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
+	serial "BLAS-50742"
+	rom ( name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu).iso" size 11153244160 crc 18D53BDA md5 746475B52E9333C07B30C9BF6ECC68A8 sha1 84A9D62123F61FC9ADE08E41D0BA13AC5ABE0269 serial "BLAS-50742" )
 )
 game (
-	name "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
-	description "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
-	region "Europe"
+	name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
+	description "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
+	serial "BLES-02048"
+	rom ( name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu).iso" size 11153244160 crc 18D53BDA md5 746475B52E9333C07B30C9BF6ECC68A8 sha1 84A9D62123F61FC9ADE08E41D0BA13AC5ABE0269 serial "BLES-02048" )
+)
+game (
+	name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
+	description "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu)"
 	serial "BLES-02048/RUS"
-	rom ( name "FIFA 15 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu).iso" size 11153244160 crc 18D53BDA md5 746475B52E9333C07B30C9BF6ECC68A8 sha1 84A9D62123F61FC9ADE08E41D0BA13AC5ABE0269 serial "BLES-02048/RUS" )
+	rom ( name "FIFA 15 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Pl,Ru,Cs,Hu).iso" size 11153244160 crc 18D53BDA md5 746475B52E9333C07B30C9BF6ECC68A8 sha1 84A9D62123F61FC9ADE08E41D0BA13AC5ABE0269 serial "BLES-02048/RUS" )
 )
 game (
 	name "FIFA 15 (Japan)"
@@ -11153,11 +11313,16 @@ game (
 	rom ( name "FIFA Street 3 (Japan).iso" size 2284126208 crc 0D46E054 md5 1090B280A31D454C978DA167B55C8254 sha1 0E2F841F6C05BDFCA9F550D7CBFF9423887849E9 serial "BLJM-60079" )
 )
 game (
-	name "FIFA Street 3 (USA) (En,Fr,De,Es,It)"
-	description "FIFA Street 3 (USA) (En,Fr,De,Es,It)"
-	region "USA"
+	name "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It)"
+	description "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It)"
+	serial "BLKS-20056"
+	rom ( name "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It).iso" size 2835152896 crc C00D3B57 md5 BFFF6CC6F54FBA8277C6AA3607D4C5E0 sha1 F8B62566DF2176E6893F34DF823A814B89F42914 serial "BLKS-20056" )
+)
+game (
+	name "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It)"
+	description "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It)"
 	serial "BLUS-30099"
-	rom ( name "FIFA Street 3 (USA) (En,Fr,De,Es,It).iso" size 2835152896 crc C00D3B57 md5 BFFF6CC6F54FBA8277C6AA3607D4C5E0 sha1 F8B62566DF2176E6893F34DF823A814B89F42914 serial "BLUS-30099" )
+	rom ( name "FIFA Street 3 (USA, Korea) (En,Fr,De,Es,It).iso" size 2835152896 crc C00D3B57 md5 BFFF6CC6F54FBA8277C6AA3607D4C5E0 sha1 F8B62566DF2176E6893F34DF823A814B89F42914 serial "BLUS-30099" )
 )
 game (
 	name "FaceBreaker (Europe) (En,Fr,De)"
@@ -11472,11 +11637,16 @@ game (
 	rom ( name "Fallout 3 (Spain).iso" size 7735738368 crc EEEA4EC5 md5 7B38040737906596B91886E45790F969 sha1 6B45ECE404F65ECC3196CCDD193C87C6F92C11BC serial "BLES-00337" )
 )
 game (
-	name "Fallout 3 (USA)"
-	description "Fallout 3 (USA)"
-	region "USA"
+	name "Fallout 3 (USA, Asia)"
+	description "Fallout 3 (USA, Asia)"
+	serial "BCAS-20061"
+	rom ( name "Fallout 3 (USA, Asia).iso" size 7847608320 crc 5FE95615 md5 423D2BA64758879E48F7BCA6197C4FB1 sha1 D726B7831EFB353D0B718151AB585C88F78BF575 serial "BCAS-20061" )
+)
+game (
+	name "Fallout 3 (USA, Asia)"
+	description "Fallout 3 (USA, Asia)"
 	serial "BLUS-30185"
-	rom ( name "Fallout 3 (USA).iso" size 7847608320 crc 5FE95615 md5 423D2BA64758879E48F7BCA6197C4FB1 sha1 D726B7831EFB353D0B718151AB585C88F78BF575 serial "BLUS-30185" )
+	rom ( name "Fallout 3 (USA, Asia).iso" size 7847608320 crc 5FE95615 md5 423D2BA64758879E48F7BCA6197C4FB1 sha1 D726B7831EFB353D0B718151AB585C88F78BF575 serial "BLUS-30185" )
 )
 game (
 	name "Fallout 3 - Game of the Year Edition (Austria, Switzerland)"
@@ -11699,18 +11869,23 @@ game (
 	rom ( name "Far Cry 3 + Far Cry 4 - Double Pack (Russia) (En,Pl,Ru).iso" size 14036172800 crc A69CA2AA md5 A540A13B19E0B806D0A58B407EEFFE1C sha1 626635F3867CB87E88FFCE4C045ADA3B0203E1D0 serial "BLES-02212/RUS" )
 )
 game (
-	name "Far Cry 4 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
-	description "Far Cry 4 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
-	region "Europe"
-	serial "BLES-02011"
-	rom ( name "Far Cry 4 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs).iso" size 10964828160 crc 8825B455 md5 B083342C1E6C6882ADFF04D863F0451E sha1 A88BB193B951F0301F1A46DE2A98D2A8B838EB02 serial "BLES-02011" )
-)
-game (
 	name "Far Cry 4 (Europe) (En,Ru)"
 	description "Far Cry 4 (Europe) (En,Ru)"
 	region "Europe"
 	serial "BLES-02012"
 	rom ( name "Far Cry 4 (Europe) (En,Ru).iso" size 8480817152 crc 1B3F7592 md5 A703DB305FDECEE3833E7527A4B44D8F sha1 264D5C0030762380198A25C7287327CA79B359A3 serial "BLES-02012" )
+)
+game (
+	name "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
+	description "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
+	serial "BLES-02011"
+	rom ( name "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs).iso" size 10964828160 crc 8825B455 md5 B083342C1E6C6882ADFF04D863F0451E sha1 A88BB193B951F0301F1A46DE2A98D2A8B838EB02 serial "BLES-02011" )
+)
+game (
+	name "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
+	description "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs)"
+	serial "BLKS-20498"
+	rom ( name "Far Cry 4 (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Ko,Pl,Cs).iso" size 10964828160 crc 8825B455 md5 B083342C1E6C6882ADFF04D863F0451E sha1 A88BB193B951F0301F1A46DE2A98D2A8B838EB02 serial "BLKS-20498" )
 )
 game (
 	name "Far Cry 4 (Japan)"
@@ -11928,6 +12103,13 @@ game (
 	region "USA"
 	serial "BLUS-30285GH"
 	rom ( name "Fight Night Round 4 (USA) (En,Fr).iso" size 4755423232 crc FD72272A md5 49482957BC39956D59BC94EEC5A9BC78 sha1 DF3B6E39C9DDDE78BE7122ADFE632ABE77A77E4E serial "BLUS-30285GH" )
+)
+game (
+	name "Fight, The (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Fight, The (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	region "Europe"
+	serial "BCES-00874"
+	rom ( name "Fight, The (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 13785038848 crc 71C51B97 md5 055524D8C263793C7868AFDB16B288DF sha1 C3DE9A5747D9ECFE349AC11B9BA5BEA88FF151CC serial "BCES-00874" )
 )
 game (
 	name "Fight, The (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
@@ -12175,6 +12357,13 @@ game (
 	rom ( name "Final Fantasy XIV Online - A Realm Reborn (Europe) (En,Ja,Fr,De).iso" size 7071989760 crc 1DE06D95 md5 6B064B1402864BCBC6E10464054CFE4E sha1 A03E803A361AA16D02B04C8B021809B86A6040A0 serial "BLES-01129" )
 )
 game (
+	name "Final Fantasy XIV Online - A Realm Reborn (Japan)"
+	description "Final Fantasy XIV Online - A Realm Reborn (Japan)"
+	region "Japan"
+	serial "BLJM-61095"
+	rom ( name "Final Fantasy XIV Online - A Realm Reborn (Japan).iso" size 7071989760 crc 4E3F973A md5 759847478A3FBA865F2AB6402107FA47 sha1 E13B284713C17485C47AB8DEF00B4AEF81D4D21A serial "BLJM-61095" )
+)
+game (
 	name "Final Fantasy XIV Online - A Realm Reborn (USA)"
 	description "Final Fantasy XIV Online - A Realm Reborn (USA)"
 	region "USA"
@@ -12201,13 +12390,6 @@ game (
 	region "USA"
 	serial "BLUS-31562"
 	rom ( name "Final Fantasy XIV Online - Heavensward (USA).iso" size 1470627840 crc 109C009B md5 BE99AF63D58D593733887CD3C06EE1EF sha1 2184061D568279102FA2C7495FD3AB05D5921013 serial "BLUS-31562" )
-)
-game (
-	name "Final Fantasy XIV Online - Shinsei Eorzea (Japan)"
-	description "Final Fantasy XIV Online - Shinsei Eorzea (Japan)"
-	region "Japan"
-	serial "BLJM-61095"
-	rom ( name "Final Fantasy XIV Online - Shinsei Eorzea (Japan).iso" size 7071989760 crc 4E3F973A md5 759847478A3FBA865F2AB6402107FA47 sha1 E13B284713C17485C47AB8DEF00B4AEF81D4D21A serial "BLJM-61095" )
 )
 game (
 	name "Final Fantasy XIV Online - The Complete Experience (USA)"
@@ -13094,11 +13276,18 @@ game (
 	rom ( name "GoldenEye 007 - Reloaded (USA) (En,Fr).iso" size 7494762496 crc 587EF03B md5 ED5AD5AA54FFEA008CB6B5E968EBD5B9 sha1 5B8BAEE8B398AC2AFC02D2B1516419BF0F4A69E3 serial "BLUS-90262" )
 )
 game (
-	name "Gran Turismo 5 (Asia) (En,Zh)"
-	description "Gran Turismo 5 (Asia) (En,Zh)"
+	name "Gran Turismo 5 (Asia) (En,Zh,Ko)"
+	description "Gran Turismo 5 (Asia) (En,Zh,Ko)"
 	region "Asia"
 	serial "BCAS-20151"
-	rom ( name "Gran Turismo 5 (Asia) (En,Zh).iso" size 22688497664 crc 0F1992C0 md5 F029649A9D46BC2105412C7A86F5BD9E sha1 4141245FA69CA19C6841818E181689235A96F0FA serial "BCAS-20151" )
+	rom ( name "Gran Turismo 5 (Asia) (En,Zh,Ko).iso" size 22688497664 crc 9DAF1388 md5 956315E6C3CEE905BEBE89B00F65152F sha1 3B7BB1A7146E9A2E6CCB6BBE44C990709F2A8922 serial "BCAS-20151" )
+)
+game (
+	name "Gran Turismo 5 (Asia) (En,Zh,Ko)"
+	description "Gran Turismo 5 (Asia) (En,Zh,Ko)"
+	region "Asia"
+	serial "BCKS-10096"
+	rom ( name "Gran Turismo 5 (Asia) (En,Zh,Ko).iso" size 22688497664 crc 9DAF1388 md5 956315E6C3CEE905BEBE89B00F65152F sha1 3B7BB1A7146E9A2E6CCB6BBE44C990709F2A8922 serial "BCKS-10096" )
 )
 game (
 	name "Gran Turismo 5 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Tr) (v01.02)"
@@ -13183,13 +13372,6 @@ game (
 	region "Japan"
 	serial "BCJS-30050."
 	rom ( name "Gran Turismo 5 (Japan) (En,Ja) (v02.00).iso" size 22637182976 crc 38AA70D9 md5 3414D937B769FCD1BEBD7C36109C75C0 sha1 B46429E9D046DE415E9A0E9A41C1B00018DEBFAF serial "BCJS-30050." )
-)
-game (
-	name "Gran Turismo 5 (Korea) (En,Zh,Ko)"
-	description "Gran Turismo 5 (Korea) (En,Zh,Ko)"
-	region "Korea"
-	serial "BCKS-10096"
-	rom ( name "Gran Turismo 5 (Korea) (En,Zh,Ko).iso" size 22688497664 crc 9DAF1388 md5 956315E6C3CEE905BEBE89B00F65152F sha1 3B7BB1A7146E9A2E6CCB6BBE44C990709F2A8922 serial "BCKS-10096" )
 )
 game (
 	name "Gran Turismo 5 (USA) (En,Ja,Fr,Es,Pt) (v02.00)"
@@ -13302,13 +13484,6 @@ game (
 	rom ( name "Gran Turismo 5 - XL Edition (USA) (En,Ja,Fr,Es,Pt).iso" size 22404530176 crc E4E8A4B7 md5 BD3BA522D416E02EFDFE1F5CABD9DB4B sha1 3F34BE13D071DCA095D582CA611DCC9E428270DD serial "BCUS-98394" )
 )
 game (
-	name "Gran Turismo 6 (Brazil) (En,Es,Pt)"
-	description "Gran Turismo 6 (Brazil) (En,Es,Pt)"
-	region "Brazil"
-	serial "BCUS-99247"
-	rom ( name "Gran Turismo 6 (Brazil) (En,Es,Pt).iso" size 25293815808 crc 10013405 md5 799C5CC24754DED4F97F31C439DB007D sha1 477896A9E478BB57BEE481C932FD22B4CAFA9CCD serial "BCUS-99247" )
-)
-game (
 	name "Gran Turismo 6 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Cs,Hu,Tr)"
 	description "Gran Turismo 6 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru,El,Cs,Hu,Tr)"
 	region "Europe"
@@ -13330,6 +13505,19 @@ game (
 	rom ( name "Gran Turismo 6 (Japan).iso" size 25293815808 crc C6DC7D34 md5 8C2326EF2C61A75F940BDAF561A2D4A4 sha1 9FAAAF77A682A1FF9A2895A0D474741A7B65C69C serial "BCJB-95503" )
 )
 game (
+	name "Gran Turismo 6 (Japan)"
+	description "Gran Turismo 6 (Japan)"
+	region "Japan"
+	serial "BCJS-37015"
+	rom ( name "Gran Turismo 6 (Japan).iso" size 25293815808 crc C6DC7D34 md5 8C2326EF2C61A75F940BDAF561A2D4A4 sha1 9FAAAF77A682A1FF9A2895A0D474741A7B65C69C serial "BCJS-37015" )
+)
+game (
+	name "Gran Turismo 6 (Latin America) (En,Es,Pt)"
+	description "Gran Turismo 6 (Latin America) (En,Es,Pt)"
+	serial "BCUS-99247"
+	rom ( name "Gran Turismo 6 (Latin America) (En,Es,Pt).iso" size 25293815808 crc 10013405 md5 799C5CC24754DED4F97F31C439DB007D sha1 477896A9E478BB57BEE481C932FD22B4CAFA9CCD serial "BCUS-99247" )
+)
+game (
 	name "Gran Turismo 6 (UK)"
 	description "Gran Turismo 6 (UK)"
 	serial "BCES-01977"
@@ -13343,11 +13531,11 @@ game (
 	rom ( name "Gran Turismo 6 (USA) (En,Ja,Fr).iso" size 25293815808 crc 0FF5C533 md5 8662A372EE16C8C8853216CDC6FFDC47 sha1 19E32B40A334E3D2FAE1C8920078F9125DF63181 serial "BCUS-98296" )
 )
 game (
-	name "Gran Turismo HD Concept (Japan)"
-	description "Gran Turismo HD Concept (Japan)"
+	name "Gran Turismo HD - Install Disc (Japan)"
+	description "Gran Turismo HD - Install Disc (Japan)"
 	region "Japan"
 	serial "BCJX-96001"
-	rom ( name "Gran Turismo HD Concept (Japan).iso" size 2546466816 crc 7E8607CF md5 1D44001B33563FE95954901446FA7EB9 sha1 0C6AE7D1B35351E57BF6F3F8749FB2D9B61C0983 serial "BCJX-96001" )
+	rom ( name "Gran Turismo HD - Install Disc (Japan).iso" size 2546466816 crc 7E8607CF md5 1D44001B33563FE95954901446FA7EB9 sha1 0C6AE7D1B35351E57BF6F3F8749FB2D9B61C0983 serial "BCJX-96001" )
 )
 game (
 	name "Grand Slam Tennis 2 (Europe) (En,Fr,De,Es,It)"
@@ -13369,6 +13557,12 @@ game (
 	region "USA"
 	serial "BLUS-30417"
 	rom ( name "Grand Slam Tennis 2 (USA) (En,Fr).iso" size 2752577536 crc 2A142F53 md5 352B90772C8DF1ABB0FC0B8B9E354656 sha1 956699A02742F01CFEB3575E1A15534A87355D2F serial "BLUS-30417" )
+)
+game (
+	name "Grand Theft Auto - Episodes from Liberty City (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Grand Theft Auto - Episodes from Liberty City (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "BLES-00887"
+	rom ( name "Grand Theft Auto - Episodes from Liberty City (Europe, Australia) (En,Fr,De,Es,It).iso" size 8651341824 crc 75B2AF4D md5 FD6E2B4C78B3B66802C0C6C95A413704 sha1 8EA75C1C29C42EABC5C5CE0B627BA50A67A4B6DC serial "BLES-00887" )
 )
 game (
 	name "Grand Theft Auto - Episodes from Liberty City (Europe, Australia) (En,Fr,De,Es,It)"
@@ -13788,11 +13982,16 @@ game (
 	rom ( name "Guitar Hero - Smash Hits - May 2.76 IDU Update (USA).bin" size 767097744 crc CE8B6526 md5 03AE82522588946DF059C7AA7A163A78 sha1 5FF6CD2E05B77EEC2A4A68EFE9D732BACE5B6E8D serial "BLUD-90010" )
 )
 game (
-	name "Guitar Hero - Van Halen (Australia) (En,Fr,De,Es,It)"
-	description "Guitar Hero - Van Halen (Australia) (En,Fr,De,Es,It)"
-	region "Australia"
+	name "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "BLES-00578"
+	rom ( name "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It).iso" size 6359744512 crc B5CA63C4 md5 DD9A0B0774832C9459B49CFC1376AB2F sha1 DA72A0CC437209B524FDD8215AF340D766D03388 serial "BLES-00578" )
+)
+game (
+	name "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "BLES-00578/ANZ2"
-	rom ( name "Guitar Hero - Van Halen (Australia) (En,Fr,De,Es,It).iso" size 6359744512 crc B5CA63C4 md5 DD9A0B0774832C9459B49CFC1376AB2F sha1 DA72A0CC437209B524FDD8215AF340D766D03388 serial "BLES-00578/ANZ2" )
+	rom ( name "Guitar Hero - Van Halen (Europe, Australia) (En,Fr,De,Es,It).iso" size 6359744512 crc B5CA63C4 md5 DD9A0B0774832C9459B49CFC1376AB2F sha1 DA72A0CC437209B524FDD8215AF340D766D03388 serial "BLES-00578/ANZ2" )
 )
 game (
 	name "Guitar Hero - Van Halen (USA) (En,Fr)"
@@ -13950,11 +14149,16 @@ game (
 	rom ( name "Gundam Musou 2 (Japan).iso" size 19762774016 crc E0CCBB5D md5 4D861D372852AFF609E5CAE63101A61F sha1 9B7EC6804FEB774661DE6C0A2249AC33DB341F57 serial "BLJM-60192" )
 )
 game (
-	name "Gundam Musou 3 (Japan)"
-	description "Gundam Musou 3 (Japan)"
-	region "Japan"
+	name "Gundam Musou 3 (Japan, Asia)"
+	description "Gundam Musou 3 (Japan, Asia)"
+	serial "BLAS-50289"
+	rom ( name "Gundam Musou 3 (Japan, Asia).iso" size 7804485632 crc E1D60FB3 md5 E77A8D6B07B8FA369499407A26C270C8 sha1 37C855215E0A31E874189ED0998EE56BC5A1E5D4 serial "BLAS-50289" )
+)
+game (
+	name "Gundam Musou 3 (Japan, Asia)"
+	description "Gundam Musou 3 (Japan, Asia)"
 	serial "BLJM-60300"
-	rom ( name "Gundam Musou 3 (Japan).iso" size 7804485632 crc E1D60FB3 md5 E77A8D6B07B8FA369499407A26C270C8 sha1 37C855215E0A31E874189ED0998EE56BC5A1E5D4 serial "BLJM-60300" )
+	rom ( name "Gundam Musou 3 (Japan, Asia).iso" size 7804485632 crc E1D60FB3 md5 E77A8D6B07B8FA369499407A26C270C8 sha1 37C855215E0A31E874189ED0998EE56BC5A1E5D4 serial "BLJM-60300" )
 )
 game (
 	name "Hail to the Chimp (USA)"
@@ -14231,6 +14435,13 @@ game (
 	rom ( name "Haze (Europe) (En,Fr,Es,It).iso" size 9514254336 crc 8E8155FF md5 19AF064737D55A09003806D3B8BBA35D sha1 01F0592299ADB59DE7ADD6894ED4958A341604A3 serial "BLES-00157" )
 )
 game (
+	name "Haze (Europe) (En,Fr,Es,It)"
+	description "Haze (Europe) (En,Fr,Es,It)"
+	region "Europe"
+	serial "BLES-00157"
+	rom ( name "Haze (Europe) (En,Fr,Es,It).iso" size 9514254336 crc 8E8155FF md5 19AF064737D55A09003806D3B8BBA35D sha1 01F0592299ADB59DE7ADD6894ED4958A341604A3 serial "BLES-00157" )
+)
+game (
 	name "Haze (Germany) (En,De)"
 	description "Haze (Germany) (En,De)"
 	region "Germany"
@@ -14434,11 +14645,18 @@ game (
 	rom ( name "Heavy Rain - Edition Modifiee (France) (En,Fr,De,Es,It,Nl,Pt).iso" size 36644192256 crc B84F0F95 md5 1E4C6E4BE2DBF36CC9AEBC35B7C299EE sha1 385ECF5A7247E5851038F4168F3E80F60B9B2F43 serial "BCES-01293" )
 )
 game (
-	name "Heavy Rain - Kokoro no Kishimu Toki (Japan)"
-	description "Heavy Rain - Kokoro no Kishimu Toki (Japan)"
+	name "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v01.01)"
+	description "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v01.01)"
+	region "Japan"
+	serial "BCJS-30040"
+	rom ( name "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v01.01).iso" size 21480996864 crc D098F5DF md5 9FAB81A67263EE42BFF7385D89705CDB sha1 28D7C394F20C8E1C9E5730458E6ECB81CC77D9AF serial "BCJS-30040" )
+)
+game (
+	name "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v02.00)"
+	description "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v02.00)"
 	region "Japan"
 	serial "BCJS-30040-．"
-	rom ( name "Heavy Rain - Kokoro no Kishimu Toki (Japan).iso" size 21759918080 crc 78CF412E md5 5FBF11811AEB12FFE018778DAE8C2BD9 sha1 81D5ACD956CCEFEE82F93FDCC84CC0DB19CF1ADE serial "BCJS-30040-．" )
+	rom ( name "Heavy Rain - Kokoro no Kishimu Toki (Japan) (v02.00).iso" size 21759918080 crc 78CF412E md5 5FBF11811AEB12FFE018778DAE8C2BD9 sha1 81D5ACD956CCEFEE82F93FDCC84CC0DB19CF1ADE serial "BCJS-30040-．" )
 )
 game (
 	name "Heavy Rain - Kokoro no Kishimu Toki - PlayStation Move Taiou (Japan)"
@@ -14460,6 +14678,13 @@ game (
 	region "Europe"
 	serial "BCES-00797"
 	rom ( name "Heavy Rain - Move Edition (Europe) (En,Fr,De,Es,It,Nl,Pt).iso" size 36602773504 crc 3FD4356F md5 E446DAA8DF9FDD0425E46C5A260B4214 sha1 B63B5F6695280166067EB7FB7D94850E49E11B47 serial "BCES-00797" )
+)
+game (
+	name "Heavy Rain - Move Edition (Europe) (En,Fr,De,Es,It,Nl,Pt)"
+	description "Heavy Rain - Move Edition (Europe) (En,Fr,De,Es,It,Nl,Pt)"
+	region "Europe"
+	serial "BCES-00797/E"
+	rom ( name "Heavy Rain - Move Edition (Europe) (En,Fr,De,Es,It,Nl,Pt).iso" size 36602773504 crc 3FD4356F md5 E446DAA8DF9FDD0425E46C5A260B4214 sha1 B63B5F6695280166067EB7FB7D94850E49E11B47 serial "BCES-00797/E" )
 )
 game (
 	name "Heavy Rain - Move Edition (Europe) (En,Fr,De,Es,It,Nl,Pt)"
@@ -14780,11 +15005,11 @@ game (
 	rom ( name "House of the Dead, The - Overkill - Extended Cut (Europe) (En,Fr,Es,It).iso" size 13405650944 crc 8674B6FA md5 B74F8E870B2D131018578ED6D1973780 sha1 20BD9E06E07EADF6F69944C78724117B64CE93F9 serial "BLES-01326" )
 )
 game (
-	name "House of the Dead, The - Overkill - Extended Cut (USA)"
-	description "House of the Dead, The - Overkill - Extended Cut (USA)"
+	name "House of the Dead, The - Overkill - Extended Cut (USA) (En,Fr,Es)"
+	description "House of the Dead, The - Overkill - Extended Cut (USA) (En,Fr,Es)"
 	region "USA"
 	serial "BLUS-30774"
-	rom ( name "House of the Dead, The - Overkill - Extended Cut (USA).iso" size 13087735808 crc 64CD2F04 md5 7456249C6362C4359A4C234F40FC6918 sha1 B3E517C5793945B28AC277BFF6C3B8BC394B82A6 serial "BLUS-30774" )
+	rom ( name "House of the Dead, The - Overkill - Extended Cut (USA) (En,Fr,Es).iso" size 13087735808 crc 64CD2F04 md5 7456249C6362C4359A4C234F40FC6918 sha1 B3E517C5793945B28AC277BFF6C3B8BC394B82A6 serial "BLUS-30774" )
 )
 game (
 	name "Hunted - The Demon's Forge (Europe)"
@@ -15245,11 +15470,16 @@ game (
 	rom ( name "Inversion (Europe) (En,Fr,De,Es,It).iso" size 3710976000 crc 39278A0E md5 5D2903AE3CBF6E68EA7B4DE1447A0E12 sha1 E9243D627BF6C2841BCF4B5F54FED1999F8E6573 serial "BLES-01495" )
 )
 game (
-	name "Inversion (USA) (En,Fr,De,Es,It)"
-	description "Inversion (USA) (En,Fr,De,Es,It)"
-	region "USA"
+	name "Inversion (USA, Korea) (En,Fr,De,Es,It)"
+	description "Inversion (USA, Korea) (En,Fr,De,Es,It)"
+	serial "BLKS-20363"
+	rom ( name "Inversion (USA, Korea) (En,Fr,De,Es,It).iso" size 3710976000 crc CACD93AE md5 83CE081F34CC713D34016B01ACF798A6 sha1 1F3FE9B46D2E15B839BD1717221871382BB8ED02 serial "BLKS-20363" )
+)
+game (
+	name "Inversion (USA, Korea) (En,Fr,De,Es,It)"
+	description "Inversion (USA, Korea) (En,Fr,De,Es,It)"
 	serial "BLUS-30360"
-	rom ( name "Inversion (USA) (En,Fr,De,Es,It).iso" size 3710976000 crc CACD93AE md5 83CE081F34CC713D34016B01ACF798A6 sha1 1F3FE9B46D2E15B839BD1717221871382BB8ED02 serial "BLUS-30360" )
+	rom ( name "Inversion (USA, Korea) (En,Fr,De,Es,It).iso" size 3710976000 crc CACD93AE md5 83CE081F34CC713D34016B01ACF798A6 sha1 1F3FE9B46D2E15B839BD1717221871382BB8ED02 serial "BLUS-30360" )
 )
 game (
 	name "Invizimals - El Reino Escondido (Latin America) (En,Fr,Es,Pt)"
@@ -15531,6 +15761,13 @@ game (
 	region "Korea"
 	serial "BLKS-20163"
 	rom ( name "Jin Samguk Mussang - Multi Raid Special (Korea).iso" size 8165523456 crc 7B7700CA md5 AA9ACE60055229E76BFE28227E64B6E4 sha1 C2A959459FFC9F0472F60B0B2FBA6B36003D4334 serial "BLKS-20163" )
+)
+game (
+	name "Jin Samguk Mussang 5 (Korea)"
+	description "Jin Samguk Mussang 5 (Korea)"
+	region "Korea"
+	serial "BLKS-20052"
+	rom ( name "Jin Samguk Mussang 5 (Korea).iso" size 20715798528 crc 1BBE387E md5 913E9E2E485C89EF33353E7AE62E7EE6 sha1 D3F2F6E7C6FF9351A3587DD89FC198BA589E4ED4 serial "BLKS-20052" )
 )
 game (
 	name "Jissen Pachi-Slot Hisshouhou! Hokuto no Ken F - Seikimatsu Kyuuseishu Densetsu (Japan)"
@@ -16100,6 +16337,12 @@ game (
 game (
 	name "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia)"
 	description "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia)"
+	serial "BLAS-50423"
+	rom ( name "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia).iso" size 8133017600 crc FC01516D md5 4E461630D67400E67E7AF13B4DFBA648 sha1 B1D822E7CE9B51FCCE9E70751FE7377C88E4AA1A serial "BLAS-50423" )
+)
+game (
+	name "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia)"
+	description "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia)"
 	serial "BLAS-50555"
 	rom ( name "Kidou Senshi Gundam - Extreme Vs. (Japan, Asia).iso" size 8133017600 crc FC01516D md5 4E461630D67400E67E7AF13B4DFBA648 sha1 B1D822E7CE9B51FCCE9E70751FE7377C88E4AA1A serial "BLAS-50555" )
 )
@@ -16263,6 +16506,13 @@ game (
 	description "Killzone 3 (Europe) (Beta)"
 	region "Europe"
 	rom ( name "Killzone 3 (Europe) (Beta).iso" size 7606632448 crc C15749E8 md5 5184EFF734A3D2596743D4F93DBB17BD sha1 CEEAC66A20113EBC02A7BED1547CEFEF5FC286F3 )
+)
+game (
+	name "Killzone 3 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)"
+	description "Killzone 3 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)"
+	region "Europe"
+	serial "BCES-01007"
+	rom ( name "Killzone 3 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr).iso" size 44942688256 crc 5525E19E md5 EC09FE51C5C9D210431D35ABECBF2261 sha1 C718AD6AF69304D38032EC8670529538A64C9B9D serial "BCES-01007" )
 )
 game (
 	name "Killzone 3 (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko,Pl,Ru,Tr)"
@@ -16550,6 +16800,12 @@ game (
 	rom ( name "L.A. Noire (USA, Asia) (En,Fr,De,Es,It).iso" size 24919801856 crc 2C36FEA2 md5 2BEB853D17388403CE0B2DEF2F5DFA6D sha1 1989760AA2D4E8D011D0DE60B27A39B79804D5B5 serial "BLUS-30554" )
 )
 game (
+	name "L.A. Noire (USA, Asia) (En,Fr,De,Es,It)"
+	description "L.A. Noire (USA, Asia) (En,Fr,De,Es,It)"
+	serial "BLUS-30554GH"
+	rom ( name "L.A. Noire (USA, Asia) (En,Fr,De,Es,It).iso" size 24919801856 crc 2C36FEA2 md5 2BEB853D17388403CE0B2DEF2F5DFA6D sha1 1989760AA2D4E8D011D0DE60B27A39B79804D5B5 serial "BLUS-30554GH" )
+)
+game (
 	name "L.A. Noire - The Complete Edition (Europe) (En,Fr,De,Es,It)"
 	description "L.A. Noire - The Complete Edition (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -16590,6 +16846,13 @@ game (
 	region "Europe"
 	serial "BLES-01613"
 	rom ( name "LEGO Batman 2 - DC Super Heroes (Europe) (En,Fr,De,Es,It,Nl,Da,Pl,Ru).iso" size 5613355008 crc 4C62754C md5 946F9E037F486880F10F625218FAEAEC sha1 46146F1486B96C1ADCC5A1E80299B785CCC08BB7 serial "BLES-01613" )
+)
+game (
+	name "LEGO Batman 2 - DC Super Heroes (Europe) (En,Fr,De,Es,It,Nl,Da,Pl,Ru)"
+	description "LEGO Batman 2 - DC Super Heroes (Europe) (En,Fr,De,Es,It,Nl,Da,Pl,Ru)"
+	region "Europe"
+	serial "BLES-01613/E"
+	rom ( name "LEGO Batman 2 - DC Super Heroes (Europe) (En,Fr,De,Es,It,Nl,Da,Pl,Ru).iso" size 5613355008 crc 4C62754C md5 946F9E037F486880F10F625218FAEAEC sha1 46146F1486B96C1ADCC5A1E80299B785CCC08BB7 serial "BLES-01613/E" )
 )
 game (
 	name "LEGO Batman 2 - DC Super Heroes (USA) (En,Fr,Es,Pt,Ru)"
@@ -17042,18 +17305,25 @@ game (
 	rom ( name "LEGO The Lord of the Rings (USA, Asia) (En,Fr,Es,Pt).iso" size 8607956992 crc BE797C5E md5 22CBCBBDC6285C23BB919DC096940E62 sha1 8CEBA01602B898ADAEB290FAC6327F928E53654A serial "BLUS-30963GH" )
 )
 game (
+	name "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
+	description "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
+	region "Asia"
+	serial "BCAS-20014"
+	rom ( name "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko).iso" size 24726339584 crc ACE54A0B md5 DE7FADD2615F83FDADF65765EA206F76 sha1 35E0329CC7383C293290AE8E0DB616077C9097E9 serial "BCAS-20014" )
+)
+game (
+	name "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
+	description "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
+	region "Asia"
+	serial "BCKS-10011"
+	rom ( name "Lair (Asia) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko).iso" size 24726339584 crc ACE54A0B md5 DE7FADD2615F83FDADF65765EA206F76 sha1 35E0329CC7383C293290AE8E0DB616077C9097E9 serial "BCKS-10011" )
+)
+game (
 	name "Lair (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
 	description "Lair (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
 	region "Europe"
 	serial "BCES-00004"
 	rom ( name "Lair (Europe) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko).iso" size 24718868480 crc 0E952D52 md5 889194F325365F9EFF91FFA40B0B38C3 sha1 CDF4F1DDAA79A573077FC236E2C7D662405AEB78 serial "BCES-00004" )
-)
-game (
-	name "Lair (Korea) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
-	description "Lair (Korea) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko)"
-	region "Korea"
-	serial "BCKS-10011"
-	rom ( name "Lair (Korea) (En,Ja,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Zh,Ko).iso" size 24726339584 crc ACE54A0B md5 DE7FADD2615F83FDADF65765EA206F76 sha1 35E0329CC7383C293290AE8E0DB616077C9097E9 serial "BCKS-10011" )
 )
 game (
 	name "Lair (USA)"
@@ -17941,13 +18211,6 @@ game (
 	rom ( name "MLB 07 - The Show (USA).iso" size 21011628032 crc EF48D24B md5 8EE6FA4F0C910D1FB53834808C9C10DC sha1 C8A0248D45D5CF5B22F288E00F85EC0B6077E978 serial "BCUS-98109" )
 )
 game (
-	name "MLB 08 - The Show (USA)"
-	description "MLB 08 - The Show (USA)"
-	region "USA"
-	serial "BCUS-98141"
-	rom ( name "MLB 08 - The Show (USA).iso" size 19274858496 crc B8D4BC08 md5 ECA4073876841BB8A6EEF7A40519E834 sha1 7F90047F0F46E65C342B569A402BAC913CAD40B4 serial "BCUS-98141" )
-)
-game (
 	name "MLB 08 - The Show (USA) (Beta)"
 	description "MLB 08 - The Show (USA) (Beta)"
 	releaseyear "2008"
@@ -17957,11 +18220,28 @@ game (
 	rom ( name "MLB 08 - The Show (USA) (Beta) (2008-02-15).iso" size 19274858496 crc 34667C65 md5 DE3384575C498AAA8936D88912473FEC sha1 BD0B9F735CC3153EC07995FCF5E9C9B0C66E3D2D )
 )
 game (
-	name "MLB 09 - The Show (USA)"
-	description "MLB 09 - The Show (USA)"
-	region "USA"
+	name "MLB 08 - The Show (USA, Korea)"
+	description "MLB 08 - The Show (USA, Korea)"
+	serial "BCKS-10035"
+	rom ( name "MLB 08 - The Show (USA, Korea).iso" size 19274858496 crc B8D4BC08 md5 ECA4073876841BB8A6EEF7A40519E834 sha1 7F90047F0F46E65C342B569A402BAC913CAD40B4 serial "BCKS-10035" )
+)
+game (
+	name "MLB 08 - The Show (USA, Korea)"
+	description "MLB 08 - The Show (USA, Korea)"
+	serial "BCUS-98141"
+	rom ( name "MLB 08 - The Show (USA, Korea).iso" size 19274858496 crc B8D4BC08 md5 ECA4073876841BB8A6EEF7A40519E834 sha1 7F90047F0F46E65C342B569A402BAC913CAD40B4 serial "BCUS-98141" )
+)
+game (
+	name "MLB 09 - The Show (USA, Korea)"
+	description "MLB 09 - The Show (USA, Korea)"
+	serial "BCKS-10073"
+	rom ( name "MLB 09 - The Show (USA, Korea).iso" size 20160839680 crc 79BEFE54 md5 B504BB25FD4320C217414353C5CFC948 sha1 5D03039A35085B69FAB07E039381D58B2935F7AD serial "BCKS-10073" )
+)
+game (
+	name "MLB 09 - The Show (USA, Korea)"
+	description "MLB 09 - The Show (USA, Korea)"
 	serial "BCUS-98180"
-	rom ( name "MLB 09 - The Show (USA).iso" size 20160839680 crc 79BEFE54 md5 B504BB25FD4320C217414353C5CFC948 sha1 5D03039A35085B69FAB07E039381D58B2935F7AD serial "BCUS-98180" )
+	rom ( name "MLB 09 - The Show (USA, Korea).iso" size 20160839680 crc 79BEFE54 md5 B504BB25FD4320C217414353C5CFC948 sha1 5D03039A35085B69FAB07E039381D58B2935F7AD serial "BCUS-98180" )
 )
 game (
 	name "MLB 10 - The Show (USA, Korea)"
@@ -17976,11 +18256,16 @@ game (
 	rom ( name "MLB 10 - The Show (USA, Korea).iso" size 23316594688 crc 6A33BABC md5 CDFD8360EAFA67D29A55C53DC73F7175 sha1 845AB4ED82A1DE0DF6C54050E34C2AF22F236126 serial "BCUS-98207" )
 )
 game (
-	name "MLB 11 - The Show (USA)"
-	description "MLB 11 - The Show (USA)"
-	region "USA"
+	name "MLB 11 - The Show (USA, Korea)"
+	description "MLB 11 - The Show (USA, Korea)"
+	serial "BCKS-10164"
+	rom ( name "MLB 11 - The Show (USA, Korea).iso" size 21610299392 crc CCB9DCF2 md5 CD6EDFEF6D0D9B63BF5889D4BB44F1A6 sha1 6E511AF1F227577850C1B3FE209FE89FC8E0F6E2 serial "BCKS-10164" )
+)
+game (
+	name "MLB 11 - The Show (USA, Korea)"
+	description "MLB 11 - The Show (USA, Korea)"
 	serial "BCUS-98251"
-	rom ( name "MLB 11 - The Show (USA).iso" size 21610299392 crc CCB9DCF2 md5 CD6EDFEF6D0D9B63BF5889D4BB44F1A6 sha1 6E511AF1F227577850C1B3FE209FE89FC8E0F6E2 serial "BCUS-98251" )
+	rom ( name "MLB 11 - The Show (USA, Korea).iso" size 21610299392 crc CCB9DCF2 md5 CD6EDFEF6D0D9B63BF5889D4BB44F1A6 sha1 6E511AF1F227577850C1B3FE209FE89FC8E0F6E2 serial "BCUS-98251" )
 )
 game (
 	name "MLB 12 - The Show (USA) (Demo)"
@@ -18142,11 +18427,11 @@ game (
 	rom ( name "MXGP - The Official Motocross Videogame (Europe) (En,Fr,De,Es,It).iso" size 4444979200 crc 746A5E22 md5 6F5B5C806313F24C2AE0320AAA5DDDF7 sha1 A2562B3539D5AC7ACE5BB67270538D2CDFBD08F4 serial "BLES-01984" )
 )
 game (
-	name "MXGP - The Official Motocross Videogame (USA)"
-	description "MXGP - The Official Motocross Videogame (USA)"
+	name "MXGP - The Official Motocross Videogame (USA) (En,Fr,Es,Pt)"
+	description "MXGP - The Official Motocross Videogame (USA) (En,Fr,Es,Pt)"
 	region "USA"
 	serial "BLUS-31493"
-	rom ( name "MXGP - The Official Motocross Videogame (USA).iso" size 4032495616 crc 2B053406 md5 AF4628C3C5DC04D662D10C16B5F3AAFD sha1 0FC9898F364F1FBE192473D6E8E3B2889E4F013A serial "BLUS-31493" )
+	rom ( name "MXGP - The Official Motocross Videogame (USA) (En,Fr,Es,Pt).iso" size 4032495616 crc 2B053406 md5 AF4628C3C5DC04D662D10C16B5F3AAFD sha1 0FC9898F364F1FBE192473D6E8E3B2889E4F013A serial "BLUS-31493" )
 )
 game (
 	name "Machi Suberi (Japan)"
@@ -18424,6 +18709,13 @@ game (
 	rom ( name "Mafia II - Extended Edition (Europe) (Pl,Ru,Cs).iso" size 9179234304 crc F6912544 md5 5171216FD3A9F01865183938903A990D sha1 1C67E53BF16D6648216A5EFBAE006E67E59A2108 serial "BLES-01093" )
 )
 game (
+	name "Mafia II - Extended Edition (Europe) (Pl,Ru,Cs)"
+	description "Mafia II - Extended Edition (Europe) (Pl,Ru,Cs)"
+	region "Europe"
+	serial "BLES-01093/P"
+	rom ( name "Mafia II - Extended Edition (Europe) (Pl,Ru,Cs).iso" size 9179234304 crc F6912544 md5 5171216FD3A9F01865183938903A990D sha1 1C67E53BF16D6648216A5EFBAE006E67E59A2108 serial "BLES-01093/P" )
+)
+game (
 	name "Magus (USA)"
 	description "Magus (USA)"
 	region "USA"
@@ -18599,11 +18891,16 @@ game (
 	rom ( name "Major League Baseball 2K9 (Japan).iso" size 6931742720 crc DDE80E26 md5 04C90BC8CA6CFE0885FAB0853ACD747D sha1 FC93576E7A183A4D2B40498851268DDA56341D8B serial "BLJS-10051" )
 )
 game (
-	name "Major League Baseball 2K9 (USA)"
-	description "Major League Baseball 2K9 (USA)"
-	region "USA"
+	name "Major League Baseball 2K9 (USA, Korea)"
+	description "Major League Baseball 2K9 (USA, Korea)"
+	serial "BLKS-20123"
+	rom ( name "Major League Baseball 2K9 (USA, Korea).iso" size 6939869184 crc D888557D md5 3996EA3AACCF178E305C23B9203FDD31 sha1 3FF245D9D9B9745793E867BFA8AAD71F3CAF566A serial "BLKS-20123" )
+)
+game (
+	name "Major League Baseball 2K9 (USA, Korea)"
+	description "Major League Baseball 2K9 (USA, Korea)"
 	serial "BLUS-30276"
-	rom ( name "Major League Baseball 2K9 (USA).iso" size 6939869184 crc D888557D md5 3996EA3AACCF178E305C23B9203FDD31 sha1 3FF245D9D9B9745793E867BFA8AAD71F3CAF566A serial "BLUS-30276" )
+	rom ( name "Major League Baseball 2K9 (USA, Korea).iso" size 6939869184 crc D888557D md5 3996EA3AACCF178E305C23B9203FDD31 sha1 3FF245D9D9B9745793E867BFA8AAD71F3CAF566A serial "BLUS-30276" )
 )
 game (
 	name "Makai Senki Disgaea 3 (Japan) (PlayStation 3 the Best)"
@@ -18930,11 +19227,16 @@ game (
 	rom ( name "Max Payne 3 (Japan).iso" size 15523315712 crc 4BD29EA1 md5 80264C0447C1A3EFEBE59DC29AA4DE5E sha1 749E78259A2B82CA6540EE54C02B7DA4573178B7 serial "BLJM-60463" )
 )
 game (
-	name "Max Payne 3 (USA) (En,Fr,Es)"
-	description "Max Payne 3 (USA) (En,Fr,Es)"
-	region "USA"
+	name "Max Payne 3 (USA, Korea) (En,Fr,Es)"
+	description "Max Payne 3 (USA, Korea) (En,Fr,Es)"
+	serial "BLKS-20352"
+	rom ( name "Max Payne 3 (USA, Korea) (En,Fr,Es).iso" size 15522136064 crc 7B59B094 md5 C6FBBEE385FD58F24BA8B6943AF2EDE4 sha1 E9D6381A3940BF47E901EA9184EE1F5D4050EE58 serial "BLKS-20352" )
+)
+game (
+	name "Max Payne 3 (USA, Korea) (En,Fr,Es)"
+	description "Max Payne 3 (USA, Korea) (En,Fr,Es)"
 	serial "BLUS-30557"
-	rom ( name "Max Payne 3 (USA) (En,Fr,Es).iso" size 15522136064 crc 7B59B094 md5 C6FBBEE385FD58F24BA8B6943AF2EDE4 sha1 E9D6381A3940BF47E901EA9184EE1F5D4050EE58 serial "BLUS-30557" )
+	rom ( name "Max Payne 3 (USA, Korea) (En,Fr,Es).iso" size 15522136064 crc 7B59B094 md5 C6FBBEE385FD58F24BA8B6943AF2EDE4 sha1 E9D6381A3940BF47E901EA9184EE1F5D4050EE58 serial "BLUS-30557" )
 )
 game (
 	name "Mayhem (Europe) (En,Fr,De,Es,It)"
@@ -19261,6 +19563,13 @@ game (
 	name "Metal Gear Solid - HD Edition (Japan)"
 	description "Metal Gear Solid - HD Edition (Japan)"
 	region "Japan"
+	serial "BLJM-55056"
+	rom ( name "Metal Gear Solid - HD Edition (Japan).iso" size 18594660352 crc 5B95A822 md5 2B0A88F9D0C0E6FCE35C558C2E57F51F sha1 98D776BD2F1D6D34EEA4EF97EA086D6CB494DB10 serial "BLJM-55056" )
+)
+game (
+	name "Metal Gear Solid - HD Edition (Japan)"
+	description "Metal Gear Solid - HD Edition (Japan)"
+	region "Japan"
 	serial "BLJM-61001"
 	rom ( name "Metal Gear Solid - HD Edition (Japan).iso" size 18594660352 crc 5B95A822 md5 2B0A88F9D0C0E6FCE35C558C2E57F51F sha1 98D776BD2F1D6D34EEA4EF97EA086D6CB494DB10 serial "BLJM-61001" )
 )
@@ -19312,6 +19621,27 @@ game (
 	region "USA"
 	serial "BLUS-41028-1"
 	rom ( name "Metal Gear Solid - The Legacy Collection 1987-2012 (USA) (En,Fr,Es) (Disc 2).iso" size 47195160576 crc 56267A4B md5 DAA0254E85B328DFE0791427A78BE74F sha1 E444506A6FD52C069437236075E5A2D7AF6245A9 serial "BLUS-41028-1" )
+)
+game (
+	name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	description "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	region "Asia"
+	serial "BLAS-55004"
+	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It).iso" size 35613114368 crc 6E5B5DA9 md5 F908E9BC2BD6BF4081C4C5B2FFA62EE9 sha1 C206C064C2492888FC6DF94F02E7907063197157 serial "BLAS-55004" )
+)
+game (
+	name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	description "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	region "Asia"
+	serial "BLAS-55005"
+	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It).iso" size 35613114368 crc 6E5B5DA9 md5 F908E9BC2BD6BF4081C4C5B2FFA62EE9 sha1 C206C064C2492888FC6DF94F02E7907063197157 serial "BLAS-55005" )
+)
+game (
+	name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	description "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It)"
+	region "Asia"
+	serial "BLKS-25002"
+	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Asia) (En,Fr,De,Es,It).iso" size 35613114368 crc 6E5B5DA9 md5 F908E9BC2BD6BF4081C4C5B2FFA62EE9 sha1 C206C064C2492888FC6DF94F02E7907063197157 serial "BLKS-25002" )
 )
 game (
 	name "Metal Gear Solid 4 - Guns of the Patriots (Europe) (En,Fr,De,Es,It) (v01.01)"
@@ -19376,15 +19706,14 @@ game (
 game (
 	name "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20)"
 	description "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20)"
-	serial "BLKS-25001"
-	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20).iso" size 35575693312 crc E24ABA77 md5 61C358D25D0BF4F7A7E5CF95C77FCB23 sha1 25E7FFA9C444BCBB47A489D6DA183FF66E3F8B97 serial "BLKS-25001" )
+	serial "BLJM-67003"
+	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20).iso" size 35575693312 crc E24ABA77 md5 61C358D25D0BF4F7A7E5CF95C77FCB23 sha1 25E7FFA9C444BCBB47A489D6DA183FF66E3F8B97 serial "BLJM-67003" )
 )
 game (
-	name "Metal Gear Solid 4 - Guns of the Patriots (Korea) (En,Fr,De,Es,It)"
-	description "Metal Gear Solid 4 - Guns of the Patriots (Korea) (En,Fr,De,Es,It)"
-	region "Korea"
-	serial "BLKS-25002"
-	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Korea) (En,Fr,De,Es,It).iso" size 35613114368 crc 6E5B5DA9 md5 F908E9BC2BD6BF4081C4C5B2FFA62EE9 sha1 C206C064C2492888FC6DF94F02E7907063197157 serial "BLKS-25002" )
+	name "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20)"
+	description "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20)"
+	serial "BLKS-25001"
+	rom ( name "Metal Gear Solid 4 - Guns of the Patriots (Japan, Korea) (v01.03) (FW2.20).iso" size 35575693312 crc E24ABA77 md5 61C358D25D0BF4F7A7E5CF95C77FCB23 sha1 25E7FFA9C444BCBB47A489D6DA183FF66E3F8B97 serial "BLKS-25001" )
 )
 game (
 	name "Metal Gear Solid 4 - Guns of the Patriots (USA) (En,Fr,De,Es,It) (v01.01)"
@@ -21737,6 +22066,13 @@ game (
 	rom ( name "Need for Speed - Carbon (USA).iso" size 12431458304 crc AA32BE14 md5 4E89130ABDE09565664882AF96E0B21B sha1 9DB7510F0BBE24A07DE36F988E18952DBFDEB49A serial "BLUS-30016" )
 )
 game (
+	name "Need for Speed - Hot Pursuit (Asia) (En,Zh)"
+	description "Need for Speed - Hot Pursuit (Asia) (En,Zh)"
+	region "Asia"
+	serial "BLAS-50265"
+	rom ( name "Need for Speed - Hot Pursuit (Asia) (En,Zh).iso" size 7581990912 crc B60C09D6 md5 16DB3347FED0292B5D6FF1465C1C915A sha1 7AE636815CAE5C5A4437C79F62CC3CB196E2E40E serial "BLAS-50265" )
+)
+game (
 	name "Need for Speed - Hot Pursuit (Europe) (En,Fr,De,Es,It,Nl)"
 	description "Need for Speed - Hot Pursuit (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
@@ -21855,6 +22191,12 @@ game (
 	region "Russia"
 	serial "BLES-00177"
 	rom ( name "Need for Speed - ProStreet (Russia).iso" size 6074138624 crc 9CBCD21A md5 C3128E539B1551C97F9DF959E3B8A7B3 sha1 3CA09A8F4EAFCE677A3BDC3BEB46265B851D938D serial "BLES-00177" )
+)
+game (
+	name "Need for Speed - ProStreet (UK)"
+	description "Need for Speed - ProStreet (UK)"
+	serial "BLES-00175"
+	rom ( name "Need for Speed - ProStreet (UK).iso" size 6221135872 crc CB47CC42 md5 5C9115ABD52F181D63FBCE634258EF41 sha1 5314C2FAD737E65005F6CD3CBB54CB71D410CA9E serial "BLES-00175" )
 )
 game (
 	name "Need for Speed - ProStreet (UK)"
@@ -23094,11 +23436,11 @@ game (
 	rom ( name "One Piece - Unlimited World Red (Europe) (En,Fr,De,Es,It).iso" size 5123801088 crc A68F5E1D md5 D78BBADC838F0CE2393D65FD203687C2 sha1 F7909057280E9A7D390247F1CF9674B7D8ABB035 serial "BLES-02020" )
 )
 game (
-	name "One Piece - Unlimited World Red (USA)"
-	description "One Piece - Unlimited World Red (USA)"
+	name "One Piece - Unlimited World Red (USA) (En,Fr,Es)"
+	description "One Piece - Unlimited World Red (USA) (En,Fr,Es)"
 	region "USA"
 	serial "BLUS-31427LEL"
-	rom ( name "One Piece - Unlimited World Red (USA).iso" size 5123735552 crc D2257766 md5 C7EAC1B66609C5C4E360722F66D64F1B sha1 6F7E6178EC38A1672DC8DB72F31ACC78AAAD6E95 serial "BLUS-31427LEL" )
+	rom ( name "One Piece - Unlimited World Red (USA) (En,Fr,Es).iso" size 5123735552 crc D2257766 md5 C7EAC1B66609C5C4E360722F66D64F1B sha1 6F7E6178EC38A1672DC8DB72F31ACC78AAAD6E95 serial "BLUS-31427LEL" )
 )
 game (
 	name "Oneechanbara Z - Kagura with NoNoNo! (Japan)"
@@ -23108,18 +23450,22 @@ game (
 	rom ( name "Oneechanbara Z - Kagura with NoNoNo! (Japan).iso" size 3524526080 crc E925A321 md5 997BAE435159F75537581351FA96C787 sha1 03640D845AA98CF6D5B5BFCD922AE99BEDAE9E9C serial "BLJS-10221" )
 )
 game (
-	name "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De)"
-	description "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De)"
-	region "Japan"
+	name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
+	description "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
 	serial "BLJM-55061"
-	rom ( name "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De).iso" size 8414560256 crc C0AA826E md5 26C349035666D717BF5EB7C50EE3D11B sha1 9FBB7317BE7B94EF93B6014C61254187CC2403E3 serial "BLJM-55061" )
+	rom ( name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De).iso" size 8414560256 crc C0AA826E md5 26C349035666D717BF5EB7C50EE3D11B sha1 9FBB7317BE7B94EF93B6014C61254187CC2403E3 serial "BLJM-55061" )
 )
 game (
-	name "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De)"
-	description "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De)"
-	region "Japan"
+	name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
+	description "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
 	serial "BLJM-60467"
-	rom ( name "Ookami - Zekkeiban (Japan) (En,Ja,Fr,De).iso" size 8414560256 crc C0AA826E md5 26C349035666D717BF5EB7C50EE3D11B sha1 9FBB7317BE7B94EF93B6014C61254187CC2403E3 serial "BLJM-60467" )
+	rom ( name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De).iso" size 8414560256 crc C0AA826E md5 26C349035666D717BF5EB7C50EE3D11B sha1 9FBB7317BE7B94EF93B6014C61254187CC2403E3 serial "BLJM-60467" )
+)
+game (
+	name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
+	description "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De)"
+	serial "BLKS-20389"
+	rom ( name "Ookami - Zekkeiban (Japan, Korea) (En,Ja,Fr,De).iso" size 8414560256 crc C0AA826E md5 26C349035666D717BF5EB7C50EE3D11B sha1 9FBB7317BE7B94EF93B6014C61254187CC2403E3 serial "BLKS-20389" )
 )
 game (
 	name "Operation Flashpoint - Dragon Rising (Europe) (En,Fr,De,Es,It)"
@@ -23213,11 +23559,11 @@ game (
 	rom ( name "Order Up!! (Europe) (En,Fr,De,Es,It).iso" size 1347747840 crc F6382CC3 md5 548DDF9B26BFD75E90DD691F6564DD74 sha1 CFD686634E46E62CE96EE05012972B2D45D57660 serial "BLES-01470" )
 )
 game (
-	name "Order Up!! (USA)"
-	description "Order Up!! (USA)"
+	name "Order Up!! (USA) (En,Fr,De,Es,It)"
+	description "Order Up!! (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "BLUS-30904"
-	rom ( name "Order Up!! (USA).iso" size 1347747840 crc AE380F23 md5 38BFC6BD0359FBB84373DA2E9479382D sha1 15818A13BFA8F1B2F41078D0B53C011A7DA83B5A serial "BLUS-30904" )
+	rom ( name "Order Up!! (USA) (En,Fr,De,Es,It).iso" size 1347747840 crc AE380F23 md5 38BFC6BD0359FBB84373DA2E9479382D sha1 15818A13BFA8F1B2F41078D0B53C011A7DA83B5A serial "BLUS-30904" )
 )
 game (
 	name "Ore no Imouto ga Konnani Kawaii Wake ga Nai. Happy End (Japan)"
@@ -23457,6 +23803,13 @@ game (
 	rom ( name "PES 2016 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt).iso" size 9205579776 crc 93658688 md5 5AB53B6A6163E30B9112E62150CBDB9F sha1 5B3690E519F35771AF446244053E1B3709A3D19E serial "BLUS-31564" )
 )
 game (
+	name "PES 2016 - Pro Evolution Soccer - Winning Eleven 2016 (Asia) (En,Zh,Ko)"
+	description "PES 2016 - Pro Evolution Soccer - Winning Eleven 2016 (Asia) (En,Zh,Ko)"
+	region "Asia"
+	serial "BLAS-50803"
+	rom ( name "PES 2016 - Pro Evolution Soccer - Winning Eleven 2016 (Asia) (En,Zh,Ko).iso" size 6904807424 crc 2CA589E6 md5 B7A83E84F849ADEA528F30B3206953AA sha1 9ABDAD9E2AD288ABA12364518B7F0E8231345C48 serial "BLAS-50803" )
+)
+game (
 	name "PES 2017 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru,El,Tr)"
 	description "PES 2017 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru,El,Tr)"
 	region "Europe"
@@ -23471,6 +23824,13 @@ game (
 	rom ( name "PES 2017 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt).iso" size 8165326848 crc BC291419 md5 18F4FED6613FEC24C42A1F15C9578441 sha1 F4BE64CE43E5E708F1B0A301441B62332655E457 serial "BLUS-31598" )
 )
 game (
+	name "PES 2017 - Pro Evolution Soccer - Winning Eleven 2017 (Asia) (En,Ja,Zh,Ko)"
+	description "PES 2017 - Pro Evolution Soccer - Winning Eleven 2017 (Asia) (En,Ja,Zh,Ko)"
+	region "Asia"
+	serial "BLAS-50824"
+	rom ( name "PES 2017 - Pro Evolution Soccer - Winning Eleven 2017 (Asia) (En,Ja,Zh,Ko).iso" size 7406288896 crc 9E4E91F8 md5 A61E1531FADD5CAE5462B3C37A49DF0F sha1 F05302BFCC570E84F267D3E1BD2C3E614B23FB74 serial "BLAS-50824" )
+)
+game (
 	name "PES 2018 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru,El,Tr)"
 	description "PES 2018 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru,El,Tr)"
 	region "Europe"
@@ -23483,6 +23843,13 @@ game (
 	region "USA"
 	serial "BLUS-31612"
 	rom ( name "PES 2018 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt).iso" size 8083341312 crc 6FC43264 md5 B8F2FD4A61499E8070C7967AD0875121 sha1 2A66F940FC728EFEC1E7B24E29C173270E9ACCA5 serial "BLUS-31612" )
+)
+game (
+	name "PES 2018 - Pro Evolution Soccer - Winning Eleven 2018 (Korea) (En,Ja,Zh,Ko)"
+	description "PES 2018 - Pro Evolution Soccer - Winning Eleven 2018 (Korea) (En,Ja,Zh,Ko)"
+	region "Korea"
+	serial "BLAS-57001"
+	rom ( name "PES 2018 - Pro Evolution Soccer - Winning Eleven 2018 (Korea) (En,Ja,Zh,Ko).iso" size 7390101504 crc AFAFFEAE md5 2CEF3829DF52D1CC6AA07AE1C0B42B84 sha1 06B068A5E712A33B5D7F1A2A001E20C37F995BA0 serial "BLAS-57001" )
 )
 game (
 	name "PS3 IDU - 2014 Holiday Refresh (USA)"
@@ -23830,11 +24197,16 @@ game (
 	rom ( name "Plants vs. Zombies - Garden Warfare (Japan).iso" size 3388342272 crc 49E67750 md5 BA5B04E3787E807C07EE8047FAF65DB4 sha1 4455C6865FD0021FF2901F3BC01E101091481C2F serial "BLJM-61194" )
 )
 game (
-	name "Plants vs. Zombies - Garden Warfare (USA) (En,Ja,Fr,De,Es,It,Pt)"
-	description "Plants vs. Zombies - Garden Warfare (USA) (En,Ja,Fr,De,Es,It,Pt)"
-	region "USA"
+	name "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt)"
+	description "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt)"
+	serial "BLAS-50720"
+	rom ( name "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt).iso" size 3388342272 crc 7D0921E8 md5 B29AF2975949D722139C538AB695D47C sha1 4075026D0CB22763FE5DCE260F58EDCB245853F8 serial "BLAS-50720" )
+)
+game (
+	name "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt)"
+	description "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt)"
 	serial "BLUS-31410"
-	rom ( name "Plants vs. Zombies - Garden Warfare (USA) (En,Ja,Fr,De,Es,It,Pt).iso" size 3388342272 crc 7D0921E8 md5 B29AF2975949D722139C538AB695D47C sha1 4075026D0CB22763FE5DCE260F58EDCB245853F8 serial "BLUS-31410" )
+	rom ( name "Plants vs. Zombies - Garden Warfare (USA, Korea) (En,Ja,Fr,De,Es,It,Pt).iso" size 3388342272 crc 7D0921E8 md5 B29AF2975949D722139C538AB695D47C sha1 4075026D0CB22763FE5DCE260F58EDCB245853F8 serial "BLUS-31410" )
 )
 game (
 	name "PlayStation 3 Big Hit Titles' Demo Collection (Asia)"
@@ -23961,6 +24333,13 @@ game (
 	region "USA"
 	serial "BCUS:-90762"
 	rom ( name "PlayStation Move Game Demo Disc Volume 3 (USA) (En,Fr,Es).iso" size 11431444480 crc C57221AA md5 497D599F7D1A8B682049D64A29D64909 sha1 51879FAA7A177FB7AA3D0D5D3E6DC704AAFA394D serial "BCUS:-90762" )
+)
+game (
+	name "PlayStation Move Heroes (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "PlayStation Move Heroes (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	region "Europe"
+	serial "BCES-00956"
+	rom ( name "PlayStation Move Heroes (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12216631296 crc A7A8DFC8 md5 5F70A4AF44910210CD6659532E4CB7CB sha1 AB0FAFF47ADF12081318D72904BF440711FD73E1 serial "BCES-00956" )
 )
 game (
 	name "PlayStation Move Heroes (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
@@ -24342,6 +24721,13 @@ game (
 	region "Japan"
 	serial "BLJM-60148"
 	rom ( name "Pro Yakyuu Spirits 6 (Japan).iso" size 10209591296 crc 9CE39FC6 md5 334F80CE9AD8C5F377B703CFFB24F602 sha1 CC3357BF1B19A6423E078D65C2CFDE1CDC45AD07 serial "BLJM-60148" )
+)
+game (
+	name "Professional Baseball Spirits 2010 (Korea)"
+	description "Professional Baseball Spirits 2010 (Korea)"
+	region "Korea"
+	serial "BLKS-20185"
+	rom ( name "Professional Baseball Spirits 2010 (Korea).iso" size 9812836352 crc A8A1B043 md5 2F021719B60D1C6B9AD6296621AE8C7F sha1 30B9B914BE533E2043B6625E194A0EA39B81918A serial "BLKS-20185" )
 )
 game (
 	name "Prototype (Europe) (En,Fr,Es,It)"
@@ -24801,6 +25187,13 @@ game (
 	rom ( name "Ratchet & Clank - A Crack in Time (Europe) (En,Pt,Sv,No,Da,Fi).iso" size 23994695680 crc 6F95738C md5 2266161826874DF4F1A6BB25B5D66AFF sha1 9DA1E076E12F43395473B9100C66FA22BD3642E4 serial "BCES-00748" )
 )
 game (
+	name "Ratchet & Clank - A Crack in Time (Europe) (En,Pt,Sv,No,Da,Fi)"
+	description "Ratchet & Clank - A Crack in Time (Europe) (En,Pt,Sv,No,Da,Fi)"
+	region "Europe"
+	serial "BCES-00748/E"
+	rom ( name "Ratchet & Clank - A Crack in Time (Europe) (En,Pt,Sv,No,Da,Fi).iso" size 23994695680 crc 6F95738C md5 2266161826874DF4F1A6BB25B5D66AFF sha1 9DA1E076E12F43395473B9100C66FA22BD3642E4 serial "BCES-00748/E" )
+)
+game (
 	name "Ratchet & Clank - A Crack in Time (UK)"
 	description "Ratchet & Clank - A Crack in Time (UK)"
 	serial "BCES-00726/P"
@@ -25085,6 +25478,13 @@ game (
 	rom ( name "Rayman Legends (Russia) (En,Ru).iso" size 6685655040 crc 22850394 md5 BD51D43CB6218B48D1CE3D6EEE2011A6 sha1 C77610FCE6A5093F73BCB72E3F4552ACC82A964A serial "BLES-01896/E/RUS" )
 )
 game (
+	name "Rayman Legends (Russia) (En,Ru)"
+	description "Rayman Legends (Russia) (En,Ru)"
+	region "Russia"
+	serial "BLES-01896/RUS"
+	rom ( name "Rayman Legends (Russia) (En,Ru).iso" size 6685655040 crc 22850394 md5 BD51D43CB6218B48D1CE3D6EEE2011A6 sha1 C77610FCE6A5093F73BCB72E3F4552ACC82A964A serial "BLES-01896/RUS" )
+)
+game (
 	name "Rayman Legends (USA) (En,Fr,Es,Pt)"
 	description "Rayman Legends (USA) (En,Fr,Es,Pt)"
 	region "USA"
@@ -25337,11 +25737,16 @@ game (
 	rom ( name "Red Faction - Guerrilla (UK).iso" size 6017187840 crc D58F5878 md5 08E19061E11B09EFED504C135EB8B235 sha1 0EB7A1D55463C4555FA0E78E9185C300D4CEA8CF serial "BLES-00592" )
 )
 game (
-	name "Red Faction - Guerrilla (USA) (En,Fr)"
-	description "Red Faction - Guerrilla (USA) (En,Fr)"
-	region "USA"
+	name "Red Faction - Guerrilla (USA, Korea) (En,Fr)"
+	description "Red Faction - Guerrilla (USA, Korea) (En,Fr)"
+	serial "BLKS-20105"
+	rom ( name "Red Faction - Guerrilla (USA, Korea) (En,Fr).iso" size 6555238400 crc 38896740 md5 1E11C89BAD97DCF6D9A070BF2D2B2E45 sha1 7315EC7CC0AB26FAC77F6357B201B7CD222C334D serial "BLKS-20105" )
+)
+game (
+	name "Red Faction - Guerrilla (USA, Korea) (En,Fr)"
+	description "Red Faction - Guerrilla (USA, Korea) (En,Fr)"
 	serial "BLUS-30258"
-	rom ( name "Red Faction - Guerrilla (USA) (En,Fr).iso" size 6555238400 crc 38896740 md5 1E11C89BAD97DCF6D9A070BF2D2B2E45 sha1 7315EC7CC0AB26FAC77F6357B201B7CD222C334D serial "BLUS-30258" )
+	rom ( name "Red Faction - Guerrilla (USA, Korea) (En,Fr).iso" size 6555238400 crc 38896740 md5 1E11C89BAD97DCF6D9A070BF2D2B2E45 sha1 7315EC7CC0AB26FAC77F6357B201B7CD222C334D serial "BLUS-30258" )
 )
 game (
 	name "Red Seeds Profile (Asia)"
@@ -26202,18 +26607,17 @@ game (
 	rom ( name "Rugby 15 (USA) (En,Fr,Es).iso" size 1802895360 crc 9EE0BF15 md5 2019E4F61273FD171491604A33BB7214 sha1 A950FB3F0967B800EA2D076197B7B59AE1CC2DFA serial "BLUS-31506" )
 )
 game (
+	name "Rugby Challenge (Australia, New Zealand) (v01.01)"
+	description "Rugby Challenge (Australia, New Zealand) (v01.01)"
+	serial "BLES-01210/ANZ"
+	rom ( name "Rugby Challenge (Australia, New Zealand) (v01.01).iso" size 4186112000 crc ABC4CFDC md5 39D484E8C87D8DC49EE2D533314CC9C1 sha1 583366D6BEBF886E318F8D5856D5051F7AE7401C serial "BLES-01210/ANZ" )
+)
+game (
 	name "Rugby Challenge (Europe) (En,Fr,Es,It) (v02.00)"
 	description "Rugby Challenge (Europe) (En,Fr,Es,It) (v02.00)"
 	region "Europe"
 	serial "BLES-01210"
 	rom ( name "Rugby Challenge (Europe) (En,Fr,Es,It) (v02.00).iso" size 4188733440 crc 6E4D0417 md5 002A49EE85A3F0044B1988417B305236 sha1 4246AF6BA6B6F5BE7CBE401DA8033283332E7C0D serial "BLES-01210" )
-)
-game (
-	name "Rugby Challenge (New Zealand) (v01.01)"
-	description "Rugby Challenge (New Zealand) (v01.01)"
-	region "New Zealand"
-	serial "BLES-01210/ANZ"
-	rom ( name "Rugby Challenge (New Zealand) (v01.01).iso" size 4186112000 crc ABC4CFDC md5 39D484E8C87D8DC49EE2D533314CC9C1 sha1 583366D6BEBF886E318F8D5856D5051F7AE7401C serial "BLES-01210/ANZ" )
 )
 game (
 	name "Rugby Challenge 2 (Europe, Australia) (En,Fr,Es,It)"
@@ -26865,18 +27269,22 @@ game (
 	rom ( name "Saints Row IV (Australia).iso" size 7608205312 crc 4C341562 md5 3B7349EBD282360F662E636CC0B7B0DA sha1 00DEF9F7CCE2CD4268D8D9EB77D60667C15F26BE serial "BLES-01954/ANZ" )
 )
 game (
-	name "Saints Row IV (Europe) (En,Fr,De,Es,It)"
-	description "Saints Row IV (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
+	description "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
 	serial "BLES-01889"
-	rom ( name "Saints Row IV (Europe) (En,Fr,De,Es,It).iso" size 7610040320 crc 5A039466 md5 A1141D2FCF5D22009878575FF5F4D447 sha1 30CBF8E2608EB71E681C6BDC8B05841339416E51 serial "BLES-01889" )
+	rom ( name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It).iso" size 7610040320 crc 5A039466 md5 A1141D2FCF5D22009878575FF5F4D447 sha1 30CBF8E2608EB71E681C6BDC8B05841339416E51 serial "BLES-01889" )
 )
 game (
-	name "Saints Row IV (Europe) (En,Fr,De,Es,It)"
-	description "Saints Row IV (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
+	description "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
 	serial "BLES-01889"
-	rom ( name "Saints Row IV (Europe) (En,Fr,De,Es,It).iso" size 7610040320 crc 5A039466 md5 A1141D2FCF5D22009878575FF5F4D447 sha1 30CBF8E2608EB71E681C6BDC8B05841339416E51 serial "BLES-01889" )
+	rom ( name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It).iso" size 7610040320 crc 5A039466 md5 A1141D2FCF5D22009878575FF5F4D447 sha1 30CBF8E2608EB71E681C6BDC8B05841339416E51 serial "BLES-01889" )
+)
+game (
+	name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
+	description "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It)"
+	serial "BLKS-20443"
+	rom ( name "Saints Row IV (Europe, Asia) (En,Fr,De,Es,It).iso" size 7610040320 crc 5A039466 md5 A1141D2FCF5D22009878575FF5F4D447 sha1 30CBF8E2608EB71E681C6BDC8B05841339416E51 serial "BLKS-20443" )
 )
 game (
 	name "Saints Row IV (Japan)"
@@ -27251,6 +27659,13 @@ game (
 	name "Sengoku Basara 3 - Utage (Japan)"
 	description "Sengoku Basara 3 - Utage (Japan)"
 	region "Japan"
+	serial "BLJM-55049"
+	rom ( name "Sengoku Basara 3 - Utage (Japan).iso" size 12402688000 crc D8D36B8E md5 118631B2AD19C78BFBE32CF240F4E2D6 sha1 765A20A93D79B2C665486BABA53A46B610A6F7F8 serial "BLJM-55049" )
+)
+game (
+	name "Sengoku Basara 3 - Utage (Japan)"
+	description "Sengoku Basara 3 - Utage (Japan)"
+	region "Japan"
 	serial "BLJM-60389"
 	rom ( name "Sengoku Basara 3 - Utage (Japan).iso" size 12402688000 crc D8D36B8E md5 118631B2AD19C78BFBE32CF240F4E2D6 sha1 765A20A93D79B2C665486BABA53A46B610A6F7F8 serial "BLJM-60389" )
 )
@@ -27474,6 +27889,13 @@ game (
 	rom ( name "Shaun White Skateboarding (USA) (En,Fr,Es).iso" size 5333843968 crc 4B815A0F md5 40D1249705265A2A610252EE8B3455FB sha1 CCAAC7777F109FDA0313FE9D99D47A28DC82187B serial "BLUS-30303" )
 )
 game (
+	name "Shaun White Snowboarding (Asia) (En,Fr,De,Es,It)"
+	description "Shaun White Snowboarding (Asia) (En,Fr,De,Es,It)"
+	region "Asia"
+	serial "BLAS-50083"
+	rom ( name "Shaun White Snowboarding (Asia) (En,Fr,De,Es,It).iso" size 4440326144 crc 467C7AEE md5 906BA4D6424B8AB5EDAB56E111BD2CB5 sha1 639352CFB10FD736E0B10183028CEBF6F0646479 serial "BLAS-50083" )
+)
+game (
 	name "Shaun White Snowboarding (Europe) (En,Fr,De,Es,It)"
 	description "Shaun White Snowboarding (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -27629,11 +28051,16 @@ game (
 	rom ( name "Shin Sangoku Musou - Eiketsuden (Japan).iso" size 12891914240 crc 33F4E6E2 md5 CF0D5F996A5B5288741429A2076CF1BE sha1 27026F09D8F793261AA6EBF08799030D026821DB serial "BLJM-61347" )
 )
 game (
-	name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea)"
-	description "Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea)"
-	region "Korea"
+	name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea)"
+	description "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea)"
+	serial "BLJM-85003"
+	rom ( name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea).iso" size 1563557888 crc F420D425 md5 B3FE084965CCFADB6504621FD0AC5C51 sha1 AAC845BA4B43D05EC511BFB0F01F44DFBB5F9E95 serial "BLJM-85003" )
+)
+game (
+	name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea)"
+	description "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea)"
 	serial "BLKS-20384"
-	rom ( name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Korea).iso" size 1563557888 crc F420D425 md5 B3FE084965CCFADB6504621FD0AC5C51 sha1 AAC845BA4B43D05EC511BFB0F01F44DFBB5F9E95 serial "BLKS-20384" )
+	rom ( name "Shin Sangoku Musou - Multi Raid 2 - HD Version (Japan, Korea).iso" size 1563557888 crc F420D425 md5 B3FE084965CCFADB6504621FD0AC5C51 sha1 AAC845BA4B43D05EC511BFB0F01F44DFBB5F9E95 serial "BLKS-20384" )
 )
 game (
 	name "Shin Sangoku Musou - Multi Raid Special (Japan)"
@@ -27718,11 +28145,16 @@ game (
 	rom ( name "Shin Sangoku Musou 6 - Empires (Japan).iso" size 9524281344 crc E8ED678F md5 8FB7279AE124F69822996B8428A0C139 sha1 9D1DD1B69E2A41A06CBDB340DE0AD75B7F50EEE2 serial "BLJM-60524" )
 )
 game (
-	name "Shin Sangoku Musou 6 - Moushouden (Japan)"
-	description "Shin Sangoku Musou 6 - Moushouden (Japan)"
-	region "Japan"
+	name "Shin Sangoku Musou 6 - Moushouden (Japan, Korea)"
+	description "Shin Sangoku Musou 6 - Moushouden (Japan, Korea)"
 	serial "BLJM-61000"
-	rom ( name "Shin Sangoku Musou 6 - Moushouden (Japan).iso" size 23607181312 crc 07422657 md5 4BF282735C48580F71B322C6FF0D5192 sha1 BD9CBE3FC81040BE1C3F103C514DA2234C52161A serial "BLJM-61000" )
+	rom ( name "Shin Sangoku Musou 6 - Moushouden (Japan, Korea).iso" size 23607181312 crc 07422657 md5 4BF282735C48580F71B322C6FF0D5192 sha1 BD9CBE3FC81040BE1C3F103C514DA2234C52161A serial "BLJM-61000" )
+)
+game (
+	name "Shin Sangoku Musou 6 - Moushouden (Japan, Korea)"
+	description "Shin Sangoku Musou 6 - Moushouden (Japan, Korea)"
+	serial "BLKS-20328"
+	rom ( name "Shin Sangoku Musou 6 - Moushouden (Japan, Korea).iso" size 23607181312 crc 07422657 md5 4BF282735C48580F71B322C6FF0D5192 sha1 BD9CBE3FC81040BE1C3F103C514DA2234C52161A serial "BLKS-20328" )
 )
 game (
 	name "Shin Sangoku Musou 7 (Japan)"
@@ -28009,11 +28441,16 @@ game (
 	rom ( name "Simpsons Game, The (Europe) (En,Fr,Es,It).iso" size 11827216384 crc DCBB2DC7 md5 74D98BDFD7255BB009B5F78202EBC116 sha1 21BC153559C117F4C2C5B95661FE0EAE580B912D serial "BLES-00142" )
 )
 game (
-	name "Simpsons Game, The (USA)"
-	description "Simpsons Game, The (USA)"
-	region "USA"
+	name "Simpsons Game, The (USA, Asia)"
+	description "Simpsons Game, The (USA, Asia)"
+	serial "BLAS-50033"
+	rom ( name "Simpsons Game, The (USA, Asia).iso" size 6202261504 crc B7B08F66 md5 4168F5C52E25185FB8A76AFD223C6BB2 sha1 4C1B3367AC797DB5FBEA99A99092C0B93D384C21 serial "BLAS-50033" )
+)
+game (
+	name "Simpsons Game, The (USA, Asia)"
+	description "Simpsons Game, The (USA, Asia)"
 	serial "BLUS-30065"
-	rom ( name "Simpsons Game, The (USA).iso" size 6202261504 crc B7B08F66 md5 4168F5C52E25185FB8A76AFD223C6BB2 sha1 4C1B3367AC797DB5FBEA99A99092C0B93D384C21 serial "BLUS-30065" )
+	rom ( name "Simpsons Game, The (USA, Asia).iso" size 6202261504 crc B7B08F66 md5 4168F5C52E25185FB8A76AFD223C6BB2 sha1 4C1B3367AC797DB5FBEA99A99092C0B93D384C21 serial "BLUS-30065" )
 )
 game (
 	name "Simpsons, Die - Das Spiel (Germany)"
@@ -28023,11 +28460,16 @@ game (
 	rom ( name "Simpsons, Die - Das Spiel (Germany).iso" size 6174277632 crc 52D9D1E2 md5 AB278BCAA710EC39FE079BEDF3570F09 sha1 7A28D9F85490622FF89059F37FA0300E58410432 serial "BLES-00146" )
 )
 game (
-	name "Sims 3, The (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)"
-	description "Sims 3, The (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru)"
-	region "Europe"
+	name "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru)"
+	description "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru)"
 	serial "BLES-01016"
-	rom ( name "Sims 3, The (Europe) (En,Fr,De,Es,It,Nl,Pl,Ru).iso" size 6647447552 crc 681852B2 md5 CCD43422665BE58F03EFB2C601FC0057 sha1 11008594F8B2D1A8796FDE614908A1701BAEC0DB serial "BLES-01016" )
+	rom ( name "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru).iso" size 6647447552 crc 681852B2 md5 CCD43422665BE58F03EFB2C601FC0057 sha1 11008594F8B2D1A8796FDE614908A1701BAEC0DB serial "BLES-01016" )
+)
+game (
+	name "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru)"
+	description "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru)"
+	serial "BLES-01016/ANZ"
+	rom ( name "Sims 3, The (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Ru).iso" size 6647447552 crc 681852B2 md5 CCD43422665BE58F03EFB2C601FC0057 sha1 11008594F8B2D1A8796FDE614908A1701BAEC0DB serial "BLES-01016/ANZ" )
 )
 game (
 	name "Sims 3, The (Japan)"
@@ -28751,6 +29193,12 @@ game (
 	description "Skate 3 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	serial "BLES-00760/ANZ"
 	rom ( name "Skate 3 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 6968246272 crc 54A0C67B md5 4CEA7F0A78E9910669C19DEE2CC1BB05 sha1 1A3FD0383D9055964BC8396BE688B049C5CFDB1E serial "BLES-00760/ANZ" )
+)
+game (
+	name "Skate 3 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
+	description "Skate 3 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
+	serial "BLES-00760/E"
+	rom ( name "Skate 3 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 6968246272 crc 54A0C67B md5 4CEA7F0A78E9910669C19DEE2CC1BB05 sha1 1A3FD0383D9055964BC8396BE688B049C5CFDB1E serial "BLES-00760/E" )
 )
 game (
 	name "Skate 3 (Japan)"
@@ -29747,39 +30195,48 @@ game (
 	rom ( name "Sports Champions & Medieval Moves - Deadmund's Quest Combo Disc (Latin America) (En,Fr,Es,Pt).iso" size 20090191872 crc 8C022265 md5 1E06CF83983A0E417D8BB9D57C30EFB5 sha1 FAD8C529FEEB5B2527C40F3BE795BDF431D85578 serial "BCUS-90490" )
 )
 game (
-	name "Sports Champions (Asia) (En,Zh)"
-	description "Sports Champions (Asia) (En,Zh)"
+	name "Sports Champions (Asia) (En,Zh,Ko)"
+	description "Sports Champions (Asia) (En,Zh,Ko)"
 	region "Asia"
 	serial "BCAS-20125"
-	rom ( name "Sports Champions (Asia) (En,Zh).iso" size 12820480000 crc F26A34AF md5 5E3B61F1E6126C0D2881EA9913EE9F96 sha1 0C2A292E405CCA2AE13BF2685597EFF9FC328EF7 serial "BCAS-20125" )
+	rom ( name "Sports Champions (Asia) (En,Zh,Ko).iso" size 12820480000 crc F26A34AF md5 5E3B61F1E6126C0D2881EA9913EE9F96 sha1 0C2A292E405CCA2AE13BF2685597EFF9FC328EF7 serial "BCAS-20125" )
 )
 game (
-	name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	description "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	region "Europe"
+	name "Sports Champions (Asia) (En,Zh,Ko)"
+	description "Sports Champions (Asia) (En,Zh,Ko)"
+	region "Asia"
+	serial "BCKS-10144"
+	rom ( name "Sports Champions (Asia) (En,Zh,Ko).iso" size 12820480000 crc F26A34AF md5 5E3B61F1E6126C0D2881EA9913EE9F96 sha1 0C2A292E405CCA2AE13BF2685597EFF9FC328EF7 serial "BCKS-10144" )
+)
+game (
+	name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	serial "BCES-00795"
-	rom ( name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795" )
+	rom ( name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795" )
 )
 game (
-	name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	description "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	region "Europe"
+	name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	serial "BCES-00795/ANZ"
+	rom ( name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/ANZ" )
+)
+game (
+	name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	serial "BCES-00795/GER"
-	rom ( name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/GER" )
+	rom ( name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/GER" )
 )
 game (
-	name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	description "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	region "Europe"
+	name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	serial "BCES-00795/RSС"
-	rom ( name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/RSС" )
+	rom ( name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/RSС" )
 )
 game (
-	name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	description "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
-	region "Europe"
+	name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
+	description "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru)"
 	serial "BCES-00795/RUS"
-	rom ( name "Sports Champions (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/RUS" )
+	rom ( name "Sports Champions (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,Ru).iso" size 12818448384 crc 78C6E92F md5 4982C406A3AAF9921EC65E1C22A30FE3 sha1 144F3452EE634D7FABBB2B647B18A535ABAEB9F0 serial "BCES-00795/RUS" )
 )
 game (
 	name "Sports Champions (Japan) (En,Ja)"
@@ -30677,6 +31134,12 @@ game (
 	description "Tales of Xillia (Japan, Asia)"
 	serial "BLAS-50371"
 	rom ( name "Tales of Xillia (Japan, Asia).iso" size 6949961728 crc AB813E06 md5 3D94A92521A2764E9EF3F3D26268CDEE sha1 60B99AF6C846CDB9EEBC3B7E63AB8BEEF3952195 serial "BLAS-50371" )
+)
+game (
+	name "Tales of Xillia (Japan, Asia)"
+	description "Tales of Xillia (Japan, Asia)"
+	serial "BLJB-93502"
+	rom ( name "Tales of Xillia (Japan, Asia).iso" size 6949961728 crc AB813E06 md5 3D94A92521A2764E9EF3F3D26268CDEE sha1 60B99AF6C846CDB9EEBC3B7E63AB8BEEF3952195 serial "BLJB-93502" )
 )
 game (
 	name "Tales of Xillia (Japan, Asia)"
@@ -32193,6 +32656,13 @@ game (
 	rom ( name "Torne (Japan) (v04.00).iso" size 490864640 crc 10C082B4 md5 EF3D42BE00640588BE419E9C2C05B9F2 sha1 0DE7BE051D010A967728F80EF34BA62B49AC76F5 serial "BCJB-95013" )
 )
 game (
+	name "Torne (Japan) (v04.00)"
+	description "Torne (Japan) (v04.00)"
+	region "Japan"
+	serial "BCJD-89908"
+	rom ( name "Torne (Japan) (v04.00).iso" size 490864640 crc 10C082B4 md5 EF3D42BE00640588BE419E9C2C05B9F2 sha1 0DE7BE051D010A967728F80EF34BA62B49AC76F5 serial "BCJD-89908" )
+)
+game (
 	name "Toro to Morimori (Japan)"
 	description "Toro to Morimori (Japan)"
 	region "Japan"
@@ -32232,11 +32702,16 @@ game (
 	rom ( name "Totori no Atelier - Arland no Renkinjutsushi 2 (Japan, Asia).iso" size 4111466496 crc A21AF537 md5 62958427F6A8714519B398B0514D9C7B sha1 8007341E0C105287230BF451C678FC653A27A372 serial "BLJM-60241" )
 )
 game (
-	name "Touch, Shot! Love Application (Japan)"
-	description "Touch, Shot! Love Application (Japan)"
-	region "Japan"
+	name "Touch, Shot! Love Application (Japan, Korea)"
+	description "Touch, Shot! Love Application (Japan, Korea)"
 	serial "BLJM-60444"
-	rom ( name "Touch, Shot! Love Application (Japan).iso" size 3947167744 crc E763D420 md5 0654E661918E9986AC8F0C93DE7F893B sha1 78E75A1F5568EFCBBB2505EFAA7135D6CD78A962 serial "BLJM-60444" )
+	rom ( name "Touch, Shot! Love Application (Japan, Korea).iso" size 3947167744 crc E763D420 md5 0654E661918E9986AC8F0C93DE7F893B sha1 78E75A1F5568EFCBBB2505EFAA7135D6CD78A962 serial "BLJM-60444" )
+)
+game (
+	name "Touch, Shot! Love Application (Japan, Korea)"
+	description "Touch, Shot! Love Application (Japan, Korea)"
+	serial "BLKS-20357"
+	rom ( name "Touch, Shot! Love Application (Japan, Korea).iso" size 3947167744 crc E763D420 md5 0654E661918E9986AC8F0C93DE7F893B sha1 78E75A1F5568EFCBBB2505EFAA7135D6CD78A962 serial "BLKS-20357" )
 )
 game (
 	name "Toukiden 2 (Japan)"
@@ -32419,11 +32894,16 @@ game (
 	rom ( name "Transformers - The Game (USA) (v02.00).iso" size 3098673152 crc BF266572 md5 E9E752AE8AEF7078982CF1B2E29A476C sha1 C70B14F393F5EB88E90879236C2B8355C41A8FE5 serial "BLUS-30047" )
 )
 game (
-	name "Transformers - War for Cybertron (Australia) (En,Fr,De,Es,It)"
-	description "Transformers - War for Cybertron (Australia) (En,Fr,De,Es,It)"
-	region "Australia"
+	name "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It)"
+	serial "BLES-00833"
+	rom ( name "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It).iso" size 8402632704 crc 3AD7573B md5 5C26FED2834BAA127485A14A47FA02EA sha1 80F5F0D109CB104302E69EA6804DA2B8FF7F24A6 serial "BLES-00833" )
+)
+game (
+	name "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It)"
+	description "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It)"
 	serial "BLES-00833/ANZ"
-	rom ( name "Transformers - War for Cybertron (Australia) (En,Fr,De,Es,It).iso" size 8402632704 crc 3AD7573B md5 5C26FED2834BAA127485A14A47FA02EA sha1 80F5F0D109CB104302E69EA6804DA2B8FF7F24A6 serial "BLES-00833/ANZ" )
+	rom ( name "Transformers - War for Cybertron (Europe, Australia) (En,Fr,De,Es,It).iso" size 8402632704 crc 3AD7573B md5 5C26FED2834BAA127485A14A47FA02EA sha1 80F5F0D109CB104302E69EA6804DA2B8FF7F24A6 serial "BLES-00833/ANZ" )
 )
 game (
 	name "Transformers - War for Cybertron (USA) (En,Fr)"
@@ -32544,11 +33024,16 @@ game (
 	rom ( name "Trusty Bell - Chopin no Yume Reprise (Japan).iso" size 10885267456 crc FE205B52 md5 D7322996A7018DCB381403276A1F25FC sha1 8C0969C649B6EAC7C5C95C19924D4E1CA523C10F serial "BLJS-10017" )
 )
 game (
-	name "Truth or Lies (Europe) (En,De)"
-	description "Truth or Lies (Europe) (En,De)"
-	region "Europe"
+	name "Truth or Lies (Europe, Australia) (En,De)"
+	description "Truth or Lies (Europe, Australia) (En,De)"
 	serial "BLES-00966"
-	rom ( name "Truth or Lies (Europe) (En,De).iso" size 4316921856 crc 9D849B43 md5 0486D3FE87D20AB1F288FCC38BA6D6CC sha1 B4793D757951BDAD124064F56AE09FDE6AB0B3A6 serial "BLES-00966" )
+	rom ( name "Truth or Lies (Europe, Australia) (En,De).iso" size 4316921856 crc 9D849B43 md5 0486D3FE87D20AB1F288FCC38BA6D6CC sha1 B4793D757951BDAD124064F56AE09FDE6AB0B3A6 serial "BLES-00966" )
+)
+game (
+	name "Truth or Lies (Europe, Australia) (En,De)"
+	description "Truth or Lies (Europe, Australia) (En,De)"
+	serial "BLES-00966/ANZ"
+	rom ( name "Truth or Lies (Europe, Australia) (En,De).iso" size 4316921856 crc 9D849B43 md5 0486D3FE87D20AB1F288FCC38BA6D6CC sha1 B4793D757951BDAD124064F56AE09FDE6AB0B3A6 serial "BLES-00966/ANZ" )
 )
 game (
 	name "Truth or Lies (USA)"
@@ -32669,6 +33154,13 @@ game (
 	region "Asia"
 	serial "BLAS-50052"
 	rom ( name "UEFA Euro 2008 - Austria-Switzerland (Asia).iso" size 5807603712 crc 2755FE52 md5 2879C6CD01FF193CEE682C278C344D58 sha1 28909980E77628ED03B72FDD27DBCBB5D3CD0C6A serial "BLAS-50052" )
+)
+game (
+	name "UEFA Euro 2008 - Austria-Switzerland (Asia)"
+	description "UEFA Euro 2008 - Austria-Switzerland (Asia)"
+	region "Asia"
+	serial "BLKS-20070"
+	rom ( name "UEFA Euro 2008 - Austria-Switzerland (Asia).iso" size 5807603712 crc 2755FE52 md5 2879C6CD01FF193CEE682C278C344D58 sha1 28909980E77628ED03B72FDD27DBCBB5D3CD0C6A serial "BLKS-20070" )
 )
 game (
 	name "UEFA Euro 2008 - Austria-Switzerland (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Ru)"
@@ -33255,11 +33747,11 @@ game (
 	rom ( name "Under Defeat HD - Deluxe Edition (Europe) (En,Fr,De,Es,It).iso" size 565379072 crc A949AE7B md5 65F3633809B287757A41EF4A2D299BD4 sha1 970A4D46005CFED726D796B0F227196360E3ECE6 serial "BLES-01752" )
 )
 game (
-	name "Under Defeat HD - Deluxe Edition (USA)"
-	description "Under Defeat HD - Deluxe Edition (USA)"
+	name "Under Defeat HD - Deluxe Edition (USA) (En,Fr,De,Es,It)"
+	description "Under Defeat HD - Deluxe Edition (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "BLUS-31077"
-	rom ( name "Under Defeat HD - Deluxe Edition (USA).iso" size 565379072 crc 0C86BFE2 md5 59601438E04B61F3FBF3B16B29B9D9A2 sha1 A3C28B607014CEEE21927A0E1B7F4B9F024A97D1 serial "BLUS-31077" )
+	rom ( name "Under Defeat HD - Deluxe Edition (USA) (En,Fr,De,Es,It).iso" size 565379072 crc 0C86BFE2 md5 59601438E04B61F3FBF3B16B29B9D9A2 sha1 A3C28B607014CEEE21927A0E1B7F4B9F024A97D1 serial "BLUS-31077" )
 )
 game (
 	name "Under Night In-Birth - Exe-Late (Europe)"
@@ -34217,18 +34709,23 @@ game (
 	rom ( name "Watch Dogs (Japan, Asia) (En,Ja,Zh,Ko).iso" size 11358633984 crc EC92A9EE md5 40404F53EE916218CDCA7FDBBC62689C sha1 B7120F0D229F57839D028C86ED34BAE098B7DACF serial "BLJM-61054" )
 )
 game (
-	name "Watch_Dogs (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
-	description "Watch_Dogs (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
-	region "Europe"
-	serial "BLES-01854"
-	rom ( name "Watch_Dogs (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).iso" size 16381771776 crc 709CFD42 md5 4F7273638ADE8A740AFABF98595CDC7C sha1 2716C685091B1BD145B93C724BBDCE9401286097 serial "BLES-01854" )
-)
-game (
 	name "Watch_Dogs (Europe) (Pl,Ru,Cs,Hu)"
 	description "Watch_Dogs (Europe) (Pl,Ru,Cs,Hu)"
 	region "Europe"
 	serial "BLES-01934/RUS"
 	rom ( name "Watch_Dogs (Europe) (Pl,Ru,Cs,Hu).iso" size 11391533056 crc 4FFE24AB md5 406C5E66EC97969438D1FDB7307E5855 sha1 4F0F1D7708D1A2BD080F10C914F9524E9698FD55 serial "BLES-01934/RUS" )
+)
+game (
+	name "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
+	description "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
+	serial "BLAS-50658"
+	rom ( name "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).iso" size 16381771776 crc 709CFD42 md5 4F7273638ADE8A740AFABF98595CDC7C sha1 2716C685091B1BD145B93C724BBDCE9401286097 serial "BLAS-50658" )
+)
+game (
+	name "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
+	description "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
+	serial "BLES-01854"
+	rom ( name "Watch_Dogs (Europe, Asia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).iso" size 16381771776 crc 709CFD42 md5 4F7273638ADE8A740AFABF98595CDC7C sha1 2716C685091B1BD145B93C724BBDCE9401286097 serial "BLES-01854" )
 )
 game (
 	name "Watch_Dogs (UK)"
@@ -34838,6 +35335,12 @@ game (
 	rom ( name "World Soccer Winning Eleven 2008 (Japan, Asia) (En,Ja).iso" size 5258149888 crc ECD3FAF1 md5 F8A0159B72E761F8D276772AFC87E26A sha1 9AF64AF9B5279C69EEEE554F12EBAB363B938941 serial "BLJM-60035" )
 )
 game (
+	name "World Soccer Winning Eleven 2008 (Japan, Asia) (En,Ja)"
+	description "World Soccer Winning Eleven 2008 (Japan, Asia) (En,Ja)"
+	serial "BLKS-20036"
+	rom ( name "World Soccer Winning Eleven 2008 (Japan, Asia) (En,Ja).iso" size 5258149888 crc ECD3FAF1 md5 F8A0159B72E761F8D276772AFC87E26A sha1 9AF64AF9B5279C69EEEE554F12EBAB363B938941 serial "BLKS-20036" )
+)
+game (
 	name "World Soccer Winning Eleven 2009 (Japan) (En,Ja) (Taikenban Adidas Edition)"
 	description "World Soccer Winning Eleven 2009 (Japan) (En,Ja) (Taikenban Adidas Edition)"
 	region "Japan"
@@ -34857,6 +35360,12 @@ game (
 	rom ( name "World Soccer Winning Eleven 2009 (Japan, Asia) (En,Ja).iso" size 7450525696 crc F71A681C md5 027B9070844B40B41C6A1E0538301D54 sha1 89F357AEEF61AF0C1C2B950AEB32C1C887BAD794 serial "BLJM-60098" )
 )
 game (
+	name "World Soccer Winning Eleven 2009 (Japan, Asia) (En,Ja)"
+	description "World Soccer Winning Eleven 2009 (Japan, Asia) (En,Ja)"
+	serial "BLKS-20099"
+	rom ( name "World Soccer Winning Eleven 2009 (Japan, Asia) (En,Ja).iso" size 7450525696 crc F71A681C md5 027B9070844B40B41C6A1E0538301D54 sha1 89F357AEEF61AF0C1C2B950AEB32C1C887BAD794 serial "BLKS-20099" )
+)
+game (
 	name "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja)"
 	description "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja)"
 	serial "BLAS-50153"
@@ -34867,6 +35376,12 @@ game (
 	description "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja)"
 	serial "BLJM-60176"
 	rom ( name "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja).iso" size 7903051776 crc D5783D49 md5 3156C3495F42CF998E15611710AF49D9 sha1 D3B882FDAB2F644756CD188EA54DADB2BAC3F686 serial "BLJM-60176" )
+)
+game (
+	name "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja)"
+	description "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja)"
+	serial "BLKS-20200"
+	rom ( name "World Soccer Winning Eleven 2010 (Japan, Asia) (En,Ja).iso" size 7903051776 crc D5783D49 md5 3156C3495F42CF998E15611710AF49D9 sha1 D3B882FDAB2F644756CD188EA54DADB2BAC3F686 serial "BLKS-20200" )
 )
 game (
 	name "World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen (Japan)"
@@ -34897,6 +35412,13 @@ game (
 	rom ( name "World Soccer Winning Eleven 2011 (Korea).iso" size 9305587712 crc 6D907B3B md5 60619C77DE5A03C5229D02E4435BE4F0 sha1 A89D25DA9BE4FEB265EDFBB4A6447848684A008D serial "BLKS-20220" )
 )
 game (
+	name "World Soccer Winning Eleven 2012 (Asia) (En,Zh)"
+	description "World Soccer Winning Eleven 2012 (Asia) (En,Zh)"
+	region "Asia"
+	serial "BLAS-50365"
+	rom ( name "World Soccer Winning Eleven 2012 (Asia) (En,Zh).iso" size 8813412352 crc 66840796 md5 C11577115D4F9E88542648B132147A65 sha1 7B9188C8CE844E2E01F8479E17C1F377B5B61761 serial "BLAS-50365" )
+)
+game (
 	name "World Soccer Winning Eleven 2012 (Japan)"
 	description "World Soccer Winning Eleven 2012 (Japan)"
 	region "Japan"
@@ -34909,6 +35431,13 @@ game (
 	region "Korea"
 	serial "BLKS-20301"
 	rom ( name "World Soccer Winning Eleven 2012 (Korea).iso" size 8808431616 crc 211BC459 md5 B91B4472EB23C4FB0D27DEE26441221B sha1 F27F999F0F2C9E3B6E321E9E8309AA4EDEDA3D6D serial "BLKS-20301" )
+)
+game (
+	name "World Soccer Winning Eleven 2013 (Asia) (En,Zh)"
+	description "World Soccer Winning Eleven 2013 (Asia) (En,Zh)"
+	region "Asia"
+	serial "BLAS-50498"
+	rom ( name "World Soccer Winning Eleven 2013 (Asia) (En,Zh).iso" size 8130002944 crc 11E69E14 md5 BD7CCB45475A7E40E294DB6D6633207A sha1 71350DC0FFF18C36F54BE81BE896578397C81878 serial "BLAS-50498" )
 )
 game (
 	name "World Soccer Winning Eleven 2013 (Japan) (En,Ja)"
@@ -34953,18 +35482,25 @@ game (
 	rom ( name "World Soccer Winning Eleven 2014 - Aoki Samurai no Chousen (Japan).iso" size 14002946048 crc 6C04FA80 md5 9CA4AC635D441F8D520A0FDEA283D16D sha1 FC5D2A019210A01AE75A737682EB27BA0AF4184D serial "BLJM-61176" )
 )
 game (
-	name "World Soccer Winning Eleven 2015 (Japan)"
-	description "World Soccer Winning Eleven 2015 (Japan)"
-	region "Japan"
-	serial "BLJM-61291"
-	rom ( name "World Soccer Winning Eleven 2015 (Japan).iso" size 7909801984 crc DF9BA87B md5 E1A0B83B3EB24C923E21061558A99E25 sha1 D2E43119977270225F77AB989183E87292D81FAE serial "BLJM-61291" )
+	name "World Soccer Winning Eleven 2015 (Asia) (En,Zh,Ko)"
+	description "World Soccer Winning Eleven 2015 (Asia) (En,Zh,Ko)"
+	region "Asia"
+	serial "BLAS-50744"
+	rom ( name "World Soccer Winning Eleven 2015 (Asia) (En,Zh,Ko).iso" size 7879786496 crc D8616C4C md5 EF05938055F619D1290F559E2CE20E7B sha1 45E60D0EC5D9E9622518F3DC794C967A41DECC1F serial "BLAS-50744" )
 )
 game (
-	name "World Soccer Winning Eleven 2015 (Korea) (En,Zh,Ko)"
-	description "World Soccer Winning Eleven 2015 (Korea) (En,Zh,Ko)"
-	region "Korea"
-	serial "BLAS-50744"
-	rom ( name "World Soccer Winning Eleven 2015 (Korea) (En,Zh,Ko).iso" size 7879786496 crc D8616C4C md5 EF05938055F619D1290F559E2CE20E7B sha1 45E60D0EC5D9E9622518F3DC794C967A41DECC1F serial "BLAS-50744" )
+	name "World Soccer Winning Eleven 2015 (Japan) (En,Ja)"
+	description "World Soccer Winning Eleven 2015 (Japan) (En,Ja)"
+	region "Japan"
+	serial "BLJM-61237"
+	rom ( name "World Soccer Winning Eleven 2015 (Japan) (En,Ja).iso" size 7909801984 crc DF9BA87B md5 E1A0B83B3EB24C923E21061558A99E25 sha1 D2E43119977270225F77AB989183E87292D81FAE serial "BLJM-61237" )
+)
+game (
+	name "World Soccer Winning Eleven 2015 (Japan) (En,Ja)"
+	description "World Soccer Winning Eleven 2015 (Japan) (En,Ja)"
+	region "Japan"
+	serial "BLJM-61291"
+	rom ( name "World Soccer Winning Eleven 2015 (Japan) (En,Ja).iso" size 7909801984 crc DF9BA87B md5 E1A0B83B3EB24C923E21061558A99E25 sha1 D2E43119977270225F77AB989183E87292D81FAE serial "BLJM-61291" )
 )
 game (
 	name "World of Outlaws - Sprint Cars (Europe)"

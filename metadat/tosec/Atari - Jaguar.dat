@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - Jaguar"
 	description "Atari - Jaguar"
-	version "2024.04.07"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -121,20 +121,52 @@ game (
 	rom ( name "Arena Football '95 (2006)(B&C Computervision)[J9003E 800108-006].rom" size 4186112 crc 61EE6B62 md5 7B9C10DCB2364AD8A11C18FC8BE5C92F sha1 49FCE6385856239E133A66962EA7C8F60ECDD7D6 )
 )
 game (
-	name "Arkanna (-) (PD)"
-	description "Arkanna (-) (PD)"
-	rom ( name "Arkanna (199x)(-)(PD).jag" size 104924 crc BC3C8272 md5 51E587596DEC63B3C92CB74298ACDADB sha1 8967081069BE98B9EE2395C8F8008C6D1DBE4698 )
+	name "Arkanna (demo-playable) (Stormworks Interactive)"
+	description "Arkanna (demo-playable) (Stormworks Interactive)"
+	rom ( name "Arkanna (demo-playable) (19xx)(Stormworks Interactive).j64" size 131072 crc A5AA0071 md5 63D31ABA1F83DC48006B15D3646FDB6C sha1 FE5D149FF01DB5C6C948D67738FEDF35DBEDF086 )
 )
 game (
-	name "Arkanoid 2 (-) (PD)"
-	description "Arkanoid 2 (-) (PD)"
-	rom ( name "Arkanoid 2 (19xx)(-)(PD).bin" size 429980 crc FFA3F856 md5 CD6B75A2498B9022FB4E8037B0E700EE sha1 0A1C9C9ED162715035E68242881F8B50DA85794C )
+	name "Assassin, The (demo-playable) (OMC Games) (USA)"
+	description "Assassin, The (demo-playable) (OMC Games) (USA)"
+	releaseyear "1999"
+	region "USA"
+	rom ( name "Assassin, The (demo-playable) (1999)(OMC Games)(US).j64" size 1048576 crc 0AD19DED md5 71777753BEDDAC769F4ED5A2A4438D8E sha1 B9371B9A4E339426110CC423037B8674F2C840E7 )
 )
 game (
-	name "Asteroid (-) (PD)"
-	description "Asteroid (-) (PD)"
+	name "Assassin, The (demo-playable) (OMC Games) (USA)"
+	description "Assassin, The (demo-playable) (OMC Games) (USA)"
+	releaseyear "1999"
+	region "USA"
+	rom ( name "Assassin, The (demo-playable) (1999)(OMC Games)(US).rom" size 1040384 crc 61F65B09 md5 934192686CF18BBB6BBFE12B8BE1CF91 sha1 731E7AB78F21D1D62797D1DE949AEABCC47B5225 )
+)
+game (
+	name "Assassin, The - Part 1 (demo-playable) (OMC Games) (PD)"
+	description "Assassin, The - Part 1 (demo-playable) (OMC Games) (PD)"
+	releaseyear "1999"
+	rom ( name "Assassin, The - Part 1 (demo-playable) (1999)(OMC Games)(PD).jag" size 268096 crc 0DB47415 md5 99706FFDD652B348D86368B211E2C3C0 sha1 219B5D3E0D6D40EC4883CCE2CA38FA7CA1ADAD18 )
+)
+game (
+	name "Assassin, The - Part 1 (demo-playable) (OMC Games) (PD) (Alt 1)"
+	description "Assassin, The - Part 1 (demo-playable) (OMC Games) (PD) (Alt 1)"
+	releaseyear "1999"
+	rom ( name "Assassin, The - Part 1 (demo-playable) (1999)(OMC Games)(PD)[a].jag" size 268096 crc D5C01E77 md5 1BB30CF0B5A1E928918CD0F09DA30869 sha1 F35B8D44E57B154C57FD9428D80DBA567E546E4A )
+)
+game (
+	name "Assassin, The v1.0 (demo-playable) (OMC Games) (PD)"
+	description "Assassin, The v1.0 (demo-playable) (OMC Games) (PD)"
+	rom ( name "Assassin, The v1.0 (demo-playable) (199x)(OMC Games)(PD).jag" size 1006304 crc 4750BBFF md5 95C1FB6ADCE52072A25EA93741908F74 sha1 AE9B9952AD52CFF22CCF8BD2D677CF096E4055CB )
+)
+game (
+	name "Asteroids (Sinister Developments)"
+	description "Asteroids (Sinister Developments)"
 	releaseyear "2000"
-	rom ( name "Asteroid (2000)(-)(PD).jag" size 296862 crc 82629A5B md5 D3BC404E94B1943A8BEE4E98BF57C912 sha1 331EA0431C27DDD96FA344666186924804A3C7AD )
+	rom ( name "Asteroids (2000)(Sinister Developments).j64" size 524288 crc D231043A md5 B2E126347C883E2EB3980001374B3DE0 sha1 9F9C3357FCD1E2CAB37290A0879546115FE1B2F1 )
+)
+game (
+	name "Asteroids (Sinister Developments)"
+	description "Asteroids (Sinister Developments)"
+	releaseyear "2000"
+	rom ( name "Asteroids (2000)(Sinister Developments).rom" size 516096 crc 3528947B md5 EC80B90E8085F8D14C555CD79F38605B sha1 A65932EB59BEEC5329671879EE969754C020F633 )
 )
 game (
 	name "Atari Karts (Atari)"
@@ -159,12 +191,6 @@ game (
 	description "Atari Karts (Atari) (Proto)"
 	releaseyear "1995"
 	rom ( name "Atari Karts (1995)(Atari)(proto).rom" size 4186112 crc 2ABC6001 md5 DEAE794870CB3387FE1511799B3A1FCB sha1 5B61F7CFAF6736DDBD8F6E873D850D96951D34E4 )
-)
-game (
-	name "Atomic (Removers) (PD)"
-	description "Atomic (Removers) (PD)"
-	releaseyear "2006"
-	rom ( name "Atomic (2006)(Removers)(PD).bin" size 541728 crc 6C75D45F md5 08D1209174F7275B14EEE3A8D7121C8F sha1 FFD4805DABFA9509CD9E064EF876D9AE70ADC2B6 )
 )
 game (
 	name "Attack of the Mutant Penguins (Atari)"
@@ -213,18 +239,6 @@ game (
 	description "Battle Sphere Gold (ScatoLOGIC)[J0201G]"
 	releaseyear "2002"
 	rom ( name "Battle Sphere Gold (2002)(ScatoLOGIC)[J0201G].rom" size 4186112 crc D5727F02 md5 5C0B84A1A64DDBB4D3D2083958754CA5 sha1 1724B3163A68EB88D8A80564D58D12BC04AB6CC2 )
-)
-game (
-	name "BlackJag Rev 20050223 (FORCE Design) (PD)"
-	description "BlackJag Rev 20050223 (FORCE Design) (PD)"
-	releaseyear "2005"
-	rom ( name "BlackJag Rev 20050223 (2005)(FORCE Design)(PD).bin" size 282368 crc D2589139 md5 E5E5C3A7BA0CAB41C5510A09FB48E2AD sha1 ED38D9AD44F2B4C0148A45BFA26523D3F1F4DEFB )
-)
-game (
-	name "BlackJag v1.1 (FORCE Design) (PD)"
-	description "BlackJag v1.1 (FORCE Design) (PD)"
-	releaseyear "2005"
-	rom ( name "BlackJag v1.1 (2005)(FORCE Design)(PD).bin" size 280720 crc C1A4151F md5 B4D4DA2354A9A7DF2CD9852DFBFA2659 sha1 6AD757D2C898F6B82CA2DC13A729D2C56A04E88C )
 )
 game (
 	name "Breakout 2000 (Telegames) (Proto)[xx0327]"
@@ -411,6 +425,20 @@ game (
 	rom ( name "Cybermorph Rev B (1994)(Atari)[J9000E 700700-3].rom" size 1040384 crc C7C21726 md5 A2762624A57EA85875B7700AAC07A61B sha1 D4A0CE12F5D5C1C668CD919AAAC1187CC00CADD1 )
 )
 game (
+	name "Dark Guardian Episode 1 - Unknown Enemy (OMC Games) (USA)"
+	description "Dark Guardian Episode 1 - Unknown Enemy (OMC Games) (USA)"
+	releaseyear "2001"
+	region "USA"
+	rom ( name "Dark Guardian Episode 1 - Unknown Enemy (2001)(OMC Games)(US).j64" size 1048576 crc 6B636843 md5 F1B1252F237FADF736396469D36CDAA7 sha1 7C9D2D5353FD9404E5EABF6F8AFD9B2E01964D7A )
+)
+game (
+	name "Dark Guardian Episode 1 - Unknown Enemy (OMC Games) (USA)"
+	description "Dark Guardian Episode 1 - Unknown Enemy (OMC Games) (USA)"
+	releaseyear "2001"
+	region "USA"
+	rom ( name "Dark Guardian Episode 1 - Unknown Enemy (2001)(OMC Games)(US).rom" size 1040384 crc 0044AEA7 md5 8238AF07993B8F2074C46E8B89FFA4B2 sha1 5D3276488E3BD49585E74AE405A827FB6EA5B66E )
+)
+game (
 	name "Defender 2000 (Atari)"
 	description "Defender 2000 (Atari)"
 	releaseyear "1996"
@@ -501,18 +529,6 @@ game (
 	releasemonth "10"
 	releaseday "06"
 	rom ( name "Dragon - The Bruce Lee Story (1994-10-06)(Virgin Interactive)(beta).rom" size 2088960 crc 7B743C7C md5 2E7B0F2B31AC7D17A191C7FE700CF350 sha1 FB7ED8D7766FB097860951B3975D7E30E7FF4B0F )
-)
-game (
-	name "Drumpad (Robert Jurziga) (PD)"
-	description "Drumpad (Robert Jurziga) (PD)"
-	releaseyear "2002"
-	rom ( name "Drumpad (2002)(Robert Jurziga)(PD).bin" size 125536 crc 48537047 md5 605F86F728DB2083489D751D2E99DFEC sha1 00FED66F800F8BB38F7881D862252886967699A7 )
-)
-game (
-	name "Drumpad 2 (Robert Jurziga) (PD)"
-	description "Drumpad 2 (Robert Jurziga) (PD)"
-	releaseyear "2000"
-	rom ( name "Drumpad 2 (2000)(Robert Jurziga)(PD).bin" size 196944 crc BAF04511 md5 84F7E427671E3110945CDAC60A25A25B sha1 5588A33F48B2AF736B86675A836ACBA3352341E9 )
 )
 game (
 	name "Evolution - Dino Dudes (Atari)"
@@ -619,12 +635,6 @@ game (
 	rom ( name "Flip Out! (1995)(Atari).rom" size 2088960 crc 76BB7D03 md5 ACA3200EB333CD9137D0A88673799F83 sha1 157BE203C301D2BBEBE60EA3399835BE81537420 )
 )
 game (
-	name "Frog Feast (Rastersoft) (PD) (Beta)"
-	description "Frog Feast (Rastersoft) (PD) (Beta)"
-	releaseyear "2005"
-	rom ( name "Frog Feast (2005)(Rastersoft)(PD)(beta).bin" size 308214 crc EE84BC2C md5 615E83055B348D5BFBC0FEBA7D5C25AE sha1 2FC46D3CF25F445F4C694587DE7BE0C21AB613C4 )
-)
-game (
 	name "Frog Feast (RasterSoft)"
 	description "Frog Feast (RasterSoft)"
 	releaseyear "2007"
@@ -637,9 +647,10 @@ game (
 	rom ( name "Frog Feast (2007)(RasterSoft).rom" size 1040384 crc 0B1F2FBB md5 42EC7592035204E846D74521C3AEBDD1 sha1 D4DE0A45C3C981CA6582564C930FC2C14533A649 )
 )
 game (
-	name "Gorf 2000 (-) (PD)"
-	description "Gorf 2000 (-) (PD)"
-	rom ( name "Gorf 2000 (19xx)(-)(PD).jag" size 69296 crc B4C74036 md5 66FBC3C4829587192828424A73E72993 sha1 40CCE38388C0B02CDEACC02A1476A4C70858ADCB )
+	name "Frog Feast (demo-playable) (RasterSoft)"
+	description "Frog Feast (demo-playable) (RasterSoft)"
+	releaseyear "2007"
+	rom ( name "Frog Feast (demo-playable) (2007)(RasterSoft).rom" size 516096 crc ECAF1771 md5 032F0710E7CEC706CA281585E9F3B58F sha1 4FA39B1BE9A88A60E3D1B0E7F0C274B8AB43374C )
 )
 game (
 	name "Gorf 2000 (demo) (-)"
@@ -672,16 +683,6 @@ game (
 	rom ( name "Hover Strike (1995)(Atari).rom" size 2088960 crc 097F874A md5 545B4F36992DE772D48A9F13491FB894 sha1 76A94FEA444D68CB52833BCDE2EAFF60FE9C4056 )
 )
 game (
-	name "Hubble Fade (Robert Jurziga) (PD)"
-	description "Hubble Fade (Robert Jurziga) (PD)"
-	rom ( name "Hubble Fade (199x)(Robert Jurziga)(PD).bin" size 865280 crc 2708D9FE md5 BE7EE43300321FE8CDB91F6ABA5A61D1 sha1 ACD8D516317CF9D5D55A6E06D67A860319F034E0 )
-)
-game (
-	name "Hubble Nebula (Robert Jurziga) (PD)"
-	description "Hubble Nebula (Robert Jurziga) (PD)"
-	rom ( name "Hubble Nebula (199x)(Robert Jurziga)(PD).bin" size 348992 crc 72DD1CB8 md5 8155FF3FC9D8CD1415D3879B3A052335 sha1 082B2590DD90DF9C7906FB63B6E7E9DB0617FB67 )
-)
-game (
 	name "Hyper Force (Songbird Productions)[CF3003]"
 	description "Hyper Force (Songbird Productions)[CF3003]"
 	releaseyear "2000"
@@ -704,6 +705,22 @@ game (
 	description "I-War (Atari)"
 	releaseyear "1995"
 	rom ( name "I-War (1995)(Atari).rom" size 2088960 crc 705FA772 md5 A5D13BDBCE3097F07121F444C430559B sha1 6FA40243A9F7DE26F10971A51D229A532CDA5756 )
+)
+game (
+	name "I-War (Atari) (EU-US) (Beta)"
+	description "I-War (Atari) (EU-US) (Beta)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "20"
+	rom ( name "I-War (1995-10-20)(Atari)(EU-US)(beta).j64" size 2097152 crc 5BFFA5AC md5 C4D58615CD0B0D949A8EB1A15529879D sha1 665395B4EEE589E890726B2FC8C51480CE69C6E1 )
+)
+game (
+	name "I-War (Atari) (EU-US) (Beta)"
+	description "I-War (Atari) (EU-US) (Beta)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "20"
+	rom ( name "I-War (1995-10-20)(Atari)(EU-US)(beta).rom" size 2088960 crc BC4B448F md5 2C066890CDDDA36BC7A64CB85A81E062 sha1 92C154A2D481D627F0509825D34FA5DC5BB16E43 )
 )
 game (
 	name "International Sensible Soccer (Telegames)"
@@ -796,46 +813,10 @@ game (
 	rom ( name "Jack Nicklaus Cyber Golf (1995-01-16)(Atari)(proto)[v004].rom" size 1040384 crc D5795815 md5 FDC7A5A7F6CCC72C99014A3A7175BA81 sha1 D0123CCF06F2A5A3E6188B7339C0EAFA7FAF14DB )
 )
 game (
-	name "Jagfest (-) (PD)"
-	description "Jagfest (-) (PD)"
-	releaseyear "2001"
-	rom ( name "Jagfest (2001)(-)(PD).jag" size 479952 crc 7DAE6472 md5 3E8255AFC631710BEA69883809C50482 sha1 4C6FECD63CF1CFFF41E77EF11D0B56952A8FF994 )
-)
-game (
-	name "Jagmarble (Matthias Domin) (PD)"
-	description "Jagmarble (Matthias Domin) (PD)"
-	releaseyear "1997"
-	rom ( name "Jagmarble (1997)(Matthias Domin)(PD).jag" size 64786 crc C1D3612C md5 8081BFBC21E14DE4E06C5555B26FCCB5 sha1 930D9061067CC46A7DF20E60FF25B8808C9EC16C )
-)
-game (
-	name "Jagmarble (Matthias Domin) (PD)"
-	description "Jagmarble (Matthias Domin) (PD)"
-	releaseyear "1999"
-	rom ( name "Jagmarble (1999)(Matthias Domin)(PD).jag" size 64850 crc EBAFD0DE md5 5AC2FE762FF61D0BBA7E1EFC1B91FEFE sha1 37F4E86EFC9BAF466B62FFE04814FBBBB0F51617 )
-)
-game (
-	name "Jagmarble (Matthias Domin) (PD)"
-	description "Jagmarble (Matthias Domin) (PD)"
-	releaseyear "2000"
-	rom ( name "Jagmarble (2000)(Matthias Domin)(PD).jag" size 64804 crc 1B57A623 md5 8D9400EB282A7E9CC9388477D2CF70F1 sha1 F60B001242D2DFB55C41412720BB01C59F7B04B5 )
-)
-game (
-	name "Jagmatch (Mihai, Sebastian)"
-	description "Jagmatch (Mihai, Sebastian)"
-	releaseyear "2015"
-	rom ( name "Jagmatch (2015)(Mihai, Sebastian).bin" size 323616 crc 6ECC0D9C md5 1A31107343F0D802021736A15BD4D87A sha1 D3481ECE7B7841D9E8DADBC1856CBCB1659DC2E4 )
-)
-game (
 	name "Jagmatch (Mihai, Sebastian)"
 	description "Jagmatch (Mihai, Sebastian)"
 	releaseyear "2015"
 	rom ( name "Jagmatch (2015)(Mihai, Sebastian).cof" size 327582 crc 5D695A6A md5 C89505FF700360E0CA9E4DCCC8922FFD sha1 4265945EC2BEB5E8822E32059D8441CC880EC168 )
-)
-game (
-	name "Jaguar Tetris (Bastian Schick) (PD)"
-	description "Jaguar Tetris (Bastian Schick) (PD)"
-	releaseyear "1995"
-	rom ( name "Jaguar Tetris (1995)(Bastian Schick)(PD).jag" size 131042 crc C539EF03 md5 6DA88D193008E7B09C7D59EB060C0EED sha1 4B4AD37D6B057AE8D59E45C23AAD3164BDCBAAF1 )
 )
 game (
 	name "Kasumi Ninja (Atari)"
@@ -864,6 +845,22 @@ game (
 	name "Kasumi Ninja - TestBed v0.01 (Atari) (Proto)"
 	description "Kasumi Ninja - TestBed v0.01 (Atari) (Proto)"
 	rom ( name "Kasumi Ninja - TestBed v0.01 (199x)(Atari)(proto).rom" size 516096 crc 098CB9AF md5 95447925E8211A74BC44BEC3BAABDA59 sha1 7E297B8CD357003270BB38ABA1D7DC4761C347F2 )
+)
+game (
+	name "Kasumi Ninja v0.29 (Atari) (Beta)"
+	description "Kasumi Ninja v0.29 (Atari) (Beta)"
+	releaseyear "1994"
+	releasemonth "05"
+	releaseday "24"
+	rom ( name "Kasumi Ninja v0.29 (1994-05-24)(Atari)(beta).j64" size 4194304 crc 3D6C5D44 md5 4A8BAB539789669787769BFE5527EC8A sha1 7C9C6EBC8C925AD5CA8769CE4963367C4A8C9607 )
+)
+game (
+	name "Kasumi Ninja v0.29 (Atari) (Beta)"
+	description "Kasumi Ninja v0.29 (Atari) (Beta)"
+	releaseyear "1994"
+	releasemonth "05"
+	releaseday "24"
+	rom ( name "Kasumi Ninja v0.29 (1994-05-24)(Atari)(beta).rom" size 4186112 crc A7EEEC3D md5 E578B70EEF1D829773A3A1C1913F3083 sha1 48FF0DC380695FF1AED54223B11D60D7242715BB )
 )
 game (
 	name "Memory Track (Atari)[JagCD cart][J8911 700140]"
@@ -922,6 +919,38 @@ game (
 	description "Native - Level 1 Demo (Duranik)"
 	releaseyear "1997"
 	rom ( name "Native - Level 1 Demo (1997)(Duranik).rom" size 2088960 crc 20649D69 md5 0EA7BF8D43FB95407A6B16766D6CE5D3 sha1 2375020435534061E6FA8D0C6B0FA6131526C85D )
+)
+game (
+	name "Painter (Sinister Developments)"
+	description "Painter (Sinister Developments)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "29"
+	rom ( name "Painter (1995-12-29)(Sinister Developments).j64" size 262144 crc F2B515C6 md5 3887C0ABC4A45144760E66FB2E7B21DD sha1 85E9901655605FDE39C55C5D4618BC785A5EF5FD )
+)
+game (
+	name "Painter (Sinister Developments)"
+	description "Painter (Sinister Developments)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "29"
+	rom ( name "Painter (1995-12-29)(Sinister Developments).rom" size 253952 crc E281D30B md5 F5D198C568D1BA750BDB8F9DD3DC4A51 sha1 78C726F4065721E481FDB830549578940968BC0A )
+)
+game (
+	name "Painter (Sinister Developments) (PD)"
+	description "Painter (Sinister Developments) (PD)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "29"
+	rom ( name "Painter (1995-12-29)(Sinister Developments)(PD).jag" size 163146 crc 27C7C6A3 md5 4406A84D18AED221C086215248ED66A4 sha1 6F58B9907B178EABC1F385EB19B2A7A38D9DF586 )
+)
+game (
+	name "Painter (Sinister Developments) (PD) (Alt 1)"
+	description "Painter (Sinister Developments) (PD) (Alt 1)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "29"
+	rom ( name "Painter (1995-12-29)(Sinister Developments)(PD)[a].jag" size 163072 crc 71269584 md5 C17071B3C543E26170AF27B77589BA4F sha1 EA4F524C1399921B828A9D5722662A354C94160B )
 )
 game (
 	name "Phase Zero (-) (PD)"
@@ -986,11 +1015,6 @@ game (
 	releasemonth "10"
 	releaseday "28"
 	rom ( name "Plucky Duck in Hollywood Hijinks (1994-10-28)(Atari)(proto)[unreleased tech demo].rom" size 2088960 crc B6C53880 md5 979642E91143D8BEB361F61F329411CC sha1 E612304AA26916B53F255C54BFD5B57DED9553EE )
-)
-game (
-	name "Pong (Storm Works Interactive) (PD)"
-	description "Pong (Storm Works Interactive) (PD)"
-	rom ( name "Pong (19xx)(Storm Works Interactive)(PD).abs" size 4416 crc E90A9122 md5 E5B0C3571DEFB65D266A2AAF647F9CD8 sha1 2889F2F12C1FCE7B1FC0348D1221CAFDCF4F2D3A )
 )
 game (
 	name "Power Drive Rally (Time Warner Interactive)"
@@ -1107,6 +1131,18 @@ game (
 	rom ( name "Ruiner Pinball (1995)(Atari).rom" size 2088960 crc 5C637BEC md5 60B7AE4D465E8577A3134F3C35929CEF sha1 01E19899824F730B4F7F810CFA285D29D02DE11A )
 )
 game (
+	name "SkyCopter II (Carousel International) (USA) (Proto)"
+	description "SkyCopter II (Carousel International) (USA) (Proto)"
+	region "USA"
+	rom ( name "SkyCopter II (199x)(Carousel International)(US)(proto).j64" size 2097152 crc 4F464FA5 md5 D128A5DD0BAC4DBAAB0FB402EFB2B0EE sha1 BA634A9869DF76FBDB16C4E1F90F1344B7987491 )
+)
+game (
+	name "SkyCopter II (Carousel International) (USA) (Proto)"
+	description "SkyCopter II (Carousel International) (USA) (Proto)"
+	region "USA"
+	rom ( name "SkyCopter II (199x)(Carousel International)(US)(proto).rom" size 2088960 crc 0CA722C4 md5 3FE0B56638B2555F78860F30F6267553 sha1 EFF1B139A6B1551B8DF287C16398CAC2F1E8B076 )
+)
+game (
 	name "Skyhammer (Songbird Productions)[CF3001]"
 	description "Skyhammer (Songbird Productions)[CF3001]"
 	releaseyear "2000"
@@ -1122,13 +1158,43 @@ game (
 	name "Slam Racer (Sinister Developments) (Proto)"
 	description "Slam Racer (Sinister Developments) (Proto)"
 	releaseyear "1996"
-	rom ( name "Slam Racer (1996)(Sinister Developments)(proto).j64" size 4194304 crc E25FEC7C md5 0E71976A7CDA7DE311621DF209DEB4D5 sha1 FE66FFDC9323CFCFC64DA06E16F2D5A4A4E1A236 )
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto).j64" size 2097152 crc EF21492D md5 CB09A40F887904F422CA0407CC8EC842 sha1 FC367736CAA9540BBAFE577422C98D5458C2D95C )
+)
+game (
+	name "Slam Racer (Sinister Developments) (Proto)"
+	description "Slam Racer (Sinister Developments) (Proto)"
+	releaseyear "1996"
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto).jag" size 1809163 crc FBDEDA89 md5 74304C8124571AB4077B33211720B248 sha1 B867B754D36ADC8CA23904EB34F0192B3A5C8B0A )
 )
 game (
 	name "Slam Racer (Sinister Developments) (Proto)"
 	description "Slam Racer (Sinister Developments) (Proto)"
 	releaseyear "1996"
 	rom ( name "Slam Racer (1996)(Sinister Developments)(proto).rom" size 4186112 crc F0E2E569 md5 2E43619BB54E43C3ACDD63F4A86C79CD sha1 87F5181775E4ED0DBAF596EE88C5C1D3C98E8C29 )
+)
+game (
+	name "Slam Racer (Sinister Developments) (Proto) (Alt 1)"
+	description "Slam Racer (Sinister Developments) (Proto) (Alt 1)"
+	releaseyear "1996"
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto)[a].rom" size 2088960 crc C6089446 md5 EFB6E2A1ECE3D4940AA610F6DAC3F387 sha1 7840E56FB2E965AAF0131D0E7626D7B1AE63278E )
+)
+game (
+	name "Slam Racer (Sinister Developments) (Proto) (Alt 1)[earlier]"
+	description "Slam Racer (Sinister Developments) (Proto) (Alt 1)[earlier]"
+	releaseyear "1996"
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto)[a][earlier].rom" size 2088960 crc 1B4F5843 md5 0E50E2D70E33F1EE66D76558FB2875C0 sha1 2B04B471F1F021EF45CED6BDC6A0A6EBDBE8BB28 )
+)
+game (
+	name "Slam Racer (Sinister Developments) (Proto)[earlier]"
+	description "Slam Racer (Sinister Developments) (Proto)[earlier]"
+	releaseyear "1996"
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto)[earlier].j64" size 2097152 crc E3FDC8FF md5 8E245A0F377706E7DB9686F9E8EFD1E8 sha1 FA414A7336C970CB19788E0F34764AD07DE520F0 )
+)
+game (
+	name "Slam Racer (Sinister Developments) (Proto)[o]"
+	description "Slam Racer (Sinister Developments) (Proto)[o]"
+	releaseyear "1996"
+	rom ( name "Slam Racer (1996)(Sinister Developments)(proto)[o].j64" size 4194304 crc E25FEC7C md5 0E71976A7CDA7DE311621DF209DEB4D5 sha1 FE66FFDC9323CFCFC64DA06E16F2D5A4A4E1A236 )
 )
 game (
 	name "Soccer Kid (Beta)"
@@ -1182,6 +1248,18 @@ game (
 	description "Space War 2000 (B&C Computervisions)"
 	releaseyear "2001"
 	rom ( name "Space War 2000 (2001)(B&C Computervisions).rom" size 2088960 crc 20936557 md5 C9CDE67AAD343469DF9FB1BFC0405408 sha1 EDFDA6A64B29659CA94BB8A80749BDF00FAA9868 )
+)
+game (
+	name "Speedster II (Carousel International) (USA) (Proto)"
+	description "Speedster II (Carousel International) (USA) (Proto)"
+	region "USA"
+	rom ( name "Speedster II (199x)(Carousel International)(US)(proto).j64" size 2097152 crc F7CFE6E6 md5 1B01E8EBFCF63A296DAEAE0C67D12CDD sha1 508692E1B9BB57CDEC35BB95829B23E49D6EC17E )
+)
+game (
+	name "Speedster II (Carousel International) (USA) (Proto)"
+	description "Speedster II (Carousel International) (USA) (Proto)"
+	region "USA"
+	rom ( name "Speedster II (199x)(Carousel International)(US)(proto).rom" size 2088960 crc 68BF2395 md5 0146CBF5AD32B2A4F83BCCBA22D1AA5C sha1 854418B8B805DF54A9A2CFB37D59B0CD08AF6D6C )
 )
 game (
 	name "Super Burnout (Atari)"
@@ -1366,9 +1444,22 @@ game (
 	rom ( name "Troy Aikman NFL Football (1995)(Atari).rom" size 2088960 crc 33328474 md5 9DB7DD4A07D76DD094D461F1B07DD9D7 sha1 C7E5FDF6BDD8ABD0EB344409913A1C543B45C004 )
 )
 game (
-	name "Ultimate Brain Games (Crazy Ace)[unreleased]"
-	description "Ultimate Brain Games (Crazy Ace)[unreleased]"
-	rom ( name "Ultimate Brain Games (199x)(Crazy Ace)[unreleased].j64" size 2097152 crc 9AAF8EFD md5 449C50414DE5875B938780D0EF0B9869 sha1 B0026E73787C7A901F0B7E71418ACDAF54981D17 )
+	name "Ultimate Brain Games (Telegames) (Proto)"
+	description "Ultimate Brain Games (Telegames) (Proto)"
+	releaseyear "1995"
+	rom ( name "Ultimate Brain Games (1995)(Telegames)(proto).j64" size 2097152 crc 8FB54827 md5 D2E607CA59070C89B500D5F2A29C4F69 sha1 81294BE39297D0BAD85553510974DF6465557FB8 )
+)
+game (
+	name "Ultimate Brain Games (Telegames) (Proto)"
+	description "Ultimate Brain Games (Telegames) (Proto)"
+	releaseyear "1995"
+	rom ( name "Ultimate Brain Games (1995)(Telegames)(proto).rom" size 2088960 crc 7707D89B md5 831FB15912DF665502C1BD260818F547 sha1 98C74F8998C6148109F17CEC037AD815EE1388C3 )
+)
+game (
+	name "Ultimate Brain Games (Telegames)[unreleased]"
+	description "Ultimate Brain Games (Telegames)[unreleased]"
+	releaseyear "1995"
+	rom ( name "Ultimate Brain Games (1995)(Telegames)[unreleased].j64" size 2097152 crc 9AAF8EFD md5 449C50414DE5875B938780D0EF0B9869 sha1 B0026E73787C7A901F0B7E71418ACDAF54981D17 )
 )
 game (
 	name "Ultra Vortek (Atari)"
@@ -1409,16 +1500,6 @@ game (
 	description "Val D'Isere Skiing & Snowboarding (Atari)"
 	releaseyear "1994"
 	rom ( name "Val D'Isere Skiing & Snowboarding (1994)(Atari).rom" size 2088960 crc 194AE39E md5 D431E38BFBE341D45A67AC5C28A6EDC3 sha1 1E0ACA82FE8A41E2444D28CFA2AF5CD1D05B1AE4 )
-)
-game (
-	name "Viewgif (-) (PD)"
-	description "Viewgif (-) (PD)"
-	rom ( name "Viewgif (19xx)(-)(PD).bin" size 48576 crc 3BD93EA0 md5 FAA64477BF77022ED157F94F92CC6B8D sha1 6FFE93FD783F1E9FC2B14566E46E8CF8FB9C9085 )
-)
-game (
-	name "Viewgif 2 (-) (PD)"
-	description "Viewgif 2 (-) (PD)"
-	rom ( name "Viewgif 2 (19xx)(-)(PD).bin" size 48608 crc 49D03407 md5 38897C781B4FA6155E8271925497140E sha1 B1CB2379916AD43708CA8268E921563F68A2A303 )
 )
 game (
 	name "Virtual VCS (TSD) (Proto)"
@@ -1479,6 +1560,18 @@ game (
 	description "Zero 5 (Caspian Software) (Proto)"
 	releaseyear "1996"
 	rom ( name "Zero 5 (1996)(Caspian Software)(proto).rom" size 4186112 crc 9046BD72 md5 FF6B832951E21254374FBC63AD81136E sha1 C11E3CA1C0BEEB27ED0B05612E567F29E2C3F2DB )
+)
+game (
+	name "Zero 5 (Telegames) (EU-US) (Proto)"
+	description "Zero 5 (Telegames) (EU-US) (Proto)"
+	releaseyear "1997"
+	rom ( name "Zero 5 (1997)(Telegames)(EU-US)(proto).j64" size 2097152 crc 691B54BA md5 E88A3CAAF636CE00171C41D46B31D19D sha1 092AAEF3226F026B00A4140D998E820A67E986C1 )
+)
+game (
+	name "Zero 5 (Telegames) (EU-US) (Proto)"
+	description "Zero 5 (Telegames) (EU-US) (Proto)"
+	releaseyear "1997"
+	rom ( name "Zero 5 (1997)(Telegames)(EU-US)(proto).rom" size 2088960 crc 91A9C406 md5 61C0D821C09C472C63DCB70DCACD361C sha1 10C4A7A6618AD187275E111C6CA02311F5542139 )
 )
 game (
 	name "Zero 5 (Telegames)[J4011]"
