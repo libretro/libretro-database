@@ -1,7 +1,7 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2024.01.28"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -266,6 +266,12 @@ game (
 	region "Japan"
 	serial "FZ-SJ3251"
 	rom ( name "Belzerion (Japan).bin" size 602817600 crc 89F29880 md5 EC792777DD212200533EAD9DB528FDF1 sha1 C0779FA4BA435E7A54E97293E391DF3A827BF955 serial "FZ-SJ3251" )
+)
+game (
+	name "BioFury (USA) (Unl)"
+	description "BioFury (USA) (Unl)"
+	region "USA"
+	rom ( name "BioFury (USA) (Unl).bin" size 90617856 crc E92FB4B2 md5 A697869949355D227D4F5478416403D8 sha1 74FA5590DB898474C638DD32EEE55CDC293E7570 )
 )
 game (
 	name "Blade Force (Europe)"
@@ -1588,13 +1594,6 @@ game (
 	rom ( name "Hitchcock ni Chousen (Japan).bin" size 64181376 crc A96654EC md5 C9B0656C70D374468C36C4EC46479E52 sha1 585D88392364F03C565C44372BEE0FE4725CF067 serial "PT-1" )
 )
 game (
-	name "Horde, The (Europe)"
-	description "Horde, The (Europe)"
-	region "Europe"
-	serial "GDT-GA061"
-	rom ( name "Horde, The (Europe).bin" size 771060864 crc E66FAB4C md5 320105B6497462C7BB527CADF7E72E35 sha1 9078FCAE9A9FDFB1C3D0812381BF4B2D9FB98B04 serial "GDT-GA061" )
-)
-game (
 	name "Horde, The (Japan)"
 	description "Horde, The (Japan)"
 	region "Japan"
@@ -1612,6 +1611,18 @@ game (
 	description "Horde, The (USA) (RCB)"
 	region "USA"
 	rom ( name "Horde, The (USA) (RCB).bin" size 771408960 crc 94F43728 md5 9A805700122558A936DC8E21D524A08E sha1 FFBAD229E50EAF620EB80C9D1DD7A730E95F9D25 )
+)
+game (
+	name "Horde, The (World)"
+	description "Horde, The (World)"
+	serial "61030-C-RCB"
+	rom ( name "Horde, The (World).bin" size 771060864 crc E66FAB4C md5 320105B6497462C7BB527CADF7E72E35 sha1 9078FCAE9A9FDFB1C3D0812381BF4B2D9FB98B04 serial "61030-C-RCB" )
+)
+game (
+	name "Horde, The (World)"
+	description "Horde, The (World)"
+	serial "GDT-GA061"
+	rom ( name "Horde, The (World).bin" size 771060864 crc E66FAB4C md5 320105B6497462C7BB527CADF7E72E35 sha1 9078FCAE9A9FDFB1C3D0812381BF4B2D9FB98B04 serial "GDT-GA061" )
 )
 game (
 	name "Icebreaker (USA)"
@@ -2396,16 +2407,14 @@ game (
 	rom ( name "Night Trap (Japan) (Disc 2).bin" size 636098400 crc EAA73C23 md5 38F2E5386278D068E51DBADC21F4EEA8 sha1 E022AAFBD6119C3C42D5F0FEA43446DFB266FC86 serial "FZ-SJ1951-1" )
 )
 game (
-	name "Night Trap (USA) (Disc 1)"
-	description "Night Trap (USA) (Disc 1)"
-	region "USA"
-	rom ( name "Night Trap (USA) (Disc 1).bin" size 776870304 crc FC54F01D md5 E767867345AEAC8945CD535B35FA48FC sha1 DCC03E5E0315B3C2998D6F96683D08B0CB7770FE )
+	name "Night Trap (USA, Europe) (Disc 1)"
+	description "Night Trap (USA, Europe) (Disc 1)"
+	rom ( name "Night Trap (USA, Europe) (Disc 1).bin" size 776870304 crc FC54F01D md5 E767867345AEAC8945CD535B35FA48FC sha1 DCC03E5E0315B3C2998D6F96683D08B0CB7770FE )
 )
 game (
-	name "Night Trap (USA) (Disc 2)"
-	description "Night Trap (USA) (Disc 2)"
-	region "USA"
-	rom ( name "Night Trap (USA) (Disc 2).bin" size 631723680 crc 01E1DAAC md5 97D9EFF74133DF1F38A69F95168BA378 sha1 1843C6997542F7E6E4CE69202EF3DEFA55A3CF6F )
+	name "Night Trap (USA, Europe) (Disc 2)"
+	description "Night Trap (USA, Europe) (Disc 2)"
+	rom ( name "Night Trap (USA, Europe) (Disc 2).bin" size 631723680 crc 01E1DAAC md5 97D9EFF74133DF1F38A69F95168BA378 sha1 1843C6997542F7E6E4CE69202EF3DEFA55A3CF6F )
 )
 game (
 	name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 1)"

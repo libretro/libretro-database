@@ -1,57 +1,171 @@
 clrmamepro (
 	name "Atari - 7800"
 	description "Atari - 7800"
-	version "2024.01.28"
+	version "2024.05.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
-	name "32 in 1 (Australia)"
-	description "32 in 1 (Australia)"
-	region "Australia"
-	rom ( name "32 in 1 (Australia).a78" size 65536 crc EAEF28EA md5 291BCDB05F2B37CDF9452D2BF08E0321 sha1 97FFC252438A5C9361096A1151BDBF79BD717CB3 )
+	name "1942 (Extended) (World) (Aftermarket) (Unl)"
+	description "1942 (Extended) (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (Extended) (World) (Aftermarket) (Unl).a78" size 262272 crc C87F030C md5 BEE92404D49C2136188B296680509874 sha1 EAACB56BBCC5E534C12F45DE3012681C4749511B )
+)
+game (
+	name "1942 (Extended) (World) (Aftermarket) (Unl)"
+	description "1942 (Extended) (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (Extended) (World) (Aftermarket) (Unl).bin" size 262144 crc 98328E15 md5 0FEC9C1F5973C7A1DC55318EC97D8D17 sha1 DBCFBF95D4C62D29F4D4838AC2E0AA959BB2F349 )
+)
+game (
+	name "1942 (Small) (World) (Aftermarket) (Unl)"
+	description "1942 (Small) (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (Small) (World) (Aftermarket) (Unl).a78" size 131200 crc F8A336F7 md5 2C709A3D4A4C10582AE9BEAA544AB748 sha1 934AA6BD79B6AA957DA2EE3B97DC3C8AD2849530 )
+)
+game (
+	name "1942 (Small) (World) (Aftermarket) (Unl)"
+	description "1942 (Small) (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (Small) (World) (Aftermarket) (Unl).bin" size 131072 crc 75E09FF6 md5 0430094AD660D9900A8489C936FA2F20 sha1 90763D46CF73DC145103904B1A5FB7BE57CD091A )
+)
+game (
+	name "1942 (World) (Aftermarket) (Unl)"
+	description "1942 (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (World) (Aftermarket) (Unl).a78" size 262272 crc C44CD08A md5 9C1AC6C8A85B4787D4C521189485FA98 sha1 C7D22ECDCD7F86B1F114D769CD053C568188BDA9 )
+)
+game (
+	name "1942 (World) (Aftermarket) (Unl)"
+	description "1942 (World) (Aftermarket) (Unl)"
+	rom ( name "1942 (World) (Aftermarket) (Unl).bin" size 262144 crc F9E37618 md5 FD9353D42CCA5F81FE7AF866592B94C3 sha1 FF87C796E86D7E0FD29455C44C1F3F4F3AFF2BC2 )
+)
+game (
+	name "2048 (World) (Aftermarket) (Unl)"
+	description "2048 (World) (Aftermarket) (Unl)"
+	rom ( name "2048 (World) (Aftermarket) (Unl).a78" size 49280 crc 118EA84D md5 A43AE0A26441FF804A9FBAF094A3533D sha1 99ED61F87BAD6E119C1EF69099E4C348B3BBF143 )
+)
+game (
+	name "2048 (World) (Aftermarket) (Unl)"
+	description "2048 (World) (Aftermarket) (Unl)"
+	rom ( name "2048 (World) (Aftermarket) (Unl).bin" size 49152 crc 7432A34A md5 6F157F421C7ED5D952B393122D37915E sha1 2036B24140427B44EA4FEC6E85410E986292E014 )
 )
 game (
 	name "Ace of Aces (Europe)"
 	description "Ace of Aces (Europe)"
 	region "Europe"
-	rom ( name "Ace of Aces (Europe).a78" size 131072 crc 20C5DB80 md5 AADDE920B3AABA03BC10B40BD0619C94 sha1 C43249BA2D38441461E5FFE07AD2E0B46AB1C6DF )
+	rom ( name "Ace of Aces (Europe).bin" size 131072 crc 20C5DB80 md5 AADDE920B3AABA03BC10B40BD0619C94 sha1 C43249BA2D38441461E5FFE07AD2E0B46AB1C6DF )
 )
 game (
 	name "Ace of Aces (USA)"
 	description "Ace of Aces (USA)"
 	region "USA"
-	rom ( name "Ace of Aces (USA).a78" size 131072 crc 05A2B94C md5 0BE996D25144966D5541C9EB4919B289 sha1 EFD20BD321A81D67FB6430D9BA93D23FB90D8029 )
+	rom ( name "Ace of Aces (USA).bin" size 131072 crc 05A2B94C md5 0BE996D25144966D5541C9EB4919B289 sha1 EFD20BD321A81D67FB6430D9BA93D23FB90D8029 )
 )
 game (
 	name "Alien Brigade (Europe)"
 	description "Alien Brigade (Europe)"
 	region "Europe"
-	rom ( name "Alien Brigade (Europe).a78" size 147456 crc 6A19F0FE md5 DE3E9496CB7341F865F27E5A72C7F2F5 sha1 990711AE451D901A960AF8AD9AE70813F16257B1 )
+	rom ( name "Alien Brigade (Europe).bin" size 147456 crc 6A19F0FE md5 DE3E9496CB7341F865F27E5A72C7F2F5 sha1 990711AE451D901A960AF8AD9AE70813F16257B1 )
 )
 game (
 	name "Alien Brigade (USA)"
 	description "Alien Brigade (USA)"
 	region "USA"
-	rom ( name "Alien Brigade (USA).a78" size 147456 crc C8849D36 md5 877DCC97A775ED55081864B2DBF5F1E2 sha1 A8629FAC962CC20B263A60BB2D2386D605713387 )
+	rom ( name "Alien Brigade (USA).bin" size 147456 crc C8849D36 md5 877DCC97A775ED55081864B2DBF5F1E2 sha1 A8629FAC962CC20B263A60BB2D2386D605713387 )
+)
+game (
+	name "Alpha Race (World) (Aftermarket) (Unl)"
+	description "Alpha Race (World) (Aftermarket) (Unl)"
+	rom ( name "Alpha Race (World) (Aftermarket) (Unl).a78" size 32896 crc BDECCE7F md5 4D45FA7989BB3C026187E5650529DF54 sha1 D1BE28CA38864170558C671FDCBF7F2A091B34EF )
+)
+game (
+	name "Alpha Race (World) (Aftermarket) (Unl)"
+	description "Alpha Race (World) (Aftermarket) (Unl)"
+	rom ( name "Alpha Race (World) (Aftermarket) (Unl).bin" size 32768 crc DC81DDD0 md5 10FF87EBFEEC99858CC80293B0C1686E sha1 6963BB6AACDA0870209F9DC298E17C5803807F7F )
+)
+game (
+	name "Arkanoid (World) (Demo) (Aftermarket) (Unl)"
+	description "Arkanoid (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Arkanoid (World) (Demo) (Aftermarket) (Unl).a78" size 131200 crc 731BBE78 md5 1B33CEC8A5D762F50F3171871855C26E sha1 3B8926972EA3232B579F8799EEE26B07F5AFEF26 )
+)
+game (
+	name "Arkanoid (World) (Demo) (Aftermarket) (Unl)"
+	description "Arkanoid (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Arkanoid (World) (Demo) (Aftermarket) (Unl).bin" size 131072 crc 48E43794 md5 E1DA4C3EA0D26AE0A893741B49BE2274 sha1 C4530683CEBDC22FD39EF908EBAADDECE8F87D70 )
+)
+game (
+	name "Armor Attack II (World) (Aftermarket) (Unl)"
+	description "Armor Attack II (World) (Aftermarket) (Unl)"
+	rom ( name "Armor Attack II (World) (Aftermarket) (Unl).a78" size 16512 crc 680F6143 md5 87D641310F0CE3D6347D3D1D56E96404 sha1 A5893A6738580D7A0A8F3DC2D3600D424A79C8B0 )
+)
+game (
+	name "Armor Attack II (World) (Aftermarket) (Unl)"
+	description "Armor Attack II (World) (Aftermarket) (Unl)"
+	rom ( name "Armor Attack II (World) (Aftermarket) (Unl).bin" size 16384 crc 6CF67401 md5 EEA04359DF6770D66B0D97C2CEA1932F sha1 5921CD22A4D5790D7CC5FB3901CA8DC50D845CB9 )
 )
 game (
 	name "Asteroids (USA)"
 	description "Asteroids (USA)"
 	region "USA"
-	rom ( name "Asteroids (USA).a78" size 16384 crc DFB93F40 md5 07342C78619BA6FFCC61C10E907E3B50 sha1 D96EC4E043FCDACAB367D8A69D29904B3B2896F1 )
+	rom ( name "Asteroids (USA).bin" size 16384 crc DFB93F40 md5 07342C78619BA6FFCC61C10E907E3B50 sha1 D96EC4E043FCDACAB367D8A69D29904B3B2896F1 )
 )
 game (
 	name "Asteroids (USA) (Beta)"
 	description "Asteroids (USA) (Beta)"
 	region "USA"
-	rom ( name "Asteroids (USA) (Beta).a78" size 16384 crc 6DDFB54C md5 4332C24E4F3BC72E7FE1B77ADF66C2B7 sha1 85D9CE187497877005E991F2BF139D21034CCF9D )
+	rom ( name "Asteroids (USA) (Beta).bin" size 16384 crc 6DDFB54C md5 4332C24E4F3BC72E7FE1B77ADF66C2B7 sha1 85D9CE187497877005E991F2BF139D21034CCF9D )
+)
+game (
+	name "Asteroids Deluxe (World) (Aftermarket) (Unl)"
+	description "Asteroids Deluxe (World) (Aftermarket) (Unl)"
+	rom ( name "Asteroids Deluxe (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 6E9B0BD8 md5 245C582E77C6BE151B651EBB3DFC38C4 sha1 8EABD12465207566499C30DED9A6FDA8183DE546 )
+)
+game (
+	name "Asteroids Deluxe (World) (Aftermarket) (Unl)"
+	description "Asteroids Deluxe (World) (Aftermarket) (Unl)"
+	rom ( name "Asteroids Deluxe (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 56239D62 md5 A65F79AD4A0BBDECD59D5F7EB3623FD7 sha1 514FB53DCD8C47251FCBE5047BB2D9D13CCF6AEF )
+)
+game (
+	name "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl)"
+	description "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 93CA7C33 md5 6161241275A3A2470844B70CDDB75EC9 sha1 287D1032B1B8FB32682BB35BA12623D8D68978AF )
+)
+game (
+	name "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl)"
+	description "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Asteroids Deluxe (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc AB72EA89 md5 1BAF41DE200F26EC643625021290BEC2 sha1 341C7BE2823E69E95A61567CB79042C140278C4C )
+)
+game (
+	name "Astro Blaster (World) (Aftermarket) (Unl)"
+	description "Astro Blaster (World) (Aftermarket) (Unl)"
+	rom ( name "Astro Blaster (World) (Aftermarket) (Unl).a78" size 49280 crc BBB02D92 md5 2FCB54BB5837B01BB0D33FB734C263DA sha1 6E8668DF288619C468DD2DCE9E87E6AF8B74E794 )
+)
+game (
+	name "Astro Blaster (World) (Aftermarket) (Unl)"
+	description "Astro Blaster (World) (Aftermarket) (Unl)"
+	rom ( name "Astro Blaster (World) (Aftermarket) (Unl).bin" size 49152 crc FB86A5A0 md5 55FFE535897C368BE7A80D582F6A68CB sha1 093E0317ADC0A1ECBA5ECB689ADDF062D1746DB7 )
+)
+game (
+	name "Astro Fighter (World) (Aftermarket) (Unl)"
+	description "Astro Fighter (World) (Aftermarket) (Unl)"
+	rom ( name "Astro Fighter (World) (Aftermarket) (Unl).a78" size 32896 crc A6D77F38 md5 5B75DAE35D5822A33998EF3DDF69B4C0 sha1 6FFDE355256A75492D67259D5A5EDFF83D9A9046 )
+)
+game (
+	name "Astro Fighter (World) (Aftermarket) (Unl)"
+	description "Astro Fighter (World) (Aftermarket) (Unl)"
+	rom ( name "Astro Fighter (World) (Aftermarket) (Unl).bin" size 32768 crc C7133EA4 md5 B4BE9C25EA078608310F0DDC409E7CC1 sha1 EEAA4021B24A012720B3234D69704A4D6DF62F98 )
 )
 game (
 	name "Atari 7800 Development Card (USA)"
 	description "Atari 7800 Development Card (USA)"
 	region "USA"
-	rom ( name "Atari 7800 Development Card (USA).a78" size 16384 crc 3FBE74CE md5 0D9452D4DB4D1E1CF843F4F10605EB7D sha1 4DF3657F57E3086BEE26FB5C6EA946C509D08553 )
+	rom ( name "Atari 7800 Development Card (USA).bin" size 16384 crc 3FBE74CE md5 0D9452D4DB4D1E1CF843F4F10605EB7D sha1 4DF3657F57E3086BEE26FB5C6EA946C509D08553 )
+)
+game (
+	name "Atlas (World) (Aftermarket) (Unl)"
+	description "Atlas (World) (Aftermarket) (Unl)"
+	rom ( name "Atlas (World) (Aftermarket) (Unl).a78" size 32896 crc 41D5F6E5 md5 36AFD4AEF333DEA8C870E057B6B648F8 sha1 54F0B1EC68C6161131E68B442218CD2443CB1ED3 )
+)
+game (
+	name "Atlas (World) (Aftermarket) (Unl)"
+	description "Atlas (World) (Aftermarket) (Unl)"
+	rom ( name "Atlas (World) (Aftermarket) (Unl).bin" size 32768 crc 045FE06D md5 A6C02AE92D6937CB885F6909C0A8A2E1 sha1 2E4ED00EE4C52508DA12A6C8EE0BAC8722AEEF32 )
 )
 game (
 	name "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl)"
@@ -59,525 +173,1209 @@ game (
 	rom ( name "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl).a78" size 262272 crc C8B83C98 md5 6647AE6EBD3961EC0F15FC388BAA1077 sha1 AD90CFB70143E5C06D3B4300484895CE82FF9048 )
 )
 game (
+	name "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl)"
+	description "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Attack of the PETSCII Robots (World) (Demo) (Aftermarket) (Unl).bin" size 262144 crc 05F80334 md5 A1A0F95E7CF484DB26DF3CBD8A5415C4 sha1 2B2230E06E1822D8A3588F71699E2DA3DFE8CACD )
+)
+game (
+	name "Baby Pac-Man (World) (Beta) (Aftermarket) (Unl)"
+	description "Baby Pac-Man (World) (Beta) (Aftermarket) (Unl)"
+	releaseyear "2019"
+	releasemonth "02"
+	releaseday "09"
+	rom ( name "Baby Pac-Man (World) (2019-02-09) (Beta) (Aftermarket) (Unl).a78" size 49280 crc 4E07C0BC md5 1D10C83792C1C1A4707CD3F6AC20D1EA sha1 8443560FC1B1029800DAB7D9DC16702A7AB4E2A9 )
+)
+game (
+	name "Baby Pac-Man (World) (Beta) (Aftermarket) (Unl)"
+	description "Baby Pac-Man (World) (Beta) (Aftermarket) (Unl)"
+	releaseyear "2019"
+	releasemonth "02"
+	releaseday "09"
+	rom ( name "Baby Pac-Man (World) (2019-02-09) (Beta) (Aftermarket) (Unl).bin" size 49152 crc E2FDD6A9 md5 7CDFBE37634E7DCD4DC67DB7EDBCD3BA sha1 C4BC0B2F03942455105425663AA029D5F6C8D6C9 )
+)
+game (
+	name "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl)"
+	description "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl).a78" size 49280 crc E2B65B38 md5 5DDA1CED1BC1BC46BDACF3791D9BE50E sha1 F1D24D06642F08840E99B09A4D50594A09A7B8C2 )
+)
+game (
+	name "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl)"
+	description "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Baby Pac-Man (World) (Digital) (Aftermarket) (Unl).bin" size 49152 crc 4E4C4D2D md5 2B31DFAB41DCE110DD136FD06606E1CA sha1 4AF3C6B26FE465E9434FCE3D53A05AB29C7BC341 )
+)
+game (
 	name "Ballblazer (Europe)"
 	description "Ballblazer (Europe)"
 	region "Europe"
-	rom ( name "Ballblazer (Europe).a78" size 32768 crc AFF85565 md5 B558814D54904CE0582E2F6A801D03AF sha1 1AA1A508ADA1521AE1D373A6860681093E3F851C )
+	rom ( name "Ballblazer (Europe).bin" size 32768 crc AFF85565 md5 B558814D54904CE0582E2F6A801D03AF sha1 1AA1A508ADA1521AE1D373A6860681093E3F851C )
 )
 game (
 	name "Ballblazer (USA)"
 	description "Ballblazer (USA)"
 	region "USA"
-	rom ( name "Ballblazer (USA).a78" size 32768 crc A4C4808B md5 8FC3A695EAEA3984912D98ED4A543376 sha1 4EB5424360691A38B199D91A0E2C9095D0862DBE )
+	rom ( name "Ballblazer (USA).bin" size 32768 crc A4C4808B md5 8FC3A695EAEA3984912D98ED4A543376 sha1 4EB5424360691A38B199D91A0E2C9095D0862DBE )
 )
 game (
 	name "Barnyard Blaster (Europe)"
 	description "Barnyard Blaster (Europe)"
 	region "Europe"
-	rom ( name "Barnyard Blaster (Europe).a78" size 131072 crc 02764A86 md5 BABE2BC2976688BAFB8B23C192658126 sha1 A5797CF7E747BBD755C99FDE6936CAA15FBBA6B1 )
+	rom ( name "Barnyard Blaster (Europe).bin" size 131072 crc 02764A86 md5 BABE2BC2976688BAFB8B23C192658126 sha1 A5797CF7E747BBD755C99FDE6936CAA15FBBA6B1 )
 )
 game (
 	name "Barnyard Blaster (USA)"
 	description "Barnyard Blaster (USA)"
 	region "USA"
-	rom ( name "Barnyard Blaster (USA).a78" size 131072 crc ED0A587D md5 42682415906C21C6AF80E4198403FFDA sha1 CBCDE3D85C8778DEA402394568677884CD781DE3 )
+	rom ( name "Barnyard Blaster (USA).bin" size 131072 crc ED0A587D md5 42682415906C21C6AF80E4198403FFDA sha1 CBCDE3D85C8778DEA402394568677884CD781DE3 )
 )
 game (
 	name "Baseball (Europe)"
 	description "Baseball (Europe)"
 	region "Europe"
-	rom ( name "Baseball (Europe).a78" size 32768 crc 68D48FDC md5 386BDED4A944BAE455FEDF56206DD1DD sha1 C44FE244206590ABC26FBBD520A5726353899E35 )
+	rom ( name "Baseball (Europe).bin" size 32768 crc 68D48FDC md5 386BDED4A944BAE455FEDF56206DD1DD sha1 C44FE244206590ABC26FBBD520A5726353899E35 )
 )
 game (
 	name "Basketbrawl (Europe)"
 	description "Basketbrawl (Europe)"
 	region "Europe"
-	rom ( name "Basketbrawl (Europe).a78" size 131072 crc A4265D4B md5 FBA002089FCFA176454AB507E0EB76CB sha1 E7EF6B11BB6836FF7D11A25F8D4E2C9361FA69B3 )
+	rom ( name "Basketbrawl (Europe).bin" size 131072 crc A4265D4B md5 FBA002089FCFA176454AB507E0EB76CB sha1 E7EF6B11BB6836FF7D11A25F8D4E2C9361FA69B3 )
 )
 game (
 	name "Basketbrawl (USA)"
 	description "Basketbrawl (USA)"
 	region "USA"
-	rom ( name "Basketbrawl (USA).a78" size 131072 crc C8B9D7B5 md5 F5F6B69C5EB4B55FC163158D1A6B423E sha1 39877A4C88498BF6656451E3D1ACAF7E8638BDFD )
+	rom ( name "Basketbrawl (USA).bin" size 131072 crc C8B9D7B5 md5 F5F6B69C5EB4B55FC163158D1A6B423E sha1 39877A4C88498BF6656451E3D1ACAF7E8638BDFD )
+)
+game (
+	name "Bentley Bear's Crystal Quest (World) (Aftermarket) (Unl)"
+	description "Bentley Bear's Crystal Quest (World) (Aftermarket) (Unl)"
+	rom ( name "Bentley Bear's Crystal Quest (World) (NTSC) (Aftermarket) (Unl).a78" size 147584 crc 0C7355D4 md5 164F7319240747BAFCABEF6B45CA0D87 sha1 992D0DB39826EE844541A95C27507BE8522ACFE0 )
+)
+game (
+	name "Bentley Bear's Crystal Quest (World) (Aftermarket) (Unl)"
+	description "Bentley Bear's Crystal Quest (World) (Aftermarket) (Unl)"
+	rom ( name "Bentley Bear's Crystal Quest (World) (NTSC) (Aftermarket) (Unl).bin" size 147456 crc D44622B3 md5 34483432B92F565F4CED82A141119164 sha1 4A850D4B97BEA621E9B6DF142AFEEC8B398D6D6C )
+)
+game (
+	name "Boom! (World) (Demo) (Aftermarket) (Unl)"
+	description "Boom! (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Boom! (World) (Demo) (Aftermarket) (Unl).a78" size 49280 crc 93432FC4 md5 4A726BE7D1537DA1CFA8CA8C273BCFE1 sha1 6BFFF60E9DF8609A2FD3326D0FC4DE4AFEC269C5 )
+)
+game (
+	name "Boom! (World) (Demo) (Aftermarket) (Unl)"
+	description "Boom! (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Boom! (World) (Demo) (Aftermarket) (Unl).bin" size 49152 crc DBD45794 md5 4A8A22CFF154F479F1DDAA386F21FC39 sha1 FF58FE9985619CA83DD60446442E14F3AA5ED088 )
+)
+game (
+	name "Cartesian Chaos (World) (Aftermarket) (Unl)"
+	description "Cartesian Chaos (World) (Aftermarket) (Unl)"
+	rom ( name "Cartesian Chaos (World) (Aftermarket) (Unl).a78" size 32896 crc 29A44422 md5 313F715318F0163385CFAA028F52389B sha1 0C10DAF78C985E5A3C9CC660104E806CFC28C1DE )
+)
+game (
+	name "Cartesian Chaos (World) (Aftermarket) (Unl)"
+	description "Cartesian Chaos (World) (Aftermarket) (Unl)"
+	rom ( name "Cartesian Chaos (World) (Aftermarket) (Unl).bin" size 32768 crc 56CC4AA6 md5 825C03C049306C16BD654D9D0E344CF3 sha1 4407C39D2DE6EF0E71312F314D5C4A085282F733 )
 )
 game (
 	name "Centipede (Europe)"
 	description "Centipede (Europe)"
 	region "Europe"
-	rom ( name "Centipede (Europe).a78" size 16384 crc 33F8A8F6 md5 38C056A48472D9A9E16EBDA5ED91DAE7 sha1 323F9FC4FDE9AA6FCBAAC8AE300AAA06BAFA745A )
+	rom ( name "Centipede (Europe).bin" size 16384 crc 33F8A8F6 md5 38C056A48472D9A9E16EBDA5ED91DAE7 sha1 323F9FC4FDE9AA6FCBAAC8AE300AAA06BAFA745A )
 )
 game (
 	name "Centipede (USA)"
 	description "Centipede (USA)"
 	region "USA"
-	rom ( name "Centipede (USA).a78" size 16384 crc 020EFE25 md5 5A09946E57DBE30408A8F253A28D07DB sha1 C8377AD7FB6AFEC5C88C14A23A68E2ECEBBA4E5A )
+	rom ( name "Centipede (USA).bin" size 16384 crc 020EFE25 md5 5A09946E57DBE30408A8F253A28D07DB sha1 C8377AD7FB6AFEC5C88C14A23A68E2ECEBBA4E5A )
 )
 game (
 	name "Choplifter! (Europe)"
 	description "Choplifter! (Europe)"
 	region "Europe"
-	rom ( name "Choplifter! (Europe).a78" size 49152 crc 12EFEB07 md5 59D4EDB0230B5ACC918B94F6BC94779F sha1 F2FE1C82E5B333F4C59F76A28A9D379228596D89 )
+	rom ( name "Choplifter! (Europe).bin" size 49152 crc 12EFEB07 md5 59D4EDB0230B5ACC918B94F6BC94779F sha1 F2FE1C82E5B333F4C59F76A28A9D379228596D89 )
 )
 game (
 	name "Choplifter! (USA)"
 	description "Choplifter! (USA)"
 	region "USA"
-	rom ( name "Choplifter! (USA).a78" size 32768 crc 419BFF61 md5 93E4387864B014C155D7C17877990D1E sha1 6DF15E73494D0A498DD044753A27544214210B14 )
+	rom ( name "Choplifter! (USA).bin" size 32768 crc 419BFF61 md5 93E4387864B014C155D7C17877990D1E sha1 6DF15E73494D0A498DD044753A27544214210B14 )
 )
 game (
 	name "Commando (Europe)"
 	description "Commando (Europe)"
 	region "Europe"
-	rom ( name "Commando (Europe).a78" size 131072 crc 7C211612 md5 55DA6C6C3974D013F517E725AA60F48E sha1 2BDAD24967FE4F5492AE294B1CCF8F148930A419 )
+	rom ( name "Commando (Europe).bin" size 131072 crc 7C211612 md5 55DA6C6C3974D013F517E725AA60F48E sha1 2BDAD24967FE4F5492AE294B1CCF8F148930A419 )
 )
 game (
 	name "Commando (USA)"
 	description "Commando (USA)"
 	region "USA"
-	rom ( name "Commando (USA).a78" size 131072 crc CD1A98C5 md5 2E8E28F6AD8B9B9267D518D880C73EBB sha1 F8AE7DA650AD38675B81675B77096794A9CD52E8 )
+	rom ( name "Commando (USA).bin" size 131072 crc CD1A98C5 md5 2E8E28F6AD8B9B9267D518D880C73EBB sha1 F8AE7DA650AD38675B81675B77096794A9CD52E8 )
 )
 game (
 	name "Crack'ed (Europe)"
 	description "Crack'ed (Europe)"
 	region "Europe"
-	rom ( name "Crack'ed (Europe).a78" size 131072 crc 50FD19CB md5 7CBE78FA06F47BA6516A67A4B003C9EE sha1 0C1A7806E431EFBF0C826A11B92D74EB45E08661 )
+	rom ( name "Crack'ed (Europe).bin" size 131072 crc 50FD19CB md5 7CBE78FA06F47BA6516A67A4B003C9EE sha1 0C1A7806E431EFBF0C826A11B92D74EB45E08661 )
 )
 game (
 	name "Crack'ed (USA)"
 	description "Crack'ed (USA)"
 	region "USA"
-	rom ( name "Crack'ed (USA).a78" size 131072 crc E645FD1F md5 DB691469128D9A4217EC7E315930B646 sha1 664D267D1245D5698CBF6FF0622EE0D629DA3A11 )
+	rom ( name "Crack'ed (USA).bin" size 131072 crc E645FD1F md5 DB691469128D9A4217EC7E315930B646 sha1 664D267D1245D5698CBF6FF0622EE0D629DA3A11 )
+)
+game (
+	name "Crazy Bricks (World) (Aftermarket) (Unl)"
+	description "Crazy Bricks (World) (Aftermarket) (Unl)"
+	rom ( name "Crazy Bricks (World) (Aftermarket) (Unl).a78" size 16512 crc F8DAFBE6 md5 A73306EAF2A2A6F697F3E5AE05E7280A sha1 1BE686CDE8C58755E18EFE27224F67DB43DD5CEB )
+)
+game (
+	name "Crazy Bricks (World) (Aftermarket) (Unl)"
+	description "Crazy Bricks (World) (Aftermarket) (Unl)"
+	rom ( name "Crazy Bricks (World) (Aftermarket) (Unl).bin" size 16384 crc 32A87B61 md5 299D31C8E181FDD011DF2014451BDF0F sha1 DBF5EF0EF31C44336A8527CA288488D5A6BFD6F3 )
 )
 game (
 	name "Crossbow (Europe)"
 	description "Crossbow (Europe)"
 	region "Europe"
-	rom ( name "Crossbow (Europe).a78" size 147456 crc E93D8894 md5 63DB371D67A98DAEC547B2ABD5E7AA95 sha1 F26D292210A91A714B4B87712FF53B8E49DA611E )
+	rom ( name "Crossbow (Europe).bin" size 147456 crc E93D8894 md5 63DB371D67A98DAEC547B2ABD5E7AA95 sha1 F26D292210A91A714B4B87712FF53B8E49DA611E )
 )
 game (
 	name "Crossbow (USA)"
 	description "Crossbow (USA)"
 	region "USA"
-	rom ( name "Crossbow (USA).a78" size 147456 crc D2EA5686 md5 A94E4560B6AD053A1C24E096F1262EBF sha1 D5E47DA88E232CD9EA059E133E7C0F13D921A04C )
+	rom ( name "Crossbow (USA).bin" size 147456 crc D2EA5686 md5 A94E4560B6AD053A1C24E096F1262EBF sha1 D5E47DA88E232CD9EA059E133E7C0F13D921A04C )
+)
+game (
+	name "Danger Zone (World) (Demo) (Aftermarket) (Unl)"
+	description "Danger Zone (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "12"
+	releaseday "31"
+	rom ( name "Danger Zone (World) (2020-12-31) (Demo) (Aftermarket) (Unl).a78" size 49280 crc 68BCAC26 md5 C10D05A225C8C5888104A372E98DF2AB sha1 4AB0E9CCF2870A320BF3362E5F56DEBFEEF979E9 )
+)
+game (
+	name "Danger Zone (World) (Demo) (Aftermarket) (Unl)"
+	description "Danger Zone (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "12"
+	releaseday "31"
+	rom ( name "Danger Zone (World) (2020-12-31) (Demo) (Aftermarket) (Unl).bin" size 49152 crc 77E52797 md5 0C2F248A1AE9BFD14B1BCC1BD9F3A41E sha1 8B34D1E7CED8BFEDAD12D7B343A556EB21CC96EA )
 )
 game (
 	name "Dark Chambers (Europe)"
 	description "Dark Chambers (Europe)"
 	region "Europe"
-	rom ( name "Dark Chambers (Europe).a78" size 131072 crc C93A563E md5 A2B8E2F159642C4B91DE82E9A2928494 sha1 2B888C95B31109FFD0441F586BA18F21A3A4F22E )
+	rom ( name "Dark Chambers (Europe).bin" size 131072 crc C93A563E md5 A2B8E2F159642C4B91DE82E9A2928494 sha1 2B888C95B31109FFD0441F586BA18F21A3A4F22E )
 )
 game (
 	name "Dark Chambers (USA)"
 	description "Dark Chambers (USA)"
 	region "USA"
-	rom ( name "Dark Chambers (USA).a78" size 131072 crc 366777F1 md5 179B76FF729D4849B8F66A502398ACAE sha1 848077F15114FEC31F8290BE2583566F4486FE65 )
+	rom ( name "Dark Chambers (USA).bin" size 131072 crc 366777F1 md5 179B76FF729D4849B8F66A502398ACAE sha1 848077F15114FEC31F8290BE2583566F4486FE65 )
+)
+game (
+	name "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl)"
+	description "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl)"
+	rom ( name "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl).a78" size 49280 crc 57ADCD6B md5 596297AF60645BF3DB97E4C78A21F526 sha1 E01C232F1C51AD1A7F15B0EC5ECC1A47271BC232 )
+)
+game (
+	name "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl)"
+	description "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl)"
+	rom ( name "DeathMerchant (World) (v1.30) (Digital) (Aftermarket) (Unl).bin" size 49152 crc DFE8E67A md5 FAB7B59DD580DCE0B28BE3E74A7B8433 sha1 15ACCD401A9C04F969BE8336932741B6537D4F3A )
 )
 game (
 	name "Desert Falcon (Europe)"
 	description "Desert Falcon (Europe)"
 	region "Europe"
-	rom ( name "Desert Falcon (Europe).a78" size 49152 crc 33991EE8 md5 2D5D99B993A885B063F9F22CE5E6523D sha1 185D104614E23699E074E850D5AB8C36A159071C )
+	rom ( name "Desert Falcon (Europe).bin" size 49152 crc 33991EE8 md5 2D5D99B993A885B063F9F22CE5E6523D sha1 185D104614E23699E074E850D5AB8C36A159071C )
 )
 game (
 	name "Desert Falcon (USA)"
 	description "Desert Falcon (USA)"
 	region "USA"
-	rom ( name "Desert Falcon (USA).a78" size 49152 crc A1DC0899 md5 95AC811C7D27AF0032BA090F28C107BD sha1 725F893F9A98926C627EF37EACC3F241620C3FFC )
+	rom ( name "Desert Falcon (USA).bin" size 49152 crc A1DC0899 md5 95AC811C7D27AF0032BA090F28C107BD sha1 725F893F9A98926C627EF37EACC3F241620C3FFC )
+)
+game (
+	name "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl)"
+	description "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl)"
+	rom ( name "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl).a78" size 32896 crc 48546B5C md5 0CB52DF4E9B2B1D5FC07D985152CB5C8 sha1 F8E659862D26E0895215DFDBD40D5F8B324D3AC4 )
+)
+game (
+	name "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl)"
+	description "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl)"
+	rom ( name "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl).bin" size 32768 crc 82A8141D md5 1B1A9D0676AF86BC92DD0C5CEF1E1877 sha1 05B2BD7F82F4A7B7D33B65AF611595FDE8011D62 )
 )
 game (
 	name "Diagnostic Test Cartrige (USA)"
 	description "Diagnostic Test Cartrige (USA)"
 	region "USA"
-	rom ( name "Diagnostic Test Cartrige (USA).a78" size 32768 crc A1EAA7C1 md5 91041AADD1700A7A4076F4005F2C362F sha1 76EC76C423D88BDF739E673C051C5B9C174881C6 )
+	rom ( name "Diagnostic Test Cartrige (USA).bin" size 32768 crc A1EAA7C1 md5 91041AADD1700A7A4076F4005F2C362F sha1 76EC76C423D88BDF739E673C051C5B9C174881C6 )
 )
 game (
 	name "Diagnostic Test Cartrige (USA) (Beta)"
 	description "Diagnostic Test Cartrige (USA) (Beta)"
 	region "USA"
-	rom ( name "Diagnostic Test Cartrige (USA) (Beta).a78" size 16384 crc 729DD769 md5 6BFC9970B1A78E53653B650D3A833145 sha1 EA4DF28C6BEDC09F7013013F257C984AED9B5319 )
+	rom ( name "Diagnostic Test Cartrige (USA) (Beta).bin" size 16384 crc 729DD769 md5 6BFC9970B1A78E53653B650D3A833145 sha1 EA4DF28C6BEDC09F7013013F257C984AED9B5319 )
 )
 game (
 	name "Dig Dug (Europe)"
 	description "Dig Dug (Europe)"
 	region "Europe"
-	rom ( name "Dig Dug (Europe).a78" size 32768 crc EFAB7077 md5 408DCA9FC40E2B5D805F403FA0509436 sha1 CE05D3270B0E0D36D80A4F0731D0173CB5921BCE )
+	rom ( name "Dig Dug (Europe).bin" size 32768 crc EFAB7077 md5 408DCA9FC40E2B5D805F403FA0509436 sha1 CE05D3270B0E0D36D80A4F0731D0173CB5921BCE )
 )
 game (
 	name "Dig Dug (USA)"
 	description "Dig Dug (USA)"
 	region "USA"
-	rom ( name "Dig Dug (USA).a78" size 16384 crc 50CB13F3 md5 731879EA82FC0CA245E39E036FE293E6 sha1 19CEE8DC40FABD7022BEDC27E4896C09E3CADFDD )
+	rom ( name "Dig Dug (USA).bin" size 16384 crc 50CB13F3 md5 731879EA82FC0CA245E39E036FE293E6 sha1 19CEE8DC40FABD7022BEDC27E4896C09E3CADFDD )
 )
 game (
 	name "Donkey Kong (Europe)"
 	description "Donkey Kong (Europe)"
 	region "Europe"
-	rom ( name "Donkey Kong (Europe).a78" size 49152 crc 0A43D1C5 md5 8E96EF14CE9B5D84BCBC996B66D6D4C7 sha1 DC69FA8FDF3FCBA8557195358B8D206463652E0F )
+	rom ( name "Donkey Kong (Europe).bin" size 49152 crc 0A43D1C5 md5 8E96EF14CE9B5D84BCBC996B66D6D4C7 sha1 DC69FA8FDF3FCBA8557195358B8D206463652E0F )
 )
 game (
 	name "Donkey Kong (USA)"
 	description "Donkey Kong (USA)"
 	region "USA"
-	rom ( name "Donkey Kong (USA).a78" size 49152 crc 065E063F md5 19F1EE292A23636BD57D408B62DE79C7 sha1 820C852CAA7957179BF7D6FAF2E6922DDE5A1A8E )
+	rom ( name "Donkey Kong (USA).bin" size 49152 crc 065E063F md5 19F1EE292A23636BD57D408B62DE79C7 sha1 820C852CAA7957179BF7D6FAF2E6922DDE5A1A8E )
 )
 game (
 	name "Donkey Kong Junior (Europe)"
 	description "Donkey Kong Junior (Europe)"
 	region "Europe"
-	rom ( name "Donkey Kong Junior (Europe).a78" size 49152 crc C784DBAC md5 4DC5F88243250461BD61053B13777060 sha1 2626A9CD3326B8CE0EE0E834E17A0EEDAE005669 )
+	rom ( name "Donkey Kong Junior (Europe).bin" size 49152 crc C784DBAC md5 4DC5F88243250461BD61053B13777060 sha1 2626A9CD3326B8CE0EE0E834E17A0EEDAE005669 )
 )
 game (
 	name "Donkey Kong Junior (USA)"
 	description "Donkey Kong Junior (USA)"
 	region "USA"
-	rom ( name "Donkey Kong Junior (USA).a78" size 49152 crc 1C5A1082 md5 5E332FBFC1E0FC74223D2E73271CE650 sha1 E9392259FFF682FCC3476009771A3CFD7D5BDB6D )
+	rom ( name "Donkey Kong Junior (USA).bin" size 49152 crc 1C5A1082 md5 5E332FBFC1E0FC74223D2E73271CE650 sha1 E9392259FFF682FCC3476009771A3CFD7D5BDB6D )
+)
+game (
+	name "Donkey Kong XM (World) (Demo) (Aftermarket) (Unl)"
+	description "Donkey Kong XM (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Donkey Kong XM (World) (Demo) (NTSC) (Aftermarket) (Unl).a78" size 147584 crc 92F3246E md5 3EFA789CEEFCBD3C1D5853B5B4155D7F sha1 D5AF680A586DC0C827852F17343403374D01A9B7 )
+)
+game (
+	name "Donkey Kong XM (World) (Demo) (Aftermarket) (Unl)"
+	description "Donkey Kong XM (World) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Donkey Kong XM (World) (Demo) (NTSC) (Aftermarket) (Unl).bin" size 147456 crc 2C67FEA7 md5 C3107D3E3E17D67E3A11D47A5946A4F3 sha1 7825C1946E3C7492FA9BBFAE33029CD68C0D1135 )
+)
+game (
+	name "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl)"
+	description "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl).a78" size 147584 crc 4AD2FE4E md5 2D22FF441AE39F7C202240752571A155 sha1 0F1FF65C8905813C49A3D6A94AAF846D71BF9B94 )
+)
+game (
+	name "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl)"
+	description "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Donkey Kong XM (World) (Demo) (PAL) (Aftermarket) (Unl).bin" size 147456 crc 6510B674 md5 8CAA29A8D9214CA02697B3357102309A sha1 65B723B470D287AF51E9888813149C43FB11AC26 )
 )
 game (
 	name "Double Dragon (Europe)"
 	description "Double Dragon (Europe)"
 	region "Europe"
-	rom ( name "Double Dragon (Europe).a78" size 131072 crc F29ABDB2 md5 DE2EBAFCF0E37AAA9D0E9525A7F4DD62 sha1 210F3AC989549E89425E7677127715AEE713AF32 )
+	rom ( name "Double Dragon (Europe).bin" size 131072 crc F29ABDB2 md5 DE2EBAFCF0E37AAA9D0E9525A7F4DD62 sha1 210F3AC989549E89425E7677127715AEE713AF32 )
 )
 game (
 	name "Double Dragon (USA)"
 	description "Double Dragon (USA)"
 	region "USA"
-	rom ( name "Double Dragon (USA).a78" size 131072 crc AA265865 md5 543484C00BA233736BCABA2DA20EEEA9 sha1 C3FB140836A4ED84CDA7A999832703E8B72C0D21 )
+	rom ( name "Double Dragon (USA).bin" size 131072 crc AA265865 md5 543484C00BA233736BCABA2DA20EEEA9 sha1 C3FB140836A4ED84CDA7A999832703E8B72C0D21 )
+)
+game (
+	name "Dragon's Cache (World) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "10"
+	releaseday "24"
+	rom ( name "Dragon's Cache (World) (2020-10-24) (Aftermarket) (Unl).a78" size 49280 crc 633DAED1 md5 B514FFE98587CAAEC7E0492F1AEEE7F3 sha1 A9BABAA6E3D0C64726FEA773A6045B1F33582A0C )
+)
+game (
+	name "Dragon's Cache (World) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "10"
+	releaseday "24"
+	rom ( name "Dragon's Cache (World) (2020-10-24) (Aftermarket) (Unl).bin" size 49152 crc 4E6270B8 md5 E3CDB632FFCE5EC97C3E889578ACA437 sha1 A20C97C7706F706CF7C3DA45DB575E4956A6CCD0 )
+)
+game (
+	name "Dragon's Cache (World) (BupSystem) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (BupSystem) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "10"
+	releaseday "24"
+	rom ( name "Dragon's Cache (World) (2020-10-24) (BupSystem) (Aftermarket) (Unl).a78" size 49280 crc FFD2AD35 md5 22B9444A24D6496BA2DAFDBB7F0F76FC sha1 27ED9B1D37CD30390864614264EEF5E53851FF61 )
+)
+game (
+	name "Dragon's Cache (World) (BupSystem) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (BupSystem) (Aftermarket) (Unl)"
+	releaseyear "2020"
+	releasemonth "10"
+	releaseday "24"
+	rom ( name "Dragon's Cache (World) (2020-10-24) (BupSystem) (Aftermarket) (Unl).bin" size 49152 crc D28D735C md5 9BCBA331599C03E6B91E69C6874768F8 sha1 F6B8A36F5D75C9D2C17136EF5F7EE852FC33213F )
+)
+game (
+	name "Dragon's Cache (World) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "02"
+	releaseday "07"
+	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).a78" size 49280 crc DC3C1D8F md5 6BDF0A2203F6BF3171110FD5BC9972E4 sha1 1DB233E2F339CC798938CEFDE1EBC2B3ECF249DF )
+)
+game (
+	name "Dragon's Cache (World) (Aftermarket) (Unl)"
+	description "Dragon's Cache (World) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "02"
+	releaseday "07"
+	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).bin" size 49152 crc F163C3E6 md5 7B7825CA2C79148F1C4ADE6BAACC1A76 sha1 631C1707667638664C6A819FBF9E5A75AC3E68B6 )
+)
+game (
+	name "Dragon's Descent (World) (Aftermarket) (Unl)"
+	description "Dragon's Descent (World) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "07"
+	releaseday "31"
+	rom ( name "Dragon's Descent (World) (2021-07-31) (Aftermarket) (Unl).a78" size 49280 crc B927352F md5 4ACBC51C91A2CCB8F350E32D7B4305B2 sha1 B4E17B54E7935BFE7C5AB499BC951865512EDE6D )
+)
+game (
+	name "Dragon's Descent (World) (Aftermarket) (Unl)"
+	description "Dragon's Descent (World) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "07"
+	releaseday "31"
+	rom ( name "Dragon's Descent (World) (2021-07-31) (Aftermarket) (Unl).bin" size 49152 crc 9478EB46 md5 77164DF89AE49B4DD72906A21E787233 sha1 5C56045FAB0F1F8BC7F8D22A01BEF542FA195309 )
+)
+game (
+	name "Dragon's Havoc (World) (Demo) (Aftermarket) (Unl)"
+	description "Dragon's Havoc (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "12"
+	releaseday "31"
+	rom ( name "Dragon's Havoc (World) (2022-12-31) (Demo) (Aftermarket) (Unl).a78" size 49280 crc 40585559 md5 721E3824A163F9445A67A2DFC4EE7B96 sha1 C32D2020791B66F3EDBB77771251949537D9A690 )
+)
+game (
+	name "Dragon's Havoc (World) (Demo) (Aftermarket) (Unl)"
+	description "Dragon's Havoc (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "12"
+	releaseday "31"
+	rom ( name "Dragon's Havoc (World) (2022-12-31) (Demo) (Aftermarket) (Unl).bin" size 49152 crc 25E45E5E md5 8C2798F929A43317F300D3CCBE25918E sha1 941FB0C790B231C08EAAD0CB809050526213F147 )
+)
+game (
+	name "Drelbs (World) (Aftermarket) (Unl)"
+	description "Drelbs (World) (Aftermarket) (Unl)"
+	rom ( name "Drelbs (World) (Aftermarket) (Unl).a78" size 32896 crc 1FB72164 md5 7E0C3ABE0A60F4C9C096255A45CCDB65 sha1 239C6D8797420C275048533C7955DCE3C7B735FA )
+)
+game (
+	name "Drelbs (World) (Aftermarket) (Unl)"
+	description "Drelbs (World) (Aftermarket) (Unl)"
+	rom ( name "Drelbs (World) (Aftermarket) (Unl).bin" size 32768 crc EE4CCE69 md5 E36725E9E8F3963A17E521A89DEA1A85 sha1 C4B0589369021FD0E861732611E7F2917C28DE18 )
+)
+game (
+	name "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl)"
+	description "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl)"
+	rom ( name "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl).a78" size 49280 crc 2BBF626F md5 EFF3EB9F14D93B128F2C52524E938218 sha1 EBB4B845274C2C5C80B9F57A074B11D96E7D2B36 )
+)
+game (
+	name "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl)"
+	description "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl)"
+	rom ( name "Dungeon Stalker (World) (1.245d) (Aftermarket) (Unl).bin" size 49152 crc BA519F24 md5 B3143ADBBB7D7D189E918E5B29D55A72 sha1 B110BD4DE900ECD4D8590D1866FE4D77EC676804 )
+)
+game (
+	name "Easter Klondike Solitaire (World) (Aftermarket) (Unl)"
+	description "Easter Klondike Solitaire (World) (Aftermarket) (Unl)"
+	rom ( name "Easter Klondike Solitaire (World) (Aftermarket) (Unl).a78" size 49280 crc FECD04DE md5 C875B6F5E19A41F7C6D6986776CD34AB sha1 81BC9379B8A391AADCC9B4D9BDC44CE509BD450A )
+)
+game (
+	name "Easter Klondike Solitaire (World) (Aftermarket) (Unl)"
+	description "Easter Klondike Solitaire (World) (Aftermarket) (Unl)"
+	rom ( name "Easter Klondike Solitaire (World) (Aftermarket) (Unl).bin" size 49152 crc 9689894C md5 454F3ABC266E8FE4554CC729F530D650 sha1 BC98DA54C58443DE5159EB0F6307AA5FC1181AFD )
 )
 game (
 	name "F-18 Hornet (Europe)"
 	description "F-18 Hornet (Europe)"
 	region "Europe"
-	rom ( name "F-18 Hornet (Europe).a78" size 65536 crc E5D714B0 md5 E7709DA8E49D3767301947A0A0B9D2E6 sha1 673D912B2F9AB7A43F95E0E90BD80249B360FE0D )
+	rom ( name "F-18 Hornet (Europe).bin" size 65536 crc E5D714B0 md5 E7709DA8E49D3767301947A0A0B9D2E6 sha1 673D912B2F9AB7A43F95E0E90BD80249B360FE0D )
 )
 game (
 	name "F-18 Hornet (USA)"
 	description "F-18 Hornet (USA)"
 	region "USA"
-	rom ( name "F-18 Hornet (USA).a78" size 65536 crc 63D1C7C1 md5 2251A6A0F3AEC84CC0AFF66FC9FA91E8 sha1 13A18A6B85DB6222B01D37800E5E57DB616A85A6 )
+	rom ( name "F-18 Hornet (USA).bin" size 65536 crc 63D1C7C1 md5 2251A6A0F3AEC84CC0AFF66FC9FA91E8 sha1 13A18A6B85DB6222B01D37800E5E57DB616A85A6 )
+)
+game (
+	name "FailSafe (World) (Aftermarket) (Unl)"
+	description "FailSafe (World) (Aftermarket) (Unl)"
+	rom ( name "FailSafe (World) (NTSC) (Aftermarket) (Unl).a78" size 49280 crc D31EFE1B md5 67F25B1EEF9F50BFA81CFEBE86E89424 sha1 AB7E51B840DA47F9E34B061544266EAF02D052A7 )
+)
+game (
+	name "FailSafe (World) (Aftermarket) (Unl)"
+	description "FailSafe (World) (Aftermarket) (Unl)"
+	rom ( name "FailSafe (World) (NTSC) (Aftermarket) (Unl).bin" size 49152 crc 67EBF1ED md5 6287727AB36391A62F728BBDEE88675C sha1 E3221E285ADAEE30F36B60E85A35B63CB4D63292 )
+)
+game (
+	name "FailSafe (World) (PAL) (Aftermarket) (Unl)"
+	description "FailSafe (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "FailSafe (World) (PAL) (Aftermarket) (Unl).a78" size 49280 crc 75FD728A md5 4B0960BA6706F3DB77F8B0523790FA1A sha1 9FC4866549ED221D129991DDCD64253FF80DE2B8 )
+)
+game (
+	name "FailSafe (World) (PAL) (Aftermarket) (Unl)"
+	description "FailSafe (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "FailSafe (World) (PAL) (Aftermarket) (Unl).bin" size 49152 crc 56AC5864 md5 84C4B4ED75F41417AC7CBCEAC71E3856 sha1 2D810A0E521E06CE560FE42F9E1C15D759071D4D )
 )
 game (
 	name "Fatal Run (Europe)"
 	description "Fatal Run (Europe)"
 	region "Europe"
-	rom ( name "Fatal Run (Europe).a78" size 131072 crc 2A0A93BE md5 23505651AC2E47F3637152066C3AA62F sha1 F23173D2E42BCA0767F3D8ECB6BB1C0D23DDE996 )
+	rom ( name "Fatal Run (Europe).bin" size 131072 crc 2A0A93BE md5 23505651AC2E47F3637152066C3AA62F sha1 F23173D2E42BCA0767F3D8ECB6BB1C0D23DDE996 )
 )
 game (
 	name "Fatal Run (USA)"
 	description "Fatal Run (USA)"
 	region "USA"
-	rom ( name "Fatal Run (USA).a78" size 131072 crc A44DF354 md5 D25D5D19188E9F149977C49EB0367CD1 sha1 69AAB1E6EF332C6844C693AC41965E4C33FF822A )
+	rom ( name "Fatal Run (USA).bin" size 131072 crc A44DF354 md5 D25D5D19188E9F149977C49EB0367CD1 sha1 69AAB1E6EF332C6844C693AC41965E4C33FF822A )
 )
 game (
 	name "Fight Night (Europe)"
 	description "Fight Night (Europe)"
 	region "Europe"
-	rom ( name "Fight Night (Europe).a78" size 131072 crc 64D9C4BE md5 E80F24E953563E6B61556737D67D3836 sha1 DED89F3A4AC0D95AA158C98302B7939E5B89E4C6 )
+	rom ( name "Fight Night (Europe).bin" size 131072 crc 64D9C4BE md5 E80F24E953563E6B61556737D67D3836 sha1 DED89F3A4AC0D95AA158C98302B7939E5B89E4C6 )
 )
 game (
 	name "Fight Night (USA)"
 	description "Fight Night (USA)"
 	region "USA"
-	rom ( name "Fight Night (USA).a78" size 131072 crc 720EBC74 md5 07DBBFE612A0A28E283C01545E59F25E sha1 1E8A8704A77B15E70CBC72B0AE9BC25FB91D7C21 )
+	rom ( name "Fight Night (USA).bin" size 131072 crc 720EBC74 md5 07DBBFE612A0A28E283C01545E59F25E sha1 1E8A8704A77B15E70CBC72B0AE9BC25FB91D7C21 )
 )
 game (
 	name "Food Fight (Europe)"
 	description "Food Fight (Europe)"
 	region "Europe"
-	rom ( name "Food Fight (Europe).a78" size 49152 crc C64549EC md5 DE0D4F5A9BF1C1BDDEE3ED2F7EC51209 sha1 40B8E5EEB9E9AD7239963ED79DC085092CCBEC4C )
+	rom ( name "Food Fight (Europe).bin" size 49152 crc C64549EC md5 DE0D4F5A9BF1C1BDDEE3ED2F7EC51209 sha1 40B8E5EEB9E9AD7239963ED79DC085092CCBEC4C )
 )
 game (
 	name "Food Fight (USA)"
 	description "Food Fight (USA)"
 	region "USA"
-	rom ( name "Food Fight (USA).a78" size 32768 crc E64A5CDE md5 CF76B00244105B8E03CDC37677EC1073 sha1 3F5F42D5AAF6CCD4979658A1387AAC5933549357 )
+	rom ( name "Food Fight (USA).bin" size 32768 crc E64A5CDE md5 CF76B00244105B8E03CDC37677EC1073 sha1 3F5F42D5AAF6CCD4979658A1387AAC5933549357 )
 )
 game (
 	name "Food Fight (USA) (Beta)"
 	description "Food Fight (USA) (Beta)"
 	region "USA"
-	rom ( name "Food Fight (USA) (Beta).a78" size 32768 crc 47E94868 md5 E05041AD193E354F9FA37C18F3550B5A sha1 CA47CAFF9CB976DA34192E4FB9EEA8DEDF2222CD )
+	rom ( name "Food Fight (USA) (Beta).bin" size 32768 crc 47E94868 md5 E05041AD193E354F9FA37C18F3550B5A sha1 CA47CAFF9CB976DA34192E4FB9EEA8DEDF2222CD )
+)
+game (
+	name "Frenzy (World) (v1.06) (Aftermarket) (Unl)"
+	description "Frenzy (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Frenzy (World) (v1.06) (Aftermarket) (Unl).a78" size 49280 crc 3EABB9DD md5 F99A7316DB33795D722365E96EA673D7 sha1 1D713F9AB2B1964BACAF952EC59C65111402A0C1 )
+)
+game (
+	name "Frenzy (World) (v1.06) (Aftermarket) (Unl)"
+	description "Frenzy (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Frenzy (World) (v1.06) (Aftermarket) (Unl).bin" size 49152 crc 789E5321 md5 E7D89669A7F92EC2CC99D9663A28671C sha1 5B37FB0A4B2F1E5652B9F086E90278B66AB12FDA )
+)
+game (
+	name "Frenzy (World) (v1.07) (Aftermarket) (Unl)"
+	description "Frenzy (World) (v1.07) (Aftermarket) (Unl)"
+	rom ( name "Frenzy (World) (v1.07) (Aftermarket) (Unl).a78" size 49280 crc 7C60ADEC md5 A8273D973DD7BAB0D333DDE6A45DB4B3 sha1 5FA12F0AC0F7B381E7852211E2DCBDEB5261B5C7 )
+)
+game (
+	name "Frenzy (World) (v1.07) (Aftermarket) (Unl)"
+	description "Frenzy (World) (v1.07) (Aftermarket) (Unl)"
+	rom ( name "Frenzy (World) (v1.07) (Aftermarket) (Unl).bin" size 49152 crc 3A554710 md5 26031DEA7251FB861CB55F86742C9D6E sha1 7EFF182169597E9CFCE6FD6E01EAF2D638F8ACB3 )
+)
+game (
+	name "Froggie (World) (Aftermarket) (Unl)"
+	description "Froggie (World) (Aftermarket) (Unl)"
+	rom ( name "Froggie (World) (Aftermarket) (Unl).a78" size 32896 crc BC3566E7 md5 5EDD4ED463C4159476A5776350174666 sha1 480FF5485CCC3F5A21BFA2D98752AC1637CFA40F )
+)
+game (
+	name "Froggie (World) (Aftermarket) (Unl)"
+	description "Froggie (World) (Aftermarket) (Unl)"
+	rom ( name "Froggie (World) (Aftermarket) (Unl).bin" size 32768 crc 224B93D4 md5 6053233CB59C0B4CA633623FD76C4576 sha1 586B43CA3ACD35307BB58F32D08649C755944C5E )
 )
 game (
 	name "GATO (USA) (Proto)"
 	description "GATO (USA) (Proto)"
 	region "USA"
-	rom ( name "GATO (USA) (Proto).a78" size 49152 crc A0529DB5 md5 06204DADC975BE5E5E37E7CC66F984CF sha1 D17A710ADCA8D69E2A864ED93368C1D9F9BCFBD8 )
+	rom ( name "GATO (USA) (Proto).bin" size 49152 crc A0529DB5 md5 06204DADC975BE5E5E37E7CC66F984CF sha1 D17A710ADCA8D69E2A864ED93368C1D9F9BCFBD8 )
 )
 game (
 	name "Galaga (Europe)"
 	description "Galaga (Europe)"
 	region "Europe"
-	rom ( name "Galaga (Europe).a78" size 49152 crc 5990A9F8 md5 F5DC7DC8E38072D3D65BD90A660148CE sha1 F1AE5DF03CF90041380D77C1B49C94611443330B )
+	rom ( name "Galaga (Europe).bin" size 49152 crc 5990A9F8 md5 F5DC7DC8E38072D3D65BD90A660148CE sha1 F1AE5DF03CF90041380D77C1B49C94611443330B )
 )
 game (
 	name "Galaga (USA)"
 	description "Galaga (USA)"
 	region "USA"
-	rom ( name "Galaga (USA).a78" size 32768 crc 1A0A3EB3 md5 FB8D803B328B2E442548F7799CFA9A4A sha1 33178D682564D70955E13D0633359E87B512253B )
+	rom ( name "Galaga (USA).bin" size 32768 crc 1A0A3EB3 md5 FB8D803B328B2E442548F7799CFA9A4A sha1 33178D682564D70955E13D0633359E87B512253B )
+)
+game (
+	name "Galaxian (World) (Aftermarket) (Unl)"
+	description "Galaxian (World) (Aftermarket) (Unl)"
+	rom ( name "Galaxian (World) (Aftermarket) (Unl).a78" size 32896 crc D247E353 md5 0C60EEC2EEEEF4256FE8CA48F843F5A5 sha1 0161B7251DB9F8478402CE9D67DFD909F52C2910 )
+)
+game (
+	name "Galaxian (World) (Aftermarket) (Unl)"
+	description "Galaxian (World) (Aftermarket) (Unl)"
+	rom ( name "Galaxian (World) (Aftermarket) (Unl).bin" size 32768 crc 1E08B8CA md5 0C097BC8C786AF182935081AC5CD631F sha1 944AD170253BDF2987B53381B37C7E9B3A10464B )
+)
+game (
+	name "GoSub (World) (Digital) (Aftermarket) (Unl)"
+	description "GoSub (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "GoSub (World) (Digital) (Aftermarket) (Unl).a78" size 32896 crc B17A6EC6 md5 C3808DB31A9C8034E65FE3E096A0956F sha1 9BE5F2FFE31076057A6C3ABB4E9DD216F145674B )
+)
+game (
+	name "GoSub (World) (Digital) (Aftermarket) (Unl)"
+	description "GoSub (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "GoSub (World) (Digital) (Aftermarket) (Unl).bin" size 32768 crc EC8A9736 md5 E443F7FB5BE3283DD44C0F5D80C3A7B3 sha1 01691AB12332872EABBB667A97462CB07E8CEE22 )
+)
+game (
+	name "Harpy's Curse (World) (Proto) (Aftermarket) (Unl)"
+	description "Harpy's Curse (World) (Proto) (Aftermarket) (Unl)"
+	releaseyear "2023"
+	releasemonth "09"
+	releaseday "17"
+	rom ( name "Harpy's Curse (World) (2023-09-17) (Proto) (Aftermarket) (Unl).a78" size 131200 crc 5B404CE1 md5 CE57D614E6104767C8B31C9F762E1475 sha1 52144277E6C654551C868C5970BF4D0EC802ABAA )
+)
+game (
+	name "Harpy's Curse (World) (Proto) (Aftermarket) (Unl)"
+	description "Harpy's Curse (World) (Proto) (Aftermarket) (Unl)"
+	releaseyear "2023"
+	releasemonth "09"
+	releaseday "17"
+	rom ( name "Harpy's Curse (World) (2023-09-17) (Proto) (Aftermarket) (Unl).bin" size 131072 crc A0CFAE6F md5 AC7444B4F6CFFC9C78A4BDF383F21B63 sha1 9A1611E3D8B6E09B7B3ECA134003E77DE938467B )
 )
 game (
 	name "Hat Trick (Europe)"
 	description "Hat Trick (Europe)"
 	region "Europe"
-	rom ( name "Hat Trick (Europe).a78" size 49152 crc 057D9C3C md5 0BAEC96787CE17F390E204DE1A136E59 sha1 0E9FA678BB4AEDC7BB7CF5D38FE27556C4C2BBBD )
+	rom ( name "Hat Trick (Europe).bin" size 49152 crc 057D9C3C md5 0BAEC96787CE17F390E204DE1A136E59 sha1 0E9FA678BB4AEDC7BB7CF5D38FE27556C4C2BBBD )
 )
 game (
 	name "Hat Trick (USA)"
 	description "Hat Trick (USA)"
 	region "USA"
-	rom ( name "Hat Trick (USA).a78" size 49152 crc CF6F4A6C md5 FD9E78E201B6BAAFDDFD3E1FBFE6BA31 sha1 14C0CFD01DF1C725F399C23810E4854A639FCE52 )
+	rom ( name "Hat Trick (USA).bin" size 49152 crc CF6F4A6C md5 FD9E78E201B6BAAFDDFD3E1FBFE6BA31 sha1 14C0CFD01DF1C725F399C23810E4854A639FCE52 )
 )
 game (
 	name "High Score Cartridge (USA) (Proto)"
 	description "High Score Cartridge (USA) (Proto)"
 	region "USA"
-	rom ( name "High Score Cartridge (USA) (Proto).a78" size 4096 crc 9BE408D3 md5 C8A73288AB97226C52602204AB894286 sha1 A3AF676991391A6DD716C79022D4947206B78164 )
+	rom ( name "High Score Cartridge (USA) (Proto).bin" size 4096 crc 9BE408D3 md5 C8A73288AB97226C52602204AB894286 sha1 A3AF676991391A6DD716C79022D4947206B78164 )
 )
 game (
 	name "Ikari Warriors (Europe)"
 	description "Ikari Warriors (Europe)"
 	region "Europe"
-	rom ( name "Ikari Warriors (Europe).a78" size 131072 crc CB621CDC md5 8C2C2A1EA6E9A928A44C3151BA5C1CE3 sha1 275CAE6C693D9BD1906FDC684460EC596869BBAD )
+	rom ( name "Ikari Warriors (Europe).bin" size 131072 crc CB621CDC md5 8C2C2A1EA6E9A928A44C3151BA5C1CE3 sha1 275CAE6C693D9BD1906FDC684460EC596869BBAD )
 )
 game (
 	name "Ikari Warriors (USA)"
 	description "Ikari Warriors (USA)"
 	region "USA"
-	rom ( name "Ikari Warriors (USA).a78" size 131072 crc 8A6C1F15 md5 C3672482CA93F70EAFD9134B936C3FEB sha1 E368C6C7FFCA5FFAC314DEC1EFFEA4E2C809519A )
+	rom ( name "Ikari Warriors (USA).bin" size 131072 crc 8A6C1F15 md5 C3672482CA93F70EAFD9134B936C3FEB sha1 E368C6C7FFCA5FFAC314DEC1EFFEA4E2C809519A )
 )
 game (
 	name "Impossible Mission (Europe)"
 	description "Impossible Mission (Europe)"
 	region "Europe"
-	rom ( name "Impossible Mission (Europe).a78" size 131072 crc 994AF6E0 md5 80DEAD01EA2DB5045F6F4443FAA6FCE8 sha1 9770B61472510ABA1CF3EA35CECA1859C3493676 )
+	rom ( name "Impossible Mission (Europe).bin" size 131072 crc 994AF6E0 md5 80DEAD01EA2DB5045F6F4443FAA6FCE8 sha1 9770B61472510ABA1CF3EA35CECA1859C3493676 )
 )
 game (
 	name "Impossible Mission (USA)"
 	description "Impossible Mission (USA)"
 	region "USA"
-	rom ( name "Impossible Mission (USA).a78" size 131072 crc 3B1F2F47 md5 BAEBC9246C087E893DFA489632157180 sha1 5437C0EFB63A349953EC047EFE6EC24144ED6914 )
+	rom ( name "Impossible Mission (USA).bin" size 131072 crc 3B1F2F47 md5 BAEBC9246C087E893DFA489632157180 sha1 5437C0EFB63A349953EC047EFE6EC24144ED6914 )
+)
+game (
+	name "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl)"
+	description "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl)"
+	rom ( name "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl).a78" size 49280 crc BCD091CB md5 6E70361A861C5BA3C113ABB31F72A778 sha1 F60398B483B7A8667F0EB0F36ABC3A14DD72132F )
+)
+game (
+	name "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl)"
+	description "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl)"
+	rom ( name "Jacks or Better Poker (World) (v1.37) (Aftermarket) (Unl).bin" size 49152 crc 3495BADA md5 64717953882A4AEBE463F453CA00B9BE sha1 F550A66AD1288BEA6F10C6FD8675660FDBBAB1AB )
 )
 game (
 	name "Jinks (Europe)"
 	description "Jinks (Europe)"
 	region "Europe"
-	rom ( name "Jinks (Europe).a78" size 131072 crc 9207ED3B md5 DFB86F4D06F05AD00CF418F0A59A24F7 sha1 EB16DE0C3D5C4E769AE2314BA21C4DD3BCA33C88 )
+	rom ( name "Jinks (Europe).bin" size 131072 crc 9207ED3B md5 DFB86F4D06F05AD00CF418F0A59A24F7 sha1 EB16DE0C3D5C4E769AE2314BA21C4DD3BCA33C88 )
 )
 game (
 	name "Jinks (USA)"
 	description "Jinks (USA)"
 	region "USA"
-	rom ( name "Jinks (USA).a78" size 131072 crc 0818D8CD md5 045FD12050B7F2B842D5970F2414E912 sha1 472BC12C437B015A9E317BAC092529F3295033B8 )
+	rom ( name "Jinks (USA).bin" size 131072 crc 0818D8CD md5 045FD12050B7F2B842D5970F2414E912 sha1 472BC12C437B015A9E317BAC092529F3295033B8 )
 )
 game (
 	name "Joust (Europe)"
 	description "Joust (Europe)"
 	region "Europe"
-	rom ( name "Joust (Europe).a78" size 49152 crc 9B3BE616 md5 F2DAE0264A4B4A73762B9D7177E989F6 sha1 AAE5B9EE00C39D577858ABA9D1FD791194BE2C0C )
+	rom ( name "Joust (Europe).bin" size 49152 crc 9B3BE616 md5 F2DAE0264A4B4A73762B9D7177E989F6 sha1 AAE5B9EE00C39D577858ABA9D1FD791194BE2C0C )
 )
 game (
 	name "Joust (USA)"
 	description "Joust (USA)"
 	region "USA"
-	rom ( name "Joust (USA).a78" size 32768 crc 2C430BCE md5 F18B3B897A25AB3885B43B4BD141B396 sha1 1CCD7C232BCFD5A65D26B9DECFE4ECEADCBE314C )
+	rom ( name "Joust (USA).bin" size 32768 crc 2C430BCE md5 F18B3B897A25AB3885B43B4BD141B396 sha1 1CCD7C232BCFD5A65D26B9DECFE4ECEADCBE314C )
+)
+game (
+	name "Jr. Pac-Man (World) (Aftermarket) (Unl)"
+	description "Jr. Pac-Man (World) (Aftermarket) (Unl)"
+	rom ( name "Jr. Pac-Man (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 66ACFE73 md5 B9D8EFCC1E5651A578EEB484E34B338B sha1 3E8B869C85A947D3DB4694B5316ED7CE296D1B6B )
+)
+game (
+	name "Jr. Pac-Man (World) (Aftermarket) (Unl)"
+	description "Jr. Pac-Man (World) (Aftermarket) (Unl)"
+	rom ( name "Jr. Pac-Man (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 1B79AA55 md5 BDE3ABE40D302D8C4C65C9690C05DBC4 sha1 350FCB98CD55355BCEED043DDC75453BCC6EE7D8 )
+)
+game (
+	name "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl)"
+	description "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 12F0CDD0 md5 259EF5C1A98EA6BCD0BF5A922828231D sha1 32B4C3561A506B7F6B772727860D6378FBBF510C )
+)
+game (
+	name "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl)"
+	description "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Jr. Pac-Man (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc B039B160 md5 A9211B4FE543AAC629ECB7EB0816C4F5 sha1 7C61D9E201BA9ED7362A8F0D560B40EE9D9DC864 )
+)
+game (
+	name "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl)"
+	description "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl).a78" size 16512 crc CB150695 md5 E5B3FCFD214BA332B20C5FBFB1B831B4 sha1 740EEFE35B319B75269302E4F5C28744470F8722 )
+)
+game (
+	name "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl)"
+	description "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "K.C. Munchkin (World) (v1.00) (Aftermarket) (Unl).bin" size 16384 crc 83CF579D md5 927EDF157F88B8F5863254D9A65F05A8 sha1 1A9B0CCA06C121B4F1E0DBED8ED204CD4E81F8DE )
+)
+game (
+	name "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl)"
+	description "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl).a78" size 16512 crc 230D6984 md5 A8EBC4CE6511A75EF81E5715BAE8E4D0 sha1 10140AD27ACD95545AB7526AE3C84BC41FCF48A3 )
+)
+game (
+	name "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl)"
+	description "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "K.C. Munchkin (World) (v1.01) (Aftermarket) (Unl).bin" size 16384 crc 6BD7388C md5 AA0B9560D6610378BDA58F09F265D6AD sha1 7816DE63E052338FE43422A455E9191D3153B784 )
 )
 game (
 	name "Karateka (Europe)"
 	description "Karateka (Europe)"
 	region "Europe"
-	rom ( name "Karateka (Europe).a78" size 65536 crc 6C8D9E68 md5 5E0A1E832BBCEA6FACB832FDE23A440A sha1 C5F25C88EEFE0C7B3571AB3C3EC5185E537EB151 )
+	rom ( name "Karateka (Europe).bin" size 65536 crc 6C8D9E68 md5 5E0A1E832BBCEA6FACB832FDE23A440A sha1 C5F25C88EEFE0C7B3571AB3C3EC5185E537EB151 )
 )
 game (
 	name "Karateka (USA)"
 	description "Karateka (USA)"
 	region "USA"
-	rom ( name "Karateka (USA).a78" size 49152 crc FEC21472 md5 C3A5A8692A423D43D9D28DD5B7D109D9 sha1 9FB97BBC7DCC610251CEE1695C48B82A087F32D2 )
+	rom ( name "Karateka (USA).bin" size 49152 crc FEC21472 md5 C3A5A8692A423D43D9D28DD5B7D109D9 sha1 9FB97BBC7DCC610251CEE1695C48B82A087F32D2 )
+)
+game (
+	name "Keystone Koppers (World) (Demo) (Aftermarket) (Unl)"
+	description "Keystone Koppers (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "12"
+	releaseday "22"
+	rom ( name "Keystone Koppers (World) (2022-12-22) (Demo) (Aftermarket) (Unl).a78" size 131200 crc C56CF1FA md5 DE407AD2F2BCBB3B0F2C6CF423967005 sha1 B6EE1EB7C86ED1CC51B0CEFFB6A02DABF16657D7 )
+)
+game (
+	name "Keystone Koppers (World) (Demo) (Aftermarket) (Unl)"
+	description "Keystone Koppers (World) (Demo) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "12"
+	releaseday "22"
+	rom ( name "Keystone Koppers (World) (2022-12-22) (Demo) (Aftermarket) (Unl).bin" size 131072 crc FCB02B92 md5 1C9DEABC48F07D1BF2C68731FCCD27B5 sha1 373ECB89234BE12A13D22E5CE8EEF098630DDEC0 )
+)
+game (
+	name "Keystone Koppers (World) (Aftermarket) (Unl)"
+	description "Keystone Koppers (World) (Aftermarket) (Unl)"
+	rom ( name "Keystone Koppers (World) (Aftermarket) (Unl).a78" size 131200 crc 817DBB38 md5 D2F56AE7B9AF53E99DB0A6978765BC16 sha1 C9BAC0534E6F6846DA5BBA3A5F9536BEDCE5F987 )
+)
+game (
+	name "Keystone Koppers (World) (Aftermarket) (Unl)"
+	description "Keystone Koppers (World) (Aftermarket) (Unl)"
+	rom ( name "Keystone Koppers (World) (Aftermarket) (Unl).bin" size 131072 crc 6DC46004 md5 8151CD4D4BCE851B553E0EAE51D94F0C sha1 421E5FD929BE9234825215C1121E239111C11D53 )
 )
 game (
 	name "Klax (USA) (Proto)"
 	description "Klax (USA) (Proto)"
 	region "USA"
-	rom ( name "Klax (USA) (Proto).a78" size 131072 crc F26621E3 md5 17B3B764D33EAE9B5260F01DF7BB9D2F sha1 0EA6A04B8F9713040CE57B6F23A6589F98409D46 )
+	rom ( name "Klax (USA) (Proto).bin" size 131072 crc F26621E3 md5 17B3B764D33EAE9B5260F01DF7BB9D2F sha1 0EA6A04B8F9713040CE57B6F23A6589F98409D46 )
+)
+game (
+	name "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl)"
+	description "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl)"
+	rom ( name "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl).a78" size 147584 crc 539E3DD7 md5 95DFE1404D66DC1DC499C8C06171AEC3 sha1 31E9EF48C43B06AA96DF459B72B75C73EDDC7633 )
+)
+game (
+	name "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl)"
+	description "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl)"
+	rom ( name "Knight Guy in Low-Res World - Castle Days (World) (RC1.1) (Aftermarket) (Unl).bin" size 147456 crc 9B0230C6 md5 33DBB58F9EE73E9F476B4EBBC8190C88 sha1 889774506923F38D359EFA6AB69959A23B8084EA )
 )
 game (
 	name "Kung-Fu Master (Europe)"
 	description "Kung-Fu Master (Europe)"
 	region "Europe"
-	rom ( name "Kung-Fu Master (Europe).a78" size 32768 crc C1531FC4 md5 2931B75811AD03F3AC9330838F3D231B sha1 0F0E24246D9E684B7F900A362FB08878B232580C )
+	rom ( name "Kung-Fu Master (Europe).bin" size 32768 crc C1531FC4 md5 2931B75811AD03F3AC9330838F3D231B sha1 0F0E24246D9E684B7F900A362FB08878B232580C )
 )
 game (
 	name "Kung-Fu Master (USA)"
 	description "Kung-Fu Master (USA)"
 	region "USA"
-	rom ( name "Kung-Fu Master (USA).a78" size 32768 crc 297899BB md5 F57D0AF323D4E173FB49ED447F0563D7 sha1 8824BFFDF4F30A8191E581752A75259A663092CA )
+	rom ( name "Kung-Fu Master (USA).bin" size 32768 crc 297899BB md5 F57D0AF323D4E173FB49ED447F0563D7 sha1 8824BFFDF4F30A8191E581752A75259A663092CA )
+)
+game (
+	name "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl)"
+	description "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl).a78" size 524416 crc 414C68A4 md5 BDA93C462522942F54447FB4849F2771 sha1 1FB196B41F1736268C649B8988291C03D4B61145 )
+)
+game (
+	name "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl)"
+	description "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl)"
+	rom ( name "Legend of Silverpeak (World) (v1.00) (Aftermarket) (Unl).bin" size 524288 crc 6721BCD9 md5 8385DACCEE02CCDA081EED45EBA1479D sha1 17C8C1DEE46A5988D4375EB56A4117BE8273011C )
+)
+game (
+	name "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl)"
+	description "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl).a78" size 524416 crc 863579D2 md5 B20A8587056848D39ABC1A32F2D45A95 sha1 CEA2B21E00C228718E96DABCBD2DBEC8F021C64B )
+)
+game (
+	name "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl)"
+	description "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Legend of Silverpeak (World) (v1.01) (Aftermarket) (Unl).bin" size 524288 crc 55238725 md5 271864E0978278A3E2FB04273DB69D57 sha1 A6DABDBF9C4C82BAB5B2FFA9A1AC21ECBB03A6DA )
 )
 game (
 	name "Mario Bros. (Europe)"
 	description "Mario Bros. (Europe)"
 	region "Europe"
-	rom ( name "Mario Bros. (Europe).a78" size 49152 crc EFAD3D9D md5 D2E861306BE78E44248BB71D7475D8A3 sha1 881BEFF5103713E655FED80B32E0BBD774E78EE8 )
+	rom ( name "Mario Bros. (Europe).bin" size 49152 crc EFAD3D9D md5 D2E861306BE78E44248BB71D7475D8A3 sha1 881BEFF5103713E655FED80B32E0BBD774E78EE8 )
 )
 game (
 	name "Mario Bros. (USA)"
 	description "Mario Bros. (USA)"
 	region "USA"
-	rom ( name "Mario Bros. (USA).a78" size 49152 crc 8021A13B md5 431CA060201EE1F9EB49D44962874049 sha1 12E04B67094AF622641C536379C69ECAD2EE98ED )
+	rom ( name "Mario Bros. (USA).bin" size 49152 crc 8021A13B md5 431CA060201EE1F9EB49D44962874049 sha1 12E04B67094AF622641C536379C69ECAD2EE98ED )
 )
 game (
 	name "Mat Mania Challenge (Europe)"
 	description "Mat Mania Challenge (Europe)"
 	region "Europe"
-	rom ( name "Mat Mania Challenge (Europe).a78" size 131072 crc 065F3873 md5 6819C37B96063B024898A19DBAE2DF54 sha1 119BB784F1A0638CC6778841131CA1766E94A112 )
+	rom ( name "Mat Mania Challenge (Europe).bin" size 131072 crc 065F3873 md5 6819C37B96063B024898A19DBAE2DF54 sha1 119BB784F1A0638CC6778841131CA1766E94A112 )
 )
 game (
 	name "Mat Mania Challenge (USA)"
 	description "Mat Mania Challenge (USA)"
 	region "USA"
-	rom ( name "Mat Mania Challenge (USA).a78" size 131072 crc ABA91829 md5 37B5692E33A98115E574185FA8398C22 sha1 BB849B603CF1091E4F032936B209FF33FC3B714E )
+	rom ( name "Mat Mania Challenge (USA).bin" size 131072 crc ABA91829 md5 37B5692E33A98115E574185FA8398C22 sha1 BB849B603CF1091E4F032936B209FF33FC3B714E )
 )
 game (
 	name "Mean 18 Ultimate Golf (Europe)"
 	description "Mean 18 Ultimate Golf (Europe)"
 	region "Europe"
-	rom ( name "Mean 18 Ultimate Golf (Europe).a78" size 131072 crc 3CEC4BE8 md5 2E9DBAD6C0FA381A6CD1BB9ABF98A104 sha1 47702EE71C64AF4ADA09CD41122C779C7D8D94F1 )
+	rom ( name "Mean 18 Ultimate Golf (Europe).bin" size 131072 crc 3CEC4BE8 md5 2E9DBAD6C0FA381A6CD1BB9ABF98A104 sha1 47702EE71C64AF4ADA09CD41122C779C7D8D94F1 )
 )
 game (
 	name "Mean 18 Ultimate Golf (USA)"
 	description "Mean 18 Ultimate Golf (USA)"
 	region "USA"
-	rom ( name "Mean 18 Ultimate Golf (USA).a78" size 131072 crc CF21D9AC md5 F2F5E5841E4DDA89A2FAF8933DC33EA6 sha1 A3E50C0E56C9675FFB1B6439F40789BC64C606B2 )
+	rom ( name "Mean 18 Ultimate Golf (USA).bin" size 131072 crc CF21D9AC md5 F2F5E5841E4DDA89A2FAF8933DC33EA6 sha1 A3E50C0E56C9675FFB1B6439F40789BC64C606B2 )
 )
 game (
 	name "Meltdown (Europe)"
 	description "Meltdown (Europe)"
 	region "Europe"
-	rom ( name "Meltdown (Europe).a78" size 131072 crc 177FC850 md5 C80155D7EEC9E3DCB79AA6B83C9CCD1E sha1 AC448F369C3C6334415095E4FF344FDD73B473BE )
+	rom ( name "Meltdown (Europe).bin" size 131072 crc 177FC850 md5 C80155D7EEC9E3DCB79AA6B83C9CCD1E sha1 AC448F369C3C6334415095E4FF344FDD73B473BE )
 )
 game (
 	name "Meltdown (USA)"
 	description "Meltdown (USA)"
 	region "USA"
-	rom ( name "Meltdown (USA).a78" size 131072 crc 4A8F2171 md5 BEDC30EC43587E0C98FC38C39C1EF9D0 sha1 E601C45AAA1CC25F01493867664C8B9FEFECA70E )
+	rom ( name "Meltdown (USA).bin" size 131072 crc 4A8F2171 md5 BEDC30EC43587E0C98FC38C39C1EF9D0 sha1 E601C45AAA1CC25F01493867664C8B9FEFECA70E )
+)
+game (
+	name "Meteor Shower (World) (v1.05) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.05) (NTSC) (Aftermarket) (Unl).a78" size 16512 crc 8052CCB3 md5 21D1CAAECA24E023FAD3DF23B452B93A sha1 50F743E617C4456EA5F2F1D66725E63B9359FD41 )
+)
+game (
+	name "Meteor Shower (World) (v1.05) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.05) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc 1A6B1E88 md5 C3F6201D6A9388E860328C963A3301CC sha1 FE49CC7B92B3F1D44C91B4F645EE8348EBE7E017 )
+)
+game (
+	name "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl).a78" size 16512 crc F973EA31 md5 9939D7172855E9BAC28F880F233B9926 sha1 D180F54254BC61323F265323BCC3EBEE435621E2 )
+)
+game (
+	name "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.05) (PAL) (Aftermarket) (Unl).bin" size 16384 crc EA240BF3 md5 DC0BF52475030C05671DD187E9A99F08 sha1 5E06CE4A823407234E9C784BA51BBE6EDD7AE7CF )
+)
+game (
+	name "Meteor Shower (World) (v1.06) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.06) (NTSC) (Aftermarket) (Unl).a78" size 16512 crc 30461A69 md5 5E249D115DE5EFF6143FBD4F23BFEF5E sha1 B1601664CB740B52A867DEF0DFC876295B248A72 )
+)
+game (
+	name "Meteor Shower (World) (v1.06) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.06) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc AA7FC852 md5 A44241D782EE14B53483487CC8216274 sha1 687FFA98659BE34BD04E3602A74ED678463549A6 )
+)
+game (
+	name "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl).a78" size 16512 crc 69ABA899 md5 E9E83DF9FA2ABF5FD58708EE64041408 sha1 D6E7C6258FAB3A447F5DA8F70C9D9068B3F58B18 )
+)
+game (
+	name "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	description "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Meteor Shower (World) (v1.06) (PAL) (Aftermarket) (Unl).bin" size 16384 crc 7AFC495B md5 198B2F269DDFF80AAFF066B9318B09E6 sha1 228577C293FEBD6A5FFD20A621A6B146FB2F3276 )
 )
 game (
 	name "Midnight Mutants (Europe)"
 	description "Midnight Mutants (Europe)"
 	region "Europe"
-	rom ( name "Midnight Mutants (Europe).a78" size 131072 crc 7CA6D521 md5 6794EA31570EBA0B88A0BF1EAD3F3F1B sha1 85F0E0556DF65C0732F71AB3F2BBDE3615355F72 )
+	rom ( name "Midnight Mutants (Europe).bin" size 131072 crc 7CA6D521 md5 6794EA31570EBA0B88A0BF1EAD3F3F1B sha1 85F0E0556DF65C0732F71AB3F2BBDE3615355F72 )
 )
 game (
 	name "Midnight Mutants (USA)"
 	description "Midnight Mutants (USA)"
 	region "USA"
-	rom ( name "Midnight Mutants (USA).a78" size 131072 crc 187EC84E md5 BC1E905DB1008493A9632AA83AB4682B sha1 DB5EA4C1456F3B403F6B8978432ECBCDAC89D432 )
+	rom ( name "Midnight Mutants (USA).bin" size 131072 crc 187EC84E md5 BC1E905DB1008493A9632AA83AB4682B sha1 DB5EA4C1456F3B403F6B8978432ECBCDAC89D432 )
 )
 game (
 	name "Missing in Action (USA) (Proto)"
 	description "Missing in Action (USA) (Proto)"
 	region "USA"
-	rom ( name "Missing in Action (USA) (Proto).a78" size 147456 crc FF7A4C60 md5 017066F522908081EC3EE624F5E4A8AA sha1 26B0B187A43BF9A9397CB5E8B0033E8833F48F88 )
+	rom ( name "Missing in Action (USA) (Proto).bin" size 147456 crc FF7A4C60 md5 017066F522908081EC3EE624F5E4A8AA sha1 26B0B187A43BF9A9397CB5E8B0033E8833F48F88 )
+)
+game (
+	name "Moon Cresta (World) (Aftermarket) (Unl)"
+	description "Moon Cresta (World) (Aftermarket) (Unl)"
+	rom ( name "Moon Cresta (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 9B607D11 md5 4E1006E44840FE7C2BAEF1AF29ACB6F9 sha1 DEA2231575F55FECB83A864EA9CE1FAE72E0B275 )
+)
+game (
+	name "Moon Cresta (World) (Aftermarket) (Unl)"
+	description "Moon Cresta (World) (Aftermarket) (Unl)"
+	rom ( name "Moon Cresta (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 7E4AE0C3 md5 3A15FE7BEAD3D9B90F3FB13D63E1EE42 sha1 E6677DB1DACC73EB10663ABC88A83DA3733967DF )
+)
+game (
+	name "Moon Cresta (World) (PAL) (Aftermarket) (Unl)"
+	description "Moon Cresta (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Moon Cresta (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc A506BAE7 md5 619B94832080A6CADD7724D7B2067F40 sha1 B5AACC9B3F832111008534A02095C56C97D0CCFB )
+)
+game (
+	name "Moon Cresta (World) (PAL) (Aftermarket) (Unl)"
+	description "Moon Cresta (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Moon Cresta (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc A6C810B2 md5 3C05784F55167A10028225D20B38FEF5 sha1 1B93C4B5797BFD31B63F6D2EF7B6AE812055CEBA )
 )
 game (
 	name "Motor Psycho (Europe)"
 	description "Motor Psycho (Europe)"
 	region "Europe"
-	rom ( name "Motor Psycho (Europe).a78" size 131072 crc 38BB45BA md5 5330BFE428A6B601B7E76C2CFC4CD049 sha1 3B72D6B3E28CA9182F1F25DC57115D2EC33AA63E )
+	rom ( name "Motor Psycho (Europe).bin" size 131072 crc 38BB45BA md5 5330BFE428A6B601B7E76C2CFC4CD049 sha1 3B72D6B3E28CA9182F1F25DC57115D2EC33AA63E )
 )
 game (
 	name "Motor Psycho (USA)"
 	description "Motor Psycho (USA)"
 	region "USA"
-	rom ( name "Motor Psycho (USA).a78" size 131072 crc 1E219482 md5 3BC8F554CF86F8132A623CC2201A564B sha1 B9381F4D0413B6C48E27F26ED94C7A9EB1A49624 )
+	rom ( name "Motor Psycho (USA).bin" size 131072 crc 1E219482 md5 3BC8F554CF86F8132A623CC2201A564B sha1 B9381F4D0413B6C48E27F26ED94C7A9EB1A49624 )
 )
 game (
 	name "Ms. Pac-Man (Europe)"
 	description "Ms. Pac-Man (Europe)"
 	region "Europe"
-	rom ( name "Ms. Pac-Man (Europe).a78" size 32768 crc 8421033A md5 56469E8C5FF8983C6CB8DADC64EB0363 sha1 A5B0826A130ACF8B8DBC59EF980D40B802C22B30 )
+	rom ( name "Ms. Pac-Man (Europe).bin" size 32768 crc 8421033A md5 56469E8C5FF8983C6CB8DADC64EB0363 sha1 A5B0826A130ACF8B8DBC59EF980D40B802C22B30 )
 )
 game (
 	name "Ms. Pac-Man (USA)"
 	description "Ms. Pac-Man (USA)"
 	region "USA"
-	rom ( name "Ms. Pac-Man (USA).a78" size 16384 crc E42FC700 md5 FC0EA52A9FAC557251B65EE680D951E5 sha1 FF22E21FC953A288453C40EB6FC5378D42B871F6 )
+	rom ( name "Ms. Pac-Man (USA).bin" size 16384 crc E42FC700 md5 FC0EA52A9FAC557251B65EE680D951E5 sha1 FF22E21FC953A288453C40EB6FC5378D42B871F6 )
+)
+game (
+	name "Ms. Pac-Man 320 (World) (Aftermarket) (Unl)"
+	description "Ms. Pac-Man 320 (World) (Aftermarket) (Unl)"
+	rom ( name "Ms. Pac-Man 320 (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc A1FE2E34 md5 7788661B81A6D85CD80269EF3504E0E2 sha1 BB1AC9788F840FDF9DCAA9D9C37E75ED4CEE5B9D )
+)
+game (
+	name "Ms. Pac-Man 320 (World) (Aftermarket) (Unl)"
+	description "Ms. Pac-Man 320 (World) (Aftermarket) (Unl)"
+	rom ( name "Ms. Pac-Man 320 (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 65D0DA06 md5 35433868DFE383AE21FD77507E5A478D sha1 50D6C46158DD80ACF6B8BE3401915EA2072FE019 )
+)
+game (
+	name "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl)"
+	description "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc DFA80D2E md5 9FB643FB53394E41F28A0EDF4F085F12 sha1 D0027B21D2CD9D2D2A7C7B9F1C6186552FD8A5EF )
+)
+game (
+	name "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl)"
+	description "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Ms. Pac-Man 320 (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 9430A1A1 md5 BC56F803D65658F92C17E6C2B271A507 sha1 6D8C688EBBA1F7A1975064C016CDCC04C55A1C8D )
 )
 game (
 	name "Ninja Golf (Europe)"
 	description "Ninja Golf (Europe)"
 	region "Europe"
-	rom ( name "Ninja Golf (Europe).a78" size 131072 crc 2B5382B7 md5 EA0C859AA54FE5EAF4C1F327FAB06221 sha1 99CE5711E38FF7EF3311216F954CF0AB70E289CF )
+	rom ( name "Ninja Golf (Europe).bin" size 131072 crc 2B5382B7 md5 EA0C859AA54FE5EAF4C1F327FAB06221 sha1 99CE5711E38FF7EF3311216F954CF0AB70E289CF )
 )
 game (
 	name "Ninja Golf (USA)"
 	description "Ninja Golf (USA)"
 	region "USA"
-	rom ( name "Ninja Golf (USA).a78" size 131072 crc CB48E8DC md5 220121F771FC4B98CEF97DC040E8D378 sha1 96D0E59E703770EEA8D8D9C2C4E5A87CE6F2DE76 )
+	rom ( name "Ninja Golf (USA).bin" size 131072 crc CB48E8DC md5 220121F771FC4B98CEF97DC040E8D378 sha1 96D0E59E703770EEA8D8D9C2C4E5A87CE6F2DE76 )
 )
 game (
 	name "One-on-One Basketball (Europe)"
 	description "One-on-One Basketball (Europe)"
 	region "Europe"
-	rom ( name "One-on-One Basketball (Europe).a78" size 49152 crc 7A628295 md5 8DBA0425F0262E5704581D8757A1A6E3 sha1 01DFC5E4E615CF20EE4F07245285F85684EE445D )
+	rom ( name "One-on-One Basketball (Europe).bin" size 49152 crc 7A628295 md5 8DBA0425F0262E5704581D8757A1A6E3 sha1 01DFC5E4E615CF20EE4F07245285F85684EE445D )
 )
 game (
 	name "One-on-One Basketball (USA)"
 	description "One-on-One Basketball (USA)"
 	region "USA"
-	rom ( name "One-on-One Basketball (USA).a78" size 49152 crc 7D9370FB md5 74569571A208F8B0B1CCFB22D7C914E1 sha1 5173F892A8D70AECA6C324C138C56208E0DB2B98 )
+	rom ( name "One-on-One Basketball (USA).bin" size 49152 crc 7D9370FB md5 74569571A208F8B0B1CCFB22D7C914E1 sha1 5173F892A8D70AECA6C324C138C56208E0DB2B98 )
+)
+game (
+	name "Oozy the Goo Gaiden (World) (Aftermarket) (Unl)"
+	description "Oozy the Goo Gaiden (World) (Aftermarket) (Unl)"
+	rom ( name "Oozy the Goo Gaiden (World) (Aftermarket) (Unl).a78" size 147584 crc F5EFD437 md5 734F8F4FB5183AF926127A5B5A10A139 sha1 D38F619B9BFEEDE74327240A98435151D794E192 )
+)
+game (
+	name "Oozy the Goo Gaiden (World) (Aftermarket) (Unl)"
+	description "Oozy the Goo Gaiden (World) (Aftermarket) (Unl)"
+	rom ( name "Oozy the Goo Gaiden (World) (Aftermarket) (Unl).bin" size 147456 crc 3D73D926 md5 3D9C52142F9E53F516D3408DAAD376F3 sha1 1A22B8E7F768D12001B3992168DC34C4EE6D997A )
+)
+game (
+	name "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl)"
+	description "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl)"
+	rom ( name "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl).a78" size 131200 crc 16F45552 md5 0EC73E20F17C37E1ABD6B3153D71A33F sha1 FA25A5720B95AE9E88DBBFB8FC92908F1DD2DD18 )
+)
+game (
+	name "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl)"
+	description "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl)"
+	rom ( name "Orion Assault (World) (v01.78b) (Proto) (Aftermarket) (Unl).bin" size 131072 crc 625B896E md5 89678EBC7D4605E86CFFD2A1EC7CC7B9 sha1 22C697D14C705086F36F22C3D774B504A99FBF9D )
+)
+game (
+	name "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl)"
+	description "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl).a78" size 49280 crc 2DCBFA74 md5 50EAB1FE52018BAD729E623022F33664 sha1 B24A11A731FB6CD9832ADDEF89D38A2B0809DC53 )
+)
+game (
+	name "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl)"
+	description "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man - Energy Drink Edition (World) (v1.02) (Aftermarket) (Unl).bin" size 49152 crc 60BE7493 md5 2B51EBF2F371D0790A5629E27727EBBA sha1 B5A67FEF7062F2B9525E2E3CCD0AB674C8603193 )
+)
+game (
+	name "Pac-Man 320 (World) (v1.05) (Aftermarket) (Unl)"
+	description "Pac-Man 320 (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man 320 (World) (v1.05) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 1B317F72 md5 87282C7F50C7AF7B85222676E4B77146 sha1 A275CD00A0642BC67EA02CF2C1939BEB1D47F107 )
+)
+game (
+	name "Pac-Man 320 (World) (v1.05) (Aftermarket) (Unl)"
+	description "Pac-Man 320 (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man 320 (World) (v1.05) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 545E868B md5 60982F430B762343D53E48F70ACFA6D0 sha1 87D94A984E759708B6F8B251A309E6860D6D9AB9 )
+)
+game (
+	name "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 0694B7FE md5 BCE39849FE488F06F4B28988ACF55C4C sha1 424DD598A224185D8FB0B47CC01E4D5F84DFF708 )
+)
+game (
+	name "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man 320 (World) (v1.05) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 1C0DBC7C md5 180121ECB4AABC7DAA945B355E15C254 sha1 8DE5E06D8EAF7C92C7E66140906BB645A5AA2B3A )
+)
+game (
+	name "Pac-Man Collection (World) (Digital) (Aftermarket) (Unl)"
+	description "Pac-Man Collection (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection (World) (Digital) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 1E857EA5 md5 06762CFC3C6086A7E0E11C2C3DD7D908 sha1 2A8E374E032364B9168D5D70475EDA91A23BB6B2 )
+)
+game (
+	name "Pac-Man Collection (World) (Digital) (Aftermarket) (Unl)"
+	description "Pac-Man Collection (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection (World) (Digital) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 0542BFF8 md5 290DBB0FA08F4750A5934BBDC27DC5BC sha1 F44FEB600B9B8F705A17AA10AE820334C6AA4B88 )
+)
+game (
+	name "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 3B674661 md5 40A409911FA51FF0B5AA3ECAD332CFED sha1 1C139B85A151FFF18F8921E91DCC8ADA35864896 )
+)
+game (
+	name "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection (World) (Digital) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 20A0873C md5 D622C9DE8A823BA1C079510CEF6ED817 sha1 B9672ADA1D272B738EB8B6FE91DB682E9485C62C )
+)
+game (
+	name "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl).a78" size 131200 crc 9110B4D5 md5 65BE9F6928EDDC24FFCBD471A6BD9850 sha1 3830154CD50C0355E55A13611377377FA6442972 )
+)
+game (
+	name "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl).bin" size 131072 crc 8FE553A1 md5 39DC7F6F39F9B3E341A5FFEA76E71FB1 sha1 1255AF0369AC40718C742B9E416F3B5E3363439A )
+)
+game (
+	name "Pac-Man Collection - Remastered Edition (World) (TIA) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Remastered Edition (World) (TIA) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).a78" size 49280 crc E2A5A351 md5 5D418BBE79E1E31351C4D44F7C137E9F sha1 1EFD31D55BE8ABBE369E47FFF5FE97CC04AEFF7E )
+)
+game (
+	name "Pac-Man Collection - Remastered Edition (World) (TIA) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Remastered Edition (World) (TIA) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).bin" size 49152 crc A3AC92B3 md5 200EF9C7B36AFD3B1B6CE32065A259BB sha1 74D8964631B95084F5F09921705EE88FDF0862B4 )
+)
+game (
+	name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl).a78" size 49280 crc 8A7B837E md5 E5CF753DAA3BF5D03CFC3BFAB04F735E sha1 252E5B6FDD143B60690DB5B1D4DE68A52F9C77C9 )
+)
+game (
+	name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl).bin" size 49152 crc 5CD69784 md5 FDDB22207CF6159F91BA31EDCB8C5CE5 sha1 787251BEF5147A34113CC5BC91F4E070DB65E454 )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (Pokey) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Ultimate Edition (World) (Pokey) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).a78" size 32896 crc 4C89FD07 md5 34E23DE8D0F68AA4234F2B4C32D7F357 sha1 8365C31CB7930FB59083B6F6ADD2A9E49F15F693 )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (Pokey) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Ultimate Edition (World) (Pokey) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).bin" size 32768 crc FD2F3867 md5 6A432FD1E9D42A294BDB04D2C3D1E17F sha1 20C697C298B05984A2FD333BDCE7FFC486D22712 )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl).a78" size 32896 crc 63CAA656 md5 9FD0387A0FE057C97905C87103E5DC33 sha1 108DE34DCD8B89402FAEB950BA588C7113A04F6F )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl)"
+	description "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl).bin" size 32768 crc 0D71DB9A md5 41C6DCD63DB9C90795903C362A09C5D8 sha1 692774C60FF42029EFEF733213E2E33F491CAE6A )
+)
+game (
+	name "Pac-Man Plus 320 (World) (Aftermarket) (Unl)"
+	description "Pac-Man Plus 320 (World) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Plus 320 (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 24CC913E md5 3DB5D43C80AB1398665420C56DEBAAC3 sha1 7CC5BD294EF6118BB5ED4276C3C827E00906F20C )
+)
+game (
+	name "Pac-Man Plus 320 (World) (Aftermarket) (Unl)"
+	description "Pac-Man Plus 320 (World) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Plus 320 (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 43B6C1C0 md5 D0BF3B841AD4BBD356E9588874749A13 sha1 B9FA09860BD3AF0924EDFF693831964527E760CF )
+)
+game (
+	name "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 9C0A6699 md5 EDB11AED4A1BF7334A885DC2D5274256 sha1 42B59D3D3EF9B33DB3B2A836D1E9CEE97BC48CF7 )
+)
+game (
+	name "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl)"
+	description "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Pac-Man Plus 320 (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 86936D1B md5 1482BEEF7DBDB122F6BB4B03640888F2 sha1 EB01729384C3A2B704B8A3F43AFE6E2279839915 )
 )
 game (
 	name "Pete Rose Baseball (USA)"
 	description "Pete Rose Baseball (USA)"
 	region "USA"
-	rom ( name "Pete Rose Baseball (USA).a78" size 32768 crc F33D4DFA md5 1A5207870DEC6FAE9111CB747E20D8E3 sha1 FFB4FBED8D8F28EA71668542B7EBD019955C5A11 )
+	rom ( name "Pete Rose Baseball (USA).bin" size 32768 crc F33D4DFA md5 1A5207870DEC6FAE9111CB747E20D8E3 sha1 FFB4FBED8D8F28EA71668542B7EBD019955C5A11 )
+)
+game (
+	name "Pirate Cove (World) (Aftermarket) (Unl)"
+	description "Pirate Cove (World) (Aftermarket) (Unl)"
+	rom ( name "Pirate Cove (World) (Aftermarket) (Unl).a78" size 32896 crc CACD77A3 md5 32E3673302199E531B7793542F61880A sha1 3A57CAB4A10A08838CDA74C271951573B1BBF0DD )
+)
+game (
+	name "Pirate Cove (World) (Aftermarket) (Unl)"
+	description "Pirate Cove (World) (Aftermarket) (Unl)"
+	rom ( name "Pirate Cove (World) (Aftermarket) (Unl).bin" size 32768 crc 6A6678BA md5 A6B91A759B34F6C61462195FC783B6DB sha1 2F39F77E07F52E0D189C4D468E3FD8AFAACCBB06 )
 )
 game (
 	name "Pit Fighter (USA) (Proto)"
 	description "Pit Fighter (USA) (Proto)"
 	region "USA"
-	rom ( name "Pit Fighter (USA) (Proto).a78" size 65536 crc A5E75537 md5 05F43244465943CE819780A71A5B572A sha1 378ADDEF67ACA55500F0F5F9F0075DCB177406B5 )
+	rom ( name "Pit Fighter (USA) (Proto).bin" size 65536 crc A5E75537 md5 05F43244465943CE819780A71A5B572A sha1 378ADDEF67ACA55500F0F5F9F0075DCB177406B5 )
 )
 game (
 	name "Planet Smashers (Europe)"
 	description "Planet Smashers (Europe)"
 	region "Europe"
-	rom ( name "Planet Smashers (Europe).a78" size 131072 crc 95DC7E96 md5 2837A8FD49B7FC7CCD70FD45B69C5099 sha1 F12CBB576607EC38D6111F4346412CCC5BFBCF42 )
+	rom ( name "Planet Smashers (Europe).bin" size 131072 crc 95DC7E96 md5 2837A8FD49B7FC7CCD70FD45B69C5099 sha1 F12CBB576607EC38D6111F4346412CCC5BFBCF42 )
 )
 game (
 	name "Planet Smashers (USA)"
 	description "Planet Smashers (USA)"
 	region "USA"
-	rom ( name "Planet Smashers (USA).a78" size 131072 crc 4E3B9E64 md5 33AEA1E2B6634A1DEC8C7006D9AFDA22 sha1 503B975FC1F8EDC16110AC2C5B884C4E8B2B6EFB )
+	rom ( name "Planet Smashers (USA).bin" size 131072 crc 4E3B9E64 md5 33AEA1E2B6634A1DEC8C7006D9AFDA22 sha1 503B975FC1F8EDC16110AC2C5B884C4E8B2B6EFB )
+)
+game (
+	name "Plink (World) (Aftermarket) (Unl)"
+	description "Plink (World) (Aftermarket) (Unl)"
+	rom ( name "Plink (World) (Aftermarket) (Unl).a78" size 131200 crc 5162CBA5 md5 084644CA83A5D9BB15AFE5ECB3B48928 sha1 68FEAEB49026E39CAD7A4935E97643484F7047DB )
+)
+game (
+	name "Plink (World) (Aftermarket) (Unl)"
+	description "Plink (World) (Aftermarket) (Unl)"
+	rom ( name "Plink (World) (Aftermarket) (Unl).bin" size 131072 crc F945CBD9 md5 851F901CBC78824F6754F362C00AE648 sha1 C82BA36A29BD71B36DE25368D2E92EFBE94D8C57 )
 )
 game (
 	name "Plutos (USA) (Proto)"
 	description "Plutos (USA) (Proto)"
 	region "USA"
-	rom ( name "Plutos (USA) (Proto).a78" size 131072 crc 2F211F7F md5 86546808DC60961CDB1B20E761C50AB1 sha1 FA55D6A366B237917F18487FC51817394839A3BC )
+	rom ( name "Plutos (USA) (Proto).bin" size 131072 crc 2F211F7F md5 86546808DC60961CDB1B20E761C50AB1 sha1 FA55D6A366B237917F18487FC51817394839A3BC )
+)
+game (
+	name "Plutos XM (World) (Aftermarket) (Unl)"
+	description "Plutos XM (World) (Aftermarket) (Unl)"
+	rom ( name "Plutos XM (World) (Aftermarket) (Unl).a78" size 131200 crc 07DE21CB md5 F09685FEEFD44EE75CE1AD65388B7C4A sha1 C7148A825E5A3B1A4F18BF0D42093F050EFF000E )
+)
+game (
+	name "Plutos XM (World) (Aftermarket) (Unl)"
+	description "Plutos XM (World) (Aftermarket) (Unl)"
+	rom ( name "Plutos XM (World) (Aftermarket) (Unl).bin" size 131072 crc 77E3B09B md5 74F0283C566BDEE8543E4FDC5CB8B201 sha1 0EBE7AE68C3D1771EB9B122500833F700B12AA37 )
+)
+game (
+	name "Poetiru (World) (Aftermarket) (Unl)"
+	description "Poetiru (World) (Aftermarket) (Unl)"
+	rom ( name "Poetiru (World) (Aftermarket) (Unl).a78" size 32896 crc 526B8EAC md5 241DCF1E267D38E3D8354628B586AE54 sha1 90FE11217B9D3FF09A5C45CC2FE806A13EAEA999 )
+)
+game (
+	name "Poetiru (World) (Aftermarket) (Unl)"
+	description "Poetiru (World) (Aftermarket) (Unl)"
+	rom ( name "Poetiru (World) (Aftermarket) (Unl).bin" size 32768 crc 65804DD9 md5 F0ABD58C1DE2BA3E577F90C3D52DD7FC sha1 58FA0E899B1522CFD5D613E44EB011B3E06A010D )
 )
 game (
 	name "Pole Position II (Europe)"
 	description "Pole Position II (Europe)"
 	region "Europe"
-	rom ( name "Pole Position II (Europe).a78" size 32768 crc D751C7A6 md5 865457E0E0F48253B08F77B9E18F93B2 sha1 268E53B5B2117BF853E0AAE6ADB0B2D3AAD8AD5C )
+	rom ( name "Pole Position II (Europe).bin" size 32768 crc D751C7A6 md5 865457E0E0F48253B08F77B9E18F93B2 sha1 268E53B5B2117BF853E0AAE6ADB0B2D3AAD8AD5C )
 )
 game (
 	name "Pole Position II (USA)"
 	description "Pole Position II (USA)"
 	region "USA"
-	rom ( name "Pole Position II (USA).a78" size 32768 crc A85FB962 md5 584582BB09EE8122E7FC09DC7D1ED813 sha1 CCFA6F3F83DDBED2A2FB32735FEA316A718FBAAA )
+	rom ( name "Pole Position II (USA).bin" size 32768 crc A85FB962 md5 584582BB09EE8122E7FC09DC7D1ED813 sha1 CCFA6F3F83DDBED2A2FB32735FEA316A718FBAAA )
 )
 game (
 	name "Pole Position II (USA) (Beta)"
 	description "Pole Position II (USA) (Beta)"
 	region "USA"
-	rom ( name "Pole Position II (USA) (Beta).a78" size 32768 crc FD40B838 md5 DAB84748D29D3854BCA3675A8937988B sha1 E65E2BBF62F902C4DEE3F2E95EC5A222D151BEB4 )
-)
-game (
-	name "Popeye (World) (v2.40) (Aftermarket) (Unl)"
-	description "Popeye (World) (v2.40) (Aftermarket) (Unl)"
-	rom ( name "Popeye (World) (v2.40) (Aftermarket) (Unl).a78" size 147584 crc E495C257 md5 FD2046536C94B5214FB7D28C21318281 sha1 272F0BC69EBCAED628509F3B7C550F04F4EF581A )
+	rom ( name "Pole Position II (USA) (Beta).bin" size 32768 crc FD40B838 md5 DAB84748D29D3854BCA3675A8937988B sha1 E65E2BBF62F902C4DEE3F2E95EC5A222D151BEB4 )
 )
 game (
 	name "Popeye (World) (v2.40) (Demo) (Aftermarket) (Unl)"
@@ -585,182 +1383,605 @@ game (
 	rom ( name "Popeye (World) (v2.40) (Demo) (Aftermarket) (Unl).a78" size 147584 crc 540EE434 md5 FD43685B87D8D040A3A8D03EA7790EC7 sha1 2CD957D09A251234AEFA1E5BADD4941AE8BC4A87 )
 )
 game (
+	name "Popeye (World) (v2.40) (Demo) (Aftermarket) (Unl)"
+	description "Popeye (World) (v2.40) (Demo) (Aftermarket) (Unl)"
+	rom ( name "Popeye (World) (v2.40) (Demo) (Aftermarket) (Unl).bin" size 147456 crc 269BB296 md5 61E6A16889B62216116EEA136269A4C0 sha1 B176E6183D9B982C38ECFF717B1AFD7142E14A31 )
+)
+game (
 	name "Rampage (USA)"
 	description "Rampage (USA)"
 	region "USA"
-	rom ( name "Rampage (USA).a78" size 131072 crc 39A316AA md5 AC03806CEF2558FC795A7D5D8DBA7BC0 sha1 13745B5EAAAB7E2C992F3312285E112CDEB424F6 )
+	rom ( name "Rampage (USA).bin" size 131072 crc 39A316AA md5 AC03806CEF2558FC795A7D5D8DBA7BC0 sha1 13745B5EAAAB7E2C992F3312285E112CDEB424F6 )
 )
 game (
 	name "Rampart (USA) (Proto)"
 	description "Rampart (USA) (Proto)"
 	region "USA"
-	rom ( name "Rampart (USA) (Proto).a78" size 131072 crc E8C2A662 md5 442761655BB25DDFE5F7AB16BF591C6F sha1 53516794CB442208AF5D54760324C006510553B3 )
+	rom ( name "Rampart (USA) (Proto).bin" size 131072 crc E8C2A662 md5 442761655BB25DDFE5F7AB16BF591C6F sha1 53516794CB442208AF5D54760324C006510553B3 )
 )
 game (
 	name "RealSports Baseball (USA)"
 	description "RealSports Baseball (USA)"
 	region "USA"
-	rom ( name "RealSports Baseball (USA).a78" size 65536 crc B1508030 md5 383ED9BD1EFB9B6CB3388A777678C928 sha1 9A9F60251D049630099F56D2D3EFB013828B8A2C )
+	rom ( name "RealSports Baseball (USA).bin" size 65536 crc B1508030 md5 383ED9BD1EFB9B6CB3388A777678C928 sha1 9A9F60251D049630099F56D2D3EFB013828B8A2C )
 )
 game (
 	name "Rescue on Fractalus (USA) (Proto)"
 	description "Rescue on Fractalus (USA) (Proto)"
 	region "USA"
-	rom ( name "Rescue on Fractalus (USA) (Proto).a78" size 32768 crc 9A74FBF2 md5 8F7EB10AD0BD75474ABF0C6C36C08486 sha1 6653022F38E553D475896A918850158EAF8F77FF )
+	rom ( name "Rescue on Fractalus (USA) (Proto).bin" size 32768 crc 9A74FBF2 md5 8F7EB10AD0BD75474ABF0C6C36C08486 sha1 6653022F38E553D475896A918850158EAF8F77FF )
+)
+game (
+	name "Rip-Off (World) (v1.05) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.05) (NTSC) (Aftermarket) (Unl).a78" size 16512 crc E14F228E md5 6053D17258F0E5307D895FEA87314063 sha1 AE42664106EF2793EEAE48F89B05BCEFBE527BEB )
+)
+game (
+	name "Rip-Off (World) (v1.05) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.05) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc AB65A41D md5 43525A0405184875C2ECFD0196886A34 sha1 6C377EF750C8A7EEBCCDE2C6CDAA3C0D0DF65852 )
+)
+game (
+	name "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl).a78" size 16512 crc BB7DA3E7 md5 2535C4315838EC09C7140AF4072653C0 sha1 E4A8158DA9E15712940778E8919C3D84A105C429 )
+)
+game (
+	name "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.05) (PAL) (Aftermarket) (Unl).bin" size 16384 crc B1C8D47D md5 106B409C6F4C219B1A3B3D099EAD3B2B sha1 52DDB5FDF55C5862DC435DFEC37D0C59948DCB19 )
+)
+game (
+	name "Rip-Off (World) (v1.06) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.06) (NTSC) (Aftermarket) (Unl).a78" size 16512 crc E62FE9CA md5 F8BC85BEB039BFCA19FEBF5A60A99FE6 sha1 C29C7A8CFAF78B3A6CF7A65294A45E2002C54D07 )
+)
+game (
+	name "Rip-Off (World) (v1.06) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.06) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc AC056F59 md5 803743FE18600F292456539906464421 sha1 2402033A1D275EC6D8E499264F7F388CE576186C )
+)
+game (
+	name "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl).a78" size 16512 crc B8C8E216 md5 66ACEC89356BC9E18C2F49E2178AF1E2 sha1 2DAC5E0FBB9C2BFD236D525E031D751FF358C4FE )
+)
+game (
+	name "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	description "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Rip-Off (World) (v1.06) (PAL) (Aftermarket) (Unl).bin" size 16384 crc F2E26485 md5 7389B31C8BB7442C708416D818D8D19A sha1 DF8DD497F9275D7E8A26298E67ACED08AFC9B040 )
+)
+game (
+	name "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	description "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	releaseyear "2005"
+	releasemonth "06"
+	releaseday "19"
+	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).a78" size 32896 crc C1580BBA md5 3525DE942C18269A5AD1A1D0271D3F32 sha1 131035773A422D067CA8D3EFCD0A7F9095CD3595 )
+)
+game (
+	name "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	description "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	releaseyear "2005"
+	releasemonth "06"
+	releaseday "19"
+	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).bin" size 32768 crc FCB76ABE md5 9646D482A8AD187AE52CD21C0DE365FB sha1 9D71E736923A226174126099D3E46197EA4452B8 )
+)
+game (
+	name "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	description "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "03"
+	releaseday "31"
+	rom ( name "Robot Finds Kitten (World) (2022-03-31) (Aftermarket) (Unl).a78" size 32896 crc A1030447 md5 69DA9CD0C9FE39710A0F1B9AABE44D2F sha1 3E1D1B795A8431A48DB57C70E3B4A523C741EA0A )
+)
+game (
+	name "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	description "Robot Finds Kitten (World) (Aftermarket) (Unl)"
+	releaseyear "2022"
+	releasemonth "03"
+	releaseday "31"
+	rom ( name "Robot Finds Kitten (World) (2022-03-31) (Aftermarket) (Unl).bin" size 32768 crc 42201CCA md5 E4C2179B37693B84AA9C8D85F2527004 sha1 9E5B985DC5508019E2BC18AD364FBFB2B3689BB4 )
 )
 game (
 	name "Robotron - 2084 (USA)"
 	description "Robotron - 2084 (USA)"
 	region "USA"
-	rom ( name "Robotron - 2084 (USA).a78" size 32768 crc CB22305D md5 66ECAAFE1B82AE68FFC96267AAF7A4D7 sha1 CCC9753CDCBD2A2F8CB7966B8227801BA0BFD41D )
+	rom ( name "Robotron - 2084 (USA).bin" size 32768 crc CB22305D md5 66ECAAFE1B82AE68FFC96267AAF7A4D7 sha1 CCC9753CDCBD2A2F8CB7966B8227801BA0BFD41D )
+)
+game (
+	name "Santa Simon (World) (Aftermarket) (Unl)"
+	description "Santa Simon (World) (Aftermarket) (Unl)"
+	rom ( name "Santa Simon (World) (Aftermarket) (Unl).a78" size 49280 crc 8689B7D1 md5 C1F23C330D36318CAE0617BEEDCB28F5 sha1 BE3C8A89D969409A85C36EC1A63C0B3FA78E1C9B )
+)
+game (
+	name "Santa Simon (World) (Aftermarket) (Unl)"
+	description "Santa Simon (World) (Aftermarket) (Unl)"
+	rom ( name "Santa Simon (World) (Aftermarket) (Unl).bin" size 49152 crc DEAFA85E md5 AE85689B21BDF85CB9DC57C3B1FEC9DB sha1 635340BB2E0060FB47B0156F105D0D2E4C2CF635 )
+)
+game (
+	name "Scramble (World) (v1.14) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.14) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.14) (NTSC) (Aftermarket) (Unl).a78" size 49280 crc 79B068DF md5 8AC39665C208638850A29952C630DDC1 sha1 2B4796FA6E55928D216C719A9319A0000AAAFC8B )
+)
+game (
+	name "Scramble (World) (v1.14) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.14) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.14) (NTSC) (Aftermarket) (Unl).bin" size 49152 crc 6BBB722A md5 57651B6C8E62811FAB0361CEA537B79C sha1 DAD62D7803CF7ECB3D4F978B3F8B08E97D14AC15 )
+)
+game (
+	name "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl).a78" size 49280 crc C98EDF0C md5 70FBC19BF5CC8A973A7C2F18B571BF40 sha1 33F021B672D19DB0540B3D3286A0305BCF1F4C3C )
+)
+game (
+	name "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.14) (PAL) (Aftermarket) (Unl).bin" size 49152 crc B0EA0214 md5 65FE82F419F6583A0F9A736242CB303D sha1 64C22CB614BD2FFCF45A4648C5B0572166189A34 )
+)
+game (
+	name "Scramble (World) (v1.15) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.15) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.15) (NTSC) (Aftermarket) (Unl).a78" size 49280 crc 6736D0FF md5 F1653C4399A3B5B5CFB300D55F080B5D sha1 05E73C3A53FADC9214C4CADBED64F73A3C66EE62 )
+)
+game (
+	name "Scramble (World) (v1.15) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.15) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.15) (NTSC) (Aftermarket) (Unl).bin" size 49152 crc 753DCA0A md5 31B20A4710E691300BB4AA62CF02284C sha1 BCABA22502BEE85D20E4012DF2FCD90FFC3DE43B )
+)
+game (
+	name "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl).a78" size 49280 crc 50EC4AD0 md5 EEB13DD767793BADFC0D0651DF048041 sha1 4A2DB5EAC7DF8C33BBF4F4E961F74E542076B549 )
+)
+game (
+	name "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl)"
+	description "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Scramble (World) (v1.15) (PAL) (Aftermarket) (Unl).bin" size 49152 crc 298897C8 md5 D79A44F51F21FC5BFE4448453D402D30 sha1 D51E3F56665E2C92DBA7A7844C5D9BD68041AB7B )
 )
 game (
 	name "Scrapyard Dog (Europe)"
 	description "Scrapyard Dog (Europe)"
 	region "Europe"
-	rom ( name "Scrapyard Dog (Europe).a78" size 131072 crc 46DD9662 md5 53DB322C201323FE2CA8F074C0A2BF86 sha1 EBFED67CFEEBC6A558DBB087E4784E5E5258C2E1 )
+	rom ( name "Scrapyard Dog (Europe).bin" size 131072 crc 46DD9662 md5 53DB322C201323FE2CA8F074C0A2BF86 sha1 EBFED67CFEEBC6A558DBB087E4784E5E5258C2E1 )
 )
 game (
 	name "Scrapyard Dog (USA)"
 	description "Scrapyard Dog (USA)"
 	region "USA"
-	rom ( name "Scrapyard Dog (USA).a78" size 131072 crc 5CC8C34F md5 980C35AE9625773A450AA7EF51751C04 sha1 F2249321D0CC296B9F9E516BBC5ECC9AAB56CA22 )
+	rom ( name "Scrapyard Dog (USA).bin" size 131072 crc 5CC8C34F md5 980C35AE9625773A450AA7EF51751C04 sha1 F2249321D0CC296B9F9E516BBC5ECC9AAB56CA22 )
 )
 game (
 	name "Sentinel (Europe)"
 	description "Sentinel (Europe)"
 	region "Europe"
-	rom ( name "Sentinel (Europe).a78" size 131072 crc 47340DF9 md5 5469B4DE0608F23A5C4F98F331C9E75F sha1 6D85A73A56D2F02FF439736EACE86691AA613444 )
+	rom ( name "Sentinel (Europe).bin" size 131072 crc 47340DF9 md5 5469B4DE0608F23A5C4F98F331C9E75F sha1 6D85A73A56D2F02FF439736EACE86691AA613444 )
 )
 game (
 	name "Sentinel (USA) (Proto)"
 	description "Sentinel (USA) (Proto)"
 	region "USA"
-	rom ( name "Sentinel (USA) (Proto).a78" size 131072 crc 2FDDAD78 md5 B697D9C2D1B9F6CB21041286D1BBFA7F sha1 BD7DE03A28B168C992BCAA96539C2310F3BFE30C )
+	rom ( name "Sentinel (USA) (Proto).bin" size 131072 crc 2FDDAD78 md5 B697D9C2D1B9F6CB21041286D1BBFA7F sha1 BD7DE03A28B168C992BCAA96539C2310F3BFE30C )
+)
+game (
+	name "Serpentine (World) (Aftermarket) (Unl)"
+	description "Serpentine (World) (Aftermarket) (Unl)"
+	rom ( name "Serpentine (World) (Aftermarket) (Unl).a78" size 131200 crc E2998530 md5 9678D452A26E08A4A55C13C809164399 sha1 6C43626C1A9B8A447BCB1981196A1CC797F9AE17 )
+)
+game (
+	name "Serpentine (World) (Aftermarket) (Unl)"
+	description "Serpentine (World) (Aftermarket) (Unl)"
+	rom ( name "Serpentine (World) (Aftermarket) (Unl).bin" size 131072 crc D9660CDC md5 9BD70C06D3386F76F8162881699A777A sha1 8C89962AF171AE17BC595B7B81728A89BCC2C9F7 )
+)
+game (
+	name "Shoot the UFO 2015 (World) (Aftermarket) (Unl)"
+	description "Shoot the UFO 2015 (World) (Aftermarket) (Unl)"
+	rom ( name "Shoot the UFO 2015 (World) (Aftermarket) (Unl).a78" size 32896 crc 73507BEE md5 F7C8B5F422E2412BBFB8D6F40AC67C71 sha1 595291F4A19BCD3CB7A56F54E67CEEF4B12868B9 )
+)
+game (
+	name "Shoot the UFO 2015 (World) (Aftermarket) (Unl)"
+	description "Shoot the UFO 2015 (World) (Aftermarket) (Unl)"
+	rom ( name "Shoot the UFO 2015 (World) (Aftermarket) (Unl).bin" size 32768 crc 15EEAD4B md5 19586366F625DB75B145F62C1D668F8E sha1 8EABCFB451CE3E60E492CD86CE5625FC1E285D80 )
+)
+game (
+	name "Shuriken (World) (Aftermarket) (Unl)"
+	description "Shuriken (World) (Aftermarket) (Unl)"
+	rom ( name "Shuriken (World) (Aftermarket) (Unl).a78" size 32896 crc D4B96817 md5 F25B213716FFAA2800343846D116519D sha1 3EB4383C78172241226DF66B0C0C22085B2C7BF4 )
+)
+game (
+	name "Shuriken (World) (Aftermarket) (Unl)"
+	description "Shuriken (World) (Aftermarket) (Unl)"
+	rom ( name "Shuriken (World) (Aftermarket) (Unl).bin" size 32768 crc 379A709A md5 16069C1F1416A84C0E7D9325885DD9BC sha1 6B1AED2253900AAEFE9F1E4FAA1E49000F920E2B )
+)
+game (
+	name "Sick Pickles (World) (Aftermarket) (Unl)"
+	description "Sick Pickles (World) (Aftermarket) (Unl)"
+	rom ( name "Sick Pickles (World) (Aftermarket) (Unl).a78" size 49280 crc 4E7948B3 md5 491EF8D9E4DD0AB592CFEA6F88D09C81 sha1 395EDCD25A3A42CF6169980E68F128BB8E085E98 )
+)
+game (
+	name "Sick Pickles (World) (Aftermarket) (Unl)"
+	description "Sick Pickles (World) (Aftermarket) (Unl)"
+	rom ( name "Sick Pickles (World) (Aftermarket) (Unl).bin" size 49152 crc 632696DA md5 96F69B85E0B43BBEBBBD59BB8276A372 sha1 999B4F2412C7908D4E2EB8E98CD090153B38FE07 )
 )
 game (
 	name "Sirius (USA) (Proto)"
 	description "Sirius (USA) (Proto)"
 	region "USA"
-	rom ( name "Sirius (USA) (Proto).a78" size 131072 crc 65AE616E md5 2D643AC548C40E58C99D0FE433BA4BA0 sha1 CD9F6DEA96F102262065D7472E73121B67F9E244 )
+	rom ( name "Sirius (USA) (Proto).bin" size 131072 crc 65AE616E md5 2D643AC548C40E58C99D0FE433BA4BA0 sha1 CD9F6DEA96F102262065D7472E73121B67F9E244 )
+)
+game (
+	name "Sirius XM (World) (Aftermarket) (Unl)"
+	description "Sirius XM (World) (Aftermarket) (Unl)"
+	rom ( name "Sirius XM (World) (Aftermarket) (Unl).a78" size 131200 crc 9B9AEDAB md5 E2D39741D9646356C7F0C5DB1FE77145 sha1 8FC5DCAFED7D08AF7FF4FC3BF3A169704DEB9773 )
+)
+game (
+	name "Sirius XM (World) (Aftermarket) (Unl)"
+	description "Sirius XM (World) (Aftermarket) (Unl)"
+	rom ( name "Sirius XM (World) (Aftermarket) (Unl).bin" size 131072 crc B0F30A69 md5 C044AC97A06A537B68EC116363147086 sha1 75BA274C7D3ED2DAB32670FDB8F3B60540BA2E06 )
+)
+game (
+	name "Slide Boy in Maze Land (World) (Beta) (Aftermarket) (Unl)"
+	description "Slide Boy in Maze Land (World) (Beta) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "05"
+	releaseday "10"
+	rom ( name "Slide Boy in Maze Land (World) (2021-05-10) (Beta) (Aftermarket) (Unl).a78" size 49280 crc 74F0D327 md5 A8DBC39F12401886E8101D63A3CD3E46 sha1 7FDB898926D7A922A7B681690B7BFB93FAECF148 )
+)
+game (
+	name "Slide Boy in Maze Land (World) (Beta) (Aftermarket) (Unl)"
+	description "Slide Boy in Maze Land (World) (Beta) (Aftermarket) (Unl)"
+	releaseyear "2021"
+	releasemonth "05"
+	releaseday "10"
+	rom ( name "Slide Boy in Maze Land (World) (2021-05-10) (Beta) (Aftermarket) (Unl).bin" size 49152 crc B4562D58 md5 280C599BEF1ABBD9F70C1E26696EF242 sha1 F490347E7C29DB7463013CDE587E43B13F12B247 )
+)
+game (
+	name "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl)"
+	description "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl).a78" size 49280 crc 85AB68CF md5 538CA983BF806DE8B863E28FA0C54CD2 sha1 4BC76AD90326FD2A118E797501B6FB35BFA88CB7 )
+)
+game (
+	name "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl)"
+	description "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl)"
+	rom ( name "Slide Boy in Maze Land (World) (Digital) (Aftermarket) (Unl).bin" size 49152 crc 0DEE43DE md5 F415904C5B48C294E627AB7DBF697830 sha1 3F85BE79D26FC09FDBE23DCF97C80A980850D7DA )
+)
+game (
+	name "Space Duel (World) (v1.09) (Aftermarket) (Unl)"
+	description "Space Duel (World) (v1.09) (Aftermarket) (Unl)"
+	rom ( name "Space Duel (World) (v1.09) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc D795B3DA md5 1C34906D1D52D2F517C602D803B24032 sha1 DE21B55BADD1A4F0A5117AAB0FD57A2B3DB72D1D )
+)
+game (
+	name "Space Duel (World) (v1.09) (Aftermarket) (Unl)"
+	description "Space Duel (World) (v1.09) (Aftermarket) (Unl)"
+	rom ( name "Space Duel (World) (v1.09) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc EF2D2560 md5 771CB4609347657F63E6F0EB26036E35 sha1 199D06CF7F54BB0A1FA328D3CFF955F4BCF90450 )
+)
+game (
+	name "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	description "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl).a78" size 32896 crc 36D212F9 md5 560E3ACF0A07BFA63F57BE753C5FC5F2 sha1 8FD416C300F438E9ECC15D8F0C885A3B11981E50 )
+)
+game (
+	name "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	description "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Space Duel (World) (v1.09) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 0E6A8443 md5 A84C1B2300FBFBF21B1C02387F613DAD sha1 03D3C7E6255FC6F1B8BBF6DC3CCDBAF51B7EABF7 )
+)
+game (
+	name "Space Invaders (World) (v2.01) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.01) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.01) (NTSC) (Aftermarket) (Unl).a78" size 16512 crc F2699E24 md5 B8A0FF984CCF7E79EDAD9B3CC221DAAE sha1 F04FC68880BA2D6EC57C39012749E413CCA144D1 )
+)
+game (
+	name "Space Invaders (World) (v2.01) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.01) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.01) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc 9C3086EB md5 6ADF79558A3D7F5BECA1BB8D34337417 sha1 167C06A5D9364F3359BB531D5533F4FF49283D47 )
+)
+game (
+	name "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl).a78" size 32896 crc A78E5587 md5 D751F0A93C7658793842A2B3D3CB548C sha1 4C02D00D28BF6E8D58D1AB5F8D2B69D8325A65CB )
+)
+game (
+	name "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.01) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 9F36C33D md5 57C5026C60E939C285C44E6FA1BFBC81 sha1 6405E4D5F9F5B86ADDBF83867398233BB128B928 )
+)
+game (
+	name "Space Invaders (World) (v2.02) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.02) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.02) (Aftermarket) (Unl).a78" size 16512 crc 8F873069 md5 C3F0ACF82157990F1F27334DCF0FBDB8 sha1 795026B9E7A753A683D88B27E5D083C10402BE55 )
+)
+game (
+	name "Space Invaders (World) (v2.02) (Aftermarket) (Unl)"
+	description "Space Invaders (World) (v2.02) (Aftermarket) (Unl)"
+	rom ( name "Space Invaders (World) (v2.02) (Aftermarket) (Unl).bin" size 16384 crc BE900754 md5 783D09AD9542B0BB28AA4CC6FFCF8AA6 sha1 D68E4896FC50053A37C66669AF4B73B930286EA1 )
+)
+game (
+	name "Space Race (World) (v0.96) (Aftermarket) (Unl)"
+	description "Space Race (World) (v0.96) (Aftermarket) (Unl)"
+	rom ( name "Space Race (World) (v0.96) (Aftermarket) (Unl).a78" size 49280 crc 6DD90F8C md5 6BF94F70E3109CF323F6D10E1EB75C43 sha1 31A3F2618A17B4479C2F08BE6B156F4A52B054CF )
+)
+game (
+	name "Space Race (World) (v0.96) (Aftermarket) (Unl)"
+	description "Space Race (World) (v0.96) (Aftermarket) (Unl)"
+	rom ( name "Space Race (World) (v0.96) (Aftermarket) (Unl).bin" size 49152 crc E59C249D md5 9A11430D4EAEB3F7375BC2B92353C5DB sha1 38F0A2646642EC8FF0B9702D4E1C08D537FC28C8 )
+)
+game (
+	name "Stinger (World) (Aftermarket) (Unl)"
+	description "Stinger (World) (Aftermarket) (Unl)"
+	rom ( name "Stinger (World) (Aftermarket) (Unl).a78" size 32896 crc 2C98CE80 md5 8F20411A26326459EE3708DA1E1ADC59 sha1 BCDD587F6DA83631207CC2D5E8531688A0E1F700 )
+)
+game (
+	name "Stinger (World) (Aftermarket) (Unl)"
+	description "Stinger (World) (Aftermarket) (Unl)"
+	rom ( name "Stinger (World) (Aftermarket) (Unl).bin" size 32768 crc CFBBD60D md5 32B920423D0E131ACFD745C0E5E43E67 sha1 E38A104F18DF878A6C35C1CA990B76CF445A3EDD )
 )
 game (
 	name "Summer Games (USA)"
 	description "Summer Games (USA)"
 	region "USA"
-	rom ( name "Summer Games (USA).a78" size 131072 crc 65C6DF3F md5 CBB0746192540A13B4C7775C7CE2021F sha1 31D46B32A2AA8D5BD6028CFF1F41037426B22409 )
+	rom ( name "Summer Games (USA).bin" size 131072 crc 65C6DF3F md5 CBB0746192540A13B4C7775C7CE2021F sha1 31D46B32A2AA8D5BD6028CFF1F41037426B22409 )
+)
+game (
+	name "Super Circus AtariAge (World) (Aftermarket) (Unl)"
+	description "Super Circus AtariAge (World) (Aftermarket) (Unl)"
+	rom ( name "Super Circus AtariAge (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 110B8249 md5 67CBC77B3E7908FF8AC4D96A8AD6F6FF sha1 E163A77F2552FA8E5F70316C8AE8AFCD6C737943 )
+)
+game (
+	name "Super Circus AtariAge (World) (Aftermarket) (Unl)"
+	description "Super Circus AtariAge (World) (Aftermarket) (Unl)"
+	rom ( name "Super Circus AtariAge (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc EC839981 md5 81CEE326B99D6831DE10A566E338BD25 sha1 E6BB155D5746D21E1B660C674097F836BA22E773 )
+)
+game (
+	name "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl)"
+	description "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl).a78" size 32896 crc AAC29C8B md5 ADA191BEEF74A11F53D59BF51810518F sha1 31D958CA0E8614FD0DA4FAE2E2CB83BDEBE1E667 )
+)
+game (
+	name "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl)"
+	description "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Circus AtariAge (World) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 2A9088C6 md5 2D6C9658CF770A396A106195F81FCC21 sha1 D7D39EBD7285827E8173671B15A4A408CB515A9A )
 )
 game (
 	name "Super Huey UH-IX (Europe)"
 	description "Super Huey UH-IX (Europe)"
 	region "Europe"
-	rom ( name "Super Huey UH-IX (Europe).a78" size 49152 crc 6B27EA2C md5 162F9C953F0657689CC74AB20B40280F sha1 469E03EE1E22EF0978C8095A38D662D34A413723 )
+	rom ( name "Super Huey UH-IX (Europe).bin" size 49152 crc 6B27EA2C md5 162F9C953F0657689CC74AB20B40280F sha1 469E03EE1E22EF0978C8095A38D662D34A413723 )
 )
 game (
 	name "Super Huey UH-IX (USA)"
 	description "Super Huey UH-IX (USA)"
 	region "USA"
-	rom ( name "Super Huey UH-IX (USA).a78" size 49152 crc 71846500 md5 CC18E3B37A507C4217EB6CB1DE8C8538 sha1 29AEA9E90C446942001FD08D3C4C929F4CE048D7 )
+	rom ( name "Super Huey UH-IX (USA).bin" size 49152 crc 71846500 md5 CC18E3B37A507C4217EB6CB1DE8C8538 sha1 29AEA9E90C446942001FD08D3C4C929F4CE048D7 )
+)
+game (
+	name "Super Pac-Man (World) (v1.09) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.09) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.09) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 79E2BE17 md5 4E424B43ED2AA588F804BC35F21E7236 sha1 0927E0FFD2477D7026A1F24A49D8BB89FD475D55 )
+)
+game (
+	name "Super Pac-Man (World) (v1.09) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.09) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.09) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 415A28AD md5 7AB539BB0E99E1E5A1C89230BDE64610 sha1 E1C51FA453B8DC600E5D7F46DF1443B99A1507D0 )
+)
+game (
+	name "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl).a78" size 32896 crc D1983466 md5 DB13362052F0614A22381FBB6D257343 sha1 1A6CBCB6C7B326D34A99F1481976A8A446E88A27 )
+)
+game (
+	name "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.09) (PAL) (Aftermarket) (Unl).bin" size 32768 crc E920A2DC md5 61AA4A074AD08C524FBEE88D15E369EA sha1 58375542CB3C2ECF2E2800D280C2D56A58804E77 )
+)
+game (
+	name "Super Pac-Man (World) (v1.10) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.10) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.10) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 451914C8 md5 F2BC1C00A444A5835E78B475E4778E03 sha1 14123AE1D19676CBD446C64441805F998A943169 )
+)
+game (
+	name "Super Pac-Man (World) (v1.10) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.10) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.10) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 7DA18272 md5 88B9DE0EBA37BA516590FA8B860155F0 sha1 756F3F28D1EC31D30182CFEFA8A57394C3D88DD7 )
+)
+game (
+	name "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl).a78" size 32896 crc E94EE02A md5 0B1FC22955C2888F93B6E8C70BA50174 sha1 5D016126A4E2B9EB923A6E6A66429F9E12B45201 )
+)
+game (
+	name "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl)"
+	description "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl)"
+	rom ( name "Super Pac-Man (World) (v1.10) (PAL) (Aftermarket) (Unl).bin" size 32768 crc 24C93682 md5 28AA5DB1AE42578E4DAD83EB0B78C472 sha1 0637E4CF50F7903AA56758B67974C0BF4F3F4563 )
 )
 game (
 	name "Super Skateboardin' (Europe)"
 	description "Super Skateboardin' (Europe)"
 	region "Europe"
-	rom ( name "Super Skateboardin' (Europe).a78" size 32768 crc 8F167BA9 md5 95D7C321DCE8F57623A9C5B4947BB375 sha1 FAB349584AF7B6B3F9B034AF3034F43257E2C25F )
+	rom ( name "Super Skateboardin' (Europe).bin" size 32768 crc 8F167BA9 md5 95D7C321DCE8F57623A9C5B4947BB375 sha1 FAB349584AF7B6B3F9B034AF3034F43257E2C25F )
 )
 game (
 	name "Super Skateboardin' (USA)"
 	description "Super Skateboardin' (USA)"
 	region "USA"
-	rom ( name "Super Skateboardin' (USA).a78" size 32768 crc 13B68650 md5 59B5793BECE1C80F77B55D60FB39CB94 sha1 666D9383C112B66026898E6002B803801E269C51 )
+	rom ( name "Super Skateboardin' (USA).bin" size 32768 crc 13B68650 md5 59B5793BECE1C80F77B55D60FB39CB94 sha1 666D9383C112B66026898E6002B803801E269C51 )
 )
 game (
 	name "Tank Command (USA)"
 	description "Tank Command (USA)"
 	region "USA"
-	rom ( name "Tank Command (USA).a78" size 65536 crc DB91B181 md5 5C4F752371A523F15E9980FEA73B874D sha1 1D2975D754806416A25A821DB6A9FE389BF5D946 )
+	rom ( name "Tank Command (USA).bin" size 65536 crc DB91B181 md5 5C4F752371A523F15E9980FEA73B874D sha1 1D2975D754806416A25A821DB6A9FE389BF5D946 )
 )
 game (
 	name "Title Match Pro Wrestling (Europe)"
 	description "Title Match Pro Wrestling (Europe)"
 	region "Europe"
-	rom ( name "Title Match Pro Wrestling (Europe).a78" size 32768 crc 16B54D5B md5 3BB9C8D9ADC912DD7F8471C97445CD8D sha1 7AB281C9B69692823B3B6B594856172363C507B5 )
+	rom ( name "Title Match Pro Wrestling (Europe).bin" size 32768 crc 16B54D5B md5 3BB9C8D9ADC912DD7F8471C97445CD8D sha1 7AB281C9B69692823B3B6B594856172363C507B5 )
 )
 game (
 	name "Title Match Pro Wrestling (USA)"
 	description "Title Match Pro Wrestling (USA)"
 	region "USA"
-	rom ( name "Title Match Pro Wrestling (USA).a78" size 32768 crc BC23C57B md5 1AF475FF6429A160752B592F0F92B287 sha1 80D11BCBB953CCD8BF3C3E64162711E7EDB95090 )
+	rom ( name "Title Match Pro Wrestling (USA).bin" size 32768 crc BC23C57B md5 1AF475FF6429A160752B592F0F92B287 sha1 80D11BCBB953CCD8BF3C3E64162711E7EDB95090 )
 )
 game (
 	name "Tomcat - The F-14 Fighter Simulator (Europe)"
 	description "Tomcat - The F-14 Fighter Simulator (Europe)"
 	region "Europe"
-	rom ( name "Tomcat - The F-14 Fighter Simulator (Europe).a78" size 32768 crc B01205BF md5 682338364243B023ECC9D24F0ABFC9A7 sha1 825381773593365B5CA7EECA968CCA00879EEE71 )
+	rom ( name "Tomcat - The F-14 Fighter Simulator (Europe).bin" size 32768 crc B01205BF md5 682338364243B023ECC9D24F0ABFC9A7 sha1 825381773593365B5CA7EECA968CCA00879EEE71 )
 )
 game (
 	name "Tomcat - The F-14 Fighter Simulator (USA)"
 	description "Tomcat - The F-14 Fighter Simulator (USA)"
 	region "USA"
-	rom ( name "Tomcat - The F-14 Fighter Simulator (USA).a78" size 32768 crc 513CB9EE md5 C3903AB01A51222A52197DBFE6538ECF sha1 80C615FB60D0004C1ACCDE25E42759572E030928 )
+	rom ( name "Tomcat - The F-14 Fighter Simulator (USA).bin" size 32768 crc 513CB9EE md5 C3903AB01A51222A52197DBFE6538ECF sha1 80C615FB60D0004C1ACCDE25E42759572E030928 )
+)
+game (
+	name "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl)"
+	description "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl)"
+	rom ( name "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl).a78" size 49280 crc EDD00D48 md5 9375A630AEB208EB8880609FFE6234D4 sha1 7CFCD94B92606211D82DB5283447FCD9084BE927 )
+)
+game (
+	name "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl)"
+	description "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl)"
+	rom ( name "Touchdown Challenge (World) (v2.21) (Aftermarket) (Unl).bin" size 49152 crc 65952659 md5 FF825FCBED9BF6993EDD422FCC592673 sha1 D93F294BAAA5E2046CEC7AB4242E07A86A414004 )
 )
 game (
 	name "Touchdown Football (USA)"
 	description "Touchdown Football (USA)"
 	region "USA"
-	rom ( name "Touchdown Football (USA).a78" size 131072 crc AAE12695 md5 208EF955FA90A29815EB097BCE89BACE sha1 364BF0FEF8A67F7E66761C76A3A6A0DD186F04AA )
+	rom ( name "Touchdown Football (USA).bin" size 131072 crc AAE12695 md5 208EF955FA90A29815EB097BCE89BACE sha1 364BF0FEF8A67F7E66761C76A3A6A0DD186F04AA )
 )
 game (
 	name "Tower Toppler (Europe)"
 	description "Tower Toppler (Europe)"
 	region "Europe"
-	rom ( name "Tower Toppler (Europe).a78" size 65536 crc 0F87FD7B md5 32A37244A9C6CC928DCDF02B45365AA8 sha1 56E1B795E80382EDB376E4536D1DEE539D4AC548 )
+	rom ( name "Tower Toppler (Europe).bin" size 65536 crc 0F87FD7B md5 32A37244A9C6CC928DCDF02B45365AA8 sha1 56E1B795E80382EDB376E4536D1DEE539D4AC548 )
 )
 game (
 	name "Tower Toppler (USA)"
 	description "Tower Toppler (USA)"
 	region "USA"
-	rom ( name "Tower Toppler (USA).a78" size 65536 crc 4407BA04 md5 8D64763DB3100AADC552DB5E6868506A sha1 53976013986E0AD3694AB9C021420B8172465DE7 )
+	rom ( name "Tower Toppler (USA).bin" size 65536 crc 4407BA04 md5 8D64763DB3100AADC552DB5E6868506A sha1 53976013986E0AD3694AB9C021420B8172465DE7 )
+)
+game (
+	name "Tunnels of Hyperion (World) (Aftermarket) (Unl)"
+	description "Tunnels of Hyperion (World) (Aftermarket) (Unl)"
+	rom ( name "Tunnels of Hyperion (World) (Aftermarket) (Unl).a78" size 49280 crc 6C0F5141 md5 9FC4B8016564D3070C28EA8436444380 sha1 522D80E7194898AFA0EED7D2CE8710A0296452BD )
+)
+game (
+	name "Tunnels of Hyperion (World) (Aftermarket) (Unl)"
+	description "Tunnels of Hyperion (World) (Aftermarket) (Unl)"
+	rom ( name "Tunnels of Hyperion (World) (Aftermarket) (Unl).bin" size 49152 crc ACA9AF3E md5 0D7E2674D802B41286E667BBAE3BCC94 sha1 5C5F69620CDF8D590615CCE0E5C2C60BAEED9DF6 )
+)
+game (
+	name "UniWarS (World) (v1.05) (Aftermarket) (Unl)"
+	description "UniWarS (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "UniWarS (World) (v1.05) (Aftermarket) (Unl).a78" size 32896 crc 5645AE47 md5 1E37BF2A0E6267D49822675540B5A07A sha1 D20E5DBAD5C34C96C79B11C9C494198B22793427 )
+)
+game (
+	name "UniWarS (World) (v1.05) (Aftermarket) (Unl)"
+	description "UniWarS (World) (v1.05) (Aftermarket) (Unl)"
+	rom ( name "UniWarS (World) (v1.05) (Aftermarket) (Unl).bin" size 32768 crc 2F8DF482 md5 79DF20EE86A989E669158BCB9D113E8A sha1 B25996712608E3A9E9A7C2EE23BF9F3FE4F7B1E1 )
+)
+game (
+	name "UniWarS (World) (v1.06) (Aftermarket) (Unl)"
+	description "UniWarS (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "UniWarS (World) (v1.06) (Aftermarket) (Unl).a78" size 32896 crc 8B04D33D md5 E64D6F6D258566C882D1EDB736AB9BFE sha1 126C214E1B32DBF3DD89A0FE8DA0FC3313A19B53 )
+)
+game (
+	name "UniWarS (World) (v1.06) (Aftermarket) (Unl)"
+	description "UniWarS (World) (v1.06) (Aftermarket) (Unl)"
+	rom ( name "UniWarS (World) (v1.06) (Aftermarket) (Unl).bin" size 32768 crc F2CC89F8 md5 F982C7DBF74C9C049CF7F875A46ED818 sha1 1470397B0AF5A72EED91EE7AD7F9FC9F81084E17 )
+)
+game (
+	name "Wasp! (World) (Aftermarket) (Unl)"
+	description "Wasp! (World) (Aftermarket) (Unl)"
+	rom ( name "Wasp! (World) (Aftermarket) (Unl).a78" size 32896 crc 9B566F99 md5 2C50134D55FE9CA98280F90A33709009 sha1 45B22DC034444C4511D705473653C47B9C809D49 )
+)
+game (
+	name "Wasp! (World) (Aftermarket) (Unl)"
+	description "Wasp! (World) (Aftermarket) (Unl)"
+	rom ( name "Wasp! (World) (Aftermarket) (Unl).bin" size 32768 crc CCDC2DBF md5 412CC5BFA08BD03244B9C4E8D46CD0A0 sha1 4E259A2A01E86E970AA58ACD94325F8A37EEA1CC )
 )
 game (
 	name "Water Ski (USA)"
 	description "Water Ski (USA)"
 	region "USA"
-	rom ( name "Water Ski (USA).a78" size 65536 crc 930B30DF md5 427CB05D0A1ABB068998E2760D77F4FB sha1 621C67C2228843405445222743BA3D7C1F04A3C4 )
+	rom ( name "Water Ski (USA).bin" size 65536 crc 930B30DF md5 427CB05D0A1ABB068998E2760D77F4FB sha1 621C67C2228843405445222743BA3D7C1F04A3C4 )
 )
 game (
 	name "Winter Games (USA)"
 	description "Winter Games (USA)"
 	region "USA"
-	rom ( name "Winter Games (USA).a78" size 131072 crc 8981B531 md5 3799D72F78DDA2EE87B0EF8BF7B91186 sha1 B3725D6F0834C68AC62CE13EB9EB0D01D1124E5E )
+	rom ( name "Winter Games (USA).bin" size 131072 crc 8981B531 md5 3799D72F78DDA2EE87B0EF8BF7B91186 sha1 B3725D6F0834C68AC62CE13EB9EB0D01D1124E5E )
+)
+game (
+	name "Wizard's Dungeon (World) (Aftermarket) (Unl)"
+	description "Wizard's Dungeon (World) (Aftermarket) (Unl)"
+	rom ( name "Wizard's Dungeon (World) (Aftermarket) (Unl).a78" size 49280 crc 985ED95E md5 9C71F5F9DB92217E9508EAA771A8CF56 sha1 3E6D18447518D79FD920A4DAC99F0931856DA282 )
+)
+game (
+	name "Wizard's Dungeon (World) (Aftermarket) (Unl)"
+	description "Wizard's Dungeon (World) (Aftermarket) (Unl)"
+	rom ( name "Wizard's Dungeon (World) (Aftermarket) (Unl).bin" size 49152 crc B5010737 md5 846751861993B907C512CC9C10C67035 sha1 3AC2F32C9A4F4370BB3B245AEC5044939140E1E1 )
+)
+game (
+	name "Wordle (World) (v1.07) (Aftermarket) (Unl)"
+	description "Wordle (World) (v1.07) (Aftermarket) (Unl)"
+	rom ( name "Wordle (World) (v1.07) (Aftermarket) (Unl).a78" size 131200 crc 718E07C5 md5 F71EC2B94F34B9290B70079550BE460C sha1 5D1BFB4F747AC621BE1CD85A5663778C15928BAF )
+)
+game (
+	name "Wordle (World) (v1.07) (Aftermarket) (Unl)"
+	description "Wordle (World) (v1.07) (Aftermarket) (Unl)"
+	rom ( name "Wordle (World) (v1.07) (Aftermarket) (Unl).bin" size 131072 crc 02C9EA66 md5 71CE8910B0EFD5D0014A9695CCE3B7AD sha1 66E663E698A2B327F924F46241F8DC720B947506 )
+)
+game (
+	name "Worm! (World) (Aftermarket) (Unl)"
+	description "Worm! (World) (Aftermarket) (Unl)"
+	rom ( name "Worm! (World) (Aftermarket) (Unl).a78" size 16512 crc D10FE951 md5 407D8305EE6604C2DC727BD774982C35 sha1 6AED0C4B4A829221D41F4E326056181E1F926C48 )
+)
+game (
+	name "Worm! (World) (Aftermarket) (Unl)"
+	description "Worm! (World) (Aftermarket) (Unl)"
+	rom ( name "Worm! (World) (Aftermarket) (Unl).bin" size 16384 crc 39296DA2 md5 6813FFFF510F930C867B3F0ABA78AC85 sha1 D1B7CD5C27C2EC39CBA55542EB1F90B027ABD50B )
 )
 game (
 	name "Xenophobe (Europe)"
 	description "Xenophobe (Europe)"
 	region "Europe"
-	rom ( name "Xenophobe (Europe).a78" size 131072 crc CF0E44F1 md5 70937C3184F0BE33D06F7F4382CA54DE sha1 B2CF7D6164D6E5ACD47E9F6D7CF60BB0F775B4A3 )
+	rom ( name "Xenophobe (Europe).bin" size 131072 crc CF0E44F1 md5 70937C3184F0BE33D06F7F4382CA54DE sha1 B2CF7D6164D6E5ACD47E9F6D7CF60BB0F775B4A3 )
 )
 game (
 	name "Xenophobe (USA)"
 	description "Xenophobe (USA)"
 	region "USA"
-	rom ( name "Xenophobe (USA).a78" size 131072 crc 5FD9A141 md5 05FB699DB9EEF564E2FE45C568746DBC sha1 867ADBFD7539FF81E68726ED6F5FF7326409539F )
+	rom ( name "Xenophobe (USA).bin" size 131072 crc 5FD9A141 md5 05FB699DB9EEF564E2FE45C568746DBC sha1 867ADBFD7539FF81E68726ED6F5FF7326409539F )
 )
 game (
 	name "Xevious (Europe)"
 	description "Xevious (Europe)"
 	region "Europe"
-	rom ( name "Xevious (Europe).a78" size 49152 crc D5AC738B md5 B1A9F196CE5F47CA8CAF8FA7BC4CA46C sha1 81647C8CE432F891328631B57DD3268DD315F8E8 )
+	rom ( name "Xevious (Europe).bin" size 49152 crc D5AC738B md5 B1A9F196CE5F47CA8CAF8FA7BC4CA46C sha1 81647C8CE432F891328631B57DD3268DD315F8E8 )
 )
 game (
 	name "Xevious (USA)"
 	description "Xevious (USA)"
 	region "USA"
-	rom ( name "Xevious (USA).a78" size 32768 crc 75FC124F md5 D7DC17379AA25E5AE3C14B9E780C6F6D sha1 1D4F0335B152239553534FCBBACDCA273802E3BD )
+	rom ( name "Xevious (USA).bin" size 32768 crc 75FC124F md5 D7DC17379AA25E5AE3C14B9E780C6F6D sha1 1D4F0335B152239553534FCBBACDCA273802E3BD )
 )
 game (
 	name "Xevious (USA) (Beta)"
 	description "Xevious (USA) (Beta)"
 	region "USA"
-	rom ( name "Xevious (USA) (Beta).a78" size 32768 crc 6FD15498 md5 DBBE99AEEB8CBC0F5F17CD0082D260A0 sha1 5F7D2D52ED8C9A3263EE0AEFB3BC05A2847665DD )
+	rom ( name "Xevious (USA) (Beta).bin" size 32768 crc 6FD15498 md5 DBBE99AEEB8CBC0F5F17CD0082D260A0 sha1 5F7D2D52ED8C9A3263EE0AEFB3BC05A2847665DD )
+)
+game (
+	name "bonQ (World) (Aftermarket) (Unl)"
+	description "bonQ (World) (Aftermarket) (Unl)"
+	rom ( name "bonQ (World) (Aftermarket) (Unl).a78" size 49280 crc CC71CAA1 md5 7BA3E43467603413C234518918D9FB76 sha1 BA493E783DB0768E79A11759D03CB219ADC048D2 )
+)
+game (
+	name "bonQ (World) (Aftermarket) (Unl)"
+	description "bonQ (World) (Aftermarket) (Unl)"
+	rom ( name "bonQ (World) (Aftermarket) (Unl).bin" size 49152 crc 4DD3160D md5 4307A86B0D23D171C3B40BCDBE7638FD sha1 2C8E1F88A142A66555E7C546878BBEF57F5209E4 )
 )
