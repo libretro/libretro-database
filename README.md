@@ -155,3 +155,9 @@ Alternatively, you can run the following command to rebuild all the RDBs locally
 ```
 make build
 ```
+
+## Integrations
+
+There are a few tools out there that allow integration with libretro's database.
+
+- [RetroArch CleanNaming](https://github.com/sirsquall/retroarch_cleannaming): Python script that will rename your roms
