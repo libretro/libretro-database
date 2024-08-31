@@ -156,6 +156,14 @@ Alternatively, you can run the following command to rebuild all the RDBs locally
 make build
 ```
 
+## Testing
+
+Make sure filenames are Windows file system compatible, and are not too long...
+
+```
+find -exec basename '{}' ';' | egrep '^.{150,}$'
+```
+
 ## Integrations
 
 There are a few tools out there that allow integration with libretro's database.
