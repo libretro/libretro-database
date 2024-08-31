@@ -158,10 +158,10 @@ make build
 
 ## Testing
 
-Make sure filenames are Windows file system compatible, and are not too long...
+Make sure filenames are Windows file system compatible, and are not too long (eg. [ecryptfs limits filenames to 143 characters](https://unix.stackexchange.com/questions/32795/what-is-the-maximum-allowed-filename-and-folder-size-with-ecryptfs/32834#32834))...
 
 ```
-find -exec basename '{}' ';' | egrep '^.{150,}$'
+find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
 
 ## Integrations
