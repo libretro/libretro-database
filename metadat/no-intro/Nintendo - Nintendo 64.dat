@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Nintendo 64"
 	description "Nintendo - Nintendo 64"
-	version "2024.05.19"
+	version "2024.09.19"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -130,6 +130,20 @@ game (
 	rom ( name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07).v64" size 33554432 crc 366ED851 md5 0E76998245819741E9693B7ABB2C1D9C sha1 2EA62384321E12E2B9C33196AE662A77B2125AE4 serial "N4WX" )
 )
 game (
+	name "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl)"
+	region "Europe"
+	serial "N4WZ"
+	rom ( name "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl).z64" size 33554432 crc 93C57D0B md5 B470B6BB0C0BE834FF357EB2D6AE9724 sha1 282B97C6A6EB79535E618FC2651B6156FFF65EA4 serial "N4WZ" )
+)
+game (
+	name "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl)"
+	description "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl)"
+	region "Europe"
+	serial "N4WZ"
+	rom ( name "40 Winks (Europe) (En,Fr,Es) (Aftermarket) (Unl).v64" size 33554432 crc 39AB592A md5 9766CED5CD0241ECC00414CC27E30EEE sha1 D45BD5051515C8434DA60ABD6862EEEE29CCA8E1 serial "N4WZ" )
+)
+game (
 	name "40 Winks (USA) (Aftermarket) (Unl)"
 	description "40 Winks (USA) (Aftermarket) (Unl)"
 	region "USA"
@@ -234,16 +248,6 @@ game (
 	rom ( name "64 de Hakken!! Tamagotchi - Minna de Tamagotchi World (Japan).v64" size 12582912 crc C6400938 md5 6463D5006439CD1BBFB2FBDBD062CCEA sha1 538AE3F3354C3FB96926D759E81CF64B827F2782 serial "NTWJ" )
 )
 game (
-	name "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 1052680 crc D52E97E1 md5 E9D53F8232119234A4C496C85765B57E sha1 6551A6E6523D6E4B3DD9B9DAE25D094933E3DC49 )
-)
-game (
-	name "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "64Noid (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 1052680 crc 2AA904F8 md5 E28DDC96810B29F3EBD735FE2A43EEE7 sha1 7D27C288EE386DC8250B75FE18C5700D43D2C3C4 )
-)
-game (
 	name "77a (World) (Presence of Mind '98) (Unl)"
 	description "77a (World) (Presence of Mind '98) (Unl)"
 	rom ( name "77a (World) (Presence of Mind '98) (Unl).z64" size 1310720 crc EF6D1CA6 md5 7D6AC6295EF6A0ABB3D4594AF407B7A6 sha1 498920D254664CE2134A1EEB8986385EB4CA3227 )
@@ -342,20 +346,6 @@ game (
 	region "Europe"
 	serial "NAGP"
 	rom ( name "AeroGauge (Europe) (En,Fr,De).v64" size 8388608 crc D8CA6C8E md5 45AA24B9C09F007590CEF795EBB67A94 sha1 1645CCF3C77D41B70BA7F3A6C7155EC819728CF0 serial "NAGP" )
-)
-game (
-	name "AeroGauge (Japan) (Demo) (Kiosk)"
-	description "AeroGauge (Japan) (Demo) (Kiosk)"
-	region "Japan"
-	serial "NAGJ"
-	rom ( name "AeroGauge (Japan) (Demo) (Kiosk).z64" size 8388608 crc 6EE3B932 md5 E970AF3DE25BB5AE1154010E26AF776F sha1 0253C33355986DDDA18A7A72B81B91DDC1BED978 serial "NAGJ" )
-)
-game (
-	name "AeroGauge (Japan) (Demo) (Kiosk)"
-	description "AeroGauge (Japan) (Demo) (Kiosk)"
-	region "Japan"
-	serial "NAGJ"
-	rom ( name "AeroGauge (Japan) (Demo) (Kiosk).v64" size 8388608 crc 4BA2A495 md5 A9E3A990BE71328800426FF716067E7D sha1 E6BB91D367911FDC7E858A7614560FFCE1758AEC serial "NAGJ" )
 )
 game (
 	name "AeroGauge (Japan) (Rev 1)"
@@ -784,16 +774,6 @@ game (
 	rom ( name "Army Men - Sarge's Heroes 2 (USA).v64" size 8388608 crc 3E9D1C51 md5 F85EC17F51F076D9D0F315EDAE6C192B sha1 FF1A799C6C0AEC45EFA7E0F8D107D91E1BBA5EEA serial "N32E" )
 )
 game (
-	name "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl)"
-	description "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl).z64" size 2097152 crc 42092E9F md5 786124ACBCDF0802AE94FE5CD6F5C2B3 sha1 A45870F01182052F4BEB98647754B3C3E306FFB2 )
-)
-game (
-	name "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl)"
-	description "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Asteroid Shooter (World) (Demo) (Aftermarket) (Unl).v64" size 2097152 crc CA8255FF md5 41841E75F6A9A758E52427A002A8829E sha1 D2E358F47A58522B418A566628930989DF02A8B0 )
-)
-game (
 	name "Asteroids 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
 	description "Asteroids 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
 	rom ( name "Asteroids 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 1052672 crc 835BF07B md5 E01C594074002A0C7B947728AD373588 sha1 0405381FD144072DDFB6BABD4175F6D0329FD81F )
@@ -1191,6 +1171,16 @@ game (
 	rom ( name "Beetle Adventure Racing! (USA) (En,Fr,De).v64" size 16777216 crc E3517FD8 md5 5559A7AAE79E960851CE754F873280CB sha1 52171429B655825A02864A94499816187D4014DC serial "NNSE" )
 )
 game (
+	name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl)"
+	description "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl)"
+	rom ( name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl).z64" size 53714352 crc 6B025E6A md5 BC912874226DAC9539508180C36190D9 sha1 96678AF80F6ABAC0C0042A57089432B2945870B5 )
+)
+game (
+	name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl)"
+	description "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl)"
+	rom ( name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl).v64" size 53714352 crc 43606121 md5 3EFBD54D64D677A6A53351207B35E9E8 sha1 A2DB0CD489745C574C8FBC33E07AA404102FBCC5 )
+)
+game (
 	name "Big Burger (World) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
 	description "Big Burger (World) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
 	rom ( name "Big Burger (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).z64" size 1052680 crc 38D45AE4 md5 FCACCC60351A9E7DE6647CE71E9C56C3 sha1 13C06F7E79BDF1D83E9247ABB1E78EF3E55C6B8D )
@@ -1223,26 +1213,6 @@ game (
 	region "USA"
 	serial "NMUE"
 	rom ( name "Big Mountain 2000 (USA).v64" size 12582912 crc FF44020C md5 E0B3354C7205DB2D67C1FA23462F6326 sha1 CDC88D4FFA5883D34FFC426C552DF200C4C65023 serial "NMUE" )
-)
-game (
-	name "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl)"
-	description "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl).z64" size 3145728 crc 601C8801 md5 0059B65E1C813BC8BD1A61A1FE009CCD sha1 F049A1EBB96C8A18E716ED15494C38A6098D01BF )
-)
-game (
-	name "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl)"
-	description "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Bike Race '98 (World) (v1.0) (Demo) (Presence of Mind '98) (Unl).v64" size 3145728 crc 168A3403 md5 B275FD982CA8EBEE45D594B68F63CF26 sha1 9F8729009B88C8EA01541225E9C1B4621ACFD9D6 )
-)
-game (
-	name "Bike Race '98 (World) (v1.2) (Demo) (Unl)"
-	description "Bike Race '98 (World) (v1.2) (Demo) (Unl)"
-	rom ( name "Bike Race '98 (World) (v1.2) (Demo) (Unl).z64" size 840768 crc C2CC79C2 md5 1CCD7DB5B3F57944CAF7DA86EF1763E3 sha1 241D3004C633F0A57303E86045301EC71093CDEA )
-)
-game (
-	name "Bike Race '98 (World) (v1.2) (Demo) (Unl)"
-	description "Bike Race '98 (World) (v1.2) (Demo) (Unl)"
-	rom ( name "Bike Race '98 (World) (v1.2) (Demo) (Unl).v64" size 840768 crc C400192C md5 60EF28A0CF0B03D51C8C03A396846FF5 sha1 6DF53FCE695B629EF072BC707757651CADB5690D )
 )
 game (
 	name "Bio F.R.E.A.K.S. (Europe)"
@@ -1608,16 +1578,6 @@ game (
 	rom ( name "Bottom of the 9th (USA).v64" size 16777216 crc 0F016E17 md5 9746E155104F336FACB6BA7789F0A3D0 sha1 A4D2E5AFC511631D1CC5D8AF6C4C705F17EA8ED6 serial "NBOE" )
 )
 game (
-	name "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	description "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	rom ( name "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 1638400 crc 43404543 md5 2D70F98A8A9F2C74B6B7A043180FB8A3 sha1 52367594899C6A06024B6064B61E0B4998D77A48 )
-)
-game (
-	name "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	description "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	rom ( name "Brew Volley (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 1638400 crc 1A3BFD52 md5 D00D4B9BF1448C53DA7AC5E070BAC95A sha1 5C04D349E0CA879421707C557B2F1CF891406C87 )
-)
-game (
 	name "Brunswick Circuit Pro Bowling (USA)"
 	description "Brunswick Circuit Pro Bowling (USA)"
 	region "USA"
@@ -1672,16 +1632,6 @@ game (
 	region "USA"
 	serial "NBLE"
 	rom ( name "Buck Bumble (USA).v64" size 12582912 crc DA2ACD5E md5 2BD134F866AF753AB46767FAC3144E2E sha1 9CF046E320E5437159A41C49694DC66D4D8E79BD serial "NBLE" )
-)
-game (
-	name "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 6730240 crc 7FA15EBB md5 9AFA72CACD58DC5C4C0DAC894700A914 sha1 996CF133D42ECAAC73E5F3E84FB3242E87C76188 )
-)
-game (
-	name "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "Bug Game (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 6730240 crc 25321B85 md5 76502525D7D22ECB6E8F9919EEBDB55E sha1 C493ABC8AEA08159B5D0C19996610925C270B6C5 )
 )
 game (
 	name "Bug's Life, A (Europe)"
@@ -2712,16 +2662,6 @@ game (
 	rom ( name "Dark Rift (USA).v64" size 8388608 crc 2AFAB93C md5 A524D85ECD2C9C239F10439A95A79467 sha1 8E7EC39E0F4B0A1351CF15F12AD5E5AFA337F5F4 serial "NDKE" )
 )
 game (
-	name "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 2625504 crc 44BD10E4 md5 73C98457BC230B6E9D8DB6F11B293B52 sha1 F7EC477FBEC5936B1F13E20F0344D424BF5C010A )
-)
-game (
-	name "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Dead Ritual (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 2625504 crc E6E105F3 md5 28DEAF275AA8EC86E53057E5C7953E53 sha1 E831EC68514F09FC3E0377544A7AE331F01C8D1A )
-)
-game (
 	name "Deadly Arts (USA)"
 	description "Deadly Arts (USA)"
 	region "USA"
@@ -3047,20 +2987,6 @@ game (
 	region "USA"
 	serial "NDOE"
 	rom ( name "Donkey Kong 64 (USA).v64" size 33554432 crc 96972D67 md5 B71A88BA73E141FA2D355A6A72F46F6C sha1 3EAD7798284C0593D8C91E09923CDE03E87C6B09 serial "NDOE" )
-)
-game (
-	name "Donkey Kong 64 (USA) (Demo) (Kiosk)"
-	description "Donkey Kong 64 (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NDPE"
-	rom ( name "Donkey Kong 64 (USA) (Demo) (Kiosk).z64" size 33554432 crc C83DFA15 md5 98A5836E3A5DA7BD0B5819E7498ACEA2 sha1 B4717E602F07CA9BE0D4822813C658CD8B99F993 serial "NDPE" )
-)
-game (
-	name "Donkey Kong 64 (USA) (Demo) (Kiosk)"
-	description "Donkey Kong 64 (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NDPE"
-	rom ( name "Donkey Kong 64 (USA) (Demo) (Kiosk).v64" size 33554432 crc 54BB87F6 md5 669A211FEA4EF38438947C1561124DF1 sha1 69127A8B8A0848CEECCD3712F3752EAB3F9143CD serial "NDPE" )
 )
 game (
 	name "Donkey Kong 64 (USA) (LodgeNet)"
@@ -3615,16 +3541,6 @@ game (
 	rom ( name "Eltale Monsters (Japan).v64" size 16777216 crc 3541C4BB md5 1FBA4E16A562610C98F823667E29DD6F sha1 36FC37E9EEC7157961E8ACCD9E40DA4134055669 serial "NETJ" )
 )
 game (
-	name "Evil Australians (World) (Demo) (Aftermarket) (Unl)"
-	description "Evil Australians (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Evil Australians (World) (Demo) (Aftermarket) (Unl).z64" size 16777216 crc 5F7EC87B md5 AFFD2C50A0381DC2AFF24ADB82B289E2 sha1 24AAC4786367CE2E99D425482C9B1BBA42848ABF )
-)
-game (
-	name "Evil Australians (World) (Demo) (Aftermarket) (Unl)"
-	description "Evil Australians (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Evil Australians (World) (Demo) (Aftermarket) (Unl).v64" size 16777216 crc BE7302DA md5 32FF0A9FE8C8BF4943CB5AC496C74464 sha1 625E283BF794EBA9042B8073C95B241D3E2D179D )
-)
-game (
 	name "Excitebike 64 (Europe)"
 	description "Excitebike 64 (Europe)"
 	region "Europe"
@@ -3665,20 +3581,6 @@ game (
 	region "USA"
 	serial "NMXE"
 	rom ( name "Excitebike 64 (USA).v64" size 16777216 crc EF78ED7E md5 4A5ECA1D547CB1A36F832F56328F1FD5 sha1 3F65D89577FF12A47502A970A0C81B8E5BDB39E0 serial "NMXE" )
-)
-game (
-	name "Excitebike 64 (USA) (Demo) (Kiosk)"
-	description "Excitebike 64 (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NNXE"
-	rom ( name "Excitebike 64 (USA) (Demo) (Kiosk).z64" size 16777216 crc BE6298B0 md5 E0018C33346714B63A55C0E040F23DEA sha1 DAAF564815E9EEF3FC163B9546B5880EE256274B serial "NNXE" )
-)
-game (
-	name "Excitebike 64 (USA) (Demo) (Kiosk)"
-	description "Excitebike 64 (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NNXE"
-	rom ( name "Excitebike 64 (USA) (Demo) (Kiosk).v64" size 16777216 crc 13157DF7 md5 2E53DB0E290F91430E6D87DD4123D402 sha1 7130FB444673842807A4C38D6F2E9505C8616A39 serial "NNXE" )
 )
 game (
 	name "Excitebike 64 (USA) (LodgeNet)"
@@ -4157,16 +4059,6 @@ game (
 	rom ( name "Famista 64 (Japan).v64" size 12582912 crc 51E0B88A md5 B07C622062E20E3878B8CE48EDC003AB sha1 C14270956393834DA8F670668155C41AF34AF7A9 serial "NFSJ" )
 )
 game (
-	name "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 6602752 crc B5CAE10E md5 33412E74DE9A1D220B709C8C17070D75 sha1 344BABBB42DE76E6B7EE9FEED3C9E33A424C2742 )
-)
-game (
-	name "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Fanger's Lightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 6602752 crc 086F8656 md5 46CBDB3600A7700BB42271218B719555 sha1 8C7085161A476089994F0192D351CC83A23DD198 )
-)
-game (
 	name "Featherlight (World) (v1.0) (Aftermarket) (Unl)"
 	description "Featherlight (World) (v1.0) (Aftermarket) (Unl)"
 	rom ( name "Featherlight (World) (v1.0) (Aftermarket) (Unl).z64" size 4194304 crc EF56D0BB md5 B662E35B9AC1C95A4736547C9C997DC4 sha1 8158B755848F655750AC1F2248F9D49644FA23C1 )
@@ -4509,16 +4401,6 @@ game (
 	region "USA"
 	serial "NGVE"
 	rom ( name "Frogger 2 (USA) (Proto 2).v64" size 33554432 crc DC59ECE7 md5 FC7D68D9DA36F898B75E422A08E0AE76 sha1 F16B3D87C243F0E25C1F71EB8C388178757DCDF9 serial "NGVE" )
-)
-game (
-	name "Funnel Cube (World) (Demo) (Aftermarket) (Unl)"
-	description "Funnel Cube (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Funnel Cube (World) (Demo) (Aftermarket) (Unl).z64" size 1048576 crc C22B7439 md5 5193AADABF362AB0AE097388135360B5 sha1 72BDBE0F123273E5927EE3110F0BF56839E85B96 )
-)
-game (
-	name "Funnel Cube (World) (Demo) (Aftermarket) (Unl)"
-	description "Funnel Cube (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Funnel Cube (World) (Demo) (Aftermarket) (Unl).v64" size 1048576 crc B18AFE07 md5 9064864E23D2C884314E033CA3B07273 sha1 8212112FD7AA3827140AABDC6A59757B7CA93333 )
 )
 game (
 	name "Fushigi no Dungeon - Fuurai no Shiren 2 - Oni Shuurai! Shiren Jou! (Japan)"
@@ -6012,20 +5894,6 @@ game (
 	rom ( name "Jet Force Gemini (USA).v64" size 33554432 crc B5932174 md5 0EF01AFDE32E40228C03904E3D884ADD sha1 AA7EDC75952104F0B52BF1300DF427835A128B01 serial "NJFE" )
 )
 game (
-	name "Jet Force Gemini (USA) (Demo) (Kiosk)"
-	description "Jet Force Gemini (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NJDE"
-	rom ( name "Jet Force Gemini (USA) (Demo) (Kiosk).z64" size 33554432 crc FA061B96 md5 5BBE9ADE7171F2E1DAAA7C48FAD38728 sha1 F00F7C7FB085D0DF57DCB649793ACED5BE4E8562 serial "NJDE" )
-)
-game (
-	name "Jet Force Gemini (USA) (Demo) (Kiosk)"
-	description "Jet Force Gemini (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NJDE"
-	rom ( name "Jet Force Gemini (USA) (Demo) (Kiosk).v64" size 33554432 crc 6E75735B md5 D9DB99C392E85A82C551CF7808D742ED sha1 4C1EEDFAC94EA2041A765E60CAAC00ABF77A678D serial "NJDE" )
-)
-game (
 	name "Jikkyou G1 Stable (Japan)"
 	description "Jikkyou G1 Stable (Japan)"
 	region "Japan"
@@ -6429,6 +6297,16 @@ game (
 	rom ( name "Juic'n 64 (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).v64" size 4194304 crc BAA9FB21 md5 A042E7551F8F623077ABA3F978BA2098 sha1 FDCCDF73D17795CE1D45F91D6C46E20D4B6D1BD3 )
 )
 game (
+	name "Jumping Fox (World) (Aftermarket) (Unl)"
+	description "Jumping Fox (World) (Aftermarket) (Unl)"
+	rom ( name "Jumping Fox (World) (Aftermarket) (Unl).z64" size 1052672 crc 86FD0FD2 md5 41554C364A84A305AB482136D3DFAC96 sha1 636C1BEDDB3DD30F6FF3BF65257F210279766EC0 )
+)
+game (
+	name "Jumping Fox (World) (Aftermarket) (Unl)"
+	description "Jumping Fox (World) (Aftermarket) (Unl)"
+	rom ( name "Jumping Fox (World) (Aftermarket) (Unl).v64" size 1052672 crc 5E7ACDD6 md5 9347768C2206C2F7849279DBE549B315 sha1 FEFC35780E3CB0547AA8DF34F24086DB9FE72EA3 )
+)
+game (
 	name "Kakutou Denshou - F-Cup Maniax (Japan)"
 	description "Kakutou Denshou - F-Cup Maniax (Japan)"
 	region "Japan"
@@ -6813,20 +6691,6 @@ game (
 	region "USA"
 	serial "NZSE"
 	rom ( name "Legend of Zelda, The - Majora's Mask (USA).v64" size 33554432 crc 3EE3F2D1 md5 B0CC37A45BC1B6C76CD7F0B71FE2BB1F sha1 22F8BFA1AB6C763013A3C2A568BB014395B12499 serial "NZSE" )
-)
-game (
-	name "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk)"
-	description "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NDLE"
-	rom ( name "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk).z64" size 33554432 crc DCC110A0 md5 8F281800FBA5DDCB1D2B377731FC0215 sha1 2F0744F2422B0421697A74B305CB1EF27041AB11 serial "NDLE" )
-)
-game (
-	name "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk)"
-	description "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NDLE"
-	rom ( name "Legend of Zelda, The - Majora's Mask (USA) (Demo) (Kiosk).v64" size 33554432 crc F97C02CE md5 A412A010E0FCE74EFBA8FE90716B4DA2 sha1 99D8B0E3000DCEAF494EA18941D7C31E796BFC78 serial "NDLE" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (USA) (GameCube)"
@@ -7443,14 +7307,14 @@ game (
 	rom ( name "Madden NFL 99 (USA) (Rev 1).v64" size 12582912 crc E05B574D md5 C282ADCA809CFA43A3FE9CED77BA9571 sha1 C686A44E43DF6B4E5ECD816D113A402AE9E1570B serial "N9ME" )
 )
 game (
-	name "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl)"
-	description "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl).z64" size 1250192 crc D8A884E4 md5 02CE2AA322A0047F5715519E06A95C55 sha1 F18CABBFBFAB013447C3941C1C9899136D235EBB )
+	name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl)"
+	description "Magic & Legend - Time Knights (World) (Aftermarket) (Unl)"
+	rom ( name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl).z64" size 2097152 crc 7DDD4986 md5 51C89FCA1DBC2FE9EA76FB982EE65E9C sha1 AD00680903816E6C00941B6EC5FF2FC2A4307467 )
 )
 game (
-	name "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl)"
-	description "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Magic & Legend - Time Knights (World) (Demo) (Aftermarket) (Unl).v64" size 1250192 crc 112E67E6 md5 B9D01644BA0CB6C8E3A2EF868C4917E2 sha1 2701123E3687773D6184FCDC1A32C3B815C80449 )
+	name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl)"
+	description "Magic & Legend - Time Knights (World) (Aftermarket) (Unl)"
+	rom ( name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl).v64" size 2097152 crc A2D988A1 md5 49BB868DB560EB1410CB1E343C6D990D sha1 3EDD281E73112C2561C3FD9659FEE561FFFFD921 )
 )
 game (
 	name "Magical Tetris Challenge (Europe)"
@@ -8123,16 +7987,6 @@ game (
 	description "Mega Man 64 (USA) (Beta)"
 	region "USA"
 	rom ( name "Mega Man 64 (USA) (Beta).v64" size 67108864 crc 421D2A09 md5 7AF4ED39B4E4E995E37EADECEA5F48F7 sha1 4F37F66AC3ADF8257162D3420FD558504334BE0F )
-)
-game (
-	name "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	description "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	rom ( name "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 48373160 crc B3225F89 md5 DDA13A5195451F84F472D1D7A6B5B8D4 sha1 41777E31ECC150377D3ECC1A9990E868B02A6413 )
-)
-game (
-	name "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	description "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl)"
-	rom ( name "Megatextures (World) (Demo) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 48373160 crc E7FE39D9 md5 CEDA3A74C641BB64FCCF4EDD6A747CDC sha1 46DF233BF6DBAA83CEC296384C960F6809C943C9 )
 )
 game (
 	name "Mia Hamm Soccer 64 (USA) (En,Es)"
@@ -10505,20 +10359,6 @@ game (
 	rom ( name "Pokemon Snap (USA) (LodgeNet).v64" size 16777216 crc BDBD96BD md5 0A6CC98D9B4D7F615009623FE79E79A6 sha1 37819AFE85F0308590D57585A986376534F8DE4B )
 )
 game (
-	name "Pokemon Snap Station (USA) (Demo) (Kiosk)"
-	description "Pokemon Snap Station (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NPHE"
-	rom ( name "Pokemon Snap Station (USA) (Demo) (Kiosk).z64" size 16777216 crc E22A00D0 md5 A9C272687DABD59C5144774B53BCC35A sha1 1E16C19FF303F9283D7B53545C4D575C6DF43158 serial "NPHE" )
-)
-game (
-	name "Pokemon Snap Station (USA) (Demo) (Kiosk)"
-	description "Pokemon Snap Station (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NPHE"
-	rom ( name "Pokemon Snap Station (USA) (Demo) (Kiosk).v64" size 16777216 crc 9BEF1033 md5 5BEE2ABA2576A2D8554427751FFC2643 sha1 7DFBE7F3E764A740D92D4C7195F1C638A0912452 serial "NPHE" )
-)
-game (
 	name "Pokemon Stadium (Europe)"
 	description "Pokemon Stadium (Europe)"
 	region "Europe"
@@ -11978,26 +11818,6 @@ game (
 	rom ( name "SD Hiryuu no Ken Densetsu (Japan).v64" size 12582912 crc ADF81B90 md5 9543942C65C3DCDB86498E985B712AB9 sha1 DA0D9331C5A9688B674E6C72D4206FB05F1C2EE0 serial "NDCJ" )
 )
 game (
-	name "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 1052672 crc 8C5908AA md5 0416C95E67F1F3A4A3C3FD063F31AD9E sha1 E768DE351FBC8EA4034494A522F700526F4A57B1 )
-)
-game (
-	name "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "SUGGOH (World) (v1.0) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 1052672 crc FE89B8CF md5 98143C3281CADAEC610E5916DD17A8B0 sha1 95ADB1A437DA7D270B0E799118390687F38CA033 )
-)
-game (
-	name "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	description "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	rom ( name "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl).z64" size 1052672 crc CDE7D5DE md5 EFF45E94145CBD6001AB636C04340A91 sha1 51EFB63E34C576BEFF7F1934C33EEC8815E10C59 )
-)
-game (
-	name "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	description "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	rom ( name "SUGGOH (World) (v1.1) (Demo) (Aftermarket) (Unl).v64" size 1052672 crc 7A6BBA60 md5 FBFCB5A25F2E3481C0980FA263F091A6 sha1 C8808A22D64AF46E97A9E5D98428F8B7D6B02EA2 )
-)
-game (
 	name "Saierda Chuanshuo - Shiguang zhi Di (China) (Proto)"
 	description "Saierda Chuanshuo - Shiguang zhi Di (China) (Proto)"
 	region "China"
@@ -12887,26 +12707,6 @@ game (
 	region "USA"
 	serial "NSLE"
 	rom ( name "Spider-Man (USA).v64" size 33554432 crc A2866A6E md5 EA9DD6280A01AB95984CAA1CB82C621E sha1 2AE97B0581BEC355C4A7A2DC7A12DF46CF4C91AB serial "NSLE" )
-)
-game (
-	name "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 16777216 crc 2C66BCB4 md5 7CFD1B4277B817E1B704F4D53FEEF1E4 sha1 E816F6B4AF374B0A07DB477BE924BCFA0875FCC8 )
-)
-game (
-	name "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Spirit Harvest (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 16777216 crc C6D62828 md5 C8B032881125BF82FCB5D25C77FE5337 sha1 8FC1A59E01A235ABA32DEE50FFF5CF04C57FEDFB )
-)
-game (
-	name "Sporting Clays (World) (Demo) (Unl)"
-	description "Sporting Clays (World) (Demo) (Unl)"
-	rom ( name "Sporting Clays (World) (Demo) (Unl).z64" size 1310720 crc 2471C621 md5 515C86480A7FC1238BFE252BD2C53B36 sha1 A6CE08E29002929CB1E14EE7D7A178D288A8B2A2 )
-)
-game (
-	name "Sporting Clays (World) (Demo) (Unl)"
-	description "Sporting Clays (World) (Demo) (Unl)"
-	rom ( name "Sporting Clays (World) (Demo) (Unl).v64" size 1310720 crc 3284AECC md5 D46AA7281F7A939019C031CF40BB8A33 sha1 9F992A996CBCED655169BA5882DF97350E0A4875 )
 )
 game (
 	name "Star Fox 64 (Japan)"
@@ -13821,26 +13621,6 @@ game (
 	rom ( name "Tamiya Racing 64 (USA) (Proto).v64" size 16777216 crc 7EA56078 md5 D5EA76923BC3C1F95CD9A6E3F7A35DEE sha1 6D8551C846DEC2A732732D988078731E047A82A5 )
 )
 game (
-	name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (NTSC) (Aftermarket) (Unl).z64" size 2097152 crc 01355455 md5 FC12754AFCB195005FC4C5C8E2718B11 sha1 94A7277440E2AAB14653AF24C0FC83F715539E5D )
-)
-game (
-	name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	description "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (Aftermarket) (Unl)"
-	rom ( name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (NTSC) (Aftermarket) (Unl).v64" size 2097152 crc 4243A98B md5 0F868B047288D6E85AF53049AB637D08 sha1 0237ACC4C9D500F6B782579A929D1627F9F52599 )
-)
-game (
-	name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl)"
-	description "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl)"
-	rom ( name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl).z64" size 2097152 crc AF34B718 md5 2C7D3053FD9DEA259B1CCCEA0E215038 sha1 61B1CA51F802F12E9FF7E6043385F23020668D12 )
-)
-game (
-	name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl)"
-	description "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl)"
-	rom ( name "Tandem Trouble (World) (Demo) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl).v64" size 2097152 crc 213F7E83 md5 2C05DCA8F20B3EFAB53E36BD8B267567 sha1 D3C13394B722F1047794A757B10998C106F9FCD3 )
-)
-game (
 	name "Tarzan (Europe)"
 	description "Tarzan (Europe)"
 	region "Europe"
@@ -13975,26 +13755,6 @@ game (
 	rom ( name "Telocation - Gemini (World) (64Brew Game Jam 2020) (Aftermarket) (Unl).v64" size 3080192 crc 30E790BC md5 840475FB8FD80F910B5212317131D738 sha1 A2227F8743CD931988CF3F72B15405D6378D8ADD )
 )
 game (
-	name "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 4194304 crc 71B21C2B md5 24FB9A8F43DBEE37589DD5EF363C6AA2 sha1 6D9AC258955CE71769FA778C0BFC6921DE351312 )
-)
-game (
-	name "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "Test 3rd Person Demo (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 4194304 crc 437731D3 md5 D144EA73C475E9A0B85F28242188B232 sha1 B141398AD3591101AFB120E5BF8003C7CD075E86 )
-)
-game (
-	name "Tetris (World) (Demo) (Presence of Mind '98) (Unl)"
-	description "Tetris (World) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Tetris (World) (Demo) (Presence of Mind '98) (Unl).z64" size 1310720 crc F96778D2 md5 674D416C2BD1EF0192BEE34AA260B21A sha1 AE002325F71F02FDA93B3C918BDF4ADCEC439743 )
-)
-game (
-	name "Tetris (World) (Demo) (Presence of Mind '98) (Unl)"
-	description "Tetris (World) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Tetris (World) (Demo) (Presence of Mind '98) (Unl).v64" size 1310720 crc 54F805F1 md5 4618155EEED263743F3E93D5FC18A519 sha1 0CFD1A1517572E0FA6F902DDB5F20B50BDD532BF )
-)
-game (
 	name "Tetris 64 (Japan) (En)"
 	description "Tetris 64 (Japan) (En)"
 	region "Japan"
@@ -14037,26 +13797,6 @@ game (
 	rom ( name "Tetrisphere (USA).v64" size 8388608 crc 5DB18578 md5 AFEDBBA2EC96F65582229564B025BF4F sha1 81FFBB3912AAE46BF358FE03A96A090A9997DDB0 serial "NTPE" )
 )
 game (
-	name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).z64" size 2591882 crc 3341AE83 md5 36C572325088FBF5661DFC7BEFB70F4E sha1 593CD55AB2C01D68BB3B5AD60E3E579A06361DAC )
-)
-game (
-	name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	description "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (Aftermarket) (Unl)"
-	rom ( name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).v64" size 2591882 crc 54261D0E md5 06D0BC03CC8D3DCB4A8EF20479105556 sha1 34D6A054A5A262DA75C8CF4CD78DB175E75D7CB2 )
-)
-game (
-	name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)"
-	description "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)"
-	rom ( name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).z64" size 2591882 crc D55BD64F md5 6469C36B80804639E1853B9C4FFDBCCE sha1 C70C81E246BD2E04DBD03C24BE7146CC2529AFDC )
-)
-game (
-	name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)"
-	description "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl)"
-	rom ( name "Thornmarked (World) (Demo) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).v64" size 2591882 crc 39EB1C0F md5 E04AE3EC350A7E830038C47EB6EE4BA1 sha1 EDABFDD0138D8DB74A884D49238F988DB629895A )
-)
-game (
 	name "Tic Tac Toe 64 (World) (Aftermarket) (Unl)"
 	description "Tic Tac Toe 64 (World) (Aftermarket) (Unl)"
 	rom ( name "Tic Tac Toe 64 (World) (Aftermarket) (Unl).z64" size 1064960 crc AF729B90 md5 273C65C52F38CE8EF3B9092350806FC7 sha1 B91745EBD5BF21E4A0887E7CAB702D3395605158 )
@@ -14093,16 +13833,6 @@ game (
 	region "USA"
 	serial "NT9E"
 	rom ( name "Tigger's Honey Hunt (USA).v64" size 16777216 crc 79F8BF3B md5 800E231DECCD724D8B1F1F6820B8BE90 sha1 5B48828607CFCECAAF3450EE369E5D0CABBAFD7C serial "NT9E" )
-)
-game (
-	name "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 1052672 crc 92DF9A96 md5 1D2D9D1513A14D05A54D93E67F007D92 sha1 DFAE392EBDDA7EECD940AD1D240C84CBEBBC697D )
-)
-game (
-	name "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	description "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl)"
-	rom ( name "Tiny Nightmare (World) (Demo) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 1052672 crc E1D62BCE md5 F7E12596F362AFDFF5412030B4C12897 sha1 7418E2DC7FFC8AB489B1391CBA7FDE0C0E70BBAD )
 )
 game (
 	name "Tom Clancy's Rainbow Six (Europe)"
@@ -14871,18 +14601,6 @@ game (
 	rom ( name "Turok - Dinosaur Hunter (USA).v64" size 8388608 crc 777D75E6 md5 E030EFB29598B151EBAAF6B101803D57 sha1 8A5D29E062F6893AF4E817B90AFD5F941968DF6D serial "NTUE" )
 )
 game (
-	name "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)"
-	description "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)"
-	region "USA"
-	rom ( name "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997).z64" size 10019568 crc 940F1D87 md5 3F348189BFEBC8CD94DC15B8E35C5C42 sha1 A57B0D475A7B11971B4C3DC66E593FC5A6412AE2 )
-)
-game (
-	name "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)"
-	description "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997)"
-	region "USA"
-	rom ( name "Turok - Dinosaur Hunter (USA) (Demo) (Kiosk, E3 1997).v64" size 10019568 crc 3A871FC0 md5 9E15C42CE98D8DA9C863D59A647A4C7C sha1 A5E385C4479BC7E135F5EB0D9D579072CB749FB4 )
-)
-game (
 	name "Turok - Dinosaur Hunter (USA) (Rev 1)"
 	description "Turok - Dinosaur Hunter (USA) (Rev 1)"
 	region "USA"
@@ -14995,20 +14713,6 @@ game (
 	rom ( name "Turok 2 - Seeds of Evil (Europe).v64" size 33554432 crc 9791B9CF md5 E00F7F87E87A504FD3D6862B5E8FEAB2 sha1 54FD5142F25A5FA058BDD2EB9F47EE1DFDD93B10 serial "NT2P" )
 )
 game (
-	name "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)"
-	description "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)"
-	region "Europe"
-	serial "NTYP"
-	rom ( name "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk).z64" size 12582912 crc 4E29B234 md5 CE72237707F481CFE97FDE330C2AFCD6 sha1 BFC04B6C5C300D39BBABE0B42227AEF45CC41D3F serial "NTYP" )
-)
-game (
-	name "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)"
-	description "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk)"
-	region "Europe"
-	serial "NTYP"
-	rom ( name "Turok 2 - Seeds of Evil (Europe) (Demo) (Kiosk).v64" size 12582912 crc 38B017D5 md5 AA50B21A2F57E282E07CC43A691DC78B sha1 4D47EABE2740D6327207539CD229D7C9A27B51F0 serial "NTYP" )
-)
-game (
 	name "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It)"
 	description "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It)"
 	region "Europe"
@@ -15049,20 +14753,6 @@ game (
 	region "USA"
 	serial "NT2E"
 	rom ( name "Turok 2 - Seeds of Evil (USA).v64" size 33554432 crc FE3527AE md5 76557AB6A4D86107EF31603B4822DAE2 sha1 2CA5D6BA9529A57D822661EF770001276E7BEB92 serial "NT2E" )
-)
-game (
-	name "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk)"
-	description "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NTYE"
-	rom ( name "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk).z64" size 12582912 crc 8D5B9BD0 md5 3BD42F6AEC477C056E1AFEBB3515495C sha1 68D1C5B79CC243804FCE3C993D9C93A10A58CAB8 serial "NTYE" )
-)
-game (
-	name "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk)"
-	description "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk)"
-	region "USA"
-	serial "NTYE"
-	rom ( name "Turok 2 - Seeds of Evil (USA) (Demo) (Kiosk).v64" size 12582912 crc 46175228 md5 92AE515C8AE54299BFC5F2A760F1EA65 sha1 E9C274DD10C65FC4E0B07C1896EB884EEF78C41C serial "NTYE" )
 )
 game (
 	name "Turok 2 - Seeds of Evil (USA) (Rev 1)"
@@ -15249,16 +14939,6 @@ game (
 	region "USA"
 	serial "ABCD"
 	rom ( name "Turok 3 - Shadow of Oblivion (USA) (Beta) (2000-07-18).v64" size 33554432 crc 9577BC31 md5 003870DE68EF6CC4F52780479E0AD0FF sha1 B3940CB5F2F10CB39C147F1FABF939C859D413C2 serial "ABCD" )
-)
-game (
-	name "Twintris (World) (Demo) (Presence of Mind '98) (Unl)"
-	description "Twintris (World) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Twintris (World) (Demo) (Presence of Mind '98) (Unl).z64" size 3145728 crc 7FDFF7E7 md5 A74738D03ACA4E51690408D203E86D49 sha1 25E486E22C427A570E0DD452DB09588EC63E92C8 )
-)
-game (
-	name "Twintris (World) (Demo) (Presence of Mind '98) (Unl)"
-	description "Twintris (World) (Demo) (Presence of Mind '98) (Unl)"
-	rom ( name "Twintris (World) (Demo) (Presence of Mind '98) (Unl).v64" size 3145728 crc 5ACF535E md5 4A270BAF3C78B04D76826FD0CAC1E446 sha1 09F9FC18873A33E5DDCECF2605BD436F30FDFE3F )
 )
 game (
 	name "Twisted Edge - Extreme Snowboarding (USA)"
@@ -15781,6 +15461,48 @@ game (
 	region "USA"
 	serial "NW4E"
 	rom ( name "WWF No Mercy (USA).v64" size 33554432 crc EE8C16C1 md5 6B698F27E29366B68DC518976BA844A6 sha1 3A902129BD2221C4411D05C642EF7F79AEFB1720 serial "NW4E" )
+)
+game (
+	name "WWF No Mercy (USA) (Beta) (2000-06-xx)"
+	description "WWF No Mercy (USA) (Beta) (2000-06-xx)"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-06-xx).z64" size 33554432 crc E6DDCA14 md5 44572B3AD9A45569331C3B29BA8433FC sha1 665D1306C9C6F5F70D3DAF97E77EC5891956B7AD )
+)
+game (
+	name "WWF No Mercy (USA) (Beta) (2000-06-xx)"
+	description "WWF No Mercy (USA) (Beta) (2000-06-xx)"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-06-xx).v64" size 33554432 crc 469C3AB6 md5 F72CE3FB1346D961AF37F4B00ED8ECBE sha1 E5103FF704771FF82C8C36DE6C5465A367F528BB )
+)
+game (
+	name "WWF No Mercy (USA) (Beta)"
+	description "WWF No Mercy (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "19"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-07-19).z64" size 33554432 crc F73FCC5F md5 42C33D518A4E8266720F1269B46D0A29 sha1 80645E8769D414CC2CDBFFD415127DA0DFAF2BF6 )
+)
+game (
+	name "WWF No Mercy (USA) (Beta)"
+	description "WWF No Mercy (USA) (Beta)"
+	releaseyear "2000"
+	releasemonth "07"
+	releaseday "19"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-07-19).v64" size 33554432 crc BCE17A6D md5 A197DC2CF5D4A1F2A9D1322F4E6F9244 sha1 A7FEA472D7F80E937E4AE6285C7A29BD9601FF77 )
+)
+game (
+	name "WWF No Mercy (USA) (Beta) (2000-08-xx)"
+	description "WWF No Mercy (USA) (Beta) (2000-08-xx)"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-08-xx).z64" size 33554432 crc 275FD3E6 md5 DE6304BA0A5B0FB0DF7A54640D3AA14E sha1 914F9409B0EE5E3709F9CD82567352981B19E5F7 )
+)
+game (
+	name "WWF No Mercy (USA) (Beta) (2000-08-xx)"
+	description "WWF No Mercy (USA) (Beta) (2000-08-xx)"
+	region "USA"
+	rom ( name "WWF No Mercy (USA) (Beta) (2000-08-xx).v64" size 33554432 crc DCA56F06 md5 E9A9C90EDAD9D9211F1310CD1FB0A544 sha1 D912E1BE440613D03A79DFC3283B357733BF663E )
 )
 game (
 	name "WWF No Mercy (USA) (Beta)"
