@@ -1,7 +1,7 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -110,12 +110,6 @@ game (
 	rom ( name "Alone in the Dark (USA).bin" size 422184000 crc 2C03E3AF md5 192DE93FF970CC04CAA49D4A723A390F sha1 D643C74677B283EC01431C6457D21F888747C77B )
 )
 game (
-	name "Alone in the Dark (USA) (Demo)"
-	description "Alone in the Dark (USA) (Demo)"
-	region "USA"
-	rom ( name "Alone in the Dark (USA) (Demo).bin" size 157254720 crc 60F866A2 md5 4224F017A7B91BFDD69814E2C9FD7C22 sha1 C92D5C023383F4C61B448679ABB8C05A2E93710C )
-)
-game (
 	name "Alone in the Dark 2 (France)"
 	description "Alone in the Dark 2 (France)"
 	region "France"
@@ -164,11 +158,13 @@ game (
 	rom ( name "AutoBahn Tokio (Japan).bin" size 145212480 crc 63027C6E md5 62CC170684DFB1B79635829FE74E7786 sha1 E48581EC4501B93D684A423DF32F9530040FDCF8 serial "FZ-SJ7801" )
 )
 game (
-	name "AutoBahn Tokio (Japan) (Demo)"
-	description "AutoBahn Tokio (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DST-5L"
-	rom ( name "AutoBahn Tokio (Japan) (Demo).bin" size 54895680 crc 50885B80 md5 ADA554A9A5A559450B687C7964D3321F sha1 A68463877BA311561DFD359B8CC44BC88305DB76 serial "FZ-JJ9DST-5L" )
+	name "BC Racers (USA) (Beta)"
+	description "BC Racers (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "09"
+	releaseday "29"
+	region "USA"
+	rom ( name "BC Racers (USA) (Beta) (1995-09-29).bin" size 470004864 crc 4B46D136 md5 6FD5FF7FF4E14F88AB283212D252ADB0 sha1 3BACBA80A256A061B5D0B4A61F1EF481FAE71B91 )
 )
 game (
 	name "BC Racers (USA, Europe)"
@@ -261,6 +257,15 @@ game (
 	rom ( name "BattleSport (USA).bin" size 506832480 crc 7F859040 md5 8391A919BED3AAD969F77C0FC7A86A7A sha1 377CE73E71B1CCED842F777EA00B37BE5696193E )
 )
 game (
+	name "BattleSport (USA) (Beta)"
+	description "BattleSport (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "09"
+	releaseday "22"
+	region "USA"
+	rom ( name "BattleSport (USA) (Beta) (1995-09-22).bin" size 723240000 crc 9528EA44 md5 95FE963BB3D790BF49486CFBA530A4B8 sha1 A9E0EA496F98D05C26ED1049AA8A6B8E34C7E5F8 )
+)
+game (
 	name "Belzerion (Japan)"
 	description "Belzerion (Japan)"
 	region "Japan"
@@ -298,6 +303,15 @@ game (
 	description "Blade Force (USA)"
 	region "USA"
 	rom ( name "Blade Force (USA).bin" size 362325600 crc 283420BE md5 1B228C656C235BE9FE4B1D4409870C3C sha1 A2D85CF80AFEF24A53CD8E9F04D9D6FF85BAE5CE )
+)
+game (
+	name "Blade Force (USA) (Beta)"
+	description "Blade Force (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "09"
+	releaseday "06"
+	region "USA"
+	rom ( name "Blade Force (USA) (Beta) (1995-09-06).bin" size 361624704 crc F2A833E6 md5 546F175308C9A33CB978DD8025125602 sha1 DC8C836E3BD69490CD6D2C5DC861154AF52E7698 )
 )
 game (
 	name "Blonde Justice (USA)"
@@ -404,10 +418,10 @@ game (
 	rom ( name "Cannon Fodder (USA).bin" size 337888320 crc 8A92426E md5 C236F4464795636D55A40A17F6752AA4 sha1 A566A1183F037EA22E54EB5CA298F6250B4233B4 )
 )
 game (
-	name "Captain Quazar & BattleSport (Europe) (Demo)"
-	description "Captain Quazar & BattleSport (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Captain Quazar & BattleSport (Europe) (Demo).bin" size 97396320 crc 6B226048 md5 3F94E8B9F3B836A0E38B735779FBF2EE sha1 AB03A8994F60A4EE0CFA087B4F9B27700F30C947 )
+	name "Cannon Fodder (USA) (Beta)"
+	description "Cannon Fodder (USA) (Beta)"
+	region "USA"
+	rom ( name "Cannon Fodder (USA) (Beta).bin" size 337540224 crc 66C68326 md5 EBC47D97839FBA171C7BB76D293FF0E8 sha1 B4CFDFF95C848397684A2C54CEE63DAD0344E3C5 )
 )
 game (
 	name "Captain Quazar (Europe)"
@@ -461,13 +475,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ1353"
 	rom ( name "Chiki Chiki Machine Mou Race 2 - In Space (Japan).bin" size 734934144 crc E8188B01 md5 CAE4C204ACC9591960DF3A2C300E8333 sha1 6BB71FFCB7C70D983AC7CE1324BFD6F532EAEB1B serial "FZ-SJ1353" )
-)
-game (
-	name "Chiki Chiki Machine Mou Race 2 - In Space (Japan) (Demo)"
-	description "Chiki Chiki Machine Mou Race 2 - In Space (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSW-5H"
-	rom ( name "Chiki Chiki Machine Mou Race 2 - In Space (Japan) (Demo).bin" size 373666944 crc F2CD4D3C md5 DBE5979DFF2FA82A44D8723F2775942C sha1 DD8B5EF42238F304B63A4C6FE17198A9705F46A4 serial "FZ-JJ9DSW-5H" )
 )
 game (
 	name "Club 3DO - Station Invasion (USA)"
@@ -547,10 +554,19 @@ game (
 	rom ( name "Crime Patrol (USA).bin" size 657360480 crc F2463EA7 md5 B07E21611B9CC65CB36A251DB8263851 sha1 DFD7C7BB23C65E466E76CCF1902A4581F5F16E22 serial "ALG-000173" )
 )
 game (
-	name "Crime Patrol (USA) (3DO Developer Services)"
-	description "Crime Patrol (USA) (3DO Developer Services)"
+	name "Crime Patrol (USA) (Arcade CD-ROM)"
+	description "Crime Patrol (USA) (Arcade CD-ROM)"
 	region "USA"
-	rom ( name "Crime Patrol (USA) (3DO Developer Services).bin" size 657007680 crc A78218CA md5 9451E84A4843D28844454A22D43757B4 sha1 D869CFA4BFE4664E00B3273EFC10D94FBE4AE7F8 )
+	rom ( name "Crime Patrol (USA) (Arcade CD-ROM).bin" size 657360480 crc C56C89F0 md5 CE4B8CA7E1407D2859E7DB452E87CA20 sha1 DCCBA406624DB2D24A0AB5A973D173F12015A8BD )
+)
+game (
+	name "Crime Patrol (USA) (Beta)"
+	description "Crime Patrol (USA) (Beta)"
+	releaseyear "1994"
+	releasemonth "11"
+	releaseday "23"
+	region "USA"
+	rom ( name "Crime Patrol (USA) (Beta) (1994-11-23).bin" size 657007680 crc A78218CA md5 9451E84A4843D28844454A22D43757B4 sha1 D869CFA4BFE4664E00B3273EFC10D94FBE4AE7F8 )
 )
 game (
 	name "Crystal Dynamics Best Selection ~ Sample This! (USA, Japan)"
@@ -708,13 +724,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ2356"
 	rom ( name "D's Diner - The Director's Cut (Japan) (Disc C).bin" size 668701824 crc 63BBD300 md5 B4AA4747CF4AF74AF209E7B9E3DCD8C3 sha1 A10A1B092BE7F866D1D0A3845582E88CE0E621D1 serial "FZ-SJ2356" )
-)
-game (
-	name "Daedalus Encounter, The (Japan) (Demo)"
-	description "Daedalus Encounter, The (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSH-5D"
-	rom ( name "Daedalus Encounter, The (Japan) (Demo).bin" size 54895680 crc 89B4355D md5 68DE978D4A6670FEBBBA86CAFBDF3204 sha1 531D094A96877BC482BAD900D2F18EAF7459227C serial "FZ-JJ9DSH-5D" )
 )
 game (
 	name "Daedalus Encounter, The (Korea) (Disc 1)"
@@ -930,10 +939,9 @@ game (
 	rom ( name "Demolition Man (Japan).bin" size 529011840 crc 296CB50E md5 F44FEFFA58C2993F2292EB345BF002C1 sha1 19C9EE16223A11FB2095399A38A3BD0A1F169459 serial "FZ-SJ1952" )
 )
 game (
-	name "Demolition Man (USA)"
-	description "Demolition Man (USA)"
-	region "USA"
-	rom ( name "Demolition Man (USA).bin" size 529359936 crc 14E1CC80 md5 63031679656A4DF000A727F9013582FC sha1 865EB9C9B224DAA8FA13C5B1CCFFB3680FFA4C5E )
+	name "Demolition Man (USA, Europe)"
+	description "Demolition Man (USA, Europe)"
+	rom ( name "Demolition Man (USA, Europe).bin" size 529359936 crc 14E1CC80 md5 63031679656A4DF000A727F9013582FC sha1 865EB9C9B224DAA8FA13C5B1CCFFB3680FFA4C5E )
 )
 game (
 	name "Dennis Miller - That's News to Me (USA)"
@@ -949,10 +957,9 @@ game (
 	rom ( name "Dennou Hyouryuu - Multimedia Cruising (Japan).bin" size 755405952 crc BC4530AA md5 05A5C05791D0FC0D1358433853A7A92D sha1 98C14628D5480088F0DA0F8BC40492B19CB513BA serial "FZ-SJ0351" )
 )
 game (
-	name "Digital Dreamware (USA)"
-	description "Digital Dreamware (USA)"
-	region "USA"
-	rom ( name "Digital Dreamware (USA).bin" size 506479680 crc 21ACAA5F md5 2FBE821EE7D1F55F4E48ACB32435405C sha1 B32F27DB06E77ADDA345142C41FD712A376B2CEB )
+	name "Digital Dreamware (USA, Europe)"
+	description "Digital Dreamware (USA, Europe)"
+	rom ( name "Digital Dreamware (USA, Europe).bin" size 506479680 crc 21ACAA5F md5 2FBE821EE7D1F55F4E48ACB32435405C sha1 B32F27DB06E77ADDA345142C41FD712A376B2CEB )
 )
 game (
 	name "DinoPark Tycoon (USA)"
@@ -1348,13 +1355,6 @@ game (
 	rom ( name "Flopon World (Japan).bin" size 465536064 crc 5278D884 md5 2DD4DCAC9E470FD37670D46569AD794F sha1 84DC76C9449ED7895FDA3EB2FC635E8208D50126 serial "FZ-SJ2354" )
 )
 game (
-	name "Flopon World (Japan) (Demo)"
-	description "Flopon World (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSF-5H"
-	rom ( name "Flopon World (Japan) (Demo).bin" size 46466112 crc 33F6BDE1 md5 79F7211A06B60E2D2F7BECDB6B476549 sha1 111E9B14DB4AC3F1288372FA8CD02F6F73269FA9 serial "FZ-JJ9DSF-5H" )
-)
-game (
 	name "Flying Nightmares (Europe)"
 	description "Flying Nightmares (Europe)"
 	region "Europe"
@@ -1378,6 +1378,15 @@ game (
 	description "Foes of Ali (USA)"
 	region "USA"
 	rom ( name "Foes of Ali (USA).bin" size 229860960 crc B686F5BF md5 4EFF9235DE32DE7F059D71755DB5B300 sha1 AD3D04799CD06131FD9FCDA5FD50546467F39D62 )
+)
+game (
+	name "Foes of Ali (USA) (Beta)"
+	description "Foes of Ali (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "07"
+	region "USA"
+	rom ( name "Foes of Ali (USA) (Beta) (1995-11-07).bin" size 229160064 crc 211DA1C7 md5 8058260769C06FBACECF22A205F63E71 sha1 37DB00318479D851BB353D37E4441131D3928E97 )
 )
 game (
 	name "Footie (USA) (Powerslide Bonus Disk) (Unl)"
@@ -1903,6 +1912,15 @@ game (
 	rom ( name "Killing Time (Europe).bin" size 775877760 crc 617E8E17 md5 96535CE24291B0BFDF5203F2E21D278E sha1 EA2D40DC0C5D609F7253FF150C7D4E2FA5C63767 )
 )
 game (
+	name "Killing Time (USA) (Beta)"
+	description "Killing Time (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "05"
+	region "USA"
+	rom ( name "Killing Time (USA) (Beta) (1995-10-05).bin" size 775877760 crc 07EC11C4 md5 DE1055956B6C395F55C2285AD2452801 sha1 F03C68DD34BA127F9B5EFDFAC16513B503E09E50 )
+)
+game (
 	name "Killing Time (USA) (Rev 1)"
 	description "Killing Time (USA) (Rev 1)"
 	region "USA"
@@ -2084,6 +2102,14 @@ game (
 	rom ( name "Lost Dungeon (Japan).bin" size 361972800 crc 7D407169 md5 F5E8088C0863FA524ED111AB73EB197E sha1 9C5F6912ACC06990B0C5FB42236D1BA19A8BD2A8 serial "FZ-SJ0157" )
 )
 game (
+	name "Lost Eden (USA, Europe) (Beta)"
+	description "Lost Eden (USA, Europe) (Beta)"
+	releaseyear "1996"
+	releasemonth "02"
+	releaseday "02"
+	rom ( name "Lost Eden (USA, Europe) (Beta) (1996-02-02).bin" size 774165504 crc C26B8777 md5 0E6BAF5FF6B00A01692A9151FE990ACE sha1 4475C592C0E5504D4AD0A9BDB41AE85C27574BD3 )
+)
+game (
 	name "Lost Eden (USA, Korea)"
 	description "Lost Eden (USA, Korea)"
 	serial "GDT-EA381"
@@ -2245,13 +2271,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ1352"
 	rom ( name "Montana Jones (Japan).bin" size 265286784 crc 3475E725 md5 A9E398AA33B8D5309642F4434BE74DFB sha1 B83D91BE8E65A57BF98AD76EF8880048F46F3DEF serial "FZ-SJ1352" )
-)
-game (
-	name "Montana Jones (Japan) (Demo)"
-	description "Montana Jones (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSM-5A"
-	rom ( name "Montana Jones (Japan) (Demo).bin" size 265634880 crc 84672557 md5 1DBEF2A95491A84F35D8175117AE53F0 sha1 6A049E6E8A8B6BEE6BC175890785462B9C8DE317 serial "FZ-JJ9DSM-5A" )
 )
 game (
 	name "Moon Cradle - Igyou no Hanayome (Japan)"
@@ -2525,12 +2544,6 @@ game (
 	rom ( name "Oilman (Japan).bin" size 90674304 crc 7889B6D7 md5 9C65C1DAC7E9641495331F64660D7AA2 sha1 1A72C54363F3E275BAEDF6FBD069868D71A07A7A serial "OIL-9610" )
 )
 game (
-	name "Olympic Games (Europe) (Demo)"
-	description "Olympic Games (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Olympic Games (Europe) (Demo).bin" size 72961392 crc 81FB46A8 md5 DA13BF437263209942DE653E585ED0E5 sha1 807A825FD9DDEFAE25808CE5A97BE866379C8B1E )
-)
-game (
 	name "Olympic Soccer (USA) (En,Fr,De,Es,It)"
 	description "Olympic Soccer (USA) (En,Fr,De,Es,It)"
 	region "USA"
@@ -2563,6 +2576,12 @@ game (
 	region "Japan"
 	serial "FZ-SJ5252"
 	rom ( name "Onee-san to Issho! Kisekae Paradise (Japan).bin" size 709645440 crc AF83316A md5 A11E43A7AC3E27FEEF0BEE5792F7A08B sha1 0354CB2FAC5A5B40F6C866A2C0B2936481320C3B serial "FZ-SJ5252" )
+)
+game (
+	name "Orbatak (USA) (Arcade CD-ROM)"
+	description "Orbatak (USA) (Arcade CD-ROM)"
+	region "USA"
+	rom ( name "Orbatak (USA) (Arcade CD-ROM).bin" size 139544160 crc 9DC08632 md5 A95D16E5965D85364D17636F27442A68 sha1 FD0DEBE9743791D28CD426724B72F1FBA3B4090D )
 )
 game (
 	name "Oukoku no Grand Chef (Japan)"
@@ -2602,6 +2621,15 @@ game (
 	description "PGA Tour 96 (Europe)"
 	region "Europe"
 	rom ( name "PGA Tour 96 (Europe).bin" size 723240000 crc 2FA17046 md5 D15DB399B8DFBE74FBFF16639472AE81 sha1 C480D568046A109C7C477FA180860A4958A2467A )
+)
+game (
+	name "PGA Tour 96 (USA) (Beta)"
+	description "PGA Tour 96 (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "25"
+	region "USA"
+	rom ( name "PGA Tour 96 (USA) (Beta) (1995-10-25).bin" size 373662240 crc 1E245596 md5 1E6BC2AA5FCD89161C5F3B6573208000 sha1 680AE7B9740F0442033DB0BDAFEA11763FA99FA6 )
 )
 game (
 	name "PGA Tour 96 (USA) (RE-1)"
@@ -2763,13 +2791,6 @@ game (
 	rom ( name "Perfect World - Combat in a Digital World (Japan).bin" size 745772160 crc 00343026 md5 1EDC2E1FB1533EF083EB14E81CBB3DA0 sha1 AA02DAA79450C44C9108D5F32742DE7777A7F838 serial "E3D-7026" )
 )
 game (
-	name "Perfect World - Combat in a Digital World (Japan) (Demo)"
-	description "Perfect World - Combat in a Digital World (Japan) (Demo)"
-	region "Japan"
-	serial "E3D-9026S"
-	rom ( name "Perfect World - Combat in a Digital World (Japan) (Demo).bin" size 745772160 crc 907BFEF9 md5 87AE9DCFD3892866C3CBB08C62CF001C sha1 157A0F747A3B81EBE67FC8C21A8B8639011B470C serial "E3D-9026S" )
-)
-game (
 	name "Peter Frankl - Puzzle no Tou (Japan)"
 	description "Peter Frankl - Puzzle no Tou (Japan)"
 	region "Japan"
@@ -2781,12 +2802,6 @@ game (
 	description "Phoenix 3 (Europe)"
 	region "Europe"
 	rom ( name "Phoenix 3 (Europe).bin" size 723242352 crc 1563B689 md5 DBC573C6F9A2EAA0549995F0892CBFCD sha1 54D20C1F12E9BB7599BD881DB6E45BE3B50FAB81 )
-)
-game (
-	name "Phoenix 3 (Europe) (Demo)"
-	description "Phoenix 3 (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Phoenix 3 (Europe) (Demo).bin" size 109438560 crc E3C61058 md5 E25AB4F247782AC77A6F8B129F6B10F1 sha1 F90B88CE07131D60A364391CA088C615BB6F5F02 )
 )
 game (
 	name "Phoenix 3 (USA)"
@@ -2863,13 +2878,6 @@ game (
 	rom ( name "Pretty Soldier SailorMoon S (Japan).bin" size 686765184 crc 926D3ECA md5 285EC465B40CCCC212EF0FB4BC243FBE sha1 849E04B1698E841488F2CB528A4B956E77E4FDF6 serial "FZ-SJ1453" )
 )
 game (
-	name "Pretty Soldier SailorMoon S (Japan) (Demo)"
-	description "Pretty Soldier SailorMoon S (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSB-5B"
-	rom ( name "Pretty Soldier SailorMoon S (Japan) (Demo).bin" size 223487040 crc 1C318CCB md5 66F6AA2940EE532FD5E552E1EABBC951 sha1 53088BB162054377815D12478207B7B1D1E39644 serial "FZ-JJ9DSB-5B" )
-)
-game (
 	name "Primal Rage (USA, Europe)"
 	description "Primal Rage (USA, Europe)"
 	serial "GSW201"
@@ -2895,13 +2903,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ1668"
 	rom ( name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan).bin" size 722891904 crc CCC0EDC0 md5 61C8D47FD7DA7DD4C900483B6D8E336B sha1 6423AD8F90242C4362C8054931561ECBF7C15399 serial "FZ-SJ1668" )
-)
-game (
-	name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo)"
-	description "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSE-5L"
-	rom ( name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan) (Demo).bin" size 398099520 crc 9BDBC0AE md5 186ACC4B4FF6837FE9EABFA79F2A8F06 sha1 3C68E8F0A9890F376A1B76FD4482BEEDB838B501 serial "FZ-JJ9DSE-5L" )
 )
 game (
 	name "Psychic Detective (Europe) (Disc 1)"
@@ -3016,13 +3017,6 @@ game (
 	rom ( name "Puzzle Bobble (Japan).bin" size 165336192 crc 41640A2F md5 DB0F6EE9607A25729F9F080216BC5E39 sha1 D729EBC2BAD9382A728C3D59D1839A79751BDC72 serial "FZ-SJ0252" )
 )
 game (
-	name "Puzzle Bobble (Japan) (Demo)"
-	description "Puzzle Bobble (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSA-5K"
-	rom ( name "Puzzle Bobble (Japan) (Demo).bin" size 45261888 crc 2E6ABBF2 md5 4A9C08C409399402F8ED1F33DF095EE3 sha1 F8A03074547B5D47D25D30A742B97F289F360DDD serial "FZ-JJ9DSA-5K" )
-)
-game (
 	name "Pyramid Intruder (Japan)"
 	description "Pyramid Intruder (Japan)"
 	region "Japan"
@@ -3075,11 +3069,10 @@ game (
 	rom ( name "Real Pinball (USA).bin" size 58858800 crc A6C3A6ED md5 13E529BD04349E4A82F4382E039A187A sha1 224B0F767D9C5900C08F3EE3E238DAD7C837F861 serial "FZ-SM0801" )
 )
 game (
-	name "Return Fire (Japan) (Demo)"
-	description "Return Fire (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSR-5F"
-	rom ( name "Return Fire (Japan) (Demo).bin" size 385709184 crc 80527C30 md5 B305268FDB0674AFF5408412AC627CE1 sha1 65A9BD70E36DA23AFC42801C0072487F46CF080D serial "FZ-JJ9DSR-5F" )
+	name "Remute 3D (Europe) (En,De) (Unl)"
+	description "Remute 3D (Europe) (En,De) (Unl)"
+	region "Europe"
+	rom ( name "Remute 3D (Europe) (En,De) (Unl).bin" size 573488160 crc 2B9E1CDF md5 1689F213474B51272A65547602724110 sha1 C219E1A7C2F1F76BA9E466D8E0854C4196C8CFFA )
 )
 game (
 	name "Return Fire (Japan, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Ru,Ar)"
@@ -3131,13 +3124,6 @@ game (
 	rom ( name "Road & Track Presents - OverDrivin' (Japan).bin" size 398099520 crc BA7F8843 md5 0D10CFB331B93F8A7EDB095B854B8F86 sha1 168782C299D0CA85655251F409FEEB36244D2E5D serial "IMP-SD0101" )
 )
 game (
-	name "Road & Track Presents - OverDrivin' (Japan) (Demo)"
-	description "Road & Track Presents - OverDrivin' (Japan) (Demo)"
-	region "Japan"
-	serial "IMP-SS0102"
-	rom ( name "Road & Track Presents - OverDrivin' (Japan) (Demo).bin" size 121128000 crc DE22D70D md5 4C76AC2D63E307B856C398DCDDE02D26 sha1 78F44DFF64F18F5B7052DDD6E6B13D4760368D5F serial "IMP-SS0102" )
-)
-game (
 	name "Road & Track Presents - The Need for Speed (Korea)"
 	description "Road & Track Presents - The Need for Speed (Korea)"
 	region "Korea"
@@ -3168,13 +3154,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ1654"
 	rom ( name "Road Rash (Japan).bin" size 746976384 crc 642216E4 md5 3FAFA5BA5C78D34F339EC88B5818E92E sha1 5004E2593571CBD65AFA630D744A06C18370B681 serial "FZ-SJ1654" )
-)
-game (
-	name "Road Rash (Japan) (Demo)"
-	description "Road Rash (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-SD1654"
-	rom ( name "Road Rash (Japan) (Demo).bin" size 723592800 crc 1AC12F68 md5 1906AC1324B1B72CB3E35F8A8DC9FC49 sha1 45D6AE9F9B9A42DDF453EFB9BA800D90DBAA2F04 serial "FZ-SD1654" )
 )
 game (
 	name "Road Rash (USA)"
@@ -3248,13 +3227,6 @@ game (
 	rom ( name "Scramble Cobra (Japan).bin" size 765039744 crc 26615DA9 md5 A498F244A2D04462B6953B40646ECFE5 sha1 8FFD05738AED68611E0CB71AD87A7A428BF2CBC0 serial "FZ-SJ0404" )
 )
 game (
-	name "Scramble Cobra (Japan) (Demo)"
-	description "Scramble Cobra (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSP-5G"
-	rom ( name "Scramble Cobra (Japan) (Demo).bin" size 482395200 crc E98B2D58 md5 DD134A1159207EAB31AB23843C1BF334 sha1 A7D92425459D1E1F576EB62D8F33E1A5BC462F9B serial "FZ-JJ9DSP-5G" )
-)
-game (
 	name "Scramble Cobra (USA)"
 	description "Scramble Cobra (USA)"
 	region "USA"
@@ -3310,10 +3282,9 @@ game (
 	rom ( name "Sesame Street - Numbers (USA).bin" size 747329184 crc 53F86DEF md5 743F4FCE8B0E7BD73C1D9F5E6E96A67B sha1 DC1B3D19D06E9E1D05B8981043F7FC3B505A5E0A )
 )
 game (
-	name "Sewer Shark (USA)"
-	description "Sewer Shark (USA)"
-	region "USA"
-	rom ( name "Sewer Shark (USA).bin" size 777218400 crc DCD0586F md5 9D4EFFDA9392FC94A9E8D76B95AA7745 sha1 02886B4B34FDED3B768DF0A7A6D5BDD793C8CA6D )
+	name "Sewer Shark (USA, Europe)"
+	description "Sewer Shark (USA, Europe)"
+	rom ( name "Sewer Shark (USA, Europe).bin" size 777218400 crc DCD0586F md5 9D4EFFDA9392FC94A9E8D76B95AA7745 sha1 02886B4B34FDED3B768DF0A7A6D5BDD793C8CA6D )
 )
 game (
 	name "Sex (USA)"
@@ -3360,13 +3331,6 @@ game (
 	rom ( name "Shock Wave (Japan).bin" size 746976384 crc 4FCE1633 md5 5CFA4AC02FF11DABE940D7C22AF4C2FE sha1 9B94AA76B6A08AD1C1C78FE83856AD3EB3EA0650 serial "FZ-SJ1657" )
 )
 game (
-	name "Shock Wave (Japan) (Demo)"
-	description "Shock Wave (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-SD1657"
-	rom ( name "Shock Wave (Japan) (Demo).bin" size 111494208 crc D7D9B333 md5 26DF708C33C625A5516FB53D63F923DF sha1 BC4EE5D343AB1C01EC5B6F5BFD44D8B51D7638F6 serial "FZ-SD1657" )
-)
-game (
 	name "Shock Wave (Korea)"
 	description "Shock Wave (Korea)"
 	region "Korea"
@@ -3394,13 +3358,6 @@ game (
 	rom ( name "Shock Wave - Operation JumpGate (Japan).bin" size 361972800 crc 9EEC6874 md5 283BA1BF2465C017732A29E0FC3670A1 sha1 D187321E25E63F1F4314E988DFDE40E8497A95A5 serial "FZ-SJ1665" )
 )
 game (
-	name "Shock Wave - Operation JumpGate (Japan) (Demo)"
-	description "Shock Wave - Operation JumpGate (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSV-5D"
-	rom ( name "Shock Wave - Operation JumpGate (Japan) (Demo).bin" size 121128000 crc 87ED3901 md5 FB094CAEB343B1E42EE7C95A68756133 sha1 E4C1D1DDEE754D76BADDA0F0BDABDA7DD8F10DB1 serial "FZ-JJ9DSV-5D" )
-)
-game (
 	name "Shock Wave - Operation JumpGate (USA, Europe)"
 	description "Shock Wave - Operation JumpGate (USA, Europe)"
 	rom ( name "Shock Wave - Operation JumpGate (USA, Europe).bin" size 361972800 crc A7B46AA7 md5 2541C45F1209E7EAE7C53012FDC2370D sha1 20E8382D7A083B66A9E4CB9176AF6A27247303B8 )
@@ -3418,16 +3375,16 @@ game (
 	rom ( name "Shockwave 2 - Beyond the Gate (Europe) (Disc 2).bin" size 753345600 crc 85C5E95E md5 8B5C9F87D6A3AA045D08E7ADF52A3E53 sha1 049FAC819B0D8289830C10EFBFBD3391200DD8EC )
 )
 game (
-	name "Shockwave 2 - Beyond the Gate (USA) (Disc 01)"
-	description "Shockwave 2 - Beyond the Gate (USA) (Disc 01)"
+	name "Shockwave 2 - Beyond the Gate (USA) (Disc 1)"
+	description "Shockwave 2 - Beyond the Gate (USA) (Disc 1)"
 	region "USA"
-	rom ( name "Shockwave 2 - Beyond the Gate (USA) (Disc 01).bin" size 753350304 crc 4BC2FC9E md5 F92F2384AB97B6408A767EC42CA943E5 sha1 6C721692986F2BDFD2A36DAB946C50E4C74A153F )
+	rom ( name "Shockwave 2 - Beyond the Gate (USA) (Disc 1).bin" size 753350304 crc 4BC2FC9E md5 F92F2384AB97B6408A767EC42CA943E5 sha1 6C721692986F2BDFD2A36DAB946C50E4C74A153F )
 )
 game (
-	name "Shockwave 2 - Beyond the Gate (USA) (Disc 02)"
-	description "Shockwave 2 - Beyond the Gate (USA) (Disc 02)"
+	name "Shockwave 2 - Beyond the Gate (USA) (Disc 2)"
+	description "Shockwave 2 - Beyond the Gate (USA) (Disc 2)"
 	region "USA"
-	rom ( name "Shockwave 2 - Beyond the Gate (USA) (Disc 02).bin" size 753350304 crc D07DEADD md5 D7E35DC0024BBB5009AD3311C26D650B sha1 F0A88FAA9FAC54DFFEC659A8535B469A6BA8681D )
+	rom ( name "Shockwave 2 - Beyond the Gate (USA) (Disc 2).bin" size 753350304 crc D07DEADD md5 D7E35DC0024BBB5009AD3311C26D650B sha1 F0A88FAA9FAC54DFFEC659A8535B469A6BA8681D )
 )
 game (
 	name "Short Warp - Warp's Short Game Collection (Japan)"
@@ -3534,24 +3491,11 @@ game (
 	rom ( name "Sotsugyou - Graduation - Final (Japan).bin" size 771408960 crc EE089FFB md5 53A391438EC31BC024FA00DBE6D8FCB8 sha1 8B4EDCAAA3E294E3E9C332D17470413E995A9544 serial "FZ-SJ1661" )
 )
 game (
-	name "Sotsugyou - Graduation - Final (Japan) (Demo)"
-	description "Sotsugyou - Graduation - Final (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSS-4K"
-	rom ( name "Sotsugyou - Graduation - Final (Japan) (Demo).bin" size 771060864 crc 19685FC1 md5 6A67C9D41E494EE727327B5516B55CC4 sha1 03FC25987CF4339BEB6C4354E5BE61BF7FA6FD37 serial "FZ-JJ9DSS-4K" )
-)
-game (
 	name "Sotsugyou II Special - Neo Generation (Japan)"
 	description "Sotsugyou II Special - Neo Generation (Japan)"
 	region "Japan"
 	serial "FZ-SJ7451"
 	rom ( name "Sotsugyou II Special - Neo Generation (Japan).bin" size 482395200 crc 82F4D9FF md5 B64CE08ABDE7B4EFB6BDE68833C46362 sha1 E67768A138BD597BE8A9251CE7B851FB67B42C53 serial "FZ-SJ7451" )
-)
-game (
-	name "Space Ace (Europe) (Demo)"
-	description "Space Ace (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Space Ace (Europe) (Demo).bin" size 494437440 crc 1E17A7A5 md5 1C78F92F8274DACF0CC105DDCEBFF916 sha1 2089D77BF007E35ADE06A557C57E372C779A9029 )
 )
 game (
 	name "Space Ace (USA)"
@@ -3579,6 +3523,15 @@ game (
 	rom ( name "Space Hulk - Vengeance of the Blood Angels (USA).bin" size 482399904 crc 643E0945 md5 B8B2D3F641B33CAC9F0D5E713B377C4F sha1 ECFC8444938E5AF4C63D56ABCD373E229748A98F serial "7373" )
 )
 game (
+	name "Space Hulk - Vengeance of the Blood Angels (USA) (Beta)"
+	description "Space Hulk - Vengeance of the Blood Angels (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "08"
+	releaseday "01"
+	region "USA"
+	rom ( name "Space Hulk - Vengeance of the Blood Angels (USA) (Beta) (1995-08-01).bin" size 290048640 crc 44200D7A md5 CFC9B768444AABAE0E1D16BC54DC3C93 sha1 5EF47585CE0F5F23D333F34E3B97B5BC7A74CB7F )
+)
+game (
 	name "Space Pirates (USA)"
 	description "Space Pirates (USA)"
 	region "USA"
@@ -3603,12 +3556,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ3153"
 	rom ( name "Star Control II - The Ur-Quan Masters (Japan).bin" size 771408960 crc 2293958A md5 D710E07D6A0B4E5EFFB53391B34DF45E sha1 2562A534F8933DB9A369C08CAEE50361E57F5F03 serial "FZ-SJ3153" )
-)
-game (
-	name "Star Fighter (Europe) (Demo)"
-	description "Star Fighter (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Star Fighter (Europe) (Demo).bin" size 49227360 crc 65D9660A md5 D914133F205D354896F2FCF20761EBBF sha1 64D8DAF92DECA9D1E6B514249A9278BB21B433A9 )
 )
 game (
 	name "Star Fighter (USA, Europe)"
@@ -3659,13 +3606,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ5351R"
 	rom ( name "Starblade (Japan).bin" size 663028800 crc 3EDBA39B md5 881A233B929C9607F2F694F36E319734 sha1 9F858943164C87AA4B07691DCF2F0586EBE82F59 serial "FZ-SJ5351R" )
-)
-game (
-	name "Starblade (Japan) (Demo)"
-	description "Starblade (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSB-4L"
-	rom ( name "Starblade (Japan) (Demo).bin" size 301761600 crc 365F7661 md5 5817F091E1D43371F82B3E4636B9D849 sha1 7D3E1E699B9EAC96B97AA6E0FEAD62A53E79EC12 serial "FZ-JJ9DSB-4L" )
 )
 game (
 	name "Starblade (USA, Korea)"
@@ -3756,12 +3696,6 @@ game (
 	rom ( name "Super Street Fighter II Turbo (Europe).bin" size 357155904 crc 84C80206 md5 5416F2C4986AD91FBD28D6DB08BAF5CD sha1 A395BA2271D8322AF893407837BE7125B0AA0A82 serial "FZ-SE3851" )
 )
 game (
-	name "Super Street Fighter II Turbo (Europe) (Demo) (3DO Magazine - Issue 10)"
-	description "Super Street Fighter II Turbo (Europe) (Demo) (3DO Magazine - Issue 10)"
-	region "Europe"
-	rom ( name "Super Street Fighter II Turbo (Europe) (Demo) (3DO Magazine - Issue 10).bin" size 140397936 crc 14FCC333 md5 A56ABE3054A30BC7A888540083C3AE2D sha1 EFFF006A9A0EDFD86292B3E295A8998A3D8F3BF6 )
-)
-game (
 	name "Super Street Fighter II Turbo (Germany)"
 	description "Super Street Fighter II Turbo (Germany)"
 	region "Germany"
@@ -3800,12 +3734,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ3851"
 	rom ( name "Super Street Fighter II X - Grand Master Challenge (Japan).bin" size 356807808 crc 219B32BF md5 99FA8E95CC46E5B935855F0B87E9A2BE sha1 16E14B1B16E5CDA3AAC218D065075E998FCD4637 serial "FZ-SJ3851" )
-)
-game (
-	name "Super Street Fighter II X - Grand Master Challenge (Japan, Europe) (Demo)"
-	description "Super Street Fighter II X - Grand Master Challenge (Japan, Europe) (Demo)"
-	serial "FZ-JJ9DSX-4I"
-	rom ( name "Super Street Fighter II X - Grand Master Challenge (Japan, Europe) (Demo).bin" size 140395584 crc B8A62AAD md5 CE0620CE551367881952FC66DA9CDF72 sha1 41A487BA38532A5A70E038622D4CCBD5F4296C62 serial "FZ-JJ9DSX-4I" )
 )
 game (
 	name "Super Wing Commander (Europe)"
@@ -3872,23 +3800,10 @@ game (
 	rom ( name "Sword & Sorcery (Japan).bin" size 229508160 crc 81E79DBE md5 7A15978D91352E7FA9A48EC5D15F30D4 sha1 2EE9FCBF4225A8A7060D6875627B63FD03B2B4FE serial "FZ-SJ0251" )
 )
 game (
-	name "Sword & Sorcery (Japan) (Demo)"
-	description "Sword & Sorcery (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSS-5H"
-	rom ( name "Sword & Sorcery (Japan) (Demo).bin" size 109085760 crc F5C8C6E4 md5 87608A1126439A82468FA74B483B8839 sha1 52ECC0719CB947E29838C2E2BD566A9DB202C73A serial "FZ-JJ9DSS-5H" )
-)
-game (
 	name "Syndicate (Europe)"
 	description "Syndicate (Europe)"
 	region "Europe"
 	rom ( name "Syndicate (Europe).bin" size 129557568 crc 16AA6CEA md5 170B66BCCD565B5D3EC279F8E803BB20 sha1 07AB4244BC8A2394A37CCF1EA3D2B6BC4536B8C7 )
-)
-game (
-	name "Syndicate (Europe) (Demo)"
-	description "Syndicate (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Syndicate (Europe) (Demo).bin" size 134374464 crc 362895D7 md5 EDA8E8D654EFA709694351E743E46EBD sha1 5E9470685E6B13AAC3C3D8E517A5631340415AFA )
 )
 game (
 	name "Syndicate (Japan)"
@@ -3923,13 +3838,6 @@ game (
 	region "Japan"
 	serial "FZ-SJ0102"
 	rom ( name "T&E VR Golf - Masters - Harukanaru Augusta 3 (Japan).bin" size 742855680 crc 70D022FF md5 B37848590A91ECA3D09372DB0379D65C sha1 852A6880F18CC3DC82DCD553B5BC17CD01A7CA05 serial "FZ-SJ0102" )
-)
-game (
-	name "T&E VR Golf - Masters - Harukanaru Augusta 3 (Japan) (Demo)"
-	description "T&E VR Golf - Masters - Harukanaru Augusta 3 (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-SD0102"
-	rom ( name "T&E VR Golf - Masters - Harukanaru Augusta 3 (Japan) (Demo).bin" size 43206240 crc CEF0D274 md5 7DA639CACBE8A058DCDDF905C4DD3693 sha1 F6380B22F9961A0383525EF98988007504534DFD serial "FZ-SD0102" )
 )
 game (
 	name "T&E VR Golf - Pebble Beach no Hatou (Japan)"
@@ -3995,12 +3903,6 @@ game (
 	rom ( name "Theatre Wars - Goraku no Dendou (Japan).bin" size 629660976 crc A2FFDC93 md5 F9281E97C419FC10FB7393C868CE8516 sha1 1CAB59A5DAA1F6D1A9AE6039F38ED553442E9174 serial "FZ-SJ0301" )
 )
 game (
-	name "Theme Park (Europe) (Demo)"
-	description "Theme Park (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Theme Park (Europe) (Demo).bin" size 227099712 crc 31FD7BE8 md5 4098C3045DBFCEAD084574B6FFF00C6F sha1 6BAA3D6DB75F3C3BD803AFD44BD8078FC442F90C )
-)
-game (
 	name "Theme Park (Europe) (En,Fr)"
 	description "Theme Park (Europe) (En,Fr)"
 	region "Europe"
@@ -4021,17 +3923,19 @@ game (
 	rom ( name "Theme Park (Japan).bin" size 241550400 crc 285525B3 md5 6A5398BD0B8ACE74F1EC0185CFDABE2E sha1 9DBFE811D9B30EECFA9AF38D0136DD9858A62F90 serial "FZ-SJ1666" )
 )
 game (
-	name "Theme Park (Japan) (Demo)"
-	description "Theme Park (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DST-5F"
-	rom ( name "Theme Park (Japan) (Demo).bin" size 241202304 crc EB35F473 md5 CD90B11E57C354B41951C337360F759B sha1 09FD16403CBC584D257CE51424B869536422D092 serial "FZ-JJ9DST-5F" )
-)
-game (
 	name "Theme Park (USA)"
 	description "Theme Park (USA)"
 	region "USA"
 	rom ( name "Theme Park (USA).bin" size 227452512 crc 3F6ADA61 md5 A9C43E48DA9CB6D0B6D7AD5F98421E75 sha1 1933F50021D8148B476CCB4F50B3AC02B3E4E49B )
+)
+game (
+	name "Theo the Dinosaur (USA) (Proto)"
+	description "Theo the Dinosaur (USA) (Proto)"
+	releaseyear "1996"
+	releasemonth "01"
+	releaseday "30"
+	region "USA"
+	rom ( name "Theo the Dinosaur (USA) (Proto) (1996-01-30).bin" size 421835904 crc 8AA458F1 md5 07543C9E933AAD6AC0D13486F8BEC461 sha1 78163CB6DE33A395C21510A71076943CB3929D5C )
 )
 game (
 	name "Toki o Koeta Tegami (Japan)"
@@ -4106,13 +4010,6 @@ game (
 	region "Japan"
 	serial "IMP-SD0702"
 	rom ( name "Totsugeki Karakuri! Megadas!! (Japan).bin" size 172907280 crc 794DF206 md5 EB0403EBB0F2B8A3EED3358E13DC94BD sha1 7F9AF7DCF6C15BA8779DAF96306F063F8FEB859E serial "IMP-SD0702" )
-)
-game (
-	name "Totsugeki Karakuri! Megadas!! (Japan) (Demo)"
-	description "Totsugeki Karakuri! Megadas!! (Japan) (Demo)"
-	region "Japan"
-	serial "IMP-SS0704"
-	rom ( name "Totsugeki Karakuri! Megadas!! (Japan) (Demo).bin" size 85001280 crc E963303C md5 15CE4FF4D8744CFEB4BF094DBE1EFA9C sha1 39E57CDC826D5454500378C4F6E9805387242E6E serial "IMP-SS0704" )
 )
 game (
 	name "Touhaiden Akagi (Japan)"
@@ -4237,13 +4134,6 @@ game (
 	rom ( name "V Goal Soccer '96 (Japan).bin" size 313803840 crc 6C5CEF3B md5 84D61265ADEDD197DF04239F490510C0 sha1 F7F977CFAF68F1E0B13F8461235A3E08DDC31BF0 serial "FZ-SJ6951" )
 )
 game (
-	name "V Goal Soccer '96 (Japan) (Demo)"
-	description "V Goal Soccer '96 (Japan) (Demo)"
-	region "Japan"
-	serial "TC-VGOAL-J"
-	rom ( name "V Goal Soccer '96 (Japan) (Demo).bin" size 229508160 crc 5CB95D1C md5 2F3B86403FF7B1BA83E70EEF96076FE2 sha1 2A2401D444D1B383AB3E6CAB7E545D3AB657DB5D serial "TC-VGOAL-J" )
-)
-game (
 	name "VR Stalker (Europe) (Improved Version)"
 	description "VR Stalker (Europe) (Improved Version)"
 	region "Europe"
@@ -4366,6 +4256,12 @@ game (
 	description "Warner Music Group (USA)"
 	region "USA"
 	rom ( name "Warner Music Group (USA).bin" size 349935264 crc 1988774E md5 B4C452ADA21314498CB9ECCEE355E0C3 sha1 9D5392E5BF5FAF39B949149D51D6248256850AA8 )
+)
+game (
+	name "Way of the Warrior (Europe)"
+	description "Way of the Warrior (Europe)"
+	region "Europe"
+	rom ( name "Way of the Warrior (Europe).bin" size 371604240 crc 5E79149E md5 2146743FECC7E14BC2AAE1A7EAAF6B8F sha1 408F24519CC002A6C2F880E3D3B59C12D37E7213 )
 )
 game (
 	name "Way of the Warrior (Japan)"
@@ -4543,6 +4439,15 @@ game (
 	rom ( name "Wolfenstein 3D (USA).bin" size 133363104 crc CD23091E md5 B635FB5F28F8C0A058BD40A2FB79337C sha1 FEE290EF7293B5FACDC75BCDC332968836CEF738 )
 )
 game (
+	name "Wolfenstein 3D (USA) (Beta)"
+	description "Wolfenstein 3D (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "09"
+	releaseday "07"
+	region "USA"
+	rom ( name "Wolfenstein 3D (USA) (Beta) (1995-09-07).bin" size 132817440 crc B763DBEB md5 5AD2233EDC77EF4B10904524493D359E sha1 84CE689A72C9B40ABECF590FDEC94BD96C716124 )
+)
+game (
 	name "Woody Woodpecker and Friends - Volume One (USA) (RE-1)"
 	description "Woody Woodpecker and Friends - Volume One (USA) (RE-1)"
 	region "USA"
@@ -4568,6 +4473,15 @@ game (
 	description "World Cup Golf - Hyatt Dorado Beach (Europe)"
 	region "Europe"
 	rom ( name "World Cup Golf - Hyatt Dorado Beach (Europe).bin" size 771416016 crc CA27F8E9 md5 E2ED48B09C3AD9BCB18BD8C81BD7E84D sha1 495FA423A168362A503B2916FD8E59E76465C11F )
+)
+game (
+	name "World Cup Golf - Hyatt Dorado Beach (USA) (Beta)"
+	description "World Cup Golf - Hyatt Dorado Beach (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "06"
+	releaseday "08"
+	region "USA"
+	rom ( name "World Cup Golf - Hyatt Dorado Beach (USA) (Beta) (1995-06-08).bin" size 771060864 crc 0D28EEFB md5 0FBF8E257005D751A6FBD81A098F3C57 sha1 7BE2F770F84C4B9094453223D1E8AE2B1890DC42 )
 )
 game (
 	name "World Cup Golf - Hyatt Dorado Beach (USA, Europe)"
@@ -4638,25 +4552,11 @@ game (
 	rom ( name "Yu Yu Hakusho (Japan).bin" size 566690880 crc C7509E96 md5 27CD7FC858669444994D41F0BD389141 sha1 754342C0242DE2B748599AE4D90DE0EFAE03A3F1 serial "FZ-SJ4351" )
 )
 game (
-	name "Yu Yu Hakusho (Japan) (Demo)"
-	description "Yu Yu Hakusho (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSY-4L"
-	rom ( name "Yu Yu Hakusho (Japan) (Demo).bin" size 253592640 crc 8B6BB41F md5 FB0D707E3A02C2E73582CBA221D4E4D0 sha1 35B50D0598EB82CF2C612F3E08B9C14BE64EF58A serial "FZ-JJ9DSY-4L" )
-)
-game (
 	name "Yuujou Densetsu - The Doraemons (Japan)"
 	description "Yuujou Densetsu - The Doraemons (Japan)"
 	region "Japan"
 	serial "FZ-SJ5551"
 	rom ( name "Yuujou Densetsu - The Doraemons (Japan).bin" size 520582272 crc 58A4762D md5 4ED9F1A3B9AC7A5B79C53F0E43ACEC45 sha1 A964A1E0068C76E99CCED2934C5909572E742B1D serial "FZ-SJ5551" )
-)
-game (
-	name "Yuujou Densetsu - The Doraemons (Japan) (Demo)"
-	description "Yuujou Densetsu - The Doraemons (Japan) (Demo)"
-	region "Japan"
-	serial "FZ-JJ9DSD-5C"
-	rom ( name "Yuujou Densetsu - The Doraemons (Japan) (Demo).bin" size 504071232 crc 552A4F71 md5 5322F7FD1F910C290B4C7A65499F58E6 sha1 87B996149CBD398F31C472888B1808AB61760322 serial "FZ-JJ9DSD-5C" )
 )
 game (
 	name "Zhadnost - The People's Party (USA, Europe)"
