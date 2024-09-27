@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 8-bit"
 	description "Atari - 8-bit"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -40,6 +40,17 @@ game (
 	rom ( name "Archon (USA, Europe).bin" size 32768 crc 2636829F md5 77ABA8E96975B4BB7A714591505CE38F sha1 BFB2782A117CF3EFD5B71E225052F737658864C4 )
 )
 game (
+	name "Barnyard Blaster (USA, Europe)"
+	description "Barnyard Blaster (USA, Europe)"
+	rom ( name "Barnyard Blaster (USA, Europe).bin" size 131072 crc 13AE30ED md5 91098AD7A1049022505359ED68472DAB sha1 E4B22790FCE8E2E0F7C972960AEC692B7FD5E016 )
+)
+game (
+	name "Basketball (USA)"
+	description "Basketball (USA)"
+	region "USA"
+	rom ( name "Basketball (USA).bin" size 8192 crc 79934851 md5 DDD9F7E02145CA65B6CC2C5308D366F0 sha1 639E8F9BF907ED2C46D183F2CDBE33783F6DA2FA )
+)
+game (
 	name "Centipede (Europe)"
 	description "Centipede (Europe)"
 	region "Europe"
@@ -51,10 +62,28 @@ game (
 	rom ( name "Desert Falcon (USA, Europe).bin" size 65536 crc A8F9324D md5 CBB80479B6C87B9E341C3662635A3AF4 sha1 FD4666796A4498339835D75DDB63C7B99D1D93BB )
 )
 game (
+	name "Final Legacy (USA)"
+	description "Final Legacy (USA)"
+	region "USA"
+	rom ( name "Final Legacy (USA).bin" size 16384 crc 6BD0D8E4 md5 61EC87B491EE82CC867F66AFAC7793D6 sha1 4BDFBAB83E336C58E4CC2E3DBB096F29976F5761 )
+)
+game (
+	name "Frogger (USA)"
+	description "Frogger (USA)"
+	region "USA"
+	rom ( name "Frogger (USA).bin" size 8192 crc 40E9476C md5 9FBED199D8ED7D6AFF7E9F41930B4C68 sha1 A4863C26C9E6752211684C9EFE10B86C1650314A )
+)
+game (
 	name "Joust (USA)"
 	description "Joust (USA)"
 	region "USA"
 	rom ( name "Joust (USA).bin" size 16384 crc F6EC618C md5 79E9146264BB499105AE6815B67C4B6A sha1 975C5B3F818D20C5FEB868A25159A678F8C34E1B )
+)
+game (
+	name "Miner 2049er (USA)"
+	description "Miner 2049er (USA)"
+	region "USA"
+	rom ( name "Miner 2049er (USA).bin" size 16384 crc 7DF1ADFB md5 D859BFF796625E980DB1840F15DEC4B5 sha1 0564B1867A0B570D66DFCBC11ADC3E51A2C6F28C )
 )
 game (
 	name "Missile Command (USA)"
@@ -109,6 +138,12 @@ game (
 	rom ( name "83.1.raw" size 260967 crc D89AACA3 md5 91B1D6664DF08648861ACF175BE209DA sha1 5ADD1D1FD22F66481AA23CED689E95109839AE42 )
 )
 game (
+	name "Space Invaders (USA)"
+	description "Space Invaders (USA)"
+	region "USA"
+	rom ( name "Space Invaders (USA).bin" size 8192 crc 3614D0AA md5 D2A9ACA3B8E80A847E7DC6928A51B835 sha1 963FC3625A38FD5042A0EFEF4465274AA849DADC )
+)
+game (
 	name "Star Raiders II (USA, Europe)"
 	description "Star Raiders II (USA, Europe)"
 	rom ( name "Star Raiders II (USA, Europe).bin" size 32768 crc 737D4196 md5 0986D1C14C159C4B9E18786C1DB326DA sha1 7E04D33D17A5DFCAB5E41FCA4AE6880730583DCE )
@@ -118,9 +153,4 @@ game (
 	description "Super Breakout (USA)"
 	region "USA"
 	rom ( name "Super Breakout (USA).bin" size 8192 crc 4DA14CF9 md5 7A312DF03DAB98276CE8195ED7E88BBA sha1 E0E3CFEE1DEEC5F57FCBD3C98F61225913FC6FB7 )
-)
-game (
-	name "Tristam Island (World) (v9) (Demo) (Aftermarket) (Unl)"
-	description "Tristam Island (World) (v9) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Tristam Island (World) (v9) (Demo) (Aftermarket) (Unl).atr" size 138256 crc 9585C3B5 md5 CC9E4A3834763FA2145078420D27835D sha1 7505CAC240ED92B33EBA89671E0637E9C72DDE91 )
 )

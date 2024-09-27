@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Game Boy"
 	description "Nintendo - Game Boy"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -350,6 +350,11 @@ game (
 	rom ( name "Amazing Penguin (USA, Europe).gb" size 65536 crc 3011D5CA md5 D8326BFEE457CCB2C0AFB8DD6AC11DB2 sha1 84CC6452823EB05EE38679AEC86E3CC6E4A50E6F )
 )
 game (
+	name "Amazing Penguin (World) (Limited Run Games)"
+	description "Amazing Penguin (World) (Limited Run Games)"
+	rom ( name "Amazing Penguin (World) (Limited Run Games).gb" size 65536 crc 82D4664C md5 B6D37DE7EA2B720D1B66CB1DB51EE6BA sha1 01F11E0746A511B35B2C873D6A190F6E10204676 )
+)
+game (
 	name "Amazing Spider-Man, The (USA, Europe)"
 	description "Amazing Spider-Man, The (USA, Europe)"
 	rom ( name "Amazing Spider-Man, The (USA, Europe).gb" size 65536 crc 2A4EAFE4 md5 4A967A8F1DD6F627E8B72950739C26D4 sha1 0EFFB4580EFEAA323174A960BFD521FA28A18959 )
@@ -589,11 +594,6 @@ game (
 	name "Astro-Jump (World) (Aftermarket) (Unl)"
 	description "Astro-Jump (World) (Aftermarket) (Unl)"
 	rom ( name "Astro-Jump (World) (Aftermarket) (Unl).gb" size 262144 crc C35A3B39 md5 9B80D7DBB1EAAA379CFB59FCB032E819 sha1 1BCB4BE684626CE061AAD105701548FA3A77E254 )
-)
-game (
-	name "Athletic World (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	description "Athletic World (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	rom ( name "Athletic World (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl).gb" size 131072 crc AFC128F2 md5 25A63701265F754BDF00F2F4DCCFCC26 sha1 956BE9371990B18E351F2E10848B2EA8BB70C2B7 )
 )
 game (
 	name "Atomic Punk (USA)"
@@ -1353,11 +1353,6 @@ game (
 	rom ( name "Breakout Lava-Lamp (World) (Aftermarket) (Unl).gb" size 32768 crc 7FBE9FB7 md5 85DE1B03170AC56FBC07403511CFA137 sha1 9DE08CDB4CDAB58C79E0F2BDAEF8B8BB736B9C50 )
 )
 game (
-	name "Brimstone (World) (Demo) (Aftermarket) (Unl)"
-	description "Brimstone (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Brimstone (World) (Demo) (Aftermarket) (Unl).gb" size 262144 crc F18F44A6 md5 DBBF81621DB7E3479DEF08BC0FEF7309 sha1 F193AF733F6DFDF8D4403BE1D9CAA67D7E6F3C37 )
-)
-game (
 	name "Bubble Bobble (Japan)"
 	description "Bubble Bobble (Japan)"
 	region "Japan"
@@ -1434,16 +1429,6 @@ game (
 	name "Bugs Bunny Crazy Castle, The (USA, Europe)"
 	description "Bugs Bunny Crazy Castle, The (USA, Europe)"
 	rom ( name "Bugs Bunny Crazy Castle, The (USA, Europe).gb" size 65536 crc 403E1B7E md5 43189B859C0036119F233D46B1F2E9FD sha1 2A3E982E542A849F95B4497025CA5B04DB2ABE8C )
-)
-game (
-	name "Bung Greetings Demo (World) (Demo) (Unl)"
-	description "Bung Greetings Demo (World) (Demo) (Unl)"
-	rom ( name "Bung Greetings Demo (World) (Demo) (Unl).gb" size 65536 crc 1AE05AF4 md5 B6DA1BE691EE98480F943E4FCDF5222D sha1 BB01F845D330377749AEB6DF1F7BEA0EFF78BB89 )
-)
-game (
-	name "Bung New Year's Greetings Demo (World) (Demo) (Unl)"
-	description "Bung New Year's Greetings Demo (World) (Demo) (Unl)"
-	rom ( name "Bung New Year's Greetings Demo (World) (Demo) (Unl).gb" size 65536 crc 493D4A1E md5 0D327DB8AABF20A0F6C4698F594B939C sha1 737402FE70924F893FC212393EEB7F46F225745A )
 )
 game (
 	name "Bung's Math Test (World) (Unl)"
@@ -1625,11 +1610,6 @@ game (
 	rom ( name "Castle Quest (Europe) (Beta).gb" size 131072 crc 8A5636EA md5 779DCE075E652BEA5BBECF89BB5B04DF sha1 356C8510B0647E56A558ABA9D5DC4CC9D3CCD94C )
 )
 game (
-	name "Castledark (World) (v2.0) (Demo) (Aftermarket) (Unl)"
-	description "Castledark (World) (v2.0) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Castledark (World) (v2.0) (Demo) (Aftermarket) (Unl).gb" size 524288 crc 3C492B31 md5 FEE299EDAE1FA288634FA04902F4E555 sha1 0861AF0039DAB4B4F5BCE747C6FCD586ECED401A )
-)
-game (
 	name "Castlevania - The Adventure (Europe)"
 	description "Castlevania - The Adventure (Europe)"
 	region "Europe"
@@ -1663,11 +1643,6 @@ game (
 	rom ( name "Castlevania Legends (USA, Europe) (SGB Enhanced).gb" size 262144 crc AD9C17FB md5 1475824E7262C0D6359F43C287E034A5 sha1 91A8E49BF6EAC5FE62EC2CC5E6DECBD08CE9B515 )
 )
 game (
-	name "Cat and His Boy, A (World) (En,Es) (Demo) (Aftermarket) (Unl)"
-	description "Cat and His Boy, A (World) (En,Es) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Cat and His Boy, A (World) (En,Es) (Demo) (Aftermarket) (Unl).gb" size 1048576 crc 11043693 md5 B18603CA3512393B189EE3116FBA2256 sha1 4DB27714C7AF6041D5AF3CF550E78D7235394AFA )
-)
-game (
 	name "Catrap (USA)"
 	description "Catrap (USA)"
 	region "USA"
@@ -1694,11 +1669,6 @@ game (
 	name "Cel Story (World) (Aftermarket) (Unl)"
 	description "Cel Story (World) (Aftermarket) (Unl)"
 	rom ( name "Cel Story (World) (Aftermarket) (Unl).gb" size 524288 crc 8A456B61 md5 B76DF0942C3F4B3569A736C9C8E44179 sha1 730627B2298806E4F7E02DCEFFAA0F0EDFC316F0 )
-)
-game (
-	name "Cel Story (World) (Demo) (Aftermarket) (Unl)"
-	description "Cel Story (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Cel Story (World) (Demo) (Aftermarket) (Unl).gb" size 524288 crc 92A9B588 md5 C9678D1F4C1A521F2D8AAC32D75B0873 sha1 70AB2B72B26C1D1CACC13D377984B969DDF44965 )
 )
 game (
 	name "Centipede (USA) (Majesco)"
@@ -2230,6 +2200,11 @@ game (
 	rom ( name "David Crane's The Rescue of Princess Blobette (USA).gb" size 65536 crc 8210A03F md5 81F7DEE7546E630DE075A3397349EFB8 sha1 0A45D1B98646FD7832B5119B04BC8D6D6D0F657A )
 )
 game (
+	name "David Crane's The Rescue of Princess Blobette (World) (Limited Run Games)"
+	description "David Crane's The Rescue of Princess Blobette (World) (Limited Run Games)"
+	rom ( name "David Crane's The Rescue of Princess Blobette (World) (Limited Run Games).gb" size 65536 crc 0C24923E md5 2F77E4293FD0A2197ACA5D62751C3E33 sha1 E1F391102ABA5EA75572B04180B31BCAAA47E593 )
+)
+game (
 	name "Days of Thunder (USA, Europe)"
 	description "Days of Thunder (USA, Europe)"
 	rom ( name "Days of Thunder (USA, Europe).gb" size 131072 crc 35D9BE0E md5 BDCF042BC2458768522C3CCA43C89EE1 sha1 1BF54293A332FD822911218DCC4A94FCDA949CCF )
@@ -2340,11 +2315,6 @@ game (
 	rom ( name "Dig Dug (USA).gb" size 131072 crc 6C742478 md5 9719EAADA417782A236A9D84805A512A sha1 951753904389332412D4B0A80B48D7AC61A494FC )
 )
 game (
-	name "Dijon Gameboy (World) (En,Fr) (Demo) (Aftermarket) (Unl)"
-	description "Dijon Gameboy (World) (En,Fr) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Dijon Gameboy (World) (En,Fr) (Demo) (Aftermarket) (Unl).gb" size 1048576 crc B230B782 md5 29F08A68343F78220B52A2AA6930A726 sha1 F1796DCBFB6F0F5E01C60222C376CC1C46945806 )
-)
-game (
 	name "Dino Breeder (Japan) (Rev 1) (SGB Enhanced)"
 	description "Dino Breeder (Japan) (Rev 1) (SGB Enhanced)"
 	region "Japan"
@@ -2380,11 +2350,6 @@ game (
 	rom ( name "Dirty Racing (Japan).gb" size 131072 crc 43AF45B1 md5 B2023017774D88FFE82A7D1B0AF52C12 sha1 5B58B4D02987CE3A16774BC4A6707D12AC404C1C )
 )
 game (
-	name "Do I Pass (World) (En) (Demo) (Aftermarket) (Unl)"
-	description "Do I Pass (World) (En) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Do I Pass (World) (En) (Demo) (Aftermarket) (Unl).gb" size 1048576 crc F339FA82 md5 4B1B346BB122C60D4550F0497A0EBC56 sha1 BDBC082017BDF2E4CAA84E7D00DAD9707727E9D4 )
-)
-game (
 	name "Do I Pass (World) (En) (v1.4) (Aftermarket) (Unl)"
 	description "Do I Pass (World) (En) (v1.4) (Aftermarket) (Unl)"
 	rom ( name "Do I Pass (World) (En) (v1.4) (Aftermarket) (Unl).gb" size 1048576 crc CFB44D68 md5 B06F7DAE7B52EBE3D277ECECA2D1976C sha1 6DDE71BBEC8B807AF5132D1EF2E99C6BB6AF3A1C )
@@ -2413,16 +2378,6 @@ game (
 	name "Doctor GB Card 4M (World) (Unl)"
 	description "Doctor GB Card 4M (World) (Unl)"
 	rom ( name "Doctor GB Card 4M (World) (Unl).gb" size 524288 crc 5D2E8CFF md5 2D7EDCD2BB9FAB77364011F6043B4B73 sha1 43962A7459C8CCC0E5988060ABD0F8668F30DFDE )
-)
-game (
-	name "Doctor GB Card Demo (World) (Demo) (Unl)"
-	description "Doctor GB Card Demo (World) (Demo) (Unl)"
-	rom ( name "Doctor GB Card Demo (World) (Demo) (Unl).gb" size 32768 crc B5DFDC26 md5 84B3043CC7DA78EF20DF223C1FC5E5A0 sha1 1D403B254971FAA5834BC48ADFD42CC0BBED3FE4 )
-)
-game (
-	name "Doctor GB Card Demo (World) (Demo) (Unl) (Alt)"
-	description "Doctor GB Card Demo (World) (Demo) (Unl) (Alt)"
-	rom ( name "Doctor GB Card Demo (World) (Demo) (Unl) (Alt).gb" size 32768 crc 3592390B md5 FAF003B4A560AC647F9545752384E52C sha1 A6E3B81B8664F41EB18770CD5757ED4D8338BE54 )
 )
 game (
 	name "Dodge Boy (Japan)"
@@ -2697,11 +2652,6 @@ game (
 	rom ( name "Dragon Ball Z 3 (USA) (SGB Enhanced) (Unl).gb" size 1048576 crc 71B8EA17 md5 66FCA02E9BCE40162BC76B1F56E5F0E7 sha1 C43EB3906F77DDA5FEE94A0FCE0B6D783461238C )
 )
 game (
-	name "Dragon Battle (World) (Demo) (Aftermarket) (Unl)"
-	description "Dragon Battle (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Dragon Battle (World) (Demo) (Aftermarket) (Unl).gb" size 4194304 crc C1E1E52C md5 1FF2DB91AF0E765A5CD94142CB6F88B8 sha1 C5AC56E266C421A1C5B82DE46859A44F75D03359 )
-)
-game (
 	name "Dragon Slayer Gaiden - Nemuri no Oukan (Japan)"
 	description "Dragon Slayer Gaiden - Nemuri no Oukan (Japan)"
 	region "Japan"
@@ -2752,11 +2702,6 @@ game (
 	name "Dragonborne (World) (Aftermarket) (Unl)"
 	description "Dragonborne (World) (Aftermarket) (Unl)"
 	rom ( name "Dragonborne (World) (Aftermarket) (Unl).gb" size 2097152 crc 0AE28712 md5 1E639B34E71BFD910D682FC829E6D863 sha1 E3CD09069EE59ED3F7915A79AF0667DE4EBD7D50 )
-)
-game (
-	name "Dragonborne (World) (Demo) (Aftermarket) (Unl)"
-	description "Dragonborne (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Dragonborne (World) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc EDA66890 md5 B44132ECCC1CE446E9B6AC72D0129A49 sha1 3A5BCD9DAA830842DA60D8EBF35FA7036A259D76 )
 )
 game (
 	name "Dropzone (Europe)"
@@ -2979,11 +2924,6 @@ game (
 	description "Faceball 2000 (USA)"
 	region "USA"
 	rom ( name "Faceball 2000 (USA).gb" size 131072 crc 7D890CD0 md5 05BA7F165DAB1FFD49B63B4F5C704C02 sha1 B0BD15BACE04E0A3EB89773F231AC3A532181A0A )
-)
-game (
-	name "Fairy-chan (World) (v0.1.4) (Demo) (Aftermarket) (Unl)"
-	description "Fairy-chan (World) (v0.1.4) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Fairy-chan (World) (v0.1.4) (Demo) (Aftermarket) (Unl).gb" size 262144 crc 4F04CDFC md5 5B73F7B331A3730218A5A05456E42FD3 sha1 591980CB5E17104D826C2A915F53BFC8A21AFFCA )
 )
 game (
 	name "Family Jockey (Japan)"
@@ -3418,12 +3358,6 @@ game (
 	rom ( name "Game Boy Datenlogger 1 (Germany) (Unl).gb" size 32768 crc 9AB28AF0 md5 137D38365425885D5D86B16DC380D5C5 sha1 BFEBA84926A72498EA65FCAE767DF8BA13F28D49 )
 )
 game (
-	name "Game Boy Digital Sampling Oscilloscope (Europe) (Demo) (Unl)"
-	description "Game Boy Digital Sampling Oscilloscope (Europe) (Demo) (Unl)"
-	region "Europe"
-	rom ( name "Game Boy Digital Sampling Oscilloscope (Europe) (Demo) (Unl).gb" size 32768 crc A800444B md5 142A57AE12384A07EC4B1E1B567F6915 sha1 DB3E76BCED7BD9844AEDF23345C4307403006600 )
-)
-game (
 	name "Game Boy Digital Sampling Oscilloscope (Europe) (Unl)"
 	description "Game Boy Digital Sampling Oscilloscope (Europe) (Unl)"
 	region "Europe"
@@ -3604,11 +3538,6 @@ game (
 	rom ( name "Genesis (World) (Aftermarket) (Unl).gb" size 65536 crc 74B3EC78 md5 A95EF483162D0CA6824A08A5E68F90B0 sha1 CA43F82D73BA0B3E43EC17F6BC6761C09CA23626 )
 )
 game (
-	name "Genesis II (World) (Demo) (Aftermarket) (Unl)"
-	description "Genesis II (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Genesis II (World) (Demo) (Aftermarket) (Unl).gb" size 262144 crc D7AEC1CC md5 45493EA51177885A231226238D93A843 sha1 9700EA1278850DF004DED7553253CFDD354F4ADA )
-)
-game (
 	name "Genjin Collection (Japan) (SGB Enhanced)"
 	description "Genjin Collection (Japan) (SGB Enhanced)"
 	region "Japan"
@@ -3669,16 +3598,6 @@ game (
 	description "Ginga - Card & Puzzle Collection (Japan) (En,Ja)"
 	region "Japan"
 	rom ( name "Ginga - Card & Puzzle Collection (Japan) (En,Ja).gb" size 65536 crc 87D0637B md5 49EFF735E839F8A57F75AFCBF2C11AE4 sha1 14F4F14CAEE081DCEADB9D31AE26FD8968C432EA )
-)
-game (
-	name "Glory Hunters - Chapter 1 (World) (v0.1) (Demo) (Aftermarket) (Unl)"
-	description "Glory Hunters - Chapter 1 (World) (v0.1) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Glory Hunters - Chapter 1 (World) (v0.1) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc 4B19366D md5 2CC3D13C1E77313720788E0B163169DC sha1 77F3B561BF28A81F38DBEDC351752E10FF4C23DC )
-)
-game (
-	name "Glory Hunters - Chapter 1 (World) (v0.2) (Demo) (Aftermarket) (Unl)"
-	description "Glory Hunters - Chapter 1 (World) (v0.2) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Glory Hunters - Chapter 1 (World) (v0.2) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc 3F34FF66 md5 6696BC9F11DD7F540D02501F4F9151A9 sha1 A0BFF49B6917186D27DC24773DA0674A18A6212C )
 )
 game (
 	name "Gluecksrad (Germany)"
@@ -4052,11 +3971,6 @@ game (
 	name "Gun Law (World) (Aftermarket) (Unl)"
 	description "Gun Law (World) (Aftermarket) (Unl)"
 	rom ( name "Gun Law (World) (Aftermarket) (Unl).gb" size 262144 crc B0D53211 md5 48CCA9E48B1546B24A077645B5C7C5DB sha1 EF6E3D287E99BD61861A333165C92B306238A45F )
-)
-game (
-	name "Gunman Clive (World) (Demo) (Aftermarket) (Unl)"
-	description "Gunman Clive (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Gunman Clive (World) (Demo) (Aftermarket) (Unl).gb" size 65536 crc 11F5FDED md5 587BE2DD01BB27EB938FE6C8484A9281 sha1 EC03763DB2C0D754E2EB7E98384ED92FC8AEEB1D )
 )
 game (
 	name "Gunship (World) (Aftermarket) (Unl)"
@@ -4548,11 +4462,6 @@ game (
 	description "Ishido - The Way of Stones (USA)"
 	region "USA"
 	rom ( name "Ishido - The Way of Stones (USA).gb" size 65536 crc 85B98A77 md5 E904AD95019FAD36DECD3B8BAE8B3F09 sha1 41A00B379864CC0BE08DE75AE0DE5BB2C6FBB045 )
-)
-game (
-	name "Island, The (World) (Demo) (Aftermarket) (Unl)"
-	description "Island, The (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Island, The (World) (Demo) (Aftermarket) (Unl).gb" size 131072 crc D6A43A64 md5 49551D4AEF9F5A513055581DDEF18D8C sha1 38419C50713B4E403B80F1DA151A3E9D0654D47C )
 )
 game (
 	name "Itsudemo! Nyan to Wonderful (Japan) (SGB Enhanced)"
@@ -5312,16 +5221,6 @@ game (
 	rom ( name "Krusty's Fun House (USA, Europe).gb" size 131072 crc 1CEDB141 md5 38B05E5167A24089CB18CC95E3911019 sha1 E61039C52C053A8AE1BDFFFA3F694934569BB570 )
 )
 game (
-	name "Kudzu (World) (v0.96) (Demo) (Aftermarket) (Unl)"
-	description "Kudzu (World) (v0.96) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Kudzu (World) (v0.96) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc 0610049A md5 00CE528917BA8EBC73405B9F4AAF5B8D sha1 A6FBE1A524547BEBABC5E6B3BAFF1DFF8F13DBD0 )
-)
-game (
-	name "Kudzu (World) (v1.1c) (Demo) (Aftermarket) (Unl)"
-	description "Kudzu (World) (v1.1c) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Kudzu (World) (v1.1c) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc 4462FF70 md5 17DB6DC11C71A5C712364100C5A8BB45 sha1 18A2A762D7B994865C845AC2AA0A0CF7655AF74E )
-)
-game (
 	name "Kuma no Puutarou - Takara Sagashi da Ooiri Game Battle! (Japan) (SGB Enhanced)"
 	description "Kuma no Puutarou - Takara Sagashi da Ooiri Game Battle! (Japan) (SGB Enhanced)"
 	region "Japan"
@@ -5380,16 +5279,6 @@ game (
 	name "Last Action Hero (USA, Europe)"
 	description "Last Action Hero (USA, Europe)"
 	rom ( name "Last Action Hero (USA, Europe).gb" size 131072 crc 10499AF6 md5 36CE150459099B9A7FCCBC2EE46AC22C sha1 010EB2CBAB987EC242CD0792C789A07C00106F48 )
-)
-game (
-	name "Last Crown Warriors (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	description "Last Crown Warriors (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	rom ( name "Last Crown Warriors (World) (Demo) (SGB Enhanced) (Aftermarket) (Unl).gb" size 262144 crc 2C430576 md5 BD3F92B58281C6146C94E5A1048BB3FD sha1 0E290B387A45B6EA85C6D49BF18BCE3CE94951B7 )
-)
-game (
-	name "Last Crown Warriors (World) (v1.1.1) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	description "Last Crown Warriors (World) (v1.1.1) (Demo) (SGB Enhanced) (Aftermarket) (Unl)"
-	rom ( name "Last Crown Warriors (World) (v1.1.1) (Demo) (SGB Enhanced) (Aftermarket) (Unl).gb" size 262144 crc 5CF1A6F9 md5 5F4E720FFFFC731EE90C5BA4289C0903 sha1 9FAC1324E863F719674219EB41E45F1F745C67A9 )
 )
 game (
 	name "Lawn Mower Land (World) (Aftermarket) (Unl)"
@@ -5799,9 +5688,9 @@ game (
 	rom ( name "Mach Go Go Go (Japan) (SGB Enhanced).gb" size 262144 crc 016D230B md5 D87FDB7009DECE416655EDF24EE19EDE sha1 BAEA8B49CE2402C5C094DDAE0320A382C0D95D86 )
 )
 game (
-	name "Machine, The (World) (v1.0) (Aftermarket) (Unl)"
-	description "Machine, The (World) (v1.0) (Aftermarket) (Unl)"
-	rom ( name "Machine, The (World) (v1.0) (Aftermarket) (Unl).gb" size 2097152 crc B06036A9 md5 C62FCD4C0CBF34F2E7D1C86DB1EB0A87 sha1 50C5D1EB7C8946AC2D7E2C566B1EA4A9B0D58E90 )
+	name "Machine, The (World) (Aftermarket) (Unl)"
+	description "Machine, The (World) (Aftermarket) (Unl)"
+	rom ( name "Machine, The (World) (Aftermarket) (Unl).gb" size 2097152 crc B06036A9 md5 C62FCD4C0CBF34F2E7D1C86DB1EB0A87 sha1 50C5D1EB7C8946AC2D7E2C566B1EA4A9B0D58E90 )
 )
 game (
 	name "Mad Monster (World) (Aftermarket) (Unl)"
@@ -5855,14 +5744,6 @@ game (
 	rom ( name "Magical Taruruuto-kun 2 - Raibaa Zone Panic!! (Japan).gb" size 131072 crc 0AAD5217 md5 E928D1F7DFAFF38ABC7937A6E092CEC4 sha1 3BE6C6B8CEC80A0FE0F6EDBBE40496F4D077C750 )
 )
 game (
-	name "Magipanels (World) (Demo) (Aftermarket) (Unl)"
-	description "Magipanels (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2022"
-	releasemonth "02"
-	releaseday "09"
-	rom ( name "Magipanels (World) (2022-02-09) (Demo) (Aftermarket) (Unl).gb" size 131072 crc 76FCBC30 md5 AF4ED547284EC6449114DC1B06AB7976 sha1 7A759372BD013DCDB59C9131A2908085FC04D648 )
-)
-game (
 	name "Magipanels (World) (Aftermarket) (Unl)"
 	description "Magipanels (World) (Aftermarket) (Unl)"
 	rom ( name "Magipanels (World) (Aftermarket) (Unl).gb" size 131072 crc 0B66561B md5 75E4CED55FE6DC29561C54E613848B23 sha1 C9513F6769098F2185F632F87386788F0F0B6AD8 )
@@ -5878,6 +5759,11 @@ game (
 	description "Mahoujin GuruGuru - Yuusha to Kukuri no Daibouken (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Mahoujin GuruGuru - Yuusha to Kukuri no Daibouken (Japan) (SGB Enhanced).gb" size 262144 crc 2D439D0D md5 81EFA6BE1EE143FBE8634AFF615EA1AD sha1 10A55C546C68CB117CC47D49304F807A7BB63687 )
+)
+game (
+	name "Mai Nurse (World) (v1.01) (Aftermarket) (Unl)"
+	description "Mai Nurse (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Mai Nurse (World) (v1.01) (Aftermarket) (Unl).gb" size 131072 crc 20D562B2 md5 896BF34F506A55B726E8A4EDBC78C443 sha1 2D3B1DAC701B518F9E5109DBC5E7D2BC8420DEC3 )
 )
 game (
 	name "Makai Toushi Sa-Ga (Japan)"
@@ -6204,6 +6090,11 @@ game (
 	description "Metal Masters (USA) (Beta)"
 	region "USA"
 	rom ( name "Metal Masters (USA) (Beta).gb" size 131072 crc 3378064B md5 200626CC703CEBB4E3F31B725A705220 sha1 572C820F7EC7A3C96DF9AF441DA244BEFA5223B9 )
+)
+game (
+	name "Metal Masters (World) (Limited Run Games)"
+	description "Metal Masters (World) (Limited Run Games)"
+	rom ( name "Metal Masters (World) (Limited Run Games).gb" size 131072 crc 7DE862FA md5 CBD881EA82BEB95AB599A0418B22635A sha1 9D4896A198904365EBC348C557B7C15F87B5E3C5 )
 )
 game (
 	name "Meteorite (World) (Aftermarket) (Unl)"
@@ -7188,16 +7079,6 @@ game (
 	rom ( name "Neko Can Dream (World) (En) (Aftermarket) (Unl).gb" size 2097152 crc 6E76EF25 md5 C4082F582D94E51FC960838E9C5829B8 sha1 55686FDE78D17D00ADFC831ECA2C699274A82273 )
 )
 game (
-	name "Neko Can Dream (World) (En) (Demo) (Aftermarket) (Unl)"
-	description "Neko Can Dream (World) (En) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Neko Can Dream (World) (En) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc DC011D07 md5 15A433CC846E811307D05DF78A0153BD sha1 43312B149355D20944E8A366584C69E5CB3BE868 )
-)
-game (
-	name "Neko Can Dream (World) (Ja) (Demo) (Aftermarket) (Unl)"
-	description "Neko Can Dream (World) (Ja) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Neko Can Dream (World) (Ja) (Demo) (Aftermarket) (Unl).gb" size 2097152 crc A0AD7A18 md5 C79C9345A394558060E0781381C05BE5 sha1 5FB1A09E04CF1704B059468DE8855DFA7E23043B )
-)
-game (
 	name "Nekojara Monogatari (Japan)"
 	description "Nekojara Monogatari (Japan)"
 	region "Japan"
@@ -7458,11 +7339,6 @@ game (
 	rom ( name "Nobunaga's Ambition (USA).gb" size 131072 crc 5A843008 md5 7CC78EA5DBC099E8F89849A11A08C38E sha1 D4DD65535D2A15F177289B53A49F1BC9E9B739F3 )
 )
 game (
-	name "Nocptern (World) (v1.0) (Demo) (Aftermarket) (Unl)"
-	description "Nocptern (World) (v1.0) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Nocptern (World) (v1.0) (Demo) (Aftermarket) (Unl).gb" size 131072 crc 118DA307 md5 27FAEE3B3FBB1C04016EE5C49838CF84 sha1 33174A7727F6A1CC7C94B598ED6E9A4C2D1D410C )
-)
-game (
 	name "Nontan to Issho - Kurukuru Puzzle (Japan)"
 	description "Nontan to Issho - Kurukuru Puzzle (Japan)"
 	region "Japan"
@@ -7493,21 +7369,6 @@ game (
 	name "Oddworld Adventures (USA, Europe)"
 	description "Oddworld Adventures (USA, Europe)"
 	rom ( name "Oddworld Adventures (USA, Europe).gb" size 524288 crc 6510C0E2 md5 5CA71CD4CEACE3CB6650FF05D679D149 sha1 BE3F69371B6959DAB34014CB1D3672F4F3377C3A )
-)
-game (
-	name "Oiopolis (World) (Ca) (Demo) (Aftermarket) (Unl)"
-	description "Oiopolis (World) (Ca) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Oiopolis (World) (Ca) (Demo) (Aftermarket) (Unl).gb" size 524288 crc 76BAAB68 md5 05975CBDC16211FA3A849A3C9A8FCFC6 sha1 CD76DA35541535DD244AD60D10EB998F7692F07A )
-)
-game (
-	name "Oiopolis (World) (En) (Demo) (Aftermarket) (Unl)"
-	description "Oiopolis (World) (En) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Oiopolis (World) (En) (Demo) (Aftermarket) (Unl).gb" size 524288 crc 71F34822 md5 E152EB9679D126CA2E4F027CE297A932 sha1 F24DA97F44D280F27F8EBE3ACDC33FEA758D2255 )
-)
-game (
-	name "Oiopolis (World) (Es) (Demo) (Aftermarket) (Unl)"
-	description "Oiopolis (World) (Es) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Oiopolis (World) (Es) (Demo) (Aftermarket) (Unl).gb" size 524288 crc D3EBA01D md5 975551872CC1E2E67F9D451B7F36B08B sha1 8CF234BBCB68CA2B676A4CCEC89814B0CBCE1C07 )
 )
 game (
 	name "Oira Jajamaru! Sekai Daibouken (Japan)"
@@ -7641,12 +7502,6 @@ game (
 	description "Outburst (Japan)"
 	region "Japan"
 	rom ( name "Outburst (Japan).gb" size 262144 crc 8AFCC4B0 md5 9DA5066FED7D826101A92688AA03059A sha1 2D5A27B675A1F3C0BE43E6F662F0159A3B3BF92B )
-)
-game (
-	name "Outburst (Japan) (Demo)"
-	description "Outburst (Japan) (Demo)"
-	region "Japan"
-	rom ( name "Outburst (Japan) (Demo).gb" size 262144 crc 9837FFAC md5 745540AF345D67CBB5ED750521D69227 sha1 4A45CC555B486F5DAFA4E844A7B6AFCEB709A1B9 )
 )
 game (
 	name "Oyatsu Quiz Mogu Mogu Q (Japan) (SGB Enhanced)"
@@ -8010,14 +7865,6 @@ game (
 	rom ( name "Philip & Marlowe in Bloomland (USA) (Proto).gb" size 131072 crc 32BAE420 md5 6C06369E6D6ECBF2D7B5A5254A11E541 sha1 2F9E5CEE29D0D578B2642CE8637F02FC567AEBC5 )
 )
 game (
-	name "Phobos Dere .GB (World) (Demo) (Aftermarket) (Unl)"
-	description "Phobos Dere .GB (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2022"
-	releasemonth "03"
-	releaseday "06"
-	rom ( name "Phobos Dere .GB (World) (2022-03-06) (Demo) (Aftermarket) (Unl).gb" size 262144 crc 58362B86 md5 90AD297835B0FAC6C28A5C84B8D1C7AC sha1 B4CC3C3735BC134E34B97E08ED24C57AEF5C5CCF )
-)
-game (
 	name "Phobos Dere .GB (World) (Aftermarket) (Unl)"
 	description "Phobos Dere .GB (World) (Aftermarket) (Unl)"
 	rom ( name "Phobos Dere .GB (World) (Aftermarket) (Unl).gb" size 1048576 crc AE97F4F8 md5 A1D55314D4D98E93EAF8DE42E1AC5BC8 sha1 E541505078EE5E7E5C897B4621CC693CE71E35BA )
@@ -8076,11 +7923,6 @@ game (
 	name "Pineapple Kid (World) (Aftermarket) (Unl)"
 	description "Pineapple Kid (World) (Aftermarket) (Unl)"
 	rom ( name "Pineapple Kid (World) (Aftermarket) (Unl).gb" size 131072 crc 9541488B md5 E63BBA411CA5D496BBB2A33A7CA22155 sha1 FD574B5D407F3654DB3227900A8ED7EFF4FE48AE )
-)
-game (
-	name "Pineapple Kid (World) (Demo) (Aftermarket) (Unl)"
-	description "Pineapple Kid (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Pineapple Kid (World) (Demo) (Aftermarket) (Unl).gb" size 131072 crc 9D9102D9 md5 0D3A709D001573CC29166B0529B070B6 sha1 105E78F740D6BC517EF0079F867E9FDCE8D012D2 )
 )
 game (
 	name "Pingu - Sekai de 1ban Genki na Penguin (Japan)"
@@ -8286,30 +8128,6 @@ game (
 	description "Pocket Monsters - Pikachu (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Pocket Monsters - Pikachu (Japan) (SGB Enhanced).gb" size 1048576 crc 4EC85504 md5 AA13E886A47FD473DA63B7D5DDF2828D sha1 1FB6C264E950D97CE3FD99B347E485B2150DF4FF )
-)
-game (
-	name "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)"
-	description "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)"
-	region "Japan"
-	rom ( name "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced).gb" size 1048576 crc 7246170A md5 C52A677C35F15320D5B495E14809F00D sha1 F338DAFD76619BE268B4987BD2C94ADB15AA9386 )
-)
-game (
-	name "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)"
-	description "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)"
-	region "Japan"
-	rom ( name "Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug).gb" size 1048576 crc 2C5732DB md5 FA65D3759BB17C489DE171A598BA4913 sha1 4C576DD4671BB1FE36C5E6D76C8909F98D739667 )
-)
-game (
-	name "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)"
-	description "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced)"
-	region "Japan"
-	rom ( name "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced).gb" size 1048576 crc ABEDD2BF md5 3C407114DE28D17B7113A2C0CEE9A37C sha1 6A5DF1B84698168B44CA53B0DF15128E4BFAAD6A )
-)
-game (
-	name "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)"
-	description "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug)"
-	region "Japan"
-	rom ( name "Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug).gb" size 1048576 crc C2CA5626 md5 2EADBED83B775C097FF79E5128D1184F sha1 B1D7539A87DEA81B2CFF6146AFAAD64470D08D84 )
 )
 game (
 	name "Pocket Monsters Yellow (Hong Kong) (SGB Enhanced) (Pirate)"
@@ -8549,11 +8367,6 @@ game (
 	description "Pop'n TwinBee (Europe)"
 	region "Europe"
 	rom ( name "Pop'n TwinBee (Europe).gb" size 131072 crc D07DB274 md5 05D5CF3404868EFC22AC06E22AB5BA89 sha1 0206230B55C15A8C18FBB85F852967E44B33A0A4 )
-)
-game (
-	name "Popcorn Caravan (World) (Demo) (Aftermarket) (Unl)"
-	description "Popcorn Caravan (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Popcorn Caravan (World) (Demo) (Aftermarket) (Unl).gb" size 65536 crc EAD528F9 md5 7BE76C65A2280F4AF558D21A74CD32A2 sha1 909D3421747D211A2DC70918D2C952DB953E49B2 )
 )
 game (
 	name "Popeye (Japan)"
@@ -9266,16 +9079,16 @@ game (
 	rom ( name "RoboCop 2 (USA, Europe).gb" size 131072 crc 4365A789 md5 3EB476D0C6347CE9034246F826866A58 sha1 B4B78CB9B606D64E8EBB80E047B3B4B4767C019C )
 )
 game (
-	name "RoboCop versus The Terminator (Europe)"
-	description "RoboCop versus The Terminator (Europe)"
+	name "RoboCop Versus The Terminator (Europe)"
+	description "RoboCop Versus The Terminator (Europe)"
 	region "Europe"
-	rom ( name "RoboCop versus The Terminator (Europe).gb" size 131072 crc 9E3B05C4 md5 C515CC92427EA1148C1D6274F803B07A sha1 A5ABFFF1026FC65C8DA95B40423C4D136F4BCFBA )
+	rom ( name "RoboCop Versus The Terminator (Europe).gb" size 131072 crc 9E3B05C4 md5 C515CC92427EA1148C1D6274F803B07A sha1 A5ABFFF1026FC65C8DA95B40423C4D136F4BCFBA )
 )
 game (
-	name "RoboCop versus The Terminator (USA)"
-	description "RoboCop versus The Terminator (USA)"
+	name "RoboCop Versus The Terminator (USA)"
+	description "RoboCop Versus The Terminator (USA)"
 	region "USA"
-	rom ( name "RoboCop versus The Terminator (USA).gb" size 131072 crc F82D7223 md5 0E82B5210966E9EB53D5B7EF906A0F40 sha1 CA0484363D1D427474DE028F037C7D566E9C1FEA )
+	rom ( name "RoboCop Versus The Terminator (USA).gb" size 131072 crc F82D7223 md5 0E82B5210966E9EB53D5B7EF906A0F40 sha1 CA0484363D1D427474DE028F037C7D566E9C1FEA )
 )
 game (
 	name "Robot Ponkots - Sun Version - Comic Bom Bom Special Version (Japan) (SGB Enhanced)"
@@ -9365,14 +9178,6 @@ game (
 	name "Roommate Simulator (World) (Aftermarket) (Unl)"
 	description "Roommate Simulator (World) (Aftermarket) (Unl)"
 	rom ( name "Roommate Simulator (World) (Aftermarket) (Unl).gb" size 131072 crc 3C95B1AA md5 4019AD36149883BE86FB3EE45F79C042 sha1 D5C99106C3BD4D46AEB75F513FD4314C19C734B2 )
-)
-game (
-	name "Rosa Cupiditatis (World) (Demo) (Aftermarket) (Unl)"
-	description "Rosa Cupiditatis (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2023"
-	releasemonth "05"
-	releaseday "17"
-	rom ( name "Rosa Cupiditatis (World) (2023-05-17) (Demo) (Aftermarket) (Unl).gb" size 524288 crc 51D09337 md5 707FE8918760BE092AFAEA8AAF93A2B9 sha1 9E935CCA00CB4C3AAD7B1DFCE9FE59F5D913BDFF )
 )
 game (
 	name "Rubble Saver (Japan)"
@@ -9629,11 +9434,6 @@ game (
 	description "Serpent (USA)"
 	region "USA"
 	rom ( name "Serpent (USA).gb" size 32768 crc 74D466D7 md5 ED999967209A4CBCAA844B8A84E09EA9 sha1 3122B3C12C2580C3A81D70C5648F767BF3590AAF )
-)
-game (
-	name "Severen (World) (Demo) (Aftermarket) (Unl)"
-	description "Severen (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Severen (World) (Demo) (Aftermarket) (Unl).gb" size 1048576 crc 642F2244 md5 681B0345B45232858E60623D67A83092 sha1 D9692AA569820DB3F38458819CBA21846A2E06F4 )
 )
 game (
 	name "Shadow Warriors (Europe)"
@@ -10365,6 +10165,11 @@ game (
 	rom ( name "Star Wars (USA, Europe) (Rev 1).gb" size 131072 crc 5D8DEB5B md5 CB1DCE08C78C509A876C494D6333F45C sha1 F6563F526FC786C8666D75DFBA9E6D42D787EA89 )
 )
 game (
+	name "Star Wars (World) (Limited Run Games)"
+	description "Star Wars (World) (Limited Run Games)"
+	rom ( name "Star Wars (World) (Limited Run Games).gb" size 131072 crc 08838397 md5 C1B3F705A5E0786B223E9C2ECE073FE5 sha1 02BFB690CE171214BFEE900069192E0DAAFC010D )
+)
+game (
 	name "Star Wars - The Empire Strikes Back (USA)"
 	description "Star Wars - The Empire Strikes Back (USA)"
 	region "USA"
@@ -10376,10 +10181,20 @@ game (
 	rom ( name "Star Wars - The Empire Strikes Back (USA, Europe).gb" size 131072 crc 240C589D md5 5664CDC54D539374C8D318C6DA06969E sha1 C8458C870E6AC535AAFF6BF97EC47FB3CB0DAA8A )
 )
 game (
+	name "Star Wars - The Empire Strikes Back (World) (Limited Run Games)"
+	description "Star Wars - The Empire Strikes Back (World) (Limited Run Games)"
+	rom ( name "Star Wars - The Empire Strikes Back (World) (Limited Run Games).gb" size 131072 crc 799E4AE8 md5 091E5208FBD182F3A9685990EB736B35 sha1 DC819B082F671699AC189A49075854D8FF7A2B8F )
+)
+game (
 	name "StarHawk (Europe)"
 	description "StarHawk (Europe)"
 	region "Europe"
 	rom ( name "StarHawk (Europe).gb" size 131072 crc E032E502 md5 C284B8A9019020336C89B680FB6552E4 sha1 4C22E06CB98119923126F6500568CE9F136A33C5 )
+)
+game (
+	name "StarHawk (World) (Limited Run Games)"
+	description "StarHawk (World) (Limited Run Games)"
+	rom ( name "StarHawk (World) (Limited Run Games).gb" size 131072 crc 00DA50E2 md5 0E197969C69B529EBED89CFB736D1478 sha1 BF64C1B1071BD243417B6C29FD8A4DD559D3F63A )
 )
 game (
 	name "Stardiver (World) (Aftermarket) (Unl)"
@@ -10863,6 +10678,11 @@ game (
 	rom ( name "Tail 'Gator (USA, Europe).gb" size 65536 crc C5ACCE7C md5 CAC94925BF098982D31F7C9A2C296D25 sha1 ED5F1110A9DB4C48D26D53AF0973E8B46FE7E4E1 )
 )
 game (
+	name "Tail 'Gator (World) (Limited Run Games)"
+	description "Tail 'Gator (World) (Limited Run Games)"
+	rom ( name "Tail 'Gator (World) (Limited Run Games).gb" size 65536 crc E35CD748 md5 AB640FFF5661C467369FA8FB12A389E8 sha1 203F6E20E4D44792C727FE78AAA65E354D014175 )
+)
+game (
 	name "Taito Chase H.Q. (Japan)"
 	description "Taito Chase H.Q. (Japan)"
 	region "Japan"
@@ -10897,11 +10717,6 @@ game (
 	description "Takahashi Meijin no Bouken-jima III (Japan)"
 	region "Japan"
 	rom ( name "Takahashi Meijin no Bouken-jima III (Japan).gb" size 262144 crc F8FC0B41 md5 A291DD1F541FAC1D57019E4A3D0FFD08 sha1 E3FE857A1B7F00A6F7862D7DD401063F98FD0CB6 )
-)
-game (
-	name "Take It Racing 2 (World) (Demo) (Aftermarket) (Unl)"
-	description "Take It Racing 2 (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Take It Racing 2 (World) (Demo) (Aftermarket) (Unl).gb" size 1048576 crc 5898C134 md5 AADD070E3E18937C15937C43DDDCB68C sha1 BD3468395DEB0009B190D0B5D487962AE65ADBEE )
 )
 game (
 	name "Takeda Nobuhiro no Ace Striker (Japan)"
@@ -11501,41 +11316,12 @@ game (
 	rom ( name "Trappers Tengoku - Spy vs Spy (Japan).gb" size 131072 crc AFEFD085 md5 15F0B057AB8B7B53914129B3BBAB6610 sha1 C9EB687F6DE7B821255FDD0CBF14F68AD789F97F )
 )
 game (
-	name "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	description "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2021"
-	releasemonth "12"
-	releaseday "09"
-	rom ( name "Traumatarium (World) (Demo) (2021-12-09) (Aftermarket) (Unl).gb" size 2097152 crc 15AFD765 md5 0AEA35682C6853EC1F36F69A999AE2CB sha1 C12E603492F8BCFFFD28DD4733C7BC445C507642 )
-)
-game (
-	name "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	description "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2022"
-	releasemonth "03"
-	releaseday "13"
-	rom ( name "Traumatarium (World) (Demo) (2022-03-13) (Aftermarket) (Unl).gb" size 1048576 crc 42BB7DAB md5 59860C0670B21CD3D209EF0160CFCA2B sha1 70FDED7CE1EDC54DE85B020460F779FEB9BDBC01 )
-)
-game (
-	name "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	description "Traumatarium (World) (Demo) (Aftermarket) (Unl)"
-	releaseyear "2022"
-	releasemonth "06"
-	releaseday "18"
-	rom ( name "Traumatarium (World) (Demo) (2022-06-18) (Aftermarket) (Unl).gb" size 2097152 crc E1BDF67F md5 89ABC5286F0FA026DE7A5E29FC170087 sha1 BA492778121622B5288D4188EDC344AA41AA6803 )
-)
-game (
 	name "Traumatarium - Penitent (World) (Proto) (Aftermarket) (Unl)"
 	description "Traumatarium - Penitent (World) (Proto) (Aftermarket) (Unl)"
 	releaseyear "2024"
 	releasemonth "01"
 	releaseday "12"
 	rom ( name "Traumatarium - Penitent (World) (2024-01-12) (Proto) (Aftermarket) (Unl).gb" size 4194304 crc 805F8257 md5 D59ADD67965BACF227A0661797FC6405 sha1 A28D68F59B7AB3A6C95D5EFC35C22AB9D7A74D31 )
-)
-game (
-	name "Traumatarium - Penitent (World) (Demo) (Aftermarket) (Unl)"
-	description "Traumatarium - Penitent (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Traumatarium - Penitent (World) (Demo) (Aftermarket) (Unl).gb" size 4194304 crc 7D368277 md5 60B240E843C5EE4675B2F92C54BF482B sha1 EFC91CA2873FF8F1733036E298950033D3456927 )
 )
 game (
 	name "Trax (USA, Europe)"
@@ -11558,6 +11344,11 @@ game (
 	description "Trip World (Japan)"
 	region "Japan"
 	rom ( name "Trip World (Japan).gb" size 262144 crc 11568E64 md5 E0A81DCC3AA0DB3896C6F46E0ED3FC80 sha1 AC19D49906E72AAEBEFFA9AB7106EB346A5EFA07 )
+)
+game (
+	name "Trip World (World) (Limited Run Games)"
+	description "Trip World (World) (Limited Run Games)"
+	rom ( name "Trip World (World) (Limited Run Games).gb" size 262144 crc EC67F1E6 md5 379C0C424093A74A915AD444A966307C sha1 16BB82FA8708CBD159388C55E702B9FB9ED5A41F )
 )
 game (
 	name "TripleA (USA) (Proto)"
@@ -11680,12 +11471,6 @@ game (
 	description "TwinBee da!! (Japan) (Beta)"
 	region "Japan"
 	rom ( name "TwinBee da!! (Japan) (Beta).gb" size 131072 crc 60065DC3 md5 454F4506873737EECE69FAB4AA60EED7 sha1 7F09F11F3E2EA3AA2C32AD55A6778D8E176127D0 )
-)
-game (
-	name "Two Hearts (Japan) (Demo) (Unl)"
-	description "Two Hearts (Japan) (Demo) (Unl)"
-	region "Japan"
-	rom ( name "Two Hearts (Japan) (Demo) (Unl).gb" size 524288 crc D7E52D4E md5 FC323386EA341ECB9495D82E160FF95E sha1 A3572C1220564AEEC4A95707A0FAC60817BE8230 )
 )
 game (
 	name "Uchiiwai - Kyoudaijingi no Puzzle Game (Japan)"
@@ -12398,11 +12183,6 @@ game (
 	rom ( name "Zagan Warrior (World) (Aftermarket) (Unl).gb" size 262144 crc 97FE7A94 md5 DBB866351AE487D06C3D79F9AD641D0B sha1 88F76297A4CCF0E3A5BA16CA15237C88346C134A )
 )
 game (
-	name "Zelda - Majora's Mask (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	description "Zelda - Majora's Mask (World) (v1.1) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Zelda - Majora's Mask (World) (v1.1) (Demo) (Aftermarket) (Unl).gb" size 524288 crc F86C2766 md5 302375188258788541B9CB3F3B5EB68E sha1 EE86A28CF271BE43739E406135E4D8BD4EDF7686 )
-)
-game (
 	name "Zelda no Densetsu - Yume o Miru Shima (Japan)"
 	description "Zelda no Densetsu - Yume o Miru Shima (Japan)"
 	region "Japan"
@@ -12413,12 +12193,6 @@ game (
 	description "Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1)"
 	region "Japan"
 	rom ( name "Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1).gb" size 524288 crc EA20B82A md5 3AFBE0CF110FC6AD8DEF8377ECFFC34D sha1 80F5D111C7E2D79D39F6C25A37B54C3196D2BD12 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1) (Demo) (Special Version)"
-	description "Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1) (Demo) (Special Version)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima (Japan) (Rev 1) (Demo) (Special Version).gb" size 524288 crc BCC0199A md5 02356ACBB2918991086D88A323139ED2 sha1 5FC7B8185096C4203536E0D8A302064E63511086 )
 )
 game (
 	name "Zelda's Adventure (World) (v1.3.0) (Aftermarket) (Unl)"

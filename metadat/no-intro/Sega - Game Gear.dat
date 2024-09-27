@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Game Gear"
 	description "Sega - Game Gear"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -1040,11 +1040,6 @@ game (
 	rom ( name "Coca-Cola Kid (Japan).gg" size 524288 crc C7598B81 md5 DBEDE5C20828E3D251B05356D9176C79 sha1 E0A6CABA7D8433175A3B7F1DFB593F9CA2C67CD1 )
 )
 game (
-	name "Colorlines (World) (Demo) (Aftermarket) (Unl)"
-	description "Colorlines (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Colorlines (World) (Demo) (Aftermarket) (Unl).gg" size 65536 crc F6DD95B1 md5 0785AE4B3AC9C5381FB5971E966F38B7 sha1 4AC6C81EB481688E71C9710125C1F5F30D911CDA )
-)
-game (
 	name "Columns (Japan) (En)"
 	description "Columns (Japan) (En)"
 	region "Japan"
@@ -1151,6 +1146,12 @@ game (
 	name "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)"
 	description "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It)"
 	rom ( name "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It).gg" size 524288 crc AAE268FC md5 1B079DED7729472B4F4039612C3112F2 sha1 2D058F3885BEE45B04B74CBE16F3974D4EB2BFCF )
+)
+game (
+	name "Damojie Cun (Taiwan) (En) (Unl)"
+	description "Damojie Cun (Taiwan) (En) (Unl)"
+	region "Taiwan"
+	rom ( name "Damojie Cun (Taiwan) (En) (Unl).sms" size 262144 crc 8821A7C9 md5 35B8FB205B5CF9989E9DE4A1ED29D0D3 sha1 6039E65F4E807C1200DE496FCAC9FF7DA0D1EB42 )
 )
 game (
 	name "Dangerous Demolition (World) (Aftermarket) (Unl)"
@@ -1275,12 +1276,6 @@ game (
 	rom ( name "Double Dragon (USA, Europe) (Beta).gg" size 262144 crc 331904C0 md5 662D42206945815AE7ACF13E406EFD9B sha1 B24AA3E31EFBF09E8D0D9AE9D07B4D219B648F96 )
 )
 game (
-	name "Dr. Franken (Europe) (Demo)"
-	description "Dr. Franken (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Dr. Franken (Europe) (Demo).gg" size 131072 crc C9907DCE md5 8FDBA752802F09CFA1583BF0192E3554 sha1 E64E08DB40C9E2358535B143CF7A18BC7C315846 )
-)
-game (
 	name "Dr. Robotnik's Mean Bean Machine (USA, Europe)"
 	description "Dr. Robotnik's Mean Bean Machine (USA, Europe)"
 	rom ( name "Dr. Robotnik's Mean Bean Machine (USA, Europe).gg" size 262144 crc 3C2D4F48 md5 6565DDCB2E41BF9CE5771A62D30AA700 sha1 C36BDA8A86994D430506B196922EC1365622E560 )
@@ -1396,34 +1391,34 @@ game (
 	rom ( name "Ecco - The Tides of Time (USA, Europe, Brazil) (En).gg" size 524288 crc E2F3B203 md5 8F8CBAEF1A8E1BECFCC7F07B134A3D83 sha1 61913F6803977BB54FDA7C3D969DC2C0F7C6DA62 )
 )
 game (
-	name "Ecco The Dolphin (Japan)"
-	description "Ecco The Dolphin (Japan)"
+	name "Ecco the Dolphin (Japan)"
+	description "Ecco the Dolphin (Japan)"
 	region "Japan"
-	rom ( name "Ecco The Dolphin (Japan).gg" size 524288 crc A32EB9D5 md5 A506FC04C7A0DFAF37423FF0A38AEB2E sha1 5F0DE698E8E0D4323B36BD78E2BD1AF1C3370F3E )
+	rom ( name "Ecco the Dolphin (Japan).gg" size 524288 crc A32EB9D5 md5 A506FC04C7A0DFAF37423FF0A38AEB2E sha1 5F0DE698E8E0D4323B36BD78E2BD1AF1C3370F3E )
 )
 game (
-	name "Ecco The Dolphin (USA, Europe, Brazil) (En)"
-	description "Ecco The Dolphin (USA, Europe, Brazil) (En)"
-	rom ( name "Ecco The Dolphin (USA, Europe, Brazil) (En).gg" size 524288 crc 866C7113 md5 CCD970B22303887734FAFB8E45B1E43F sha1 7C6C8F44D5AA799726ADC3A9E21C9F35CACEA87F )
+	name "Ecco the Dolphin (USA, Europe, Brazil) (En)"
+	description "Ecco the Dolphin (USA, Europe, Brazil) (En)"
+	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En).gg" size 524288 crc 866C7113 md5 CCD970B22303887734FAFB8E45B1E43F sha1 7C6C8F44D5AA799726ADC3A9E21C9F35CACEA87F )
 )
 game (
-	name "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
-	description "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
+	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
+	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
 	releaseyear "1993"
 	releasemonth "06"
 	releaseday "14"
-	rom ( name "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 1) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
+	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
 )
 game (
-	name "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
-	description "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
-	rom ( name "Ecco The Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
+	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
+	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
+	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
 )
 game (
-	name "Ecco The Dolphin II (Japan)"
-	description "Ecco The Dolphin II (Japan)"
+	name "Ecco the Dolphin II (Japan)"
+	description "Ecco the Dolphin II (Japan)"
 	region "Japan"
-	rom ( name "Ecco The Dolphin II (Japan).gg" size 524288 crc BA9CEF4F md5 E4E654AA1730565220120844DAD6B444 sha1 36095F4C92F6F66ED6BC20D9B96227D6FB0DAE5B )
+	rom ( name "Ecco the Dolphin II (Japan).gg" size 524288 crc BA9CEF4F md5 E4E654AA1730565220120844DAD6B444 sha1 36095F4C92F6F66ED6BC20D9B96227D6FB0DAE5B )
 )
 game (
 	name "Empire Syndicate (USA) (Beta)"
@@ -1661,16 +1656,6 @@ game (
 	description "GG Shinobi, The (Japan)"
 	region "Japan"
 	rom ( name "GG Shinobi, The (Japan).gg" size 262144 crc 83926BD1 md5 21D2E4E7C508E6ABBB12BB96C7AAC868 sha1 C5E1C2329F94F0804140792A3E3D5BE2AC0D5D0D )
-)
-game (
-	name "GG Turrican (World) (v0.9) (Demo) (Aftermarket) (Unl)"
-	description "GG Turrican (World) (v0.9) (Demo) (Aftermarket) (Unl)"
-	rom ( name "GG Turrican (World) (v0.9) (Demo) (Aftermarket) (Unl).gg" size 524288 crc 39212762 md5 31C3B01106796CD8EFC1699712D1B271 sha1 56157D43234D22F93A0C7E809FF4F35E8F3BEFAE )
-)
-game (
-	name "GG Turrican (World) (v1.0) (Demo) (Aftermarket) (Unl)"
-	description "GG Turrican (World) (v1.0) (Demo) (Aftermarket) (Unl)"
-	rom ( name "GG Turrican (World) (v1.0) (Demo) (Aftermarket) (Unl).gg" size 524288 crc 971CA630 md5 880F8DAEA46EBD93CAAD2F4D4CD4A3D1 sha1 D9177C956324BE7E38E04516534ACFB08190478C )
 )
 game (
 	name "GP Rider (Japan)"
@@ -1963,6 +1948,12 @@ game (
 	description "Jeopardy! - Sports Edition (USA)"
 	region "USA"
 	rom ( name "Jeopardy! - Sports Edition (USA).gg" size 262144 crc 2DD850B7 md5 5D1351B4F7579D36A1250F5B5F5A507F sha1 55CB5CB3C37E8403EBF4A47560F0ECE416323C56 )
+)
+game (
+	name "Jiansheng Chuanshuo (Taiwan) (Unl)"
+	description "Jiansheng Chuanshuo (Taiwan) (Unl)"
+	region "Taiwan"
+	rom ( name "Jiansheng Chuanshuo (Taiwan) (Unl).sms" size 262144 crc A59B4A09 md5 B0B66F32939E2402539244F026ADC6B8 sha1 F686BB3845E87FB06C4B0DD6DF6D6615EE838101 )
 )
 game (
 	name "Joe Montana Football (Japan, Brazil) (En) (Rev 1)"
@@ -2364,6 +2355,11 @@ game (
 	rom ( name "Magical Taruruuto-kun (Japan).gg" size 131072 crc 6E1CC23C md5 3AF0C6DDF5F00A493E1F159FCEDC0933 sha1 40FAE12F1D565849158FF87700E25D6967038867 )
 )
 game (
+	name "Mai Nurse (World) (Aftermarket) (Unl)"
+	description "Mai Nurse (World) (Aftermarket) (Unl)"
+	rom ( name "Mai Nurse (World) (Aftermarket) (Unl).gg" size 131072 crc 36A2DA11 md5 9DF2A140480D2397C0F5DD249BEBD544 sha1 FB53789C37AA5F36009869BC6C8EA12C97ED65AE )
+)
+game (
 	name "Majors, The - Pro Baseball (USA)"
 	description "Majors, The - Pro Baseball (USA)"
 	region "USA"
@@ -2530,11 +2526,6 @@ game (
 	name "Mortal Kombat II (World)"
 	description "Mortal Kombat II (World)"
 	rom ( name "Mortal Kombat II (World).gg" size 524288 crc 4B304E0F md5 159256F5A372F2E409ECB343A3946001 sha1 320D2B8B62EF0109621BBE609B02BD8B0769A0B9 )
-)
-game (
-	name "Mr. Ultra (World) (v0.1) (Demo) (Aftermarket) (Unl)"
-	description "Mr. Ultra (World) (v0.1) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Mr. Ultra (World) (v0.1) (Demo) (Aftermarket) (Unl).gg" size 32768 crc A87548CD md5 B1DBD5622CC172444193AA96BB192A19 sha1 20A5D2F13A6732A4AD30BE57180369AA5A16318F )
 )
 game (
 	name "Mr. Ultra 2 (World) (Aftermarket) (Unl)"
@@ -3538,11 +3529,6 @@ game (
 	rom ( name "Puzzle Bobble (Japan).gg" size 262144 crc 8E54EE04 md5 1713ECEBA681849BE8E36F5F62654405 sha1 15568554CF6474E1AD64401217B702A048113A2D )
 )
 game (
-	name "Quest (World) (Demo) (Aftermarket) (Unl)"
-	description "Quest (World) (Demo) (Aftermarket) (Unl)"
-	rom ( name "Quest (World) (Demo) (Aftermarket) (Unl).gg" size 65536 crc 1078F9A6 md5 8FF6735E1D5C92314BFA723C6EB23C4B sha1 0EE5C775F9D88CDE68E7A78A13A3A1B94ABF5921 )
-)
-game (
 	name "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (USA, Europe)"
 	description "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (USA, Europe)"
 	rom ( name "Quest for the Shaven Yak Starring Ren Hoek & Stimpy (USA, Europe).gg" size 524288 crc 6C451EE1 md5 42854DD79BF57019A26DDD73E12B68AC sha1 83BC52F669183F99ACCB078A454F786B5E320E40 )
@@ -3656,9 +3642,9 @@ game (
 	rom ( name "RoboCop 3 (World).gg" size 262144 crc 069A0704 md5 AE7121E6CE2831E1B700515B6060ACAF sha1 8DE7C9AC95B734AF9E3FBE5700AC4C6599799702 )
 )
 game (
-	name "RoboCop versus The Terminator (USA, Europe)"
-	description "RoboCop versus The Terminator (USA, Europe)"
-	rom ( name "RoboCop versus The Terminator (USA, Europe).gg" size 524288 crc 4AB7FA4E md5 D19DC027E7AFF95A1ABFD0DB074E1CF2 sha1 13286DF11FC66A8974A73A82E8478FA382FA2B43 )
+	name "RoboCop Versus The Terminator (USA, Europe)"
+	description "RoboCop Versus The Terminator (USA, Europe)"
+	rom ( name "RoboCop Versus The Terminator (USA, Europe).gg" size 524288 crc 4AB7FA4E md5 D19DC027E7AFF95A1ABFD0DB074E1CF2 sha1 13286DF11FC66A8974A73A82E8478FA382FA2B43 )
 )
 game (
 	name "Royal Stone - Hirakareshi Toki no Tobira (Japan)"
@@ -3837,6 +3823,11 @@ game (
 	rom ( name "Shinobi II - The Silent Fury (World).gg" size 262144 crc 6201C694 md5 48D741774004EAB9C19C1DD43758BF2B sha1 CD57301D16202EA02D9F97BD8B17D71772782C94 )
 )
 game (
+	name "Shuriken (World) (Aftermarket) (Unl)"
+	description "Shuriken (World) (Aftermarket) (Unl)"
+	rom ( name "Shuriken (World) (Aftermarket) (Unl).gg" size 32768 crc 31505680 md5 BE7075BDA7E0D18799D4C4CB7056D24F sha1 8F5732E94CBC952E1C6070ACD1FC91119F8FC358 )
+)
+game (
 	name "Side Pocket (USA)"
 	description "Side Pocket (USA)"
 	region "USA"
@@ -3981,12 +3972,6 @@ game (
 	description "Sonic Drift (Japan) (En)"
 	region "Japan"
 	rom ( name "Sonic Drift (Japan) (En).gg" size 524288 crc 68F0A776 md5 8093EF0EEB147F2A938FAE3E5A26D8B3 sha1 FEF5D69093DF2D774ED274A4079790F8778577FC )
-)
-game (
-	name "Sonic Drift (Japan) (En) (Demo)"
-	description "Sonic Drift (Japan) (En) (Demo)"
-	region "Japan"
-	rom ( name "Sonic Drift (Japan) (En) (Demo).gg" size 524288 crc BAAC1FC0 md5 DB3E87DC719C5D6F13859EEE81CCA297 sha1 462BDF9BFAC3EB9B389142B55BE39608C3343223 )
 )
 game (
 	name "Sonic Drift 2 (World)"
@@ -4619,6 +4604,11 @@ game (
 	rom ( name "Stargate (World).gg" size 262144 crc FC7C64E4 md5 B24361360667C2730AE9CBE9004B54D0 sha1 011FD49600EAEF8BE7CBE35AB6EEB4E1554D836C )
 )
 game (
+	name "Stinger (World) (Aftermarket) (Unl)"
+	description "Stinger (World) (Aftermarket) (Unl)"
+	rom ( name "Stinger (World) (Aftermarket) (Unl).gg" size 32768 crc 4EB39BBA md5 CD662C0C74D2531DE65763DE3E7717B6 sha1 1525B653C941E0775D6E51B01B05EF663F2E5777 )
+)
+game (
 	name "Street Battle (USA) (Proto) (Unl)"
 	description "Street Battle (USA) (Proto) (Unl)"
 	region "USA"
@@ -4775,6 +4765,11 @@ game (
 	rom ( name "Super Off Road (USA, Europe) (Beta).gg" size 131072 crc A1160814 md5 9BA272B3A9477C51B75A8CBBC4A0498C sha1 5703EDEFFD93EF20F8AB88EA5160C7FFB41C7A47 )
 )
 game (
+	name "Super Princess' 2092 - Exodus (World) (Aftermarket) (Unl)"
+	description "Super Princess' 2092 - Exodus (World) (Aftermarket) (Unl)"
+	rom ( name "Super Princess' 2092 - Exodus (World) (Aftermarket) (Unl).gg" size 131072 crc 3429D807 md5 0EAA25D0E0046C198AE2405BEDAFE94C sha1 71C39F0125819CFBB71E15112E354B6E21D400A2 )
+)
+game (
 	name "Super Smash T.V. (World)"
 	description "Super Smash T.V. (World)"
 	rom ( name "Super Smash T.V. (World).gg" size 262144 crc 1006E4E3 md5 D378D5784B82154BDC7B36976A7C7737 sha1 85189E29F3F6B94F95723BC75571E9424DF119F9 )
@@ -4807,9 +4802,24 @@ game (
 	rom ( name "Surf Ninjas (USA, Europe, Brazil) (En).gg" size 524288 crc 284482A8 md5 63F72877317FD3C17B0D867EA3169F56 sha1 23E493F7C19FFB17E67392289C5A72DC9D0D6D9E )
 )
 game (
+	name "Sushi Nights (World) (v1.01) (Aftermarket) (Unl)"
+	description "Sushi Nights (World) (v1.01) (Aftermarket) (Unl)"
+	rom ( name "Sushi Nights (World) (v1.01) (Aftermarket) (Unl).gg" size 131072 crc BDC4C3C9 md5 811A5D51566D50D24A1134C62467CCA9 sha1 0205508C951C389B8DC306237BE12767B468453E )
+)
+game (
+	name "Sushi Nights (World) (v1.04) (Aftermarket) (Unl)"
+	description "Sushi Nights (World) (v1.04) (Aftermarket) (Unl)"
+	rom ( name "Sushi Nights (World) (v1.04) (Aftermarket) (Unl).gg" size 131072 crc 934523BB md5 51667F190C9A8C80E5BD7C2F83F81EB3 sha1 06F1EB442611A850F57289ACF513BBC94B1A00D2 )
+)
+game (
 	name "Swabby (World) (v1.11) (Aftermarket) (Unl)"
 	description "Swabby (World) (v1.11) (Aftermarket) (Unl)"
 	rom ( name "Swabby (World) (v1.11) (Aftermarket) (Unl).gg" size 131072 crc B814AD3D md5 DB672D52225564B6F520E8A0A4B1A4C7 sha1 64F7350CA2C37C44B679E35F9BFD2766C7259CB9 )
+)
+game (
+	name "Sword of Stone, The (World) (Aftermarket) (Unl)"
+	description "Sword of Stone, The (World) (Aftermarket) (Unl)"
+	rom ( name "Sword of Stone, The (World) (Aftermarket) (Unl).gg" size 524288 crc 36EFDD03 md5 5FB06A0786776C4BA151BFA5153C6FC6 sha1 6FFCA7D31FC93D02B66833F08AAFE11B1E69D760 )
 )
 game (
 	name "Sylvan Tale (Japan)"

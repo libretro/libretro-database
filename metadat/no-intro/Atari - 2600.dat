@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 2600"
 	description "Atari - 2600"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -318,9 +318,9 @@ game (
 	rom ( name "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz) (Aftermarket) (Unl).bin" size 32768 crc 9A8505B6 md5 27279303DF0884B2423C2ED1FB7DDC92 sha1 F723B83145BD43E2FB4767E35BCB25958C8B2D03 )
 )
 game (
-	name "Anguna 2600 (World) (Aftermarket)"
-	description "Anguna 2600 (World) (Aftermarket)"
-	rom ( name "Anguna 2600 (World) (Aftermarket).bin" size 16384 crc D18E91A1 md5 F69A2458D29EFAFF1B4A76ADB923E984 sha1 8BFBF3D404A15DF315BF9C8BF0E5741AC1A42C96 )
+	name "Anguna 2600 (World) (Aftermarket) (Unl)"
+	description "Anguna 2600 (World) (Aftermarket) (Unl)"
+	rom ( name "Anguna 2600 (World) (Aftermarket) (Unl).bin" size 16384 crc D18E91A1 md5 F69A2458D29EFAFF1B4A76ADB923E984 sha1 8BFBF3D404A15DF315BF9C8BF0E5741AC1A42C96 )
 )
 game (
 	name "Apples and Dolls (Brazil) (En) (Unl)"
@@ -830,6 +830,12 @@ game (
 	rom ( name "Boing! (USA).a26" size 4096 crc AD380487 md5 14C2548712099C220964D7F044C59FD9 sha1 D106BB41A38ED222DEAD608D839E8A3F0D0ECC18 )
 )
 game (
+	name "Boom Bang (Europe)"
+	description "Boom Bang (Europe)"
+	region "Europe"
+	rom ( name "Boom Bang (Europe).a26" size 4096 crc 3BEDA93B md5 73AA02458B413091AC940C0489301710 sha1 DD3494A1E3FFA063803B1F02716E87E89DC3C574 )
+)
+game (
 	name "Bouncin' Baby Bunnies (USA) (Proto)"
 	description "Bouncin' Baby Bunnies (USA) (Proto)"
 	region "USA"
@@ -1137,6 +1143,12 @@ game (
 	rom ( name "Checkers (USA).a26" size 2048 crc E74F1B59 md5 3F5A43602F960EDE330CD2F43A25139E sha1 39B5BB27A6C4CB6532BD9D4CC520415C59DAC653 )
 )
 game (
+	name "Chess (Europe)"
+	description "Chess (Europe)"
+	region "Europe"
+	rom ( name "Chess (Europe).a26" size 4096 crc 6B71B32D md5 3EF9573536730DCD6D9C20B6822DBDC4 sha1 C7C792C91F9FA7C3E291D0E0F0DD71A7181369A5 )
+)
+game (
 	name "China Syndrome (Europe)"
 	description "China Syndrome (Europe)"
 	region "Europe"
@@ -1212,11 +1224,6 @@ game (
 	description "Colors (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Colors (Europe) (Proto).a26" size 2048 crc 4D8A1F6B md5 97A9BB5C3679D67F5C2CD17F30B85D95 sha1 33DB3151C8AD794EEB7BDF23C415B923F9839A93 )
-)
-game (
-	name "Colours (USA, Europe) (Demo) (Atari Anthology)"
-	description "Colours (USA, Europe) (Demo) (Atari Anthology)"
-	rom ( name "Colours (USA, Europe) (Demo) (Atari Anthology).a26" size 2048 crc 30464C79 md5 8946FBAFAC46158F020B7CB27993769E sha1 FBDC0CD86C15653BBA0C7A220FFE5DB6A771E76C )
 )
 game (
 	name "Combat (Europe)"
@@ -1890,12 +1897,6 @@ game (
 	rom ( name "Frisco (USA).a26" size 4096 crc C4F16D4D md5 E80A4026D29777C3C7993FBFAEE8920F sha1 15D989E49C5F1AF2A0FE114CDBA8F6DA39660E75 )
 )
 game (
-	name "Frog Demo (Europe) (Demo)"
-	description "Frog Demo (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Frog Demo (Europe) (Demo).a26" size 2048 crc EC5FF220 md5 45A4F55BB9A5083D470AD479AFD8BCA2 sha1 DED4C64D60FFCE5304D73E016BE7DEB5F2DB45D4 )
-)
-game (
 	name "Frog Pond (USA) (Proto)"
 	description "Frog Pond (USA) (Proto)"
 	region "USA"
@@ -2034,13 +2035,13 @@ game (
 	rom ( name "Glib - Video Word Game (USA).a26" size 4096 crc 50BB03A4 md5 2D9E5D8D083B6367EDA880E80DFDFAEB sha1 7BCA0F7A0F992782E4E4C90772BAC976CA963A6D )
 )
 game (
-	name "Go Fish! (World) (Aftermarket)"
-	description "Go Fish! (World) (Aftermarket)"
+	name "Go Fish! (World) (Aftermarket) (Unl)"
+	description "Go Fish! (World) (Aftermarket) (Unl)"
 	rom ( name "GoFish_NTSC.bin" size 8192 crc B99FC2BF md5 787A2FAEBADC670A887A0E2483B8F034 sha1 C8094B18EA8D7DD0E1824A5FFF2C26DD5F99A520 )
 )
 game (
-	name "Go Fish! (World) (PAL) (Aftermarket)"
-	description "Go Fish! (World) (PAL) (Aftermarket)"
+	name "Go Fish! (World) (PAL) (Aftermarket) (Unl)"
+	description "Go Fish! (World) (PAL) (Aftermarket) (Unl)"
 	rom ( name "GoFish_PAL.bin" size 8192 crc 9A08FC7C md5 1B64DBABA6BBC1D428E59F088E8018E7 sha1 F286F2E862CA8361C67D815AFD9D4E7B27094557 )
 )
 game (
@@ -2066,6 +2067,12 @@ game (
 	description "Gopher (USA)"
 	region "USA"
 	rom ( name "Gopher (USA).a26" size 4096 crc AC8321D8 md5 C16C79AAD6272BAFFB8AAE9A7FFF0864 sha1 97FB489BA4CE0F8A306563063563617321352CFB )
+)
+game (
+	name "Gorf (Europe)"
+	description "Gorf (Europe)"
+	region "Europe"
+	rom ( name "Gorf (Europe).a26" size 4096 crc DEE8E883 md5 3E03086DA53ECC29D855D8EDF10962CB sha1 D530E73E3A44B91F0F2CF74C520EDF1C258D07CE )
 )
 game (
 	name "Gorf (USA)"
@@ -2140,10 +2147,10 @@ game (
 	rom ( name "Halloween (USA).a26" size 4096 crc B1B11806 md5 30516CFBAA1BC3B5335EE53AD811F17A sha1 4C72CEC151F219866BF870FA7AC749A19CA501C9 )
 )
 game (
-	name "Halo 2600 (Europe) (PAL) (Aftermarket)"
-	description "Halo 2600 (Europe) (PAL) (Aftermarket)"
+	name "Halo 2600 (Europe) (PAL) (Aftermarket) (Unl)"
+	description "Halo 2600 (Europe) (PAL) (Aftermarket) (Unl)"
 	region "Europe"
-	rom ( name "Halo 2600 (Europe) (PAL) (Aftermarket).a26" size 4096 crc F16CAFAD md5 48DC69B885FC07CA3BEB7F8A2C12170C sha1 DC41E5DC18F55027369B20228A4D622A23D56666 )
+	rom ( name "Halo 2600 (Europe) (PAL) (Aftermarket) (Unl).a26" size 4096 crc F16CAFAD md5 48DC69B885FC07CA3BEB7F8A2C12170C sha1 DC41E5DC18F55027369B20228A4D622A23D56666 )
 )
 game (
 	name "Halo 2600 (World) (Aftermarket) (Unl)"
@@ -2167,6 +2174,12 @@ game (
 	description "Harem (USA) (Proto)"
 	region "USA"
 	rom ( name "Harem (USA) (Proto).a26" size 4096 crc E4466537 md5 A34560841E0878C7B14CC65F79F6967D sha1 90495BEA80158430FF63BD3DB97724CF3CE22736 )
+)
+game (
+	name "Haunted House (Europe)"
+	description "Haunted House (Europe)"
+	region "Europe"
+	rom ( name "Haunted House (Europe).a26" size 4096 crc 95E14DB7 md5 09E1ECF9BD2A3030D5670DBA7A65E78D sha1 78F0894AB9386FF1DFB6F3E936E2473C5FA1A720 )
 )
 game (
 	name "Haunted House (USA)"
@@ -2235,25 +2248,25 @@ game (
 	rom ( name "I.Q. Memory Teaser (Europe).a26" size 4096 crc 75AB6BA8 md5 DC33479D66615A3B09670775DE4C2A38 sha1 FA05A35DE4C401704538CC256F46440F42DE3DDB )
 )
 game (
-	name "INV+ (World) (Beta) (Aftermarket)"
-	description "INV+ (World) (Beta) (Aftermarket)"
+	name "INV+ (World) (Beta) (Aftermarket) (Unl)"
+	description "INV+ (World) (Beta) (Aftermarket) (Unl)"
 	releaseyear "2004"
 	releasemonth "04"
 	releaseday "08"
-	rom ( name "INV+ (World) (2004-04-08) (Beta) (Aftermarket).a26" size 4096 crc 37E26BAC md5 ACDE3415615C32A81A6CEA62FF43F6CD sha1 42E4A814FED49F36316E0DDD13FAFD72B6BCE8A0 )
+	rom ( name "INV+ (World) (2004-04-08) (Beta) (Aftermarket) (Unl).a26" size 4096 crc 37E26BAC md5 ACDE3415615C32A81A6CEA62FF43F6CD sha1 42E4A814FED49F36316E0DDD13FAFD72B6BCE8A0 )
 )
 game (
-	name "INV+ (World) (Beta) (Aftermarket)"
-	description "INV+ (World) (Beta) (Aftermarket)"
+	name "INV+ (World) (Beta) (Aftermarket) (Unl)"
+	description "INV+ (World) (Beta) (Aftermarket) (Unl)"
 	releaseyear "2004"
 	releasemonth "04"
 	releaseday "29"
-	rom ( name "INV+ (World) (2004-04-29) (Beta) (Aftermarket).a26" size 4096 crc A9F28173 md5 5327C461045D277E2066008885D8E9C2 sha1 4789E2D47BBBB529E40D4E0C0364FD937BA87393 )
+	rom ( name "INV+ (World) (2004-04-29) (Beta) (Aftermarket) (Unl).a26" size 4096 crc A9F28173 md5 5327C461045D277E2066008885D8E9C2 sha1 4789E2D47BBBB529E40D4E0C0364FD937BA87393 )
 )
 game (
-	name "INV+ (World) (Aftermarket)"
-	description "INV+ (World) (Aftermarket)"
-	rom ( name "INV+ (World) (Aftermarket).a26" size 4096 crc 8EBDE037 md5 9EA8ED9DEC03082973244A080941E58A sha1 74DC0247A9C9E4ECEC1C173E01274E2391643A60 )
+	name "INV+ (World) (Aftermarket) (Unl)"
+	description "INV+ (World) (Aftermarket) (Unl)"
+	rom ( name "INV+ (World) (Aftermarket) (Unl).a26" size 4096 crc 8EBDE037 md5 9EA8ED9DEC03082973244A080941E58A sha1 74DC0247A9C9E4ECEC1C173E01274E2391643A60 )
 )
 game (
 	name "IQ 180 (USA)"
@@ -2604,6 +2617,12 @@ game (
 	rom ( name "Masters of the Universe - The Power of He-Man (USA).a26" size 16384 crc 0603E177 md5 3B76242691730B2DD22EC0CEAB351BC6 sha1 6DB8FA65755DB86438ADA3D90F4C39CC288DCF84 )
 )
 game (
+	name "Math Gran Prix (Europe)"
+	description "Math Gran Prix (Europe)"
+	region "Europe"
+	rom ( name "Math Gran Prix (Europe).a26" size 4096 crc 4EEFE843 md5 45BEEF9DA1A7E45F37F3F445F769A0B3 sha1 3AC92529E4C146EB15365486778052E6892BAB32 )
+)
+game (
 	name "Math Gran Prix (USA)"
 	description "Math Gran Prix (USA)"
 	region "USA"
@@ -2706,6 +2725,12 @@ game (
 	rom ( name "Miss Piggy's Wedding (USA) (Proto).a26" size 8192 crc B1497E10 md5 4181087389A79C7F59611FB51C263137 sha1 F721D1F750E19B9E1788EED5E3872923AB46A91D )
 )
 game (
+	name "Missile Command (Europe)"
+	description "Missile Command (Europe)"
+	region "Europe"
+	rom ( name "Missile Command (Europe).a26" size 4096 crc DBDFEFB7 md5 9364AD51C321E0F15C96A8C0AFF47CEB sha1 56E0637C29B9CFCBD9E7B025193A80DDAEB7E0B6 )
+)
+game (
 	name "Missile Command (USA)"
 	description "Missile Command (USA)"
 	region "USA"
@@ -2798,6 +2823,12 @@ game (
 	rom ( name "MotoRodeo (USA).a26" size 16384 crc 89998E29 md5 378A62AF6E9C12A760795FF4FC939656 sha1 DEA1506BA107B9544CD9B179F83BC61CED9101AC )
 )
 game (
+	name "Motocross (Europe)"
+	description "Motocross (Europe)"
+	region "Europe"
+	rom ( name "Motocross (Europe).a26" size 4096 crc B0AE97EC md5 F5A2F6EFA33A3E5541BC680E9DC31D5B sha1 0EC67FFE60ED91C682E0149A9E68E3A27E12DE2D )
+)
+game (
 	name "Motocross (USA)"
 	description "Motocross (USA)"
 	region "USA"
@@ -2881,10 +2912,10 @@ game (
 	rom ( name "Music Machine, The (USA).a26" size 4096 crc BD133D59 md5 65B106EBA3E45F3DAB72EA907F39F8B4 sha1 5A641CAA2AB3C7C0CD5DEB027ACBC58EFCCF8D6A )
 )
 game (
-	name "My Golf (Europe)"
-	description "My Golf (Europe)"
-	region "Europe"
-	rom ( name "My Golf (Europe).a26" size 8192 crc 0D2CBD53 md5 DFAD86DD85A11C80259F3DDB6151F48F sha1 B2DF23B1BF6DF9D253AD0705592D3FCE352A837B )
+	name "My Golf (Germany) (En,De)"
+	description "My Golf (Germany) (En,De)"
+	region "Germany"
+	rom ( name "My Golf (Germany) (En,De).a26" size 8192 crc 0D2CBD53 md5 DFAD86DD85A11C80259F3DDB6151F48F sha1 B2DF23B1BF6DF9D253AD0705592D3FCE352A837B )
 )
 game (
 	name "Mysterious Thief, A (USA) (Proto)"
@@ -2983,9 +3014,9 @@ game (
 	rom ( name "Omega Race (USA).a26" size 12288 crc E9876116 md5 9947F1EBABB56FD075A96C6D37351EFA sha1 DCAAB259E7617C7AC7D349893451896A9CA0E292 )
 )
 game (
-	name "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket)"
-	description "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket)"
-	rom ( name "Oozy the Goo Slime Quest (World) (Cart) (Aftermarket).a26" size 32768 crc DD56E194 md5 94AE9D9A8561988164148B88D7891797 sha1 DD6B89D39FD57DC954D6948D0634EF23402993EA )
+	name "Oozy the Goo Slime Quest (World) (Aftermarket) (Unl)"
+	description "Oozy the Goo Slime Quest (World) (Aftermarket) (Unl)"
+	rom ( name "Oozy the Goo Slime Quest (World) (Aftermarket) (Unl).a26" size 32768 crc DD56E194 md5 94AE9D9A8561988164148B88D7891797 sha1 DD6B89D39FD57DC954D6948D0634EF23402993EA )
 )
 game (
 	name "Open Sesame (Europe) (Bit Corporation)"
@@ -3159,6 +3190,12 @@ game (
 	description "Pigs in Space - Starring Miss Piggy (USA)"
 	region "USA"
 	rom ( name "Pigs in Space - Starring Miss Piggy (USA).a26" size 8192 crc 27673D7C md5 8E4FA8C6AD8D8DCE0DB8C991C166CDAA sha1 D08B30CA2E5E351CAC3BD3FB760B87A1A30AA300 )
+)
+game (
+	name "Piraten Schiff (Germany)"
+	description "Piraten Schiff (Germany)"
+	region "Germany"
+	rom ( name "Piraten Schiff (Germany).a26" size 4096 crc FDAA9D20 md5 B1486E12DE717013376447AC6F7F3A80 sha1 3696575988BE6814B6C0EEBAB2285C471F94A127 )
 )
 game (
 	name "Pitfall II - Lost Caverns (USA)"
@@ -3926,11 +3963,6 @@ game (
 	rom ( name "Sorcerer's Apprentice (USA).a26" size 8192 crc E5DBFED1 md5 5F7AE9A7F8D79A3B37E8FC841F65643A sha1 AE3009E921F23254BB71F67C8CB2D7D6DE2845A5 )
 )
 game (
-	name "Sound (USA, Europe) (Demo) (Atari Anthology)"
-	description "Sound (USA, Europe) (Demo) (Atari Anthology)"
-	rom ( name "Sound (USA, Europe) (Demo) (Atari Anthology).a26" size 2048 crc 31372FB1 md5 E7F0C32CD0BCD08628191914794F84F2 sha1 EF2F4E7CB425EAA4C7CCE9F399C288076DAD2C9D )
-)
-game (
 	name "Space Attack (USA)"
 	description "Space Attack (USA)"
 	region "USA"
@@ -4007,6 +4039,12 @@ game (
 	description "Spider Maze (USA)"
 	region "USA"
 	rom ( name "Spider Maze (USA).a26" size 4096 crc FBC1911D md5 21299C8C3AC1D54F8289D88702A738FD sha1 5D6F918BBA4BD046E85B707DA3B7D643CC2E1F1F )
+)
+game (
+	name "Spider-Man (Europe)"
+	description "Spider-Man (Europe)"
+	region "Europe"
+	rom ( name "Spider-Man (Europe).a26" size 4096 crc 8FEAAA0D md5 E77EC259E1387BC308B0534647A89198 sha1 6445FB2F6BBCC84468AF78405570628DDE97365C )
 )
 game (
 	name "Spider-Man (USA)"
@@ -4162,6 +4200,12 @@ game (
 	description "Star Wars - The Arcade Game (USA)"
 	region "USA"
 	rom ( name "Star Wars - The Arcade Game (USA).a26" size 8192 crc 65C31CA4 md5 6339D28C9A7F92054E70029EB0375837 sha1 8823FE3D8E3AEADC6B61CA51914E3B15AA13801C )
+)
+game (
+	name "Star Wars - The Empire Strikes Back (Europe)"
+	description "Star Wars - The Empire Strikes Back (Europe)"
+	region "Europe"
+	rom ( name "Star Wars - The Empire Strikes Back (Europe).a26" size 4096 crc B1DDC9A6 md5 BE060A704803446C02E6F039AB12EB91 sha1 7276AE9E8A99618378868D8DE2CF7DE6AE6C1DC0 )
 )
 game (
 	name "Star Wars - The Empire Strikes Back (USA)"
@@ -4462,9 +4506,9 @@ game (
 	rom ( name "Tac-Scan (USA).a26" size 4096 crc A2A42BEC md5 D45EBF130ED9070EA8EBD56176E48A38 sha1 55E98FE14B07460734781A6AA2F4F1646830C0AF )
 )
 game (
-	name "Tank AI (USA, Europe)"
-	description "Tank AI (USA, Europe)"
-	rom ( name "Tank AI (USA, Europe).a26" size 16384 crc A7CEEA56 md5 4704E6DAE883E35FE31E09E06D4DDBFC sha1 0C382DB92D8E6F3589DA2E020B024BC24BC7DFC6 )
+	name "Tank AI (USA, Europe) (Aftermarket) (Unl)"
+	description "Tank AI (USA, Europe) (Aftermarket) (Unl)"
+	rom ( name "Tank AI (USA, Europe) (Aftermarket) (Unl).a26" size 16384 crc A7CEEA56 md5 4704E6DAE883E35FE31E09E06D4DDBFC sha1 0C382DB92D8E6F3589DA2E020B024BC24BC7DFC6 )
 )
 game (
 	name "Tanks but No Tanks (USA)"
@@ -4573,6 +4617,12 @@ game (
 	description "Time Warp (USA)"
 	region "USA"
 	rom ( name "Time Warp (USA).a26" size 4096 crc E5BC054D md5 B879E13FD99382E09BCAF1D87AD84ADD sha1 7258E8DA5177F37583EFCA1BF43E5987C9845D4C )
+)
+game (
+	name "Title Match Pro Wrestling (Europe)"
+	description "Title Match Pro Wrestling (Europe)"
+	region "Europe"
+	rom ( name "Title Match Pro Wrestling (Europe).a26" size 8192 crc A2943D1B md5 153F40E335E5CB90F5CE02E54934AB62 sha1 B5E9E207D02456E7ECCF3AE9B7DF60777BB3FB67 )
 )
 game (
 	name "Title Match Pro Wrestling (USA)"
@@ -4707,10 +4757,10 @@ game (
 	rom ( name "Vault Assault (USA) (Unl).a26" size 4096 crc 856A6EFB md5 787EBC2609A31EB5C57C4A18837D1AEE sha1 DCE98883E813D77E03A5DE975D4C52BFB34E7F77 )
 )
 game (
-	name "Venetian Blinds Demo (USA) (Demo)"
-	description "Venetian Blinds Demo (USA) (Demo)"
-	region "USA"
-	rom ( name "Venetian Blinds Demo (USA) (Demo).a26" size 2048 crc 1F0D3562 md5 D08FCCFBEBAA531C4A4FA7359393A0A9 sha1 81F485B545445080E009ADF0F2E93DD4F16B92CE )
+	name "Venture (Europe)"
+	description "Venture (Europe)"
+	region "Europe"
+	rom ( name "Venture (Europe).a26" size 4096 crc 67D41CA8 md5 345758747B893E4C9BDDE8877DE47788 sha1 7752360375AC7F35C649EB81424897DB56616E3D )
 )
 game (
 	name "Venture (USA)"
@@ -4890,6 +4940,12 @@ game (
 	rom ( name "Wizard (USA) (Proto).a26" size 2048 crc A0BCC502 md5 7B24BFE1B61864E758ADA1FE9ADAA098 sha1 2499CE7C77536B2920753968135F9180BD9AFE6E )
 )
 game (
+	name "Wizard of War (Europe)"
+	description "Wizard of War (Europe)"
+	region "Europe"
+	rom ( name "Wizard of War (Europe).a26" size 4096 crc 087AFE6E md5 663EF22EB399504D5204C543B8A86BCD sha1 088DC33FAD4FD90DA71E21B6F19C565FF62DEF1F )
+)
+game (
 	name "Wizard of Wor (USA)"
 	description "Wizard of Wor (USA)"
 	region "USA"
@@ -4963,6 +5019,12 @@ game (
 	rom ( name "Xevious (USA) (Proto) (1984-01-18).a26" size 8192 crc F5802A6C md5 AF6F3E9718BCCFCD8AFB421F96561A34 sha1 53F941CABF661A9CE763142B070571F6FD4C8820 serial "CX2695" )
 )
 game (
+	name "Yars' Revenge (Europe)"
+	description "Yars' Revenge (Europe)"
+	region "Europe"
+	rom ( name "Yars' Revenge (Europe).a26" size 4096 crc 317F7D0C md5 E91D2ECF8803AE52B55BBF105AF04D4B sha1 AAEB19D1E5B3164659B3F18CBF32F3DB924E500C )
+)
+game (
 	name "Yars' Revenge (USA)"
 	description "Yars' Revenge (USA)"
 	region "USA"
@@ -4993,14 +5055,14 @@ game (
 	rom ( name "Zoo Keeper Sounds (USA) (Proto).a26" size 2048 crc AE15C45D md5 A336BEAC1F0A835614200ECD9C41FD70 sha1 7F115CB41FC70889B933FD2C808044A2B6367261 )
 )
 game (
-	name "synthcart (Europe) (PAL) (Aftermarket)"
-	description "synthcart (Europe) (PAL) (Aftermarket)"
+	name "synthcart (Europe) (PAL) (Aftermarket) (Unl)"
+	description "synthcart (Europe) (PAL) (Aftermarket) (Unl)"
 	region "Europe"
-	rom ( name "synthcart (Europe) (PAL) (Aftermarket).a26" size 8192 crc C80EC2F8 md5 8B556C3D9CA8E5E6E665BD759B93FFAE sha1 C4C19C5E0D8B6FCF1AEAFA0BD3C88EF3F834C59B )
+	rom ( name "synthcart (Europe) (PAL) (Aftermarket) (Unl).a26" size 8192 crc C80EC2F8 md5 8B556C3D9CA8E5E6E665BD759B93FFAE sha1 C4C19C5E0D8B6FCF1AEAFA0BD3C88EF3F834C59B )
 )
 game (
-	name "synthcart (USA) (Aftermarket)"
-	description "synthcart (USA) (Aftermarket)"
+	name "synthcart (USA) (Aftermarket) (Unl)"
+	description "synthcart (USA) (Aftermarket) (Unl)"
 	region "USA"
-	rom ( name "synthcart (USA) (NTSC) (Aftermarket).a26" size 8192 crc 5DDD1EBA md5 2C2AEA31B01C6126C1A43E10CACBFD58 sha1 C24256C1D51246281A400FB03FC4CA465BD092DD )
+	rom ( name "synthcart (USA) (NTSC) (Aftermarket) (Unl).a26" size 8192 crc 5DDD1EBA md5 2C2AEA31B01C6126C1A43E10CACBFD58 sha1 C24256C1D51246281A400FB03FC4CA465BD092DD )
 )

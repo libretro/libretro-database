@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Mega-CD - Sega CD"
 	description "Sega - Mega-CD - Sega CD"
-	version "2024.05.19"
+	version "2024.09.27"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -160,20 +160,6 @@ game (
 	rom ( name "Arslan Senki (Japan) (Track 01).bin" size 25291056 crc 60439A43 md5 BAFB633E2303FEDDB6AEC8B6D47C1BF5 sha1 009D5F85E327B7A76133057C81F9C9C029362899 serial "G-6028" )
 )
 game (
-	name "BC Racers (Europe) (Demo) (Green Disc)"
-	description "BC Racers (Europe) (Demo) (Green Disc)"
-	region "Europe"
-	serial "T-115075-50"
-	rom ( name "BC Racers (Europe) (Demo) (Green Disc) (Track 1).bin" size 2723616 crc 1CC1E966 md5 0D9A28D0D2D525245F0EDCAAB8D325D0 sha1 E52FCDDA91072BD3BDAA1B85CF6E55C87AE2042F serial "T-115075-50" )
-)
-game (
-	name "BC Racers (Europe) (Demo) (Yellow Disc)"
-	description "BC Racers (Europe) (Demo) (Yellow Disc)"
-	region "Europe"
-	serial "T-115075-50"
-	rom ( name "BC Racers (Europe) (Demo) (Yellow Disc) (Track 1).bin" size 3092880 crc 19E0ACEB md5 A8E15E3D0C0BC6DB7BCE6F56ADE4D6FF sha1 6A3DE9F72E1275AAB5A37CB52D070C31AFB2A2E3 serial "T-115075-50" )
-)
-game (
 	name "BC Racers (Europe) (En,Fr,De)"
 	description "BC Racers (Europe) (En,Fr,De)"
 	region "Europe"
@@ -235,13 +221,6 @@ game (
 	rom ( name "BattleTech - Gray Death Legion (USA) (Unl).bin" size 137568480 crc CAB1176B md5 B19481540EE8084AD0058761E2CA66F0 sha1 0EDA7F7DA7E9A054031758F1DDD097087B35E0A8 )
 )
 game (
-	name "Battlecorps (Europe) (Demo)"
-	description "Battlecorps (Europe) (Demo)"
-	region "Europe"
-	serial "T-115045-50"
-	rom ( name "Battlecorps (Europe) (Demo) (Track 1).bin" size 11856432 crc FFB992E5 md5 3E8945171EE5D68612BC8490DBB6444C sha1 4D25C891328D6B2DBF9C3CE64A3A6FBFBEB7A557 serial "T-115045-50" )
-)
-game (
 	name "Battlecorps (Europe) (En,Fr,De,Es)"
 	description "Battlecorps (Europe) (En,Fr,De,Es)"
 	region "Europe"
@@ -268,12 +247,6 @@ game (
 	region "Europe"
 	serial "T-113045-50"
 	rom ( name "Beast II (Europe) (Track 01).bin" size 24051552 crc 7E722AB6 md5 9C546DFC9B919CA13DEF2310C991D6B4 sha1 92B7E222CDA092CBF743CC9CF9882234D87D5B69 serial "T-113045-50" )
-)
-game (
-	name "Beast II (Europe) (Demo)"
-	description "Beast II (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Beast II (Europe) (Demo) (Track 01).bin" size 23879856 crc 736AC3F5 md5 9C555F03B222C0F57C697E9DBE68E2AE sha1 DAFD899482A87579D124C9DDE80FDF9914350019 )
 )
 game (
 	name "Bill Walsh College Football (Europe)"
@@ -736,24 +709,18 @@ game (
 	rom ( name "Dragon's Lair (USA) (Track 1).bin" size 210654528 crc BF94A570 md5 FDED2EB7509BD5E725FA49E71941DDEF sha1 ACB107707824DBF4DF93976BC3FB8FE915EC914B serial "T-121015" )
 )
 game (
-	name "Dragon's Lair (USA) (Demo)"
-	description "Dragon's Lair (USA) (Demo)"
-	region "USA"
-	rom ( name "Dragon's Lair (USA) (Demo).bin" size 14702352 crc 2202546E md5 F2149385982245B19878CFA41055EE7D sha1 BE48BA2E72F20CDD0B6D1310A94497828DD66AC2 )
-)
-game (
-	name "Dune (Europe) (En,Fr,De,Es,It,Ar)"
-	description "Dune (Europe) (En,Fr,De,Es,It,Ar)"
+	name "Dune (Europe) (En,Fr,De,Es,It)"
+	description "Dune (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "T-70035-50"
-	rom ( name "Dune (Europe) (En,Fr,De,Es,It,Ar) (Track 1).bin" size 541369248 crc 3BFF9924 md5 B64C971DB62A13B8A1E3BC74C07638BB sha1 63C3C5C8AF7CDFC1670F0C1B845E741B33168B00 serial "T-70035-50" )
+	rom ( name "Dune (Europe) (En,Fr,De,Es,It) (Track 1).bin" size 541369248 crc 3BFF9924 md5 B64C971DB62A13B8A1E3BC74C07638BB sha1 63C3C5C8AF7CDFC1670F0C1B845E741B33168B00 serial "T-70035-50" )
 )
 game (
-	name "Dune (USA)"
-	description "Dune (USA)"
+	name "Dune (USA) (En,Fr,De,Es,It)"
+	description "Dune (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "T-70065"
-	rom ( name "Dune (USA) (Track 1).bin" size 541369248 crc 01237CAE md5 A934D4A02CF577E68558C75E446AFC8A sha1 0A670E077AC0C5C88FFECB5200461726C7BAC9E8 serial "T-70065" )
+	rom ( name "Dune (USA) (En,Fr,De,Es,It) (Track 1).bin" size 541369248 crc 01237CAE md5 A934D4A02CF577E68558C75E446AFC8A sha1 0A670E077AC0C5C88FFECB5200461726C7BAC9E8 serial "T-70065" )
 )
 game (
 	name "Dungeon Explorer (Europe)"
@@ -991,13 +958,6 @@ game (
 	rom ( name "FIFA International Soccer (USA) (Track 01).bin" size 262838352 crc 15819D3D md5 B05D1C1160FA46F305F2B07959C631C8 sha1 6DA4751D5370494A6E4574E6978C7C438FC2AA97 serial "T-50055" )
 )
 game (
-	name "FIFA International Soccer - Championship Edition (Europe) (Demo) (Alt)"
-	description "FIFA International Soccer - Championship Edition (Europe) (Demo) (Alt)"
-	region "Europe"
-	serial "T-50055-50"
-	rom ( name "FIFA International Soccer - Championship Edition (Europe) (Demo) (Alt) (Track 01).bin" size 86664144 crc 9EFCEA68 md5 DD1D916D0E994E0D42022A2C68B540EE sha1 7C729A034C6DC319FBBB64504E0CB91EF0D5DFEB serial "T-50055-50" )
-)
-game (
 	name "FIFA International Soccer - Championship Edition (Europe) (En,Fr,De,Es)"
 	description "FIFA International Soccer - Championship Edition (Europe) (En,Fr,De,Es)"
 	region "Europe"
@@ -1061,12 +1021,6 @@ game (
 	rom ( name "Fatal Fury Special (Europe) (Track 01).bin" size 15845424 crc D6DAD22D md5 5EF0F3075F13F0A77EE0785FF3B899DB sha1 66C5A0CAF0B1BF856C4423EF75D727BB2D683A2B serial "T-60165-50" )
 )
 game (
-	name "Fatal Fury Special (Europe) (Demo)"
-	description "Fatal Fury Special (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Fatal Fury Special (Europe) (Demo) (Track 1).bin" size 15868944 crc 05580F5D md5 1B7CACCDA3C576A7E3635CFB0267F8B3 sha1 639FC2239E9786D1967D90C5CDA03DB380DB1B95 )
-)
-game (
 	name "Fatal Fury Special (USA)"
 	description "Fatal Fury Special (USA)"
 	region "USA"
@@ -1107,12 +1061,6 @@ game (
 	region "USA"
 	serial "4410"
 	rom ( name "Final Fight CD (USA) (Alt 1) (Track 01).bin" size 28209888 crc 9C4FDA3E md5 C55D132B19DAFAE35A4F982C53F7BB24 sha1 B29866DECA2225FABA0E1D4065DCE51C8BB23582 serial "4410" )
-)
-game (
-	name "Flashback (Europe) (Demo)"
-	description "Flashback (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Flashback (Europe) (Demo) (Track 1).bin" size 65536128 crc DEF474E9 md5 41C494687B8ABF202E3022132DBAC535 sha1 BEF54713CDA9CA27DCFCB827D659C7E3DD41A4A2 )
 )
 game (
 	name "Flashback - The Quest for Identity (USA)"
@@ -1260,13 +1208,6 @@ game (
 	region "Japan"
 	serial "G-6034"
 	rom ( name "Heavenly Symphony - Formula One World Championship 1993 (Japan) (Track 01).bin" size 202761216 crc 41AAFAC7 md5 03900CE1266499CE0726375A28B19443 sha1 22ED2B1B687244AAB837681D560DAE69AD0AA421 serial "G-6034" )
-)
-game (
-	name "Heavenly Symphony - Formula One World Championship 1993 (Japan) (Demo)"
-	description "Heavenly Symphony - Formula One World Championship 1993 (Japan) (Demo)"
-	region "Japan"
-	serial "SG-6034"
-	rom ( name "Heavenly Symphony - Formula One World Championship 1993 (Japan) (Demo) (Track 01).bin" size 202408416 crc 9B3FB252 md5 16FF2FC012427F9582152AFDA5DCD308 sha1 8B6F65D8BBA4526FF4ECB8FC6F1A11FBA46825C9 serial "SG-6034" )
 )
 game (
 	name "Heavy Nova (Japan)"
@@ -1430,12 +1371,6 @@ game (
 	rom ( name "Keio Flying Squadron (Europe) (Track 01).bin" size 77853552 crc 4F1E9D60 md5 2AAF1AE59D45077D7DEF2BE4DFB6D03F sha1 942ACAFA357BD967994A8DACC217BE795F73AB7A serial "T-60185-50" )
 )
 game (
-	name "Keio Flying Squadron (Europe) (Demo)"
-	description "Keio Flying Squadron (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Keio Flying Squadron (Europe) (Demo) (Track 01).bin" size 77853552 crc DCD8562B md5 1FBCF361A9BCCCCBDAB7D2C6289DA325 sha1 DF15E64ADFEFC8A682317094E66C809705C73442 )
-)
-game (
 	name "Keio Flying Squadron (USA)"
 	description "Keio Flying Squadron (USA)"
 	region "USA"
@@ -1450,13 +1385,6 @@ game (
 	rom ( name "Keiou Yuugekitai (Japan) (Track 01).bin" size 77853552 crc 8586C1E7 md5 FF783F66AFE6F480976AAA2DD3390BDC sha1 843EC18F57D20C87F3AB58F164413502EAFB2453 serial "T-60114" )
 )
 game (
-	name "Keiou Yuugekitai (Japan) (Demo)"
-	description "Keiou Yuugekitai (Japan) (Demo)"
-	region "Japan"
-	serial "CDS-222"
-	rom ( name "Keiou Yuugekitai (Japan) (Demo) (Track 01).bin" size 75790848 crc 04C07F7E md5 C12E18D6824521BAF3F97D8841163CB1 sha1 5787F0EAAF81CBD00332782BCE7ED9DF1C0368D3 serial "CDS-222" )
-)
-game (
 	name "Kids on Site (Europe) (RE-1)"
 	description "Kids on Site (Europe) (RE-1)"
 	region "Europe"
@@ -1469,12 +1397,6 @@ game (
 	region "USA"
 	serial "T162015"
 	rom ( name "Kids on Site (USA) (Track 1).bin" size 516012336 crc EF445A91 md5 6593D5F992966425166702DDD0DB9BB7 sha1 AA3AD66DBF085C7C5D9D11454877F07E287E37DF serial "T162015" )
-)
-game (
-	name "Lawnmower Man, The (Europe) (Demo)"
-	description "Lawnmower Man, The (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Lawnmower Man, The (Europe) (Demo) (Track 1).bin" size 73191888 crc 7DD19257 md5 092CF4EA5A4E1D0C332C84055962689D sha1 035AEF92FCA99EC4D851D5A5A7A80ED249BF09FE )
 )
 game (
 	name "Lawnmower Man, The (USA)"
@@ -1519,12 +1441,6 @@ game (
 	releaseday "23"
 	region "Europe"
 	rom ( name "Lethal Enforcers II - Gun Fighters (Europe) (Beta) (1994-09-23) (Track 01).bin" size 14845824 crc F1E65AC0 md5 F28F9C84E8245C792886E155C030EA6F sha1 DF80E3E2CA2C49B65B7FD637773490B192BB2FA2 )
-)
-game (
-	name "Lethal Enforcers II - Gun Fighters (Europe) (Demo)"
-	description "Lethal Enforcers II - Gun Fighters (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Lethal Enforcers II - Gun Fighters (Europe) (Demo) (Track 01).bin" size 5548368 crc 4EEFC31A md5 6565E911A51870623E6A73695CA105C2 sha1 9EA2E1E8C58D53AB6018F4D644822FD13AE616FE )
 )
 game (
 	name "Lethal Enforcers II - Gun Fighters (USA)"
@@ -1586,13 +1502,6 @@ game (
 	region "Japan"
 	serial "T-45074"
 	rom ( name "Lunar - Eternal Blue (Japan) (Track 1).bin" size 458849328 crc C445CE6D md5 0D1D15EA1E3B97F4F0A16C3DC2F4EE70 sha1 35429A7AE98A21DE1176BA810911A65B2966BEB9 serial "T-45074" )
-)
-game (
-	name "Lunar - Eternal Blue (Japan) (Demo)"
-	description "Lunar - Eternal Blue (Japan) (Demo)"
-	region "Japan"
-	serial "ST-45074"
-	rom ( name "Lunar - Eternal Blue (Japan) (Demo) (Track 1).bin" size 38706864 crc 66C67434 md5 E5F1D1C960A6B869E16D4C70EC6B1F43 sha1 00B2F913D1A484BB55D9E1ACB4E9B944D6B4268E serial "ST-45074" )
 )
 game (
 	name "Lunar - Eternal Blue (Japan) (Rev A)"
@@ -1752,12 +1661,6 @@ game (
 	rom ( name "Mickey Mania (Europe) (Track 01).bin" size 15676080 crc 024D38A9 md5 60D7C286360420498DE4D4FC7FCCDFE2 sha1 116015AEC553967475538C71B4425FEEF9636983 serial "T-93305-50" )
 )
 game (
-	name "Mickey Mania (Europe) (Demo) (Mega Sega)"
-	description "Mickey Mania (Europe) (Demo) (Mega Sega)"
-	region "Europe"
-	rom ( name "Mickey Mania (Europe) (Demo) (Mega Sega) (Track 01).bin" size 15676080 crc 66CDDD94 md5 5F1C5980369D8F1AF5B9725A7CE0F20E sha1 8B024270C5CE3BA0904D42A3DCF0A0E5C4C3F2CB )
-)
-game (
 	name "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)"
 	description "Mickey Mania - The Timeless Adventures of Mickey Mouse (USA)"
 	region "USA"
@@ -1777,13 +1680,6 @@ game (
 	region "Japan"
 	serial "T-60164"
 	rom ( name "Microcosm (Japan) (Track 1).bin" size 274203216 crc 440CE76F md5 59217FDDA2E08E148DD2B5A92197C2A6 sha1 7AFDB8B11739ECAA68166C7A5F6CF93A5B6F111C serial "T-60164" )
-)
-game (
-	name "Microcosm (Japan) (Demo)"
-	description "Microcosm (Japan) (Demo)"
-	region "Japan"
-	serial "CDS-10003"
-	rom ( name "Microcosm (Japan) (Demo) (Track 1).bin" size 274203216 crc 5C4AE0C1 md5 113DC601404C92302360C34568A28F6F sha1 42B975A94C40CDB59F302FCDD43DD4E4B9ED345C serial "CDS-10003" )
 )
 game (
 	name "Microcosm (USA)"
@@ -2014,13 +1910,6 @@ game (
 	rom ( name "Night Trap (France) (Disc 2) (Track 1).bin" size 514464720 crc 5E26E9CB md5 49B65CA593BA15A9E892E93A070D6843 sha1 A83617ABE23A39F95BAC11E93F6BE912514A4502 serial "4903-09-1" )
 )
 game (
-	name "Night Trap (Japan) (Demo)"
-	description "Night Trap (Japan) (Demo)"
-	region "Japan"
-	serial "SG-6025"
-	rom ( name "Night Trap (Japan) (Demo) (Track 1).bin" size 615875904 crc 03E24407 md5 8E29D7761A3C2119703808C2DDADF6AB sha1 17CFD321B0C94CEF51C269177EAB81AFA88BC75C serial "SG-6025" )
-)
-game (
 	name "Night Trap (Japan) (Disc 1)"
 	description "Night Trap (Japan) (Disc 1)"
 	region "Japan"
@@ -2187,12 +2076,6 @@ game (
 	rom ( name "Novastorm (Europe) (Track 1).bin" size 418559568 crc 32A7A6B6 md5 1FB255F3EBD22BC76F3438DDF38129B9 sha1 AA3D75A87C46C28030BD42D5566CD008630D3EDC serial "T-113065-50" )
 )
 game (
-	name "Novastorm (Europe) (Demo)"
-	description "Novastorm (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Novastorm (Europe) (Demo).bin" size 424465440 crc 33B1AEEE md5 1B539D6ACC6367A65C46024001F2C8B3 sha1 F3F6C9FC6642CE5F874F99392386702F0F6971E6 )
-)
-game (
 	name "Novastorm (USA)"
 	description "Novastorm (USA)"
 	region "USA"
@@ -2249,12 +2132,6 @@ game (
 	rom ( name "Pitfall - The Mayan Adventure (Europe) (Track 01).bin" size 26104848 crc 8FEAB309 md5 09AD1F7D12B7B41EC92A9EAB2645D7A0 sha1 D53086BC1585BAF7F2588D359E4B606654031482 serial "T-130025-50" )
 )
 game (
-	name "Pitfall - The Mayan Adventure (Europe) (Demo)"
-	description "Pitfall - The Mayan Adventure (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Pitfall - The Mayan Adventure (Europe) (Demo) (Track 01).bin" size 26104848 crc F2B548F2 md5 7ED3A32874FD33A2AEFC82ABFE8F449B sha1 2AC66C9A6FD08C92B39567514429DCA41918EA6A )
-)
-game (
 	name "Pitfall - The Mayan Adventure (USA)"
 	description "Pitfall - The Mayan Adventure (USA)"
 	region "USA"
@@ -2274,13 +2151,6 @@ game (
 	region "Japan"
 	serial "G-6029"
 	rom ( name "PopfulMail (Japan) (Track 1).bin" size 349281408 crc DA0DB5B4 md5 BCB0D7EF81F3045471A5CAFB1FA9486F sha1 C290DA2671D57DFB111F3AC98C15410A9B7F663C serial "G-6029" )
-)
-game (
-	name "PopfulMail (Japan) (Demo)"
-	description "PopfulMail (Japan) (Demo)"
-	region "Japan"
-	serial "SG-6029"
-	rom ( name "PopfulMail (Japan) (Demo) (Track 1).bin" size 353736096 crc 6EC9FF55 md5 A7C43A967668C16074E264A48EC06E71 sha1 9F43E704CCCDE663E6A5D2606FF032D3D7520096 serial "SG-6029" )
 )
 game (
 	name "Power Factory (Europe)"
@@ -2444,13 +2314,6 @@ game (
 	rom ( name "Psychic Detective Series Vol. 3 - Aya (Japan) (Track 1).bin" size 37479120 crc 0E1FD623 md5 B78A31746267796C0652B15CEA1694A0 sha1 B360C16C7AA6B058DEFA7805E3B9A7A1540F93E8 serial "T-84024" )
 )
 game (
-	name "Psychic Detective Series Vol. 3 - Aya (Japan) (Demo)"
-	description "Psychic Detective Series Vol. 3 - Aya (Japan) (Demo)"
-	region "Japan"
-	serial "T-84024"
-	rom ( name "Psychic Detective Series Vol. 3 - Aya (Japan) (Demo) (Track 1).bin" size 17324832 crc 91C8008C md5 DDB7E3DD597B6782ED0FAE617184E0F5 sha1 4F703A09BA11B0349187368A6C90FE76A4831860 serial "T-84024" )
-)
-game (
 	name "Psychic Detective Series Vol. 4 - Orgel (Japan)"
 	description "Psychic Detective Series Vol. 4 - Orgel (Japan)"
 	region "Japan"
@@ -2518,13 +2381,6 @@ game (
 	region "Japan"
 	serial "G-6024"
 	rom ( name "Record of Lodoss War (Japan) (Track 01).bin" size 190392048 crc 1112C998 md5 4C9A7B6CADE7E914B1748217F914A0B7 sha1 B5DD848C6DEC9B4B0E8353B89044A99AD730F94F serial "G-6024" )
-)
-game (
-	name "Record of Lodoss War (Japan) (Demo)"
-	description "Record of Lodoss War (Japan) (Demo)"
-	region "Japan"
-	serial "MEGA-0001"
-	rom ( name "Record of Lodoss War (Japan) (Demo) (Track 01).bin" size 55770624 crc 8DF5FA86 md5 1BB7951532C8D055D06E83CE560B4813 sha1 148EBE3349635A2886820E205D4E275A03A5B275 serial "MEGA-0001" )
 )
 game (
 	name "Revenge of the Ninja (USA)"
@@ -2609,12 +2465,6 @@ game (
 	region "Europe"
 	serial "T-60175-50"
 	rom ( name "Samurai Shodown (Europe) (Track 01).bin" size 15530256 crc 33BC385A md5 E00B56CFB76A0B9F675B5D326009BC36 sha1 33F1DB122AE05D783AF3967E53C5D70F859EF478 serial "T-60175-50" )
-)
-game (
-	name "Samurai Shodown (Europe) (Demo)"
-	description "Samurai Shodown (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Samurai Shodown (Europe) (Demo) (Track 01).bin" size 13773312 crc C36C0762 md5 874E8262CE00304072D56A0A087E72C0 sha1 2DA7ED462EE0E981C39E9576CF5E85BFE9BDE3D4 )
 )
 game (
 	name "Samurai Shodown (USA)"
@@ -2735,12 +2585,6 @@ game (
 	rom ( name "Sensible Soccer (Europe) (Track 01).bin" size 27048000 crc 4887822B md5 D54C909099832D965A83EDD3344788DE sha1 2BA6A5A734C712B4C706906B441A772DB99BA2C0 serial "T-93185-50" )
 )
 game (
-	name "Sensible Soccer (Europe) (Demo)"
-	description "Sensible Soccer (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Sensible Soccer (Europe) (Demo) (Track 01).bin" size 26659920 crc 140AD379 md5 4D7DE5AE6A432EF1B9325D0146F8DCE2 sha1 E55089AEE62CF476D41B77FE9EFF325FB74213D9 )
-)
-game (
 	name "Sewer Shark (Europe)"
 	description "Sewer Shark (Europe)"
 	region "Europe"
@@ -2804,60 +2648,60 @@ game (
 	rom ( name "Sherlock Holmes - Consulting Detective (USA) (Track 1).bin" size 750673728 crc 1FBC2139 md5 989BBA8D4F51D2D311686582A387D4F0 sha1 1930786B3936BCD6F8063897683AC30499477C38 serial "T-4501" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1)"
 	region "Europe"
 	serial "4653"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1) (Track 1).bin" size 529374048 crc 44DBDBC9 md5 E09237EEBEE47050DE544316DA3F1D7C sha1 F1DE79D0421314E07316E4CC18F94B91EC206591 serial "4653" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1) (Track 1).bin" size 529374048 crc 44DBDBC9 md5 E09237EEBEE47050DE544316DA3F1D7C sha1 F1DE79D0421314E07316E4CC18F94B91EC206591 serial "4653" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1)"
 	region "Europe"
 	serial "4653-0"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 1) (Track 1).bin" size 529374048 crc 44DBDBC9 md5 E09237EEBEE47050DE544316DA3F1D7C sha1 F1DE79D0421314E07316E4CC18F94B91EC206591 serial "4653-0" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 1) (Track 1).bin" size 529374048 crc 44DBDBC9 md5 E09237EEBEE47050DE544316DA3F1D7C sha1 F1DE79D0421314E07316E4CC18F94B91EC206591 serial "4653-0" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2)"
 	region "Europe"
 	serial "4653"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2) (Track 1).bin" size 326208288 crc 72A2AF6D md5 0E073D4A39697496BE99F497515F265A sha1 5269C0B251A29A15AE2D823F7F1621D5C5830083 serial "4653" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2) (Track 1).bin" size 326208288 crc 72A2AF6D md5 0E073D4A39697496BE99F497515F265A sha1 5269C0B251A29A15AE2D823F7F1621D5C5830083 serial "4653" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2)"
 	region "Europe"
 	serial "4653-1"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (Europe) (Disc 2) (Track 1).bin" size 326208288 crc 72A2AF6D md5 0E073D4A39697496BE99F497515F265A sha1 5269C0B251A29A15AE2D823F7F1621D5C5830083 serial "4653-1" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (Europe) (Disc 2) (Track 1).bin" size 326208288 crc 72A2AF6D md5 0E073D4A39697496BE99F497515F265A sha1 5269C0B251A29A15AE2D823F7F1621D5C5830083 serial "4653-1" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1)"
 	region "USA"
 	serial "4653"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1) (Track 1).bin" size 529374048 crc 94A913B7 md5 D0E2489226A61B38AB4E273F63C999F9 sha1 042F383548831A3FF08F0405343A456AFCC0F800 serial "4653" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1) (Track 1).bin" size 529374048 crc 94A913B7 md5 D0E2489226A61B38AB4E273F63C999F9 sha1 042F383548831A3FF08F0405343A456AFCC0F800 serial "4653" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1)"
 	region "USA"
 	serial "4653-0"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 1) (Track 1).bin" size 529374048 crc 94A913B7 md5 D0E2489226A61B38AB4E273F63C999F9 sha1 042F383548831A3FF08F0405343A456AFCC0F800 serial "4653-0" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 1) (Track 1).bin" size 529374048 crc 94A913B7 md5 D0E2489226A61B38AB4E273F63C999F9 sha1 042F383548831A3FF08F0405343A456AFCC0F800 serial "4653-0" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2)"
 	region "USA"
 	serial "4653"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2) (Track 1).bin" size 326208288 crc 5873310D md5 116B1D26929229565AE3A62C599FAA8E sha1 13061ED366138CF25165D8D0ADD86C52BE5FBA81 serial "4653" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2) (Track 1).bin" size 326208288 crc 5873310D md5 116B1D26929229565AE3A62C599FAA8E sha1 13061ED366138CF25165D8D0ADD86C52BE5FBA81 serial "4653" )
 )
 game (
-	name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2)"
-	description "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2)"
+	name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2)"
+	description "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2)"
 	region "USA"
 	serial "4653-1"
-	rom ( name "Sherlock Holmes - Consulting Detective Vol. II (USA) (Disc 2) (Track 1).bin" size 326208288 crc 5873310D md5 116B1D26929229565AE3A62C599FAA8E sha1 13061ED366138CF25165D8D0ADD86C52BE5FBA81 serial "4653-1" )
+	rom ( name "Sherlock Holmes - Consulting Detective - Vol. II (USA) (Disc 2) (Track 1).bin" size 326208288 crc 5873310D md5 116B1D26929229565AE3A62C599FAA8E sha1 13061ED366138CF25165D8D0ADD86C52BE5FBA81 serial "4653-1" )
 )
 game (
 	name "Shin Megami Tensei (Japan)"
@@ -2902,25 +2746,11 @@ game (
 	rom ( name "Silpheed (Japan) (Track 1).bin" size 369174624 crc 4D419BDF md5 6C3D5F72E0E585010E70396F4A01FC6E sha1 48070D950351B4D01730049C90B20A2055B83E5A serial "T-45054" )
 )
 game (
-	name "Silpheed (Japan) (Demo)"
-	description "Silpheed (Japan) (Demo)"
-	region "Japan"
-	serial "ST-45054"
-	rom ( name "Silpheed (Japan) (Demo) (Track 1).bin" size 369174624 crc 70AB8271 md5 8674B1961817AF9D1EA56CA05F7BCE5C sha1 CCFD9D72F77D6D6D9D04013E13A4267C81B13426 serial "ST-45054" )
-)
-game (
-	name "Silpheed (Japan) (Demo) (Fixed Dump)"
-	description "Silpheed (Japan) (Demo) (Fixed Dump)"
-	region "Japan"
-	serial "ST-45054"
-	rom ( name "Silpheed (Japan) (Demo) (Fixed Dump) (Track 1).bin" size 369174624 crc 6B59F551 md5 62114AD0BE5D9CE331D90607687A2574 sha1 A04F5372E40BA222489D384DC050524F9574527E serial "ST-45054" )
-)
-game (
 	name "Silpheed (USA)"
 	description "Silpheed (USA)"
 	region "USA"
-	serial "4419"
-	rom ( name "Silpheed (USA) (Track 1).bin" size 369233424 crc BDDB8612 md5 1F342E85E6FBAFA98E3DDC4619C02807 sha1 3BCAEABF76AE76435091325275D831F50AF08521 serial "4419" )
+	serial "4423"
+	rom ( name "Silpheed (USA) (Track 1).bin" size 369233424 crc BDDB8612 md5 1F342E85E6FBAFA98E3DDC4619C02807 sha1 3BCAEABF76AE76435091325275D831F50AF08521 serial "4423" )
 )
 game (
 	name "SimEarth (Japan)"
@@ -2949,12 +2779,6 @@ game (
 	region "Europe"
 	serial "T-162035-50-0"
 	rom ( name "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Track 1).bin" size 587068608 crc 44DBBFBD md5 F2F0082EBE1370F661AA224509ACACD4 sha1 F254DB55475C84B53E6D48C08BB9DE7B82889985 serial "T-162035-50-0" )
-)
-game (
-	name "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Demo)"
-	description "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Demo)"
-	region "Europe"
-	rom ( name "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Demo) (Track 1).bin" size 466895520 crc 5A0CAC33 md5 8B5AE55A333A8BB1BE053192B4509C89 sha1 1C93066F5F5A163836F384DBB1CD6A1340D92CAB )
 )
 game (
 	name "Slam City with Scottie Pippen (Europe) (Disc 1) (Fingers) (Mega-CD 32X)"
@@ -3329,34 +3153,6 @@ game (
 	rom ( name "Sonic the Hedgehog CD (Japan) (Beta) (1993-08-01) (Track 01).bin" size 129595200 crc 38C37028 md5 7EDB240E8B02B47122C01698B51AC18A sha1 575EBBC6A920E32CD59AE4852712E71B6A4CB1E8 )
 )
 game (
-	name "Sonic the Hedgehog CD (Japan) (Demo)"
-	description "Sonic the Hedgehog CD (Japan) (Demo)"
-	region "Japan"
-	serial "SG-6021"
-	rom ( name "Sonic the Hedgehog CD (Japan) (Demo) (Track 01).bin" size 129592848 crc 128AC97F md5 8166BA70699BEE43FB0D04FE34789FE6 sha1 02EBD329959C894AB95D63B4AEC5940EEB333C28 serial "SG-6021" )
-)
-game (
-	name "SoulStar & Battlecorps (Europe) (Demo)"
-	description "SoulStar & Battlecorps (Europe) (Demo)"
-	region "Europe"
-	serial "T-115035-50"
-	rom ( name "SoulStar & Battlecorps (Europe) (Demo) (Track 1).bin" size 3655008 crc EE0B6050 md5 E771225C26311E9B908BC0BFB2F672A7 sha1 B070BC705FF76FBB78D12A8383D519D809A8BFC7 serial "T-115035-50" )
-)
-game (
-	name "SoulStar & Battlecorps (Europe) (Demo)"
-	description "SoulStar & Battlecorps (Europe) (Demo)"
-	region "Europe"
-	serial "T-115045-50"
-	rom ( name "SoulStar & Battlecorps (Europe) (Demo) (Track 1).bin" size 3655008 crc EE0B6050 md5 E771225C26311E9B908BC0BFB2F672A7 sha1 B070BC705FF76FBB78D12A8383D519D809A8BFC7 serial "T-115045-50" )
-)
-game (
-	name "SoulStar (Europe) (Demo)"
-	description "SoulStar (Europe) (Demo)"
-	region "Europe"
-	serial "T-115035-50"
-	rom ( name "SoulStar (Europe) (Demo) (Track 1).bin" size 1820448 crc DA7BC694 md5 D1ABEB69F52D020DD8918789BDE304F8 sha1 A5467EDDAF1F7FC2B13E4783228D2B08DF20C3F8 serial "T-115035-50" )
-)
-game (
 	name "SoulStar (Europe) (En,Fr,De)"
 	description "SoulStar (Europe) (En,Fr,De)"
 	region "Europe"
@@ -3385,12 +3181,6 @@ game (
 	rom ( name "Space Ace (USA) (Track 1).bin" size 306263328 crc 7A029B47 md5 E272DA5AE4526D9E88AC08F78109D483 sha1 D5C1DACBEBA1F4E28D23690AE889A9540A27DF94 serial "T-121025" )
 )
 game (
-	name "Space Ace (USA) (Demo)"
-	description "Space Ace (USA) (Demo)"
-	region "USA"
-	rom ( name "Space Ace (USA) (Demo).bin" size 10108896 crc 778FE327 md5 0A07BF61375ACC44A34617A5EAA3A654 sha1 E2365639B28818BBE84FFB46703613D685EB92B0 )
-)
-game (
 	name "Space Adventure, The - Cobra - The Legendary Bandit (Europe)"
 	description "Space Adventure, The - Cobra - The Legendary Bandit (Europe)"
 	region "Europe"
@@ -3410,18 +3200,6 @@ game (
 	region "Europe"
 	serial "T-60075-50"
 	rom ( name "Star Wars - Rebel Assault (Europe) (Track 1).bin" size 395255952 crc 2C8B3EA0 md5 4E750307BC2262DDE5C2942D125C4F18 sha1 C6EB9B9A9B2ECD57B1F64FCD5D0C757642E9BCEE serial "T-60075-50" )
-)
-game (
-	name "Star Wars - Rebel Assault (Europe) (Demo)"
-	description "Star Wars - Rebel Assault (Europe) (Demo)"
-	region "Europe"
-	rom ( name "Star Wars - Rebel Assault (Europe) (Demo) (Mega Power) (Track 1).bin" size 31333344 crc 83C3041C md5 7ED65A42FB30663D9C03D3BCC905F87B sha1 F2ABAC22AE12D37D38ED44C6FE63CC1C8084E5B8 )
-)
-game (
-	name "Star Wars - Rebel Assault (Europe) (Demo) (Sega Pro)"
-	description "Star Wars - Rebel Assault (Europe) (Demo) (Sega Pro)"
-	region "Europe"
-	rom ( name "Star Wars - Rebel Assault (Europe) (Demo) (Sega Pro) (Track 1).bin" size 26347104 crc 10469E9B md5 BC9674D231CAB549E44AE0D1BD0FC92A sha1 477984360AF8C0436A6DA6A18401EFE3D079CF11 )
 )
 game (
 	name "Star Wars - Rebel Assault (Japan)"
@@ -3696,20 +3474,6 @@ game (
 	rom ( name "Thunder Storm FX (Japan) (Track 1).bin" size 259446768 crc 5512FD9C md5 8C1E251EAA509B5A4E22ABBAFC2A675E sha1 103A73671B8B5AEE069D191357EB0DDB77D0161D serial "T-32064" )
 )
 game (
-	name "Thunderhawk (Europe) (Demo)"
-	description "Thunderhawk (Europe) (Demo)"
-	region "Europe"
-	serial "T-115015-50"
-	rom ( name "Thunderhawk (Europe) (Demo) (Track 1).bin" size 28470960 crc 07228D19 md5 20640931CB45CC583B8D2D4DBE192DF2 sha1 ACB1006EA67F2C19CE0A5828B66D7DD8CB62AC62 serial "T-115015-50" )
-)
-game (
-	name "Thunderhawk (Europe) (Demo) (Mega Power, Sega Pro)"
-	description "Thunderhawk (Europe) (Demo) (Mega Power, Sega Pro)"
-	region "Europe"
-	serial "T-115015·-50"
-	rom ( name "Thunderhawk (Europe) (Demo) (Mega Power, Sega Pro) (Track 1).bin" size 14885808 crc 8556AE4F md5 61D33F6F2B4C1E93E53C9D64BFF976EE sha1 4DB2F535E12014E9A1A783E8701D739B0C3193DC serial "T-115015·-50" )
-)
-game (
 	name "Thunderhawk (Europe) (En,Fr,De,Es)"
 	description "Thunderhawk (Europe) (En,Fr,De,Es)"
 	region "Europe"
@@ -3722,13 +3486,6 @@ game (
 	region "Japan"
 	serial "T-60134"
 	rom ( name "Thunderhawk (Japan) (Track 01).bin" size 104504064 crc 590BDA55 md5 36F154EDB9CF31A50C8D7441675EC315 sha1 ED973B667EF3C52CCE40025B7504AE90E27B171F serial "T-60134" )
-)
-game (
-	name "Thunderhawk (Japan) (Demo)"
-	description "Thunderhawk (Japan) (Demo)"
-	region "Japan"
-	serial "CDS-10002"
-	rom ( name "Thunderhawk (Japan) (Demo) (Track 1).bin" size 23204832 crc BE4DAE9E md5 5A6429ADBBD00FE0C3FE3FBEA02AC0BB sha1 7D8B0CF63E49712FD245DBE003043D9B4502E099 serial "CDS-10002" )
 )
 game (
 	name "Time Gal (Europe)"
@@ -3750,12 +3507,6 @@ game (
 	region "USA"
 	serial "T-6214"
 	rom ( name "Time Gal (USA) (Track 1).bin" size 298936848 crc 2941C00F md5 4002E973EFB2812D2C793068D86C4833 sha1 D57B76BD9F3F51AE78796A92E60F150C7D5B32BE serial "T-6214" )
-)
-game (
-	name "TimeCop (Europe) (Demo)"
-	description "TimeCop (Europe) (Demo)"
-	region "Europe"
-	rom ( name "TimeCop (Europe) (Demo) (Track 1).bin" size 5113248 crc 742723B1 md5 9D33ED1BD29B7BEE6E756E1A33C4F500 sha1 A85B2B5051411340783A7D39526ECCAA6A587C1F )
 )
 game (
 	name "Tomcat Alley (Australia)"
@@ -3835,13 +3586,6 @@ game (
 	rom ( name "Urusei Yatsura - Dear My Friends (Japan) (Track 1).bin" size 383653536 crc 187CE23E md5 1AB5D472269E913271273E17277BF9F2 sha1 D23DB09FA11B81F4463C7F11DF942A9FD9C3286C serial "T-45064" )
 )
 game (
-	name "Urusei Yatsura - Dear My Friends (Japan) (Demo)"
-	description "Urusei Yatsura - Dear My Friends (Japan) (Demo)"
-	region "Japan"
-	serial "ST-45064"
-	rom ( name "Urusei Yatsura - Dear My Friends (Japan) (Demo) (Track 1).bin" size 6077568 crc 85D1C811 md5 1B77F6CCFEC1CC86301CB748255CB89C sha1 17D863CF93C19B4ADA757456125D07A2F3B9A446 serial "ST-45064" )
-)
-game (
 	name "Vay (USA)"
 	description "Vay (USA)"
 	region "USA"
@@ -3891,11 +3635,11 @@ game (
 	rom ( name "Warau Salesman (Japan) (Track 1).bin" size 353251584 crc 4175B830 md5 A849844819BDA782314CADE7469408E8 sha1 F8386AE9882E7C317A943A4F26EDF90C4CCABB14 serial "G-6006" )
 )
 game (
-	name "What is X'Eye Multi Entertainment System (USA)"
-	description "What is X'Eye Multi Entertainment System (USA)"
+	name "What Is X'Eye Multi Entertainment System (USA)"
+	description "What Is X'Eye Multi Entertainment System (USA)"
 	region "USA"
 	serial "SMJ-4110"
-	rom ( name "What is X'Eye Multi Entertainment System (USA) (Track 1).bin" size 49316736 crc 7DEF0D97 md5 B69E5AB1F3C1A7D245F0B3271A068D5F sha1 41D4EB1BA16433B214EEE48500D8919B1023D471 serial "SMJ-4110" )
+	rom ( name "What Is X'Eye Multi Entertainment System (USA) (Track 1).bin" size 49316736 crc 7DEF0D97 md5 B69E5AB1F3C1A7D245F0B3271A068D5F sha1 41D4EB1BA16433B214EEE48500D8919B1023D471 serial "SMJ-4110" )
 )
 game (
 	name "Wheel of Fortune (USA)"
@@ -4005,18 +3749,18 @@ game (
 	rom ( name "WonderMega Collection (Japan) (Rev 2) (Track 01).bin" size 67032000 crc 45FDC758 md5 65D7C6E8652C1F16A9BA89778AC230DF sha1 A46FDED5443BEDF88DBD4C0F99B358F9DFFE11E7 serial "CDS-135" )
 )
 game (
-	name "World Cup USA '94 (Europe)"
-	description "World Cup USA '94 (Europe)"
+	name "World Cup USA '94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
+	description "World Cup USA '94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Europe"
 	serial "T-79025-50"
-	rom ( name "World Cup USA '94 (Europe) (Track 01).bin" size 129268272 crc 9E540B0F md5 2206F5557CBABEFFCCA55EF8F5462E9F sha1 3154B3F142C112129A3AEAA29A5AE92558556E57 serial "T-79025-50" )
+	rom ( name "World Cup USA '94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv) (Track 01).bin" size 129268272 crc 9E540B0F md5 2206F5557CBABEFFCCA55EF8F5462E9F sha1 3154B3F142C112129A3AEAA29A5AE92558556E57 serial "T-79025-50" )
 )
 game (
-	name "World Cup USA '94 (USA)"
-	description "World Cup USA '94 (USA)"
+	name "World Cup USA '94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)"
+	description "World Cup USA '94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "USA"
 	serial "T-79025"
-	rom ( name "World Cup USA '94 (USA) (Track 01).bin" size 129268272 crc 364850AB md5 657D57F82B9D85006A22513FA2846D2D sha1 CCDE562C9396AF4761C17F72CFA19B65B1762A58 serial "T-79025" )
+	rom ( name "World Cup USA '94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv) (Track 01).bin" size 129268272 crc 364850AB md5 657D57F82B9D85006A22513FA2846D2D sha1 CCDE562C9396AF4761C17F72CFA19B65B1762A58 serial "T-79025" )
 )
 game (
 	name "Yumemi Mystery Mansion (Australia)"
@@ -4038,13 +3782,6 @@ game (
 	region "Japan"
 	serial "G-6027"
 	rom ( name "Yumemi Yakata no Monogatari (Japan) (Track 1).bin" size 625389744 crc E491E189 md5 FCC0915D6BB80C64C81B65BC0A943366 sha1 483AA4469A9E579ED99803C5EB9CF70D1F15F836 serial "G-6027" )
-)
-game (
-	name "Yumemi Yakata no Monogatari (Japan) (Demo)"
-	description "Yumemi Yakata no Monogatari (Japan) (Demo)"
-	region "Japan"
-	serial "SG-6027"
-	rom ( name "Yumemi Yakata no Monogatari (Japan) (Demo) (Track 1).bin" size 625389744 crc 7ED0B9BC md5 9695F8D6A87C5C4857687772AA863803 sha1 1B37325B80A192AAC4EEB451450080A4BAB061B7 serial "SG-6027" )
 )
 game (
 	name "Yumimi Mix (Japan)"
