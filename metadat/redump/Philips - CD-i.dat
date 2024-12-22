@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Philips - CD-i"
 	description "Philips - CD-i"
-	version "2024.09.27"
+	version "2024.12.21"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -507,7 +507,7 @@ game (
 	name "Alfapet (Sweden)"
 	description "Alfapet (Sweden)"
 	region "Sweden"
-	rom ( name "Alfapet (Sweden).bin" size 92753472 crc 18C4F51C md5 CC6D68016BA7E00486D7CF6A9E39D6E2 sha1 FB20B42EC84D3D3FF13DC471EF7C133D7E5C13D8 )
+	rom ( name "Alfapet (Sweden).bin" size 92753472 crc EEF88728 md5 67FEDDA1D9A9E9EC74018FEC04846EC0 sha1 A3CE1D82B299D0A1A421106A74849CEC2D937A82 )
 )
 game (
 	name "Alice au Pays des Merveilles (France)"
@@ -2011,11 +2011,16 @@ game (
 	rom ( name "Bavaria Film - Eine Interaktive Entdeckungsreise (Germany).bin" size 430592400 crc ADF9F21A md5 DF399E90B1D25B6EBA5D7B99F7B51401 sha1 377C806321EEE4450EADDE589008DB7DA3514546 serial "813-0111" )
 )
 game (
-	name "Beauty & the Beast (USA)"
-	description "Beauty & the Beast (USA)"
-	region "USA"
+	name "Beauty & the Beast (USA, Europe)"
+	description "Beauty & the Beast (USA, Europe)"
 	serial "310690114-2"
-	rom ( name "Beauty & the Beast (USA).bin" size 589352400 crc A1B20E7B md5 CA56F868D4B051187E1AD49D03C1DFA8 sha1 757988B35803A21DEDB9A8B2B11598D6F8D0F55B serial "310690114-2" )
+	rom ( name "Beauty & the Beast (USA, Europe).bin" size 589352400 crc A1B20E7B md5 CA56F868D4B051187E1AD49D03C1DFA8 sha1 757988B35803A21DEDB9A8B2B11598D6F8D0F55B serial "310690114-2" )
+)
+game (
+	name "Beauty & the Beast (USA, Europe)"
+	description "Beauty & the Beast (USA, Europe)"
+	serial "810-0024"
+	rom ( name "Beauty & the Beast (USA, Europe).bin" size 589352400 crc A1B20E7B md5 CA56F868D4B051187E1AD49D03C1DFA8 sha1 757988B35803A21DEDB9A8B2B11598D6F8D0F55B serial "810-0024" )
 )
 game (
 	name "Beauty Guide (Netherlands)"
@@ -8673,6 +8678,34 @@ game (
 	rom ( name "Interactive Math - Whole Numbers (USA) (En,Es).bin" size 643688304 crc 20EB489A md5 32E9A3F3DDEF4E5E935BADB37DDA59B2 sha1 3D09CB46E18641C95DA2A040D987721B4085D1DC )
 )
 game (
+	name "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-22"
+	rom ( name "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 1).bin" size 715130304 crc 1512E132 md5 FA82AED124C2E297E0CF7FB35B4E544B sha1 3E30066EFB8862F3B17ED9916F6BDD4838949481 serial "GIT-IA-22" )
+)
+game (
+	name "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-22"
+	rom ( name "Interactive Screen English Series No. 17 - What's Eating Gilbert Grape (Korea) (En,Ko) (Side 2).bin" size 656565504 crc 62B40F63 md5 6AEE8BF8D3133689C4A91582AF55B7DD sha1 48F632DAF788F3E46D1AFC0378A3E8608D769849 serial "GIT-IA-22" )
+)
+game (
+	name "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-26"
+	rom ( name "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 1).bin" size 607349904 crc D1784A4B md5 48A62E62D85D120656608EEECC15E40E sha1 AD70912A549A3A57213FEC6F9FD62F7F3A6DC1FA serial "GIT-IA-26" )
+)
+game (
+	name "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-26"
+	rom ( name "Interactive Screen English Series No. 21 - Little Man Tate (Korea) (En,Ko) (Side 2).bin" size 565895904 crc 3923A50F md5 9274700979CFD59FFED0F0FCB15CF38E sha1 719BF0557A5AEA0CCF74D61E6ADB770CC04BD509 serial "GIT-IA-26" )
+)
+game (
 	name "Interactive Screen English Series No. 29 - The Swan Princess (Korea) (En,Ko) (Side 1)"
 	description "Interactive Screen English Series No. 29 - The Swan Princess (Korea) (En,Ko) (Side 1)"
 	region "Korea"
@@ -8771,6 +8804,158 @@ game (
 	rom ( name "Interactive Screen English Series No. 43 - I Love Trouble (Korea) (En,Ko) (Side 2).bin" size 705957504 crc 1CA5FB56 md5 A712C4C3F6EACF54339C6DDA61DF441D sha1 1D50315D8373FE10641C0F80F75108D9E28A6CF7 serial "GIT-IA-48" )
 )
 game (
+	name "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-56"
+	rom ( name "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 1).bin" size 563426304 crc 02A05BAF md5 95E72D4C1DF82CB3EF2E5969C40462AB sha1 3F36A5CD2A5B6CF6F7301C73C12D3257AF02C4C1 serial "GIT-IA-56" )
+)
+game (
+	name "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-56"
+	rom ( name "Interactive Screen English Series No. 51 - Gulliver's Travels II (Korea) (En,Ko) (Side 2).bin" size 549490704 crc C43C6FE4 md5 73E20D576B2D38DF748EAA0EB05CC2FA sha1 9E191093706827CCB5F335CDF060EEBE1B514539 serial "GIT-IA-56" )
+)
+game (
+	name "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-58"
+	rom ( name "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 1).bin" size 664679904 crc BB5C1DC9 md5 FA892C9AE850BD7BF4D269D595398582 sha1 1A776BC36D1CB9E959FBF02F0B460E7AC2B40F23 serial "GIT-IA-58" )
+)
+game (
+	name "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-58"
+	rom ( name "Interactive Screen English Series No. 53 - House of Cards (Korea) (En,Ko) (Side 2).bin" size 628517904 crc 0D754981 md5 D58BD83653868EE88FD31C7FE404F2C0 sha1 46E2B53601257A97139A0AE83891BE39365590A7 serial "GIT-IA-58" )
+)
+game (
+	name "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-60"
+	rom ( name "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 1).bin" size 562544304 crc 17A9B457 md5 11D1929B1562444F6A13495002A10B9A sha1 C63937CCF9AEC02F1A54F61167157E7DDEE22C8A serial "GIT-IA-60" )
+)
+game (
+	name "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-60"
+	rom ( name "Interactive Screen English Series No. 55 - Yankee Zulu (Korea) (En,Ko) (Side 2).bin" size 511388304 crc D8E5563F md5 08642F1499F994E9CF73E0C8D1EB20C8 sha1 7B0ABA72CB9E730A50A8845FDF8E60546F4B5212 serial "GIT-IA-60" )
+)
+game (
+	name "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-62"
+	rom ( name "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 1).bin" size 707721504 crc 27D4803C md5 0DC040828DC8F02A6D473EE82358A4EA sha1 26CC6401889110BBDD01CC2B997149372BD91ACA serial "GIT-IA-62" )
+)
+game (
+	name "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-62"
+	rom ( name "Interactive Screen English Series No. 57 - Smoke (Korea) (En,Ko) (Side 2).bin" size 632575104 crc EE6F2F09 md5 444825A0DC10619D5F85A16A7E702A2B sha1 E70765323703D5DE07295EB73A83A99A12CB7AAF serial "GIT-IA-62" )
+)
+game (
+	name "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-64"
+	rom ( name "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 1).bin" size 690257904 crc F920F1D5 md5 66988F589A8F88338EF507A991BDD4E2 sha1 17A4552AB45C6DD1CAC1B42D86126AC0009116F1 serial "GIT-IA-64" )
+)
+game (
+	name "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-64"
+	rom ( name "Interactive Screen English Series No. 59 - Sparrow (Korea) (En,Ko) (Side 2).bin" size 549137904 crc FFEEAC76 md5 D4A8AA60D3880C3CDE00AEFC39E0479E sha1 33B15009D3DE3E14CEDC86D018D5495B451BCBB8 serial "GIT-IA-64" )
+)
+game (
+	name "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-66"
+	rom ( name "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 1).bin" size 665738304 crc 0A5B59FF md5 3BC89E60048B70AD3505260489EC3A52 sha1 52301AD67F9E7E94CF9A75C4DFAE6B7A0579B5D2 serial "GIT-IA-66" )
+)
+game (
+	name "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-66"
+	rom ( name "Interactive Screen English Series No. 61 - The Falcon & The Snowman (Korea) (En,Ko) (Side 2).bin" size 626048304 crc 5F4D97BE md5 89EB92CA4A004383942B32181E7C5542 sha1 C0C424D73F98CFD2543A06009A3EE608E2CA7ECD serial "GIT-IA-66" )
+)
+game (
+	name "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-68"
+	rom ( name "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 1).bin" size 684260304 crc DFAB89FC md5 DCBADCC7D5A870466963FF02AB0B3643 sha1 DF082D29C3D19C56AEF22E3D4796DCBA094F0D7E serial "GIT-IA-68" )
+)
+game (
+	name "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-68"
+	rom ( name "Interactive Screen English Series No. 63 - Jane Eyre (Korea) (En,Ko) (Side 2).bin" size 644746704 crc B9BD72E9 md5 A9486DD9775D8110F57CF8530C4E4059 sha1 1919EB667D121343DAF2B5A126AD912B0FF66FCF serial "GIT-IA-68" )
+)
+game (
+	name "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-69"
+	rom ( name "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 1).bin" size 642100704 crc B4D988DC md5 0C138E102F38650B5490DF820CC6FC2B sha1 7A7A373ACA1422CDC4089E8DE5038A69123427E5 serial "GIT-IA-69" )
+)
+game (
+	name "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-69"
+	rom ( name "Interactive Screen English Series No. 64 - Automatic (Korea) (En,Ko) (Side 2).bin" size 407665104 crc 5F720BF1 md5 02D89D052C804DF70925256C33E5C794 sha1 9D3385BB4FC1A0EEA0395181464EA5A61C59C421 serial "GIT-IA-69" )
+)
+game (
+	name "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-70"
+	rom ( name "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 1).bin" size 687259104 crc 15DE8A14 md5 BC846597BDB12EF6CD62EBBD63570C55 sha1 70D6822497C10F3DE6C1522FBE128B93F5531FE0 serial "GIT-IA-70" )
+)
+game (
+	name "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-70"
+	rom ( name "Interactive Screen English Series No. 65 - Two Much (Korea) (En,Ko) (Side 2).bin" size 686553504 crc 05E3A7E8 md5 9EEB80D9B3B038DCA8C9D9B2DA293887 sha1 65B1E946D1E72637132F8E59AB70D65EA0DF5179 serial "GIT-IA-70" )
+)
+game (
+	name "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	rom ( name "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 1).bin" size 616699104 crc 3A5664DE md5 EB5D678FC34BBC273059529321F71D5F sha1 16CAAC595A9B47A2ED5C715501180FB30C02B844 )
+)
+game (
+	name "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	rom ( name "Interactive Screen English Series No. 66 - Highlander 3 (Korea) (En,Ko) (Side 2).bin" size 531497904 crc EC3D25AF md5 13F634648EC6E9264CD82499DFC195CE sha1 25A668A69E22483D1B70C9B90F3B387BC9CAFCB9 )
+)
+game (
+	name "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-73"
+	rom ( name "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 1).bin" size 595531104 crc 416DBC6F md5 118D1138B0C287AC68EF410C89695CC8 sha1 FD45223893BC41E0247C48EA33C30C66EC299561 serial "GIT-IA-73" )
+)
+game (
+	name "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-73"
+	rom ( name "Interactive Screen English Series No. 68 - Red Scorpion II (Korea) (En,Ko) (Side 2).bin" size 489161904 crc 76C7DBEF md5 BF8DB7540A39EC3A7975FD0A53314E67 sha1 2B8F382A27DF322F477B956BDCB8E7CC8CB3E8F0 serial "GIT-IA-73" )
+)
+game (
 	name "Interactive Screen English Series No. 69 - True Romance (Korea) (Side 1)"
 	description "Interactive Screen English Series No. 69 - True Romance (Korea) (Side 1)"
 	region "Korea"
@@ -8795,6 +8980,34 @@ game (
 	description "Interactive Screen English Series No. 71 - Color of Night (Korea) (Side 2)"
 	region "Korea"
 	rom ( name "Interactive Screen English Series No. 71 - Color of Night (Korea) (Side 2).bin" size 556546704 crc CBA7B170 md5 E955A621E052269878DFFC05F911DCAF sha1 B4E71B3C1653EB6C1D628FC54B90B37527BFB2A8 )
+)
+game (
+	name "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-13"
+	rom ( name "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 1).bin" size 670853904 crc 462B69E4 md5 5F75CB1E64A61A68E829E2FF3A4974D5 sha1 3EDB1993ADC66674E7C513F27A793DA40F1D1A8F serial "GIT-IA-13" )
+)
+game (
+	name "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-13"
+	rom ( name "Interactive Screen English Series No. 8 - Toy Soldiers (Korea) (En,Ko) (Side 2).bin" size 579302304 crc E4541F60 md5 0F261F078ABBE791F0D1071B8A7763CE sha1 F8E70514B0A77B0B414318ED2873F8791AF1CA69 serial "GIT-IA-13" )
+)
+game (
+	name "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 1)"
+	description "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 1)"
+	region "Korea"
+	serial "GIT-IA-14"
+	rom ( name "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 1).bin" size 583535904 crc 97C65F8B md5 3F9951906F5E2A99BD7A84E6D5033125 sha1 9650C0E3E30AF58391E03774F6C343092DB6E29D serial "GIT-IA-14" )
+)
+game (
+	name "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 2)"
+	description "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 2)"
+	region "Korea"
+	serial "GIT-IA-14"
+	rom ( name "Interactive Screen English Series No. 9 - K2 (Korea) (En,Ko) (Side 2).bin" size 668384304 crc ECCA2DA0 md5 5BF1BB473A5B686CEDF1A232226A3CFA sha1 5CD2A01E7BC5D1399E6DC5260AF3CBE91132DE8B serial "GIT-IA-14" )
 )
 game (
 	name "Interactive Video Charts - Apr. '95-4 (Germany)"
@@ -9425,6 +9638,13 @@ game (
 	region "Europe"
 	serial "811-0008"
 	rom ( name "Joy of Sex, The (Europe) (Rev 1).bin" size 725886000 crc 142059A4 md5 8F68FE0AA97D0C194C6452D8949252AD sha1 7D0447EE018DD5F5017352219AF66650AC874036 serial "811-0008" )
+)
+game (
+	name "Joy of Sex, The (Germany)"
+	description "Joy of Sex, The (Germany)"
+	region "Germany"
+	serial "813-0084"
+	rom ( name "Joy of Sex, The (Germany).bin" size 765399600 crc FEB4CDF6 md5 88F2523A2E12C62732C5499F82E8079C sha1 F2F4B2C8DD724037578AAE128808774C35128329 serial "813-0084" )
 )
 game (
 	name "Joy of Sex, The (USA)"
@@ -11067,6 +11287,62 @@ game (
 	region "France"
 	serial "812-0145-1"
 	rom ( name "Loving for a Lifetime (France) (Disc 2).bin" size 605581200 crc A8D1C7F7 md5 7361652E12FAD66842B5E01B5929164F sha1 60DD26B0C6EA4F508A32C30689E15873FCF4191D serial "812-0145-1" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 1)"
+	description "Loving for a Lifetime (Netherlands) (Disc 1)"
+	region "Netherlands"
+	serial "2700500"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 1).bin" size 679845600 crc 9632A61A md5 C7E3150251D2013343D7A3EF0A47F9A4 sha1 F8B0E8592E7BC07014C3C59E16539F089067D0BA serial "2700500" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 1)"
+	description "Loving for a Lifetime (Netherlands) (Disc 1)"
+	region "Netherlands"
+	serial "2700500-0"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 1).bin" size 679845600 crc 9632A61A md5 C7E3150251D2013343D7A3EF0A47F9A4 sha1 F8B0E8592E7BC07014C3C59E16539F089067D0BA serial "2700500-0" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 1)"
+	description "Loving for a Lifetime (Netherlands) (Disc 1)"
+	region "Netherlands"
+	serial "814-0077"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 1).bin" size 679845600 crc 9632A61A md5 C7E3150251D2013343D7A3EF0A47F9A4 sha1 F8B0E8592E7BC07014C3C59E16539F089067D0BA serial "814-0077" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 1)"
+	description "Loving for a Lifetime (Netherlands) (Disc 1)"
+	region "Netherlands"
+	serial "814-0077-0"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 1).bin" size 679845600 crc 9632A61A md5 C7E3150251D2013343D7A3EF0A47F9A4 sha1 F8B0E8592E7BC07014C3C59E16539F089067D0BA serial "814-0077-0" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 2)"
+	description "Loving for a Lifetime (Netherlands) (Disc 2)"
+	region "Netherlands"
+	serial "2700500"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 2).bin" size 618811200 crc 8C7CEA71 md5 A5692757293DCE18431E8597590DCC55 sha1 13CA7B53F4673AB98C495369F2407BEBE5E24ACC serial "2700500" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 2)"
+	description "Loving for a Lifetime (Netherlands) (Disc 2)"
+	region "Netherlands"
+	serial "2700500-1"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 2).bin" size 618811200 crc 8C7CEA71 md5 A5692757293DCE18431E8597590DCC55 sha1 13CA7B53F4673AB98C495369F2407BEBE5E24ACC serial "2700500-1" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 2)"
+	description "Loving for a Lifetime (Netherlands) (Disc 2)"
+	region "Netherlands"
+	serial "814-0078"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 2).bin" size 618811200 crc 8C7CEA71 md5 A5692757293DCE18431E8597590DCC55 sha1 13CA7B53F4673AB98C495369F2407BEBE5E24ACC serial "814-0078" )
+)
+game (
+	name "Loving for a Lifetime (Netherlands) (Disc 2)"
+	description "Loving for a Lifetime (Netherlands) (Disc 2)"
+	region "Netherlands"
+	serial "814-0078-1"
+	rom ( name "Loving for a Lifetime (Netherlands) (Disc 2).bin" size 618811200 crc 8C7CEA71 md5 A5692757293DCE18431E8597590DCC55 sha1 13CA7B53F4673AB98C495369F2407BEBE5E24ACC serial "814-0078-1" )
 )
 game (
 	name "Lucky Luke - The Video Game (Europe)"
@@ -13518,6 +13794,13 @@ game (
 	region "France"
 	serial "812-0081"
 	rom ( name "Playboy's Complete Massage (France).bin" size 667144800 crc CB04CFAC md5 C4A6B14A6CE764EDEE44A584D1A6146D sha1 A3E180FACDB2CE75F20297F054611797921A2DDA serial "812-0081" )
+)
+game (
+	name "Playboy's Complete Massage (Netherlands)"
+	description "Playboy's Complete Massage (Netherlands)"
+	region "Netherlands"
+	serial "814-0066"
+	rom ( name "Playboy's Complete Massage (Netherlands).bin" size 667144800 crc F43E226B md5 1FC9E45BA7D7F5B8B90A7443BC89EB78 sha1 687AD2E9B0AD3E77C93DB02C37226ED9820321AC serial "814-0066" )
 )
 game (
 	name "Playboy's Complete Massage (USA)"
@@ -16264,6 +16547,13 @@ game (
 	region "USA"
 	serial "310690198-2"
 	rom ( name "Titanic - An Interactive Exploration (USA).bin" size 772726080 crc D243236F md5 6DE9A2AB6A798F5BD34C326C7BA2538F sha1 0B452262AE200E48DA917C4100A7CE4C94187D61 serial "310690198-2" )
+)
+game (
+	name "Tom - Der Maximagier (Germany) (En,Fr,De)"
+	description "Tom - Der Maximagier (Germany) (En,Fr,De)"
+	region "Germany"
+	serial "813-0034"
+	rom ( name "Tom - Der Maximagier (Germany) (En,Fr,De).bin" size 187513200 crc FD27C50A md5 C31A3813F74A2F90542D15FACCA05324 sha1 258F0BDFCDB2C14766432795DA82FEE5EFFC122F serial "813-0034" )
 )
 game (
 	name "Tom - Il Dizionario Magico (Italy) (En,Fr,It)"
