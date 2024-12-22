@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 8-bit"
 	description "Atari - 8-bit"
-	version "2024.09.27"
+	version "2024.12.21"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -57,6 +57,12 @@ game (
 	rom ( name "Centipede (Europe).atx" size 8192 crc 44BB1842 md5 A52EBB9034AF44BEA4AE73E088A102C3 sha1 2EED9A6BBC4C0396A0EFC48FC810F9363C23A3C3 )
 )
 game (
+	name "Coco Notes (USA)"
+	description "Coco Notes (USA)"
+	region "USA"
+	rom ( name "Coco Notes (USA).bin" size 16384 crc F93C615B md5 BF438425BB9ACA4BB17E3E154398AC3E sha1 D70EF079097293256A9B0D2BB34F8B8A49EAC565 )
+)
+game (
 	name "Desert Falcon (USA, Europe)"
 	description "Desert Falcon (USA, Europe)"
 	rom ( name "Desert Falcon (USA, Europe).bin" size 65536 crc A8F9324D md5 CBB80479B6C87B9E341C3662635A3AF4 sha1 FD4666796A4498339835D75DDB63C7B99D1D93BB )
@@ -74,10 +80,25 @@ game (
 	rom ( name "Frogger (USA).bin" size 8192 crc 40E9476C md5 9FBED199D8ED7D6AFF7E9F41930B4C68 sha1 A4863C26C9E6752211684C9EFE10B86C1650314A )
 )
 game (
+	name "Gato (USA, Europe)"
+	description "Gato (USA, Europe)"
+	rom ( name "Gato (USA, Europe).bin" size 131072 crc AB06A3F5 md5 A14BC5FC0BF309C1BFC51EFDC495814B sha1 CABB1EFFA554D915521B2A49961D8E61B67EC9B3 )
+)
+game (
 	name "Joust (USA)"
 	description "Joust (USA)"
 	region "USA"
 	rom ( name "Joust (USA).bin" size 16384 crc F6EC618C md5 79E9146264BB499105AE6815B67C4B6A sha1 975C5B3F818D20C5FEB868A25159A678F8C34E1B )
+)
+game (
+	name "Kaboom! (USA, Europe)"
+	description "Kaboom! (USA, Europe)"
+	rom ( name "Kaboom! (USA, Europe).bin" size 8192 crc C2E2E645 md5 A35F49C7FF6D508C4696EDE2320055DB sha1 F9275D682581E6A07F2E23831BDF40AB3757AE12 )
+)
+game (
+	name "Lode Runner (USA, Europe)"
+	description "Lode Runner (USA, Europe)"
+	rom ( name "Lode Runner (USA, Europe).bin" size 65536 crc B9A89BBD md5 FC1DE46E0845304F9886B9A3C5530496 sha1 9C59CF69F1C248FB673A3712EC7E35B1A0C42523 )
 )
 game (
 	name "Miner 2049er (USA)"
@@ -120,6 +141,11 @@ game (
 	rom ( name "Rescue on Fractalus (USA, Europe).bin" size 65536 crc 1CA549AD md5 8DD03C7615DA801094D5E0B720387E8B sha1 36BC00B2E4452855D0681C50CDEC2403FFB2A6BB )
 )
 game (
+	name "River Raid (USA, Europe)"
+	description "River Raid (USA, Europe)"
+	rom ( name "River Raid (USA, Europe).bin" size 8192 crc 6E601D81 md5 1C1CFDD22B97CF51B43F8921AEA07895 sha1 107CB8847329F7D68282F54C95AE5533452B87FD )
+)
+game (
 	name "Sargon III (USA) (Opening Book Disk) (5.25 inch)"
 	description "Sargon III (USA) (Opening Book Disk) (5.25 inch)"
 	region "USA"
@@ -138,6 +164,12 @@ game (
 	rom ( name "83.1.raw" size 260967 crc D89AACA3 md5 91B1D6664DF08648861ACF175BE209DA sha1 5ADD1D1FD22F66481AA23CED689E95109839AE42 )
 )
 game (
+	name "Shattered Alliance, The (USA)"
+	description "Shattered Alliance, The (USA)"
+	region "USA"
+	rom ( name "Shattered Alliance, The (USA).atr" size 92176 crc 3BED0E22 md5 F66107970A5884C8618F5B0B13582E37 sha1 E8FD2ABF5A8A3666D3872CB8853D9E9F9B6F8560 )
+)
+game (
 	name "Space Invaders (USA)"
 	description "Space Invaders (USA)"
 	region "USA"
@@ -153,4 +185,10 @@ game (
 	description "Super Breakout (USA)"
 	region "USA"
 	rom ( name "Super Breakout (USA).bin" size 8192 crc 4DA14CF9 md5 7A312DF03DAB98276CE8195ED7E88BBA sha1 E0E3CFEE1DEEC5F57FCBD3C98F61225913FC6FB7 )
+)
+game (
+	name "Trailblazer (Europe)"
+	description "Trailblazer (Europe)"
+	region "Europe"
+	rom ( name "Trailblazer (Europe).atr" size 92176 crc C3BA7ED9 md5 A979C0563C839B5E83DAA63929F71EEB sha1 636E1B74D13B77FC1BAB8AE1871C13DE262D0147 )
 )

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Microsoft - Xbox 360"
 	description "Microsoft - Xbox 360"
-	version "2024.09.27"
+	version "2024.12.21"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -2147,13 +2147,6 @@ game (
 	rom ( name "BioShock 2 (World) (En,Fr,Es) (Beta) (2009-12-16).iso" size 6852706304 crc A6AFAD50 md5 4C0DBBB5FE0A17E739FC9A448E8E16E9 sha1 07041AD48A20187441122385BD60A8E2A348317A )
 )
 game (
-	name "BioShock Infinite (Japan)"
-	description "BioShock Infinite (Japan)"
-	region "Japan"
-	serial "TT-2141"
-	rom ( name "BioShock Infinite (Japan).iso" size 8738846720 crc AD171955 md5 1467DA59536AF6F7A8C0E3C9DF93F30C sha1 C2FCF6D3DB5BA6ABB829E36A551A6D634D7B392D serial "TT-2141" )
-)
-game (
 	name "BioShock Infinite (USA, Europe) (En,Fr,De,Es,It,Pt)"
 	description "BioShock Infinite (USA, Europe) (En,Fr,De,Es,It,Pt)"
 	serial "TT-2141"
@@ -3602,13 +3595,6 @@ game (
 	rom ( name "Call of Duty - Modern Warfare 3 (USA, Korea).iso" size 8738846720 crc 5CAFEEA5 md5 23988543B1429ABD026AE06FAE6ADFA0 sha1 B7BEC329321E891EDE0F1D90C44F6173D73283E1 serial "AV-2251" )
 )
 game (
-	name "Call of Duty - World At War (Korea) (En,Ko)"
-	description "Call of Duty - World At War (Korea) (En,Ko)"
-	region "Korea"
-	serial "AV-2076"
-	rom ( name "Call of Duty - World At War (Korea) (En,Ko).iso" size 7835492352 crc 0A129685 md5 C7A1B5E487F81E1CAEC7A737534B221F sha1 1FE701121084C1D2337D4B52B1A8B1921D26166B serial "AV-2076" )
-)
-game (
 	name "Call of Duty - World at War (Germany)"
 	description "Call of Duty - World at War (Germany)"
 	region "Germany"
@@ -3621,6 +3607,13 @@ game (
 	region "Italy"
 	serial "AV-2076"
 	rom ( name "Call of Duty - World at War (Italy).iso" size 7835492352 crc 455D3AE5 md5 83A26A1F01D3B0ABEA5D06504547A978 sha1 D36B8C5FBA8C653786F6907C333FE055E735D3C0 serial "AV-2076" )
+)
+game (
+	name "Call of Duty - World at War (Korea) (En,Ko)"
+	description "Call of Duty - World at War (Korea) (En,Ko)"
+	region "Korea"
+	serial "AV-2076"
+	rom ( name "Call of Duty - World at War (Korea) (En,Ko).iso" size 7835492352 crc 0A129685 md5 C7A1B5E487F81E1CAEC7A737534B221F sha1 1FE701121084C1D2337D4B52B1A8B1921D26166B serial "AV-2076" )
 )
 game (
 	name "Call of Duty - World at War (Russia)"
@@ -4116,6 +4109,13 @@ game (
 	region "USA"
 	serial "TT-2002"
 	rom ( name "College Hoops 2K6 (USA).iso" size 7834892288 crc 0CB1C406 md5 23E5B0358F578D49D384F2CE71B5373E sha1 22A226F6B35F0D4C8F4F4C4943327939C66F1AE6 serial "TT-2002" )
+)
+game (
+	name "College Hoops 2K7 (USA)"
+	description "College Hoops 2K7 (USA)"
+	region "USA"
+	serial "TT-2033"
+	rom ( name "College Hoops 2K7 (USA).iso" size 7834892288 crc 6EBC1262 md5 7A917F9C242FA2EB7CBF9F668A2CE5C3 sha1 9BA415DC674352C515C57B24BD18F7E5E8339483 serial "TT-2033" )
 )
 game (
 	name "Command & Conquer - Alarmstufe Rot 3 (Germany)"
@@ -5613,50 +5613,6 @@ game (
 	rom ( name "Devil May Cry 4 (USA, Europe) (En,Fr,De,Es,It).iso" size 7835492352 crc 95D09FC8 md5 8E57DBD05E8678B72FAF3F0CEFEA5D7D sha1 73B5E09D5A56A517EE1A2D1CA40C4295532EDF50 serial "CC-2015" )
 )
 game (
-	name "DiRT (USA, Europe) (En,Fr,De,Es,It)"
-	description "DiRT (USA, Europe) (En,Fr,De,Es,It)"
-	serial "CM-2011"
-	rom ( name "DiRT (USA, Europe) (En,Fr,De,Es,It).iso" size 7835492352 crc 9BD2FD5B md5 D86AB0B9C1D7663F72DE5938D322D5F3 sha1 BF71CE5FA40A656C2E8F5382BC98E5CCB7DA5D14 serial "CM-2011" )
-)
-game (
-	name "DiRT 2 (Japan)"
-	description "DiRT 2 (Japan)"
-	region "Japan"
-	serial "CM-2073"
-	rom ( name "DiRT 2 (Japan).iso" size 7838695424 crc F6B40662 md5 A0B65D7C208937F99F0B2D1BA99523BE sha1 B694B8BB03D111EE5CDC872031711CD435A1D4C6 serial "CM-2073" )
-)
-game (
-	name "DiRT 2 (USA, Europe) (En,Fr,De,Es,It)"
-	description "DiRT 2 (USA, Europe) (En,Fr,De,Es,It)"
-	serial "CM-2073"
-	rom ( name "DiRT 2 (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 04D2E391 md5 9DADDEDF005671023A7EDD2C1D331408 sha1 BCAC48272F4B755D271FB3E38FAE3FBE85266C30 serial "CM-2073" )
-)
-game (
-	name "DiRT 3 (USA, Europe) (En,Fr,De,Es,It)"
-	description "DiRT 3 (USA, Europe) (En,Fr,De,Es,It)"
-	serial "CM-2109"
-	rom ( name "DiRT 3 (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 5CBE024C md5 0ED21E930DB2F32147CEE38B48CD531D sha1 3922FCA2573E67BB58993122622D9944907DA6A5 serial "CM-2109" )
-)
-game (
-	name "DiRT 3 - Complete Edition (USA, Europe)"
-	description "DiRT 3 - Complete Edition (USA, Europe)"
-	serial "CM-2109"
-	rom ( name "DiRT 3 - Complete Edition (USA, Europe).iso" size 8738846720 crc 302A0931 md5 E04676210F20A6F53A1232C3217557C0 sha1 44469B0EC183F3C30FA89512AB734FD3E1567F37 serial "CM-2109" )
-)
-game (
-	name "DiRT Showdown (Japan)"
-	description "DiRT Showdown (Japan)"
-	region "Japan"
-	serial "CM-2117"
-	rom ( name "DiRT Showdown (Japan).iso" size 8738846720 crc 816DA82F md5 694D817A10485FB79374071F6407EDDD sha1 F527956661820BF090B17B13A12493627C296FF3 serial "CM-2117" )
-)
-game (
-	name "DiRT Showdown (USA, Europe)"
-	description "DiRT Showdown (USA, Europe)"
-	serial "CM-2117"
-	rom ( name "DiRT Showdown (USA, Europe).iso" size 8738846720 crc B6B28152 md5 E972C49CD97CA25161B64A616A4149B4 sha1 E058B50C18EDF32BBA6BB6C8E7D1ADE580D7298D serial "CM-2117" )
-)
-game (
 	name "Diablo III (Brazil) (Es,Pt)"
 	description "Diablo III (Brazil) (Es,Pt)"
 	region "Brazil"
@@ -5766,6 +5722,50 @@ game (
 	region "USA"
 	serial "NM-2153"
 	rom ( name "Digimon All-Star Rumble (USA).iso" size 7838695424 crc ED5ABCA6 md5 558837B10FD140D2EB68A468D7A8CC2E sha1 A034B3FB283F99EB762CDC8D266EDA7C4EC15F96 serial "NM-2153" )
+)
+game (
+	name "Dirt (USA, Europe) (En,Fr,De,Es,It)"
+	description "Dirt (USA, Europe) (En,Fr,De,Es,It)"
+	serial "CM-2011"
+	rom ( name "Dirt (USA, Europe) (En,Fr,De,Es,It).iso" size 7835492352 crc 9BD2FD5B md5 D86AB0B9C1D7663F72DE5938D322D5F3 sha1 BF71CE5FA40A656C2E8F5382BC98E5CCB7DA5D14 serial "CM-2011" )
+)
+game (
+	name "Dirt 2 (Japan)"
+	description "Dirt 2 (Japan)"
+	region "Japan"
+	serial "CM-2073"
+	rom ( name "Dirt 2 (Japan).iso" size 7838695424 crc F6B40662 md5 A0B65D7C208937F99F0B2D1BA99523BE sha1 B694B8BB03D111EE5CDC872031711CD435A1D4C6 serial "CM-2073" )
+)
+game (
+	name "Dirt 2 (USA, Europe) (En,Fr,De,Es,It)"
+	description "Dirt 2 (USA, Europe) (En,Fr,De,Es,It)"
+	serial "CM-2073"
+	rom ( name "Dirt 2 (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 04D2E391 md5 9DADDEDF005671023A7EDD2C1D331408 sha1 BCAC48272F4B755D271FB3E38FAE3FBE85266C30 serial "CM-2073" )
+)
+game (
+	name "Dirt 3 (USA, Europe) (En,Fr,De,Es,It)"
+	description "Dirt 3 (USA, Europe) (En,Fr,De,Es,It)"
+	serial "CM-2109"
+	rom ( name "Dirt 3 (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 5CBE024C md5 0ED21E930DB2F32147CEE38B48CD531D sha1 3922FCA2573E67BB58993122622D9944907DA6A5 serial "CM-2109" )
+)
+game (
+	name "Dirt 3 - Complete Edition (USA, Europe)"
+	description "Dirt 3 - Complete Edition (USA, Europe)"
+	serial "CM-2109"
+	rom ( name "Dirt 3 - Complete Edition (USA, Europe).iso" size 8738846720 crc 302A0931 md5 E04676210F20A6F53A1232C3217557C0 sha1 44469B0EC183F3C30FA89512AB734FD3E1567F37 serial "CM-2109" )
+)
+game (
+	name "Dirt Showdown (Japan)"
+	description "Dirt Showdown (Japan)"
+	region "Japan"
+	serial "CM-2117"
+	rom ( name "Dirt Showdown (Japan).iso" size 8738846720 crc 816DA82F md5 694D817A10485FB79374071F6407EDDD sha1 F527956661820BF090B17B13A12493627C296FF3 serial "CM-2117" )
+)
+game (
+	name "Dirt Showdown (USA, Europe)"
+	description "Dirt Showdown (USA, Europe)"
+	serial "CM-2117"
+	rom ( name "Dirt Showdown (USA, Europe).iso" size 8738846720 crc B6B28152 md5 E972C49CD97CA25161B64A616A4149B4 sha1 E058B50C18EDF32BBA6BB6C8E7D1ADE580D7298D serial "CM-2117" )
 )
 game (
 	name "Dishonored (Europe)"
@@ -6039,11 +6039,10 @@ game (
 	rom ( name "Disney Pirates of the Caribbean - At World's End (USA) (En,Fr,De,Es,It,Nl).iso" size 7835492352 crc E6F5F54D md5 86223437A90EAE67250A9F23CD6ED1A2 sha1 9C02FF01B3B9EE6AAF5D16C107B0F155204C423C serial "BV-2001" )
 )
 game (
-	name "Disney Sing It (Europe)"
-	description "Disney Sing It (Europe)"
-	region "Europe"
+	name "Disney Sing It (USA, Europe)"
+	description "Disney Sing It (USA, Europe)"
 	serial "BV-2016"
-	rom ( name "Disney Sing It (Europe).iso" size 7835492352 crc 59EB0FA3 md5 41090051FB4EBA4C8CB794E2AC131026 sha1 29463785DC2B110D448310F5190FA9581C38EDCD serial "BV-2016" )
+	rom ( name "Disney Sing It (USA, Europe).iso" size 7835492352 crc 59EB0FA3 md5 41090051FB4EBA4C8CB794E2AC131026 sha1 29463785DC2B110D448310F5190FA9581C38EDCD serial "BV-2016" )
 )
 game (
 	name "Disney Sing It - High School Musical 3 - Senior Year (USA)"
@@ -7742,10 +7741,10 @@ game (
 	rom ( name "Evil Within, The (Europe) (Fr,De,Es,It).iso" size 8738846720 crc 1261B837 md5 40EF5784747F0251D995FE821C3757B5 sha1 439BE505E4C568A8D7522B8D8A8FEB4D46392DD2 serial "BS-2036" )
 )
 game (
-	name "Evil Within, The (UK)"
-	description "Evil Within, The (UK)"
+	name "Evil Within, The (UK) (En,Ru)"
+	description "Evil Within, The (UK) (En,Ru)"
 	serial "BS-2036"
-	rom ( name "Evil Within, The (UK).iso" size 8738846720 crc 075DE8C9 md5 21F6B0E03F128D26E872D389C17B4653 sha1 B5AF9743E9EB06A4B0AFECD46E552F6102397AAF serial "BS-2036" )
+	rom ( name "Evil Within, The (UK) (En,Ru).iso" size 8738846720 crc 075DE8C9 md5 21F6B0E03F128D26E872D389C17B4653 sha1 B5AF9743E9EB06A4B0AFECD46E552F6102397AAF serial "BS-2036" )
 )
 game (
 	name "Evil Within, The (USA)"
@@ -8654,11 +8653,10 @@ game (
 	rom ( name "FIFA Soccer 13 (USA).iso" size 8738846720 crc D4C250AB md5 C460324BAA7B1B3987CE5CB02EC50822 sha1 DF720F2C8EE95459BCD73F81B40339A1303A611E serial "EA-2456" )
 )
 game (
-	name "FIFA Street (Europe) (En,Fr,De,Es,It)"
-	description "FIFA Street (Europe) (En,Fr,De,Es,It)"
-	region "Europe"
+	name "FIFA Street (USA, Europe) (En,Fr,De,Es,It)"
+	description "FIFA Street (USA, Europe) (En,Fr,De,Es,It)"
 	serial "EA-2427"
-	rom ( name "FIFA Street (Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc B3E48E44 md5 4B16F57CAE8E3E6ECCC7148AB62982EE sha1 63896E123BD9F08EB7A84D2CE6FAB4137F9914FE serial "EA-2427" )
+	rom ( name "FIFA Street (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc B3E48E44 md5 4B16F57CAE8E3E6ECCC7148AB62982EE sha1 63896E123BD9F08EB7A84D2CE6FAB4137F9914FE serial "EA-2427" )
 )
 game (
 	name "FIFA Street 3 (Asia) (En,Fr,De,Es,It)"
@@ -11154,18 +11152,24 @@ game (
 	rom ( name "Halo 4 (Japan) (Disc 1).iso" size 8738846720 crc F7FECAFB md5 C3CDEFC7D3950F99DA5EF099461FD2BB sha1 FFEF1096CC2B18750F7D4F951D332307FC75511D serial "MS-2329-0" )
 )
 game (
-	name "Halo 4 (Russia) (Disc 1)"
-	description "Halo 4 (Russia) (Disc 1)"
-	region "Russia"
+	name "Halo 4 (Latin America) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disco 1)"
+	description "Halo 4 (Latin America) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disco 1)"
 	serial "MS-2329"
-	rom ( name "Halo 4 (Russia) (Disc 1).iso" size 8738846720 crc 9D58A86F md5 E45FC77017C87B06BC6E85086528D293 sha1 97035A091AAA8EAC3618137A92A048DBC9B7683D serial "MS-2329" )
+	rom ( name "Halo 4 (Latin America) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disco 1).iso" size 8738846720 crc 7098DC4E md5 A265B4310DF2D1BE7DAA19DB3F3C12C1 sha1 F933163AE41CDD709642DCD317F00C4B3F07844B serial "MS-2329" )
 )
 game (
-	name "Halo 4 (Russia) (Disc 1)"
-	description "Halo 4 (Russia) (Disc 1)"
+	name "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1)"
+	description "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1)"
+	region "Russia"
+	serial "MS-2329"
+	rom ( name "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1).iso" size 8738846720 crc 9D58A86F md5 E45FC77017C87B06BC6E85086528D293 sha1 97035A091AAA8EAC3618137A92A048DBC9B7683D serial "MS-2329" )
+)
+game (
+	name "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1)"
+	description "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1)"
 	region "Russia"
 	serial "MS-2329-0"
-	rom ( name "Halo 4 (Russia) (Disc 1).iso" size 8738846720 crc 9D58A86F md5 E45FC77017C87B06BC6E85086528D293 sha1 97035A091AAA8EAC3618137A92A048DBC9B7683D serial "MS-2329-0" )
+	rom ( name "Halo 4 (Russia) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1).iso" size 8738846720 crc 9D58A86F md5 E45FC77017C87B06BC6E85086528D293 sha1 97035A091AAA8EAC3618137A92A048DBC9B7683D serial "MS-2329-0" )
 )
 game (
 	name "Halo 4 (Spain) (En,Ja,Fr,De,Es,It,Nl,Pt,No,Da,Fi,Zh,Ko,Pl,Ru) (Disc 1)"
@@ -11482,11 +11486,11 @@ game (
 	rom ( name "History Legends of War - Patton (USA).iso" size 7838695424 crc 0DFE764C md5 8A2E991A71D8FCC84A2567B77B8F6576 sha1 96F5EF872D3F670EE0F829389694FC2ECEF308DF serial "VQ-2007" )
 )
 game (
-	name "Hitman - Absolution (France)"
-	description "Hitman - Absolution (France)"
+	name "Hitman - Absolution (France) (En,Fr)"
+	description "Hitman - Absolution (France) (En,Fr)"
 	region "France"
 	serial "SQ-2052"
-	rom ( name "Hitman - Absolution (France).iso" size 8738846720 crc F34E9BBF md5 C7786F2B87E88EF999BBABCA4437D43A sha1 AD15027AF206733117663B2E531E0F4AAFBC4C61 serial "SQ-2052" )
+	rom ( name "Hitman - Absolution (France) (En,Fr).iso" size 8738846720 crc F34E9BBF md5 C7786F2B87E88EF999BBABCA4437D43A sha1 AD15027AF206733117663B2E531E0F4AAFBC4C61 serial "SQ-2052" )
 )
 game (
 	name "Hitman - Absolution (Germany) (En,De)"
@@ -11510,18 +11514,18 @@ game (
 	rom ( name "Hitman - Absolution (Japan).iso" size 8738846720 crc F5CE1CD5 md5 3F1A0B877F8FDA676BB0B4D254385B86 sha1 1C36E9377164605B42FCF4B0725E35B919826F0D serial "SQ-2052" )
 )
 game (
-	name "Hitman - Absolution (Russia)"
-	description "Hitman - Absolution (Russia)"
+	name "Hitman - Absolution (Russia) (En,Ru)"
+	description "Hitman - Absolution (Russia) (En,Ru)"
 	region "Russia"
 	serial "SQ-2052"
-	rom ( name "Hitman - Absolution (Russia).iso" size 8738846720 crc 5556ADFF md5 93387776B90E6E3EE8F97FB36273D4F3 sha1 B6363F2BDD3B6A43C1EE96F5BB7B48B7CBB67D01 serial "SQ-2052" )
+	rom ( name "Hitman - Absolution (Russia) (En,Ru).iso" size 8738846720 crc 5556ADFF md5 93387776B90E6E3EE8F97FB36273D4F3 sha1 B6363F2BDD3B6A43C1EE96F5BB7B48B7CBB67D01 serial "SQ-2052" )
 )
 game (
-	name "Hitman - Absolution (Spain)"
-	description "Hitman - Absolution (Spain)"
+	name "Hitman - Absolution (Spain) (En,Es)"
+	description "Hitman - Absolution (Spain) (En,Es)"
 	region "Spain"
 	serial "SQ-2052"
-	rom ( name "Hitman - Absolution (Spain).iso" size 8738846720 crc 534FBF3A md5 4AA693F0E41A9513E9D3FD1B3C54FEFB sha1 5C6E92D91ED279BDBA3E5834D2F418FAB5F81F9C serial "SQ-2052" )
+	rom ( name "Hitman - Absolution (Spain) (En,Es).iso" size 8738846720 crc 534FBF3A md5 4AA693F0E41A9513E9D3FD1B3C54FEFB sha1 5C6E92D91ED279BDBA3E5834D2F418FAB5F81F9C serial "SQ-2052" )
 )
 game (
 	name "Hitman - Absolution (USA) (Rev 1)"
@@ -11751,6 +11755,13 @@ game (
 	region "USA"
 	serial "SE-2033"
 	rom ( name "Incredible Hulk, The (USA) (En,Fr).iso" size 7835492352 crc C7F02A2D md5 A29E46CC110BC7122DD538EFB627040E sha1 8BED63B106CFE9F7B1DCF8069110CBF57259BB93 serial "SE-2033" )
+)
+game (
+	name "Incredible Hulk, The (USA) (GameStop)"
+	description "Incredible Hulk, The (USA) (GameStop)"
+	region "USA"
+	serial "SE-2033"
+	rom ( name "Incredible Hulk, The (USA) (GameStop).iso" size 7835492352 crc 7B05A0F4 md5 843CCC60C2A3F914A8B9D20AD96274A8 sha1 D880B3C3642E82A429B3C716A227FE3EE96A57D5 serial "SE-2033" )
 )
 game (
 	name "Indianapolis 500 Evolution (USA)"
@@ -15860,6 +15871,13 @@ game (
 	rom ( name "NBA Live 10 (Japan).iso" size 7838695424 crc 03CDB557 md5 7B57E9BFB8C1586FAD6B76EB375C9154 sha1 2E81F88DCCEA2271C73E0D5BF2A37B012CA9DC90 serial "EA-2241" )
 )
 game (
+	name "NBA Live 10 (USA) (En,Fr)"
+	description "NBA Live 10 (USA) (En,Fr)"
+	region "USA"
+	serial "EA-2241"
+	rom ( name "NBA Live 10 (USA) (En,Fr).iso" size 7838695424 crc 56FD23BE md5 5CF44532E0E8FC7C9E0A15795CF49AD5 sha1 A136543E546FA2C667D2E91C1F218BE25BB6D3AF serial "EA-2241" )
+)
+game (
 	name "NBA Street Homecourt (Europe)"
 	description "NBA Street Homecourt (Europe)"
 	region "Europe"
@@ -16075,11 +16093,10 @@ game (
 	rom ( name "NHL 15 (USA).iso" size 8738846720 crc 6894412A md5 27065F60D3038B1029195E1DEFC06CA4 sha1 BA8275A771C77C0F25EEA8C0BEBB88CDFEBC7B16 serial "EA-2524" )
 )
 game (
-	name "NHL 2K10 (Europe)"
-	description "NHL 2K10 (Europe)"
-	region "Europe"
+	name "NHL 2K10 (USA, Europe)"
+	description "NHL 2K10 (USA, Europe)"
 	serial "TT-2131"
-	rom ( name "NHL 2K10 (Europe).iso" size 7838695424 crc 0CE0DE10 md5 CEDDABC22997325184D6438E9AD5109E sha1 8D7AA2C79DBA4D56639DE4FF5BE3D01ACB1AD92E serial "TT-2131" )
+	rom ( name "NHL 2K10 (USA, Europe).iso" size 7838695424 crc 0CE0DE10 md5 CEDDABC22997325184D6438E9AD5109E sha1 8D7AA2C79DBA4D56639DE4FF5BE3D01ACB1AD92E serial "TT-2131" )
 )
 game (
 	name "NHL 2K6 (Europe)"
@@ -17638,11 +17655,11 @@ game (
 	rom ( name "PES 2008 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It,Pt).iso" size 7835492352 crc C205ADA0 md5 8396324D50CD4F3A213B1214ED2AEC66 sha1 6E1847B99C2D1E41CE0A544CF8BBFDC25EBE27BC serial "KN-2022" )
 )
 game (
-	name "PES 2008 - Pro Evolution Soccer (USA)"
-	description "PES 2008 - Pro Evolution Soccer (USA)"
+	name "PES 2008 - Pro Evolution Soccer (USA) (En,Fr,Es)"
+	description "PES 2008 - Pro Evolution Soccer (USA) (En,Fr,Es)"
 	region "USA"
 	serial "KN-2025"
-	rom ( name "PES 2008 - Pro Evolution Soccer (USA).iso" size 7835492352 crc 286E4A0C md5 670D962F02637EE2B6D7FE1BD2A9C837 sha1 34E00E5A7C307F191A1FA70E86C5A07222AE72BE serial "KN-2025" )
+	rom ( name "PES 2008 - Pro Evolution Soccer (USA) (En,Fr,Es).iso" size 7835492352 crc 286E4A0C md5 670D962F02637EE2B6D7FE1BD2A9C837 sha1 34E00E5A7C307F191A1FA70E86C5A07222AE72BE serial "KN-2025" )
 )
 game (
 	name "PES 2009 - Pro Evolution Soccer (Europe) (En,Fr,De)"
@@ -17659,11 +17676,18 @@ game (
 	rom ( name "PES 2009 - Pro Evolution Soccer (Europe) (Es,It,Pt).iso" size 7835492352 crc C4B421B9 md5 AE99C954540D7FCF3DBF843BA1139F65 sha1 FC6AF06370558322E090D67511774F90AE08CB5E serial "KN-2032" )
 )
 game (
-	name "PES 2009 - Pro Evolution Soccer (USA)"
-	description "PES 2009 - Pro Evolution Soccer (USA)"
+	name "PES 2009 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt)"
+	description "PES 2009 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt)"
 	region "USA"
 	serial "KN-2042"
-	rom ( name "PES 2009 - Pro Evolution Soccer (USA).iso" size 7835492352 crc 8DA4B53E md5 37066D5E713B60F168F0E3D235E7C69B sha1 52E7D01804F83DB5815B7A6ECF6CDD6A6A61AD18 serial "KN-2042" )
+	rom ( name "PES 2009 - Pro Evolution Soccer (USA) (En,Fr,Es,Pt).iso" size 7835492352 crc 8DA4B53E md5 37066D5E713B60F168F0E3D235E7C69B sha1 52E7D01804F83DB5815B7A6ECF6CDD6A6A61AD18 serial "KN-2042" )
+)
+game (
+	name "PES 2010 - Pro Evolution Soccer (Canada) (En,Fr)"
+	description "PES 2010 - Pro Evolution Soccer (Canada) (En,Fr)"
+	region "Canada"
+	serial "KN-2053"
+	rom ( name "PES 2010 - Pro Evolution Soccer (Canada) (En,Fr).iso" size 7838695424 crc A93B12CA md5 BA48B029BDB6D5E037FAB3B5273E764A sha1 616ED037D65D50C59ABF7D4BBDBDDE91D898E6E6 serial "KN-2053" )
 )
 game (
 	name "PES 2010 - Pro Evolution Soccer (Europe) (En,Nl,Sv,Ru,El)"
@@ -17722,6 +17746,13 @@ game (
 	rom ( name "PES 2011 - Pro Evolution Soccer (Europe) (Es,Pt).iso" size 7838695424 crc D2DD969B md5 B8EEBCBE384FE7B2E2EC381C84C7833B sha1 72CFBBFEE4CB684E6020D46244DAABCA22716A34 serial "KN-2077" )
 )
 game (
+	name "PES 2011 - Pro Evolution Soccer (Europe) (Fr,De)"
+	description "PES 2011 - Pro Evolution Soccer (Europe) (Fr,De)"
+	region "Europe"
+	serial "KN-2077"
+	rom ( name "PES 2011 - Pro Evolution Soccer (Europe) (Fr,De).iso" size 7838695424 crc 2F692770 md5 417BCB84437729484E75062D444D401C sha1 CA0DD5C5EC7C48EECB2E97D7005436B8CBDB9828 serial "KN-2077" )
+)
+game (
 	name "PES 2011 - Pro Evolution Soccer (Europe) (It,El)"
 	description "PES 2011 - Pro Evolution Soccer (Europe) (It,El)"
 	region "Europe"
@@ -17729,18 +17760,11 @@ game (
 	rom ( name "PES 2011 - Pro Evolution Soccer (Europe) (It,El).iso" size 7838695424 crc A9EC1159 md5 2A6F3EA0BFF5C75CF6CD755F1E84E917 sha1 17D61B9E8D565348C1DCD69662617B6165674F14 serial "KN-2077" )
 )
 game (
-	name "PES 2011 - Pro Evolution Soccer (Germany)"
-	description "PES 2011 - Pro Evolution Soccer (Germany)"
-	region "Germany"
-	serial "KN-2077"
-	rom ( name "PES 2011 - Pro Evolution Soccer (Germany).iso" size 7838695424 crc 2F692770 md5 417BCB84437729484E75062D444D401C sha1 CA0DD5C5EC7C48EECB2E97D7005436B8CBDB9828 serial "KN-2077" )
-)
-game (
-	name "PES 2011 - Pro Evolution Soccer (USA)"
-	description "PES 2011 - Pro Evolution Soccer (USA)"
+	name "PES 2011 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2011 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2077"
-	rom ( name "PES 2011 - Pro Evolution Soccer (USA).iso" size 7838695424 crc FF85D43E md5 C5928CF2AFFDBB0A8AC64F3AFD210ADF sha1 A333EC8C085F3F1722EB77FC1BFA6026965DC895 serial "KN-2077" )
+	rom ( name "PES 2011 - Pro Evolution Soccer (USA) (En,Es).iso" size 7838695424 crc FF85D43E md5 C5928CF2AFFDBB0A8AC64F3AFD210ADF sha1 A333EC8C085F3F1722EB77FC1BFA6026965DC895 serial "KN-2077" )
 )
 game (
 	name "PES 2012 - Pro Evolution Soccer (Brazil) (Es,Pt)"
@@ -17764,6 +17788,13 @@ game (
 	rom ( name "PES 2012 - Pro Evolution Soccer (Europe) (Es,Pt).iso" size 7838695424 crc 50CBCE2A md5 C034D0AD65ED314F65CD273E3C22BCE2 sha1 3328D5A450363CA1D6BF08AC2A8D6113672BEF26 serial "KN-2103" )
 )
 game (
+	name "PES 2012 - Pro Evolution Soccer (Europe) (Fr,De)"
+	description "PES 2012 - Pro Evolution Soccer (Europe) (Fr,De)"
+	region "Europe"
+	serial "KN-2103"
+	rom ( name "PES 2012 - Pro Evolution Soccer (Europe) (Fr,De).iso" size 7838695424 crc 105F165A md5 EFD5CDA3340EEE20737ABE36155E60C8 sha1 0C6DCBFFAD3B03D4D2D3F1CCB2C804540E05671C serial "KN-2103" )
+)
+game (
 	name "PES 2012 - Pro Evolution Soccer (Europe) (It,El)"
 	description "PES 2012 - Pro Evolution Soccer (Europe) (It,El)"
 	region "Europe"
@@ -17771,18 +17802,11 @@ game (
 	rom ( name "PES 2012 - Pro Evolution Soccer (Europe) (It,El).iso" size 7838695424 crc 17482B71 md5 9E5187BC1454DE9CAAF28FEBED4753FC sha1 DC221DFFCFB0E5A020C2C906455EDDDDC4B83E7D serial "KN-2103" )
 )
 game (
-	name "PES 2012 - Pro Evolution Soccer (Germany)"
-	description "PES 2012 - Pro Evolution Soccer (Germany)"
-	region "Germany"
-	serial "KN-2103"
-	rom ( name "PES 2012 - Pro Evolution Soccer (Germany).iso" size 7838695424 crc 105F165A md5 EFD5CDA3340EEE20737ABE36155E60C8 sha1 0C6DCBFFAD3B03D4D2D3F1CCB2C804540E05671C serial "KN-2103" )
-)
-game (
-	name "PES 2012 - Pro Evolution Soccer (USA)"
-	description "PES 2012 - Pro Evolution Soccer (USA)"
+	name "PES 2012 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2012 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2103"
-	rom ( name "PES 2012 - Pro Evolution Soccer (USA).iso" size 7838695424 crc 00E80B48 md5 040449A8B77E4A637249FCF4C9EB32DB sha1 3631B843CE2AF3FAE7E8D457616EA7E1C28A543A serial "KN-2103" )
+	rom ( name "PES 2012 - Pro Evolution Soccer (USA) (En,Es).iso" size 7838695424 crc 00E80B48 md5 040449A8B77E4A637249FCF4C9EB32DB sha1 3631B843CE2AF3FAE7E8D457616EA7E1C28A543A serial "KN-2103" )
 )
 game (
 	name "PES 2013 - Pro Evolution Soccer (Brazil) (Es,Pt)"
@@ -17790,6 +17814,13 @@ game (
 	region "Brazil"
 	serial "KN-2124"
 	rom ( name "PES 2013 - Pro Evolution Soccer (Brazil) (Es,Pt).iso" size 8738846720 crc 9B1B8CA6 md5 7408C41B8A38E25827ED90B678257CCF sha1 E88726E7C8092481B76336B86D7265A5A5EBE7D3 serial "KN-2124" )
+)
+game (
+	name "PES 2013 - Pro Evolution Soccer (Canada) (En,Fr)"
+	description "PES 2013 - Pro Evolution Soccer (Canada) (En,Fr)"
+	region "Canada"
+	serial "KN-2124"
+	rom ( name "PES 2013 - Pro Evolution Soccer (Canada) (En,Fr).iso" size 8738846720 crc 8A33D242 md5 E40D41FEFE6767B1680E7D65A64E06F9 sha1 7FD10DE7F6A27DDAB59B3641A348B01ABAED4C6C serial "KN-2124" )
 )
 game (
 	name "PES 2013 - Pro Evolution Soccer (Europe) (En,Nl,Sv,Ru,Ar,Tr)"
@@ -17806,6 +17837,13 @@ game (
 	rom ( name "PES 2013 - Pro Evolution Soccer (Europe) (Es,Pt).iso" size 8738846720 crc 974E2014 md5 362078EB5600C744B65FB203FFDA8541 sha1 ED757E598E1B819C1696F29689EEE111D8D99A32 serial "KN-2124" )
 )
 game (
+	name "PES 2013 - Pro Evolution Soccer (Europe) (Fr,De)"
+	description "PES 2013 - Pro Evolution Soccer (Europe) (Fr,De)"
+	region "Europe"
+	serial "KN-2124"
+	rom ( name "PES 2013 - Pro Evolution Soccer (Europe) (Fr,De).iso" size 8738846720 crc 88F85982 md5 26735E18632D36938DEEE0DED81D4093 sha1 CF94DF6ED9771C4C5C6FB95DF87A3604B31EDC40 serial "KN-2124" )
+)
+game (
 	name "PES 2013 - Pro Evolution Soccer (Europe) (It,El)"
 	description "PES 2013 - Pro Evolution Soccer (Europe) (It,El)"
 	region "Europe"
@@ -17813,25 +17851,11 @@ game (
 	rom ( name "PES 2013 - Pro Evolution Soccer (Europe) (It,El).iso" size 8738846720 crc 772C18A3 md5 372C883855376C729E809B1308B1C24C sha1 85913254C5D5BD3758366A098B94E3F9AEBDD7A3 serial "KN-2124" )
 )
 game (
-	name "PES 2013 - Pro Evolution Soccer (Germany)"
-	description "PES 2013 - Pro Evolution Soccer (Germany)"
-	region "Germany"
-	serial "KN-2124"
-	rom ( name "PES 2013 - Pro Evolution Soccer (Germany).iso" size 8738846720 crc 88F85982 md5 26735E18632D36938DEEE0DED81D4093 sha1 CF94DF6ED9771C4C5C6FB95DF87A3604B31EDC40 serial "KN-2124" )
-)
-game (
-	name "PES 2013 - Pro Evolution Soccer (USA)"
-	description "PES 2013 - Pro Evolution Soccer (USA)"
+	name "PES 2013 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2013 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2124"
-	rom ( name "PES 2013 - Pro Evolution Soccer (USA).iso" size 8738846720 crc 8A33D242 md5 E40D41FEFE6767B1680E7D65A64E06F9 sha1 7FD10DE7F6A27DDAB59B3641A348B01ABAED4C6C serial "KN-2124" )
-)
-game (
-	name "PES 2013 - Pro Evolution Soccer (USA) (Rev 1)"
-	description "PES 2013 - Pro Evolution Soccer (USA) (Rev 1)"
-	region "USA"
-	serial "KN-2124"
-	rom ( name "PES 2013 - Pro Evolution Soccer (USA) (Rev 1).iso" size 8738846720 crc 3C6084FA md5 977EA723A418EA8806298DF22D79D015 sha1 7F325803AE5B062D9FA4634CBA3FDA387BE4B663 serial "KN-2124" )
+	rom ( name "PES 2013 - Pro Evolution Soccer (USA) (En,Es).iso" size 8738846720 crc 3C6084FA md5 977EA723A418EA8806298DF22D79D015 sha1 7F325803AE5B062D9FA4634CBA3FDA387BE4B663 serial "KN-2124" )
 )
 game (
 	name "PES 2014 - Pro Evolution Soccer (Brazil) (Es,Pt)"
@@ -17862,11 +17886,11 @@ game (
 	rom ( name "PES 2014 - Pro Evolution Soccer (Europe) (Es,Pt).iso" size 8738846720 crc ACE4EC7A md5 DC90EB2B6072C8343956BF99A959C919 sha1 641EE7884963BF2CD99D2DC80F5EF0E8E130F66D serial "KN-2134" )
 )
 game (
-	name "PES 2014 - Pro Evolution Soccer (USA)"
-	description "PES 2014 - Pro Evolution Soccer (USA)"
+	name "PES 2014 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2014 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2134"
-	rom ( name "PES 2014 - Pro Evolution Soccer (USA).iso" size 8738846720 crc AB752E96 md5 748F0175A177351C8E50FE2DE322449F sha1 E01B31CB3F2C1CD1AB267951A8AD3C70FECF0678 serial "KN-2134" )
+	rom ( name "PES 2014 - Pro Evolution Soccer (USA) (En,Es).iso" size 8738846720 crc AB752E96 md5 748F0175A177351C8E50FE2DE322449F sha1 E01B31CB3F2C1CD1AB267951A8AD3C70FECF0678 serial "KN-2134" )
 )
 game (
 	name "PES 2015 - Pro Evolution Soccer (Brazil) (Es,Pt)"
@@ -17897,11 +17921,11 @@ game (
 	rom ( name "PES 2015 - Pro Evolution Soccer (Europe) (Es,Pt,El).iso" size 8738846720 crc B0CA7E33 md5 118D00E9DF7A7DEF02C3FFF5DC844D2E sha1 0DFD95A5ABC547186ACBE3A5F56D02B16D6B19D1 serial "KN-2143" )
 )
 game (
-	name "PES 2015 - Pro Evolution Soccer (USA)"
-	description "PES 2015 - Pro Evolution Soccer (USA)"
+	name "PES 2015 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2015 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2143"
-	rom ( name "PES 2015 - Pro Evolution Soccer (USA).iso" size 8738846720 crc CF016E35 md5 35D894B9EB30ADF33875E64C5B623AAC sha1 BBE7F2FF20C70BDB1CA07781017F987F4E4C4787 serial "KN-2143" )
+	rom ( name "PES 2015 - Pro Evolution Soccer (USA) (En,Es).iso" size 8738846720 crc CF016E35 md5 35D894B9EB30ADF33875E64C5B623AAC sha1 BBE7F2FF20C70BDB1CA07781017F987F4E4C4787 serial "KN-2143" )
 )
 game (
 	name "PES 2016 - Pro Evolution Soccer (Brazil) (En,Pt)"
@@ -17925,11 +17949,11 @@ game (
 	rom ( name "PES 2016 - Pro Evolution Soccer (Europe) (Es,Pt,El).iso" size 8738846720 crc 9B5CD76D md5 F985505C254BA4140D128F9885872701 sha1 2B0F9D9BD72B3B55F3001964432566D70EC34CD1 serial "KN-2145" )
 )
 game (
-	name "PES 2016 - Pro Evolution Soccer (USA)"
-	description "PES 2016 - Pro Evolution Soccer (USA)"
+	name "PES 2016 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2016 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "KN-2145"
-	rom ( name "PES 2016 - Pro Evolution Soccer (USA).iso" size 8738846720 crc E987E793 md5 86B00640AF968C6A2BC3A6806184E43B sha1 79F9C588D0C41924757448AA3F2DBDF626486EFD serial "KN-2145" )
+	rom ( name "PES 2016 - Pro Evolution Soccer (USA) (En,Es).iso" size 8738846720 crc E987E793 md5 86B00640AF968C6A2BC3A6806184E43B sha1 79F9C588D0C41924757448AA3F2DBDF626486EFD serial "KN-2145" )
 )
 game (
 	name "PES 2017 - Pro Evolution Soccer (Brazil) (En,Pt)"
@@ -17974,11 +17998,11 @@ game (
 	rom ( name "PES 2018 - Pro Evolution Soccer (Europe) (Es,Pt,El).iso" size 8738846720 crc 2EF8177C md5 8B5ED8E0382673D284003E11AE96178A sha1 52C168D95204FDD723E81DCC7D9ED0CE45C1C290 serial "J0-2003" )
 )
 game (
-	name "PES 2018 - Pro Evolution Soccer (USA)"
-	description "PES 2018 - Pro Evolution Soccer (USA)"
+	name "PES 2018 - Pro Evolution Soccer (USA) (En,Es)"
+	description "PES 2018 - Pro Evolution Soccer (USA) (En,Es)"
 	region "USA"
 	serial "J0-2003"
-	rom ( name "PES 2018 - Pro Evolution Soccer (USA).iso" size 8738846720 crc 320D6963 md5 7098BFBA858EC43D665BDA0029EB51EF sha1 416F5A218A5D51EC1DF002DC5D00B3104FF6BA38 serial "J0-2003" )
+	rom ( name "PES 2018 - Pro Evolution Soccer (USA) (En,Es).iso" size 8738846720 crc 320D6963 md5 7098BFBA858EC43D665BDA0029EB51EF sha1 416F5A218A5D51EC1DF002DC5D00B3104FF6BA38 serial "J0-2003" )
 )
 game (
 	name "PES 6 - Pro Evolution Soccer (Europe) (En,Fr,De,Es,It)"
@@ -19441,11 +19465,11 @@ game (
 	rom ( name "Rocksmith (USA).iso" size 8738846720 crc 82F28BA6 md5 0179457D48442AE897E38E4DA0AC4B9F sha1 8DD92711CA416ED95A9DCA5B22FCD9ACFFE0C350 serial "US-2163" )
 )
 game (
-	name "Rocksmith (USA) (En,Fr,Es) (Best Buy)"
-	description "Rocksmith (USA) (En,Fr,Es) (Best Buy)"
+	name "Rocksmith (USA) (En,Fr,Es) (Best Buy Edition)"
+	description "Rocksmith (USA) (En,Fr,Es) (Best Buy Edition)"
 	region "USA"
 	serial "US-2163"
-	rom ( name "Rocksmith (USA) (En,Fr,Es) (Best Buy).iso" size 8738846720 crc 69AC3D4A md5 F7C7F004CDBB46B6FC81D111918DA7E7 sha1 1D1E062CAAB3438FE94C419656365268087A7D05 serial "US-2163" )
+	rom ( name "Rocksmith (USA) (En,Fr,Es) (Best Buy Edition).iso" size 8738846720 crc 69AC3D4A md5 F7C7F004CDBB46B6FC81D111918DA7E7 sha1 1D1E062CAAB3438FE94C419656365268087A7D05 serial "US-2163" )
 )
 game (
 	name "Rocksmith (World) (En,Ja,Fr,De,Es,It,Nl)"
@@ -19923,6 +19947,13 @@ game (
 	region "USA"
 	serial "KN-2050"
 	rom ( name "Saw (USA).iso" size 7838695424 crc E9241E8E md5 50883F866A128E6D145BF11AB5541050 sha1 69AB17D6CDF150F977D98744C1A493E05A7A591A serial "KN-2050" )
+)
+game (
+	name "Saw II - Flesh & Blood (USA) (En,Fr,De,Es,It)"
+	description "Saw II - Flesh & Blood (USA) (En,Fr,De,Es,It)"
+	region "USA"
+	serial "KN-2082"
+	rom ( name "Saw II - Flesh & Blood (USA) (En,Fr,De,Es,It).iso" size 7838695424 crc 20C62F8E md5 4C41767785DA54A854EEA18CFAE04484 sha1 1A15DCC5418B750BFBF93BC3E39C0EA9654CFDF5 serial "KN-2082" )
 )
 game (
 	name "Saw II - Flesh & Blood (World) (En,Fr,De,Es,It)"
@@ -23025,6 +23056,13 @@ game (
 	rom ( name "Venetica (USA).iso" size 7838695424 crc CCDE8FCC md5 C4B1601BAD0985FB50D5FBB02336758F sha1 57DF12FFBE9881886EEAAD8A16D8686922B28705 serial "EV-2007" )
 )
 game (
+	name "Viking - Battle for Asgard (Australia) (En,Fr,De,Es,It)"
+	description "Viking - Battle for Asgard (Australia) (En,Fr,De,Es,It)"
+	region "Australia"
+	serial "SE-2016"
+	rom ( name "Viking - Battle for Asgard (Australia) (En,Fr,De,Es,It).iso" size 7835492352 crc EC20805A md5 8FD0D3E26A27BD026CB5591A0CDFC7A6 sha1 9445FF05FB215B1EDE3C5240D909D599B4C609F7 serial "SE-2016" )
+)
+game (
 	name "Viking - Battle for Asgard (USA, Europe) (En,Fr,De,Es,It)"
 	description "Viking - Battle for Asgard (USA, Europe) (En,Fr,De,Es,It)"
 	serial "SE-2016"
@@ -23128,26 +23166,6 @@ game (
 	region "Japan"
 	serial "FV-2011"
 	rom ( name "W.L.O. Sekai Ren'ai Kikou (Japan).iso" size 7838695424 crc A3849E67 md5 E25455AC9EB2BDA4224DE4E24A0E293D sha1 E6C75108F63E7B276581F9E8F850D5F0FD8D49FD serial "FV-2011" )
-)
-game (
-	name "WET (Germany)"
-	description "WET (Germany)"
-	region "Germany"
-	serial "BS-2011"
-	rom ( name "WET (Germany).iso" size 7838695424 crc 6B665072 md5 809CE68E632F70B81AF19FF15472C3B2 sha1 9FF01AD566AF9E2E9EED35344F5A00F6272F5859 serial "BS-2011" )
-)
-game (
-	name "WET (Taiwan)"
-	description "WET (Taiwan)"
-	region "Taiwan"
-	serial "BS-2011"
-	rom ( name "WET (Taiwan).iso" size 7838695424 crc B2DDDA22 md5 C98FA24D1A88AE9AC70A22783F4A68EA sha1 092A0E7455AEDDCAC23AD49B1E9F8359E39705D9 serial "BS-2011" )
-)
-game (
-	name "WET (USA, Europe) (En,Fr,De,Es,It)"
-	description "WET (USA, Europe) (En,Fr,De,Es,It)"
-	serial "BS-2011"
-	rom ( name "WET (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 821080CF md5 76F5C38AF89A264BE69EB61493D8A436 sha1 56F459E11EE9A7B3B7CE786D0D36CC1C331B5749 serial "BS-2011" )
 )
 game (
 	name "WRC - FIA World Rally Championship (Europe)"
@@ -23556,6 +23574,26 @@ game (
 	rom ( name "Way of the Samurai 3 (USA).iso" size 7838695424 crc 2D27EEF2 md5 64576EA485305127FB8D92C0F9441E05 sha1 57B2FCFA19196BFA15B822313617A97C93C58A8D serial "UO-2003" )
 )
 game (
+	name "Wet (Germany)"
+	description "Wet (Germany)"
+	region "Germany"
+	serial "BS-2011"
+	rom ( name "Wet (Germany).iso" size 7838695424 crc 6B665072 md5 809CE68E632F70B81AF19FF15472C3B2 sha1 9FF01AD566AF9E2E9EED35344F5A00F6272F5859 serial "BS-2011" )
+)
+game (
+	name "Wet (Taiwan)"
+	description "Wet (Taiwan)"
+	region "Taiwan"
+	serial "BS-2011"
+	rom ( name "Wet (Taiwan).iso" size 7838695424 crc B2DDDA22 md5 C98FA24D1A88AE9AC70A22783F4A68EA sha1 092A0E7455AEDDCAC23AD49B1E9F8359E39705D9 serial "BS-2011" )
+)
+game (
+	name "Wet (USA, Europe) (En,Fr,De,Es,It)"
+	description "Wet (USA, Europe) (En,Fr,De,Es,It)"
+	serial "BS-2011"
+	rom ( name "Wet (USA, Europe) (En,Fr,De,Es,It).iso" size 7838695424 crc 821080CF md5 76F5C38AF89A264BE69EB61493D8A436 sha1 56F459E11EE9A7B3B7CE786D0D36CC1C331B5749 serial "BS-2011" )
+)
+game (
 	name "Wheel of Fortune (USA)"
 	description "Wheel of Fortune (USA)"
 	region "USA"
@@ -23589,11 +23627,11 @@ game (
 	rom ( name "Williams Pinball Classics (Europe).iso" size 7838695424 crc AF2A8AF3 md5 5705125CE060285F92471D65E73868D1 sha1 A5DA8320610BCDE55BA9D44453CF36E8717C271D serial "SJ-2001" )
 )
 game (
-	name "Winning Eleven - Pro Evolution Soccer 2007 (USA)"
-	description "Winning Eleven - Pro Evolution Soccer 2007 (USA)"
+	name "Winning Eleven - Pro Evolution Soccer 2007 (USA) (En,Es)"
+	description "Winning Eleven - Pro Evolution Soccer 2007 (USA) (En,Es)"
 	region "USA"
 	serial "KN-2015"
-	rom ( name "Winning Eleven - Pro Evolution Soccer 2007 (USA).iso" size 7834892288 crc 4C27A148 md5 C17762098294E2DB75183562BB8345FA sha1 011AEF0C7B3CE3A84042FA50D7A242C483A0A8F6 serial "KN-2015" )
+	rom ( name "Winning Eleven - Pro Evolution Soccer 2007 (USA) (En,Es).iso" size 7834892288 crc 4C27A148 md5 C17762098294E2DB75183562BB8345FA sha1 011AEF0C7B3CE3A84042FA50D7A242C483A0A8F6 serial "KN-2015" )
 )
 game (
 	name "Winning Post World 2010 (Japan)"
@@ -25201,18 +25239,18 @@ game (
 	rom ( name "Zumba Kids (USA).iso" size 8738846720 crc A5C9654F md5 3607E5E655D3B7329F8149856216332F sha1 3E8E8349BA370342F4FB49D2DC94409287B197B4 serial "MJ-2038" )
 )
 game (
-	name "[eM] - eNCHANT arM (Asia)"
-	description "[eM] - eNCHANT arM (Asia)"
+	name "[eM] - Enchant Arm (Asia)"
+	description "[eM] - Enchant Arm (Asia)"
 	region "Asia"
 	serial "FS-2003"
-	rom ( name "[eM] - eNCHANT arM (Asia).iso" size 7834892288 crc D38E6EEF md5 9AC578A8EAEC181F9A140EA03B52E258 sha1 9692F39287792EA935931DBEB854976F8CB74EEB serial "FS-2003" )
+	rom ( name "[eM] - Enchant Arm (Asia).iso" size 7834892288 crc D38E6EEF md5 9AC578A8EAEC181F9A140EA03B52E258 sha1 9692F39287792EA935931DBEB854976F8CB74EEB serial "FS-2003" )
 )
 game (
-	name "[eM] - eNCHANT arM (Japan)"
-	description "[eM] - eNCHANT arM (Japan)"
+	name "[eM] - Enchant Arm (Japan)"
+	description "[eM] - Enchant Arm (Japan)"
 	region "Japan"
 	serial "FS-2002"
-	rom ( name "[eM] - eNCHANT arM (Japan).iso" size 7834892288 crc B1E2EFF9 md5 DABE5B84A6ED03ABEAD3B9AC0DE350B9 sha1 19FEB442BFBE9AE3C96825AC76088A93E948A547 serial "FS-2002" )
+	rom ( name "[eM] - Enchant Arm (Japan).iso" size 7834892288 crc B1E2EFF9 md5 DABE5B84A6ED03ABEAD3B9AC0DE350B9 sha1 19FEB442BFBE9AE3C96825AC76088A93E948A547 serial "FS-2002" )
 )
 game (
 	name "de Blob 2 (USA, Europe) (En,Fr,De,Es,It)"
