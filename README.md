@@ -1,15 +1,33 @@
 # RetroArch Database
 
-RetroArch incoporates a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies.
+RetroArch incoporates a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies. The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion)
+
+Database entries at minimum contain fields for 1) a game's name and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
+
+The automatic catalogging functions that depend on the database include:
+
+- Assign a definitive display name for each game file _regardless of filename_
+- Download thumbnail images for each game based on the uniform name assigned by the database, regardless of filename
+- A reference search (named "Explore") so that the user can search for games by category, e.g. by Developer, Release Year, Genre, etc.
+- Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
+
 
 ## Contents
 
 - [`cht`](cht) Cheats to various games
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files, maintained by the libretro team
-- [`metadat`](metadat) Different metadata and third-party DATs available to the systems
+- [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
+- [`metadat`](metadat) Various metadata and third-party DATs. Examples:
+  - [`no-intro`](metadat/no-intro) Bulk carry-over data from No-Intro databases. [NOTE EDIT: THIS IS FALSE, research and revise]
+  - [`redump`](metadat/redump) Bulk carry-over data from Redump databases
+  - [`hacks`](metadat/hacks) Data for modified versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
+  - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent programmers
+  - [`libretro-dats`](metadat/libretro-dats) E.g. Fan translations of SNES games, and [NOTE] FDS? Why FDS, check if covered elsewhere
+  - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
+
+Component databases earlier in the list have precedence over items later in the list.  For example, definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
 
 ## Sources
 
