@@ -50,6 +50,8 @@ game (
 	rom ( name ATARIOSA.ROM size 10240 crc 72B3FED4 md5 eb1f32f5d9f382db1bbfb8d7f9cb343a sha1 6dd53356159a129ed12367beb3b24a771d41adb0 )
 	rom ( name ATARIOSB.ROM size 10240 crc 3E28A1FE md5 a3e8d617c95d08031fe1b20d541434b2 sha1 f1f0741b1d34fb4350cf7cb8ab3b6ea11cdd8174 )
 	rom ( name ATARIXL.ROM size 16384 crc 1F9CD270 md5 06daac977823773a3eea3422fd26a703 sha1 ae4f523ba08b6fd59f3cae515a2b2410bbd98f55 )
+	rom ( name BB01R4_OS.ROM md5 b7a2a04677d34f069eeb643d5238bf86 )
+	rom ( name XEGAME.ROM md5 d7eb37aec6960cba36bc500e0e5d00bc )
 
 	comment "Atari - 5200"
 	rom ( name 5200.rom size 2048 crc 4248D3E3 md5 281f20ea4320404ec820fb7ec0693b38 sha1 6ad7a1e8c9fad486fbec9498cb48bf5bc3adc530 )
@@ -68,9 +70,44 @@ game (
 	rom ( name colecovision.rom size 8192 crc 3AA93EF3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
 
 	comment "Commodore - Amiga"
+	rom ( name kick33180.A500 md5 85ad74194e87c08904327de1a9443b7a )
+	rom ( name kick34005.CDTV md5 89da1838a24460e4b93f4f0c5d92d48d )
+	rom ( name kick40060.CD32 md5 5f8924d013dd57a89cf349f4cdedc6b1 )
 	rom ( name kick34005.A500 size 262144 crc C4F0F55F md5 82a21c1890cae844b3df741f2762d48d sha1 891e9a547772fe0c6c19b610baf8bc4ea7fcb785 )
 	rom ( name kick40063.A600 size 524288 crc FC24AE0D md5 e40a5dfb3d017ba8779faba30cbd1c8e sha1 3b7f1493b27e212830f989f26ca76c02049f09ca )
 	rom ( name kick40068.A1200 size 524288 crc 1483A091 md5 646773759326fbac3b2311fd8c8793ee sha1 e21545723fe8374e91342617604f1b3d703094f1 )
+	rom ( name kick37175.A500 md5 dc10d7bdd1b6f450773dfb558477c230 )
+	rom ( name kick37350.A600 md5 465646c9b6729f77eea5314d1f057951 )
+	rom ( name kick39106.A1200 md5 b7cc148386aa631136f510cd29e42fc3 )
+	rom ( name kick39106.A4000 md5 9b8bdd5a3fd32c2a5a6f5b1aefc799a5 )
+	rom ( name kick40068.A4000 md5 9bdedde6a4f33555b4a270c8ca53297d )
+	rom ( name kick40060.CD32.ext md5 bb72565701b1b6faece07d68ea5da639 )
+
+	comment "Commodore - C128"
+	rom ( name JiffyDOS_C128.bin md5 cbbd1bbcb5e4fd8046b6030ab71fc021 )
+	rom ( name JiffyDOS_C64.bin md5 be09394f0576cf81fa8bacf634daf9a2 )
+	rom ( name JiffyDOS_1541-II.bin md5 1b1e985ea5325a1f46eb7fd9681707bf )
+	rom ( name JiffyDOS_1571_repl310654.bin md5 41c6cc528e9515ffd0ed9b180f8467c0 )
+	rom ( name JiffyDOS_1581.bin md5 20b6885c6dc2d42c38754a365b043d71 )
+
+	comment "Dinothawr"
+	rom ( name Dinothawr.zip size 5763199 crc fa7c2f65 md5 308eaf202d4c8105c6bfd99412e3ac8c sha1 6796b8f0c8a41be28d3ef27cba808c29e1a7aadb )
+
+	comment "DOS"
+	rom ( name MT32_CONTROL.ROM md5 5626206284b22c2734f3e9efefcd2675 )
+	rom ( name MT32_PCM.ROM md5 89e42e386e82e0cacb4a2704a03706ca )
+	rom ( name CM32L_CONTROL.ROM md5 bfff32b6144c1d706109accb6e6b1113 )
+	rom ( name CM32L_PCM.ROM md5 08cdcfa0ed93e9cb16afa76e6ac5f0a4 )
+
+	comment "Elektronika - BK-0010/BK-0011(M)"
+	rom ( name bk/B11M_BOS.ROM md5 fe4627d1e3a1535874085050733263e7 )
+	rom ( name bk/B11M_EXT.ROM md5 dc52f365d56fa1951f5d35b1101b9e3f )
+	rom ( name bk/BAS11M_0.ROM md5 946f6f23ded03c0e26187f0b3ca75993 )
+	rom ( name bk/BAS11M_1.ROM md5 1e6637f32aa7d1de03510030cac40bcf )
+	rom ( name bk/DISK_327.ROM md5 5015228eeeb238e65da8edcd1b6dfac7 )
+	rom ( name bk/BASIC10.ROM md5 3fa774326d75410a065659aea80252f0 )
+	rom ( name bk/FOCAL10.ROM md5 5737f972e8638831ab71e9139abae052 )
+	rom ( name bk/MONIT10.ROM md5 95f8c41c6abf7640e35a6a03cecebd01 )
 
 	comment "Enterprise - 64/128"
 	rom ( name hun.rom size 16384 crc 596AB6D6 md5 22167938f142c222f40992839aa21a06 sha1 325a5e28c2a0d896711f8829e7ff14fed5dd4103 )
@@ -85,6 +122,9 @@ game (
 	rom ( name zt18hfnt.rom size 32768 crc 76C9DBF6 md5 3082dc488d32f30a612761b99074199b sha1 283be1ce417a759a3368bb4bbe72f692fd43ca6d )
 	rom ( name epfileio.rom size 16384 crc 60C79925 md5 a68ebcbc73a4d2178d755b7755bf18fe sha1 2f9077bcd89b1ec42dbdcd55d335bdbaf361eff3 )
 	rom ( name exos24uk.rom size 65536 crc C099A5E3 md5 55af78f877a21ca45eb2df68a74fcc60 sha1 cf12e971623a54bf8c4f891ca3a36d969f205c49 )
+
+	comment "EPOCH/YENO Super Cassette Vision"
+	rom ( name upd7801g.s01 md5 635a978fd40db9a18ee44eff449fc126 )
 
 	comment "Fairchild Channel F"
 	rom ( name sl31253.bin size 1024 crc 04694ED9 md5 ac9804d4c0e9d07e33472e3726ed15c3 sha1 81193965a374d77b99b4743d317824b53c3e3c78 )
@@ -104,6 +144,9 @@ game (
 
 	comment "Magnavox - Odyssey2"
 	rom ( name o2rom.bin size 1024 crc 8016A315 md5 562d5ebf9e030a40d6fabfc2f33139fd sha1 b2e1955d957a475de2411770452eff4ea19f4cee )
+	rom ( name c52.bin md5 f1071cdb0b6b10dde94d3bc8a6146387 )
+	rom ( name g7400.bin md5 c500ff71236068e0dc0d0603d265ae76 )
+	rom ( name jopac.bin md5 279008e4a0db2dc5f1c048853b033828 )
 
 	comment "Mattel - Intellivision"
 	rom ( name exec.bin size 8192 crc CBCE86F7 md5 62e761035cb657903761800f4437b8af sha1 5a65b922b562cb1f57dab51b73151283f0e20c7a )
@@ -157,6 +200,7 @@ game (
 
 	comment "Nintendo - Famicom Disk System"
 	rom ( name disksys.rom size 8192 crc 5E607DCF md5 ca30b50f880eb660a320674ed365ef7a sha1 57fe1bdee955bb48d357e463ccbf129496930b62 )
+	rom ( name gamegenie.nes md5 7f98d77d7a094ad7d069b74bd553ec98 )
 
 	comment "Nintendo - Gameboy"
 	rom ( name dmg_boot.bin size 256 crc 59C8598E md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
@@ -238,18 +282,19 @@ game (
 	rom ( name jopac.bin size 1024 crc 11647CA5 md5 279008e4a0db2dc5f1c048853b033828 sha1 54b8d2c1317628de51a85fc1c424423a986775e4 )
 
 	comment "Sega - Dreamcast"
-	rom ( name dc/dc_boot.bin size 2097152 crc 89F2B1A1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
-	rom ( name dc/boot.bin size 2097152 crc 89F2B1A1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
-	rom ( name dc/flash.bin size 131072 crc C611B498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
+	rom ( name "dc/dc_boot.bin" size 2097152 crc 89F2B1A1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
+	rom ( name "dc/boot.bin" size 2097152 crc 89F2B1A1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
+	rom ( name "dc/flash.bin" size 131072 crc C611B498 md5 0a93f7940c455905bea6e392dfde92a4 sha1 94d44d7f9529ec1642ba3771ed3c5f756d5bc872 )
+
 	comment "Sega - Dreamcast-based Arcade"
-	rom ( name dc/airlbios.zip size 715730 crc F83EC60F md5 7a11bfe0cc72886d032e386db68f890c sha1 f2a730530f4989ca0e8860aa4e455b6a5fe69e1d )
-	rom ( name dc/awbios.zip size 42296 crc 67A14AD5 md5 85254fbe320ca82a768ec2c26bb08def sha1 7940c7bf29eee85a5b2fdec78750b19aa22895dc )
-	rom ( name dc/f355bios.zip size 1394278 crc 17516536 md5 547f3d12aed389058ca06148f1cca0ed sha1 b6ff66dcb5547bd91760d239ddf428a655631c53 )
-	rom ( name dc/f355dlx.zip size 2328436 crc 23AC17BE md5 1028615bcac4c31634a3364ce5c04044 sha1 48d1712d1b1cdfeeeb43c6287c17b0b6309cfaab )
-	rom ( name dc/hod2bios.zip size 1479106 crc 0DDC6DAF md5 f4011d3116500354edf7302a90402711 sha1 782c303cbdfab1027b04db74a63e27bdad5e0c53 )
-	rom ( name dc/naomi.zip size 9321533 crc 6EE50181 md5 526eda1e2a7920c92c88178789d71d84 sha1 c96711c01c0158f161791d6fbe75d88329e8ac0a )
-	rom ( name dc/naomi2.zip size 7022501 crc 2143196C md5 c50072cbab75673e1b1a6b94355e6fa8 sha1 2962e338ccc9f66f29b409f73ca27aeee79633ac )
-	
+	rom ( name "dc/airlbios.zip" size 715730 crc F83EC60F md5 7a11bfe0cc72886d032e386db68f890c sha1 f2a730530f4989ca0e8860aa4e455b6a5fe69e1d )
+	rom ( name "dc/awbios.zip" size 42296 crc 67A14AD5 md5 85254fbe320ca82a768ec2c26bb08def sha1 7940c7bf29eee85a5b2fdec78750b19aa22895dc )
+	rom ( name "dc/f355bios.zip" size 1394278 crc 17516536 md5 547f3d12aed389058ca06148f1cca0ed sha1 b6ff66dcb5547bd91760d239ddf428a655631c53 )
+	rom ( name "dc/f355dlx.zip" size 2328436 crc 23AC17BE md5 1028615bcac4c31634a3364ce5c04044 sha1 48d1712d1b1cdfeeeb43c6287c17b0b6309cfaab )
+	rom ( name "dc/hod2bios.zip" size 1479106 crc 0DDC6DAF md5 f4011d3116500354edf7302a90402711 sha1 782c303cbdfab1027b04db74a63e27bdad5e0c53 )
+	rom ( name "dc/naomi.zip" size 9321533 crc 6EE50181 md5 526eda1e2a7920c92c88178789d71d84 sha1 c96711c01c0158f161791d6fbe75d88329e8ac0a )
+	rom ( name "dc/naomi2.zip" size 7022501 crc 2143196C md5 c50072cbab75673e1b1a6b94355e6fa8 sha1 2962e338ccc9f66f29b409f73ca27aeee79633ac )
+
 	comment "Sega - Game Gear"
 	rom ( name bios.gg size 1024 crc 0EBEA9D4 md5 672e104c3be3a238301aceffc3b23fd6 sha1 914aa165e3d879f060be77870d345b60cfeb4ede )
 
@@ -381,6 +426,8 @@ game (
 	rom ( name scph7003.bin size 524288 crc 8D8CB7E4 md5 490f666e1afb15b7362b406ed1cea246 sha1 0555c6fae8906f3f09baf5988f00e55f88e9f30b )
 	rom ( name scph7502.bin size 524288 crc 318178BF md5 b9d9a0286c33dc6b7237bb13cd46fdee sha1 8d5de56a79954f29e9006929ba3fed9b6a418c1d )
 	rom ( name "scph9002(7502).bin" size 524288 crc 318178BF md5 b9d9a0286c33dc6b7237bb13cd46fdee sha1 8d5de56a79954f29e9006929ba3fed9b6a418c1d )
+	rom ( name psxonpsp660.bin md5 c53ca5908936d412331790f4426c6c33 )
+	rom ( name ps1_rom.bin md5 81bbe60ba7a3d1cea1d48c14cbcc647b )
 
 	comment "Sony - PlayStation 2"
 	rom ( name "pcsx2/bios/ps2-0100jd-20000117.bin" size 4194304 crc 5A04500C md5 32f2e4d5ff5ee11072a6bc45530f5765 sha1 5b33170323ed6344e2363fed8115dc3918bb96a4 )
@@ -459,6 +506,11 @@ game (
 
 	comment "Sony - PlayStation Portable"
 	rom ( name ppge_atlas.zim size 666530 crc 7B57FA78 md5 866855cc330b9b95cc69135fb7b41d38 sha1 30a33f3651f8e1b0967a5dfe6ff714baebcce41a )
+
+	comment "Texas Instruments TI-83"
+	rom ( name ti83se.rom md5 c6ff8204c5c81b7be34614dbbd690c8b )
+	rom ( name ti83plus.rom md5 8011181f810b5ec4e9d6a03f0e14257a )
+	rom ( name ti83.rom md5 d4448d09bbfde687c04f9e3310e023ab )
 
 	comment "Videoton - TV Computer"
 	rom ( name tvcfileio.rom size 8192 crc 950E32FD md5 a2cf86ba8e7fc58b242137fe59036832 sha1 98889c3a56b11dedf077f866ed2e12d51b604113 )
