@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Game Gear"
 	description "Sega - Game Gear"
-	version "2024.09.27"
+	version "2024.12.21"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -102,10 +102,10 @@ game (
 	rom ( name "Aerial Assault (World) (Rev 1).gg" size 131072 crc 04FE6DDE md5 F1DEE7875668C536F0434217A67BA2F4 sha1 2A91AB5817938DDDF2724DF2DFD95A3BC6F5156D )
 )
 game (
-	name "Aladdin (Japan)"
-	description "Aladdin (Japan)"
+	name "Aladdin (Japan) (En)"
+	description "Aladdin (Japan) (En)"
 	region "Japan"
-	rom ( name "Aladdin (Japan).gg" size 524288 crc 770E95E1 md5 258ABBCD90FE78E19C53C39CE9150106 sha1 7DDFD53E91D8220E4238D3994921BF18FE383717 )
+	rom ( name "Aladdin (Japan) (En).gg" size 524288 crc 770E95E1 md5 258ABBCD90FE78E19C53C39CE9150106 sha1 7DDFD53E91D8220E4238D3994921BF18FE383717 )
 )
 game (
 	name "Aladdin (USA, Europe, Brazil) (En)"
@@ -137,10 +137,10 @@ game (
 	rom ( name "Aladdin (USA, Europe, Brazil) (En) (Beta) (1994-01-13).gg" size 524288 crc 75A7F142 md5 7201FE4AFFE0924C6A3FA6967DF67860 sha1 A968EE77938233A4FF94C73266C7FB36FA25657D )
 )
 game (
-	name "Alien 3 (Japan)"
-	description "Alien 3 (Japan)"
+	name "Alien 3 (Japan) (En)"
+	description "Alien 3 (Japan) (En)"
 	region "Japan"
-	rom ( name "Alien 3 (Japan).gg" size 262144 crc 06F6EEBB md5 25DECD5633847246B38FB9188496D2C8 sha1 F09885D76EA7AF75FB605261A08143D3CCDC4CA8 )
+	rom ( name "Alien 3 (Japan) (En).gg" size 262144 crc 06F6EEBB md5 25DECD5633847246B38FB9188496D2C8 sha1 F09885D76EA7AF75FB605261A08143D3CCDC4CA8 )
 )
 game (
 	name "Alien 3 (USA, Europe)"
@@ -154,10 +154,10 @@ game (
 	rom ( name "Alien Syndrome (Europe).gg" size 131072 crc BB5E10E0 md5 6C29FC1BAE1051774E9A83098F55BD4E sha1 112C7FBA070EB7B6BDD41675D49CAF934C17DC17 )
 )
 game (
-	name "Alien Syndrome (Japan)"
-	description "Alien Syndrome (Japan)"
+	name "Alien Syndrome (Japan) (En)"
+	description "Alien Syndrome (Japan) (En)"
 	region "Japan"
-	rom ( name "Alien Syndrome (Japan).gg" size 131072 crc FFE4ED47 md5 DF495096E2D7FF9E2C13945E2A2BACBA sha1 B72E54493BFA7F13883A608BCF8C9F315DD490CA )
+	rom ( name "Alien Syndrome (Japan) (En).gg" size 131072 crc FFE4ED47 md5 DF495096E2D7FF9E2C13945E2A2BACBA sha1 B72E54493BFA7F13883A608BCF8C9F315DD490CA )
 )
 game (
 	name "Andre Agassi Tennis (USA)"
@@ -717,10 +717,10 @@ game (
 	rom ( name "Buster Ball (Japan).gg" size 131072 crc 7CB079D0 md5 F7A8E4770C519175794522F66D42B27D sha1 5D67F38EC0C2E577A7AD88915849DA696AD162AA )
 )
 game (
-	name "Buster Fight (Japan) (En,Ja)"
-	description "Buster Fight (Japan) (En,Ja)"
+	name "Buster Fight (Japan)"
+	description "Buster Fight (Japan)"
 	region "Japan"
-	rom ( name "Buster Fight (Japan) (En,Ja).gg" size 262144 crc A72A1753 md5 A729ED9B55FD8496B807D39C3BB9299E sha1 5C87048082A95ACD6BC27B98F85BDA731617C739 )
+	rom ( name "Buster Fight (Japan).gg" size 262144 crc A72A1753 md5 A729ED9B55FD8496B807D39C3BB9299E sha1 5C87048082A95ACD6BC27B98F85BDA731617C739 )
 )
 game (
 	name "CJ Elephant Fugitive (USA, Europe)"
@@ -1034,27 +1034,21 @@ game (
 	rom ( name "Clutch Hitter (USA).gg" size 131072 crc D228A467 md5 DABA20A2E2ACC99CD7824CA9DE42AF46 sha1 DF7AF6588652C3163EA6F445FA21EF76B9764CD0 )
 )
 game (
-	name "Coca-Cola Kid (Japan)"
-	description "Coca-Cola Kid (Japan)"
-	region "Japan"
-	rom ( name "Coca-Cola Kid (Japan).gg" size 524288 crc C7598B81 md5 DBEDE5C20828E3D251B05356D9176C79 sha1 E0A6CABA7D8433175A3B7F1DFB593F9CA2C67CD1 )
-)
-game (
 	name "Columns (Japan) (En)"
 	description "Columns (Japan) (En)"
 	region "Japan"
 	rom ( name "Columns (Japan) (En).gg" size 32768 crc F3CA6676 md5 680682AAA9B7EAE0642E4B9C4EF80F59 sha1 8B39BA23132AF102B8DC313C5C1C211F4A4F27E1 )
 )
 game (
-	name "Columns (Japan) (En) (Rev 1)"
-	description "Columns (Japan) (En) (Rev 1)"
+	name "Columns (Japan) (En) (Rev A)"
+	description "Columns (Japan) (En) (Rev A)"
 	region "Japan"
-	rom ( name "Columns (Japan) (En) (Rev 1).gg" size 32768 crc AC37E092 md5 36B33D28235B4C9439AB0F62AB1C97C4 sha1 D83FD16BD23C51750555A692535DAA171ED41AF0 )
+	rom ( name "Columns (Japan) (En) (Rev A).gg" size 32768 crc AC37E092 md5 36B33D28235B4C9439AB0F62AB1C97C4 sha1 D83FD16BD23C51750555A692535DAA171ED41AF0 )
 )
 game (
-	name "Columns (USA, Europe, Brazil) (En) (Rev 2)"
-	description "Columns (USA, Europe, Brazil) (En) (Rev 2)"
-	rom ( name "Columns (USA, Europe, Brazil) (En) (Rev 2).gg" size 32768 crc 83FA26D9 md5 90BD4681E3E4B07445EAF35E83B223DB sha1 05B73F39A90FD59E01262CBD3F4E7A21575D468A )
+	name "Columns (USA, Europe, Brazil) (En)"
+	description "Columns (USA, Europe, Brazil) (En)"
+	rom ( name "Columns (USA, Europe, Brazil) (En).gg" size 32768 crc 83FA26D9 md5 90BD4681E3E4B07445EAF35E83B223DB sha1 05B73F39A90FD59E01262CBD3F4E7A21575D468A )
 )
 game (
 	name "Cool Spot (Europe)"
@@ -1148,10 +1142,10 @@ game (
 	rom ( name "Daffy Duck in Hollywood (Europe, Brazil) (En,Fr,De,Es,It).gg" size 524288 crc AAE268FC md5 1B079DED7729472B4F4039612C3112F2 sha1 2D058F3885BEE45B04B74CBE16F3974D4EB2BFCF )
 )
 game (
-	name "Damojie Cun (Taiwan) (En) (Unl)"
-	description "Damojie Cun (Taiwan) (En) (Unl)"
+	name "Damojie Cun - Ghouls'n Ghosto (Taiwan) (En) (Unl)"
+	description "Damojie Cun - Ghouls'n Ghosto (Taiwan) (En) (Unl)"
 	region "Taiwan"
-	rom ( name "Damojie Cun (Taiwan) (En) (Unl).sms" size 262144 crc 8821A7C9 md5 35B8FB205B5CF9989E9DE4A1ED29D0D3 sha1 6039E65F4E807C1200DE496FCAC9FF7DA0D1EB42 )
+	rom ( name "Damojie Cun - Ghouls'n Ghosto (Taiwan) (En) (Unl).sms" size 262144 crc 8821A7C9 md5 35B8FB205B5CF9989E9DE4A1ED29D0D3 sha1 6039E65F4E807C1200DE496FCAC9FF7DA0D1EB42 )
 )
 game (
 	name "Dangerous Demolition (World) (Aftermarket) (Unl)"
@@ -1165,9 +1159,9 @@ game (
 	rom ( name "David Robinson's Supreme Court (USA) (Auto Demo).gg" size 262144 crc 696F446D md5 7106A668B753519E337F770630FCACD9 sha1 4BC01FA1C8D1A2B374E9E7D3E2AC75FBFEF6AD1F )
 )
 game (
-	name "Deep Duck Trouble Starring Donald Duck (USA, Europe)"
-	description "Deep Duck Trouble Starring Donald Duck (USA, Europe)"
-	rom ( name "Deep Duck Trouble Starring Donald Duck (USA, Europe).gg" size 524288 crc 5A136D7E md5 CD792CF0D4E8EBB6F77A906AC0744B66 sha1 24485549001BC57B5CFFEE1449AD0AF80E862773 )
+	name "Deep Duck Trouble Starring Donald Duck (USA, Europe, Brazil) (En)"
+	description "Deep Duck Trouble Starring Donald Duck (USA, Europe, Brazil) (En)"
+	rom ( name "Deep Duck Trouble Starring Donald Duck (USA, Europe, Brazil) (En).gg" size 524288 crc 5A136D7E md5 CD792CF0D4E8EBB6F77A906AC0744B66 sha1 24485549001BC57B5CFFEE1449AD0AF80E862773 )
 )
 game (
 	name "Defenders of Oasis (USA, Europe)"
@@ -1213,10 +1207,10 @@ game (
 	rom ( name "Devilish (Europe, Brazil) (En).gg" size 131072 crc D43AC6C5 md5 E3DDA1FE814C22C102F0714D48D27DE6 sha1 3EB7E6CBE74D16BB14C42E91AB6334C156071F6B )
 )
 game (
-	name "Devilish (Japan)"
-	description "Devilish (Japan)"
+	name "Devilish (Japan) (En)"
+	description "Devilish (Japan) (En)"
 	region "Japan"
-	rom ( name "Devilish (Japan).gg" size 131072 crc 25DB174F md5 BC3B402B546B9561C79E3373AEE97A9C sha1 5B1D4295920EBE4D6D9B9610764939B2AAA6C598 )
+	rom ( name "Devilish (Japan) (En).gg" size 131072 crc 25DB174F md5 BC3B402B546B9561C79E3373AEE97A9C sha1 5B1D4295920EBE4D6D9B9610764939B2AAA6C598 )
 )
 game (
 	name "Devilish (USA)"
@@ -1327,22 +1321,22 @@ game (
 	rom ( name "Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console).gg" size 131072 crc 9C8534EC md5 E6D6FDB864D7878B7B444C7200B84B7C sha1 DF135DD54638E2CE1F18D670C98B0313484D70BC )
 )
 game (
-	name "Dunk Kids (Japan)"
-	description "Dunk Kids (Japan)"
+	name "Dunk Kids (Japan) (En)"
+	description "Dunk Kids (Japan) (En)"
 	region "Japan"
-	rom ( name "Dunk Kids (Japan).gg" size 524288 crc 77ED48F5 md5 1D1C50CDBFE605A37D5DCF1250A951DF sha1 7525923BA2531D5079D66B2B1156CB5E7D44C66A )
+	rom ( name "Dunk Kids (Japan) (En).gg" size 524288 crc 77ED48F5 md5 1D1C50CDBFE605A37D5DCF1250A951DF sha1 7525923BA2531D5079D66B2B1156CB5E7D44C66A )
 )
 game (
-	name "Dynamite Headdy (Japan)"
-	description "Dynamite Headdy (Japan)"
+	name "Dynamite Headdy (Japan) (En)"
+	description "Dynamite Headdy (Japan) (En)"
 	region "Japan"
-	rom ( name "Dynamite Headdy (Japan).gg" size 524288 crc F6AF4B6B md5 79A0D819E9CDDEBCB80E28A174FF2005 sha1 A8E3F447089537B52E40958C07610BFEAD82442D )
+	rom ( name "Dynamite Headdy (Japan) (En).gg" size 524288 crc F6AF4B6B md5 79A0D819E9CDDEBCB80E28A174FF2005 sha1 A8E3F447089537B52E40958C07610BFEAD82442D )
 )
 game (
-	name "Dynamite Headdy (Japan) (Beta)"
-	description "Dynamite Headdy (Japan) (Beta)"
+	name "Dynamite Headdy (Japan) (En) (Beta)"
+	description "Dynamite Headdy (Japan) (En) (Beta)"
 	region "Japan"
-	rom ( name "Dynamite Headdy (Japan) (Beta).gg" size 524288 crc 843556B1 md5 1B5883C2B693C60177724C0CCCA60866 sha1 1F5628E2AA21A3EDE186297062CAAA400DEC2EA2 )
+	rom ( name "Dynamite Headdy (Japan) (En) (Beta).gg" size 524288 crc 843556B1 md5 1B5883C2B693C60177724C0CCCA60866 sha1 1F5628E2AA21A3EDE186297062CAAA400DEC2EA2 )
 )
 game (
 	name "Dynamite Headdy (USA, Europe)"
@@ -1402,17 +1396,17 @@ game (
 	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En).gg" size 524288 crc 866C7113 md5 CCD970B22303887734FAFB8E45B1E43F sha1 7C6C8F44D5AA799726ADC3A9E21C9F35CACEA87F )
 )
 game (
-	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
-	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1)"
+	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta)"
+	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta)"
 	releaseyear "1993"
 	releasemonth "06"
 	releaseday "14"
-	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 1) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
+	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta) (1993-06-14).gg" size 524288 crc 55036BC6 md5 03CA0A5165659324C9D85009634584F2 sha1 070298F87402E874576F295828EDDE142482A085 )
 )
 game (
-	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
-	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993)"
-	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta 2) (July, 1993).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
+	name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta) (1993-07-xx)"
+	description "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta) (1993-07-xx)"
+	rom ( name "Ecco the Dolphin (USA, Europe, Brazil) (En) (Beta) (1993-07-xx).gg" size 524288 crc D4C74C02 md5 713B343B1CF5C080A5F247E406B8B0DE sha1 E9C260C5B2E5288A4B190987EF1F9744203C9EB3 )
 )
 game (
 	name "Ecco the Dolphin II (Japan)"
@@ -1436,10 +1430,10 @@ game (
 	rom ( name "Ernie Els Golf (Europe) (En,Fr,De,Es,It).gg" size 262144 crc 5E53C7F7 md5 E97C20B86EA73248CC7AED602D46C3A4 sha1 A8D75C2AF514DC81BA4DC66A508384D730A77CE4 )
 )
 game (
-	name "Eternal Legend - Eien no Densetsu (Japan)"
-	description "Eternal Legend - Eien no Densetsu (Japan)"
+	name "Eternal Legend (Japan)"
+	description "Eternal Legend (Japan)"
 	region "Japan"
-	rom ( name "Eternal Legend - Eien no Densetsu (Japan).gg" size 262144 crc 04302BBD md5 C58D6291DA8A4919328B8F42BE8640A7 sha1 717B4E33CF3956E4194B912533BF1B7BF9D20725 )
+	rom ( name "Eternal Legend (Japan).gg" size 262144 crc 04302BBD md5 C58D6291DA8A4919328B8F42BE8640A7 sha1 717B4E33CF3956E4194B912533BF1B7BF9D20725 )
 )
 game (
 	name "Evander Holyfield's 'Real Deal' Boxing (USA, Europe)"
@@ -1485,10 +1479,10 @@ game (
 	rom ( name "FIFA Soccer 96 (USA, Europe) (En,Fr,De,Es).gg" size 524288 crc C379DE95 md5 4338306D35219DA89E1F6CC4550FD8A3 sha1 F928C32ACBA90ED5EBCA131AF03E76A0EFB38797 )
 )
 game (
-	name "Faceball 2000 (Japan)"
-	description "Faceball 2000 (Japan)"
+	name "Faceball 2000 (Japan) (En)"
+	description "Faceball 2000 (Japan) (En)"
 	region "Japan"
-	rom ( name "Faceball 2000 (Japan).gg" size 262144 crc AAF6F87D md5 8DCFAA8A12425A56F5DE7518B691158B sha1 967C50A5B64ADC6DA7BC730900C267E45C90053A )
+	rom ( name "Faceball 2000 (Japan) (En).gg" size 262144 crc AAF6F87D md5 8DCFAA8A12425A56F5DE7518B691158B sha1 967C50A5B64ADC6DA7BC730900C267E45C90053A )
 )
 game (
 	name "Factory Panic (Europe, Brazil) (En)"
@@ -1640,10 +1634,10 @@ game (
 	rom ( name "GG Nibbles (World) (v1.3) (Aftermarket) (Unl).gg" size 32768 crc 68979CF6 md5 2C7C03B790658A6E76436B780BA353AC sha1 DCAA0E2F8759585DA0BF0D5139BB87A757ABFBBC )
 )
 game (
-	name "GG Portrait - Pai Chen (Japan)"
-	description "GG Portrait - Pai Chen (Japan)"
+	name "GG Portrait - Pai Chan (Japan)"
+	description "GG Portrait - Pai Chan (Japan)"
 	region "Japan"
-	rom ( name "GG Portrait - Pai Chen (Japan).gg" size 524288 crc 695CC120 md5 3DBD51CE27C7EEEE98AAECCDB96AFFB6 sha1 CF752897523814951401994C95DE299CD42FDB50 )
+	rom ( name "GG Portrait - Pai Chan (Japan).gg" size 524288 crc 695CC120 md5 3DBD51CE27C7EEEE98AAECCDB96AFFB6 sha1 CF752897523814951401994C95DE299CD42FDB50 )
 )
 game (
 	name "GG Portrait - Yuuki Akira (Japan)"
@@ -1652,16 +1646,16 @@ game (
 	rom ( name "GG Portrait - Yuuki Akira (Japan).gg" size 524288 crc 51159F8F md5 82D3C23CF9617174AA47BED8E76438DF sha1 4CBB453663665A06E986A6AB015A041463B48373 )
 )
 game (
-	name "GG Shinobi, The (Japan)"
-	description "GG Shinobi, The (Japan)"
+	name "GG Shinobi, The (Japan) (En)"
+	description "GG Shinobi, The (Japan) (En)"
 	region "Japan"
-	rom ( name "GG Shinobi, The (Japan).gg" size 262144 crc 83926BD1 md5 21D2E4E7C508E6ABBB12BB96C7AAC868 sha1 C5E1C2329F94F0804140792A3E3D5BE2AC0D5D0D )
+	rom ( name "GG Shinobi, The (Japan) (En).gg" size 262144 crc 83926BD1 md5 21D2E4E7C508E6ABBB12BB96C7AAC868 sha1 C5E1C2329F94F0804140792A3E3D5BE2AC0D5D0D )
 )
 game (
-	name "GP Rider (Japan)"
-	description "GP Rider (Japan)"
+	name "GP Rider (Japan) (En)"
+	description "GP Rider (Japan) (En)"
 	region "Japan"
-	rom ( name "GP Rider (Japan).gg" size 524288 crc 7A26EC6A md5 6427D14DA2501E16DA16930622EE8846 sha1 B1C4315DC4AFE58256F3834CFF8E94C6B02BC1B6 )
+	rom ( name "GP Rider (Japan) (En).gg" size 524288 crc 7A26EC6A md5 6427D14DA2501E16DA16930622EE8846 sha1 B1C4315DC4AFE58256F3834CFF8E94C6B02BC1B6 )
 )
 game (
 	name "GP Rider (World)"
@@ -1677,10 +1671,10 @@ game (
 	rom ( name "GP Rider (World) (Beta) (1994-01-04).gg" size 524288 crc 12E4F6DB md5 841A7115046459DECD3BEE75DFD2981C sha1 5E13822BF04FACC19D44A718635647AD4DB6CD2A )
 )
 game (
-	name "Galaga '91 (Japan)"
-	description "Galaga '91 (Japan)"
+	name "Galaga '91 (Japan) (En)"
+	description "Galaga '91 (Japan) (En)"
 	region "Japan"
-	rom ( name "Galaga '91 (Japan).gg" size 131072 crc 0593BA24 md5 C50BC608D2F6708E255E98C324E93A13 sha1 7CD59FC473B9B1A1FDD659FDEC2AE6CB1D3F471A )
+	rom ( name "Galaga '91 (Japan) (En).gg" size 131072 crc 0593BA24 md5 C50BC608D2F6708E255E98C324E93A13 sha1 7CD59FC473B9B1A1FDD659FDEC2AE6CB1D3F471A )
 )
 game (
 	name "Galaga 2 (Europe)"
@@ -1767,10 +1761,10 @@ game (
 	rom ( name "Greendog - The Beached Surfer Dude! (USA, Brazil) (En).gg" size 262144 crc F27925B0 md5 E6C364FCE0F71A9EB9E5474CD84C2067 sha1 B5BF962000636BB1CBDF134759BAA1E25B25D097 )
 )
 game (
-	name "Griffin (Japan)"
-	description "Griffin (Japan)"
+	name "Griffin (Japan) (En)"
+	description "Griffin (Japan) (En)"
 	region "Japan"
-	rom ( name "Griffin (Japan).gg" size 131072 crc A93E8B0F md5 00299A180A9EDEF575A228A1CEF65318 sha1 B479D977533398CEF21EF9FF7CD8FC81BDBFA488 )
+	rom ( name "Griffin (Japan) (En).gg" size 131072 crc A93E8B0F md5 00299A180A9EDEF575A228A1CEF65318 sha1 B479D977533398CEF21EF9FF7CD8FC81BDBFA488 )
 )
 game (
 	name "Gunstar Heroes (Japan)"
@@ -1779,10 +1773,10 @@ game (
 	rom ( name "Gunstar Heroes (Japan).gg" size 524288 crc C3C52767 md5 C46D46F3AB4873CB1ED7AE8B9B70F2B4 sha1 C373D3876659095BB869FF0E4BB7FFC68123CF3E )
 )
 game (
-	name "Halley Wars (Japan)"
-	description "Halley Wars (Japan)"
+	name "Halley Wars (Japan) (En)"
+	description "Halley Wars (Japan) (En)"
 	region "Japan"
-	rom ( name "Halley Wars (Japan).gg" size 131072 crc DEF5A5D0 md5 9B26A17F41F2F0DC508D0815945E2634 sha1 1C9932F592BB12E61ACF597985E0BD5041E45DA5 )
+	rom ( name "Halley Wars (Japan) (En).gg" size 131072 crc DEF5A5D0 md5 9B26A17F41F2F0DC508D0815945E2634 sha1 1C9932F592BB12E61ACF597985E0BD5041E45DA5 )
 )
 game (
 	name "Halley Wars (USA, Europe, Brazil) (En)"
@@ -1914,6 +1908,12 @@ game (
 	rom ( name "James Bond 007 - The Duel (Europe).gg" size 262144 crc 881A4524 md5 4190790937A1EFAF2418917402B06E75 sha1 6E2124B40DB7D1FC22B4F1E41565710500611D8E )
 )
 game (
+	name "James Bond 007 - The Duel (Europe) (Beta)"
+	description "James Bond 007 - The Duel (Europe) (Beta)"
+	region "Europe"
+	rom ( name "James Bond 007 - The Duel (Europe) (Beta).gg" size 262144 crc F8C31C15 md5 B03C028CCECEDD7CEB139FADDA5458A7 sha1 9196211DDB024EEDAE11BA66B727463D7B064289 )
+)
+game (
 	name "James Pond 3 - Operation Starfi5h (Europe)"
 	description "James Pond 3 - Operation Starfi5h (Europe)"
 	region "Europe"
@@ -1944,16 +1944,22 @@ game (
 	rom ( name "Jeopardy! (USA).gg" size 262144 crc D7820C21 md5 6E87D0107228AE1B5C582F8595992152 sha1 28EF5CC2689A1F3BC3BD1B24C3E4132A423FC274 )
 )
 game (
+	name "Jeopardy! (USA) (Beta)"
+	description "Jeopardy! (USA) (Beta)"
+	region "USA"
+	rom ( name "Jeopardy! (USA) (Beta).gg" size 262144 crc 5AB12961 md5 5F1392E880AEAB8A484ACA3F2428CA6A sha1 3E531213F2A9D588D7CBFCC22F9F6066AC44D8FF )
+)
+game (
 	name "Jeopardy! - Sports Edition (USA)"
 	description "Jeopardy! - Sports Edition (USA)"
 	region "USA"
 	rom ( name "Jeopardy! - Sports Edition (USA).gg" size 262144 crc 2DD850B7 md5 5D1351B4F7579D36A1250F5B5F5A507F sha1 55CB5CB3C37E8403EBF4A47560F0ECE416323C56 )
 )
 game (
-	name "Jiansheng Chuanshuo (Taiwan) (Unl)"
-	description "Jiansheng Chuanshuo (Taiwan) (Unl)"
+	name "Jiansheng Chuanshuo - Kenseiden Story (Taiwan) (Unl)"
+	description "Jiansheng Chuanshuo - Kenseiden Story (Taiwan) (Unl)"
 	region "Taiwan"
-	rom ( name "Jiansheng Chuanshuo (Taiwan) (Unl).sms" size 262144 crc A59B4A09 md5 B0B66F32939E2402539244F026ADC6B8 sha1 F686BB3845E87FB06C4B0DD6DF6D6615EE838101 )
+	rom ( name "Jiansheng Chuanshuo - Kenseiden Story (Taiwan) (Unl).sms" size 262144 crc A59B4A09 md5 B0B66F32939E2402539244F026ADC6B8 sha1 F686BB3845E87FB06C4B0DD6DF6D6615EE838101 )
 )
 game (
 	name "Joe Montana Football (Japan, Brazil) (En) (Rev 1)"
@@ -1969,6 +1975,11 @@ game (
 	name "Journey from Darkness - Strider Returns (USA, Europe)"
 	description "Journey from Darkness - Strider Returns (USA, Europe)"
 	rom ( name "Journey from Darkness - Strider Returns (USA, Europe).gg" size 262144 crc 1EBFA5CA md5 D9393AFCE9CC368EB1B0217CFF994C8E sha1 ED5D1FC5BA8A47992551B0D577C1A6A06D0F7AC2 )
+)
+game (
+	name "Journey from Darkness - Strider Returns (USA, Europe) (Beta)"
+	description "Journey from Darkness - Strider Returns (USA, Europe) (Beta)"
+	rom ( name "Journey from Darkness - Strider Returns (USA, Europe) (Beta).gg" size 262144 crc 11085829 md5 709B274675ED49CC3DE4D5BD62784D6F sha1 CD7E9650A65882A633401A1947B4C621ADF4E197 )
 )
 game (
 	name "Judge Dredd (USA, Europe)"
@@ -2057,10 +2068,10 @@ game (
 	rom ( name "Kick & Rush (Japan).gg" size 262144 crc FD14CE00 md5 686CBD73FF62C8DECDEF3E76890A3E83 sha1 D1C04A94A21684BE2E83FBD0E0677BBC8EF86F57 )
 )
 game (
-	name "Kinetic Connection (Japan)"
-	description "Kinetic Connection (Japan)"
+	name "Kinetic Connection (Japan) (En)"
+	description "Kinetic Connection (Japan) (En)"
 	region "Japan"
-	rom ( name "Kinetic Connection (Japan).gg" size 131072 crc 4AF7F2AA md5 3393B5A16EDD56194B1BB869E6324CB1 sha1 7447E0AD5E8E14C3AE05A274D393CA34DE044855 )
+	rom ( name "Kinetic Connection (Japan) (En).gg" size 131072 crc 4AF7F2AA md5 3393B5A16EDD56194B1BB869E6324CB1 sha1 7447E0AD5E8E14C3AE05A274D393CA34DE044855 )
 )
 game (
 	name "Kishin Douji Zenki (Japan)"
@@ -2181,91 +2192,81 @@ game (
 	rom ( name "Lion King, The (Japan).gg" size 524288 crc C78B8637 md5 81E5A88E8268A1B5730245A36FAC812F sha1 20E01958C3E3DE905622C90838CD485A3338D7A4 )
 )
 game (
-	name "Lion King, The (USA)"
-	description "Lion King, The (USA)"
-	region "USA"
-	rom ( name "Lion King, The (USA).gg" size 524288 crc 9808D7B3 md5 62328F27BCDA54D1882A265BF8378688 sha1 E21025B2F6D5BBC18107905AD6C0C58D061D9C17 )
+	name "Lion King, The (USA, Brazil) (En)"
+	description "Lion King, The (USA, Brazil) (En)"
+	rom ( name "Lion King, The (USA, Brazil) (En).gg" size 524288 crc 9808D7B3 md5 62328F27BCDA54D1882A265BF8378688 sha1 E21025B2F6D5BBC18107905AD6C0C58D061D9C17 )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "03"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-03).gg" size 514313 crc AACB7387 md5 9B163C6B33EDF6F43B9EF4792A288BB8 sha1 6D71FF5DFD04EC1641B0DB367B52AE3F23805E60 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-03).gg" size 514313 crc AACB7387 md5 9B163C6B33EDF6F43B9EF4792A288BB8 sha1 6D71FF5DFD04EC1641B0DB367B52AE3F23805E60 )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "11"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-11).gg" size 514450 crc 214C13DC md5 BF097226F122FC2DEB666169349A0573 sha1 9D8FDC7B48F2C09BCBBB30061941E46DDF986E4E )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-11).gg" size 514450 crc 214C13DC md5 BF097226F122FC2DEB666169349A0573 sha1 9D8FDC7B48F2C09BCBBB30061941E46DDF986E4E )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "12"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-12).gg" size 514478 crc 0E80EFE0 md5 90DD53F32C3A00D7AE11D187AAEA75DD sha1 0E5F5156BE26D18F8C2678F7D2400A54B9C51F37 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-12).gg" size 514478 crc 0E80EFE0 md5 90DD53F32C3A00D7AE11D187AAEA75DD sha1 0E5F5156BE26D18F8C2678F7D2400A54B9C51F37 )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "13"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-13).gg" size 514482 crc 8250C11E md5 85B8E8C5B3B704E333FE4B8D2DFA859D sha1 05D6E8F6B8ADDE3A03EA89F53DD02F02F3366477 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-13).gg" size 514482 crc 8250C11E md5 85B8E8C5B3B704E333FE4B8D2DFA859D sha1 05D6E8F6B8ADDE3A03EA89F53DD02F02F3366477 )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "14"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-14).gg" size 514486 crc EB10A2D4 md5 D9B1F42BE89BFD1FC9A38F05378B3ABF sha1 CDCE953F16E4DB6E9137EA8D523588B3469A544D )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-14).gg" size 514486 crc EB10A2D4 md5 D9B1F42BE89BFD1FC9A38F05378B3ABF sha1 CDCE953F16E4DB6E9137EA8D523588B3469A544D )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "16"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-16).gg" size 514486 crc C6AF9643 md5 D2732685A54B1C753281341B8B687A99 sha1 14C4D13EB118DC5082441F4EDDAAC229019B2598 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-16).gg" size 514486 crc C6AF9643 md5 D2732685A54B1C753281341B8B687A99 sha1 14C4D13EB118DC5082441F4EDDAAC229019B2598 )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "17"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-17).gg" size 514618 crc B65030D0 md5 0095169D594D5AF219A85810575792F0 sha1 D3D44F8CBE32970F2E138C183078B8190808E625 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-17).gg" size 514618 crc B65030D0 md5 0095169D594D5AF219A85810575792F0 sha1 D3D44F8CBE32970F2E138C183078B8190808E625 )
 )
 game (
-	name "Lion King, The (USA) (Beta) (Alt)"
-	description "Lion King, The (USA) (Beta) (Alt)"
+	name "Lion King, The (USA, Brazil) (En) (Beta) (Alt)"
+	description "Lion King, The (USA, Brazil) (En) (Beta) (Alt)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "17"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-17) (Alt).gg" size 514538 crc 4214C474 md5 A2C2ADC670CC61CF52918A0C65F372A5 sha1 6301D8EDE680007E645C84D24064DF5E76EA996B )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-17) (Alt).gg" size 514538 crc 4214C474 md5 A2C2ADC670CC61CF52918A0C65F372A5 sha1 6301D8EDE680007E645C84D24064DF5E76EA996B )
 )
 game (
-	name "Lion King, The (USA) (Beta)"
-	description "Lion King, The (USA) (Beta)"
+	name "Lion King, The (USA, Brazil) (En) (Beta)"
+	description "Lion King, The (USA, Brazil) (En) (Beta)"
 	releaseyear "1994"
 	releasemonth "08"
 	releaseday "20"
-	region "USA"
-	rom ( name "Lion King, The (USA) (Beta) (1994-08-20).gg" size 523862 crc 3D0B31A2 md5 23EDAC12DA48CA62DDC2F2BA66569EB8 sha1 79F221CA2654D5DF64392E4E06C498557EAEBF19 )
+	rom ( name "Lion King, The (USA, Brazil) (En) (Beta) (1994-08-20).gg" size 523862 crc 3D0B31A2 md5 23EDAC12DA48CA62DDC2F2BA66569EB8 sha1 79F221CA2654D5DF64392E4E06C498557EAEBF19 )
 )
 game (
 	name "Lost World, The - Jurassic Park (USA)"
@@ -2308,10 +2309,10 @@ game (
 	rom ( name "Madou Monogatari A - Dokidoki Vacation (Japan).gg" size 524288 crc 7EC95282 md5 AB0D1EB20AC63A984D874A885CA2588D sha1 C027AA76FE0E09A2D1B982EEA0DF2C8B687AADF7 )
 )
 game (
-	name "Madou Monogatari I - 3-Tsu no Madoukyuu (Japan)"
-	description "Madou Monogatari I - 3-Tsu no Madoukyuu (Japan)"
+	name "Madou Monogatari I - 3tsu no Madoukyuu (Japan)"
+	description "Madou Monogatari I - 3tsu no Madoukyuu (Japan)"
 	region "Japan"
-	rom ( name "Madou Monogatari I - 3-Tsu no Madoukyuu (Japan).gg" size 524288 crc 00C34D94 md5 ABCA338C5F08D06526D09B70588ADD2C sha1 5CCD474CEFCB8E086E2E1F77C0FDD5C1D2BF82E7 )
+	rom ( name "Madou Monogatari I - 3tsu no Madoukyuu (Japan).gg" size 524288 crc 00C34D94 md5 ABCA338C5F08D06526D09B70588ADD2C sha1 5CCD474CEFCB8E086E2E1F77C0FDD5C1D2BF82E7 )
 )
 game (
 	name "Madou Monogatari II - Arle 16-Sai (Japan)"
@@ -2324,6 +2325,12 @@ game (
 	description "Madou Monogatari III - Kyuukyoku Joou-sama (Japan)"
 	region "Japan"
 	rom ( name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan).gg" size 524288 crc 0A634D79 md5 B8B5305EC2F68D7BB3C9F622A13EBA7C sha1 DD590C9086161B1F97573C48720C32CC5506DABC )
+)
+game (
+	name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Beta)"
+	description "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Beta)"
+	region "Japan"
+	rom ( name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Beta).gg" size 524288 crc F9C3CE13 md5 8692A8668593C7692615713BDABD6A83 sha1 9CE606E90CC066F005568694B0C20438B6745C15 )
 )
 game (
 	name "Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)"
@@ -2344,9 +2351,9 @@ game (
 	rom ( name "Magic Knight Rayearth 2 - Making of Magic Knight (Japan).gg" size 524288 crc 1C2C2B04 md5 B19256C6716147A9744F5BD528F14450 sha1 29615D86057F3323ECDA75D47102E77D364F6499 )
 )
 game (
-	name "Magical Puzzle Popils (World) (En,Ja)"
-	description "Magical Puzzle Popils (World) (En,Ja)"
-	rom ( name "Magical Puzzle Popils (World) (En,Ja).gg" size 131072 crc CF6D7BC5 md5 E496FF2196C372F4D6111538950D25CA sha1 FB939F0810D0763B9ABAEEC1A2BFBABACAAD5441 )
+	name "Magical Puzzle Popils (World)"
+	description "Magical Puzzle Popils (World)"
+	rom ( name "Magical Puzzle Popils (World).gg" size 131072 crc CF6D7BC5 md5 E496FF2196C372F4D6111538950D25CA sha1 FB939F0810D0763B9ABAEEC1A2BFBABACAAD5441 )
 )
 game (
 	name "Magical Taruruuto-kun (Japan)"
@@ -2424,10 +2431,10 @@ game (
 	rom ( name "Mickey Mouse Densetsu no Oukoku - Legend of Illusion (Japan).gg" size 524288 crc FE12A92F md5 64BED8E7A263B89144EB68BE73CEF76C sha1 CDCDE96FE2A86FC2C404E7746C8670C44F8E169C )
 )
 game (
-	name "Mickey Mouse no Castle Illusion (Japan)"
-	description "Mickey Mouse no Castle Illusion (Japan)"
+	name "Mickey Mouse no Castle Illusion (Japan) (En)"
+	description "Mickey Mouse no Castle Illusion (Japan) (En)"
 	region "Japan"
-	rom ( name "Mickey Mouse no Castle Illusion (Japan).sms" size 262144 crc 9942B69B md5 290056BCB4303D3C53EA7B6AA2A268A7 sha1 D2580137C641192D7FAA98DBF8C715623E7D0BED )
+	rom ( name "Mickey Mouse no Castle Illusion (Japan) (En).sms" size 262144 crc 9942B69B md5 290056BCB4303D3C53EA7B6AA2A268A7 sha1 D2580137C641192D7FAA98DBF8C715623E7D0BED )
 )
 game (
 	name "Mickey Mouse no Mahou no Crystal (Japan)"
@@ -2511,10 +2518,10 @@ game (
 	rom ( name "Mortal Kombat (USA, Europe) (Beta).gg" size 524288 crc 16DB4F6A md5 EFD7BC7767E9C87D1027627BA814CDDD sha1 0D2CA2DE933993ED45B20EF736237BC774DD3914 )
 )
 game (
-	name "Mortal Kombat - Shinken Kourin Densetsu (Japan)"
-	description "Mortal Kombat - Shinken Kourin Densetsu (Japan)"
+	name "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En)"
+	description "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En)"
 	region "Japan"
-	rom ( name "Mortal Kombat - Shinken Kourin Densetsu (Japan).gg" size 524288 crc DBFF0461 md5 FF2BBA2287EDBD90A560DBBAAB18A260 sha1 F28E50F1283D7A2516267A13A16A3E6914AE0A18 )
+	rom ( name "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En).gg" size 524288 crc DBFF0461 md5 FF2BBA2287EDBD90A560DBBAAB18A260 sha1 F28E50F1283D7A2516267A13A16A3E6914AE0A18 )
 )
 game (
 	name "Mortal Kombat 3 (Europe)"
@@ -2789,16 +2796,16 @@ game (
 	rom ( name "NBA Action Starring David Robinson (USA, Brazil) (En) (Beta) (1994-03-08).gg" size 262144 crc C9E98A49 md5 734C495A0872469BAE9EE6B64D1DCFB4 sha1 0EA3A2656145092D8DF00B6A7668599B0AB1B8D3 )
 )
 game (
-	name "NBA Jam (Japan)"
-	description "NBA Jam (Japan)"
+	name "NBA Jam (Japan) (En)"
+	description "NBA Jam (Japan) (En)"
 	region "Japan"
-	rom ( name "NBA Jam (Japan).gg" size 524288 crc A49E9033 md5 8AAB7B6664B91DD272165997B6FD0161 sha1 E7C040A58C8D35BF5B5B556B2D3C55E7A5EB0550 )
+	rom ( name "NBA Jam (Japan) (En).gg" size 524288 crc A49E9033 md5 8AAB7B6664B91DD272165997B6FD0161 sha1 E7C040A58C8D35BF5B5B556B2D3C55E7A5EB0550 )
 )
 game (
-	name "NBA Jam (USA) (Rev 1)"
-	description "NBA Jam (USA) (Rev 1)"
+	name "NBA Jam (USA) (Rev 1) (Putative Proto)"
+	description "NBA Jam (USA) (Rev 1) (Putative Proto)"
 	region "USA"
-	rom ( name "NBA Jam (USA) (Rev 1).gg" size 524288 crc 820FA4AB md5 51EE14347B3F3633299511FA5E637164 sha1 30BDF6EDFB1772054E15EDEFD69FBE16EFD1797A )
+	rom ( name "NBA Jam (USA) (Rev 1) (Putative Proto).gg" size 524288 crc 820FA4AB md5 51EE14347B3F3633299511FA5E637164 sha1 30BDF6EDFB1772054E15EDEFD69FBE16EFD1797A )
 )
 game (
 	name "NBA Jam (USA, Europe)"
@@ -3115,10 +3122,10 @@ game (
 	rom ( name "Nazo Puyo (Japan).gg" size 131072 crc BCCE5FD4 md5 1F7F13111353AEB49205BB3FC1697DD8 sha1 6AD654E11067ED12437022FCF22B9FEA9BE7AC46 )
 )
 game (
-	name "Nazo Puyo (Japan) (Rev 1)"
-	description "Nazo Puyo (Japan) (Rev 1)"
+	name "Nazo Puyo (Japan) (Rev A)"
+	description "Nazo Puyo (Japan) (Rev A)"
 	region "Japan"
-	rom ( name "Nazo Puyo (Japan) (Rev 1).gg" size 131072 crc D8D11F8D md5 286DF90C900F1923A404B617907472C9 sha1 7B19E92A85564B166C364D990D9D44F7E1113541 )
+	rom ( name "Nazo Puyo (Japan) (Rev A).gg" size 131072 crc D8D11F8D md5 286DF90C900F1923A404B617907472C9 sha1 7B19E92A85564B166C364D990D9D44F7E1113541 )
 )
 game (
 	name "Nazo Puyo - Arle no Roux (Japan)"
@@ -3172,10 +3179,10 @@ game (
 	rom ( name "Ninku (Japan).gg" size 524288 crc C3056E15 md5 713AE959AF3EEA55C9A3C5BD36F1ED9D sha1 D22BFA865B34866568F3DD7FCCEC886170071C81 )
 )
 game (
-	name "Ninku 2 - Tenkuuryuu e no Michi (Japan)"
-	description "Ninku 2 - Tenkuuryuu e no Michi (Japan)"
+	name "Ninku 2 - Tenkuuryuu-e no Michi (Japan)"
+	description "Ninku 2 - Tenkuuryuu-e no Michi (Japan)"
 	region "Japan"
-	rom ( name "Ninku 2 - Tenkuuryuu e no Michi (Japan).gg" size 524288 crc 06247DD2 md5 DA36E835210B7F05BA2973F343A8C300 sha1 FD6452974DA734FCD4292CB0CD728A0AC9AEF714 )
+	rom ( name "Ninku 2 - Tenkuuryuu-e no Michi (Japan).gg" size 524288 crc 06247DD2 md5 DA36E835210B7F05BA2973F343A8C300 sha1 FD6452974DA734FCD4292CB0CD728A0AC9AEF714 )
 )
 game (
 	name "Ninku Gaiden - Hiroyuki Daikatsugeki (Japan)"
@@ -3227,9 +3234,9 @@ game (
 	rom ( name "OutRun (Europe, Brazil) (En).gg" size 131072 crc 9014B322 md5 31BA1DE018853EAD9B43B522DF540C0C sha1 41D5F3F95CA8CD288842BAD7BB5F7940C2BAA86D )
 )
 game (
-	name "OutRun (Japan, Europe, Korea) (Ja)"
-	description "OutRun (Japan, Europe, Korea) (Ja)"
-	rom ( name "OutRun (Japan, Europe, Korea) (Ja).gg" size 131072 crc D58CB27C md5 6D6FBA255CE324E80915F65F5D27CB14 sha1 284A68102EB71958A3553626EA3DD56485453300 )
+	name "OutRun (Japan, Korea) (En)"
+	description "OutRun (Japan, Korea) (En)"
+	rom ( name "OutRun (Japan, Korea) (En).gg" size 131072 crc D58CB27C md5 6D6FBA255CE324E80915F65F5D27CB14 sha1 284A68102EB71958A3553626EA3DD56485453300 )
 )
 game (
 	name "OutRun Europa (Europe)"
@@ -3249,10 +3256,10 @@ game (
 	rom ( name "PGA Tour 96 (USA, Europe).gg" size 524288 crc 542B6D8E md5 EA4A78F2D68E63D129598A225C02684B sha1 DC71616C742F23979C5EB27AAFA27961170E0AE8 )
 )
 game (
-	name "PGA Tour Golf (USA) (Rev 1)"
-	description "PGA Tour Golf (USA) (Rev 1)"
+	name "PGA Tour Golf (USA) (Rev 1) (Putative Proto)"
+	description "PGA Tour Golf (USA) (Rev 1) (Putative Proto)"
 	region "USA"
-	rom ( name "PGA Tour Golf (USA) (Rev 1).gg" size 262144 crc 1C77D996 md5 F8B93A57B35353FED3D5E5151E520609 sha1 CDDC04025A10E4351A4C63D118A74BC8B7D2B257 )
+	rom ( name "PGA Tour Golf (USA) (Rev 1) (Putative Proto).gg" size 262144 crc 1C77D996 md5 F8B93A57B35353FED3D5E5151E520609 sha1 CDDC04025A10E4351A4C63D118A74BC8B7D2B257 )
 )
 game (
 	name "PGA Tour Golf (USA, Europe)"
@@ -3289,10 +3296,10 @@ game (
 	rom ( name "Pac-in-Time (USA) (Proto).gg" size 262144 crc 64C28E20 md5 64109FE1D3D3E34B2963B80685A3F28A sha1 BC956615DA23F13BDDC491377B29631F9C0A4D5A )
 )
 game (
-	name "Panzer Dragoon Mini (Japan)"
-	description "Panzer Dragoon Mini (Japan)"
+	name "Panzer Dragoon Mini (Japan) (En)"
+	description "Panzer Dragoon Mini (Japan) (En)"
 	region "Japan"
-	rom ( name "Panzer Dragoon Mini (Japan).gg" size 524288 crc E9783CEA md5 4D0D6D25DFEF7E1A509D828F157D515F sha1 C1498F68ACB234F46AB6F443F484A48EBD183F0F )
+	rom ( name "Panzer Dragoon Mini (Japan) (En).gg" size 524288 crc E9783CEA md5 4D0D6D25DFEF7E1A509D828F157D515F sha1 C1498F68ACB234F46AB6F443F484A48EBD183F0F )
 )
 game (
 	name "Paperboy (USA, Europe)"
@@ -3405,10 +3412,10 @@ game (
 	rom ( name "Poker Face Paul's Solitaire (USA).gg" size 131072 crc 0E9B0C0A md5 42A994671913EBAB1DEC1FC68494DBB3 sha1 141B53C7F85B50626C6619094F4F8F7BEC3676D2 )
 )
 game (
-	name "Pop Breaker (Japan)"
-	description "Pop Breaker (Japan)"
+	name "Pop Breaker (Japan) (En)"
+	description "Pop Breaker (Japan) (En)"
 	region "Japan"
-	rom ( name "Pop Breaker (Japan).gg" size 131072 crc 71DEBA5A md5 E0E2FBD5834C04574795C923B0147F39 sha1 9C358504D3C106DD62BD8981132B47CDB95903DE )
+	rom ( name "Pop Breaker (Japan) (En).gg" size 131072 crc 71DEBA5A md5 E0E2FBD5834C04574795C923B0147F39 sha1 9C358504D3C106DD62BD8981132B47CDB95903DE )
 )
 game (
 	name "Popeye no Beach Volleyball (Japan)"
@@ -3483,9 +3490,9 @@ game (
 	rom ( name "Psychic World (USA, Europe, Brazil) (En) (Rev 1).gg" size 131072 crc 73779B22 md5 52CFDDC12AF6A3A64030F62CCF6ACA83 sha1 3BE13F79EEB26B82343AFAB3E740B3A1D35978EB )
 )
 game (
-	name "Putt & Putter (Japan, Korea) (Ja)"
-	description "Putt & Putter (Japan, Korea) (Ja)"
-	rom ( name "Putt & Putter (Japan, Korea) (Ja).gg" size 131072 crc 407AC070 md5 1EBB46CE09CC88C6DDB62F6318E958A4 sha1 2D4A72E6F5DB344240C2A65141B08E57A4B52416 )
+	name "Putt & Putter (Japan, Korea) (En)"
+	description "Putt & Putter (Japan, Korea) (En)"
+	rom ( name "Putt & Putter (Japan, Korea) (En).gg" size 131072 crc 407AC070 md5 1EBB46CE09CC88C6DDB62F6318E958A4 sha1 2D4A72E6F5DB344240C2A65141B08E57A4B52416 )
 )
 game (
 	name "Putt & Putter (USA, Europe, Brazil) (En)"
@@ -3552,6 +3559,12 @@ game (
 	rom ( name "R.C. Grand Prix (USA).sms" size 262144 crc 56201996 md5 D087B25D96F3F3E9338B0B5EC4FC2AA5 sha1 C789E7F9450C8EAA08BE1BF6C39E877973216431 )
 )
 game (
+	name "R.C. Grand Prix (USA) (Beta)"
+	description "R.C. Grand Prix (USA) (Beta)"
+	region "USA"
+	rom ( name "R.C. Grand Prix (USA) (Beta).gg" size 262144 crc CCA47191 md5 28E6F7AB8C60B3D3251E64481C13734E sha1 957ED8FD68E5A8C34C3E53CCEE8522A7F2DE3FF7 )
+)
+game (
 	name "Rastan Saga (Japan)"
 	description "Rastan Saga (Japan)"
 	region "Japan"
@@ -3563,10 +3576,10 @@ game (
 	rom ( name "Revenge of Drancon (USA, Brazil) (En).gg" size 131072 crc 03E9C607 md5 C985B4316D8D58E48E2DC61264AB0071 sha1 286F673B11739D624899479216E30B58EFD049BE )
 )
 game (
-	name "Riddick Bowe Boxing (Japan)"
-	description "Riddick Bowe Boxing (Japan)"
+	name "Riddick Bowe Boxing (Japan) (En)"
+	description "Riddick Bowe Boxing (Japan) (En)"
 	region "Japan"
-	rom ( name "Riddick Bowe Boxing (Japan).gg" size 262144 crc A45FFFB7 md5 5A1D0DAEE3DC3582B0C69EC4BCCA3CA9 sha1 AF32AD098A1BF872D5A2CEF38105704D3507ED75 )
+	rom ( name "Riddick Bowe Boxing (Japan) (En).gg" size 262144 crc A45FFFB7 md5 5A1D0DAEE3DC3582B0C69EC4BCCA3CA9 sha1 AF32AD098A1BF872D5A2CEF38105704D3507ED75 )
 )
 game (
 	name "Riddick Bowe Boxing (USA)"
@@ -3677,6 +3690,18 @@ game (
 	rom ( name "Samurai Spirits (Japan).gg" size 524288 crc 93FD73DC md5 71B53A4577065E11453928774A7B64B0 sha1 2AAF7B6F9D37275995D4A62BB8A465333D8B0BF4 )
 )
 game (
+	name "Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan)"
+	description "Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan)"
+	region "Japan"
+	rom ( name "Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan).gg" size 524288 crc C7598B81 md5 DBEDE5C20828E3D251B05356D9176C79 sha1 E0A6CABA7D8433175A3B7F1DFB593F9CA2C67CD1 )
+)
+game (
+	name "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)"
+	description "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es)"
+	region "Europe"
+	rom ( name "Schtroumpfs Autour du Monde, Les (Europe) (En,Fr,De,Es).gg" size 262144 crc 3EB337DF md5 348CA8EAA37D5F468915B0CB5A558D21 sha1 33EB8C0FDE81D258CEEC4C74ABB20C10F6953A9D )
+)
+game (
 	name "Scratch Golf (Japan)"
 	description "Scratch Golf (Japan)"
 	region "Japan"
@@ -3713,16 +3738,16 @@ game (
 	rom ( name "Shadam Crusader - Harukanaru Oukoku (Japan).gg" size 524288 crc 09F9ED60 md5 DFEA773BE248F6AA84EACAB911AC9316 sha1 DE4B546F61DD32106247D38643849F6AAEEEDB07 )
 )
 game (
-	name "Shanghai II (Japan)"
-	description "Shanghai II (Japan)"
+	name "Shanghai II (Japan) (En)"
+	description "Shanghai II (Japan) (En)"
 	region "Japan"
-	rom ( name "Shanghai II (Japan).gg" size 131072 crc 2AE8C75F md5 A9D1712DCA313BA021844F62EEC8A08C sha1 5180891EC0AE08D784DD89222D9FFD7F88A59691 )
+	rom ( name "Shanghai II (Japan) (En).gg" size 131072 crc 2AE8C75F md5 A9D1712DCA313BA021844F62EEC8A08C sha1 5180891EC0AE08D784DD89222D9FFD7F88A59691 )
 )
 game (
-	name "Shanghai II (Japan) (Rev A)"
-	description "Shanghai II (Japan) (Rev A)"
+	name "Shanghai II (Japan) (En) (Rev A)"
+	description "Shanghai II (Japan) (En) (Rev A)"
 	region "Japan"
-	rom ( name "Shanghai II (Japan) (Rev A).gg" size 131072 crc 81314249 md5 C228D31CF77BD03AC457E2D22F5B2BD1 sha1 82210B387344AAEBAE8CF03029967CD0C906BEFF )
+	rom ( name "Shanghai II (Japan) (En) (Rev A).gg" size 131072 crc 81314249 md5 C228D31CF77BD03AC457E2D22F5B2BD1 sha1 82210B387344AAEBAE8CF03029967CD0C906BEFF )
 )
 game (
 	name "Shaq Fu (USA)"
@@ -3731,10 +3756,10 @@ game (
 	rom ( name "Shaq Fu (USA).gg" size 524288 crc 6FCB8AB0 md5 EA608A53121D0C905DCFE6544248C275 sha1 BC9D0B0DC2B22B9530660F0A04B865492766C9D0 )
 )
 game (
-	name "Shikinjou (Japan)"
-	description "Shikinjou (Japan)"
+	name "Shikinjou (Japan) (En)"
+	description "Shikinjou (Japan) (En)"
 	region "Japan"
-	rom ( name "Shikinjou (Japan).gg" size 131072 crc 9C5C7F53 md5 A952A843A123092AAFBEB37B428EF6FF sha1 BF36130B1BE4BCE6C6EB7B87DB00D420797C3611 )
+	rom ( name "Shikinjou (Japan) (En).gg" size 131072 crc 9C5C7F53 md5 A952A843A123092AAFBEB37B428EF6FF sha1 BF36130B1BE4BCE6C6EB7B87DB00D420797C3611 )
 )
 game (
 	name "Shining Force - The Sword of Hajya (USA)"
@@ -3861,12 +3886,6 @@ game (
 	rom ( name "Slider (USA, Europe).gg" size 131072 crc 4DC6F555 md5 634A3EF93D9E93B79F194559541ADEB8 sha1 AB37B26CA62339720D1CEFCB152A0ACA545359AA )
 )
 game (
-	name "Smurfs Travel the World, The (Europe) (En,Fr,De,Es)"
-	description "Smurfs Travel the World, The (Europe) (En,Fr,De,Es)"
-	region "Europe"
-	rom ( name "Smurfs Travel the World, The (Europe) (En,Fr,De,Es).gg" size 262144 crc 3EB337DF md5 348CA8EAA37D5F468915B0CB5A558D21 sha1 33EB8C0FDE81D258CEEC4C74ABB20C10F6953A9D )
-)
-game (
 	name "Smurfs, The (Europe) (En,Fr,De,Es)"
 	description "Smurfs, The (Europe) (En,Fr,De,Es)"
 	region "Europe"
@@ -3896,10 +3915,10 @@ game (
 	rom ( name "Sonic & Tails (Japan) (En) (Sample).gg" size 524288 crc E0E3FB6A md5 F26A5632AF1EDBCA9951A53BBAA68210 sha1 CB09F304F3DA4BB23FE70ABEC4B94B4826C41111 )
 )
 game (
-	name "Sonic & Tails 2 (Japan)"
-	description "Sonic & Tails 2 (Japan)"
+	name "Sonic & Tails 2 (Japan) (En)"
+	description "Sonic & Tails 2 (Japan) (En)"
 	region "Japan"
-	rom ( name "Sonic & Tails 2 (Japan).gg" size 524288 crc 496BCE64 md5 05F5B6201CCECE80FACAF99FA7CF5A6E sha1 BB14ED43CF815E82F55E79753D0A7C8A24E24E7F )
+	rom ( name "Sonic & Tails 2 (Japan) (En).gg" size 524288 crc 496BCE64 md5 05F5B6201CCECE80FACAF99FA7CF5A6E sha1 BB14ED43CF815E82F55E79753D0A7C8A24E24E7F )
 )
 game (
 	name "Sonic Blast (World)"
@@ -3974,19 +3993,25 @@ game (
 	rom ( name "Sonic Drift (Japan) (En).gg" size 524288 crc 68F0A776 md5 8093EF0EEB147F2A938FAE3E5A26D8B3 sha1 FEF5D69093DF2D774ED274A4079790F8778577FC )
 )
 game (
+	name "Sonic Drift (Japan) (En) (Auto Demo)"
+	description "Sonic Drift (Japan) (En) (Auto Demo)"
+	region "Japan"
+	rom ( name "Sonic Drift (Japan) (En) (Auto Demo).gg" size 524288 crc BAAC1FC0 md5 DB3E87DC719C5D6F13859EEE81CCA297 sha1 462BDF9BFAC3EB9B389142B55BE39608C3343223 )
+)
+game (
 	name "Sonic Drift 2 (World)"
 	description "Sonic Drift 2 (World)"
 	rom ( name "Sonic Drift 2 (World).gg" size 524288 crc D6E8A305 md5 B39D1E9A40DFD3508EE4003CD28DA452 sha1 FE597C5CFBBC31E54F2484EB5B33C21C66CF0290 )
 )
 game (
-	name "Sonic Labyrinth (USA, Europe) (Virtual Console)"
-	description "Sonic Labyrinth (USA, Europe) (Virtual Console)"
-	rom ( name "Sonic Labyrinth (USA, Europe) (Virtual Console).gg" size 524288 crc B531A09E md5 27C46DADDA7BD6D04BD7863975CDDE39 sha1 77B7A4972725C605346CB441AD0B532BFF21065D )
-)
-game (
 	name "Sonic Labyrinth (World)"
 	description "Sonic Labyrinth (World)"
 	rom ( name "Sonic Labyrinth (World).gg" size 524288 crc 5550173B md5 AA6598585B2CDB92A14476BEEB34991B sha1 E24BF33D8D5A79F371485F20F207B6B26F5B341E )
+)
+game (
+	name "Sonic Labyrinth (World) (Virtual Console)"
+	description "Sonic Labyrinth (World) (Virtual Console)"
+	rom ( name "Sonic Labyrinth (World) (Virtual Console).gg" size 524288 crc B531A09E md5 27C46DADDA7BD6D04BD7863975CDDE39 sha1 77B7A4972725C605346CB441AD0B532BFF21065D )
 )
 game (
 	name "Sonic Spinball (USA, Europe, Brazil) (En)"
@@ -4164,14 +4189,14 @@ game (
 	rom ( name "Sonic The Hedgehog (Japan, USA) (En) (Beta).gg" size 262144 crc 816C0A1E md5 05D0E3897CB2B6E08C2952730D2C80C1 sha1 7FF6810E4AC03E04584243995C3FD54B77896C23 )
 )
 game (
-	name "Sonic The Hedgehog (World) (Rev 1)"
-	description "Sonic The Hedgehog (World) (Rev 1)"
-	rom ( name "Sonic The Hedgehog (World) (Rev 1).gg" size 262144 crc D163356E md5 B1DE7027824C434CE8DE59782705F5C9 sha1 7DBBBCA2229E74FCB8F90EC794AA6E5CB168E489 )
+	name "Sonic The Hedgehog (World) (Rev A)"
+	description "Sonic The Hedgehog (World) (Rev A)"
+	rom ( name "Sonic The Hedgehog (World) (Rev A).gg" size 262144 crc D163356E md5 B1DE7027824C434CE8DE59782705F5C9 sha1 7DBBBCA2229E74FCB8F90EC794AA6E5CB168E489 )
 )
 game (
-	name "Sonic The Hedgehog (World) (Rev 1) (Virtual Console)"
-	description "Sonic The Hedgehog (World) (Rev 1) (Virtual Console)"
-	rom ( name "Sonic The Hedgehog (World) (Rev 1) (Virtual Console).gg" size 262144 crc C2572208 md5 37A20D660517DE6A07B4981C253439EF sha1 DA410B0F00CD0B3A70C3E18C83D0D71609D8EA43 )
+	name "Sonic The Hedgehog (World) (Rev A) (Virtual Console)"
+	description "Sonic The Hedgehog (World) (Rev A) (Virtual Console)"
+	rom ( name "Sonic The Hedgehog (World) (Rev A) (Virtual Console).gg" size 262144 crc C2572208 md5 37A20D660517DE6A07B4981C253439EF sha1 DA410B0F00CD0B3A70C3E18C83D0D71609D8EA43 )
 )
 game (
 	name "Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En)"
@@ -4187,14 +4212,15 @@ game (
 	rom ( name "Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En) (Beta) (1994-08-08).gg" size 524288 crc 80EB7CFB md5 2FC9CD0ABA609D5BF179A7E66F561512 sha1 02257FECE665D04D3C88B5F5589773D5A8433953 )
 )
 game (
+	name "Sonic The Hedgehog 2 (USA) (Auto Demo)"
+	description "Sonic The Hedgehog 2 (USA) (Auto Demo)"
+	region "USA"
+	rom ( name "Sonic The Hedgehog 2 (USA) (Auto Demo).gg" size 262144 crc 15AD37A5 md5 AB191D48ADC692ADB19F429183361EA7 sha1 B780C6F059B48D1BB48EE2AD521552DAB1487C88 )
+)
+game (
 	name "Sonic The Hedgehog 2 (World)"
 	description "Sonic The Hedgehog 2 (World)"
 	rom ( name "Sonic The Hedgehog 2 (World).gg" size 524288 crc 95A18EC7 md5 9C64846563D8B9A24400471322E53FB5 sha1 DABB452E416B4FA9CB83D8DDD307C2A32C3A1A7F )
-)
-game (
-	name "Sonic The Hedgehog 2 (World) (Auto Demo)"
-	description "Sonic The Hedgehog 2 (World) (Auto Demo)"
-	rom ( name "Sonic The Hedgehog 2 (World) (Auto Demo).gg" size 262144 crc 15AD37A5 md5 AB191D48ADC692ADB19F429183361EA7 sha1 B780C6F059B48D1BB48EE2AD521552DAB1487C88 )
 )
 game (
 	name "Sonic The Hedgehog 2 (World) (Virtual Console)"
@@ -4202,10 +4228,10 @@ game (
 	rom ( name "Sonic The Hedgehog 2 (World) (Virtual Console).gg" size 524288 crc 850727A0 md5 39332EB123AEB1B906C70948641FE889 sha1 BA720D925FBED0D68E1D35F61C6F4FEC47708718 )
 )
 game (
-	name "Soukoban (Japan)"
-	description "Soukoban (Japan)"
+	name "Soukoban (Japan) (En)"
+	description "Soukoban (Japan) (En)"
 	region "Japan"
-	rom ( name "Soukoban (Japan).gg" size 131072 crc 0F3E3840 md5 0A98B767910B054CA3C5263EBA3BFBDC sha1 E5865A22DC3A9714160EF14BC59D510502D39B97 )
+	rom ( name "Soukoban (Japan) (En).gg" size 131072 crc 0F3E3840 md5 0A98B767910B054CA3C5263EBA3BFBDC sha1 E5865A22DC3A9714160EF14BC59D510502D39B97 )
 )
 game (
 	name "Space Harrier (World)"
@@ -4591,12 +4617,12 @@ game (
 game (
 	name "Star Wars (USA, Europe)"
 	description "Star Wars (USA, Europe)"
-	rom ( name "Star Wars (USA, Europe).gg" size 524288 crc DB9BC599 md5 B1B543A313BF406D1CD049AC84B31F26 sha1 682DF750F372134734D8668F08B9A5ACBB4F2CFD )
+	rom ( name "Star Wars (USA, Europe).gg" size 524288 crc 0228769C md5 5330216B69CFD046ABCC209CBC22D07E sha1 48C14C0C2B4E38AC122D9CCDCDC8B194E15EF032 )
 )
 game (
-	name "Star Wars (USA, Europe) (Alt)"
-	description "Star Wars (USA, Europe) (Alt)"
-	rom ( name "Star Wars (USA, Europe) (Alt).gg" size 524288 crc 0228769C md5 5330216B69CFD046ABCC209CBC22D07E sha1 48C14C0C2B4E38AC122D9CCDCDC8B194E15EF032 )
+	name "Star Wars (USA, Europe) (Rev 1)"
+	description "Star Wars (USA, Europe) (Rev 1)"
+	rom ( name "Star Wars (USA, Europe) (Rev 1).gg" size 524288 crc DB9BC599 md5 B1B543A313BF406D1CD049AC84B31F26 sha1 682DF750F372134734D8668F08B9A5ACBB4F2CFD )
 )
 game (
 	name "Stargate (World)"
@@ -4721,10 +4747,10 @@ game (
 	rom ( name "Super Columns (USA, Europe) (Beta) (1995-01-06).gg" size 131072 crc 096F4FF5 md5 0F9EB3B55945F0057E0E1A04424A64FC sha1 FED437CF7D22C685FEF7B2E55579CD77BB48E232 )
 )
 game (
-	name "Super Golf (Japan)"
-	description "Super Golf (Japan)"
+	name "Super Golf (Japan) (En)"
+	description "Super Golf (Japan) (En)"
 	region "Japan"
-	rom ( name "Super Golf (Japan).gg" size 131072 crc 528CBBCE md5 F2B5123B3614388677C9C15ADAAA8D64 sha1 9ECB48513621086EC6D5BFFA1375914F21F393E4 )
+	rom ( name "Super Golf (Japan) (En).gg" size 131072 crc 528CBBCE md5 F2B5123B3614388677C9C15ADAAA8D64 sha1 9ECB48513621086EC6D5BFFA1375914F21F393E4 )
 )
 game (
 	name "Super Golf (USA)"
@@ -4745,9 +4771,9 @@ game (
 	rom ( name "Super Momotarou Dentetsu III (Japan).gg" size 524288 crc B731BB80 md5 D8F9CFDE4ACA117781A931D4FA73FEAF sha1 F62E0E433987F97143282D2526490CD45F3E7185 )
 )
 game (
-	name "Super Monaco GP (Japan, Korea) (Ja)"
-	description "Super Monaco GP (Japan, Korea) (Ja)"
-	rom ( name "Super Monaco GP (Japan, Korea) (Ja).gg" size 131072 crc 4F686C4A md5 1D0840170B529DE631517EFC05D6168E sha1 2A61491785AD56F5BDC504C994F36EE8EA9DCF68 )
+	name "Super Monaco GP (Japan, Korea) (En)"
+	description "Super Monaco GP (Japan, Korea) (En)"
+	rom ( name "Super Monaco GP (Japan, Korea) (En).gg" size 131072 crc 4F686C4A md5 1D0840170B529DE631517EFC05D6168E sha1 2A61491785AD56F5BDC504C994F36EE8EA9DCF68 )
 )
 game (
 	name "Super Monaco GP (USA, Europe, Brazil) (En)"
@@ -4849,10 +4875,10 @@ game (
 	rom ( name "Tails Adventure (World) (En,Ja) (Virtual Console).gg" size 524288 crc A354EA49 md5 C2FE111A6E569EC6D58B9ECC32DE0E12 sha1 8A3C327B328DEF981779CE436DF7857578C01883 )
 )
 game (
-	name "Tails no Skypatrol (Japan)"
-	description "Tails no Skypatrol (Japan)"
+	name "Tails' Skypatrol (Japan) (En)"
+	description "Tails' Skypatrol (Japan) (En)"
 	region "Japan"
-	rom ( name "Tails no Skypatrol (Japan).gg" size 262144 crc 88618AFA md5 FFB364BBAF72881CF7571E7EC388490D sha1 9CB440611E9E3A7957438698FEDE0978D568A807 )
+	rom ( name "Tails' Skypatrol (Japan) (En).gg" size 262144 crc 88618AFA md5 FFB364BBAF72881CF7571E7EC388490D sha1 9CB440611E9E3A7957438698FEDE0978D568A807 )
 )
 game (
 	name "Taisen Mahjong HaoPai (Japan)"
@@ -4873,10 +4899,10 @@ game (
 	rom ( name "Taisen-gata Daisenryaku G (Japan).gg" size 262144 crc 7B7717B8 md5 4E17F98922ED08B1E9654AF31ABED5F3 sha1 D290BBA12F4B7341C3CE2A00BE8B8D7E548327E1 )
 )
 game (
-	name "Taito Chase H.Q. (Japan)"
-	description "Taito Chase H.Q. (Japan)"
+	name "Taito Chase H.Q. (Japan) (En)"
+	description "Taito Chase H.Q. (Japan) (En)"
 	region "Japan"
-	rom ( name "Taito Chase H.Q. (Japan).sms" size 131072 crc 7BB81E3D md5 3CD1A4C27E330BBA7703EE22AC83B856 sha1 B757B45A07AE6530443862E0ECA547E16C23B4A3 )
+	rom ( name "Taito Chase H.Q. (Japan) (En).sms" size 131072 crc 7BB81E3D md5 3CD1A4C27E330BBA7703EE22AC83B856 sha1 B757B45A07AE6530443862E0ECA547E16C23B4A3 )
 )
 game (
 	name "TaleSpin (USA, Europe, Brazil) (En)"
@@ -5133,6 +5159,12 @@ game (
 	rom ( name "Tesserae (USA).gg" size 131072 crc BF696F94 md5 5D047046906C8380D060D001BC1D8AA1 sha1 173CD95B05C5E403D55B6B246AA6B61D15CDB785 )
 )
 game (
+	name "Tesserae (USA) (Beta)"
+	description "Tesserae (USA) (Beta)"
+	region "USA"
+	rom ( name "Tesserae (USA) (Beta).gg" size 131072 crc 1CDDD2A3 md5 AD2A1CF97879957C87FE27261F2AA367 sha1 E1BDBF17A18E6CC16F50F4946F64BA577699891D )
+)
+game (
 	name "Tetris4GG (World) (v0.9) (Aftermarket) (Unl)"
 	description "Tetris4GG (World) (v0.9) (Aftermarket) (Unl)"
 	rom ( name "Tetris4GG (World) (v0.9) (Aftermarket) (Unl).gg" size 65536 crc E0654D27 md5 C77E1427E7DD3694BDAD73D166C60D6E sha1 B0A0BF66B1106B39E027574B8215BC658695BB4B )
@@ -5144,20 +5176,25 @@ game (
 	rom ( name "Tintin in Tibet (Europe) (En,Fr,De,Es,Nl,Sv).gg" size 524288 crc 969CF389 md5 082DBE19BCFB1A9D16423BC79E940826 sha1 2FDF4A953B53578BEFD69E9477AC6148CFA1C67C )
 )
 game (
-	name "Tom and Jerry - The Movie (Japan, Brazil) (Ja)"
-	description "Tom and Jerry - The Movie (Japan, Brazil) (Ja)"
-	rom ( name "Tom and Jerry - The Movie (Japan, Brazil) (Ja).gg" size 262144 crc A1453EFA md5 AB48136EFF306E35EC68EBEA10B5559B sha1 25F7E0D4B4416E4F879D289EED638D4018BEDB51 )
+	name "Tom and Jerry - The Movie (Japan, Brazil) (En,Ja)"
+	description "Tom and Jerry - The Movie (Japan, Brazil) (En,Ja)"
+	rom ( name "Tom and Jerry - The Movie (Japan, Brazil) (En,Ja).gg" size 262144 crc A1453EFA md5 AB48136EFF306E35EC68EBEA10B5559B sha1 25F7E0D4B4416E4F879D289EED638D4018BEDB51 )
 )
 game (
-	name "Tom and Jerry - The Movie (USA, Europe)"
-	description "Tom and Jerry - The Movie (USA, Europe)"
-	rom ( name "Tom and Jerry - The Movie (USA, Europe).gg" size 262144 crc 5CD33FF2 md5 C0246EED0C11EBE7A9B144A00ED61DF1 sha1 514F8BC2E9306F4005D5A8AA2DC49304D48BFC82 )
+	name "Tom and Jerry - The Movie (USA, Europe) (En,Ja)"
+	description "Tom and Jerry - The Movie (USA, Europe) (En,Ja)"
+	rom ( name "Tom and Jerry - The Movie (USA, Europe) (En,Ja).gg" size 262144 crc 5CD33FF2 md5 C0246EED0C11EBE7A9B144A00ED61DF1 sha1 514F8BC2E9306F4005D5A8AA2DC49304D48BFC82 )
 )
 game (
 	name "Torarete Tamaruka (Japan)"
 	description "Torarete Tamaruka (Japan)"
 	region "Japan"
 	rom ( name "Torarete Tamaruka (Japan).gg" size 524288 crc 5BCF9B97 md5 3AC2D39D5BA4FC04EEC9D13F0B1C2B73 sha1 FA87AC6B14C4B9EAA91FA8E4550B3C9049DD8EF2 )
+)
+game (
+	name "Trex (World) (Proto) (Aftermarket) (Unl)"
+	description "Trex (World) (Proto) (Aftermarket) (Unl)"
+	rom ( name "Trex (World) (Proto) (Aftermarket) (Unl).gg" size 32768 crc 9BB82CBC md5 5F957B0CEB7454EC141B1F6351D26008 sha1 DBC7DF6AD2FF8179E73E4BB8FEED009A6EC1619B )
 )
 game (
 	name "True Lies (World)"
@@ -5281,10 +5318,10 @@ game (
 	rom ( name "Wonder Boy (Europe).gg" size 131072 crc EA2DD3A7 md5 03ADBEA26158137DE3F18D82E119C520 sha1 F2C546BC87C5E89719FE01A59142BB3250861B83 )
 )
 game (
-	name "Wonder Boy (Japan)"
-	description "Wonder Boy (Japan)"
+	name "Wonder Boy (Japan) (En)"
+	description "Wonder Boy (Japan) (En)"
 	region "Japan"
-	rom ( name "Wonder Boy (Japan).gg" size 131072 crc 9977FCB3 md5 917C3E4F4C50D6506E64E2F05B945D9C sha1 7FF0F0757C7B2E84D99A4291656D74A20EC2651D )
+	rom ( name "Wonder Boy (Japan) (En).gg" size 131072 crc 9977FCB3 md5 917C3E4F4C50D6506E64E2F05B945D9C sha1 7FF0F0757C7B2E84D99A4291656D74A20EC2651D )
 )
 game (
 	name "Wonder Boy (USA) (Beta)"
@@ -5398,10 +5435,10 @@ game (
 	rom ( name "World Series Baseball (USA).gg" size 262144 crc 3D8D0DD6 md5 59359FC38865CFF00C90D6EB148DDC2F sha1 CCFD03EDF130F28E6BB4C2764DF7ACE7BBE9E159 )
 )
 game (
-	name "World Series Baseball (USA) (Rev 1)"
-	description "World Series Baseball (USA) (Rev 1)"
+	name "World Series Baseball (USA) (Rev A)"
+	description "World Series Baseball (USA) (Rev A)"
 	region "USA"
-	rom ( name "World Series Baseball (USA) (Rev 1).gg" size 262144 crc BB38CFD7 md5 05CAC33029F0CAAC27774504C1AA8597 sha1 333DD99F11781D6DE5720043530A460A409D652B )
+	rom ( name "World Series Baseball (USA) (Rev A).gg" size 262144 crc BB38CFD7 md5 05CAC33029F0CAAC27774504C1AA8597 sha1 333DD99F11781D6DE5720043530A460A409D652B )
 )
 game (
 	name "X-Men (USA)"
@@ -5520,10 +5557,10 @@ game (
 	rom ( name "Yogi Bear in Yogi Bear's Goldrush (Europe) (Proto).gg" size 262144 crc E678F264 md5 090C6BE6DE1D012F0CA478E4CD314449 sha1 EA5F9CE4B3618565EA24A858F7EFE3988B82EB8A )
 )
 game (
-	name "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan)"
-	description "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan)"
+	name "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En)"
+	description "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En)"
 	region "Japan"
-	rom ( name "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan).gg" size 524288 crc 88EBBF9E md5 8C172CBAFA7396077A651F2649D1CBCB sha1 E75803C9241094F7CFE251B99CD370228CC0923C )
+	rom ( name "Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En).gg" size 524288 crc 88EBBF9E md5 8C172CBAFA7396077A651F2649D1CBCB sha1 E75803C9241094F7CFE251B99CD370228CC0923C )
 )
 game (
 	name "Yu Yu Hakusho II - Gekitou! Nanakyou no Tatakai (Japan)"
@@ -5555,10 +5592,10 @@ game (
 	rom ( name "Zool - Ninja of the 'Nth' Dimension (USA).gg" size 262144 crc B287C695 md5 DB7DC3E8F0D46F0396AF99A87FF0489F sha1 8143C1D5E6C677AE5DD8143620B9FD02BE8873F6 )
 )
 game (
-	name "Zool no Yume Bouken (Japan)"
-	description "Zool no Yume Bouken (Japan)"
+	name "Zool no Yume Bouken (Japan) (En)"
+	description "Zool no Yume Bouken (Japan) (En)"
 	region "Japan"
-	rom ( name "Zool no Yume Bouken (Japan).gg" size 262144 crc E35EF7ED md5 FF5F8AD2C620E25D2B028F2E1FED2B54 sha1 2C799EE084B858CB71CFAA7A3F6D3A4F364B6C43 )
+	rom ( name "Zool no Yume Bouken (Japan) (En).gg" size 262144 crc E35EF7ED md5 FF5F8AD2C620E25D2B028F2E1FED2B54 sha1 2C799EE084B858CB71CFAA7A3F6D3A4F364B6C43 )
 )
 game (
 	name "Zoop (USA)"

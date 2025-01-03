@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - GameCube"
 	description "Nintendo - GameCube"
-	version "2024.09.27"
+	version "2024.12.21"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -562,12 +562,6 @@ game (
 	rom ( name "Action Replay for GameCube (Europe) (Unl) (v1.0E).iso" size 1459978240 crc 03EBA636 md5 34F1EA25E476AEBCE0CBE3EF6F92A2F1 sha1 7E141F84183AFE60A31317FABCFCD6764E0FD3FB )
 )
 game (
-	name "Action Replay for GameCube (USA) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
-	description "Action Replay for GameCube (USA) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
-	region "USA"
-	rom ( name "Action Replay for GameCube (USA) (En,Fr,De,Es,It,Pt) (Unl) (v1.08).iso" size 1459978240 crc 9CB75B81 md5 BA5AADAFB4B364679E6950D339AAEDFD sha1 8D480DC45B47E11C1BB5F7F500E2C78B08A1153A )
-)
-game (
 	name "Action Replay for GameCube (USA) (Unl) (v1.06)"
 	description "Action Replay for GameCube (USA) (Unl) (v1.06)"
 	region "USA"
@@ -584,6 +578,11 @@ game (
 	description "Action Replay for GameCube (USA) (Unl) (v1.20)"
 	region "USA"
 	rom ( name "Action Replay for GameCube (USA) (Unl) (v1.20).iso" size 1459978240 crc 1891D9AF md5 D39FB58AC46365A9E4C06606A1BF7CD4 sha1 5778428F85F0058FD2EB44C191162B6BD4FD627A )
+)
+game (
+	name "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
+	description "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
+	rom ( name "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08).iso" size 1459978240 crc 9CB75B81 md5 BA5AADAFB4B364679E6950D339AAEDFD sha1 8D480DC45B47E11C1BB5F7F500E2C78B08A1153A )
 )
 game (
 	name "Advance Connector GC-you (Japan) (Unl)"
@@ -4754,11 +4753,11 @@ game (
 	rom ( name "Gadget Racers (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc E04A0EBA md5 C7945229EEFAE34DC586AF3DBC01634A sha1 A7EDBC83364C164EBC06CFA420FEC7DDBEE8A7B6 serial "DL-DOL-GROP-EUR" )
 )
 game (
-	name "Gakuen Toshi Vara Noir Roses (Japan)"
-	description "Gakuen Toshi Vara Noir Roses (Japan)"
+	name "Gakuen Toshi Varanoir - Roses (Japan)"
+	description "Gakuen Toshi Varanoir - Roses (Japan)"
 	region "Japan"
 	serial "DL-DOL-GVWJ-JPN"
-	rom ( name "Gakuen Toshi Vara Noir Roses (Japan).iso" size 1459978240 crc CF6D0AA5 md5 364F6513CE08EBBFC312E7A05A6B4225 sha1 D403770CBA0C71520DF8FD853275508130AC04F4 serial "DL-DOL-GVWJ-JPN" )
+	rom ( name "Gakuen Toshi Varanoir - Roses (Japan).iso" size 1459978240 crc CF6D0AA5 md5 364F6513CE08EBBFC312E7A05A6B4225 sha1 D403770CBA0C71520DF8FD853275508130AC04F4 serial "DL-DOL-GVWJ-JPN" )
 )
 game (
 	name "Galleon (USA) (Proto)"
@@ -4928,11 +4927,11 @@ game (
 	rom ( name "Gekkan Nintendo Tentou Demo 2002.7.1 (Japan).iso" size 1459978240 crc 86DACAB6 md5 84936411BF7768BCDAC3BE8F401AD8EB sha1 4D7D77F67288902BA17BF6F42D19679E45CBCB54 serial "DL-DOL-D33J-DIS" )
 )
 game (
-	name "Gekkan Nintendo Tentou Demo 2002.7.10 (Japan)"
-	description "Gekkan Nintendo Tentou Demo 2002.7.10 (Japan)"
+	name "Gekkan Nintendo Tentou Demo 2002.7.10 Zoukan-gou (Japan)"
+	description "Gekkan Nintendo Tentou Demo 2002.7.10 Zoukan-gou (Japan)"
 	region "Japan"
 	serial "DL-DOL-D34J-DIS"
-	rom ( name "Gekkan Nintendo Tentou Demo 2002.7.10 (Japan).iso" size 1459978240 crc 878C6DEA md5 F185E3C31A81519EE0C0B2539EBCD442 sha1 8B863D521CE96C85C9DE60A9D95CCF10E6D8EDB6 serial "DL-DOL-D34J-DIS" )
+	rom ( name "Gekkan Nintendo Tentou Demo 2002.7.10 Zoukan-gou (Japan).iso" size 1459978240 crc 878C6DEA md5 F185E3C31A81519EE0C0B2539EBCD442 sha1 8B863D521CE96C85C9DE60A9D95CCF10E6D8EDB6 serial "DL-DOL-D34J-DIS" )
 )
 game (
 	name "Gekkan Nintendo Tentou Demo 2002.8.1 (Japan)"
@@ -7947,6 +7946,13 @@ game (
 	rom ( name "Mario Party 4 (USA) (Rev 1).iso" size 1459978240 crc 06AE54F0 md5 01DE13AD52F1554975E7F316370BA086 sha1 F4B287E3D1A9B05EA6CB5E573414F768370E1ED8 serial "DL-DOL-GMPE-USA" )
 )
 game (
+	name "Mario Party 4 Event-you Disc (Japan)"
+	description "Mario Party 4 Event-you Disc (Japan)"
+	region "Japan"
+	serial "DL-DOL-DMPJ-DIS"
+	rom ( name "Mario Party 4 Event-you Disc (Japan).iso" size 1459978240 crc 4D3A81A8 md5 FE10C951D2345F94B0633D4861C65598 sha1 DE8C7B6F1CA3E7B4BF29A3FA3D12C4BFC42DFAD4 serial "DL-DOL-DMPJ-DIS" )
+)
+game (
 	name "Mario Party 5 (Europe) (En,Fr,De,Es,It)"
 	description "Mario Party 5 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -9635,6 +9641,15 @@ game (
 	region "Europe"
 	serial "DL-DOL-GNDP-UKV"
 	rom ( name "Need for Speed - Underground (Europe).iso" size 1459978240 crc 4584DC3B md5 4EE3B6C5D66CC088C8B82BAF8C02EAE5 sha1 A3C0C830A015D167900757148030F69B867EFC31 serial "DL-DOL-GNDP-UKV" )
+)
+game (
+	name "Need for Speed - Underground (Europe) (Beta)"
+	description "Need for Speed - Underground (Europe) (Beta)"
+	releaseyear "2003"
+	releasemonth "09"
+	releaseday "10"
+	region "Europe"
+	rom ( name "Need for Speed - Underground (Europe) (Beta) (2003-09-10).iso" size 1459978240 crc 81525825 md5 92300453FFCA62C0A72586306E236D2B sha1 DF5BD053333E732D38F74B28276636BB0F2FFA44 )
 )
 game (
 	name "Need for Speed - Underground (France)"
