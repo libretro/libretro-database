@@ -1,6 +1,6 @@
-# RetroArch Database
+# Libretro Database
 
-RetroArch incoporates a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies. The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion)
+RetroArch includes a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies. The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion)
 
 Database entries at minimum contain fields for 1) a game's name and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
 
@@ -18,7 +18,7 @@ The automatic catalogging functions that depend on the database include:
 - [`cursors`](cursors) Provides methods in order to query the playlists
 - [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
-  - [`no-intro`](metadat/no-intro) Bulk carry-over data from No-Intro databases. [NOTE EDIT: THIS IS FALSE, research and revise]
+  - [`no-intro`](metadat/no-intro) Bulk carry-over data from No-Intro databases.
   - [`redump`](metadat/redump) Bulk carry-over data from Redump databases
   - [`hacks`](metadat/hacks) Data for modified versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent programmers
