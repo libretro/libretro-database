@@ -16,7 +16,8 @@ The automatic catalogging functions that depend on the database include:
 
 - [`cht`](cht) Cheats to various games
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
+- [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
+    - SNES Virtual Console Variants 
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
   - [`no-intro`](metadat/no-intro) Bulk carry-over data from No-Intro databases.
   - [`redump`](metadat/redump) Bulk carry-over data from Redump databases
