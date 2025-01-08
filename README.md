@@ -1,6 +1,6 @@
 # Libretro Database
 
-RetroArch includes a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies. The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion)
+RetroArch includes a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies (Change 'good copy' and add to purpose list). The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion. Research Serial being inside the file and retrieved, but not metadata?]
 
 Database entries at minimum contain fields for 1) a game's name and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
 
