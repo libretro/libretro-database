@@ -1,6 +1,8 @@
 # Libretro Database
 
-The github repository for databases used by RetroArch.  RetroArch relies on databases to provide several catalogging functions:
+The github repository for databases used by RetroArch.
+
+RetroArch relies on databases to provide several catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game file regardless of filename.
