@@ -1,38 +1,49 @@
 # Libretro Database
 
-RetroArch includes a ROM scanning system to automatically produce playlists. Each ROM that is scanned by the playlist generator is checked against a database of ROMs that are known to be good copies (Change 'good copy' and add to purpose list). The key field for matching depends on the typical file size of the given system: the crc checksum for systems with smaller file sizes, but instead the serial number for larger files like disc-based systems. [Edit: but the serial must be retrieved/looked up in the first place? Re-check discussion. Research Serial being inside the file and retrieved, but not metadata?]
+The github repository for databases used by RetroArch.  RetroArch relies on databases to provide several catalogging functions:
 
-Database entries at minimum contain fields for 1) a game's name and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
+- __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
+- __Game Naming__. Assign a definitive and uniform display name for each game file regardless of filename.
+- __Thumbnail Images__. Download and display thumbnail images for each game based on the uniform name assigned by the database, regardless of filename
+- __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
+- __Per-Game Information__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
-The automatic catalogging functions that depend on the database include:
+#### Key Field
+The key field for matching varies by file size, i.e. by console media type.
 
-- Assign a definitive display name for each game file _regardless of filename_
-- Download thumbnail images for each game based on the uniform name assigned by the database, regardless of filename
-- A reference search (named "Explore") so that the user can search for games by category, e.g. by Developer, Release Year, Genre, etc.
-- Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
+- __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
+- __Serial Number__ within the ROM file for larger files like disc-based systems. [Edit: How does this work? It searches the binary data? Is it a certain sector to look for?  This is NOT metadata?]
+
+Current program code publicly viewable [LINK] shows which type of key field RetroArch uses for each console system.
+
+#### Game Data in Repository
+Database entries at minimum contain fields for 1) a game's name, i.e. the display name that RetroArch will assign and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
 
 
-## Contents
+## Repository Contents
 
-- [`cht`](cht) Cheats to various games
+The repository contains many constituent databases that are compiled into `.rdb` files used by RetroArch. _(Note: several items described below are not compiled into RetroArch's game database files, e.g. Cheats, but are described here because they reside within the github database repository.)_ [EDIT: NOTE, separate into "Game Information Databases", ??"Functional/Maintenance", "Other"]??
+
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. 
 - [`cursors`](cursors) Provides methods in order to query the playlists
 - [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
     - SNES Virtual Console Variants 
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
-  - [`no-intro`](metadat/no-intro) Bulk carry-over data from No-Intro databases.
-  - [`redump`](metadat/redump) Bulk carry-over data from Redump databases
-  - [`hacks`](metadat/hacks) Data for modified versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
-  - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent programmers
-  - [`libretro-dats`](metadat/libretro-dats) E.g. Fan translations of SNES games, and [NOTE] FDS? Why FDS, check if covered elsewhere
+  - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
+  - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
+  - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
+  - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers
+  - [`libretro-dats`](metadat/libretro-dats) E.g. [EDIT: maybe "ad hoc databases for items not covered by upstream bla bla] Fan translations of SNES games, and [NOTE] FDS? Why FDS, check if covered elsewhere
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
 
-Component databases earlier in the list have precedence over items later in the list.  For example, definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
+#### Precedence
+Component databases earlier in the list have precedence over items later in the list.  Definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
 
 ## Sources
 
-Generally, RetroArch's scanner is configured for ROMs that have been validated by [No-Intro](http://datomatic.no-intro.org) or Redump DAT files but many other source databases are also in use.
+Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files 
 
 |System|Source|Repository|
 |----|---|---|
@@ -164,6 +175,8 @@ Generally, RetroArch's scanner is configured for ROMs that have been validated b
 |WASM-4| |[libretro-database-wasm4](https://github.com/robloach/libretro-database-wasm-4)
 |Watara - Supervision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Wolfenstein 3D| |
+
+# Maintenance / Technical Usage
 
 ## Building
 
