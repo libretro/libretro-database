@@ -51,7 +51,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below mean that the multiple listed sources are compiled with the given [precedence](#precedence).
+Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below indicate the [precedence](#precedence) order when multiple sources cover the same area of data.
 
 |System|Source|Repository|
 |----|---|---|
