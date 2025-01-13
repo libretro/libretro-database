@@ -41,7 +41,11 @@ The repository contains many constituent databases that are compiled into `.rdb`
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
 
 #### Precedence
-Component databases earlier in the list have precedence over items later in the list.  Definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
+Databases earlier in the list have precedence over items later in the list.  Definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
+
+#### Pre-emptive Databases
+
+Some databases are maintained even if RetroArch currently has no core for the games/system, e.g. GP32, Vita, Original Xbox, and PS3.
 
 ## Sources
 
