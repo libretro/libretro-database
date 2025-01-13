@@ -2,6 +2,7 @@
 
 The github repository for databases used by RetroArch.
 
+## Overview
 RetroArch relies on databases to provide several catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
@@ -49,7 +50,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below mean that the multiple listed sources are compiled with the given precedence.
+Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below mean that the multiple listed sources are compiled with the given [precedence](#precedence).
 
 |System|Source|Repository|
 |----|---|---|
