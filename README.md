@@ -28,7 +28,7 @@ The repository contains many constituent databases that are compiled into `.rdb`
 
 - [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. 
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files, maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups (e.g. "Virtual Console" variants).
+- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups, e.g. "Virtual Console" variants of SNES games. Also includes some imports from upstream in order to establish precedence in the compilation, e.g. GameCube data from GameTDB.
     - SNES Virtual Console Variants 
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
   - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
@@ -45,7 +45,7 @@ Component databases earlier in the list have precedence over items later in the 
 
 ## Sources
 
-Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files 
+Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below mean that the multiple listed sources are compiled with the given precedence.
 
 |System|Source|Repository|
 |----|---|---|
