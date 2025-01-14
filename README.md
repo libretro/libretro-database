@@ -16,9 +16,9 @@ Libretro databases allow RetroArch to provide several catalogging functions:
 The key field for matching varies by file size, i.e. by console media type.
 
 - __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
-- __Serial Number__ within the ROM file for larger files like disc-based systems. [Edit: How does this work? It searches the binary data? Is it a certain sector to look for?  This is NOT metadata?]
+- __Serial Number__ found within the ROM file for larger files like disc-based games. Note the serial is not metadata but encoded within the game's binary data, which is scanned as a byte array by RetroArch.
 
-Current program code publicly viewable [LINK] shows which type of key field RetroArch uses for each console system.
+Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be used as a reference for which type of key field RetroArch uses for each console system.
 
 #### Game Data in Repository
 Database entries at minimum contain fields for 1) a game's name, i.e. the display name that RetroArch will assign and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
