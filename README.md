@@ -30,14 +30,15 @@ The repository contains many constituent databases that are compiled into `.rdb`
 
 - [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. 
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups, e.g. "Virtual Console" variants of SNES games. Also includes some imports from upstream in order to establish precedence in the compilation, e.g. GameCube data from GameTDB.
-    - SNES Virtual Console Variants 
+- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups, e.g. "Virtual Console" variants of SNES games and non-generalized cores (Cave Story, Doom, etc). Also includes some imports from upstream groups in order to establish precedence in the compilation, e.g. GameCube data from GameTDB.
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
-  - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
-  - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
+  - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness
+  - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie")
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers
-  - [`libretro-dats`](metadat/libretro-dats) E.g. [EDIT: maybe "ad hoc databases for items not covered by upstream bla bla] Fan translations of SNES games, and [NOTE] FDS? Why FDS, check if covered elsewhere
+  - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently only fan translations of SNES games, and an FDS dat that includes Virtual Console variants.
+  - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
+  - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
@@ -51,7 +52,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-Many source databases are in use, as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below indicate the [precedence](#precedence) order when multiple sources cover the same area of data.
+A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files, but many other source databases are in use, as listed below. ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
