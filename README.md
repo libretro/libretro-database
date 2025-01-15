@@ -19,7 +19,7 @@ The key field for matching generally varies by console typical file size (i.e. m
 - __Serial Number__ found within the ROM file for larger files like disc-based games. Note the serial is not metadata but encoded within the game's binary data, which is scanned as a byte array by RetroArch.
 
 #### Game Data Specified in Databases
-Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) checksum/hash for identifying a particular file (or sometimes a serial number as a [key field](#key-field).  Further metadata for each game is often sourced from multiple databases.
+Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) checksum/hash for identifying a particular file (or sometimes a serial number as a [key field](#key-field)).  Further metadata for each game is often sourced from multiple databases.
 
 ## Repository Contents
 
