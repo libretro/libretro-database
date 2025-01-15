@@ -23,11 +23,11 @@ Database entries generally at minimum specify 1) a game's name, i.e. the display
 
 ## Repository Contents
 
-The repository contains game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and management/admin files and scripts. The non-exhaustive list below serves as a guide to various folders/files in the repository.
+The repository contains several different kinds of files: game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and management/admin files and scripts. The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
 - [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. Game-specific cheat files remain in plain text format, can be loaded by the user in RetroArch, and are not part of a compilation process like the game information databases.
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some bulk imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB.
+- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie")
