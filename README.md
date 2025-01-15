@@ -26,19 +26,20 @@ Database entries at minimum contain fields for 1) a game's name, i.e. the displa
 
 ## Repository Contents
 
-The repository contains many constituent databases that are compiled into `.rdb` files used by RetroArch. _(Note: several items described below are not compiled into RetroArch's game database files, e.g. Cheats, but are described here because they reside within the github database repository.)_ [EDIT: NOTE, separate into "Game Information Databases", ??"Functional/Maintenance", "Other"]??
+The repository contains game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and management/admin files and scripts. The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. 
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. Game-specific cheat files remain in plain text format, can be loaded by the user in RetroArch, and are not part of a compilation process like the game information databases.
 - [`cursors`](cursors) Provides methods in order to query the playlists
-- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups, e.g. "Virtual Console" variants of SNES games and non-generalized cores (Cave Story, Doom, etc). Also includes some imports from upstream groups in order to establish precedence in the compilation, e.g. GameCube data from GameTDB.
+- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream catalogging groups, e.g. "Virtual Console" variants of SNES games and monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some bulk imports from upstream groups in order to establish precedence in the compilation, e.g. GameCube data from GameTDB.
 - [`metadat`](metadat) Various metadata and third-party DATs. Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie")
-  - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  These data are set by direct manual commits on the Libretro Github.
+  - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers
   - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently only fan translations of SNES games, and an FDS dat that includes Virtual Console variants.
   - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
   - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
+  - [`tosec`](metadat/tosec) Bulk import from upstream TOSEC databases.
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
@@ -52,7 +53,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files, but many other source databases are in use, as listed below. ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
+Many source databases are in use as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
@@ -205,7 +206,7 @@ Make sure filenames are Windows file system compatible, and are not too long (eg
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
 
-## Integrations
+# Integrations
 
 There are a few tools out there that allow integration with libretro's database.
 
