@@ -21,7 +21,7 @@ The key field for matching varies by file size, i.e. by console media type.
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be used as a reference for which type of key field RetroArch uses for each console system.
 
 #### Game Data in Repository
-Database entries at minimum contain fields for 1) a game's name, i.e. the display name that RetroArch will assign and 2) checksum/hash for identifying a particular file.  Ideally the entries include further metadata such as a description (to disambiguate variants that may justifiably receive the same game name as another variant), 
+Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) checksum/hash for identifying a particular file (or sometimes a serial number as a [key field](#key-field).  Further metadata for each game is often sourced from multiple databases.
 
 
 ## Repository Contents
