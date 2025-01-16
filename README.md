@@ -16,7 +16,7 @@ Libretro databases allow RetroArch to provide several catalogging functions:
 The key field for matching generally varies by console typical file size (i.e. media type). Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be used as a reference for which type of key field RetroArch uses for each console system.
 
 - __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
-- __Serial Number__ found within the ROM file for larger files like disc-based games. Note the serial is not metadata but encoded within the game's binary data, which is scanned as a byte array by RetroArch.
+- __Serial Number__ found within the ROM file for larger files like disc-based games. Note the serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
 
 #### Game Data Specified in Databases
 Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) checksum/hash for identifying a particular file (or sometimes a serial number as a [key field](#key-field)).  Further metadata for each game is often sourced from multiple databases.
@@ -185,6 +185,8 @@ Many source databases are in use as listed below.  A large majority of games com
 
 # Maintenance / Technical Usage
 
+Note that the [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding planning in the build script.
+
 ## Building
 
 To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [RetroArch/libretro-db/README.md](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md).
@@ -202,6 +204,12 @@ Make sure filenames are Windows file system compatible, and are not too long (eg
 ```
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
+
+# Contributions
+
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc).  General best practice for corrections or additions is for a contributor to go through the systems and channels of the relevant groups, because a change in Libretro's copy of their database would be overwritten and lost with the next import from upstream..  Changes that they incorporate in their databases will eventually cycle through to the Libretro databases. 
+
+In cases where the Libretro `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to Commit/Pull Request [histories](EDIT: LINK) for information about which libretro databases are applicable for github contributions.
 
 # Integrations
 
