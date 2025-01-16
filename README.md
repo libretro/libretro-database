@@ -185,8 +185,6 @@ Many source databases are in use as listed below.  A large majority of games com
 
 # Maintenance / Technical Usage
 
-Note that the [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding planning in the build script.
-
 ## Building
 
 To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [RetroArch/libretro-db/README.md](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md).
@@ -204,6 +202,9 @@ Make sure filenames are Windows file system compatible, and are not too long (eg
 ```
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
+
+Note that the [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding revisions in the build script.
+
 
 # Contributions
 
