@@ -208,9 +208,13 @@ Note that the [build script](https://github.com/libretro/libretro-super/blob/mas
 
 # Contributions
 
-A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc).  General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group, because a "fix" to Libretro's copy of their database would be overwritten and lost with the next import from upstream.  Upstream changes made by the database groups will eventually be imported to the Libretro databases. 
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A  "fix" to Libretro's copy of the database would be overwritten and lost with the next import from upstream. 
 
-In cases where the Libretro `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
+In cases where the `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
+
+# Databases and RetroArch Thumbnails
+
+Currently there is no automatic process for syncing libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames to database game name updates.  Databases can assign a game name (aka playlist item name or displayed game title) based on game file's checksum, but thumbnails are only assigned based on name-matching (game name or the ROM filename, with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails).
 
 # Integrations
 
