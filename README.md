@@ -214,7 +214,7 @@ In cases where the `.dat` in question is created and maintained by Libretro, git
 
 # Databases and RetroArch Thumbnails
 
-Currently there is no automatic process for syncing libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames to database game name updates.  Databases can assign a game name (aka playlist item name or displayed game title) based on game file's checksum, but thumbnails are only assigned based on name-matching (game name or the ROM filename, with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails).
+Currently there is no automatic process for updating libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames based on game name updates in databases.  Databases assign a game name (aka playlist item name or displayed game title) based on a game file's checksum, but thumbnails are only assigned if the thumbnail server image file matches the game name or the ROM filename (with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails)).
 
 # Integrations
 
