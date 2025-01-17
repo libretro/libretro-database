@@ -208,9 +208,9 @@ Note that the [build script](https://github.com/libretro/libretro-super/blob/mas
 
 # Contributions
 
-A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc).  General best practice for corrections or additions is for a contributor to go through the systems and channels of the relevant groups, because a change in Libretro's copy of their database would be overwritten and lost with the next import from upstream..  Changes that they incorporate in their databases will eventually cycle through to the Libretro databases. 
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc).  General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group, because a "fix" to Libretro's copy of their database would be overwritten and lost with the next import from upstream.  Upstream changes made by the database groups will eventually be imported to the Libretro databases. 
 
-In cases where the Libretro `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to Commit/Pull Request [histories](EDIT: LINK) for information about which libretro databases are applicable for github contributions.
+In cases where the Libretro `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
 
 # Integrations
 
