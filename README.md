@@ -7,8 +7,8 @@ The github repository for databases used by RetroArch.
 Libretro databases allow RetroArch to provide several catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
-- __Game Naming__. Assign a definitive and uniform display name for each game file regardless of filename.
-- __Thumbnail Images__. Download and display thumbnail images for each game based on the uniform name assigned by the database, regardless of filename
+- __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
+- __Thumbnail Images__. Download and display thumbnail images for each game based on the uniform name assigned by the database, regardless of filename. (Thumbnail assignment [note edit]] This can be considered a secondary function of Game Naming rather than the database itself. Note that thumbnails are not assigned by databases or by checksum.)
 - __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
