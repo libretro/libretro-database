@@ -1,8 +1,14 @@
 # Libretro Database
 
-The github repository for databases used by RetroArch. The repository contains several different kinds of files: game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and admin/management scripts and files. 
+The github repository for databases used by RetroArch. 
 
 ## Overview
+
+The repository contains several different kinds of files:
+
+- Game information databases that are compiled into `.rdb` files used by RetroArch
+- Cheat code files that are game-specific, remain in plain text format when downloaded to and used in RetroArch, and are not part of a compilation process like the game information databases are
+- Admin/management scripts and files
 
 ### RetroArch's Usage of the Database
 
@@ -10,7 +16,7 @@ Libretro databases allow RetroArch to provide several catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
-- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server.)
+- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also note some flexibility in the matching algorithm [link edit]])
 - __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
@@ -21,6 +27,9 @@ The key field for matching generally varies by console typical file size (i.e. m
 - __Serial Number__ found within the ROM file, for larger files like disc-based games, to avoid computing checksums on large files. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
 
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
+
+### Precedence
+Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
 
 ### Fields Specified in Game Information Databases
 
@@ -40,7 +49,7 @@ game (
 
 The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. Cheat code files are game-specific, remain in plain text format when downloaded to and used RetroArch, and are not part of a compilation process like the game information databases are.
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
 - [`cursors`](cursors) Methods to query playlists.
 - [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, and TOSEC), plus various collections of metadata. Examples:
@@ -55,9 +64,6 @@ The non-exhaustive list below serves as a guide to various folders/files in the 
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
-
-#### Precedence
-Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
 
 #### Pre-emptive Databases
 
