@@ -4,11 +4,13 @@ The github repository for databases used by RetroArch.
 
 ## Overview
 
-The repository contains several different kinds of files:
+The database repository contains several different kinds of files:
 
-- __Game information databases__ that are compiled into `.rdb` files used by RetroArch
-- __Cheat code files__ that are game-specific, remain in plain text format when downloaded to and used in RetroArch, and are not part of a compilation process like the game information databases are
-- __Admin/management__ scripts and files
+- __Game information database files__.
+  - `.dat` constituent files from many (sometimes-overlapping) sources and across many categories of metadata.
+  - `.rdb` files compiled and amalgmated from the `.dat` files, one per system, used by RetroArch. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS compatibility](https://www.retroarch.com/index.php?page=platforms).
+- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch. The repository contains one unitary folder per system, unlike `.dat` files there is no amalgamation process.
+- __Admin/management__ scripts and files.
 
 ### RetroArch's Usage of the Database
 
@@ -29,7 +31,7 @@ The key field for matching generally varies by console typical file size (i.e. m
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
 ### Precedence
-Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item.
+Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item (i.e. for the same key field).
 
 ### Fields Specified in Game Information Databases
 
@@ -206,7 +208,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 
 # Maintenance / Technical Usage
 
-## Building
+### Building
 
 To build a complete set of RDB files for RetroArch or to generate a single RDB file, see [RetroArch/libretro-db/README.md](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md).
 
@@ -216,15 +218,22 @@ Alternatively, you can run the following command to rebuild all the RDBs locally
 make build
 ```
 
-## Testing
+### Testing
 
 Make sure filenames are Windows file system compatible, and are not too long (eg. [ecryptfs limits filenames to 143 characters](https://unix.stackexchange.com/questions/32795/what-is-the-maximum-allowed-filename-and-folder-size-with-ecryptfs/32834#32834))...
 
 ```
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
+### Other
 
-Note that the [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding revisions in the build script.
+**Folder structure revisions.** The [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding revisions in the build script.
+
+__Adding New Database: Example__
+- Creat new `metadata/nameofnewdatabasefolder` and appropriately named `.dat` files e.g. `Sony - PlayStation.dat`
+- Add the new entry to `libretro-build-database.sh`
+- Run ``make build`` to build the RDB files
+- New types for RetroArch's `Explore` tab will need some updates to RetroArch.
 
 
 # Contributions
