@@ -4,22 +4,24 @@ The github repository for databases used by RetroArch.
 
 ## Overview
 
+#### RetroArch's Usage of the Database
+
 Libretro databases allow RetroArch to provide several catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
-- __Thumbnail Images__. Download and display thumbnail images for each game based on the uniform name assigned by the database, regardless of filename. (Thumbnail assignment [note edit]] This can be considered a secondary function of Game Naming rather than the database itself. Note that thumbnails are not assigned by databases or by checksum.)
+- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server.)
 - __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
-- __Per-Game Information__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
+- __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
 #### Key Field
 The key field for matching generally varies by console typical file size (i.e. media type). Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be used as a reference for which type of key field RetroArch uses for each console system.
 
 - __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
-- __Serial Number__ found within the ROM file for larger files like disc-based games. Note the serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
+- __Serial Number__ found within the ROM file, for larger files like disc-based games, to avoid computing checksums on large files. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
 
 #### Game Data Specified in Databases
-Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching, which is usually a checksum/hash.  Further metadata for each game is often sourced from multiple databases.
+Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching, which is usually a checksum/hash.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for complete informational purposes even for cases where the [key field](#key-field) for matching is the game's internal serial number.
 
 ## Repository Contents
 
