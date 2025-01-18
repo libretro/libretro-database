@@ -6,17 +6,17 @@ The github repository for databases used by RetroArch.
 
 The repository contains several different kinds of files:
 
-- Game information databases that are compiled into `.rdb` files used by RetroArch
-- Cheat code files that are game-specific, remain in plain text format when downloaded to and used in RetroArch, and are not part of a compilation process like the game information databases are
-- Admin/management scripts and files
+- __Game information databases__ that are compiled into `.rdb` files used by RetroArch
+- __Cheat code files__ that are game-specific, remain in plain text format when downloaded to and used in RetroArch, and are not part of a compilation process like the game information databases are
+- __Admin/management__ scripts and files
 
 ### RetroArch's Usage of the Database
 
-Libretro databases allow RetroArch to provide several catalogging functions:
+Libretro databases allow RetroArch to provide several automated catalogging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
-- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also note some flexibility in the matching algorithm [link edit]])
+- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also see: [Flexible Name Matching Algorithm](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails))
 - __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
@@ -33,7 +33,7 @@ Databases earlier in the list have precedence over items later in the list.  E.g
 
 ### Fields Specified in Game Information Databases
 
-Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for informational completeness even in cases where the [key field](#key-field) for matching is the game's internal serial number.
+Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for informational completeness even in cases where the [key field](#key-field) for matching is the game's internal serial number rather than checksum.
 
 Example of database entry within [`metadat/no-intro/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/no-intro/Atari%20-%202600.dat) for the European region version of _Asteroids_:
 ```
@@ -49,15 +49,15 @@ game (
 
 The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions from users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
 - [`cursors`](cursors) Methods to query playlists.
-- [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
-- [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, and TOSEC), plus various collections of metadata. Examples:
+- [`dat`](dat) Mostly customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), and games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
+- [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, and TOSEC), plus various collections of metadata (Note: some may be deprecated or incomplete). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
-  - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently only fan translations of SNES games, and an FDS dat that includes Virtual Console variants.
+  - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently includes fan translations of SNES games, and an additional FDS dat that mostly overlaps with other sources/dats and may be redundant.
   - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
   - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
   - [`tosec`](metadat/tosec) Bulk import from upstream TOSEC databases.
@@ -71,7 +71,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-Many source databases are in use as listed below.  A large majority of games commonly used in RetroArch are covered by [No-Intro](http://datomatic.no-intro.org) or [Redump](http://redump.org/downloads/) DAT files. ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
+Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [Repository Contents](#repository-contents) and github History for each dat for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
@@ -229,13 +229,13 @@ Note that the [build script](https://github.com/libretro/libretro-super/blob/mas
 
 # Contributions
 
-A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A  "fix" to Libretro's copy of the database would be overwritten and lost with the next import from upstream. 
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A "fix" to Libretro's copy of the database would be overwritten and lost with the next import from upstream. 
 
-In cases where the `.dat` in question is created and maintained by Libretro, github contributions are acceptable.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
+In cases where the `.dat` in question is created and maintained by Libretro or does not receive bulk over-writes, github contributions are accepted.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
 
 # Databases and RetroArch Thumbnails
 
-Currently there is no automatic process for updating libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames based on game name updates in databases.  Databases assign a game name (aka playlist item name or displayed game title) based on a game file's checksum, but thumbnails are only assigned if the thumbnail server image file matches the game name or the ROM filename (with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails)).
+Currently there is no automatic process for updating libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames based on game name updates in databases.  Databases assign a game name (aka playlist item name or displayed game title) based on a game file's checksum, but thumbnails are only assigned if the thumbnail server image filename matches the game name or the ROM filename (with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails)). To help fix a thumbnail, for example in a case where a database game name has been definitively/correctly updated in a way that no longer matches the repository thumbnail name, follow the [Thumbnail Repository readme](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to) and [How-To documentation](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to).
 
 # Integrations
 
