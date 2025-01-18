@@ -1,10 +1,10 @@
 # Libretro Database
 
-The github repository for databases used by RetroArch.
+The github repository for databases used by RetroArch. The repository contains several different kinds of files: game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and admin/management scripts and files. 
 
 ## Overview
 
-#### RetroArch's Usage of the Database
+### RetroArch's Usage of the Database
 
 Libretro databases allow RetroArch to provide several catalogging functions:
 
@@ -14,27 +14,40 @@ Libretro databases allow RetroArch to provide several catalogging functions:
 - __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
-#### Key Field
-The key field for matching generally varies by console typical file size (i.e. media type). Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be used as a reference for which type of key field RetroArch uses for each console system.
+### Key Field
+The key field for matching generally varies by console typical file size (i.e. media type).
 
 - __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
 - __Serial Number__ found within the ROM file, for larger files like disc-based games, to avoid computing checksums on large files. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
 
-#### Game Data Specified in Databases
-Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching, which is usually a checksum/hash.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for complete informational purposes even for cases where the [key field](#key-field) for matching is the game's internal serial number.
+Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
+
+### Fields Specified in Game Information Databases
+
+Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for informational completeness even in cases where the [key field](#key-field) for matching is the game's internal serial number.
+
+Example of database entry within [`metadat/no-intro/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/no-intro/Atari%20-%202600.dat) for the European region version of _Asteroids_:
+```
+game (
+	name "Asteroids (Europe)"
+	description "Asteroids (Europe)"
+	region "Europe"
+	rom ( name "Asteroids (Europe).a26" size 8192 crc 0A2F8288 md5 8CF0D333BBE85B9549B1E6B1E2390B8D sha1 1CB8F057ACAD6DC65FEF07D3202088FF4AE355CD )
+)
+```
 
 ## Repository Contents
 
-The repository contains several different kinds of files: game information databases that are compiled into `.rdb` files used by RetroArch, cheat code files, and admin/management scripts and files. The non-exhaustive list below serves as a guide to various folders/files in the repository.
+The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
 - [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions by users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. Cheat code files are game-specific, remain in plain text format when downloaded to and used RetroArch, and are not part of a compilation process like the game information databases are.
-- [`cursors`](cursors) Provides methods in order to query the playlists
+- [`cursors`](cursors) Methods to query playlists.
 - [`dat`](dat) Customized DAT files maintained by the libretro team, including items that do/did not have contemporary documentation by upstream database groups (e.g. "Virtual Console" variants of SNES games), games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc). Also includes some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
-- [`metadat`](metadat) Various metadata and third-party DATs. Examples:
-  - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness
-  - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie")
+- [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, and TOSEC), plus various collections of metadata. Examples:
+  - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
+  - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
-  - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers
+  - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
   - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently only fan translations of SNES games, and an FDS dat that includes Virtual Console variants.
   - [`no-intro`](metadat/no-intro) Bulk import from upstream No-Intro databases. Generally non-disc-based systems.
   - [`redump`](metadat/redump) Bulk import from upstream Redump databases. Generally disc-based systems.
