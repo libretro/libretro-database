@@ -3,9 +3,9 @@
 The github repository for databases used by RetroArch. The repository contains several different kinds of files:
 
 - __Game information database files__.
-  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. Alternative additional sources can be easily added and maintained in a self-contained constituent. Some `.dat` files may overlap partly or completely in the games they cover (see [precedence](#precedence)), while some `.dat` files cover an exclusive niche of games.
+  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, and some `.dat` files may overlap partly or completely in the games they cover (see [precedence](#precedence)), while some `.dat` files cover an exclusive niche of games or attributes.
   - __`.rdb`__ files used by RetroArch, compiled and amalgmated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS compatibility](https://www.retroarch.com/index.php?page=platforms).
-- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch. The repository contains one unitary folder for each system, unlike the multifaceted storage of dat files.
+- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch when manually selected and loaded by the user (see [Documentation](https://docs.libretro.com/guides/cheat-codes/)). The repository contains one unitary folder for each system, and multiple different cheat files may exist for the same game.
 - __Admin/management scripts__ and files.
 
 ### RetroArch's Usage of the Database
@@ -19,21 +19,21 @@ Libretro databases allow RetroArch to provide several automated catalogging func
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry)
 
 ### Key Field
-The key field for matching generally varies by console typical file size (i.e. media type).
+The key field for matching varies by console typical file size (i.e. original media type).
 
-- __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
-- __Serial Number__ found within the ROM file, for larger files like disc-based games, to avoid computing checksums on large files. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
+- __CRC checksum__ for systems with smaller file sizes, e.g. games before the advent of disc-based consoles.
+- __Serial Number__ for larger files like disc-based games, to avoid computing checksums on large files. Found within the ROM file. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
 
 CRC and serial also serve as RetroArch's primary index.
 
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
 ### Precedence
-Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same item (i.e. for the same key field).
+Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
 
 ### Fields Specified in Game Information Databases
 
-Database entries generally at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching.  Further metadata for each game is often sourced from multiple databases.  Databases often contain checksum/hashes for informational completeness even in cases where the [key field](#key-field) for matching is the game's internal serial number rather than checksum.
+Database entries at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching and indexing.  Further metadata for each game is often sourced from multiple databases.  For reasons of informationial completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the [key](#key-field) used for matching.
 
 Example of database entry within [`metadat/no-intro/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/no-intro/Atari%20-%202600.dat) for the European region version of _Asteroids_:
 ```
@@ -44,6 +44,8 @@ game (
 	rom ( name "Asteroids (Europe).a26" size 8192 crc 0A2F8288 md5 8CF0D333BBE85B9549B1E6B1E2390B8D sha1 1CB8F057ACAD6DC65FEF07D3202088FF4AE355CD )
 )
 ```
+If other `Atari - 2600.dat` files exist and contain further metadata for the same crc, they would be compiled together with that entry's information in the final `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer the developer attribute "Atari."
+
 
 ## Repository Contents
 
