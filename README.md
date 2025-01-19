@@ -1,16 +1,12 @@
 # Libretro Database
 
-The github repository for databases used by RetroArch. 
-
-## Overview
-
-The database repository contains several different kinds of files:
+The github repository for databases used by RetroArch. The repository contains several different kinds of files:
 
 - __Game information database files__.
-  - `.dat` constituent files from many (sometimes-overlapping) sources and across many categories of metadata.
-  - `.rdb` files used by RetroArch, compiled and amalgmated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS compatibility](https://www.retroarch.com/index.php?page=platforms).
-- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch. The repository contains one unitary folder per system, unlike `.dat` files there is no amalgamation process.
-- __Admin/management__ scripts and files.
+  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. Alternative additional sources can be easily added and maintained in a self-contained constituent. Some `.dat` files may overlap partly or completely in the games they cover (see [precedence](#precedence)), while some `.dat` files cover an exclusive niche of games.
+  - __`.rdb`__ files used by RetroArch, compiled and amalgmated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS compatibility](https://www.retroarch.com/index.php?page=platforms).
+- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch. The repository contains one unitary folder for each system, unlike the multifaceted storage of dat files.
+- __Admin/management scripts__ and files.
 
 ### RetroArch's Usage of the Database
 
@@ -27,6 +23,8 @@ The key field for matching generally varies by console typical file size (i.e. m
 
 - __CRC checksum__ for systems with smaller file sizes, i.e. game media before the advent of disc-based games.
 - __Serial Number__ found within the ROM file, for larger files like disc-based games, to avoid computing checksums on large files. The serial is not metadata but encoded within the game's binary data, which is scanned (in applicable cases) as a byte array by RetroArch.
+
+CRC and serial also serve as RetroArch's primary index.
 
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
