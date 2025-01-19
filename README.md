@@ -3,7 +3,7 @@
 The github repository for databases used by RetroArch. The repository contains several different kinds of files:
 
 - __Game information database files__.
-  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, and some `.dat` files may overlap partly or completely in the games they cover (see [precedence](#precedence)), while some `.dat` files cover an exclusive niche of games or attributes.
+  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, and some `.dat` files may overlap in the games they cover (see [precedence](#precedence)), while some `.dat` files cover an exclusive niche of games or attributes.
   - __`.rdb`__ files used by RetroArch, compiled and amalgmated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS compatibility](https://www.retroarch.com/index.php?page=platforms).
 - __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch when manually selected and loaded by the user (see [Documentation](https://docs.libretro.com/guides/cheat-codes/)). The repository contains one unitary folder for each system, and multiple different cheat files may exist for the same game.
 - __Admin/management scripts__ and files.
@@ -57,6 +57,8 @@ The non-exhaustive list below serves as a guide to various folders/files in the 
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, and TOSEC), plus various collections of metadata (Note: some may be deprecated or incomplete). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
+  - [`fb-neosplit`](metadat/fb-neosplit) Includes an XML database (from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when doing a Manual Scan, and it defines the component files within each ROM archive. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file as is conventional for arcade emulation.)
+    - `FinalBurn Neo (ClrMame Pro XML, Arcade only).dat` 
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
   - [`libretro-dats`](metadat/libretro-dats) Ad hoc databases for items that were/are not covered by upstream database groups. Currently includes fan translations of SNES games, and an additional FDS dat that mostly overlaps with other sources/dats and may be redundant.
@@ -73,7 +75,7 @@ Some databases are maintained even if RetroArch currently has no core for the ga
 
 ## Sources
 
-Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [Repository Contents](#repository-contents) and github History for each dat for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
+Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [Repository Contents](#repository-contents) and each dat's github History for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
@@ -225,22 +227,23 @@ Make sure filenames are Windows file system compatible, and are not too long (eg
 ```
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
-### Other
 
-**Folder structure revisions.** The [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure should have corresponding revisions in the build script.
+### Adding New Database: Example
 
-__Adding New Database: Example__
-- Creat new `metadata/nameofnewdatabasefolder` and appropriately named `.dat` files e.g. `Sony - PlayStation.dat`
+- Create new `metadata/nameofnewdatabasefolder` and appropriately named `.dat` file(s) e.g. `Sony - PlayStation.dat`
 - Add the new entry to `libretro-build-database.sh`
 - Run ``make build`` to build the RDB files
-- New types for RetroArch's `Explore` tab will need some updates to RetroArch.
-
+- New types for RetroArch's `Explore` tab would require updates to RetroArch code.
 
 # Contributions
 
-A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). General best practice for corrections or additions is for a contributor to go through the channels/process of the relevant upstream group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A "fix" to Libretro's copy of the database would be overwritten and lost with the next import from upstream. 
+### Small-Scale Corrections
+
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). In cases where the `.dat` for the entry in question originates from an upstream group, best practice is for a contributor to go through the channels/process of that group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A seemingly helpful "fix" to Libretro's copy of the database would be overwritten and lost by the next import from upstream. 
 
 In cases where the `.dat` in question is created and maintained by Libretro or does not receive bulk over-writes, github contributions are accepted.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
+
+### Folder structure / Housekeeping revisions.** The [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational revisions to the file/folder structure (e.g. combining two metadata fragments into one unified folder and file) should have corresponding revisions in the build script.
 
 # Databases and RetroArch Thumbnails
 
