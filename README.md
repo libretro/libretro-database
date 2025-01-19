@@ -14,8 +14,8 @@ Libretro databases allow RetroArch to provide several automated cataloging funct
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
-- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Note: thumbnails are not directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also see: [Flexible Name Matching Algorithm](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails))
-- __Category Search__. A reference search (named "Explore") that allows the user to search for games by category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
+- __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Thumbnails are __not__ directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also see: [Flexible Name Matching Algorithm](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails).)
+- __Category Search ("Explore")__. Allows the user to find games by selecting category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry).
 
 ### Key Field
@@ -46,9 +46,11 @@ game (
 ```
 If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer `developer "Atari"` to the above data.
 
-#### `.dat` Headers
+#### Header Guidelines for DATs
 
-The `description " "` and `comment " "` fields within a libretro `clrmamepro ( )` header should explain the origin, source, and/or reason for the dat file's existence.  Those header fields are intended for documentation purposes and are ignored by RetroArch, and can be changed in the associated build script (or changed directly in the `.dat` in the case of a manual ad hoc dat file) without issue.
+The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin and source of the data and file.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description should contain information about both those aspects of the dat's origin.   The description and comment header fields are intended for documentation purposes, are ignored by RetroArch, and can be freely changed without issue.
+
+Only the `name` field of a `.dat` file header must match a uniform system name recognized by RetroArch, not the `description` field.
 
 ## Repository Contents
 
@@ -58,12 +60,12 @@ The non-exhaustive list below serves as a guide to various folders/files in the 
 - [`cursors`](cursors) Methods to query playlists.
 - [`dat`](dat) Customized DAT files maintained by the libretro team, including:
   - Subset data coverage for games or variants that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games, fan translations of NEC PC-98 games, and a superceded squib for PSP Minis.
-  - Monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
+  - Games for monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
   - Data adapted from upstream sources that cover a relatively small number of systems and can therefore can be housed together in a single repository folder without conflict, e.g. DOS, ScummVM, and GameTDB coverage of GameCube and Wii data.  (Though many dats from upstream groups reside in [`metadat`](metadat).)
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC) that each cover a large number of systems and therefore require their own folders in the repository, plus various collections of metadata (some of which may be deprecated). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
-  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file as is conventional for arcade emulation.)
+  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file.)
   - [`mame`](metadat/mame) Similar to `fbneo-split` above.
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
