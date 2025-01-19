@@ -44,7 +44,7 @@ game (
 	rom ( name "Asteroids (Europe).a26" size 8192 crc 0A2F8288 md5 8CF0D333BBE85B9549B1E6B1E2390B8D sha1 1CB8F057ACAD6DC65FEF07D3202088FF4AE355CD )
 )
 ```
-If other `Atari - 2600.dat` files exist and contain further metadata for the same crc, they would be compiled together with that entry's information in the final `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer the developer attribute "Atari."
+If other `Atari - 2600.dat` files exist and contain further metadata for the same crc, they would be compiled together with that entry's information in the final `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer `developer "Atari"`.
 
 
 ## Repository Contents
