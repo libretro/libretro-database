@@ -3,14 +3,14 @@
 The github repository for databases used by RetroArch. The repository contains several different kinds of files:
 
 - __Game information database files__.
-  - __`.dat`__ constituent files from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, some `.dat` files may overlap in the games they cover (see [precedence](#precedence)), and some `.dat` files cover an exclusive niche of games or attributes.
-  - __`.rdb`__ files used by RetroArch, compiled and amalgmated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accomodates RetroArch's [wide range of hardware/OS platforms](https://www.retroarch.com/index.php?page=platforms).
+  - __`.dat`__ files in the clrmamepro DAT format, from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, some dats may overlap in the games they cover (see [precedence](#precedence)), and some dats cover an exclusive niche of games or attributes.
+  - __`.rdb`__ files used by RetroArch, compiled and amalgamated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/tree/68b3e5d8e02aff753e01a1f6f8969891910b2e0b/libretro-db#readme) (_no relation to Redis .RDB files_) accommodates RetroArch's [wide range of hardware/OS platforms](https://www.retroarch.com/index.php?page=platforms).
 - __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch if manually selected by the user (see [Cheat Code Documentation](https://docs.libretro.com/guides/cheat-codes/)). The repository contains one folder for each system (unlike dats), and multiple different cheat files may exist for the same game.
 - __Admin/management scripts__ and files.
 
 ### RetroArch's Usage of the Database
 
-Libretro databases allow RetroArch to provide several automated catalogging functions:
+Libretro databases allow RetroArch to provide several automated cataloging functions:
 
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
@@ -33,7 +33,7 @@ Databases earlier in the list have precedence over items later in the list.  E.g
 
 ### Fields Specified in Game Information Databases
 
-Database entries at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching and indexing.  Further metadata for each game is often sourced from multiple databases.  For reasons of informationial completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the [key](#key-field) used for matching.
+Database entries for games at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching/indexing and for identifying a file.  Further optional metadata may appear.  For reasons of informational completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the [key](#key-field) used for matching.
 
 Example of database entry within [`metadat/no-intro/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/no-intro/Atari%20-%202600.dat) for the European region version of _Asteroids_:
 ```
@@ -44,24 +44,26 @@ game (
 	rom ( name "Asteroids (Europe).a26" size 8192 crc 0A2F8288 md5 8CF0D333BBE85B9549B1E6B1E2390B8D sha1 1CB8F057ACAD6DC65FEF07D3202088FF4AE355CD )
 )
 ```
-If other `Atari - 2600.dat` files exist and contain further metadata for the same crc, they would be compiled together with that entry's information in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer `developer "Atari"`.
+If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer `developer "Atari"` to the above data.
 
+#### `.dat` Headers
+
+The `description " "` and `comment " "` fields within a libretro `clrmamepro ( )` header should explain the origin, source, and/or reason for the dat file's existence.  Those header fields are intended for documentation purposes and are ignored by RetroArch, and can be changed in the associated build script (or changed directly in the `.dat` in the case of a manual ad hoc dat file) without issue.
 
 ## Repository Contents
 
 The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions from users who haved used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions from users who have used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
 - [`cursors`](cursors) Methods to query playlists.
-- [`dat`](dat) Mostly customized DAT files maintained by the libretro team, including:
-  - Items that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games
-  - [DOS](https://github.com/libretro/libretro-database/blob/master/dat/DOS.dat) sourced from TotalDOS via [libretro-database-dos](https://github.com/robloach/libretro-database-dos)
-  - Games for monolithic non-generalized cores (Cave Story, Doom, Quake, etc)
-  - Some imports from upstream groups in order to establish [precedence](#precedence) in the compilation, e.g. GameCube data from GameTDB, although most dats from upstream groups reside in [`metadat`](metadat).
-- [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC), plus various collections of metadata (some of which may be deprecated). Examples:
+- [`dat`](dat) Customized DAT files maintained by the libretro team, including:
+  - Subset data coverage for games or variants that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games, fan translations of NEC PC-98 games, and a superceded squib for PSP Minis.
+  - Monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
+  - Data adapted from upstream sources that cover a relatively small number of systems and can therefore can be housed together in a single repository folder without conflict, e.g. DOS, ScummVM, and GameTDB coverage of GameCube and Wii data.  (Though many dats from upstream groups reside in [`metadat`](metadat).)
+- [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC) that each cover a large number of systems and therefore require their own folders in the repository, plus various collections of metadata (some of which may be deprecated). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
-  - [`fbneo-split`](metadat/fb-neosplit) Includes an XML database (sourced from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file as is conventional for arcade emulation.)
+  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file as is conventional for arcade emulation.)
   - [`mame`](metadat/mame) Similar to `fbneo-split` above.
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
