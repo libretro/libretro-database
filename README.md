@@ -26,7 +26,7 @@ The key field for matching varies by console typical file size (i.e. original me
 
 CRC and serial also serve as RetroArch's primary index.
 
-Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L288) can be viewed as a reference for which type of key field RetroArch uses for each console system.
+Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L245) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
 ### Precedence
 Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `dat` will over-ride `metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
