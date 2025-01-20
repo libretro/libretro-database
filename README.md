@@ -65,7 +65,7 @@ The non-exhaustive list below serves as a guide to various folders/files in the 
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC) that each cover a large number of systems and therefore require their own folders in the repository, plus various collections of metadata (some of which may be deprecated). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
-  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) for special use in to arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file.)
+  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) for special use in arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. Also contains a typical `.dat`.
   - [`mame`](metadat/mame) Similar to `fbneo-split` above.
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
@@ -242,6 +242,12 @@ find -exec basename '{}' ';' | egrep '^.{144,}$'
 - Add the new entry to `libretro-build-database.sh`
 - Run ``make build`` to build the RDB files
 - New types for RetroArch's `Explore` tab require updates to RetroArch code.
+
+# Troubleshooting Brief
+
+A helpful set of steps for diagnosing the cause of a database or game/name identification issue, in order to help fix it, is:
+
+
 
 # Contributions
 
