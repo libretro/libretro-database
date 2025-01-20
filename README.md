@@ -33,7 +33,7 @@ Databases earlier in the list have precedence over items later in the list.  E.g
 
 ### Fields Specified in Game Information Databases
 
-Database entries for games at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching/indexing and for identifying a file.  Further optional metadata may appear.  For reasons of informational completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the [key](#key-field) used for matching.
+Database entries for games at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching/indexing and for identifying a file.  Further optional metadata may appear.  For reasons of informational completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the key used for matching.
 
 Example of database entry within [`metadat/no-intro/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/no-intro/Atari%20-%202600.dat) for the European region version of _Asteroids_:
 ```
