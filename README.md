@@ -46,7 +46,7 @@ game (
 ```
 If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L297) would confer `developer "Atari"` to the above data.
 
-#### Header Guidelines for DATs
+### Header Guidelines for DATs
 
 The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin and source of the data and file.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description should contain information about both those aspects of the dat's origin.   The description and comment header fields are intended for documentation purposes, are ignored by RetroArch, and can be freely changed without issue.
 
