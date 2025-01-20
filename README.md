@@ -15,7 +15,7 @@ Libretro databases allow RetroArch to provide several automated cataloging funct
 - __Validation__. Reject or accept files when using the [Import Scanner / Playlist Generator](https://docs.libretro.com/guides/roms-playlists-thumbnails/#working-with-playlists) based on whether the ROM checksum matches the checksum of a known verified completely intact (aka  "properly dumped") file.
 - __Game Naming__. Assign a definitive and uniform display name for each game in a playlist regardless of filename.
 - __Thumbnail Images__. Download and display thumbnail images for games based on the uniform name assigned by the database, regardless of filename. (Thumbnails are __not__ directly assigned by the database or by checksum association, but as a secondary effect of databased *game name* assignment if a matching thumbnail is available on the server. Also see: [Flexible Name Matching Algorithm](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails).)
-- __Category Search ("Explore")__. Allows the user to find games by selecting category criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
+- __Category Search ("Explore")__. Allows the user to find/view games that match selected criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry).
 
 ### Key Field
@@ -56,16 +56,16 @@ Only the `name` field of a `.dat` file header must match a uniform system name r
 
 The non-exhaustive list below serves as a guide to various folders/files in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual contributions from users who have used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
+- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual [contributions from users](https://github.com/libretro/libretro-database/pulls?q=is%3Apr+is%3Aclosed+cheats) who have used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
 - [`cursors`](cursors) Methods to query playlists.
 - [`dat`](dat) Customized DAT files maintained by the libretro team, including:
   - Subset data coverage for games or variants that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games, fan translations of NEC PC-98 games, and a superceded squib for PSP Minis.
-  - Games for monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
+  - Game data for monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
   - Data adapted from upstream sources that cover a relatively small number of systems and can therefore can be housed together in a single repository folder without conflict, e.g. DOS, ScummVM, and GameTDB coverage of GameCube and Wii data.  (Though many dats from upstream groups reside in [`metadat`](metadat).)
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC) that each cover a large number of systems and therefore require their own folders in the repository, plus various collections of metadata (some of which may be deprecated). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
-  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) unique to Arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file.)
+  - [`fbneo-split`](metadat/fbneo-split) Includes an XML database (sourced from Logiqx's DTD ROM Management) for special use in to arcade ROM scanning: it must be manually selected by the user when running a Manual Scan, it defines the component files within each ROM archive, and is not part of the `.rdb` compile. (Also contains a typical `.dat` that treats `.zip` archives as the operative game file.)
   - [`mame`](metadat/mame) Similar to `fbneo-split` above.
   - [`hacks`](metadat/hacks) Data for modified (or "hacked") versions of commercially released games.  Many of these data are set by direct manual commits on the Libretro Github.
   - [`homebrew`](metadat/homebrew) Data for non-officially-published games created by independent creators/programmers.
