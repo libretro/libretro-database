@@ -48,7 +48,7 @@ If other `Atari - 2600.dat` files exist in the repository and contain further me
 
 ### Header Guidelines for DATs
 
-The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin and source of the data and file.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description should contain information about both those aspects of the dat's origin.   The description and comment header fields are intended for documentation purposes, are ignored by RetroArch, and can be freely changed without issue.
+The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin and source of the data and file.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.   The description and comment header fields are intended for documentation purposes, are ignored by RetroArch, and can be freely changed without issue.
 
 Only the `name` field of a `.dat` file header must match a uniform system name recognized by RetroArch, not the `description` field.
 
