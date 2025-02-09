@@ -2,13 +2,15 @@
 
 The github repository for databases used by RetroArch. The repository contains several different kinds of files:
 
+## File Types
+
 - __Game information database files__.
   - __`.dat`__ files in the clrmamepro DAT format, from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, some dats may overlap in the games they cover (see [precedence](#precedence)), and some dats cover an exclusive niche of games or attributes.
   - __`.rdb`__ files used by RetroArch, compiled and amalgamated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md) (_no relation to Redis .RDB files_) accommodates RetroArch's [wide range of hardware/OS platforms](https://www.retroarch.com/index.php?page=platforms).
-- __Cheat code `.cht` files__. These are game-specific, remain in plain text, and are used as-is by RetroArch if manually selected by the user (see [Cheat Code Documentation](https://docs.libretro.com/guides/cheat-codes/)). The repository contains one folder for each system (unlike dats), and multiple different cheat files may exist for the same game.
+- __`.cht`__ cheat code files. These are game-specific, remain in plain text, and are used as-is by RetroArch if manually selected by the user (see [Cheat Code Documentation](https://docs.libretro.com/guides/cheat-codes/)). 
 - __Admin/management scripts__ and files.
 
-### RetroArch's Usage of the Database
+## RetroArch's Usage of the Database
 
 Libretro databases allow RetroArch to provide several automated cataloging functions:
 
@@ -18,7 +20,7 @@ Libretro databases allow RetroArch to provide several automated cataloging funct
 - __Category Search ("Explore")__. Allows the user to find/view games that match selected criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry).
 
-### Key Field
+## Key Field
 The key field for matching varies by console typical file size (i.e. original media type).
 
 - __CRC checksum__ for systems with smaller file sizes, e.g. games before the advent of disc-based consoles.
@@ -28,10 +30,10 @@ CRC and serial also serve as RetroArch's primary index.
 
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L245) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
-### Precedence
+## Precedence
 Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `/dat` will over-ride `/metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
 
-### Fields Specified in Game Information Databases
+## Fields Specified in Game Information Databases
 
 Database entries for games at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching/indexing and for identifying a file.  Further optional metadata may appear.  For reasons of informational completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the key used for matching.
 
@@ -46,7 +48,7 @@ game (
 ```
 If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L296) would confer `developer "Atari"` to the above data.
 
-### Header Guidelines for DATs
+## Header Guidelines for DATs
 
 The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin, source, and/or purpose of the data and file.  The description and comment header fields are __intended for documentation__ purposes, are ignored by RetroArch, and can be freely changed without issue.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.  If the .dat file is meant to cover a particular niche of data, the description field should explain it.  
 
@@ -54,9 +56,9 @@ The `name` field (and filename) of a `.dat` file header should match the `databa
 
 ## Repository Contents
 
-The non-exhaustive list below serves as a guide to various folders/files in the repository.
+The non-exhaustive list below serves as a guide to various folders in the repository.
 
-- [`cht`](cht) Cheat codes to various games, collected from any available source on the web including by manual [contributions from users](https://github.com/libretro/libretro-database/pulls?q=is%3Apr+is%3Aclosed+cheats) who have used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes.
+- [`cht`](cht) Cheat codes collected from any available source on the web including by manual [contributions from users](https://github.com/libretro/libretro-database/pulls?q=is%3Apr+is%3Aclosed+cheats) who have used RetroArch's built-in [memory address/value search feature](https://docs.libretro.com/guides/cheat-codes/#retroarch-new-cheat-code-searching) to construct new cheat codes. The repository contains one folder for each system (unlike dats), and multiple different cheat files may exist for the same game.
 - [`cursors`](cursors) Methods to query playlists.
 - [`dat`](dat) Customized DAT files maintained by the libretro team, including:
   - Subset data coverage for games or variants that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games, fan translations of NEC PC-98 games, and a superceded squib for PSP Minis.
@@ -76,10 +78,6 @@ The non-exhaustive list below serves as a guide to various folders/files in the 
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
 - [`scripts`](scripts) Various scripts that are used to maintain the database files
-
-#### Pre-emptive Databases
-
-Some databases are maintained even if RetroArch currently has no core for the games/system, e.g. GP32, Vita, Original Xbox, and PS3.
 
 ## Sources
 
@@ -215,6 +213,8 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 |WASM-4| |[libretro-database-wasm4](https://github.com/robloach/libretro-database-wasm-4)
 |Watara - Supervision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Wolfenstein 3D| |
+
+__Pre-emptive Databases__. Some databases are maintained even if RetroArch currently has no core for the games/system, e.g. GP32, Vita, Original Xbox, and PS3.
 
 # Maintenance / Technical Usage
 
