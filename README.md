@@ -216,7 +216,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 
 __Pre-emptive Databases__. Some databases are maintained even if RetroArch currently has no core for the games/system, e.g. GP32, Vita, Original Xbox, and PS3.
 
-# Maintenance / Technical Usage
+## Maintenance / Technical Usage
 
 ### Building
 
@@ -236,14 +236,7 @@ Make sure filenames are Windows file system compatible, and are not too long (eg
 find -exec basename '{}' ';' | egrep '^.{144,}$'
 ```
 
-### Adding A New Database
-
-- Create new `metadata/nameofnewdatabasefolder` and appropriately named system `.dat` file(s) e.g. `Sony - PlayStation.dat` with new data
-- Add the new entry to `libretro-build-database.sh`
-- Run ``make build`` to build the RDB files
-- New types for RetroArch's `Explore` tab require updates to RetroArch code.
-
-# Contributions
+## Contributions
 
 ### Small-Scale Corrections
 
@@ -255,11 +248,14 @@ In cases where the `.dat` in question is created and maintained by Libretro or d
 
 The [build script](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh) specifies exact `.dat` files and folders in the repository, therefore organizational housekeeping revisions to the file/folder structure (e.g. combining two metadata fragments into one unified folder and file) require corresponding revisions in the build script.
 
-### Large-Scale Additions
+### Adding A New Database
 
-See [Adding New Database](#adding-a-new-database).
+- Create new `metadata/nameofnewdatabasefolder` and appropriately named system `.dat` file(s) e.g. `Sony - PlayStation.dat` with new data
+- Add the new entry to `libretro-build-database.sh`
+- Run ``make build`` to build the RDB files
+- New types for RetroArch's `Explore` tab require updates to RetroArch code.
 
-# Databases and RetroArch Thumbnails
+## Databases and RetroArch Thumbnails
 
 Currently there is no automatic process for updating libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames based on game name updates in databases.  RetroArch uses databases to assign a [game name](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails) based on a game file's checksum (or other [key](#key-field)), but thumbnails are only assigned if the thumbnail server image filename matches the game name or the ROM filename (with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails)). To help fix a thumbnail, for example in a case where the database game name has been definitively/correctly updated in a way that no longer matches the repository thumbnail name, follow the [Thumbnail Repository Readme](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) and [How to Contribute to Thumbnails Guide](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to).
 
