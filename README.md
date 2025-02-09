@@ -7,7 +7,7 @@ The github repository for databases used by RetroArch. The repository contains s
 - __Game information database files__.
   - __`.dat`__ files in the clrmamepro DAT format, from many [sources](#sources) and across many categories of metadata. The system of dats is multifaceted: alternative or additional sources can be easily added and maintained in a self-contained constituent, some dats may overlap in the games they cover (see [precedence](#precedence)), and some dats cover an exclusive niche of games or attributes.
   - __`.rdb`__ files used by RetroArch, compiled and amalgamated from the `.dat` files. [RetroArch Database format](https://github.com/libretro/RetroArch/blob/master/libretro-db/README.md) (_no relation to Redis .RDB files_) accommodates RetroArch's [wide range of hardware/OS platforms](https://www.retroarch.com/index.php?page=platforms).
-- __`.cht`__ cheat code files. These are game-specific, remain in plain text, and are used as-is by RetroArch if manually selected by the user (see [Cheat Code Documentation](https://docs.libretro.com/guides/cheat-codes/)). 
+- __`.cht` cheat code files__. These are game-specific, remain in plain text, and are used as-is by RetroArch if manually selected by the user (see [Cheat Code Documentation](https://docs.libretro.com/guides/cheat-codes/)). 
 - __Admin/management scripts__ and files.
 
 ## RetroArch's Usage of the Database
