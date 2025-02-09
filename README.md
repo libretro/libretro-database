@@ -261,7 +261,7 @@ The [build script](https://github.com/libretro/libretro-super/blob/master/libret
 
 ## Databases and RetroArch Thumbnails
 
-Currently there is no automatic correspondence between game name updates in databases and image filename updates in the thumbnail repository, so database updates may break thumbnail retrieval.  See the [Thumbnail Repository Readme](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) and [How to Contribute to Thumbnails Guide](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to) to learn how to help fix thumbnail names that no longer match a databased game name.
+Currently there is no automatic correspondence between game name updates in databases and image filename updates in the thumbnail repository, so database updates may break thumbnail retrieval.  See the [Thumbnail Repository Readme](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) and [How to Contribute to Thumbnails Guide](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to) for documentation about thumbnail handling.
 
 ## Integrations
 
