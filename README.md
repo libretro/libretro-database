@@ -56,7 +56,7 @@ The `name` field (and filename) of a `.dat` file header should match the `databa
 ## Precedence
 Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `/dat` will over-ride `/metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
 
-## Repository Contents
+## repository folders
 
 The non-exhaustive list below serves as a guide to various folders in the repository.
 
@@ -83,7 +83,7 @@ The non-exhaustive list below serves as a guide to various folders in the reposi
 
 ## Sources
 
-Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [Repository Contents](#repository-contents) and each dat's github History for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
+Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [repository folders](#repository-folders) and each dat's github History for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
@@ -244,7 +244,7 @@ find -exec basename '{}' ';' | egrep '^.{144,}$'
 
 A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). In cases where the `.dat` for the entry at issue originates from an upstream group, best practice is for a contributor to go through the channels/process of that group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A seemingly helpful "fix" to Libretro's copy of the database would be overwritten and lost by the next import from upstream. 
 
-In cases where the `.dat` in question is created and maintained by Libretro or does not receive bulk over-writes, github contributions are accepted.  Refer to the [repository contents list](#repository-contents) above and to github Histories for information about which libretro databases are applicable for github contributions.
+In cases where the `.dat` in question is created and maintained by Libretro or does not receive bulk over-writes, github contributions are accepted.  Refer to the [repository folders list](#repository-folders) above and to github Histories for information about which libretro databases are applicable for github contributions.
 
 ### Folder Structure Revisions
 
