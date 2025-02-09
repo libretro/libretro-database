@@ -56,7 +56,7 @@ The `name` field (and filename) of a `.dat` file header should match the `databa
 ## Precedence
 Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `/dat` will over-ride `/metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
 
-## repository folders
+## Repository Folders
 
 The non-exhaustive list below serves as a guide to various folders in the repository.
 
@@ -83,7 +83,7 @@ The non-exhaustive list below serves as a guide to various folders in the reposi
 
 ## Sources
 
-Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [repository folders](#repository-folders) and each dat's github History for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
+Many source databases are in use as listed below.  The table focusses on the 3rd party sources that predominantly cover each specific console library, but other/multiple sources including manual github contributions are maintained and all are compiled together in the final `.rdb` files (see [Repository Folders](#repository-folders) and each dat's github History for details). ">" signs below indicate the [precedence](#precedence) order when multiple sources overlap for the same subset of games/data.
 
 |System|Source|Repository|
 |----|---|---|
