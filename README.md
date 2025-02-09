@@ -20,7 +20,9 @@ Libretro databases allow RetroArch to provide several automated cataloging funct
 - __Category Search ("Explore")__. Allows the user to find/view games that match selected criteria, e.g. by Developer, Release Year, Genre, and other attributes/metadata.
 - __Per-Game Information View__. Provide an in-app viewable informational screen for each game (Game > Information > Database Entry).
 
-## Key Field
+## Fields & Headers
+
+### Key Field
 The key field for matching varies by console typical file size (i.e. original media type).
 
 - __CRC checksum__ for systems with smaller file sizes, e.g. games before the advent of disc-based consoles.
@@ -30,10 +32,7 @@ CRC and serial also serve as RetroArch's primary index.
 
 Current [build script code](https://github.com/libretro/libretro-super/blob/master/libretro-build-database.sh#L245) can be viewed as a reference for which type of key field RetroArch uses for each console system.
 
-## Precedence
-Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `/dat` will over-ride `/metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
-
-## Fields Specified in Game Information Databases
+### Fields Specified in Game Information Databases
 
 Database entries for games at minimum specify 1) a game's name, i.e. the display name that RetroArch will assign in playlists and 2) [key field](#key-field) data for matching/indexing and for identifying a file.  Further optional metadata may appear.  For reasons of informational completeness, future-proofing, and compatibility outside RetroArch, databases contain checksum and cryptographic hashes regardless of the key used for matching.
 
@@ -48,11 +47,14 @@ game (
 ```
 If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L296) would confer `developer "Atari"` to the above data.
 
-## Header Guidelines for DATs
+### Header Guidelines for DATs
 
 The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin, source, and/or purpose of the data and file.  The description and comment header fields are __intended for documentation__ purposes, are ignored by RetroArch, and can be freely changed without issue.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.  If the .dat file is meant to cover a particular niche of data, the description field should explain it.  
 
 The `name` field (and filename) of a `.dat` file header should match the `database` field that is specified in the [.info file for the cores that use it](https://github.com/libretro/libretro-super/tree/master/dist/info) (often but not always `Manufacturer - Systemname` or similar). The `description` field should be descriptive and informative about the `.dat` file's origin and purpose.
+
+## Precedence
+Databases earlier in the list have precedence over items later in the list.  E.g. definitions in `/dat` will over-ride `/metadat` in the final `.rdb` compile if any info conflicts for the same game (i.e. for the same key field).
 
 ## Repository Contents
 
