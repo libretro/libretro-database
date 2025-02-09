@@ -261,9 +261,9 @@ The [build script](https://github.com/libretro/libretro-super/blob/master/libret
 
 ## Databases and RetroArch Thumbnails
 
-Currently there is no automatic process for updating libretro [thumbnail repository](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) image filenames based on game name updates in databases.  RetroArch uses databases to assign a [game name](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails) based on a game file's checksum (or other [key](#key-field)), but thumbnails are only assigned if the thumbnail server image filename matches the game name or the ROM filename (with some [flexibility](https://docs.libretro.com/guides/roms-playlists-thumbnails/#custom-thumbnails)). To help fix a thumbnail, for example in a case where the database game name has been definitively/correctly updated in a way that no longer matches the repository thumbnail name, follow the [Thumbnail Repository Readme](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) and [How to Contribute to Thumbnails Guide](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to).
+Currently there is no automatic correspondence between game name updates in databases and image filename updates in the thumbnail repository, so database updates may break thumbnail retrieval.  See the [Thumbnail Repository Readme](https://github.com/libretro-thumbnails/libretro-thumbnails#libretro-thumbnails) and [How to Contribute to Thumbnails Guide](https://docs.libretro.com/guides/roms-playlists-thumbnails/#contributing-thumbnails-how-to) to learn how to help fix thumbnail names that no longer match a databased game name.
 
-# Integrations
+## Integrations
 
 There are a few tools out there that allow integration with libretro's database.
 
