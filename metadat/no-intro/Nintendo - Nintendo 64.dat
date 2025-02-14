@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Nintendo 64"
 	description "Nintendo - Nintendo 64"
-	version "2025.01.05"
+	version "2025.02.14"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -78,12 +78,14 @@ game (
 game (
 	name "1080 Snowboarding (Japan, USA) (En,Ja)"
 	description "1080 Snowboarding (Japan, USA) (En,Ja)"
+	region "Japan"
 	serial "NTEA"
 	rom ( name "1080 Snowboarding (Japan, USA) (En,Ja).z64" size 16777216 crc 08FE81C7 md5 FA27089C425DBAB99F19245C5C997613 sha1 79CD1166C365E5809DEC9B62E6D40D6032D5DB3A serial "NTEA" )
 )
 game (
 	name "1080 Snowboarding (Japan, USA) (En,Ja)"
 	description "1080 Snowboarding (Japan, USA) (En,Ja)"
+	region "Japan"
 	serial "NTEA"
 	rom ( name "1080 Snowboarding (Japan, USA) (En,Ja).v64" size 16777216 crc D1744951 md5 18381C8F37E2B29F5940EEA9B5F96814 sha1 5F837C13A2FB3C8CDFD6FB720BD4A963AB515632 serial "NTEA" )
 )
@@ -4375,32 +4377,66 @@ game (
 	rom ( name "Freak Boy (Unknown) (Proto).v64" size 16777216 crc C15147FA md5 9356BDECA2146360C7DCD0740084D71A sha1 A5B705AB35815748905BACD580DD9EDE4D04FB60 )
 )
 game (
-	name "Frogger 2 (USA) (Proto 1)"
-	description "Frogger 2 (USA) (Proto 1)"
+	name "Frogger 2 (USA) (Proto) (1999-03-xx)"
+	description "Frogger 2 (USA) (Proto) (1999-03-xx)"
 	region "USA"
 	serial "NGVE"
-	rom ( name "Frogger 2 (USA) (Proto 1).z64" size 33554432 crc 8D62268E md5 097189B4C9BF6775E4685951B6E66F24 sha1 637CAFE4ABDC3FC0EF0703E3A47EA6A633B16FA3 serial "NGVE" )
+	rom ( name "Frogger 2 (USA) (Proto) (1999-03-xx).z64" size 8388608 crc DED56725 md5 FA6CE44ECF86DEC0AFA321D82CD3ED6E sha1 B9A92EB9A1FED20A429FE50944717F3D031D8973 serial "NGVE" )
 )
 game (
-	name "Frogger 2 (USA) (Proto 1)"
-	description "Frogger 2 (USA) (Proto 1)"
+	name "Frogger 2 (USA) (Proto) (1999-03-xx)"
+	description "Frogger 2 (USA) (Proto) (1999-03-xx)"
 	region "USA"
 	serial "NGVE"
-	rom ( name "Frogger 2 (USA) (Proto 1).v64" size 33554432 crc 8FC19A6E md5 7D99A2B9A7A08AF2ADB2BE776DCB8ACB sha1 6B7F8F102CAAA1BD93936F6CE7F3781CEBB23880 serial "NGVE" )
+	rom ( name "Frogger 2 (USA) (Proto) (1999-03-xx).v64" size 8388608 crc 6169A03A md5 5886E25BF7D6A1B782CD71D22663237C sha1 E0ED9DF4D416B9466097DEE333354778D60D3739 serial "NGVE" )
 )
 game (
-	name "Frogger 2 (USA) (Proto 2)"
-	description "Frogger 2 (USA) (Proto 2)"
+	name "Frogger 2 (USA) (Proto) (1999-06-xx)"
+	description "Frogger 2 (USA) (Proto) (1999-06-xx)"
 	region "USA"
 	serial "NGVE"
-	rom ( name "Frogger 2 (USA) (Proto 2).z64" size 33554432 crc A8F81F39 md5 27F61A55E27EA7F1EDE4CA11966ACC7C sha1 412D60EC37B71621368FE1885272F74385A7C5A3 serial "NGVE" )
+	rom ( name "Frogger 2 (USA) (Proto) (1999-06-xx).z64" size 8388608 crc 7D455C6F md5 5083F84302612BF595A454CF552530ED sha1 1553093F3B1942149DCFCF0234E6C040FFD1391C serial "NGVE" )
 )
 game (
-	name "Frogger 2 (USA) (Proto 2)"
-	description "Frogger 2 (USA) (Proto 2)"
+	name "Frogger 2 (USA) (Proto) (1999-06-xx)"
+	description "Frogger 2 (USA) (Proto) (1999-06-xx)"
 	region "USA"
 	serial "NGVE"
-	rom ( name "Frogger 2 (USA) (Proto 2).v64" size 33554432 crc DC59ECE7 md5 FC7D68D9DA36F898B75E422A08E0AE76 sha1 F16B3D87C243F0E25C1F71EB8C388178757DCDF9 serial "NGVE" )
+	rom ( name "Frogger 2 (USA) (Proto) (1999-06-xx).v64" size 8388608 crc 395422EC md5 6CE5726A9DD254F6B09941197A33EA45 sha1 FC4C8B8EA0536E6E5FABCD1A2B8A557CB69DA613 serial "NGVE" )
+)
+game (
+	name "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4)"
+	description "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4)"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4).z64" size 8388608 crc 8273BFA5 md5 E0DC294F86C9EA56F0A4818F7596343E sha1 D2BC7A66D95510C7F51934823EF5BA2DE76B6D9C serial "NGVE" )
+)
+game (
+	name "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4)"
+	description "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4)"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Frogger 2 (USA) (Proto) (1999-06-xx) (MS4).v64" size 8388608 crc 8273BFA5 md5 E0DC294F86C9EA56F0A4818F7596343E sha1 D2BC7A66D95510C7F51934823EF5BA2DE76B6D9C serial "NGVE" )
+)
+game (
+	name "Frogger 2 (USA) (Proto)"
+	description "Frogger 2 (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "12"
+	releaseday "01"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Frogger 2 (USA) (Proto) (1999-12-01).z64" size 12582912 crc 308E0E04 md5 859DB3E61FCE36D4B5FFA3B54E7A27A8 sha1 BABA83E0A2EAC1D74B776B983E594A29FDB54D07 serial "NGVE" )
+)
+game (
+	name "Frogger 2 (USA) (Proto)"
+	description "Frogger 2 (USA) (Proto)"
+	releaseyear "1999"
+	releasemonth "12"
+	releaseday "01"
+	region "USA"
+	serial "NGVE"
+	rom ( name "Frogger 2 (USA) (Proto) (1999-12-01).v64" size 12582912 crc 6571DBB1 md5 1ADB614C1E613B88A4B0D2B661AC9115 sha1 728F40179E20467F5C796CBC142CC5AC31F9BE2B serial "NGVE" )
 )
 game (
 	name "Fushigi no Dungeon - Fuurai no Shiren 2 - Oni Shuurai! Shiren Jou! (Japan)"
@@ -4919,12 +4955,14 @@ game (
 game (
 	name "GoldenEye 007 (USA, Europe) (Switch Online)"
 	description "GoldenEye 007 (USA, Europe) (Switch Online)"
+	region "USA"
 	serial "NGEE"
 	rom ( name "GoldenEye 007 (USA, Europe) (Switch Online).z64" size 12582912 crc E3F2B41E md5 EA0E3E6AEFA58738A12906298373218B sha1 84ACCDC54FFAECEE312CE6945BFE722ED97E654C serial "NGEE" )
 )
 game (
 	name "GoldenEye 007 (USA, Europe) (Switch Online)"
 	description "GoldenEye 007 (USA, Europe) (Switch Online)"
+	region "USA"
 	serial "NGEE"
 	rom ( name "GoldenEye 007 (USA, Europe) (Switch Online).v64" size 12582912 crc FBB1B33B md5 3956327E48E58B199CD2BEB6B95ACC36 sha1 89DC0F50F22123521B9E71CD5BFEE670FC07E9DD serial "NGEE" )
 )
@@ -9675,12 +9713,14 @@ game (
 game (
 	name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
 	description "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
+	region "USA"
 	serial "NOBE"
 	rom ( name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console).z64" size 41943040 crc 19337B04 md5 F04C8F511B678301B21C54A27CB08BB9 sha1 604C5BC450D0C33B536C185F53725C2BAF622F3B serial "NOBE" )
 )
 game (
 	name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
 	description "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
+	region "USA"
 	serial "NOBE"
 	rom ( name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console).v64" size 41943040 crc 3752AD39 md5 8174B133F4C9675B43E1C4ED6675E797 sha1 544949641D8728BB2FB91CC84A3AF7D3186DC0FF serial "NOBE" )
 )
@@ -12344,12 +12384,14 @@ game (
 game (
 	name "Snowboard Kids (Europe, Australia)"
 	description "Snowboard Kids (Europe, Australia)"
+	region "Europe"
 	serial "NSKP"
 	rom ( name "Snowboard Kids (Europe, Australia).z64" size 8388608 crc 5619A70D md5 AB4382E583AE139EEDBAFCE5FA87E4C8 sha1 B26802748F4CC15F44492BCC6941A487E75BBCA6 serial "NSKP" )
 )
 game (
 	name "Snowboard Kids (Europe, Australia)"
 	description "Snowboard Kids (Europe, Australia)"
+	region "Europe"
 	serial "NSKP"
 	rom ( name "Snowboard Kids (Europe, Australia).v64" size 8388608 crc 4F2415F3 md5 127AB20EE41ADB54C83DFB5BF5794D27 sha1 FD4CA5DC092DA70996AF699C8A4591FAEF58EC0C serial "NSKP" )
 )
