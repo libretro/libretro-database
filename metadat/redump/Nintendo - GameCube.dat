@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - GameCube"
 	description "Nintendo - GameCube"
-	version "2025.01.05"
+	version "2025.02.14"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -460,6 +460,7 @@ game (
 game (
 	name "Action Replay Max (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl)"
 	description "Action Replay Max (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl)"
+	region "USA"
 	rom ( name "Action Replay Max (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl).iso" size 1459978240 crc 989E3A76 md5 335E62CDEB07EF3E15D1A3BFCEAA28D2 sha1 B339B3F828ABE509BFBB4A745322EEBEA54E105D )
 )
 game (
@@ -582,6 +583,7 @@ game (
 game (
 	name "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
 	description "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08)"
+	region "USA"
 	rom ( name "Action Replay for GameCube (USA, Europe) (En,Fr,De,Es,It,Pt) (Unl) (v1.08).iso" size 1459978240 crc 9CB75B81 md5 BA5AADAFB4B364679E6950D339AAEDFD sha1 8D480DC45B47E11C1BB5F7F500E2C78B08A1153A )
 )
 game (
@@ -593,6 +595,7 @@ game (
 game (
 	name "Advance Game Port & Cheat Construction Kit (USA, Europe) (Unl)"
 	description "Advance Game Port & Cheat Construction Kit (USA, Europe) (Unl)"
+	region "USA"
 	rom ( name "Advance Game Port & Cheat Construction Kit (USA, Europe) (Unl).iso" size 1459978240 crc F9450866 md5 C8A95EB91168DE341237A7450C090865 sha1 ED9F3C29F061B5FDE7EC989AF515020B241A8FB7 )
 )
 game (
@@ -2321,12 +2324,14 @@ game (
 game (
 	name "Crash Tag Team Racing (Europe, Australia)"
 	description "Crash Tag Team Racing (Europe, Australia)"
+	region "Europe"
 	serial "DL-DOL-G9RP-AUS"
 	rom ( name "Crash Tag Team Racing (Europe, Australia).iso" size 1459978240 crc 30016797 md5 3DAEA3E78D153EDF556A3E320CE8CB56 sha1 70FA7D596735AC03A6F3D49F60CD3754AB10CDA8 serial "DL-DOL-G9RP-AUS" )
 )
 game (
 	name "Crash Tag Team Racing (Europe, Australia)"
 	description "Crash Tag Team Racing (Europe, Australia)"
+	region "Europe"
 	serial "DL-DOL-G9RP-UKV"
 	rom ( name "Crash Tag Team Racing (Europe, Australia).iso" size 1459978240 crc 30016797 md5 3DAEA3E78D153EDF556A3E320CE8CB56 sha1 70FA7D596735AC03A6F3D49F60CD3754AB10CDA8 serial "DL-DOL-G9RP-UKV" )
 )
@@ -4604,12 +4609,21 @@ game (
 game (
 	name "FreeLoader for GameCube (Europe) (Unl) (v1.06B)"
 	description "FreeLoader for GameCube (Europe) (Unl) (v1.06B)"
+	releaseyear "2003"
 	region "Europe"
-	rom ( name "FreeLoader for GameCube (Europe) (Unl) (v1.06B).iso" size 1459978240 crc 9CB4C020 md5 C8440AA82A0F4305DB814A85C890A69D sha1 4CEBFED36EA6F52588C716634AC4C4C020795A4A )
+	rom ( name "FreeLoader for GameCube (Europe) (Unl) (v1.06B) (2003).iso" size 1459978240 crc 40647E85 md5 CFE4AE2B1FCCA8457DEDA4A1A34DD978 sha1 6D41ECCFB2CA105CE495C1F3BD905FD75257AA53 )
+)
+game (
+	name "FreeLoader for GameCube (Europe) (Unl) (v1.06B)"
+	description "FreeLoader for GameCube (Europe) (Unl) (v1.06B)"
+	releaseyear "2004"
+	region "Europe"
+	rom ( name "FreeLoader for GameCube (Europe) (Unl) (v1.06B) (2004).iso" size 1459978240 crc 9CB4C020 md5 C8440AA82A0F4305DB814A85C890A69D sha1 4CEBFED36EA6F52588C716634AC4C4C020795A4A )
 )
 game (
 	name "FreeLoader for GameCube (USA, Europe) (Unl) (v1.06b)"
 	description "FreeLoader for GameCube (USA, Europe) (Unl) (v1.06b)"
+	region "USA"
 	rom ( name "FreeLoader for GameCube (USA, Europe) (Unl) (v1.06b).iso" size 1459978240 crc 7E80C1B9 md5 92EE4870EF12F5FDC5AD106FFE5ED177 sha1 C74183C91D1667904423373C54A977F3F4909647 )
 )
 game (
@@ -8157,6 +8171,7 @@ game (
 game (
 	name "Max Drive Pro (USA, Europe) (Unl)"
 	description "Max Drive Pro (USA, Europe) (Unl)"
+	region "USA"
 	rom ( name "Max Drive Pro (USA, Europe) (Unl).iso" size 1459978240 crc 21203127 md5 79782E9ABDC418E8AE91323D0F7BE0B5 sha1 7BA30E2CFCACD864638E387880CFE8F1F07F1167 )
 )
 game (
@@ -8166,16 +8181,22 @@ game (
 	rom ( name "Max Memory Power Saves - Volume 1 (USA) (Unl).iso" size 1459978240 crc 9A3FE338 md5 CF40EA94ACA6D7AA11DB574ECE398275 sha1 B223C42A8303332014784940DEC29E42CE24DA85 )
 )
 game (
-	name "MaxPlay (Europe) (Unl)"
-	description "MaxPlay (Europe) (Unl)"
+	name "Max Play (Europe) (Unl)"
+	description "Max Play (Europe) (Unl)"
 	region "Europe"
-	rom ( name "MaxPlay (Europe) (Unl).iso" size 1459978240 crc 105DDF80 md5 41FDF786D436E99E57A77C32E8BFCB86 sha1 30D8863DE2C28110706C72B305C7560C0D5DA777 )
+	rom ( name "Max Play (Europe) (Unl).iso" size 1459978240 crc 105DDF80 md5 41FDF786D436E99E57A77C32E8BFCB86 sha1 30D8863DE2C28110706C72B305C7560C0D5DA777 )
 )
 game (
-	name "MaxPlay (USA) (Unl)"
-	description "MaxPlay (USA) (Unl)"
+	name "Max Play (Europe) (Unl) (GameCube + Wii)"
+	description "Max Play (Europe) (Unl) (GameCube + Wii)"
+	region "Europe"
+	rom ( name "Max Play (Europe) (Unl) (GameCube + Wii).iso" size 1459978240 crc BF68F726 md5 5F20C3D88DF42EA40743837F61AF76CE sha1 71DCAE04D44E75D25716CF5B4BCFB8F36B59F072 )
+)
+game (
+	name "Max Play (USA) (Unl)"
+	description "Max Play (USA) (Unl)"
 	region "USA"
-	rom ( name "MaxPlay (USA) (Unl).iso" size 1459978240 crc CC3182C3 md5 8A68E9917D7648674CDB51844A4DF3EB sha1 F4F728F02B02B0540F4354B13B0DFDE528FFB056 )
+	rom ( name "Max Play (USA) (Unl).iso" size 1459978240 crc CC3182C3 md5 8A68E9917D7648674CDB51844A4DF3EB sha1 F4F728F02B02B0540F4354B13B0DFDE528FFB056 )
 )
 game (
 	name "Medabots Infinity (Europe) (En,Fr,De,Nl)"
@@ -8826,11 +8847,11 @@ game (
 	rom ( name "Mission - Impossible - Operation Surma (USA).iso" size 1459978240 crc 5595D6BB md5 A467E35791894810D26FEDF562A42C43 sha1 93BB0D0F8CECB8EF6D9B8971A4CE8FC0BE8454E8 serial "DL-DOL-GMIE-USA" )
 )
 game (
-	name "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Maki (Japan)"
-	description "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Maki (Japan)"
+	name "Momotarou Dentetsu 11 - Black Bonby Shutsugen! no Maki (Japan)"
+	description "Momotarou Dentetsu 11 - Black Bonby Shutsugen! no Maki (Japan)"
 	region "Japan"
 	serial "DL-DOL-GIIJ-JPN"
-	rom ( name "Momotarou Dentetsu 11 - Black Bombee Shutsugen! no Maki (Japan).iso" size 1459978240 crc 11AAA0D2 md5 9D9E62433A9E0D96D8209CED63A51602 sha1 9421ACB0D07E5B912B3ADDF0DD1C7A7B17790198 serial "DL-DOL-GIIJ-JPN" )
+	rom ( name "Momotarou Dentetsu 11 - Black Bonby Shutsugen! no Maki (Japan).iso" size 1459978240 crc 11AAA0D2 md5 9D9E62433A9E0D96D8209CED63A51602 sha1 9421ACB0D07E5B912B3ADDF0DD1C7A7B17790198 serial "DL-DOL-GIIJ-JPN" )
 )
 game (
 	name "Momotarou Dentetsu 12 - Nishi Nihon-hen mo Arimasse! (Japan)"
@@ -9341,6 +9362,13 @@ game (
 	region "Europe"
 	serial "DL-DOL-GN6P-EUR"
 	rom ( name "NHL 06 (Europe) (En,Fr).iso" size 1459978240 crc 860DE55B md5 5EF5B9D7E2EAB0DF6D94652285FECE42 sha1 0F4577387B17ECCCF19FCCEBE42D32F0A68FB78A serial "DL-DOL-GN6P-EUR" )
+)
+game (
+	name "NHL 06 (Europe) (En,Fr)"
+	description "NHL 06 (Europe) (En,Fr)"
+	region "Europe"
+	serial "DL-DOL-GN6P-FRA"
+	rom ( name "NHL 06 (Europe) (En,Fr).iso" size 1459978240 crc 860DE55B md5 5EF5B9D7E2EAB0DF6D94652285FECE42 sha1 0F4577387B17ECCCF19FCCEBE42D32F0A68FB78A serial "DL-DOL-GN6P-FRA" )
 )
 game (
 	name "NHL 06 (Europe) (En,Fr)"
@@ -10082,6 +10110,7 @@ game (
 game (
 	name "Nintendo GameCube Preview Disc - May 2003 (USA, Canada)"
 	description "Nintendo GameCube Preview Disc - May 2003 (USA, Canada)"
+	region "USA"
 	serial "DL-DOL-D87E-USA"
 	rom ( name "Nintendo GameCube Preview Disc - May 2003 (USA, Canada).iso" size 1459978240 crc D45C8C07 md5 73E092844193533BFD6D5C27034446A3 sha1 43047F599583E1B0357881D21CBA2E3958C57822 serial "DL-DOL-D87E-USA" )
 )
@@ -13678,11 +13707,47 @@ game (
 	rom ( name "Taz - Wanted (Europe) (En,Fr,De,Es,It).iso" size 1459978240 crc C160EF87 md5 68C1E1A0657CD09994454CE4C2EC029A sha1 8C899D84C8A52383F5B08E4E19E6FEDC5C32E4F8 serial "DL-DOL-GTWP-EUR-01" )
 )
 game (
+	name "Taz - Wanted (Europe) (En,Fr,De,Es,It) (Beta)"
+	description "Taz - Wanted (Europe) (En,Fr,De,Es,It) (Beta)"
+	region "Europe"
+	rom ( name "Taz - Wanted (Europe) (En,Fr,De,Es,It) (Beta).iso" size 1459978240 crc DA4DC356 md5 EE8A8DE78357FCC1B9BD43BA4A106521 sha1 CD31385FC150C267D9CBE6E1C1D24F7CEE04C335 )
+)
+game (
+	name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 1)"
+	description "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 1)"
+	region "Japan"
+	rom ( name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 1).iso" size 1459978240 crc 25E93A9A md5 E155B18AA55A14CEAE9D47C10C70E04E sha1 4CBD93CD349DC2A038C47D294819F1E4EDF5D253 )
+)
+game (
+	name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 2)"
+	description "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 2)"
+	region "Japan"
+	rom ( name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 2).iso" size 1459978240 crc BA197731 md5 27C1961B4347933773EA91655C583543 sha1 B4079ED315B0BA271D5124AE827B5180C7D7A076 )
+)
+game (
+	name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 3)"
+	description "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 3)"
+	region "Japan"
+	rom ( name "Taz - Wanted (Japan) (En,Fr,De,Es,It) (Beta 3).iso" size 1459978240 crc 79D4A10D md5 A294F55E74E2C8D44C736007A34F1B6F sha1 1A98EA543CEE802A7B23BDAC25ACDBE96B923EA4 )
+)
+game (
 	name "Taz - Wanted (USA) (En,Fr,De,Es,It)"
 	description "Taz - Wanted (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	serial "DL-DOL-GTWE-USA"
 	rom ( name "Taz - Wanted (USA) (En,Fr,De,Es,It).iso" size 1459978240 crc A6C9C6A1 md5 029DFAB32A3E3F360BBB902DCC1F1320 sha1 0A640B9988F16F133A50FD3366EE0F806776A4B8 serial "DL-DOL-GTWE-USA" )
+)
+game (
+	name "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 1)"
+	description "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 1)"
+	region "USA"
+	rom ( name "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 1).iso" size 1459978240 crc BAF5F815 md5 4A7FC62B2EC9B49F3BC6749D7168CFF2 sha1 0E6CBB60F2499EB9B7DE487561D890F3D03629F9 )
+)
+game (
+	name "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 2)"
+	description "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 2)"
+	region "USA"
+	rom ( name "Taz - Wanted (USA) (En,Fr,De,Es,It) (Beta 2).iso" size 1459978240 crc 9896FB23 md5 5D59B7B2D34FFC723669690D55725F89 sha1 294341017AFF7C57FC7932E46AB5344B55E7929E )
 )
 game (
 	name "Teen Titans (France) (En,Fr)"
@@ -14983,6 +15048,13 @@ game (
 	rom ( name "WWE Day of Reckoning (Europe) (Rev 1).iso" size 1459978240 crc F1960A2B md5 48626D24A99CDF44E8B1D8ACC099F9B5 sha1 CAD7358CC4262D7D144620B9E5FE04662B2E436F serial "DL-DOL-GWPP-NOE" )
 )
 game (
+	name "WWE Day of Reckoning (Europe) (Rev 1)"
+	description "WWE Day of Reckoning (Europe) (Rev 1)"
+	region "Europe"
+	serial "DL-DOL-GWPP-UKV"
+	rom ( name "WWE Day of Reckoning (Europe) (Rev 1).iso" size 1459978240 crc F1960A2B md5 48626D24A99CDF44E8B1D8ACC099F9B5 sha1 CAD7358CC4262D7D144620B9E5FE04662B2E436F serial "DL-DOL-GWPP-UKV" )
+)
+game (
 	name "WWE Day of Reckoning (Japan)"
 	description "WWE Day of Reckoning (Japan)"
 	region "Japan"
@@ -15004,11 +15076,18 @@ game (
 	rom ( name "WWE Day of Reckoning (USA) (Rev 1).iso" size 1459978240 crc 6DBA0CA7 md5 8BBAAFEE99F47FFE6DB7C7B8637802FC sha1 9117498D0A873631E1BB9B29ED42C1B882DFBF5E serial "DL-DOL-GWPE-USA" )
 )
 game (
-	name "WWE Day of Reckoning 2 (Europe)"
-	description "WWE Day of Reckoning 2 (Europe)"
+	name "WWE Day of Reckoning 2 (Europe) (Rev 1)"
+	description "WWE Day of Reckoning 2 (Europe) (Rev 1)"
 	region "Europe"
 	serial "DL-DOL-GW2P-EUR"
-	rom ( name "WWE Day of Reckoning 2 (Europe).iso" size 1459978240 crc 069A9097 md5 4ABA987CCDC00115E01C91EF5EA71BBC sha1 117B885E85C2B3B246AFF1BEBE331F821D6CC955 serial "DL-DOL-GW2P-EUR" )
+	rom ( name "WWE Day of Reckoning 2 (Europe) (Rev 1).iso" size 1459978240 crc 069A9097 md5 4ABA987CCDC00115E01C91EF5EA71BBC sha1 117B885E85C2B3B246AFF1BEBE331F821D6CC955 serial "DL-DOL-GW2P-EUR" )
+)
+game (
+	name "WWE Day of Reckoning 2 (Europe) (Rev 1)"
+	description "WWE Day of Reckoning 2 (Europe) (Rev 1)"
+	region "Europe"
+	serial "DL-DOL-GW2P-UKV"
+	rom ( name "WWE Day of Reckoning 2 (Europe) (Rev 1).iso" size 1459978240 crc 069A9097 md5 4ABA987CCDC00115E01C91EF5EA71BBC sha1 117B885E85C2B3B246AFF1BEBE331F821D6CC955 serial "DL-DOL-GW2P-UKV" )
 )
 game (
 	name "WWE Day of Reckoning 2 (USA)"
@@ -15048,12 +15127,14 @@ game (
 game (
 	name "WWE WrestleMania XIX (Europe, Australia)"
 	description "WWE WrestleMania XIX (Europe, Australia)"
+	region "Europe"
 	serial "DL-DOL-GW9P-EUR"
 	rom ( name "WWE WrestleMania XIX (Europe, Australia).iso" size 1459978240 crc B5E83A66 md5 EDC6B6274960219ACF546376DCA90862 sha1 8F58C79033B90749A2EDC615BF343DBE4DCD7222 serial "DL-DOL-GW9P-EUR" )
 )
 game (
 	name "WWE WrestleMania XIX (Europe, Australia)"
 	description "WWE WrestleMania XIX (Europe, Australia)"
+	region "Europe"
 	serial "DL-DOL-GW9P-UKV"
 	rom ( name "WWE WrestleMania XIX (Europe, Australia).iso" size 1459978240 crc B5E83A66 md5 EDC6B6274960219ACF546376DCA90862 sha1 8F58C79033B90749A2EDC615BF343DBE4DCD7222 serial "DL-DOL-GW9P-UKV" )
 )
@@ -15164,6 +15245,7 @@ game (
 game (
 	name "Wave Race - Blue Storm (Europe, Australia)"
 	description "Wave Race - Blue Storm (Europe, Australia)"
+	region "Europe"
 	serial "DL-DOL-GWRP-EUR"
 	rom ( name "Wave Race - Blue Storm (Europe, Australia).iso" size 1459978240 crc A78BB8F3 md5 7B1EE77BB2F8AC5DBE9F000CBC6DB5FA sha1 61626809881164567EE77F196EF36B01BD10D668 serial "DL-DOL-GWRP-EUR" )
 )
@@ -15506,11 +15588,11 @@ game (
 	rom ( name "Zelda no Densetsu - 4-tsu no Tsurugi+ (Japan).iso" size 1459978240 crc F16E9EC7 md5 2AD411B817C86D887B0F80A03FE8D66E sha1 520D86A7B82C45AAA26CB6DD29300CCFB671CD95 serial "DL-DOL-G4SJ-JPN" )
 )
 game (
-	name "Zelda no Densetsu - Kaze no Takuto (Japan)"
-	description "Zelda no Densetsu - Kaze no Takuto (Japan)"
+	name "Zelda no Densetsu - Kaze no Takt (Japan)"
+	description "Zelda no Densetsu - Kaze no Takt (Japan)"
 	region "Japan"
 	serial "DL-DOL-GZLJ-JPN"
-	rom ( name "Zelda no Densetsu - Kaze no Takuto (Japan).iso" size 1459978240 crc C58B4E93 md5 41D77584A33D0AF6BDD88FCE48DBA2B0 sha1 1C4B574D7E0555DDC2B652C1A4BB02F01440C755 serial "DL-DOL-GZLJ-JPN" )
+	rom ( name "Zelda no Densetsu - Kaze no Takt (Japan).iso" size 1459978240 crc C58B4E93 md5 41D77584A33D0AF6BDD88FCE48DBA2B0 sha1 1C4B574D7E0555DDC2B652C1A4BB02F01440C755 serial "DL-DOL-GZLJ-JPN" )
 )
 game (
 	name "Zelda no Densetsu - Toki no Ocarina GC (Japan)"
