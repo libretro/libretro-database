@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Wii"
 	description "Nintendo - Wii"
-	version "2025.02.14"
+	version "2025.04.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -575,7 +575,6 @@ game (
 game (
 	name "All Star Cheerleader 2 (Europe, Australia)"
 	description "All Star Cheerleader 2 (Europe, Australia)"
-	region "Europe"
 	serial "RVL-R5YP-UKV-B0"
 	rom ( name "All Star Cheerleader 2 (Europe, Australia).iso" size 4699979776 crc 11D481ED md5 1F3309D9821B6760B1E14464E19AF459 sha1 A1B7B66A3C5B08D158FF243C426DE969D2743BEF serial "RVL-R5YP-UKV-B0" )
 )
@@ -757,14 +756,12 @@ game (
 game (
 	name "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1)"
 	description "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1)"
-	region "USA"
 	serial "RVL-RUUE-MDE-B0"
 	rom ( name "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1).iso" size 4699979776 crc 90F2A29F md5 91052ED3347AB216158A99C6C483B20F sha1 D89F999354065C4B6071AC79D7AB854819DD012D serial "RVL-RUUE-MDE-B0" )
 )
 game (
 	name "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1)"
 	description "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1)"
-	region "USA"
 	serial "RVL-RUUE-USA-B0"
 	rom ( name "Animal Crossing - City Folk (USA, Asia) (En,Fr,Es) (Rev 1).iso" size 4699979776 crc 90F2A29F md5 91052ED3347AB216158A99C6C483B20F sha1 D89F999354065C4B6071AC79D7AB854819DD012D serial "RVL-RUUE-USA-B0" )
 )
@@ -1104,6 +1101,13 @@ game (
 	rom ( name "Attack of the Movies 3-D (USA).iso" size 4699979776 crc 967386AD md5 FB25FD7B6ECD8ECA1162292240EA734B sha1 0148F4AB64C8E4B1D37AF4E4B90A542E7AC17CDD serial "RVL-S3AE-USA-B0" )
 )
 game (
+	name "Auto Erase Disc (USA)"
+	description "Auto Erase Disc (USA)"
+	region "USA"
+	serial "RVL-007E-USA"
+	rom ( name "Auto Erase Disc (USA).iso" size 4699979776 crc ECF88D9C md5 F9BFEF95D143C02B34912B70A1726F18 sha1 3538ECDE2BD058DA2D325239017246117D76D796 serial "RVL-007E-USA" )
+)
+game (
 	name "Baby and Me (Europe) (En,Fr,De,Es,It)"
 	description "Baby and Me (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
@@ -1232,7 +1236,6 @@ game (
 game (
 	name "Bakugan - Defenders of the Core (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv)"
 	description "Bakugan - Defenders of the Core (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv)"
-	region "Europe"
 	serial "RVL-SB6P-EUR-B0"
 	rom ( name "Bakugan - Defenders of the Core (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv).iso" size 4699979776 crc BB4E438D md5 91CF29C56B0840995EBF63CBFFA2ABF6 sha1 EFC55CC1331573C318A70D0DA3F017F6E8A17AF1 serial "RVL-SB6P-EUR-B0" )
 )
@@ -1279,11 +1282,11 @@ game (
 	rom ( name "Band Hero (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc 15B8BBCA md5 800295C82835DBD1BC8210B295DA8770 sha1 2A4F756375887EB9D7EBCBDC2555F5BDEFEAD439 serial "RVL-SXFP-EUR-B0" )
 )
 game (
-	name "Band Hero (USA)"
-	description "Band Hero (USA)"
+	name "Band Hero (USA) (En,Fr)"
+	description "Band Hero (USA) (En,Fr)"
 	region "USA"
 	serial "RVL-SXFE-USA-B0"
-	rom ( name "Band Hero (USA).iso" size 4699979776 crc 87D3B832 md5 07AB0D7F47FBEE1CAA84B570A2C462B1 sha1 30E0B4902698DAB201E81F071A919A60D8376BAA serial "RVL-SXFE-USA-B0" )
+	rom ( name "Band Hero (USA) (En,Fr).iso" size 4699979776 crc 87D3B832 md5 07AB0D7F47FBEE1CAA84B570A2C462B1 sha1 30E0B4902698DAB201E81F071A919A60D8376BAA serial "RVL-SXFE-USA-B0" )
 )
 game (
 	name "Baramui Klonoa - Door to Phantomile (Korea)"
@@ -1316,7 +1319,6 @@ game (
 game (
 	name "Barbie - Groom and Glam Pups (Europe, Australia) (En,Fr,De,Es,It,Nl) (SB9P)"
 	description "Barbie - Groom and Glam Pups (Europe, Australia) (En,Fr,De,Es,It,Nl) (SB9P)"
-	region "Europe"
 	serial "RVL-SB9P-EUR-B0"
 	rom ( name "Barbie - Groom and Glam Pups (Europe, Australia) (En,Fr,De,Es,It,Nl) (SB9P).iso" size 4699979776 crc 2BCC2DE2 md5 98CBAED4F933C235D74BECE5F51A9DB3 sha1 A2A22388980944006288147E2A8D6E326EC02E60 serial "RVL-SB9P-EUR-B0" )
 )
@@ -1636,7 +1638,6 @@ game (
 game (
 	name "Beat the Beat - Rhythm Paradise (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Beat the Beat - Rhythm Paradise (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SOMP-EUR-B0"
 	rom ( name "Beat the Beat - Rhythm Paradise (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 4F13A2D5 md5 790FD5EF3B913D0E89F5A9C2971743AD sha1 A16FC83FE3A96D4643969F541CF082F95393B535 serial "RVL-SOMP-EUR-B0" )
 )
@@ -1852,7 +1853,6 @@ game (
 game (
 	name "Big Beach Sports 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Big Beach Sports 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SV2P-EUR-B0"
 	rom ( name "Big Beach Sports 2 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 5F13EDBF md5 913F90D37D61A3D1FADC63294F05891E sha1 352BBFEFA8CBE53C1AAD88E6362D0D998D649546 serial "RVL-SV2P-EUR-B0" )
 )
@@ -1894,7 +1894,6 @@ game (
 game (
 	name "Big Catch - Bass Fishing 2 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Big Catch - Bass Fishing 2 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RXNP-EUR-B0"
 	rom ( name "Big Catch - Bass Fishing 2 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc FCC15BE2 md5 4B3006F1F7EC7E83883249AF901777C6 sha1 F0EF4730370CEA7F507AD3B367842889B062C5A2 serial "RVL-RXNP-EUR-B0" )
 )
@@ -1943,7 +1942,6 @@ game (
 game (
 	name "Biggest Loser Challenge, The (Europe, Australia)"
 	description "Biggest Loser Challenge, The (Europe, Australia)"
-	region "Europe"
 	serial "RVL-ST6P-UKV-B0"
 	rom ( name "Biggest Loser Challenge, The (Europe, Australia).iso" size 4699979776 crc 36AB9A35 md5 065D4305767C24FEDF573E5DE12D6E4D sha1 338519D6C7DBA9DB9D03DB575A3C2415FCCE86E6 serial "RVL-ST6P-UKV-B0" )
 )
@@ -2143,7 +2141,6 @@ game (
 game (
 	name "Black Eyed Peas Experience, The (Europe, Australia) (En,Fr,De,Es,It) (Special Edition)"
 	description "Black Eyed Peas Experience, The (Europe, Australia) (En,Fr,De,Es,It) (Special Edition)"
-	region "Europe"
 	serial "RVL-SEPX-EUR-B0"
 	rom ( name "Black Eyed Peas Experience, The (Europe, Australia) (En,Fr,De,Es,It) (Special Edition).iso" size 4699979776 crc 78A29A8E md5 DF5E240C33107A1292F5D68A8515F0A7 sha1 B99AFB566FB35EEE4C01B3512F8AAD93724C2F5B serial "RVL-SEPX-EUR-B0" )
 )
@@ -2819,7 +2816,6 @@ game (
 game (
 	name "CSI - Crime Scene Investigation - Fatal Conspiracy (Europe, Australia) (En,Fr,De,Es,It)"
 	description "CSI - Crime Scene Investigation - Fatal Conspiracy (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SCIP-EUR-B0"
 	rom ( name "CSI - Crime Scene Investigation - Fatal Conspiracy (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 20A8C8C3 md5 9A7B7C5D0DA45487E143634BF3AE37B2 sha1 E53E949BF7955BBB818C5C235D2615B5D1359EE3 serial "RVL-SCIP-EUR-B0" )
 )
@@ -2924,7 +2920,6 @@ game (
 game (
 	name "Cabela's Dangerous Hunts 2011 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Cabela's Dangerous Hunts 2011 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SCDP-EUR-B0"
 	rom ( name "Cabela's Dangerous Hunts 2011 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc BA472CB9 md5 10BDD97A37E2D18F6E590E2A45452465 sha1 61CDC31AF97104E682D44158519ADA5B6DBF8957 serial "RVL-SCDP-EUR-B0" )
 )
@@ -3140,7 +3135,6 @@ game (
 game (
 	name "Call of Duty - Modern Warfare 3 (Europe, Australia)"
 	description "Call of Duty - Modern Warfare 3 (Europe, Australia)"
-	region "Europe"
 	serial "RVL-SM8P-UKV-B0"
 	rom ( name "Call of Duty - Modern Warfare 3 (Europe, Australia).iso" size 4699979776 crc 62762073 md5 8912B598A3CEF5499152E3824D6B1B6D sha1 60BBCF25401EE91ED33AB2A54B18B2E061B895AD serial "RVL-SM8P-UKV-B0" )
 )
@@ -3607,7 +3601,6 @@ game (
 game (
 	name "Charm Girls Club - Pyjama Party (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Charm Girls Club - Pyjama Party (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-R7IP-EUR-B0"
 	rom ( name "Charm Girls Club - Pyjama Party (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 7773660A md5 1CCF823FF520B909BF50F3845016B4EB sha1 AA3197DA48715D322194AD267C44917B513EFFFF serial "RVL-R7IP-EUR-B0" )
 )
@@ -4130,7 +4123,6 @@ game (
 game (
 	name "Cosmic Family (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Cosmic Family (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-RCFP-EUR"
 	rom ( name "Cosmic Family (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 9BEB5BBA md5 47E48D0372AE96DB9E6B9C1B1F0686FE sha1 1E4650F44BD3F348034096EF2925BA9190BA6544 serial "RVL-RCFP-EUR" )
 )
@@ -4498,11 +4490,11 @@ game (
 	rom ( name "DJ Hero 2 (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc F52FED6B md5 8500300B5E3AFC2B09926525DC8E91E5 sha1 3958065EBABE28C11983A87467799740F67E88DA serial "RVL-SWBP-EUR-B0" )
 )
 game (
-	name "DJ Hero 2 (USA) (En,Fr)"
-	description "DJ Hero 2 (USA) (En,Fr)"
+	name "DJ Hero 2 (USA) (En,Fr,Es)"
+	description "DJ Hero 2 (USA) (En,Fr,Es)"
 	region "USA"
 	serial "RVL-SWBE-USA-B0"
-	rom ( name "DJ Hero 2 (USA) (En,Fr).iso" size 4699979776 crc 95B4B48A md5 D4E8FDF288B7A32394E775B9624D8DF3 sha1 8362E237F8D876473024919A26A8DF43E6E6D2C5 serial "RVL-SWBE-USA-B0" )
+	rom ( name "DJ Hero 2 (USA) (En,Fr,Es).iso" size 4699979776 crc 95B4B48A md5 D4E8FDF288B7A32394E775B9624D8DF3 sha1 8362E237F8D876473024919A26A8DF43E6E6D2C5 serial "RVL-SWBE-USA-B0" )
 )
 game (
 	name "Daenantu Smash Brothers X (Korea)"
@@ -5048,7 +5040,6 @@ game (
 game (
 	name "Deepak Chopra's Leela (Europe, Australia) (En,Fr,De)"
 	description "Deepak Chopra's Leela (Europe, Australia) (En,Fr,De)"
-	region "Europe"
 	serial "RVL-SLEP-EUR-B0"
 	rom ( name "Deepak Chopra's Leela (Europe, Australia) (En,Fr,De).iso" size 4699979776 crc 98300021 md5 23E3C2DF1F2DBD627A3C8F55E5EF5A2C sha1 9CA9E9ED52389A871C9A13AC08552BB85F909398 serial "RVL-SLEP-EUR-B0" )
 )
@@ -5145,7 +5136,6 @@ game (
 game (
 	name "Despicable Me - The Game (Europe, Australia) (En,Fr,De,Es,It,Sv,No,Da,Fi)"
 	description "Despicable Me - The Game (Europe, Australia) (En,Fr,De,Es,It,Sv,No,Da,Fi)"
-	region "Europe"
 	serial "RVL-SDMP-EUR-B0"
 	rom ( name "Despicable Me - The Game (Europe, Australia) (En,Fr,De,Es,It,Sv,No,Da,Fi).iso" size 4699979776 crc 599B5DCA md5 045D125D839B694B91C0ECD93AD1491D sha1 CAE5212E68E746FF16DAECAFC99B1C6ECE2597C9 serial "RVL-SDMP-EUR-B0" )
 )
@@ -5307,6 +5297,13 @@ game (
 	description "Disney Bolt (Scandinavia) (En,Sv,No,Da)"
 	serial "RVL-RLUY-SCN-B0"
 	rom ( name "Disney Bolt (Scandinavia) (En,Sv,No,Da).iso" size 4699979776 crc 7C299549 md5 220CAC96780A75A24B4AF5F99CD9F13E sha1 1591FC84453FD6E598C3C91CEBFFE774D3388FA6 serial "RVL-RLUY-SCN-B0" )
+)
+game (
+	name "Disney Bolt (USA) (En,Fr,Es)"
+	description "Disney Bolt (USA) (En,Fr,Es)"
+	region "USA"
+	serial "RVL-RLUE-USA"
+	rom ( name "Disney Bolt (USA) (En,Fr,Es).iso" size 4699979776 crc 749686BC md5 B00B62E9BAEC8C1315049BAB3300547F sha1 DA8F0454EB2A5071CFF7E17DA562BFB1BCCED072 serial "RVL-RLUE-USA" )
 )
 game (
 	name "Disney Channel - All Star Party (Europe) (En,Fr,De,Es,It,Nl)"
@@ -5689,7 +5686,6 @@ game (
 game (
 	name "Disney Princess - Enchanting Storybooks (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Disney Princess - Enchanting Storybooks (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-S6IP-EUR-B0"
 	rom ( name "Disney Princess - Enchanting Storybooks (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc ABB0B658 md5 66E57972B60B64ED8A626F803C5EF78E sha1 DC8D382778E79C20E57E38EE2011EDE93B853DB6 serial "RVL-S6IP-EUR-B0" )
 )
@@ -6144,7 +6140,6 @@ game (
 game (
 	name "Disney-Pixar Cars 2 (Europe, Australia) (En,Fr,Es,It,Nl)"
 	description "Disney-Pixar Cars 2 (Europe, Australia) (En,Fr,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SCYP-EUR-B0"
 	rom ( name "Disney-Pixar Cars 2 (Europe, Australia) (En,Fr,Es,It,Nl).iso" size 4699979776 crc FC580EBB md5 B4B27AC6E9B18C1E45E14303E2E3EF83 sha1 9294BDD587C028B76BA40EFA8CEFCDD2A1221A40 serial "RVL-SCYP-EUR-B0" )
 )
@@ -6632,7 +6627,6 @@ game (
 game (
 	name "Donkey Kong Jungle Beat (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Donkey Kong Jungle Beat (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-R49P-EUR"
 	rom ( name "Donkey Kong Jungle Beat (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc CA64629D md5 7140663959D5DE169131CC4345BDFFDF sha1 E77C64810189555270637F3BCA549F02CABD4ACC serial "RVL-R49P-EUR" )
 )
@@ -7105,7 +7099,6 @@ game (
 game (
 	name "DreamWorks Kung Fu Panda 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "DreamWorks Kung Fu Panda 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SKUP-EUR-B0"
 	rom ( name "DreamWorks Kung Fu Panda 2 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc F1BA7BD4 md5 FA2625FBC18EC4CAD75700455CE66CEE sha1 2427CCD2C39A60D6286E4E5306CFE4CE0AEF1CB6 serial "RVL-SKUP-EUR-B0" )
 )
@@ -7454,7 +7447,6 @@ game (
 game (
 	name "EA Sports Active - More Workouts (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "EA Sports Active - More Workouts (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SEAP-EUR-B0"
 	rom ( name "EA Sports Active - More Workouts (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc B7C7083D md5 EAD8E03BEC92E20738FBAF5E9168C457 sha1 064B1813201579DC8777C6D2060AA9A3447C89A1 serial "RVL-SEAP-EUR-B0" )
 )
@@ -8181,7 +8173,6 @@ game (
 game (
 	name "Family GameShow (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Family GameShow (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SGSP-EUR-B1"
 	rom ( name "Family GameShow (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 2E91BA08 md5 513511DF7B7696B9DE16DFC2910D61D2 sha1 AF0D909BD0754CC4C11AFDF5084A62541E8188D7 serial "RVL-SGSP-EUR-B1" )
 )
@@ -9250,7 +9241,6 @@ game (
 game (
 	name "Girls Life - Sleepover Party (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Girls Life - Sleepover Party (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-R9LP-EUR-B0"
 	rom ( name "Girls Life - Sleepover Party (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc C74002E0 md5 1B5D6973BD8F12ECEE890ECD4D1370D4 sha1 76950EA8440431334697F57E660423CF05FCE1E0 serial "RVL-R9LP-EUR-B0" )
 )
@@ -9811,11 +9801,11 @@ game (
 	rom ( name "Guitar Hero III - Legends of Rock (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc AC2B08AC md5 2BD1C76CB18E1DF04EB9228A0E40F42D sha1 5EA4787A89B836766D6E610913CFC73E1AF41FD6 serial "RVL-RGHP-EUR-2" )
 )
 game (
-	name "Guitar Hero III - Legends of Rock (Japan)"
-	description "Guitar Hero III - Legends of Rock (Japan)"
+	name "Guitar Hero III - Legends of Rock (Japan) (En,Ja)"
+	description "Guitar Hero III - Legends of Rock (Japan) (En,Ja)"
 	region "Japan"
 	serial "RVL-RGHJ-JPN-1"
-	rom ( name "Guitar Hero III - Legends of Rock (Japan).iso" size 4699979776 crc CE663787 md5 840AB880F5890611D92A500205B5827B sha1 5ABE1F4112C33AF889BAD39A7CB7415FC86D96A5 serial "RVL-RGHJ-JPN-1" )
+	rom ( name "Guitar Hero III - Legends of Rock (Japan) (En,Ja).iso" size 4699979776 crc CE663787 md5 840AB880F5890611D92A500205B5827B sha1 5ABE1F4112C33AF889BAD39A7CB7415FC86D96A5 serial "RVL-RGHJ-JPN-1" )
 )
 game (
 	name "Guitar Hero III - Legends of Rock (Korea)"
@@ -9869,7 +9859,6 @@ game (
 game (
 	name "Gummy Bears - MiniGolf (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Gummy Bears - MiniGolf (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SGYP-EUR-B0"
 	rom ( name "Gummy Bears - MiniGolf (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 951DB11D md5 6ECB4CBB678B0D5720793DA22DC77487 sha1 6EF461FEB595AE859AB984A39E63D2066900E816 serial "RVL-SGYP-EUR-B0" )
 )
@@ -9883,7 +9872,6 @@ game (
 game (
 	name "Gunblade NY & L.A. Machineguns Arcade Hits Pack (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Gunblade NY & L.A. Machineguns Arcade Hits Pack (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SQDP-EUR-B0"
 	rom ( name "Gunblade NY & L.A. Machineguns Arcade Hits Pack (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 7BFF8798 md5 B1CCA42FCB25154923BB003E0D64D2A2 sha1 707F1D88AE96942DDE61814AA29C680DE17932D8 serial "RVL-SQDP-EUR-B0" )
 )
@@ -10098,7 +10086,6 @@ game (
 game (
 	name "Harry Potter and the Half-Blood Prince (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv)"
 	description "Harry Potter and the Half-Blood Prince (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv)"
-	region "Europe"
 	serial "RVL-RH6P-EUR"
 	rom ( name "Harry Potter and the Half-Blood Prince (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv).iso" size 4699979776 crc 84CE54BD md5 4941690F8AB34B8FBAB571E00E864575 sha1 5EEDD8B184CE406795E316CA1DC7943DA6003ABC serial "RVL-RH6P-EUR" )
 )
@@ -10153,11 +10140,11 @@ game (
 	rom ( name "Harry Potter to Fushichou no Kishidan (Japan).iso" size 4699979776 crc 4011BB8E md5 E65C12500B2E07C46181A6ACEE802572 sha1 E8797FFB547B5E9157E53BEF6EA569CA4DCDAE4D serial "RVL-R5PJ-JPN" )
 )
 game (
-	name "Harry Potterwa Honhyeor-wangja (Korea)"
-	description "Harry Potterwa Honhyeor-wangja (Korea)"
+	name "Harry Potter-wa Honhyeol-Wangja (Korea)"
+	description "Harry Potter-wa Honhyeol-Wangja (Korea)"
 	region "Korea"
 	serial "RVL-RH6K-KOR"
-	rom ( name "Harry Potterwa Honhyeor-wangja (Korea).iso" size 4699979776 crc A590DA24 md5 AA07F2E5724BB22082FA0A6E379E9739 sha1 21D7A552681E4A5D3389C34C69AAA1AAB5E78EB3 serial "RVL-RH6K-KOR" )
+	rom ( name "Harry Potter-wa Honhyeol-Wangja (Korea).iso" size 4699979776 crc A590DA24 md5 AA07F2E5724BB22082FA0A6E379E9739 sha1 21D7A552681E4A5D3389C34C69AAA1AAB5E78EB3 serial "RVL-RH6K-KOR" )
 )
 game (
 	name "Harukanaru Toki no Naka de 4 (Japan)"
@@ -10654,7 +10641,6 @@ game (
 game (
 	name "Hot Wheels - Track Attack (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 1)"
 	description "Hot Wheels - Track Attack (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 1)"
-	region "Europe"
 	serial "RVL-SHVP-EUR-B0"
 	rom ( name "Hot Wheels - Track Attack (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 1).iso" size 4699979776 crc 6F5ABAEE md5 9F713B71F23483C7A4D99288CD84289B sha1 6826A47F52C3DB0E9B4305CA81FA5C1D5B22B87F serial "RVL-SHVP-EUR-B0" )
 )
@@ -11631,7 +11617,6 @@ game (
 game (
 	name "Just Dance 2 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Just Dance 2 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SD2P-EUR-B0"
 	rom ( name "Just Dance 2 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 158C8FBC md5 CE3F60EFEDE73455C66AFBE6A2BD4413 sha1 6F4A3A0E4771ECD62368B94E886DCFBA5F2EFC2C serial "RVL-SD2P-EUR-B0" )
 )
@@ -11680,7 +11665,6 @@ game (
 game (
 	name "Just Dance 2015 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Just Dance 2015 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SE3P-EUR-B0"
 	rom ( name "Just Dance 2015 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 66E17F13 md5 90E28C9B0A7FB8136F5E9775F46F09AD sha1 E062394955C37836141014F7ECD245A053100072 serial "RVL-SE3P-EUR-B0" )
 )
@@ -11743,7 +11727,6 @@ game (
 game (
 	name "Just Dance 2019 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Just Dance 2019 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-S5EP-EUR-B0"
 	rom ( name "Just Dance 2019 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc AE4E0F86 md5 2E3C11DAB6A265970600AB1E0AC46309 sha1 25C88C564E92FCFB7B3CC58F1E0AC21ADC3FCD35 serial "RVL-S5EP-EUR-B0" )
 )
@@ -12078,7 +12061,6 @@ game (
 game (
 	name "Karaoke Revolution Glee - Volume 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Karaoke Revolution Glee - Volume 2 (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SKGP-EUR-B0"
 	rom ( name "Karaoke Revolution Glee - Volume 2 (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 8D90885C md5 A0002D15AC79F2F6DE92EF31F78A4EE6 sha1 EAE37E4E24D86B02F1F481EFAA5FF895E764244B serial "RVL-SKGP-EUR-B0" )
 )
@@ -12835,14 +12817,12 @@ game (
 game (
 	name "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1)"
 	description "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1)"
-	region "Europe"
 	serial "RVL-SC4P-EUR-B1"
 	rom ( name "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1).iso" size 4699979776 crc 616D9FEA md5 3782D62D67D8A8CA4B304576D12C2403 sha1 70A108B66AF10865CA496D60EF77F4ECF05EC209 serial "RVL-SC4P-EUR-B1" )
 )
 game (
 	name "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1)"
 	description "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1)"
-	region "Europe"
 	serial "RVL-SC4P-EUR-B2"
 	rom ( name "LEGO Star Wars III - The Clone Wars (Europe, Australia) (En,Fr,De,Es,It,Da) (Rev 1).iso" size 4699979776 crc 616D9FEA md5 3782D62D67D8A8CA4B304576D12C2403 sha1 70A108B66AF10865CA496D60EF77F4ECF05EC209 serial "RVL-SC4P-EUR-B2" )
 )
@@ -13069,21 +13049,18 @@ game (
 game (
 	name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RZDP-EUR"
 	rom ( name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 576D9391 md5 C46C133885383F96E7515C5CEFD152D2 sha1 C708744C08D499962AD5760AB1B76748DEA9914B serial "RVL-RZDP-EUR" )
 )
 game (
 	name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RZDP-EUR-1"
 	rom ( name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 576D9391 md5 C46C133885383F96E7515C5CEFD152D2 sha1 C708744C08D499962AD5760AB1B76748DEA9914B serial "RVL-RZDP-EUR-1" )
 )
 game (
 	name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RZDP-EUR-B0"
 	rom ( name "Legend of Zelda, The - Twilight Princess (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 576D9391 md5 C46C133885383F96E7515C5CEFD152D2 sha1 C708744C08D499962AD5760AB1B76748DEA9914B serial "RVL-RZDP-EUR-B0" )
 )
@@ -14145,35 +14122,30 @@ game (
 game (
 	name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMCP-EUR"
 	rom ( name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 3A70D78B md5 E7B1FF1FABB0789482CE2CB0661D986E sha1 4FDE5CE38D68F632D92C5B0D52BBAB0B1D355A95 serial "RVL-RMCP-EUR" )
 )
 game (
 	name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMCP-EUR-1"
 	rom ( name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 3A70D78B md5 E7B1FF1FABB0789482CE2CB0661D986E sha1 4FDE5CE38D68F632D92C5B0D52BBAB0B1D355A95 serial "RVL-RMCP-EUR-1" )
 )
 game (
 	name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMCP-EUR-B0"
 	rom ( name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 3A70D78B md5 E7B1FF1FABB0789482CE2CB0661D986E sha1 4FDE5CE38D68F632D92C5B0D52BBAB0B1D355A95 serial "RVL-RMCP-EUR-B0" )
 )
 game (
 	name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMCP-EUR-B1"
 	rom ( name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 3A70D78B md5 E7B1FF1FABB0789482CE2CB0661D986E sha1 4FDE5CE38D68F632D92C5B0D52BBAB0B1D355A95 serial "RVL-RMCP-EUR-B1" )
 )
 game (
 	name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMCP-EUR-B2"
 	rom ( name "Mario Kart Wii (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 3A70D78B md5 E7B1FF1FABB0789482CE2CB0661D986E sha1 4FDE5CE38D68F632D92C5B0D52BBAB0B1D355A95 serial "RVL-RMCP-EUR-B2" )
 )
@@ -14222,21 +14194,18 @@ game (
 game (
 	name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
 	serial "RVL-RM8P-EUR"
 	rom ( name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc DFE8361A md5 A80FE065339638C73B260AF7409ADA57 sha1 FE4688283C9D2B7D76FDA13ED991AFDCACF182CD serial "RVL-RM8P-EUR" )
 )
 game (
 	name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
 	serial "RVL-RM8P-EUR-1"
 	rom ( name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc DFE8361A md5 A80FE065339638C73B260AF7409ADA57 sha1 FE4688283C9D2B7D76FDA13ED991AFDCACF182CD serial "RVL-RM8P-EUR-1" )
 )
 game (
 	name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
 	serial "RVL-RM8P-EUR-B0"
 	rom ( name "Mario Party 8 (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc DFE8361A md5 A80FE065339638C73B260AF7409ADA57 sha1 FE4688283C9D2B7D76FDA13ED991AFDCACF182CD serial "RVL-RM8P-EUR-B0" )
 )
@@ -14264,14 +14233,12 @@ game (
 game (
 	name "Mario Party 8 (USA, Asia) (Rev 2)"
 	description "Mario Party 8 (USA, Asia) (Rev 2)"
-	region "USA"
 	serial "RVL-RM8E-MDE-B0"
 	rom ( name "Mario Party 8 (USA, Asia) (Rev 2).iso" size 4699979776 crc 50829C66 md5 944C3F7DB81170C9D86FC73DAB1DA24B sha1 F00BFEEAD8DE26504571D30E83A0B84EA8C38C21 serial "RVL-RM8E-MDE-B0" )
 )
 game (
 	name "Mario Party 8 (USA, Asia) (Rev 2)"
 	description "Mario Party 8 (USA, Asia) (Rev 2)"
-	region "USA"
 	serial "RVL-RM8E-USA"
 	rom ( name "Mario Party 8 (USA, Asia) (Rev 2).iso" size 4699979776 crc 50829C66 md5 944C3F7DB81170C9D86FC73DAB1DA24B sha1 F00BFEEAD8DE26504571D30E83A0B84EA8C38C21 serial "RVL-RM8E-USA" )
 )
@@ -14306,14 +14273,12 @@ game (
 game (
 	name "Mario Party 9 (USA, Asia) (En,Fr,Es)"
 	description "Mario Party 9 (USA, Asia) (En,Fr,Es)"
-	region "USA"
 	serial "RVL-SSQE-MDE-B0"
 	rom ( name "Mario Party 9 (USA, Asia) (En,Fr,Es).iso" size 4699979776 crc 3CAEA203 md5 A9AA140B48E67CCDBA9C7C9AFC9884BC sha1 BF3048189E0195FE4E230D2989DB9F7D69FFD559 serial "RVL-SSQE-MDE-B0" )
 )
 game (
 	name "Mario Party 9 (USA, Asia) (En,Fr,Es)"
 	description "Mario Party 9 (USA, Asia) (En,Fr,Es)"
-	region "USA"
 	serial "RVL-SSQE-USA-B0"
 	rom ( name "Mario Party 9 (USA, Asia) (En,Fr,Es).iso" size 4699979776 crc 3CAEA203 md5 A9AA140B48E67CCDBA9C7C9AFC9884BC sha1 BF3048189E0195FE4E230D2989DB9F7D69FFD559 serial "RVL-SSQE-USA-B0" )
 )
@@ -15799,7 +15764,6 @@ game (
 game (
 	name "My Fitness Coach - Dance Workout (Europe, Australia) (En,Fr,De,Es,It)"
 	description "My Fitness Coach - Dance Workout (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SCWP-EUR-B0"
 	rom ( name "My Fitness Coach - Dance Workout (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc BC069DC3 md5 01EBB4C555C746BDA868375DF2C7AE66 sha1 6EC9659D037CC9C5755D53162E38A4320966E701 serial "RVL-SCWP-EUR-B0" )
 )
@@ -15820,7 +15784,6 @@ game (
 game (
 	name "My Fitness Coach - Get in Shape (Europe, Australia)"
 	description "My Fitness Coach - Get in Shape (Europe, Australia)"
-	region "Europe"
 	serial "RVL-RFKP-UKV"
 	rom ( name "My Fitness Coach - Get in Shape (Europe, Australia).iso" size 4699979776 crc B3615CC3 md5 34D0C228801A74E1460044D58FDEB362 sha1 4D63DEC2475B9FC8D1A66F9379B589415E85BC05 serial "RVL-RFKP-UKV" )
 )
@@ -16088,7 +16051,6 @@ game (
 game (
 	name "Mystery Case Files - The Malgrave Incident (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Mystery Case Files - The Malgrave Incident (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SFIP-EUR-B0"
 	rom ( name "Mystery Case Files - The Malgrave Incident (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc BE39CDF4 md5 18810F45A8049F93733B287F5E61FEAC sha1 299DDFB82686534C07F9AD038C05B126CACD71FB serial "RVL-SFIP-EUR-B0" )
 )
@@ -16197,7 +16159,6 @@ game (
 game (
 	name "NBA 2K11 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "NBA 2K11 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SB5P-EUR-B0"
 	rom ( name "NBA 2K11 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc DB985E7E md5 095917B11BEDBF70B3153DDF8179FBC3 sha1 F1337F7A90CEC48D3CC8D2627E719F0D7996C43C serial "RVL-SB5P-EUR-B0" )
 )
@@ -16629,7 +16590,6 @@ game (
 game (
 	name "Need for Speed - Hot Pursuit (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Need for Speed - Hot Pursuit (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SNHP-EUR-B0"
 	rom ( name "Need for Speed - Hot Pursuit (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc EB72AF35 md5 DD30B0E44644708C79293FC07D93FCF2 sha1 2DFA53E0DCB401F874518D6B5C2CBE5B6EEB8421 serial "RVL-SNHP-EUR-B0" )
 )
@@ -16976,7 +16936,6 @@ game (
 game (
 	name "Nick Jr. Go Diego Go! Safari Rescue (Europe, Australia)"
 	description "Nick Jr. Go Diego Go! Safari Rescue (Europe, Australia)"
-	region "Europe"
 	serial "RVL-REQP-UKV"
 	rom ( name "Nick Jr. Go Diego Go! Safari Rescue (Europe, Australia).iso" size 4699979776 crc 6E57655D md5 8B57991EF61076A9D7AF8D196AF022A4 sha1 9A8221491E9ED8BFE6DE852A35B67460AC3667B7 serial "RVL-REQP-UKV" )
 )
@@ -17499,7 +17458,6 @@ game (
 game (
 	name "Nickelodeon iCarly (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "Nickelodeon iCarly (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-RL5P-EUR-B0"
 	rom ( name "Nickelodeon iCarly (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 5C0F5EF3 md5 2FC8E42CDB6FAF628DA1BCDED8D83E9A sha1 CE34CE031F02860317A56223A7E02D7610925780 serial "RVL-RL5P-EUR-B0" )
 )
@@ -17568,7 +17526,6 @@ game (
 game (
 	name "Nights - Journey of Dreams (Europe, Australia) (En,Ja,Fr,De,Es,It)"
 	description "Nights - Journey of Dreams (Europe, Australia) (En,Ja,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-R7EP-EUR"
 	rom ( name "Nights - Journey of Dreams (Europe, Australia) (En,Ja,Fr,De,Es,It).iso" size 4699979776 crc 17A6C982 md5 92939A07DD975966D9607DE8D2599685 sha1 102D091C578846AD890173CD6043F4F7BCEFD30B serial "RVL-R7EP-EUR" )
 )
@@ -18625,7 +18582,6 @@ game (
 game (
 	name "Petz - Monkey Madness (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Petz - Monkey Madness (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RP6P-EUR"
 	rom ( name "Petz - Monkey Madness (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc D324D3FE md5 98012A06FF4404B28CA78AB3D90D69D7 sha1 9249607EEFBD6C2376A22F2632D8FF95FE95A72D serial "RVL-RP6P-EUR" )
 )
@@ -18979,21 +18935,18 @@ game (
 game (
 	name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RPBP-EUR"
 	rom ( name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc A6F1A751 md5 A7D78F9B64AB063487E4E27FC246E11E sha1 8AE47B225B154F11D29E8E39ACEB2F037739F430 serial "RVL-RPBP-EUR" )
 )
 game (
 	name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RPBP-EUR-1"
 	rom ( name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc A6F1A751 md5 A7D78F9B64AB063487E4E27FC246E11E sha1 8AE47B225B154F11D29E8E39ACEB2F037739F430 serial "RVL-RPBP-EUR-1" )
 )
 game (
 	name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RPBP-EUR-B0"
 	rom ( name "Pokemon Battle Revolution (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc A6F1A751 md5 A7D78F9B64AB063487E4E27FC246E11E sha1 8AE47B225B154F11D29E8E39ACEB2F037739F430 serial "RVL-RPBP-EUR-B0" )
 )
@@ -19325,7 +19278,6 @@ game (
 game (
 	name "Punch-Out!! (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
 	description "Punch-Out!! (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
 	serial "RVL-R7PP-EUR-B0"
 	rom ( name "Punch-Out!! (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 4D837073 md5 19807F20A3866ED657C8CFEB3734B238 sha1 40AEA2FC8F738727F6293477DE5D4E8DF4DE83DD serial "RVL-R7PP-EUR-B0" )
 )
@@ -20724,6 +20676,20 @@ game (
 	rom ( name "Rygar - The Battle of Argus (USA) (Beta).iso" size 4707319808 crc 1ACF792B md5 A484CE2C9F17C26E7F3789C9C2F82BDD sha1 51E1CFE0C73A7C54525C4C86EF021484D808A48E )
 )
 game (
+	name "SCORE International Baja 1000 - The Official Game (USA)"
+	description "SCORE International Baja 1000 - The Official Game (USA)"
+	region "USA"
+	serial "RVL-RJCE-USA"
+	rom ( name "SCORE International Baja 1000 - The Official Game (USA).iso" size 4699979776 crc E25B47E4 md5 FBE955928564F1D904FBF4FA4761D078 sha1 AB3773E821D9809A5C7F2F7061FAC5A8C6946179 serial "RVL-RJCE-USA" )
+)
+game (
+	name "SCORE International Baja 1000 - World Championship Off Road Racing (Europe)"
+	description "SCORE International Baja 1000 - World Championship Off Road Racing (Europe)"
+	region "Europe"
+	serial "RVL-RJCP-EUR-B0"
+	rom ( name "SCORE International Baja 1000 - World Championship Off Road Racing (Europe).iso" size 4699979776 crc 3953BD50 md5 922B4274C7E208ADACF2B9425E36D854 sha1 AB1281A67249E35F67E801DBA07987258AC0E8BC serial "RVL-RJCP-EUR-B0" )
+)
+game (
 	name "SD Gundam - GGeneration Wars (Japan)"
 	description "SD Gundam - GGeneration Wars (Japan)"
 	region "Japan"
@@ -21202,20 +21168,6 @@ game (
 	rom ( name "Scooby-Doo! and the Spooky Swamp (USA) (En,Fr,Es).iso" size 4699979776 crc 4E79677E md5 2862FA632054EE0CD90828DAC80B162B sha1 554BD5D066DD4F4EC443CDD6B715CAE68740FE8A serial "RVL-SJ2E-USA-B0" )
 )
 game (
-	name "Score International Baja 1000 - The Official Game (USA)"
-	description "Score International Baja 1000 - The Official Game (USA)"
-	region "USA"
-	serial "RVL-RJCE-USA"
-	rom ( name "Score International Baja 1000 - The Official Game (USA).iso" size 4699979776 crc E25B47E4 md5 FBE955928564F1D904FBF4FA4761D078 sha1 AB3773E821D9809A5C7F2F7061FAC5A8C6946179 serial "RVL-RJCE-USA" )
-)
-game (
-	name "Score International Baja 1000 - World Championship Off Road Racing (Europe)"
-	description "Score International Baja 1000 - World Championship Off Road Racing (Europe)"
-	region "Europe"
-	serial "RVL-RJCP-EUR-B0"
-	rom ( name "Score International Baja 1000 - World Championship Off Road Racing (Europe).iso" size 4699979776 crc 3953BD50 md5 922B4274C7E208ADACF2B9425E36D854 sha1 AB1281A67249E35F67E801DBA07987258AC0E8BC serial "RVL-RJCP-EUR-B0" )
-)
-game (
 	name "Scrabble Interactive (Europe) (En,Fr,Es)"
 	description "Scrabble Interactive (Europe) (En,Fr,Es)"
 	region "Europe"
@@ -21518,7 +21470,6 @@ game (
 game (
 	name "Shaun White Snowboarding - World Stage (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Shaun White Snowboarding - World Stage (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-R6NY-EUR-B0"
 	rom ( name "Shaun White Snowboarding - World Stage (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 6ECE4145 md5 2479C995DB2BEB6B16E90FD94015F861 sha1 DCA3429109B61554271B9703B69F4EE31184E252 serial "RVL-R6NY-EUR-B0" )
 )
@@ -21690,7 +21641,6 @@ game (
 game (
 	name "SimAnimals - Africa (Europe, Australia) (En,Fr,De,Nl,Pt)"
 	description "SimAnimals - Africa (Europe, Australia) (En,Fr,De,Nl,Pt)"
-	region "Europe"
 	serial "RVL-R7AP-EUR-B0"
 	rom ( name "SimAnimals - Africa (Europe, Australia) (En,Fr,De,Nl,Pt).iso" size 4699979776 crc 996648EC md5 41BB3A05FB50B3D5CD75FF92EDA5BB2E sha1 7C6E074517E92508EE9C97143F10E5B8D02EC85C serial "RVL-R7AP-EUR-B0" )
 )
@@ -22115,7 +22065,6 @@ game (
 game (
 	name "Skylanders - Spyro's Adventure (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 3)"
 	description "Skylanders - Spyro's Adventure (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 3)"
-	region "Europe"
 	serial "RVL-SSPP-EUR-B2"
 	rom ( name "Skylanders - Spyro's Adventure (Europe, Australia) (En,Fr,De,Es,It,Nl) (Rev 3).iso" size 4699979776 crc B753D607 md5 9C10DC58233A64CFB97A9954B18CE689 sha1 52F2FED6789E857F8F389B4FEE00DAB0E2662EE2 serial "RVL-SSPP-EUR-B2" )
 )
@@ -22196,14 +22145,12 @@ game (
 game (
 	name "Skylanders - Swap Force (Europe, Australia) (En,De)"
 	description "Skylanders - Swap Force (Europe, Australia) (En,De)"
-	region "Europe"
 	serial "RVL-SVXP-EUR-B0"
 	rom ( name "Skylanders - Swap Force (Europe, Australia) (En,De).iso" size 4699979776 crc 0B8052DC md5 D4C9C0FE51B4E36A9C5108D87824824C sha1 C4D5A49A4848B15C7B920D639539DD5A349985EA serial "RVL-SVXP-EUR-B0" )
 )
 game (
 	name "Skylanders - Swap Force (Europe, Australia) (En,De) (Rev 1)"
 	description "Skylanders - Swap Force (Europe, Australia) (En,De) (Rev 1)"
-	region "Europe"
 	serial "RVL-SVXP-EUR-B0"
 	rom ( name "Skylanders - Swap Force (Europe, Australia) (En,De) (Rev 1).iso" size 4699979776 crc B3BE2863 md5 A504874CA1E9995BD7585F7464C43237 sha1 002FF1334B76030386D9D6FFF9063CE04D6A7F33 serial "RVL-SVXP-EUR-B0" )
 )
@@ -22271,7 +22218,6 @@ game (
 game (
 	name "Skylanders - Trap Team (Europe, Australia) (En,De)"
 	description "Skylanders - Trap Team (Europe, Australia) (En,De)"
-	region "Europe"
 	serial "RVL-SK8P-EUR-B0"
 	rom ( name "Skylanders - Trap Team (Europe, Australia) (En,De).iso" size 4699979776 crc ADBADA88 md5 FEB286F633A346229F29D97F3CF881E1 sha1 59835D28CBDD6FC426522A02295FBECFDA7D3071 serial "RVL-SK8P-EUR-B0" )
 )
@@ -22779,11 +22725,11 @@ game (
 	rom ( name "Spider-Man - Shattered Dimensions (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc EB22E9E9 md5 1C8C9E0ADC690DCD73A795DF110DAF41 sha1 0057417C9E338D59F0BAE8ECFE8F931D1646BEA1 serial "RVL-SPDP-EUR-B0" )
 )
 game (
-	name "Spider-Man - Shattered Dimensions (USA)"
-	description "Spider-Man - Shattered Dimensions (USA)"
+	name "Spider-Man - Shattered Dimensions (USA) (En,Fr)"
+	description "Spider-Man - Shattered Dimensions (USA) (En,Fr)"
 	region "USA"
 	serial "RVL-SPDE-USA-B0"
-	rom ( name "Spider-Man - Shattered Dimensions (USA).iso" size 4699979776 crc 664C624A md5 E708B6A457559ABBB60AD36FB25D1118 sha1 888038B5A93C11D68BF5B0E656B0F2DB435F0143 serial "RVL-SPDE-USA-B0" )
+	rom ( name "Spider-Man - Shattered Dimensions (USA) (En,Fr).iso" size 4699979776 crc 664C624A md5 E708B6A457559ABBB60AD36FB25D1118 sha1 888038B5A93C11D68BF5B0E656B0F2DB435F0143 serial "RVL-SPDE-USA-B0" )
 )
 game (
 	name "Spider-Man - Web of Shadows (Europe) (En,Fr,De,Es,It)"
@@ -23274,7 +23220,6 @@ game (
 game (
 	name "Super Mario All-Stars (Europe, Australia)"
 	description "Super Mario All-Stars (Europe, Australia)"
-	region "Europe"
 	serial "RVL-SVMP-EUR-B0"
 	rom ( name "Super Mario All-Stars (Europe, Australia).iso" size 4699979776 crc E7D03C7B md5 1D223C5A34BEC71760B6C83EAA099E2D sha1 AF1F1BD7D4B30302115097B3FEB38D02559B7BE3 serial "RVL-SVMP-EUR-B0" )
 )
@@ -23302,21 +23247,18 @@ game (
 game (
 	name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMGP-EUR"
 	rom ( name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 0AEFFD47 md5 A8C962D1922F7521DC4B07348E4E8A51 sha1 4AD985EB39B6F60BE00A44C3A41BC3ED31B083C2 serial "RVL-RMGP-EUR" )
 )
 game (
 	name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMGP-EUR-1"
 	rom ( name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 0AEFFD47 md5 A8C962D1922F7521DC4B07348E4E8A51 sha1 4AD985EB39B6F60BE00A44C3A41BC3ED31B083C2 serial "RVL-RMGP-EUR-1" )
 )
 game (
 	name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RMGP-EUR-B0"
 	rom ( name "Super Mario Galaxy (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 0AEFFD47 md5 A8C962D1922F7521DC4B07348E4E8A51 sha1 4AD985EB39B6F60BE00A44C3A41BC3ED31B083C2 serial "RVL-RMGP-EUR-B0" )
 )
@@ -23414,7 +23356,6 @@ game (
 game (
 	name "Super Monkey Ball - Step & Roll (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Monkey Ball - Step & Roll (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SMBP-EUR-B0"
 	rom ( name "Super Monkey Ball - Step & Roll (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 9733B44E md5 F9BCF8383E6CA8237941A24E6488EC29 sha1 A3F8718D4AC00FA72C6294C7CBB9607EA60B6CC1 serial "RVL-SMBP-EUR-B0" )
 )
@@ -23456,7 +23397,6 @@ game (
 game (
 	name "Super Paper Mario (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Paper Mario (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-R8PP-EUR"
 	rom ( name "Super Paper Mario (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 9AA033E1 md5 38048FDD50616374CAE924ADF1EAFE0D sha1 81AEBD46F19DA87EC5731FC645BB345D910BA62C serial "RVL-R8PP-EUR" )
 )
@@ -23554,7 +23494,6 @@ game (
 game (
 	name "Super Smash Bros. Brawl (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Super Smash Bros. Brawl (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RSBP-EUR"
 	rom ( name "Super Smash Bros. Brawl (Europe, Australia) (En,Fr,De,Es,It).iso" size 8511160320 crc 6757C5F2 md5 549C19AEFD56C3651571C32E3C32E5B3 sha1 42AB0684B9601405B2CB349EA64550A7807173CF serial "RVL-RSBP-EUR" )
 )
@@ -23659,7 +23598,6 @@ game (
 game (
 	name "Survivor (Europe, Australia) (En,Sv,No,Da)"
 	description "Survivor (Europe, Australia) (En,Sv,No,Da)"
-	region "Europe"
 	serial "RVL-RLNP-UKV-B0"
 	rom ( name "Survivor (Europe, Australia) (En,Sv,No,Da).iso" size 4699979776 crc 0E45B029 md5 FAECAC8E3B6E50B87AC781D2C651A5FE sha1 3853925A801C16585103DEBDB1F724316C9CC54A serial "RVL-RLNP-UKV-B0" )
 )
@@ -23715,7 +23653,6 @@ game (
 game (
 	name "TMNT (Europe, Australia) (En,Fr,De,Es,It)"
 	description "TMNT (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RTMP-EUR"
 	rom ( name "TMNT (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 61CDEFAA md5 E5A6FD644F22356CE1414A8B4D345E4D sha1 D6ABB059951705563E96103513CFF8A9747E7E2C serial "RVL-RTMP-EUR" )
 )
@@ -24305,7 +24242,6 @@ game (
 game (
 	name "Tiger Woods PGA Tour 11 (Europe, Australia)"
 	description "Tiger Woods PGA Tour 11 (Europe, Australia)"
-	region "Europe"
 	serial "RVL-STWP-UKV-B0"
 	rom ( name "Tiger Woods PGA Tour 11 (Europe, Australia).iso" size 4699979776 crc AD29F6BB md5 D4A92A8BFE58F557EBDB045970373741 sha1 6A986C1B4FE0C448B4D05D487947ED37C9F8FD96 serial "RVL-STWP-UKV-B0" )
 )
@@ -24375,7 +24311,6 @@ game (
 game (
 	name "Tom Clancy's H.A.W.X. 2 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Tom Clancy's H.A.W.X. 2 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RTAP-EUR-B0"
 	rom ( name "Tom Clancy's H.A.W.X. 2 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc D282A018 md5 3AD6E9BCE35E03091AC17924074A49CD sha1 1272E0C7F6B016509209BCB26415B1501C99DDAA serial "RVL-RTAP-EUR-B0" )
 )
@@ -24780,7 +24715,6 @@ game (
 game (
 	name "Trauma Center - New Blood (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Trauma Center - New Blood (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RK2P-EUR"
 	rom ( name "Trauma Center - New Blood (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 7F68ECAD md5 DD65B7F1009E305C659B82F533B85A47 sha1 51AF00A716103637EA4D5DE9F13E1CA6F0AC5093 serial "RVL-RK2P-EUR" )
 )
@@ -25505,7 +25439,6 @@ game (
 game (
 	name "WWE SmackDown vs. Raw 2011 (Europe, Australia) (En,Fr,De,Es,It)"
 	description "WWE SmackDown vs. Raw 2011 (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SMRP-EUR-B0"
 	rom ( name "WWE SmackDown vs. Raw 2011 (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 22B97508 md5 283009C2B0A14A045A3A88A3C92DB5E6 sha1 9D21F41A3D29F2205C6F4D94F369A7D9B306E0BB serial "RVL-SMRP-EUR-B0" )
 )
@@ -25540,7 +25473,6 @@ game (
 game (
 	name "Wacky World of Sports (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wacky World of Sports (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RTIP-EUR-B0"
 	rom ( name "Wacky World of Sports (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 5C3363F8 md5 DE5DE60350079265D22114FC8265B094 sha1 EEA2CFD8DE5E0840A6B8418401305EBD5A4744AA serial "RVL-RTIP-EUR-B0" )
 )
@@ -25566,13 +25498,6 @@ game (
 	region "USA"
 	serial "RVL-RY6E-USA-B0"
 	rom ( name "Walk It Out! (USA) (En,Fr,Es).iso" size 4699979776 crc 1C1474EC md5 D1F8434A8A47A8E4D39EA8A78C510F03 sha1 658817E0973FE9CC03A68760338484EB7B019345 serial "RVL-RY6E-USA-B0" )
-)
-game (
-	name "Walt Disney Pictures Bolt (USA) (En,Fr,Es)"
-	description "Walt Disney Pictures Bolt (USA) (En,Fr,Es)"
-	region "USA"
-	serial "RVL-RLUE-USA"
-	rom ( name "Walt Disney Pictures Bolt (USA) (En,Fr,Es).iso" size 4699979776 crc 749686BC md5 B00B62E9BAEC8C1315049BAB3300547F sha1 DA8F0454EB2A5071CFF7E17DA562BFB1BCCED072 serial "RVL-RLUE-USA" )
 )
 game (
 	name "Walt Disney Pictures Presents Lewis to Mirai Dorobou - Wilbur no Kiken na Jikan Ryokou (Japan)"
@@ -25833,7 +25758,6 @@ game (
 game (
 	name "We Sing Encore (Europe, Australia) (En,Fr,De,Es,It)"
 	description "We Sing Encore (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SSEP-EUR-B0"
 	rom ( name "We Sing Encore (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 1DBE8992 md5 FF43B6D92B49CB7DB0914E8B06B15670 sha1 5F314467FE1ABE8BFE5C0115E31BF78AED8C5B80 serial "RVL-SSEP-EUR-B0" )
 )
@@ -25861,7 +25785,6 @@ game (
 game (
 	name "We Sing Robbie Williams (Europe, Australia) (En,Fr,De,Es,It)"
 	description "We Sing Robbie Williams (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SINP-EUR-B0"
 	rom ( name "We Sing Robbie Williams (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 82364A30 md5 7539D2ECA5CBFEF644EC88DB32FC712B sha1 968673C2620F0444B7D537E37B041BEE96A390A2 serial "RVL-SINP-EUR-B0" )
 )
@@ -26025,13 +25948,6 @@ game (
 	rom ( name "Wicked Monsters Blast! (USA).iso" size 4699979776 crc 0C2DD5CD md5 54D15F966BD9531269028B90FC1DFE46 sha1 4E40C87443419FFDA9232D73AF1066323E3D3DC2 serial "RVL-SW9E-USA-B0" )
 )
 game (
-	name "Wii Auto Erase Disc (USA)"
-	description "Wii Auto Erase Disc (USA)"
-	region "USA"
-	serial "RVL-007E-USA"
-	rom ( name "Wii Auto Erase Disc (USA).iso" size 4699979776 crc ECF88D9C md5 F9BFEF95D143C02B34912B70A1726F18 sha1 3538ECDE2BD058DA2D325239017246117D76D796 serial "RVL-007E-USA" )
-)
-game (
 	name "Wii Back Up Disc Ver. 1.31 (USA)"
 	description "Wii Back Up Disc Ver. 1.31 (USA)"
 	region "USA"
@@ -26055,7 +25971,6 @@ game (
 game (
 	name "Wii Fit (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Fit (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RFNP-EUR"
 	rom ( name "Wii Fit (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 2AEC75B4 md5 60B0DECF6349311CDB6FB4841F3C8040 sha1 4C17F07DA0F6FF3CE0436D41612B5AAEDB26A8B6 serial "RVL-RFNP-EUR" )
 )
@@ -26125,14 +26040,12 @@ game (
 game (
 	name "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RFPP-EUR-B0"
 	rom ( name "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 1DFE5245 md5 2DA4AE82485293C227C94901449710BB sha1 75AB2048C2323AFBF7959CB20847E0E84138BF01 serial "RVL-RFPP-EUR-B0" )
 )
 game (
 	name "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RFPP-NOE-B0"
 	rom ( name "Wii Fit Plus (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 1DFE5245 md5 2DA4AE82485293C227C94901449710BB sha1 75AB2048C2323AFBF7959CB20847E0E84138BF01 serial "RVL-RFPP-NOE-B0" )
 )
@@ -26247,7 +26160,6 @@ game (
 game (
 	name "Wii Play (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Play (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RHAP-EUR"
 	rom ( name "Wii Play (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc C57946DE md5 A76B3C2A813084DAC0C8556291244139 sha1 36563B60CB2FD0B5BF87550F458DCBFF65268565 serial "RVL-RHAP-EUR" )
 )
@@ -26324,7 +26236,6 @@ game (
 game (
 	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Sports (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-RSPP-EUR"
 	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 87BDED9D md5 8F45C4F518719A7E8B0EEACD044F4D2D sha1 9EC91A82C2E1D095856BC15C56B747820D2A7A0B serial "RVL-RSPP-EUR" )
 )
@@ -26394,7 +26305,6 @@ game (
 game (
 	name "Wii Sports + Wii Sports Resort (Europe, Australia) (En,Fr,De,Es,It)"
 	description "Wii Sports + Wii Sports Resort (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-SP2P-EUR-B0"
 	rom ( name "Wii Sports + Wii Sports Resort (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 199014DF md5 F9D6A6C2600A54F72C8FE9CB61321FE7 sha1 1310AEBA93AACCFB9E9A614D3E4850F5199BC1D9 serial "RVL-SP2P-EUR-B0" )
 )
@@ -26785,7 +26695,6 @@ game (
 game (
 	name "World Series of Poker - Tournament of Champions - 2007 Edition (Europe, Australia)"
 	description "World Series of Poker - Tournament of Champions - 2007 Edition (Europe, Australia)"
-	region "Europe"
 	serial "RVL-RPKP-UKV"
 	rom ( name "World Series of Poker - Tournament of Champions - 2007 Edition (Europe, Australia).iso" size 4699979776 crc E8219288 md5 0A6666877F54654AD79C993AF4F65DE4 sha1 F405F8D37847AD94FECDF99632CC965F5F0418C1 serial "RVL-RPKP-UKV" )
 )
@@ -26806,7 +26715,6 @@ game (
 game (
 	name "World Sports Party (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
 	description "World Sports Party (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv,No,Da)"
-	region "Europe"
 	serial "RVL-R8SX-EUU-B0"
 	rom ( name "World Sports Party (Europe, Australia) (En,Fr,De,Es,It,Nl,Sv,No,Da).iso" size 4699979776 crc FB52977F md5 C9AD19DF4034338609E514D210F2B326 sha1 AA466B6F2FA7A1CCFC8DEABAA5510C0308588112 serial "RVL-R8SX-EUU-B0" )
 )
@@ -26939,14 +26847,12 @@ game (
 game (
 	name "Xenoblade Chronicles (USA, Asia) (En,Fr,Es)"
 	description "Xenoblade Chronicles (USA, Asia) (En,Fr,Es)"
-	region "USA"
 	serial "RVL-SX4E-MDE-E0"
 	rom ( name "Xenoblade Chronicles (USA, Asia) (En,Fr,Es).iso" size 8511160320 crc 472FFED2 md5 F76E76B2656B92490DF354E7A757257B sha1 5C7A23D87AF7D736226F4795EBF10B6F428F67C9 serial "RVL-SX4E-MDE-E0" )
 )
 game (
 	name "Xenoblade Chronicles (USA, Asia) (En,Fr,Es)"
 	description "Xenoblade Chronicles (USA, Asia) (En,Fr,Es)"
-	region "USA"
 	serial "RVL-SX4E-USA-E0"
 	rom ( name "Xenoblade Chronicles (USA, Asia) (En,Fr,Es).iso" size 8511160320 crc 472FFED2 md5 F76E76B2656B92490DF354E7A757257B sha1 5C7A23D87AF7D736226F4795EBF10B6F428F67C9 serial "RVL-SX4E-USA-E0" )
 )
@@ -27206,7 +27112,6 @@ game (
 game (
 	name "ZhuZhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It)"
 	description "ZhuZhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It)"
-	region "Europe"
 	serial "RVL-S2ZP-EUR-B0"
 	rom ( name "ZhuZhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc FAF8D620 md5 02E7EBE6D94F47C9E16F69CCB21C3C03 sha1 EE1E2AD3345F82B48C8E5AC063FF1F029C94F0E9 serial "RVL-S2ZP-EUR-B0" )
 )
@@ -27331,7 +27236,6 @@ game (
 game (
 	name "uDraw Studio - Instant Artist (Europe, Australia) (En,Fr,De,Es,It,Nl)"
 	description "uDraw Studio - Instant Artist (Europe, Australia) (En,Fr,De,Es,It,Nl)"
-	region "Europe"
 	serial "RVL-SUUP-EUR-B0"
 	rom ( name "uDraw Studio - Instant Artist (Europe, Australia) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc 60D6337E md5 5DDAE36351EBBCD4C52F58F7F1408538 sha1 F4DBA1F9CBD159150AEC7D4E773895D2F3AEE82D serial "RVL-SUUP-EUR-B0" )
 )
