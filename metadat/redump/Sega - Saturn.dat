@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Saturn"
 	description "Sega - Saturn"
-	version "2025.02.14"
+	version "2025.04.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -1034,11 +1034,11 @@ game (
 	rom ( name "Battle Stations (Europe) (En,Fr,De) (Track 01).bin" size 160926192 crc C21867F3 md5 04FAA57F016134170FF31F38B37DB32A sha1 086859259E3E167D66556F6967ED3B93B651697C serial "T-5021H-50" )
 )
 game (
-	name "Battle Stations (USA)"
-	description "Battle Stations (USA)"
+	name "Battle Stations (USA) (En,Fr,De)"
+	description "Battle Stations (USA) (En,Fr,De)"
 	region "USA"
 	serial "T-5021H"
-	rom ( name "Battle Stations (USA) (Track 01).bin" size 160926192 crc 694D3D26 md5 71B5FFE832E36055BC3D3725B91B2351 sha1 8730ECA6EA8C24C0C01DF1CBABD7AE7D89A64AB9 serial "T-5021H" )
+	rom ( name "Battle Stations (USA) (En,Fr,De) (Track 01).bin" size 160926192 crc 694D3D26 md5 71B5FFE832E36055BC3D3725B91B2351 sha1 8730ECA6EA8C24C0C01DF1CBABD7AE7D89A64AB9 serial "T-5021H" )
 )
 game (
 	name "BattleSport (USA)"
@@ -1521,6 +1521,18 @@ game (
 	rom ( name "Bust-A-Move 3 (USA) (Track 01).bin" size 24486672 crc 68FF7C4D md5 0FD1A22F478EACEE5D2C356E5E026C31 sha1 A27168E8526C7E3C94D089659E728C0FB2DCB479 serial "T-31103H" )
 )
 game (
+	name "CD-G Test Disc (Japan) (v1.0)"
+	description "CD-G Test Disc (Japan) (v1.0)"
+	region "Japan"
+	rom ( name "CD-G Test Disc (Japan) (v1.0) (Track 01).bin" size 705600 crc 76140996 md5 030F23F98CD9B8A1ACC706003EEFE6C0 sha1 2C2376AF4336A326653FF07AA79C97472A62314D )
+)
+game (
+	name "CD-G Test Disc (Japan) (v2.0)"
+	description "CD-G Test Disc (Japan) (v2.0)"
+	region "Japan"
+	rom ( name "CD-G Test Disc (Japan) (v2.0) (Track 01).bin" size 5379024 crc D231CDC8 md5 42EF7F85B550AE7AEB3C3B7924041261 sha1 17E8FA41C1635DD94F2F2490CCDCE5A4CCF2721E )
+)
+game (
 	name "Can Can Bunny Extra (Japan)"
 	description "Can Can Bunny Extra (Japan)"
 	region "Japan"
@@ -1873,11 +1885,11 @@ game (
 	rom ( name "Clockwork Knight - Pepperouchau's Adventure (Europe) (Track 1).bin" size 216419280 crc 02AC5602 md5 4150845D960385A6CDAF81F4EAD55549 sha1 189DEDDC4AD88E4672942A3F4D0C079449F70C90 serial "MK81007-50" )
 )
 game (
-	name "Clockwork Knight - Pepperouchau's Adventure (USA)"
-	description "Clockwork Knight - Pepperouchau's Adventure (USA)"
+	name "Clockwork Knight - Pepperouchau's Adventure (USA) (7S)"
+	description "Clockwork Knight - Pepperouchau's Adventure (USA) (7S)"
 	region "USA"
 	serial "81007"
-	rom ( name "Clockwork Knight - Pepperouchau's Adventure (USA) (Track 1).bin" size 216423984 crc 0981F06B md5 C23F8858CCAB53BAA1C4678EF988E940 sha1 19CCB658BE4C541A2EBAD8255040ECB504D090DA serial "81007" )
+	rom ( name "Clockwork Knight - Pepperouchau's Adventure (USA) (7S) (Track 1).bin" size 216423984 crc 0981F06B md5 C23F8858CCAB53BAA1C4678EF988E940 sha1 19CCB658BE4C541A2EBAD8255040ECB504D090DA serial "81007" )
 )
 game (
 	name "Clockwork Knight - Pepperouchau's Adventure (USA) (Beta)"
@@ -2563,78 +2575,134 @@ game (
 	rom ( name "Cyberia (USA) (En,Fr,De) (Track 1).bin" size 504402864 crc D413124A md5 7E49B3AAD6C48CC489F5863EC7FDB646 sha1 D00CACD6C8151A1805927AE8231848B784A03198 serial "T-12508H" )
 )
 game (
-	name "D (Europe) (Disc I)"
-	description "D (Europe) (Disc I)"
+	name "D (Europe) (Disc 1)"
+	description "D (Europe) (Disc 1)"
 	region "Europe"
 	serial "T-8106H-50-E"
-	rom ( name "D (Europe) (Disc I) (Track 1).bin" size 569957808 crc 911C58E5 md5 DAF861F628EF4F39B0DEFF074EFA4047 sha1 9C2DFB978365B7C0DF7889CFC91031585F0A9AA3 serial "T-8106H-50-E" )
+	rom ( name "D (Europe) (Disc 1) (Track 1).bin" size 569957808 crc 911C58E5 md5 DAF861F628EF4F39B0DEFF074EFA4047 sha1 9C2DFB978365B7C0DF7889CFC91031585F0A9AA3 serial "T-8106H-50-E" )
 )
 game (
-	name "D (Europe) (Disc II)"
-	description "D (Europe) (Disc II)"
+	name "D (Europe) (Disc 1)"
+	description "D (Europe) (Disc 1)"
+	region "Europe"
+	serial "T-8106H-50-E-0"
+	rom ( name "D (Europe) (Disc 1) (Track 1).bin" size 569957808 crc 911C58E5 md5 DAF861F628EF4F39B0DEFF074EFA4047 sha1 9C2DFB978365B7C0DF7889CFC91031585F0A9AA3 serial "T-8106H-50-E-0" )
+)
+game (
+	name "D (Europe) (Disc 2)"
+	description "D (Europe) (Disc 2)"
 	region "Europe"
 	serial "T-8106H-50-E"
-	rom ( name "D (Europe) (Disc II) (Track 1).bin" size 534522576 crc 5C2D4632 md5 06A6030318B55E6ECE5CFF10BF26E434 sha1 45E6744F05C5FCDDB29AA0F4FBAD120917CE54C2 serial "T-8106H-50-E" )
+	rom ( name "D (Europe) (Disc 2) (Track 1).bin" size 534522576 crc 5C2D4632 md5 06A6030318B55E6ECE5CFF10BF26E434 sha1 45E6744F05C5FCDDB29AA0F4FBAD120917CE54C2 serial "T-8106H-50-E" )
 )
 game (
-	name "D (France) (Disc I)"
-	description "D (France) (Disc I)"
+	name "D (Europe) (Disc 2)"
+	description "D (Europe) (Disc 2)"
+	region "Europe"
+	serial "T-8106H-50-E-1"
+	rom ( name "D (Europe) (Disc 2) (Track 1).bin" size 534522576 crc 5C2D4632 md5 06A6030318B55E6ECE5CFF10BF26E434 sha1 45E6744F05C5FCDDB29AA0F4FBAD120917CE54C2 serial "T-8106H-50-E-1" )
+)
+game (
+	name "D (France) (Disc 1)"
+	description "D (France) (Disc 1)"
 	region "France"
 	serial "T-8106H-50-F"
-	rom ( name "D (France) (Disc I) (Track 1).bin" size 571404288 crc FE3BF0D0 md5 DD6924D73AC5AC28144601742DFCFDDE sha1 C8CB4959DA29B2445F3C9722A243EACE2F9F31A7 serial "T-8106H-50-F" )
+	rom ( name "D (France) (Disc 1) (Track 1).bin" size 571404288 crc FE3BF0D0 md5 DD6924D73AC5AC28144601742DFCFDDE sha1 C8CB4959DA29B2445F3C9722A243EACE2F9F31A7 serial "T-8106H-50-F" )
 )
 game (
-	name "D (France) (Disc II)"
-	description "D (France) (Disc II)"
+	name "D (France) (Disc 1)"
+	description "D (France) (Disc 1)"
+	region "France"
+	serial "T-8106H-50-F-0"
+	rom ( name "D (France) (Disc 1) (Track 1).bin" size 571404288 crc FE3BF0D0 md5 DD6924D73AC5AC28144601742DFCFDDE sha1 C8CB4959DA29B2445F3C9722A243EACE2F9F31A7 serial "T-8106H-50-F-0" )
+)
+game (
+	name "D (France) (Disc 2)"
+	description "D (France) (Disc 2)"
 	region "France"
 	serial "T-8106H-50-F"
-	rom ( name "D (France) (Disc II) (Track 1).bin" size 534531984 crc 4BFE3CC9 md5 C97D3A73789854BABE51E9D16275F538 sha1 FACB4DF9FB927443778D8AA3BB6F239173163C6D serial "T-8106H-50-F" )
+	rom ( name "D (France) (Disc 2) (Track 1).bin" size 534531984 crc 4BFE3CC9 md5 C97D3A73789854BABE51E9D16275F538 sha1 FACB4DF9FB927443778D8AA3BB6F239173163C6D serial "T-8106H-50-F" )
 )
 game (
-	name "D (Germany) (Disc I)"
-	description "D (Germany) (Disc I)"
+	name "D (France) (Disc 2)"
+	description "D (France) (Disc 2)"
+	region "France"
+	serial "T-8106H-50-F-1"
+	rom ( name "D (France) (Disc 2) (Track 1).bin" size 534531984 crc 4BFE3CC9 md5 C97D3A73789854BABE51E9D16275F538 sha1 FACB4DF9FB927443778D8AA3BB6F239173163C6D serial "T-8106H-50-F-1" )
+)
+game (
+	name "D (Germany) (Disc 1)"
+	description "D (Germany) (Disc 1)"
 	region "Germany"
 	serial "T-8106H-50-G"
-	rom ( name "D (Germany) (Disc I) (Track 1).bin" size 568064448 crc 622F67CE md5 590AE7130C9A51A459B4BB6268E1E45E sha1 EF8EC9DE9C9E852D9DC83E8050B313A3003E8E8E serial "T-8106H-50-G" )
+	rom ( name "D (Germany) (Disc 1) (Track 1).bin" size 568064448 crc 622F67CE md5 590AE7130C9A51A459B4BB6268E1E45E sha1 EF8EC9DE9C9E852D9DC83E8050B313A3003E8E8E serial "T-8106H-50-G" )
 )
 game (
-	name "D (Germany) (Disc II)"
-	description "D (Germany) (Disc II)"
+	name "D (Germany) (Disc 1)"
+	description "D (Germany) (Disc 1)"
+	region "Germany"
+	serial "T-8106H-50-G-0"
+	rom ( name "D (Germany) (Disc 1) (Track 1).bin" size 568064448 crc 622F67CE md5 590AE7130C9A51A459B4BB6268E1E45E sha1 EF8EC9DE9C9E852D9DC83E8050B313A3003E8E8E serial "T-8106H-50-G-0" )
+)
+game (
+	name "D (Germany) (Disc 2)"
+	description "D (Germany) (Disc 2)"
 	region "Germany"
 	serial "T-8106H-50-G"
-	rom ( name "D (Germany) (Disc II) (Track 1).bin" size 518519568 crc CEDAE18D md5 7137BA522A95405F640B54242D3754F3 sha1 DC0B848B8295C2B8FAF1678EE1E820092DC10DCD serial "T-8106H-50-G" )
+	rom ( name "D (Germany) (Disc 2) (Track 1).bin" size 518519568 crc CEDAE18D md5 7137BA522A95405F640B54242D3754F3 sha1 DC0B848B8295C2B8FAF1678EE1E820092DC10DCD serial "T-8106H-50-G" )
 )
 game (
-	name "D (USA) (Disc I)"
-	description "D (USA) (Disc I)"
+	name "D (Germany) (Disc 2)"
+	description "D (Germany) (Disc 2)"
+	region "Germany"
+	serial "T-8106H-50-G-1"
+	rom ( name "D (Germany) (Disc 2) (Track 1).bin" size 518519568 crc CEDAE18D md5 7137BA522A95405F640B54242D3754F3 sha1 DC0B848B8295C2B8FAF1678EE1E820092DC10DCD serial "T-8106H-50-G-1" )
+)
+game (
+	name "D (USA) (Disc 1)"
+	description "D (USA) (Disc 1)"
 	region "USA"
 	serial "T-8106H"
-	rom ( name "D (USA) (Disc I) (Track 1).bin" size 569957808 crc C7280BA5 md5 1B04041814252169018D313E8F827C65 sha1 41E1743838B9DBD121E70DD3412ACCC985DEB152 serial "T-8106H" )
+	rom ( name "D (USA) (Disc 1) (Track 1).bin" size 569957808 crc C7280BA5 md5 1B04041814252169018D313E8F827C65 sha1 41E1743838B9DBD121E70DD3412ACCC985DEB152 serial "T-8106H" )
 )
 game (
-	name "D (USA) (Disc I) (Beta)"
-	description "D (USA) (Disc I) (Beta)"
+	name "D (USA) (Disc 1)"
+	description "D (USA) (Disc 1)"
+	region "USA"
+	serial "T-8106H-0"
+	rom ( name "D (USA) (Disc 1) (Track 1).bin" size 569957808 crc C7280BA5 md5 1B04041814252169018D313E8F827C65 sha1 41E1743838B9DBD121E70DD3412ACCC985DEB152 serial "T-8106H-0" )
+)
+game (
+	name "D (USA) (Disc 1) (Beta)"
+	description "D (USA) (Disc 1) (Beta)"
 	releaseyear "1996"
 	releasemonth "02"
 	releaseday "05"
 	region "USA"
-	rom ( name "D (USA) (Disc I) (Beta) (1996-02-05) (Track 1).bin" size 569955456 crc 325F9918 md5 7B4BB0823009193DD253AC201A600D3A sha1 2B7DAB011DE4CE8035847BB7D261D9DBC5E7F327 )
+	rom ( name "D (USA) (Disc 1) (Beta) (1996-02-05) (Track 1).bin" size 569955456 crc 325F9918 md5 7B4BB0823009193DD253AC201A600D3A sha1 2B7DAB011DE4CE8035847BB7D261D9DBC5E7F327 )
 )
 game (
-	name "D (USA) (Disc II)"
-	description "D (USA) (Disc II)"
+	name "D (USA) (Disc 2)"
+	description "D (USA) (Disc 2)"
 	region "USA"
 	serial "T-8106H"
-	rom ( name "D (USA) (Disc II) (Track 1).bin" size 534522576 crc 76F94728 md5 342903209B2E44D808840A03B0BDBF1A sha1 8F4E0BC072E62D9DF00AF9937F28D2457A61144E serial "T-8106H" )
+	rom ( name "D (USA) (Disc 2) (Track 1).bin" size 534522576 crc 76F94728 md5 342903209B2E44D808840A03B0BDBF1A sha1 8F4E0BC072E62D9DF00AF9937F28D2457A61144E serial "T-8106H" )
 )
 game (
-	name "D (USA) (Disc II) (Beta)"
-	description "D (USA) (Disc II) (Beta)"
+	name "D (USA) (Disc 2)"
+	description "D (USA) (Disc 2)"
+	region "USA"
+	serial "T-8106H-1"
+	rom ( name "D (USA) (Disc 2) (Track 1).bin" size 534522576 crc 76F94728 md5 342903209B2E44D808840A03B0BDBF1A sha1 8F4E0BC072E62D9DF00AF9937F28D2457A61144E serial "T-8106H-1" )
+)
+game (
+	name "D (USA) (Disc 2) (Beta)"
+	description "D (USA) (Disc 2) (Beta)"
 	releaseyear "1996"
 	releasemonth "02"
 	releaseday "05"
 	region "USA"
-	rom ( name "D (USA) (Disc II) (Beta) (1996-02-05) (Track 1).bin" size 534520224 crc CE8FDC31 md5 D545A7BF0B6DA1186E979379815FA8EB sha1 49C52FF805689B9453054B848E2C38BC6328EC23 )
+	rom ( name "D (USA) (Disc 2) (Beta) (1996-02-05) (Track 1).bin" size 534520224 crc CE8FDC31 md5 D545A7BF0B6DA1186E979379815FA8EB sha1 49C52FF805689B9453054B848E2C38BC6328EC23 )
 )
 game (
 	name "D no Shokutaku (Japan) (Disc 1)"
@@ -4611,18 +4679,18 @@ game (
 	rom ( name "FEDA Remake! The Emblem of Justice (Japan) (Track 1).bin" size 574984032 crc D730A9CC md5 2F2CB044F2DBA12DA4BC6FE2D03AC8D8 sha1 2A02F6FC7A00310950E85A7E1497FF33E7AE5726 serial "T-21001G" )
 )
 game (
-	name "FIFA - Die WM-Qualifikation 98 (Germany)"
-	description "FIFA - Die WM-Qualifikation 98 (Germany)"
+	name "FIFA - Die WM-Qualifikation 98 (Germany) (En,Fr,De,Es,It,Nl,Sv)"
+	description "FIFA - Die WM-Qualifikation 98 (Germany) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Germany"
 	serial "T-5025H-50"
-	rom ( name "FIFA - Die WM-Qualifikation 98 (Germany) (Track 1).bin" size 482331696 crc 1CCED1E5 md5 A221EBA7A5301D06B102174FB4B16B8F sha1 A9B08D7ED5A906D85F2BC272888689D5FA958EDA serial "T-5025H-50" )
+	rom ( name "FIFA - Die WM-Qualifikation 98 (Germany) (En,Fr,De,Es,It,Nl,Sv) (Track 1).bin" size 482331696 crc 1CCED1E5 md5 A221EBA7A5301D06B102174FB4B16B8F sha1 A9B08D7ED5A906D85F2BC272888689D5FA958EDA serial "T-5025H-50" )
 )
 game (
-	name "FIFA - En Route pour la Coupe du Monde 98 (France)"
-	description "FIFA - En Route pour la Coupe du Monde 98 (France)"
+	name "FIFA - En Route pour la Coupe du Monde 98 (France) (En,Fr,De,Es,It,Nl,Sv)"
+	description "FIFA - En Route pour la Coupe du Monde 98 (France) (En,Fr,De,Es,It,Nl,Sv)"
 	region "France"
 	serial "T-5025H-50"
-	rom ( name "FIFA - En Route pour la Coupe du Monde 98 (France) (Track 1).bin" size 444384528 crc 06718679 md5 5FE633AF0EBA44CD84A2E4FEE24458E4 sha1 2798E0C5DD834039BD65B089A59B96B9810DC68E serial "T-5025H-50" )
+	rom ( name "FIFA - En Route pour la Coupe du Monde 98 (France) (En,Fr,De,Es,It,Nl,Sv) (Track 1).bin" size 444384528 crc 06718679 md5 5FE633AF0EBA44CD84A2E4FEE24458E4 sha1 2798E0C5DD834039BD65B089A59B96B9810DC68E serial "T-5025H-50" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv)"
@@ -4639,18 +4707,18 @@ game (
 	rom ( name "FIFA - Road to World Cup 98 (Italy) (En,Fr,De,Es,It,Nl,Sv) (Track 1).bin" size 436613520 crc 98109692 md5 2580799CBCC7D9946627D04772EB7DAF sha1 57041E23E7CAA97D8CA7AFD5713E3B61B39FE495 serial "T-5025H-50" )
 )
 game (
-	name "FIFA - Road to World Cup 98 (USA)"
-	description "FIFA - Road to World Cup 98 (USA)"
+	name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)"
+	description "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)"
 	region "USA"
 	serial "T-5025H"
-	rom ( name "FIFA - Road to World Cup 98 (USA) (Track 1).bin" size 446658912 crc 759A29BA md5 7B6800EEA9C6E909F501B2EA5A1261AE sha1 B49E0907122EB1965B8EC204AFB74979FD9E6C6F serial "T-5025H" )
+	rom ( name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv) (Track 1).bin" size 446658912 crc 759A29BA md5 7B6800EEA9C6E909F501B2EA5A1261AE sha1 B49E0907122EB1965B8EC204AFB74979FD9E6C6F serial "T-5025H" )
 )
 game (
-	name "FIFA - Rumbo al Mundial 98 (Spain)"
-	description "FIFA - Rumbo al Mundial 98 (Spain)"
+	name "FIFA - Rumbo al Mundial 98 (Spain) (En,Fr,De,Es,It,Nl,Sv)"
+	description "FIFA - Rumbo al Mundial 98 (Spain) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Spain"
 	serial "T-5025H-50"
-	rom ( name "FIFA - Rumbo al Mundial 98 (Spain) (Track 1).bin" size 490225008 crc A7D064E0 md5 1F77834CE4EC04EDC4C5C142FFF535D9 sha1 CCA646316C004C1DB6017DAC1449D0E862D63298 serial "T-5025H-50" )
+	rom ( name "FIFA - Rumbo al Mundial 98 (Spain) (En,Fr,De,Es,It,Nl,Sv) (Track 1).bin" size 490225008 crc A7D064E0 md5 1F77834CE4EC04EDC4C5C142FFF535D9 sha1 CCA646316C004C1DB6017DAC1449D0E862D63298 serial "T-5025H-50" )
 )
 game (
 	name "FIFA 97 (Europe) (En,Fr,De,Es,It,Sv)"
@@ -4688,18 +4756,18 @@ game (
 	rom ( name "FIFA Soccer 96 (Japan) (Track 01).bin" size 240560208 crc 84B9A3BE md5 2DA2C6EE91D253E0BFF7FE5F419C8D37 sha1 75695133D9AC74EBA7B101A7C19526E09E5463C1 serial "T-10606G" )
 )
 game (
-	name "FIFA Soccer 96 (USA)"
-	description "FIFA Soccer 96 (USA)"
+	name "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv)"
+	description "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv)"
 	region "USA"
 	serial "T-5003H"
-	rom ( name "FIFA Soccer 96 (USA) (Track 01).bin" size 240614304 crc 3A71EEDF md5 2592CF324431884819B8C4D44A294FF7 sha1 B7056356657D8AD7330CA49C5AC3F9DADF098492 serial "T-5003H" )
+	rom ( name "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv) (Track 01).bin" size 240614304 crc 3A71EEDF md5 2592CF324431884819B8C4D44A294FF7 sha1 B7056356657D8AD7330CA49C5AC3F9DADF098492 serial "T-5003H" )
 )
 game (
-	name "FIFA Soccer 97 (USA)"
-	description "FIFA Soccer 97 (USA)"
+	name "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv)"
+	description "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv)"
 	region "USA"
 	serial "T-5017H"
-	rom ( name "FIFA Soccer 97 (USA) (Track 1).bin" size 642799248 crc 12A71F52 md5 532687FCBC9768D8917866E25130C6A8 sha1 51E33FC2E793A2A3B17CC2466AA4E90D03A7D0F9 serial "T-5017H" )
+	rom ( name "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv) (Track 1).bin" size 642799248 crc 12A71F52 md5 532687FCBC9768D8917866E25130C6A8 sha1 51E33FC2E793A2A3B17CC2466AA4E90D03A7D0F9 serial "T-5017H" )
 )
 game (
 	name "Falcom Classics (Japan) (Disc 1) (Game Disc)"
@@ -5969,11 +6037,11 @@ game (
 	rom ( name "Grandia - Prelude (Japan) (Track 1).bin" size 248187744 crc B0258240 md5 F0E512088659F51CFDAA18DBF60A0D4C sha1 85DC928FBAF98FA3E5F56110A835F9C51E9B5693 serial "6106600" )
 )
 game (
-	name "Greatest Nine '96 (Japan) (3M)"
-	description "Greatest Nine '96 (Japan) (3M)"
+	name "Greatest Nine '96 (Japan) (1M)"
+	description "Greatest Nine '96 (Japan) (1M)"
 	region "Japan"
 	serial "GS-9086"
-	rom ( name "Greatest Nine '96 (Japan) (3M) (Track 1).bin" size 155201424 crc 6B3897C2 md5 A542CB2BE9E93F65FF64782F34C464AF sha1 C6C8EE610DACC1D2035F8E7D6061E45624E9027F serial "GS-9086" )
+	rom ( name "Greatest Nine '96 (Japan) (1M) (Track 1).bin" size 155201424 crc 6B3897C2 md5 A542CB2BE9E93F65FF64782F34C464AF sha1 C6C8EE610DACC1D2035F8E7D6061E45624E9027F serial "GS-9086" )
 )
 game (
 	name "Greatest Nine '96 (Japan) (Rev A) (10M)"
@@ -6279,11 +6347,11 @@ game (
 	rom ( name "Heim Waltz (Japan) (Rev A) (Track 1).bin" size 146212080 crc F44C8F55 md5 B8C26F2FA8C36F8A176702B51E68F681 sha1 3F2B5A2E027D243D3E02558F0F89F2E4B8C0A2D3 serial "GS-9121" )
 )
 game (
-	name "Heir of Zendor - The Legend and The Land (USA)"
-	description "Heir of Zendor - The Legend and The Land (USA)"
+	name "Heir of Zendor - The Legend and the Land (USA)"
+	description "Heir of Zendor - The Legend and the Land (USA)"
 	region "USA"
 	serial "T-7605H"
-	rom ( name "Heir of Zendor - The Legend and The Land (USA) (Track 01).bin" size 410073552 crc 9FCFAB32 md5 C3CCDBBFC5321C2DA43EF3BE4CFCFD1F sha1 51F8C7B4825EF5336731E6EA0432AFEAC1F625DC serial "T-7605H" )
+	rom ( name "Heir of Zendor - The Legend and the Land (USA) (Track 01).bin" size 410073552 crc 9FCFAB32 md5 C3CCDBBFC5321C2DA43EF3BE4CFCFD1F sha1 51F8C7B4825EF5336731E6EA0432AFEAC1F625DC serial "T-7605H" )
 )
 game (
 	name "Heisei Tensai Bakabon - Susume! Bakabons (Japan)"
@@ -7538,6 +7606,13 @@ game (
 	region "Japan"
 	serial "T-3125G"
 	rom ( name "King of Fighters '97, The (Japan) (Track 01).bin" size 57485232 crc 04ED57A2 md5 DFBAEF68DAE4B9B8085581DAB6B3BF3A sha1 2723B0540455C59C3E7E948544906185BF66DF35 serial "T-3125G" )
+)
+game (
+	name "King of Fighters '97, The (Japan) (Sample)"
+	description "King of Fighters '97, The (Japan) (Sample)"
+	region "Japan"
+	serial "610-6869"
+	rom ( name "King of Fighters '97, The (Japan) (Sample) (Track 01).bin" size 57480528 crc F73830C2 md5 B9DF04BC208257FDCA75EA0E3EE3768C sha1 8B836F97C719D5435D6A49A5937502CC335019D2 serial "610-6869" )
 )
 game (
 	name "Kiss yori... (Japan)"
@@ -9794,90 +9869,6 @@ game (
 	rom ( name "NHL Powerplay '96 (USA) (Track 1).bin" size 333132576 crc 68BD37D5 md5 81BD8E4004137E224B1643AAB081883A sha1 2EB7F8A1A487064DFC0904A94B2D0E28A9F29359 serial "T-7013H" )
 )
 game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	region "Japan"
-	serial "T-22205G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22205G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	region "Japan"
-	serial "T-22205G-0"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22205G-0" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	region "Japan"
-	serial "T-22206G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22206G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 1)"
-	region "Japan"
-	serial "T-22206G-0"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22206G-0" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	region "Japan"
-	serial "T-22205G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22205G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	region "Japan"
-	serial "T-22205G-1"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22205G-1" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	region "Japan"
-	serial "T-22206G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22206G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 2)"
-	region "Japan"
-	serial "T-22206G-1"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22206G-1" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	region "Japan"
-	serial "T-22205G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22205G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	region "Japan"
-	serial "T-22205G-2"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22205G-2" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	region "Japan"
-	serial "T-22206G"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22206G" )
-)
-game (
-	name "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	description "NOeL 3 - Not Digital (Japan) (Disc 3)"
-	region "Japan"
-	serial "T-22206G-2"
-	rom ( name "NOeL 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22206G-2" )
-)
-game (
 	name "Nanatsu Kaze no Shima Monogatari (Japan) (Disc 1)"
 	description "Nanatsu Kaze no Shima Monogatari (Japan) (Disc 1)"
 	region "Japan"
@@ -10205,6 +10196,90 @@ game (
 	region "Japan"
 	serial "T-7643G"
 	rom ( name "Nobunaga no Yabou Tenshouki with Power-Up Kit (Japan) (Track 1).bin" size 537892992 crc A00C0445 md5 30466FA210479F6AB6AF6C626C82530B sha1 75037740B4A8323C8C87483ABCED5CAB2430CB83 serial "T-7643G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 1)"
+	description "Noel 3 - Not Digital (Japan) (Disc 1)"
+	region "Japan"
+	serial "T-22205G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22205G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 1)"
+	description "Noel 3 - Not Digital (Japan) (Disc 1)"
+	region "Japan"
+	serial "T-22205G-0"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22205G-0" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 1)"
+	description "Noel 3 - Not Digital (Japan) (Disc 1)"
+	region "Japan"
+	serial "T-22206G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22206G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 1)"
+	description "Noel 3 - Not Digital (Japan) (Disc 1)"
+	region "Japan"
+	serial "T-22206G-0"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 1) (Track 1).bin" size 274563072 crc 1EBF2871 md5 CD7F653D9D66648688D7E66F24E2C7DF sha1 263675B18A5EA1C4EB11E8628660B3AEF13145B5 serial "T-22206G-0" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 2)"
+	description "Noel 3 - Not Digital (Japan) (Disc 2)"
+	region "Japan"
+	serial "T-22205G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22205G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 2)"
+	description "Noel 3 - Not Digital (Japan) (Disc 2)"
+	region "Japan"
+	serial "T-22205G-1"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22205G-1" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 2)"
+	description "Noel 3 - Not Digital (Japan) (Disc 2)"
+	region "Japan"
+	serial "T-22206G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22206G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 2)"
+	description "Noel 3 - Not Digital (Japan) (Disc 2)"
+	region "Japan"
+	serial "T-22206G-1"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 2) (Track 1).bin" size 228106368 crc 64AA9DC4 md5 AFD0BD157C1091E4ABB04E43C4AC1043 sha1 4E16467C643ED0A1DC68846B920C8D4DD97EAC1B serial "T-22206G-1" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 3)"
+	description "Noel 3 - Not Digital (Japan) (Disc 3)"
+	region "Japan"
+	serial "T-22205G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22205G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 3)"
+	description "Noel 3 - Not Digital (Japan) (Disc 3)"
+	region "Japan"
+	serial "T-22205G-2"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22205G-2" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 3)"
+	description "Noel 3 - Not Digital (Japan) (Disc 3)"
+	region "Japan"
+	serial "T-22206G"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22206G" )
+)
+game (
+	name "Noel 3 - Not Digital (Japan) (Disc 3)"
+	description "Noel 3 - Not Digital (Japan) (Disc 3)"
+	region "Japan"
+	serial "T-22206G-2"
+	rom ( name "Noel 3 - Not Digital (Japan) (Disc 3) (Track 2).bin" size 158463648 crc 8CC3D00D md5 4B43664BC4B7CE95CAA6AE605EF1AA9E sha1 A576434C889A4360055896574F5CFC8E4FB97BE5 serial "T-22206G-2" )
 )
 game (
 	name "Nonomura Byouin no Hitobito (Japan)"
@@ -11383,18 +11458,18 @@ game (
 	rom ( name "Quarterback Attack (USA) (Track 1).bin" size 646562448 crc D4E405E5 md5 6D8E6F7F126BCB89788B520D23101358 sha1 3BC0921041A27B056B07AF86759A45BA792CBE1E serial "T-16213H" )
 )
 game (
-	name "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan)"
-	description "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan)"
+	name "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan)"
+	description "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan)"
 	region "Japan"
 	serial "T-1220G"
-	rom ( name "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan) (Track 1).bin" size 651376992 crc 9C510D9D md5 3AFAF4B37145C82193D06D811DFE947F sha1 A9A68581FDE92DB2A8572FC8010A9F8EAF388A0A serial "T-1220G" )
+	rom ( name "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan) (Track 1).bin" size 651376992 crc 9C510D9D md5 3AFAF4B37145C82193D06D811DFE947F sha1 A9A68581FDE92DB2A8572FC8010A9F8EAF388A0A serial "T-1220G" )
 )
 game (
-	name "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan) (Rev A)"
-	description "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan) (Rev A)"
+	name "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan) (Rev A)"
+	description "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan) (Rev A)"
 	region "Japan"
 	serial "T-1220G"
-	rom ( name "Quiz Nanairo Dreams - Nijiirochou no Kiseki (Japan) (Rev A) (Track 1).bin" size 651376992 crc C3E7EBEA md5 E8CF063078B0ECC9040D70C1351B3A96 sha1 CF26C815926178AFD28E6FC4123DE9C350168CAF serial "T-1220G" )
+	rom ( name "Quiz Nanairo Dreams - Nijiiro-chou no Kiseki (Japan) (Rev A) (Track 1).bin" size 651376992 crc C3E7EBEA md5 E8CF063078B0ECC9040D70C1351B3A96 sha1 CF26C815926178AFD28E6FC4123DE9C350168CAF serial "T-1220G" )
 )
 game (
 	name "QuoVadis (Japan)"
@@ -11530,18 +11605,25 @@ game (
 	rom ( name "Rayman (USA) (R2) (Track 01).bin" size 86586528 crc C6BD450E md5 C026599CAEEB149A7F75D5A52BA792C6 sha1 A1A2146AA5FC9FB1E8FA35170D2060DE2EBFD031 serial "T-17701H" )
 )
 game (
-	name "Real Bout Garou Densetsu (Japan) (2M)"
-	description "Real Bout Garou Densetsu (Japan) (2M)"
+	name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M)"
+	description "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M)"
 	region "Japan"
 	serial "T-3105G"
-	rom ( name "Real Bout Garou Densetsu (Japan) (2M) (Track 01).bin" size 30815904 crc 0E64F3C8 md5 33872A15BF967F5A252B51D839C38608 sha1 80BAB0F2E985B54ADE495148173AEA0EA219D93F serial "T-3105G" )
+	rom ( name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M) (Track 01).bin" size 30815904 crc 0E64F3C8 md5 33872A15BF967F5A252B51D839C38608 sha1 80BAB0F2E985B54ADE495148173AEA0EA219D93F serial "T-3105G" )
 )
 game (
-	name "Real Bout Garou Densetsu (Japan) (2M)"
-	description "Real Bout Garou Densetsu (Japan) (2M)"
+	name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M)"
+	description "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M)"
 	region "Japan"
 	serial "T-3124G"
-	rom ( name "Real Bout Garou Densetsu (Japan) (2M) (Track 01).bin" size 30815904 crc 0E64F3C8 md5 33872A15BF967F5A252B51D839C38608 sha1 80BAB0F2E985B54ADE495148173AEA0EA219D93F serial "T-3124G" )
+	rom ( name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (2M) (Track 01).bin" size 30815904 crc 0E64F3C8 md5 33872A15BF967F5A252B51D839C38608 sha1 80BAB0F2E985B54ADE495148173AEA0EA219D93F serial "T-3124G" )
+)
+game (
+	name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (Sample)"
+	description "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (Sample)"
+	region "Japan"
+	serial "ST-3105G"
+	rom ( name "Real Bout Garou Densetsu (Japan) (En,Ja,Es,Pt) (Sample) (Track 01).bin" size 30806496 crc 809E5F99 md5 C97DEB37B559AC5BCEE37BC0D5EF9689 sha1 02107A9B60B86D195C6F8E9F9C5CB2BCC61A2D54 serial "ST-3105G" )
 )
 game (
 	name "Real Bout Garou Densetsu Special (Japan)"
@@ -11719,11 +11801,11 @@ game (
 	rom ( name "Revolution X - Music Is the Weapon (Japan) (10S) (Track 01).bin" size 12503232 crc 31C22082 md5 FDD67164932C86D1A7B1DD12C161D571 sha1 657D3421650B8480C62B3A18277F5F0B42441C43 serial "T-8106G" )
 )
 game (
-	name "Revolution X - Music Is the Weapon (USA)"
-	description "Revolution X - Music Is the Weapon (USA)"
+	name "Revolution X - Music Is the Weapon (USA) (2S)"
+	description "Revolution X - Music Is the Weapon (USA) (2S)"
 	region "USA"
 	serial "T-8107H"
-	rom ( name "Revolution X - Music Is the Weapon (USA) (Track 01).bin" size 12460896 crc 77445427 md5 77E2854DA1E022EDDCBF54297AA1D815 sha1 0A5654D122BC4920108AB414079E3BFA0006F052 serial "T-8107H" )
+	rom ( name "Revolution X - Music Is the Weapon (USA) (2S) (Track 01).bin" size 12460896 crc 77445427 md5 77E2854DA1E022EDDCBF54297AA1D815 sha1 0A5654D122BC4920108AB414079E3BFA0006F052 serial "T-8107H" )
 )
 game (
 	name "Revolution X - Music Is the Weapon (USA) (Beta)"
@@ -12017,11 +12099,11 @@ game (
 	rom ( name "Road & Track Presents - The Need for Speed (Europe) (En,De) (Track 01).bin" size 337829520 crc 0051678A md5 A18B22031AF2C7A5ECE33A31A2D731AF sha1 3BACE4D02F1143E34725017BF21407F55D4128D9 serial "T-5009H-50" )
 )
 game (
-	name "Road & Track Presents - The Need for Speed (USA)"
-	description "Road & Track Presents - The Need for Speed (USA)"
+	name "Road & Track Presents - The Need for Speed (USA) (En,De)"
+	description "Road & Track Presents - The Need for Speed (USA) (En,De)"
 	region "USA"
 	serial "T-5009H"
-	rom ( name "Road & Track Presents - The Need for Speed (USA) (Track 01).bin" size 337829520 crc B5BE9C83 md5 73F216D3EC05C07A9170D3DCBFD78198 sha1 FA2ED18E91279271E4BDEA651C18E7BDB1B661A4 serial "T-5009H" )
+	rom ( name "Road & Track Presents - The Need for Speed (USA) (En,De) (Track 01).bin" size 337829520 crc B5BE9C83 md5 73F216D3EC05C07A9170D3DCBFD78198 sha1 FA2ED18E91279271E4BDEA651C18E7BDB1B661A4 serial "T-5009H" )
 )
 game (
 	name "Road Rash (Europe)"
@@ -16025,11 +16107,11 @@ game (
 	rom ( name "Tomb Raider (Europe) (Track 01).bin" size 207714528 crc 7D16473A md5 7D515185961E3411EB268E01DDBBFFA2 sha1 147585E31FA6A2A819711EE936FD149A86EF653C serial "MK81086-50" )
 )
 game (
-	name "Tomb Raider (USA)"
-	description "Tomb Raider (USA)"
+	name "Tomb Raider (USA) (4S)"
+	description "Tomb Raider (USA) (4S)"
 	region "USA"
 	serial "T-7910H"
-	rom ( name "Tomb Raider (USA) (Track 01).bin" size 207171216 crc 97C37B06 md5 00302D2AF6663DB595387B018141C23A sha1 4ECCA92D2C381EDBE72ACC32AC7DCE2FFE6BAC1D serial "T-7910H" )
+	rom ( name "Tomb Raider (USA) (4S) (Track 01).bin" size 207171216 crc 97C37B06 md5 00302D2AF6663DB595387B018141C23A sha1 4ECCA92D2C381EDBE72ACC32AC7DCE2FFE6BAC1D serial "T-7910H" )
 )
 game (
 	name "Tomb Raiders (Japan)"

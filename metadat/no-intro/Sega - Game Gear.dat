@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - Game Gear"
 	description "Sega - Game Gear"
-	version "2025.02.14"
+	version "2025.04.18"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -310,6 +310,12 @@ game (
 	description "Ayrton Senna's Super Monaco GP II (Japan)"
 	region "Japan"
 	rom ( name "Ayrton Senna's Super Monaco GP II (Japan).gg" size 262144 crc 661FAEFF md5 2FB31A42D550A5C9006956F208DB4866 sha1 44F2C2BFA6AB57C1FD533996A5E404EBAA07264B )
+)
+game (
+	name "Ayrton Senna's Super Monaco GP II (Japan) (Rev 1)"
+	description "Ayrton Senna's Super Monaco GP II (Japan) (Rev 1)"
+	region "Japan"
+	rom ( name "Ayrton Senna's Super Monaco GP II (Japan) (Rev 1).gg" size 262144 crc 7687CE09 md5 446648545205739966E9DB4D1F56A41E sha1 70F911386D48362669E7D0076A53AAA2F91140C3 )
 )
 game (
 	name "Ayrton Senna's Super Monaco GP II (USA, Europe, Brazil) (En)"
@@ -3529,10 +3535,16 @@ game (
 	rom ( name "Pet Club - Inu Daisuki! (Japan).gg" size 524288 crc B42D8430 md5 2ABADEB0084AF850778053B181F97A59 sha1 0C0BCFD06084419E7C5921F92CCB0F977058C5A3 )
 )
 game (
-	name "Pete Sampras Tennis (USA, Europe)"
-	description "Pete Sampras Tennis (USA, Europe)"
+	name "Pete Sampras Tennis (Europe)"
+	description "Pete Sampras Tennis (Europe)"
+	region "Europe"
+	rom ( name "Pete Sampras Tennis (Europe).gg" size 262144 crc C1756BEE md5 8A033A243A35FEF96E6EA99584FE1755 sha1 AB9B4C833207824EFB14B712B4EC82721C8436BC )
+)
+game (
+	name "Pete Sampras Tennis (USA)"
+	description "Pete Sampras Tennis (USA)"
 	region "USA"
-	rom ( name "Pete Sampras Tennis (USA, Europe).gg" size 262144 crc C1756BEE md5 8A033A243A35FEF96E6EA99584FE1755 sha1 AB9B4C833207824EFB14B712B4EC82721C8436BC )
+	rom ( name "Pete Sampras Tennis (USA).gg" size 262144 crc C597BA5D md5 3BDD231599049C1F0C4B5E1344E8F5CA sha1 D596EDB302DC3D603E818847BDC9BBA6972EE86D )
 )
 game (
 	name "Petris (World) (v1.1) (Proto) (Aftermarket) (Unl)"
