@@ -1,22 +1,9 @@
 clrmamepro (
     name "Nintendo - Game Boy Advance"
     description "Homebrew for Nintendo - Game Boy Advance"
-    version "2020.4.27"
+    version "2025.8.7"
     homepage "https://github.com/libretro/libretro-database/tree/master/metadat"
 )
-game (
-    name "Celeste Classic"
-    description "Celeste Classic by Matt Thorson and Noel Berry. GameBoy Advance port by JeffRuLz."
-    version "1.0"
-    developer "Matt Makes Games"
-    genre "Platformer"
-    releaseyear "2018"
-    releasemonth "1"
-    releaseday "28"
-    rom ( name "Celeste Classic (v1.0).gba" size 5416932 crc F79B0D53 md5 d5b7c99707098401f12f6e4dfac87c9f sha1 756f02396a150698e695ad4afd24445e2af70576 )
-    homepage "https://github.com/JeffRuLz/Celeste-Classic-GBA"
-)
-
 game (
     name "Apotris (World)"
     description "Apotris is a block stacking game for the Gameboy Advance! It features satisfying graphics, responsive controls and a large amount of customization so that you can tailor the game to your preferences! There are 11 game-modes to explore, with various options to keep yourself entertained (or challenged)."
@@ -26,6 +13,54 @@ game (
     releaseyear "2022"
     releasemonth "4"
     releaseday "21"
-    rom ( name "apotris.gba" size 4194304 crc 436daf4a md5 028812173ffdd2b758e88173b5d91a7a sha1 2e1aa587c9e73a6f749edab4f159ef2fa22142ed )
+    rom ( name "apotris.gba" size 4194304 crc 436DAF4A md5 028812173FFDD2B758E88173B5D91A7A sha1 2E1AA587C9E73A6F749EDAB4F159EF2FA22142ED )
     homepage "https://akouzoukos.com/apotris/"
+)
+game (
+    name "Celeste Classic"
+    description "Celeste Classic by Matt Thorson and Noel Berry. GameBoy Advance port by JeffRuLz."
+    version "1.0"
+    developer "Matt Makes Games"
+    genre "Platformer"
+    releaseyear "2019"
+    releasemonth "8"
+    releaseday "2"
+    rom ( name "Celeste Classic (v1.0).gba" size 5416932 crc F79B0D53 md5 D5B7C99707098401F12F6E4DFAC87C9F sha1 756F02396A150698E695AD4AFD24445E2AF70576 )
+    homepage "https://github.com/JeffRuLz/Celeste-Classic-GBA"
+)
+game (
+    name "Celeste Classic"
+    description "Celeste Classic by Matt Thorson and Noel Berry. GameBoy Advance port by JeffRuLz."
+    version "1.1"
+    developer "Matt Makes Games"
+    genre "Platformer"
+    releaseyear "2020"
+    releasemonth "8"
+    releaseday "29"
+    rom ( name "Celeste Classic (v1.1).gba" size 5418248 crc F5D36AD2 md5 3018514472C092F0603C4A77D3918304 sha1 95A86DFF641B11B4C2ED0D0FE8152C33B462D927 )
+    homepage "https://github.com/JeffRuLz/Celeste-Classic-GBA"
+)
+game (
+    name "Celeste Classic"
+    description "Celeste Classic by Matt Thorson and Noel Berry. GameBoy Advance port by JeffRuLz."
+    version "1.2"
+    developer "Matt Makes Games"
+    genre "Platformer"
+    releaseyear "2021"
+    releasemonth "11"
+    releaseday "28"
+    rom ( name "Celeste Classic (v1.2).gba" size 5418424 crc FF0E8ADA md5 9BCD687293600451ABDD0F181B2427E8 sha1 08512605E5C02E81A72E24C2C8D4959D8E84E1F4 )
+    homepage "https://github.com/JeffRuLz/Celeste-Classic-GBA"
+)
+game (
+    name "Celeste Classic 2"
+    description "Celeste Classic 2 by Maddy Thorson, Noel Berry, and Lena Raine. GameBoy Advance port by Skale."
+    version "1.0"
+    developer "Maddy Makes Games"
+    genre "Platformer"
+    releaseyear "2025"
+    releasemonth "4"
+    releaseday "7"
+    rom ( name "Celeste2-GBA.gba" size 4506328 crc 069607D0 md5 C54284810931820A1B3E9E86B7AAC6F1 sha1 19DC1DD4E53722DC64CD1E7F97847B4CABF2F658 )
+    homepage "https://github.com/Skaleee/Celeste2-GBA"
 )
