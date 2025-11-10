@@ -1,7 +1,7 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2025.08.05"
+	version "2025.11.10"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -68,7 +68,7 @@ game (
 	rom ( name "AI Shougi (Japan).bin" size 30811200 crc 7284D1CA md5 749D3C61D1451BC411D32566D052903D sha1 BB069B3064EBE0C38F49FB006A45FDFABA358E0D serial "FZ-SJ4452" )
 )
 game (
-	name "Adventures Of Captain J, The (USA) (Unl)"
+	name "Adventures Of Captain J, The (USA)"
 	region "USA"
 	rom ( name "Adventures Of Captain J, The (USA) (Unl).bin" size 174913536 crc AE358CB7 md5 C79279F1869AD35CF9B0B53BE150DDCC sha1 EDD703CE50833D55FD39C23825386B6B70D4CD4D )
 )
@@ -239,7 +239,7 @@ game (
 	rom ( name "Belzerion (Japan).bin" size 602817600 crc 89F29880 md5 EC792777DD212200533EAD9DB528FDF1 sha1 C0779FA4BA435E7A54E97293E391DF3A827BF955 serial "FZ-SJ3251" )
 )
 game (
-	name "BioFury (USA) (Unl)"
+	name "BioFury (USA)"
 	region "USA"
 	rom ( name "BioFury (USA) (Unl).bin" size 90617856 crc E92FB4B2 md5 A697869949355D227D4F5478416403D8 sha1 74FA5590DB898474C638DD32EEE55CDC293E7570 )
 )
@@ -297,12 +297,12 @@ game (
 	rom ( name "Bonogurashi (Japan).bin" size 530216064 crc 81DB726A md5 5812FCDD5FCD4FCD722A0BC54E5A0E56 sha1 DD3C6BC94074935EE90664D207EB9D20F544F092 serial "FZ-SJ4952" )
 )
 game (
-	name "BrainDead 13 (USA)"
+	name "BrainDead 13 (USA) (Disc 1)"
 	region "USA"
 	rom ( name "BrainDead 13 (USA) (Disc 1).bin" size 771413664 crc 939A863C md5 575DD343076BCA267B1DC3F3ED2D76F1 sha1 6E7C6A74C574941AE471500F7F1C70A47517F53A )
 )
 game (
-	name "BrainDead 13 (USA) (RE-1)"
+	name "BrainDead 13 (USA) (Disc 1) (RE-1)"
 	region "USA"
 	rom ( name "BrainDead 13 (USA) (Disc 1) (RE-1).bin" size 771413664 crc 8D0D6228 md5 8EA2AB2DBF52642A9CCA5958D5ED67C8 sha1 995534C88C8DF0A6AB16A7A1775D4BF061287C8D )
 )
@@ -410,6 +410,14 @@ game (
 	rom ( name "Casper (USA).bin" size 241202304 crc 44E35CE2 md5 1E10EB74DB0BC8628276FF258E0EE444 sha1 43DD88D2695F222B23B435B008DF8CE166861FE8 )
 )
 game (
+	name "Casper (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "15"
+	region "USA"
+	rom ( name "Casper (USA) (Beta) (1995-12-15).bin" size 193028640 crc A8447821 md5 8EEAA708E86C7EE4E2DBE77CA58E5B68 sha1 E1026E1C87590358F68E893F08CFDA893B93DC20 )
+)
+game (
 	name "Chiki Chiki Machine Mou Race - Kenken to Black Maou no Ijiwaru Daisakusen (Japan)"
 	region "Japan"
 	serial "FZ-SJ1351"
@@ -472,7 +480,7 @@ game (
 	rom ( name "Crayon Shin-chan - Puzzle Daimaou no Nazo (Japan).bin" size 386057280 crc 133A36C1 md5 E9169AAB7615DFF717A9850BC67A2C3F sha1 BCA0C4E7304FB073BD55F4D1D9F267140F24835A serial "FZ-SJ1452" )
 )
 game (
-	name "Creature Shock (USA)"
+	name "Creature Shock (USA) (Disc 1)"
 	region "USA"
 	rom ( name "Creature Shock (USA) (Disc 1).bin" size 771060864 crc CEC0EACD md5 EBFEF6259B38B3D8455A7A0CAE38B687 sha1 8E8C376A2613778AE8DB0B8E5D548C84D0F02938 )
 )
@@ -507,6 +515,14 @@ game (
 	rom ( name "CyberDillo (USA).bin" size 205075584 crc 8D451FAC md5 C5D4D7403E9B0F6E4A5E2080543E67FC sha1 80CC192992D8618BFC05DFCE83ACAB63C83EA925 serial "FZ-SW0005" )
 )
 game (
+	name "CyberDillo (USA) (Beta)"
+	releaseyear "1996"
+	releasemonth "02"
+	releaseday "14"
+	region "USA"
+	rom ( name "CyberDillo (USA) (Beta) (1996-02-14).bin" size 205075584 crc CE217F12 md5 EAF66CB5F62C68F8DD1461DCD186C146 sha1 C9268D572CF397D44BDB10E44581FDB1FC0D459F )
+)
+game (
 	name "Cyberia (Europe)"
 	region "Europe"
 	rom ( name "Cyberia (Europe).bin" size 759369072 crc 6D20798C md5 E5FEF72448F7295E99F261B41A68B1D4 sha1 9163999A71A4D28537C87775DCC8A2C28551248C )
@@ -523,10 +539,16 @@ game (
 	rom ( name "Cyberia (USA).bin" size 759371424 crc 79BBE416 md5 9D87759B59963B16302BA3E9D8263ABF sha1 5F90B870870510845A5234A881E6903B99B3847B )
 )
 game (
-	name "D (Germany)"
+	name "D (Germany) (Disc 1)"
 	region "Germany"
 	serial "FZ-SG2353"
 	rom ( name "D (Germany) (Disc 1).bin" size 620880960 crc A4A315D2 md5 3E6377DA184353CF68CFE104340EB00F sha1 60C9A52C9EFDF0893606E7DF4573A94199155148 serial "FZ-SG2353" )
+)
+game (
+	name "D (Germany) (Disc 1)"
+	region "Germany"
+	serial "FZ-SG2353-0"
+	rom ( name "D (Germany) (Disc 1).bin" size 620880960 crc A4A315D2 md5 3E6377DA184353CF68CFE104340EB00F sha1 60C9A52C9EFDF0893606E7DF4573A94199155148 serial "FZ-SG2353-0" )
 )
 game (
 	name "D (Germany) (Disc 2)"
@@ -541,16 +563,28 @@ game (
 	rom ( name "D (Germany) (Disc 2).bin" size 548627520 crc DCE0CC98 md5 C3FD3CCA293133B727AB8A227623AFB7 sha1 3D3B20EC831446FE7FAFB52447B1F913A545235C serial "FZ-SG2353-1" )
 )
 game (
-	name "D (USA, Europe)"
+	name "D (USA, Europe) (Disc 1)"
 	region "USA"
 	serial "FZ-SE2353"
 	rom ( name "D (USA, Europe) (Disc 1).bin" size 620532864 crc B88F7B01 md5 0588CA558232ECC7D1DC4C80A934582D sha1 AD9CEAC2555D9346668136C3FD627575F703FCA4 serial "FZ-SE2353" )
 )
 game (
-	name "D (USA, Europe)"
+	name "D (USA, Europe) (Disc 1)"
+	region "USA"
+	serial "FZ-SE2353-0"
+	rom ( name "D (USA, Europe) (Disc 1).bin" size 620532864 crc B88F7B01 md5 0588CA558232ECC7D1DC4C80A934582D sha1 AD9CEAC2555D9346668136C3FD627575F703FCA4 serial "FZ-SE2353-0" )
+)
+game (
+	name "D (USA, Europe) (Disc 1)"
 	region "USA"
 	serial "FZ-SM2353"
 	rom ( name "D (USA, Europe) (Disc 1).bin" size 620532864 crc B88F7B01 md5 0588CA558232ECC7D1DC4C80A934582D sha1 AD9CEAC2555D9346668136C3FD627575F703FCA4 serial "FZ-SM2353" )
+)
+game (
+	name "D (USA, Europe) (Disc 1)"
+	region "USA"
+	serial "FZ-SM2353-0"
+	rom ( name "D (USA, Europe) (Disc 1).bin" size 620532864 crc B88F7B01 md5 0588CA558232ECC7D1DC4C80A934582D sha1 AD9CEAC2555D9346668136C3FD627575F703FCA4 serial "FZ-SM2353-0" )
 )
 game (
 	name "D (USA, Europe) (Disc 2)"
@@ -577,10 +611,16 @@ game (
 	rom ( name "D (USA, Europe) (Disc 2).bin" size 560321664 crc 41710003 md5 D597065AC2F1C097FCEDE29AD1DFD4B7 sha1 92A655A118A261FFA074537D6DD94EB891BEE301 serial "FZ-SM2353-1" )
 )
 game (
-	name "D no Shokutaku (Japan)"
+	name "D no Shokutaku (Japan) (Disc 1)"
 	region "Japan"
 	serial "IMP-SA0701"
 	rom ( name "D no Shokutaku (Japan) (Disc 1).bin" size 626902080 crc A529D6AD md5 6296E8CF4B2E522F9E33393DCBE49B22 sha1 003C420252573BC00B1433E5A8B02EB6EE270878 serial "IMP-SA0701" )
+)
+game (
+	name "D no Shokutaku (Japan) (Disc 1)"
+	region "Japan"
+	serial "IMP-SA0701-0"
+	rom ( name "D no Shokutaku (Japan) (Disc 1).bin" size 626902080 crc A529D6AD md5 6296E8CF4B2E522F9E33393DCBE49B22 sha1 003C420252573BC00B1433E5A8B02EB6EE270878 serial "IMP-SA0701-0" )
 )
 game (
 	name "D no Shokutaku (Japan) (Disc 2)"
@@ -613,10 +653,16 @@ game (
 	rom ( name "D's Diner - The Director's Cut (Japan) (Disc C).bin" size 668701824 crc 63BBD300 md5 B4AA4747CF4AF74AF209E7B9E3DCD8C3 sha1 A10A1B092BE7F866D1D0A3845582E88CE0E621D1 serial "FZ-SJ2356" )
 )
 game (
-	name "Daedalus Encounter, The (Korea)"
+	name "Daedalus Encounter, The (Korea) (Disc 1)"
 	region "Korea"
 	serial "GDT-GA261"
 	rom ( name "Daedalus Encounter, The (Korea) (Disc 1).bin" size 771060864 crc D661D49B md5 8986F893F9590516F02FC2781D40A0A4 sha1 B2375DC0D20318A2869C562E70DBC70C1C993A57 serial "GDT-GA261" )
+)
+game (
+	name "Daedalus Encounter, The (Korea) (Disc 1)"
+	region "Korea"
+	serial "GDT-GA261-0"
+	rom ( name "Daedalus Encounter, The (Korea) (Disc 1).bin" size 771060864 crc D661D49B md5 8986F893F9590516F02FC2781D40A0A4 sha1 B2375DC0D20318A2869C562E70DBC70C1C993A57 serial "GDT-GA261-0" )
 )
 game (
 	name "Daedalus Encounter, The (Korea) (Disc 2)"
@@ -655,10 +701,16 @@ game (
 	rom ( name "Daedalus Encounter, The (Korea) (Disc 4).bin" size 771060864 crc C2FC3C6D md5 29776ED2E22F227D60275E9174DA3C01 sha1 4DB5D3362847871D1999214D9937D660D2524D85 serial "GDT-GA261-3" )
 )
 game (
-	name "Daedalus Encounter, The (USA)"
+	name "Daedalus Encounter, The (USA) (Disc 1)"
 	region "USA"
 	serial "FZ-SM3751"
 	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751" )
+)
+game (
+	name "Daedalus Encounter, The (USA) (Disc 1)"
+	region "USA"
+	serial "FZ-SM3751-0"
+	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751-0" )
 )
 game (
 	name "Daedalus Encounter, The (USA) (Disc 2)"
@@ -697,10 +749,16 @@ game (
 	rom ( name "Daedalus Encounter, The (USA) (Disc 4).bin" size 771060864 crc C43F91D2 md5 0C5BF88B3532E9446138D8F7836A6F5B sha1 D9F6076FD37E8AA508E62A1B41DC8F207B940A30 serial "FZ-SM3751-3" )
 )
 game (
-	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan)"
+	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)"
 	region "Japan"
 	serial "FZ-SJ3751"
 	rom ( name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1).bin" size 771060864 crc 5D5BCBFE md5 4A70140039C75EA6AB6033A84D0D7E80 sha1 A0B5483FED2F12ECD26643BE0ACF0BA696B01CB2 serial "FZ-SJ3751" )
+)
+game (
+	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)"
+	region "Japan"
+	serial "FZ-SJ3751-0"
+	rom ( name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1).bin" size 771060864 crc 5D5BCBFE md5 4A70140039C75EA6AB6033A84D0D7E80 sha1 A0B5483FED2F12ECD26643BE0ACF0BA696B01CB2 serial "FZ-SJ3751-0" )
 )
 game (
 	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 2)"
@@ -744,7 +802,7 @@ game (
 	rom ( name "DeathKeep (USA).bin" size 622085184 crc E5BA69C8 md5 1DD5F6F4CF20E9A7E76DDF2AD9FDA317 sha1 757A7094B65DBED3697FE26FB8CC20F2E25BE043 )
 )
 game (
-	name "Decathlon (USA) (Unl)"
+	name "Decathlon (USA)"
 	region "USA"
 	rom ( name "Decathlon (USA) (Unl).bin" size 730460640 crc EBDB59D1 md5 D997ED612683CFF4DC0418135A37C311 sha1 7BEDEF0ADFD8A91A9927E8C0D330369AC75FB965 )
 )
@@ -820,7 +878,7 @@ game (
 	rom ( name "Doom (USA, Japan).bin" size 241903200 crc C238CD13 md5 58BD8257D9C1A759923195439245E01E sha1 E46733BB1401671ED76CA64894CD55B2098A57FA )
 )
 game (
-	name "Dragon Lore - The Legend Begins (USA, Europe)"
+	name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 1)"
 	region "USA"
 	rom ( name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 1).bin" size 776870304 crc FC158B2D md5 659D7D63DF13EFBAC2DE1A25B477BD4B sha1 45838BA41EE784F9E6B6869E831F046D5F6E01F3 )
 )
@@ -880,7 +938,7 @@ game (
 	rom ( name "ESPN Fitness Pros - Step Aerobics (USA).bin" size 675071040 crc 3B8580FA md5 40576E667E3144227B4B10D70783B8BF sha1 7190A7225710108A27B0119907B941D464407F89 serial "SEF-01-3DO" )
 )
 game (
-	name "ESPN Golf - Lower Your Score with Tom Kite - Shot Making (USA)"
+	name "ESPN Golf - Lower Your Score with Tom Kite - Shot Making (USA) (Disc 1)"
 	region "USA"
 	rom ( name "ESPN Golf - Lower Your Score with Tom Kite - Shot Making (USA) (Disc 1).bin" size 751793280 crc 4EBD7239 md5 2F171915332F8388DE707AF644C45736 sha1 20F96AA3F4E7560A66D03E5B7AC62D31AF81400A )
 )
@@ -907,10 +965,16 @@ game (
 	rom ( name "ESPN Golf - Lower Your Score with Tom Kite - Shot Making (USA) (Disc 4).bin" size 776225856 crc A6D9AC95 md5 A50A999A147524E06D1C8BB04ED2B399 sha1 99DB7CA29519008E7D4668506AFF2113ED1B37E0 serial "SGK-01-3DO-3" )
 )
 game (
-	name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Shot Yousei Kouza Vol. 1)"
+	name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 1) (Shot Yousei Kouza Vol. 1)"
 	region "Japan"
 	serial "FZ-SJ1854"
 	rom ( name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 1) (Shot Yousei Kouza Vol. 1).bin" size 754549824 crc F0B5545B md5 71B9C5787EE48CB0BDB146B6CE07BBD6 sha1 57C19D46A61C93EC4542B2BE20B4405458CE8FF5 serial "FZ-SJ1854" )
+)
+game (
+	name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 1) (Shot Yousei Kouza Vol. 1)"
+	region "Japan"
+	serial "FZ-SJ1854-0"
+	rom ( name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 1) (Shot Yousei Kouza Vol. 1).bin" size 754549824 crc F0B5545B md5 71B9C5787EE48CB0BDB146B6CE07BBD6 sha1 57C19D46A61C93EC4542B2BE20B4405458CE8FF5 serial "FZ-SJ1854-0" )
 )
 game (
 	name "ESPN Golf - Tom Kite no Kore ga Golf da! (Japan) (Disc 2) (Shot Yousei Kouza Vol. 2)"
@@ -1006,10 +1070,16 @@ game (
 	rom ( name "Eye of Typhoon, The (Korea).bin" size 157254720 crc 8E3E3F13 md5 84C1F1689581A8EC4A8FEE68C7A45BD0 sha1 46C72D1939B3ACC3F1BFD7E86F6D3E0B4219FEE2 serial "GDT-GA391" )
 )
 game (
-	name "Eye of Typhoon, The (Korea) (Ko)"
+	name "Eye of Typhoon, The (Korea) (Ko) (Disc 1)"
 	region "Korea"
 	serial "VIC-PS0001K"
 	rom ( name "Eye of Typhoon, The (Korea) (Ko) (Disc 1).bin" size 126104832 crc 2A79DEB4 md5 387FB01D2A80A1F0B646F37513C202DB sha1 78F9C2F093E8194E884D65428336C0DA6A574A9E serial "VIC-PS0001K" )
+)
+game (
+	name "Eye of Typhoon, The (Korea) (Ko) (Disc 1)"
+	region "Korea"
+	serial "VIC-PS0001K-0"
+	rom ( name "Eye of Typhoon, The (Korea) (Ko) (Disc 1).bin" size 126104832 crc 2A79DEB4 md5 387FB01D2A80A1F0B646F37513C202DB sha1 78F9C2F093E8194E884D65428336C0DA6A574A9E serial "VIC-PS0001K-0" )
 )
 game (
 	name "Eye of Typhoon, The (Korea) (Rerelease)"
@@ -1155,7 +1225,7 @@ game (
 	rom ( name "Foes of Ali (USA) (Beta) (1995-11-07).bin" size 229160064 crc 211DA1C7 md5 8058260769C06FBACECF22A205F63E71 sha1 37DB00318479D851BB353D37E4441131D3928E97 )
 )
 game (
-	name "Footie (USA) (Powerslide Bonus Disk) (Unl)"
+	name "Footie (USA) (Powerslide Bonus Disk)"
 	region "USA"
 	rom ( name "Footie (USA) (Powerslide Bonus Disk) (Unl).bin" size 38636304 crc 5DA70FA4 md5 9090608CCECF3E5CFD2CA5CD1DC18736 sha1 739114E650E3401C61DCA6F27F5AD757530F084C )
 )
@@ -1380,9 +1450,14 @@ game (
 	rom ( name "Icebreaker (USA) (Beta).bin" size 115106880 crc CE3F96A2 md5 97D656A73B328251B95848D743DC7E9A sha1 827CF00A0D4B5688C7AA1844289579A07C07075C )
 )
 game (
-	name "Icebreaker II (USA) (Bonus Disk) (Unl)"
+	name "Icebreaker II (USA) (Bonus Disk)"
 	region "USA"
 	rom ( name "Icebreaker II (USA) (Bonus Disk) (Unl).bin" size 434273280 crc E18F659C md5 C914817DAA5524790C366142EB7B10C3 sha1 90C862B5797799BC4B98F666763EF75F5913EB64 )
+)
+game (
+	name "Icebreaker II (USA) (The Game)"
+	region "USA"
+	rom ( name "Icebreaker II (USA) (The Game) (Unl).bin" size 122781456 crc 237050D8 md5 61071F1BFB32F0B1CD88175645CF8EDE sha1 AC2E6B161EBDDF1F388588482F2C0DBBD80B3492 )
 )
 game (
 	name "Ide Yousuke Meijin no Shin Jissen Mahjong (Japan)"
@@ -1480,10 +1555,16 @@ game (
 	rom ( name "Ishida Yoshio Kudan no Igo Seiha (Japan).bin" size 277677120 crc 04AE3CD6 md5 FBEDE4A08F71D6BFC618E6665D30B44F sha1 764BEDFD1DAE95331B2429EAEA3F6BE6E79B25AF serial "FZ-SJ1662" )
 )
 game (
-	name "J. B. Harold - Blue Chicago Blues (Japan)"
+	name "J. B. Harold - Blue Chicago Blues (Japan) (Disc 1)"
 	region "Japan"
 	serial "FZ-SJ0751"
 	rom ( name "J. B. Harold - Blue Chicago Blues (Japan) (Disc 1).bin" size 716870784 crc C8A1F27A md5 A4430C57F0B15721F911ACF7F8756D7B sha1 0E53AAFC7DB3F8CE546646745D2E786087B03768 serial "FZ-SJ0751" )
+)
+game (
+	name "J. B. Harold - Blue Chicago Blues (Japan) (Disc 1)"
+	region "Japan"
+	serial "FZ-SJ0751-0"
+	rom ( name "J. B. Harold - Blue Chicago Blues (Japan) (Disc 1).bin" size 716870784 crc C8A1F27A md5 A4430C57F0B15721F911ACF7F8756D7B sha1 0E53AAFC7DB3F8CE546646745D2E786087B03768 serial "FZ-SJ0751-0" )
 )
 game (
 	name "J. B. Harold - Blue Chicago Blues (Japan) (Disc 2)"
@@ -1965,6 +2046,14 @@ game (
 	rom ( name "Myst (USA).bin" size 746976384 crc 1BBD2184 md5 2F65DEDC136CA2EA0869C46E30B5B535 sha1 A8F0B8640DD12058E97072B83412A2074BBD3020 serial "FZ-SM0204" )
 )
 game (
+	name "Myst (USA) (Beta)"
+	releaseyear "1995"
+	releasemonth "02"
+	releaseday "22"
+	region "USA"
+	rom ( name "Myst (USA) (Beta) (1995-02-22).bin" size 746976384 crc 2F19AEEE md5 C23985D557BF42FEB0F6821C5837F90B sha1 1D978D5FC7BA0EEF8161D6F654D812488916493C )
+)
+game (
 	name "N.O.B. (Neo Organic Bioform) (Japan)"
 	region "Japan"
 	serial "IMP-SK1203"
@@ -2030,10 +2119,16 @@ game (
 	rom ( name "Nice Body - For Professional Use (Japan).bin" size 313803840 crc 9897AAA9 md5 69CA8EC969B181EA51CABA2C93DD3A3C sha1 B839263050CE0E98C2FC7282A244585BB0929249 serial "FZ-SJ5852" )
 )
 game (
-	name "Night Trap (Japan)"
+	name "Night Trap (Japan) (Disc 1)"
 	region "Japan"
 	serial "FZ-SJ1951"
 	rom ( name "Night Trap (Japan) (Disc 1).bin" size 741957216 crc F9946227 md5 5E1EBF3FB1203F329FF2EF59333F3834 sha1 ADF80577D77CADD962C34B7E3017A428CCF4FCE1 serial "FZ-SJ1951" )
+)
+game (
+	name "Night Trap (Japan) (Disc 1)"
+	region "Japan"
+	serial "FZ-SJ1951-0"
+	rom ( name "Night Trap (Japan) (Disc 1).bin" size 741957216 crc F9946227 md5 5E1EBF3FB1203F329FF2EF59333F3834 sha1 ADF80577D77CADD962C34B7E3017A428CCF4FCE1 serial "FZ-SJ1951-0" )
 )
 game (
 	name "Night Trap (Japan) (Disc 2)"
@@ -2048,7 +2143,7 @@ game (
 	rom ( name "Night Trap (Japan) (Disc 2).bin" size 636098400 crc EAA73C23 md5 38F2E5386278D068E51DBADC21F4EEA8 sha1 E022AAFBD6119C3C42D5F0FEA43446DFB266FC86 serial "FZ-SJ1951-1" )
 )
 game (
-	name "Night Trap (USA, Europe)"
+	name "Night Trap (USA, Europe) (Disc 1)"
 	region "USA"
 	rom ( name "Night Trap (USA, Europe) (Disc 1).bin" size 776870304 crc FC54F01D md5 E767867345AEAC8945CD535B35FA48FC sha1 DCC03E5E0315B3C2998D6F96683D08B0CB7770FE )
 )
@@ -2058,10 +2153,16 @@ game (
 	rom ( name "Night Trap (USA, Europe) (Disc 2).bin" size 631723680 crc 01E1DAAC md5 97D9EFF74133DF1F38A69F95168BA378 sha1 1843C6997542F7E6E4CE69202EF3DEFA55A3CF6F )
 )
 game (
-	name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan)"
+	name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 1)"
 	region "Japan"
 	serial "FZ-SJ0403-A"
 	rom ( name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 1).bin" size 554300544 crc 668AF741 md5 EFF76BD80664B5E4ADC588BF73C06A0D sha1 29E092DE21E576FD4DF16FBEC9F3B9DE68C558A6 serial "FZ-SJ0403-A" )
+)
+game (
+	name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 1)"
+	region "Japan"
+	serial "FZ-SJ0403-A-0"
+	rom ( name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 1).bin" size 554300544 crc 668AF741 md5 EFF76BD80664B5E4ADC588BF73C06A0D sha1 29E092DE21E576FD4DF16FBEC9F3B9DE68C558A6 serial "FZ-SJ0403-A-0" )
 )
 game (
 	name "Nishimura Kyoutarou Travel Mystery - Akugyaku no Kisetsu - Tokyo Nanki Shirahama Renzoku Satsujin Jiken (Japan) (Disc 2)"
@@ -2157,7 +2258,7 @@ game (
 	rom ( name "Olympic Summer Games (USA).bin" size 626553984 crc 6502DDC1 md5 86EBD5002D0FF7F5D654DC5B8DBFD1BC sha1 2398837988F8A713171E9A31F514BD0E75846732 serial "FZ-SW0012" )
 )
 game (
-	name "OnSide Soccer (USA) (Unl)"
+	name "OnSide Soccer (USA)"
 	region "USA"
 	rom ( name "OnSide Soccer (USA) (Unl).bin" size 83446608 crc AF94B0B1 md5 1B52CE7D111D928E721A5919EFF93DAC sha1 40D81B8CC5FFC166F969BA3FF32A080ACAD7119D )
 )
@@ -2190,9 +2291,9 @@ game (
 	rom ( name "Out of This World (USA).bin" size 386410080 crc DAF0CB19 md5 C824AF681C74F42B5AD139BE545D7BD5 sha1 A5F4E53A6C2389B5B8D841EBFEAA1C84E97C14F9 )
 )
 game (
-	name "Out of This World (USA) (3DO Maniac Pack)"
+	name "Out of This World (USA)"
 	region "USA"
-	rom ( name "Out of This World (USA) (3DO Maniac Pack) (RE).bin" size 385709184 crc 6CAE9E8C md5 BE58061C58E84029271F4A2888A24189 sha1 A4F3D91B7E889E7866EF6F2AFE41C64FE71E6B41 )
+	rom ( name "Out of This World (USA) (RE).bin" size 385709184 crc 6CAE9E8C md5 BE58061C58E84029271F4A2888A24189 sha1 A4F3D91B7E889E7866EF6F2AFE41C64FE71E6B41 )
 )
 game (
 	name "Outer World (Japan)"
@@ -2391,10 +2492,16 @@ game (
 	rom ( name "Plumbers Don't Wear Ties (USA).bin" size 708789312 crc 8B8CFD44 md5 6BB8B63A6D1C1C187D1C2E882F378A4F sha1 B446F85C7237C0C765D407788FA4E999FF896E95 )
 )
 game (
-	name "Policenauts (Japan)"
+	name "Policenauts (Japan) (Disc 1)"
 	region "Japan"
 	serial "VZ002"
 	rom ( name "Policenauts (Japan) (Disc 1).bin" size 765039744 crc 5FD47F3F md5 13C7EAB6EE64CA04460D6F50F2725B74 sha1 82E7AB84122E9E5960CC417A6D37D706E5484D7A serial "VZ002" )
+)
+game (
+	name "Policenauts (Japan) (Disc 1)"
+	region "Japan"
+	serial "VZ002-0"
+	rom ( name "Policenauts (Japan) (Disc 1).bin" size 765039744 crc 5FD47F3F md5 13C7EAB6EE64CA04460D6F50F2725B74 sha1 82E7AB84122E9E5960CC417A6D37D706E5484D7A serial "VZ002-0" )
 )
 game (
 	name "Policenauts (Japan) (Disc 2)"
@@ -2427,7 +2534,7 @@ game (
 	rom ( name "Powers Kingdom (Japan).bin" size 265987680 crc 43877026 md5 BEDE32537C2DB988682D7DCA21196E0A sha1 4F88B732C1F6A60308B3C319A9EDF02CE2D9DCB8 serial "FZ-SJ0202" )
 )
 game (
-	name "Powerslide (USA) (Unl)"
+	name "Powerslide (USA)"
 	region "USA"
 	rom ( name "Powerslide (USA) (Unl).bin" size 26575248 crc 002BD60A md5 3EB71A7BA00D66539A171585B276476E sha1 8EFD5EC804B02B7E4DFC4158D58F740D7C36665E )
 )
@@ -2462,10 +2569,16 @@ game (
 	rom ( name "Pro Yakyuu Virtual Stadium - Professional Baseball (Japan).bin" size 722891904 crc CCC0EDC0 md5 61C8D47FD7DA7DD4C900483B6D8E336B sha1 6423AD8F90242C4362C8054931561ECBF7C15399 serial "FZ-SJ1668" )
 )
 game (
-	name "Psychic Detective (Europe)"
+	name "Psychic Detective (Europe) (Disc 1)"
 	region "Europe"
 	serial "E333DCXD[1]"
 	rom ( name "Psychic Detective (Europe) (Disc 1).bin" size 753345600 crc ABBE45E6 md5 EABD8D6600A262BEC5F6520A557BF8D8 sha1 CDE9FF97D0EF5C0717356A6E32164BDFBF870C3F serial "E333DCXD[1]" )
+)
+game (
+	name "Psychic Detective (Europe) (Disc 1)"
+	region "Europe"
+	serial "E333DCXD[1]-0"
+	rom ( name "Psychic Detective (Europe) (Disc 1).bin" size 753345600 crc ABBE45E6 md5 EABD8D6600A262BEC5F6520A557BF8D8 sha1 CDE9FF97D0EF5C0717356A6E32164BDFBF870C3F serial "E333DCXD[1]-0" )
 )
 game (
 	name "Psychic Detective (Europe) (Disc 2)"
@@ -2492,7 +2605,7 @@ game (
 	rom ( name "Psychic Detective (Europe) (Disc 3).bin" size 747324480 crc 702EF69E md5 86B740EB94CB8F90A876CD5F272EE37A sha1 FEEFEB7E0AC657F27E1435A9C135816B73B136F4 serial "E333DCXD[3]-2" )
 )
 game (
-	name "Psychic Detective (USA)"
+	name "Psychic Detective (USA) (Disc 1)"
 	region "USA"
 	rom ( name "Psychic Detective (USA) (Disc 1).bin" size 753350304 crc 0BE9D21E md5 7709C9D1C907FB23860EDC57761F0801 sha1 A28BE28F2105921430AC177861034D0C512EEF21 )
 )
@@ -2597,7 +2710,7 @@ game (
 	rom ( name "Real Pinball (USA).bin" size 58858800 crc A6C3A6ED md5 13E529BD04349E4A82F4382E039A187A sha1 224B0F767D9C5900C08F3EE3E238DAD7C837F861 serial "FZ-SM0801" )
 )
 game (
-	name "Remute 3D (Europe) (En,De) (Unl)"
+	name "Remute 3D (Europe) (En,De)"
 	region "Europe"
 	rom ( name "Remute 3D (Europe) (En,De) (Unl).bin" size 573488160 crc 2B9E1CDF md5 1689F213474B51272A65547602724110 sha1 C219E1A7C2F1F76BA9E466D8E0854C4196C8CFFA )
 )
@@ -2865,7 +2978,7 @@ game (
 	rom ( name "Shock Wave - Operation JumpGate (USA, Europe).bin" size 361972800 crc A7B46AA7 md5 2541C45F1209E7EAE7C53012FDC2370D sha1 20E8382D7A083B66A9E4CB9176AF6A27247303B8 )
 )
 game (
-	name "Shockwave 2 - Beyond the Gate (Europe)"
+	name "Shockwave 2 - Beyond the Gate (Europe) (Disc 1)"
 	region "Europe"
 	rom ( name "Shockwave 2 - Beyond the Gate (Europe) (Disc 1).bin" size 753345600 crc 4A6D2EB9 md5 591D4F62B6E668385AC98F9E4ED411BC sha1 7A51083B1851DF3A004F857A94DDAB566B56974A )
 )
@@ -2875,7 +2988,7 @@ game (
 	rom ( name "Shockwave 2 - Beyond the Gate (Europe) (Disc 2).bin" size 753345600 crc 85C5E95E md5 8B5C9F87D6A3AA045D08E7ADF52A3E53 sha1 049FAC819B0D8289830C10EFBFBD3391200DD8EC )
 )
 game (
-	name "Shockwave 2 - Beyond the Gate (USA)"
+	name "Shockwave 2 - Beyond the Gate (USA) (Disc 1)"
 	region "USA"
 	rom ( name "Shockwave 2 - Beyond the Gate (USA) (Disc 1).bin" size 753350304 crc 4BC2FC9E md5 F92F2384AB97B6408A767EC42CA943E5 sha1 6C721692986F2BDFD2A36DAB946C50E4C74A153F )
 )
@@ -2952,7 +3065,7 @@ game (
 	rom ( name "Slopestyle - An Interactive Learning Cube (USA).bin" size 723244704 crc DDC113CE md5 878A8BE359F2D30EE9DF6FAB424CE32E sha1 CD9A4F91750237475213FC4EFD789237D916948B )
 )
 game (
-	name "SnowJob Starring Tracy Scoggins (Europe)"
+	name "SnowJob Starring Tracy Scoggins (Europe) (Disc 1)"
 	region "Europe"
 	rom ( name "SnowJob Starring Tracy Scoggins (Europe) (Disc 1).bin" size 758164848 crc 62CC5433 md5 502D54876C027663701BC7C586C857B3 sha1 A99A1362DB45D036CAC61ACB431BD50D05A3BF4F )
 )
@@ -2962,7 +3075,7 @@ game (
 	rom ( name "SnowJob Starring Tracy Scoggins (Europe) (Disc 2).bin" size 758164848 crc 3CF801D6 md5 AE0B9B11D8DECF81AB0C47451C8EADB4 sha1 9DE39AA7C89B06534425336B984A0F937A3F1FBC )
 )
 game (
-	name "SnowJob Starring Tracy Scoggins (USA)"
+	name "SnowJob Starring Tracy Scoggins (USA) (Disc 1)"
 	region "USA"
 	rom ( name "SnowJob Starring Tracy Scoggins (USA) (Disc 1).bin" size 758167200 crc C8CDB69B md5 0B299927A1284DE9A58F05D6E20AB36A sha1 247DD157FB6B5B2E08C1061330B838EE67559F8F )
 )
@@ -3232,7 +3345,7 @@ game (
 	rom ( name "SuperModels Go Wild (USA).bin" size 663381600 crc AA202FA1 md5 8E350F8972BF2AEE3578FEEC266E47B0 sha1 B8A3A504B900042E11A7FDCFEB1A15B36D66F9D7 )
 )
 game (
-	name "Supreme Warrior (Japan) (Ja,Zh) (Fire & Earth)"
+	name "Supreme Warrior (Japan) (Ja,Zh) (Disc 1) (Fire & Earth)"
 	region "Japan"
 	rom ( name "Supreme Warrior (Japan) (Ja,Zh) (Disc 1) (Fire & Earth).bin" size 771413664 crc 4DC61F1A md5 F478AF60A6DC25F2BE19468A6F55D41A sha1 02A6CAA42322453065133068B42DDED190597EDC )
 )
@@ -3242,7 +3355,7 @@ game (
 	rom ( name "Supreme Warrior (Japan) (Ja,Zh) (Disc 2) (Wind & Fang Tu).bin" size 771761760 crc B0525F79 md5 DA3D2589B4A2DC019CC6F73DDA77BD58 sha1 B41CE14C2F3B960152CAA95DEF78DFBEA56C8066 )
 )
 game (
-	name "Supreme Warrior (USA) (Fire & Earth)"
+	name "Supreme Warrior (USA) (Disc 1) (Fire & Earth)"
 	region "USA"
 	rom ( name "Supreme Warrior (USA) (Disc 1) (Fire & Earth).bin" size 771761760 crc 19AF2F51 md5 52FA9002244383EA36942943C854DC7D sha1 67B6A18EAEF5F07860EEB258D7C301BF9BC8507D )
 )
@@ -3696,10 +3809,16 @@ game (
 	rom ( name "Wicked 18 (USA).bin" size 467944512 crc 8D9C309C md5 08C0DF0A316EBAB587CB43F7F2F66E40 sha1 2344A666F4854BEDA291EB11F7BC0338321D4A0E serial "FZ-SM0104" )
 )
 game (
-	name "Wing Commander III - Heart of the Tiger (Germany)"
+	name "Wing Commander III - Heart of the Tiger (Germany) (Disc 1)"
 	region "Germany"
 	serial "R880DCED(1)"
 	rom ( name "Wing Commander III - Heart of the Tiger (Germany) (Disc 1).bin" size 771060864 crc CF39E2E3 md5 4F09047BA4AB52D72A40069A8A101099 sha1 CABAF22618E6C4E04692253397817A79D33D44F1 serial "R880DCED(1)" )
+)
+game (
+	name "Wing Commander III - Heart of the Tiger (Germany) (Disc 1)"
+	region "Germany"
+	serial "R880DCED(1)-0"
+	rom ( name "Wing Commander III - Heart of the Tiger (Germany) (Disc 1).bin" size 771060864 crc CF39E2E3 md5 4F09047BA4AB52D72A40069A8A101099 sha1 CABAF22618E6C4E04692253397817A79D33D44F1 serial "R880DCED(1)-0" )
 )
 game (
 	name "Wing Commander III - Heart of the Tiger (Germany) (Disc 2)"
@@ -3738,7 +3857,7 @@ game (
 	rom ( name "Wing Commander III - Heart of the Tiger (Germany) (Disc 4).bin" size 771060864 crc 8C927E75 md5 E50E2B2F4090489BE5505D5D2F66FC1E sha1 91EF295EA383F87A4F9A04B405469698698A67F9 serial "R880DCED(4)-3" )
 )
 game (
-	name "Wing Commander III - Heart of the Tiger (USA)"
+	name "Wing Commander III - Heart of the Tiger (USA) (Disc 1)"
 	region "USA"
 	rom ( name "Wing Commander III - Heart of the Tiger (USA) (Disc 1).bin" size 771413664 crc 39746021 md5 C0B9A911B74E2C374E68CDDF01E91F13 sha1 063A67B4B9C36686CDE8778B27E9635D9D738AB8 )
 )
@@ -3772,7 +3891,7 @@ game (
 	rom ( name "Wing Commander III - Heart of the Tiger (USA) (Disc 4).bin" size 771413664 crc A9391D2D md5 0CAFAB0658072032DD7309E1990736D3 sha1 8CA0CF3BB96C647827B84D0E7CAF167B500BBE82 serial "EA-10095-49-3" )
 )
 game (
-	name "Wing Commander III - Heart of the Tiger (USA, Europe)"
+	name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 1)"
 	region "USA"
 	rom ( name "Wing Commander III - Heart of the Tiger (USA, Europe) (Disc 1).bin" size 771060864 crc 8F9D3BC9 md5 41B3AD46D21AE7F13A481FE5A9644627 sha1 C4D8F8CBB11C659D052FEDC953476A5F0C16A15B )
 )
@@ -3882,10 +4001,16 @@ game (
 	rom ( name "Yamada Kamachi Bijutsukan - Kamachi's Museum (Japan).bin" size 397751424 crc 16E79FBA md5 F5A2775AF750EC82E1BF6DAFEDAA36FA sha1 55196FFBAB6A46A3D0BE86E84C96DEF9DC1432F3 serial "FZ-SJ6151" )
 )
 game (
-	name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan)"
+	name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan) (Disc 1)"
 	region "Japan"
 	serial "FZ-SJ0401"
 	rom ( name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan) (Disc 1).bin" size 648928560 crc B4A0CED8 md5 9073CB7FC2D198AD8D9275E477F24092 sha1 7D6D73B90EF02932EFD375E0BBFB9D76A5488EA3 serial "FZ-SJ0401" )
+)
+game (
+	name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan) (Disc 1)"
+	region "Japan"
+	serial "FZ-SJ0401-0"
+	rom ( name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan) (Disc 1).bin" size 648928560 crc B4A0CED8 md5 9073CB7FC2D198AD8D9275E477F24092 sha1 7D6D73B90EF02932EFD375E0BBFB9D76A5488EA3 serial "FZ-SJ0401-0" )
 )
 game (
 	name "Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken (Japan) (Disc 2)"

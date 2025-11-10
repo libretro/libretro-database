@@ -1,7 +1,7 @@
 clrmamepro (
 	name "GCE - Vectrex"
 	description "GCE - Vectrex"
-	version "2025.08.05"
+	version "2025.11.10"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -75,8 +75,14 @@ game (
 	rom ( name "Engine Analyzer (USA) (Proto).vec" size 4096 crc FE9A501A md5 896793A17A32932BCD64C52C77B00D55 sha1 C226D78301DBE40F2194C165F2124D5AFA885BE4 )
 )
 game (
-	name "Fortress of Narzod (World)"
-	rom ( name "Fortress of Narzod (World).vec" size 8192 crc 13A35C8A md5 E65B3262E9447A747D93E0CCB1DBB7DF sha1 286E061331289B031DE33725A4966C379C1DF47F )
+	name "Fortress of Narzod (Europe) (Rev 2)"
+	region "Europe"
+	rom ( name "Fortress of Narzod (Europe) (Rev 2).vec" size 8192 crc 157FB991 md5 B7D7136821984071BDDFFD185509602D sha1 2B14DE8069C11D9D96C36648595572CED2E98EB5 )
+)
+game (
+	name "Fortress of Narzod (USA)"
+	region "USA"
+	rom ( name "Fortress of Narzod (USA).vec" size 8192 crc 13A35C8A md5 E65B3262E9447A747D93E0CCB1DBB7DF sha1 286E061331289B031DE33725A4966C379C1DF47F )
 )
 game (
 	name "Heads-Up - Action Soccer (World)"
@@ -111,9 +117,9 @@ game (
 	rom ( name "Mine Storm II (USA) (Rev 2).vec" size 4096 crc F5B3B374 md5 126FECBF4FB09FDB5A3C9AF92ABAED7C sha1 1FDCC6E54AE5177BC9CDC79CE616AE3401E5C229 )
 )
 game (
-	name "Mr. Boston Clean Sweep (Europe)"
-	region "Europe"
-	rom ( name "Mr. Boston Clean Sweep (Europe).vec" size 8192 crc BD4DA4C2 md5 1C95CF8FCD2C98DB747208ADE464A44F sha1 299841A116E59399AF4E74CCAE23DDFC078E007B )
+	name "Mr. Boston - Clean Sweep (USA)"
+	region "USA"
+	rom ( name "Mr. Boston - Clean Sweep (USA).vec" size 8192 crc BD4DA4C2 md5 1C95CF8FCD2C98DB747208ADE464A44F sha1 299841A116E59399AF4E74CCAE23DDFC078E007B )
 )
 game (
 	name "Pitcher's Duel (USA) (Proto)"

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Wii"
 	description "Nintendo - Wii"
-	version "2025.08.05"
+	version "2025.11.10"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -481,10 +481,16 @@ game (
 	rom ( name "All Star Cheer Squad 2 (USA).iso" size 4699979776 crc 55089C6E md5 0DAE2241A297C338E7B318EE9E682BAC sha1 456AF520A62D13246512CA79AEF926B9D2AD83DC serial "RVL-R5YE-USA-B0" )
 )
 game (
-	name "All Star Cheerleader (Europe) (En,Fr,De,Es)"
+	name "All Star Cheerleader (Europe, Australia) (En,Fr,De,Es)"
 	region "Europe"
 	serial "RVL-RCXP-EUR"
-	rom ( name "All Star Cheerleader (Europe) (En,Fr,De,Es).iso" size 4699979776 crc 9D775B2C md5 B9682080852D1D9B09D6289C08BF0D88 sha1 8DB45DBC14D26E777E8C22E182ED4C0E70C9870A serial "RVL-RCXP-EUR" )
+	rom ( name "All Star Cheerleader (Europe, Australia) (En,Fr,De,Es).iso" size 4699979776 crc 9D775B2C md5 B9682080852D1D9B09D6289C08BF0D88 sha1 8DB45DBC14D26E777E8C22E182ED4C0E70C9870A serial "RVL-RCXP-EUR" )
+)
+game (
+	name "All Star Cheerleader (Europe, Australia) (En,Fr,De,Es)"
+	region "Europe"
+	serial "RVL-RCXP-EUR-B0"
+	rom ( name "All Star Cheerleader (Europe, Australia) (En,Fr,De,Es).iso" size 4699979776 crc 9D775B2C md5 B9682080852D1D9B09D6289C08BF0D88 sha1 8DB45DBC14D26E777E8C22E182ED4C0E70C9870A serial "RVL-RCXP-EUR-B0" )
 )
 game (
 	name "All Star Cheerleader (Scandinavia) (Sv,No,Da,Fi)"
@@ -1660,6 +1666,12 @@ game (
 game (
 	name "Bigfoot - Collision Course (USA)"
 	region "USA"
+	serial "RVL-RVFE-USA"
+	rom ( name "Bigfoot - Collision Course (USA).iso" size 4699979776 crc 89D222E4 md5 5D67127BAC71C0E7550D569429464646 sha1 EDAE645A8A79C8D784ACC500987851FAF01D61E8 serial "RVL-RVFE-USA" )
+)
+game (
+	name "Bigfoot - Collision Course (USA)"
+	region "USA"
 	serial "RVL-RVFE-USA-B0"
 	rom ( name "Bigfoot - Collision Course (USA).iso" size 4699979776 crc 89D222E4 md5 5D67127BAC71C0E7550D569429464646 sha1 EDAE645A8A79C8D784ACC500987851FAF01D61E8 serial "RVL-RVFE-USA-B0" )
 )
@@ -2247,10 +2259,16 @@ game (
 	rom ( name "Broken Sword - Shadow of the Templars - The Director's Cut (USA) (En,Fr,Es).iso" size 4699979776 crc BAB2C4BA md5 9DB304C8583C85F54C3032C953905C7B sha1 B6BCA710E1A534027221384358B0CC97A958C25C serial "RVL-RSJE-USA" )
 )
 game (
-	name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Brothers in Arms - Road to Hill 30)"
+	name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Disc 1) (Brothers in Arms - Road to Hill 30)"
 	region "USA"
 	serial "RVL-RI8E-USA"
 	rom ( name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Disc 1) (Brothers in Arms - Road to Hill 30).iso" size 4699979776 crc CFBF4D52 md5 813352FD08482DF1C4D89DE51DBD7983 sha1 FF590CF2EB1CB5EAEAEC15482CF6CB6539E4931A serial "RVL-RI8E-USA" )
+)
+game (
+	name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Disc 1) (Brothers in Arms - Road to Hill 30)"
+	region "USA"
+	serial "RVL-RI8E-USA-0"
+	rom ( name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Disc 1) (Brothers in Arms - Road to Hill 30).iso" size 4699979776 crc CFBF4D52 md5 813352FD08482DF1C4D89DE51DBD7983 sha1 FF590CF2EB1CB5EAEAEC15482CF6CB6539E4931A serial "RVL-RI8E-USA-0" )
 )
 game (
 	name "Brothers in Arms - Double Time (USA) (En,Fr,Es) (Disc 2) (Brothers in Arms - Earned in Blood)"
@@ -2766,6 +2784,12 @@ game (
 	region "USA"
 	serial "RVL-RVYE-USA"
 	rom ( name "Call of Duty - World at War (USA).iso" size 4699979776 crc 1FB5FA99 md5 62E9B3BB03D91471FBAD890244172843 sha1 0FA4CAB1E42F9C5B6EA743C758898FF3BA30210B serial "RVL-RVYE-USA" )
+)
+game (
+	name "Call of Duty - World at War (USA)"
+	region "USA"
+	serial "RVL-RVYE-USA-B0"
+	rom ( name "Call of Duty - World at War (USA).iso" size 4699979776 crc 1FB5FA99 md5 62E9B3BB03D91471FBAD890244172843 sha1 0FA4CAB1E42F9C5B6EA743C758898FF3BA30210B serial "RVL-RVYE-USA-B0" )
 )
 game (
 	name "Call of Duty 3 (Europe) (Fr,Es,It)"
@@ -3838,10 +3862,10 @@ game (
 	rom ( name "Cyberbike - Cycling Sports (USA) (En,Fr,Es).iso" size 4699979776 crc EFF7BEDE md5 3B5855AC57B1CDBCC5DCEFC6EDDA5ABF sha1 79EBAACA46FD3EA6993F366E25735E2074FB76B9 serial "RVL-SCBE-USA-B0" )
 )
 game (
-	name "DJ Hero (Europe) (En,Fr,De,Es,It)"
+	name "DJ Hero (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "RVL-SWAP-EUR-B0"
-	rom ( name "DJ Hero (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc 2DF87B61 md5 B4777727EF799FA46B7ACD10BD9CCC45 sha1 338516CF887C785CC18B432B6D4384B1A01733D0 serial "RVL-SWAP-EUR-B0" )
+	rom ( name "DJ Hero (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 2DF87B61 md5 B4777727EF799FA46B7ACD10BD9CCC45 sha1 338516CF887C785CC18B432B6D4384B1A01733D0 serial "RVL-SWAP-EUR-B0" )
 )
 game (
 	name "DJ Hero (USA) (En,Fr)"
@@ -4510,12 +4534,6 @@ game (
 	rom ( name "DiscUpdate Disc (WiiMenu 3.0U) (USA).iso" size 4699979776 crc D968DDF8 md5 AA45EFF96EC236822ADCFFCE6859B9F7 sha1 FC71667FB7BFA2449DB900192CF91D43CDC3EA03 serial "RVL-413E-USA" )
 )
 game (
-	name "Disney - Pixar Arabalar 2 (Turkey)"
-	region "Turkey"
-	serial "RVL-SCYY-TUR-B0"
-	rom ( name "Disney - Pixar Arabalar 2 (Turkey).iso" size 4699979776 crc 0A37262E md5 754CCDA9B5243D24B1B066CE1D3047FE sha1 06BDCEDE988725A1143E84FF56B308D1451F3E5E serial "RVL-SCYY-TUR-B0" )
-)
-game (
 	name "Disney Alice in Wonderland (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	serial "RVL-SALP-EUR-B0"
@@ -5149,6 +5167,12 @@ game (
 	region "USA"
 	serial "RVL-RCLE-USA"
 	rom ( name "Disney's Chicken Little - Ace in Action (USA).iso" size 4699979776 crc 409558E8 md5 47490F3E816105DC8CE55E2DF7DF1119 sha1 6C32D52A7BDEB79ADDD6D90C840FC7B7156782C8 serial "RVL-RCLE-USA" )
+)
+game (
+	name "Disney-Pixar Arabalar 2 (Turkey)"
+	region "Turkey"
+	serial "RVL-SCYY-TUR-B0"
+	rom ( name "Disney-Pixar Arabalar 2 (Turkey).iso" size 4699979776 crc 0A37262E md5 754CCDA9B5243D24B1B066CE1D3047FE sha1 06BDCEDE988725A1143E84FF56B308D1451F3E5E serial "RVL-SCYY-TUR-B0" )
 )
 game (
 	name "Disney-Pixar Brave (Australia) (En,Fr,Es)"
@@ -5882,10 +5906,16 @@ game (
 	rom ( name "Dragon Quest Swords - The Masked Queen and the Tower of Mirrors (USA).iso" size 4699979776 crc 10305B14 md5 F164669F5C2C7D4EDBEC03542EAC4729 sha1 541264B4711EACA8E7AF3E3E20A369DAF9357DB2 serial "RVL-RDQE-USA" )
 )
 game (
-	name "Dragon Quest X - All in One Package (Japan)"
+	name "Dragon Quest X - All in One Package (Japan) (Disc 1)"
 	region "Japan"
 	serial "RVL-S6TJ-0-JPN-B0"
 	rom ( name "Dragon Quest X - All in One Package (Japan) (Disc 1).iso" size 4699979776 crc 3C171745 md5 A183CA7573DEE67E6483C75CB43B4AE1 sha1 6B1ABC03A4D27066D4ACFF2E8825FAD2FB3D669B serial "RVL-S6TJ-0-JPN-B0" )
+)
+game (
+	name "Dragon Quest X - All in One Package (Japan) (Disc 1)"
+	region "Japan"
+	serial "RVL-S6TJ-0-JPN-B0-0"
+	rom ( name "Dragon Quest X - All in One Package (Japan) (Disc 1).iso" size 4699979776 crc 3C171745 md5 A183CA7573DEE67E6483C75CB43B4AE1 sha1 6B1ABC03A4D27066D4ACFF2E8825FAD2FB3D669B serial "RVL-S6TJ-0-JPN-B0-0" )
 )
 game (
 	name "Dragon Quest X - All in One Package (Japan) (Disc 2)"
@@ -5912,10 +5942,16 @@ game (
 	rom ( name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Beta Test-ban) (Rev 1).iso" size 4699979776 crc 2A435D7C md5 DFDD33B39E5D0D00F1DF13D60EC3E75E sha1 D9A7C1EBD96D8D204A1AF5DFEF865EF9A558D7BC serial "RVL-S4MJ-JPN-B0" )
 )
 game (
-	name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Rev 3)"
+	name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3)"
 	region "Japan"
 	serial "RVL-S4MJ-0-JPN-B1"
 	rom ( name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3).iso" size 4699979776 crc 16B68180 md5 ADEF3D5EB13F121F91A2B6D20BA69251 sha1 B51BAB6D41C2CBF3FDD7A7B11168C66E9E355235 serial "RVL-S4MJ-0-JPN-B1" )
+)
+game (
+	name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3)"
+	region "Japan"
+	serial "RVL-S4MJ-0-JPN-B1-0"
+	rom ( name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3).iso" size 4699979776 crc 16B68180 md5 ADEF3D5EB13F121F91A2B6D20BA69251 sha1 B51BAB6D41C2CBF3FDD7A7B11168C66E9E355235 serial "RVL-S4MJ-0-JPN-B1-0" )
 )
 game (
 	name "Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 2) (Rev 3)"
@@ -6329,12 +6365,6 @@ game (
 	region "USA"
 	serial "RVL-SOSE-USA-B0"
 	rom ( name "DreamWorks Turbo - Super Stunt Squad (USA) (En,Fr,Es).iso" size 4699979776 crc 3BD9952F md5 DEC046B385F7C9549F0C27A10726B730 sha1 0A19947AD45F5B08944D4D364B1A5157938D1C8D serial "RVL-SOSE-USA-B0" )
-)
-game (
-	name "Drei Fragezeichen, Die - Das Verfluchte Schloss (Germany) (Rev 1)"
-	region "Germany"
-	serial "RVL-R4DD-NOE-B0"
-	rom ( name "Drei Fragezeichen, Die - Das Verfluchte Schloss (Germany) (Rev 1).iso" size 4699979776 crc 1B34B6F6 md5 DEDAB5A697131526ED997630CC43DC71 sha1 ADBFC8A15C88560D1DF67FA5755C3CAD0AEB41ED serial "RVL-R4DD-NOE-B0" )
 )
 game (
 	name "Driver - Parallel Lines (Europe) (En,Fr,De,Es,It)"
@@ -7348,6 +7378,12 @@ game (
 	rom ( name "Fishing Master World Tour (USA) (En,Fr,Es).iso" size 4699979776 crc 02943067 md5 7FE8E6EE2B4F1F7C2E05E451A247A574 sha1 E761E035953647722F310D06A95E853F03521653 serial "RVL-RTLE-USA" )
 )
 game (
+	name "Fishing Master World Tour (USA) (En,Fr,Es)"
+	region "USA"
+	serial "RVL-RTLE-USA-B0"
+	rom ( name "Fishing Master World Tour (USA) (En,Fr,Es).iso" size 4699979776 crc 02943067 md5 7FE8E6EE2B4F1F7C2E05E451A247A574 sha1 E761E035953647722F310D06A95E853F03521653 serial "RVL-RTLE-USA-B0" )
+)
+game (
 	name "Fishing Resort (USA)"
 	region "USA"
 	serial "RVL-SFVE-USA-B0"
@@ -7532,31 +7568,31 @@ game (
 	rom ( name "Free Running (USA) (En,Fr,Es).iso" size 4699979776 crc 6337CD60 md5 F0ACE6E0D78D95CA7A6C6C28BDD35A89 sha1 C9B94281D9E2CCB1901298E0DA826E83602A9CCA serial "RVL-RU6E-USA-B0" )
 )
 game (
-	name "FreeLoader for Nintendo Wii (Europe) (Unl)"
+	name "FreeLoader for Nintendo Wii (Europe)"
 	region "Europe"
 	serial "DS000102"
 	rom ( name "FreeLoader for Nintendo Wii (Europe) (Unl).iso" size 1459978240 crc BA67749C md5 83E3EE263B0B3E253B3D42342E47FC46 sha1 B5A3679D318FBF3034C72B5BD39A31524F7FE23C serial "DS000102" )
 )
 game (
-	name "FreeLoader for Nintendo Wii (Europe) (Unl) (Rev 1)"
+	name "FreeLoader for Nintendo Wii (Europe) (Rev 1)"
 	region "Europe"
 	serial "DS000102"
 	rom ( name "FreeLoader for Nintendo Wii (Europe) (Unl) (Rev 1).iso" size 1459978240 crc A9052DF8 md5 64930B7C626008006C0DEF69A53ECB5E sha1 59DC5954956A7FD58C3280BC0C398FBDD379A0CB serial "DS000102" )
 )
 game (
-	name "FreeLoader for Nintendo Wii (Japan) (Unl)"
+	name "FreeLoader for Nintendo Wii (Japan)"
 	region "Japan"
 	serial "DS000103"
 	rom ( name "FreeLoader for Nintendo Wii (Japan) (Unl).iso" size 1459978240 crc 87152B46 md5 B39FBA4B7161D849498AAE2D23495221 sha1 81ECF528377D6603C99E0B1410C632E0A17ACC56 serial "DS000103" )
 )
 game (
-	name "FreeLoader for Nintendo Wii (USA) (Unl)"
+	name "FreeLoader for Nintendo Wii (USA)"
 	region "USA"
 	serial "DS000101"
 	rom ( name "FreeLoader for Nintendo Wii (USA) (Unl).iso" size 1459978240 crc 20261177 md5 5D7F821663974428804DAE7DF56F789D sha1 70C05E6713E6F7ACBC65929628B4AB35BB94EB7D serial "DS000101" )
 )
 game (
-	name "FreeLoader for Nintendo Wii (USA) (Unl) (Rev 1)"
+	name "FreeLoader for Nintendo Wii (USA) (Rev 1)"
 	region "USA"
 	serial "DS000101"
 	rom ( name "FreeLoader for Nintendo Wii (USA) (Unl) (Rev 1).iso" size 1459978240 crc 1CC40417 md5 7EF5176EEE10D71F6094BAE0821D0B44 sha1 3CBAB4236FE31ABC15E253ADADF963BA8FA7261D serial "DS000101" )
@@ -9477,6 +9513,12 @@ game (
 game (
 	name "Iron Chef America - Supreme Cuisine (USA)"
 	region "USA"
+	serial "RVL-RICE-USA"
+	rom ( name "Iron Chef America - Supreme Cuisine (USA).iso" size 4699979776 crc E77C3D59 md5 C81D55B519C3B2BE020F3C670A3DE30F sha1 9F2BBB5BAE48D1CE34433B2C2EA0821526027CE6 serial "RVL-RICE-USA" )
+)
+game (
+	name "Iron Chef America - Supreme Cuisine (USA)"
+	region "USA"
 	serial "RVL-RICE-USA-B0"
 	rom ( name "Iron Chef America - Supreme Cuisine (USA).iso" size 4699979776 crc E77C3D59 md5 C81D55B519C3B2BE020F3C670A3DE30F sha1 9F2BBB5BAE48D1CE34433B2C2EA0821526027CE6 serial "RVL-RICE-USA-B0" )
 )
@@ -10147,16 +10189,16 @@ game (
 	rom ( name "Just Dance 3 (USA) (En,Fr,Es) (Rev 1).iso" size 4699979776 crc 4BB41C97 md5 3FF3E8FA2180DD5A128E58B980D38D74 sha1 DDF61823D9D74451121CBF400A7EA25E222D36C5 serial "RVL-SJDE-USA-B0" )
 )
 game (
-	name "Just Dance 3 (USA) (En,Fr,Es) (Target Exclusive Edition)"
+	name "Just Dance 3 (USA) (En,Fr,Es) (Target)"
 	region "USA"
 	serial "RVL-SJDZ-USA-B0"
-	rom ( name "Just Dance 3 (USA) (En,Fr,Es) (Target Exclusive Edition).iso" size 4699979776 crc 6F93449F md5 9BD50AA376164CECC7A67549DDE28064 sha1 1A502BE4EE85E1418453A252F35E8A5C405FFBB2 serial "RVL-SJDZ-USA-B0" )
+	rom ( name "Just Dance 3 (USA) (En,Fr,Es) (Target).iso" size 4699979776 crc 6F93449F md5 9BD50AA376164CECC7A67549DDE28064 sha1 1A502BE4EE85E1418453A252F35E8A5C405FFBB2 serial "RVL-SJDZ-USA-B0" )
 )
 game (
-	name "Just Dance 3 (USA) (En,Fr,Es) (Target Exclusive Edition) (Rev 1)"
+	name "Just Dance 3 (USA) (En,Fr,Es) (Target) (Rev 1)"
 	region "USA"
 	serial "RVL-SJDZ-USA-B0"
-	rom ( name "Just Dance 3 (USA) (En,Fr,Es) (Target Exclusive Edition) (Rev 1).iso" size 4699979776 crc A5D13234 md5 EC82A084EA494C7C5E12FE5D455B75C2 sha1 DFD7162D5BF5EF29E10D966491C6B0B17391C339 serial "RVL-SJDZ-USA-B0" )
+	rom ( name "Just Dance 3 (USA) (En,Fr,Es) (Target) (Rev 1).iso" size 4699979776 crc A5D13234 md5 EC82A084EA494C7C5E12FE5D455B75C2 sha1 DFD7162D5BF5EF29E10D966491C6B0B17391C339 serial "RVL-SJDZ-USA-B0" )
 )
 game (
 	name "Just Dance 4 (Europe) (En,Fr,De,Es,It)"
@@ -12165,6 +12207,12 @@ game (
 	rom ( name "Mario Kart Wii (Japan).iso" size 4699979776 crc 36B9A6B2 md5 1942F9C144AF686CB99557EE6A1A120D sha1 6539BADA98DD48AED072082EBA9E6049B53959BB serial "RVL-RMCJ-JPN" )
 )
 game (
+	name "Mario Kart Wii (Japan)"
+	region "Japan"
+	serial "RVL-RMCJ-JPN-B0"
+	rom ( name "Mario Kart Wii (Japan).iso" size 4699979776 crc 36B9A6B2 md5 1942F9C144AF686CB99557EE6A1A120D sha1 6539BADA98DD48AED072082EBA9E6049B53959BB serial "RVL-RMCJ-JPN-B0" )
+)
+game (
 	name "Mario Kart Wii (Korea)"
 	region "Korea"
 	serial "RVL-RMCK-KOR"
@@ -12331,6 +12379,12 @@ game (
 	region "USA"
 	serial "RVL-R4QE-USA"
 	rom ( name "Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1).iso" size 4699979776 crc 99814BEF md5 EDB27CB204CC18959528B15C1450C356 sha1 4B6789A71069F131132F5F6B4A4150F9781F5A18 serial "RVL-R4QE-USA" )
+)
+game (
+	name "Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1)"
+	region "USA"
+	serial "RVL-R4QE-USA-B0"
+	rom ( name "Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1).iso" size 4699979776 crc 99814BEF md5 EDB27CB204CC18959528B15C1450C356 sha1 4B6789A71069F131132F5F6B4A4150F9781F5A18 serial "RVL-R4QE-USA-B0" )
 )
 game (
 	name "Mario Strikers Charged Football (Europe) (En,Fr,De,Es,It) (Rev 1)"
@@ -13119,6 +13173,12 @@ game (
 	rom ( name "Monster 4x4 - World Circuit (USA) (En,Fr,Es).iso" size 4699979776 crc 213F5F8E md5 E9CCA5830A96FB28F1A559D676B94C5D sha1 BB7127BB76B14354A5CBC730E7D3DDB935EA3933 serial "RVL-RM4E-USA" )
 )
 game (
+	name "Monster 4x4 - World Circuit (USA) (En,Fr,Es)"
+	region "USA"
+	serial "RVL-RM4E-USA-BO"
+	rom ( name "Monster 4x4 - World Circuit (USA) (En,Fr,Es).iso" size 4699979776 crc 213F5F8E md5 E9CCA5830A96FB28F1A559D676B94C5D sha1 BB7127BB76B14354A5CBC730E7D3DDB935EA3933 serial "RVL-RM4E-USA-BO" )
+)
+game (
 	name "Monster High - 13 Wishes (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "Europe"
 	serial "RVL-SNYP-EUR-B0"
@@ -13296,6 +13356,12 @@ game (
 	region "USA"
 	serial "RVL-RRXE-USA"
 	rom ( name "Monster Trux Arenas - Special Edition (USA).iso" size 4699979776 crc 560BEE30 md5 00F6A23F1B889A76F34C2EB7A61A5355 sha1 0972F3821D170E00A1D2FF40F9A288403801A434 serial "RVL-RRXE-USA" )
+)
+game (
+	name "Monster Trux Arenas - Special Edition (USA)"
+	region "USA"
+	serial "RVL-RRXE-USA-B0"
+	rom ( name "Monster Trux Arenas - Special Edition (USA).iso" size 4699979776 crc 560BEE30 md5 00F6A23F1B889A76F34C2EB7A61A5355 sha1 0972F3821D170E00A1D2FF40F9A288403801A434 serial "RVL-RRXE-USA-B0" )
 )
 game (
 	name "Monster Trux Offroad (Europe) (En,Fr,De,Es,It,Nl)"
@@ -14113,10 +14179,10 @@ game (
 	rom ( name "Nancy Drew - The White Wolf of Icicle Creek (USA).iso" size 4699979776 crc E5964C1A md5 17E31424F3FB030C8916C41FD60CFF15 sha1 B269432BDCC0A41902D0B968A2CD8DCAB1539475 serial "RVL-RNUE-USA" )
 )
 game (
-	name "Narnia Koku Monogatari - Dai-2 Shou - Caspian Ouji no Tsunobue (Japan)"
+	name "Narnia Koku Monogatari - Dai-2-shou - Caspian Ouji no Tsunobue (Japan)"
 	region "Japan"
 	serial "RVL-RNNJ-JPN"
-	rom ( name "Narnia Koku Monogatari - Dai-2 Shou - Caspian Ouji no Tsunobue (Japan).iso" size 4699979776 crc 97658E91 md5 41D0FCED2EFBB326DC91E29F15D473BB sha1 79060B2C0686206B4830EF01125A80288CDD20B7 serial "RVL-RNNJ-JPN" )
+	rom ( name "Narnia Koku Monogatari - Dai-2-shou - Caspian Ouji no Tsunobue (Japan).iso" size 4699979776 crc 97658E91 md5 41D0FCED2EFBB326DC91E29F15D473BB sha1 79060B2C0686206B4830EF01125A80288CDD20B7 serial "RVL-RNNJ-JPN" )
 )
 game (
 	name "Naruto - Clash of Ninja Revolution (USA)"
@@ -16810,10 +16876,10 @@ game (
 	rom ( name "Racket Sports Party (Europe) (En,Fr,De,Es,It,Nl).iso" size 4699979776 crc CD78CC2F md5 0913BB823A4C150D6305541600E949EB sha1 A9901B347F829B4F984B0E503EE484ABC3F8E18D serial "RVL-SRQP-EUR-B0" )
 )
 game (
-	name "Racquet Sports (USA)"
+	name "Racquet Sports (USA) (En,Fr,Es)"
 	region "USA"
 	serial "RVL-SRQE-USA-B0"
-	rom ( name "Racquet Sports (USA).iso" size 4699979776 crc BEC259D5 md5 8DE403BB81369479D69E3FB88C5CF7AC sha1 D22CF728A3798678D2DA4AD66C5FA5649983C020 serial "RVL-SRQE-USA-B0" )
+	rom ( name "Racquet Sports (USA) (En,Fr,Es).iso" size 4699979776 crc BEC259D5 md5 8DE403BB81369479D69E3FB88C5CF7AC sha1 D22CF728A3798678D2DA4AD66C5FA5649983C020 serial "RVL-SRQE-USA-B0" )
 )
 game (
 	name "Radio Helicopter (Europe) (En,Fr,De,Es,It)"
@@ -17590,10 +17656,10 @@ game (
 	rom ( name "Rock Band 3 (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc 49A0FFA2 md5 E4F964EDB64DAAAC8E47843433F9CA97 sha1 B19471F966236A27C46AE1B94A56555D5AAD17EA serial "RVL-SZBP-EUR-B0" )
 )
 game (
-	name "Rock Band 3 (USA)"
+	name "Rock Band 3 (USA) (En,Fr,De)"
 	region "USA"
 	serial "RVL-SZBE-USA-B0"
-	rom ( name "Rock Band 3 (USA).iso" size 4699979776 crc D97AAC86 md5 EE09CE641DC75B5A024A43E69907AA01 sha1 27FCFE385C3DFA9B13EE25CC1E77333F73A4AD8E serial "RVL-SZBE-USA-B0" )
+	rom ( name "Rock Band 3 (USA) (En,Fr,De).iso" size 4699979776 crc D97AAC86 md5 EE09CE641DC75B5A024A43E69907AA01 sha1 27FCFE385C3DFA9B13EE25CC1E77333F73A4AD8E serial "RVL-SZBE-USA-B0" )
 )
 game (
 	name "Rock Band Track Pack - Classic Rock (USA)"
@@ -18812,6 +18878,12 @@ game (
 	region "Korea"
 	serial "RVL-RTDK-KOR"
 	rom ( name "Sin Junghwa-daeseon - Michaelgwa Meimeiui Moheom (Korea).iso" size 4699979776 crc 29119831 md5 B38FA11790728614EBFCCF6F2CFF5217 sha1 BC71BCAE387C671ACEFBCB53E366487E5EDBEA90 serial "RVL-RTDK-KOR" )
+)
+game (
+	name "Sin and Punishment - Sora no Koukeisha (Japan)"
+	region "Japan"
+	serial "RVL-R2VJ-JPN-B0"
+	rom ( name "Sin and Punishment - Sora no Koukeisha (Japan).iso" size 4699979776 crc 4780998F md5 FD9F83599CB9962E3BA8137B19454C1F sha1 CF4225060F76F3D8842A63BCDBE00313BB5CC155 serial "RVL-R2VJ-JPN-B0" )
 )
 game (
 	name "Sin and Punishment - Successor of the Skies (Europe) (En,Fr,De,Es,It)"
@@ -21298,10 +21370,16 @@ game (
 	rom ( name "Triple Crown Championship Snowboarding (USA).iso" size 4699979776 crc E3D0846B md5 D683E3CADC1D3992D11FFD3728F50A7E sha1 903B7310CC24929838261411C79FBF4636A30ABD serial "RVL-S3CE-USA-B0" )
 )
 game (
-	name "Trivial Pursuit (Europe) (En,Fr,De,Es,It)"
+	name "Trivial Pursuit (Europe, Australia) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "RVL-RYQP-AUS"
+	rom ( name "Trivial Pursuit (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc A56BD225 md5 2B0CE3043B2D2487A091603EEC5462B2 sha1 3181D6A31316E050BB10A2AD47CE70B2C449BBBE serial "RVL-RYQP-AUS" )
+)
+game (
+	name "Trivial Pursuit (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "RVL-RYQP-EUR-B0"
-	rom ( name "Trivial Pursuit (Europe) (En,Fr,De,Es,It).iso" size 4699979776 crc A56BD225 md5 2B0CE3043B2D2487A091603EEC5462B2 sha1 3181D6A31316E050BB10A2AD47CE70B2C449BBBE serial "RVL-RYQP-EUR-B0" )
+	rom ( name "Trivial Pursuit (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc A56BD225 md5 2B0CE3043B2D2487A091603EEC5462B2 sha1 3181D6A31316E050BB10A2AD47CE70B2C449BBBE serial "RVL-RYQP-EUR-B0" )
 )
 game (
 	name "Trivial Pursuit (Scandinavia) (Sv,No,Da,Fi)"
@@ -21355,12 +21433,6 @@ game (
 	region "USA"
 	serial "RVL-STLE-USA-B0"
 	rom ( name "Truth or Lies (USA).iso" size 4699979776 crc A61FFA30 md5 89E852AAE945089F9FE092904A652FA2 sha1 E70C5153DF0DFC62E298E56E0B9C986808730075 serial "RVL-STLE-USA-B0" )
-)
-game (
-	name "Tsumi to Batsu - Sora no Koukeisha (Japan)"
-	region "Japan"
-	serial "RVL-R2VJ-JPN-B0"
-	rom ( name "Tsumi to Batsu - Sora no Koukeisha (Japan).iso" size 4699979776 crc 4780998F md5 FD9F83599CB9962E3BA8137B19454C1F sha1 CF4225060F76F3D8842A63BCDBE00313BB5CC155 serial "RVL-R2VJ-JPN-B0" )
 )
 game (
 	name "Turbo Trainz (Europe) (En,Fr,De,Es,It)"
@@ -22553,34 +22625,34 @@ game (
 	rom ( name "Wii Remocon Plusro Jeulgineun - Variety Game Box (Korea).iso" size 4699979776 crc 29880CDE md5 2E19AF2DA9B5285081BA11B88F11D6E2 sha1 B198C0C95A6C49E61C046A04DA2230182401CB11 serial "RVL-SC8K-KOR-B0" )
 )
 game (
-	name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
-	serial "RVL-RSPP-EUR"
-	rom ( name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR" )
-)
-game (
-	name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
-	serial "RVL-RSPP-EUR-1"
-	rom ( name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-1" )
-)
-game (
-	name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
-	serial "RVL-RSPP-EUR-B0"
-	rom ( name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-B0" )
-)
-game (
-	name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1)"
-	region "Europe"
-	serial "RVL-RSPP-EUR-B1"
-	rom ( name "Wii Sports (Europe) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-B1" )
-)
-game (
 	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "RVL-RSPP-EUR"
 	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc 87BDED9D md5 8F45C4F518719A7E8B0EEACD044F4D2D sha1 9EC91A82C2E1D095856BC15C56B747820D2A7A0B serial "RVL-RSPP-EUR" )
+)
+game (
+	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
+	serial "RVL-RSPP-EUR"
+	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR" )
+)
+game (
+	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
+	serial "RVL-RSPP-EUR-1"
+	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-1" )
+)
+game (
+	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
+	serial "RVL-RSPP-EUR-B0"
+	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-B0" )
+)
+game (
+	name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1)"
+	region "Europe"
+	serial "RVL-RSPP-EUR-B1"
+	rom ( name "Wii Sports (Europe, Australia) (En,Fr,De,Es,It) (Rev 1).iso" size 4699979776 crc 7210D7B5 md5 197FA7BD7A4ABC0C761057402CE194F1 sha1 3EF6FFE45EA5C05B8C02171282819A3C4FDDE4B5 serial "RVL-RSPP-EUR-B1" )
 )
 game (
 	name "Wii Sports (Japan)"
@@ -23074,10 +23146,10 @@ game (
 	rom ( name "X-Men Origins - Wolverine (Europe) (De,Es,It).iso" size 4699979776 crc 5E3217F8 md5 BFFA825C1B3E4D534AD74B4E7E516EEC sha1 A009736B72F5DDCED0B5F221A0BE3B03938FB76B serial "RVL-RWUX-EUU" )
 )
 game (
-	name "X-Men Origins - Wolverine (Europe) (En,Fr)"
+	name "X-Men Origins - Wolverine (Europe, Australia) (En,Fr)"
 	region "Europe"
 	serial "RVL-RWUP-EUR"
-	rom ( name "X-Men Origins - Wolverine (Europe) (En,Fr).iso" size 4699979776 crc 39C4AB1B md5 A8AA95BB0A2E2D00625A46323E361EFE sha1 9D2DF7A63DE33FFC2A7307A04811558B2E0F07B0 serial "RVL-RWUP-EUR" )
+	rom ( name "X-Men Origins - Wolverine (Europe, Australia) (En,Fr).iso" size 4699979776 crc 39C4AB1B md5 A8AA95BB0A2E2D00625A46323E361EFE sha1 9D2DF7A63DE33FFC2A7307A04811558B2E0F07B0 serial "RVL-RWUP-EUR" )
 )
 game (
 	name "X-Men Origins - Wolverine (USA) (En,Fr)"
@@ -23334,16 +23406,16 @@ game (
 	rom ( name "Zero - Tsukihami no Kamen (Japan).iso" size 4699979776 crc 5BACF607 md5 B3E4F1B9FEF5AC9E7931890BB8CB50A9 sha1 E166ED9564A10071E41597D9ED82F5E796AD74B8 serial "RVL-R4ZJ-JPN-B0" )
 )
 game (
-	name "ZhuZhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It)"
+	name "Zhu Zhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "RVL-S2ZP-EUR-B0"
-	rom ( name "ZhuZhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc FAF8D620 md5 02E7EBE6D94F47C9E16F69CCB21C3C03 sha1 EE1E2AD3345F82B48C8E5AC063FF1F029C94F0E9 serial "RVL-S2ZP-EUR-B0" )
+	rom ( name "Zhu Zhu Pets - Featuring the Wild Bunch (Europe, Australia) (En,Fr,De,Es,It).iso" size 4699979776 crc FAF8D620 md5 02E7EBE6D94F47C9E16F69CCB21C3C03 sha1 EE1E2AD3345F82B48C8E5AC063FF1F029C94F0E9 serial "RVL-S2ZP-EUR-B0" )
 )
 game (
-	name "ZhuZhu Pets - Featuring the Wild Bunch (USA) (En,Fr,Es)"
+	name "Zhu Zhu Pets - Featuring the Wild Bunch (USA) (En,Fr,Es)"
 	region "USA"
 	serial "RVL-S2ZE-USA-B0"
-	rom ( name "ZhuZhu Pets - Featuring the Wild Bunch (USA) (En,Fr,Es).iso" size 4699979776 crc B4CCBB5B md5 0F531ACF5B4ED6CC9EBAA783478A9717 sha1 DAF52B3BEA996D8F8F1B83CD7DFA8A2180F64853 serial "RVL-S2ZE-USA-B0" )
+	rom ( name "Zhu Zhu Pets - Featuring the Wild Bunch (USA) (En,Fr,Es).iso" size 4699979776 crc B4CCBB5B md5 0F531ACF5B4ED6CC9EBAA783478A9717 sha1 DAF52B3BEA996D8F8F1B83CD7DFA8A2180F64853 serial "RVL-S2ZE-USA-B0" )
 )
 game (
 	name "Zoo Hospital (Europe) (En,Fr,De,Es,It,Nl)"
@@ -23427,6 +23499,12 @@ game (
 	region "USA"
 	serial "RVL-S7FE-USA-B0"
 	rom ( name "Zumba Kids (USA).iso" size 4699979776 crc 5A7D82D5 md5 BB9DABF1C52005DD033D0565E0D34918 sha1 9C9959764F5C6A6717F5A246FE7DB5FAE32DAC67 serial "RVL-S7FE-USA-B0" )
+)
+game (
+	name "drei Fragezeichen, Die - Das verfluchte Schloss (Germany) (Rev 1)"
+	region "Germany"
+	serial "RVL-R4DD-NOE-B0"
+	rom ( name "drei Fragezeichen, Die - Das verfluchte Schloss (Germany) (Rev 1).iso" size 4699979776 crc 1B34B6F6 md5 DEDAB5A697131526ED997630CC43DC71 sha1 ADBFC8A15C88560D1DF67FA5755C3CAD0AEB41ED serial "RVL-R4DD-NOE-B0" )
 )
 game (
 	name "uDraw Studio (Europe) (En,Fr,De,Es,It,Nl,Pt)"
