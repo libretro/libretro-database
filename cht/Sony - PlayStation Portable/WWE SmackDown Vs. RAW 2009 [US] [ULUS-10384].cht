@@ -1,0 +1,8 @@
+cheats = "3"
+
+cheat0_desc = "Disable AI (CPU Won't Attack)"
+cheat0_code =  "_L 0x20591E30 0x24020000"
+cheat1_desc = "Enable AI (CPU Will Attack)"
+cheat1_code =  "_L 0x20591E30 0x2C420001"
+cheat2_desc = "Toggle AI [Select+Up/Down]"
+cheat2_code =  "_L 0x20591E30 0x2C420001 _L 0x217FF534 0x00000041 _L 0x20591E30 0x2C420000 _L 0xD2000000 0x00000000 _L 0x20591E30 0x2C420000 _L 0x217FF534 0x00000011 _L 0x20591E30 0x2C420001 _L 0xD2000000 0x00000000"
