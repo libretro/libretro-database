@@ -17,6 +17,8 @@ all:
 install:
 	mkdir -p $(DESTDIR)$(INSTALLDIR)
 	cp -ar -t $(DESTDIR)$(INSTALLDIR) cht cursors rdb
+	mkdir -p $(DESTDIR)$(INSTALLDIR)/metadat
+	cp -ar -t $(DESTDIR)$(INSTALLDIR)/metadat metadat/arcade
 	find $(DESTDIR)$(INSTALLDIR) -type f -name "*.zip" -delete
 	find $(DESTDIR)$(INSTALLDIR) -type f -name "*.xml" -delete
 
