@@ -9,7 +9,7 @@ for await (const datFile of glob("**/*.dat")) {
   const crcMap = {};
   const serialMap = {};
   for (const game of dat) {
-    if (game.$class !== "game" || game.$entries?.length !== 1) {
+    if (game.$class !== "game" || game.$entries?.length !== 1 || game.$entries?.[0].$class !== 'rom') {
       continue;
     }
     const crc = game.$entries?.[0].crc;
