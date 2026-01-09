@@ -2,7 +2,7 @@ import { parse } from "@retrobrainz/dat";
 import chalk from "chalk";
 import { glob, readFile } from "node:fs/promises";
 
-for await (const datFile of glob("**/*.dat")) {
+for await (const datFile of glob(["dat/**/*.dat", "metadat/**/*.dat"], { exclude: ["dat/DOS.dat"] })) {
   console.log(datFile);
   const datContent = await readFile(datFile, "utf8");
   const dat = parse(datContent);
