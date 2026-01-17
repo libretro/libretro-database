@@ -18,12 +18,13 @@ for await (const datFile of glob(["dat/**/*.dat", "metadat/**/*.dat"], { exclude
     const crc = game.$entries?.[0].crc;
     const serial = game.$entries?.[0].serial || game.serial;
     // if both crc and serial are the same, mark as duplicate
-    const key = `${crc || ""}-${serial || ""}`;
+    const key = JSON.stringify({crc, serial});
     crcSerialMap[key] = (crcSerialMap[key] || 0) + 1;
   }
   for (const [key, count] of Object.entries(crcSerialMap)) {
     if (count > 1) {
-      console.log(chalk.red(`    duplicate: crc(${key.split("-")[0]}), serial(${key.split("-")[1]}), count(${count})`));
+      const {crc, serial} = JSON.parse(key);
+      console.log(chalk.red(`    duplicate: crc(${crc}), serial(${serial}), count(${count})`));
     }
   }
 }
