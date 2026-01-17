@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Super Nintendo Entertainment System"
 	description "Nintendo - Super Nintendo Entertainment System"
-	version "2025.11.10"
+	version "2026.01.17"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -1028,11 +1028,6 @@ game (
 game (
 	name "BLT (World) (Demo 2)"
 	rom ( name "BLT (World) (Demo 2) (Aftermarket) (Unl).sfc" size 262144 crc DA63D27F md5 3E22AA87899DEDFA1D34BA5805999BF6 sha1 189AC6C9130CE55D59449D7260C8EB1291C7A3D0 )
-)
-game (
-	name "BS-X - Sore wa Namae o Nusumareta Machi no Monogatari (Japan) (Rev 1)"
-	region "Japan"
-	rom ( name "BS-X - Sore wa Namae o Nusumareta Machi no Monogatari (Japan) (Rev 1).sfc" size 1048576 crc F51F07A0 md5 FED4D8242CFBED61343D53D48432ACED sha1 604556B2E62860AF18DB5A77F2956EBC75450020 )
 )
 game (
 	name "Baby T-Rex (USA) (Beta)"
@@ -2085,9 +2080,9 @@ game (
 	rom ( name "California Games II (Europe) (En,Fr,De).sfc" size 1048576 crc DB0814C5 md5 8609BF5BEEE058D2B7C5C0C8A0E0C7D7 sha1 EF5D5F99FB7BB180A283AAB9B5C584D2473426DC )
 )
 game (
-	name "California Games II (Japan)"
+	name "California Games II (Japan) (En,Ja)"
 	region "Japan"
-	rom ( name "California Games II (Japan).sfc" size 1048576 crc 5FA9485C md5 525BC3122D7332370889F0ECAB46D2ED sha1 2037C554635F5E870D6BA564CF24124AED417F6B )
+	rom ( name "California Games II (Japan) (En,Ja).sfc" size 1048576 crc 5FA9485C md5 525BC3122D7332370889F0ECAB46D2ED sha1 2037C554635F5E870D6BA564CF24124AED417F6B )
 )
 game (
 	name "California Games II (USA)"
@@ -2148,6 +2143,11 @@ game (
 	name "Captain Commando (USA)"
 	region "USA"
 	rom ( name "Captain Commando (USA).sfc" size 2097152 crc 81DB73C7 md5 FA1ACA992A1BBE309651FFF64541866F sha1 9C28B15E170A1975ACF0953FF66185A3C5C988AC )
+)
+game (
+	name "Captain Commando (USA) (Capcom Town)"
+	region "USA"
+	rom ( name "Captain Commando (USA) (Capcom Town).sfc" size 2097152 crc 2DAE6014 md5 D02346E720D810CD6C61FF37FAF5DF20 sha1 7ABAF43C2495A075569B1207E50180942952E96B )
 )
 game (
 	name "Captain Novolin (USA) (En,Fr,Es)"
@@ -2677,12 +2677,24 @@ game (
 	rom ( name "Congo's Caper (USA) (Beta).sfc" size 524288 crc 603C748C md5 36F9EE1FD75D2634EFA5C54A88C2076B sha1 7226CA652B823CC9DB50CAD57FA51C02D3A2FA6D )
 )
 game (
-	name "Contra (World) (NES Conversion) (REV-B)"
-	rom ( name "Contra (World) (NES Conversion) (REV-B) (Aftermarket) (Unl).sfc" size 3145728 crc E7903D3F md5 AFAB6237DC9088144D5D9416B77AB61A sha1 1F34DC4265365D20CEA7AC42885D8B1456DAA4C0 )
+	name "Contra (World) (En) (REV-D) (NES Conversion)"
+	rom ( name "Contra (World) (En) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc D102B4D4 md5 BB531E4C36696177D262A942A60004DB sha1 D3F094DE3FF80453A08197C59D7DCA813D8E84CD )
 )
 game (
-	name "Contra (World) (NES Conversion) (REV-C)"
-	rom ( name "Contra (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 4194304 crc 115A4DFE md5 4B986427C05DF38EBCFC9E470FA62597 sha1 ABAF42C31BDD9D9BFFF2B67A4DC70559B115095E )
+	name "Contra (World) (Ja) (REV-B) (NES Conversion)"
+	rom ( name "Contra (World) (Ja) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc E7903D3F md5 AFAB6237DC9088144D5D9416B77AB61A sha1 1F34DC4265365D20CEA7AC42885D8B1456DAA4C0 )
+)
+game (
+	name "Contra (World) (Ja) (REV-C) (NES Conversion)"
+	rom ( name "Contra (World) (Ja) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 115A4DFE md5 4B986427C05DF38EBCFC9E470FA62597 sha1 ABAF42C31BDD9D9BFFF2B67A4DC70559B115095E )
+)
+game (
+	name "Contra (World) (Ja) (REV-D) (NES Conversion)"
+	rom ( name "Contra (World) (Ja) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 0168C3E9 md5 9DF3F65B48383CB8B249829CEA2D0B94 sha1 34951DEFC2527AF4A29BED73F2D258FB457BA3A6 )
+)
+game (
+	name "Contra Force (World) (Proto) (NES Conversion)"
+	rom ( name "Contra Force (World) (Proto) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 69989684 md5 9AA031FC12CB47BA48234E0744058AF1 sha1 8CDF278632BCF9CCA0A78D760918280793569762 )
 )
 game (
 	name "Contra III - The Alien Wars (USA)"
@@ -3919,38 +3931,36 @@ game (
 	rom ( name "Dual Orb II (Japan).sfc" size 2621440 crc E8798F65 md5 EB42510C01054711BCF04346ABA7ED2F sha1 02B85364E3BD988B8CB9E2148309BBFBF46A9338 )
 )
 game (
-	name "DuckTales (World) (Beta) (NES Conversion)"
-	releaseyear "2023"
-	releasemonth "07"
-	releaseday "28"
-	rom ( name "DuckTales (World) (2023-07-28) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 9A396EC5 md5 A1C4F25BB7666BC711BD3D63568E84AC sha1 27D362302516B72E5E5016E94F2DF84863FCE1AA )
+	name "DuckTales (World) (Beta 1) (NES Conversion)"
+	rom ( name "DuckTales (World) (Beta 1) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 9A396EC5 md5 A1C4F25BB7666BC711BD3D63568E84AC sha1 27D362302516B72E5E5016E94F2DF84863FCE1AA )
 )
 game (
-	name "DuckTales (World) (Beta) (NES Conversion)"
-	releaseyear "2023"
-	releasemonth "08"
-	releaseday "10"
-	rom ( name "DuckTales (World) (2023-08-10) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc FC78AE79 md5 324C72F53804402A27BC06C746C2AF07 sha1 2F3A740FA37797945B23DF2DF7F6FF266E4F3599 )
+	name "DuckTales (World) (Beta 2) (NES Conversion)"
+	rom ( name "DuckTales (World) (Beta 2) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc FC78AE79 md5 324C72F53804402A27BC06C746C2AF07 sha1 2F3A740FA37797945B23DF2DF7F6FF266E4F3599 )
 )
 game (
-	name "DuckTales (World) (NES Conversion) (REV-A)"
-	rom ( name "DuckTales (World) (NES Conversion) (REV-A) (Aftermarket) (Unl).sfc" size 3145728 crc 740786A1 md5 4E09AD45A608FE1A29045640E10730FF sha1 B7BD983F2A6B2E6FC24E9F76173F724A2F424378 )
+	name "DuckTales (World) (REV-A) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 740786A1 md5 4E09AD45A608FE1A29045640E10730FF sha1 B7BD983F2A6B2E6FC24E9F76173F724A2F424378 )
 )
 game (
-	name "DuckTales (World) (NES Conversion) (REV-B)"
-	rom ( name "DuckTales (World) (NES Conversion) (REV-B) (Aftermarket) (Unl).sfc" size 3145728 crc BFCC3575 md5 5923614EB9D6792B2A23DC347726266A sha1 1B7659DCE45438106E33F086051D2F04DA1CE57E )
+	name "DuckTales (World) (REV-B) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc BFCC3575 md5 5923614EB9D6792B2A23DC347726266A sha1 1B7659DCE45438106E33F086051D2F04DA1CE57E )
 )
 game (
-	name "DuckTales (World) (NES Conversion) (REV-C)"
-	rom ( name "DuckTales (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 3145728 crc BF7D3209 md5 7DA1C401F1AD62AB720FE6BBE88A9A00 sha1 7ACF8EBFED7182ED5FA45A2971B635E097743C38 )
+	name "DuckTales (World) (REV-C) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc BF7D3209 md5 7DA1C401F1AD62AB720FE6BBE88A9A00 sha1 7ACF8EBFED7182ED5FA45A2971B635E097743C38 )
 )
 game (
-	name "DuckTales (World) (NES Conversion) (REV-F)"
-	rom ( name "DuckTales (World) (NES Conversion) (REV-F) (Aftermarket) (Unl).sfc" size 3145728 crc CFFD528E md5 308C7975D7EE112870A419E4B677DC78 sha1 3E96278B43DC823FB7211E09BDB270E7FF7A1023 )
+	name "DuckTales (World) (REV-F) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-F) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc CFFD528E md5 308C7975D7EE112870A419E4B677DC78 sha1 3E96278B43DC823FB7211E09BDB270E7FF7A1023 )
 )
 game (
-	name "DuckTales (World) (NES Conversion) (REV-G)"
-	rom ( name "DuckTales (World) (NES Conversion) (REV-G) (Aftermarket) (Unl).sfc" size 4194304 crc 48CE1853 md5 34807F1989DF15B9326A1E4F9448F7EB sha1 8D9836B320B9A4FD879D6906958C919955B1A011 )
+	name "DuckTales (World) (REV-G) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 48CE1853 md5 34807F1989DF15B9326A1E4F9448F7EB sha1 8D9836B320B9A4FD879D6906958C919955B1A011 )
+)
+game (
+	name "DuckTales (World) (REV-H) (NES Conversion)"
+	rom ( name "DuckTales (World) (REV-H) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 1BDFE6E6 md5 F79B7E5DFF2701E6762F0DDB61BCCA17 sha1 EC9FBAE45B905614479307D943032FA2B4BB13EC )
 )
 game (
 	name "Duel, The - Test Drive II (Europe)"
@@ -4743,9 +4753,19 @@ game (
 	rom ( name "Final Fight 2 (Japan).sfc" size 1310720 crc F41E1A5A md5 C48173FB44998AE5F6E74575D0B09182 sha1 3B4A8C49AB9046BE88F59669FA88C305F430178E )
 )
 game (
+	name "Final Fight 2 (Japan) (Capcom Town)"
+	region "Japan"
+	rom ( name "Final Fight 2 (Japan) (Capcom Town).sfc" size 1310720 crc 1727E97C md5 B95DD921CBAF176FF68B3518ED711583 sha1 74550869958A0A3D9AAA9C936F76404E5DDD3038 )
+)
+game (
 	name "Final Fight 2 (USA)"
 	region "USA"
 	rom ( name "Final Fight 2 (USA).sfc" size 1310720 crc 8C37FF55 md5 262616F80A6C194527D41E2C72B61ACA sha1 462CE5DC82A5411A3698904EA9BAB993850A2175 )
+)
+game (
+	name "Final Fight 2 (USA) (Capcom Town)"
+	region "USA"
+	rom ( name "Final Fight 2 (USA) (Capcom Town).sfc" size 1310720 crc 7124E5EC md5 3146367967C9F6F8B3B63C239877ED33 sha1 2C8A1D3388DDB5EF32CD8E1B4620BC96FD0FA491 )
 )
 game (
 	name "Final Fight 2 (USA) (Virtual Console)"
@@ -5523,14 +5543,14 @@ game (
 	rom ( name "Genjuu Ryodan (Japan) (NP).sfc" size 4194304 crc 8D9BFFC8 md5 022261F6ADD3432435DF430166EA9BD2 sha1 EA5C8080945D6923E40E4AC7BD37526E64DF30A1 )
 )
 game (
-	name "Genocide 2 (Japan)"
-	region "Japan"
-	rom ( name "Genocide 2 (Japan).sfc" size 2097152 crc DE40AA12 md5 156E52E1CFC79738F0C731FF24AB0736 sha1 947F72EBB7F3B19244103FA5A55C0A5A21267F23 )
-)
-game (
 	name "Genocide 2 (Japan) (Beta)"
 	region "Japan"
 	rom ( name "Genocide 2 (Japan) (Beta).sfc" size 196608 crc FD93848B md5 4AA8CA6E4C47A5EE7E6FD59D05706904 sha1 715ED2904CC24F781ADF99AC4E8A0B0DC54D9826 )
+)
+game (
+	name "Genocide 2 (Japan) (En)"
+	region "Japan"
+	rom ( name "Genocide 2 (Japan) (En).sfc" size 2097152 crc DE40AA12 md5 156E52E1CFC79738F0C731FF24AB0736 sha1 947F72EBB7F3B19244103FA5A55C0A5A21267F23 )
 )
 game (
 	name "George Foreman's KO Boxing (Europe)"
@@ -7705,6 +7725,11 @@ game (
 	rom ( name "Kawasaki Superbike Challenge (Europe).sfc" size 1048576 crc C736DFC0 md5 969119DABA49BE0BEE6884600E185A36 sha1 86955B8E5B579250489EEED189743E8AC9CE40CF )
 )
 game (
+	name "Kawasaki Superbike Challenge (Europe) (Beta)"
+	region "Europe"
+	rom ( name "Kawasaki Superbike Challenge (Europe) (Beta).sfc" size 1048576 crc 0470839F md5 A25FB8F8506EE43319FDCFCF9F6EB58B sha1 F08A02B4666B0E0CD209E9A10F5505109CF39724 )
+)
+game (
 	name "Kawasaki Superbike Challenge (USA)"
 	region "USA"
 	rom ( name "Kawasaki Superbike Challenge (USA).sfc" size 1048576 crc E8ED176E md5 6FAC830686F1D884B52E1273E0D1BB85 sha1 843C025B26E1640C2BF080375ECD7ED79E97FE08 )
@@ -7829,11 +7854,8 @@ game (
 )
 game (
 	name "Kick Off (Europe) (Beta)"
-	releaseyear "1992"
-	releasemonth "07"
-	releaseday "24"
 	region "Europe"
-	rom ( name "Kick Off (Europe) (Beta) (1992-07-24).sfc" size 524288 crc 9E743DE3 md5 9FA6623CF7C2B7FD9BCA146CBCFB7087 sha1 FA807DB70C4ABE39D286815D77BBECF2C1E184F6 )
+	rom ( name "Kick Off (Europe) (Beta).sfc" size 524288 crc 9E743DE3 md5 9FA6623CF7C2B7FD9BCA146CBCFB7087 sha1 FA807DB70C4ABE39D286815D77BBECF2C1E184F6 )
 )
 game (
 	name "Kick Off 3 - European Challenge (Europe) (Beta 1)"
@@ -8424,9 +8446,14 @@ game (
 	rom ( name "Lawnmower Man, The (USA).sfc" size 1048576 crc 2736B607 md5 C72A0D2030B6B9CDFE94D64B75753DD7 sha1 6D6064594B3F9144CB5BC4310946C08C2DE7F635 )
 )
 game (
-	name "Lawnmower Man, The (USA) (Beta)"
+	name "Lawnmower Man, The (USA) (Beta 1)"
 	region "USA"
-	rom ( name "Lawnmower Man, The (USA) (Beta).sfc" size 1048576 crc 750F8068 md5 E9D94867A730023D5D2288D8C17662B4 sha1 99678D41077573FBE99E5657C0CB784A73888332 )
+	rom ( name "Lawnmower Man, The (USA) (Beta 1).sfc" size 524288 crc 7B6836D3 md5 4BE3B60AA5E70680CD8672986B50D4D8 sha1 0C92ED684E636B058ADAF3FBC5E9B59A21EE1C98 )
+)
+game (
+	name "Lawnmower Man, The (USA) (Beta 2)"
+	region "USA"
+	rom ( name "Lawnmower Man, The (USA) (Beta 2).sfc" size 1048576 crc 750F8068 md5 E9D94867A730023D5D2288D8C17662B4 sha1 99678D41077573FBE99E5657C0CB784A73888332 )
 )
 game (
 	name "Leading Company (Japan)"
@@ -8467,16 +8494,20 @@ game (
 	rom ( name "Legend (World) (QUByte Classics).sfc" size 1048576 crc 33C648AA md5 99C070D3CDF193582A3413168BBA546F sha1 80ACA3DD651657D714C702157166900C61E33C7A )
 )
 game (
-	name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-F)"
-	rom ( name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-F) (Aftermarket) (Unl).sfc" size 3145728 crc 6CACD79C md5 B53693517EBAAEDD9147545B02C3B7A9 sha1 3AA0413E1E5FE5B50AD17FF32873D0F8777071EC )
+	name "Legend of Zelda, The (World) (REV-F) (Digital) (NES Conversion)"
+	rom ( name "Legend of Zelda, The (World) (REV-F) (Digital) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 6CACD79C md5 B53693517EBAAEDD9147545B02C3B7A9 sha1 3AA0413E1E5FE5B50AD17FF32873D0F8777071EC )
 )
 game (
-	name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-G)"
-	rom ( name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-G) (Aftermarket) (Unl).sfc" size 3145728 crc E4BD1859 md5 A727B5259C247F48CECD179C380D906B sha1 A734F282046F198633D386421F16CCF1DFC29290 )
+	name "Legend of Zelda, The (World) (REV-G) (Digital) (NES Conversion)"
+	rom ( name "Legend of Zelda, The (World) (REV-G) (Digital) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc E4BD1859 md5 A727B5259C247F48CECD179C380D906B sha1 A734F282046F198633D386421F16CCF1DFC29290 )
 )
 game (
-	name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-H)"
-	rom ( name "Legend of Zelda, The (World) (Digital) (NES Conversion) (REV-H) (Aftermarket) (Unl).sfc" size 4194304 crc C0AD8FC7 md5 B1A3781BCC8234358F1FD4010EEFA801 sha1 A6ECE6B0FDF3021034CFE8B4BA40CD1FBD1A630E )
+	name "Legend of Zelda, The (World) (REV-H) (Digital) (NES Conversion)"
+	rom ( name "Legend of Zelda, The (World) (REV-H) (Digital) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc C0AD8FC7 md5 B1A3781BCC8234358F1FD4010EEFA801 sha1 A6ECE6B0FDF3021034CFE8B4BA40CD1FBD1A630E )
+)
+game (
+	name "Legend of Zelda, The (World) (REV-I) (Digital) (NES Conversion)"
+	rom ( name "Legend of Zelda, The (World) (REV-I) (Digital) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc CB5F6855 md5 F7A46ABF32AC9D30348BE39FC912B67A sha1 E87462C6708E6BE06C6F3CEE4A816FC47822AC31 )
 )
 game (
 	name "Legend of Zelda, The - A Link to the Past (Canada) (Fr)"
@@ -9537,12 +9568,16 @@ game (
 	rom ( name "Mega Family Bros (World) (Aftermarket) (Unl).sfc" size 1048576 crc 59CAEBD7 md5 6FF18DFAE7380A1D43422C1695FD0EDB sha1 21FC28BE19D7AECFC890BCF63DFD2F8D8EED5BD6 )
 )
 game (
-	name "Mega Man (World) (NES Conversion) (REV-B)"
-	rom ( name "Mega Man (World) (NES Conversion) (REV-B) (Aftermarket) (Unl).sfc" size 3145728 crc AC8E409E md5 91D048159AD11BB3EE06BC090A6BDB06 sha1 E151CA94B84D97F7902E6C7EB30D8B3F6F194DC9 )
+	name "Mega Man (World) (REV-B) (NES Conversion)"
+	rom ( name "Mega Man (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc AC8E409E md5 91D048159AD11BB3EE06BC090A6BDB06 sha1 E151CA94B84D97F7902E6C7EB30D8B3F6F194DC9 )
 )
 game (
-	name "Mega Man (World) (NES Conversion) (REV-D)"
-	rom ( name "Mega Man (World) (NES Conversion) (REV-D) (Aftermarket) (Unl).sfc" size 4194304 crc 64D1382A md5 2F4AAA8AB4B302A0BDFAD80D43CE4AA7 sha1 D3B1228A37DE792C1CB0C0A319A230B42C666368 )
+	name "Mega Man (World) (REV-D) (NES Conversion)"
+	rom ( name "Mega Man (World) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 64D1382A md5 2F4AAA8AB4B302A0BDFAD80D43CE4AA7 sha1 D3B1228A37DE792C1CB0C0A319A230B42C666368 )
+)
+game (
+	name "Mega Man (World) (REV-E) (NES Conversion)"
+	rom ( name "Mega Man (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 44660632 md5 9CFFE28DE58AB928DFF2F287D253014E sha1 91286F96F06DC85B7064B1798B9D14B98C9F69FF )
 )
 game (
 	name "Mega Man 7 (Europe)"
@@ -9555,43 +9590,52 @@ game (
 	rom ( name "Mega Man 7 (USA).sfc" size 2097152 crc 2D947536 md5 301D8C4F1B5DE2CD10B68686B17B281A sha1 6E7C9C9DD397F771303EE4AEC29D106B9F86C832 )
 )
 game (
-	name "Mega Man II (World) (NES Conversion) (REV-A)"
-	rom ( name "Mega Man II (World) (NES Conversion) (REV-A) (Aftermarket) (Unl).sfc" size 2097152 crc FBB59CC5 md5 CE1259B08151F9351B6FD9DC5D178A45 sha1 B2ACFF9DA4AF3BDAB59ECBAD808F10EB4F8D4DFC )
+	name "Mega Man II (World) (REV-A) (NES Conversion)"
+	rom ( name "Mega Man II (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc FBB59CC5 md5 CE1259B08151F9351B6FD9DC5D178A45 sha1 B2ACFF9DA4AF3BDAB59ECBAD808F10EB4F8D4DFC )
 )
 game (
-	name "Mega Man II (World) (NES Conversion) (REV-B)"
-	rom ( name "Mega Man II (World) (NES Conversion) (REV-B) (Aftermarket) (Unl).sfc" size 2097152 crc B81FABFB md5 1DF88354201A40C70D9F455451421932 sha1 13612A40F8504020A6C5ED13014E5163FAE65256 )
+	name "Mega Man II (World) (REV-B) (NES Conversion)"
+	rom ( name "Mega Man II (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc B81FABFB md5 1DF88354201A40C70D9F455451421932 sha1 13612A40F8504020A6C5ED13014E5163FAE65256 )
 )
 game (
-	name "Mega Man II (World) (NES Conversion) (REV-C)"
-	rom ( name "Mega Man II (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 2097152 crc BF9F622D md5 E12DD2F0EAD7BCA3E5289EAF1A71D4DB sha1 334D9D5844A530FEFC4599A6A49274E7B5082AAD )
+	name "Mega Man II (World) (REV-C) (NES Conversion)"
+	rom ( name "Mega Man II (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc BF9F622D md5 E12DD2F0EAD7BCA3E5289EAF1A71D4DB sha1 334D9D5844A530FEFC4599A6A49274E7B5082AAD )
 )
 game (
-	name "Mega Man III (World) (NES Conversion) (REV-A)"
-	rom ( name "Mega Man III (World) (NES Conversion) (REV-A) (Aftermarket) (Unl).sfc" size 4194304 crc 63953FA0 md5 ADEF38E5BA5A6E05D487E948291FEF7A sha1 B49EFDDB806A1BC2E0C99DA5F471513C48ED3814 )
+	name "Mega Man II (World) (REV-E) (NES Conversion)"
+	rom ( name "Mega Man II (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc D7CDD5DC md5 259965903452E0F1DA75CC126DF1CF1A sha1 E3F8BDE2C7738EFA50F0E0A24D1741ADBE909726 )
+)
+game (
+	name "Mega Man III (World) (REV-B) (NES Conversion)"
+	rom ( name "Mega Man III (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 63953FA0 md5 ADEF38E5BA5A6E05D487E948291FEF7A sha1 B49EFDDB806A1BC2E0C99DA5F471513C48ED3814 )
+)
+game (
+	name "Mega Man III (World) (REV-C) (NES Conversion)"
+	rom ( name "Mega Man III (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 9B241DE4 md5 2036630FE6114AF9CC0B169F196EC1E4 sha1 306956124A4539BD069448BD3A6BA9EF7FE89BEB )
 )
 game (
 	name "Mega Man IV (World) (Beta) (NES Conversion)"
-	releaseyear "2021"
-	releasemonth "08"
-	releaseday "04"
-	rom ( name "Mega Man IV (World) (2021-08-04) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 63C2FD28 md5 08825B091F3442EE7E1A9E688A80D69B sha1 E2D337F308A14AA4BF4F763383AB474EA7CFEEBB )
+	rom ( name "Mega Man IV (World) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 63C2FD28 md5 08825B091F3442EE7E1A9E688A80D69B sha1 E2D337F308A14AA4BF4F763383AB474EA7CFEEBB )
 )
 game (
-	name "Mega Man IV (World) (NES Conversion) (REV-A)"
-	rom ( name "Mega Man IV (World) (NES Conversion) (REV-A) (Aftermarket) (Unl).sfc" size 2097152 crc 88A455A7 md5 14A4B072FD3DC6EF20F22ACDAE867D8D sha1 7FC8861A7BA074D2D03DA31FD18A60D31DADA971 )
+	name "Mega Man IV (World) (REV-A) (NES Conversion)"
+	rom ( name "Mega Man IV (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 88A455A7 md5 14A4B072FD3DC6EF20F22ACDAE867D8D sha1 7FC8861A7BA074D2D03DA31FD18A60D31DADA971 )
 )
 game (
-	name "Mega Man IV (World) (NES Conversion) (REV-C)"
-	rom ( name "Mega Man IV (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 2097152 crc F6B61385 md5 E49EAD824FA7D819EB3086EB3C87FA67 sha1 48D2BA83676876C0D49A5D4B7DD3966AC3FC1906 )
+	name "Mega Man IV (World) (REV-C) (NES Conversion)"
+	rom ( name "Mega Man IV (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc F6B61385 md5 E49EAD824FA7D819EB3086EB3C87FA67 sha1 48D2BA83676876C0D49A5D4B7DD3966AC3FC1906 )
 )
 game (
-	name "Mega Man IV (World) (NES Conversion) (REV-D)"
-	rom ( name "Mega Man IV (World) (NES Conversion) (REV-D) (Aftermarket) (Unl).sfc" size 2097152 crc 63793067 md5 4F15EB067D9165B615E72CA7E5BCE135 sha1 52AD2F6C61C10319708DD0AD85F36C6A83A8D0D7 )
+	name "Mega Man IV (World) (REV-D) (NES Conversion)"
+	rom ( name "Mega Man IV (World) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 63793067 md5 4F15EB067D9165B615E72CA7E5BCE135 sha1 52AD2F6C61C10319708DD0AD85F36C6A83A8D0D7 )
 )
 game (
-	name "Mega Man IV (World) (NES Conversion) (REV-E)"
-	rom ( name "Mega Man IV (World) (NES Conversion) (REV-E) (Aftermarket) (Unl).sfc" size 2097152 crc A34A97AA md5 CF871DA39E12A03CB9DC8AC1AED4F935 sha1 F77CB626DB23B37A2F8D3F6F0B752B0D265411D9 )
+	name "Mega Man IV (World) (REV-E) (NES Conversion)"
+	rom ( name "Mega Man IV (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc A34A97AA md5 CF871DA39E12A03CB9DC8AC1AED4F935 sha1 F77CB626DB23B37A2F8D3F6F0B752B0D265411D9 )
+)
+game (
+	name "Mega Man IV (World) (REV-G) (NES Conversion)"
+	rom ( name "Mega Man IV (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 4F914049 md5 65853F7DCC1F4DE97D3187C69ABBE3FE sha1 1FA2D7A9B71ECEF09305EF389A598C4B375B0D66 )
 )
 game (
 	name "Mega Man Soccer (USA)"
@@ -9599,8 +9643,16 @@ game (
 	rom ( name "Mega Man Soccer (USA).sfc" size 1310720 crc FA9EE2CE md5 9E886F686DA276B00C4671967D396A79 sha1 7E59C9457829ED3F0FBD9CD0CEEB3432A4739E98 )
 )
 game (
-	name "Mega Man V (World) (NES Conversion) (REV-C)"
-	rom ( name "Mega Man V (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 4194304 crc 2131E2B7 md5 606B64BB051091F74AF619CED544ECCB sha1 9992F8C24161A194B6FAF1F490132B1CA96AF3D7 )
+	name "Mega Man V (World) (REV-C) (NES Conversion)"
+	rom ( name "Mega Man V (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 2131E2B7 md5 606B64BB051091F74AF619CED544ECCB sha1 9992F8C24161A194B6FAF1F490132B1CA96AF3D7 )
+)
+game (
+	name "Mega Man V (World) (REV-E) (NES Conversion)"
+	rom ( name "Mega Man V (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc B1D358C8 md5 344E82612EA9DDBBEC58F6E2732B12D2 sha1 A2AFCB00DF03054EEDA405C57932645C703D8AD7 )
+)
+game (
+	name "Mega Man VI (World) (REV-B) (NES Conversion)"
+	rom ( name "Mega Man VI (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 2587652B md5 CB4C7C89771E0480C80058CAAEF536E3 sha1 1D2D8071666E2D2A2A62C1D0F822265D8DCCC1FF )
 )
 game (
 	name "Mega Man X (Europe)"
@@ -9738,18 +9790,19 @@ game (
 )
 game (
 	name "Metroid (World) (Beta) (NES Conversion)"
-	releaseyear "2023"
-	releasemonth "11"
-	releaseday "30"
-	rom ( name "Metroid (World) (2023-11-30) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc B9EF2BC4 md5 C53FE67C808936267960894A187FDC61 sha1 D4AD7579D20BDEB6509849015E8C82D35459F1C6 )
+	rom ( name "Metroid (World) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc B9EF2BC4 md5 C53FE67C808936267960894A187FDC61 sha1 D4AD7579D20BDEB6509849015E8C82D35459F1C6 )
 )
 game (
-	name "Metroid (World) (NES Conversion) (REV-E)"
-	rom ( name "Metroid (World) (NES Conversion) (REV-E) (Aftermarket) (Unl).sfc" size 3145728 crc 2A059E29 md5 6111CC9FDBB903687328ED555A31181E sha1 38FACAB4E7F2C93DBD50E249B0ADD83CEB9AD5F3 )
+	name "Metroid (World) (REV-E) (NES Conversion)"
+	rom ( name "Metroid (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 2A059E29 md5 6111CC9FDBB903687328ED555A31181E sha1 38FACAB4E7F2C93DBD50E249B0ADD83CEB9AD5F3 )
 )
 game (
-	name "Metroid (World) (NES Conversion) (REV-F)"
-	rom ( name "Metroid (World) (NES Conversion) (REV-F) (Aftermarket) (Unl).sfc" size 4194304 crc 81B37C6A md5 7FB92D6B2219951437A453BFEF2742D6 sha1 0043C67572A4DA7337E4EC7698CFCBD014462AE8 )
+	name "Metroid (World) (REV-F) (NES Conversion)"
+	rom ( name "Metroid (World) (REV-F) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 81B37C6A md5 7FB92D6B2219951437A453BFEF2742D6 sha1 0043C67572A4DA7337E4EC7698CFCBD014462AE8 )
+)
+game (
+	name "Metroid (World) (REV-G) (NES Conversion)"
+	rom ( name "Metroid (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc CBAA1A84 md5 ABF0BE7777B50C9F32D406EBAA9ED0EE sha1 EC4D6A7FF9ED6CC1600E0554C47E9D377804370C )
 )
 game (
 	name "Michael Andretti's Indy Car Challenge (Japan)"
@@ -9958,12 +10011,18 @@ game (
 	rom ( name "Mighty Morphin Power Rangers - The Movie (USA).sfc" size 1572864 crc E3EF6201 md5 F184E696C1FB1C984E530F504EEBD234 sha1 82FBE365BC96FE3F03C3EB12E1620910B15F01F9 )
 )
 game (
-	name "Mike Tyson's Punch-Out!! (World) (NES Conversion) (REV-B)"
-	rom ( name "Mike Tyson's Punch-Out!! (World) (NES Conversion) (REV-B) (Aftermarket) (Unl).sfc" size 3145728 crc D664DBFA md5 A1B291A352CE1D065475AAAB883CE3D6 sha1 6902F61DD0B6C67930F86F7C66535656B0D706D8 )
+	name "Mike Tyson's Punch-Out!! (World) (REV-B) (NES Conversion)"
+	releaseyear "2024"
+	rom ( name "Mike Tyson's Punch-Out!! (World) (2024) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc D664DBFA md5 A1B291A352CE1D065475AAAB883CE3D6 sha1 6902F61DD0B6C67930F86F7C66535656B0D706D8 )
 )
 game (
-	name "Mike Tyson's Punch-Out!! (World) (NES Conversion) (REV-C)"
-	rom ( name "Mike Tyson's Punch-Out!! (World) (NES Conversion) (REV-C) (Aftermarket) (Unl).sfc" size 4194304 crc BB3421A3 md5 4CE1E9FEBED55644101E546E98C5FA3A sha1 03C013DB15202084DE74882BF0266DC2AB5D6E03 )
+	name "Mike Tyson's Punch-Out!! (World) (REV-C) (NES Conversion)"
+	releaseyear "2024"
+	rom ( name "Mike Tyson's Punch-Out!! (World) (2024) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc BB3421A3 md5 4CE1E9FEBED55644101E546E98C5FA3A sha1 03C013DB15202084DE74882BF0266DC2AB5D6E03 )
+)
+game (
+	name "Mike Tyson's Punch-Out!! (World) (2025) (REV-B) (NES Conversion)"
+	rom ( name "Mike Tyson's Punch-Out!! (World) (2025) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc A78DE923 md5 571CEA8B86208C214E5E8153E090650A sha1 BFCE61B5FF30D7434FD3BC6A602ABF4F68561FF7 )
 )
 game (
 	name "Milandra (Japan)"
@@ -10079,7 +10138,7 @@ game (
 game (
 	name "Mortal Kombat (Europe) (Rev 1)"
 	region "Europe"
-	rom ( name "Mortal Kombat (Europe) (Rev 1) (SPAL-KX-1).bin" size 2097152 crc 047B3D88 md5 1D348D1AF28DB657195F926CC0207796 sha1 2B820CF5EA310DB54CEF4A1C0918023FEC986EE4 )
+	rom ( name "Mortal Kombat (Europe) (Rev 1).sfc" size 2097152 crc 1ED2D8D6 md5 E86C05726A2731E9845314D5808F2946 sha1 F30730A135F046208007484207C14599C005C397 )
 )
 game (
 	name "Mortal Kombat (Europe) (Rev 2)"
@@ -10949,8 +11008,12 @@ game (
 	rom ( name "Ninja Gaiden Trilogy (USA).sfc" size 1572864 crc 066FE797 md5 A641A33A829154F656CA00AB1EF35500 sha1 D65B3B940FCE0BFD493F783170C364DAC2EA198D )
 )
 game (
-	name "Ninja Gaiden Trilogy (World) (NES Conversion) (REV-A)"
-	rom ( name "Ninja Gaiden Trilogy (World) (NES Conversion) (REV-A) (Aftermarket) (Unl).sfc" size 4194304 crc E0EDC33F md5 9B41ADF2168574D02A79AAF2355D37DA sha1 FF5D1066445D1A7AD028A3E45B5146DE92C0DB80 )
+	name "Ninja Gaiden Trilogy (World) (REV-A) (NES Conversion)"
+	rom ( name "Ninja Gaiden Trilogy (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc E0EDC33F md5 9B41ADF2168574D02A79AAF2355D37DA sha1 FF5D1066445D1A7AD028A3E45B5146DE92C0DB80 )
+)
+game (
+	name "Ninja Gaiden Trilogy (World) (REV-C) (NES Conversion)"
+	rom ( name "Ninja Gaiden Trilogy (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 86D2473C md5 23BF075BCD514A3F74AC36DDE8CBDC26 sha1 70A060A4DD269D1DCB202661B9EBE726E60CD757 )
 )
 game (
 	name "Ninja Ryuuken Den Tomoe (Japan)"
@@ -10991,6 +11054,16 @@ game (
 	name "Nintama Rantarou Special (Japan)"
 	region "Japan"
 	rom ( name "Nintama Rantarou Special (Japan).sfc" size 524288 crc 70A6029A md5 6C51D6E4AD03E8AF3320DAC648B0CEFC sha1 318D95526D47D9E36B76C6D17E803E471887137E )
+)
+game (
+	name "Nintendo Campus Challenge 1992 (USA, Europe) (Competition Cart)"
+	region "USA"
+	rom ( name "Nintendo Campus Challenge 1992 (USA, Europe) (Competition Cart).sfc" size 1835008 crc 05623AAE md5 C53464E770C855250B58674FAE95894C sha1 DB86707DF15CA301B5E7508F6310C7781A7CDD7D )
+)
+game (
+	name "Nintendo Challenge (Japan) (En) (Competition Cart)"
+	region "Japan"
+	rom ( name "Nintendo Challenge (Japan) (En) (Competition Cart).sfc" size 1835008 crc 2283A3BD md5 CD136941A7924423388CB982C9AE5431 sha1 256D3242E43B496A9FB4D4D1093AF20978662D83 )
 )
 game (
 	name "Nintendo Power Menu Program (Japan) (NP)"
@@ -12414,9 +12487,14 @@ game (
 	rom ( name "Power of the Hired (Japan).sfc" size 1572864 crc CF276C80 md5 4296780E368C36B59DE3C17AE9148F87 sha1 C3160041006B6F7C8CA8294EFCF9C7C18A2C6743 )
 )
 game (
-	name "PowerFest 94 (USA) (Competition Cart)"
+	name "PowerFest 94 (USA) (Competition Cart, 10k points)"
 	region "USA"
-	rom ( name "PowerFest 94 (USA) (Competition Cart).sfc" size 2359296 crc E3D76E79 md5 B1EF1D37A1B9649BFC6DA5E9ABEC7A5B sha1 E1F4A4F306B87B53D0FBC9F143D1088C614A4289 )
+	rom ( name "PowerFest 94 (USA) (Competition Cart, 10k points).sfc" size 2359296 crc E3D76E79 md5 B1EF1D37A1B9649BFC6DA5E9ABEC7A5B sha1 E1F4A4F306B87B53D0FBC9F143D1088C614A4289 )
+)
+game (
+	name "PowerFest 94 (USA) (Competition Cart, 1m points)"
+	region "USA"
+	rom ( name "PowerFest 94 (USA) (Competition Cart, 1m points).sfc" size 2359296 crc BFC5B2FB md5 E14F11266EBD83B0F5BA2C417D98CB1F sha1 ABB7687B57622765E12761BE1BC455496DB9019A )
 )
 game (
 	name "PowerMonger (Europe)"
@@ -15365,6 +15443,11 @@ game (
 	rom ( name "Street Fighter Alpha 2 (USA).sfc" size 4194304 crc 9C59DDFF md5 AA3C90FA7D89EB3DC3389A9436BD0CF8 sha1 F4EDE150B5281F7F5D7E3188C6D9163C2BC66475 )
 )
 game (
+	name "Street Fighter Alpha 2 (USA) (Capcom Town)"
+	region "USA"
+	rom ( name "Street Fighter Alpha 2 (USA) (Capcom Town).sfc" size 4194304 crc 2EA8BA05 md5 C806ACB3FE969B90A7789498175A1029 sha1 6B93BA1E3983C67B3A3E9579F2F82F9BDC9A0B11 )
+)
+game (
 	name "Street Fighter EX Plus Alpha (USA) (Pirate)"
 	region "USA"
 	rom ( name "Street Fighter EX Plus Alpha (USA) (Pirate).sfc" size 2097152 crc DAD59B9F md5 852ECF00F608C53DB8AD6D3208AC25B1 sha1 22F864B4A8728F08513B979D2A960EB3083B2C83 )
@@ -16982,15 +17065,20 @@ game (
 	rom ( name "Super Mario All-Stars and Super Mario World (Europe).sfc" size 2621440 crc 303205D8 md5 4941387E96ED2841EE3C2DE6D1899509 sha1 BE560F0A8DE05E432B34BE768198EF3DEFB13CB6 )
 )
 game (
-	name "Super Mario Bros. (World) (NES Conversion)"
-	rom ( name "Super Mario Bros. (World) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 558AAB4E md5 9EC934238FF2E8D2572452BEB1966E46 sha1 D685BE2360730C97E4B57406E62B13919CBADA58 )
+	name "Super Mario Bros. (World) (REV-A) (NES Conversion)"
+	rom ( name "Super Mario Bros. (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 558AAB4E md5 9EC934238FF2E8D2572452BEB1966E46 sha1 D685BE2360730C97E4B57406E62B13919CBADA58 )
 )
 game (
-	name "Super Mario Bros. Maker (World) (Beta) (NES Conversion)"
-	releaseyear "2024"
-	releasemonth "08"
-	releaseday "18"
-	rom ( name "Super Mario Bros. Maker (World) (2024-08-18) (Beta) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 5CC7F538 md5 72B2FB0F9AAE04BD49C0608841D038F1 sha1 3CC905838A9F32E7214973AB4D6F6D348DA596EA )
+	name "Super Mario Bros. (World) (REV-C) (NES Conversion)"
+	rom ( name "Super Mario Bros. (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 98FE54D4 md5 DB3E6611A6AECB681C32F0789C7A350C sha1 D15C99A67E2577921822260044B22F97C45691A3 )
+)
+game (
+	name "Super Mario Bros. Maker (World) (Proto 1) (NES Conversion)"
+	rom ( name "Super Mario Bros. Maker (World) (Proto 1) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 5CC7F538 md5 72B2FB0F9AAE04BD49C0608841D038F1 sha1 3CC905838A9F32E7214973AB4D6F6D348DA596EA )
+)
+game (
+	name "Super Mario Bros. Maker (World) (Proto 2) (NES Conversion)"
+	rom ( name "Super Mario Bros. Maker (World) (Proto 2) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc FAACA0F5 md5 7F2C3C11D7CB24E5E2653F91A92D7571 sha1 588B6701EF24B4397257436A83590E10529FA1C8 )
 )
 game (
 	name "Super Mario Collection (Japan)"
@@ -17279,11 +17367,6 @@ game (
 	name "Super Ninja-kun (Japan)"
 	region "Japan"
 	rom ( name "Super Ninja-kun (Japan).sfc" size 1048576 crc 0A94FCCA md5 EBBF4D87C6BF5256398D9B028BB0B9AB sha1 0684B0010F738EF2615C8E088CB7752F6902CC55 )
-)
-game (
-	name "Super Nintendo Campus Challenge 1992 (Japan) (En) (Competition Cart)"
-	region "Japan"
-	rom ( name "Super Nintendo Campus Challenge 1992 (Japan) (En) (Competition Cart).sfc" size 1835008 crc 2283A3BD md5 CD136941A7924423388CB982C9AE5431 sha1 256D3242E43B496A9FB4D4D1093AF20978662D83 )
 )
 game (
 	name "Super Noah's Ark 3D (USA) (Piko Interactive)"
@@ -18663,6 +18746,10 @@ game (
 	name "Teenage Mutant Hero Turtles IV - Turtles in Time (Europe)"
 	region "Europe"
 	rom ( name "Teenage Mutant Hero Turtles IV - Turtles in Time (Europe).sfc" size 1048576 crc B0A3441E md5 D61A2B7F57A1C944D5B6B7DEEBF90131 sha1 59ADD584F16B607607348E65C245CA6AD7A5FCB8 )
+)
+game (
+	name "Teenage Mutant Ninja Turtles (World) (REV-A) (NES Conversion)"
+	rom ( name "Teenage Mutant Ninja Turtles (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc C9A34685 md5 0F5A4988DAEFABB013541CF4D27E3A7C sha1 694C0C321024354047076E86535663B3AE561E3F )
 )
 game (
 	name "Teenage Mutant Ninja Turtles - Mutant Warriors (Japan)"
@@ -20879,11 +20966,8 @@ game (
 )
 game (
 	name "Yoshi's Cookie (USA) (Beta)"
-	releaseyear "1993"
-	releasemonth "01"
-	releaseday "19"
 	region "USA"
-	rom ( name "Yoshi's Cookie (USA) (Beta) (1993-01-19).sfc" size 524288 crc FBDFCDAB md5 D87B90A210252BA42992E9509337E639 sha1 094AF3A0739521EC524AEA713080B77809D04769 )
+	rom ( name "Yoshi's Cookie (USA) (Beta).sfc" size 524288 crc FBDFCDAB md5 D87B90A210252BA42992E9509337E639 sha1 094AF3A0739521EC524AEA713080B77809D04769 )
 )
 game (
 	name "Yoshi's Safari (Europe)"
@@ -21021,8 +21105,12 @@ game (
 	rom ( name "Zan III Spirits (Japan).sfc" size 1572864 crc 9826771B md5 DDABD14B3344A9DE45CC57ACD343BFCE sha1 28997EF8DD8640ED33E0676E363C6FCA96D37548 )
 )
 game (
-	name "Zelda II - The Adventure of Link (World) (NES Conversion) (REV-G)"
-	rom ( name "Zelda II - The Adventure of Link (World) (NES Conversion) (REV-G) (Aftermarket) (Unl).sfc" size 4194304 crc E7339DA0 md5 C611796C835FD1C4AC56632B7BE832E0 sha1 EACD7287F1C0C51D8AC8B423A3FE8BD4FB72317D )
+	name "Zelda II - The Adventure of Link (World) (REV-G) (NES Conversion)"
+	rom ( name "Zelda II - The Adventure of Link (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc E7339DA0 md5 C611796C835FD1C4AC56632B7BE832E0 sha1 EACD7287F1C0C51D8AC8B423A3FE8BD4FB72317D )
+)
+game (
+	name "Zelda II - The Adventure of Link (World) (REV-H) (NES Conversion)"
+	rom ( name "Zelda II - The Adventure of Link (World) (REV-H) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 1357D141 md5 5090BBA6065A550607591C6E6FF9F01C sha1 C16B5D5E3051A2C02D0B492FE4D427D2E4C44B12 )
 )
 game (
 	name "Zelda no Densetsu - Kamigami no Triforce (Japan)"

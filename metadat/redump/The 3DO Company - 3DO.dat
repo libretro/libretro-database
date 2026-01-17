@@ -1,7 +1,7 @@
 clrmamepro (
 	name "The 3DO Company - 3DO"
 	description "The 3DO Company - 3DO"
-	version "2025.11.10"
+	version "2026.01.17"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -99,6 +99,12 @@ game (
 	rom ( name "Alone in the Dark (USA).bin" size 422184000 crc 2C03E3AF md5 192DE93FF970CC04CAA49D4A723A390F sha1 D643C74677B283EC01431C6457D21F888747C77B )
 )
 game (
+	name "Alone in the Dark 2 (Europe)"
+	region "Europe"
+	serial "ALON2UG7011"
+	rom ( name "Alone in the Dark 2 (Europe).bin" size 674722944 crc C617B677 md5 4C283D8C2F1EB48326799114ADDF9563 sha1 11C95B613BCFE3A0C700182199A58DFC1F273477 serial "ALON2UG7011" )
+)
+game (
 	name "Alone in the Dark 2 (France)"
 	region "France"
 	serial "ALON2FR7011"
@@ -120,6 +126,11 @@ game (
 	region "Japan"
 	serial "FZ-SJ6351"
 	rom ( name "Anno Mitsumasa Pepperon-mura no Shiki (Japan).bin" size 422184000 crc 445E80F9 md5 9D2295D20446C75C4278CF8FECAD3FCB sha1 4C5306566ECA1800E3F80AC36EF429DE6711CF8C serial "FZ-SJ6351" )
+)
+game (
+	name "Another World (Europe)"
+	region "Europe"
+	rom ( name "Another World (Europe).bin" size 302114400 crc 723B4D3E md5 BC9DD627428B9B3F607CD75FA3FD1D82 sha1 62AA07D39E9CA55B58FE19F9CDC6815065B7EE1B )
 )
 game (
 	name "Aqua World - Umi Monogatari (Japan)"
@@ -145,7 +156,7 @@ game (
 	releasemonth "09"
 	releaseday "29"
 	region "USA"
-	rom ( name "BC Racers (USA) (Beta) (1995-09-29).bin" size 470004864 crc 4B46D136 md5 6FD5FF7FF4E14F88AB283212D252ADB0 sha1 3BACBA80A256A061B5D0B4A61F1EF481FAE71B91 )
+	rom ( name "BC Racers (USA) (Beta) (1995-09-29).bin" size 470004864 crc CC0C9320 md5 CD5B1764DE6822DF58B78B3860F8EA98 sha1 4C13AFC3405D5F0B9E0999E6DED63897F305FECC )
 )
 game (
 	name "BC Racers (USA, Europe)"
@@ -271,7 +282,7 @@ game (
 	releasemonth "09"
 	releaseday "06"
 	region "USA"
-	rom ( name "Blade Force (USA) (Beta) (1995-09-06).bin" size 361624704 crc F2A833E6 md5 546F175308C9A33CB978DD8025125602 sha1 DC8C836E3BD69490CD6D2C5DC861154AF52E7698 )
+	rom ( name "Blade Force (USA) (Beta) (1995-09-06).bin" size 361624704 crc 8BBD0E04 md5 A6482C88EEE1429B0B71083BF5369C02 sha1 8B173102AE9467EF0EF6B6585ED9A16E43D0C6B8 )
 )
 game (
 	name "Blonde Justice (USA)"
@@ -366,7 +377,7 @@ game (
 game (
 	name "Cannon Fodder (USA) (Beta)"
 	region "USA"
-	rom ( name "Cannon Fodder (USA) (Beta).bin" size 337540224 crc 66C68326 md5 EBC47D97839FBA171C7BB76D293FF0E8 sha1 B4CFDFF95C848397684A2C54CEE63DAD0344E3C5 )
+	rom ( name "Cannon Fodder (USA) (Beta).bin" size 337540224 crc 0B4DCC40 md5 BBD44B2B8E5BCADA07FDCCA0747AD990 sha1 9B0235EF8363B6EEEA905C3030ED4F7B2ED3B4D7 )
 )
 game (
 	name "Captain Quazar (Europe)"
@@ -701,52 +712,52 @@ game (
 	rom ( name "Daedalus Encounter, The (Korea) (Disc 4).bin" size 771060864 crc C2FC3C6D md5 29776ED2E22F227D60275E9174DA3C01 sha1 4DB5D3362847871D1999214D9937D660D2524D85 serial "GDT-GA261-3" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 1)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 1)"
 	region "USA"
 	serial "FZ-SM3751"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 1)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 1)"
 	region "USA"
 	serial "FZ-SM3751-0"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751-0" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 1).bin" size 771060864 crc 9474F05C md5 374EAFBD0524DABAA3A326180260F57F sha1 A332D9236498C225BF42704343FD31D50F66B9E4 serial "FZ-SM3751-0" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 2)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 2)"
 	region "USA"
 	serial "FZ-SM3751"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 2).bin" size 771060864 crc 1DCBC404 md5 ADBDAA8483ECA2AF76288C0EA1973E21 sha1 B8BA5719E09ED98A893BB9AB6B31B535CE30C012 serial "FZ-SM3751" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 2).bin" size 771060864 crc 1DCBC404 md5 ADBDAA8483ECA2AF76288C0EA1973E21 sha1 B8BA5719E09ED98A893BB9AB6B31B535CE30C012 serial "FZ-SM3751" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 2)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 2)"
 	region "USA"
 	serial "FZ-SM3751-1"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 2).bin" size 771060864 crc 1DCBC404 md5 ADBDAA8483ECA2AF76288C0EA1973E21 sha1 B8BA5719E09ED98A893BB9AB6B31B535CE30C012 serial "FZ-SM3751-1" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 2).bin" size 771060864 crc 1DCBC404 md5 ADBDAA8483ECA2AF76288C0EA1973E21 sha1 B8BA5719E09ED98A893BB9AB6B31B535CE30C012 serial "FZ-SM3751-1" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 3)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 3)"
 	region "USA"
 	serial "FZ-SM3751"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 3).bin" size 771060864 crc FDC4AA42 md5 CB55D8980412484E83FE50D0E6BE877B sha1 57D018CB88A4182720DE85A2EE1FA0B7B00F76CA serial "FZ-SM3751" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 3).bin" size 771060864 crc FDC4AA42 md5 CB55D8980412484E83FE50D0E6BE877B sha1 57D018CB88A4182720DE85A2EE1FA0B7B00F76CA serial "FZ-SM3751" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 3)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 3)"
 	region "USA"
 	serial "FZ-SM3751-2"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 3).bin" size 771060864 crc FDC4AA42 md5 CB55D8980412484E83FE50D0E6BE877B sha1 57D018CB88A4182720DE85A2EE1FA0B7B00F76CA serial "FZ-SM3751-2" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 3).bin" size 771060864 crc FDC4AA42 md5 CB55D8980412484E83FE50D0E6BE877B sha1 57D018CB88A4182720DE85A2EE1FA0B7B00F76CA serial "FZ-SM3751-2" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 4)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 4)"
 	region "USA"
 	serial "FZ-SM3751"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 4).bin" size 771060864 crc C43F91D2 md5 0C5BF88B3532E9446138D8F7836A6F5B sha1 D9F6076FD37E8AA508E62A1B41DC8F207B940A30 serial "FZ-SM3751" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 4).bin" size 771060864 crc C43F91D2 md5 0C5BF88B3532E9446138D8F7836A6F5B sha1 D9F6076FD37E8AA508E62A1B41DC8F207B940A30 serial "FZ-SM3751" )
 )
 game (
-	name "Daedalus Encounter, The (USA) (Disc 4)"
+	name "Daedalus Encounter, The (USA, Europe) (Disc 4)"
 	region "USA"
 	serial "FZ-SM3751-3"
-	rom ( name "Daedalus Encounter, The (USA) (Disc 4).bin" size 771060864 crc C43F91D2 md5 0C5BF88B3532E9446138D8F7836A6F5B sha1 D9F6076FD37E8AA508E62A1B41DC8F207B940A30 serial "FZ-SM3751-3" )
+	rom ( name "Daedalus Encounter, The (USA, Europe) (Disc 4).bin" size 771060864 crc C43F91D2 md5 0C5BF88B3532E9446138D8F7836A6F5B sha1 D9F6076FD37E8AA508E62A1B41DC8F207B940A30 serial "FZ-SM3751-3" )
 )
 game (
 	name "Daedalus Encounter, The - Episode 1 - Nanpasen no Alien (Japan) (Disc 1)"
@@ -878,19 +889,19 @@ game (
 	rom ( name "Doom (USA, Japan).bin" size 241903200 crc C238CD13 md5 58BD8257D9C1A759923195439245E01E sha1 E46733BB1401671ED76CA64894CD55B2098A57FA )
 )
 game (
-	name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 1)"
+	name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 1)"
 	region "USA"
-	rom ( name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 1).bin" size 776870304 crc FC158B2D md5 659D7D63DF13EFBAC2DE1A25B477BD4B sha1 45838BA41EE784F9E6B6869E831F046D5F6E01F3 )
+	rom ( name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 1).bin" size 776870304 crc FC158B2D md5 659D7D63DF13EFBAC2DE1A25B477BD4B sha1 45838BA41EE784F9E6B6869E831F046D5F6E01F3 )
 )
 game (
-	name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 2)"
+	name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 2)"
 	region "USA"
-	rom ( name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 2).bin" size 776870304 crc B7940CFD md5 26593B2BA42A82AAD9A9DD3151637BD2 sha1 B772C73DFB6B6B942F6B8A324512374ABE2B3B76 )
+	rom ( name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 2).bin" size 776870304 crc B7940CFD md5 26593B2BA42A82AAD9A9DD3151637BD2 sha1 B772C73DFB6B6B942F6B8A324512374ABE2B3B76 )
 )
 game (
-	name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 3)"
+	name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 3)"
 	region "USA"
-	rom ( name "Dragon Lore - The Legend Begins (USA, Europe) (Disc 3).bin" size 776870304 crc 8E7A534C md5 BB6CAAB9676389CD6B17375403C854CC sha1 C309EC7D0D54C54537F47C6E4BD50F0FC51E25F0 )
+	rom ( name "Dragon Lore - The Legend Begins (USA, Germany) (Disc 3).bin" size 776870304 crc 8E7A534C md5 BB6CAAB9676389CD6B17375403C854CC sha1 C309EC7D0D54C54537F47C6E4BD50F0FC51E25F0 )
 )
 game (
 	name "Dragon Tycoon Edge (Japan)"
@@ -1690,7 +1701,7 @@ game (
 	releasemonth "10"
 	releaseday "05"
 	region "USA"
-	rom ( name "Killing Time (USA) (Beta) (1995-10-05).bin" size 775877760 crc 07EC11C4 md5 DE1055956B6C395F55C2285AD2452801 sha1 F03C68DD34BA127F9B5EFDFAC16513B503E09E50 )
+	rom ( name "Killing Time (USA) (Beta) (1995-10-05).bin" size 775877760 crc 49A06F77 md5 1A1BFE47615D71251046D0389774F066 sha1 060FB9B5FA0CAC6230509188143C308725688230 )
 )
 game (
 	name "Killing Time (USA) (Rev 1)"
@@ -1860,7 +1871,7 @@ game (
 	releasemonth "02"
 	releaseday "02"
 	region "USA"
-	rom ( name "Lost Eden (USA, Europe) (Beta) (1996-02-02).bin" size 774165504 crc C26B8777 md5 0E6BAF5FF6B00A01692A9151FE990ACE sha1 4475C592C0E5504D4AD0A9BDB41AE85C27574BD3 )
+	rom ( name "Lost Eden (USA, Europe) (Beta) (1996-02-02).bin" size 774165504 crc 9C95B68B md5 DBAFCBA6E945F855718E625410984E7E sha1 7F996305F24C5C2B5CE06840E806663E25EE1CC5 )
 )
 game (
 	name "Lost Eden (USA, Korea)"
@@ -2332,7 +2343,7 @@ game (
 	releasemonth "02"
 	releaseday "14"
 	region "USA"
-	rom ( name "PO'ed (USA) (Beta) (1995-02-14).bin" size 24441984 crc 4F0E9D80 md5 AD875D6A08CDF2BA2F808FE5A9B77D8F sha1 B0B28C1A0151B43655C498F50D51BC7948284EEA )
+	rom ( name "PO'ed (USA) (Beta) (1995-02-14).bin" size 24441984 crc F3819FD8 md5 BEDBE335C7DA7C89070695F4BD5A98DC sha1 42FBAD2AB5510F249E8D41435207C68260E8D52A )
 )
 game (
 	name "PO'ed (USA, Europe)"
@@ -2864,7 +2875,7 @@ game (
 	releasemonth "09"
 	releaseday "02"
 	region "USA"
-	rom ( name "Scramble Cobra (USA) (Beta) (1995-09-02).bin" size 765742992 crc 5A8EB819 md5 0A6D1C46EBC63610F9B812D7EF93550C sha1 767C11D0DE81EB16F49FF523E4D42C91C43B3E42 )
+	rom ( name "Scramble Cobra (USA) (Beta) (1995-09-02).bin" size 765742992 crc E02E6244 md5 96E295E63B0789751694456BCF5F897C sha1 3BE7550BD0C90D94CF2CDD6B4AAB5C5CF18AEDE2 )
 )
 game (
 	name "Scramble Cobra - Premium Version (Japan)"
@@ -3486,7 +3497,7 @@ game (
 	releasemonth "01"
 	releaseday "30"
 	region "USA"
-	rom ( name "Theo the Dinosaur (USA) (Proto) (1996-01-30).bin" size 421835904 crc 8AA458F1 md5 07543C9E933AAD6AC0D13486F8BEC461 sha1 78163CB6DE33A395C21510A71076943CB3929D5C )
+	rom ( name "Theo the Dinosaur (USA) (Proto) (1996-01-30).bin" size 421835904 crc A007D78D md5 CE9FA69F18950AA59BF15D827D4D3DFB sha1 1D3C030D30332BA7B2C9E7C8496CE066B51463D6 )
 )
 game (
 	name "Toki o Koeta Tegami (Japan)"
@@ -3969,7 +3980,7 @@ game (
 	releasemonth "06"
 	releaseday "08"
 	region "USA"
-	rom ( name "World Cup Golf - Hyatt Dorado Beach (USA) (Beta) (1995-06-08).bin" size 771060864 crc 0D28EEFB md5 0FBF8E257005D751A6FBD81A098F3C57 sha1 7BE2F770F84C4B9094453223D1E8AE2B1890DC42 )
+	rom ( name "World Cup Golf - Hyatt Dorado Beach (USA) (Beta) (1995-06-08).bin" size 771060864 crc 8228B4EB md5 A759CC3F55B95835ABD0044B1D6BEDC8 sha1 7A0CFBCD2D0A6661E57B0C0974834478A4CF1096 )
 )
 game (
 	name "World Cup Golf - Hyatt Dorado Beach (USA, Europe)"
@@ -4042,7 +4053,7 @@ game (
 	releasemonth "06"
 	releaseday "11"
 	region "USA"
-	rom ( name "Zhadnost - The People's Party (USA) (Beta) (1995-06-11).bin" size 746976384 crc D25804AE md5 CE5CCD21CC7BC014D134FE16E1EB0F7A sha1 474B7470FAAE274018E213D8AE91276E29D20595 )
+	rom ( name "Zhadnost - The People's Party (USA) (Beta) (1995-06-11).bin" size 746976384 crc 8D365831 md5 F873BC25759BF07B451FCCBAF2D8DEB0 sha1 1056A6CC8F58C51DF99AA8F0BA865D32739B2F7C )
 )
 game (
 	name "Zhadnost - The People's Party (USA, Europe)"
