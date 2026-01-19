@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - 32X"
 	description "Sega - 32X"
-	version "2025.11.10"
+	version "2026.01.17"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -22,7 +22,14 @@ game (
 game (
 	name "Amazing Spider-Man, The - Web of Fire (USA)"
 	region "USA"
-	rom ( name "Amazing Spider-Man, The - Web of Fire (USA).32x" size 3145728 crc 29DCE257 md5 A60B0838A776966E17A8F10B94BADDEF sha1 7CC2EA1E10F110338AD880BD3E7FF3BCE72E7E9E )
+	serial "MK-84517-00"
+	rom ( name "Amazing Spider-Man, The - Web of Fire (USA).32x" size 3145728 crc 29DCE257 md5 A60B0838A776966E17A8F10B94BADDEF sha1 7CC2EA1E10F110338AD880BD3E7FF3BCE72E7E9E serial "MK-84517-00" )
+)
+game (
+	name "Amazing Spider-Man, The - Web of Fire (USA) (Beta)"
+	region "USA"
+	serial "MK-84517-00"
+	rom ( name "Amazing Spider-Man, The - Web of Fire (USA) (Beta).32x" size 3145728 crc 38A1863F md5 BF511DA11BB516479B9696B06241D899 sha1 C0B7064166D9DEF225D6720192AC5112C42FCD32 serial "MK-84517-00" )
 )
 game (
 	name "BC Racers (USA)"
