@@ -118,6 +118,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 |Commodore - VIC-20|[No-Intro](http://datomatic.no-intro.org) (Note: cartridges only)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Dinothawr| |
 |DOS|[Total DOS Collection](http://www.totaldoscollection.org/)|[libretro-database-dos](https://github.com/robloach/libretro-database-dos)|
+|Elektor - TV Games Computer|[Lost Level Archive](https://github.com/televandalist/lost-level-archive)|
 |Emerson - Arcadia 2001|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Entex - Adventure Vision|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Epoch - Cassette Vision|[TOSEC](https://www.tosecdev.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
@@ -131,6 +132,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 |Handheld Electronic Game| |
 |Hartung - Game Master|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Infocom - Z-Machine|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Interton - VC 4000|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Jump 'n Bump| |
 |LeapFrog - Leapster Learning Game System|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |LowRes NX| |
