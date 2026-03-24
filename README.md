@@ -180,7 +180,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 |RCA - Studio II|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Rick Dangerous| |
 |RPG Maker| |
-|ScummVM|[ScummVM Compatibility List](https://www.scummvm.org/compatibility/)|[libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm)|
+|ScummVM|[ScummVM](https://www.scummvm.org/compatibility/)|[libretro-database-scummvm](https://github.com/RobLoach/libretro-database-scummvm)|
 |Sega - 32X|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Sega - Dreamcast|[Redump](http://redump.org) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)|
 |Sega - Game Gear|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)|
