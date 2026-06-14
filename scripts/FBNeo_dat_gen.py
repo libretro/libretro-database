@@ -55,12 +55,14 @@ import zlib
 def main():
     parser = setup_argparse()
     args = parser.parse_args()
+    if parser == None:
+        print("parser is none")
     dat_root = get_datroot(args.dat, parser)
     header_name = get_header_name(args)
     header_version = get_header_version(args, dat_root, parser)
     header_description = get_header_description(args, header_version)
     header = generate_dat_header(header_name, header_description, header_version)
-    game_list = generate_game_list(dat_root, args.path)
+    game_list = generate_game_list(dat_root, args.path, parser)
     output(args, header, game_list)
 
 def setup_argparse():
@@ -74,7 +76,7 @@ def setup_argparse():
     parser.add_argument('-header_description', help='Override the clrmamepro(description) in the output .dat')
     parser.add_argument('-header_version', help='Override the clrmamepro(version) in the output .dat')
 
-    if len(sys.argv[1:])==0:
+    if len(sys.argv) == 1:
         parser.print_help()
         print('\n'.join(['',
                          'example usage: python3 FBA_dat_gen.py -dat "FBNeo v0.2.97.42 (ClrMame Pro ', 
@@ -134,13 +136,12 @@ def generate_dat_header(name, description, version):
               ')']
     return '\n'.join(header)
 
-def generate_game_list(dat_root, path):
+def generate_game_list(dat_root, path, parser):
     """Generate the sorted list of games with all metadata and return a textual dat list"""
     game_list = []
     
     if not os.path.isdir(path):
-        print('Path not found: ' + path)
-        print('')
+        print('Path is not dir or not found: ' + path + '\n')
         parser.print_help()
         parser.exit()
     else:
@@ -162,6 +163,9 @@ def generate_game_list(dat_root, path):
                         # set zip filename
                         entry.zip = game.get('name') + '.zip'
                         zip_path = os.path.join(path, entry.zip)
+                        if not os.path.exists(zip_path):
+                            print(f'Did not find "{zip_path}", skipping.')
+                            continue
                         # set zip size
                         entry.size = os.path.getsize(zip_path)
                         # set zip crc
@@ -180,7 +184,7 @@ def generate_game_list(dat_root, path):
         for entry in game_entries:
             text_entry = ['game (',
                           '\t' + 'name "%s"' % entry.name,
-                          '\t' + 'year "%s"' % entry.year,
+                          '\t' + 'releaseyear "%s"' % entry.year,
                           '\t' + 'publisher "%s"' % entry.publisher,
                           '\t' + 'rom ( name %s size %s crc %s md5 %s sha1 %s )' % (entry.zip, entry.size, entry.crc, entry.md5, entry.sha1),
                           ')',
