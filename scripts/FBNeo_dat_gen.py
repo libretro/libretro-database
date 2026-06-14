@@ -3,36 +3,36 @@
 # FBNeo_dat_gen.py
 # Written in 2017 by SpiralBrad <SpiralBrad@spiralgoat.com>
 
-## usage: FBNeo_dat_gen.py [-h] -dat DAT -path PATH [-output_file OUTPUT_FILE]
-##                       [-header_name HEADER_NAME]
-##                       [-header_description HEADER_DESCRIPTION]
-##                       [-header_version HEADER_VERSION]
+## usage: FBNeo_dat_gen.py [-h] --dat DAT --path PATH [--output-file OUTPUT_FILE]
+##                       [--header-name HEADER_NAME]
+##                       [--header-description HEADER_DESCRIPTION]
+##                       [--header-version HEADER_VERSION]
 ## 
 ## Generates Final Burn Neo .dat file needed for RetroArch/libretro-
 ## db/c_converter
 ## 
 ## optional arguments:
 ##   -h, --help            show this help message and exit
-##   -output_file OUTPUT_FILE
+##   -o, --output_file OUTPUT_FILE
 ##                         Path to the target output file; example: FBNeo - 
 ##                         Arcade games.dat
-##   -header_name HEADER_NAME
+##   --header-name HEADER_NAME
 ##                         Override the clrmamepro(name) in the output .dat
-##   -header_description HEADER_DESCRIPTION
+##   --header-description HEADER_DESCRIPTION
 ##                         Override the clrmamepro(description) in the output 
 ##                         .dat
-##   -header_version HEADER_VERSION
+##   --header-version HEADER_VERSION
 ##                         Override the clrmamepro(version) in the output .dat
 ## 
 ## required arguments:
-##   -dat DAT              Misc -> Generate dat file -> Generate dat (Arcade 
+##   -d, --dat DAT              Misc -> Generate dat file -> Generate dat (Arcade 
 ##                         only)
-##   -path PATH            Path to a split, ClrMamePro verified and TorrentZipped 
+##   -p, --path PATH            Path to a split, ClrMamePro verified and TorrentZipped 
 ##                         ROM set matching the Arcade only dat
 ## 
-## example usage: python3 FBA_dat_gen.py -dat "FBNeo v0.2.97.42 (ClrMame Pro 
-##                  XML).dat" -path  "/path/to/split/verified/torrentzipped/roms/" 
-##                  -output_file "FBNeo - Arcade Games.dat"
+## example usage: python3 FBA_dat_gen.py --dat "FBNeo v0.2.97.42 (ClrMame Pro 
+##                  XML).dat" --path  "/path/to/split/verified/torrentzipped/roms/" 
+##                  --output-file "FBNeo - Arcade Games.dat"
 
 #-   To the extent possible under law, the author(s) have dedicated all 
 #-   copyright and related and neighboring rights to this software to the 
@@ -69,19 +69,19 @@ def setup_argparse():
     """Set up the argparse arguments and return the argparse instance"""
     parser = argparse.ArgumentParser(prog='FBgen.py', description='Generates Final Burn Neo .dat file needed for RetroArch/libretro-db/c_converter')
     required_arguments = parser.add_argument_group('required arguments')
-    required_arguments.add_argument('-dat', help='Misc -> Generate dat file -> Generate dat (Arcade only)', required=True)
-    required_arguments.add_argument('-path', help='Path to a split, ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat', required=True)
-    parser.add_argument('-output_file', help='Path to the target output file; example: FBNeo - Arcade games.dat')
-    parser.add_argument('-header_name', help='Override the clrmamepro(name) in the output .dat')
-    parser.add_argument('-header_description', help='Override the clrmamepro(description) in the output .dat')
-    parser.add_argument('-header_version', help='Override the clrmamepro(version) in the output .dat')
+    required_arguments.add_argument('-d', '--dat', help='Misc -> Generate dat file -> Generate dat (Arcade only)', required=True)
+    required_arguments.add_argument('-p', '--path', help='Path to a split, ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat', required=True)
+    parser.add_argument('-o', '--output-file', help='Path to the target output file; example: FBNeo - Arcade games.dat')
+    parser.add_argument('--header-name', help='Override the clrmamepro(name) in the output .dat')
+    parser.add_argument('--header-description', help='Override the clrmamepro(description) in the output .dat')
+    parser.add_argument('--header-version', help='Override the clrmamepro(version) in the output .dat')
 
     if len(sys.argv) == 1:
         parser.print_help()
         print('\n'.join(['',
-                         'example usage: python3 FBA_dat_gen.py -dat "FBNeo v0.2.97.42 (ClrMame Pro ', 
+                         'example usage: python3 FBA_dat_gen.py --dat "FBNeo v0.2.97.42 (ClrMame Pro ', 
                          '                 XML).dat" -path  "/path/to/split/verified/torrentzipped/roms/" ',
-                         '                 -output_file "FBNeo - Arcade Games.dat"']))
+                         '                 --output-file "FBNeo - Arcade Games.dat"']))
         parser.exit()
     return parser
 
@@ -141,7 +141,7 @@ def generate_game_list(dat_root, path, parser):
     game_list = []
     
     if not os.path.isdir(path):
-        print('Path is not dir or not found: ' + path + '\n')
+        print(f'Path is not dir or not found: {path}\n')
         parser.print_help()
         parser.exit()
     else:
@@ -193,7 +193,7 @@ def generate_game_list(dat_root, path, parser):
     return '\n'.join(game_list)
 
 def output(args, header, game_list):
-    """Combine <header> and <game_list> and print to stdout, or write to specified -output_file"""
+    """Combine <header> and <game_list> and print to stdout, or write to specified --output-file"""
     if not args.output_file:
         # print to stdout
         print('\n'.join([header, '', game_list]).rstrip())
