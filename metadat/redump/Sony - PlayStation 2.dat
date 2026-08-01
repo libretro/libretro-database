@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sony - PlayStation 2"
 	description "Sony - PlayStation 2"
-	version "2026.05.02"
+	version "2026.08.01"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -9536,6 +9536,12 @@ game (
 	rom ( name "Choro Q HG (Japan).iso" size 1049231360 crc 156A83B4 md5 AA28F48E9FD5DD921CAE2610041ADCD7 sha1 9335A5689D6B2AD19186169CC83916E48E3AF22E serial "SLPM-65149" )
 )
 game (
+	name "Choro Q HG (Japan)"
+	region "Japan"
+	serial "SLPS-25015"
+	rom ( name "Choro Q HG (Japan).iso" size 1049231360 crc 156A83B4 md5 AA28F48E9FD5DD921CAE2610041ADCD7 sha1 9335A5689D6B2AD19186169CC83916E48E3AF22E serial "SLPS-25015" )
+)
+game (
 	name "Choro Q HG (Japan) (Jenny Hi-Grade Box)"
 	region "Japan"
 	serial "SLPS-25014"
@@ -11182,6 +11188,12 @@ game (
 	region "Europe"
 	serial "SLES-54468"
 	rom ( name "Crazy Chicken X (Europe) (En,Fr,De,Es,It).bin" size 100580928 crc 094C1567 md5 589CA1CC87602F934F332B7E66BD9AA4 sha1 FCBC40E6F70652CB861DCBE448ABFA725CE042A7 serial "SLES-54468" )
+)
+game (
+	name "Crazy Chicken X (Europe) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "SLES-54468/Euro"
+	rom ( name "Crazy Chicken X (Europe) (En,Fr,De,Es,It).bin" size 100580928 crc 094C1567 md5 589CA1CC87602F934F332B7E66BD9AA4 sha1 FCBC40E6F70652CB861DCBE448ABFA725CE042A7 serial "SLES-54468/Euro" )
 )
 game (
 	name "Crazy Frog Arcade Racer (USA) (En,Fr,Es)"
@@ -12946,6 +12958,12 @@ game (
 	region "Europe"
 	serial "SLES-51479"
 	rom ( name "Def Jam - Vendetta (Europe).iso" size 2059960320 crc 1CEF9993 md5 9380666119CE41882C7C26AF09E96C49 sha1 DB1D16ED8E274BC74FC40D16D082FBD773423A1A serial "SLES-51479" )
+)
+game (
+	name "Def Jam - Vendetta (Europe)"
+	region "Europe"
+	serial "SLES-51479/GER"
+	rom ( name "Def Jam - Vendetta (Europe).iso" size 2059960320 crc 1CEF9993 md5 9380666119CE41882C7C26AF09E96C49 sha1 DB1D16ED8E274BC74FC40D16D082FBD773423A1A serial "SLES-51479/GER" )
 )
 game (
 	name "Def Jam - Vendetta (Japan)"
@@ -18514,10 +18532,9 @@ game (
 	rom ( name "Energy Thieves, The (Europe).iso" size 1229815808 crc 3B4CDCC3 md5 2BBA096EBFC14BDE2ABB205BF176347C sha1 1E248FC1B1FBC96F27143FEB380C3C5BD434FA0B serial "SLES-52716" )
 )
 game (
-	name "England International Football - 2004 Edition (Europe)"
-	region "Europe"
+	name "England International Football - 2004 Edition (UK)"
 	serial "SLES-52385"
-	rom ( name "England International Football - 2004 Edition (Europe).iso" size 1245544448 crc 25EDAB7B md5 E01C95E60D712F0D40145C7FEAF6988B sha1 EBC33C8C97367A03CD07D718D427F013C6AF7416 serial "SLES-52385" )
+	rom ( name "England International Football - 2004 Edition (UK).iso" size 1245544448 crc 25EDAB7B md5 E01C95E60D712F0D40145C7FEAF6988B sha1 EBC33C8C97367A03CD07D718D427F013C6AF7416 serial "SLES-52385" )
 )
 game (
 	name "Enjoy Golf! (Japan)"
@@ -21980,28 +21997,34 @@ game (
 	rom ( name "Final Fantasy XII (USA).iso" size 4066508800 crc BEA84100 md5 94DE2953397236DAE94AC9A0DD80B6C6 sha1 68D76E464E95625CC701CA88A251B34D04931CDF serial "SLUS-21475" )
 )
 game (
-	name "Final Fantasy XII International - Zodiac Job System (Japan, Korea)"
+	name "Final Fantasy XII International - Zodiac Job System (Japan, Asia)"
+	region "Japan"
+	serial "SCAJ-20188"
+	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Asia).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SCAJ-20188" )
+)
+game (
+	name "Final Fantasy XII International - Zodiac Job System (Japan, Asia)"
 	region "Japan"
 	serial "SCKA-20110"
-	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Korea).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SCKA-20110" )
+	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Asia).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SCKA-20110" )
 )
 game (
-	name "Final Fantasy XII International - Zodiac Job System (Japan, Korea)"
+	name "Final Fantasy XII International - Zodiac Job System (Japan, Asia)"
 	region "Japan"
 	serial "SCKA-20138"
-	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Korea).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SCKA-20138" )
+	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Asia).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SCKA-20138" )
 )
 game (
-	name "Final Fantasy XII International - Zodiac Job System (Japan, Korea)"
+	name "Final Fantasy XII International - Zodiac Job System (Japan, Asia)"
 	region "Japan"
 	serial "SLPM-55210"
-	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Korea).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SLPM-55210" )
+	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Asia).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SLPM-55210" )
 )
 game (
-	name "Final Fantasy XII International - Zodiac Job System (Japan, Korea)"
+	name "Final Fantasy XII International - Zodiac Job System (Japan, Asia)"
 	region "Japan"
 	serial "SLPM-66750"
-	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Korea).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SLPM-66750" )
+	rom ( name "Final Fantasy XII International - Zodiac Job System (Japan, Asia).iso" size 4204003328 crc 46B57743 md5 59A8D0CE669D1AFE25D512E7ED706043 sha1 E379319E6638AFBEF9EC156E669E4F9BACBE6587 serial "SLPM-66750" )
 )
 game (
 	name "Final Fight - Streetwise (Europe) (En,Fr,De,Es,It)"
@@ -23658,6 +23681,12 @@ game (
 	rom ( name "GI Jockey 3 - 2005-nendoban (Japan).bin" size 728252112 crc FFC215FE md5 51E72B6442995BE00FE28C450451A7D8 sha1 FEC50CB1FFF0A07B64B9A2F6890DDD0B751F117D serial "SLPM-62591" )
 )
 game (
+	name "GI Jockey 3 - 2005-nendoban (Japan) (Premium Pack)"
+	region "Japan"
+	serial "SLPM-62590"
+	rom ( name "GI Jockey 3 - 2005-nendoban (Japan) (Premium Pack).bin" size 728252112 crc F4EAD5E3 md5 5519CD0B0106209D5FEFE95AD3CD3A4B sha1 BC7D79E71CAE1E76E6CE1E94020A508FAB32E969 serial "SLPM-62590" )
+)
+game (
 	name "GI Jockey 3 2003 (Japan)"
 	region "Japan"
 	serial "SLPM-62392"
@@ -24932,6 +24961,15 @@ game (
 	region "Australia"
 	serial "SCES-51426/P"
 	rom ( name "Getaway, The (Australia) (En,Fr,De,Es,It) (v3.00).iso" size 4487905280 crc 693C57BB md5 EF69E75E20B3A86D3BDEDD03C0170052 sha1 5AE24A9472D1A23D5187954EEACD983CDA216D51 serial "SCES-51426/P" )
+)
+game (
+	name "Getaway, The (Europe) (Beta)"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "18"
+	region "Europe"
+	serial "SCES-51159"
+	rom ( name "Getaway, The (Europe) (Beta) (2002-11-18).iso" size 4450353152 crc 40549AA3 md5 DA001B376A7F25CE084DA1C8FD73CA11 sha1 BF272BD0EAF8562D09583A222662EBCA0BBCD8A8 serial "SCES-51159" )
 )
 game (
 	name "Getaway, The (Europe) (En,Fr,De,Es,It) (v1.03)"
@@ -41219,14 +41257,14 @@ game (
 game (
 	name "Medal of Honor - Vanguard (USA)"
 	region "USA"
-	serial "SLUS-21597GH"
-	rom ( name "Medal of Honor - Vanguard (USA).iso" size 1240137728 crc 54AEAEFB md5 6B57BC6BDE6B74AF3A1376F697F4DEC7 sha1 7E128AB46F740271252303DA41B6A2AAB376944B serial "SLUS-21597GH" )
+	serial "SLUS-21597"
+	rom ( name "Medal of Honor - Vanguard (USA).iso" size 1240137728 crc 54AEAEFB md5 6B57BC6BDE6B74AF3A1376F697F4DEC7 sha1 7E128AB46F740271252303DA41B6A2AAB376944B serial "SLUS-21597" )
 )
 game (
 	name "Medal of Honor - Vanguard (USA)"
 	region "USA"
-	serial "SLUS-21597"
-	rom ( name "Medal of Honor - Vanguard (USA).iso" size 1240137728 crc 54AEAEFB md5 6B57BC6BDE6B74AF3A1376F697F4DEC7 sha1 7E128AB46F740271252303DA41B6A2AAB376944B serial "SLUS-21597" )
+	serial "SLUS-21597GH"
+	rom ( name "Medal of Honor - Vanguard (USA).iso" size 1240137728 crc 54AEAEFB md5 6B57BC6BDE6B74AF3A1376F697F4DEC7 sha1 7E128AB46F740271252303DA41B6A2AAB376944B serial "SLUS-21597GH" )
 )
 game (
 	name "Medical 91 (Japan)"
@@ -44914,6 +44952,12 @@ game (
 	rom ( name "NBA Jam (USA).iso" size 3049717760 crc B418BE7A md5 ACBBB94CF721C433FC748FEC751BC7E2 sha1 CC3F8EBCD47CBE39EFAAA91BC6DABF2C1B10A16C serial "SLUS-20648" )
 )
 game (
+	name "NBA Live 06 (Asia)"
+	region "Asia"
+	serial "SLAJ-25069"
+	rom ( name "NBA Live 06 (Asia).iso" size 2738225152 crc 991FF7C2 md5 D65766331129FC3EDE3D98F53722DC82 sha1 9CF28D92BAAA9F8350FE244DB72F3A6C3AC11ED8 serial "SLAJ-25069" )
+)
+game (
 	name "NBA Live 06 (Europe)"
 	region "Europe"
 	serial "SLES-53546"
@@ -47977,6 +48021,12 @@ game (
 	region "Germany"
 	serial "SLES-52985"
 	rom ( name "Nickelodeon SpongeBob Schwammkopf - Der Film (Germany).iso" size 1249804288 crc C22BABEE md5 B2A8568220925C866AE56A44857F2684 sha1 AC12B002DB6E377BD09D63C1B4B0F3A8E3FF3337 serial "SLES-52985" )
+)
+game (
+	name "Nickelodeon SpongeBob Schwammkopf - Film ab! (Germany)"
+	region "Germany"
+	serial "SLES-53497"
+	rom ( name "Nickelodeon SpongeBob Schwammkopf - Film ab! (Germany).iso" size 1332510720 crc 34D63CB2 md5 21EEEEEE2A7A8FC824B92A8C7FF4B670 sha1 4EF7479B8C6A07069D416ECC23A4F2E637F6E1E9 serial "SLES-53497" )
 )
 game (
 	name "Nickelodeon SpongeBob Schwammkopf - Film ab! (Germany)"
@@ -57374,6 +57424,12 @@ game (
 	region "Korea"
 	serial "SLKA-25034"
 	rom ( name "Real Bass Fishing - Top Angler (Korea).iso" size 1388249088 crc 008FC201 md5 F53B1E45F58C32D0CAF1BF000728DFCE sha1 F2E47A4B14B49625E6410EC0907267F9CBE41D25 serial "SLKA-25034" )
+)
+game (
+	name "Real Bass Fishing - Top Angler (Korea)"
+	region "Korea"
+	serial "SLKA-29013"
+	rom ( name "Real Bass Fishing - Top Angler (Korea).iso" size 1388249088 crc 008FC201 md5 F53B1E45F58C32D0CAF1BF000728DFCE sha1 F2E47A4B14B49625E6410EC0907267F9CBE41D25 serial "SLKA-29013" )
 )
 game (
 	name "Real Madrid - The Game (Europe) (En,Fr,De,Es,It)"
@@ -75644,10 +75700,16 @@ game (
 	rom ( name "Tokimeki Memorial 3 - Yakusoku no Ano Basho de (Japan).iso" size 4683235328 crc 9CF11AC9 md5 ED37CD5EC7898407924BAB5145127299 sha1 875D353A40AE531E94FC60FEC3273089DFD444C9 serial "SLPM-65693" )
 )
 game (
-	name "Tokobot Plus - Mysteries of the Karakuri (Europe) (En,Fr,De,Es,It)"
+	name "Tokobot Plus - Mysteries of the Karakuri (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-54487"
-	rom ( name "Tokobot Plus - Mysteries of the Karakuri (Europe) (En,Fr,De,Es,It).iso" size 3486777344 crc 562C5313 md5 348064A2F4D47AB66B6EC361BE6309F6 sha1 09E4AC5BB3E69F8121E6E76B59FDB50DAB240095 serial "SLES-54487" )
+	rom ( name "Tokobot Plus - Mysteries of the Karakuri (Europe, Australia) (En,Fr,De,Es,It).iso" size 3486777344 crc 562C5313 md5 348064A2F4D47AB66B6EC361BE6309F6 sha1 09E4AC5BB3E69F8121E6E76B59FDB50DAB240095 serial "SLES-54487" )
+)
+game (
+	name "Tokobot Plus - Mysteries of the Karakuri (Europe, Australia) (En,Fr,De,Es,It)"
+	region "Europe"
+	serial "SLES-54487/ANZ"
+	rom ( name "Tokobot Plus - Mysteries of the Karakuri (Europe, Australia) (En,Fr,De,Es,It).iso" size 3486777344 crc 562C5313 md5 348064A2F4D47AB66B6EC361BE6309F6 sha1 09E4AC5BB3E69F8121E6E76B59FDB50DAB240095 serial "SLES-54487/ANZ" )
 )
 game (
 	name "Tokobot Plus - Mysteries of the Karakuri (USA)"
@@ -77628,6 +77690,12 @@ game (
 	rom ( name "UEFA Euro 2004 - Portugal (Europe) (Fr,De).iso" size 1337688064 crc CE43A66F md5 88A3A0D2B32E09723A1492F10C570B9C sha1 D6DE940E0AC0497D4EF93B4A00226D1860FEFD4A serial "SLES-52395" )
 )
 game (
+	name "UEFA Euro 2004 - Portugal (Korea) (En,Es)"
+	region "Korea"
+	serial "SLKA-25169"
+	rom ( name "UEFA Euro 2004 - Portugal (Korea) (En,Es).iso" size 1596653568 crc 535D61FF md5 F2845AD3904744B282D4AD3CF3964171 sha1 A5CC8197166B0486AAC2975E7A23C7E1B154B936 serial "SLKA-25169" )
+)
+game (
 	name "UEFA Euro 2004 - Portugal (USA) (En,Es)"
 	region "USA"
 	serial "SLUS-20936"
@@ -78155,6 +78223,14 @@ game (
 	region "Asia"
 	serial "SCAJ-20152"
 	rom ( name "Urban Reign (Asia).iso" size 4140924928 crc BA5D653B md5 B39FA4C6F058640B8246E7C607A70449 sha1 07686C6D3628C8E9ED1F30CF6BDD58AAA9843DDB serial "SCAJ-20152" )
+)
+game (
+	name "Urban Reign (Europe) (Beta)"
+	releaseyear "2005"
+	releasemonth "10"
+	releaseday "14"
+	region "Europe"
+	rom ( name "Urban Reign (Europe) (Beta) (2005-10-14).iso" size 4140924928 crc 33AB8695 md5 E964F6CF9F77C9CB18E185328A2F9BFA sha1 4BA554BF478DF9F27D7A7C257BBDDAC782910265 )
 )
 game (
 	name "Urban Reign (Europe) (En,Fr,De,Es,It)"
@@ -82030,6 +82106,14 @@ game (
 	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1).iso" size 4682121216 crc D7485A6C md5 8BEC06B6B498E05DC645CEA34E0A2FF0 sha1 F929DE70BE5BA300BA7DBA5E4C45ED9E91EAC784 serial "SLUS-20892-0" )
 )
 game (
+	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1) (Beta)"
+	releaseyear "2004"
+	releasemonth "12"
+	releaseday "10"
+	region "USA"
+	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1) (Beta) (2004-12-10).iso" size 4663181312 crc AC53F346 md5 5FE777A4D45DC638D7C6B62561C61F08 sha1 48CC2C7C581C3A366E30D3A68F95BC28BFB9D426 )
+)
+game (
 	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2)"
 	region "USA"
 	serial "SLUS-21133"
@@ -82040,6 +82124,14 @@ game (
 	region "USA"
 	serial "SLUS-21133-1"
 	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2).iso" size 4693164032 crc 7EA27985 md5 27830A7B49CE75F07AB450AD4922DE8A sha1 46E7BCF7CE8918CE4449CB7541EF4E619FB4A99E serial "SLUS-21133-1" )
+)
+game (
+	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2) (Beta)"
+	releaseyear "2004"
+	releasemonth "12"
+	releaseday "10"
+	region "USA"
+	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2) (Beta) (2004-12-10).iso" size 4674224128 crc D5E271BB md5 65FACA90438D74D4007AB4397A51E6CD sha1 60B9582A3EFE3F95D6398DD974C241B952DB18DB )
 )
 game (
 	name "Xenosaga Episode II - Jenseits von Gut und Bose (Japan) (Disc 1) (Premium Box)"
