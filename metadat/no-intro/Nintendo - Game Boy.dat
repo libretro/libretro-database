@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Game Boy"
 	description "Nintendo - Game Boy"
-	version "2026.05.02"
+	version "2026.08.01"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -97,6 +97,10 @@ game (
 	name "A-mazing Tater (USA)"
 	region "USA"
 	rom ( name "A-mazing Tater (USA).gb" size 65536 crc D229AC62 md5 53B746BFF74C50CD3EBCF41161C66CF3 sha1 1E475CBD5FB7099DF91155A103698E4E66DA7A86 )
+)
+game (
+	name "AJXI - Cosmic Climb (World)"
+	rom ( name "AJXI - Cosmic Climb (World) (Aftermarket) (Unl).gb" size 524288 crc 2DD97A47 md5 D55EB382981999395A60B93865CB52FE sha1 2F5D0AE33D0C0F770B60A8A33CE5B40CCA65D594 )
 )
 game (
 	name "ASM 2016 Christmas Card (World) (Album)"
@@ -493,6 +497,11 @@ game (
 	rom ( name "Asmik-kun World 2 (Japan).gb" size 131072 crc CAAE6B11 md5 24DB7B8D9080B1626DD949331AC40ACA sha1 4C738153A5C9F861117CC23CFEDF2C37672E1097 )
 )
 game (
+	name "Asterix & Obelix (Europe) (En,Es) (SGB Enhanced)"
+	region "Europe"
+	rom ( name "Asterix & Obelix (Europe) (En,Es) (SGB Enhanced).gb" size 262144 crc B1FD41D0 md5 CF5BE6D9C263D02039BFAAE93C1BD32C sha1 B6CD446962357D0F560A5C9FAE4C917E039FBB77 )
+)
+game (
 	name "Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)"
 	region "Europe"
 	rom ( name "Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced).gb" size 262144 crc BFA1D7BE md5 7850D8AA9F97272F359500FB7BE66383 sha1 70472CBE59CFD426B0969150085CC97D31BD6470 )
@@ -501,11 +510,6 @@ game (
 	name "Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)"
 	region "Europe"
 	rom ( name "Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced).gb" size 262144 crc 5143E227 md5 5354465291244E5A035807C2666D185E sha1 EBC68B180680C7037B151B9A1B511B681499BA30 )
-)
-game (
-	name "Asterix & Obelix (Spain) (En,Es) (SGB Enhanced)"
-	region "Spain"
-	rom ( name "Asterix & Obelix (Spain) (En,Es) (SGB Enhanced).gb" size 262144 crc B1FD41D0 md5 CF5BE6D9C263D02039BFAAE93C1BD32C sha1 B6CD446962357D0F560A5C9FAE4C917E039FBB77 )
 )
 game (
 	name "Asterix (Europe) (En,Fr,De,Es,It)"
@@ -920,6 +924,10 @@ game (
 game (
 	name "Birdie Bartender (World)"
 	rom ( name "Birdie Bartender (World) (Aftermarket) (Unl).gb" size 262144 crc 0BF2A1C8 md5 66DB9A375EDDBDB8439D8C361B836A45 sha1 AA1325FC7160B84745B076DE9B976A1B368DA50E )
+)
+game (
+	name "Birdie Bartender (World) (v1.2)"
+	rom ( name "Birdie Bartender (World) (v1.2) (Aftermarket) (Unl).gb" size 262144 crc 30ABBE05 md5 D7CD156EF19534EC9353FA016B391395 sha1 893F6D9748D16197EC70B078E924DCBAAED29A5E )
 )
 game (
 	name "Bishoujo Senshi Sailor Moon (Japan)"
@@ -1515,6 +1523,10 @@ game (
 game (
 	name "Cel Story (World)"
 	rom ( name "Cel Story (World) (Aftermarket) (Unl).gb" size 524288 crc 8A456B61 md5 B76DF0942C3F4B3569A736C9C8E44179 sha1 730627B2298806E4F7E02DCEFFAA0F0EDFC316F0 )
+)
+game (
+	name "Celeste (World)"
+	rom ( name "Celeste (World) (Aftermarket) (Unl).gb" size 32768 crc FD1EE763 md5 101169FB78C7EB3211887D40418F85C5 sha1 9FC98A8AA97ABAED21132284E35EEF7FDFA029C3 )
 )
 game (
 	name "Centipede (USA) (Majesco)"
@@ -2879,6 +2891,10 @@ game (
 	rom ( name "Fortified Zone (USA, Europe).gb" size 131072 crc E3B59B7E md5 A981378DA19C08597DB03F3EE02CD6D7 sha1 232D2F57AB4BEF748EB832DFB4085CC3DF1FD532 )
 )
 game (
+	name "Fortified Zone 2 (World)"
+	rom ( name "Fortified Zone 2 (World).gb" size 131072 crc 42C77AF5 md5 A7F74D696520492876DC6A74D8391E99 sha1 575925530D8344EED79760DD7F172B1AD04E06B3 )
+)
+game (
 	name "Four of a Kind - A Short Horror Anthology (World)"
 	rom ( name "Four of a Kind - A Short Horror Anthology (World) (Aftermarket) (Unl).gb" size 1048576 crc 9E3F86EE md5 33D7732DAC3BA0409A3A069471B68C9F sha1 6388378A6B54D2F56E87DCFEAADE7845DF51FFCB )
 )
@@ -3899,10 +3915,6 @@ game (
 	name "In Your Face (USA)"
 	region "USA"
 	rom ( name "In Your Face (USA).gb" size 131072 crc 80AC487E md5 A4FC8158D1F2B6359DDAC6C66D747A95 sha1 0BE0F2A952497B321655DBEE5C89678F40BF0B5A )
-)
-game (
-	name "In the Dark (World)"
-	rom ( name "In the Dark (World) (Aftermarket) (Unl).gb" size 1048576 crc 89AC8948 md5 8DE5E624FE203A7B65C48E5994CC9BF0 sha1 DFED92C906D9FD4E4EE405453EE391E0E9B174BF )
 )
 game (
 	name "Incredible Crash Dummies, The (USA, Europe)"
@@ -7474,14 +7486,56 @@ game (
 	rom ( name "Populous (Europe).gb" size 131072 crc 453057AC md5 AB5FAC354726B7B0710CFDBA22D7142F sha1 4E3976FE32F4DB8F2E56EAE539D7CAE04D1B64CB )
 )
 game (
-	name "Populous (Europe) (Sample)"
+	name "Populous (Europe) (Beta 1)"
 	region "Europe"
-	rom ( name "Populous (Europe) (Sample).gb" size 131072 crc ECF2DD6F md5 25FBB082DC9BB9E86C0ABB03CA5CC168 sha1 76A08B4A0448641A263CE4DC65A2181192A0A621 )
+	rom ( name "Populous (Europe) (Beta 1).gb" size 131072 crc 802C25A9 md5 D954D26C65DB54E1BEAB8A5088C6BD41 sha1 7E9D320A363821F452A9DDF0FD6AA694C55611E7 )
+)
+game (
+	name "Populous (Europe) (Beta 2)"
+	region "Europe"
+	rom ( name "Populous (Europe) (Beta 2).gb" size 131072 crc 17B1601D md5 6845AB21ADFAC40606E7A0B6CDD38874 sha1 CE9990C1444A5777DBA2C1D756E28812BA2E2995 )
+)
+game (
+	name "Populous (Europe) (Beta 3)"
+	releaseyear "1992"
+	releasemonth "11"
+	releaseday "26"
+	region "Europe"
+	rom ( name "Populous (Europe) (Beta 3) (1992-11-26).gb" size 131072 crc A4A9741C md5 99FC0CB1BEFE77BBC6D25F6BE0DBB4F9 sha1 6B1443E633E4ECEA8E14C30C9FE4215F7CA0C1DD )
+)
+game (
+	name "Populous (Europe) (Beta 4)"
+	releaseyear "1992"
+	releasemonth "12"
+	releaseday "10"
+	region "Europe"
+	rom ( name "Populous (Europe) (Beta 4) (1992-12-10).gb" size 131072 crc 1B8BA30C md5 0D10C2CCA969D208336D34E44F02A216 sha1 DD26381735A63F16E34B7E02358CA5FE3ABE61AF )
+)
+game (
+	name "Populous (Europe) (Beta 5)"
+	releaseyear "1993"
+	releasemonth "02"
+	releaseday "17"
+	region "Europe"
+	rom ( name "Populous (Europe) (Beta 5) (1993-02-17).gb" size 131072 crc 3207B26E md5 E9A55C7B3223C85B6589CB1E7F8FCE37 sha1 0DA3C5E67E0AD0B6568DC74C3ACA9A6B28C7533B )
+)
+game (
+	name "Populous (Europe) (Beta 6)"
+	region "Europe"
+	rom ( name "Populous (Europe) (Beta 6).gb" size 131072 crc ECF2DD6F md5 25FBB082DC9BB9E86C0ABB03CA5CC168 sha1 76A08B4A0448641A263CE4DC65A2181192A0A621 )
 )
 game (
 	name "Populous Gaiden (Japan) (En)"
 	region "Japan"
 	rom ( name "Populous Gaiden (Japan) (En).gb" size 131072 crc F327167E md5 A98F3B3B87D4B8AE3672F518295A8FDE sha1 FDE1789EB253309CAE80FAF4FE7241C6F9D72F29 )
+)
+game (
+	name "Populous Gaiden (Japan) (En) (Beta)"
+	releaseyear "1993"
+	releasemonth "02"
+	releaseday "15"
+	region "Japan"
+	rom ( name "Populous Gaiden (Japan) (En) (Beta) (1993-02-15).gb" size 131072 crc E93F4CBD md5 622C7398073C1FDB66B80AEC37D69FDF sha1 7BB17E74E70B0BDCB060AA0F4462C20AB7C6042A )
 )
 game (
 	name "Porklike (World) (v1.0.13)"
@@ -7951,6 +8005,10 @@ game (
 	rom ( name "Rewind Time (World) (Aftermarket) (Unl).gb" size 262144 crc D8AD184A md5 084BD732797939AD697B9A3D51F01BA4 sha1 903EF8074E58A52BC98DCB9E3F2C88B52FC1335B )
 )
 game (
+	name "Rex Run (World)"
+	rom ( name "Rex Run (World) (Aftermarket) (Unl)..gb" size 32768 crc 032F41FE md5 41EAB5D6F3D462B9E6A933A4C47BC61D sha1 ACFF59AE88FBD285623714746DF585ACA735C343 )
+)
+game (
 	name "Rhythm Land (World)"
 	rom ( name "Rhythm Land (World) (Aftermarket) (Unl).gb" size 131072 crc 4312C7FF md5 FAB412C9028DB22F8BCD71B6D7FE1997 sha1 C79F26CE187EDEA18CF92BE8340EC0A0C8BEEC87 )
 )
@@ -8173,6 +8231,10 @@ game (
 	name "Rugrats Movie, The (USA) (SGB Enhanced)"
 	region "USA"
 	rom ( name "Rugrats Movie, The (USA) (SGB Enhanced).gb" size 524288 crc 124A0D06 md5 D29CC1B6FE7709A6D16F00C779499DE2 sha1 70384EB3474637B81BEC3018EBF0C2D6FA1D8A9D )
+)
+game (
+	name "Rugrats Movie, The (World) (Retro Rewind Collection) (SGB Enhanced)"
+	rom ( name "Rugrats Movie, The (World) (Retro Rewind Collection) (SGB Enhanced).gb" size 524288 crc 025F10DF md5 CDB6DA5DFA1072D6B6C001F053943085 sha1 6C470898EB45208128CECB709EDACB6154A008B9 )
 )
 game (
 	name "SD Gundam - SD Sengokuden - Kunitori Monogatari (Japan)"
@@ -8901,9 +8963,49 @@ game (
 	rom ( name "Splitz (Europe).gb" size 65536 crc 112487C9 md5 9ECB13A68C8C58D90DD15157440D5B10 sha1 27A8C04BF7126D2B9F564B5F8F709C08817D9692 )
 )
 game (
-	name "Splitz (Europe) (Beta)"
+	name "Splitz (Europe) (Beta 1)"
+	releaseyear "1992"
+	releasemonth "08"
+	releaseday "11"
 	region "Europe"
-	rom ( name "Splitz (Europe) (Beta).gb" size 131072 crc 5E8F955E md5 6ADD9BF46FD945F6635419AD60988334 sha1 5F36290557F23C48CA7F2F17A1AF9B691EDE5BFF )
+	rom ( name "Splitz (Europe) (Beta 1) (1992-08-11).gb" size 32768 crc 42A3AD84 md5 167D89C0C40679A325AC487D5B50A6B9 sha1 EFF9D8DD2F227E554F354BB52DB8DE3463C0BD04 )
+)
+game (
+	name "Splitz (Europe) (Beta 2)"
+	releaseyear "1992"
+	releasemonth "09"
+	releaseday "02"
+	region "Europe"
+	rom ( name "Splitz (Europe) (Beta 2) (1992-09-02).gb" size 131072 crc 2982EF38 md5 936F048130DA70E2FF6DC6F8F87B1961 sha1 C68FDDAA5EC7E4F535258D6FF92640E4EE23EB55 )
+)
+game (
+	name "Splitz (Europe) (Beta 3)"
+	releaseyear "1992"
+	releasemonth "10"
+	releaseday "28"
+	region "Europe"
+	rom ( name "Splitz (Europe) (Beta 3) (1992-10-28).gb" size 98304 crc 9FDF113C md5 9ACA6D99A37FD0C1B409FBDC2E360464 sha1 EEC46D9D1077C1C31EA64E902412BE87430D984A )
+)
+game (
+	name "Splitz (Europe) (Beta 4)"
+	releaseyear "1993"
+	releasemonth "01"
+	releaseday "19"
+	region "Europe"
+	rom ( name "Splitz (Europe) (Beta 4) (1993-01-19).gb" size 65536 crc 6CA9F06E md5 E7E228238420E585527F7140A1722B96 sha1 4ADCB454E7FFB6BE06E236A2C73244D668A0994B )
+)
+game (
+	name "Splitz (Europe) (Beta 5)"
+	releaseyear "1993"
+	releasemonth "02"
+	releaseday "17"
+	region "Europe"
+	rom ( name "Splitz (Europe) (Beta 5) (1993-02-17).gb" size 65536 crc 798468C3 md5 ACE0EF8AD2009695C5DE359A57C3E21E sha1 E9FEF0CA850C832370B4EF188FF31C5943CDB067 )
+)
+game (
+	name "Splitz (Europe) (Beta 6)"
+	region "Europe"
+	rom ( name "Splitz (Europe) (Beta 6).gb" size 131072 crc 5E8F955E md5 6ADD9BF46FD945F6635419AD60988334 sha1 5F36290557F23C48CA7F2F17A1AF9B691EDE5BFF )
 )
 game (
 	name "Splitz - Nigaoe 15 Game (Japan) (En)"
@@ -8974,6 +9076,10 @@ game (
 	name "Square Deal - The Game of Two-Dimensional Poker (USA)"
 	region "USA"
 	rom ( name "Square Deal - The Game of Two-Dimensional Poker (USA).gb" size 65536 crc 8B882745 md5 C9CE9D01B622EFCE61CD4F002C628203 sha1 ACE72E1D6607B162BDAA88499DB9828444ECD2C0 )
+)
+game (
+	name "Squirrel Falls (World) (v1.7)"
+	rom ( name "Squirrel Falls (World) (v1.7) (Aftermarket) (Unl).gb" size 524288 crc 72AF2952 md5 65F480E517B942CAD43D365E68695834 sha1 65BCF65C8D2D2ECD9F5F3E87919C3AAAE1547E0D )
 )
 game (
 	name "Star Catcher (World)"
