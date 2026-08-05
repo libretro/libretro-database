@@ -28,22 +28,37 @@ game (
 	rom ( name sanyotry.bin size 1048576 crc D5CBC509 md5 35fa1a1ebaaeea286dc5cd15487c13ea sha1 b01c53da256dde43ffec4ad3fc3adfa8d635e943 )
 
 	comment "Amstrad - CPC"
-	rom ( name cpc464.rom size 32768 crc 40852F25 md5 a993f85b88ac4350cf4d41554e87fe4f sha1 56d39c463da60968d93e58b4ba0e675829412a20 )
-	rom ( name cpc664.rom size 32768 crc 9AB5A036 md5 5a384a2310f472c7857888371c00ed66 sha1 073a7665527b5bd8a148747a3947dbd3328682c8 )
-	rom ( name cpc6128.rom size 32768 crc 9E827FE1 md5 b96280dc6c95a48857b4b8eb931533ae sha1 5977adbad3f7c1e0e082cd02fe76a700d9860c30 )
-	rom ( name cpc_amsdos.rom size 16384 crc 1FE22ECD md5 25629dfe870d097469c217b95fdc1c95 sha1 39102c8e9cb55fcc0b9b62098780ed4a3cb6a4bb )
+	rom ( name "ep128emu/roms/cpc464.rom" size 32768 crc 40852F25 md5 a993f85b88ac4350cf4d41554e87fe4f sha1 56d39c463da60968d93e58b4ba0e675829412a20 )
+	rom ( name "ep128emu/roms/cpc6128.rom" size 32768 crc 9E827FE1 md5 b96280dc6c95a48857b4b8eb931533ae sha1 5977adbad3f7c1e0e082cd02fe76a700d9860c30 )
+	rom ( name "ep128emu/roms/cpc664.rom" size 32768 crc 9AB5A036 md5 5a384a2310f472c7857888371c00ed66 sha1 073a7665527b5bd8a148747a3947dbd3328682c8 )
+	rom ( name "ep128emu/roms/cpc_amsdos.rom" size 16384 crc 1FE22ECD md5 25629dfe870d097469c217b95fdc1c95 sha1 39102c8e9cb55fcc0b9b62098780ed4a3cb6a4bb )
 
 	comment "Arcade"
-	rom ( name bubsys.zip size 7950 crc 8FC2FD2E md5 f81298afd68a1a24a49a1a2d9f087964 sha1 1c0ffcd308b0c8c6dbb74ad8b811a0767200d366 )
-	rom ( name cchip.zip size 2700 crc 23DEBECB md5 df6f8a3d83c028a5cb9f2f2be60773f3 sha1 364f2302a145a0fd6de767d7f8484badde1d1a6e )
-	rom ( name decocass.zip size 16107 crc 5DE524E5 md5 b7e1189b341bf6a8e270017c096d21b0 sha1 30b97b2670b79d0de41cba190324c504846c6fa1 )
-	rom ( name isgsm.zip size 10207 crc 26856BF9 md5 4a56d56e2219c5e2b006b66a4263c01c sha1 f590ccf688b4c05fa1da5c5dd92c224545170c3b )
-	rom ( name midssio.zip size 163 crc 7620BD32 md5 5904b0de768d1d506e766aa7e18994c1 sha1 54275c9833e497f71f76ab239030cc386c863991 )
 	rom ( name neogeo.zip size 1859335 crc 81315163 md5 00dad01abdbf8ea9e79ad2fe11bdb182 sha1 deb62b0074b8cae4f162c257662136733cfc76ad )
-	rom ( name nmk004.zip size 3556 crc A6099353 md5 bfacf1a68792d5348f93cf724d2f1dda sha1 489256f5e2001070d2ad94c90d255282c71ed274 )
-	rom ( name pgm.zip size 2094636 crc BF3DD2EF md5 87cc944eef4c671aa2629a8ba48a08e0 sha1 c0c001ec80fa860857000f4cfc9844a28498a355 )
-	rom ( name skns.zip size 924762 crc 5692AF22 md5 3f956c4e7008804cb47cbde49bd5b908 sha1 4257bd14b541fafbd555cb98ba079a3416a45934 )
-	rom ( name ym2608.zip size 7609 crc 5B4C29C4 md5 79ae0d2bb1901b7e606b6dc339b79a97 sha1 06fc753d015b43ca1787f4cfd9331b1674202e64 )
+	rom ( name "fbneo/bubsys.zip" size 7950 crc 8FC2FD2E md5 f81298afd68a1a24a49a1a2d9f087964 sha1 1c0ffcd308b0c8c6dbb74ad8b811a0767200d366 )
+	rom ( name "fbneo/cchip.zip" size 2700 crc 23DEBECB md5 df6f8a3d83c028a5cb9f2f2be60773f3 sha1 364f2302a145a0fd6de767d7f8484badde1d1a6e )
+	rom ( name "fbneo/decocass.zip" size 16107 crc 5DE524E5 md5 b7e1189b341bf6a8e270017c096d21b0 sha1 30b97b2670b79d0de41cba190324c504846c6fa1 )
+	rom ( name "fbneo/isgsm.zip" size 10207 crc 26856BF9 md5 4a56d56e2219c5e2b006b66a4263c01c sha1 f590ccf688b4c05fa1da5c5dd92c224545170c3b )
+	rom ( name "fbneo/midssio.zip" size 163 crc 7620BD32 md5 5904b0de768d1d506e766aa7e18994c1 sha1 54275c9833e497f71f76ab239030cc386c863991 )
+	rom ( name "fbneo/neogeo.zip" size 1859335 crc 81315163 md5 00dad01abdbf8ea9e79ad2fe11bdb182 sha1 deb62b0074b8cae4f162c257662136733cfc76ad )
+	rom ( name "fbneo/nmk004.zip" size 3556 crc A6099353 md5 bfacf1a68792d5348f93cf724d2f1dda sha1 489256f5e2001070d2ad94c90d255282c71ed274 )
+	rom ( name "fbneo/pgm.zip" size 2094636 crc BF3DD2EF md5 87cc944eef4c671aa2629a8ba48a08e0 sha1 c0c001ec80fa860857000f4cfc9844a28498a355 )
+	rom ( name "fbneo/skns.zip" size 924762 crc 5692AF22 md5 3f956c4e7008804cb47cbde49bd5b908 sha1 4257bd14b541fafbd555cb98ba079a3416a45934 )
+	rom ( name "fbneo/ym2608.zip" size 7609 crc 5B4C29C4 md5 79ae0d2bb1901b7e606b6dc339b79a97 sha1 06fc753d015b43ca1787f4cfd9331b1674202e64 )
+	rom ( name aes.zip size 850591 crc 91E93107 md5 9d2ff2333e23910cf56f7f785609d36a sha1 43c6aa6ba46adbeefb2b014899bcb4b2db7986af )
+	rom ( name "fbneo/channelf.zip" size 2705 crc 332807D9 md5 2f2f8de3827ae1faf2495e497ca95232 sha1 1cb23b462b990241013deb4b5e07ce741af28267 )
+	rom ( name "fbneo/coleco.zip" size 28014 crc EEA6C08B md5 94915714a814a84f7c292e6db71f3ad2 sha1 db2190922f359f19b47f8270fa87a7c1b38f5b2b )
+	rom ( name "fbneo/fdsbios.zip" size 5758 crc 3D54FE55 md5 c26bf1744cb7f6ffe441f463870321f8 sha1 c25686d24c7205473741f948f8a9df9906823145 )
+	rom ( name "fbneo/hiscore.dat" size 324575 crc 92CFBA00 md5 37fc4e050b53a1ef2c2e7f3042553025 sha1 1bef29ccc16eeb2e3c0759bfd2a4f86b1aba03a7 )
+	rom ( name "fbneo/msx.zip" size 193854 crc 2AE71804 md5 25a8912d7bf3cdad9beaa6d5cc14ea38 sha1 c0673df5af0ea7728aedf637f18d118e6f7cb778 )
+	rom ( name "fbneo/namcoc69.zip" size 7771 crc BE241255 md5 ad9af7a9560cad74f1644328213748f6 sha1 1cc7452608d44af8171270530a995644fb213d1d )
+	rom ( name "fbneo/namcoc70.zip" size 7822 crc 2D71120C md5 aa569a303793510b2b4173480148de4b sha1 ab8375fcb12791d35b11df801041f965a40b21d9 )
+	rom ( name "fbneo/namcoc75.zip" size 8709 crc CF65B189 md5 17516c33298e52424ffb58afc2ad208c sha1 0649e27b7d605add7fc4215ee628b71e3c835328 )
+	rom ( name "fbneo/neocdz.zip" size 214681 crc 6FC3E0DE md5 62d56b126e78f3d82faa4ee8a92c3e82 sha1 4f28af31ca0defdd73d80edec2fa296908e624dc )
+	rom ( name "fbneo/ngp.zip" size 74758 crc 6A679292 md5 5bc25f80395a68790a69b7eb3e57b897 sha1 f677361cd05cf2d146730890298985290b3dbc69 )
+	rom ( name "fbneo/spec128.zip" size 25489 crc 705F7138 md5 1a524bfa489cec90c941e6587d553a56 sha1 b88619a845cbba8bc04ad396e99a02aa6d2da7c1 )
+	rom ( name "fbneo/spectrum.zip" size 12432 crc EEA59503 md5 4698414be3369fff17bf6d3111734c6c sha1 9428d8b7c6d4db78f00a58915dccdf33f3b5d98b )
+	rom ( name "fbneo/spec1282a.zip" size 41653 crc B952CBE2 md5 b2fed9c6a9e54af7d90b6f2b3516fcf9 sha1 d3a94d7a098a0cad5f49cf19a74ed1f9138a20f7 )
 
 	comment "Atari - 400-800"
 	rom ( name ATARIBAS.ROM size 8192 crc 7D684184 md5 0bac0c6a50104045d902df4503a4c30b sha1 3693c9cb9bf3b41bae1150f7a8264992468fc8c0 )
@@ -68,6 +83,9 @@ game (
 
 	comment "Coleco - ColecoVision"
 	rom ( name colecovision.rom size 8192 crc 3AA93EF3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
+	rom ( name BIOS.col size 8192 crc 3AA93EF3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
+	rom ( name bioscv.rom size 2048 crc C3C590C6 md5 3b1ef759d8e3fb4071582efd33dd05f9 sha1 5ac620c529e4965efb5560fe824854a44c983757 )
+	rom ( name coleco.rom size 8192 crc 3AA93EF3 md5 2c66f5911e5b42b8ebe113403548eee7 sha1 45bedc4cbdeac66c7df59e9e599195c778d86a92 )
 
 	comment "Commodore - Amiga"
     rom ( name kick33180.A500 size 262144 crc A6CE1636 md5 85ad74194e87c08904327de1a9443b7a sha1 11f9e62cf299f72184835b7b2a70a16333fc0d88 )
@@ -84,13 +102,13 @@ game (
     rom ( name kick40060.CD32.ext size 524288 crc 87746BE2 md5 bb72565701b1b6faece07d68ea5da639 sha1 5bef3d628ce59cc02a66e6e4ae0da48f60e78f7f )
 
 	comment "Commodore - C128"
-    rom ( name JiffyDOS_C128.bin size 16384 crc 4B7964DE md5 cbbd1bbcb5e4fd8046b6030ab71fc021 sha1 7d1898f32beae4b2ae610d469ce578a588efaa7c )
-    rom ( name JiffyDOS_C64.bin size 8192 crc 2F79984C md5 be09394f0576cf81fa8bacf634daf9a2 sha1 31e73e66eccb28732daea8ec3ad1addd9b39a017 )
-    rom ( name JiffyDOS_1541-II.bin size 16384 crc DD409902 md5 1b1e985ea5325a1f46eb7fd9681707bf sha1 b1a5b826304d3df2a27d7163c6a81a532e040d32 )
-    rom ( name JiffyDOS_1571_repl310654.bin size 32768 crc FE6CAC6D md5 41c6cc528e9515ffd0ed9b180f8467c0 sha1 d4b79b60cf1eaa399d0932200eb7811e00455249 )
-    rom ( name JiffyDOS_1581.bin size 32768 crc 98873D0F md5 20b6885c6dc2d42c38754a365b043d71 sha1 65bbf2be7bcd5bdcbff609d6c66471ffb9d04bfe )
 	rom ( name scpu-dos-1.4.bin md5 cda2fcd2e1f0412029383e51dd472095 )
 	rom ( name scpu-dos-2.04.bin md5 b2869f8678b8b274227f35aad26ba509 )
+    rom ( name "vice/JiffyDOS_1541-II.bin" size 16384 crc DD409902 md5 1b1e985ea5325a1f46eb7fd9681707bf sha1 b1a5b826304d3df2a27d7163c6a81a532e040d32 )
+    rom ( name "vice/JiffyDOS_1571_repl310654.bin" size 32768 crc FE6CAC6D md5 41c6cc528e9515ffd0ed9b180f8467c0 sha1 d4b79b60cf1eaa399d0932200eb7811e00455249 )
+    rom ( name "vice/JiffyDOS_1581.bin" size 32768 crc 98873D0F md5 20b6885c6dc2d42c38754a365b043d71 sha1 65bbf2be7bcd5bdcbff609d6c66471ffb9d04bfe )
+    rom ( name "vice/JiffyDOS_C128.bin" size 16384 crc 4B7964DE md5 cbbd1bbcb5e4fd8046b6030ab71fc021 sha1 7d1898f32beae4b2ae610d469ce578a588efaa7c )
+    rom ( name "vice/JiffyDOS_C64.bin" size 8192 crc 2F79984C md5 be09394f0576cf81fa8bacf634daf9a2 sha1 31e73e66eccb28732daea8ec3ad1addd9b39a017 )
 
 	comment "Dinothawr"
 	rom ( name Dinothawr.zip size 5763199 crc 683ed4ad md5 a2e891e330d146c4046c2b622fc31462 sha1 693d8bb4d992c645e6413a57195acf4eca2f5a2e )
@@ -100,6 +118,12 @@ game (
     rom ( name MT32_PCM.ROM size 524288 crc 573E31CC md5 89e42e386e82e0cacb4a2704a03706ca sha1 f6b1eebc4b2d200ec6d3d21d51325d5b48c60252 )
     rom ( name CM32L_CONTROL.ROM size 65536 crc B998047E md5 bfff32b6144c1d706109accb6e6b1113 sha1 a439fbb390da38cada95a7cbb1d6ca199cd66ef8 )
     rom ( name CM32L_PCM.ROM size 1048576 crc 4B961EBA md5 08cdcfa0ed93e9cb16afa76e6ac5f0a4 sha1 289cc298ad532b702461bfc738009d9ebe8025ea )
+    rom ( name bass.dll size 144696 crc 03E3F03C md5 7253a9fabc089044b3b8e9156b07d6f9 sha1 75c9fa407e0a027713ed563f135747fffec0590d )
+    rom ( name bassmidi.dll size 73600 crc FD70A398 md5 0b00a4ab6b68960efa49272d416b040d sha1 2ea6df7253ce0a14094d20cd04c098505cc14c23 )
+    rom ( name libbass.dylib size 874240 crc 9BA00BC0 md5 19addeb0da536c753797ed59b44d5ba3 sha1 8833196b70002f7f2068d8f6c5eb96862777b018 )
+    rom ( name libbass.so size 248952 crc 61F3237E md5 255fb8ab523b179320f08f44db36a9fa sha1 415365e930b4c7d33e9af3225bea230e15bdebe7 )
+    rom ( name libbassmidi.dylib size 519808 crc E5D1E180 md5 ea143b23779d01152633442abb1e0c67 sha1 efa4fdedfac60c98c53f3aec10fb44b324a35835 )
+    rom ( name libbassmidi.so size 142080 crc 0A8E277A md5 3a48c08c224c32f2f4829b960e95f73b sha1 77d07d7518104896e0acfee24073356f1a6bd51b )
 
 	comment "Elektronika - BK-0010/BK-0011(M)"
     rom ( name bk/B11M_BOS.ROM size 8192 crc 8FFD5EFA md5 fe4627d1e3a1535874085050733263e7 sha1 7e9a30e38d7b78981999821640a68a201bb6df01 )
@@ -112,18 +136,19 @@ game (
     rom ( name bk/MONIT10.ROM size 8192 crc 26C6E8A0 md5 95f8c41c6abf7640e35a6a03cecebd01 sha1 4e83a94ae5155bbea14d7331a5a8db82457bd5ae )
 
 	comment "Enterprise - 64/128"
-	rom ( name hun.rom size 16384 crc 596AB6D6 md5 22167938f142c222f40992839aa21a06 sha1 325a5e28c2a0d896711f8829e7ff14fed5dd4103 )
-	rom ( name brd.rom size 16384 crc 6999D6A3 md5 6af0402906944fd134004b85097c8524 sha1 f34f0c330b44dbf2548329bea954d5991dec30ca )
-	rom ( name exos20.rom size 32768 crc D421795F md5 5ad3baaad3b5156d6b60b34229a676fb sha1 6033a0535136c40c47137e4d1cd9273c06d5fdff )
-	rom ( name exos21.rom size 32768 crc 982A3B44 md5 f36f24cbb87745fbd2714e4df881db09 sha1 55315b20fecb4441a07ee4bc5dc7153f396e0a2e )
-	rom ( name zt19uk.rom size 32768 crc D6DEEDF1 md5 228540b6be83ae2acd7569c8ff0f91d0 sha1 b7af62f0bc95fdca4b31d236f8327dafc80f83b7 )
-	rom ( name basic20.rom size 16384 crc 1228DE34 md5 8e18edce4a7acb2c33cc0ab18f988482 sha1 61d0987b906146e21b94f265d5b51b4938c986a9 )
-	rom ( name basic21.rom size 16384 crc 55F96251 md5 e972fe42b398c9ff1d93ff014786aec6 sha1 03bbb386cf530e804363acdfc1d13e64cf28af2e )
-	rom ( name exdos13.rom size 32768 crc E0135929 md5 ddff70c014d1958dc75378b6c9aab6f8 sha1 cb43ab3676b93c279f1ed8ffcb0d4dcd4b34e631 )
-	rom ( name epd19hft.rom size 32768 crc BD503EEB md5 12cfc9c7e48c8a16c2e09edbd926d467 sha1 8f28fe73d13e94dd1da02519908ecc6eebe104f6 )
 	rom ( name zt18hfnt.rom size 32768 crc 76C9DBF6 md5 3082dc488d32f30a612761b99074199b sha1 283be1ce417a759a3368bb4bbe72f692fd43ca6d )
-	rom ( name epfileio.rom size 16384 crc 60C79925 md5 a68ebcbc73a4d2178d755b7755bf18fe sha1 2f9077bcd89b1ec42dbdcd55d335bdbaf361eff3 )
-	rom ( name exos24uk.rom size 65536 crc C099A5E3 md5 55af78f877a21ca45eb2df68a74fcc60 sha1 cf12e971623a54bf8c4f891ca3a36d969f205c49 )
+	rom ( name "ep128emu/roms/basic20.rom" size 16384 crc 1228DE34 md5 8e18edce4a7acb2c33cc0ab18f988482 sha1 61d0987b906146e21b94f265d5b51b4938c986a9 )
+	rom ( name "ep128emu/roms/basic21.rom" size 16384 crc 55F96251 md5 e972fe42b398c9ff1d93ff014786aec6 sha1 03bbb386cf530e804363acdfc1d13e64cf28af2e )
+	rom ( name "ep128emu/roms/brd.rom" size 16384 crc 6999D6A3 md5 6af0402906944fd134004b85097c8524 sha1 f34f0c330b44dbf2548329bea954d5991dec30ca )
+	rom ( name "ep128emu/roms/epd19hft.rom" size 32768 crc BD503EEB md5 12cfc9c7e48c8a16c2e09edbd926d467 sha1 8f28fe73d13e94dd1da02519908ecc6eebe104f6 )
+	rom ( name "ep128emu/roms/epfileio.rom" size 16384 crc 60C79925 md5 a68ebcbc73a4d2178d755b7755bf18fe sha1 2f9077bcd89b1ec42dbdcd55d335bdbaf361eff3 )
+	rom ( name "ep128emu/roms/exdos13.rom" size 32768 crc E0135929 md5 ddff70c014d1958dc75378b6c9aab6f8 sha1 cb43ab3676b93c279f1ed8ffcb0d4dcd4b34e631 )
+	rom ( name "ep128emu/roms/exos20.rom" size 32768 crc D421795F md5 5ad3baaad3b5156d6b60b34229a676fb sha1 6033a0535136c40c47137e4d1cd9273c06d5fdff )
+	rom ( name "ep128emu/roms/exos21.rom" size 32768 crc 982A3B44 md5 f36f24cbb87745fbd2714e4df881db09 sha1 55315b20fecb4441a07ee4bc5dc7153f396e0a2e )
+	rom ( name "ep128emu/roms/exos24uk.rom" size 65536 crc C099A5E3 md5 55af78f877a21ca45eb2df68a74fcc60 sha1 cf12e971623a54bf8c4f891ca3a36d969f205c49 )
+	rom ( name "ep128emu/roms/hun.rom" size 16384 crc 596AB6D6 md5 22167938f142c222f40992839aa21a06 sha1 325a5e28c2a0d896711f8829e7ff14fed5dd4103 )
+	rom ( name "ep128emu/roms/zt19uk.rom" size 32768 crc D6DEEDF1 md5 228540b6be83ae2acd7569c8ff0f91d0 sha1 b7af62f0bc95fdca4b31d236f8327dafc80f83b7 )
+	rom ( name "ep128emu/roms/zt19hfnt.rom" size 32768 crc 58239527 md5 653daaf7b9b29c2c4e577f489580f247 sha1 9dd7f38a74f119f142b17e5a16ebd8afa7bbea01 )
 
 	comment "EPOCH/YENO Super Cassette Vision"
     rom ( name upd7801g.s01 size 4096 crc 7AC06182 md5 635a978fd40db9a18ee44eff449fc126 sha1 6e89d1227581c76441a53d605f9e324185f1da33 )
@@ -133,6 +158,11 @@ game (
 	rom ( name sl31254.bin size 1024 crc 9C047BA3 md5 da98f4bb3242ab80d76629021bb27585 sha1 8f70d1b74483ba3a37e86cf16c849d601a8c3d2c )
 	rom ( name sl90025.bin size 1024 crc 015C1E38 md5 95d339631d867c8f1d15a5f2ec26069d sha1 759e2ed31fbde4a2d8daf8b9f3e0dffebc90dae2 )
 
+	comment "Galaksija"
+	rom ( name "galaksija/CHRGEN.BIN" size 2048 crc FD77B6D2 md5 ecae5c55d75a2fe0871d0ebd95663628 sha1 cc73b0386b84383b4841e58a1c328cb67b0121d8 )
+	rom ( name "galaksija/ROM1.BIN" size 4096 crc E6853BC1 md5 c7ce14d6a81062db862f3ce5afedcfb6 sha1 aea7a4c0c7ffe1f212f7b9faecfd728862ac6904 )
+	rom ( name "galaksija/ROM2.BIN" size 8192 crc B5FAD94A md5 b406d05922dac2eaf3c2e68157b1b468 sha1 1bae895fbdd658cfb56c53cc2139282cc1e778de )
+
 	comment "Id Software - Doom"
 	rom ( name prboom.wad size 143312 crc A5751B99 md5 72ae1b47820fcc93cc0df9c428d0face sha1 5f4aed208301449c2e9514edfd325fe9dead76fa )
 
@@ -140,6 +170,14 @@ game (
 	rom ( name freej2me-lr.jar size 552042 crc 96A1BABF md5 ccd92e7156ce2f0ce14c88ffb68a16eb sha1 fb231192894e2fd17a5799fbbdf86a4696951bce )
 	rom ( name freej2me-sdl.jar size 552043 crc 5CCA0F35 md5 4da74084fc1b1bd3d776ed8d3ee648de sha1 78f1f41d55efc6b8d81e99c1d9d75248b3f83dc2 )
 	rom ( name freej2me.jar size 552039 crc FFB98FFA md5 29a92d0867da2917275b7c6c805d256f sha1 7d738042268e4ffd0aae8e85e05dd28bce761d1f )
+	rom ( name squirreljme-0.3.0-fast.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-0.3.0-slow-test.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-0.3.0-slow.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-0.3.0.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-fast.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-slow-test.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme-slow.jar size 15181774 crc 1690BA5C md5 8e98b0c8e5c96c191a8b2a9d29d0454b sha1 8a2ddc37df2366d4e205e9904cd8bac22db2afd5 )
+	rom ( name squirreljme.jar size 4700395 crc C3E532D3 md5 cf849d4b36cd8b7782de7887d318182a sha1 6933bbe1fc29f58581a7f64f859f756db9ef78a7 )
 
 	comment "MacII"
     rom ( name MacII.ROM size 262144 crc 4DF6D054 md5 66223be1497460f1e60885eeb35e03cc sha1 db6b504744281369794e26ba71a6e385cf6227fa )
@@ -170,6 +208,8 @@ game (
 	rom ( name MSXDOS2.ROM size 65536 crc 1C430991 md5 6418d091cd6907bbcf940324339e43bb sha1 c36c9e0f96738a340381e23b4f97245388801a46 )
 	rom ( name PAINTER.ROM size 65536 crc 1BDA68A3 md5 403cdea1cbd2bb24fae506941f8f655e sha1 7fd2a28c4fdaeb140f3c8c8fb90271b1472c97b9 )
 	rom ( name RS232.ROM size 16640 crc AB6874F8 md5 279efd1eae0d358eecd4edc7d9adedf3 sha1 7aec0134ad6a5177f4056fcb6047083e8e00529b )
+	rom ( name "Databases/msxromdb.xml" size 930986 crc ED4C6720 md5 c0a94965701431e0df29949189e424dd sha1 573aa830b7bef4452808b40df883469907db2fed )
+	rom ( name "Machines/Shared Roms/MSX.rom" size 32768 crc A317E6B4 md5 364a1a579fe5cb8dba54519bcfcdac0d sha1 e998f0c441f4f1800ef44e42cd1659150206cf79 )
 
 	comment "NEC - PC Engine - TurboGrafx 16 - SuperGrafx"
 	rom ( name gecard.pce size 32768 crc 51A12D90 md5 6d2cb14fc3e1f65ceb135633d1694122 sha1 014881a959e045e00f4db8f52955200865d40280 )
@@ -181,17 +221,29 @@ game (
 	rom ( name syscard3u.pce size 262144 crc 2B5B75FE md5 0754f903b52e3b3342202bdafb13efa5 sha1 d02611d99921986147c753df14c7349b31d71950 )
 
 	comment "NEC - PC-98"
-	rom ( name 2608_bd.wav size 19192 crc BB038714 md5 d94546e70f17fd899be8df3544ab6cbb sha1 0a56c142ef40cec50f3ee56a6e42d0029c9e2818 )
-	rom ( name 2608_hh.wav size 36722 crc 9898B372 md5 08c54a0c1f774a5538a848a6665a34b4 sha1 12f676cef249b82480b6f19c454e234b435ca7b6 )
-	rom ( name 2608_rim.wav size 5288 crc 638864C1 md5 465ea0768b27da404aec45dfc501404b sha1 c65592330c9dd84011151daed52f9aec926b7e56 )
-	rom ( name 2608_sd.wav size 15558 crc 542CC58C md5 d71004351c8bbfdad53b18222c061d49 sha1 3c79663ef74c0b0439d13351326eb1c52a657008 )
-	rom ( name 2608_tom.wav size 23092 crc 93C57BBA md5 96a4ead13f364734f79b0c58af2f0e1f sha1 9513fb4a3f41e75a972a273a5104cbd834c1e2c5 )
-	rom ( name 2608_top.wav size 57016 crc AB73A296 md5 593cff6597ab9380d822b8f824fd2c28 sha1 aa4a8f766a86b830687d5083fd3b9db0652f46fc )
-	rom ( name bios.rom size 98304 crc 0A682B93 md5 cd237e16e7e77c06bb58540e9e9fca68 sha1 76a7360502fa0296ea93b4c537174610a834d367 )
-	rom ( name font.bmp size 524350 crc D271798B md5 7da1e5b7c482d4108d22a5b09631d967 sha1 b4f14e58030ed40fff2dc312b58ea4440bdf8cc5 )
-	rom ( name font.rom size 288768 crc 456D9FC7 md5 38d32748ae49d1815b0614970849fd40 sha1 78ba9960f135372825ab7244b5e4e73a810002ff )
-	rom ( name itf.rom size 32768 crc C1815325 md5 72ea51443070f0e9212bfc9b793ee28e sha1 a2fb11c000ed7c976520622cfb7940ed6ddc904e )
-	rom ( name sound.rom size 16384 crc FE9F57F2 md5 524473c1a5a03b17e21d86a0408ff827 sha1 d5dbc4fea3b8367024d363f5351baecd6adcd8ef )
+	rom ( name "np2kai/2608_BD.WAV" size 19192 crc BB038714 md5 d94546e70f17fd899be8df3544ab6cbb sha1 0a56c142ef40cec50f3ee56a6e42d0029c9e2818 )
+	rom ( name "np2kai/2608_HH.WAV" size 36722 crc 9898B372 md5 08c54a0c1f774a5538a848a6665a34b4 sha1 12f676cef249b82480b6f19c454e234b435ca7b6 )
+	rom ( name "np2kai/2608_RIM.WAV" size 5288 crc 638864C1 md5 465ea0768b27da404aec45dfc501404b sha1 c65592330c9dd84011151daed52f9aec926b7e56 )
+	rom ( name "np2kai/2608_SD.WAV" size 15558 crc 542CC58C md5 d71004351c8bbfdad53b18222c061d49 sha1 3c79663ef74c0b0439d13351326eb1c52a657008 )
+	rom ( name "np2kai/2608_TOM.WAV" size 23092 crc 93C57BBA md5 96a4ead13f364734f79b0c58af2f0e1f sha1 9513fb4a3f41e75a972a273a5104cbd834c1e2c5 )
+	rom ( name "np2kai/2608_TOP.WAV" size 57016 crc AB73A296 md5 593cff6597ab9380d822b8f824fd2c28 sha1 aa4a8f766a86b830687d5083fd3b9db0652f46fc )
+	rom ( name "np2kai/FONT.ROM" size 288768 crc 456D9FC7 md5 38d32748ae49d1815b0614970849fd40 sha1 78ba9960f135372825ab7244b5e4e73a810002ff )
+	rom ( name "np2kai/bios.rom" size 98304 crc 0A682B93 md5 cd237e16e7e77c06bb58540e9e9fca68 sha1 76a7360502fa0296ea93b4c537174610a834d367 )
+	rom ( name "np2kai/font.bmp" size 524350 crc D271798B md5 7da1e5b7c482d4108d22a5b09631d967 sha1 b4f14e58030ed40fff2dc312b58ea4440bdf8cc5 )
+	rom ( name "np2kai/itf.rom" size 32768 crc C1815325 md5 72ea51443070f0e9212bfc9b793ee28e sha1 a2fb11c000ed7c976520622cfb7940ed6ddc904e )
+	rom ( name "np2kai/sound.rom" size 16384 crc FE9F57F2 md5 524473c1a5a03b17e21d86a0408ff827 sha1 d5dbc4fea3b8367024d363f5351baecd6adcd8ef )
+
+	comment "NEC - PC-8801"
+	rom ( name "quasi88/n88_0.rom" size 8192 crc 61984BAB md5 e28fe3f520bea594350ea8fb00395370 sha1 d1ae642aed4f0584eeb81ff50180db694e5101d4 )
+	rom ( name "quasi88/n88_1.rom" size 8192 crc 7AD5D943 md5 a8e298da7ac947669bcb1ff25cee0a83 sha1 4ae4d37409ff99411a623da9f6a44192170a854e )
+	rom ( name "quasi88/n88_2.rom" size 8192 crc 6AEE9A4E md5 9d03154fd9abfc28c4e6d4dc705e6e23 sha1 e94278682ef9e9bbb82201f72c50382748dcea2a )
+	rom ( name "quasi88/n88_3.rom" size 8192 crc 692CBCD8 md5 e1791f8154f1cdf22b576a1a365b6e1f sha1 af452aed79b072c4d17985830b7c5dca64d4b412 )
+	rom ( name "quasi88/n88jisho.rom" size 524288 crc BD6EB062 md5 2e548679423370262f36cbde38a22789 sha1 deef0cc2a9734ba891a6d6c022aa70ffc66f783e )
+	rom ( name "quasi88/disk.rom" size 2048 crc 2158D307 md5 793f86784e5608352a5d7f03f03e0858 sha1 bb7103a0818850a039c67ff666a31ce49a8d516f )
+	rom ( name "quasi88/n88.rom" size 32768 crc A0FC0473 md5 4f984e04a99d56c4cfe36115415d6eb8 sha1 3b31fc68fa7f47b21c1a1cb027b86b9e87afbfff )
+	rom ( name "quasi88/n88n.rom" size 32768 crc 27E1857D md5 2ff07b8769367321128e03924af668a0 sha1 5b922ed9de07d2a729bdf1da7b57c50ddf08809a )
+	rom ( name "quasi88/n88knj1.rom" size 131072 crc 6178BD43 md5 d81c6d5d7ad1a4bbbd6ae22a01257603 sha1 82e11a177af6a5091dd67f50a2f4bafda84d6556 )
+	rom ( name "quasi88/n88knj2.rom" size 131072 crc 96D1EF44 md5 898a3b7b6c3326e8b2069765bca2b944 sha1 b86b932cb4ce34472e0fe0f01a4a4350e15dcb53 )
 
 	comment "NEC - PC-FX"
 	rom ( name fx-scsi.rom size 524288 crc F3E60E5E md5 430e9745f9235c515bc8e652d6ca3004 sha1 65482a23ac5c10a6095aee1db5824cca54ead6e5 )
@@ -207,6 +259,7 @@ game (
 	comment "Nintendo - Gameboy"
 	rom ( name dmg_boot.bin size 256 crc 59C8598E md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
 	rom ( name gb_bios.bin size 256 crc 59C8598E md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
+	rom ( name dmg_rom.bin size 256 crc 59C8598E md5 32fbbd84168d3482956eb3c5051637f5 sha1 4ed31ec6b0b175bb109c0eb5fd3d193da823339f )
 
 	comment "Nintendo - Game Boy Advance"
 	rom ( name gba_bios.bin size 16384 crc 81977335 md5 a860e8c0b6d573d191e4ec7db1b1e4f6 sha1 300c20df6731a33952ded8c436f7f186d25d3492 )
@@ -214,6 +267,7 @@ game (
 	comment "Nintendo - Gameboy Color"
 	rom ( name cgb_boot.bin size 2304 crc 41884E46 md5 dbfce9db9deaa2567f6a84fde55f9680 sha1 1293d68bf9643bc4f36954c1e80e38f39864528d )
 	rom ( name gbc_bios.bin size 2304 crc 41884E46 md5 dbfce9db9deaa2567f6a84fde55f9680 sha1 1293d68bf9643bc4f36954c1e80e38f39864528d )
+	rom ( name cgb_bios.bin size 2304 crc 41884E46 md5 dbfce9db9deaa2567f6a84fde55f9680 sha1 1293d68bf9643bc4f36954c1e80e38f39864528d )
 
 	comment "Nintendo - GameCube"
 	rom ( name gc-dvd-20010608.bin size 131072 crc C047465A md5 561532ad496f644897952d2cef5bb431 sha1 27872c201e87b06a19bf85d36c796ef383f8d52d )
@@ -226,14 +280,25 @@ game (
 	rom ( name gc-pal-10.bin size 2097152 crc 4F319F43 md5 0cdda509e2da83c85bfe423dd87346cc sha1 f27c63e5394e2fd1606f70df004c4fc2d6027700 )
 	rom ( name gc-pal-11.bin size 2097152 crc 667D0B64 md5 339848a0b7c2124cf155276c1e79cbd0 sha1 f3cd0c7c61cbcefa85e7de3aff4cfa50bc508714 )
 	rom ( name gc-pal-12.bin size 2097152 crc AD1B7F16 md5 db92574caab77a7ec99d4605fd6f2450 sha1 80b8744ff5e43585392f55546bd03a673d11ef5f )
+	rom ( name "dolphin-emu/Sys/GC/EUR/IPL.bin" size 2097152 crc AD1B7F16 md5 db92574caab77a7ec99d4605fd6f2450 sha1 80b8744ff5e43585392f55546bd03a673d11ef5f )
+	rom ( name "dolphin-emu/Sys/GC/JAP/IPL.bin" size 2097152 crc 86573808 md5 b17148254a5799684c7d783206504926 sha1 ef9194ab4804aa0aa8540d846caf291b28331165 )
+	rom ( name "dolphin-emu/Sys/GC/USA/IPL.bin" size 2097152 crc 86573808 md5 b17148254a5799684c7d783206504926 sha1 ef9194ab4804aa0aa8540d846caf291b28331165 )
+	rom ( name "dolphin-emu/Sys/codehandler.bin" size 2880 crc BA8DFA56 md5 1f118b8735fcf40c20b38c3184eebfd9 sha1 e6c0050b3c67ee26198488fbbe4a5d019c15b628 )
 
 	comment "Nintendo - Nintendo 64DD"
 	rom ( name 64DD_IPL.bin size 4194304 crc 7F933CE2 md5 8d3d9f294b6e174bc7b1d2fd1c727530 sha1 bf861922dcb78c316360e3e742f4f70ff63c9bc3 )
+	rom ( name "Mupen64plus/IPL.n64" size 4194304 crc 7F933CE2 md5 8d3d9f294b6e174bc7b1d2fd1c727530 sha1 bf861922dcb78c316360e3e742f4f70ff63c9bc3 )
 
 	comment "Nintendo - Nintendo DS"
 	rom ( name bios7.bin size 16384 crc 1280F0D5 md5 df692a80a5b1bc90728bc3dfc76cd948 sha1 24f67bdea115a2c847c8813a262502ee1607b7df )
 	rom ( name bios9.bin size 4096 crc 2AB23573 md5 a392174eb3e572fed6447e956bde4b25 sha1 bfaac75f101c135e32e2aaf541de6b1be4c8c62d )
 	rom ( name firmware.bin size 262144 crc 945F9DC9 md5 e45033d9b0fa6b0de071292bba7c9d13 sha1 cfe072921ee3fb93f688743f8beef89043c3e9ad )
+	rom ( name nds7.bin size 16384 crc 1280F0D5 md5 df692a80a5b1bc90728bc3dfc76cd948 sha1 24f67bdea115a2c847c8813a262502ee1607b7df )
+	rom ( name nds9.bin size 4096 crc 2AB23573 md5 a392174eb3e572fed6447e956bde4b25 sha1 bfaac75f101c135e32e2aaf541de6b1be4c8c62d )
+
+	comment "Nintendo - Nintendo DSi"
+	rom ( name dsi_bios7.bin size 65536 crc 9F1840D9 md5 559dae4ea78eb9d67702c56c1d791e81 sha1 a3aa751eb6bdaaf8a827ba9e03576a6f1ab0f547 )
+	rom ( name dsi_bios9.bin size 65536 crc 3D64D498 md5 87b665fce118f76251271c3732532777 sha1 7bf549b8be9e48ab0cdc9b0fdadd49a5131f97eb )
 
 	comment "Nintendo - Nintendo Entertainment System"
 	rom ( name NstDatabase.xml size 1009534 crc EBB2196C md5 7bfe8c0540ed4bd6a0f1e2a0f0118ced sha1 26322f182540211e9b5e3647675b7c593706ae2b )
@@ -252,12 +317,17 @@ game (
 	comment "Nintendo - Super Game Boy"
 	rom ( name SGB1.sfc size 262144 crc 8A4A174F md5 b15ddb15721c657d82c5bab6db982ee9 sha1 973e10840db683cf3faf61bd443090786b3a9f04 )
 	rom ( name SGB2.sfc size 524288 crc CB176E45 md5 8ecd73eb4edf7ed7e81aef1be80031d5 sha1 e5b2922ca137051059e4269b236d07a22c07bc84 )
-	rom ( name sgb1.boot.rom size 256 crc EC8A83B9 md5 d574d4f9c12f305074798f54c091a8b4 sha1 aa2f50a77dfb4823da96ba99309085a3c6278515 )
 	rom ( name sgb1.program.rom size 262144 crc 8A4A174F md5 b15ddb15721c657d82c5bab6db982ee9 sha1 973e10840db683cf3faf61bd443090786b3a9f04 )
-	rom ( name sgb2.boot.rom size 256 crc 53D0DD63 md5 e0430bca9925fb9882148fd2dc2418c1 sha1 93407ea10d2f30ab96a314d8eca44fe160aea734 )
 	rom ( name sgb2.program.rom size 524288 crc CB176E45 md5 8ecd73eb4edf7ed7e81aef1be80031d5 sha1 e5b2922ca137051059e4269b236d07a22c07bc84 )
 	rom ( name sgb2_bios.bin size 256 crc 53D0DD63 md5 e0430bca9925fb9882148fd2dc2418c1 sha1 93407ea10d2f30ab96a314d8eca44fe160aea734 )
 	rom ( name sgb_bios.bin size 256 crc EC8A83B9 md5 d574d4f9c12f305074798f54c091a8b4 sha1 aa2f50a77dfb4823da96ba99309085a3c6278515 )
+	rom ( name "SGB1.sfc/sgb1.boot.rom" size 256 crc EC8A83B9 md5 d574d4f9c12f305074798f54c091a8b4 sha1 aa2f50a77dfb4823da96ba99309085a3c6278515 )
+	rom ( name "SGB2.sfc/sgb2.boot.rom" size 256 crc 53D0DD63 md5 e0430bca9925fb9882148fd2dc2418c1 sha1 93407ea10d2f30ab96a314d8eca44fe160aea734 )
+	rom ( name sgb_boot.bin size 256 crc EC8A83B9 md5 d574d4f9c12f305074798f54c091a8b4 sha1 aa2f50a77dfb4823da96ba99309085a3c6278515 )
+	rom ( name sgb.boot.rom size 256 crc EC8A83B9 md5 d574d4f9c12f305074798f54c091a8b4 sha1 aa2f50a77dfb4823da96ba99309085a3c6278515 )
+	rom ( name sgb2_boot.bin size 256 crc 53D0DD63 md5 e0430bca9925fb9882148fd2dc2418c1 sha1 93407ea10d2f30ab96a314d8eca44fe160aea734 )
+	rom ( name "SGB1.sfc/program.rom" size 262144 crc 8A4A174F md5 b15ddb15721c657d82c5bab6db982ee9 sha1 973e10840db683cf3faf61bd443090786b3a9f04 )
+	rom ( name "SGB2.sfc/program.rom" size 524288 crc CB176E45 md5 8ecd73eb4edf7ed7e81aef1be80031d5 sha1 e5b2922ca137051059e4269b236d07a22c07bc84 )
 
 	comment "Nintendo - Super Nintendo Entertainment System"
 	rom ( name cx4.data.rom size 3072 crc B6E76A6A md5 037ac4296b6b6a5c47c440188d3c72e3 sha1 a002f4efba42775a31185d443f3ed1790b0e949a )
@@ -282,6 +352,19 @@ game (
 	rom ( name c52.bin size 1024 crc A318E8D6 md5 f1071cdb0b6b10dde94d3bc8a6146387 sha1 a6120aed50831c9c0d95dbdf707820f601d9452e )
 	rom ( name g7400.bin size 1024 crc E20A9F41 md5 c500ff71236068e0dc0d0603d265ae76 sha1 5130243429b40b01a14e1304d0394b8459a6fbae )
 	rom ( name jopac.bin size 1024 crc 11647CA5 md5 279008e4a0db2dc5f1c048853b033828 sha1 54b8d2c1317628de51a85fc1c424423a986775e4 )
+
+	comment "Philips - CD-i"
+	rom ( name cdimono1.zip size 661670 crc FBE6F674 md5 801c529739b83e1490b897f2d3ffbb3a sha1 7bf3ef19a559808658578bc4da233d71b774b8e2 )
+	rom ( name "same_cdi/bios/cdibios.zip" size 472798 crc 1D5BB3DA md5 709acce6e9c4043b851ea7429b8e7eff sha1 16072afaa65d1b059346616ac5b5a600c63ff1d1 )
+	rom ( name "same_cdi/bios/cdimono1.zip" size 660996 crc 0A67FF2C md5 c59f92647701428bc453976740eb75cf sha1 5d0b1b55b0d0958a5c9069c3219d4da5a87a6b93 )
+	rom ( name "same_cdi/bios/cdimono2.zip" size 244291 crc 4EAB5EDA md5 97aa5f47030cd9fdb679d4fafbb0e332 sha1 9492247203b71c12d88fad0a5437376941c7870a )
+
+	comment "Palm OS"
+	rom ( name bootloader-dbvz.rom size 512 crc A975EFE4 md5 9da101cd2317830649a31f8fa46debec sha1 cea669f6d740f29ca248d2e8837a4b4f86fbe75a )
+	rom ( name palmos40-en-m500.rom size 2359296 crc 9261A5AA md5 abed11421f47bbf3f654af618e0c6a8a sha1 a368b40751dd017163c9c1a615d6f3506b7dcbdf )
+	rom ( name palmos41-en-m515.rom size 4194304 crc 6481A088 md5 83cb1d1c76e568b916dc2e7c0bf669f6 sha1 cc4898ee8cae4669fc19e184c5b560c770e731b3 )
+	rom ( name palmos52-en-t3.rom size 16777216 crc 443752F6 md5 a46861541c63b20aba7bf172b0d853e1 sha1 3d4fc4a7c0b86342cab5a7f53b0b77737b48a0d2 )
+	rom ( name palmos60-en-t3.rom size 16777216 crc 25314C62 md5 c2fae3ff41cc4f94be0fdaed1523ea99 sha1 858c62e21d3a42d2e70641d001a46ad44e923614 )
 
 	comment "Sega - Dreamcast"
 	rom ( name "dc/dc_boot.bin" size 2097152 crc 89F2B1A1 md5 e10c53c2f8b90bab96ead2d368858623 sha1 8951d1bb219ab2ff8583033d2119c899cc81f18c )
@@ -331,33 +414,28 @@ game (
 	rom ( name sega_100a.bin size 524288 crc F90F0089 md5 f273555d7d91e8a5a6bfd9bcf066331c sha1 3bb41feb82838ab9a35601ac666de5aacfd17a58 )
 	rom ( name sega_101.bin size 524288 crc 224B752C md5 85ec9ca47d8f6807718151cbcca8b964 sha1 df94c5b4d47eb3cc404d88b33a8fda237eaf4720 )
 	rom ( name vsaturn.bin size 524288 crc E4D61811 md5 ac4e4b6522e200c0d23d371a8cecbfd3 sha1 4154e11959f3d5639b11d7902b3a393a99fb5776 )
+	rom ( name "kronos/saturn_bios.bin" size 524288 crc 2ABA43C2 md5 af5828fdff51384f99b3c4926be27762 sha1 2b8cb4f87580683eb4d760e4ed210813d667f0a2 )
+	rom ( name "kronos/stvbios.zip" size 2956357 crc E597ACB5 md5 0e92c1e02862dfeb4cdef7f4414b14a9 sha1 279375f97736d8bc37f240b9f7d119d007df1c0e )
 
 	comment "Sharp - X1"
-	rom ( name iplrom.x1 size 4096 crc E70011D3 md5 eeeea1cd29c6e0e8b094790ae969bfa7 sha1 d3395e9aeb5b8bbba7654dd471bcd8af228ee69a )
-	rom ( name iplrom.x1t size 2048 crc E3995A57 md5 851e4a5936f17d13f8c39a980cf00d77 sha1 1c1a0d8c9f4c446ccd7470516b215ddca5052fb2 )
+	rom ( name "xmil/IPLROM.X1" size 4096 crc E70011D3 md5 eeeea1cd29c6e0e8b094790ae969bfa7 sha1 d3395e9aeb5b8bbba7654dd471bcd8af228ee69a )
+	rom ( name "xmil/IPLROM.X1T" size 2048 crc E3995A57 md5 851e4a5936f17d13f8c39a980cf00d77 sha1 1c1a0d8c9f4c446ccd7470516b215ddca5052fb2 )
 
 	comment "Sharp - X68000"
-	rom ( name cgrom.dat size 786432 crc 9F3195F1 md5 cb0a5cfcf7247a7eab74bb2716260269 sha1 8d72c5b4d63bb14c5dbdac495244d659aa1498b6 )
-	rom ( name iplrom.dat size 131072 crc 72BDF532 md5 7fd4caabac1d9169e289f0f7bbf71d8e sha1 0ed038ed2133b9f78c6e37256807424e0d927560 )
-	rom ( name iplrom30.dat size 131072 crc E8F8FDAD md5 f373003710ab4322642f527f567e020a sha1 239e9124568c862c31d9ec0605e32373ea74b86a )
 	rom ( name iplromco.dat size 131072 crc 6C7EF608 md5 cc78d4f4900f622bd6de1aed7f52592f sha1 77511fc58798404701f66b6bbc9cbde06596eba7 )
 	rom ( name iplromxv.dat size 131072 crc 00EEB408 md5 0617321daa182c3f3d6f41fd02fb3275 sha1 e33cdcdb69cd257b0b211ef46e7a8b144637db57 )
+	rom ( name "keropi/cgrom.dat" size 786432 crc 9F3195F1 md5 cb0a5cfcf7247a7eab74bb2716260269 sha1 8d72c5b4d63bb14c5dbdac495244d659aa1498b6 )
+	rom ( name "keropi/iplrom.dat" size 131072 crc 72BDF532 md5 7fd4caabac1d9169e289f0f7bbf71d8e sha1 0ed038ed2133b9f78c6e37256807424e0d927560 )
+	rom ( name "keropi/iplrom30.dat" size 131072 crc E8F8FDAD md5 f373003710ab4322642f527f567e020a sha1 239e9124568c862c31d9ec0605e32373ea74b86a )
 
 	comment "Sinclair - ZX Spectrum"
 	rom ( name 128-0.rom size 16384 crc E76799D2 md5 b4d2692115a9f2924df92a3cbfb358fb sha1 4f4b11ec22326280bdb96e3baf9db4b4cb1d02c5 )
 	rom ( name 128-1.rom size 16384 crc B96A36BE md5 6e09e5d3c4aef166601669feaaadc01c sha1 80080644289ed93d71a1103992a154cc9802b2fa )
 	rom ( name 128-spanish-0.rom size 16384 crc 453D86B2 md5 c1231a70b8129311216acb7479b031d5 sha1 968937b1c750f0ef6205f01c6db4148da4cca4e3 )
 	rom ( name 128-spanish-1.rom size 16384 crc 6010E796 md5 4f341936594cbcab75cfa62ce96e3682 sha1 bea3f397cc705eafee995ea629f4a82550562f90 )
-	rom ( name 128p-0.rom size 16384 crc 124AD9E0 md5 a249565f03b98d004ee7f019570069cd sha1 d07fcdeca892ee80494d286ea9ea5bf3928a1aca )
-	rom ( name 128p-1.rom size 16384 crc B96A36BE md5 6e09e5d3c4aef166601669feaaadc01c sha1 80080644289ed93d71a1103992a154cc9802b2fa )
-	rom ( name 256s-0.rom size 16384 crc 0EB40A09 md5 b9fda5b6a747ff037365b0e2d8c4379a sha1 477114ff0fe1388e0979df1423602b21248164e5 )
-	rom ( name 256s-1.rom size 16384 crc 9D513013 md5 643861ad34831b255bf2eb64e8b6ecb8 sha1 367b5a102fb663beee8e7930b8c4acc219c1f7b3 )
-	rom ( name 256s-2.rom size 16384 crc FD0D3CE1 md5 d8ad507b1c915a9acfe0d73957082926 sha1 07783ee295274d8ff15d935bfd787c8ac1d54900 )
-	rom ( name 256s-3.rom size 16384 crc 1FE1D003 md5 ce0723f9bc02f4948c15d3b3230ae831 sha1 33703e97cc93b7edfcc0334b64233cf81b7930db )
 	rom ( name 48.rom size 16384 crc DDEE531F md5 4c42a2f075212361c3117015b107ff68 sha1 5ea7c2b824672e914525d1d5c419d71b84a426a2 )
 	rom ( name disciple.rom size 8192 crc 82047489 md5 78e61a2a02121873c1756b21fd1398b1 sha1 9a75ed4b293f968985be4c9aa893cd88276d1ced )
 	rom ( name disk_plus3.szx size 1568 crc C2C6CBA7 md5 e6db6b9f6ad15012851115a7bc4b31d8 sha1 d7896640e18fc6204aa494835b0a430250fb06ce )
-	rom ( name gluck.rom size 16384 crc CA321D79 md5 d5869034604dbfd2c1d54170e874fd0a sha1 015eb96dafb273d4f4512c467e9b43c305fd1bc4 )
 	rom ( name if1-1.rom size 8192 crc E72A12AE md5 5c11c61a2dd2ca4bf39328d9ff42d289 sha1 4ffd9ed9c00cdc6f92ce69fdd8b618ef1203f48e )
 	rom ( name if1-2.rom size 8192 crc BB66DD1E md5 31b704ae925305e74f50699271fddd9a sha1 5cfb6bca4177c45fefd571734576b55e3a127c08 )
 	rom ( name plus2-0.rom size 16384 crc 5D2E8C66 md5 4ed7af4636308b8a48d7a35e6c5b546b sha1 72703f9a3e734f3c23ec34c0727aae4ccbef9a91 )
@@ -390,22 +468,31 @@ game (
 	rom ( name tc2048.rom size 16384 crc F1B5FA67 md5 9dd7ecf784a6c04265c073c236f5fadb sha1 febb2d495b6eda7cdcb4074935d6e9d9f328972d )
 	rom ( name tc2068-0.rom size 16384 crc BF44EC3F md5 55d462fccc6c536037404ef4ced08bec sha1 1446cb2780a9dedf640404a639fa3ae518b2d8aa )
 	rom ( name tc2068-1.rom size 8192 crc AE16233A md5 575d203c6e15e679fba0b73f854ec7a2 sha1 7e265a2c1f621ed365ea23bdcafdedbc79c1299c )
-	rom ( name trdos.rom size 16384 crc 10751ABA md5 0da70a5d2a0e733398e005b96b7e4ba6 sha1 21695e3f2a8f796386ce66eea8a246b0ac44810c )
-	rom ( name zx48.rom size 16384 crc DDEE531F md5 4c42a2f075212361c3117015b107ff68 sha1 5ea7c2b824672e914525d1d5c419d71b84a426a2 )
-	rom ( name zx128.rom size 32768 crc 2CBE8995 md5 85fede415f4294cc777517d7eada482e sha1 16375d42ea109b47edded7a16028de7fdb3013a1 )
+	rom ( name "ep128emu/roms/zx128.rom" size 32768 crc 2CBE8995 md5 85fede415f4294cc777517d7eada482e sha1 16375d42ea109b47edded7a16028de7fdb3013a1 )
+	rom ( name "ep128emu/roms/zx48.rom" size 16384 crc DDEE531F md5 4c42a2f075212361c3117015b107ff68 sha1 5ea7c2b824672e914525d1d5c419d71b84a426a2 )
+	rom ( name "fuse/128p-0.rom" size 16384 crc 124AD9E0 md5 a249565f03b98d004ee7f019570069cd sha1 d07fcdeca892ee80494d286ea9ea5bf3928a1aca )
+	rom ( name "fuse/128p-1.rom" size 16384 crc B96A36BE md5 6e09e5d3c4aef166601669feaaadc01c sha1 80080644289ed93d71a1103992a154cc9802b2fa )
+	rom ( name "fuse/256s-0.rom" size 16384 crc 0EB40A09 md5 b9fda5b6a747ff037365b0e2d8c4379a sha1 477114ff0fe1388e0979df1423602b21248164e5 )
+	rom ( name "fuse/256s-1.rom" size 16384 crc 9D513013 md5 643861ad34831b255bf2eb64e8b6ecb8 sha1 367b5a102fb663beee8e7930b8c4acc219c1f7b3 )
+	rom ( name "fuse/256s-2.rom" size 16384 crc FD0D3CE1 md5 d8ad507b1c915a9acfe0d73957082926 sha1 07783ee295274d8ff15d935bfd787c8ac1d54900 )
+	rom ( name "fuse/256s-3.rom" size 16384 crc 1FE1D003 md5 ce0723f9bc02f4948c15d3b3230ae831 sha1 33703e97cc93b7edfcc0334b64233cf81b7930db )
+	rom ( name "fuse/gluck.rom" size 16384 crc CA321D79 md5 d5869034604dbfd2c1d54170e874fd0a sha1 015eb96dafb273d4f4512c467e9b43c305fd1bc4 )
+	rom ( name "fuse/trdos.rom" size 16384 crc 10751ABA md5 0da70a5d2a0e733398e005b96b7e4ba6 sha1 21695e3f2a8f796386ce66eea8a246b0ac44810c )
 
 	comment "SNK - NeoGeo CD"
-	rom ( name 000-lo.lo size 131072 crc 5A86CFF2 md5 fc7599f3f871578fe9a0453662d1c966 sha1 5992277debadeb64d1c1c64b0a92d9293eaf7e4a )
-	rom ( name front-sp1.bin size 524288 crc CAC62307 md5 5c2366f25ff92d71788468ca492ebeca sha1 53bc1f283cdf00fa2efbb79f2e36d4c8038d743a )
-	rom ( name neocd.bin size 524288 crc DF9DE490 md5 f39572af7584cb5b3f70ae8cc848aba2 sha1 7bb26d1e5d1e930515219cb18bcde5b7b23e2eda )
-	rom ( name neocd_f.rom size 524288 crc 6FD2A520 md5 8834880c33164ccbe6476b559f3e37de sha1 a5f4a7a627b3083c979f6ebe1fabc5d2df6d083b )
-	rom ( name neocd_sf.rom size 524288 crc 1101F313 md5 043d76d5f0ef836500700c34faef774d sha1 4a94719ee5d0e3f2b981498f70efc1b8f1cef325 )
-	rom ( name neocd_st.rom size 524288 crc 01C299CC md5 f6325a33c6d63ea4b9162a3fa8c32727 sha1 19729b51bdab60c42aafef6e20ea9234c7eb8410 )
-	rom ( name neocd_sz.rom size 524288 crc 42F6B6C4 md5 971ee8a36fb72da57aed01758f0a37f5 sha1 6a947457031dd3a702a296862446d7485aa89dbb )
-	rom ( name neocd_t.rom size 524288 crc 56C9ECBA md5 de3cf45d227ad44645b22aa83b49f450 sha1 cc92b54a18a8bff6e595aabe8e5c360ba9e62eb5 )
-	rom ( name neocd_z.rom size 524288 crc 33697892 md5 11526d58d4c524daef7d5d677dc6b004 sha1 b0f1c4fa8d4492a04431805f6537138b842b549f )
-	rom ( name top-sp1.bin size 524288 crc C36A47C0 md5 122aee210324c72e8a11116e6ef9c0d0 sha1 235f4d1d74364415910f73c10ae5482d90b4274f )
-	rom ( name uni-bioscd.rom size 524288 crc FF3ABC59 md5 08ca8b2dba6662e8024f9e789711c6fc sha1 5142f205912869b673a71480c5828b1eaed782a8 )
+	rom ( name "neocd/000-lo.lo" size 131072 crc 5A86CFF2 md5 fc7599f3f871578fe9a0453662d1c966 sha1 5992277debadeb64d1c1c64b0a92d9293eaf7e4a )
+	rom ( name "neocd/front-sp1.bin" size 524288 crc CAC62307 md5 5c2366f25ff92d71788468ca492ebeca sha1 53bc1f283cdf00fa2efbb79f2e36d4c8038d743a )
+	rom ( name "neocd/neocd.bin" size 524288 crc DF9DE490 md5 f39572af7584cb5b3f70ae8cc848aba2 sha1 7bb26d1e5d1e930515219cb18bcde5b7b23e2eda )
+	rom ( name "neocd/neocd_f.rom" size 524288 crc 6FD2A520 md5 8834880c33164ccbe6476b559f3e37de sha1 a5f4a7a627b3083c979f6ebe1fabc5d2df6d083b )
+	rom ( name "neocd/neocd_sf.rom" size 524288 crc 1101F313 md5 043d76d5f0ef836500700c34faef774d sha1 4a94719ee5d0e3f2b981498f70efc1b8f1cef325 )
+	rom ( name "neocd/neocd_st.rom" size 524288 crc 01C299CC md5 f6325a33c6d63ea4b9162a3fa8c32727 sha1 19729b51bdab60c42aafef6e20ea9234c7eb8410 )
+	rom ( name "neocd/neocd_sz.rom" size 524288 crc 42F6B6C4 md5 971ee8a36fb72da57aed01758f0a37f5 sha1 6a947457031dd3a702a296862446d7485aa89dbb )
+	rom ( name "neocd/neocd_t.rom" size 524288 crc 56C9ECBA md5 de3cf45d227ad44645b22aa83b49f450 sha1 cc92b54a18a8bff6e595aabe8e5c360ba9e62eb5 )
+	rom ( name "neocd/neocd_z.rom" size 524288 crc 33697892 md5 11526d58d4c524daef7d5d677dc6b004 sha1 b0f1c4fa8d4492a04431805f6537138b842b549f )
+	rom ( name "neocd/top-sp1.bin" size 524288 crc C36A47C0 md5 122aee210324c72e8a11116e6ef9c0d0 sha1 235f4d1d74364415910f73c10ae5482d90b4274f )
+	rom ( name "neocd/uni-bioscd.rom" size 524288 crc FF3ABC59 md5 08ca8b2dba6662e8024f9e789711c6fc sha1 5142f205912869b673a71480c5828b1eaed782a8 )
+	rom ( name neocdz.zip size 953078 crc A034E470 md5 66bf2aeb1b870eac603925601e48af82 sha1 29380243b6f6c8e67816cf518a272cc8d932e2b5 )
+	rom ( name "neocd/ng-lo.rom" size 65536 crc E09E253C md5 e255264d85d5765013b1b2fa8109dd53 sha1 2b1c719531dac9bb503f22644e6e4236b91e7cfc )
 
 	comment "Sony - PlayStation"
 	rom ( name scph1000.bin size 524288 crc 3B601FC8 md5 239665b1a3dade1b5a52c06338011044 sha1 343883a7b555646da8cee54aadd2795b6e7dd070 )
@@ -505,9 +592,10 @@ game (
 	rom ( name "pcsx2/bios/ps2-0230h-20080220.bin" size 4194304 crc 191174D4 md5 30d56e79d89fbddf10938fa67fe3f34e sha1 a277b456849697abec11285c6b35bc734598c220 )
 	rom ( name "pcsx2/bios/ps2-0250e-20100415.bin" size 4194304 crc 7E75FC28 md5 93ea3bcee4252627919175ff1b16a1d9 sha1 b9cb5775af29cd4d1ec5521e8231f8b6636e2e44 )
 	rom ( name "pcsx2/bios/ps2-0250j-20100415.bin" size 4194304 crc 4E8C160C md5 d3e81e95db25f5a86a7b7474550a2155 sha1 4b5ef16b67e3b523d28ed2406106cb80470a06d0 )
+	rom ( name "pcsx2/resources/GameIndex.yaml" size 1737799 crc 20B4EA53 md5 526291c9c9bae8b184b0e5f4bfa94eb9 sha1 57369df9ca82a460e596cea7835c5a0797dee668 )
 
 	comment "Sony - PlayStation Portable"
-	rom ( name ppge_atlas.zim size 666530 crc 7B57FA78 md5 866855cc330b9b95cc69135fb7b41d38 sha1 30a33f3651f8e1b0967a5dfe6ff714baebcce41a )
+	rom ( name "PPSSPP/ppge_atlas.zim" size 666530 crc 7B57FA78 md5 866855cc330b9b95cc69135fb7b41d38 sha1 30a33f3651f8e1b0967a5dfe6ff714baebcce41a )
 
 	comment "Texas Instruments TI-83"
     rom ( name ti83se.rom size 2097152 crc 200DD7D0 md5 c6ff8204c5c81b7be34614dbbd690c8b sha1 8177bc6d5489d575cbfa9a004d097fc08c6f8c86 )
@@ -515,14 +603,56 @@ game (
     rom ( name ti83.rom size 262144 crc 4BF05697 md5 d4448d09bbfde687c04f9e3310e023ab sha1 ef66dad3e7b2b6a86f326765e7dfd7d1a308ad8f )
 
 	comment "Videoton - TV Computer"
-	rom ( name tvcfileio.rom size 8192 crc 950E32FD md5 a2cf86ba8e7fc58b242137fe59036832 sha1 98889c3a56b11dedf077f866ed2e12d51b604113 )
-	rom ( name tvc22_ext.rom size 8192 crc 05E1C3A8 md5 5ce95a26ceed5bec73995d83568da9cf sha1 abf119cf947ea32defd08b29a8a25d75f6bd4987 )
-	rom ( name tvc22_sys.rom size 16384 crc 79FA818C md5 8c54285f541930cde766069942bad0f2 sha1 f2572ee83d09fc08f4de4a62f101c8bb301a9505 )
-	rom ( name tvc_dos12d.rom size 16384 crc 1466AED4 md5 88dc7876d584f90e4106f91444ab23b7 sha1 072c6160d4e7d406f5d8f5b1b66066c797d35561 )
+	rom ( name "ep128emu/roms/tvc22_ext.rom" size 8192 crc 05E1C3A8 md5 5ce95a26ceed5bec73995d83568da9cf sha1 abf119cf947ea32defd08b29a8a25d75f6bd4987 )
+	rom ( name "ep128emu/roms/tvc22_sys.rom" size 16384 crc 79FA818C md5 8c54285f541930cde766069942bad0f2 sha1 f2572ee83d09fc08f4de4a62f101c8bb301a9505 )
+	rom ( name "ep128emu/roms/tvc_dos12d.rom" size 16384 crc 1466AED4 md5 88dc7876d584f90e4106f91444ab23b7 sha1 072c6160d4e7d406f5d8f5b1b66066c797d35561 )
+	rom ( name "ep128emu/roms/tvcfileio.rom" size 8192 crc 950E32FD md5 a2cf86ba8e7fc58b242137fe59036832 sha1 98889c3a56b11dedf077f866ed2e12d51b604113 )
+
+	comment "Vircon32"
+	rom ( name Vircon32Bios.v32 size 1073060 crc D4F7327D md5 73f04397cbb2dafcf2047b19a856153a sha1 67ddbcd018f03ed74b6e013074d92cc5f1f51c80 )
 
 	comment "Wolfenstein 3D"
 	rom ( name ecwolf.pk3 size 178755 crc 26DC3FBA md5 c011b428819eea4a80b455c245a5a04d sha1 9259b87edfe9b9f6d0749788a75a6ccf158f50aa )
 
 	comment "ScummVM"
 	rom ( name scummvm.zip size 9523360 crc A93F1C4B md5 a17e0e0150155400d8cced329563d9c8 sha1 718c1a00d38e0810a1ad0ffde79f73447f846f01 )
+	rom ( name "scummvm/extra/Roland_SC-55.sf2" size 3283278 crc 2F280FCC md5 dbb97c34404b753724a66fe0108a32e1 sha1 9dba9212f2e34446ab034595665809f09f303d63 )
+	rom ( name "scummvm/extra/access.dat" size 409472 crc C21AAF8F md5 f1925ac548f9551d9d8f648dbc92c897 sha1 2b0cc66a507a159a3a44160cc80c561171798f85 )
+	rom ( name "scummvm/extra/achievements.dat" size 249239 crc 6B35801F md5 73cf5bd61896442a990e363f284a0bc2 sha1 379f9def6d0de4b4bad18b0177df81783a51f17b )
+	rom ( name "scummvm/extra/cryo.dat" size 12499 crc 34B2202C md5 fc5886ea5388f20eae299bb408da5bcc sha1 220c2fe52d26b8607abeb2ad4a8ea4324daea5ba )
+	rom ( name "scummvm/extra/cryomni3d.dat" size 34576 crc 3F109488 md5 474e9a57b74c368acc8d19e8d63e3288 sha1 32a9e6f7a80e585c679b7e09df90bf2d2d20e8ad )
+	rom ( name "scummvm/extra/drascula.dat" size 259619 crc E4D1D147 md5 2647b6dff6d117b217dd9896cd25b34e sha1 16a45d421e92b74cbc8cfe53486474700cc176d7 )
+	rom ( name "scummvm/extra/encoding.dat" size 179670 crc D3235017 md5 f2e88b2faec499a4914c3a0bcffc7db1 sha1 11d3873337827195bc16c3d3175ad00f1777ed95 )
+	rom ( name "scummvm/extra/fonts.dat" size 1996401 crc 099D83FD md5 65025f90c134e4538efd306e36341aa1 sha1 1f194d6a55882967e4c4d4e4692fb4aa5c992069 )
+	rom ( name "scummvm/extra/freescape.dat" size 55245 crc B02F9ABB md5 30ca162d03b65f46997fa43e1093839e sha1 4ed259b5b27d8dfcf4815a73a9946f4ed709457e )
+	rom ( name "scummvm/extra/grim-patch.lab" size 9341 crc D4CCF3AB md5 32b777b824f02b1e1259903740964058 sha1 3c43b7a0125f88a9f83ae4307dca57867ffd637c )
+	rom ( name "scummvm/extra/hadesch_translations.dat" size 431 crc 2BDE2E57 md5 7857da7e56a11e0749fb45100c323b3c sha1 17aae444b3010e72e092635d25d3b93c104b0ad2 )
+	rom ( name "scummvm/extra/hugo.dat" size 189584 crc E8D147EF md5 0856a20f18b3319c92b710ef80d886cd sha1 932c0d6f73effea91a6fca7ac73439e104952205 )
+	rom ( name "scummvm/extra/kyra.dat" size 1696846 crc 75CBDF42 md5 21a57f79886e46f410cfb50186ed8d77 sha1 dda6002f09035101a4bf004c1623f8490d739aa1 )
+	rom ( name "scummvm/extra/lure.dat" size 637824 crc 8B7DC57F md5 75a83c781ac7024fc9c1b6f7ecc5b936 sha1 22c05c0a49c218a4194ccfb670604c8277b9a1f2 )
+	rom ( name "scummvm/extra/macgui.dat" size 65656 crc 858D3D40 md5 d97f2965013b343dd3d4fdbbc7192f15 sha1 1eed577281b8819367d1ee99b1a76ff3e1920735 )
+	rom ( name "scummvm/extra/macventure.dat" size 4167 crc 3CF789F2 md5 d855abc95d2b7c03b748631c08603ebb sha1 156d1b9a18e5bd3b90b1b2820acf198af1f65ead )
+	rom ( name "scummvm/extra/mm.dat" size 266845 crc E8217E0E md5 fc20f5064386a19d39bd5f9df0a542fa sha1 d3ae68a09f8c60a32ce42736ed8d276825fbf446 )
+	rom ( name "scummvm/extra/monkey4-patch.m4b" size 2990 crc A229C4CF md5 9eb7b7e7cc7dad1fe08be6e73d749abe sha1 49fc530e77b61f326f6e1d5a5147daa2fd67d1e2 )
+	rom ( name "scummvm/extra/mort.dat" size 76302 crc 6D234148 md5 3cfb16d7bab4d77606b3b1274b8ae870 sha1 0b9d0fa2a18eadf61aeddc19128ef90898ab7206 )
+	rom ( name "scummvm/extra/myst3.dat" size 358287 crc 316151A0 md5 54e9056211f2fff255b6f66a3fe39a8d sha1 5fbf7b1a596219f0daab60a8ceb2f1e59e042243 )
+	rom ( name "scummvm/extra/nancy.dat" size 251046 crc 05E6DBC9 md5 e482c84f583783b4b9dea5374aa232da sha1 18fb24c236adb974ade847794044914a81d539aa )
+	rom ( name "scummvm/extra/neverhood.dat" size 23804 crc 25B76433 md5 dfaab12ffb265646f31f51b6904246d1 sha1 490012c996ba0c56dd8d077e1418ee53b1e96397 )
+	rom ( name "scummvm/extra/queen.tbl" size 1084522 crc EE33B23C md5 4f5b513b52c4ef6fb1c46e984760a3b7 sha1 800ed1a38a1ba46c3e57281c6d50671dd62d44ff )
+	rom ( name "scummvm/extra/sky.cpt" size 419427 crc A7957203 md5 9d00157b1cebd6368cbf88135c098f40 sha1 fa03ede717223eaf011491d2066e37eb112e735b )
+	rom ( name "scummvm/extra/supernova.dat" size 420725 crc B5E601A3 md5 f6af52d51152447f43cf3cf9a50bc144 sha1 f81b0a129e7ac35bd0e9e29a3205eb2c7f26bfbb )
+	rom ( name "scummvm/extra/teenagent.dat" size 141090 crc 6AE16BB9 md5 aaaf8792af40c80122d7dbecaf1dee20 sha1 6a5c43732e30e25ace6b6ba2b28f038b24cc497f )
+	rom ( name "scummvm/extra/titanic.dat" size 3197968 crc 96CE1712 md5 4b2fb71201dc3795cff45df6200a1918 sha1 15f51828f08fdbe01b56123e96312b5859a968c0 )
+	rom ( name "scummvm/extra/tony.dat" size 24584 crc D525AAC3 md5 891022a4e2917bb54b5cdc9a46f5b3df sha1 a5e19f364bda6a0d2330495114c9ad665bb79ad0 )
+	rom ( name "scummvm/extra/toon.dat" size 17986 crc C8CEACC9 md5 730f63ea46169f56bb4f9fa0637baef0 sha1 6f8a60b0d51de1e86ab3a51c932a78a642c1567a )
+	rom ( name "scummvm/extra/ultima.dat" size 15979622 crc F2699208 md5 420ef1f96eee6dc15395330f28923be2 sha1 c9207e9c33264134e94cfaf28c638431fdcd8772 )
+	rom ( name "scummvm/extra/vkeybd_default.zip" size 184946 crc F6C16F98 md5 bf51a61f07625ea20e891058afaa892c sha1 4d787bd5a071c729c4f374e6e7c7d7b06d7f9f63 )
+	rom ( name "scummvm/extra/wintermute.zip" size 4057 crc 972EFE9A md5 46ab65cb137a4fc8710a8f3b9455e50e sha1 9f4b31838c16baf518ae14dd44dc54973a3508df )
+	rom ( name "scummvm/theme/gui-icons.dat" size 3300128 crc 9B4519E8 md5 17150a7a6ed5c4d5c0384b95c5fce479 sha1 7fd69a142d0333e1514a8c819b610a7471162d9e )
+	rom ( name "scummvm/theme/residualvm.zip" size 90553 crc 8A482338 md5 9cbffee094a6bfa1765e2f6ba15a268e sha1 f1bcabae2c99b34bc88975c89d042a179caef9d8 )
+	rom ( name "scummvm/theme/scummclassic.zip" size 15872 crc 8387238F md5 57aaebd10238ffe3863192254629aaa9 sha1 8e5aff75e4aa42b365e8f32223d6fef0b789d646 )
+	rom ( name "scummvm/theme/scummmodern.zip" size 283299 crc A641843B md5 b470c7205246a0bb4718ca0a27d25055 sha1 132dcce3ea2f9b6c33b17e55fa2e75f5ee34a33a )
+	rom ( name "scummvm/theme/scummremastered.zip" size 283227 crc F1D52065 md5 15600f0b0274f2ab4dd0c181e4ae3e95 sha1 6016da4b71e5f46f5866f5acf824c337a0e3ee5c )
+	rom ( name "scummvm/theme/shaders.dat" size 657234 crc CB68C12E md5 f073f17187d0bfa3e7ebb7f328847969 sha1 c67ec35c3f6e2ba7f09b8f61a78df7f713ff040c )
+	rom ( name "scummvm/theme/translations.dat" size 3191299 crc BD7A5F25 md5 1ca707498f9024c292ca745c5727a751 sha1 e3e3470ff75afa10b7cbdebbd41fba45a7fe0f94 )
 )
