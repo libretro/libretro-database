@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Vircon32"
 	description "Vircon32"
-	version "2024.08.25"
+	version "2026.09.06"
 )
 
 game (
@@ -33,11 +33,20 @@ game (
 
 game (
 	name "Blips"
-	description "A sokoban variant where you need to collect coins and use dynamite."
+	description "A sokoban variant where you need to collect coins and use dynamite. Ported from the MS-DOS game Bips."
 	developer "Willems Davy"
 	download "https://joyrider3774.itch.io/blips-vircon32-version"
 	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Blips"
 	rom ( name "Blips.v32" size 30596288 crc BCAE67C9 md5 5d4b2f24778e02495bc52ca8761005cf )
+)
+
+game (
+	name "Blips 2"
+	description "This is an update of the first Blips, now also with the levels from Bips Gold and Bips Platinum."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/blips-vircon32-version"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Blips2"
+	rom ( name "Blips 2.v32" size 34225444 crc cf39bdfd md5 cd5022c867517601c40a026c29700aee )
 )
 
 game (
@@ -53,9 +62,9 @@ game (
 	name "Bricks (Demo)"
 	description "A simple proof of concept for an Arkanoid style game."
 	developer "Carra"
+	download "https://www.vircon32.com/games.html"
 	homepage "https://github.com/vircon32/ConsoleSoftware/tree/main/GameDemos/Demo-Bricks"
 	rom ( name "Bricks (Demo).v32" size 5156372 crc 96ab95aa md5 bc2b38f2359cb4bc3c46d521094d2401 )
-
 )
 
 game (
@@ -68,6 +77,42 @@ game (
 )
 
 game (
+	name "Crisp Game Lib"
+	description "A selection of 266 games from Crisp, a very simple game library."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/crisp-game-library-portable-vircon-32"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/CrispGameLibPortable"
+	rom ( name "Crisp Game Lib.v32" size 1978468 crc 9abca3ca md5 5dbdecdd671894569be4f4aa73f0eab6 )
+)
+
+game (
+	name "Doom (frameskip)"
+	description "A port of the original shareware Doom. This version has automatic frame skip, so it preserves speed."
+	developer "Glebasos"
+	download "https://github.com/glebasos/VirconDoom/tree/main/bin"
+	homepage "https://github.com/glebasos/VirconDoom/tree/main"
+	rom ( name "Doom (frameskip).v32" size 40103588 crc e4bc45ee md5 3a3be3dd0b45350025005dc02905c55c )
+)
+
+game (
+	name "Doom (original)"
+	description "A port of the original shareware Doom. This version does not skip frames, so it has slowdown."
+	developer "Glebasos"
+	download "https://github.com/glebasos/VirconDoom/tree/main/bin"
+	homepage "https://github.com/glebasos/VirconDoom/tree/main"
+	rom ( name "Doom (original).v32" size 40102844 crc 90232e4c md5 e27ad2396e8138667bb5a06c7befa700 )
+)
+
+game (
+	name "Electron Cat"
+	description "Cute platformer in the style of modern indie games where your cat can go through walls."
+	developer "Palta"
+	download "https://paltra.itch.io/electron-cat"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Electron-cat"
+	rom ( name "Electron Cat.v32" size 6859332 crc 561aa984 md5 cd2258119e91ad19231a1ff3b9a4c0cd )
+)
+
+game (
 	name "Fierce Soldier"
 	description "This is a Contra style game where you shoot at enemies in 3 levels."
 	developer "Carra"
@@ -77,12 +122,39 @@ game (
 )
 
 game (
+	name "Fifteen"
+	description "This game converts the Vircon32 version of 2048 into the classic slide puzzle."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/fifteen-vircon32"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Fifteen"
+	rom ( name "Fifteen.v32" size 27212536 crc f494a9da md5 581d4bcb59da860d2a20567d010fbd64 )
+)
+
+game (
 	name "Formula1"
 	description "Simulation of an old LCD handheld with a racing game."
 	developer "Willems Davy"
 	download "https://joyrider3774.itch.io/formula-1-vircon32-version"
 	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Formula1"
 	rom ( name "Formula1.v32" size 1822340 crc 82D4BF1C md5 73FB3BD4358ADF40F2643903972D91C9 )
+)
+
+game (
+	name "Gamebuino Classic"
+	description "A selection of 82 games ported from the girst Gamebuino, a simple handheld based on Arduino."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/gambuino-classic-vircon32"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/GamebuinoClassic"
+	rom ( name "Gamebuino Classic.v32" size 22300448 crc 71b989ee md5 39a90989ef4ea5c171532cfab9a638f7 )
+)
+
+game (
+	name "Haunty Ghost"
+	description "A cute little ghost has to go through columns in a castle, Flappy Bird style."
+	developer "Dawson Morey"
+	download "https://github.com/vircon32/CommunityContent/tree/main/Games/HauntyGhost/bin"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/HauntyGhost"
+	rom ( name "Haunty Ghost.v32" size 11678972 crc 54d6c302 md5 abd71e6e4ffacf6585ea97a73de4ac22 )
 )
 
 game (
@@ -96,7 +168,7 @@ game (
 
 game (
 	name "Mahjong"
-	description "Mahjong solitaire"
+	description "Mahjong solitaire with 4 different layouts, with controls optimized for a gamepad."
 	developer "Carra"
 	download "https://www.vircon32.com/games.html"
 	homepage "https://github.com/vircon32/ConsoleSoftware/tree/main/Games/Mahjong"
@@ -209,6 +281,15 @@ game (
 	download "https://www.vircon32.com/games.html"
 	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/SimpleTennis"
 	rom ( name "Simple Tennis.v32" size 735912 crc c05ceed3 md5 767eaa944a6df2d2cb3f3b20d2cb9abb )
+)
+
+game (
+	name "Skyward Escape"
+	description "Fly your plane in a missile-infested sky and try to survive as long as you can."
+	developer "Josiah Wieland"
+	download "https://github.com/vircon32/CommunityContent/tree/main/Games/SkywardEscape/bin"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/SkywardEscape"
+	rom ( name "Skyward Escape.v32" size 40476972 crc dbef63ad md5 08fbc1379f30803496c8498b9c03e7a5 )
 )
 
 game (
@@ -347,6 +428,15 @@ game (
 )
 
 game (
+	name "Tinyjoypad"
+	description "A selection of 82 games ported from Tinyjoypad, a simple handheld based on ATTiny85."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/gambuino-classic-vircon32"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Tinyjoypad"
+	rom ( name "Tinyjoypad.v32" size 17104292 crc b4ce13eb md5 ce0e9f4e2ff8b211eda75908d87a529a )
+)
+
+game (
 	name "Triple Bubble (Demo)"
 	description "A bubble shooting game."
 	developer "Carra"
@@ -389,6 +479,15 @@ game (
 	download "https://joyrider3774.itch.io/waternet-vircon32-version"
 	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Waternet"
 	rom ( name "Waternet.v32" size 18759376 crc CFEE6F4B md5 031e190295e937d770b4039a1dc5f164 )
+)
+
+game (
+	name "Worm"
+	description "A remake of the classic copter/worm game with multiple gameplay modes."
+	developer "Willems Davy"
+	download "https://joyrider3774.itch.io/worm-vircon32-version"
+	homepage "https://github.com/vircon32/CommunityContent/tree/main/Games/Worm"
+	rom ( name "Worm.v32" size 400552 crc dcaf4612 md5 ba9b3d15700ac379082d1452a760c97e )
 )
 
 game (
