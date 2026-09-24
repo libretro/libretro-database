@@ -740,6 +740,10 @@ class FetchSubCommand(BaseModel, VerboseArgs):
 
                 async with httpx.AsyncClient() as client:
                     async with client.stream("GET", dump_url, timeout=httpx.Timeout(None)) as response:
+                        if response.status_code == 404:
+                            print(f"Error: dump {name} not found at {dump_url}, skipping", file=sys.stderr)
+                            return
+
                         response.raise_for_status()
                         content_type = response.headers.get('content-type')
 
