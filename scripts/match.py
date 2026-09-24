@@ -1616,7 +1616,8 @@ class IndexSubCommand(BaseModel, CommonArgs, PlaylistArgs, IndexArgs, PoolArgs, 
             )
             self._log.info("Matched %d ROMs on serial", result.rowcount)
 
-            # Whatever Hasheous knows about but the DAT files don't gets its own row.
+            # Every Hasheous ROM that no DAT ROM claimed gets its own row,
+            # including the ones that share a hash with a DAT ROM that another Hasheous ROM claimed first.
             result = await tx.execute(
                 insert(allroms).from_select(
                     ["hasheous_rom", "crc", "serial", "md5", "sha1", "sha256"],
@@ -1631,6 +1632,25 @@ class IndexSubCommand(BaseModel, CommonArgs, PlaylistArgs, IndexArgs, PoolArgs, 
                 ).on_conflict_do_nothing()
             )
             self._log.info("Inserted %d unmatched Hasheous ROMs", result.rowcount)
+
+            # `IndexReader.hasheous_links` finds Hasheous ROMs by CRC,
+            # but some sources (e.g. WHDLoad and RetroAchievements) list none.
+            # Such a ROM is the same dump as a DAT ROM with the same hash,
+            # so it takes that ROM's CRC rather than go unfound.
+            dat_side = allroms.alias("dat_side")
+            for match_column in ("sha1", "md5"):
+                result = await tx.execute(
+                    allroms.update()
+                        .where(
+                            allroms.c.dat_rom.is_(None),
+                            allroms.c.crc.is_(None),
+                            allroms.c[match_column] == dat_side.c[match_column],
+                            dat_side.c.dat_rom.is_not(None),
+                            dat_side.c.crc.is_not(None),
+                        )
+                        .values(crc=dat_side.c.crc)
+                )
+                self._log.info("Gave %d unmatched Hasheous ROMs a CRC by %s", result.rowcount, match_column)
 
             await tx.commit()
 
