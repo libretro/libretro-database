@@ -86,7 +86,8 @@ class MetadataItem:
     __pydantic_config__: ClassVar[ConfigDict] = ConfigDict(alias_generator=to_pascal)
 
     id: EmptyStringToNone[str]
-    immutable_id: EmptyStringToNone[str]
+    immutable_id: Annotated[EmptyStringToNone[str], Field(default=None)]
+    """Missing from unmapped entries in newer dumps."""
     status: MappingStatus
     match_method: str
     source: str
