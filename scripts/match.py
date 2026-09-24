@@ -41,14 +41,16 @@ from sqlalchemy import CheckConstraint, ForeignKey, MetaData, Column, Row, Selec
 from sqlalchemy.dialects.sqlite import insert
 from sqlalchemy.ext.asyncio import AsyncConnection, AsyncEngine, create_async_engine
 from sqlalchemy.sql.functions import coalesce, count
+from titlecase import titlecase
 
-from dats import DAT_OBJECT_TYPES, ClrMamePro, CompiledEntry, DatTable, ParsedDatFile, compile_dats_async, encode_dat, get_dat_match, index_dats, write_dat_key_index, Game as DatGame, Rom as DatRom
+from dats import DAT_OBJECT_TYPES, ClrMamePro, CompiledEntry, DatTable, ParsedDatFile, compile_dats_async, encode_dat, get_dat_match, index_dats, write_dat_key_index, Game as DatGame, PlaylistGameMapping as DatPlaylistGameMapping, Rom as DatRom
 from igdb import (
     IGDB_OBJECT_TYPES,
     DumpIdType,
     IgdbConfig,
     Playlist,
     PlaylistConfig,
+    RegionConfig,
     index_igdb,
     AgeRating as IgdbAgeRating,
     AgeRatingCategory as IgdbAgeRatingCategory,
@@ -258,109 +260,12 @@ A few IGDB keywords contain them (e.g. "day/night cycle"),
 which would turn into tags that don't exist.
 """
 
-IGDB_REGIONS_BY_DAT_REGION: Mapping[str, tuple[int, ...]] = {
-    # IGDB release regions: 1 europe, 2 north_america, 3 australia, 4 new_zealand, 5 japan,
-    # 6 china, 7 asia, 8 worldwide, 9 korea, 10 brazil
-    "USA": (2,),
-    "Canada": (2,),
-    "Europe": (1,),
-    "UK": (1,), "United Kingdom": (1,), "Germany": (1,), "France": (1,), "Spain": (1,),
-    "Italy": (1,), "Netherlands": (1,), "Sweden": (1,), "Scandinavia": (1,), "Denmark": (1,),
-    "Norway": (1,), "Finland": (1,), "Poland": (1,), "Portugal": (1,), "Greece": (1,),
-    "Austria": (1,), "Switzerland": (1,), "Belgium": (1,), "Russia": (1,),
-    "Japan": (5,),
-    "Australia": (3,),
-    "New Zealand": (4,),
-    "China": (6,), "Hong Kong": (6, 7), "Taiwan": (7,),
-    "Asia": (7,),
-    "Korea": (9,),
-    "Brazil": (10,),
-    "World": (8,),
-}
-"""Maps the regions that DAT files name (mostly No-Intro's) to IGDB's release regions."""
-
-DAT_REGIONS: frozenset[str] = frozenset((
-    *IGDB_REGIONS_BY_DAT_REGION,
-    "Argentina", "Belarus", "Bosnia and Herzegovina", "Chile", "Croatia", "Czech Republic",
-    "Estonia", "Hungary", "Iceland", "India", "Ireland", "Israel", "Latin America", "Latvia",
-    "Lithuania", "Mexico", "Peru", "Romania", "Serbia", "Singapore", "Slovakia", "Slovenia",
-    "South Africa", "Turkey", "Ukraine", "United Arab Emirates", "Yugoslavia",
-))
-"""Every region that a No-Intro or Redump name may list."""
-
-REGION_ALIASES: Mapping[str, str] = {
-    "UK": "United Kingdom",
-    "United States": "USA",
-    "Worldwide": "World",
-    "South Korea": "Korea",
-}
-"""
-Region names that the DAT files' own `region` fields spell differently.
-Most of the DAT files spell the UK "United Kingdom", even though No-Intro names use "(UK)".
-"""
-
-REGION_LANGUAGES: Mapping[str, frozenset[str]] = {
-    "USA": frozenset(("English",)),
-    "United Kingdom": frozenset(("English",)),
-    "Ireland": frozenset(("English",)),
-    "Australia": frozenset(("English",)),
-    "New Zealand": frozenset(("English",)),
-    "Canada": frozenset(("English", "French")),
-    "Japan": frozenset(("Japanese",)),
-    "Korea": frozenset(("Korean",)),
-    "China": frozenset(("Chinese",)),
-    "Taiwan": frozenset(("Chinese",)),
-    "Hong Kong": frozenset(("Chinese", "English")),
-    "Germany": frozenset(("German",)),
-    "Austria": frozenset(("German",)),
-    "France": frozenset(("French",)),
-    "Spain": frozenset(("Spanish",)),
-    "Mexico": frozenset(("Spanish",)),
-    "Argentina": frozenset(("Spanish",)),
-    "Italy": frozenset(("Italian",)),
-    "Netherlands": frozenset(("Dutch",)),
-    "Portugal": frozenset(("Portuguese",)),
-    "Brazil": frozenset(("Portuguese",)),
-    "Sweden": frozenset(("Swedish",)),
-    "Denmark": frozenset(("Danish",)),
-    "Norway": frozenset(("Norwegian",)),
-    "Finland": frozenset(("Finnish",)),
-    "Poland": frozenset(("Polish",)),
-    "Russia": frozenset(("Russian",)),
-    "Greece": frozenset(("Greek",)),
-    "Czech Republic": frozenset(("Czech",)),
-    "Hungary": frozenset(("Hungarian",)),
-    "Turkey": frozenset(("Turkish",)),
-}
-"""
-The languages that a region's releases are normally in,
-for the regions that have only one or two.
-
-What IGDB or Hasheous say about a whole game's languages
-is only trusted for a dump that's from one of these regions
-if it agrees with them; IGDB often lists only the language of a game's original release.
-"""
-
 TRANSLATION_TAG = re.compile(r"[(\[]T[-+]")
 """
 Marks a fan translation in No-Intro (e.g. "(T-En by ...)") or GoodTools (e.g. "[T+Eng]") names.
 
 A translation isn't in the languages of the game it translates.
 """
-
-IGDB_RELEASE_REGIONS: Mapping[int, str] = {
-    1: "Europe",
-    2: "USA",
-    3: "Australia",
-    4: "New Zealand",
-    5: "Japan",
-    6: "China",
-    7: "Asia",
-    8: "World",
-    9: "Korea",
-    10: "Brazil",
-}
-"""IGDB's release regions, spelled the way the DAT files spell them."""
 
 WORLDWIDE = 8
 
@@ -372,31 +277,6 @@ COOP_MODE = 3
 
 CONSOLE_PLATFORM_TYPES = frozenset((1, 5))
 """IGDB's platform types for consoles and portable consoles."""
-
-class RatingBoard(NamedTuple):
-    field: str
-    founded: int
-    """The year the board started rating games; a release before then was never rated by it."""
-
-    regions: frozenset[int]
-    """The IGDB release regions whose releases the board rates, including worldwide releases."""
-
-
-RATING_BOARDS: Mapping[str, RatingBoard] = {
-    "ESRB": RatingBoard("esrb_rating", 1994, frozenset((2, WORLDWIDE))),
-    "PEGI": RatingBoard("pegi_rating", 2003, frozenset((1, WORLDWIDE))),
-    "CERO": RatingBoard("cero_rating", 2002, frozenset((5, WORLDWIDE))),
-}
-"""
-IGDB records age ratings per game rather than per release,
-so a rating may well belong to a re-release on some later platform
-(e.g. the SNES's Chrono Trigger carries the E10+ of its DS port).
-A rating is only kept for an entry released in the board's region
-after the board existed, on the playlist's platform.
-"""
-
-IGNORED_AGE_RATINGS = frozenset(("RP",))
-"""ESRB's "Rating Pending" isn't a rating."""
 
 
 def playlist_igdb_platforms(playlist: Playlist) -> frozenset[int] | None:
@@ -424,34 +304,119 @@ def language_name(name: str | None) -> str | None:
     return name if len(name) > 2 and re.fullmatch(r"[A-Z][a-z]+(?: [A-Z][a-z]+)*", name) else None
 
 
-def country_region(code: str | None, name: str | None, regions_by_code: Mapping[str, str]) -> str | None:
+def country_region(code: str | None, name: str | None, regions_by_code: Mapping[str, str], aliases: Mapping[str, str]) -> str | None:
     """
     Spells one of Hasheous's countries the way the DAT files spell regions,
     or returns None if it isn't a country at all (e.g. "Unset", or a bare code like "ss").
 
     :param regions_by_code: See `HasheousConfig.regions_by_country_code`.
+    :param aliases: See `RegionConfig.aliases`.
     """
     if code and (region := regions_by_code.get(code)):
         return region
 
     if name and name != "Unset" and re.fullmatch(r"[A-Z][A-Za-z]*(?: [A-Za-z]+)*", name):
-        return REGION_ALIASES.get(name, name)
+        return aliases.get(name, name)
 
     return None
 
 
-def hasheous_game_region(value: str, regions_by_code: Mapping[str, str]) -> str | None:
+def hasheous_game_region(value: str, regions_by_code: Mapping[str, str], aliases: Mapping[str, str]) -> str | None:
     """Parses one of the countries that Hasheous lists for a whole game, e.g. "Japan (JP)"."""
     if match := re.fullmatch(r"(.*?)\s*\(([^()]*)\)", value):
-        return country_region(match[2], match[1], regions_by_code)
+        return country_region(match[2], match[1], regions_by_code, aliases)
 
-    return country_region(None, value, regions_by_code)
+    return country_region(None, value, regions_by_code, aliases)
 
 
 def json_object(value: str | None) -> dict[str, Any]:
     """Parses a JSON object, or returns an empty one if `value` is anything else."""
     parsed = json.loads(value) if value else None
     return parsed if isinstance(parsed, dict) else {}
+
+
+def explore_key(value: str) -> bytes:
+    """
+    Returns what RetroArch's Explore menu identifies a value by
+    (see `ex_hash32_nocase_filtered` in `menu/menu_explore.c`):
+    its bytes without spaces or punctuation below `'0'`, with ASCII letters lowercased.
+
+    Explore lists values with the same key as one,
+    under whichever spelling it read first.
+    """
+    return bytes(b | 0x20 if 0x41 <= b <= 0x5A else b for b in value.encode("utf-8", "surrogateescape") if b >= 0x30)
+
+
+class Spellings:
+    """
+    The spellings that the existing DAT files use for one field's values,
+    so that a value from IGDB can be written the way they already spell it.
+
+    Where the DATs disagree, the spelling used by the most playlists' DATs wins;
+    a tie goes to the one used by more entries.
+    """
+
+    def __init__(self, uses: Iterable[tuple[str, str, int]]) -> None:
+        """
+        :param uses: How many entries of which playlist's DATs use each value, as `(value, playlist, entries)`.
+          A value that lists several (e.g. "Capcom / Arika") counts for itself and for each of them.
+        """
+        playlists: dict[str, set[str]] = defaultdict(set)
+        entries: Counter[str] = Counter()
+        for value, playlist, n in uses:
+            for spelling in {value, *(part.strip() for part in TAG_SEPARATORS.split(value))}:
+                playlists[spelling].add(playlist)
+                entries[spelling] += n
+
+        self._by_key: dict[bytes, str] = {}
+        for spelling in sorted(playlists, key=lambda s: (-len(playlists[s]), -entries[s], s)):
+            if key := explore_key(spelling):
+                self._by_key.setdefault(key, spelling)
+
+    def respell(self, value: str) -> str:
+        """Returns how the DATs spell `value` (see `explore_key`), or `value` if they don't use it."""
+        return self._by_key.get(explore_key(value), value)
+
+
+SPELLING_FIELDS: Mapping[str, tuple[str, ...]] = {
+    "company": ("developer", "publisher"),
+    "genre": ("genre",),
+    "franchise": ("franchise",),
+    "tags": ("tags",),
+}
+"""
+The DAT fields whose spellings values from IGDB adopt, grouped by what they name.
+Developers and publishers are both companies (as `menu_explore.c` also treats them).
+"""
+
+
+def tag_case(keyword: str, spellings: Sequence[tuple[re.Pattern[str], str]], uppercase: Sequence[re.Pattern[str]]) -> str:
+    """
+    Title-cases an IGDB keyword (which IGDB writes in lowercase) into a tag.
+
+    Each part of a hyphenated word is title-cased as if it were a title of its own
+    (e.g. "Fake In-Game Advertising", "Built-In", "GBA-to-GC").
+
+    :param spellings: See `IgdbConfig.tag_spellings`.
+    :param uppercase: See `IgdbConfig.tag_uppercase`.
+    """
+    def spell(word: str, **_: Any) -> str | None:
+        # e.g. "(ww2)" or "lgbtq+"
+        prefix, core, suffix = re.fullmatch(r"(\W*)(.*?)(\W*)", word).groups()
+        for pattern, template in spellings:
+            if match := pattern.fullmatch(core):
+                return prefix + match.expand(template) + suffix
+
+        if any(pattern.fullmatch(core) for pattern in uppercase):
+            return prefix + core.upper() + suffix
+
+        if "-" in core:
+            # titlecase would lowercase the small words of a compound even at its start (e.g. "in-Game")
+            return prefix + titlecase(core.replace("-", " "), callback=spell).replace(" ", "-") + suffix
+
+        return None
+
+    return titlecase(keyword, callback=spell)
 
 
 @dataclass(frozen=True, slots=True)
@@ -524,6 +489,9 @@ class Catalog:
     igdb_config: IgdbConfig
     """How to interpret IGDB's data. `tags` and `platform_types` already reflect its overrides."""
 
+    region_config: RegionConfig
+    """How to read and spell the regions that DAT files name."""
+
     hasheous_countries: dict[int, frozenset[str]]
     """The regions that Hasheous lists for each of its games, across all of the game's ROMs."""
 
@@ -536,18 +504,20 @@ class Catalog:
         :param metadata: The tables that the `index` subcommand wrote to the database that `connection` reads.
         """
         index = IndexReader(connection, metadata)
-        regions_by_code = config.hasheous.regions_by_country_code
-        links_by_crc, links_by_serial = await index.hasheous_links(regions_by_code)
+        regions_by_code, aliases = config.hasheous.regions_by_country_code, config.regions.aliases
+        links_by_crc, links_by_serial = await index.hasheous_links(regions_by_code, aliases)
+        spellings = await index.dat_spellings()
 
         return cls(
-            igdb=await index.igdb_games(),
+            igdb=await index.igdb_games(spellings, config.igdb.genre_overrides),
             igdb_playlists=await index.igdb_playlists(),
             links_by_crc=links_by_crc,
             links_by_serial=links_by_serial,
-            tags=await index.igdb_tags(config.igdb.keyword_overrides),
+            tags=await index.igdb_tags(config.igdb, spellings["tags"]),
             platform_types=await index.igdb_platform_types(config.igdb.platform_type_overrides),
             igdb_config=config.igdb,
-            hasheous_countries=await index.hasheous_values("country", partial(hasheous_game_region, regions_by_code=regions_by_code)),
+            region_config=config.regions,
+            hasheous_countries=await index.hasheous_values("country", partial(hasheous_game_region, regions_by_code=regions_by_code, aliases=aliases)),
             hasheous_languages=await index.hasheous_values("language", language_name),
         )
 
@@ -568,15 +538,41 @@ class IndexReader:
     connection: AsyncConnection
     metadata: MetaData
 
-    async def igdb_games(self) -> dict[int, IgdbInfo]:
-        """Loads what the generated DAT files use of each IGDB game, keyed by its ID."""
+    async def dat_spellings(self) -> dict[str, Spellings]:
+        """Loads how the existing DAT files spell the values of each group of `SPELLING_FIELDS`."""
+        game, mapping = DatGame.table(self.metadata), DatPlaylistGameMapping.table(self.metadata)
+
+        async def uses(field: str) -> Sequence[Row]:
+            value = game.c[field]
+            return await self._rows(
+                select(value, mapping.c.playlist, count())
+                .join(mapping, mapping.c.game == game.c.rowid)
+                .where(value.is_not(None))
+                .group_by(value, mapping.c.playlist)
+            )
+
+        return {
+            group: Spellings(chain.from_iterable([await uses(f) for f in fields]))
+            for group, fields in SPELLING_FIELDS.items()
+        }
+
+    async def igdb_games(self, spellings: Mapping[str, Spellings], genre_overrides: Mapping[int, str]) -> dict[int, IgdbInfo]:
+        """
+        Loads what the generated DAT files use of each IGDB game, keyed by its ID.
+
+        :param spellings: How the DAT files spell each group of `SPELLING_FIELDS`, which the games' names adopt.
+        :param genre_overrides: See `IgdbConfig.genre_overrides`.
+        """
         game, franchise = IgdbGame.table(self.metadata), IgdbFranchise.table(self.metadata)
         query = select(game.c.id, game.c.name, franchise.c.name).outerjoin(franchise, franchise.c.id == game.c.franchise)
-        games = {id: IgdbInfo(name=name, franchise=franchise_name) for id, name, franchise_name in await self._rows(query)}
+        games = {
+            id: IgdbInfo(name=name, franchise=spellings["franchise"].respell(franchise_name) if franchise_name else None)
+            for id, name, franchise_name in await self._rows(query)
+        }
 
-        await self._add_igdb_relations(games)
+        await self._add_igdb_relations(games, spellings, genre_overrides)
         await self._add_igdb_languages(games)
-        await self._add_igdb_companies(games)
+        await self._add_igdb_companies(games, spellings["company"])
         await self._add_igdb_releases(games)
         await self._add_igdb_multiplayer_modes(games)
         await self._add_igdb_age_ratings(games)
@@ -587,16 +583,25 @@ class IndexReader:
         mapping = IgdbPlaylistMapping.table(self.metadata)
         return grouped(await self._rows(select(mapping.c.title, mapping.c.game)))
 
-    async def igdb_tags(self, keyword_overrides: Mapping[int, int]) -> dict[int, str]:
+    async def igdb_tags(self, config: IgdbConfig, spellings: Spellings) -> dict[int, str]:
         """
         Loads the tag that each IGDB keyword becomes, if any.
 
-        :param keyword_overrides: See `IgdbConfig.keyword_overrides`.
+        :param config: Its `keyword_overrides`, `tag_spellings`, and `tag_uppercase` apply.
+        :param spellings: How the DAT files spell tags, which the tags adopt.
         """
         keyword = IgdbKeyword.table(self.metadata)
         names = {id: name for id, name in await self._rows(select(keyword.c.id, keyword.c.name))}
-        tags = {id: names.get(keyword_overrides.get(id, id), name) for id, name in names.items()}
-        return {id: tag for id, tag in tags.items() if not TAG_SEPARATORS.search(tag)}
+        tag_spellings = [(re.compile(pattern, re.IGNORECASE), template) for pattern, template in config.tag_spellings.items()]
+        tag_uppercase = [re.compile(pattern, re.IGNORECASE) for pattern in config.tag_uppercase]
+
+        tags: dict[int, str] = {}
+        for id, name in names.items():
+            tag = tag_case(names.get(config.keyword_overrides.get(id, id), name), tag_spellings, tag_uppercase)
+            if not TAG_SEPARATORS.search(tag):
+                tags[id] = spellings.respell(tag)
+
+        return tags
 
     async def igdb_platform_types(self, overrides: Mapping[int, int]) -> dict[int, int | None]:
         """
@@ -608,18 +613,19 @@ class IndexReader:
         types = {id: type for id, type in await self._rows(select(platform.c.id, platform.c.platform_type))}
         return {**types, **overrides}
 
-    async def hasheous_links(self, regions_by_code: Mapping[str, str]) -> tuple[dict[str, list[HasheousLink]], dict[str, list[HasheousLink]]]:
+    async def hasheous_links(self, regions_by_code: Mapping[str, str], aliases: Mapping[str, str]) -> tuple[dict[str, list[HasheousLink]], dict[str, list[HasheousLink]]]:
         """
         Loads the Hasheous games that list each ROM in `AllRoms`,
         keyed by the ROM's CRC32 (in lowercase) and by its serial (in uppercase).
 
         :param regions_by_code: See `HasheousConfig.regions_by_country_code`.
+        :param aliases: See `RegionConfig.aliases`.
         """
         # Most ROMs share their countries and languages with many others,
         # so each distinct JSON value is only parsed once
         @cache
         def countries(value: str | None) -> tuple[str, ...]:
-            regions = (country_region(code, name, regions_by_code) for code, name in json_object(value).items())
+            regions = (country_region(code, name, regions_by_code, aliases) for code, name in json_object(value).items())
             return tuple(dict.fromkeys(filter(None, regions)))
 
         @cache
@@ -647,14 +653,20 @@ class IndexReader:
         rows = await self._rows(select(*HasheousGameDataObject.relationship_columns(self.metadata, field)))
         return grouped((game, parsed) for game, value in rows if (parsed := parse(value)))
 
-    async def _add_igdb_relations(self, games: Mapping[int, IgdbInfo]) -> None:
-        for info, name in await self._igdb_related_names(games, "franchises", IgdbFranchise, order_by="id"):
-            info.franchises.append(name)
+    async def _add_igdb_relations(self, games: Mapping[int, IgdbInfo], spellings: Mapping[str, Spellings], genre_overrides: Mapping[int, str]) -> None:
+        """
+        :param spellings: See `igdb_games`.
+        :param genre_overrides: See `IgdbConfig.genre_overrides`.
+        """
+        for info, _, name in await self._igdb_related_names(games, "franchises", IgdbFranchise, order_by="id"):
+            if (name := spellings["franchise"].respell(name)) not in info.franchises:
+                info.franchises.append(name)
 
-        for info, name in await self._igdb_related_names(games, "genres", IgdbGenre, order_by="name"):
-            info.genres.append(name)
+        for info, id, name in await self._igdb_related_names(games, "genres", IgdbGenre, order_by="name"):
+            if (name := spellings["genre"].respell(genre_overrides.get(id, name))) not in info.genres:
+                info.genres.append(name)
 
-        for info, name in await self._igdb_related_names(games, "player_perspectives", IgdbPlayerPerspective, order_by="id"):
+        for info, _, name in await self._igdb_related_names(games, "player_perspectives", IgdbPlayerPerspective, order_by="id"):
             info.perspectives.append(name)
 
         for info, platform in await self._igdb_related_ids(games, "platforms"):
@@ -681,7 +693,8 @@ class IndexReader:
             if (name := language_name(name)) and name not in info.languages:
                 info.languages.append(name)
 
-    async def _add_igdb_companies(self, games: Mapping[int, IgdbInfo]) -> None:
+    async def _add_igdb_companies(self, games: Mapping[int, IgdbInfo], spellings: Spellings) -> None:
+        """:param spellings: How the DAT files spell companies, which the companies' names adopt."""
         involved, company = IgdbInvolvedCompany.table(self.metadata), IgdbCompany.table(self.metadata)
         query = (
             select(involved.c.game, company.c.name, company.c.country, involved.c.developer, involved.c.publisher)
@@ -690,6 +703,7 @@ class IndexReader:
         )
 
         for info, name, country, developer, publisher in await self._rows_by_game(games, query):
+            name = spellings.respell(name)
             if developer and name not in info.developers:
                 info.developers.append(name)
                 info.developer_countries.add(country)
@@ -732,10 +746,10 @@ class IndexReader:
             info.age_ratings[board].add(rating)
 
     async def _igdb_related_names(self, games: Mapping[int, IgdbInfo], field: str, related: type[DatabaseModel], order_by: str) -> Iterator[Any]:
-        """Loads the names of the objects that one of each IGDB game's fields refers to, ordered by `related`'s `order_by` column."""
+        """Loads the IDs and names of the objects that one of each IGDB game's fields refers to, ordered by `related`'s `order_by` column."""
         game, related_id = IgdbGame.relationship_columns(self.metadata, field)
         table = related.table(self.metadata)
-        query = select(game, table.c.name).join(table, table.c.id == related_id).order_by(table.c[order_by])
+        query = select(game, table.c.id, table.c.name).join(table, table.c.id == related_id).order_by(table.c[order_by])
         return await self._rows_by_game(games, query)
 
     async def _igdb_related_ids(self, games: Mapping[int, IgdbInfo], field: str) -> Iterator[Any]:
@@ -808,9 +822,23 @@ class Derivation(NamedTuple):
         return {"igdb_id": self.igdb, "hasheous_id": tuple(sorted(self.hasheous_games))}
 
 
+def entry_label(entry: CompiledEntry) -> dict[str, str]:
+    """
+    Returns the field that names an entry, if any.
+
+    Some DATs name their games with `comment` instead of `name` (e.g. `metadat/origin`).
+    `c_converter` leaves `comment` out of the `.rdb`, so an entry named only by one has no name there.
+    """
+    for key in ("name", "comment"):
+        if isinstance(value := entry.game.get(key), str):
+            return {key: value}
+
+    return {}
+
+
 def entry_name(entry: CompiledEntry) -> str | None:
-    name = entry.game.get("name")
-    return name if isinstance(name, str) else None
+    """Returns an entry's name, or its comment if it has no name (see `entry_label`)."""
+    return next(iter(entry_label(entry).values()), None)
 
 
 def name_regions(entry: CompiledEntry, known: Collection[str]) -> tuple[str, ...]:
@@ -825,33 +853,41 @@ def name_regions(entry: CompiledEntry, known: Collection[str]) -> tuple[str, ...
     return ()
 
 
-def entry_regions(entry: CompiledEntry) -> tuple[str, ...]:
+def entry_regions(entry: CompiledEntry, igdb_regions: Mapping[str, tuple[int, ...]]) -> tuple[str, ...]:
     """
     Returns the regions an entry was released in,
     from its `region` field or else from its name,
     as far as they can be mapped to IGDB's release regions.
+
+    :param igdb_regions: See `RegionConfig.igdb`.
     """
     region = entry.game.get("region")
     if isinstance(region, str) and region:
         return tuple(r.strip() for r in re.split(r"[,/|]", region) if r.strip())
 
-    return name_regions(entry, IGDB_REGIONS_BY_DAT_REGION)
+    return name_regions(entry, igdb_regions)
 
 
-def dump_regions(entry: CompiledEntry, named: tuple[str, ...], derived: str | None) -> tuple[str, ...]:
+def dump_regions(entry: CompiledEntry, named: tuple[str, ...], derived: str | None, aliases: Mapping[str, str]) -> tuple[str, ...]:
     """
     Returns the regions that an entry's dump is from, as far as they're known:
     the entry's own `region` field, else the regions its name lists, else the region derived for it.
+
+    :param aliases: See `RegionConfig.aliases`.
     """
     if isinstance(existing := entry.game.get("region"), str) and existing:
-        return (REGION_ALIASES.get(existing, existing),)
+        return (aliases.get(existing, existing),)
 
     return named or ((derived,) if derived else ())
 
 
-def igdb_release_regions(regions: Iterable[str]) -> frozenset[int]:
-    """Returns the IGDB release regions that DAT regions map to (see `IGDB_REGIONS_BY_DAT_REGION`)."""
-    return frozenset(r for region in regions for r in IGDB_REGIONS_BY_DAT_REGION.get(region, ()))
+def igdb_release_regions(regions: Iterable[str], igdb_regions: Mapping[str, tuple[int, ...]]) -> frozenset[int]:
+    """
+    Returns the IGDB release regions that DAT regions map to.
+
+    :param igdb_regions: See `RegionConfig.igdb`.
+    """
+    return frozenset(r for region in regions for r in igdb_regions.get(region, ()))
 
 
 def developer_origin(countries: Collection[int | None], overrides: Mapping[int, str]) -> str | None:
@@ -944,6 +980,7 @@ class Deriver:
 
     def __init__(self, catalog: Catalog, playlist: Playlist) -> None:
         self.catalog = catalog
+        self.regions = catalog.region_config
         self.playlist = playlist
         self.dumps = frozenset(playlist.hasheous_dirs)
         self.igdb_games = catalog.igdb_playlists.get(playlist.title, frozenset())
@@ -960,11 +997,11 @@ class Deriver:
         if any(link.retroachievements is not None for link in links):
             fields["achievements"] = True
 
-        named = tuple(REGION_ALIASES.get(r, r) for r in name_regions(entry, DAT_REGIONS))
+        named = tuple(self.regions.aliases.get(r, r) for r in name_regions(entry, self.regions.all))
         if region := self._region(links, info, named):
             fields["region"] = region
 
-        if language := self._language(entry, links, info, dump_regions(entry, named, region)):
+        if language := self._language(entry, links, info, dump_regions(entry, named, region, self.regions.aliases)):
             fields["language"] = language
 
         return Derivation(
@@ -1024,7 +1061,7 @@ class Deriver:
         return self.platforms is None or platform is None or platform in self.platforms
 
     def _igdb_fields(self, info: IgdbInfo, entry: CompiledEntry) -> dict[str, FieldValue]:
-        regions = entry_regions(entry)
+        regions = entry_regions(entry, self.regions.igdb)
         return {
             **company_fields(info, self.catalog.igdb_config.origin_overrides),
             **classification_fields(info),
@@ -1054,7 +1091,7 @@ class Deriver:
         if not releases:
             return {}
 
-        wanted = igdb_release_regions(regions)
+        wanted = igdb_release_regions(regions, self.regions.igdb)
         matching = [r for r in releases if r.region in wanted] or [r for r in releases if r.region == WORLDWIDE]
         if not matching:
             if regions:
@@ -1087,10 +1124,11 @@ class Deriver:
     def _rating_fields(self, info: IgdbInfo, regions: Sequence[str]) -> dict[str, FieldValue]:
         """:param regions: The regions the entry is from (see `entry_regions`)."""
         fields: dict[str, FieldValue] = {}
-        wanted = igdb_release_regions(regions)
+        wanted = igdb_release_regions(regions, self.regions.igdb)
 
-        for organization, board in RATING_BOARDS.items():
-            ratings = info.age_ratings.get(organization, set()) - IGNORED_AGE_RATINGS
+        igdb_config = self.catalog.igdb_config
+        for organization, board in igdb_config.rating_boards.items():
+            ratings = info.age_ratings.get(organization, set()) - igdb_config.ignored_age_ratings
             if len(ratings) != 1:
                 continue
 
@@ -1123,7 +1161,7 @@ class Deriver:
         Otherwise, the languages that Hasheous or IGDB list for the whole game
         only say which ones a particular dump is in if there's just one,
         since a game's regional releases are usually in different languages,
-        and only if it's a language of the regions the dump is from (see `REGION_LANGUAGES`).
+        and only if it's a language of the regions the dump is from (see `RegionConfig.languages`).
 
         :param regions: The regions the entry is from, if known.
         """
@@ -1133,7 +1171,8 @@ class Deriver:
         if TRANSLATION_TAG.search(entry_name(entry) or ""):
             return None
 
-        expected = frozenset().union(*(REGION_LANGUAGES[r] for r in regions)) if all(r in REGION_LANGUAGES for r in regions) else frozenset()
+        region_languages = self.regions.languages
+        expected = frozenset().union(*(region_languages[r] for r in regions)) if all(r in region_languages for r in regions) else frozenset()
         sources: tuple[Iterable[Sequence[str]], ...] = (
             ((language,) for game in {l.game for l in links} for language in self.catalog.hasheous_languages.get(game, ())),
             ((language,) for language in (info.languages if info else ())),
@@ -1157,10 +1196,11 @@ class Deriver:
           The first one that a source agrees with is used,
           which is how the existing DAT files fill in their `region` fields.
         """
+        release_regions = self.catalog.igdb_config.release_regions
         igdb_regions = {
-            IGDB_RELEASE_REGIONS[r.region]
+            release_regions[r.region]
             for r in (info.releases if info else ())
-            if self._on_platform(r.platform) and r.region in IGDB_RELEASE_REGIONS
+            if self._on_platform(r.platform) and r.region in release_regions
         }
 
         sources: tuple[Iterable[Sequence[str]], ...] = (
@@ -1310,8 +1350,8 @@ class GenerateSubCommand(BaseModel, PlaylistArgs, PoolArgs, VerboseArgs):
 
             stats.filled.update(new_fields.keys())
             games.append(DatGame.model_validate({
-                # The same name that the entry ends up with anyway, for readability
-                "name": entry_name(entry),
+                # The same name (or comment) that the entry ends up with anyway, for readability
+                **entry_label(entry),
                 **new_fields,
                 **derivation.sources,
                 "rom": (key_rom(playlist.id_type, key),),

@@ -748,6 +748,18 @@ class Playlist:
             **dataclasses.asdict(q),
         ), self.igdb_query.expand_to_all(count, MAX_QUERIES_IN_MULTIQUERY))
 
+class RatingBoard(BaseModel, frozen=True):
+    """An age rating board whose IGDB ratings `match.py` keeps."""
+
+    field: str
+    """The DAT field its ratings go in."""
+
+    founded: int
+    """The year the board started rating games; a release before then was never rated by it."""
+
+    regions: frozenset[int]
+    """The IGDB release regions whose releases the board rates, including worldwide releases."""
+
 class IgdbConfig(BaseModel, frozen=True):
     """How `match.py` interprets IGDB's data."""
 
@@ -757,14 +769,32 @@ class IgdbConfig(BaseModel, frozen=True):
     mapped to the keyword whose name their tag should use instead.
     """
 
+    tag_spellings: FrozenDict[str, str] = frozendict()
+    """
+    Words of a tag that title-casing would misspell,
+    as regexes that match a whole word case-insensitively
+    mapped to replacement templates (e.g. `'(\\d+)d' = '\\1D'`).
+    Checked in order, before `tag_uppercase`.
+    """
+
+    tag_uppercase: tuple[str, ...] = ()
+    """Regexes for words of a tag that are written in all caps, matched like `tag_spellings`."""
+
+    genre_overrides: FrozenDict[int, str] = frozendict()
+    """
+    Genres that the DAT files name differently,
+    mapped to the genres the DATs use instead (e.g. `"Board / Card"`).
+    """
+
     platform_type_overrides: FrozenDict[int, int] = frozendict()
     """Platforms whose type IGDB gets wrong, mapped to their actual type."""
 
     origin_overrides: FrozenDict[int, str] = frozendict()
     """
     Companies' countries (by ISO 3166-1 numeric code)
-    that the existing `metadat/origin` DATs spell differently than ISO 3166 does,
-    mapped to the DATs' spelling.
+    that the existing DATs spell differently than ISO 3166 does,
+    mapped to the DATs' spelling:
+    the `metadat/origin` DATs' if they name the country, else that of the DATs' `region` fields.
     """
 
     rumble_keywords: frozenset[int] = frozenset()
@@ -772,6 +802,23 @@ class IgdbConfig(BaseModel, frozen=True):
 
     analog_keywords: frozenset[int] = frozenset()
     """Keywords that mean a game supports analog controls."""
+
+    release_regions: FrozenDict[int, str] = frozendict()
+    """IGDB's release regions, spelled the way the DAT files spell them."""
+
+    rating_boards: FrozenDict[str, RatingBoard] = frozendict()
+    """
+    The age rating boards whose ratings are kept, by IGDB's name for each.
+
+    IGDB records age ratings per game rather than per release,
+    so a rating may well belong to a re-release on some later platform
+    (e.g. the SNES's Chrono Trigger carries the E10+ of its DS port).
+    A rating is only kept for an entry released in the board's region
+    after the board existed, on the playlist's platform.
+    """
+
+    ignored_age_ratings: frozenset[str] = frozenset()
+    """Age ratings that aren't ratings (e.g. ESRB's "Rating Pending")."""
 
 class HasheousConfig(BaseModel, frozen=True):
     """How `match.py` interprets Hasheous's data."""
@@ -782,12 +829,40 @@ class HasheousConfig(BaseModel, frozen=True):
     The names of all other countries already match.
     """
 
+class RegionConfig(BaseModel, frozen=True):
+    """How `match.py` reads and spells the regions that DAT files name."""
+
+    igdb: FrozenDict[str, tuple[int, ...]] = frozendict()
+    """Maps the regions that DAT files name (mostly No-Intro's) to IGDB's release regions."""
+
+    known: frozenset[str] = frozenset()
+    """The regions that a No-Intro or Redump name may list besides those in `igdb`."""
+
+    aliases: FrozenDict[str, str] = frozendict()
+    """Region names that the DAT files' own `region` fields spell differently."""
+
+    languages: FrozenDict[str, frozenset[str]] = frozendict()
+    """
+    The languages that a region's releases are normally in,
+    for the regions that have only one or two.
+
+    What IGDB or Hasheous say about a whole game's languages
+    is only trusted for a dump that's from one of these regions
+    if it agrees with them; IGDB often lists only the language of a game's original release.
+    """
+
+    @cached_property
+    def all(self) -> frozenset[str]:
+        """Every region that a No-Intro or Redump name may list."""
+        return frozenset((*self.igdb, *self.known))
+
 class PlaylistConfig(BaseModel, frozen=True):
     """The contents of `playlists.toml`."""
 
     playlists: tuple[Playlist, ...]
     igdb: IgdbConfig = IgdbConfig()
     hasheous: HasheousConfig = HasheousConfig()
+    regions: RegionConfig = RegionConfig()
 
     @classmethod
     def load(cls, path: Path) -> Self:

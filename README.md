@@ -245,6 +245,16 @@ The DAT files in [`lookatalldat`](lookatalldat) add metadata from [IGDB](https:/
 [`match.py`](scripts/match.py) matches games only by the [key field](#key-field) that RetroArch uses (CRC or serial), never by name.
 Each generated entry only has fields that no other DAT file gives that game,
 so `lookatalldat` is compiled after all other DATs without overriding any of them.
+Each entry also names the `igdb_id` and `hasheous_id` of the games it was derived from, for debugging;
+`c_converter` leaves both out of the `.rdb`.
+The `[igdb]`, `[hasheous]`, and `[regions]` sections of [`playlists.toml`](playlists.toml) control how `match.py` interprets each source,
+such as which IGDB keywords mean that a game supports rumble.
+
+Generated values reuse the spellings of the existing DAT files, so that RetroArch's Explore menu lists each value once.
+Where those DATs disagree, the spelling used by the most systems' DATs wins.
+Tags (IGDB's keywords) are title-cased.
+`playlists.toml` holds the exceptions: IGDB genres that the DATs name differently, keywords that are synonyms of others,
+and words that title-casing would misspell.
 
 1. Sign up for IGDB and obtain API credentials as described [here](https://api-docs.igdb.com/#getting-started).
 2. Fetch the source data with `scripts/igdb.py fetch` and `scripts/hasheous.py fetch`, which save it to `tmp/igdb` and `tmp/hasheous`.

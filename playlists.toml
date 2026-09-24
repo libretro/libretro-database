@@ -19,6 +19,29 @@ analog_keywords = [
     48530,  # input type - dial controls
 ]
 
+ignored_age_ratings = [
+    "RP",  # ESRB's "Rating Pending"
+]
+
+# Words of a tag that title-casing would misspell (see IgdbConfig.tag_spellings and tag_uppercase)
+# Each regex matches one whole word, ignoring case and any punctuation around it.
+tag_uppercase = [
+    # Acronyms and initialisms
+    'ac|ai|aol|arg|avgn|bafta|bl|bmx|bpjm|ces|covid|dc|dk|drm|ea|eb|evo|f2p|fps|gmtk|gta|igf|ip',
+    'lan|lgbtq?|mfgg|mit|nsfw(_dlc|_patch)?|sfw|nft|npc|pax|pbr|qr|rc|rtc|swat|tmnt|ufo|uk|usa|wasd|wtfpl|wwe',
+    'ww[12]|(?:[a-z]\.)+[a-z]',  # "WW2", "A.I.", "D.I.C.E."
+    'nfl|nba|nhl', # Sports leagues
+    # Genres
+    '[acdjst]?rpg|mmo(rpg)?|viprpg|ccg|tcg|stg',
+    # Hardware, media, and software
+    'cd|dvd|vhs|hd|4k|st|\d+fps|lcd|vfd|crt|ega|cga|vga|ibm|dos|aga|ecs|ocs|xe|jx|mz|rx|yf|s1',
+    'pc|tv|fm|midi|fmv|dsp|hud|ui|rom|dlc|ir|vr|vru|vmu|fx|dx|vco|seuck|scumm|sqij|mud|wad|smw|zx',
+    'nes|snes|gba?|gc|ds|3ds|3dtv|n64|ps[123p]?|psn|psg1|xbla|msx|32x|c128|d20|gp2x|gp32|gx4000|j2me|mp7',
+    'cnrom|(mmc|vrc)\d|sa1|spc7110|dd1|msu1|obc|fme|mxm|vt\w+',
+    # Roman numerals
+    'ii|iii|iv',
+]
+
 # Synonym keyword = the keyword whose name its tag uses instead
 [igdb.keyword_overrides]
 1173 = 27627   # "james bond" -> "007"
@@ -32,6 +55,191 @@ analog_keywords = [
 16964 = 128    # "80s" -> "1980s"
 7294 = 128     # "the 1980s" -> "1980s"
 50684 = 3079   # "8bit" -> "8-bit"
+16108 = 6235   # "agent" -> "agents"
+43960 = 3      # "alien" -> "aliens"
+4176 = 968     # "animal protagonists" -> "animal protagonist"
+30990 = 43599  # "arpg" -> "action-rpg"
+40897 = 27510  # "autobattler" -> "auto battler"
+48274 = 4310   # "based on comic" -> "based on - comics"
+4433 = 2415    # "bat" -> "bats"
+29033 = 3486   # "bossfight" -> "boss fight"
+51512 = 155    # "car" -> "cars"
+45596 = 101    # "casual game" -> "casual"
+570 = 4329     # "cats" -> "cat"
+50807 = 5093   # "cga grpahics" -> "cga graphics"
+25688 = 482    # "collecting card game - ccg" -> "collectible card game"
+3687 = 3138    # "coloful" -> "colorful"
+17391 = 286    # "competitve" -> "competitive"
+39248 = 911    # "danmaku" -> "bullet hell"
+38865 = 25826  # "deckbuilder" -> "deck-building"
+175 = 1069     # "demon" -> "demons"
+43895 = 1931   # "dice game" -> "dice"
+3097 = 4869    # "dlc content" -> "downloadable content"
+16999 = 1935   # "dogs" -> "dog"
+332 = 1065     # "dragons" -> "dragon"
+17689 = 6716   # "dual wield" -> "dual wielding"
+1513 = 2228    # "dungeon crawling" -> "dungeon crawler"
+47296 = 38565  # "dungeons" -> "dungeon"
+38289 = 1655   # "e-sports" -> "esports"
+26135 = 1655   # "esport" -> "esports"
+2887 = 6385    # "fanservice" -> "fan service"
+20276 = 56     # "flight simulation" -> "flight simulator"
+48328 = 48329  # "fossil" -> "fossils"
+10868 = 42245  # "free game" -> "free"
+44136 = 772    # "gameshow" -> "game show"
+41811 = 25210  # "gatcha" -> "gacha"
+44864 = 16     # "ghost" -> "ghosts"
+29747 = 2032   # "ghost hunting" -> "ghost hunter"
+952 = 4404     # "goblin" -> "goblins"
+6487 = 236     # "grind" -> "grinding"
+23314 = 23680  # "h.p.lovecraft" -> "h. p. lovecraft"
+3730 = 3182    # "hero" -> "heroes"
+31325 = 2152   # "highscore" -> "high score"
+843 = 2096     # "humour" -> "humor"
+10626 = 2439   # "hunters" -> "hunter"
+45034 = 25000  # "incremental" -> "incremental game"
+1653 = 225     # "investigations" -> "investigation"
+50814 = 32538  # "island" -> "islands"
+19521 = 521    # "japanese rpg" -> "jrpg"
+38661 = 25641  # "kpop" -> "k-pop"
+46884 = 23856  # "lgbtq" -> "lgbtq+"
+46795 = 43     # "life simulator" -> "life simulation"
+38855 = 994    # "managment" -> "management"
+23494 = 734    # "match 3 game" -> "match 3"
+3497 = 918     # "math games" -> "math"
+46709 = 167    # "mechs" -> "mech"
+34751 = 274    # "mini game" -> "minigames"
+27691 = 274    # "minigame" -> "minigames"
+43805 = 685    # "minigolf" -> "mini golf"
+42663 = 98     # "monster" -> "monsters"
+53899 = 25792  # "monster taming" -> "monster tamer"
+40694 = 42177  # "monstergirl" -> "monster girls"
+2233 = 4438    # "motion controls" -> "motion control"
+1625 = 4534    # "native americans" -> "native american"
+45058 = 2245   # "nonlinear" -> "non-linear"
+19453 = 2423   # "nonograms" -> "nonogram"
+23338 = 38288  # "old mobile game" -> "old mobile games"
+39201 = 988    # "online coop" -> "online co-op"
+24336 = 1333   # "online game" -> "online"
+46898 = 18595  # "pacman" -> "pac-man"
+43217 = 724    # "penguins" -> "penguin"
+27179 = 1705   # "pixel art game" -> "pixel art"
+39935 = 1705   # "pixelart" -> "pixel art"
+47461 = 34588  # "plants" -> "plant"
+6671 = 1422    # "portal" -> "portals"
+2665 = 4879    # "potions" -> "potion"
+19385 = 9893   # "ps2 classic" -> "ps2 classics"
+512 = 5989     # "quick-time events" -> "quick time event"
+41881 = 902    # "rabbits" -> "rabbit"
+571 = 4412     # "rats" -> "rat"
+43110 = 19205  # "rhythm" -> "rhythm game"
+42040 = 575    # "robot" -> "robots"
+43225 = 1030   # "rollercoaster" -> "roller coaster"
+44946 = 3665   # "ship" -> "ships"
+844 = 166      # "shmup" -> "shoot 'em up"
+50683 = 166    # "shoot'em up" -> "shoot 'em up"
+23548 = 1315   # "short game" -> "short"
+50610 = 1059   # "side scroller" -> "side-scrolling"
+45142 = 1059   # "sidescroller" -> "side-scrolling"
+1068 = 4407    # "skeleton" -> "skeletons"
+52764 = 4730   # "sniper" -> "sniping"
+18162 = 6795   # "snowbarding" -> "snowboarding"
+3645 = 947     # "space ship" -> "spaceship"
+44037 = 947    # "space ships" -> "spaceship"
+44909 = 947    # "spaceships" -> "spaceship"
+39504 = 5124   # "spell caster" -> "spellcaster"
+44540 = 4235   # "spiders" -> "spider"
+19872 = 40     # "spy game" -> "spy"
+51055 = 49618  # "stero sound" -> "stereo sound"
+50536 = 2639   # "strategy rpg" -> "srpg"
+14 = 2387      # "super hero" -> "superhero"
+26347 = 6852   # "super powers" -> "superpowers"
+44244 = 6852   # "superpower" -> "superpowers"
+18712 = 18537  # "sword fight" -> "sword fighting"
+47799 = 2472   # "sword sorcery" -> "sword & sorcery"
+50609 = 2590   # "tactical rpg" -> "tactical rpg ( trpg )"
+38272 = 1821   # "tank game" -> "tank"
+26798 = 24957  # "tcg" -> "trading card game"
+3206 = 6765    # "time trial" -> "time trials"
+38095 = 2803   # "tournaments" -> "tournament"
+3720 = 2590    # "trpg" -> "tactical rpg ( trpg )"
+17371 = 5311   # "twin stick" -> "twin stick control"
+41312 = 38511  # "unoffical demake" -> "unofficial demake"
+574 = 4397     # "upgradable weapons" -> "upgradeable weapons"
+47576 = 1566   # "upgrades" -> "upgrade"
+34908 = 2806   # "warrior" -> "warriors"
+50690 = 1180   # "witch" -> "witches"
+
+# Word regex = its spelling instead, as a template that may refer to the regex's groups
+[igdb.tag_spellings]
+'(\d+(?:\.\d+)?)d' = '\1D'  # "2D", "2.5D", "3D"
+'em' = 'em'  # "Shoot 'em Up"
+'dsi' = 'DSi'
+'dsiware' = 'DSiWare'
+'wiiware' = 'WiiWare'
+'wiiconnect24' = 'WiiConnect24'
+'ique' = 'iQue'
+'psone' = 'PSone'
+'playstation' = 'PlayStation'
+'pocketstation' = 'PocketStation'
+'dualshock' = 'DualShock'
+'dualsense' = 'DualSense'
+'eyetoy' = 'EyeToy'
+'gamecube' = 'GameCube'
+'gamecom' = 'Game.com'
+'gamepass' = 'Game Pass'
+'gametap' = 'GameTap'
+'gamersgate' = 'GamersGate'
+'playchoice' = 'PlayChoice'
+'singstar' = 'SingStar'
+'spotpass' = 'SpotPass'
+'streetpass' = 'StreetPass'
+'smartglass' = 'SmartGlass'
+'smartmedia' = 'SmartMedia'
+'eshop' = 'eShop'
+'e-reader' = 'e-Reader'
+'udraw' = 'uDraw'
+'iwin' = 'iWin'
+'qtai' = 'QTai'
+'n64brew' = 'N64brew'
+'nextfest' = 'Next Fest'
+'retroachievements' = 'RetroAchievements'
+'youtube(r?)' = 'YouTube\1'
+'vtuber' = 'VTuber'
+'softbank' = 'SoftBank'
+'renderware' = 'RenderWare'
+'securom' = 'SecuROM'
+'adlib' = 'AdLib'
+'leapfrog' = 'LeapFrog'
+'onlive' = 'OnLive'
+'novaworld' = 'NovaWorld'
+'indiedb' = 'IndieDB'
+'scummvm' = 'ScummVM'
+'supertux' = 'SuperTux'
+'xband' = 'XBAND'
+'gbjam' = 'GBJam'
+'lowrezjam' = 'LowRezJam'
+'earthbound' = 'EarthBound'
+'spongebob' = 'SpongeBob'
+'wrestlemania' = 'WrestleMania'
+'gplv3' = 'GPLv3'
+'ips' = 'IPs'
+'ltd' = 'Ltd'
+'ms-dos' = 'MS-DOS'
+'mt-32' = 'MT-32'
+'cd-i' = 'CD-i'
+'battle\.net' = 'Battle.net'
+'pve' = 'PvE'
+'pvp' = 'PvP'
+'tvos' = 'tvOS'
+'webos' = 'webOS'
+'kaios' = 'KaiOS'
+'ezweb' = 'EZweb'
+'gog(\.com)?' = 'GOG\1'
+'mccloud' = 'McCloud'
+"mcdonald's" = "McDonald's"
+'mcduck' = 'McDuck'
+"cg's" = "CG's"
 
 # Platform = its actual platform type (1 is a console)
 [igdb.platform_type_overrides]
@@ -40,10 +248,55 @@ analog_keywords = [
 150 = 1  # Turbografx-16/PC Engine CD, which IGDB calls a computer
 377 = 1  # Plug & Play, which IGDB calls a "platform"
 
-# ISO 3166-1 numeric country code = the name that the metadat/origin DATs use instead of ISO 3166's
+# ISO 3166-1 numeric country code = the name that the DAT files use instead of ISO 3166's
+# (in metadat/origin, or else in their `region` fields)
 [igdb.origin_overrides]
+203 = "Czech Republic"  # "Czechia"
+410 = "Korea"           # "South Korea"
+643 = "Russia"          # "Russian Federation"
 826 = "UK"
 840 = "US"
+
+# IGDB genre = the genres the DAT files call it instead (the spelling used by the most playlists' DATs)
+[igdb.genre_overrides]
+2 = "Point & Click"                 # "Point-and-click"
+11 = "RTS"                          # "Real Time Strategy (RTS)"
+13 = "Simulation"                   # "Simulator"
+14 = "Sports"                       # "Sport"
+16 = "Turn-based"                   # "Turn-based strategy (TBS)"
+25 = "Hack and Slash / Beat'em Up"  # "Hack and slash/Beat 'em up"
+26 = "Quiz"                         # "Quiz/Trivia"
+35 = "Board / Card"                 # "Card & Board Game"
+
+# IGDB release region = its name as the DAT files spell it
+[igdb.release_regions]
+1 = "Europe"
+2 = "USA"
+3 = "Australia"
+4 = "New Zealand"
+5 = "Japan"
+6 = "China"
+7 = "Asia"
+8 = "World"
+9 = "Korea"
+10 = "Brazil"
+
+# IGDB's name for an age rating board = which ratings of it to keep (see RatingBoard)
+# IGDB release regions: 1 europe, 2 north_america, 5 japan, 8 worldwide
+[igdb.rating_boards.ESRB]
+field = "esrb_rating"
+founded = 1994
+regions = [2, 8]
+
+[igdb.rating_boards.PEGI]
+field = "pegi_rating"
+founded = 2003
+regions = [1, 8]
+
+[igdb.rating_boards.CERO]
+field = "cero_rating"
+founded = 2002
+regions = [5, 8]
 
 # How scripts/match.py interprets Hasheous's data (see HasheousConfig)
 # Country code = the region's name as the DAT files spell it
@@ -56,6 +309,98 @@ UK = "United Kingdom"
 KR = "Korea"
 AS = "Asia"
 Asia = "Asia"
+asi = "Asia"
+wor = "World"
+MEX = "Mexico"
+
+# How scripts/match.py reads and spells the regions that DAT files name (see RegionConfig)
+[regions]
+# Regions that a No-Intro or Redump name may list besides those in [regions.igdb]
+known = [
+    "Argentina", "Belarus", "Bosnia and Herzegovina", "Chile", "Croatia", "Czech Republic",
+    "Estonia", "Hungary", "Iceland", "India", "Ireland", "Israel", "Latin America", "Latvia",
+    "Lithuania", "Mexico", "Peru", "Romania", "Serbia", "Singapore", "Slovakia", "Slovenia",
+    "South Africa", "Turkey", "Ukraine", "United Arab Emirates", "Yugoslavia",
+]
+
+# Region that DAT files name (mostly No-Intro's) = the IGDB release regions it maps to
+# IGDB release regions: 1 europe, 2 north_america, 3 australia, 4 new_zealand, 5 japan,
+# 6 china, 7 asia, 8 worldwide, 9 korea, 10 brazil
+[regions.igdb]
+USA = [2]
+Canada = [2]
+Europe = [1]
+UK = [1]
+"United Kingdom" = [1]
+Germany = [1]
+France = [1]
+Spain = [1]
+Italy = [1]
+Netherlands = [1]
+Sweden = [1]
+Scandinavia = [1]
+Denmark = [1]
+Norway = [1]
+Finland = [1]
+Poland = [1]
+Portugal = [1]
+Greece = [1]
+Austria = [1]
+Switzerland = [1]
+Belgium = [1]
+Russia = [1]
+Japan = [5]
+Australia = [3]
+"New Zealand" = [4]
+China = [6]
+"Hong Kong" = [6, 7]
+Taiwan = [7]
+Asia = [7]
+Korea = [9]
+Brazil = [10]
+World = [8]
+
+# Region name = how the DAT files' own `region` fields spell it instead
+# Most of the DAT files spell the UK "United Kingdom", even though No-Intro names use "(UK)".
+[regions.aliases]
+UK = "United Kingdom"
+"United States" = "USA"
+Worldwide = "World"
+"South Korea" = "Korea"
+
+# Region = the languages its releases are normally in, for the regions that have only one or two
+[regions.languages]
+USA = ["English"]
+"United Kingdom" = ["English"]
+Ireland = ["English"]
+Australia = ["English"]
+"New Zealand" = ["English"]
+Canada = ["English", "French"]
+Japan = ["Japanese"]
+Korea = ["Korean"]
+China = ["Chinese"]
+Taiwan = ["Chinese"]
+"Hong Kong" = ["Chinese", "English"]
+Germany = ["German"]
+Austria = ["German"]
+France = ["French"]
+Spain = ["Spanish"]
+Mexico = ["Spanish"]
+Argentina = ["Spanish"]
+Italy = ["Italian"]
+Netherlands = ["Dutch"]
+Portugal = ["Portuguese"]
+Brazil = ["Portuguese"]
+Sweden = ["Swedish"]
+Denmark = ["Danish"]
+Norway = ["Norwegian"]
+Finland = ["Finnish"]
+Poland = ["Polish"]
+Russia = ["Russian"]
+Greece = ["Greek"]
+"Czech Republic" = ["Czech"]
+Hungary = ["Hungarian"]
+Turkey = ["Turkish"]
 
 # See https://api-docs.igdb.com#filter for details about how to use filters in IGDB queries.
 # (The "where" fields are passed to the API as-is)
@@ -556,6 +901,7 @@ igdb.where = "platforms = (5) & keywords = (4134, 4522, 27078, 27629, 43725)"
 title = "Nintendo - Wii U"
 hasheous = ["Nintendo WiiU"]
 igdb.where = "platforms = (41)"
+id_type = "serial"
 
 [[playlists]]
 title = "Philips - CD-i"
@@ -863,7 +1209,7 @@ hasheous = ["Microsoft Windows"]
 
 [[playlists]]
 title = "VTech - V.Smile"
-hasheous = ["VTech - V.Smile"]
+hasheous = ["VTech - V.Smile", "V.Smile"]
 igdb.where = "platforms = (439)"
 
 [[playlists]]
