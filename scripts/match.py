@@ -505,7 +505,7 @@ class Catalog:
         """
         index = IndexReader(connection, metadata)
         regions_by_code, aliases = config.hasheous.regions_by_country_code, config.regions.aliases
-        links_by_crc, links_by_serial = await index.hasheous_links(regions_by_code, aliases)
+        links_by_crc, links_by_serial = await index.hasheous_links(regions_by_code, aliases, config.hasheous.ignored_games)
         spellings = await index.dat_spellings()
 
         return cls(
@@ -613,13 +613,14 @@ class IndexReader:
         types = {id: type for id, type in await self._rows(select(platform.c.id, platform.c.platform_type))}
         return {**types, **overrides}
 
-    async def hasheous_links(self, regions_by_code: Mapping[str, str], aliases: Mapping[str, str]) -> tuple[dict[str, list[HasheousLink]], dict[str, list[HasheousLink]]]:
+    async def hasheous_links(self, regions_by_code: Mapping[str, str], aliases: Mapping[str, str], ignored_games: Collection[int]) -> tuple[dict[str, list[HasheousLink]], dict[str, list[HasheousLink]]]:
         """
         Loads the Hasheous games that list each ROM in `AllRoms`,
         keyed by the ROM's CRC32 (in lowercase) and by its serial (in uppercase).
 
         :param regions_by_code: See `HasheousConfig.regions_by_country_code`.
         :param aliases: See `RegionConfig.aliases`.
+        :param ignored_games: See `HasheousConfig.ignored_games`.
         """
         # Most ROMs share their countries and languages with many others,
         # so each distinct JSON value is only parsed once
@@ -635,7 +636,7 @@ class IndexReader:
         by_crc: dict[str, list[HasheousLink]] = defaultdict(list)
         by_serial: dict[str, list[HasheousLink]] = defaultdict(list)
 
-        for crc, serial, game, igdb, retroachievements, dump, rom_countries, rom_languages in await self._rows(self._hasheous_links_query()):
+        for crc, serial, game, igdb, retroachievements, dump, rom_countries, rom_languages in await self._rows(self._hasheous_links_query(ignored_games)):
             link = HasheousLink(game, igdb, retroachievements, dump, countries(rom_countries), languages(rom_languages))
             if crc:
                 by_crc[crc.lower()].append(link)
@@ -765,10 +766,14 @@ class IndexReader:
         # Lazily, since collecting hundreds of thousands of new tuples at once keeps the garbage collector busy
         return ((games[id], *values) for id, *values in rows if id in games)
 
-    def _hasheous_links_query(self) -> Select:
+    def _hasheous_links_query(self, ignored_games: Collection[int]) -> Select:
         all_roms, rom = AllRoms.table(self.metadata), HasheousRomItem.table(self.metadata)
         game, dump = HasheousGameDataObject.table(self.metadata), HasheousGameDumpMapping.table(self.metadata)
         game_id, rom_id = HasheousGameDataObject.relationship_columns(self.metadata, "roms")
+
+        # Aliased, so that the subquery doesn't correlate with the join below
+        listings = rom_id.table.alias("ignored_listings")
+        ignored_roms = select(listings.c[rom_id.name]).where(listings.c[game_id.name].in_(ignored_games))
 
         return (
             select(
@@ -786,7 +791,7 @@ class IndexReader:
             .join(rom_id.table, rom_id == all_roms.c.hasheous_rom)
             .join(game, game.c.id == game_id)
             .join(dump, dump.c.game == game.c.id)
-            .where(all_roms.c.hasheous_rom.is_not(None))
+            .where(all_roms.c.hasheous_rom.is_not(None), all_roms.c.hasheous_rom.not_in(ignored_roms))
         )
 
     async def _rows(self, query: Select) -> Sequence[Row]:

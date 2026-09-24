@@ -829,6 +829,11 @@ class HasheousConfig(BaseModel, frozen=True):
     The names of all other countries already match.
     """
 
+    ignored_games: frozenset[int] = frozenset()
+    """
+    Hasheous games whose ROMs identify nothing, so `match.py` skips those ROMs under every game that lists them.
+    """
+
 class RegionConfig(BaseModel, frozen=True):
     """How `match.py` reads and spells the regions that DAT files name."""
 

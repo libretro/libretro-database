@@ -299,6 +299,12 @@ founded = 2002
 regions = [5, 8]
 
 # How scripts/match.py interprets Hasheous's data (see HasheousConfig)
+[hasheous]
+# RetroAchievements' lists of the cheated (trainer) ROMs it refuses,
+# whose ROMs Hasheous also files under unrelated games:
+# "A Cheated ROM" for SNES, SMD, SMS and GBA, and "Yoda Stories" (311503) for Game Boy.
+ignored_games = [259657, 262753, 309866, 601955, 311503]
+
 # Country code = the region's name as the DAT files spell it
 [hasheous.regions_by_country_code]
 US = "USA"
