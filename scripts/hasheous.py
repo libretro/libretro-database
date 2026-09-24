@@ -46,7 +46,7 @@ from sqlalchemy.util import is_non_string_iterable
 
 from igdb import IgdbId, Playlist, PlaylistConfig, PlaylistTitle
 from dats import DAT_KEY_TABLE
-from utils import CliTuple, Crc, DatabaseModel, DEFAULT_HASHEOUS_CONCURRENCY, EmptyToNone, ExtractedRows, FrozenDict, IndexArgs, PlaylistArgs, PoolArgs, Relationship, TypedFrozenDict, InsertInRowContext, EmptyStringToNone, Md5, RowAccumulator, RowDeduplicator, Sha1, Sha256, create_db, VerboseArgs, db_transaction
+from utils import CliTuple, Crc, DatabaseModel, DEFAULT_HASHEOUS_CONCURRENCY, EmptyToNone, ExtractedRows, FrozenDict, FrozenJsonValue, IndexArgs, PlaylistArgs, PoolArgs, Relationship, TypedFrozenDict, InsertInRowContext, EmptyStringToNone, Md5, RowAccumulator, RowDeduplicator, Sha1, Sha256, create_db, VerboseArgs, db_transaction
 
 METADATA_MAP_URL = "https://hasheous.org/api/v1/Dumps/MetadataMap.zip"
 
@@ -127,7 +127,11 @@ class RomItem(HasheousObject, frozen=True, alias_generator=to_pascal):
     The quality of this ROM's data. Better data means better score.
     See https://github.com/gaseous-project/hasheous/blob/main/hasheous-lib/Models/Signatures_Games.cs
     """
-    attributes: Annotated[EmptyToNone[FrozenDict[str, str]], Column(JSON(none_as_null=True))]
+    attributes: Annotated[EmptyToNone[FrozenDict[str, FrozenJsonValue]], AfterValidator(frozendict.deepfreeze), Column(JSON(none_as_null=True))]
+    """
+    Source-specific fields, not all strings (e.g. TOSEC's `categories` is a list).
+    Keep this type loose; `RomsAttribute` silently drops any ROM that fails validation.
+    """
     rom_type: str
     size: ByteSize
     crc: EmptyToNone[Crc]

@@ -1126,6 +1126,7 @@ Md5 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pat
 Sha1 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{40}$")]
 Sha256 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{64}$")]
 
+type FrozenJsonValue = tuple[FrozenJsonValue, ...] | FrozenDict[str, FrozenJsonValue] | str | bool | int | float | None
 
 type WrapInTuple[T] = Annotated[tuple[T, ...], BeforeValidator(lambda v: always_iterable(v))]
 type OnlyFirst[T] = Annotated[T, BeforeValidator(lambda v: v[0] if is_non_string_iterable(v) and isinstance(v, Sequence) else v)]
