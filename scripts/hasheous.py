@@ -48,7 +48,7 @@ from igdb import IgdbId
 from dats import DAT_KEY_TABLE
 from playlist import Playlist, PlaylistArgs, PlaylistConfig, PlaylistTitle
 from sqlite import DatabaseModel, ExtractedRows, InsertInRowContext, RowAccumulator, RowDeduplicator, create_db, db_transaction
-from utils import CliTuple, Crc, DEFAULT_HASHEOUS_CONCURRENCY, EmptyStringToNone, EmptyToNone, FrozenDict, FrozenJsonValue, IndexArgs, Md5, PoolArgs, Sha1, Sha256, TypedFrozenDict, VerboseArgs
+from utils import CliTuple, Crc, DEFAULT_HASHEOUS_CONCURRENCY, EmptyStringToNone, EmptyToNone, FrozenDict, FrozenJsonValue, IndexArgs, Md5, PoolArgs, Sha1, Sha256, FrozenTypedDict, VerboseArgs
 
 METADATA_MAP_URL = "https://hasheous.org/api/v1/Dumps/MetadataMap.zip"
 
@@ -145,7 +145,7 @@ class RomItem(HasheousObject, frozen=True, alias_generator=to_pascal):
     language: Annotated[EmptyToNone[FrozenDict[str, str]], Column(JSON(none_as_null=True))]
     development_status: EmptyToNone[str]
     rom_type_media: EmptyToNone[str]
-    media_detail: Annotated[EmptyToNone[TypedFrozenDict[MediaType]], Column(JSON(none_as_null=True))]
+    media_detail: Annotated[EmptyToNone[FrozenTypedDict[MediaType]], Column(JSON(none_as_null=True))]
     media_label: EmptyToNone[str]
     signature_source: EmptyToNone[str]
 
