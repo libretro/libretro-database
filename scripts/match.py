@@ -260,9 +260,9 @@ A few IGDB keywords contain them (e.g. "day/night cycle"),
 which would turn into tags that don't exist.
 """
 
-TRANSLATION_TAG = re.compile(r"[(\[]T[-+]")
+TRANSLATION_TAG = re.compile(r"[(\[]T[-+]|\[tr\b")
 """
-Marks a fan translation in No-Intro (e.g. "(T-En by ...)") or GoodTools (e.g. "[T+Eng]") names.
+Marks a fan translation in No-Intro (e.g. "(T-En by ...)"), GoodTools (e.g. "[T+Eng]") or TOSEC (e.g. "[tr fr]") names.
 
 A translation isn't in the languages of the game it translates.
 """
