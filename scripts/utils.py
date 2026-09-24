@@ -4,28 +4,19 @@
 Pydantic types and command-line helpers shared by the scripts.
 """
 
-from collections.abc import Mapping, Sequence
+from collections.abc import Sequence
 from typing import Annotated, Any, get_args
 
 from aiomultiprocess import Pool
 from frozendict import frozendict
-from more_itertools import always_iterable
-from pydantic import AfterValidator, AliasChoices, BeforeValidator, Field, GetCoreSchemaHandler, GetPydanticSchema, HttpUrl, NonNegativeInt, PlainSerializer, PositiveInt, StringConstraints, ValidatorFunctionWrapHandler, WrapSerializer, WrapValidator
+from pydantic import AfterValidator, AliasChoices, BeforeValidator, Field, GetCoreSchemaHandler, GetPydanticSchema, HttpUrl, NonNegativeInt, PlainSerializer, PositiveInt, StringConstraints, WrapSerializer, WrapValidator
 from pydantic_core import CoreSchema, core_schema
 from pydantic_settings import NoDecode
 from sqlalchemy.util import is_non_string_iterable
 
 type CoercedHttpUrl = Annotated[HttpUrl, WrapValidator(lambda v, h: h(v) if v else None), PlainSerializer(str, str)]
 
-def validate_frozendict(v: Any, handler: ValidatorFunctionWrapHandler) -> frozendict[Any, Any]:
-    if isinstance(v, frozendict):
-        return v
-
-    if isinstance(v, Mapping):
-        return frozendict(handler(v))
-
-    raise TypeError(f"Expected frozendict or Mapping, got {type(v)}")
-
+@GetPydanticSchema
 def _frozen_dict_schema(tp: Any, handler: GetCoreSchemaHandler) -> CoreSchema:
     args = get_args(tp)
     key_type = args[0] if len(args) >= 1 else Any
@@ -39,21 +30,28 @@ def _frozen_dict_schema(tp: Any, handler: GetCoreSchemaHandler) -> CoreSchema:
         )
     )
 
-def ZeroPad(min_length: int):
-    return BeforeValidator(lambda s: s.zfill(min_length))
+type FrozenDict[K, V] = Annotated[frozendict[K, V], _frozen_dict_schema]
+"""Type definition for an immutable dict."""
 
-type FrozenDict[K, V] = Annotated[frozendict[K, V], GetPydanticSchema(_frozen_dict_schema)]
-type TypedFrozenDict[T] = Annotated[T, AfterValidator(lambda v: frozendict(v))]
+type FrozenTypedDict[T] = Annotated[T, AfterValidator(lambda v: frozendict(v))]
 # NOTE: The pattern is in Rust syntax, not Python syntax! (Pydantic-core is implemented in Rust.)
 Crc = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{8}$")]
+"""A str that coerces to a lowercase CRC32 when used as a Pydantic field."""
+
 Md5 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{32}$")]
+"""A str that coerces to a lowercase MD5 when used as a Pydantic field."""
+
 Sha1 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{40}$")]
+"""A str that coerces to a loewrcase SHA1 when used as a Pydantic field."""
+
 Sha256 = Annotated[str, StringConstraints(to_lower=True, strip_whitespace=True, pattern=r"^[a-fA-F0-9]{64}$")]
+"""A str that coerces to a lowercase SHA256 when used as a Pydantic field."""
 
 type FrozenJsonValue = tuple[FrozenJsonValue, ...] | FrozenDict[str, FrozenJsonValue] | str | bool | int | float | None
+"""An immutable equivalent to JsonValue."""
 
-type WrapInTuple[T] = Annotated[tuple[T, ...], BeforeValidator(lambda v: always_iterable(v))]
 type OnlyFirst[T] = Annotated[T, BeforeValidator(lambda v: v[0] if is_non_string_iterable(v) and isinstance(v, Sequence) else v)]
+"""A type that extracts the first element of a non-string iterable (or accepts anything else as-is)"""
 
 type EmptyStringToNone[T] = Annotated[
     T | None,
@@ -69,7 +67,9 @@ type EmptyToNone[T] = Annotated[
     BeforeValidator(lambda v: v if v else None),
     WrapSerializer(lambda v, h: h(v) if v else None, return_type=(T | None))
 ]
+"""Serializes falsy values as None."""
 
+@BeforeValidator
 def _split_cli_csv(value: Any) -> Any:
     """
     Splits a comma-separated CLI argument into a tuple of strings.
@@ -84,13 +84,14 @@ def _split_cli_csv(value: Any) -> Any:
 
     return value
 
-type CliTuple[T] = Annotated[tuple[T, ...], NoDecode, BeforeValidator(_split_cli_csv)]
+type CliTuple[T] = Annotated[tuple[T, ...], NoDecode, _split_cli_csv]
 """
 A tuple field that can be given on the command line
 as one comma-separated argument or as a repeated argument.
 """
 
 class PoolArgs:
+    """Common CLI arguments for scripts that need to run multiple parallel tasks."""
     processes: int | None = Field(
         default=None,
         description="Number of processes to use for loading data. Defaults to the number of CPU cores.",
@@ -147,15 +148,14 @@ class VerboseArgs:
 
 __all__ = (
     "DEFAULT_DAT_CONCURRENCY",
-    "DEFAULT_IGDB_CONCURRENCY",
     "DEFAULT_HASHEOUS_CONCURRENCY",
+    "DEFAULT_IGDB_CONCURRENCY",
     "CliTuple",
-    "Sha256",
-    "Sha1",
-    "Md5",
+    "CoercedHttpUrl",
     "Crc",
     "EmptyStringToNone",
-    "CoercedHttpUrl",
-    "WrapInTuple",
     "FrozenDict",
+    "Md5",
+    "Sha1",
+    "Sha256",
 )
