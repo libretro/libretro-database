@@ -312,7 +312,7 @@ class Game(DatModel, frozen=True):
 
 class PlaylistGameMapping(DatabaseModel, frozen=True):
     __tablename__ = "DatPlaylistGameMapping"
-    __tablekwargs__ = {"sqlite_with_rowid": False}
+    __tablekwargs__ = frozendict({"sqlite_with_rowid": False})
 
     playlist: Annotated[PlaylistTitle, Column(primary_key=True, index=True)]
     game: Annotated[RowId, Column(ForeignKey("DatGame.rowid"), primary_key=True, index=True)]
