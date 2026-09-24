@@ -44,9 +44,11 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncConnection, AsyncEngine
 from sqlalchemy.util import is_non_string_iterable
 
-from igdb import IgdbId, Playlist, PlaylistConfig, PlaylistTitle
+from igdb import IgdbId
 from dats import DAT_KEY_TABLE
-from utils import CliTuple, Crc, DatabaseModel, DEFAULT_HASHEOUS_CONCURRENCY, EmptyToNone, ExtractedRows, FrozenDict, FrozenJsonValue, IndexArgs, PlaylistArgs, PoolArgs, Relationship, TypedFrozenDict, InsertInRowContext, EmptyStringToNone, Md5, RowAccumulator, RowDeduplicator, Sha1, Sha256, create_db, VerboseArgs, db_transaction
+from playlist import Playlist, PlaylistArgs, PlaylistConfig, PlaylistTitle
+from sqlite import DatabaseModel, ExtractedRows, InsertInRowContext, RowAccumulator, RowDeduplicator, create_db, db_transaction
+from utils import CliTuple, Crc, DEFAULT_HASHEOUS_CONCURRENCY, EmptyStringToNone, EmptyToNone, FrozenDict, FrozenJsonValue, IndexArgs, Md5, PoolArgs, Sha1, Sha256, TypedFrozenDict, VerboseArgs
 
 METADATA_MAP_URL = "https://hasheous.org/api/v1/Dumps/MetadataMap.zip"
 
@@ -420,6 +422,20 @@ HASHEOUS_OBJECT_TYPES = (
     PlaylistDumpMapping,
     GameDumpMapping,
 )
+
+class HasheousConfig(BaseModel, frozen=True):
+    """How `match.py` interprets Hasheous's data."""
+
+    regions_by_country_code: FrozenDict[str, str] = frozendict.frozendict()
+    """
+    Hasheous's country codes for the regions whose names it spells differently than the DAT files.
+    The names of all other countries already match.
+    """
+
+    ignored_games: frozenset[int] = frozenset()
+    """
+    Hasheous games whose ROMs identify nothing, so `match.py` skips those ROMs under every game that lists them.
+    """
 
 class MatchRecord(NamedTuple):
     """
@@ -1073,6 +1089,7 @@ __all__ = (
     "Attribute",
     "DataObject",
     "DataObjectType",
+    "HasheousConfig",
     "HasheousId",
     "HASHEOUS_OBJECT_TYPES",
     "index_hasheous",

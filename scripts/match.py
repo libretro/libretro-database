@@ -20,6 +20,7 @@ import json
 import logging
 import re
 import time
+import tomllib
 
 from collections import Counter, defaultdict
 from collections.abc import Callable, Collection, Iterable, Iterator, Mapping, Sequence
@@ -46,12 +47,10 @@ from titlecase import titlecase
 from dats import DAT_OBJECT_TYPES, ClrMamePro, CompiledEntry, DatTable, ParsedDatFile, compile_dats_async, encode_dat, get_dat_match, index_dats, write_dat_key_index, Game as DatGame, PlaylistGameMapping as DatPlaylistGameMapping, Rom as DatRom
 from igdb import (
     IGDB_OBJECT_TYPES,
-    DumpIdType,
     IgdbConfig,
-    Playlist,
-    PlaylistConfig,
     RegionConfig,
     index_igdb,
+    playlist_query,
     AgeRating as IgdbAgeRating,
     AgeRatingCategory as IgdbAgeRatingCategory,
     AgeRatingOrganization as IgdbAgeRatingOrganization,
@@ -69,8 +68,10 @@ from igdb import (
     PlaylistMapping as IgdbPlaylistMapping,
     ReleaseDate as IgdbReleaseDate,
 )
-from hasheous import HASHEOUS_OBJECT_TYPES, index_hasheous, GameDataObject as HasheousGameDataObject, GameDumpMapping as HasheousGameDumpMapping, RomItem as HasheousRomItem
-from utils import CliTuple, DEFAULT_DAT_CONCURRENCY, DEFAULT_HASHEOUS_CONCURRENCY, DEFAULT_IGDB_CONCURRENCY, IndexArgs, PlaylistArgs, PoolArgs, RowId, Sha256, VerboseArgs, build_metadata, create_db, create_deferred_indexes, DatabaseModel, Crc, Md5, Sha1, db_transaction
+from hasheous import HASHEOUS_OBJECT_TYPES, HasheousConfig, index_hasheous, GameDataObject as HasheousGameDataObject, GameDumpMapping as HasheousGameDumpMapping, RomItem as HasheousRomItem
+from playlist import DumpIdType, Playlist, PlaylistArgs, PlaylistConfig
+from sqlite import DatabaseModel, RowId, build_metadata, create_db, create_deferred_indexes, db_transaction
+from utils import CliTuple, Crc, DEFAULT_DAT_CONCURRENCY, DEFAULT_HASHEOUS_CONCURRENCY, DEFAULT_IGDB_CONCURRENCY, IndexArgs, Md5, PoolArgs, Sha1, Sha256, VerboseArgs
 
 class AllRoms(DatabaseModel, frozen=True):
     __tablename__ = "AllRoms"
@@ -128,6 +129,27 @@ class CommonArgs:
         validation_alias=AliasChoices('d', 'dat'),
         validate_default=True,
     )
+
+
+@dataclass(frozen=True)
+class MatchConfig:
+    """What `match.py` reads from `playlists.toml`, one section per field."""
+
+    playlists: PlaylistConfig
+    igdb: IgdbConfig
+    hasheous: HasheousConfig
+    regions: RegionConfig
+
+    @classmethod
+    def load(cls, path: Path) -> MatchConfig:
+        document = tomllib.loads(path.read_text(encoding="utf-8"))
+        return cls(
+            playlists=PlaylistConfig.model_validate(document),
+            igdb=IgdbConfig.model_validate(document.get("igdb", {})),
+            hasheous=HasheousConfig.model_validate(document.get("hasheous", {})),
+            regions=RegionConfig.model_validate(document.get("regions", {})),
+        )
+
 
 OUTDIR_NAME = "lookatalldat"
 
@@ -284,7 +306,7 @@ def playlist_igdb_platforms(playlist: Playlist) -> frozenset[int] | None:
     Returns the IGDB platforms that a playlist's query selects games by,
     or None if it selects them some other way (e.g. by engine or ID).
     """
-    where = playlist.igdb_query.where or ""
+    where = playlist_query(playlist).where or ""
     match = re.search(r"\bplatforms\s*=\s*\(([\d,\s]+)\)", where)
     if not match:
         return None
@@ -499,7 +521,7 @@ class Catalog:
     """The languages that Hasheous lists for each of its games, across all of the game's ROMs."""
 
     @classmethod
-    async def load(cls, connection: AsyncConnection, metadata: MetaData, config: PlaylistConfig) -> Catalog:
+    async def load(cls, connection: AsyncConnection, metadata: MetaData, config: MatchConfig) -> Catalog:
         """
         :param metadata: The tables that the `index` subcommand wrote to the database that `connection` reads.
         """
@@ -1294,8 +1316,8 @@ class GenerateSubCommand(BaseModel, PlaylistArgs, PoolArgs, VerboseArgs):
         start = time.perf_counter()
         show_logs(self._log.name, verbose=self.verbose)
 
-        config = PlaylistConfig.load(self.config)
-        playlists = config.playlists_titled(self.playlists)
+        config = MatchConfig.load(self.config)
+        playlists = config.playlists.playlists_titled(self.playlists)
         self.outdir.mkdir(parents=True, exist_ok=True)
 
         db = create_async_engine(f"sqlite+aiosqlite:///file:{self.input.as_posix()}?mode=ro&uri=true")

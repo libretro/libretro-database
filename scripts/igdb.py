@@ -32,7 +32,7 @@ from authlib.oauth2.rfc6749 import OAuth2Token
 from frozendict import frozendict
 from httpx import HTTPStatusError, Response, Timeout
 from more_itertools import batched, map_reduce, spy
-from pydantic import AliasChoices, BaseModel, BeforeValidator, DirectoryPath, Field, FieldSerializationInfo, FilePath, SerializerFunctionWrapHandler, TypeAdapter, JsonValue, WrapValidator, computed_field, field_serializer
+from pydantic import AliasChoices, BaseModel, BeforeValidator, DirectoryPath, Field, FieldSerializationInfo, SerializerFunctionWrapHandler, TypeAdapter, JsonValue, WrapValidator, field_serializer
 from pydantic_core import from_json, to_json
 from pydantic_extra_types.country import CountryNumericCode
 from pydantic_settings import BaseSettings, CliApp, CliPositionalArg, CliSubCommand, SettingsConfigDict
@@ -40,14 +40,15 @@ from sqlalchemy import Column, ForeignKey, Index, MetaData, column, text
 from sqlalchemy.dialects.sqlite import INTEGER, insert
 from sqlalchemy.ext.asyncio import AsyncEngine
 
-from utils import CliTuple, CoercedHttpUrl, DatabaseModel, DEFAULT_IGDB_CONCURRENCY, ExtractedRows, FrozenDict, PoolArgs, Relationship, RowDeduplicator, create_db, db_transaction, extract_rows, VerboseArgs
+from playlist import Playlist, PlaylistArgs, PlaylistConfig, PlaylistTitle
+from sqlite import DatabaseModel, ExtractedRows, Relationship, RowDeduplicator, create_db, db_transaction, extract_rows
+from utils import CoercedHttpUrl, DEFAULT_IGDB_CONCURRENCY, FrozenDict, PoolArgs, VerboseArgs
 
 IgdbId = NewType('IgdbId', int)
 IgdbPrimaryId = Annotated[
     IgdbId,
     Column(INTEGER, primary_key=True, autoincrement=False, )
 ]
-PlaylistTitle = NewType('PlaylistTitle', str)
 
 def country_numeric_code_validator(value: Any) -> CountryNumericCode:
     """
@@ -684,69 +685,18 @@ def validate_igdb_query(value: Any, handler: SerializerFunctionWrapHandler) -> Q
 
 MAX_OBJECTS_PER_QUERY = 500
 
-type DumpIdType = Literal['crc', 'serial']
+PlaylistQueryAdapter = TypeAdapter(Annotated[Query, WrapValidator(validate_igdb_query)])
 
-@dataclass(frozen=True)
-class Playlist:
-    """
-    A playlist defines criteria for a set of games
-    that will be aggregated into a single `.rdb` file.
+def playlist_query(playlist: Playlist) -> Query:
+    """Parses the IGDB query that selects a playlist's games."""
+    return PlaylistQueryAdapter.validate_python(playlist.igdb_query)
 
-    Conceptually similar to playlists in RetroArch,
-    but this object doesn't list specific games;
-    just criteria for aggregating their data.
-    """
-
-    title: PlaylistTitle
-    '''
-    The canonical title of the playlist, usually (but not necessarily)
-    the name of a hardware manufacturer and platform.
-    Used as the name of a generated `.dat` file and `.rdb` database.
-    '''
-
-    igdb_query: Annotated[
-        Query,
-        WrapValidator(validate_igdb_query),
-        Field(validation_alias='igdb')
-    ]
-    '''
-    The IGDB query to use to fetch games for this playlist.
-    '''
-
-    alts: tuple[str, ...] = ()
-    '''
-    Other names that may be used to address this playlist.
-
-    Primarily used to identify `.dat` files from this repo
-    that don't share the same name as the playlist title.
-    '''
-
-    hasheous_dirs: Annotated[tuple[str, ...], Field(validation_alias='hasheous')] = ()
-    '''
-    The names of zero or more Hasheous dump files, excluding the zip suffix.
-    Passed to "https://hasheous.org/api/v1/Dumps/platforms/{name}".
-    '''
-
-    id_type: DumpIdType = 'crc'
-    """
-    Used to determine which ID is most useful for a platform.
-
-    Some platforms (mostly CD-based) can have a given dump
-    encoded or compressed in many different ways,
-    making CRCs useless for reliably identifying them.
-    For these platforms, we use the serial number
-    that's usually embedded in the ROM data.
-
-    The values in playlists.toml are taken from
-    https://github.com/libretro/RetroArch/blob/master/tasks/task_database_cue.c
-    """
-
-    def expand_to_all(self, count: int, limit: int = MAX_OBJECTS_PER_QUERY) -> Iterator[MultiqueryQuery]:
-        return map(lambda q: MultiqueryQuery(
-            name=f"{self.title} ({q.offset}-{q.last})",
-            endpoint="games",
-            **dataclasses.asdict(q),
-        ), self.igdb_query.expand_to_all(count, MAX_QUERIES_IN_MULTIQUERY))
+def expand_playlist(playlist: Playlist, count: int, limit: int = MAX_OBJECTS_PER_QUERY) -> Iterator[MultiqueryQuery]:
+    return map(lambda q: MultiqueryQuery(
+        name=f"{playlist.title} ({q.offset}-{q.last})",
+        endpoint="games",
+        **dataclasses.asdict(q),
+    ), playlist_query(playlist).expand_to_all(count, MAX_QUERIES_IN_MULTIQUERY))
 
 class RatingBoard(BaseModel, frozen=True):
     """An age rating board whose IGDB ratings `match.py` keeps."""
@@ -820,20 +770,6 @@ class IgdbConfig(BaseModel, frozen=True):
     ignored_age_ratings: frozenset[str] = frozenset()
     """Age ratings that aren't ratings (e.g. ESRB's "Rating Pending")."""
 
-class HasheousConfig(BaseModel, frozen=True):
-    """How `match.py` interprets Hasheous's data."""
-
-    regions_by_country_code: FrozenDict[str, str] = frozendict()
-    """
-    Hasheous's country codes for the regions whose names it spells differently than the DAT files.
-    The names of all other countries already match.
-    """
-
-    ignored_games: frozenset[int] = frozenset()
-    """
-    Hasheous games whose ROMs identify nothing, so `match.py` skips those ROMs under every game that lists them.
-    """
-
 class RegionConfig(BaseModel, frozen=True):
     """How `match.py` reads and spells the regions that DAT files name."""
 
@@ -860,27 +796,6 @@ class RegionConfig(BaseModel, frozen=True):
     def all(self) -> frozenset[str]:
         """Every region that a No-Intro or Redump name may list."""
         return frozenset((*self.igdb, *self.known))
-
-class PlaylistConfig(BaseModel, frozen=True):
-    """The contents of `playlists.toml`."""
-
-    playlists: tuple[Playlist, ...]
-    igdb: IgdbConfig = IgdbConfig()
-    hasheous: HasheousConfig = HasheousConfig()
-    regions: RegionConfig = RegionConfig()
-
-    @classmethod
-    def load(cls, path: Path) -> Self:
-        return cls.model_validate(tomllib.loads(path.read_text(encoding="utf-8")))
-
-    def playlists_titled(self, titles: Collection[str]) -> tuple[Playlist, ...]:
-        """Returns the playlists with the given titles, or all of them if `titles` is empty."""
-        return tuple(p for p in self.playlists if p.title in titles) if titles else self.playlists
-
-    @computed_field
-    @cached_property
-    def by_title(self) -> Mapping[PlaylistTitle, Playlist]:
-        return frozendict({pl.title: pl for pl in self.playlists})
 
 MAX_QUERIES_IN_MULTIQUERY = 10
 '''
@@ -1135,28 +1050,6 @@ class AuthArgs:
         min_length=1,
     )
 
-class PlaylistArgs:
-    config: FilePath = Field(
-        default=Path(__file__).parent.parent / 'playlists.toml',
-        title="Playlist Config File",
-        description="Path to the config file that defines available playlists.",
-        validation_alias=AliasChoices('c', 'config'),
-        validate_default=True,
-    )
-
-    playlists: CliTuple[str] = Field(
-        default=(),
-        description="""
-            Query IGDB with the filters defined in playlist_config.
-            Pass as -p '<playlist_title>' multiple times or once as -p '<playlist1>,<playlist2>,...'
-            to fetch multiple playlists.
-            If omitted, all playlists in the config that define an 'igdb.query' field will be fetched.
-            Unrecognized playlist titles will be ignored.
-        """,
-        validation_alias=AliasChoices('p', 'playlists'),
-        examples=[("Coleco - ColecoVision", "Dinothawr")]
-    )
-
 class QuerySubCommand(BaseModel, VerboseArgs, AuthArgs):
     """
     Execute an arbitrary Apicalypse query against the IGDB API
@@ -1287,9 +1180,9 @@ class FetchSubCommand(BaseModel, VerboseArgs, AuthArgs, PlaylistArgs):
 
         async def fetch_playlist(client: QueryClient, playlist: Playlist, group: TaskGroup):
             print(f"{playlist.title}: Fetching game count in query...")
-            count = await client.count("games", playlist.igdb_query)
+            count = await client.count("games", playlist_query(playlist))
             print(f"{playlist.title}: Found {count} games matching query.")
-            queries = playlist.expand_to_all(count, MAX_OBJECTS_PER_QUERY)
+            queries = expand_playlist(playlist, count, MAX_OBJECTS_PER_QUERY)
             multiqueries = (Multiquery(batch) for batch in batched(queries, MAX_QUERIES_IN_MULTIQUERY))
             fetch_tasks = (group.create_task(client.query("multiquery", m)) for m in multiqueries)
             responses = await asyncio.gather(*fetch_tasks)
@@ -1499,6 +1392,7 @@ __all__ = (
     "DateFormat",
     "DEFAULT_GAME_FIELD_TUPLE",
     "DEFAULT_SORT",
+    "expand_playlist",
     "Franchise",
     "Game",
     "GameEngine",
@@ -1526,8 +1420,7 @@ __all__ = (
     "PlatformType",
     "PlatformVersion",
     "PlayerPerspective",
-    "Playlist",
-    "PlaylistTitle",
+    "playlist_query",
     "Query",
     "QueryClient",
     "Region",
