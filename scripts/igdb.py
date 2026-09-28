@@ -1032,21 +1032,29 @@ async def load_game_file(path: Path) -> LoadedGames:
         )
 
 class AuthArgs:
+    # Subcommands are plain models, so pydantic-settings won't read the environment for them.
+    # Factories keep the secrets out of --help.
     client_id: str = Field(
+        default_factory=lambda: os.environ.get('TWITCH_CLIENT_ID', ''),
         title="Twitch Client ID",
         description="""
             Your client ID for IGDB API access.
+            Defaults to the TWITCH_CLIENT_ID environment variable.
             See the IGDB API docs for more.
         """,
         validation_alias=AliasChoices('client-id', 'i'),
+        validate_default=True,
         min_length=1,
     )
     client_secret: str = Field(
+        default_factory=lambda: os.environ.get('TWITCH_CLIENT_SECRET', ''),
         description="""
             Your client secret for IGDB API access.
+            Defaults to the TWITCH_CLIENT_SECRET environment variable.
             See the IGDB API docs for more.
         """,
         validation_alias=AliasChoices('client-secret', 's'),
+        validate_default=True,
         min_length=1,
     )
 
