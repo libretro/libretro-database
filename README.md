@@ -262,13 +262,6 @@ and words that title-casing would misspell.
 4. Run `scripts/match.py generate` to write one DAT file per system to `lookatalldat`.
 5. Run `make build`.
 
-Two parts of this workflow need changes that aren't upstream yet:
-
-- `libretro-build-database.sh` must pass `lookatalldat/<system>.dat` to `c_converter` after all other DAT files.
-- The generated `tags` field (from IGDB's keywords) is read by RetroArch's Explore menu,
-  but `c_converter` only compiles it into the `.rdb` if its `rdb_mappings` include `tags`.
-  Without that change, `tags` is silently left out.
-
 ### Testing
 
 Make sure filenames are Windows file system compatible, and are not too long (eg. [ecryptfs limits filenames to 143 characters](https://unix.stackexchange.com/questions/32795/what-is-the-maximum-allowed-filename-and-folder-size-with-ecryptfs/32834#32834))...
