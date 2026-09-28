@@ -9,7 +9,6 @@ Dictionary definitions taken from the following Hasheous source files:
 """
 
 import asyncio
-import csv
 import logging
 import sqlite3
 import sys
@@ -17,9 +16,9 @@ import time
 import tomllib
 
 from abc import ABC
-from collections.abc import Callable, Collection, Iterable, Mapping, Sequence
+from collections.abc import Callable, Iterable, Mapping, Sequence
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import timedelta
 from functools import cached_property
 from itertools import chain
 from pathlib import Path
@@ -32,15 +31,13 @@ import backoff
 import frozendict
 import httpx
 
-from aioitertools.asyncio import as_completed
 from aiomultiprocess import Pool
-from more_itertools import first_true, map_reduce
-from pydantic import AfterValidator, AliasChoices, BaseModel, ByteSize, ConfigDict, DirectoryPath, Discriminator, Field, FieldSerializationInfo, FilePath, HttpUrl, OnErrorOmit, SerializerFunctionWrapHandler, StringConstraints, Tag, ValidationError, computed_field, field_serializer
+from more_itertools import first_true
+from pydantic import AfterValidator, AliasChoices, BaseModel, ByteSize, ConfigDict, DirectoryPath, Discriminator, Field, FieldSerializationInfo, FilePath, HttpUrl, OnErrorOmit, SerializerFunctionWrapHandler, StringConstraints, Tag, computed_field, field_serializer
 from pydantic.alias_generators import to_pascal
 from pydantic_settings import BaseSettings, CliApp, CliPositionalArg, CliSubCommand, SettingsConfigDict
 from sqlalchemy import Column, Computed, ForeignKey, MetaData, String, Index, column, text
 from sqlalchemy.dialects.sqlite import INTEGER, JSON, insert, Insert
-from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncConnection, AsyncEngine
 from sqlalchemy.util import is_non_string_iterable
 
@@ -762,104 +759,6 @@ class FetchSubCommand(BaseModel, VerboseArgs):
                 group.create_task(fetch_dump(d), name=d)
             # The task group will wait for all fetches to complete
 
-class MetadataMatch(TypedDict):
-    source: Literal["IGDB"] # Only IGDB is supported for now
-    platformId: str
-    gameId: str
-
-class FixMatchBody(TypedDict):
-    mD5: Optional[str]
-    shA1: Optional[str]
-    metadataMatches: Sequence[MetadataMatch]
-
-# See https://github.com/gaseous-project/hasheous/wiki/API:-Submission-%E2%80%90-FixMatch for API guidance
-async def submit_matches(tsv_path: Path, api_key: str, dry_run: bool = False, verbose: bool = False) -> None:
-    def read_match(row: dict[str, str]) -> MatchRecord:
-        def parse_optional_int(value: str) -> Optional[int]:
-            value = value.strip()
-            if not value:
-                return None
-            return int(value)
-
-        def parse_optional_str(value: str) -> Optional[str]:
-            value = value.strip()
-            if not value:
-                return None
-            return value
-
-        return MatchRecord(
-            name=row['name'].strip(),
-            crc=parse_optional_str(row['crc']),
-            md5=parse_optional_str(row['md5']),
-            sha1=parse_optional_str(row['sha1']),
-            serial=parse_optional_str(row['serial']),
-            hasheous_id=parse_optional_int(row['hasheous_id']),
-            hasheous_url=parse_optional_str(row['hasheous_url']),
-            igdb_id=parse_optional_int(row['igdb_id']),
-            igdb_url=parse_optional_str(row['igdb_url']),
-            igdb_release_id=parse_optional_int(row['igdb_release_id']),
-            igdb_platform_id=parse_optional_int(row['igdb_platform_id']),
-        )
-
-    def can_submit(match: MatchRecord) -> bool:
-        return match.igdb_id is not None and \
-               match.hasheous_id is not None and \
-               ((match.md5 or match.sha1) is not None) and \
-               match.crc is not None
-
-    def make_body(match: MatchRecord) -> FixMatchBody:
-        metadata_matches: Sequence[MetadataMatch] = [{
-            "source": "IGDB",
-            "platformId": str(match.igdb_platform_id),
-            "gameId": str(match.igdb_release_id),
-        }]
-
-        return FixMatchBody(
-            mD5=match.md5,
-            shA1=match.sha1,
-            metadataMatches=metadata_matches,
-        )
-
-    async with aiofiles.open(tsv_path, "r", encoding="utf-8") as tsv_file:
-        lines = await tsv_file.readlines()
-        reader = csv.DictReader(lines, fieldnames=MatchRecord._fields, dialect='excel-tab')
-        matches = (read_match(m) for m in reader)
-        valid_matches = filter(can_submit, matches)
-        raise NotImplementedError("Submission functionality is not yet implemented.")
-
-class SubmitSubCommand(BaseModel, VerboseArgs):
-    api_key: str  = Field(
-        description="The Hasheous API key to use for submission. Overrides the HASHEOUS_API_KEY environment variable if provided.",
-        validation_alias=AliasChoices('a', 'api-key'),
-    )
-
-    dry_run: bool = Field(
-        default=False,
-        description="Don't actually submit anything; just show what would be submitted.",
-        validation_alias=AliasChoices('n', 'dry-run'),
-    )
-
-    matchfiles: CliPositionalArg[tuple[FilePath, ...]] = Field(
-        description="One or more TSV files containing match data to submit, as generated by match.py's `generate` subcommand. Only rows that include an IGDB ID, a Hasheous ID, a CRC, and an MD5 or SHA1 will be included.",
-    )
-
-    async def cli_cmd(self):
-        if self.verbose:
-            print("Match files to submit:", self.matchfiles)
-            print("Dry run:", self.dry_run)
-
-        async with asyncio.TaskGroup() as group:
-            for matchfile in self.matchfiles:
-                group.create_task(
-                    submit_matches(
-                        matchfile,
-                        self.api_key,
-                        dry_run=self.dry_run,
-                        verbose=self.verbose
-                    ),
-                    name=matchfile.stem
-                )
-
 PARENT_DIR = Path(__file__).parent.parent
 
 class HasheousJob(NamedTuple):
@@ -1075,7 +974,6 @@ class IndexSubCommand(BaseModel, PlaylistArgs, IndexArgs, VerboseArgs, PoolArgs)
 
 class HasheousCommand(BaseSettings):
     fetch: CliSubCommand[FetchSubCommand]
-    submit: CliSubCommand[SubmitSubCommand]
     index: CliSubCommand[IndexSubCommand]
     model_config = SettingsConfigDict(
         case_sensitive=False,
