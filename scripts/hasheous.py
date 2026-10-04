@@ -875,6 +875,11 @@ async def index_hasheous(
     async def job(name: str) -> None:
         path = hasheous_path / f"{name}.zip"
 
+        # `hasheous.py fetch` skips dumps that Hasheous doesn't have
+        if not await aiofiles.os.path.isfile(path):
+            log.warning("Dump %s not found at %s, skipping", name, path)
+            return
+
         # Read the archive in chunks, so that no single task
         # has to hold a whole dump's worth of rows in memory.
         total = await pool.apply(count_zip_games, (path,))
