@@ -1,20 +1,21 @@
 clrmamepro (
 	name "Sharp - X1"
 	description "Sharp - X1"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "2d|cas|d88|hfe|scp|tap|wav"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
+game (
+	name "177"
+	releaseyear "1986"
+	rom ( name "177 (1986)(Macadamia).2d" size 327680 crc EC0A7D2F md5 19438EF92704E6B1C8D33C671D4B5D49 sha1 C7F99F04A720AD4F7AEBA52AB806EFB30BE5FFBF )
+)
 game (
 	name "15 Puzzles (Japan)[Req HuBasic]"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "15 Puzzles (1983)(Apollo Technica)(JP)[Req HuBasic].tap" size 90592 crc 60B81543 md5 5659DC5C9CD6F19B5A882373A27E5961 sha1 FBA956A2A12B0F529F9AAD80BA8DA9C9842E9A98 )
-)
-game (
-	name "177"
-	releaseyear "1986"
-	rom ( name "177 (1986)(Macadamia).2d" size 327680 crc EC0A7D2F md5 19438EF92704E6B1C8D33C671D4B5D49 sha1 C7F99F04A720AD4F7AEBA52AB806EFB30BE5FFBF )
 )
 game (
 	name "198X-nen (Japan)[Req HuBasic]"
@@ -26,7 +27,7 @@ game (
 	rom ( name "2 in 1 Series - SL & Gyakushuu Chika Teikoku (198x)(Nihon Micom Gakuen).tap" size 72879 crc AA31CF51 md5 CCF6B48C1E23BD6AED5D50C48ADD1281 sha1 F5D3538832ADE0B1C8582598907D4FD524609C1D )
 )
 game (
-	name "2 in 1 Series - SL & Gyakushuu Chika Teikoku"
+	name "2 in 1 Series - SL & Gyakushuu Chika Teikoku (Alt 1)"
 	rom ( name "2 in 1 Series - SL & Gyakushuu Chika Teikoku (198x)(Nihon Micom Gakuen).wav" size 6484012 crc B9C5FC0A md5 9F2AAD243CCAE1FAE5E13D1E10DD0973 sha1 80753614145C6A28C82FBF8E571B0B4C7F4EF526 )
 )
 game (
@@ -84,7 +85,7 @@ game (
 	rom ( name "Ascend (2022-03-28)(Inufuto)(JP).tap" size 243810 crc CA61B1BC md5 7944AA137BA83398050DC8AD3FB782EA sha1 AB37ED1A6FDC2198578227C7DDDC03AAE031679D )
 )
 game (
-	name "Ascend (Japan)"
+	name "Ascend (Japan) (Alt 1)"
 	releaseyear "2022"
 	releasemonth "03"
 	releaseday "28"
@@ -282,11 +283,53 @@ game (
 	rom ( name "Crimsin (1988)(Xtalsoft)(Disk 3 of 3).d88" size 348848 crc 3EEAAE89 md5 45CD72EF4FFF64D59C396FEFDC71A357 sha1 460E405C18BEAC1593EE851D86A2D1DFE4315B34 )
 )
 game (
+	name "Cross Chase"
+	releaseyear "2018"
+	releasemonth "10"
+	releaseday "29"
+	rom ( name "Cross Chase (2018-10-29)(Caruso, Fabrizio).2d" size 327680 crc 82098CF5 md5 4EF1FA2C98874578E89C140D0C1FC920 sha1 9E1860CFC4267570CBAC7EDA8F6D46969A245F08 )
+)
+game (
+	name "Cross Chase (Alt 1)"
+	releaseyear "2020"
+	releasemonth "04"
+	releaseday "02"
+	rom ( name "Cross Chase (2020-04-02)(Caruso, Fabrizio).d88" size 348848 crc F3B0F338 md5 49892D9C1AE83D5DA24CE2BC676B8DAB sha1 3829749D053319C21591062865CBB2FCC02235B7 )
+)
+game (
+	name "Cross Chase (Alt 2)"
+	releaseyear "2021"
+	releasemonth "05"
+	releaseday "13"
+	rom ( name "Cross Chase (2021-05-13)(Caruso, Fabrizio).d88" size 348848 crc 4E398ECF md5 B435A18250D1996C6D6CB030C3CE4574 sha1 48342EE01868247827E6A9EF600990078C9E8C20 )
+)
+game (
 	name "Cross Chase [full]"
 	releaseyear "2018"
 	releasemonth "04"
 	releaseday "15"
 	rom ( name "Cross Chase (2018-04-15)(Caruso, Fabrizio)[full].2d" size 327680 crc 9B4E4386 md5 35B4F89D7604ACB3645A7ABBCCDA3459 sha1 B904B2E654876BD99421EA252CF70D4DA0B6C45D )
+)
+game (
+	name "Cross Chase [full] (Alt 1)"
+	releaseyear "2018"
+	releasemonth "05"
+	releaseday "19"
+	rom ( name "Cross Chase (2018-05-19)(Caruso, Fabrizio)[full].2d" size 327680 crc B7780E9B md5 F167BB267B1D76243D9A6AAB91F85914 sha1 5564874E6BFBA5189B498909CA28D87A33D9334C )
+)
+game (
+	name "Cross Chase [full] (Alt 2)"
+	releaseyear "2018"
+	releasemonth "07"
+	releaseday "19"
+	rom ( name "Cross Chase (2018-07-19)(Caruso, Fabrizio)[full].2d" size 327680 crc E278309D md5 26E4FE38C2CB5ED7CD9E295E440B5444 sha1 97679DEF5024F3ACC7BE87150FC4CCCB7CD01319 )
+)
+game (
+	name "Cross Chase [full] (Alt 3)"
+	releaseyear "2018"
+	releasemonth "08"
+	releaseday "04"
+	rom ( name "Cross Chase (2018-08-04)(Caruso, Fabrizio)[full].2d" size 327680 crc 43F5F9E8 md5 9BF65DF50A93FAC8EB7E5051CAF9BB27 sha1 6B7E47DEE2492BDF6E3AA70E48D4D4B7F8CC8884 )
 )
 game (
 	name "Cross Chase [tiny]"
@@ -296,67 +339,25 @@ game (
 	rom ( name "Cross Chase (2018-04-15)(Caruso, Fabrizio)[tiny].2d" size 327680 crc A4219A18 md5 8F166FB355AA982C0702B9C361EDA41F sha1 3E9360080EF10BE7C0376A79C23AE6D12A2574ED )
 )
 game (
-	name "Cross Chase [full]"
-	releaseyear "2018"
-	releasemonth "05"
-	releaseday "19"
-	rom ( name "Cross Chase (2018-05-19)(Caruso, Fabrizio)[full].2d" size 327680 crc B7780E9B md5 F167BB267B1D76243D9A6AAB91F85914 sha1 5564874E6BFBA5189B498909CA28D87A33D9334C )
-)
-game (
-	name "Cross Chase [tiny]"
+	name "Cross Chase [tiny] (Alt 1)"
 	releaseyear "2018"
 	releasemonth "05"
 	releaseday "19"
 	rom ( name "Cross Chase (2018-05-19)(Caruso, Fabrizio)[tiny].2d" size 327680 crc 85068ECD md5 02CEE7E45843F9C1F2C9AD596161BB9B sha1 C7DD59F77C1D0E9228D86D4476B34256C8E38B79 )
 )
 game (
-	name "Cross Chase [full]"
-	releaseyear "2018"
-	releasemonth "07"
-	releaseday "19"
-	rom ( name "Cross Chase (2018-07-19)(Caruso, Fabrizio)[full].2d" size 327680 crc E278309D md5 26E4FE38C2CB5ED7CD9E295E440B5444 sha1 97679DEF5024F3ACC7BE87150FC4CCCB7CD01319 )
-)
-game (
-	name "Cross Chase [tiny]"
+	name "Cross Chase [tiny] (Alt 2)"
 	releaseyear "2018"
 	releasemonth "07"
 	releaseday "19"
 	rom ( name "Cross Chase (2018-07-19)(Caruso, Fabrizio)[tiny].2d" size 327680 crc 2724C757 md5 2BD0AFE96DF6107E77B3383304D5C59F sha1 9B4077B956DAFBFBF92DB9858145BDB61C430AFC )
 )
 game (
-	name "Cross Chase [full]"
-	releaseyear "2018"
-	releasemonth "08"
-	releaseday "04"
-	rom ( name "Cross Chase (2018-08-04)(Caruso, Fabrizio)[full].2d" size 327680 crc 43F5F9E8 md5 9BF65DF50A93FAC8EB7E5051CAF9BB27 sha1 6B7E47DEE2492BDF6E3AA70E48D4D4B7F8CC8884 )
-)
-game (
-	name "Cross Chase [tiny]"
+	name "Cross Chase [tiny] (Alt 3)"
 	releaseyear "2018"
 	releasemonth "08"
 	releaseday "04"
 	rom ( name "Cross Chase (2018-08-04)(Caruso, Fabrizio)[tiny].2d" size 327680 crc 46731FFC md5 796F9D625416B3609F7A2D5A8DF06379 sha1 AAB858047CC8B1F9FA3FF8FEF09D49D731DA5030 )
-)
-game (
-	name "Cross Chase"
-	releaseyear "2018"
-	releasemonth "10"
-	releaseday "29"
-	rom ( name "Cross Chase (2018-10-29)(Caruso, Fabrizio).2d" size 327680 crc 82098CF5 md5 4EF1FA2C98874578E89C140D0C1FC920 sha1 9E1860CFC4267570CBAC7EDA8F6D46969A245F08 )
-)
-game (
-	name "Cross Chase"
-	releaseyear "2020"
-	releasemonth "04"
-	releaseday "02"
-	rom ( name "Cross Chase (2020-04-02)(Caruso, Fabrizio).d88" size 348848 crc F3B0F338 md5 49892D9C1AE83D5DA24CE2BC676B8DAB sha1 3829749D053319C21591062865CBB2FCC02235B7 )
-)
-game (
-	name "Cross Chase"
-	releaseyear "2021"
-	releasemonth "05"
-	releaseday "13"
-	rom ( name "Cross Chase (2021-05-13)(Caruso, Fabrizio).d88" size 348848 crc 4E398ECF md5 B435A18250D1996C6D6CB030C3CE4574 sha1 48342EE01868247827E6A9EF600990078C9E8C20 )
 )
 game (
 	name "D-Side - Lagrange L-2 Part II (Japan)"
@@ -433,16 +434,16 @@ game (
 	rom ( name "Exoa Ii-Warroid (1984)(ASCII).2d" size 327680 crc EBBF0A25 md5 37AF11789EC3641E94BD6FEA1E2DD39B sha1 22FE5179E8350C60A3F411DD83DBFAD8AA5561CA )
 )
 game (
-	name "Extra Pinball (Japan)[Req HuBasic]"
-	releaseyear "1984"
-	region "Japan"
-	rom ( name "Extra Pinball (1984)(ASCII)(JP)[Req HuBasic].tap" size 300004 crc 0BEDC3DE md5 00B79D9EF3409BAD08F7924E480809E3 sha1 0246B50CFCC4213AEA4935F28CE3A01C4B57F821 )
-)
-game (
 	name "Extra Pinball (Japan) (Alt 1)[Req HuBasic]"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Extra Pinball (1984)(ASCII)(JP)[a][Req HuBasic].tap" size 300004 crc 6198DCC4 md5 8DAE43889985CB04B93548D58D10397A sha1 70235D5EA5054906F999294C911D6323F59E7C62 )
+)
+game (
+	name "Extra Pinball (Japan)[Req HuBasic]"
+	releaseyear "1984"
+	region "Japan"
+	rom ( name "Extra Pinball (1984)(ASCII)(JP)[Req HuBasic].tap" size 300004 crc 0BEDC3DE md5 00B79D9EF3409BAD08F7924E480809E3 sha1 0246B50CFCC4213AEA4935F28CE3A01C4B57F821 )
 )
 game (
 	name "F2 Grand Prix (Japan)"
@@ -634,16 +635,16 @@ game (
 	rom ( name "Houju (198x)(SSK Soft)(JP)[Req HuBasic].tap" size 180004 crc 77AA3A0C md5 DD102DDB6D0F51762268E2ABEB95B0F9 sha1 49D499B9397D00CEEBEACF340EE99817F77E8F90 )
 )
 game (
-	name "Hover Attack (Japan)[Req HuBasic]"
-	releaseyear "1984"
-	region "Japan"
-	rom ( name "Hover Attack (1984)(Compac)(JP)[Req HuBasic].tap" size 240004 crc C9A0BD38 md5 15636D3BF4061137CEE6D0F3A09DF806 sha1 310BB463060D6BBD10DDE6B7AE83EC99F6EC9DD2 )
-)
-game (
 	name "Hover Attack (Japan) (Alt 1)[Req HuBasic]"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Hover Attack (1984)(Compac)(JP)[a][Req HuBasic].tap" size 240004 crc E350D5A8 md5 EA809E8692EB307F34580BB745BE9F43 sha1 68BC644B2A3199DA764D1C8F1466B84D605E2E26 )
+)
+game (
+	name "Hover Attack (Japan)[Req HuBasic]"
+	releaseyear "1984"
+	region "Japan"
+	rom ( name "Hover Attack (1984)(Compac)(JP)[Req HuBasic].tap" size 240004 crc C9A0BD38 md5 15636D3BF4061137CEE6D0F3A09DF806 sha1 310BB463060D6BBD10DDE6B7AE83EC99F6EC9DD2 )
 )
 game (
 	name "Hydlide (Japan)"
@@ -802,14 +803,14 @@ game (
 	rom ( name "Maidum (19xx)(NCS)(Disk 2 of 2).2d" size 327680 crc 5B26691B md5 E2A638D3431C46260F77DC8E77ECB189 sha1 F67293B3848102DAA45265E8D63578A21067620B )
 )
 game (
+	name "Mappy"
+	rom ( name "Mappy (19xx)(Namco).2d" size 327680 crc 6D38E061 md5 5A33EEC9DE5B2BE2C4D7A6CFB2A0253A sha1 07DF9BC45D348E73267948862132B5B7A1666A65 )
+)
+game (
 	name "Mappy (Japan)[old version]"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Mappy (1984)(Dempa)(JP)[old version].tap" size 240004 crc 75CB9507 md5 8A7C91C73E1D26627C0A0E10F61BF2CC sha1 994BC0024638C8D945166BA530B224895C63574E )
-)
-game (
-	name "Mappy"
-	rom ( name "Mappy (19xx)(Namco).2d" size 327680 crc 6D38E061 md5 5A33EEC9DE5B2BE2C4D7A6CFB2A0253A sha1 07DF9BC45D348E73267948862132B5B7A1666A65 )
 )
 game (
 	name "Mazy (Japan)"
@@ -818,7 +819,7 @@ game (
 	rom ( name "Mazy (2020)(Inufuto)(JP).tap" size 208830 crc 6C22F00B md5 E5788CBE581A07D289E196452F343BE8 sha1 366648724184D4EF597A368C529F7C3BA6D32D64 )
 )
 game (
-	name "Mazy (Japan)"
+	name "Mazy (Japan) (Alt 1)"
 	releaseyear "2020"
 	region "Japan"
 	rom ( name "Mazy (2020)(Inufuto)(JP).wav" size 6152116 crc 42F0ABAE md5 3710F5FA2018BF6A42EE8949CA6FFB01 sha1 712F778288934D29997D4799F15EEB401BFEDC12 )
@@ -873,7 +874,7 @@ game (
 	rom ( name "Nocturne (1988)(System Boys)(JP).hfe" size 1064960 crc 976D951D md5 ED34136A09CF0F4E010D4E54AB358DCC sha1 79396BC3E3DC43FB7BEF246B9D990C9C10DEA648 )
 )
 game (
-	name "Nocturne (Japan)"
+	name "Nocturne (Japan) (Alt 1)"
 	releaseyear "1988"
 	region "Japan"
 	rom ( name "Nocturne (1988)(System Boys)(JP).scp" size 21470348 crc 74C8B42E md5 2F5EF6AF33D7363301E3900CFB7A0E6C sha1 5E286D24BD541EF79F7A00A38A8DAF923BD3E98D )
@@ -988,14 +989,14 @@ game (
 	rom ( name "Riglas (1985)(Random House).d88" size 379920 crc F869BAD8 md5 2C7C9C0B26E947E7514D4EB63C2CE5E2 sha1 7602F4CF512CDEC440E39B2D3B4A6F771A5C4106 )
 )
 game (
-	name "Rowdy Ball (Japan)[Req HuBasic]"
-	region "Japan"
-	rom ( name "Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic].tap" size 120004 crc 0F1D916A md5 DC55DACB0CD2A9E827C1B9CC6A726D5D sha1 51002B8708E7B477577046F3B7C7F2D1B389E98E )
-)
-game (
 	name "Rowdy Ball (Japan) (Alt 1)[Req HuBasic]"
 	region "Japan"
 	rom ( name "Rowdy Ball (198x)(Hudson Soft)(JP)[a][Req HuBasic].tap" size 120004 crc E64D46C0 md5 539CFD098A44985B09A2BB715E5DA949 sha1 16D872E5841A9AC1A582EBF1037A69F718A3ED8C )
+)
+game (
+	name "Rowdy Ball (Japan)[Req HuBasic]"
+	region "Japan"
+	rom ( name "Rowdy Ball (198x)(Hudson Soft)(JP)[Req HuBasic].tap" size 120004 crc 0F1D916A md5 DC55DACB0CD2A9E827C1B9CC6A726D5D sha1 51002B8708E7B477577046F3B7C7F2D1B389E98E )
 )
 game (
 	name "Ruptus (Japan)"
@@ -1006,7 +1007,7 @@ game (
 	rom ( name "Ruptus (2020-12-19)(Inufuto)(JP).tap" size 375528 crc 99AC9C6E md5 96AAD6272E1A54BA000D569B37B4059C sha1 DD1471BCAE9EDE6A40A362B43FED1FE8FF327285 )
 )
 game (
-	name "Ruptus (Japan)"
+	name "Ruptus (Japan) (Alt 1)"
 	releaseyear "2020"
 	releasemonth "12"
 	releaseday "19"
@@ -1077,16 +1078,16 @@ game (
 	rom ( name "Spartan X (1984)(Pony Canyon)(JP)[Req HuBasic].tap" size 240004 crc 582352FC md5 336A54B160D4122F7E4F00B51928953D sha1 942D53CCCB6A0046D37A0FD379FE770F63281FD4 )
 )
 game (
-	name "Star Arthur Densetsu - Wakusei Mephius (Japan)[Req HuBasic]"
-	releaseyear "1983"
-	region "Japan"
-	rom ( name "Star Arthur Densetsu - Wakusei Mephius (1983)(T&E Soft)(JP)[Req HuBasic].tap" size 1753088 crc AE13D2B7 md5 3A5F9A9388EB6E41D2108A4A7FD94963 sha1 67AC703DF717D53FE8BB0B7690751CB79CCE608E )
-)
-game (
 	name "Star Arthur Densetsu - Wakusei Mephius (Japan) (Alt 1)"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Star Arthur Densetsu - Wakusei Mephius (1983)(T&E Soft)(JP)[a].tap" size 1753088 crc F0B5D24B md5 0EA7DC98CD5C0A064723189F291F04DF sha1 551B36EEFA433B91EB228BE8EBD1B1C4F1013D4A )
+)
+game (
+	name "Star Arthur Densetsu - Wakusei Mephius (Japan)[Req HuBasic]"
+	releaseyear "1983"
+	region "Japan"
+	rom ( name "Star Arthur Densetsu - Wakusei Mephius (1983)(T&E Soft)(JP)[Req HuBasic].tap" size 1753088 crc AE13D2B7 md5 3A5F9A9388EB6E41D2108A4A7FD94963 sha1 67AC703DF717D53FE8BB0B7690751CB79CCE608E )
 )
 game (
 	name "Star Fleet (Japan)[Req HuBasic]"
@@ -1110,16 +1111,16 @@ game (
 	rom ( name "Super Buggon (1983)(dB Soft)(JP).tap" size 120004 crc 256B7157 md5 BCA0921DD98A89D337323619A4773106 sha1 61C3D7F202FD2448B909DE27C7E66BD9F3F660CE )
 )
 game (
-	name "Super Golf 2 (Japan)[Req HuBasic]"
-	releaseyear "1982"
-	region "Japan"
-	rom ( name "Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic].tap" size 180004 crc 1193E51D md5 4EA906F37B35FAB6E60BE6E2602E2087 sha1 374A8D884766A9CAC22FB257970459824B6B9D0E )
-)
-game (
 	name "Super Golf 2 (Japan) (Alt 1)[Req HuBasic]"
 	releaseyear "1982"
 	region "Japan"
 	rom ( name "Super Golf 2 (1982)(Hudson Soft)(JP)[a][Req HuBasic].tap" size 180004 crc 39DB6137 md5 8DCED303978B04D8C53098E07ED18432 sha1 F879F0FB17C0F6EC3AE6CDF6B168E75DD068320A )
+)
+game (
+	name "Super Golf 2 (Japan)[Req HuBasic]"
+	releaseyear "1982"
+	region "Japan"
+	rom ( name "Super Golf 2 (1982)(Hudson Soft)(JP)[Req HuBasic].tap" size 180004 crc 1193E51D md5 4EA906F37B35FAB6E60BE6E2602E2087 sha1 374A8D884766A9CAC22FB257970459824B6B9D0E )
 )
 game (
 	name "Super Laydock - Mission Striker (Disk 1)"
@@ -1264,7 +1265,7 @@ game (
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk A).hfe" size 1059840 crc CD75733C md5 F6D6EE9EFFD95C1830271708E8684371 sha1 7F407E569F96A9AB44C3362A61508FB54964C244 )
 )
 game (
-	name "XZR - Hakai no Guuzou (Japan) (Disk A)"
+	name "XZR - Hakai no Guuzou (Japan) (Disk A) (Alt 1)"
 	releaseyear "1988"
 	region "Japan"
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk A).scp" size 20344328 crc E5CC4353 md5 1FBBFF696FFE79A419EFDA897A30BA39 sha1 29801669569DDDA19D54E246367D0217F0737958 )
@@ -1276,7 +1277,7 @@ game (
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk B).hfe" size 1059840 crc B2F32B8E md5 D305FB2B74F58E5EC19248576FB1F074 sha1 FB845309F78D4BB9370B78C2D088716C04D23439 )
 )
 game (
-	name "XZR - Hakai no Guuzou (Japan) (Disk B)"
+	name "XZR - Hakai no Guuzou (Japan) (Disk B) (Alt 1)"
 	releaseyear "1988"
 	region "Japan"
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk B).scp" size 20693564 crc 8F9B6687 md5 D9AA32EB9FB0FA64194199345793B77B sha1 7947D5C49056AC2B69529A18B0B8DD2F0E68C6C0 )
@@ -1288,7 +1289,7 @@ game (
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk C).hfe" size 1059840 crc 4136ED0D md5 FBFBF605057CC36045417EE4A0481A10 sha1 654580FA5CAA091EF3CB57446BE3EEBB9F0EA484 )
 )
 game (
-	name "XZR - Hakai no Guuzou (Japan) (Disk C)"
+	name "XZR - Hakai no Guuzou (Japan) (Disk C) (Alt 1)"
 	releaseyear "1988"
 	region "Japan"
 	rom ( name "XZR - Hakai no Guuzou (1988)(Telenet Japan)(JP)(Disk C).scp" size 20736304 crc 63D8AC4E md5 F7BADACE5A6724CFE3724579F1780CF7 sha1 270D0AA29F78317B2C3AC51DFC8DF1B2987F53A9 )
@@ -1306,14 +1307,14 @@ game (
 	rom ( name "Xanadu (1985)(Falcom)(JP)(Tape 3 of 3)(User).tap" size 1443742 crc 9AA3A4C3 md5 5682D314CF14365A87560C4383E46C2D sha1 B89D16EC5BE0F4915F639640083EAC2FD59FBE2C )
 )
 game (
+	name "Xevious"
+	rom ( name "Xevious (19xx)(Namco).d88" size 344768 crc DC93900D md5 D9319DB3966C56A7F18F5CB7E8E4FBE3 sha1 F81545B62068D8EB91F209CAF5A57DF252B930C2 )
+)
+game (
 	name "Xevious (Japan)"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Xevious (1984)(Dempa)(JP).tap" size 4203836 crc 9005609A md5 9E7F812557BC38E527D6919A5C8C3A18 sha1 D69A3AA250801F5C662B1F2B3FC86EBFCD8D5C66 )
-)
-game (
-	name "Xevious"
-	rom ( name "Xevious (19xx)(Namco).d88" size 344768 crc DC93900D md5 D9319DB3966C56A7F18F5CB7E8E4FBE3 sha1 F81545B62068D8EB91F209CAF5A57DF252B930C2 )
 )
 game (
 	name "Yakyuu-kyou (Japan)"

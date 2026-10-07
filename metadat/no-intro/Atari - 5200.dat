@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 5200"
 	description "Atari - 5200"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "a52"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -82,14 +83,6 @@ game (
 	rom ( name "Ballblazer (USA).a52" size 32768 crc DEF2A207 md5 F5CD178CBEA0AE7D8CF65B30CFD04225 sha1 1DFD9CB5EB608590C84E14376291F8C02FB1AB93 )
 )
 game (
-	name "Ballblazer (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "20"
-	region "USA"
-	rom ( name "Ballblazer (USA) (Beta) (1984-01-20).a52" size 32768 crc BB705DC9 md5 428598171A55CB37EE8A69CF617B31D7 sha1 898E05B6EEB00DED16A18998F6E47E05CF684165 )
-)
-game (
 	name "Barroom Baseball (USA) (Proto 1)"
 	region "USA"
 	rom ( name "Barroom Baseball (USA) (Proto 1).a52" size 32768 crc 21D19C8F md5 E3FBAD9D967CEC0D8756D9C07346A8FB sha1 510CCB20DF2ECDBE7F8373DE6A9FC11493E8C3F2 )
@@ -121,46 +114,9 @@ game (
 	rom ( name "Beamrider (USA).a52" size 16384 crc 9BAE58DC md5 1913310B1E44AD7F3B90AEB16790A850 sha1 B75D555D059AD61992F9F5A234129ECBF9504C35 )
 )
 game (
-	name "Behind Jaggi Lines! (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "18"
-	region "USA"
-	rom ( name "Behind Jaggi Lines! (USA) (Beta) (1984-01-18).a52" size 32768 crc 9DD7776A md5 E927E44D7C4CBEFFA9376EE42317FD69 sha1 FFDAF320C3B2051C6E155E706233DCA8D57CA484 )
-)
-game (
 	name "BerZerk (USA)"
 	region "USA"
 	rom ( name "BerZerk (USA).a52" size 16384 crc BE3CD348 md5 F8973DB8DC272C2E5EB7B8DBB5C0CC3B sha1 E56CCC6BF427A832CE00540B02D065A2688260DC )
-)
-game (
-	name "BerZerk (USA) (Beta 1)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "01"
-	region "USA"
-	rom ( name "BerZerk (USA) (Beta 1) (1983-06-01).a52" size 16384 crc 8550A9E9 md5 08E43A4CABBC1AEC8D09FECB64A2EED8 sha1 A8272B8CFCCB11686366F5D131D86EA65DD1554B )
-)
-game (
-	name "BerZerk (USA) (Beta 2)"
-	releaseyear "1983"
-	releasemonth "07"
-	releaseday "31"
-	region "USA"
-	rom ( name "BerZerk (USA) (Beta 2) (1983-07-31).a52" size 16384 crc EFA00F88 md5 230BBE336DBA31E5A66BDB3546317691 sha1 14655A8B2E33A7E856A3BB0A04B054FDF1469AA2 )
-)
-game (
-	name "BerZerk (USA) (Beta 3)"
-	releaseyear "1983"
-	releasemonth "08"
-	releaseday "03"
-	region "USA"
-	rom ( name "BerZerk (USA) (Beta 3) (1983-08-03).a52" size 32768 crc 659FC323 md5 9BA408E0893175959DA98AB7E6D58F4A sha1 C7B1D75E5C6860B4B443995EBF625D06BFCA476B )
-)
-game (
-	name "BerZerk (USA) (Beta 4) (1983-08-xx)"
-	region "USA"
-	rom ( name "BerZerk (USA) (Beta 4) (1983-08-xx).a52" size 16384 crc 63FA1EF9 md5 94DB996E7FD4917A6F33161692C7145E sha1 7BB09E41D2452786FEEF7DBCEF7FF970E0CA000B )
 )
 game (
 	name "Black Belt (USA) (Proto 1)"
@@ -228,27 +184,6 @@ game (
 	rom ( name "Choplifter! (USA).a52" size 16384 crc 9AD53BBC md5 3FF7707E25359C9BCB2326A5D8539852 sha1 9F1EE191319EF0261CC7074A81C0E6D6B7464CD2 )
 )
 game (
-	name "Choplifter! (USA) (Beta 1)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "04"
-	region "USA"
-	rom ( name "Choplifter! (USA) (Beta 1) (1984-01-04).a52" size 16384 crc 200578DD md5 2BA64A705C5854A41F1F516D9091A4F4 sha1 C01F57967651D2DDB3CB6354234B0AEC4AD8DCA6 )
-)
-game (
-	name "Choplifter! (USA) (Beta 2)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "13"
-	region "USA"
-	rom ( name "Choplifter! (USA) (Beta 2) (1984-01-13).a52" size 16384 crc BEE87E6F md5 E3B4A21F229BE3682418F79E7769C6E2 sha1 A5A9E3D6B1C95CCDAEF177B60F388A3128B3342D )
-)
-game (
-	name "Choplifter! (USA) (Beta 3)"
-	region "USA"
-	rom ( name "Choplifter! (USA) (Beta 3).a52" size 16384 crc 9209CA2B md5 0A82D60C4FB65065DC713D15BC8A9737 sha1 6FF20A48BE50486ADEF0AF6762905DB8BE8A4538 )
-)
-game (
 	name "Congo Bongo (USA)"
 	region "USA"
 	rom ( name "Congo Bongo (USA).a52" size 16384 crc F1F42BBD md5 5720423EBD7575941A1586466BA9BEAF sha1 E0203C2124127EBA2D679BE548FA257ECC5B2607 )
@@ -274,22 +209,6 @@ game (
 	rom ( name "Dig Dug (USA).a52" size 16384 crc 6A687F9C md5 3ABD0C057474BAD46E45F3D4E96EECEE sha1 387A76BA5912251E2285B7722004AD75E9EDE523 )
 )
 game (
-	name "Dig Dug (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "04"
-	releaseday "07"
-	region "USA"
-	rom ( name "Dig Dug (USA) (Beta) (1983-04-07).a52" size 32768 crc 573F8FD1 md5 01DA15F7243962F924B122F5A09E7409 sha1 CBA8F03BECC215595ED3873F82C3D22C0FF71D6D )
-)
-game (
-	name "Dig Dug (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "20"
-	region "USA"
-	rom ( name "Dig Dug (USA) (Beta) (1983-06-20).a52" size 32768 crc 63E81003 md5 FEDA20F3F0E8FDDE3CBD9C74158EF934 sha1 A2D7B8262280C2A0DFB3899E063A11AB894921F8 )
-)
-game (
 	name "Dreadnaught Factor, The (USA)"
 	region "USA"
 	rom ( name "Dreadnaught Factor, The (USA).a52" size 8192 crc 460DEF2D md5 159CCAA564FC2472AFD1F06665EC6D19 sha1 EA7B40CE1106378E1D409CAB6634FB2E483FF238 )
@@ -302,18 +221,18 @@ game (
 game (
 	name "Frisky Tom (USA) (Proto)"
 	releaseyear "1983"
-	releasemonth "01"
-	releaseday "20"
-	region "USA"
-	rom ( name "Frisky Tom (USA) (Proto) (1983-01-20).a52" size 8192 crc 23C21720 md5 27FDDF15D465A080E6F8F3D46593DD36 sha1 082D0BE46DAFE8E5B7087ACAFC272F759FC0F0D1 )
-)
-game (
-	name "Frisky Tom (USA) (Proto)"
-	releaseyear "1983"
 	releasemonth "07"
 	releaseday "04"
 	region "USA"
 	rom ( name "Frisky Tom (USA) (Proto) (1983-07-04).a52" size 16384 crc 04B299A4 md5 14BD9A0423EAFC3090333AF916CFBCE6 sha1 69DCC8F59CA449F13DC896B4B29B534762D97064 )
+)
+game (
+	name "Frisky Tom (USA) (Proto) (Alt 1)"
+	releaseyear "1983"
+	releasemonth "01"
+	releaseday "20"
+	region "USA"
+	rom ( name "Frisky Tom (USA) (Proto) (1983-01-20).a52" size 8192 crc 23C21720 md5 27FDDF15D465A080E6F8F3D46593DD36 sha1 082D0BE46DAFE8E5B7087ACAFC272F759FC0F0D1 )
 )
 game (
 	name "Frogger (USA)"
@@ -324,11 +243,6 @@ game (
 	name "Frogger II - Threeedeep! (USA)"
 	region "USA"
 	rom ( name "Frogger II - Threeedeep! (USA).a52" size 16384 crc 0AF19345 md5 D8636222C993CA71CA0904C8D89C4411 sha1 3D815594CF674694B04BB0FF90BF635D7D402FC2 )
-)
-game (
-	name "Frogger II - Threeedeep! (USA) (Beta)"
-	region "USA"
-	rom ( name "Frogger II - Threeedeep! (USA) (Beta).a52" size 8192 crc E924F2BC md5 189A5F7F41924407A2DB118ABCA1445A sha1 D172E34D60E03E74B0F790AE61268EFF257A36B9 )
 )
 game (
 	name "Galaxian (USA)"
@@ -351,41 +265,9 @@ game (
 	rom ( name "Gremlins (USA).a52" size 32768 crc 063EC2C4 md5 DC271E475B4766E80151F1DA5B764E52 sha1 F3C32B39580D589799DCEAD98BB206FBF3DF0504 )
 )
 game (
-	name "Gremlins (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "04"
-	releaseday "13"
-	region "USA"
-	rom ( name "Gremlins (USA) (Beta) (1984-04-13).a52" size 32768 crc D3436C20 md5 FDFA5A2A67AEE6211109294BFCFD9F06 sha1 AA13FF81A390021F94717BD722F17B2520A5934C )
-)
-game (
-	name "Gremlins (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "04"
-	releaseday "20"
-	region "USA"
-	rom ( name "Gremlins (USA) (Beta) (1984-04-20).a52" size 32768 crc B2CA299D md5 A5F3F5B9220E332B4E2D8E87042BA35B sha1 896FD5A274CE5AE88354A8F7F9DCEA9D62D0BBAC )
-)
-game (
-	name "Gremlins (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "05"
-	releaseday "15"
-	region "USA"
-	rom ( name "Gremlins (USA) (Beta) (1984-05-15).a52" size 32768 crc A33FE6E1 md5 51111B1B3771E89109AB75E208E19C1E sha1 FD6C46313F8C3780E04E31199C94E3B404F9F077 )
-)
-game (
 	name "Gyruss (USA)"
 	region "USA"
 	rom ( name "Gyruss (USA).a52" size 16384 crc CFD4A7F9 md5 DACC0A82E8EE0C086971F9D9BAC14127 sha1 D0D8650EB07D1679004D491360C2C041E37C61CD )
-)
-game (
-	name "Gyruss (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "04"
-	releaseday "23"
-	region "USA"
-	rom ( name "Gyruss (USA) (Beta) (1984-04-23).a52" size 32768 crc 97C69F4B md5 31367AC5E7C3023461C589E9A6BBE78B sha1 80A23953F19304541678A87F0B8A40E7C94190D3 )
 )
 game (
 	name "Gyruss (USA) (Rev 1)"
@@ -403,22 +285,9 @@ game (
 	rom ( name "James Bond 007 (USA).a52" size 16384 crc D9AE4518 md5 936DB7C08E6B4B902C585A529CB15FC5 sha1 AE765943AE8D909B6CA6FF1560BA027ADEEAA515 )
 )
 game (
-	name "James Bond 007 (USA) (Beta)"
-	region "USA"
-	rom ( name "James Bond 007 (USA) (Beta).a52" size 16384 crc 22ABBBC7 md5 06209E78B6D081196421C0CB508193BE sha1 1F39C049E4E1FFFD6A9F203A6D2A0C3F109D6C0A )
-)
-game (
 	name "Joust (USA)"
 	region "USA"
 	rom ( name "Joust (USA).a52" size 16384 crc BFD30C01 md5 25CFDEF5BF9B126166D5394AE74A32E7 sha1 0F74125EDAC90FFD1274A128DF2970C239348FB5 )
-)
-game (
-	name "Joust (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "12"
-	region "USA"
-	rom ( name "Joust (USA) (Beta) (1983-06-12).a52" size 16384 crc 408D29DE md5 9056088B2BD87DFAFDBA945194744B12 sha1 410E3B43A50F8FB3089B4B961E38F7C547D469BA )
 )
 game (
 	name "Jr. Pac-Man (USA) (Proto)"
@@ -429,22 +298,6 @@ game (
 	name "Jungle Hunt (USA)"
 	region "USA"
 	rom ( name "Jungle Hunt (USA).a52" size 16384 crc 2C676662 md5 834067FDCE5D09B86741E41E7E491D6C sha1 FA02EE04CFAD90C6CCF9D9B984E3B7B3327FEC12 )
-)
-game (
-	name "Jungle Hunt (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "04"
-	releaseday "07"
-	region "USA"
-	rom ( name "Jungle Hunt (USA) (Beta) (1983-04-07).a52" size 16384 crc CC0EC2D4 md5 E2EE9BB6839A5500EA8C2F60515969A9 sha1 C200190CC23924C423879224DD30DCBA80A74E1E )
-)
-game (
-	name "Jungle Hunt (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "02"
-	region "USA"
-	rom ( name "Jungle Hunt (USA) (Beta) (1983-05-02).a52" size 32768 crc F270252C md5 63772D6AF29D69D9627992C9EB864E03 sha1 FB7CDA8932E02213D58272F2DFFC70AFE78FEDE2 )
 )
 game (
 	name "K-Razy Shoot-Out (USA)"
@@ -475,17 +328,17 @@ game (
 	name "Last Starfighter, The (USA) (Proto)"
 	releaseyear "1984"
 	releasemonth "05"
-	releaseday "08"
-	region "USA"
-	rom ( name "Last Starfighter, The (USA) (Proto) (1984-05-08).a52" size 16384 crc 037157F9 md5 87F0F671A88D782860873B896C99A849 sha1 7FA41B2F527945005CCE93F511F74023876836BD )
-)
-game (
-	name "Last Starfighter, The (USA) (Proto)"
-	releaseyear "1984"
-	releasemonth "05"
 	releaseday "21"
 	region "USA"
 	rom ( name "Last Starfighter, The (USA) (Proto) (1984-05-21).a52" size 16384 crc 83517703 md5 46264C86EDF30666E28553BD08369B83 sha1 4046F60602254A7D86D2A6EFD1A330455EAEC119 )
+)
+game (
+	name "Last Starfighter, The (USA) (Proto) (Alt 1)"
+	releaseyear "1984"
+	releasemonth "05"
+	releaseday "08"
+	region "USA"
+	rom ( name "Last Starfighter, The (USA) (Proto) (1984-05-08).a52" size 16384 crc 037157F9 md5 87F0F671A88D782860873B896C99A849 sha1 7FA41B2F527945005CCE93F511F74023876836BD )
 )
 game (
 	name "Looney Tunes Hotel (USA) (Proto)"
@@ -503,20 +356,15 @@ game (
 	rom ( name "Mario Bros. (USA) (Alt).a52" size 32768 crc 6B3F1179 md5 0AD079027090C427E9D939BAD318D846 sha1 39CD2D87C4FEFD2FE12A4D6485101235FE55B070 )
 )
 game (
-	name "Mario Bros. (USA) (Beta 1)"
-	region "USA"
-	rom ( name "Mario Bros. (USA) (Beta 1).a52" size 16384 crc 6CC083B1 md5 32391928956B62CB384D20B57DA4EE64 sha1 50443FE5F6DC4425EE9268D44C57D15DB1D3050F )
-)
-game (
-	name "Mario Bros. (USA) (Beta 2)"
-	releaseyear "1983"
-	releasemonth "09"
-	releaseday "14"
-	region "USA"
-	rom ( name "Mario Bros. (USA) (Beta 2) (1983-09-14).a52" size 32768 crc 7ED87E8D md5 E4589821C323CF61634A2E4802CC650B sha1 228B59D6C208B73FDFBA84CE0B6662FB461BCECC )
-)
-game (
 	name "Meebzork (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "11"
+	releaseday "16"
+	region "USA"
+	rom ( name "Meebzork (USA) (Proto) (1983-11-16).a52" size 32768 crc 1AA94FEC md5 F64ADDA6524B21543847B2A7CB90C3F8 sha1 F2C224C7E6AD053FA325C8E8E2328198F0CB2898 )
+)
+game (
+	name "Meebzork (USA) (Proto) (Alt 1)"
 	releaseyear "1983"
 	releasemonth "05"
 	releaseday "03"
@@ -524,20 +372,12 @@ game (
 	rom ( name "Meebzork (USA) (Proto) (1983-05-03).a52" size 16384 crc ABC1D1FF md5 4899C7FB9AA7C3766D5AFA887C6FC596 sha1 DEA0E30757E8CC754D9EB4E999E023D586D90F7A )
 )
 game (
-	name "Meebzork (USA) (Proto)"
+	name "Meebzork (USA) (Proto) (Alt 2)"
 	releaseyear "1983"
 	releasemonth "05"
 	releaseday "18"
 	region "USA"
 	rom ( name "Meebzork (USA) (Proto) (1983-05-18).a52" size 16384 crc BBB3C9F2 md5 472DB5B812B40D36A81BF4279CDAA20B sha1 5B8A8B8B9754D302A7CD7025BDD7127D8E16D512 )
-)
-game (
-	name "Meebzork (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "11"
-	releaseday "16"
-	region "USA"
-	rom ( name "Meebzork (USA) (Proto) (1983-11-16).a52" size 32768 crc 1AA94FEC md5 F64ADDA6524B21543847B2A7CB90C3F8 sha1 F2C224C7E6AD053FA325C8E8E2328198F0CB2898 )
 )
 game (
 	name "MegaMania (USA)"
@@ -552,34 +392,18 @@ game (
 game (
 	name "Microgammon SB (USA) (Proto)"
 	releaseyear "1983"
-	releasemonth "07"
-	releaseday "16"
-	region "USA"
-	rom ( name "Microgammon SB (USA) (Proto) (1983-07-16).a52" size 8192 crc 8A5AD939 md5 C35A2CCB69C6DDBE7136125000F6E6E3 sha1 D2717F6EBC1CD93ADF026763BF9936E61E054035 )
-)
-game (
-	name "Microgammon SB (USA) (Proto)"
-	releaseyear "1983"
 	releasemonth "08"
 	releaseday "15"
 	region "USA"
 	rom ( name "Microgammon SB (USA) (Proto) (1983-08-15).a52" size 16384 crc 38A8AFA9 md5 B8358AC18346DE5C8A2F5864443F5963 sha1 C7B724E2A06C027FF7E45C110D5D67C26851134E )
 )
 game (
-	name "Millipede (USA) (Proto)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "04"
+	name "Microgammon SB (USA) (Proto) (Alt 1)"
+	releaseyear "1983"
+	releasemonth "07"
+	releaseday "16"
 	region "USA"
-	rom ( name "Millipede (USA) (Proto) (1984-01-04).a52" size 16384 crc EDDB9265 md5 DA8CA31C0E390A8F0706126A0DB146ED sha1 613D7610A35C5071B076332D8C970FA66D8E4D82 )
-)
-game (
-	name "Millipede (USA) (Proto)"
-	releaseyear "1984"
-	releasemonth "01"
-	releaseday "05"
-	region "USA"
-	rom ( name "Millipede (USA) (Proto) (1984-01-05).a52" size 16384 crc DA7685E6 md5 4E3918B440EFE11A51B1AC68FA064B2B sha1 9E3C077EC6056954752BE83C516E4C91E874DB21 )
+	rom ( name "Microgammon SB (USA) (Proto) (1983-07-16).a52" size 8192 crc 8A5AD939 md5 C35A2CCB69C6DDBE7136125000F6E6E3 sha1 D2717F6EBC1CD93ADF026763BF9936E61E054035 )
 )
 game (
 	name "Millipede (USA) (Proto)"
@@ -588,6 +412,22 @@ game (
 	releaseday "31"
 	region "USA"
 	rom ( name "Millipede (USA) (Proto) (1984-01-31).a52" size 16384 crc 969CFE1A md5 84D88BCDEFFEE1AB880A5575C6ACA45E sha1 1243A8ECFC02A74AE4E1F4FCDA38502776F45CB0 )
+)
+game (
+	name "Millipede (USA) (Proto) (Alt 1)"
+	releaseyear "1984"
+	releasemonth "01"
+	releaseday "04"
+	region "USA"
+	rom ( name "Millipede (USA) (Proto) (1984-01-04).a52" size 16384 crc EDDB9265 md5 DA8CA31C0E390A8F0706126A0DB146ED sha1 613D7610A35C5071B076332D8C970FA66D8E4D82 )
+)
+game (
+	name "Millipede (USA) (Proto) (Alt 2)"
+	releaseyear "1984"
+	releasemonth "01"
+	releaseday "05"
+	region "USA"
+	rom ( name "Millipede (USA) (Proto) (1984-01-05).a52" size 16384 crc DA7685E6 md5 4E3918B440EFE11A51B1AC68FA064B2B sha1 9E3C077EC6056954752BE83C516E4C91E874DB21 )
 )
 game (
 	name "Miner 2049er Starring Bounty Bob (USA)"
@@ -623,32 +463,6 @@ game (
 	rom ( name "Moon Patrol (USA).a52" size 16384 crc D0B2F285 md5 296E5A3A9EFD4F89531E9CF0259C903D sha1 02DD5B9278C06AE8CBB6DACC094E238FBACF08D2 )
 )
 game (
-	name "Moon Patrol (USA) (Beta 1)"
-	releaseyear "1983"
-	releasemonth "09"
-	releaseday "14"
-	region "USA"
-	rom ( name "Moon Patrol (USA) (Beta 1) (1983-09-14).a52" size 16384 crc 665289E4 md5 B753A773466FBE279862B5F522E55C9B sha1 B9BB9E938B17D54981FA3E070F666DAF78D7EE3E )
-)
-game (
-	name "Moon Patrol (USA) (Beta 2)"
-	releaseyear "1983"
-	releasemonth "09"
-	releaseday "19"
-	region "USA"
-	rom ( name "Moon Patrol (USA) (Beta 2) (1983-09-19).a52" size 16384 crc F6AAFF07 md5 77A4BE1FC0A9FF6A1000C5AF46147B54 sha1 F940DCDBEEA6F1137731264829956AAFFCA83D7E )
-)
-game (
-	name "Moon Patrol (USA) (Beta 3)"
-	region "USA"
-	rom ( name "Moon Patrol (USA) (Beta 3).a52" size 32768 crc 906CC57B md5 9C86100B5A4A2029B012BB725E3D815D sha1 E42FA716A2285CF288B2B72C98AFC2F54A469112 )
-)
-game (
-	name "Moon Patrol (USA) (Beta 4)"
-	region "USA"
-	rom ( name "Moon Patrol (USA) (Beta 4).a52" size 32768 crc 28A0BEF6 md5 D7D50EB9547688F8BEDBD41FC99997CD sha1 F038FFCC40B7223D9C77B0871B99948642A74674 )
-)
-game (
 	name "Mountain King (USA)"
 	region "USA"
 	rom ( name "Mountain King (USA).a52" size 8192 crc 0F24243C md5 618E3EB7AE2810768E1AEFED1BFDCEC4 sha1 2E7AE57260624D1F5710D445A0936F0C280A6655 )
@@ -674,22 +488,6 @@ game (
 	rom ( name "Pengo (USA).a52" size 32768 crc E4F8BA8C md5 A301A449FC20AD345B04932D3CA3EF54 sha1 19FF7622DBBC2915E3E98D8D966340E7E893FF34 )
 )
 game (
-	name "Pengo (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "07"
-	releaseday "27"
-	region "USA"
-	rom ( name "Pengo (USA) (Beta) (1983-07-27).a52" size 32768 crc F085EA1F md5 C07F459151AC824E11D0F9DAA1A73C0B sha1 94796F9BBA34DAD73F9FF4B1D3135FE1357ACBE2 )
-)
-game (
-	name "Pengo (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "08"
-	releaseday "10"
-	region "USA"
-	rom ( name "Pengo (USA) (Beta) (1983-08-10).a52" size 32768 crc D0704419 md5 E3136C37990AECC2DB94A282E008F0B7 sha1 116BB35C3DC3CFE23BB737E611C86471751A0C9D )
-)
-game (
 	name "Pitfall! (USA)"
 	region "USA"
 	rom ( name "Pitfall! (USA).a52" size 8192 crc B2887833 md5 ECBD6DD2AB105DD43F98476966BBF26C sha1 D1C7DC3DE097A4BFAB82235ACEC69A97E6E05F18 )
@@ -698,11 +496,6 @@ game (
 	name "Pole Position (USA)"
 	region "USA"
 	rom ( name "Pole Position (USA).a52" size 16384 crc ABC2D1E4 md5 FD0CBEA6AD18194BE0538844E3D7FDC9 sha1 D504764C5894EE99C0B5E2024CBE833EBBA3AB17 )
-)
-game (
-	name "Pole Position (USA) (Beta)"
-	region "USA"
-	rom ( name "Pole Position (USA) (Beta).a52" size 32768 crc 15B7B5EF md5 2168FF22F68996957BF0B9DC6C29753C sha1 C22E5EA7CC892F515E4967F6FF0844B5A8D34B62 )
 )
 game (
 	name "Popeye (USA)"
@@ -730,92 +523,15 @@ game (
 	rom ( name "RealSports Baseball (USA).a52" size 32768 crc 44166592 md5 2BB928D7516E451C6B0159AC413407DE sha1 A94D06739FA19453FA586A836EAACAE11FE93989 )
 )
 game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "02"
-	releaseday "04"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-02-04).a52" size 32768 crc DD7FFCC2 md5 88ED2559FA73E12B97F9CF268B4FC32A sha1 B41380E403A134DF4D730510C19D6288EEF2A560 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "02"
-	releaseday "11"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-02-11).a52" size 32768 crc EC08160D md5 6810A7C8F43B671B9D397D67709E08B8 sha1 9EFE73180E48F9600F87FC625544B8A1F7023B0F )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "02"
-	releaseday "17"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-02-17).a52" size 32768 crc 70D76837 md5 504957B48220C087B8B35B0D41258D62 sha1 D931B1988E464EDB7CB873B563D7415FEF9293A5 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "03"
-	releaseday "21"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-03-21).a52" size 32768 crc B6AEBA56 md5 95B859DC2F6A90A06C7A48A9CF01E2E8 sha1 23E25036FF888C090BBDA3797CC1DCC697CF290C )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "04"
-	releaseday "14"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-04-14).a52" size 32768 crc B4BA6ACF md5 E2F1083F525CA262DA56E6CCB98EE453 sha1 A8A6848D271CEA847A7A5996335BA6DBC7D523DC )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "02"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-06-02).a52" size 32768 crc 74A0C839 md5 2548BC27D6A56F34045B50DA217FAFBB sha1 C7245C981B96EDE39EC1EFAE95CAEBFB6CCE8123 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "15"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-06-15).a52" size 32768 crc 990BF97E md5 D8E09F001C190A036E6E08CBC59AD655 sha1 E7CFDA266B63932DA612E4F27CE6E63EDA12B0A9 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "18"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-06-18).a52" size 32768 crc E58C3A44 md5 CAA933B542A81882AB69D27D019CD82C sha1 841FEE4C03129C40E9C71611033857BDCADE01A2 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "07"
-	releaseday "06"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-07-06).a52" size 32768 crc 6547B51F md5 CBE8A3574B0F8228B904BFD9627B9020 sha1 E806FB04AC0DE6B1154BBDA99C6B5A07D6A8314E )
-)
-game (
-	name "RealSports Baseball (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "07"
-	releaseday "19"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (1983-07-19).a52" size 32768 crc 625BC9B1 md5 A974E877DB784EA53274CF02BAB230C6 sha1 484C6876730671C21C0A65D64C77EDF831A5C0D3 )
-)
-game (
-	name "RealSports Baseball (USA) (Beta) (Unknown)"
-	region "USA"
-	rom ( name "RealSports Baseball (USA) (Beta) (Unknown).a52" size 32768 crc 7214AC5E md5 4A2C0237F31E5B8601A68040E638B17C sha1 82D941C86BD45D822FD054E2377E81AA54A95BF1 )
-)
-game (
 	name "RealSports Basketball (USA) (Proto)"
+	releaseyear "1983"
+	releasemonth "12"
+	releaseday "16"
+	region "USA"
+	rom ( name "RealSports Basketball (USA) (Proto) (1983-12-16).a52" size 32768 crc DD217276 md5 E056001D304DB597BDD21B2968FCC3E6 sha1 9B21AC7FEC8D556585C6970231318EF1F501B2B5 )
+)
+game (
+	name "RealSports Basketball (USA) (Proto) (Alt 1)"
 	releaseyear "1982"
 	releasemonth "11"
 	releaseday "05"
@@ -823,20 +539,12 @@ game (
 	rom ( name "RealSports Basketball (USA) (Proto) (1982-11-05).a52" size 16384 crc 0F996184 md5 A71BFB11676A4E4694AF66E311721A1B sha1 2B43F74DB4833272D2048DE8FA32B857AF8E090F )
 )
 game (
-	name "RealSports Basketball (USA) (Proto)"
+	name "RealSports Basketball (USA) (Proto) (Alt 2)"
 	releaseyear "1983"
 	releasemonth "10"
 	releaseday "31"
 	region "USA"
 	rom ( name "RealSports Basketball (USA) (Proto) (1983-10-31).a52" size 32768 crc C90196FA md5 CFD05F2A0EA1068718D1149DBD1F19FA sha1 9EDB066A37CA7657979952C946AB89BE7926F4F8 )
-)
-game (
-	name "RealSports Basketball (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "12"
-	releaseday "16"
-	region "USA"
-	rom ( name "RealSports Basketball (USA) (Proto) (1983-12-16).a52" size 32768 crc DD217276 md5 E056001D304DB597BDD21B2968FCC3E6 sha1 9B21AC7FEC8D556585C6970231318EF1F501B2B5 )
 )
 game (
 	name "RealSports Football (USA)"
@@ -849,46 +557,14 @@ game (
 	rom ( name "RealSports Soccer (USA).a52" size 16384 crc ECBD1853 md5 3074FAD290298D56C67F82E8588C5A8B sha1 C911CC914F3923D5AEB1A897E6DC4A551A9A53DA )
 )
 game (
-	name "RealSports Soccer (USA) (Beta)"
-	releaseyear "1982"
-	releasemonth "08"
-	releaseday "26"
-	region "USA"
-	rom ( name "RealSports Soccer (USA) (Beta) (1982-08-26).a52" size 16384 crc 041AD5B3 md5 F9701F2EA86AC39328F8AEE5B540E245 sha1 E4F020DF49866079C221DEDBD91F8FE74477CFCD )
-)
-game (
 	name "RealSports Tennis (USA)"
 	region "USA"
 	rom ( name "RealSports Tennis (USA).a52" size 16384 crc 10F33C90 md5 7E683E571CBE7C77F76A1648F906B932 sha1 2E6C7472E37926CDFD3D855A4BD37A18FA83D8CF )
 )
 game (
-	name "RealSports Tennis (USA) (Beta)"
-	releaseyear "1982"
-	releasemonth "11"
-	releaseday "19"
-	region "USA"
-	rom ( name "RealSports Tennis (USA) (Beta) (1982-11-19).a52" size 16384 crc A00E6E05 md5 493EA321C1788E16347BFC643367B58A sha1 6EAAA631D86B63487AEA8425B6F67906F255E96E )
-)
-game (
-	name "RealSports Tennis (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "02"
-	releaseday "25"
-	region "USA"
-	rom ( name "RealSports Tennis (USA) (Beta) (1983-02-25).a52" size 16384 crc A27766EF md5 38BDED8546F76DE002DB4462EA386CC4 sha1 498F7BDD85F1919D264D3A02DFB282FE46501CDA )
-)
-game (
 	name "Rescue on Fractalus! (USA)"
 	region "USA"
 	rom ( name "Rescue on Fractalus! (USA).a52" size 32768 crc 762C591B md5 0DC44C5BF0829649B7FEC37CB0A8186B sha1 9253D7286CF87999474B37DF242BA23B4358EF4A )
-)
-game (
-	name "Rescue on Fractalus! (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "02"
-	releaseday "29"
-	region "USA"
-	rom ( name "Rescue on Fractalus! (USA) (Beta) (1984-02-29).a52" size 32768 crc F208A675 md5 75104362F09EE73A71355C56AABBFED9 sha1 61668F185536288C7B7C22299AD82798231ABB85 )
 )
 game (
 	name "Road Runner (USA) (Proto)"
@@ -899,7 +575,7 @@ game (
 	rom ( name "Road Runner (USA) (Proto) (1983-05-27).a52" size 16384 crc 8C2233E9 md5 7875E8CB58E5C4F579BC77AFF9E1EE9D sha1 879B727B37EBB822646C7FE3A7011A43B0FC7582 )
 )
 game (
-	name "Road Runner (USA) (Proto)"
+	name "Road Runner (USA) (Proto) (Alt 1)"
 	releaseyear "1983"
 	releasemonth "06"
 	releaseday "03"
@@ -912,41 +588,9 @@ game (
 	rom ( name "Robotron 2084 (USA).a52" size 16384 crc 4252ABD9 md5 5DBA5B478B7DA9FD2C617E41FB5CCD31 sha1 9175E6DACA58102AC8B9729D7B0336CF09977D12 )
 )
 game (
-	name "Robotron 2084 (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "09"
-	releaseday "20"
-	region "USA"
-	rom ( name "Robotron 2084 (USA) (Beta) (1983-09-20).a52" size 16384 crc D78C2F4D md5 5E3B10DA50574F771D206C20EAD72488 sha1 29B043899550BD019A00A48E0CD6F51F5AF123FF )
-)
-game (
-	name "Robotron 2084 (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "10"
-	releaseday "12"
-	region "USA"
-	rom ( name "Robotron 2084 (USA) (Beta) (1983-10-12).a52" size 16384 crc 01E6EA2D md5 B9D61E9EDAD722702FC46DF73A580755 sha1 1323054746467123BDA8D5399052F8E4AD04A1B5 )
-)
-game (
 	name "Space Dungeon (USA)"
 	region "USA"
 	rom ( name "Space Dungeon (USA).a52" size 16384 crc B68D61E8 md5 6E24E3519458C5CB95A7FD7711131F8D sha1 127ED1C31C3E85D10212EEE7B9E6D71AEF7DD891 )
-)
-game (
-	name "Space Dungeon (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "01"
-	releaseday "20"
-	region "USA"
-	rom ( name "Space Dungeon (USA) (Beta) (1983-01-20).a52" size 16384 crc 3015BB24 md5 664E4030FD95027BC4B83A2209218D6B sha1 88227488A43A25FA4667F33270CD00C70CEF220A )
-)
-game (
-	name "Space Dungeon (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "03"
-	releaseday "09"
-	region "USA"
-	rom ( name "Space Dungeon (USA) (Beta) (1983-03-09).a52" size 32768 crc 893A6846 md5 0D0ADF87776A46C5833EAB7D29407BE4 sha1 0000E5E72BF48CD2EB7E476F605A56AFFD1A4606 )
 )
 game (
 	name "Space Invaders (USA)"
@@ -967,15 +611,7 @@ game (
 	rom ( name "Spitfire (USA) (Proto) (1982-12-05).a52" size 32768 crc 3C311303 md5 CD1C3F732C3432C4A642732182B1EA30 sha1 688133761C462D6865BF673ED298B4D828120940 )
 )
 game (
-	name "Spitfire (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "09"
-	releaseday "30"
-	region "USA"
-	rom ( name "Spitfire (USA) (Proto) (1983-09-30).a52" size 32768 crc 18E0793F md5 DE5F43DA7C0A5536AAB9B70F67654DD0 sha1 0ECED0435503C2F7AB69F46622E43A155E07E31F )
-)
-game (
-	name "Spitfire (USA) (Proto)"
+	name "Spitfire (USA) (Proto) (Alt 1)"
 	releaseyear "1983"
 	releasemonth "10"
 	releaseday "13"
@@ -983,7 +619,7 @@ game (
 	rom ( name "Spitfire (USA) (Proto) (1983-10-13).a52" size 32768 crc 565F3E21 md5 456D5C5CCC4E5ADC4E3D7FC7DEAC732D sha1 674C0BCB479E9DE7C2D916C905892EA2F0CEA4A6 )
 )
 game (
-	name "Spitfire (USA) (Proto)"
+	name "Spitfire (USA) (Proto) (Alt 2)"
 	releaseyear "1983"
 	releasemonth "11"
 	releaseday "03"
@@ -991,12 +627,12 @@ game (
 	rom ( name "Spitfire (USA) (Proto) (1983-11-03).a52" size 32768 crc DB982C2F md5 221D943B1043F5BDF2B0F25282183404 sha1 A9388E44BF1665E2EA1CF4E3055A1DD953294B7D )
 )
 game (
-	name "Sport Goofy (USA) (Proto)"
+	name "Spitfire (USA) (Proto) (Alt 3)"
 	releaseyear "1983"
-	releasemonth "03"
-	releaseday "28"
+	releasemonth "09"
+	releaseday "30"
 	region "USA"
-	rom ( name "Sport Goofy (USA) (Proto) (1983-03-28).a52" size 16384 crc 8A1A2B60 md5 6D9C8E6A20B420BCA7B3B6BBC6A552BF sha1 25CD0DF1594EBD59157C8851DF31A4374C42E6AE )
+	rom ( name "Spitfire (USA) (Proto) (1983-09-30).a52" size 32768 crc 18E0793F md5 DE5F43DA7C0A5536AAB9B70F67654DD0 sha1 0ECED0435503C2F7AB69F46622E43A155E07E31F )
 )
 game (
 	name "Sport Goofy (USA) (Proto)"
@@ -1005,6 +641,14 @@ game (
 	releaseday "11"
 	region "USA"
 	rom ( name "Sport Goofy (USA) (Proto) (1983-04-11).a52" size 16384 crc 73B5B6FB md5 993E3BE7199ECE5C3E03092E3B3C0D1D sha1 5F0354D8792D652313E5A0FA5D395E091C801D97 )
+)
+game (
+	name "Sport Goofy (USA) (Proto) (Alt 1)"
+	releaseyear "1983"
+	releasemonth "03"
+	releaseday "28"
+	region "USA"
+	rom ( name "Sport Goofy (USA) (Proto) (1983-03-28).a52" size 16384 crc 8A1A2B60 md5 6D9C8E6A20B420BCA7B3B6BBC6A552BF sha1 25CD0DF1594EBD59157C8851DF31A4374C42E6AE )
 )
 game (
 	name "Star Raiders (Europe) (Proto)"
@@ -1087,7 +731,7 @@ game (
 	rom ( name "Super Pac-Man (USA) (Proto) (1984-01-26).a52" size 16384 crc 0A4DDB1E md5 7DAB86351FE78C2F529010A1AC83A4CF sha1 238CB448555D8BB5C96AA0354718411E8777C613 )
 )
 game (
-	name "Super Pac-Man (USA) (Proto)"
+	name "Super Pac-Man (USA) (Proto) (Alt 1)"
 	releaseyear "1984"
 	releasemonth "03"
 	releaseday "15"
@@ -1113,7 +757,7 @@ game (
 	rom ( name "Tempest (USA) (Proto) (1983-12-29).a52" size 16384 crc 1187342F md5 496B6A002BC7D749C02014F7EC6C303C sha1 85FCEA0A4D4D1F22437801C96229BA96E0F6B711 )
 )
 game (
-	name "Tempest (USA) (Proto)"
+	name "Tempest (USA) (Proto) (Alt 1)"
 	releaseyear "1984"
 	releasemonth "03"
 	releaseday "15"
@@ -1131,18 +775,18 @@ game (
 game (
 	name "Track and Field (USA) (Proto)"
 	releaseyear "1984"
-	releasemonth "04"
-	releaseday "18"
-	region "USA"
-	rom ( name "Track and Field (USA) (Proto) (1984-04-18).a52" size 16384 crc EE587F6E md5 CF1EA8007904893A0B51392638D3CF50 sha1 8FE2D3F3387705CAF6CA45B094DD450D3A9C5D22 )
-)
-game (
-	name "Track and Field (USA) (Proto)"
-	releaseyear "1984"
 	releasemonth "05"
 	releaseday "10"
 	region "USA"
 	rom ( name "Track and Field (USA) (Proto) (1984-05-10).a52" size 16384 crc 0BA22ECE md5 33053F432F9C4AD38B5D02D1B485B5BD sha1 9DFBB5D8B77504C66CE3AC4382DAF79820393DD8 )
+)
+game (
+	name "Track and Field (USA) (Proto) (Alt 1)"
+	releaseyear "1984"
+	releasemonth "04"
+	releaseday "18"
+	region "USA"
+	rom ( name "Track and Field (USA) (Proto) (1984-04-18).a52" size 16384 crc EE587F6E md5 CF1EA8007904893A0B51392638D3CF50 sha1 8FE2D3F3387705CAF6CA45B094DD450D3A9C5D22 )
 )
 game (
 	name "Vanguard (USA)"
@@ -1150,73 +794,9 @@ game (
 	rom ( name "Vanguard (USA).a52" size 32768 crc CAAEA0A4 md5 556A66D6737F0F793821E702547BC051 sha1 6C633DE50E6CC0C0C40061CD24E6F78F552A438F )
 )
 game (
-	name "Vanguard (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "01"
-	releaseday "05"
-	region "USA"
-	rom ( name "Vanguard (USA) (Beta) (1983-01-05).a52" size 16384 crc BE9A2ABD md5 F818348B1D813A1883DF7D5E1D80E7DD sha1 1A5570E808D10C86108C8299444868C1110BE863 )
-)
-game (
-	name "Vanguard (USA) (Beta)"
-	releaseyear "1983"
-	releasemonth "02"
-	releaseday "01"
-	region "USA"
-	rom ( name "Vanguard (USA) (Beta) (1983-02-01).a52" size 32768 crc 1CF10560 md5 3B772AC66CA0EF3E80657B69B41FC37E sha1 1AE88870DD4990B796E89DADCCF871C1254E12E4 )
-)
-game (
 	name "Wizard of Wor (USA)"
 	region "USA"
 	rom ( name "Wizard of Wor (USA).a52" size 16384 crc D6F7DDFD md5 560B68B7F83077444A57EBE9F932905A sha1 49DEBDF3C133FDE9905D6D9137DA5D8DFF8D6283 )
-)
-game (
-	name "Wizard of Wor (USA) (Beta)"
-	releaseyear "1982"
-	releasemonth "12"
-	releaseday "17"
-	region "USA"
-	rom ( name "Wizard of Wor (USA) (Beta) (1982-12-17).a52" size 16384 crc ACDDA01B md5 33F0E84D4E8109F1052D58FCEDC129CD sha1 70A945CFE063E39A7287BB4D5DA267A24541F3BF )
-)
-game (
-	name "Xari Arena (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "10"
-	region "USA"
-	rom ( name "Xari Arena (USA) (Proto) (1983-05-10).a52" size 16384 crc 8B5D3567 md5 4045957E90560485272FDAAE72009597 sha1 4E5FC0A3AD6D230916DB037710E7D7D4076A7607 )
-)
-game (
-	name "Xari Arena (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "24"
-	region "USA"
-	rom ( name "Xari Arena (USA) (Proto) (1983-06-24).a52" size 16384 crc 74C4FB9F md5 FD9CB6210A8446BA3CAD39FCFC9A1E02 sha1 3E6AEA8AFEA8D069B811DF6CC60535AAA16E41DC )
-)
-game (
-	name "Xari Arena (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "08"
-	releaseday "25"
-	region "USA"
-	rom ( name "Xari Arena (USA) (Proto) (1983-08-25).a52" size 32768 crc C9853D0E md5 7000148E641E7AF599053AEAB0A6D3B7 sha1 4D9F0D254875BCD8EFCB7333DF7E0CBAE99BE8AB )
-)
-game (
-	name "Xari Arena (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "08"
-	releaseday "30"
-	region "USA"
-	rom ( name "Xari Arena (USA) (Proto) (1983-08-30).a52" size 16384 crc B8FAAEC3 md5 4F6C58C28C41F31E3A1515FE1E5D15AF sha1 8B5512D3D2A952C99B9377919F0E06481161D81E )
-)
-game (
-	name "Xari Arena (USA) (Proto)"
-	releaseyear "1983"
-	releasemonth "08"
-	releaseday "31"
-	region "USA"
-	rom ( name "Xari Arena (USA) (Proto) (1983-08-31).a52" size 32768 crc 5342A8B4 md5 401481CEAF5A6C82B92DB48E240A8B79 sha1 971048115707E8F5E6B4CEB95C645F483ED6D9E3 )
 )
 game (
 	name "Xari Arena (USA) (Proto)"
@@ -1227,36 +807,44 @@ game (
 	rom ( name "Xari Arena (USA) (Proto) (1983-09-20).a52" size 16384 crc 29178296 md5 C1F1D430EBD3E0FF8DE688E5101DA7AF sha1 42ACCB12E34031DA5822DC52FBBFB1B912A6A5A7 )
 )
 game (
-	name "Xevious (USA) (Proto)"
+	name "Xari Arena (USA) (Proto) (Alt 1)"
 	releaseyear "1983"
-	releasemonth "10"
-	releaseday "13"
+	releasemonth "08"
+	releaseday "30"
 	region "USA"
-	rom ( name "Xevious (USA) (Proto) (1983-10-13).a52" size 32768 crc CA83BEC4 md5 A784FD37A90B25271409F8A84B54BFE4 sha1 C2D55A60531CEA052878DF0B57071936192D14C1 )
+	rom ( name "Xari Arena (USA) (Proto) (1983-08-30).a52" size 16384 crc B8FAAEC3 md5 4F6C58C28C41F31E3A1515FE1E5D15AF sha1 8B5512D3D2A952C99B9377919F0E06481161D81E )
 )
 game (
-	name "Xevious (USA) (Proto)"
+	name "Xari Arena (USA) (Proto) (Alt 2)"
 	releaseyear "1983"
-	releasemonth "11"
-	releaseday "15"
+	releasemonth "05"
+	releaseday "10"
 	region "USA"
-	rom ( name "Xevious (USA) (Proto) (1983-11-15).a52" size 32768 crc 0D579884 md5 92ECA7C283B90FDFFC0E18B538CB6C2E sha1 2199C5B890B03E9470F1367D6DC486CB6F4FE416 )
+	rom ( name "Xari Arena (USA) (Proto) (1983-05-10).a52" size 16384 crc 8B5D3567 md5 4045957E90560485272FDAAE72009597 sha1 4E5FC0A3AD6D230916DB037710E7D7D4076A7607 )
 )
 game (
-	name "Xevious (USA) (Proto)"
+	name "Xari Arena (USA) (Proto) (Alt 3)"
 	releaseyear "1983"
-	releasemonth "11"
-	releaseday "21"
+	releasemonth "06"
+	releaseday "24"
 	region "USA"
-	rom ( name "Xevious (USA) (Proto) (1983-11-21).a52" size 32768 crc 260385D0 md5 D1A06C29235DE5580C3CA2438D5EE69D sha1 B1ABAC654E6C666EB9BBD5B7A2413165E77A51E9 )
+	rom ( name "Xari Arena (USA) (Proto) (1983-06-24).a52" size 16384 crc 74C4FB9F md5 FD9CB6210A8446BA3CAD39FCFC9A1E02 sha1 3E6AEA8AFEA8D069B811DF6CC60535AAA16E41DC )
 )
 game (
-	name "Xevious (USA) (Proto)"
+	name "Xari Arena (USA) (Proto) (Alt 4)"
 	releaseyear "1983"
-	releasemonth "11"
-	releaseday "23"
+	releasemonth "08"
+	releaseday "25"
 	region "USA"
-	rom ( name "Xevious (USA) (Proto) (1983-11-23).a52" size 32768 crc C46FC281 md5 1D29317B11A11619F972D89CE12CE0AF sha1 E899B4F8E6E3C977D99C090010787BFBB84BD9E0 )
+	rom ( name "Xari Arena (USA) (Proto) (1983-08-25).a52" size 32768 crc C9853D0E md5 7000148E641E7AF599053AEAB0A6D3B7 sha1 4D9F0D254875BCD8EFCB7333DF7E0CBAE99BE8AB )
+)
+game (
+	name "Xari Arena (USA) (Proto) (Alt 5)"
+	releaseyear "1983"
+	releasemonth "08"
+	releaseday "31"
+	region "USA"
+	rom ( name "Xari Arena (USA) (Proto) (1983-08-31).a52" size 32768 crc 5342A8B4 md5 401481CEAF5A6C82B92DB48E240A8B79 sha1 971048115707E8F5E6B4CEB95C645F483ED6D9E3 )
 )
 game (
 	name "Xevious (USA) (Proto)"
@@ -1265,6 +853,38 @@ game (
 	releaseday "04"
 	region "USA"
 	rom ( name "Xevious (USA) (Proto) (1984-01-04).a52" size 32768 crc 5A52793F md5 BFDE4AF393EDD277021236F4274449EC sha1 B76985B1942DAB8C353D70EDB108AD571CB2024C )
+)
+game (
+	name "Xevious (USA) (Proto) (Alt 1)"
+	releaseyear "1983"
+	releasemonth "11"
+	releaseday "23"
+	region "USA"
+	rom ( name "Xevious (USA) (Proto) (1983-11-23).a52" size 32768 crc C46FC281 md5 1D29317B11A11619F972D89CE12CE0AF sha1 E899B4F8E6E3C977D99C090010787BFBB84BD9E0 )
+)
+game (
+	name "Xevious (USA) (Proto) (Alt 2)"
+	releaseyear "1983"
+	releasemonth "11"
+	releaseday "21"
+	region "USA"
+	rom ( name "Xevious (USA) (Proto) (1983-11-21).a52" size 32768 crc 260385D0 md5 D1A06C29235DE5580C3CA2438D5EE69D sha1 B1ABAC654E6C666EB9BBD5B7A2413165E77A51E9 )
+)
+game (
+	name "Xevious (USA) (Proto) (Alt 3)"
+	releaseyear "1983"
+	releasemonth "11"
+	releaseday "15"
+	region "USA"
+	rom ( name "Xevious (USA) (Proto) (1983-11-15).a52" size 32768 crc 0D579884 md5 92ECA7C283B90FDFFC0E18B538CB6C2E sha1 2199C5B890B03E9470F1367D6DC486CB6F4FE416 )
+)
+game (
+	name "Xevious (USA) (Proto) (Alt 4)"
+	releaseyear "1983"
+	releasemonth "10"
+	releaseday "13"
+	region "USA"
+	rom ( name "Xevious (USA) (Proto) (1983-10-13).a52" size 32768 crc CA83BEC4 md5 A784FD37A90B25271409F8A84B54BFE4 sha1 C2D55A60531CEA052878DF0B57071936192D14C1 )
 )
 game (
 	name "Xevious (USA) (Proto) (Unknown)"

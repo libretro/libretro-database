@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Sega - Mega-CD - Sega CD"
 	description "Sega - Mega-CD - Sega CD"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -306,30 +307,6 @@ game (
 	name "Burning Fists - Force Striker (USA)"
 	region "USA"
 	rom ( name "Burning Fists - Force Striker (USA) (Unl) (Track 01).bin" size 242792256 crc 419A969B md5 598FF03BDA07BA1876931F1FC07D26CF sha1 6C14A3F2F2E58503A1503C23163C33B61B126B7A )
-)
-game (
-	name "CD Sonic the Hedgehog (Japan) (Beta)"
-	releaseyear "1992"
-	releasemonth "12"
-	releaseday "04"
-	region "Japan"
-	rom ( name "CD Sonic the Hedgehog (Japan) (Beta) (1992-12-04) (Track 1).bin" size 18823056 crc CF84E58C md5 76193536B059C14F1D652D7E4D9DDEBC sha1 C5E5CF0D8FFE2D6004B38FD57C011935DE159BC4 )
-)
-game (
-	name "CD Sonic the Hedgehog (Japan) (Beta)"
-	releaseyear "1993"
-	releasemonth "05"
-	releaseday "13"
-	region "Japan"
-	rom ( name "CD Sonic the Hedgehog (Japan) (Beta) (1993-05-13) (Track 01).bin" size 37961280 crc 40B85901 md5 3D775F0D48853CEBB0154B94294B579C sha1 84780D900D494B505463CCD980860947EFCA62BD )
-)
-game (
-	name "CD Sonic the Hedgehog (Japan) (Beta)"
-	releaseyear "1993"
-	releasemonth "06"
-	releaseday "21"
-	region "Japan"
-	rom ( name "CD Sonic the Hedgehog (Japan) (Beta) (1993-06-21) (Track 01).bin" size 45087840 crc D73DFCE7 md5 F3BA4B9F4209D7A43889994AD0EBAAF0 sha1 AE79DA208CB545DE616A7FE1E0AF610A13062AA8 )
 )
 game (
 	name "Cadillacs and Dinosaurs - The Second Cataclysm (USA, Brazil)"
@@ -772,22 +749,6 @@ game (
 	rom ( name "Egawa Suguru no Super League CD (Japan) (Track 01).bin" size 41446944 crc EF4ADEB8 md5 4F3CA407667D0FBF5DA84E4259484B58 sha1 DBE6FEB4D22BCF5529AB8CBEC7BACF05D2FE6C59 serial "G-6019" )
 )
 game (
-	name "Eternal Champions - Challenge from the Dark Side (Europe) (Beta)"
-	releaseyear "1995"
-	releasemonth "06"
-	releaseday "09"
-	region "Europe"
-	rom ( name "Eternal Champions - Challenge from the Dark Side (Europe) (Beta) (1995-06-09) (Track 01).bin" size 155643600 crc A397D061 md5 84F5D203B2AA642EBA4B61AFB4E31E21 sha1 D064E3119326CFB61BEEB131D4641A4767A6BA25 )
-)
-game (
-	name "Eternal Champions - Challenge from the Dark Side (USA) (Beta)"
-	releaseyear "1995"
-	releasemonth "05"
-	releaseday "11"
-	region "USA"
-	rom ( name "Eternal Champions - Challenge from the Dark Side (USA) (Beta) (1995-05-11) (Track 01).bin" size 155641248 crc 5FD53235 md5 DC2F45CFB0D77D49E442611ED3A86AF5 sha1 261809C666E5D91626A222F252CAA383C50CECB9 )
-)
-game (
 	name "Eternal Champions - Challenge from the Dark Side (USA)"
 	region "USA"
 	serial "4427"
@@ -1046,15 +1007,6 @@ game (
 	rom ( name "Heavy Nova (Japan) (Track 01).bin" size 2791824 crc A282781B md5 576606112CA40612AA416E020CA8A043 sha1 F8DA6A1D4E52C3407C386B7344119ECA712DFCAF serial "T-22014" )
 )
 game (
-	name "Heavy Nova (Japan) (Beta)"
-	releaseyear "1991"
-	releasemonth "11"
-	releaseday "02"
-	region "Japan"
-	serial "T-22014"
-	rom ( name "Heavy Nova (Japan) (Beta) (1991-11-02) (Track 01).bin" size 2429616 crc 7A28795C md5 E3B3D16B33165D46E118B6BBA014CEC1 sha1 197A7AD9A7CF7C10C28CDF07472EE17A1771E121 serial "T-22014" )
-)
-game (
 	name "Heimdall (Japan)"
 	region "Japan"
 	serial "T-60054"
@@ -1241,14 +1193,6 @@ game (
 	rom ( name "Lethal Enforcers II - Gun Fighters (Europe) (Track 01).bin" size 14845824 crc 3D5DF472 md5 4CBEA82F63CF056965E256B70EF0C373 sha1 0059F985764F4095DF9D83F2ABCFA9D1F4EF129A serial "T-95025-50" )
 )
 game (
-	name "Lethal Enforcers II - Gun Fighters (Europe) (Beta)"
-	releaseyear "1994"
-	releasemonth "09"
-	releaseday "23"
-	region "Europe"
-	rom ( name "Lethal Enforcers II - Gun Fighters (Europe) (Beta) (1994-09-23) (Track 01).bin" size 14845824 crc F1E65AC0 md5 F28F9C84E8245C792886E155C030EA6F sha1 DF80E3E2CA2C49B65B7FD637773490B192BB2FA2 )
-)
-game (
 	name "Lethal Enforcers II - Gun Fighters (USA)"
 	region "USA"
 	serial "T-95025"
@@ -1264,18 +1208,7 @@ game (
 	name "Links - The Challenge of Golf (USA)"
 	region "USA"
 	serial "T-70095"
-	rom ( name "Links - The Challenge of Golf (USA) (Track 1).bin" size 609593712 crc 73344F3B md5 224CFE1BC70C88ED4F7A35BD54D1FFC0 sha1 A4FF130C3C70351A0D67E30F334318ABE1994E26 serial "T-70095" )
-)
-game (
-	name "Links - The Challenge of Golf (USA)"
-	region "USA"
-	serial "T-70095"
 	rom ( name "Links - The Challenge of Golf (USA) (RE) (Track 1).bin" size 571453680 crc 2403119F md5 E73613D8DA342EAB0661732D7B7C6D2A sha1 8CF3B02634C46ED05B999322105893F714A1E309 serial "T-70095" )
-)
-game (
-	name "Loadstar - The Legend of Tully Bodine (USA) (Beta)"
-	region "USA"
-	rom ( name "Loadstar - The Legend of Tully Bodine (USA) (Beta) (Track 1).bin" size 656137440 crc 764E8C85 md5 1118D66EB68EFC0CA9F3E5C373CBCADB sha1 C57082EF7344C44ACB2463BC4CF3DE88F0FFE8D3 )
 )
 game (
 	name "Loadstar - The Legend of Tully Bodine (USA, Brazil)"
@@ -1362,14 +1295,6 @@ game (
 	rom ( name "Make My Video - INXS (USA) (Track 1).bin" size 504426384 crc E020878E md5 B95B4A287DCEFA59BD20331CD97F286C sha1 24CE6FD419FF3F3BD7C760BDD7192231136332BE serial "4902" )
 )
 game (
-	name "Make My Video - INXS (USA) (Beta)"
-	releaseyear "1992"
-	releasemonth "12"
-	releaseday "15"
-	region "USA"
-	rom ( name "Make My Video - INXS (USA) (Beta) (1992-12-15).bin" size 496229664 crc 7BD45922 md5 7D6519BF02D40158FA2E1674D0EEEE9F sha1 BA08EE24A54486867A659AC01BAFAFCEDFF8BB33 )
-)
-game (
 	name "Make My Video - Kris Kross (Europe)"
 	region "Europe"
 	serial "T-93025-50"
@@ -1386,14 +1311,6 @@ game (
 	region "USA"
 	serial "4901"
 	rom ( name "Make My Video - Marky Mark and the Funky Bunch (USA).bin" size 553554960 crc 5055BE2B md5 60C841A44BE6A0C406FA08BE03D44494 sha1 A00AC37DB6A1A81879E2BAEA004753C8E2FA3059 serial "4901" )
-)
-game (
-	name "Make My Video - Marky Mark and the Funky Bunch (USA) (Beta)"
-	releaseyear "1992"
-	releasemonth "12"
-	releaseday "11"
-	region "USA"
-	rom ( name "Make My Video - Marky Mark and the Funky Bunch (USA) (Beta) (1992-12-11).bin" size 553202160 crc FD3654F5 md5 2A4DF388E18FDD701AD9BD4366B48874 sha1 6D366F90184C7C0C0B4135DFC199EAEC39E90E39 )
 )
 game (
 	name "Mansion of Hidden Souls (USA)"
@@ -2630,14 +2547,6 @@ game (
 	rom ( name "Snatcher (USA) (Track 01).bin" size 131744928 crc 13AD0387 md5 8A4F5185FA0754E073E331BEBD91BBB4 sha1 1F4164205ED736A0D9A03EB7972868E9AA737D35 serial "T-95035" )
 )
 game (
-	name "Snatcher (USA) (Beta)"
-	releaseyear "1994"
-	releasemonth "10"
-	releaseday "07"
-	region "USA"
-	rom ( name "Snatcher (USA) (Beta) (1994-10-07) (Track 01).bin" size 131744928 crc B6F1932E md5 44B57D67B3E216E77D6357ABB3E4627F sha1 606DC65DBA04FD95097D0CFC8FED22DE7122D786 )
-)
-game (
 	name "Software Toolworks' Star Wars Chess, The (Europe)"
 	region "Europe"
 	serial "T-158025-50"
@@ -2686,22 +2595,6 @@ game (
 	rom ( name "Sonic CD (Europe) (Track 01).bin" size 129590496 crc 0060AC74 md5 1E0E1D19BBC308E9524FF853C2320E88 sha1 1AB058C8228AF31A50DEF1B01F1F33961F2F23D7 serial "4407" )
 )
 game (
-	name "Sonic CD (Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "08"
-	releaseday "06"
-	region "Europe"
-	rom ( name "Sonic CD (Europe) (Beta) (1993-08-06) (Track 01).bin" size 129592848 crc 0B16E68C md5 A6F67FD00D8AC423A34FC1453A97F0D5 sha1 4A16084F5F3ABC8A7A28A4D08DC878488F9B890E )
-)
-game (
-	name "Sonic CD (Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "08"
-	releaseday "19"
-	region "Europe"
-	rom ( name "Sonic CD (Europe) (Beta) (1993-08-19) (Track 01).bin" size 129590496 crc 1EA52615 md5 BC5C971E11FC1162B6DF54F3EB7AB6F5 sha1 3AA2E6A69EB392ECDC48E11CB517011D4457B0D6 )
-)
-game (
 	name "Sonic CD (USA) (RE125) (Alt 2)"
 	region "USA"
 	rom ( name "Sonic CD (USA) (RE125) (Alt 2) (Track 01).bin" size 139381872 crc A6184E05 md5 ED96420538F989E94480F810D5F90685 sha1 3C316AF52CC9EE8C30976A1CDB66339545DDA3BD )
@@ -2716,22 +2609,6 @@ game (
 	region "Japan"
 	serial "G-6021"
 	rom ( name "Sonic the Hedgehog CD (Japan) (Track 01).bin" size 129592848 crc 4C9FB365 md5 5595A2F1BC28F045FEE385FFC074581B sha1 BD33F07167EB25372975143483B27927CF13E2DB serial "G-6021" )
-)
-game (
-	name "Sonic the Hedgehog CD (Japan) (Beta)"
-	releaseyear "1993"
-	releasemonth "07"
-	releaseday "12"
-	region "Japan"
-	rom ( name "Sonic the Hedgehog CD (Japan) (Beta) (1993-07-12) (Track 01).bin" size 112058688 crc 3C0A7E22 md5 FA0525775812BCBD0491264869DCD8CC sha1 5F3588CAA54AC804A81D8B89D94AD8825087696B )
-)
-game (
-	name "Sonic the Hedgehog CD (Japan) (Beta)"
-	releaseyear "1993"
-	releasemonth "08"
-	releaseday "01"
-	region "Japan"
-	rom ( name "Sonic the Hedgehog CD (Japan) (Beta) (1993-08-01) (Track 01).bin" size 129595200 crc 38C37028 md5 7EDB240E8B02B47122C01698B51AC18A sha1 575EBBC6A920E32CD59AE4852712E71B6A4CB1E8 )
 )
 game (
 	name "SoulStar (Europe) (En,Fr,De)"
@@ -3187,14 +3064,6 @@ game (
 	region "Japan"
 	serial "T-76044"
 	rom ( name "Winning Post (Japan) (Track 01).bin" size 10252368 crc DB23BAFD md5 7001BB7E42EB07CA67F022A0ABDF2D10 sha1 5B2127D52FA0E5FE10FE8A0A798FADA544AD7410 serial "T-76044" )
-)
-game (
-	name "WireHead (Europe) (Beta)"
-	releaseyear "1995"
-	releasemonth "09"
-	releaseday "12"
-	region "Europe"
-	rom ( name "WireHead (Europe) (Beta) (1995-09-12) (Track 1).bin" size 626991456 crc 08895D06 md5 9927FE4108CC562541C52BB27DFDC63A sha1 46D2CC707718E1E8A9E25910CD3DC2645B733857 )
 )
 game (
 	name "WireHead (USA)"

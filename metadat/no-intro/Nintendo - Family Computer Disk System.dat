@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Family Computer Disk System"
 	description "Nintendo - Family Computer Disk System"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "fds|qd"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -10,14 +11,6 @@ game (
 	region "Japan"
 	serial "ADA"
 	rom ( name "Adian no Tsue (Japan).fds" size 131000 crc DCC7A8D6 md5 2155652BA2CE18282705337D03B3F505 sha1 1DB213B613D6706B5E97EA0F5AAD9BD804793A96 serial "ADA" )
-)
-game (
-	name "Adian no Tsue (Japan) (Beta)"
-	releaseyear "1986"
-	releasemonth "10"
-	releaseday "29"
-	region "Japan"
-	rom ( name "Adian no Tsue (Japan) (Beta) (1986-10-29).fds" size 131000 crc E342932F md5 93609D9F2A72CC6097679599E4BF425F sha1 C6AB5061E01B9BA3A20AD72310049C75A7DD11C3 )
 )
 game (
 	name "Ai Senshi Nicol (Japan)"
@@ -62,14 +55,6 @@ game (
 	region "Japan"
 	serial "AKM"
 	rom ( name "Akumajou Dracula (Japan) (Rev 2) (Wii and Wii U Virtual Console).fds" size 131000 crc FC72B953 md5 958F03C1C054A528F22869CA84E03A32 sha1 A81AE854DB8DE25E3F404187894C2A1D50A5B132 serial "AKM" )
-)
-game (
-	name "Akuu Senki Raijin (Japan) (Beta)"
-	releaseyear "1987"
-	releasemonth "06"
-	releaseday "10"
-	region "Japan"
-	rom ( name "Akuu Senki Raijin (Japan) (Beta) (1987-06-10).fds" size 131000 crc CE97DDD2 md5 BD7E25FAA070C247015F2DFB09B20760 sha1 59057D1FB26F792B57AAEC61DCA4B12768443345 )
 )
 game (
 	name "Akuu Senki Raijin (Japan) (Disk Writer)"
@@ -376,14 +361,6 @@ game (
 	rom ( name "Dead Zone (Japan).fds" size 131000 crc DE673254 md5 0032B506D04AE902C44B8269CE902A55 sha1 89D1484FD5E2F6569C7CB73451ACF3418E0FAD23 serial "DZN" )
 )
 game (
-	name "Dead Zone (Japan) (Beta)"
-	releaseyear "1986"
-	releasemonth "10"
-	releaseday "06"
-	region "Japan"
-	rom ( name "Dead Zone (Japan) (Beta) (1986-10-06).fds" size 131000 crc 9B91F0F8 md5 7AA5000BF8F7D830AE0739C36A047D72 sha1 127329162D1E55D5273ACE359F3DE9F28AF18A92 )
-)
-game (
 	name "Dig Dug (Japan) (Disk Writer)"
 	region "Japan"
 	serial "DIG"
@@ -480,15 +457,6 @@ game (
 	rom ( name "Druid - Kyoufu no Tobira (Japan).fds" size 131000 crc 69139E45 md5 BF88D1C1FC7BF0D4783859264DD6BDA5 sha1 7B0C175A94D11DB939565AD0B40DD29D6A129A5D serial "DRD" )
 )
 game (
-	name "Druid - Kyoufu no Tobira (Japan) (Beta)"
-	releaseyear "1987"
-	releasemonth "12"
-	releaseday "24"
-	region "Japan"
-	serial "DRD"
-	rom ( name "Druid - Kyoufu no Tobira (Japan) (Beta) (1987-12-24).fds" size 131000 crc 47FF9438 md5 33610C9C63A9F8624F015F147CB55BC4 sha1 26C60D7181D4B107CE6FD33FC74607423B0511EF serial "DRD" )
-)
-game (
 	name "Egger Land (Japan)"
 	region "Japan"
 	serial "EGL"
@@ -499,14 +467,6 @@ game (
 	region "Japan"
 	serial "EGL"
 	rom ( name "Egger Land (Japan) (Rev 1) (Possible Proto).fds" size 131000 crc CF2A8BF8 md5 9193E78A2BD7D64373C403E8BE7D5B51 sha1 D29A85FECAC83065A9D4DC60C78729B5DB406F11 serial "EGL" )
-)
-game (
-	name "Egger Land - Souzou e no Tabidachi (Japan) (Beta)"
-	releaseyear "1987"
-	releasemonth "11"
-	releaseday "11"
-	region "Japan"
-	rom ( name "Egger Land - Souzou e no Tabidachi (Japan) (Beta) (1987-11-11).fds" size 131000 crc 5C50B9FC md5 386E47174B9192F78ED6F911C7CF1A99 sha1 260F824C95772BBE4CB60702AD53A71CF4E11D3A )
 )
 game (
 	name "Egger Land - Souzou e no Tabidachi (Japan) (Disk Writer)"
@@ -727,12 +687,6 @@ game (
 	region "Japan"
 	serial "TC3"
 	rom ( name "Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo - Zenpen (Japan) (3DS Virtual Console).fds" size 131000 crc 26E56B6B md5 DE2E6226DC59BCD861AEA0003E5600C5 sha1 652401DB810427BE2FC25004D70B8387F9E9574F serial "TC3" )
-)
-game (
-	name "Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo - Zenpen (Japan) (Beta)"
-	region "Japan"
-	serial "TC3"
-	rom ( name "Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo - Zenpen (Japan) (Beta).fds" size 131000 crc E233B15A md5 AF5FC1434B50E6775280E27859B7F108 sha1 CBAA3A70B77E6A33A36BC3E6DEDB07F6EDF1D001 serial "TC3" )
 )
 game (
 	name "Famicom Tantei Club Part II - Ushiro ni Tatsu Shoujo - Zenpen (Japan) (Wii Virtual Console)"
@@ -1007,15 +961,6 @@ game (
 	rom ( name "Gyruss (Japan).fds" size 131000 crc BFC78F7D md5 FEB7399972C2908687D2A39DFB646DAF sha1 7CAC3F8A1963BE84AA20888996922F0599797EBD serial "GRS" )
 )
 game (
-	name "Gyruss (Japan) (Beta)"
-	releaseyear "1988"
-	releasemonth "10"
-	releaseday "03"
-	region "Japan"
-	serial "GRS"
-	rom ( name "Gyruss (Japan) (Beta) (1988-10-03).fds" size 131000 crc 73B64FFE md5 7E5EDA201492D64229F0969D9512B241 sha1 283A4AAA3445B959DB14E1CFA20E4F086C50C3D9 serial "GRS" )
-)
-game (
 	name "Halley Wars (Japan)"
 	region "Japan"
 	serial "HAL"
@@ -1271,14 +1216,6 @@ game (
 	rom ( name "Konamic Tennis (Japan).fds" size 131000 crc EDBAEE55 md5 2D8C15C6C33D3ADC1A8A676B343A3876 sha1 F6DBFD739456DDDC6A21148100C912974B8C9E23 serial "TNI" )
 )
 game (
-	name "Konamic Tennis (Japan) (Beta)"
-	releaseyear "1986"
-	releasemonth "10"
-	releaseday "22"
-	region "Japan"
-	rom ( name "Konamic Tennis (Japan) (Beta) (1986-10-22).fds" size 131000 crc 694F064C md5 CC32B4C91579A4E69A1EC5E6EF04363C sha1 62FAA6D7500A0B4CB241DDBA76854D901756B43D )
-)
-game (
 	name "Koneko Monogatari - The Adventures of Chatran (Japan)"
 	region "Japan"
 	serial "KOM"
@@ -1317,7 +1254,7 @@ game (
 	rom ( name "Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector's Edition).fds" size 131000 crc D9D60599 md5 BA67BB9631BE2DC9591DF42F623E382A sha1 F4B5F7594BE7625F568BFCB1650288C977A07051 serial "LNK" )
 )
 game (
-	name "Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector's Edition)"
+	name "Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector's Edition) (Alt 1)"
 	region "Japan"
 	rom ( name "Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector's Edition).qd" size 131072 crc DF122ED1 md5 A0594AA7521CB59E3C0BFB1CADC85C89 sha1 B95411A6492C02D336D743F71A0A6233C9FEC873 )
 )
@@ -1485,7 +1422,7 @@ game (
 	rom ( name "Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1) (Possible Proto).fds" size 131000 crc C51FAFB7 md5 91119C607D6422C23466FC6D34C4145A sha1 28F20B6F85CACB4E55B8B6903C0FE966F0218D5D )
 )
 game (
-	name "Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1) (Possible Proto)"
+	name "Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1) (Possible Proto) (Alt 1)"
 	region "Japan"
 	serial "KIN"
 	rom ( name "Monitor Puzzle Kineko, The - Kinetic Connection (Japan) (Rev 1) (Possible Proto).qd" size 131072 crc 542F5CB8 md5 C102B714C263AAE5821494EA66F7AF89 sha1 0C5734D1AC97DBA65CAC052D92337AE374EEBCEB serial "KIN" )
@@ -1628,14 +1565,6 @@ game (
 	region "Japan"
 	serial "OTO"
 	rom ( name "Otocky (Japan).fds" size 131000 crc 673B4713 md5 4B9FD6C37DC7536CBF5F3054AD781ACA sha1 049A440E692CAADF8FE25668BB17E55A105B1093 serial "OTO" )
-)
-game (
-	name "Otocky (Japan) (Beta)"
-	releaseyear "1986"
-	releasemonth "04"
-	releaseday "15"
-	region "Japan"
-	rom ( name "Otocky (Japan) (Beta) (1986-04-15).fds" size 131000 crc 0CF97F84 md5 9D4BBB24E4CCF065F76D8AD0B999D3CE sha1 2A20B122A720C12364EB3789492AE6F619981D97 )
 )
 game (
 	name "Pac-Man (Japan) (Disk Writer)"
@@ -2038,9 +1967,9 @@ game (
 	rom ( name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.).fds" size 65500 crc 42B63CA5 md5 2A322BD3832945CF8D5F71644A9E2135 sha1 CB9FB99B7731ED05B81D4B6BAE06E0FBF8D21FA8 serial "SMB" )
 )
 game (
-	name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.)"
+	name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.) (Alt 1)"
 	region "Japan"
-	rom ( name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.).qd" size 57344 crc 88675F5C md5 652B3C9E31328DB7C637037E39AA1CDB sha1 426287581F2E1E1B9F24A42AFE60796587234B4E )
+	rom ( name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.).qd" size 65536 crc 32E837E8 md5 C0A3FB7B00E3A079D84BE3B97B47437D sha1 4A7173E9C4ED795E8AAAED3803C4C714954E1D0A )
 )
 game (
 	name "Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console)"
@@ -2063,14 +1992,6 @@ game (
 	region "Japan"
 	serial "SHO"
 	rom ( name "Tanigawa Kouji no Shougi Shinan II - Meijin e no Michi (Japan).fds" size 131000 crc 6CAD684C md5 40009723F37205F9DADAFECE6B5F6A5E sha1 3CFFF39AAA5E4192CA40C747C8004ABC80A7204A serial "SHO" )
-)
-game (
-	name "Tanigawa Kouji no Shougi Shinan II - Meijin e no Michi (Japan) (Beta)"
-	releaseyear "1987"
-	releasemonth "11"
-	releaseday "13"
-	region "Japan"
-	rom ( name "Tanigawa Kouji no Shougi Shinan II - Meijin e no Michi (Japan) (Beta) (1987-11-13).fds" size 131000 crc FC14D862 md5 7F3F4A66AE195BADF5A1D81659CC8D70 sha1 4EFA88A859A0E60CB53C4D722A090ABE6247562C )
 )
 game (
 	name "Tanigawa Kouji no Shougi Shinan II - Meijin e no Michi - Shinban Tsumeshougi - Tsugi no Itte (Japan) (Disk Writer)"
@@ -2330,7 +2251,7 @@ game (
 game (
 	name "Zanac (AI) (Japan) (Project EGG)"
 	region "Japan"
-	rom ( name "Zanac (AI) (Japan) (Project EGG).qd" size 65516 crc 349B244B md5 B152912CCD919322FA577470AC1F84F8 sha1 FBDB20149C17EAEA37650FEE8246B5334E59D730 )
+	rom ( name "Zanac (AI) (Japan) (Project EGG).fds" size 65516 crc 349B244B md5 B152912CCD919322FA577470AC1F84F8 sha1 FBDB20149C17EAEA37650FEE8246B5334E59D730 )
 )
 game (
 	name "Zatsugaku Olympic Quiz - Watanabe Wataru Hen (Japan)"
@@ -2349,14 +2270,6 @@ game (
 	region "Japan"
 	serial "ZEL"
 	rom ( name "Zelda no Densetsu - The Hyrule Fantasy (Japan).fds" size 131000 crc 1F22CCB1 md5 5C0785479D5149F18F77D23DDBA1DF41 sha1 135AC9CBDF3983AA77D7581B26D685D02615D36A serial "ZEL" )
-)
-game (
-	name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Beta)"
-	releaseyear "1985"
-	releasemonth "12"
-	releaseday "28"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Beta) (1985-12-28).fds" size 131000 crc 2F222391 md5 D295F0282B1A8718A189AF3D2CF3DC8F sha1 2C3FF158C3716ABB66677D149B3E1D23993C1BFE )
 )
 game (
 	name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Collector's Edition)"

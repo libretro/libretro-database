@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Family Computer Disk System"
 	description "Nintendo - Family Computer Disk System"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "fds"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -14,11 +15,6 @@ game (
 	name "Adian no Tsue (Japan)"
 	region "Japan"
 	rom ( name "Adian no Tsue (Japan).fds" size 131016 crc 6C5877A4 md5 F49B41657E33ED2E207AAAF505BEC2B2 sha1 14282E8784D0930D9B3C9C05BD7ABC755532A025 )
-)
-game (
-	name "Adian no Tsue (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Adian no Tsue (Japan) (Beta).fds" size 131016 crc 53DD4C5D md5 BB8F419354AB2BC03F64AD5271053BDC sha1 D819B234A005ADF3C7D05FFAD822281DB03470F8 )
 )
 game (
 	name "Ai Senshi Nicol (Japan)"
@@ -121,14 +117,14 @@ game (
 	rom ( name "Bio Miracle Bokutte Upa (Japan).fds" size 131016 crc 75E44B0D md5 241CED26CE76DEE6DA37522DCF8A790D sha1 DE9DB3B56A3C45630009BAB87A051FE9ECD09476 )
 )
 game (
-	name "Bishoujo Alien Battle (Japan) (Alt 1)"
-	region "Japan"
-	rom ( name "Bishoujo Alien Battle (Japan) (Alt 1) (Unl).fds" size 131016 crc 0D0BAC2C md5 917D80770D40562EA4EDD1E2BFA92AA8 sha1 3D977931B36BDF3B663FEDF43A0A4574E82AA0E2 )
-)
-game (
 	name "Bishoujo Alien Battle (Japan)"
 	region "Japan"
 	rom ( name "Bishoujo Alien Battle (Japan) (Unl).fds" size 131016 crc 58003262 md5 79E68650961E637D4211D5422666EE0C sha1 38872069ABEC2A5B150C90F64333B34E2717FB42 )
+)
+game (
+	name "Bishoujo Alien Battle (Japan) (Alt 1)"
+	region "Japan"
+	rom ( name "Bishoujo Alien Battle (Japan) (Alt 1) (Unl).fds" size 131016 crc 0D0BAC2C md5 917D80770D40562EA4EDD1E2BFA92AA8 sha1 3D977931B36BDF3B663FEDF43A0A4574E82AA0E2 )
 )
 game (
 	name "Bishoujo Control (Japan)"
@@ -276,11 +272,6 @@ game (
 	rom ( name "Dead Zone (Japan).fds" size 131016 crc 6EF8ED26 md5 4188C2551D82C5ACD0F316C96974E945 sha1 7F25ACB503EC2C0E048370AAB97C8875B761FD5C )
 )
 game (
-	name "Dead Zone (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Dead Zone (Japan) (Beta).fds" size 131016 crc 2B0E2F8A md5 9952D63C6529F69544FCEEB7092E4221 sha1 388F8F2DC8BD29F1F6F62E3F961A52F86108E2CD )
-)
-game (
 	name "Dig Dug (Japan) (Disk Writer)"
 	region "Japan"
 	rom ( name "Dig Dug (Japan) (Disk Writer).fds" size 65516 crc EB126143 md5 5980EFC37F4A18C1616E6B9E5DD82CA3 sha1 468F3408AEE090982BDEE9A66054994D10389B5E )
@@ -411,14 +402,14 @@ game (
 	rom ( name "FMC Disk Card Checker Ver 1.3 (Japan) (Rev 2) (Developer Card).fds" size 65516 crc 5DB93082 md5 A3F042264D60AEE35AB6216B9CD6B311 sha1 9498005B910AF3DC99D1CBB862C8F89E2CB2AAE8 )
 )
 game (
-	name "Fairy Pinball - Yousei Tachi no Pinball (Japan) (Alt 1)"
-	region "Japan"
-	rom ( name "Fairy Pinball - Yousei Tachi no Pinball (Japan) (Alt 1) (Unl).fds" size 131016 crc 3DC9C826 md5 D3F909D2A365A15B2753455D4119C3E3 sha1 1ED0D5AE8D0B7BBD202D2EB72683F82E55043921 )
-)
-game (
 	name "Fairy Pinball - Yousei Tachi no Pinball (Japan)"
 	region "Japan"
 	rom ( name "Fairy Pinball - Yousei Tachi no Pinball (Japan) (Unl).fds" size 131016 crc 1CE10F77 md5 11E4E68BFEBD9C96B316DC87553654BD sha1 D988E7232A6FFF19904487A3B578C32FBCD7FB6D )
+)
+game (
+	name "Fairy Pinball - Yousei Tachi no Pinball (Japan) (Alt 1)"
+	region "Japan"
+	rom ( name "Fairy Pinball - Yousei Tachi no Pinball (Japan) (Alt 1) (Unl).fds" size 131016 crc 3DC9C826 md5 D3F909D2A365A15B2753455D4119C3E3 sha1 1ED0D5AE8D0B7BBD202D2EB72683F82E55043921 )
 )
 game (
 	name "Fairytale (Japan)"
@@ -1564,11 +1555,6 @@ game (
 	name "Zelda no Densetsu - The Hyrule Fantasy (Japan)"
 	region "Japan"
 	rom ( name "Zelda no Densetsu - The Hyrule Fantasy (Japan).fds" size 131016 crc AFBD13C3 md5 A5C5751D5A8D2A5B1D224855DC8DF198 sha1 0D77142F51BBEDD65294E32289CB838F50247FA4 )
-)
-game (
-	name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Beta).fds" size 131016 crc 9FBDFCE3 md5 70EB8058C7E0077F8A5764F473C31FC1 sha1 503A3C04477008AE7ADB1B6150B68A09373D309D )
 )
 game (
 	name "Zelda no Densetsu - The Hyrule Fantasy (Japan) (Nintendo Classic Mini Family Computer)"

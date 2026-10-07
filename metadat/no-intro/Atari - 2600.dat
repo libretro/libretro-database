@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 2600"
 	description "Atari - 2600"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "a26|bin|wav"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -179,22 +180,6 @@ game (
 	name "Alligator People (USA) (Proto)"
 	region "USA"
 	rom ( name "Alligator People (USA) (Proto).a26" size 4096 crc B3F6D395 md5 E1A51690792838C5C687DA80CD764D78 sha1 A1795D6371DDB0BC93BA6DF70299CC548DC88B99 )
-)
-game (
-	name "Alpha Beam (Europe) (Beta)"
-	releaseyear "1983"
-	releasemonth "06"
-	releaseday "03"
-	region "Europe"
-	rom ( name "Alpha Beam (Europe) (Beta) (1983-06-03).a26" size 8192 crc 1651F45E md5 DF95E4AF466C809619299F49ECE92365 sha1 EA1124A3EAC39133F59D664545C33CC514022067 )
-)
-game (
-	name "Alpha Beam (Japan, USA) (En) (Beta)"
-	releaseyear "1982"
-	releasemonth "12"
-	releaseday "22"
-	region "Japan"
-	rom ( name "Alpha Beam (Japan, USA) (En) (Beta) (1982-12-22).a26" size 8192 crc 85F1CB08 md5 8F5AC5139419C5D49BACC296E342A247 sha1 7118F2401A0D34996762D9838D2F4BACF745FDE3 )
 )
 game (
 	name "Alpha Beam with Ernie (Europe)"
@@ -520,25 +505,14 @@ game (
 	rom ( name "Battlezone (Europe).a26" size 8192 crc 5CC921F6 md5 FBE554AA8F759226D251BA6B64A9CCE4 sha1 D33A367FC4890BEA8C2D9A7283D84720B20CABF8 )
 )
 game (
+	name "Battlezone (Europe) (Alt)"
+	region "Europe"
+	rom ( name "Battlezone (Europe) (Alt).a26" size 8192 crc E71358D3 md5 2319922DF4D0C820B3E5F15FAA870CC3 sha1 5CAC793EB076C3EE559EC4EB7276629EAE849D8F )
+)
+game (
 	name "Battlezone (Japan, USA) (En)"
 	region "Japan"
 	rom ( name "Battlezone (Japan, USA) (En).a26" size 8192 crc 9155DD1D md5 41F252A66C6301F1E8AB3612C19BC5D4 sha1 E4134A3B4A065C856802BC935C12FA7E9868110A )
-)
-game (
-	name "Battlezone (Japan, USA) (En) (Beta)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "02"
-	region "Japan"
-	rom ( name "Battlezone (Japan, USA) (En) (Beta) (1983-05-02).a26" size 8192 crc C1E6D7CF md5 E434C0E161DD3C3FB435EB6BAD2E182C sha1 FAFD522E36A4888DFC2A40B1D5879EE8A33D7931 )
-)
-game (
-	name "Battlezone (Japan, USA) (En) (Beta)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "12"
-	region "Japan"
-	rom ( name "Battlezone (Japan, USA) (En) (Beta) (1983-05-12).a26" size 8192 crc 63F31AF6 md5 5B85E987E2B1618769D97BA9182333D0 sha1 3E226D8FFA975B937D808F73F79B3F052C3B067E )
 )
 game (
 	name "Beamrider (Europe)"
@@ -616,30 +590,6 @@ game (
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En).a26" size 8192 crc 96DC9A9C md5 1802CC46B879B229272501998C5DE04F sha1 5E4517DB83C061926130AB65975E3B83D9401CC9 )
 )
 game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
-	releaseyear "1982"
-	releasemonth "12"
-	releaseday "08"
-	region "Japan"
-	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1982-12-08).a26" size 8192 crc 9DE03520 md5 AFD2CF258D51AE4965EE21ABBA3627AB sha1 A3AB3699D945AC356AEFF637046F197F9D6F7063 )
-)
-game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "02"
-	region "Japan"
-	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-02).a26" size 8192 crc EEB65EFA md5 151FA3218D8D7600114EB5BCD79C85CB sha1 AAFB88EF8F95B1051CB8B6A153B165215C95C7BD )
-)
-game (
-	name "Big Bird's Egg Catch (Japan, USA) (En) (Beta)"
-	releaseyear "1983"
-	releasemonth "05"
-	releaseday "17"
-	region "Japan"
-	rom ( name "Big Bird's Egg Catch (Japan, USA) (En) (Beta) (1983-05-17).a26" size 8192 crc 3A4038AC md5 0B17ED42984000DA8B727CA46143F87A sha1 E2B0304DE695CEA7C98344642254B7F181E928D2 )
-)
-game (
 	name "Bionic Breakthrough (USA) (Proto)"
 	region "USA"
 	rom ( name "Bionic Breakthrough (USA) (Proto).a26" size 8192 crc 928E4B47 md5 F0541D2F7CDA5EC7BAB6D62B6128B823 sha1 F6A41507B8CF890AB7C59BB1424F0500534385CE )
@@ -680,16 +630,6 @@ game (
 	rom ( name "Blueprint (USA).a26" size 8192 crc DA7B9DFA md5 33D68C3CD74E5BC4CF0DF3716C5848BC sha1 0FADEF01CE28192880F745B23A5FBB64C5A96EFE )
 )
 game (
-	name "Blueprint (USA) (Beta 1)"
-	region "USA"
-	rom ( name "Blueprint (USA) (Beta 1).a26" size 4096 crc D5CFA0A7 md5 61A7DE21DA4D1EA65713D15FB7449470 sha1 15F85EC09E755D8BE0924F349649D86E5FBD9C39 )
-)
-game (
-	name "Blueprint (USA) (Beta 2)"
-	region "USA"
-	rom ( name "Blueprint (USA) (Beta 2).a26" size 8192 crc 5A95A4F4 md5 345488D3B014B684A181108F0EF823CB sha1 66753A7FFFAA432BDACDB18E7DCF0976E27D8ABE )
-)
-game (
 	name "Bobby Is Going Home (Brazil) (En)"
 	region "Brazil"
 	rom ( name "Bobby Is Going Home (Brazil) (En) (NTSC) (Unl).a26" size 4096 crc 358940E3 md5 075069AD80CDE15ECA69E3C98BD66714 sha1 E00202DA428DB2D05E30CDD59488E5E0D405C678 )
@@ -703,11 +643,6 @@ game (
 	name "Bobby Is Going Home (Europe)"
 	region "Europe"
 	rom ( name "Bobby Is Going Home (Europe).a26" size 4096 crc F061E27F md5 2823364702595FEEA24A3FBEE138A243 sha1 50E26688FDD3EADCFA83240616267A8F60216C25 )
-)
-game (
-	name "Bobby Is Going Home (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Bobby Is Going Home (Europe) (Beta).a26" size 4096 crc 3E662128 md5 CCB56107FF0492232065B85493DAA635 sha1 4AEF30B43249621E09A690D54EBE23377289A997 )
 )
 game (
 	name "Bobby Is Going Home (USA)"
@@ -970,11 +905,6 @@ game (
 	rom ( name "Centipede (Europe).a26" size 8192 crc 44D16280 md5 17D000A2882F9FDAA8B4A391AD367F00 sha1 1841CE27FC14CC2AA741D67E91F64F7924E3BF3E )
 )
 game (
-	name "Centipede (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Centipede (Europe) (Beta).a26" size 8192 crc AAE78B7F md5 2F11BA54609777E2C6A5DA9B302C98E8 sha1 C5FF64D7593F0D0103D6BB50A150E8A87D222EF3 )
-)
-game (
 	name "Centipede (Japan, USA) (En)"
 	region "Japan"
 	rom ( name "Centipede (Japan, USA) (En).a26" size 8192 crc 77396102 md5 91C2098E88A6B13F977AF8C003E0BCA5 sha1 0B5914BC1526A9BEAF54D7FD11408175CD8FCC72 )
@@ -1135,19 +1065,9 @@ game (
 	rom ( name "Communist Mutants from Space (Europe).a26" size 8448 crc E8C4DC94 md5 E2C89F270F72CD256ED667507FA038A2 sha1 9AB6E90C2A41684F46592B8E2B71FD19E540B055 )
 )
 game (
-	name "Communist Mutants from Space (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Communist Mutants from Space (Europe) (Beta).a26" size 8448 crc D1A5B3BB md5 7BA07D4EA18BF3B3245C374D8720AD30 sha1 B0483E5DE99833D630433281953A670DD72A0DF4 )
-)
-game (
 	name "Communist Mutants from Space (USA)"
 	region "USA"
 	rom ( name "Communist Mutants from Space (USA).a26" size 8448 crc D64EC816 md5 2C8835AED7F52A0DA9ADE5226EE5AA75 sha1 9A113BACC576D1D1F80A26622359C49DF97B16BC )
-)
-game (
-	name "Communist Mutants from Space (USA) (Beta)"
-	region "USA"
-	rom ( name "Communist Mutants from Space (USA) (Beta).a26" size 8448 crc CA6BB788 md5 D541B20EAE221A8EE321375E5971E766 sha1 AD18885ED38516C3E136293AE565C113F299D223 )
 )
 game (
 	name "Computer Chess (USA) (Proto)"
@@ -2029,20 +1949,6 @@ game (
 	name "I.Q. Memory Teaser (Europe)"
 	region "Europe"
 	rom ( name "I.Q. Memory Teaser (Europe).a26" size 4096 crc 75AB6BA8 md5 DC33479D66615A3B09670775DE4C2A38 sha1 FA05A35DE4C401704538CC256F46440F42DE3DDB )
-)
-game (
-	name "INV+ (World) (Beta)"
-	releaseyear "2004"
-	releasemonth "04"
-	releaseday "08"
-	rom ( name "INV+ (World) (2004-04-08) (Beta) (Aftermarket) (Unl).a26" size 4096 crc 37E26BAC md5 ACDE3415615C32A81A6CEA62FF43F6CD sha1 42E4A814FED49F36316E0DDD13FAFD72B6BCE8A0 )
-)
-game (
-	name "INV+ (World) (Beta)"
-	releaseyear "2004"
-	releasemonth "04"
-	releaseday "29"
-	rom ( name "INV+ (World) (2004-04-29) (Beta) (Aftermarket) (Unl).a26" size 4096 crc A9F28173 md5 5327C461045D277E2066008885D8E9C2 sha1 4789E2D47BBBB529E40D4E0C0364FD937BA87393 )
 )
 game (
 	name "INV+ (World)"
@@ -3278,18 +3184,18 @@ game (
 game (
 	name "Saboteur (USA) (Proto)"
 	releaseyear "1983"
-	releasemonth "09"
-	releaseday "02"
-	region "USA"
-	rom ( name "Saboteur (USA) (Proto) (1983-09-02).bin" size 8192 crc C359C13D md5 1EC57BBD27BDBD08B60C391C4895C1CF sha1 85752AC6EB7045A9083425CD166609882A1C2C58 )
-)
-game (
-	name "Saboteur (USA) (Proto)"
-	releaseyear "1983"
 	releasemonth "12"
 	releaseday "20"
 	region "USA"
 	rom ( name "Saboteur (USA) (Proto) (1983-12-20).a26" size 8192 crc 7EFE0286 md5 A4ECB54F877CD94515527B11E698608C sha1 90CD987CCAFFB428E53FFD98563DBBE3BABD2E73 )
+)
+game (
+	name "Saboteur (USA) (Proto) (Alt 1)"
+	releaseyear "1983"
+	releasemonth "09"
+	releaseday "02"
+	region "USA"
+	rom ( name "Saboteur (USA) (Proto) (1983-09-02).bin" size 8192 crc C359C13D md5 1EC57BBD27BDBD08B60C391C4895C1CF sha1 85752AC6EB7045A9083425CD166609882A1C2C58 )
 )
 game (
 	name "Save Mary! (USA) (Proto)"
@@ -4127,11 +4033,6 @@ game (
 	rom ( name "Texas Chainsaw Massacre, The (USA).a26" size 4096 crc EC389CAA md5 5EEB81292992E057B290A5CD196F155D sha1 717122A4184BC8DB41E65AB7C369C40B21C048D9 )
 )
 game (
-	name "Texas Chainsaw Massacre, The (USA) (Beta)"
-	region "USA"
-	rom ( name "Texas Chainsaw Massacre, The (USA) (Beta).a26" size 4096 crc EA9A4268 md5 2D15B092E8350912EC4B2E5E750FA1C6 sha1 1F1660223ABEEE3113C3F75BF4D9CBB3B1CF49E4 )
-)
-game (
 	name "Threshold (USA)"
 	region "USA"
 	rom ( name "Threshold (USA).a26" size 4096 crc CE5097FD md5 E63A87C231EE9A506F9599AA4EF7DFB9 sha1 9A52FA88BD7455044F00548E9615452131D1C711 )
@@ -4374,6 +4275,10 @@ game (
 	rom ( name "Wall Jump Ninja (World) (2015-01-15) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc 353215E0 md5 3C56C0C5F6F97850ED0AA7BCC2A4E30E sha1 A06FB0C60FFF651B0BE270E926F220706E86A5B4 )
 )
 game (
+	name "Wall Jump Ninja (World) (Alt 1)"
+	rom ( name "Wall Jump Ninja (World) (Aftermarket) (Unl).a26" size 4096 crc BB530A55 md5 EB56BEF863BED75F203429E568C23D05 sha1 FBA9479B04A1BB5C6CBD1893BE59630ACD3C8CB6 )
+)
+game (
 	name "Wall Jump Ninja (World) (PAL 60Hz)"
 	releaseyear "2015"
 	releasemonth "01"
@@ -4386,10 +4291,6 @@ game (
 	releasemonth "01"
 	releaseday "15"
 	rom ( name "Wall Jump Ninja (World) (2015-01-15) (PAL) (Aftermarket) (Unl).a26" size 4096 crc A6574F27 md5 195A8DDF9DEBCC1444A86AEF82B9C26D sha1 1C7DA4646C5F59596914F32EF7F4F04C0D62BFF3 )
-)
-game (
-	name "Wall Jump Ninja (World)"
-	rom ( name "Wall Jump Ninja (World) (Aftermarket) (Unl).a26" size 4096 crc BB530A55 md5 EB56BEF863BED75F203429E568C23D05 sha1 FBA9479B04A1BB5C6CBD1893BE59630ACD3C8CB6 )
 )
 game (
 	name "Wall Jump Ninja (World) (v1.1)"
@@ -4514,7 +4415,7 @@ game (
 	rom ( name "Xevious (USA) (Proto) (1983-08-02).a26" size 8192 crc 2EF09F4A md5 C6688781F4AB844852F4E3352772289B sha1 73133B81196E5CBC1CEC99EEFC1223DDB8F4CA83 )
 )
 game (
-	name "Xevious (USA) (Proto)"
+	name "Xevious (USA) (Proto) (Alt 1)"
 	releaseyear "1984"
 	releasemonth "01"
 	releaseday "18"

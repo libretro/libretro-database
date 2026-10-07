@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Sony - PlayStation 2"
 	description "Sony - PlayStation 2"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin|iso"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -416,15 +417,6 @@ game (
 	rom ( name "21 Card Games (Europe, Australia).bin" size 61149648 crc B9F41C34 md5 EF5CF69B894E3412B4CCAA6B9C39D79F sha1 E5912CD7D8D62F9F7ED3E762FECAB9218EE8683B serial "SLES-53357" )
 )
 game (
-	name "24 - The Game (Europe) (En,Fr,De,Es,It,Pl,Cs,Hu) (Beta)"
-	releaseyear "2005"
-	releasemonth "11"
-	releaseday "28"
-	region "Europe"
-	serial "SCES-53358/PREV"
-	rom ( name "24 - The Game (Europe) (En,Fr,De,Es,It,Pl,Cs,Hu) (Beta) (2005-11-28).iso" size 2198568960 crc 194F6EB6 md5 D17E34819D6D2E8A26DC2B1D90693BE6 sha1 73564CC648944C035F9C05AEE277CA36AEC52F9E serial "SCES-53358/PREV" )
-)
-game (
 	name "24 - The Game (Europe, Australia) (En,Fr,De,Es,It,Nl,Pl,Cs,Hu) (v1.00)"
 	region "Europe"
 	serial "SCES-53358"
@@ -477,15 +469,6 @@ game (
 	region "USA"
 	serial "SLUS-21016"
 	rom ( name "25 to Life (USA).iso" size 1903198208 crc 8BFC5C17 md5 459AE82EBAF56FB279427B1D48E52073 sha1 850DB07EA427798E7665C01BA2D9EB05AA198522 serial "SLUS-21016" )
-)
-game (
-	name "25 to Life (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "05"
-	releaseday "26"
-	region "USA"
-	serial "SLUS-29129"
-	rom ( name "25 to Life (USA) (Beta) (2005-05-26).iso" size 2323775488 crc DF2E4D82 md5 947772CE0E7AAF5C118CADA4B862DF0B sha1 C31E48435CA61C75F39C796B2AD8F0F182A892CE serial "SLUS-29129" )
 )
 game (
 	name "3 Title Special Disc - Saru! Get You! 2 & PoPoLoCrois - Hajimari no Bouken & Boku no Natsuyasumi 2 (Japan) (Taikenban)"
@@ -650,14 +633,6 @@ game (
 	rom ( name "7 Sins (Europe).bin" size 558505920 crc B0D7A8C5 md5 AB145F474B62AE74DCA553FE846227E2 sha1 7B35E9AECCBCB13B86EAE4C03A513756343E8A55 serial "SLES-53297" )
 )
 game (
-	name "7 Sins (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "29"
-	region "Europe"
-	rom ( name "7 Sins (Europe) (Beta) (2004-09-29).bin" size 380675904 crc A653832B md5 2D817ECF3B485DC26871D3E5CB290938 sha1 30757D949195CCC76A94205F1D699780A0BB0E9B )
-)
-game (
 	name "7 Sins (Europe) (Fr,Es,It)"
 	region "Europe"
 	serial "SLES-53280"
@@ -689,17 +664,17 @@ game (
 )
 game (
 	name "989 Sports (USA)"
-	releaseyear "2003"
-	region "USA"
-	serial "SCUS-94677"
-	rom ( name "989 Sports (USA) (2003).bin" size 663402768 crc 729594C2 md5 1F4EF4BA404B2DFE3510C7C11229E82F sha1 17BC0315BD9388C3FA74516F2E39C3528A0DECBC serial "SCUS-94677" )
-)
-game (
-	name "989 Sports (USA)"
 	releaseyear "2004"
 	region "USA"
 	serial "SCUS-97373"
 	rom ( name "989 Sports (USA) (2004).iso" size 3694166016 crc 0A4957DE md5 14CC850859FD13AE89967624ADB47244 sha1 F62065139192436CF2202078CE6C9CB65F2D2598 serial "SCUS-97373" )
+)
+game (
+	name "989 Sports (USA) (Alt 1)"
+	releaseyear "2003"
+	region "USA"
+	serial "SCUS-94677"
+	rom ( name "989 Sports (USA) (2003).bin" size 663402768 crc 729594C2 md5 1F4EF4BA404B2DFE3510C7C11229E82F sha1 17BC0315BD9388C3FA74516F2E39C3528A0DECBC serial "SCUS-94677" )
 )
 game (
 	name "A Ressha de Ikou 2001 (Japan)"
@@ -852,15 +827,6 @@ game (
 	rom ( name "AFL Premiership 2007 (Australia).iso" size 2003828736 crc DD4A77A1 md5 A47B39D23CD172FDD3D04A957A74A544 sha1 07D91224B9A4691E5EDB9D7D8340869407856119 serial "SCES-54639/ANZ" )
 )
 game (
-	name "AH-64D Apache (Japan) (Beta)"
-	releaseyear "2003"
-	releasemonth "03"
-	releaseday "26"
-	region "Japan"
-	serial "SLPS-20000"
-	rom ( name "AH-64D Apache (Japan) (Beta) (2003-03-26).bin" size 163861488 crc 85D69E1D md5 DCB00FC4E79EA1210143A9AFF085C466 sha1 C0B9BC4CC89EE8A1E9243C3F090ACD090EE657E5 serial "SLPS-20000" )
-)
-game (
 	name "AI Igo 2003 (Japan)"
 	region "Japan"
 	serial "SLPM-62329"
@@ -963,15 +929,6 @@ game (
 	rom ( name "ATV Offroad Fury 2 (Europe, Australia).iso" size 4487184384 crc D25AF850 md5 B9F7DA46A8369B04F00C34ECB3E6C79F sha1 18D10719659162AB9843A1A018AF506EDE08352A serial "SLES-51814-ANZ" )
 )
 game (
-	name "ATV Offroad Fury 2 (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "10"
-	releaseday "29"
-	region "USA"
-	serial "SCUS-97211"
-	rom ( name "ATV Offroad Fury 2 (USA) (Beta) (2002-10-29).iso" size 4487442432 crc 164C8BC5 md5 0AF9C50F6860FD17A79049CFA8F469E3 sha1 4ECC7A7D791BE0B6B6208F5689708CB0B06C9424 serial "SCUS-97211" )
-)
-game (
 	name "ATV Offroad Fury 2 (USA) (v1.00)"
 	region "USA"
 	serial "SCUS-97211"
@@ -1020,15 +977,6 @@ game (
 	rom ( name "ATV Offroad Fury 3 (USA).iso" size 4410015744 crc 215D7064 md5 2A24992030F06FCABCDE036A6A2193EE sha1 5BAB685C4C27C0D10E34F1AD6143A30508041FA5 serial "SLUS-97405" )
 )
 game (
-	name "ATV Offroad Fury 3 (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "22"
-	region "USA"
-	serial "SCUS-97405"
-	rom ( name "ATV Offroad Fury 3 (USA) (Beta) (2004-08-22).iso" size 2518745088 crc BF181965 md5 062C89E675C3C11F4975F00634DA77E0 sha1 C0F52457D7E2896E4E1E89987EE05531D53B172C serial "SCUS-97405" )
-)
-game (
 	name "ATV Offroad Fury 4 (Europe) (En,Fr,De,Es,It,Pt,Pl,Ru,El)"
 	region "Europe"
 	serial "SCES-54688"
@@ -1045,24 +993,6 @@ game (
 	region "USA"
 	serial "SCUS-97579"
 	rom ( name "ATV Offroad Fury 4 (USA) (Demo 2).iso" size 1571356672 crc 84E9C724 md5 5CA7F063D1986B899E2F363532846D55 sha1 340C91CCAF786A3416EA35F50FD75F452779E43D serial "SCUS-97579" )
-)
-game (
-	name "ATV Offroad Fury 4 (USA) (Layer 0) (Beta)"
-	releaseyear "2006"
-	releasemonth "10"
-	releaseday "02"
-	region "USA"
-	serial "SCUS-97479"
-	rom ( name "ATV Offroad Fury 4 (USA) (Layer 0) (Beta) (2006-10-02).iso" size 4125229056 crc 318A06CA md5 7BF6A03B64B0ABAB944F9D8D521E0672 sha1 B1ED9A2F0F8CC94899C4184C679029D62A5BC2E9 serial "SCUS-97479" )
-)
-game (
-	name "ATV Offroad Fury 4 (USA) (Layer 1) (Beta)"
-	releaseyear "2006"
-	releasemonth "10"
-	releaseday "02"
-	region "USA"
-	serial "SCUS-97479"
-	rom ( name "ATV Offroad Fury 4 (USA) (Layer 1) (Beta) (2006-10-02).iso" size 3756916736 crc 1B084E10 md5 084751B50D3F041F670D83CE8FA54C8C sha1 880194B664B8E5D8A53A5F27EBEF3DAA0A3B19B5 serial "SCUS-97479" )
 )
 game (
 	name "ATV Offroad Fury 4 (USA, Canada)"
@@ -1101,15 +1031,6 @@ game (
 	rom ( name "Abarenbou Princess (Japan) (Taikenban).iso" size 2094497792 crc 63C6F865 md5 6722508657ABB672C13E97D934BF0B16 sha1 BA4A38E1BF234C3FBAF83A533DE902CA5E8EF46A serial "SLPM-61018" )
 )
 game (
-	name "Ace Combat - Distant Thunder (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "15"
-	region "Europe"
-	serial "SCES-50410"
-	rom ( name "Ace Combat - Distant Thunder (Europe) (Beta) (2001-11-15).iso" size 3592486912 crc E5BD0D34 md5 EFD0BEA98E06813352261FAB5B3E7927 sha1 5B9A46138EF9FC4A2330ABAEE32EB5F80EBCF347 serial "SCES-50410" )
-)
-game (
 	name "Ace Combat - Distant Thunder (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-50410"
@@ -1138,15 +1059,6 @@ game (
 	region "Europe"
 	serial "SCES-52424/FRE"
 	rom ( name "Ace Combat - Squadron Leader (Europe, Australia) (En,Fr,De,Es,It).iso" size 3883565056 crc 03ACD210 md5 203D76050B083CAE31794892F9969147 sha1 0AD79C8763AD3BA27F833F45CA3D5D02E191182E serial "SCES-52424/FRE" )
-)
-game (
-	name "Ace Combat - The Belkan War (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "01"
-	region "Europe"
-	serial "SCES-54041"
-	rom ( name "Ace Combat - The Belkan War (Europe) (Beta) (2006-06-01).iso" size 4571201536 crc 16790F3F md5 D1D9CF1FC12813C694BFC33F7F2511D6 sha1 2EED2393F699CCD886428D98753A6AF02B889A82 serial "SCES-54041" )
 )
 game (
 	name "Ace Combat - The Belkan War (Europe, Australia) (En,Fr,De,Es,It)"
@@ -1756,22 +1668,6 @@ game (
 	rom ( name "Aeon Flux (USA).iso" size 2639790080 crc 45085609 md5 298A476F7821CC5BA06791F0E75DD0FE sha1 C57A47582A8C7E99A00ADDA258C8721EB1BEFC90 serial "SLUS-21205" )
 )
 game (
-	name "Aeon Flux (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "28"
-	region "USA"
-	rom ( name "Aeon Flux (USA) (Beta) (2005-06-28).iso" size 1448019968 crc D16C0540 md5 191083897D9C425105CC56D8DE4331B9 sha1 F17762F794B9A913E7EAC194CF5670DA946C9894 )
-)
-game (
-	name "Aeon Flux (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "10"
-	releaseday "24"
-	region "USA"
-	rom ( name "Aeon Flux (USA) (Beta) (2005-10-24).iso" size 2618818560 crc 557B7D23 md5 DFC8F0C639E51D6E52A7B48D12967263 sha1 4893C44AA240BC1433FA6250EC2F9234A0872E5D )
-)
-game (
 	name "Aero Dancing 4 - New Generation (Japan)"
 	region "Japan"
 	serial "SLPM-65150"
@@ -2014,15 +1910,6 @@ game (
 	region "Japan"
 	serial "SLPM-65409"
 	rom ( name "Air Ranger 2 Plus - Rescue Helicopter (Japan).iso" size 4698767360 crc 07F04C5D md5 099BEB11A7D4280A0093CF32415AAB92 sha1 3E3E3860EFE54743BF8311CA608F7C3C961664C7 serial "SLPM-65409" )
-)
-game (
-	name "AirBlade (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "16"
-	region "Europe"
-	serial "SCES-50246"
-	rom ( name "AirBlade (Europe) (En,Fr,De,Es,It) (Beta) (2001-09-16).iso" size 1810954240 crc B2C900D6 md5 BB2DC8BE8FE791D8E9644C33D92F5DC1 sha1 142ABF270B93CDC436A6EB6DF197A845CF9DA020 serial "SCES-50246" )
 )
 game (
 	name "AirBlade (Europe, Australia) (En,Fr,De,Es,It)"
@@ -2570,15 +2457,6 @@ game (
 	rom ( name "American Tail, An (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).bin" size 219385152 crc 63190B84 md5 5F900B2E02A059C629855BEAAE08007F sha1 ACAC79D436C9FD023B3B7C51B8A541CAB7D4AE02 serial "SLES-54626" )
 )
 game (
-	name "Amplitude (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "05"
-	releaseday "27"
-	region "Europe"
-	serial "SCES-51706"
-	rom ( name "Amplitude (Europe) (Beta) (2003-05-27).iso" size 2319515648 crc 9A42728A md5 94AA87D7B91BCB90F907E6D865581E81 sha1 530A76E0F4B94CFFB99A5F078A5E0EE89C05E5B9 serial "SCES-51706" )
-)
-game (
 	name "Amplitude (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-51706"
@@ -2945,15 +2823,6 @@ game (
 	rom ( name "Ape Escape 2 (France).iso" size 1805942784 crc 7E6A8610 md5 7BC70E39902B10A53047C1F6BBCF4517 sha1 F016811F4DB8FA8D7149B5437C12B89810ADC50B serial "SCES-51102" )
 )
 game (
-	name "Ape Escape 2 (France) (Beta)"
-	releaseyear "2002"
-	releasemonth "10"
-	releaseday "28"
-	region "France"
-	serial "SCES-51102"
-	rom ( name "Ape Escape 2 (France) (Beta) (2002-10-28).iso" size 1806204928 crc 9DBC3C4A md5 87899355660568295EAA145D61F0FA92 sha1 9DAC8389D58586B3C8BBE1D212B415EBFB6714AB serial "SCES-51102" )
-)
-game (
 	name "Ape Escape 2 (Germany)"
 	region "Germany"
 	serial "SCES-51104"
@@ -2988,15 +2857,6 @@ game (
 	region "Europe"
 	serial "SCES-53642"
 	rom ( name "Ape Escape 3 (Europe) (En,Fr,De,Es,It).iso" size 3947397120 crc C40E770A md5 4F1D25AD84A810944A863829D11EA312 sha1 70D0BE332531DDDC12157B4308D1FC1A040F1EF0 serial "SCES-53642" )
-)
-game (
-	name "Ape Escape 3 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "21"
-	region "Europe"
-	serial "SCES-53642"
-	rom ( name "Ape Escape 3 (Europe) (En,Fr,De,Es,It) (Beta) (2006-02-21).iso" size 3947397120 crc 1F91783E md5 F84BE6DB3AC27922EC32D4BF9C366AC8 sha1 DCFC8089E372A19463A98A820660C56CE05CB4CC serial "SCES-53642" )
 )
 game (
 	name "Ape Escape 3 (USA)"
@@ -3129,15 +2989,6 @@ game (
 	region "Europe"
 	serial "SCES-51910"
 	rom ( name "Arc - Twilight of the Spirits (Europe) (En,Fr,De,Es,It).iso" size 4458708992 crc AE7E5915 md5 873737D7B6B691CFB529F630A530AAF9 sha1 81DD5228D5C0F178C9F607D0D3BE112F336DD3F8 serial "SCES-51910" )
-)
-game (
-	name "Arc - Twilight of the Spirits (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "11"
-	releaseday "18"
-	region "Europe"
-	serial "SCES-51910"
-	rom ( name "Arc - Twilight of the Spirits (Europe) (En,Fr,De,Es,It) (Beta) (2003-11-18).iso" size 4458708992 crc F25C9264 md5 D78F449FC032AC9A20B5EC20B431733B sha1 6A679F59FCE782798305BB1979A479634235A104 serial "SCES-51910" )
 )
 game (
 	name "Arc the Lad - End of Darkness (USA)"
@@ -3578,15 +3429,6 @@ game (
 	rom ( name "Armored Core 2 (Europe).iso" size 3575349248 crc C50F19A2 md5 A92B947BD5DE69D60E4EBDB8443BFD20 sha1 AEB1447CA2A4A993F707B88EDBBFC01779EA9531 serial "SLES-50079" )
 )
 game (
-	name "Armored Core 2 (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "11"
-	releaseday "13"
-	region "Europe"
-	serial "SLES-50079"
-	rom ( name "Armored Core 2 (Europe) (Beta) (2000-11-13).iso" size 3575349248 crc E439C56E md5 ABB37956D1ED6A7A19C79A8AE8030413 sha1 03C763AE923DDC5F899D6172C1B84A0B24CF97F6 serial "SLES-50079" )
-)
-game (
 	name "Armored Core 2 (Japan)"
 	region "Japan"
 	serial "SLPS-25007"
@@ -3603,14 +3445,6 @@ game (
 	region "USA"
 	serial "SLUS-20014"
 	rom ( name "Armored Core 2 (USA).iso" size 3546906624 crc F4C00F6E md5 E5EE46238EEA5CB7DAFEA722B19AF077 sha1 0A545D977A61ED4A45CB691F3EE6FBBAA8F0F321 serial "SLUS-20014" )
-)
-game (
-	name "Armored Core 2 (USA) (Beta)"
-	releaseyear "2000"
-	releasemonth "08"
-	releaseday "29"
-	region "USA"
-	rom ( name "Armored Core 2 (USA) (Beta) (2000-08-29).iso" size 3547561984 crc 81A2B92B md5 B2EC1A4F63287D9F1B60C9171CECB946 sha1 D672A16BC3910A8BB5DF311FC274BB211AC6274B )
 )
 game (
 	name "Armored Core 2 - Another Age (Asia)"
@@ -4003,15 +3837,6 @@ game (
 	rom ( name "Atelier Iris - Eternal Mana (Europe).iso" size 2669969408 crc 355F1080 md5 D53CD25027F012A68374C24C22B17CFF sha1 512F0087ED21691BD5BFB6418A498CE4F110DCBC serial "SLES-53764" )
 )
 game (
-	name "Atelier Iris - Eternal Mana (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "01"
-	releaseday "04"
-	region "Europe"
-	serial "SLES-53764"
-	rom ( name "Atelier Iris - Eternal Mana (Europe) (Beta) (2006-01-04).iso" size 2669969408 crc AAAF9C70 md5 7CD7C95D47907EEE2671FB2FD973A42B sha1 DBE1BC3C29B269453FB1BE8111019107D26785ED serial "SLES-53764" )
-)
-game (
 	name "Atelier Iris - Eternal Mana (USA)"
 	region "USA"
 	serial "SLUS-21113"
@@ -4156,24 +3981,6 @@ game (
 	rom ( name "Auto Modellista (USA).iso" size 1528102912 crc BB688A91 md5 8D68ED9D5D205F48F6D1F714B8A11C7A sha1 90D4E58DEC955B6FCC6322A091E34FD3AC926733 serial "SLUS-20642" )
 )
 game (
-	name "Auto Modellista (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "12"
-	releaseday "10"
-	region "USA"
-	serial "SLUS-20498"
-	rom ( name "Auto Modellista (USA) (Beta) (2002-12-10).iso" size 1432420352 crc D7DD713C md5 B4C99D9335FAD4339618A2F9F7F5B9DB sha1 ECCAA8CB03BC92D18A28EE6CFD2D51B878D519F1 serial "SLUS-20498" )
-)
-game (
-	name "Auto Modellista (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "01"
-	releaseday "27"
-	region "USA"
-	serial "SLUS-28031"
-	rom ( name "Auto Modellista (USA) (Beta) (2003-01-27).iso" size 1528266752 crc B9AEBDF0 md5 6728A222054C2CF005B4D7933C8AEAB9 sha1 825860C21D450B2B5E6A63C9070CEF45445C5E63 serial "SLUS-28031" )
-)
-game (
 	name "Auto Modellista - U.S.-Tuned (Japan)"
 	region "Japan"
 	serial "SLPM-65286"
@@ -4292,15 +4099,6 @@ game (
 	region "USA"
 	serial "SLUS-20415"
 	rom ( name "BMX XXX (USA).iso" size 1531379712 crc 0DF3F4D1 md5 42095C66039568BC5443544B98058C25 sha1 162211765E23832A13F843D3835ED0663C8B5C99 serial "SLUS-20415" )
-)
-game (
-	name "BMX XXX (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "10"
-	releaseday "10"
-	region "USA"
-	serial "SLUS-20415"
-	rom ( name "BMX XXX (USA) (Beta) (2002-10-10).iso" size 1591312384 crc 1406CBAF md5 D27C274734F814D81D0C777D8044B214 sha1 6107F9130146AA1FDEA29907CF58BB12E5A8E438 serial "SLUS-20415" )
 )
 game (
 	name "Babe (Australia)"
@@ -4921,15 +4719,6 @@ game (
 	rom ( name "Batman - Vengeance (Europe) (En,Fr,De,Es,It,Nl).iso" size 733118464 crc 7BF9EDBE md5 30B45E8132E814C003BE75263B7ECD01 sha1 9FF7266BBAAED120785691F0F7586A1F63D58285 serial "SLES-50355" )
 )
 game (
-	name "Batman - Vengeance (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "07"
-	region "Europe"
-	serial "SLES-50355"
-	rom ( name "Batman - Vengeance (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2001-09-07).iso" size 733118464 crc 9472C5BE md5 78A90ECA93D5FDCFC8BFFDE172A6EFDD sha1 8BDEA7A859EE36BC37A804961835BE0867D703EC serial "SLES-50355" )
-)
-game (
 	name "Batman - Vengeance (USA) (En,Fr)"
 	region "USA"
 	serial "SLUS-20226"
@@ -5072,15 +4861,6 @@ game (
 	region "USA"
 	serial "SLUS-21026GH"
 	rom ( name "Battlefield 2 - Modern Combat (USA).iso" size 3614113792 crc 7EF88D2B md5 7C2E28907800529B686DE0F4CBA286E2 sha1 E19017C10ED2FA3116E5E1F4D1F5A67829394FBD serial "SLUS-21026GH" )
-)
-game (
-	name "Battlefield 2 - Modern Combat (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "19"
-	region "USA"
-	serial "SLUS-29117"
-	rom ( name "Battlefield 2 - Modern Combat (USA) (Beta) (2005-01-19).iso" size 1358823424 crc 5BB7FFC2 md5 BDB385070A84F30E902131CB229D35A8 sha1 ED6B94CCB92A8311557610932E9CFA4F32736CDA serial "SLUS-29117" )
 )
 game (
 	name "Battlefield 2 - Modern Combat (USA) (Demo 1)"
@@ -5401,14 +5181,6 @@ game (
 	rom ( name "Beyond Good & Evil (USA) (En,Fr,Es).iso" size 2070544384 crc 0FC8D585 md5 DBB65210E86ADFA7ADAFA29912CFE851 sha1 59C33660EE43722C68C11DB581BB7B36E9E73BD6 serial "SLUS-20763" )
 )
 game (
-	name "Beyond Good & Evil (USA) (En,Fr,Es) (Beta)"
-	releaseyear "2003"
-	releasemonth "10"
-	releaseday "14"
-	region "USA"
-	rom ( name "Beyond Good & Evil (USA) (En,Fr,Es) (Beta) (2003-10-14).iso" size 2070544384 crc 4DEF973E md5 6AAA066979E0265FD8575A374C2A1A62 sha1 E921BFDA9187761DCB504FF40AB3D995A66B35DF )
-)
-game (
 	name "Bible Game, The (Europe) (En,Fr,It)"
 	region "Europe"
 	serial "SLES-54023"
@@ -5697,15 +5469,6 @@ game (
 	rom ( name "Black & Bruised (USA) (Trade Demo).bin" size 232401120 crc 6DFAA217 md5 D2E78332F91F9C1ED503E44DC463F8E7 sha1 984767C40C259A1A695C195A3583FED829E2ADD4 serial "SLUS-28027" )
 )
 game (
-	name "Black (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "01"
-	releaseday "09"
-	region "Europe"
-	serial "SLES-53886"
-	rom ( name "Black (Europe) (Beta) (2006-01-09).iso" size 3914596352 crc DC54BA0B md5 0F1758117938C27766F9C57DCB227C88 sha1 FB4CCA47B4B8AF7925357152331710B5E00C6AD0 serial "SLES-53886" )
-)
-game (
 	name "Black (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-53886"
@@ -5770,14 +5533,6 @@ game (
 	region "USA"
 	serial "SLUS-21376GH"
 	rom ( name "Black (USA).iso" size 3919609856 crc 3A92E548 md5 C74D48888CF2F19DAEAB17C87E9878A8 sha1 83A2ED80784A7456CA46087D2640F6597EBC0D38 serial "SLUS-21376GH" )
-)
-game (
-	name "Black (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "16"
-	region "USA"
-	rom ( name "Black (USA) (Beta) (2005-08-16).bin" size 321584256 crc 512640C4 md5 8BD0FC2625CFCC9384DA17EF7C141A9E sha1 D8940C5753FEDEE72A890765BAE4DADCED92BDCA )
 )
 game (
 	name "Black Buccaneer (Europe) (En,Fr,De,Es,It)"
@@ -6971,15 +6726,6 @@ game (
 	rom ( name "Brunswick Pro Bowling (USA).iso" size 1249804288 crc 078489A1 md5 F7A65D7FFCFEC0B6A2977CE6FE3DB1D9 sha1 0A472EBA2A8B6990D4E4E8ACF3F14CC62BCC52E7 serial "SLUS-21566" )
 )
 game (
-	name "Brunswick Pro Bowling (USA) (Beta)"
-	releaseyear "2007"
-	releasemonth "04"
-	releaseday "02"
-	region "USA"
-	serial "SLUS-21566"
-	rom ( name "Brunswick Pro Bowling (USA) (Beta) (2007-04-02).iso" size 1375141888 crc B3B1DBE5 md5 06D8BBE2F6EFD58FA1FC47840D90A2A4 sha1 96642F2384AFDE98D259F5331D045BC75C091638 serial "SLUS-21566" )
-)
-game (
 	name "Buccaneer (Europe)"
 	region "Europe"
 	serial "SLES-54476"
@@ -7014,14 +6760,6 @@ game (
 	region "Japan"
 	serial "SLPM-60157"
 	rom ( name "BuileBaku (Japan) (Taikenban).bin" size 423868032 crc D9F00000 md5 05B1B2C73C5876F95914E8EAE0094918 sha1 0A68B51149F6891C45F318242CEE19C05E4FD64D serial "SLPM-60157" )
-)
-game (
-	name "Bujingai (Japan) (Beta)"
-	releaseyear "2003"
-	releasemonth "11"
-	releaseday "02"
-	region "Japan"
-	rom ( name "Bujingai (Japan) (Beta) (2003-11-02).iso" size 4653023232 crc CF85D0F3 md5 7CBD08842A6944319D8C0574894AF0F2 sha1 D08A8A088AF960004085541082182384C84EDED9 )
 )
 game (
 	name "Bujingai (Japan) (Taikenban)"
@@ -7100,15 +6838,6 @@ game (
 	region "USA"
 	serial "SLUS-28006"
 	rom ( name "Burnout (USA) (Trade Demo).bin" size 582926736 crc 3E62A16E md5 69043838B1CF6A5CB8AC94F42729145D sha1 E6E43FD4014C6B2DDC2BF5EE660F08BD4098E55F serial "SLUS-28006" )
-)
-game (
-	name "Burnout 2 - Point of Impact (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "31"
-	region "Europe"
-	serial "SLES-51044"
-	rom ( name "Burnout 2 - Point of Impact (Europe) (En,Fr,De,Es,It) (Beta) (2002-08-31).iso" size 4132634624 crc 368B5CE6 md5 A5C8BD4F847FBCD0350D92410B0156B4 sha1 13B2CCCE68313B959C111903FC493B863CE4B117 serial "SLES-51044" )
 )
 game (
 	name "Burnout 2 - Point of Impact (Europe) (En,Fr,De,Es,It) (SLES-52968)"
@@ -7744,24 +7473,6 @@ game (
 	rom ( name "Buzz! Junior - Monster Rumble (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt).iso" size 3487301632 crc 5E66C765 md5 2EE3CB1ADB344DA3C7593F153370A0C1 sha1 A5AFB97FC52BAC984C7B93F07DBBF4F0201B2B65 serial "SCES-54625/GER" )
 )
 game (
-	name "Buzz! Junior - RoboJam (Europe) (Beta)"
-	releaseyear "2007"
-	releasemonth "01"
-	releaseday "12"
-	region "Europe"
-	serial "SCES-54676"
-	rom ( name "Buzz! Junior - RoboJam (Europe) (Beta) (2007-01-12).iso" size 1670316032 crc F8624C23 md5 739A2F519751C64F7291D036105C2C0D sha1 7C0DA398DC24CCF20CE00061DEED1E2C34C7174F serial "SCES-54676" )
-)
-game (
-	name "Buzz! Junior - RoboJam (Europe) (En,Fr,De,Es,It,Nl,Pt) (Beta)"
-	releaseyear "2007"
-	releasemonth "03"
-	releaseday "14"
-	region "Europe"
-	serial "SCES-54676/REVIEW"
-	rom ( name "Buzz! Junior - RoboJam (Europe) (En,Fr,De,Es,It,Nl,Pt) (Beta) (2007-03-14).iso" size 3104604160 crc DD8F9417 md5 5FA94CA9B96E6F11D410F7DBC48A0575 sha1 77677AA61AD7560711C33EB07F684EF2325DC9A2 serial "SCES-54676/REVIEW" )
-)
-game (
 	name "Buzz! Junior - RoboJam (Europe) (En,Sv,No,Da,Fi,Pl,Ru,El)"
 	region "Europe"
 	serial "SCES-54701"
@@ -7953,15 +7664,6 @@ game (
 	rom ( name "Buzz! The Hollywood Quiz (Europe, Australia).iso" size 4317872128 crc 2128FEB9 md5 219D96F6C4095D390AC218412DF83A49 sha1 C26DE71BFED0C16DE0B2E95EF9DB31F8308A62A9 serial "SCES-54844/ANZ" )
 )
 game (
-	name "Buzz! The Hollywood Quiz (Europe, Australia) (Beta)"
-	releaseyear "2007"
-	releasemonth "08"
-	releaseday "30"
-	region "Europe"
-	serial "SCES-54844"
-	rom ( name "Buzz! The Hollywood Quiz (Europe, Australia) (Beta) (2007-08-30).iso" size 4317872128 crc F10AC374 md5 3DE4A0330623DD89DE6D1BBF963B172C sha1 B174CD7CDBFDF450437C0479E3A8FDAB1CD46BD5 serial "SCES-54844" )
-)
-game (
 	name "Buzz! The Hollywood Quiz (Scandinavia) (Sv,No,Da)"
 	serial "SCES-54851"
 	rom ( name "Buzz! The Hollywood Quiz (Scandinavia) (Sv,No,Da).iso" size 4664000512 crc 4629E526 md5 EF5835974C6044511A6131A553309B0B sha1 967965CCECA8565000AF97E1B445F21EC1ED667D serial "SCES-54851" )
@@ -8140,15 +7842,6 @@ game (
 	region "Europe"
 	serial "SCES-54258"
 	rom ( name "Buzz! The Sports Quiz (Europe).iso" size 2855731200 crc 6833086B md5 3A7C4B0BAFB5819166D1A2E20B206554 sha1 67DFDFD4AF0B720C2B936C4AACB1E9D1DF5FDEA9 serial "SCES-54258" )
-)
-game (
-	name "Buzz! The Sports Quiz (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "09"
-	releaseday "07"
-	region "Europe"
-	serial "SCES-54258"
-	rom ( name "Buzz! The Sports Quiz (Europe) (Beta) (2006-09-07).iso" size 2855731200 crc B1A32731 md5 9DE7EEA1DBB60D8C37FCC1134DFD1E3C sha1 2D6F32D27EAA364B349DC0F9E29C7D295EB82AA8 serial "SCES-54258" )
 )
 game (
 	name "Buzz! The Sports Quiz (Europe) (SCES-54269)"
@@ -8456,16 +8149,16 @@ game (
 )
 game (
 	name "Cabela's Outdoor Adventures (USA)"
-	region "USA"
-	serial "SLUS-21192"
-	rom ( name "Cabela's Outdoor Adventures (USA).iso" size 4450123776 crc E04CD846 md5 A628A6461AD500032997E934AE57C0AD sha1 138DA1ECA50770646C1C91F02F7AD5EEA402C5B2 serial "SLUS-21192" )
-)
-game (
-	name "Cabela's Outdoor Adventures (USA)"
 	releaseyear "2009"
 	region "USA"
 	serial "SLUS-21906"
 	rom ( name "Cabela's Outdoor Adventures (USA) (2009).iso" size 4450287616 crc 31DF4E4A md5 524B19C6C6ED025E42ACC952D70BFC49 sha1 D2CBB5B1876B5749CB99ACB7894F66BB002C58CD serial "SLUS-21906" )
+)
+game (
+	name "Cabela's Outdoor Adventures (USA) (Alt 1)"
+	region "USA"
+	serial "SLUS-21192"
+	rom ( name "Cabela's Outdoor Adventures (USA).iso" size 4450123776 crc E04CD846 md5 A628A6461AD500032997E934AE57C0AD sha1 138DA1ECA50770646C1C91F02F7AD5EEA402C5B2 serial "SLUS-21192" )
 )
 game (
 	name "Cabela's Trophy Bucks (USA)"
@@ -8792,15 +8485,6 @@ game (
 	rom ( name "Capcom Fighting Evolution (USA).iso" size 2372730880 crc 6DED3795 md5 8F3C71C47F8D13E21CD12E172E981701 sha1 2A435F8B7FD3FFD147E4F3E9C3BB44D2197DD6B6 serial "SLUS-20950" )
 )
 game (
-	name "Capcom Fighting Jam (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "10"
-	releaseday "29"
-	region "Europe"
-	serial "SLES-52854"
-	rom ( name "Capcom Fighting Jam (Europe) (Beta) (2004-10-29).iso" size 2372075520 crc A3485592 md5 4D127BCADA70256CADF8F6FA031E85A7 sha1 F1C26DC880F3E99CFDCCD992959AB1BA60C3482C serial "SLES-52854" )
-)
-game (
 	name "Capcom Fighting Jam (Europe, Australia)"
 	region "Europe"
 	serial "SLES-52854"
@@ -8853,15 +8537,6 @@ game (
 	region "Japan"
 	serial "SLPM-74402"
 	rom ( name "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan).iso" size 223936512 crc BEC10FE5 md5 9A05EEB10C0E06D16EE3C9ECBF6F0384 sha1 0A0CC8964C4AD776DA092126B3158E0F7BFAB9BF serial "SLPM-74402" )
-)
-game (
-	name "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan) (Beta)"
-	releaseyear "2001"
-	releasemonth "07"
-	releaseday "24"
-	region "Japan"
-	serial "SLPM-65047"
-	rom ( name "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan) (Beta) (2001-07-24).bin" size 257278224 crc 203FB0E0 md5 D96E9A3679C12063701F7390EDCB2D03 sha1 CAC596CABD91E28EB1598B0A321D08C1E1992617 serial "SLPM-65047" )
 )
 game (
 	name "Captain Scarlet (Europe) (En,Fr,De,Es,It,Nl)"
@@ -9238,15 +8913,6 @@ game (
 	region "USA"
 	serial "SLUS-20565"
 	rom ( name "Champions of Norrath (USA).iso" size 8319303680 crc 21CF5560 md5 35C9FEB77A5D0927286938C83FF71A3D sha1 F0B5CA74E7D54915304431F0B2B7DCE58EA70A0D serial "SLUS-20565" )
-)
-game (
-	name "Champions of Norrath - Realms of EverQuest (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "10"
-	releaseday "29"
-	region "USA"
-	serial "SLUS-29085"
-	rom ( name "Champions of Norrath - Realms of EverQuest (USA) (Beta) (2003-10-29).iso" size 4658987008 crc E8B26693 md5 4663D817B80F96793B94977FE39B3684 sha1 648B7A6D5EEE981DC30FDE71880A8F0485D630A3 serial "SLUS-29085" )
 )
 game (
 	name "Championship Manager 2006 (Europe) (En,Fr,Es,It,Pt)"
@@ -10352,15 +10018,6 @@ game (
 	rom ( name "Cold Winter (USA).iso" size 3612278784 crc AA1ABAA7 md5 B079A501C0654C547E90572055D70D89 sha1 02AB1458DD973E92090C617CA3A3CE2F1F9AF52A serial "SLUS-20845" )
 )
 game (
-	name "Cold Winter (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "02"
-	releaseday "09"
-	region "USA"
-	serial "SLUS-20845"
-	rom ( name "Cold Winter (USA) (Beta) (2005-02-09).iso" size 3612278784 crc 9E10263A md5 2396E55B5D9FB58533101B6CA2FC3A03 sha1 D0E5F39121EED297BA1DCFF92028C7442399FAAF serial "SLUS-20845" )
-)
-game (
 	name "Colin McRae Rally 04 (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-51824"
@@ -10475,15 +10132,6 @@ game (
 	rom ( name "Colosseum - Road to Freedom (USA).iso" size 2951675904 crc 989643F8 md5 1D4577E64E2DC1CB3EFF77C15AE314C5 sha1 EBC2B79BB1FD3B2C210F2877E8ABD0F6D3A1D9C7 serial "SLUS-21179" )
 )
 game (
-	name "Colosseum - Road to Freedom (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "03"
-	releaseday "17"
-	region "USA"
-	serial "SLUS-21179"
-	rom ( name "Colosseum - Road to Freedom (USA) (Beta) (2005-03-17).iso" size 2944237568 crc 2FF0A4BA md5 2F6CC4AB09E2EF579B311AA2B4980C5B sha1 4F0C8CF879A4FC30F8DFA982D94C1700D6055526 serial "SLUS-21179" )
-)
-game (
 	name "Combat Ace (Europe)"
 	region "Europe"
 	serial "SLES-53924"
@@ -10521,15 +10169,6 @@ game (
 	region "Korea"
 	serial "SCKA-10006"
 	rom ( name "Come on Baby (Korea).bin" size 489872208 crc 56019FFB md5 A417B27C7AA009DFA7D34BCEF20ACC7F sha1 88F650CEDB27E8C4546E9B68B3DB4F5143F5B402 serial "SCKA-10006" )
-)
-game (
-	name "Commandos - Strike Force (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "02"
-	releaseday "28"
-	region "Europe"
-	serial "TLES-52768"
-	rom ( name "Commandos - Strike Force (Europe) (Beta) (2005-02-28).iso" size 1492123648 crc 68CFC08A md5 11B0A22F3921996D629FA71C229EEBE5 sha1 2EBFAE38EA1E5A59ABDBC80170B538B8CEC1D32E serial "TLES-52768" )
 )
 game (
 	name "Commandos - Strike Force (Europe) (En,Fr,De,Es,It)"
@@ -10904,15 +10543,6 @@ game (
 	rom ( name "Crabby Adventure (Europe).bin" size 64061424 crc 40B75DC7 md5 1F69DA480545395E6F362962390EB7DE sha1 A6FE3A98954B68EDE59F2080FEA3F3719C7C54B0 serial "SLES-54865" )
 )
 game (
-	name "Crash 'n' Burn (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "12"
-	region "Europe"
-	serial "TLES-52339"
-	rom ( name "Crash 'n' Burn (Europe) (Beta) (2004-08-12).iso" size 1709277184 crc 8B37AC5E md5 2D4D8616834FE712D7CD2C29EBEEDDC7 sha1 485BA026AED781670C08622A5677C279E81C7670 serial "TLES-52339" )
-)
-game (
 	name "Crash 'n' Burn (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-52339"
@@ -10923,15 +10553,6 @@ game (
 	region "USA"
 	serial "SLUS-21013"
 	rom ( name "Crash 'n' Burn (USA).iso" size 1809776640 crc EF004301 md5 C4AEA35CF296B09A1B05AC7D9F0EF3C3 sha1 D957C23C4297B9093D25F0DDA2C70B1D40917AAE serial "SLUS-21013" )
-)
-game (
-	name "Crash 'n' Burn (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "13"
-	region "USA"
-	serial "SLUS-29130"
-	rom ( name "Crash 'n' Burn (USA) (Beta) (2004-08-13).bin" size 528275664 crc 257D0EAF md5 E747320FB280E6F80EED5D105DF40E7D sha1 DD86253524456297B1AF797E3ADFA1D1D3990D8D serial "SLUS-29130" )
 )
 game (
 	name "Crash - Mind over Mutant (Europe, Australia) (En,Fr,De,Es,It,Nl)"
@@ -11011,15 +10632,6 @@ game (
 	rom ( name "Crash Bandicoot - The Wrath of Cortex (Europe) (En,Fr,De,Es,It,Nl) (v2.01).bin" size 602516544 crc 5DECCFBD md5 1FF83FC2204C416594D10DD323127DCB sha1 72D27A5DF567D85C449A97A899460CA634EC35B1 serial "SLES-50386-P2" )
 )
 game (
-	name "Crash Bandicoot - The Wrath of Cortex (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "21"
-	region "USA"
-	serial "SLUS-20238"
-	rom ( name "Crash Bandicoot - The Wrath of Cortex (USA) (Beta) (2001-09-21).bin" size 534176832 crc 7FE4EDD7 md5 E10AB51A8E8296E42F99DA29D66850CF sha1 F86A9258AF1EB49BC64BD5B3210380BAA05F1E02 serial "SLUS-20238" )
-)
-game (
 	name "Crash Bandicoot - The Wrath of Cortex (USA) (v1.00)"
 	region "USA"
 	serial "SLUS-20238"
@@ -11078,15 +10690,6 @@ game (
 	region "USA"
 	serial "SLUS-20649P3"
 	rom ( name "Crash Nitro Kart (USA).iso" size 3207397376 crc 1B188942 md5 BEF83F169BA1E45490990890768A5948 sha1 9330ED1AC2D34E4E48D2D58BAD9C622AA4E4EC7F serial "SLUS-20649P3" )
-)
-game (
-	name "Crash Tag Team Racing (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "28"
-	region "Europe"
-	serial "SLUS-21191"
-	rom ( name "Crash Tag Team Racing (Europe) (Beta) (2005-09-28).iso" size 3533438976 crc 1F8009BD md5 8AAD0334046E16912F7FE19EA3BDB3DA sha1 7E4BF6E2157A1FE80A3EF2A0E8064AF69E325601 serial "SLUS-21191" )
 )
 game (
 	name "Crash Tag Team Racing (Europe, Australia) (En,Fr,De,Es,It,Nl)"
@@ -11380,24 +10983,6 @@ game (
 	region "USA"
 	serial "SLUS-20948"
 	rom ( name "Crimson Tears (USA).iso" size 3677978624 crc 1DA17D8E md5 3BCF3EBD23B1DFFD286819B267D3F0A1 sha1 4712872D8309EB1D82E4A7FD6F820E91A2645F1E serial "SLUS-20948" )
-)
-game (
-	name "Crisis Zone (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "06"
-	releaseday "18"
-	region "Europe"
-	serial "SCES-52530"
-	rom ( name "Crisis Zone (Europe) (Beta) (2004-06-18).iso" size 4043177984 crc 70BE08B3 md5 7F4262203F52498001498979852BE14C sha1 AF87AA56901C8E5F19B0DD77B4B1B9D8005B9CB9 serial "SCES-52530" )
-)
-game (
-	name "Crisis Zone (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "02"
-	region "Europe"
-	serial "SCES-52530"
-	rom ( name "Crisis Zone (Europe) (En,Fr,De,Es,It) (Beta) (2004-08-02).iso" size 4038688768 crc 3B4DA1BB md5 505C95C2E6C7087FFCA6AFFF43002562 sha1 51E5CC8FB188179C55A79621365969D5DB6A0ADE serial "SCES-52530" )
 )
 game (
 	name "Crisis Zone (Europe, Australia) (En,Fr,De,Es,It)"
@@ -12396,15 +11981,6 @@ game (
 	rom ( name "Dance Europe (Europe) (Fr,De,Es,It,Nl,Pt).bin" size 727031424 crc 6F5FEF4B md5 E907C69A34F8C98B6780ACD594CE0482 sha1 72C4F6023009A148758861C5795E26F6822F7267 serial "SLES-52107" )
 )
 game (
-	name "Dance Factory (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "06"
-	region "Europe"
-	serial "SLES-53009"
-	rom ( name "Dance Factory (Europe) (Beta) (2006-02-06) (Track 1).bin" size 151292400 crc 6E594702 md5 9F846200016222A43B97DCD2F7DA271F sha1 7C5662D590F3AF3D10C54C567188CA444656ABCB serial "SLES-53009" )
-)
-game (
 	name "Dance Factory (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-53009"
@@ -12482,15 +12058,6 @@ game (
 	region "Europe"
 	serial "SLES-52598"
 	rom ( name "Dancing Stage Fusion (Europe) (En,Fr,De,Es,It).iso" size 1288273920 crc 97373136 md5 5E8A1ED4CB069C4FFDBDB9B1BC4F3EF8 sha1 47729AFAD756B43CC9CC49AB4098C990093DDB4A serial "SLES-52598" )
-)
-game (
-	name "Dancing Stage Fusion (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "08"
-	region "Europe"
-	serial "SLES-52598"
-	rom ( name "Dancing Stage Fusion (Europe) (En,Fr,De,Es,It) (Beta) (2004-07-08).iso" size 1288239104 crc B3CC0189 md5 1EFEE833AF6425E974724B1434E53699 sha1 765C7C95125BB2100CC241C2DE410F2814936123 serial "SLES-52598" )
 )
 game (
 	name "Dancing Stage Max (Europe) (En,Fr,De,Es,It)"
@@ -12625,14 +12192,6 @@ game (
 	rom ( name "Dark Cloud 2 (Korea).iso" size 3424124928 crc 50946D6F md5 963A2A35E12236165889EA8488B51AA1 sha1 6A84D71E3312981EFB174EC912095286696B9C94 serial "SCKA-20014" )
 )
 game (
-	name "Dark Cloud 2 (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "01"
-	releaseday "06"
-	region "USA"
-	rom ( name "Dark Cloud 2 (USA) (Beta) (2003-01-06).iso" size 4438327296 crc A86F4439 md5 D3FA01EE25187C64E4761AC962B03657 sha1 8F94A02F15C616508CAE1E374F2AEE3FD88056C3 )
-)
-game (
 	name "Dark Cloud 2 (USA) (v1.00)"
 	region "USA"
 	serial "SCUS-97213"
@@ -12729,15 +12288,6 @@ game (
 	rom ( name "Dead Eye Jim (Europe).bin" size 153268080 crc 47409CB7 md5 4E3E4913498196F485777F3589CB4DF7 sha1 CC00AF73BD9D5A3F4E737CC66560305E1FE34B7C serial "SLES-54814" )
 )
 game (
-	name "Dead or Alive 2 (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "08"
-	region "Europe"
-	serial "SCES-50003"
-	rom ( name "Dead or Alive 2 (Europe) (Beta) (2000-09-08).iso" size 4541317120 crc 855060EA md5 F5E7CC8C89E3238A66306F073DE2119F sha1 61FE0A46AE76BE6D32624469F5DEA6B8851D549E serial "SCES-50003" )
-)
-game (
 	name "Dead or Alive 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-50003"
@@ -12760,15 +12310,6 @@ game (
 	region "Europe"
 	serial "SLES-51581"
 	rom ( name "Dead to Rights (Europe) (En,Fr,Es,It).iso" size 1853685760 crc 7E7F9F91 md5 007DA64EA4F55F2588FC37B30B3B6256 sha1 10026C423561DBF035ADCAFC5824B0036BAAFC73 serial "SLES-51581" )
-)
-game (
-	name "Dead to Rights (Europe) (En,Fr,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "04"
-	releaseday "25"
-	region "Europe"
-	serial "SLES-51581"
-	rom ( name "Dead to Rights (Europe) (En,Fr,Es,It) (Beta) (2003-04-25).iso" size 1853992960 crc 3698AFB8 md5 E0A76A2917C22DE4B03C5D45EBD22E14 sha1 63B628DDAF2D7E5ED2F79C182B3F57F4B42ABE95 serial "SLES-51581" )
 )
 game (
 	name "Dead to Rights (Japan, Asia)"
@@ -12913,15 +12454,6 @@ game (
 	region "USA"
 	serial "SLUS-20626"
 	rom ( name "Deer Hunter (USA).iso" size 3116892160 crc 16B79E83 md5 F71EF9DB14351AAABA7387CF6403EC41 sha1 22EEBBA85DE1805435B1CADBF7236E2D608040C2 serial "SLUS-20626" )
-)
-game (
-	name "Def Jam - Fight for NY (Europe) (En,Fr) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "13"
-	region "Europe"
-	serial "SLES-52507"
-	rom ( name "Def Jam - Fight for NY (Europe) (En,Fr) (Beta) (2004-08-13).iso" size 4698828800 crc B1C535B7 md5 370F10479796D8ED9FCBA1B40AC30DD9 sha1 A4E422860C3E74C78555171E9AACC53A5291473D serial "SLES-52507" )
 )
 game (
 	name "Def Jam - Fight for NY (Europe, Australia) (En,Fr)"
@@ -13644,15 +13176,6 @@ game (
 	rom ( name "Destruction Derby Arenas (Australia) (En,Fr,De,Es,It,Pt).iso" size 3269591040 crc B0256FE3 md5 7E06D362A3ED727C6B119214D6B07375 sha1 FDE6F36C503774D7C9D2AC6C4B81E8C07EA46463 serial "SCES-51979-ANZ" )
 )
 game (
-	name "Destruction Derby Arenas (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "09"
-	releaseday "05"
-	region "Europe"
-	serial "SCES-50781/1.00/BETA"
-	rom ( name "Destruction Derby Arenas (Europe) (Beta) (2003-09-05).iso" size 3268378624 crc 5DFBB6F3 md5 A3911CE5AD184DBD2F24178AAC98FEFA sha1 9C03A99E14659D61AA995308293E23BDABA66250 serial "SCES-50781/1.00/BETA" )
-)
-game (
 	name "Destruction Derby Arenas (Europe) (En,Fr,De,Es,It,Pt)"
 	region "Europe"
 	serial "SCES-50781"
@@ -13995,14 +13518,6 @@ game (
 	rom ( name "Devil May Cry 2 (USA) (Disc 2).iso" size 4698767360 crc 75A95355 md5 DF85B37886C73E8D3FEFDCCD3D18D9BA sha1 0BB3A5D5B0E73AC96AFC024C04A05770262A2E78 serial "SLUS-20627P3-1" )
 )
 game (
-	name "Devil May Cry 3 (Europe) (En,Ja,Fr,De,Es,It,Ko) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "11"
-	region "Europe"
-	rom ( name "Devil May Cry 3 (Europe) (En,Ja,Fr,De,Es,It,Ko) (Beta) (2005-01-11).iso" size 3864854528 crc B565A981 md5 683F37453D0AA35739C7215BAC9FABC9 sha1 DA4D02DCB45FE139678343A96B26709DAC2E2139 )
-)
-game (
 	name "Devil May Cry 3 (Japan) (En,Ja,Ko)"
 	region "Japan"
 	serial "SLPM-65880"
@@ -14295,15 +13810,6 @@ game (
 	region "Europe"
 	serial "SLES---54185/ANZ"
 	rom ( name "Dirge of Cerberus - Final Fantasy VII (Europe, Australia) (En,Fr,De,Es,It).iso" size 4188471296 crc 91F3FD11 md5 6C2A1DBE6F43764DC7699539A3B56EA6 sha1 EEB86455776D4CDA39C9BE5016693C0EE5DA8F6E serial "SLES---54185/ANZ" )
-)
-game (
-	name "Dirge of Cerberus - Final Fantasy VII (Japan) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "11"
-	region "Japan"
-	serial "SLPM-68016"
-	rom ( name "Dirge of Cerberus - Final Fantasy VII (Japan) (Beta) (2005-07-11).bin" size 522231024 crc F439396E md5 D95D1F3A4CBFA82B1751D0F376882B82 sha1 E7E1214320F6CECCC45AD905A5A953FDA9DF50ED serial "SLPM-68016" )
 )
 game (
 	name "Dirge of Cerberus - Final Fantasy VII (Japan, Asia)"
@@ -16084,15 +15590,6 @@ game (
 	rom ( name "Dot Hack Part 1 - Infection (Europe) (En,Fr,De,Es,It).iso" size 2960130048 crc 7583ED63 md5 ADA0D21DEAA38ECE4FBC0A7CDE42A2AB sha1 4628B96CE42FB07E255DFB2EC454182C2BA72656 serial "SLES-52237-GER" )
 )
 game (
-	name "Dot Hack Part 1 - Infection (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "01"
-	releaseday "09"
-	region "Europe"
-	serial "SLES-52237"
-	rom ( name "Dot Hack Part 1 - Infection (Europe) (En,Fr,De,Es,It) (Beta) (2004-01-09).iso" size 2960097280 crc B48448A6 md5 1D9844EE3F579161C979DCB4D8893657 sha1 9B6D55EB123E66086D216EBA18739CB1A942AE88 serial "SLES-52237" )
-)
-game (
 	name "Dot Hack Part 1 - Infection (USA)"
 	region "USA"
 	serial "SLUS-20267"
@@ -16483,15 +15980,6 @@ game (
 	rom ( name "Dragon Ball Z - Budokai Tenkaichi 2 (Europe, Australia) (En,Fr,De,Es,It).iso" size 3148382208 crc 41555E59 md5 4AD81F911E368136D9A609D9BAFF3105 sha1 FFFE7DB6A8752AFC9F496132474F22BCF3ACC154 serial "SLES-54164/P" )
 )
 game (
-	name "Dragon Ball Z - Budokai Tenkaichi 2 (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "08"
-	releaseday "03"
-	region "USA"
-	serial "SLUS-21441"
-	rom ( name "Dragon Ball Z - Budokai Tenkaichi 2 (USA) (Beta) (2006-08-03).iso" size 2999222272 crc 6FC971FF md5 93689AFE84BD5B97B245C719CE076AFB sha1 7CCB278534856B76BF3B3236FD267FA723E0AFDD serial "SLUS-21441" )
-)
-game (
 	name "Dragon Ball Z - Budokai Tenkaichi 2 (USA) (En,Ja)"
 	region "USA"
 	serial "SLUS-21441"
@@ -16832,15 +16320,6 @@ game (
 	region "Europe"
 	serial "SCES-50006"
 	rom ( name "Drakan - The Ancients' Gates (Europe) (En,Fr,De,Es,It).iso" size 3453943808 crc 387FE1A6 md5 8195B88A2477E013E8BE76C75A726394 sha1 18FC4569791521CAF2F0F0B08F7B76A5A1A4F705 serial "SCES-50006" )
-)
-game (
-	name "Drakan - The Ancients' Gates (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "27"
-	region "Europe"
-	serial "SCUS-97128"
-	rom ( name "Drakan - The Ancients' Gates (Europe) (En,Fr,De,Es,It) (Beta) (2001-11-27).iso" size 3493396480 crc 6AA17110 md5 D6C21B8A4C1EDFCF8D1C61ACB67F6E61 sha1 301F05E0C54718269BD4E8AA48C9706813C363B3 serial "SCUS-97128" )
 )
 game (
 	name "Drakan - The Ancients' Gates (USA)"
@@ -17951,15 +17430,6 @@ game (
 	rom ( name "ESPN College Hoops 2K5 (USA).iso" size 4316692480 crc BF547C9E md5 6FCFCE48335F28EF6CD46C6540CA7415 sha1 F99FEE486F99C6D4677B8E2EB16E10863E14CCC6 serial "SLUS-20922" )
 )
 game (
-	name "ESPN International Track & Field (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "22"
-	region "Europe"
-	serial "SLES-50036"
-	rom ( name "ESPN International Track & Field (Europe) (Beta) (2000-09-22).bin" size 561582336 crc FB282976 md5 DAC0D9FBD9F6FCC1DEA20DDA322868DB sha1 90B60E14C1F09EE3964029AFBC36D58D0E133D02 serial "SLES-50036" )
-)
-game (
 	name "ESPN International Track & Field (Europe) (En,Fr,De)"
 	region "Europe"
 	serial "SLES-50036"
@@ -18234,15 +17704,6 @@ game (
 	region "Europe"
 	serial "SLES-54139"
 	rom ( name "Earache - Extreme Metal Racing (Europe).iso" size 2318860288 crc 96277E3C md5 9BE7B3965C2F086456C8602A779B22A7 sha1 FBD479748EA69CB9191B0700325536337112A269 serial "SLES-54139" )
-)
-game (
-	name "Ecco the Dolphin - Defender of the Future (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "07"
-	region "Europe"
-	serial "SCES-50499"
-	rom ( name "Ecco the Dolphin - Defender of the Future (Europe) (Beta) (2001-11-07).iso" size 2318596096 crc FBD82E6B md5 67C190DE2AE7C71F0624EDCD53853FA1 sha1 8158AC6EFA3A0CD4B2678FAB4053C2DBEB86DC63 serial "SCES-50499" )
 )
 game (
 	name "Ecco the Dolphin - Defender of the Future (Europe) (En,Fr,De,Es,It)"
@@ -18873,46 +18334,10 @@ game (
 	rom ( name "EverQuest - Online Adventures (USA).iso" size 2348449792 crc 5159A5AD md5 AFBB378547DF610A0755FE5310BB2992 sha1 6F21732B11DAF5ED856D79A799059E0F6FF058FE serial "SLUS-20470" )
 )
 game (
-	name "EverQuest - Online Adventures (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "09"
-	releaseday "18"
-	region "USA"
-	serial "SLUS-28020"
-	rom ( name "EverQuest - Online Adventures (USA) (Beta) (2002-09-18).iso" size 2222063616 crc 567015A4 md5 7A42930B495229BDC0B4298B8089F1F6 sha1 E3A9EB0641EF5AA002C2DF0E7A6C21DA7CBC5FC9 serial "SLUS-28020" )
-)
-game (
-	name "EverQuest - Online Adventures (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "10"
-	releaseday "20"
-	region "USA"
-	serial "SLUS-28021"
-	rom ( name "EverQuest - Online Adventures (USA) (Beta) (2002-10-20).iso" size 2333802496 crc 9F127A38 md5 08E835069996B8690AF93E27C46E1008 sha1 EBA7FC54B09E50E043668924109FD6D62741C333 serial "SLUS-28021" )
-)
-game (
-	name "EverQuest - Online Adventures (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "17"
-	region "USA"
-	serial "SLUS-28026"
-	rom ( name "EverQuest - Online Adventures (USA) (Beta) (2002-11-17).iso" size 1403682816 crc 365B4BA0 md5 A31BB5FCE53B91766DEE83416CBCA7F7 sha1 133FD365E22744AC4DA823572034FCB2F1A8EDAC serial "SLUS-28026" )
-)
-game (
 	name "EverQuest - Online Adventures - Frontiers (USA)"
 	region "USA"
 	serial "SLUS-20744"
 	rom ( name "EverQuest - Online Adventures - Frontiers (USA).iso" size 3056369664 crc 391FADFC md5 3D954D30436581A074E9497E7FE85388 sha1 17B42905BBA4DD0BAD17270E74C68BD58351D2A6 serial "SLUS-20744" )
-)
-game (
-	name "EverQuest - Online Adventures - Frontiers (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "18"
-	region "USA"
-	serial "SLUS-29063"
-	rom ( name "EverQuest - Online Adventures - Frontiers (USA) (Beta) (2003-07-18).iso" size 2131820544 crc 316B3EC2 md5 197238C4235AF9AD31337ECB703C6D63 sha1 01872C6F6CE10DFA4C4F752986EC4783088D5BFD serial "SLUS-29063" )
 )
 game (
 	name "Everblue (Europe)"
@@ -18963,15 +18388,6 @@ game (
 	rom ( name "Evergrace (Europe) (En,Fr,De,Es,It).iso" size 4536664064 crc 47820CB3 md5 31BB83A4909109A82A3840F18EA74BF0 sha1 C27F562B459323ED171C5A7F82B2587A0B140628 serial "SLES-50050" )
 )
 game (
-	name "Evergrace (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "01"
-	releaseday "26"
-	region "Europe"
-	serial "SLES-50050"
-	rom ( name "Evergrace (Europe) (En,Fr,De,Es,It) (Beta) (2001-01-26).iso" size 4536664064 crc BC86528B md5 09B41F087E1AC5EFAE7DE8EB95ED8E0C sha1 FFCA2CC9336D022DCC4C307A3B590EAE226404BD serial "SLES-50050" )
-)
-game (
 	name "Evergrace (Japan)"
 	region "Japan"
 	serial "SLPS-25003"
@@ -18988,15 +18404,6 @@ game (
 	region "Japan"
 	serial "SLPS-25044"
 	rom ( name "Evergrace II (Japan).iso" size 4332683264 crc 86BE99EF md5 A749F9ECB273BED6C2CBC6A5BA81BC9A sha1 F771286B722DB2B2C2AFDC3480F88BB8219A5077 serial "SLPS-25044" )
-)
-game (
-	name "Everybody's Golf (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "16"
-	region "Europe"
-	serial "TCES-52582"
-	rom ( name "Everybody's Golf (Europe) (Beta) (2005-06-16).iso" size 1399980032 crc BB93D825 md5 F4AF228793D748C2DCAA8B3E9F041FAB sha1 33395F3DE6270DF5055D1A2B5C5FA91BEB2EFB9A serial "TCES-52582" )
 )
 game (
 	name "Everybody's Golf (Europe, Australia) (En,Fr,De,Es,It)"
@@ -19335,15 +18742,6 @@ game (
 	rom ( name "EyeToy - Antigrav + SpyToy Demo (Europe) (En,Fr,De,Es,It).iso" size 3619454976 crc 30400F18 md5 A79154279F8C75A9144F9738BD04D07C sha1 008809A0BB6F6F19EFB9273D46A2E3684476A0AC serial "SCED-53792" )
 )
 game (
-	name "EyeToy - Chat (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "05"
-	releaseday "10"
-	region "Europe"
-	serial "TCES-52154"
-	rom ( name "EyeToy - Chat (Europe) (Beta) (2004-05-10).iso" size 1276313600 crc C22A37E0 md5 7C8BE7DB76461BDC752780E235B95AB7 sha1 4A2A9A9A61A33849D3B232DE344B8E6663C4D164 serial "TCES-52154" )
-)
-game (
 	name "EyeToy - Chat (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
 	region "Europe"
 	serial "SCES-52154"
@@ -19434,15 +18832,6 @@ game (
 	rom ( name "EyeToy - Groove (USA).iso" size 1559265280 crc C570B799 md5 02BE060384520DE7B9F0539A8EDDDA39 sha1 60A2F6D9299CBC62C9C90D65DE09A30E89E878C9 serial "SCUS-97400" )
 )
 game (
-	name "EyeToy - Kinetic (Europe) (En,Fr,De,Es,It,Pt,No) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "05"
-	region "Europe"
-	serial "SCES-52883"
-	rom ( name "EyeToy - Kinetic (Europe) (En,Fr,De,Es,It,Pt,No) (Beta) (2005-07-05).iso" size 3353640960 crc 898444ED md5 91FE0A5262FDEBF6B71F1CC625E81435 sha1 AB80AB0D125C24E9D7F4AC57E8BE45557BA5926D serial "SCES-52883" )
-)
-game (
 	name "EyeToy - Kinetic (Europe, Australia) (En,Fr,De,Es,It,Pt,No)"
 	region "Europe"
 	serial "SCES-52883"
@@ -19471,15 +18860,6 @@ game (
 	region "USA"
 	serial "SCUS-97497"
 	rom ( name "EyeToy - Kinetic (USA).iso" size 4249550848 crc BA22F93E md5 C3EE61FD8CAF71FEA6FECDCDF63F0EC3 sha1 FF80A59521DD36EF315DAC37291366704F47DA01 serial "SCUS-97497" )
-)
-game (
-	name "EyeToy - Kinetic Combat (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "13"
-	region "Europe"
-	serial "SCES-54148"
-	rom ( name "EyeToy - Kinetic Combat (Europe) (Beta) (2006-06-13).iso" size 4098752512 crc 48333448 md5 A6629BD2777F51A0F818A08BE328A479 sha1 918716DC5585D93DEC95DB87561D55D1C82A8174 serial "SCES-54148" )
 )
 game (
 	name "EyeToy - Kinetic Combat (Europe, Australia) (En,Fr,De,Es,It,Pt,No)"
@@ -19528,15 +18908,6 @@ game (
 	region "China"
 	serial "SCCS-40017"
 	rom ( name "EyeToy - Play (China).iso" size 1258094592 crc 48DC6FCF md5 0EB44173E8135384D2F4119D9EE07C69 sha1 79D57C3CDCB90EC643CC89BDF880893139DC1B9A serial "SCCS-40017" )
-)
-game (
-	name "EyeToy - Play (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "03"
-	releaseday "19"
-	region "Europe"
-	serial "SCES-51513"
-	rom ( name "EyeToy - Play (Europe) (Beta) (2003-03-19).bin" size 571411344 crc 417988FC md5 34FFF447E90DAE2CD981E3CAF042B4D8 sha1 B83D4F702EAF021386902B40159187E4D7F302E2 serial "SCES-51513" )
 )
 game (
 	name "EyeToy - Play (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
@@ -19609,15 +18980,6 @@ game (
 	region "USA"
 	serial "SCUS-97319"
 	rom ( name "EyeToy - Play (USA).iso" size 4294443008 crc 5A250121 md5 E86903295AC8835B121A728557525AEC sha1 DE3BDB7EFE5AD8DB66D615C1668FDFB93EB0CDD3 serial "SCUS-97319" )
-)
-game (
-	name "EyeToy - Play 2 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,El) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "17"
-	region "Europe"
-	serial "SCES-52748"
-	rom ( name "EyeToy - Play 2 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,El) (Beta) (2004-09-17).iso" size 1760690176 crc B8E4A3A4 md5 C622472BDCE3C26E921C99C72CB173A2 sha1 306D366A1AEBE1D5B2B814317BC394912C749900 serial "SCES-52748" )
 )
 game (
 	name "EyeToy - Play 2 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,El) (v2.00)"
@@ -19962,15 +19324,6 @@ game (
 	rom ( name "F1 Racing Championship (Europe) (En,Es,It).bin" size 639200688 crc C364575F md5 901703F5F0B4E0751A1626670EE82D29 sha1 2D3B020D010E3BEB25F4815636A93476912B113C serial "SLES-50047" )
 )
 game (
-	name "F1 Racing Championship (Europe) (En,Es,It) (Beta)"
-	releaseyear "2000"
-	releasemonth "11"
-	releaseday "14"
-	region "Europe"
-	serial "SLPS-20042"
-	rom ( name "F1 Racing Championship (Europe) (En,Es,It) (Beta) (2000-11-14).bin" size 634746000 crc F3196BCE md5 29156023E8FC20110A64C13B867E0A10 sha1 0906B8CC0AC4EE2ACE53CB5E000AA1D8FCE0CE69 serial "SLPS-20042" )
-)
-game (
 	name "F1 Racing Championship (Europe) (Fr,De)"
 	region "Europe"
 	serial "SLES-50046"
@@ -19993,24 +19346,6 @@ game (
 	region "Europe"
 	serial "SLES-53529-P"
 	rom ( name "FIFA 06 (Europe).iso" size 4698734592 crc E790E80B md5 B9F60855BD480E36511A964FABAABB3D sha1 8A7F3A0ADB36854FE082CA634A4865F9D9FC10E5 serial "SLES-53529-P" )
-)
-game (
-	name "FIFA 06 (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "12"
-	region "Europe"
-	serial "SLES-53529"
-	rom ( name "FIFA 06 (Europe) (Beta) (2005-07-12).iso" size 4678377472 crc 7E16F171 md5 0361A26BBA549C5D4DFFA2C0A05EF19A sha1 BB1D1AE36E453BBF5E7B097D97847E9DD073DD4B serial "SLES-53529" )
-)
-game (
-	name "FIFA 06 (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "05"
-	region "Europe"
-	serial "SLES-53529"
-	rom ( name "FIFA 06 (Europe) (Beta) (2005-08-05).iso" size 4678377472 crc B8B43EAD md5 CD06A6422395D93BA157E218C61ACD2D sha1 053A25CE4D01FEFCC3D28E29049E8601CF8019C3 serial "SLES-53529" )
 )
 game (
 	name "FIFA 06 (Europe) (En,Nl,Sv,No,Da,Pl,El,Hu)"
@@ -20059,15 +19394,6 @@ game (
 	region "Asia"
 	serial "SLAJ-25088"
 	rom ( name "FIFA 07 (Asia) (En,Es).iso" size 4698734592 crc C40E2218 md5 B5D7CEE01BC08AD273D7605720512CFA sha1 FDC0CACB1ADC08058D6B3AFDDF04D64F975B48F6 serial "SLAJ-25088" )
-)
-game (
-	name "FIFA 07 (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "08"
-	releaseday "09"
-	region "Europe"
-	serial "TLES-54240"
-	rom ( name "FIFA 07 (Europe) (Beta) (2006-08-09).iso" size 4698734592 crc EB5B9D55 md5 140F63AD3B0C6218C93E135512507036 sha1 B4F8247EF95CD3E1A03778E3BDB79D3FAE1AA5E3 serial "TLES-54240" )
 )
 game (
 	name "FIFA 07 (Europe) (En,Nl,Sv,No,Da)"
@@ -20930,15 +20256,6 @@ game (
 	rom ( name "Fallout - Brotherhood of Steel (Europe) (En,Es,It).iso" size 4387766272 crc 9415ECC4 md5 BA8211A4D285E174EB736931F9F1FCCE sha1 3C4FE0693FFE3C526C2BA22A78D20C1A18AFF0B8 serial "SLES-51526" )
 )
 game (
-	name "Fallout - Brotherhood of Steel (Europe) (En,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "12"
-	releaseday "02"
-	region "Europe"
-	serial "SLES-51526"
-	rom ( name "Fallout - Brotherhood of Steel (Europe) (En,Es,It) (Beta) (2003-12-02).iso" size 4386029568 crc 3A8EDCB2 md5 70E2FBCE37B30C26F695FA9FB043FCBC sha1 175699202C0911DFA3518677182B092BE373C558 serial "SLES-51526" )
-)
-game (
 	name "Fallout - Brotherhood of Steel (Europe) (En,Fr,De)"
 	region "Europe"
 	serial "SLES-51525"
@@ -21056,14 +20373,6 @@ game (
 	region "Japan"
 	serial "SLPS-25396"
 	rom ( name "Fantastic Fortune 2 - Triple Star (Japan).iso" size 3231907840 crc 9C263B25 md5 1D03E1082E2ACBEEEAC329BDC5946D5E sha1 E771831750DD73C4F2AD2740693C9F07E5770A47 serial "SLPS-25396" )
-)
-game (
-	name "Fantastic Four (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "08"
-	releaseday "29"
-	region "USA"
-	rom ( name "Fantastic Four (USA) (Beta) (2003-08-29).bin" size 422795520 crc DFABB12C md5 6583A783DD35F543BCA98888A4576A94 sha1 A31918B6D0574219CA03C0667EA1E3E35B90C3EE )
 )
 game (
 	name "Fantastic Four - Rise of the Silver Surfer (Europe) (En,Fr,De,Es,It)"
@@ -21809,24 +21118,6 @@ game (
 	region "Japan"
 	serial "SLPS-25200"
 	rom ( name "Final Fantasy XI - Online (Japan).iso" size 2293530624 crc 28928CB6 md5 98B6BCA21FDDA67248A6A4843DFB1ED2 sha1 7C68704912F53EB4EB911A849AE6A3E7F2F2B358 serial "SLPS-25200" )
-)
-game (
-	name "Final Fantasy XI - Online (Japan) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "20"
-	region "Japan"
-	serial "SLPM-62135"
-	rom ( name "Final Fantasy XI - Online (Japan) (Beta) (2001-11-20).bin" size 681995328 crc 2209C1E1 md5 F077470DDB0FAF6D79FF103CEB528ABE sha1 D9E1B0E9A9BE3944565582660C19543F65ECBD11 serial "SLPM-62135" )
-)
-game (
-	name "Final Fantasy XI - Online (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "04"
-	releaseday "24"
-	region "USA"
-	serial "SCUS-97271"
-	rom ( name "Final Fantasy XI - Online (USA) (Beta) (2003-04-24).iso" size 2817196032 crc 60A944F7 md5 19F996757147B27235A4270345C77ED1 sha1 76E3429801F3638DADF7D2780B6D8CB42BBF1D54 serial "SCUS-97271" )
 )
 game (
 	name "Final Fantasy XI - Online (USA, Canada)"
@@ -22575,15 +21866,6 @@ game (
 	rom ( name "Formula One 04 (China).iso" size 1754497024 crc FEDE67DC md5 2082BC158FE5EB6E325DA9AAFF28B7DF sha1 F0089579E5B4B9B50DC267DF1BE5B2B68DB486B4 serial "SCCS-40019" )
 )
 game (
-	name "Formula One 04 (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "06"
-	releaseday "15"
-	region "Europe"
-	serial "TCES-52042"
-	rom ( name "Formula One 04 (Europe) (Beta) (2004-06-15).iso" size 1228832768 crc A6ACE862 md5 0955ABF9D6F88923E0DAD6393267AA5E sha1 6EC7B26E9F4C63DDC257EC0B22085667CE1A6E7E serial "TCES-52042" )
-)
-game (
 	name "Formula One 04 (Europe) (En,Fr,De,Es,It,Fi) (v1.01)"
 	region "Europe"
 	serial "SCES-52042"
@@ -22606,15 +21888,6 @@ game (
 	region "Japan"
 	serial "SCPS-15083"
 	rom ( name "Formula One 04 (Japan).iso" size 1991475200 crc 39ED4148 md5 F76D4B32190A40EE40F824B0D6032694 sha1 F9924A1537FB131262F9CD64A4CEF900F920D925 serial "SCPS-15083" )
-)
-game (
-	name "Formula One 05 (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "04"
-	releaseday "07"
-	region "Europe"
-	serial "TCES-53033"
-	rom ( name "Formula One 05 (Europe) (Beta) (2005-04-07).iso" size 1249804288 crc FF003B28 md5 98B00A68A9CBEFBB631A0B0F807C7A79 sha1 081C77AA71FE496BE331B6E41C84821FCD26A80C serial "TCES-53033" )
 )
 game (
 	name "Formula One 05 (Europe) (Demo 1)"
@@ -22645,24 +21918,6 @@ game (
 	region "Japan"
 	serial "SCPS-15098"
 	rom ( name "Formula One 05 (Japan).iso" size 1318322176 crc E725842B md5 A8451EBCFB6F78AE7E96E2A90C0299A2 sha1 5CF514811C012240B09E07EB8474E224E5920D1C serial "SCPS-15098" )
-)
-game (
-	name "Formula One 06 (Europe) (En,Fr,De,Es,It,Pt,Fi) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "02"
-	region "Europe"
-	serial "SCES-53950"
-	rom ( name "Formula One 06 (Europe) (En,Fr,De,Es,It,Pt,Fi) (Beta) (2006-06-02).iso" size 4690182144 crc 711C1586 md5 6C887A4092289BF3E21BDC3FDE755FA1 sha1 342C7BF1DE60A3E13285CF5463FF19BB0CA052D1 serial "SCES-53950" )
-)
-game (
-	name "Formula One 06 (Europe) (En,Fr,De,Es,It,Pt,Fi) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "21"
-	region "Europe"
-	serial "SCES-53950"
-	rom ( name "Formula One 06 (Europe) (En,Fr,De,Es,It,Pt,Fi) (Beta) (2006-06-21).iso" size 4419321856 crc EB6AD8A1 md5 CA65CCF5975DF4EEEA65178039D05F49 sha1 D78587802657FC6A4E1BE989EBA11B944601B369 serial "SCES-53950" )
 )
 game (
 	name "Formula One 06 (Europe, Australia) (En,Fr,De,Es,It,Pt,Fi)"
@@ -23061,15 +22316,6 @@ game (
 	rom ( name "Front Mission Online (Japan).iso" size 2066808832 crc E24A6C5E md5 C8A88349C7EE966CBD292774E603AADE sha1 B8B7780E4041D76746FBE5509D8A2D7FAF6A0ADC serial "SLPM-65981" )
 )
 game (
-	name "Front Mission Online (Japan) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "18"
-	region "Japan"
-	serial "SLPM-68514"
-	rom ( name "Front Mission Online (Japan) (Beta) (2004-09-18).iso" size 1587838976 crc 18BA8C0C md5 95D1A3CF0A3D9F500FB8E8EED6F691AB sha1 135A6D71C2978F8CD32E619FC007F50E68BAB7BC serial "SLPM-68514" )
-)
-game (
 	name "Fruit Fall (Europe, Australia)"
 	region "Europe"
 	serial "SLES-53148"
@@ -23110,14 +22356,6 @@ game (
 	region "USA"
 	serial "SLUS-20464"
 	rom ( name "Fugitive Hunter - War on Terror (USA).iso" size 3483336704 crc B6684F95 md5 B5AB88BC315EACC072263D0F4B10410C sha1 FD0301DD3B8C9E4872816AFBFD2B10D3DCC90B35 serial "SLUS-20464" )
-)
-game (
-	name "Fugitive Hunter - War on Terror (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "09"
-	releaseday "26"
-	region "USA"
-	rom ( name "Fugitive Hunter - War on Terror (USA) (Beta) (2003-09-26).iso" size 3483336704 crc 64D54DF9 md5 303E67E333475B97846CA641AD5AEAEB sha1 1E9363813B242E7B0EBA8AEF1E21716626149E9A )
 )
 game (
 	name "Fukakutei Sekai no Tantei Shinshi - Akugyou Souma no Jiken File (Japan)"
@@ -23178,15 +22416,6 @@ game (
 	region "Europe"
 	serial "SLES-53114/GER"
 	rom ( name "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It).iso" size 2990211072 crc 973C3928 md5 A19C6EFA56B136CD586757400114BBC1 sha1 513B3CC41431F63C1775B4F0F4C74A34C904DA85 serial "SLES-53114/GER" )
-)
-game (
-	name "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "03"
-	releaseday "22"
-	region "Europe"
-	serial "SLES-53114"
-	rom ( name "Full Spectrum Warrior (Europe) (En,Fr,De,Es,It) (Beta) (2005-03-22).iso" size 2991095808 crc 64DB1C82 md5 1BAA8F23BA5DA92804F9F7C75AC6D73D sha1 6FBDDEC5D6BAFBF54B34A9F2BECDFA2FABD4B99F serial "SLES-53114" )
 )
 game (
 	name "Full Spectrum Warrior (Japan)"
@@ -24591,12 +23820,6 @@ game (
 	rom ( name "Gauntlet - Dark Legacy (USA).bin" size 712545456 crc DD1B3F41 md5 2ADCB98C3931E83EC80BDFA30635ED6D sha1 E78BAC058FF8D8F0F00337BED368BBFD05DFA31C serial "SLUS-20047" )
 )
 game (
-	name "Gauntlet - Dark Legacy (USA) (Beta)"
-	region "USA"
-	serial "SLUS-20047"
-	rom ( name "Gauntlet - Dark Legacy (USA) (Beta).bin" size 712545456 crc D3A3D560 md5 067D8D028393B6150A8DABC102AED333 sha1 6B86F3BF17A6DA1C77FA807BA6ED3A4088ADC83E serial "SLUS-20047" )
-)
-game (
 	name "Gauntlet - Seven Sorrows (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-53667"
@@ -24961,15 +24184,6 @@ game (
 	region "Australia"
 	serial "SCES-51426/P"
 	rom ( name "Getaway, The (Australia) (En,Fr,De,Es,It) (v3.00).iso" size 4487905280 crc 693C57BB md5 EF69E75E20B3A86D3BDEDD03C0170052 sha1 5AE24A9472D1A23D5187954EEACD983CDA216D51 serial "SCES-51426/P" )
-)
-game (
-	name "Getaway, The (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "18"
-	region "Europe"
-	serial "SCES-51159"
-	rom ( name "Getaway, The (Europe) (Beta) (2002-11-18).iso" size 4450353152 crc 40549AA3 md5 DA001B376A7F25CE084DA1C8FD73CA11 sha1 BF272BD0EAF8562D09583A222662EBCA0BBCD8A8 serial "SCES-51159" )
 )
 game (
 	name "Getaway, The (Europe) (En,Fr,De,Es,It) (v1.03)"
@@ -25961,15 +25175,6 @@ game (
 	rom ( name "Gradius III and IV (Europe).bin" size 517418832 crc 78E54D73 md5 0398AAE7FEF64D880079D24AA078772F sha1 C80767F5A1C468074E1AD2FE55CB8D8A3E3B2CE0 serial "SLES-50038" )
 )
 game (
-	name "Gradius III and IV (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "11"
-	region "Europe"
-	serial "SLES-50038"
-	rom ( name "Gradius III and IV (Europe) (Beta) (2000-09-11).bin" size 517418832 crc 901901F3 md5 C15815E0361FC5A52163D74836E189A6 sha1 678AC5E4F89064EE431D636040C837D4726A44CB serial "SLES-50038" )
-)
-game (
 	name "Gradius III and IV (USA)"
 	region "USA"
 	serial "SLUS-20040"
@@ -26022,14 +25227,6 @@ game (
 	region "USA"
 	serial "SLUS-20712"
 	rom ( name "Gradius V (USA).bin" size 465832416 crc CD10C7F2 md5 BED560EC8DE61E192371C3B16DF911FA sha1 57A4A82FA3AA89D2FDD68C0D354AACCA0FC82FD2 serial "SLUS-20712" )
-)
-game (
-	name "Gradius V (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "04"
-	releaseday "28"
-	region "USA"
-	rom ( name "Gradius V (USA) (Beta) (2004-04-28).bin" size 189702912 crc 2BF93424 md5 389AFCC0E94E287BE87DB677534DF732 sha1 C75950A501D0CC118286DC50E174645157398162 )
 )
 game (
 	name "Graffiti Kingdom (Europe) (En,Fr,De,Es,It)"
@@ -26194,15 +25391,6 @@ game (
 	rom ( name "Gran Turismo 4 (China).iso" size 5729026048 crc 0A806E05 md5 0C36AB2A951384FE21DFD20E1C614840 sha1 4444AE327440E76F2CDED6B8FF1A126096E31E2D serial "SCCS-60002" )
 )
 game (
-	name "Gran Turismo 4 (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "18"
-	region "Europe"
-	serial "SCES-51719/1.00"
-	rom ( name "Gran Turismo 4 (Europe) (Beta) (2005-01-18).iso" size 5573115904 crc ECB174A4 md5 2FB950A8FE1BAE24CC62E09E51526C37 sha1 8027B138DFE8B9816513EC3128B783BEB8BD1B94 serial "SCES-51719/1.00" )
-)
-game (
 	name "Gran Turismo 4 (Europe) (En,Fr,De,Es,It) (BMW 1 Series Virtual Drive Dealership)"
 	region "Europe"
 	serial "SCED-52578/G"
@@ -26303,15 +25491,6 @@ game (
 	region "Korea"
 	serial "SCKA-30004"
 	rom ( name "Gran Turismo 4 (Korea).iso" size 5372051456 crc 02C25ED0 md5 51A92C95EA2AD64BC43B46A5143F1B13 sha1 C36BFA7FA01741A8B9F196A15DE7BDC7661AB1CC serial "SCKA-30004" )
-)
-game (
-	name "Gran Turismo 4 (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "06"
-	region "USA"
-	serial "SCUS-97436"
-	rom ( name "Gran Turismo 4 (USA) (Beta) (2006-06-06).iso" size 2654109696 crc E8BF4147 md5 3306538778DDA2DED87CEAF52C944A98 sha1 CA992321F7E1BFB2EF983820E2E3626850C0AE16 serial "SCUS-97436" )
 )
 game (
 	name "Gran Turismo 4 (USA) (v2.00)"
@@ -27487,15 +26666,6 @@ game (
 	rom ( name "Guilty Gear Isuka (Europe).iso" size 4092461056 crc 19CEDACB md5 E3404F917A860D33B8C27AF508A6583C sha1 681135212876C15F05BE65E12CE12963637D9AF9 serial "SLES-53284" )
 )
 game (
-	name "Guilty Gear Isuka (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "10"
-	releaseday "06"
-	region "Europe"
-	serial "SLES-52934"
-	rom ( name "Guilty Gear Isuka (Europe) (Beta) (2004-10-06).iso" size 4113465344 crc 7C81467C md5 6F445D80840BAF5ECF9BEC850F2CF471 sha1 38DD8F4DAC64E89F0B9E06E3AA9987EEAA5EFE44 serial "SLES-52934" )
-)
-game (
 	name "Guilty Gear Isuka (Japan)"
 	region "Japan"
 	serial "SLPM-65644"
@@ -28408,18 +27578,6 @@ game (
 	rom ( name "H2O+ - Footprints in the Sand (Japan).iso" size 4595122176 crc 5F3DD253 md5 133274BEC4B70D049EFFF17C23B84159 sha1 7AD4869777B74C216CA5B98E579F22261A919C7D serial "SLPM-66921" )
 )
 game (
-	name "HDD Utility Disc (USA) (Beta)"
-	region "USA"
-	serial "PBPX-95216"
-	rom ( name "HDD Utility Disc (USA) (Beta).bin" size 751993200 crc 5DA1E300 md5 6C6C3A27881A694A6DDE4D38E1EA5309 sha1 CD750C83590FC78681AD0844085D39752A129C93 serial "PBPX-95216" )
-)
-game (
-	name "HDD Utility Disc (USA) (Beta)"
-	region "USA"
-	serial "PBPX-95237"
-	rom ( name "HDD Utility Disc (USA) (Beta).bin" size 751993200 crc 5DA1E300 md5 6C6C3A27881A694A6DDE4D38E1EA5309 sha1 CD750C83590FC78681AD0844085D39752A129C93 serial "PBPX-95237" )
-)
-game (
 	name "HDD Utility Disc Version 1.00 (Japan)"
 	region "Japan"
 	serial "PBPX-95211"
@@ -28920,15 +28078,6 @@ game (
 	region "Australia"
 	serial "SCES-51977"
 	rom ( name "Hardware - Online Arena (Australia).iso" size 1554644992 crc DC036C32 md5 40994C5316AA38E57BC539357EF19AE8 sha1 2E93A0A317087AE18139107AB6A75FE29943A278 serial "SCES-51977" )
-)
-game (
-	name "Hardware - Online Arena (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "06"
-	releaseday "12"
-	region "Europe"
-	serial "SCES-51593/0.01"
-	rom ( name "Hardware - Online Arena (Europe) (Beta) (2003-06-12).iso" size 1403060224 crc 11F983FB md5 D6CB33F7EAEB04DC2B32B6E576933DA2 sha1 0A877D5C791C3CC41DB980B9708B8F415E36480B serial "SCES-51593/0.01" )
 )
 game (
 	name "Hardware - Online Arena (Europe) (En,Fr,De,Es,It)"
@@ -29661,15 +28810,6 @@ game (
 	region "Europe"
 	serial "SCES-50500"
 	rom ( name "Headhunter (Europe) (En,Fr,De,Es,It).iso" size 3568140288 crc 4A04E5CB md5 28339853A85BACEBAC38B114D139E851 sha1 0F04D9921AD1786975319606773449C2CE22E8FF serial "SCES-50500" )
-)
-game (
-	name "Headhunter (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "12"
-	releaseday "15"
-	region "Europe"
-	serial "SCES-50500"
-	rom ( name "Headhunter (Europe) (En,Fr,De,Es,It) (Beta) (2001-12-15).iso" size 3568107520 crc 7EBAD2AE md5 8B9EADA741F9AF9ECD37F962E4CAA41B sha1 5F6AFC92BA320F81520353A88309EA3514CA109A serial "SCES-50500" )
 )
 game (
 	name "Headhunter (USA)"
@@ -30677,15 +29817,6 @@ game (
 	rom ( name "Hot Shots Golf Fore! (USA).iso" size 2915729408 crc 0883EF63 md5 6BD9D9F101CC224DFA4684B3D7B0CCCA sha1 656300289468473937A05FCEA36C7A8C1522F1AD serial "SCUS-97401" )
 )
 game (
-	name "Hot Shots Golf Fore! (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "06"
-	releaseday "09"
-	region "USA"
-	serial "SCUS-97427"
-	rom ( name "Hot Shots Golf Fore! (USA) (Beta) (2004-06-09).iso" size 1271988224 crc EA86F784 md5 F749A3E916D0E23D11A1D42BEE664E03 sha1 761D760ED4FCE8620E0C4BED79717C778EDB43F9 serial "SCUS-97427" )
-)
-game (
 	name "Hot Shots Tennis (USA)"
 	region "USA"
 	serial "SCUS-97610"
@@ -31192,24 +30323,6 @@ game (
 	region "Europe"
 	serial "SCES-50760"
 	rom ( name "Ico (Europe) (En,Fr,De,Es,It).iso" size 907706368 crc B58152BD md5 5D5064CB45A6957B245520B2A6296876 sha1 1017B53F6E80F41F823369B0BE1D8C69F7E16DC6 serial "SCES-50760" )
-)
-game (
-	name "Ico (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "16"
-	region "Europe"
-	serial "SCES-00000"
-	rom ( name "Ico (Europe) (En,Fr,De,Es,It) (Beta) (2001-11-16).iso" size 774144000 crc 2F20BAF9 md5 7C29DB754E6C6FC3576070AC413AC930 sha1 F36E6676A61541B5BD0FDF041F4E8870D2079505 serial "SCES-00000" )
-)
-game (
-	name "Ico (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "01"
-	releaseday "16"
-	region "Europe"
-	serial "SCES-50760"
-	rom ( name "Ico (Europe) (En,Fr,De,Es,It) (Beta) (2002-01-16).iso" size 907706368 crc ED6CCB7D md5 65682E00B71F7540D5CC3949717CCB8F sha1 70E1B09F68A8EB0AECCF16C5ECB9B75E07A9BD61 serial "SCES-50760" )
 )
 game (
 	name "Ico (Japan)"
@@ -31732,15 +30845,6 @@ game (
 	rom ( name "International Superstar Soccer 2 (Europe) (En,De).bin" size 631521408 crc D98CB9F2 md5 A91D3AA7583B1575D6B6E32DBF836BAC sha1 19514CF27D0F7EFEC794840AF1209A2FA3484D29 serial "SLES-50787" )
 )
 game (
-	name "International Superstar Soccer 2 (Europe) (En,De) (Beta)"
-	releaseyear "2002"
-	releasemonth "01"
-	releaseday "11"
-	region "Europe"
-	serial "SLPM-62075"
-	rom ( name "International Superstar Soccer 2 (Europe) (En,De) (Beta) (2002-01-11).bin" size 746872896 crc 10A59BF3 md5 319C671D178CF02ABDBC8A84F961DCD5 sha1 FA9CA4510D6A9D20B2A3A54819E6C9040926AD7A serial "SLPM-62075" )
-)
-game (
 	name "International Superstar Soccer 2 (Europe) (Fr,Es,It)"
 	region "Europe"
 	serial "SLES-50790"
@@ -32230,15 +31334,6 @@ game (
 	rom ( name "Jade Cocoon 2 (USA).iso" size 3099557888 crc 5A3A4361 md5 671D42D134A789560A51BCC6CB2859C2 sha1 1677169B4BDE5FCEA6213AA005F8E8C3B630C59B serial "SLUS-20309" )
 )
 game (
-	name "Jak 3 (Europe) (En,Fr,De,Es,It,Pt,Ko,Ru) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "14"
-	region "Europe"
-	serial "SCES-52460"
-	rom ( name "Jak 3 (Europe) (En,Fr,De,Es,It,Pt,Ko,Ru) (Beta) (2004-09-14).iso" size 4354473984 crc 78B64915 md5 132CE8A9E16CA7EF5A356AA111BCE318 sha1 07D524358E6C24F4BD92C84517A07675B17E1813 serial "SCES-52460" )
-)
-game (
 	name "Jak 3 (Europe, Australia) (En,Fr,De,Es,It,Pt,Ru)"
 	region "Europe"
 	serial "SCES-52460"
@@ -32347,15 +31442,6 @@ game (
 	rom ( name "Jak II - Renegade (Europe, Australia) (En,Ja,Fr,De,Es,It,Ko).iso" size 4410376192 crc C0C0730D md5 F55F3EB8A9A024C7D8F58F8F2E05FD15 sha1 756F62B1392230F4B6C15D01E507AF1763F2EC31 serial "SCES-51608/P" )
 )
 game (
-	name "Jak X (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "23"
-	region "Europe"
-	serial "TCES-53286"
-	rom ( name "Jak X (Europe) (Beta) (2005-06-23).iso" size 1283358720 crc 0CE8F647 md5 8945356DCAA88D03363C6E9323084347 sha1 FE7B2638127262DD3ACE7F0678D471990408B7A7 serial "TCES-53286" )
-)
-game (
 	name "Jak X (Europe, Australia) (En,Fr,De,Es,It,Pt,Ru)"
 	region "Europe"
 	serial "SCES-53286"
@@ -32378,15 +31464,6 @@ game (
 	region "Europe"
 	serial "SCES-53286/GER"
 	rom ( name "Jak X (Europe, Australia) (En,Fr,De,Es,It,Pt,Ru).iso" size 4662657024 crc F3EA9121 md5 21A253D187AF78B29BEA946BA1033E65 sha1 EAE2B649CDD7202BAEA77C25E77A21B88714285B serial "SCES-53286/GER" )
-)
-game (
-	name "Jak X - Combat Racing (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "23"
-	region "USA"
-	serial "SCUS-97488"
-	rom ( name "Jak X - Combat Racing (USA) (Beta) (2005-06-23).iso" size 1283358720 crc C15933C0 md5 B9ED8F05FBAD43B6B09AB5A2F15CCAA7 sha1 4C0B3B791DB0ABE7C1F2AA80E4D06E907EBD295E serial "SCUS-97488" )
 )
 game (
 	name "Jak X - Combat Racing (USA) (En,Fr,De,Es,It,Pt,Ru) (v1.00)"
@@ -33383,23 +32460,6 @@ game (
 	region "Europe"
 	serial "SLES-50362"
 	rom ( name "Jonny Moseley Mad Trix (Europe).iso" size 595525632 crc 4137330A md5 F02926D48C34A7605F9FDBC0FA3752C0 sha1 F794C696463CC02BED6AE7414C8CA99000F9E28D serial "SLES-50362" )
-)
-game (
-	name "Jonny Moseley Mad Trix (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "17"
-	region "Europe"
-	rom ( name "Jonny Moseley Mad Trix (Europe) (Beta) (2001-09-17).bin" size 316480416 crc 2E4A598F md5 90E36BA24BA255C6C05FC70FCA1E0F0A sha1 BF6FC6B4C21248815502F208FAC639F1D232F1AA )
-)
-game (
-	name "Jonny Moseley Mad Trix (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "12"
-	releaseday "17"
-	region "Europe"
-	serial "SLES-50362/PCD-JMMT-PRE"
-	rom ( name "Jonny Moseley Mad Trix (Europe) (Beta) (2001-12-17).iso" size 592642048 crc 318F9CFB md5 5AF1ABA9170E773F5FA3D785224753CA sha1 D0A68B1B0274410DBFE29DC970573DEDD9BDF5B7 serial "SLES-50362/PCD-JMMT-PRE" )
 )
 game (
 	name "Jonny Moseley Mad Trix (Europe) (Es,It)"
@@ -35301,23 +34361,6 @@ game (
 	rom ( name "Killer7 (USA).iso" size 3007905792 crc A5EEAD0E md5 121E713FA6757CC6A7093F5D07F5C190 sha1 9EF1D07A801369CDB33E68C19E7BD0A29784A08C serial "SLUS-21154" )
 )
 game (
-	name "Killzone (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "27"
-	region "Europe"
-	serial "TCES-52004"
-	rom ( name "Killzone (Europe) (Beta) (2004-07-27).iso" size 1249378304 crc 01A50D08 md5 D93EBE05F8CD6F8881866EC06DF750B2 sha1 A79CB2A7C164646C2D865DB249FB4CFDF4C952F1 serial "TCES-52004" )
-)
-game (
-	name "Killzone (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "10"
-	releaseday "13"
-	region "Europe"
-	rom ( name "Killzone (Europe) (Beta) (2004-10-13).iso" size 4624809984 crc 456F2B46 md5 AEB5C203708766C73F7E483F3035854C sha1 54A6EF58D409C990F3314FC41675B985B5432398 )
-)
-game (
 	name "Killzone (Europe) (Demo 1)"
 	region "Europe"
 	serial "SCED-52846"
@@ -35388,15 +34431,6 @@ game (
 	region "USA"
 	serial "SCUS-97402"
 	rom ( name "Killzone (USA).iso" size 4624285696 crc C15A46EE md5 537FEE8C62B53841D7F700D6EA724686 sha1 53AAD9CF5EF00ED3CA4989BC123BAF0228F3921C serial "SCUS-97402" )
-)
-game (
-	name "Killzone (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "27"
-	region "USA"
-	serial "SCUS-97431"
-	rom ( name "Killzone (USA) (Beta) (2004-07-27).iso" size 1234436096 crc A4176C17 md5 D9B37D2A8011991A7CE7219E86ACE22B sha1 CED57A6724BE1B7204E0D30A7E58F89321AB686D serial "SCUS-97431" )
 )
 game (
 	name "Kimi ga Aruji de Shitsuji ga Ore de - Otsukae Nikki (Japan)"
@@ -35637,15 +34671,6 @@ game (
 	region "Europe"
 	serial "SLES-53381"
 	rom ( name "King of Fighters 2002, The (Europe).bin" size 446463696 crc 446623A0 md5 701E80097D5B3287431479B5A72951E3 sha1 D93990790F23617133AEEFC725C1CF411D48B24A serial "SLES-53381" )
-)
-game (
-	name "King of Fighters 2002, The (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "04"
-	releaseday "07"
-	region "Europe"
-	serial "SLES-53381"
-	rom ( name "King of Fighters 2002, The (Europe) (Beta) (2005-04-07).bin" size 446454288 crc 10E8FE46 md5 F3F8591F8BE706BB8DDFC14E470DC574 sha1 A46F80E01FC06DDDF4D2FF3806E6BF5481831B10 serial "SLES-53381" )
 )
 game (
 	name "King of Fighters 2002, The (Japan) (SNK Best Collection)"
@@ -36068,15 +35093,6 @@ game (
 	rom ( name "Kingdom Hearts II (USA).iso" size 3966500864 crc 480FFF02 md5 555A44810ADA3C45A1333203B43F8BB3 sha1 7E57081735D82FD84BE7F79AB05AD3E795BC7E5E serial "SLUS-21005GH" )
 )
 game (
-	name "Kingdom Hearts II (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "03"
-	region "USA"
-	serial "SLUS-21005"
-	rom ( name "Kingdom Hearts II (USA) (Beta) (2006-02-03).iso" size 3966337024 crc E19BD60F md5 EA32279A3C5574074C52F3D6D407BEA1 sha1 E9A301FD5C37C5269D52DDA3B43D1C745AA235CC serial "SLUS-21005" )
-)
-game (
 	name "Kingdom Hearts II - Final Mix (Japan)"
 	region "Japan"
 	serial "SLPM-55020"
@@ -36341,28 +35357,10 @@ game (
 	rom ( name "Kiwame Mahjong DX II - The 4th Mondo 21 Cup Competition (Japan).bin" size 702351888 crc 1CEFF3B2 md5 E99FCFA3761C81FA89EA4B1EEBD2BC5E sha1 8D0C6A4F7F1E959FD1846AEE44955D7D0378276E serial "SLPM-62428" )
 )
 game (
-	name "Klonoa 2 - Lunatea's Veil (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "05"
-	releaseday "30"
-	region "Europe"
-	serial "SLUS-20151"
-	rom ( name "Klonoa 2 - Lunatea's Veil (Europe) (Beta) (2001-05-30).iso" size 1302231040 crc 19A7DF8D md5 C8FA4FA8BD535AFC2589D0314A5588E9 sha1 8F6222B1AE648A31AA72219002DAD5FCB17450C9 serial "SLUS-20151" )
-)
-game (
 	name "Klonoa 2 - Lunatea's Veil (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-50354"
 	rom ( name "Klonoa 2 - Lunatea's Veil (Europe) (En,Fr,De,Es,It).iso" size 2934931456 crc 73670848 md5 AF79B03278C0E2333E29DCD625890AC9 sha1 8C2BFD7922A1704633111AD64074D622A9FCFEBC serial "SCES-50354" )
-)
-game (
-	name "Klonoa 2 - Lunatea's Veil (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "20"
-	region "Europe"
-	serial "SCES-50354"
-	rom ( name "Klonoa 2 - Lunatea's Veil (Europe) (En,Fr,De,Es,It) (Beta) (2001-09-20).iso" size 2934929408 crc 39EFDD35 md5 1868675BDC8FB35A18B013185B3E525A sha1 92A97CAA505D7D662E0330ADFA2CBB3259E63AE4 serial "SCES-50354" )
 )
 game (
 	name "Klonoa 2 - Lunatea's Veil (USA)"
@@ -37191,26 +36189,26 @@ game (
 game (
 	name "LEGO Super Soccer Adventure (Europe) (Proto)"
 	releaseyear "2003"
+	releasemonth "04"
+	releaseday "24"
+	region "Europe"
+	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto) (2003-04-24).bin" size 249145008 crc AF38E6A0 md5 3AF3DED758E22BEA65B7DC917A459EFA sha1 46098FC1FF7A8DCB25339965537452C0A8C34CE9 )
+)
+game (
+	name "LEGO Super Soccer Adventure (Europe) (Proto) (Alt 1)"
+	releaseyear "2003"
 	releasemonth "02"
 	releaseday "07"
 	region "Europe"
 	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto) (2003-02-07).bin" size 251304144 crc A1FCC1F6 md5 5BDD743FE5990E5FC20EB3FBB818320C sha1 19DB308DC98B1F098121343CE12EC35E4767F926 )
 )
 game (
-	name "LEGO Super Soccer Adventure (Europe) (Proto)"
+	name "LEGO Super Soccer Adventure (Europe) (Proto) (Alt 2)"
 	releaseyear "2003"
 	releasemonth "03"
 	releaseday "27"
 	region "Europe"
 	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto) (2003-03-27).bin" size 177244368 crc F9300A48 md5 64DF503737E95961D678BE4C792D98A3 sha1 14C1553E5884EE6CC702C79743CE828B5FDB78DF )
-)
-game (
-	name "LEGO Super Soccer Adventure (Europe) (Proto)"
-	releaseyear "2003"
-	releasemonth "04"
-	releaseday "24"
-	region "Europe"
-	rom ( name "LEGO Super Soccer Adventure (Europe) (Proto) (2003-04-24).bin" size 249145008 crc AF38E6A0 md5 3AF3DED758E22BEA65B7DC917A459EFA sha1 46098FC1FF7A8DCB25339965537452C0A8C34CE9 )
 )
 game (
 	name "LMA Manager 2002 (Europe)"
@@ -37303,15 +36301,6 @@ game (
 	rom ( name "Langrisser III (Japan).bin" size 651560448 crc C18492A9 md5 D8AA7691FCCC767D60FAA7D5E15E9792 sha1 191AF46F0D93A8DE5D60F0B23E82A15DBA8235C0 serial "SLPM-62689" )
 )
 game (
-	name "Lara Croft Tomb Raider - Anniversary (Australia) (Beta)"
-	releaseyear "2007"
-	releasemonth "04"
-	releaseday "10"
-	region "Australia"
-	serial "SLES-54674"
-	rom ( name "Lara Croft Tomb Raider - Anniversary (Australia) (Beta) (2007-04-10).iso" size 4223905792 crc E870B4C3 md5 93F8DD5C9EC6EE7AA30B7229679C998E sha1 4FA634844E265C0EF115DA5EED798F13BADC4FC2 serial "SLES-54674" )
-)
-game (
 	name "Lara Croft Tomb Raider - Anniversary (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-54674"
@@ -37352,14 +36341,6 @@ game (
 	region "Europe"
 	serial "SLES-53908-P2"
 	rom ( name "Lara Croft Tomb Raider - Legend (Europe) (En,Fr,De,Es,It).iso" size 4271702016 crc 77BF8235 md5 1A9D90A3F88A1CAFA371A5F640497FC1 sha1 3350E668023BEF981D0E46B236D48DC48E7E3DAE serial "SLES-53908-P2" )
-)
-game (
-	name "Lara Croft Tomb Raider - Legend (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "12"
-	region "Europe"
-	rom ( name "Lara Croft Tomb Raider - Legend (Europe) (En,Fr,De,Es,It) (Beta) (2006-02-12).iso" size 4270915584 crc 7BE9820B md5 6880DC2C3BE70E38497F7F30DE1FA514 sha1 6CA670EAF21B765882FD13EDD24577A771A9AB1D )
 )
 game (
 	name "Lara Croft Tomb Raider - Legend (Japan)"
@@ -37817,15 +36798,6 @@ game (
 	rom ( name "Lemmings (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).iso" size 1826390016 crc 3764F2F4 md5 A9A6BA1E8FDB54B3E1510380D3FD2C4D sha1 622F3896585830138D972569DE276FAC127971E5 serial "SCES-54145" )
 )
 game (
-	name "Lemmings (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Beta)"
-	releaseyear "2006"
-	releasemonth "08"
-	releaseday "08"
-	region "Europe"
-	serial "SCES-54145"
-	rom ( name "Lemmings (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Beta) (2006-08-08).iso" size 675170304 crc 8E1EB168 md5 5BDBB948474F445872AA55F72C108EEB sha1 B90755E20167BED0E105EF9D0B88824B148E77E6 serial "SCES-54145" )
-)
-game (
 	name "Lemony Snicket - Raetselhafte Ereignisse (Germany)"
 	region "Germany"
 	serial "SLES-52809"
@@ -38270,15 +37242,6 @@ game (
 	rom ( name "Lord of the Rings, The - The Fellowship of the Ring (USA).iso" size 2403368960 crc 24D9CA77 md5 2834DF478D83B4B6934C3FB73BD01557 sha1 A9002989E3B3DAB89EFCE735913A6BED1A7AAB89 serial "SLUS-20520" )
 )
 game (
-	name "Lord of the Rings, The - The Fellowship of the Ring (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "09"
-	releaseday "01"
-	region "USA"
-	serial "SLUS-20520"
-	rom ( name "Lord of the Rings, The - The Fellowship of the Ring (USA) (Beta) (2002-09-01).iso" size 1959591936 crc D786FCB1 md5 CA1D586D884C8BB3C9ED25F867D89636 sha1 455D1EC0835F2C5D5CB58AF097B4AD27CE5D4F3B serial "SLUS-20520" )
-)
-game (
 	name "Lord of the Rings, The - The Return of the King (Asia)"
 	region "Asia"
 	serial "SLAJ-25019"
@@ -38667,15 +37630,6 @@ game (
 	region "USA"
 	serial "SLUS-20105"
 	rom ( name "MDK2 - Armageddon (USA).bin" size 609596064 crc D0E8D703 md5 206F7BBF7A454A5C259C3C58C3E5684E sha1 00208AD732FFF0A6B6FB101AB9EFD55B9B39C4D7 serial "SLUS-20105" )
-)
-game (
-	name "MDK2 - Armageddon (USA) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "03"
-	releaseday "09"
-	region "USA"
-	serial "SLUS-20105"
-	rom ( name "MDK2 - Armageddon (USA) (En,Fr,De,Es,It) (Beta) (2001-03-09).bin" size 702281328 crc C8DD5FBF md5 90EF88C4D3C3350FD64E31252F90D320 sha1 CF77E4EFAAB67E22CFB52C4E0893530A8A43AA3F serial "SLUS-20105" )
 )
 game (
 	name "MLB 06 - The Show (Korea)"
@@ -40393,14 +39347,6 @@ game (
 	rom ( name "Marc Ecko's Getting Up - Contents Under Pressure (USA).iso" size 2227830784 crc 3BD723CD md5 5B089C19DD81A6CA58A4A03FAB8974DB sha1 AAC01955B0B76AE19A48CA3730723349697D996B serial "SLUS-21032" )
 )
 game (
-	name "Marc Ecko's Getting Up - Contents Under Pressure (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "14"
-	region "USA"
-	rom ( name "Marc Ecko's Getting Up - Contents Under Pressure (USA) (Beta) (2005-08-14).iso" size 542894080 crc B51BD15D md5 4E333C004903458489F7827FB3154A8E sha1 6787ACBFF87A8C2D5B4BD0AB8F9FF313164E48AD )
-)
-game (
 	name "Marcel Desailly Pro Football (France)"
 	region "France"
 	serial "SLES-50853"
@@ -40549,15 +39495,6 @@ game (
 	region "Japan"
 	serial "SLPM-62227"
 	rom ( name "Marvel vs. Capcom 2 - New Age of Heroes (Japan).bin" size 239316000 crc E13EADE4 md5 F63C41C989C2F735C8179A179964E4ED sha1 F771EA96F4DE654BF450A25DD5C19235C307112E serial "SLPM-62227" )
-)
-game (
-	name "Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Beta)"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "08"
-	region "Japan"
-	serial "SLPM-62227"
-	rom ( name "Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Beta) (2002-08-08).bin" size 239330112 crc 7BE9D15C md5 97E1CC02BAECF33EC2418AEE4A01DE70 sha1 631425CFFFF57B476DA04FF29D2E98889BE6C297 serial "SLPM-62227" )
 )
 game (
 	name "Marvel vs. Capcom 2 - New Age of Heroes (Japan) (Taikenban)"
@@ -40908,15 +39845,6 @@ game (
 	region "USA"
 	serial "SLUS-20017"
 	rom ( name "Maximo - Ghosts to Glory (USA).bin" size 720765696 crc 78422B6D md5 1054CC7A8E455EE5E7C8F01D3FADA398 sha1 A6A16DA4A87B23615FD2DA130762B8C57E237F2C serial "SLUS-20017" )
-)
-game (
-	name "Maximo - Ghosts to Glory (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "12"
-	releaseday "05"
-	region "USA"
-	serial "SLUS-20017"
-	rom ( name "Maximo - Ghosts to Glory (USA) (Beta) (2001-12-05).bin" size 720765696 crc C455F466 md5 F8F26DE517EC7299DE3FCD3C91FF31DA sha1 E51381C9BEA2B73A44D28CB80F2B73E9A7B2EFB5 serial "SLUS-20017" )
 )
 game (
 	name "Maximo vs Army of Zin (Europe) (En,Fr,De,Es,It)"
@@ -42007,15 +40935,6 @@ game (
 	rom ( name "Metal Gear Solid 3 - Snake Eater (USA).iso" size 4558848000 crc AB641E5C md5 10310A8E67B7F6C43616E0886BDC973C sha1 818E30D52FEAF134ECB0CCC306EFEBC16022F5E8 serial "SLUS-20915" )
 )
 game (
-	name "Metal Gear Solid 3 - Subsistence (Europe) (En,Fr) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "16"
-	region "Europe"
-	serial "TLES-82043"
-	rom ( name "Metal Gear Solid 3 - Subsistence (Europe) (En,Fr) (Beta) (2006-02-16).iso" size 1509326848 crc E2E42A5E md5 AFB4B5F06BF416C3E11281E0D6695409 sha1 1497E5F630F9BC1FB1D018883DE90B4E451DC60A serial "TLES-82043" )
-)
-game (
 	name "Metal Gear Solid 3 - Subsistence (Europe) (En,Fr) (Disc 1) (Subsistence)"
 	region "Europe"
 	serial "SLES-82042"
@@ -42598,15 +41517,6 @@ game (
 	rom ( name "Micro Machines V4 (Europe) (En,Fr,De,Es,It).bin" size 662572512 crc CC1FC262 md5 425B28E4A8169D43DF0FB134655D30BD sha1 F51D67D19B0FF78861CD1AD1EBCDBBED3647A3F1 serial "SLES-53668" )
 )
 game (
-	name "Micro Machines V4 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2006"
-	releasemonth "05"
-	releaseday "24"
-	region "Europe"
-	serial "SLES-53668"
-	rom ( name "Micro Machines V4 (Europe) (En,Fr,De,Es,It) (Beta) (2006-05-24).bin" size 662572512 crc 94B46A60 md5 DB14662C812EA2C99100E19A858BAD0E sha1 E82D281CCE9820AB1F2D8954E3CF6F8DB2EAF04F serial "SLES-53668" )
-)
-game (
 	name "Micro Machines V4 (USA)"
 	region "USA"
 	serial "SLUS-21402"
@@ -42623,15 +41533,6 @@ game (
 	region "Europe"
 	serial "SLES-50054-P"
 	rom ( name "Midnight Club - Street Racing (Europe).bin" size 547108128 crc E4F0E8D1 md5 D85484DD1FE7926AAC61AE8C70463305 sha1 4AE48FCD33EC10E936C4F0C1E04F51B2A2F2EF2B serial "SLES-50054-P" )
-)
-game (
-	name "Midnight Club - Street Racing (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "10"
-	releaseday "18"
-	region "Europe"
-	serial "SLES-50054"
-	rom ( name "Midnight Club - Street Racing (Europe) (Beta) (2000-10-18).bin" size 540795360 crc 3C184EA2 md5 25BEEAB7002CEE432E80B61F285D5B7C sha1 DFFA4F43E7DAD1C0E112F6D9F7A97CB57A6D6251 serial "SLES-50054" )
 )
 game (
 	name "Midnight Club - Street Racing (Europe) (En,Fr,De,Es,It)"
@@ -42958,15 +41859,6 @@ game (
 	rom ( name "Minna no Golf Online (Japan).iso" size 1437204480 crc 9A3C21AA md5 45E417E9831EE84B8399C26ADF99802E sha1 ED46B996E93198DF41AFA7E4887077B73C465B9A serial "SCPS-15049" )
 )
 game (
-	name "Minna no Golf Online (Japan) (Beta)"
-	releaseyear "2002"
-	releasemonth "12"
-	releaseday "13"
-	region "Japan"
-	serial "SCPM-85302"
-	rom ( name "Minna no Golf Online (Japan) (Beta) (2002-12-13).iso" size 1285128192 crc 1E30F4DA md5 F371C334368D1F0CD65061697A2D6730 sha1 64185B1F8D537ADC019B783527F6CAA7728EB1B4 serial "SCPM-85302" )
-)
-game (
 	name "Minna no Tennis (Japan) (Taikenban)"
 	region "Japan"
 	serial "PCPX-98042"
@@ -43013,15 +41905,6 @@ game (
 	region "France"
 	serial "SLES-51317"
 	rom ( name "Minority Report - Le Futur vous Rattrape (France).iso" size 1473773568 crc DB875FD7 md5 D5C38713A557ACCF4E6512865C0B2BCA sha1 1C25BAFE9744202A6FC4D1EDFCB532FAB805942C serial "SLES-51317" )
-)
-game (
-	name "Mirage (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "16"
-	region "Europe"
-	serial "TCES-10001"
-	rom ( name "Mirage (Europe) (Beta) (2004-07-16).iso" size 1228898304 crc 30D7072F md5 6D7D07B760615529452D3E690ABFC885 sha1 5EE2049B5A4FCFD3B898EF431B8E6CD7BC45B5EB serial "TCES-10001" )
 )
 game (
 	name "Mirai Shounen Conan (Japan)"
@@ -43624,15 +42507,6 @@ game (
 	rom ( name "Monster House (USA) (En,Fr).iso" size 1328349184 crc F872AFA3 md5 67A884EEB96DB3CA868D527CBB0A4255 sha1 FC576AF99BFFCB83CA1B101D8F94BAC35CD9ED27 serial "SLUS-21400" )
 )
 game (
-	name "Monster Hunter (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "13"
-	region "Europe"
-	serial "TLES-52707"
-	rom ( name "Monster Hunter (Europe) (Beta) (2004-08-13).iso" size 3931013120 crc F0ED8621 md5 02A9492A3FFBF232AA5DF1BC629DB270 sha1 9293B54EED0EBB5AA1A4E3F7A127413679C7F5C9 serial "TLES-52707" )
-)
-game (
 	name "Monster Hunter (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-52707"
@@ -43649,15 +42523,6 @@ game (
 	region "USA"
 	serial "SLUS-20896"
 	rom ( name "Monster Hunter (USA).iso" size 3996745728 crc 8DA5F31B md5 4CE184DA236F65A5C1DF37E5E9C32D00 sha1 5D957D13AE795F40C71D884971397D3A5F2D2533 serial "SLUS-20896" )
-)
-game (
-	name "Monster Hunter (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "05"
-	releaseday "21"
-	region "USA"
-	serial "SLUS-29110"
-	rom ( name "Monster Hunter (USA) (Beta) (2004-05-21).iso" size 3923410944 crc B7B4202C md5 0127D662E9D3744C140DFCFBF17B5893 sha1 206D72D162363A99C43E1BB64FA4AD665EE30D50 serial "SLUS-29110" )
 )
 game (
 	name "Monster Hunter 2 (Japan)"
@@ -44572,14 +43437,6 @@ game (
 	rom ( name "Mystic Heroes (USA).iso" size 3132424192 crc 4A575188 md5 D4F96216FE8F406C61C8C355C9FA3701 sha1 EC3535D18D707B742328EA24CEBE601FE05037F3 serial "SLUS-20521" )
 )
 game (
-	name "Mystical Ninja Goemon Zero (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "26"
-	region "USA"
-	rom ( name "Mystical Ninja Goemon Zero (USA) (Beta) (2005-08-26).iso" size 1267269632 crc C1ABD5A7 md5 6B6FE88E8A0E492AA4CD937AF90E0EF1 sha1 24BA35CBF0820C20C6684A71C0E96080C71AC359 )
-)
-game (
 	name "Myth Makers - Orbs of Doom (Europe)"
 	region "Europe"
 	serial "SLES-52241"
@@ -45004,15 +43861,6 @@ game (
 	region "USA"
 	serial "SLUS-21279"
 	rom ( name "NBA Live 06 (USA).iso" size 4682448896 crc 0738EB19 md5 407A8F1E11C1684A2C1485BF82B116CA sha1 67B2E00669D51D7DF39C4BECCCC5071439B6EC34 serial "SLUS-21279" )
-)
-game (
-	name "NBA Live 06 (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "08"
-	region "USA"
-	serial "SLUS-21279"
-	rom ( name "NBA Live 06 (USA) (Beta) (2005-07-08).iso" size 4678377472 crc 30587D86 md5 E605DCE7FA3B240BD6E8811A0782CC68 sha1 F455891C3C08A173339474EBFF3041860C645BB3 serial "SLUS-21279" )
 )
 game (
 	name "NBA Live 07 (Asia)"
@@ -46293,15 +45141,6 @@ game (
 	rom ( name "Nanobreaker (Japan).iso" size 3795910656 crc C1DE3DF2 md5 2F840E69EB16AA68A263694349119E00 sha1 AEE7827EBE5AFE27C60A014966F57752B1F32813 serial "SLPM-65809" )
 )
 game (
-	name "Nanobreaker (Japan) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "17"
-	region "Japan"
-	serial "SLPM-65809"
-	rom ( name "Nanobreaker (Japan) (Beta) (2004-09-17).iso" size 3784605696 crc 5F2CCA05 md5 F9358E8226377CA0E7C344185050644C sha1 6E4FA6DA7214E45A9D992BEB39DE3AA6B01E82CE serial "SLPM-65809" )
-)
-game (
 	name "Nanobreaker (Korea) (En,Ja)"
 	region "Korea"
 	serial "SLKA-25263"
@@ -46962,15 +45801,6 @@ game (
 	rom ( name "Need for Speed - ProStreet (Russia).iso" size 3815014400 crc 6751134E md5 DA92C539BADE36F3F980B867A085FEFD sha1 1DF7D5FBCDFAD1837E1019944053AFD0E21E2786 serial "SLES-55006" )
 )
 game (
-	name "Need for Speed - ProStreet (USA) (Beta)"
-	releaseyear "2007"
-	releasemonth "10"
-	releaseday "04"
-	region "USA"
-	serial "SLUS-21658"
-	rom ( name "Need for Speed - ProStreet (USA) (Beta) (2007-10-04).iso" size 3684927488 crc 30051B69 md5 EE9CFC917CD6B1131A22C8B30A28FAEC sha1 E76C94F04F3F89EA32E4A0E4033418580D7C5FB8 serial "SLUS-21658" )
-)
-game (
 	name "Need for Speed - ProStreet (USA, Canada)"
 	region "USA"
 	serial "SLUS-21658"
@@ -47286,15 +46116,6 @@ game (
 	region "USA"
 	serial "SLUS-20961"
 	rom ( name "Neo Contra (USA).iso" size 1437499392 crc 73745B99 md5 959E032F4F3CD1163002E1CFDB0DB982 sha1 9B985034B1B55800B8D7F2F35A619746D095FA0E serial "SLUS-20961" )
-)
-game (
-	name "NeoGeo Battle Coliseum (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "09"
-	releaseday "15"
-	region "Europe"
-	serial "SLES-54395"
-	rom ( name "NeoGeo Battle Coliseum (Europe) (Beta) (2006-09-15).iso" size 1999568896 crc 766E475B md5 87CA878676A810C7F6E0401494C55BA2 sha1 AF4B7C697ECFECCCFEBD6014BE306FA44BB534F7 serial "SLES-54395" )
 )
 game (
 	name "NeoGeo Battle Coliseum (Europe, Australia)"
@@ -48137,14 +46958,6 @@ game (
 	rom ( name "Nickelodeon SpongeBob SquarePants - Movin' with Friends (Europe) (En,Fr,De,Es).iso" size 2560065536 crc D2E348BE md5 8C38924E2F38C94AB6DF4DA0867D1043 sha1 6AF5CC60FE4AB5F4AF617DD7C74E0813904FD948 serial "SLES-52907/GER" )
 )
 game (
-	name "Nickelodeon SpongeBob SquarePants - Movin' with Friends (Europe) (En,Fr,De,Es) (Beta)"
-	releaseyear "2004"
-	releasemonth "10"
-	releaseday "29"
-	region "Europe"
-	rom ( name "Nickelodeon SpongeBob SquarePants - Movin' with Friends (Europe) (En,Fr,De,Es) (Beta) (2004-10-29).iso" size 2560065536 crc 60FA3880 md5 7D6503407BA1EA104753BE2BFE1283E3 sha1 B7C5E0FFA75032BD4DCDDB1B899F8D3E7E8CD528 )
-)
-game (
 	name "Nickelodeon SpongeBob SquarePants - Movin' with Friends (Korea)"
 	region "Korea"
 	serial "SLKA-25245"
@@ -48167,14 +46980,6 @@ game (
 	region "USA"
 	serial "SLUS-20425"
 	rom ( name "Nickelodeon SpongeBob SquarePants - Revenge of the Flying Dutchman (USA).bin" size 703685472 crc 57925AE9 md5 7B3CAE6FDA4E171D284A6BC403A07C94 sha1 9FD3FD4E7E5EB11FEA3F4FCD6ABE1E9DE3F8E9C6 serial "SLUS-20425" )
-)
-game (
-	name "Nickelodeon SpongeBob SquarePants - Revenge of the Flying Dutchman (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "05"
-	releaseday "21"
-	region "USA"
-	rom ( name "Nickelodeon SpongeBob SquarePants - Revenge of the Flying Dutchman (USA) (Beta) (2002-05-21).bin" size 306980688 crc D0C358CA md5 FD27F339BECC61CC16C3130D6D6D3057 sha1 F69EBEB79FDBAB68FFB8548C3F2DC8C51B678705 )
 )
 game (
 	name "Nickelodeon SpongeBob SquarePants and Friends Unite! (Europe) (En,Fr,De,Es,It,Nl)"
@@ -48673,24 +47478,6 @@ game (
 	region "Japan"
 	serial "SLPM-65197"
 	rom ( name "Nobunaga no Yabou Online (Japan).iso" size 880967680 crc F107BF54 md5 40F591A940E8949B1628730130F76AF6 sha1 72770AEFD31A75077279952653F44774A34C0B0C serial "SLPM-65197" )
-)
-game (
-	name "Nobunaga no Yabou Online (Japan) (Beta) (v1.04)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "19"
-	region "Japan"
-	serial "SLPM-62208"
-	rom ( name "Nobunaga no Yabou Online (Japan) (Beta) (v1.04) (2002-11-19).bin" size 584622528 crc D2A2A15A md5 38D102E46CB495A7F43237FE57166C73 sha1 3129E0E772B6540AB8FC0799503E37622921C7AC serial "SLPM-62208" )
-)
-game (
-	name "Nobunaga no Yabou Online (Japan) (Beta) (v2.00)"
-	releaseyear "2003"
-	releasemonth "02"
-	releaseday "05"
-	region "Japan"
-	serial "SLPM-62208"
-	rom ( name "Nobunaga no Yabou Online (Japan) (Beta) (v2.00) (2003-02-05).bin" size 581332080 crc C9EE3A6B md5 7EBC769407375554C95E1E277728E7DD sha1 9052A81845B0F8467073694182718FD1999575A4 serial "SLPM-62208" )
 )
 game (
 	name "Nobunaga no Yabou Online - Haten no Shou (Japan)"
@@ -51480,15 +50267,6 @@ game (
 	rom ( name "Onimusha 2 - Samurai's Destiny (Europe) (En,Fr,De,Es,It).iso" size 4650598400 crc A446DED2 md5 E836F3B7F60D93C10FD3F9FF116BF899 sha1 1447DCF3476EE350A0F955581309424DB137E086 serial "SLES-50978" )
 )
 game (
-	name "Onimusha 2 - Samurai's Destiny (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "07"
-	releaseday "24"
-	region "Europe"
-	serial "SLES-50978"
-	rom ( name "Onimusha 2 - Samurai's Destiny (Europe) (En,Fr,De,Es,It) (Beta) (2002-07-24).iso" size 4650729472 crc D4269482 md5 775DF8386E3677D8222F17422C627663 sha1 CADEC70A4E6267741CEA5760251A9CAD00241048 serial "SLES-50978" )
-)
-game (
 	name "Onimusha 2 - Samurai's Destiny (USA)"
 	region "USA"
 	serial "SLUS-20393"
@@ -51695,14 +50473,6 @@ game (
 	region "Europe"
 	serial "SLES-54316"
 	rom ( name "Open Season (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).iso" size 4680908800 crc 4178B0C4 md5 5D370BFDCAB2BDC403B9DA72E1D09E69 sha1 E221F60BFE573485B0B5D5D424712B740A7C713B serial "SLES-54316" )
-)
-game (
-	name "Open Season (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Beta)"
-	releaseyear "2006"
-	releasemonth "09"
-	releaseday "15"
-	region "Europe"
-	rom ( name "Open Season (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi) (Beta) (2006-09-15).iso" size 1307367424 crc 80EDE0D2 md5 B7B07FB4020A6049A9EF932EE30EB70B sha1 344B694A1B47F24FF8DF575ED63CE3A0DB7C9D24 )
 )
 game (
 	name "Open Season (Europe) (En,Fr,Es,Nl)"
@@ -52093,15 +50863,6 @@ game (
 	region "Europe"
 	serial "SLES-53998"
 	rom ( name "OutRun 2006 - Coast 2 Coast (Europe) (En,Fr,De,Es,It).iso" size 1809907712 crc DA7E7CE8 md5 E41576287D3547B3CBB0C01211852A33 sha1 E2D792A2892CEF0EF2A85D17FC350799A18AC0C9 serial "SLES-53998" )
-)
-game (
-	name "OutRun 2006 - Coast 2 Coast (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2006"
-	releasemonth "02"
-	releaseday "13"
-	region "Europe"
-	serial "SLES-53998"
-	rom ( name "OutRun 2006 - Coast 2 Coast (Europe) (En,Fr,De,Es,It) (Beta) (2006-02-13).iso" size 1809909760 crc CEBCBCA5 md5 C482A447C9EC1870F207304647C27755 sha1 CCDF34E29DB552A80AA51082C8580BEAC7D4B897 serial "SLES-53998" )
 )
 game (
 	name "OutRun 2006 - Coast 2 Coast (USA) (En,Fr,Es)"
@@ -52666,15 +51427,6 @@ game (
 	rom ( name "Pa Andra Sidan Haecken (Sweden).iso" size 1729593344 crc 54BB55C9 md5 5A4C9BD6557F01333135846F0C643D46 sha1 2B5EC14C31303537C145BA279C6F26C53DAE515A serial "SLES-54173/P" )
 )
 game (
-	name "PaRappa the Rapper 2 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2001"
-	releasemonth "12"
-	releaseday "06"
-	region "Europe"
-	serial "SCES-50408"
-	rom ( name "PaRappa the Rapper 2 (Europe) (En,Fr,De,Es,It) (Beta) (2001-12-06).iso" size 4524767232 crc 26AF7ABC md5 BA3078EA8729F553600625BD9247DA55 sha1 420F962FD7680651AB4B8CD05CF4677ABF436D37 serial "SCES-50408" )
-)
-game (
 	name "PaRappa the Rapper 2 (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-50408"
@@ -53224,15 +51976,6 @@ game (
 	region "Europe"
 	serial "SLES-50252"
 	rom ( name "Penny Racers (Europe) (En,Fr,De).iso" size 1133805568 crc 163E09B1 md5 DC75D499E97B2E5AEA71EE65DB0C64AC sha1 A8D350FE4B577E3A8536BAC12E1E7376D5F1B2C6 serial "SLES-50252" )
-)
-game (
-	name "Penny Racers (Europe) (En,Fr,De) (Beta)"
-	releaseyear "2001"
-	releasemonth "08"
-	releaseday "24"
-	region "Europe"
-	serial "SLES-50252"
-	rom ( name "Penny Racers (Europe) (En,Fr,De) (Beta) (2001-08-24).iso" size 1133805568 crc 0DB5768E md5 BDBB42B8E0E2EB72BDF16645FFB4D850 sha1 7B7FE9DF7235D42A74FD7BCA718166FA5AE07110 serial "SLES-50252" )
 )
 game (
 	name "Perfect Ace - Pro Tournament Tennis (Europe, Australia) (En,Fr,De,Es,It)"
@@ -54063,15 +52806,6 @@ game (
 	rom ( name "PlayOnline Beta Edition - PlayOnline Viewer Beta Version & Tetra Master Beta Version (Japan).bin" size 216019440 crc 3F812465 md5 62F61A51755C5250D5207689245868E3 sha1 17AA194A6568C87FFFE00D35E436181BEAA15FB0 serial "SLPM-62086" )
 )
 game (
-	name "PlayOnline Viewer & Tetra Master (Japan) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "20"
-	region "Japan"
-	serial "SLPM-62134"
-	rom ( name "PlayOnline Viewer & Tetra Master (Japan) (Beta) (2001-11-20).bin" size 259202160 crc AC311B8B md5 C6597DDF5A8B8A349B988D087C174FE6 sha1 949AB636F61ED1FE614934458AC11FB51C5FB95E serial "SLPM-62134" )
-)
-game (
 	name "PlayOnline Viewer - Tetra Master & Janhourou (Japan)"
 	region "Japan"
 	serial "SLPM-62332"
@@ -54094,15 +52828,6 @@ game (
 	region "Japan"
 	serial "SLPS-20232"
 	rom ( name "PlayOnline Viewer - Tetra Master & Janhourou (Japan).bin" size 325848432 crc 6C88624F md5 7057ECD06332E7B2AABF0073454B17C6 sha1 ECD75A632F66D288BDA9113CE03122869B2581F7 serial "SLPS-20232" )
-)
-game (
-	name "PlayOnline Viewer and Tetra Master (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "04"
-	releaseday "09"
-	region "USA"
-	serial "SCUS-97272"
-	rom ( name "PlayOnline Viewer and Tetra Master (USA) (Beta) (2003-04-09).bin" size 221581920 crc 90AB9910 md5 CCAE6F2C86F491FF62C5D52923D8222C sha1 CB6A1BD6C7B6FBD750EBDD22248C92843348E69B serial "SCUS-97272" )
 )
 game (
 	name "PlayOnline Viewer and Tetra Master (USA, Canada)"
@@ -55176,27 +53901,10 @@ game (
 	rom ( name "Primal & The Mark of Kri (Europe).iso" size 1649803264 crc F0C68875 md5 AC5B76BD39B0CABD1ACFE4DCB08DF502 sha1 A144B1B6FCD07E141ADC03BF15973D7E8B19F226 serial "SCED-51491" )
 )
 game (
-	name "Primal (Europe) (En,Fr) (Beta)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "04"
-	region "Europe"
-	rom ( name "Primal (Europe) (En,Fr) (Beta) (2002-11-04).iso" size 3178692608 crc F04EE31E md5 F9DB023C4A00BC2FF42347C890AB1FB5 sha1 01B237D7EE5D1C610B3F6B7FEEC533261CE39E29 )
-)
-game (
 	name "Primal (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-51135"
 	rom ( name "Primal (Europe) (En,Fr,De,Es,It).iso" size 4582342656 crc 8CC9BCC6 md5 943C9C180A1CDBC0597B456ADDD75F5F sha1 AFD56390D5218DA9EB661D145C7A1133070B7565 serial "SCES-51135" )
-)
-game (
-	name "Primal (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "01"
-	releaseday "08"
-	region "Europe"
-	serial "SCES-51135"
-	rom ( name "Primal (Europe) (En,Fr,De,Es,It) (Beta) (2003-01-08).iso" size 4557078528 crc 7C9BE239 md5 EFAABA1BE07596520D82890C0EB0EAF8 sha1 3DC57DCE5CA2A78E7401D0B7C68A5AB577A6A073 serial "SCES-51135" )
 )
 game (
 	name "Primal (Russia) (En,Ru)"
@@ -55281,15 +53989,6 @@ game (
 	region "USA"
 	serial "SLUS-20743GH"
 	rom ( name "Prince of Persia - The Sands of Time (USA) (En,Fr,Es).iso" size 2409725952 crc D9E52D16 md5 0F10ADF3C83ADAE47E249814C6090AA6 sha1 75E42F5E1ECF31014C4B725038465799209F57DB serial "SLUS-20743GH" )
-)
-game (
-	name "Prince of Persia - The Two Thrones (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "30"
-	region "Europe"
-	serial "SLES-53777"
-	rom ( name "Prince of Persia - The Two Thrones (Europe) (En,Fr,De,Es,It) (Beta) (2005-09-30).iso" size 914999296 crc 6443EE64 md5 9A7A28A9A3A6428A58BF7C789787BCA4 sha1 9DC946E30E04BCCBDF473E508908F3AE680C0959 serial "SLES-53777" )
 )
 game (
 	name "Prince of Persia - The Two Thrones (Europe, Australia) (En,Fr,De,Es,It)"
@@ -55580,15 +54279,6 @@ game (
 	rom ( name "Pro Evolution Soccer 4 (Italy).iso" size 1230340096 crc EB1C5041 md5 E88878CCD8447DB31AEA3176EAA659FC sha1 2192215A80B495554A4A5841B76AA433D3A84F6C serial "SLES-52800" )
 )
 game (
-	name "Pro Evolution Soccer 5 (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "01"
-	region "Europe"
-	serial "TLES-53544"
-	rom ( name "Pro Evolution Soccer 5 (Europe) (Beta) (2005-07-01).iso" size 2070872064 crc A319E9F1 md5 8FB81FEB0ACA7FE41F3B82D0B31332AF sha1 317686C89724CA25DD20194162FE682297FBF72B serial "TLES-53544" )
-)
-game (
 	name "Pro Evolution Soccer 5 (Europe) (En,Fr,De,Es)"
 	region "Europe"
 	serial "SLES-53544"
@@ -55835,15 +54525,6 @@ game (
 	rom ( name "Project - Snowblind (USA).iso" size 1781334016 crc 9CDCA085 md5 5A434DB3881F008CFC871864BD41842B sha1 CFA17D390DF4947FE250002050EC98383E514EC5 serial "SLUS-21037F" )
 )
 game (
-	name "Project - Snowblind (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "11"
-	releaseday "07"
-	region "USA"
-	serial "SLUS-29131"
-	rom ( name "Project - Snowblind (USA) (Beta) (2004-11-07).iso" size 1499791360 crc D68F932D md5 11BDCB29DE298F4F0A232B13BD383B9C sha1 FD2F5E081919622A0E3241AA4CA7FEC8C6A51255 serial "SLUS-29131" )
-)
-game (
 	name "Project Arms (Japan)"
 	region "Japan"
 	serial "SLPS-25102"
@@ -55914,15 +54595,6 @@ game (
 	region "Europe"
 	serial "SLES-52384"
 	rom ( name "Project Zero II - Crimson Butterfly (Europe) (En,Fr,De,Es,It).iso" size 3699998720 crc 4FCBE509 md5 A3C7281266E4BEE08444C1E16D8B6782 sha1 953EAA4DC1156A999594B3C8F3B155F9C30EDEAB serial "SLES-52384" )
-)
-game (
-	name "Project Zero II - Crimson Butterfly (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "02"
-	releaseday "06"
-	region "Europe"
-	serial "SLES-52384"
-	rom ( name "Project Zero II - Crimson Butterfly (Europe) (En,Fr,De,Es,It) (Beta) (2004-02-06).iso" size 3711301632 crc F94DAB7C md5 1DF17721EFF7FAE329A3C285B71D76C3 sha1 1BB98FA7A6E6F80F90B9EBCE61321827AA07A7E3 serial "SLES-52384" )
 )
 game (
 	name "Pryzm - Chapter One - The Dark Unicorn (Europe) (En,Fr,De,Es)"
@@ -56007,15 +54679,6 @@ game (
 	region "Europe"
 	serial "SLES-51675/GER"
 	rom ( name "Psyvariar - Complete Edition (Europe) (En,Ja,Fr,De).bin" size 696323712 crc 7B380F58 md5 4ADC7819EA5C2ABF3C72106DCE27C451 sha1 27F9BF6AF60DFE9C95462336C9E52EA4953D40B5 serial "SLES-51675/GER" )
-)
-game (
-	name "Psyvariar - Complete Edition (Europe) (En,Ja,Fr,De) (Beta)"
-	releaseyear "2003"
-	releasemonth "04"
-	releaseday "15"
-	region "Europe"
-	serial "SLES-51675"
-	rom ( name "Psyvariar - Complete Edition (Europe) (En,Ja,Fr,De) (Beta) (2003-04-15).bin" size 696293136 crc F899A2E3 md5 62C75ECF416B9371700AA4B697348104 sha1 457B1463FA3293EAD46939BEE6AE954CA097C650 serial "SLES-51675" )
 )
 game (
 	name "Psyvariar - Complete Edition (Japan)"
@@ -56118,14 +54781,6 @@ game (
 	region "Europe"
 	serial "SLES-53049"
 	rom ( name "Punisher, The (Europe) (Es,It).iso" size 2258796544 crc AD83796E md5 6254E05EEB0E132C35B521E5C9E6166D sha1 D388086D63C211ABCBF290580D0ECCBB251993DF serial "SLES-53049" )
-)
-game (
-	name "Punisher, The (Europe) (Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "05"
-	region "Europe"
-	rom ( name "Punisher, The (Europe) (Es,It) (Beta) (2005-01-05).iso" size 2257031168 crc E90D6D7D md5 4D9A161C232A8220388A8D10D3AFE97C sha1 6172EA1C3B59EC0F26D4942486CF7D7211A12A95 )
 )
 game (
 	name "Punisher, The (Russia)"
@@ -56948,14 +55603,6 @@ game (
 	rom ( name "Ratchet & Clank (Japan).iso" size 1807187968 crc 24ECBBCB md5 D52141B6B229282EDE00585C6168CA44 sha1 70485D9E9617CFB9C21F999C176F45144AA97289 serial "SCPS-19316" )
 )
 game (
-	name "Ratchet & Clank (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "06"
-	releaseday "25"
-	region "USA"
-	rom ( name "Ratchet & Clank (USA) (Beta) (2002-06-25).iso" size 4689821696 crc 4D2ADB39 md5 A82662535A9C0ED79E4E6D14CB2235C5 sha1 07889363EB13DED39D4A996F1024C9540092149D )
-)
-game (
 	name "Ratchet & Clank (USA) (Demo 1)"
 	region "USA"
 	serial "SCUS-97209"
@@ -57040,15 +55687,6 @@ game (
 	rom ( name "Ratchet & Clank - Size Matters (USA).iso" size 1744764928 crc AADFF06E md5 0A5F0875BDC609F4726A19DF0FE6BB7B sha1 61B9CF7F46B8FC318DAA2B98CFC53301654775D6 serial "SCUS-97615" )
 )
 game (
-	name "Ratchet & Clank - Up Your Arsenal (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "06"
-	releaseday "20"
-	region "USA"
-	serial "SCUS-97413"
-	rom ( name "Ratchet & Clank - Up Your Arsenal (USA) (Beta) (2004-06-20).iso" size 1262387200 crc 1A0C9EC6 md5 17804B6D0D7DEFC8BB75124D9A0EDEB8 sha1 4089C760E4C92BC2EBADCC76D1168F65D0CDDF47 serial "SCUS-97413" )
-)
-game (
 	name "Ratchet & Clank - Up Your Arsenal (USA) (En,Fr,Es)"
 	region "USA"
 	serial "SCUS-97353"
@@ -57101,24 +55739,6 @@ game (
 	region "Japan"
 	serial "SCPS-19317"
 	rom ( name "Ratchet & Clank 2 - Gagaga! Ginga no Commando ssu (Japan, Asia).iso" size 3683680256 crc C78F90D4 md5 01ABDBE56DE95AF5B5379CF7FEA1BEC0 sha1 84608B7EE5F6AB57EF0598984CEE674487F4AC7E serial "SCPS-19317" )
-)
-game (
-	name "Ratchet & Clank 3 (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "12"
-	region "Europe"
-	serial "TCES-52456"
-	rom ( name "Ratchet & Clank 3 (Europe) (Beta) (2004-07-12).iso" size 1262387200 crc B18DED45 md5 F0E75D9F1E9C074373D6298AA44D431A sha1 FFC6872964ACA480E5263FA0FB23E6E443ACDC71 serial "TCES-52456" )
-)
-game (
-	name "Ratchet & Clank 3 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "13"
-	region "Europe"
-	serial "SCES-52456"
-	rom ( name "Ratchet & Clank 3 (Europe) (En,Fr,De,Es,It) (Beta) (2004-09-13).iso" size 4524376064 crc 7C1A060D md5 D726DDD18839233513D9EC9CC005E1C5 sha1 BA21137B05EAC097E630B72BB1FD5325CB2827CA serial "SCES-52456" )
 )
 game (
 	name "Ratchet & Clank 3 (Europe, Australia) (En,Fr,De,Es,It)"
@@ -57209,15 +55829,6 @@ game (
 	region "Japan"
 	serial "SCPS-15120"
 	rom ( name "Ratchet & Clank 5 - Gekitotsu! Dodeka Ginga no Miri Miri Gundan (Japan).iso" size 1726054400 crc 66041D0E md5 BE6645AE1CC7EF35210E1D3766FD8C5E sha1 F3C227267E6F015FB6D40F1925669DE98546AA40 serial "SCPS-15120" )
-)
-game (
-	name "Ratchet - Deadlocked (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "30"
-	region "USA"
-	serial "SCUS-97487"
-	rom ( name "Ratchet - Deadlocked (USA) (Beta) (2005-06-30).iso" size 1262387200 crc 47E09A81 md5 2BD89E4F6A14F69C670B9CED72C09987 sha1 478A32481D15FCAD20616442BB94A8BE5CA37EBF serial "SCUS-97487" )
 )
 game (
 	name "Ratchet - Deadlocked (USA) (En,Fr,Es)"
@@ -57374,14 +55985,6 @@ game (
 	region "Europe"
 	serial "SLES-50044-P"
 	rom ( name "Rayman Revolution (Europe) (En,Fr,De,Es,It).iso" size 4492591104 crc 023A2897 md5 4173B3103A4C6C86F6D9B9D83609E6F1 sha1 58F3CC922DEB10E5E1FBD824AE8B52AF6253C3B4 serial "SLES-50044-P" )
-)
-game (
-	name "Rayman Revolution (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2000"
-	releasemonth "11"
-	releaseday "16"
-	region "Europe"
-	rom ( name "Rayman Revolution (Europe) (En,Fr,De,Es,It) (Beta) (2000-11-16).iso" size 4487446528 crc C387A157 md5 247AECCD3F60C5B1A5C943CC3274A463 sha1 316C7185F1BF100295B82062FB783D87AADE3346 )
 )
 game (
 	name "Rayman Revolution (Japan)"
@@ -57696,15 +56299,6 @@ game (
 	rom ( name "Red Ninja - Kekka no Mai (Japan).iso" size 2592702464 crc 97495249 md5 1F53B9D2D84583A6D9FEA661E63660F2 sha1 5618485EC1D6E7B8336E8E987B109ACC7F577D2B serial "SLPM-65945" )
 )
 game (
-	name "Red Star, The (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "23"
-	region "Europe"
-	serial "SLES-52741"
-	rom ( name "Red Star, The (Europe) (Beta) (2004-07-23).iso" size 2157215744 crc B1F6B970 md5 6CE21C7F1CC6A545DF294C70A440C6AA sha1 B2D3D85072DA842DE75C4BBD072F2CC84FF64C9E serial "SLES-52741" )
-)
-game (
 	name "Red Star, The (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-54581"
@@ -57901,15 +56495,6 @@ game (
 	region "Europe"
 	serial "SLES-51589/P"
 	rom ( name "Resident Evil - Outbreak (Europe, Australia) (En,Fr,De,Es,It).iso" size 4698767360 crc 6CE5E8C5 md5 D505D8E304F33934D8C628A86D5A00B3 sha1 08F4E1D7FE1C4D69473CE60006DF0496AA636ADF serial "SLES-51589/P" )
-)
-game (
-	name "Resident Evil - Outbreak (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "12"
-	releaseday "19"
-	region "USA"
-	serial "SLUS-29089"
-	rom ( name "Resident Evil - Outbreak (USA) (Beta) (2003-12-19).iso" size 4698767360 crc 5C7F19E2 md5 4BDFC1700CD493D73E68F916579F7F0E sha1 BE48653AEA86A6BE0DCBEC2C0A927EE6647D152C serial "SLUS-29089" )
 )
 game (
 	name "Resident Evil - Outbreak (USA) (v1.01)"
@@ -58338,15 +56923,6 @@ game (
 	rom ( name "Road Trip Adventure (Europe, Australia) (En,Fr,De).bin" size 617825712 crc C60376DC md5 789C4A55800CB4F05285E08EBB8E18C3 sha1 02D2ED9975556DE654AFB80B1DC44AEE6630B2A4 serial "SLES-51356/GER" )
 )
 game (
-	name "RoadKill (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "09"
-	releaseday "09"
-	region "Europe"
-	serial "SLES-51842"
-	rom ( name "RoadKill (Europe) (Beta) (2003-09-09).iso" size 1787133952 crc 4196FE70 md5 AC8F4088991729F43CFBA39A55949C22 sha1 176F41CAFE7D565EFAF7E21E17D214A45F04D4C0 serial "SLES-51842" )
-)
-game (
 	name "RoadKill (Europe) (En,Fr,Es,It)"
 	region "Europe"
 	serial "SLES-51842"
@@ -58387,15 +56963,6 @@ game (
 	region "Europe"
 	serial "SLES-51374"
 	rom ( name "RoboCop (Europe) (En,Fr,De,Es,It).bin" size 570218880 crc 06EF9D9D md5 12946B25C5D62B744EC9755A8FE81506 sha1 02222C77AD13C2D8F63541ED1FCC1A3B7545BDD9 serial "SLES-51374" )
-)
-game (
-	name "RoboCop (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "05"
-	releaseday "14"
-	region "USA"
-	serial "SLPS-12345"
-	rom ( name "RoboCop (USA) (Beta) (2001-05-14).bin" size 73845744 crc 05116E67 md5 7067699B798E9B68405793352C4007C0 sha1 AB3859A37E9B68CD9D55D79BAA3B9BB3CA0B58AF serial "SLPS-12345" )
 )
 game (
 	name "RoboCop - Aratanaru Kiki (Japan)"
@@ -58722,15 +57289,6 @@ game (
 	rom ( name "Rogue Ops (Europe) (En,Fr,De,Es,It,Nl).iso" size 3663003648 crc 3CC6F075 md5 66016DFC63C3E3F1C8FEF80EA9701BD6 sha1 6BB4491E9193D46BCA0B5FBB6D97CD68F358E0FF serial "SLES-52002" )
 )
 game (
-	name "Rogue Ops (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	releaseyear "2003"
-	releasemonth "11"
-	releaseday "06"
-	region "Europe"
-	serial "SLES-52002"
-	rom ( name "Rogue Ops (Europe) (En,Fr,De,Es,It,Nl) (Beta) (2003-11-06).iso" size 3663134720 crc 3DA30352 md5 6DC81D1CEC3AB0B8BBD6026C1DF4FA37 sha1 BDFC18E373CE7AFA75BD9484B47C1DA0A43FB4E9 serial "SLES-52002" )
-)
-game (
 	name "Rogue Ops (Japan)"
 	region "Japan"
 	serial "SLPM-65534"
@@ -58741,15 +57299,6 @@ game (
 	region "USA"
 	serial "SLUS-20746"
 	rom ( name "Rogue Ops (USA).iso" size 3393945600 crc 1443BA79 md5 18D680B689F0B684E5C5FDBF3B3E02BF sha1 158FD8000651B27EF926FFA2DC16CC209EC321F1 serial "SLUS-20746" )
-)
-game (
-	name "Rogue Ops (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "08"
-	releaseday "21"
-	region "USA"
-	serial "SLUS-20746"
-	rom ( name "Rogue Ops (USA) (Beta) (2003-08-21).iso" size 2907996160 crc B7D654F7 md5 082D1CE524E4486622F7526B79DBCDCE sha1 2E09AF881695EEB86AED183D9E576CFA7BC1BD43 serial "SLUS-20746" )
 )
 game (
 	name "Rogue Ops (USA) (Trade Demo)"
@@ -58816,15 +57365,6 @@ game (
 	region "Europe"
 	serial "SLES-51906"
 	rom ( name "Rolling (Europe) (En,Fr,De,Es,It).iso" size 4623040512 crc 1D332FC6 md5 9307783844283F1B563D1FCE3C29B667 sha1 4E62E446D754B848A24560ABFFF2BAE4A5AD8CD2 serial "SLES-51906" )
-)
-game (
-	name "Rolling (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "08"
-	releaseday "04"
-	region "Europe"
-	serial "SLES-51906"
-	rom ( name "Rolling (Europe) (En,Fr,De,Es,It) (Beta) (2003-08-04).iso" size 4653187072 crc A2520898 md5 D29B9031957B97E57AA560000790609E sha1 00B684DB600A9888709775217FE17727F38E35D7 serial "SLES-51906" )
 )
 game (
 	name "Romance of the Three Kingdoms IX (USA)"
@@ -59133,28 +57673,10 @@ game (
 	rom ( name "Rumble Racing (Europe) (En,Fr,De).bin" size 697972464 crc 4CC95E57 md5 EA93C75A42D4DC226172AE9943034555 sha1 692B6867A9F1F8F75600913816E6EB8E002519CB serial "SLES-50120" )
 )
 game (
-	name "Rumble Racing (Europe) (En,Fr,De) (Beta)"
-	releaseyear "2001"
-	releasemonth "03"
-	releaseday "27"
-	region "Europe"
-	serial "SLES-50121"
-	rom ( name "Rumble Racing (Europe) (En,Fr,De) (Beta) (2001-03-27).bin" size 697972464 crc CC329FEE md5 332F30172AD5567371074F1B7E588F70 sha1 A60039C44932C4B6E8938C56139EAFE36E56EE0B serial "SLES-50121" )
-)
-game (
 	name "Rumble Racing (USA)"
 	region "USA"
 	serial "SLUS-20174"
 	rom ( name "Rumble Racing (USA).bin" size 601453440 crc 23FB060A md5 FC5885A160D57CBAFEBC8F5BF50DAC2D sha1 6547381E6056C6CB9262A77E44A03BBA1AA067BB serial "SLUS-20174" )
-)
-game (
-	name "Rumble Racing (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "02"
-	releaseday "07"
-	region "USA"
-	serial "SLUS-20174"
-	rom ( name "Rumble Racing (USA) (Beta) (2001-02-07).bin" size 579248208 crc 89E5ACB3 md5 E3F752A70610389AC299712DE93FDCD5 sha1 64B7554240F42FFCA849787AD014C70EA4B642A5 serial "SLUS-20174" )
 )
 game (
 	name "Rumble Roses (Europe) (En,Fr,De,Es,It)"
@@ -59361,15 +57883,6 @@ game (
 	rom ( name "Ryuu ga Gotoku 2 (Japan) (Taikenban).iso" size 3764092928 crc 7D50273A md5 DA9E4885B3DAE6DD4B2D6F46EAE49377 sha1 FE649ABF7F3B5C71EBCBC58879464EC26332F2C5 serial "SLPM-61154" )
 )
 game (
-	name "S.L.A.I. - Steel Lancer Arena International (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "02"
-	releaseday "01"
-	region "Europe"
-	serial "TLES-52940"
-	rom ( name "S.L.A.I. - Steel Lancer Arena International (Europe) (Beta) (2005-02-01).iso" size 1793130496 crc 2B7A2543 md5 38666E7ED1ABA64EE841B84D66BF7721 sha1 6C9F7A01F3179D5161705DB74C784E0E3FD939D9 serial "TLES-52940" )
-)
-game (
 	name "S.L.A.I. - Steel Lancer Arena International (Europe) (En,Fr,De)"
 	region "Europe"
 	serial "SLES-52940"
@@ -59386,15 +57899,6 @@ game (
 	region "USA"
 	serial "SLUS-20969"
 	rom ( name "S.L.A.I. - Steel Lancer Arena International (USA).iso" size 2030600192 crc 917625C6 md5 7DB7295902B68A46C89F6C9CAE3C6F4F sha1 1240B91A4C29A756223C6910AD596A9E70CC53AE serial "SLUS-20969" )
-)
-game (
-	name "S.L.A.I. - Steel Lancer Arena International (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "10"
-	region "USA"
-	serial "SLUS-29132"
-	rom ( name "S.L.A.I. - Steel Lancer Arena International (USA) (Beta) (2004-09-10).iso" size 2302967808 crc C08A43C7 md5 73CDA5A0504F5D2700C32815C1879891 sha1 5A2E388EF0C0A36DAF877C1E915F0446327B36CC serial "SLUS-29132" )
 )
 game (
 	name "S.Y.K - Renshouden (Japan)"
@@ -59595,15 +58099,6 @@ game (
 	rom ( name "SNK vs. Capcom - SVC Chaos (Europe).bin" size 445532304 crc F29B9F59 md5 FE5A0C0B010E417AC19A8EEACB079315 sha1 BBED551EC47674A7767A2102A9734147DEE94C37 serial "SLES-53065" )
 )
 game (
-	name "SNK vs. Capcom - SVC Chaos (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "11"
-	releaseday "29"
-	region "Europe"
-	serial "SLES-53065"
-	rom ( name "SNK vs. Capcom - SVC Chaos (Europe) (Beta) (2004-11-29).bin" size 445160688 crc 644963A5 md5 1AD223AF7F650813384AFCE91064C182 sha1 287FF5DF37A2BF7F2320E01625A4EC111B1C44E8 serial "SLES-53065" )
-)
-game (
 	name "SNK vs. Capcom - SVC Chaos (Japan)"
 	region "Japan"
 	serial "SLPS-25316"
@@ -59626,15 +58121,6 @@ game (
 	region "Australia"
 	serial "SCES-51618"
 	rom ( name "SOCOM - U.S. Navy SEALs (Australia) (En,Fr,De,Es,It).iso" size 4278878208 crc 5525B154 md5 EBDE5B11E68347E8CAA03DA84C1F0740 sha1 88F66044D4F97DD39FEF48515842323A6DDAA4EA serial "SCES-51618" )
-)
-game (
-	name "SOCOM - U.S. Navy SEALs (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "03"
-	releaseday "04"
-	region "Europe"
-	serial "SCES-50928/B1"
-	rom ( name "SOCOM - U.S. Navy SEALs (Europe) (Beta) (2003-03-04).iso" size 1230045184 crc 3926DFD5 md5 AFBC760D6A20F351FAD3135F712E4A31 sha1 B732656F9E6606533A003EC734B0B5D36F4BC440 serial "SCES-50928/B1" )
 )
 game (
 	name "SOCOM - U.S. Navy SEALs (Europe) (En,Fr,De,Es,It)"
@@ -59697,15 +58183,6 @@ game (
 	rom ( name "SOCOM - U.S. Navy SEALs (Korea) (SCKA-24008).iso" size 3376414720 crc 39447629 md5 8572A0578A9E2C7C1B7456F2BDB2F693 sha1 88134E34AFD3D95BD9331BC15294DCEE4DB18F8C serial "SCKA-24008" )
 )
 game (
-	name "SOCOM - U.S. Navy SEALs (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "03"
-	releaseday "21"
-	region "USA"
-	serial "SCUS-97859"
-	rom ( name "SOCOM - U.S. Navy SEALs (USA) (Beta) (2002-03-21).bin" size 270710496 crc 72AB698C md5 ACBD91A95BE15827DC8A1B83AD1D46C7 sha1 8D1EAA9F49BFE2C14E97CFF01E335A0A20D02EA9 serial "SCUS-97859" )
-)
-game (
 	name "SOCOM - U.S. Navy SEALs (USA) (v1.00)"
 	region "USA"
 	serial "SCUS-97134"
@@ -59722,15 +58199,6 @@ game (
 	region "USA"
 	serial "SCUS-97230"
 	rom ( name "SOCOM - U.S. Navy SEALs (USA) (v3.00).iso" size 3493593088 crc 725AD935 md5 F9A35702354B2D5005FDFA8714A4022D sha1 39C0CE1F5D3C354AD81020D83133CE2D0CFCC631 serial "SCUS-97230" )
-)
-game (
-	name "SOCOM - U.S. Navy SEALs - Combined Assault (Europe) (Beta)"
-	releaseyear "2007"
-	releasemonth "03"
-	releaseday "12"
-	region "Europe"
-	serial "SCES-54477"
-	rom ( name "SOCOM - U.S. Navy SEALs - Combined Assault (Europe) (Beta) (2007-03-12).iso" size 4315021312 crc E2F0695A md5 6C24F42B928AA66DCDD61D6F6BE8A38D sha1 7F6209F633774DD6D1B8E2F6789152163C74251A serial "SCES-54477" )
 )
 game (
 	name "SOCOM - U.S. Navy SEALs - Combined Assault (Europe) (En,Fr,De,Es,It)"
@@ -59763,36 +58231,10 @@ game (
 	rom ( name "SOCOM 3 - U.S. Navy SEALs (USA).iso" size 4203282432 crc 7B97033B md5 527AAF9744E66B9ADA585E4729FA7899 sha1 75A9E237F481DECECE3AEA75E9910852F0D7E2A3 serial "SCUS-97474" )
 )
 game (
-	name "SOCOM 3 - U.S. Navy SEALs (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "01"
-	region "USA"
-	serial "SCUS-97489"
-	rom ( name "SOCOM 3 - U.S. Navy SEALs (USA) (Beta) (2005-07-01).iso" size 1250951168 crc 710FF893 md5 23FA7E30EE943C45A1B92649A080FBDC sha1 1076815E33D878630CB5A6DB9D64CE1153D31A25 serial "SCUS-97489" )
-)
-game (
-	name "SOCOM 3 - U.S. Navy SEALs (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "08"
-	region "USA"
-	rom ( name "SOCOM 3 - U.S. Navy SEALs (USA) (Beta) (2005-09-08).iso" size 4192600064 crc C079B169 md5 22A1B12DF6FAE4ECD8DA5BED8CD91DD6 sha1 B36BA0AC7209FC28EB4EA98936C4BCB2D951B57B )
-)
-game (
 	name "SOCOM II - U.S. Navy SEALs (Australia) (En,Fr,De,Es,It)"
 	region "Australia"
 	serial "SCES-52306"
 	rom ( name "SOCOM II - U.S. Navy SEALs (Australia) (En,Fr,De,Es,It).iso" size 4654006272 crc BFBF09C0 md5 8119664C8FE993B7816055BA605BDE0E sha1 84B5D1E1D351CCD0F28A12D3B66414D5C2124CA8 serial "SCES-52306" )
-)
-game (
-	name "SOCOM II - U.S. Navy SEALs (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "11"
-	releaseday "25"
-	region "Europe"
-	serial "TCES-51904"
-	rom ( name "SOCOM II - U.S. Navy SEALs (Europe) (Beta) (2003-11-25).bin" size 540256752 crc E4854FF4 md5 F3709ED67C14EDCD69074B86F140A515 sha1 EF3CB5AFB4BAE3990644488B1515AB904D8EB004 serial "TCES-51904" )
 )
 game (
 	name "SOCOM II - U.S. Navy SEALs (Europe) (En,Fr,De,Es,It)"
@@ -59841,15 +58283,6 @@ game (
 	region "USA"
 	serial "SCUS-97275GH"
 	rom ( name "SOCOM II - U.S. Navy SEALs (USA).iso" size 4380753920 crc 9E40EA01 md5 2591F0AAAA58CA0EB9BCF1F33F1E3BE2 sha1 EF56534FF346679F88AFF78BAD4D73FACF43590B serial "SCUS-97275GH" )
-)
-game (
-	name "SOCOM II - U.S. Navy SEALs (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "08"
-	releaseday "28"
-	region "USA"
-	serial "SCUS-97366"
-	rom ( name "SOCOM II - U.S. Navy SEALs (USA) (Beta) (2003-08-28).bin" size 709617216 crc E0D2C6AC md5 5EEE0978FBC502C1CC4055C909E57119 sha1 49232469A0E40631DC7EFE239E8AC863CE5996AB serial "SCUS-97366" )
 )
 game (
 	name "SOS - The Final Escape (Europe) (En,Fr,De)"
@@ -61223,22 +59656,6 @@ game (
 	rom ( name "Scooby-Doo! Night of 100 Frights (USA).iso" size 4480860160 crc A8FA255E md5 AE03F1FE1C313EC14BE85BC1CE593EAE sha1 7379834B5C06591F31DED26D2B44B5E513D05EA2 serial "SLUS-20349" )
 )
 game (
-	name "Scooby-Doo! Night of 100 Frights (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "01"
-	releaseday "31"
-	region "USA"
-	rom ( name "Scooby-Doo! Night of 100 Frights (USA) (Beta) (2001-01-31).bin" size 42938112 crc DEE94249 md5 EC13B8B4F67095B11F149C984CC7741C sha1 1A77BE52DBBEABCB0CB10A38A8027B5D445442A5 )
-)
-game (
-	name "Scooby-Doo! Night of 100 Frights (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "06"
-	releaseday "11"
-	region "USA"
-	rom ( name "Scooby-Doo! Night of 100 Frights (USA) (Beta) (2001-06-11).bin" size 25987248 crc 0E7AF5BB md5 27A7B408AABAA3578BD1046AF111EC3D sha1 F40870CA13BEE75B361430FE110ABCF837AD812D )
-)
-game (
 	name "Scooby-Doo! Unmasked (Europe) (En,Fr,Es,It)"
 	region "Europe"
 	serial "SLES-53100"
@@ -61429,15 +59846,6 @@ game (
 	region "USA"
 	serial "SLUS-20762"
 	rom ( name "Secret Weapons over Normandy (USA).iso" size 3728146432 crc FBB7F139 md5 13E997AF6ACC434B8D240EF5DC72B768 sha1 CC14C139EB330EE0036B0BEBCD03EA36DC35E5E4 serial "SLUS-20762" )
-)
-game (
-	name "Secret Weapons over Normandy (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "09"
-	releaseday "12"
-	region "USA"
-	serial "SLUS-20762"
-	rom ( name "Secret Weapons over Normandy (USA) (Beta) (2003-09-12).iso" size 3743485952 crc E7D4CF1B md5 684C58825E6696A36493C3E6E151568A sha1 C78EFBA4C8BDCB79B84CD644CAF0A203638D8174 serial "SLUS-20762" )
 )
 game (
 	name "Secret of Evangelion (Japan)"
@@ -61744,15 +60152,6 @@ game (
 	region "USA"
 	serial "SLUS-20339"
 	rom ( name "Sega Bass Fishing Duel (USA).bin" size 536227776 crc D0620F05 md5 8A7CA580DEE4CF3F037C73D838890435 sha1 A67B82DD00C09DFD7EC68ECD44B08E4D85D6240C serial "SLUS-20339" )
-)
-game (
-	name "Sega Classics Collection (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "29"
-	region "Europe"
-	serial "SCUS-00000"
-	rom ( name "Sega Classics Collection (Europe) (Beta) (2005-06-29).iso" size 1249804288 crc 80473446 md5 37F3A14848EB31AF6BDA7B1DC5D4E15F sha1 195A90825A4F29E1218902D12DAF536AA46DB101 serial "SCUS-00000" )
 )
 game (
 	name "Sega Classics Collection (Europe, Australia)"
@@ -62646,24 +61045,6 @@ game (
 	region "Europe"
 	serial "SLES-50662"
 	rom ( name "Shadow of Zorro, The (Europe) (En,Fr,De,Es,It).iso" size 1402863616 crc 880FF55D md5 74C68DE7A6183AFEC8464B68157335FB sha1 8880ECB590EDCE1CB2995F604496B933348C826E serial "SLES-50662" )
-)
-game (
-	name "Shadow of the Colossus (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "11"
-	releaseday "02"
-	region "Europe"
-	serial "SCES-53326"
-	rom ( name "Shadow of the Colossus (Europe) (En,Fr,De,Es,It) (Beta) (2005-11-02).iso" size 3666706432 crc 2142F0BB md5 F9FD20D843A37151E338C156A2CA9A14 sha1 73BAFDFA9D8E84B6A281EA02FAA1CE81AA415605 serial "SCES-53326" )
-)
-game (
-	name "Shadow of the Colossus (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "12"
-	releaseday "12"
-	region "Europe"
-	serial "SCES-53326"
-	rom ( name "Shadow of the Colossus (Europe) (En,Fr,De,Es,It) (Beta) (2005-12-12).iso" size 4635918336 crc C4BDC441 md5 782F53E29A100C381A6C79E08290AF8F sha1 5302923D4CCA73ACF1BAE7205F4EA4D179BFAA82 serial "SCES-53326" )
 )
 game (
 	name "Shadow of the Colossus (Europe, Australia) (En,Fr,De,Es,It)"
@@ -64564,14 +62945,6 @@ game (
 	rom ( name "Silent Hill 2 (Korea) (En,Fr,De,Es,It).iso" size 3879632896 crc 4D4252FB md5 AFC54F866072B58FE9C4F12D61FF58E6 sha1 5A215C62899F4DA374B9F6E0E56CA6CA6D0A06CB serial "SLKA-25001" )
 )
 game (
-	name "Silent Hill 2 (USA) (En,Ja) (Beta)"
-	releaseyear "2001"
-	releasemonth "07"
-	releaseday "13"
-	region "USA"
-	rom ( name "Silent Hill 2 (USA) (En,Ja) (Beta) (2001-07-13).iso" size 4401135616 crc F4A3134F md5 861619A3369332E8205FAD62113B8E4A sha1 BBEBD65FCD3E792C3A57DBADF3EE1DEB2846172E )
-)
-game (
 	name "Silent Hill 2 (USA) (En,Ja) (v1.20)"
 	region "USA"
 	serial "SLUS-20228"
@@ -64738,15 +63111,6 @@ game (
 	region "USA"
 	serial "SLUS-20644"
 	rom ( name "Silent Line - Armored Core (USA).iso" size 1709506560 crc 7211FF62 md5 B631E251F5067A195E81CD942982D40E sha1 668185272D963DD38C36565F104B50788848910E serial "SLUS-20644" )
-)
-game (
-	name "Silent Scope (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "13"
-	region "Europe"
-	serial "SLES-50037"
-	rom ( name "Silent Scope (Europe) (Beta) (2000-09-13).bin" size 271322016 crc 906714DB md5 7AD9D9BE7D89B4A0D0F573C59DEF5F12 sha1 5645442724A3FF0CD5D928A570787FB0AA34698D serial "SLES-50037" )
 )
 game (
 	name "Silent Scope (Europe) (En,Fr,De,Es,It)"
@@ -66129,15 +64493,6 @@ game (
 	rom ( name "Simpsons, The - Road Rage (USA).iso" size 2494562304 crc DE43FF26 md5 3124936D0C16F323C4C1838603B784D1 sha1 44F865B5D9FE6A3063BD1A961EF93C6C4193D7F8 serial "SLUS-20305" )
 )
 game (
-	name "Simpsons, The - Road Rage (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "25"
-	region "USA"
-	serial "SLUS-20305"
-	rom ( name "Simpsons, The - Road Rage (USA) (Beta) (2001-09-25).iso" size 347209728 crc 85E2D94C md5 E08833AAA10084A7571D1477893C07EA sha1 D1F1C6A5D6B3021A73358F132FEC0FB27C5E53F7 serial "SLUS-20305" )
-)
-game (
 	name "Sims 2, The (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "Europe"
 	serial "SLES-53718"
@@ -66166,24 +64521,6 @@ game (
 	region "USA"
 	serial "SLUS-21265GH"
 	rom ( name "Sims 2, The (USA).iso" size 3550216192 crc AAD98770 md5 546909C8D72CD90AD2006032E2EB7898 sha1 5231BFECC4F613DAE7C28D0F73FF6E2C14AB09CF serial "SLUS-21265GH" )
-)
-game (
-	name "Sims 2, The (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "29"
-	region "USA"
-	serial "SLUS-21066"
-	rom ( name "Sims 2, The (USA) (Beta) (2005-07-29).iso" size 3720884224 crc E70CE0F8 md5 0359E0B9EB2AA964EFDBDAFFE4F50133 sha1 B6127399CDCE9FAB62B858881191EFFD465EEB0F serial "SLUS-21066" )
-)
-game (
-	name "Sims 2, The (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "15"
-	region "USA"
-	serial "SLUS-21265"
-	rom ( name "Sims 2, The (USA) (Beta) (2005-08-15).iso" size 3438063616 crc 91906A69 md5 8F48D00769D25E87DF505FBE7E6141C8 sha1 7C0B80D4C64ECBC14500083626A577975A23A879 serial "SLUS-21265" )
 )
 game (
 	name "Sims 2, The - Castaway (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi,Pl,El)"
@@ -67684,15 +66021,6 @@ game (
 	rom ( name "Sky Surfer (Europe) (En,Fr,De).bin" size 513801456 crc EB708277 md5 777C74E0B4BAADDBF193A3C8DB134657 sha1 4959C7275D7EA04F3014DDCA28A3FD08A094DF2D serial "SLES-50261" )
 )
 game (
-	name "Sky Surfer (Europe) (En,Fr,De) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "25"
-	region "Europe"
-	serial "SLPS-20012"
-	rom ( name "Sky Surfer (Europe) (En,Fr,De) (Beta) (2000-09-25).bin" size 338560992 crc F4F78F2F md5 03F676384A289A6BE54C0FF0C7BBABF8 sha1 F308B78B30AD92CB27B7D10EF0F771B9467B356C serial "SLPS-20012" )
-)
-game (
 	name "Sky Surfer (Japan) (v1.04)"
 	region "Japan"
 	serial "SLPS-20012"
@@ -68083,15 +66411,6 @@ game (
 	rom ( name "Smash Court Tennis - Pro Tournament (USA).bin" size 571018560 crc 8E7C0150 md5 5EA8618C3C5A2F58F37EFF7AE0C4D93E sha1 E2E6F1D35251FC34C165C427E0D241A036DEEC15 serial "SLUS-20286" )
 )
 game (
-	name "Smash Court Tennis - Pro Tournament 2 (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "02"
-	releaseday "04"
-	region "Europe"
-	serial "SCES-99999"
-	rom ( name "Smash Court Tennis - Pro Tournament 2 (Europe) (Beta) (2004-02-04).iso" size 4443308032 crc B3686F0A md5 5715CE8D3290116346757A00E3185E58 sha1 1E637E99B420B5D86F1F61EA49179EFF5B1F2F6A serial "SCES-99999" )
-)
-game (
 	name "Smash Court Tennis - Pro Tournament 2 (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-52423"
@@ -68174,15 +66493,6 @@ game (
 	region "Europe"
 	serial "SLES-54767"
 	rom ( name "Sniper Assault (Europe).bin" size 134557920 crc 56E3597B md5 627E1D9C88272120961F0154AD91515D sha1 CB7F33DBB08F69E973810F8D376F41144258D096 serial "SLES-54767" )
-)
-game (
-	name "Sniper Elite (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "16"
-	region "Europe"
-	serial "SLES-53758/1.00"
-	rom ( name "Sniper Elite (Europe) (Beta) (2005-09-16).iso" size 3028975616 crc 640EC5B1 md5 24192882E013F8425E1A9A2270F70132 sha1 BF9B29C50266F62315AF578B69A0CC6D7ACE705E serial "SLES-53758/1.00" )
 )
 game (
 	name "Sniper Elite (Europe) (En,Fr,De,Es,It)"
@@ -68389,14 +66699,6 @@ game (
 	rom ( name "Sonic Gems Collection (Korea).iso" size 1811513344 crc F6B3F318 md5 895EA42ED9CE80B7EC0A049C8546789F sha1 54F06AFC0FC0E38FB0CE1FF29EF957FA8D8829FD serial "SLKA-25308" )
 )
 game (
-	name "Sonic Heroes (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "09"
-	releaseday "28"
-	region "Europe"
-	rom ( name "Sonic Heroes (Europe) (Beta) (2003-09-28).iso" size 2302312448 crc D79A2994 md5 FD93B72BA8215C2B8A762A7B4F4F5756 sha1 0DF6B550050523A7D8DF7DF02E52FB376311169B )
-)
-game (
 	name "Sonic Heroes (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-51950"
@@ -68499,14 +66801,6 @@ game (
 	rom ( name "Sonic Mega Collection Plus (USA).iso" size 4698767360 crc CD10BF95 md5 54BA00D69F9D345DB6C762745EAC4BD7 sha1 1D7741B1ADA9F0FCF7082B06BBAF32A93CD3B3A1 serial "SLUS-20917GH" )
 )
 game (
-	name "Sonic Mega Collection Plus (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "18"
-	region "USA"
-	rom ( name "Sonic Mega Collection Plus (USA) (Beta) (2004-08-18).iso" size 4698767360 crc B919A9C3 md5 E3419196633251E866A93461A1C2C53D sha1 0DB9C898E1CE6405BCB4CD615BE1BC9D84E252A1 )
-)
-game (
 	name "Sonic Riders (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-53560"
@@ -68553,15 +66847,6 @@ game (
 	region "Europe"
 	serial "SLES-54915/ANZ"
 	rom ( name "Sonic Riders - Zero Gravity (Europe, Australia) (En,Fr,De,Es,It).iso" size 4698734592 crc 150269A3 md5 9B51D92B0CD52AC2BAF37406AEFCE422 sha1 9A317DF9859DC0CAF56716EA76E6562ECCC7C162 serial "SLES-54915/ANZ" )
-)
-game (
-	name "Sonic Riders - Zero Gravity (USA) (Beta)"
-	releaseyear "2007"
-	releasemonth "09"
-	releaseday "01"
-	region "USA"
-	serial "SLUS-21642"
-	rom ( name "Sonic Riders - Zero Gravity (USA) (Beta) (2007-09-01).iso" size 3235577856 crc 2A8A51FA md5 20CF0F3B2C9482EEC471FE2C9221321F sha1 57401F08B92F3490E2E8D2F7FD46DFFAEFB0E3F8 serial "SLUS-21642" )
 )
 game (
 	name "Sonic Riders - Zero Gravity (USA) (En,Ja,Fr,De,Es,It)"
@@ -68801,15 +67086,6 @@ game (
 	region "Asia"
 	serial "SCAJ-20159"
 	rom ( name "Soulcalibur III (Asia).iso" size 4384325632 crc 2497B438 md5 6B176B253A20FF60AD100619D2E46CBB sha1 EB32D649C08A348831F1B51D100FADF8AC04768C serial "SCAJ-20159" )
-)
-game (
-	name "Soulcalibur III (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "10"
-	releaseday "04"
-	region "Europe"
-	serial "SCES-53312"
-	rom ( name "Soulcalibur III (Europe) (En,Fr,De,Es,It) (Beta) (2005-10-04).iso" size 4388814848 crc 5E24C248 md5 C67EA1A983561EACB0B5F14F1C5BEE5C sha1 9D0FC02C774D6A5006D0D4EA6ADCE1F819C4208A serial "SCES-53312" )
 )
 game (
 	name "Soulcalibur III (Europe, Australia) (En,Fr,De,Es,It) (v1.00)"
@@ -69675,14 +67951,6 @@ game (
 	rom ( name "SpyHunter - Nowhere to Run (USA).iso" size 1970339840 crc 85AE5C06 md5 2221529491D16FAA440F58E8B8B4DBCD sha1 24BEC7DD4D12D01AE5C4DA39BF8F4706DDE80F62 serial "SLUS-21421" )
 )
 game (
-	name "SpyHunter - Nowhere to Run (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "19"
-	region "USA"
-	rom ( name "SpyHunter - Nowhere to Run (USA) (Beta) (2006-06-19).iso" size 1970929664 crc 9647E96E md5 0C01A5D71B9B75262E0B0DD56854719E sha1 73A288EE23C95DA557090E1C602839ED251A725A )
-)
-game (
 	name "SpyHunter 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-51841"
@@ -69699,15 +67967,6 @@ game (
 	region "USA"
 	serial "SLUS-20590"
 	rom ( name "SpyHunter 2 (USA).iso" size 1739554816 crc B39968EC md5 3DAC23FBF0BDC8062FCA9CD5CCA74CFF sha1 40F26737EEC5C8BA02A21FDB61EED3592975EA8A serial "SLUS-20590" )
-)
-game (
-	name "SpyToy (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "09"
-	region "Europe"
-	serial "SCES-53347"
-	rom ( name "SpyToy (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Beta) (2005-08-09).iso" size 1266253824 crc 420B771C md5 65A2FBFE50E69310B0C5C4A1F508CD53 sha1 577618FAE0A2B47F1BF875E438B94B351D28BF1A serial "SCES-53347" )
 )
 game (
 	name "SpyToy (Europe, Australia) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi)"
@@ -70034,15 +68293,6 @@ game (
 	rom ( name "Star Trek - Voyager - Elite Force (USA).iso" size 1756102656 crc 536B5F5F md5 2F52ABD36F2BCF2A6A919EE7315C4A64 sha1 7DF24AED7C5E62A5E0CC31EACD1D456AF5A56871 serial "SLUS-20227" )
 )
 game (
-	name "Star Wars - Battlefront (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "08"
-	releaseday "05"
-	region "Europe"
-	serial "SLES-52545"
-	rom ( name "Star Wars - Battlefront (Europe) (Beta) (2004-08-05).iso" size 4697229312 crc 8B936FCE md5 19770E8880494D053F0F7B8F27DFB65F sha1 5DDAFBDAABB057CFDA66B3401F5EFD26FD2A972E serial "SLES-52545" )
-)
-game (
 	name "Star Wars - Battlefront (Europe) (En,Es,It)"
 	region "Europe"
 	serial "SLES-52545"
@@ -70137,24 +68387,6 @@ game (
 	region "Japan"
 	serial "SLPM-66190"
 	rom ( name "Star Wars - Battlefront II (Japan).iso" size 2568028160 crc 879BE5E8 md5 4B244C81A883EF4B6B20CECCF65C5AE6 sha1 A53E7E33EC4A5717BFF7ED3EA1EBBE11250D554B serial "SLPM-66190" )
-)
-game (
-	name "Star Wars - Battlefront II (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "24"
-	region "USA"
-	serial "SLUS-29164"
-	rom ( name "Star Wars - Battlefront II (USA) (Beta) (2005-07-24).iso" size 1862533120 crc C86B25B3 md5 4BA373E3D0BD5160B4C0619A12DE6FF2 sha1 CB0DA6B09374049DEEF796B9CC2457022623AE24 serial "SLUS-29164" )
-)
-game (
-	name "Star Wars - Battlefront II (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "09"
-	region "USA"
-	serial "SLUS-21240"
-	rom ( name "Star Wars - Battlefront II (USA) (Beta) (2005-09-09).iso" size 2572072960 crc 5A169165 md5 F90BF2315A3BFD109BD96BA1FCA9A735 sha1 82D145D4BEA430F779DF9A3925DCFDD4B1EC0000 serial "SLUS-21240" )
 )
 game (
 	name "Star Wars - Battlefront II (USA) (v1.01)"
@@ -71498,15 +69730,6 @@ game (
 	rom ( name "Super Dragon Ball Z (Europe).iso" size 4267245568 crc AE85C0B4 md5 1520B77E51BCDE5E2B9AB58F608E8E94 sha1 7C3A0FB91208345296EC3F59E579AB9770CD832A serial "SLES-54161" )
 )
 game (
-	name "Super Dragon Ball Z (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "05"
-	releaseday "02"
-	region "Europe"
-	serial "SLES-54161"
-	rom ( name "Super Dragon Ball Z (Europe) (Beta) (2006-05-02).iso" size 4236937216 crc A22756F8 md5 1EE843D5217225EFC010AE1DA07DA01E sha1 6F7D5B1A8EBB206A05C2C58857E5087D344BA395 serial "SLES-54161" )
-)
-game (
 	name "Super Dragon Ball Z (Japan)"
 	region "Japan"
 	serial "SLPS-25642"
@@ -72433,15 +70656,6 @@ game (
 	rom ( name "Syberia II (Russia).iso" size 2160885760 crc 4FC97A1C md5 E7D835E9F7F4608782EED8BFB09CA1A5 sha1 9DFDABBA0C2326443D6B62FF4EEAB401906174F9 serial "SLES-53235" )
 )
 game (
-	name "Syphon Filter - Dark Mirror (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2007"
-	releasemonth "06"
-	releaseday "22"
-	region "Europe"
-	serial "SCES-54794"
-	rom ( name "Syphon Filter - Dark Mirror (Europe) (En,Fr,De,Es,It) (Beta) (2007-06-22).iso" size 4534239232 crc 01E5C24E md5 69E28E62CAE656B08384988322D94C19 sha1 63F3A8F2F4BE51AD99E107CAB07D9CB18F1E524A serial "SCES-54794" )
-)
-game (
 	name "Syphon Filter - Dark Mirror (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-54794"
@@ -72472,15 +70686,6 @@ game (
 	rom ( name "Syphon Filter - Logan's Shadow (USA).iso" size 4413915136 crc 0162D060 md5 DA599FF54A5C352214E2B4885CC74237 sha1 D6EAFE3423894783A38B23D906DBD69317E7CCCC serial "SCUS-97584" )
 )
 game (
-	name "Syphon Filter - The Omega Strain (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "04"
-	releaseday "13"
-	region "Europe"
-	serial "TCES-52033"
-	rom ( name "Syphon Filter - The Omega Strain (Europe) (Beta) (2004-04-13).iso" size 1269039104 crc 899E4D69 md5 747FFD359D87D849842AC7512629CD8C sha1 49A4981FB2ED0ACC04377BDD561B7922D363C680 serial "TCES-52033" )
-)
-game (
 	name "Syphon Filter - The Omega Strain (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-52033"
@@ -72509,15 +70714,6 @@ game (
 	region "USA"
 	serial "SCUS-97264"
 	rom ( name "Syphon Filter - The Omega Strain (USA).iso" size 3457744896 crc DD173247 md5 57873C6B5E896946AEE2BA9C7B3C41B8 sha1 2F9AC73FF2F8063E4E4341865E627BF0C76DF55B serial "SCUS-97264" )
-)
-game (
-	name "Syphon Filter - The Omega Strain (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "01"
-	releaseday "24"
-	region "USA"
-	serial "SCUS-97397"
-	rom ( name "Syphon Filter - The Omega Strain (USA) (Beta) (2004-01-24).iso" size 1544585216 crc 5B8D0F6E md5 F7A8036FF530E07CF3A34250D3D9FB64 sha1 46B68957B93E0A9E99B5C67530181574F2ECB8CB serial "SCUS-97397" )
 )
 game (
 	name "TBS All Star Kanshasai 2003 Aki - Chou Gouka! Quiz Ketteiban (Japan)"
@@ -73366,170 +71562,10 @@ game (
 	rom ( name "Taxi Rider (Europe).bin" size 153954864 crc 0579D629 md5 920F1C9245397C3FBAF2C20E0EBF22ED sha1 0384BBB762B888D5FDE2A2266FE9442A8BA46D13 serial "SLES-53402" )
 )
 game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "10"
-	releaseday "31"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2000-10-31).bin" size 36173760 crc 02AA4D7D md5 E256D1BF6EAC2085249BCE9373D9459C sha1 6AF3B9C0B9768A80347417F7C15984EE7E0330C9 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "01"
-	releaseday "26"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-01-26).bin" size 128640288 crc A8D55AE4 md5 8BBBA1FF646E860EC130369020936056 sha1 3615DC41EA5AAF0437ACA9EFFCA08ECBE72C2639 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "02"
-	releaseday "19"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-02-19).bin" size 218211504 crc FC0CAD2A md5 22A4C4BDA54FBA3C9FB77819F8E3A62B sha1 BD85445554EFB9F499BE2A19431795B6F9E1962F )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "03"
-	releaseday "10"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-03-10).bin" size 264757584 crc 49EB4690 md5 6815CA4B67EF192BB39E58A7A12CC1E2 sha1 01CA237BB194A5CEB102CF019472FF4EA97FD6FB )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "04"
-	releaseday "03"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-04-03).bin" size 212032800 crc D6128733 md5 AEFF7E130BAD49DB38B73599920984C3 sha1 F5097E65792771D0D25518AAA5FF12F256F2506F )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "05"
-	releaseday "04"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-05-04).bin" size 226260048 crc 4F30B119 md5 69DD016CB0D0148F6EB840697C8884F0 sha1 F1802EBCF2748484C8A3F02A0F75F3C38633F013 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "05"
-	releaseday "31"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-05-31).bin" size 245814576 crc C3E4BE3C md5 ECB58DB2DE607ED68A215D052381A83B sha1 12A2C486A95695A37266BEC67B388E5945702E9D )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "06"
-	releaseday "30"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-06-30).bin" size 238236432 crc C9B2C7B3 md5 77153A7746F32F5B6E2A4A40C0CED4DA sha1 74D77CA32CAF0BB171F3C70E284BE95A125024FB )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "08"
-	releaseday "01"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-08-01).bin" size 224418432 crc 4CA0EFBB md5 1DD4760ABEC402E57FDB407B7D4EF058 sha1 67716D079BE3F0206CEFFC02B849D4A092EE9EB1 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "03"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-09-03).bin" size 234214512 crc 638C9FF0 md5 B8640032CEAE0C467763F5DF8DECAC90 sha1 F5798517309590959214C3001EF3B4B9A1B347F3 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "17"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-09-17).bin" size 267723456 crc CEA21C3F md5 B659BA5FAAA4CC38AB11CED8A8865780 sha1 FB036952B287EF698D48E2C3EBDC96B7A39DA289 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "09"
-	releaseday "30"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-09-30).bin" size 307246464 crc 03CEF913 md5 6A6C830627EEDA7557B314E40D6282A5 sha1 1C54B70A9B8BAFCFAB7A98574B9B638802C758FA )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "10"
-	releaseday "25"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-10-25).bin" size 393531936 crc 8E9C6B35 md5 DA7C96E8949D89FE6987DDE2F09B7074 sha1 B43E0DC7B6A27840E8A55AA797729644C1210BB8 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "10"
-	releaseday "31"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-10-31).bin" size 449895264 crc 0D695A8C md5 818730A5B560E4362D65BD22D9B3E4AC sha1 568F80FCCAB13CB09726DE2511C282255617D015 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "15"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-11-15).bin" size 573796272 crc FF9DD848 md5 C3C825C1DB87E3EA84584879EA3C777A sha1 57182A6EB752A14D71C03778042046D44CEAE392 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "27"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2001-11-27).bin" size 524366640 crc 8943307B md5 AABD24F4AF82886345A8C4DF66DA8459 sha1 68EA2802FECF8E454423D9837B82A4B6311E6F33 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "01"
-	releaseday "29"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2002-01-29).bin" size 566942544 crc 2143A0F4 md5 3A04C1E3548D8169271336A73AE67E93 sha1 C0414AA9DAA1C21DBF5E05294DBA04604556001C )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "02"
-	releaseday "18"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2002-02-18).bin" size 685189344 crc 85D18560 md5 D9AAE083B46F2477AE31579AE180088F sha1 FFEDBBD9A164BC9C258A9E5E94E77A96C3D544E4 )
-)
-game (
-	name "Taz - Wanted (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "04"
-	releaseday "02"
-	region "Europe"
-	rom ( name "Taz - Wanted (Europe) (Beta) (2002-04-02).bin" size 722014608 crc 2E03E880 md5 2F898A6A97296A494DE5CB12C9632E54 sha1 944DEB3950B17873F0838DE76589C56DB2935661 )
-)
-game (
 	name "Taz - Wanted (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-50649"
 	rom ( name "Taz - Wanted (Europe) (En,Fr,De,Es,It).bin" size 750135120 crc 3E1DCEDF md5 28750813F47470EA4084AA51B96228CF sha1 25B1C3912FFFBAADBB0161ED836A539B97E41BA5 serial "SLES-50649" )
-)
-game (
-	name "Taz - Wanted (USA) (Beta)"
-	releaseyear "2000"
-	releasemonth "12"
-	releaseday "22"
-	region "USA"
-	rom ( name "Taz - Wanted (USA) (Beta) (2000-12-22).bin" size 106870176 crc 31569791 md5 72199E6E7B3D029636D991D5403AAE98 sha1 847755C05B3E92B40B8F31D5391C358E9F4ECB0B )
 )
 game (
 	name "Taz - Wanted (USA) (En,Fr,De,Es,It)"
@@ -73778,15 +71814,6 @@ game (
 	rom ( name "Tekken 4 (USA).iso" size 2698346496 crc 7FA500E6 md5 D23A54B2375FB5E30D9399E188F353D6 sha1 AFAC756D0EC06E86F1B69F7DB710CBE82E9835D7 serial "SLUS-20328P3" )
 )
 game (
-	name "Tekken 4 (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "06"
-	releaseday "13"
-	region "USA"
-	serial "SLUS-00000"
-	rom ( name "Tekken 4 (USA) (Beta) (2002-06-13).iso" size 2663186432 crc BD1E14B7 md5 754EC2A1D5F28ACBF90D3A5A10317F91 sha1 99B4BC3EC39A0D88935D8D746BF9A26B20290074 serial "SLUS-00000" )
-)
-game (
 	name "Tekken 4 (USA) (Trade Demo)"
 	region "USA"
 	serial "SLUS-28012"
@@ -73953,24 +71980,6 @@ game (
 	region "Europe"
 	serial "SCES-53054/GER"
 	rom ( name "Tekken's Nina Williams in - Death by Degrees (Europe) (En,De).iso" size 4416864256 crc E4C4F06F md5 F46CB460023269344E23CCC19F3DFA57 sha1 44B7E2A1E981433B1D1EBD6F1F739C044039A99D serial "SCES-53054/GER" )
-)
-game (
-	name "Tekken's Nina Williams in - Death by Degrees (Europe) (En,De) (Beta)"
-	releaseyear "2004"
-	releasemonth "12"
-	releaseday "29"
-	region "Europe"
-	serial "SCES-53054"
-	rom ( name "Tekken's Nina Williams in - Death by Degrees (Europe) (En,De) (Beta) (2004-12-29).iso" size 4417060864 crc 00A82262 md5 F40AE9DEFC584564B0883B1FB93625BD sha1 8D08DDA3E906A464CA136AC07E2E1436C10673CD serial "SCES-53054" )
-)
-game (
-	name "Tekken's Nina Williams in - Death by Degrees (Europe) (En,Es) (Beta)"
-	releaseyear "2004"
-	releasemonth "12"
-	releaseday "29"
-	region "Europe"
-	serial "SCES-52586"
-	rom ( name "Tekken's Nina Williams in - Death by Degrees (Europe) (En,Es) (Beta) (2004-12-29).iso" size 4405985280 crc 225C6C3F md5 008809BC9497A0546BA7CCF3168E1A73 sha1 B94E7DAC241DD8E69622C503DB8E7940DE7FDD3D serial "SCES-52586" )
 )
 game (
 	name "Tekken's Nina Williams in - Death by Degrees (Europe) (Fr,It)"
@@ -74687,15 +72696,6 @@ game (
 	rom ( name "Test Drive Unlimited (USA).iso" size 3999531008 crc 92004796 md5 DABC6CC76D54D689E11987E578F06107 sha1 31BA86E3F32573C2C180028D520442D6B478953D serial "SLUS-21490" )
 )
 game (
-	name "Test Drive Unlimited (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "06"
-	releaseday "30"
-	region "USA"
-	serial "SLUS-29192"
-	rom ( name "Test Drive Unlimited (USA) (Beta) (2006-06-30).iso" size 2126118912 crc 1C676896 md5 D17FF08EFEC19A2AAEF259E01CC61584 sha1 658B8C38B1D8B97C9BD88E9BF8F3B5705F6840A9 serial "SLUS-29192" )
-)
-game (
 	name "Tetris Worlds (Europe, Australia) (En,Fr,De)"
 	region "Europe"
 	serial "SLES-50551"
@@ -74828,15 +72828,6 @@ game (
 	rom ( name "This Is Football 2003 (Europe).iso" size 1114800128 crc 1697DF6D md5 723BCCB2A2E515E5246C511244B0B1B7 sha1 536DD2DC6323CC5EA79E7654CCFB8E3804A79EC6 serial "SCES-51179" )
 )
 game (
-	name "This Is Football 2003 (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "07"
-	releaseday "24"
-	region "Europe"
-	serial "SCES-51039"
-	rom ( name "This Is Football 2003 (Europe) (Beta) (2002-07-24).iso" size 1141471232 crc E06CC4FA md5 934C2599B5AEBE245C531E2E2ED89329 sha1 C3DE6899F4D2FE7135315563BAED1FB45B309CB8 serial "SCES-51039" )
-)
-game (
 	name "This Is Football 2003 (Europe) (En,Fr,De,Es,It,Nl,Pt)"
 	region "Europe"
 	serial "SCES-51039"
@@ -74853,15 +72844,6 @@ game (
 	region "Belgium"
 	serial "SCES-51610"
 	rom ( name "This Is Football 2004 (Belgium) (Fr,Nl).iso" size 1545863168 crc AB372343 md5 4825890D43D0E4B195D3CBC85BBB00E6 sha1 7ACF3200A9055E6117ADB1F77E9C996146F15290 serial "SCES-51610" )
-)
-game (
-	name "This Is Football 2004 (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "02"
-	releaseday "19"
-	region "Europe"
-	serial "TCES-51613/B"
-	rom ( name "This Is Football 2004 (Europe) (Beta) (2004-02-19).iso" size 1333592064 crc D2C1FEDF md5 8B0B68A57B594B28017F926BAFA0159B sha1 61991FCF03B02D0267CD095749240D9677D446ED serial "TCES-51613/B" )
 )
 game (
 	name "This Is Football 2004 (Europe) (En,Es,Pt,Ar)"
@@ -74892,15 +72874,6 @@ game (
 	region "Belgium"
 	serial "SCES-52432"
 	rom ( name "This Is Football 2005 (Belgium) (Fr,Nl).iso" size 1885634560 crc 8683FD08 md5 516C4DF9B39559227424EA6FEA1084FC sha1 AEB353CF5154E09BDA7755C046735CF23E24B110 serial "SCES-52432" )
-)
-game (
-	name "This Is Football 2005 (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "27"
-	region "Europe"
-	serial "TCES-52426"
-	rom ( name "This Is Football 2005 (Europe) (Beta) (2004-07-27).iso" size 3238854656 crc E7F4C563 md5 369CF818D847DA184839BF7C9D064686 sha1 FB183423A83C9D9AE57AD80621AABED095507DA0 serial "TCES-52426" )
 )
 game (
 	name "This Is Football 2005 (Europe) (En,Es,Pt,Ar)"
@@ -75134,24 +73107,6 @@ game (
 	region "Europe"
 	serial "SLES-53541"
 	rom ( name "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv).iso" size 4698734592 crc 9C9FC20B md5 9615D9A9E5C1A4A4872FD1AA8A4F5C7F sha1 80FEF9991E26686F533B369D1E6D77219D105C96 serial "SLES-53541" )
-)
-game (
-	name "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Beta)"
-	releaseyear "2005"
-	releasemonth "07"
-	releaseday "19"
-	region "Europe"
-	serial "SLES-53541"
-	rom ( name "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Beta) (2005-07-19).iso" size 4698828800 crc 4AE149DD md5 78E6A07BE5B5F275328454526AF99794 sha1 5484BA58E870C2F92ECCDAED2C3FAE33D4818EEB serial "SLES-53541" )
-)
-game (
-	name "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "08"
-	region "Europe"
-	serial "SLES-53541"
-	rom ( name "Tiger Woods PGA Tour 06 (Europe) (En,Fr,De,Sv) (Beta) (2005-08-08).iso" size 4699041792 crc 234F4D93 md5 48520DBBF685C6EDF04ECA4491C7C091 sha1 E7F1DB15176CD4FC7971809A1BD761B69A59D966 serial "SLES-53541" )
 )
 game (
 	name "Tiger Woods PGA Tour 06 (Japan)"
@@ -75412,24 +73367,6 @@ game (
 	rom ( name "Time Crisis 3 (Asia).iso" size 1626800128 crc F6B80AB1 md5 A5961F89FE306A366D6E6F549D4F13DE sha1 6E8324C8789F9A80EF6DD18298F899E6001C127F serial "SCAJ-20060" )
 )
 game (
-	name "Time Crisis 3 (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "04"
-	region "Europe"
-	serial "SLPS-99999"
-	rom ( name "Time Crisis 3 (Europe) (Beta) (2003-07-04).iso" size 2684747776 crc FDF54B6B md5 4C7BAEFA0E1DFE1DD6C1308595C52F44 sha1 CA6BB02BDCA26C1F24FB4EB7513ED9A377C650D6 serial "SLPS-99999" )
-)
-game (
-	name "Time Crisis 3 (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "18"
-	region "Europe"
-	serial "SCES-51844"
-	rom ( name "Time Crisis 3 (Europe) (Beta) (2003-07-18).iso" size 2755952640 crc FE45A2D1 md5 366317925352888C760F943287A3F36D sha1 4BB739CF4042CED35688C57120F7990A10C5611A serial "SCES-51844" )
-)
-game (
 	name "Time Crisis 3 (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-51844"
@@ -75550,52 +73487,16 @@ game (
 	rom ( name "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It).iso" size 4434198528 crc 69F2FDF0 md5 F8B2BC4F0C666CAFFB3FFFBD1C50409B sha1 B554F6EC9BA528E2990007FA560BF272F428327F serial "SLES-52993/GER" )
 )
 game (
-	name "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "07"
-	region "Europe"
-	serial "SLES-52993"
-	rom ( name "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It) (Beta) (2005-01-07).iso" size 3698208768 crc 40F09CAE md5 8E02D244CF1746D71C29D9517CED436A sha1 A6A60FF1AA467091D6803505F6CA99D9D57D5753 serial "SLES-52993" )
-)
-game (
-	name "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "02"
-	releaseday "15"
-	region "Europe"
-	serial "SLES-52993"
-	rom ( name "TimeSplitters - Future Perfect (Europe) (En,Fr,De,Es,It) (Beta) (2005-02-15).iso" size 4434505728 crc C08C9F34 md5 0EFFE5983CE91AA0B90F570DA73F0880 sha1 0B1CBD0E55DD73076876C8E7763473A2A0B99851 serial "SLES-52993" )
-)
-game (
 	name "TimeSplitters - Future Perfect (USA)"
 	region "USA"
 	serial "SLUS-21148"
 	rom ( name "TimeSplitters - Future Perfect (USA).iso" size 4383899648 crc 7962D3DF md5 2180703147EB25C3CBB8A1469DDCF9A4 sha1 A8F4444BAFF98319F9AB90D81CE2DC3EB27000DA serial "SLUS-21148" )
 )
 game (
-	name "TimeSplitters - Future Perfect (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "11"
-	releaseday "28"
-	region "USA"
-	serial "SLUS-21148"
-	rom ( name "TimeSplitters - Future Perfect (USA) (Beta) (2004-11-28).iso" size 2347511808 crc F5667921 md5 FA19E9961EB2AF6E7B296A70CB0A961C sha1 DD51BE2BC5063377DD942A8E00DD288D9C2F1443 serial "SLUS-21148" )
-)
-game (
 	name "TimeSplitters 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-50877"
 	rom ( name "TimeSplitters 2 (Europe) (En,Fr,De,Es,It).iso" size 4696047616 crc 55F6A6EE md5 4C3963694B4203C5B484B3F83DBECEF8 sha1 34D578DCF643AE69480F0E88658CE90855CA7873 serial "SLES-50877" )
-)
-game (
-	name "TimeSplitters 2 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "26"
-	region "Europe"
-	serial "SLES-50877"
-	rom ( name "TimeSplitters 2 (Europe) (En,Fr,De,Es,It) (Beta) (2002-08-26).iso" size 2028109824 crc 004E3AF7 md5 5D186F7BC7BB750B2971844B25F78AC1 sha1 B5D9E8D190EFF0363D9FCE99CDEFD5A84C00765F serial "SLES-50877" )
 )
 game (
 	name "TimeSplitters 2 (Korea)"
@@ -75754,14 +73655,6 @@ game (
 	rom ( name "Tokyo Xtreme Racer (Europe).iso" size 1344471040 crc 1990750E md5 F4B95E52F656D8B79C15617765C68F25 sha1 A0D3691CFAA13F299DDCE262CA4968B32AA1CAB6 serial "SLES-50115" )
 )
 game (
-	name "Tokyo Xtreme Racer - Drift (USA) (Beta)"
-	releaseyear "2006"
-	releasemonth "01"
-	releaseday "13"
-	region "USA"
-	rom ( name "Tokyo Xtreme Racer - Drift (USA) (Beta) (2006-01-13).iso" size 2244640768 crc 52131776 md5 A6FE047CC783C81AF66E28EAF5595673 sha1 A830C5EFEBED07F5054A2F56EB7300A7C7340E3B )
-)
-game (
 	name "Tokyo Xtreme Racer - Drift (USA, Canada)"
 	region "USA"
 	serial "SLUS-21236"
@@ -75882,15 +73775,6 @@ game (
 	rom ( name "Tom Clancy's Ghost Recon 2 (Europe) (En,Fr,De,Es,It).iso" size 4005036032 crc 5A9FBD10 md5 26CF2671A6B3F87DCE908DE56F5B08C8 sha1 DFF8B14969619EDE80B6CA65381819813E438798 serial "SLES-52646" )
 )
 game (
-	name "Tom Clancy's Ghost Recon 2 (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "24"
-	region "Europe"
-	serial "SLES-52646"
-	rom ( name "Tom Clancy's Ghost Recon 2 (Europe) (En,Fr,De,Es,It) (Beta) (2004-09-24).iso" size 2187360256 crc BC163E5A md5 DAE89603894CC9177899ECB37F517C86 sha1 60805D12BB1835F326A1C591E72AB063BC3133F3 serial "SLES-52646" )
-)
-game (
 	name "Tom Clancy's Ghost Recon 2 (Japan)"
 	region "Japan"
 	serial "SLPM-65951"
@@ -75919,15 +73803,6 @@ game (
 	region "USA"
 	serial "SLUS-21144"
 	rom ( name "Tom Clancy's Rainbow Six - Lockdown (USA).iso" size 3954704384 crc 0BD39398 md5 FE101F884DC35F2E4199FD51B7C05E8C sha1 08159EA08711B19086A2A4C0DE480EE5D40543AB serial "SLUS-21144" )
-)
-game (
-	name "Tom Clancy's Rainbow Six - Lockdown (USA) (Beta)"
-	releaseyear "2005"
-	releasemonth "01"
-	releaseday "21"
-	region "USA"
-	serial "SLUS-21144"
-	rom ( name "Tom Clancy's Rainbow Six - Lockdown (USA) (Beta) (2005-01-21).iso" size 1728741376 crc 9E742F08 md5 7973A9200D21CD3E68F4DA55A02CA03F sha1 5BFB28FEC87F590A350FB8538FD50DB78FC27009 serial "SLUS-21144" )
 )
 game (
 	name "Tom Clancy's Rainbow Six 3 (Europe) (En,Fr,De,Es,It)"
@@ -76060,15 +73935,6 @@ game (
 	region "Japan"
 	serial "SLPM-66672"
 	rom ( name "Tom Clancy's Splinter Cell - Nijuu Spy (Japan).iso" size 2965536768 crc 915701CC md5 8B531D0BF1B82F4F39227FB76B84DF4E sha1 86CA2A0813EEB540F94990E67EB9898CC47A5A1F serial "SLPM-66672" )
-)
-game (
-	name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "03"
-	releaseday "29"
-	region "Europe"
-	serial "TLES-52149"
-	rom ( name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe) (Beta) (2004-03-29).bin" size 113032416 crc 12F705B1 md5 0F9CC8A2F7501637CCD466E7D1154437 sha1 95B65DCA691B09A2C57D8A21E989525F21C5A25F serial "TLES-52149" )
 )
 game (
 	name "Tom Clancy's Splinter Cell - Pandora Tomorrow (Europe, Australia) (En,Fr,De,Es,It)"
@@ -76875,15 +74741,6 @@ game (
 	rom ( name "Transformers (Europe) (En,Fr,De,Es,It).iso" size 4546691072 crc FFEAA6B0 md5 28DC3A5583DC949D3967CA0FE5F063D9 sha1 44405BA3AEB7A68D7E3B9ABDF21F6C5EA4F0DC1B serial "SLES-52388" )
 )
 game (
-	name "Transformers (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "03"
-	releaseday "22"
-	region "Europe"
-	serial "SLES-52388"
-	rom ( name "Transformers (Europe) (En,Fr,De,Es,It) (Beta) (2004-03-22).iso" size 4546691072 crc CB05A638 md5 753A28897E57F9B20B79F5B631195EFC sha1 D3DAC92813547DFB9D29D79D1D95D93691A85199 serial "SLES-52388" )
-)
-game (
 	name "Transformers (Europe) (En,Fr,De,Es,It) (Director's Cut)"
 	region "Europe"
 	serial "SLES-53309"
@@ -77351,15 +75208,6 @@ game (
 	rom ( name "Turok - Evolution (USA).iso" size 2195750912 crc D5045489 md5 DF4D58B95B7F0A7D2EAE6D24DC732B63 sha1 62EA1EEB60C8CC48A9EA5952914C5670106152E4 serial "SLUS-20333" )
 )
 game (
-	name "Turok - Evolution (USA) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "07"
-	releaseday "23"
-	region "USA"
-	serial "SLUS-20333"
-	rom ( name "Turok - Evolution (USA) (En,Fr,De,Es,It) (Beta) (2002-07-23).iso" size 1713078272 crc D3BE2CEE md5 81BE609B13F241EC045F506A05AB059C sha1 EA3E63BD1B927E9EC278F21EA706A23F4BC262A3 serial "SLUS-20333" )
-)
-game (
 	name "Twenty 2 Party (Europe)"
 	region "Europe"
 	serial "SLES-53369"
@@ -77426,15 +75274,6 @@ game (
 	rom ( name "Twisted Metal - Black Online (Europe).bin" size 513392208 crc C20A5646 md5 19E3A80C31A74A5AA3A52718DCDA3D0B sha1 63094C36A265D996804840F08FA8E708B885456F serial "SCES-51480" )
 )
 game (
-	name "Twisted Metal - Black Online (Europe) (Beta)"
-	releaseyear "2003"
-	releasemonth "03"
-	releaseday "14"
-	region "Europe"
-	serial "SCES-51480/A5"
-	rom ( name "Twisted Metal - Black Online (Europe) (Beta) (2003-03-14).bin" size 512338512 crc ED8095D0 md5 1BC8707AFF84FD6AAA477D9DACD512FC sha1 DC6FEB8DE117F1244583955AF1CD56E841AD97D5 serial "SCES-51480/A5" )
-)
-game (
 	name "Twisted Metal - Black Online (USA)"
 	region "USA"
 	serial "SCUS-97179"
@@ -77445,12 +75284,6 @@ game (
 	region "USA"
 	serial "SCUS-97196"
 	rom ( name "Twisted Metal - Black Online (USA).bin" size 511896336 crc 8A012D36 md5 A531C955F8A89B6D523699A800B2F9E6 sha1 72784E7647C226F1E888EE8CD9998BD18A84579E serial "SCUS-97196" )
-)
-game (
-	name "Twisted Metal - Black Online (USA) (Beta)"
-	region "USA"
-	serial "SCUS-97860"
-	rom ( name "Twisted Metal - Black Online (USA) (Beta).bin" size 642512304 crc ED0EC238 md5 8B26B6EB63CE602D8AA2991D15922423 sha1 C47272F7412A6126B7BA0903EA8ADE5E4C725ACF serial "SCUS-97860" )
 )
 game (
 	name "Twisted Metal - Head-On - Extra Twisted Edition (USA, Canada)"
@@ -77577,15 +75410,6 @@ game (
 	region "Europe"
 	serial "SLES-52594"
 	rom ( name "U-Move Super Sports (Europe) (En,Fr,De,Es,It).bin" size 162356208 crc 3A5C266D md5 4477813DC7724EDD8A044979A42F6F8C sha1 600997171A3DAE49C9340F730AD8558555C50517 serial "SLES-52594" )
-)
-game (
-	name "U-Move Super Sports (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "05"
-	releaseday "21"
-	region "Europe"
-	serial "SLES-52594"
-	rom ( name "U-Move Super Sports (Europe) (En,Fr,De,Es,It) (Beta) (2004-05-21).bin" size 155015616 crc 13D3E255 md5 E3C4F9BAE8516BB0A9BA288496D11CCE sha1 7360D39E621CC13B61ACDF638ED9C47F8D350E22 serial "SLES-52594" )
 )
 game (
 	name "UEFA Challenge (Europe) (En,Fr,De,Es,It,Nl,Pt)"
@@ -78225,14 +76049,6 @@ game (
 	rom ( name "Urban Reign (Asia).iso" size 4140924928 crc BA5D653B md5 B39FA4C6F058640B8246E7C607A70449 sha1 07686C6D3628C8E9ED1F30CF6BDD58AAA9843DDB serial "SCAJ-20152" )
 )
 game (
-	name "Urban Reign (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "10"
-	releaseday "14"
-	region "Europe"
-	rom ( name "Urban Reign (Europe) (Beta) (2005-10-14).iso" size 4140924928 crc 33AB8695 md5 E964F6CF9F77C9CB18E185328A2F9BFA sha1 4BA554BF478DF9F27D7A7C257BBDDAC782910265 )
-)
-game (
 	name "Urban Reign (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-53688"
@@ -78563,14 +76379,6 @@ game (
 	rom ( name "Vampire - Darkstalkers Collection (Japan).iso" size 4698767360 crc 68AA7829 md5 1CB15788F5202474F1E7967A4984D412 sha1 7DC177D48E779596C63A1D7FF1EDE9FC1824A2AF serial "SLPM-66637" )
 )
 game (
-	name "Vampire Night (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "30"
-	region "Europe"
-	rom ( name "Vampire Night (Europe) (Beta) (2001-11-30).iso" size 1392801792 crc 80029F48 md5 9BE93B02653C39F5968B9EF30DC98E97 sha1 2302F85790F9670693843104FB8F7620BE705C23 )
-)
-game (
 	name "Vampire Night (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SCES-50411"
@@ -78769,15 +76577,6 @@ game (
 	rom ( name "Vietcong - Purple Haze (USA).iso" size 1712160768 crc FC2A30BC md5 86964BBDECA4637C8ED25D6717D9911E sha1 0C3B3655BF6E78A90E655ABD8116B873E1CD363F serial "SLUS-21068" )
 )
 game (
-	name "Viewtiful Joe (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2004"
-	releasemonth "09"
-	releaseday "02"
-	region "Europe"
-	serial "SLES-52678"
-	rom ( name "Viewtiful Joe (Europe) (En,Fr,De,Es,It) (Beta) (2004-09-02).iso" size 3008856064 crc 9D962373 md5 AF5653D1237C684D15450B89ACAB390F sha1 4F579E8BB1A088575EF019F1A74EA9C92B7204E8 serial "SLES-52678" )
-)
-game (
 	name "Viewtiful Joe (Europe, Australia) (En,Fr,De,Es,It)"
 	region "Europe"
 	serial "SLES-52678"
@@ -78794,15 +76593,6 @@ game (
 	region "USA"
 	serial "SLUS-20951"
 	rom ( name "Viewtiful Joe (USA).iso" size 2432663552 crc BA4E76C8 md5 090ACF453D58E60E592F6D9A05B15B6B sha1 EAA13608D1F0E7871C4E00D7510270D413CF5E7C serial "SLUS-20951" )
-)
-game (
-	name "Viewtiful Joe (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "01"
-	region "USA"
-	serial "SLUS-20951"
-	rom ( name "Viewtiful Joe (USA) (Beta) (2004-07-01).iso" size 2437251072 crc F1FA1001 md5 13B741917526441633C83E8E79ED7FD2 sha1 406B7EED5742BD80F3636C5AAE167162FD9A52E9 serial "SLUS-20951" )
 )
 game (
 	name "Viewtiful Joe - A New Hope (Korea)"
@@ -78844,7 +76634,7 @@ game (
 	rom ( name "Viewtiful Joe 2 - Black Film no Nazo (Japan) (Tokubetsu Taikenban) (2004-08-25).iso" size 1230897152 crc 72CB3E11 md5 DB714EB23D39BB15DC7CFD893B78C826 sha1 5266A1DA7E68E36A3DFF65C951505A635B3E7C4A serial "SLPM-61094" )
 )
 game (
-	name "Viewtiful Joe 2 - Black Film no Nazo (Japan) (Tokubetsu Taikenban)"
+	name "Viewtiful Joe 2 - Black Film no Nazo (Japan) (Tokubetsu Taikenban) (Alt 1)"
 	releaseyear "2004"
 	releasemonth "11"
 	releaseday "19"
@@ -79213,15 +77003,6 @@ game (
 	rom ( name "WRC 3 - The Official Game of the FIA World Rally Championship (Japan).iso" size 2956328960 crc D86C5524 md5 5E1F766A1AEB646E414F3D5015D6AFC2 sha1 F994382113405534C9BDF8BE2A51E734DCB64DCA serial "SLPM-66103" )
 )
 game (
-	name "WRC 4 - The Official Game of the FIA World Rally Championship (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "12"
-	region "Europe"
-	serial "TCES-52389"
-	rom ( name "WRC 4 - The Official Game of the FIA World Rally Championship (Europe) (Beta) (2004-07-12).iso" size 1840775168 crc 8A6A6AA3 md5 DBB9E2095E264130ED5088F0607B475F sha1 03F7D008820828CD6B00A1303900D6424487E128 serial "TCES-52389" )
-)
-game (
 	name "WRC 4 - The Official Game of the FIA World Rally Championship (Europe) (En,Fr,De,Es,It) (Ford Fiesta Sports Edition Demo)"
 	region "Europe"
 	serial "SCED-52945"
@@ -79256,15 +77037,6 @@ game (
 	region "Japan"
 	serial "SLPM-65975"
 	rom ( name "WRC 4 - The Official Game of the FIA World Rally Championship (Japan) (v2.00).iso" size 3162013696 crc 49E5172D md5 7B758C7D64B5CED2A700503B50621454 sha1 B676F909E815E0349EB9DDC16B68E4136202F032 serial "SLPM-65975" )
-)
-game (
-	name "WRC 5 WT (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "02"
-	region "Europe"
-	serial "TCES-53247"
-	rom ( name "WRC 5 WT (Europe) (Beta) (2005-06-02).iso" size 2467692544 crc C52CB467 md5 0840C82796333EC6FFDBB03965F33C90 sha1 FFB71A8B539D8CF3B5AEE877E211AA82F321CA23 serial "TCES-53247" )
 )
 game (
 	name "WRC II Extreme (Europe, Australia) (En,Fr,De,Es,It,Pt,Fi)"
@@ -79585,15 +77357,6 @@ game (
 	rom ( name "WWE SmackDown! Shut Your Mouth (USA).iso" size 3509223424 crc C5B159E5 md5 748C5B60C70B36C52DF144CEF5B8549A sha1 870EE46733F57EADE607B17702844C31568A1B04 serial "SLUS-20483" )
 )
 game (
-	name "WWE SmackDown! vs. Raw (Europe) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "26"
-	region "Europe"
-	serial "TLES-52781"
-	rom ( name "WWE SmackDown! vs. Raw (Europe) (Beta) (2004-07-26).iso" size 1249509376 crc 9857ED15 md5 0CB8863ECE0C6676032A41578906A562 sha1 DF2A7ED969AA20C97BC35CDD3795209701AE94E3 serial "TLES-52781" )
-)
-game (
 	name "WWE SmackDown! vs. Raw (Europe, Australia)"
 	region "Europe"
 	serial "SLES-52781"
@@ -79628,15 +77391,6 @@ game (
 	region "USA"
 	serial "SLUS-21060"
 	rom ( name "WWE SmackDown! vs. Raw (USA).iso" size 4384358400 crc D22B875B md5 C0B7696B2C557B30065E6600CBEDF0DB sha1 C10110A127879FD55ABE1D1E8C5654C9D2A8B1DD serial "SLUS-21060" )
-)
-game (
-	name "WWE SmackDown! vs. Raw (USA) (Beta)"
-	releaseyear "2004"
-	releasemonth "07"
-	releaseday "06"
-	region "USA"
-	serial "SLUS-29116"
-	rom ( name "WWE SmackDown! vs. Raw (USA) (Beta) (2004-07-06).iso" size 1254293504 crc 18248D47 md5 A589439F38F813EC8A20A43C23CCC670 sha1 73EB911D8DEEEDB65206FFF5F00DCA36861B3EA8 serial "SLUS-29116" )
 )
 game (
 	name "WWE SmackDown! vs. Raw 2006 (Europe, Australia)"
@@ -79974,33 +77728,6 @@ game (
 	rom ( name "War of the Monsters (USA).iso" size 1258815488 crc EB9D9583 md5 F49F3679BFF43B194B479C3DC3F01225 sha1 55DE29708E1943299D40F7E07D7FECBF0E2AE0A8 serial "SCUS-97197" )
 )
 game (
-	name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "07"
-	region "Europe"
-	serial "SLES-50958"
-	rom ( name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta) (2003-07-07).iso" size 2273476608 crc 44FE549A md5 AF5D2B8A19B7D44DA07186B1C632892F sha1 656088BD5BC7A0FC84A3BB64D3FFC220019D3120 serial "SLES-50958" )
-)
-game (
-	name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "09"
-	region "Europe"
-	serial "SLES-50958"
-	rom ( name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta) (2003-07-09).iso" size 1721729024 crc D26EE85A md5 B77283590A5EFE7338719D14A7DC4F02 sha1 F81A0A85AAD2B37B2AD6C7B4B796DB8A416AC9A8 serial "SLES-50958" )
-)
-game (
-	name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "09"
-	region "Europe"
-	serial "SLES-50958/0.02"
-	rom ( name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,De,Es,It) (Beta) (2003-07-09).iso" size 1721729024 crc D26EE85A md5 B77283590A5EFE7338719D14A7DC4F02 sha1 F81A0A85AAD2B37B2AD6C7B4B796DB8A416AC9A8 serial "SLES-50958/0.02" )
-)
-game (
 	name "Warhammer 40,000 - Fire Warrior (Europe) (En,Fr,Es,It)"
 	region "Europe"
 	serial "SLES-50958"
@@ -80193,15 +77920,6 @@ game (
 	rom ( name "Way of the Samurai 2 (Europe) (En,Fr,De).iso" size 2520023040 crc C175AA2F md5 568EE28DE8C197913E7460677A5CD0B7 sha1 99F75BDD8D956B1E975DD42D9FE316D327401D04 serial "SLES-52275-GER" )
 )
 game (
-	name "Way of the Samurai 2 (Europe) (En,Fr,De) (Beta)"
-	releaseyear "2004"
-	releasemonth "02"
-	releaseday "10"
-	region "Europe"
-	serial "SLES-52275"
-	rom ( name "Way of the Samurai 2 (Europe) (En,Fr,De) (Beta) (2004-02-10).iso" size 2519400448 crc 935DB5C8 md5 C5ADB424F1102146B6CE5C7D28E67D37 sha1 E3E83F4429B6B112531E9CCE21436D8FF1A711A7 serial "SLES-52275" )
-)
-game (
 	name "Way of the Samurai 2 (USA)"
 	region "USA"
 	serial "SLUS-20893"
@@ -80218,15 +77936,6 @@ game (
 	region "Japan"
 	serial "SLPM-66448"
 	rom ( name "We Are- (Japan) (Genteiban).iso" size 3412459520 crc 5AA32335 md5 5D53C819D27DB814EC8B21AD2C989276 sha1 74FA49EF099D43A8C5C7095D47359FFCDA9F6300 serial "SLPM-66448" )
-)
-game (
-	name "We Love Katamari (Europe) (Beta)"
-	releaseyear "2005"
-	releasemonth "09"
-	releaseday "21"
-	region "Europe"
-	serial "SLUS-21230"
-	rom ( name "We Love Katamari (Europe) (Beta) (2005-09-21).iso" size 3556913152 crc 881246AF md5 55BBE9B1489656357C1E02D111BEE2EB sha1 EA0E035943048237C79BA367A8B2BE36F551C8B3 serial "SLUS-21230" )
 )
 game (
 	name "We Love Katamari (Europe) (En,Fr,Es,It)"
@@ -80336,14 +78045,6 @@ game (
 	rom ( name "White Clarity - And, the Tears Became You (Japan) (Shokai Genteiban).iso" size 1733951488 crc 9B893F9E md5 8FE3F4B0CAFE8902FA67331207BB78E4 sha1 9FB3E9F8BA8AF69E9530BF3A55134B083E457495 serial "SLPM-66214" )
 )
 game (
-	name "White Fear (Europe) (Beta)"
-	releaseyear "2002"
-	releasemonth "04"
-	releaseday "05"
-	region "Europe"
-	rom ( name "White Fear (Europe) (Beta) (2002-04-05).bin" size 190544928 crc FADFBE70 md5 D2C18C2671E6B4C70B22F3F4873E347E sha1 75EBC91D5615574C9CDAADF9EC511D9DF4ACFE20 )
-)
-game (
 	name "White Princess the Second - Yappari Ichizu ni Ittemo Soujanakutemo OK na Gotsugou Shugi Gakuen Ren'ai Adventure!! (Japan)"
 	region "Japan"
 	serial "SLPM-66078"
@@ -80378,15 +78079,6 @@ game (
 	region "Europe"
 	serial "SLES-50495"
 	rom ( name "Who Wants to Be a Millionaire - 2nd Edition (Europe).iso" size 4221337600 crc A56A43DC md5 BFDBD69AE51B397F6051F45A5CD9C474 sha1 A391F0A363ABF02971D7F87096195AAEDBF11B2C serial "SLES-50495" )
-)
-game (
-	name "Who Wants to Be a Millionaire - 2nd Edition (Europe) (Beta)"
-	releaseyear "2001"
-	releasemonth "11"
-	releaseday "01"
-	region "Europe"
-	serial "SLES-50495"
-	rom ( name "Who Wants to Be a Millionaire - 2nd Edition (Europe) (Beta) (2001-11-01).iso" size 4221337600 crc E6CF79F3 md5 C6121E7D63C912157ABAC4EF4FC181A4 sha1 BC3B2CB930118C7CE64E4B43E5453315545A349F serial "SLES-50495" )
 )
 game (
 	name "Who Wants to Be a Millionaire - Party Edition (Europe)"
@@ -80879,15 +78571,6 @@ game (
 	region "Europe"
 	serial "SLES-53716"
 	rom ( name "Without Warning (Europe) (En,Fr,De,Es,It).iso" size 2026209280 crc 18B922D5 md5 5865CAF6E9584344A9B073617F80EAA4 sha1 78C283CFB8D0A1F9A7CD4597A370B9A14037A45A serial "SLES-53716" )
-)
-game (
-	name "Without Warning (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2005"
-	releasemonth "08"
-	releaseday "08"
-	region "Europe"
-	serial "SLPS-99999"
-	rom ( name "Without Warning (Europe) (En,Fr,De,Es,It) (Beta) (2005-08-08).iso" size 1984286720 crc 7A524FDD md5 376D3AF404B36D4AFC03928C3D487D54 sha1 393B68119CD03AEB194119D41C92A142B330115D serial "SLPS-99999" )
 )
 game (
 	name "Without Warning (USA) (En,Fr,Es)"
@@ -81622,15 +79305,6 @@ game (
 	rom ( name "Wreckless - The Yakuza Missions (USA).iso" size 1403715584 crc 096B4FF4 md5 9DC555ED4DF069D21366981DFAC2BC13 sha1 710FAEE99677AE77FED9A80E6203F827EC9EF580 serial "SLUS-20431" )
 )
 game (
-	name "Wreckless - The Yakuza Missions (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "09"
-	releaseday "09"
-	region "USA"
-	serial "SLUS-20431"
-	rom ( name "Wreckless - The Yakuza Missions (USA) (Beta) (2002-09-09).iso" size 1403715584 crc 0FDB6AF7 md5 03621B68CD47E77C81F301A843B4E6C4 sha1 EE80BC0909C72BD777BCCA2679B6A0B4E6F3771B serial "SLUS-20431" )
-)
-game (
 	name "Wrestle Angels Survivor (Japan)"
 	region "Japan"
 	serial "SLPM-66927"
@@ -81899,15 +79573,6 @@ game (
 	rom ( name "XGRA - Extreme G Racing Association (USA).iso" size 1264615424 crc 829CE6EE md5 8AE7522E1C7B9E5C64137422ED958578 sha1 052FB6C13981B675A6489FCF7E27892DF47B6A54 serial "SLUS-20632" )
 )
 game (
-	name "XGRA - Extreme G Racing Association (USA) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "03"
-	region "USA"
-	serial "SLUS-20632"
-	rom ( name "XGRA - Extreme G Racing Association (USA) (Beta) (2003-07-03).iso" size 1632796672 crc 4AC2BD20 md5 998EA870CECA73725A1AB9E81D27DB8D sha1 83AFC38ABABD151243EA647BB6EA06B2B7AEDFA9 serial "SLUS-20632" )
-)
-game (
 	name "XI [sai] - XI-Go (Asia)"
 	region "Asia"
 	serial "SCAJ-20007"
@@ -81960,24 +79625,6 @@ game (
 	region "Korea"
 	serial "SLKA-15011"
 	rom ( name "XII Stag (Korea).bin" size 711524688 crc 6537D701 md5 AFCC73C158DACD5D955B75D5C575998C sha1 D6A003266B93C04829EC3570EC0438C5D83E1139 serial "SLKA-15011" )
-)
-game (
-	name "XIII (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "07"
-	releaseday "31"
-	region "Europe"
-	serial "SLUS-12345"
-	rom ( name "XIII (Europe) (En,Fr,De,Es,It) (Beta) (2003-07-31).iso" size 2803531776 crc 7B6B2853 md5 DCB1A62E1223C41CBA48E422AACE45D4 sha1 71DD3412401869231379EE5B16A524E3B6F6E206 serial "SLUS-12345" )
-)
-game (
-	name "XIII (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2003"
-	releasemonth "08"
-	releaseday "07"
-	region "Europe"
-	serial "SLUS-12345"
-	rom ( name "XIII (Europe) (En,Fr,De,Es,It) (Beta) (2003-08-07).iso" size 2223767552 crc A64B8E71 md5 702D8DA2BB43E25ECEB9449C0C0A4385 sha1 36FF7DF9E67A254370C7D24B1136A9FA66C7D446 serial "SLUS-12345" )
 )
 game (
 	name "XIII (Europe, Australia) (En,Fr,De,Es,It)"
@@ -82106,14 +79753,6 @@ game (
 	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1).iso" size 4682121216 crc D7485A6C md5 8BEC06B6B498E05DC645CEA34E0A2FF0 sha1 F929DE70BE5BA300BA7DBA5E4C45ED9E91EAC784 serial "SLUS-20892-0" )
 )
 game (
-	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1) (Beta)"
-	releaseyear "2004"
-	releasemonth "12"
-	releaseday "10"
-	region "USA"
-	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 1) (Beta) (2004-12-10).iso" size 4663181312 crc AC53F346 md5 5FE777A4D45DC638D7C6B62561C61F08 sha1 48CC2C7C581C3A366E30D3A68F95BC28BFB9D426 )
-)
-game (
 	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2)"
 	region "USA"
 	serial "SLUS-21133"
@@ -82124,14 +79763,6 @@ game (
 	region "USA"
 	serial "SLUS-21133-1"
 	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2).iso" size 4693164032 crc 7EA27985 md5 27830A7B49CE75F07AB450AD4922DE8A sha1 46E7BCF7CE8918CE4449CB7541EF4E619FB4A99E serial "SLUS-21133-1" )
-)
-game (
-	name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2) (Beta)"
-	releaseyear "2004"
-	releasemonth "12"
-	releaseday "10"
-	region "USA"
-	rom ( name "Xenosaga Episode II - Jenseits von Gut und Boese (USA) (Disc 2) (Beta) (2004-12-10).iso" size 4674224128 crc D5E271BB md5 65FACA90438D74D4007AB4397A51E6CD sha1 60B9582A3EFE3F95D6398DD974C241B952DB18DB )
 )
 game (
 	name "Xenosaga Episode II - Jenseits von Gut und Bose (Japan) (Disc 1) (Premium Box)"
@@ -82443,14 +80074,6 @@ game (
 	region "Japan"
 	serial "SLPS-20287"
 	rom ( name "Yakiniku Bugyou Bonfire! (Japan).bin" size 62036352 crc 42C414AD md5 B1C02A515453A2AC29ADC14144FF305D sha1 337268B7B7A886B3E235F72A18327A01DF97AF3D serial "SLPS-20287" )
-)
-game (
-	name "Yakuza (Europe) (Beta)"
-	releaseyear "2006"
-	releasemonth "07"
-	releaseday "03"
-	region "Europe"
-	rom ( name "Yakuza (Europe) (Beta) (2006-07-03).iso" size 4468244480 crc EB54DF3B md5 683C364B1023D991A85987A2A264E96D sha1 726749D8A2B9716E18EA26BDF5C90D620473177D )
 )
 game (
 	name "Yakuza (Europe) (En,Fr,De,Es,It)"
@@ -83483,15 +81106,6 @@ game (
 	region "Europe"
 	serial "SLES-50933"
 	rom ( name "eJay Clubworld - The Music Making Experience (Europe) (En,Fr,De,Es,It).iso" size 3799351296 crc E544F124 md5 132882CEA90895327FBB8CE1D44DBABA sha1 622DFE85C60F78FCEED12DD1CCEFFBFF89B0E1ED serial "SLES-50933" )
-)
-game (
-	name "eJay Clubworld - The Music Making Experience (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "06"
-	releaseday "27"
-	region "Europe"
-	serial "SLES-50933"
-	rom ( name "eJay Clubworld - The Music Making Experience (Europe) (En,Fr,De,Es,It) (Beta) (2002-06-27).iso" size 3802232832 crc 3D29789C md5 34BD0C3207179F6D561FC25A4567DFF8 sha1 4A166C1F00C3E1F52EAEC2F2604AF6830F29416C serial "SLES-50933" )
 )
 game (
 	name "eJay Clubworld - The Music Making Experience (USA)"

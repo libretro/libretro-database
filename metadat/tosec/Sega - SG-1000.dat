@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Sega - SG-1000"
 	description "Sega - SG-1000"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -97,15 +98,15 @@ game (
 	rom ( name "Chack'n Pop (198x)(Sega - Taito)(TW)(en).bin" size 32768 crc D81A72CE md5 64C1A50FB9F0293D7143D53579E2E62F sha1 75855A3148A57B102C15A436E7E4FFD1AB4808C3 )
 )
 game (
+	name "Champion Baseball"
+	releaseyear "1983"
+	rom ( name "Champion Baseball (1983)(Sega).bin" size 16384 crc 5970A12B md5 F70D4BCF91D3AD9313F9800F35B49536 sha1 737B9478C4CE6DF2AFCD36F78011019F5D669226 )
+)
+game (
 	name "Champion Baseball (Japan)[40K]"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Champion Baseball (1983)(Alpha Denshi - Sega)(JP)[40K].bin" size 40960 crc C0C16FA7 md5 308E337A863BB9FA952426EF99180AA7 sha1 85E5C2F354B9110E5F7C7DFCC7AB9814598B7956 )
-)
-game (
-	name "Champion Baseball"
-	releaseyear "1983"
-	rom ( name "Champion Baseball (1983)(Sega).bin" size 16384 crc 5970A12B md5 F70D4BCF91D3AD9313F9800F35B49536 sha1 737B9478C4CE6DF2AFCD36F78011019F5D669226 )
 )
 game (
 	name "Champion Baseball (Taiwan)[16K][AKA Shijie Bangqiu Sai]"
@@ -124,12 +125,6 @@ game (
 	rom ( name "Champion Billards (198x)(Sega)(TW)(en).bin" size 32768 crc 56D85BD4 md5 256A6D4BD6DBBE7AA99DE513EAC6BA2F sha1 37DC5E7B3EBC3A3B0480B16D27BC394D57AAC697 )
 )
 game (
-	name "Champion Boxing (Taiwan)[cart][AKA Quan Wang Zheng Ba Zhan]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Champion Boxing (1984)(Aaronix)(TW)[cart][AKA Quan Wang Zheng Ba Zhan].bin" size 32768 crc 15D2CE33 md5 3E346C6137CAB263643E42411F64A74D sha1 E55396BE42C6CFBF47FF43D3E8FAEE1DC8FAD807 )
-)
-game (
 	name "Champion Boxing (Japan)[Card]"
 	releaseyear "1984"
 	region "Japan"
@@ -142,6 +137,17 @@ game (
 	rom ( name "Champion Boxing (1984)(Sega)(JP)(en)[Cartridge].bin" size 32768 crc 26F947D1 md5 3F54756FD73C3FBE33B56D7954D12F31 sha1 8CD55EE1EFCAB917087B80629CA18B4629EDC15D )
 )
 game (
+	name "Champion Boxing (Taiwan)[cart][AKA Quan Wang Zheng Ba Zhan]"
+	releaseyear "1984"
+	region "Taiwan"
+	rom ( name "Champion Boxing (1984)(Aaronix)(TW)[cart][AKA Quan Wang Zheng Ba Zhan].bin" size 32768 crc 15D2CE33 md5 3E346C6137CAB263643E42411F64A74D sha1 E55396BE42C6CFBF47FF43D3E8FAEE1DC8FAD807 )
+)
+game (
+	name "Champion Golf (Korea)[cart]"
+	region "Korea"
+	rom ( name "Champion Golf (198x)(Samsung)(KR)[cart].bin" size 32768 crc 35AF42AD md5 6A865BF09FAAB7FABACB95EB70E3FC9D sha1 40AC48EF0BA23653D1763CD04774B00ABC49F9A4 )
+)
+game (
 	name "Champion Golf [Card]"
 	releaseyear "1983"
 	rom ( name "Champion Golf (1983)(Logitec - Sega)[Card].bin" size 32768 crc 5A904122 md5 3C01BB2A4414989378C252F45A4E5050 sha1 F58F14581919C431AC85DA72FD1A39BBE1DA5E66 )
@@ -150,11 +156,6 @@ game (
 	name "Champion Golf [Cartridge]"
 	releaseyear "1983"
 	rom ( name "Champion Golf (1983)(Logitec - Sega)[Cartridge].bin" size 32768 crc 868419B5 md5 1D87490269964239B64244FCABD18FE1 sha1 05DEB000F24B7D8625C6E9332DCC91416ED3258F )
-)
-game (
-	name "Champion Golf (Korea)[cart]"
-	region "Korea"
-	rom ( name "Champion Golf (198x)(Samsung)(KR)[cart].bin" size 32768 crc 35AF42AD md5 6A865BF09FAAB7FABACB95EB70E3FC9D sha1 40AC48EF0BA23653D1763CD04774B00ABC49F9A4 )
 )
 game (
 	name "Champion Ice Hockey (Japan)"
@@ -189,16 +190,16 @@ game (
 	rom ( name "Champion Pro Wrestling (1985)(Sega).bin" size 32768 crc 372FE6BC md5 DA9A4589303370E8A751C16B2CBFA628 sha1 3BDB1E9D8B1A04D8FCC242C47BE790C427A75403 )
 )
 game (
-	name "Champion Soccer (Taiwan)[AKA Zuqiu Wang]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Champion Soccer (1984)(Aaronix)(TW)[AKA Zuqiu Wang].bin" size 16384 crc 269C1AEE md5 F29B59C3588E3B952E1AD79C1E1DC8A0 sha1 AD2A72DFF1959E3E148C48962AB382897BC06627 )
-)
-game (
 	name "Champion Soccer (Japan)"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Champion Soccer (1984)(Sega)(JP)(en).bin" size 16384 crc 6F39719E md5 810064687E1614B6A7FB985B82806D31 sha1 0B3CF82F020AC9249EA52766FFBAD41515D0B8B4 )
+)
+game (
+	name "Champion Soccer (Taiwan)[AKA Zuqiu Wang]"
+	releaseyear "1984"
+	region "Taiwan"
+	rom ( name "Champion Soccer (1984)(Aaronix)(TW)[AKA Zuqiu Wang].bin" size 16384 crc 269C1AEE md5 F29B59C3588E3B952E1AD79C1E1DC8A0 sha1 AD2A72DFF1959E3E148C48962AB382897BC06627 )
 )
 game (
 	name "Champion Tennis"
@@ -227,20 +228,14 @@ game (
 	rom ( name "Choplifter (198x)(Sega)(TW)(en).bin" size 32768 crc 746A8D86 md5 AB4105FD66E149E2BFBD5E5566E6AA76 sha1 AF6C40FEBE02FE2B424EA99E666CF3F451EB5A1F )
 )
 game (
-	name "Choplifter (Taiwan) (Alt 2)"
-	region "Taiwan"
-	rom ( name "Choplifter (198x)(Sega)(TW)(en)[a2].bin" size 32768 crc 825E1AAE md5 3427AE928BCE91B314E62BE92DBF8446 sha1 DAF36C050B0E507D2F2470050299A648716C9158 )
-)
-game (
 	name "Choplifter (Taiwan) (Alt 1)"
 	region "Taiwan"
 	rom ( name "Choplifter (198x)(Sega)(TW)(en)[a].bin" size 32768 crc 7C603987 md5 DAC1F7D97039682793378FDBA7EE2D8E sha1 61D1AFE62B2BE0DA26D8A185828387063DD4B06E )
 )
 game (
-	name "Choplifter v613 (Japan) (Beta)"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Choplifter v613 (1985)(Sega)(JP)(en)(beta).bin" size 32768 crc FF435469 md5 0500FE7F7CBDA7A9EC19BE1094AA67DD sha1 DA92459E64ED6CC0CE93B03A60FAD049E13A505F )
+	name "Choplifter (Taiwan) (Alt 2)"
+	region "Taiwan"
+	rom ( name "Choplifter (198x)(Sega)(TW)(en)[a2].bin" size 32768 crc 825E1AAE md5 3427AE928BCE91B314E62BE92DBF8446 sha1 DAF36C050B0E507D2F2470050299A648716C9158 )
 )
 game (
 	name "Circus Charlie (Korea)[p]"
@@ -321,12 +316,6 @@ game (
 	rom ( name "Dragon Wang (1985)(Sega)(JP)(en)[a].bin" size 32768 crc 60F30138 md5 0528EED7E7AE46EC8298098F1A22D18F sha1 78F26D0A1D4F08A6378700B81AB38FC7C0F6BDC0 )
 )
 game (
-	name "Drol (Taiwan)[AKA Jiunan Xiao Yingxiong]"
-	releaseyear "1985"
-	region "Taiwan"
-	rom ( name "Drol (1985)(Aaronix)(TW)[AKA Jiunan Xiao Yingxiong].bin" size 32768 crc B7FC033D md5 0423892EEFD3D09A7102651F8980CC39 sha1 8BB117DF0A86508CF3FC139BD070C0AA8C6487DD )
-)
-game (
 	name "Drol"
 	releaseyear "1985"
 	rom ( name "Drol (1985)(Sega).bin" size 32768 crc 288940CB md5 8EB2AB42D2BC3F3568E85CBA2B46A251 sha1 607B2B9A946EAAEBB938800BD3B1DF7D9342388C )
@@ -335,6 +324,12 @@ game (
 	name "Drol (Korea)"
 	region "Korea"
 	rom ( name "Drol (198x)(Samsung)(KR).bin" size 32768 crc 1D7C53BB md5 0FACBC1668DEDBCB579D08DF4E232699 sha1 37BAF9AAC77436B4939C80D6A575E23A7D5CD76D )
+)
+game (
+	name "Drol (Taiwan)[AKA Jiunan Xiao Yingxiong]"
+	releaseyear "1985"
+	region "Taiwan"
+	rom ( name "Drol (1985)(Aaronix)(TW)[AKA Jiunan Xiao Yingxiong].bin" size 32768 crc B7FC033D md5 0423892EEFD3D09A7102651F8980CC39 sha1 8BB117DF0A86508CF3FC139BD070C0AA8C6487DD )
 )
 game (
 	name "Du Du Che (Taiwan)[AKA Rally-X]"
@@ -349,12 +344,6 @@ game (
 	rom ( name "Elevator Action (1985)(Sega - Taito)(JP)(en).bin" size 32768 crc 5AF8F69D md5 23C751FE6BB8BD4F8C0CD9B0D39ADECD sha1 F72B3E44309E7C2E447C46928CE795453102F717 )
 )
 game (
-	name "Exerion (Taiwan)[AKA Diqiu Baowei Zhan]"
-	releaseyear "1983"
-	region "Taiwan"
-	rom ( name "Exerion (1983)(Aaronix)(TW)[AKA Diqiu Baowei Zhan].bin" size 16384 crc B5C84A32 md5 C8519EF63183E8398DDE0BD3E7E2641E sha1 75555C1A05A14401E4136BFFB9FB52F88A17ECFC )
-)
-game (
 	name "Exerion"
 	releaseyear "1983"
 	rom ( name "Exerion (1983)(Sega).bin" size 16384 crc A2C45B61 md5 7F0AE039DD072D825EBFD2D3BF02A2A0 sha1 839E19487B96D02222FF397B047CBC6A0FBC08FF )
@@ -363,6 +352,12 @@ game (
 	name "Exerion (Korea)"
 	region "Korea"
 	rom ( name "Exerion (198x)(Samsung)(KR).bin" size 32768 crc FC628D0D md5 EB3F8F679F32E6BCC4489280DF7BE7F3 sha1 3F569C9D95BC83896BC44DBA7C469356961D659C )
+)
+game (
+	name "Exerion (Taiwan)[AKA Diqiu Baowei Zhan]"
+	releaseyear "1983"
+	region "Taiwan"
+	rom ( name "Exerion (1983)(Aaronix)(TW)[AKA Diqiu Baowei Zhan].bin" size 16384 crc B5C84A32 md5 C8519EF63183E8398DDE0BD3E7E2641E sha1 75555C1A05A14401E4136BFFB9FB52F88A17ECFC )
 )
 game (
 	name "Fa Gui Qibing (Taiwan)[AKA Pitfall II][chinese logo]"
@@ -425,16 +420,16 @@ game (
 	rom ( name "Galaga (1983)(Aaronix)(TW)[AKA Sega-Galaga][AKA Mifeng Er Dai].bin" size 16384 crc 845BBB22 md5 7E31FFE1446D6B792D0DEBF87BCC3F75 sha1 6C049DAA08AF7B1F08B98D6998BA52D7CF3CC4DE )
 )
 game (
-	name "Girl's Garden (Taiwan)[AKA Meiren Hui Yingxiong]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Girl's Garden (1984)(Aaronix)(TW)[AKA Meiren Hui Yingxiong].bin" size 32768 crc B9635AC4 md5 83065F5045611F3D6D7B67382357DCC6 sha1 94089BE091AF476C5628225E0262396FAA5394F1 )
-)
-game (
 	name "Girl's Garden (Japan)"
 	releaseyear "1984"
 	region "Japan"
 	rom ( name "Girl's Garden (1984)(Sega)(JP)(en).bin" size 32768 crc 1898F274 md5 AC95C0655360F667E3AD705E2EB7367A sha1 0E08786587FB76909B3F9806BA1F5D57EA17728C )
+)
+game (
+	name "Girl's Garden (Taiwan)[AKA Meiren Hui Yingxiong]"
+	releaseyear "1984"
+	region "Taiwan"
+	rom ( name "Girl's Garden (1984)(Aaronix)(TW)[AKA Meiren Hui Yingxiong].bin" size 32768 crc B9635AC4 md5 83065F5045611F3D6D7B67382357DCC6 sha1 94089BE091AF476C5628225E0262396FAA5394F1 )
 )
 game (
 	name "Golgo 13"
@@ -460,12 +455,6 @@ game (
 	rom ( name "Guzzler (1983)(Aaronix)(TW)[AKA Shui Jingling].bin" size 8192 crc EB808158 md5 36548BE02803AA49FE0E918626E240C1 sha1 5C51F9846FB8220AB7DD6DB5D6911CF4E985BFE9 )
 )
 game (
-	name "H.E.R.O. (Taiwan)[english logo]"
-	releaseyear "1985"
-	region "Taiwan"
-	rom ( name "H.E.R.O. (1985)(Aaronix)(TW)[english logo].bin" size 32768 crc 96F09C6D md5 89BE9DE818FA13DCA0ECECD6575AF06A sha1 82B530FEEF7C011361E21B62D2C359C626AB8A9C )
-)
-game (
 	name "H.E.R.O. (Japan)"
 	releaseyear "1985"
 	region "Japan"
@@ -475,6 +464,12 @@ game (
 	name "H.E.R.O. (Taiwan)"
 	region "Taiwan"
 	rom ( name "H.E.R.O. (198x)(Activision - Sega)(TW)(en).bin" size 32768 crc 83958998 md5 6136E2E6DDA483CB311C72843C2EE5CD sha1 3B2D3DFE948A734C3D18B504C89C61B7B1F3D81B )
+)
+game (
+	name "H.E.R.O. (Taiwan)[english logo]"
+	releaseyear "1985"
+	region "Taiwan"
+	rom ( name "H.E.R.O. (1985)(Aaronix)(TW)[english logo].bin" size 32768 crc 96F09C6D md5 89BE9DE818FA13DCA0ECECD6575AF06A sha1 82B530FEEF7C011361E21B62D2C359C626AB8A9C )
 )
 game (
 	name "Hang-On II"
@@ -528,21 +523,15 @@ game (
 	rom ( name "Huojian Che (1986)(Jumbo)(TW)[AKA Road Fighter].bin" size 32768 crc 29E047CC md5 E872BBE06FCEE32E53FB9E11B61FE762 sha1 4F1A139974E3DB27AF5973BC9572ED68ACD6EA68 )
 )
 game (
-	name "Hustle Chumy (Taiwan)[AKA Wanpi Shu]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Hustle Chumy (1984)(Aaronix)(TW)[AKA Wanpi Shu].bin" size 16384 crc C4ED1FD9 md5 C06FA11763D119620F6A908516C1E8AD sha1 E7800D107EF0A7773EEA2D482B5DB9D866BA74F9 )
-)
-game (
 	name "Hustle Chumy"
 	releaseyear "1984"
 	rom ( name "Hustle Chumy (1984)(Compile - Sega).bin" size 16384 crc A627D440 md5 8BE690D357A99ABD26EBB5378E9C0153 sha1 1F1BAD94B2D869C10A2373CA40D4076D227CC302 )
 )
 game (
-	name "Hyper Sports (Taiwan)[AKA Aoyun Dasai]"
-	releaseyear "1985"
+	name "Hustle Chumy (Taiwan)[AKA Wanpi Shu]"
+	releaseyear "1984"
 	region "Taiwan"
-	rom ( name "Hyper Sports (1985)(Aaronix)(TW)[AKA Aoyun Dasai].bin" size 32768 crc 87619AC2 md5 F72F3DEF79FFD82FE2224F4732B2B994 sha1 BF4218AEBC07AA7179CC52853A55436DB985B81E )
+	rom ( name "Hustle Chumy (1984)(Aaronix)(TW)[AKA Wanpi Shu].bin" size 16384 crc C4ED1FD9 md5 C06FA11763D119620F6A908516C1E8AD sha1 E7800D107EF0A7773EEA2D482B5DB9D866BA74F9 )
 )
 game (
 	name "Hyper Sports"
@@ -553,6 +542,12 @@ game (
 	name "Hyper Sports (Korea)"
 	region "Korea"
 	rom ( name "Hyper Sports (198x)(Samsung)(KR).bin" size 32768 crc 3157EF9C md5 C40AECC0FC766BB26C76B6855BBE4FAD sha1 43D67E8C386012D0694F09A2FE31A46D32D39F17 )
+)
+game (
+	name "Hyper Sports (Taiwan)[AKA Aoyun Dasai]"
+	releaseyear "1985"
+	region "Taiwan"
+	rom ( name "Hyper Sports (1985)(Aaronix)(TW)[AKA Aoyun Dasai].bin" size 32768 crc 87619AC2 md5 F72F3DEF79FFD82FE2224F4732B2B994 sha1 BF4218AEBC07AA7179CC52853A55436DB985B81E )
 )
 game (
 	name "Hyper Sports 2 (Taiwan)[p]"
@@ -582,12 +577,6 @@ game (
 	rom ( name "Jinzita (198x)(Aaronix)(TW)[AKA King's Valley].bin" size 32768 crc 223397A1 md5 FF28E684EB3952AE3F7CF3E3D1C507EF sha1 922D23895C12707B2FC382EA5CB769C5CB9B5755 )
 )
 game (
-	name "Lode Runner (Taiwan)[AKA Xun Bao Ji]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Lode Runner (1984)(Aaronix)(TW)[AKA Xun Bao Ji].bin" size 32768 crc D953BDB7 md5 2BEA9EE88E177A13D7961017DD4F6120 sha1 FB226A489E5A47EB0182A067FA1031EC944AB455 )
-)
-game (
 	name "Lode Runner"
 	releaseyear "1984"
 	rom ( name "Lode Runner (1984)(Sega).bin" size 32768 crc 00ED3970 md5 4B4F02EB3CF7D5F9DCD1311D72E6D742 sha1 F14F216EDFDA7DFD113F5CB32375A27BE8A6409D )
@@ -596,6 +585,12 @@ game (
 	name "Lode Runner (Taiwan)"
 	region "Taiwan"
 	rom ( name "Lode Runner (19xx)(Sega)(TW)(en).bin" size 32768 crc E68BC7D6 md5 5146C83814C930BE839F123DCD3B591D sha1 23F22B407DF4AE8D7931051EB229EFD862BEA5F7 )
+)
+game (
+	name "Lode Runner (Taiwan)[AKA Xun Bao Ji]"
+	releaseyear "1984"
+	region "Taiwan"
+	rom ( name "Lode Runner (1984)(Aaronix)(TW)[AKA Xun Bao Ji].bin" size 32768 crc D953BDB7 md5 2BEA9EE88E177A13D7961017DD4F6120 sha1 FB226A489E5A47EB0182A067FA1031EC944AB455 )
 )
 game (
 	name "Lode Runner II (Taiwan)"
@@ -660,15 +655,15 @@ game (
 	rom ( name "Moyu Chuanqi (1986)(Jumbo)(TW)[AKA Knightmare].bin" size 49152 crc 281D2888 md5 E0321CD713EC1B48FF88F7DF13E3CE28 sha1 BABDB6B109B20E81C28CD892C2042723E9CBFF49 )
 )
 game (
-	name "N-Sub (Taiwan)[AKA Qianshui Dazhan]"
-	releaseyear "1983"
-	region "Taiwan"
-	rom ( name "N-Sub (1983)(Aaronix)(TW)[AKA Qianshui Dazhan].bin" size 16384 crc 3E371769 md5 1A800ABAC4C55948528D2A62771C10A9 sha1 55A36C77CBDF87530611FECCF2F1807BDD2AC0EC )
-)
-game (
 	name "N-Sub"
 	releaseyear "1983"
 	rom ( name "N-Sub (1983)(Sega).bin" size 16384 crc 652BBD1E md5 56C559D0D82A3E6FB2E87230D39F32F4 sha1 2640E267441BF25463A19273C46F3EDB5E459496 )
+)
+game (
+	name "N-Sub (Europe)"
+	releaseyear "1988"
+	region "Europe"
+	rom ( name "N-Sub (1988)(Sega)(EU)(en).bin" size 16384 crc 09196FC5 md5 414196527AA0979E6516F5C55D1BB8C7 sha1 32A263110434288D3720E2370241D1E93B3F07A9 )
 )
 game (
 	name "N-Sub (Japan)"
@@ -677,10 +672,10 @@ game (
 	rom ( name "N-Sub (1983)(Sega)(JP)(en).bin" size 40960 crc B377D6E1 md5 CFCED1BA39ADEE6A75DC830ED9C12F73 sha1 AA3EAE849553A5A176762466B101F312B8B968E4 )
 )
 game (
-	name "N-Sub (Europe)"
-	releaseyear "1988"
-	region "Europe"
-	rom ( name "N-Sub (1988)(Sega)(EU)(en).bin" size 16384 crc 09196FC5 md5 414196527AA0979E6516F5C55D1BB8C7 sha1 32A263110434288D3720E2370241D1E93B3F07A9 )
+	name "N-Sub (Taiwan)[AKA Qianshui Dazhan]"
+	releaseyear "1983"
+	region "Taiwan"
+	rom ( name "N-Sub (1983)(Aaronix)(TW)[AKA Qianshui Dazhan].bin" size 16384 crc 3E371769 md5 1A800ABAC4C55948528D2A62771C10A9 sha1 55A36C77CBDF87530611FECCF2F1807BDD2AC0EC )
 )
 game (
 	name "Ninja Princess (Japan) (En,Ja)"
@@ -715,12 +710,6 @@ game (
 	rom ( name "Othello (1985)(Sega)(JP)(en).bin" size 32768 crc AF4F14BC md5 3F429704761D34D7793E7123A183D7F6 sha1 D0CD594DDB321F707DDBA8A044FA3E9B906E720A )
 )
 game (
-	name "Pacar (Taiwan)[AKA Mi Hun Che]"
-	releaseyear "1983"
-	region "Taiwan"
-	rom ( name "Pacar (1983)(Aaronix)(TW)[AKA Mi Hun Che].bin" size 16384 crc DD6817A0 md5 722DA0D7454C99BA46D432EE3D003464 sha1 0833BE2743608983012CAB6E3BDD6FD56453114E )
-)
-game (
 	name "Pacar"
 	releaseyear "1983"
 	rom ( name "Pacar (1983)(Sega).bin" size 16384 crc 30C52E5E md5 8F46800E6FC7D5A40716045F6D739932 sha1 91FD213308B83BB1BDA1DFC7E971E576CAACE291 )
@@ -732,21 +721,27 @@ game (
 	rom ( name "Pacar (1983)(Sega)(JP)[40K].bin" size 40960 crc 19949375 md5 C672BC2409443CC5BCA35ABD041D11E0 sha1 5E89857A374CBF3EFA32EFB62D26973D46A856AE )
 )
 game (
+	name "Pacar (Taiwan)[AKA Mi Hun Che]"
+	releaseyear "1983"
+	region "Taiwan"
+	rom ( name "Pacar (1983)(Aaronix)(TW)[AKA Mi Hun Che].bin" size 16384 crc DD6817A0 md5 722DA0D7454C99BA46D432EE3D003464 sha1 0833BE2743608983012CAB6E3BDD6FD56453114E )
+)
+game (
 	name "Pachinko (Japan)"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Pachinko (1983)(Sega)(JP)(en).bin" size 40960 crc 326587E1 md5 37F5E516D9FBCE05052204B67379A6DA sha1 AEAA15155E7D4275880C35C866C45626DAA4DAB9 )
 )
 game (
+	name "Pachinko II"
+	releaseyear "1984"
+	rom ( name "Pachinko II (1984)(Sega).bin" size 16384 crc FD7CB50A md5 EADAE13FF73047A47F354E258C12619E sha1 1DBC4BABBBB377A1FF59A11E550A9B1B5E742B02 )
+)
+game (
 	name "Pachinko II (Taiwan)[AKA Bin Guo Youxi]"
 	releaseyear "1984"
 	region "Taiwan"
 	rom ( name "Pachinko II (1984)(Aaronix)(TW)[AKA Bin Guo Youxi].bin" size 16384 crc 6EBE81BF md5 A3409283BF8C808A15095CC005A74975 sha1 CA0C66B4D48D6ADE38E7F9093EEA74AD090ECDB7 )
-)
-game (
-	name "Pachinko II"
-	releaseyear "1984"
-	rom ( name "Pachinko II (1984)(Sega).bin" size 16384 crc FD7CB50A md5 EADAE13FF73047A47F354E258C12619E sha1 1DBC4BABBBB377A1FF59A11E550A9B1B5E742B02 )
 )
 game (
 	name "Ping Pong (Taiwan)[AKA Pingpang Qiu]"
@@ -770,15 +765,15 @@ game (
 	rom ( name "Pitfall II - The Lost Caverns (1985)(Activision - Sega)[a].bin" size 32768 crc 3DB74761 md5 38AE610EB6266D4DB8BC6D3DCB8FCD4A sha1 A14453650B6B2EF85E03B9637F08F691878ACFF4 )
 )
 game (
+	name "Pop Flamer"
+	releaseyear "1983"
+	rom ( name "Pop Flamer (1983)(Jaleco - Sega).bin" size 16384 crc DB6404BA md5 7F841AA0C225662E26CA7A8DF20B2EB8 sha1 84B59A9F855EF5E953C43495D7A15DD78386D0A8 )
+)
+game (
 	name "Pop Flamer (Taiwan)[AKA Jingling Shu]"
 	releaseyear "1983"
 	region "Taiwan"
 	rom ( name "Pop Flamer (1983)(Aaronix)(TW)[AKA Jingling Shu].bin" size 16384 crc AB1DA8A6 md5 E5082018FF7CBAC17DB003F159AB2DFB sha1 25D5CDC7FDD5CBA97ABBD9D32F61A39AACCEB2C0 )
-)
-game (
-	name "Pop Flamer"
-	releaseyear "1983"
-	rom ( name "Pop Flamer (1983)(Jaleco - Sega).bin" size 16384 crc DB6404BA md5 7F841AA0C225662E26CA7A8DF20B2EB8 sha1 84B59A9F855EF5E953C43495D7A15DD78386D0A8 )
 )
 game (
 	name "Rally-X (Taiwan)[AKA Wuzei Che]"
@@ -793,15 +788,20 @@ game (
 	rom ( name "Road Fighter (1986)(Jumbo)(TW)[AKA Huo Fenghuang].bin" size 32768 crc D2EDD329 md5 BE975A2510125FF4B545BB162826EF26 sha1 2755F74019DC94559FD0C2248E2ECB7F48879B90 )
 )
 game (
+	name "Rock n' Bolt"
+	releaseyear "1985"
+	rom ( name "Rock n' Bolt (1985)(Activision - Sega).bin" size 32768 crc 0FFDD03D md5 108FFE4BA5C2C8C5E0459CB7F0CFAC0E sha1 D5E8E7CA7623521D4291AE5AB2740816FC674389 )
+)
+game (
 	name "Rock n' Bolt (Taiwan)[english logo]"
 	releaseyear "1985"
 	region "Taiwan"
 	rom ( name "Rock n' Bolt (1985)(Aaronix)(TW)[english logo].bin" size 32768 crc 09A82AF7 md5 0CBBD9FAFC39CCCEFD8D0B8FCA3B3D33 sha1 E3BE08BDA8459FC60836ABE332E9864E7C596202 )
 )
 game (
-	name "Rock n' Bolt"
-	releaseyear "1985"
-	rom ( name "Rock n' Bolt (1985)(Activision - Sega).bin" size 32768 crc 0FFDD03D md5 108FFE4BA5C2C8C5E0459CB7F0CFAC0E sha1 D5E8E7CA7623521D4291AE5AB2740816FC674389 )
+	name "Safari Hunting"
+	releaseyear "1983"
+	rom ( name "Safari Hunting (1983)(Sega).bin" size 16384 crc 49E9718B md5 F77826F62D943C4A24F7FB9C3BB4A5F9 sha1 902DBABBFA98D71299ADDA0638B87152188E1CF1 )
 )
 game (
 	name "Safari Hunting (Taiwan)[AKA Conglin Lixian]"
@@ -810,15 +810,9 @@ game (
 	rom ( name "Safari Hunting (1983)(Aaronix)(TW)[AKA Conglin Lixian].bin" size 16384 crc 6DC51C01 md5 48185BC0B8ED743C6A44F2759219B955 sha1 E3AA37F4C9F213A673E369F62561F3F80513E4F3 )
 )
 game (
-	name "Safari Hunting"
-	releaseyear "1983"
-	rom ( name "Safari Hunting (1983)(Sega).bin" size 16384 crc 49E9718B md5 F77826F62D943C4A24F7FB9C3BB4A5F9 sha1 902DBABBFA98D71299ADDA0638B87152188E1CF1 )
-)
-game (
-	name "Safari Race (Taiwan)[AKA Feizhou Da Saiche]"
-	releaseyear "1984"
-	region "Taiwan"
-	rom ( name "Safari Race (1984)(Aaronix)(TW)[AKA Feizhou Da Saiche].bin" size 32768 crc B2724428 md5 EAC09096175CBB2FB49468D475FDEC88 sha1 06FE09074BEF542B590761BA585911D0998AF646 )
+	name "Safari Race"
+	releaseyear "1988"
+	rom ( name "Safari Race (1988)(Sega).bin" size 32768 crc 619DD066 md5 CAC358543F85BC060918638BB594FAC9 sha1 1D2CA62C894FC8AAB97605E65078E834BBBE3D8B )
 )
 game (
 	name "Safari Race (Japan)"
@@ -827,9 +821,10 @@ game (
 	rom ( name "Safari Race (1984)(Sega)(JP).bin" size 32768 crc 08707FE3 md5 8384956E456A91CA59F9C5E72F1CB1C4 sha1 ECBBA909F2227786E7BA3360D2DD158F6513CFD4 )
 )
 game (
-	name "Safari Race"
-	releaseyear "1988"
-	rom ( name "Safari Race (1988)(Sega).bin" size 32768 crc 619DD066 md5 CAC358543F85BC060918638BB594FAC9 sha1 1D2CA62C894FC8AAB97605E65078E834BBBE3D8B )
+	name "Safari Race (Taiwan)[AKA Feizhou Da Saiche]"
+	releaseyear "1984"
+	region "Taiwan"
+	rom ( name "Safari Race (1984)(Aaronix)(TW)[AKA Feizhou Da Saiche].bin" size 32768 crc B2724428 md5 EAC09096175CBB2FB49468D475FDEC88 sha1 06FE09074BEF542B590761BA585911D0998AF646 )
 )
 game (
 	name "San-nin Mahjong (Taiwan)[AKA San Ren Maque]"
@@ -901,27 +896,27 @@ game (
 	rom ( name "Shuangxiang Pao (1986)(Jumbo)(TW)[AKA TwinBee].bin" size 49152 crc C550B4F0 md5 8C2C0D7E8415AE7B0C577CF947E89E78 sha1 A8C30043C145E63F79A3265DDE167529F0E08D49 )
 )
 game (
+	name "Sindbad Mystery"
+	releaseyear "1983"
+	rom ( name "Sindbad Mystery (1983)(Sega).bin" size 32768 crc 01932DF9 md5 7B0F2BE3588337DF59959ABABBEFE505 sha1 90BB8B8337866339F32B3FD48B4D25D78D682B55 )
+)
+game (
 	name "Sindbad Mystery (Taiwan)[AKA Tianfang Ye Tan]"
 	releaseyear "1983"
 	region "Taiwan"
 	rom ( name "Sindbad Mystery (1983)(Aaronix)(TW)[AKA Tianfang Ye Tan].bin" size 32768 crc 945F7847 md5 DB6B5FF4D8C8CEF6D0C9F2D004F56BF6 sha1 9A4E44CCD3CABD092AAE59FCABDA8F047609A675 )
 )
 game (
-	name "Sindbad Mystery"
-	releaseyear "1983"
-	rom ( name "Sindbad Mystery (1983)(Sega).bin" size 32768 crc 01932DF9 md5 7B0F2BE3588337DF59959ABABBEFE505 sha1 90BB8B8337866339F32B3FD48B4D25D78D682B55 )
+	name "Soukoban (Japan) (En,Ja)"
+	releaseyear "1985"
+	region "Japan"
+	rom ( name "Soukoban (1985)(Sega - Thinking Rabbit)(JP)(en-ja).bin" size 32768 crc 922C5468 md5 6CAE3B6286041E742020AEB3CD2BDF52 sha1 94E79B4A8B4A5FB77C837EA0A1E28BC5993D36AF )
 )
 game (
 	name "Soukoban (Korea)[AKA Changgo Jigi]"
 	releaseyear "1985"
 	region "Korea"
 	rom ( name "Soukoban (1985)(-)(KR)[AKA Changgo Jigi].bin" size 32768 crc 148EA752 md5 CBD4D466882BA81D5EB63E849797FD4C sha1 A9D77C6DEE31956BB382ABD14245FF581369578D )
-)
-game (
-	name "Soukoban (Japan) (En,Ja)"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Soukoban (1985)(Sega - Thinking Rabbit)(JP)(en-ja).bin" size 32768 crc 922C5468 md5 6CAE3B6286041E742020AEB3CD2BDF52 sha1 94E79B4A8B4A5FB77C837EA0A1E28BC5993D36AF )
 )
 game (
 	name "Soukoban (Taiwan) (En,Ja)"
@@ -935,27 +930,21 @@ game (
 	rom ( name "Space Armor v1.0 (1984)(Tsukuda Original)(JP)[40K].bin" size 40960 crc D23B0E3E md5 49587DEFD7DD2E6FD87E01E7F48D132F sha1 BBFFE62F8F851E3C4A62981437FACB518054A8AB )
 )
 game (
+	name "Space Invaders"
+	releaseyear "1985"
+	rom ( name "Space Invaders (1985)(Sega - Taito).bin" size 16384 crc 6AD5CB3D md5 87A97B049EC01B1803B93F06D0407586 sha1 A4E4B0C2967E39C4931FBA8BC87428F296E461C5 )
+)
+game (
 	name "Space Invaders (Taiwan)[AKA Taikong Qinlue Zhan]"
 	releaseyear "1985"
 	region "Taiwan"
 	rom ( name "Space Invaders (1985)(Aaronix)(TW)[AKA Taikong Qinlue Zhan].bin" size 16384 crc 0760EA93 md5 47359548B666E9E1B6287DF5688E2FD2 sha1 5A7904697EA8A360066EA8403793227021735969 )
 )
 game (
-	name "Space Invaders"
-	releaseyear "1985"
-	rom ( name "Space Invaders (1985)(Sega - Taito).bin" size 16384 crc 6AD5CB3D md5 87A97B049EC01B1803B93F06D0407586 sha1 A4E4B0C2967E39C4931FBA8BC87428F296E461C5 )
-)
-game (
 	name "Space Slalom (Japan)"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Space Slalom (1983)(Sega)(JP)(en).bin" size 8192 crc B8B58B30 md5 C04DC7FB9D27629735EDB1570EC39F00 sha1 798B5F3742CB3F95FD5977D9A2CB48BA2DC804E6 )
-)
-game (
-	name "Star Force (Taiwan)[AKA Star Wars - Xingji Dazhan]"
-	releaseyear "1985"
-	region "Taiwan"
-	rom ( name "Star Force (1985)(Aaronix)(TW)[AKA Star Wars - Xingji Dazhan].bin" size 32768 crc 6F9B1CCD md5 19649D51AEE49A9FEF103DE6B1A7A17B sha1 FF6E3BDB830E6F74F9997B4D36604FD07D7E6019 )
 )
 game (
 	name "Star Force"
@@ -968,16 +957,22 @@ game (
 	rom ( name "Star Force (19xx)(Chia-Ling Corp - Sega - Tenkan)(TW)(en).bin" size 32768 crc 1F736931 md5 3011655195D3A299F3A53255E0D7939A sha1 F3DDF97DDF0E40289E38D9105300F15EC7EAB78C )
 )
 game (
-	name "Star Jacker (Taiwan)[AKA Taikong Cheng]"
-	releaseyear "1983"
+	name "Star Force (Taiwan)[AKA Star Wars - Xingji Dazhan]"
+	releaseyear "1985"
 	region "Taiwan"
-	rom ( name "Star Jacker (1983)(Aaronix)(TW)[AKA Taikong Cheng].bin" size 32768 crc DF162201 md5 0104171ADE3CFEAF10C92926869E2A52 sha1 2BC990615A6EA7F005E8458C9791F0098C4D4A85 )
+	rom ( name "Star Force (1985)(Aaronix)(TW)[AKA Star Wars - Xingji Dazhan].bin" size 32768 crc 6F9B1CCD md5 19649D51AEE49A9FEF103DE6B1A7A17B sha1 FF6E3BDB830E6F74F9997B4D36604FD07D7E6019 )
 )
 game (
 	name "Star Jacker (Japan)"
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Star Jacker (1983)(Sega)(JP).bin" size 32768 crc 1AE94122 md5 ECCAD04698782862F3785FF9708F73E8 sha1 5D074708EDF6C40DC6D80032CD91FF6197AA79C7 )
+)
+game (
+	name "Star Jacker (Taiwan)[AKA Taikong Cheng]"
+	releaseyear "1983"
+	region "Taiwan"
+	rom ( name "Star Jacker (1983)(Aaronix)(TW)[AKA Taikong Cheng].bin" size 32768 crc DF162201 md5 0104171ADE3CFEAF10C92926869E2A52 sha1 2BC990615A6EA7F005E8458C9791F0098C4D4A85 )
 )
 game (
 	name "Star Jacker Rev 1"
@@ -1032,12 +1027,6 @@ game (
 	rom ( name "Wonder Boy Rev 1 (198x)(Sega)(TW)(en).bin" size 32768 crc 953FC2B2 md5 D6FAB98601ADE59CF90A500C05446163 sha1 8F261B955162C179FE4C936ECE767BBF25C4888C )
 )
 game (
-	name "Yamato (Taiwan)[AKA Tai He Jian]"
-	releaseyear "1983"
-	region "Taiwan"
-	rom ( name "Yamato (1983)(Aaronix)(TW)[AKA Tai He Jian].bin" size 16384 crc B65A093F md5 9C751FB92D2280D89EE9C273F3C6785A sha1 6FBDC967F5C7C39EB1FDEA08D2DCABFD64B8E7EE )
-)
-game (
 	name "Yamato"
 	releaseyear "1983"
 	rom ( name "Yamato (1983)(Sega).bin" size 16384 crc E2FD5201 md5 0DD197A0E1F43C0684F98B52514FCE59 sha1 4D746558FB699C5CB480BA26130518105B2E2031 )
@@ -1047,6 +1036,12 @@ game (
 	releaseyear "1983"
 	region "Japan"
 	rom ( name "Yamato (1983)(Sega)(EU-JP)[40K].bin" size 40960 crc 9C7497FF md5 653D415ED202C09C08207C83F9E311EB sha1 FE86E669F3E4B808236D7B80AEB5A83172EDB9AC )
+)
+game (
+	name "Yamato (Taiwan)[AKA Tai He Jian]"
+	releaseyear "1983"
+	region "Taiwan"
+	rom ( name "Yamato (1983)(Aaronix)(TW)[AKA Tai He Jian].bin" size 16384 crc B65A093F md5 9C751FB92D2280D89EE9C273F3C6785A sha1 6FBDC967F5C7C39EB1FDEA08D2DCABFD64B8E7EE )
 )
 game (
 	name "Yie Ar Kung-Fu (Taiwan)[AKA Gongfu]"
@@ -1067,26 +1062,26 @@ game (
 	rom ( name "Yon-nin Mahjong v1 (1985)(Aaronix)(TW)[AKA Home Mahjong][AKA Si Ren Maque].bin" size 49152 crc 0583A9FA md5 8FAB99C3CC9A7A98D8873EAF215A5FA0 sha1 DB98D7461E88CEF8160089C44FCD432388E3C9DF )
 )
 game (
+	name "Zaxxon"
+	releaseyear "1985"
+	rom ( name "Zaxxon (1985)(Sega).bin" size 32768 crc 905467E4 md5 52BBF5336C190610A0FB1AB0BDACA455 sha1 E32F536C3576D41AB485E07809C4404E6B462443 )
+)
+game (
 	name "Zaxxon (Taiwan)[AKA Tuji Dabenying]"
 	releaseyear "1985"
 	region "Taiwan"
 	rom ( name "Zaxxon (1985)(Aaronix)(TW)[AKA Tuji Dabenying].bin" size 32768 crc 49CAE925 md5 BB1C5B1071D5B9224B7733D60465E769 sha1 172A8FF1A574D7920906C5CF60E1D39F31B9B639 )
 )
 game (
-	name "Zaxxon"
-	releaseyear "1985"
-	rom ( name "Zaxxon (1985)(Sega).bin" size 32768 crc 905467E4 md5 52BBF5336C190610A0FB1AB0BDACA455 sha1 E32F536C3576D41AB485E07809C4404E6B462443 )
+	name "Zippy Race"
+	releaseyear "1983"
+	rom ( name "Zippy Race (1983)(Irem - Sega).bin" size 32768 crc BC5D20DF md5 0EDA34BA313D3BB34558FD5939B19794 sha1 8C48DBE187FF4B26D6244D38075565F284536D0C )
 )
 game (
 	name "Zippy Race (Taiwan)[AKA Motuo Che You Meiguo]"
 	releaseyear "1983"
 	region "Taiwan"
 	rom ( name "Zippy Race (1983)(Aaronix)(TW)[AKA Motuo Che You Meiguo].bin" size 32768 crc BCF441A5 md5 16856425E0BCC3AB475F46F7CFD00402 sha1 F6926D0C3C654A038CD5EEC9AAA6876BCE86FDAA )
-)
-game (
-	name "Zippy Race"
-	releaseyear "1983"
-	rom ( name "Zippy Race (1983)(Irem - Sega).bin" size 32768 crc BC5D20DF md5 0EDA34BA313D3BB34558FD5939B19794 sha1 8C48DBE187FF4B26D6244D38075565F284536D0C )
 )
 game (
 	name "Zoom 909 (Japan)"

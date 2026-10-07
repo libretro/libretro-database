@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Game Boy"
 	description "Nintendo - Game Boy"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "gb"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -136,19 +137,6 @@ game (
 	rom ( name "Addams Family, The - Pugsley's Scavenger Hunt (USA, Europe).gb" size 131072 crc 7E054A88 md5 57726C28DC09949029A154F63B891DD0 sha1 F9020E3D104CB5C5347E28F45ED9E24E6C0EBDDD )
 )
 game (
-	name "Addams Family, The - Pugsley's Scavenger Hunt (USA, Europe) (Beta 1)"
-	region "USA"
-	rom ( name "Addams Family, The - Pugsley's Scavenger Hunt (USA, Europe) (Beta 1).gb" size 131072 crc A260E5CE md5 DB536D452C67B67722711CE45519015F sha1 0EF67A0E3D03BE74284627C8F22232E2BB764865 )
-)
-game (
-	name "Addams Family, The - Pugsley's Scavenger Hunt (USA, Europe) (Beta 2)"
-	releaseyear "1993"
-	releasemonth "04"
-	releaseday "22"
-	region "USA"
-	rom ( name "Addams Family, The - Pugsley's Scavenger Hunt (USA, Europe) (Beta 2) (1993-04-22).gb" size 131072 crc 37949272 md5 C2A123CCE9D1ADAC8BDB94B8B475D24C sha1 C64F3982A601F21FBE74C5CFF7068C88E8D27851 )
-)
-game (
 	name "Adulting! (World) (v2.0)"
 	rom ( name "Adulting! (World) (v2.0) (Aftermarket) (Unl).gb" size 524288 crc E56D1244 md5 95A0F644D8778B1C934AC5AE8791D80F sha1 D107BD8BF32D0D94A988466885FE1A44AAE32C9A )
 )
@@ -242,11 +230,6 @@ game (
 	rom ( name "Alfred Chicken (Europe).gb" size 131072 crc 3CAB28D9 md5 B83F3C669D22BC74C72743821AE3AAA3 sha1 BC7327008DE518DDFAD0AD5C69896921DC2378E0 )
 )
 game (
-	name "Alfred Chicken (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Alfred Chicken (Europe) (Beta).gb" size 131072 crc 2E19F638 md5 5F09960BC839E94957F44EBEBB70E920 sha1 A9AA7CF61FFA42A4097F0C900AD4463D6FD89A19 )
-)
-game (
 	name "Alfred Chicken (Japan) (En) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Alfred Chicken (Japan) (En) (SGB Enhanced).gb" size 262144 crc 1089098F md5 A95E6579F8D6048C5E150C41D180C782 sha1 E04DDF4DF8B5EF70D85E0523D277ABFC68C61496 )
@@ -279,24 +262,6 @@ game (
 	name "Alien Olympics (Europe)"
 	region "Europe"
 	rom ( name "Alien Olympics (Europe).gb" size 131072 crc 583C0E4E md5 D300BF9412617A95B00B80FA468A8A04 sha1 C6A69416D3F18071942D222D528B1C9D25F980B7 )
-)
-game (
-	name "Alien Olympics (Europe) (Beta 1)"
-	region "Europe"
-	rom ( name "Alien Olympics (Europe) (Beta 1).gb" size 131072 crc 303FB7CC md5 6B2DA5147D5F362A26BE59F4D5286CC9 sha1 AB2E4735EC416761FC37FD1471CE9D6CEE994513 )
-)
-game (
-	name "Alien Olympics (Europe) (Beta 2)"
-	region "Europe"
-	rom ( name "Alien Olympics (Europe) (Beta 2).gb" size 131072 crc 0B14241C md5 C0F1CD247136A87C6A2F71B54544A8D3 sha1 BC620B7D22F7908C340B1BAE6D95E821D98188A3 )
-)
-game (
-	name "Alien Olympics (Europe) (Beta 3)"
-	releaseyear "1994"
-	releasemonth "06"
-	releaseday "14"
-	region "Europe"
-	rom ( name "Alien Olympics (Europe) (Beta 3) (1994-06-14).gb" size 131072 crc 07436316 md5 2F24A29E157B1B06F731FB5E63E96168 sha1 85F72782F7457E24B54ED6789A12922C21D797CA )
 )
 game (
 	name "Alien vs Predator (Japan)"
@@ -502,11 +467,6 @@ game (
 	rom ( name "Asterix & Obelix (Europe) (En,Es) (SGB Enhanced).gb" size 262144 crc B1FD41D0 md5 CF5BE6D9C263D02039BFAAE93C1BD32C sha1 B6CD446962357D0F560A5C9FAE4C917E039FBB77 )
 )
 game (
-	name "Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "Asterix & Obelix (Europe) (Fr,De) (Beta) (SGB Enhanced).gb" size 262144 crc BFA1D7BE md5 7850D8AA9F97272F359500FB7BE66383 sha1 70472CBE59CFD426B0969150085CC97D31BD6470 )
-)
-game (
 	name "Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced)"
 	region "Europe"
 	rom ( name "Asterix & Obelix (Europe) (Fr,De) (SGB Enhanced).gb" size 262144 crc 5143E227 md5 5354465291244E5A035807C2666D185E sha1 EBC68B180680C7037B151B9A1B511B681499BA30 )
@@ -535,11 +495,6 @@ game (
 	name "Asteroids (USA, Europe)"
 	region "USA"
 	rom ( name "Asteroids (USA, Europe).gb" size 32768 crc C1F88833 md5 13749826DF12DA4574E34CCB6D9C780D sha1 435DBDAA9B9D2E0D0BC7C1C010CDC5EC9BD9F359 )
-)
-game (
-	name "Asteroids (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Asteroids (USA, Europe) (Beta).gb" size 32768 crc EB31E472 md5 2CB38B3B78F755BCC5CD2AA059A7D2ED sha1 28F4E2A076BFE5F7A77F695332705EA0085FCCFB )
 )
 game (
 	name "Asteroids Chasers (World)"
@@ -579,6 +534,11 @@ game (
 	rom ( name "Avenging Spirit (USA, Europe).gb" size 262144 crc CF2BA5F7 md5 E88EAB57AB4614966748280BF3C97F52 sha1 D22CCA80A0855D7724539EF71F38E3F8F9656D6B )
 )
 game (
+	name "Avenging Spirit (USA, Europe) (Retro-Bit)"
+	region "USA"
+	rom ( name "Avenging Spirit (USA, Europe) (Retro-Bit).gb" size 262144 crc BAB53B3B md5 E24B3B3FF9EC2435A61DA21F106B44ED sha1 325E94343F7ACB808B1DD18BAC2E92FDA1FF1769 )
+)
+game (
 	name "Ayakashi no Shiro (Japan)"
 	region "Japan"
 	rom ( name "Ayakashi no Shiro (Japan).gb" size 65536 crc DA90F5FC md5 8F3095C4D98694F19270D8C2788D5E46 sha1 DAD3EC1A054CBD092EEDFDB1D742B811C105181A )
@@ -587,11 +547,6 @@ game (
 	name "B.C. Kid (Europe)"
 	region "Europe"
 	rom ( name "B.C. Kid (Europe).gb" size 262144 crc 373343E6 md5 D335D4D79ED002C7A67863E82CEAA472 sha1 B91F99408E4A6B69D505F304C176434321F837E7 )
-)
-game (
-	name "B.C. Kid 2 (Europe) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "B.C. Kid 2 (Europe) (Beta) (SGB Enhanced).gb" size 262144 crc 11FFC359 md5 F246A7ACD295B25519CB5EC45DF68FBC sha1 DC70BA06FB2690C1B7E66963CC07DA704F7A6D26 )
 )
 game (
 	name "B.C. Kid 2 (Europe) (SGB Enhanced)"
@@ -655,11 +610,6 @@ game (
 	name "Banishing Racer (Japan)"
 	region "Japan"
 	rom ( name "Banishing Racer (Japan).gb" size 131072 crc 3D13EC6A md5 8FDFFB08770609255EC3CD314F79F976 sha1 DF121645C367D5809ED77BFE48AA537F0D61D276 )
-)
-game (
-	name "Barbie - Game Girl (USA) (Beta)"
-	region "USA"
-	rom ( name "Barbie - Game Girl (USA) (Beta).gb" size 131072 crc 4660E0AB md5 1A851B27609BEDCB993BE91BFF5978B0 sha1 24886A5F26F1969E595F420BF963439BA6A693BD )
 )
 game (
 	name "Barbie - Game Girl (USA, Europe)"
@@ -765,11 +715,6 @@ game (
 	rom ( name "Battle Pingpong (Japan) (En).gb" size 65536 crc 7C787BC4 md5 F24CCB89C3FF60F54600D7B063D5A6C2 sha1 5008699F7A31A1A0722114F83E94591E99B22CC0 )
 )
 game (
-	name "Battle Ships (Spain) (En,Fr,De,Es) (Beta)"
-	region "Spain"
-	rom ( name "Battle Ships (Spain) (En,Fr,De,Es) (Beta).gb" size 131072 crc 1F8CCB71 md5 08DB8175B8903F68C3F874E0A39BED39 sha1 4C04F79C670661FA46B17F7F980E6E7E88E886E7 )
-)
-game (
 	name "Battle Space (Japan)"
 	region "Japan"
 	rom ( name "Battle Space (Japan).gb" size 65536 crc A828FD4F md5 C9DC09EA6D93D5114079F58C7BBF7982 sha1 76E47AD844ABDDE9EFF09EA29A014F9A1EAE5093 )
@@ -803,11 +748,6 @@ game (
 	name "Battleship (USA, Europe)"
 	region "USA"
 	rom ( name "Battleship (USA, Europe).gb" size 65536 crc FEF62DA5 md5 D4F7ADE01AF0818A79BC809CF96118BB sha1 D3EFB4AFEBCF94B191A66797A6BAE2C90BA92C6A )
-)
-game (
-	name "Battleship (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Battleship (USA, Europe) (Beta).gb" size 65536 crc EC382A5D md5 6AE068044245FF7D873111E27EF4AD95 sha1 D19343D62EC4A257E496CCB4D57C728CBAD51E95 )
 )
 game (
 	name "Battletoads (Japan)"
@@ -940,6 +880,11 @@ game (
 	rom ( name "Bishoujo Senshi Sailor Moon R (Japan).gb" size 262144 crc EA759875 md5 84634FB36156BB1B9E54BC62FBAF3525 sha1 959F384998C43072CA154E531917E9AAA80A694D )
 )
 game (
+	name "Bitamina Oukoku Monogatari (Japan)"
+	region "Japan"
+	rom ( name "Bitamina Oukoku Monogatari (Japan).gb" size 262144 crc 89A7AECA md5 D3D63BF466E63AF0601016F87FFC3EE2 sha1 D4195257A2DEBE78AA4DD433A324AEC335AD36D1 )
+)
+game (
 	name "Black Bass - Lure Fishing (USA)"
 	region "USA"
 	rom ( name "Black Bass - Lure Fishing (USA).gb" size 262144 crc 2DB3DACE md5 88908153A898E5D91A02206DBB03713A sha1 D9524AC9F7788172A55CC8CEB6E199F8A12E033D )
@@ -973,11 +918,6 @@ game (
 	rom ( name "Blaster Master Boy (USA).gb" size 131072 crc 3B2C7118 md5 C4868BF46A993B4C33A9A8AF5341282A sha1 21B1E574A6F4543651E96DE65994E7B0B7A6A0F6 )
 )
 game (
-	name "Blaster Master Boy (USA) (Beta)"
-	region "USA"
-	rom ( name "Blaster Master Boy (USA) (Beta).gb" size 131072 crc 4EA70173 md5 7522878C2206817EC8440D442A65C306 sha1 F568F9C7FE9EF9726D602727BECA13D6978CD770 )
-)
-game (
 	name "Blaster Master Boy (World) (Evercade)"
 	rom ( name "Blaster Master Boy (World) (Evercade).gb" size 131072 crc 42284C26 md5 C4CD6D4B99E8772EB3790EFF78525BDD sha1 8DB7E6DDC8294E7585FF365168131F53DB893DFF )
 )
@@ -1003,15 +943,6 @@ game (
 	name "Blodia (Japan) (En)"
 	region "Japan"
 	rom ( name "Blodia (Japan) (En).gb" size 65536 crc 51FF6E53 md5 5E3005E18F030F58E8B919D35CB297D7 sha1 A3927543CA471F479BA7AAE7295788434672464E )
-)
-game (
-	name "Bloxorz (World)"
-	rom ( name "Bloxorz (World) (Aftermarket) (Unl).gb" size 32768 crc B533C6D7 md5 98BEC6EEAD2D78CB710AC54D6D9095BD sha1 5A2F3C1557E0ACBA454617CC26D0094D7B8DD727 )
-)
-game (
-	name "Blues Brothers (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Blues Brothers (USA, Europe) (Beta).gb" size 131072 crc 1F90D12A md5 C4EA13687C331CE83C03D5FB400EA19A sha1 F7139BB55C3CC7BAE672ADE9022FB548B72F6F2F )
 )
 game (
 	name "Blues Brothers, The (USA, Europe)"
@@ -1064,16 +995,6 @@ game (
 	rom ( name "Bomb Jack (Europe).gb" size 32768 crc 9BD8815E md5 7615154DC9AFB1A7D7D2FE63B76C68E4 sha1 A2B2799E867777A5A19155ED1F2245630FC03560 )
 )
 game (
-	name "Bomb Jack (Europe) (Beta 1)"
-	region "Europe"
-	rom ( name "Bomb Jack (Europe) (Beta 1).gb" size 32768 crc FFA0E67A md5 B199980B6E3FDE27DA5FB8D6D2B49356 sha1 A4C25218B2C35D6BD4FCF93EBDF81DFE22D4259A )
-)
-game (
-	name "Bomb Jack (Europe) (Beta 2)"
-	region "Europe"
-	rom ( name "Bomb Jack (Europe) (Beta 2).gb" size 32768 crc 7CA8E543 md5 3CE1AF74E7F2D498D08FF797DDE87A1E sha1 6FC3794149F5E75AD82B4A7D47AD5497E1EE4E6A )
-)
-game (
 	name "Bomber Boy (Japan) (En)"
 	region "Japan"
 	rom ( name "Bomber Boy (Japan) (En).gb" size 131072 crc EF9595AC md5 FC2D9EB9479543614B6E3D0D63C359AA sha1 A9BADDFB693F20057B17C084422D7BFAC590F2BA )
@@ -1116,11 +1037,6 @@ game (
 	name "Bonk's Adventure (USA)"
 	region "USA"
 	rom ( name "Bonk's Adventure (USA).gb" size 262144 crc A7CDBB96 md5 79D6E6515905EC3FBCBD9E50FF469000 sha1 E27D941AF0A006C4F5FFD03914265146AA140E2C )
-)
-game (
-	name "Bonk's Adventure (USA) (Beta)"
-	region "USA"
-	rom ( name "Bonk's Adventure (USA) (Beta).gb" size 262144 crc 8D706DBC md5 83747BB1B6245C67241B9002861397B8 sha1 A26006158D90A61D22ABF130F05297FD09A09B7C )
 )
 game (
 	name "Bonk's Revenge (USA) (SGB Enhanced)"
@@ -1250,14 +1166,6 @@ game (
 	rom ( name "Bubble Bobble (USA, Europe).gb" size 131072 crc D516841D md5 11C49D405EEF2174D9C14682204BB458 sha1 569881BEA21CF5FD542FF3DFC40E1626C6748CEB )
 )
 game (
-	name "Bubble Bobble (USA, Europe) (Beta)"
-	releaseyear "1990"
-	releasemonth "12"
-	releaseday "28"
-	region "USA"
-	rom ( name "Bubble Bobble (USA, Europe) (Beta) (1990-12-28).gb" size 131072 crc FDB7E8DA md5 7CDF7645BD8116284C4F40B01CE4D088 sha1 8ED992B8053303453B4AFD078684849015667DB2 )
-)
-game (
 	name "Bubble Bobble Junior (Japan) (En)"
 	region "Japan"
 	rom ( name "Bubble Bobble Junior (Japan) (En).gb" size 131072 crc 39E261B9 md5 09DBAD535406168486B8B688CAF33A9C sha1 686C526A557065DC0005068EAFDBC6736684F925 )
@@ -1276,11 +1184,6 @@ game (
 	name "Bubble Ghost (USA, Europe)"
 	region "USA"
 	rom ( name "Bubble Ghost (USA, Europe).gb" size 32768 crc 843068FD md5 7F970D79F06CFB4270DEA4B051277098 sha1 B08B8A9BF742F7CA4B355A866B4167741252DCF6 )
-)
-game (
-	name "Bubble Ghost (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Bubble Ghost (USA, Europe) (Beta).gb" size 32768 crc 4A083F6F md5 2D83537BA548E4118EA3E8AE0A309DFE sha1 F5D063C70CECADDA43D27D0C24F561A8F32B10F2 )
 )
 game (
 	name "Bubblemania (World) (v0.7)"
@@ -1442,11 +1345,6 @@ game (
 	rom ( name "Casper (USA).gb" size 131072 crc E67A10E1 md5 792C706A0ADDEBED39D177077A1CAAC0 sha1 18B90172789C87819FE4D606AA7874109BCD8024 )
 )
 game (
-	name "Casper (USA) (Beta)"
-	region "USA"
-	rom ( name "Casper (USA) (Beta).gb" size 131072 crc E0AB72FB md5 F7816C22AA5D1467A95E08046D85D534 sha1 1D036BED67DA4DC57ADD0E9E266FBDB993778823 )
-)
-game (
 	name "Castelian (Europe)"
 	region "Europe"
 	rom ( name "Castelian (Europe).gb" size 32768 crc 2F752404 md5 3502BE0DA5D444EC144AAE9CE1409E0D sha1 6720D86D420831A0A4865D4A59C4BA6FE98FA34D )
@@ -1457,19 +1355,9 @@ game (
 	rom ( name "Castelian (USA).gb" size 32768 crc F2D739E4 md5 21CC47B68FC7C9C56EF3393DBE528600 sha1 A03982E2FFA9AA368FE11BC09F024207BADA45EB )
 )
 game (
-	name "Castelian (USA) (Beta)"
-	region "USA"
-	rom ( name "Castelian (USA) (Beta).gb" size 32768 crc A08CB239 md5 1AB4AAD28745A9A4C875E8BEF7EA3FFA sha1 0C69CEE488D7589C6BF0A1B7E2C3D20F2B4D3042 )
-)
-game (
 	name "Castle Quest (Europe)"
 	region "Europe"
 	rom ( name "Castle Quest (Europe).gb" size 131072 crc 2F8AAF6F md5 03CE24437224FF296A71F402663A0EE9 sha1 45B38A334481F620BB7165FEE81391036A54A748 )
-)
-game (
-	name "Castle Quest (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Castle Quest (Europe) (Beta).gb" size 131072 crc 8A5636EA md5 779DCE075E652BEA5BBECF89BB5B04DF sha1 356C8510B0647E56A558ABA9D5DC4CC9D3CCD94C )
 )
 game (
 	name "Castlevania - The Adventure (Europe)"
@@ -1507,11 +1395,6 @@ game (
 	rom ( name "Catrap (USA).gb" size 32768 crc ADB96150 md5 5A75FE8DE54E4CBD09CAE23F050F6965 sha1 171E4D54F22F8DC137D12828FCC2DA9874C56970 )
 )
 game (
-	name "Catrap (USA) (Beta)"
-	region "USA"
-	rom ( name "Catrap (USA) (Beta).gb" size 32768 crc CA3BC888 md5 D4A7BD8598B050262ED6F553B45D5B3E sha1 928B9B3CB2ED5E6D6FC754679B3C994F7ED803C3 )
-)
-game (
 	name "Cave Fighter (World)"
 	rom ( name "Cave Fighter (World) (Aftermarket) (Unl).gb" size 262144 crc E8F91F6A md5 01C580D873FD929B8A47837A0C6F91FF sha1 290048717D0A8CABB3CC591161339550EB53C161 )
 )
@@ -1525,8 +1408,8 @@ game (
 	rom ( name "Cel Story (World) (Aftermarket) (Unl).gb" size 524288 crc 8A456B61 md5 B76DF0942C3F4B3569A736C9C8E44179 sha1 730627B2298806E4F7E02DCEFFAA0F0EDFC316F0 )
 )
 game (
-	name "Celeste (World)"
-	rom ( name "Celeste (World) (Aftermarket) (Unl).gb" size 32768 crc FD1EE763 md5 101169FB78C7EB3211887D40418F85C5 sha1 9FC98A8AA97ABAED21132284E35EEF7FDFA029C3 )
+	name "Celeste (World) (Pirate)"
+	rom ( name "Celeste (World) (Aftermarket) (Pirate).gb" size 32768 crc FD1EE763 md5 101169FB78C7EB3211887D40418F85C5 sha1 9FC98A8AA97ABAED21132284E35EEF7FDFA029C3 )
 )
 game (
 	name "Centipede (USA) (Majesco)"
@@ -1658,11 +1541,6 @@ game (
 	name "Choplifter III (Europe)"
 	region "Europe"
 	rom ( name "Choplifter III (Europe).gb" size 131072 crc 1B3B46EF md5 04A6E77D1FABCBE325882E4BD79D6D4B sha1 FB1C83EE69FA32C26CDC7031733F17B90CDB0570 )
-)
-game (
-	name "Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (Beta) (SGB Enhanced)"
-	region "Japan"
-	rom ( name "Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (Beta) (SGB Enhanced).gb" size 524288 crc E6C3A473 md5 70D54771DDE507F26713FBA445F49A4F sha1 AC2360D790C855FDE91FCA26EE88A4814A1F2E9F )
 )
 game (
 	name "Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (SGB Enhanced)"
@@ -1802,19 +1680,9 @@ game (
 	rom ( name "Cosmo Tank (Japan).gb" size 131072 crc 80B21DF1 md5 F3580F0BFCC3B39D94EEE79820C9946D sha1 0D6A0A95F4FC9F2C61E2FCCEE0321236D3A6F5E5 )
 )
 game (
-	name "Cosmo Tank (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Cosmo Tank (Japan) (Beta).gb" size 131072 crc 2022BBB9 md5 F4352B697190FCCADD9D07657376DA5E sha1 8963C2E8E42C452528078F10DF699FD266F01749 )
-)
-game (
 	name "Cosmo Tank (USA)"
 	region "USA"
 	rom ( name "Cosmo Tank (USA).gb" size 131072 crc 2E767D25 md5 B340BAD71C781BD1394D95241ED1ADCE sha1 48A8F5C50A237F11C8E18EFD03A5282F493312BC )
-)
-game (
-	name "Cosmo Tank (USA) (Beta)"
-	region "USA"
-	rom ( name "Cosmo Tank (USA) (Beta).gb" size 131072 crc 1C6770F0 md5 20D658FA55A9A61C59F888537039D8A7 sha1 863BF21877B5F5993B9E64710F304B8DB194D2E7 )
 )
 game (
 	name "Coucou (World)"
@@ -1983,11 +1851,6 @@ game (
 	rom ( name "Darkwing Duck (USA).gb" size 131072 crc 238B9646 md5 7D776329212FA7CC2B00C5A46F06DD92 sha1 CC1F12F3EC3852657A14D11C13D1EF91FBDDA5BB )
 )
 game (
-	name "Darkwing Duck (USA) (Beta)"
-	region "USA"
-	rom ( name "Darkwing Duck (USA) (Beta).gb" size 131072 crc 311ADE03 md5 0F539DB976D8D272ED7067560B7C7E6C sha1 2883B8854529369CCE4D473E71FA0193C7DF02B6 )
-)
-game (
 	name "Dash (World)"
 	rom ( name "Dash (World) (Aftermarket) (Unl).gb" size 262144 crc 73868683 md5 1D67AB62A74E22663B84DA92C58AA501 sha1 C1FFE7C25A34D65ED166293BC7D2B48B65CA922B )
 )
@@ -2000,14 +1863,6 @@ game (
 	name "David Crane's The Rescue of Princess Blobette (USA)"
 	region "USA"
 	rom ( name "David Crane's The Rescue of Princess Blobette (USA).gb" size 65536 crc 8210A03F md5 81F7DEE7546E630DE075A3397349EFB8 sha1 0A45D1B98646FD7832B5119B04BC8D6D6D0F657A )
-)
-game (
-	name "David Crane's The Rescue of Princess Blobette (USA) (Beta)"
-	releaseyear "1990"
-	releasemonth "09"
-	releaseday "26"
-	region "USA"
-	rom ( name "David Crane's The Rescue of Princess Blobette (USA) (Beta) (1990-09-26).gb" size 65536 crc DA5411D5 md5 C7F8EB0309204C2D83FC2FE4D03C4BDE sha1 EF26375863E3BD5A765FDCA1861AB700835CBE4A )
 )
 game (
 	name "David Crane's The Rescue of Princess Blobette (World) (Limited Run Games)"
@@ -2063,14 +1918,6 @@ game (
 	rom ( name "Dennis (Europe).gb" size 131072 crc 896A30A8 md5 2FA78F748AA9BCED4CEDD95F330C9A11 sha1 9B5C289F25829534020951F84732177036837AEA )
 )
 game (
-	name "Dennis (Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "09"
-	releaseday "13"
-	region "Europe"
-	rom ( name "Dennis (Europe) (Beta) (1993-09-13).gb" size 131072 crc 807D34A4 md5 011B74BBFE8B5268416F488B60263F3C sha1 FAB382A28F9D7FEFAE7DC9A16BF86F309D89E037 )
-)
-game (
 	name "Dennis the Menace (USA)"
 	region "USA"
 	rom ( name "Dennis the Menace (USA).gb" size 131072 crc 7EB0CD32 md5 F064BD662FDCB40A9F6926CC3BAEE116 sha1 4695B50738ADD92926DC5D4B48568B037DF7CDB9 )
@@ -2089,14 +1936,6 @@ game (
 	name "Dexterity (USA, Europe)"
 	region "USA"
 	rom ( name "Dexterity (USA, Europe).gb" size 65536 crc 659E2283 md5 A58F2B1A317CFB1D60B59F3875F6A9C2 sha1 85F0A9FF87ECE93097A855D238BC6C7014893C08 )
-)
-game (
-	name "Dexterity (USA, Europe) (Beta)"
-	releaseyear "1990"
-	releasemonth "03"
-	releaseday "30"
-	region "USA"
-	rom ( name "Dexterity (USA, Europe) (Beta) (1990-03-30).gb" size 65536 crc C9E34CA0 md5 5C3A589A29530DF94A09D96D463F6A79 sha1 4F0DED0DCD67C2AE8F44482FFC1D469618451E7A )
 )
 game (
 	name "DiaMaze (World)"
@@ -2220,11 +2059,6 @@ game (
 	name "Donkey Kong Land 2 (USA, Europe) (SGB Enhanced)"
 	region "USA"
 	rom ( name "Donkey Kong Land 2 (USA, Europe) (SGB Enhanced).gb" size 524288 crc 2827E5D4 md5 6E30394FD7EF4A4DC3FE1EDD9FC69F72 sha1 89CC4F01653A6105EE5C00E10FC65AA1437FD320 )
-)
-game (
-	name "Donkey Kong Land III (USA, Europe) (Beta) (SGB Enhanced)"
-	region "USA"
-	rom ( name "Donkey Kong Land III (USA, Europe) (Beta) (SGB Enhanced).gb" size 524288 crc 872BBD5E md5 CB1D69526CEA3A0CBCAAE091A10707FE sha1 9D17BC07BD3C48F8BB8A3315FAF817D055417F53 )
 )
 game (
 	name "Donkey Kong Land III (USA, Europe) (Rev 1) (SGB Enhanced)"
@@ -2351,11 +2185,6 @@ game (
 	rom ( name "Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv).gb" size 262144 crc F13A60B8 md5 2A7D9044B9BDBC133D1A9BB5C0F9B2A1 sha1 BA5AAAC92C4A2CA2D6A752C521E4D95108444A4E )
 )
 game (
-	name "Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)"
-	region "Europe"
-	rom ( name "Dr. Franken (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta).gb" size 262144 crc A65ADC31 md5 10F18723A1ECF3C4C9D311C02F28A18B sha1 440EB30E54BF257246923149D44BAB3DFAFED2AA )
-)
-game (
 	name "Dr. Franken (Japan) (En)"
 	region "Japan"
 	rom ( name "Dr. Franken (Japan) (En).gb" size 131072 crc 3D04B8E7 md5 C5397C3E9740264482995573628E3B9D sha1 6350EC30E51F388E0E290F387989CB1C7A24A91C )
@@ -2381,10 +2210,6 @@ game (
 game (
 	name "Dr. Mario (World)"
 	rom ( name "Dr. Mario (World).gb" size 32768 crc 10C98DD1 md5 0281FD8061D82472E242954513805196 sha1 F1006D6CF77469092F3B9F266D0A65DA9C91AC42 )
-)
-game (
-	name "Dr. Mario (World) (Beta)"
-	rom ( name "Dr. Mario (World) (Beta).gb" size 32768 crc 2B2F4F8F md5 4599627050687063DA3F5CF804DC16F6 sha1 4B2343F40E7CA3C583108ED70A870C7BD906B108 )
 )
 game (
 	name "Dr. Mario (World) (Rev 1)"
@@ -2483,11 +2308,6 @@ game (
 	rom ( name "Dropzone (Europe).gb" size 32768 crc 351A7277 md5 74D96840A5C09CD88C862A5647465B81 sha1 0BF73FFA90FDBA5A4EE4E2338BB2F0D01AF6FB88 )
 )
 game (
-	name "Dropzone (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Dropzone (Europe) (Beta).gb" size 131072 crc 374F80B0 md5 03BE859E5B1448E7508AA4D83B424F07 sha1 AC64C854DFEA6387F262A2870F85C369D2CD14F5 )
-)
-game (
 	name "Druaga no Tou (Japan) (En)"
 	region "Japan"
 	rom ( name "Druaga no Tou (Japan) (En).gb" size 131072 crc F924BDB1 md5 C8611861AFE5D9B47043150EE2C94389 sha1 7701F8C535F612943D736FEF342973E9C77011DF )
@@ -2552,6 +2372,10 @@ game (
 	rom ( name "Earthworm Jim (USA).gb" size 262144 crc 259FF267 md5 0D24EEFF28040FF2A8F63DE5BC8CBEA2 sha1 F5D3085DE17A5181C07739E49BE7637FAA5FF932 )
 )
 game (
+	name "Earthworm Jim (World) (ModRetro Chromatic)"
+	rom ( name "Earthworm Jim (World) (ModRetro Chromatic).gb" size 524288 crc 85D94165 md5 448850F0517D3EAF71E3CCB257B9CF4F sha1 E5119E3F8D4F03A04DA1CD05D311E19A0F2A6B63 )
+)
+game (
 	name "Eclipse (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Eclipse (Europe) (Proto).gb" size 65536 crc 6B507EFD md5 29B84D4B87C7F6120998A775F29535CB sha1 DE02A34675A57D450284103681951436A4C830CD )
@@ -2614,11 +2438,6 @@ game (
 	rom ( name "F-15 Strike Eagle (USA, Europe).gb" size 131072 crc 045DEE8C md5 A8B74D14E66F7A3049E79CA147141D52 sha1 237A08ABE860BCE316F1CE337AFB11EE0E566037 )
 )
 game (
-	name "F-15 Strike Eagle II (USA, Europe) (Beta) (July, 1992)"
-	region "USA"
-	rom ( name "F-15 Strike Eagle II (USA, Europe) (Beta) (July, 1992).gb" size 131072 crc D80BDBBA md5 83D20A9C3F88F9FAA27C076CEFD38BC1 sha1 298C07EF596AB3A3C4A320B2F2D7E2C0DBAF764D )
-)
-game (
 	name "F-Zero - Project (World)"
 	rom ( name "F-Zero - Project (World) (Aftermarket) (Unl).gb" size 1048576 crc 4C707059 md5 CD5BD70C93494A58AA919D84EBA8E77E sha1 5B823EE17691D286A45F0667CDDD59CCAAAB5D8B )
 )
@@ -2626,11 +2445,6 @@ game (
 	name "F1 Boy (Japan)"
 	region "Japan"
 	rom ( name "F1 Boy (Japan).gb" size 65536 crc FAC1F53B md5 1EE7E23AF0663DD66AF62276917974B6 sha1 632F0CCC2BCB1C33AD46724D7B1BC66B256303A2 )
-)
-game (
-	name "F1 Challenge (Europe) (Beta)"
-	region "Europe"
-	rom ( name "F1 Challenge (Europe) (Beta).gb" size 262144 crc BC505A3B md5 B12FF2BC7C37B89272B8D402FF42F634 sha1 9849276839EFDF7C2270A2FA7ACD0D814CAC026B )
 )
 game (
 	name "F1 Pole Position (USA, Europe)"
@@ -2710,11 +2524,6 @@ game (
 	name "Felix the Cat (USA, Europe)"
 	region "USA"
 	rom ( name "Felix the Cat (USA, Europe).gb" size 131072 crc F53F7F00 md5 4D606AB4FFD5C3D3ECF914A6AF1C1F90 sha1 C4A0D02D5964335A18839C7C30AC05B6F40C33B3 )
-)
-game (
-	name "Felix the Cat (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Felix the Cat (USA, Europe) (Beta).gb" size 131072 crc B1734088 md5 24E14958ADC385B04BDAC3DA02BED4C7 sha1 66FE01233643FB63E758D1F2E9932F63D545E288 )
 )
 game (
 	name "Ferrari (Japan) (En)"
@@ -2868,8 +2677,8 @@ game (
 	rom ( name "Football International (Europe).gb" size 131072 crc 6E659690 md5 E84971B95D5DBB25EFAF4EA89564A1A9 sha1 30BE5422B15E1960D22DC77D646642D7365B243C )
 )
 game (
-	name "Footballer of the Year (World) (v1.0)"
-	rom ( name "Footballer of the Year (World) (v1.0) (Aftermarket) (Unl).gb" size 1048576 crc 91FAA9B1 md5 1660F7937B4EDDE47F6FC3A7C4FC857E sha1 B7542729C8665A1A2AF47F58FC59CC90F66FD77D )
+	name "Footballer of the Year (World)"
+	rom ( name "Footballer of the Year (World) (Aftermarket) (Unl).gb" size 1048576 crc 91FAA9B1 md5 1660F7937B4EDDE47F6FC3A7C4FC857E sha1 B7542729C8665A1A2AF47F58FC59CC90F66FD77D )
 )
 game (
 	name "Footballer of the Year (World) (v1.1)"
@@ -2971,14 +2780,6 @@ game (
 	rom ( name "GB Basketball (Japan) (En).gb" size 131072 crc D9B24D21 md5 F97902058640F3700B5ACFF422969BA3 sha1 65F73DB2942D400A4C555FBCFD6313F07303D4E4 )
 )
 game (
-	name "GB Basketball (Japan) (En) (Beta)"
-	releaseyear "1992"
-	releasemonth "12"
-	releaseday "10"
-	region "Japan"
-	rom ( name "GB Basketball (Japan) (En) (Beta) (1992-12-10).gb" size 131072 crc 2EDA2D4C md5 3B3FA3DD77C2AEC53856210D8311FA6D sha1 40D9287267598C23B24300F7E9F6E11CBFCC53A2 )
-)
-game (
 	name "GB Genjin (Japan)"
 	region "Japan"
 	rom ( name "GB Genjin (Japan).gb" size 262144 crc 690227F6 md5 CCB0D2A704C3EC24A0BBD78FCDFAD4DD sha1 C2E98C76E49155E7B9815E0C33AE6CF71DAAEE2C )
@@ -2999,8 +2800,8 @@ game (
 	rom ( name "GB Pachi-Slot Hisshouhou! Jr. (Japan).gb" size 131072 crc A2E210E9 md5 7FED5D5E548D9A4C1F61A47F1A6692A9 sha1 7636799F5A57D22CF579BB687BE5BB9FEDDDD0CA )
 )
 game (
-	name "GB Pixel Jam 2023 Gallery (World) (Digital)"
-	rom ( name "GB Pixel Jam 2023 Gallery (World) (Digital) (Aftermarket) (Unl).gb" size 1048576 crc 250D665A md5 BDF7E5902C89BD3CDFEAD568D8105758 sha1 D6C41777318C35E0E1874DE0B06613A26600D21B )
+	name "GB Pixel Jam 2023 Gallery (World)"
+	rom ( name "GB Pixel Jam 2023 Gallery (World) (Aftermarket) (Unl).gb" size 1048576 crc 250D665A md5 BDF7E5902C89BD3CDFEAD568D8105758 sha1 D6C41777318C35E0E1874DE0B06613A26600D21B )
 )
 game (
 	name "GBKiss Mini Games (Japan)"
@@ -3067,9 +2868,9 @@ game (
 	rom ( name "Game Boy Gallery (Japan) (SGB Enhanced).gb" size 262144 crc A93E125B md5 C25B8EBA16BB9A24DCF6339FEBC05DBE sha1 9D9465486610AB470203236C614692BC7B86C328 )
 )
 game (
-	name "Game Boy Gallery - 5 Games in 1 (Europe) (SGB Enhanced)"
+	name "Game Boy Gallery - 5 Games in 1 (Europe, Australia) (SGB Enhanced)"
 	region "Europe"
-	rom ( name "Game Boy Gallery - 5 Games in 1 (Europe) (SGB Enhanced).gb" size 131072 crc 263FD152 md5 B6D1139FB8D57CD47F173FAEF592C813 sha1 07B6174A413858F84BFC480169945C7FD1A372B9 )
+	rom ( name "Game Boy Gallery - 5 Games in 1 (Europe, Australia) (SGB Enhanced).gb" size 131072 crc 263FD152 md5 B6D1139FB8D57CD47F173FAEF592C813 sha1 07B6174A413858F84BFC480169945C7FD1A372B9 )
 )
 game (
 	name "Game Boy Gallery 2 (Australia) (SGB Enhanced)"
@@ -3151,11 +2952,6 @@ game (
 	rom ( name "Garfield Labyrinth (Europe).gb" size 131072 crc 51B8626D md5 49BCB33470DF757847EEF5E170C9B6BD sha1 87913E557DFB98C5F2A0F42EA074C36ECA57A4F7 )
 )
 game (
-	name "Garfield Labyrinth (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Garfield Labyrinth (Europe) (Beta).gb" size 131072 crc 06884616 md5 4EC2DF5BC21A4DC75B79EE929723DC39 sha1 C9170113C3370523CF5D13132ED3E2253A3F9DDE )
-)
-game (
 	name "Gargoyle's Quest (Europe) (Rev 1)"
 	region "Europe"
 	rom ( name "Gargoyle's Quest (Europe) (Rev 1).gb" size 131072 crc B86EF7A5 md5 567B0045CC26135A54CA025B0AF7E9EF sha1 21FBE39014FFED80D0DE2092517522D3CB9B03F9 )
@@ -3176,14 +2972,13 @@ game (
 	rom ( name "Gargoyle's Quest II - The Demon Darkness (USA) (Proto).gb" size 262144 crc DB6F5930 md5 56A1787B8A2DDE07756B3CC36E79A9A0 sha1 1534F0A1806A69D408E702EDA5B2D67FEF05B1ED )
 )
 game (
+	name "Gas Station Story OST (World) (Album)"
+	rom ( name "Gas Station Story OST (World) (Album) (Aftermarket) (Unl).gb" size 262144 crc 0A2E342E md5 6CD7C18F07541DC8CCAEF00BF15FADDB sha1 9459CF9A49B517F3C5407F5AFFB6AB42C5B4AA29 )
+)
+game (
 	name "Gauntlet II (USA, Europe)"
 	region "USA"
 	rom ( name "Gauntlet II (USA, Europe).gb" size 262144 crc 1907DAC5 md5 CDCA15CFD1645C02FE1CC327B772264E sha1 DC37DF322B54A5DF5D04BC637E26B011B84598BF )
-)
-game (
-	name "Gauntlet II (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Gauntlet II (USA, Europe) (Beta).gb" size 262144 crc 965BBE1F md5 066C7301810022D1232386B4EEAB6DE3 sha1 53E6162E9276318F357A1E2E5BD706D4E4FD47D2 )
 )
 game (
 	name "Gear Works (USA, Europe)"
@@ -3258,11 +3053,6 @@ game (
 	rom ( name "Ghostbusters II (USA, Europe).gb" size 131072 crc 5821ECD4 md5 0841A527B116A52AD26DE023B20B1A42 sha1 1E2AA42B7E0F974F45FBCA35160CDA6D5964F0AD )
 )
 game (
-	name "Ghostbusters II (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Ghostbusters II (USA, Europe) (Beta).gb" size 131072 crc 41423376 md5 FF8AC71F09453B667856A8539192101F sha1 C96B152F5351EEEC19E1B020C9E0D51D582E2E8C )
-)
-game (
 	name "Ginga - Card & Puzzle Collection (Japan) (En,Ja)"
 	region "Japan"
 	rom ( name "Ginga - Card & Puzzle Collection (Japan) (En,Ja).gb" size 65536 crc 87D0637B md5 49EFF735E839F8A57F75AFCBF2C11AE4 sha1 14F4F14CAEE081DCEADB9D31AE26FD8968C432EA )
@@ -3286,11 +3076,6 @@ game (
 	name "Go! Go! Tank (Japan) (En)"
 	region "Japan"
 	rom ( name "Go! Go! Tank (Japan) (En).gb" size 65536 crc 30AE39B6 md5 D7BC88E01B7722082B3A5AE729DE170E sha1 6A60D5B550355E634BA54D8BD83B51CA55D6874B )
-)
-game (
-	name "Go! Go! Tank (Japan) (En) (Beta)"
-	region "Japan"
-	rom ( name "Go! Go! Tank (Japan) (En) (Beta).gb" size 65536 crc 6DCF5E7F md5 9D3D554ACE962A9DC4E87544DFA76ED2 sha1 18BBEE226858AF45A81F7DA1186938F53511EF73 )
 )
 game (
 	name "Go! Go! Tank (USA)"
@@ -3592,11 +3377,6 @@ game (
 	rom ( name "HAL Wrestling (USA).gb" size 131072 crc 5E4A61D3 md5 7AC8443EEFC33432B989F00CB984B9A1 sha1 861F1CD6EA513A003AB8364B37FA73C63B555E38 )
 )
 game (
-	name "HAL Wrestling (USA) (Beta)"
-	region "USA"
-	rom ( name "HAL Wrestling (USA) (Beta).gb" size 131072 crc B02FAA0B md5 9AF91C7E344A9048F0F4037A8ABCBE54 sha1 6AC35A017FD1F61C19086765107E3940426A2A66 )
-)
-game (
 	name "Hammerin' Harry (Europe)"
 	region "Europe"
 	rom ( name "Hammerin' Harry (Europe).gb" size 262144 crc 9F09AFE8 md5 131993B986F3BA1F682D8D74F050487B sha1 05490AB94AE5E01DD02B4A578BFCCC5647816408 )
@@ -3715,11 +3495,6 @@ game (
 	name "Hit the Ice - VHL - The Official Video Hockey League (USA, Europe)"
 	region "USA"
 	rom ( name "Hit the Ice - VHL - The Official Video Hockey League (USA, Europe).gb" size 131072 crc 2C77F399 md5 66FC892B9682E8E2981FA83FA681CCAD sha1 F1631E0A97FD60A285FEBA1B2FC9082BCA3BE829 )
-)
-game (
-	name "Hit the Ice - VHL - The Official Video Hockey League (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Hit the Ice - VHL - The Official Video Hockey League (USA, Europe) (Beta).gb" size 131072 crc 37627030 md5 3AB483B3042F9096582C16191B3A3448 sha1 C75A236CA74D60C1239F9E9B5BEEF929CFB0360E )
 )
 game (
 	name "Hitori de Dekirumon! - Cooking Densetsu (Japan)"
@@ -4136,11 +3911,6 @@ game (
 	rom ( name "Jeopardy! - Teen Tournament (USA) (SGB Enhanced).gb" size 131072 crc CD3DF0C1 md5 D8AD8389C9EC44D4E3BACC88D7B7B1A9 sha1 20C71F434EF093FAC9361FA1DB9C2282C938DD71 )
 )
 game (
-	name "Jet Pack (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Jet Pack (USA, Europe) (Beta).gb" size 131072 crc 1C223204 md5 CD40BDA7A113C2279D5FFD1CFA0CFDC7 sha1 DF7ABBCAACCD5CFF4C55BB331FA5D3049FB92896 )
-)
-game (
 	name "Jet Pak Jak (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Jet Pak Jak (Europe) (Proto).gb" size 131072 crc 2040E99B md5 9FAE2CC970BA45B0D7BA79A68E0E9104 sha1 DA739097364E31F3BE5851461170EACCBCD2AEB3 )
@@ -4180,19 +3950,6 @@ game (
 	rom ( name "Jimmy Connors Tennis (USA, Europe).gb" size 65536 crc 9B7EBF91 md5 BF01B798DE6B41D301827A4C943A9E45 sha1 D1F93DB9A95C9023241E72FE0D7F9848322B53AA )
 )
 game (
-	name "Jimmy Connors Tennis (USA, Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "03"
-	releaseday "19"
-	region "USA"
-	rom ( name "Jimmy Connors Tennis (USA, Europe) (1993-03-19) (Beta).gb" size 65536 crc 4EE3E02E md5 A7E6B3415BD33F306C342F5B71493154 sha1 06C9018F7943362F8B9571486B6412DE11672718 )
-)
-game (
-	name "Jimmy Connors Tennis (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Jimmy Connors Tennis (USA, Europe) (Beta).gb" size 131072 crc EB50CAF2 md5 3EF00D0A0B1E7E359B0246C2CFF30477 sha1 4CA04A3270E217D54D8C5FA7A254FDBCB48C5B87 )
-)
-game (
 	name "Jimmy Connors no Pro Tennis Tour (Japan) (En)"
 	region "Japan"
 	rom ( name "Jimmy Connors no Pro Tennis Tour (Japan) (En).gb" size 65536 crc 18671602 md5 E35D24F2A2B72255E0CAADCFD131CE08 sha1 43AE08919DCCB5129E17A3FDAC553901FB6E3918 )
@@ -4216,11 +3973,6 @@ game (
 	name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
 	rom ( name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv).gb" size 262144 crc 9BD7F196 md5 341B155413D2253886D8F188625CC1C3 sha1 88AE07382560825B7CF9307D224938D3A0A89F8D )
-)
-game (
-	name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta)"
-	region "Europe"
-	rom ( name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl,Sv) (Beta).gb" size 262144 crc 381C62EE md5 17D4F6DDB2996D989040B1881B0573BB sha1 979E36765291153B82025B1F036C08FE9C23CFA5 )
 )
 game (
 	name "Joe Blade 2 (World)"
@@ -4698,11 +4450,6 @@ game (
 	rom ( name "Kung-Fu Master (USA, Europe).gb" size 65536 crc 3340E600 md5 18FE3526F170F47A277E0FAC17D90170 sha1 B0BB485E2B57793DA9F153DB074C13A060A1E0D4 )
 )
 game (
-	name "Kung-Fu Master (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Kung-Fu Master (USA, Europe) (Beta).gb" size 65536 crc E0C33C1A md5 8CBBFDA8754CCACAAE46AC571F46A034 sha1 1CE6301D56294B71068514C666AD2157551134E7 )
-)
-game (
 	name "Kuru Kuru Pixel Logic (World)"
 	rom ( name "Kuru Kuru Pixel Logic (World) (Aftermarket) (Unl).gb" size 131072 crc 45689C8B md5 940E815091B9D370789FDE2E68BFAC5A sha1 B7A3C7586AFCB3489501B75F87F02C20BCD66CD5 )
 )
@@ -4872,14 +4619,6 @@ game (
 	rom ( name "Lemmings (Europe).gb" size 131072 crc 23467A35 md5 6F72B0B3DD1D0939B1CCF7E9A8B05A04 sha1 8EDB7E1A1A7289D4C393FBA6D27776AB6AF441FF )
 )
 game (
-	name "Lemmings (Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "05"
-	releaseday "19"
-	region "Europe"
-	rom ( name "Lemmings (Europe) (Beta) (1993-05-19).gb" size 131072 crc E2A65174 md5 5ECE0017F734E6A813B622B8B455CFE9 sha1 4F23D9DCC315F5DBD5EF2350F6623B6CD077B393 )
-)
-game (
 	name "Lemmings (Europe) (Rev 1)"
 	region "Europe"
 	rom ( name "Lemmings (Europe) (Rev 1).gb" size 131072 crc 560D71EB md5 33D428BD17848C4CFA7DC1B7F16644EC sha1 C156D7EE57860A23754E87D42F952B17077994AD )
@@ -4905,11 +4644,6 @@ game (
 	rom ( name "Lethal Weapon (USA, Europe).gb" size 131072 crc 1F8D207C md5 D345B97E4B43F20A01FA2E4EA4A63A2B sha1 8B4621471B376A6262FBED70C1191416AB3BE915 )
 )
 game (
-	name "Lethal Weapon (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Lethal Weapon (USA, Europe) (Beta).gb" size 131072 crc D585AB23 md5 62B8BE3A8E17972051897DA4796BA69D sha1 2221BA322ACFFC9D7AE5400752E16D0455FDA3EF )
-)
-game (
 	name "Life's Too Short (World)"
 	rom ( name "Life's Too Short (World) (Aftermarket) (Unl).gb" size 262144 crc 458174CC md5 6F26A0D050C67741BF7CC65AA86772F7 sha1 7B704CD999CBEEB9991D675E2B1E67A906FA766D )
 )
@@ -4931,38 +4665,6 @@ game (
 	name "Lion King, The (USA)"
 	region "USA"
 	rom ( name "Lion King, The (USA).gb" size 524288 crc 3430D261 md5 FDAB70DF67C8941ED7B39A0405161545 sha1 FBBDB1D2073BAFA45943CB5F4D4AAE5648120089 )
-)
-game (
-	name "Lion King, The (USA, Europe) (Beta)"
-	releaseyear "1994"
-	releasemonth "03"
-	releaseday "07"
-	region "USA"
-	rom ( name "Lion King, The (USA, Europe) (Beta) (1994-03-07).gb" size 131072 crc 4267AAC1 md5 15F1A2A703E632BBD4F311FE12279249 sha1 2A5C3BC3C6E8C853D20C1960948441DE289740A2 )
-)
-game (
-	name "Lion King, The (USA, Europe) (Beta)"
-	releaseyear "1994"
-	releasemonth "07"
-	releaseday "13"
-	region "USA"
-	rom ( name "Lion King, The (USA, Europe) (Beta) (1994-07-13).gb" size 262144 crc BA4993BE md5 E872272D9DA777A9561B6E82F8B1D343 sha1 A727DB6463E9297E062BF81B30CF24F14D3A190F )
-)
-game (
-	name "Lion King, The (USA, Europe) (Beta)"
-	releaseyear "1994"
-	releasemonth "10"
-	releaseday "07"
-	region "USA"
-	rom ( name "Lion King, The (USA, Europe) (Beta) (1994-10-07).gb" size 524288 crc 03BD0D82 md5 30C998CF3A2C60D580A75989AF6F39FB sha1 671DCC37642E9832803DCF866AB1616E8816B673 )
-)
-game (
-	name "Lion King, The (USA, Europe) (Beta)"
-	releaseyear "1994"
-	releasemonth "10"
-	releaseday "12"
-	region "USA"
-	rom ( name "Lion King, The (USA, Europe) (Beta) (1994-10-12).gb" size 524288 crc EEB5F705 md5 ACC809B591EA80AEF4922268460D7984 sha1 5F58001042EC929DEB6024C6DD97024811F51ACD )
 )
 game (
 	name "Lion King, The (World) (Disney Classic Games)"
@@ -5067,10 +4769,6 @@ game (
 game (
 	name "Loopz (World)"
 	rom ( name "Loopz (World).gb" size 32768 crc 531A3E16 md5 7E68C061D77A2E8925442A9B6FA0A0ED sha1 DD2DDAC2310409287299C287F1959196E0B4D14E )
-)
-game (
-	name "Loopz (World) (Beta)"
-	rom ( name "Loopz (World) (Beta).gb" size 32768 crc 15E28642 md5 F9F226D0534E8152B280388E39573E92 sha1 01F87439294A2A06604AE0FD41DF203713460510 )
 )
 game (
 	name "Lost Knight (World) (Proto)"
@@ -5257,11 +4955,6 @@ game (
 	name "Mario & Yoshi (Europe)"
 	region "Europe"
 	rom ( name "Mario & Yoshi (Europe).gb" size 65536 crc 4627D88B md5 5CFF00DB388D27727A1C9FB4C303F40B sha1 9BF642EABDB51625D1EF1AC470666EC8F5F10F77 )
-)
-game (
-	name "Mario no Picross (Japan) (Beta) (SGB Enhanced)"
-	region "Japan"
-	rom ( name "Mario no Picross (Japan) (Beta) (SGB Enhanced).gb" size 262144 crc 7B27BAE3 md5 6A275D0158DA983574963B65D47CEF83 sha1 BA0B3B36AFEAED9BFA3C717B0749BC2398627953 )
 )
 game (
 	name "Mario no Picross (Japan) (SGB Enhanced)"
@@ -5470,11 +5163,6 @@ game (
 	rom ( name "Metal Masters (USA).gb" size 131072 crc BF6866DC md5 680C8FBB0BC15C850121EF2C929DF177 sha1 CAAE5811B2D2B884B691EA7D940ECB86647CD250 )
 )
 game (
-	name "Metal Masters (USA) (Beta)"
-	region "USA"
-	rom ( name "Metal Masters (USA) (Beta).gb" size 131072 crc 3378064B md5 200626CC703CEBB4E3F31B725A705220 sha1 572C820F7EC7A3C96DF9AF441DA244BEFA5223B9 )
-)
-game (
 	name "Metal Masters (World) (Limited Run Games)"
 	rom ( name "Metal Masters (World) (Limited Run Games).gb" size 131072 crc 7DE862FA md5 CBD881EA82BEB95AB599A0418B22635A sha1 9D4896A198904365EBC348C557B7C15F87B5E3C5 )
 )
@@ -5495,7 +5183,7 @@ game (
 	rom ( name "Mick & Mack as the Global Gladiators (USA) (Proto) (1993-07-20).gb" size 131072 crc 1E8A59C2 md5 A774E4D7C2E05D0DBBDE260EC807BB59 sha1 81456302F06DD7B026854ABBF8BB34804A14DFA1 )
 )
 game (
-	name "Mick & Mack as the Global Gladiators (USA) (Proto)"
+	name "Mick & Mack as the Global Gladiators (USA) (Proto) (Alt 1)"
 	releaseyear "1993"
 	releasemonth "09"
 	releaseday "27"
@@ -5503,7 +5191,7 @@ game (
 	rom ( name "Mick & Mack as the Global Gladiators (USA) (Proto) (1993-09-27).gb" size 131072 crc 016AE810 md5 94C8529C51540BABC5FC0B3FA2C50153 sha1 0108D3B03232FDC57DD087F823B6F0C2C1669629 )
 )
 game (
-	name "Mick & Mack as the Global Gladiators (USA) (Proto)"
+	name "Mick & Mack as the Global Gladiators (USA) (Proto) (Alt 2)"
 	releaseyear "1993"
 	releasemonth "10"
 	releaseday "04"
@@ -5511,7 +5199,7 @@ game (
 	rom ( name "Mick & Mack as the Global Gladiators (USA) (Proto) (1993-10-04).gb" size 131072 crc 2646F927 md5 EA48475EC24FD803715169265ABF1DFD sha1 9EB948563E05D6F242FB5BB4759856E8EDF17DA5 )
 )
 game (
-	name "Mick & Mack as the Global Gladiators (USA) (Proto)"
+	name "Mick & Mack as the Global Gladiators (USA) (Proto) (Alt 3)"
 	releaseyear "1994"
 	releasemonth "01"
 	releaseday "18"
@@ -5574,14 +5262,6 @@ game (
 	rom ( name "Mickey's Ultimate Challenge (USA, Europe).gb" size 262144 crc 23E9D625 md5 F7D266BC81C150796AE373BDDD0A9A84 sha1 CEBDC7B9F5764AEBAB116BA0A5D06C67CD4BEA84 )
 )
 game (
-	name "Mickey's Ultimate Challenge (USA, Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "11"
-	releaseday "12"
-	region "USA"
-	rom ( name "Mickey's Ultimate Challenge (USA, Europe) (Beta) (1993-11-12).gb" size 131072 crc 3FAC2661 md5 F7094136499601A6E45DB03D1EDB98B8 sha1 E6809004A3AF32235E55A300F53B421A00C57B98 )
-)
-game (
 	name "Micro Machines (USA, Europe)"
 	region "USA"
 	rom ( name "Micro Machines (USA, Europe).gb" size 262144 crc 2088F85F md5 0631158EAD23BFED84CD3A5010EB9295 sha1 62C07BAA3ED0CCAF704399F05FE90569D90C6EFF )
@@ -5595,11 +5275,6 @@ game (
 	name "Midori no Makibaou (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Midori no Makibaou (Japan) (SGB Enhanced).gb" size 262144 crc 1DD93D95 md5 C29DF42EF1237C4392049196D2205FFE sha1 4DE380B202E375761F9FE7FB13349F5B02E2DAC2 )
-)
-game (
-	name "Mighty Morphin Power Rangers (USA, Europe) (Beta) (SGB Enhanced)"
-	region "USA"
-	rom ( name "Mighty Morphin Power Rangers (USA, Europe) (Beta) (SGB Enhanced).gb" size 262144 crc CAAB9AC9 md5 BD8873B840455CB6464574C14448F8CB sha1 BE42F45D8038CE28461ED36BA9164854632AEBE0 )
 )
 game (
 	name "Mighty Morphin Power Rangers (USA, Europe) (SGB Enhanced)"
@@ -5630,14 +5305,6 @@ game (
 	name "Milon's Secret Castle (USA, Europe)"
 	region "USA"
 	rom ( name "Milon's Secret Castle (USA, Europe).gb" size 131072 crc 62B4CC8C md5 1F93249C298F3ECDC4099602D9DEDBB5 sha1 40FF7865B543C9B6A3C2DDE542819018E7F06FA8 )
-)
-game (
-	name "Mind Bender (USA) (Beta)"
-	releaseyear "1991"
-	releasemonth "03"
-	releaseday "04"
-	region "USA"
-	rom ( name "Mind Bender (USA) (Beta) (1991-03-04).gb" size 32768 crc 984EC5D6 md5 9B68B316B7AF37E1428E899E90E7F7A9 sha1 235F61E7CCC6F9CFFE6C30A0ABC778F6745D3A5A )
 )
 game (
 	name "Miner 2049er Starring Bounty Bob (USA)"
@@ -5809,14 +5476,14 @@ game (
 	rom ( name "Mission Mars (World) (Aftermarket) (Unl).gb" size 262144 crc CB3A9AB8 md5 C789B84538BEFF12B8B60065974A3B10 sha1 31625A90B61D28AC782909ED8B00B3A48DF7742E )
 )
 game (
-	name "Mofa Qiu - Magic Ball (Taiwan) (Multicart Rip)"
-	region "Taiwan"
-	rom ( name "Mofa Qiu - Magic Ball (Taiwan) (Multicart Rip) (Unl).gb" size 131072 crc E2CB3B91 md5 4390A7431C78DAC56220C336D4EC0507 sha1 88AC96EB953D1C273896893C7D8E1597524DA4A4 )
-)
-game (
 	name "Mofa Qiu - Magic Ball (Taiwan)"
 	region "Taiwan"
 	rom ( name "Mofa Qiu - Magic Ball (Taiwan) (Unl).gb" size 65536 crc 38465864 md5 69CB8CF8E86D7FDF3995620F2507AE78 sha1 50C0450B540BB338A71BF626F93005E991929F6E )
+)
+game (
+	name "Mofa Qiu - Magic Ball (Taiwan) (Multicart Rip)"
+	region "Taiwan"
+	rom ( name "Mofa Qiu - Magic Ball (Taiwan) (Multicart Rip) (Unl).gb" size 131072 crc E2CB3B91 md5 4390A7431C78DAC56220C336D4EC0507 sha1 88AC96EB953D1C273896893C7D8E1597524DA4A4 )
 )
 game (
 	name "Mogu Mogu Gombo - Harukanaru Chou Ryouri Densetsu (Japan) (SGB Enhanced)"
@@ -5923,14 +5590,6 @@ game (
 	rom ( name "Monster Max (Europe) (En,Fr,De,Es,It,Nl).gb" size 262144 crc 300B1D2D md5 261EC744FCF7A4EB5A6025C48C0538A3 sha1 4C3647C79C97114BB7DAF74B1A30F33FD989CF04 )
 )
 game (
-	name "Monster Max (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	releaseyear "1993"
-	releasemonth "04"
-	releaseday "01"
-	region "Europe"
-	rom ( name "Monster Max (Europe) (En,Fr,De,Es,It,Nl) (Beta) (1993-04-01).gb" size 131072 crc E7723A39 md5 0D9906E172C6143432B20706F44AC03E sha1 8279A071D6871A38C644381FB1ECFC198E4E263D )
-)
-game (
 	name "Monster Race (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Monster Race (Japan) (SGB Enhanced).gb" size 524288 crc C191BD66 md5 3029C962C483DF174FC6F5C9202326E3 sha1 BB305EC61EC272A7A2FADA1C03BA6784C5168F86 )
@@ -5973,11 +5632,6 @@ game (
 	name "Mortal Kombat (USA, Europe)"
 	region "USA"
 	rom ( name "Mortal Kombat (USA, Europe).gb" size 262144 crc 90EB0929 md5 B3474BAB3EDA25BDB1508ED53765FB30 sha1 59752879EFAF2F271CE4B8A9D4A455056A2985D0 )
-)
-game (
-	name "Mortal Kombat (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Mortal Kombat (USA, Europe) (Beta).gb" size 262144 crc F22346A4 md5 99155040191CA1DA4D3B346D0D12ED7C sha1 49F2FFE347758B6A34BFB149A94A867D77B2263E )
 )
 game (
 	name "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En)"
@@ -6104,19 +5758,6 @@ game (
 	name "Mysterium (USA)"
 	region "USA"
 	rom ( name "Mysterium (USA).gb" size 131072 crc EB225E96 md5 12E9E43481D38003A4F1E2C2CE596AEE sha1 382C346AF83E3CB9F95192378843D4E15EF93716 )
-)
-game (
-	name "Mysterium (USA) (v1.00AI) (Beta)"
-	releaseyear "1991"
-	releasemonth "01"
-	releaseday "23"
-	region "USA"
-	rom ( name "Mysterium (USA) (v1.00AI) (Beta) (1991-01-23).gb" size 131072 crc 57B3E6C3 md5 D12E226A7E1686E8DAC9936361299624 sha1 C67BB1E061D638BCA7DC1C71B808277E6FDF4FA6 )
-)
-game (
-	name "Mysterium (USA) (v1.00AU) (Beta)"
-	region "USA"
-	rom ( name "Mysterium (USA) (v1.00AU) (Beta).gb" size 131072 crc 004C1AF7 md5 EECABC069331CE1512CBA30442AD2980 sha1 82E058A7608A04A2837D0D8FE810270F804B43F3 )
 )
 game (
 	name "Mystic Quest (Europe)"
@@ -6291,11 +5932,6 @@ game (
 	rom ( name "Nanonote (Japan).gb" size 131072 crc 3E30B63D md5 DCAC90D51F56F90E26D41E7731DE08EC sha1 8D280E610A827E56864E6B99A637103A2D14F7BF )
 )
 game (
-	name "Nanonote (Japan) (Rev 1) (Beta)"
-	region "Japan"
-	rom ( name "Nanonote (Japan) (Rev 1) (Beta).gb" size 131072 crc 38CB1E9F md5 EABBEF967167719C2AFDA1D635550096 sha1 782FCAECFAF21CA6DE098BAACD043AAEDE182BAE )
-)
-game (
 	name "Navy SEALs (USA, Europe)"
 	region "USA"
 	rom ( name "Navy SEALs (USA, Europe).gb" size 131072 crc 296CEACB md5 FC2B347600EDFFC8E997A7FC75382873 sha1 F6930EA45B012EBD16C1D637AE763DFB94198623 )
@@ -6353,11 +5989,6 @@ game (
 	name "Nemesis (USA)"
 	region "USA"
 	rom ( name "Nemesis (USA).gb" size 131072 crc 5110E971 md5 1EB7FF636E532321A18885EEA660604A sha1 0AD4A8F156BC6899E2337417CEDF9E279F8ABC08 )
-)
-game (
-	name "Nemesis (USA) (Rev 1) (Beta)"
-	region "USA"
-	rom ( name "Nemesis (USA) (Rev 1) (Beta).gb" size 131072 crc 7D448FB5 md5 12ADD4ED6963A6CD303CA0FEA892148F sha1 1858B0C85A7221B8DE05BB02EDB8BE21FFF1DD6C )
 )
 game (
 	name "Nemesis II (Japan) (En)"
@@ -6510,16 +6141,6 @@ game (
 	rom ( name "Ninja Taro (USA).gb" size 131072 crc C53EBFBD md5 1A52FB8F767E24DC75C3BB2D08679F6C sha1 BD472ED88042E032A57041EB0A889DA6AA3D1598 )
 )
 game (
-	name "Ninja Taro (USA) (Beta 1)"
-	region "USA"
-	rom ( name "Ninja Taro (USA) (Beta 1).gb" size 131072 crc 61598B3D md5 A83273EDB8B89C84145D619D72EE19FE sha1 D93B6718E9C8A2505F4DA73B99F57866111948AF )
-)
-game (
-	name "Ninja Taro (USA) (Beta 2)"
-	region "USA"
-	rom ( name "Ninja Taro (USA) (Beta 2).gb" size 131072 crc F15B708A md5 E977B90B7B582DE86068A6B0E6C5B16C sha1 602BA627007D37F7A2EB456102B3AFA79D50CE2F )
-)
-game (
 	name "Ninja Twins (World) (Digital) (SGB Enhanced)"
 	rom ( name "Ninja Twins (World) (Digital) (SGB Enhanced) (Aftermarket) (Unl).gb" size 32768 crc 9E7C919F md5 C07E71F36FE2CD302F043DD37F828718 sha1 23603F18337BDF997BF33CEC3A015DBE106A4EEE )
 )
@@ -6573,10 +6194,6 @@ game (
 	rom ( name "Nyghtmare - Betrayed (World) (Alpha A) (Aftermarket) (Unl).gb" size 262144 crc D6166C62 md5 286CAF661B28F99B7C8ACA10C75C7BC5 sha1 FA2198C5308A15195ADBDA004F09646589860D11 )
 )
 game (
-	name "Nyghtmare - Betrayed (World) (v0.1.1) (Beta)"
-	rom ( name "Nyghtmare - Betrayed (World) (v0.1.1) (Beta) (Aftermarket) (Unl).gb" size 1048576 crc 42B47080 md5 9628273AD4D1EE609255F4C8768733B1 sha1 08484B0F98E72D6577D9B7CDE8C49908012D1FC5 )
-)
-game (
 	name "Obelisk (World)"
 	rom ( name "Obelisk (World) (Aftermarket) (Unl).gb" size 2097152 crc E5A15EB1 md5 131381FCB7FAA56D4489487AC96C2F98 sha1 7E384D9FF913CC92174FE6783C285CF021BA39FE )
 )
@@ -6621,11 +6238,6 @@ game (
 	name "Oni IV - Kijin no Ketsuzoku (Japan)"
 	region "Japan"
 	rom ( name "Oni IV - Kijin no Ketsuzoku (Japan).gb" size 262144 crc BEFF4F57 md5 399FA899194542C7BD5BA92969795AC5 sha1 5AF71863E48AFE1FB5F16AEE6FBE7F4E97EF54CE )
-)
-game (
-	name "Oni IV - Kijin no Ketsuzoku (Japan) (Rev 1) (Beta)"
-	region "Japan"
-	rom ( name "Oni IV - Kijin no Ketsuzoku (Japan) (Rev 1) (Beta).gb" size 262144 crc 19EBA26F md5 CC7B28EA40189A4C0A254C3A7F11E934 sha1 43AE621957976657861777378E81176FC9873AB7 )
 )
 game (
 	name "Oni V - Oni wo Tsugumono (Japan) (SGB Enhanced)"
@@ -6681,19 +6293,9 @@ game (
 	rom ( name "Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es).gb" size 262144 crc 0C228A78 md5 A9E795191670FE5994700C9CD8B7FBFD sha1 93EDD0772A3A65DF17EC5877E2BCFAFDA3020169 )
 )
 game (
-	name "Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es) (Beta)"
-	region "Europe"
-	rom ( name "Otto's Ottifanten - Baby Bruno's Alptraum (Europe) (En,Fr,De,Es) (Beta).gb" size 262144 crc F23E5F91 md5 E98C2C5E838713BC68BE569C295A14A0 sha1 22A18F5EB589347FA596432D249B0ABCA69AA93B )
-)
-game (
 	name "Out of Gas (USA)"
 	region "USA"
 	rom ( name "Out of Gas (USA).gb" size 131072 crc 1B67E8B1 md5 0B7CBE56D1CF6370E60699E553D091A1 sha1 770AC35C0780CF432235593BD5674E72EDD6CF7D )
-)
-game (
-	name "Out of Gas (USA) (Beta)"
-	region "USA"
-	rom ( name "Out of Gas (USA) (Beta).gb" size 131072 crc C3E365B4 md5 FE78F234327F0293C653A1E5846CC777 sha1 FF90B89B413437B5E3360E28B6A62573619B4558 )
 )
 game (
 	name "Out on a Limb (World)"
@@ -6900,11 +6502,6 @@ game (
 	rom ( name "Pang (Europe).gb" size 131072 crc EA9615B4 md5 E6410FF2286BC1AEF2CE0DE6FE04804D sha1 7CA64A45EA6A68770658AE39EF21C41F806988C5 )
 )
 game (
-	name "Pang (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Pang (Europe) (Beta).gb" size 131072 crc 54D2754A md5 DF5835E45B4540087133AF202F7D67F6 sha1 B57D436D8A83F2FB1E42BAD3150893EF8FFAB0D4 )
-)
-game (
 	name "Panty Hunty (World) (v1.4)"
 	rom ( name "Panty Hunty (World) (v1.4) (Aftermarket) (Unl).gb" size 524288 crc CE707B9A md5 7A8E19E290EE3A6BC2687E331CD0DB06 sha1 B5757B268A09D9085D469EDA0676991F7361AD8C )
 )
@@ -7030,11 +6627,6 @@ game (
 	name "Pinball - Revenge of the 'Gator (USA, Europe)"
 	region "USA"
 	rom ( name "Pinball - Revenge of the 'Gator (USA, Europe).gb" size 65536 crc 79804305 md5 113D8F894DF6B8C3641B2BA1FE60C250 sha1 493834DB1C3C7859086A1C570A4BF5E5F6DD332B )
-)
-game (
-	name "Pinball - Revenge of the 'Gator (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Pinball - Revenge of the 'Gator (USA, Europe) (Beta).gb" size 65536 crc 048D3AB0 md5 4EB8D56E6CF1E54665E995CF0CB30108 sha1 7F25663B3C1C15A3EE4F1BB719741823EEA71EBB )
 )
 game (
 	name "Pinball Deluxe (Europe)"
@@ -7277,6 +6869,14 @@ game (
 	rom ( name "Pokemon - Blue Version (Hong Kong) (SGB Enhanced) (Pirate).gb" size 1048576 crc C5571F88 md5 447B9245E591AA2F17A2A1FE85982BF1 sha1 FEBDF81662E04443A307FF25892997C8DDD4E041 )
 )
 game (
+	name "Pokemon - Blue Version (USA, Europe) (Debug) (SGB Enhanced)"
+	releaseyear "1998"
+	releasemonth "08"
+	releaseday "05"
+	region "USA"
+	rom ( name "Pokemon - Blue Version (USA, Europe) (1998-08-05) (Debug) (SGB Enhanced).gb" size 1048576 crc 5563A166 md5 10F440169E3F32C35880C9DCC813E6A2 sha1 5B1456177671B79B263C614EA0E7CC9AC542E9C4 )
+)
+game (
 	name "Pokemon - Blue Version (USA, Europe) (SGB Enhanced)"
 	region "USA"
 	serial "APEE"
@@ -7349,82 +6949,18 @@ game (
 	rom ( name "Pokemon - Versione Rossa (Italy) (SGB Enhanced).gb" size 1048576 crc 2945ACEB md5 6468FB0652DDE30EB968A44F17C686F1 sha1 65B97CF8F2F1CFF711A6D08C6C894C8CE65CE522 )
 )
 game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "03"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-03) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc D0B1E29B md5 AD167668BC03AD597A6EC4030BE64D07 sha1 7C4EF696E2D0D965D5C6F33E745BBACC1715BBA1 )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced) (Alt)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "03"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-03) (Beta) (CGB+SGB Enhanced) (Alt).gb" size 1048576 crc 1116AE9F md5 2D56A7413FB73AD307D399AF4C06A8D5 sha1 BFAC8DE19D04E859F64AAA52FFB1F3D5094417FF )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "10"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-10) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc 2E63BC59 md5 BC81E491896F94F1F92D1B830852EF5B sha1 834E933256855403DA07D88D375CDBE88D628F01 )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "15"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-15) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc 00787832 md5 D32022E0C8EEB93BBBFED851D75788F3 sha1 13EF81F63904D496C6D6ACF6685750ECDB35357B )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "16"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-16) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc 42C5430A md5 EC68E96F47CFF2C1A9BEAE89CDF1C146 sha1 D8A7D2EC6A8DD9F8E97CF02A27882A750650AA6C )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "17"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-17) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc 0DEE0D87 md5 3103CC297E3D83ADA597024B60A2C1E6 sha1 BDE79C92C801CC0C0E73A022BDF23F086B4DA4C5 )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "18"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-18) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc B539A028 md5 6600BCE6E5A74F8551261D4E68331CAE sha1 53DCD8B02C7AD002A7C40EDF758B19D3B393A9C4 )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "22"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-22) (Beta) (CGB+SGB Enhanced).gb" size 1048576 crc C83DF319 md5 E220A0C5845B19BFC8C1F03BCEF2F822 sha1 490A925FE4E30DC0217C4A23ED9B4F41538277DB )
-)
-game (
-	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Beta) (CGB+SGB Enhanced) (Alt)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "22"
-	region "USA"
-	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-02-22) (Beta) (CGB+SGB Enhanced) (Alt).gb" size 1048576 crc DBD0B8DC md5 545C852F0C3F40AB57585B9269F7A32B sha1 AD2EC0171CC731747ADBE51B852A0BC6ACD9471A )
-)
-game (
 	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced)"
 	region "USA"
 	serial "APSU"
 	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (CGB+SGB Enhanced).gb" size 1048576 crc 7D527D62 md5 D9290DB87B1F0A23B89F99EE4469E34B sha1 CC7D03262EBFAF2F06772C1A480C7D9D5F4A38E1 serial "APSU" )
+)
+game (
+	name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (Debug) (CGB+SGB Enhanced)"
+	releaseyear "1999"
+	releasemonth "04"
+	releaseday "28"
+	region "USA"
+	rom ( name "Pokemon - Yellow Version - Special Pikachu Edition (USA, Europe) (1999-04-28) (Debug) (CGB+SGB Enhanced).gb" size 1048576 crc FBC811B3 md5 FC1594B2CF7A1A90D56159F361DE1154 sha1 D44E96EDDFBDAD633CBE4E6E64915E9E198974B0 )
 )
 game (
 	name "Pokonyan! - Yume no Daibouken (Japan) (SGB Enhanced)"
@@ -7486,56 +7022,9 @@ game (
 	rom ( name "Populous (Europe).gb" size 131072 crc 453057AC md5 AB5FAC354726B7B0710CFDBA22D7142F sha1 4E3976FE32F4DB8F2E56EAE539D7CAE04D1B64CB )
 )
 game (
-	name "Populous (Europe) (Beta 1)"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 1).gb" size 131072 crc 802C25A9 md5 D954D26C65DB54E1BEAB8A5088C6BD41 sha1 7E9D320A363821F452A9DDF0FD6AA694C55611E7 )
-)
-game (
-	name "Populous (Europe) (Beta 2)"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 2).gb" size 131072 crc 17B1601D md5 6845AB21ADFAC40606E7A0B6CDD38874 sha1 CE9990C1444A5777DBA2C1D756E28812BA2E2995 )
-)
-game (
-	name "Populous (Europe) (Beta 3)"
-	releaseyear "1992"
-	releasemonth "11"
-	releaseday "26"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 3) (1992-11-26).gb" size 131072 crc A4A9741C md5 99FC0CB1BEFE77BBC6D25F6BE0DBB4F9 sha1 6B1443E633E4ECEA8E14C30C9FE4215F7CA0C1DD )
-)
-game (
-	name "Populous (Europe) (Beta 4)"
-	releaseyear "1992"
-	releasemonth "12"
-	releaseday "10"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 4) (1992-12-10).gb" size 131072 crc 1B8BA30C md5 0D10C2CCA969D208336D34E44F02A216 sha1 DD26381735A63F16E34B7E02358CA5FE3ABE61AF )
-)
-game (
-	name "Populous (Europe) (Beta 5)"
-	releaseyear "1993"
-	releasemonth "02"
-	releaseday "17"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 5) (1993-02-17).gb" size 131072 crc 3207B26E md5 E9A55C7B3223C85B6589CB1E7F8FCE37 sha1 0DA3C5E67E0AD0B6568DC74C3ACA9A6B28C7533B )
-)
-game (
-	name "Populous (Europe) (Beta 6)"
-	region "Europe"
-	rom ( name "Populous (Europe) (Beta 6).gb" size 131072 crc ECF2DD6F md5 25FBB082DC9BB9E86C0ABB03CA5CC168 sha1 76A08B4A0448641A263CE4DC65A2181192A0A621 )
-)
-game (
 	name "Populous Gaiden (Japan) (En)"
 	region "Japan"
 	rom ( name "Populous Gaiden (Japan) (En).gb" size 131072 crc F327167E md5 A98F3B3B87D4B8AE3672F518295A8FDE sha1 FDE1789EB253309CAE80FAF4FE7241C6F9D72F29 )
-)
-game (
-	name "Populous Gaiden (Japan) (En) (Beta)"
-	releaseyear "1993"
-	releasemonth "02"
-	releaseday "15"
-	region "Japan"
-	rom ( name "Populous Gaiden (Japan) (En) (Beta) (1993-02-15).gb" size 131072 crc E93F4CBD md5 622C7398073C1FDB66B80AEC37D69FDF sha1 7BB17E74E70B0BDCB060AA0F4462C20AB7C6042A )
 )
 game (
 	name "Porklike (World) (v1.0.13)"
@@ -7622,11 +7111,6 @@ game (
 	rom ( name "Primal Rage (USA, Europe).gb" size 262144 crc C95D927B md5 C1CFF8487B25700A509CE89CC3C7BCAC sha1 8561D62CD7DF59082D6B3C048CA3B85A30D769B7 )
 )
 game (
-	name "Primal Rage (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Primal Rage (USA, Europe) (Beta).gb" size 262144 crc F738D4D1 md5 81ABF5CDC935E97246A914A723649B6D sha1 2AA5B610058E8676126C35AD123FCBD5B4CE99A4 )
-)
-game (
 	name "Prince YehRude (Taiwan)"
 	region "Taiwan"
 	rom ( name "Prince YehRude (Taiwan) (Unl).gb" size 131072 crc 1CD07344 md5 D56D652D3B306345718CE657629D4A40 sha1 F3CFCC5C56D330863DD51BEAAFE6374C476EA158 )
@@ -7637,11 +7121,6 @@ game (
 	rom ( name "Prince of Persia (Europe) (En,Fr,De,Es,It).gb" size 131072 crc B2CBF20F md5 710EE7DA860FB18A29A929DB1198C1BB sha1 FD4DA10C0A7AF510B026007FB66A22672634E2D4 )
 )
 game (
-	name "Prince of Persia (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	rom ( name "Prince of Persia (Europe) (En,Fr,De,Es,It) (Beta).gb" size 131072 crc E0AAAD99 md5 2C4922FAAC9FB989AB556282598F8EC0 sha1 42B6DFBF283946998CAA6C383FA70BF1B646217E )
-)
-game (
 	name "Prince of Persia (Japan)"
 	region "Japan"
 	rom ( name "Prince of Persia (Japan).gb" size 131072 crc 1D16D689 md5 7A1ED5C273362A56EAEC07A1DDD6B195 sha1 9D6DEAAFED4328E485D7A9368E0BB4859760EDF7 )
@@ -7650,11 +7129,6 @@ game (
 	name "Prince of Persia (USA)"
 	region "USA"
 	rom ( name "Prince of Persia (USA).gb" size 131072 crc 2BD995F1 md5 80034DA43F35307291714AE2553D9DDF sha1 EF3EF15B791CEFF34D7D9BB5B3AF2E05842C8323 )
-)
-game (
-	name "Prince of Persia (USA) (Beta)"
-	region "USA"
-	rom ( name "Prince of Persia (USA) (Beta).gb" size 131072 crc C81CA14B md5 0941C6D463D971D56EEE8E368A0ABBB3 sha1 355709BD9D4B19BE5EE57BD62A0B58B73B25E0BF )
 )
 game (
 	name "Pro Action Replay (Europe)"
@@ -7684,11 +7158,6 @@ game (
 game (
 	name "Probotector (World) (Contra Anniversary Collection)"
 	rom ( name "Probotector (World) (Contra Anniversary Collection).gb" size 131072 crc 1C03C0EE md5 A6B8B5222F1CFC5162CE4FB1E29A8006 sha1 BC58585F8A1B2E27712AE5D44E3D851F4535A53F )
-)
-game (
-	name "Probotector 2 (Europe) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "Probotector 2 (Europe) (Beta) (SGB Enhanced).gb" size 131072 crc 7D60C005 md5 6E47B388DFFAE893FF1FC33CA552CF9A sha1 8F060253EA228C43D2992458DBF904A0B0D7B01E )
 )
 game (
 	name "Probotector 2 (Europe) (SGB Enhanced)"
@@ -7860,11 +7329,6 @@ game (
 	rom ( name "R-Type II (Europe).gb" size 131072 crc 2FE2A72D md5 967030223FA85F7BA4AC71F26837F831 sha1 F19436DFED41B9C2E94E070A76C5BDBCC7F993C3 )
 )
 game (
-	name "R-Type II (Europe) (Beta)"
-	region "Europe"
-	rom ( name "R-Type II (Europe) (Beta).gb" size 131072 crc E99FEC8D md5 DB8683DE91DD039783618B0873F3960E sha1 DA727E9541C9885365651FC6EECE3F0075A59FE4 )
-)
-game (
 	name "R-Type II (Japan) (En)"
 	region "Japan"
 	rom ( name "R-Type II (Japan) (En).gb" size 131072 crc 6002E291 md5 ACAC255E33082DDE52EEE7AF941D8681 sha1 28E13DB505CBB5C178002ACF02E5C0BFCFC6B08F )
@@ -7888,11 +7352,6 @@ game (
 	name "Race Drivin' (USA, Europe)"
 	region "USA"
 	rom ( name "Race Drivin' (USA, Europe).gb" size 131072 crc 6775CCD6 md5 74D409740CE00448D42B25EBB31E7BCD sha1 67111295FE2095861256B46E7417E4C1D115A6FE )
-)
-game (
-	name "Race Drivin' (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Race Drivin' (USA, Europe) (Beta).gb" size 131072 crc 8C217639 md5 9F53C54E829ECDBD15BAA3FAAFEBB25E sha1 E1E7DCE263D4A99EF04A7803F0E9BDC5D5DCE2ED )
 )
 game (
 	name "Racing Damashii (Japan)"
@@ -8027,11 +7486,6 @@ game (
 	rom ( name "Riddick Bowe Boxing (USA).gb" size 131072 crc FB5D24E0 md5 F72BA137F679BDE064E2E4E644C69B22 sha1 93A8A28244461B564E828CCA876821FB7A60FC89 )
 )
 game (
-	name "Riddick Bowe Boxing (USA) (Beta)"
-	region "USA"
-	rom ( name "Riddick Bowe Boxing (USA) (Beta).gb" size 131072 crc A07512A6 md5 702AE9F811D191B73ADC3F5FBCFA8AAA sha1 69685EAFFA523BF199BE0C540D9EB561BB27D584 )
-)
-game (
 	name "Rig Attack (World)"
 	rom ( name "Rig Attack (World) (Aftermarket) (Unl).gb" size 262144 crc DEA8749D md5 DD762C593D517101B6A64407EAC2F91A sha1 6F0FBAC6B6C2E8F2D8DF0A0A0E2F0C947E37B39A )
 )
@@ -8049,11 +7503,6 @@ game (
 	name "Road Rash (USA, Europe)"
 	region "USA"
 	rom ( name "Road Rash (USA, Europe).gb" size 131072 crc 88EDC83D md5 71AF355CBF7B8C7FE30F509803BBCED6 sha1 488E699490598234E762ECF864C75EDCB1BC6066 )
-)
-game (
-	name "Road Rash (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Road Rash (USA, Europe) (Beta).gb" size 131072 crc B1F7970A md5 647563DEB5535D2394D7F757571C7487 sha1 5B541ED8ED9585A0CFDDF214B6AC1512ED9DC540 )
 )
 game (
 	name "Roadster (Japan) (En)"
@@ -8145,11 +7594,6 @@ game (
 	rom ( name "Rockman World (Japan) (En).gb" size 262144 crc 3BE6AC04 md5 D0B1C550250C859F4563165EB29033D6 sha1 91318509322FBCD1E1E05B98243227377D8F31D5 )
 )
 game (
-	name "Rockman World (Japan) (En) (Beta)"
-	region "Japan"
-	rom ( name "Rockman World (Japan) (En) (Beta).gb" size 262144 crc D7356A4F md5 2B04DBC9B7DBDDD456F56282F36F58CE sha1 60C5C997B4B2C47D852520817228D2B8EFC2A33F )
-)
-game (
 	name "Rockman World 2 (Japan)"
 	region "Japan"
 	rom ( name "Rockman World 2 (Japan).gb" size 262144 crc C34D265E md5 C05B47DF8BDFE770BE228E51BC42DA84 sha1 5D35BAA2FADD07796ED8B441F82ED5B136A999C7 )
@@ -8179,11 +7623,6 @@ game (
 	rom ( name "Rodland (Europe).gb" size 65536 crc 6093F4EC md5 E4FCC98CF30AB2DB7D3C08F322667BE1 sha1 7865263ED508BFF8298444ECABEC55EFBB64190F )
 )
 game (
-	name "Rodland (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Rodland (Europe) (Beta).gb" size 65536 crc 4C157387 md5 17998C241EC03D97F0C9ECAC41F06DB1 sha1 6D6D77914E353E67C59627359BA092FB2EDD81B1 )
-)
-game (
 	name "Roger Clemens' MVP Baseball (USA)"
 	region "USA"
 	rom ( name "Roger Clemens' MVP Baseball (USA).gb" size 262144 crc 9DA8595B md5 89DAE4A6F82D2E603AF41A4499A3360B sha1 2B37B40AB05BEE2B23B30B898AF6197A35278C10 )
@@ -8199,19 +7638,9 @@ game (
 	rom ( name "Rolan's Curse (USA).gb" size 65536 crc 1A602590 md5 EBD1866DC6C13CA48F45538ED33EA46F sha1 D5EEB34B24691EB6895D3349A05E2A75D910CF16 )
 )
 game (
-	name "Rolan's Curse (USA) (Beta)"
-	region "USA"
-	rom ( name "Rolan's Curse (USA) (Beta).gb" size 65536 crc D9B226DB md5 9617C8BABF4D714A3CBF5C9E644A67FF sha1 A88C6EF7C505F5AE2753BC596F76244AC00C0F27 )
-)
-game (
 	name "Rolan's Curse II (USA)"
 	region "USA"
 	rom ( name "Rolan's Curse II (USA).gb" size 131072 crc 2754F360 md5 27F2C99B13CBDB5A5BE4AFCE87B9039B sha1 7632E23853DD2579012489F75BD370473F0F2C46 )
-)
-game (
-	name "Rolan's Curse II (USA) (Beta)"
-	region "USA"
-	rom ( name "Rolan's Curse II (USA) (Beta).gb" size 131072 crc BE7887B5 md5 6E3AD0B363BAD39886733B17A3E19015 sha1 D3235E508BB32730F6D22AD6C2D3BDB334822ACC )
 )
 game (
 	name "Roommate Simulator (World)"
@@ -8333,11 +7762,6 @@ game (
 	name "Same Game (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Same Game (Japan) (SGB Enhanced).gb" size 262144 crc 70393C0F md5 BDD6F3F98390202800751A4EA2A48C36 sha1 9DCB5A95E808423E6BD1149319CA8EDA069363C8 )
-)
-game (
-	name "Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced)"
-	region "USA"
-	rom ( name "Samurai Shodown (USA, Europe) (Beta) (SGB Enhanced).gb" size 524288 crc 90D51289 md5 CDD340A5F4E02C5D84D094FA0A06DB1A sha1 1DDB05F7237E792DDA9924AC0C525D8D1950CB44 )
 )
 game (
 	name "Samurai Shodown (USA, Europe) (SGB Enhanced)"
@@ -8598,11 +8022,6 @@ game (
 	rom ( name "Simpsons, The - Itchy & Scratchy - Miniature Golf Madness (USA, Europe).gb" size 131072 crc DDB147E5 md5 ED0A8885341EE6A201873B2038C87582 sha1 1DBB3EB39E0A2D695136880E6DD0557EB48EBF21 )
 )
 game (
-	name "Simpsons, The - Itchy & Scratchy - Miniature Golf Madness (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Simpsons, The - Itchy & Scratchy - Miniature Golf Madness (USA, Europe) (Beta).gb" size 131072 crc 948F64FE md5 7133284150E899FC2BCD2BEC719EAAA6 sha1 096AB846DC0B0A748D0F6EA20349DE0B69A7E5E4 )
-)
-game (
 	name "Skate or Die - Bad 'N Rad (Europe)"
 	region "Europe"
 	rom ( name "Skate or Die - Bad 'N Rad (Europe).gb" size 131072 crc AC1FB27A md5 FD6BD52147792817CBDDF37C454E8563 sha1 11508D5834EEA7352493D193A097C95E38EC4A55 )
@@ -8638,7 +8057,7 @@ game (
 	rom ( name "Small Town Emo (World) (2023-02-02) (Aftermarket) (Unl).gb" size 1048576 crc 813E588A md5 376C0F79DA62CC677817FE119C3DB2C4 sha1 AF35DC177EF1718B83E7D37797032FF82DE2131B )
 )
 game (
-	name "Small Town Emo (World)"
+	name "Small Town Emo (World) (Alt 1)"
 	releaseyear "2023"
 	releasemonth "04"
 	releaseday "07"
@@ -8748,11 +8167,6 @@ game (
 	rom ( name "Soccer Boy (Japan) (En).gb" size 65536 crc 23F64E82 md5 8C34E1879B4F81A22515D82AA9D0BB68 sha1 7554B42D1C38508FD615828C96AB58EA8F41DE4D )
 )
 game (
-	name "Soccer Boy (Japan) (En) (Beta)"
-	region "Japan"
-	rom ( name "Soccer Boy (Japan) (En) (Beta).gb" size 65536 crc A46F98D1 md5 A6E199044DD40DE06A7CC7CB1903711C sha1 22DB7C6096F285222AEFBFE413EFA1D21DE59731 )
-)
-game (
 	name "Soccer Mania (USA)"
 	region "USA"
 	rom ( name "Soccer Mania (USA).gb" size 65536 crc 6F87B543 md5 12454FBCB38432E26F280282E7196E73 sha1 6E641FEE2628E98890E579E3AB6574B1757B8D08 )
@@ -8800,10 +8214,6 @@ game (
 	rom ( name "Solution, A (World) (v1.0.5) (Aftermarket) (Unl).gb" size 524288 crc E43EFC6F md5 41DABD7D6C4B514BA208F61BA9C149EF sha1 BE67C9148D28DCBD6D36B4E1632EAD641C4C4F17 )
 )
 game (
-	name "Song of Morus - Gala of Battle (World) (En,Ja) (Beta) (Digital)"
-	rom ( name "Song of Morus - Gala of Battle (World) (En,Ja) (Beta) (Digital) (Aftermarket) (Unl).gb" size 262144 crc 665AD70A md5 4AE40F313DF9273C961CAC9B25E16BDE sha1 C5B6EB610CAA2213D8DB7AB204BAD44D60F7D63A )
-)
-game (
 	name "Song of Morus - Ghostly Night (World)"
 	releaseyear "2023"
 	releasemonth "05"
@@ -8811,7 +8221,7 @@ game (
 	rom ( name "Song of Morus - Ghostly Night (World) (2023-05-20) (Aftermarket) (Unl).gb" size 262144 crc FEED93E0 md5 0DBA2A8555C44FD7DCFA4A712353E7F4 sha1 721D78D4EF167ACFCC00BAF909DB4C94D522D681 )
 )
 game (
-	name "Song of Morus - Ghostly Night (World)"
+	name "Song of Morus - Ghostly Night (World) (Alt 1)"
 	releaseyear "2023"
 	releasemonth "06"
 	releaseday "08"
@@ -8846,11 +8256,6 @@ game (
 	name "Space Date (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Space Date (Europe) (Proto).gb" size 131072 crc 1C74A7BB md5 9C6535574996D4B95A7E8F074EC6376A sha1 084DC4C2179AEB93263144E1CED3BCBFF3E33178 )
-)
-game (
-	name "Space Invaders (Europe) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "Space Invaders (Europe) (Beta) (SGB Enhanced).gb" size 131072 crc 2D03DC38 md5 5401647A784DF1DCCED7E5FEAA38B37F sha1 6A2AF41DE10DBF6496B18963D904CC41D04BB970 )
 )
 game (
 	name "Space Invaders (Europe) (SGB Enhanced)"
@@ -8921,19 +8326,6 @@ game (
 	rom ( name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe).gb" size 131072 crc CBB2F22C md5 8833AE0FD3B4C47B8249A12708C98A98 sha1 D9687896481316D873046DACA43CC0E259C32929 )
 )
 game (
-	name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 1)"
-	region "USA"
-	rom ( name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 1).gb" size 131072 crc DDD8EAB3 md5 7D4A7D9315EB017C2AF3B22D6290DC26 sha1 08DC8867239FFA6BF31C61E568D0F29BEAB7955D )
-)
-game (
-	name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2)"
-	releaseyear "1993"
-	releasemonth "04"
-	releaseday "11"
-	region "USA"
-	rom ( name "Spider-Man 3 - Invasion of the Spider-Slayers (USA, Europe) (Beta 2) (1993-04-11).gb" size 131072 crc BF2D1F10 md5 0127C54D0BD22DB6ECDA3796E68861C6 sha1 34740DC60663EF33C42573A26E7B207F2CFE4A16 )
-)
-game (
 	name "Spiky Harold (World)"
 	rom ( name "Spiky Harold (World) (Aftermarket) (Unl).gb" size 524288 crc 2AC1B945 md5 E5190278DA9E7675533B2CFDBF5CFFC4 sha1 B8F37A64524BDE4C2B6E9A1938ED6E5C0A5AAD7C )
 )
@@ -8948,11 +8340,6 @@ game (
 	rom ( name "Spiritual Warfare (USA) (Unl).gb" size 262144 crc F7A961BA md5 37E017C8D1A45BAB609FB5B43FB64337 sha1 6E6AE5DBD8FF8B8F41B8411EF119E96E4ECF763F )
 )
 game (
-	name "Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "Spirou (Europe) (En,Fr,De,Es) (Beta) (SGB Enhanced).gb" size 262144 crc 35415A00 md5 378236DF6A7C686DFAA6743B63D1F757 sha1 556641FC79700C5CCB4F8FEAEC1D7FAFE99C31C4 )
-)
-game (
 	name "Spirou (Europe) (En,Fr,De,Es) (SGB Enhanced)"
 	region "Europe"
 	rom ( name "Spirou (Europe) (En,Fr,De,Es) (SGB Enhanced).gb" size 262144 crc 735B29E2 md5 5AA012CF540A5267D6ADEA6659764441 sha1 5EEF57753B7FAAE2B9710E38BE30662B0B77383A )
@@ -8961,51 +8348,6 @@ game (
 	name "Splitz (Europe)"
 	region "Europe"
 	rom ( name "Splitz (Europe).gb" size 65536 crc 112487C9 md5 9ECB13A68C8C58D90DD15157440D5B10 sha1 27A8C04BF7126D2B9F564B5F8F709C08817D9692 )
-)
-game (
-	name "Splitz (Europe) (Beta 1)"
-	releaseyear "1992"
-	releasemonth "08"
-	releaseday "11"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 1) (1992-08-11).gb" size 32768 crc 42A3AD84 md5 167D89C0C40679A325AC487D5B50A6B9 sha1 EFF9D8DD2F227E554F354BB52DB8DE3463C0BD04 )
-)
-game (
-	name "Splitz (Europe) (Beta 2)"
-	releaseyear "1992"
-	releasemonth "09"
-	releaseday "02"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 2) (1992-09-02).gb" size 131072 crc 2982EF38 md5 936F048130DA70E2FF6DC6F8F87B1961 sha1 C68FDDAA5EC7E4F535258D6FF92640E4EE23EB55 )
-)
-game (
-	name "Splitz (Europe) (Beta 3)"
-	releaseyear "1992"
-	releasemonth "10"
-	releaseday "28"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 3) (1992-10-28).gb" size 98304 crc 9FDF113C md5 9ACA6D99A37FD0C1B409FBDC2E360464 sha1 EEC46D9D1077C1C31EA64E902412BE87430D984A )
-)
-game (
-	name "Splitz (Europe) (Beta 4)"
-	releaseyear "1993"
-	releasemonth "01"
-	releaseday "19"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 4) (1993-01-19).gb" size 65536 crc 6CA9F06E md5 E7E228238420E585527F7140A1722B96 sha1 4ADCB454E7FFB6BE06E236A2C73244D668A0994B )
-)
-game (
-	name "Splitz (Europe) (Beta 5)"
-	releaseyear "1993"
-	releasemonth "02"
-	releaseday "17"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 5) (1993-02-17).gb" size 65536 crc 798468C3 md5 ACE0EF8AD2009695C5DE359A57C3E21E sha1 E9FEF0CA850C832370B4EF188FF31C5943CDB067 )
-)
-game (
-	name "Splitz (Europe) (Beta 6)"
-	region "Europe"
-	rom ( name "Splitz (Europe) (Beta 6).gb" size 131072 crc 5E8F955E md5 6ADD9BF46FD945F6635419AD60988334 sha1 5F36290557F23C48CA7F2F17A1AF9B691EDE5BFF )
 )
 game (
 	name "Splitz - Nigaoe 15 Game (Japan) (En)"
@@ -9109,11 +8451,6 @@ game (
 	name "Star Trek - The Next Generation (USA, Europe)"
 	region "USA"
 	rom ( name "Star Trek - The Next Generation (USA, Europe).gb" size 131072 crc 3A5A56CB md5 C9791E6CD453AEEF19C722924521D381 sha1 8A50EB7863BF6ABF329F218AEA8BBD354A1BD970 )
-)
-game (
-	name "Star Trek - The Next Generation (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Star Trek - The Next Generation (USA, Europe) (Beta).gb" size 131072 crc 7D259E57 md5 133DF46D4944261C84E8B411BEF8B2CC sha1 96A37EC4E3A75DABCDB76955DEAC3BAF99BA053F )
 )
 game (
 	name "Star Trek Generations - Beyond the Nexus (Europe) (SGB Enhanced)"
@@ -9281,9 +8618,9 @@ game (
 	rom ( name "Super Black Bass Pocket 2 (Japan) (SGB Enhanced).gb" size 1048576 crc 68A553B6 md5 D2CFE884E32423402FB7C71E319CF4ED sha1 86EC8D2E1A3151878B3D6A6C22D14A1AC7D26E39 )
 )
 game (
-	name "Super Bombliss (Japan) (SGB Enhanced)"
+	name "Super Bombliss (Japan) (En) (SGB Enhanced)"
 	region "Japan"
-	rom ( name "Super Bombliss (Japan) (SGB Enhanced).gb" size 131072 crc B503FFAD md5 FD01CB80C21DA79311461E8DA0E97891 sha1 8F44CD2D819A3CD0AB697E60939D5921E29609AC )
+	rom ( name "Super Bombliss (Japan) (En) (SGB Enhanced).gb" size 131072 crc B503FFAD md5 FD01CB80C21DA79311461E8DA0E97891 sha1 8F44CD2D819A3CD0AB697E60939D5921E29609AC )
 )
 game (
 	name "Super Breakout (USA)"
@@ -9447,11 +8784,6 @@ game (
 	rom ( name "Super Off Road (USA, Europe).gb" size 131072 crc 3E2810BE md5 85D05F95C07ED1B7D787062FE4D2E251 sha1 ACDE7750BCF99D7BB76B895534FDA43ECE222DFA )
 )
 game (
-	name "Super Off Road (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Super Off Road (USA, Europe) (Beta).gb" size 131072 crc 419A2AE3 md5 4072BD18C72755B15A3AE712202807FC sha1 742C33E45D3B79101D34FDC6537371AE96084235 )
-)
-game (
 	name "Super Pachinko Taisen (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Super Pachinko Taisen (Japan) (SGB Enhanced).gb" size 262144 crc CDE0FF00 md5 93BD30DC9A63696DC8A07F0353566FE7 sha1 642F4F6B043D8886D02552430BF3B3C87142AD2D )
@@ -9501,6 +8833,10 @@ game (
 	rom ( name "Sushi Gun (World) (Aftermarket) (Unl).gb" size 262144 crc A9D405D6 md5 B150EBB4EEF4643B9A392F41A0CD62E5 sha1 C075856939D4FE3CD250083B527B3E09BE70052D )
 )
 game (
+	name "Sushi Nights (World) (SGB Enhanced)"
+	rom ( name "Sushi Nights (World) (SGB Enhanced) (Aftermarket) (Unl).gb" size 131072 crc 971FF0B8 md5 0C08938E3A027ABD9CC185CA01A3C2A7 sha1 BD2D4F77EF3248ED29FB8CF2EA769C5ECDB12754 )
+)
+game (
 	name "Sutte Hakkun (Japan) (Proto) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Sutte Hakkun (Japan) (Proto) (SGB Enhanced).gb" size 262144 crc BEE3A291 md5 69C43603AD7718B7B2EC0C48B63CDC49 sha1 968F87C3479A571D8E3E82C76E0A2D1D490B349C )
@@ -9509,11 +8845,6 @@ game (
 	name "Suzuki Aguri no F-1 Super Driving (Japan)"
 	region "Japan"
 	rom ( name "Suzuki Aguri no F-1 Super Driving (Japan).gb" size 262144 crc E82692D9 md5 ADF6023F4BFC67CBBF09A42F0D0CE27A sha1 98D0E39251413F2F3BF2F001C48CCF88F27190BA )
-)
-game (
-	name "Suzuki Aguri no F-1 Super Driving (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Suzuki Aguri no F-1 Super Driving (Japan) (Beta).gb" size 262144 crc 7FE42A7F md5 E00F66BFF186E969F603A889DFA7E356 sha1 40F1280C87918307EBC2A3F2EC1CE9B66FF9A67B )
 )
 game (
 	name "Swamp Thing (USA, Europe)"
@@ -9528,11 +8859,6 @@ game (
 	name "Sword of Hope II, The (USA)"
 	region "USA"
 	rom ( name "Sword of Hope II, The (USA).gb" size 262144 crc 5B7FF38C md5 64F7F8AF18F75A9B3767E4637E693BE7 sha1 3CCB37FD8E6E39A9E8421EE6F1AE199B4586AFC1 )
-)
-game (
-	name "Sword of Hope II, The (USA) (Beta)"
-	region "USA"
-	rom ( name "Sword of Hope II, The (USA) (Beta).gb" size 262144 crc 5F717AFA md5 30E941AF5B21D0E462E3D00CBA0DF409 sha1 780F666105F1913E3CB2181F89C1035C7698AFB5 )
 )
 game (
 	name "Sword of Hope, The (Europe) (Proto)"
@@ -9558,14 +8884,6 @@ game (
 	name "Sword of Hope, The (USA)"
 	region "USA"
 	rom ( name "Sword of Hope, The (USA).gb" size 131072 crc 7E923846 md5 7138D95583FC38EE7B3CF18DE5E09E89 sha1 5F30147162E2A38DBB90A233F22DF0A6AA3D99FB )
-)
-game (
-	name "Sword of Hope, The (USA) (Beta)"
-	releaseyear "1990"
-	releasemonth "12"
-	releaseday "28"
-	region "USA"
-	rom ( name "Sword of Hope, The (USA) (Beta) (1990-12-28).gb" size 131072 crc 011F675A md5 A2431EACF48073F83BFC8E193C595F3E sha1 947A747B3669A43D330DDDB2EECDFCE0DEF09EEF )
 )
 game (
 	name "T2 - The Arcade Game (Japan) (En)"
@@ -9677,11 +8995,6 @@ game (
 	rom ( name "Taz-Mania (Europe).gb" size 131072 crc 0860B667 md5 BB922CE354FC5CAEC500F99985A07C39 sha1 C184E8E11EF2388C60B69D445A46FC22A11D175E )
 )
 game (
-	name "Taz-Mania (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Taz-Mania (Europe) (Beta).gb" size 131072 crc C3D85EF6 md5 0D3D2B3BBCA0A8D6F43968E12940B356 sha1 B31F8EC2A330D57EC7736E405833508CA8A98700 )
-)
-game (
 	name "Taz-Mania 2 (USA)"
 	region "USA"
 	rom ( name "Taz-Mania 2 (USA).gb" size 131072 crc 4CCB65E0 md5 985BF1D3FDF54038DBDE36FD372FBE2C sha1 60116A304E85F04209DC7EB64D9649DC41C963F6 )
@@ -9746,14 +9059,6 @@ game (
 	rom ( name "Teenage Mutant Ninja Turtles 2 (Japan) (En).gb" size 262144 crc 84E6FB25 md5 BC40E81C4DB84DD46F7B52C8BCCF49B8 sha1 27E254854D72195DE4BC5146D69D30CB3C10912A )
 )
 game (
-	name "Teenage Mutant Ninja Turtles 2 (Japan) (En) (Beta)"
-	releaseyear "1991"
-	releasemonth "05"
-	releaseday "20"
-	region "Japan"
-	rom ( name "Teenage Mutant Ninja Turtles 2 (Japan) (En) (Beta) (1991-05-20).gb" size 262144 crc 64A667A3 md5 6C11E7AD5B93D5EAB86957CBC5CBE853 sha1 864A686F74A22FF8D27DA511B08BBFBEF1BD563D )
-)
-game (
 	name "Teenage Mutant Ninja Turtles 2 (Japan) (En) (Cowabunga Collection, The)"
 	region "Japan"
 	rom ( name "Teenage Mutant Ninja Turtles 2 (Japan) (En) (Cowabunga Collection, The).gb" size 262144 crc 3E83ABD3 md5 04CCC6858164BC24C4EB0E6469164DC0 sha1 A05025F1840F27D4A12574FD6EE60E0B42C68ED8 )
@@ -9774,11 +9079,6 @@ game (
 	rom ( name "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA).gb" size 262144 crc 44F51C73 md5 0221DE99D11F50F79430C8FF9B430994 sha1 08AABD7BE3D4B78A8B124A58AFAE4FEC758B225F )
 )
 game (
-	name "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA) (Beta)"
-	region "USA"
-	rom ( name "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA) (Beta).gb" size 262144 crc EE25B752 md5 B051D85BF46335E0C00429ABB313C213 sha1 7FD1DF99ED3BC088C737F0EF8B7F0CAA95D73B65 )
-)
-game (
 	name "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA) (Cowabunga Collection, The)"
 	region "USA"
 	rom ( name "Teenage Mutant Ninja Turtles II - Back from the Sewers (USA) (Cowabunga Collection, The).gb" size 262144 crc 78B901D5 md5 3AE6B09A78535D902A5969CA99B9EE73 sha1 41C8ED509EC914E50F7E28601E0F6E5736DE90FB )
@@ -9794,11 +9094,6 @@ game (
 	rom ( name "Teenage Mutant Ninja Turtles III - Radical Rescue (USA) (Cowabunga Collection, The).gb" size 131072 crc 3A4D4B09 md5 AF400BB2773CCBFCEDFD1250CC801328 sha1 ADE406D5EC0F3253C4D3BE3B7507E027098F04A3 )
 )
 game (
-	name "Teenage Mutant Ninja Turtles III - Radical Rescue (USA) (Rev 1) (Beta)"
-	region "USA"
-	rom ( name "Teenage Mutant Ninja Turtles III - Radical Rescue (USA) (Rev 1) (Beta).gb" size 131072 crc CC465DA9 md5 656DF80C44A1CAD7CAE382D3BD94A74B sha1 A6FAD15711FD13851E6FB961728D523556C15A8B )
-)
-game (
 	name "Teke Teke! Asmik-kun World (Japan)"
 	region "Japan"
 	rom ( name "Teke Teke! Asmik-kun World (Japan).gb" size 65536 crc A817450D md5 563C4C81878DB48D8A0B6091F4C1CD92 sha1 389CC31472B87EC70E3EA6487F8AD9198887BB89 )
@@ -9812,14 +9107,6 @@ game (
 	name "Tekkyu Fight! - The Great Battle Gaiden (Japan)"
 	region "Japan"
 	rom ( name "Tekkyu Fight! - The Great Battle Gaiden (Japan).gb" size 131072 crc B8DA8EB5 md5 959834B1D0ACEFCF840134FAE4C49FDE sha1 06A6AB3BA59286772F915053CFCD6E1E873358B1 )
-)
-game (
-	name "Tekkyu Fight! - The Great Battle Gaiden (Japan) (Beta)"
-	releaseyear "1993"
-	releasemonth "04"
-	releaseday "12"
-	region "Japan"
-	rom ( name "Tekkyu Fight! - The Great Battle Gaiden (Japan) (Beta) (1993-04-12).gb" size 131072 crc EBBB6E14 md5 53E19693D3D1DFB2160E66742BACDB87 sha1 7B42C9C4F537DD74F5A9665F9D76D249FBFFAD58 )
 )
 game (
 	name "Tenchi o Kurau (Japan)"
@@ -9849,11 +9136,6 @@ game (
 	name "Tesserae (USA)"
 	region "USA"
 	rom ( name "Tesserae (USA).gb" size 32768 crc C77E316F md5 95517367DD10F6476BCB39A2329EF55A sha1 9506A7EA6664BB6C65DFCF0476F209B65D9306FB )
-)
-game (
-	name "Tesserae (USA) (Beta)"
-	region "USA"
-	rom ( name "Tesserae (USA) (Beta).gb" size 32768 crc C6F2D5FA md5 375D65B184EC4A689A6477C46363D224 sha1 D851E9C82EEB80AEBD85A9151FA3DB04D1FCAABF )
 )
 game (
 	name "Tetris (Japan) (En)"
@@ -9895,9 +9177,9 @@ game (
 	rom ( name "Tetris Blast (USA, Europe) (SGB Enhanced).gb" size 131072 crc 7BE5A73F md5 0AFFC9DF2E1220EA4573DEB6CB2D4B32 sha1 14DE1E47820B8AEF8475D1BA94EA3D49CC45D06C )
 )
 game (
-	name "Tetris Flash (Japan) (SGB Enhanced)"
+	name "Tetris Flash (Japan) (En) (SGB Enhanced)"
 	region "Japan"
-	rom ( name "Tetris Flash (Japan) (SGB Enhanced).gb" size 131072 crc 9DFCB385 md5 6776C3CF0EF69035529D05342F072446 sha1 EE30C75E068AEFE131B880D611D987C41A421470 )
+	rom ( name "Tetris Flash (Japan) (En) (SGB Enhanced).gb" size 131072 crc 9DFCB385 md5 6776C3CF0EF69035529D05342F072446 sha1 EE30C75E068AEFE131B880D611D987C41A421470 )
 )
 game (
 	name "Tetris Plus (Japan) (SGB Enhanced)"
@@ -9931,11 +9213,6 @@ game (
 	rom ( name "Tintin - Prisoners of the Sun (Europe) (En,Fr,De).gb" size 262144 crc 55FC585F md5 8FDFFDE2DB7F8DA5CDB60A49D77A6B32 sha1 A26A769AAC6060705F24C3E0DDE367B62962E921 )
 )
 game (
-	name "Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced)"
-	region "Europe"
-	rom ( name "Tintin in Tibet (Europe) (En,Es,It,Sv) (Beta) (SGB Enhanced).gb" size 262144 crc 68B7FCF2 md5 314884AD3AB74002863B3192796C1BE5 sha1 63070514F0A692CEF70E9344CA0A973F6AF510C9 )
-)
-game (
 	name "Tintin in Tibet (Europe) (En,Es,It,Sv) (SGB Enhanced)"
 	region "Europe"
 	rom ( name "Tintin in Tibet (Europe) (En,Es,It,Sv) (SGB Enhanced).gb" size 262144 crc 7A7D820F md5 8E71BF57156F52E57BB593966728D6EC sha1 A69BEE8C26A520B648A780C67E4A73D54E1BF812 )
@@ -9951,25 +9228,9 @@ game (
 	rom ( name "Tiny Toon Adventures (Japan).gb" size 131072 crc FB13462B md5 1CEB3148A1B68B2BA9EADA0393F987FC sha1 08948315649160C62546F541F173808595F75149 )
 )
 game (
-	name "Tiny Toon Adventures (Japan) (Beta)"
-	releaseyear "1991"
-	releasemonth "07"
-	releaseday "16"
-	region "Japan"
-	rom ( name "Tiny Toon Adventures (Japan) (Beta) (1991-07-16).gb" size 131072 crc 4E4A17B5 md5 454E1F0A2AF6070B408694E7E05482BE sha1 CB9753ABD9F5BA69F310D7309A2A824CAAFA7F54 )
-)
-game (
 	name "Tiny Toon Adventures - Babs' Big Break (USA, Europe)"
 	region "USA"
 	rom ( name "Tiny Toon Adventures - Babs' Big Break (USA, Europe).gb" size 131072 crc 9B5E6219 md5 CBB45188C780CE5BBDF502CEB2B9994A sha1 7BAA81C93EA86A5DDB9B26545A446FE9B8979590 )
-)
-game (
-	name "Tiny Toon Adventures - Babs' Big Break (USA, Europe) (Beta)"
-	releaseyear "1991"
-	releasemonth "09"
-	releaseday "06"
-	region "USA"
-	rom ( name "Tiny Toon Adventures - Babs' Big Break (USA, Europe) (Beta) (1991-09-06).gb" size 131072 crc 7BF96CA9 md5 707E941E70F9A0C3DBD112CBF4C88F36 sha1 2D15917713D9F7BA62B6B54B4BD845617515E847 )
 )
 game (
 	name "Tiny Toon Adventures - Wacky Sports (Europe)"
@@ -10000,24 +9261,6 @@ game (
 	name "Tip Off (Europe)"
 	region "Europe"
 	rom ( name "Tip Off (Europe).gb" size 131072 crc EAF523EC md5 A617CA41254CC6DF7B82FA18E411010D sha1 A43EE2C068053E49DFC6E22A0CD781DF357905EC )
-)
-game (
-	name "Tip Off (Europe) (Beta 1)"
-	region "Europe"
-	rom ( name "Tip Off (Europe) (Beta 1).gb" size 131072 crc 842061F3 md5 DFCA8240E0E90F741E8C32A5173AE9FB sha1 97126504BCC3FDC251287E9C7990720A5186D97A )
-)
-game (
-	name "Tip Off (Europe) (Beta 2)"
-	releaseyear "1992"
-	releasemonth "11"
-	releaseday "10"
-	region "Europe"
-	rom ( name "Tip Off (Europe) (Beta 2) (1992-11-10).gb" size 131072 crc 3040C308 md5 5DF1A8FCC6E4B05779C8E12F300CB1FE sha1 DE2DFC28E57FDA7552600E9ADD92BC8277ABCFF8 )
-)
-game (
-	name "Tip Off (Europe) (Beta 3)"
-	region "Europe"
-	rom ( name "Tip Off (Europe) (Beta 3).gb" size 131072 crc 2186E3F6 md5 CBAB48CA1DFFC834B4E334861498610D sha1 F913A5CA8CBD4BBA4AD6361ECDEF6A5DADFE669A )
 )
 game (
 	name "Tip Off (USA) (Proto)"
@@ -10065,11 +9308,6 @@ game (
 	name "Tom and Jerry - Frantic Antics! (USA, Europe)"
 	region "USA"
 	rom ( name "Tom and Jerry - Frantic Antics! (USA, Europe).gb" size 131072 crc C2DBD1AA md5 CB61AFD7708D90D976F585EDEBCAAA89 sha1 9F8ADF286E5CE5868C758B1C2F195EF596A3DF2B )
-)
-game (
-	name "Tom and Jerry - Frantic Antics! (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Tom and Jerry - Frantic Antics! (USA, Europe) (Beta).gb" size 131072 crc 4415CC6B md5 7E5CD07CCB647C0C281309630D70AF68 sha1 56DD5F7346EA60E6D5E081462C4FA73389777494 )
 )
 game (
 	name "Tom to Jerry (Japan) (En)"
@@ -10165,11 +9403,6 @@ game (
 	rom ( name "Track Meet (USA, Europe).gb" size 131072 crc 7B5DC3E4 md5 9AB4E706B5DD1BB68B4E29A0174C330D sha1 5ECB205B1B85F6C88D36386BE071A6473DE87221 )
 )
 game (
-	name "Track Meet (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Track Meet (USA, Europe) (Beta).gb" size 131072 crc 4276978C md5 2D0DB8848754773C85EF1D9EAB7318C9 sha1 4D4991F093507BDE900458D36584E99627D0253E )
-)
-game (
 	name "Track Meet - Mezase! Barcelona (Japan) (En)"
 	region "Japan"
 	rom ( name "Track Meet - Mezase! Barcelona (Japan) (En).gb" size 131072 crc 48D37CD2 md5 2EBBF49D18833D07D6DAE4E128CA1136 sha1 0F60CED77232215D86B9C4555CAF9880CCE008B7 )
@@ -10258,11 +9491,6 @@ game (
 	rom ( name "Tsumeshougi - Hyakuban Shoubu (Japan).gb" size 65536 crc 43E2A5C0 md5 FE739C4BFDF652AF8D09ED778C429480 sha1 257A73694A6535AAFA58D346B06D2EE386989578 )
 )
 game (
-	name "Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced)"
-	region "Japan"
-	rom ( name "Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced).gb" size 131072 crc 9995EE1A md5 B0AFDADB0804B98CD2BA41E2C59E251F sha1 EAE6CDB4425DDAE51BEE0E7D0AA956B72E897743 )
-)
-game (
 	name "Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced)"
 	region "Japan"
 	rom ( name "Tsumeshougi - Kanki Godan (Japan) (SGB Enhanced).gb" size 131072 crc D5434C94 md5 F44BD95417B6A3D229282B0F5FB9BD53 sha1 2E54FAF9F97B6E590CAACB26294BDAFE40CA7214 )
@@ -10326,11 +9554,6 @@ game (
 	rom ( name "TwinBee da!! (Japan).gb" size 131072 crc 017FD6F5 md5 0325E6464931DCE2A777635E71EEE877 sha1 8F1C54D2116118BA085B384A01EA0C410AD2DEAC )
 )
 game (
-	name "TwinBee da!! (Japan) (Beta)"
-	region "Japan"
-	rom ( name "TwinBee da!! (Japan) (Beta).gb" size 131072 crc 60065DC3 md5 454F4506873737EECE69FAB4AA60EED7 sha1 7F09F11F3E2EA3AA2C32AD55A6778D8E176127D0 )
-)
-game (
 	name "Uchiiwai - Kyoudaijingi no Puzzle Game (Japan)"
 	region "Japan"
 	rom ( name "Uchiiwai - Kyoudaijingi no Puzzle Game (Japan).gb" size 65536 crc 8059BC15 md5 EB43C1DF87041D6B82E789A2B46927BE sha1 8992F55380B6AE7DA14DCC3B3158C5C160953A1C )
@@ -10371,14 +9594,6 @@ game (
 	rom ( name "Ultra Golf (USA).gb" size 131072 crc 12DE9BAC md5 0A1CBC05D75C2BD3E01AAD3ACB4E4019 sha1 A20C0A995A91B20646564965705FAD129474E9BF )
 )
 game (
-	name "Ultra Golf (USA) (Beta)"
-	releaseyear "1991"
-	releasemonth "11"
-	releaseday "20"
-	region "USA"
-	rom ( name "Ultra Golf (USA) (Beta) (1991-11-20).gb" size 131072 crc D9DDB091 md5 6550D03ED6C62FADE08CA7647E57A068 sha1 B29E5DA6F794A010D858F4398DA85145F20D8C55 )
-)
-game (
 	name "Ultraman (Japan)"
 	region "Japan"
 	rom ( name "Ultraman (Japan).gb" size 131072 crc 5944C3ED md5 1B5AEBB54D59121D8DC3188929295607 sha1 A4FBE124B257109BA9566FAE59AC008F52317F2D )
@@ -10407,6 +9622,10 @@ game (
 	name "Undercover Cops Gaiden - Hakaishin Garumaa (Japan)"
 	region "Japan"
 	rom ( name "Undercover Cops Gaiden - Hakaishin Garumaa (Japan).gb" size 262144 crc B7AF37F5 md5 5294A5FED7E88A6F76707979C83017D6 sha1 E391EA099CE371EEF858D57E6C2DA63A25944472 )
+)
+game (
+	name "Unearthed OST (World) (Album)"
+	rom ( name "Unearthed OST (World) (Album) (Aftermarket) (Unl).gb" size 262144 crc 4249E80C md5 E66611E0D727F481F11B89CD5E6BC242 sha1 D602B612CEE4B45B3D5B88A3F00D38BF8B6AD0C8 )
 )
 game (
 	name "Universal Soldier (USA, Europe)"
@@ -10481,11 +9700,6 @@ game (
 	name "Virtual Wars (Japan)"
 	region "Japan"
 	rom ( name "Virtual Wars (Japan).gb" size 131072 crc 220BBCB6 md5 0B72B9F0C2CE0B832C650BBCC974B023 sha1 CB256EE50FB5106C84D96F2F23CF18DE3AFBD276 )
-)
-game (
-	name "Vitamina Oukoku Monogatari (Japan)"
-	region "Japan"
-	rom ( name "Vitamina Oukoku Monogatari (Japan).gb" size 262144 crc 89A7AECA md5 D3D63BF466E63AF0601016F87FFC3EE2 sha1 D4195257A2DEBE78AA4DD433A324AEC335AD36D1 )
 )
 game (
 	name "Volley Fire (Japan)"
@@ -10639,11 +9853,6 @@ game (
 	rom ( name "Winter Olympic Games (USA).gb" size 131072 crc 1A98F0A4 md5 C593B63CBD4B151A2FD1861C73634B0A sha1 95D664A8A0B74D6993501847D4CE065913BD1E08 )
 )
 game (
-	name "Winter Olympic Games (USA) (Rev 1) (Beta)"
-	region "USA"
-	rom ( name "Winter Olympic Games (USA) (Rev 1) (Beta).gb" size 131072 crc 1510305E md5 8B7CD9501263BFF7EA31389D78DF8CA4 sha1 6F66DC2AB6F302251591A1252BE12367A8E8DFE4 )
-)
-game (
 	name "Wishing Sarah (World) (Pt-BR) (v1.1)"
 	rom ( name "Wishing Sarah (World) (Pt-BR) (v1.1) (Aftermarket) (Unl).gb" size 524288 crc AB6CF21E md5 F7EBA1C53B02624852DAEA423A71C4EA sha1 575B8B0F6FDB2D41623E7F2FE9902C87236F1A36 )
 )
@@ -10689,11 +9898,6 @@ game (
 	rom ( name "WordZap (USA).gb" size 65536 crc E8E57B50 md5 E9AB23A96409060054A05344B536B33C sha1 3B38771E97EB6CD5E053AC8908482F59DC07248B )
 )
 game (
-	name "WordZap (USA) (Beta)"
-	region "USA"
-	rom ( name "WordZap (USA) (Beta).gb" size 65536 crc 22039DAA md5 CBBC637E7C1F6473EF5C07D9071B50AE sha1 AF152E5F71127CEB82F77771CFD6A8A8D477DA33 )
-)
-game (
 	name "Wordtris (Europe) (Proto)"
 	region "Europe"
 	rom ( name "Wordtris (Europe) (Proto).gb" size 131072 crc 46AEE47A md5 95FE4D5F8DA42DACBA0818BB7C2D786E sha1 5DB53A3A00DA1A70E0205EECA4CCD20087D69E66 )
@@ -10714,11 +9918,6 @@ game (
 	rom ( name "Wordtris (USA).gb" size 131072 crc 075A8231 md5 29C71C474C2FA00EEAC79DDB55C2C174 sha1 AB68498646FB2CA1DF9443E6A80062C30B3EA4F9 )
 )
 game (
-	name "Wordtris (USA) (Beta)"
-	region "USA"
-	rom ( name "Wordtris (USA) (Beta).gb" size 131072 crc C2D7D11B md5 C18BD7C4F672EFE33DFF72A5DACD3284 sha1 97544A78925F6BB095C7B2F14878B2E1467DC7D1 )
-)
-game (
 	name "WorkBoy (USA) (Proto)"
 	region "USA"
 	rom ( name "WorkBoy (USA) (Proto).gb" size 131072 crc E81EC588 md5 9CBD5FF8FF720DFDF4580338626D353B sha1 5B20683D09BC3BB57DFDD0EA8B9FA5EDA620014F )
@@ -10732,11 +9931,6 @@ game (
 	name "World Beach Volley - 1992 GB Cup (Europe)"
 	region "Europe"
 	rom ( name "World Beach Volley - 1992 GB Cup (Europe).gb" size 131072 crc 4023E085 md5 54CDFD90C8038846714643B2A68C6BB8 sha1 0D98DD2A489D0C26F153203E14D5997EB2365847 )
-)
-game (
-	name "World Beach Volley - 1992 GB Cup (Europe) (Beta)"
-	region "Europe"
-	rom ( name "World Beach Volley - 1992 GB Cup (Europe) (Beta).gb" size 131072 crc D654CBCD md5 4BA0AC0DFB3BCEE737DB0971105F468C sha1 011555CECB84616EB32F25C7DB203BB82874292A )
 )
 game (
 	name "World Bowling (Japan) (En)"
@@ -11062,19 +10256,14 @@ game (
 	rom ( name "Zoop (USA, Europe).gb" size 65536 crc 14F8B6BB md5 2387654E0E8E63BFC5F85D9BD7AA6AC3 sha1 1E0390D456066B9FBE1FAFF5F7404D4593A2B839 )
 )
 game (
-	name "Zoop (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Zoop (USA, Europe) (Beta).gb" size 65536 crc 7B440074 md5 D526AA32FB92D3721A16D79527BCACC1 sha1 97A6EA993BF5B64E38E3BC0ADAF5965B442C9CEE )
+	name "Zuigao Jimi (Top Secret) (Taiwan)"
+	region "Taiwan"
+	rom ( name "Zuigao Jimi (Top Secret) (Taiwan) (Unl).gb" size 65536 crc 46402ABE md5 31749EBD037D4D83C91255DD9A7482C5 sha1 7AFCC6DD82BB236F1EBE01C9B5CCAD4D713CCBCF )
 )
 game (
 	name "Zuigao Jimi (Top Secret) (Taiwan) (Multicart Rip)"
 	region "Taiwan"
 	rom ( name "Zuigao Jimi (Top Secret) (Taiwan) (Multicart Rip) (Unl).gb" size 65536 crc F5F8D0B3 md5 EFE8EFADCF735FFA0F0BF85F1B1C5F7E sha1 BE706D1B46FA1DE966F0B3B08E85399177EB148C )
-)
-game (
-	name "Zuigao Jimi (Top Secret) (Taiwan)"
-	region "Taiwan"
-	rom ( name "Zuigao Jimi (Top Secret) (Taiwan) (Unl).gb" size 65536 crc 46402ABE md5 31749EBD037D4D83C91255DD9A7482C5 sha1 7AFCC6DD82BB236F1EBE01C9B5CCAD4D713CCBCF )
 )
 game (
 	name "ever - Lucid Space Program (World)"
@@ -11083,11 +10272,6 @@ game (
 game (
 	name "radioRealm (World) (Ja)"
 	rom ( name "radioRealm (World) (Ja) (Aftermarket) (Unl).gb" size 131072 crc 71375A39 md5 C99E0DFF23C030EC8F7BE07557B94A66 sha1 489C8835C36A08F1D76A0653BF6EDE3BBF53043F )
-)
-game (
-	name "seaQuest DSV (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "seaQuest DSV (USA, Europe) (Beta).gb" size 262144 crc 229AEE8E md5 5683738A97C8DE47B1C485BDDF97B46B sha1 0DBE828E797458A99A37E93BBD34D2547D99523C )
 )
 game (
 	name "seaQuest DSV (USA, Europe) (SGB Enhanced)"

@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 7800"
 	description "Atari - 7800"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "a78"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -236,14 +237,14 @@ game (
 	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC).a78" size 65664 crc FA3E8CBB md5 934A3EE1AE7F9D740C868064862DA318 sha1 CADBB92D59D373C6F04420319EAF3CB448103B0E )
 )
 game (
-	name "F-18 Hornet [b2]"
-	releaseyear "1988"
-	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC)[b2].a78" size 49280 crc 78A02F88 md5 F80F02445676F6D26CB77583D189AA0A sha1 B9B673C6CC4ABC1F1BFB0D27D07BE72B9976A1DD )
-)
-game (
 	name "F-18 Hornet (PAL)"
 	releaseyear "1988"
 	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(PAL).a78" size 65664 crc 799F3F3D md5 4F6D09B0221636B56014E4756F4A9B17 sha1 8F76D508C35F94DDDAEA0B70B7B0CB81E33A6291 )
+)
+game (
+	name "F-18 Hornet [b2]"
+	releaseyear "1988"
+	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC)[b2].a78" size 49280 crc 78A02F88 md5 F80F02445676F6D26CB77583D189AA0A sha1 B9B673C6CC4ABC1F1BFB0D27D07BE72B9976A1DD )
 )
 game (
 	name "Fatal Run"
@@ -596,14 +597,14 @@ game (
 	rom ( name "Scrapyard Dog (1990)(Atari)(PAL).a78" size 131200 crc B435A5CB md5 C3B2F0F462DBBF66D0C8C5C6E457D603 sha1 39D2388D4B68C04B905EAA2E5456769DA60C11BD )
 )
 game (
-	name "Sentinel (Proto)"
-	releaseyear "1990"
-	rom ( name "Sentinel (1990)(Atari)(NTSC)(proto).a78" size 131200 crc 51DF6E83 md5 A3D62D98DBD93D43D3AC04FBB35EF1F9 sha1 BFBF9BE9AD0788F5C54428CC70CA8B75816EB4A9 )
-)
-game (
 	name "Sentinel (PAL)"
 	releaseyear "1991"
 	rom ( name "Sentinel (1991)(Atari)(PAL).a78" size 131200 crc 4C779065 md5 37AA591E7000539AA64726DE5A8BAD92 sha1 FB504FEC071574D0A33D495C34A467FBB10B2BED )
+)
+game (
+	name "Sentinel (Proto)"
+	releaseyear "1990"
+	rom ( name "Sentinel (1990)(Atari)(NTSC)(proto).a78" size 131200 crc 51DF6E83 md5 A3D62D98DBD93D43D3AC04FBB35EF1F9 sha1 BFBF9BE9AD0788F5C54428CC70CA8B75816EB4A9 )
 )
 game (
 	name "Summer Games"
@@ -616,14 +617,14 @@ game (
 	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC).a78" size 49280 crc 033A6058 md5 0D5208D60C0A2FD23A09939C6C0FE3A3 sha1 9BDBC4D628F06E425D50A4E2A67CC7806360D94D )
 )
 game (
-	name "Super Huey UH-1X (Alt 2)"
-	releaseyear "1988"
-	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC)[a2].a78" size 49280 crc 629D1032 md5 324A08B67016600E5BD21218AA3E84F8 sha1 58E1A65114689E526AD89A4A47E237161D15AB2B )
-)
-game (
 	name "Super Huey UH-1X (Alt 1)"
 	releaseyear "1988"
 	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC)[a].a78" size 49280 crc F1991B27 md5 81B81DD6239255BE35C1D9BD2CE701C6 sha1 8FE3620DE6D630E8A1AEB30291940F7589532956 )
+)
+game (
+	name "Super Huey UH-1X (Alt 2)"
+	releaseyear "1988"
+	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC)[a2].a78" size 49280 crc 629D1032 md5 324A08B67016600E5BD21218AA3E84F8 sha1 58E1A65114689E526AD89A4A47E237161D15AB2B )
 )
 game (
 	name "Super Huey UH-1X (PAL)"
@@ -681,14 +682,14 @@ game (
 	rom ( name "Tower Toppler (1988)(Atari)(NTSC).a78" size 65664 crc F701BD43 md5 252515A9FEA1976A99167A40DF1E77A3 sha1 E4B5A0DD8BFC9319289076EF0AA4543D94019E5C )
 )
 game (
-	name "Tower Toppler [o]"
-	releaseyear "1988"
-	rom ( name "Tower Toppler (1988)(Atari)(NTSC)[o].a78" size 131200 crc C915F181 md5 55C33C7AAC3B31936312A1697B0263B3 sha1 7C5E2A16E8C8D88B044E5FF26355C56510830188 )
-)
-game (
 	name "Tower Toppler (PAL)"
 	releaseyear "1988"
 	rom ( name "Tower Toppler (1988)(Atari)(PAL).a78" size 65664 crc B9269ACB md5 36575046957046486396E943D10FEF9F sha1 601818803CA6CFA55B7C0154FC9841001D7B379F )
+)
+game (
+	name "Tower Toppler [o]"
+	releaseyear "1988"
+	rom ( name "Tower Toppler (1988)(Atari)(NTSC)[o].a78" size 131200 crc C915F181 md5 55C33C7AAC3B31936312A1697B0263B3 sha1 7C5E2A16E8C8D88B044E5FF26355C56510830188 )
 )
 game (
 	name "Water Ski"

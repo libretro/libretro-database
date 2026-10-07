@@ -1,10 +1,17 @@
 clrmamepro (
 	name "Nintendo - Nintendo 64DD"
 	description "Nintendo - Nintendo 64DD"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "ndd"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
+game (
+	name "Dezaemon DD (Japan) (Proto) (1998-02-23T192425) (Expansion)"
+	region "Japan"
+	serial "DEZA"
+	rom ( name "Dezaemon DD (Japan) (Proto) (1998-02-23T192425) (Expansion).ndd" size 64931840 crc 07A920F7 md5 40AA8EC52C5E025D6C6AD94CEBC2218F sha1 F0B3E6C0A944118E4A8EE8EA54DA1B103B754241 serial "DEZA" )
+)
 game (
 	name "Dezaemon DD (Japan) (Proto) (Expansion)"
 	releaseyear "1997"
@@ -13,12 +20,6 @@ game (
 	region "Japan"
 	serial "DEZA"
 	rom ( name "Dezaemon DD (Japan) (Proto) (1997-11-07) (Expansion).ndd" size 64931840 crc 23FB971E md5 C108A9B1EB024F0D2317C05976BA49F2 sha1 75E7C3C7821C898D19B443A317408CBF1C8647B8 serial "DEZA" )
-)
-game (
-	name "Dezaemon DD (Japan) (Proto) (1998-02-23T192425) (Expansion)"
-	region "Japan"
-	serial "DEZA"
-	rom ( name "Dezaemon DD (Japan) (Proto) (1998-02-23T192425) (Expansion).ndd" size 64931840 crc 07A920F7 md5 40AA8EC52C5E025D6C6AD94CEBC2218F sha1 F0B3E6C0A944118E4A8EE8EA54DA1B103B754241 serial "DEZA" )
 )
 game (
 	name "F-Zero X - Expansion Kit (Japan)"
@@ -45,15 +46,6 @@ game (
 	rom ( name "Mario Artist - Paint Studio (Japan).ndd" size 64931840 crc B732C3AD md5 8485643E5830CD67ED4C0A5FD49E2491 sha1 9997E6F118C72F265EB648F18FAA48C3A416FB3B serial "DMPJ" )
 )
 game (
-	name "Mario Artist - Paint Studio (Japan) (Beta)"
-	releaseyear "1999"
-	releasemonth "02"
-	releaseday "11"
-	region "Japan"
-	serial "TEST"
-	rom ( name "Mario Artist - Paint Studio (Japan) (Beta) (1999-02-11).ndd" size 64931840 crc 5CB44F5D md5 A76B619EC832A7E2ABCFBDFEB5375E39 sha1 DDEAF740AADD928A9BBF9CFEAEC4C0EA80B75AB2 serial "TEST" )
-)
-game (
 	name "Mario Artist - Polygon Studio (Japan)"
 	region "Japan"
 	serial "DMGJ"
@@ -64,51 +56,6 @@ game (
 	region "Japan"
 	serial "DMTJ"
 	rom ( name "Mario Artist - Talent Studio (Japan).ndd" size 64931840 crc 649BBCB1 md5 88228E990B58A94E9B3460BEFF632304 sha1 24CA7508157466E5D289EE49C2C714806D1ECCE2 serial "DMTJ" )
-)
-game (
-	name "Mario Artist - Talent Studio (Japan) (Beta)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "05"
-	region "Japan"
-	serial "DMTJ"
-	rom ( name "Mario Artist - Talent Studio (Japan) (Beta) (1999-08-05).ndd" size 64931840 crc 9CBA9F11 md5 480411A69176FEE1B48D78AAB0EF7999 sha1 BBF33C473FE4892BD362E541CED7393E1E36FD99 serial "DMTJ" )
-)
-game (
-	name "Randnet Disk (Japan) (Beta)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "28"
-	region "Japan"
-	serial "DRDJ"
-	rom ( name "Randnet Disk (Japan) (Beta) (1999-09-28).ndd" size 64931840 crc 7B656D1B md5 CE2E8F4FF1AC546FAD5DC51882E8602F sha1 644DD6D0E0D8E17E0B8C0AACA28414EB30FEE593 serial "DRDJ" )
-)
-game (
-	name "Randnet Disk (Japan) (Beta)"
-	releaseyear "1999"
-	releasemonth "11"
-	releaseday "27"
-	region "Japan"
-	serial "DRDJ"
-	rom ( name "Randnet Disk (Japan) (Beta) (1999-11-27).ndd" size 64931840 crc E662A13F md5 6252D9A42C125E3FCE3D0F0969CD0737 sha1 07C1A0FD0FFAAEE8FAA9353CF9A9B06F1D6CDCD4 serial "DRDJ" )
-)
-game (
-	name "Randnet Disk (Japan) (Beta)"
-	releaseyear "2000"
-	releasemonth "02"
-	releaseday "04"
-	region "Japan"
-	serial "DRDJ"
-	rom ( name "Randnet Disk (Japan) (Beta) (2000-02-04).ndd" size 64931840 crc B6E64180 md5 CAC02C151550C150AAF3A0C921F7AD37 sha1 2187279292AAD2970CC4D0438D0CED49D1DA20B5 serial "DRDJ" )
-)
-game (
-	name "Randnet Disk (Japan) (Beta)"
-	releaseyear "2000"
-	releasemonth "02"
-	releaseday "17"
-	region "Japan"
-	serial "DRDJ"
-	rom ( name "Randnet Disk (Japan) (Beta) (2000-02-17).ndd" size 64931840 crc 97E22C11 md5 7EFF488EC5BF269BDCB53E38D28D1BA2 sha1 3660C8DB66454EF15A6E6FF665A0A21EB04FE8E8 serial "DRDJ" )
 )
 game (
 	name "SimCity 64 (Japan)"

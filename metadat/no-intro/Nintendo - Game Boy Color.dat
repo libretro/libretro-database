@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Game Boy Color"
 	description "Nintendo - Game Boy Color"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "gbc"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -404,19 +405,6 @@ game (
 	rom ( name "Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl).gbc" size 4194304 crc 7FF2042F md5 30EC849758F703D7071E2AC28E048101 sha1 818259159B5E7D3775584B478D4FD36F6A25FCAA )
 )
 game (
-	name "Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "Alone in the Dark - The New Nightmare (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 4194304 crc 7C101475 md5 EF451D968A8D2494840385C85C128E6F sha1 120E2DD012CFE47A7E37CC91FCBBCE92494BDF2A )
-)
-game (
-	name "Alone in the Dark - The New Nightmare (USA) (Beta)"
-	releaseyear "2001"
-	releasemonth "02"
-	releaseday "21"
-	region "USA"
-	rom ( name "Alone in the Dark - The New Nightmare (USA) (Beta) (2001-02-21).gbc" size 4194304 crc 3821D140 md5 5A021B40CCC17A66465DAB276BF06CBE sha1 FC2A7DBE5FF60E2704AC78F83D6B6DF2BF9DCC97 )
-)
-game (
 	name "Alone in the Dark - The New Nightmare (USA) (En,Fr,Es)"
 	region "USA"
 	rom ( name "Alone in the Dark - The New Nightmare (USA) (En,Fr,Es).gbc" size 4194304 crc C145C036 md5 D97055E4A2FD4624FC924C4834ACE35E sha1 A348AEAC500D0D8FDAF90F5277631A026504FF44 )
@@ -458,11 +446,6 @@ game (
 	name "Anpfiff - Der RTL Fussball-Manager (Germany)"
 	region "Germany"
 	rom ( name "Anpfiff - Der RTL Fussball-Manager (Germany).gbc" size 1048576 crc B54D264A md5 D55433C70617D18BB078426E8CD99708 sha1 4C5BD67EEE82A36CF695DB12169BC4393225FAA0 )
-)
-game (
-	name "Antz (Europe) (En,Fr,De,Es,It,Nl) (Beta) (GB Compatible)"
-	region "Europe"
-	rom ( name "Antz (Europe) (En,Fr,De,Es,It,Nl) (Beta) (GB Compatible).gbc" size 524288 crc F287FC49 md5 A1CF50DA360D45D78075AE48313A18FA sha1 99818CD3DC4BFE61BF0095856A0F443AFAE89ACF )
 )
 game (
 	name "Antz (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)"
@@ -895,14 +878,6 @@ game (
 	rom ( name "Beach'n Ball (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc 82D1A721 md5 576E3A9D7DA60439C8FB28C81B56FE5A sha1 90C0AB55136235D75A4E35BD5B0D90A99D2A42C4 )
 )
 game (
-	name "Beach'n Ball (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2000"
-	releasemonth "11"
-	releaseday "21"
-	region "Europe"
-	rom ( name "Beach'n Ball (Europe) (En,Fr,De,Es,It) (Beta) (2000-11-21).gbc" size 1048576 crc A56180A8 md5 89DE6D072A545F21FB6390F3B9E007D9 sha1 FAAF82512AD3F5429ACF401D9E74D7016252E263 )
-)
-game (
 	name "Beast Fighter (Taiwan) (En) (Sachen)"
 	region "Taiwan"
 	rom ( name "Beast Fighter (Taiwan) (En) (Sachen) (Unl).gbc" size 131072 crc 0BC7A3C6 md5 A1D7687A557DD2A3948C9F498703F4A3 sha1 BB76BC7EA3482E775EFDBBF112455921D11AC317 )
@@ -1054,6 +1029,10 @@ game (
 	rom ( name "Block Droppin' (World) (v1.1) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 7E8EC278 md5 F853150641026ABF3C66DBFB65DA428F sha1 6E8577C68402888A3244F153909A959F701ECA0E )
 )
 game (
+	name "Bloxorz (World) (GB Compatible)"
+	rom ( name "Bloxorz (World) (GB Compatible) (Aftermarket) (Unl).gbc" size 32768 crc B533C6D7 md5 98BEC6EEAD2D78CB710AC54D6D9095BD sha1 5A2F3C1557E0ACBA454617CC26D0094D7B8DD727 )
+)
+game (
 	name "Blue's Clues - Blue's Alphabet Book (USA)"
 	region "USA"
 	rom ( name "Blue's Clues - Blue's Alphabet Book (USA).gbc" size 1048576 crc 748D1345 md5 6AF9BB4957485A0F5CEBC9B44E805392 sha1 F703B54746CB2EF08DEBA2518CE7B7A3836142AA )
@@ -1165,16 +1144,6 @@ game (
 	name "Bomberman Selection (Korea)"
 	region "Korea"
 	rom ( name "Bomberman Selection (Korea).gbc" size 1048576 crc AF2B426E md5 D0C6FFC3602D91C0B2B1B0461553DE33 sha1 52451464A9F4DD5FAEFE4594954CBCE03BFF0D05 )
-)
-game (
-	name "Bomberman Selection (Korea) (Beta 1)"
-	region "Korea"
-	rom ( name "Bomberman Selection (Korea) (Beta 1).gbc" size 1048576 crc 005AD4B7 md5 921074A40D44B70DB878F88F7C3B51DE sha1 206A19A48A35BCFF18D5872B85BA4E8963827CB3 )
-)
-game (
-	name "Bomberman Selection (Korea) (Beta 2)"
-	region "Korea"
-	rom ( name "Bomberman Selection (Korea) (Beta 2).gbc" size 1048576 crc 06CC1E9D md5 C768E670D408F2DC1CC41F42DE981087 sha1 A3CE5D9EA4AA4203EA4BC17461E28257E4BD0A62 )
 )
 game (
 	name "Booga-Boo (World)"
@@ -1357,11 +1326,6 @@ game (
 	rom ( name "Cannon Fodder (Europe) (En,Fr,De,Es,It).gbc" size 4194304 crc 824C3BF3 md5 3DD6B4DD7DA7F2B412F92C2509B9F1DF sha1 9A6901CAD65E6D0CE89AF8442688FEC6A9FEDD43 )
 )
 game (
-	name "Cannon Fodder (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	rom ( name "Cannon Fodder (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc 222C9DC6 md5 F5780199EFB64E9EEE31CA35F68489DA sha1 CEE465F6987C2D580CC96FAC703025989208E683 )
-)
-game (
 	name "Cannon Fodder (USA) (En,Fr,De,Es,It)"
 	region "USA"
 	rom ( name "Cannon Fodder (USA) (En,Fr,De,Es,It).gbc" size 4194304 crc 26F8E1A0 md5 762D6C94874D8AC894AD100C0A4B50AB sha1 CC601984A2B52B44CF135E42BCAC1BEC44B7A6A3 )
@@ -1446,19 +1410,9 @@ game (
 	rom ( name "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 15430979 md5 67F1A15025B979833F4C5AA0EF561954 sha1 76E898C00F47628710EAEF7551A7D1FE04E2A2BC )
 )
 game (
-	name "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "Carl Lewis Athletics 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc DA8D6283 md5 2A3A4D83902EE2AF1890433C50D2809C sha1 0A94857F23640B36117B7BFE4CE7CC291DA63C58 )
-)
-game (
 	name "Carmageddon - Carpocalypse Now (Germany)"
 	region "Germany"
 	rom ( name "Carmageddon - Carpocalypse Now (Germany).gbc" size 2097152 crc B447BC06 md5 4A58B26EF9624192AFE5542F790CDB01 sha1 505B29E070CE034B179169D834ABB3969E84C7E0 )
-)
-game (
-	name "Carmageddon - Carpocalypse Now (USA) (En,Es) (Beta)"
-	region "USA"
-	rom ( name "Carmageddon - Carpocalypse Now (USA) (En,Es) (Beta).gbc" size 2097152 crc E9751F81 md5 CCA8749DA97AAE49DEF1132A6A72D047 sha1 9F41F86214031DAD6440206863BFFC13C3E61FC4 )
 )
 game (
 	name "Carmageddon - Carpocalypse Now (USA, Europe) (En,Fr,Es,It)"
@@ -1781,22 +1735,6 @@ game (
 	rom ( name "Cookie's Bakery (World) (v1.0.3) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc C53ACE00 md5 C18BF7A9E03BA337658060A9392F2E3F sha1 02FDC52BC934B80AA41520D92CF0340753D8F668 )
 )
 game (
-	name "Cool Bricks (Europe) (Beta)"
-	releaseyear "1999"
-	releasemonth "03"
-	releaseday "24"
-	region "Europe"
-	rom ( name "Cool Bricks (Europe) (Beta) (1999-03-24).gbc" size 32768 crc 9754006E md5 4F05F82AD7C0F5AABA6D61438D5D8238 sha1 784FFFACD2CE97C7A91971D8522E01FE5596DE0F )
-)
-game (
-	name "Cool Bricks (Europe) (Beta)"
-	releaseyear "1999"
-	releasemonth "05"
-	releaseday "10"
-	region "Europe"
-	rom ( name "Cool Bricks (Europe) (Beta) (1999-05-10).gbc" size 131072 crc 59D4A387 md5 789142292EE4DD3E2D55C444E04F58B4 sha1 17D58A23A911813866923773A17CC92A142AE950 )
-)
-game (
 	name "Cool Bricks (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	rom ( name "Cool Bricks (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc 04FE7790 md5 5A7673F1E61CD707BDC880FF76396A3D sha1 0F0410E2EE2CE1A9E6B12399492F8BD2DDF67406 )
@@ -1839,16 +1777,6 @@ game (
 	name "Croc (USA, Europe)"
 	region "USA"
 	rom ( name "Croc (USA, Europe).gbc" size 1048576 crc 4664A167 md5 0552078F981C2EF3977F2DFEEE19510A sha1 DAC6DE548743C6B51A3DAA5903C28B7FCCDB6CB2 )
-)
-game (
-	name "Croc (USA, Europe) (Beta 1)"
-	region "USA"
-	rom ( name "Croc (USA, Europe) (Beta 1).gbc" size 1048576 crc FC3DB421 md5 2DE587B4E14BAEC8DF62EA4C4F43CC46 sha1 28EFCAC92D708FCFFCDCF7524CA4AB12773FA26F )
-)
-game (
-	name "Croc (USA, Europe) (Beta 2)"
-	region "USA"
-	rom ( name "Croc (USA, Europe) (Beta 2).gbc" size 1048576 crc 1975C599 md5 80DD8C9CE55EE28C0A3EF44EA317EA17 sha1 AED10FB27112D5364660E18D444D6173B6C2F3BC )
 )
 game (
 	name "Croc - 25th Anniversary Edition (World) (ModRetro Chromatic)"
@@ -2287,11 +2215,6 @@ game (
 	rom ( name "Dinosaur (USA).gbc" size 2097152 crc 276ECAAE md5 DDECBA0A4E0D1373FAD858316FAF6F33 sha1 F566C37AB95537D88F6D1AB91804F47F7C0B4027 )
 )
 game (
-	name "Dinosaur (USA) (Beta)"
-	region "USA"
-	rom ( name "Dinosaur (USA) (Beta).gbc" size 2097152 crc 0B087FE7 md5 D0C1449229A8208D0E6753FA05685DF3 sha1 E8042138B56777733E8E9E397EA084CF61383CD9 )
-)
-game (
 	name "Dinosaur'us (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	rom ( name "Dinosaur'us (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc F4609FE3 md5 B077F0ACBB5D2CA07A2D9C035856E01E sha1 D0CAF4B5172651AEE2BBE38EFDAE084CE3D7A7FF )
@@ -2508,30 +2431,10 @@ game (
 	rom ( name "Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan).gbc" size 2097152 crc 7D28689A md5 A94A1C6268555926CA1A3B439A2FB65C sha1 B094AE04FE665371CF0F5CB6942A67A379E8E645 )
 )
 game (
-	name "Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta).gbc" size 2097152 crc 3F511F57 md5 DBF74341F9D23FE32899EBC9F4BF20C8 sha1 45F5A6FA7EFF38B1BB8786472D0EEADF58F692A8 )
-)
-game (
-	name "Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta) (All Unlocked)"
-	region "Japan"
-	rom ( name "Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta) (All Unlocked).gbc" size 2097152 crc FB942E08 md5 CAB48584E4CAEB5BA3B1260F7D64C829 sha1 075F4A1498D0B5F98F76984ACA52CA1F03B1F85D )
-)
-game (
 	name "Dragon Ball Z - Guerreros de Leyenda (Spain)"
 	region "Spain"
 	serial "BBZS"
 	rom ( name "Dragon Ball Z - Guerreros de Leyenda (Spain).gbc" size 2097152 crc 9DAD6E23 md5 9324855FEF2227A4410725ED20845BFB sha1 0318FA8930608CBF4DC69A8B6E2A41C96A51EA04 serial "BBZS" )
-)
-game (
-	name "Dragon Ball Z - Guerreros de Leyenda (Spain) (Beta)"
-	region "Spain"
-	rom ( name "Dragon Ball Z - Guerreros de Leyenda (Spain) (Beta).gbc" size 2097152 crc F017924F md5 A95F4953766E427456F1F991BB3143DC sha1 AD8235817BEC5165A16478301CBFA7FA7D090ECF )
-)
-game (
-	name "Dragon Ball Z - Guerreros de Leyenda (Spain) (Beta) (All Unlocked)"
-	region "Spain"
-	rom ( name "Dragon Ball Z - Guerreros de Leyenda (Spain) (Beta) (All Unlocked).gbc" size 2097152 crc D7654E34 md5 90C8448A9A4EDF4EA6A265D5B4560191 sha1 AC3B5F50578210A29CE08E7E89D456CFC16B5AE9 )
 )
 game (
 	name "Dragon Ball Z - I Leggendari Super Guerrieri (Italy)"
@@ -2539,44 +2442,14 @@ game (
 	rom ( name "Dragon Ball Z - I Leggendari Super Guerrieri (Italy).gbc" size 2097152 crc A888A049 md5 4CDE8DAC14B8ACE83F8A4716CCB2DBF0 sha1 56DEE34337A8893097CBFFD7EA8AFF76CAEF92D0 )
 )
 game (
-	name "Dragon Ball Z - I Leggendari Super Guerrieri (Italy) (Beta) (All Unlocked)"
-	region "Italy"
-	rom ( name "Dragon Ball Z - I Leggendari Super Guerrieri (Italy) (Beta) (All Unlocked).gbc" size 2097152 crc 35790637 md5 A7EDD8B2FC42450A4EE4874FA67C24DE sha1 621571759C021B564339EFDC969D9BCEF4C908DC )
-)
-game (
 	name "Dragon Ball Z - Legendaere Superkaempfer (Germany)"
 	region "Germany"
 	rom ( name "Dragon Ball Z - Legendaere Superkaempfer (Germany).gbc" size 2097152 crc EC7DFDC1 md5 B587D5AE7C464408526489B67DFCA07D sha1 8EB99E87C58A471B9AF5F91B2AEAB2BF4EC516D9 )
 )
 game (
-	name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 1)"
-	region "Germany"
-	rom ( name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 1).gbc" size 2097152 crc 276F7895 md5 D40EBE25A1447C9E08F66682FC9085D2 sha1 3E2BA8228B0E804F2E581AF5CC1E4BB95A8C9354 )
-)
-game (
-	name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 2)"
-	region "Germany"
-	rom ( name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 2).gbc" size 2097152 crc 2353BBE4 md5 0256340EC50AFB921F07763EA4628966 sha1 B93C142B6DA94C7D69956011CCBDA9F22E5FAE9F )
-)
-game (
-	name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 3)"
-	region "Germany"
-	rom ( name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 3).gbc" size 2097152 crc 72ACBCB4 md5 4633A7B4485391E2FCE4674CAF00BB85 sha1 4B22B1949AED367036A84E0E7D36DD0A57BDD11F )
-)
-game (
-	name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 3) (All Unlocked)"
-	region "Germany"
-	rom ( name "Dragon Ball Z - Legendaere Superkaempfer (Germany) (Beta 3) (All Unlocked).gbc" size 2097152 crc F646BD3B md5 CA74E5DA2F81DA8280CA6AA6E6FC4788 sha1 08A947763C36F4AD64F51C388DA863D5852540A1 )
-)
-game (
 	name "Dragon Ball Z - Legendary Super Warriors (Europe)"
 	region "Europe"
 	rom ( name "Dragon Ball Z - Legendary Super Warriors (Europe).gbc" size 2097152 crc 7BF836DB md5 C663691B1ECA7EEEB501C4D00B4B186F sha1 C190D34BEAC5157E98076D6A94FFA3033579B7A2 )
-)
-game (
-	name "Dragon Ball Z - Legendary Super Warriors (Europe) (Beta) (All Unlocked)"
-	region "Europe"
-	rom ( name "Dragon Ball Z - Legendary Super Warriors (Europe) (Beta) (All Unlocked).gbc" size 2097152 crc 4EC4F8ED md5 1D0DC8FAA066D6F4948CE6FFDEE22F41 sha1 073EB096C0454032D8632549AD4C60ADC5B8CF9A )
 )
 game (
 	name "Dragon Ball Z - Legendary Super Warriors (USA)"
@@ -2587,11 +2460,6 @@ game (
 	name "Dragon Ball Z - Les Guerriers Legendaires (France)"
 	region "France"
 	rom ( name "Dragon Ball Z - Les Guerriers Legendaires (France).gbc" size 2097152 crc C07E9438 md5 FFA003FA747731A9FD547260598538CB sha1 F5F0BC375F4559C9A0D62B52AFD2EEE18273C193 )
-)
-game (
-	name "Dragon Ball Z - Les Guerriers Legendaires (France) (Beta) (All Unlocked)"
-	region "France"
-	rom ( name "Dragon Ball Z - Les Guerriers Legendaires (France) (Beta) (All Unlocked).gbc" size 2097152 crc F4041D28 md5 B3E97D514A8AD26A0802640A4B8386BE sha1 72E25B25B9F2516879648E0051BB8AD8D4069003 )
 )
 game (
 	name "Dragon Ball Z 3 - 2002 Fighting (Taiwan) (En)"
@@ -2607,16 +2475,6 @@ game (
 	name "Dragon Dance (Europe) (Proto) (SGB Enhanced) (GB Compatible)"
 	region "Europe"
 	rom ( name "Dragon Dance (Europe) (Proto) (SGB Enhanced) (GB Compatible).gbc" size 262144 crc 8B0DD3B2 md5 E027BB984964E07BE2FEEAA712715987 sha1 76DE183317C952276DBDAD9D8F0592493652F31E )
-)
-game (
-	name "Dragon Dance (USA) (Beta 1) (SGB Enhanced) (GB Compatible)"
-	region "USA"
-	rom ( name "Dragon Dance (USA) (Beta 1) (SGB Enhanced) (GB Compatible).gbc" size 262144 crc A0CD0ED7 md5 2CCD7A904115B2A96C8B398A142854E2 sha1 7DF48E776CE2BE88F7A9459530B855CEF2F012B6 )
-)
-game (
-	name "Dragon Dance (USA) (Beta 2) (SGB Enhanced) (GB Compatible)"
-	region "USA"
-	rom ( name "Dragon Dance (USA) (Beta 2) (SGB Enhanced) (GB Compatible).gbc" size 262144 crc 9A90ADBE md5 35168B96A50352217130116BD67CDCC1 sha1 5FC97752A98A18B7E2DB238D1AB88C6B09E34602 )
 )
 game (
 	name "Dragon Dance (USA) (SGB Enhanced) (GB Compatible)"
@@ -2702,12 +2560,14 @@ game (
 game (
 	name "Dragon Warrior Monsters 2 - Cobi's Journey (USA) (SGB Enhanced) (GB Compatible)"
 	region "USA"
-	rom ( name "Dragon Warrior Monsters 2 - Cobi's Journey (USA) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc AB7BFDD5 md5 F71AC6AC4BB335F59BFD2B594D47AB49 sha1 76901B7E5CADF9611DD4FAC52E8501155C1E33A2 )
+	serial "BQLE"
+	rom ( name "Dragon Warrior Monsters 2 - Cobi's Journey (USA) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc AB7BFDD5 md5 F71AC6AC4BB335F59BFD2B594D47AB49 sha1 76901B7E5CADF9611DD4FAC52E8501155C1E33A2 serial "BQLE" )
 )
 game (
 	name "Dragon Warrior Monsters 2 - Tara's Adventure (USA) (SGB Enhanced) (GB Compatible)"
 	region "USA"
-	rom ( name "Dragon Warrior Monsters 2 - Tara's Adventure (USA) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc 35EC5FB2 md5 8E79DCDEE0E15EF069B3F376A0FEE37D sha1 A68451E7D3ACCD81B240C4B60A1F552E39211EDE )
+	serial "BQIE"
+	rom ( name "Dragon Warrior Monsters 2 - Tara's Adventure (USA) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc 35EC5FB2 md5 8E79DCDEE0E15EF069B3F376A0FEE37D sha1 A68451E7D3ACCD81B240C4B60A1F552E39211EDE serial "BQIE" )
 )
 game (
 	name "Dragon's Lair (USA, Europe) (En,Ja,Fr,De,Es,Zh)"
@@ -2719,18 +2579,9 @@ game (
 	rom ( name "Dragonmaster (World) (Aftermarket) (Unl).gbc" size 262144 crc 4AAF9F58 md5 EE700A60BF4E72287E0B9EB377E981D2 sha1 6400DE1108F1C3E5FCA15DE47F62299BFC66A938 )
 )
 game (
-	name "Dream Shark - Part 1 (World) (Beta 2) (GB Compatible)"
-	rom ( name "Dream Shark - Part 1 (World) (Beta 2) (GB Compatible) (Aftermarket) (Unl).gbc" size 4194304 crc EA6C4527 md5 D3EDBD375DF5B18B6DC21380FE1374EE sha1 9D11B4C12622961B7AA03D0C2D9AB57DE4B4C541 )
-)
-game (
 	name "Driver (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	rom ( name "Driver (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc E9E67403 md5 FAAB6966E9ED5E80FF724CAFDE1E903D sha1 5001F0F4904CA4FB6AB287B52136D00AC94B49D7 )
-)
-game (
-	name "Driver (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	rom ( name "Driver (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 1048576 crc 33E9D438 md5 C4110FF080C6730FA39C290B2E02D8A7 sha1 07E25B8C7569E064D060258981814A151202EDBB )
 )
 game (
 	name "Driver - You Are the Wheelman (USA) (En,Fr,De,Es,It)"
@@ -2974,34 +2825,14 @@ game (
 	rom ( name "ExtremeJAy - Music Showcase (World) (Album) (Aftermarket) (Unl).gbc" size 262144 crc C8942EBE md5 002AF34295BA90D28D809AA3528606B4 sha1 762DA77BBA04EA8CC602B3C4E4C1C4F8ED1AAF0A )
 )
 game (
-	name "F-1 World Grand Prix (Europe) (Beta)"
-	region "Europe"
-	rom ( name "F-1 World Grand Prix (Europe) (Beta).gbc" size 2097152 crc D6496FE9 md5 09C21D37F66CCA587663A461C81606BE sha1 9285BB4FBAB8678B65CC8736F43E4EA3895C1CF4 )
-)
-game (
 	name "F-1 World Grand Prix (Europe) (En,Fr,De,Es)"
 	region "Europe"
 	rom ( name "F-1 World Grand Prix (Europe) (En,Fr,De,Es).gbc" size 2097152 crc 8D9A9182 md5 CFB6A98BEF18C56E466D27B885E20F8F sha1 16AA2E02E9B7F236F12A49C3224CA4CC89CDF98C )
 )
 game (
-	name "F-1 World Grand Prix (Japan) (En) (Beta 1)"
-	region "Japan"
-	rom ( name "F-1 World Grand Prix (Japan) (En) (Beta 1).gbc" size 2097152 crc 3122807B md5 9146FDD44BEFDE06269C9C1642678C94 sha1 AFC4B8F0487B0C6B0CA6470D4002EACA6616A04B )
-)
-game (
-	name "F-1 World Grand Prix (Japan) (En) (Beta 2)"
-	region "Japan"
-	rom ( name "F-1 World Grand Prix (Japan) (En) (Beta 2).gbc" size 1048576 crc 5E24811E md5 5DFE3D8C181023B30CFC942A9AA40A69 sha1 25C83CB589CE85917B99757090A94E588CB799B9 )
-)
-game (
 	name "F-18 Thunder Strike (USA, Europe)"
 	region "USA"
 	rom ( name "F-18 Thunder Strike (USA, Europe).gbc" size 1048576 crc 410FA858 md5 58670204EC7B8791576E3C88BA7C1DDF sha1 530AECAE5B89E580BE8A8D4827BE95522D8319C4 )
-)
-game (
-	name "F-18 Thunder Strike (USA, Europe) (Beta) (Rumble Version)"
-	region "USA"
-	rom ( name "F-18 Thunder Strike (USA, Europe) (Beta) (Rumble Version).gbc" size 1048576 crc 9E253E73 md5 BBD777C45D97CD88A5CF7C7BDACAC82A sha1 F7CCFC1F0822BDC611751D77B9F164C6AAA64C01 )
 )
 game (
 	name "F.A. Premier League Stars 2001, The (Europe)"
@@ -3022,11 +2853,6 @@ game (
 	name "F1 Racing Championship (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
 	rom ( name "F1 Racing Championship (Europe) (En,Fr,De,Es,It).gbc" size 4194304 crc 93A9789F md5 C38509B681A7F16AD7831BA1F2FA6E31 sha1 EA844051C0B5C6F9A6A8C472F4F67EE6B9B3D8E7 )
-)
-game (
-	name "F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	rom ( name "F1 Racing Championship (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc E115DDB1 md5 A7D2695B3DDC268389E36F916815F96D sha1 E9616A53AB9474C0BB85451FF19B62BED9E7F1A4 )
 )
 game (
 	name "F1 Racing Championship (USA) (En,Fr,De,Es,It) (Proto)"
@@ -3070,18 +2896,6 @@ game (
 	name "Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (SGB Enhanced) (GB Compatible)"
 	region "Japan"
 	rom ( name "Fairy Kitty no Kaiun Jiten - Yousei no Kuni no Uranai Shugyou (Japan) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc B59A51C4 md5 0591D5637B4C9F304340D941B2AE9E7A sha1 A27B498C6170B4136D2CA8A75C3D529DD6C06639 )
-)
-game (
-	name "Faith of Abraham (World) (Beta 1)"
-	rom ( name "Faith of Abraham (World) (Beta 1) (Aftermarket) (Unl).gbc" size 131072 crc 63FD7BE7 md5 F81B4DCEF615E99144B72D5003627890 sha1 074C26EA3178C9F2AD085846556FEEAB1D5AA075 )
-)
-game (
-	name "Faith of Abraham (World) (Beta 2)"
-	rom ( name "Faith of Abraham (World) (Beta 2) (Aftermarket) (Unl).gbc" size 262144 crc E6A4DFFE md5 3A40E392C816B47CEBDACF4FB92B7834 sha1 CD9DA8DE81C0857C584951C45BE3A4F258680BBD )
-)
-game (
-	name "Faith of Abraham (World) (Beta 3)"
-	rom ( name "Faith of Abraham (World) (Beta 3) (Aftermarket) (Unl).gbc" size 262144 crc AB40B4BE md5 F97BC189271DDD0CF8C588CB19548E3B sha1 DBF2F2E639EB9FA1358FFB8D003B89BCED34D05B )
 )
 game (
 	name "Featherless Cake Delivery (World) (v1.0) (GB Compatible)"
@@ -3206,11 +3020,6 @@ game (
 	rom ( name "Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc A5B09726 md5 99825E86250AB53B5EA8AC702930919D sha1 2F7FB1AFEDD6C9657715B45397DC5492E40DFE45 )
 )
 game (
-	name "Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	rom ( name "Flintstones, The - Burgertime in Bedrock (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 1048576 crc ECCCD908 md5 D5E1AF0598A8DB7B93F57EB2909EDC17 sha1 80EC102F3CF45602C6FACFFCDD44232650897DAB )
-)
-game (
 	name "Flintstones, The - Burgertime in Bedrock (USA)"
 	region "USA"
 	rom ( name "Flintstones, The - Burgertime in Bedrock (USA).gbc" size 1048576 crc 14D8CC5D md5 50E6D9D88450932743161B7512838CCC sha1 065851358F6720D4926FAA42B015DA68CAFA6C28 )
@@ -3248,10 +3057,6 @@ game (
 	name "Force 21 (USA) (En,Fr,De)"
 	region "USA"
 	rom ( name "Force 21 (USA) (En,Fr,De).gbc" size 1048576 crc 2DCD0A0A md5 2A447279016F60776B5C0F515B5B97F5 sha1 A1A912851BF265D6228DC807C58339CD51EC9D44 )
-)
-game (
-	name "Forest of Fallen Knights (World) (Beta) (GB Compatible)"
-	rom ( name "Forest of Fallen Knights (World) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 4C21E563 md5 A7AF89E99A4CBB2AFBE08549088D8FDA sha1 F6F84F1A44D41FA7D26A9195DDF791FAE53DFCDF )
 )
 game (
 	name "Forest of Fallen Knights (World) (GB Compatible)"
@@ -3326,16 +3131,6 @@ game (
 	rom ( name "From Below Pocket (World) (Aftermarket) (Unl).gbc" size 131072 crc 35AD9B5A md5 163F99C456C8FD8936E91586356AF1C4 sha1 C0E072BFB88C84DC68B2EDED1F9C088D75FFA5ED )
 )
 game (
-	name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 1) (SGB Enhanced) (GB Compatible)"
-	region "Japan"
-	rom ( name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 1) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc A86DE7B7 md5 D4B6A73E0B9C9BD7DC88BAA36C839723 sha1 F2C04440F5D668B14623C924FAEC460F63158A29 )
-)
-game (
-	name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 2) (SGB Enhanced) (GB Compatible)"
-	region "Japan"
-	rom ( name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 2) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc 419BEFCC md5 3143162338A87A52B49D8791909C2B3D sha1 E11809BABDCA45527B81D7DB02741263407AEB46 )
-)
-game (
 	name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (SGB Enhanced) (GB Compatible)"
 	region "Japan"
 	rom ( name "From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (SGB Enhanced) (GB Compatible).gbc" size 4194304 crc A7317BB8 md5 B883323E9AE3C85548169BABE3F9B4F0 sha1 7FA5FBB94390876DEE807216C2097CDB42510EFE )
@@ -3395,10 +3190,6 @@ game (
 game (
 	name "G-ZERO World GP (World)"
 	rom ( name "G-ZERO World GP (World) (Aftermarket) (Unl).gbc" size 262144 crc 2F813033 md5 3E151D9BFD7B36A80EF475A98863A001 sha1 0407A3FC4C8C6711CDE8FE9D07860DC3EF075F5E )
-)
-game (
-	name "G.B Corp. (World) (Beta) (GB Compatible)"
-	rom ( name "G.B Corp. (World) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 32768 crc FD2E40F4 md5 958670DAECCC225FE23E74A60BE59541 sha1 E442316132506FF223A9E5F33D874B71EC09D71A )
 )
 game (
 	name "GB Harobots (Japan)"
@@ -3536,6 +3327,10 @@ game (
 	rom ( name "GB-Wordyl - Spanish (World) (Es) (v1.0.6) (SGB Enhanced) (GB Compatible) (Aftermarket) (Unl).gbc" size 32768 crc 1DD9CC71 md5 B88DDACA8887D7F23593061F4259C3F9 sha1 0010677E027111B24E3C22C48A0357CB9106E592 )
 )
 game (
+	name "GLUF Tesla Frog (World) (v1.2) (SGB Enhanced)"
+	rom ( name "GLUF Tesla Frog (World) (v1.2) (SGB Enhanced) (Aftermarket) (Unl).gbc" size 131072 crc C17A4045 md5 D915E0198843B413E38D67A8CFED17D6 sha1 59E69696A12E3215C6AEE0E3B0E46FD3E1F15D99 )
+)
+game (
 	name "GPC Rally (World) (v1.0)"
 	rom ( name "GPC Rally (World) (v1.0) (Aftermarket) (Unl).gbc" size 262144 crc 3B15BDB8 md5 83BA49181A4EEB41E9628546A2DEDE19 sha1 B6500B0250D8358644E41E26ED8FB92C5B24535D )
 )
@@ -3626,11 +3421,6 @@ game (
 	rom ( name "Game Boy Wars 3 (Japan).gbc" size 1048576 crc 30C26262 md5 748FA9419B35C0E8E43509457AAA1EFA sha1 61E08F96261B5F85C65C70DB5464B4298F9F2CF8 )
 )
 game (
-	name "Game Boy Wars Pocket Tactics (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Game Boy Wars Pocket Tactics (Japan) (Beta).gbc" size 1048576 crc 7E8EA9A5 md5 ECF0D8121278D810BF40C4DE8A2A080B sha1 A729D9ECD2B2ABCD04B11122183F48C303D227B1 )
-)
-game (
 	name "Game Conveni 21 (Japan) (GB Compatible)"
 	region "Japan"
 	rom ( name "Game Conveni 21 (Japan) (GB Compatible).gbc" size 1048576 crc 994314B3 md5 76A95FEE3D90722FD935C7658512F5CC sha1 6803617ABC46DB83DBEC08D10E03B9F9297F260E )
@@ -3680,13 +3470,17 @@ game (
 	rom ( name "Gangdan Wuyu 2 (Taiwan) (Unl).gbc" size 2097152 crc 09DEE8CB md5 BB0DE10ABD5C34EC0A203DED19D15CD9 sha1 6753A7A34F057F952172DFF5EF9E8961D3AF6649 )
 )
 game (
-	name "Ganso! Doubutsu Uranai (Japan) (Proto)"
+	name "Ganso! Doubutsu Uranai GB + Renai Uranai Puzzle (Japan) (Proto)"
 	region "Japan"
-	rom ( name "Ganso! Doubutsu Uranai (Japan) (Proto).gbc" size 1048576 crc 58421179 md5 9B3F141B7747D6D23BCA68EC1FF7AF35 sha1 D2512B7BB05771DEAC7B732CCE17671D7807273D )
+	rom ( name "Ganso! Doubutsu Uranai GB + Renai Uranai Puzzle (Japan) (Proto).gbc" size 1048576 crc 58421179 md5 9B3F141B7747D6D23BCA68EC1FF7AF35 sha1 D2512B7BB05771DEAC7B732CCE17671D7807273D )
 )
 game (
 	name "GbBBS95 (World) (v1.4.6) (SGB Enhanced) (GB Compatible)"
 	rom ( name "GbBBS95 (World) (v1.4.6) (SGB Enhanced) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 7B9457CE md5 B871FAA7514585331066F78D60D8364A sha1 F0220EC7EDF172BD0CB14578B8C825FFE942BA4D )
+)
+game (
+	name "GbBBS95 (World) (v1.4.7) (SGB Enhanced) (GB Compatible)"
+	rom ( name "GbBBS95 (World) (v1.4.7) (SGB Enhanced) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 18A91BF4 md5 28D0579EA7BC881066894D7295D4BF5B sha1 B62E2BE09807350E21CDDE858E33D8DB0826A6B0 )
 )
 game (
 	name "Gedou Jian Shen - Soul Falchion (Taiwan) (En)"
@@ -3996,11 +3790,6 @@ game (
 	rom ( name "Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt).gbc" size 1048576 crc 053BC315 md5 D05A9DA7CD90CC9822E9655FB5476D54 sha1 D18E30A434262F7BF46A8DB2E5F62CE19B7ECFAA )
 )
 game (
-	name "Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt) (Beta)"
-	region "Europe"
-	rom ( name "Gremlins - Unleashed (Europe) (En,Fr,De,Es,It,Pt) (Beta).gbc" size 1048576 crc C38D52E7 md5 95DE0EB82C6013224A449FD972006D6F sha1 675623B58FA0D307355C77D7A4783AF7927681E9 )
-)
-game (
 	name "Gridtrap (World)"
 	rom ( name "Gridtrap (World) (Aftermarket) (Unl).gbc" size 262144 crc 5A5453F6 md5 9D319A32492C1F4964C244477F6188EA sha1 B43D05EDDCD1AB2D5934DD2A722F145A3084C4AD )
 )
@@ -4179,25 +3968,9 @@ game (
 	rom ( name "Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It).gbc" size 4194304 crc 45BE9D9B md5 06157785417D6FE5C73388EB573981DC sha1 047D9DEDB77A448D31CD5DCE23F4C3DD8714DAFE )
 )
 game (
-	name "Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It) (Beta)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "11"
-	region "Europe"
-	rom ( name "Hamtaro - Ham-Hams Unite! (Europe) (En,Fr,De,Es,It) (2002-11-11) (Beta).gbc" size 4194304 crc 816B0325 md5 33F621C96E1150266B2519F5901097D8 sha1 17C3FF0DA5B9733A768EE53ECCD13059FDA16116 )
-)
-game (
 	name "Hamtaro - Ham-Hams Unite! (USA)"
 	region "USA"
 	rom ( name "Hamtaro - Ham-Hams Unite! (USA).gbc" size 2097152 crc 1271117F md5 48CE279084E1FC7A9136CC211F4FAD5D sha1 9770BF59E932B41882839CE9EEC033F576094FEE )
-)
-game (
-	name "Hamtaro - Ham-Hams Unite! (USA) (Beta)"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "07"
-	region "USA"
-	rom ( name "Hamtaro - Ham-Hams Unite! (USA) (2002-08-07) (Beta).gbc" size 2097152 crc D0CF0D86 md5 6A5061A092CFD2C78B7FE65FDEA15397 sha1 C85BA2DA0A652544F938439C8826C5C6754F5E75 )
 )
 game (
 	name "Hamunaptra - Ushinawareta Sabaku no Miyako (Japan)"
@@ -4632,12 +4405,6 @@ game (
 	rom ( name "Inspector Gadget - Operation Madkactus (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 3390B056 md5 8B9A9F5125206B262348356BE15BF598 sha1 55C02B81FA854938CA3CB3E5B725A6A72F711E7B )
 )
 game (
-	name "Inspector Gadget - Operation Madkactus (Europe) (Fr) (Beta)"
-	region "Europe"
-	serial "BIGP"
-	rom ( name "Inspector Gadget - Operation Madkactus (Europe) (Fr) (Beta).gbc" size 1048576 crc 93EC798B md5 FE22797C8098AC1C18A80875E29AA09B sha1 8444FF17AA3F865EEC33CC49398B450E345376C3 serial "BIGP" )
-)
-game (
 	name "Inspector Gadget - Operation Madkactus (USA)"
 	region "USA"
 	rom ( name "Inspector Gadget - Operation Madkactus (USA).gbc" size 1048576 crc 1AF0B489 md5 F9594360B2A4ED8745B63304063BAABB sha1 B0FA81A35E605948DF3B7F1FCB5893BAB99D9D6A )
@@ -4949,11 +4716,6 @@ game (
 	rom ( name "Kanji Boy 3 (Japan).gbc" size 4194304 crc 2D4D8597 md5 51C8578D742AE2306B863776738F6772 sha1 EA9064F703354B7FBEEF0DD55084B16F2F7797BA )
 )
 game (
-	name "Kanji Boy 3 (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Kanji Boy 3 (Japan) (Beta).gbc" size 4194304 crc 2CE7D758 md5 A5D013A0066EE9874E88A1C455CC454A sha1 F8B34E0834C7BFF5BB06587E932DFF2036D86C6E )
-)
-game (
 	name "Kanji Shishuu (Japan) (Proto)"
 	region "Japan"
 	rom ( name "Kanji Shishuu (Japan) (Proto).gbc" size 8388608 crc 29A1932F md5 C9C2F79ADC7D23BAD885F9289BC12283 sha1 09D5B0F6E3B17F670820265DCB2477E5C869ED79 )
@@ -5132,14 +4894,6 @@ game (
 	rom ( name "Klax (USA, Europe).gbc" size 1048576 crc 7181CBD0 md5 3BD0DAD0C695A534B9E89264E09E2B11 sha1 23B5601748BDA8E0DBA69E589FA2B6D2D79781B3 )
 )
 game (
-	name "Klustar (Europe) (En,Fr,De,Es,It) (Beta) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "10"
-	releaseday "01"
-	region "Europe"
-	rom ( name "Klustar (Europe) (En,Fr,De,Es,It) (Beta) (1998-10-01) (GB Compatible).gbc" size 131072 crc FC56BB35 md5 DCA07583BC53BEFABEA1D5467D4EC4D2 sha1 7512484C9C84592E65F19F135CBE629F5A1EE84E )
-)
-game (
 	name "Klustar (Europe) (En,Fr,De,Es,It) (GB Compatible)"
 	region "Europe"
 	rom ( name "Klustar (Europe) (En,Fr,De,Es,It) (GB Compatible).gbc" size 262144 crc 577E1521 md5 ACB6B136FA26888D42B5F95871A75EAA sha1 B78D832E5D39180D84BF13DDE81B923717CB35AA )
@@ -5232,12 +4986,6 @@ game (
 	name "Konchuu Hakase 3 (Japan)"
 	region "Japan"
 	rom ( name "Konchuu Hakase 3 (Japan).gbc" size 2097152 crc 380F19ED md5 41B5E9D960CEAFC89E8BD740C2C74DC5 sha1 4066434FE741A071E2072AEE44FDF1B5EECDE258 )
-)
-game (
-	name "Konchuu Hakase 3 (Japan) (Beta)"
-	region "Japan"
-	serial "AF2J"
-	rom ( name "Konchuu Hakase 3 (Japan) (Beta).gbc" size 2097152 crc FBED99BC md5 F57C93AD02DAB5141F7A5BA9B228977F sha1 CB09509E97F433F3EDCBD29CB42A37A36E3E49BE serial "AF2J" )
 )
 game (
 	name "Korokoro Kirby (Japan)"
@@ -5377,11 +5125,6 @@ game (
 	rom ( name "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).gbc" size 1048576 crc A58C8282 md5 1A787C328C66EEA5A2B920B7C205B231 sha1 47E5C4C7FA447EFC8A0ABF019E8D2CD227C5E0E3 )
 )
 game (
-	name "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta)"
-	region "Europe"
-	rom ( name "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Beta).gbc" size 1048576 crc F90A3DAE md5 37824FAEEDC1D562CAE1CEEE675C6AC8 sha1 772539821E4B703259B2E2AD535D74A03FA22760 )
-)
-game (
 	name "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Rev 1) (Proto)"
 	region "Europe"
 	rom ( name "Laura (Europe) (En,Fr,De,Es,It,Nl,Sv,Da) (Rev 1) (Proto).gbc" size 1048576 crc CF8E2371 md5 A41843374FE3BCE0B61A641FAFD6F415 sha1 F7B19C1501D325DD8EE219CCAE2EACA130A5A21B )
@@ -5417,47 +5160,6 @@ game (
 	rom ( name "Legend of Carrot (World) (Aftermarket) (Unl).gbc" size 131072 crc 965A02AF md5 B8814BFE24F20D38700822F4904F5C8E sha1 FA404E1B2B4544B4969C14EC41F81E87304234C8 )
 )
 game (
-	name "Legend of Zelda, The - Link's Awakening DX (Europe) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "19"
-	region "Europe"
-	serial "AZLP"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (Europe) (Rev 2) (Beta) (1999-09-19) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc F9A66CDA md5 491D97B847CADC6C854172008A09FC83 sha1 EB862E0AB4D0456D98187DDFB4948CD45D923F6D serial "AZLP" )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (France) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "12"
-	releaseday "11"
-	region "France"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (Beta) (1998-12-11) (SGB Enhanced) (GB Compatible).gbc" size 1015808 crc C17259DB md5 917EC38FA03325CBBD527AC3465611C1 sha1 A5A6F0251E8EAFD0A02B1EECEAA5B51705C12F0D )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "19"
-	region "France"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (1999-08-19) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 05F23861 md5 C83E117AD79A22C6A91586A419CDF1F5 sha1 A3F5445FCB463E801B70466E736FE2D495581289 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "04"
-	region "France"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (1999-09-04) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 865CC1ED md5 F5AA2D1278788AF857EE082C0C03A02E sha1 7D78F4BDA653FF76618A38F33444602D1B54B206 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "22"
-	region "France"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (Beta) (1999-09-22) (SGB Enhanced) (GB Compatible).gbc" size 1015808 crc 8AFD751E md5 8624DB7AC6F7040B9001A87CC44F1FA9 sha1 797925A26EB39656AEA60E10C8E9DD986B515B53 )
-)
-game (
 	name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (SGB Enhanced) (GB Compatible)"
 	region "France"
 	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (Rev 1) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 4E2B75E7 md5 68242187B65166B5F8225B20E2021659 sha1 B5E4DF1A67432C609FA0F23519315297C6DCDC1D )
@@ -5466,38 +5168,6 @@ game (
 	name "Legend of Zelda, The - Link's Awakening DX (France) (SGB Enhanced) (GB Compatible)"
 	region "France"
 	rom ( name "Legend of Zelda, The - Link's Awakening DX (France) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc F48824FE md5 1043FD167D0ED9C4094E3C9D8E757F1E sha1 9A679E30B03E119A21AE7DAAC65E73E0EF4E0894 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (Germany) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "12"
-	releaseday "11"
-	region "Germany"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (Germany) (Beta) (1998-12-11) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc BE5E366E md5 E39B039557A7C0629553CE7FED602BB3 sha1 6BCD23A3A8AFDE7C220BC1DA4E32D47749139305 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "19"
-	region "Germany"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (1999-08-19) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc FDCCC2BD md5 C73016626B9E7EAE04B9A53A3DC4FB78 sha1 6DAA7E77B0F329DA5641E61BCDB0FECF941437F0 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "04"
-	region "Germany"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (1999-09-04) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 33C65722 md5 7E9FD020F578C846FA3AE1D39D0A4671 sha1 B76ADB353ACF520084529C4F9C9CD137B07016C5 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "22"
-	region "Germany"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (Beta) (1999-09-22) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 3E88A24A md5 61D38E254879B2B99490573499A801B1 sha1 1CBCA5313B1C0163620D7D81B649F158BA59E6B3 )
 )
 game (
 	name "Legend of Zelda, The - Link's Awakening DX (Germany) (Rev 1) (SGB Enhanced) (GB Compatible)"
@@ -5513,39 +5183,6 @@ game (
 	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 1) (SGB Enhanced) (GB Compatible)"
 	region "USA"
 	rom ( name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 1) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc B38EB9DE md5 CCBB56212E3DBAA9007D389A17E9D075 sha1 363D184D9B1E9FAA5A2FACD80897B7E118446164 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "19"
-	region "USA"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (1999-08-19) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc A8855C67 md5 853EB2EC6FEB27869B7AF78F929FE7D2 sha1 A86161CA5CE9E1E8C7A6AB0931EDB12A1ACE5F39 )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "04"
-	region "USA"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (1999-09-04) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 84415B28 md5 B85674C7D71D84CEF9DCC9B2E35185D3 sha1 95417AE15E0B89C918D97E2E658056A6869EB0EF )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "07"
-	region "USA"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (1999-09-07) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 5715D896 md5 0C0CD721044C7C91D32ED704564E6FE4 sha1 8B8EEB368DFADC73E4F051FB53134974D688491D )
-)
-game (
-	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "23"
-	region "USA"
-	serial "AZLE"
-	rom ( name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (Beta) (1999-09-23) (SGB Enhanced) (GB Compatible).gbc" size 1015808 crc 0559BC89 md5 20A1CBA7BC19E9DD5165324DE608478D sha1 DBE7A909C71D407F01AF2CDB0AAF7D164AC7A9BD serial "AZLE" )
 )
 game (
 	name "Legend of Zelda, The - Link's Awakening DX (USA, Europe) (Rev 2) (SGB Enhanced) (GB Compatible)"
@@ -5720,19 +5357,6 @@ game (
 	rom ( name "Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl).gbc" size 2097152 crc 5D85DFAD md5 9562A0AAD16857F2F1A8E4169163C18A sha1 645C4CF67FAF33248D2102F137A605DE94305796 )
 )
 game (
-	name "Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl) (Beta 2)"
-	region "Europe"
-	rom ( name "Looney Tunes Collector - Martian Alert! (Europe) (En,Fr,De,Es,It,Nl) (Beta 2).gbc" size 2097152 crc 9058EAE3 md5 2759A17974AA716D3DB2CC015CDA3AB4 sha1 601236C323F4ADBE5BD6091FAC8871E11D71F105 )
-)
-game (
-	name "Looney Tunes Collector - Martian Alert! (Europe) (Fr) (Beta 1)"
-	releaseyear "1999"
-	releasemonth "10"
-	releaseday "28"
-	region "Europe"
-	rom ( name "Looney Tunes Collector - Martian Alert! (Europe) (Fr) (Beta 1) (1999-10-28).gbc" size 2097152 crc 3ACB4840 md5 5CC6AD2A2406C6C860F36107F6EB414E sha1 4C05C1A15BB90FEB09FBC2D8DFBFB42794313936 )
-)
-game (
 	name "Looney Tunes Collector - Martian Quest! (Japan)"
 	region "Japan"
 	rom ( name "Looney Tunes Collector - Martian Quest! (Japan).gbc" size 2097152 crc BC46A2D2 md5 74F0CA3425914DF4AF3210541FF619C8 sha1 450E43CF2D9CFA18856B3F3312E2194F132DBB1B )
@@ -5857,11 +5481,6 @@ game (
 	rom ( name "Lucky Luke - Desperado Train (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc CE7F108A md5 31770F7197EA4A7FF99CAD7CEF5C58B8 sha1 857DDA99BDB15C49918C633DBCB73BD96EF7BAE9 )
 )
 game (
-	name "Lucky Luke - Desperado Train (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "Lucky Luke - Desperado Train (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc B558C401 md5 BA0D9C7EEC69CEE04A7FF4FAF91F2C4B sha1 AB9B610F2858FEC8BD4542731F6FBFD4B7FAF9E1 )
-)
-game (
 	name "Lufia - The Legend Returns (Europe) (En,De)"
 	region "Europe"
 	rom ( name "Lufia - The Legend Returns (Europe) (En,De).gbc" size 2097152 crc 470DCB1D md5 1FF9B71A347A7DEED87BCEDEB7C5EA70 sha1 10FAAEFBA4C97D8392BB0231CF898A77DB4F73F2 )
@@ -5894,7 +5513,7 @@ game (
 	rom ( name "Lunar Docking (World) (2021-12-30) (Aftermarket) (Unl).gbc" size 262144 crc 9EDD066C md5 086DD0976154B38CF76C8F596CE00F0C sha1 4D43A38E8B5DF41309F5B6EC13E4829DB739D980 )
 )
 game (
-	name "Lunar Docking (World)"
+	name "Lunar Docking (World) (Alt 1)"
 	releaseyear "2022"
 	releasemonth "08"
 	releaseday "07"
@@ -5950,11 +5569,6 @@ game (
 	rom ( name "Macross 7 - Ginga no Heart o Furuwasero!! (Japan).gbc" size 2097152 crc 2B7ABBA4 md5 4FA0F6E7388F072C8BB76761F8068868 sha1 88746C361CFBDAC49E5D72807B396A6667C42229 )
 )
 game (
-	name "Madden NFL 2000 (USA, Europe) (Beta) (SGB Enhanced) (GB Compatible)"
-	region "USA"
-	rom ( name "Madden NFL 2000 (USA, Europe) (Beta) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc B3FEAD85 md5 DCCBE12F558F971148EB147C32318431 sha1 09BF3DEA1DC01B018BA86E3AFFBCBAB7B9D2EB63 )
-)
-game (
 	name "Madden NFL 2000 (USA, Europe) (SGB Enhanced) (GB Compatible)"
 	region "USA"
 	rom ( name "Madden NFL 2000 (USA, Europe) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 482944AA md5 071AD15A9890F73890C4E0DEDD07793E sha1 DF03F3E5E3F6FD3905DC332B307B5566F0F35252 )
@@ -5996,11 +5610,6 @@ game (
 	name "Magical Drop (Europe) (En,Fr,De)"
 	region "Europe"
 	rom ( name "Magical Drop (Europe) (En,Fr,De).gbc" size 1048576 crc EA9EE203 md5 618946A1D8D7154C200FE278EF030140 sha1 8EF276F9C6A64D7CEC527BCBA8D1B7223DE0E01C )
-)
-game (
-	name "Magical Drop (Europe) (En,Fr,De) (Beta)"
-	region "Europe"
-	rom ( name "Magical Drop (Europe) (En,Fr,De) (Beta).gbc" size 1048576 crc 799E2020 md5 1D3031FF4A17ADC04F05672A37FC0030 sha1 99FBF24CA924ACF5A4EA64817FB29D6E408CB722 )
 )
 game (
 	name "Magical Drop (USA)"
@@ -6148,19 +5757,9 @@ game (
 	rom ( name "Maus, Die (Europe) (En,Fr,De,Es).gbc" size 1048576 crc E7BD4A49 md5 F9BE99D213760BA2E9525ABEA1DE3CB6 sha1 23B612AB97B9D5E0454F9AE91B7BDBD50DF91131 )
 )
 game (
-	name "Maus, Die (Europe) (En,Fr,De,Es) (Beta)"
-	region "Europe"
-	rom ( name "Maus, Die (Europe) (En,Fr,De,Es) (Beta).gbc" size 1048576 crc D6E8F27E md5 F0691682463EB9D3EA942A2F60F29AA9 sha1 5C60B47701329E0D3ED9A1A4C929255F0FE360D9 )
-)
-game (
 	name "Maus, Die - Verrueckte Olympiade (Germany)"
 	region "Germany"
 	rom ( name "Maus, Die - Verrueckte Olympiade (Germany).gbc" size 1048576 crc FD11138E md5 0CD10ACB3C569FAECD01B9CED51021B2 sha1 861F53EC6D5981B5F5237777FD776299D90F4CC0 )
-)
-game (
-	name "Maus, Die - Verrueckte Olympiade (Germany) (Beta)"
-	region "Germany"
-	rom ( name "Maus, Die - Verrueckte Olympiade (Germany) (Beta).gbc" size 2097152 crc 39671ABC md5 809FD84F0C8F4ACE455AD40930AFF59E sha1 EE110F4DB4E2776198894BABA00941E75696BC29 )
 )
 game (
 	name "Max Steel - Covert Missions (USA) (En,Fr,De,Es) (Proto)"
@@ -6440,7 +6039,7 @@ game (
 	rom ( name "Midterm Moments (World) (2022-05-28) (GB Compatible) (Aftermarket) (Unl).gbc" size 262144 crc F9A5ED4E md5 32E1169337DE052DDFB443D71794F1D7 sha1 8B3E18287D5ADF3B5A711E28A896F843927F22A2 )
 )
 game (
-	name "Midterm Moments (World) (GB Compatible)"
+	name "Midterm Moments (World) (GB Compatible) (Alt 1)"
 	releaseyear "2022"
 	releasemonth "06"
 	releaseday "15"
@@ -6670,11 +6269,6 @@ game (
 	rom ( name "Moomin no Daibouken (Japan).gbc" size 2097152 crc BD29EE6F md5 F7034B8297393FA04D9752D461F749A5 sha1 0846545CEBEC8B376DB9BDB0D3744C7D157EE980 )
 )
 game (
-	name "Moomin no Daibouken (Japan) (Beta)"
-	region "Japan"
-	rom ( name "Moomin no Daibouken (Japan) (Beta).gbc" size 2097152 crc 3C193973 md5 E95CF6F2C0E1A7276F37AD8926B3F901 sha1 B60E7896FA4CECA42530F1DE01E4691EE9590A7F )
-)
-game (
 	name "Moomin's Tale (Europe) (En,Fr,De)"
 	region "Europe"
 	rom ( name "Moomin's Tale (Europe) (En,Fr,De).gbc" size 1048576 crc 45543BA2 md5 517EF53718009B20D7BF7771AEF191DD sha1 06E57B38B7F9EC71809F309AA7D220AF48CA96B6 )
@@ -6799,15 +6393,15 @@ game (
 	name "Musical Notes (World)"
 	releaseyear "2023"
 	releasemonth "05"
-	releaseday "19"
-	rom ( name "Musical Notes (World) (2023-05-19) (Aftermarket) (Unl).gbc" size 524288 crc 1BA7D27F md5 FAF6768EBD1B7A72783A2C30FD3ECA17 sha1 D4C4BE65BA469369CD90AAA733D0A8E8AF6BCDC1 )
-)
-game (
-	name "Musical Notes (World)"
-	releaseyear "2023"
-	releasemonth "05"
 	releaseday "27"
 	rom ( name "Musical Notes (World) (2023-05-27) (Aftermarket) (Unl).gbc" size 524288 crc EC4F9D49 md5 5C010C6C3243380DB1C64E9C01D1B982 sha1 357DB81755F1F0EB732367DD4090C446EB226DDF )
+)
+game (
+	name "Musical Notes (World) (Alt 1)"
+	releaseyear "2023"
+	releasemonth "05"
+	releaseday "19"
+	rom ( name "Musical Notes (World) (2023-05-19) (Aftermarket) (Unl).gbc" size 524288 crc 1BA7D27F md5 FAF6768EBD1B7A72783A2C30FD3ECA17 sha1 D4C4BE65BA469369CD90AAA733D0A8E8AF6BCDC1 )
 )
 game (
 	name "Muteki Ou Tri-Zenon (Japan)"
@@ -6872,31 +6466,6 @@ game (
 	name "NBA Jam 2001 (USA, Europe)"
 	region "USA"
 	rom ( name "NBA Jam 2001 (USA, Europe).gbc" size 1048576 crc 3AA75F1C md5 14BFCE85AF0AE19AFFBDCEF23A9D6BAF sha1 B1F7230DCCCAECB7AE9B2A0E786EFFAC2FC24497 )
-)
-game (
-	name "NBA Jam 2001 (USA, Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "02"
-	releaseday "07"
-	region "USA"
-	rom ( name "NBA Jam 2001 (USA, Europe) (Beta) (2000-02-07).gbc" size 131072 crc 594EE678 md5 488C90EEA5B5E2E8E217BE6B7C9A1318 sha1 5D8AE5937A374FE4E36FE5303E3AD3757EE9675C )
-)
-game (
-	name "NBA Jam 2001 (USA, Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "05"
-	releaseday "05"
-	region "USA"
-	rom ( name "NBA Jam 2001 (USA, Europe) (Beta) (2000-05-05).gbc" size 1048576 crc 926B47D1 md5 87A9DA6697ED8695141F0EF84A0E26E8 sha1 DDBB720BE9DD573728F897ABE77569D42DAE7BAF )
-)
-game (
-	name "NBA Jam 2001 (USA, Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "09"
-	releaseday "26"
-	region "USA"
-	serial "BJAE"
-	rom ( name "NBA Jam 2001 (USA, Europe) (Beta) (2000-09-26).gbc" size 1048576 crc 0D5506AE md5 E5A5FF83AB27AA5B20D40DD2DDF3100D sha1 2859D6AD2AF7FF3333AD0D3750A1FD4B3088D47D serial "BJAE" )
 )
 game (
 	name "NBA Jam 99 (USA, Europe) (GB Compatible)"
@@ -7007,16 +6576,6 @@ game (
 	name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan)"
 	region "Japan"
 	rom ( name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan).gbc" size 4194304 crc C04539F8 md5 A03E3CD1A2C78BE11E3A52FE995CEC71 sha1 F1B845D5508DA37F3600437609D8CC8743799918 )
-)
-game (
-	name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 1)"
-	region "Japan"
-	rom ( name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 1).gbc" size 4194304 crc B65A9FB6 md5 528FF2F54EB0B318E8E91A282FD62F2D sha1 DF98EED187A3691FF7FE07619BAB1D01072DAEC6 )
-)
-game (
-	name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 2)"
-	region "Japan"
-	rom ( name "Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 2).gbc" size 4194304 crc F4E674BE md5 978EF3E4E41F9B5330F17CF9A6DE9595 sha1 AA5E2DD4590BBE9D20C76D8FB1ED408CFDC7350B )
 )
 game (
 	name "Nakayoshi Pet Series 1 - Kawaii Hamster (Japan) (GB Compatible)"
@@ -7173,43 +6732,6 @@ game (
 	rom ( name "Nyghtmare - The Ninth King (World) (Rev 1) (Free Version) (Aftermarket) (Unl).gbc" size 2097152 crc 63BDDC68 md5 10F986C4DFA323B42125CCBB8EC9C8BA sha1 FAB777E607BD8ABA70EB65829143039DBE6AC08E )
 )
 game (
-	name "Nyghtmare - The Ninth King (World) (v0.1.0) (Beta) (GB Compatible)"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.1.0) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 1F1AF42A md5 3865301A25BB849EB1F216454E014996 sha1 DDCDBFA716D716E1B7BB258CAAAA7B76D041B5A9 )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.1.2) (Beta) (GB Compatible)"
-	serial "CGB-ENIN"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.1.2) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc EF42955E md5 A72A4D45B155F4A41BD2613D0BB3F5FA sha1 485B4D672D9EDDA40F9191F5F5CC223046000E67 serial "CGB-ENIN" )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.1.2) (Beta) (GB Compatible) (Alt)"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.1.2) (Beta) (GB Compatible) (Aftermarket) (Unl) (Alt).gbc" size 524288 crc 834A8021 md5 DECDE704DFE0A7E4644E3F6C4C9474F3 sha1 D5AF2BF38EDA4C181993E992764788003509EBFD )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.1.9) (Beta) (GB Compatible)"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.1.9) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc 42D9C38C md5 AC2985F193CF8ACC1D1CC5124FC2E406 sha1 AE719190CF2F433C359BC425775710F4AA67E860 )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.2.1) (Beta)"
-	serial "CGB-ENIN"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.2.1) (Beta) (Aftermarket) (Unl).gbc" size 1048576 crc 581EFE4D md5 6F40BE54D3680D87D36DF07815E4C0C8 sha1 125BB0564EE17F8E55046A1C25E53EE9A4254303 serial "CGB-ENIN" )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.2.3) (Beta)"
-	serial "CGB-ENIN"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.2.3) (Beta) (Aftermarket) (Unl).gbc" size 1048576 crc E26DDBBB md5 42D27DF48114658836C5A234F1D7EF81 sha1 853115369B8CA583D038D00C1DDE59B6A74B73A2 serial "CGB-ENIN" )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.2.5) (Beta)"
-	serial "CGB-ENIN"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.2.5) (Beta) (Aftermarket) (Unl).gbc" size 1048576 crc 1E8AC5B9 md5 EFAB73EC361B19896BFE5A09CEB53C25 sha1 99C11BEF7FEB17A9E7212CF9B6593478F671BC32 serial "CGB-ENIN" )
-)
-game (
-	name "Nyghtmare - The Ninth King (World) (v0.2.6) (Beta)"
-	serial "CGB-ENIN"
-	rom ( name "Nyghtmare - The Ninth King (World) (v0.2.6) (Beta) (Aftermarket) (Unl).gbc" size 1048576 crc E983E8D1 md5 8632A46BA831EFF50D1AC5FB00FAAB84 sha1 FC2A58D49327C88C895AE6681BDE57E1A2687974 serial "CGB-ENIN" )
-)
-game (
 	name "O'Leary Manager 2000 (Europe) (En,Fr,De,Es,It,Nl,Ca)"
 	region "Europe"
 	rom ( name "O'Leary Manager 2000 (Europe) (En,Fr,De,Es,It,Nl,Ca).gbc" size 1048576 crc 3485761A md5 7784FF1A16B15E8E55A6B43159CC1774 sha1 724AA0F905D7A6E7B9B2B01A477F424AC95EADF9 )
@@ -7281,6 +6803,10 @@ game (
 game (
 	name "OrmBlok (World)"
 	rom ( name "OrmBlok (World) (Aftermarket) (Unl).gbc" size 524288 crc 32EA3E07 md5 EAFC504D33043897805815B54AB80ADC sha1 64556945D98E3B4A144342BDCF485B01E463C62B )
+)
+game (
+	name "Oshinui Tune (World) (En,Ja) (v1.0.3) (GB Compatible)"
+	rom ( name "Oshinui Tune (World) (En,Ja) (v1.0.3) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc BA77E1FA md5 0A23D354E139F40FE409FCE3FC1F503C sha1 09B35CFAB7EE7F5C7F08887E1FFDA255B58C3C6A )
 )
 game (
 	name "Othello Millennium (Japan) (GB Compatible)"
@@ -7459,16 +6985,24 @@ game (
 	rom ( name "Piecrust (World) (Unl).gbc" size 32768 crc F39C8119 md5 D076AB5BE2EC4972376DE685C3705FF2 sha1 B01CAD9652BF1C65151DD8D2BD21251A9CF44D43 )
 )
 game (
+	name "Pierrot a la Mode (World) (v1.2)"
+	rom ( name "Pierrot a la Mode (World) (v1.2) (Aftermarket) (Unl).gbc" size 524288 crc A0D61CC8 md5 E0EB0FDBE9A13E4E393870467CEA20FD sha1 BAE3D19570245E2C7D75CD48CC5DD33FE2DDE26D )
+)
+game (
+	name "Pierrot a la Mode (World) (v1.3)"
+	rom ( name "Pierrot a la Mode (World) (v1.3) (Aftermarket) (Unl).gbc" size 524288 crc 806D493A md5 D5BB9A91E0E1EEA99EF5448FED3E5483 sha1 EB5A3BD953FE87D73E9024F2355695D7B38FE652 )
+)
+game (
+	name "Pierrot a la Mode (World) (v2.0.1)"
+	rom ( name "Pierrot a la Mode (World) (v2.0.1) (Aftermarket) (Unl).gbc" size 1048576 crc FE642F2D md5 CFAFD3AF8BBF8635016584273AD41BBC sha1 7397008BBE1BA9E2870E7ADC31F2A6970268F34D )
+)
+game (
 	name "Pilgrim's Peril (World) (Demo 1) (GB Compatible)"
 	rom ( name "Pilgrim's Peril (World) (Demo 1) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 3C2BAFDC md5 6D320548645094A55AA2E6044AECD54F sha1 D38F3F5E491DBAED84E88099987712449DB9B33D )
 )
 game (
 	name "Pilgrim's Peril (World) (Demo 2) (GB Compatible)"
 	rom ( name "Pilgrim's Peril (World) (Demo 2) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc CDDED15B md5 C2AA8555DAD975A7005AB85BD8FEFC04 sha1 2B85EB77AB2DCEA4F645ABCC1A66DBCE54A6EBAA )
-)
-game (
-	name "Pine Creek (World) (En-US,Es-MX,Pt-BR) (v2.2) (Beta) (GB Compatible)"
-	rom ( name "Pine Creek (World) (En-US,Es-MX,Pt-BR) (v2.2) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 189AA999 md5 F91BC9D802E1FA17E5611BDD9F0D4D60 sha1 2CF46A36502EAF22AC9572FE1136D369FCBE9E46 )
 )
 game (
 	name "Pinecone Pizza Party (World) (Prototype) (GB Compatible)"
@@ -7493,12 +7027,6 @@ game (
 	name "Planet of the Apes (USA) (En,Fr,De,Es,It,Nl)"
 	region "USA"
 	rom ( name "Planet of the Apes (USA) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 91D7CCCA md5 A55B8D588BBAA4EBCB4D53DBB534329F sha1 84B616C937B9DCC7CDCB05F583A4D60467EDE385 )
-)
-game (
-	name "Planet of the Apes (USA) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "USA"
-	serial "BXEE"
-	rom ( name "Planet of the Apes (USA) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc DF6CEE10 md5 AF77CEB4EB5D5F2E17458064FCDC9087 sha1 554C98049B8F4DB23C891A9B95C57B595ED90CD8 serial "BXEE" )
 )
 game (
 	name "PlayTime (World) (Proto) (GB Compatible)"
@@ -7553,12 +7081,6 @@ game (
 	name "Pocket Cooking (Japan)"
 	region "Japan"
 	rom ( name "Pocket Cooking (Japan).gbc" size 4194304 crc F5AB554D md5 ED002E5B29F7082A6A37191BF5AF1D08 sha1 60A13FC904100655A52DFB61D9ABE77CC126E58C )
-)
-game (
-	name "Pocket Cooking (Japan) (Beta)"
-	region "Japan"
-	serial "APJJ"
-	rom ( name "Pocket Cooking (Japan) (Beta).gbc" size 4194304 crc FB9594A1 md5 C69BF9512A815C37363DA0E7FF418D68 sha1 13BBC290C706AEBBD0E4ABB518A716D65A5250EA serial "APJJ" )
 )
 game (
 	name "Pocket Densha 2 (Japan) (SGB Enhanced) (GB Compatible)"
@@ -7657,19 +7179,19 @@ game (
 )
 game (
 	name "Pocket Music (USA) (En,Es) (Proto)"
-	releaseyear "2002"
-	releasemonth "03"
-	releaseday "04"
-	region "USA"
-	rom ( name "Pocket Music (USA) (En,Es) (Proto) (2002-03-04).gbc" size 1048576 crc C4387812 md5 6CA4B011F72523DBD40D9EA470D2B4EA sha1 AD547A79AF864EB56A18E1C2AD4346EB35DF41ED )
-)
-game (
-	name "Pocket Music (USA) (En,Es) (Proto)"
 	releaseyear "2003"
 	releasemonth "03"
 	releaseday "07"
 	region "USA"
 	rom ( name "Pocket Music (USA) (En,Es) (Proto) (2003-03-07).gbc" size 1048576 crc E6DDA84F md5 4B5DA8D4B73304B6694651F3FD8C8216 sha1 5291A00AC57DCF47E485F33972000682B861BFE8 )
+)
+game (
+	name "Pocket Music (USA) (En,Es) (Proto) (Alt 1)"
+	releaseyear "2002"
+	releasemonth "03"
+	releaseday "04"
+	region "USA"
+	rom ( name "Pocket Music (USA) (En,Es) (Proto) (2002-03-04).gbc" size 1048576 crc C4387812 md5 6CA4B011F72523DBD40D9EA470D2B4EA sha1 AD547A79AF864EB56A18E1C2AD4346EB35DF41ED )
 )
 game (
 	name "Pocket Music (World) (Proto) (Riff Sampler Test)"
@@ -7803,12 +7325,6 @@ game (
 	name "Pokemon - Sapphire Version (USA)"
 	region "USA"
 	rom ( name "Pokemon - Sapphire Version (USA) (Unl).gbc" size 2097152 crc 71536B8E md5 4D8CAC8DD06FB8DA1DEBF7E84A1C2166 sha1 88818C67FB1D9AE5C06E8213F09342D230923113 )
-)
-game (
-	name "Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible)"
-	region "Germany"
-	serial "AAXD"
-	rom ( name "Pokemon - Silberne Edition (Germany) (Beta) (SGB Enhanced) (GB Compatible).gbc" size 2097152 crc 576F5CED md5 A3799918A413D72787D4434935DF2117 sha1 76FA60D66B2F22A035ADC54C61AAD9A415C894CD serial "AAXD" )
 )
 game (
 	name "Pokemon - Silberne Edition (Germany) (SGB Enhanced) (GB Compatible)"
@@ -7989,12 +7505,6 @@ game (
 	rom ( name "Pokemon de Panepon (Japan).gbc" size 2097152 crc 6BF7E4A6 md5 510EB8C9DF5D3F71E01F5A7898A0A1F1 sha1 110AE6649B4264F88D82760AD6AE4EE7F07DB9B2 )
 )
 game (
-	name "Polaris SnoCross (USA) (Beta) (Rumble Version)"
-	region "USA"
-	serial "VPSE"
-	rom ( name "Polaris SnoCross (USA) (Beta) (Rumble Version).gbc" size 1048576 crc 673623C4 md5 6B953A346E1FE063D66D8A23F3BFA27D sha1 4176EF1F9FD37156A4CAC37A2D146ED2DEEB5A7B serial "VPSE" )
-)
-game (
 	name "Polaris SnoCross (USA) (Rumble Version)"
 	region "USA"
 	rom ( name "Polaris SnoCross (USA) (Rumble Version).gbc" size 1048576 crc DD8B189E md5 D0CA48AEE3FFB5FD44FC4D4359C5D44B sha1 E893808FE227A1608C0604382D6A0340EC704C3B )
@@ -8077,18 +7587,18 @@ game (
 	rom ( name "Postman Pat's Trail Game (World) (Aftermarket) (Unl).gbc" size 262144 crc AD31B512 md5 161D839487A5B618C50EEB95B839AC8C sha1 135977FE71677E3C49450E2C6FF63105D10DFAAC )
 )
 game (
-	name "Potbound (World) (Proto) (GBJam 10) (GB Compatible)"
-	releaseyear "2022"
-	releasemonth "09"
-	releaseday "26"
-	rom ( name "Potbound (World) (2022-09-26) (Proto) (GBJam 10) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc D0D8386D md5 7EFCE91CCCC497E6CD816508DDEC3437 sha1 FBDDF81A1663388FF0EFEEB9051E68E0C323C839 )
-)
-game (
 	name "Potbound (World) (Proto) (GB Compatible)"
 	releaseyear "2022"
 	releasemonth "09"
 	releaseday "27"
 	rom ( name "Potbound (World) (2022-09-27) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 6DA19041 md5 90E6F6D8989D241D386BB1C021687099 sha1 EB581935AD9223D723FDBC8339C03436DF051947 )
+)
+game (
+	name "Potbound (World) (Proto) (GBJam 10) (GB Compatible)"
+	releaseyear "2022"
+	releasemonth "09"
+	releaseday "26"
+	rom ( name "Potbound (World) (2022-09-26) (Proto) (GBJam 10) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc D0D8386D md5 7EFCE91CCCC497E6CD816508DDEC3437 sha1 FBDDF81A1663388FF0EFEEB9051E68E0C323C839 )
 )
 game (
 	name "Power Pro Kun Pocket (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)"
@@ -8233,7 +7743,7 @@ game (
 	rom ( name "Princess Poffin and the Spider Invasion! (World) (2023-06-04) (GB Compatible) (Aftermarket) (Unl).gbc" size 262144 crc A86CADA1 md5 19DE85B3B8AABC3CBDE67E20C7AE2925 sha1 B02096C489C0F36582061D6EB62BEB17E8294B61 )
 )
 game (
-	name "Princess Poffin and the Spider Invasion! (World) (GB Compatible)"
+	name "Princess Poffin and the Spider Invasion! (World) (GB Compatible) (Alt 1)"
 	releaseyear "2023"
 	releasemonth "06"
 	releaseday "06"
@@ -8275,22 +7785,9 @@ game (
 	rom ( name "Pro Pool (USA) (En,Fr,De).gbc" size 1048576 crc 2611FA3D md5 BE116EBC3666CD9DE17EC00CC9F74D02 sha1 C85E514C24C82071907C6495243DAE448B46C2B2 )
 )
 game (
-	name "Pro Pool (USA) (En,Fr,De) (Beta)"
-	region "USA"
-	rom ( name "Pro Pool (USA) (En,Fr,De) (Beta).gbc" size 1048576 crc 04D3031A md5 27AAEB747ED1E125582729BA82FE8C28 sha1 56252A97A3D463103E1047A6E1A64CAD43BEDD4C )
-)
-game (
 	name "Project S-11 (USA)"
 	region "USA"
 	rom ( name "Project S-11 (USA).gbc" size 524288 crc 20CEE2E8 md5 8FE6340C822DAA9CB07C7D8AB8509751 sha1 CBEDD34A0C6A2F4E58D05F0BB6D54F7CBCDA815C )
-)
-game (
-	name "Project S-11 (USA) (Beta)"
-	releaseyear "2000"
-	releasemonth "05"
-	releaseday "11"
-	region "USA"
-	rom ( name "Project S-11 (USA) (Beta) (2000-05-11).gbc" size 65536 crc 94CB3DF7 md5 A779F9FD31F32E78D6B4CEA27AA15541 sha1 D03395ABC4649ED21C41A2C6F0A6CEA5EA77D364 )
 )
 game (
 	name "Project S-11 (World) (ModRetro Chromatic)"
@@ -8569,10 +8066,8 @@ game (
 	rom ( name "Rayman 2 Forever (Europe) (En,Fr,De,Es,It).gbc" size 4194304 crc 250015D4 md5 31DDDE6B4C72261181E428AC99103304 sha1 5EA438C5B52696255E8DF74EB19E3CAC1427A14A )
 )
 game (
-	name "Rayman 2 Forever (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	serial "BRYP"
-	rom ( name "Rayman 2 Forever (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc 93341DEB md5 EF91E97CCC04646D66DAF3B6F5D73E54 sha1 DC929B5323DA6E1988CB3574E5F1AD056D417311 serial "BRYP" )
+	name "Rayman 2 Forever (World) (En,Fr,De,Es,It) (ModRetro Chromatic)"
+	rom ( name "Rayman 2 Forever (World) (En,Fr,De,Es,It) (ModRetro Chromatic).gbc" size 4194304 crc 8EF95773 md5 1D050D281008531FEFE5E5F25BFF4D14 sha1 89FA169EF5F1A5BB913EF089052F8381D27D4E17 )
 )
 game (
 	name "Razmoket a Paris, Les - Le Film (France)"
@@ -8624,10 +8119,6 @@ game (
 	rom ( name "Remi's Pizzaria (World) (GB Compatible) (Aftermarket) (Unl).gbc" size 262144 crc F7A4FCFB md5 B71F9207F81109A0358AEBBA688418B1 sha1 FDC8C8A1BAB2DFCFE3E43175E830382FE63D5C7D )
 )
 game (
-	name "Repugnant Bounty (World) (v0.1.023) (Beta) (GB Compatible)"
-	rom ( name "Repugnant Bounty (World) (v0.1.023) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 3A1B1D83 md5 9CF5135BD746FA7F475C65F46E1AE2E1 sha1 4DDA0CCE6907DE94EEAE3F11A40238C3F5155CA7 )
-)
-game (
 	name "Rescue Heroes - Fire Frenzy (USA)"
 	region "USA"
 	rom ( name "Rescue Heroes - Fire Frenzy (USA).gbc" size 1048576 crc 77A4DC63 md5 45A7802B724DC5431847F60F3E78A302 sha1 A57AEB43EF88FFD09F5028368A3142C3E9F5E792 )
@@ -8644,6 +8135,14 @@ game (
 game (
 	name "Resident Evil (World) (Proto 2)"
 	rom ( name "Resident Evil (World) (Proto 2).gbc" size 4194304 crc 53F7BBA1 md5 FD91D5D69C43F2F0406B3626D625B6E6 sha1 BDA5A658631A5714E761EE1805BAAA0008EE8CDF )
+)
+game (
+	name "Resident Evil (World) (Proto 3)"
+	rom ( name "Resident Evil (World) (Proto 3).gbc" size 4194304 crc 813F41B3 md5 E1B6C14D96F1D6C636CB3FCF9A8ABEB8 sha1 372329E7B646319BD79106AF7016EA3F816F023A )
+)
+game (
+	name "Resident Evil (World) (Proto 4)"
+	rom ( name "Resident Evil (World) (Proto 4).gbc" size 4194304 crc DAECC4B5 md5 A026FAD833D445BBA31675BE81904352 sha1 8004EDD24EFCB2AF76FB5B631AB5D74115672AB2 )
 )
 game (
 	name "Resident Evil Gaiden (Europe) (En,Fr,De,Es,It)"
@@ -8719,24 +8218,6 @@ game (
 	rom ( name "Road Rash (USA, Europe).gbc" size 1048576 crc 11025EEB md5 F5767F97F44365B703EAE78AFB7562E6 sha1 B3329C0F92C1A6A6CFA894F487F68A7FCCEB5844 )
 )
 game (
-	name "Road Rash (USA, Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "08"
-	releaseday "07"
-	region "USA"
-	serial "BRRE"
-	rom ( name "Road Rash (USA, Europe) (Beta) (2000-08-07).gbc" size 1048576 crc 785CA36C md5 EB3AB098FBCB54A487E6745AC24547AA sha1 99D901161A3F6198FF9A20F61DD106AFA9A377EE serial "BRRE" )
-)
-game (
-	name "Road Rash (USA, Europe) (Beta)"
-	releaseyear "2000"
-	releasemonth "08"
-	releaseday "10"
-	region "USA"
-	serial "BRRE"
-	rom ( name "Road Rash (USA, Europe) (Beta) (2000-08-10).gbc" size 1048576 crc B71C04E1 md5 6B419266E1C2527F45AE37AD72289D68 sha1 64AB483F5C4D85CAC76DE5E708F5B23479BD5B53 serial "BRRE" )
-)
-game (
 	name "Roadsters '98 (USA) (Proto) (SGB Enhanced) (GB Compatible)"
 	region "USA"
 	rom ( name "Roadsters '98 (USA) (Proto) (SGB Enhanced) (GB Compatible).gbc" size 131072 crc FE2995A1 md5 DF12FD885C09702EF5F02BFD2A5E1EC3 sha1 30A28CD5E020E98B0E7016B5CCDA5BC0972A0AC9 )
@@ -8773,11 +8254,6 @@ game (
 	name "Robopon - Star Version (USA) (Proto) (SGB Enhanced) (GB Compatible)"
 	region "USA"
 	rom ( name "Robopon - Star Version (USA) (Proto) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc CF5F0A63 md5 4E362C69C3D8F1E170F8E2A25D929435 sha1 54E064A24CD50B7E25DF5C827C54A20643EC314A )
-)
-game (
-	name "Robopon - Sun Version (USA) (Beta) (SGB Enhanced) (GB Compatible)"
-	region "USA"
-	rom ( name "Robopon - Sun Version (USA) (Beta) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc 0B6985E4 md5 4B62032C9CFECF52156AD0A2598444BD sha1 30F36F420BEC76126171B1139538DE4017ED75AC )
 )
 game (
 	name "Robopon - Sun Version (USA) (SGB Enhanced) (GB Compatible)"
@@ -8926,18 +8402,6 @@ game (
 	rom ( name "Rox (USA, Europe) (GB Compatible).gbc" size 262144 crc 2E944775 md5 C4CD1E337BB76AD0F7307F5CFA1EF6BC sha1 86CB1F29E5D061431978D6DC48D7278B9C290CDA )
 )
 game (
-	name "Ruby & Rusty Save the Crows (World) (Beta 1) (GB Compatible)"
-	rom ( name "Ruby & Rusty Save the Crows (World) (Beta 1) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc A46BAA15 md5 2B55508C1568411D22520FBED55D85F3 sha1 87DD5A6CCB5DB59DAE09F1953062420977AD2D92 )
-)
-game (
-	name "Ruby & Rusty Save the Crows (World) (Beta 2) (GB Compatible)"
-	rom ( name "Ruby & Rusty Save the Crows (World) (Beta 2) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 5602CA84 md5 9896E3A34AE29D05DD0F5D2A298A75AD sha1 49D692796A6D0F3DCFC988648B446C0934F0E794 )
-)
-game (
-	name "Ruby & Rusty Save the Crows (World) (Beta 3) (GB Compatible)"
-	rom ( name "Ruby & Rusty Save the Crows (World) (Beta 3) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc B2547AA6 md5 7545B127E8998E1E299289D79673EF63 sha1 981A464D6E1C9E5AC59549845B41DAE4817ED3B8 )
-)
-game (
 	name "Ruby & Rusty Save the Crows (World) (v2.6) (GB Compatible)"
 	rom ( name "Ruby & Rusty Save the Crows (World) (v2.6) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc C18F82CB md5 F9FEABE8EB6D7921A883FD74FAF08BCC sha1 BD8CD5822DCC61F7EB0CF2584C9A5B5A94BDE14A )
 )
@@ -9080,7 +8544,7 @@ game (
 	rom ( name "Sam the Optimistic Hedgehog (World) (2023-01-16) (GB Compatible) (Aftermarket) (Unl).gbc" size 262144 crc 4E4AF60B md5 B06E4EF225FBF01771DEA02679F3775E sha1 AB8D49A99D02EB5C97D75F62DFB3720EEC2B5ABD )
 )
 game (
-	name "Sam the Optimistic Hedgehog (World) (GB Compatible)"
+	name "Sam the Optimistic Hedgehog (World) (GB Compatible) (Alt 1)"
 	releaseyear "2023"
 	releasemonth "01"
 	releaseday "21"
@@ -9319,11 +8783,6 @@ game (
 	name "Shantae (USA)"
 	region "USA"
 	rom ( name "Shantae (USA).gbc" size 4194304 crc E994B59B md5 028C4262DBB49F4FC462A6EB3E514D72 sha1 520E48C50F6E997FCD841CA368FC9ABC1DBDDEC1 )
-)
-game (
-	name "Shantae (USA) (Beta)"
-	region "USA"
-	rom ( name "Shantae (USA) (Beta).gbc" size 4194304 crc 3B4D6C50 md5 AFD4AE2F42DA36DDB740FA6A5B06D74E sha1 141DC57955E84D51F0099C0709A0626D43AB8FA7 )
 )
 game (
 	name "Shantae (World) (GBA Enhanced) (Switch)"
@@ -9589,44 +9048,44 @@ game (
 game (
 	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
 	releaseyear "2021"
+	releasemonth "12"
+	releaseday "09"
+	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-12-09) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 599132EC md5 C84BC300653ADA16FC0B95D14205D992 sha1 762087DF0E5820F1E50DA2A22F9EE3B8D16C3E49 )
+)
+game (
+	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible) (Alt 1)"
+	releaseyear "2021"
 	releasemonth "04"
 	releaseday "16"
 	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-04-16) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 131072 crc 5370B1BF md5 F8690CDD39E182F3BDF09AC5559676EF sha1 966E2D79AB4930039C3D6C43FDBB8CDC068BA347 )
 )
 game (
-	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
+	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible) (Alt 2)"
 	releaseyear "2021"
 	releasemonth "08"
 	releaseday "24"
 	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-08-24) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 16F34BCC md5 C718CD9FA02D51D389D498AC0469C3BE sha1 C34E744B9120E3A1B2B054D3708E4AB594726C5A )
 )
 game (
-	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
+	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible) (Alt 3)"
 	releaseyear "2021"
 	releasemonth "09"
 	releaseday "13"
 	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-09-13) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 31CE3F27 md5 44837786E1A5EB6AE5B70A14127A869F sha1 C33D685D5EA5CD6CD954AF3BC9EE92719B9578B1 )
 )
 game (
-	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
+	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible) (Alt 4)"
 	releaseyear "2021"
 	releasemonth "11"
 	releaseday "07"
 	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-11-07) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc D54B53CB md5 828FA006F4913138BFB964B6685E3463 sha1 08948BEFA0227B795D00FE60E9EEDE6A1F56597B )
 )
 game (
-	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
+	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible) (Alt 5)"
 	releaseyear "2021"
 	releasemonth "12"
 	releaseday "03"
 	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-12-03) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 314BE6B5 md5 34793EE5979947EFE26929935803E708 sha1 37978F85AE92E7D9A53611659513FD360F57A5B1 )
-)
-game (
-	name "Silent Hill 2 - 20th Anniversary Demake (World) (Proto) (GB Compatible)"
-	releaseyear "2021"
-	releasemonth "12"
-	releaseday "09"
-	rom ( name "Silent Hill 2 - 20th Anniversary Demake (World) (2021-12-09) (Proto) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 599132EC md5 C84BC300653ADA16FC0B95D14205D992 sha1 762087DF0E5820F1E50DA2A22F9EE3B8D16C3E49 )
 )
 game (
 	name "Simpsons, The - Night of the Living Treehouse of Horror (USA, Europe)"
@@ -9708,11 +9167,6 @@ game (
 	name "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	rom ( name "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 8C2D9B43 md5 D3C6C44A4F6021B4D5A6454A87AF9A6C sha1 E51347BB82E44A2ECEFEB3F220A0B3DEF6DAF514 )
-)
-game (
-	name "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "Snoopy Tennis (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc 49DB04A6 md5 207FE7E94F56F9EE85F12BBBA56774D2 sha1 03ADC2731945BC86588FFFEDFEE2050A00679CE6 )
 )
 game (
 	name "Snoopy Tennis (Japan)"
@@ -10326,16 +9780,6 @@ game (
 	rom ( name "Survival Kids 2 - Dasshutsu!! Futago-jima! (Japan) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc AB8B25D8 md5 9D2F7E1AC30A46456A841C264963E5EA sha1 8FD720D5B035939B553910A3EC45C1BD052484EB )
 )
 game (
-	name "Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl) (Beta 1)"
-	region "Europe"
-	rom ( name "Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl) (Beta 1).gbc" size 524288 crc 617D7667 md5 B542FBCF77DEA9DE05CEAB312648AF6D sha1 B215146FE8E2A5836D0AC6FA4785F95DB464FC1A )
-)
-game (
-	name "Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl) (Beta 2)"
-	region "Europe"
-	rom ( name "Suske en Wiske - De Tijdtemmers ~ Bob et Bobette - Les Dompteurs du Temps (Europe) (Fr,Nl) (Beta 2).gbc" size 524288 crc 6BFCFD87 md5 91889EBCA9B20510ECE17EABDF2F071A sha1 83C64DD44D3D03E3FD0711B23BF63E2264256DEA )
-)
-game (
 	name "Sutte Hakkun GB (Japan) (Proto) (SGB Enhanced) (GB Compatible)"
 	region "Japan"
 	rom ( name "Sutte Hakkun GB (Japan) (Proto) (SGB Enhanced) (GB Compatible).gbc" size 524288 crc E0386F84 md5 243B2B6151D41D8E111E98AC49BA9AB4 sha1 6EFD637F039D4F3A2240640921724A69A2844CC7 )
@@ -10567,7 +10011,7 @@ game (
 	rom ( name "Tazz (World) (2022-10-13) (Aftermarket) (Unl).gbc" size 262144 crc 1D97B754 md5 CF0DD6CE83AA648A1AA1E6DC7C3846F8 sha1 39226ED715AE8D94F9187C3E5E8A849EAC92CA26 )
 )
 game (
-	name "Tazz (World)"
+	name "Tazz (World) (Alt 1)"
 	releaseyear "2022"
 	releasemonth "10"
 	releaseday "17"
@@ -10689,11 +10133,6 @@ game (
 	name "Tintin - Le Temple Du Soleil (Europe) (En,Fr,De)"
 	region "Europe"
 	rom ( name "Tintin - Le Temple Du Soleil (Europe) (En,Fr,De).gbc" size 1048576 crc B2205D49 md5 46ED332D95C5DA9A2007945FED9F8118 sha1 34AB01951490A9510A3E0D3493D25A2547761AEA )
-)
-game (
-	name "Tintin - Le Temple Du Soleil (Europe) (En,Fr,De) (Beta)"
-	region "Europe"
-	rom ( name "Tintin - Le Temple Du Soleil (Europe) (En,Fr,De) (Beta).gbc" size 1048576 crc 94AED620 md5 90FB966CBB46D038EC7D74B2F3F6487F sha1 8C29D9135FCF3C74397DA8B0898AF07D0B3B7955 )
 )
 game (
 	name "Tintin au Tibet (Europe) (En,Fr,De,Es,It,Nl,Sv)"
@@ -10831,12 +10270,6 @@ game (
 	rom ( name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It).gbc" size 4194304 crc 2988FC78 md5 74B9B221C2B32147422144B327BD5F30 sha1 208B054CA63C43F32BEFA989C75E8DE96847F4FE )
 )
 game (
-	name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta)"
-	region "USA"
-	serial "AT9E"
-	rom ( name "Tomb Raider (USA, Europe) (En,Fr,De,Es,It) (Beta).gbc" size 4194304 crc 58590868 md5 545B4875C01233EDBDC6C2CD001AEC25 sha1 3F7259E9DEF8BE46E9B1F2956182084276F105ED serial "AT9E" )
-)
-game (
 	name "Tomb Raider - Curse of the Sword (USA, Europe)"
 	region "USA"
 	rom ( name "Tomb Raider - Curse of the Sword (USA, Europe).gbc" size 4194304 crc 02C1035A md5 A0B4538F687FC61BC88F7EE111170355 sha1 C84DB1EAF7403BA292BE020D410AB453342AB737 )
@@ -10859,11 +10292,6 @@ game (
 	name "Tonka Construction Site (USA)"
 	region "USA"
 	rom ( name "Tonka Construction Site (USA).gbc" size 1048576 crc 8142A3E8 md5 87422721DD67B96736861358C71D5A8B sha1 19E6FB8B61EC20025061B2703079DB926BE93C96 )
-)
-game (
-	name "Tonka Construction Site (USA) (Beta)"
-	region "USA"
-	rom ( name "Tonka Construction Site (USA) (Beta).gbc" size 1048576 crc 901FAA34 md5 2ADF26F87BE3D5E56261D173E74EC4F5 sha1 16FC094EF9A0AF8376FEDD6B7E6179D33C4F78BF )
 )
 game (
 	name "Tonka Raceway (Europe)"
@@ -10907,10 +10335,6 @@ game (
 	rom ( name "Toobin' (USA).gbc" size 1048576 crc 3D6B598C md5 D9575286A0DA1DA5F6036F649024298C sha1 BA5A1889F63AC13A1081885F0FCBE4C351C63FEA )
 )
 game (
-	name "Tools of Nexaura (World) (Beta 4) (SGB Enhanced) (GB Compatible)"
-	rom ( name "Tools of Nexaura (World) (Beta 4) (SGB Enhanced) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc 232C0F9D md5 A4AF66B229F3BED283F361275484D84D sha1 2F11A5843E0704F48C0755C176B73026E7538A38 )
-)
-game (
 	name "Toonsylvania (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	rom ( name "Toonsylvania (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 6573B88F md5 91FD1E446EF8AF51080409B7940391E9 sha1 48943F0F5D47444889F78DA7EE0472D9B42DBC89 )
@@ -10924,11 +10348,6 @@ game (
 	name "Tootuff (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
 	rom ( name "Tootuff (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 1972CBF7 md5 4639D79E2E02A687A44D19D9C9C3C28A sha1 E38C16213C6BB0C1511ADE138E3E8EEABD7B8898 )
-)
-game (
-	name "Tootuff (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "Tootuff (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc 709F4AD6 md5 4F682B03D485A50CC4A0307E9C949196 sha1 F71F380F9C68C42FC1461532CA92BFFAA301DA4D )
 )
 game (
 	name "Top Gear Pocket (Japan) (En) (Rumble Version)"
@@ -11094,14 +10513,6 @@ game (
 	rom ( name "Trouballs (USA).gbc" size 524288 crc 260EED04 md5 1B5E155AC68D2C7B89E49C5E1024B45C sha1 DC4D0F608354E7CC32DF7501DBACF8C50D70E728 )
 )
 game (
-	name "Trouballs (USA) (Beta)"
-	releaseyear "2000"
-	releasemonth "04"
-	releaseday "02"
-	region "USA"
-	rom ( name "Trouballs (USA) (Beta) (2000-04-02).gbc" size 131072 crc 89B2F7DA md5 DDDBE98001059D52284539A631094799 sha1 8A6EFCF30643969A82FBBE24B986AD8A79A99A55 )
-)
-game (
 	name "Trouble City - Pocket Mission (World) (GB Compatible)"
 	rom ( name "Trouble City - Pocket Mission (World) (GB Compatible) (Aftermarket) (Unl).gbc" size 524288 crc 4B9143AD md5 FAC7B33C7D7D3B92E39DFD325E9C7F9A sha1 0E51E398D44AAAD74A7C622F7818B56A3B34DB56 )
 )
@@ -11134,11 +10545,6 @@ game (
 	name "Turok 2 - Jikku Senshi (Japan) (GB Compatible)"
 	region "Japan"
 	rom ( name "Turok 2 - Jikku Senshi (Japan) (GB Compatible).gbc" size 1048576 crc F095B446 md5 9253AAE0D9257D82F52D879813CF3C19 sha1 08A112F0C3FDC4CD4C14CFB98683D25D5D8475DE )
-)
-game (
-	name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (Beta) (GB Compatible)"
-	region "USA"
-	rom ( name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (Beta) (GB Compatible).gbc" size 1048576 crc DAE30864 md5 1C146CE4743C94923843F6AA07A15A47 sha1 886C73348F4DD50E3EA916F96B8DAA2451997DCC )
 )
 game (
 	name "Turok 2 - Seeds of Evil (USA, Europe) (En,Fr,De,Es) (GB Compatible)"
@@ -11216,11 +10622,6 @@ game (
 	rom ( name "UEFA 2000 (Europe) (En,Fr,De,Es,It,Nl).gbc" size 1048576 crc 4B314D4B md5 CA00C843A575EFD01814FCBF7D84A8DC sha1 56E5F0E62B65A265C85E1A88882B18139F26B94D )
 )
 game (
-	name "UEFA 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta)"
-	region "Europe"
-	rom ( name "UEFA 2000 (Europe) (En,Fr,De,Es,It,Nl) (Beta).gbc" size 1048576 crc 03380957 md5 E84BF72A6A82A76237813E3701551EE8 sha1 9F44AA3230ABA33C9C38C5E17F9CEF2E9A10747E )
-)
-game (
 	name "UXB (World)"
 	rom ( name "UXB (World) (Aftermarket) (Unl).gbc" size 262144 crc DD42BE4C md5 C20886BE531DCAA1157920A7FFA51240 sha1 6EF7ABB689B1C75F613ED253644FBB0F377B7A95 )
 )
@@ -11262,7 +10663,7 @@ game (
 	rom ( name "Unearthed Zero (World) (2021-10-19) (2021 Jam Version) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc 29BB9238 md5 09BC56A467F95A19A357174C5710DB74 sha1 39FBFB220E9BE0120090F770249049B3F3583F64 )
 )
 game (
-	name "Unearthed Zero (World) (2021 Jam Version) (GB Compatible)"
+	name "Unearthed Zero (World) (2021 Jam Version) (GB Compatible) (Alt 1)"
 	releaseyear "2024"
 	releasemonth "07"
 	releaseday "28"
@@ -11365,11 +10766,6 @@ game (
 	name "WCW Mayhem (USA, Europe)"
 	region "USA"
 	rom ( name "WCW Mayhem (USA, Europe).gbc" size 1048576 crc 9F8620D1 md5 8940BA032D30F87E6956FBD8009420E3 sha1 EC4E5AB0B78B3A72778700907CCCAB6306BFD0EA )
-)
-game (
-	name "WDL - World Destruction League - Thunder Tanks (USA) (Beta)"
-	region "USA"
-	rom ( name "WDL - World Destruction League - Thunder Tanks (USA) (Beta).gbc" size 1048576 crc 41DF1C79 md5 08333F9E3D797FA8C9CEE8A1526E8690 sha1 126B3626FB4752312834AC42BB5B873C22A3AEA3 )
 )
 game (
 	name "WDL - World Destruction League - Thunder Tanks (USA) (En,Fr,De)"
@@ -11496,21 +10892,6 @@ game (
 	rom ( name "Watashi no Restaurant (Japan).gbc" size 1048576 crc 395003EF md5 C9156B49032E63498DF93E132B0307B3 sha1 D66F728006AAA37C2776B6ADE7D1C8CDC2101A57 )
 )
 game (
-	name "Watashi no Restaurant (Japan) (Beta 1)"
-	region "Japan"
-	rom ( name "Watashi no Restaurant (Japan) (Beta 1).gbc" size 1048576 crc 5FF6B852 md5 1DE3AA6275844A8957C88D75DCC5AD09 sha1 384F1F68E7331F992F1D311F1433EA9F205EDDCB )
-)
-game (
-	name "Watashi no Restaurant (Japan) (Beta 2)"
-	region "Japan"
-	rom ( name "Watashi no Restaurant (Japan) (Beta 2).gbc" size 1048576 crc 8571099F md5 CAE6F72A359B1088EFE6C641CBAE2F97 sha1 98FF6B68B7C79229100F58311EE41E3FEC4802E0 )
-)
-game (
-	name "Watashi no Restaurant (Japan) (Beta 3)"
-	region "Japan"
-	rom ( name "Watashi no Restaurant (Japan) (Beta 3).gbc" size 1048576 crc A0ED2859 md5 D2731C794AAA3FB4700C83727D8583E2 sha1 343BF8EBB6FA3CE89501F7C4C219FB7E864C38A3 )
-)
-game (
 	name "Water Grandprix (World)"
 	rom ( name "Water Grandprix (World) (Aftermarket) (Unl).gbc" size 262144 crc 82F54E7E md5 0E96876B9E69F491B4E9C2E17C56B64F sha1 4029E003870B2AFB78A3644E24397D80FC5A3210 )
 )
@@ -11538,11 +10919,6 @@ game (
 	name "Wendy - Der Traum von Arizona (Germany)"
 	region "Germany"
 	rom ( name "Wendy - Der Traum von Arizona (Germany).gbc" size 2097152 crc DF7C18BC md5 B8E7F2F760DC0E7010AC5A83A793FBD3 sha1 21141E9E0302EAD50456AF7B55A1391679455662 )
-)
-game (
-	name "Wendy - Der Traum von Arizona (Germany) (Beta)"
-	region "Germany"
-	rom ( name "Wendy - Der Traum von Arizona (Germany) (Beta).gbc" size 2097152 crc 20BDCA55 md5 578A0860ED55C3E497AF423C739F7D84 sha1 FD39CB84F71EA414C0165A58BAC98357739BC406 )
 )
 game (
 	name "Wendy - Every Witch Way (USA, Europe)"
@@ -11597,14 +10973,6 @@ game (
 	rom ( name "Wild Thornberrys, The - Rambler (USA).gbc" size 1048576 crc 0E1465CB md5 F32210EEDC7A619A09339764887E2B93 sha1 0E806F0E6C1A41E764683850A3C15A80AC7FC9A5 )
 )
 game (
-	name "Wing Warriors (World) (En,Fr,Es) (Beta 1) (GB Compatible)"
-	rom ( name "Wing Warriors (World) (En,Fr,Es) (Beta 1) (GB Compatible) (Aftermarket) (Unl).gbc" size 131072 crc 6BC9DE3D md5 83C090899D4F9D7249249D7F8EC6BE09 sha1 12D55DAD39A9663083F9AD176563576A5CC44069 )
-)
-game (
-	name "Wing Warriors (World) (En,Fr,Es) (Beta 2) (GB Compatible)"
-	rom ( name "Wing Warriors (World) (En,Fr,Es) (Beta 2) (GB Compatible) (Aftermarket) (Unl).gbc" size 131072 crc 04E04980 md5 475C56C522CC154C1526AB0900D77123 sha1 574CF911D6D8F73699203CD6DB42CEEC777F7F93 )
-)
-game (
 	name "Wing Warriors (World) (En,Fr,Es) (EGS) (GB Compatible)"
 	rom ( name "Wing Warriors (World) (En,Fr,Es) (EGS) (GB Compatible) (Aftermarket) (Unl).gbc" size 131072 crc 7328CFB6 md5 82F9D9B020099E908EF588E1A9DE5BB3 sha1 039874148F27FFE533DE4EF086F29E724A3217A9 )
 )
@@ -11621,10 +10989,6 @@ game (
 	name "Wings of Fury (USA) (GB Compatible)"
 	region "USA"
 	rom ( name "Wings of Fury (USA) (GB Compatible).gbc" size 1048576 crc C94A413A md5 8B01ED48B1F51F57CFBA2F3024FA60D8 sha1 AE217BD12F42CE6297282227B7E2D21E6337420C )
-)
-game (
-	name "Wink and the Broken Robot (World) (Beta 6) (GB Compatible)"
-	rom ( name "Wink and the Broken Robot (World) (Beta 6) (GB Compatible) (Aftermarket) (Unl).gbc" size 4194304 crc 6C1D4498 md5 637ECE04F6C5F0C9F4871E5ED5255B0A sha1 F580EC863B7A92EDC94187BC54BF47F3D254B6B7 )
 )
 game (
 	name "Winnie the Pooh - Adventures in the 100 Acre Wood (Europe) (En,Fr,De,Es,It,Nl,Da)"
@@ -11712,11 +11076,6 @@ game (
 	name "World Soccer GB 2000 (Japan)"
 	region "Japan"
 	rom ( name "World Soccer GB 2000 (Japan).gbc" size 2097152 crc 6775B29E md5 4D48457F7138C58BE1589A4DDCE1F02D sha1 22433FAE69D7DD5B1FF351DB579A1EE9E883F06F )
-)
-game (
-	name "Worms Armageddon (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Worms Armageddon (Europe) (Beta).gbc" size 1048576 crc 66FDA365 md5 01586C8122DA5014ABED765147E5A7BB sha1 B0B14B13EC7CFFB04EFBF0DCDD93A2EEA679EA0C )
 )
 game (
 	name "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)"
@@ -11871,16 +11230,8 @@ game (
 	rom ( name "Yars' Revenge (USA, Europe) (GB Compatible).gbc" size 1048576 crc D6A26444 md5 1405C2C436255D0D5C901BF6D64F68A1 sha1 45FB176D539AE4A65AF1F6340A9BD398DD7956D2 )
 )
 game (
-	name "Year After, The (World) (En) (Beta) (GB Compatible)"
-	rom ( name "Year After, The (World) (En) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc F15351C8 md5 4E60A2F1EDBEF45F0794A95DC0607234 sha1 A78FF2EEF780287BBDC37DF122CFC1C504526662 )
-)
-game (
 	name "Year After, The (World) (En,Fr,Pt) (GB Compatible)"
 	rom ( name "Year After, The (World) (En,Fr,Pt) (GB Compatible) (Aftermarket) (Unl).gbc" size 2097152 crc B304833D md5 59558BCE6EF7774132A6109D1D0A0636 sha1 C2BE46B8230BFCF509D031902C9BF144DE97EF58 )
-)
-game (
-	name "Year After, The (World) (Pt) (Beta) (GB Compatible)"
-	rom ( name "Year After, The (World) (Pt) (Beta) (GB Compatible) (Aftermarket) (Unl).gbc" size 1048576 crc B70C1C7F md5 2F6556846CC09E6165FF05DF60BB072B sha1 CE25CDF6A6264586423E76E34DC42779D39A1CB1 )
 )
 game (
 	name "Yin Ban Zhongwen RPG Zhanlve + Dongzuo + Yizhi 12 in 1 (Taiwan)"
@@ -11928,11 +11279,6 @@ game (
 	rom ( name "Yu-Gi-Oh! - Dark Duel Stories (Europe).gbc" size 4194304 crc 338E2CDA md5 036B4944895082F5895A475F4CED3BFB sha1 86D3DFC1B852C34DF1BE90A24A41B5D4D5C4CA54 )
 )
 game (
-	name "Yu-Gi-Oh! - Dark Duel Stories (Europe) (Beta)"
-	region "Europe"
-	rom ( name "Yu-Gi-Oh! - Dark Duel Stories (Europe) (Beta).gbc" size 4194304 crc 1A60F198 md5 1AF296894BA86BFE2F51E2FF7CAC9FC7 sha1 F16E2D8D2CE20149C208621C3AA1309F80CE2390 )
-)
-game (
 	name "Yu-Gi-Oh! - Dark Duel Stories (USA)"
 	region "USA"
 	rom ( name "Yu-Gi-Oh! - Dark Duel Stories (USA).gbc" size 4194304 crc 803A56AE md5 C30ADD585D87114288FF8E3726C5381B sha1 1952D343BDFB5625BD23A8569CDE6FD61A911502 )
@@ -11950,11 +11296,6 @@ game (
 	name "Yu-Gi-Oh! - Duel des Tenebres (France)"
 	region "France"
 	rom ( name "Yu-Gi-Oh! - Duel des Tenebres (France).gbc" size 4194304 crc 5B72BAB5 md5 CA9D65EBA8AF25068242C946C50B6753 sha1 566E9C4A02EFD2E15C8758D0A6AAB4519B6AF102 )
-)
-game (
-	name "Yu-Gi-Oh! - Duel des Tenebres (France) (Beta)"
-	region "France"
-	rom ( name "Yu-Gi-Oh! - Duel des Tenebres (France) (Beta).gbc" size 4194304 crc C0DD1B26 md5 728FEEA5C73B9BCCD9DBBDDE5FA88552 sha1 7B44BEE756FA5C81E050438F81F97FE56884A45D )
 )
 game (
 	name "Yu-Gi-Oh! - Duel des Tenebres (World) (Fr) (Early Days Collection)"
@@ -12275,135 +11616,10 @@ game (
 	rom ( name "Zelda no Densetsu - Fushigi no Kinomi - Jikuu no Shou (Japan).gbc" size 1048576 crc 3272E6F9 md5 484020D0BF01D29F2A74322E0D4ACC3A sha1 596AA066CCEE9FAE71643576F7526BAA22D26D6D )
 )
 game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "06"
-	releaseday "15"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-15) (GB Compatible).gbc" size 1048576 crc 3FD6C8FC md5 BAEA8ED885DCDF816E9ADDDD3E1412B5 sha1 017B81B26FC37DB662063482E3947DFC2D814390 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (GB Compatible) (Alt)"
-	releaseyear "1998"
-	releasemonth "06"
-	releaseday "15"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-15) (GB Compatible) (Alt).gbc" size 1048576 crc 9367653B md5 1163E25D9985D8E5C3544449150F4F46 sha1 544B803DB49D8F312E193E4C105F0762D9E3FBF4 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "06"
-	releaseday "30"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-30) (GB Compatible).gbc" size 1048576 crc F46F0CED md5 BC56B4A1EC8B993B06405F6ECCC982B3 sha1 99D587B4BAF363A798FDB8C1FCA42FE1BE061C2F )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T180056) (GB Compatible)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T180056) (GB Compatible).gbc" size 1048576 crc 11290C31 md5 21BBB6DCEB4A367431779873F6162CED sha1 8D7AB85686CED1642B9519BCB6A3E157C6BD8938 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T215532) (GB Compatible)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T215532) (GB Compatible).gbc" size 1048576 crc 3C63E083 md5 D56E7601673AF3C0F78DEF06C34C8EFA sha1 A068ABD403A1DAD70BD9B53D215995F8159AEA47 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "07"
-	releaseday "07"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-07) (GB Compatible).gbc" size 1048576 crc 879CDF7D md5 F8228AD67881BA0B2947F7A0B67DE2B1 sha1 0B6F595E5F306099D5C1BD7AAB1156C2A9C917A1 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T022124) (GB Compatible)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T022124) (GB Compatible).gbc" size 1048576 crc 13C76902 md5 5C8AF4E0A5C140ED96AF55BC85828ABC sha1 08DEA3565740A4B5BD5C13E82ADB61E3D5669A31 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T181500) (GB Compatible)"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T181500) (GB Compatible).gbc" size 1048576 crc 2F884286 md5 455DF3202A18DFD4E7E93A7881C10901 sha1 A7CB241DE2139DDAC5D1172A6EF1184B5FBB827E )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (GB Compatible)"
-	releaseyear "1998"
-	releasemonth "11"
-	releaseday "09"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-11-09) (GB Compatible).gbc" size 1048576 crc 3E5216C3 md5 9FE3162D87054504EB82113F7AE8D6F8 sha1 0FE1C48E36CB8E6E975C5421BF881C550746D29C )
-)
-game (
 	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)"
 	region "Japan"
 	serial "AZLJ"
 	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 1) (SGB Enhanced) (GB Compatible).gbc" size 1048576 crc BD8A1041 md5 6D8F9CD72201CAABDFD0455A819AF9CE sha1 D3DE302D44BDB240BCF55A5DC70F491F5456D721 serial "AZLJ" )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "02"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-02) (SGB Enhanced).gbc" size 1048576 crc 34FF47BA md5 75EA1034B4B26358E74874AD5F33DCE4 sha1 5CCC4C05123B4C38D0D93916AE8A0C93FB63F23F )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "03"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-03) (SGB Enhanced).gbc" size 1048576 crc AC0EF411 md5 D6ACC2206F227AACD81B22EDCAB2DA1C sha1 5AEB68B00A3A4F391AFB324D9513311CB796A51F )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "04"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-04) (SGB Enhanced).gbc" size 1048576 crc 260BD98A md5 195B6DAF6B2A3E28AB7A61170A7D7833 sha1 CE1E48C82A09DE0F93D5A60016318A9116331CCB )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "07"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced).gbc" size 1048576 crc 89A4A355 md5 09CEFDBBB38503E91DD666AECA68871A sha1 48931A00F5FEC39492C264E9979646E88242C53E )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced) (Alt 2)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "07"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced) (Alt 2).gbc" size 1048576 crc 1C374AFD md5 DBC9BC98AD0F7730B9136D98992AE656 sha1 800DB3D07A7ABCCA2138A0C7808CF25386E87712 )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced) (Alt)"
-	releaseyear "1999"
-	releasemonth "08"
-	releaseday "07"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced) (Alt).gbc" size 1048576 crc E5312966 md5 132AB194CD0332A61F3DB66084F6DC4E sha1 FEDD0FA70BBF5039DFEC37B8E27674BE839C47CA )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "04"
-	region "Japan"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-09-04) (SGB Enhanced).gbc" size 1048576 crc 883EF4EF md5 821355E18A306E73EE015AB0BA8510B0 sha1 87CA50396BA25914131866C74633AFBE0007B2FB )
-)
-game (
-	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (SGB Enhanced) (GB Compatible)"
-	releaseyear "1999"
-	releasemonth "09"
-	releaseday "22"
-	region "Japan"
-	serial "AZLJ"
-	rom ( name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-09-22) (SGB Enhanced) (GB Compatible).gbc" size 1015808 crc C07979BF md5 0E68060F26F64257BCAE0B1E820E5E4E sha1 4A9CE5CED2234FA668DACE888BD5D6130E375985 serial "AZLJ" )
 )
 game (
 	name "Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (SGB Enhanced) (GB Compatible)"
@@ -12454,12 +11670,6 @@ game (
 	region "Europe"
 	serial "BZSP"
 	rom ( name "Zidane - Football Generation (Europe) (En,Fr,De,Es,It).gbc" size 1048576 crc E96DBFB5 md5 0044C80FB6C6C7C49466DAFE6637D61A sha1 06385470BB0B4EF6C743AB6A5E7F8D7A97F6100B serial "BZSP" )
-)
-game (
-	name "Zidane - Football Generation (Europe) (En,Fr,De,Es,It) (Beta)"
-	region "Europe"
-	serial "BMHP"
-	rom ( name "Zidane - Football Generation (Europe) (En,Fr,De,Es,It) (Beta).gbc" size 1048576 crc C2FDE3C4 md5 9AFE57208B564946DEC44244409A9A15 sha1 CBA5D2FC5DBBE184E9ED58AFE8525044BD8EA040 serial "BMHP" )
 )
 game (
 	name "Zippy The Pinecone (World) (GB Compatible)"
