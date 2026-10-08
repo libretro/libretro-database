@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Virtual Boy"
 	description "Nintendo - Virtual Boy"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "vb"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -43,6 +44,12 @@ game (
 game (
 	name "Capitan Sevilla 2 (World) (Es)"
 	rom ( name "Capitan Sevilla 2 (World) (Es) (Aftermarket) (Unl).vb" size 1048576 crc F18001F0 md5 FE92B28E43EDD00C6B9401D81446A0A7 sha1 D971B1621CBEA6C90907E65780EB2ED20E13EDB5 )
+)
+game (
+	name "Dragon Hopper (Japan, USA) (En,Ja) (Switch Online)"
+	region "Japan"
+	serial "VDHE"
+	rom ( name "Dragon Hopper (Japan, USA) (En,Ja) (Switch Online).vb" size 2097152 crc 193C1A2F md5 07F13D2F9E0618D2A6C1460C10A71FD3 sha1 103CED4EBB5B43832294AE2702E014D08B4756BE serial "VDHE" )
 )
 game (
 	name "Elevated Speed (World) (High Resolution Version)"
@@ -96,11 +103,6 @@ game (
 	name "Hyper Fighting (World)"
 	serial "VFDE"
 	rom ( name "Hyper Fighting (World) (Aftermarket) (Unl).vb" size 4194304 crc 3F2A6BA2 md5 C2047A94DCB0DB30794C8533BA625622 sha1 578355DE83822CE67522033DD7545631124A71AB serial "VFDE" )
-)
-game (
-	name "Hyper Fighting (World) (Beta)"
-	serial "VFDE"
-	rom ( name "Hyper Fighting (World) (Beta) (Aftermarket) (Unl).vb" size 2097152 crc 4450EDE0 md5 B3E46CDBE57D3995065DAA917A858A76 sha1 322DC4C2DF74BF19D8A30D43C489401BE5E76CA5 serial "VFDE" )
 )
 game (
 	name "Innsmouth no Yakata (Japan)"
@@ -207,14 +209,6 @@ game (
 game (
 	name "Soviet Union 2010 (World) (v1.2)"
 	rom ( name "Soviet Union 2010 (World) (v1.2) (Aftermarket) (Unl).vb" size 2097152 crc E7CBC290 md5 74D21EA01F97AC19E018D7F5A3E3BC7C sha1 F534D323BC838A5F5A25E0BF977BA297708EABE3 )
-)
-game (
-	name "Soviet Union 2011 (World) (Beta 1)"
-	rom ( name "Soviet Union 2011 (World) (Beta 1) (Aftermarket) (Unl).vb" size 2097152 crc 8F013627 md5 83C6752EECFDF94F576F3FCDA272B91E sha1 9C84F75182F372891D2D41F75A32326E1B17EBEB )
-)
-game (
-	name "Soviet Union 2011 (World) (Beta 2)"
-	rom ( name "Soviet Union 2011 (World) (Beta 2) (Aftermarket) (Unl).vb" size 2097152 crc 13660731 md5 46434BFB8ECCBE7540A4D2A79D471F40 sha1 DC7B74DBB1B4FF185ACF086D5BED87560675745F )
 )
 game (
 	name "Soviet Union 2011 (World) (v1.0)"
@@ -327,4 +321,10 @@ game (
 	region "USA"
 	serial "VWEE"
 	rom ( name "Waterworld (USA).vb" size 2097152 crc 82A95E51 md5 110A83BC070559C5CC5634A8B5CAE274 sha1 DCC46484BD0ACAB0AC1EA178F425A0F5CCFB8DC2 serial "VWEE" )
+)
+game (
+	name "Zero Racers (Japan, USA) (En) (Switch Online)"
+	region "Japan"
+	serial "VZRE"
+	rom ( name "Zero Racers (Japan, USA) (En) (Switch Online).vb" size 1048576 crc 71553796 md5 7DAA75112C3E9385E9546CD4D8F1C37F sha1 73D161B737E35201AFF703B6FF6BF611E5E9C370 serial "VZRE" )
 )

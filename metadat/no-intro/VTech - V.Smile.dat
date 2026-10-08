@@ -1,7 +1,8 @@
 clrmamepro (
 	name "VTech - V.Smile"
 	description "VTech - V.Smile"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -24,16 +25,16 @@ game (
 	rom ( name "ABC Land Aventure (France).bin" size 8388608 crc FE2650D7 md5 0293F6D508A1A80C55071A122512D5D8 sha1 CF07B676CE11F9DB6B00AB1FECF8AE6720965CAB serial "8092005005001" )
 )
 game (
-	name "ABC Land Aventure (France) (Alt 2)"
-	region "France"
-	serial "8092005005001"
-	rom ( name "ABC Land Aventure (France) (Alt 2).bin" size 8388608 crc 78C3A7F0 md5 3334A2BC97E1ED439A0BC299A0CADA84 sha1 569418F93CF2311727E35FE300E07275E830400E serial "8092005005001" )
-)
-game (
-	name "ABC Land Aventure (France) (Alt)"
+	name "ABC Land Aventure (France)"
 	region "France"
 	serial "8092005005001"
 	rom ( name "ABC Land Aventure (France) (Alt).bin" size 4194304 crc C237CB8D md5 14EE680A0BD26F81AC50C9ADB599D478 sha1 82CA477EDD9BD2E10686A80DDAA6E4D0E42C5436 serial "8092005005001" )
+)
+game (
+	name "ABC Land Aventure (France)"
+	region "France"
+	serial "8092005005001"
+	rom ( name "ABC Land Aventure (France) (Alt 2).bin" size 8388608 crc 78C3A7F0 md5 3334A2BC97E1ED439A0BC299A0CADA84 sha1 569418F93CF2311727E35FE300E07275E830400E serial "8092005005001" )
 )
 game (
 	name "Abenteuer im ABC Park (Germany)"
@@ -42,7 +43,7 @@ game (
 	rom ( name "Abenteuer im ABC Park (Germany).bin" size 8388608 crc E8808803 md5 7B16334D4B9F33EE0F445E28D35868D7 sha1 8B88C9D5886B3EBA670F5CD2921D73642B2CAD89 serial "8092004004001" )
 )
 game (
-	name "Abenteuer im ABC Park (Germany) (Alt)"
+	name "Abenteuer im ABC Park (Germany)"
 	region "Germany"
 	serial "8092004004001"
 	rom ( name "Abenteuer im ABC Park (Germany) (Alt).bin" size 8388608 crc 823AEECE md5 FE63B64E462668CC37C4819A492FA2BE sha1 86F834B61BEF6231F4E7D6C7B2F81EF3B99B9532 serial "8092004004001" )
@@ -99,25 +100,25 @@ game (
 	name "Alphabet Park Adventure (USA)"
 	region "USA"
 	serial "8092000001001"
-	rom ( name "Alphabet Park Adventure (USA).bin" size 8388608 crc 69EF24FF md5 46782656F71D19B13962CCECDE07437A sha1 82B89BDC5E9050E4152866FC774D3996F9836D65 serial "8092000001001" )
-)
-game (
-	name "Alphabet Park Adventure (USA) (Alt 2)"
-	region "USA"
-	serial "8092000001001"
 	rom ( name "Alphabet Park Adventure (USA) (Alt 2).bin" size 6291456 crc 83365301 md5 BE4B98B2CD29FB81908F408C717E434D sha1 A46B9215ED6704805D7F6DAB98A2A1FBB83A5D76 serial "8092000001001" )
 )
 game (
-	name "Alphabet Park Adventure (USA) (Alt 3)"
+	name "Alphabet Park Adventure (USA)"
 	region "USA"
 	serial "8092000001001"
-	rom ( name "Alphabet Park Adventure (USA) (Alt 3).bin" size 6291456 crc E2DF198D md5 325FFFA155C9065754CAAB47D3E900DF sha1 98EBCA7193E721D1881C60B3D9554BE156CDAB08 serial "8092000001001" )
+	rom ( name "Alphabet Park Adventure (USA).bin" size 8388608 crc 69EF24FF md5 46782656F71D19B13962CCECDE07437A sha1 82B89BDC5E9050E4152866FC774D3996F9836D65 serial "8092000001001" )
 )
 game (
-	name "Alphabet Park Adventure (USA) (Alt)"
+	name "Alphabet Park Adventure (USA)"
 	region "USA"
 	serial "8092000001001"
 	rom ( name "Alphabet Park Adventure (USA) (Alt).bin" size 8388608 crc E491B4FC md5 883DAFE83F6063B972B423F3C7113E1E sha1 511D7807DF753E8D89547040AF2019629F056371 serial "8092000001001" )
+)
+game (
+	name "Alphabet Park Adventure (USA)"
+	region "USA"
+	serial "8092000001001"
+	rom ( name "Alphabet Park Adventure (USA) (Alt 3).bin" size 6291456 crc E2DF198D md5 325FFFA155C9065754CAAB47D3E900DF sha1 98EBCA7193E721D1881C60B3D9554BE156CDAB08 serial "8092000001001" )
 )
 game (
 	name "Alphabet Park Adventure (USA) (Rev 1)"
@@ -274,7 +275,13 @@ game (
 game (
 	name "Bilar - Koer ikapp i Kylarkoeping (Sweden)"
 	region "Sweden"
-	rom ( name "Bilar - Koer ikapp i Kylarkoeping (Sweden).bin" size 8388608 crc 825A43EB md5 7919C5E9BC43BE88045ADE562AEBFA5E sha1 D63109BC1DCC8549FBED0F0B15EFC53327BFD0D9 )
+	serial "8092674069"
+	rom ( name "Bilar - Koer ikapp i Kylarkoeping (Sweden).bin" size 8388608 crc 69B535F2 md5 35651479FC4942A4D66908BA0FB7217A sha1 7785E4E92A0EDBB90FD0E0A4F2DE3AFAFAE5E957 serial "8092674069" )
+)
+game (
+	name "Bilar - Koer ikapp i Kylarkoeping (Sweden)"
+	region "Sweden"
+	rom ( name "Bilar - Koer ikapp i Kylarkoeping (Sweden) (Alt).bin" size 8388608 crc 825A43EB md5 7919C5E9BC43BE88045ADE562AEBFA5E sha1 D63109BC1DCC8549FBED0F0B15EFC53327BFD0D9 )
 )
 game (
 	name "Biler - Raes i Kolerkildekobing (Denmark)"
@@ -375,7 +382,7 @@ game (
 	rom ( name "Care Bears - A Lesson in Caring (USA).bin" size 8388608 crc 7D711A0E md5 A232F50EBECA526B53F4B4E4E5653CF2 sha1 6BD5EC6407F8C450293F18095D2D3474245F7817 serial "8061220000" )
 )
 game (
-	name "Care Bears - A Lesson in Caring (USA) (Alt)"
+	name "Care Bears - A Lesson in Caring (USA)"
 	region "USA"
 	serial "8061220000"
 	rom ( name "Care Bears - A Lesson in Caring (USA) (Alt).bin" size 6291456 crc F861D7D5 md5 782B797290ED358A916CEAA4373DDF10 sha1 426BAB3465FD98B4C41A404BCC8CEC68FCC98436 serial "8061220000" )
@@ -394,17 +401,17 @@ game (
 )
 game (
 	name "Cars - Quatre roues (France)"
-	releaseyear "2006"
-	region "France"
-	serial "8092660001"
-	rom ( name "Cars - Quatre roues (France) (2006).bin" size 8388608 crc C481B319 md5 1C755541EC8183F0B7B3284A6C2C4CEF sha1 3C9F5FDB90B37150B60D83A81FAA555B9C4A5A54 serial "8092660001" )
-)
-game (
-	name "Cars - Quatre roues (France)"
 	releaseyear "2009"
 	region "France"
 	serial "80092665105"
 	rom ( name "Cars - Quatre roues (France) (2009).bin" size 8388608 crc 155D969F md5 827A653EE5A9BF6EDB3B8874E81348D9 sha1 4871FB0A95BD2F41F67863091FA22B8FDD3A67E0 serial "80092665105" )
+)
+game (
+	name "Cars - Quatre roues (France)"
+	releaseyear "2006"
+	region "France"
+	serial "8092660001"
+	rom ( name "Cars - Quatre roues (France) (2006).bin" size 8388608 crc C481B319 md5 1C755541EC8183F0B7B3284A6C2C4CEF sha1 3C9F5FDB90B37150B60D83A81FAA555B9C4A5A54 serial "8092660001" )
 )
 game (
 	name "Cars - Quatre roues (France) (Rev 1)"
@@ -426,13 +433,13 @@ game (
 	rom ( name "Cars - Rev It Up in Radiator Springs (USA).bin" size 8388608 crc FF65D967 md5 062AAC716D97425290BFBB943840304E sha1 27B229B6E308DFC0CEA7E594C7B006F27961C05F serial "8092660001" )
 )
 game (
-	name "Cars - Rev It Up in Radiator Springs (USA) (Alt 2)"
+	name "Cars - Rev It Up in Radiator Springs (USA)"
 	region "USA"
 	serial "8092660001"
 	rom ( name "Cars - Rev It Up in Radiator Springs (USA) (Alt 2).bin" size 8388608 crc ED8EE40A md5 9DDDBAA4E8E8DCBA92B07CD418603F1D sha1 E111F257447D64DED47A57D80174CED1BCA0CB14 serial "8092660001" )
 )
 game (
-	name "Cars - Rev It Up in Radiator Springs (USA) (Alt)"
+	name "Cars - Rev It Up in Radiator Springs (USA)"
 	region "USA"
 	serial "8092660001"
 	rom ( name "Cars - Rev It Up in Radiator Springs (USA) (Alt).bin" size 8388608 crc 31C1DF9C md5 5EAB7C5BA67D83719F778D03EF3E5130 sha1 14B028E5911D26EEC8644EE19DA8825D8386244C serial "8092660001" )
@@ -624,7 +631,7 @@ game (
 	rom ( name "Disney Fairies - Tingeling (Sweden).bin" size 8388608 crc 5AE6DCED md5 B5514747C03A0C90506EF9B66F362270 sha1 3298BF1FB43173E1C4C2200DDC5A1A6AF57D4323 serial "8090274069001" )
 )
 game (
-	name "Disney Fairies - Tingeling (Sweden) (Alt)"
+	name "Disney Fairies - Tingeling (Sweden)"
 	region "Sweden"
 	rom ( name "Disney Fairies - Tingeling (Sweden) (Alt).bin" size 8388608 crc FD9326C1 md5 A6C185F6E45E7AF0A73438FE3BF95884 sha1 3BBFDC771681707B0BAE81078948B1809E4EBED5 )
 )
@@ -713,7 +720,7 @@ game (
 	rom ( name "Disney Le Roi Lion - Simba decouvre la jungle (France) (Rev 1).bin" size 8388608 crc 918CCBFB md5 EDAC2348CBC9511258B227B3F61299B1 sha1 F396BB2A325046E2463C7CB9438E56BA9C765D79 serial "8092105005001" )
 )
 game (
-	name "Disney Le Roi Lion - Simba decouvre la jungle (France) (Rev 1) (Alt)"
+	name "Disney Le Roi Lion - Simba decouvre la jungle (France) (Rev 1)"
 	region "France"
 	serial "8092105005001"
 	rom ( name "Disney Le Roi Lion - Simba decouvre la jungle (France) (Rev 1) (Alt).bin" size 8388608 crc A1D44E2A md5 B46417D7AA2F5A95F1ABCF918EA52745 sha1 A896A4DC32DCF64C9CF465142A936142900032AE serial "8092105005001" )
@@ -746,13 +753,13 @@ game (
 	name "Disney Mickey - Mickey a la recherche de Pluto (France)"
 	region "France"
 	serial "8092085000"
-	rom ( name "Disney Mickey - Mickey a la recherche de Pluto (France).bin" size 8388608 crc 223F11B1 md5 D883A11B8DEE9C938D228E52951140B6 sha1 A212A6E78D9563AFF2850D60299C92E525368BAC serial "8092085000" )
+	rom ( name "Disney Mickey - Mickey a la recherche de Pluto (France) (Alt).bin" size 8388608 crc 31BD94D1 md5 82FD21BD2AFDAE6D523AC9F169419DEA sha1 55592514B534C08ED5182C3B4AA696BE0AD4E40C serial "8092085000" )
 )
 game (
-	name "Disney Mickey - Mickey a la recherche de Pluto (France) (Alt)"
+	name "Disney Mickey - Mickey a la recherche de Pluto (France)"
 	region "France"
 	serial "8092085000"
-	rom ( name "Disney Mickey - Mickey a la recherche de Pluto (France) (Alt).bin" size 8388608 crc 31BD94D1 md5 82FD21BD2AFDAE6D523AC9F169419DEA sha1 55592514B534C08ED5182C3B4AA696BE0AD4E40C serial "8092085000" )
+	rom ( name "Disney Mickey - Mickey a la recherche de Pluto (France).bin" size 8388608 crc 223F11B1 md5 D883A11B8DEE9C938D228E52951140B6 sha1 A212A6E78D9563AFF2850D60299C92E525368BAC serial "8092085000" )
 )
 game (
 	name "Disney Mickey Mouse - De wonderwereld van Micke (Netherlands)"
@@ -849,16 +856,16 @@ game (
 )
 game (
 	name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands)"
-	releaseyear "2007"
-	region "Netherlands"
-	rom ( name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands) (2007).bin" size 8388608 crc C3E937E4 md5 23C2997A4E6608303C83C40F16460BEE sha1 19F899F373EB419FA85A4DA4E48C011C2447643E )
-)
-game (
-	name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands)"
 	releaseyear "2010"
 	region "Netherlands"
 	serial "8084602023001"
 	rom ( name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands) (2010).bin" size 8388608 crc 84D27007 md5 12E3307AF40119C374EBBD2D69A0804F sha1 1DFC92B3264545AFFB74C623CBD8704F0981A283 serial "8084602023001" )
+)
+game (
+	name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands)"
+	releaseyear "2007"
+	region "Netherlands"
+	rom ( name "Disney Princess - Assepoester - De wonderwereld van Assepoester (Netherlands) (2007).bin" size 8388608 crc C3E937E4 md5 23C2997A4E6608303C83C40F16460BEE sha1 19F899F373EB419FA85A4DA4E48C011C2447643E )
 )
 game (
 	name "Disney Princess - Cinderella - Askepots magiske onsker (Denmark)"
@@ -882,18 +889,18 @@ game (
 	rom ( name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA) (2005).bin" size 8388608 crc 2723728C md5 E533B9126DE9AEB8A88AE1523DCC20A9 sha1 32FD6A5B9718CCC7E10E64046D7AC320CFA47362 serial "8092240001001" )
 )
 game (
-	name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA) (Alt)"
-	releaseyear "2005"
-	region "USA"
-	serial "8092240001001"
-	rom ( name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA) (2005) (Alt).bin" size 8388608 crc 0A89723C md5 802BC5E7EA6EFF3CA8A3ADC787F049EB sha1 15082B565F6F71A0F993C2734CB807F37611EB17 serial "8092240001001" )
-)
-game (
 	name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA)"
 	releaseyear "2007"
 	region "USA"
 	serial "8092240201001"
 	rom ( name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA) (2007).bin" size 8388608 crc 19E7080D md5 D54C38EB0495DC8376947D69239D8A4C sha1 5B123F9F6DBC3892D9C7025639B87E70F2656E31 serial "8092240201001" )
+)
+game (
+	name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA)"
+	releaseyear "2005"
+	region "USA"
+	serial "8092240001001"
+	rom ( name "Disney Princess - Cinderella - Cinderella's Magic Wishes (USA) (2005) (Alt).bin" size 8388608 crc 0A89723C md5 802BC5E7EA6EFF3CA8A3ADC787F049EB sha1 15082B565F6F71A0F993C2734CB807F37611EB17 serial "8092240001001" )
 )
 game (
 	name "Disney Princess - Cinderella - Cinderella's Magic Wishes (United Kingdom)"
@@ -904,17 +911,17 @@ game (
 )
 game (
 	name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany)"
-	releaseyear "2005"
-	region "Germany"
-	serial "8092244004001"
-	rom ( name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany) (2005).bin" size 8388608 crc B08A50F3 md5 E140E962B7558646AD56B0B534127A94 sha1 A8E6B8B427115D01D35C27B41385AC5D430484C3 serial "8092244004001" )
-)
-game (
-	name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany)"
 	releaseyear "2007"
 	region "Germany"
 	serial "092244-104"
 	rom ( name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany) (2007).bin" size 8388608 crc 7DBE47A2 md5 11292320BC0BC132CEF9BA7F33C064D9 sha1 D74D24D1D87A456F11A98F822B8C59D155734CEA serial "092244-104" )
+)
+game (
+	name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany)"
+	releaseyear "2005"
+	region "Germany"
+	serial "8092244004001"
+	rom ( name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany) (2005).bin" size 8388608 crc B08A50F3 md5 E140E962B7558646AD56B0B534127A94 sha1 A8E6B8B427115D01D35C27B41385AC5D430484C3 serial "8092244004001" )
 )
 game (
 	name "Disney Princess - Cinderella - Lernen im Maerchenland (Germany)"
@@ -938,17 +945,17 @@ game (
 	rom ( name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France) (2005).bin" size 8388608 crc 7C63221F md5 6927F9E0AB62153584CAFE4C8FCD2A22 sha1 227E1D3B63714E6BF8D0FC0897BAB9FFC1721FF5 serial "8092245005001" )
 )
 game (
-	name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France) (Alt)"
-	releaseyear "2005"
-	region "France"
-	serial "8092245005001"
-	rom ( name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France) (2005) (Alt).bin" size 8388608 crc 2C26AEEC md5 919C934773AFD743E251C24254653C96 sha1 32999E9A15CEBE388C5BDCF497769607AB65866C serial "8092245005001" )
-)
-game (
 	name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France)"
 	releaseyear "2007"
 	region "France"
 	rom ( name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France) (2007).bin" size 8388608 crc B199C517 md5 7288B588AE6B770B3E27AE18E9A252D6 sha1 7AE42F873AA0C533C716E6E94D00CBC74002B002 )
+)
+game (
+	name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France)"
+	releaseyear "2005"
+	region "France"
+	serial "8092245005001"
+	rom ( name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France) (2005) (Alt).bin" size 8388608 crc 2C26AEEC md5 919C934773AFD743E251C24254653C96 sha1 32999E9A15CEBE388C5BDCF497769607AB65866C serial "8092245005001" )
 )
 game (
 	name "Disney Princesses - Cendrillon - Le reve enchante de Cendrillon (France)"
@@ -972,7 +979,7 @@ game (
 	rom ( name "Disney Principesse - Cenerentola - I desideri magici di Cenerentola (Italy) (2006).bin" size 8388608 crc CB28AC0D md5 39A5189CAC2CCA44D16B94DE4D1036CB sha1 E938504A40A4F47CD4B09489F515C0A6545A1800 serial "8092251007001" )
 )
 game (
-	name "Disney Principesse - Cenerentola - I desideri magici di Cenerentola (Italy) (Alt)"
+	name "Disney Principesse - Cenerentola - I desideri magici di Cenerentola (Italy)"
 	releaseyear "2006"
 	region "Italy"
 	serial "8092251007001"
@@ -1000,19 +1007,19 @@ game (
 	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France)"
 	region "France"
 	serial "8092065002"
+	rom ( name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (Alt).bin" size 4194304 crc 17723900 md5 6FDBF5E1317D2A64BFB25CBCD12B596D sha1 63CC6C97267A1A25414A22702CDF36BAF97A23D6 serial "8092065002" )
+)
+game (
+	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France)"
+	region "France"
+	serial "8092065002"
 	rom ( name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France).bin" size 8388608 crc 7B0BD06C md5 8BA748CBC173904B5FD78687FC5CDFE8 sha1 0767E07E767A64C0FE56DAC7B3CB478BAB34B864 serial "8092065002" )
 )
 game (
-	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (Alt 2)"
+	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France)"
 	region "France"
 	serial "8092065002"
 	rom ( name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (Alt 2).bin" size 8388608 crc 07403B58 md5 FD955A0E2448A1CD554CEC390EB91575 sha1 1B9625A173D552888A92D032E91504441FCA6229 serial "8092065002" )
-)
-game (
-	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (Alt)"
-	region "France"
-	serial "8092065002"
-	rom ( name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (Alt).bin" size 4194304 crc 17723900 md5 6FDBF5E1317D2A64BFB25CBCD12B596D sha1 63CC6C97267A1A25414A22702CDF36BAF97A23D6 serial "8092065002" )
 )
 game (
 	name "Disney Winnie l'Ourson - La Chasse au miel de Winnie (France) (V.Smile Motion)"
@@ -1070,22 +1077,22 @@ game (
 )
 game (
 	name "Disney's The Lion King - Simba's Big Adventure (USA)"
-	region "USA"
-	serial "8092100001001"
-	rom ( name "Disney's The Lion King - Simba's Big Adventure (USA).bin" size 6291456 crc C2DD93D5 md5 A8B02F172A3EFCAC9B840A994119537A sha1 742607EB325210DA56BE6D8A0C781C48B799A629 serial "8092100001001" )
-)
-game (
-	name "Disney's The Lion King - Simba's Big Adventure (USA)"
 	releaseyear "2004"
 	region "USA"
 	serial "8092100001001"
 	rom ( name "Disney's The Lion King - Simba's Big Adventure (USA) (2004).bin" size 8388608 crc 08AF3249 md5 343D95C2908BE36EE4C9CD3FED403F40 sha1 193D824625040AE9E30D8F5B7B74D7348BF3B7CD serial "8092100001001" )
 )
 game (
-	name "Disney's The Lion King - Simba's Big Adventure (USA) (Alt)"
+	name "Disney's The Lion King - Simba's Big Adventure (USA)"
 	region "USA"
 	serial "8092100001001"
 	rom ( name "Disney's The Lion King - Simba's Big Adventure (USA) (Alt).bin" size 8388608 crc D3535A5E md5 9F5FF09E8135B22DA67A63F46A2EEE3C sha1 629AA089C8DC8E4C972015498ECAF06A0E64EFFA serial "8092100001001" )
+)
+game (
+	name "Disney's The Lion King - Simba's Big Adventure (USA)"
+	region "USA"
+	serial "8092100001001"
+	rom ( name "Disney's The Lion King - Simba's Big Adventure (USA).bin" size 6291456 crc C2DD93D5 md5 A8B02F172A3EFCAC9B840A994119537A sha1 742607EB325210DA56BE6D8A0C781C48B799A629 serial "8092100001001" )
 )
 game (
 	name "Disney's The Little Mermaid - Ariel's Majestic Journey (USA) (Rev 1)"
@@ -1094,7 +1101,7 @@ game (
 	rom ( name "Disney's The Little Mermaid - Ariel's Majestic Journey (USA) (Rev 1).bin" size 8388608 crc 4DC6A113 md5 51CB0AC2F89F67BCA5A43036779448D0 sha1 28179D4215A2F541F53C851915F3EB91796B58FB serial "8092120001001" )
 )
 game (
-	name "Disney's The Little Mermaid - Ariel's Majestic Journey (USA) (Rev 1) (Alt)"
+	name "Disney's The Little Mermaid - Ariel's Majestic Journey (USA) (Rev 1)"
 	region "USA"
 	serial "8092120001001"
 	rom ( name "Disney's The Little Mermaid - Ariel's Majestic Journey (USA) (Rev 1) (Alt).bin" size 8388608 crc A51B5602 md5 E494D920BBFB605B02B72B6F036419CE sha1 F7885903994E756400CA5F2FCBC3B1912C681110 serial "8092120001001" )
@@ -1398,7 +1405,13 @@ game (
 game (
 	name "Disney-Pixar Wall-E (Sweden)"
 	region "Sweden"
-	rom ( name "Disney-Pixar Wall-E (Sweden).bin" size 8388608 crc 832E4D06 md5 261D0F616D5E58A15A2BF96C3668643A sha1 9A4B46C931D5DE17B6E8370E3B5A2E1E74EC4BDB )
+	rom ( name "Disney-Pixar Wall-E (Sweden) (Alt).bin" size 8388608 crc 832E4D06 md5 261D0F616D5E58A15A2BF96C3668643A sha1 9A4B46C931D5DE17B6E8370E3B5A2E1E74EC4BDB )
+)
+game (
+	name "Disney-Pixar Wall-E (Sweden)"
+	region "Sweden"
+	serial "080092854001"
+	rom ( name "Disney-Pixar Wall-E (Sweden).bin" size 8388608 crc 860194D2 md5 C1345F7C399EC61DDF5586246D68B442 sha1 3D5F40A0F523C9B090A826FEF45A6BC63A58D519 serial "080092854001" )
 )
 game (
 	name "Disney-Pixar Wall-E (USA)"
@@ -1437,7 +1450,7 @@ game (
 	rom ( name "Disneys Den lilla sjoejungfrun - Ariels majestaetiska resa! (Sweden).bin" size 8388608 crc E567DB85 md5 35087851AAE4A14FDF8DA5FE5CCE28DF sha1 CA52EACA6CF1B361FD4B1AE2B2380095C612668D serial "8092134069001" )
 )
 game (
-	name "Disneys Den lilla sjoejungfrun - Ariels majestaetiska resa! (Sweden) (Alt)"
+	name "Disneys Den lilla sjoejungfrun - Ariels majestaetiska resa! (Sweden)"
 	region "Sweden"
 	rom ( name "Disneys Den lilla sjoejungfrun - Ariels majestaetiska resa! (Sweden) (Alt).bin" size 8388608 crc D87B8758 md5 B06B0EAF3D8712225BBFBCEB6AB78178 sha1 669D4BA2C235E84EAC9626D653C08E255EE6907A )
 )
@@ -1484,18 +1497,18 @@ game (
 	rom ( name "Dora La Exploradora - La Aventura Arregla-Todo de Dora (Spain) (V.Smile Motion).bin" size 8388608 crc 6394E5C0 md5 73919BF659CD60E7CE81D0108D4ABD79 sha1 A1DF78187D167CF4BF15322CC4FA6B5A669217C2 serial "80084027022001" )
 )
 game (
-	name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France) (Alt)"
-	releaseyear "2005"
-	region "France"
-	serial "8092285005001"
-	rom ( name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France) (2005) (Alt).bin" size 8388608 crc 88EC5ADC md5 A742F7DE0CEB4D7ABEE4AD788C20FF76 sha1 DCA33728D8D58038BB6AADF308B6A0FE842DAED8 serial "8092285005001" )
-)
-game (
 	name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France)"
 	releaseyear "2007"
 	region "France"
 	serial "80-92285-105-001"
 	rom ( name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France) (2007).bin" size 8388608 crc 645876B1 md5 91711F36253F3F7B3C23CC6DDA9AB243 sha1 FE6710E69F5E26EC4299301532238654CF2B748C serial "80-92285-105-001" )
+)
+game (
+	name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France)"
+	releaseyear "2005"
+	region "France"
+	serial "8092285005001"
+	rom ( name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France) (2005) (Alt).bin" size 8388608 crc 88EC5ADC md5 A742F7DE0CEB4D7ABEE4AD788C20FF76 sha1 DCA33728D8D58038BB6AADF308B6A0FE842DAED8 serial "8092285005001" )
 )
 game (
 	name "Dora l'Exploratrice - Les aventures de Dora Apprentie Mecano (France) (V.Smile Motion)"
@@ -1947,11 +1960,6 @@ game (
 	rom ( name "Noddy - Detektiv fuer einen Tag (Germany).bin" size 8388608 crc 2402B5B4 md5 BE83C2F7921FB9630B86C7CB780282F7 sha1 98DD09522B3D897DD8DB070E08E66FCAEBB192A2 serial "8092544104" )
 )
 game (
-	name "Ordspel (Sweden)"
-	region "Sweden"
-	rom ( name "Ordspel (Sweden).bin" size 32768 crc 0C98A692 md5 003113A6484A0131592EB212447B4D3F sha1 347D68F6CBD0AED451B3742D6822AC5E23BA30B8 )
-)
-game (
 	name "Osos Amorosos - Una Leccion de Amor (Spain)"
 	region "Spain"
 	serial "8091800101"
@@ -2300,17 +2308,17 @@ game (
 )
 game (
 	name "Spider-Man & ses amis - Missions secretes (France)"
-	releaseyear "2004"
-	region "France"
-	serial "8092145005"
-	rom ( name "Spider-Man & ses amis - Missions secretes (France) (2004).bin" size 8388608 crc 1D8BD16A md5 4AB912A99C547BE06BB09154C83D315E sha1 5667CABC4E023984440CE0690EF0DE25D1332491 serial "8092145005" )
-)
-game (
-	name "Spider-Man & ses amis - Missions secretes (France)"
 	releaseyear "2005"
 	region "France"
 	serial "8092145005"
 	rom ( name "Spider-Man & ses amis - Missions secretes (France) (2005).bin" size 8388608 crc 906B0AB6 md5 6E25F315EE8095360F3A1BA88E06EA19 sha1 DA5435366A439AFD70FF210C0E655839F66FBEF3 serial "8092145005" )
+)
+game (
+	name "Spider-Man & ses amis - Missions secretes (France)"
+	releaseyear "2004"
+	region "France"
+	serial "8092145005"
+	rom ( name "Spider-Man & ses amis - Missions secretes (France) (2004).bin" size 8388608 crc 1D8BD16A md5 4AB912A99C547BE06BB09154C83D315E sha1 5667CABC4E023984440CE0690EF0DE25D1332491 serial "8092145005" )
 )
 game (
 	name "Spider-Man & ses amis - Missions secretes (France)"
@@ -2334,17 +2342,17 @@ game (
 )
 game (
 	name "Spider-Man en Vrienden - Geheime Missies (Netherlands)"
-	releaseyear "2005"
-	region "Netherlands"
-	serial "8092142023001"
-	rom ( name "Spider-Man en Vrienden - Geheime Missies (Netherlands) (2005).bin" size 8388608 crc 07714231 md5 22FC1A93DA54FEA41280497612513A6D sha1 13D854A3794DCBB28B5BD3E524B2C5CD1D81636E serial "8092142023001" )
-)
-game (
-	name "Spider-Man en Vrienden - Geheime Missies (Netherlands)"
 	releaseyear "2008"
 	region "Netherlands"
 	serial "80092142123001"
 	rom ( name "Spider-Man en Vrienden - Geheime Missies (Netherlands) (2008).bin" size 8388608 crc AF58E0D2 md5 9F1DB8438B1AA357808B4562AC487AB6 sha1 A7E9228819FCEBDC9AF6532E62B94EF9C7A6F500 serial "80092142123001" )
+)
+game (
+	name "Spider-Man en Vrienden - Geheime Missies (Netherlands)"
+	releaseyear "2005"
+	region "Netherlands"
+	serial "8092142023001"
+	rom ( name "Spider-Man en Vrienden - Geheime Missies (Netherlands) (2005).bin" size 8388608 crc 07714231 md5 22FC1A93DA54FEA41280497612513A6D sha1 13D854A3794DCBB28B5BD3E524B2C5CD1D81636E serial "8092142023001" )
 )
 game (
 	name "Spider-Man y Amigos - La Aventura Del Doctor Octopus (Spain)"
@@ -2487,13 +2495,13 @@ game (
 	name "Thomas & Friends - Engines Working Together (USA)"
 	region "USA"
 	serial "8092340101"
-	rom ( name "Thomas & Friends - Engines Working Together (USA).bin" size 8388608 crc FF0D3DCA md5 3EE81BCB662E4BF66C38F8CD149B3BC1 sha1 23A9A05289A9FC858BB7B91A6EFAD8C1ED54BCED serial "8092340101" )
+	rom ( name "Thomas & Friends - Engines Working Together (USA) (Alt).bin" size 8388608 crc 58BA95FA md5 9732030A58825A383DDA447A9B69CB90 sha1 C6C4D5350DBBCD7DC458860171828E0273DF1D7E serial "8092340101" )
 )
 game (
-	name "Thomas & Friends - Engines Working Together (USA) (Alt)"
+	name "Thomas & Friends - Engines Working Together (USA)"
 	region "USA"
 	serial "8092340101"
-	rom ( name "Thomas & Friends - Engines Working Together (USA) (Alt).bin" size 8388608 crc 58BA95FA md5 9732030A58825A383DDA447A9B69CB90 sha1 C6C4D5350DBBCD7DC458860171828E0273DF1D7E serial "8092340101" )
+	rom ( name "Thomas & Friends - Engines Working Together (USA).bin" size 8388608 crc FF0D3DCA md5 3EE81BCB662E4BF66C38F8CD149B3BC1 sha1 23A9A05289A9FC858BB7B91A6EFAD8C1ED54BCED serial "8092340101" )
 )
 game (
 	name "Thomas & Friends - Engines Working Together (USA) (Rev 1)"
@@ -2532,7 +2540,7 @@ game (
 	rom ( name "Thomas & seine Freunde - Freunde halten zusammen (Germany).bin" size 8388608 crc F0A73961 md5 C9FF27D7F96115D55B0654C2187FC5ED sha1 2E043E131073AD27CA7CEBC28C237ECD8C1271E8 serial "8092344101" )
 )
 game (
-	name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Alt)"
+	name "Thomas & seine Freunde - Freunde halten zusammen (Germany)"
 	region "Germany"
 	serial "8092344101"
 	rom ( name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Alt).bin" size 8388608 crc 5AEB37AA md5 0B5082A0F56F0912CD361280C7249EB3 sha1 0E7F870A2269E7EF0FA1B1FC15EB9B6B89952A06 serial "8092344101" )
@@ -2544,7 +2552,7 @@ game (
 	rom ( name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Rev 1).bin" size 8388608 crc 9E9FC42C md5 B8E49E785602FDFC0A63CD4783ED802A sha1 27F7E98C180EE3B51CC2CE4FC19E3F3F5777887A serial "8092344101" )
 )
 game (
-	name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Rev 1) (Alt)"
+	name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Rev 1)"
 	region "Germany"
 	serial "8092344101"
 	rom ( name "Thomas & seine Freunde - Freunde halten zusammen (Germany) (Rev 1) (Alt).bin" size 8388608 crc 11A81943 md5 812B82F88CAB9744BE59CEB5CAF1D90C sha1 54C6AFBEA80C157858C12C6E813A8F88B82F2A92 serial "8092344101" )

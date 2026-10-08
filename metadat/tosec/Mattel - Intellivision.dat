@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Mattel - Intellivision"
 	description "Mattel - Intellivision"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "90|bin|d0|f0|rom"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -96,14 +97,14 @@ game (
 	rom ( name "Auto Racing (1979)(Mattel).bin" size 8192 crc B35C1101 md5 97E865E173D137CF5576D080268F7DF5 sha1 2E3461853F60A1928C5C93BB23DEB9229E0230C9 )
 )
 game (
-	name "B-17 Bomber [Intellivoice][3884]"
-	releaseyear "1981"
-	rom ( name "B-17 Bomber (1981)(Mattel Electronics)[Intellivoice][3884].d0" size 8192 crc 3E932009 md5 79A9D79540F8CFA6D101FD013DDABED3 sha1 F0FCC934BA19A9E88B470A99A2D984820369C57C )
-)
-game (
 	name "B-17 Bomber"
 	releaseyear "1981"
 	rom ( name "B-17 Bomber (1981)(Mattel).bin" size 24576 crc 8AD19AB3 md5 44FB31805C87974AC205871E61800A77 sha1 E1EF8A5102B1FC14321F83864D1F6E0E0CE5ACF4 )
+)
+game (
+	name "B-17 Bomber [Intellivoice][3884]"
+	releaseyear "1981"
+	rom ( name "B-17 Bomber (1981)(Mattel Electronics)[Intellivoice][3884].d0" size 8192 crc 3E932009 md5 79A9D79540F8CFA6D101FD013DDABED3 sha1 F0FCC934BA19A9E88B470A99A2D984820369C57C )
 )
 game (
 	name "Baseball"
@@ -111,7 +112,7 @@ game (
 	rom ( name "Baseball (1978)(Mattel).bin" size 8192 crc DAB36628 md5 B88C2989496A5CA5E276D56A2EBFB2AB sha1 5E83A945F231F55D5DDFA9527F9B94DA06E77058 )
 )
 game (
-	name "Baseball (Alt 1)"
+	name "Baseball"
 	releaseyear "1978"
 	rom ( name "Baseball (1978)(Mattel)[a].bin" size 16896 crc 12BBF7AD md5 D07C95972409275B1F1FCCD804EE6811 sha1 E824749643B25D730A7E624710F69EE6D64F4565 )
 )
@@ -153,14 +154,14 @@ game (
 	rom ( name "Body Slam Super Pro Wrestling (1988)(INTV)[9009].90" size 16384 crc 79800B37 md5 14ED9AA715EA5741055AC36499D70F9E sha1 ABC79AFABC4273C01657DE04DE567E34B479BC70 )
 )
 game (
-	name "Bomb Squad [Intellivoice][3883]"
-	releaseyear "1982"
-	rom ( name "Bomb Squad (1982)(Mattel Electronics)[Intellivoice][3883].d0" size 8192 crc F99180E1 md5 7D8628B39CD203D434B7F13D959688AC sha1 8D4A7CA33FC9AC5DB8B1BDCF8806D899C898AE03 )
-)
-game (
 	name "Bomb Squad"
 	releaseyear "1982"
 	rom ( name "Bomb Squad (1982)(Mattel).bin" size 24576 crc 32697B72 md5 8D0D0BB758718E663886A890D1412FD5 sha1 BC19D31E771EA3B99AA2E2326DA540057E54703C )
+)
+game (
+	name "Bomb Squad [Intellivoice][3883]"
+	releaseyear "1982"
+	rom ( name "Bomb Squad (1982)(Mattel Electronics)[Intellivoice][3883].d0" size 8192 crc F99180E1 md5 7D8628B39CD203D434B7F13D959688AC sha1 8D4A7CA33FC9AC5DB8B1BDCF8806D899C898AE03 )
 )
 game (
 	name "Bouncing Pixels (PD)"
@@ -199,7 +200,7 @@ game (
 	rom ( name "Buzz Bombers (1982)(Mattel)(EU-US).bin" size 16384 crc FA492BBD md5 0032F034ED1D761D1F0DFF79115FEC78 sha1 A0EF9A23976DE6EE88C1F970A6585DED2A2B8C04 )
 )
 game (
-	name "Buzz Bombers (USA, Europe) (Alt 1)"
+	name "Buzz Bombers (USA, Europe)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Buzz Bombers (1982)(Mattel)(EU-US)[a].bin" size 16384 crc 2A1E0C1C md5 2B928547D16F0EBC08E7B310E170D000 sha1 B36E5416AD5712942F766030E8A04AA307BF056F )
@@ -215,14 +216,14 @@ game (
 	rom ( name "Centipede (1983)(Atarisoft).bin" size 16384 crc D5363B8C md5 8C57A45B86D907ECEBFF9EDC3A132AA5 sha1 97C69DC3DA5AEE80E6EF1BAF90B6C3EC8025ABFF )
 )
 game (
-	name "Championship Tennis [8200]"
-	releaseyear "1985"
-	rom ( name "Championship Tennis (1985)(INTV)[8200].d0" size 16384 crc C7DD6388 md5 F29D710A875603FF7A822AC86D313167 sha1 446514366065262EA9658E4BA399E84B2A249FB8 )
-)
-game (
 	name "Championship Tennis"
 	releaseyear "1985"
 	rom ( name "Championship Tennis (1985)(Mattel).bin" size 32768 crc 4CC46A04 md5 016BE420F1F20FC2ED8EC051E196AAEC sha1 A402BCC8D1E50FEBC01AC2D91237742192AFF7C7 )
+)
+game (
+	name "Championship Tennis [8200]"
+	releaseyear "1985"
+	rom ( name "Championship Tennis (1985)(INTV)[8200].d0" size 16384 crc C7DD6388 md5 F29D710A875603FF7A822AC86D313167 sha1 446514366065262EA9658E4BA399E84B2A249FB8 )
 )
 game (
 	name "Checkers"
@@ -245,14 +246,14 @@ game (
 	rom ( name "Choplifter! (1983)(Mattel Electronics)(proto).d0" size 12288 crc 9B09666E md5 7A5CEA40AE0EC44E62E1803F294F29E5 sha1 A024E5189E52AE07AA666FDCBA612A6E9D7DA4BC )
 )
 game (
-	name "Commando [9000]"
-	releaseyear "1987"
-	rom ( name "Commando (1987)(INTV)[9000].90" size 16384 crc FC44EA3C md5 5251B9B8A24DE1FD5B2B541AC44B1D65 sha1 5A95EA2924D3B0BFC4E353D6FFC4966F4BDFCD58 )
-)
-game (
 	name "Commando"
 	releaseyear "1987"
 	rom ( name "Commando (1987)(Mattel).bin" size 32768 crc 3289C8BA md5 9FF5833918A5ACCBFDDC856258BC2D3B sha1 40A1418E2768991F82E6D453E598AC2170B981AD )
+)
+game (
+	name "Commando [9000]"
+	releaseyear "1987"
+	rom ( name "Commando (1987)(INTV)[9000].90" size 16384 crc FC44EA3C md5 5251B9B8A24DE1FD5B2B541AC44B1D65 sha1 5A95EA2924D3B0BFC4E353D6FFC4966F4BDFCD58 )
 )
 game (
 	name "Congo Bongo"
@@ -271,14 +272,14 @@ game (
 	rom ( name "Crosswords (1987)(INTV Corporation)(US).bin" size 16384 crc 32162105 md5 778189B03DEA11C31E450E278231267B sha1 B1F019989D74AA63F49070167DABEA510C3AA6ED )
 )
 game (
-	name "Deep Pockets - Super Pro Pool and Billiards [unreleased]"
-	releaseyear "1983"
-	rom ( name "Deep Pockets - Super Pro Pool and Billiards (1983)(Mattel Electronics)[unreleased].90" size 16384 crc 233C364D md5 66C2760A10BCA6971FB617984D74DAA7 sha1 E87A81345822F3417830F181169970C9AEFAF9E3 )
-)
-game (
 	name "Deep Pockets - Super Pro Pool and Billiards"
 	releaseyear "1990"
 	rom ( name "Deep Pockets - Super Pro Pool and Billiards (1990)(Realtime).bin" size 32768 crc 6802B191 md5 409D186A7289D902F6309136BBEBDB8B sha1 78056057477A3D7B3EEB663AD9AA7735EE9197A6 )
+)
+game (
+	name "Deep Pockets - Super Pro Pool and Billiards [unreleased]"
+	releaseyear "1983"
+	rom ( name "Deep Pockets - Super Pro Pool and Billiards (1983)(Mattel Electronics)[unreleased].90" size 16384 crc 233C364D md5 66C2760A10BCA6971FB617984D74DAA7 sha1 E87A81345822F3417830F181169970C9AEFAF9E3 )
 )
 game (
 	name "Defender"
@@ -418,14 +419,14 @@ game (
 	rom ( name "Hover Force (1986)(INTV Corporation).bin" size 49152 crc FF83FF80 md5 436CACF587E988368974FE273BE78474 sha1 2D96762D78A63F606B74C6619F3B2B82C381FCCE )
 )
 game (
-	name "Hover Force [8500]"
-	releaseyear "1986"
-	rom ( name "Hover Force (1986)(INTV)[8500].d0" size 8192 crc ED7C8FAC md5 BC31DB56CA94E1C51B10B1A638127FC1 sha1 140986D67BA22E5C344E27AC74FA3E14F35097E7 )
-)
-game (
 	name "Hover Force 3D [unreleased]"
 	releaseyear "1984"
 	rom ( name "Hover Force 3D (1984)(Mattel Electronics)[unreleased].d0" size 8192 crc D6E96DDC md5 BD67BEAEC7F4259F05F478BB94B2FB8D sha1 2833C891028772D2A3ACF23DCE67E3CD597D486F )
+)
+game (
+	name "Hover Force [8500]"
+	releaseyear "1986"
+	rom ( name "Hover Force (1986)(INTV)[8500].d0" size 8192 crc ED7C8FAC md5 BC31DB56CA94E1C51B10B1A638127FC1 sha1 140986D67BA22E5C344E27AC74FA3E14F35097E7 )
 )
 game (
 	name "Hypnotic Lights"
@@ -443,16 +444,6 @@ game (
 	rom ( name "Illusions (1983)(Mattel Electronics)[unreleased].bin" size 16384 crc 851F3CCB md5 E321A9C88CBCE40C8E0413AC69DB4CB8 sha1 FD7BB50812E207B03295FF2ABF973B935A0D28DE )
 )
 game (
-	name "IntvWolf - Beta 1 (Beta)"
-	releaseyear "2003"
-	rom ( name "IntvWolf - Beta 1 (2003)(Chevallier, Arnauld)(beta).bin" size 5632 crc 42D74BEC md5 36758EC3F61F39C089ABDC5D03E558C4 sha1 72726C08BE62AF73C528F1A0F82F6134F543B390 )
-)
-game (
-	name "IntvWolf - Beta 1 (Beta) (Alt 1)"
-	releaseyear "2003"
-	rom ( name "IntvWolf - Beta 1 (2003)(Chevallier, Arnauld)(beta)[a].bin" size 6656 crc DAD3590E md5 392C4747E55418A15021FA10AB7C6FB0 sha1 14D4A6A21674DB28EAE7275BC6082A41E0AA29C9 )
-)
-game (
 	name "Istar"
 	releaseyear "2010"
 	rom ( name "Istar (2010)(IntelligentVision).bin" size 12288 crc 7899E5BA md5 535A79D6B50CA7C9A3A00F87E9664BA4 sha1 997D1B679768296FC2DB120A93CC1880318637CF )
@@ -463,11 +454,6 @@ game (
 	rom ( name "KChess v1.0 (2003)(Chevallier, Arnauld).bin" size 19968 crc 9F6FC91C md5 752ADB8BB1293993ABE8A97BF0F7D1B5 sha1 2C0CB8FF8DFA822E992D40DE47D73FC809393F95 )
 )
 game (
-	name "King of the Mountain [unreleased]"
-	releaseyear "1982"
-	rom ( name "King of the Mountain (1982)(Mattel Electronics)[unreleased].d0" size 16384 crc 45E7021D md5 D02EB2D5F716499C254EAE2ECCDC8E03 sha1 3E6C17470CE5A92B28FA476C94AE0B84AB01E9C2 )
-)
-game (
 	name "King of the Mountain"
 	releaseyear "1982"
 	rom ( name "King of the Mountain (1982)(Mattel).bin" size 32768 crc 4422868E md5 EAB911E041089584DE216BC3FEAA5C9A sha1 3EF8ACBC764F7916337A07407222C0BCE092A058 )
@@ -475,6 +461,11 @@ game (
 game (
 	name "King of the Mountain [possible fix]"
 	rom ( name "King of the Mountain (200x)(IntelligentVision)[possible fix].d0" size 16896 crc 2C7F5DE1 md5 D9C071E4692D24D958ACFECD413D63AE sha1 C86A04A969542A08B46EF50DD30C649AD6EF5B47 )
+)
+game (
+	name "King of the Mountain [unreleased]"
+	releaseyear "1982"
+	rom ( name "King of the Mountain (1982)(Mattel Electronics)[unreleased].d0" size 16384 crc 45E7021D md5 D02EB2D5F716499C254EAE2ECCDC8E03 sha1 3E6C17470CE5A92B28FA476C94AE0B84AB01E9C2 )
 )
 game (
 	name "Kool-Aid Man"
@@ -504,17 +495,17 @@ game (
 game (
 	name "League of Light (Proto)"
 	releaseyear "1983"
+	rom ( name "League of Light (1983)(Activision)(proto)[a].bin" size 16384 crc 19360442 md5 8DFC158F903621A7947FE886308D9E88 sha1 9C36D2FEC6C1C2BC01BB3863997E267F74325E06 )
+)
+game (
+	name "League of Light (Proto)"
+	releaseyear "1983"
 	rom ( name "League of Light (1983)(Activision)(proto).bin" size 16384 crc B4287B95 md5 080F03A856158F713166E2CF4CAD670D sha1 EA729D124F02B87E3357AE62CCE0F49242073141 )
 )
 game (
-	name "League of Light (Proto) (Alt 2)"
+	name "League of Light (Proto)"
 	releaseyear "1983"
 	rom ( name "League of Light (1983)(Activision)(proto)[a2].bin" size 16384 crc 75EE64F6 md5 407200059843E9FE63FCCB1498138863 sha1 43693F63B502029A15B93FC63BE8E06CAFA38085 )
-)
-game (
-	name "League of Light (Proto) (Alt 1)"
-	releaseyear "1983"
-	rom ( name "League of Light (1983)(Activision)(proto)[a].bin" size 16384 crc 19360442 md5 8DFC158F903621A7947FE886308D9E88 sha1 9C36D2FEC6C1C2BC01BB3863997E267F74325E06 )
 )
 game (
 	name "Lock 'N' Chase"
@@ -522,12 +513,12 @@ game (
 	rom ( name "Lock 'N' Chase (1982)(Mattel).bin" size 16384 crc E00D1399 md5 92C9CE0470CFC12E20DF5B0246C60FEA sha1 3958C1D400A76A9534E05F03FB34EFE90F32F113 )
 )
 game (
-	name "Lock 'N' Chase (Alt 2)"
+	name "Lock 'N' Chase"
 	releaseyear "1982"
 	rom ( name "Lock 'N' Chase (1982)(Mattel)[a2].bin" size 12288 crc 04977992 md5 CCDE49CB2450992495156477EFF59E14 sha1 08454A5F7B44730AA8249623785DD7A6471AB98F )
 )
 game (
-	name "Lock 'N' Chase (Alt 1)"
+	name "Lock 'N' Chase"
 	releaseyear "1982"
 	rom ( name "Lock 'N' Chase (1982)(Mattel)[a].bin" size 16384 crc 5C7E9848 md5 988F97F6A3C713210EFC2C20A32E970C sha1 AC889A1D76B40BE1A7E7562C8CB8B3F9D00F3728 )
 )
@@ -537,21 +528,21 @@ game (
 	rom ( name "Loco-Motion (1982)(Mattel).bin" size 16384 crc 6B6E80EE md5 FF8355790CEB7CE6905DD27C8510CD78 sha1 A5479D68F90D77234B6ACC4D7EE93A356D5FD961 )
 )
 game (
+	name "Magic Carousel (Proto)"
+	releaseyear "1983"
+	rom ( name "Magic Carousel (1983)(INTV)(proto).d0" size 16384 crc 86BC2541 md5 9D1A4F489B53F41F17AB332D2F44F815 sha1 997A9B9ECB88DF4F90F1F8C3CBF817C057C4A933 )
+)
+game (
 	name "Magic Carousel (USA) (Proto)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Magic Carousel (1982)(Mattel)(US)(proto).bin" size 32768 crc F3B0C759 md5 B97437149EF2073FB10FD098C5101172 sha1 EAD96B0122443DD93C58516C956C3C9A53C7DCDB )
 )
 game (
-	name "Magic Carousel (USA) (Proto) (Alt 1)"
+	name "Magic Carousel (USA) (Proto)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Magic Carousel (1982)(Mattel)(US)(proto)[a].bin" size 32768 crc B25B22CB md5 E2C4B1522C6B185CB266F499B8B7ED2F sha1 877102665E0674E42DB9EE228CE8D540132EA996 )
-)
-game (
-	name "Magic Carousel (Proto)"
-	releaseyear "1983"
-	rom ( name "Magic Carousel (1983)(INTV)(proto).d0" size 16384 crc 86BC2541 md5 9D1A4F489B53F41F17AB332D2F44F815 sha1 997A9B9ECB88DF4F90F1F8C3CBF817C057C4A933 )
 )
 game (
 	name "Maria"
@@ -576,11 +567,6 @@ game (
 	rom ( name "Microsurgeon (1982)(Imagic).bin" size 16384 crc E806AD91 md5 137D6101EC260405D3D5339822E172F7 sha1 1390F0076470504037720B20F84404D502988231 )
 )
 game (
-	name "Minehunter (Alt 1)[download version]"
-	releaseyear "2004"
-	rom ( name "Minehunter (2004)(IntelligentVision)[a][download version].bin" size 15872 crc 94096229 md5 485D439CCA45203E54CE3F9E7B6D144A sha1 A351EDD058431ED2AECCC0554041A17258C01C28 )
-)
-game (
 	name "Minehunter"
 	releaseyear "2004"
 	rom ( name "Minehunter (2004)(Kinnen, Ryan).bin" size 16384 crc A9F1D874 md5 696FBEF85BDFB84E3FFD3652A81C0C76 sha1 4BBAC2B5264F4D357E7223B2373B078C622C08A9 )
@@ -591,6 +577,11 @@ game (
 	releasemonth "03"
 	releaseday "20"
 	rom ( name "Minehunter (2004-03-20)(Kinnen, Ryan)(PD).bin" size 14848 crc 05A06292 md5 4532CAACA6F1F76060D184FC4E29F9C9 sha1 C4ABF77C2CFC0E7B590E2260C56360F9738C45D6 )
+)
+game (
+	name "Minehunter [download version]"
+	releaseyear "2004"
+	rom ( name "Minehunter (2004)(IntelligentVision)[a][download version].bin" size 15872 crc 94096229 md5 485D439CCA45203E54CE3F9E7B6D144A sha1 A351EDD058431ED2AECCC0554041A17258C01C28 )
 )
 game (
 	name "Minotaur"
@@ -700,11 +691,6 @@ game (
 	rom ( name "Pac-Man (1983)(INTV Corporation).bin" size 24576 crc 6E4E8EB4 md5 8CD6023881AB241B3216D38C89F1D088 sha1 48023975E4BA875B745B5B9AAC0FB562922B50C3 )
 )
 game (
-	name "Pac-Man [toggle test]"
-	releaseyear "2010"
-	rom ( name "Pac-Man (2010)(DZ-Jay)[toggle test].bin" size 4096 crc 73774506 md5 81EBA09622D8FDADFA32BFE31C0086F8 sha1 17D7B63A9BD07AD2165B2DF64564821BF9EDC54E )
-)
-game (
 	name "Pac-Man"
 	releaseyear "2010"
 	releasemonth "07"
@@ -719,13 +705,6 @@ game (
 	rom ( name "Pac-Man (2010-07-08)(DZ-Jay).bin" size 4096 crc FCEA4D71 md5 D1877EDEBBB7CA0DB52CA4CB118AC981 sha1 D68796963BBE732BDE0771E8FEBCE2AAE254DF82 )
 )
 game (
-	name "Pac-Man [Input Test]"
-	releaseyear "2010"
-	releasemonth "08"
-	releaseday "08"
-	rom ( name "Pac-Man (2010-08-08)(DZ-Jay)[Input Test].bin" size 4608 crc 405C2D4B md5 4D2A5054A3FD5427B3723767B1368389 sha1 0096A526216B08156EAAE9A614B69D776A9FC7C1 )
-)
-game (
 	name "Pac-Man"
 	releaseyear "2010"
 	releasemonth "09"
@@ -738,13 +717,6 @@ game (
 	releasemonth "09"
 	releaseday "19"
 	rom ( name "Pac-Man (2010-09-19)(DZ-Jay).bin" size 4608 crc 4A28BED1 md5 43A09B0659C77A85D1FC3CFD14AFB298 sha1 04466E0AB547FA559D773E58981CCD2E2D026666 )
-)
-game (
-	name "Pac-Man [a slow]"
-	releaseyear "2010"
-	releasemonth "09"
-	releaseday "19"
-	rom ( name "Pac-Man (2010-09-19)(DZ-Jay)[a slow].bin" size 4608 crc 1EA0C935 md5 22193A233C1179A755F1B922EACBB212 sha1 D6E524A549B11262EAC67CD859C7D71FB286125E )
 )
 game (
 	name "Pac-Man"
@@ -803,7 +775,32 @@ game (
 	rom ( name "Pac-Man (2010-11-09)(DZ-Jay).bin" size 7168 crc 3E184875 md5 430C705B9BFAA6D7C0C76E4F186E11DD sha1 C680F8FBE3E7A09D1045650465D1DED84E9E9607 )
 )
 game (
-	name "Party Line - Blow Out (Alt 1)[unreleased]"
+	name "Pac-Man [Input Test]"
+	releaseyear "2010"
+	releasemonth "08"
+	releaseday "08"
+	rom ( name "Pac-Man (2010-08-08)(DZ-Jay)[Input Test].bin" size 4608 crc 405C2D4B md5 4D2A5054A3FD5427B3723767B1368389 sha1 0096A526216B08156EAAE9A614B69D776A9FC7C1 )
+)
+game (
+	name "Pac-Man [a slow]"
+	releaseyear "2010"
+	releasemonth "09"
+	releaseday "19"
+	rom ( name "Pac-Man (2010-09-19)(DZ-Jay)[a slow].bin" size 4608 crc 1EA0C935 md5 22193A233C1179A755F1B922EACBB212 sha1 D6E524A549B11262EAC67CD859C7D71FB286125E )
+)
+game (
+	name "Pac-Man [toggle test]"
+	releaseyear "2010"
+	rom ( name "Pac-Man (2010)(DZ-Jay)[toggle test].bin" size 4096 crc 73774506 md5 81EBA09622D8FDADFA32BFE31C0086F8 sha1 17D7B63A9BD07AD2165B2DF64564821BF9EDC54E )
+)
+game (
+	name "Party Line - Blow Out (USA) (Proto)"
+	releaseyear "1983"
+	region "USA"
+	rom ( name "Party Line - Blow Out (1983)(Mattel)(US)(proto).bin" size 16384 crc A63AA3D8 md5 253266252E55BD85E98C207D82036A27 sha1 F577D291644D52F484EC69E31131D65585C8FDD1 )
+)
+game (
+	name "Party Line - Blow Out [unreleased]"
 	releaseyear "1983"
 	rom ( name "Party Line - Blow Out (1983)(Mattel Electronics)[a][unreleased].d0" size 8192 crc B7E29589 md5 8A81260AEBEFB8EE370F5415DBB9106E sha1 4E1B1C2BF93952D52827B13752E61584A66672EA )
 )
@@ -813,32 +810,26 @@ game (
 	rom ( name "Party Line - Blow Out (1983)(Mattel Electronics)[unreleased].d0" size 8192 crc F257A189 md5 5270F9168F080C2344B90AF50FAEDBCF sha1 3BFC013252AF2B05C35BE21B01EBAEADD5CE4D0B )
 )
 game (
-	name "Party Line - Blow Out (USA) (Proto)"
-	releaseyear "1983"
-	region "USA"
-	rom ( name "Party Line - Blow Out (1983)(Mattel)(US)(proto).bin" size 16384 crc A63AA3D8 md5 253266252E55BD85E98C207D82036A27 sha1 F577D291644D52F484EC69E31131D65585C8FDD1 )
-)
-game (
 	name "Party Line - Space Cadet (USA) (Proto)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Party Line - Space Cadet (1982)(Mattel)(US)(proto).bin" size 16384 crc F8EF3E5A md5 976C2CC2329565AA078E51EA97C7A76C sha1 F3CFBE285A12194EF2F6087FC70D0ED887C4EC91 )
 )
 game (
-	name "Party Line - Space Cadet (USA) (Proto) (Alt 1)"
+	name "Party Line - Space Cadet (USA) (Proto)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Party Line - Space Cadet (1982)(Mattel)(US)(proto)[a].bin" size 16384 crc 4B88FA8E md5 A67416F1D3344346D833D214A8862DFB sha1 DA243BB89D39E7AC9F420FBBB3275DD81EA876FB )
 )
 game (
-	name "Pinball [5356]"
-	releaseyear "1981"
-	rom ( name "Pinball (1981)(Mattel Electronics)[5356].d0" size 8192 crc CE21806D md5 062692D928B66C13D461935170C5D2EB sha1 532CB88D9A6797CA218C5364275CB57691EB1322 )
-)
-game (
 	name "Pinball"
 	releaseyear "1981"
 	rom ( name "Pinball (1981)(Mattel).bin" size 24576 crc D7C5849C md5 2828CE0B76C7F8A5E3A4569FAC5C8EB9 sha1 C24BF2E31CE331FAC4CA5012501BDE7F5BD94ADB )
+)
+game (
+	name "Pinball [5356]"
+	releaseyear "1981"
+	rom ( name "Pinball (1981)(Mattel Electronics)[5356].d0" size 8192 crc CE21806D md5 062692D928B66C13D461935170C5D2EB sha1 532CB88D9A6797CA218C5364275CB57691EB1322 )
 )
 game (
 	name "Pitfall!"
@@ -901,12 +892,12 @@ game (
 	rom ( name "Robot Rubble (1983)(Activision)(proto).bin" size 8192 crc 7473916D md5 C58665B14AA2FB3003C3D153AA37984E sha1 99DA0316641A7639EF4BE71E5904B2399F36D4CB )
 )
 game (
-	name "Robot Rubble (Proto) (Alt 2)"
+	name "Robot Rubble (Proto)"
 	releaseyear "1983"
 	rom ( name "Robot Rubble (1983)(Activision)(proto)[a2].bin" size 16384 crc 243B0812 md5 4F20EB32CEBCF182A57D28482A8FC4AD sha1 D2D93BB89701906793A696B8B07A514FCFF7428B )
 )
 game (
-	name "Robot Rubble (Proto) (Alt 1)"
+	name "Robot Rubble (Proto)"
 	releaseyear "1983"
 	rom ( name "Robot Rubble (1983)(Activision)(proto)[a].bin" size 8192 crc E7576C1F md5 71A6D82B8238E41FE9F879F66E4DAD0B sha1 2E479E53BF2D21725E7B5B0897259D7D36EE9133 )
 )
@@ -931,7 +922,7 @@ game (
 	rom ( name "Royal Dealer (1981)(Mattel).bin" size 16384 crc DCF4B15D md5 BCF1B30BA80303B36B1CC3BDD5042C1E sha1 0B53BB03D25C345657BAA388478AA8DF94026C33 )
 )
 game (
-	name "Royal Dealer (Alt 1)"
+	name "Royal Dealer"
 	releaseyear "1981"
 	rom ( name "Royal Dealer (1981)(Mattel)[a].bin" size 12288 crc 0458A491 md5 240A53F04E1B2E71463130CB58F539D9 sha1 918E59D79672577B8B327C5D00C95D03E5E0C920 )
 )
@@ -1110,12 +1101,12 @@ game (
 	rom ( name "Super Cobra (1983)(Parker Brothers).bin" size 16386 crc 8F7D3069 md5 F94C5691D97E77CD675C7CD65A19E8E4 sha1 E1B095303E64A2B15F28DDE85628654DF4475A14 )
 )
 game (
-	name "Super Cobra (Alt 2)"
+	name "Super Cobra"
 	releaseyear "1983"
 	rom ( name "Super Cobra (1983)(Parker Brothers)[a2].bin" size 16384 crc 7C32C9B8 md5 34A2A81F1993124FC1635A9599F24E41 sha1 9ECED3A6D0CA3A303793D96050DBEC2AB1F35DF6 )
 )
 game (
-	name "Super Cobra (Alt 1)"
+	name "Super Cobra"
 	releaseyear "1983"
 	rom ( name "Super Cobra (1983)(Parker Brothers)[a].bin" size 16896 crc 82CC04F6 md5 ED11E8DAC381FC664130C778E0B43432 sha1 175F860C164E3AEC12944BB30DA59741DE0A621F )
 )
@@ -1145,14 +1136,14 @@ game (
 	rom ( name "Super Pro Football (1986)(INTV)[8400].90" size 16384 crc C9227E76 md5 FA3E478E7135CCEBBAE18CBC718CFD83 sha1 DD85452F73F1D97C7871FD26EEC334BC6CB1CAA2 )
 )
 game (
-	name "Super Soccer [unreleased]"
-	releaseyear "1983"
-	rom ( name "Super Soccer (1983)(Mattel Electronics)[unreleased].f0" size 8192 crc 3348DC4B md5 A52C454C27E441B50491529141A906F8 sha1 C723206A8F5B8E445B7CA45AD4BF05D1B36A5AB9 )
-)
-game (
 	name "Super Soccer"
 	releaseyear "1983"
 	rom ( name "Super Soccer (1983)(Mattel).bin" size 32768 crc 51B82EB7 md5 2C4B44090566720364A5A4627B73390A sha1 C96409D50870049E907FF3AE5F43EA6CA63E287E )
+)
+game (
+	name "Super Soccer [unreleased]"
+	releaseyear "1983"
+	rom ( name "Super Soccer (1983)(Mattel Electronics)[unreleased].f0" size 8192 crc 3348DC4B md5 A52C454C27E441B50491529141A906F8 sha1 C723206A8F5B8E445B7CA45AD4BF05D1B36A5AB9 )
 )
 game (
 	name "Swords and Serpents"
@@ -1183,10 +1174,6 @@ game (
 	name "TRON Solar Sailer [Intellivoice][5393]"
 	releaseyear "1982"
 	rom ( name "TRON Solar Sailer (1982)(Mattel Electronics)[Intellivoice][5393].d0" size 8192 crc 0E45E775 md5 ED6FBC5069FEA99C2A41254A0FE93B91 sha1 A6D317C3E342C53D6DDBBF7BD774A84A6B44DFB8 )
-)
-game (
-	name "Tag-Along Todd v3.13 (Beta)"
-	rom ( name "Tag-Along Todd v3.13 (20xx)(Z., Joe - H., David)(beta).bin" size 10752 crc 1ECDD51B md5 57E82AC5EF6C1BFF0B810874C4B2C30C sha1 9E1666A68D50BB4A1F618CC2F9BCD7DFBADC8188 )
 )
 game (
 	name "Takeover"
@@ -1285,24 +1272,9 @@ game (
 	rom ( name "USCF Chess (1981)(Mattel).bin" size 16384 crc 752FD927 md5 11B861F65C37A59E67FF028435AC2025 sha1 4CCF494F9664D5B9E05237D1BC2EEE8A7830F067 )
 )
 game (
-	name "Untitled Game - Interactive Blob Art (PD) (Beta)"
-	releaseyear "2003"
-	rom ( name "Untitled Game - Interactive Blob Art (2003)(Kinnen, Ryan)(PD)(beta).bin" size 6144 crc D5977ABA md5 073F2BABAD8992E84C2C64D7FC7E0AF3 sha1 BD909CB3A55234CA47D1E33F60ED2F48EE3BD1D6 )
-)
-game (
-	name "Untitled Game - Interactive Blob Art (PD) (Beta) (Alt 1)"
-	releaseyear "2003"
-	rom ( name "Untitled Game - Interactive Blob Art (2003)(Kinnen, Ryan)(PD)(beta)[a].bin" size 6201 crc EC710041 md5 3B4AB8E8CB4790C857305EE9529835AA sha1 49F0327B00B61B343CFBFAE37E597948BC03AB1F )
-)
-game (
 	name "Utopia"
 	releaseyear "1981"
 	rom ( name "Utopia (1981)(Mattel).bin" size 8192 crc F9E0789E md5 B93B1169C33B7220887AC7AF54224976 sha1 D72D2A9817E75039D57B1EC877DFE2B96A306B61 )
-)
-game (
-	name "Vectron [5788]"
-	releaseyear "1982"
-	rom ( name "Vectron (1982)(Mattel Electronics)[5788].d0" size 8192 crc EEAED70A md5 3C8B718B35E34847BEE4FD5EEEE96CDE sha1 EF78C2159EB810853BA0E2C2BD0F27D15DE8F7C3 )
 )
 game (
 	name "Vectron (USA, Europe)"
@@ -1311,10 +1283,15 @@ game (
 	rom ( name "Vectron (1982)(Mattel)(EU-US).bin" size 24576 crc A4A20354 md5 4C149598BE3A6C3974FF5F90005484FC sha1 DAB5BC9F2BA1EE97AA8E0BCAF0D5D5C242B607B2 )
 )
 game (
-	name "Vectron (USA, Europe) (Alt 1)"
+	name "Vectron (USA, Europe)"
 	releaseyear "1982"
 	region "USA"
 	rom ( name "Vectron (1982)(Mattel)(EU-US)[a].bin" size 24576 crc 8F48030F md5 BD73D7FCB32BC93762167AED93A91FAB sha1 71E82820ADCB152E8D2BE09EF039CFCE3F8C33F6 )
+)
+game (
+	name "Vectron [5788]"
+	releaseyear "1982"
+	rom ( name "Vectron (1982)(Mattel Electronics)[5788].d0" size 8192 crc EEAED70A md5 3C8B718B35E34847BEE4FD5EEEE96CDE sha1 EF78C2159EB810853BA0E2C2BD0F27D15DE8F7C3 )
 )
 game (
 	name "Venture"
@@ -1333,14 +1310,14 @@ game (
 	rom ( name "World Championship Baseball (1983)(Mattel)(US).bin" size 24576 crc 10D64E48 md5 627FB809E5069B82036EEBA6BE0E25BC sha1 9941AD46B479CAFBCA0D8C990E8EE76A52628436 )
 )
 game (
-	name "World Cup Football [8100]"
-	releaseyear "1985"
-	rom ( name "World Cup Football (1985)(INTV)[8100].f0" size 8192 crc 4BB2B777 md5 2D60EDD916F5D7996C3B162A08755D8D sha1 82AE81C3EB35E7E7E53C4F81A86BDF5AC3D925FF )
-)
-game (
 	name "World Cup Football"
 	releaseyear "1985"
 	rom ( name "World Cup Football (1985)(Nice Ideas).bin" size 32768 crc 15D9D27A md5 DF8FF041F1F3C9DFAD0CF651C67799CA sha1 91ED4563246FBBF7CDC02D52B96F2E053FA2B3BE )
+)
+game (
+	name "World Cup Football [8100]"
+	releaseyear "1985"
+	rom ( name "World Cup Football (1985)(INTV)[8100].f0" size 8192 crc 4BB2B777 md5 2D60EDD916F5D7996C3B162A08755D8D sha1 82AE81C3EB35E7E7E53C4F81A86BDF5AC3D925FF )
 )
 game (
 	name "World Series Major League Baseball (USA)"
@@ -1354,15 +1331,15 @@ game (
 	rom ( name "Worm Whomper (1983)(Activision).bin" size 8192 crc 24B667B9 md5 49999333CF35D0CB321802CA378A7AF7 sha1 E1F3C3AAB41CB1850771CD566ACD6FE4C1161041 )
 )
 game (
-	name "Yogi's Frustration [unreleased]"
-	releaseyear "1983"
-	rom ( name "Yogi's Frustration (1983)(Mattel Electronics)[unreleased].f0" size 8192 crc 2BC63759 md5 625A049D7956786628ABED96BA314E9D sha1 463B7A8F2E139FCB8434C565B2B275B313A9D52E )
-)
-game (
 	name "Yogi's Frustration (USA) (Proto)"
 	releaseyear "1983"
 	region "USA"
 	rom ( name "Yogi's Frustration (1983)(Mattel)(US)(proto).bin" size 32768 crc 752B73DD md5 1F41EEF3A72962CF492C2975819AE11A sha1 C88ED2DB916A80B1F3571FCF70304A9E4D24882C )
+)
+game (
+	name "Yogi's Frustration [unreleased]"
+	releaseyear "1983"
+	rom ( name "Yogi's Frustration (1983)(Mattel Electronics)[unreleased].f0" size 8192 crc 2BC63759 md5 625A049D7956786628ABED96BA314E9D sha1 463B7A8F2E139FCB8434C565B2B275B313A9D52E )
 )
 game (
 	name "ZZZZZ! Spina the Bee"

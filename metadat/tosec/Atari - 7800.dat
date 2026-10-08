@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 7800"
 	description "Atari - 7800"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "a78"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -11,7 +12,7 @@ game (
 	rom ( name "3D Asteroids (1984)(Atari)(NTSC)(proto).a78" size 16512 crc 2C985A3D md5 E67A169B3A6432342AC9CBF9E6F95873 sha1 7874A9C33BCFDEA480932C34307A7623891C27DE )
 )
 game (
-	name "Ace Of Aces (Alt 1)"
+	name "Ace Of Aces"
 	releaseyear "1988"
 	rom ( name "Ace Of Aces (1988)(Atari)(NTSC)[a].a78" size 131200 crc E682C28F md5 4DD96D99C1228BB1FCAE8C1B5C239197 sha1 384311F2B20C256D755FE470FB82CE8AD094BCA0 )
 )
@@ -41,19 +42,19 @@ game (
 	rom ( name "Asteroids (1987)(Atari)(NTSC).a78" size 16512 crc C9F1E305 md5 273E580F8E4232EE12024656846C69C1 sha1 CA1E5AA9359BACAFF10BCBB8FF42CF52CE6D9D02 )
 )
 game (
-	name "Asteroids (Alt 1)"
+	name "Asteroids"
 	releaseyear "1987"
 	rom ( name "Asteroids (1987)(Atari)(NTSC)[a].a78" size 16512 crc EAC69CF0 md5 85B5587C5A9406DDD079AA6879093CF7 sha1 244136DCE7F71C146C4EB8C19B1C56AC3F71F646 )
 )
 game (
 	name "Ballblazer"
 	releaseyear "1987"
-	rom ( name "Ballblazer (1987)(Atari)(NTSC).a78" size 32896 crc 5B635CB6 md5 8FD2FF3E289F33F53F2792D1A0BC3513 sha1 329782DD80A7EF88B81AB348ABA4A0D478F0432F )
+	rom ( name "Ballblazer (1987)(Atari)(NTSC)[a].a78" size 32896 crc 44615260 md5 A6659FCF536D601948F57767AEF65741 sha1 28ADAB7DE3AF3CE8658A62A6E95B44F10324EE26 )
 )
 game (
-	name "Ballblazer (Alt 1)"
+	name "Ballblazer"
 	releaseyear "1987"
-	rom ( name "Ballblazer (1987)(Atari)(NTSC)[a].a78" size 32896 crc 44615260 md5 A6659FCF536D601948F57767AEF65741 sha1 28ADAB7DE3AF3CE8658A62A6E95B44F10324EE26 )
+	rom ( name "Ballblazer (1987)(Atari)(NTSC).a78" size 32896 crc 5B635CB6 md5 8FD2FF3E289F33F53F2792D1A0BC3513 sha1 329782DD80A7EF88B81AB348ABA4A0D478F0432F )
 )
 game (
 	name "Ballblazer (PAL)"
@@ -91,7 +92,7 @@ game (
 	rom ( name "Centipede (1987)(Atari)(NTSC).a78" size 16512 crc 7CA3EC6B md5 061CF56C884C6B4CB1FAB16898E1C150 sha1 2717F81CA998714EDFCC8E8A7CBAB452B865C170 )
 )
 game (
-	name "Centipede (Alt 1)"
+	name "Centipede"
 	releaseyear "1987"
 	rom ( name "Centipede (1987)(Atari)(NTSC)[a].a78" size 16512 crc 5F94939E md5 7612B1BB30320D37D79B7F48B16430B2 sha1 8F395F48971ED55E97F41F2286E10DCC5A14C066 )
 )
@@ -106,7 +107,7 @@ game (
 	rom ( name "Choplifter! (1987)(Atari)(NTSC).a78" size 32896 crc 0B0D05D4 md5 E9B1DB4FEA757C6F225E4811353333D4 sha1 34F4E33C4D395F3D06197F96FB3E190C72E96F1F )
 )
 game (
-	name "Choplifter! (Alt 1)"
+	name "Choplifter!"
 	releaseyear "1987"
 	rom ( name "Choplifter! (1987)(Atari)(NTSC)[a].a78" size 32896 crc D3BA607F md5 0826515BE7D9BC1FEA26A7D6063667C1 sha1 6457DD40AEADB9733602C4AD3498780EBD7BF0D1 )
 )
@@ -121,7 +122,7 @@ game (
 	rom ( name "Commando (1989)(Atari)(NTSC).a78" size 131200 crc E9BD1C75 md5 38B4E11EBF4BBFDC66C7D2EF96115BD2 sha1 0D623DF344364A5A7DB7F4D2409AFE4523D7EA08 )
 )
 game (
-	name "Commando (Alt 1)"
+	name "Commando"
 	releaseyear "1989"
 	rom ( name "Commando (1989)(Atari)(NTSC)[a].a78" size 131200 crc 81C6C079 md5 95D5EAC7B804F3CB1950E0D19A03AFE7 sha1 3314CE17DF8B1B6FC52E13CCF8D6EA1AADBC66C4 )
 )
@@ -166,7 +167,7 @@ game (
 	rom ( name "Desert Falcon (1987)(Atari)(NTSC).a78" size 49280 crc 5FF04461 md5 CBAC0BF951E3CD52E5537C926D66440B sha1 30D214753B89B13455830B5D99AACD926127D63A )
 )
 game (
-	name "Desert Falcon (Alt 1)"
+	name "Desert Falcon"
 	releaseyear "1987"
 	rom ( name "Desert Falcon (1987)(Atari)(NTSC)[a].a78" size 49280 crc A6A62E78 md5 EC1F38AE5B5E638E1AC84016EE1C0019 sha1 0BF324702DAF1A033FD8FFE57ECB9E066826780C )
 )
@@ -181,7 +182,7 @@ game (
 	rom ( name "Dig Dug (1987)(Atari)(NTSC).a78" size 16512 crc A6DA053D md5 E61D1792314E6632BAA4E6B92E59195D sha1 A60B690351CCC1B03DE6F4B8945EB54F2DEE762E )
 )
 game (
-	name "Dig Dug (Alt 1)"
+	name "Dig Dug"
 	releaseyear "1987"
 	rom ( name "Dig Dug (1987)(Atari)(NTSC)[a].a78" size 16512 crc 8EAD573D md5 3976ABF29E9D6AA000BFF8268C0D534E sha1 DD8D50B1B72953D7535AEC08880270F3B5245E12 )
 )
@@ -196,7 +197,7 @@ game (
 	rom ( name "Donkey Kong (1988)(Atari)(NTSC).a78" size 49280 crc 24AFB84F md5 D5124B0DA4338A299498F29A344E413F sha1 CC6FEB8236776C49CB57875130C1C3B5E984253E )
 )
 game (
-	name "Donkey Kong (Alt 1)"
+	name "Donkey Kong"
 	releaseyear "1988"
 	rom ( name "Donkey Kong (1988)(Atari)(NTSC)[a].a78" size 49280 crc D7A55F95 md5 35EABE5B952A4F733B904F73511F884D sha1 46AA055A2CC950F075CF6833E1338C73027459D4 )
 )
@@ -211,7 +212,7 @@ game (
 	rom ( name "Donkey Kong Junior (1988)(Atari)(NTSC).a78" size 49280 crc 812457FB md5 CFFF068FE77F35374F90985E096FAA3E sha1 F1E66A300BBB2E52C52F180AE15E5E6024323D6D )
 )
 game (
-	name "Donkey Kong Junior (Alt 1)"
+	name "Donkey Kong Junior"
 	releaseyear "1988"
 	rom ( name "Donkey Kong Junior (1988)(Atari)(NTSC)[a].a78" size 49280 crc 6E989686 md5 C4940B2652D6A654CBBECFB59495BA24 sha1 2D02B7EC0EF958DF5FBE11C1764C8932452E7451 )
 )
@@ -236,14 +237,14 @@ game (
 	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC).a78" size 65664 crc FA3E8CBB md5 934A3EE1AE7F9D740C868064862DA318 sha1 CADBB92D59D373C6F04420319EAF3CB448103B0E )
 )
 game (
-	name "F-18 Hornet [b2]"
-	releaseyear "1988"
-	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC)[b2].a78" size 49280 crc 78A02F88 md5 F80F02445676F6D26CB77583D189AA0A sha1 B9B673C6CC4ABC1F1BFB0D27D07BE72B9976A1DD )
-)
-game (
 	name "F-18 Hornet (PAL)"
 	releaseyear "1988"
 	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(PAL).a78" size 65664 crc 799F3F3D md5 4F6D09B0221636B56014E4756F4A9B17 sha1 8F76D508C35F94DDDAEA0B70B7B0CB81E33A6291 )
+)
+game (
+	name "F-18 Hornet [b2]"
+	releaseyear "1988"
+	rom ( name "F-18 Hornet (1988)(Absolute Entertainment)(NTSC)[b2].a78" size 49280 crc 78A02F88 md5 F80F02445676F6D26CB77583D189AA0A sha1 B9B673C6CC4ABC1F1BFB0D27D07BE72B9976A1DD )
 )
 game (
 	name "Fatal Run"
@@ -271,7 +272,7 @@ game (
 	rom ( name "Food Fight (1987)(Atari)(NTSC).a78" size 32896 crc DB5B7D3F md5 32CBE0CFAA773749DF4FCAF7DBCA74DB sha1 289726184C13EF554D3E806CF907165206E86945 )
 )
 game (
-	name "Food Fight (Alt 1)"
+	name "Food Fight"
 	releaseyear "1987"
 	rom ( name "Food Fight (1987)(Atari)(NTSC)[a].a78" size 32896 crc 03EC1894 md5 9A3819EEF58DDDB550FE997E7E6ABEE2 sha1 1D08C9791803E7BACDC0F36414CCABD1FA6B07A0 )
 )
@@ -286,7 +287,7 @@ game (
 	rom ( name "GATO (1987)(Atari)(NTSC)(proto).a78" size 49280 crc B45A9F49 md5 AEF7D1FB101C340BD83DFFC90080D7DA sha1 252B8D453F297BE69A0B0DE3A1BFD925A69C76E9 )
 )
 game (
-	name "GATO (Proto) (Alt 1)"
+	name "GATO (Proto)"
 	releaseyear "1987"
 	rom ( name "GATO (1987)(Atari)(NTSC)(proto)[a].a78" size 49280 crc 9FFF1924 md5 F95AF33C24798AEEA0A2E4497BF97197 sha1 BC8EE7ADEB01C875EEEDA51D707C533CC4329668 )
 )
@@ -296,7 +297,7 @@ game (
 	rom ( name "Galaga (1987)(Atari)(NTSC).a78" size 32896 crc 0A174F9B md5 3303AC4FA80351E2240B097E2781AFE1 sha1 96515FD5D0C7B3EC507469D5F47D377BDB1AB6FE )
 )
 game (
-	name "Galaga (Alt 1)"
+	name "Galaga"
 	releaseyear "1987"
 	rom ( name "Galaga (1987)(Atari)(NTSC)[a].a78" size 32896 crc CFFAA1B7 md5 1DD27B0CAF03D6E3948D3BE16AC30792 sha1 93A3B9C5348BBFD3BAD6EC2BD922857A66DBB73A )
 )
@@ -311,7 +312,7 @@ game (
 	rom ( name "Hat Trick (1987)(Atari)(NTSC).a78" size 49280 crc E293793E md5 92F5DEDBCD4456436917CE49FC2AF923 sha1 D419772B1AA40CB4C62FAEA904000FBB243C0B46 )
 )
 game (
-	name "Hat Trick (Alt 1)"
+	name "Hat Trick"
 	releaseyear "1987"
 	rom ( name "Hat Trick (1987)(Atari)(NTSC)[a].a78" size 49280 crc 6247EFA8 md5 E3009BEA70564F42DEA651AA6FB89BD2 sha1 9A154C4FAEB10167EEAC65206892AD9A1B9F8364 )
 )
@@ -336,7 +337,7 @@ game (
 	rom ( name "Impossible Mission (1987)(Atari)(NTSC).a78" size 131200 crc FA0A683E md5 151AE3590901543A022B7A58C4D20CE6 sha1 BDBC60DF4FE04072F41B408D5ED97487DB9ABE34 )
 )
 game (
-	name "Impossible Mission (Alt 1)"
+	name "Impossible Mission"
 	releaseyear "1987"
 	rom ( name "Impossible Mission (1987)(Atari)(NTSC)[a].a78" size 131200 crc 0B0BBE47 md5 9873FD58983FE5A026ECB457DC538C70 sha1 57DDBC1DA7D8C91A6A2D3D80AF7DB98F0DAA05E6 )
 )
@@ -361,7 +362,7 @@ game (
 	rom ( name "Joust (1987)(Atari)(NTSC).a78" size 32896 crc 1646EC7C md5 980BF180E70AEE85C5080F1B57E37558 sha1 625829093CE079C88A9C9129C0DAB709311FF7A0 )
 )
 game (
-	name "Joust (Alt 1)"
+	name "Joust"
 	releaseyear "1987"
 	rom ( name "Joust (1987)(Atari)(NTSC)[a].a78" size 32896 crc FDA13F77 md5 6ACB6DB87BD24AB7EECDBEF2F206B384 sha1 04E1355F0109864D470A0FF6F8345436A7665B93 )
 )
@@ -376,7 +377,7 @@ game (
 	rom ( name "Karateka (1988)(Atari)(NTSC).a78" size 49280 crc BE689AEA md5 66D00C7DEC50696650092F65525671F4 sha1 32B5DDC7BEF1B140E94B17CE002809CF4566929F )
 )
 game (
-	name "Karateka (Alt 1)"
+	name "Karateka"
 	releaseyear "1988"
 	rom ( name "Karateka (1988)(Atari)(NTSC)[a].a78" size 49280 crc 7089A354 md5 A58E0790CF2940E33343DAACEE0BC864 sha1 EF839309A2770EFD09955ED3467F0970A64D8243 )
 )
@@ -391,7 +392,7 @@ game (
 	rom ( name "Klax (1992)(Atari)(NTSC)(proto).a78" size 131200 crc 729F4B1C md5 6BFAB37581CF320BEAD173AD8667ABD5 sha1 CF1EDF5E8728C0A9BB688ED9FE28994881E081BD )
 )
 game (
-	name "Klax (Proto) (Alt 1)"
+	name "Klax (Proto)"
 	releaseyear "1992"
 	rom ( name "Klax (1992)(Atari)(NTSC)(proto)[a].a78" size 131200 crc 0AE5C4D3 md5 3FA3BF48510BD3C3464E6CC18864B8D8 sha1 3CA412FDB435B49F3558C2E0649AC67F513484C7 )
 )
@@ -411,7 +412,7 @@ game (
 	rom ( name "Mario Bros. (1988)(Atari)(NTSC).a78" size 49280 crc FCFFC04A md5 AE174AB64A4858CD05A3FC12CC9E140B sha1 18B1645A76CF72CCC9ECFC582F02425DAF410004 )
 )
 game (
-	name "Mario Bros. (Alt 1)"
+	name "Mario Bros."
 	releaseyear "1988"
 	rom ( name "Mario Bros. (1988)(Atari)(NTSC)[a].a78" size 49280 crc 4D072A3E md5 4E1151E58E14FFCA2A445D46981DAB65 sha1 B0216F9979D0CF75D2F00C2715170B7ACF3D92F9 )
 )
@@ -426,7 +427,7 @@ game (
 	rom ( name "Mat Mania Challenge (1990)(Atari)(NTSC).a78" size 131200 crc A902F3E6 md5 BBBCA8B82FFB92801F97A9F9BB22F41F sha1 AB08F92C6A9A3346CCE40958AD6492E6AF00ACF1 )
 )
 game (
-	name "Mat Mania Challenge (Alt 1)"
+	name "Mat Mania Challenge"
 	releaseyear "1990"
 	rom ( name "Mat Mania Challenge (1990)(Atari)(NTSC)[a].a78" size 131200 crc 33BB15AC md5 B34FEC30A281A066C4098C44709F30AE sha1 D84A0F727E2176A58EC222C3B4A3364DDD6C4E30 )
 )
@@ -441,7 +442,7 @@ game (
 	rom ( name "Mean 18 Ultimate Golf (1989)(Atari)(NTSC).a78" size 131200 crc 517D1986 md5 870AD5326B05EAD675D35A1C679C4B1F sha1 5A3DE17714B24EB526D0EC62B327F4BC66A7FE9F )
 )
 game (
-	name "Mean 18 Ultimate Golf (Alt 1)"
+	name "Mean 18 Ultimate Golf"
 	releaseyear "1989"
 	rom ( name "Mean 18 Ultimate Golf (1989)(Atari)(NTSC)[a].a78" size 131200 crc D22F4B02 md5 A2467A3C756505010A37E9A687DE57D5 sha1 C1F1D13B0A3CFF210A6B8FE73EFB5588CB4DE3C6 )
 )
@@ -486,7 +487,7 @@ game (
 	rom ( name "Ms. Pac-Man (1987)(Atari)(NTSC).a78" size 16512 crc 2B11D9F2 md5 8B79479DBC5C75B3513319C52AE6FC29 sha1 38F044A7267E6BEAC17F0824325BDA3CD2EC3B9B )
 )
 game (
-	name "Ms. Pac-Man (Alt 1)"
+	name "Ms. Pac-Man"
 	releaseyear "1987"
 	rom ( name "Ms. Pac-Man (1987)(Atari)(NTSC)[a].a78" size 16512 crc 5EC9C910 md5 12A6483C57D2060D1D07EED2F4CB63DD sha1 AAD5C4B0B2E372F13FFA0A291023C9FEEE86785D )
 )
@@ -511,7 +512,7 @@ game (
 	rom ( name "One-on-One Basketball (1987)(Atari)(NTSC).a78" size 49280 crc 859C8456 md5 247163EF4B5A5966BFEECFCA376A0533 sha1 950EC20374630CBBB53D03543B7C56E6F923B96D )
 )
 game (
-	name "One-on-One Basketball (Alt 1)"
+	name "One-on-One Basketball"
 	releaseyear "1987"
 	rom ( name "One-on-One Basketball (1987)(Atari)(NTSC)[a].a78" size 49280 crc 34646E22 md5 485478092C2F192EAF29CA199B753D16 sha1 B89B8E550AE9C58880EF05E2E7D6EC6DE40E96CE )
 )
@@ -551,7 +552,7 @@ game (
 	rom ( name "Pole Position II (1987)(Atari)(NTSC).a78" size 32896 crc 3D57623A md5 1EB8D721EECC75D57C44EAA3A2635E14 sha1 C6C8ACCD3FF293C249F544688DC49807CA2556CF )
 )
 game (
-	name "Pole Position II (Alt 1)"
+	name "Pole Position II"
 	releaseyear "1987"
 	rom ( name "Pole Position II (1987)(Atari)(NTSC)[a].a78" size 32896 crc 4BF501CB md5 8A4F2F898EE79593E2FC30061526CA08 sha1 319702E597F1FC419C1A530ED8CFF2EA6C76E8FB )
 )
@@ -581,7 +582,7 @@ game (
 	rom ( name "Robotron - 2084 (1987)(Atari)(NTSC).a78" size 32896 crc AA06B121 md5 EB2110C0FC2655775166219E4877F80C sha1 28FDDAB1E203610A153CE47F067F8AF494A3442E )
 )
 game (
-	name "Robotron - 2084 (Alt 1)"
+	name "Robotron - 2084"
 	releaseyear "1987"
 	rom ( name "Robotron - 2084 (1987)(Atari)(NTSC)[a].a78" size 32896 crc AB7BC9CE md5 5AC3AA823DA1A7A9738C208161FBCA57 sha1 77C3445993F2D0A2ACF0A453EF80BC31E047B932 )
 )
@@ -596,14 +597,14 @@ game (
 	rom ( name "Scrapyard Dog (1990)(Atari)(PAL).a78" size 131200 crc B435A5CB md5 C3B2F0F462DBBF66D0C8C5C6E457D603 sha1 39D2388D4B68C04B905EAA2E5456769DA60C11BD )
 )
 game (
-	name "Sentinel (Proto)"
-	releaseyear "1990"
-	rom ( name "Sentinel (1990)(Atari)(NTSC)(proto).a78" size 131200 crc 51DF6E83 md5 A3D62D98DBD93D43D3AC04FBB35EF1F9 sha1 BFBF9BE9AD0788F5C54428CC70CA8B75816EB4A9 )
-)
-game (
 	name "Sentinel (PAL)"
 	releaseyear "1991"
 	rom ( name "Sentinel (1991)(Atari)(PAL).a78" size 131200 crc 4C779065 md5 37AA591E7000539AA64726DE5A8BAD92 sha1 FB504FEC071574D0A33D495C34A467FBB10B2BED )
+)
+game (
+	name "Sentinel (Proto)"
+	releaseyear "1990"
+	rom ( name "Sentinel (1990)(Atari)(NTSC)(proto).a78" size 131200 crc 51DF6E83 md5 A3D62D98DBD93D43D3AC04FBB35EF1F9 sha1 BFBF9BE9AD0788F5C54428CC70CA8B75816EB4A9 )
 )
 game (
 	name "Summer Games"
@@ -616,12 +617,12 @@ game (
 	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC).a78" size 49280 crc 033A6058 md5 0D5208D60C0A2FD23A09939C6C0FE3A3 sha1 9BDBC4D628F06E425D50A4E2A67CC7806360D94D )
 )
 game (
-	name "Super Huey UH-1X (Alt 2)"
+	name "Super Huey UH-1X"
 	releaseyear "1988"
 	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC)[a2].a78" size 49280 crc 629D1032 md5 324A08B67016600E5BD21218AA3E84F8 sha1 58E1A65114689E526AD89A4A47E237161D15AB2B )
 )
 game (
-	name "Super Huey UH-1X (Alt 1)"
+	name "Super Huey UH-1X"
 	releaseyear "1988"
 	rom ( name "Super Huey UH-1X (1988)(Atari)(NTSC)[a].a78" size 49280 crc F1991B27 md5 81B81DD6239255BE35C1D9BD2CE701C6 sha1 8FE3620DE6D630E8A1AEB30291940F7589532956 )
 )
@@ -681,14 +682,14 @@ game (
 	rom ( name "Tower Toppler (1988)(Atari)(NTSC).a78" size 65664 crc F701BD43 md5 252515A9FEA1976A99167A40DF1E77A3 sha1 E4B5A0DD8BFC9319289076EF0AA4543D94019E5C )
 )
 game (
-	name "Tower Toppler [o]"
-	releaseyear "1988"
-	rom ( name "Tower Toppler (1988)(Atari)(NTSC)[o].a78" size 131200 crc C915F181 md5 55C33C7AAC3B31936312A1697B0263B3 sha1 7C5E2A16E8C8D88B044E5FF26355C56510830188 )
-)
-game (
 	name "Tower Toppler (PAL)"
 	releaseyear "1988"
 	rom ( name "Tower Toppler (1988)(Atari)(PAL).a78" size 65664 crc B9269ACB md5 36575046957046486396E943D10FEF9F sha1 601818803CA6CFA55B7C0154FC9841001D7B379F )
+)
+game (
+	name "Tower Toppler [o]"
+	releaseyear "1988"
+	rom ( name "Tower Toppler (1988)(Atari)(NTSC)[o].a78" size 131200 crc C915F181 md5 55C33C7AAC3B31936312A1697B0263B3 sha1 7C5E2A16E8C8D88B044E5FF26355C56510830188 )
 )
 game (
 	name "Water Ski"
@@ -721,7 +722,7 @@ game (
 	rom ( name "Xevious (1988)(Atari)(NTSC).a78" size 32896 crc 3F8507F3 md5 8201465D32C4057BB479959B59374B65 sha1 85475E9CB0E6A065960C6C0A337B4A2A65299511 )
 )
 game (
-	name "Xevious (Alt 1)"
+	name "Xevious"
 	releaseyear "1988"
 	rom ( name "Xevious (1988)(Atari)(NTSC)[a].a78" size 32896 crc 44584FA2 md5 6FA5ECE1F97F65C207B8C252EE49F97C sha1 652E633776F608A3C2A1030A6796BA0C8669D8F0 )
 )

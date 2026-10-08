@@ -1,7 +1,8 @@
 clrmamepro (
 	name "SNK - Neo Geo Pocket Color"
 	description "SNK - Neo Geo Pocket Color"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "ngc"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -45,12 +46,6 @@ game (
 	region "USA"
 	serial "0031"
 	rom ( name "Bust-A-Move Pocket (USA).ngc" size 1048576 crc B073D601 md5 D91FD1C6C941BC2BDE4ADA3580FE408F sha1 3B102E32FCCF8FF389C508BE55517368D56B144F serial "0031" )
-)
-game (
-	name "Bust-A-Move Pocket (USA) (Beta)"
-	region "USA"
-	serial "0020"
-	rom ( name "Bust-A-Move Pocket (USA) (Beta).ngc" size 1048576 crc 78A1361D md5 29A8A310B704E8DAFEE71CEA0AD53DF0 sha1 2AF0197415BDF1679342D8AECA5C35EA3EFF8B73 serial "0020" )
 )
 game (
 	name "Cool Boarders Pocket (Japan, Europe) (En,Ja)"
@@ -109,12 +104,6 @@ game (
 	region "Japan"
 	serial "0036"
 	rom ( name "Dive Alert - Burn Hen (Japan).ngc" size 2097152 crc C213941D md5 B149CB1F866942ECA70DF78BB25351CF sha1 66624028EC986084A95237C74173849A8A729398 serial "0036" )
-)
-game (
-	name "Dive Alert - Burn Hen (Japan) (Beta)"
-	region "Japan"
-	serial "0000"
-	rom ( name "Dive Alert - Burn Hen (Japan) (Beta).ngc" size 2097152 crc D9817A88 md5 D96C97BD9C0675B9B81348B06977B60F sha1 03E1F5B60C4FDC7665932C1C51E965788D4895F5 serial "0000" )
 )
 game (
 	name "Dive Alert - Matt's Version (USA, Europe)"
@@ -284,12 +273,6 @@ game (
 	rom ( name "Neo 21 - Pocket Casino Series (World).ngc" size 1048576 crc 95C38985 md5 A60719B4839DD94BB3A8AA93CE91983D sha1 98463A834E3F42DC02662B620E8E66F3856B1D4F serial "0070" )
 )
 game (
-	name "Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (Beta)"
-	region "Japan"
-	serial "0098"
-	rom ( name "Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (Beta).ngc" size 1048576 crc 80880498 md5 2685AD9EBA4E9C86E1055E39917DC3ED sha1 AEB77B92155E0A291D00EF3C97319788CC3D1006 serial "0098" )
-)
-game (
 	name "Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)"
 	region "Japan"
 	serial "0019"
@@ -452,22 +435,10 @@ game (
 	rom ( name "Pachinko Hisshou Guide - Pocket Parlor (Japan).ngc" size 1048576 crc 543DC257 md5 90DD6442D5BB8F6C51F9E0836BA2B428 sha1 DB839C56DC849B0F1924A029B4E8104BF8C738CF serial "0046" )
 )
 game (
-	name "Pachinko Hisshou Guide - Pocket Parlor (Japan) (Beta)"
-	region "Japan"
-	serial "0000"
-	rom ( name "Pachinko Hisshou Guide - Pocket Parlor (Japan) (Beta).ngc" size 1048576 crc CCF07C2F md5 0813F72D72521EA6AFD61EB6C7D416BD sha1 63FD9E4BE7BA482E70FCAFDE6E50773046A5FE40 serial "0000" )
-)
-game (
 	name "Party Mail (Japan)"
 	region "Japan"
 	serial "0032"
 	rom ( name "Party Mail (Japan).ngc" size 1048576 crc 4DA8A1C0 md5 C86E826C8413C0DC3AD19A63BA6D4D97 sha1 B805C908C1BEF29C0792A73B6A6A05DD27CC5FF0 serial "0032" )
-)
-game (
-	name "Party Mail (Japan) (Beta)"
-	region "Japan"
-	serial "0032"
-	rom ( name "Party Mail (Japan) (Beta).ngc" size 2097152 crc F2284A95 md5 F60EA82FE428E83355CE870BF5CFF5D5 sha1 D781A1A1E74BA822249D38DBE60E160A29EC2824 serial "0032" )
 )
 game (
 	name "Picture Puzzle (Europe)"
@@ -608,16 +579,6 @@ game (
 	rom ( name "Shanghai Mini (World) (En,Ja).ngc" size 1048576 crc 90732D53 md5 7C262A2C6390445170D0BF83290C939C sha1 3E3E625852AC4997D3E3739E59C16E9A74F40F19 serial "0040" )
 )
 game (
-	name "Shanghai Mini (World) (En,Ja) (Beta 1)"
-	serial "0040"
-	rom ( name "Shanghai Mini (World) (En,Ja) (Beta 1).ngc" size 1048576 crc 79620C3F md5 100760E5F548ABFF92A36761FCF6EE14 sha1 CD72FC48D6981D3B521D9EF2A339664D0C229F3C serial "0040" )
-)
-game (
-	name "Shanghai Mini (World) (En,Ja) (Beta 2)"
-	serial "0000"
-	rom ( name "Shanghai Mini (World) (En,Ja) (Beta 2).ngc" size 1048576 crc 920AF0ED md5 F547E657F717223C8A286E51AA159F86 sha1 83955172D78B5DC855B651E574132CFDF8D3D675 serial "0000" )
-)
-game (
 	name "Shinki Sekai Evolution - Hateshinai Dungeon (Japan)"
 	region "Japan"
 	serial "0082"
@@ -628,14 +589,6 @@ game (
 	region "Japan"
 	serial "0027"
 	rom ( name "Shougi no Tatsujin Color (Japan).ngc" size 524288 crc 1F2872ED md5 A874C1D95BADE2143C0712D22DDBD452 sha1 9F420D0A7CC1115F60BDA1C0916247935118CE98 serial "0027" )
-)
-game (
-	name "Sonic The Hedgehog - Pocket Adventure (World) (Beta)"
-	releaseyear "1999"
-	releasemonth "10"
-	releaseday "22"
-	serial "0039"
-	rom ( name "Sonic The Hedgehog - Pocket Adventure (World) (Beta) (1999-10-22).ngc" size 2097152 crc 45FC3BCA md5 69C5D58770F111037F565EFBCC366B53 sha1 FB34CC0F6A19FB47FFEAE4E6F4113ED66D14E1BD serial "0039" )
 )
 game (
 	name "Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)"
@@ -659,10 +612,4 @@ game (
 	region "Japan"
 	serial "0049"
 	rom ( name "Tsunagete Pon! 2 (Japan).ngc" size 1048576 crc 129091BB md5 2A8F9CB76E56000769E08200D8B25182 sha1 DB030E02819D50315F15C00B93C3A46F1F89D126 serial "0049" )
-)
-game (
-	name "Wrestling Madness (Japan) (En) (Beta)"
-	region "Japan"
-	serial "0066"
-	rom ( name "Wrestling Madness (Japan) (En) (Beta).ngc" size 2097152 crc 16B0BE9B md5 95BD72B9E9081CB8AD8FC32BF7FF37B7 sha1 2DD82DB967E2BC8C2D8B569A364793D56176A68E serial "0066" )
 )

@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 7800"
 	description "Atari - 7800"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "a78|bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -79,11 +80,6 @@ game (
 	rom ( name "Asteroids (USA).bin" size 16384 crc DFB93F40 md5 07342C78619BA6FFCC61C10E907E3B50 sha1 D96EC4E043FCDACAB367D8A69D29904B3B2896F1 )
 )
 game (
-	name "Asteroids (USA) (Beta)"
-	region "USA"
-	rom ( name "Asteroids (USA) (Beta).bin" size 16384 crc 6DDFB54C md5 4332C24E4F3BC72E7FE1B77ADF66C2B7 sha1 85D9CE187497877005E991F2BF139D21034CCF9D )
-)
-game (
 	name "Asteroids Deluxe (World)"
 	rom ( name "Asteroids Deluxe (World) (NTSC) (Aftermarket) (Unl).a78" size 32896 crc 6E9B0BD8 md5 245C582E77C6BE151B651EBB3DFC38C4 sha1 8EABD12465207566499C30DED9A6FDA8183DE546 )
 )
@@ -127,20 +123,6 @@ game (
 game (
 	name "Atlas (World)"
 	rom ( name "Atlas (World) (Aftermarket) (Unl).bin" size 32768 crc 045FE06D md5 A6C02AE92D6937CB885F6909C0A8A2E1 sha1 2E4ED00EE4C52508DA12A6C8EE0BAC8722AEEF32 )
-)
-game (
-	name "Baby Pac-Man (World) (Beta)"
-	releaseyear "2019"
-	releasemonth "02"
-	releaseday "09"
-	rom ( name "Baby Pac-Man (World) (2019-02-09) (Beta) (Aftermarket) (Unl).a78" size 49280 crc 4E07C0BC md5 1D10C83792C1C1A4707CD3F6AC20D1EA sha1 8443560FC1B1029800DAB7D9DC16702A7AB4E2A9 )
-)
-game (
-	name "Baby Pac-Man (World) (Beta)"
-	releaseyear "2019"
-	releasemonth "02"
-	releaseday "09"
-	rom ( name "Baby Pac-Man (World) (2019-02-09) (Beta) (Aftermarket) (Unl).bin" size 49152 crc E2FDD6A9 md5 7CDFBE37634E7DCD4DC67DB7EDBCD3BA sha1 C4BC0B2F03942455105425663AA029D5F6C8D6C9 )
 )
 game (
 	name "Baby Pac-Man (World) (Digital)"
@@ -212,14 +194,6 @@ game (
 	rom ( name "Centipede (USA).bin" size 16384 crc 020EFE25 md5 5A09946E57DBE30408A8F253A28D07DB sha1 C8377AD7FB6AFEC5C88C14A23A68E2ECEBBA4E5A )
 )
 game (
-	name "Centipede (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "05"
-	releaseday "02"
-	region "USA"
-	rom ( name "Centipede (USA) (Beta) (1984-05-02).bin" size 16384 crc 0B85A1F2 md5 BF7A6103337086840093AF257048C834 sha1 2446325F139D8CB93743B6668FEE96C4FC99FC48 )
-)
-game (
 	name "Choplifter! (Europe)"
 	region "Europe"
 	rom ( name "Choplifter! (Europe).bin" size 49152 crc 12EFEB07 md5 59D4EDB0230B5ACC918B94F6BC94779F sha1 F2FE1C82E5B333F4C59F76A28A9D379228596D89 )
@@ -238,22 +212,6 @@ game (
 	name "Commando (USA)"
 	region "USA"
 	rom ( name "Commando (USA).bin" size 131072 crc CD1A98C5 md5 2E8E28F6AD8B9B9267D518D880C73EBB sha1 F8AE7DA650AD38675B81675B77096794A9CD52E8 )
-)
-game (
-	name "Commando (USA) (Beta)"
-	releaseyear "1988"
-	releasemonth "04"
-	releaseday "29"
-	region "USA"
-	rom ( name "Commando (USA) (Beta) (1988-04-29).a78" size 16512 crc 048B2BD8 md5 E128FFBBC919959C82164B7E67DA9A74 sha1 72F340C9F873AD691982D786C6F258E231EAABB6 )
-)
-game (
-	name "Commando (USA) (Beta)"
-	releaseyear "1988"
-	releasemonth "04"
-	releaseday "29"
-	region "USA"
-	rom ( name "Commando (USA) (Beta) (1988-04-29).bin" size 16384 crc 9EF973A9 md5 2A4F20C216E77048449D26205B62C563 sha1 2EACC14A41BB747EC4B431F7D1B092FD2061701E )
 )
 game (
 	name "Crack'ed (Europe)"
@@ -312,22 +270,6 @@ game (
 	rom ( name "Desert Falcon (USA).bin" size 49152 crc A1DC0899 md5 95AC811C7D27AF0032BA090F28C107BD sha1 725F893F9A98926C627EF37EACC3F241620C3FFC )
 )
 game (
-	name "Desert Falcon (USA) (Beta)"
-	releaseyear "1987"
-	releasemonth "03"
-	releaseday "25"
-	region "USA"
-	rom ( name "Desert Falcon (USA) (Beta) (1987-03-25).a78" size 49280 crc C5A9C969 md5 27DBBF61C82F90570B26441B32D1C91D sha1 7C677B7812880E6871882E3E32966FB1AE23DB5F )
-)
-game (
-	name "Desert Falcon (USA) (Beta)"
-	releaseyear "1987"
-	releasemonth "03"
-	releaseday "25"
-	region "USA"
-	rom ( name "Desert Falcon (USA) (Beta) (1987-03-25).bin" size 49152 crc 63887912 md5 F4ED29662536267DB967182B6BA8D40E sha1 1BC856C38E299980C66BFA23C283C06BA17E29A1 )
-)
-game (
 	name "Destroyer 7800 (World) (v1.03)"
 	rom ( name "Destroyer 7800 (World) (v1.03) (Aftermarket) (Unl).a78" size 32896 crc 48546B5C md5 0CB52DF4E9B2B1D5FC07D985152CB5C8 sha1 F8E659862D26E0895215DFDBD40D5F8B324D3AC4 )
 )
@@ -384,10 +326,24 @@ game (
 )
 game (
 	name "Dragon's Cache (World)"
+	releaseyear "2021"
+	releasemonth "02"
+	releaseday "07"
+	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).a78" size 49280 crc DC3C1D8F md5 6BDF0A2203F6BF3171110FD5BC9972E4 sha1 1DB233E2F339CC798938CEFDE1EBC2B3ECF249DF )
+)
+game (
+	name "Dragon's Cache (World)"
 	releaseyear "2020"
 	releasemonth "10"
 	releaseday "24"
 	rom ( name "Dragon's Cache (World) (2020-10-24) (Aftermarket) (Unl).bin" size 49152 crc 4E6270B8 md5 E3CDB632FFCE5EC97C3E889578ACA437 sha1 A20C97C7706F706CF7C3DA45DB575E4956A6CCD0 )
+)
+game (
+	name "Dragon's Cache (World)"
+	releaseyear "2021"
+	releasemonth "02"
+	releaseday "07"
+	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).bin" size 49152 crc F163C3E6 md5 7B7825CA2C79148F1C4ADE6BAACC1A76 sha1 631C1707667638664C6A819FBF9E5A75AC3E68B6 )
 )
 game (
 	name "Dragon's Cache (World) (BupSystem)"
@@ -402,20 +358,6 @@ game (
 	releasemonth "10"
 	releaseday "24"
 	rom ( name "Dragon's Cache (World) (2020-10-24) (BupSystem) (Aftermarket) (Unl).bin" size 49152 crc D28D735C md5 9BCBA331599C03E6B91E69C6874768F8 sha1 F6B8A36F5D75C9D2C17136EF5F7EE852FC33213F )
-)
-game (
-	name "Dragon's Cache (World)"
-	releaseyear "2021"
-	releasemonth "02"
-	releaseday "07"
-	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).a78" size 49280 crc DC3C1D8F md5 6BDF0A2203F6BF3171110FD5BC9972E4 sha1 1DB233E2F339CC798938CEFDE1EBC2B3ECF249DF )
-)
-game (
-	name "Dragon's Cache (World)"
-	releaseyear "2021"
-	releasemonth "02"
-	releaseday "07"
-	rom ( name "Dragon's Cache (World) (2021-02-07) (Aftermarket) (Unl).bin" size 49152 crc F163C3E6 md5 7B7825CA2C79148F1C4ADE6BAACC1A76 sha1 631C1707667638664C6A819FBF9E5A75AC3E68B6 )
 )
 game (
 	name "Dragon's Descent (World)"
@@ -512,11 +454,6 @@ game (
 	rom ( name "Food Fight (USA).bin" size 32768 crc E64A5CDE md5 CF76B00244105B8E03CDC37677EC1073 sha1 3F5F42D5AAF6CCD4979658A1387AAC5933549357 )
 )
 game (
-	name "Food Fight (USA) (Beta)"
-	region "USA"
-	rom ( name "Food Fight (USA) (Beta).bin" size 32768 crc 47E94868 md5 E05041AD193E354F9FA37C18F3550B5A sha1 CA47CAFF9CB976DA34192E4FB9EEA8DEDF2222CD )
-)
-game (
 	name "Frenzy (World) (v1.06)"
 	rom ( name "Frenzy (World) (v1.06) (Aftermarket) (Unl).a78" size 49280 crc 3EABB9DD md5 F99A7316DB33795D722365E96EA673D7 sha1 1D713F9AB2B1964BACAF952EC59C65111402A0C1 )
 )
@@ -594,22 +531,6 @@ game (
 	name "Hat Trick (USA)"
 	region "USA"
 	rom ( name "Hat Trick (USA).bin" size 49152 crc CF6F4A6C md5 FD9E78E201B6BAAFDDFD3E1FBFE6BA31 sha1 14C0CFD01DF1C725F399C23810E4854A639FCE52 )
-)
-game (
-	name "Hat Trick (USA) (Beta)"
-	releaseyear "1987"
-	releasemonth "05"
-	releaseday "01"
-	region "USA"
-	rom ( name "Hat Trick (USA) (Beta) (1987-05-01).a78" size 49280 crc 2D07CCCA md5 FC06FB1CFA303D0969EDCEBD78E297B0 sha1 C43D7970573DC3CAE9221F0902F94DD9280EE377 )
-)
-game (
-	name "Hat Trick (USA) (Beta)"
-	releaseyear "1987"
-	releasemonth "05"
-	releaseday "01"
-	region "USA"
-	rom ( name "Hat Trick (USA) (Beta) (1987-05-01).bin" size 49152 crc 70C5D996 md5 69766137ADE953CBCAAD23E6C8CFA197 sha1 7A453377CE65ECCF6BA3ABE2D038AF2B813C5FC4 )
 )
 game (
 	name "High Score Cartridge (USA) (Proto)"
@@ -987,14 +908,6 @@ game (
 	rom ( name "Pac-Man Collection - 40th Anniversary Edition (World) (Digital) (Aftermarket) (Unl).bin" size 131072 crc 8FE553A1 md5 39DC7F6F39F9B3E341A5FFEA76E71FB1 sha1 1255AF0369AC40718C742B9E416F3B5E3363439A )
 )
 game (
-	name "Pac-Man Collection - Remastered Edition (World) (TIA)"
-	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).a78" size 49280 crc E2A5A351 md5 5D418BBE79E1E31351C4D44F7C137E9F sha1 1EFD31D55BE8ABBE369E47FFF5FE97CC04AEFF7E )
-)
-game (
-	name "Pac-Man Collection - Remastered Edition (World) (TIA)"
-	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).bin" size 49152 crc A3AC92B3 md5 200EF9C7B36AFD3B1B6CE32065A259BB sha1 74D8964631B95084F5F09921705EE88FDF0862B4 )
-)
-game (
 	name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA)"
 	rom ( name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl).a78" size 49280 crc 8A7B837E md5 E5CF753DAA3BF5D03CFC3BFAB04F735E sha1 252E5B6FDD143B60690DB5B1D4DE68A52F9C77C9 )
 )
@@ -1003,12 +916,12 @@ game (
 	rom ( name "Pac-Man Collection - Remastered Edition (World) (PAL) (TIA) (Aftermarket) (Unl).bin" size 49152 crc 5CD69784 md5 FDDB22207CF6159F91BA31EDCB8C5CE5 sha1 787251BEF5147A34113CC5BC91F4E070DB65E454 )
 )
 game (
-	name "Pac-Man Collection - Ultimate Edition (World) (Pokey)"
-	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).a78" size 32896 crc 4C89FD07 md5 34E23DE8D0F68AA4234F2B4C32D7F357 sha1 8365C31CB7930FB59083B6F6ADD2A9E49F15F693 )
+	name "Pac-Man Collection - Remastered Edition (World) (TIA)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).a78" size 49280 crc E2A5A351 md5 5D418BBE79E1E31351C4D44F7C137E9F sha1 1EFD31D55BE8ABBE369E47FFF5FE97CC04AEFF7E )
 )
 game (
-	name "Pac-Man Collection - Ultimate Edition (World) (Pokey)"
-	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).bin" size 32768 crc FD2F3867 md5 6A432FD1E9D42A294BDB04D2C3D1E17F sha1 20C697C298B05984A2FD333BDCE7FFC486D22712 )
+	name "Pac-Man Collection - Remastered Edition (World) (TIA)"
+	rom ( name "Pac-Man Collection - Remastered Edition (World) (NTSC) (TIA) (Aftermarket) (Unl).bin" size 49152 crc A3AC92B3 md5 200EF9C7B36AFD3B1B6CE32065A259BB sha1 74D8964631B95084F5F09921705EE88FDF0862B4 )
 )
 game (
 	name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey)"
@@ -1017,6 +930,14 @@ game (
 game (
 	name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey)"
 	rom ( name "Pac-Man Collection - Ultimate Edition (World) (PAL) (Pokey) (Aftermarket) (Unl).bin" size 32768 crc 0D71DB9A md5 41C6DCD63DB9C90795903C362A09C5D8 sha1 692774C60FF42029EFEF733213E2E33F491CAE6A )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (Pokey)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).a78" size 32896 crc 4C89FD07 md5 34E23DE8D0F68AA4234F2B4C32D7F357 sha1 8365C31CB7930FB59083B6F6ADD2A9E49F15F693 )
+)
+game (
+	name "Pac-Man Collection - Ultimate Edition (World) (Pokey)"
+	rom ( name "Pac-Man Collection - Ultimate Edition (World) (NTSC) (Pokey) (Aftermarket) (Unl).bin" size 32768 crc FD2F3867 md5 6A432FD1E9D42A294BDB04D2C3D1E17F sha1 20C697C298B05984A2FD333BDCE7FFC486D22712 )
 )
 game (
 	name "Pac-Man Plus 320 (World)"
@@ -1102,11 +1023,6 @@ game (
 	rom ( name "Pole Position II (USA).bin" size 32768 crc A85FB962 md5 584582BB09EE8122E7FC09DC7D1ED813 sha1 CCFA6F3F83DDBED2A2FB32735FEA316A718FBAAA )
 )
 game (
-	name "Pole Position II (USA) (Beta)"
-	region "USA"
-	rom ( name "Pole Position II (USA) (Beta).bin" size 32768 crc FD40B838 md5 DAB84748D29D3854BCA3675A8937988B sha1 E65E2BBF62F902C4DEE3F2E95EC5A222D151BEB4 )
-)
-game (
 	name "Rampage (USA)"
 	region "USA"
 	rom ( name "Rampage (USA).bin" size 131072 crc 39A316AA md5 AC03806CEF2558FC795A7D5D8DBA7BC0 sha1 13745B5EAAAB7E2C992F3312285E112CDEB424F6 )
@@ -1160,20 +1076,6 @@ game (
 )
 game (
 	name "Robot Finds Kitten (World)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "19"
-	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).a78" size 32896 crc C1580BBA md5 3525DE942C18269A5AD1A1D0271D3F32 sha1 131035773A422D067CA8D3EFCD0A7F9095CD3595 )
-)
-game (
-	name "Robot Finds Kitten (World)"
-	releaseyear "2005"
-	releasemonth "06"
-	releaseday "19"
-	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).bin" size 32768 crc FCB76ABE md5 9646D482A8AD187AE52CD21C0DE365FB sha1 9D71E736923A226174126099D3E46197EA4452B8 )
-)
-game (
-	name "Robot Finds Kitten (World)"
 	releaseyear "2022"
 	releasemonth "03"
 	releaseday "31"
@@ -1181,10 +1083,24 @@ game (
 )
 game (
 	name "Robot Finds Kitten (World)"
+	releaseyear "2005"
+	releasemonth "06"
+	releaseday "19"
+	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).a78" size 32896 crc C1580BBA md5 3525DE942C18269A5AD1A1D0271D3F32 sha1 131035773A422D067CA8D3EFCD0A7F9095CD3595 )
+)
+game (
+	name "Robot Finds Kitten (World)"
 	releaseyear "2022"
 	releasemonth "03"
 	releaseday "31"
 	rom ( name "Robot Finds Kitten (World) (2022-03-31) (Aftermarket) (Unl).bin" size 32768 crc 42201CCA md5 E4C2179B37693B84AA9C8D85F2527004 sha1 9E5B985DC5508019E2BC18AD364FBFB2B3689BB4 )
+)
+game (
+	name "Robot Finds Kitten (World)"
+	releaseyear "2005"
+	releasemonth "06"
+	releaseday "19"
+	rom ( name "Robot Finds Kitten (World) (2005-06-19) (Aftermarket) (Unl).bin" size 32768 crc FCB76ABE md5 9646D482A8AD187AE52CD21C0DE365FB sha1 9D71E736923A226174126099D3E46197EA4452B8 )
 )
 game (
 	name "Robotron - 2084 (USA)"
@@ -1295,20 +1211,6 @@ game (
 game (
 	name "Sirius XM (World)"
 	rom ( name "Sirius XM (World) (Aftermarket) (Unl).bin" size 131072 crc B0F30A69 md5 C044AC97A06A537B68EC116363147086 sha1 75BA274C7D3ED2DAB32670FDB8F3B60540BA2E06 )
-)
-game (
-	name "Slide Boy in Maze Land (World) (Beta)"
-	releaseyear "2021"
-	releasemonth "05"
-	releaseday "10"
-	rom ( name "Slide Boy in Maze Land (World) (2021-05-10) (Beta) (Aftermarket) (Unl).a78" size 49280 crc 74F0D327 md5 A8DBC39F12401886E8101D63A3CD3E46 sha1 7FDB898926D7A922A7B681690B7BFB93FAECF148 )
-)
-game (
-	name "Slide Boy in Maze Land (World) (Beta)"
-	releaseyear "2021"
-	releasemonth "05"
-	releaseday "10"
-	rom ( name "Slide Boy in Maze Land (World) (2021-05-10) (Beta) (Aftermarket) (Unl).bin" size 49152 crc B4562D58 md5 280C599BEF1ABBD9F70C1E26696EF242 sha1 F490347E7C29DB7463013CDE587E43B13F12B247 )
 )
 game (
 	name "Slide Boy in Maze Land (World) (Digital)"
@@ -1449,19 +1351,11 @@ game (
 )
 game (
 	name "Super Stunt Cycle (USA) (Proto)"
-	releaseyear "1988"
-	releasemonth "11"
-	releaseday "03"
+	releaseyear "1989"
+	releasemonth "05"
+	releaseday "26"
 	region "USA"
-	rom ( name "Super Stunt Cycle (USA) (Proto) (1988-11-03).a78" size 65664 crc 0AB7B0A4 md5 DE35E91830A85714BAB7F139752A1BCD sha1 9995E4C1401E2C8DBB77D51F5E447D7F2052E32F )
-)
-game (
-	name "Super Stunt Cycle (USA) (Proto)"
-	releaseyear "1988"
-	releasemonth "11"
-	releaseday "03"
-	region "USA"
-	rom ( name "Super Stunt Cycle (USA) (Proto) (1988-11-03).bin" size 65536 crc 60D253E2 md5 2BA7FFB58607D52A5BDA7B259D4C6A9C sha1 C03F030E92B7049A20B0517F68EA2DD02C300EFC )
+	rom ( name "Super Stunt Cycle (USA) (Proto) (1989-05-26).a78" size 65664 crc 867C2107 md5 D99EDDCDDF9BF3E0735196B876BC9455 sha1 2F772B44D26369D2FF626DBD43A48707A0653CA7 )
 )
 game (
 	name "Super Stunt Cycle (USA) (Proto)"
@@ -1473,19 +1367,11 @@ game (
 )
 game (
 	name "Super Stunt Cycle (USA) (Proto)"
-	releaseyear "1989"
-	releasemonth "04"
-	releaseday "14"
+	releaseyear "1988"
+	releasemonth "11"
+	releaseday "03"
 	region "USA"
-	rom ( name "Super Stunt Cycle (USA) (Proto) (1989-04-14).bin" size 65536 crc CB3DFF09 md5 914A4598882D232AF7AC992D594C6896 sha1 94B283CA311639371E72B758948C71F19198DACA )
-)
-game (
-	name "Super Stunt Cycle (USA) (Proto)"
-	releaseyear "1989"
-	releasemonth "05"
-	releaseday "26"
-	region "USA"
-	rom ( name "Super Stunt Cycle (USA) (Proto) (1989-05-26).a78" size 65664 crc 867C2107 md5 D99EDDCDDF9BF3E0735196B876BC9455 sha1 2F772B44D26369D2FF626DBD43A48707A0653CA7 )
+	rom ( name "Super Stunt Cycle (USA) (Proto) (1988-11-03).a78" size 65664 crc 0AB7B0A4 md5 DE35E91830A85714BAB7F139752A1BCD sha1 9995E4C1401E2C8DBB77D51F5E447D7F2052E32F )
 )
 game (
 	name "Super Stunt Cycle (USA) (Proto)"
@@ -1494,6 +1380,22 @@ game (
 	releaseday "26"
 	region "USA"
 	rom ( name "Super Stunt Cycle (USA) (Proto) (1989-05-26).bin" size 65536 crc 3F4DA5C3 md5 2E0B41AA4A8989F4E599EBE8D5C661D7 sha1 EEDFB030E50CF762695199FFED3EFA1A56EB91E4 )
+)
+game (
+	name "Super Stunt Cycle (USA) (Proto)"
+	releaseyear "1989"
+	releasemonth "04"
+	releaseday "14"
+	region "USA"
+	rom ( name "Super Stunt Cycle (USA) (Proto) (1989-04-14).bin" size 65536 crc CB3DFF09 md5 914A4598882D232AF7AC992D594C6896 sha1 94B283CA311639371E72B758948C71F19198DACA )
+)
+game (
+	name "Super Stunt Cycle (USA) (Proto)"
+	releaseyear "1988"
+	releasemonth "11"
+	releaseday "03"
+	region "USA"
+	rom ( name "Super Stunt Cycle (USA) (Proto) (1988-11-03).bin" size 65536 crc 60D253E2 md5 2BA7FFB58607D52A5BDA7B259D4C6A9C sha1 C03F030E92B7049A20B0517F68EA2DD02C300EFC )
 )
 game (
 	name "Tank Command (USA)"
@@ -1628,11 +1530,6 @@ game (
 	name "Xevious (USA)"
 	region "USA"
 	rom ( name "Xevious (USA).bin" size 32768 crc 75FC124F md5 D7DC17379AA25E5AE3C14B9E780C6F6D sha1 1D4F0335B152239553534FCBBACDCA273802E3BD )
-)
-game (
-	name "Xevious (USA) (Beta)"
-	region "USA"
-	rom ( name "Xevious (USA) (Beta).bin" size 32768 crc 6FD15498 md5 DBBE99AEEB8CBC0F5F17CD0082D260A0 sha1 5F7D2D52ED8C9A3263EE0AEFB3BC05A2847665DD )
 )
 game (
 	name "bonQ (World)"

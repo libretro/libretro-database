@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Game Boy Advance"
 	description "Nintendo - Game Boy Advance"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -71,12 +72,6 @@ game (
 	rom ( name "Advance GTA (2001)(MTO)(JP)(en).bin" size 8388608 crc FDC82E98 md5 65FB37341BB23E897DEAA49E17EE3BC0 sha1 9D8C6C6242F4C61886AAFCAAB602CE80DFF3A226 )
 )
 game (
-	name "Advance Guardian Heroes (USA)"
-	releaseyear "2004"
-	region "USA"
-	rom ( name "Advance Guardian Heroes (2004)(Treasure - Ubisoft)(US)[!].bin" size 8388608 crc C501917F md5 A26C440065D89F56275644FFA34140EF sha1 D518D0A4818CC356ED79B29BC3C0E2264C0C2D07 )
-)
-game (
 	name "Advance Guardian Heroes (Europe) (En,Fr)"
 	releaseyear "2004"
 	region "Europe"
@@ -87,6 +82,12 @@ game (
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Advance Guardian Heroes (2004)(Ubisoft)(JP).bin" size 8388608 crc 1527CA8C md5 53CF5670A528EF46D6D240E6C6C0C9E2 sha1 8899DEC74351FDF5E4A7D9EBA4265BFB6CDA0895 )
+)
+game (
+	name "Advance Guardian Heroes (USA)"
+	releaseyear "2004"
+	region "USA"
+	rom ( name "Advance Guardian Heroes (2004)(Treasure - Ubisoft)(US)[!].bin" size 8388608 crc C501917F md5 A26C440065D89F56275644FFA34140EF sha1 D518D0A4818CC356ED79B29BC3C0E2264C0C2D07 )
 )
 game (
 	name "Advance Rally (Japan)"
@@ -266,14 +267,14 @@ game (
 	rom ( name "Dragon Ball Z - Buu's Fury (2003)(Infogrames)(proto).bin" size 33554432 crc B4F2FEF8 md5 C282654FBB48368BE0E5724479465423 sha1 E668F1635B88CCF343419F6CA265AEC3D4CBE42D )
 )
 game (
-	name "Dragon Ball Z - Buu's Fury (Proto)[f][Prototype D]"
-	releaseyear "2003"
-	rom ( name "Dragon Ball Z - Buu's Fury (2003)(Infogrames)(proto)[f][Prototype D].bin" size 8388608 crc C35BBC5D md5 897FBE03B12147F9DAF55519D90402CD sha1 2C4EC7176E58DAE08B1F52206C7CBFE68EE94C75 )
-)
-game (
 	name "Dragon Ball Z - Buu's Fury (Proto)"
 	releaseyear "2004"
 	rom ( name "Dragon Ball Z - Buu's Fury (2004)(Infogrames)(proto).bin" size 33554432 crc DB52BDBB md5 0EC511AE2CF88D8F89A3CD97D460653C sha1 E87AB2C3A66EF7D3B775B5B0C7B0BB9C799F17E8 )
+)
+game (
+	name "Dragon Ball Z - Buu's Fury (Proto)[f][Prototype D]"
+	releaseyear "2003"
+	rom ( name "Dragon Ball Z - Buu's Fury (2003)(Infogrames)(proto)[f][Prototype D].bin" size 8388608 crc C35BBC5D md5 897FBE03B12147F9DAF55519D90402CD sha1 2C4EC7176E58DAE08B1F52206C7CBFE68EE94C75 )
 )
 game (
 	name "Dragon Ball Z - The Legacy of Goku II (Proto)"
@@ -391,12 +392,6 @@ game (
 	rom ( name "Hi Hi Puffy Ami Yumi - Puffy Ami Yumi and the Manga Madman (20xx)(Altron)(proto)[Milestone 3].bin" size 8388608 crc D048EC49 md5 D4CC34B19AB7FBA248558D6F6584FDF2 sha1 F0A5E83593A3DD2C32166E6A6E48D550D7DE9ECB )
 )
 game (
-	name "High School Musical - Livin' the Dream (USA) (En,Fr) (Beta)"
-	releaseyear "2007"
-	region "USA"
-	rom ( name "High School Musical - Livin' the Dream (2007)(Disney Interactive)(US)(en-fr)(beta).bin" size 16777216 crc C340D5F7 md5 E041A99ECCF2D2B7360B6703CE73E169 sha1 163701C68771E2108202A3CFD8EFFE69CC48AEB7 )
-)
-game (
 	name "Home on the Range (Europe)"
 	releaseyear "2004"
 	region "Europe"
@@ -461,37 +456,37 @@ game (
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh].bin" size 16777216 crc 7C32326C md5 B1C9B5D6C1A8373955F704C95A9B1C70 sha1 FA82F87EFA718105BA5A2A66B085C0ECA8949026 )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 2)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a2].bin" size 16777216 crc BA222877 md5 B45289006A099968C0632269ADCDD8E0 sha1 BA04CFBE93D12D2AD684C52234472FA12A5B53D7 )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 3)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a3].bin" size 16777216 crc 6CBBE588 md5 2ECE5D00241819DBCA678C78A52310B9 sha1 14870FC25AFFA81144E033B2A78AE0DBB1FDB49A )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 4)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a4].bin" size 16777216 crc AD8A18D6 md5 4712C13B4CE534D763864F66C017DEC0 sha1 E3B7728428CAFF73DFBF79715E17DC52C9E95BCC )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 5)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a5].bin" size 16777216 crc A6D2B498 md5 B06D9137039B421457E51AB17D3CD1EE sha1 71EE0FE0A666983286C4A5D590DC609B47F8DEF6 )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 6)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a6].bin" size 16777216 crc EF2D259F md5 5A29C0C1207E0964A7CB5FE17A004EA7 sha1 5C7DAF9154D41AA1FAAC520123EE60735F27E88E )
 )
 game (
-	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh](Alt 1)"
+	name "Legend of Zelda, The - Fushigi no Boushi (Japan)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Legend of Zelda, The - Fushigi no Boushi (2004)(Nintendo)(JP)[tr zh][a].bin" size 16777216 crc 97448A69 md5 E704A0ECC900E6EE54F8A07FA8450E89 sha1 D3B43B209F3AF4ABFF438A861C4ED0287E585C65 )
@@ -579,83 +574,196 @@ game (
 	rom ( name "Quake (2003)(Linden, Randy)(proto)[DRG 3D Engine GBA v.29072].bin" size 33554432 crc 10E16DD4 md5 B10AFB07357CB31AC7C77D431894EA61 sha1 91DA59C27F06BEB7D5EE1531300A0D1B7E4BFDE2 )
 )
 game (
-	name "Rayman 3 (Proto)[France Committee Presentation]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "01"
-	releaseday "18"
-	rom ( name "Rayman 3 (2002-01-18)(Ubi Soft)(proto)[France Committee Presentation].bin" size 1627308 crc D82490B3 md5 296B04378CD16A9965E29AC5993A68EE sha1 DA768537959D505B404E3A8C0962B36731C64E05 )
+	releasemonth "11"
+	releaseday "05"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-05)(Ubi Soft)(EU)(M10)(proto).bin" size 10837612 crc C42D9D65 md5 91643BD7285367724181D0CB01049578 sha1 64870EC36F6174C503CB65771E26315299E5153A )
 )
 game (
-	name "Rayman 3 (alpha)[PreAlpha]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "03"
-	releaseday "01"
-	rom ( name "Rayman 3 (2002-03-01)(Ubi Soft)(alpha)[PreAlpha].bin" size 2227428 crc A1E4F8C1 md5 34C66C1CE02E78CBCF535CB85B114CC3 sha1 60A74B0A78929BB50EFB0D421D08C5DAA72560BA )
+	releasemonth "11"
+	releaseday "06"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-06)(Ubi Soft)(EU)(M10)(proto).bin" size 10843292 crc E02F58ED md5 2B0371B5E5348AE6F45C77FDB78AFC8E sha1 6BD9BFBD28E37EB3AFF03C605A6D66F39FD98E7E )
 )
 game (
-	name "Rayman 3 (alpha)[PreAlpha]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "03"
-	releaseday "08"
-	rom ( name "Rayman 3 (2002-03-08)(Ubi Soft)(alpha)[PreAlpha].bin" size 2273420 crc 06E5BF87 md5 DF84821CD45290F09A5F421B5BD5EEB1 sha1 EA3326731089D1010F9596A4D6A3AE70CFBB6122 )
+	releasemonth "11"
+	releaseday "07"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-07)(Ubi Soft)(EU)(M10)(proto).bin" size 10864304 crc CD9C50AF md5 8AB8FCEC420C134D6E2A2E02EB14C9EF sha1 AB13482693B8957DCA92065FBC6CDEA967E3DDC6 )
 )
 game (
-	name "Rayman 3 (alpha)[FocusGroup]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "03"
-	releaseday "18"
-	rom ( name "Rayman 3 (2002-03-18)(Ubi Soft)(alpha)[FocusGroup].bin" size 1879888 crc ACC69290 md5 ACFF54216DF1AA6FE0AF73E6CFD39CAF sha1 848FF2BB1B45316E86A0D0A13CA3BABEAD3692F1 )
+	releasemonth "11"
+	releaseday "10"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-10)(Ubi Soft)(EU)(M10)(proto).bin" size 10776572 crc 2DD7D9B6 md5 F685E8C1B116590E0A501627F38A15FA sha1 701E439B86A84450EA05F5433E5FE225569FE8CF )
 )
 game (
-	name "Rayman 3 (Proto)[Nintendo E3 Approval]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "04"
-	releaseday "18"
-	rom ( name "Rayman 3 (2002-04-18)(Ubi Soft)(proto)[Nintendo E3 Approval].bin" size 2768568 crc 0A75F859 md5 0D6E952DD0245803F10AFAF07C320385 sha1 3D7217F4E0CF85907660B5EFCE554FCB35F92D38 )
+	releasemonth "11"
+	releaseday "11"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-11)(Ubi Soft)(EU)(M10)(proto).bin" size 10797864 crc 555E24D8 md5 EAC6CA71B4688B232B9D24F5A55DE101 sha1 EDD8C1AC91C103473484CD96ACA2002E5F59CC82 )
 )
 game (
-	name "Rayman 3 (Proto)[E3 GameCube]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "05"
+	releasemonth "11"
+	releaseday "12"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-12)(Ubi Soft)(EU)(M10)(proto).bin" size 10826240 crc AA4970E8 md5 809516F3A994496DA45E3E087E590745 sha1 CAA210D13D7A55F9F4399E6B2AFB854E199D19DD )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
 	releaseday "13"
-	rom ( name "Rayman 3 (2002-05-13)(Ubi Soft)(proto)[E3 GameCube].bin" size 3674712 crc A1270577 md5 30525D29605B52F27A4AC32543D9BD3A sha1 180EC6E5BEBC549593EF2D8BAF1075403AA2D18E )
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-13)(Ubi Soft)(EU)(M10)(proto).bin" size 10830764 crc CC487994 md5 4A6814105E4FF644D287BFC4E8DC2E26 sha1 20B29D093BEE01C01E964D4F7B40265900A4BA51 )
 )
 game (
-	name "Rayman 3 (Proto)[E3]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "05"
-	releaseday "13"
-	rom ( name "Rayman 3 (2002-05-13)(Ubi Soft)(proto)[E3].bin" size 3589480 crc 96FBFC3B md5 DFBE2507A38430903FA5AF6BB43991CD sha1 880331376D3FF6D43D9124A92A0C6C1A0AFB523B )
+	releasemonth "11"
+	releaseday "14"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-14)(Ubi Soft)(EU)(M10)(proto).bin" size 11004524 crc FCA14AA4 md5 0BD11D9C317368D42DAF20F08AA30C00 sha1 29DDFEB489901CD382B2629FB99F274CAC5CEE2D )
 )
 game (
-	name "Rayman 3 (Proto)[La Ronde]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "07"
+	releasemonth "11"
+	releaseday "15"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-15)(Ubi Soft)(EU)(M10)(proto).bin" size 10980708 crc 6D7A87BB md5 29525B96AE0A394B5AB968EE01783517 sha1 364E6112BBBBD09E8B9BD035344A0882131D133A )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "18"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-18)(Ubi Soft)(EU)(M10)(proto).bin" size 10995636 crc 0D4C83D5 md5 921BA9C9A16AF7E39C3D941DB507D0A3 sha1 58834828CF317A6929508CA997C49AC9E6B1E7C0 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
 	releaseday "19"
-	rom ( name "Rayman 3 (2002-07-19)(Ubi Soft)(proto)[La Ronde].bin" size 7872840 crc 87C722D2 md5 C17F70FAB3F1455C91743393579E7AC4 sha1 1A53CE380014F896A36BB6FEA0EBC1791792621F )
-)
-game (
-	name "Rayman 3 (Proto)[ECTS]"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "09"
-	rom ( name "Rayman 3 (2002-08-09)(Ubi Soft)(proto)[ECTS].bin" size 9220084 crc F8E4E55C md5 0975A41FD3BE2C7C3775DC04563B7C50 sha1 026FDF53BCDDE57945E9FFB7E1553693795C3BB2 )
-)
-game (
-	name "Rayman 3 (Europe) (Proto)[Proto A]"
-	releaseyear "2002"
-	releasemonth "10"
-	releaseday "07"
 	region "Europe"
-	rom ( name "Rayman 3 (2002-10-07)(Ubi Soft)(EU)(M6)(proto)[Proto A].bin" size 9932600 crc 996113F9 md5 CD59205B82EA0D7FA438C8A82AA926C2 sha1 5FE3909B1BF073927FEE4137E9AC529DA5AFB9FD )
+	rom ( name "Rayman 3 (2002-11-19)(Ubi Soft)(EU)(M10)(proto).bin" size 8370960 crc 6CA24576 md5 3EA4C8CCEFEF037A48708707671760FA sha1 99E6CFC0D0B72797A051FA9859077098769384DD )
 )
 game (
-	name "Rayman 3 (Europe) (Proto)[Proto B]"
+	name "Rayman 3 (Europe) (M10) (Proto)"
 	releaseyear "2002"
-	releasemonth "10"
-	releaseday "07"
+	releasemonth "11"
+	releaseday "20"
 	region "Europe"
-	rom ( name "Rayman 3 (2002-10-07)(Ubi Soft)(EU)(M6)(proto)[Proto B].bin" size 9908796 crc DC675323 md5 515E558C930C6F0586369D944198D53D sha1 97351671D3DFB385084C80CC721E2BF1C6D62FE9 )
+	rom ( name "Rayman 3 (2002-11-20)(Ubi Soft)(EU)(M10)(proto).bin" size 8371944 crc 8FBB2B7B md5 E931E1B41DE04031F180B11060F68EE4 sha1 F8E6472E0A777C99815D541CDA6B5B3ACAC10633 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "21"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-21)(Ubi Soft)(EU)(M10)(proto).bin" size 8375524 crc E4BBDE62 md5 08CFCC3C3F66F8DA7C55A5A1649C55E6 sha1 CB7C05E4AC2B3ECA5683E608AD174B0359B8B231 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "23"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-23)(Ubi Soft)(EU)(M10)(proto).bin" size 8376500 crc B8F3225E md5 B6D28671D54D1A6EE3992EA374F34164 sha1 08889038A7FC169DACCA31C14BD92CA7ED7E7087 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "29"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-29)(Ubi Soft)(EU)(M10)(proto).bin" size 8378464 crc 3B4B0E5E md5 4A9DD740C20BD5BD8DFA194EE7021AAD sha1 5B8C54C209BEAF30E732D12BC488D1201C8D39DF )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto A]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "22"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(EU)(M10)(proto)[Proto A].bin" size 8375524 crc 25603F1D md5 6F1E495BA4FBB023391D718AEA982742 sha1 B3929DBAFB76403EF84B8EB932C095901D8FF1C8 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto A]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto A].bin" size 8376948 crc C74FD053 md5 BD6EF86114FAC6BD4EA0E6EFAA4956F5 sha1 8299A6B5B05DA3A27B55621C7C3050C81C57677D )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "22"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8375448 crc EE11D090 md5 B1DD8242E946C82DDB1DB271CB9EBFC4 sha1 6D64606C19211AD0B9EE28749A94A59E225C4546 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8376864 crc 4CA5CCA0 md5 3B6F7F2591E2FB93184B629467E8C870 sha1 E44FB8B4B2C1A0B1FC0DF840C0599FB269283E2D )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8377084 crc DFCF79F0 md5 696BAFEF53C39D50DC27A5E915A4DBBB sha1 7482825CA5B4E2EBF8C3738BD0672D4FFE91BDD9 )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto C]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto C].bin" size 8376984 crc B23C8536 md5 BAA9C72F4297BD56C9882EF9EFE575F0 sha1 889421C82EB2AD9DFF167FE64EB86EB0E423A95D )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto C]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto C].bin" size 8377704 crc C43DE78C md5 1BB3730884CA552D7A8FC0738D3573D1 sha1 8A894838B2D2AC0C9A1B7185223DBC1BFFDE94FA )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto D]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto D].bin" size 8376832 crc 1F7ED346 md5 673A8B4AA2C69886E49551F5F51EBAF4 sha1 225A67093747DF52931E1DA7F0572557C0554DFF )
+)
+game (
+	name "Rayman 3 (Europe) (M10) (Proto)[Proto D]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "Europe"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto D].bin" size 8388608 crc 8F34B14F md5 870CFBF9950EEA5DB33C118564233DB3 sha1 064F6B09732F4225F5964D0E8BD386AFFB83E3D7 )
 )
 game (
 	name "Rayman 3 (Europe) (Proto)"
@@ -794,140 +902,62 @@ game (
 	rom ( name "Rayman 3 (2002-10-31)(Ubi Soft)(EU)(M6)(proto).bin" size 10639300 crc B51D09F3 md5 FF86C3CAFD8AD3AFCEB2DD1E34B612F7 sha1 AB77CD464B1B0F2171DE5DCC1754F41F2509FEFC )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Europe) (Proto)[Proto A]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "05"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-05)(Ubi Soft)(EU)(M10)(proto).bin" size 10837612 crc C42D9D65 md5 91643BD7285367724181D0CB01049578 sha1 64870EC36F6174C503CB65771E26315299E5153A )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "06"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-06)(Ubi Soft)(EU)(M10)(proto).bin" size 10843292 crc E02F58ED md5 2B0371B5E5348AE6F45C77FDB78AFC8E sha1 6BD9BFBD28E37EB3AFF03C605A6D66F39FD98E7E )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
+	releasemonth "10"
 	releaseday "07"
 	region "Europe"
-	rom ( name "Rayman 3 (2002-11-07)(Ubi Soft)(EU)(M10)(proto).bin" size 10864304 crc CD9C50AF md5 8AB8FCEC420C134D6E2A2E02EB14C9EF sha1 AB13482693B8957DCA92065FBC6CDEA967E3DDC6 )
+	rom ( name "Rayman 3 (2002-10-07)(Ubi Soft)(EU)(M6)(proto)[Proto A].bin" size 9932600 crc 996113F9 md5 CD59205B82EA0D7FA438C8A82AA926C2 sha1 5FE3909B1BF073927FEE4137E9AC529DA5AFB9FD )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Europe) (Proto)[Proto B]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "10"
+	releasemonth "10"
+	releaseday "07"
 	region "Europe"
-	rom ( name "Rayman 3 (2002-11-10)(Ubi Soft)(EU)(M10)(proto).bin" size 10776572 crc 2DD7D9B6 md5 F685E8C1B116590E0A501627F38A15FA sha1 701E439B86A84450EA05F5433E5FE225569FE8CF )
+	rom ( name "Rayman 3 (2002-10-07)(Ubi Soft)(EU)(M6)(proto)[Proto B].bin" size 9908796 crc DC675323 md5 515E558C930C6F0586369D944198D53D sha1 97351671D3DFB385084C80CC721E2BF1C6D62FE9 )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[E3 GameCube]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "11"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-11)(Ubi Soft)(EU)(M10)(proto).bin" size 10797864 crc 555E24D8 md5 EAC6CA71B4688B232B9D24F5A55DE101 sha1 EDD8C1AC91C103473484CD96ACA2002E5F59CC82 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "12"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-12)(Ubi Soft)(EU)(M10)(proto).bin" size 10826240 crc AA4970E8 md5 809516F3A994496DA45E3E087E590745 sha1 CAA210D13D7A55F9F4399E6B2AFB854E199D19DD )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
+	releasemonth "05"
 	releaseday "13"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-13)(Ubi Soft)(EU)(M10)(proto).bin" size 10830764 crc CC487994 md5 4A6814105E4FF644D287BFC4E8DC2E26 sha1 20B29D093BEE01C01E964D4F7B40265900A4BA51 )
+	rom ( name "Rayman 3 (2002-05-13)(Ubi Soft)(proto)[E3 GameCube].bin" size 3674712 crc A1270577 md5 30525D29605B52F27A4AC32543D9BD3A sha1 180EC6E5BEBC549593EF2D8BAF1075403AA2D18E )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[E3]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "14"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-14)(Ubi Soft)(EU)(M10)(proto).bin" size 11004524 crc FCA14AA4 md5 0BD11D9C317368D42DAF20F08AA30C00 sha1 29DDFEB489901CD382B2629FB99F274CAC5CEE2D )
+	releasemonth "05"
+	releaseday "13"
+	rom ( name "Rayman 3 (2002-05-13)(Ubi Soft)(proto)[E3].bin" size 3589480 crc 96FBFC3B md5 DFBE2507A38430903FA5AF6BB43991CD sha1 880331376D3FF6D43D9124A92A0C6C1A0AFB523B )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[ECTS]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "15"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-15)(Ubi Soft)(EU)(M10)(proto).bin" size 10980708 crc 6D7A87BB md5 29525B96AE0A394B5AB968EE01783517 sha1 364E6112BBBBD09E8B9BD035344A0882131D133A )
+	releasemonth "08"
+	releaseday "09"
+	rom ( name "Rayman 3 (2002-08-09)(Ubi Soft)(proto)[ECTS].bin" size 9220084 crc F8E4E55C md5 0975A41FD3BE2C7C3775DC04563B7C50 sha1 026FDF53BCDDE57945E9FFB7E1553693795C3BB2 )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[France Committee Presentation]"
 	releaseyear "2002"
-	releasemonth "11"
+	releasemonth "01"
 	releaseday "18"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-18)(Ubi Soft)(EU)(M10)(proto).bin" size 10995636 crc 0D4C83D5 md5 921BA9C9A16AF7E39C3D941DB507D0A3 sha1 58834828CF317A6929508CA997C49AC9E6B1E7C0 )
+	rom ( name "Rayman 3 (2002-01-18)(Ubi Soft)(proto)[France Committee Presentation].bin" size 1627308 crc D82490B3 md5 296B04378CD16A9965E29AC5993A68EE sha1 DA768537959D505B404E3A8C0962B36731C64E05 )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[La Ronde]"
 	releaseyear "2002"
-	releasemonth "11"
+	releasemonth "07"
 	releaseday "19"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-19)(Ubi Soft)(EU)(M10)(proto).bin" size 8370960 crc 6CA24576 md5 3EA4C8CCEFEF037A48708707671760FA sha1 99E6CFC0D0B72797A051FA9859077098769384DD )
+	rom ( name "Rayman 3 (2002-07-19)(Ubi Soft)(proto)[La Ronde].bin" size 7872840 crc 87C722D2 md5 C17F70FAB3F1455C91743393579E7AC4 sha1 1A53CE380014F896A36BB6FEA0EBC1791792621F )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
+	name "Rayman 3 (Proto)[Nintendo E3 Approval]"
 	releaseyear "2002"
-	releasemonth "11"
-	releaseday "20"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-20)(Ubi Soft)(EU)(M10)(proto).bin" size 8371944 crc 8FBB2B7B md5 E931E1B41DE04031F180B11060F68EE4 sha1 F8E6472E0A777C99815D541CDA6B5B3ACAC10633 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "21"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-21)(Ubi Soft)(EU)(M10)(proto).bin" size 8375524 crc E4BBDE62 md5 08CFCC3C3F66F8DA7C55A5A1649C55E6 sha1 CB7C05E4AC2B3ECA5683E608AD174B0359B8B231 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto A]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "22"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(EU)(M10)(proto)[Proto A].bin" size 8375524 crc 25603F1D md5 6F1E495BA4FBB023391D718AEA982742 sha1 B3929DBAFB76403EF84B8EB932C095901D8FF1C8 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "22"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8375448 crc EE11D090 md5 B1DD8242E946C82DDB1DB271CB9EBFC4 sha1 6D64606C19211AD0B9EE28749A94A59E225C4546 )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "22"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8375248 crc 10BC8496 md5 FC60544141662B103F076302BA2EA3B0 sha1 25119E0884BDD4A054341F924A1897B273B3DF44 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "23"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-23)(Ubi Soft)(EU)(M10)(proto).bin" size 8376500 crc B8F3225E md5 B6D28671D54D1A6EE3992EA374F34164 sha1 08889038A7FC169DACCA31C14BD92CA7ED7E7087 )
+	releasemonth "04"
+	releaseday "18"
+	rom ( name "Rayman 3 (2002-04-18)(Ubi Soft)(proto)[Nintendo E3 Approval].bin" size 2768568 crc 0A75F859 md5 0D6E952DD0245803F10AFAF07C320385 sha1 3D7217F4E0CF85907660B5EFCE554FCB35F92D38 )
 )
 game (
 	name "Rayman 3 (USA) (Proto)"
@@ -936,118 +966,6 @@ game (
 	releaseday "23"
 	region "USA"
 	rom ( name "Rayman 3 (2002-11-23)(Ubi Soft)(US)(M3)(proto).bin" size 8376372 crc 861734CF md5 9EC0215E9EEE38C948E934FBFA1E1F69 sha1 2F2002D50E241AB63FAC4BE12FCD65BAEAEA180E )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto A]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto A].bin" size 8376948 crc C74FD053 md5 BD6EF86114FAC6BD4EA0E6EFAA4956F5 sha1 8299A6B5B05DA3A27B55621C7C3050C81C57677D )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8376864 crc 4CA5CCA0 md5 3B6F7F2591E2FB93184B629467E8C870 sha1 E44FB8B4B2C1A0B1FC0DF840C0599FB269283E2D )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto C]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto C].bin" size 8376984 crc B23C8536 md5 BAA9C72F4297BD56C9882EF9EFE575F0 sha1 889421C82EB2AD9DFF167FE64EB86EB0E423A95D )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto D]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(EU)(M10)(proto)[Proto D].bin" size 8376832 crc 1F7ED346 md5 673A8B4AA2C69886E49551F5F51EBAF4 sha1 225A67093747DF52931E1DA7F0572557C0554DFF )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto A]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto A].bin" size 8376796 crc BB2AA4F0 md5 BD42FBE1B4CC0DD4D4D6300736CD2E83 sha1 75867FCEA0A81C591E54B6AF9EE5C354FBFA830C )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8376780 crc BE52305B md5 099FB1C943F6950ACFB643CFEBF0C1B3 sha1 2BAC65E7499E002F7B85E506BF20F678C7A141B4 )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto C]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto C].bin" size 8376832 crc EC40FAFD md5 033A5E24E7E8755272E6D139A03370E5 sha1 DF6DEE5868F97902F12C64F07911BACFD7651768 )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto D]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "24"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto D].bin" size 8376680 crc C26277C4 md5 2D61E397F204FAE8F77261B367A6E179 sha1 9B27073A8DF41D677100D68D6390D199F7343944 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto B].bin" size 8377084 crc DFCF79F0 md5 696BAFEF53C39D50DC27A5E915A4DBBB sha1 7482825CA5B4E2EBF8C3738BD0672D4FFE91BDD9 )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto C]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto C].bin" size 8377704 crc C43DE78C md5 1BB3730884CA552D7A8FC0738D3573D1 sha1 8A894838B2D2AC0C9A1B7185223DBC1BFFDE94FA )
-)
-game (
-	name "Rayman 3 (Europe) (M10) (Proto)[Proto D]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(EU)(M10)(proto)[Proto D].bin" size 8388608 crc 8F34B14F md5 870CFBF9950EEA5DB33C118564233DB3 sha1 064F6B09732F4225F5964D0E8BD386AFFB83E3D7 )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto A]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto A].bin" size 8376784 crc 17297B26 md5 D7F9430E5C91AF6F0DB092B3CEC2FD63 sha1 2083879FDFE43933476AF194DE622DC9E5B688BD )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto B]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8376932 crc F1197150 md5 FCF3CE1160D4156E7E5F5ACCD619FCF0 sha1 16A80956E9429E6DE51B55D1905519ACC02E2A50 )
-)
-game (
-	name "Rayman 3 (USA) (Proto)[Proto C]"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "25"
-	region "USA"
-	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto C].bin" size 8377552 crc E3CB054D md5 2FFC70BBE01440E1BAF01DA729F7A0A8 sha1 0C8D0AB23B25EAE766C02C6F16993B37B3F3EE69 )
 )
 game (
 	name "Rayman 3 (USA) (Proto)"
@@ -1074,20 +992,97 @@ game (
 	rom ( name "Rayman 3 (2002-11-28)(Ubi Soft)(US)(M3)(proto).bin" size 8378284 crc 3320DEE5 md5 E9231B2612BE3A856957259C9B45D72C sha1 04A09FEF7051ABC6EA42E38F1806BE65CB9C76D9 )
 )
 game (
-	name "Rayman 3 (Europe) (M10) (Proto)"
-	releaseyear "2002"
-	releasemonth "11"
-	releaseday "29"
-	region "Europe"
-	rom ( name "Rayman 3 (2002-11-29)(Ubi Soft)(EU)(M10)(proto).bin" size 8378464 crc 3B4B0E5E md5 4A9DD740C20BD5BD8DFA194EE7021AAD sha1 5B8C54C209BEAF30E732D12BC488D1201C8D39DF )
-)
-game (
 	name "Rayman 3 (USA) (Proto)"
 	releaseyear "2002"
 	releasemonth "11"
 	releaseday "29"
 	region "USA"
 	rom ( name "Rayman 3 (2002-11-29)(Ubi Soft)(US)(M3)(proto).bin" size 8378312 crc 4549F9B3 md5 56F0BA30489AD9603AB0F11134E5464F sha1 B5D299663BF1AC4A50CED1A572DCEF5D31D807F6 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto A]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto A].bin" size 8376796 crc BB2AA4F0 md5 BD42FBE1B4CC0DD4D4D6300736CD2E83 sha1 75867FCEA0A81C591E54B6AF9EE5C354FBFA830C )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto A]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto A].bin" size 8376784 crc 17297B26 md5 D7F9430E5C91AF6F0DB092B3CEC2FD63 sha1 2083879FDFE43933476AF194DE622DC9E5B688BD )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "22"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-22)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8375248 crc 10BC8496 md5 FC60544141662B103F076302BA2EA3B0 sha1 25119E0884BDD4A054341F924A1897B273B3DF44 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8376780 crc BE52305B md5 099FB1C943F6950ACFB643CFEBF0C1B3 sha1 2BAC65E7499E002F7B85E506BF20F678C7A141B4 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto B]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto B].bin" size 8376932 crc F1197150 md5 FCF3CE1160D4156E7E5F5ACCD619FCF0 sha1 16A80956E9429E6DE51B55D1905519ACC02E2A50 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto C]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto C].bin" size 8376832 crc EC40FAFD md5 033A5E24E7E8755272E6D139A03370E5 sha1 DF6DEE5868F97902F12C64F07911BACFD7651768 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto C]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "25"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-25)(Ubi Soft)(US)(M3)(proto)[Proto C].bin" size 8377552 crc E3CB054D md5 2FFC70BBE01440E1BAF01DA729F7A0A8 sha1 0C8D0AB23B25EAE766C02C6F16993B37B3F3EE69 )
+)
+game (
+	name "Rayman 3 (USA) (Proto)[Proto D]"
+	releaseyear "2002"
+	releasemonth "11"
+	releaseday "24"
+	region "USA"
+	rom ( name "Rayman 3 (2002-11-24)(Ubi Soft)(US)(M3)(proto)[Proto D].bin" size 8376680 crc C26277C4 md5 2D61E397F204FAE8F77261B367A6E179 sha1 9B27073A8DF41D677100D68D6390D199F7343944 )
+)
+game (
+	name "Rayman 3 (alpha)[FocusGroup]"
+	releaseyear "2002"
+	releasemonth "03"
+	releaseday "18"
+	rom ( name "Rayman 3 (2002-03-18)(Ubi Soft)(alpha)[FocusGroup].bin" size 1879888 crc ACC69290 md5 ACFF54216DF1AA6FE0AF73E6CFD39CAF sha1 848FF2BB1B45316E86A0D0A13CA3BABEAD3692F1 )
+)
+game (
+	name "Rayman 3 (alpha)[PreAlpha]"
+	releaseyear "2002"
+	releasemonth "03"
+	releaseday "01"
+	rom ( name "Rayman 3 (2002-03-01)(Ubi Soft)(alpha)[PreAlpha].bin" size 2227428 crc A1E4F8C1 md5 34C66C1CE02E78CBCF535CB85B114CC3 sha1 60A74B0A78929BB50EFB0D421D08C5DAA72560BA )
+)
+game (
+	name "Rayman 3 (alpha)[PreAlpha]"
+	releaseyear "2002"
+	releasemonth "03"
+	releaseday "08"
+	rom ( name "Rayman 3 (2002-03-08)(Ubi Soft)(alpha)[PreAlpha].bin" size 2273420 crc 06E5BF87 md5 DF84821CD45290F09A5F421B5BD5EEB1 sha1 EA3326731089D1010F9596A4D6A3AE70CFBB6122 )
 )
 game (
 	name "RoboCop (Europe) (Proto)"
@@ -1202,7 +1197,7 @@ game (
 	rom ( name "Wolfenstein 3D (2002)(BAM!)(EU).bin" size 8388608 crc F87E8940 md5 2ED1918E1084445C87B7FE10094238B5 sha1 AE6F320AA506D657F0F6A575D30DB8129F1EEA83 )
 )
 game (
-	name "Wolfenstein 3D (Europe) (Alt 1)"
+	name "Wolfenstein 3D (Europe)"
 	releaseyear "2002"
 	region "Europe"
 	rom ( name "Wolfenstein 3D (2002)(BAM!)(EU)[a].bin" size 8388608 crc A1EDED0C md5 EBC7701B06A3264958C773C2DB4AC33C sha1 82451746152CF14F710DE6C056CBE5CAE6AB18DC )
@@ -1214,7 +1209,7 @@ game (
 	rom ( name "Wolfenstein 3D (2002)(BAM!)(US).bin" size 8388608 crc F91EE866 md5 821E6EE7197D8B7AAC69AEA82509E93A sha1 4CF7B70807E8DE6472844EA260FC4C48C879134A )
 )
 game (
-	name "Wolfenstein 3D (USA) (Alt 1)"
+	name "Wolfenstein 3D (USA)"
 	releaseyear "2002"
 	region "USA"
 	rom ( name "Wolfenstein 3D (2002)(BAM!)(US)[a].bin" size 8388608 crc A86FAE10 md5 47A20AF7D4DFAAB0839EB77B297D2B7F sha1 7FAF8849EFB85792D5AD63DE71CE6DC3BF9364FB )
@@ -1249,6 +1244,12 @@ game (
 	rom ( name "Yu Yu Hakusho - Ghost Files - Tournament Tactics (2004)(Atari)(proto)[f].bin" size 33554432 crc BBAB69BA md5 8D28374D5F5746DF68300B21577E6043 sha1 5F875B242AC00F9FE9018D523ECA629B75C9EEF3 )
 )
 game (
+	name "Yu Yu Hakusho - Spirit Detective (Europe)"
+	releaseyear "2005"
+	region "Europe"
+	rom ( name "Yu Yu Hakusho - Spirit Detective (2005)(Atari)(EU)(M5).bin" size 8388608 crc 208D77EC md5 ADE79CC8FAC2F433648FB95CA8C51164 sha1 66DC426B71195C11761F7CE58FFEF231E8E227B1 )
+)
+game (
 	name "Yu Yu Hakusho - Spirit Detective (USA)"
 	releaseyear "2003"
 	region "USA"
@@ -1261,7 +1262,7 @@ game (
 	rom ( name "Yu Yu Hakusho - Spirit Detective (2003)(Atari)(US)[tr pt].bin" size 8388608 crc F91E0086 md5 AA80D31FBC53C9F10598A7C33BB00676 sha1 9F8633CA7B758136F3F4B06721D13EEA5BD2D8B5 )
 )
 game (
-	name "Yu Yu Hakusho - Spirit Detective (USA)[tr pt](Alt 1)"
+	name "Yu Yu Hakusho - Spirit Detective (USA)[tr pt]"
 	releaseyear "2003"
 	region "USA"
 	rom ( name "Yu Yu Hakusho - Spirit Detective (2003)(Atari)(US)[tr pt][a].bin" size 8388608 crc 680D7D08 md5 F02C4C5D4DA3B6947C7D066FB91F1D1A sha1 B3E01E913E6F19D2D36C57675F5F4FA0F5602697 )
@@ -1271,12 +1272,6 @@ game (
 	releaseyear "2003"
 	region "USA"
 	rom ( name "Yu Yu Hakusho - Spirit Detective (2003)(Atari)(US)[tr vi].bin" size 8388608 crc 86EDBA6E md5 E074A66C443FD53F914BE1340764675B sha1 1F1636F66FB7C11D66566CAF5F633F65B47CD274 )
-)
-game (
-	name "Yu Yu Hakusho - Spirit Detective (Europe)"
-	releaseyear "2005"
-	region "Europe"
-	rom ( name "Yu Yu Hakusho - Spirit Detective (2005)(Atari)(EU)(M5).bin" size 8388608 crc 208D77EC md5 ADE79CC8FAC2F433648FB95CA8C51164 sha1 66DC426B71195C11761F7CE58FFEF231E8E227B1 )
 )
 game (
 	name "Yu Yu Hakusho - Tournament Tactics (USA)"
@@ -1327,18 +1322,6 @@ game (
 	rom ( name "Yu-Gi-Oh! - Duel Monsters International - Worldwide Edition Rev 1 (2003)(Konami)(JP).bin" size 16777216 crc 1BECF9D3 md5 9BC1EE3D43963364AD25E687EC867D26 sha1 E16DD5848BCBAFFDC60D5D5548D60F4311F4615C )
 )
 game (
-	name "Yu-Gi-Oh! - Dungeon Dice Monsters (Japan)"
-	releaseyear "2001"
-	region "Japan"
-	rom ( name "Yu-Gi-Oh! - Dungeon Dice Monsters (2001)(Konami)(JP).bin" size 8388608 crc 51B35E87 md5 72F072D0E26A9E3D12B6107598CBAF69 sha1 A0AD0CBFF3D74BB3E234ABCFF866994EA602C43A )
-)
-game (
-	name "Yu-Gi-Oh! - Dungeon Dice Monsters (Japan)[h]"
-	releaseyear "2001"
-	region "Japan"
-	rom ( name "Yu-Gi-Oh! - Dungeon Dice Monsters (2001)(Konami)(JP)[h].bin" size 8388608 crc F311D8C7 md5 C2D01EB60DED216C1D0B9DEA08D9CCAE sha1 D6C8F02AF75923B1DE1AA7556441A278059501B8 )
-)
-game (
 	name "Yu-Gi-Oh! - Dungeon Dice Monsters (Europe)"
 	releaseyear "2003"
 	region "Europe"
@@ -1349,6 +1332,18 @@ game (
 	releaseyear "2003"
 	region "Europe"
 	rom ( name "Yu-Gi-Oh! - Dungeon Dice Monsters (2003)(Konami)(EU)(M5)[h].bin" size 8388608 crc 706DFF00 md5 70FED6ABD43A83AE370FAC258C7C7046 sha1 99878A6E1D760E44D054F60F9C93364A51606D69 )
+)
+game (
+	name "Yu-Gi-Oh! - Dungeon Dice Monsters (Japan)"
+	releaseyear "2001"
+	region "Japan"
+	rom ( name "Yu-Gi-Oh! - Dungeon Dice Monsters (2001)(Konami)(JP).bin" size 8388608 crc 51B35E87 md5 72F072D0E26A9E3D12B6107598CBAF69 sha1 A0AD0CBFF3D74BB3E234ABCFF866994EA602C43A )
+)
+game (
+	name "Yu-Gi-Oh! - Dungeon Dice Monsters (Japan)[h]"
+	releaseyear "2001"
+	region "Japan"
+	rom ( name "Yu-Gi-Oh! - Dungeon Dice Monsters (2001)(Konami)(JP)[h].bin" size 8388608 crc F311D8C7 md5 C2D01EB60DED216C1D0B9DEA08D9CCAE sha1 D6C8F02AF75923B1DE1AA7556441A278059501B8 )
 )
 game (
 	name "Yu-Gi-Oh! - Dungeon Dice Monsters (USA) (En,Es)"
@@ -1423,6 +1418,12 @@ game (
 	rom ( name "Yu-Gi-Oh! - The Eternal Duelist Soul (2002)(Konami)(US)[tr pt].bin" size 8388608 crc 5ED2FE53 md5 C499C41247806A8B887115CA85DF57A3 sha1 4FE552B76843B6555D1A8D6DEDC6146A926488CF )
 )
 game (
+	name "Yu-Gi-Oh! - The Sacred Cards (Europe)"
+	releaseyear "2004"
+	region "Europe"
+	rom ( name "Yu-Gi-Oh! - The Sacred Cards (2004)(Konami)(EU)(M5).bin" size 16777216 crc D19DB37C md5 C43587FCA1F7E02F611BAAB02D26716D sha1 9A23AD34F67AC1F1343B7009F11AC95C77B782EF )
+)
+game (
 	name "Yu-Gi-Oh! - The Sacred Cards (USA)"
 	releaseyear "2003"
 	region "USA"
@@ -1433,12 +1434,6 @@ game (
 	releaseyear "2003"
 	region "USA"
 	rom ( name "Yu-Gi-Oh! - The Sacred Cards (2003)(Konami)(US)[t].bin" size 16777216 crc DBB4B13D md5 2B9E37428BB45E1E18AB471D8B2CFD3C sha1 9ED2746D67E56222D0C30E84BAC63D1EEECD9F7D )
-)
-game (
-	name "Yu-Gi-Oh! - The Sacred Cards (Europe)"
-	releaseyear "2004"
-	region "Europe"
-	rom ( name "Yu-Gi-Oh! - The Sacred Cards (2004)(Konami)(EU)(M5).bin" size 16777216 crc D19DB37C md5 C43587FCA1F7E02F611BAAB02D26716D sha1 9A23AD34F67AC1F1343B7009F11AC95C77B782EF )
 )
 game (
 	name "Yu-Gi-Oh! - The Sacred Cards + Yu-Gi-Oh! - Reshef of Destruction (Europe)"
@@ -1759,7 +1754,7 @@ game (
 	rom ( name "Zoku Bokura no Taiyou - Taiyou Shounen Django Rev 0 (2004)(Konami)(JP)(en-ja)[tr zh].bin" size 16777216 crc C3CB0333 md5 D9AEB431CDD29715C3BDD582CDA9C0EE sha1 285D82976ABEFA9BDB1C0454458D419408AEB545 )
 )
 game (
-	name "Zoku Bokura no Taiyou - Taiyou Shounen Django Rev 0 (Japan) (En,Ja)[tr zh](Alt 1)"
+	name "Zoku Bokura no Taiyou - Taiyou Shounen Django Rev 0 (Japan) (En,Ja)[tr zh]"
 	releaseyear "2004"
 	region "Japan"
 	rom ( name "Zoku Bokura no Taiyou - Taiyou Shounen Django Rev 0 (2004)(Konami)(JP)(en-ja)[tr zh][a].bin" size 16777216 crc B8BA943A md5 FB6D0EAB0792545543B395B3652945E9 sha1 C6C6B61B64140B6B79106F80675A0AB4E5CE2508 )
