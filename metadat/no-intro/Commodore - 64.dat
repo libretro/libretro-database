@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Commodore - 64"
 	description "Commodore - 64"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin|crt|d64|g64|nib|prg|tap"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -56,7 +57,7 @@ game (
 	rom ( name "10th Frame (Europe).tap" size 559117 crc 8A0A50AC md5 364A4FEF382FFAF1567BCB7EF0D03408 sha1 10B594E468EE7B4542C2972E149CF09995ABD910 )
 )
 game (
-	name "10th Frame (USA) (Alt)"
+	name "10th Frame (USA)"
 	region "USA"
 	rom ( name "10th Frame (USA) (Alt).nib" size 336128 crc 395C5CF9 md5 72CA5233A4EFC25FB3AE24B23E674FA9 sha1 4F3DC261CDE3A39884085287061308F0E13140D4 )
 )
@@ -179,7 +180,7 @@ game (
 	rom ( name "4th & Inches (USA, Europe).nib" size 336128 crc 010B1D2E md5 64C9B067BE475280E4F038592E059BCD sha1 89738BB78BCB26A60145848F525CEADAE777F619 )
 )
 game (
-	name "4th & Inches (USA, Europe) (Alt)"
+	name "4th & Inches (USA, Europe)"
 	region "USA"
 	rom ( name "4th & Inches (USA, Europe) (Alt).nib" size 336128 crc 3ABD13C8 md5 F999955C9EE8F472EB49265C781A0A15 sha1 988C49CBC22CD9B22C7B8736947A33C21679E4AA )
 )
@@ -354,7 +355,7 @@ game (
 	rom ( name "Addictaball (USA, Europe).nib" size 336128 crc 18D3B1E5 md5 01890745AA2CE98531F0497ACB7B0E73 sha1 30C673DE1486E0940099809C9D7B5075FD6F5C82 )
 )
 game (
-	name "Addictaball (USA, Europe) (Alt)"
+	name "Addictaball (USA, Europe)"
 	region "USA"
 	rom ( name "Addictaball (USA, Europe) (Alt).nib" size 336128 crc E4B977E9 md5 93540242BE7958B3C7893ED55BBDE94D sha1 ADC3C40642DF9A4614F4D9E47D2329D885FE5A00 )
 )
@@ -369,7 +370,7 @@ game (
 	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Dragons of Flame (Europe) (Side 2).nib" size 336128 crc 687D116E md5 348CC4887D09AC1BAA8FF8041E20BEE0 sha1 2B7752F7F2F06587B97128BB9BCA6A4B81E1EA70 )
 )
 game (
-	name "Advanced Dungeons & Dragons - Dragon Lance - Dragons of Flame (Europe) (Alt)"
+	name "Advanced Dungeons & Dragons - Dragon Lance - Dragons of Flame (Europe)"
 	region "Europe"
 	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Dragons of Flame (Europe) (Alt) (Side 2).nib" size 336128 crc 9E44418F md5 777B6AB277E46EAD54D3BFB4676B04FC sha1 B750E2BB981A9274DD326BE6F65770341C29A3B2 )
 )
@@ -381,12 +382,12 @@ game (
 game (
 	name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe)"
 	region "Europe"
-	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe) (Side 2).tap" size 522280 crc 2530F2E0 md5 A6097D0F5D9D1F005CBE708524D479B3 sha1 DD5285D03C17E0C3A9BF44FF38E9394D89E407BF )
+	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe) (Alt) (Side 2).nib" size 336128 crc 1D6AA695 md5 DCB42101E0BF49CFBF0E48E7EA099332 sha1 94A35E2A280BA1B76DA9FAF4BA20DAA681794867 )
 )
 game (
-	name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe) (Alt)"
+	name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe)"
 	region "Europe"
-	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe) (Alt) (Side 2).nib" size 336128 crc 1D6AA695 md5 DCB42101E0BF49CFBF0E48E7EA099332 sha1 94A35E2A280BA1B76DA9FAF4BA20DAA681794867 )
+	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (Europe) (Side 2).tap" size 522280 crc 2530F2E0 md5 A6097D0F5D9D1F005CBE708524D479B3 sha1 DD5285D03C17E0C3A9BF44FF38E9394D89E407BF )
 )
 game (
 	name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (USA)"
@@ -394,7 +395,7 @@ game (
 	rom ( name "Advanced Dungeons & Dragons - Dragon Lance - Heroes of the Lance (USA) (Side 2).nib" size 336128 crc AC513D36 md5 A0BEEE760727227E547F0BA4B922F23C sha1 231546CD0FD17717728A32D2CF1B956BA5102F99 )
 )
 game (
-	name "Advanced Dungeons & Dragons - Dragon Lance Vol. I - Champions of Krynn (USA, Europe) (Alt)"
+	name "Advanced Dungeons & Dragons - Dragon Lance Vol. I - Champions of Krynn (USA, Europe)"
 	region "USA"
 	rom ( name "Advanced Dungeons & Dragons - Dragon Lance Vol. I - Champions of Krynn (USA, Europe) (Alt) (Side 6).nib" size 336128 crc 108735A5 md5 47F8E13F6761539E78B3B412AA195948 sha1 4D2829A29F35C0B6CADE863A595322984BA36338 )
 )
@@ -449,7 +450,7 @@ game (
 	rom ( name "Adventure 3 - The Fourth Sarcophagus (USA, Europe).crt" size 16464 crc 961E38FC md5 2BA6B9B853E5E00025A3EBA503582C91 sha1 04EEA5908FBE9F8ADA38B3BDB6557073370D8384 )
 )
 game (
-	name "Adventure Construction Set (USA, Europe) (Alt)"
+	name "Adventure Construction Set (USA, Europe)"
 	region "USA"
 	rom ( name "Adventure Construction Set (USA, Europe) (Alt) (Side 2).nib" size 327936 crc 9F61D944 md5 43F359BCB7F91C54AB8A78A6E3DBEB7D sha1 756AE89BE5C0A53F57A25EC9DD3BADEE5EC87EB5 )
 )
@@ -479,7 +480,7 @@ game (
 	rom ( name "After Burner (Europe).nib" size 336128 crc 1B3EF261 md5 D01060E42541DE5B946B42E10E2DECA6 sha1 C682D0DF7954326F975F2D7D4FFBA953727197B7 )
 )
 game (
-	name "After Burner (Europe) (Alt)"
+	name "After Burner (Europe)"
 	region "Europe"
 	rom ( name "After Burner (Europe) (Alt).nib" size 336128 crc 47F7F3CD md5 6289421CBCC365640F976C2E692F4D65 sha1 6207A4C1460D739E1D385F20697D4BC0B65A3659 )
 )
@@ -534,17 +535,17 @@ game (
 	rom ( name "Airborne Ranger (USA, Europe) (Side 2).nib" size 327936 crc 6BA9A5F3 md5 10FED2D367607EF90CE9DD200DB5B002 sha1 0BE4DCF2D5521CBB31A83052CCB7FAA393F9F2AB )
 )
 game (
-	name "Airborne Ranger (USA, Europe) (Alt 2)"
+	name "Airborne Ranger (USA, Europe)"
 	region "USA"
 	rom ( name "Airborne Ranger (USA, Europe) (Alt 2) (Side 2).nib" size 336128 crc 9AD6B7BA md5 59F3BC0E09577A007B008A61BC27DEF6 sha1 D8FE3EB3FC69D0F44155E3C680346903AE97EE80 )
 )
 game (
-	name "Airborne Ranger (USA, Europe) (Alt 3)"
+	name "Airborne Ranger (USA, Europe)"
 	region "USA"
 	rom ( name "Airborne Ranger (USA, Europe) (Alt 3) (Side 2).nib" size 336128 crc B8E8A263 md5 1379A9DA790BF67C9E916FBF8647A442 sha1 6BEDC0873C8E21E161ED4CA83083017120E18180 )
 )
 game (
-	name "Airborne Ranger (USA, Europe) (Alt)"
+	name "Airborne Ranger (USA, Europe)"
 	region "USA"
 	rom ( name "Airborne Ranger (USA, Europe) (Alt) (Side 2).nib" size 327936 crc 75ECBD7B md5 91C8D2AB6D1B8671510A6FF8BEB12B58 sha1 7A1621FC956A9FBDD94A00BDE52080F8D023A63B )
 )
@@ -621,12 +622,12 @@ game (
 game (
 	name "Alien Syndrome (USA)"
 	region "USA"
-	rom ( name "Alien Syndrome (USA) (Side 2).nib" size 336128 crc 31E80F90 md5 62E8FAD8150282CEEEA82F948C1ED5E6 sha1 87AE306E77CBF2F986B8648078F1F5E910A56A01 )
+	rom ( name "Alien Syndrome (USA) (Alt) (Side 2).nib" size 336128 crc 22998771 md5 2ED89AD483423E8C1FE7A0C1A52DCB23 sha1 A858A4DF57CF6895103B00A8354F3B6AE66D8EA1 )
 )
 game (
-	name "Alien Syndrome (USA) (Alt)"
+	name "Alien Syndrome (USA)"
 	region "USA"
-	rom ( name "Alien Syndrome (USA) (Alt) (Side 2).nib" size 336128 crc 22998771 md5 2ED89AD483423E8C1FE7A0C1A52DCB23 sha1 A858A4DF57CF6895103B00A8354F3B6AE66D8EA1 )
+	rom ( name "Alien Syndrome (USA) (Side 2).nib" size 336128 crc 31E80F90 md5 62E8FAD8150282CEEEA82F948C1ED5E6 sha1 87AE306E77CBF2F986B8648078F1F5E910A56A01 )
 )
 game (
 	name "Alien World (Europe)"
@@ -659,7 +660,7 @@ game (
 	rom ( name "All Star Hits (USA, Europe) (Compilation) (Side 3).nib" size 336128 crc 418752E9 md5 1F258A6FF237E1C2F5EA908713A3E485 sha1 C140A9D3EB941C43DFEA5E26700F1AF8F8184183 )
 )
 game (
-	name "All Star Hits (USA, Europe) (Compilation) (Alt)"
+	name "All Star Hits (USA, Europe) (Compilation)"
 	region "USA"
 	rom ( name "All Star Hits (USA, Europe) (Compilation) (Alt) (Side 3).nib" size 336128 crc 5C9E209A md5 E3F573F9B13278EC95C06367CBE405E8 sha1 93C066B2820C85F49CC0AB0C1B3D0F95384710D5 )
 )
@@ -739,7 +740,7 @@ game (
 	rom ( name "Amazon (USA, Europe) (Side 4).nib" size 336128 crc 5FB55889 md5 E310524FA29CD24FE66BA60261C85945 sha1 7309E2E456881B982AF6268875E62F10B49DF9A9 )
 )
 game (
-	name "Amazon (USA, Europe) (Alt)"
+	name "Amazon (USA, Europe)"
 	region "USA"
 	rom ( name "Amazon (USA, Europe) (Alt) (Side 4).nib" size 336128 crc AC74BC6D md5 FD1A2A1EB55A0DD1ADD4B0DB32F53C32 sha1 B9541B8D4B171BFDF77CB77774B82AF0A9787A71 )
 )
@@ -794,7 +795,7 @@ game (
 	rom ( name "Ant Attack (USA, Europe) (Budget).nib" size 336128 crc 47A233AE md5 EA389DA201E87B1A61F4043E263BB0A1 sha1 ECA13CC5C865442975CD78724BCCFC995308666D )
 )
 game (
-	name "Ant Attack (USA, Europe) (Budget) (Alt)"
+	name "Ant Attack (USA, Europe) (Budget)"
 	region "USA"
 	rom ( name "Ant Attack (USA, Europe) (Budget) (Alt).nib" size 327936 crc A399D534 md5 BA920049FE18D9B3CEF6678BA2A88FB4 sha1 E4F0A4E927BD4B77A45902ABAF534195E8BCFFF3 )
 )
@@ -934,7 +935,7 @@ game (
 	rom ( name "Arkanoid (USA, Europe).nib" size 336128 crc 80B4D464 md5 6C567957904753B8876C21BFD1759B58 sha1 3D2F1352EC523016F6C36D7C2898FB3755A4E5A0 )
 )
 game (
-	name "Arkanoid (USA, Europe) (Alt)"
+	name "Arkanoid (USA, Europe)"
 	region "USA"
 	rom ( name "Arkanoid (USA, Europe) (Alt).nib" size 336128 crc CFB56DF1 md5 717FE80B84EC2258C40936D490B27684 sha1 9B8BE41952E2E6AB0D9B151721B3F2D1128E4B34 )
 )
@@ -949,7 +950,7 @@ game (
 	rom ( name "Arkanoid - Revenge of Doh (USA, Europe).nib" size 336128 crc 61B33BC4 md5 CFECFD97D0B5EEC0DF9D7F494E3E611D sha1 3255409E98279DF7DBE29447501EAEA6B944B3A7 )
 )
 game (
-	name "Arkanoid - Revenge of Doh (USA, Europe) (Alt)"
+	name "Arkanoid - Revenge of Doh (USA, Europe)"
 	region "USA"
 	rom ( name "Arkanoid - Revenge of Doh (USA, Europe) (Alt).nib" size 336128 crc EE562D0B md5 30E86629E1F0809E57B7F62C4DF058D6 sha1 5ED4146F12619A49D28F1CBCC59503629B16FF34 )
 )
@@ -1439,7 +1440,7 @@ game (
 	rom ( name "Bard's Tale II, The - The Destiny Knight (USA, Europe) (Side 4).nib" size 336128 crc 27B4042C md5 7E7FA30DFFF311D54A14128BD837ECD6 sha1 72AE87EF6A99218B6CA7AB23A536BC48B7ADFED4 )
 )
 game (
-	name "Bard's Tale III, The - Thief of Fate (USA, Europe) (Alt)"
+	name "Bard's Tale III, The - Thief of Fate (USA, Europe)"
 	region "USA"
 	rom ( name "Bard's Tale III, The - Thief of Fate (USA, Europe) (Alt) (Side 4).nib" size 336128 crc 3B194718 md5 A3E7D22469B5F91109C556517FB2B650 sha1 5B68CBF26D357EBBFB4EBF0401C2E78F6C808F5B )
 )
@@ -1659,7 +1660,7 @@ game (
 	rom ( name "Beach-Head II (Europe).tap" size 945354 crc F763A4A4 md5 A9818498387FB6068897277DD8CCC0B2 sha1 3DFFA016C7AE1F7F5495675EE8D8E82219664513 )
 )
 game (
-	name "Beach-Head II (Europe) (Alt)"
+	name "Beach-Head II (Europe)"
 	region "Europe"
 	rom ( name "Beach-Head II (Europe) (Alt).tap" size 484338 crc 30D4A8A2 md5 B636CB2599A68FC9A78C63D429E4ADBA sha1 2B8F81C1719BB3F72F2B64F4ED17F89EEEE555C3 )
 )
@@ -1811,12 +1812,12 @@ game (
 game (
 	name "Bionic Commando (Europe)"
 	region "Europe"
-	rom ( name "Bionic Commando (Europe).tap" size 1015126 crc 19A75194 md5 338D57CC6E26E6E7CFEA299BBA9D2E2B sha1 FE3685326D188B070F6F26C36793CEB956BAFBA5 )
+	rom ( name "Bionic Commando (Europe) (Alt).nib" size 336128 crc 0967703F md5 6FDDA5862D2134CD7FDDE1F4C998E7A9 sha1 24E3C87ECE0FEB57F913C6711346862A215B07E6 )
 )
 game (
-	name "Bionic Commando (Europe) (Alt)"
+	name "Bionic Commando (Europe)"
 	region "Europe"
-	rom ( name "Bionic Commando (Europe) (Alt).nib" size 336128 crc 0967703F md5 6FDDA5862D2134CD7FDDE1F4C998E7A9 sha1 24E3C87ECE0FEB57F913C6711346862A215B07E6 )
+	rom ( name "Bionic Commando (Europe).tap" size 1015126 crc 19A75194 md5 338D57CC6E26E6E7CFEA299BBA9D2E2B sha1 FE3685326D188B070F6F26C36793CEB956BAFBA5 )
 )
 game (
 	name "Bionic Commando (USA)"
@@ -1899,7 +1900,7 @@ game (
 	rom ( name "Blasteroids (USA, Europe).nib" size 336128 crc 72FFDACE md5 C6BF926CE4CD11F6B415A8DFB4AFBD4C sha1 638D50078A318BCAB12528567166B44D41D84AF9 )
 )
 game (
-	name "Blasteroids (USA, Europe) (Alt)"
+	name "Blasteroids (USA, Europe)"
 	region "USA"
 	rom ( name "Blasteroids (USA, Europe) (Alt).nib" size 336128 crc 594BDCEE md5 820B76EBA6134A727D7DC050C7CF43B3 sha1 D9B21D6D9827B12A3CD727C29D00E4E8F7510C57 )
 )
@@ -1929,7 +1930,7 @@ game (
 	rom ( name "Blockout (USA, Europe).nib" size 327936 crc 8D0C212B md5 89A16AFE3EF60A76E4C379A9EF507CD3 sha1 4AF99CE5A6113C8AA29DB926F839A04069CC454B )
 )
 game (
-	name "Blockout (USA, Europe) (Alt)"
+	name "Blockout (USA, Europe)"
 	region "USA"
 	rom ( name "Blockout (USA, Europe) (Alt).nib" size 336128 crc 2C1537B5 md5 45FC4D3688EBDA316E5915B60B8D7AA9 sha1 53EBC391BAC67E9A600E5A9A9D777FEF2240C08F )
 )
@@ -1954,7 +1955,7 @@ game (
 	rom ( name "Bloodwych (USA, Europe).nib" size 336128 crc 53DC263E md5 7DD1A8346B753F4C7DB4A7914D212231 sha1 5B6F0F7CC6B76BE2E84973F414AFE1531BB7FADF )
 )
 game (
-	name "Bloodwych (USA, Europe) (Alt)"
+	name "Bloodwych (USA, Europe)"
 	region "USA"
 	rom ( name "Bloodwych (USA, Europe) (Alt).nib" size 336128 crc 8B4E5405 md5 FB8225D78C1118596331B2766479BA11 sha1 44079BF4903A7295529034BC19C6609E2D8597F5 )
 )
@@ -2244,7 +2245,7 @@ game (
 	rom ( name "Bruce Lee (USA, Europe).nib" size 327936 crc 8CF355F6 md5 BF8F0315EE95312C9643A74164ABBEF7 sha1 07239BFBD458DB61EC97A2246A309F7730E4E570 )
 )
 game (
-	name "Bruce Lee (USA, Europe) (Alt)"
+	name "Bruce Lee (USA, Europe)"
 	region "USA"
 	rom ( name "Bruce Lee (USA, Europe) (Alt).nib" size 327936 crc 3881E544 md5 3A47A8D36D4F022850E6C6F002A87528 sha1 57CE0AEFC9729D352C20E0E0887B31543F9F2433 )
 )
@@ -2459,7 +2460,7 @@ game (
 	rom ( name "Captain Blood (Europe) (En,Fr,De).nib" size 336128 crc 8716F38F md5 5D05F92DCC940F4A5F7F9E657613EC93 sha1 667D5203C69418209BAE5FF111EC383045B38FFD )
 )
 game (
-	name "Captain Blood (Europe) (En,Fr,De) (Alt)"
+	name "Captain Blood (Europe) (En,Fr,De)"
 	region "Europe"
 	rom ( name "Captain Blood (Europe) (En,Fr,De) (Alt).nib" size 336128 crc C9DDAD50 md5 85ED352E3DE1726557986AD450599330 sha1 57C3E84273402DE145209D953514498823AD541D )
 )
@@ -2539,7 +2540,7 @@ game (
 	rom ( name "Castle Wolfenstein (USA, Europe) (v1).nib" size 336128 crc F84AE0FD md5 376D5C03C1E21521599B226EF74AAA69 sha1 82D830371C5101F547DA4EDCAA28730E22D44D76 )
 )
 game (
-	name "Castle Wolfenstein (USA, Europe) (v1) (Alt)"
+	name "Castle Wolfenstein (USA, Europe) (v1)"
 	region "USA"
 	rom ( name "Castle Wolfenstein (USA, Europe) (v1) (Alt).nib" size 336128 crc 2E034068 md5 D1149DCF7660A7D4F3B225E4659F39BE sha1 FB2901B5929A9E12422B913CA5063E8BF84B8216 )
 )
@@ -2549,12 +2550,12 @@ game (
 	rom ( name "Castle Wolfenstein (USA, Europe) (v4).nib" size 327936 crc 0953B262 md5 4942F871B9B00C3ABD3D4A5BB56EE887 sha1 54CB65B797808584E3CE8BBE5553AA000219C7D9 )
 )
 game (
-	name "Castle Wolfenstein (USA, Europe) (v4) (Alt 2)"
+	name "Castle Wolfenstein (USA, Europe) (v4)"
 	region "USA"
 	rom ( name "Castle Wolfenstein (USA, Europe) (v4) (Alt 2).nib" size 336128 crc CF44E4AA md5 20AAFC6A4604DD62572A15D1865993CD sha1 FBCACE67C1863B132C5A4D3484DCC8CE2B769EBB )
 )
 game (
-	name "Castle Wolfenstein (USA, Europe) (v4) (Alt)"
+	name "Castle Wolfenstein (USA, Europe) (v4)"
 	region "USA"
 	rom ( name "Castle Wolfenstein (USA, Europe) (v4) (Alt).nib" size 327936 crc FFC91952 md5 60AD70A5C27E69F2A21959706BFA1329 sha1 C05B3E9A65E7CB65A961FEAA0A84EB3A7C531707 )
 )
@@ -2564,7 +2565,7 @@ game (
 	rom ( name "Castles of Doctor Creep, The (USA, Europe).nib" size 327936 crc DB863009 md5 3FBF8F1F080F863C818A12CDBD8A0422 sha1 9CC172C9EE8B322E1F2B464153F028C576ECB91F )
 )
 game (
-	name "Castles of Doctor Creep, The (USA, Europe) (Alt)"
+	name "Castles of Doctor Creep, The (USA, Europe)"
 	region "USA"
 	rom ( name "Castles of Doctor Creep, The (USA, Europe) (Alt).nib" size 336128 crc 9DDC966C md5 C524307DE0135AA5319515472D81B145 sha1 BA0B3E4DADD4279AB903762E9AD3BA8D3C55D858 )
 )
@@ -3148,7 +3149,7 @@ game (
 	rom ( name "Cool Croc Twins (Europe).nib" size 327936 crc 9D5CD9E4 md5 F68BEAF11D3DA602AF2A9D3B5083C767 sha1 961478727AE828AD79D2F6AD5AB7C7B9B1BC6204 )
 )
 game (
-	name "Cool Croc Twins (Europe) (Alt)"
+	name "Cool Croc Twins (Europe)"
 	region "Europe"
 	rom ( name "Cool Croc Twins (Europe) (Alt).nib" size 336128 crc 408624EA md5 802F23F16150DBBEA66CB80C9CC7BB09 sha1 E4972363D04F4C356832117B18BB1F997769329E )
 )
@@ -3236,10 +3237,6 @@ game (
 	name "Countdown (Europe)"
 	region "Europe"
 	rom ( name "Countdown (Europe).tap" size 481810 crc 413D5589 md5 FAD7ED64151F3367C38D892DF642966C sha1 CB3B462E207E3E586ED76742449ED20128825181 )
-)
-game (
-	name "Counterweight Kate (World)"
-	rom ( name "Counterweight Kate (World) (Aftermarket) (Unl).cjm" size 74 crc 5FABFD96 md5 3D81FE3E690EF7481290DB332CFFA6AC sha1 B9616C42D98C1AEE306A12122C07AFD5127C4D9B )
 )
 game (
 	name "Cowboy Kidz (Europe)"
@@ -3432,7 +3429,7 @@ game (
 	rom ( name "Cyborg (USA, Europe).nib" size 336128 crc 32627AC3 md5 10F279B659611D061F649125E1F766D2 sha1 9B0CB304754F20F359510D1EC47A7CD2DAE4BFB7 )
 )
 game (
-	name "Cyborg (USA, Europe) (Alt)"
+	name "Cyborg (USA, Europe)"
 	region "USA"
 	rom ( name "Cyborg (USA, Europe) (Alt).nib" size 336128 crc 28C90C3E md5 D577809597C8911B2305DB18DB2E40F3 sha1 52288B9128BDDD79406900694CB83A628788BB45 )
 )
@@ -3567,7 +3564,7 @@ game (
 	rom ( name "Dark Castle (USA) (Side 2).nib" size 336128 crc B7C0BF2B md5 03893F71CB197F8875580FF90FDC65F3 sha1 1AD9EE4C81E2EE0F0B11E93081DC8DFB9EB3563B )
 )
 game (
-	name "Dark Castle (USA) (Alt)"
+	name "Dark Castle (USA)"
 	region "USA"
 	rom ( name "Dark Castle (USA) (Alt) (Side 2).nib" size 336128 crc F69F997F md5 9F882593477FC42089290B958F5B630B sha1 E902842D9DEB104C02A3DB1F930849345691B9CA )
 )
@@ -3622,12 +3619,12 @@ game (
 	rom ( name "David's Midnight Magic (USA, Europe).nib" size 336128 crc 7F76A531 md5 AAB3C11A5C8B06A1AC4A9559719C0ECA sha1 12091622150A9F38C16F193563DB39138B0B1392 )
 )
 game (
-	name "David's Midnight Magic (USA, Europe) (Alt 2)"
+	name "David's Midnight Magic (USA, Europe)"
 	region "USA"
 	rom ( name "David's Midnight Magic (USA, Europe) (Alt 2).nib" size 336128 crc 9AFBEDB6 md5 BA1C5F5E7B9BE1EAF442DA77FFCA1C51 sha1 095A705C1226115C870271E4AAE1B259FBF92DE1 )
 )
 game (
-	name "David's Midnight Magic (USA, Europe) (Alt)"
+	name "David's Midnight Magic (USA, Europe)"
 	region "USA"
 	rom ( name "David's Midnight Magic (USA, Europe) (Alt).nib" size 336128 crc 964EA882 md5 D33E1A66DA0C5F2F31B57A2749D10F83 sha1 437D3B77789ECBD494F4266453A05236C9F34B24 )
 )
@@ -3717,7 +3714,7 @@ game (
 	rom ( name "Deceptor (USA).nib" size 327936 crc A135A315 md5 08B2AB02DCDDAECD33C5503B2BE095FE sha1 DD4CCC3BBE597811113FF618CBBE4A7555E6CEC0 )
 )
 game (
-	name "Deceptor (USA) (Alt)"
+	name "Deceptor (USA)"
 	region "USA"
 	rom ( name "Deceptor (USA) (Alt).nib" size 336128 crc 0453364F md5 ECB13342F979F2B85680B9268964E980 sha1 C9B1DFFC6E903FBC85A48501B11E1D8E0BDB8148 )
 )
@@ -4091,7 +4088,7 @@ game (
 	rom ( name "Dot Gobbler (USA, Europe).crt" size 8272 crc D3007491 md5 A6E570659C2F41E99FBD1FFA6342E72F sha1 B5FCB02678E3C0C65BEBB27C31900DF0B6C024DA )
 )
 game (
-	name "Dot Gobbler (USA, Europe) (Alt)"
+	name "Dot Gobbler (USA, Europe)"
 	region "USA"
 	rom ( name "Dot Gobbler (USA, Europe) (Alt).crt" size 8272 crc 99072C64 md5 D3EE06AADFE79FB963FE76A4A3123F54 sha1 484738DF7A6DD66BA2878489A94C53523855D120 )
 )
@@ -4351,7 +4348,7 @@ game (
 	rom ( name "Echelon (USA) (Side 2).nib" size 327936 crc D0502A6F md5 33F4AC7FDAC748A7194F150CE3DA41FA sha1 BBAAB53095E6284D012B35008E6FE003417F79AA )
 )
 game (
-	name "Echelon (USA) (Alt)"
+	name "Echelon (USA)"
 	region "USA"
 	rom ( name "Echelon (USA) (Alt) (Side 2).nib" size 336128 crc 3EEC7D79 md5 F67F0E027A6698FB0F522626D91555C0 sha1 BB79BA4F3D615BC65E30DBCD62E602F5E45975AC )
 )
@@ -4381,7 +4378,7 @@ game (
 	rom ( name "Eidolon, The (USA, Europe).nib" size 327936 crc EFDE959F md5 4AD13B3ABA848BE32037BBF2AD2B1097 sha1 6FB3A0A3C9E1B8E675E2CA9DF08BC784E27C5A2C )
 )
 game (
-	name "Eidolon, The (USA, Europe) (Alt)"
+	name "Eidolon, The (USA, Europe)"
 	region "USA"
 	rom ( name "Eidolon, The (USA, Europe) (Alt).nib" size 327936 crc 8828075F md5 48EAEABDA5A416761F405CBA5BD68DE4 sha1 E39AC587C0A9C344FC98FCDE6A3B61D45FEDAA30 )
 )
@@ -4433,12 +4430,12 @@ game (
 game (
 	name "Elite (Europe)"
 	region "Europe"
-	rom ( name "Elite (Europe).tap" size 808809 crc 802389B7 md5 9B185180905C69E304BE84D0983AD88B sha1 85850EB06E126B44D72D820B9B98AFC473375DD0 )
+	rom ( name "Elite (Europe) (Alt).nib" size 336128 crc 9A6E078D md5 F161D787884A99588E88920DDBD06D60 sha1 C5D459E52B7BDB378827219EE18D93FCC3C533EC )
 )
 game (
-	name "Elite (Europe) (Alt)"
+	name "Elite (Europe)"
 	region "Europe"
-	rom ( name "Elite (Europe) (Alt).nib" size 336128 crc 9A6E078D md5 F161D787884A99588E88920DDBD06D60 sha1 C5D459E52B7BDB378827219EE18D93FCC3C533EC )
+	rom ( name "Elite (Europe).tap" size 808809 crc 802389B7 md5 9B185180905C69E304BE84D0983AD88B sha1 85850EB06E126B44D72D820B9B98AFC473375DD0 )
 )
 game (
 	name "Elite (Germany)"
@@ -4541,7 +4538,7 @@ game (
 	rom ( name "Entertainer, The (USA, Europe) (Compilation).nib" size 336128 crc 8633FC01 md5 790ED71AE124E49B89433C113294C45E sha1 EFB3499B1AC47C8024B747070FB88408471320F0 )
 )
 game (
-	name "Entertainer, The (USA, Europe) (Compilation) (Alt)"
+	name "Entertainer, The (USA, Europe) (Compilation)"
 	region "USA"
 	rom ( name "Entertainer, The (USA, Europe) (Compilation) (Alt).nib" size 336128 crc F95EDDFA md5 FE770F87C973883DE2801778B55DD725 sha1 46A1B4786B2DCB067F94AE699274197D7479A358 )
 )
@@ -4666,12 +4663,12 @@ game (
 	rom ( name "Expeditions (USA, Europe).nib" size 327936 crc B1E4D36A md5 4CBD1C8EDE1CFAAB1A0B7B12B74E0C5D sha1 0BE84C2BD5D52C13A012D85C8563395398E5684F )
 )
 game (
-	name "Expeditions (USA, Europe) (Alt 2)"
+	name "Expeditions (USA, Europe)"
 	region "USA"
 	rom ( name "Expeditions (USA, Europe) (Alt 2).nib" size 336128 crc D5599C3B md5 E789C6196DD39F41D5A4F55339A1FEF6 sha1 04B42150F48C038D78CCA88243AAD01DC28D445A )
 )
 game (
-	name "Expeditions (USA, Europe) (Alt)"
+	name "Expeditions (USA, Europe)"
 	region "USA"
 	rom ( name "Expeditions (USA, Europe) (Alt).nib" size 336128 crc 28B25BF4 md5 C8478B7365ABEBF81DAF94B30C75F098 sha1 12E3383DB395879026C3A1EC6F6C37D36EBD2CAF )
 )
@@ -4751,7 +4748,7 @@ game (
 	rom ( name "F-15 Strike Eagle - Air Combat in the Jet Age (USA, Europe).nib" size 336128 crc AB8AF24E md5 5DFF1DB6C13B388BB6349953E12CA922 sha1 42EDA843C0917463B14919C1EE5D0A1D518CC787 )
 )
 game (
-	name "F-15 Strike Eagle - Air Combat in the Jet Age (USA, Europe) (Alt)"
+	name "F-15 Strike Eagle - Air Combat in the Jet Age (USA, Europe)"
 	region "USA"
 	rom ( name "F-15 Strike Eagle - Air Combat in the Jet Age (USA, Europe) (Alt).nib" size 336128 crc 9C047B75 md5 23586A678C4A3D56352C3EBDF1608BA0 sha1 0962DADE6CFC2CC34286B66D3BDB0F5BB9FE5E5F )
 )
@@ -4776,14 +4773,14 @@ game (
 	rom ( name "F40 Pursuit (USA).nib" size 336128 crc 7F9F221D md5 B0638EEAC42344F530D422DB14AFE012 sha1 7878194D4CE775DBE6AECD344AD30FC1370DBC1C )
 )
 game (
-	name "FA Cup Football (Europe) (ROM)"
-	region "Europe"
-	rom ( name "FA Cup Football (Europe) (ROM).tap" size 1624746 crc 7E447782 md5 96482190DF9176C64D0423EDA9BAA374 sha1 B6E6E58D448EE2055BEB12976C923763A79BB321 )
-)
-game (
 	name "FA Cup Football (Europe)"
 	region "Europe"
 	rom ( name "FA Cup Football (Europe) (Virgin).tap" size 347966 crc 0775D127 md5 37B4F5CF2B5A2BBC6135B2C849E40F37 sha1 61771E2498E067B1846F191309EEAA1714050500 )
+)
+game (
+	name "FA Cup Football (Europe) (ROM)"
+	region "Europe"
+	rom ( name "FA Cup Football (Europe) (ROM).tap" size 1624746 crc 7E447782 md5 96482190DF9176C64D0423EDA9BAA374 sha1 B6E6E58D448EE2055BEB12976C923763A79BB321 )
 )
 game (
 	name "Facemaker (USA, Europe)"
@@ -4943,12 +4940,12 @@ game (
 game (
 	name "Fighter Bomber (Europe)"
 	region "Europe"
-	rom ( name "Fighter Bomber (Europe) (Side 2).tap" size 1506668 crc D824DEA2 md5 DDA23CC808417122C4DB5D6B8CA339D5 sha1 8B54E70491A9CD9242076926D5F0092B3817331A )
+	rom ( name "Fighter Bomber (Europe) (Alt) (Side 2).nib" size 336128 crc 815D9957 md5 35EFC5681A91BE2ED7BE2F1F64244C06 sha1 5BDEF823ADDA8869AC2664897CBA16E3F45B3A16 )
 )
 game (
-	name "Fighter Bomber (Europe) (Alt)"
+	name "Fighter Bomber (Europe)"
 	region "Europe"
-	rom ( name "Fighter Bomber (Europe) (Alt) (Side 2).nib" size 336128 crc 815D9957 md5 35EFC5681A91BE2ED7BE2F1F64244C06 sha1 5BDEF823ADDA8869AC2664897CBA16E3F45B3A16 )
+	rom ( name "Fighter Bomber (Europe) (Side 2).tap" size 1506668 crc D824DEA2 md5 DDA23CC808417122C4DB5D6B8CA339D5 sha1 8B54E70491A9CD9242076926D5F0092B3817331A )
 )
 game (
 	name "Fighter Bomber (Europe) (Compilation Power Hits)"
@@ -4991,7 +4988,7 @@ game (
 	rom ( name "Final Assault (USA).nib" size 327936 crc B5840E92 md5 3FE0EC320CDE71D97410124D9A3DAED2 sha1 1F38A9DBC4365C45A673F3676888E3FEA048A15C )
 )
 game (
-	name "Final Assault (USA) (Alt)"
+	name "Final Assault (USA)"
 	region "USA"
 	rom ( name "Final Assault (USA) (Alt).nib" size 336128 crc AA9FCB9C md5 6D2385BA418A47107D7F2D4EE10A0569 sha1 FDDBEEB480FC0BA281432A6458F458573978F05D )
 )
@@ -5150,17 +5147,17 @@ game (
 	rom ( name "Flight Simulator II - Scenery Disk 3 (USA, Europe) (Addon).nib" size 336128 crc 5CD603E3 md5 94EE33E83F9A2C98C28517A4C679A73F sha1 3DE265D0D9B1CE380A44E057C201465E907A10D7 )
 )
 game (
-	name "Flimbo's Quest (USA) (Alt 2)"
-	region "USA"
-	rom ( name "Flimbo's Quest (USA) (Alt 2) (Side 2).nib" size 336128 crc F7EC0B82 md5 02A028549051EBBED413565CF8DBDE6C sha1 87C775B532ADE1D44E27AC096B198C17EE1692E8 )
-)
-game (
-	name "Flimbo's Quest (USA) (Alt 3)"
+	name "Flimbo's Quest (USA)"
 	region "USA"
 	rom ( name "Flimbo's Quest (USA) (Alt 3) (Side 2).nib" size 336128 crc 37949A24 md5 75705C0E6E71FC6F2E64A5CEDBDCECF3 sha1 CE0D35E7C374DDBFA7486B8F1B186B420B729482 )
 )
 game (
-	name "Flimbo's Quest (USA) (Alt)"
+	name "Flimbo's Quest (USA)"
+	region "USA"
+	rom ( name "Flimbo's Quest (USA) (Alt 2) (Side 2).nib" size 336128 crc F7EC0B82 md5 02A028549051EBBED413565CF8DBDE6C sha1 87C775B532ADE1D44E27AC096B198C17EE1692E8 )
+)
+game (
+	name "Flimbo's Quest (USA)"
 	region "USA"
 	rom ( name "Flimbo's Quest (USA) (Alt) (Side 2).nib" size 336128 crc C5826C4C md5 C4B6E109B6831F916259ABC4E8C4C318 sha1 D70CF9DB77DCE6E409B8272A95EE2CE24173D285 )
 )
@@ -5205,7 +5202,7 @@ game (
 	rom ( name "Football Manager (Europe).tap" size 1761944 crc A29913FF md5 82557560E292A476834BB60BD220EFD5 sha1 F148FB502BB9306B6BAD7395D72E8D61DC78E717 )
 )
 game (
-	name "Football Manager (Europe) (Alt)"
+	name "Football Manager (Europe)"
 	region "Europe"
 	rom ( name "Football Manager (Europe) (Alt).tap" size 341315 crc 157862EE md5 2FE1EE45D01D6672C517874A91376D3D sha1 6A023ED5639121545D8B9FE9B79228B0F009BE4F )
 )
@@ -5230,7 +5227,7 @@ game (
 	rom ( name "Football Manager 2 (USA, Europe).nib" size 336128 crc EDB2B259 md5 3A005AFAA081FBFD758DD0DB857B1802 sha1 4DEDD738387BB9EAB7146930D7B4270B4E9A38B2 )
 )
 game (
-	name "Football Manager 2 (USA, Europe) (Alt)"
+	name "Football Manager 2 (USA, Europe)"
 	region "USA"
 	rom ( name "Football Manager 2 (USA, Europe) (Alt).nib" size 336128 crc A7A9C018 md5 1E5DBBFB72803953469A8E9B199EDFB7 sha1 FBD8E8339BEEA40DF4989207A40EB5A241B08569 )
 )
@@ -5504,7 +5501,7 @@ game (
 	rom ( name "GBA Championship Basketball - Two-on-Two (USA, Europe).nib" size 336128 crc E233B384 md5 EDEDEE52C968C1BEE4A77A1663DCC8D5 sha1 958B2100E5F8CA8F3AC624775D27D20CED1FD1EF )
 )
 game (
-	name "GBA Championship Basketball - Two-on-Two (USA, Europe) (Alt)"
+	name "GBA Championship Basketball - Two-on-Two (USA, Europe)"
 	region "USA"
 	rom ( name "GBA Championship Basketball - Two-on-Two (USA, Europe) (Alt).nib" size 336128 crc 5011DCA0 md5 BA8C7A21739570C6A5A20A8637C907AD sha1 4FBAEBF18B7389DF6EC550A2FA490EC147F1D89B )
 )
@@ -5569,7 +5566,7 @@ game (
 	rom ( name "Galactic Games (USA, Europe) (Side 2).nib" size 336128 crc 7B140CA3 md5 5EFFF5F28AE82613B42CDDADC78B4EE0 sha1 B285136DC15CC685A1CA5E69D7962F99814660BE )
 )
 game (
-	name "Galactic Games (USA, Europe) (Alt)"
+	name "Galactic Games (USA, Europe)"
 	region "USA"
 	rom ( name "Galactic Games (USA, Europe) (Alt) (Side 2).nib" size 336128 crc 002A76B2 md5 CDD6B75BD6EDD936C25833BACC5BF205 sha1 3F73B1BF807BB8E030D8AE71D01EEFF552463075 )
 )
@@ -5716,7 +5713,7 @@ game (
 	rom ( name "Gameware 2 on 1 #4 (USA, Europe) (Compilation).nib" size 336128 crc 56B9D139 md5 2D43D73B9D6221AFE6FC0D0235456102 sha1 B818B0CF992812ABF51B20C3367CD23C3C82496B )
 )
 game (
-	name "Gameware 2 on 1 #4 (USA, Europe) (Compilation) (Alt)"
+	name "Gameware 2 on 1 #4 (USA, Europe) (Compilation)"
 	region "USA"
 	rom ( name "Gameware 2 on 1 #4 (USA, Europe) (Compilation) (Alt).nib" size 336128 crc 9C6839BF md5 9C8020312FE961047BF9165B0BABA5BD sha1 590E795364FE6E9D3336090A50F0A3F6D8B64E1B )
 )
@@ -5731,7 +5728,7 @@ game (
 	rom ( name "Gameware 2 on 1 #6 (USA, Europe) (Compilation).nib" size 336128 crc E3D38998 md5 406E7590B181A44CB0098044C03E766D sha1 F03CFFB281F13A183B7DCDD4BBC3D2982F096F38 )
 )
 game (
-	name "Gameware 2 on 1 #6 (USA, Europe) (Compilation) (Alt)"
+	name "Gameware 2 on 1 #6 (USA, Europe) (Compilation)"
 	region "USA"
 	rom ( name "Gameware 2 on 1 #6 (USA, Europe) (Compilation) (Alt).nib" size 336128 crc 7A808BE2 md5 09C9BFADA657C9CF76A17F68204E2A9D sha1 4C91C53B312BFC6C22EDF2346675F042D8901462 )
 )
@@ -5816,12 +5813,12 @@ game (
 	rom ( name "Gauntlet (USA).nib" size 336128 crc CB8D68AF md5 7015690995F7FCF2D867F76BD6FE6ED7 sha1 99DB69F0CF7242C8F2B9FF5E9C721F204A741810 )
 )
 game (
-	name "Gauntlet (USA) (Alt 2)"
+	name "Gauntlet (USA)"
 	region "USA"
 	rom ( name "Gauntlet (USA) (Alt 2).nib" size 336128 crc 72BF3784 md5 2DFD25EE52DC7019C43CD354800A3863 sha1 56C009CBD3878393BB2DF0FE66DDA22346FB7F5F )
 )
 game (
-	name "Gauntlet (USA) (Alt)"
+	name "Gauntlet (USA)"
 	region "USA"
 	rom ( name "Gauntlet (USA) (Alt).nib" size 327936 crc 2A8D76A2 md5 B602D6854974D9F32AAEFFA25E487245 sha1 561E890112C3EA4AF3CB91156C240D39D6D3E484 )
 )
@@ -5951,17 +5948,17 @@ game (
 	rom ( name "Ghostbusters (USA, Europe).nib" size 327936 crc 281C108C md5 C63209A12A6F4DA3802E70316E55ACFD sha1 1FC36095E743AF30F794554D22E02EE86DBD8F56 )
 )
 game (
-	name "Ghostbusters (USA, Europe) (Alt 2)"
+	name "Ghostbusters (USA, Europe)"
 	region "USA"
 	rom ( name "Ghostbusters (USA, Europe) (Alt 2).nib" size 336128 crc EB6A34D6 md5 5D959BBCEAA46F3B70E1B95003899391 sha1 0808A066FA2EB0CAAEF424FA5DBDB95F3B329F17 )
 )
 game (
-	name "Ghostbusters (USA, Europe) (Alt 3)"
+	name "Ghostbusters (USA, Europe)"
 	region "USA"
 	rom ( name "Ghostbusters (USA, Europe) (Alt 3).nib" size 336128 crc ADACD79C md5 6276863B713317C61E88E18386A50E02 sha1 CACDE2D5CA88BE7298BDBDAB4FBA842A3CDB2AC4 )
 )
 game (
-	name "Ghostbusters (USA, Europe) (Alt)"
+	name "Ghostbusters (USA, Europe)"
 	region "USA"
 	rom ( name "Ghostbusters (USA, Europe) (Alt).nib" size 327936 crc 4FCDE9F8 md5 189064B8B93B6CC2F5E2C169B3B7FD8F sha1 36576FBECD861F0023061185380B7DC604C2DCD4 )
 )
@@ -5976,7 +5973,7 @@ game (
 	rom ( name "Ghostbusters II (Europe) (Side 2).nib" size 336128 crc 6CD32977 md5 E673747C14761B19B879A65059E04B5B sha1 009BBA3AA27203C65F0F1E0F082D0C42EA674A2D )
 )
 game (
-	name "Ghostbusters II (Europe) (Alt)"
+	name "Ghostbusters II (Europe)"
 	region "Europe"
 	rom ( name "Ghostbusters II (Europe) (Alt) (Side 2).nib" size 336128 crc B9DEBCE0 md5 07499562A6FADDA74BBFEBFD42669167 sha1 A90148DFA69CF8F14DA159157FBE16B6DFD93413 )
 )
@@ -6101,7 +6098,7 @@ game (
 	rom ( name "Goonies, The (USA, Europe).nib" size 327936 crc FA50B4F2 md5 5A9ACEC4699A430494B2932ED5ECB8A9 sha1 976D230F790DD8BBE6716623B3A7C705D1CBDB41 )
 )
 game (
-	name "Goonies, The (USA, Europe) (Alt)"
+	name "Goonies, The (USA, Europe)"
 	region "USA"
 	rom ( name "Goonies, The (USA, Europe) (Alt).nib" size 336128 crc 8F3FCCE7 md5 030724A7F350123E4392E7F2DF2BC8E5 sha1 77D9EB2D916D0307DC4279010E67F7CF675B6CF2 )
 )
@@ -6146,7 +6143,7 @@ game (
 	rom ( name "Graffiti Man (USA, Europe).nib" size 336128 crc 05C0A26C md5 67557D88C1456A347E120D922520AB6B sha1 B8D8B8201ECCE9B42CAA8C6254288D2789C82195 )
 )
 game (
-	name "Graffiti Man (USA, Europe) (Alt)"
+	name "Graffiti Man (USA, Europe)"
 	region "USA"
 	rom ( name "Graffiti Man (USA, Europe) (Alt).nib" size 336128 crc CC567F6C md5 070C601BEB13E86BFB153860188FCC43 sha1 12BB41554003E3368F75BA78209A69CF5D2EFA55 )
 )
@@ -6176,7 +6173,7 @@ game (
 	rom ( name "Grand Monster Slam (USA, Europe) (Side 2).nib" size 336128 crc EBB7FBFF md5 18E91EBCECE43409A338681C51333B84 sha1 47890CBD41693D586E8D3683F5C26AD6416EB112 )
 )
 game (
-	name "Grand Monster Slam (USA, Europe) (Alt)"
+	name "Grand Monster Slam (USA, Europe)"
 	region "USA"
 	rom ( name "Grand Monster Slam (USA, Europe) (Alt) (Side 2).nib" size 336128 crc D64C0F86 md5 3AACED22D72F7440A7571610D18CA35C sha1 E85136C37A5260166161B54D31EF6CFBAF0E509F )
 )
@@ -6246,12 +6243,12 @@ game (
 	rom ( name "Grave Yardage (USA, Europe) (Side 2).nib" size 336128 crc 486428BA md5 FA7263CB9C28D0748880546000C6DD4F sha1 72C29123827E84A5A4B21898E1701EEBAE998DFC )
 )
 game (
-	name "Grave Yardage (USA, Europe) (Alt 2)"
+	name "Grave Yardage (USA, Europe)"
 	region "USA"
 	rom ( name "Grave Yardage (USA, Europe) (Alt 2) (Side 2).nib" size 336128 crc 1EEBB012 md5 064D6F16780DA6B2D098420BD2516288 sha1 60AFC654EF5529B3A2E98359644D380B51A9B92A )
 )
 game (
-	name "Grave Yardage (USA, Europe) (Alt)"
+	name "Grave Yardage (USA, Europe)"
 	region "USA"
 	rom ( name "Grave Yardage (USA, Europe) (Alt) (Side 2).nib" size 336128 crc D2AF0219 md5 7BF1A0BFE3E05B6A8A6386571297F512 sha1 1701628CA223B0021BCE6B227ED340B6B6ABA3F6 )
 )
@@ -6311,7 +6308,7 @@ game (
 	rom ( name "Greg Norman's Ultimate Golf (Europe).nib" size 336128 crc 0F42DF1A md5 EEE42A2B3FE7E14384A81CD391AD512A sha1 CB5CF35BE6CB8C517F534097AD9357F9405C44EA )
 )
 game (
-	name "Greg Norman's Ultimate Golf (Europe) (Alt)"
+	name "Greg Norman's Ultimate Golf (Europe)"
 	region "Europe"
 	rom ( name "Greg Norman's Ultimate Golf (Europe) (Alt).nib" size 336128 crc 3289BDD5 md5 4A1EFE69356CF04C7114FCEB1F3C0B58 sha1 D77B1B78EEA4B78DFB4C4C554A7780990C5D225F )
 )
@@ -6378,12 +6375,12 @@ game (
 game (
 	name "Gryzor (Europe)"
 	region "Europe"
-	rom ( name "Gryzor (Europe).tap" size 738562 crc 900A303D md5 BA5D84B4CC71EFF56FB1D17F36693FDB sha1 7F6EF019D6D080C7DEE7E19530ED2D0FBC894B51 )
+	rom ( name "Gryzor (Europe) (Alt).nib" size 336128 crc 8A749EDD md5 0118E995C99D0DB7C95EFA9637067BCD sha1 095D5EFCDFBE474CCD48EBEABC1B3B52F92CA136 )
 )
 game (
-	name "Gryzor (Europe) (Alt)"
+	name "Gryzor (Europe)"
 	region "Europe"
-	rom ( name "Gryzor (Europe) (Alt).nib" size 336128 crc 8A749EDD md5 0118E995C99D0DB7C95EFA9637067BCD sha1 095D5EFCDFBE474CCD48EBEABC1B3B52F92CA136 )
+	rom ( name "Gryzor (Europe).tap" size 738562 crc 900A303D md5 BA5D84B4CC71EFF56FB1D17F36693FDB sha1 7F6EF019D6D080C7DEE7E19530ED2D0FBC894B51 )
 )
 game (
 	name "Guadalcanal (Europe)"
@@ -6566,7 +6563,7 @@ game (
 	rom ( name "Hard Hat Mack (USA, Europe).nib" size 336128 crc D4EC879B md5 9AF844A0E9C0C92300D21AFD0F76EADE sha1 D93589C084960AE57C9924CB475CB834256C5C5B )
 )
 game (
-	name "Hard Hat Mack (USA, Europe) (Alt)"
+	name "Hard Hat Mack (USA, Europe)"
 	region "USA"
 	rom ( name "Hard Hat Mack (USA, Europe) (Alt).nib" size 336128 crc 932EDCBD md5 198C5B303A5DBEEC249C4A0FA182D8BF sha1 272656831A2895E0DC81DC6DD370AD407FE4D667 )
 )
@@ -6661,7 +6658,7 @@ game (
 	rom ( name "Heavy Metal (Europe).tap" size 1380310 crc 3A5B12CA md5 97775BC75645E856F7A398A024179BDB sha1 C72365D0F8C9E0B25C5DC2FA9790F8C4885CE11B )
 )
 game (
-	name "Heavy Metal - Modern Land Combat Vol. I (USA, Europe) (v1) (Alt)"
+	name "Heavy Metal - Modern Land Combat Vol. I (USA, Europe) (v1)"
 	region "USA"
 	rom ( name "Heavy Metal - Modern Land Combat Vol. I (USA, Europe) (v1) (Alt) (Side 2).nib" size 336128 crc 39B61EEF md5 FE84D052CD24E051A6B040E7C5E5E20A sha1 287439F20C1AD85954BF80A127FECD0892143DFF )
 )
@@ -6776,7 +6773,7 @@ game (
 	rom ( name "High Roller (USA).nib" size 327936 crc 68D99F3E md5 6E42D1494AC9E7B95E77A7A83C0C0D2F sha1 B3B04DB4FCF5780D4346849E7424CC43662295B8 )
 )
 game (
-	name "High Voltage (Europe) (Compilation) (Alt)"
+	name "High Voltage (Europe) (Compilation)"
 	region "Europe"
 	rom ( name "High Voltage (Europe) (Compilation) (Alt) (Side 4).nib" size 336128 crc 86EF2B6B md5 A8EA16BFF85EAB7B9A4DEE251F7C4929 sha1 7C58E22DA12139008B85377C5D6AF9A7CB12754D )
 )
@@ -6926,7 +6923,7 @@ game (
 	rom ( name "Hot Wheels (USA, Europe).nib" size 327936 crc 50EAACBE md5 072B92248023A42320360F84E9AB81DA sha1 CDC4458A258314BA916D4FAA11F340D3F6DE0298 )
 )
 game (
-	name "Hot Wheels (USA, Europe) (Alt)"
+	name "Hot Wheels (USA, Europe)"
 	region "USA"
 	rom ( name "Hot Wheels (USA, Europe) (Alt).nib" size 336128 crc D620EEFE md5 D649858CAEC0DA4374232824190B0EB3 sha1 1D82E277AE66601B352EB56C18F5C2B2D5300D2D )
 )
@@ -7190,12 +7187,12 @@ game (
 	rom ( name "Impossible Mission II (USA, Europe).nib" size 327936 crc C83C5994 md5 FB89745CB2C0BDD1B84103611B638E37 sha1 FB6C6D0B3C9C38DA3855BAC0F5B94DE46FAEE9D5 )
 )
 game (
-	name "Impossible Mission II (USA, Europe) (Alt 2)"
+	name "Impossible Mission II (USA, Europe)"
 	region "USA"
 	rom ( name "Impossible Mission II (USA, Europe) (Alt 2).nib" size 336128 crc 1C2C06E4 md5 F6E920D3E28EF0E0FCF1CD790AEBAAA8 sha1 8AFEC22969F692345A64F6581556C2A1AD7B5F34 )
 )
 game (
-	name "Impossible Mission II (USA, Europe) (Alt)"
+	name "Impossible Mission II (USA, Europe)"
 	region "USA"
 	rom ( name "Impossible Mission II (USA, Europe) (Alt).nib" size 327936 crc 71ADAD8F md5 20D8CA3D0AD07FC06BE4C5804FC5F387 sha1 47B71D05CA3B194B6DC3859727F5D26615619DB7 )
 )
@@ -7245,7 +7242,7 @@ game (
 	rom ( name "Indiana Jones and the Temple of Doom (USA).nib" size 327936 crc 2CAADB64 md5 FE949806BD90B12D960314BB7924DA97 sha1 37E4A179DD95A2C13C83E9465FF3155E017B3368 )
 )
 game (
-	name "Indiana Jones and the Temple of Doom (USA) (Alt)"
+	name "Indiana Jones and the Temple of Doom (USA)"
 	region "USA"
 	rom ( name "Indiana Jones and the Temple of Doom (USA) (Alt).nib" size 327936 crc 0A5BA15C md5 2D9DA01849F34A61C731B7509C2EF94E sha1 D468660B7A3DD16D5CC97CED643990A65098D2B9 )
 )
@@ -7449,7 +7446,7 @@ game (
 	rom ( name "Invaders of the Lost Tomb (USA, Europe).nib" size 336128 crc 3B44E19B md5 544043CA9FAED1B8C9188CD56A2D5512 sha1 AA2F58EB26B69F04DD3C37AD6E3516E78871E43B )
 )
 game (
-	name "Invaders of the Lost Tomb (USA, Europe) (Alt)"
+	name "Invaders of the Lost Tomb (USA, Europe)"
 	region "USA"
 	rom ( name "Invaders of the Lost Tomb (USA, Europe) (Alt).nib" size 327936 crc 5B2FBF9E md5 2642B2024011AD4CB1EECCF6BA98E7C0 sha1 CF1795F15FA13E4F81715A6F5462EC92D57D2B39 )
 )
@@ -7474,7 +7471,7 @@ game (
 	rom ( name "Iron Lord (Europe) (Side 2).nib" size 336128 crc 1322897E md5 87CFB54CD4F4680B4B54A2DD4E4702E5 sha1 42F81B1E3FD45684852AE5BD384C3DB3FB81DFC3 )
 )
 game (
-	name "Iron Lord (Europe) (Alt)"
+	name "Iron Lord (Europe)"
 	region "Europe"
 	rom ( name "Iron Lord (Europe) (Alt) (Side 2).nib" size 336128 crc EAC72DCF md5 7BB8BA3914FD0674E0A3FF1604111304 sha1 B01A056A398F3C5AA1D9CE15C600BD6B684C47F3 )
 )
@@ -7524,7 +7521,7 @@ game (
 	rom ( name "Ivan 'Ironman' Stewart's Super Off Road (USA, Europe).nib" size 336128 crc F84F1783 md5 DD130906F8F1D2CFA098FC5B2BAA0F39 sha1 8B311E9B00DF2B1A13F250B9A9FA50DA1E176A07 )
 )
 game (
-	name "Ivan 'Ironman' Stewart's Super Off Road (USA, Europe) (Alt)"
+	name "Ivan 'Ironman' Stewart's Super Off Road (USA, Europe)"
 	region "USA"
 	rom ( name "Ivan 'Ironman' Stewart's Super Off Road (USA, Europe) (Alt).nib" size 336128 crc 326D9BCA md5 0E4795E3B9E20C0A0858B2E3928F9988 sha1 7539A106581C83F5373158982997041E86600233 )
 )
@@ -7629,7 +7626,7 @@ game (
 	rom ( name "Jeep Command (Europe).tap" size 475286 crc F29C62A0 md5 5787DC56E6013C2C9D26461D22BBAB6F sha1 185E28B28AE19F5E6CB6AB0B5FD0F72765991EFC )
 )
 game (
-	name "Jeopardy! (USA, Europe) (Alt)"
+	name "Jeopardy! (USA, Europe)"
 	region "USA"
 	rom ( name "Jeopardy! (USA, Europe) (Alt) (Side 2).nib" size 327936 crc C70796C8 md5 2A5626971DB2CC69A806923BA5342B12 sha1 6D4C8C6E436DFF616D454C50E5FF3E704064DCBE )
 )
@@ -7639,7 +7636,7 @@ game (
 	rom ( name "Jeopardy! II - The Second Edition (USA, Europe) (Side 2).nib" size 327936 crc 612DF958 md5 9CA169E87DB6A7839D7347C653E3979C sha1 DA69945999EE3AAC1F5DC6D87CD8C389880DDC04 )
 )
 game (
-	name "Jeopardy! II - The Second Edition (USA, Europe) (Alt)"
+	name "Jeopardy! II - The Second Edition (USA, Europe)"
 	region "USA"
 	rom ( name "Jeopardy! II - The Second Edition (USA, Europe) (Alt) (Side 2).nib" size 336128 crc A759B1B8 md5 5A64CCFD02444157E3F2709B6E675133 sha1 C7FBDD21CF7E045C6E5EDB11F030C72BB3C933D8 )
 )
@@ -7709,7 +7706,7 @@ game (
 	rom ( name "John Elway's Quarterback (USA, Europe).nib" size 336128 crc AFF4DDA6 md5 123FDC6188C4AEDC36E329C30C41D38A sha1 C80714C85D8251EBB49495F191EABA295FA44220 )
 )
 game (
-	name "John Elway's Quarterback (USA, Europe) (Alt)"
+	name "John Elway's Quarterback (USA, Europe)"
 	region "USA"
 	rom ( name "John Elway's Quarterback (USA, Europe) (Alt).nib" size 336128 crc 7EEC5762 md5 F91E6EDC5AB189672F7D03EAFD3B2270 sha1 0658950A98D7FC452F88B59650C526E367AAECAF )
 )
@@ -7868,7 +7865,7 @@ game (
 	rom ( name "Karateka (USA, Europe).nib" size 336128 crc 749BB389 md5 B4FA1B42F9C968CE1682A3D04D79FD9E sha1 F72764CEF73AAC7E56BBDA94D9E793EA797AF9DA )
 )
 game (
-	name "Karateka (USA, Europe) (Alt)"
+	name "Karateka (USA, Europe)"
 	region "USA"
 	rom ( name "Karateka (USA, Europe) (Alt).nib" size 336128 crc D953E2DF md5 45DAB51E482473A6960692615B0A408C sha1 803F3A233A2158061A0654B3D7FDAD699DAED60C )
 )
@@ -8054,12 +8051,12 @@ game (
 game (
 	name "Knight Games (Europe)"
 	region "Europe"
-	rom ( name "Knight Games (Europe) (Side 2).tap" size 812228 crc EFC1A448 md5 69B9D46C359794E25633E54EB73F1CA1 sha1 1A26144DBE7FB5B2304D220F306E855BD1E2B712 )
+	rom ( name "Knight Games (Europe) (Alt) (Side 2).nib" size 327936 crc DE6E240E md5 E32398AFB21D12959FAAA2788F54B558 sha1 A9A1D37FF41F793C4E81821F2A9E5D653C76740C )
 )
 game (
-	name "Knight Games (Europe) (Alt)"
+	name "Knight Games (Europe)"
 	region "Europe"
-	rom ( name "Knight Games (Europe) (Alt) (Side 2).nib" size 327936 crc DE6E240E md5 E32398AFB21D12959FAAA2788F54B558 sha1 A9A1D37FF41F793C4E81821F2A9E5D653C76740C )
+	rom ( name "Knight Games (Europe) (Side 2).tap" size 812228 crc EFC1A448 md5 69B9D46C359794E25633E54EB73F1CA1 sha1 1A26144DBE7FB5B2304D220F306E855BD1E2B712 )
 )
 game (
 	name "Knight Games (USA)"
@@ -8162,7 +8159,7 @@ game (
 	rom ( name "Koronis Rift (USA, Europe).nib" size 327936 crc 49C66F6D md5 6A599658488EBBE00A154C6E74143F4D sha1 AEA71C5E7DA2123EC95777224D7BB51A3D1065D4 )
 )
 game (
-	name "Koronis Rift (USA, Europe) (Alt)"
+	name "Koronis Rift (USA, Europe)"
 	region "USA"
 	rom ( name "Koronis Rift (USA, Europe) (Alt).nib" size 336128 crc 6345D3E7 md5 8AD9C6115B70B994940FAE1F33089B52 sha1 18E4963DD62086ADA29B4E5A85AED51D192D50B2 )
 )
@@ -8556,14 +8553,14 @@ game (
 	rom ( name "Linking Logic (USA, Europe).crt" size 16464 crc 51B75BF0 md5 C1D47B7B457823F46004F9991BB56D08 sha1 97E01CE75CE2E078C5BE6F292DA8C1837CFD6A3E )
 )
 game (
-	name "Little Computer People (Europe) (Novaload)"
-	region "Europe"
-	rom ( name "Little Computer People (Europe) (Novaload).tap" size 621625 crc B824F9D2 md5 0B9C600E20B26EFDA39513E23A8050B2 sha1 59F9FF65324F7182B42B13307120245295F7B6E5 )
-)
-game (
 	name "Little Computer People (Europe)"
 	region "Europe"
 	rom ( name "Little Computer People (Europe) (Virgin).tap" size 582791 crc 634A7F84 md5 5DA23C6365B7334591C5241DF9C2BD59 sha1 3AB5656E0F2A7D6560FE9C8E7902EAACBCD82187 )
+)
+game (
+	name "Little Computer People (Europe) (Novaload)"
+	region "Europe"
+	rom ( name "Little Computer People (Europe) (Novaload).tap" size 621625 crc B824F9D2 md5 0B9C600E20B26EFDA39513E23A8050B2 sha1 59F9FF65324F7182B42B13307120245295F7B6E5 )
 )
 game (
 	name "Little Computer People (USA, Europe) (b-savegame)"
@@ -8571,7 +8568,7 @@ game (
 	rom ( name "Little Computer People (USA, Europe) (b-savegame).nib" size 336128 crc A1035547 md5 7134ACB0153C23BA3A069F9AAE6C51BF sha1 BEE7B842B8A907D8F530A2D8F940485D697991AE )
 )
 game (
-	name "Little Computer People (USA, Europe) (b-savegame) (Alt)"
+	name "Little Computer People (USA, Europe) (b-savegame)"
 	region "USA"
 	rom ( name "Little Computer People (USA, Europe) (b-savegame) (Alt).nib" size 336128 crc 3A025249 md5 623CE26EC97F4F2491DBC9EA7BF52D45 sha1 57CA8BFCFFE4C25CFD13F47FED82CC3E20BC1021 )
 )
@@ -8606,7 +8603,7 @@ game (
 	rom ( name "Lode Runner (USA, Europe).nib" size 327936 crc 7CB7E0B3 md5 4ADCD8C9D3A1C5FDD5158DB553C799CC sha1 9A748394A701FDDDE0F9227573902AFE39F96953 )
 )
 game (
-	name "Lode Runner (USA, Europe) (Alt)"
+	name "Lode Runner (USA, Europe)"
 	region "USA"
 	rom ( name "Lode Runner (USA, Europe) (Alt).nib" size 336128 crc 813E20B6 md5 9C6AE6F7ABCA558C9DAFA421E234321B sha1 CEFA100CC75D541C2AE304070E106BEAD2E7C96F )
 )
@@ -8636,7 +8633,7 @@ game (
 	rom ( name "Lords of Chaos (USA, Europe).nib" size 336128 crc 5D91D4CD md5 C1F9C8FF798452450E64ACD4E43A7F53 sha1 EF70D749C8BBE106A72E0E3C97E9BF8FEF482165 )
 )
 game (
-	name "Lords of Chaos (USA, Europe) (Alt)"
+	name "Lords of Chaos (USA, Europe)"
 	region "USA"
 	rom ( name "Lords of Chaos (USA, Europe) (Alt).nib" size 336128 crc 737DB201 md5 6F225681A3CB7946A4F0C4983BA6A8C9 sha1 580A75ECEDDA178CEBE34060CBD429FD8BFFA1D2 )
 )
@@ -8786,7 +8783,7 @@ game (
 	rom ( name "Mail Order Monsters (USA, Europe).nib" size 327936 crc CA8B8674 md5 16506298004290EBEF6D9A57A6291429 sha1 DFEE7CE7CBFDC148FE0308078DD1E2249334B961 )
 )
 game (
-	name "Mail Order Monsters (USA, Europe) (Alt)"
+	name "Mail Order Monsters (USA, Europe)"
 	region "USA"
 	rom ( name "Mail Order Monsters (USA, Europe) (Alt).nib" size 327936 crc E86E074C md5 374CBEC04BCFE21A5A0C7425E2419FCD sha1 D2079A9B21B1462088410C8081261BD6B96F677C )
 )
@@ -8851,14 +8848,14 @@ game (
 	rom ( name "Marble Madness (Europe) (Side 2).tap" size 2235860 crc F38A51CB md5 DE524DEE338F536E83ECB493B026D5A4 sha1 EAD16170971CBEE52F751859D72C89387A4F239A )
 )
 game (
-	name "Marble Madness (USA, Europe) (Ariolasoft)"
-	region "USA"
-	rom ( name "Marble Madness (USA, Europe) (Ariolasoft) (Side 2).nib" size 336128 crc BFEF717A md5 9545F49A6EEC3DB12371735F971524F6 sha1 8A2FA5B1307F4900C25326FE134A4089EFED813F )
-)
-game (
 	name "Marble Madness (USA, Europe)"
 	region "USA"
 	rom ( name "Marble Madness (USA, Europe) (Electronic Arts) (Side 2).nib" size 336128 crc 888BE957 md5 3556DBD6C56A46FB88CB3B1388AFA55F sha1 B0500B33910B65C7C19F81658DF52CDCEB2E8EF5 )
+)
+game (
+	name "Marble Madness (USA, Europe) (Ariolasoft)"
+	region "USA"
+	rom ( name "Marble Madness (USA, Europe) (Ariolasoft) (Side 2).nib" size 336128 crc BFEF717A md5 9545F49A6EEC3DB12371735F971524F6 sha1 8A2FA5B1307F4900C25326FE134A4089EFED813F )
 )
 game (
 	name "Mario Bros (Europe)"
@@ -9254,7 +9251,7 @@ game (
 	rom ( name "Microprose Soccer (Europe).nib" size 336128 crc E74003AE md5 C9353366DF54A95763E3050B71F54582 sha1 74CE7B29431DB8295487B977E8B6AA9D1BF627F2 )
 )
 game (
-	name "Microprose Soccer (Europe) (Alt)"
+	name "Microprose Soccer (Europe)"
 	region "Europe"
 	rom ( name "Microprose Soccer (Europe) (Alt) (Side 2).nib" size 336128 crc 4DBA641D md5 7691045C3AB6E78D3148A5A897836997 sha1 DAFA2EC739F85D7301A6E5E29704102BD923B6BC )
 )
@@ -9410,12 +9407,12 @@ game (
 game (
 	name "Mission Elevator (USA, Europe)"
 	region "USA"
-	rom ( name "Mission Elevator (USA, Europe).nib" size 336128 crc E577DA5A md5 C49E6B965F64A0B0716728D39CD68548 sha1 BA488F3AAC0B847A6F4CEB1DFD53AF2276BD86ED )
+	rom ( name "Mission Elevator (USA, Europe) (Alt).nib" size 336128 crc 61603867 md5 1C8FD9CD1FBF80C1F07EABE566E9C539 sha1 61005EC6AA0C9F2D601D2F69063768C537916596 )
 )
 game (
-	name "Mission Elevator (USA, Europe) (Alt)"
+	name "Mission Elevator (USA, Europe)"
 	region "USA"
-	rom ( name "Mission Elevator (USA, Europe) (Alt).nib" size 336128 crc 61603867 md5 1C8FD9CD1FBF80C1F07EABE566E9C539 sha1 61005EC6AA0C9F2D601D2F69063768C537916596 )
+	rom ( name "Mission Elevator (USA, Europe).nib" size 336128 crc E577DA5A md5 C49E6B965F64A0B0716728D39CD68548 sha1 BA488F3AAC0B847A6F4CEB1DFD53AF2276BD86ED )
 )
 game (
 	name "Mission Impossibubble (Europe)"
@@ -9615,12 +9612,12 @@ game (
 game (
 	name "Mr Heli (Europe)"
 	region "Europe"
-	rom ( name "Mr Heli (Europe).tap" size 1506054 crc CC194429 md5 1819FCF2FC32DF537EF033062CE17988 sha1 015CAE2120616487F244BF80D9628A8096DBDEBB )
+	rom ( name "Mr Heli (Europe) (Alt).nib" size 336128 crc 5C6A59B9 md5 3A9F55C3B2CC67C54ACA3A5EB061C4C9 sha1 914C1F74E24BC24C3A7CCA028BAB7A30E4DF5F3F )
 )
 game (
-	name "Mr Heli (Europe) (Alt)"
+	name "Mr Heli (Europe)"
 	region "Europe"
-	rom ( name "Mr Heli (Europe) (Alt).nib" size 336128 crc 5C6A59B9 md5 3A9F55C3B2CC67C54ACA3A5EB061C4C9 sha1 914C1F74E24BC24C3A7CCA028BAB7A30E4DF5F3F )
+	rom ( name "Mr Heli (Europe).tap" size 1506054 crc CC194429 md5 1819FCF2FC32DF537EF033062CE17988 sha1 015CAE2120616487F244BF80D9628A8096DBDEBB )
 )
 game (
 	name "Mr. Angry (Europe)"
@@ -9698,7 +9695,7 @@ game (
 	rom ( name "Muncher Eats Chewits (Europe).nib" size 336128 crc 5AE22BCE md5 B85B8242A1736D8BF8F88367609AF18E sha1 0CD7308D1100CF09E45D678DC26D922E02E564A3 )
 )
 game (
-	name "Muncher Eats Chewits (Europe) (Alt)"
+	name "Muncher Eats Chewits (Europe)"
 	region "Europe"
 	rom ( name "Muncher Eats Chewits (Europe) (Alt).nib" size 336128 crc 1D980882 md5 028F39761C7C0340A1F63646151F1C7E sha1 D5BBF9E8EE8765005317A0C2D88729CE1F712782 )
 )
@@ -9728,7 +9725,7 @@ game (
 	rom ( name "Murder on the Mississippi - The Adventures of Sir Charles Foxworth (USA, Europe).nib" size 327936 crc 9A0A68E3 md5 AF0727D50CB1BEE038FD045750D6C280 sha1 B6A4A35906BAA7EA4A66982D71C988D6567A902F )
 )
 game (
-	name "Murder on the Mississippi - The Adventures of Sir Charles Foxworth (USA, Europe) (Alt)"
+	name "Murder on the Mississippi - The Adventures of Sir Charles Foxworth (USA, Europe)"
 	region "USA"
 	rom ( name "Murder on the Mississippi - The Adventures of Sir Charles Foxworth (USA, Europe) (Alt).nib" size 336128 crc C4E7A52F md5 D2A862EB2D8B3B4527ADEB54DE816A77 sha1 69609137137D0EDB3D55F7FB65B9EA47014994D5 )
 )
@@ -9972,7 +9969,7 @@ game (
 	rom ( name "Ninja (USA, Europe).nib" size 327936 crc 867BC45F md5 2953DBEC671904676FD4EBC337F6DD01 sha1 3E5836181E67D3F0018ED82DA21BF5B33E23D06B )
 )
 game (
-	name "Ninja (USA, Europe) (Alt)"
+	name "Ninja (USA, Europe)"
 	region "USA"
 	rom ( name "Ninja (USA, Europe) (Alt).nib" size 336128 crc 845F3FE9 md5 7532F1973067FF19ACE84ED25164B649 sha1 0226F1B40C5355735DD4D1AB8C187395BD474B0F )
 )
@@ -10137,7 +10134,7 @@ game (
 	rom ( name "Oil Imperium (Germany) (Side 2).nib" size 336128 crc 4CB41F83 md5 9842B0214E5565FAB88417AE29834860 sha1 5D691BB67BB2EBF5D0FEC508BD11E04D2450B52C )
 )
 game (
-	name "Oil Imperium (Germany) (Alt)"
+	name "Oil Imperium (Germany)"
 	region "Germany"
 	rom ( name "Oil Imperium (Germany) (Alt) (Side 2).nib" size 336128 crc 4ACAE581 md5 B6674C5DCB6A1ED1018E23578A7344D1 sha1 8D4BA64330EAA0123BA2CF08B1C6420C29D91B70 )
 )
@@ -10227,7 +10224,7 @@ game (
 	rom ( name "One on One (USA, Europe).nib" size 336128 crc B58ACA9D md5 4ACD8F0481A26517C967EFA720E83E03 sha1 0BDA6F49BD69E9FC1247B481A8946E64E52DC379 )
 )
 game (
-	name "One on One (USA, Europe) (Alt)"
+	name "One on One (USA, Europe)"
 	region "USA"
 	rom ( name "One on One (USA, Europe) (Alt).nib" size 327936 crc 1BC44F39 md5 496C52228D5FB6C08B0F82672009FF97 sha1 81DBA4C7505362EBC1AEE06ED77639D943E26580 )
 )
@@ -10317,7 +10314,7 @@ game (
 	rom ( name "Orc Attack (Europe).tap" size 599544 crc 1AF00406 md5 D6C37AC403EC8C4B3BC2B74D16D660E0 sha1 207D856EE35B5C9FBDAAE92CBA89A44049F5CEA5 )
 )
 game (
-	name "Orc Attack (Europe) (Alt)"
+	name "Orc Attack (Europe)"
 	region "Europe"
 	rom ( name "Orc Attack (Europe) (Alt).tap" size 150142 crc 01576F92 md5 35B9B243A7932632A9C098413C1E1499 sha1 778297F8EB84FFE872085635533DBD58FBBD113E )
 )
@@ -10427,7 +10424,7 @@ game (
 	rom ( name "Pac-Man (USA, Europe) (Budget).nib" size 336128 crc C9090B93 md5 5490EBDE3D6147D328E36A2B5B7AB797 sha1 933D292CD9AC46080D236687C4941FE43DF1F26C )
 )
 game (
-	name "Pac-Man (USA, Europe) (Budget) (Alt)"
+	name "Pac-Man (USA, Europe) (Budget)"
 	region "USA"
 	rom ( name "Pac-Man (USA, Europe) (Budget) (Alt).nib" size 336128 crc 6F91E900 md5 583CE2346F184CE27357D62787CC7D8D sha1 174CC3A6A864E594D2DC0B72DBCA3988291B1C37 )
 )
@@ -10762,7 +10759,7 @@ game (
 	rom ( name "Pipe Mania (Europe).nib" size 336128 crc 1B3A1EDC md5 7CDF6494E3261274823E302A8ACF8654 sha1 6840FA7A7174CC5EF8A0169100D9AB665ACBF167 )
 )
 game (
-	name "Pipe Mania (Europe) (Alt)"
+	name "Pipe Mania (Europe)"
 	region "Europe"
 	rom ( name "Pipe Mania (Europe) (Alt).nib" size 336128 crc B921EFD7 md5 BCF0B105A5DC75FC7A17CAD74D1355C4 sha1 C2717F139EB02B6DE09BC5B60B0F5EEF63565D38 )
 )
@@ -10892,7 +10889,7 @@ game (
 	rom ( name "Pocket Rockets (USA).nib" size 336128 crc E0A2E652 md5 7BB44865BD2C9DFD95E62C2264B3B0FF sha1 1F1C0062AB3BD767D2EEC94AF00DDD23CC7F3F7E )
 )
 game (
-	name "Pocket Rockets (USA) (Alt)"
+	name "Pocket Rockets (USA)"
 	region "USA"
 	rom ( name "Pocket Rockets (USA) (Alt).nib" size 336128 crc 8142E0A6 md5 762DE7363F5434E5731C13DD22214B7C sha1 14C0FC260F98B797E3754219AB6F466571937275 )
 )
@@ -10920,6 +10917,11 @@ game (
 	name "Pole Position (USA, Europe)"
 	region "USA"
 	rom ( name "Pole Position (USA, Europe).crt" size 16464 crc B5D9C502 md5 403C4B527E326D229C529871E90BAE9A sha1 33B3CCF72482343C3E847862031E005F5FC9F0E0 )
+)
+game (
+	name "Pole Position (USA, Europe)"
+	region "USA"
+	rom ( name "Pole Position (USA, Europe).bin" size 16384 crc 8897E451 md5 10ACC3CDE8BBEB5BAEB706A0E3AEA524 sha1 CA89A850AD6F78E48A4891A89CCD37F0705EA54E )
 )
 game (
 	name "Pole Position (USA, Europe) (Budget)"
@@ -11097,7 +11099,7 @@ game (
 	rom ( name "Print Shop Graphics Library (USA, Europe) (Addon) (Side 6).nib" size 336128 crc 86A837C5 md5 E151351FDF748F91801BCD765ACB994E sha1 AB9194331C46BA943A45A5AE35090C279EB5970F )
 )
 game (
-	name "Print Shop Graphics Library (USA, Europe) (Addon) (Alt)"
+	name "Print Shop Graphics Library (USA, Europe) (Addon)"
 	region "USA"
 	rom ( name "Print Shop Graphics Library (USA, Europe) (Addon) (Alt) (Side 6).nib" size 336128 crc ECEBD9A9 md5 B9D2D80484037AC0FA7DC8796106D33F sha1 D11512BE043D731ABDE7F2B71083285C28420E1C )
 )
@@ -11112,7 +11114,7 @@ game (
 	rom ( name "PrintMaster Art Gallery I (USA, Europe) (Addon).nib" size 336128 crc FC4E76BA md5 DCB62398D7508FDF6E81234363A2E4CC sha1 49092C456E8A8F75C0EBE67AA442E3EF4DEBA284 )
 )
 game (
-	name "PrintMaster Art Gallery I (USA, Europe) (Addon) (Alt)"
+	name "PrintMaster Art Gallery I (USA, Europe) (Addon)"
 	region "USA"
 	rom ( name "PrintMaster Art Gallery I (USA, Europe) (Addon) (Alt).nib" size 336128 crc 721C433F md5 8E8A6BB5782059FDD6A9ADEADD2692BE sha1 ACFAC4AC641DF745926AF9B8BD9AFD23CD316849 )
 )
@@ -11197,17 +11199,17 @@ game (
 	rom ( name "Project Stealth Fighter (USA, Europe) (Side 2).nib" size 336128 crc 9C999753 md5 6B5AA9902702F67C0D6E7D826B6A27C5 sha1 14B0CFC101AA5F567B044685BB7BEE0DF1D8B23F )
 )
 game (
-	name "Project Stealth Fighter (USA, Europe) (Alt 2)"
+	name "Project Stealth Fighter (USA, Europe)"
 	region "USA"
 	rom ( name "Project Stealth Fighter (USA, Europe) (Alt 2) (Side 2).nib" size 336128 crc C454094C md5 34127032CEDCBEC71198306FFC6EB727 sha1 61176F3F20599B008C5F457560D42B5426D74546 )
 )
 game (
-	name "Project Stealth Fighter (USA, Europe) (Alt 3)"
+	name "Project Stealth Fighter (USA, Europe)"
 	region "USA"
 	rom ( name "Project Stealth Fighter (USA, Europe) (Alt 3) (Side 2).nib" size 336128 crc 12620E17 md5 020ACF30440F3F20F36CB6E867B3CE10 sha1 4AA73D5F5140AD5AAD4C75A25D7B19E791B2B5FD )
 )
 game (
-	name "Project Stealth Fighter (USA, Europe) (Alt)"
+	name "Project Stealth Fighter (USA, Europe)"
 	region "USA"
 	rom ( name "Project Stealth Fighter (USA, Europe) (Alt) (Side 2).nib" size 336128 crc 8C0247B1 md5 6783B751679AD5F1A82B059541FC9059 sha1 3941630E5C4C52A602CBB2C78F09609A4A07257D )
 )
@@ -11372,7 +11374,7 @@ game (
 	rom ( name "QIX (USA).nib" size 336128 crc 3EFAE9D9 md5 F5C2CBAAA2C78A24CE50F4DE9495DE7B sha1 941F8CC5B8C9FDA8CD100D55B9045F363236BFFE )
 )
 game (
-	name "QIX (USA) (Alt)"
+	name "QIX (USA)"
 	region "USA"
 	rom ( name "QIX (USA) (Alt).nib" size 336128 crc 9C6AC66D md5 F3B5FE316FCE130131CE0EC1A09D55F2 sha1 AAA88D775BE14B35F29144EAB2A89602895C18C1 )
 )
@@ -11492,12 +11494,12 @@ game (
 	rom ( name "Racing Destruction Set (USA, Europe) (Side 2).nib" size 327936 crc CD945A16 md5 3D8747D7E0CD2BC9C59F5537120E555A sha1 FDCCCBAB6EA79744A991B69FD411ABA410241979 )
 )
 game (
-	name "Racing Destruction Set (USA, Europe) (Alt 2)"
+	name "Racing Destruction Set (USA, Europe)"
 	region "USA"
 	rom ( name "Racing Destruction Set (USA, Europe) (Alt 2) (Side 2).nib" size 336128 crc 2BF13DB2 md5 3BC1ED71340DD6D3C529426836AB9880 sha1 9A03962FCD95F6F6A2D205482480D3E018904A4B )
 )
 game (
-	name "Racing Destruction Set (USA, Europe) (Alt)"
+	name "Racing Destruction Set (USA, Europe)"
 	region "USA"
 	rom ( name "Racing Destruction Set (USA, Europe) (Alt) (Side 2).nib" size 336128 crc 2F142E90 md5 FBAD222BB64EB3C8D3F2BD2118931863 sha1 3A258C579B1D54084EA2CEEE25CD52C7B37E6E46 )
 )
@@ -11537,7 +11539,7 @@ game (
 	rom ( name "Radar Rat Race (Japan) (v02) (MAX).crt" size 8272 crc 742E5F29 md5 953268D49B474E125A99FA31097935F9 sha1 04D1ADCCF057C0E9D403FECB7058F7285B1E115E )
 )
 game (
-	name "Radar Rat Race (Japan) (v02) (MAX) (Alt)"
+	name "Radar Rat Race (Japan) (v02) (MAX)"
 	region "Japan"
 	rom ( name "Radar Rat Race (Japan) (v02) (MAX) (Alt).crt" size 8272 crc 04F400E2 md5 CD24678FEA44A2512B0449E7433A5E41 sha1 7FE40CB69AA40C0AA3B3330C5E3CE344F52B4437 )
 )
@@ -11787,7 +11789,7 @@ game (
 	rom ( name "Real Stunt Experts, The (Europe).tap" size 612942 crc 2A7B2EB6 md5 A2F36F885A7271DBA2FDA0E635355E03 sha1 91811B362B017492BC5237374BC8019FCCF5D286 )
 )
 game (
-	name "Realm of Impossibility (USA) (Alt)"
+	name "Realm of Impossibility (USA)"
 	region "USA"
 	rom ( name "Realm of Impossibility (USA) (Alt).nib" size 336128 crc B8ED0BBC md5 C5EC127F64EFCCF95241E4CF07FFD44C sha1 6F665D2930CC1DD9E118FBABC04F633FE0270D4E )
 )
@@ -11889,22 +11891,22 @@ game (
 game (
 	name "Red Storm Rising (USA, Europe) (143.U3)"
 	region "USA"
+	rom ( name "Red Storm Rising (USA, Europe) (143.U3) (Alt) (Side 2).nib" size 336128 crc 15087861 md5 DB84B886E984FB5863B22D57A820B69F sha1 202D9C7D719617BA7E2FAFE251682D111CA11ED9 )
+)
+game (
+	name "Red Storm Rising (USA, Europe) (143.U3)"
+	region "USA"
 	rom ( name "Red Storm Rising (USA, Europe) (143.U3) (Side 2).nib" size 336128 crc 0B4D08E2 md5 E4460D40DB86A2269ADF6964080A4B99 sha1 78A6BA55815AED82F2C55DBE6DDF268B82B7E81B )
 )
 game (
-	name "Red Storm Rising (USA, Europe) (143.U3) (Alt 2)"
+	name "Red Storm Rising (USA, Europe) (143.U3)"
 	region "USA"
 	rom ( name "Red Storm Rising (USA, Europe) (143.U3) (Alt 2) (Side 2).nib" size 336128 crc E329A155 md5 F5C8290537BBBB7A7261CB2F1042FBE1 sha1 2042897ED299942E9B5D16169B7920FAF8C5807F )
 )
 game (
-	name "Red Storm Rising (USA, Europe) (143.U3) (Alt 3)"
+	name "Red Storm Rising (USA, Europe) (143.U3)"
 	region "USA"
 	rom ( name "Red Storm Rising (USA, Europe) (143.U3) (Alt 3) (Side 2).nib" size 336128 crc B66B39E8 md5 F8749565097DA6C667B8D82E66393751 sha1 1BD36D0273EEFA391B49F6A22FB32C52A103A913 )
-)
-game (
-	name "Red Storm Rising (USA, Europe) (143.U3) (Alt)"
-	region "USA"
-	rom ( name "Red Storm Rising (USA, Europe) (143.U3) (Alt) (Side 2).nib" size 336128 crc 15087861 md5 DB84B886E984FB5863B22D57A820B69F sha1 202D9C7D719617BA7E2FAFE251682D111CA11ED9 )
 )
 game (
 	name "Red Storm Rising (USA, Europe) (143.X3)"
@@ -11912,7 +11914,7 @@ game (
 	rom ( name "Red Storm Rising (USA, Europe) (143.X3) (Side 2).nib" size 336128 crc 8C5CFCC9 md5 36020A4E4161451010A70BEBDF2ACF40 sha1 CA51D0E2503925A7BAD948B5FAEB3A783FC411DD )
 )
 game (
-	name "Red Storm Rising (USA, Europe) (143.X3) (Alt)"
+	name "Red Storm Rising (USA, Europe) (143.X3)"
 	region "USA"
 	rom ( name "Red Storm Rising (USA, Europe) (143.X3) (Alt) (Side 2).nib" size 327936 crc 4C3A9B84 md5 4D29BCC801DCF8B357A8B43C963F80BF sha1 F15752C235D11B556C4BD5B2BA27A95931BCA4AB )
 )
@@ -11992,7 +11994,7 @@ game (
 	rom ( name "Rescue Squad (USA, Europe).nib" size 336128 crc EAACE72B md5 94A6B0750AEF4E596A48F017875FD901 sha1 A52F16F24399709B8644E73DA54E30957E322635 )
 )
 game (
-	name "Rescue Squad (USA, Europe) (Alt)"
+	name "Rescue Squad (USA, Europe)"
 	region "USA"
 	rom ( name "Rescue Squad (USA, Europe) (Alt).nib" size 336128 crc 65A6605F md5 BDA45A30139BC42398E1FCDE33F08C1E sha1 4256C5AECDE35CA0D5804F5F489A2E5B4C2A1A2C )
 )
@@ -12227,7 +12229,7 @@ game (
 	rom ( name "RoboCop (USA).nib" size 327936 crc DED8C2FA md5 9E993F97B69F957347438842247436DC sha1 B34F6F53FE538D2536C9D8406DFC2AA4D91D3C26 )
 )
 game (
-	name "RoboCop (USA) (Alt)"
+	name "RoboCop (USA)"
 	region "USA"
 	rom ( name "RoboCop (USA) (Alt).nib" size 327936 crc 3142CF1A md5 8641E35057EFA08D30AC616FAFB982F0 sha1 4C914EFAF6B3540D210662E8E0060C1FF488A230 )
 )
@@ -12277,7 +12279,7 @@ game (
 	rom ( name "Rock'n Roll (Europe).nib" size 336128 crc 6E96112F md5 DB445F92B79C0E1027F42C08F7396C31 sha1 C9320B5D569A68303348D19FB7D14887E57FFE38 )
 )
 game (
-	name "Rock'n Roll (Europe) (Alt)"
+	name "Rock'n Roll (Europe)"
 	region "Europe"
 	rom ( name "Rock'n Roll (Europe) (Alt).nib" size 336128 crc 7109A55B md5 AFE8B4AB2E7030856BA330BC087E7801 sha1 00E34D5E29CA7334F3DD05CECAD10F7EF6147E19 )
 )
@@ -12297,7 +12299,7 @@ game (
 	rom ( name "Rock'n Wrestle (USA, Europe).nib" size 336128 crc A08E4D0E md5 99E95A65000D7F94B4EB22BD47E1694F sha1 54438F1B96A90C5CB279A324C4B0527CBECAB9D8 )
 )
 game (
-	name "Rock'n Wrestle (USA, Europe) (Alt)"
+	name "Rock'n Wrestle (USA, Europe)"
 	region "USA"
 	rom ( name "Rock'n Wrestle (USA, Europe) (Alt).nib" size 336128 crc C2E9C8F5 md5 B91DE2B4D070009765D3E43BCC23A364 sha1 8D962483240E315EF17A259DF2A5C1E4410AED1A )
 )
@@ -12707,12 +12709,12 @@ game (
 	rom ( name "Schwert und Magie - Folgen 1 und 2 (Germany) (Side 2).nib" size 336128 crc 7F28A074 md5 359DE93A83143C82C26C4742BC4B9B31 sha1 69330FFF50D33799DD4DA7906DFD9EABC8BB337B )
 )
 game (
-	name "Schwert und Magie - Folgen 1 und 2 (Germany) (Alt 2)"
+	name "Schwert und Magie - Folgen 1 und 2 (Germany)"
 	region "Germany"
 	rom ( name "Schwert und Magie - Folgen 1 und 2 (Germany) (Alt 2) (Side 2).nib" size 336128 crc 79764BEA md5 56389BAE5D255E5C4970882F51D957AE sha1 8DF7912F413A5B0E20DDD919F9D2705B78D0A186 )
 )
 game (
-	name "Schwert und Magie - Folgen 1 und 2 (Germany) (Alt)"
+	name "Schwert und Magie - Folgen 1 und 2 (Germany)"
 	region "Germany"
 	rom ( name "Schwert und Magie - Folgen 1 und 2 (Germany) (Alt) (Side 2).nib" size 336128 crc FB969EDB md5 898C8C00990D18B6EA17440F47AB029F sha1 B860B22019BD438DF2FC958DAA64D0800157ACD1 )
 )
@@ -12722,7 +12724,7 @@ game (
 	rom ( name "Schwert und Magie - Folgen 3 und 4 (Germany) (Side 2).nib" size 336128 crc 46CA8A81 md5 D4FEAAFAF9AC5421649ED93CC46B0203 sha1 D536B362FA2372347B8169AF6D087A1EDC427A51 )
 )
 game (
-	name "Schwert und Magie - Folgen 3 und 4 (Germany) (Alt)"
+	name "Schwert und Magie - Folgen 3 und 4 (Germany)"
 	region "Germany"
 	rom ( name "Schwert und Magie - Folgen 3 und 4 (Germany) (Alt) (Side 2).nib" size 336128 crc F5A534E5 md5 BFAF62DCC8098A93D0C5F2BD63107EF1 sha1 2DB4D70ECCDFED69BEB6A72556CDBC38553E9338 )
 )
@@ -12739,12 +12741,12 @@ game (
 game (
 	name "Scooby Doo (Europe)"
 	region "Europe"
-	rom ( name "Scooby Doo (Europe).tap" size 626873 crc 5CD7954C md5 6E4F0AC458C2BE27C8E2A1EBC35A81A0 sha1 3C5C6CC32654B3AEAE5C97C4A5F647D0E81FBE8D )
+	rom ( name "Scooby Doo (Europe) (Alt).nib" size 336128 crc A2F1DE6D md5 6E3D1C0E1B3AFBA33240456E061D7CA1 sha1 2E2B9FE0BE1C6A450D5F5116DE1636821F934777 )
 )
 game (
-	name "Scooby Doo (Europe) (Alt)"
+	name "Scooby Doo (Europe)"
 	region "Europe"
-	rom ( name "Scooby Doo (Europe) (Alt).nib" size 336128 crc A2F1DE6D md5 6E3D1C0E1B3AFBA33240456E061D7CA1 sha1 2E2B9FE0BE1C6A450D5F5116DE1636821F934777 )
+	rom ( name "Scooby Doo (Europe).tap" size 626873 crc 5CD7954C md5 6E4F0AC458C2BE27C8E2A1EBC35A81A0 sha1 3C5C6CC32654B3AEAE5C97C4A5F647D0E81FBE8D )
 )
 game (
 	name "Scorpion II (Europe)"
@@ -12892,7 +12894,7 @@ game (
 	rom ( name "Seven Cities of Gold (USA, Europe) (Side 2).nib" size 336128 crc 5CA03E45 md5 B4170F830CB5383621372D18BF532B1F sha1 7B775B7B19B33C4AFBAFB65178CF76EFB93E173D )
 )
 game (
-	name "Seven Cities of Gold (USA, Europe) (Alt)"
+	name "Seven Cities of Gold (USA, Europe)"
 	region "USA"
 	rom ( name "Seven Cities of Gold (USA, Europe) (Alt) (Side 2).nib" size 336128 crc 731EE54F md5 14D9FFFF80644EF8751F51EC1FCC3F36 sha1 450C65F168747D61870B12ACE4A2B8B6DA2BE269 )
 )
@@ -12957,7 +12959,7 @@ game (
 	rom ( name "Shamus (USA, Europe).nib" size 327936 crc 8A4604D1 md5 6B51B42870D67F4BD8B30A2EC5F33845 sha1 32101695AB03DE79C2EE599BCE4373CE8C80AB93 )
 )
 game (
-	name "Shamus (USA, Europe) (Alt)"
+	name "Shamus (USA, Europe)"
 	region "USA"
 	rom ( name "Shamus (USA, Europe) (Alt).nib" size 336128 crc 253F8B72 md5 45A29B3BAE2C1E9DBC05B7CB632B364C sha1 F27341E10DA53EB6005A93809C709C6D0B2E0FF2 )
 )
@@ -12977,7 +12979,7 @@ game (
 	rom ( name "Shanghai (USA, Europe).nib" size 336128 crc 90FF4413 md5 94F95B17BE8D11C17011DE584271D3B9 sha1 43C75EC9EAA7B87A9859D85A296C7ABBFA24A9D0 )
 )
 game (
-	name "Shanghai (USA, Europe) (Alt)"
+	name "Shanghai (USA, Europe)"
 	region "USA"
 	rom ( name "Shanghai (USA, Europe) (Alt).nib" size 336128 crc AA908FA3 md5 6E7536689900ABBDCE2C23E77A63171A sha1 E5BB40B232242301AFC39CF0B8C16B5086A3F871 )
 )
@@ -13157,7 +13159,7 @@ game (
 	rom ( name "SimCity (USA, Europe) (v1.1).nib" size 327936 crc 40FF1BFB md5 E65E11450DBB53C779576BD407851915 sha1 28F7D4590C0D3F1518DF860A3B505D65BD8ADB2F )
 )
 game (
-	name "SimCity (USA, Europe) (v1.1) (Alt)"
+	name "SimCity (USA, Europe) (v1.1)"
 	region "USA"
 	rom ( name "SimCity (USA, Europe) (v1.1) (Alt).nib" size 336128 crc 9DF4D6BE md5 113CA33C20DE7F9D3E088EC2A6AA05E8 sha1 338C694594AC67F197EEA55310CFD226CF3EAB9D )
 )
@@ -13487,7 +13489,7 @@ game (
 	rom ( name "Soko-Ban (USA, Europe) (Side 2).nib" size 336128 crc F03987B2 md5 A91DD710C54A82C29FCEBBB7961C6536 sha1 5737F2DEB806CB0B3B9850B6AD584659C931D647 )
 )
 game (
-	name "Soko-Ban (USA, Europe) (Alt)"
+	name "Soko-Ban (USA, Europe)"
 	region "USA"
 	rom ( name "Soko-Ban (USA, Europe) (Alt) (Side 2).nib" size 336128 crc BBD9712F md5 7D71A4B6896C6AC737B202371C64889A sha1 8A7934F600529B175D565E8BC7ACC8239DA9A1DF )
 )
@@ -13522,7 +13524,7 @@ game (
 	rom ( name "Solo Flight (USA, Europe).nib" size 336128 crc F519C66E md5 2C3B8FDDD935111E7F1AB54CFBBACFF7 sha1 B5C7A9289E46508D3F06065F523332E0FD204AEE )
 )
 game (
-	name "Solo Flight (USA, Europe) (Alt)"
+	name "Solo Flight (USA, Europe)"
 	region "USA"
 	rom ( name "Solo Flight (USA, Europe) (Alt).nib" size 336128 crc 049A3428 md5 1130D5A1C2A786AC554537CE05639C62 sha1 45074D5A0872BFB4820E8B93030E5D364CCB2B3F )
 )
@@ -13747,7 +13749,7 @@ game (
 	rom ( name "Speedball 2 (USA, Europe).nib" size 336128 crc FBE639E4 md5 ED1C6F8D68642C8F7A643B1ECDD681A5 sha1 758AB447147F975138CCB42E7FD9CAE6274A9A15 )
 )
 game (
-	name "Speedball 2 (USA, Europe) (Alt)"
+	name "Speedball 2 (USA, Europe)"
 	region "USA"
 	rom ( name "Speedball 2 (USA, Europe) (Alt).nib" size 336128 crc 68EA620C md5 E2F1A0796842B88302EC9AE8A40B6ADC sha1 73C269444DBE88C858C9D82851ED7E8E772AEAA7 )
 )
@@ -13789,12 +13791,12 @@ game (
 game (
 	name "Spherical (Europe)"
 	region "Europe"
-	rom ( name "Spherical (Europe) (Side 2).tap" size 2971084 crc C6BC9CB1 md5 34D7C26EDEF7ABC2C0B96865B30ED3CD sha1 CCE3520D66075FFA14A8CFC880A055DFF8DC5472 )
+	rom ( name "Spherical (Europe) (Alt) (Side 2).nib" size 336128 crc 3B993670 md5 2DAD3B7C2091FC54A3EAE3E60F2CC58E sha1 D73BDAC89B89139B4916D1D9E3EAEA3506EADC7A )
 )
 game (
-	name "Spherical (Europe) (Alt)"
+	name "Spherical (Europe)"
 	region "Europe"
-	rom ( name "Spherical (Europe) (Alt) (Side 2).nib" size 336128 crc 3B993670 md5 2DAD3B7C2091FC54A3EAE3E60F2CC58E sha1 D73BDAC89B89139B4916D1D9E3EAEA3506EADC7A )
+	rom ( name "Spherical (Europe) (Side 2).tap" size 2971084 crc C6BC9CB1 md5 34D7C26EDEF7ABC2C0B96865B30ED3CD sha1 CCE3520D66075FFA14A8CFC880A055DFF8DC5472 )
 )
 game (
 	name "Spider and the Fly (Europe)"
@@ -13912,7 +13914,7 @@ game (
 	rom ( name "Sporting News Baseball, The (USA, Europe).nib" size 336128 crc 81BBD2EA md5 B2E1E26DC67BB8A9CB087CF20BB15CAB sha1 CCB0ECEBEB137DA6B356179324FAA3DEE1C29887 )
 )
 game (
-	name "Sporting News Baseball, The (USA, Europe) (Alt)"
+	name "Sporting News Baseball, The (USA, Europe)"
 	region "USA"
 	rom ( name "Sporting News Baseball, The (USA, Europe) (Alt).nib" size 336128 crc 73CE7A95 md5 E93F7960597DCE58C45109794CBB71E8 sha1 883632459F445B9B6214E825FF97C6A97DD4D1EE )
 )
@@ -14072,7 +14074,7 @@ game (
 	rom ( name "Star Rank Boxing - Main Event (USA).nib" size 336128 crc 75691053 md5 A5AEB00AFD6CF4A082173A71C1FE2FE8 sha1 6C0F5CAEE1ABDC6F14F149FA37500C1390F23B91 )
 )
 game (
-	name "Star Rank Boxing - Main Event (USA) (Alt)"
+	name "Star Rank Boxing - Main Event (USA)"
 	region "USA"
 	rom ( name "Star Rank Boxing - Main Event (USA) (Alt).nib" size 327936 crc 76C4492F md5 558697A68F6813A41C03FF818755D3A2 sha1 8A71A2A6E128C9882CFD2C818E1ABEBA6386946F )
 )
@@ -14142,7 +14144,7 @@ game (
 	rom ( name "StarTrash (Europe).nib" size 336128 crc 4F9A04C8 md5 5E1C4FD14CB4E7F8885CEADF5FDF35F5 sha1 F381CE29EEC660E8ACB1DC205BB676758E62C44F )
 )
 game (
-	name "StarTrash (Europe) (Alt)"
+	name "StarTrash (Europe)"
 	region "Europe"
 	rom ( name "StarTrash (Europe) (Alt).nib" size 336128 crc C1A793CA md5 19B41B66142391A3747D50E5D906AAC2 sha1 3A94A7701384AE5D7C1A2D8F70C0D85216F363B3 )
 )
@@ -14227,7 +14229,7 @@ game (
 	rom ( name "Stealth Mission (USA, Europe).nib" size 336128 crc 3E768F9A md5 0B6581ACD30AC7BF7311FD2444F01F5A sha1 42E49363DF8D28428579939AD54CC9DC08A729BD )
 )
 game (
-	name "Stealth Mission (USA, Europe) (Alt)"
+	name "Stealth Mission (USA, Europe)"
 	region "USA"
 	rom ( name "Stealth Mission (USA, Europe) (Alt).nib" size 336128 crc 16AFD52E md5 714AB6994976E3F4A10EC74200FC7DEE sha1 36C465465261509001BF6165249E444D88F33C92 )
 )
@@ -14492,7 +14494,7 @@ game (
 	rom ( name "Strike Force Cobra (USA).nib" size 327936 crc 70E43FAD md5 2ADA6C702A8075D9370626AF101395B2 sha1 A91A3A1874951BCCF6028DC5FF003BB8106F464C )
 )
 game (
-	name "Strike Force Cobra (USA) (Alt)"
+	name "Strike Force Cobra (USA)"
 	region "USA"
 	rom ( name "Strike Force Cobra (USA) (Alt).nib" size 336128 crc 0C28F728 md5 F51FB08032C7AB674A1AC26B0E15E075 sha1 487FEFFAAB68620C65CCE286B3417409FCBC70A2 )
 )
@@ -14654,12 +14656,12 @@ game (
 game (
 	name "Summer Olympiad (Europe)"
 	region "Europe"
-	rom ( name "Summer Olympiad (Europe).tap" size 2721010 crc F46449FD md5 3C9F1091D181DA467350B51C9D9F08E2 sha1 DADE9DB90701238A02A4C550E5D8B20CB4001F5E )
+	rom ( name "Summer Olympiad (Europe) (Alt) (Side 2).nib" size 336128 crc 72D04579 md5 A0952BB5A3ABD10C14D75EA2F2121A28 sha1 241886627BC7EE2CA226D65D35242CE7A4AF39BB )
 )
 game (
-	name "Summer Olympiad (Europe) (Alt)"
+	name "Summer Olympiad (Europe)"
 	region "Europe"
-	rom ( name "Summer Olympiad (Europe) (Alt) (Side 2).nib" size 336128 crc 72D04579 md5 A0952BB5A3ABD10C14D75EA2F2121A28 sha1 241886627BC7EE2CA226D65D35242CE7A4AF39BB )
+	rom ( name "Summer Olympiad (Europe).tap" size 2721010 crc F46449FD md5 3C9F1091D181DA467350B51C9D9F08E2 sha1 DADE9DB90701238A02A4C550E5D8B20CB4001F5E )
 )
 game (
 	name "Sunburst (Europe)"
@@ -14712,7 +14714,7 @@ game (
 	rom ( name "Super Bunny (USA, Europe).nib" size 336128 crc 33184AE8 md5 65DD78A1F844E25849857F541987B778 sha1 4AD9DF5AAD1C0BD49DDF14551C7FC111FE6F3FA0 )
 )
 game (
-	name "Super Bunny (USA, Europe) (Alt)"
+	name "Super Bunny (USA, Europe)"
 	region "USA"
 	rom ( name "Super Bunny (USA, Europe) (Alt).nib" size 336128 crc 57D6810A md5 6A11C3E3654DCA5D6F5408546AFEAA32 sha1 20F2F2F94EBF40553C594704985D235B534BA11E )
 )
@@ -14732,7 +14734,7 @@ game (
 	rom ( name "Super Cycle (USA, Europe).nib" size 327936 crc CC394E3F md5 6B08ACB344F5BDB7738341CD2E46D246 sha1 C03F0AD462A790A8F0BDAE114A7A590C0D7E2E9D )
 )
 game (
-	name "Super Cycle (USA, Europe) (Alt)"
+	name "Super Cycle (USA, Europe)"
 	region "USA"
 	rom ( name "Super Cycle (USA, Europe) (Alt).nib" size 336128 crc 2FF71952 md5 72F19C512120936D8E4EF75EFDF1F0BE sha1 1DA19D78A9AE02E837903C5A254E1E3209DE41BC )
 )
@@ -14982,7 +14984,7 @@ game (
 	rom ( name "Superstar Ice Hockey (USA, Europe) (V-MAX).nib" size 336128 crc 25B17AF8 md5 965DDC177E5245A3B854307A2A805E68 sha1 BCA78AE2C28004DB0C8F576576626D9833B4918F )
 )
 game (
-	name "Superstar Ice Hockey (USA, Europe) (V-MAX) (Alt)"
+	name "Superstar Ice Hockey (USA, Europe) (V-MAX)"
 	region "USA"
 	rom ( name "Superstar Ice Hockey (USA, Europe) (V-MAX) (Alt).nib" size 336128 crc 688A349B md5 E56165740726B95C1D376870045ADFA7 sha1 4D91C5B7C24D08BA7CF14A95D14DFF10CB97925C )
 )
@@ -15172,7 +15174,7 @@ game (
 	rom ( name "Tapper (USA, Europe).nib" size 327936 crc 76441FAB md5 6D21C5C2A29010A2FADDEF03A5BF304C sha1 126172BBAE199DDA2BC1A5B4F9020D620373F6CE )
 )
 game (
-	name "Tapper (USA, Europe) (Alt)"
+	name "Tapper (USA, Europe)"
 	region "USA"
 	rom ( name "Tapper (USA, Europe) (Alt).nib" size 336128 crc 2385BE53 md5 BDF6132009F2EBA6FAE561C5FDDDBBA3 sha1 3108FF59DA4F950B925A5716BD13C8F49900D6AA )
 )
@@ -15246,7 +15248,7 @@ game (
 	rom ( name "Temple of Apshai Trilogy (USA, Europe).nib" size 327936 crc 9A26517A md5 497094331E5A861733618DF16C318521 sha1 DB73245D8DF76C13B41B7913D96173F7E27F63C4 )
 )
 game (
-	name "Temple of Apshai Trilogy (USA, Europe) (Alt)"
+	name "Temple of Apshai Trilogy (USA, Europe)"
 	region "USA"
 	rom ( name "Temple of Apshai Trilogy (USA, Europe) (Alt).nib" size 336128 crc BB301252 md5 A3DD20DA88D52355094793E456721B82 sha1 E6FF1518023F49494E61CA67980FAB9E389DD007 )
 )
@@ -15341,7 +15343,7 @@ game (
 	rom ( name "Test Drive 2 - The Duel (Europe).nib" size 336128 crc 98368ACF md5 C5E5C4DFAF27696DD8D2D24981E0CFFD sha1 5B64F576EABABB00383E79A61B106BCD6F246F68 )
 )
 game (
-	name "Test Drive 2 - The Duel (Europe) (Alt)"
+	name "Test Drive 2 - The Duel (Europe)"
 	region "Europe"
 	rom ( name "Test Drive 2 - The Duel (Europe) (Alt).nib" size 336128 crc 3632E455 md5 01C1A0917E21042EF059D0FDCEB4438C sha1 2D0A9131506F6274D0ECC06CBFF6ECCEFD0EF191 )
 )
@@ -15351,12 +15353,12 @@ game (
 	rom ( name "Test Drive 2 - The Duel (USA).nib" size 336128 crc 84DD822B md5 B31CAB2B3EB7A36141AC61DE0C9090FD sha1 E1E363529459526BF29C3919D315C2B660E7FAB2 )
 )
 game (
-	name "Test Drive 2 - The Duel (USA) (Alt 2)"
+	name "Test Drive 2 - The Duel (USA)"
 	region "USA"
 	rom ( name "Test Drive 2 - The Duel (USA) (Alt 2).nib" size 336128 crc 9C0C7B08 md5 6DF8A5690F9ACF8DD301B113ADC73871 sha1 E7A4C3BA9B4FCB21CBC263F337380F9087DBFB7D )
 )
 game (
-	name "Test Drive 2 - The Duel (USA) (Alt)"
+	name "Test Drive 2 - The Duel (USA)"
 	region "USA"
 	rom ( name "Test Drive 2 - The Duel (USA) (Alt).nib" size 336128 crc BC895539 md5 93085963A34F04FA70CBFF0A23C4409F sha1 9BAD1E652A466B2F5299700E425FBFDE53630AD4 )
 )
@@ -15396,7 +15398,7 @@ game (
 	rom ( name "Tetris (USA).nib" size 327936 crc D6DC35BF md5 FB2E3E2AC85E143F9D0E6036AA69A61A sha1 EE48C1BECDCF2558262139B1F58E2AA1B7398D3B )
 )
 game (
-	name "Tetris (USA) (Alt)"
+	name "Tetris (USA)"
 	region "USA"
 	rom ( name "Tetris (USA) (Alt).nib" size 336128 crc B6C43586 md5 784E2EB6D752CDCDA0D84311F26DDF83 sha1 AB283A1065C7B1455786484AA64E89B3DFB4681B )
 )
@@ -15561,7 +15563,7 @@ game (
 	rom ( name "Time Fighter (USA, Europe).nib" size 336128 crc E33F236C md5 F358CF971063D935891345E6DC5ADEF0 sha1 6519FA4783DD603D93599BCAD7ABB26BDABC0254 )
 )
 game (
-	name "Time Fighter (USA, Europe) (Alt)"
+	name "Time Fighter (USA, Europe)"
 	region "USA"
 	rom ( name "Time Fighter (USA, Europe) (Alt).nib" size 336128 crc 3B4A1E5A md5 85583D47627B0E3D78B5A467E9C94625 sha1 139EA3BC1240D8C9D9EB9806CC4E2E6B19F8695B )
 )
@@ -15603,12 +15605,12 @@ game (
 game (
 	name "Time Tunnel (Europe)"
 	region "Europe"
-	rom ( name "Time Tunnel (Europe).tap" size 455643 crc B135E6CE md5 F3D9B185E850D89466E6A4B42D3508ED sha1 8CADF97058EFA75004FE745EF31B666238F20CB8 )
+	rom ( name "Time Tunnel (Europe) (Alt).nib" size 327936 crc 8537756E md5 64D414143C9639676B3F996CA1B18CA6 sha1 C5C068FEAD8D8C65BBFBC057BC1AD575875E1AE5 )
 )
 game (
-	name "Time Tunnel (Europe) (Alt)"
+	name "Time Tunnel (Europe)"
 	region "Europe"
-	rom ( name "Time Tunnel (Europe) (Alt).nib" size 327936 crc 8537756E md5 64D414143C9639676B3F996CA1B18CA6 sha1 C5C068FEAD8D8C65BBFBC057BC1AD575875E1AE5 )
+	rom ( name "Time Tunnel (Europe).tap" size 455643 crc B135E6CE md5 F3D9B185E850D89466E6A4B42D3508ED sha1 8CADF97058EFA75004FE745EF31B666238F20CB8 )
 )
 game (
 	name "Timebound (USA, Europe)"
@@ -15621,7 +15623,7 @@ game (
 	rom ( name "Times of Lore (USA, Europe).nib" size 327936 crc 8F63CE4E md5 5ED33C666279DF438CFDA1215414D93E sha1 A0AB346AF299FCB2E578065508A0857C0CD9D114 )
 )
 game (
-	name "Times of Lore (USA, Europe) (Alt)"
+	name "Times of Lore (USA, Europe)"
 	region "USA"
 	rom ( name "Times of Lore (USA, Europe) (Alt).nib" size 336128 crc F748232E md5 30953E8C5A316E440D97D852A827B225 sha1 1586F54AC561D74EEE34A1DE385EE520608A4EDC )
 )
@@ -15871,7 +15873,7 @@ game (
 	rom ( name "Train, The - Escape to Normandy (USA).nib" size 327936 crc C47A7861 md5 D17ACA13D7536E03A012461C4B1E82D9 sha1 64C7F837F3AF0403F7AD3F4E7916A818B77C3AEC )
 )
 game (
-	name "Train, The - Escape to Normandy (USA) (Alt)"
+	name "Train, The - Escape to Normandy (USA)"
 	region "USA"
 	rom ( name "Train, The - Escape to Normandy (USA) (Alt).nib" size 336128 crc 08F13BD3 md5 AF5DEE69721C48DB487646B3D532948E sha1 4771404CF205720467E6DFFBE4C5680D1C0C493B )
 )
@@ -16098,12 +16100,12 @@ game (
 game (
 	name "Turrican (Europe)"
 	region "Europe"
-	rom ( name "Turrican (Europe).tap" size 2222416 crc BF44DCAF md5 C7153F560EFB66C2FD2ED699CC0AFBE9 sha1 3A3877A0455336E712B4095EF9003C44C37FA788 )
+	rom ( name "Turrican (Europe) (Alt) (Side 2).nib" size 336128 crc 20D5346C md5 DBCD6884BC3123E3E791D4F14E8F3A3D sha1 407F0B9E3D04C1D7C2149369B846C2C6200ED06C )
 )
 game (
-	name "Turrican (Europe) (Alt)"
+	name "Turrican (Europe)"
 	region "Europe"
-	rom ( name "Turrican (Europe) (Alt) (Side 2).nib" size 336128 crc 20D5346C md5 DBCD6884BC3123E3E791D4F14E8F3A3D sha1 407F0B9E3D04C1D7C2149369B846C2C6200ED06C )
+	rom ( name "Turrican (Europe).tap" size 2222416 crc BF44DCAF md5 C7153F560EFB66C2FD2ED699CC0AFBE9 sha1 3A3877A0455336E712B4095EF9003C44C37FA788 )
 )
 game (
 	name "Turrican (USA)"
@@ -16121,7 +16123,7 @@ game (
 	rom ( name "Turrican II - The Final Fight (Europe).tap" size 2418684 crc 4288374E md5 4EF45CA56F606FFE75364458FE96FE0B sha1 549257AE8E877A560E60EF52FEA7E50F7005D0ED )
 )
 game (
-	name "Turrican II - The Final Fight (USA, Europe) (Alt)"
+	name "Turrican II - The Final Fight (USA, Europe)"
 	region "USA"
 	rom ( name "Turrican II - The Final Fight (USA, Europe) (Alt) (Side 2).nib" size 336128 crc 0DDC32C4 md5 04472AC14115DD160588F6AE31779D67 sha1 2A861321FA2F3FC4C37FAB23DA597F6FAFDB88E6 )
 )
@@ -16221,7 +16223,7 @@ game (
 	rom ( name "Ultima I - The First Age of Darkness (USA, Europe).nib" size 336128 crc CE43FE0E md5 D93D0D07F075CF005A8FEEDEF0BF9DAE sha1 78F40A61B7ADF81A94AF26EE57DA80FD8BE94993 )
 )
 game (
-	name "Ultima I - The First Age of Darkness (USA, Europe) (Alt)"
+	name "Ultima I - The First Age of Darkness (USA, Europe)"
 	region "USA"
 	rom ( name "Ultima I - The First Age of Darkness (USA, Europe) (Alt).nib" size 336128 crc 37BCEB99 md5 F112C41C9F6AA732B26CC626BC005315 sha1 B6A8EAC230DD59184BE330F24226A82C8339F2AF )
 )
@@ -16321,7 +16323,7 @@ game (
 	rom ( name "Uridium (USA).nib" size 327936 crc 5EC38B8C md5 417E1EFBFAF2D1E20796EA0F139DAA28 sha1 DD9205103F8B122093B72CCB40368DB47BEA8B95 )
 )
 game (
-	name "Uridium (USA) (Alt)"
+	name "Uridium (USA)"
 	region "USA"
 	rom ( name "Uridium (USA) (Alt).nib" size 336128 crc F233CF71 md5 3C2822B0A2B7872F38C2A381539D2E0F sha1 13E95958638896D5788D679EBE716CA0547A0736 )
 )
@@ -16491,7 +16493,7 @@ game (
 	rom ( name "Volleyball Simulator (Europe).nib" size 336128 crc AB41F367 md5 666663D53A0BB1F2374E29167750650F sha1 AD22523B0E9F2755CB61B0A8DDB6DFC2AD6FF460 )
 )
 game (
-	name "Volleyball Simulator (Europe) (Alt)"
+	name "Volleyball Simulator (Europe)"
 	region "Europe"
 	rom ( name "Volleyball Simulator (Europe) (Alt).nib" size 336128 crc 2BDBE220 md5 CD9952A10DC038C91FD60A4A85CD624A sha1 655BB69C259D9501891FB48128B7B5EDAEBD0DA2 )
 )
@@ -16831,7 +16833,7 @@ game (
 	rom ( name "Winter Games (Europe).tap" size 2851760 crc 1A6FE72B md5 8A794AB33BBD7B16A5A462452AECBAD6 sha1 B03FE237DCF261F760452CA1FE05AE823476B9A1 )
 )
 game (
-	name "Winter Games (USA, Europe) (Alt)"
+	name "Winter Games (USA, Europe)"
 	region "USA"
 	rom ( name "Winter Games (USA, Europe) (Alt) (Side 2).nib" size 327936 crc 7833E4E4 md5 2524D6526EB5A233488195E578A0637C sha1 FDD0C282C9C00A0D2841FC2229057B0BEDB8904B )
 )
@@ -17071,7 +17073,7 @@ game (
 	rom ( name "World Games (USA, Europe) (b-highscores) (Side 2).nib" size 336128 crc 3BB36C0B md5 7DA63B9825601D317885BC0C823DBC85 sha1 ED47E60A2F1472B93CB2C5D2EC9ECCA6A1AC737A )
 )
 game (
-	name "World Games (USA, Europe) (b-highscores) (Alt)"
+	name "World Games (USA, Europe) (b-highscores)"
 	region "USA"
 	rom ( name "World Games (USA, Europe) (b-highscores) (Alt) (Side 2).nib" size 336128 crc E684CF7B md5 FBEB0273892E2ED91972C73902BEEE68 sha1 DECA17A4290758AB86EC30F8914BC9EB9921CA22 )
 )
@@ -17151,7 +17153,7 @@ game (
 	rom ( name "X-Men - Madness in Murderworld (USA, Europe) (Side 4).nib" size 327936 crc 2FCE3B5D md5 0AF6A0852EC2E49E23FC9C2FD355137D sha1 34477F1CC14C8BEFB39B7D9A820D04457A8F1476 )
 )
 game (
-	name "X-Men - Madness in Murderworld (USA, Europe) (Alt)"
+	name "X-Men - Madness in Murderworld (USA, Europe)"
 	region "USA"
 	rom ( name "X-Men - Madness in Murderworld (USA, Europe) (Alt) (Side 4).nib" size 336128 crc 4F2B78E3 md5 CABB8087F275EC4A62F2545EE90000E0 sha1 F9BA5B5FBA8AD340B204E2DE8D746238D8D1C76B )
 )
@@ -17161,7 +17163,7 @@ game (
 	rom ( name "X-Out (Europe) (Side 2).nib" size 336128 crc CC8D40AD md5 F765EBD89A8A08132CFD0D687BD59F46 sha1 8DD28C44EF9CEF17C467B2822954309101CCD202 )
 )
 game (
-	name "X-Out (Europe) (Alt)"
+	name "X-Out (Europe)"
 	region "Europe"
 	rom ( name "X-Out (Europe) (Alt) (Side 2).nib" size 336128 crc B311B3C8 md5 FCFCB8236263021E058FBF3441B687AD sha1 320D06EA940CFA6A9521BC455866553FFFEC75B1 )
 )

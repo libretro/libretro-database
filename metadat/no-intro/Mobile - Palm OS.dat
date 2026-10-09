@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Mobile - Palm OS"
 	description "Mobile - Palm OS"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin|bmp|cfl|dat|pdb|prc|scc|tga|trt"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -87,16 +88,16 @@ game (
 )
 game (
 	name "3D Slider (USA) (Color)"
+	region "USA"
+	rom ( name "3D Slider (USA) (Color).prc" size 348735 crc AE17DF98 md5 673F0DD87C63CE0E9904143D51A438ED sha1 C96F13D259D1780CD555CE16B8CE03A2B07AA745 )
+)
+game (
+	name "3D Slider (USA) (Color)"
 	releaseyear "2004"
 	releasemonth "10"
 	releaseday "21"
 	region "USA"
 	rom ( name "3D Slider (USA) (Color) (2004-10-21).prc" size 489504 crc 8DDC9230 md5 1F95958EBD4AE5789717184F6E039682 sha1 9DDDA8275353718E4F4364762A34EC98576E3A08 )
-)
-game (
-	name "3D Slider (USA) (Color)"
-	region "USA"
-	rom ( name "3D Slider (USA) (Color).prc" size 348735 crc AE17DF98 md5 673F0DD87C63CE0E9904143D51A438ED sha1 C96F13D259D1780CD555CE16B8CE03A2B07AA745 )
 )
 game (
 	name "3D Slider (USA) (Greyscale)"
@@ -1120,6 +1121,11 @@ game (
 )
 game (
 	name "Hoyle Video Poker (USA) (Color)"
+	region "USA"
+	rom ( name "Hoyle Video Poker (USA) (Color).prc" size 90611 crc 50932FF7 md5 688EDF4A9ABC31CECE3D5C38D43A6622 sha1 5B8EAFDD195D5D408845414AA1CCD29CCB059D54 )
+)
+game (
+	name "Hoyle Video Poker (USA) (Color)"
 	releaseyear "2002"
 	releasemonth "06"
 	releaseday "04"
@@ -1128,21 +1134,16 @@ game (
 )
 game (
 	name "Hoyle Video Poker (USA) (Greyscale)"
+	region "USA"
+	rom ( name "Hoyle Video Poker (USA) (Greyscale).prc" size 65039 crc 3B7DB36D md5 62A7D92CD1D13F9635AA04E3A7D07CDF sha1 06073D44161C836234B42C51C12985F125FB0F3F )
+)
+game (
+	name "Hoyle Video Poker (USA) (Greyscale)"
 	releaseyear "2002"
 	releasemonth "06"
 	releaseday "04"
 	region "USA"
 	rom ( name "Hoyle Video Poker (USA) (Greyscale) (2002-06-04).prc" size 65853 crc DFC53BCE md5 29449D71EF7D2DACD2D082E8BC9E38D8 sha1 DF27835B7029D8685617C91AFA4D575A5DF3D39E )
-)
-game (
-	name "Hoyle Video Poker (USA) (Color)"
-	region "USA"
-	rom ( name "Hoyle Video Poker (USA) (Color).prc" size 90611 crc 50932FF7 md5 688EDF4A9ABC31CECE3D5C38D43A6622 sha1 5B8EAFDD195D5D408845414AA1CCD29CCB059D54 )
-)
-game (
-	name "Hoyle Video Poker (USA) (Greyscale)"
-	region "USA"
-	rom ( name "Hoyle Video Poker (USA) (Greyscale).prc" size 65039 crc 3B7DB36D md5 62A7D92CD1D13F9635AA04E3A7D07CDF sha1 06073D44161C836234B42C51C12985F125FB0F3F )
 )
 game (
 	name "Hoyle Word Searches (USA) (Greyscale)"
@@ -1585,12 +1586,22 @@ game (
 	rom ( name "Palm Mahjong (Japan) (256-Bit Color) (2002-08-24).prc" size 269254 crc 0FBAE01F md5 88DC34B1C08C55D2DF172211A1B4CE20 sha1 D65DF7922D2BAF8349AFB4F6FF350FE3C074AE48 )
 )
 game (
+	name "Palm Mahjong (Japan) (256-Bit Color)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (256-Bit Color).prc" size 265162 crc 0D1618D1 md5 7068402D4A3C2439F491EFBA7B132611 sha1 5270A145FF664E473B631FDE3425B80AEC2E1818 )
+)
+game (
 	name "Palm Mahjong (Japan) (BW)"
 	releaseyear "2002"
 	releasemonth "08"
 	releaseday "24"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (BW) (2002-08-24).prc" size 167115 crc 26FE50AC md5 29BE7A27755892D81627527981CA9956 sha1 6FC2D3A7BAB6D68763E000DC0BF24D8535D29B69 )
+)
+game (
+	name "Palm Mahjong (Japan) (BW)"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (BW).prc" size 163520 crc 97D2E006 md5 BCA6C52678C3BC1F58E13B487BA60A71 sha1 B8EE1CA41869A3C97910CB3A6C7ABF9E85264461 )
 )
 game (
 	name "Palm Mahjong (Japan) (Color)"
@@ -1601,24 +1612,6 @@ game (
 	rom ( name "Palm Mahjong (Japan) (Color) (2002-08-24).prc" size 217272 crc F0B71AF3 md5 81351F2F4C87F8470187485965C66A88 sha1 8D34A2FD33E5F8A86BDDB0B8551474D6F9EF36B9 )
 )
 game (
-	name "Palm Mahjong (Japan) (Greyscale)"
-	releaseyear "2002"
-	releasemonth "08"
-	releaseday "24"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (Greyscale) (2002-08-24).prc" size 209799 crc 7729EDF5 md5 DB9C0F4C0884B7CD03F991791EFAD760 sha1 7C150560D933AD97CEE368D53E36EA818D38ED1A )
-)
-game (
-	name "Palm Mahjong (Japan) (256-Bit Color)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (256-Bit Color).prc" size 265162 crc 0D1618D1 md5 7068402D4A3C2439F491EFBA7B132611 sha1 5270A145FF664E473B631FDE3425B80AEC2E1818 )
-)
-game (
-	name "Palm Mahjong (Japan) (BW)"
-	region "Japan"
-	rom ( name "Palm Mahjong (Japan) (BW).prc" size 163520 crc 97D2E006 md5 BCA6C52678C3BC1F58E13B487BA60A71 sha1 B8EE1CA41869A3C97910CB3A6C7ABF9E85264461 )
-)
-game (
 	name "Palm Mahjong (Japan) (Color)"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (Color).prc" size 214150 crc 51D55739 md5 397B5277EE269F55D9FE701D704A464C sha1 3F130FC49F16621FAEE76C24F2E2D431152A64CD )
@@ -1627,6 +1620,14 @@ game (
 	name "Palm Mahjong (Japan) (Greyscale)"
 	region "Japan"
 	rom ( name "Palm Mahjong (Japan) (Greyscale).prc" size 206268 crc 84961162 md5 98B4CF36691B74E8C84AE36DBAD4B676 sha1 7B1BA807F94425AE82EF61DE6E663927841CBEF3 )
+)
+game (
+	name "Palm Mahjong (Japan) (Greyscale)"
+	releaseyear "2002"
+	releasemonth "08"
+	releaseday "24"
+	region "Japan"
+	rom ( name "Palm Mahjong (Japan) (Greyscale) (2002-08-24).prc" size 209799 crc 7729EDF5 md5 DB9C0F4C0884B7CD03F991791EFAD760 sha1 7C150560D933AD97CEE368D53E36EA818D38ED1A )
 )
 game (
 	name "Palm Solitaire & Casino (Japan) (Color)"

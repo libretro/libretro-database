@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Nintendo - Satellaview"
 	description "Nintendo - Satellaview"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bs"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -21,14 +22,6 @@ game (
 	rom ( name "3-ji no Wide Shou - 6 Gatsugou (Japan) (Magazine).bs" size 524288 crc 926ACD7E md5 A99BA6DBC612744F5EFFD37A43A7BAA7 sha1 F64768FA10C69A99531E9D17C74134E540244064 )
 )
 game (
-	name "AK LIVE Hit Gang + Game Tora no Ooana (1995-4-28) (Japan) (SoundLink Magazine)"
-	releaseyear "1995"
-	releasemonth "4"
-	releaseday "28"
-	region "Japan"
-	rom ( name "AK LIVE Hit Gang (1995-4-28) + Game Tora no Ooana (1995-4-28) (Japan) (SoundLink Magazine).bs" size 1048576 crc B657D92B md5 BD00055D529CCF22E586A8E8A38F2CAD sha1 81CA024953B7236CFE7F9A9ACC31FF92F35F0AA4 )
-)
-game (
 	name "AK LIVE Hit Gang (Japan) (Magazine)"
 	releaseyear "1995"
 	releasemonth "5"
@@ -45,6 +38,14 @@ game (
 	rom ( name "AK LIVE Hit Gang (Japan) (1995-6-28) (SoundLink Magazine).bs" size 1048576 crc 06BCA8C0 md5 C42A728A58C4907984CB4E93593F9B91 sha1 4083305E546C44B0CBF303E00FB41FBF8CC90F6E )
 )
 game (
+	name "AK LIVE Hit Gang + Game Tora no Ooana (1995-4-28) (Japan) (SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "4"
+	releaseday "28"
+	region "Japan"
+	rom ( name "AK LIVE Hit Gang (1995-4-28) + Game Tora no Ooana (1995-4-28) (Japan) (SoundLink Magazine).bs" size 1048576 crc B657D92B md5 BD00055D529CCF22E586A8E8A38F2CAD sha1 81CA024953B7236CFE7F9A9ACC31FF92F35F0AA4 )
+)
+game (
 	name "Actraiser (Japan) (5-14)"
 	region "Japan"
 	rom ( name "Actraiser (Japan) (5-14).bs" size 1048576 crc F340C344 md5 16DB3FD1ADA3DCA5B5F6B1B56C804657 sha1 9E37800A965E3DFADCAD8D68C4BF8C7BEA618247 )
@@ -55,9 +56,9 @@ game (
 	rom ( name "Actraiser (Japan) (9-12).bs" size 1048576 crc B9A968FF md5 1151741068304EC8A1E9DF033CCF8BD7 sha1 1D94B555E3A5A018DABF5FE2EA62BA73C2927A82 )
 )
 game (
-	name "Air Management II - Koukuu Ou wo Mezase (Japan) (4-14)"
+	name "Air Management II - Koukuu Ou o Mezase (Japan) (4-14)"
 	region "Japan"
-	rom ( name "Air Management II - Koukuu Ou wo Mezase (Japan) (4-14).bs" size 1048576 crc 93ED1BF7 md5 5741ABEDD74DE2A82FBDD4D960AD5158 sha1 B81D55FB51DD0258FEB91E3F43D3AA19BC15D521 )
+	rom ( name "Air Management II - Koukuu Ou o Mezase (Japan) (4-14).bs" size 1048576 crc 93ED1BF7 md5 5741ABEDD74DE2A82FBDD4D960AD5158 sha1 B81D55FB51DD0258FEB91E3F43D3AA19BC15D521 )
 )
 game (
 	name "Albert Odyssey (Japan) (5-31)"
@@ -101,34 +102,44 @@ game (
 	rom ( name "BS Dragon Quest I (Japan) (SoundLink).bs" size 1048576 crc 5C12F47E md5 90D346898ACF5FC9E610EA8A159A2E69 sha1 8F9842593131D793DB0C02F6FB9BF1A74EA4420B )
 )
 game (
-	name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (11-1) (SoundLink)"
+	name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "3"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (11-1) (SoundLink).bs" size 1048576 crc 64A67AD5 md5 3627AC63B0DF2FE15A39B9A966B26AF1 sha1 253364935D543714D8CD6E769B0395ABF7C5F41D )
+	rom ( name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (1998-11-3) (SoundLink).bs" size 1048576 crc 83034D82 md5 F3CDA6F47165DB1E1F7F23C4F983E80A sha1 D8940F36D2A8F8A12154CA9CA7575217477C0C9E )
 )
 game (
-	name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (11-3) (SoundLink)"
+	name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "1"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (11-3) (SoundLink).bs" size 1048576 crc 83034D82 md5 F3CDA6F47165DB1E1F7F23C4F983E80A sha1 D8940F36D2A8F8A12154CA9CA7575217477C0C9E )
+	rom ( name "BS F-Zero Grand Prix - Dai-1-shuu - Knight League (Japan) (1998-11-1) (SoundLink).bs" size 1048576 crc 64A67AD5 md5 3627AC63B0DF2FE15A39B9A966B26AF1 sha1 253364935D543714D8CD6E769B0395ABF7C5F41D )
 )
 game (
 	name "BS F-Zero Grand Prix - Dai-2-shuu - Queen League (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "8"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-2-shuu - Queen League (Japan) (SoundLink).bs" size 1048576 crc D81B85D7 md5 E767A6A198FCC265B80915FB8C6011BA sha1 2201A4BBC06F7880267AAB2A05BFC41032394B46 )
+	rom ( name "BS F-Zero Grand Prix - Dai-2-shuu - Queen League (Japan) (1998-11-8) (SoundLink).bs" size 1048576 crc D81B85D7 md5 E767A6A198FCC265B80915FB8C6011BA sha1 2201A4BBC06F7880267AAB2A05BFC41032394B46 )
 )
 game (
-	name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (11-19) (SoundLink)"
+	name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "3"
+	releaseday "20"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (11-19) (SoundLink).bs" size 1048576 crc 8FCC8355 md5 AA61F7B072173B05A4EFB81116D665C1 sha1 7177D26581C4E23814CDB05A2867BDE723A72E6A )
+	rom ( name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (1997-3-20) (SoundLink).bs" size 1048576 crc 43338739 md5 1950E995113972B235504A5CD27ABD74 sha1 F9C9287D6F882708E4B43B9C29AB41357D33585C )
 )
 game (
-	name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (3-20) (SoundLink)"
+	name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "19"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (3-20) (SoundLink).bs" size 1048576 crc 43338739 md5 1950E995113972B235504A5CD27ABD74 sha1 F9C9287D6F882708E4B43B9C29AB41357D33585C )
-)
-game (
-	name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (11-25) (SoundLink)"
-	region "Japan"
-	rom ( name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (11-25) (SoundLink).bs" size 1048576 crc 7442AD93 md5 A6971AFD9854A4BB9B7EEB2E0E454E75 sha1 A7E2B57B13B86093D94AE5F09EC618177171D919 )
+	rom ( name "BS F-Zero Grand Prix - Dai-3-shuu - King League (Japan) (1998-11-19) (SoundLink).bs" size 1048576 crc 8FCC8355 md5 AA61F7B072173B05A4EFB81116D665C1 sha1 7177D26581C4E23814CDB05A2867BDE723A72E6A )
 )
 game (
 	name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (Premiere) (SoundLink)"
@@ -137,6 +148,14 @@ game (
 	releaseday "19"
 	region "Japan"
 	rom ( name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (Premiere) (1997-1-19) (SoundLink).bs" size 1048576 crc AB4A85A8 md5 5F61EA0D812392960F69D2D6A20891CC sha1 BB8B0421EB6BE5C904021828E325B243597442B0 )
+)
+game (
+	name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "25"
+	region "Japan"
+	rom ( name "BS F-Zero Grand Prix - Dai-4-shuu - Ace League (Japan) (1998-11-25) (SoundLink).bs" size 1048576 crc 7442AD93 md5 A6971AFD9854A4BB9B7EEB2E0E454E75 sha1 A7E2B57B13B86093D94AE5F09EC618177171D919 )
 )
 game (
 	name "BS F-Zero Grand Prix 2 - Dai-1-shuu (Japan) (SoundLink)"
@@ -164,9 +183,12 @@ game (
 	rom ( name "BS F-Zero Grand Prix 2 - Practice (Japan) (5-17).bs" size 1048576 crc 30CDD029 md5 1326AA8983A69D615467686CAD091AB4 sha1 E3B3F253B54BC60A04BFA8689FB27A39D4EFD29C )
 )
 game (
-	name "BS F-Zero Grand Prix 2 - Practice (Japan) (6-7)"
+	name "BS F-Zero Grand Prix 2 - Practice (Japan) (Premiere)"
+	releaseyear "1997"
+	releasemonth "6"
+	releaseday "7"
 	region "Japan"
-	rom ( name "BS F-Zero Grand Prix 2 - Practice (Japan) (6-7).bs" size 1048576 crc B86DD6A2 md5 4E6275AC5F7EC73D2DC41C70A82C038F sha1 E8EEB60F0A7009205ECF0BD9AAEB21C8C391A17F )
+	rom ( name "BS F-Zero Grand Prix 2 - Practice (Japan) (Premiere) (1997-6-7).bs" size 1048576 crc B86DD6A2 md5 4E6275AC5F7EC73D2DC41C70A82C038F sha1 E8EEB60F0A7009205ECF0BD9AAEB21C8C391A17F )
 )
 game (
 	name "BS Famitsu Magazine Kawara-ban 4-27 Gou (Japan) (Magazine)"
@@ -179,44 +201,68 @@ game (
 	rom ( name "BS Famitsu Magazine Kawara-ban 5-24 Gou (Japan) (Magazine).bs" size 524288 crc 3E2C1B28 md5 4EF5F21651824DC5F7B9845D9299D933 sha1 4FB35DF006060D91420450D8C03B0A95BB0E5760 )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (4-4) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "9"
+	releaseday "29"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (4-4) (SoundLink).bs" size 1048576 crc D42EA2E0 md5 A919F44E13FB564066E36840136EF42A sha1 F279A35711FE3118234C1C114D2733DD12AF88C3 )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (1997-9-29) (SoundLink).bs" size 1048576 crc 2BCDF855 md5 D329EA8CAFE57FC02678F61725EB464A sha1 DA2C02FF04D454A183C9E07DF5323ADFE0961CE8 )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (9-29) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "4"
+	releaseday "4"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (9-29) (SoundLink).bs" size 1048576 crc 2BCDF855 md5 D329EA8CAFE57FC02678F61725EB464A sha1 DA2C02FF04D454A183C9E07DF5323ADFE0961CE8 )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-1-wa - Palace Kanraku (Japan) (1999-4-4) (SoundLink).bs" size 1048576 crc D42EA2E0 md5 A919F44E13FB564066E36840136EF42A sha1 F279A35711FE3118234C1C114D2733DD12AF88C3 )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuu Kishi (Japan) (4-13) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuu Kishi (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "4"
+	releaseday "13"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuu Kishi (Japan) (4-13) (SoundLink).bs" size 1048576 crc FCAAFE47 md5 204C828DCDEFB7ABEA0A2FC246E23C13 sha1 2FE5509DCFF4C50D3D355172C31A6906956C6A64 )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-2-wa - Akai Ryuu Kishi (Japan) (1999-4-13) (SoundLink).bs" size 1048576 crc FCAAFE47 md5 204C828DCDEFB7ABEA0A2FC246E23C13 sha1 2FE5509DCFF4C50D3D355172C31A6906956C6A64 )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (10-18) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "4"
+	releaseday "21"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (10-18) (SoundLink).bs" size 1048576 crc F002D4F7 md5 1A302CCC4304F17D4E6DFE408AD3B43E sha1 499A289327106227BC1E6BC406D7B25DF7B22ABC )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (1999-4-21) (SoundLink).bs" size 1048576 crc 3D3EB686 md5 91BBC9FD486E37D54C0CB09BAE8D65A5 sha1 8D45CCA2711F43E5877E4A45D9291D2CB774F00A )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (12-15) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "10"
+	releaseday "18"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (12-15) (SoundLink).bs" size 1048576 crc E3A31FCF md5 68E50F17CAD46102F7CCA94453E4D14F sha1 1FEDF40F3E0D10D90B0C3E2E311A9F9A0EB7F305 )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (1997-10-18) (SoundLink).bs" size 1048576 crc F002D4F7 md5 1A302CCC4304F17D4E6DFE408AD3B43E sha1 499A289327106227BC1E6BC406D7B25DF7B22ABC )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (4-21) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "12"
+	releaseday "15"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (4-21) (SoundLink).bs" size 1048576 crc 3D3EB686 md5 91BBC9FD486E37D54C0CB09BAE8D65A5 sha1 8D45CCA2711F43E5877E4A45D9291D2CB774F00A )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-3-wa - Seigi no Touzokudan (Japan) (1997-12-15) (SoundLink).bs" size 1048576 crc E3A31FCF md5 68E50F17CAD46102F7CCA94453E4D14F sha1 1FEDF40F3E0D10D90B0C3E2E311A9F9A0EB7F305 )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-28) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "4"
+	releaseday "29"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-28) (SoundLink).bs" size 1048576 crc F5C19C84 md5 D58B996CB4672BEE231E5DE5E53D0B68 sha1 E02963097DA96D80C278513BED6EE49B5E508C99 )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (1999-4-29) (SoundLink).bs" size 1048576 crc 6CA61C7B md5 210B58B71FE979C45490B4CE4F4944DE sha1 186B3631067B82F81D2BC23E3080709EAAF3DD2F )
 )
 game (
-	name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-29) (SoundLink)"
+	name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "4"
+	releaseday "28"
 	region "Japan"
-	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (4-29) (SoundLink).bs" size 1048576 crc 6CA61C7B md5 210B58B71FE979C45490B4CE4F4944DE sha1 186B3631067B82F81D2BC23E3080709EAAF3DD2F )
+	rom ( name "BS Fire Emblem - Akaneia Senki Hen - Dai-4-wa - Hajimari no Toki (Japan) (1999-4-28) (SoundLink).bs" size 1048576 crc F5C19C84 md5 D58B996CB4672BEE231E5DE5E53D0B68 sha1 E02963097DA96D80C278513BED6EE49B5E508C99 )
 )
 game (
 	name "BS Fuurai no Shiren - Surara o Sukue - Dai-2-shuu (Japan) (SoundLink)"
@@ -239,24 +285,36 @@ game (
 	rom ( name "BS Ihatovo Monogatari - Dai-2-wa (Japan) (SoundLink).bs" size 1048576 crc 3C3505C8 md5 52A3F714D675DB3F128D1A3BCE1763A0 sha1 74A213230EAFAC1A58DD33F16299BD5F612D131E )
 )
 game (
-	name "BS KureKure Mou Race - 2 Tsuki-Gou (2-3) + RPG Tsukuru 2 (Japan) (Data Pack)"
+	name "BS KureKure Mou Race - 2 Tsuki-Gou (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "2"
+	releaseday "11"
 	region "Japan"
-	rom ( name "BS KureKure Mou Race - 2 Tsuki-Gou (2-3) + RPG Tsukuru 2 (Japan) (Data Pack).bs" size 1048576 crc C9EB7E5E md5 4C74DA75EF4FA87DB6B7BD9E87450095 sha1 BA081B3DEDBF0A8866A8BB19D3A77108F026CA34 )
+	rom ( name "BS KureKure Mou Race - 2 Tsuki-Gou (Japan) (1996-2-11) (Data Pack).bs" size 1048576 crc 0BDF6F13 md5 B4A9AC6EA04A7409741117F754A48B6C sha1 9CC8E3A9CFE26D4824C09A32342A211B57A061C2 )
 )
 game (
-	name "BS KureKure Mou Race - 2 Tsuki-Gou (Japan) (2-11) (Data Pack)"
+	name "BS KureKure Mou Race - 2 Tsuki-Gou + RPG Tsukuru 2 (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "2"
+	releaseday "3"
 	region "Japan"
-	rom ( name "BS KureKure Mou Race - 2 Tsuki-Gou (Japan) (2-11) (Data Pack).bs" size 1048576 crc 0BDF6F13 md5 B4A9AC6EA04A7409741117F754A48B6C sha1 9CC8E3A9CFE26D4824C09A32342A211B57A061C2 )
+	rom ( name "BS KureKure Mou Race - 2 Tsuki-Gou (1996-2-3) + RPG Tsukuru 2 (Japan) (Data Pack).bs" size 1048576 crc C9EB7E5E md5 4C74DA75EF4FA87DB6B7BD9E87450095 sha1 BA081B3DEDBF0A8866A8BB19D3A77108F026CA34 )
 )
 game (
 	name "BS KureKure Mou Race - 3 Tsuki-Gou (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "3"
+	releaseday "17"
 	region "Japan"
-	rom ( name "BS KureKure Mou Race - 3 Tsuki-Gou (Japan) (Data Pack).bs" size 1048576 crc 071DCE00 md5 EB539C314471127A9B6406FA96CBE836 sha1 6321C1D3F94F441AD7524C8421276A2C3A247BD9 )
+	rom ( name "BS KureKure Mou Race - 3 Tsuki-Gou (Japan) (1996-3-17) (Data Pack).bs" size 1048576 crc 071DCE00 md5 EB539C314471127A9B6406FA96CBE836 sha1 6321C1D3F94F441AD7524C8421276A2C3A247BD9 )
 )
 game (
-	name "BS KureKure Mou Race - 4 Tsuki-Gou (4-10) + Alf to Hakase no Daibouken (6-17) (Japan) (Data Pack)"
+	name "BS KureKure Mou Race - 4 Tsuki-Gou + Alf to Hakase no Daibouken (6-17) (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "10"
 	region "Japan"
-	rom ( name "BS KureKure Mou Race - 4 Tsuki-Gou (4-10) + Alf to Hakase no Daibouken (6-17) (Japan) (Data Pack).bs" size 1048576 crc 3FF4DBE6 md5 1F46CACFDE0AC48E86753166C39B4B48 sha1 84449384A01D6531DDD5E5B6FE207AE34974F3FC )
+	rom ( name "BS KureKure Mou Race - 4 Tsuki-Gou (1996-4-10) + Alf to Hakase no Daibouken (6-17) (Japan) (Data Pack).bs" size 1048576 crc 3FF4DBE6 md5 1F46CACFDE0AC48E86753166C39B4B48 sha1 84449384A01D6531DDD5E5B6FE207AE34974F3FC )
 )
 game (
 	name "BS Marvelous - Camp Arnold Course - Dai-1-shuu (Japan) (SoundLink)"
@@ -349,49 +407,76 @@ game (
 	rom ( name "BS Nintendo HP - 5-31 Gou (Japan) (Magazine).bs" size 1048576 crc A95AF89E md5 32F1BE6835618CC5F787CFF8A517E6E6 sha1 18245217BEE4CBBE5889420FF4735B935DE660B1 )
 )
 game (
-	name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (3-13) (SoundLink)"
+	name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (Premiere) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "13"
 	region "Japan"
-	rom ( name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (3-13) (SoundLink).bs" size 1048576 crc 661E61F9 md5 B1DA15A76B46F6F534C3DD37D183C51E sha1 2D011B6960D1DD75696F61D23BA6B5ABE8130234 )
+	rom ( name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (Premiere) (1998-3-13) (SoundLink).bs" size 1048576 crc 661E61F9 md5 B1DA15A76B46F6F534C3DD37D183C51E sha1 2D011B6960D1DD75696F61D23BA6B5ABE8130234 )
 )
 game (
-	name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (5-13) (SoundLink)"
+	name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "5"
+	releaseday "13"
 	region "Japan"
-	rom ( name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (5-13) (SoundLink).bs" size 1048576 crc C0F38B87 md5 1EBF70BE8A08E17F89FA903D017514E8 sha1 12ACD209C5BD7875B2E01AD25253F96695C3F1B8 )
+	rom ( name "BS Parlor! Parlor! - Dai-2-shuu (Japan) (1998-5-13) (SoundLink).bs" size 1048576 crc C0F38B87 md5 1EBF70BE8A08E17F89FA903D017514E8 sha1 12ACD209C5BD7875B2E01AD25253F96695C3F1B8 )
 )
 game (
-	name "BS Shin Onigashima - Dai-1-wa (Japan) (1-11) (SoundLink)"
+	name "BS Shin Onigashima - Dai-1-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "1"
+	releaseday "11"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-1-wa (Japan) (1-11) (SoundLink).bs" size 1048576 crc 654EC9B9 md5 ED11CD88DA8985AA345E4572C2E45CC8 sha1 F842884CEBF7E1FEE7F23D7DCACECD7A5B01CC35 )
+	rom ( name "BS Shin Onigashima - Dai-1-wa (Japan) (1999-1-11) (SoundLink).bs" size 1048576 crc 654EC9B9 md5 ED11CD88DA8985AA345E4572C2E45CC8 sha1 F842884CEBF7E1FEE7F23D7DCACECD7A5B01CC35 )
 )
 game (
-	name "BS Shin Onigashima - Dai-1-wa (Japan) (12-2) (SoundLink)"
+	name "BS Shin Onigashima - Dai-1-wa (Japan) (SoundLink)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "2"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-1-wa (Japan) (12-2) (SoundLink).bs" size 1048576 crc D53D8FA7 md5 A8F1CE37CF343F4659471F1D5262A80A sha1 B34C78D095171F68DB378927EE21ECCCFF1617E2 )
+	rom ( name "BS Shin Onigashima - Dai-1-wa (Japan) (1996-12-2) (SoundLink).bs" size 1048576 crc D53D8FA7 md5 A8F1CE37CF343F4659471F1D5262A80A sha1 B34C78D095171F68DB378927EE21ECCCFF1617E2 )
 )
 game (
 	name "BS Shin Onigashima - Dai-2-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "1"
+	releaseday "18"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-2-wa (Japan) (SoundLink).bs" size 1048576 crc 25317CB6 md5 67D0EE2B18C696CF0E611C34CA363A69 sha1 A94E9367DB4C8AF243DA85E63142987540E7FB1C )
+	rom ( name "BS Shin Onigashima - Dai-2-wa (Japan) (1999-1-18) (SoundLink).bs" size 1048576 crc 25317CB6 md5 67D0EE2B18C696CF0E611C34CA363A69 sha1 A94E9367DB4C8AF243DA85E63142987540E7FB1C )
 )
 game (
-	name "BS Shin Onigashima - Dai-3-wa (Japan) (1-24) (SoundLink)"
+	name "BS Shin Onigashima - Dai-3-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "1"
+	releaseday "27"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-3-wa (Japan) (1-24) (SoundLink).bs" size 1048576 crc 519E1EBD md5 020A6F9F9254AB28FFD97366017CB85E sha1 AF8D16C50952A1E62919B7BBE63E964000F24E71 )
+	rom ( name "BS Shin Onigashima - Dai-3-wa (Japan) (1999-1-27) (SoundLink).bs" size 1048576 crc A612849D md5 66427EFF5C50838769EF499240868C1A sha1 C0546CBAF4780DF086F7C9A65B06A701BF318991 )
 )
 game (
-	name "BS Shin Onigashima - Dai-3-wa (Japan) (1-27) (SoundLink)"
+	name "BS Shin Onigashima - Dai-3-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "1"
+	releaseday "24"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-3-wa (Japan) (1-27) (SoundLink).bs" size 1048576 crc A612849D md5 66427EFF5C50838769EF499240868C1A sha1 C0546CBAF4780DF086F7C9A65B06A701BF318991 )
+	rom ( name "BS Shin Onigashima - Dai-3-wa (Japan) (1999-1-24) (SoundLink).bs" size 1048576 crc 519E1EBD md5 020A6F9F9254AB28FFD97366017CB85E sha1 AF8D16C50952A1E62919B7BBE63E964000F24E71 )
 )
 game (
-	name "BS Shin Onigashima - Dai-4-wa (Japan) (1-31) (SoundLink)"
+	name "BS Shin Onigashima - Dai-4-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "1"
+	releaseday "31"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-4-wa (Japan) (1-31) (SoundLink).bs" size 1048576 crc 8FDC1257 md5 73EF2061E65DA04D141A2D86836BFA49 sha1 20ED8F6E671B63B022919AA9CB56A116C2078E45 )
+	rom ( name "BS Shin Onigashima - Dai-4-wa (Japan) (1999-1-31) (SoundLink).bs" size 1048576 crc 8FDC1257 md5 73EF2061E65DA04D141A2D86836BFA49 sha1 20ED8F6E671B63B022919AA9CB56A116C2078E45 )
 )
 game (
-	name "BS Shin Onigashima - Dai-4-wa (Japan) (2-1) (SoundLink)"
+	name "BS Shin Onigashima - Dai-4-wa (Japan) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "2"
+	releaseday "1"
 	region "Japan"
-	rom ( name "BS Shin Onigashima - Dai-4-wa (Japan) (2-1) (SoundLink).bs" size 1048576 crc E3E8261B md5 D074B296792927CAD88F2C07CA990BD2 sha1 2BBDCA6D4A213473F885C5541465A98F2163FDA5 )
+	rom ( name "BS Shin Onigashima - Dai-4-wa (Japan) (1999-2-1) (SoundLink).bs" size 1048576 crc E3E8261B md5 D074B296792927CAD88F2C07CA990BD2 sha1 2BBDCA6D4A213473F885C5541465A98F2163FDA5 )
 )
 game (
 	name "BS Sim City - Scenario 3 (Japan) (SoundLink)"
@@ -404,14 +489,20 @@ game (
 	rom ( name "BS St. Giga PG - 10 Gatsugou (Japan) (Magazine).bs" size 1048576 crc 3D059CA1 md5 A91CC973D177D07D6D20459782D42CDB sha1 96A033DA8058D8B768366EC270F0466F47925E13 )
 )
 game (
-	name "BS Super Mario Collection - Dai-3-shuu (Japan) (3-17) (SoundLink)"
+	name "BS Super Mario Collection - Dai-3-shuu (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "17"
 	region "Japan"
-	rom ( name "BS Super Mario Collection - Dai-3-shuu (Japan) (3-17) (SoundLink).bs" size 1048576 crc 81042DAB md5 C6CC3A6005D8BF1B24185EA9BAA21B68 sha1 DC46EFAEA7FA27F514AA04F21C82F33DB0930F13 )
+	rom ( name "BS Super Mario Collection - Dai-3-shuu (Japan) (1998-3-17) (SoundLink).bs" size 1048576 crc 81042DAB md5 C6CC3A6005D8BF1B24185EA9BAA21B68 sha1 DC46EFAEA7FA27F514AA04F21C82F33DB0930F13 )
 )
 game (
-	name "BS Super Mario Collection - Dai-3-shuu (Japan) (3-18) (SoundLink)"
+	name "BS Super Mario Collection - Dai-3-shuu (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "18"
 	region "Japan"
-	rom ( name "BS Super Mario Collection - Dai-3-shuu (Japan) (3-18) (SoundLink).bs" size 1048576 crc F1DDAAEB md5 D468777F29065FBA36DC8D5696E83C54 sha1 7D470471329FD697AF6A073D870A4D2033615B63 )
+	rom ( name "BS Super Mario Collection - Dai-3-shuu (Japan) (1998-3-18) (SoundLink).bs" size 1048576 crc F1DDAAEB md5 D468777F29065FBA36DC8D5696E83C54 sha1 7D470471329FD697AF6A073D870A4D2033615B63 )
 )
 game (
 	name "BS Super Mario USA - Power Challenge - Dai-1-kai (Japan) (SoundLink)"
@@ -438,14 +529,44 @@ game (
 	rom ( name "BS Supercooked! (World) (Aftermarket) (Unl).bs" size 524288 crc 2E3EACB8 md5 E686EDD361F0DAA288FD116AB90603FF sha1 03889D88BFD077F42DDE840B6AF73AD254C77912 )
 )
 game (
-	name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (6-14) (SoundLink)"
+	name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "20"
 	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (6-14) (SoundLink).bs" size 1048576 crc E64EA557 md5 829A305C852B77B0E12571416204A4FF sha1 D6168B93248E017029A856DBD9AB18D35A401E27 )
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (1998-6-20) (SoundLink).bs" size 1048576 crc 67568B74 md5 9DFD7CFE35E6DF67A28197C68213ECAB sha1 E88C6F7C140C57D6388C18A4C2E9D241779800D1 )
 )
 game (
-	name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (6-20) (SoundLink)"
+	name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "14"
 	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (6-20) (SoundLink).bs" size 1048576 crc 67568B74 md5 9DFD7CFE35E6DF67A28197C68213ECAB sha1 E88C6F7C140C57D6388C18A4C2E9D241779800D1 )
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Chuuhen (Japan) (1998-6-14) (SoundLink).bs" size 1048576 crc E64EA557 md5 829A305C852B77B0E12571416204A4FF sha1 D6168B93248E017029A856DBD9AB18D35A401E27 )
+)
+game (
+	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "2"
+	releaseday "24"
+	region "Japan"
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (1997-2-24) (SoundLink).bs" size 1048576 crc 834055A7 md5 B0CEA32BDBC29E8790DA7636CCD6A2FF sha1 D61BFB8118C647043525D7E848CC7C5464CE6C17 )
+)
+game (
+	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (SoundLink)"
+	releaseyear "1997"
+	releasemonth "2"
+	releaseday "23"
+	region "Japan"
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (1997-2-23) (SoundLink).bs" size 1048576 crc 4AE1FDEB md5 89A4B5F7EA6D2FFEF554E4AD9DA1F72C sha1 DE5140ED7FE166F884EAC409077A1CEE16BC3325 )
+)
+game (
+	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "22"
+	region "Japan"
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (1998-6-22) (SoundLink).bs" size 1048576 crc B5FD446D md5 CBD73501DB873B78C73A6886DF49BEC4 sha1 2BEEC53E0F69E51168D5916100CE41176C7E65A8 )
 )
 game (
 	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (SoundLink)"
@@ -457,40 +578,19 @@ game (
 )
 game (
 	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (SoundLink)"
-	releaseyear "1997"
-	releasemonth "6"
-	releaseday "22"
-	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (1997-6-22) (SoundLink).bs" size 1048576 crc B5FD446D md5 CBD73501DB873B78C73A6886DF49BEC4 sha1 2BEEC53E0F69E51168D5916100CE41176C7E65A8 )
-)
-game (
-	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (SoundLink)"
-	releaseyear "1997"
+	releaseyear "1998"
 	releasemonth "6"
 	releaseday "25"
 	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (1997-6-25) (SoundLink).bs" size 1048576 crc C8B081D9 md5 1A3028970CEE12B724B21BA692FC3B2E sha1 3EFAB7FE2BFCC55060EA5301CE0453514ED9F5D2 )
-)
-game (
-	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (SoundLink)"
-	releaseyear "1997"
-	releasemonth "2"
-	releaseday "23"
-	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (1997-2-23) (SoundLink).bs" size 1048576 crc 4AE1FDEB md5 89A4B5F7EA6D2FFEF554E4AD9DA1F72C sha1 DE5140ED7FE166F884EAC409077A1CEE16BC3325 )
-)
-game (
-	name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (SoundLink)"
-	releaseyear "1997"
-	releasemonth "2"
-	releaseday "24"
-	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (Premiere) (1997-2-24) (SoundLink).bs" size 1048576 crc 834055A7 md5 B0CEA32BDBC29E8790DA7636CCD6A2FF sha1 D61BFB8118C647043525D7E848CC7C5464CE6C17 )
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Kouhen (Japan) (1998-6-25) (SoundLink).bs" size 1048576 crc C8B081D9 md5 1A3028970CEE12B724B21BA692FC3B2E sha1 3EFAB7FE2BFCC55060EA5301CE0453514ED9F5D2 )
 )
 game (
 	name "BS Tantei Club - Yuki ni Kieta Kako - Zenpen (Japan) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "12"
+	releaseday "29"
 	region "Japan"
-	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Zenpen (Japan) (SoundLink).bs" size 1048576 crc DC3354E8 md5 43D983147366F82CFBC2AE1162031449 sha1 C082F21C81C0A3648D448E68C0FCF59AF8E73A59 )
+	rom ( name "BS Tantei Club - Yuki ni Kieta Kako - Zenpen (Japan) (1998-12-29) (SoundLink).bs" size 1048576 crc DC3354E8 md5 43D983147366F82CFBC2AE1162031449 sha1 C082F21C81C0A3648D448E68C0FCF59AF8E73A59 )
 )
 game (
 	name "BS Zelda no Densetsu - Dai-1-wa (Japan) (Rerun) (SoundLink)"
@@ -528,6 +628,11 @@ game (
 	rom ( name "BS Zelda no Densetsu - Inishie no Sekiban - Dai-3-wa (Japan) (SoundLink).bs" size 1048576 crc C251D4FA md5 59CEE44354ED6FD664236BA9F6B18A63 sha1 25EFEE5199C9DA0805306EDAC3367D60253EA828 )
 )
 game (
+	name "BS Zelda no Densetsu - Inishie no Sekiban - Dai-4-wa (Japan) (Premiere) (SoundLink)"
+	region "Japan"
+	rom ( name "BS Zelda no Densetsu - Inishie no Sekiban - Dai-4-wa (Japan) (Premiere) (SoundLink).bs" size 1048576 crc 2F759F28 md5 2CABFE9EA47D1F9AF81E2836AA667040 sha1 C1A9F9B6BE8924E7E0C34F6EB39502D3DBBF9BBE )
+)
+game (
 	name "BS Zelda no Densetsu - Inishie no Sekiban - Dai-4-wa (Japan) (SoundLink)"
 	region "Japan"
 	rom ( name "BS Zelda no Densetsu - Inishie no Sekiban - Dai-4-wa (Japan) (SoundLink).bs" size 1048576 crc 8385BBF4 md5 DA4D548E54A593E635E023BBF7DB72B1 sha1 63C1110E32D4B3B2D6525919E10E50ABCC7677A3 )
@@ -556,28 +661,9 @@ game (
 	rom ( name "Bakushow Mondai no Natsuyasumi no Ousama (Japan) (1995-8-12) (SoundLink Magazine).bs" size 1048576 crc 8A452BBF md5 54C63426D5CCA05EF6EEEF821B2B6AF5 sha1 22ECD3274BE8E9999238F0C44CBC52528D420F83 )
 )
 game (
-	name "Bakushow Mondai no Silicon Chounaikai + Super Formation Soccer (9-22) (Japan) (SoundLink Magazine, Game)"
-	releaseyear "1996"
-	releasemonth "9"
-	releaseday "14"
+	name "Bakushow Mondai no Silicon Chounaikai (Japan) (1997-2-1 + 1997-2-8) (SoundLink Magazine)"
 	region "Japan"
-	rom ( name "Bakushow Mondai no Silicon Chounaikai (1996-9-14) + Super Formation Soccer (9-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc B17BB916 md5 4BB06D78CFFD738788AD4BC8458A5340 sha1 78423A10709E77806BC929961F8B3027278F0137 )
-)
-game (
-	name "Bakushow Mondai no Silicon Chounaikai + Bakushow Mondai no Silicon Chounaikai (1997-2-8) (Japan) (SoundLink Magazine)"
-	releaseyear "1997"
-	releasemonth "2"
-	releaseday "1"
-	region "Japan"
-	rom ( name "Bakushow Mondai no Silicon Chounaikai (1997-2-1) + Bakushow Mondai no Silicon Chounaikai (1997-2-8) (Japan) (SoundLink Magazine).bs" size 1048576 crc 54A6EC22 md5 D4FD2B8C766A0E07D6ED734A666AEC39 sha1 78F4D58EB14F3FA913F2CAC7EDF9E2070EF31180 )
-)
-game (
-	name "Bakushow Mondai no Silicon Chounaikai (Japan) (SoundLink Magazine)"
-	releaseyear "1996"
-	releasemonth "11"
-	releaseday "16"
-	region "Japan"
-	rom ( name "Bakushow Mondai no Silicon Chounaikai (Japan) (1996-11-16) (SoundLink Magazine).bs" size 1048576 crc 047BA6E6 md5 B9291C3B603CE93C4DD51BD07258C316 sha1 5FAE445B52151D64AAE0EFED0D491D2EAB86AA65 )
+	rom ( name "Bakushow Mondai no Silicon Chounaikai (Japan) (1997-2-1 + 1997-2-8) (SoundLink Magazine).bs" size 1048576 crc 54A6EC22 md5 D4FD2B8C766A0E07D6ED734A666AEC39 sha1 78F4D58EB14F3FA913F2CAC7EDF9E2070EF31180 )
 )
 game (
 	name "Bakushow Mondai no Silicon Chounaikai (Japan) (SoundLink Magazine)"
@@ -589,6 +675,14 @@ game (
 )
 game (
 	name "Bakushow Mondai no Silicon Chounaikai (Japan) (SoundLink Magazine)"
+	releaseyear "1997"
+	releasemonth "2"
+	releaseday "8"
+	region "Japan"
+	rom ( name "Bakushow Mondai no Silicon Chounaikai (Japan) (1997-2-8) (SoundLink Magazine).bs" size 1048576 crc D4F77BD2 md5 647E019140832DE6DDC8173A230CCF1B sha1 5856333783CC1ED500C641695F1CBF2428AAB910 )
+)
+game (
+	name "Bakushow Mondai no Silicon Chounaikai (Japan) (SoundLink Magazine)"
 	releaseyear "1996"
 	releasemonth "7"
 	releaseday "27"
@@ -597,11 +691,19 @@ game (
 )
 game (
 	name "Bakushow Mondai no Silicon Chounaikai (Japan) (SoundLink Magazine)"
-	releaseyear "1997"
-	releasemonth "2"
-	releaseday "8"
+	releaseyear "1996"
+	releasemonth "11"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Bakushow Mondai no Silicon Chounaikai (Japan) (1997-2-8) (SoundLink Magazine).bs" size 1048576 crc D4F77BD2 md5 647E019140832DE6DDC8173A230CCF1B sha1 5856333783CC1ED500C641695F1CBF2428AAB910 )
+	rom ( name "Bakushow Mondai no Silicon Chounaikai (Japan) (1996-11-16) (SoundLink Magazine).bs" size 1048576 crc 047BA6E6 md5 B9291C3B603CE93C4DD51BD07258C316 sha1 5FAE445B52151D64AAE0EFED0D491D2EAB86AA65 )
+)
+game (
+	name "Bakushow Mondai no Silicon Chounaikai + Super Formation Soccer (9-22) (Japan) (SoundLink Magazine, Game)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "14"
+	region "Japan"
+	rom ( name "Bakushow Mondai no Silicon Chounaikai (1996-9-14) + Super Formation Soccer (9-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc B17BB916 md5 4BB06D78CFFD738788AD4BC8458A5340 sha1 78423A10709E77806BC929961F8B3027278F0137 )
 )
 game (
 	name "Bakushow Mondai no Totsugeki! Star Pirates - Dai-1-wa (Japan) (SoundLink)"
@@ -639,8 +741,16 @@ game (
 )
 game (
 	name "Bounty Sword - Satellaview Special Time Attack Version (Japan)"
+	releaseyear "1995"
+	releasemonth "9"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Bounty Sword - Satellaview Special Time Attack Version (Japan).bs" size 1048576 crc 588E828F md5 D286964F93371FE1F264444A79C3F1C2 sha1 F3975E723B02F74C1A2259B746C681D4D8050985 )
+	rom ( name "Bounty Sword - Satellaview Special Time Attack Version (Japan) (1995-9-7).bs" size 1048576 crc 588E828F md5 D286964F93371FE1F264444A79C3F1C2 sha1 F3975E723B02F74C1A2259B746C681D4D8050985 )
+)
+game (
+	name "Cameltry (Japan)"
+	region "Japan"
+	rom ( name "Cameltry (Japan).bs" size 1048576 crc 3E770643 md5 6E839BFE9069F998087B748A72EDE300 sha1 FE34AA7AC2AC5CE978EF1D19333AC926A079CB01 )
 )
 game (
 	name "Chaos Seed BS Ban (Japan)"
@@ -666,11 +776,6 @@ game (
 	rom ( name "Cheap de Gorgeous Vol. 5 (Japan) (Magazine).bs" size 1048576 crc 5872CFCD md5 594B37DB61978D9655B854BAE411980A sha1 E53898085997C27D20AB789B8DBCEFF3670FECE8 )
 )
 game (
-	name "Chou Aniki - Bakuretsu Rantou Hen (Japan)"
-	region "Japan"
-	rom ( name "Chou Aniki - Bakuretsu Rantou Hen (Japan).bs" size 1048576 crc 0F68F2D4 md5 79AEE68AD4103937716100BDBF957D05 sha1 E36B17E7A0BCC185DF289CBEA059B91EEA19574F )
-)
-game (
 	name "Chou Makai Taisen! Dorabocchan (Japan)"
 	region "Japan"
 	rom ( name "Chou Makai Taisen! Dorabocchan (Japan).bs" size 1048576 crc 7A44323B md5 06D414FE51D5FEDCBB8D549C1BFE5A55 sha1 CAD4481454DE4951472291ACD7A71A2190DA71C9 )
@@ -691,14 +796,20 @@ game (
 	rom ( name "Chrono Trigger - Music Library (Japan).bs" size 524288 crc F268DC1B md5 26BACC5BC306454A74E4DA1EBD9530D7 sha1 86C56A950922A93BB9FE52F871B753BA05612F5B )
 )
 game (
-	name "Cock-A-Doodle-Do (Japan) (4-27) (Data Pack)"
+	name "Cock-A-Doodle-Do (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "8"
+	releaseday "10"
 	region "Japan"
-	rom ( name "Cock-A-Doodle-Do (Japan) (4-27) (Data Pack).bs" size 1048576 crc 2E831A4D md5 7EA34DC2A233D7ADC13297DAE563C053 sha1 1EA437E679549F76A362619657A0875D25D3A4EF )
+	rom ( name "Cock-A-Doodle-Do (Japan) (1996-8-10) (Data Pack).bs" size 1048576 crc 94567274 md5 AA757052F9930E0CD53AD3904C7D0CD9 sha1 DC5D429B5145918E6084AE7911F210157D4C72E4 )
 )
 game (
-	name "Cock-A-Doodle-Do (Japan) (8-10) (Data Pack)"
+	name "Cock-A-Doodle-Do (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "27"
 	region "Japan"
-	rom ( name "Cock-A-Doodle-Do (Japan) (8-10) (Data Pack).bs" size 1048576 crc 94567274 md5 AA757052F9930E0CD53AD3904C7D0CD9 sha1 DC5D429B5145918E6084AE7911F210157D4C72E4 )
+	rom ( name "Cock-A-Doodle-Do (Japan) (1996-4-27) (Data Pack).bs" size 1048576 crc 2E831A4D md5 7EA34DC2A233D7ADC13297DAE563C053 sha1 1EA437E679549F76A362619657A0875D25D3A4EF )
 )
 game (
 	name "Columbus no Tamagoyaki - Dai-1-kai (Japan) (7-10) (Magazine)"
@@ -788,8 +899,11 @@ game (
 )
 game (
 	name "Dandan Belt Conveyor - Gyuunyuu no Maki (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "4"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Dandan Belt Conveyor - Gyuunyuu no Maki (Japan) (Magazine).bs" size 1048576 crc E009DBF8 md5 515B77D71AB249F399463C1DF6D302FD sha1 65BFB22DB870A290673276AC1324242868D64A8B )
+	rom ( name "Dandan Belt Conveyor - Gyuunyuu no Maki (Japan) (1998-4-7) (Magazine).bs" size 1048576 crc E009DBF8 md5 515B77D71AB249F399463C1DF6D302FD sha1 65BFB22DB870A290673276AC1324242868D64A8B )
 )
 game (
 	name "Darius Force (Japan) (En) (3-15)"
@@ -815,39 +929,60 @@ game (
 	rom ( name "Derby Stallion 96 - Nintendo Breeders' Cup National Betting Championship - Tournament 1 (Japan) (1996-9-1) (SoundLink).bs" size 1048576 crc 0D56DF69 md5 DEBA3209D08B499309CC636E35DDE030 sha1 7BF8C36F518027910C0EBE541585F08812D82E45 )
 )
 game (
-	name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (11-24) (Data Pack)"
+	name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (Data Pack)"
+	releaseyear "1997"
+	releasemonth "11"
+	releaseday "24"
 	region "Japan"
-	rom ( name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (11-24) (Data Pack).bs" size 1048576 crc 1C19967C md5 4B8F24E1D8106F0FB830B8A56678262B sha1 9C1DFE24BE936943A4B4A7902265942B0B70BF00 )
+	rom ( name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (1997-11-24) (Data Pack).bs" size 1048576 crc 1C19967C md5 4B8F24E1D8106F0FB830B8A56678262B sha1 9C1DFE24BE936943A4B4A7902265942B0B70BF00 )
 )
 game (
-	name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (12-3) (Data Pack)"
+	name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (Data Pack)"
+	releaseyear "1997"
+	releasemonth "12"
+	releaseday "3"
 	region "Japan"
-	rom ( name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (12-3) (Data Pack).bs" size 1048576 crc 061A51B9 md5 100201B11B21F63B65673F2B79CD53B4 sha1 3B025F0B6843E26BD90D252AB451F2B258791EF9 )
+	rom ( name "DerbyStal 96 - Taiou 97-nendo Ban (Japan) (1997-12-3) (Data Pack).bs" size 1048576 crc 061A51B9 md5 100201B11B21F63B65673F2B79CD53B4 sha1 3B025F0B6843E26BD90D252AB451F2B258791EF9 )
 )
 game (
-	name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (4-30)"
+	name "Dezaemon BSX Version - BS-X Shooting (Japan) (En)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "30"
 	region "Japan"
-	rom ( name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (4-30).bs" size 1048576 crc 5A9BE5A8 md5 7328C333CC54AEE986B981F816E30830 sha1 E52D59E800C17C678711A681D3308F0804C238E0 )
+	rom ( name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (1996-4-30).bs" size 1048576 crc 5A9BE5A8 md5 7328C333CC54AEE986B981F816E30830 sha1 E52D59E800C17C678711A681D3308F0804C238E0 )
 )
 game (
-	name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (7-26)"
+	name "Dezaemon BSX Version - BS-X Shooting (Japan) (En)"
+	releaseyear "1996"
+	releasemonth "7"
+	releaseday "26"
 	region "Japan"
-	rom ( name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (7-26).bs" size 1048576 crc 592DA4C3 md5 7AA01AD1F142F18F446D921567B99A76 sha1 E0DE9533B3B9577BD7CE7ECA5064CA6FA53913D8 )
+	rom ( name "Dezaemon BSX Version - BS-X Shooting (Japan) (En) (1996-7-26).bs" size 1048576 crc 592DA4C3 md5 7AA01AD1F142F18F446D921567B99A76 sha1 E0DE9533B3B9577BD7CE7ECA5064CA6FA53913D8 )
 )
 game (
 	name "Dezaemon BSX Version - Sugoi STG - Jintai (Japan) (En)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "19"
 	region "Japan"
-	rom ( name "Dezaemon BSX Version - Sugoi STG - Jintai (Japan) (En).bs" size 1048576 crc 62B6016D md5 15CCC1FF74B8A737F92F3F3B406D8068 sha1 F65F5B5090EA8EC1BBF6660186B4050F2472ED67 )
+	rom ( name "Dezaemon BSX Version - Sugoi STG - Jintai (Japan) (En) (1996-4-19).bs" size 1048576 crc 62B6016D md5 15CCC1FF74B8A737F92F3F3B406D8068 sha1 F65F5B5090EA8EC1BBF6660186B4050F2472ED67 )
 )
 game (
-	name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (12-19)"
+	name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En)"
+	releaseyear "1996"
+	releasemonth "7"
+	releaseday "8"
 	region "Japan"
-	rom ( name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (12-19).bs" size 1048576 crc 4C2F09E3 md5 6DAE9C7FDBD49D9E1FC1C8770DADE30B sha1 A6AD57A82BCBA09463390A22609CFDD13DCD7070 )
+	rom ( name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (1996-7-8).bs" size 1048576 crc C8813EB9 md5 07E471A0EBF67977F63673E4D5377CD2 sha1 3D917791FF4C19D464B00CF03D83761F46FF75E8 )
 )
 game (
-	name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (7-8)"
+	name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "19"
 	region "Japan"
-	rom ( name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (7-8).bs" size 1048576 crc C8813EB9 md5 07E471A0EBF67977F63673E4D5377CD2 sha1 3D917791FF4C19D464B00CF03D83761F46FF75E8 )
+	rom ( name "Dezaemon BSX Version - Sugoi STG 2 - Crystal Guardian (Japan) (En) (1996-12-19).bs" size 1048576 crc 4C2F09E3 md5 6DAE9C7FDBD49D9E1FC1C8770DADE30B sha1 A6AD57A82BCBA09463390A22609CFDD13DCD7070 )
 )
 game (
 	name "Digital Magazine Busters BS - 4-12 Gou (Japan) (Magazine)"
@@ -904,12 +1039,12 @@ game (
 	rom ( name "Do-Re-Mi de Faa~! Vol. 1 (Japan) (1997-3-30) (SoundLink Magazine).bs" size 1048576 crc 4885183D md5 F2AB588D5B396D1B27B3D15E8FD8C08F sha1 0DC0DD42DCD21426B9ED03146F81A93941C8C0C2 )
 )
 game (
-	name "Do-Re-Mi de Faa~! Vol. 3 + Mini Yonku Suta Jiamu (Japan) (SoundLink Magazine, Magazine)"
+	name "Do-Re-Mi de Faa~! Vol. 3 + Mini Yonku Suta Jiamu (1997-4-13) (Japan) (SoundLink Magazine, Magazine)"
 	releaseyear "1997"
 	releasemonth "4"
 	releaseday "13"
 	region "Japan"
-	rom ( name "Do-Re-Mi de Faa~! Vol. 3 (1997-4-13) + Mini Yonku Suta Jiamu (Japan) (SoundLink Magazine, Magazine).bs" size 1048576 crc FA452889 md5 5AC916CC113D8595B014CDF5C6E7D50B sha1 7616DCAFE8477872DC5592A455840FF38CA52D3C )
+	rom ( name "Do-Re-Mi de Faa~! Vol. 3 (1997-4-13) + Mini Yonku Suta Jiamu (1997-4-13) (Japan) (SoundLink Magazine, Magazine).bs" size 1048576 crc FA452889 md5 5AC916CC113D8595B014CDF5C6E7D50B sha1 7616DCAFE8477872DC5592A455840FF38CA52D3C )
 )
 game (
 	name "Do-Re-Mi de Faa~! Vol. 6 (Japan) (SoundLink Magazine)"
@@ -940,8 +1075,11 @@ game (
 )
 game (
 	name "Dokapon Gaiden - Honoo no Audition BS Ban (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "22"
 	region "Japan"
-	rom ( name "Dokapon Gaiden - Honoo no Audition BS Ban (Japan).bs" size 1048576 crc AE00616D md5 B8C9D446D0FCBBE118DCC72A1C5C06C9 sha1 42B4690341F72535FC29B80C8C7369BA445474F3 )
+	rom ( name "Dokapon Gaiden - Honoo no Audition BS Ban (Japan) (1995-11-22).bs" size 1048576 crc AE00616D md5 B8C9D446D0FCBBE118DCC72A1C5C06C9 sha1 42B4690341F72535FC29B80C8C7369BA445474F3 )
 )
 game (
 	name "Dr. Mario BS (Japan) (En) (1-8)"
@@ -1019,16 +1157,6 @@ game (
 	rom ( name "Estpolis Denki (Japan).bs" size 1048576 crc 12BE0709 md5 4BD95374318351BC6047122CBE4A2BA8 sha1 E2CA50446EAD7FED917F2DF43A3EA83B17B83E11 )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (6-29) (SoundLink)"
-	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (6-29) (SoundLink).bs" size 1048576 crc 1EB48F3C md5 A7E069BA52773A8F6838E64D064D9D37 sha1 84B186DA0AC8802428DFBEB56AB47A465CC6FE18 )
-)
-game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (6-30) (SoundLink)"
-	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (6-30) (SoundLink).bs" size 1048576 crc 6E6D087C md5 272968C6A21F5B558DBCAABE09AE693B sha1 C65CCF7C0766B8EB9B8D0D2DE339021D5217027F )
-)
-game (
 	name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Premiere) (SoundLink)"
 	releaseyear "1997"
 	releasemonth "5"
@@ -1037,9 +1165,20 @@ game (
 	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Premiere) (1997-5-11) (SoundLink).bs" size 1048576 crc 6D9A5494 md5 CAB0124A09863B2FD7F60E8FC12C5D34 sha1 3E235C057D8DEC28F336CAD6294BF3F93E1D864E )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (7-6) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "30"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (7-6) (SoundLink).bs" size 1048576 crc FF355121 md5 4DBB2CB2DA2057586F8D0F06C6AE7315 sha1 964FFE8FDD80F194F076AD066F5C22314A8343B8 )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Rev 2) (1998-6-30) (SoundLink).bs" size 1048576 crc 6E6D087C md5 272968C6A21F5B558DBCAABE09AE693B sha1 C65CCF7C0766B8EB9B8D0D2DE339021D5217027F )
+)
+game (
+	name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "29"
+	region "Japan"
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 1 (Japan) (Rev 2) (1998-6-29) (SoundLink).bs" size 1048576 crc 1EB48F3C md5 A7E069BA52773A8F6838E64D064D9D37 sha1 84B186DA0AC8802428DFBEB56AB47A465CC6FE18 )
 )
 game (
 	name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (Premiere) (SoundLink)"
@@ -1050,9 +1189,12 @@ game (
 	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (Premiere) (1997-5-18) (SoundLink).bs" size 1048576 crc 59D5E1C5 md5 EDED0F4634737A072C1774E649344368 sha1 39882254A57F7C71373BFE92BA80B5FDA6874F3D )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (2-8) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "7"
+	releaseday "6"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (2-8) (SoundLink).bs" size 1048576 crc 3250DD13 md5 CA0811EC969841EABA612C2B59B076D8 sha1 C64E0328293058F23027C8C0094C48865F5B7A7F )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 2 (Japan) (Rev 2) (1998-7-6) (SoundLink).bs" size 1048576 crc FF355121 md5 4DBB2CB2DA2057586F8D0F06C6AE7315 sha1 964FFE8FDD80F194F076AD066F5C22314A8343B8 )
 )
 game (
 	name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Premiere) (SoundLink)"
@@ -1063,24 +1205,44 @@ game (
 	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Premiere) (1997-11-5) (SoundLink).bs" size 1048576 crc 84D46CA9 md5 B72C19C195C7FCF5A2FFB6822BF9948C sha1 28BF86B4DB58B6020E854B6359DF9C8B4CD57768 )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rerun) (1-11) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rev 1) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "1"
+	releaseday "11"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rerun) (1-11) (SoundLink).bs" size 1048576 crc 0A4A6D4D md5 C0759A86B895718634A08EC9DD14CB63 sha1 0950B637EDDE3E44DBFFD4541D368FEBC21DC6B7 )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rev 1) (1998-1-11) (SoundLink).bs" size 1048576 crc 0A4A6D4D md5 C0759A86B895718634A08EC9DD14CB63 sha1 0950B637EDDE3E44DBFFD4541D368FEBC21DC6B7 )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (2-17) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "2"
+	releaseday "8"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (2-17) (SoundLink).bs" size 1048576 crc B79E7B7B md5 EDE3C54B15718A469B5C946D81E1B9EB sha1 B1081FBE23CEC8431B35780FE9BD5BA8013E9C9B )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 3 (Japan) (Rev 2) (1999-2-8) (SoundLink).bs" size 1048576 crc 3250DD13 md5 CA0811EC969841EABA612C2B59B076D8 sha1 C64E0328293058F23027C8C0094C48865F5B7A7F )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (2-18) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 1) (SoundLink)"
+	releaseyear "1998"
+	releasemonth "1"
+	releaseday "18"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (2-18) (SoundLink).bs" size 1048576 crc C747FC3B md5 6C5C2343D96BC234A3D8CD37B37B9515 sha1 DEACA5600AFA6F2698F688CCEAB26EFB39D58BFC )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 1) (1998-1-18) (SoundLink).bs" size 1048576 crc 1C528459 md5 D1AF6163E840CF74349EFDD1E79D2CEE sha1 E47F81BB79377D33F87D004D0A4E89D9A2E6CAEE )
 )
 game (
-	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rerun) (1-18) (SoundLink)"
+	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "2"
+	releaseday "18"
 	region "Japan"
-	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rerun) (1-18) (SoundLink).bs" size 1048576 crc 1C528459 md5 D1AF6163E840CF74349EFDD1E79D2CEE sha1 E47F81BB79377D33F87D004D0A4E89D9A2E6CAEE )
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 2) (1999-2-18) (SoundLink).bs" size 1048576 crc C747FC3B md5 6C5C2343D96BC234A3D8CD37B37B9515 sha1 DEACA5600AFA6F2698F688CCEAB26EFB39D58BFC )
+)
+game (
+	name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 2) (SoundLink)"
+	releaseyear "1999"
+	releasemonth "2"
+	releaseday "17"
+	region "Japan"
+	rom ( name "Excitebike - Bunbun Mario Battle - Stadium 4 (Japan) (Rev 2) (1999-2-17) (SoundLink).bs" size 1048576 crc B79E7B7B md5 EDE3C54B15718A469B5C946D81E1B9EB sha1 B1081FBE23CEC8431B35780FE9BD5BA8013E9C9B )
 )
 game (
 	name "F-Zero (Japan) (10-30)"
@@ -1176,9 +1338,20 @@ game (
 	rom ( name "Freud no Chousenjou - Dai-6-gou (Japan) (Magazine).bs" size 1048576 crc AF5A6613 md5 B1CBB45897E90CA77D5901608EC409F5 sha1 46E840AFE2623B763AF1C2A19A9C020F0C6EA3FC )
 )
 game (
-	name "Gal Kan Bazooka - Dai-5-kan (Japan) (Magazine)"
+	name "Gal Kan Bazooka! - Dai-5-kan (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "2"
+	releaseday "25"
 	region "Japan"
-	rom ( name "Gal Kan Bazooka - Dai-5-kan (Japan) (Magazine).bs" size 1048576 crc 091FD41E md5 646085184E7812F0D442942D01BC0EE8 sha1 32DEC90E551CD62D1AAED7C7F17EE66FE540B844 )
+	rom ( name "Gal Kan Bazooka! - Dai-5-kan (Japan) (1998-2-25) (Magazine).bs" size 1048576 crc 091FD41E md5 646085184E7812F0D442942D01BC0EE8 sha1 32DEC90E551CD62D1AAED7C7F17EE66FE540B844 )
+)
+game (
+	name "Gal Kan Bazooka! - Saishuu Kan (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "25"
+	region "Japan"
+	rom ( name "Gal Kan Bazooka! - Saishuu Kan (Japan) (1998-3-25) (Magazine).bs" size 1048576 crc 0831E37B md5 3D44B5C8C570CE8A560198C55272FCAF sha1 73C8D3FE0D686CB5DD54F97F5B9D46F0467817D6 )
 )
 game (
 	name "Gambler Jiko Chuushinha 2 - Dorapon Quest (Japan) (12-19)"
@@ -1191,14 +1364,20 @@ game (
 	rom ( name "Gambler Jiko Chuushinha 2 - Dorapon Quest (Japan) (12-20).bs" size 1048576 crc F9E8A8EE md5 8D78A51CCCD33613A88A1C80ACEE9DDC sha1 A4999B026CD05AE71B6F0A8EDE1CE1BF86215D08 )
 )
 game (
-	name "Game Tora no Chou Ooana (1995-6-23, Part 2) + Undake 30 - Same Game Daisakusen - Mario Version (10-30) (Japan) (SoundLink Magazine, Game)"
+	name "Game Tora no Chou Ooana (1995-6-23, Part 2) + Undake 30 - Same Game Daisakusen - Mario Version (Japan) (SoundLink Magazine, Game)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "30"
 	region "Japan"
-	rom ( name "Game Tora no Chou Ooana (1995-6-23, Part 2) + Undake 30 - Same Game Daisakusen - Mario Version (10-30) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 081DC413 md5 DD3FC0A856516DE538DEB68593C22F1C sha1 DCB0D76B279DDB3702ECCAC9C04C556A91850EDB )
+	rom ( name "Game Tora no Chou Ooana (1995-6-23, Part 2) + Undake 30 - Same Game Daisakusen - Mario Version (1995-10-30) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 081DC413 md5 DD3FC0A856516DE538DEB68593C22F1C sha1 DCB0D76B279DDB3702ECCAC9C04C556A91850EDB )
 )
 game (
-	name "Game Tora no Chou Ooana (1996-9-8, Part 2) + SateSupo DX - Dai-2-gou (9-8) (Japan) (SoundLink Magazine, Magazine)"
+	name "Game Tora no Chou Ooana (1996-9-8, Part 2) + SateSupo DX - Dai-2-gou (Japan) (SoundLink Magazine, Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "8"
 	region "Japan"
-	rom ( name "Game Tora no Chou Ooana (1996-9-8, Part 2) + SateSupo DX - Dai-2-gou (9-8) (Japan) (SoundLink Magazine, Magazine).bs" size 1048576 crc FD5AFE1B md5 7B8A63F6260CF28749998FDF3FD42C69 sha1 4224CCC27476C971D3AD50B7A4E266B6B4E53682 )
+	rom ( name "Game Tora no Chou Ooana (1996-9-8, Part 2) + SateSupo DX - Dai-2-gou (1996-9-8) (Japan) (SoundLink Magazine, Magazine).bs" size 1048576 crc FD5AFE1B md5 7B8A63F6260CF28749998FDF3FD42C69 sha1 4224CCC27476C971D3AD50B7A4E266B6B4E53682 )
 )
 game (
 	name "Game Tora no Chou Ooana (Japan) (1996-4-7, Part 2) (SoundLink Magazine)"
@@ -1214,14 +1393,6 @@ game (
 	rom ( name "Game Tora no Ooana (1995-5-19) + Uchida Yuki (1995-7-22) (Japan) (SoundLink Magazine).bs" size 1048576 crc F9AA48DE md5 7E7FA6D909447329F50031090A32755C sha1 3CC6C76170B6002DACB1C30F61488D3A230604EB )
 )
 game (
-	name "Game Tora no Ooana Special (Japan) (SoundLink Magazine)"
-	releaseyear "1995"
-	releasemonth "11"
-	releaseday "18"
-	region "Japan"
-	rom ( name "Game Tora no Ooana Special (Japan) (1995-11-18) (SoundLink Magazine).bs" size 1048576 crc 63F8ADBA md5 DAD93D8B546A390E963D8BFE2B5AB47C sha1 0DCCCF58B92F7ECF497305E009C4ED7F613B5470 )
-)
-game (
 	name "Game Tora no Ooana Special (Japan) (1995-9-16, Part 1) (SoundLink Magazine)"
 	region "Japan"
 	rom ( name "Game Tora no Ooana Special (Japan) (1995-9-16, Part 1) (SoundLink Magazine).bs" size 1048576 crc 015B8C5B md5 44DF81E48AABFAD18BFEC2752D1702B3 sha1 BC46C5AA36AFF3F108ABFBC9A035E9182DBEB7CE )
@@ -1233,6 +1404,14 @@ game (
 	releaseday "30"
 	region "Japan"
 	rom ( name "Game Tora no Ooana Special (Japan) (1996-3-30) (SoundLink Magazine).bs" size 1048576 crc 0FAE1D4D md5 59086FC29F1194089AA5E43DFCA917B7 sha1 7C08FAC203AD657FB585A8C7D2FA1B9B46EA3C1E )
+)
+game (
+	name "Game Tora no Ooana Special (Japan) (SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "18"
+	region "Japan"
+	rom ( name "Game Tora no Ooana Special (Japan) (1995-11-18) (SoundLink Magazine).bs" size 1048576 crc 63F8ADBA md5 DAD93D8B546A390E963D8BFE2B5AB47C sha1 0DCCCF58B92F7ECF497305E009C4ED7F613B5470 )
 )
 game (
 	name "Game Tora no Taikoban No. 10 (Japan) (Magazine)"
@@ -1273,11 +1452,6 @@ game (
 	releaseday "17"
 	region "Japan"
 	rom ( name "Game Tora no Taikoban No. 8 (Japan) (1998-5-17) (Magazine).bs" size 524288 crc A93C827E md5 0862FE3198B4BAD070F997E494F4FFE4 sha1 D8B99D5386B6DC55A2C084A8730B7868DAFC9028 )
-)
-game (
-	name "Gekkan Coin Toss - Deck 1 (Japan) (Magazine)"
-	region "Japan"
-	rom ( name "Gekkan Coin Toss - Deck 1 (Japan) (Magazine).bs" size 1048576 crc D2D7C3E5 md5 EBFF33571AD0AA25A2EB6A7E1AB45129 sha1 75A9D2A75E66F73E5B25F4BED800D73F0E33F67E )
 )
 game (
 	name "Golf Daisuki! O.B. Club (Japan) (4-3)"
@@ -1323,20 +1497,20 @@ game (
 	rom ( name "Ihatovo Monogatari (Japan).bs" size 1048576 crc 505EF4BF md5 3399DE84A58365FF9A948C0E9572F5CB sha1 E77926B1A806C9C5160F0C567339F491FC313AF9 )
 )
 game (
-	name "Ijuin Hikaru no Houkago no Ousama + Game Tora no Ooana Special (1996-3-7) (Japan) (SoundLink Magazine)"
-	releaseyear "1996"
-	releasemonth "2"
-	releaseday "5"
-	region "Japan"
-	rom ( name "Ijuin Hikaru no Houkago no Ousama (1996-2-5) + Game Tora no Ooana Special (1996-3-7) (Japan) (SoundLink Magazine).bs" size 1048576 crc F0FDF2AE md5 82BA273A7603133612582822DBEED3BB sha1 3064C8ED0789235BCA8B9E4C3F51765FBFFA4B15 )
-)
-game (
 	name "Ijuin Hikaru no Houkago no Ousama (Japan) (SoundLink Magazine)"
 	releaseyear "1995"
 	releasemonth "9"
 	releaseday "25"
 	region "Japan"
 	rom ( name "Ijuin Hikaru no Houkago no Ousama (Japan) (1995-9-25) (SoundLink Magazine).bs" size 1048576 crc 33693BE5 md5 4AE04DE0EE51D4DDBB834495EA9304EA sha1 EBD77B3B7B625A5B37A9AAB775170D0C99948BF6 )
+)
+game (
+	name "Ijuin Hikaru no Houkago no Ousama + Game Tora no Ooana Special (1996-3-7) (Japan) (SoundLink Magazine)"
+	releaseyear "1996"
+	releasemonth "2"
+	releaseday "5"
+	region "Japan"
+	rom ( name "Ijuin Hikaru no Houkago no Ousama (1996-2-5) + Game Tora no Ooana Special (1996-3-7) (Japan) (SoundLink Magazine).bs" size 1048576 crc F0FDF2AE md5 82BA273A7603133612582822DBEED3BB sha1 3064C8ED0789235BCA8B9E4C3F51765FBFFA4B15 )
 )
 game (
 	name "Ijuin Hikaru no Kai Denpa Hasshin Kichi (Japan) (SoundLink Magazine)"
@@ -1390,21 +1564,31 @@ game (
 	rom ( name "Jissen! Pachi-Slot Hisshouhou! Yamasa Densetsu (Japan).bs" size 1048576 crc 02BD3715 md5 4D433F0AC95E28E4D9EF037E58DEAD85 sha1 E23D4E1AC43AEBAC39F148127059FF1CC87018B9 )
 )
 game (
-	name "Kaizou Choujin Shubibinman Zero (Japan) (2-28)"
-	region "Japan"
-	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (2-28).bs" size 1048576 crc 137999CD md5 A2278B07BAF74642CDCB76B92F848B39 sha1 01EE6BF358D39B7346F97E6C0F0CE20E293B8F4A )
-)
-game (
-	name "Kaizou Choujin Shubibinman Zero (Japan) (6-4)"
+	name "Kaizou Choujin Shubibinman Zero (Japan)"
+	releaseyear "1997"
+	releasemonth "6"
+	releaseday "4"
 	region "Japan"
 	serial "ASZJ"
-	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (6-4).bs" size 1048576 crc 26A4F6C3 md5 DB4DD0305051F7D3CA7BD2E114F4F1DD sha1 DD084021A7E2AFD939FEE3B6426778F6E5C2F333 serial "ASZJ" )
+	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (1997-6-4).bs" size 1048576 crc 26A4F6C3 md5 DB4DD0305051F7D3CA7BD2E114F4F1DD sha1 DD084021A7E2AFD939FEE3B6426778F6E5C2F333 serial "ASZJ" )
 )
 game (
-	name "Kaizou Choujin Shubibinman Zero (Japan) (6-8)"
+	name "Kaizou Choujin Shubibinman Zero (Japan)"
+	releaseyear "1997"
+	releasemonth "6"
+	releaseday "8"
 	region "Japan"
 	serial "ASZJ"
-	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (6-8).bs" size 1048576 crc 772C6234 md5 CFF0C7C32ADEA7CA7C7598A8EB538200 sha1 2ABA8629AB87A76AA79167A15CAA02C52709C4EE serial "ASZJ" )
+	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (1997-6-8).bs" size 1048576 crc 772C6234 md5 CFF0C7C32ADEA7CA7C7598A8EB538200 sha1 2ABA8629AB87A76AA79167A15CAA02C52709C4EE serial "ASZJ" )
+)
+game (
+	name "Kaizou Choujin Shubibinman Zero (Japan)"
+	releaseyear "1998"
+	releasemonth "2"
+	releaseday "28"
+	region "Japan"
+	serial "ASZJ"
+	rom ( name "Kaizou Choujin Shubibinman Zero (Japan) (1998-2-28).bs" size 1048576 crc 137999CD md5 A2278B07BAF74642CDCB76B92F848B39 sha1 01EE6BF358D39B7346F97E6C0F0CE20E293B8F4A serial "ASZJ" )
 )
 game (
 	name "Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan) (12-8)"
@@ -1442,9 +1626,12 @@ game (
 	rom ( name "Kirby no Omochabako - Arrange Ball (Japan).bs" size 524288 crc BC49F827 md5 7CA9979D1FC3E1CEF697C757D4616C2A sha1 31407D5B2E60E480BE4F5E34CE47F6A0A8DE1B08 )
 )
 game (
-	name "Kirby no Omochabako - Ball Rally (4-2) + Waiwai Check 3-28 Honhousou (Japan)"
+	name "Kirby no Omochabako - Ball Rally + Waiwai Check (1996-3-28, 3-30) (Japan)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "2"
 	region "Japan"
-	rom ( name "Kirby no Omochabako - Ball Rally (4-2) + Waiwai Check 3-28 Honhousou (Japan).bs" size 1048576 crc D1FE8598 md5 7A105CF787119DBE9874FC9900A34574 sha1 0D78F167BEEAA3F2A056697D749721361B02A307 )
+	rom ( name "Kirby no Omochabako - Ball Rally (1996-4-2) + Waiwai Check (1996-3-28, 3-30) (Japan).bs" size 1048576 crc D1FE8598 md5 7A105CF787119DBE9874FC9900A34574 sha1 0D78F167BEEAA3F2A056697D749721361B02A307 )
 )
 game (
 	name "Kirby no Omochabako - Baseball (Japan) (Premiere)"
@@ -1511,19 +1698,28 @@ game (
 	rom ( name "Koi wa Balance - Tatoeba K-kun no Tabou na Ichinichi Hen (Japan).bs" size 1048576 crc 60293E16 md5 222606C1E051AEF58A49BC9507CEB2C8 sha1 6D687F7B6C7C82C479E52459B7C8E1C8955FC9F5 )
 )
 game (
-	name "Konae-chan no Dokidoki Penguin Kazoku (Japan) (12-22)"
+	name "Konae-chan no Dokidoki Penguin Kazoku (Japan)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "22"
 	region "Japan"
-	rom ( name "Konae-chan no Dokidoki Penguin Kazoku (Japan) (12-22).bs" size 1048576 crc 265E1C47 md5 E496A0A829FCB793296A173CCA67EA86 sha1 67D4F92FC81F58B3F04A06DCE1E4B059CCBB745F )
+	rom ( name "Konae-chan no Dokidoki Penguin Kazoku (Japan) (1996-12-22).bs" size 1048576 crc 265E1C47 md5 E496A0A829FCB793296A173CCA67EA86 sha1 67D4F92FC81F58B3F04A06DCE1E4B059CCBB745F )
 )
 game (
-	name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1-4)"
+	name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "4"
 	region "Japan"
-	rom ( name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1-4).bs" size 262144 crc 218B11F8 md5 66B7CAB6599DD0BF840BADDB2A2E5FE7 sha1 6193AD723BA3D2434BFE8FC70A593D1EABE821DE )
+	rom ( name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1996-1-4).bs" size 262144 crc 218B11F8 md5 66B7CAB6599DD0BF840BADDB2A2E5FE7 sha1 6193AD723BA3D2434BFE8FC70A593D1EABE821DE )
 )
 game (
-	name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1-7)"
+	name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1-7).bs" size 262144 crc 525A7925 md5 A227DD2C0678BD70C15E9B19ED035170 sha1 B29292DFC58D803664835900E409418861B8F8E9 )
+	rom ( name "Konae-chan no Dokidoki Penguin Kazoku - Event-ban (Japan) (1996-1-7).bs" size 262144 crc 525A7925 md5 A227DD2C0678BD70C15E9B19ED035170 sha1 B29292DFC58D803664835900E409418861B8F8E9 )
 )
 game (
 	name "Kouryaku Casino Bar Kinyoubi - Slots (Japan) (10-13)"
@@ -1559,50 +1755,85 @@ game (
 	rom ( name "Lemmings (Japan) (En).bs" size 1048576 crc 25E19B04 md5 644C8FD1471B348C05DEFF0DB4E0AA7E sha1 16D31B379D3AA212B9B0D2235B41E85C35AAD7BC )
 )
 game (
-	name "Let's Pachinko Nante Gindama 1 (Japan) (10-1)"
-	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 1 (Japan) (10-1).bs" size 1048576 crc 0472ABB6 md5 38342A8286A6545A41DD5AA017A716CE sha1 B0F46EC220E0336EE8AE44844C39F74F938F2586 )
-)
-game (
-	name "Let's Pachinko Nante Gindama 1 (Japan) (9-5)"
+	name "Let's Pachinko Nante Gindama 1 (Japan)"
+	releaseyear "1998"
+	releasemonth "10"
+	releaseday "1"
 	region "Japan"
 	serial "AQJY"
-	rom ( name "Let's Pachinko Nante Gindama 1 (Japan) (9-5).bs" size 1048576 crc 067AEFB1 md5 544603B1383A5B00236A28BF292228F6 sha1 4727092F37EC952D7FF083DFBA3A30ED6980BDD2 serial "AQJY" )
+	rom ( name "Let's Pachinko Nante Gindama 1 (Japan) (1998-10-1).bs" size 1048576 crc 0472ABB6 md5 38342A8286A6545A41DD5AA017A716CE sha1 B0F46EC220E0336EE8AE44844C39F74F938F2586 serial "AQJY" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 2 (Japan) (11-13)"
+	name "Let's Pachinko Nante Gindama 1 (Japan)"
+	releaseyear "1998"
+	releasemonth "9"
+	releaseday "5"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 2 (Japan) (11-13).bs" size 1048576 crc 13493D79 md5 8ADDF53FB12F46B12653159AA8B0025B sha1 61F9B0FA01DCAB39F9291B65C756C2D0E9548EE7 )
+	serial "AQJY"
+	rom ( name "Let's Pachinko Nante Gindama 1 (Japan) (1998-9-5).bs" size 1048576 crc 067AEFB1 md5 544603B1383A5B00236A28BF292228F6 sha1 4727092F37EC952D7FF083DFBA3A30ED6980BDD2 serial "AQJY" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 2 (Japan) (11-8)"
+	name "Let's Pachinko Nante Gindama 2 (Japan)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "8"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 2 (Japan) (11-8).bs" size 1048576 crc 8D201681 md5 05DC318F6C260F3A5DF7640A35E83FD8 sha1 AB579E9080E1A3AE90CD0F894E12A19FD7040DAA )
+	serial "AQYJ"
+	rom ( name "Let's Pachinko Nante Gindama 2 (Japan) (1998-11-8).bs" size 1048576 crc 8D201681 md5 05DC318F6C260F3A5DF7640A35E83FD8 sha1 AB579E9080E1A3AE90CD0F894E12A19FD7040DAA serial "AQYJ" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 3 (Japan) (11-18)"
+	name "Let's Pachinko Nante Gindama 2 (Japan)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "13"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 3 (Japan) (11-18).bs" size 1048576 crc 5DB51404 md5 6E9DA499E9022DAB8E074C95C15A3675 sha1 048D3A9DCFB4CDF9C92E7258A53667BDD32B45F4 )
+	serial "AQYJ"
+	rom ( name "Let's Pachinko Nante Gindama 2 (Japan) (1998-11-13).bs" size 1048576 crc 13493D79 md5 8ADDF53FB12F46B12653159AA8B0025B sha1 61F9B0FA01DCAB39F9291B65C756C2D0E9548EE7 serial "AQYJ" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 3 (Japan) (9-15)"
+	name "Let's Pachinko Nante Gindama 3 (Japan)"
+	releaseyear "1998"
+	releasemonth "9"
+	releaseday "15"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 3 (Japan) (9-15).bs" size 1048576 crc B7EA45DF md5 DB539CF7D21F8CA6D703004D6E6DC29A sha1 E2D6FC213D49CE33FD7C3269DD348B2A72CD7537 )
+	serial "AQJY"
+	rom ( name "Let's Pachinko Nante Gindama 3 (Japan) (1998-9-15).bs" size 1048576 crc B7EA45DF md5 DB539CF7D21F8CA6D703004D6E6DC29A sha1 E2D6FC213D49CE33FD7C3269DD348B2A72CD7537 serial "AQJY" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 4 (Japan) (11-24)"
+	name "Let's Pachinko Nante Gindama 3 (Japan)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "18"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (11-24).bs" size 1048576 crc AA934596 md5 675E32640ECB2A95FDE3CD819601AAB0 sha1 5883B8E0E3409F78A1AE1D9E471EF4678CB23B88 )
+	serial "AQJY"
+	rom ( name "Let's Pachinko Nante Gindama 3 (Japan) (1998-11-18).bs" size 1048576 crc 5DB51404 md5 6E9DA499E9022DAB8E074C95C15A3675 sha1 048D3A9DCFB4CDF9C92E7258A53667BDD32B45F4 serial "AQJY" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 4 (Japan) (11-25)"
+	name "Let's Pachinko Nante Gindama 4 (Japan)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "24"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (11-25).bs" size 1048576 crc 4F79CB25 md5 B0B36C9B92D2CEFF5BC8DCE6595C2C52 sha1 7A18BCD9BDBF1B41975B41550281476508CDD8C1 )
+	serial "AQYJ"
+	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (1998-11-24).bs" size 1048576 crc AA934596 md5 675E32640ECB2A95FDE3CD819601AAB0 sha1 5883B8E0E3409F78A1AE1D9E471EF4678CB23B88 serial "AQYJ" )
 )
 game (
-	name "Let's Pachinko Nante Gindama 4 (Japan) (3-21)"
+	name "Let's Pachinko Nante Gindama 4 (Japan)"
+	releaseyear "1999"
+	releasemonth "3"
+	releaseday "21"
 	region "Japan"
-	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (3-21).bs" size 1048576 crc B34BBC5F md5 1DA4D54A286B86DA6E47E7807673B951 sha1 DF8888CB99A0E1498E824E42125B1543C0F7F726 )
+	serial "AQYJ"
+	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (1999-3-21).bs" size 1048576 crc B34BBC5F md5 1DA4D54A286B86DA6E47E7807673B951 sha1 DF8888CB99A0E1498E824E42125B1543C0F7F726 serial "AQYJ" )
+)
+game (
+	name "Let's Pachinko Nante Gindama 4 (Japan)"
+	releaseyear "1998"
+	releasemonth "11"
+	releaseday "25"
+	region "Japan"
+	serial "AQYJ"
+	rom ( name "Let's Pachinko Nante Gindama 4 (Japan) (1998-11-25).bs" size 1048576 crc 4F79CB25 md5 B0B36C9B92D2CEFF5BC8DCE6595C2C52 sha1 7A18BCD9BDBF1B41975B41550281476508CDD8C1 serial "AQYJ" )
 )
 game (
 	name "Lily Franky Theater - Live Action Version (Japan) (SoundLink Magazine)"
@@ -1622,8 +1853,11 @@ game (
 )
 game (
 	name "Logos Panic Goaisatsu BS Ban (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "27"
 	region "Japan"
-	rom ( name "Logos Panic Goaisatsu BS Ban (Japan).bs" size 1048576 crc C6F54C8D md5 004984AB9B18933D6EB8C5C42B66B45E sha1 A36CDB6CA4A01EEA4CD68568241CC82DB7BA5CBC )
+	rom ( name "Logos Panic Goaisatsu BS Ban (Japan) (1995-11-27).bs" size 1048576 crc C6F54C8D md5 004984AB9B18933D6EB8C5C42B66B45E sha1 A36CDB6CA4A01EEA4CD68568241CC82DB7BA5CBC )
 )
 game (
 	name "Lord Monarch (Japan) (6-1)"
@@ -1641,14 +1875,12 @@ game (
 	rom ( name "MARIA - Part 1 (Japan) (SoundLink Magazine).bs" size 1048576 crc C406562F md5 4FDC885B7C5D03E0B40350CFA2CF3577 sha1 52EADD827BDBA497BC2B0DC10CCFEC4ABEBC8C0F )
 )
 game (
-	name "Machi Magazine (Japan) (11-4) (SoundLink Magazine)"
+	name "Machi Magazine (Japan) (SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "4"
 	region "Japan"
-	rom ( name "Machi Magazine (Japan) (11-4) (SoundLink Magazine).bs" size 262144 crc EDA14445 md5 AFD282C16A4898AE911D1E44120B3DBB sha1 F351B8593E587E7A264DD60CDF3713598289F5B5 )
-)
-game (
-	name "Madou Monogatari - Hanamaru Daiyouchienji (Japan)"
-	region "Japan"
-	rom ( name "Madou Monogatari - Hanamaru Daiyouchienji (Japan).bs" size 1048576 crc 6E863251 md5 1D1F08C8588AC235C27D55A970057B21 sha1 F55F3A5AC5FBA32699ED65ACE25023D8FE7246E3 )
+	rom ( name "Machi Magazine (Japan) (1995-11-4) (SoundLink Magazine).bs" size 1048576 crc A6DB7B75 md5 8300C91B6946F37B1D2F6F9DE13328EB sha1 FDE9B363CABAD6230D34FD67454376EDB43C14FF )
 )
 game (
 	name "Mario Paint - BS Ban (Japan) (6-4)"
@@ -1662,13 +1894,16 @@ game (
 )
 game (
 	name "Mario Paint - Yuushou Naizou Ban (Japan)"
+	releaseyear "1998"
+	releasemonth "1"
+	releaseday "11"
 	region "Japan"
-	rom ( name "Mario Paint - Yuushou Naizou Ban (Japan).bs" size 1048576 crc D521D521 md5 FB7ADB28D74F2F1C56998D527B5BE6BB sha1 9007790195990A0495A68BC9BCECF5F5BCAE50F8 )
+	rom ( name "Mario Paint - Yuushou Naizou Ban (Japan) (1998-1-11).bs" size 1048576 crc D521D521 md5 FB7ADB28D74F2F1C56998D527B5BE6BB sha1 9007790195990A0495A68BC9BCECF5F5BCAE50F8 )
 )
 game (
 	name "Mirai-gata Idol Kaihatsu System - Media Strawberry (Japan) (SoundLink Magazine)"
 	region "Japan"
-	rom ( name "Mirai-gata Idol Kaihatsu System - Media Strawberry (Japan) (SoundLink Magazine).bs" size 524288 crc A4378C67 md5 725354008FE15ACC970CED7FDA4F588B sha1 FCF1481CF33178E9493CF09BD3731552D1964371 )
+	rom ( name "Mirai-gata Idol Kaihatsu System - Media Strawberry (Japan) (SoundLink Magazine).bs" size 1048576 crc 3A6B93E7 md5 44A0B05E9AB79CF93022907C2C875CE5 sha1 C51D895B2C93743EA4A58C43BCE31ABE45C6C88E )
 )
 game (
 	name "Mirai-gata Idol Kaihatsu System - Media Strawberry - Vol. 12 (Japan) (SoundLink Magazine)"
@@ -1677,13 +1912,19 @@ game (
 )
 game (
 	name "Monopoly 2 BS - Red Cup (Japan)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "20"
 	region "Japan"
-	rom ( name "Monopoly 2 BS - Red Cup (Japan).bs" size 1048576 crc 9B0A441C md5 175EC5D5640AC79FD81E09CC3728CE88 sha1 9EE4160C3D6FFB0E5E3889DC442E9D3263A11C1E )
+	rom ( name "Monopoly 2 BS - Red Cup (Japan) (1996-1-20).bs" size 1048576 crc 9B0A441C md5 175EC5D5640AC79FD81E09CC3728CE88 sha1 9EE4160C3D6FFB0E5E3889DC442E9D3263A11C1E )
 )
 game (
 	name "Monopoly 2 BS - Yellow Cup (Japan)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "21"
 	region "Japan"
-	rom ( name "Monopoly 2 BS - Yellow Cup (Japan).bs" size 1048576 crc ED1108B5 md5 ECB5522ADF03785F3586CD05BDD857A3 sha1 11616E85EC1D7B3C31272F2076E56DFC97E4F3E4 )
+	rom ( name "Monopoly 2 BS - Yellow Cup (Japan) (1996-1-21).bs" size 1048576 crc ED1108B5 md5 ECB5522ADF03785F3586CD05BDD857A3 sha1 11616E85EC1D7B3C31272F2076E56DFC97E4F3E4 )
 )
 game (
 	name "New 3D Golf Simulation - Waialae no Kiseki (Japan)"
@@ -1728,8 +1969,11 @@ game (
 )
 game (
 	name "Okirakukouza + Kanaderu Score + Satesupo DX - Dai-5-gou (Japan) (Data, Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "28"
 	region "Japan"
-	rom ( name "Okirakukouza + Kanaderu Score + Satesupo DX - Dai-5-gou (Japan) (Data, Magazine).bs" size 1048576 crc 286FF72F md5 C99592B4F04DD2C01B0B8F1D1F76F10C sha1 7BCE9A2CDE3611968B1AEF4C38C7FAEAA72B6702 )
+	rom ( name "Okirakukouza + Kanaderu Score + Satesupo DX - Dai-5-gou (1996-9-28) (Japan) (Data, Magazine).bs" size 1048576 crc 286FF72F md5 C99592B4F04DD2C01B0B8F1D1F76F10C sha1 7BCE9A2CDE3611968B1AEF4C38C7FAEAA72B6702 )
 )
 game (
 	name "Organic Stone - Honpen (Japan) (Data Pack)"
@@ -1751,9 +1995,12 @@ game (
 )
 game (
 	name "Panel de Pon - BS Ban (Japan)"
+	releaseyear "1996"
+	releasemonth "4"
+	releaseday "8"
 	region "Japan"
 	serial "AYLJ"
-	rom ( name "Panel de Pon - BS Ban (Japan).bs" size 1048576 crc 3426834C md5 5001783069DA117F759F96BFFF74A80C sha1 B3FE06166ACA9CC9F7A6035DE753ABE6CD798967 serial "AYLJ" )
+	rom ( name "Panel de Pon - BS Ban (Japan) (1996-4-8).bs" size 1048576 crc 3426834C md5 5001783069DA117F759F96BFFF74A80C sha1 B3FE06166ACA9CC9F7A6035DE753ABE6CD798967 serial "AYLJ" )
 )
 game (
 	name "Panel de Pon - Event '98 (Japan)"
@@ -1786,8 +2033,11 @@ game (
 )
 game (
 	name "Pokekame Magazine (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "4"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Pokekame Magazine (Japan) (Magazine).bs" size 1048576 crc F2690947 md5 A93560366907F3CFEC2A402D6B6065E4 sha1 E905B0BFF21C485F26DEC943D635B1B4BE0DA090 )
+	rom ( name "Pokekame Magazine (Japan) (1998-4-7) (Magazine).bs" size 1048576 crc F2690947 md5 A93560366907F3CFEC2A402D6B6065E4 sha1 E905B0BFF21C485F26DEC943D635B1B4BE0DA090 )
 )
 game (
 	name "Pro Mahjong Kiwame III (Japan) (10-22)"
@@ -1815,9 +2065,12 @@ game (
 	rom ( name "RPG Tsukuru 2 Collection (Japan) (Data Pack).bs" size 1048576 crc A4B95B1A md5 3017EC3E3AA7227AC5A5BDBF4C7D95C9 sha1 60FC21583F45B5E73487D4E8F0D39A6118431075 )
 )
 game (
-	name "Radical Dreamers - Nusume Nai Houseki (Japan) (2-24)"
+	name "Radical Dreamers - Nusume Nai Houseki (Japan)"
+	releaseyear "1996"
+	releasemonth "2"
+	releaseday "24"
 	region "Japan"
-	rom ( name "Radical Dreamers - Nusume Nai Houseki (Japan) (2-24).bs" size 1048576 crc 660B8CC4 md5 5D1C642C23D0BB113ACE249A586F0689 sha1 A4FF257E0CA71A60A7D76EA49B0DBAB770268A5F )
+	rom ( name "Radical Dreamers - Nusume Nai Houseki (Japan) (1996-2-24).bs" size 1048576 crc 660B8CC4 md5 5D1C642C23D0BB113ACE249A586F0689 sha1 A4FF257E0CA71A60A7D76EA49B0DBAB770268A5F )
 )
 game (
 	name "Ranking Magazine - 3 Tsuki-gou (Japan) (Magazine)"
@@ -1825,12 +2078,12 @@ game (
 	rom ( name "Ranking Magazine - 3 Tsuki-gou (Japan) (Magazine).bs" size 1048576 crc 8C1CEB8E md5 BFC5CDE6D8078BCD2F562266B34AD226 sha1 AF64F71CF2D2093F18A9943100BD3B798D945DD3 )
 )
 game (
-	name "Rika & Hitomi (3-29) + Tamori no Picross (Japan) (SoundLink Magazine, Game)"
-	releaseyear "1995"
-	releasemonth "8"
-	releaseday "1"
+	name "Rika & Hitomi + Tamori no Picross (1995-8-1) (Japan) (SoundLink Magazine, Game)"
+	releaseyear "1996"
+	releasemonth "3"
+	releaseday "29"
 	region "Japan"
-	rom ( name "Rika & Hitomi (3-29) + Tamori no Picross (1995-8-1) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 9C9F3CF5 md5 712803850B7AC7DB122DE8935E0E2E7D sha1 ABF2F17E6F5C4EC3B217A41A7EE857B971F7DC97 )
+	rom ( name "Rika & Hitomi (1996-3-29) + Tamori no Picross (1995-8-1) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 9C9F3CF5 md5 712803850B7AC7DB122DE8935E0E2E7D sha1 ABF2F17E6F5C4EC3B217A41A7EE857B971F7DC97 )
 )
 game (
 	name "Ryouma de Yuku (Japan) (Data Pack)"
@@ -1851,9 +2104,12 @@ game (
 	rom ( name "Ryouma de Yuku - Graphics (Japan) (Data Pack).bs" size 1048576 crc 3E3DC383 md5 EDF4577EF852850CA1B086748C61FECA sha1 BC87D6189EC30A4375C9D631F709FF4FFC1CB995 )
 )
 game (
-	name "Ryouma de Yuku - Kanaderu Score (5-7) + Yusuke Akamatsu Theater (5-7) (Japan) (Data, SoundLink Magazine)"
+	name "Ryouma de Yuku - Kanaderu Score (5-7) + Yusuke Akamatsu Theater (Japan) (Data, SoundLink Magazine)"
+	releaseyear "1996"
+	releasemonth "5"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Ryouma de Yuku - Kanaderu Score (5-7) + Yusuke Akamatsu Theater (5-7) (Japan) (Data, SoundLink Magazine).bs" size 1048576 crc 41047583 md5 00BC5F17A65DC60E8A02F966D1456D02 sha1 C1075404A05F3A4EAEE137B16B48AF5E3A5998B4 )
+	rom ( name "Ryouma de Yuku - Kanaderu Score (5-7) + Yusuke Akamatsu Theater (1996-5-7) (Japan) (Data, SoundLink Magazine).bs" size 1048576 crc 41047583 md5 00BC5F17A65DC60E8A02F966D1456D02 sha1 C1075404A05F3A4EAEE137B16B48AF5E3A5998B4 )
 )
 game (
 	name "Ryouma de Yuku - Kanaderu Score (6-30) + Ryouma de Yuku - Kanaderu Score (8-4) (Japan) (Data Pack)"
@@ -1861,14 +2117,20 @@ game (
 	rom ( name "Ryouma de Yuku - Kanaderu Score (6-30) + Ryouma de Yuku - Kanaderu Score (8-4) (Japan) (Data Pack).bs" size 1048576 crc 194A643F md5 F4B0DE1A8653799AA0403A4B5204EE48 sha1 B25F040349200C7276FF3175EC6811DAF67A4EAC )
 )
 game (
-	name "SD Gundam G Next - MS Data (Japan) (1-16) (Data Pack)"
+	name "SD Gundam G Next - MS Data (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "16"
 	region "Japan"
-	rom ( name "SD Gundam G Next - MS Data (Japan) (1-16) (Data Pack).bs" size 1048576 crc 38B93F5F md5 114CCD8272DA917E62D94B8263770AF3 sha1 7327596CB130EDB137C1583D65C72B1D3D6A40B5 )
+	rom ( name "SD Gundam G Next - MS Data (Japan) (1996-1-16) (Data Pack).bs" size 1048576 crc 38B93F5F md5 114CCD8272DA917E62D94B8263770AF3 sha1 7327596CB130EDB137C1583D65C72B1D3D6A40B5 )
 )
 game (
-	name "SD Gundam G Next - MS Data (Japan) (1-23) (Data Pack)"
+	name "SD Gundam G Next - MS Data (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "1"
+	releaseday "23"
 	region "Japan"
-	rom ( name "SD Gundam G Next - MS Data (Japan) (1-23) (Data Pack).bs" size 1048576 crc 406DB120 md5 930890B4A875D058A12A64586E19083B sha1 715280910AE85E6E3F16B45E72F9B9A89B39DBEF )
+	rom ( name "SD Gundam G Next - MS Data (Japan) (1996-1-23) (Data Pack).bs" size 1048576 crc 406DB120 md5 930890B4A875D058A12A64586E19083B sha1 715280910AE85E6E3F16B45E72F9B9A89B39DBEF )
 )
 game (
 	name "SD Gundam G Next - Map Data (Japan) (2-11) (Data Pack)"
@@ -1953,42 +2215,63 @@ game (
 game (
 	name "SateSupo 8-5 Gou (Japan) (Magazine)"
 	region "Japan"
-	rom ( name "SateSupo 8-5 Gou (Japan) (Magazine).bs" size 262144 crc 38652375 md5 2F56D834ADA6BD4D1AE2078C6C95874F sha1 EFD40A3F2F84FC726B31A50736E8B9BAEF3A4581 )
+	rom ( name "SateSupo 8-5 Gou (Japan) (Magazine).bs" size 262144 crc 993B1178 md5 1BBDD22C56809DED472C91896D2FC453 sha1 0C0D9CCB80B20608B889314B55FC983B64B974C3 )
 )
 game (
 	name "SateSupo DX - Dai-1-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "1"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-1-gou (Japan) (Magazine).bs" size 393216 crc 981EE729 md5 6E0E40194DB15A86F6C0B15782C48E8A sha1 FE7D4260934D5C795FF6CB49FF1154C0C7AD6C1A )
+	rom ( name "SateSupo DX - Dai-1-gou (Japan) (1996-9-1) (Magazine).bs" size 393216 crc 981EE729 md5 6E0E40194DB15A86F6C0B15782C48E8A sha1 FE7D4260934D5C795FF6CB49FF1154C0C7AD6C1A )
 )
 game (
-	name "SateSupo DX - Dai-1-gou + SateSupo DX - Dai-4-gou (Japan) (Magazine)"
+	name "SateSupo DX - Dai-1-gou + SateSupo DX - Dai-4-gou (1996-9-21) (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "1"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-1-gou + SateSupo DX - Dai-4-gou (Japan) (Magazine).bs" size 1048576 crc 197ACB4A md5 C40E8A7D315805D7E9A5540210E4BD94 sha1 91D8469567E0B2AD6ACE1E785CB1ACD5D2D8F025 )
+	rom ( name "SateSupo DX - Dai-1-gou (1996-9-1) + SateSupo DX - Dai-4-gou (1996-9-21) (Japan) (Magazine).bs" size 1048576 crc 197ACB4A md5 C40E8A7D315805D7E9A5540210E4BD94 sha1 91D8469567E0B2AD6ACE1E785CB1ACD5D2D8F025 )
 )
 game (
 	name "SateSupo DX - Dai-2-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "5"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-2-gou (Japan) (Magazine).bs" size 393216 crc 0D3ECB70 md5 F07443BCD34E0281B0730E3CBC792DCF sha1 AF71E075117EED5232DE7F0B24EE8B8170E115EF )
+	rom ( name "SateSupo DX - Dai-2-gou (Japan) (1996-9-5) (Magazine).bs" size 393216 crc 0D3ECB70 md5 F07443BCD34E0281B0730E3CBC792DCF sha1 AF71E075117EED5232DE7F0B24EE8B8170E115EF )
 )
 game (
-	name "SateSupo DX - Dai-4-gou (Japan) (9-17) (Magazine)"
+	name "SateSupo DX - Dai-4-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "22"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-4-gou (Japan) (9-17) (Magazine).bs" size 1048576 crc 6B2C7023 md5 D37F679E5B51F6527AB9EA2581037851 sha1 1F2A0B8991F0D041E3E7225B0D290F886CB26D02 )
+	rom ( name "SateSupo DX - Dai-4-gou (Japan) (1996-9-22) (Magazine).bs" size 1048576 crc 8ADA2BA7 md5 442384ED70AF69F594C8CEC93E6DE81E sha1 6923096CC33296AF8E7CE7978457E39A36035FEE )
 )
 game (
-	name "SateSupo DX - Dai-4-gou (Japan) (9-21) (Magazine)"
+	name "SateSupo DX - Dai-4-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "21"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-4-gou (Japan) (9-21) (Magazine).bs" size 393216 crc 3465A552 md5 83080E259D5B6119671461F060A484D3 sha1 BE691A7D009E97BD6246E088485F7EEDB1AEB1C8 )
+	rom ( name "SateSupo DX - Dai-4-gou (Japan) (1996-9-21) (Magazine).bs" size 393216 crc 3465A552 md5 83080E259D5B6119671461F060A484D3 sha1 BE691A7D009E97BD6246E088485F7EEDB1AEB1C8 )
 )
 game (
-	name "SateSupo DX - Dai-4-gou (Japan) (9-22) (Magazine)"
+	name "SateSupo DX - Dai-4-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "17"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-4-gou (Japan) (9-22) (Magazine).bs" size 1048576 crc 8ADA2BA7 md5 442384ED70AF69F594C8CEC93E6DE81E sha1 6923096CC33296AF8E7CE7978457E39A36035FEE )
+	rom ( name "SateSupo DX - Dai-4-gou (Japan) (1996-9-17) (Magazine).bs" size 1048576 crc 6B2C7023 md5 D37F679E5B51F6527AB9EA2581037851 sha1 1F2A0B8991F0D041E3E7225B0D290F886CB26D02 )
 )
 game (
 	name "SateSupo DX - Dai-5-gou (Japan) (Magazine)"
+	releaseyear "1996"
+	releasemonth "9"
+	releaseday "28"
 	region "Japan"
-	rom ( name "SateSupo DX - Dai-5-gou (Japan) (Magazine).bs" size 524288 crc AA997E74 md5 608D7CDE9B4BFCB6ABE6DC43286EBD5C sha1 86E94A0F3D0AF15D7749D19F4964D00F84989C97 )
+	rom ( name "SateSupo DX - Dai-5-gou (Japan) (1996-9-28) (Magazine).bs" size 524288 crc AA997E74 md5 608D7CDE9B4BFCB6ABE6DC43286EBD5C sha1 86E94A0F3D0AF15D7749D19F4964D00F84989C97 )
 )
 game (
 	name "Satella Walker - Dai-2-wa - Machi no Heiwa o Torimodose! (Japan) (SoundLink)"
@@ -2059,17 +2342,20 @@ game (
 	rom ( name "Soul Blader (Japan).bs" size 1048576 crc B88F7404 md5 E1AFD44B7C9DB1920AA065F73D344615 sha1 EBDEA36BC6418DBE03A53CC1CEF5BB8DA2FA9736 )
 )
 game (
-	name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (4-14) (SoundLink Magazine)"
-	region "Japan"
-	rom ( name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (4-14) (SoundLink Magazine).bs" size 1048576 crc 0BB960C9 md5 7E51A6F28BEDBCE33A9B27D1978004E6 sha1 CA1020F1B2A5339669E36037A8AC3FA25701FD82 )
-)
-game (
 	name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (Premiere) (SoundLink Magazine)"
 	releaseyear "1998"
 	releasemonth "2"
 	releaseday "8"
 	region "Japan"
 	rom ( name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (Premiere) (1998-2-8) (SoundLink Magazine).bs" size 1048576 crc 5B5D88F7 md5 77B704ECFB504C1F3FCE4ECC58B9865C sha1 A6E668991181645D457668C9D3D2EB1E09BF5ABA )
+)
+game (
+	name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (SoundLink Magazine)"
+	releaseyear "1998"
+	releasemonth "4"
+	releaseday "14"
+	region "Japan"
+	rom ( name "Sound Journal for Lovers - Valentine Special Vol. 1 (Japan) (1998-4-14) (SoundLink Magazine).bs" size 1048576 crc 0BB960C9 md5 7E51A6F28BEDBCE33A9B27D1978004E6 sha1 CA1020F1B2A5339669E36037A8AC3FA25701FD82 )
 )
 game (
 	name "Sound Novel 1 + Ijuin Hikaru no Kai Denpa Hasshin Kichi (Japan) (Data, SoundLink Magazine)"
@@ -2086,18 +2372,27 @@ game (
 )
 game (
 	name "Sousa Sentai Wappers - Extra Mission (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "10"
+	releaseday "27"
 	region "Japan"
-	rom ( name "Sousa Sentai Wappers - Extra Mission (Japan) (Magazine).bs" size 1048576 crc 53B843F3 md5 6FF4E2AA7182DFEA739681B7AE615CE7 sha1 15CE8B3AA3ADA7BAF9576C7585B60EA5CFA536C5 )
+	rom ( name "Sousa Sentai Wappers - Extra Mission (Japan) (1998-10-27) (Magazine).bs" size 1048576 crc 53B843F3 md5 6FF4E2AA7182DFEA739681B7AE615CE7 sha1 15CE8B3AA3ADA7BAF9576C7585B60EA5CFA536C5 )
 )
 game (
 	name "Sousa Sentai Wappers - Mission 01 (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "4"
+	releaseday "21"
 	region "Japan"
-	rom ( name "Sousa Sentai Wappers - Mission 01 (Japan) (Magazine).bs" size 1048576 crc B8060F58 md5 86F8CE24EA8DAC6C054E88E417AD2A34 sha1 6E99B74109A78EE9CE2B53832552004667BCFE8C )
+	rom ( name "Sousa Sentai Wappers - Mission 01 (Japan) (1998-4-21) (Magazine).bs" size 1048576 crc B8060F58 md5 86F8CE24EA8DAC6C054E88E417AD2A34 sha1 6E99B74109A78EE9CE2B53832552004667BCFE8C )
 )
 game (
 	name "Sousa Sentai Wappers - Mission 02 (Japan) (Magazine)"
+	releaseyear "1998"
+	releasemonth "5"
+	releaseday "28"
 	region "Japan"
-	rom ( name "Sousa Sentai Wappers - Mission 02 (Japan) (Magazine).bs" size 1048576 crc 317FFBD7 md5 7F4750E65269400E9AFFCE96D7B4F6AA sha1 345FE4671A862FE40394DAE38F5038872389B98B )
+	rom ( name "Sousa Sentai Wappers - Mission 02 (Japan) (1998-5-28) (Magazine).bs" size 1048576 crc 317FFBD7 md5 7F4750E65269400E9AFFCE96D7B4F6AA sha1 345FE4671A862FE40394DAE38F5038872389B98B )
 )
 game (
 	name "Space Invaders - The Original Game (Japan) (3-11)"
@@ -2145,20 +2440,12 @@ game (
 	rom ( name "Spriggan Powered BS - Prelude (Japan) (SoundLink).bs" size 1048576 crc 65B4280A md5 32D8B85A4ED351240E2D6D8AC5CA9365 sha1 1F2E0B09116C401B6F63BB3F04729636792A71B7 )
 )
 game (
-	name "Square Magazine + Square Magazine (1995-11-21) (Japan) (SoundLink Magazine)"
+	name "Square Magazine (Japan) (SoundLink Magazine) (Standalone Fix)"
 	releaseyear "1995"
 	releasemonth "11"
 	releaseday "7"
 	region "Japan"
-	rom ( name "Square Magazine (1995-11-7) + Square Magazine (1995-11-21) (Japan) (SoundLink Magazine).bs" size 1048576 crc A623CC18 md5 DA62BCCF3EF9B3AD8D735379F466EFBB sha1 F2A98504E6317906EED8CD230023BFA62F5E3184 )
-)
-game (
-	name "Square Magazine + Lily Franky Theater - Live Action Version (1995-12-4) (Japan) (SoundLink Magazine)"
-	releaseyear "1995"
-	releasemonth "12"
-	releaseday "5"
-	region "Japan"
-	rom ( name "Square Magazine (1995-12-5) + Lily Franky Theater - Live Action Version (1995-12-4) (Japan) (SoundLink Magazine).bs" size 1048576 crc 5BFA1181 md5 85F7EFF6D65267E95304D2A361968950 sha1 00EB14061AAA73DE0978F4D2303A24318A566992 )
+	rom ( name "Square Magazine (Japan) (1995-11-7) (SoundLink Magazine) (Standalone Fix).bs" size 1048576 crc A08893AE md5 E5BBC1338F388D258D51BD216D56B1E4 sha1 56D2786972469F95CD4E1EB8BF8DE470469326C8 )
 )
 game (
 	name "Square Magazine (Japan) (SoundLink Magazine) (Standalone Fix)"
@@ -2169,27 +2456,44 @@ game (
 	rom ( name "Square Magazine (Japan) (1995-11-21) (SoundLink Magazine) (Standalone Fix).bs" size 1048576 crc 899F300A md5 240BEED1DC7E3B3C428464218CD846CB sha1 D4C301B4C27C20640DD3A2640762C32D69E9DDBD )
 )
 game (
-	name "Square Magazine (Japan) (SoundLink Magazine) (Standalone Fix)"
+	name "Square Magazine + Lily Franky Theater - Live Action Version (1995-12-4) (Japan) (SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "5"
+	region "Japan"
+	rom ( name "Square Magazine (1995-12-5) + Lily Franky Theater - Live Action Version (1995-12-4) (Japan) (SoundLink Magazine).bs" size 1048576 crc 5BFA1181 md5 85F7EFF6D65267E95304D2A361968950 sha1 00EB14061AAA73DE0978F4D2303A24318A566992 )
+)
+game (
+	name "Square Magazine + Square Magazine (1995-11-21) (Japan) (SoundLink Magazine)"
 	releaseyear "1995"
 	releasemonth "11"
 	releaseday "7"
 	region "Japan"
-	rom ( name "Square Magazine (Japan) (1995-11-7) (SoundLink Magazine) (Standalone Fix).bs" size 1048576 crc A08893AE md5 E5BBC1338F388D258D51BD216D56B1E4 sha1 56D2786972469F95CD4E1EB8BF8DE470469326C8 )
+	rom ( name "Square Magazine (1995-11-7) + Square Magazine (1995-11-21) (Japan) (SoundLink Magazine).bs" size 1048576 crc A623CC18 md5 DA62BCCF3EF9B3AD8D735379F466EFBB sha1 F2A98504E6317906EED8CD230023BFA62F5E3184 )
 )
 game (
-	name "St. GIGA Choujou Kessen (2-15) + Konae-chan no Dokidoki Penguin Kazoku (12-22) (Japan) (SoundLink Magazine, Game)"
+	name "St. GIGA Choujou Kessen (Japan) (SoundLink Magazine)"
+	releaseyear "1997"
+	releasemonth "2"
+	releaseday "15"
 	region "Japan"
-	rom ( name "St. GIGA Choujou Kessen (2-15) + Konae-chan no Dokidoki Penguin Kazoku (12-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 572168C1 md5 8F38D32B045D0D992E5B8A9786EC2E74 sha1 E7A791B092117FAF49F6134790E858134010E9BD )
+	rom ( name "St. GIGA Choujou Kessen (Japan) (1997-2-15) (SoundLink Magazine).bs" size 524288 crc CC1707AC md5 0427056604119580225E3326F08722AC sha1 3F747742015B8671661FF1C5CA85EAC4EC91B798 )
 )
 game (
-	name "St. GIGA Choujou Kessen (Japan) (2-15) (SoundLink Magazine)"
+	name "St. GIGA Choujou Kessen + Konae-chan no Dokidoki Penguin Kazoku (1996-12-22) (Japan) (SoundLink Magazine, Game)"
+	releaseyear "1997"
+	releasemonth "2"
+	releaseday "15"
 	region "Japan"
-	rom ( name "St. GIGA Choujou Kessen (Japan) (2-15) (SoundLink Magazine).bs" size 524288 crc CC1707AC md5 0427056604119580225E3326F08722AC sha1 3F747742015B8671661FF1C5CA85EAC4EC91B798 )
+	rom ( name "St. GIGA Choujou Kessen (1997-2-15) + Konae-chan no Dokidoki Penguin Kazoku (1996-12-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc 572168C1 md5 8F38D32B045D0D992E5B8A9786EC2E74 sha1 E7A791B092117FAF49F6134790E858134010E9BD )
 )
 game (
 	name "Star Soldier - 2 Minute Mode (Japan) (En)"
+	releaseyear "1995"
+	releasemonth "8"
+	releaseday "24"
 	region "Japan"
-	rom ( name "Star Soldier - 2 Minute Mode (Japan) (En).bs" size 131072 crc 23C688E9 md5 972C865F8C3DB09137CB4B526855B305 sha1 8136CDFE7BC5C003BA2BF4E72688FCFEEDC3D1D6 )
+	rom ( name "Star Soldier - 2 Minute Mode (Japan) (En) (1995-8-24).bs" size 131072 crc 23C688E9 md5 972C865F8C3DB09137CB4B526855B305 sha1 8136CDFE7BC5C003BA2BF4E72688FCFEEDC3D1D6 )
 )
 game (
 	name "Sugoi RPG - Kouhen (Japan)"
@@ -2227,9 +2531,12 @@ game (
 	rom ( name "Super Bomberman 2 (Japan) (En) (8-17).bs" size 1048576 crc 095F2969 md5 791BD8BF2645D7C0B95CB541949810AA sha1 9FC6D3DF4C35F1A1EE1E1C825AD76E07126C383A )
 )
 game (
-	name "Super Bombliss (Japan) (10-13) (SoundLink)"
+	name "Super Bombliss (Japan) (SoundLink)"
+	releaseyear "1995"
+	releasemonth "10"
+	releaseday "13"
 	region "Japan"
-	rom ( name "Super Bombliss (Japan) (10-13) (SoundLink).bs" size 1048576 crc FA5D294E md5 8323DC670B8CA0A7451916E50C2E4204 sha1 CF2B49DB5F8C400F69DC083AEDE89AD3FFF70EC1 )
+	rom ( name "Super Bombliss (Japan) (1995-10-13) (SoundLink).bs" size 1048576 crc FA5D294E md5 8323DC670B8CA0A7451916E50C2E4204 sha1 CF2B49DB5F8C400F69DC083AEDE89AD3FFF70EC1 )
 )
 game (
 	name "Super Bowling (Japan) (En) (10-10)"
@@ -2242,24 +2549,33 @@ game (
 	rom ( name "Super Bowling (Japan) (En) (6-30).bs" size 1048576 crc 8847DE16 md5 4D82AFA735AE9532865F4594D6F7399A sha1 D9A4778A4F2AA310C9A2D2FF61FA9806D74AAED1 )
 )
 game (
-	name "Super E.D.F. (Japan)"
+	name "Super E.D.F. (Japan) (En)"
 	region "Japan"
-	rom ( name "Super E.D.F. (Japan).bs" size 1048576 crc 2DD53BA4 md5 AB09F131DC565A9F2D4258CF52F27D2E sha1 5301AE75B3707DF9C60E4C7B1A2E6B90BECE1E6E )
+	rom ( name "Super E.D.F. (Japan) (En).bs" size 1048576 crc 2DD53BA4 md5 AB09F131DC565A9F2D4258CF52F27D2E sha1 5301AE75B3707DF9C60E4C7B1A2E6B90BECE1E6E )
 )
 game (
 	name "Super Famicom Wars BS Ban - Hagoromo-jima (Japan)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "14"
 	region "Japan"
-	rom ( name "Super Famicom Wars BS Ban - Hagoromo-jima (Japan).bs" size 1048576 crc 1D43FA3B md5 2FEB241618BB96A65DDD25B4F9DD675A sha1 26C63F37CA75A250EE1F03CDB4DC1E4ADDB9AD95 )
+	rom ( name "Super Famicom Wars BS Ban - Hagoromo-jima (Japan) (1998-3-14).bs" size 1048576 crc 1D43FA3B md5 2FEB241618BB96A65DDD25B4F9DD675A sha1 26C63F37CA75A250EE1F03CDB4DC1E4ADDB9AD95 )
 )
 game (
 	name "Super Famicom Wars BS Ban - Noakazantou (Japan)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Super Famicom Wars BS Ban - Noakazantou (Japan).bs" size 1048576 crc 3B52D6F5 md5 FE683B7AE51C0A7F25CB889DA10E86B4 sha1 BAE5EC2FD7138936B2927D76C708534C2979B677 )
+	rom ( name "Super Famicom Wars BS Ban - Noakazantou (Japan) (1998-3-16).bs" size 1048576 crc 3B52D6F5 md5 FE683B7AE51C0A7F25CB889DA10E86B4 sha1 BAE5EC2FD7138936B2927D76C708534C2979B677 )
 )
 game (
 	name "Super Famicom Wars BS Ban - Tsukinowa-jima (Japan)"
+	releaseyear "1998"
+	releasemonth "3"
+	releaseday "22"
 	region "Japan"
-	rom ( name "Super Famicom Wars BS Ban - Tsukinowa-jima (Japan).bs" size 1048576 crc 53909DC4 md5 D65A73AD8DDC97A47FDAF7437A083E0C sha1 CC358A40DE93A8CC10A5EAE45E21E2E832B59BC0 )
+	rom ( name "Super Famicom Wars BS Ban - Tsukinowa-jima (Japan) (1998-3-22).bs" size 1048576 crc 53909DC4 md5 D65A73AD8DDC97A47FDAF7437A083E0C sha1 CC358A40DE93A8CC10A5EAE45E21E2E832B59BC0 )
 )
 game (
 	name "Super Final Match Tennis (Japan) (3-30)"
@@ -2284,9 +2600,9 @@ game (
 	rom ( name "Super Formation Soccer (Japan) (8-5).bs" size 524288 crc E8190C48 md5 3471535B39C71B929FE010911036AD93 sha1 C78B2F0212DA88EB7CC8C7CE8D182E0D634CB711 )
 )
 game (
-	name "Super Gomoku Narabe Renju (Japan)"
+	name "Super Gomoku Narabe - Renju (Japan)"
 	region "Japan"
-	rom ( name "Super Gomoku Narabe Renju (Japan).bs" size 1048576 crc D770C34C md5 510BF81472A202F72D3F81C5B3B7F587 sha1 6892B3296A754B26A0FFC45028EB985A2AFA19F5 )
+	rom ( name "Super Gomoku Narabe - Renju (Japan).bs" size 1048576 crc D770C34C md5 510BF81472A202F72D3F81C5B3B7F587 sha1 6892B3296A754B26A0FFC45028EB985A2AFA19F5 )
 )
 game (
 	name "Super Mahjong Taikai (9-27) + Super Bowling (9-27) (Japan)"
@@ -2297,6 +2613,11 @@ game (
 	name "Super Mahjong Taikai (Japan) (5-27)"
 	region "Japan"
 	rom ( name "Super Mahjong Taikai (Japan) (5-27).bs" size 1048576 crc 881A70FD md5 6A2F02A0CE635F05DC27C6891FE30332 sha1 0816E71285C4C14AE7F985A4FADBADE911D88893 )
+)
+game (
+	name "Super Momotarou Dentetsu II (Japan)"
+	region "Japan"
+	rom ( name "Super Momotarou Dentetsu II (Japan).bs" size 1048576 crc C15F835F md5 E96B5F105786BD8FB0A99C0E1D6DB34F sha1 30FC6FD215875BE3919A76D68010860F352682EA )
 )
 game (
 	name "Super Nazo Puyo - Rulue no Roux (Japan) (10-20)"
@@ -2336,19 +2657,25 @@ game (
 	rom ( name "Super Puyo Puyo (Japan) (11-3).bs" size 1048576 crc F12266BC md5 5DE25996B7690CAB8531E5C10F3FD6D9 sha1 3A67FA1978973B7DC2E8926C3938A0E976418D6F )
 )
 game (
-	name "Super Puyo Puyo Tsuu BS Ban (Japan) (11-30)"
+	name "Super Puyo Puyo Tsuu BS Ban (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "30"
 	region "Japan"
-	rom ( name "Super Puyo Puyo Tsuu BS Ban (Japan) (11-30).bs" size 1048576 crc E63EE3B1 md5 2DE583AA9248F3D3E9D12E307DF85B79 sha1 2FA77C709294DA3A0AE5A918A574B49302A0BF17 )
+	rom ( name "Super Puyo Puyo Tsuu BS Ban (Japan) (1995-11-30).bs" size 1048576 crc E63EE3B1 md5 2DE583AA9248F3D3E9D12E307DF85B79 sha1 2FA77C709294DA3A0AE5A918A574B49302A0BF17 )
 )
 game (
-	name "Super Puyo Puyo Tsuu BS Ban (Japan) (12-3)"
+	name "Super Puyo Puyo Tsuu BS Ban (Japan)"
+	releaseyear "1995"
+	releasemonth "12"
+	releaseday "3"
 	region "Japan"
-	rom ( name "Super Puyo Puyo Tsuu BS Ban (Japan) (12-3).bs" size 1048576 crc 13951A1C md5 2808F00D77A8D5B39C22E7158804ABBA sha1 AEF4B1AB411997244ED4DAC0DE105B28705A4F20 )
+	rom ( name "Super Puyo Puyo Tsuu BS Ban (Japan) (1995-12-3).bs" size 1048576 crc 13951A1C md5 2808F00D77A8D5B39C22E7158804ABBA sha1 AEF4B1AB411997244ED4DAC0DE105B28705A4F20 )
 )
 game (
-	name "Super Puyo Puyo Tsuu Remix (3-4) + Bakushow Mondai no Silicon Chounaikai (1997-2-1 and 1997-2-8) (Japan)"
+	name "Super Puyo Puyo Tsuu Remix (3-4) + Bakushow Mondai no Silicon Chounaikai (1997-2-1 + 1997-2-8) (Japan) (Game, SoundLink Magazine)"
 	region "Japan"
-	rom ( name "Super Puyo Puyo Tsuu Remix (3-4) + Bakushow Mondai no Silicon Chounaikai (1997-2-1 and 1997-2-8) (Japan).bs" size 1048576 crc B4E8484D md5 25D7FD9E383F96885647A72902FD1B27 sha1 617F1BD983088FE76B78496CD5A0BD012529A8E6 )
+	rom ( name "Super Puyo Puyo Tsuu Remix (3-4) + Bakushow Mondai no Silicon Chounaikai (1997-2-1 + 1997-2-8) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc B4E8484D md5 25D7FD9E383F96885647A72902FD1B27 sha1 617F1BD983088FE76B78496CD5A0BD012529A8E6 )
 )
 game (
 	name "Super Puyo Puyo Tsuu Remix (5-16) + Game Tora no Chou Ooana (1996-5-19, Part 2) (Japan) (Game, SoundLink Magazine)"
@@ -2356,9 +2683,9 @@ game (
 	rom ( name "Super Puyo Puyo Tsuu Remix (5-16) + Game Tora no Chou Ooana (1996-5-19, Part 2) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc CBE9D3C8 md5 8B5DAB657E51B862F5B01D87B7F0539F sha1 20328526C7E7F2A99FFD97440BB72B560EA93037 )
 )
 game (
-	name "Super Soukoban (Japan) (2-8) (Standalone Fix)"
+	name "Super Soukoban (Japan) (2-8)"
 	region "Japan"
-	rom ( name "Super Soukoban (Japan) (2-8) (Standalone Fix).bs" size 524288 crc 99E0F046 md5 A3D0752C5CC8A931A4D2170095DC1DA1 sha1 D0916A534229F6EDE30599B8B646BF6EA738AA2A )
+	rom ( name "Super Soukoban (Japan) (2-8) (Memory Pack).bs" size 1048576 crc EAF6E2BB md5 61AEA637EBA08687DC98E684BB2512F4 sha1 CD78DE207E9BDBF3B99DBF6E929BC667641BDE11 )
 )
 game (
 	name "Super Soukoban (Japan) (4-4)"
@@ -2498,14 +2825,14 @@ game (
 	rom ( name "Tabi Magazine - Tokoton Travel - Dai-6-gou - Indo-hen (Japan) (1998-9-10) (Magazine).bs" size 1048576 crc 8A12764A md5 13AB553D025791A7FCCF062AE1FF2E12 sha1 214C089E19C4B835381ABEE7BB49F1209B5B1122 )
 )
 game (
-	name "Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (6-14)"
+	name "Table Game Daishuugou!! (Japan) (6-14)"
 	region "Japan"
-	rom ( name "Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (6-14).bs" size 1048576 crc 97546D16 md5 B242E4789C7A8393FCE06106AA38B69D sha1 94D80D2994434F2CC49CE3023CE468A0082E26A5 )
+	rom ( name "Table Game Daishuugou!! (Japan) (6-14).bs" size 1048576 crc 97546D16 md5 B242E4789C7A8393FCE06106AA38B69D sha1 94D80D2994434F2CC49CE3023CE468A0082E26A5 )
 )
 game (
-	name "Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (6-2)"
+	name "Table Game Daishuugou!! (Japan) (6-2)"
 	region "Japan"
-	rom ( name "Table Game Daisyugo!! Shougi Mahjong Hanafuda (Japan) (6-2).bs" size 1048576 crc 47E3047E md5 B7BB06A4E57AF668A80E48D23BC186F3 sha1 00DDBD9471F9B22B927A2361C672D7E4081FB69D )
+	rom ( name "Table Game Daishuugou!! (Japan) (6-2).bs" size 1048576 crc 47E3047E md5 B7BB06A4E57AF668A80E48D23BC186F3 sha1 00DDBD9471F9B22B927A2361C672D7E4081FB69D )
 )
 game (
 	name "Takahashi Meijin no Daibouken-jima (Japan) (En)"
@@ -2513,62 +2840,20 @@ game (
 	rom ( name "Takahashi Meijin no Daibouken-jima (Japan) (En).bs" size 1048576 crc 54A2041E md5 0C222B3B6C804EEC04EACB51EEC4FC1E sha1 A4DFAA99D49C0298D1820AD9D697361B630B64BA )
 )
 game (
-	name "Takara-Hai Oozumou Eisei Bashou (Hatsuba) (Japan) (6-3) (SoundLink)"
-	region "Japan"
-	rom ( name "Takara-Hai Oozumou Eisei Bashou (Hatsuba) (Japan) (6-3) (SoundLink).bs" size 1048576 crc 88EDD53D md5 A1DF442DE8CECCCEB587203151E74B7F sha1 CFAEAFE7D52020DB2076A3EFC829423A352110F0 )
-)
-game (
-	name "Takara-Hai Oozumou Eisei Bashou (Natsuba) (Japan) (6-20) (SoundLink)"
-	region "Japan"
-	rom ( name "Takara-Hai Oozumou Eisei Bashou (Natsuba) (Japan) (6-20) (SoundLink).bs" size 1048576 crc 08ECE941 md5 15C5E6D299D05E7744B53A908B9A9761 sha1 D8913771FD0A316803DB611E34E7ED8CA67B0CBE )
-)
-game (
-	name "Tamori no Picross + Waiwai Check (8-26) (Japan)"
-	releaseyear "1995"
-	releasemonth "5"
-	releaseday "10"
-	region "Japan"
-	rom ( name "Tamori no Picross (1995-5-10) + Waiwai Check (8-26) (Japan).bs" size 1048576 crc 866ED6B4 md5 08640538C9380DABA2053D466BEAAFA4 sha1 259C0B7887549E6082653126ED01077DC43F193B )
-)
-game (
-	name "Tamori no Picross + Game Tora no Ooana (1995-5-3) (Japan) (Game, SoundLink Magazine)"
-	releaseyear "1995"
-	releasemonth "5"
+	name "Takara-Hai Oozumou Eisei Bashou (Hatsuba) (Japan) (SoundLink)"
+	releaseyear "1996"
+	releasemonth "6"
 	releaseday "3"
 	region "Japan"
-	rom ( name "Tamori no Picross (1995-5-3) + Game Tora no Ooana (1995-5-3) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc 847355BA md5 B9583C16400194D6597AB7DCAB6F78A8 sha1 F176CB8B16D5CEE5B54AA4CE8021CD4E71247990 )
+	rom ( name "Takara-Hai Oozumou Eisei Bashou (Hatsuba) (Japan) (1996-6-3) (SoundLink).bs" size 1048576 crc 88EDD53D md5 A1DF442DE8CECCCEB587203151E74B7F sha1 CFAEAFE7D52020DB2076A3EFC829423A352110F0 )
 )
 game (
-	name "Tamori no Picross + AK LIVE Hit Gang (1995-5-30) (Japan) (Game, Magazine)"
-	releaseyear "1995"
+	name "Takara-Hai Oozumou Eisei Bashou (Natsuba) (Japan) (SoundLink)"
+	releaseyear "1996"
 	releasemonth "6"
-	releaseday "13"
+	releaseday "20"
 	region "Japan"
-	rom ( name "Tamori no Picross (1995-6-13) + AK LIVE Hit Gang (1995-5-30) (Japan) (Game, Magazine).bs" size 1048576 crc C7E1382D md5 BAF42C676B061249D0FF8A053543A28C sha1 3C74ED92E18DF4BC81B2CC79CCBC7E46B127B8C4 )
-)
-game (
-	name "Tamori no Picross + SatellaQ (1995-7-21) + Machi Magazine (1995-7-21) (Japan)"
-	releaseyear "1995"
-	releasemonth "7"
-	releaseday "14"
-	region "Japan"
-	rom ( name "Tamori no Picross (1995-7-14) + SatellaQ (1995-7-21) + Machi Magazine (1995-7-21) (Japan).bs" size 1048576 crc 26A6D609 md5 B8EDF62CB0F97B73658AFE9492BA9242 sha1 18A582AF6603EE0D60FEBF3A07B7796FB3151958 )
-)
-game (
-	name "Tamori no Picross + Bakushow Mondai no Houkago no Ousama - Kayoubi (1995-10-17) (Japan) (Game, SoundLink Magazine)"
-	releaseyear "1995"
-	releasemonth "8"
-	releaseday "13"
-	region "Japan"
-	rom ( name "Tamori no Picross (1995-8-13) + Bakushow Mondai no Houkago no Ousama - Kayoubi (1995-10-17) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc E58EE3AD md5 7A165AAE06E675EB9A569BD1935B4816 sha1 184A8671A9D6790B351F22178D5A47C37D57A9AD )
-)
-game (
-	name "Tamori no Picross (Japan)"
-	releaseyear "1995"
-	releasemonth "5"
-	releaseday "10"
-	region "Japan"
-	rom ( name "Tamori no Picross (Japan) (1995-5-10).bs" size 524288 crc 4C08BDD7 md5 98E6D4CC81035CA60C50F4AF724E0765 sha1 E82A3697DBDFE995773D1CED7785B2FD7C1B7652 )
+	rom ( name "Takara-Hai Oozumou Eisei Bashou (Natsuba) (Japan) (1996-6-20) (SoundLink).bs" size 1048576 crc 08ECE941 md5 15C5E6D299D05E7744B53A908B9A9761 sha1 D8913771FD0A316803DB611E34E7ED8CA67B0CBE )
 )
 game (
 	name "Tamori no Picross (Japan)"
@@ -2595,6 +2880,54 @@ game (
 	rom ( name "Tamori no Picross (Japan) (1995-8-13).bs" size 524288 crc D665424A md5 3190324F4FFDD302D29FF8D699488EA1 sha1 29F49A2AA85D4469C04CB9663BFDB960FC31F2BC )
 )
 game (
+	name "Tamori no Picross (Japan)"
+	releaseyear "1995"
+	releasemonth "5"
+	releaseday "10"
+	region "Japan"
+	rom ( name "Tamori no Picross (Japan) (1995-5-10).bs" size 524288 crc 4C08BDD7 md5 98E6D4CC81035CA60C50F4AF724E0765 sha1 E82A3697DBDFE995773D1CED7785B2FD7C1B7652 )
+)
+game (
+	name "Tamori no Picross + AK LIVE Hit Gang (1995-5-30) (Japan) (Game, Magazine)"
+	releaseyear "1995"
+	releasemonth "6"
+	releaseday "13"
+	region "Japan"
+	rom ( name "Tamori no Picross (1995-6-13) + AK LIVE Hit Gang (1995-5-30) (Japan) (Game, Magazine).bs" size 1048576 crc C7E1382D md5 BAF42C676B061249D0FF8A053543A28C sha1 3C74ED92E18DF4BC81B2CC79CCBC7E46B127B8C4 )
+)
+game (
+	name "Tamori no Picross + Bakushow Mondai no Houkago no Ousama - Kayoubi (1995-10-17) (Japan) (Game, SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "8"
+	releaseday "13"
+	region "Japan"
+	rom ( name "Tamori no Picross (1995-8-13) + Bakushow Mondai no Houkago no Ousama - Kayoubi (1995-10-17) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc E58EE3AD md5 7A165AAE06E675EB9A569BD1935B4816 sha1 184A8671A9D6790B351F22178D5A47C37D57A9AD )
+)
+game (
+	name "Tamori no Picross + Game Tora no Ooana (1995-5-3) (Japan) (Game, SoundLink Magazine)"
+	releaseyear "1995"
+	releasemonth "5"
+	releaseday "3"
+	region "Japan"
+	rom ( name "Tamori no Picross (1995-5-3) + Game Tora no Ooana (1995-5-3) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc 847355BA md5 B9583C16400194D6597AB7DCAB6F78A8 sha1 F176CB8B16D5CEE5B54AA4CE8021CD4E71247990 )
+)
+game (
+	name "Tamori no Picross + SatellaQ (1995-7-21) + Machi Magazine (1995-7-21) (Japan)"
+	releaseyear "1995"
+	releasemonth "7"
+	releaseday "14"
+	region "Japan"
+	rom ( name "Tamori no Picross (1995-7-14) + SatellaQ (1995-7-21) + Machi Magazine (1995-7-21) (Japan).bs" size 1048576 crc 26A6D609 md5 B8EDF62CB0F97B73658AFE9492BA9242 sha1 18A582AF6603EE0D60FEBF3A07B7796FB3151958 )
+)
+game (
+	name "Tamori no Picross + Waiwai Check (1995-8-26, 8-26) (Japan)"
+	releaseyear "1995"
+	releasemonth "5"
+	releaseday "10"
+	region "Japan"
+	rom ( name "Tamori no Picross (1995-5-10) + Waiwai Check (1995-8-26, 8-26) (Japan).bs" size 1048576 crc 866ED6B4 md5 08640538C9380DABA2053D466BEAAFA4 sha1 259C0B7887549E6082653126ED01077DC43F193B )
+)
+game (
 	name "Top Racer 2 (Japan) (En)"
 	region "Japan"
 	rom ( name "Top Racer 2 (Japan) (En).bs" size 1048576 crc C8D54976 md5 0210C2628D721B5E212E21B679334258 sha1 7D6A70B68A7D9FB7CF48A889B96934D276AB2383 )
@@ -2618,9 +2951,9 @@ game (
 	rom ( name "Tsuri Tarou (Japan).bs" size 1048576 crc 5E53EF4A md5 BC648509FB9A5AB61903B10DF21E979C sha1 D52A55D657477586ABD62920F4CDF0DB4BDD9A17 )
 )
 game (
-	name "Uchida Yuki Yuugure Street Kids (Japan) (1995-8-12, 1995-8-5) (SoundLink Magazine)"
+	name "Uchida Yuki Yuugure Street Kids (Japan) (1995-8-12 + 1995-8-5) (SoundLink Magazine)"
 	region "Japan"
-	rom ( name "Uchida Yuki Yuugure Street Kids (Japan) (1995-8-12, 1995-8-5) (SoundLink Magazine).bs" size 1048576 crc 60E87EAE md5 04C98BAB2E8483BB22EE53A210940CCC sha1 5F61863506725C7E9AE701AA3BE987E6B839D11F )
+	rom ( name "Uchida Yuki Yuugure Street Kids (Japan) (1995-8-12 + 1995-8-5) (SoundLink Magazine).bs" size 1048576 crc 60E87EAE md5 04C98BAB2E8483BB22EE53A210940CCC sha1 5F61863506725C7E9AE701AA3BE987E6B839D11F )
 )
 game (
 	name "Uchida Yuki Yuugure Street Kids (Japan) (SoundLink Magazine)"
@@ -2631,44 +2964,76 @@ game (
 	rom ( name "Uchida Yuki Yuugure Street Kids (Japan) (1995-9-9) (SoundLink Magazine).bs" size 1048576 crc 0FD1F689 md5 103A67F4E233DABFFA8AA93494921F23 sha1 9AFCBEDC2FE497D6E14BA7DF826D0E71C2B8B84F )
 )
 game (
-	name "Undake 30 - Same Game Daisakusen - Mario Version (11-16) + Waiwai Check 11-22 Saihousou (11-24) (Japan)"
+	name "Umatarou Gennarin Daibouken (Japan)"
+	releaseyear "1996"
+	releasemonth "6"
+	releaseday "26"
 	region "Japan"
-	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (11-16) + Waiwai Check 11-22 Saihousou (11-24) (Japan).bs" size 1048576 crc 839DC25A md5 B76C93CCFBAE8AC77770B06AA5FBC42D sha1 E190880FFD9ECD57810925ED82077307A0E10E12 )
+	rom ( name "Umatarou Gennarin Daibouken (Japan) (1996-6-26).bs" size 1048576 crc 5476720C md5 A6BD88B2786E0A28722BCD30AC643986 sha1 12B389C35551843109FAB8226EBEABF2D857B175 )
 )
 game (
-	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (11-11)"
+	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan)"
+	releaseyear "1996"
+	releasemonth "5"
+	releaseday "29"
 	region "Japan"
-	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (11-11).bs" size 1048576 crc B166C00B md5 1D7E7E3D050B7548F8AC1336FCCE127A sha1 18C0D9D3CCE41C140ED37B26B4091222FEFAA05B )
+	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (1996-5-29).bs" size 1048576 crc D8484292 md5 A421B292294C3E0C1204B7D169E9A0A0 sha1 D70CEA5312B908BB8F0DBA164B04C0A0A202D0A3 )
 )
 game (
-	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (11-16)"
+	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "11"
 	region "Japan"
-	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (11-16).bs" size 1048576 crc 9491AE73 md5 5F55FACDE772392681C107D5E5F0834E sha1 DDB701615E2AD0916954FF1DC5FBDF13F141936D )
+	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (1995-11-11).bs" size 1048576 crc B166C00B md5 1D7E7E3D050B7548F8AC1336FCCE127A sha1 18C0D9D3CCE41C140ED37B26B4091222FEFAA05B )
 )
 game (
-	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (5-29)"
+	name "Undake 30 - Same Game Daisakusen - Mario Version (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (5-29).bs" size 1048576 crc D8484292 md5 A421B292294C3E0C1204B7D169E9A0A0 sha1 D70CEA5312B908BB8F0DBA164B04C0A0A202D0A3 )
+	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (Japan) (1995-11-16).bs" size 1048576 crc 9491AE73 md5 5F55FACDE772392681C107D5E5F0834E sha1 DDB701615E2AD0916954FF1DC5FBDF13F141936D )
 )
 game (
-	name "Undake 30 - Uragame Daisakusen (7-24) + Kouryaku Casino Bar Kinyoubi - Slots (10-13) (Japan)"
+	name "Undake 30 - Same Game Daisakusen - Mario Version + Waiwai Check (Rerun) (1995-11-22, 11-24) (Japan)"
+	releaseyear "1995"
+	releasemonth "11"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Undake 30 - Uragame Daisakusen (7-24) + Kouryaku Casino Bar Kinyoubi - Slots (10-13) (Japan).bs" size 1048576 crc 3C996C12 md5 9124F6D1501AA212805C68913A7FE1A5 sha1 AA98147D815F37E88135E5819CC328F1AEDD50AA )
+	rom ( name "Undake 30 - Same Game Daisakusen - Mario Version (1995-11-16) + Waiwai Check (Rerun) (1995-11-22, 11-24) (Japan).bs" size 1048576 crc 839DC25A md5 B76C93CCFBAE8AC77770B06AA5FBC42D sha1 E190880FFD9ECD57810925ED82077307A0E10E12 )
 )
 game (
-	name "Undake 30 - Uragame Daisakusen (Japan) (7-24)"
+	name "Undake 30 - Uragame Daisakusen (Japan)"
+	releaseyear "1995"
+	releasemonth "7"
+	releaseday "24"
 	region "Japan"
-	rom ( name "Undake 30 - Uragame Daisakusen (Japan) (7-24).bs" size 524288 crc 737EEE85 md5 0B90749285A67F8F23E166AF0DD074EE sha1 C9FA2A0773DBB7D5FA9943D2FD5A7171A63520DD )
+	rom ( name "Undake 30 - Uragame Daisakusen (Japan) (1995-7-24).bs" size 524288 crc 737EEE85 md5 0B90749285A67F8F23E166AF0DD074EE sha1 C9FA2A0773DBB7D5FA9943D2FD5A7171A63520DD )
 )
 game (
-	name "User Same Game (Japan) (3-10) (Data Pack)"
+	name "Undake 30 - Uragame Daisakusen + Kouryaku Casino Bar Kinyoubi - Slots (10-13) (Japan)"
+	releaseyear "1995"
+	releasemonth "7"
+	releaseday "24"
 	region "Japan"
-	rom ( name "User Same Game (Japan) (3-10) (Data Pack).bs" size 1048576 crc 751CF97D md5 6BFC1AEBBCDCB0617C2E702EDA5D4C58 sha1 73ED5D9F7ADB27A08AE61E3065CC2DC07C8455B1 )
+	rom ( name "Undake 30 - Uragame Daisakusen (1995-7-24) + Kouryaku Casino Bar Kinyoubi - Slots (10-13) (Japan).bs" size 1048576 crc 3C996C12 md5 9124F6D1501AA212805C68913A7FE1A5 sha1 AA98147D815F37E88135E5819CC328F1AEDD50AA )
 )
 game (
-	name "User Same Game (Japan) (3-17) (Data Pack)"
+	name "User Same Game (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "3"
+	releaseday "17"
 	region "Japan"
-	rom ( name "User Same Game (Japan) (3-17) (Data Pack).bs" size 1048576 crc A4BC3179 md5 417CAC7B169D44E68346D2E5BFE874CC sha1 020F96A5C56615A058A8A2EBCE8CC421DA7BDB44 )
+	rom ( name "User Same Game (Japan) (1996-3-17) (Data Pack).bs" size 1048576 crc A4BC3179 md5 417CAC7B169D44E68346D2E5BFE874CC sha1 020F96A5C56615A058A8A2EBCE8CC421DA7BDB44 )
+)
+game (
+	name "User Same Game (Japan) (Data Pack)"
+	releaseyear "1996"
+	releasemonth "3"
+	releaseday "10"
+	region "Japan"
+	rom ( name "User Same Game (Japan) (1996-3-10) (Data Pack).bs" size 1048576 crc 751CF97D md5 6BFC1AEBBCDCB0617C2E702EDA5D4C58 sha1 73ED5D9F7ADB27A08AE61E3065CC2DC07C8455B1 )
 )
 game (
 	name "View Cinema Paradise - Vol. 4 (Japan) (Magazine)"
@@ -2679,39 +3044,47 @@ game (
 	rom ( name "View Cinema Paradise - Vol. 4 (Japan) (1999-1-17) (Magazine).bs" size 1048576 crc 1CCB20A5 md5 4DA9AB1E60B9741CC019C80C045F0346 sha1 75645639569794A63B650C8CD31C33E962619970 )
 )
 game (
-	name "Waiwai Check (Japan) (11-22)"
+	name "Waiwai Check (1996-3-21, 3-27) (Rerun) + Yuki no Waiwai Kids (Japan)"
+	releaseyear "1996"
+	releasemonth "3"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Waiwai Check (Japan) (11-22).bs" size 1048576 crc 701009F1 md5 F9DD9787AC4617D29BA1C5AB8F26C964 sha1 4DDFC191D7AE8C6C7C79E439B56B0E157BD554AE )
+	rom ( name "Waiwai Check (1996-3-21, 3-27) (Rerun) + Yuki no Waiwai Kids (1996-3-16) (Japan).bs" size 1048576 crc 17239E91 md5 9D531ACB20F61B40F59427A9B23009BC sha1 FE67F40912E7C4D290EEB175A2BD2122BFA3AE8C )
 )
 game (
-	name "Waiwai Check (Japan) (8-26)"
+	name "Waiwai Check (Japan) (1995-8-26, 8-26)"
 	region "Japan"
-	rom ( name "Waiwai Check (Japan) (8-26).bs" size 524288 crc 729F0D04 md5 97FB4052EF030CAEA502C2EE3F766A9F sha1 888367B2ED82001F3706D2A4062A1C3672CD91E4 )
+	rom ( name "Waiwai Check (Japan) (1995-8-26, 8-26).bs" size 524288 crc 729F0D04 md5 97FB4052EF030CAEA502C2EE3F766A9F sha1 888367B2ED82001F3706D2A4062A1C3672CD91E4 )
 )
 game (
-	name "Waiwai Check 11-15 Saihousou (Japan)"
+	name "Waiwai Check (Japan) (Rerun) (1995-11-15, 11-17)"
 	region "Japan"
-	rom ( name "Waiwai Check 11-15 Saihousou (Japan).bs" size 524288 crc C557DB3A md5 DEC5541B8D377B2E22208D2207334961 sha1 1725FF76E457F7A8D5E741BE9EDC549FAE145979 )
+	rom ( name "Waiwai Check (Japan) (Rerun) (1995-11-15, 11-17).bs" size 524288 crc C557DB3A md5 DEC5541B8D377B2E22208D2207334961 sha1 1725FF76E457F7A8D5E741BE9EDC549FAE145979 )
 )
 game (
-	name "Waiwai Check 11-15 Saihousou + Kouryaku Casino Bar Nichiyoubi - Roulette (10-22) (Japan)"
+	name "Waiwai Check (Japan) (Rerun) (1995-11-22, 11-22)"
 	region "Japan"
-	rom ( name "Waiwai Check 11-15 Saihousou + Kouryaku Casino Bar Nichiyoubi - Roulette (10-22) (Japan).bs" size 1048576 crc EBD10202 md5 61558751E5A211064BBC7FC9FD304EA0 sha1 AA0E23FEEDFF2BADEC4D16BD73E61D96A3C8A4B8 )
+	rom ( name "Waiwai Check (Japan) (Rerun) (1995-11-22, 11-22).bs" size 1048576 crc 701009F1 md5 F9DD9787AC4617D29BA1C5AB8F26C964 sha1 4DDFC191D7AE8C6C7C79E439B56B0E157BD554AE )
 )
 game (
-	name "Waiwai Check 11-22 Saihousou (Japan) (11-24)"
+	name "Waiwai Check (Japan) (Rerun) (1995-11-22, 11-24)"
 	region "Japan"
-	rom ( name "Waiwai Check 11-22 Saihousou (Japan) (11-24).bs" size 524288 crc 5766DB26 md5 67FE92329AFDFA315A3AC3DCD0CC7D8A sha1 51744EDBA2517364D6825E1B4F4869EBD598827C )
+	rom ( name "Waiwai Check (Japan) (Rerun) (1995-11-22, 11-24).bs" size 524288 crc 5766DB26 md5 67FE92329AFDFA315A3AC3DCD0CC7D8A sha1 51744EDBA2517364D6825E1B4F4869EBD598827C )
 )
 game (
-	name "Waiwai Check 3-21 Saihousou (3-21) + Game Tora no Chou Ooana (1996-3-31, Part 2) (Japan) (Game, SoundLink Magazine)"
+	name "Waiwai Check (Japan) (Rerun) (1996-3-7, 3-9)"
 	region "Japan"
-	rom ( name "Waiwai Check 3-21 Saihousou (3-21) + Game Tora no Chou Ooana (1996-3-31, Part 2) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc 77D1E07D md5 B6F5C1056C5C348C79980CEA5EB049B9 sha1 F15BF9C337F34A7DDAFD43AADA40571F86D949CA )
+	rom ( name "Waiwai Check (Japan) (Rerun) (1996-3-7, 3-9).bs" size 1048576 crc C8CB0E7C md5 AAF9C4F83BE14532168C75A488390058 sha1 4340DCFC21CC69C209ACF1AB7985ADB766604F64 )
 )
 game (
-	name "Waiwai Check 3-21 Saihousou (3-27) + Yuki no Waiwai Kids 3-16 Ban (Japan)"
+	name "Waiwai Check (Rerun) (1995-11-15, 11-17) + Kouryaku Casino Bar Nichiyoubi - Roulette (10-22) (Japan)"
 	region "Japan"
-	rom ( name "Waiwai Check 3-21 Saihousou (3-27) + Yuki no Waiwai Kids 3-16 Ban (Japan).bs" size 1048576 crc 17239E91 md5 9D531ACB20F61B40F59427A9B23009BC sha1 FE67F40912E7C4D290EEB175A2BD2122BFA3AE8C )
+	rom ( name "Waiwai Check (Rerun) (1995-11-15, 11-17) + Kouryaku Casino Bar Nichiyoubi - Roulette (10-22) (Japan).bs" size 1048576 crc EBD10202 md5 61558751E5A211064BBC7FC9FD304EA0 sha1 AA0E23FEEDFF2BADEC4D16BD73E61D96A3C8A4B8 )
+)
+game (
+	name "Waiwai Check (Rerun) (1996-3-21, 3-21) + Game Tora no Chou Ooana (1996-3-31, Part 2) (Japan) (Game, SoundLink Magazine)"
+	region "Japan"
+	rom ( name "Waiwai Check (Rerun) (1996-3-21, 3-21) + Game Tora no Chou Ooana (1996-3-31, Part 2) (Japan) (Game, SoundLink Magazine).bs" size 1048576 crc 77D1E07D md5 B6F5C1056C5C348C79980CEA5EB049B9 sha1 F15BF9C337F34A7DDAFD43AADA40571F86D949CA )
 )
 game (
 	name "Wario no Mori - Bakushou Version (Japan)"
@@ -2722,14 +3095,6 @@ game (
 	rom ( name "Wario no Mori - Bakushou Version (Japan) (1995-4-24).bs" size 1048576 crc E546B351 md5 A5B8A4FEA58DBBD7C4144E4EB26A39BA sha1 4E64DF99FDE8B597F62AA890209937D9B6297855 )
 )
 game (
-	name "Wario no Mori - Event Version 1 (Japan)"
-	releaseyear "1995"
-	releasemonth "7"
-	releaseday "11"
-	region "Japan"
-	rom ( name "Wario no Mori - Event Version 1 (Japan) (1995-7-11).bs" size 1048576 crc 5903240C md5 00ECED7A11FA3F1050A0752F01EE1617 sha1 A562565DD624B65622681AD667EAE3A5B1227C23 )
-)
-game (
 	name "Wario no Mori - Event Version 1 (Japan) (Premiere)"
 	releaseyear "1995"
 	releasemonth "5"
@@ -2738,20 +3103,28 @@ game (
 	rom ( name "Wario no Mori - Event Version 1 (Japan) (Premiere) (1995-5-21).bs" size 1048576 crc 0644D75A md5 AC844573CCE0A99DBC1112E4CB3A2428 sha1 46DEE393AD80BDE9E5DBD94AF8F0373B3594FC44 )
 )
 game (
-	name "Wario no Mori - Event Version 1 (Japan) (Rerun)"
+	name "Wario no Mori - Event Version 1 (Japan) (Rev 1)"
+	releaseyear "1995"
+	releasemonth "7"
+	releaseday "11"
+	region "Japan"
+	rom ( name "Wario no Mori - Event Version 1 (Japan) (Rev 1) (1995-7-11).bs" size 1048576 crc 5903240C md5 00ECED7A11FA3F1050A0752F01EE1617 sha1 A562565DD624B65622681AD667EAE3A5B1227C23 )
+)
+game (
+	name "Wario no Mori - Event Version 1 (Japan) (Rev 2)"
 	releaseyear "1995"
 	releasemonth "9"
 	releaseday "6"
 	region "Japan"
-	rom ( name "Wario no Mori - Event Version 1 (Japan) (Rerun) (1995-9-6).bs" size 1048576 crc 139FDF6E md5 BA4428A0ED24A1AF2BCA0FECDB208E51 sha1 FD5F3D483898AA7A3783B8E0D618EF9FA2182699 )
+	rom ( name "Wario no Mori - Event Version 1 (Japan) (Rev 2) (1995-9-6).bs" size 1048576 crc 139FDF6E md5 BA4428A0ED24A1AF2BCA0FECDB208E51 sha1 FD5F3D483898AA7A3783B8E0D618EF9FA2182699 )
 )
 game (
-	name "Wario no Mori - Event Version 1 (Rerun) + BS KureKure Mou Race - 4 Tsuki-Gou (4-9) (Japan) (Game, Data)"
+	name "Wario no Mori - Event Version 1 (Rev 2) + BS KureKure Mou Race - 4 Tsuki-Gou (1996-4-9) (Japan) (Game, Data)"
 	releaseyear "1996"
 	releasemonth "3"
 	releaseday "31"
 	region "Japan"
-	rom ( name "Wario no Mori - Event Version 1 (Rerun) (1996-3-31) + BS KureKure Mou Race - 4 Tsuki-Gou (4-9) (Japan) (Game, Data).bs" size 1048576 crc 0F96F129 md5 D5CB634AD41ED917AA44D414A08E3CF4 sha1 B3D24ED8B8064DAC999A98EE2397857C2613DC32 )
+	rom ( name "Wario no Mori - Event Version 1 (Rev 2) (1996-3-31) + BS KureKure Mou Race - 4 Tsuki-Gou (1996-4-9) (Japan) (Game, Data).bs" size 1048576 crc 0F96F129 md5 D5CB634AD41ED917AA44D414A08E3CF4 sha1 B3D24ED8B8064DAC999A98EE2397857C2613DC32 )
 )
 game (
 	name "Wario no Mori - Event Version 2 (Japan)"
@@ -2762,12 +3135,12 @@ game (
 	rom ( name "Wario no Mori - Event Version 2 (Japan) (1995-8-27).bs" size 1048576 crc FDA5DACC md5 32C1904341AF1EFC4E255CE81BA3506B sha1 D63AF7499A5AFDD53295E14DA25A21B3DF493BE3 )
 )
 game (
-	name "Wario no Mori - Event Version 2 (Japan) (Rerun)"
+	name "Wario no Mori - Event Version 2 (Japan) (Rev 1)"
 	releaseyear "1995"
 	releasemonth "9"
 	releaseday "29"
 	region "Japan"
-	rom ( name "Wario no Mori - Event Version 2 (Japan) (Rerun) (1995-9-29).bs" size 1048576 crc 32E62D9C md5 928B48C7E2B7E57FA70BE3109ACF0563 sha1 A51550F79AE88CC874F625D5E4FAFAF972671493 )
+	rom ( name "Wario no Mori - Event Version 2 (Japan) (Rev 1) (1995-9-29).bs" size 1048576 crc 32E62D9C md5 928B48C7E2B7E57FA70BE3109ACF0563 sha1 A51550F79AE88CC874F625D5E4FAFAF972671493 )
 )
 game (
 	name "Wario no Mori - Futatabi (Japan) (12-24)"
@@ -2843,17 +3216,17 @@ game (
 	name "Wario no Mori - Futatabi (Japan) (Premiere)"
 	releaseyear "1997"
 	releasemonth "10"
-	releaseday "10"
+	releaseday "6"
 	region "Japan"
-	rom ( name "Wario no Mori - Futatabi (Japan) (Premiere) (1997-10-10).bs" size 1048576 crc 1E0E2755 md5 F49D82E6B058BB0604B0EAB4F7DE4259 sha1 774CFB3CAF8F561DB1C8BBE606750AD511B4AFE8 )
+	rom ( name "Wario no Mori - Futatabi (Japan) (Premiere) (1997-10-6).bs" size 1048576 crc B53F2E73 md5 05120A58D099A3A6D6E78C291FF77C4B sha1 551C8CB5469D20F8DB815D627F4D2F9A5794D479 )
 )
 game (
 	name "Wario no Mori - Futatabi (Japan) (Premiere)"
 	releaseyear "1997"
 	releasemonth "10"
-	releaseday "6"
+	releaseday "10"
 	region "Japan"
-	rom ( name "Wario no Mori - Futatabi (Japan) (Premiere) (1997-10-6).bs" size 1048576 crc B53F2E73 md5 05120A58D099A3A6D6E78C291FF77C4B sha1 551C8CB5469D20F8DB815D627F4D2F9A5794D479 )
+	rom ( name "Wario no Mori - Futatabi (Japan) (Premiere) (1997-10-10).bs" size 1048576 crc 1E0E2755 md5 F49D82E6B058BB0604B0EAB4F7DE4259 sha1 774CFB3CAF8F561DB1C8BBE606750AD511B4AFE8 )
 )
 game (
 	name "Wario no Mori - Futatabi (Japan) (Premiere)"
@@ -2874,9 +3247,9 @@ game (
 	rom ( name "Wild Guns (Japan).bs" size 1048576 crc 5CE5FE02 md5 86565E955FCC9C17811AB66BE3B3E9C2 sha1 246B0D967A2FB397984C4F78FEFC02A22D2379E1 )
 )
 game (
-	name "Wizardry V - Saika no Chuushin (Japan)"
+	name "Wizardry V - Saika no Chuushin (Japan) (En,Ja)"
 	region "Japan"
-	rom ( name "Wizardry V - Saika no Chuushin (Japan).bs" size 1048576 crc A04F1544 md5 FF44467B4A669C118168FFC7CA6919CB sha1 AE5064743D4DBA2C4618BA51FBCCE1D25B4E5B41 )
+	rom ( name "Wizardry V - Saika no Chuushin (Japan) (En,Ja).bs" size 1048576 crc A04F1544 md5 FF44467B4A669C118168FFC7CA6919CB sha1 AE5064743D4DBA2C4618BA51FBCCE1D25B4E5B41 )
 )
 game (
 	name "Yoshi no Panepon - BS Ban (Japan) (En,Ja) (1-2)"
@@ -3018,10 +3391,10 @@ game (
 game (
 	name "Yuki no Jigsaw Kids (Japan) (Rerun) (5-10)"
 	releaseyear "1995"
-	releasemonth "05"
-	releaseday "06"
+	releasemonth "5"
+	releaseday "6"
 	region "Japan"
-	rom ( name "Yuki no Jigsaw Kids (1995-05-06) (Japan) (Rerun) (5-10).bs" size 1048576 crc F0AA7AE6 md5 809127D5DB75A413AFC7C7DB9C4C42BE sha1 34D663C23ECB408DC761936450869356DC2EA168 )
+	rom ( name "Yuki no Jigsaw Kids (1995-5-6) (Japan) (Rerun) (5-10).bs" size 1048576 crc F0AA7AE6 md5 809127D5DB75A413AFC7C7DB9C4C42BE sha1 34D663C23ECB408DC761936450869356DC2EA168 )
 )
 game (
 	name "Yung Hakase no Shinsatsushitsu - Dai-1-gou (Japan) (Magazine)"
@@ -3034,33 +3407,20 @@ game (
 	rom ( name "Yung Hakase no Shinsatsushitsu - Dai-2-gou (Japan) (Magazine).bs" size 1048576 crc 1B897BC7 md5 CFE463DF07160973D772FBD43649C584 sha1 5EF36B507FBDF8295507B9549F3432EB1514FC7E )
 )
 game (
-	name "Yusuke Akamatsu Theater (Japan) (5-7) (SoundLink Magazine)"
-	region "Japan"
-	rom ( name "Yusuke Akamatsu Theater (Japan) (5-7) (SoundLink Magazine).bs" size 524288 crc 2533E4A4 md5 5F455D6E56F78F1F752C464B255DB886 sha1 A74FE703303F30FD55A5759F99FFB927BBD339F2 )
-)
-game (
-	name "Yuuki Nae no GE-MU no Tsubo + Konae-chan no Dokidoki Penguin Kazoku (12-22) (Japan) (SoundLink Magazine, Game)"
+	name "Yusuke Akamatsu Theater (Japan) (SoundLink Magazine)"
 	releaseyear "1996"
-	releasemonth "12"
-	releaseday "22"
+	releasemonth "5"
+	releaseday "7"
 	region "Japan"
-	rom ( name "Yuuki Nae no GE-MU no Tsubo (1996-12-22) + Konae-chan no Dokidoki Penguin Kazoku (12-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc F0F15875 md5 B8538FE4D64FB83421720381039BCD18 sha1 04367DBC1F3448FA20AA19BF351DEB7F9A1A5A13 )
+	rom ( name "Yusuke Akamatsu Theater (Japan) (1996-5-7) (SoundLink Magazine).bs" size 524288 crc 2533E4A4 md5 5F455D6E56F78F1F752C464B255DB886 sha1 A74FE703303F30FD55A5759F99FFB927BBD339F2 )
 )
 game (
-	name "Yuuki Nae no GE-MU no Tsubo + Game Tora no Chou Ooana (1996-6-2, Part 1) (Japan) (SoundLink Magazine)"
+	name "Yusuke Akamatsu Theater (Japan) (SoundLink Magazine)"
 	releaseyear "1996"
-	releasemonth "6"
-	releaseday "2"
+	releasemonth "4"
+	releaseday "1"
 	region "Japan"
-	rom ( name "Yuuki Nae no GE-MU no Tsubo (1996-6-2) + Game Tora no Chou Ooana (1996-6-2, Part 1) (Japan) (SoundLink Magazine).bs" size 1048576 crc 792A304D md5 1DD5F37932E47A3787396BEE42E98E5C sha1 2AB557FC9B3F749B7F1A5737C59D4344E1FAA4BA )
-)
-game (
-	name "Yuuki Nae no GE-MU no Tsubo + Yuuki Nae no GE-MU no Tsubo (1997-3-23) (Japan) (SoundLink Magazine)"
-	releaseyear "1997"
-	releasemonth "3"
-	releaseday "16"
-	region "Japan"
-	rom ( name "Yuuki Nae no GE-MU no Tsubo (1997-3-16) + Yuuki Nae no GE-MU no Tsubo (1997-3-23) (Japan) (SoundLink Magazine).bs" size 1048576 crc 5BA302F7 md5 AB0A343ED71ABBA78786C314CB10F672 sha1 ECD6DF596FB36BFDB54117B51149D95BDEBAB964 )
+	rom ( name "Yusuke Akamatsu Theater (Japan) (1996-4-1) (SoundLink Magazine).bs" size 1048576 crc 10F8F3B8 md5 6C6597A48CE7A868ECEC0591890DE937 sha1 52D198A84A11E4E31142412EC7BCAB391ACA661E )
 )
 game (
 	name "Yuuki Nae no GE-MU no Tsubo (Japan) (SoundLink Magazine)"
@@ -3074,17 +3434,41 @@ game (
 	name "Yuuki Nae no GE-MU no Tsubo (Japan) (SoundLink Magazine) (Standalone Fix)"
 	releaseyear "1997"
 	releasemonth "3"
-	releaseday "16"
+	releaseday "23"
 	region "Japan"
-	rom ( name "Yuuki Nae no GE-MU no Tsubo (Japan) (1997-3-16) (SoundLink Magazine) (Standalone Fix).bs" size 524288 crc E7E921F0 md5 C0AD98A0173D857DD3EC29089C8FBBF8 sha1 D34AC12350A1E969C1F00958FF38146AA22D964B )
+	rom ( name "Yuuki Nae no GE-MU no Tsubo (Japan) (1997-3-23) (SoundLink Magazine) (Standalone Fix).bs" size 524288 crc 33044905 md5 ADD1530E3D8F5B2CA78804D566FC97CE sha1 ACFC1DE960C4ED8523CD20EACB75A61A2E5F3FF9 )
 )
 game (
 	name "Yuuki Nae no GE-MU no Tsubo (Japan) (SoundLink Magazine) (Standalone Fix)"
 	releaseyear "1997"
 	releasemonth "3"
-	releaseday "23"
+	releaseday "16"
 	region "Japan"
-	rom ( name "Yuuki Nae no GE-MU no Tsubo (Japan) (1997-3-23) (SoundLink Magazine) (Standalone Fix).bs" size 524288 crc 33044905 md5 ADD1530E3D8F5B2CA78804D566FC97CE sha1 ACFC1DE960C4ED8523CD20EACB75A61A2E5F3FF9 )
+	rom ( name "Yuuki Nae no GE-MU no Tsubo (Japan) (1997-3-16) (SoundLink Magazine) (Standalone Fix).bs" size 524288 crc E7E921F0 md5 C0AD98A0173D857DD3EC29089C8FBBF8 sha1 D34AC12350A1E969C1F00958FF38146AA22D964B )
+)
+game (
+	name "Yuuki Nae no GE-MU no Tsubo + Game Tora no Chou Ooana (1996-6-2, Part 1) (Japan) (SoundLink Magazine)"
+	releaseyear "1996"
+	releasemonth "6"
+	releaseday "2"
+	region "Japan"
+	rom ( name "Yuuki Nae no GE-MU no Tsubo (1996-6-2) + Game Tora no Chou Ooana (1996-6-2, Part 1) (Japan) (SoundLink Magazine).bs" size 1048576 crc 792A304D md5 1DD5F37932E47A3787396BEE42E98E5C sha1 2AB557FC9B3F749B7F1A5737C59D4344E1FAA4BA )
+)
+game (
+	name "Yuuki Nae no GE-MU no Tsubo + Konae-chan no Dokidoki Penguin Kazoku (1996-12-22) (Japan) (SoundLink Magazine, Game)"
+	releaseyear "1996"
+	releasemonth "12"
+	releaseday "22"
+	region "Japan"
+	rom ( name "Yuuki Nae no GE-MU no Tsubo (1996-12-22) + Konae-chan no Dokidoki Penguin Kazoku (1996-12-22) (Japan) (SoundLink Magazine, Game).bs" size 1048576 crc F0F15875 md5 B8538FE4D64FB83421720381039BCD18 sha1 04367DBC1F3448FA20AA19BF351DEB7F9A1A5A13 )
+)
+game (
+	name "Yuuki Nae no GE-MU no Tsubo + Yuuki Nae no GE-MU no Tsubo (1997-3-23) (Japan) (SoundLink Magazine)"
+	releaseyear "1997"
+	releasemonth "3"
+	releaseday "16"
+	region "Japan"
+	rom ( name "Yuuki Nae no GE-MU no Tsubo (1997-3-16) + Yuuki Nae no GE-MU no Tsubo (1997-3-23) (Japan) (SoundLink Magazine).bs" size 1048576 crc 5BA302F7 md5 AB0A343ED71ABBA78786C314CB10F672 sha1 ECD6DF596FB36BFDB54117B51149D95BDEBAB964 )
 )
 game (
 	name "Zapping Gekijou Zenpen + Zapping Gekijou Kouhen + Sofcon Remake (Japan) (Game, Data)"
@@ -3137,16 +3521,22 @@ game (
 	rom ( name "Zelda no Densetsu - Kamigami no Triforce (Japan) (8-31).bs" size 1048576 crc E3983EA8 md5 E23766395E5BD56B70129390E05D940A sha1 417A162247A52944C27F53CDE0FFAE113C3BD408 )
 )
 game (
-	name "Zootto Mahjong! - Event Version (Japan) (8-1)"
+	name "Zootto Mahjong! - Event Version (Japan)"
+	releaseyear "1998"
+	releasemonth "8"
+	releaseday "1"
 	region "Japan"
 	serial "BZJM"
-	rom ( name "Zootto Mahjong! - Event Version (Japan) (8-1).bs" size 1048576 crc B72CBED2 md5 EF27027C3ED72675323CB5AC6038D403 sha1 B17C263C491D2B4505BDDC12612AB7B23FE2ACCC serial "BZJM" )
+	rom ( name "Zootto Mahjong! - Event Version (Japan) (1998-8-1).bs" size 1048576 crc B72CBED2 md5 EF27027C3ED72675323CB5AC6038D403 sha1 B17C263C491D2B4505BDDC12612AB7B23FE2ACCC serial "BZJM" )
 )
 game (
-	name "Zootto Mahjong! - Event Version (Japan) (8-6)"
+	name "Zootto Mahjong! - Event Version (Japan)"
+	releaseyear "1998"
+	releasemonth "8"
+	releaseday "6"
 	region "Japan"
 	serial "BZJM"
-	rom ( name "Zootto Mahjong! - Event Version (Japan) (8-6).bs" size 1048576 crc 3E9F0280 md5 EC7217D34E4D2D42B18AA0944C98106C sha1 C3DE89B60E20165755B7423797483C38ECF3E12F serial "BZJM" )
+	rom ( name "Zootto Mahjong! - Event Version (Japan) (1998-8-6).bs" size 1048576 crc 3E9F0280 md5 EC7217D34E4D2D42B18AA0944C98106C sha1 C3DE89B60E20165755B7423797483C38ECF3E12F serial "BZJM" )
 )
 game (
 	name "Zootto Mahjong! - Event Version (Japan) (Premiere)"
@@ -3158,8 +3548,11 @@ game (
 )
 game (
 	name "Zootto Mahjong! - Preview Ban (Japan)"
+	releaseyear "1998"
+	releasemonth "6"
+	releaseday "22"
 	region "Japan"
-	rom ( name "Zootto Mahjong! - Preview Ban (Japan).bs" size 1048576 crc 5185292F md5 5319A85D0ABC18642C904EB7007754DF sha1 8CC9ADC526118E3F2CB077929DC21AC12B65B2DC )
+	rom ( name "Zootto Mahjong! - Preview Ban (Japan) (1998-6-22).bs" size 1048576 crc 5185292F md5 5319A85D0ABC18642C904EB7007754DF sha1 8CC9ADC526118E3F2CB077929DC21AC12B65B2DC )
 )
 game (
 	name "Zubari - 3 Gatsugou (Japan) (Magazine)"

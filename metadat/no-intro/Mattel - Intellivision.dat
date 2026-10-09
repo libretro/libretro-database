@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Mattel - Intellivision"
 	description "Mattel - Intellivision"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin|int|rom"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -28,11 +29,6 @@ game (
 	name "Air Strike (USA) (Proto)"
 	region "USA"
 	rom ( name "Air Strike (USA) (Proto).int" size 8192 crc 2C668249 md5 131AB07864114F44D4019939481EADD3 sha1 45D4CC27CCB966B007C3C2D32766F568F613319F )
-)
-game (
-	name "All-Star Major League Baseball (USA) (Beta)"
-	region "USA"
-	rom ( name "All-Star Major League Baseball (USA) (Beta).int" size 24576 crc B45633CF md5 92E0826C7D677D4038764A7933696921 sha1 A843B831F9B49EF88DD99414FDB56A0C71BF01B6 )
 )
 game (
 	name "Antarctic Tales (World)"
@@ -223,11 +219,6 @@ game (
 	rom ( name "DK Arcade (World) (Intelligentvision) (Aftermarket) (Unl).int" size 49152 crc EF1BEC41 md5 607D0A959D1C64F6FEB66433B4171D5F sha1 FAD323A8C88B7155EC4456E8909FE21E3CDBBE07 )
 )
 game (
-	name "Deadly Dogs (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Deadly Dogs (USA, Europe) (Beta).int" size 8192 crc CDC14ED8 md5 251EAE6057E3B55773748C39850CBCBE sha1 7547823137185C7E5C7C196C47926E4A65CB3294 )
-)
-game (
 	name "Deep Pockets - Super Pro Pool & Billiards (USA) (Proto)"
 	region "USA"
 	rom ( name "Deep Pockets - Super Pro Pool & Billiards (USA) (Proto).int" size 32768 crc 6802B191 md5 409D186A7289D902F6309136BBEBDB8B sha1 78056057477A3D7B3EEB663AD9AA7735EE9197A6 )
@@ -303,11 +294,6 @@ game (
 	name "Dreadnaught Factor, The (USA)"
 	region "USA"
 	rom ( name "Dreadnaught Factor, The (USA).int" size 16384 crc 3B99B889 md5 5DA863A6BB5CAB4E6E3B0B422124B789 sha1 F8A3224023B0DD27BC4A38B722E2D8016B08CE73 )
-)
-game (
-	name "Dreadnaught Factor, The (USA) (Beta)"
-	region "USA"
-	rom ( name "Dreadnaught Factor, The (USA) (Beta).int" size 16384 crc BF4D0E9B md5 9D0564C5882C0BBD72B3415D06C13C39 sha1 BEDE92706FBD137DE5C24CFF335F80E3447718FC )
 )
 game (
 	name "Duncan's Thin Ice (USA)"
@@ -520,7 +506,7 @@ game (
 game (
 	name "Lock 'N' Chase (USA, Europe) (v1.1)"
 	region "USA"
-	rom ( name "Lock 'N' Chase (USA, Europe) (v1.1).bin" size 16384 crc 5C7E9848 md5 988F97F6A3C713210EFC2C20A32E970C sha1 AC889A1D76B40BE1A7E7562C8CB8B3F9D00F3728 )
+	rom ( name "Lock 'N' Chase (USA, Europe) (v1.1) (Aftermarket) (Unl).bin" size 16384 crc 5C7E9848 md5 988F97F6A3C713210EFC2C20A32E970C sha1 AC889A1D76B40BE1A7E7562C8CB8B3F9D00F3728 )
 )
 game (
 	name "Loco-Motion (USA)"
@@ -570,11 +556,6 @@ game (
 	rom ( name "Memory Fun (USA, Europe) (Intellivision Lives!).int" size 16384 crc 96E000EB md5 4B961A8DF3BE7DCE05D26B0B5EBA9F53 sha1 9B1D37A7C5C99EFBF6F78F9AF0A93D5AF1ECD75C )
 )
 game (
-	name "Meteor (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Meteor (USA, Europe) (Beta).int" size 8192 crc 00BE8BBA md5 C7B00E08FECA5527C76F0EEA1BD9DB7E sha1 7DA15A0B713CFC79E577650BD372B37CB3F6D7A4 )
-)
-game (
 	name "Microsurgeon (USA, Europe)"
 	region "USA"
 	rom ( name "Microsurgeon (USA, Europe).int" size 16384 crc E806AD91 md5 137D6101EC260405D3D5339822E172F7 sha1 1390F0076470504037720B20F84404D502988231 )
@@ -612,7 +593,7 @@ game (
 	rom ( name "Motocross (USA, Europe).int" size 16384 crc 5F6E1AF6 md5 1AB93DAB53B52EA6AA7D964682DFCF03 sha1 109E0A05E73239962DED327827C7957960802744 )
 )
 game (
-	name "Motocross (USA, Europe) (Alt)"
+	name "Motocross (USA, Europe)"
 	region "USA"
 	rom ( name "Motocross (USA, Europe) (Alt).int" size 16384 crc EC89D2FD md5 6D8B8EE227F8A876DF852A2CC5CD9C07 sha1 8CE72D2E4E3C44A9A34C6488F3BF07EA47767160 )
 )
@@ -788,11 +769,6 @@ game (
 	name "River Raid (USA, Europe)"
 	region "USA"
 	rom ( name "River Raid (USA, Europe).int" size 16384 crc 8910C37A md5 13B129AD0FCDB79911CCBDF6B741201F sha1 6C1AA94983C25ED484CC85DADABF0102B5C46726 )
-)
-game (
-	name "River Raid (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "River Raid (USA, Europe) (Beta).int" size 16384 crc 95466AD3 md5 9801155EDC40F19197BB2216611713E7 sha1 2E148E09261ED89BE0578ABBB568B7225FC8621B )
 )
 game (
 	name "Road Fighter (World)"
@@ -1047,11 +1023,6 @@ game (
 	name "Thin Ice (USA)"
 	region "USA"
 	rom ( name "Thin Ice (USA).int" size 16384 crc 975AE6DF md5 A3434D8D4314B1EBA3662ED9C9E7FAAA sha1 79C4B9F26528EE662CE11A1CA7588AED33EE87AC )
-)
-game (
-	name "Thin Ice (USA) (Beta)"
-	region "USA"
-	rom ( name "Thin Ice (USA) (Beta).int" size 16384 crc D6495910 md5 8C554FD4D06624BF878F3D50F5B59463 sha1 E038024463FC6B5577983621D861152602B281A6 )
 )
 game (
 	name "Thunder Castle (USA)"

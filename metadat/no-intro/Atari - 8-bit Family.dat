@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - 8-bit Family"
 	description "Atari - 8-bit Family"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "atr|atx|bin|raw"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -76,6 +77,11 @@ game (
 	rom ( name "Desert Falcon (USA, Europe).bin" size 65536 crc A8F9324D md5 CBB80479B6C87B9E341C3662635A3AF4 sha1 FD4666796A4498339835D75DDB63C7B99D1D93BB )
 )
 game (
+	name "E.T. Phone Home! (USA)"
+	region "USA"
+	rom ( name "E.T. Phone Home! (USA).bin" size 16384 crc BCE4EF51 md5 8B8FB5CFDD26B7F352198AF07402F3F5 sha1 C4A10CE59EE183EF4299E50A0825EC23B4315B56 )
+)
+game (
 	name "Eastern Front (1941) (USA)"
 	region "USA"
 	rom ( name "Eastern Front (1941) (USA).bin" size 16384 crc CCFF4A03 md5 54D427CF8E5BAF92C1BFD675888943A9 sha1 AEE71F33534CF566994358A909B4B2DCA63A84F1 )
@@ -124,6 +130,11 @@ game (
 	name "Lode Runner (USA, Europe)"
 	region "USA"
 	rom ( name "Lode Runner (USA, Europe).bin" size 65536 crc B9A89BBD md5 FC1DE46E0845304F9886B9A3C5530496 sha1 9C59CF69F1C248FB673A3712EC7E35B1A0C42523 )
+)
+game (
+	name "Millipede (USA)"
+	region "USA"
+	rom ( name "Millipede (USA).bin" size 16384 crc FB7E45DA md5 989ED0907DC7E308EF5F656118FDAF20 sha1 957AE30C14EFAA8C05D270FD232676B0D03A1B41 )
 )
 game (
 	name "Miner 2049er (USA)"

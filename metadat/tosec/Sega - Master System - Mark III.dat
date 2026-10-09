@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Sega - Master System - Mark III"
 	description "Sega - Master System - Mark III"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -55,15 +56,15 @@ game (
 	rom ( name "Ace of Aces (1991)(Sega - U.S. Gold).bin" size 262144 crc 887D9F6B md5 CE26B4372655F35F1B7C9D0C3B700F93 sha1 08A79905767B8E5AF8A9C9C232342E6C47588093 )
 )
 game (
+	name "Action Fighter (Proto)"
+	releaseyear "1986"
+	rom ( name "Action Fighter (1986)(Sega)(proto).bin" size 131072 crc E2D765AD md5 43FCBF765F04F76A20DFE336164C5293 sha1 88FE2EE194981C82B5DB2A9166DD97A8EDB6D852 )
+)
+game (
 	name "Action Fighter (Taiwan)[AKA Mo Zhan Che]"
 	releaseyear "1986"
 	region "Taiwan"
 	rom ( name "Action Fighter (1986)(-)(TW)[AKA Mo Zhan Che].bin" size 131072 crc 8418F438 md5 73CC1F3DD52C248ACB02C0D6AD97D005 sha1 4F514DC568466F6B0424086EDEB3FA0014F9C887 )
-)
-game (
-	name "Action Fighter (Proto)"
-	releaseyear "1986"
-	rom ( name "Action Fighter (1986)(Sega)(proto).bin" size 131072 crc E2D765AD md5 43FCBF765F04F76A20DFE336164C5293 sha1 88FE2EE194981C82B5DB2A9166DD97A8EDB6D852 )
 )
 game (
 	name "Action Fighter Rev 1"
@@ -86,15 +87,15 @@ game (
 	rom ( name "Aerial Assault (1990)(Sega).bin" size 262144 crc ECF491CF md5 0713F2E55A1EEA0D9E2FB7044740261B sha1 2A9090ED365E7425CA7A59F87B942C16B376F0A3 )
 )
 game (
+	name "Aerial Assault (Taiwan)[SMS-GG]"
+	region "Taiwan"
+	rom ( name "Aerial Assault (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 262144 crc 6630E5FD md5 67D184D1A6D083653E9811C40AD95C2A sha1 C3305D745792A931EA92DA6E6457C43D7CC45CF2 )
+)
+game (
 	name "Aerial Assault (USA)"
 	releaseyear "1990"
 	region "USA"
 	rom ( name "Aerial Assault (1990)(Sega)(US).bin" size 262144 crc 15576613 md5 8B603C931418A3680B8723861F55A7B5 sha1 E57B1D4476CA33D18D9071E022DDC9CC702D6497 )
-)
-game (
-	name "Aerial Assault (Taiwan)[SMS-GG]"
-	region "Taiwan"
-	rom ( name "Aerial Assault (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 262144 crc 6630E5FD md5 67D184D1A6D083653E9811C40AD95C2A sha1 C3305D745792A931EA92DA6E6457C43D7CC45CF2 )
 )
 game (
 	name "After Burner"
@@ -138,19 +139,9 @@ game (
 	rom ( name "Aladdin (1994)(Sega)[tr pt].bin" size 524288 crc F69C331A md5 C4F138C72F100F6FF721AC05673C6FAC sha1 EAAD554EFAD3728B930E638A0780A4BF3EE17C0E )
 )
 game (
-	name "Aladdin [tr pt](Alt 1)"
+	name "Aladdin [tr pt]"
 	releaseyear "1994"
 	rom ( name "Aladdin (1994)(Sega)[tr pt][a].bin" size 524288 crc 5CB24C41 md5 3E3496E11E1DEDFB0BC9374191D52CB3 sha1 E9B86AA951CE003EB71C657966369F44CAEE28A1 )
-)
-game (
-	name "Aladdin Rev 19940123 (Beta)"
-	releaseyear "1994"
-	rom ( name "Aladdin Rev 19940123 (1994)(Sega)(beta).bin" size 524288 crc 9C3D96B9 md5 88EA3EB732682E1031401350291C85A2 sha1 9BFAD937222B06CB18ECEF5D24A4A735FDE72442 )
-)
-game (
-	name "Aladdin Rev 19940123 (Beta) (Alt 1)"
-	releaseyear "1994"
-	rom ( name "Aladdin Rev 19940123 (1994)(Sega)(beta)[a].bin" size 524288 crc D06E0071 md5 EF81FFD2EE55BC27D68967606A969163 sha1 D88688B650CDD1E909AE52123C239279C2B8D854 )
 )
 game (
 	name "Aleste (Japan)"
@@ -233,7 +224,7 @@ game (
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr fr].bin" size 195674 crc 944BED08 md5 F69A7B54835381E7A91333C4D78A51F2 sha1 DE4A12603BC721551CAECED7FA83CA3A46130697 )
 )
 game (
-	name "Alex Kidd in Miracle World Rev 1 [tr fr](Alt 1)"
+	name "Alex Kidd in Miracle World Rev 1 [tr fr]"
 	releaseyear "1986"
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr fr][a].bin" size 131072 crc B33817AE md5 E8988A564B1D0346FE735D3EC3D84C77 sha1 4CC0C4A3C5EE7820097DA7CEE678831BEB49E7CA )
 )
@@ -248,17 +239,17 @@ game (
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr pt].bin" size 131072 crc 8938B5C8 md5 BA4E6991DA1B864B24089E2EA642CCE6 sha1 1F500A381CB2322FC3B13D0E9E2E766D31C5043B )
 )
 game (
-	name "Alex Kidd in Miracle World Rev 1 [tr pt](Alt 2)"
+	name "Alex Kidd in Miracle World Rev 1 [tr pt]"
 	releaseyear "1986"
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr pt][a2].bin" size 131072 crc 7545D7C2 md5 50A29E43423CC77564D6F49B289EEF1D sha1 823C3051018C7ACCE15A7FF1D704EAB5DD686A1F )
 )
 game (
-	name "Alex Kidd in Miracle World Rev 1 [tr pt](Alt 3)"
+	name "Alex Kidd in Miracle World Rev 1 [tr pt]"
 	releaseyear "1986"
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr pt][a3].bin" size 131072 crc 61273F35 md5 7F542FB090681E3BB3135DBABB03F922 sha1 A0ACE9411B04BAF5ED77299262CF4D4C462559A9 )
 )
 game (
-	name "Alex Kidd in Miracle World Rev 1 [tr pt](Alt 1)"
+	name "Alex Kidd in Miracle World Rev 1 [tr pt]"
 	releaseyear "1986"
 	rom ( name "Alex Kidd in Miracle World Rev 1 (1986)(Sega)[tr pt][a].bin" size 131072 crc D7D01766 md5 A3D2C1D3DA71B1E07E4026BB74269C07 sha1 63665970A6B6F12EEAFAF082C35070D3E62BA6E3 )
 )
@@ -429,14 +420,14 @@ game (
 	rom ( name "Astro Flash (1985)(Sega)(JP)(en)[h].bin" size 32768 crc 0E21E6CF md5 2A6B0744637BA7ADCC17BF072638EFD2 sha1 E522A7AD519091A0955A6CF54590A7BD9708C56F )
 )
 game (
-	name "Astro Warrior & Pit Pot (Proto)"
-	releaseyear "1986"
-	rom ( name "Astro Warrior & Pit Pot (1986)(Sega)(proto).bin" size 131072 crc 3DA7F1CE md5 53E2DDBB65D2ED44AFCB5C05EA3F2BFC sha1 4EC137DF976A14130BEEB835122F73823B4C949B )
-)
-game (
 	name "Astro Warrior"
 	releaseyear "1986"
 	rom ( name "Astro Warrior (1986)(Sega).bin" size 131072 crc 299CBB74 md5 E645FAA5628CAAB5129383FDBF4DF090 sha1 901697A3535AD70190647F34AD5B30B695D54542 )
+)
+game (
+	name "Astro Warrior & Pit Pot (Proto)"
+	releaseyear "1986"
+	rom ( name "Astro Warrior & Pit Pot (1986)(Sega)(proto).bin" size 131072 crc 3DA7F1CE md5 53E2DDBB65D2ED44AFCB5C05EA3F2BFC sha1 4EC137DF976A14130BEEB835122F73823B4C949B )
 )
 game (
 	name "Astro Warrior [b2]"
@@ -602,11 +593,6 @@ game (
 	rom ( name "Blade Eagle (1988)(Sega).bin" size 262144 crc 8ECD201C md5 A20798B12481284F77CEE67CE5E25F2B sha1 B786D15B26B914C24CD1C36A8FCA41B215C0A4E7 )
 )
 game (
-	name "Blade Eagle (Beta)"
-	releaseyear "1988"
-	rom ( name "Blade Eagle (1988)(Sega)(beta).bin" size 262144 crc 58D5FC48 md5 F83A306D39C35B6F127A531CD62036AE sha1 9CDFDA85B4FA4E689617D8BCBDD6478B19D215CA )
-)
-game (
 	name "Blade Eagle (Proto)[AKA Blade Eagle 3-D]"
 	releaseyear "1988"
 	rom ( name "Blade Eagle (1988)(Sega)(proto)[AKA Blade Eagle 3-D].bin" size 262144 crc C127CC9C md5 794F9CF59415986F4A8FED27299B3A9F sha1 85A9662EA0FEDA492E91E5069941EADC0EFAED91 )
@@ -617,7 +603,7 @@ game (
 	rom ( name "Blade Eagle (1988)(Sega)[tr pt].bin" size 262144 crc FBF96C81 md5 7F33FA925C9EDE3F5BE2C7BA186A917C sha1 6465F8B1159078D7FAFEBA4FED674A07D1B66C7E )
 )
 game (
-	name "Blade Eagle [tr pt](Alt 1)"
+	name "Blade Eagle [tr pt]"
 	releaseyear "1988"
 	rom ( name "Blade Eagle (1988)(Sega)[tr pt][a].bin" size 262144 crc FC259738 md5 75F3DF352AA887BAF8DF455188AC853A sha1 1D0CA7F98A3CFC11388D375EE980FB3EA1968D97 )
 )
@@ -661,12 +647,6 @@ game (
 	rom ( name "Borgman (1988)(Sega)(JP).bin" size 131072 crc E421E466 md5 B106995DE2F5F9DBA99131F0286756EC sha1 9F987E022090A40506B78D89523E9F88B3BB0C0B )
 )
 game (
-	name "Borgman (Japan) (Beta)"
-	releaseyear "1988"
-	region "Japan"
-	rom ( name "Borgman (1988)(Sega)(JP)(beta).bin" size 131072 crc 86F49AE9 md5 D89CD6506B9C6C865607638350346976 sha1 4323CF3DB733C1FF3D48771DC084D342CDCF43B8 )
-)
-game (
 	name "Bubble Bobble"
 	releaseyear "1991"
 	rom ( name "Bubble Bobble (1991)(Taito).bin" size 262144 crc E843BA7E md5 D79C186A74550876691E97CA830C66C7 sha1 44876B44089B4174858E54202E567E02EFA76859 )
@@ -692,6 +672,17 @@ game (
 	rom ( name "California Games (1989)(Epyx - Sega).bin" size 262144 crc AC6009A7 md5 182B179A1226FB5B1E1CF6BB2F351C50 sha1 D0F8298BB2A30A3569C65372A959612DF3B608DB )
 )
 game (
+	name "California Games II"
+	releaseyear "1993"
+	rom ( name "California Games II (1993)(Epyx - Probe - Sega).bin" size 262144 crc 45C50294 md5 9EDA961B0771B902F35D32188A9EB4DF sha1 4D6C46DEDFE38FCFB740E948563B8EEEC3BD4305 )
+)
+game (
+	name "California Games II (Europe)"
+	releaseyear "1993"
+	region "Europe"
+	rom ( name "California Games II (1993)(Epyx - Probe - Sega)(EU)(en).bin" size 262144 crc C0E25D62 md5 5AC58B3A7FDA23161AB1185B3EE797AC sha1 5C7D99BA54CAF9A674328DF787A89E0AB4730DE8 )
+)
+game (
 	name "California Games [b2]"
 	releaseyear "1989"
 	rom ( name "California Games (1989)(Epyx - Sega)[b2].bin" size 524288 crc 9F28E5F4 md5 ECBD5F556E139EA83927C708880241D7 sha1 0E8F2EC5D263210C14BF8CDDEF69E60E602DF535 )
@@ -702,20 +693,9 @@ game (
 	rom ( name "California Games (1989)(Epyx - Sega)[tr pt].bin" size 262144 crc B3B5D047 md5 EB081487DB20DCA1EEBCA148EBBA0C06 sha1 BCDC3656A7E7B63B36F937832E14BAF21023401D )
 )
 game (
-	name "California Games [tr pt](Alt 1)"
+	name "California Games [tr pt]"
 	releaseyear "1989"
 	rom ( name "California Games (1989)(Epyx - Sega)[tr pt][a].bin" size 262144 crc 86C1320A md5 F90E2F4A29838D22EC8AEC48B7C9AB48 sha1 BB6DC8612DEB4924C59AE42A2BBCF85C83E6FA73 )
-)
-game (
-	name "California Games II"
-	releaseyear "1993"
-	rom ( name "California Games II (1993)(Epyx - Probe - Sega).bin" size 262144 crc 45C50294 md5 9EDA961B0771B902F35D32188A9EB4DF sha1 4D6C46DEDFE38FCFB740E948563B8EEEC3BD4305 )
-)
-game (
-	name "California Games II (Europe)"
-	releaseyear "1993"
-	region "Europe"
-	rom ( name "California Games II (1993)(Epyx - Probe - Sega)(EU)(en).bin" size 262144 crc C0E25D62 md5 5AC58B3A7FDA23161AB1185B3EE797AC sha1 5C7D99BA54CAF9A674328DF787A89E0AB4730DE8 )
 )
 game (
 	name "Captain Silver"
@@ -814,15 +794,9 @@ game (
 	rom ( name "Choplifter (1985)(Sega).bin" size 131072 crc 4A21C15F md5 747A206EAAADF48714695E8B4CCEAD7E sha1 856E741EEC9692FCC3B22C5C5642F54482E6E00B )
 )
 game (
-	name "Choplifter (Japan) (Beta)"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Choplifter (1985)(Sega)(JP)(en)(beta).bin" size 131072 crc 16EC3575 md5 BA1B60B6D1FECF87E00CF0F4A2F19F54 sha1 C8E87B309BBAE6AF7CF05602FFBD28F9495C83D8 )
-)
-game (
-	name "Choplifter (Beta)"
-	releaseyear "1985"
-	rom ( name "Choplifter (1985)(Sega)(beta).bin" size 131072 crc FD981232 md5 B556297E5BA2B95ED3F3A76A47402E1A sha1 95D8F826248118AFB9265C05C476709731015D12 )
+	name "Choplifter (Taiwan)[SMS-GG]"
+	region "Taiwan"
+	rom ( name "Choplifter (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc 55F929CE md5 5254B0C84016FAF93D58BE214EE8F59B sha1 62E9DAE23D305C792DC1ADB8B888D82D333B5265 )
 )
 game (
 	name "Choplifter [b2]"
@@ -843,11 +817,6 @@ game (
 	name "Choplifter [b5]"
 	releaseyear "1985"
 	rom ( name "Choplifter (1985)(Sega)[b5].bin" size 262144 crc FD6FCFCE md5 0C6289D856CF1C5A0E45E39B7884EFE3 sha1 760A4A365D23188CB3E48D07B117A9ABE974C549 )
-)
-game (
-	name "Choplifter (Taiwan)[SMS-GG]"
-	region "Taiwan"
-	rom ( name "Choplifter (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc 55F929CE md5 5254B0C84016FAF93D58BE214EE8F59B sha1 62E9DAE23D305C792DC1ADB8B888D82D333B5265 )
 )
 game (
 	name "Chuck Rock II - Son of Chuck Rev 1"
@@ -895,11 +864,6 @@ game (
 	name "Columns"
 	releaseyear "1990"
 	rom ( name "Columns (1990)(Sega).bin" size 131072 crc 665FDA92 md5 D443D521036D527D35926809F230106C sha1 3D16B0954B5419B071DE270B44D38FC6570A8439 )
-)
-game (
-	name "Columns (Beta)"
-	releaseyear "1990"
-	rom ( name "Columns (1990)(Sega)(beta).bin" size 131072 crc 3FB40043 md5 22619BE5F41CF6F76C4CCEFBC82D0967 sha1 C41BBFE7C20B1C582D43C16671829B9BE703A3DE )
 )
 game (
 	name "Comic Bakery (Korea)[p][AKA Ppang Gongjang][MSX port]"
@@ -1048,12 +1012,6 @@ game (
 	rom ( name "Doki Doki Penguin Land - Uchuu Daibouken (1987)(Sega)(JP)(en-ja).bin" size 131072 crc 2BCDB8FA md5 FF7502DD8A717DB5ADB42C711DDBC9F5 sha1 C01CF44EEE335D509DC20A165ADD8514E7FBB7C4 )
 )
 game (
-	name "Doki Doki Penguin Land - Uchuu Daibouken (Japan) (En,Ja) (Beta)"
-	releaseyear "1987"
-	region "Japan"
-	rom ( name "Doki Doki Penguin Land - Uchuu Daibouken (1987)(Sega)(JP)(en-ja)(beta).bin" size 131072 crc 56BD2455 md5 CD2FF7B97934E966836FAA6092C7B735 sha1 C56417EFD78A332A35E4D0E87C7B13C20DA85391 )
-)
-game (
 	name "Doki Doki Penguin Land - Uchuu-Daibouken (Taiwan)[SMS-GG]"
 	region "Taiwan"
 	rom ( name "Doki Doki Penguin Land - Uchuu-Daibouken (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc FB163003 md5 FA0FE47E5A6B711B00052AB4DEF0B8F7 sha1 E3DA56644C098D07947B1FFD9465002616A69D30 )
@@ -1062,16 +1020,6 @@ game (
 	name "Double Dragon"
 	releaseyear "1988"
 	rom ( name "Double Dragon (1988)(Sega - Technos).bin" size 262144 crc A55D89F3 md5 FE9AA8044951B10F876B15F4456161A9 sha1 CAD5532AF94ED75C0ADA8820A83FA04D22F7BEF5 )
-)
-game (
-	name "Double Dragon [b2]"
-	releaseyear "1988"
-	rom ( name "Double Dragon (1988)(Sega - Technos)[b2].bin" size 262144 crc 3B79D63E md5 BC7CBF6ACAE865B2BB01E44791D2C4DA sha1 395406CE1ED2CCAA6F3415C66558BBD3C53A2880 )
-)
-game (
-	name "Double Dragon [b3]"
-	releaseyear "1988"
-	rom ( name "Double Dragon (1988)(Sega - Technos)[b3].bin" size 263168 crc 6CC2E967 md5 3705082619CE25B24B102879F42FF465 sha1 532716A83A82532E6960308542FAB558FB4B733D )
 )
 game (
 	name "Double Dragon (Korea)"
@@ -1084,14 +1032,19 @@ game (
 	rom ( name "Double Dragon (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 262144 crc F4F848C2 md5 6D988CB469B0269426153E4BC7985EE1 sha1 AD438B8ED5AAFAB4EA615A4AAA75D2DDF7BA81C4 )
 )
 game (
+	name "Double Dragon [b2]"
+	releaseyear "1988"
+	rom ( name "Double Dragon (1988)(Sega - Technos)[b2].bin" size 262144 crc 3B79D63E md5 BC7CBF6ACAE865B2BB01E44791D2C4DA sha1 395406CE1ED2CCAA6F3415C66558BBD3C53A2880 )
+)
+game (
+	name "Double Dragon [b3]"
+	releaseyear "1988"
+	rom ( name "Double Dragon (1988)(Sega - Technos)[b3].bin" size 263168 crc 6CC2E967 md5 3705082619CE25B24B102879F42FF465 sha1 532716A83A82532E6960308542FAB558FB4B733D )
+)
+game (
 	name "Double Hawk"
 	releaseyear "1990"
 	rom ( name "Double Hawk (1990)(Sega).bin" size 262144 crc 8370F6CD md5 3E6E6CB8729965FDFDBB422F066AD706 sha1 D2428BAF22DA8A70A08FF35389D59030CE764372 )
-)
-game (
-	name "Double Hawk (Beta)"
-	releaseyear "1990"
-	rom ( name "Double Hawk (1990)(Sega)(beta).bin" size 262144 crc F76D5CEE md5 B807D8FEA29860CEC610EEAF3A921358 sha1 44E30FEA309911A9C114B8E31CA7EC5584295B21 )
 )
 game (
 	name "Double Target (Japan)"
@@ -1126,14 +1079,14 @@ game (
 	rom ( name "Dragon (1993)(Virgin).bin" size 262144 crc C88A5064 md5 F86E099CA8E407A65A7751D84C2EE519 sha1 3D41A4E3B9FFC3E2BA87BD89BAF13271F8560775 )
 )
 game (
-	name "Dragon [tr pt]"
-	releaseyear "1993"
-	rom ( name "Dragon (1993)(Virgin)[tr pt].bin" size 262144 crc C81C3061 md5 2F75611B233C574C10EEADD5E07661BB sha1 991B4F0AD0BFDE5FD2DC542A0BF1C2882E09EC4B )
-)
-game (
 	name "Dragon Crystal"
 	releaseyear "1991"
 	rom ( name "Dragon Crystal (1991)(Sega).bin" size 131072 crc 9549FCE4 md5 E05484F93011055C5B76FFABFEA84367 sha1 021C6983FDAB4B0215CA324734DEEF0D32C29562 )
+)
+game (
+	name "Dragon [tr pt]"
+	releaseyear "1993"
+	rom ( name "Dragon (1993)(Virgin)[tr pt].bin" size 262144 crc C81C3061 md5 2F75611B233C574C10EEADD5E07661BB sha1 991B4F0AD0BFDE5FD2DC542A0BF1C2882E09EC4B )
 )
 game (
 	name "Dynamite Duke"
@@ -1162,7 +1115,7 @@ game (
 	rom ( name "E-SWAT (1990)(Sega)(proto).bin" size 262144 crc F7CA9801 md5 5BD644EC21C7C2C5995CFAEF0727383F sha1 12C5005F8A0D78C75704B61BF87961875B9D29D4 )
 )
 game (
-	name "E-SWAT (Proto) (Alt 1)"
+	name "E-SWAT (Proto)"
 	releaseyear "1990"
 	rom ( name "E-SWAT (1990)(Sega)(proto)[a].bin" size 262144 crc FD91CC7E md5 37083A8D3EAD6B5BE8DD138DE1C4166E sha1 63FA1FCBF941B0E0CE601B3094C6C31F997C95D8 )
 )
@@ -1187,7 +1140,7 @@ game (
 	rom ( name "ESWAT - City Under Siege (1990)(Sega).bin" size 262144 crc C4BB1676 md5 DE328CDE27324C8D591F740DB0CB2866 sha1 075297D2F3A8EC4C399EAEAB6B60E246E11B41FE )
 )
 game (
-	name "ESWAT - City Under Siege (Alt 1)"
+	name "ESWAT - City Under Siege"
 	releaseyear "1990"
 	rom ( name "ESWAT - City Under Siege (1990)(Sega)[a].bin" size 262144 crc C10FCE39 md5 36A5339CEF97D0A5757DB4FD81B4ABF3 sha1 C481B4E5CA136FBB4105AE465259125392FAFFD3 )
 )
@@ -1289,16 +1242,16 @@ game (
 	rom ( name "Fantastic Dizzy (1993)(Codemasters)(EU)(M5).bin" size 262144 crc B9664AE1 md5 B8EB0CB6A9D16CFD08D9C03297FCD445 sha1 4202CE26832046C7CA8209240F097A8A0A84D981 )
 )
 game (
-	name "Fantasy Zone (Taiwan)[AKA Kuaile Xiao Feidie]"
-	releaseyear "1986"
-	region "Taiwan"
-	rom ( name "Fantasy Zone (1986)(Aaronix)(TW)[AKA Kuaile Xiao Feidie].bin" size 131072 crc 5FD48352 md5 E4497D344386A9FE0826E6D166E0F2B3 sha1 5162CD4923CDCAD66FEE0AA18D5E63FCF5259C00 )
-)
-game (
 	name "Fantasy Zone (Japan)"
 	releaseyear "1986"
 	region "Japan"
 	rom ( name "Fantasy Zone (1986)(Sega)(JP)(en).bin" size 131072 crc 0FFBCAA3 md5 3A1DFAD2CEA111D0DBFB4A545BF3F87E sha1 B486D8BE0CF669117E134F9E53A452BF71097479 )
+)
+game (
+	name "Fantasy Zone (Taiwan)[AKA Kuaile Xiao Feidie]"
+	releaseyear "1986"
+	region "Taiwan"
+	rom ( name "Fantasy Zone (1986)(Aaronix)(TW)[AKA Kuaile Xiao Feidie].bin" size 131072 crc 5FD48352 md5 E4497D344386A9FE0826E6D166E0F2B3 sha1 5162CD4923CDCAD66FEE0AA18D5E63FCF5259C00 )
 )
 game (
 	name "Fantasy Zone - The Maze"
@@ -1320,11 +1273,6 @@ game (
 	releaseyear "1987"
 	region "Japan"
 	rom ( name "Fantasy Zone II - The Tears of Opa-Opa (1987)(Sega)(JP)(en).bin" size 262144 crc C722FB42 md5 F898539F72DB2271FC3385A5EB51A06F sha1 60D8135E8F15FE48F504D0EC69010A4B886DCDA8 )
-)
-game (
-	name "Fantasy Zone Rev 1 (Beta)"
-	releaseyear "1986"
-	rom ( name "Fantasy Zone Rev 1 (1986)(Sega)(beta).bin" size 131072 crc F46264FE md5 59A7CE6A0FABC2E4182BC9313F12367A sha1 B46CB68C330DAD61CD2A2EF1F5F5480AF303816A )
 )
 game (
 	name "Fantasy Zone Rev 2"
@@ -1436,11 +1384,6 @@ game (
 	rom ( name "Gain Ground (1990)(Sega).bin" size 262144 crc 3EC5E627 md5 7D54230748FA41BB62B6F08E5DCEDE08 sha1 62C0CA61AD8F679F90F253AB6BBFFD0C7737A8C0 )
 )
 game (
-	name "Gain Ground (Beta)"
-	releaseyear "1990"
-	rom ( name "Gain Ground (1990)(Sega)(beta).bin" size 262144 crc D40D03C7 md5 8FDB6D42F1D58205CE024F0E50367FEE sha1 990491D559EBADA59C8C7D7C7EEEAE7DFFA0399D )
-)
-game (
 	name "Galactic Protector (Japan)"
 	releaseyear "1988"
 	region "Japan"
@@ -1529,11 +1472,6 @@ game (
 	rom ( name "Ghost House (1986)(Sega)(JP)(en)[h].bin" size 32768 crc DABCC054 md5 BC4F179C11D50F5784CCE9902956CBFB sha1 4F93C7185C9EBDD70D9F7BE56761BF9031934C6A )
 )
 game (
-	name "Ghost House (Beta)"
-	releaseyear "1986"
-	rom ( name "Ghost House (1986)(Sega)(beta).bin" size 32768 crc C3E7C1ED md5 C3A1D74BDC4765F7304836ECCC5A1BF6 sha1 F341E68BAD5029BF475922C2C1B79EB109F467A1 )
-)
-game (
 	name "Ghost House (Korea)[AKA Yuyryeong-ui Jip]"
 	region "Korea"
 	rom ( name "Ghost House (198x)(Samsung)(KR)[AKA Yuyryeong-ui Jip].bin" size 32768 crc 1203AFC9 md5 5D4A6CD8DB303B9DC07EE8BE4FE72309 sha1 8D286D46312171608D6A769A7181CB7F73ACB728 )
@@ -1599,11 +1537,6 @@ game (
 	rom ( name "Global Defense (1987)(Sega).bin" size 131072 crc B746A6F5 md5 7AB485EE37EA7CE538F7DBA08B64D95E sha1 189EE1D4250A1F33E97053AA804A97B4E1467728 )
 )
 game (
-	name "Global Defense (Beta)"
-	releaseyear "1987"
-	rom ( name "Global Defense (1987)(Sega)(beta).bin" size 131072 crc 91A0FC4E md5 AF279B5092B60A3FDF5EB12D54752142 sha1 F92E1A9F7499B344E7865B18C042E09E7D614796 )
-)
-game (
 	name "Gokuaku Doumei Dump Matsumoto (Japan) (En,Ja)"
 	releaseyear "1986"
 	region "Japan"
@@ -1640,12 +1573,12 @@ game (
 	rom ( name "Golden Axe Warrior (1991)(Sega)[tr pt].bin" size 262144 crc 68F58DF7 md5 E777E40CE4F5E3C20889BA810B4F6D7D sha1 856693EB3BEBA7D29505C736014C4B2B784F04AF )
 )
 game (
-	name "Golden Axe Warrior [tr pt](Alt 2)"
+	name "Golden Axe Warrior [tr pt]"
 	releaseyear "1991"
 	rom ( name "Golden Axe Warrior (1991)(Sega)[tr pt][a2].bin" size 262144 crc F424AD15 md5 9109CC7C72B386A85FB7E8B24302687C sha1 FAFB492A1F08D002E254E6E3FE1AEBC980FA616F )
 )
 game (
-	name "Golden Axe Warrior [tr pt](Alt 1)"
+	name "Golden Axe Warrior [tr pt]"
 	releaseyear "1991"
 	rom ( name "Golden Axe Warrior (1991)(Sega)[tr pt][a].bin" size 262144 crc 8872F23F md5 0807F9C516738171A3AB7E15CF5D4581 sha1 9787BDD235659F72FF001FE22848D3B32CF0BDFC )
 )
@@ -1653,16 +1586,6 @@ game (
 	name "Golfamania"
 	releaseyear "1990"
 	rom ( name "Golfamania (1990)(Sega).bin" size 262144 crc 48651325 md5 5554F9F67103E0D5B1A4075A2D26D15B sha1 D0B964DD7CD8CCDD730DE4D8E4BB2E87BEA7686E )
-)
-game (
-	name "Golfamania (Beta)"
-	releaseyear "1990"
-	rom ( name "Golfamania (1990)(Sega)(beta).bin" size 262144 crc 7F7B568D md5 355F226E0B0602F1FB8C27ED4BAE3713 sha1 EBE733EA693FA46EDDE43260FDB963CAB71317E1 )
-)
-game (
-	name "Golfamania (Beta) (Alt 1)"
-	releaseyear "1990"
-	rom ( name "Golfamania (1990)(Sega)(beta)[a].bin" size 262144 crc 5DABFDC3 md5 1FA330A17DF19820F4C8E0230D3CFBE2 sha1 DA88DC3E84DAA2F8B8D803B00A13B5FB3185D8C5 )
 )
 game (
 	name "Golvellius"
@@ -1674,12 +1597,6 @@ game (
 	releaseyear "1988"
 	region "Japan"
 	rom ( name "Golvellius (1988)(Compile - Sega)(JP)(en-ja).bin" size 262144 crc BF0411AD md5 6BD9879AF39E248D149761014EBF5639 sha1 F62C5C9DEA4368E6475517C4220A62E40FEDD35D )
-)
-game (
-	name "Golvellius (Japan) (En,Ja) (Beta)"
-	releaseyear "1988"
-	region "Japan"
-	rom ( name "Golvellius (1988)(Compile - Sega)(JP)(en-ja)(beta).bin" size 262144 crc 21A21352 md5 B2CF7C01FA99D5AEF7BF3A4D9F4C6917 sha1 9773ADE9ACCD47DE4541CB4FDB624E1F7FEB2AB9 )
 )
 game (
 	name "Golvellius [tr de]"
@@ -1697,6 +1614,11 @@ game (
 	rom ( name "Golvellius (1988)(Compile - Sega)[tr pt].bin" size 262144 crc 00196EBA md5 88492B53CE9D19B694AF5A2B44306F8D sha1 DC74109ECC5AFC840DD91CABEAC9ABA939EDC035 )
 )
 game (
+	name "Great Baseball"
+	releaseyear "1987"
+	rom ( name "Great Baseball (1987)(Sega).bin" size 131072 crc 10ED6B57 md5 1D126C6AC8E4D7B612E9DB3D56D9E78E sha1 B332344EB529BAD29DFB582633E787F7E42F71AE )
+)
+game (
 	name "Great Baseball (Japan)"
 	releaseyear "1985"
 	region "Japan"
@@ -1707,11 +1629,6 @@ game (
 	releaseyear "1985"
 	region "Japan"
 	rom ( name "Great Baseball (1985)(Sega)(JP)(en)[h].bin" size 32768 crc C1E699DB md5 7D667AD91582010A358395D0BC59168D sha1 878852CB66427B0DE11FBA76BF6C8830A751D29F )
-)
-game (
-	name "Great Baseball"
-	releaseyear "1987"
-	rom ( name "Great Baseball (1987)(Sega).bin" size 131072 crc 10ED6B57 md5 1D126C6AC8E4D7B612E9DB3D56D9E78E sha1 B332344EB529BAD29DFB582633E787F7E42F71AE )
 )
 game (
 	name "Great Basketball"
@@ -1817,16 +1734,6 @@ game (
 	rom ( name "Hang-On (1985)(Sega)(proto).bin" size 32768 crc 649F29E8 md5 9D07E037338BD71EBF6B39E2014D3472 sha1 817D7BBA41F0619342127D562F848045B9DDD7EA )
 )
 game (
-	name "Hang-On [tr pt]"
-	releaseyear "1985"
-	rom ( name "Hang-On (1985)(Sega)[tr pt].bin" size 32768 crc CF1D7990 md5 EAA07AAC3E917EE47A90C7075395F24F sha1 238D71F12BDFED679875C472F0E5663E651E9D5D )
-)
-game (
-	name "Hang-On [tr pt](Alt 1)"
-	releaseyear "1985"
-	rom ( name "Hang-On (1985)(Sega)[tr pt][a].bin" size 32768 crc 303EA475 md5 6B30C5AEF84EC86625D3136903214DC8 sha1 9DDEBE596F94A02609F07B4706E78769275124A5 )
-)
-game (
 	name "Hang-On + Astro Warrior (USA)"
 	releaseyear "1986"
 	region "USA"
@@ -1838,9 +1745,14 @@ game (
 	rom ( name "Hang-On + Safari Hunt (1986)(Sega).bin" size 131072 crc E167A561 md5 84284C327B07C200C16F4E13B2E8DE79 sha1 7C741493889788D4511979BCAA3C48708D6240ED )
 )
 game (
-	name "Hang-On + Safari Hunt (Beta)"
-	releaseyear "1986"
-	rom ( name "Hang-On + Safari Hunt (1986)(Sega)(beta).bin" size 131072 crc A120B77F md5 16D870BF1A5A23A9F2993D8786F5BC74 sha1 7E0B0DC82C2A1D64D26CE525EC498A520D32CFA7 )
+	name "Hang-On [tr pt]"
+	releaseyear "1985"
+	rom ( name "Hang-On (1985)(Sega)[tr pt].bin" size 32768 crc CF1D7990 md5 EAA07AAC3E917EE47A90C7075395F24F sha1 238D71F12BDFED679875C472F0E5663E651E9D5D )
+)
+game (
+	name "Hang-On [tr pt]"
+	releaseyear "1985"
+	rom ( name "Hang-On (1985)(Sega)[tr pt][a].bin" size 32768 crc 303EA475 md5 6B30C5AEF84EC86625D3136903214DC8 sha1 9DDEBE596F94A02609F07B4706E78769275124A5 )
 )
 game (
 	name "Heavyweight Champ"
@@ -1870,22 +1782,22 @@ game (
 	rom ( name "High School! Kimengumi (1986)(Sega)(JP)[tr en].bin" size 131072 crc 8A296A3E md5 471E80FED601261667B1FC6242396239 sha1 F4350A41EC6CD685E21B09CE471C3456646D6904 )
 )
 game (
-	name "High School! Kimengumi (Japan)[tr en](Alt 1)"
+	name "High School! Kimengumi (Japan)[tr en]"
 	releaseyear "1986"
 	region "Japan"
 	rom ( name "High School! Kimengumi (1986)(Sega)(JP)[tr en][a].bin" size 131072 crc 6F30434B md5 27AADA6DAC9F4F54D73B9314CC1A4553 sha1 D62AE48B6F236F1C2296210130C4D0673F687261 )
-)
-game (
-	name "Hokuto no Ken (Taiwan)[AKA Beidou Shen Quan]"
-	releaseyear "1986"
-	region "Taiwan"
-	rom ( name "Hokuto no Ken (1986)(Aaronix)(TW)[AKA Beidou Shen Quan].bin" size 131072 crc C4AB363D md5 6024C42162C64C922E722547C6F4995F sha1 A66F9373F75355855AAC52FDC11D9AD887FD5556 )
 )
 game (
 	name "Hokuto no Ken (Japan) (En,Ja)"
 	releaseyear "1986"
 	region "Japan"
 	rom ( name "Hokuto no Ken (1986)(Sega)(JP)(en-ja).bin" size 131072 crc 24F5FE8C md5 DDD6B56E864A7DFD74A9E04BC4407F41 sha1 26C5DA3EE48BC0F8FD3D20F9408E584242EDCD9D )
+)
+game (
+	name "Hokuto no Ken (Taiwan)[AKA Beidou Shen Quan]"
+	releaseyear "1986"
+	region "Taiwan"
+	rom ( name "Hokuto no Ken (1986)(Aaronix)(TW)[AKA Beidou Shen Quan].bin" size 131072 crc C4AB363D md5 6024C42162C64C922E722547C6F4995F sha1 A66F9373F75355855AAC52FDC11D9AD887FD5556 )
 )
 game (
 	name "Hokuto no Ken (Taiwan)[SMS-GG]"
@@ -1931,11 +1843,6 @@ game (
 	rom ( name "Impossible Mission (1986)(Epyx - U.S. Gold).bin" size 131072 crc 64D6AF3B md5 AF51AB03A173DEC28C9241532227CD64 sha1 D883F28E77E575EDCA6DCB1C4CD1F2B1F11393B2 )
 )
 game (
-	name "Impossible Mission (Beta)"
-	releaseyear "1986"
-	rom ( name "Impossible Mission (1986)(Epyx - U.S. Gold)(beta).bin" size 131072 crc 71C4CA8F md5 A26D40B6B7646C22D1F2DB7F746F0391 sha1 9C6C28610603D05664D9AE44B62B5C1AC47F829C )
-)
-game (
 	name "Incredible Crash Dummies, The"
 	releaseyear "1993"
 	rom ( name "Incredible Crash Dummies, The (1993)(Acclaim - Flying Edge - Teeny Weeny Games).bin" size 262144 crc B4584DDE md5 429738D19911881F443582A303ECD7F5 sha1 94A4BA183DE82FC0066A0EDAB2ACAEE5E8BDD0E7 )
@@ -1951,9 +1858,9 @@ game (
 	rom ( name "Indiana Jones and the Last Crusade (1990)(LucasArts - Tiertex Design Studio - U.S. Gold).bin" size 262144 crc 8AEB574B md5 E83F8C99882E2123BD344090421E84C3 sha1 68E23692A12628DDE805DED9DE356C5E19E4EBA6 )
 )
 game (
-	name "Indiana Jones and the Last Crusade (Beta)"
-	releaseyear "1990"
-	rom ( name "Indiana Jones and the Last Crusade (1990)(LucasArts - Tiertex Design Studio - U.S. Gold)(beta).bin" size 262144 crc ACEC894D md5 D594821486699F366D385F74162BE1C7 sha1 5F29A0FC637CF7BD175A3E7BE720530BDE23402E )
+	name "James Bond 007 - The Duel"
+	releaseyear "1993"
+	rom ( name "James Bond 007 - The Duel (1993)(Domark).bin" size 262144 crc 8D23587F md5 C52E496C497D427747769AAEDFBB8DAB sha1 89F86869B90AF986BEE2ACFF44DEFE420E405A1E )
 )
 game (
 	name "James Bond 007 - The Duel (Brazil)"
@@ -1962,21 +1869,10 @@ game (
 	rom ( name "James Bond 007 - The Duel (1993)(Domark - Tec Toy)(BR)(en).bin" size 262144 crc 8FEFF688 md5 123A0199F0238A141A66D5746E63ED7E sha1 CC3EEC4DA3758FE9E407AB80FA88DC952D33CDD5 )
 )
 game (
-	name "James Bond 007 - The Duel"
-	releaseyear "1993"
-	rom ( name "James Bond 007 - The Duel (1993)(Domark).bin" size 262144 crc 8D23587F md5 C52E496C497D427747769AAEDFBB8DAB sha1 89F86869B90AF986BEE2ACFF44DEFE420E405A1E )
-)
-game (
 	name "James Buster Douglas Knockout Boxing (USA)"
 	releaseyear "1990"
 	region "USA"
 	rom ( name "James Buster Douglas Knockout Boxing (1990)(Sega)(US).bin" size 262144 crc 6A664405 md5 B3A4815CA9FDC900CF7FE6AD961F8125 sha1 B07000FEB0C74824F2E3E74FD415631A8F3C4DA6 )
-)
-game (
-	name "James Buster Douglas Knockout Boxing (USA) (Beta)"
-	releaseyear "1990"
-	region "USA"
-	rom ( name "James Buster Douglas Knockout Boxing (1990)(Sega)(US)(beta).bin" size 262144 crc CFB4BD7B md5 433FE61368CDF79C1B66CC84D0936599 sha1 D96C174E63393406D4B442E5796228EEBB7DEB93 )
 )
 game (
 	name "James Pond II - Codename RoboCod"
@@ -2017,7 +1913,7 @@ game (
 	rom ( name "Jungle Book, The (1993)(Eurocom - Virgin)[tr pt].bin" size 262144 crc DCA0C49E md5 225E3D08753189013839039D84E59517 sha1 BC3C7D0D00AD5A0CF3FAD5E3691312CB9B07984B )
 )
 game (
-	name "Jungle Book, The [tr pt](Alt 1)"
+	name "Jungle Book, The [tr pt]"
 	releaseyear "1993"
 	rom ( name "Jungle Book, The (1993)(Eurocom - Virgin)[tr pt][a].bin" size 262144 crc 5CA3B6AB md5 454E18AF80FA9E952E59553B25AE22ED sha1 688DDAB54B9ADFAB3B7B8D76DD7003170AB455F0 )
 )
@@ -2053,7 +1949,7 @@ game (
 	rom ( name "Kenseiden Rev 1 (1988)(Sega)[tr pl].bin" size 262144 crc F6915E4B md5 50EA6E635882B851DB27358130E339BF sha1 D0381B51AA194E63F52D44DF5067C8A83AF7F8D3 )
 )
 game (
-	name "Kenseiden Rev 1 [tr pl](Alt 1)"
+	name "Kenseiden Rev 1 [tr pl]"
 	releaseyear "1988"
 	rom ( name "Kenseiden Rev 1 (1988)(Sega)[tr pl][a].bin" size 262144 crc 616DB05D md5 71754909F7719038EB54E6F9BFC4DD94 sha1 C03677E7DDA5A7F495C683DF2878FCE535A611A6 )
 )
@@ -2143,11 +2039,6 @@ game (
 	rom ( name "Lemmings (1992)(Probe - Psygnosis - Sega).bin" size 262144 crc F369B2D8 md5 B190F17A46BA9CC66676E7174209C24E sha1 F3A853CCE1249A0848BFC0344F3EE2DB6EFA4C01 )
 )
 game (
-	name "Lemmings (Beta)"
-	releaseyear "1992"
-	rom ( name "Lemmings (1992)(Probe - Psygnosis - Sega)(beta).bin" size 262144 crc 2C61ED88 md5 5DBA0A0DD0EEB52FE6D94DCE47335A34 sha1 8D8692D363348F7C93F402C6485F5F831D1C8190 )
-)
-game (
 	name "Lemmings 2 - The Tribes (Europe) (Proto)"
 	releaseyear "1994"
 	region "Europe"
@@ -2159,7 +2050,7 @@ game (
 	rom ( name "Lethal Weapon 3 (1992)(Probe)(proto).bin" size 32768 crc 7EDF5065 md5 19656BE0DBA561E7444D749CF19A62C9 sha1 62C962FE91A8195AE7110091585EE231A2CC4AC3 )
 )
 game (
-	name "Lethal Weapon 3 (Proto) (Alt 1)"
+	name "Lethal Weapon 3 (Proto)"
 	releaseyear "1992"
 	rom ( name "Lethal Weapon 3 (1992)(Probe)(proto)[a].bin" size 32768 crc EB71247B md5 65A3DEAE350CD2875719B8B4F490B330 sha1 14DFF343EF3C10EF06EF3FDFB4985DFA79062379 )
 )
@@ -2206,11 +2097,6 @@ game (
 	rom ( name "Lucky Dime Caper Starring Donald Duck, The (1991)(Sega).bin" size 262144 crc A1710F13 md5 653F10042A5EE5854CCF971456641A4D sha1 A08815D27E431F0BEE70B4EBFB870A3196C2A732 )
 )
 game (
-	name "Lucky Dime Caper Starring Donald Duck, The (Beta)"
-	releaseyear "1991"
-	rom ( name "Lucky Dime Caper Starring Donald Duck, The (1991)(Sega)(beta).bin" size 262144 crc 7F6D0DF6 md5 7DE03B7F1CDC1F931B3A4746D9350033 sha1 5AC3E68B34EE4499DDBDEE28B47A1440782A9C04 )
-)
-game (
 	name "Lucky Dime Caper Starring Donald Duck, The [tr fr]"
 	releaseyear "1991"
 	rom ( name "Lucky Dime Caper Starring Donald Duck, The (1991)(Sega)[tr fr].bin" size 262144 crc 47340BE0 md5 0F0D6D3B67054CF9ABA066E50FDF51E3 sha1 59C385AF9137A14876F223189F02D8EF252CED48 )
@@ -2230,12 +2116,6 @@ game (
 	releaseyear "1986"
 	region "Japan"
 	rom ( name "Machine Gun Joe (1986)(Sega)(JP)(en).bin" size 32768 crc 9D549E08 md5 2D59B3D27F022B04A597E767E6660CA9 sha1 33C21D164FD3CDF7AA9E7E0FE1A3AE5A491BD9F5 )
-)
-game (
-	name "Mahjong Sengoku Jidai (Japan) (Beta)"
-	releaseyear "1987"
-	region "Japan"
-	rom ( name "Mahjong Sengoku Jidai (1987)(Sega)(JP)(beta).bin" size 131072 crc 996B2A07 md5 19DB67F87BB3D1D8EFEAD0542DE30CD1 sha1 169510C0575E4F53B9DA8197FC48608993351182 )
 )
 game (
 	name "Mahjong Sengoku Jidai Rev 1 (Japan)"
@@ -2373,11 +2253,6 @@ game (
 	rom ( name "Miracle Warriors - Seal of the Dark Lord (1988)(ASCII - Sega).bin" size 262144 crc 0E333B6E md5 E0A9CF889C27F3CB14903288F646D183 sha1 F952406BCA4918EE91A89B27E949E224EAE96D85 )
 )
 game (
-	name "Miracle Warriors - Seal of the Dark Lord (Beta)"
-	releaseyear "1988"
-	rom ( name "Miracle Warriors - Seal of the Dark Lord (1988)(ASCII - Sega)(beta).bin" size 262144 crc 301A59AA md5 3F5D2CA45CCC205D18C8E3D1D9969F00 sha1 5F1CFC974A8FFC965F18216A89472FD1A980D7CB )
-)
-game (
 	name "Miracle Warriors - Seal of the Dark Lord [b2]"
 	releaseyear "1988"
 	rom ( name "Miracle Warriors - Seal of the Dark Lord (1988)(ASCII - Sega)[b2].bin" size 262656 crc F14A8546 md5 1F656138FDD50FE74E02BDAEFBCBD72E sha1 0DF890C3DD153E3EB41DF482C371B259D4129162 )
@@ -2411,12 +2286,6 @@ game (
 	rom ( name "Monopoly (1987)(Sega)(EU)(en).bin" size 131072 crc 026D94A4 md5 F2D360F60ACD4CA1E50AB301E20DE581 sha1 6BAD7176011DD4BBD007498D167399DAACDE173D )
 )
 game (
-	name "Monopoly (USA)"
-	releaseyear "1987"
-	region "USA"
-	rom ( name "Monopoly (1987)(Sega)(US).bin" size 131072 crc 69538469 md5 B887836983FCCB5EC706630CF835939F sha1 8DD7BB4F666F70F7F57687823D0068C9100AF8E5 )
-)
-game (
 	name "Monopoly (Proto)[Proto 0]"
 	releaseyear "1987"
 	rom ( name "Monopoly (1987)(Sega)(proto)[Proto 0].bin" size 131072 crc 7E9D87FC md5 19E6167C6BAD839603240ADEDA122AC7 sha1 68830FB46A010CF2F2D04BDC69E3759F6D42B8DE )
@@ -2427,26 +2296,21 @@ game (
 	rom ( name "Monopoly (1987)(Sega)(proto)[Proto 1].bin" size 131072 crc E0D1049B md5 C7B4AA45DED97242B9E20F7A76C6FBD2 sha1 6D100D43CDDFB761D3560786C26E345873452A4B )
 )
 game (
+	name "Monopoly (USA)"
+	releaseyear "1987"
+	region "USA"
+	rom ( name "Monopoly (1987)(Sega)(US).bin" size 131072 crc 69538469 md5 B887836983FCCB5EC706630CF835939F sha1 8DD7BB4F666F70F7F57687823D0068C9100AF8E5 )
+)
+game (
 	name "Montezuma's Revenge (USA)"
 	releaseyear "1989"
 	region "USA"
 	rom ( name "Montezuma's Revenge (1989)(Parker Brothers)(US).bin" size 131072 crc 82FDA895 md5 FE20D983D1B18FF1986C376489843F32 sha1 A2665093B8588D5D6F24C6B329080FB3EBEE896E )
 )
 game (
-	name "Montezuma's Revenge (USA) (Beta)"
-	releaseyear "1989"
-	region "USA"
-	rom ( name "Montezuma's Revenge (1989)(Parker Brothers)(US)(beta).bin" size 131072 crc 575D0FCF md5 3ECFF4B5EF40705615B208D60403F276 sha1 4F93E297425CB19AB6DE2107795D210544171396 )
-)
-game (
 	name "Moonwalker"
 	releaseyear "1990"
 	rom ( name "Moonwalker (1990)(Sega).bin" size 262144 crc 56CC906B md5 AA3BC8467E80A6AAAB02051818ECB035 sha1 939416CEBB381458D28FF628AFB3D1F80293AFA9 )
-)
-game (
-	name "Moonwalker (Beta)"
-	releaseyear "1990"
-	rom ( name "Moonwalker (1990)(Sega)(beta).bin" size 262144 crc 54123936 md5 CD6EE06F4CDA94FC777C2CD1C5E4F1E7 sha1 67557E7551AD785802B1F2ABC4B456E3268F564C )
 )
 game (
 	name "Mopiranger (Korea)[p][MSX port]"
@@ -2459,11 +2323,6 @@ game (
 	rom ( name "Mortal Kombat (1993)(Acclaim - Arena Entertainment - Midway - Probe).bin" size 524288 crc 302DC686 md5 A429ED37B51CC9F46C943F968D88E29F sha1 3F67E0E702F391839B51A43125F971AE1C5FAD92 )
 )
 game (
-	name "Mortal Kombat [tr pt]"
-	releaseyear "1993"
-	rom ( name "Mortal Kombat (1993)(Acclaim - Arena Entertainment - Midway - Probe)[tr pt].bin" size 524288 crc 563F2487 md5 51CCCAC1487BAC0715596EBEFC152B83 sha1 583615501146E34582D58CCAFABACD80F17DD210 )
-)
-game (
 	name "Mortal Kombat 3 (Brazil)"
 	releaseyear "1995"
 	region "Brazil"
@@ -2473,6 +2332,11 @@ game (
 	name "Mortal Kombat II"
 	releaseyear "1994"
 	rom ( name "Mortal Kombat II (1994)(Acclaim - Midway - Probe).bin" size 524288 crc 2663BF18 md5 C60F62F13A60BC585822BFD2D68BA75C sha1 12BD887EFB87F410D3B65BF9E6DFE2745B345539 )
+)
+game (
+	name "Mortal Kombat [tr pt]"
+	releaseyear "1993"
+	rom ( name "Mortal Kombat (1993)(Acclaim - Arena Entertainment - Midway - Probe)[tr pt].bin" size 524288 crc 563F2487 md5 51CCCAC1487BAC0715596EBEFC152B83 sha1 583615501146E34582D58CCAFABACD80F17DD210 )
 )
 game (
 	name "Ms. Pac-Man"
@@ -2545,36 +2409,6 @@ game (
 	rom ( name "Ninja Gaiden (1992)(Sega - Tecmo)[tr es].bin" size 262144 crc C94C2B4E md5 630615ED5AB5036D67614C23DC1E05D5 sha1 10D5F612A3DF6BA7C8E033091FA35676FEEC1559 )
 )
 game (
-	name "Ninja Gaiden (Beta)"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta).bin" size 262144 crc 761E9396 md5 B070DC2BA3F106E89D1E9551F49A0027 sha1 C67DB6539DC609B08D3CA6F9E6F8F41DAF150743 )
-)
-game (
-	name "Ninja Gaiden (Beta)[tr de]"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta)[tr de].bin" size 262144 crc 317F14DA md5 73F0E5F3BE89B19AE2FCACC7E1FDCBED sha1 3A4137288455C1922CD4DDC84877F15D801017DB )
-)
-game (
-	name "Ninja Gaiden (Beta)[tr es]"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta)[tr es].bin" size 262144 crc 17FEE94A md5 C4BF06E3A31363186015D3ACE79AE2C4 sha1 4CAF200795F8FC6897CEBC502D93D43C89C2D6B5 )
-)
-game (
-	name "Ninja Gaiden (Beta)[tr fr]"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta)[tr fr].bin" size 262144 crc 0643620E md5 5A9D96A2BD25271B99E952FDC8C19C6B sha1 D362AEAD517C9E40E94CBAE35C210437744F759B )
-)
-game (
-	name "Ninja Gaiden (Beta)[tr fr](Alt 2)"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta)[tr fr][a2].bin" size 262144 crc 4CD38BE4 md5 FBF32190F03A4D8FAB64922929696987 sha1 77390C4AC4311342EF0DDC4C5A366E4DF0CED7B4 )
-)
-game (
-	name "Ninja Gaiden (Beta)[tr fr](Alt 1)"
-	releaseyear "1992"
-	rom ( name "Ninja Gaiden (1992)(Sega)(beta)[tr fr][a].bin" size 262144 crc 41E5B485 md5 E528CFE8A7518864D72161BCFCF0CF4D sha1 9D0772C95C5FAFAF21C1E026DEDCD40CB7954491 )
-)
-game (
 	name "Ninja, The"
 	releaseyear "1986"
 	rom ( name "Ninja, The (1986)(Sega).bin" size 131072 crc 66A15BD9 md5 2C620BA64FCAAC940B4B1566733037B3 sha1 76396A25902700E18ADF6BC5C8668E2A8BDF03A9 )
@@ -2586,14 +2420,14 @@ game (
 	rom ( name "Ninja, The (1986)(Sega)(JP)(en-ja).bin" size 131072 crc 320313EC md5 41E20AFE05C2FBE45AC5F3A9C8111047 sha1 E9ACDAE112A898F7DB090FC0B8F1CE9B86637234 )
 )
 game (
-	name "Ninja, The [b2]"
-	releaseyear "1986"
-	rom ( name "Ninja, The (1986)(Sega)[b2].bin" size 262144 crc 3398242A md5 7254CF979C7CDF68FCA52E3C72E998FA sha1 839996AD43274384DDD2A615955DE3D34170650F )
-)
-game (
 	name "Ninja, The (Taiwan)[SMS-GG]"
 	region "Taiwan"
 	rom ( name "Ninja, The (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc 2CD62DCA md5 7E87E67209E27F35E72A931578F512CA sha1 5BA2588533375A2C36EA31E352A3EC3CA755A4A1 )
+)
+game (
+	name "Ninja, The [b2]"
+	releaseyear "1986"
+	rom ( name "Ninja, The (1986)(Sega)[b2].bin" size 262144 crc 3398242A md5 7254CF979C7CDF68FCA52E3C72E998FA sha1 839996AD43274384DDD2A615955DE3D34170650F )
 )
 game (
 	name "Olympic Gold (Europe)"
@@ -2635,16 +2469,6 @@ game (
 	rom ( name "Out Run (1987)(Sega).bin" size 262144 crc 5589D8D2 md5 029EE92155247F8A282D63B8A6DD23C4 sha1 4F9B61B24F0D9FEE0448CDBBE8FC05411DBB1102 )
 )
 game (
-	name "Out Run [b2]"
-	releaseyear "1987"
-	rom ( name "Out Run (1987)(Sega)[b2].bin" size 262144 crc 1968757E md5 94972CC196ACEA67B3194EA42531CA54 sha1 754D813E1CB87D0E9460AD2CD2F2DC9556C49E19 )
-)
-game (
-	name "Out Run [b3]"
-	releaseyear "1987"
-	rom ( name "Out Run (1987)(Sega)[b3].bin" size 262144 crc D70BBD06 md5 9DCC9AF239406F34FA73E112C46A35FF sha1 0AAA9B8EA8C5962B6420DE3DADDE39ED6125A077 )
-)
-game (
 	name "Out Run 3D (Europe, Brazil)"
 	releaseyear "1989"
 	region "Europe"
@@ -2661,6 +2485,16 @@ game (
 	releaseyear "1991"
 	region "Europe"
 	rom ( name "Out Run Europa (1991)(Probe - Sega - U.S. Gold)(BR-EU)(en).bin" size 262144 crc 3932ADBC md5 458FC29765865FDAAF3F56808C94D8A6 sha1 C8FBF18EABDCF90CD70FC77444CF309FF47F5827 )
+)
+game (
+	name "Out Run [b2]"
+	releaseyear "1987"
+	rom ( name "Out Run (1987)(Sega)[b2].bin" size 262144 crc 1968757E md5 94972CC196ACEA67B3194EA42531CA54 sha1 754D813E1CB87D0E9460AD2CD2F2DC9556C49E19 )
+)
+game (
+	name "Out Run [b3]"
+	releaseyear "1987"
+	rom ( name "Out Run (1987)(Sega)[b3].bin" size 262144 crc D70BBD06 md5 9DCC9AF239406F34FA73E112C46A35FF sha1 0AAA9B8EA8C5962B6420DE3DADDE39ED6125A077 )
 )
 game (
 	name "PGA Tour Golf"
@@ -2683,6 +2517,11 @@ game (
 	rom ( name "Paperboy (1990)(Atari - Tengen - Tiertex Design Studio).bin" size 131072 crc 294E0759 md5 A0A053017D9CAE9DD8CE8676355B16B9 sha1 E91DAE35A3CA3A475E30B7863C03375D656EC734 )
 )
 game (
+	name "Paperboy (Taiwan)[SMS-GG]"
+	region "Taiwan"
+	rom ( name "Paperboy (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc 354BEE78 md5 57F672638078061A95E2D15F8C29EF91 sha1 14B19EE7F6EF398474FE56BEAC2327EE14CE6157 )
+)
+game (
 	name "Paperboy (USA)"
 	releaseyear "1990"
 	region "USA"
@@ -2698,11 +2537,6 @@ game (
 	name "Paperboy [t]"
 	releaseyear "1990"
 	rom ( name "Paperboy (1990)(Atari - Tengen - Tiertex Design Studio)[t].bin" size 131072 crc C0E1EBC4 md5 0936C094C82292FC9B3251F4B742232D sha1 3ED935F886BC74DCDC9D33EFFBB10EF7C113DF84 )
-)
-game (
-	name "Paperboy (Taiwan)[SMS-GG]"
-	region "Taiwan"
-	rom ( name "Paperboy (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 131072 crc 354BEE78 md5 57F672638078061A95E2D15F8C29EF91 sha1 14B19EE7F6EF398474FE56BEAC2327EE14CE6157 )
 )
 game (
 	name "Parlour Games Rev 1"
@@ -2838,7 +2672,7 @@ game (
 	rom ( name "Phantasy Star (1987)(Sega)(JP)[tr en SMS Power!][v2.4][literal].bin" size 524288 crc BB39F472 md5 29E358202AEB97C95AB7FD1F610C5436 sha1 5C952F0A56AD5D2D019C9D3E330EC3EDDC9D85B3 )
 )
 game (
-	name "Phantasy Star (Japan)[tr en](Alt 1)"
+	name "Phantasy Star (Japan)[tr en]"
 	releaseyear "1987"
 	region "Japan"
 	rom ( name "Phantasy Star (1987)(Sega)(JP)[tr en][a].bin" size 524288 crc 1CDD9244 md5 E198DB7179D5E4826E49648080F5B0C7 sha1 71BCCE9670F2A2B3F28F00E7E00530A16DE39C4A )
@@ -2915,15 +2749,15 @@ game (
 	rom ( name "Phantasy Star (19xx)(Samsung - Sega)(KR).bin" size 524288 crc 747E83B5 md5 F853B7DDCA63864735C03001C9AC477B sha1 52B2AA52A1C96E15869498A8E42B074705070007 )
 )
 game (
+	name "Phantasy Star Rev 2"
+	releaseyear "1988"
+	rom ( name "Phantasy Star Rev 2 (1988)(Sega).bin" size 524288 crc E4A65E79 md5 5BA9114EDEA5DEB5282FD9AD7D4B2D62 sha1 257CA76EBCD54C75A414CA7CE968FA59EA42F150 )
+)
+game (
 	name "Phantasy Star Rev 2 (Brazil)"
 	releaseyear "1988"
 	region "Brazil"
 	rom ( name "Phantasy Star Rev 2 (1988)(Sega - Tec Toy)(BR).bin" size 524288 crc 75971BEF md5 1B69716F9F4053E1533F654C091AE410 sha1 FD8DAD6ACB6FA75DC8E9BBAEA2A7E9FD486FC2DD )
-)
-game (
-	name "Phantasy Star Rev 2"
-	releaseyear "1988"
-	rom ( name "Phantasy Star Rev 2 (1988)(Sega).bin" size 524288 crc E4A65E79 md5 5BA9114EDEA5DEB5282FD9AD7D4B2D62 sha1 257CA76EBCD54C75A414CA7CE968FA59EA42F150 )
 )
 game (
 	name "Phantasy Star Rev 3"
@@ -2953,15 +2787,15 @@ game (
 	rom ( name "Pigu-Wang 7 Hap - Jaemiiss-neun Game Mo-eumjip (1995-12)(-)(KR).bin" size 2097152 crc C0AC6956 md5 286E0674B6221FC3DC8D92817D16A765 sha1 93AF4B52246602203ACB8A6ACFE68C50A782BF04 )
 )
 game (
+	name "Pit Fighter"
+	releaseyear "1990"
+	rom ( name "Pit Fighter (1990)(Atari).bin" size 524288 crc B840A446 md5 585AED13BA548D0258A457CD6768511B sha1 E2856B4AE331AEA100984AC778B5E726F5DA8709 )
+)
+game (
 	name "Pit Fighter (Brazil)"
 	releaseyear "1990"
 	region "Brazil"
 	rom ( name "Pit Fighter (1990)(Atari - Tec Toy)(BR)(en).bin" size 524288 crc AA4D4B5A md5 5535108813E568E4DD84A425FF2E928B sha1 409CCCA9DCB78A20F7DD917699CE2C70F87F857F )
-)
-game (
-	name "Pit Fighter"
-	releaseyear "1990"
-	rom ( name "Pit Fighter (1990)(Atari).bin" size 524288 crc B840A446 md5 585AED13BA548D0258A457CD6768511B sha1 E2856B4AE331AEA100984AC778B5E726F5DA8709 )
 )
 game (
 	name "Pit Pot + Astro Warrior Rev 1"
@@ -3127,11 +2961,6 @@ game (
 	rom ( name "Psycho Fox (1989)(Sega)[tr pt].bin" size 262144 crc 92D2C75B md5 C08BB84B806B41AF614FF84BE44FE2E0 sha1 8EEFDD6E6CBD450D5D4757057658249AD64CDE52 )
 )
 game (
-	name "Putt & Putter Rev 1 (Beta)"
-	releaseyear "1992"
-	rom ( name "Putt & Putter Rev 1 (1992)(Sega)(beta).bin" size 131072 crc 8167CCC4 md5 FC40576778DE28CC254B588A3A46D2A6 sha1 C6D3F256F938827899807884253817F432379D7C )
-)
-game (
 	name "Putt & Putter Rev 3"
 	releaseyear "1992"
 	rom ( name "Putt & Putter Rev 3 (1992)(Sega).bin" size 131072 crc 357D4F78 md5 C13DAB68A85FEF5BA28AE0F5BA4FD05F sha1 760D330047A77B98E2FFF786052741DC7E3760E8 )
@@ -3164,16 +2993,6 @@ game (
 	rom ( name "R-Type (1988)(Irem - Sega).bin" size 524288 crc BB54B6B0 md5 9E5507D51AC6F24C702A52A7ABCE0D3C sha1 08EC70A2CD98FCB2645F59857F845D41B0045115 )
 )
 game (
-	name "R-Type [tr pt]"
-	releaseyear "1988"
-	rom ( name "R-Type (1988)(Irem - Sega)[tr pt].bin" size 524288 crc 7510BCE3 md5 61189F69342288AA032C66F6E2A1214D sha1 7C16F916B8B134A2A254A6513E8A4D0A638B6CEF )
-)
-game (
-	name "R-Type [tr pt](Alt 1)"
-	releaseyear "1988"
-	rom ( name "R-Type (1988)(Irem - Sega)[tr pt][a].bin" size 524288 crc A3C80EE3 md5 694EE2B237D266C46E7ABE5AFDBA528A sha1 6FA3C84C3FF65E6D7F044D206BC6D819C6CB7CF1 )
-)
-game (
 	name "R-Type (Proto)"
 	releaseyear "1988"
 	rom ( name "R-Type (1988)(Sega)(proto).bin" size 524288 crc 0D0840D5 md5 3D980001FC22393EBEC2B5B1CF8A01BC sha1 3E0BFD3B22740DDEA718027B59CF9322BF5297D8 )
@@ -3184,14 +3003,19 @@ game (
 	rom ( name "R-Type (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 524288 crc E532716F md5 14D40FDA08235D76D63ABB30C1A39BFF sha1 908B532564C67014BF881A524AC9AD186F9013C9 )
 )
 game (
+	name "R-Type [tr pt]"
+	releaseyear "1988"
+	rom ( name "R-Type (1988)(Irem - Sega)[tr pt].bin" size 524288 crc 7510BCE3 md5 61189F69342288AA032C66F6E2A1214D sha1 7C16F916B8B134A2A254A6513E8A4D0A638B6CEF )
+)
+game (
+	name "R-Type [tr pt]"
+	releaseyear "1988"
+	rom ( name "R-Type (1988)(Irem - Sega)[tr pt][a].bin" size 524288 crc A3C80EE3 md5 694EE2B237D266C46E7ABE5AFDBA528A sha1 6FA3C84C3FF65E6D7F044D206BC6D819C6CB7CF1 )
+)
+game (
 	name "R.C. Grand Prix"
 	releaseyear "1989"
 	rom ( name "R.C. Grand Prix (1989)(Absolute Entertainment).bin" size 262144 crc 54316FEA md5 B30E60B91960A0F2A89FC133410770DF sha1 94CC64F6FEBDB0FE4E89ECD9DEECA96694E5BEAD )
-)
-game (
-	name "R.C. Grand Prix (Beta)"
-	releaseyear "1989"
-	rom ( name "R.C. Grand Prix (1989)(Absolute Entertainment)(beta).bin" size 262144 crc 767F11B8 md5 61AA7404E23836C79E2A689322FFE190 sha1 0BC511D809B6E401E9855A89D0EF821B2E8DF109 )
 )
 game (
 	name "R.C. Grand Prix [tr pt]"
@@ -3348,11 +3172,6 @@ game (
 	rom ( name "Schtroumpfs 2, Les (1995)(Infogrames)(M4).bin" size 262144 crc 97E5BB7D md5 86806BBA2ACF7A07AAD125F6EF02CD51 sha1 16F756E00314781E07AF84C871E82EC8E0A68A57 )
 )
 game (
-	name "Schtroumpfs 2, Les (Beta)"
-	releaseyear "1995"
-	rom ( name "Schtroumpfs 2, Les (1995)(Infogrames)(M4)(beta).bin" size 262144 crc 7982AE67 md5 4ABA236D2A81E738ADAAF5B00DE81653 sha1 A82627F47400555E5E6FDECA11FFAC56D7296F80 )
-)
-game (
 	name "Schtroumpfs, Les"
 	releaseyear "1994"
 	rom ( name "Schtroumpfs, Les (1994)(Infogrames)(M4).bin" size 262144 crc 3E63768A md5 FE2AA0402EB30CEC17B3BF4504F8219B sha1 82F75232E195B8BDCD9C0D852076D999899CC92E )
@@ -3446,11 +3265,6 @@ game (
 	rom ( name "Shanghai (1988)(Activision - Sega).bin" size 131072 crc AAB67EC3 md5 F0595FBD334CB8E95C0486A588A24F7B sha1 58F01556D1F2DA0AF9DFCDDCB3AC26CB299220D3 )
 )
 game (
-	name "Shanghai (Beta)"
-	releaseyear "1988"
-	rom ( name "Shanghai (1988)(Activision - Sega)(beta).bin" size 131072 crc D5D25156 md5 802D1525499492580DE31CA62BCA3C40 sha1 98615E4994FCC1E973C7483303B580DFEB756EEC )
-)
-game (
 	name "Shinobi (Japan)"
 	releaseyear "1987"
 	region "Japan"
@@ -3494,19 +3308,14 @@ game (
 	rom ( name "Sky Fighter (1990)(Clover)(KR)[p][MSX port].bin" size 32768 crc 77BA2667 md5 5C6D01E7534726E02F27664C44C491D6 sha1 AFDD09097DCE40C0AF5EC01DE0DFDC08482E9E0E )
 )
 game (
-	name "Sky Jaguar (Korea)[MSX port][AKA Sky Zet]"
-	region "Korea"
-	rom ( name "Sky Jaguar (19xx)(Clover)(KR)[MSX port][AKA Sky Zet].bin" size 32768 crc E3F260CA md5 19A825BD9210CE0FF84CB883C750E7FC sha1 7EB9E296B674C4CDA935E7C5B58EB3DAD3AA322F )
-)
-game (
 	name "Sky Jaguar (Korea)[MSX port]"
 	region "Korea"
 	rom ( name "Sky Jaguar (19xx)(Samsung)(KR)[MSX port].bin" size 32768 crc 5B8E65E4 md5 836D0B4C9AB9296CC78A5F8E2CB375D7 sha1 6CE290D59F14E9BE5711D932095909ABC0D681D1 )
 )
 game (
-	name "Slap Shot (Beta)"
-	releaseyear "1989"
-	rom ( name "Slap Shot (1989)(Sega)(beta).bin" size 262144 crc FBB0A92A md5 9B2D895F4EC70C0466F4D314B6EF205F sha1 44E39176CB012F07844EC3B44244C1197F619FF5 )
+	name "Sky Jaguar (Korea)[MSX port][AKA Sky Zet]"
+	region "Korea"
+	rom ( name "Sky Jaguar (19xx)(Clover)(KR)[MSX port][AKA Sky Zet].bin" size 32768 crc E3F260CA md5 19A825BD9210CE0FF84CB883C750E7FC sha1 7EB9E296B674C4CDA935E7C5B58EB3DAD3AA322F )
 )
 game (
 	name "Slap Shot Rev 0"
@@ -3568,11 +3377,6 @@ game (
 	rom ( name "Sonic the Hedgehog (1991)(Sega).bin" size 262144 crc B519E833 md5 DC13A61EAFE75C13C15B5ECE419AC57B sha1 6B9677E4A9ABB37765D6DB4658F4324251807E07 )
 )
 game (
-	name "Sonic the Hedgehog [tr fr]"
-	releaseyear "1991"
-	rom ( name "Sonic the Hedgehog (1991)(Sega)[tr fr].bin" size 262144 crc 48806FF7 md5 28110D3027DA306210A9D1FB41010BBF sha1 4A257CBAD310ADCF32BB483C5647753068DDAF01 )
-)
-game (
 	name "Sonic the Hedgehog 2 Rev 0"
 	releaseyear "1992"
 	rom ( name "Sonic the Hedgehog 2 Rev 0 (1992)(Sega).bin" size 524288 crc 5B3B922C md5 BF3B7A41E7DA9DE23416473A33C6AC2B sha1 ACDB0B5E8BF9C1E9C9D1A8AC6D282CB8017D091C )
@@ -3586,6 +3390,11 @@ game (
 	name "Sonic the Hedgehog 2 Rev 1"
 	releaseyear "1992"
 	rom ( name "Sonic the Hedgehog 2 Rev 1 (1992)(Sega).bin" size 524288 crc D6F2BFCA md5 0AC157B6B7E839953FC8EBA7538FB74A sha1 689339BAC11C3565DD774F8CD4D8EA1B27831118 )
+)
+game (
+	name "Sonic the Hedgehog [tr fr]"
+	releaseyear "1991"
+	rom ( name "Sonic the Hedgehog (1991)(Sega)[tr fr].bin" size 262144 crc 48806FF7 md5 28110D3027DA306210A9D1FB41010BBF sha1 4A257CBAD310ADCF32BB483C5647753068DDAF01 )
 )
 game (
 	name "Space Gun"
@@ -3620,11 +3429,6 @@ game (
 	rom ( name "Special Criminal Investigation (1992)(Taito).bin" size 262144 crc FA8E4CA0 md5 74C8108E7207D5B7149A69B0FC90D877 sha1 8DAABF51099BD2702FE4418FD202EFF532BC710A )
 )
 game (
-	name "Special Criminal Investigation (Beta)"
-	releaseyear "1992"
-	rom ( name "Special Criminal Investigation (1992)(Taito)(beta).bin" size 262144 crc 1B7D2A20 md5 16523C29C9B2F5E2C6252B57E1C22590 sha1 A0B4BE5B62A0A836E227983647E0140DF3EAFE4D )
-)
-game (
 	name "Speedball 2 Rev 1"
 	releaseyear "1992"
 	rom ( name "Speedball 2 Rev 1 (1992)(Bitmap Brothers - Virgin).bin" size 262144 crc 0C7366A0 md5 B37E0C8177C4792594356B11757F9AC5 sha1 4E0B456441F0ACEF737E463E6EE5BBCB377EA308 )
@@ -3655,7 +3459,7 @@ game (
 	rom ( name "Spellcaster (1989)(Sega)[tr fr].bin" size 524288 crc 9B1F566E md5 50D87627AD7ACB59D453068FAF6EDF3D sha1 D36020C7A2455B7C77E0AF4EF6FDB538744DB746 )
 )
 game (
-	name "Spellcaster [tr fr](Alt 1)"
+	name "Spellcaster [tr fr]"
 	releaseyear "1989"
 	rom ( name "Spellcaster (1989)(Sega)[tr fr][a].bin" size 524288 crc A0587800 md5 50014CF3B352CBCFF05BDC85F4298FDC sha1 9E5221B8AC5CA7940DA3E9A42D99F38BF7A87E38 )
 )
@@ -3682,12 +3486,6 @@ game (
 	rom ( name "Sports Pad Soccer (1987)(Sega)(JP)(en).bin" size 131072 crc 41C948BF md5 4CC5BA7EF736508A8AFC1ED7EC640C3E sha1 7634CE39E87049DAD1EE4F32A80D728E4BD1F81F )
 )
 game (
-	name "Spy vs. Spy (Taiwan)[AKA Die Dui Die]"
-	releaseyear "1986"
-	region "Taiwan"
-	rom ( name "Spy vs. Spy (1986)(Aaronix)(TW)[AKA Die Dui Die].bin" size 32768 crc 689F58A2 md5 E42CF87C4C8ED81B4D58618DF23A4367 sha1 9F715B67FFDDC432299C9BBAE6B7E088DDBD4679 )
-)
-game (
 	name "Spy vs. Spy"
 	releaseyear "1986"
 	rom ( name "Spy vs. Spy (1986)(Sega).bin" size 32768 crc 78D7FAAB md5 C6ADC5DB40D0DB75C9C167E4BB2ED918 sha1 FEAB16DD8B807B88395E91C67E9FF52F8F7AA7E4 )
@@ -3703,6 +3501,12 @@ game (
 	releaseyear "1986"
 	region "Japan"
 	rom ( name "Spy vs. Spy (1986)(Sega)(JP)(en)[h].bin" size 32768 crc A71BC542 md5 1A97C84DADD3E93FE922D8F5F366625E sha1 5F87871A120C2DE05A0D60CBCA2A8007CAB27C61 )
+)
+game (
+	name "Spy vs. Spy (Taiwan)[AKA Die Dui Die]"
+	releaseyear "1986"
+	region "Taiwan"
+	rom ( name "Spy vs. Spy (1986)(Aaronix)(TW)[AKA Die Dui Die].bin" size 32768 crc 689F58A2 md5 E42CF87C4C8ED81B4D58618DF23A4367 sha1 9F715B67FFDDC432299C9BBAE6B7E088DDBD4679 )
 )
 game (
 	name "Star Wars"
@@ -3733,24 +3537,34 @@ game (
 	rom ( name "Streets of Rage (1993)(Sega).bin" size 524288 crc 4AB3790F md5 29A5195D57A82FB1349A7403F1D65D7E sha1 5BDEC24D9BA0F6ED359DCB3B11910EC86866EC98 )
 )
 game (
-	name "Streets of Rage [tr fr]"
-	releaseyear "1993"
-	rom ( name "Streets of Rage (1993)(Sega)[tr fr].bin" size 524288 crc C95E0CC2 md5 8B14C44F9A956FBF2BF3150AC1BB2086 sha1 44ABCB41221DAB398CF10085E276CECE191CD2C6 )
-)
-game (
-	name "Streets of Rage [tr fr](Alt 1)"
-	releaseyear "1993"
-	rom ( name "Streets of Rage (1993)(Sega)[tr fr][a].bin" size 524288 crc ECC18147 md5 C876B25E236DBC6258C31A2FE54E7549 sha1 FD5C661C8B92812AF3D161ED1F43E308C85D843A )
-)
-game (
 	name "Streets of Rage II"
 	releaseyear "1993"
 	rom ( name "Streets of Rage II (1993)(Sega).bin" size 524288 crc 04E9C089 md5 E680B108E67CAF02E4FB77D419F48358 sha1 CC18171A860711F6AD18FF89254DD7BD05C54654 )
 )
 game (
+	name "Streets of Rage [tr fr]"
+	releaseyear "1993"
+	rom ( name "Streets of Rage (1993)(Sega)[tr fr].bin" size 524288 crc C95E0CC2 md5 8B14C44F9A956FBF2BF3150AC1BB2086 sha1 44ABCB41221DAB398CF10085E276CECE191CD2C6 )
+)
+game (
+	name "Streets of Rage [tr fr]"
+	releaseyear "1993"
+	rom ( name "Streets of Rage (1993)(Sega)[tr fr][a].bin" size 524288 crc ECC18147 md5 C876B25E236DBC6258C31A2FE54E7549 sha1 FD5C661C8B92812AF3D161ED1F43E308C85D843A )
+)
+game (
 	name "Strider"
 	releaseyear "1991"
 	rom ( name "Strider (1991)(Capcom - Sega).bin" size 524288 crc 9802ED31 md5 48AF5AE2CAD7C48C81D7C2553A8ED426 sha1 051E72C8FFEC7606C04409EF38244CFDD592252F )
+)
+game (
+	name "Strider (Taiwan)[SMS-GG]"
+	region "Taiwan"
+	rom ( name "Strider (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 524288 crc 63A7F906 md5 F01CE5FD91877DC14D5EEAB502F26E63 sha1 43B822BBCCDC666E5BFB7F86F690516AC251B0B3 )
+)
+game (
+	name "Strider II"
+	releaseyear "1992"
+	rom ( name "Strider II (1992)(Capcom - U.S. Gold).bin" size 262144 crc B8F0915A md5 8336C9A48390889FB3E17CD6F9471AE1 sha1 F9D58BD9A5A99F2FD26FB411B0783FCD220249A4 )
 )
 game (
 	name "Strider [b2]"
@@ -3763,24 +3577,14 @@ game (
 	rom ( name "Strider (1991)(Capcom - Sega)[tr pt].bin" size 524288 crc 471CDB51 md5 B560567338B7FE211A3FFF287C19ABA3 sha1 F35B74360BC099462F665E8F52B9E92112DC0EBE )
 )
 game (
-	name "Strider [tr pt](Alt 2)"
+	name "Strider [tr pt]"
 	releaseyear "1991"
 	rom ( name "Strider (1991)(Capcom - Sega)[tr pt][a2].bin" size 524288 crc 40760BB3 md5 85C5D5AE284C5754DE8F79DB38A57FD4 sha1 32E386A2C801761CDFDC818069B1B0EC5057154C )
 )
 game (
-	name "Strider [tr pt](Alt 1)"
+	name "Strider [tr pt]"
 	releaseyear "1991"
 	rom ( name "Strider (1991)(Capcom - Sega)[tr pt][a].bin" size 524288 crc 53C2FEB2 md5 F302B83D0675A6B57570250CE1DC657F sha1 9B306E98E6A12B86C5D4B7F4900BD2CC30A09A36 )
-)
-game (
-	name "Strider (Taiwan)[SMS-GG]"
-	region "Taiwan"
-	rom ( name "Strider (19xx)(Hung Tao Hsin)(TW)[SMS-GG].bin" size 524288 crc 63A7F906 md5 F01CE5FD91877DC14D5EEAB502F26E63 sha1 43B822BBCCDC666E5BFB7F86F690516AC251B0B3 )
-)
-game (
-	name "Strider II"
-	releaseyear "1992"
-	rom ( name "Strider II (1992)(Capcom - U.S. Gold).bin" size 262144 crc B8F0915A md5 8336C9A48390889FB3E17CD6F9471AE1 sha1 F9D58BD9A5A99F2FD26FB411B0783FCD220249A4 )
 )
 game (
 	name "Submarine Attack"
@@ -3808,11 +3612,6 @@ game (
 	name "Summer Games"
 	releaseyear "1988"
 	rom ( name "Summer Games (1988)(Epyx - Sega).bin" size 131072 crc 8DA5C93F md5 10F2A7506AE6402F42B8083B24C0D105 sha1 F9638B693CA3A7C65CFC589AAEA0BBAB56FC7238 )
-)
-game (
-	name "Summer Games (Beta)"
-	releaseyear "1988"
-	rom ( name "Summer Games (1988)(Epyx - Sega)(beta).bin" size 131072 crc 80EB1FFF md5 D08BB7CE6D71C1B6A72E90F3A4FBFB54 sha1 91B46D3169E66549C94BDB4A5F92C2FC4BB2ABE8 )
 )
 game (
 	name "Summer Games (Proto)[early proto]"
@@ -3926,15 +3725,15 @@ game (
 	rom ( name "Super Monaco GP (1990)(Sega)(EU)(proto)[Proto 1].bin" size 262144 crc DD7ADBCC md5 D399C273C48BCEE0B535690C1AAEFB26 sha1 3D0174017DE5E16C608B56A2A5680AE5DD314140 )
 )
 game (
+	name "Super Monaco GP (Proto)[Proto 0]"
+	releaseyear "1990"
+	rom ( name "Super Monaco GP (1990)(Sega)(proto)[Proto 0].bin" size 262144 crc A1D6D963 md5 D18F1C389ED75EFABC44E24B128DA95D sha1 F748E43D99F86EB8204B7F7B31991A454F12586A )
+)
+game (
 	name "Super Monaco GP (USA) (Proto)"
 	releaseyear "1990"
 	region "USA"
 	rom ( name "Super Monaco GP (1990)(Sega)(US)(proto).bin" size 262144 crc 3753CC95 md5 7F7F20393D157EB01B7001F70D2726CC sha1 2469D356EF51B9E2C953E51C00427824DB8E0B31 )
-)
-game (
-	name "Super Monaco GP (Proto)[Proto 0]"
-	releaseyear "1990"
-	rom ( name "Super Monaco GP (1990)(Sega)(proto)[Proto 0].bin" size 262144 crc A1D6D963 md5 D18F1C389ED75EFABC44E24B128DA95D sha1 F748E43D99F86EB8204B7F7B31991A454F12586A )
 )
 game (
 	name "Super Monaco GP II"
@@ -4033,19 +3832,21 @@ game (
 	rom ( name "Taz-Mania (1992)(Sega).bin" size 262144 crc 7CC3E837 md5 CFC878F0163933FCFCC89E134FBEB31F sha1 AC98F23DDC24609CB77BB13102E0386F8C2A4A76 )
 )
 game (
-	name "Taz-Mania (Beta)"
-	releaseyear "1992"
-	rom ( name "Taz-Mania (1992)(Sega)(beta).bin" size 262144 crc 1B312E04 md5 707E3E397F181B6E51196A4502B8E12F sha1 274641B3B05245504F763A5E4BC359183D16A092 )
-)
-game (
-	name "Taz-Mania (Beta)[tr pt]"
-	releaseyear "1992"
-	rom ( name "Taz-Mania (1992)(Sega)(beta)[tr pt].bin" size 262144 crc C63E7B0A md5 ED959B39559BFDD442C2230A0886897F sha1 A9E1D27B65A8B70E52FDBE6B961B0D701CC1979F )
-)
-game (
 	name "Teddy Boy"
 	releaseyear "1985"
 	rom ( name "Teddy Boy (1985)(Sega).bin" size 32768 crc 2728FAA3 md5 66BAEA0A42353FFD3F131586E0C9C4D4 sha1 6AE39718703DBF7126F71387CE24AD956710A315 )
+)
+game (
+	name "Teddy Boy Blues (Japan)"
+	releaseyear "1985"
+	region "Japan"
+	rom ( name "Teddy Boy Blues (1985)(Sega)(JP)(en).bin" size 32768 crc 316727DD md5 DE5D6C9E1349844B74F53CAAF2AF680B sha1 FB61C04F30C83733FDBF503B16E17AA8086932DF )
+)
+game (
+	name "Teddy Boy Blues (Japan)[h]"
+	releaseyear "1985"
+	region "Japan"
+	rom ( name "Teddy Boy Blues (1985)(Sega)(JP)(en)[h].bin" size 32768 crc 9DFA67EE md5 21EC0F2CD786E6FC4E5CB98028928B8D sha1 839DA36557B494299B427BDA4E32D2BA61977B25 )
 )
 game (
 	name "Teddy Boy [h10]"
@@ -4108,34 +3909,10 @@ game (
 	rom ( name "Teddy Boy (1985)(Sega)[h].bin" size 32768 crc CCB2CAB4 md5 212346E9BFDD058C4D7B766DF89C1FCB sha1 B7601FF0116490B85C9BD50109DB175CE2DD9104 )
 )
 game (
-	name "Teddy Boy Blues (Japan)"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Teddy Boy Blues (1985)(Sega)(JP)(en).bin" size 32768 crc 316727DD md5 DE5D6C9E1349844B74F53CAAF2AF680B sha1 FB61C04F30C83733FDBF503B16E17AA8086932DF )
-)
-game (
-	name "Teddy Boy Blues (Japan) (Beta)"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Teddy Boy Blues (1985)(Sega)(JP)(en)(beta).bin" size 49152 crc D7508041 md5 3B0B80CEF02A15A7EF09F54EB22282A7 sha1 51014D89CD8770DF8A3D837A0208CB69D5BF7903 )
-)
-game (
-	name "Teddy Boy Blues (Japan)[h]"
-	releaseyear "1985"
-	region "Japan"
-	rom ( name "Teddy Boy Blues (1985)(Sega)(JP)(en)[h].bin" size 32768 crc 9DFA67EE md5 21EC0F2CD786E6FC4E5CB98028928B8D sha1 839DA36557B494299B427BDA4E32D2BA61977B25 )
-)
-game (
 	name "Temco World Cup '93 (Europe)"
 	releaseyear "1993"
 	region "Europe"
 	rom ( name "Temco World Cup '93 (1993)(Sega - Tecmo)(EU)(en).bin" size 262144 crc 5A1C3DDE md5 81F530D169C5C04C8FAF8DB367BBCD63 sha1 43A30DA241F57CF086AB9B2ED25FE018171F2908 )
-)
-game (
-	name "Temco World Cup '93 (Europe) (Beta)"
-	releaseyear "1993"
-	region "Europe"
-	rom ( name "Temco World Cup '93 (1993)(Sega - Tecmo)(EU)(en)(beta).bin" size 262144 crc 96E75F48 md5 C85A8F65E3FC1C0C80EC63E4FB77CB99 sha1 BFC473BCFD849C8955F24E82347423FEF4F7FAF5 )
 )
 game (
 	name "Tennis Ace"
@@ -4215,7 +3992,7 @@ game (
 	rom ( name "Time Soldiers (1989)(Sega)[tr pt].bin" size 262144 crc FF0F9323 md5 E4C222832F9633DFA63C3BDEEC733649 sha1 7BEF54DBBA39191FA27853252800F507A1BACF3E )
 )
 game (
-	name "Time Soldiers [tr pt](Alt 1)"
+	name "Time Soldiers [tr pt]"
 	releaseyear "1989"
 	rom ( name "Time Soldiers (1989)(Sega)[tr pt][a].bin" size 262144 crc ED9A19B6 md5 4C8514CD3DC0D9CBBDE70C0CC86E3084 sha1 8FFC179388DFBCC42ED62721040D9D89F10D1734 )
 )
@@ -4223,11 +4000,6 @@ game (
 	name "Tom and Jerry - The Movie"
 	releaseyear "1992"
 	rom ( name "Tom and Jerry - The Movie (1992)(Sega).bin" size 262144 crc BF7B7285 md5 965E5576D569794AA27E89048855615F sha1 30224286C65BEDDF37DC83F688F1BD362F325227 )
-)
-game (
-	name "Tom and Jerry - The Movie (Beta)"
-	releaseyear "1992"
-	rom ( name "Tom and Jerry - The Movie (1992)(Sega)(beta).bin" size 262144 crc 0C2FC2DE md5 8B7F5B3750B1E4908CFC1086494E914F sha1 83133CC875F4124B6EDE7A9AFC29AA311B36C285 )
 )
 game (
 	name "Tom and Jerry - The Movie [b2]"
@@ -4244,11 +4016,6 @@ game (
 	name "Transbot"
 	releaseyear "1986"
 	rom ( name "Transbot (1986)(Sega).bin" size 32768 crc 4BC42857 md5 93BB1E1EE14AC53ADB9E6B9E0C135043 sha1 73273E6D44AD7AEA828B642D22F6F1C138BE9D2B )
-)
-game (
-	name "Transbot (Beta)"
-	releaseyear "1986"
-	rom ( name "Transbot (1986)(Sega)(beta).bin" size 32768 crc 58B99750 md5 DD26C323D1323691FED04CD8498AFBCF sha1 4CD1D5E94B31BB3C3E449BC995890C0A4707BC5F )
 )
 game (
 	name "Transbot [b2]"
@@ -4286,11 +4053,6 @@ game (
 	name "Ultima III Rev 20060513 [p]"
 	releaseyear "2006"
 	rom ( name "Ultima III Rev 20060513 (2006)(-)[p].bin" size 31233 crc 4E9CC98F md5 A74571B7A085B3849E2D2952C857919E sha1 287235CA264F150BEFFECBFF29A0634B8B9CB35B )
-)
-game (
-	name "Ultima IV (Beta)"
-	releaseyear "1989"
-	rom ( name "Ultima IV (1989)(Sega)(beta).bin" size 524288 crc DE9F8517 md5 D92B72C87179B718C8B1506B347C2E36 sha1 BB1AE06B62A9F7D3259C51EEE4CFDED781EB5D30 )
 )
 game (
 	name "Ultima IV"
@@ -4407,6 +4169,11 @@ game (
 	rom ( name "Wonder Boy Rev 0 (1987)(Sega).bin" size 131072 crc E2FCB6F3 md5 A4E48850BF8799CFAC74B1D33F5900B5 sha1 14210196F454B6D938F15CF7B52076796C5D0F7D )
 )
 game (
+	name "Wonder Boy Rev 1"
+	releaseyear "1987"
+	rom ( name "Wonder Boy Rev 1 (1987)(Sega).bin" size 131072 crc 73705C02 md5 7E805AA51BFB5F206C950A32EBCDAB7C sha1 63149F20BF69CD2F24D0E58841FCFCDACE972F49 )
+)
+game (
 	name "Wonder Boy Rev 1 [b2]"
 	releaseyear "1986"
 	rom ( name "Wonder Boy Rev 1 (1986)(Sega)[b2].bin" size 262144 crc 1076C897 md5 0C60C7FD7A680A73EF46E0719630A742 sha1 C2F68D15DA78B2BF104E2838E32099502A0C8E76 )
@@ -4425,16 +4192,6 @@ game (
 	name "Wonder Boy Rev 1 [h]"
 	releaseyear "1986"
 	rom ( name "Wonder Boy Rev 1 (1986)(Sega)[h].bin" size 131072 crc 1EE6E034 md5 CA36594C0E30E4E98534ED76F4802ADB sha1 CB2D0484757D5C0500ED268143CBCA271CAD5A2F )
-)
-game (
-	name "Wonder Boy Rev 1"
-	releaseyear "1987"
-	rom ( name "Wonder Boy Rev 1 (1987)(Sega).bin" size 131072 crc 73705C02 md5 7E805AA51BFB5F206C950A32EBCDAB7C sha1 63149F20BF69CD2F24D0E58841FCFCDACE972F49 )
-)
-game (
-	name "Wonder Boy in Monster Land (Beta)"
-	releaseyear "1988"
-	rom ( name "Wonder Boy in Monster Land (1988)(Sega)(beta).bin" size 262144 crc 8312C429 md5 16BE61F4DE705CDD636D1FB1662E24DE sha1 09FDB724CCF427AF7DDD8F89CF0581F2A0B2F7F1 )
 )
 game (
 	name "Wonder Boy in Monster Land Rev 1"
@@ -4465,11 +4222,6 @@ game (
 	name "Wonder Boy in Monster Land Rev 1 [tr fr]"
 	releaseyear "1988"
 	rom ( name "Wonder Boy in Monster Land Rev 1 (1988)(Sega)[tr fr].bin" size 262144 crc 43933407 md5 90F1D3F397E6CB08DA55AC42FC57D164 sha1 77AA8666A9A41EE2FDB4FC111D22B7C663359D08 )
-)
-game (
-	name "Wonder Boy in Monster World (Beta)"
-	releaseyear "1992"
-	rom ( name "Wonder Boy in Monster World (1992)(Sega)(beta).bin" size 524288 crc 81BFF9BB md5 311AA03DCAB8EDCF9891397AC3297B72 sha1 7A26DE7A544C602DAEADBD3507028AC68EF35E91 )
 )
 game (
 	name "Wonder Boy in Monster World"
@@ -4544,19 +4296,9 @@ game (
 	rom ( name "World Games (1989)(Epyx - Sega).bin" size 131072 crc A2A60BC8 md5 87A479D66E88464D45D87CAD77C2B3FE sha1 4F3C04E40DD4B94D5D090068BA99B8461AF56F51 )
 )
 game (
-	name "World Games (Beta)"
-	releaseyear "1989"
-	rom ( name "World Games (1989)(Epyx - Sega)(beta).bin" size 131072 crc 914D3FC4 md5 AF5BE770DA3F73E01847C44AD97226D3 sha1 6361F796248C71ECFAAA02AAFE6DDBBAEBF6EBBA )
-)
-game (
 	name "World Grand Prix"
 	releaseyear "1986"
 	rom ( name "World Grand Prix (1986)(Sega).bin" size 131072 crc 4AAAD0D6 md5 72B55720DE75072A2FECEAB9CA4367B0 sha1 650F15EBBD149F5C357F089D7BD305FCB20B068F )
-)
-game (
-	name "World Grand Prix (Beta)"
-	releaseyear "1986"
-	rom ( name "World Grand Prix (1986)(Sega)(beta).bin" size 131072 crc B5A9F824 md5 368515471F9D221DE0ED1C836CE6F028 sha1 9B44F322F8C2F59EBF1372F7911046CC6B3C156C )
 )
 game (
 	name "World Grand Prix Rev 2 (USA)"
@@ -4581,15 +4323,15 @@ game (
 	rom ( name "X-Men - Mojo World (1996)(Sega - Tec Toy)(BR)(en).bin" size 524288 crc 3E1387F6 md5 758A1E837E51669700C0A2379E90D993 sha1 6405A2F8B6F220B4349F8006C3D75DFCDCD6DB6D )
 )
 game (
+	name "XVII Olympic Winter Games, The - Lillehammer 1994"
+	releaseyear "1993"
+	rom ( name "XVII Olympic Winter Games, The - Lillehammer 1994 (1993)(U.S. Gold)(M8).bin" size 524288 crc A20290B6 md5 6046D9EE439F3C76EB6713EEA8BA984B sha1 20B73D53E6868957F07B1A813B853943BFB90307 )
+)
+game (
 	name "XVII Olympic Winter Games, The - Lillehammer 1994 (Brazil)"
 	releaseyear "1993"
 	region "Brazil"
 	rom ( name "XVII Olympic Winter Games, The - Lillehammer 1994 (1993)(U.S. Gold - Tec Toy)(BR)(M8).bin" size 524288 crc 2FEC2B4A md5 D3BCF99A883E14A2F9DF8DD92662710F sha1 758F3DC68DB93F35E315FBF2FCD904484CCE2AD1 )
-)
-game (
-	name "XVII Olympic Winter Games, The - Lillehammer 1994"
-	releaseyear "1993"
-	rom ( name "XVII Olympic Winter Games, The - Lillehammer 1994 (1993)(U.S. Gold)(M8).bin" size 524288 crc A20290B6 md5 6046D9EE439F3C76EB6713EEA8BA984B sha1 20B73D53E6868957F07B1A813B853943BFB90307 )
 )
 game (
 	name "Xenon 2 Rev 0"
@@ -4631,11 +4373,6 @@ game (
 	name "Zaxxon 3D"
 	releaseyear "1987"
 	rom ( name "Zaxxon 3D (1987)(Sega).bin" size 262144 crc A3EF13CB md5 882DC10B0792BE579A745C3F38010642 sha1 257946FE8A230AC1308FC60A8ED43851CFE6B915 )
-)
-game (
-	name "Zaxxon 3D (Beta)"
-	releaseyear "1987"
-	rom ( name "Zaxxon 3D (1987)(Sega)(beta).bin" size 262144 crc BBA74147 md5 177EAAA2CAB1DF16A6B9A372D7D4846A sha1 85A67064C71DFA58EB150CC090BEB5AE6639B527 )
 )
 game (
 	name "Zemina 4-in-1 - Q-Bert, Sports 3, Gulkave, Pooyan (Korea)"

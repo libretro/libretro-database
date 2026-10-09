@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Atari - Lynx"
 	description "Atari - Lynx"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bll|lnx|lyx"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -16,10 +17,6 @@ game (
 game (
 	name "2048 (World)"
 	rom ( name "2048 (World) (Aftermarket) (Unl).lyx" size 262144 crc A73938F5 md5 5515E0491719FF09553B6D7D930569BC sha1 D379B6114FEFA60E0A01E0C4DF2CC9BA1287BF03 )
-)
-game (
-	name "3D Barrage (World) (Beta)"
-	rom ( name "3D Barrage (World) (Beta).lyx" size 131072 crc A90D3629 md5 F39C99D61E70DDF92EB136359A5DE9B4 sha1 3758ECBB6AC21FCC2792D0377A58F7E128A59B9A )
 )
 game (
 	name "4Ttude (World) (v1.0) (Atari Lynx 30th Birthday)"
@@ -158,20 +155,6 @@ game (
 	name "Asteroids Chasers (World) (Proto)"
 	releaseyear "2020"
 	releasemonth "08"
-	releaseday "14"
-	rom ( name "Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 9EE4EFE6 md5 8CF418CEF94E87BD272C6F8A8FAA1554 sha1 3F7D32509E09FB5B1DA78F7B0A5565E027DD0390 )
-)
-game (
-	name "Asteroids Chasers (World) (Proto)"
-	releaseyear "2020"
-	releasemonth "08"
-	releaseday "14"
-	rom ( name "Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 5D3CD51D md5 2F404547C5D96250D96E96DFF5046242 sha1 BA389CAFAD7E9C8F596AF994977DDDDBD3F4884C )
-)
-game (
-	name "Asteroids Chasers (World) (Proto)"
-	releaseyear "2020"
-	releasemonth "08"
 	releaseday "16"
 	rom ( name "Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 2C89BBF4 md5 ECC2702671260360F529E5193C48E53E sha1 469E4F887D01CE240732EFB4059024DA8EF39565 )
 )
@@ -179,8 +162,22 @@ game (
 	name "Asteroids Chasers (World) (Proto)"
 	releaseyear "2020"
 	releasemonth "08"
+	releaseday "14"
+	rom ( name "Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 9EE4EFE6 md5 8CF418CEF94E87BD272C6F8A8FAA1554 sha1 3F7D32509E09FB5B1DA78F7B0A5565E027DD0390 )
+)
+game (
+	name "Asteroids Chasers (World) (Proto)"
+	releaseyear "2020"
+	releasemonth "08"
 	releaseday "16"
 	rom ( name "Asteroids Chasers (World) (2020-08-16) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc EF51810F md5 2067C87C8065F60A10B5C30392CD4417 sha1 B2760A81917848333616C1735DB580C887EBDF3B )
+)
+game (
+	name "Asteroids Chasers (World) (Proto)"
+	releaseyear "2020"
+	releasemonth "08"
+	releaseday "14"
+	rom ( name "Asteroids Chasers (World) (2020-08-14) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 5D3CD51D md5 2F404547C5D96250D96E96DFF5046242 sha1 BA389CAFAD7E9C8F596AF994977DDDDBD3F4884C )
 )
 game (
 	name "Atari Tabletops Collection (World) (v1.0)"
@@ -367,30 +364,6 @@ game (
 	rom ( name "Bill & Ted's Excellent Adventure (USA, Europe).lyx" size 262144 crc 143A313E md5 87DFF4F4D5E1E4A7132D19F94D4E9B3A sha1 F09CE08D93A479FEACECEB79EB48B337AFF49FAE )
 )
 game (
-	name "Biniax (World) (v0.1) (Beta)"
-	rom ( name "Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl).lnx" size 15350 crc 7BC96D96 md5 AA27E6E139D7ACA03072484948CDD2A9 sha1 95E7C6C6BBFC6D4FB3E456BF059C2990BBDA4206 )
-)
-game (
-	name "Biniax (World) (v0.1) (Beta)"
-	rom ( name "Biniax (World) (v0.1) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 613658AB md5 057E78CB86015D01B4BAFC41B45ECE2F sha1 6813C1F3EB4039B10EC888605AF05DA76B741F64 )
-)
-game (
-	name "Biniax (World) (v0.2) (Beta)"
-	rom ( name "Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl).lnx" size 21422 crc 3FE195D2 md5 D1AA93D9123DA62C43B3E6BA9CBFEF57 sha1 B81AE09C40743FD3123A5BEC9DA3109592D2FD10 )
-)
-game (
-	name "Biniax (World) (v0.2) (Beta)"
-	rom ( name "Biniax (World) (v0.2) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc D65DDBC3 md5 D6D935F4E2E7AF66100DE5FA0E072A1E sha1 105A360930EB9B2D448D577A60BA3AE69EEE5931 )
-)
-game (
-	name "Biniax (World) (v0.3) (Beta)"
-	rom ( name "Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl).lnx" size 22707 crc 9B3350F0 md5 A90571F6B1226109C086684A32966EA1 sha1 A0B1A702DDC82E7AAD1893058E7C91188EE04D42 )
-)
-game (
-	name "Biniax (World) (v0.3) (Beta)"
-	rom ( name "Biniax (World) (v0.3) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 5A3F90A0 md5 12A07E89BB9F216047ED4A3D9D117575 sha1 057D4576E79BBF8BF6FEC64A2AB2A1C6A86286CB )
-)
-game (
 	name "Biniax (World) (v1.0)"
 	rom ( name "Biniax (World) (v1.0) (Aftermarket) (Unl).lnx" size 27267 crc 66894CB9 md5 69DA929F14C7ADE0D1BCD6222ECD305B sha1 483E76BDF34561C311830BE6B69DDFC4D9570915 )
 )
@@ -442,13 +415,6 @@ game (
 game (
 	name "Blue Lightning (World)"
 	rom ( name "Blue Lightning (World).lyx" size 131072 crc DAF587B1 md5 F7B4775771BC25D9053AF5C69A8C8B2A sha1 BE08076586F76DB368DB1769380DCBB6DE2A6513 )
-)
-game (
-	name "Blue Lightning (World) (Beta)"
-	releaseyear "1989"
-	releasemonth "06"
-	releaseday "02"
-	rom ( name "Blue Lightning (World) (Beta) (1989-06-02).lyx" size 131072 crc ABF22530 md5 A4AB63FA832976CB87DF0465035420E6 sha1 119600777AE1694AAE34083D7DF14D283FCA25CE )
 )
 game (
 	name "Bobo (World) (Proto)"
@@ -506,18 +472,6 @@ game (
 game (
 	name "California Games (World)"
 	rom ( name "California Games (World).lyx" size 131072 crc A08F0B59 md5 73E02BB77DCF857A6578F0E24B4ECB9E sha1 F13E010102CA527A9C393ACB52BB949A1BA93E3E )
-)
-game (
-	name "California Games (World) (Beta)"
-	rom ( name "California Games (World) (Beta).lyx" size 131072 crc 14C01E5F md5 3A45840D11E07A7D687A5EB3B46E34D6 sha1 89A5011BE4173C28A3B73AA6A078866588509E6E )
-)
-game (
-	name "Cardtest (World) (Beta)"
-	rom ( name "Cardtest (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc 0F4259B7 md5 EA3CD49D7C63267F59A8965ADC41962F sha1 A4376A181F73710CEE262D00EE68B3C828D8E4BA )
-)
-game (
-	name "Cardtest (World) (Beta)"
-	rom ( name "Cardtest (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc FEEE8121 md5 ED160AB0DAD1DFDF1D33FABCA819CB34 sha1 CFAFCCA829977B1843C9BC138901F4DCCD8FC329 )
 )
 game (
 	name "Carzilla (World) (v0.4) (Proto) (LynxJam 2024)"
@@ -729,30 +683,9 @@ game (
 game (
 	name "Cyberpunk Experiment 2037 (World) (Proto)"
 	releaseyear "2020"
-	releasemonth "04"
-	releaseday "13"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 8ECF7C04 md5 ADCED92F3F55FA7D54211BD6A64EF74B sha1 FF12FEA34610F49213509E6C005E9735408AF06D )
-)
-game (
-	name "Cyberpunk Experiment 2037 (World) (Proto)"
-	releaseyear "2020"
-	releasemonth "04"
-	releaseday "13"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc DC547198 md5 EBC4450C3F4D8D8679050B04EC75D7D0 sha1 50457301AAB981B33367636F9B3B45B1DDFA1E0F )
-)
-game (
-	name "Cyberpunk Experiment 2037 (World) (Proto)"
-	releaseyear "2020"
-	releasemonth "04"
-	releaseday "14"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc DFA90127 md5 6F5618EB54A6DA2172134D9B6836CF11 sha1 54C689C2A3DBCE7FEF0D645AF641F9B1143E8FC0 )
-)
-game (
-	name "Cyberpunk Experiment 2037 (World) (Proto)"
-	releaseyear "2020"
-	releasemonth "04"
-	releaseday "14"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 8D320CBB md5 999A509DBAE6735EED971B429450DAD1 sha1 26875BAFD75B74FE43FD52AE0F23727DF226066B )
+	releasemonth "06"
+	releaseday "01"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).lnx" size 524352 crc 6D312A14 md5 5C3C83C88E8B6B4F95DE3B446C296DAE sha1 387074AA2EED381F14A7DECF285390EF88FA8C35 )
 )
 game (
 	name "Cyberpunk Experiment 2037 (World) (Proto)"
@@ -765,15 +698,15 @@ game (
 	name "Cyberpunk Experiment 2037 (World) (Proto)"
 	releaseyear "2020"
 	releasemonth "04"
-	releaseday "21"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 5440E425 md5 55077CA1FBF74819858FB170812DDFE7 sha1 643378281B105AC76AA40CE97D213376FB15EE4E )
+	releaseday "14"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc DFA90127 md5 6F5618EB54A6DA2172134D9B6836CF11 sha1 54C689C2A3DBCE7FEF0D645AF641F9B1143E8FC0 )
 )
 game (
 	name "Cyberpunk Experiment 2037 (World) (Proto)"
 	releaseyear "2020"
-	releasemonth "06"
-	releaseday "01"
-	rom ( name "Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).lnx" size 524352 crc 6D312A14 md5 5C3C83C88E8B6B4F95DE3B446C296DAE sha1 387074AA2EED381F14A7DECF285390EF88FA8C35 )
+	releasemonth "04"
+	releaseday "13"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 8ECF7C04 md5 ADCED92F3F55FA7D54211BD6A64EF74B sha1 FF12FEA34610F49213509E6C005E9735408AF06D )
 )
 game (
 	name "Cyberpunk Experiment 2037 (World) (Proto)"
@@ -781,6 +714,27 @@ game (
 	releasemonth "06"
 	releaseday "01"
 	rom ( name "Cyberpunk Experiment 2037 (World) (2020-06-01) (Proto) (Aftermarket) (Unl).lyx" size 524288 crc 69E35D01 md5 ABE8704A54803A69E3BF9CB920AFD115 sha1 170837EFD3E72E26E3EC0B0C0897D5CD7D6A40F2 )
+)
+game (
+	name "Cyberpunk Experiment 2037 (World) (Proto)"
+	releaseyear "2020"
+	releasemonth "04"
+	releaseday "21"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-21) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 5440E425 md5 55077CA1FBF74819858FB170812DDFE7 sha1 643378281B105AC76AA40CE97D213376FB15EE4E )
+)
+game (
+	name "Cyberpunk Experiment 2037 (World) (Proto)"
+	releaseyear "2020"
+	releasemonth "04"
+	releaseday "14"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-14) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc 8D320CBB md5 999A509DBAE6735EED971B429450DAD1 sha1 26875BAFD75B74FE43FD52AE0F23727DF226066B )
+)
+game (
+	name "Cyberpunk Experiment 2037 (World) (Proto)"
+	releaseyear "2020"
+	releasemonth "04"
+	releaseday "13"
+	rom ( name "Cyberpunk Experiment 2037 (World) (2020-04-13) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc DC547198 md5 EBC4450C3F4D8D8679050B04EC75D7D0 sha1 50457301AAB981B33367636F9B3B45B1DDFA1E0F )
 )
 game (
 	name "Daemon's Gate (USA) (Proto 1)"
@@ -848,18 +802,6 @@ game (
 game (
 	name "DrunkWitch (World)"
 	rom ( name "DrunkWitch (World) (Aftermarket) (Unl).lyx" size 262144 crc 061D9270 md5 94519B6553E24ECEFC004D6EB41BF9FC sha1 F03D5EE5425B52581EDB3CE15F484BFEAC6EF911 )
-)
-game (
-	name "Dungeddon (World) (Beta)"
-	rom ( name "Dungeddon (World) (Beta) (Aftermarket) (Unl).bll" size 31906 crc 6F28CBBA md5 D8D8F9D65739168CB5A3B51D59886012 sha1 795EFFAA848C574EAA6800935F94D753AEFE31AD )
-)
-game (
-	name "Dungeddon (World) (Beta)"
-	rom ( name "Dungeddon (World) (Beta) (Aftermarket) (Unl).lnx" size 65536 crc 6334DABB md5 844049CEAB769B56502EAEF28ADC463C sha1 D413FA59CA961832FCAFA268BA43504764D47B93 )
-)
-game (
-	name "Dungeddon (World) (Beta)"
-	rom ( name "Dungeddon (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 4C62B125 md5 95F6E4F3B6FFCBD492FA52944E3BA0EA sha1 CA59CBA03ADF4A45F05524DBC7F196748364E8CB )
 )
 game (
 	name "Dungeddon (World) (v1.1)"
@@ -933,11 +875,6 @@ game (
 	name "Fidelity Ultimate Chess Challenge, The (USA, Europe)"
 	region "USA"
 	rom ( name "Fidelity Ultimate Chess Challenge, The (USA, Europe).lyx" size 131072 crc 7E4B5945 md5 19EB0CA77284B5D91A63EB02F6962930 sha1 F6AFA50F161FFFE5975CF5688A9314B8039D940F )
-)
-game (
-	name "Fidelity Ultimate Chess Challenge, The (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Fidelity Ultimate Chess Challenge, The (USA, Europe) (Beta).lyx" size 131072 crc FD65EE0D md5 6EDD668C78BF790F93C3C800AA14238E sha1 9EC09A4FC10916D19092E1FC9897ED40A351F865 )
 )
 game (
 	name "Final Melee (World)"
@@ -1017,33 +954,8 @@ game (
 	rom ( name "Gates of Zendocon (World).lyx" size 131072 crc 494CC568 md5 D5BE9118BCB14243468001B08C4AA21A sha1 4EB4D3EB29231B2E36D8EF6EDE64A568F469C5FE )
 )
 game (
-	name "Gates of Zendocon (World) (Beta)"
-	releaseyear "1989"
-	releasemonth "06"
-	releaseday "01"
-	rom ( name "Gates of Zendocon (World) (Beta) (1989-06-01).lyx" size 131072 crc 88871760 md5 2E4750BD3D94EC82E4216AB86EDD8891 sha1 7D0070CD21B223B0F6A02CB0F5C5680F64FDAC93 )
-)
-game (
 	name "Gauntlet - The Third Encounter (World)"
 	rom ( name "Gauntlet - The Third Encounter (World).lyx" size 131072 crc 7F0EC7AD md5 0B572C0DFB938849EEEC39B2C9583547 sha1 41D27F0717A93D05A9D3D1110F571F791D330F55 )
-)
-game (
-	name "Gauntlet - The Third Encounter (World) (Beta)"
-	releaseyear "1990"
-	releasemonth "01"
-	releaseday "12"
-	rom ( name "Gauntlet - The Third Encounter (World) (Beta) (1990-01-12).lyx" size 131072 crc 41F5DE73 md5 5DF523241F5B7273457579FA047905F6 sha1 00444683DF3AB0AF3EAC272EE0D379CB5ECF52D5 )
-)
-game (
-	name "Gauntlet - The Third Encounter (World) (Beta)"
-	releaseyear "1990"
-	releasemonth "06"
-	releaseday "04"
-	rom ( name "Gauntlet - The Third Encounter (World) (Beta) (1990-06-04).lyx" size 131072 crc DCD723E3 md5 8815EA087AF1AA89B4F7B65BD3CB8534 sha1 F2623DA3F8D762F4A834EEBBF0E521117EC39428 )
-)
-game (
-	name "Gemquest (World) (Beta)"
-	rom ( name "Gemquest (World) (Beta).lyx" size 131072 crc 8302C463 md5 EAF1413F8E90F5500D88364DAB621004 sha1 C5152C20F34C1E5458BCA1A45F9E2CFC35050CCC )
 )
 game (
 	name "Gift Catcher (World)"
@@ -1244,11 +1156,6 @@ game (
 	rom ( name "Hydra (USA, Europe).lyx" size 262144 crc E3041C6C md5 76A48869C14FBCF85588001A1327253D sha1 FC0C7CABF3A2EE821F7441B71D19D52205F97721 )
 )
 game (
-	name "Hydra (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Hydra (USA, Europe) (Beta).lyx" size 262144 crc 793620C2 md5 29E66B467BCDB5E78073A01ED8D7517B sha1 EDD8B97E5BC128A2CF22251E0B9CDF982E423EF8 )
-)
-game (
 	name "Ishido - The Way of Stones (USA, Europe)"
 	region "USA"
 	rom ( name "Ishido - The Way of Stones (USA, Europe).lyx" size 131072 crc 5CF8BBF0 md5 ADDC6C0AE7B535839815B8E7F7FD0F11 sha1 78C295AF3A57B5BD7D7E1D13AB13AD67885C4E89 )
@@ -1296,50 +1203,8 @@ game (
 	rom ( name "Jungle Jack (World) (Aftermarket) (Unl).lyx" size 262144 crc 6C7E8360 md5 BC79EFCCFA7F12C104B1D533C89AD14F sha1 C1BA4DEDF46C413734515154ACCC15E9DBA24602 )
 )
 game (
-	name "Jungle Jack (World) (Beta)"
-	rom ( name "Jungle Jack (World) (Beta) (Aftermarket) (Unl).lnx" size 15940 crc AFE540DF md5 207C8CB506772635DBC5152E70F8F157 sha1 D6A4DA3428D42EAA5FFA881F197BF7B19ED12688 )
-)
-game (
-	name "Jungle Jack (World) (Beta)"
-	rom ( name "Jungle Jack (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 9C4C4B47 md5 0F4199AF04DEA197C6072F8924100E33 sha1 12640545A04E80E79CE0EA8126EF1F50E9046AF2 )
-)
-game (
 	name "Klax (World)"
 	rom ( name "Klax (World).lyx" size 262144 crc A53649F1 md5 F96A0DDCC72C971226E8FDFD95607C88 sha1 A1D2DC0771F4A30E539AB3261A21CC71ADC71550 )
-)
-game (
-	name "Klax (World) (Beta 1)"
-	rom ( name "Klax (World) (Beta 1).lyx" size 262144 crc 4D5D94F4 md5 57043E8E79588C067118A4D5F307CD76 sha1 B6CB710964A5FDD0A236BF38069BE40AA4037B6B )
-)
-game (
-	name "Klax (World) (Beta 2)"
-	releaseyear "1990"
-	releasemonth "05"
-	releaseday "22"
-	rom ( name "Klax (World) (Beta 2) (1990-05-22).lyx" size 131072 crc BE3AC828 md5 1EB2CA103CBFFA68771E3D7F945E44C0 sha1 E942AC4B30F759C3B6E78EDC319A1934AF2B1C67 )
-)
-game (
-	name "Klax (World) (Beta 3)"
-	releaseyear "1990"
-	releasemonth "07"
-	releaseday "09"
-	rom ( name "Klax (World) (Beta 3) (1990-07-09).lyx" size 262144 crc 1C42D958 md5 8B50A11B8F6FF9D7AC02E0D921C11206 sha1 5666B35C2D7B3EFF1D3C2ED79DA6C5C3A975B447 )
-)
-game (
-	name "Klondike (World) (Beta 1)"
-	rom ( name "Klondike (World) (Beta 1) (Aftermarket) (Unl).lnx" size 111846 crc 121557FD md5 23024A5F5AB9044AE0E6E4B64D93DC8A sha1 3941FA4448918827668BCEE9CF108547CD0A7A72 )
-)
-game (
-	name "Klondike (World) (Beta 1)"
-	rom ( name "Klondike (World) (Beta 1) (Aftermarket) (Unl).lyx" size 262144 crc 0CB83FEC md5 719B2151231262157F2634630D612013 sha1 F3A96B67F6806A2DCB77E23FE97F1EF12245390F )
-)
-game (
-	name "Klondike (World) (Beta 2)"
-	rom ( name "Klondike (World) (Beta 2) (Aftermarket) (Unl).lnx" size 111820 crc EA0EED2F md5 650A1503FF0F712584BD4553631868F2 sha1 E00EA7CA7BFAF285430591C4B7E47CCCAB0B36CD )
-)
-game (
-	name "Klondike (World) (Beta 2)"
-	rom ( name "Klondike (World) (Beta 2) (Aftermarket) (Unl).lyx" size 262144 crc 45822E44 md5 29E07112E3A495DA552B3B4F79029C64 sha1 D12AA018A232F7EFF650E2A2F9C3B8903FFE3337 )
 )
 game (
 	name "Knight Moves (World)"
@@ -1511,14 +1376,6 @@ game (
 	rom ( name "Lynx Tris (World) (Aftermarket) (Unl).lyx" size 262144 crc 09A5D4E2 md5 608CB03B95D3FF9CAA65EF841DE60421 sha1 05A754355F4EF3C5A165E306C182A0418CB3F345 )
 )
 game (
-	name "Lynx Tris (World) (Beta)"
-	rom ( name "Lynx Tris (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc 189F96A1 md5 4D4026FD150BE4C5BAB9E2E3FCE7D1B3 sha1 16EB3BA36C24ED292EFB1AF5287F336B58DEF8F9 )
-)
-game (
-	name "Lynx Tris (World) (Beta)"
-	rom ( name "Lynx Tris (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc D8128C49 md5 6D1978BB6955D7E8679FE8F80FB86659 sha1 E9F63774D73EA8B39BD86BBA7B9DCDCD6D212CE1 )
-)
-game (
 	name "Lynxopoly (World)"
 	rom ( name "Lynxopoly (World) (Aftermarket) (Unl).lnx" size 262208 crc 8864FD71 md5 4CA909C538476E8CEDC2604F97B5D93A sha1 1F4F5B5B9F1852A0429536CD2784D6364649B62D )
 )
@@ -1548,14 +1405,6 @@ game (
 	rom ( name "Malibu Bikini Volleyball (USA, Europe).lyx" size 262144 crc ABA6DA3D md5 280344C8B073895ECCE286D1B9D87D8B sha1 9C3D8037D347C0FF23D941EFF8B575A4F2F051DA )
 )
 game (
-	name "Malibu Bikini Volleyball (USA, Europe) (Beta)"
-	releaseyear "1993"
-	releasemonth "05"
-	releaseday "11"
-	region "USA"
-	rom ( name "Malibu Bikini Volleyball (USA, Europe) (Beta) (1993-05-11).lyx" size 262144 crc 4329084A md5 98C851C7ED924E1C7123C60E5164819E sha1 452F9A150EFE77205CD0162264FC4AD3DEF7526C )
-)
-game (
 	name "Malibu Bikini Volleyball (World) (Atari Lynx Collection 1)"
 	rom ( name "Malibu Bikini Volleyball (World) (Atari Lynx Collection 1) (Unl).lnx" size 262208 crc 2FF89D87 md5 0EA7AADDC4BE270F58A147DA89C9D719 sha1 54782DBE5A1923BE588BCE6A0F35049345EEC1B4 )
 )
@@ -1570,18 +1419,6 @@ game (
 game (
 	name "Marble Madness (World)"
 	rom ( name "Marble Madness (World) (Aftermarket) (Unl).lyx" size 262144 crc 323AF126 md5 10DB69457BE151FA5728FCA0113DF193 sha1 D1DF1ED83E99C382BA5F5C36168ED9B9EB1436CC )
-)
-game (
-	name "Marble Madness (World) (Beta)"
-	rom ( name "Marble Madness (World) (Beta) (Aftermarket) (Unl).bll" size 56056 crc 9970273E md5 DAF8027CCDAF71150ACA1F1D91604543 sha1 3DAEE2F4948AC2017D7362F287AE41B21FBF545E )
-)
-game (
-	name "Marble Madness (World) (Beta)"
-	rom ( name "Marble Madness (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc 73979812 md5 88F84337048D896DFC1C1A41D317347F sha1 8AB71D5FB2FA7955E254CAF2D959C480BA8B10D9 )
-)
-game (
-	name "Marble Madness (World) (Beta)"
-	rom ( name "Marble Madness (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc C7019B83 md5 FA4FB117A5B12AC2501D43C16ACF4CF9 sha1 40E1D715B0F9083AE38C5F80429860C0B469B3A4 )
 )
 game (
 	name "Marlboro Go! (Europe) (Proto 1)"
@@ -1664,10 +1501,6 @@ game (
 	rom ( name "NFL Football (USA, Europe).lyx" size 262144 crc 006FD398 md5 276B9BE28571189912F05D321FCB04EF sha1 CAEA445BDDCF75BCBE13920718279220D1ACB869 )
 )
 game (
-	name "Net Runner (World) (Beta)"
-	rom ( name "Net Runner (World) (Beta).lyx" size 131072 crc 29E6CA48 md5 CDC7FC543554DA7D2316BB43FA60976C sha1 822425EF2A1F90E3A3FAC17A851ADE6F04D1F246 )
-)
-game (
 	name "Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0)"
 	rom ( name "Nezumi-kun to Poker Shiyouyo (World) (Ja) (v1.0) (Aftermarket) (Unl).bll" size 46306 crc 5D2A366B md5 CB0A88E4465D26A41509E9733195B98C sha1 BC8DD95A6A1EE2CD1529F86B7662261D8F45B291 )
 )
@@ -1730,14 +1563,6 @@ game (
 	rom ( name "On Duty (World) (Aftermarket) (Unl).lyx" size 262144 crc D51B08DA md5 34FFA2F808AC3AF95B5810BA060B0587 sha1 800921AC4C5FC8417A42623FC43D2F14FDA59B2E )
 )
 game (
-	name "On Duty (World) (Beta)"
-	rom ( name "On Duty (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc F55D0E3D md5 A8AADF281BEC567588931BB19295F02A sha1 2BABA3187EBDD26AE1CFED53BDB0886C0E3F1E92 )
-)
-game (
-	name "On Duty (World) (Beta)"
-	rom ( name "On Duty (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 351A8834 md5 3151A03CCA7A29DD75ED1FAF03B82E52 sha1 923A0461DB58A7810BD47A1CF972403E40360676 )
-)
-game (
 	name "Othello (World)"
 	rom ( name "Othello (World) (Aftermarket) (Unl).bll" size 23267 crc 8A0E684D md5 D92D327E7533F83439AE766FBE52772C sha1 8080497C6B2A89796A4897A512003E8227F7DAA6 )
 )
@@ -1779,28 +1604,8 @@ game (
 	rom ( name "Pac-Land (USA, Europe).lyx" size 131072 crc AA50DD22 md5 0A14754B351B4F11A1359E252B8EB992 sha1 58B57835703E3145A54E1C0ADA38C9218BF4CD3D )
 )
 game (
-	name "Pac-Land (USA, Europe) (Beta)"
-	releaseyear "1991"
-	releasemonth "05"
-	releaseday "02"
-	region "USA"
-	rom ( name "Pac-Land (USA, Europe) (Beta) (1991-05-02).lyx" size 131072 crc FF96DF2B md5 512CF2F490A27F94809A506AC39613CA sha1 69BE18324F947363CA48BA33F27DEBEBF9DD2E49 )
-)
-game (
-	name "Pac-Land (USA, Europe) (Beta)"
-	releaseyear "1991"
-	releasemonth "05"
-	releaseday "03"
-	region "USA"
-	rom ( name "Pac-Land (USA, Europe) (Beta) (1991-05-03).lyx" size 131072 crc 3562EC7A md5 515BAE3A90C6627ABAABD1F16AF5F1BA sha1 95074402A47ECFA44C26B1941DD05CA45C6C03CF )
-)
-game (
 	name "Paperboy (World)"
 	rom ( name "Paperboy (World).lyx" size 131072 crc 4CDFBD57 md5 2A59D2CA6D6F07BC2791BF349E2778EE sha1 537BAE2C336DC9925F10505D4040965CA7434F5D )
-)
-game (
-	name "Paperboy (World) (Beta)"
-	rom ( name "Paperboy (World) (Beta).lyx" size 262144 crc 56F6BF14 md5 FB73088023E9CF6B7C1013DA37863ABC sha1 64CB9CEB192C454CBCD98B92C945D18C265E0210 )
 )
 game (
 	name "Peg Solitaire (World) (v1.0)"
@@ -1851,14 +1656,6 @@ game (
 	name "Pit-Fighter (USA, Europe)"
 	region "USA"
 	rom ( name "Pit-Fighter (USA, Europe).lyx" size 524288 crc 2393135F md5 5565889A9A8817F99EC6DDA322A70877 sha1 30F8C7ACF41A988578768B251E88B636462752CB )
-)
-game (
-	name "Pit-Fighter (USA, Europe) (Beta)"
-	releaseyear "1992"
-	releasemonth "10"
-	releaseday "13"
-	region "USA"
-	rom ( name "Pit-Fighter (USA, Europe) (Beta) (1992-10-13).lyx" size 524288 crc E7A5A4D0 md5 95581FD55A30557E2D2EC0419BB4BBB8 sha1 457A97A914AD90F11B6FCBE6EDA11D29D9D4E016 )
 )
 game (
 	name "Poachin' Jeff (World) (Proto)"
@@ -1973,14 +1770,6 @@ game (
 	rom ( name "Quantum Invasion (World) (LynxJam 2024) (Aftermarket) (Unl).lyx" size 262144 crc 79B0CA08 md5 6DCF031514D0EAF1F294A40EAE80CF38 sha1 85DF2737808E07CED32F2F084400A97C5821A542 )
 )
 game (
-	name "Raid on TriCity (World) (Beta)"
-	rom ( name "Raid on TriCity (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc CC318741 md5 1075FA3E5C411F8FD6B52DFF3C06D683 sha1 556C8F5AAFE3D1B90ABF2323763F987AB3580E65 )
-)
-game (
-	name "Raid on TriCity (World) (Beta)"
-	rom ( name "Raid on TriCity (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc F68B82C5 md5 763C4DA51983EEA5B518C9525E913C8B sha1 5ADAED549DF7B4E7DCAB21D720C7F3DD1D95D6DC )
-)
-game (
 	name "Raid on TriCity - First Impact (World) (v1.01)"
 	rom ( name "Raid on TriCity - First Impact (World) (v1.01) (Aftermarket) (Unl).lnx" size 262208 crc 351E0206 md5 9D7A27B117975D0C5B94482A8A6A60C1 sha1 FD13EA2180D5F41F685E45FF5E60FCAD3DAB3A89 )
 )
@@ -1995,16 +1784,6 @@ game (
 game (
 	name "Raid on TriCity - Second Wave (World) (Digital)"
 	rom ( name "Raid on TriCity - Second Wave (World) (Digital) (Aftermarket) (Unl).lyx" size 262144 crc 0B737767 md5 D89081E11DCBDA2E5488144FFF984217 sha1 2D9A25F688530B6A754DC9DC23AA212444A76024 )
-)
-game (
-	name "Raiden (USA) (Beta)"
-	region "USA"
-	rom ( name "Raiden (USA) (Beta).lnx" size 262208 crc D62FE6BF md5 C51F494E41BBC5F9C2900E9467C5D4CD sha1 469AA2D72959DE155466E84CC284A06609389A2D )
-)
-game (
-	name "Raiden (USA) (Beta)"
-	region "USA"
-	rom ( name "Raiden (USA) (Beta).lyx" size 262144 crc BCD10C3A md5 ABFD6AE93C31E8F59AA934AD922CB4DD sha1 DF48F69A7257A40844812E5B0BDA9EFDF093B7F6 )
 )
 game (
 	name "Raiden (World)"
@@ -2029,10 +1808,6 @@ game (
 game (
 	name "Rampage (World)"
 	rom ( name "Rampage (World).lyx" size 262144 crc B10B7C8E md5 E0CB426257761C3688A866332ED48340 sha1 771DBF246386DA37670324D34066671F3F43AC0E )
-)
-game (
-	name "Rampage (World) (Beta)"
-	rom ( name "Rampage (World) (Beta).lyx" size 131072 crc 17F4EE6B md5 274C37685A1CF8324F34054411259DB6 sha1 669222821B28FD835FA6CCDD87CD44D507AA1A24 )
 )
 game (
 	name "Rampart (USA, Europe)"
@@ -2062,27 +1837,6 @@ game (
 game (
 	name "Red Square (World) (v1.1)"
 	rom ( name "Red Square (World) (v1.1) (Aftermarket) (Unl).lyx" size 262144 crc 7E56D55A md5 AD3F3B815CBCC23B2BBCBEB5B2407DF0 sha1 213E8BC6D0E1F68EF0B32F6C03FC28E64941D7BF )
-)
-game (
-	name "Remnant - Planar Wars (World) (Beta)"
-	releaseyear "2000"
-	releasemonth "05"
-	releaseday "24"
-	rom ( name "Remnant - Planar Wars (World) (2000-05-24) (Beta) (Aftermarket) (Unl).bll" size 38599 crc CFD1FD9C md5 EFEDE4B2EBB1C98A1CEBDBEB4F11DDD3 sha1 1625B0C76CDD2C88CBD0F8D284DFC8668413C9A5 )
-)
-game (
-	name "Remnant - Planar Wars (World) (Beta)"
-	releaseyear "2000"
-	releasemonth "05"
-	releaseday "24"
-	rom ( name "Remnant - Planar Wars (World) (2000-05-24) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc D0AB56DF md5 4D90D9A8AFF2E57B5F03524C279C3113 sha1 C25A9DC80AAD5FFFA0B2AD9EA0F58446654C612D )
-)
-game (
-	name "Remnant - Planar Wars (World) (Beta)"
-	releaseyear "2000"
-	releasemonth "05"
-	releaseday "24"
-	rom ( name "Remnant - Planar Wars (World) (2000-05-24) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc 92C8F0FA md5 0C55EFC93FD773D75338D3BD9B293256 sha1 3CAFB3E5D2DB8CF4CBC9DDC3F84DBDDE2F5671B4 )
 )
 game (
 	name "Remnant - Planar Wars (World)"
@@ -2115,10 +1869,6 @@ game (
 game (
 	name "RoadBlasters (World)"
 	rom ( name "RoadBlasters (World).lyx" size 262144 crc 6867E80C md5 39617EBB81F3C1DF27354C18571BD6C3 sha1 20233381F12A48BC61B2C4B7A8F602A2C8EBC8BA )
-)
-game (
-	name "RoadBlasters (World) (Beta)"
-	rom ( name "RoadBlasters (World) (Beta).lyx" size 262144 crc 1857EBD1 md5 52F826026D348A414944BAC878829882 sha1 DC455A1DDDEE808D060792ABAF2A990395FAE382 )
 )
 game (
 	name "Robo Escape (World) (LynxJam 2024)"
@@ -2154,16 +1904,6 @@ game (
 	rom ( name "Robotron 2084 (USA, Europe).lyx" size 131072 crc 7A6049B5 md5 60C1DFBF112BBB2A49CF16EDDB191842 sha1 04048AA47C0FF99647608D4D1CCF48BA881A0F89 )
 )
 game (
-	name "Robotron 2084 (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Robotron 2084 (USA, Europe) (Beta).lnx" size 131136 crc 1DDC4D0F md5 311BB2CF026C6A898851D4F1962D4CC4 sha1 7554117D3E4DAC4C9751B66AEAB3E7D9B416093C )
-)
-game (
-	name "Robotron 2084 (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Robotron 2084 (USA, Europe) (Beta).lyx" size 131072 crc 6E7B014F md5 3CAAE184222F7F81391BDEBDF9431EFB sha1 D9D112806AA11E6D6A7B995C726079DAF494B5CD )
-)
-game (
 	name "Rolling Thunder (USA) (Proto)"
 	region "USA"
 	rom ( name "Rolling Thunder (USA) (Proto).lyx" size 262144 crc 467F8FD9 md5 F72A01BF1F9662253EE1ABFC27CD05D2 sha1 3A9CE2F7EF7889A993C9A8690D66E651B2A118D4 )
@@ -2183,10 +1923,6 @@ game (
 game (
 	name "Rygar (World)"
 	rom ( name "Rygar (World).lyx" size 262144 crc 67E5BDBA md5 FF6FFF314446AB70DFECB21E2DE4A2F6 sha1 8743769AF583AF681FD1D96AADB533D26B1B510D )
-)
-game (
-	name "Rygar (World) (Beta)"
-	rom ( name "Rygar (World) (Beta).lyx" size 131072 crc 24B14A88 md5 4E64D97107D8AEF081D3B0CAF310DC9E sha1 7B697F2061E0F498B8263A8EEF71E3289DDCCB1E )
 )
 game (
 	name "S.T.U.N. Runner (USA, Europe)"
@@ -2225,14 +1961,6 @@ game (
 	name "Scrapyard Dog (USA, Europe)"
 	region "USA"
 	rom ( name "Scrapyard Dog (USA, Europe).lyx" size 262144 crc BE166F3B md5 0CF228912D2F8EEB29AA215ABF416F6D sha1 DF57CD7F119FA6AF8F9B24942F0F12314B301075 )
-)
-game (
-	name "Scrapyard Dog (USA, Europe) (Beta)"
-	releaseyear "1991"
-	releasemonth "07"
-	releaseday "03"
-	region "USA"
-	rom ( name "Scrapyard Dog (USA, Europe) (Beta) (1991-07-03).lyx" size 262144 crc 0433391A md5 E9DC2E9E84B895484032C410836B799E sha1 1DA1B04398DA444CE63E12F8B1C9D7FCEB14F6DA )
 )
 game (
 	name "Scroll of theTime Lords - Lovejoy Prologue (World)"
@@ -2282,13 +2010,6 @@ game (
 game (
 	name "Shanghai (World)"
 	rom ( name "Shanghai (World).lyx" size 131072 crc 192BCD04 md5 46634EB87E6380D4D10F7B80D177C1FF sha1 9E67E05545934A7D375597B0E8C469468C5748A4 )
-)
-game (
-	name "Shanghai (World) (Beta)"
-	releaseyear "1990"
-	releasemonth "11"
-	releaseday "07"
-	rom ( name "Shanghai (World) (Beta) (1990-11-07).lyx" size 131072 crc 452D2845 md5 B5F9E878ABCF30E98B5205286BE4DF79 sha1 40547EA90A928AF2822ED4CC5A9EDB6340155B9B )
 )
 game (
 	name "Shuriken (World)"
@@ -2361,30 +2082,9 @@ game (
 game (
 	name "Solitaire (World) (karri)"
 	releaseyear "2009"
-	releasemonth "08"
-	releaseday "27"
-	rom ( name "Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 41CC8B8F md5 CD7005013651AF8AD5D513F06E5746AE sha1 95C8560F2ECB8015A500131584F10B082CF7C38C )
-)
-game (
-	name "Solitaire (World) (karri)"
-	releaseyear "2009"
-	releasemonth "08"
-	releaseday "27"
-	rom ( name "Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).lyx" size 262144 crc B0605319 md5 9CB9BC99723F41C252D2F5FC05EA404F sha1 F41682F20318243B3197DC27B293DABB46C5C6BA )
-)
-game (
-	name "Solitaire (World) (karri)"
-	releaseyear "2009"
-	releasemonth "08"
+	releasemonth "09"
 	releaseday "28"
-	rom ( name "Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 8E5CEB58 md5 398D7DA295738E0CAEF981A280169309 sha1 0375EF21097DF935A870E4C2B96324929D4E4EE4 )
-)
-game (
-	name "Solitaire (World) (karri)"
-	releaseyear "2009"
-	releasemonth "08"
-	releaseday "28"
-	rom ( name "Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).lyx" size 262144 crc 7FF033CE md5 98040C294C0628315EDCAD963225C89E sha1 9CB4B953BD13A0968BF2551F737AE9778B6D4F79 )
+	rom ( name "Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 1BB3885C md5 CF31B3BDFE60ED8FCC45876D73EB82D5 sha1 BA26C61239C00C030220BAEAAE564A98612F6F1A )
 )
 game (
 	name "Solitaire (World) (karri)"
@@ -2397,15 +2097,15 @@ game (
 	name "Solitaire (World) (karri)"
 	releaseyear "2009"
 	releasemonth "08"
-	releaseday "31"
-	rom ( name "Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl).lyx" size 262144 crc 3C4CD1D2 md5 75F05B820094614E5E923BC5351F2534 sha1 576ACA110538931CAF1E47CFE539CFF38AE1FC6D )
+	releaseday "28"
+	rom ( name "Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 8E5CEB58 md5 398D7DA295738E0CAEF981A280169309 sha1 0375EF21097DF935A870E4C2B96324929D4E4EE4 )
 )
 game (
 	name "Solitaire (World) (karri)"
 	releaseyear "2009"
-	releasemonth "09"
-	releaseday "28"
-	rom ( name "Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 1BB3885C md5 CF31B3BDFE60ED8FCC45876D73EB82D5 sha1 BA26C61239C00C030220BAEAAE564A98612F6F1A )
+	releasemonth "08"
+	releaseday "27"
+	rom ( name "Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).lnx" size 262208 crc 41CC8B8F md5 CD7005013651AF8AD5D513F06E5746AE sha1 95C8560F2ECB8015A500131584F10B082CF7C38C )
 )
 game (
 	name "Solitaire (World) (karri)"
@@ -2413,6 +2113,27 @@ game (
 	releasemonth "09"
 	releaseday "28"
 	rom ( name "Solitaire (World) (2009-09-28) (karri) (Aftermarket) (Unl).lyx" size 262144 crc 31E6A372 md5 9FC7008E33AD55AE614F7D1064BA9FD3 sha1 C0DD4158EA778D1D3AAB88B4C2C8BFF2F1BAA151 )
+)
+game (
+	name "Solitaire (World) (karri)"
+	releaseyear "2009"
+	releasemonth "08"
+	releaseday "31"
+	rom ( name "Solitaire (World) (2009-08-31) (karri) (Aftermarket) (Unl).lyx" size 262144 crc 3C4CD1D2 md5 75F05B820094614E5E923BC5351F2534 sha1 576ACA110538931CAF1E47CFE539CFF38AE1FC6D )
+)
+game (
+	name "Solitaire (World) (karri)"
+	releaseyear "2009"
+	releasemonth "08"
+	releaseday "28"
+	rom ( name "Solitaire (World) (2009-08-28) (karri) (Aftermarket) (Unl).lyx" size 262144 crc 7FF033CE md5 98040C294C0628315EDCAD963225C89E sha1 9CB4B953BD13A0968BF2551F737AE9778B6D4F79 )
+)
+game (
+	name "Solitaire (World) (karri)"
+	releaseyear "2009"
+	releasemonth "08"
+	releaseday "27"
+	rom ( name "Solitaire (World) (2009-08-27) (karri) (Aftermarket) (Unl).lyx" size 262144 crc B0605319 md5 9CB9BC99723F41C252D2F5FC05EA404F sha1 F41682F20318243B3197DC27B293DABB46C5C6BA )
 )
 game (
 	name "Sorrow (World) (Proto)"
@@ -2441,20 +2162,6 @@ game (
 game (
 	name "Space Lock & Space Shoot (World) (Proto)"
 	releaseyear "2005"
-	releasemonth "04"
-	releaseday "25"
-	rom ( name "Space Lock & Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc E17A58A3 md5 78B2D012A49845E81956DD1D2871D46F sha1 93CD5201336BE2DB57E496F87A2265F27C592F8A )
-)
-game (
-	name "Space Lock & Space Shoot (World) (Proto)"
-	releaseyear "2005"
-	releasemonth "04"
-	releaseday "25"
-	rom ( name "Space Lock & Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc A319FE86 md5 44E200792672D9646872EC21B88FC5F4 sha1 3BC6169C8F0BDBCAC6F3842DE9633C09815DED19 )
-)
-game (
-	name "Space Lock & Space Shoot (World) (Proto)"
-	releaseyear "2005"
 	releasemonth "05"
 	releaseday "16"
 	rom ( name "Space Lock & Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc 9E017908 md5 516358CC41D4DA1C1B4A17B7B46AAE55 sha1 9B57D425E0B57D200894EE6B2EF48FEAB273E913 )
@@ -2462,9 +2169,23 @@ game (
 game (
 	name "Space Lock & Space Shoot (World) (Proto)"
 	releaseyear "2005"
+	releasemonth "04"
+	releaseday "25"
+	rom ( name "Space Lock & Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).lnx" size 262208 crc E17A58A3 md5 78B2D012A49845E81956DD1D2871D46F sha1 93CD5201336BE2DB57E496F87A2265F27C592F8A )
+)
+game (
+	name "Space Lock & Space Shoot (World) (Proto)"
+	releaseyear "2005"
 	releasemonth "05"
 	releaseday "16"
 	rom ( name "Space Lock & Space Shoot (World) (2005-05-16) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc DC62DF2D md5 67406D2D160DA0BF954C5A05AC76E416 sha1 706F0AE420838CCBAE1412FAB80AB136A1F52954 )
+)
+game (
+	name "Space Lock & Space Shoot (World) (Proto)"
+	releaseyear "2005"
+	releasemonth "04"
+	releaseday "25"
+	rom ( name "Space Lock & Space Shoot (World) (2005-04-25) (Proto) (Aftermarket) (Unl).lyx" size 262144 crc A319FE86 md5 44E200792672D9646872EC21B88FC5F4 sha1 3BC6169C8F0BDBCAC6F3842DE9633C09815DED19 )
 )
 game (
 	name "Star Blader (World) (Proto)"
@@ -2591,6 +2312,14 @@ game (
 )
 game (
 	name "T-Tris (World) (Pirate)"
+	rom ( name "T-Tris (World) (Pirate) (Alt).bll" size 15700 crc A261FCBC md5 1B6A8A0B7F80332E9C7DFECADED8683E sha1 D337D0B38E22F42C92691AD2A80D48125D908B7F )
+)
+game (
+	name "T-Tris (World) (Pirate)"
+	rom ( name "T-Tris (World) (Pirate) (Alt).lnx" size 262208 crc 86099145 md5 DE8CD0F21C20BDBB092BE20FCDC85E81 sha1 DA55E0B4F1312DC95C9EE2C99F7139A6D3B5F306 )
+)
+game (
+	name "T-Tris (World) (Pirate)"
 	rom ( name "T-Tris (World) (Pirate).lnx" size 262208 crc F4D80D0B md5 DC92F0C42811C8691FA921A4DD2897C2 sha1 DE0186250918DAF76125D50BA2F3FC8F2F309110 )
 )
 game (
@@ -2598,15 +2327,7 @@ game (
 	rom ( name "T-Tris (World) (Pirate).lyx" size 262144 crc B6BBAB2E md5 AF4D97DA5D1E60E77573BCFC5BDFD1CC sha1 BB5ECDDB975387BC97039DD01F3841D7E451ACD6 )
 )
 game (
-	name "T-Tris (World) (Pirate) (Alt)"
-	rom ( name "T-Tris (World) (Pirate) (Alt).bll" size 15700 crc A261FCBC md5 1B6A8A0B7F80332E9C7DFECADED8683E sha1 D337D0B38E22F42C92691AD2A80D48125D908B7F )
-)
-game (
-	name "T-Tris (World) (Pirate) (Alt)"
-	rom ( name "T-Tris (World) (Pirate) (Alt).lnx" size 262208 crc 86099145 md5 DE8CD0F21C20BDBB092BE20FCDC85E81 sha1 DA55E0B4F1312DC95C9EE2C99F7139A6D3B5F306 )
-)
-game (
-	name "T-Tris (World) (Pirate) (Alt)"
+	name "T-Tris (World) (Pirate)"
 	rom ( name "T-Tris (World) (Pirate) (Alt).lyx" size 262144 crc C46A3760 md5 C2187B6535D603FCA803314F270A5DBF sha1 08AA8FD4E814FF05459EB1BB825372721A952C37 )
 )
 game (
@@ -2620,18 +2341,6 @@ game (
 game (
 	name "Teen Dance (World)"
 	rom ( name "Teen Dance (World) (Aftermarket) (Unl).lyx" size 262144 crc C6D2879D md5 C32E2EDE0F9341B93AA5477A01A9D1FD sha1 E92318BB51A7A5E4A4EB846463C1E965FD4D94D6 )
-)
-game (
-	name "Tetris Raiden (World) (Beta)"
-	rom ( name "Tetris Raiden (World) (Beta) (Aftermarket) (Unl).bll" size 36886 crc C30EA226 md5 6A4A1F5C66A8615ABCD77C159FDC3727 sha1 1D425585156B700989CBB0063C14DA3BCBF6178C )
-)
-game (
-	name "Tetris Raiden (World) (Beta)"
-	rom ( name "Tetris Raiden (World) (Beta) (Aftermarket) (Unl).lnx" size 262208 crc E319E429 md5 3B2FB615FCA5499F1DB304DFFF883C8F sha1 73BD239EE93C8A2BCDECD5BAAD654441CEF86460 )
-)
-game (
-	name "Tetris Raiden (World) (Beta)"
-	rom ( name "Tetris Raiden (World) (Beta) (Aftermarket) (Unl).lyx" size 262144 crc A17A420C md5 E83C6F9E09A46245F670A51B45B9DFC1 sha1 07B1B75B0DB39D5A8536F7C3128F18AF80DA5C74 )
 )
 game (
 	name "Tetrisnoid (World) (Proto)"
@@ -2810,17 +2519,6 @@ game (
 	rom ( name "Xenophobe (World).lyx" size 131072 crc 9BED736D md5 69FB597CB4DB019C48FD2E0C1CC7B75C sha1 A1B4F7A4697310CAFEA1271BD4B41EEAFAE60FFA )
 )
 game (
-	name "Xenophobe (World) (Beta 1)"
-	rom ( name "Xenophobe (World) (Beta 1).lyx" size 131072 crc 1504625F md5 AFD5B3073A90D2C55AD8EEC7658BECE3 sha1 FF5F8278D4DB7C2FB19BAE48E37E6EC3B6D14833 )
-)
-game (
-	name "Xenophobe (World) (Beta 2)"
-	releaseyear "1990"
-	releasemonth "11"
-	releaseday "12"
-	rom ( name "Xenophobe (World) (Beta 2) (1990-11-12).lyx" size 131072 crc B5406A9A md5 B4FA8F436275F3FB4AB445CF5E29D097 sha1 1C6386C379F5E48F36B2252DBFBFD6A370D328B4 )
-)
-game (
 	name "Xump - The Final Run (World) (Retroguru) (Digital)"
 	rom ( name "Xump - The Final Run (World) (Retroguru) (Digital) (Aftermarket) (Unl).lnx" size 196907 crc C3F9CCE3 md5 85CB70DBFA117C8FD20185E91F26315D sha1 069CD375EAE026958CD50122472CE185BDAD8E78 )
 )
@@ -2934,14 +2632,6 @@ game (
 	rom ( name "Z.A.P. (World) (Aftermarket) (Unl).lyx" size 262144 crc 56E49935 md5 BDAD2790DDE166A679FA7E67171F42C7 sha1 51886BEA04DE447240ADA71F416882A2A5E47D80 )
 )
 game (
-	name "Zaku (World) (Beta)"
-	rom ( name "Zaku (World) (Beta) (Unl).lnx" size 262208 crc 8819E916 md5 6C22F4E6ACD7AEEF5FD134FCBCA05715 sha1 24C2F137D4A8040762B8B5F669918675E53637B4 )
-)
-game (
-	name "Zaku (World) (Beta)"
-	rom ( name "Zaku (World) (Beta) (Unl).lyx" size 262144 crc B3747C71 md5 52997DE9AF205728A0E17EA3475F7AE2 sha1 530EA8C0A820746425017CBCC9F766531F5C6333 )
-)
-game (
 	name "Zaku (World)"
 	rom ( name "Zaku (World) (Unl).lnx" size 524352 crc 3D82E190 md5 B37CF00379B80452D8BCA13ABE7269D6 sha1 6377DD0EF9BEE6B6BD05736DADD2B36C0A02B8C3 )
 )
@@ -2952,8 +2642,4 @@ game (
 game (
 	name "Zarlor Mercenary (World)"
 	rom ( name "Zarlor Mercenary (World).lyx" size 131072 crc CB27199D md5 D008F41EC119E2C5C6A0782AEBF148A8 sha1 7005CDFA0A2E4A9611266CE50493CBB32351E069 )
-)
-game (
-	name "Zarlor Mercenary (World) (Beta)"
-	rom ( name "Zarlor Mercenary (World) (Beta).lyx" size 131072 crc 6D953304 md5 700ED5D5F9A3BCEFA04727B2383CE269 sha1 7C9D84BD1DC2B1AAAA10D1D307D5EFA5D1DFB2D5 )
 )

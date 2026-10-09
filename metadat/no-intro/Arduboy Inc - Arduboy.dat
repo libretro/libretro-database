@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Arduboy Inc - Arduboy"
 	description "Arduboy Inc - Arduboy"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "bin|hex"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -26,7 +27,7 @@ game (
 	rom ( name "1943 (World) (v1.0.3).hex" size 78788 crc 07982710 md5 EA93AC3CE30DFB4429D585C10A5E53B8 sha1 F324D13C80B1E32E5856898DC1E4BD20902F9AB9 )
 )
 game (
-	name "1943 (World) (v1.0.3) (Alt)"
+	name "1943 (World) (v1.0.3)"
 	rom ( name "1943 (World) (v1.0.3) (Alt).hex" size 80580 crc 54F22007 md5 094E278FC7661D68DFD9DB4B52D11FA3 sha1 755E66EB200B6FCEA6EC3F2AE3EF68AA468B1AA0 )
 )
 game (
@@ -43,11 +44,11 @@ game (
 )
 game (
 	name "1nvader (World) (v1.0)"
-	rom ( name "1nvader (World) (v1.0).hex" size 67530 crc A5B041E6 md5 6544F237AE5A8A6FAECEC8E84ADAC539 sha1 7ED32079728F951C37DD7B8C08864F62185914C7 )
+	rom ( name "1nvader (World) (v1.0) (Alt).hex" size 73580 crc B5C9D91A md5 81A9A966BE766D0AE0A1D608EEB97FAF sha1 3B5F087176E016EA5A20FFE825696A98BEF54FBE )
 )
 game (
-	name "1nvader (World) (v1.0) (Alt)"
-	rom ( name "1nvader (World) (v1.0) (Alt).hex" size 73580 crc B5C9D91A md5 81A9A966BE766D0AE0A1D608EEB97FAF sha1 3B5F087176E016EA5A20FFE825696A98BEF54FBE )
+	name "1nvader (World) (v1.0)"
+	rom ( name "1nvader (World) (v1.0).hex" size 67530 crc A5B041E6 md5 6544F237AE5A8A6FAECEC8E84ADAC539 sha1 7ED32079728F951C37DD7B8C08864F62185914C7 )
 )
 game (
 	name "1nvader (World) (v1.1)"
@@ -98,7 +99,7 @@ game (
 	rom ( name "ARDUBULLETs (World) (v0.11).hex" size 69203 crc 96B8349F md5 0FB40BF560D98B1B911D7A3066E7B565 sha1 08945B2DDBFA248B0123D00462A813EF19E615A7 )
 )
 game (
-	name "ARDUBULLETs (World) (v0.11) (Alt)"
+	name "ARDUBULLETs (World) (v0.11)"
 	rom ( name "ARDUBULLETs (World) (v0.11) (Alt).hex" size 75577 crc D2EEBC5C md5 C7D3ADFC25635BD2A5AF2A763C2A4BC3 sha1 E9A867AA7B14687C7DCFDDEE1A44B1CD52E9F6FB )
 )
 game (
@@ -238,7 +239,7 @@ game (
 	rom ( name "ArduRogue (World).hex" size 77736 crc 164883A9 md5 D05409BCE4376FA925F4F3799D3814AA sha1 1019A72118B16E01571699EFABED14857888AAAC )
 )
 game (
-	name "ArduRogue (World) (Alt)"
+	name "ArduRogue (World)"
 	rom ( name "ArduRogue (World) (Alt).hex" size 79504 crc BDE8B6A5 md5 B20A5E7CBDEA2580B646E4E727B34365 sha1 08BB35430026877F1E2C89017377F252A572403E )
 )
 game (
@@ -550,7 +551,7 @@ game (
 	rom ( name "Cooties Attack (World).hex" size 40211 crc E9677BDA md5 AD9E31DBBBCCDA4AE0998D5C091D786F sha1 8ACCA029A0EBD06EAA43A5292C0719CB950BE461 )
 )
 game (
-	name "Cooties Attack (World) (Alt)"
+	name "Cooties Attack (World)"
 	rom ( name "Cooties Attack (World) (Alt).hex" size 39916 crc CF9369D3 md5 2BF37CDD0B0DCB862FDD23ECF3C17FFD sha1 F695005108CFE814C3EC70E892EC598142BA6474 )
 )
 game (
@@ -746,7 +747,7 @@ game (
 	rom ( name "Evasion (World) (v0.10).hex" size 65366 crc 5597BE44 md5 3EC20EE55B9FBEB5AC2A9E2B24A9D06A sha1 A86BF4339FD0DF9469235249505CBE5B1343E574 )
 )
 game (
-	name "Evasion (World) (v0.10) (Alt)"
+	name "Evasion (World) (v0.10)"
 	rom ( name "Evasion (World) (v0.10) (Alt).hex" size 72141 crc 332B1FB1 md5 D6C3FF542FD655B8B3FD094A53E59A58 sha1 F76E8219C91E57AB1CAB37B520E9CB9E1CEC6C60 )
 )
 game (
@@ -774,7 +775,7 @@ game (
 	rom ( name "Fill the Cup (World).hex" size 36570 crc AA57E6F7 md5 E86F55A515761C75FBBD2B0D6E6C48F7 sha1 A1C2553A94B44E958F63A1E75CC54032B5ABDE70 )
 )
 game (
-	name "Fire Panic (World) (Alt)"
+	name "Fire Panic (World)"
 	rom ( name "Fire Panic (World) (Alt).hex" size 75241 crc 6A12F994 md5 B31C2F8CB797DDCC2D8AD9265CDA87A1 sha1 BF8C100E213EA1A9E7716A0044D56D666BF66385 )
 )
 game (
@@ -939,11 +940,11 @@ game (
 )
 game (
 	name "Karateka (World) (v0.9)"
-	rom ( name "Karateka (World) (v0.9).hex" size 72128 crc 91FFBE0E md5 DE14494D118EEFAAE85779B35E1D2843 sha1 64AD1BC9E2FD8382A815727EEF8197E7BB130BB2 )
+	rom ( name "Karateka (World) (v0.9) (Alt).hex" size 73036 crc EA6546BE md5 F580EE392E8AF8AB21A542AC5EECF5C8 sha1 C15137AC99809A6C255589A9DA393908104D9298 )
 )
 game (
-	name "Karateka (World) (v0.9) (Alt)"
-	rom ( name "Karateka (World) (v0.9) (Alt).hex" size 73036 crc EA6546BE md5 F580EE392E8AF8AB21A542AC5EECF5C8 sha1 C15137AC99809A6C255589A9DA393908104D9298 )
+	name "Karateka (World) (v0.9)"
+	rom ( name "Karateka (World) (v0.9).hex" size 72128 crc 91FFBE0E md5 DE14494D118EEFAAE85779B35E1D2843 sha1 64AD1BC9E2FD8382A815727EEF8197E7BB130BB2 )
 )
 game (
 	name "Kemono Patrol (World) (Erwin's Collection)"
@@ -959,11 +960,11 @@ game (
 )
 game (
 	name "Knight Move (World) (v0.11)"
-	rom ( name "Knight Move (World) (v0.11).hex" size 72513 crc E2B51B5B md5 48C8956AA7F643F453724BC5933496B1 sha1 3FC5858F9A95E9D3C33FCB04BC1ABCA54A3DA00F )
+	rom ( name "Knight Move (World) (v0.11) (Alt).hex" size 72513 crc 8373105D md5 A72B64E3530E6906009CA4D13A9B00DE sha1 FE07DE9B6D86F3043E4782D63D77DE1445A22DBF )
 )
 game (
-	name "Knight Move (World) (v0.11) (Alt)"
-	rom ( name "Knight Move (World) (v0.11) (Alt).hex" size 72513 crc 8373105D md5 A72B64E3530E6906009CA4D13A9B00DE sha1 FE07DE9B6D86F3043E4782D63D77DE1445A22DBF )
+	name "Knight Move (World) (v0.11)"
+	rom ( name "Knight Move (World) (v0.11).hex" size 72513 crc E2B51B5B md5 48C8956AA7F643F453724BC5933496B1 sha1 3FC5858F9A95E9D3C33FCB04BC1ABCA54A3DA00F )
 )
 game (
 	name "Knight Move (World) (v0.11) (Erwin's Collection)"
@@ -1003,11 +1004,11 @@ game (
 )
 game (
 	name "Lasers (World) (v0.11)"
-	rom ( name "Lasers (World) (v0.11).hex" size 67276 crc D0581DDA md5 967458F0096E7C7D8CAB5E2D82CC4C34 sha1 C0EBCAF82462B86FD61152F54A2E41246122F67D )
+	rom ( name "Lasers (World) (v0.11) (Alt).hex" size 68804 crc 26699B14 md5 FB0CE598E3E4C6AF321AC8BBEC9EB61B sha1 9489704CBAEDB8FBFFF8986D63EAE61BDB0915D5 )
 )
 game (
-	name "Lasers (World) (v0.11) (Alt)"
-	rom ( name "Lasers (World) (v0.11) (Alt).hex" size 68804 crc 26699B14 md5 FB0CE598E3E4C6AF321AC8BBEC9EB61B sha1 9489704CBAEDB8FBFFF8986D63EAE61BDB0915D5 )
+	name "Lasers (World) (v0.11)"
+	rom ( name "Lasers (World) (v0.11).hex" size 67276 crc D0581DDA md5 967458F0096E7C7D8CAB5E2D82CC4C34 sha1 C0EBCAF82462B86FD61152F54A2E41246122F67D )
 )
 game (
 	name "Lasers (World) (v0.11) (Erwin's Collection)"
@@ -1338,7 +1339,7 @@ game (
 	rom ( name "Quarto! (World) (v0.10).hex" size 72157 crc 379CEB28 md5 F3E1C76A9ACFDCB5A7FB9C71511E2B51 sha1 8601697A723195A1F5F04DE0FD129D6A386BEF1B )
 )
 game (
-	name "Quarto! (World) (v0.10) (Alt)"
+	name "Quarto! (World) (v0.10)"
 	rom ( name "Quarto! (World) (v0.10) (Alt).hex" size 72971 crc 70C74253 md5 4F4C0EE28CA9EFCA648DD4B61C871E64 sha1 90CCF4A09499C7A2771363FA014188FBD01F4B20 )
 )
 game (
@@ -1482,7 +1483,7 @@ game (
 	rom ( name "SameGame (World) (v0.10).hex" size 67722 crc 490EDE02 md5 A2BCA805284B72DD0F348CAF5C923ACB sha1 BD86862075E3EC8D402022782A3FA5231EC9EDE9 )
 )
 game (
-	name "SameGame (World) (v0.10) (Alt)"
+	name "SameGame (World) (v0.10)"
 	rom ( name "SameGame (World) (v0.10) (Alt).hex" size 68745 crc 49F24F59 md5 17284E33201088CA6996D35CD2CCB414 sha1 67BAF93C78836B372B2ABC92F5DC970C2DEA487A )
 )
 game (
@@ -1606,7 +1607,7 @@ game (
 	rom ( name "Stairs Sweep (World) (v0.10).hex" size 69052 crc ED03234E md5 4760F83F61C4243649E40FDB7530BC21 sha1 115F78771687B8762F993BB23ECE14FCE81CF362 )
 )
 game (
-	name "Stairs Sweep (World) (v0.10) (Alt)"
+	name "Stairs Sweep (World) (v0.10)"
 	rom ( name "Stairs Sweep (World) (v0.10) (Alt).hex" size 69256 crc 54C40217 md5 20C649A369CB3D60B7574DC44324FB30 sha1 4906244661C4AD150C0697B6E72FE52707297D5A )
 )
 game (
@@ -1807,17 +1808,17 @@ game (
 )
 game (
 	name "Virus LQP-79 (World)"
-	releaseyear "2016"
-	releasemonth "06"
-	releaseday "07"
-	rom ( name "Virus LQP-79 (World) (2016-06-07).hex" size 79042 crc 1DC426AD md5 118999BCA60104634514675C9668BD2C sha1 AB0DF1DB94CDAC1538A47F203309791F717D994E )
-)
-game (
-	name "Virus LQP-79 (World)"
 	releaseyear "2020"
 	releasemonth "06"
 	releaseday "08"
 	rom ( name "Virus LQP-79 (World) (2020-06-08).hex" size 76898 crc 578A145D md5 3C8155E377AE9A5346CBED9B8C005BF1 sha1 D6A81A6A05ACBF14DE0DD686A9A6EB8A120B203C )
+)
+game (
+	name "Virus LQP-79 (World)"
+	releaseyear "2016"
+	releasemonth "06"
+	releaseday "07"
+	rom ( name "Virus LQP-79 (World) (2016-06-07).hex" size 79042 crc 1DC426AD md5 118999BCA60104634514675C9668BD2C sha1 AB0DF1DB94CDAC1538A47F203309791F717D994E )
 )
 game (
 	name "Virus LQP-79 (World) (No QR Code)"

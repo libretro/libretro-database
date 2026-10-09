@@ -1,7 +1,8 @@
 clrmamepro (
 	name "Coleco - ColecoVision"
 	description "Coleco - ColecoVision"
-	version "2026.08.01"
+	version "2026.10.07"
+	extensions "col"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
@@ -9,11 +10,6 @@ game (
 	name "2010 - The Graphic Action Game (USA)"
 	region "USA"
 	rom ( name "2010 - The Graphic Action Game (USA).col" size 32768 crc C575A831 md5 0DFB83C1353481D297DFCC6123978533 sha1 B1621D39A2A6D1CDA7ECEB882A612A4BAF3DA70C )
-)
-game (
-	name "2010 - The Graphic Action Game (USA) (Beta)"
-	region "USA"
-	rom ( name "2010 - The Graphic Action Game (USA) (Beta).col" size 32768 crc 3657F3CD md5 5A19EDE183558B22BBA0D3DD3E7B3122 sha1 BEBEDAC4DF5348E91122972FCC4259A7D1F7FC0F )
 )
 game (
 	name "A.E. (USA) (Proto)"
@@ -44,11 +40,6 @@ game (
 	name "Antarctic Adventure (USA, Europe)"
 	region "USA"
 	rom ( name "Antarctic Adventure (USA, Europe).col" size 16384 crc 275C800E md5 1EA45EDC04BC4DF444A38E50F8A75D5D sha1 00DB7CF9BD66AECAC3D9368DD205680781B2E542 )
-)
-game (
-	name "Antarctic Adventure (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Antarctic Adventure (USA, Europe) (Beta).col" size 16384 crc A66E5ED1 md5 2AA54FB66F8764841BE2E59D41FECB2D sha1 BE8A7DF4F3E1E1001785EB2326C26B4C301B4DBE )
 )
 game (
 	name "Aquattack (USA)"
@@ -96,11 +87,6 @@ game (
 	rom ( name "Boulder Dash (USA).col" size 16384 crc 9B547BA8 md5 FF055F329760980900BBE2F973A9ECE6 sha1 BAD7A976F37DF875F4FA9646E5426C45344EC102 )
 )
 game (
-	name "Boulder Dash (USA) (Beta)"
-	region "USA"
-	rom ( name "Boulder Dash (USA) (Beta).col" size 16384 crc 1796DE5E md5 CEFF12F5D453CC60B6F4441B9042EAC0 sha1 AD266CA4D270EA35DEF306381EAF05D36C811218 )
-)
-game (
 	name "Brain Strainers (USA)"
 	region "USA"
 	rom ( name "Brain Strainers (USA).col" size 16384 crc 829C967D md5 302846579767D876883D8A560738DAAE sha1 FE6235B99889388FF858C19EAE7337DD0B75944A )
@@ -116,19 +102,9 @@ game (
 	rom ( name "Bump 'n' Jump (USA, Europe).col" size 20480 crc 9E1FAB59 md5 D365CF7B774679842A9F99953B97AB0A sha1 8DF20C9C151B01B0D859C0AB4753D5CCE3956224 )
 )
 game (
-	name "Bump 'n' Jump (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "Bump 'n' Jump (USA, Europe) (Beta).col" size 16384 crc EB498F97 md5 19098349768EA68A2C9F3D711369970A sha1 158F666AAC5CF48C77B62BEB77310A45F6C7E2EA )
-)
-game (
 	name "BurgerTime (USA, Europe)"
 	region "USA"
 	rom ( name "BurgerTime (USA, Europe).col" size 16384 crc 91346341 md5 927CE5BA5BF3E0F6C8C5A115DB51F264 sha1 6EBF0D23F2D7CF60897BA6FE13B2293421C0A589 )
-)
-game (
-	name "BurgerTime (USA, Europe) (Beta)"
-	region "USA"
-	rom ( name "BurgerTime (USA, Europe) (Beta).col" size 16384 crc E5C5EA20 md5 45295E9BA099C8CAE1DD893A1D5A380B sha1 B455E48F5462C8B27DD693E25113A8A28C28014B )
 )
 game (
 	name "CAT S.O.S. Game, The (USA) (Promo)"
@@ -139,16 +115,6 @@ game (
 	name "Cabbage Patch Kids - Adventures in the Park (USA, Europe)"
 	region "USA"
 	rom ( name "Cabbage Patch Kids - Adventures in the Park (USA, Europe).col" size 16384 crc 6AF19E75 md5 6F612E24B83A98096B67AAF6BB9083A3 sha1 CA240633EC6ECF732CBC28C9394459A722D6EDCB )
-)
-game (
-	name "Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1)"
-	region "USA"
-	rom ( name "Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 1).col" size 16384 crc BEACBFF5 md5 ADE704F01E694FB539BD805D9E276C99 sha1 6DCF2F3ACC4B221666DEFC6EBBC09286238E7A1B )
-)
-game (
-	name "Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2)"
-	region "USA"
-	rom ( name "Cabbage Patch Kids - Adventures in the Park (USA, Europe) (Beta 2).col" size 16384 crc 5DA13DFD md5 4BF6A6143D8C0596BA4549C66EEA9D67 sha1 57B4B045797B1F18CE22759D2ED1ACC36A2E2207 )
 )
 game (
 	name "Cabbage Patch Kids - Picture Show (USA)"
@@ -359,14 +325,6 @@ game (
 	rom ( name "Frogger II - ThreeeDeep! (USA).col" size 16384 crc 4229EA5A md5 48F68EA0446584DC330F8BE85F660194 sha1 C899DEBDDA6BFB7E2ED0D1C327AB574B9CBC70AE )
 )
 game (
-	name "Frogger II - ThreeeDeep! (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "06"
-	releaseday "15"
-	region "USA"
-	rom ( name "Frogger II - ThreeeDeep! (USA) (Beta) (1984-06-15).col" size 16384 crc E98B6851 md5 FE887D98BABA2859FCC6D1010D9E89D4 sha1 FC93E0AF26B2416CD39F8CB9C81BA57F81F62C0C )
-)
-game (
 	name "Front Line (USA, Europe) (Standard Controller)"
 	region "USA"
 	rom ( name "Front Line (USA, Europe) (Standard Controller).col" size 24576 crc D0110137 md5 4520EE5D8D0FCF151A3332966F7EBDA0 sha1 62CA275776E4184032224E61B6D01D0636D7E846 )
@@ -400,11 +358,6 @@ game (
 	name "Gyruss (USA)"
 	region "USA"
 	rom ( name "Gyruss (USA).col" size 16384 crc 27CBF26D md5 FD499D2D7ED864F81C6F01A9AD4B4442 sha1 9D34B9A55F9B6C8443696114A8E69724E5106B5A )
-)
-game (
-	name "Gyruss (USA) (Beta)"
-	region "USA"
-	rom ( name "Gyruss (USA) (Beta).col" size 8448 crc B35D4DC9 md5 89219C0FBEDCAB47C5C32740874BCD20 sha1 54279C45A95294626B7586F5110015B5D1FB94E6 )
 )
 game (
 	name "H.E.R.O. - Helicopter Emergency Rescue Operation (USA)"
@@ -492,11 +445,6 @@ game (
 	rom ( name "Looping (USA, Europe).col" size 16384 crc 6A2D637B md5 C4B08B67AEC8B8835E8F0E6AEB85260C sha1 83EE624C22DD42650BCD585B9CC8CC87DA6811D5 )
 )
 game (
-	name "Lord of the Dungeon (USA) (Beta)"
-	region "USA"
-	rom ( name "Lord of the Dungeon (USA) (Beta).col" size 32768 crc FEE15196 md5 D5964AC4E7B1FD3AE91A8008EF57A3CC sha1 681FA9F5C4130F65616C11AD7C598B667A3177F4 )
-)
-game (
 	name "M.A.S.H (Europe) (Proto)"
 	region "Europe"
 	rom ( name "M.A.S.H (Europe) (Proto).col" size 16384 crc FC95B302 md5 7029BF20F4DEE5049B0DDC61390B96E1 sha1 06513B0F49A86784B54DBD8ABF8EF8EAE934E3C4 )
@@ -512,7 +460,7 @@ game (
 	rom ( name "Matt Patrol (USA) (Proto).col" size 32768 crc 90007079 md5 39355F46ADA88B0D50523C2F7F5C9362 sha1 8A1E2DB621B84E630960B2341AC459AF2723A3F6 )
 )
 game (
-	name "Matt Patrol (USA) (Proto) (Alt)"
+	name "Matt Patrol (USA) (Proto)"
 	region "USA"
 	rom ( name "Matt Patrol (USA) (Proto) (Alt).col" size 32768 crc FBE12DE7 md5 8B1B5D34868EC53DDDA5780EEC94301E sha1 A801F587360782AFE7AC1BB7A9B08525A8363531 )
 )
@@ -540,11 +488,6 @@ game (
 	name "Monkey Academy (USA)"
 	region "USA"
 	rom ( name "Monkey Academy (USA).col" size 20480 crc D92B09C8 md5 6CD6A23E951C0EC6DA23D1335812BFF2 sha1 AC51F1A107B962E9322411D6233B3CE922E0FC15 )
-)
-game (
-	name "Monkey Academy (USA) (Beta)"
-	region "USA"
-	rom ( name "Monkey Academy (USA) (Beta).col" size 16384 crc D1E8DF85 md5 73ACD858C434721F4551D3A2777D6756 sha1 5DE6442754C639C77045CE9F18D1B59F38AB07B3 )
 )
 game (
 	name "Montezuma's Revenge (USA)"
@@ -585,11 +528,6 @@ game (
 	name "Nova Blast (USA, Europe)"
 	region "USA"
 	rom ( name "Nova Blast (USA, Europe).col" size 12288 crc 4491A35B md5 745067096D2DDA2C62874B60BAB4F625 sha1 2C35F5B2EB5914A14E544E00C67D4CB5582832D8 )
-)
-game (
-	name "Number Bumper (USA) (Beta)"
-	region "USA"
-	rom ( name "Number Bumper (USA) (Beta).col" size 32768 crc 6AF8B439 md5 52EAB97FC46601595999BDB78EA1630E sha1 50D40FA769C3B92FE7D4EAE23C15C429E020E023 )
 )
 game (
 	name "Oil's Well (USA)"
@@ -772,11 +710,6 @@ game (
 	rom ( name "Spy Hunter (USA).col" size 32768 crc 36478923 md5 F96A21F920E889D1E21ABBF00F4D381D sha1 97865D067BD531209857C3C8502C1260E0A30366 )
 )
 game (
-	name "Spy Hunter (USA) (Beta)"
-	region "USA"
-	rom ( name "Spy Hunter (USA) (Beta).col" size 32768 crc 1969B9B7 md5 7DA9F2FDA17E1E34A41B180D1CEB0C37 sha1 F95FB554B211BDE690A85D1F14FF5501CBCAF8BD )
-)
-game (
 	name "Squish'em Featuring Sam (USA)"
 	region "USA"
 	rom ( name "Squish'em Featuring Sam (USA).col" size 16384 crc AC92862D md5 90E1B27110A1B89CB1AD3E225DB20832 sha1 AE25507B840B15CA3A832BA0BD8E1CBFDF4634A6 )
@@ -795,14 +728,6 @@ game (
 	name "Star Wars - The Arcade Game (USA)"
 	region "USA"
 	rom ( name "Star Wars - The Arcade Game (USA).col" size 16384 crc 0E75B3BF md5 3ADDC2A93BCB803AC136801AB1B8695A sha1 DA0567BEE88BD1991481A755AC8292A115ED15AC )
-)
-game (
-	name "Star Wars - The Arcade Game (USA) (Beta)"
-	releaseyear "1984"
-	releasemonth "04"
-	releaseday "12"
-	region "USA"
-	rom ( name "Star Wars - The Arcade Game (USA) (Beta) (1984-04-12).col" size 16384 crc D7FEBC67 md5 2DDDD62CE1A8479E8ED4DE364CBAC51C sha1 C7F7AEEB9497A6E68E524944323677DE5A7A66CD )
 )
 game (
 	name "Steamroller (USA) (Proto)"
