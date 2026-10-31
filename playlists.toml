@@ -1,0 +1,1242 @@
+# See the MatchConfig model in scripts/match.py for the model behind each section.
+
+# How scripts/match.py interprets IGDB's data (see IgdbConfig)
+[igdb]
+rumble_keywords = [
+    8156,   # contextual controller rumble
+    50485,  # game boy player rumble support
+    46206,  # nintendo ds rumble pak
+    10564,  # rumble cartridge
+    27048,  # rumble pak
+    38907,  # rumble support
+]
+
+analog_keywords = [
+    4965,   # circle pad pro support
+    10740,  # gamecube
+    11394,  # gamecube controller support on wii
+    45794,  # n64 controller supported
+    48530,  # input type - dial controls
+]
+
+ignored_age_ratings = [
+    "RP",  # ESRB's "Rating Pending"
+]
+
+# Words of a tag that title-casing would misspell (see IgdbConfig.tag_spellings and tag_uppercase)
+# Each regex matches one whole word, ignoring case and any punctuation around it.
+tag_uppercase = [
+    # Acronyms and initialisms
+    'ac|ai|aol|arg|avgn|bafta|bl|bmx|bpjm|ces|covid|dc|dk|drm|ea|eb|evo|f2p|fps|gmtk|gta|igf|ip',
+    'lan|lgbtq?|mfgg|mit|nsfw(_dlc|_patch)?|sfw|nft|npc|pax|pbr|qr|rc|rtc|swat|tmnt|ufo|uk|usa|wasd|wtfpl|wwe',
+    'ww[12]|(?:[a-z]\.)+[a-z]',  # "WW2", "A.I.", "D.I.C.E."
+    'nfl|nba|nhl', # Sports leagues
+    # Genres
+    '[acdjst]?rpg|mmo(rpg)?|viprpg|ccg|tcg|stg',
+    # Hardware, media, and software
+    'cd|dvd|vhs|hd|4k|st|\d+fps|lcd|vfd|crt|ega|cga|vga|ibm|dos|aga|ecs|ocs|xe|jx|mz|rx|yf|s1',
+    'pc|tv|fm|midi|fmv|dsp|hud|ui|rom|dlc|ir|vr|vru|vmu|fx|dx|vco|seuck|scumm|sqij|mud|wad|smw|zx',
+    'nes|snes|gba?|gc|ds|3ds|3dtv|n64|ps[123p]?|psn|psg1|xbla|msx|32x|c128|d20|gp2x|gp32|gx4000|j2me|mp7',
+    'cnrom|(mmc|vrc)\d|sa1|spc7110|dd1|msu1|obc|fme|mxm|vt\w+',
+    # Roman numerals
+    'ii|iii|iv',
+]
+
+# Synonym keyword = the keyword whose name its tag uses instead
+[igdb.keyword_overrides]
+1173 = 27627   # "james bond" -> "007"
+42455 = 893    # "1500s" -> "16th Century"
+3552 = 535     # "1990's" -> "1990s"
+41008 = 50517  # "1bit" -> "1-bit"
+44939 = 589    # "25d" -> "2.5d"
+3696 = 25392   # "2d fighter" -> "2d fighting"
+47978 = 3014   # "2d-side-scroller" -> "2d platformer"
+18448 = 2231   # "3d platform" -> "3d platformer"
+16964 = 128    # "80s" -> "1980s"
+7294 = 128     # "the 1980s" -> "1980s"
+50684 = 3079   # "8bit" -> "8-bit"
+16108 = 6235   # "agent" -> "agents"
+43960 = 3      # "alien" -> "aliens"
+4176 = 968     # "animal protagonists" -> "animal protagonist"
+30990 = 43599  # "arpg" -> "action-rpg"
+40897 = 27510  # "autobattler" -> "auto battler"
+48274 = 4310   # "based on comic" -> "based on - comics"
+4433 = 2415    # "bat" -> "bats"
+29033 = 3486   # "bossfight" -> "boss fight"
+51512 = 155    # "car" -> "cars"
+45596 = 101    # "casual game" -> "casual"
+570 = 4329     # "cats" -> "cat"
+50807 = 5093   # "cga grpahics" -> "cga graphics"
+25688 = 482    # "collecting card game - ccg" -> "collectible card game"
+3687 = 3138    # "coloful" -> "colorful"
+17391 = 286    # "competitve" -> "competitive"
+39248 = 911    # "danmaku" -> "bullet hell"
+38865 = 25826  # "deckbuilder" -> "deck-building"
+175 = 1069     # "demon" -> "demons"
+43895 = 1931   # "dice game" -> "dice"
+3097 = 4869    # "dlc content" -> "downloadable content"
+16999 = 1935   # "dogs" -> "dog"
+332 = 1065     # "dragons" -> "dragon"
+17689 = 6716   # "dual wield" -> "dual wielding"
+1513 = 2228    # "dungeon crawling" -> "dungeon crawler"
+47296 = 38565  # "dungeons" -> "dungeon"
+38289 = 1655   # "e-sports" -> "esports"
+26135 = 1655   # "esport" -> "esports"
+2887 = 6385    # "fanservice" -> "fan service"
+20276 = 56     # "flight simulation" -> "flight simulator"
+48328 = 48329  # "fossil" -> "fossils"
+10868 = 42245  # "free game" -> "free"
+44136 = 772    # "gameshow" -> "game show"
+41811 = 25210  # "gatcha" -> "gacha"
+44864 = 16     # "ghost" -> "ghosts"
+29747 = 2032   # "ghost hunting" -> "ghost hunter"
+952 = 4404     # "goblin" -> "goblins"
+6487 = 236     # "grind" -> "grinding"
+23314 = 23680  # "h.p.lovecraft" -> "h. p. lovecraft"
+3730 = 3182    # "hero" -> "heroes"
+31325 = 2152   # "highscore" -> "high score"
+843 = 2096     # "humour" -> "humor"
+10626 = 2439   # "hunters" -> "hunter"
+45034 = 25000  # "incremental" -> "incremental game"
+1653 = 225     # "investigations" -> "investigation"
+50814 = 32538  # "island" -> "islands"
+19521 = 521    # "japanese rpg" -> "jrpg"
+38661 = 25641  # "kpop" -> "k-pop"
+46884 = 23856  # "lgbtq" -> "lgbtq+"
+46795 = 43     # "life simulator" -> "life simulation"
+38855 = 994    # "managment" -> "management"
+23494 = 734    # "match 3 game" -> "match 3"
+3497 = 918     # "math games" -> "math"
+46709 = 167    # "mechs" -> "mech"
+34751 = 274    # "mini game" -> "minigames"
+27691 = 274    # "minigame" -> "minigames"
+43805 = 685    # "minigolf" -> "mini golf"
+42663 = 98     # "monster" -> "monsters"
+53899 = 25792  # "monster taming" -> "monster tamer"
+40694 = 42177  # "monstergirl" -> "monster girls"
+2233 = 4438    # "motion controls" -> "motion control"
+1625 = 4534    # "native americans" -> "native american"
+45058 = 2245   # "nonlinear" -> "non-linear"
+19453 = 2423   # "nonograms" -> "nonogram"
+23338 = 38288  # "old mobile game" -> "old mobile games"
+39201 = 988    # "online coop" -> "online co-op"
+24336 = 1333   # "online game" -> "online"
+46898 = 18595  # "pacman" -> "pac-man"
+43217 = 724    # "penguins" -> "penguin"
+27179 = 1705   # "pixel art game" -> "pixel art"
+39935 = 1705   # "pixelart" -> "pixel art"
+47461 = 34588  # "plants" -> "plant"
+6671 = 1422    # "portal" -> "portals"
+2665 = 4879    # "potions" -> "potion"
+19385 = 9893   # "ps2 classic" -> "ps2 classics"
+512 = 5989     # "quick-time events" -> "quick time event"
+41881 = 902    # "rabbits" -> "rabbit"
+571 = 4412     # "rats" -> "rat"
+43110 = 19205  # "rhythm" -> "rhythm game"
+42040 = 575    # "robot" -> "robots"
+43225 = 1030   # "rollercoaster" -> "roller coaster"
+44946 = 3665   # "ship" -> "ships"
+844 = 166      # "shmup" -> "shoot 'em up"
+50683 = 166    # "shoot'em up" -> "shoot 'em up"
+23548 = 1315   # "short game" -> "short"
+50610 = 1059   # "side scroller" -> "side-scrolling"
+45142 = 1059   # "sidescroller" -> "side-scrolling"
+1068 = 4407    # "skeleton" -> "skeletons"
+52764 = 4730   # "sniper" -> "sniping"
+18162 = 6795   # "snowbarding" -> "snowboarding"
+3645 = 947     # "space ship" -> "spaceship"
+44037 = 947    # "space ships" -> "spaceship"
+44909 = 947    # "spaceships" -> "spaceship"
+39504 = 5124   # "spell caster" -> "spellcaster"
+44540 = 4235   # "spiders" -> "spider"
+19872 = 40     # "spy game" -> "spy"
+51055 = 49618  # "stero sound" -> "stereo sound"
+50536 = 2639   # "strategy rpg" -> "srpg"
+14 = 2387      # "super hero" -> "superhero"
+26347 = 6852   # "super powers" -> "superpowers"
+44244 = 6852   # "superpower" -> "superpowers"
+18712 = 18537  # "sword fight" -> "sword fighting"
+47799 = 2472   # "sword sorcery" -> "sword & sorcery"
+50609 = 2590   # "tactical rpg" -> "tactical rpg ( trpg )"
+38272 = 1821   # "tank game" -> "tank"
+26798 = 24957  # "tcg" -> "trading card game"
+3206 = 6765    # "time trial" -> "time trials"
+38095 = 2803   # "tournaments" -> "tournament"
+3720 = 2590    # "trpg" -> "tactical rpg ( trpg )"
+17371 = 5311   # "twin stick" -> "twin stick control"
+41312 = 38511  # "unoffical demake" -> "unofficial demake"
+574 = 4397     # "upgradable weapons" -> "upgradeable weapons"
+47576 = 1566   # "upgrades" -> "upgrade"
+34908 = 2806   # "warrior" -> "warriors"
+50690 = 1180   # "witch" -> "witches"
+
+# Word regex = its spelling instead, as a template that may refer to the regex's groups
+[igdb.tag_spellings]
+'(\d+(?:\.\d+)?)d' = '\1D'  # "2D", "2.5D", "3D"
+'em' = 'em'  # "Shoot 'em Up"
+'dsi' = 'DSi'
+'dsiware' = 'DSiWare'
+'wiiware' = 'WiiWare'
+'wiiconnect24' = 'WiiConnect24'
+'ique' = 'iQue'
+'psone' = 'PSone'
+'playstation' = 'PlayStation'
+'pocketstation' = 'PocketStation'
+'dualshock' = 'DualShock'
+'dualsense' = 'DualSense'
+'eyetoy' = 'EyeToy'
+'gamecube' = 'GameCube'
+'gamecom' = 'Game.com'
+'gamepass' = 'Game Pass'
+'gametap' = 'GameTap'
+'gamersgate' = 'GamersGate'
+'playchoice' = 'PlayChoice'
+'singstar' = 'SingStar'
+'spotpass' = 'SpotPass'
+'streetpass' = 'StreetPass'
+'smartglass' = 'SmartGlass'
+'smartmedia' = 'SmartMedia'
+'eshop' = 'eShop'
+'e-reader' = 'e-Reader'
+'udraw' = 'uDraw'
+'iwin' = 'iWin'
+'qtai' = 'QTai'
+'n64brew' = 'N64brew'
+'nextfest' = 'Next Fest'
+'retroachievements' = 'RetroAchievements'
+'youtube(r?)' = 'YouTube\1'
+'vtuber' = 'VTuber'
+'softbank' = 'SoftBank'
+'renderware' = 'RenderWare'
+'securom' = 'SecuROM'
+'adlib' = 'AdLib'
+'leapfrog' = 'LeapFrog'
+'onlive' = 'OnLive'
+'novaworld' = 'NovaWorld'
+'indiedb' = 'IndieDB'
+'scummvm' = 'ScummVM'
+'supertux' = 'SuperTux'
+'xband' = 'XBAND'
+'gbjam' = 'GBJam'
+'lowrezjam' = 'LowRezJam'
+'earthbound' = 'EarthBound'
+'spongebob' = 'SpongeBob'
+'wrestlemania' = 'WrestleMania'
+'gplv3' = 'GPLv3'
+'ips' = 'IPs'
+'ltd' = 'Ltd'
+'ms-dos' = 'MS-DOS'
+'mt-32' = 'MT-32'
+'cd-i' = 'CD-i'
+'battle\.net' = 'Battle.net'
+'pve' = 'PvE'
+'pvp' = 'PvP'
+'tvos' = 'tvOS'
+'webos' = 'webOS'
+'kaios' = 'KaiOS'
+'ezweb' = 'EZweb'
+'gog(\.com)?' = 'GOG\1'
+'mccloud' = 'McCloud'
+"mcdonald's" = "McDonald's"
+'mcduck' = 'McDuck'
+"cg's" = "CG's"
+
+# Platform = its actual platform type (1 is a console)
+[igdb.platform_type_overrides]
+47 = 1   # Virtual Console, which IGDB calls a "platform"
+133 = 1  # Odyssey 2 / Videopac G7000, which IGDB calls a computer
+150 = 1  # Turbografx-16/PC Engine CD, which IGDB calls a computer
+377 = 1  # Plug & Play, which IGDB calls a "platform"
+
+# ISO 3166-1 numeric country code = the name that the DAT files use instead of ISO 3166's
+# (in metadat/origin, or else in their `region` fields)
+[igdb.origin_overrides]
+203 = "Czech Republic"  # "Czechia"
+410 = "Korea"           # "South Korea"
+643 = "Russia"          # "Russian Federation"
+826 = "UK"
+840 = "US"
+
+# IGDB genre = the genres the DAT files call it instead (the spelling used by the most playlists' DATs)
+[igdb.genre_overrides]
+2 = "Point & Click"                 # "Point-and-click"
+11 = "RTS"                          # "Real Time Strategy (RTS)"
+13 = "Simulation"                   # "Simulator"
+14 = "Sports"                       # "Sport"
+16 = "Turn-based"                   # "Turn-based strategy (TBS)"
+25 = "Hack and Slash / Beat'em Up"  # "Hack and slash/Beat 'em up"
+26 = "Quiz"                         # "Quiz/Trivia"
+35 = "Board / Card"                 # "Card & Board Game"
+
+# IGDB release region = its name as the DAT files spell it
+[igdb.release_regions]
+1 = "Europe"
+2 = "USA"
+3 = "Australia"
+4 = "New Zealand"
+5 = "Japan"
+6 = "China"
+7 = "Asia"
+8 = "World"
+9 = "Korea"
+10 = "Brazil"
+
+# IGDB's name for an age rating board = which ratings of it to keep (see RatingBoard)
+# IGDB release regions: 1 europe, 2 north_america, 5 japan, 8 worldwide
+[igdb.rating_boards.ESRB]
+field = "esrb_rating"
+founded = 1994
+regions = [2, 8]
+
+[igdb.rating_boards.PEGI]
+field = "pegi_rating"
+founded = 2003
+regions = [1, 8]
+
+[igdb.rating_boards.CERO]
+field = "cero_rating"
+founded = 2002
+regions = [5, 8]
+
+# How scripts/match.py interprets Hasheous's data (see HasheousConfig)
+[hasheous]
+# RetroAchievements' lists of the cheated (trainer) ROMs it refuses,
+# whose ROMs Hasheous also files under unrelated games:
+# "A Cheated ROM" for SNES, SMD, SMS and GBA, and "Yoda Stories" (311503) for Game Boy.
+ignored_games = [259657, 262753, 309866, 601955, 311503]
+
+# Country code = the region's name as the DAT files spell it
+[hasheous.regions_by_country_code]
+US = "USA"
+EU = "Europe"
+World = "World"
+GB = "United Kingdom"
+UK = "United Kingdom"
+KR = "Korea"
+AS = "Asia"
+Asia = "Asia"
+asi = "Asia"
+wor = "World"
+MEX = "Mexico"
+
+# How scripts/match.py reads and spells the regions that DAT files name (see RegionConfig)
+[regions]
+# Regions that a No-Intro or Redump name may list besides those in [regions.igdb]
+known = [
+    "Argentina", "Belarus", "Bosnia and Herzegovina", "Chile", "Croatia", "Czech Republic",
+    "Estonia", "Hungary", "Iceland", "India", "Ireland", "Israel", "Latin America", "Latvia",
+    "Lithuania", "Mexico", "Peru", "Romania", "Serbia", "Singapore", "Slovakia", "Slovenia",
+    "South Africa", "Turkey", "Ukraine", "United Arab Emirates", "Yugoslavia",
+]
+
+# Region that DAT files name (mostly No-Intro's) = the IGDB release regions it maps to
+# IGDB release regions: 1 europe, 2 north_america, 3 australia, 4 new_zealand, 5 japan,
+# 6 china, 7 asia, 8 worldwide, 9 korea, 10 brazil
+[regions.igdb]
+USA = [2]
+Canada = [2]
+Europe = [1]
+UK = [1]
+"United Kingdom" = [1]
+Germany = [1]
+France = [1]
+Spain = [1]
+Italy = [1]
+Netherlands = [1]
+Sweden = [1]
+Scandinavia = [1]
+Denmark = [1]
+Norway = [1]
+Finland = [1]
+Poland = [1]
+Portugal = [1]
+Greece = [1]
+Austria = [1]
+Switzerland = [1]
+Belgium = [1]
+Russia = [1]
+Japan = [5]
+Australia = [3]
+"New Zealand" = [4]
+China = [6]
+"Hong Kong" = [6, 7]
+Taiwan = [7]
+Asia = [7]
+Korea = [9]
+Brazil = [10]
+World = [8]
+
+# Region name = how the DAT files' own `region` fields spell it instead
+# Most of the DAT files spell the UK "United Kingdom", even though No-Intro names use "(UK)".
+[regions.aliases]
+UK = "United Kingdom"
+"United States" = "USA"
+Worldwide = "World"
+"South Korea" = "Korea"
+
+# Region = the languages its releases are normally in, for the regions that have only one or two
+[regions.languages]
+USA = ["English"]
+"United Kingdom" = ["English"]
+Ireland = ["English"]
+Australia = ["English"]
+"New Zealand" = ["English"]
+Canada = ["English", "French"]
+Japan = ["Japanese"]
+Korea = ["Korean"]
+China = ["Chinese"]
+Taiwan = ["Chinese"]
+"Hong Kong" = ["Chinese", "English"]
+Germany = ["German"]
+Austria = ["German"]
+France = ["French"]
+Spain = ["Spanish"]
+Mexico = ["Spanish"]
+Argentina = ["Spanish"]
+Italy = ["Italian"]
+Netherlands = ["Dutch"]
+Portugal = ["Portuguese"]
+Brazil = ["Portuguese"]
+Sweden = ["Swedish"]
+Denmark = ["Danish"]
+Norway = ["Norwegian"]
+Finland = ["Finnish"]
+Poland = ["Polish"]
+Russia = ["Russian"]
+Greece = ["Greek"]
+"Czech Republic" = ["Czech"]
+Hungary = ["Hungarian"]
+Turkey = ["Turkish"]
+
+# See https://api-docs.igdb.com#filter for details about how to use filters in IGDB queries.
+# (The "where" fields are passed to the API as-is)
+
+[[playlists]]
+title = "Amstrad - CPC"
+alts = ["Amstrad - CPC - clean-cpc-db"]
+hasheous = ["Amstrad CPC"]
+
+# NOTE: The "= (number)" syntax means "includes this value and possibly others"
+igdb.where = "platforms = (25)"
+
+[[playlists]]
+title = "Amstrad - GX4000"
+hasheous = ["Amstrad GX4000"]
+igdb.where = "platforms = (506)"
+
+[[playlists]]
+title = "Arduboy Inc - Arduboy"
+hasheous = ["Arduboy"]
+igdb.where = "platforms = (438)"
+
+[[playlists]]
+title = "Atari - Jaguar"
+hasheous = ["Atari Jaguar"]
+igdb.where = "platforms = (62)"
+
+[[playlists]]
+title = "Atari - Jaguar CD"
+hasheous = ["Atari Jaguar"]
+igdb.where = "platforms = (410)"
+
+[[playlists]]
+title = "Atari - Lynx"
+hasheous = ["Atari Lynx"]
+igdb.where = "platforms = (61)"
+
+[[playlists]]
+title = "Atari - ST"
+# "_" is a stand-in for "/" in Hasheous dump names
+hasheous = ["Atari ST_STE"]
+igdb.where = "platforms = (63)"
+
+[[playlists]]
+title = "Atari - 2600"
+hasheous = ["Atari 2600"]
+igdb.where = "platforms = (59)"
+
+[[playlists]]
+title = "Atari - 5200"
+hasheous = ["Atari 5200"]
+igdb.where = "platforms = (66)"
+
+[[playlists]]
+title = "Atari - 7800"
+hasheous = ["Atari 7800"]
+igdb.where = "platforms = (60)"
+
+[[playlists]]
+title = "Atari - 8-bit Family"
+hasheous = ["Atari 8-bit"]
+igdb.where = "platforms = (65)"
+
+# TODO: IGDB hasn't tagged all Atomiswave games with the Atomiswave platform, this query is incomplete
+[[playlists]]
+title = "Atomiswave"
+igdb.where = "game_engines = (970)"
+hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Bandai - WonderSwan"
+hasheous = ["Bandai WonderSwan"]
+alts = ["WonderSwan hacks"]
+igdb.where = "platforms = (57)"
+
+[[playlists]]
+title = "Bandai - WonderSwan Color"
+hasheous = ["Bandai WonderSwan Color"]
+alts = ["WonderSwan Color hacks"]
+igdb.where = "platforms = (123)"
+
+[[playlists]]
+title = "Cannonball"
+igdb.where = "id = 2051"
+hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Casio - Loopy"
+hasheous = ["Casio Loopy"]
+igdb.where = "platforms = (380)"
+
+# IGDB lacks a platform entry for the Casio PV-1000
+# [[playlists]]
+# title = "Casio - PV-1000"
+# hasheous = ["Casio PV-1000"]
+
+[[playlists]]
+title = "Cave Story"
+igdb.where = "id = 6189"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+# IGDB lacks a platform entry for ChaiLove
+# [[playlists]]
+# title = "ChaiLove"
+
+# IGDB lacks a platform entry for the CHIP-8
+# [[playlists]]
+# title = "CHIP-8"
+
+[[playlists]]
+title = "Coleco - ColecoVision"
+hasheous = ["ColecoVision"]
+igdb.where = "platforms = (68)"
+
+[[playlists]]
+title = "Commodore - Amiga"
+hasheous = ["Commodore Amiga"]
+alts = ["Commodore - Amiga - WHDLoad"]
+igdb.where = "platforms = (16)"
+
+[[playlists]]
+title = "Commodore - CD32"
+hasheous = ["Commodore CD32"]
+igdb.where = "platforms = (114)"
+
+[[playlists]]
+title = "Commodore - CDTV"
+hasheous = ["Commodore CDTV"]
+igdb.where = "platforms = (158)"
+
+[[playlists]]
+title = "Commodore - PET"
+hasheous = ["Commodore PET"]
+igdb.where = "platforms = (90)"
+
+[[playlists]]
+title = "Commodore - Plus-4"
+hasheous = ["Commodore Plus_4"]
+igdb.where = "platforms = (94)"
+
+[[playlists]]
+title = "Commodore - VIC-20"
+hasheous = ["Commodore VIC20"]
+igdb.where = "platforms = (71)"
+
+[[playlists]]
+title = "Commodore - 64"
+hasheous = ["Commodore 64"]
+igdb.where = "platforms = (15)"
+
+# TODO: "DICE" playlist
+# [[playlists]]
+# title = "DICE"
+# hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Dinothawr"
+# Dinothawr or the Sokoban mod
+igdb.where = "id = (62332, 305555)"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "DOOM"
+igdb.where = "game_engines = (116)"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "DOS"
+igdb.where = "platforms = (13)"
+# Hasheous classifies most DOS games as "Microsoft Windows"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "Elektor - TV Games Computer"
+igdb.where = "platforms = (505)"
+# Hasheous lists no ROMs specifically for this platform,
+# but maybe some of them are in the "Unknown Platform" dump
+
+[[playlists]]
+title = "Emerson - Arcadia 2001"
+hasheous = ["Emerson Arcadia 2001"]
+igdb.where = "platforms = (473)"
+
+# IGDB lacks a platform entry for the Entex Adventure Vision
+# [[playlists]]
+# title = "Entex - Adventure Vision"
+# hasheous = ["Entex Adventure Vision"]
+
+# IGDB lacks a platform entry for the Enterprise 128
+# [[playlists]]
+# title = "Enterprise - 128"
+# hasheous = ["Enterprise 64 & 128"]
+
+[[playlists]]
+title = "Epoch - Super Cassette Vision"
+hasheous = ["Epoch Super Cassette Vision"]
+igdb.where = "platforms = (376)"
+
+[[playlists]]
+title = "Fairchild - Channel F"
+hasheous = ["Fairchild Channel F"]
+igdb.where = "platforms = (127)"
+
+# TODO: FBNeo doesn't support ALL arcade games, need to refine the query
+[[playlists]]
+title = "FBNeo - Arcade Games"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "Flashback"
+igdb.where = "id = 4275"
+hasheous = ["Microsoft Windows", "Microsoft DOS"]
+
+[[playlists]]
+title = "Funtech - Super Acan"
+hasheous = ["Funtech Super A'can"]
+igdb.where = "platforms = (480)"
+
+# IGDB lacks a `platforms` entry for the GP32
+# [[playlists]]
+# title = "GamePark - GP32"
+# hasheous = ["GamePark GP32"]
+
+[[playlists]]
+title = "GCE - Vectrex"
+hasheous = ["Vectrex"]
+igdb.where = "platforms = (70)"
+
+[[playlists]]
+title = "Handheld Electronic Game"
+hasheous = ["Nintendo Game & Watch"]
+# Game & Watch, Handheld LCD games
+igdb.where = "platforms = (307, 411) & parent_game != (38010, 38147, 48725, 198871, 198934, 217728, 308060, 308062, 336716)"
+# ...but exclude cards for various collectible games (mostly Barcode Battler and Mega Man Battle Network).
+
+[[playlists]]
+title = "Infocom - Z-Machine"
+hasheous = ["Infocom Z-Machine", "Microsoft DOS", "Microsoft Windows"]
+igdb.where = "game_engines = (71)"
+
+[[playlists]]
+title = "Interton - VC 4000"
+hasheous = ["Interton - VC 4000"]
+igdb.where = "platforms = (138)"
+
+# IGDB lacks a `platforms` entry for the Hartung Game Master
+# [[playlists]]
+# title = "Hartung - Game Master"
+# hasheous = ["Hartung Game Master"]
+
+[[playlists]]
+title = "MAME"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2000"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2003"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2003-Plus"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2010"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2015"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+[[playlists]]
+title = "MAME 2016"
+hasheous = ["Arcade", "Neo Geo"]
+# Arcade games, Neo Geo MVS, Neo Geo AES
+igdb.where = "platforms = (52, 79, 80)"
+
+# TODO: Add the levels to the playlist somehow (individual level packs don't have IGDB entries)
+[[playlists]]
+title = "Jump 'n Bump"
+igdb.where = "id = 19226"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "LeapFrog - Leapster Learning Game System"
+igdb.where = "platforms = (412)"
+
+[[playlists]]
+title = "LowRes NX"
+igdb.where = "game_engines = (1672)"
+
+[[playlists]]
+title = "Magnavox - Odyssey2"
+hasheous = ["Magnavox Odyssey 2"]
+alts = ["Magnavox - Odyssey 2"]
+igdb.where = "platforms = (133)"
+
+[[playlists]]
+title = "Mattel - Intellivision"
+hasheous = ["Mattel Intellivision"]
+igdb.where = "platforms = (67)"
+
+[[playlists]]
+title = "Microsoft - MSX"
+hasheous = ["MSX"]
+igdb.where = "platforms = (27)"
+
+[[playlists]]
+title = "Microsoft - MSX2"
+hasheous = ["MSX 2"]
+alts = ["Microsoft - MSX 2"]
+igdb.where = "platforms = (53)"
+
+[[playlists]]
+title = "Microsoft - Xbox"
+hasheous = ["Microsoft Xbox"]
+igdb.where = "platforms = (11)"
+
+[[playlists]]
+title = "MicroW8"
+igdb.where = "game_engines = (1671)"
+
+[[playlists]]
+title = "Mobile - J2ME"
+hasheous = ["Mobile - J2ME"]
+igdb.where = "game_engines = (590)"
+
+[[playlists]]
+title = "MrBoom"
+igdb.where = "id = 46621"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "NEC - PC Engine - TurboGrafx 16"
+hasheous = ["TurboGrafx-16_PC Engine"]
+alts = ["PC Engine hacks"]
+igdb.where = "platforms = (86)"
+
+[[playlists]]
+title = "NEC - PC Engine CD - TurboGrafx-CD"
+hasheous = ["TurboGrafx-16_PC Engine"]
+igdb.where = "platforms = (150)"
+
+[[playlists]]
+title = "NEC - PC Engine SuperGrafx"
+hasheous = ["NEC SuperGrafx"]
+igdb.where = "platforms = (128)"
+
+[[playlists]]
+title = "NEC - PC-8001 - PC-8801"
+hasheous = ["NEC PC-8001"]
+igdb.where = "platforms = (125)"
+
+[[playlists]]
+title = "NEC - PC-98"
+igdb.where = "platforms = (149)"
+
+[[playlists]]
+title = "NEC - PC-FX"
+igdb.where = "platforms = (274)"
+hasheous = ["NEC - PC-FX & PC-FXGA"]
+
+[[playlists]]
+title = "Nintendo - e-Reader"
+hasheous = ["Nintendo Game Boy Advance"]
+igdb.where = "platforms = (510)"
+
+[[playlists]]
+title = "Nintendo - Family Computer Disk System"
+hasheous = ["Nintendo Famicom Disk System", "Family Computer Disk System"]
+alts = ["Nintendo - Famicom Disk System"]
+igdb.where = "platforms = (51)"
+
+[[playlists]]
+title = "Nintendo - Game Boy"
+hasheous = ["Nintendo Game Boy"]
+alts = ["Game Boy hacks"]
+igdb.where = "platforms = (33)"
+
+[[playlists]]
+title = "Nintendo - Game Boy Advance"
+hasheous = ["Nintendo Game Boy Advance"]
+alts = ["Game Boy Advance hacks"]
+igdb.where = "platforms = (24)"
+
+[[playlists]]
+title = "Nintendo - Game Boy Color"
+hasheous = ["Nintendo Game Boy Color"]
+alts = ["Game Boy Color hacks"]
+igdb.where = "platforms = (22)"
+
+[[playlists]]
+title = "Nintendo - GameCube"
+hasheous = ["Nintendo GameCube"]
+igdb.where = "platforms = (21)"
+id_type = "serial"
+
+[[playlists]]
+title = "Nintendo - Nintendo DS"
+hasheous = ["Nintendo DS"]
+alts = ["Nintendo - Nintendo DS (Download Play)", "Nintendo DS hacks"]
+igdb.where = "platforms = (20)"
+
+[[playlists]]
+title = "Nintendo - Nintendo DSi"
+hasheous = ["Nintendo DSi"]
+igdb.where = "platforms = (159)"
+
+[[playlists]]
+title = "Nintendo - Nintendo Entertainment System"
+hasheous = ["Nintendo Entertainment System"]
+# NES or Famicom
+igdb.where = "platforms = (18, 99)"
+alts = ["NES hacks"]
+
+[[playlists]]
+title = "Nintendo - Nintendo 3DS"
+hasheous = ["Nintendo 3DS", "Nintendo New 3DS"]
+alts = ["Nintendo - New Nintendo 3DS", "Nintendo - New Nintendo 3DS (Digital)"]
+# Nintendo 3DS or New Nintendo 3DS
+igdb.where = "platforms = (37, 137)"
+
+[[playlists]]
+title = "Nintendo - Nintendo 64"
+hasheous = ["Nintendo 64"]
+alts = ["N64 hacks", "Nintendo - Nintendo 64 (BigEndian)", "Nintendo - Nintendo 64 (ByteSwapped)"]
+igdb.where = "platforms = (4)"
+
+[[playlists]]
+title = "Nintendo - Nintendo 64DD"
+hasheous = ["Nintendo 64DD"]
+igdb.where = "platforms = (416)"
+
+[[playlists]]
+title = "Nintendo - Pokemon Mini"
+hasheous = ["Nintendo Pokemon Mini"]
+igdb.where = "platforms = (166)"
+
+[[playlists]]
+title = "Nintendo - Satellaview"
+hasheous = ["Nintendo Satellaview"]
+igdb.where = "platforms = (306)"
+
+[[playlists]]
+title = "Nintendo - Sufami Turbo"
+hasheous = ["Nintendo Sufami Turbo"]
+# SNES or Super Famicom,
+# and has the "sufami turbo" keyword (and possibly others)
+# or its summary contains "sufami turbo" (any case) in the middle.
+# (IGDB has separate platform entries for the SNES (19) and Super Famicom (58))
+igdb.where ='platforms = (19, 58) & (keywords = (29241) | summary ~ *"sufami turbo"*)'
+
+[[playlists]]
+title = "Nintendo - Super Nintendo Entertainment System"
+hasheous = ["Nintendo Super Nintendo Entertainment System"]
+alts = ["SNES hacks"]
+# SNES or Super Famicom, and does not have the "sufami turbo" keyword
+igdb.where ='platforms = (19, 58) & keywords != (29241)'
+
+[[playlists]]
+title = "Nintendo - Virtual Boy"
+hasheous = ["Nintendo Virtual Boy"]
+igdb.where = "platforms = (87)"
+
+[[playlists]]
+title = "Nintendo - Wii"
+hasheous = ["Nintendo Wii"]
+# Released for the Wii and does not include the keywords listed in the comment below
+igdb.where = "platforms = (5) & keywords != (4134, 4522, 27078, 27629, 43725)"
+id_type = "serial"
+
+[[playlists]]
+title = "Nintendo - Wii (Digital)"
+hasheous = ["Nintendo Wii"]
+# Released for the Wii
+# and includes the keywords "digital distribution" (4134), "virtual console" (4522),
+# "wiiware" (27078), "wii virtual console" (27629), or "digital distribution only" (43725)
+igdb.where = "platforms = (5) & keywords = (4134, 4522, 27078, 27629, 43725)"
+
+[[playlists]]
+title = "Nintendo - Wii U"
+hasheous = ["Nintendo WiiU"]
+igdb.where = "platforms = (41)"
+id_type = "serial"
+
+[[playlists]]
+title = "Philips - CD-i"
+hasheous = ["Philips CD-i"]
+igdb.where = "platforms = (117)"
+id_type = "serial"
+
+[[playlists]]
+title = "Philips - Videopac+"
+hasheous = ["Philips - Videopac+"]
+igdb.where = "platforms = (133)"
+
+[[playlists]]
+title = "PICO-8"
+igdb.where = "game_engines = (829)"
+
+[[playlists]]
+title = "PuzzleScript"
+igdb.where = "game_engines = (831)"
+
+[[playlists]]
+title = "Quake"
+# Quake (not the game engine, but the original game; Quake II uses the same engine)
+igdb.where = "id = 333"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "Quake II"
+igdb.where = "id = 286"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "Quake III"
+igdb.where = "id = 355"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+# IGDB lacks a `platforms` entry for the RCA Studio II
+# [[playlists]]
+# title = "RCA - Studio II"
+# hasheous = ["RCA Studio II"]
+
+[[playlists]]
+title = "Rick Dangerous"
+igdb.where = "id = 12202"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+[[playlists]]
+title = "RPG Maker"
+# RPG Maker 2000, RPG Maker 2003
+igdb.where = "game_engines = (696, 765)"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+# ScummVM supports games from a ton of engines (not just SCUMM),
+# including ports from different platforms (e.g. DOS, Amiga, Atari ST).
+# However, not every game engine that ScummVM supports has an entry in IGDB.
+# Even for those engines that do have an entry,
+# not every game that uses it is tagged properly.
+# See https://wiki.scummvm.org/index.php?title=Engines for a list of supported engines.
+[[playlists]]
+title = "ScummVM"
+# Made with one of the following:
+# - 31: AGS (Adventure Game Studio)
+# - 39: SCI1.1
+# - 53: SCUMM (LucasArts)
+# - 71: Z-Machine
+# - 77: AGOS (Adventure Graphic Operating System)
+# - 96: SAGA
+# - 101: Virtual Theatre
+# - 102: Virtools Engine
+# - 111: Groovie
+# - 132: Voxel Plus
+# - 142: AGI (Adventure Game Interpreter)
+# - 143: SCI (Sierra Creative Interpreter)
+# - 145: GrimE (Grim Engine)
+# - 164: MacVenture
+# - 178: HPL
+# - 199: Macromedia Director 2.0
+# - 238: Sprint
+# - 269: Freescape
+# - 270: Cinematique
+# - 279: HPL Engine
+# - 289: Wintermute
+# - 329: MADE (Multimedia Applications Development Environment)
+# - 534: SCI0
+# - 535: SCI1
+# - 536: SCI
+# - 589: Macromedia Director
+# - 664: Asylum
+# - 774: Mohawk
+# - 1067: Text Adventure Development System (TADS)
+# - 1068: Hugo
+# - 1129: AGT (Adventure Game Toolkit)
+# - 1158: V-Cruise
+# - 1376: SLUDGE
+# - 1474: World Builder
+# OR it has one of the following keywords:
+# - "scumm" (14178)
+# - "virtools" (43693)
+# - "scummvm compatible" (50501)
+igdb.where = "game_engines = (31, 39, 53, 71, 77, 96, 101, 102, 111, 132, 142, 143, 145, 164, 178, 199, 238, 269, 270, 279, 289, 329, 534, 535, 536, 589, 664, 774, 1067, 1068, 1129, 1158, 1376, 1474) | keywords = (14178, 43693, 50501)"
+hasheous = ["Microsoft DOS", "Microsoft Windows", "Atari ST_STE", "Commodore Amiga", "Apple Mac"]
+
+[[playlists]]
+title = "Sega - Dreamcast"
+hasheous = ["Sega Dreamcast"]
+igdb.where = "platforms = (23)"
+id_type = "serial"
+
+[[playlists]]
+title = "Sega - Game Gear"
+hasheous = ["Sega Game Gear"]
+alts = ["Game Gear hacks"]
+igdb.where = "platforms = (35)"
+
+[[playlists]]
+title = "Sega - Master System - Mark III"
+hasheous = ["Sega Master System"]
+alts = ["Master System hacks"]
+igdb.where = "platforms = (64)"
+
+[[playlists]]
+title = "Sega - Mega Drive - Genesis"
+hasheous = ["Sega Mega Drive _ Genesis"]
+alts = ["Mega Drive hacks"]
+igdb.where = "platforms = (29)"
+
+[[playlists]]
+title = "Sega - Mega-CD - Sega CD"
+hasheous = ["Sega Mega CD _ Sega CD"]
+# Sega CD, Sega CD 32X (informal name for games that needed both the Sega CD and 32X)
+# (libretro records Sega CD 32X games in the Sega CD playlist)
+igdb.where = "platforms =  (78, 482)"
+id_type = "serial"
+
+# Naomi is a hardware platform but has a game engine entry for some reason
+[[playlists]]
+title = "Sega - Naomi"
+igdb.where = "game_engines = (940)"
+id_type = "serial"
+hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Sega - PICO"
+hasheous = ["Sega Pico"]
+igdb.where = "platforms = (339)"
+
+[[playlists]]
+title = "Sega - Saturn"
+hasheous = ["Sega Saturn"]
+alts = ["Saturn hacks"]
+igdb.where = "platforms = (32)"
+id_type = "serial"
+
+# Sega ST-V is a hardware platform but has a game engine entry for some reason
+# TODO: IGDB's ST-V entry is incomplete, this query needs to be expanded
+[[playlists]]
+title = "Sega - ST-V"
+igdb.where = "game_engines = (1780)"
+hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Sega - SG-1000"
+hasheous = ["Sega SG-1000"]
+igdb.where = "platforms = (84)"
+
+# Games that need both the Sega CD and 32X are included in the Sega CD playlist
+[[playlists]]
+title = "Sega - 32X"
+hasheous = ["Sega 32X"]
+alts = ["Sega - 32x", "32x hacks"]
+igdb.where = "platforms = (30)"
+
+# TODO: IGDB lacks a `platforms` and `game_engines` entry for the Naomi 2,
+#  and the games that used it aren't tagged properly
+# [[playlists]]
+# title = "Sega - Naomi 2"
+# hasheous = ["Arcade"]
+
+[[playlists]]
+title = "Sharp - X1"
+hasheous = ["Sharp X1"]
+igdb.where = "platforms = (77)"
+
+[[playlists]]
+title = "Sharp - X68000"
+hasheous = ["Sharp X68000"]
+igdb.where = "platforms = (121)"
+
+[[playlists]]
+title = "Sinclair - ZX 81"
+hasheous = ["Sinclair ZX81"]
+igdb.where = "platforms = (373)"
+
+[[playlists]]
+title = "Sinclair - ZX Spectrum"
+hasheous = ["Sinclair ZX Spectrum"]
+igdb.where = "platforms = (26)"
+
+# TODO: "Sinclair - ZX Spectrum +3" playlist
+# [[playlists]]
+# title = "Sinclair - ZX Spectrum +3"
+
+[[playlists]]
+title = "SNK - Neo Geo"
+# Neo Geo MVS, Neo Geo AES
+hasheous = ["Neo Geo", "Arcade"]
+igdb.where = "platforms = (79, 80)"
+
+[[playlists]]
+title = "SNK - Neo Geo Pocket"
+hasheous = ["Neo Geo Pocket"]
+alts = ["Neo Geo Pocket hacks"]
+igdb.where = "platforms = (119)"
+
+[[playlists]]
+title = "SNK - Neo Geo Pocket Color"
+hasheous = ["Neo Geo Pocket Color"]
+igdb.where = "platforms = (120)"
+
+[[playlists]]
+title = "SNK - Neo Geo CD"
+hasheous = ["Neo Geo CD"]
+igdb.where = "platforms = (136)"
+
+[[playlists]]
+title = "Sony - PlayStation"
+hasheous = ["Sony PlayStation"]
+alts = ["PlayStation hacks"]
+igdb.where = "platforms = (7)"
+id_type = "serial"
+
+[[playlists]]
+title = "Sony - PlayStation Portable"
+# NOTE: Some hasheous dumps spell it as "Playstation", others as "PlayStation" (note the S)
+hasheous = ["Sony Playstation Portable"]
+alts = ["PlayStation Portable hacks", "Sony - PlayStation Portable (PSX2PSP)", "Sony - PlayStation Portable (UMD Music)", "Sony - PlayStation Portable (UMD Video)"]
+id_type = "serial"
+
+# PSP, without the "playstation minis" (4435) keyword
+# (some PSP games were later released on other platforms' digital storefronts,
+# so excluding the "digital distribution" keyword isn't enough)
+igdb.where = "platforms = (38) & keywords != (4435)"
+
+[[playlists]]
+title = "Sony - PlayStation Portable (PSN)"
+hasheous = ["Sony Playstation Portable"]
+# PSP, with keywords "playstation network" (2543), "digital distribution" (4134), or "playstation minis" (4435)
+igdb.where = "platforms = (38) & keywords = (2543, 4134, 4435)"
+
+[[playlists]]
+title = "Sony - PlayStation Vita"
+hasheous = ["Sony PlayStation Vita"]
+igdb.where = "platforms = (46)"
+id_type = "serial"
+
+[[playlists]]
+title = "Sony - PlayStation 2"
+hasheous = ["Sony PlayStation 2"]
+alts = ["PlayStation 2 hacks"]
+igdb.where = "platforms = (8)"
+id_type = "serial"
+
+[[playlists]]
+title = "Sony - PlayStation 3"
+hasheous = ["Sony Playstation 3"]
+igdb.where = "platforms = (9)"
+id_type = "serial"
+
+# TODO: "Sony - PlayStation 3 (PSN)" playlist
+# [[playlists]]
+# title = "Sony - Playstation 3 (PSN)"
+
+# IGDB lacks an entry for the Spectravideo SVI series
+# [[playlists]]
+# title = "Spectravideo - SVI-318 - SVI-328"
+
+[[playlists]]
+title = "The 3DO Company - 3DO"
+hasheous = ["3DO Interactive Multiplayer"]
+igdb.where = "platforms = (50)"
+
+[[playlists]]
+title = "TIC-80"
+igdb.where = "game_engines = (975)"
+
+[[playlists]]
+title = "Thomson - MOTO"
+igdb.where = "platforms = (156)"
+
+[[playlists]]
+title = "Tiger - Game.com"
+hasheous = ["Tiger Electronics Game.com"]
+igdb.where = "platforms = (379)"
+
+[[playlists]]
+title = "Tomb Raider"
+# Tomb Raider, either using the OpenLara engine (1551) or the original games
+igdb.where = "game_engines = (1551) | id = (912, 1156, 1157)"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
+
+# IGDB lacks an entry for the VTech CreatiVision
+# [[playlists]]
+# title = "VTech - CreatiVision"
+# hasheous = ["VTech - CreatiVision"]
+
+[[playlists]]
+title = "VTech - V.Smile"
+hasheous = ["VTech - V.Smile", "V.Smile"]
+igdb.where = "platforms = (439)"
+
+[[playlists]]
+title = "Uzebox"
+igdb.where = "platforms = (504)"
+
+[[playlists]]
+title = "Vircon32"
+igdb.where = "game_engines = (1632)"
+
+[[playlists]]
+title = "WASM-4"
+igdb.where = "game_engines = (1556)"
+
+[[playlists]]
+title = "Watara - Supervision"
+hasheous = ["Watara Supervision"]
+igdb.where = "platforms = (415)"
+
+[[playlists]]
+title = "Wolfenstein 3D"
+# Wolfenstein 3D, or any game that uses its engine
+igdb.where = "game_engines = (246)"
+hasheous = ["Microsoft DOS", "Microsoft Windows"]
