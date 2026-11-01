@@ -1,815 +1,1215 @@
 clrmamepro (
 	name "WASM-4"
 	description "WASM-4"
-	version "2022.2.11"
+	version "2026.10.31"
 	author "libretro"
-    homepage "https://github.com/robloach/libretro-database-wasm-4"
+	homepage "https://github.com/robloach/libretro-database-wasm-4"
 )
 
 game (
-    name "2048"
-    description "2048"
-    developer "peterhellberg"
-    homepage "https://wasm4.org/play/2048"
-    rom ( name "2048.wasm" size "12469" crc "4945cb9d" )
+	name "2048"
+	description "2048"
+	developer "Peter Hellberg"
+	homepage "https://wasm4.org/play/2048"
+	rom ( name "2048.wasm" size 12469 crc 4945CB9D )
 )
 
 game (
-    name "Antcopter"
-    description "A submission to the WASM-4 game jam."
-    developer "edubart"
-    homepage "https://wasm4.org/play/antcopter"
-    rom ( name "antcopter.wasm" size "33454" crc "5d29e063" )
+	name "Annoying Robots"
+	description "A compact WASM-4 adaptation of an old board game. How to play Lead your team of robots across the board and try to reach the opposite side before your"
+	developer "Shimon Ulewicz"
+	homepage "https://wasm4.org/play/annoyingrobots"
+	rom ( name "Annoying Robots.wasm" size 18398 crc D52B9EF2 )
 )
 
 game (
-    name "Assemblio"
-    description "A submission to the WASM-4 game jam."
-    developer "luehmann"
-    homepage "https://wasm4.org/play/assemblio"
-    rom ( name "assemblio.wasm" size "32837" crc "33d2af45" )
+	name "Antcopter"
+	description "A submission to the WASM-4 game jam."
+	developer "Eduardo Bart"
+	homepage "https://wasm4.org/play/antcopter"
+	rom ( name "Antcopter.wasm" size 33454 crc 5D29E063 )
 )
 
 game (
-    name "Big Space Iron"
-    description "A submission to the WASM-4 game jam."
-    developer "ghost"
-    homepage "https://wasm4.org/play/big-space-iron"
-    rom ( name "big-space-iron.wasm" size "46377" crc "2900a163" )
+	name "Apple Game"
+	description "A fast-paced survival and reflex game developed in C for the WASM-4 fantasy console. You control an apple and must escape from hungry snakes across 6"
+	developer "João Gabriel de Campos Nassar"
+	homepage "https://wasm4.org/play/apple-game"
+	rom ( name "Apple Game.wasm" size 4896 crc 5FDCFCEA )
 )
 
 game (
-    name "Bombfighters"
-    description "Player vs Player game where you try to explode your oponents! Let the best player win!  InspiredBased on multiplayer modes in 2d Bomberman games.  Sou"
-    developer "Patbox"
-    homepage "https://wasm4.org/play/bombfighters"
-    rom ( name "bombfighters.wasm" size "39803" crc "a285e3b1" )
+	name "Assemblio"
+	description "A submission to the WASM-4 game jam."
+	developer "Philipp Lühmann"
+	homepage "https://wasm4.org/play/assemblio"
+	rom ( name "Assemblio.wasm" size 32837 crc 33D2AF45 )
 )
 
 game (
-    name "Break-It"
-    description "This is a little breakout clone that should be simple and familiar to play.  Cycle through the 5 levels to get the high score, but beware! The game sp"
-    developer "douglett"
-    homepage "https://wasm4.org/play/break-it"
-    rom ( name "break-it.wasm" size "7218" crc "93f39c3c" )
+	name "Big Space Iron"
+	description "A submission to the WASM-4 game jam."
+	developer "kzerot"
+	homepage "https://wasm4.org/play/big-space-iron"
+	rom ( name "Big Space Iron.wasm" size 46377 crc 2900A163 )
 )
 
 game (
-    name "Bubblewrap"
-    description "Written in rust. The music was created with RustMusic4Wasm4 and MuseScore. Move with left and right and shoot with up"
-    developer "yesseri"
-    homepage "https://wasm4.org/play/bubblewrap"
-    rom ( name "bubblewrap.wasm" size "8265" crc "fe1a8404" )
+	name "Bombfighters"
+	description "Player vs Player game where you try to explode your oponents! Let the best player win! Inspired/Based on multiplayer modes in 2d Bomberman games. Sour"
+	developer "Patbox"
+	homepage "https://wasm4.org/play/bombfighters"
+	rom ( name "Bombfighters.wasm" size 39803 crc A285E3B1 )
 )
 
 game (
-    name "It's Corn!"
-    description "Made in a little over a day for GBJam 10, as a proof of concept for my esoteric programming language, Penne.  Controls arrow keys to move, X for a boo"
-    developer "SLiV9"
-    homepage "https://wasm4.org/play/corn"
-    rom ( name "corn.wasm" size "8781" crc "e6032448" )
+	name "Break-It"
+	description "This is a little breakout clone that should be simple and familiar to play. Cycle through the 5 levels to get the high score, but beware! The game spe"
+	developer "douglett"
+	homepage "https://wasm4.org/play/break-it"
+	rom ( name "Break-It.wasm" size 7218 crc 93F39C3C )
 )
 
 game (
-    name "Dashy Dango"
-    description "Dashy Dango a wave fighting game made with WASM-4 by @samX500 and @willGuimont.  Help the Dango survive by fighting waves of enemies. Dash into enemie"
-    developer "samX500"
-    homepage "https://wasm4.org/play/dashy-dango"
-    rom ( name "dashy-dango.wasm" size "47101" crc "a2c162ad" )
+	name "Bubblewrap"
+	description "Written in rust. The music was created with RustMusic4Wasm4 and MuseScore. Move with left and right and shoot with up."
+	developer "Henrik Zenkert"
+	homepage "https://wasm4.org/play/bubblewrap"
+	rom ( name "Bubblewrap.wasm" size 8265 crc FE1A8404 )
 )
 
 game (
-    name "disk-0 MADNESS"
-    description "A submission to the WASM-4 Game Jam #2.  .  Objective Avoid enemies that have a different color than yours and absorb the ones"
-    developer "maxcurzi"
-    homepage "https://wasm4.org/play/disk-0-madness"
-    rom ( name "disk-0-madness.wasm" size "54280" crc "1def0ba6" )
+	name "comic-sans"
+	description "Prepare for a relentless challenge in Comic-Sans, a fan-made survival game where every second counts, inspired by an iconic final battle. Gameplay & I"
+	developer "Eduardo Minholi, Nuno Abilio"
+	homepage "https://wasm4.org/play/comic-sans"
+	rom ( name "comic-sans.wasm" size 33084 crc 647138D7 )
 )
 
 game (
-    name "Dodgeball"
-    description "Dodgeball"
-    developer "sliv9"
-    homepage "https://wasm4.org/play/dodgeball"
-    rom ( name "dodgeball.wasm" size "24622" crc "ed5ed6e6" )
+	name "It's Corn!"
+	description "Made in a little over a day for GBJam 10, as a proof of concept for my esoteric programming language, Penne. Controls: arrow keys to move, X for a boo"
+	developer "Sander in 't Veld"
+	homepage "https://wasm4.org/play/corn"
+	rom ( name "It's Corn!.wasm" size 8781 crc E6032448 )
 )
 
 game (
-    name "Don't Smash Into Obstacles"
-    description "A submission to the WASM-4 game jam."
-    developer "blackstaff"
-    homepage "https://wasm4.org/play/dont-smash-into-obstacles"
-    rom ( name "dont-smash-into-obstacles.wasm" size "3504" crc "aeaa9d93" )
+	name "Cosmic Hopper"
+	description "Zorp, a little alien, fell out of his UFO and landed in the middle of a cosmic highway. Guide him across a lane of speeding spaceships and a river of"
+	developer "Bernardo Wilchen de Oliveira"
+	homepage "https://wasm4.org/play/cosmic-hopper"
+	rom ( name "Cosmic Hopper.wasm" size 4381 crc 4DD02A35 )
 )
 
 game (
-    name "Endless Runner"
-    description "Endless Runner"
-    developer "DenialAdams"
-    homepage "https://wasm4.org/play/endless-runner"
-    rom ( name "endless-runner.wasm" size "3621" crc "176cd125" )
+	name "Cosmic Inw4ders"
+	description "A kind of space invaders game"
+	developer "Pierro"
+	homepage "https://wasm4.org/play/cosmic-inw4ders"
+	rom ( name "Cosmic Inw4ders.wasm" size 33389 crc 9C28D543 )
 )
 
 game (
-    name "Escape Guldur"
-    description "Can you get out alive  Made with Zig for WASM-4 Jam #2  Play on itch.io  View source code on GitHub"
-    developer "hazeycode"
-    homepage "https://wasm4.org/play/escape-guldur"
-    rom ( name "escape-guldur.wasm" size "28350" crc "db9f1715" )
+	name "Customizable Pong"
+	description "Like normal pong but you can customize the colors options You can change the the paddle colors, ball colors, and the palette colors Hold x to incremen"
+	developer "UnusualEgg"
+	homepage "https://wasm4.org/play/custom-pong"
+	rom ( name "Customizable Pong.wasm" size 15518 crc 80D06C51 )
 )
 
 game (
-    name "Explore the Grotto"
-    description "A submission to the WASM-4 game jam."
-    developer "sharundaar"
-    homepage "https://wasm4.org/play/explore-the-grotto"
-    rom ( name "explore-the-grotto.wasm" size "52683" crc "eccf6a5e" )
+	name "Dashy Dango"
+	description "Dashy Dango a wave fighting game made with WASM-4 by @samX500 and @willGuimont. Help the Dango survive by fighting waves of enemies. Dash into enemies"
+	developer "samX500"
+	homepage "https://wasm4.org/play/dashy-dango"
+	rom ( name "Dashy Dango.wasm" size 47101 crc A2C162AD )
 )
 
 game (
-    name "First Flight"
-    description "You're a young witch on her first flight. Take to the skies and see how fast you can collect the rings. Can you beat the high score  This game was mad"
-    developer "bootradev"
-    homepage "https://wasm4.org/play/first-flight"
-    rom ( name "first-flight.wasm" size "63858" crc "398d0c82" )
+	name "disk-0 MADNESS"
+	description "A submission to the WASM-4 Game Jam #2. Objective Avoid enemies that have a different color than yours and absorb the ones with the same color as your"
+	developer "Max Curzi"
+	homepage "https://wasm4.org/play/disk-0-madness"
+	rom ( name "disk-0 MADNESS.wasm" size 54280 crc 1DEF0BA6 )
 )
 
 game (
-    name "Floppy Fish"
-    description "My first WASM-4 game!  Written in AssemblyScript; you can check out the source here httpsgitlab.combebopcowboygamesfloppy_fish"
-    developer "TheBebopCowboy"
-    homepage "https://wasm4.org/play/floppy-fish"
-    rom ( name "floppy-fish.wasm" size "15093" crc "9ded1195" )
+	name "Dodgeball"
+	description "Dodgeball"
+	developer "Sander in 't Veld"
+	homepage "https://wasm4.org/play/dodgeball"
+	rom ( name "Dodgeball.wasm" size 24622 crc ED5ED6E6 )
 )
 
 game (
-    name "Fool's Paradise"
-    description "A submission to the WASM-4 game jam."
-    developer "rutrum"
-    homepage "https://wasm4.org/play/fools-paradise"
-    rom ( name "fools-paradise.wasm" size "38516" crc "7c54dce6" )
+	name "Don't Smash Into Obstacles"
+	description "A submission to the WASM-4 game jam."
+	developer "Mateusz Czarnecki"
+	homepage "https://wasm4.org/play/dont-smash-into-obstacles"
+	rom ( name "Don't Smash Into Obstacles.wasm" size 3504 crc AEAA9D93 )
 )
 
 game (
-    name "Future Avoid"
-    description "A submission to the WASM-4 game jam."
-    developer "jockus"
-    homepage "https://wasm4.org/play/future-avoid"
-    rom ( name "future-avoid.wasm" size "51637" crc "f7856ad6" )
+	name "Dragon Poker Draw"
+	description "A 6-card poker game for WASM-4 inspired by Robert Asprin's Dragon Poker concept. Win big by making the best poker hands! How to Play Dragon Poker uses"
+	developer "LoneGrayWolf2000"
+	homepage "https://wasm4.org/play/dragon-poker-draw"
+	rom ( name "Dragon Poker Draw.wasm" size 10367 crc 205658F6 )
 )
 
 game (
-    name "Fuzzy World Cup"
-    description "Penalty Soccer Game. You will be able to kick and keep penalties against the computer. To kick a penalty you can shoot to the center, left or right, y"
-    developer "damiangirardi"
-    homepage "https://wasm4.org/play/fuzzy-world-cup"
-    rom ( name "fuzzy-world-cup.wasm" size "65014" crc "270eca57" )
+	name "Duck Maze"
+	description "You're a Duck stuck in a maze. So now, you should get out! Good luck :)"
+	developer "Julia Marques Sanches"
+	homepage "https://wasm4.org/play/duck-maze"
+	rom ( name "Duck Maze.wasm" size 3359 crc CB009B7C )
 )
 
 game (
-    name "Game of Life: Zig Edition"
-    description "Source code  Controls  UpDown brush size (up bigger  down smaller) (Normal Mode) LeftRight speed (left faster  right slower) (Invert Mode) LeftRight r"
-    developer "davidroman0O"
-    homepage "https://wasm4.org/play/game-of-life-zig-edition"
-    rom ( name "game-of-life-zig-edition.wasm" size "28867" crc "37565c87" )
+	name "Earth Invaders"
+	description "Inspired by the classic Space Invaders, except this time, Earth is the enemy. With modern mechanics, your mission is to destroy incoming human spacesh"
+	developer "Yara F. Scramin"
+	homepage "https://wasm4.org/play/earth-invaders"
+	rom ( name "Earth Invaders.wasm" size 8577 crc 6766E8B3 )
 )
 
 game (
-    name "Game of Life"
-    description "Game of Life"
-    developer "claudiomattera"
-    homepage "https://wasm4.org/play/game-of-life"
-    rom ( name "game-of-life.wasm" size "3661" crc "2d93ceeb" )
+	name "Endless Runner"
+	description "Endless Runner"
+	developer "Richard McCormack"
+	homepage "https://wasm4.org/play/endless-runner"
+	rom ( name "Endless Runner.wasm" size 3621 crc 176CD125 )
 )
 
 game (
-    name "Glowfish Chess"
-    description "A simple chess implementation. Can be played against another player (Player 2) or against a simple CPU player. Glowfish uses a significantly stripped"
-    developer "analog-hors"
-    homepage "https://wasm4.org/play/glowfish-chess"
-    rom ( name "glowfish-chess.wasm" size "59502" crc "e017e745" )
+	name "Escape Guldur"
+	description "Can you get out alive? Made with Zig for WASM-4 Jam #2 Play on itch.io View source code on GitHub"
+	developer "Chris Heyes"
+	homepage "https://wasm4.org/play/escape-guldur"
+	rom ( name "Escape Guldur.wasm" size 28350 crc DB9F1715 )
 )
 
 game (
-    name "HAMMER JOE"
-    description "A submission to the WASM-4 game jam."
-    developer "MFauzan26"
-    homepage "https://wasm4.org/play/hammer-joe"
-    rom ( name "hammer-joe.wasm" size "64585" crc "f1a84897" )
+	name "Explore the Grotto"
+	description "A submission to the WASM-4 game jam."
+	developer "Donatien Rabiller"
+	homepage "https://wasm4.org/play/explore-the-grotto"
+	rom ( name "Explore the Grotto.wasm" size 52683 crc ECCF6A5E )
 )
 
 game (
-    name "Hills in the Moonlight"
-    description "A submission to the WASM-4 game jam."
-    developer "samhattangady"
-    homepage "https://wasm4.org/play/hills-moonlight"
-    rom ( name "hills-moonlight.wasm" size "24053" crc "141dc6fc" )
+	name "First Flight"
+	description "You're a young witch on her first flight. Take to the skies and see how fast you can collect the rings. Can you beat the high score? This game was mad"
+	developer "bootra"
+	homepage "https://wasm4.org/play/first-flight"
+	rom ( name "First Flight.wasm" size 63858 crc 398D0C82 )
 )
 
 game (
-    name "Image Carousel"
-    description "Image Carousel"
-    developer "pfgithub"
-    homepage "https://wasm4.org/play/image-carousel"
-    rom ( name "image-carousel.wasm" size "63368" crc "1a36d099" )
+	name "Floppy Fish"
+	description "My first WASM-4 game! Written in AssemblyScript; you can check out the source here: https://gitlab.com/bebopcowboygames/floppy_fish"
+	developer "Chris Breece"
+	homepage "https://wasm4.org/play/floppy-fish"
+	rom ( name "Floppy Fish.wasm" size 15093 crc 9DED1195 )
 )
 
 game (
-    name "Journey to Entorus"
-    description "Prepare to die! You must make your way to Entorus, and maybe even make it back.  This is a bullet-hell with a short story, made for the second WASM-4"
-    developer "JerwuQu"
-    homepage "https://wasm4.org/play/journey-to-entorus"
-    rom ( name "journey-to-entorus.wasm" size "55973" crc "7b211fa8" )
+	name "Fool's Paradise"
+	description "A submission to the WASM-4 game jam."
+	developer "Dave Purdum"
+	homepage "https://wasm4.org/play/fools-paradise"
+	rom ( name "Fool's Paradise.wasm" size 38516 crc 7C54DCE6 )
 )
 
 game (
-    name "Lake Shooter"
-    description "Lake Shooter"
-    developer "jimmycartrette"
-    homepage "https://wasm4.org/play/lakeshooter"
-    rom ( name "lakeshooter.wasm" size "14078" crc "9f37210e" )
+	name "Formula 1"
+	description "Formula 1 Game & Watch is a small, fictive formula 1 game & watch style lcd game with high score keeping. The Game was initially created over a decade"
+	developer "Davy Willems"
+	homepage "https://wasm4.org/play/formula-1"
+	rom ( name "Formula 1.wasm" size 8134 crc 2B7EC786 )
 )
 
 game (
-    name "Lime Volleyball"
-    description "A submission to the WASM-4 game jam."
-    developer "aduros"
-    homepage "https://wasm4.org/play/lime-volleyball"
-    rom ( name "lime-volleyball.wasm" size "3811" crc "84f0d5ce" )
+	name "FULL STEAM AHEAD TO THE RESCUE"
+	description "Help, help! There was an accident at the construction of this railroad. You're a locomotive driver, right? We need you to hop on this locomotive and d"
+	developer "lluq"
+	homepage "https://wasm4.org/play/full-steam-ahead-to-the-rescue"
+	rom ( name "FULL STEAM AHEAD TO THE RESCUE.wasm" size 5986 crc 1B388865 )
 )
 
 game (
-    name "Lingword"
-    description "Lingword"
-    developer "jonathanderque"
-    homepage "https://wasm4.org/play/lingword"
-    rom ( name "lingword.wasm" size "40498" crc "ed38110e" )
+	name "Future Avoid"
+	description "A submission to the WASM-4 game jam."
+	developer "Joakim Hentula"
+	homepage "https://wasm4.org/play/future-avoid"
+	rom ( name "Future Avoid.wasm" size 51637 crc F7856AD6 )
 )
 
 game (
-    name "Lumber Night"
-    description "A submission to the WASM-4 game jam."
-    developer "madwareru"
-    homepage "https://wasm4.org/play/lumber-night"
-    rom ( name "lumber-night.wasm" size "34483" crc "aa64af0c" )
+	name "Fuzzy World Cup"
+	description "Penalty Soccer Game. You will be able to kick and keep penalties against the computer. To kick a penalty you can shoot to the center, left or right, y"
+	developer "Damian Girardi, Sebastian Alvarez"
+	homepage "https://wasm4.org/play/fuzzy-world-cup"
+	rom ( name "Fuzzy World Cup.wasm" size 65014 crc 270ECA57 )
 )
 
 game (
-    name "Match3"
-    description "Match3"
-    developer "binji"
-    homepage "https://wasm4.org/play/match3"
-    rom ( name "match3.wasm" size "2578" crc "b76e5e7a" )
+	name "Game of Life: Zig Edition"
+	description "Source code Controls: Up/Down: brush size (up bigger / down smaller) (Normal Mode) Left/Right: speed (left faster / right slower) (Invert Mode) Left/R"
+	developer "David Roman"
+	homepage "https://wasm4.org/play/game-of-life-zig-edition"
+	rom ( name "Game of Life_ Zig Edition.wasm" size 28867 crc 37565C87 )
 )
 
 game (
-    name "Maze Wanderer"
-    description "A simple first person raycasting demo, written in Rust.  Controls  X - Start  Z - Toggle betweeen modes  First Person Mode  ᐊ, ᐃ, ᐁ, ᐅ - Move selectio"
-    developer "grantshandy"
-    homepage "https://wasm4.org/play/maze-wanderer"
-    rom ( name "maze-wanderer.wasm" size "12007" crc "57d7ec3d" )
+	name "Game of Life"
+	description "Game of Life"
+	developer "Claudio Mattera"
+	homepage "https://wasm4.org/play/game-of-life"
+	rom ( name "Game of Life.wasm" size 3661 crc 2D93CEEB )
 )
 
 game (
-    name "Maze"
-    description "Maze"
-    developer "binji"
-    homepage "https://wasm4.org/play/maze"
-    rom ( name "maze.wasm" size "3735" crc "5c5bf50c" )
+	name "Glitch Dungeon"
+	description "Complete reimplementation of the original Glitch Dungeon game by jakeonaut with permission from the original author. All credits for the game, ideas,"
+	developer "jakeonaut, Wormi"
+	homepage "https://wasm4.org/play/glitch-dungeon"
+	rom ( name "Glitch Dungeon.wasm" size 62135 crc 551DD101 )
 )
 
 game (
-    name "Meteoroids"
-    description "Meteoroids"
-    developer "jzeiber"
-    homepage "https://wasm4.org/play/meteoroids"
-    rom ( name "meteoroids.wasm" size "18260" crc "264248ef" )
+	name "Glowfish Chess"
+	description "A simple chess implementation. Can be played against another player (Player 2) or against a simple CPU player. Glowfish uses a significantly stripped"
+	developer "Analog Hors"
+	homepage "https://wasm4.org/play/glowfish-chess"
+	rom ( name "Glowfish Chess.wasm" size 59502 crc E017E745 )
 )
 
 game (
-    name "Micro Quest"
-    description "A submission to the WASM-4 game jam."
-    developer "Andre-LA"
-    homepage "https://wasm4.org/play/micro-quest"
-    rom ( name "micro-quest.wasm" size "15998" crc "6c86b2f1" )
+	name "HAMMER JOE"
+	description "A submission to the WASM-4 game jam."
+	developer "MFauzan26"
+	homepage "https://wasm4.org/play/hammer-joe"
+	rom ( name "HAMMER JOE.wasm" size 64585 crc F1A84897 )
 )
 
 game (
-    name "MIKU-15"
-    description "MIKU-15"
-    developer "MrRafael-dev"
-    homepage "https://wasm4.org/play/miku-15"
-    rom ( name "miku-15.wasm" size "40478" crc "ce71245e" )
+	name "Hills in the Moonlight"
+	description "A submission to the WASM-4 game jam."
+	developer "Samarth Hattangady"
+	homepage "https://wasm4.org/play/hills-moonlight"
+	rom ( name "Hills in the Moonlight.wasm" size 24053 crc 141DC6FC )
 )
 
 game (
-    name "Mind Palace"
-    description "A submission to the WASM-4 game jam."
-    developer "grouter"
-    homepage "https://wasm4.org/play/mind-palace"
-    rom ( name "mind-palace.wasm" size "29588" crc "164086aa" )
+	name "Hero of the Woods v3"
+	description "Move with the arrows. The indicator on the edge of the screen points you to your next objective. Click/tap the screen to change rotation: | Option | D"
+	developer "BigRobCoder"
+	homepage "https://wasm4.org/play/hotw"
+	rom ( name "Hero of the Woods v3.wasm" size 44662 crc CB1126D2 )
 )
 
 game (
-    name "Minesweeper"
-    description "Minesweeper"
-    developer "claudiomattera"
-    homepage "https://wasm4.org/play/minesweeper"
-    rom ( name "minesweeper.wasm" size "20125" crc "fdfe010" )
+	name "Image Carousel"
+	description "Image Carousel"
+	developer "pfg"
+	homepage "https://wasm4.org/play/image-carousel"
+	rom ( name "Image Carousel.wasm" size 63368 crc 1A36D099 )
 )
 
 game (
-    name "Minicraft"
-    description "Minicraft is a semi-open world sandbox game, where YOU build your own world!  Originally made for WASM-4 Jam #2.  Features A 50x50 randomly generated"
-    developer "TheFloatingPixel"
-    homepage "https://wasm4.org/play/minicraft"
-    rom ( name "minicraft.wasm" size "35244" crc "2c5db31f" )
+	name "IOCCC 98 Flight Sim"
+	description "Port of IOCCC 98 Flight Sim to WASM-4 Controls Direction buttons - flight controls / up/down in menu / move around in map view Button 1 - throttle up"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/ioccc98flightsim"
+	rom ( name "IOCCC 98 Flight Sim.wasm" size 40190 crc DA019EE4 )
 )
 
 game (
-    name "Mouse Demo"
-    description "Mouse Demo"
-    developer "thedavesims"
-    homepage "https://wasm4.org/play/mouse-demo"
-    rom ( name "mouse-demo.wasm" size "1996" crc "47af5f02" )
+	name "IWAS"
+	description "A sound tool for WASM-4. Check out it's page on itch.io! Quick overview This is a very simple sound tool designed around the limitations of this fanta"
+	developer "Mr.Rafael"
+	homepage "https://wasm4.org/play/iwas"
+	rom ( name "IWAS.wasm" size 56841 crc 8498EEFD )
 )
 
 game (
-    name "Ninja vs Knights"
-    description "A submission to the WASM-4 Game Jam #2. . Controls LeftRight Move the ninja. XSpacebar Jump. Hold it to jump higher. Down Drop"
-    developer "MrRafael-dev"
-    homepage "https://wasm4.org/play/ninja-vs-knights"
-    rom ( name "ninja-vs-knights.wasm" size "59424" crc "9de9b738" )
+	name "Journey to Entorus"
+	description "Prepare to die! You must make your way to Entorus, and maybe even make it back. This is a bullet-hell with a short story, made for the second WASM-4 g"
+	developer "Marcus Ramse"
+	homepage "https://wasm4.org/play/journey-to-entorus"
+	rom ( name "Journey to Entorus.wasm" size 55973 crc 7B211FA8 )
 )
 
 game (
-    name "Nyan Cat"
-    description "Nyan Cat"
-    developer "jakeledoux"
-    homepage "https://wasm4.org/play/nyancat"
-    rom ( name "nyancat.wasm" size "27199" crc "bcac6e0a" )
+	name "Journey to the Steam Planet"
+	description "You play as a steam rocket on a journey to the steam planet. Shoot asteroids and UFOs, avoid deadly steam puffs, and collect fuel to advance to the ne"
+	developer "QuaternionWake"
+	homepage "https://wasm4.org/play/journey-to-the-steam-planet"
+	rom ( name "Journey to the Steam Planet.wasm" size 64118 crc 0C96374E )
 )
 
 game (
-    name "One Slime Army"
-    description "An arcade endless wave survival game written in Zig.  Battle hordes of enemies as a humble slime equipped with his trusty sword and shield.   Controls"
-    developer "ibillingsley"
-    homepage "https://wasm4.org/play/one-slime-army"
-    rom ( name "one-slime-army.wasm" size "13339" crc "64966721" )
+	name "Jump 'n' Shoot"
+	description "Jump 'n' Shoot is a fast-paced action platformer. The player must dodge obstacles, eliminate enemies, and survive for as long as possible. Score incre"
+	developer "Matheus Foltran Consonni"
+	homepage "https://wasm4.org/play/jump-n-shoot"
+	rom ( name "Jump 'n' Shoot.wasm" size 8892 crc 4A0C892A )
 )
 
 game (
-    name "Palette Previewer"
-    description "Palette Previewer"
-    developer "thedavesims"
-    homepage "https://wasm4.org/play/palette-previewer"
-    rom ( name "palette-previewer.wasm" size "22044" crc "2eba4a8f" )
+	name "Kitty Game"
+	description "Find the kitties!! Move with arrow keys, jump / use cards with buttons. Supports 2-4 player netplay multiplayer. Enjoy! See source code here: Play lat"
+	developer "Cannon Tuttle"
+	homepage "https://wasm4.org/play/kittygame"
+	rom ( name "Kitty Game.wasm" size 62982 crc 2BE85E96 )
 )
 
 game (
-    name "PHANTOM SHIFT"
-    description "Turn your light on or off to phase into an alternate world. Find out the hard way what happens when you phase into a wall!  This is a 1-bit jam entry."
-    developer "sergeypdev"
-    homepage "https://wasm4.org/play/phantom-shift"
-    rom ( name "phantom-shift.wasm" size "20506" crc "63c45d3b" )
+	name "Lad 2024"
+	description "A puzzle game. How to play See in-game tutorial stages. (stage 0001-0008) Operations | WASM-4 Gamepad button | Operation | --------------------------"
+	developer "YAMAMOTO Takashi"
+	homepage "https://wasm4.org/play/lad2024"
+	rom ( name "Lad 2024.wasm" size 44488 crc 111B1CB9 )
 )
 
 game (
-    name "Piano"
-    description "Piano"
-    developer "pfgithub"
-    homepage "https://wasm4.org/play/piano"
-    rom ( name "piano.wasm" size "12346" crc "4ef87c1d" )
+	name "Lake Shooter"
+	description "Lake Shooter"
+	developer "Jimmy Cartrette"
+	homepage "https://wasm4.org/play/lakeshooter"
+	rom ( name "Lake Shooter.wasm" size 14078 crc 9F37210E )
 )
 
 game (
-    name "PID Controller"
-    description "A submission to the WASM-4 game jam."
-    developer "ghost"
-    homepage "https://wasm4.org/play/pid-controller"
-    rom ( name "pid-controller.wasm" size "12194" crc "3345c99f" )
+	name "Last Train Home"
+	description "A simple hex-based exploration puzzle game written in Zig (v0.16.0) for the Zero Sugar Added game jam (version 1). The theme was 'Full Steam Ahead' wh"
+	developer "Reuben Dunnington"
+	homepage "https://wasm4.org/play/last-train-home"
+	rom ( name "Last Train Home.wasm" size 26352 crc D6CEF637 )
 )
 
 game (
-    name "PING"
-    description "Move with arrow keys, lungecatch with buttons. Supports 2-4 player localnetplay multiplayer. Enjoy!  View source here. Incremental updates to game are"
-    developer "CanyonTurtle"
-    homepage "https://wasm4.org/play/ping"
-    rom ( name "ping.wasm" size "28964" crc "4f6fed00" )
+	name "Lava Hop!"
+	description "What's special about this game is that it's my first game where I wrote 0 lines of code. Like, actually, ze-ro 🤯. I just put down $20 to see what cla"
+	developer "Cannon Tuttle"
+	homepage "https://wasm4.org/play/lava-hop"
+	rom ( name "Lava Hop!.wasm" size 38457 crc 38825F1C )
 )
 
 game (
-    name "Plasma Cube"
-    description "Plasma Cube"
-    developer "kcinnu"
-    homepage "https://wasm4.org/play/plasma-cube"
-    rom ( name "plasma-cube.wasm" size "5573" crc "dbb5bb72" )
+	name "Lime Volleyball"
+	description "A submission to the WASM-4 game jam."
+	developer "Bruno Garcia"
+	homepage "https://wasm4.org/play/lime-volleyball"
+	rom ( name "Lime Volleyball.wasm" size 3811 crc 84F0D5CE )
 )
 
 game (
-    name "Platformer Test"
-    description "Platformer Test"
-    developer "aduros"
-    homepage "https://wasm4.org/play/platformer-test"
-    rom ( name "platformer-test.wasm" size "1145" crc "25ec3fdc" )
+	name "Lingword"
+	description "Lingword"
+	developer "Jonathan Derque"
+	homepage "https://wasm4.org/play/lingword"
+	rom ( name "Lingword.wasm" size 40498 crc ED38110E )
 )
 
 game (
-    name "Pl_tfarmer"
-    description "Pl¢tfarmer A submission to the WASM-4 game jam."
-    developer "pfgithub"
-    homepage "https://wasm4.org/play/plctfarmer"
-    rom ( name "plctfarmer.wasm" size "55938" crc "9b7d48bb" )
+	name "Lumber Night"
+	description "A submission to the WASM-4 game jam."
+	developer "Vitaly"
+	homepage "https://wasm4.org/play/lumber-night"
+	rom ( name "Lumber Night.wasm" size 34483 crc AA64AF0C )
 )
 
 game (
-    name "Pocket Dust"
-    description "A submission to the WASM-4 game jam."
-    developer "colbyhub"
-    homepage "https://wasm4.org/play/pocket-dust"
-    rom ( name "pocket-dust.wasm" size "8417" crc "d7e95359" )
+	name "Mandelbrot"
+	description "Source:"
+	developer "LukeGrahamLandry"
+	homepage "https://wasm4.org/play/mandelbrot"
+	rom ( name "Mandelbrot.wasm" size 4036 crc F2EC761C )
 )
 
 game (
-    name "Pong"
-    description "Pong"
-    developer "FaberVitale"
-    homepage "https://wasm4.org/play/pong"
-    rom ( name "pong.wasm" size "6818" crc "ba3523a7" )
+	name "Match3"
+	description "Match3"
+	developer "Ben Smith"
+	homepage "https://wasm4.org/play/match3"
+	rom ( name "Match3.wasm" size 2578 crc B76E5E7A )
 )
 
 game (
-    name "Presents to the Metal"
-    description "A submission to the WASM-4 game jam."
-    developer "mallow-malt"
-    homepage "https://wasm4.org/play/presents-to-the-metal"
-    rom ( name "presents-to-the-metal.wasm" size "17411" crc "bb412280" )
+	name "Maze Wanderer"
+	description "A simple first person raycasting demo, written in Rust. Controls X - Start Z - Toggle betweeen modes First Person Mode ᐊ, ᐃ, ᐁ, ᐅ - Move selection X -"
+	developer "Grant Handy"
+	homepage "https://wasm4.org/play/maze-wanderer"
+	rom ( name "Maze Wanderer.wasm" size 12007 crc 57D7EC3D )
 )
 
 game (
-    name "Projectron"
-    description "A submission to the WASM-4 game jam."
-    developer "jamesmcm"
-    homepage "https://wasm4.org/play/projectron"
-    rom ( name "projectron.wasm" size "12501" crc "c9f279a1" )
+	name "Maze"
+	description "Maze"
+	developer "Ben Smith"
+	homepage "https://wasm4.org/play/maze"
+	rom ( name "Maze.wasm" size 3735 crc 5C5BF50C )
 )
 
 game (
-    name "Punch'Em Up"
-    description "A tiny beat'em up game made for the WASM4 jam. Buggy and incomplete, but it's fun to punch the pots!  Links Punch'Em Up on Itch.io Github Repository"
-    developer "desttinghim"
-    homepage "https://wasm4.org/play/punch-em-up"
-    rom ( name "punch-em-up.wasm" size "34671" crc "3b73f50d" )
+	name "Mazethingie"
+	description "This is the WASM-4 version of my Mazethingie game which is a maze generator / game. I Initially developed this for learning how to generate mazes for"
+	developer "Davy Willems"
+	homepage "https://wasm4.org/play/mazethingie"
+	rom ( name "Mazethingie.wasm" size 3226 crc 1A08CF0F )
 )
 
 game (
-    name "Puyo"
-    description "A submission to the WASM-4 game jam."
-    developer "ShigekiKarita"
-    homepage "https://wasm4.org/play/puyo"
-    rom ( name "puyo.wasm" size "14843" crc "84cc2fd1" )
+	name "Melancholy: cart 0"
+	description "A top grade [E X P E R I E N C E], right there on your WASM-4 device! Explore the environment, fight your enemies (singular), look for secrets (plural"
+	developer "Đe-Alchmst"
+	homepage "https://wasm4.org/play/melancholy-cart-0"
+	rom ( name "Melancholy_ cart 0.wasm" size 59614 crc 38E9AC04 )
 )
 
 game (
-    name "Racer"
-    description "Racer"
-    developer "claudiomattera"
-    homepage "https://wasm4.org/play/racer"
-    rom ( name "racer.wasm" size "39123" crc "d5b9f675" )
+	name "Melancholy: cart 3"
+	description "Indirect continuation of the previous [E X P E R I E N C E]. Less grade, more style! Fight your way through hordes of cultists, defeat the archmagus a"
+	developer "Đe-Alchmst"
+	homepage "https://wasm4.org/play/melancholy-cart-3"
+	rom ( name "Melancholy_ cart 3.wasm" size 22111 crc B9ACE0A7 )
 )
 
 game (
-    name "Raw Assembly Test"
-    description "Raw Assembly Test"
-    developer "aduros"
-    homepage "https://wasm4.org/play/raw-assembly"
-    rom ( name "raw-assembly.wasm" size "268" crc "2a3910a2" )
+	name "Meteoroids"
+	description "Use the gamepad buttons/arrow keys/mouse to move and shoot. Destroy and evade the meteoroids. View source here."
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/meteoroids"
+	rom ( name "Meteoroids.wasm" size 18260 crc 264248EF )
 )
 
 game (
-    name "Rolly Dango"
-    description "A submission to the WASM-4 game jam."
-    developer "willGuimont"
-    homepage "https://wasm4.org/play/rolly-dango"
-    rom ( name "rolly-dango.wasm" size "61394" crc "1b1fe548" )
+	name "Micro Quest"
+	description "A submission to the WASM-4 game jam."
+	developer "André L. Alvares"
+	homepage "https://wasm4.org/play/micro-quest"
+	rom ( name "Micro Quest.wasm" size 15998 crc 6C86B2F1 )
 )
 
 game (
-    name "Samurai Revenge"
-    description "Game for WASM-4 Game Jam #2. Earn the highest score in this endless-destroying game driven by greed of revenge.  Controls Gamepad controls (EDSF or Ar"
-    developer "Krylan"
-    homepage "https://wasm4.org/play/samurai-revenge"
-    rom ( name "samurai-revenge.wasm" size "35899" crc "e4416f9d" )
+	name "MIKU-15"
+	description "MIKU-15"
+	developer "Mr.Rafael"
+	homepage "https://wasm4.org/play/miku-15"
+	rom ( name "MIKU-15.wasm" size 40478 crc CE71245E )
 )
 
 game (
-    name "Seal Adventure"
-    description "You control a seal traversing the northern seas while trying to avoid deadly icebergs.  The map is procedurally generated using a cellular automata al"
-    developer "katspaugh"
-    homepage "https://wasm4.org/play/seal-adventure"
-    rom ( name "seal-adventure.wasm" size "2163" crc "a5411727" )
+	name "Mind Palace"
+	description "A submission to the WASM-4 game jam."
+	developer "Matúš Chovan"
+	homepage "https://wasm4.org/play/mind-palace"
+	rom ( name "Mind Palace.wasm" size 29588 crc 164086AA )
 )
 
 game (
-    name "Seed Creator Showcase"
-    description "Showcase that demonstrates how to create a random seed for (pseudo) random number generation in wasm4.  Controls  Click the rectangles until you're ha"
-    developer "huntr3ss"
-    homepage "https://wasm4.org/play/seed-creator-showcase"
-    rom ( name "seed-creator-showcase.wasm" size "3780" crc "c9df4aa5" )
+	name "Minesweeper"
+	description "Minesweeper"
+	developer "Claudio Mattera"
+	homepage "https://wasm4.org/play/minesweeper"
+	rom ( name "Minesweeper.wasm" size 20125 crc 0FDFE010 )
 )
 
 game (
-    name "Shieldshooter"
-    description "A simple platform shooter hacked together in a couple of afternoons to test the new WASM-4 netplay functionality.  X to shoot, Z to shield. There is n"
-    developer "JerwuQu"
-    homepage "https://wasm4.org/play/shieldshooter"
-    rom ( name "shieldshooter.wasm" size "3140" crc "db5bdcb0" )
+	name "Mini Civ"
+	description "A Civilization style singleplayer and multiplayer game. See the github repo for instructions. View source here."
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/miniciv"
+	rom ( name "Mini Civ.wasm" size 65445 crc E40446EE )
 )
 
 game (
-    name "Simple Rocket"
-    description "A submission to the WASM-4 game jam."
-    developer "venkatesh-coder"
-    homepage "https://wasm4.org/play/simple-rocket"
-    rom ( name "simple-rocket.wasm" size "5255" crc "52c839a9" )
+	name "Minicraft"
+	description "Minicraft is a semi-open world sandbox game, where YOU build your own world! Originally made for WASM-4 Jam #2. Features: A 50x50 randomly generated m"
+	developer "TheFloatingPixel"
+	homepage "https://wasm4.org/play/minicraft"
+	rom ( name "Minicraft.wasm" size 35244 crc 2C5DB31F )
 )
 
 game (
-    name "A Simple Space Invaders game"
-    description "Coded live on LogicProjects Youtube Channel as a challenge by mdr721 and as a way to learn Zig )"
-    developer "mwbryant"
-    homepage "https://wasm4.org/play/simple-space-invaders"
-    rom ( name "simple-space-invaders.wasm" size "19218" crc "79e3f516" )
+	name "Mouse Demo"
+	description "Mouse Demo"
+	developer "David Sims"
+	homepage "https://wasm4.org/play/mouse-demo"
+	rom ( name "Mouse Demo.wasm" size 1996 crc 47AF5F02 )
 )
 
 game (
-    name "Skip Ahead"
-    description "Skip Ahead"
-    developer "exoticorn"
-    homepage "https://wasm4.org/play/skipahead"
-    rom ( name "skipahead.wasm" size "512" crc "a39093a3" )
+	name "NAIR DEMAKE"
+	description "Wasm4 (RUST) demake of NAIR, a simple fighting game with only one attack. Source: https://codeberg.org/MiguelGSS/NAIR-Demake A demake of 'NAIR', with"
+	developer "MiguelGSS"
+	homepage "https://wasm4.org/play/nairdemake"
+	rom ( name "NAIR DEMAKE.wasm" size 20423 crc 8EED9F01 )
 )
 
 game (
-    name "Smash Sugar Parallelepipeds"
-    description "A submission to the WASM-4 game jam."
-    developer "lzralbu"
-    homepage "https://wasm4.org/play/smash-sugar-parallelepipeds"
-    rom ( name "smash-sugar-parallelepipeds.wasm" size "5771" crc "fcb05890" )
+	name "Ninja vs Knights"
+	description "A submission to the WASM-4 Game Jam #2. Controls Left/Right: Move the ninja. X/Spacebar: Jump. Hold it to jump higher. Down: Drop to the ground. Z: At"
+	developer "Mr.Rafael"
+	homepage "https://wasm4.org/play/ninja-vs-knights"
+	rom ( name "Ninja vs Knights.wasm" size 59424 crc 9DE9B738 )
 )
 
 game (
-    name "Snake"
-    description "Snake"
-    developer "ttulka"
-    homepage "https://wasm4.org/play/snake"
-    rom ( name "snake.wasm" size "11394" crc "2c4c440e" )
+	name "Number Slide"
+	description "Number Slide is a classic 15-puzzle game developed with WASM-4. The objective is to arrange the numbered tiles in ascending order by sliding them into"
+	developer "Giovana Ferreira Waterkemper, Jamily Goncalves de Sales Souza"
+	homepage "https://wasm4.org/play/number-slide"
+	rom ( name "Number Slide.wasm" size 31020 crc E0AF8CCF )
 )
 
 game (
-    name "Snakery"
-    description "Grid based puzzle game. Collect all the $ to solve each level"
-    developer "hahahahaman"
-    homepage "https://wasm4.org/play/snakery"
-    rom ( name "snakery.wasm" size "18016" crc "e537e51f" )
+	name "Nyan Cat"
+	description "Nyan Cat"
+	developer "Jake Ledoux"
+	homepage "https://wasm4.org/play/nyancat"
+	rom ( name "Nyan Cat.wasm" size 27199 crc BCAC6E0A )
 )
 
 game (
-    name "Sokoban"
-    description "A submission to the WASM-4 game jam."
-    developer "chemecse"
-    homepage "https://wasm4.org/play/sokoban"
-    rom ( name "sokoban.wasm" size "12370" crc "a2e635bc" )
+	name "One Slime Army"
+	description "An arcade endless wave survival game written in Zig. Battle hordes of enemies as a humble slime equipped with his trusty sword and shield. | Controls"
+	developer "Isaiah Billingsley"
+	homepage "https://wasm4.org/play/one-slime-army"
+	rom ( name "One Slime Army.wasm" size 13339 crc 64966721 )
 )
 
 game (
-    name "Sound Demo"
-    description "Sound Demo"
-    developer "aduros"
-    homepage "https://wasm4.org/play/sound-demo"
-    rom ( name "sound-demo.wasm" size "1518" crc "36dc114d" )
+	name "Palette Previewer"
+	description "Palette Previewer"
+	developer "David Sims"
+	homepage "https://wasm4.org/play/palette-previewer"
+	rom ( name "Palette Previewer.wasm" size 22044 crc 2EBA4A8F )
 )
 
 game (
-    name "Sound Test"
-    description "This is an attempt to provide an alternative to the existing Sound Demo cart.  I tried to make something which could offer a little more control and b"
-    developer "MrRafael-dev"
-    homepage "https://wasm4.org/play/sound-test"
-    rom ( name "sound-test.wasm" size "35849" crc "69dc510" )
+	name "panelpon4"
+	description "A Panel de Pon-style falling/rising block matching game for WASM-4, written in Zig. Source & full README."
+	developer "CanyonTurtle"
+	homepage "https://wasm4.org/play/panelpon4"
+	rom ( name "panelpon4.wasm" size 62611 crc D7DB6877 )
 )
 
 game (
-    name "Space Delivery"
-    description "A submission to the WASM-4 game jam."
-    developer "kirinokirino"
-    homepage "https://wasm4.org/play/space-delivery"
-    rom ( name "space-delivery.wasm" size "11430" crc "8b43f2b9" )
+	name "Particle Editor v1.0"
+	description "This is particle editor made for my WASM4 Particle System that you can find here with instructions how to use it in your projects: https://github.com/"
+	developer "Dominik Koperkiewicz"
+	homepage "https://wasm4.org/play/particle-editor"
+	rom ( name "Particle Editor v1.0.wasm" size 58803 crc C40E981C )
 )
 
 game (
-    name "Space Kommand"
-    description "A submission to the WASM-4 game jam."
-    developer "ghost"
-    homepage "https://wasm4.org/play/space-kommand"
-    rom ( name "space-kommand.wasm" size "31382" crc "eb8311ec" )
+	name "Pega-Pega: the game"
+	description "This game is all about following each other around and firing!!! Once you have your opponent on your sight, FIRE! You can either play with one keyboar"
+	developer "Ana Paula Crippa, Maria Eduarda Policante"
+	homepage "https://wasm4.org/play/pega-pega-the-game"
+	rom ( name "Pega-Pega_ the game.wasm" size 10556 crc C8156D02 )
 )
 
 game (
-    name "Spunky"
-    description "A submission to the WASM-4 game jam."
-    developer "DenialAdams"
-    homepage "https://wasm4.org/play/spunky"
-    rom ( name "spunky.wasm" size "42213" crc "2d19bcc6" )
+	name "PHANTOM SHIFT"
+	description "Turn your light on or off to phase into an alternate world. Find out the hard way what happens when you phase into a wall! This is a 1-bit jam entry."
+	developer "Sergey Poznyak"
+	homepage "https://wasm4.org/play/phantom-shift"
+	rom ( name "PHANTOM SHIFT.wasm" size 20506 crc 63C45D3B )
 )
 
 game (
-    name "Strikeforce"
-    description "The source code is available on GitHub"
-    developer "iszn11"
-    homepage "https://wasm4.org/play/strikeforce"
-    rom ( name "strikeforce.wasm" size "24636" crc "9f7b225b" )
+	name "Piano"
+	description "Piano"
+	developer "pfg"
+	homepage "https://wasm4.org/play/piano"
+	rom ( name "Piano.wasm" size 12346 crc 4EF87C1D )
 )
 
 game (
-    name "Tail Gunner"
-    description "A submission to the WASM-4 game jam."
-    developer "ghost"
-    homepage "https://wasm4.org/play/tail-gunner"
-    rom ( name "tail-gunner.wasm" size "54663" crc "f907c736" )
+	name "PID Controller"
+	description "A submission to the WASM-4 game jam."
+	developer "rezajamesahmed"
+	homepage "https://wasm4.org/play/pid-controller"
+	rom ( name "PID Controller.wasm" size 12194 crc 3345C99F )
 )
 
 game (
-    name "Tᴀᴜ Flight Simulator 1.0"
-    description "The aerodynamic model is physically-based, but the plane parameters do not correspond to any particular real-world plane.  The renderer is very CPU-in"
-    developer "tau-dev"
-    homepage "https://wasm4.org/play/taufl"
-    rom ( name "taufl.wasm" size "50038" crc "a05d2aa6" )
+	name "PING"
+	description "Move with arrow keys, lunge/catch with buttons. Supports 2-4 player local/netplay multiplayer. Enjoy! View source here. Incremental updates to game ar"
+	developer "Cannon Tuttle"
+	homepage "https://wasm4.org/play/ping"
+	rom ( name "PING.wasm" size 28964 crc 4F6FED00 )
 )
 
 game (
-    name "Text Input"
-    description "Simple example cartridge of how to take text input for your game  C source #include 'wasm4.h  #define MAX(x, y) (((x)  (y))  (x)  (y)) #define MIN(x,"
-    developer "cedric-h"
-    homepage "https://wasm4.org/play/text-input"
-    rom ( name "text-input.wasm" size "10913" crc "da8a8971" )
+	name "Pixel vs Zombies"
+	description "A plants vs zombies based game. Play with mouse, left button selects and plant, right button resets selection and cancel. There are 5 plants, 3 zombie"
+	developer "Vitor Lorençone"
+	homepage "https://wasm4.org/play/pixelvszombies"
+	rom ( name "Pixel vs Zombies.wasm" size 24290 crc CA1F83BA )
 )
 
 game (
-    name "The Legend of GEML: Awakening"
-    description "A submission to the WASM-4 game jam."
-    developer "restitux"
-    homepage "https://wasm4.org/play/the-legend-of-geml-awakening"
-    rom ( name "the-legend-of-geml-awakening.wasm" size "46741" crc "628642f9" )
+	name "Plasma Cube"
+	description "Plasma Cube"
+	developer "unnick"
+	homepage "https://wasm4.org/play/plasma-cube"
+	rom ( name "Plasma Cube.wasm" size 5573 crc DBB5BB72 )
 )
 
 game (
-    name "The Romans Are Coming"
-    description "Place your troops, represented by banners, in regions to score points and gather grain, wood, stone and wine. However, if you fail to meet the (increa"
-    developer "SLiV9"
-    homepage "https://wasm4.org/play/the-romans-are-coming"
-    rom ( name "the-romans-are-coming.wasm" size "41692" crc "5d790d90" )
+	name "Platformer Test"
+	description "Platformer Test"
+	developer "Bruno Garcia"
+	homepage "https://wasm4.org/play/platformer-test"
+	rom ( name "Platformer Test.wasm" size 1145 crc 25EC3FDC )
 )
 
 game (
-    name "Tic Tac Toe"
-    description "Tic Tac Toe"
-    developer "christopher-kleine"
-    homepage "https://wasm4.org/play/tictactoe"
-    rom ( name "tictactoe.wasm" size "13353" crc "33fa5231" )
+	name "Pl_tfarmer"
+	description "A submission to the WASM-4 game jam."
+	developer "pfg"
+	homepage "https://wasm4.org/play/plctfarmer"
+	rom ( name "Pl_tfarmer.wasm" size 55938 crc 9B7D48BB )
 )
 
 game (
-    name "TO THE CORE"
-    description "Play as pant ant in TO THE CORE a semi-idle game journeying to the center of the earth, and his home. Fear not for Wormie will guide you on your quest"
-    developer "Gertkeno"
-    homepage "https://wasm4.org/play/to-the-core"
-    rom ( name "to-the-core.wasm" size "22881" crc "3c71dc80" )
+	name "Pocket Dust"
+	description "A submission to the WASM-4 game jam."
+	developer "Colby Hubscher"
+	homepage "https://wasm4.org/play/pocket-dust"
+	rom ( name "Pocket Dust.wasm" size 8417 crc D7E95359 )
 )
 
 game (
-    name "Totally not sumo"
-    description "'Totally Not Sumo is definitively not a sumo game, but it's a game where you need to push your opponents out, while dealing with an controller duality"
-    developer "Andre-LA"
-    homepage "https://wasm4.org/play/totally-not-sumo"
-    rom ( name "totally-not-sumo.wasm" size "19320" crc "f9d108fc" )
+	name "Pong"
+	description "Pong"
+	developer "Fabrizio Vitale"
+	homepage "https://wasm4.org/play/pong"
+	rom ( name "Pong.wasm" size 6818 crc BA3523A7 )
 )
 
 game (
-    name "Touhou Spirits"
-    description "A Touhou fangame!"
-    developer "MrRafael-dev"
-    homepage "https://wasm4.org/play/touhou-spirits"
-    rom ( name "touhou-spirits.wasm" size "54944" crc "a732e072" )
+	name "Presents to the Metal"
+	description "A submission to the WASM-4 game jam."
+	developer "errorStream"
+	homepage "https://wasm4.org/play/presents-to-the-metal"
+	rom ( name "Presents to the Metal.wasm" size 17411 crc BB412280 )
 )
 
 game (
-    name "Train!"
-    description "Don't crash into the new train car or yourself.  Pick up the new train car at the end of your train.  Watch the demo to see how it's done.  rust sourc"
-    developer "Davidian1024"
-    homepage "https://wasm4.org/play/train"
-    rom ( name "train.wasm" size "33231" crc "a144c50e" )
+	name "Projectron"
+	description "A submission to the WASM-4 game jam."
+	developer "James McMurray"
+	homepage "https://wasm4.org/play/projectron"
+	rom ( name "Projectron.wasm" size 12501 crc C9F279A1 )
 )
 
 game (
-    name "Trials of the dark sea"
-    description "This is a short game made for the wasm4 2022 jam. It was a lot of fun. The music was made in a rush in the final few days, sorry in advance for how te"
-    developer "ericvilcu"
-    homepage "https://wasm4.org/play/trials-of-the-dark-sea"
-    rom ( name "trials-of-the-dark-sea.wasm" size "50764" crc "931fe52a" )
+	name "Punch'Em Up"
+	description "A tiny beat'em up game made for the WASM4 jam. Buggy and incomplete, but it's fun to punch the pots! Links Punch'Em Up on Itch.io Github Repository"
+	developer "Louis Pearson"
+	homepage "https://wasm4.org/play/punch-em-up"
+	rom ( name "Punch'Em Up.wasm" size 34671 crc 3B73F50D )
 )
 
 game (
-    name "The Royal Game of Ur"
-    description "The Royal Game of Ur for the Wasm4  Use the UpDown arrows to select a piece to move Press X for everything else (roll, move, etc.) Z is not used.  Til"
-    developer "gelatinstudios"
-    homepage "https://wasm4.org/play/ur"
-    rom ( name "ur.wasm" size "53271" crc "90d94899" )
+	name "Puyo"
+	description "A submission to the WASM-4 game jam."
+	developer "Shigeki Karita"
+	homepage "https://wasm4.org/play/puyo"
+	rom ( name "Puyo.wasm" size 14843 crc 84CC2FD1 )
 )
 
 game (
-    name "Win 4 Fighter (W4F)"
-    description "Discord Krzysztoφορος#9326  W4F is a minimalistic fighting game based on the core gameplay of Virtua Fighter.  Intended exclusively for multiplayer."
-    developer "ChuuniMage"
-    homepage "https://wasm4.org/play/w4f"
-    rom ( name "w4f.wasm" size "37095" crc "369a3cee" )
+	name "Racer"
+	description "Racer"
+	developer "Claudio Mattera"
+	homepage "https://wasm4.org/play/racer"
+	rom ( name "Racer.wasm" size 39123 crc D5B9F675 )
 )
 
 game (
-    name "Wasm Wars"
-    description "A submission to the WASM-4 game jam."
-    developer "Kiyoshi364"
-    homepage "https://wasm4.org/play/wasm-wars"
-    rom ( name "wasm-wars.wasm" size "14974" crc "8b045fff" )
+	name "Raw Assembly Test"
+	description "Raw Assembly Test"
+	developer "Bruno Garcia"
+	homepage "https://wasm4.org/play/raw-assembly"
+	rom ( name "Raw Assembly Test.wasm" size 268 crc 2A3910A2 )
 )
 
 game (
-    name "wasm4nia"
-    description "wasm4nia was originally created for the WASM-4 Game Jam in January of 2022.  See here for more details and updates.  Input  When playing on keyboard,"
-    developer "JerwuQu"
-    homepage "https://wasm4.org/play/wasm4nia"
-    rom ( name "wasm4nia.wasm" size "20725" crc "58a733c5" )
+	name "Rolly Dango"
+	description "A submission to the WASM-4 game jam."
+	developer "William Guimont-Martin"
+	homepage "https://wasm4.org/play/rolly-dango"
+	rom ( name "Rolly Dango.wasm" size 61394 crc 1B1FE548 )
 )
 
 game (
-    name "Watris"
-    description "Watris"
-    developer "aduros"
-    homepage "https://wasm4.org/play/watris"
-    rom ( name "watris.wasm" size "2628" crc "af4f16b8" )
+	name "Rubido"
+	description "Rubido is a little chinese checkers or solitaire game with four difficulties. WASM4 Game Features: Multiple color palettes Options screen Mouse contro"
+	developer "Davy Willems"
+	homepage "https://wasm4.org/play/rubido"
+	rom ( name "Rubido.wasm" size 27463 crc F12C9DF0 )
 )
 
 game (
-    name "Wired"
-    description "Collect coins by solving puzzles with wires and circuits. How many can you get Controls  LeftRight - Move character  UpDown - Interact abovebelow  Z -"
-    developer "desttinghim"
-    homepage "https://wasm4.org/play/wired"
-    rom ( name "wired.wasm" size "36176" crc "d41851" )
+	name "Samurai Revenge"
+	description "Game for WASM-4 Game Jam #2. Earn the highest score in this endless-destroying game driven by greed of revenge. Controls Gamepad controls (EDSF or Arr"
+	developer "Krylan, Dominik Koperkiewicz"
+	homepage "https://wasm4.org/play/samurai-revenge"
+	rom ( name "Samurai Revenge.wasm" size 35899 crc E4416F9D )
 )
 
 game (
-    name "WLOKU"
-    description "A submission to the WASM-4 game jam."
-    developer "12Boti"
-    homepage "https://wasm4.org/play/wloku"
-    rom ( name "wloku.wasm" size "7212" crc "cc9b6fe7" )
+	name "Seal Adventure"
+	description "You control a seal traversing the northern seas while trying to avoid deadly icebergs. The map is procedurally generated using a cellular automata alg"
+	developer "katspaugh"
+	homepage "https://wasm4.org/play/seal-adventure"
+	rom ( name "Seal Adventure.wasm" size 2163 crc A5411727 )
 )
 
 game (
-    name "Wormhole"
-    description "Wormhole"
-    developer "thedavesims"
-    homepage "https://wasm4.org/play/wormhole"
-    rom ( name "wormhole.wasm" size "29599" crc "e25663bc" )
+	name "Seed Creator Showcase"
+	description "Showcase that demonstrates how to create a random seed for (pseudo) random number generation in wasm4. Controls Click the rectangles until you're happ"
+	developer "huntrss@posteo.me"
+	homepage "https://wasm4.org/play/seed-creator-showcase"
+	rom ( name "Seed Creator Showcase.wasm" size 3780 crc C9DF4AA5 )
 )
 
 game (
-    name "Wumpus Hunt"
-    description "A submission to the WASM-4 game jam."
-    developer "troywiegand"
-    homepage "https://wasm4.org/play/wumpus-hunt"
-    rom ( name "wumpus-hunt.wasm" size "20681" crc "6b6c58b9" )
+	name "Shieldshooter"
+	description "A simple platform shooter hacked together in a couple of afternoons to test the new WASM-4 netplay functionality. X to shoot, Z to shield. There is no"
+	developer "Marcus Ramse"
+	homepage "https://wasm4.org/play/shieldshooter"
+	rom ( name "Shieldshooter.wasm" size 3140 crc DB5BDCB0 )
 )
 
 game (
-    name "You Will Return"
-    description "A submission to the WASM-4 game jam."
-    developer "SLiV9"
-    homepage "https://wasm4.org/play/you-will-return"
-    rom ( name "you-will-return.wasm" size "44030" crc "4e634886" )
+	name "Simple Rocket"
+	description "A submission to the WASM-4 game jam."
+	developer "Venkatesh.H"
+	homepage "https://wasm4.org/play/simple-rocket"
+	rom ( name "Simple Rocket.wasm" size 5255 crc 52C839A9 )
 )
 
 game (
-    name "Zoop Zoop Bee Adventures 7"
-    description "Defend your meadows from Dick Dastardly Duck! Drop-in multiplayer with up to four bees! yurm, pollin~  Made by Garrett and June 3  [source available o"
-    developer "Gertkeno"
-    homepage "https://wasm4.org/play/zoopzoop"
-    rom ( name "zoopzoop.wasm" size "21130" crc "b6f5d122" )
+	name "A Simple Space Invaders game"
+	description "Coded live on LogicProjects Youtube Channel as a challenge by mdr721 and as a way to learn Zig :)"
+	developer "LogicProjects"
+	homepage "https://wasm4.org/play/simple-space-invaders"
+	rom ( name "A Simple Space Invaders game.wasm" size 19218 crc 79E3F516 )
 )
 
 game (
-    name "ZxZ"
-    description "A submission to the WASM-4 game jam.  . Source on github"
-    developer "drcz"
-    homepage "https://wasm4.org/play/zxz"
-    rom ( name "zxz.wasm" size "18701" crc "b787b38c" )
+	name "Skip Ahead"
+	description "Skip Ahead"
+	developer "Dennis Ranke"
+	homepage "https://wasm4.org/play/skipahead"
+	rom ( name "Skip Ahead.wasm" size 512 crc A39093A3 )
+)
+
+game (
+	name "Smash Sugar Parallelepipeds"
+	description "A submission to the WASM-4 game jam."
+	developer "Lázaro Albuquerque"
+	homepage "https://wasm4.org/play/smash-sugar-parallelepipeds"
+	rom ( name "Smash Sugar Parallelepipeds.wasm" size 5771 crc FCB05890 )
+)
+
+game (
+	name "Snake"
+	description "Snake"
+	developer "Tomas Tulka"
+	homepage "https://wasm4.org/play/snake"
+	rom ( name "Snake.wasm" size 11394 crc 2C4C440E )
+)
+
+game (
+	name "Snakery"
+	description "Grid based puzzle game. Collect all the $ to solve each level."
+	developer "hahahahaman"
+	homepage "https://wasm4.org/play/snakery"
+	rom ( name "Snakery.wasm" size 18016 crc E537E51F )
+)
+
+game (
+	name "Sokoban"
+	description "A submission to the WASM-4 game jam."
+	developer "Lars Hamre"
+	homepage "https://wasm4.org/play/sokoban"
+	rom ( name "Sokoban.wasm" size 12370 crc A2E635BC )
+)
+
+game (
+	name "Sound Demo"
+	description "Sound Demo"
+	developer "Bruno Garcia"
+	homepage "https://wasm4.org/play/sound-demo"
+	rom ( name "Sound Demo.wasm" size 1518 crc 36DC114D )
+)
+
+game (
+	name "Sound Test"
+	description "This is an attempt to provide an alternative to the existing Sound Demo cart. I tried to make something which could offer a little more control and be"
+	developer "Mr.Rafael"
+	homepage "https://wasm4.org/play/sound-test"
+	rom ( name "Sound Test.wasm" size 35849 crc 069DC510 )
+)
+
+game (
+	name "Space Delivery"
+	description "A submission to the WASM-4 game jam."
+	developer "kirinokirino"
+	homepage "https://wasm4.org/play/space-delivery"
+	rom ( name "Space Delivery.wasm" size 11430 crc 8B43F2B9 )
+)
+
+game (
+	name "Space Kommand"
+	description "A submission to the WASM-4 game jam."
+	developer "korhadris"
+	homepage "https://wasm4.org/play/space-kommand"
+	rom ( name "Space Kommand.wasm" size 31382 crc EB8311EC )
+)
+
+game (
+	name "Spunky"
+	description "A submission to the WASM-4 game jam."
+	developer "Richard McCormack"
+	homepage "https://wasm4.org/play/spunky"
+	rom ( name "Spunky.wasm" size 42213 crc 2D19BCC6 )
+)
+
+game (
+	name "Starfighter Arena"
+	description "A multi-player only space battle. Use the Starfighter Ship Creator to create your ship and use the generated security code to fight other players! Use"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/starfighterarena"
+	rom ( name "Starfighter Arena.wasm" size 23107 crc C5DB9115 )
+)
+
+game (
+	name "Starfighter Ship Creator"
+	description "Create your starship to use in Starfighter Arena. Use the mouse to place vertices on the grid. Ships are horizontally symmetrical. The left mouse butt"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/starfightercreator"
+	rom ( name "Starfighter Ship Creator.wasm" size 14310 crc ECF6E78E )
+)
+
+game (
+	name "StarShard Scavengers"
+	description "A game made for WASM-4 Jam #2 Fly a spaceship around, shoot asteroids, collect StarShards, and play with friends over NETPLAY. Attention This game con"
+	developer "HitchH1k3r"
+	homepage "https://wasm4.org/play/starshard-scavengers"
+	rom ( name "StarShard Scavengers.wasm" size 65475 crc 2535E849 )
+)
+
+game (
+	name "Strikeforce"
+	description "The source code is available on GitHub."
+	developer "iszn_11"
+	homepage "https://wasm4.org/play/strikeforce"
+	rom ( name "Strikeforce.wasm" size 24636 crc 9F7B225B )
+)
+
+game (
+	name "Tail Gunner"
+	description "A submission to the WASM-4 game jam."
+	developer "Dial0"
+	homepage "https://wasm4.org/play/tail-gunner"
+	rom ( name "Tail Gunner.wasm" size 54663 crc F907C736 )
+)
+
+game (
+	name "Tank Wars"
+	description "A multiplayer 3D tank battle game written in C. Hit other tanks with projectiles to score points, the first player to reach 10 points wins. Source on"
+	developer "Shimon Ulewicz"
+	homepage "https://wasm4.org/play/tank-wars"
+	rom ( name "Tank Wars.wasm" size 23840 crc B74005DC )
+)
+
+game (
+	name "Tank Battle"
+	description "A multi-player only tank battle. Drive your tank around the battlefield and destroy the enemy tanks. Use the direction pad to move and the gamepad but"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/tankbattle"
+	rom ( name "Tank Battle.wasm" size 18045 crc 7D218D6C )
+)
+
+game (
+	name "Tankle Adventure"
+	description "A submission to the WASM-4 game jam. Source is available on github. Written in MoonBit. Controls Z: Fire X: Dash (if you have Nitro)"
+	developer "Milky Natas"
+	homepage "https://wasm4.org/play/tankle-adventure"
+	rom ( name "Tankle Adventure.wasm" size 60609 crc 1CD008A5 )
+)
+
+game (
+	name "Tankle"
+	description "A submission to the WASM-4 game jam. Source is available on tankle-mbt. Written in MoonBit."
+	developer "Milky Natas"
+	homepage "https://wasm4.org/play/tankle"
+	rom ( name "Tankle.wasm" size 35296 crc 173A7BA0 )
+)
+
+game (
+	name "Tᴀᴜ Flight Simulator 1.0"
+	description "The aerodynamic model is physically-based, but the plane parameters do not correspond to any particular real-world plane. The renderer is very CPU-int"
+	developer "Tau"
+	homepage "https://wasm4.org/play/taufl"
+	rom ( name "Tᴀᴜ Flight Simulator 1.0.wasm" size 50038 crc A05D2AA6 )
+)
+
+game (
+	name "Text Input"
+	description "Simple example cartridge of how to take text input for your game C source: #include 'wasm4.h' #define MAX(x, y) (((x) > (y)) ? (x) : (y)) #define MIN("
+	developer "Cedric Hutchings"
+	homepage "https://wasm4.org/play/text-input"
+	rom ( name "Text Input.wasm" size 10913 crc DA8A8971 )
+)
+
+game (
+	name "The Legend of GEML: Awakening"
+	description "A submission to the WASM-4 game jam."
+	developer "Robby Zampino, Ethan Hunter"
+	homepage "https://wasm4.org/play/the-legend-of-geml-awakening"
+	rom ( name "The Legend of GEML_ Awakening.wasm" size 46741 crc 628642F9 )
+)
+
+game (
+	name "The Romans Are Coming"
+	description "Place your troops, represented by banners, in regions to score points and gather grain, wood, stone and wine. However, if you fail to meet the (increa"
+	developer "Sander in 't Veld"
+	homepage "https://wasm4.org/play/the-romans-are-coming"
+	rom ( name "The Romans Are Coming.wasm" size 41692 crc 5D790D90 )
+)
+
+game (
+	name "Tic Tac Toe"
+	description "Tic Tac Toe"
+	developer "Christopher Kleine"
+	homepage "https://wasm4.org/play/tictactoe"
+	rom ( name "Tic Tac Toe.wasm" size 13353 crc 33FA5231 )
+)
+
+game (
+	name "Tiny Pong"
+	description "Tiny ping pong game in C, just 1001 bytes and 50 lines of code! Open source"
+	developer "Ztry8"
+	homepage "https://wasm4.org/play/tinypong"
+	rom ( name "Tiny Pong.wasm" size 1001 crc AF051FD6 )
+)
+
+game (
+	name "TO THE CORE"
+	description "Play as pant ant in TO THE CORE a semi-idle game journeying to the center of the earth, and his home. Fear not for Wormie will guide you on your quest"
+	developer "Garrett Hale"
+	homepage "https://wasm4.org/play/to-the-core"
+	rom ( name "TO THE CORE.wasm" size 22881 crc 3C71DC80 )
+)
+
+game (
+	name "Totally not sumo"
+	description "'Totally Not Sumo' is definitively not a sumo game, but it's a game where you need to push your opponents out, while dealing with an controller dualit"
+	developer "André L. Alvares"
+	homepage "https://wasm4.org/play/totally-not-sumo"
+	rom ( name "Totally not sumo.wasm" size 19320 crc F9D108FC )
+)
+
+game (
+	name "Touhou Spirits"
+	description "A Touhou fangame!"
+	developer "Mr.Rafael"
+	homepage "https://wasm4.org/play/touhou-spirits"
+	rom ( name "Touhou Spirits.wasm" size 54944 crc A732E072 )
+)
+
+game (
+	name "Train!"
+	description "Don't crash into the new train car or yourself. Pick up the new train car at the end of your train. Watch the demo to see how it's done. rust source c"
+	developer "Davidian1024"
+	homepage "https://wasm4.org/play/train"
+	rom ( name "Train!.wasm" size 33231 crc A144C50E )
+)
+
+game (
+	name "Trials of the dark sea"
+	description "This is a short game made for the wasm4 2022 jam. It was a lot of fun. The music was made in a rush in the final few days, sorry in advance for how te"
+	developer "ericvilcu"
+	homepage "https://wasm4.org/play/trials-of-the-dark-sea"
+	rom ( name "Trials of the dark sea.wasm" size 50764 crc 931FE52A )
+)
+
+game (
+	name "UEM Mini Game"
+	description "A mini-game developed in Go for the WASM-4 fantasy console. The game features a 3D depth effect obstacle system where the player must dodge obstacles"
+	developer "Thiago Calvi"
+	homepage "https://wasm4.org/play/uem-mini-game"
+	rom ( name "UEM Mini Game.wasm" size 30518 crc A052FEF3 )
+)
+
+game (
+	name "Untangle"
+	description "A relaxing de-cluttering game. How to play You are given a number of points, some of which have lines drawn between them. You can move the points abou"
+	developer "Mota Link"
+	homepage "https://wasm4.org/play/untangle"
+	rom ( name "Untangle.wasm" size 56236 crc 1BCBA0F7 )
+)
+
+game (
+	name "The Royal Game of Ur"
+	description "The Royal Game of Ur for the Wasm4 Use the Up/Down arrows to select a piece to move Press X for everything else (roll, move, etc.) Z is not used. Tile"
+	developer "Gelatin Studios"
+	homepage "https://wasm4.org/play/ur"
+	rom ( name "The Royal Game of Ur.wasm" size 53271 crc 90D94899 )
+)
+
+game (
+	name "Win 4 Fighter (W4F)"
+	description "Discord: Krzysztoφορος#9326 W4F is a minimalistic fighting game based on the core gameplay of Virtua Fighter. Intended exclusively for multiplayer. To"
+	developer "Kris Dabrowski"
+	homepage "https://wasm4.org/play/w4f"
+	rom ( name "Win 4 Fighter (W4F).wasm" size 37095 crc 369A3CEE )
+)
+
+game (
+	name "Wasm Wars"
+	description "A submission to the WASM-4 game jam."
+	developer "Daniel Kiyoshi"
+	homepage "https://wasm4.org/play/wasm-wars"
+	rom ( name "Wasm Wars.wasm" size 14974 crc 8B045FFF )
+)
+
+game (
+	name "WASM-4 City"
+	description "Port of MicroCity for Arduboy to WASM-4 fantasy game console. Use gamepad buttons and direction pad to move around/perform actions. There is currently"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/wasm4-city"
+	rom ( name "WASM-4 City.wasm" size 40983 crc 87D4733D )
+)
+
+game (
+	name "Wasm4 Gameboy VGM Player"
+	description "I wrote an engine that allows Wasm4 to emulate the APU of the Gameboy at just a high level enough so that it doesn't tax on the runtime, it does this"
+	developer "Sine System"
+	homepage "https://wasm4.org/play/wasm4-gbvgm-player"
+	rom ( name "Wasm4 Gameboy VGM Player.wasm" size 44155 crc CE3780EC )
+)
+
+game (
+	name "WASM-4 RPG"
+	description "A simple RPG with leveling/inventory/quests/exploration and a huge procedurally generated map. Currently there is no sound and a limited variety of qu"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/wasm4-rpg"
+	rom ( name "WASM-4 RPG.wasm" size 62165 crc 4CC343AA )
+)
+
+game (
+	name "wasm4nia"
+	description "wasm4nia was originally created for the WASM-4 Game Jam in January of 2022. See here for more details and updates. Input When playing on keyboard, was"
+	developer "Marcus Ramse"
+	homepage "https://wasm4.org/play/wasm4nia"
+	rom ( name "wasm4nia.wasm" size 20725 crc 58A733C5 )
+)
+
+game (
+	name "WASM Invaders"
+	description "Um clássico jogo de tiro arcade, inspirado no clássico Space Invaders e reimaginado em C para o console de fantasia WASM-4. Descrição Pilote sua nave"
+	developer "Lorenzo Henrique Zanetti, Matheus Cenerini Jacomini"
+	homepage "https://wasm4.org/play/wasminvaders"
+	rom ( name "WASM Invaders.wasm" size 4004 crc 3C396FC0 )
+)
+
+game (
+	name "WASMstein 3D"
+	description "Port of Wolfenduino 3D FX to WASM-4 fantasy game console. Maps are randomly generated each playthrough. View WASM-4 version source here. View the orig"
+	developer "Jeremy Zeiber"
+	homepage "https://wasm4.org/play/wasmstein3d"
+	rom ( name "WASMstein 3D.wasm" size 65059 crc 91AE0E2C )
+)
+
+game (
+	name "Waternet"
+	description "This is the WASM-4 version of my Waternet game which is a multiplatform puzzle game initially written for old consoles and handhelds like Game Boy (Co"
+	developer "Davy Willems"
+	homepage "https://wasm4.org/play/waternet"
+	rom ( name "Waternet.wasm" size 29917 crc B129ACAE )
+)
+
+game (
+	name "Watris"
+	description "Watris"
+	developer "Bruno Garcia"
+	homepage "https://wasm4.org/play/watris"
+	rom ( name "Watris.wasm" size 2628 crc AF4F16B8 )
+)
+
+game (
+	name "Wired"
+	description "Collect coins by solving puzzles with wires and circuits. How many can you get? Controls: Left/Right - Move character Up/Down - Interact above/below Z"
+	developer "Louis Pearson"
+	homepage "https://wasm4.org/play/wired"
+	rom ( name "Wired.wasm" size 36176 crc 00D41851 )
+)
+
+game (
+	name "WLOKU"
+	description "A submission to the WASM-4 game jam."
+	developer "12Boti"
+	homepage "https://wasm4.org/play/wloku"
+	rom ( name "WLOKU.wasm" size 7212 crc CC9B6FE7 )
+)
+
+game (
+	name "Wormhole"
+	description "Wormhole"
+	developer "David Sims"
+	homepage "https://wasm4.org/play/wormhole"
+	rom ( name "Wormhole.wasm" size 29599 crc E25663BC )
+)
+
+game (
+	name "Wumpus Hunt"
+	description "A submission to the WASM-4 game jam."
+	developer "Troy Wiegand"
+	homepage "https://wasm4.org/play/wumpus-hunt"
+	rom ( name "Wumpus Hunt.wasm" size 20681 crc 6B6C58B9 )
+)
+
+game (
+	name "You Will Return"
+	description "A submission to the WASM-4 game jam."
+	developer "Sander in 't Veld"
+	homepage "https://wasm4.org/play/you-will-return"
+	rom ( name "You Will Return.wasm" size 44030 crc 4E634886 )
+)
+
+game (
+	name "Zigtris"
+	description "Yet another Tetris [source available on github.com](https://github.com/ringtailsoftware/zigtris-wasm4) Controls Press X to start the game and use the"
+	developer "Toby Jaffey"
+	homepage "https://wasm4.org/play/zigtris"
+	rom ( name "Zigtris.wasm" size 9076 crc 2A2B352D )
+)
+
+game (
+	name "Zoop Zoop Bee Adventures 7"
+	description "Defend your meadows from Dick Dastardly Duck! Drop-in multiplayer with up to four bees! yurm, pollin~ Made by: Garrett and June <3 [source available o"
+	developer "Garrett Hale"
+	homepage "https://wasm4.org/play/zoopzoop"
+	rom ( name "Zoop Zoop Bee Adventures 7.wasm" size 21130 crc B6F5D122 )
+)
+
+game (
+	name "ZxZ"
+	description "A submission to the WASM-4 game jam. Source on github."
+	developer "Ścisław Dercz"
+	homepage "https://wasm4.org/play/zxz"
+	rom ( name "ZxZ.wasm" size 18701 crc B787B38C )
 )
