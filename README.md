@@ -32,6 +32,7 @@ The non-exhaustive list below serves as a guide to various folders in the reposi
   - Subset data coverage for games or variants that do/did not have contemporary documentation by upstream database groups, e.g. Virtual Console variants of SNES games, fan translations of NEC PC-98 games, and a superceded squib for PSP Minis.
   - Game data for monolithic non-generalized cores, e.g. Cave Story, Doom, Quake, etc.
   - Data adapted from upstream sources that cover a relatively small number of systems and can therefore can be housed together in a single repository folder without conflict, e.g. DOS, ScummVM, and GameTDB coverage of GameCube and Wii data.  (Though many dats from upstream groups reside in [`metadat`](metadat).)
+- [`lookatalldat`](lookatalldat) DAT files generated with [`match.py`](scripts/match.py), aggregating and associating information from IGDB, Hasheous, and the rest of this repo's DAT files. See [Generating `lookatalldat`](#generating-lookatalldat).
 - [`metadat`](metadat) Several principal third-party DATs (e.g. No-Intro, Redump, MAME, TOSEC) that each cover a large number of systems and therefore require their own folders in the repository, plus various collections of metadata (some of which may be deprecated). Examples:
   - [`bbfc`](metadat/bbfc) British Board of Film Classification's ratings for age-appropriateness.
   - [`elspa`](metadat/elspa) Age-appropriateness/content ratings from the Entertainment and Leisure Software Publishers Association aka the Association for UK Interactive Entertainment ("Ukie").
@@ -45,7 +46,8 @@ The non-exhaustive list below serves as a guide to various folders in the reposi
   - [`tosec`](metadat/tosec) Bulk import from upstream TOSEC databases. TOSEC data overlaps with and goes beyond other data sets (No-Intro, Redump), but has lower [precedence](#precedence) in libretro and so generally serves as a secondary stopgap.
   - And more
 - [`rdb`](rdb) The compiled RetroArch database files
-- [`scripts`](scripts) Various scripts that are used to maintain the database files
+- [`scripts`](scripts) Various scripts that are used to maintain the database files.
+  - [`igdb.py`](scripts/igdb.py) Fetch game info from IGDB and expose types for other Python modules to use.
 
 ## Fields & Headers
 
@@ -76,7 +78,7 @@ If other `Atari - 2600.dat` files exist in the repository and contain further me
 
 ### Header Guidelines for DATs
 
-__`description`__. The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin, source, and/or purpose of the data and file.  The description and comment header fields are __intended for documentation__ purposes, are ignored by RetroArch, and can be freely changed without issue.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.  If the .dat file is meant to cover a particular niche of data, the description field should explain it.  
+__`description`__. The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin, source, and/or purpose of the data and file.  The description and comment header fields are __intended for documentation__ purposes, are ignored by RetroArch, and can be freely changed without issue.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.  If the .dat file is meant to cover a particular niche of data, the description field should explain it.
 
 __`name`__. The `name` field (and filename) of a `.dat` file header should match the `database` field that is specified in the [.info file for the cores that use it](https://github.com/libretro/libretro-super/tree/master/dist/info) (often but not always `Manufacturer - Systemname` or similar).
 
@@ -235,6 +237,31 @@ Alternatively, you can run the following command to rebuild all the RDBs locally
 make build
 ```
 
+### Generating `lookatalldat`
+
+So many data points, you'll want to say "look at all that metadata!"
+
+The DAT files in [`lookatalldat`](lookatalldat) add metadata from [IGDB](https://www.igdb.com) and [Hasheous](https://hasheous.org) to games that the other DAT files already list.
+[`match.py`](scripts/match.py) matches games only by the [key field](#key-field) that RetroArch uses (CRC or serial), never by name.
+Each generated entry only has fields that no other DAT file gives that game,
+so `lookatalldat` is compiled after all other DATs without overriding any of them.
+Each entry also names the `igdb_id` and `hasheous_id` of the games it was derived from, for debugging;
+`c_converter` leaves both out of the `.rdb`.
+The `[igdb]`, `[hasheous]`, and `[regions]` sections of [`playlists.toml`](playlists.toml) control how `match.py` interprets each source,
+such as which IGDB keywords mean that a game supports rumble.
+
+Generated values reuse the spellings of the existing DAT files, so that RetroArch's Explore menu lists each value once.
+Where those DATs disagree, the spelling used by the most systems' DATs wins.
+Tags (IGDB's keywords) are title-cased.
+`playlists.toml` holds the exceptions: IGDB genres that the DATs name differently, keywords that are synonyms of others,
+and words that title-casing would misspell.
+
+1. Sign up for IGDB and obtain API credentials as described [here](https://api-docs.igdb.com/#getting-started).
+2. Fetch the source data with `scripts/igdb.py fetch` and `scripts/hasheous.py fetch`, which save it to `tmp/igdb` and `tmp/hasheous`.
+3. Run `scripts/match.py index` to join both sources and this repo's DAT files into an intermediate SQLite database at `tmp/index.db`.
+4. Run `scripts/match.py generate` to write one DAT file per system to `lookatalldat`.
+5. Run `make build`.
+
 ### Testing
 
 Make sure filenames are Windows file system compatible, and are not too long (eg. [ecryptfs limits filenames to 143 characters](https://unix.stackexchange.com/questions/32795/what-is-the-maximum-allowed-filename-and-folder-size-with-ecryptfs/32834#32834))...
@@ -247,7 +274,7 @@ find -exec basename '{}' ';' | egrep '^.{144,}$'
 
 ### Small-Scale Corrections
 
-A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). In cases where the `.dat` for the entry at issue originates from an upstream group, best practice is for a contributor to go through the channels/process of that group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A seemingly helpful "fix" to Libretro's copy of the database would be overwritten and lost by the next import from upstream. 
+A vast majority of the database's game information originates from routine imports from upstream data groups (No-Intro, Redump, TOSEC, GameTDB, etc). In cases where the `.dat` for the entry at issue originates from an upstream group, best practice is for a contributor to go through the channels/process of that group. Upstream changes made by the database groups will eventually be imported to the Libretro databases. A seemingly helpful "fix" to Libretro's copy of the database would be overwritten and lost by the next import from upstream.
 
 In cases where the `.dat` in question is created and maintained by Libretro or does not receive bulk over-writes, github contributions are accepted.  Refer to the [repository folder guide](#folder-guide) above and to github Histories for information about which libretro databases are applicable for github contributions.
 
