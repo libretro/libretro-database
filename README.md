@@ -74,6 +74,12 @@ game (
 ```
 If other `Atari - 2600.dat` files exist in the repository and contain further metadata for the same crc, the data would be compiled together in the `.rdb`.  For example, [`metadat/developer/Atari - 2600.dat`](https://github.com/libretro/libretro-database/blob/master/metadat/developer/Atari%20-%202600.dat#L296) would confer `developer "Atari"` to the above data.
 
+### Fields With Multiple Values
+
+Separate multiple values in one field with ` / ` (a slash with a space on each side), e.g. `developer "Capcom / Arika"` or `region "Japan / Europe"`. RetroArch splits only on ` / `, so a slash or comma inside a name stays part of it: `developer "Bally/Sente"`, `developer "Nintendo Co., Ltd."` and `franchise "Ranma 1/2"` are each one value.
+
+Fields that take multiple values: `developer`, `publisher`, `genre`, `category`, `language`, `region`, `franchise`, `tags`, `score`, `media`, `controls`, `artstyle`, `gameplay`, `narrative`, `pacing`, `perspective`, `setting`, `visual` and `vehicular`. A field holds one name per value, so write a series known by several names under one of them, not as a list.
+
 ### Header Guidelines for DATs
 
 __`description`__. The `description " "` and `comment " "` fields within a libretro dat's `clrmamepro ( )` header should be used to clarify the origin, source, and/or purpose of the data and file.  The description and comment header fields are __intended for documentation__ purposes, are ignored by RetroArch, and can be freely changed without issue.  For example, if a .dat includes 3rd party upstream data processed through a github author's build/scrape script(s), the comment and description (or other appropriate header fields) should contain information about _both_ those aspects of the dat's origin.  If the .dat file is meant to cover a particular niche of data, the description field should explain it.  
