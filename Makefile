@@ -3,10 +3,10 @@
 # This file provides some install and building commands for libretro-database.
 #
 # make install
-#     Installs the needed files to the given DESTDIR and INSTALLDIR.
+# Installs the needed files to the given DESTDIR and INSTALLDIR.
 #
 # make build
-#     Builds the RDB files using libretro-super.
+# Builds the RDB files using libretro-super.
 
 PREFIX := /usr
 INSTALLDIR := $(PREFIX)/share/libretro/database
