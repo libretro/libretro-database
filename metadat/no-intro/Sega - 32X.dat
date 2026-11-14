@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Sega - 32X"
 	description "Sega - 32X"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "32x"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -14,7 +14,8 @@ game (
 )
 game (
 	name "After Burner Complete (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84507-00"
 	rom ( name "After Burner Complete (Japan, USA) (En).32x" size 2097152 crc 204044C4 md5 EC9529858CC7961B39F5382B2F657B8F sha1 9CF575FEB036E2F26E78350154D5EB2FD3825325 serial "MK-84507-00" )
 )
@@ -56,13 +57,15 @@ game (
 )
 game (
 	name "Cosmic Carnage (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84700-00"
 	rom ( name "Cosmic Carnage (Japan, USA) (En).32x" size 3145728 crc 7C7BE6A2 md5 32F3002A46A462735AA12CA856CB7652 sha1 9A563ED821B483148339561EBD2B876EFA58847B serial "MK-84700-00" )
 )
 game (
 	name "Darxide (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "MK-84580-00"
 	rom ( name "Darxide (Europe) (En,Fr,De,Es).32x" size 2097152 crc 22D7C906 md5 30EE320F76DB70A836EDEFF2C8CE9CD2 sha1 108B4FFED8643ABDEFA921CFB58389B119B47F3D serial "MK-84580-00" )
 )
@@ -74,7 +77,8 @@ game (
 )
 game (
 	name "Doom (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84506-00"
 	rom ( name "Doom (Japan, USA) (En).32x" size 3145728 crc 208332FD md5 79339867D9D4F58B169753D9A29EA1A5 sha1 B68E9C7AF81853B8F05B8696033DFE4C80327E38 serial "MK-84506-00" )
 )
@@ -87,6 +91,7 @@ game (
 game (
 	name "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Swedish"
 	serial "ROM-Version1.0"
 	rom ( name "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv).32x" size 3145728 crc FB14A7C8 md5 24AAA6EF307D20147CE10E7610E59AA2 sha1 131EBB717DEE4DD1D8F5AB2B9393C23785D3A359 serial "ROM-Version1.0" )
 )
@@ -98,7 +103,8 @@ game (
 )
 game (
 	name "Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84602-00"
 	rom ( name "Golf Magazine Presents - 36 Great Holes Starring Fred Couples (Japan, USA) (En).32x" size 3145728 crc D3D0A2FE md5 B90A2A1EEC015911AA445F9C41D7BC32 sha1 DC77B1E5C888C2C4284766915A5020BB14EE681D serial "MK-84602-00" )
 )
@@ -110,13 +116,14 @@ game (
 )
 game (
 	name "Knuckles' Chaotix (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84503-00"
 	rom ( name "Knuckles' Chaotix (Japan, USA) (En).32x" size 3145728 crc D0B0B842 md5 47B1095E68B053125CD2CD5B1AC4EB50 sha1 0C2FFF7BC79ED26507C08AC47464C3AF19F7CED7 serial "MK-84503-00" )
 )
 game (
 	name "Kolibri (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	serial "MK-84518-00"
 	rom ( name "Kolibri (USA, Europe).32x" size 3145728 crc 20CA53EF md5 6AF6207B1E67072A9104178130C61712 sha1 191AE0B525ECF32664086D8D748E0B35F776DDFE serial "MK-84518-00" )
 )
@@ -151,14 +158,22 @@ game (
 	rom ( name "Mars Sample Program - Texture Test (USA) (Auto Demo).32x" size 24576 crc 9B2AD63F md5 BD0B324D1EDD51103A350E1973179FB7 sha1 885ABD1DE7B67B115057610D94F24B1B4E294706 serial "Version1.0" )
 )
 game (
+	name "Mega Marble World 2 (World) (Proto)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "Mega Marble World 2 (World) (Proto) (Aftermarket) (Unl).32x" size 515852 crc C00C76E6 md5 69FA2B2C75EB430A8C5805A8A6FAF877 sha1 316851E0E036CC21B21551B0E2A31E32A265E92D serial "MK-0000-00" )
+)
+game (
 	name "Metal Head (Europe) (En,Ja)"
 	region "Europe"
+	language "English / Japanese"
 	serial "MK-84511-00"
 	rom ( name "Metal Head (Europe) (En,Ja).32x" size 3145728 crc BF9B8376 md5 5AB011DAE907F77E68EB764BEC3870D8 sha1 2A7767024E23B55FE193D586A96A3BA3C92E7EA8 serial "MK-84511-00" )
 )
 game (
 	name "Metal Head (Japan, USA) (En,Ja)"
-	region "Japan"
+	region "Japan / USA"
+	language "English / Japanese"
 	serial "MK-84511-00"
 	rom ( name "Metal Head (Japan, USA) (En,Ja).32x" size 3145728 crc EF5553FF md5 03CC5D7549D71BA4E9DDC1BEAE3805FB sha1 4E872FBB44ECB2BD730ABD8CC8F32F96B10582C0 serial "MK-84511-00" )
 )
@@ -170,7 +185,8 @@ game (
 )
 game (
 	name "Mortal Kombat II (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "T-08101B-50"
 	rom ( name "Mortal Kombat II (Japan, USA) (En).32x" size 4194304 crc 773C0A85 md5 A95C0E7C1D35FD42CD2E3EB7B06CB6D0 sha1 D55964BD935110AC2D9CBD3B085B7E8B71B11DF2 serial "T-08101B-50" )
 )
@@ -200,11 +216,13 @@ game (
 )
 game (
 	name "NBA Jam - Tournament Edition (World)"
+	region "World"
 	serial "T-8104B-00"
 	rom ( name "NBA Jam - Tournament Edition (World).32x" size 4194304 crc 6B7994AA md5 966A5E00DD7BCDC70B05C5A0C0E8F7AA sha1 C8AF3E74C49514669BA6652EC0C81BCCF77873B6 serial "T-8104B-00" )
 )
 game (
 	name "NFL Quarterback Club (World)"
+	region "World"
 	serial "T-8102B-00"
 	rom ( name "NFL Quarterback Club (World).32x" size 3145728 crc 0BC7018D md5 E273C10114351CDAFEBA1ABCCCA8909D sha1 A0DC24F2F3A7FC5BFD12791CF25AF7F7888843CF serial "T-8102B-00" )
 )
@@ -222,7 +240,7 @@ game (
 )
 game (
 	name "Primal Rage (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	serial "MK-84705-00"
 	rom ( name "Primal Rage (USA, Europe).32x" size 4194304 crc E78A4D28 md5 E1EFC5804D3360E7B19F7542219BF964 sha1 5084DCCA51D76173C383AB7D04CBC661673545F7 serial "MK-84705-00" )
 )
@@ -239,6 +257,12 @@ game (
 	rom ( name "Sangokushi IV (Japan).32x" size 4194304 crc E4DE7625 md5 F4BB8844D77442DBB5BEE78D0246B456 sha1 74A3BA27C55CFF12409BF6C9324ECE6247ABBAD1 serial "T-7601A-00" )
 )
 game (
+	name "Sonic the Hedgehog (World)"
+	region "World"
+	serial "00001009-32"
+	rom ( name "Sonic the Hedgehog (World) (Aftermarket) (Unl).32x" size 533958 crc 2221C701 md5 8C344084C0FEE5BE7D8C17FBD6B47B51 sha1 6BFE157720429063F3EB0D4DD9D86D9E087DDDE3 serial "00001009-32" )
+)
+game (
 	name "Soulstar X (USA) (Proto)"
 	region "USA"
 	serial "T-11505B-50"
@@ -252,7 +276,8 @@ game (
 )
 game (
 	name "Space Harrier (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84505-00"
 	rom ( name "Space Harrier (Japan, USA) (En).32x" size 2097152 crc 86E7F989 md5 6180E973F678BFC96705E8BE4E0783F1 sha1 F32A52A7082761982024E40291DBD962A835B231 serial "MK-84505-00" )
 )
@@ -289,30 +314,32 @@ game (
 game (
 	name "Stellar Assault (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "GM-04010-00"
 	rom ( name "Stellar Assault (Japan) (En).32x" size 2097152 crc FCE4C8C7 md5 5F6C601DCECCA937B6F2C2161E4566FE sha1 FF4F1A2DDED85F3AD43BF28A85C46AD8595D5614 serial "GM-04010-00" )
 )
 game (
 	name "Stellar Assault (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	serial "MK-84509-00"
 	rom ( name "Stellar Assault (USA, Europe).32x" size 2097152 crc 60C49E4D md5 1415A8675ADF3E8647B3DF673B50056D sha1 561C8C63DBCABC0B1B6F31673CA75A0BDE7ABC72 serial "MK-84509-00" )
 )
 game (
 	name "T-MEK (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	serial "MK-84520-00"
 	rom ( name "T-MEK (USA, Europe).32x" size 3145728 crc 66D2C48F md5 1B06C84CAF09206A8D9F0BB3EAABA512 sha1 173C8425921D83DB3E8D181158E7599364F4C0F6 serial "MK-84520-00" )
 )
 game (
 	name "Tempo (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "00084504-00"
 	rom ( name "Tempo (Japan, USA) (En).32x" size 3145728 crc 14E5C575 md5 30989C83D4E4EA3C35A1F3E2620B8465 sha1 6673BA83570B4F2C1B4A22415A56594C3CC6C6A9 serial "00084504-00" )
 )
 game (
 	name "Toughman Contest (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	serial "T-5001B-00"
 	rom ( name "Toughman Contest (USA, Europe).32x" size 4194304 crc 14EAC7A6 md5 386D99D132CE5699ADE81B4473CEF5B4 sha1 7588B0B8F4E93D5FDC920D3AB7E464154E423DA9 serial "T-5001B-00" )
 )
@@ -324,7 +351,8 @@ game (
 )
 game (
 	name "Virtua Fighter (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84701-00"
 	rom ( name "Virtua Fighter (Japan, USA) (En).32x" size 4194304 crc B5DE9626 md5 901E97C9F731FBDF1F1EAD0FBF58249A sha1 F35754F4BFE3A53722D7A799F88FACE0FD13C424 serial "MK-84701-00" )
 )
@@ -341,10 +369,11 @@ game (
 	rom ( name "Virtua Racing Deluxe (Europe).32x" size 3145728 crc 27F14B5F md5 C30A6430B1A7E819BD2DDE63A41D4D57 sha1 BB26DDDE26CD07191D872E8A76A170CA3326F781 serial "MK-84601-00" )
 )
 game (
-	name "Virtua Racing Deluxe (Japan)"
+	name "Virtua Racing Deluxe (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "GX5001-00"
-	rom ( name "Virtua Racing Deluxe (Japan).32x" size 3145728 crc 0908E888 md5 08CAE0A96D9EE07001C6E1C247D407C6 sha1 1C64E80EB164CA8D6C6587A55AD60385BA1DAF27 serial "GX5001-00" )
+	rom ( name "Virtua Racing Deluxe (Japan) (En).32x" size 3145728 crc 0908E888 md5 08CAE0A96D9EE07001C6E1C247D407C6 sha1 1C64E80EB164CA8D6C6587A55AD60385BA1DAF27 serial "GX5001-00" )
 )
 game (
 	name "Virtua Racing Deluxe (USA)"
@@ -354,6 +383,7 @@ game (
 )
 game (
 	name "WWF Raw (World)"
+	region "World"
 	serial "T-8103B-00"
 	rom ( name "WWF Raw (World).32x" size 4194304 crc 8EB7CD2C md5 B3788F861803D21CFA0E559695835F44 sha1 94B974F2F69F0C10BC18B349FA4FF95CA56FA47B serial "T-8103B-00" )
 )
@@ -362,6 +392,36 @@ game (
 	region "USA"
 	serial "T-8110B-00"
 	rom ( name "WWF WrestleMania - The Arcade Game (USA).32x" size 4194304 crc 61833503 md5 8456CAE9975BA6CB041C4EF2BE54B1A1 sha1 551EEDC963CBA0E1410B3D229B332EF9EA061469 serial "T-8110B-00" )
+)
+game (
+	name "Wolfenstein 3D (World) (Demo 1)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "Wolfenstein 3D (World) (Demo 1) (Aftermarket) (Unl).32x" size 2794984 crc 078371C1 md5 7AD6263CDE1964750BC780ABF4C1F32A sha1 0970B9C3A1B6B5F09CF357568751DFEFBEB82617 serial "MK-0000-00" )
+)
+game (
+	name "Wolfenstein 3D (World) (Demo 2)"
+	region "World"
+	serial "20130104-0"
+	rom ( name "Wolfenstein 3D (World) (Demo 2) (Aftermarket) (Unl).32x" size 2752512 crc E2D23B01 md5 8DED3EF8DC40A7C5D6510388FB329229 sha1 2380221DDD51FF2387AC6C83785DB27E87C6A1AA serial "20130104-0" )
+)
+game (
+	name "Wolfenstein 3D (World) (Demo 3)"
+	region "World"
+	serial "20130104-0"
+	rom ( name "Wolfenstein 3D (World) (Demo 3) (Aftermarket) (Unl).32x" size 2752512 crc 4849DD80 md5 1603F5967963E039DB296017E3E0C01D sha1 B98A17A55163E2289DC26C3E1DC3635D74FD0580 serial "20130104-0" )
+)
+game (
+	name "Wolfenstein 3D - Spear of Destiny (World) (Demo 1)"
+	region "World"
+	serial "20130104-0"
+	rom ( name "Wolfenstein 3D - Spear of Destiny (World) (Demo 1) (Aftermarket) (Unl).32x" size 2359296 crc 2832CD01 md5 93F1142C5F25BFB36057C1F1DA6862DC sha1 6168D59C6EA3579E8E68A6F09056E01AFA5729FE serial "20130104-0" )
+)
+game (
+	name "Wolfenstein 3D - Spear of Destiny (World) (Demo 2)"
+	region "World"
+	serial "20130104-0"
+	rom ( name "Wolfenstein 3D - Spear of Destiny (World) (Demo 2) (Aftermarket) (Unl).32x" size 2359296 crc E21DDB99 md5 41FB46D6CC214100F15E3E992D88579D sha1 B26666043156CD467DB4B0B4DE6F02D2CF77EB17 serial "20130104-0" )
 )
 game (
 	name "World Series Baseball Starring Deion Sanders (USA)"
@@ -376,8 +436,33 @@ game (
 	rom ( name "X-Men (USA) (Proto).32x" size 4194304 crc D61FEBC0 md5 BDD19A34A887A4AA6067CCFB617B9041 sha1 CD3FA2ACE2FDBF4B6402CB52EEB208010BF31029 serial "ROM-Version1.0" )
 )
 game (
+	name "Yeti3D (World) (Demo 1)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "Yeti3D (World) (Demo 1) (Aftermarket) (Unl).32x" size 524288 crc 9E9CF092 md5 47704B908F3EFC013BC29BD7205BAAA0 sha1 8E567AE7B0894228727593A6ED9EEF560683E478 serial "MK-0000-00" )
+)
+game (
+	name "Yeti3D (World) (Demo 2)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "Yeti3D (World) (Demo 2) (Aftermarket) (Unl).32x" size 1048576 crc 228F23D3 md5 DDD354F912F296DDE725C90721BB73FA sha1 E4C99E4706BE7A6BD8FC7FCD620E4BC019BD6573 serial "MK-0000-00" )
+)
+game (
 	name "Zaxxon's Motherbase 2000 (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "MK-84512-00"
 	rom ( name "Zaxxon's Motherbase 2000 (Japan, USA) (En).32x" size 2097152 crc 447D44BE md5 BD32A5E46D0159DC88CB31EA4BD9D899 sha1 60C390F76C394BDD221936C21AECBF98AEC49A3D serial "MK-84512-00" )
+)
+game (
+	name "xRick (World)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "xRick (World) (Aftermarket) (Unl).32x" size 4194304 crc FD07DB46 md5 F642E289BFB670022E0AE001786BDF94 sha1 F951890E6CD3CFD5E4CBA13BE8C8AEA4F70D36A5 serial "MK-0000-00" )
+)
+game (
+	name "xRick (World) (v1.1)"
+	region "World"
+	serial "MK-0000-00"
+	rom ( name "xRick (World) (v1.1) (Aftermarket) (Unl).32x" size 4194304 crc 79CB7F70 md5 B3836ED6AD6A07E99DE0F8E5896D17CF sha1 62C941DCF36BF30DFD8311609AE6C4BD123CC6A6 serial "MK-0000-00" )
 )

@@ -1,20 +1,22 @@
 clrmamepro (
 	name "Nintendo - Nintendo 64"
 	description "Nintendo - Nintendo 64"
-	version "2026.10.07"
-	extensions "bin|cmd|sm|v64|z64"
+	version "2026.11.14"
+	extensions "bin|cmd|v64|z64"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
 	name "007 - The World Is Not Enough (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NO7P"
 	rom ( name "007 - The World Is Not Enough (Europe) (En,Fr,De).z64" size 33554432 crc 002C3B2A md5 34AB1DEA3111A233A8B5C5679DE22E83 sha1 7FDE668850A7E1A8402AB94BB09538A537A7E38B serial "NO7P" )
 )
 game (
 	name "007 - The World Is Not Enough (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NO7P"
 	rom ( name "007 - The World Is Not Enough (Europe) (En,Fr,De).v64" size 33554432 crc 7F030D3A md5 7FDC9151F2BD8F6B6F3CBA3BB93A06A2 sha1 441BDF924566E6475AA49BAB7A199DC06D32A6D5 serial "NO7P" )
 )
@@ -33,51 +35,63 @@ game (
 game (
 	name "1080 Snowboarding (Europe) (En,Ja,Fr,De)"
 	region "Europe"
+	language "English / Japanese / French / German"
 	serial "NTEP"
 	rom ( name "1080 Snowboarding (Europe) (En,Ja,Fr,De).z64" size 16777216 crc 75A21679 md5 632C98CF281CDA776E66685B278A4FA6 sha1 637D92B08DBFE7C2F9D5E338835B1FCE5F4A87D0 serial "NTEP" )
 )
 game (
 	name "1080 Snowboarding (Europe) (En,Ja,Fr,De)"
 	region "Europe"
+	language "English / Japanese / French / German"
 	serial "NTEP"
 	rom ( name "1080 Snowboarding (Europe) (En,Ja,Fr,De).v64" size 16777216 crc B0256101 md5 F58B3055A2C642FB2F563F11B6B597EA sha1 DA7BCB78CF78333D7515B77F676FD45473B5B506 serial "NTEP" )
 )
 game (
 	name "1080 Snowboarding (Japan, USA) (En,Ja)"
-	region "Japan"
+	region "Japan / USA"
+	language "English / Japanese"
 	serial "NTEA"
 	rom ( name "1080 Snowboarding (Japan, USA) (En,Ja).z64" size 16777216 crc 08FE81C7 md5 FA27089C425DBAB99F19245C5C997613 sha1 79CD1166C365E5809DEC9B62E6D40D6032D5DB3A serial "NTEA" )
 )
 game (
 	name "1080 Snowboarding (Japan, USA) (En,Ja)"
-	region "Japan"
+	region "Japan / USA"
+	language "English / Japanese"
 	serial "NTEA"
 	rom ( name "1080 Snowboarding (Japan, USA) (En,Ja).v64" size 16777216 crc D1744951 md5 18381C8F37E2B29F5940EEA9B5F96814 sha1 5F837C13A2FB3C8CDFD6FB720BD4A963AB515632 serial "NTEA" )
 )
 game (
 	name "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet)"
 	region "USA"
+	language "English / Japanese / French / German"
 	rom ( name "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet).z64" size 16777216 crc 67E010D2 md5 C6061AD1B4446C4DB57CDF094DA7C534 sha1 7266EEF53AF8F2C21F3E3288258121F97EDDFA7E )
 )
 game (
 	name "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet)"
 	region "USA"
+	language "English / Japanese / French / German"
 	rom ( name "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet).v64" size 16777216 crc 4F5E35D9 md5 9AC2E60A1111C03C3DBED3845E55CD52 sha1 D74E47810EAA94929406004E82ECEABC3DC70FE5 )
 )
 game (
 	name "2048 (World) (En,Fr,Es)"
+	region "World"
+	language "English / French / Spanish"
 	rom ( name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl).z64" size 16777216 crc 2EA39D5C md5 0C7B165CF3553EF550067D0C46681097 sha1 B855C12D25C4DF358DF7C98810857E1E5C7FD5A4 )
 )
 game (
 	name "2048 (World) (En,Fr,Es)"
+	region "World"
+	language "English / French / Spanish"
 	rom ( name "2048 (World) (En,Fr,Es) (Aftermarket) (Unl).v64" size 16777216 crc 1F41E918 md5 8A4B29033E86789B10B4AD987D5F3F5B sha1 77C14C54A6B899DC40B4EA59697637579002CD35 )
 )
 game (
 	name "240p Test Suite (World) (Proto)"
+	region "World"
 	rom ( name "240p Test Suite (World) (Proto) (NTSC) (Aftermarket) (Unl).z64" size 11567104 crc CD3FE53B md5 8CFD75765F6B8FC41215EEA2A324798F sha1 1F9B40CFCE4FB8885BCC25F9148B928602249C21 )
 )
 game (
 	name "240p Test Suite (World) (Proto)"
+	region "World"
 	rom ( name "240p Test Suite (World) (Proto) (NTSC) (Aftermarket) (Unl).v64" size 11567104 crc 474C6450 md5 CC064380AE06957F18E39E43374C8957 sha1 362CA1DF3384C1E92724471208552ED690FB626F )
 )
 game (
@@ -86,6 +100,7 @@ game (
 	releasemonth "10"
 	releaseday "07"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "N4WX"
 	rom ( name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07).z64" size 33554432 crc 7E718143 md5 0A5ACFEA0C7CF68AE25202040D5AD1EB sha1 3774E87AA383220060D330314F2C5BBB872F72CE serial "N4WX" )
 )
@@ -95,18 +110,21 @@ game (
 	releasemonth "10"
 	releaseday "07"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "N4WX"
 	rom ( name "40 Winks (Europe) (En,Es,It) (Proto) (1999-10-07).v64" size 33554432 crc 366ED851 md5 0E76998245819741E9693B7ABB2C1D9C sha1 2EA62384321E12E2B9C33196AE662A77B2125AE4 serial "N4WX" )
 )
 game (
 	name "40 Winks (Europe) (En,Fr,Es) (Piko Interactive)"
 	region "Europe"
+	language "English / French / Spanish"
 	serial "N4WZ"
 	rom ( name "40 Winks (Europe) (En,Fr,Es) (Piko Interactive).z64" size 33554432 crc 93C57D0B md5 B470B6BB0C0BE834FF357EB2D6AE9724 sha1 282B97C6A6EB79535E618FC2651B6156FFF65EA4 serial "N4WZ" )
 )
 game (
 	name "40 Winks (Europe) (En,Fr,Es) (Piko Interactive)"
 	region "Europe"
+	language "English / French / Spanish"
 	serial "N4WZ"
 	rom ( name "40 Winks (Europe) (En,Fr,Es) (Piko Interactive).v64" size 33554432 crc 39AB592A md5 9766CED5CD0241ECC00414CC27E30EEE sha1 D45BD5051515C8434DA60ABD6862EEEE29CCA8E1 serial "N4WZ" )
 )
@@ -202,18 +220,22 @@ game (
 )
 game (
 	name "77a (World) (Presence of Mind '98)"
+	region "World"
 	rom ( name "77a (World) (Presence of Mind '98) (Unl).z64" size 1310720 crc EF6D1CA6 md5 7D6AC6295EF6A0ABB3D4594AF407B7A6 sha1 498920D254664CE2134A1EEB8986385EB4CA3227 )
 )
 game (
 	name "77a (World) (Presence of Mind '98)"
+	region "World"
 	rom ( name "77a (World) (Presence of Mind '98) (Unl).v64" size 1310720 crc 75AA6C84 md5 AA11E04489FF791957A1AE613F0ED389 sha1 9714867D4826623180906BDBD75A38B1A1489928 )
 )
 game (
 	name "77a Special Edition (World) (Summer64)"
+	region "World"
 	rom ( name "77a Special Edition (World) (Summer64) (Unl).z64" size 2883584 crc 0C84AF76 md5 14E8E1761B8994C54B304418CEA49773 sha1 2F9D855C622BCC6512F7AFC2BDFA25178FC61A4B )
 )
 game (
 	name "77a Special Edition (World) (Summer64)"
+	region "World"
 	rom ( name "77a Special Edition (World) (Summer64) (Unl).v64" size 2883584 crc 0F864070 md5 BFFBB7B3801128C8F06FB04E9C7BCE32 sha1 F2A377A4B29F2BB984DB38D3EA2AA9C08E2AEBC5 )
 )
 game (
@@ -241,12 +263,14 @@ game (
 game (
 	name "AeroFighters Assault (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSAP"
 	rom ( name "AeroFighters Assault (Europe) (En,Fr,De).z64" size 12582912 crc 6A2B08DA md5 7558E3DA7225712936D3BA3DCE210C36 sha1 F1057A278A06DCFBC7EB8B6B7679AB879255F977 serial "NSAP" )
 )
 game (
 	name "AeroFighters Assault (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSAP"
 	rom ( name "AeroFighters Assault (Europe) (En,Fr,De).v64" size 12582912 crc E493E46C md5 35C77035BFF9E20C3EE805CE5583E6B5 sha1 7849993E61D690DECE9C5524CE2831D7B2340F34 serial "NSAP" )
 )
@@ -265,12 +289,14 @@ game (
 game (
 	name "AeroGauge (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NAGP"
 	rom ( name "AeroGauge (Europe) (En,Fr,De).z64" size 8388608 crc 040B0046 md5 05056045447BF1FBA8F9878A7F6009F3 sha1 38AADD684AD7662B02BBC29EDDDADE9C9E16A3C0 serial "NAGP" )
 )
 game (
 	name "AeroGauge (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NAGP"
 	rom ( name "AeroGauge (Europe) (En,Fr,De).v64" size 8388608 crc D8CA6C8E md5 45AA24B9C09F007590CEF795EBB67A94 sha1 1645CCF3C77D41B70BA7F3A6C7155EC819728CF0 serial "NAGP" )
 )
@@ -384,21 +410,25 @@ game (
 )
 game (
 	name "Alien Sun (World) (Proto) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Alien Sun (World) (Proto) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 2162688 crc C49538E7 md5 82B3F5139A8F843D5E8D6A5C7D74E994 sha1 99340BEA6E216B37DA07E1A16AA39248FC228A6F )
 )
 game (
 	name "Alien Sun (World) (Proto) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Alien Sun (World) (Proto) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 2162688 crc E424429E md5 87A2497FEB2FB5B125834E715E367276 sha1 44DEDC7D70DD0F01ECC62CEF377C897595647DF4 )
 )
 game (
 	name "All Star Tennis '99 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTNP"
 	rom ( name "All Star Tennis '99 (Europe) (En,Fr,De,Es,It).z64" size 8388608 crc 996E845F md5 E3F4C868917A12BD5E84D94D1C260C7D sha1 09DDBD45F4962735DEF65399B5792E3BB5BD7D3C serial "NTNP" )
 )
 game (
 	name "All Star Tennis '99 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTNP"
 	rom ( name "All Star Tennis '99 (Europe) (En,Fr,De,Es,It).v64" size 8388608 crc E718347D md5 E302824280FA6AF35FCC9BA079ABFBCD sha1 85D2B8DED8D2A6D9BBF1CF80C9A0422FB338FD63 serial "NTNP" )
 )
@@ -525,12 +555,14 @@ game (
 game (
 	name "Army Men - Sarge's Heroes (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NAMP"
 	rom ( name "Army Men - Sarge's Heroes (Europe) (En,Fr,De).z64" size 8388608 crc E79048E2 md5 53E2872612760133AB7B2CC2E22B847C sha1 00E594FA64DA61C2AD3138A31A22B9854BB3FAFA serial "NAMP" )
 )
 game (
 	name "Army Men - Sarge's Heroes (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NAMP"
 	rom ( name "Army Men - Sarge's Heroes (Europe) (En,Fr,De).v64" size 8388608 crc B2B54CC1 md5 06B9E71B0ACC83F8C75BEFD2EC602B52 sha1 C6470921EA8B5D3565383D94E98B6FF8B39F7C14 serial "NAMP" )
 )
@@ -560,10 +592,12 @@ game (
 )
 game (
 	name "Asteroids 64 (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Asteroids 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 1052672 crc 835BF07B md5 E01C594074002A0C7B947728AD373588 sha1 0405381FD144072DDFB6BABD4175F6D0329FD81F )
 )
 game (
 	name "Asteroids 64 (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Asteroids 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 1052672 crc 3385381A md5 3415B8539C81EF9AAFE3BCC2DEB7A7D5 sha1 465566653650767833117B6DB6A6F9EB2779DF0C )
 )
 game (
@@ -580,10 +614,12 @@ game (
 )
 game (
 	name "Ataxx 64 (World)"
+	region "World"
 	rom ( name "Ataxx 64 (World) (Unl).z64" size 1572864 crc 53976AC5 md5 CF63AB6AF5FBD5DBFE500DD9A658E069 sha1 6E029E869357F41CE9A8510B1865574B3FBCDC32 )
 )
 game (
 	name "Ataxx 64 (World)"
+	region "World"
 	rom ( name "Ataxx 64 (World) (Unl).v64" size 1572864 crc F9FBA914 md5 B7416B00C703255EE1F097738935A565 sha1 BD42F7F4A5EFF0F4677A608DD2541053AF818CCC )
 )
 game (
@@ -685,12 +721,14 @@ game (
 game (
 	name "Banjo-Kazooie (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBKP"
 	rom ( name "Banjo-Kazooie (Europe) (En,Fr,De).z64" size 16777216 crc 525899C9 md5 06A43BACF5C0687F596DF9B018CA6D7F sha1 BB359A75941DF74BF7290212C89FBC6E2C5601FE serial "NBKP" )
 )
 game (
 	name "Banjo-Kazooie (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBKP"
 	rom ( name "Banjo-Kazooie (Europe) (En,Fr,De).v64" size 16777216 crc 4AF7C16B md5 CEECE9F299B2870C9A0D545018F1C43F sha1 908469A0B4F4B7473E85D3C981520F32CF3E3C70 serial "NBKP" )
 )
@@ -733,12 +771,14 @@ game (
 game (
 	name "Banjo-Tooie (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NB7P"
 	rom ( name "Banjo-Tooie (Europe) (En,Fr,De,Es).z64" size 33554432 crc 1EC12F5A md5 8B2E56F18421A67BCA861427453A1E19 sha1 93BF2FAC1387320AD07251CB4B64FD36BAC1D7A6 serial "NB7P" )
 )
 game (
 	name "Banjo-Tooie (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NB7P"
 	rom ( name "Banjo-Tooie (Europe) (En,Fr,De,Es).v64" size 33554432 crc 5EE620FB md5 3A585EF93B327D47CB0095EEA98D766A sha1 1E2CA48F786983C487A8D0E17C496FCCF5411DFE serial "NB7P" )
 )
@@ -793,12 +833,14 @@ game (
 game (
 	name "Batman of the Future - Return of the Joker (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NJQP"
 	rom ( name "Batman of the Future - Return of the Joker (Europe) (En,Fr,De).z64" size 4194304 crc 82A4BB8A md5 A5EE8A6C34863E3D0EB8C06AE8668B30 sha1 3954131395F98E605072BEA11CC85842DA58F754 serial "NJQP" )
 )
 game (
 	name "Batman of the Future - Return of the Joker (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NJQP"
 	rom ( name "Batman of the Future - Return of the Joker (Europe) (En,Fr,De).v64" size 4194304 crc 86AA921C md5 7AD96BE5F289276B6A9D7163B19D2BC4 sha1 16977E84FDA45BBDE7882A73A9685426FD4B458C serial "NJQP" )
 )
@@ -827,12 +869,14 @@ game (
 game (
 	name "BattleTanx - Global Assault (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBQP"
 	rom ( name "BattleTanx - Global Assault (Europe) (En,Fr,De).z64" size 8388608 crc C99C6030 md5 D6E667FE10AFE8F7116888EFDE98AE0E sha1 AEFADE7A37A4716DDC82A6B67BA085CBF7C27259 serial "NBQP" )
 )
 game (
 	name "BattleTanx - Global Assault (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBQP"
 	rom ( name "BattleTanx - Global Assault (Europe) (En,Fr,De).v64" size 8388608 crc EC02C5AD md5 2589AE458EBFC86100DC039CD0854CFA sha1 EC346910B30E5C5C91CF4394633D226EA604BB57 serial "NBQP" )
 )
@@ -873,12 +917,14 @@ game (
 game (
 	name "Beetle Adventure Racing! (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NNSP"
 	rom ( name "Beetle Adventure Racing! (Europe) (En,Fr,De).z64" size 16777216 crc 5B6C6E4C md5 A94135D163E6091C960ADC918C1FB8A7 sha1 85B3B95D587D2646F781B04CF5239804D105685A serial "NNSP" )
 )
 game (
 	name "Beetle Adventure Racing! (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NNSP"
 	rom ( name "Beetle Adventure Racing! (Europe) (En,Fr,De).v64" size 16777216 crc E6F43F48 md5 939BDAF220EDDCEFC8BE78A5B3B98744 sha1 B185ED71668F9BD4F6AEEF5EDB31E03C1A119AE0 serial "NNSP" )
 )
@@ -897,37 +943,45 @@ game (
 game (
 	name "Beetle Adventure Racing! (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NNSE"
 	rom ( name "Beetle Adventure Racing! (USA) (En,Fr,De).z64" size 16777216 crc F4A97C73 md5 CF97C336479DDBF1217E4DDE89D9D2D3 sha1 E5AB4D226C08D22F68A2EDCC48870203E67454B8 serial "NNSE" )
 )
 game (
 	name "Beetle Adventure Racing! (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NNSE"
 	rom ( name "Beetle Adventure Racing! (USA) (En,Fr,De).v64" size 16777216 crc E3517FD8 md5 5559A7AAE79E960851CE754F873280CB sha1 52171429B655825A02864A94499816187D4014DC serial "NNSE" )
 )
 game (
 	name "Belushi Speed Ball - What, Us Worry (World) (Audio)"
+	region "World"
 	rom ( name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl).z64" size 53714352 crc 6B025E6A md5 BC912874226DAC9539508180C36190D9 sha1 96678AF80F6ABAC0C0042A57089432B2945870B5 )
 )
 game (
 	name "Belushi Speed Ball - What, Us Worry (World) (Audio)"
+	region "World"
 	rom ( name "Belushi Speed Ball - What, Us Worry (World) (Audio) (Aftermarket) (Unl).v64" size 53714352 crc 43606121 md5 3EFBD54D64D677A6A53351207B35E9E8 sha1 A2DB0CD489745C574C8FBC33E07AA404102FBCC5 )
 )
 game (
 	name "Big Burger (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Big Burger (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).z64" size 1052680 crc 38D45AE4 md5 FCACCC60351A9E7DE6647CE71E9C56C3 sha1 13C06F7E79BDF1D83E9247ABB1E78EF3E55C6B8D )
 )
 game (
 	name "Big Burger (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Big Burger (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).v64" size 1052680 crc A68BEF28 md5 12C5539CE95A2597C02511C551B7D844 sha1 550DC7467BB5E114E0270A788D5B295A15508DC5 )
 )
 game (
 	name "Big Burger (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Big Burger (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).z64" size 1052680 crc F497E80D md5 1B1C50721D35C199FB4A5B237DE70EF0 sha1 D6CABD572A34C3BD7E47B69E3618B160D5417768 )
 )
 game (
 	name "Big Burger (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Big Burger (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).v64" size 1052680 crc 84D282DE md5 348D0723C8354D38AF4C8A535D94011A sha1 0EF43EE5ADAF794FD7232A6154D2C54497779F8D )
 )
 game (
@@ -980,29 +1034,35 @@ game (
 )
 game (
 	name "Bird Kart (World) (Demo 1) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Bird Kart (World) (Demo 1) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 2097152 crc 29F03DD8 md5 794E6096BEC6349EA09307268A3140AC sha1 78D521D1A229E14ED033807CE407094B510E65DC )
 )
 game (
 	name "Bird Kart (World) (Demo 1) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Bird Kart (World) (Demo 1) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 2097152 crc 910A226A md5 742E0BB9C8F94DD57752CD5872D31438 sha1 8039EC52DB0250C3E581A2544A1F98257074A91D )
 )
 game (
 	name "Bird Kart (World) (Demo 2)"
+	region "World"
 	rom ( name "Bird Kart (World) (Demo 2) (Aftermarket) (Unl).z64" size 2632992 crc C9722D3E md5 7E7B54BDC564B83CEB45FD9211CE3D2E sha1 097ADE9F970BD4D381692775545049FC32A5D79A )
 )
 game (
 	name "Bird Kart (World) (Demo 2)"
+	region "World"
 	rom ( name "Bird Kart (World) (Demo 2) (Aftermarket) (Unl).v64" size 2632992 crc ADEB8608 md5 6A147CA500DCF6759DB63244CBA188B1 sha1 A428136147D5C1EF38F5F71CBB697F254E236942 )
 )
 game (
 	name "Blast Corps (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NBCP"
 	rom ( name "Blast Corps (Europe) (En,De).z64" size 8388608 crc 4C820695 md5 889D4D337AD11CE94357511C725EAB6A sha1 460212600F8B9F0DA95219C4C7330F2E626D9A7E serial "NBCP" )
 )
 game (
 	name "Blast Corps (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NBCP"
 	rom ( name "Blast Corps (Europe) (En,De).v64" size 8388608 crc 2FF810CF md5 BD819802309E8E65CCC9F8EAB8361223 sha1 9D42BE8A947E64D4862D8A7C1FAE57E10C2257EE serial "NBCP" )
 )
@@ -1045,12 +1105,14 @@ game (
 game (
 	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NBPP"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl).z64" size 16777216 crc 8FB41658 md5 31B4A8ED52B48E756B344C9F22736E50 sha1 D641AFCA71A7D83587F9D7105D5E6DFFDEAA8016 serial "NBPP" )
 )
 game (
 	name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NBPP"
 	rom ( name "Blues Brothers 2000 (Europe) (En,Fr,De,Es,It,Nl).v64" size 16777216 crc 56507793 md5 37D5409EBB172E00CEFAA8B1F14C39B2 sha1 A3E21EC8BF3DE87D257F254AB68879981EAED4A9 serial "NBPP" )
 )
@@ -1069,12 +1131,14 @@ game (
 game (
 	name "Body Harvest (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBHP"
 	rom ( name "Body Harvest (Europe) (En,Fr,De).z64" size 12582912 crc 6A04CDAE md5 B27FA5E9AD0CB47BB3A74FFAC7BC8EDF sha1 67750E2E7AB46FEDF65A271AB7F4C7AAD92AE355 serial "NBHP" )
 )
 game (
 	name "Body Harvest (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NBHP"
 	rom ( name "Body Harvest (Europe) (En,Fr,De).v64" size 12582912 crc 2761BDAE md5 1F065DB3BAA31487DE47DEFE56DCD374 sha1 C366CEC6DFE3B724648486F0940D9A2C091C5E14 serial "NBHP" )
 )
@@ -1235,12 +1299,14 @@ game (
 game (
 	name "Buck Bumble (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NBLP"
 	rom ( name "Buck Bumble (Europe) (En,Fr,De,Es,It).z64" size 12582912 crc E26192AB md5 A2E4BE02876CB0F0D1E925FF95090C96 sha1 1123BFAC4EC3730A54900CA83E196065CBB4B6E2 serial "NBLP" )
 )
 game (
 	name "Buck Bumble (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NBLP"
 	rom ( name "Buck Bumble (Europe) (En,Fr,De,Es,It).v64" size 12582912 crc 08433E0D md5 80A2C272C13B2F1A5654E98CBEB64AAF sha1 60305A61143BAE5557672E2BDBB9D81EC2DA5C20 serial "NBLP" )
 )
@@ -1379,12 +1445,14 @@ game (
 game (
 	name "California Speed (Europe) (En,Fr,De,Es,It) (Proto)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NCLP"
 	rom ( name "California Speed (Europe) (En,Fr,De,Es,It) (Proto).z64" size 16777216 crc D913B95F md5 29B79BF5812E5F9E5ECEF073D59F8915 sha1 B0CA8A5C8CBF2D18A91AC1B9DF82907613BEF479 serial "NCLP" )
 )
 game (
 	name "California Speed (Europe) (En,Fr,De,Es,It) (Proto)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NCLP"
 	rom ( name "California Speed (Europe) (En,Fr,De,Es,It) (Proto).v64" size 16777216 crc 8EF396FB md5 A1CF997B136945E946C21B8DD1782DA1 sha1 B9244F898E302CA06C04CAF5D595F3A70D65FCE5 serial "NCLP" )
 )
@@ -1403,24 +1471,28 @@ game (
 game (
 	name "Carmageddon 64 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NCDX"
 	rom ( name "Carmageddon 64 (Europe) (En,Fr,De,Es).z64" size 16777216 crc 8569F1A0 md5 CA21467BDE6B355E7A15B8F1ADA7B24D sha1 2AB7EA2A9BC05ECF3CAC026E2AFF7ACC9D3202E5 serial "NCDX" )
 )
 game (
 	name "Carmageddon 64 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NCDX"
 	rom ( name "Carmageddon 64 (Europe) (En,Fr,De,Es).v64" size 16777216 crc D8D87DCA md5 74DCF49871606036CD70B42AE2B19B1C sha1 B8AA32D7D78E3119B05C19CD45AAD102465AD254 serial "NCDX" )
 )
 game (
 	name "Carmageddon 64 (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NCDY"
 	rom ( name "Carmageddon 64 (Europe) (En,Fr,Es,It).z64" size 16777216 crc 8036F999 md5 59EB5646FA079BCBD7A340D7A10196DD sha1 A26831C07ECC57DBF5846DB847A30D9F735297C2 serial "NCDY" )
 )
 game (
 	name "Carmageddon 64 (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NCDY"
 	rom ( name "Carmageddon 64 (Europe) (En,Fr,Es,It).v64" size 16777216 crc 17B07602 md5 3405BB5266CCD60A3B4A4DE7408251F2 sha1 2E64E34DC8F3B6349CB71412F1BF2CA6A2FD5C2B serial "NCDY" )
 )
@@ -1454,21 +1526,25 @@ game (
 )
 game (
 	name "Castle 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Castle 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 16777216 crc C4AD974D md5 B603C47005772019D9EF5C861DA976E7 sha1 B95F755F7BB1F6DBCDC33341DDA80CC207B48524 )
 )
 game (
 	name "Castle 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Castle 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 16777216 crc 32DB46D9 md5 8906703259862CD14861ADDB3B0B8DC0 sha1 B5BCE3912A63D2AF10CBD82C49F8986780D6CFFB )
 )
 game (
 	name "Castlevania (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "ND3P"
 	rom ( name "Castlevania (Europe) (En,Fr,De).z64" size 12582912 crc D9D76235 md5 57146B6CD8EE7D96B01A811F98A1AC61 sha1 E0DA571CDDCB8D069B36C2DF254334F7C532133E serial "ND3P" )
 )
 game (
 	name "Castlevania (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "ND3P"
 	rom ( name "Castlevania (Europe) (En,Fr,De).v64" size 12582912 crc D1D4D306 md5 0BFEBEDF99C1E715ADA7103664BFCC97 sha1 72FEC07CDB52645E48126A154C9F72E32C2B1931 serial "ND3P" )
 )
@@ -1511,12 +1587,14 @@ game (
 game (
 	name "Castlevania - Legacy of Darkness (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "ND4P"
 	rom ( name "Castlevania - Legacy of Darkness (Europe) (En,Fr,De).z64" size 16777216 crc 12AB9B45 md5 78D5F8A98A5ED21D0817856BCD2AD750 sha1 0C6817082DD322477C63F3C91A99C1F34AF0065C serial "ND4P" )
 )
 game (
 	name "Castlevania - Legacy of Darkness (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "ND4P"
 	rom ( name "Castlevania - Legacy of Darkness (Europe) (En,Fr,De).v64" size 16777216 crc A12BF3DE md5 BC0CBC7CE863579675116A14F660BF54 sha1 57EF17BD7450EB1E3C486E5C628ADED23E884236 serial "ND4P" )
 )
@@ -1629,21 +1707,6 @@ game (
 	rom ( name "Chameleon Twist 2 (USA).v64" size 8388608 crc 356736C7 md5 BE134500DA3342CD5DC7922B5E2697B7 sha1 185141B800BF109367905F1A6B0EF6823F224CE8 serial "N2VE" )
 )
 game (
-	name "Characters collection - Bomberman (Japan)"
-	region "Japan"
-	rom ( name "Characters collection - Bomberman (Japan).sm" size 2162688 crc 870A5489 md5 C664FD5DA48712BA411FB370AC4BD9D7 sha1 EF7867E16C688A8C57F8681C212BAA13AA80B776 )
-)
-game (
-	name "Characters collection - Sylvanian Families (Japan)"
-	region "Japan"
-	rom ( name "Characters collection - Sylvanian Families (Japan).sm" size 2162688 crc F4635008 md5 C58E624B2696D3C733B509D3D86A8583 sha1 A7F567FD4460677F92E48E6DD9ECD234B301CB64 )
-)
-game (
-	name "Characters collection - Yoshi's Story (Japan)"
-	region "Japan"
-	rom ( name "Characters collection - Yoshi's Story (Japan).sm" size 2162688 crc 2BEBD362 md5 D0D15FFC36BFA2868095563164658D15 sha1 17CAF4D82424860BFF30CD919C9E48E92C339026 )
-)
-game (
 	name "Charlie Blast's Territory (Europe)"
 	region "Europe"
 	serial "NCBP"
@@ -1669,10 +1732,12 @@ game (
 )
 game (
 	name "Chip8 C64 Emulator (World)"
+	region "World"
 	rom ( name "Chip8 C64 Emulator (World) (Aftermarket) (Unl).z64" size 2097152 crc DBA71F11 md5 4975A1A8870E0F39F272E7FD20690C84 sha1 E0F3F1654B567EEBEEB4C9FA75E321DB67F6388F )
 )
 game (
 	name "Chip8 C64 Emulator (World)"
+	region "World"
 	rom ( name "Chip8 C64 Emulator (World) (Aftermarket) (Unl).v64" size 2097152 crc 1FC83E09 md5 D735606E6F8ACA66080A4E6EC6949B73 sha1 9784E37393DFCBCF8D43F1C3D6AC6914B3C9141B )
 )
 game (
@@ -1810,12 +1875,14 @@ game (
 game (
 	name "Command & Conquer (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NCCP"
 	rom ( name "Command & Conquer (Europe) (En,Fr).z64" size 33554432 crc F3DA8A26 md5 42DA4C7D040F9E7CD046A42EC3E68027 sha1 0D5211E211E7FC063C63C3E8235B62BC288CE305 serial "NCCP" )
 )
 game (
 	name "Command & Conquer (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NCCP"
 	rom ( name "Command & Conquer (Europe) (En,Fr).v64" size 33554432 crc CE383B3E md5 2B7E4E14D744B40FD393C487E0768C24 sha1 5EA73072575EDED3954ABE4A9D44623B7847C820 serial "NCCP" )
 )
@@ -1848,6 +1915,7 @@ game (
 	releaseyear "2022"
 	releasemonth "07"
 	releaseday "31"
+	region "World"
 	rom ( name "Commander Keen in Goodbye, Galaxy (World) (2022-07-31) (Proto) (Aftermarket) (Unl).z64" size 1802240 crc D0E65A82 md5 633B7F7A984BC354782490148C597F69 sha1 FD4DA06CDCE7C45DDD706DEFD5B8138FAEABC1B3 )
 )
 game (
@@ -1855,6 +1923,7 @@ game (
 	releaseyear "2022"
 	releasemonth "07"
 	releaseday "31"
+	region "World"
 	rom ( name "Commander Keen in Goodbye, Galaxy (World) (2022-07-31) (Proto) (Aftermarket) (Unl).v64" size 1802240 crc C6C486A1 md5 DEAB0CE6B3E5C1CE5E1B88897DE487B1 sha1 CBC0138F94A3DEABAEFE860ED88DC499EF8B29F0 )
 )
 game (
@@ -2040,12 +2109,14 @@ game (
 game (
 	name "Daffy Duck Starring as Duck Dodgers (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NDUP"
 	rom ( name "Daffy Duck Starring as Duck Dodgers (Europe) (En,Fr,De,Es,It,Nl).z64" size 16777216 crc C61F6BB9 md5 1408FCF68B60D845F090107EF355A7E5 sha1 5499B5284C04CEE98186E68198D6BFE73FEE0CDB serial "NDUP" )
 )
 game (
 	name "Daffy Duck Starring as Duck Dodgers (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NDUP"
 	rom ( name "Daffy Duck Starring as Duck Dodgers (Europe) (En,Fr,De,Es,It,Nl).v64" size 16777216 crc 6CB4B600 md5 1979C1A7D449107F478EBA716CD30266 sha1 456706F0E7A55B40715585F4A66A250A5654C02C serial "NDUP" )
 )
@@ -2136,12 +2207,14 @@ game (
 game (
 	name "Destruction Derby 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDEP"
 	rom ( name "Destruction Derby 64 (Europe) (En,Fr,De).z64" size 16777216 crc 7AD9E429 md5 BDA717ECC8434F12F313342485828B58 sha1 EED379520C7FC7D08EBE5A076683BD56F3A0A04F serial "NDEP" )
 )
 game (
 	name "Destruction Derby 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDEP"
 	rom ( name "Destruction Derby 64 (Europe) (En,Fr,De).v64" size 16777216 crc 212A8000 md5 DFFD909E47B4ABC8FB25669C83EEF8AA sha1 E68747F46AB2EB21D56BD39F65232BDAAD86BCF9 serial "NDEP" )
 )
@@ -2159,10 +2232,12 @@ game (
 )
 game (
 	name "Dexanoid (World)"
+	region "World"
 	rom ( name "Dexanoid (World) (Unl).z64" size 16777216 crc 244E6D59 md5 6D75719BFA6244C4591070D3F7356072 sha1 7E754BE0A0DE1850754F798E5B38404D7F176CC4 )
 )
 game (
 	name "Dexanoid (World)"
+	region "World"
 	rom ( name "Dexanoid (World) (Unl).v64" size 16777216 crc 22FC2A40 md5 271EC2D7131B3F613F59974293417EAF sha1 042012AAB05EF86ED6B8722AE2A5FC57B43150F5 )
 )
 game (
@@ -2180,24 +2255,28 @@ game (
 game (
 	name "Diddy Kong Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDYP"
 	rom ( name "Diddy Kong Racing (Europe) (En,Fr,De).z64" size 12582912 crc 4A13323C md5 0F0B7B78B345FBF2581D834CB4A81245 sha1 DD5D64DD140CB7AA28404FA35ABDCABA33C29260 serial "NDYP" )
 )
 game (
 	name "Diddy Kong Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDYP"
 	rom ( name "Diddy Kong Racing (Europe) (En,Fr,De).v64" size 12582912 crc 883DF1EA md5 56CAA8F0D1B95FD3AF3472841A04C5FB sha1 944EF38C40630573C16D7534109EB7D3C822EEEC serial "NDYP" )
 )
 game (
 	name "Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDYP"
 	rom ( name "Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1).z64" size 12582912 crc B1E87639 md5 6B2BAFE540E0AF052A78E85B992BE999 sha1 B7F628073237B3D211D40406AA0884FF8FDD70D5 serial "NDYP" )
 )
 game (
 	name "Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDYP"
 	rom ( name "Diddy Kong Racing (Europe) (En,Fr,De) (Rev 1).v64" size 12582912 crc F05D414F md5 75874D5233240E9790755DA009B8B6BB sha1 FD57DA7FE1D4DD471CAACA419176A4C097EE7B90 serial "NDYP" )
 )
@@ -2216,24 +2295,28 @@ game (
 game (
 	name "Diddy Kong Racing (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	serial "NDYE"
 	rom ( name "Diddy Kong Racing (USA) (En,Fr).z64" size 12582912 crc EB759206 md5 4F0E07F0EEAC7E5D7CE3A75461888D03 sha1 0CB115D8716DBBC2922FDA38E533B9FE63BB9670 serial "NDYE" )
 )
 game (
 	name "Diddy Kong Racing (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	serial "NDYE"
 	rom ( name "Diddy Kong Racing (USA) (En,Fr).v64" size 12582912 crc 9D2935A1 md5 E00C0E6BFB0CE740E3E1C50BA82BC01A sha1 812807D8DC23229E736D543C3BAFC7EF28519EF5 serial "NDYE" )
 )
 game (
 	name "Diddy Kong Racing (USA) (En,Fr) (Rev 1)"
 	region "USA"
+	language "English / French"
 	serial "NDYE"
 	rom ( name "Diddy Kong Racing (USA) (En,Fr) (Rev 1).z64" size 12582912 crc 5ACCA298 md5 B31F8CCA50F31ACC9B999ED5B779D6ED sha1 6D96743D46F8C0CD0EDB0EC5600B003C89B93755 serial "NDYE" )
 )
 game (
 	name "Diddy Kong Racing (USA) (En,Fr) (Rev 1)"
 	region "USA"
+	language "English / French"
 	serial "NDYE"
 	rom ( name "Diddy Kong Racing (USA) (En,Fr) (Rev 1).v64" size 12582912 crc 96C32BB6 md5 34FCEBA45079808A1A4F735B27344EF6 sha1 03F04DFE0C34E8BAD370AA4B68F4BB8ED3429FDE serial "NDYE" )
 )
@@ -2288,24 +2371,28 @@ game (
 game (
 	name "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "NDQE"
 	rom ( name "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It).z64" size 33554432 crc 0075D32B md5 56BCDFC8F0B41BF60E6A54BC60144251 sha1 F992A60C6E28BA818900E008FAAB01739715AE74 serial "NDQE" )
 )
 game (
 	name "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "NDQE"
 	rom ( name "Donald Duck - Goin' Quackers (USA) (En,Fr,De,Es,It).v64" size 33554432 crc EDEFC39B md5 612E286F2B1377C98AFC39D8131309FB sha1 38098C159B6B47DBA201FFBBF68F3CD958FC01EB serial "NDQE" )
 )
 game (
 	name "Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NDQP"
 	rom ( name "Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).z64" size 33554432 crc E6220482 md5 00DD77D3D4186D0A91E2E99EB75C2DA8 sha1 7D95BC1C2E07ADCEC437A389E31C884ADB6A8FD2 serial "NDQP" )
 )
 game (
 	name "Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Donald Duck - Quack Attack (Europe) (En,Fr,De,Es,It).v64" size 33554432 crc 725758EE md5 E7C9853312E23663852FC62C4491357F sha1 85BA3AECE6FD329A60493E7DABAAD4C6D489B539 )
 )
 game (
@@ -2316,12 +2403,14 @@ game (
 game (
 	name "Donkey Kong 64 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NDOP"
 	rom ( name "Donkey Kong 64 (Europe) (En,Fr,De,Es).z64" size 33554432 crc A28C71C6 md5 118E9CE360B97A6F8DAB2C9F30660BF5 sha1 F96AF883845308106600D84E0618C1A066DC6676 serial "NDOP" )
 )
 game (
 	name "Donkey Kong 64 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NDOP"
 	rom ( name "Donkey Kong 64 (Europe) (En,Fr,De,Es).v64" size 33554432 crc FC37B06A md5 D31BB4EDFFDB35E5EC293A1154B2E844 sha1 29FA421E7732AB990178033BC8C979AEB8FE78D5 serial "NDOP" )
 )
@@ -2361,10 +2450,12 @@ game (
 )
 game (
 	name "Donsol (World)"
+	region "World"
 	rom ( name "Donsol (World) (Aftermarket) (Unl).z64" size 1052672 crc A0E96C02 md5 3F345578242EB8C7F8F9710DF6432ABB sha1 BAC0791B68292E40C3971F84D7E23841EB8FAC32 )
 )
 game (
 	name "Donsol (World)"
+	region "World"
 	rom ( name "Donsol (World) (Aftermarket) (Unl).v64" size 1052672 crc 99E5B970 md5 67C0DD8A4D6D77C164A279B6E0EB273C sha1 42A0854BD0C0F8AEEA97B37401C792250BBBC482 )
 )
 game (
@@ -2497,10 +2588,12 @@ game (
 )
 game (
 	name "Dragon King (World) (Pirate)"
+	region "World"
 	rom ( name "Dragon King (World) (Pirate).z64" size 3407872 crc EA5C7922 md5 944ECED50E57D46779576F732CB27DC0 sha1 A9F1CD8C6EDB24E12C48A1A263DFD74BDE283E23 )
 )
 game (
 	name "Dragon King (World) (Pirate)"
+	region "World"
 	rom ( name "Dragon King (World) (Pirate).v64" size 3407872 crc 3686C624 md5 1E234E518C1B3BBB66F3646D252339D8 sha1 BE8212E23DC690F0D40E32C85F5271385BF7E3DD )
 )
 game (
@@ -2570,12 +2663,14 @@ game (
 game (
 	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NDUE"
 	rom ( name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es).z64" size 16777216 crc 3177A905 md5 02192B4B3797983BBE5E452336584208 sha1 2C840E2991D6A2AF63C4EFE830240FC49D93FC9A serial "NDUE" )
 )
 game (
 	name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NDUE"
 	rom ( name "Duck Dodgers Starring Daffy Duck (USA) (En,Fr,Es).v64" size 16777216 crc B67BBC15 md5 FA00DC1372A4C347BBD7B102CE17A835 sha1 40CE11880A5E0603A42AE46B0518B95AE174556C serial "NDUE" )
 )
@@ -2700,12 +2795,14 @@ game (
 game (
 	name "Earthworm Jim 3D (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NJMP"
 	rom ( name "Earthworm Jim 3D (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc 61A56330 md5 BF2DF4B86FAA2181A7ACFE2643FA2293 sha1 F02C1AFD18C1CBE309472CBE5B3B3F04B22DB7EE serial "NJMP" )
 )
 game (
 	name "Earthworm Jim 3D (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NJMP"
 	rom ( name "Earthworm Jim 3D (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 20C3ADAB md5 404B4CEDC5DCFF08D1580E9E98B7E5C7 sha1 C613B72369292BB8A16B395073F70C586E0FA65E serial "NJMP" )
 )
@@ -2806,12 +2903,14 @@ game (
 game (
 	name "Extreme-G (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NEGP"
 	rom ( name "Extreme-G (Europe) (En,Fr,De,Es,It).z64" size 8388608 crc 0B71B1EA md5 3B2CA0DA0810C95B31DF8C1FB8811BE2 sha1 E7120856ECC9A7F29C21F45130ECA0ECA8A7BFEC serial "NEGP" )
 )
 game (
 	name "Extreme-G (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NEGP"
 	rom ( name "Extreme-G (Europe) (En,Fr,De,Es,It).v64" size 8388608 crc 1BE8E42B md5 133FEFA13974BFB77236952D2421EE18 sha1 CC28FD3B6EB8DEFF86CCCA081EF78F93B63011F4 serial "NEGP" )
 )
@@ -2842,12 +2941,14 @@ game (
 game (
 	name "Extreme-G XG2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NG2P"
 	rom ( name "Extreme-G XG2 (Europe) (En,Fr,De,Es,It).z64" size 12582912 crc 1A57F416 md5 BB7F98E657FB4B5FCC7DC04BD72E2D2B sha1 CA6DB450D29A6CC0D4A6FBB3468A1ED725CEF51E serial "NG2P" )
 )
 game (
 	name "Extreme-G XG2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NG2P"
 	rom ( name "Extreme-G XG2 (Europe) (En,Fr,De,Es,It).v64" size 12582912 crc 32FC980C md5 FD1FEB895801C0076EEE07C4DD07A1B5 sha1 3076CD1E025AEBC6168C0F33FCB215106F519DD3 serial "NG2P" )
 )
@@ -2938,12 +3039,14 @@ game (
 game (
 	name "F-1 World Grand Prix II (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NF2P"
 	rom ( name "F-1 World Grand Prix II (Europe) (En,Fr,De,Es).z64" size 12582912 crc 803D33DF md5 BC0FD2468AC7769A37C3C58CD5699585 sha1 53ED343A757B8A14814732393D02B3D780BCCAB5 serial "NF2P" )
 )
 game (
 	name "F-1 World Grand Prix II (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NF2P"
 	rom ( name "F-1 World Grand Prix II (Europe) (En,Fr,De,Es).v64" size 12582912 crc 484C801D md5 664CC372586A1AD7D1B15C1008E41470 sha1 E8E598CCD19011539E815C01131539649C3EA8DA serial "NF2P" )
 )
@@ -3011,72 +3114,84 @@ game (
 game (
 	name "F1 Pole Position 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHGP"
 	rom ( name "F1 Pole Position 64 (Europe) (En,Fr,De).z64" size 8388608 crc ED750623 md5 A6BD93EA576CDF8569F68171452F7E8A sha1 685FEB2E8615D5D50944093EB0552858D3E12583 serial "NHGP" )
 )
 game (
 	name "F1 Pole Position 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHGP"
 	rom ( name "F1 Pole Position 64 (Europe) (En,Fr,De).v64" size 8388608 crc EC8B6DB6 md5 809E19E2AB5606D9F3AD23D55F610F0D sha1 DFA0FAC4E42E6426A8213101807EC445D752934F serial "NHGP" )
 )
 game (
 	name "F1 Pole Position 64 (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NHGE"
 	rom ( name "F1 Pole Position 64 (USA) (En,Fr,De).z64" size 8388608 crc 30A24D89 md5 049DB657F4223D949F56E9DC5B6A9180 sha1 6E6BDAEFC9980F066CD2ABC5FA7F29F2353CA8B1 serial "NHGE" )
 )
 game (
 	name "F1 Pole Position 64 (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NHGE"
 	rom ( name "F1 Pole Position 64 (USA) (En,Fr,De).v64" size 8388608 crc 873BC45A md5 EA2A94D17B1513D08C0A69E277275523 sha1 BBC6CA8FE4C5BDB77D9963696BA8BF8E46FB39A6 serial "NHGE" )
 )
 game (
 	name "F1 Racing Championship (Brazil) (En,Fr)"
 	region "Brazil"
+	language "English / French"
 	serial "NFRE"
 	rom ( name "F1 Racing Championship (Brazil) (En,Fr).z64" size 16777216 crc C05B9184 md5 44D5F87127053A21DB120BD108B7AC0C sha1 4C95CEE963C9F8B477C41C03AFCCB3362A14E7CE serial "NFRE" )
 )
 game (
 	name "F1 Racing Championship (Brazil) (En,Fr)"
 	region "Brazil"
+	language "English / French"
 	serial "NFRE"
 	rom ( name "F1 Racing Championship (Brazil) (En,Fr).v64" size 16777216 crc 7AD98002 md5 A678F1DAC5BD3224772E891108E1971A sha1 4FB7619AF8D48B6DD8D8057AD9F6567B9E84F446 serial "NFRE" )
 )
 game (
 	name "F1 Racing Championship (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NFRP"
 	rom ( name "F1 Racing Championship (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc 2DA744F5 md5 9581FC6CEAC86DC8A2AEE4053043E422 sha1 3BCE20F58EF9F377299858B7F2DABD0A02D2E9B9 serial "NFRP" )
 )
 game (
 	name "F1 Racing Championship (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NFRP"
 	rom ( name "F1 Racing Championship (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 0605E5AC md5 00898329C43A045521C609858CC590A9 sha1 9C13ED6322A45772EA881BE821C22F5157AA895A serial "NFRP" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	serial "N8IP"
 	rom ( name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv).z64" size 12582912 crc 137CB3CC md5 26B18D35984528AE2F90ADBB2F2642F7 sha1 676B4D14AD74CCC92EE4B19AA9130DDCE42E0E9C serial "N8IP" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	serial "N8IP"
 	rom ( name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv).v64" size 12582912 crc 2D49F99A md5 2A9C172F12CD6ACB941911C22FEF75C8 sha1 12A12C3B5ABA1307D947EA7F72246497755B5482 serial "N8IP" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	serial "N8IE"
 	rom ( name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv).z64" size 12582912 crc 28B1221C md5 2C6D146A8473511CFCFBBE8518F49D71 sha1 148D6424D2135AFEFECDE74092701C491027C23E serial "N8IE" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	serial "N8IE"
 	rom ( name "FIFA - Road to World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv).v64" size 12582912 crc 9504B3DF md5 73AEDBD8AB7FE0AE842F3BD70F77ADC2 sha1 7DEB782823B8D14496CE9843384281D07CC814FC serial "N8IE" )
 )
@@ -3095,48 +3210,56 @@ game (
 game (
 	name "FIFA 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N7IP"
 	rom ( name "FIFA 64 (Europe) (En,Fr,De).z64" size 8388608 crc AE2583FB md5 9A7006212947EE7648EE1D13162E55E0 sha1 EACDF23E27EC1E0639042BF03804222851E4F151 serial "N7IP" )
 )
 game (
 	name "FIFA 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N7IP"
 	rom ( name "FIFA 64 (Europe) (En,Fr,De).v64" size 8388608 crc 26F52456 md5 746AD640A23A9A4B2A8D84D05B962799 sha1 6D2F25B4D87E8DDCD8AF34831CD5952552B11F3C serial "N7IP" )
 )
 game (
 	name "FIFA 99 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	serial "N9FP"
 	rom ( name "FIFA 99 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).z64" size 16777216 crc 6EAE1E6E md5 6432C622C05EA9CD3217E280AC2CE37C sha1 07400C53AEF501887F73EF6A45CE04FE2F170FB0 serial "N9FP" )
 )
 game (
 	name "FIFA 99 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	serial "N9FP"
 	rom ( name "FIFA 99 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).v64" size 16777216 crc CE258860 md5 ED490E6C55C665207562BD6DEFCF8973 sha1 EAB12CC33BD12923C022D2336C3B8A1001132137 serial "N9FP" )
 )
 game (
 	name "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	serial "N9FE"
 	rom ( name "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).z64" size 16777216 crc 6B2473A9 md5 148DE3073727B9FD156F10AFADD46864 sha1 735062E593715F128D3AAD435DE0E7A899AED127 serial "N9FE" )
 )
 game (
 	name "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	serial "N9FE"
 	rom ( name "FIFA 99 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).v64" size 16777216 crc D69DD3D1 md5 E7A508B8E27CFEF334E96DE549E385D3 sha1 5A085F6D871FB697A672F56B4023CF3B822E4CF9 serial "N9FE" )
 )
 game (
 	name "FIFA Soccer 64 (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "N7IE"
 	rom ( name "FIFA Soccer 64 (USA) (En,Fr,De).z64" size 8388608 crc 57DE7CAB md5 CC7C58A032AABA19E72CCBFA6B3EEFF6 sha1 603C5BF64497DCA86C4EB802F97F1C32E75A68A8 serial "N7IE" )
 )
 game (
 	name "FIFA Soccer 64 (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "N7IE"
 	rom ( name "FIFA Soccer 64 (USA) (En,Fr,De).v64" size 8388608 crc 3B22F9F2 md5 1F7BA149359B4C402E41C40FD68EC174 sha1 A27A2BA02BB02EAAC999E60E3CEDD67FB937B580 serial "N7IE" )
 )
@@ -3154,34 +3277,42 @@ game (
 )
 game (
 	name "Featherlight (World)"
+	region "World"
 	rom ( name "Featherlight (World) (Aftermarket) (Unl).z64" size 4194304 crc EF56D0BB md5 B662E35B9AC1C95A4736547C9C997DC4 sha1 8158B755848F655750AC1F2248F9D49644FA23C1 )
 )
 game (
 	name "Featherlight (World)"
+	region "World"
 	rom ( name "Featherlight (World) (Aftermarket) (Unl).v64" size 4194304 crc 1C060358 md5 4D2BD7C594541B92A5BFA1A29A590D29 sha1 F23B96820A7AC0A966312669C8119F78E66A58DA )
 )
 game (
 	name "Featherlight (World) (v1.1) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.1) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 4194304 crc 884F93FF md5 FAF4D5F46E4E2A7E87584EAD6923C284 sha1 664B4749D7B97774D01265515ECBA44955AD2307 )
 )
 game (
 	name "Featherlight (World) (v1.1) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.1) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 4194304 crc 0D1B6899 md5 E08F9DEDF28EDFE72F9A1CB0F7866F9E sha1 EEA8A275145C635B6386B92068BDD4ACF99EF05E )
 )
 game (
 	name "Featherlight (World) (v1.2)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.2) (Aftermarket) (Unl).z64" size 4194304 crc D67EBE8E md5 5CBA7F7899FBD02E23BB2542DC3994A9 sha1 56077FEBC7E273E570F28296E4143BF9BA0B02D5 )
 )
 game (
 	name "Featherlight (World) (v1.2)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.2) (Aftermarket) (Unl).v64" size 4194304 crc 4872F7C3 md5 3FF45801EB4CCE77CAA786CED0750676 sha1 1F06519DEB7B5349CB67A1772CA0BC3D924F0335 )
 )
 game (
 	name "Featherlight (World) (v1.3)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.3) (Aftermarket) (Unl).z64" size 4194304 crc 7DECA178 md5 64D506E82A064BB1AA2BCADEECF130A3 sha1 1F7073342793FB8BA0A44EBE20A3E79DF5530A0B )
 )
 game (
 	name "Featherlight (World) (v1.3)"
+	region "World"
 	rom ( name "Featherlight (World) (v1.3) (Aftermarket) (Unl).v64" size 4194304 crc 7B6D4833 md5 526B8F8C345A6893BDEE208F4328D306 sha1 2E7B6BFEA256FEDC67A75F20303341255F9C5D70 )
 )
 game (
@@ -3282,58 +3413,74 @@ game (
 )
 game (
 	name "Fission Failure 64 (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Fission Failure 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 15335424 crc FC267E35 md5 88A02053A4C7530F7A5450852FBA98A9 sha1 FCDC8F21FA636A8B17245B8F54E28A931F45F14F )
 )
 game (
 	name "Fission Failure 64 (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Fission Failure 64 (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 15335424 crc 30291DA8 md5 CAE7929A35E22B5DA7238F2CDC9387AE sha1 D32549DFC604B23E4ADEBCA9849AF89FDAD29181 )
 )
 game (
 	name "Flappy Bird (World)"
+	region "World"
 	rom ( name "Flappy Bird (World) (Aftermarket) (Unl).z64" size 1052672 crc 455599C0 md5 3EE890905A76ACCC2754A262B59C5544 sha1 065A4F1135ACC0410E1212D33F41E80661C1908C )
 )
 game (
 	name "Flappy Bird (World)"
+	region "World"
 	rom ( name "Flappy Bird (World) (Aftermarket) (Unl).v64" size 1052672 crc 135943F4 md5 9CEEB459343C89209C80E2AEC5C43053 sha1 AF3392181F1EDB2045E024B48E9175E1F4E55A27 )
 )
 game (
 	name "Flappy Bird (World) (v1.1)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.1) (Aftermarket) (Unl).z64" size 1052672 crc 8C715CE6 md5 4E891D115A877A62D82F0498906762F0 sha1 D1C3B6A8DB7D41DE60CEBAD4502C950D025F5678 )
 )
 game (
 	name "Flappy Bird (World) (v1.1)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.1) (Aftermarket) (Unl).v64" size 1052672 crc 094AE603 md5 6445EFA96912410EF47B1D5B2698ECBF sha1 CF7046797D4D48095197001828F902B8192EF4E6 )
 )
 game (
 	name "Flappy Bird (World) (v1.2)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.2) (Aftermarket) (Unl).z64" size 1415168 crc 77E84198 md5 D6CE702BE7AF8132E4DEE57F974935AC sha1 23A8835ED13A366BBC692ADC9299B3BA4B6F5E1C )
 )
 game (
 	name "Flappy Bird (World) (v1.2)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.2) (Aftermarket) (Unl).v64" size 1415168 crc D949C83E md5 3A612BC453A64C51A9E4E65F4EEF9A7B sha1 89C03080FE2ED14D8EC82A23A89B4EBF7C330138 )
 )
 game (
 	name "Flappy Bird (World) (v1.3)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.3) (Aftermarket) (Unl).z64" size 1415168 crc 09BB18CA md5 09310C3E96FFD9639DDFA53A9BA374B5 sha1 0BF0A66C4F575E2620A9E6E805D35D77A31BD7A2 )
 )
 game (
 	name "Flappy Bird (World) (v1.3)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.3) (Aftermarket) (Unl).v64" size 1415168 crc 6836A0C9 md5 95CAC912B5FC1F37C9AD82677DF1BBA9 sha1 008DC1ED4C8310E96A1E12C062E41824618E28C0 )
 )
 game (
 	name "Flappy Bird (World) (v1.4)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.4) (Aftermarket) (Unl).z64" size 1415168 crc 9594B162 md5 4F72168EF462293168C936589F10BC22 sha1 2CADBFB04722A5A873AC516C96536FD211CA66CC )
 )
 game (
 	name "Flappy Bird (World) (v1.4)"
+	region "World"
 	rom ( name "Flappy Bird (World) (v1.4) (Aftermarket) (Unl).v64" size 1415168 crc 9ED6FDC8 md5 85910C19B78447ED16B3CCFB85269664 sha1 69013474E8E774282811D9298340D6E6BFD00261 )
 )
 game (
 	name "Flood64 (World) (En,Fr,Es)"
+	region "World"
+	language "English / French / Spanish"
 	rom ( name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl).z64" size 8388608 crc BD94016E md5 4B175ED0F7EBCB74F529AF2E482FDF96 sha1 3B0CCD0D847D8FE2D9EC18AE8587A0184CAAE011 )
 )
 game (
 	name "Flood64 (World) (En,Fr,Es)"
+	region "World"
+	language "English / French / Spanish"
 	rom ( name "Flood64 (World) (En,Fr,Es) (Aftermarket) (Unl).v64" size 8388608 crc 76B4F472 md5 A3D7660C406DB9957EE05A286438B5E6 sha1 88B1F2F9A6041636D519D9BDA5F90DBA946FE145 )
 )
 game (
@@ -3363,12 +3510,14 @@ game (
 game (
 	name "Forsaken (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NFOP"
 	rom ( name "Forsaken (Europe) (En,Fr,Es,It).z64" size 8388608 crc 5ED736D9 md5 8286DED701DFA22436D311BD5B93BD29 sha1 AC24C6E48FCD03C32AEF484188BA842B619FF613 serial "NFOP" )
 )
 game (
 	name "Forsaken (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NFOP"
 	rom ( name "Forsaken (Europe) (En,Fr,Es,It).v64" size 8388608 crc 6C65EF7A md5 58A15FB343C7A2A4BB091D9585A1A99F sha1 5B6A661F75F9E3560238ACF6DFCD4287E75586C0 serial "NFOP" )
 )
@@ -3503,12 +3652,14 @@ game (
 game (
 	name "GT 64 - Championship Edition (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGCP"
 	rom ( name "GT 64 - Championship Edition (Europe) (En,Fr,De).z64" size 12582912 crc 6DFB4747 md5 628AA3CD492559B705488F634797E045 sha1 A4D0D694F521CEF69F64ACAEE3EB420A64F28E4D serial "NGCP" )
 )
 game (
 	name "GT 64 - Championship Edition (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGCP"
 	rom ( name "GT 64 - Championship Edition (Europe) (En,Fr,De).v64" size 12582912 crc B06D0D85 md5 15166FA77D606D98E6AB6A238DCECD12 sha1 A2016364DDE65EC5746BAB9710BD4FA72DA25485 serial "NGCP" )
 )
@@ -3648,24 +3799,28 @@ game (
 game (
 	name "Gex 3 - Deep Cover Gecko (Europe) (En,Es,It)"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "NX3P"
 	rom ( name "Gex 3 - Deep Cover Gecko (Europe) (En,Es,It).z64" size 33554432 crc 6BC4A056 md5 9F0492A34D7A2D7C4E9F29DC1848A04A sha1 54653BA26A12521CCD886212FFFDF2F6427C2FEA serial "NX3P" )
 )
 game (
 	name "Gex 3 - Deep Cover Gecko (Europe) (En,Es,It)"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "NX3P"
 	rom ( name "Gex 3 - Deep Cover Gecko (Europe) (En,Es,It).v64" size 33554432 crc 1110CC22 md5 EC10D3D8A602BBB4D7DB942B4B53CD10 sha1 1071D9CDE1DEDD1F44AEC60CAB40703643094D33 serial "NX3P" )
 )
 game (
 	name "Gex 3 - Deep Cover Gecko (Europe) (Fr,De)"
 	region "Europe"
+	language "French / German"
 	serial "NX3X"
 	rom ( name "Gex 3 - Deep Cover Gecko (Europe) (Fr,De).z64" size 33554432 crc A43CB8E4 md5 43B9A7A5CCB6EA3F4860F9F80D73669D sha1 4BCD958526D9145ACF4E3EE7EE484E62DC1BB4BA serial "NX3X" )
 )
 game (
 	name "Gex 3 - Deep Cover Gecko (Europe) (Fr,De)"
 	region "Europe"
+	language "French / German"
 	serial "NX3X"
 	rom ( name "Gex 3 - Deep Cover Gecko (Europe) (Fr,De).v64" size 33554432 crc D169E9F8 md5 19B3E60F53AE174321A9C410C076CBB2 sha1 EE133817A0AC2D0BE0F0EF8AA343F83E70704ACC serial "NX3X" )
 )
@@ -3707,29 +3862,35 @@ game (
 )
 game (
 	name "Glamorous Zombie Flakes (World) (v1.2)"
+	region "World"
 	rom ( name "Glamorous Zombie Flakes (World) (v1.2) (Aftermarket) (Unl).z64" size 3340016 crc ACD6288F md5 DE127AA55773643E1600FE2B4C69BDBE sha1 76779AE67A320C806D8745F60A98A399AAA8AF8B )
 )
 game (
 	name "Glamorous Zombie Flakes (World) (v1.2)"
+	region "World"
 	rom ( name "Glamorous Zombie Flakes (World) (v1.2) (Aftermarket) (Unl).v64" size 3340016 crc 3E83DF4F md5 79A1C0F9F668C7716DAB0315BC69D631 sha1 B5525F08EE1A17AA94C5904CB28AED443C79A75C )
 )
 game (
 	name "Glamorous Zombie Flakes (World) (v1.3)"
+	region "World"
 	rom ( name "Glamorous Zombie Flakes (World) (v1.3) (Aftermarket) (Unl).z64" size 3340000 crc AEB27D66 md5 BF307D49265EC9959B4689C9FDAAD395 sha1 EE81C396A5222DFDA93E4A776E071BC60B9F4EB0 )
 )
 game (
 	name "Glamorous Zombie Flakes (World) (v1.3)"
+	region "World"
 	rom ( name "Glamorous Zombie Flakes (World) (v1.3) (Aftermarket) (Unl).v64" size 3340000 crc B1D520C9 md5 16BB119C49A934162C077B64628941F9 sha1 155F22BB94FE4711A28F2D8C0579B0EDF6AFDDCD )
 )
 game (
 	name "Glover (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGVP"
 	rom ( name "Glover (Europe) (En,Fr,De).z64" size 8388608 crc 90ECEB4A md5 2F2163C53DB135792331DF00398B3F87 sha1 A5209925761C4EF08E5D446A55BC957505308A31 serial "NGVP" )
 )
 game (
 	name "Glover (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGVP"
 	rom ( name "Glover (Europe) (En,Fr,De).v64" size 8388608 crc 93DAE2A0 md5 6DBB99C1A623D31F7C7954873D63EFD3 sha1 D61D03147A0F88136DD3FEF4E934FA8C8BD96BC1 serial "NGVP" )
 )
@@ -3748,12 +3909,14 @@ game (
 game (
 	name "Glover (USA) (En,Fr,De) (Limited Run Games)"
 	region "USA"
+	language "English / French / German"
 	serial "NGVE"
 	rom ( name "Glover (USA) (En,Fr,De) (Limited Run Games).z64" size 8388608 crc 9FB6A52B md5 E2967F0A257F870D53AF51E887C0D501 sha1 BA11111CAA12764EBB1BB83A93AF4094D80018B5 serial "NGVE" )
 )
 game (
 	name "Glover (USA) (En,Fr,De) (Limited Run Games)"
 	region "USA"
+	language "English / French / German"
 	serial "NGVE"
 	rom ( name "Glover (USA) (En,Fr,De) (Limited Run Games).v64" size 8388608 crc 89B2030E md5 B020214496F802D6DB53EBF96C621FC4 sha1 7EB719A5A81C35C13A52E673A9DF6E3E71C4FBB6 serial "NGVE" )
 )
@@ -3865,13 +4028,13 @@ game (
 )
 game (
 	name "GoldenEye 007 (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	serial "NGEE"
 	rom ( name "GoldenEye 007 (USA, Europe) (Switch Online).z64" size 12582912 crc E3F2B41E md5 EA0E3E6AEFA58738A12906298373218B sha1 84ACCDC54FFAECEE312CE6945BFE722ED97E654C serial "NGEE" )
 )
 game (
 	name "GoldenEye 007 (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	serial "NGEE"
 	rom ( name "GoldenEye 007 (USA, Europe) (Switch Online).v64" size 12582912 crc FBB1B33B md5 3956327E48E58B199CD2BEB6B95ACC36 sha1 89DC0F50F22123521B9E71CD5BFEE670FC07E9DD serial "NGEE" )
 )
@@ -3925,10 +4088,12 @@ game (
 )
 game (
 	name "Heart of the Alien (World) (Proto)"
+	region "World"
 	rom ( name "Heart of the Alien (World) (Proto) (Aftermarket) (Unl).z64" size 7602176 crc 1E20B07B md5 DEB1A3F280248FDE85F8832EF4E4A4E7 sha1 46FFD874A65926521B47A25352770DF966182D94 )
 )
 game (
 	name "Heart of the Alien (World) (Proto)"
+	region "World"
 	rom ( name "Heart of the Alien (World) (Proto) (Aftermarket) (Unl).v64" size 7602176 crc D2B9FF60 md5 A6B67728CC4C1210D877958FDE7A56CF sha1 D78F8A1CDCC10127B30E042480B7FB78F5EC20E4 )
 )
 game (
@@ -3946,12 +4111,14 @@ game (
 game (
 	name "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NHCP"
 	rom ( name "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl).z64" size 16777216 crc B1954B08 md5 1546877FD85C00A83515005727E5FDA5 sha1 D2E26F4AECF488F87E1AB36395280385B060D229 serial "NHCP" )
 )
 game (
 	name "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NHCP"
 	rom ( name "Hercules - The Legendary Journeys (Europe) (En,Fr,De,Es,It,Nl).v64" size 16777216 crc 65517307 md5 FF64D07E5A429E7A434BC9A377F27360 sha1 9FC6C63EB8641D957342AA5F31D35075BC5B9E8C serial "NHCP" )
 )
@@ -4138,12 +4305,14 @@ game (
 game (
 	name "Hot Wheels - Turbo Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHWP"
 	rom ( name "Hot Wheels - Turbo Racing (Europe) (En,Fr,De).z64" size 16777216 crc 850633A7 md5 EF34DA35EF8A0734843CB182C19FEB26 sha1 FBCFD6D466931E5CB71FE880C52EA692C3F84D75 serial "NHWP" )
 )
 game (
 	name "Hot Wheels - Turbo Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHWP"
 	rom ( name "Hot Wheels - Turbo Racing (Europe) (En,Fr,De).v64" size 16777216 crc EF63C780 md5 A42DF6D45B181731707DE3A01F5B9E4F sha1 1BF92987C5531AE213ED1D721980C61F580436FA serial "NHWP" )
 )
@@ -4174,12 +4343,14 @@ game (
 game (
 	name "Hybrid Heaven (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHVP"
 	rom ( name "Hybrid Heaven (Europe) (En,Fr,De).z64" size 16777216 crc E76627FF md5 DA861C4D9202F661575466450A27C412 sha1 D2210D492BAD952B055A4269E45FD89631C32D25 serial "NHVP" )
 )
 game (
 	name "Hybrid Heaven (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NHVP"
 	rom ( name "Hybrid Heaven (Europe) (En,Fr,De).v64" size 16777216 crc 8696B2A2 md5 9C696496F4F5B9A0B6B0F13F93D8E658 sha1 3ED6D3B4127DC26FAE32E88E1FD78BF95E1118E2 serial "NHVP" )
 )
@@ -4314,14 +4485,14 @@ game (
 	rom ( name "Iggy-kun no Bura Bura Poyon (Japan).v64" size 4194304 crc E133064B md5 611FEC9AF7DD0D6A4064963042C538EC sha1 02542CFDC3734350403E4FB7CC139953436584D8 serial "NWBJ" )
 )
 game (
-	name "Illustrations - Funny accessories 1 (Japan)"
+	name "Ikazuchi no Gotoku - Choukousoku Igo (Japan) (Proto)"
 	region "Japan"
-	rom ( name "Illustrations - Funny accessories 1 (Japan).sm" size 2162688 crc E309E5B6 md5 4AE61C473F269C65A628EC0B893CC437 sha1 128DE4E0ECB422AE7E6D9D836C050BD096E348F2 )
+	rom ( name "Ikazuchi no Gotoku - Choukousoku Igo (Japan) (Proto).z64" size 16777216 crc DAF9B36F md5 708F6022EBA77ED7CBB4F4E8C2F2B793 sha1 28CD9CCE375A37C120944121A4874A6ACDB468A5 )
 )
 game (
-	name "Illustrations - Postal cards 1 (Japan)"
+	name "Ikazuchi no Gotoku - Choukousoku Igo (Japan) (Proto)"
 	region "Japan"
-	rom ( name "Illustrations - Postal cards 1 (Japan).sm" size 2162688 crc F0357615 md5 0B2301C34D15816E529D705FAB83189F sha1 83ADBB1300FA37699F478DB0B62C00A9E0945D6D )
+	rom ( name "Ikazuchi no Gotoku - Choukousoku Igo (Japan) (Proto).v64" size 16777216 crc E6267119 md5 33DCC5F6434054A0027FB531C1128C72 sha1 BC90D38AC08B27EF209D52CB5636C09A01BE74F4 )
 )
 game (
 	name "In-Fisherman - Bass Hunter 64 (Europe)"
@@ -4410,48 +4581,56 @@ game (
 game (
 	name "International Superstar Soccer 2000 (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NISX"
 	rom ( name "International Superstar Soccer 2000 (Europe) (En,De).z64" size 16777216 crc 69572558 md5 9F101B6F6BEF4F267DEB5C6C37A24B97 sha1 E7078E5F1E899382B1CC145DF43EE8CFAA924297 serial "NISX" )
 )
 game (
 	name "International Superstar Soccer 2000 (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NISX"
 	rom ( name "International Superstar Soccer 2000 (Europe) (En,De).v64" size 16777216 crc 61799242 md5 DF6E682CA10BE8F1995FDCF4186482AE sha1 E6D2B8E25D3FCD9F38439EF07D71E9F8A48A4F99 serial "NISX" )
 )
 game (
 	name "International Superstar Soccer 2000 (Europe) (Fr,It)"
 	region "Europe"
+	language "French / Italian"
 	serial "NISY"
 	rom ( name "International Superstar Soccer 2000 (Europe) (Fr,It).z64" size 16777216 crc 8A16A6A9 md5 CC2BE97A16744860FAE8A94611479C4C sha1 B0505E13BA0F029EA735378C50B224FD618BE302 serial "NISY" )
 )
 game (
 	name "International Superstar Soccer 2000 (Europe) (Fr,It)"
 	region "Europe"
+	language "French / Italian"
 	serial "NISY"
 	rom ( name "International Superstar Soccer 2000 (Europe) (Fr,It).v64" size 16777216 crc 7D7DCD46 md5 65B79B1226B0D29068024EE3D3E8CEF4 sha1 640EC4BF4C838814B003ADD093B0F9642058FE04 serial "NISY" )
 )
 game (
 	name "International Superstar Soccer 2000 (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NISE"
 	rom ( name "International Superstar Soccer 2000 (USA) (En,Es).z64" size 16777216 crc DCD0538F md5 23A4ED8D79882594206173B1D476F0E9 sha1 E7BD36C410CE881D8B8DC853CB4B7B7961BF6A62 serial "NISE" )
 )
 game (
 	name "International Superstar Soccer 2000 (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NISE"
 	rom ( name "International Superstar Soccer 2000 (USA) (En,Es).v64" size 16777216 crc BB1824B8 md5 3513028962D61ED2396C43F67CB9ED7D sha1 D86386EEEE1B5B32CE43BC9A4149314A23A6320B serial "NISE" )
 )
 game (
 	name "International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)"
 	region "USA"
+	language "English / Spanish"
 	serial "NISE"
 	rom ( name "International Superstar Soccer 2000 (USA) (En,Es) (Rev 1).z64" size 16777216 crc 4C433FDD md5 DE9498BE76134BD066AA714CE2C71A16 sha1 47A993FE1316DFD9E208603370D3DDDAE05F1D1B serial "NISE" )
 )
 game (
 	name "International Superstar Soccer 2000 (USA) (En,Es) (Rev 1)"
 	region "USA"
+	language "English / Spanish"
 	serial "NISE"
 	rom ( name "International Superstar Soccer 2000 (USA) (En,Es) (Rev 1).v64" size 16777216 crc 8B73672C md5 A2C596871E9C01691D7C36994158270B sha1 AA53928967839FCDD864B3F384F23FDA435E3E5E serial "NISE" )
 )
@@ -4482,12 +4661,14 @@ game (
 game (
 	name "International Track & Field - Summer Games (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N3HP"
 	rom ( name "International Track & Field - Summer Games (Europe) (En,Fr,De).z64" size 12582912 crc B3181EE0 md5 970488FB7D9C5C25BD924E6F898B84A0 sha1 B3D5A2128813BD077DD3E161978E3C1717E278E0 serial "N3HP" )
 )
 game (
 	name "International Track & Field - Summer Games (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N3HP"
 	rom ( name "International Track & Field - Summer Games (Europe) (En,Fr,De).v64" size 12582912 crc 73073EC2 md5 A944268E3E840B3F1017BD4F0098390C sha1 E08B8E0EB424CB9044B53D5D903AB89CC82F0FB8 serial "N3HP" )
 )
@@ -4626,12 +4807,14 @@ game (
 game (
 	name "Jet Force Gemini (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NJFP"
 	rom ( name "Jet Force Gemini (Europe) (En,Fr,De,Es).z64" size 33554432 crc CFBED88C md5 BAAF237E71AA7526C9B2F01C08B68A53 sha1 50651C4E0C46332F7F0B45870263F0A8B9A49602 serial "NJFP" )
 )
 game (
 	name "Jet Force Gemini (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NJFP"
 	rom ( name "Jet Force Gemini (Europe) (En,Fr,De,Es).v64" size 33554432 crc FEC297EF md5 761A047404C6460A077FF858E0244A8F sha1 3085A20258F3A554839D0007CB231BC9B96875BC serial "NJFP" )
 )
@@ -4926,12 +5109,14 @@ game (
 game (
 	name "John Romero's Daikatana (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDWP"
 	rom ( name "John Romero's Daikatana (Europe) (En,Fr,De).z64" size 16777216 crc F88AC3CE md5 7AB29C6AD2D8F4007D8213EB3411E0BD sha1 0278C3F9B2780890C4C2A3EE8A10C550A1EDA346 serial "NDWP" )
 )
 game (
 	name "John Romero's Daikatana (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NDWP"
 	rom ( name "John Romero's Daikatana (Europe) (En,Fr,De).v64" size 16777216 crc 48F3E888 md5 AF13198DB692DA423806E88114BFFC77 sha1 0A9400897CB7984A0E927A47F912405664AB70BA serial "NDWP" )
 )
@@ -4961,34 +5146,42 @@ game (
 )
 game (
 	name "Judy's Adventure DX (World) (v33.6)"
+	region "World"
 	rom ( name "Judy's Adventure DX (World) (v33.6) (Aftermarket) (Unl).z64" size 2298768 crc 7E20F849 md5 C502BA28B910D5AEF5A57B297B9045AF sha1 3FBA90E7D86DF1BCC3DBC792E4EEA3EA3E5413EA )
 )
 game (
 	name "Judy's Adventure DX (World) (v33.6)"
+	region "World"
 	rom ( name "Judy's Adventure DX (World) (v33.6) (Aftermarket) (Unl).v64" size 2298768 crc 100F480E md5 FF17C192F10DF34F9DABCD637D8C45F7 sha1 8B6FE76A244C7AF7CB7448F196681805C4A98299 )
 )
 game (
 	name "Juic'n 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Juic'n 64 (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).z64" size 4194304 crc 7ADFE261 md5 2FD4DB302515E520B13B5DE7AFFA7A5A sha1 9F38DF24DB233567D6357F5DC1F72BE3F3B524D1 )
 )
 game (
 	name "Juic'n 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Juic'n 64 (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).v64" size 4194304 crc A12D7F61 md5 0B92E65E67C8B3469218B468EFC5091E sha1 59A99B9D8DF6E3CCCB478B2C1D75C563E36197BF )
 )
 game (
 	name "Juic'n 64 (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Juic'n 64 (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).z64" size 4194304 crc 0C182775 md5 9E0C14FCA6628A37528C9A8ABBC6DFD6 sha1 3034B250FEC773D48FE5B5B29CF8A8880292E581 )
 )
 game (
 	name "Juic'n 64 (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Juic'n 64 (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).v64" size 4194304 crc BAA9FB21 md5 A042E7551F8F623077ABA3F978BA2098 sha1 FDCCDF73D17795CE1D45F91D6C46E20D4B6D1BD3 )
 )
 game (
 	name "Jumping Fox (World)"
+	region "World"
 	rom ( name "Jumping Fox (World) (Aftermarket) (Unl).z64" size 1052672 crc 86FD0FD2 md5 41554C364A84A305AB482136D3DFAC96 sha1 636C1BEDDB3DD30F6FF3BF65257F210279766EC0 )
 )
 game (
 	name "Jumping Fox (World)"
+	region "World"
 	rom ( name "Jumping Fox (World) (Aftermarket) (Unl).v64" size 1052672 crc 5E7ACDD6 md5 9347768C2206C2F7849279DBE549B315 sha1 FEFC35780E3CB0547AA8DF34F24086DB9FE72EA3 )
 )
 game (
@@ -5002,16 +5195,6 @@ game (
 	region "Japan"
 	serial "NFYJ"
 	rom ( name "Kakutou Denshou - F-Cup Maniax (Japan).v64" size 16777216 crc 1E967AC0 md5 327A06936FB2B4944B3A3328BC0D7F6A sha1 6E7116DB2A7AABD5F8D6149F34B6E187BCAAEC3C serial "NFYJ" )
-)
-game (
-	name "Kaminari no Gotoku - Choukousoku Igo (Japan) (Proto)"
-	region "Japan"
-	rom ( name "Kaminari no Gotoku - Choukousoku Igo (Japan) (Proto).z64" size 16777216 crc DAF9B36F md5 708F6022EBA77ED7CBB4F4E8C2F2B793 sha1 28CD9CCE375A37C120944121A4874A6ACDB468A5 )
-)
-game (
-	name "Kaminari no Gotoku - Choukousoku Igo (Japan) (Proto)"
-	region "Japan"
-	rom ( name "Kaminari no Gotoku - Choukousoku Igo (Japan) (Proto).v64" size 16777216 crc E6267119 md5 33DCC5F6434054A0027FB531C1128C72 sha1 BC90D38AC08B27EF209D52CB5636C09A01BE74F4 )
 )
 game (
 	name "Ken Griffey Jr.'s Slugfest (USA)"
@@ -5217,33 +5400,39 @@ game (
 )
 game (
 	name "Kumi-Daiko Beatoff 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Kumi-Daiko Beatoff 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 3126896 crc 78E87443 md5 8CCBDCDB66980F9D2EB9F603AFEC5528 sha1 4931F1FE24080FCB2340A848D1C099B4C8E36C86 )
 )
 game (
 	name "Kumi-Daiko Beatoff 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Kumi-Daiko Beatoff 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 3126896 crc 3B03797B md5 14C88BEEF9B1295B153B5BFBDB820002 sha1 9BCA1521124782134EFA39FD8EAC6DE61DCE4925 )
 )
 game (
 	name "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Norwegian / Danish / Finnish"
 	serial "NLGP"
 	rom ( name "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).z64" size 16777216 crc C7D9B21C md5 6310C7173385ED2B06020F3B90158E9E sha1 6E9C4B097628F0147E9E79393DBA6D7B4E59986F serial "NLGP" )
 )
 game (
 	name "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Norwegian / Danish / Finnish"
 	serial "NLGP"
 	rom ( name "LEGO Racers (Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).v64" size 16777216 crc 3D4679E5 md5 0224FEB5786ED25BB0B21BF6FE180BAD sha1 C221ABC794BB1C67DA5499ACEA8C80222B200A90 serial "NLGP" )
 )
 game (
 	name "LEGO Racers (USA) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Norwegian / Danish / Finnish"
 	serial "NLGE"
 	rom ( name "LEGO Racers (USA) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).z64" size 16777216 crc 4D1E1897 md5 26B5EAA13DC5B5E35307FE8C0CF5B6BA sha1 8DECC41869926E20DA2EB3DA526E6395AA33CECE serial "NLGE" )
 )
 game (
 	name "LEGO Racers (USA) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Norwegian / Danish / Finnish"
 	serial "NLGE"
 	rom ( name "LEGO Racers (USA) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).v64" size 16777216 crc 3339E557 md5 30A227E03D4D07A4676D24D1DA971470 sha1 9C5B574680A18FC87C74E7C1FEEA19AAE87CC059 serial "NLGE" )
 )
@@ -5262,48 +5451,56 @@ game (
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es).z64" size 33554432 crc 9EAD1608 md5 13FAB67E603B002CEAF0EEA84130E973 sha1 C04599CDAFEE1C84A7AF9A71DF68F139179ADA84 serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es).v64" size 33554432 crc 9267F4BA md5 53990A4AE36382AE17D15E26EDF89C92 sha1 8BF74834C614F6CCB7C659B82DFDC68BA61301A4 serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1).z64" size 33554432 crc E2E6823D md5 BECCFDED43A2F159D03555027462A950 sha1 BB4E4757D10727C7584C59C1F2E5F44196E9C293 serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1).v64" size 33554432 crc 1D4D50B7 md5 59BFB6DE226C9CFD6825EA59EA5D8663 sha1 B02A477871BBB90E75F09E714BF30991FD2B8CAF serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug).z64" size 67108864 crc 04EA55EA md5 02F963FA8F95E3A7F0B6C13D81999BA9 sha1 55541662A192C66E34A011D4BF6F4A0EC69899AE serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Debug).v64" size 67108864 crc CE90243C md5 26EE32F38B1A9C118C95BF746A12ECB3 sha1 F41A8F9E5A0A047BDE08D5469CFBD4B8730DEF09 serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console).z64" size 33554432 crc A83ABF72 md5 609B47B79DA21F3DF9B31D06C95C09A1 sha1 C487DB55C2C3A97CCD39DED13EF9FD9121DAE729 serial "NZSP" )
 )
 game (
 	name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NZSP"
 	rom ( name "Legend of Zelda, The - Majora's Mask (Europe) (En,Fr,De,Es) (Rev 1) (Wii Virtual Console).v64" size 33554432 crc 7C7D4246 md5 8BE47311479840F4B91049AC8D8E01E0 sha1 3AA72538A93B5DFF18D32FCB48003200C380DE6E serial "NZSP" )
 )
@@ -5356,24 +5553,28 @@ game (
 game (
 	name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De).z64" size 33554432 crc 946FD0F7 md5 E040DE91A74B61E3201DB0E2323F768A sha1 328A1F1BEBA30CE5E178F031662019EB32C5F3B5 serial "NZLP" )
 )
 game (
 	name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De).v64" size 33554432 crc 9852A62F md5 9526B263B60577D8ED22FB7A33C2FACD sha1 D0BDC2EB320668B4BA6893B9AEFE4040A73123FF serial "NZLP" )
 )
 game (
 	name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De) (Rev 1).z64" size 33554432 crc A108F6E3 md5 D714580DD74C2C033F5E1B6DC0AEAC77 sha1 CFBB98D392E4A9D39DA8285D10CBEF3974C2F012 serial "NZLP" )
 )
 game (
 	name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time (Europe) (En,Fr,De) (Rev 1).v64" size 33554432 crc AB0FFBAE md5 AE0D5CE5C27D4ECCBB6D206B854A7159 sha1 663C34F1B2C05A09E5BEFFE4D0DCD440F7D49DC7 serial "NZLP" )
 )
@@ -5450,12 +5651,14 @@ game (
 game (
 	name "Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (En,Fr,De) (Zelda Collection)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (En,Fr,De) (Zelda Collection).z64" size 33554432 crc 832D6449 md5 1618403427E4344A57833043DB5CE3C3 sha1 F46239439F59A2A594EF83CF68EF65043B1BFFE2 serial "NZLP" )
 )
 game (
 	name "Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (En,Fr,De) (Zelda Collection)"
 	region "Europe"
+	language "English / French / German"
 	serial "NZLP"
 	rom ( name "Legend of Zelda, The - Ocarina of Time - Master Quest (Europe) (En,Fr,De) (Zelda Collection).v64" size 33554432 crc 177FA73A md5 36F55C8383748D2C3CAF4A8E4C646490 sha1 8EBF2E29313F44F2D49E5B4191971D09919E8E48 serial "NZLP" )
 )
@@ -5485,26 +5688,32 @@ game (
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.01) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.01) (Aftermarket) (Pirate).z64" size 33554432 crc 6C37A0A1 md5 9D6527E6228969A9A0FEEA47DCC5AAEC sha1 75D1F1CC77621AE70257C354B62FB28956B8F396 )
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.01) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.01) (Aftermarket) (Pirate).v64" size 33554432 crc 2813FF65 md5 5B8539C13647C540EBD9D03B932B1686 sha1 0395FBA3E1019235353FD409D03E0657587674F1 )
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.21) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.21) (Aftermarket) (Pirate).z64" size 33554432 crc 4D72D2D5 md5 2AD2A06456EA7D3B231CF9E406E6AE76 sha1 DC3D797F94259227796F283151F29CFAE2212DD2 )
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.21) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.21) (Aftermarket) (Pirate).v64" size 33554432 crc E53F0C1E md5 B50C2F1F9BEEE7C97A4A2A2F0323B5D2 sha1 0F9355317D91F471E9FF5AC768DEC5BFA337F4F7 )
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.3) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.3) (Aftermarket) (Pirate).z64" size 33554432 crc 91C1B340 md5 C65D67DD5B61EBC1F58D7202DDE78BBE sha1 177A175BCEA116CCC92F70FE2255AD3AE3294F13 )
 )
 game (
 	name "Legend of Zelda, The - The Sealed Palace (World) (v1.3) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The - The Sealed Palace (World) (v1.3) (Aftermarket) (Pirate).v64" size 33554432 crc BE550D02 md5 2D22A86F6C38306AA1C77BE0159AF44D sha1 576F2DC947386C3E5D21B6605F32D01F7A1B2C43 )
 )
 game (
@@ -5522,12 +5731,14 @@ game (
 game (
 	name "Lode Runner 3-D (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NLRP"
 	rom ( name "Lode Runner 3-D (Europe) (En,Fr,De,Es,It).z64" size 8388608 crc 7148251D md5 E62F4FDCC82C244BA9709E40756D9B62 sha1 3B198C0117DA808B25FBC4E543D282228BB4780A serial "NLRP" )
 )
 game (
 	name "Lode Runner 3-D (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NLRP"
 	rom ( name "Lode Runner 3-D (Europe) (En,Fr,De,Es,It).v64" size 8388608 crc 78707CEA md5 879D630EF468FF1873FDE9CC860B3D8D sha1 80C368DA49A956756D14D4E5B313E3D64A772F36 serial "NLRP" )
 )
@@ -5557,77 +5768,93 @@ game (
 )
 game (
 	name "Lunar Assault 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).z64" size 8388608 crc 75F4052F md5 D0DA4DA6AEACA000E26B86FF7B0F20CD sha1 95E109681F3EDEEA063DBE30AE6D7617F0655AE7 )
 )
 game (
 	name "Lunar Assault 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (NTSC) (Aftermarket) (Unl).v64" size 8388608 crc FC68103F md5 827833BB6AC1825A976FFCDE23A6A039 sha1 6EDD977D8B0F178DB3EF7C1EDD8CCCD6D5211E3A )
 )
 game (
 	name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).z64" size 8388608 crc 0873B7D8 md5 9F1D303B9E4788975E4B4D5CD890940B sha1 82A4613F71EA4C73896BD7D56B00DDF4CF8667E2 )
 )
 game (
 	name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (PAL)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (N64brew Game Jam 2020) (PAL) (Aftermarket) (Unl).v64" size 8388608 crc 3C5B2924 md5 2F5BF6F13FC56ADDEEBC11B9AC31BEE2 sha1 12065B67203F7B36CD07C2D7D20E02887BA2CBF9 )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.1)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.1) (NTSC) (Aftermarket) (Unl).z64" size 8388608 crc BF1DE0E1 md5 E8AF667EC10DEA3EAFFA6DE63A919A63 sha1 EB9AA27DFAD2A59BFA26A46EC040967DB8AFEB82 )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.1)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.1) (NTSC) (Aftermarket) (Unl).v64" size 8388608 crc 16CE4E93 md5 25A679C611207510AECAA7239739A6BB sha1 92480F1023770B95BFEBCFB88F344E6C8B9FC317 )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.1) (PAL)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.1) (PAL) (Aftermarket) (Unl).z64" size 8388608 crc 4492D734 md5 2BB2D6295356E4A47200671CCC67B056 sha1 BF045C57A5C0570A64002F526A2FEC40AC1C23B0 )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.1) (PAL)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.1) (PAL) (Aftermarket) (Unl).v64" size 8388608 crc 5DC18634 md5 EF7B17CA24E3184212F430F81A74EE19 sha1 3FA71AACBEF2E847202B740AC4BDFC752DE1A7AB )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.2)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.2) (NTSC) (Aftermarket) (Unl).z64" size 8388608 crc CC382DF0 md5 E391B698CC369D90CB98FCB273B79E9A sha1 9C5903D527AA16A5AAB79944BA7AD555EA4EBADE )
 )
 game (
 	name "Lunar Assault 64 (World) (v1.2)"
+	region "World"
 	rom ( name "Lunar Assault 64 (World) (v1.2) (NTSC) (Aftermarket) (Unl).v64" size 8388608 crc 4ABC301E md5 71D7B8140C3522927FC56A15599252EE sha1 15A7ED054C2788354AC9DACFCD91B1835E910A03 )
 )
 game (
 	name "Lylat Wars (Australia) (En,Fr,De)"
 	region "Australia"
+	language "English / French / German"
 	serial "NFXU"
 	rom ( name "Lylat Wars (Australia) (En,Fr,De).z64" size 12582912 crc 9A3425DA md5 7A99628EDF0A6602D0C408F31B701435 sha1 47A8CCC11450F9044CA2292B9FC3C58949B9CAAC serial "NFXU" )
 )
 game (
 	name "Lylat Wars (Australia) (En,Fr,De)"
 	region "Australia"
+	language "English / French / German"
 	serial "NFXU"
 	rom ( name "Lylat Wars (Australia) (En,Fr,De).v64" size 12582912 crc ED1249A5 md5 A51F94CA0CE8BFE1BAD0192957F0DCE0 sha1 9CBF5087D5684D3B5329630932EB2BFB29AF8511 serial "NFXU" )
 )
 game (
 	name "Lylatwars (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NFXP"
 	rom ( name "Lylatwars (Europe) (En,Fr,De).z64" size 12582912 crc 50A9C0B1 md5 884CCCA35CBEEDB8ED288326F9662100 sha1 05B307B8804F992AF1A1E2FBAFBD588501FDF799 serial "NFXP" )
 )
 game (
 	name "Lylatwars (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NFXP"
 	rom ( name "Lylatwars (Europe) (En,Fr,De).v64" size 12582912 crc 94A1A16A md5 204A14C2AC815AFEE74B58EF9394708D sha1 8DE2942E59E31FEA235AD672F6096294D8E7D12E serial "NFXP" )
 )
 game (
 	name "MRC - Multi-Racing Championship (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NMRP"
 	rom ( name "MRC - Multi-Racing Championship (Europe) (En,Fr,De).z64" size 12582912 crc BC966B10 md5 0054B7FC0C2ACBED650EFE727CDBA472 sha1 6D8600A1326C39B4B80BB1D4A6500C3F0C6202A1 serial "NMRP" )
 )
 game (
 	name "MRC - Multi-Racing Championship (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NMRP"
 	rom ( name "MRC - Multi-Racing Championship (Europe) (En,Fr,De).v64" size 12582912 crc 9C7D29EC md5 53D95CEAB72663184895663AC0C88C18 sha1 6C00683512F99DA0DB25E22833B8369270A3A044 serial "NMRP" )
 )
@@ -5777,10 +6004,12 @@ game (
 )
 game (
 	name "Magic & Legend - Time Knights (World)"
+	region "World"
 	rom ( name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl).z64" size 2097152 crc 7DDD4986 md5 51C89FCA1DBC2FE9EA76FB982EE65E9C sha1 AD00680903816E6C00941B6EC5FF2FC2A4307467 )
 )
 game (
 	name "Magic & Legend - Time Knights (World)"
+	region "World"
 	rom ( name "Magic & Legend - Time Knights (World) (Aftermarket) (Unl).v64" size 2097152 crc A2D988A1 md5 49BB868DB560EB1410CB1E343C6D990D sha1 3EDD281E73112C2561C3FD9659FEE561FFFFD921 )
 )
 game (
@@ -5928,11 +6157,13 @@ game (
 )
 game (
 	name "Manic Miner 64 (World) (Summer64)"
+	region "World"
 	serial "NMME"
 	rom ( name "Manic Miner 64 (World) (Summer64) (Unl).z64" size 2097152 crc 02AACC20 md5 B18BC60EA6B9C72048FD84A2B8F182D4 sha1 52C8FC058BB372DC96965D291B75857C973E7586 serial "NMME" )
 )
 game (
 	name "Manic Miner 64 (World) (Summer64)"
+	region "World"
 	serial "NMME"
 	rom ( name "Manic Miner 64 (World) (Summer64) (Unl).v64" size 2097152 crc B3121B94 md5 F80DCE724903E75F856845225AC6BD7B sha1 B1A707EA126B50B8B738990BD68BA9C4ED5D261F serial "NMME" )
 )
@@ -6067,12 +6298,14 @@ game (
 game (
 	name "Mario Party (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NLBP"
 	rom ( name "Mario Party (Europe) (En,Fr,De).z64" size 33554432 crc DA98A5D3 md5 9773150709BD804B8E57E35F1D6B0EED sha1 D7BA071C220A71F5E4503E55C98C91FF8F027848 serial "NLBP" )
 )
 game (
 	name "Mario Party (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NLBP"
 	rom ( name "Mario Party (Europe) (En,Fr,De).v64" size 33554432 crc 6973373F md5 9AAE6D37096F2D543160710ECB691AC5 sha1 2F8B0BF9861D10B4C1C5B9C0F0C47333C96DBE30 serial "NLBP" )
 )
@@ -6103,24 +6336,28 @@ game (
 game (
 	name "Mario Party 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMWP"
 	rom ( name "Mario Party 2 (Europe) (En,Fr,De,Es,It).z64" size 33554432 crc DC00357A md5 F70112B652B0EE4856AF83F4E8005C31 sha1 FA5D1426488B298A1C5C383360A78F1A3DE18DC7 serial "NMWP" )
 )
 game (
 	name "Mario Party 2 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMWP"
 	rom ( name "Mario Party 2 (Europe) (En,Fr,De,Es,It).v64" size 33554432 crc 8C0C8BEC md5 A838E03022502B3A0B945286C0496AD1 sha1 130BDC56FBE29FC27645E21959B27322C342728C serial "NMWP" )
 )
 game (
 	name "Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMWP"
 	rom ( name "Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console).z64" size 33554432 crc DCA66040 md5 4A834D275ABF14A6255AA11BE81E339D sha1 3DB98872699002F3E9FB82CF9A3F79F1B52E2A51 serial "NMWP" )
 )
 game (
 	name "Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMWP"
 	rom ( name "Mario Party 2 (Europe) (En,Fr,De,Es,It) (Wii Virtual Console).v64" size 33554432 crc 5EDFDA76 md5 3C942AFD9269E19CE4F4A8D222698B16 sha1 6DED0BA93840CDCDCA0525F66F8C98A07E4E33E0 serial "NMWP" )
 )
@@ -6175,12 +6412,14 @@ game (
 game (
 	name "Mario Party 3 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NMVP"
 	rom ( name "Mario Party 3 (Europe) (En,Fr,De,Es).z64" size 33554432 crc 813B13F2 md5 8E62EC6FBE3CC9FF6284191C9C88E68F sha1 9E1DDFE872C6D43AE51010A9E8A6FE2D2E634B50 serial "NMVP" )
 )
 game (
 	name "Mario Party 3 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NMVP"
 	rom ( name "Mario Party 3 (Europe) (En,Fr,De,Es).v64" size 33554432 crc A5D78A36 md5 5B8C0C27F64DEB890FDE54E83B313E26 sha1 E8BA773A4FD1251A78EEFCF1F3CBE1F0054A8A38 serial "NMVP" )
 )
@@ -6339,12 +6578,14 @@ game (
 game (
 	name "Mia Hamm Soccer 64 (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NHME"
 	rom ( name "Mia Hamm Soccer 64 (USA) (En,Es).z64" size 16777216 crc 2DB3D3D6 md5 A4039368E0472C68E3072C02C7A80F94 sha1 62CE9D1C1F4CF7BEAA1EF7C456C155F63F13F057 serial "NHME" )
 )
 game (
 	name "Mia Hamm Soccer 64 (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NHME"
 	rom ( name "Mia Hamm Soccer 64 (USA) (En,Es).v64" size 16777216 crc 3AA4BFF5 md5 537D7CFED7A0F3287D711F187E70B2FC sha1 656DAA19BC199929EF2ED52F841487E3FFAC7692 serial "NHME" )
 )
@@ -6375,12 +6616,14 @@ game (
 game (
 	name "Mickey's Speedway USA (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMLP"
 	rom ( name "Mickey's Speedway USA (Europe) (En,Fr,De,Es,It).z64" size 33554432 crc 0AE51EA5 md5 5BA3DC37860C08A209F24286B8DFEC8C sha1 C583ED998A6B422A22FFD3F8376C3CEF0C3710D9 serial "NMLP" )
 )
 game (
 	name "Mickey's Speedway USA (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NMLP"
 	rom ( name "Mickey's Speedway USA (Europe) (En,Fr,De,Es,It).v64" size 33554432 crc DDF28F6B md5 658641D0532BCD0059C333B00EC3B595 sha1 BF43FA4A34CEFB537271DD71DB8DB47F5B4A29FD serial "NMLP" )
 )
@@ -6399,12 +6642,14 @@ game (
 game (
 	name "Micro Machines 64 Turbo (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NV3P"
 	rom ( name "Micro Machines 64 Turbo (Europe) (En,Fr,De,Es,It).z64" size 12582912 crc 10B9FF1F md5 9A8465E302263D635557A14AA197FE3C sha1 E5E2D6169AF2663E5519795B28BEC018934E86EE serial "NV3P" )
 )
 game (
 	name "Micro Machines 64 Turbo (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NV3P"
 	rom ( name "Micro Machines 64 Turbo (Europe) (En,Fr,De,Es,It).v64" size 12582912 crc 14030FF5 md5 FE6C48F7C14C518FCFC3301A135183AF sha1 B8961F88210027EE0525623242F7CED6C139DEDF serial "NV3P" )
 )
@@ -6481,11 +6726,13 @@ game (
 game (
 	name "Mini Racers (USA) (Ja) (Proto)"
 	region "USA"
+	language "Japanese"
 	rom ( name "Mini Racers (USA) (Ja) (Proto).z64" size 16777216 crc F59F881B md5 9C6CF9D3CB5852439DE4EF4A399253B9 sha1 109C1960A060CDAB0DA75E336195FFA15F111D23 )
 )
 game (
 	name "Mini Racers (USA) (Ja) (Proto)"
 	region "USA"
+	language "Japanese"
 	rom ( name "Mini Racers (USA) (Ja) (Proto).v64" size 16777216 crc CF4C80B0 md5 036D9A9533C89CEFE1032BAE54A21B82 sha1 AC093F0BBEC0893E942DA322318F54268834C10B )
 )
 game (
@@ -6610,26 +6857,32 @@ game (
 )
 game (
 	name "Mission Lost Control (World) (Itch.io)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (Itch.io) (Aftermarket) (Unl).z64" size 10829120 crc 0C9AD843 md5 D3432B4AD7E1B1369C26448988517A57 sha1 6B34A2433333A3FE7C71B9B8DD72D2A243A73380 )
 )
 game (
 	name "Mission Lost Control (World) (Itch.io)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (Itch.io) (Aftermarket) (Unl).v64" size 10829120 crc FB83DC2C md5 76A8FF47A979C737BD97F828092B5F05 sha1 1B65FE0355547B1132193FE4595CE7DB6455DEDB )
 )
 game (
 	name "Mission Lost Control (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 10829280 crc E7486D4B md5 3ADE884E09A57B2EC6CC0AF4DB061FCA sha1 82E5BFC204B9A75E7C322B2FAC0B90F1DE889541 )
 )
 game (
 	name "Mission Lost Control (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 10829280 crc A85778AA md5 1C62584E7C1B5F15B091ED7C8FC52088 sha1 15553B18AA2DCAA0ED6665AE2578D26838A08940 )
 )
 game (
 	name "Mission Lost Control (World) (v1.1)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (v1.1) (Aftermarket) (Unl).z64" size 10829776 crc 05E4893A md5 12DADD58FE62185A7791BC4E67232E0D sha1 FC8DD48DBA8AE7446E942CC3F3D01540C986FB2E )
 )
 game (
 	name "Mission Lost Control (World) (v1.1)"
+	region "World"
 	rom ( name "Mission Lost Control (World) (v1.1) (Aftermarket) (Unl).v64" size 10829776 crc 0254823F md5 6BEB91F45ABA7B5E46608EEAA6A18A7E sha1 D82F9D1E924EFEF866686BDD38D6001CFA30B204 )
 )
 game (
@@ -6647,12 +6900,14 @@ game (
 game (
 	name "Monaco Grand Prix - Racing Simulation 2 (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NMGP"
 	rom ( name "Monaco Grand Prix - Racing Simulation 2 (Europe) (En,Fr,Es,It).z64" size 16777216 crc 3F5E5830 md5 C93A17D130B96FBA27A0E959CAB2A450 sha1 39A7F5515DD822A32C0FC8D9E01A72F0C8B2A1F7 serial "NMGP" )
 )
 game (
 	name "Monaco Grand Prix - Racing Simulation 2 (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NMGP"
 	rom ( name "Monaco Grand Prix - Racing Simulation 2 (Europe) (En,Fr,Es,It).v64" size 16777216 crc 0A54FDF0 md5 257E81AC747A455A709A013A5F8CBC1F sha1 BD25283C98FC1915C07F4EE9CE58820C1D4A44B2 serial "NMGP" )
 )
@@ -6671,12 +6926,14 @@ game (
 game (
 	name "Monster Truck Madness 64 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NM3P"
 	rom ( name "Monster Truck Madness 64 (Europe) (En,Fr,De,Es,It).z64" size 8388608 crc 4731DF5C md5 E3B408997D7DB91F8219F168C6D57D26 sha1 A702B0616030BFC5FEB78FEAF365EAB74F1A8B6E serial "NM3P" )
 )
 game (
 	name "Monster Truck Madness 64 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NM3P"
 	rom ( name "Monster Truck Madness 64 (Europe) (En,Fr,De,Es,It).v64" size 8388608 crc CE6779FB md5 5BAEE822A8A2EB40F4EF11F59824B83F sha1 42F1702360E5381B0C94912AE3B5BB092C04297C serial "NM3P" )
 )
@@ -6825,12 +7082,14 @@ game (
 game (
 	name "Mystical Ninja 2 Starring Goemon (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGMP"
 	rom ( name "Mystical Ninja 2 Starring Goemon (Europe) (En,Fr,De).z64" size 16777216 crc 3502DBBE md5 E6B5C17B7BBBB7C432B3506C085D16C4 sha1 AADD1D7E943CBFA5496A370158B5F8FE17B06415 serial "NGMP" )
 )
 game (
 	name "Mystical Ninja 2 Starring Goemon (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NGMP"
 	rom ( name "Mystical Ninja 2 Starring Goemon (Europe) (En,Fr,De).v64" size 16777216 crc 6DF2BDA6 md5 89F1CE5BCE09D4B882F190407B08E2D4 sha1 45BBFD1436D86055A82DBA19869CB9D2038BFA18 serial "NGMP" )
 )
@@ -6860,18 +7119,22 @@ game (
 )
 game (
 	name "N64 Giallo - Crystal Dreams on Death's Wing (World)"
+	region "World"
 	rom ( name "N64 Giallo - Crystal Dreams on Death's Wing (World) (Aftermarket) (Unl).z64" size 2162688 crc DE125A8E md5 28DAEF0CDDBF2FD11B02C5E820182B83 sha1 41ACB81C5B2B010163E19FD559A8CC04F2FB2FE1 )
 )
 game (
 	name "N64 Giallo - Crystal Dreams on Death's Wing (World)"
+	region "World"
 	rom ( name "N64 Giallo - Crystal Dreams on Death's Wing (World) (Aftermarket) (Unl).v64" size 2162688 crc B89C6B4F md5 6AEE5EAE304EA030272309B46A38963C sha1 49C7894532C55905EDE930A38D3D0B6A8594EFEF )
 )
 game (
 	name "N64 Giallo - Crystal Dreams on Death's Wing (World) (v1.1)"
+	region "World"
 	rom ( name "N64 Giallo - Crystal Dreams on Death's Wing (World) (v1.1) (Aftermarket) (Unl).z64" size 2129920 crc DD96F5DB md5 58633604F1E9D4BAB3C377B90EC426B8 sha1 D1E2407CA9E720A9F5804B37066F1B07D2C2CB4C )
 )
 game (
 	name "N64 Giallo - Crystal Dreams on Death's Wing (World) (v1.1)"
+	region "World"
 	rom ( name "N64 Giallo - Crystal Dreams on Death's Wing (World) (v1.1) (Aftermarket) (Unl).v64" size 2129920 crc 7962B909 md5 487E463B5C6EBCAAE514CF986FCEDBCD sha1 3002FED2A331A02EFDA36A82464443825C077615 )
 )
 game (
@@ -6889,12 +7152,14 @@ game (
 game (
 	name "NASCAR 99 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N9CP"
 	rom ( name "NASCAR 99 (Europe) (En,Fr,De).z64" size 12582912 crc 76E79CEA md5 15A87A6D01DBA1A7C4375FFBC1214BB8 sha1 CB43EE3D86A7B85BEFEC8D068D72192FA8174EB0 serial "N9CP" )
 )
 game (
 	name "NASCAR 99 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "N9CP"
 	rom ( name "NASCAR 99 (Europe) (En,Fr,De).v64" size 12582912 crc 5351ACB5 md5 96A36A9871B34839D6A2AF57C5C4EF96 sha1 84C515AB4ECF3CAC306D1355B639D7E535845F42 serial "N9CP" )
 )
@@ -6997,48 +7262,56 @@ game (
 game (
 	name "NBA Live 2000 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NNLP"
 	rom ( name "NBA Live 2000 (Europe) (En,Fr,De,Es).z64" size 16777216 crc 0E4B944C md5 7FEC099D1A989D5222D3F9E1A7770404 sha1 D4CB60EB3645AE803A1EFC234CEFFD8F424DC8F7 serial "NNLP" )
 )
 game (
 	name "NBA Live 2000 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NNLP"
 	rom ( name "NBA Live 2000 (Europe) (En,Fr,De,Es).v64" size 16777216 crc 4C7282D6 md5 591D563BABCD634DF5A6F1BE6D86D352 sha1 E2B90369CC88D6488D8CA307B7AB915CFF8ED5D6 serial "NNLP" )
 )
 game (
 	name "NBA Live 2000 (USA) (En,Fr,De,Es)"
 	region "USA"
+	language "English / French / German / Spanish"
 	serial "NNLE"
 	rom ( name "NBA Live 2000 (USA) (En,Fr,De,Es).z64" size 16777216 crc 7C3BC95E md5 FC47F85CC501C8C5BD9D0CA4DB48258F sha1 4BA671A132125BCAA6552542B7FC2C7F6DC56A0E serial "NNLE" )
 )
 game (
 	name "NBA Live 2000 (USA) (En,Fr,De,Es)"
 	region "USA"
+	language "English / French / German / Spanish"
 	serial "NNLE"
 	rom ( name "NBA Live 2000 (USA) (En,Fr,De,Es).v64" size 16777216 crc 94FC12D3 md5 C3071968BC7891FAC1A1DEE216FDB5C0 sha1 61E5052589BFE9B7736B9E758125A8AF11A11CB3 serial "NNLE" )
 )
 game (
 	name "NBA Live 99 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "N9BP"
 	rom ( name "NBA Live 99 (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc A316DF37 md5 226C19C8759314AC740420DDC3A34EB4 sha1 530EF95C12F0CA73BC4E178A397CE677A57AD858 serial "N9BP" )
 )
 game (
 	name "NBA Live 99 (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "N9BP"
 	rom ( name "NBA Live 99 (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 086E322E md5 DB69F8396056D6D89E143DA38CF6DC7B sha1 EEA6E4FF34BEB7D0EB5692D79F4C5A1FF757853E serial "N9BP" )
 )
 game (
 	name "NBA Live 99 (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "N9BE"
 	rom ( name "NBA Live 99 (USA) (En,Fr,De,Es,It).z64" size 16777216 crc 9BE0A7AC md5 DBE79AE6531B491B8F8EE8B2B814D665 sha1 89E47FFAC3EAE25B37E1A20CE66CA24E343912DD serial "N9BE" )
 )
 game (
 	name "NBA Live 99 (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "N9BE"
 	rom ( name "NBA Live 99 (USA) (En,Fr,De,Es,It).v64" size 16777216 crc 74BC96BE md5 32D4469E1B2B600E36708ED6D903628F sha1 C040AABD6A985052A6D2E9AB7B8D458233D0793F serial "N9BE" )
 )
@@ -7297,12 +7570,14 @@ game (
 game (
 	name "NHL 99 (Europe) (En,De,Sv,Fi)"
 	region "Europe"
+	language "English / German / Swedish / Finnish"
 	serial "N9HP"
 	rom ( name "NHL 99 (Europe) (En,De,Sv,Fi).z64" size 12582912 crc F3B2AA4D md5 B7E41D34D209B6CFA92E3D622F911C4E sha1 87CD5ECFF93D5B34C246CB96A6249B78B5B90126 serial "N9HP" )
 )
 game (
 	name "NHL 99 (Europe) (En,De,Sv,Fi)"
 	region "Europe"
+	language "English / German / Swedish / Finnish"
 	serial "N9HP"
 	rom ( name "NHL 99 (Europe) (En,De,Sv,Fi).v64" size 12582912 crc 5CAABE5A md5 40359DD3081568FFB007F7BD6E9FE372 sha1 D6142F571BB72E4BC6AC9C665E666FCD927302A4 serial "N9HP" )
 )
@@ -7392,10 +7667,12 @@ game (
 )
 game (
 	name "Nacho 64 (World) (Auto Demo)"
+	region "World"
 	rom ( name "Nacho 64 (World) (Auto Demo) (Unl).z64" size 2097152 crc 4C3DA466 md5 919A27C2ABBEA83BA996CEE553227929 sha1 8DD51E5E55879BE398490EED8161143AA480A398 )
 )
 game (
 	name "Nacho 64 (World) (Auto Demo)"
+	region "World"
 	rom ( name "Nacho 64 (World) (Auto Demo) (Unl).v64" size 2097152 crc 90D4CC30 md5 134D8AF40DD5E61BE09B42DCEEB30A4F sha1 A67F15ACA424C6AA3059C39B095BAB120C8140B8 )
 )
 game (
@@ -7531,12 +7808,14 @@ game (
 game (
 	name "Nuclear Strike 64 (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NCEP"
 	rom ( name "Nuclear Strike 64 (Europe) (En,Fr).z64" size 33554432 crc 9AFBFCAF md5 710BA49EBD5C9A2B26653FAE93BD667A sha1 34A23CFA247DE4E8ECDB8D72431AF93D35C69753 serial "NCEP" )
 )
 game (
 	name "Nuclear Strike 64 (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NCEP"
 	rom ( name "Nuclear Strike 64 (Europe) (En,Fr).v64" size 33554432 crc 575FBFE5 md5 6AE796D1D0BEFA2321A5FF055A48DD13 sha1 C170B3A4032CFDF885068F6F3AF9EB6CBF28484C serial "NCEP" )
 )
@@ -7603,24 +7882,28 @@ game (
 game (
 	name "O.D.T. (Europe) (En,Fr,De,Es,It) (Proto)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTDP"
 	rom ( name "O.D.T. (Europe) (En,Fr,De,Es,It) (Proto).z64" size 16777216 crc 7B870026 md5 E2FB4F16A039A0E302D28ACA94D5D928 sha1 092FB7C560B40CC3A2A0E6B48A6AFC10948C4166 serial "NTDP" )
 )
 game (
 	name "O.D.T. (Europe) (En,Fr,De,Es,It) (Proto)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTDP"
 	rom ( name "O.D.T. (Europe) (En,Fr,De,Es,It) (Proto).v64" size 16777216 crc 6E79473E md5 88A46921227F3FA23F52AED725C040D1 sha1 93DC2ADB08C209FDC0BF2F007824FDE79F79A638 serial "NTDP" )
 )
 game (
 	name "O.D.T. (USA) (En,Fr,Es) (Proto)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NTDE"
 	rom ( name "O.D.T. (USA) (En,Fr,Es) (Proto).z64" size 16777216 crc 1D4A8659 md5 4116E492168AAFFF1BD3100C7B0AA28F sha1 453A7A636B05C8B9DAD6AA6FB5E265BAAE568074 serial "NTDE" )
 )
 game (
 	name "O.D.T. (USA) (En,Fr,Es) (Proto)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NTDE"
 	rom ( name "O.D.T. (USA) (En,Fr,Es) (Proto).v64" size 16777216 crc AE7E3A9E md5 AE29DE9B6BD8DEA8CF27783B2F720B10 sha1 9D1E073F9AAD18F4A7A52CB185A50F5045BFD656 serial "NTDE" )
 )
@@ -7698,25 +7981,27 @@ game (
 )
 game (
 	name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
-	region "USA"
+	region "USA / Europe"
 	serial "NOBE"
 	rom ( name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console).z64" size 41943040 crc 19337B04 md5 F04C8F511B678301B21C54A27CB08BB9 sha1 604C5BC450D0C33B536C185F53725C2BAF622F3B serial "NOBE" )
 )
 game (
 	name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console)"
-	region "USA"
+	region "USA / Europe"
 	serial "NOBE"
 	rom ( name "Ogre Battle 64 - Person of Lordly Caliber (USA, Europe) (Rev 1) (Wii Virtual Console).v64" size 41943040 crc 3752AD39 md5 8174B133F4C9675B43E1C4ED6675E797 sha1 544949641D8728BB2FB91CC84A3AF7D3186DC0FF serial "NOBE" )
 )
 game (
 	name "Olympic Hockey 98 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NHNP"
 	rom ( name "Olympic Hockey 98 (Europe) (En,Fr,De,Es).z64" size 8388608 crc 5A805C2E md5 465DFD27DDAB4F5488F4DADC09B7F938 sha1 E01404FAC7E9AFC02D48BF889ABA51F843165B7C serial "NHNP" )
 )
 game (
 	name "Olympic Hockey 98 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NHNP"
 	rom ( name "Olympic Hockey 98 (Europe) (En,Fr,De,Es).v64" size 8388608 crc 1C7B9ED5 md5 435EB59F36BDEA6BFC2E25D763C9EE46 sha1 D72F932B0D12F19B9423A112664D0CCFC1526767 serial "NHNP" )
 )
@@ -7759,12 +8044,14 @@ game (
 game (
 	name "Operation WinBack (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NWDP"
 	rom ( name "Operation WinBack (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc FB96F166 md5 91CF1982F309BD73822165087DAD4371 sha1 133F17162B2734286F9E94F64ACB1538B11506B2 serial "NWDP" )
 )
 game (
 	name "Operation WinBack (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NWDP"
 	rom ( name "Operation WinBack (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 15F1C325 md5 D92A9A5BB620700F6CF59EED83DE9105 sha1 6AB5A9771F4BED7F96726C943A24215300C107E5 serial "NWDP" )
 )
@@ -7795,12 +8082,14 @@ game (
 game (
 	name "PGA European Tour Golf (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NEAP"
 	rom ( name "PGA European Tour Golf (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc 6B5FF959 md5 0112FFAADA116D172ABCE136E9043A93 sha1 F9E838CF5CFD0FA493D5E5F7A7D450A80787C814 serial "NEAP" )
 )
 game (
 	name "PGA European Tour Golf (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NEAP"
 	rom ( name "PGA European Tour Golf (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 07B0271E md5 71689E7713FC30F32E39D3B2EF8F7B65 sha1 20C442CF25951E2B09EB7B19E3E900B885231FFA serial "NEAP" )
 )
@@ -7819,12 +8108,14 @@ game (
 game (
 	name "Paper Mario (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NMQP"
 	rom ( name "Paper Mario (Europe) (En,Fr,De,Es).z64" size 50331648 crc 9FC00CE3 md5 3B5C99F5E7DBA06BF8237E58F6D4196B sha1 1273275142B79F7443F55BD35679A19670ADFE3A serial "NMQP" )
 )
 game (
 	name "Paper Mario (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NMQP"
 	rom ( name "Paper Mario (Europe) (En,Fr,De,Es).v64" size 50331648 crc 406CE874 md5 DF409825299AF218308475FC9FBF3B3F sha1 9EE4A0A75EAD324A0B30D809091B25FB1673D3B5 serial "NMQP" )
 )
@@ -7913,12 +8204,14 @@ game (
 game (
 	name "Perfect Dark (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NPDP"
 	rom ( name "Perfect Dark (Europe) (En,Fr,De,Es,It).z64" size 33554432 crc 7718A714 md5 D9B5CD305D228424891CE38E71BC9213 sha1 A663D3F4EEE0B198471132DB92E9639A9EDD1985 serial "NPDP" )
 )
 game (
 	name "Perfect Dark (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NPDP"
 	rom ( name "Perfect Dark (Europe) (En,Fr,De,Es,It).v64" size 33554432 crc C4639ED6 md5 6F86452863716270C51C4F433AF47534 sha1 EB38780B7F7A0EA4C24369D03644B42FFE739E63 serial "NPDP" )
 )
@@ -7960,18 +8253,22 @@ game (
 )
 game (
 	name "Phazer 64 (World)"
+	region "World"
 	rom ( name "Phazer 64 (World) (Aftermarket) (Unl).z64" size 7716864 crc 195799E7 md5 5EB081BC8DE3C15B8AFA8CE75AE61C9F sha1 1128B547629D24D09FC406FD3EB682935888C532 )
 )
 game (
 	name "Phazer 64 (World)"
+	region "World"
 	rom ( name "Phazer 64 (World) (Aftermarket) (Unl).v64" size 7716864 crc E98AB86C md5 7D4E68D3D8A0DCFFCB5BE01A5DB3BD5C sha1 8D6292142AEDB35D4F1C85153EBFC752CE285D8C )
 )
 game (
 	name "Phazer 64 (World) (v1.1)"
+	region "World"
 	rom ( name "Phazer 64 (World) (v1.1) (Aftermarket) (Unl).z64" size 7733248 crc 4D6B6F45 md5 50F5FE7FF1C16527789075AF26768D5E sha1 25A39DEB36089301C225F5F6895616210EFFE79E )
 )
 game (
 	name "Phazer 64 (World) (v1.1)"
+	region "World"
 	rom ( name "Phazer 64 (World) (v1.1) (Aftermarket) (Unl).v64" size 7733248 crc E21B34C3 md5 653F25F1EEDB7315E6356986E8263830 sha1 94F0979F0194743159DE4170A31CB0965367ECE2 )
 )
 game (
@@ -7989,12 +8286,14 @@ game (
 game (
 	name "Pilotwings 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NPWP"
 	rom ( name "Pilotwings 64 (Europe) (En,Fr,De).z64" size 8388608 crc C902E57C md5 3FCD4969F9A080BD2BCB913EC5D7A3BD sha1 FA4E0A1941EEA83E09CA00197569E2464D70ECB0 serial "NPWP" )
 )
 game (
 	name "Pilotwings 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NPWP"
 	rom ( name "Pilotwings 64 (Europe) (En,Fr,De).v64" size 8388608 crc 334E88BF md5 9E90E82CDA1F83B2BD43B9B19F68E404 sha1 7014B6AC0A6AF8AB729E441AE9B5DE08EF7B68DD serial "NPWP" )
 )
@@ -8034,10 +8333,12 @@ game (
 )
 game (
 	name "Plug-N-Repair (World)"
+	region "World"
 	rom ( name "Plug-N-Repair (World) (Aftermarket) (Unl).z64" size 5177344 crc CA251A84 md5 977CBA66DDD9B23441AF6DB6BE0EDA76 sha1 E5F952A37D457444CCB1E770888CA1C6B3677E6A )
 )
 game (
 	name "Plug-N-Repair (World)"
+	region "World"
 	rom ( name "Plug-N-Repair (World) (Aftermarket) (Unl).v64" size 5177344 crc 09FEC381 md5 C19B8251B57B92933B388C4FF429B61A sha1 B5F896E90EC27AEB5635FEDFAD96745899945FA7 )
 )
 game (
@@ -8520,10 +8821,12 @@ game (
 )
 game (
 	name "Power Struggle (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Power Struggle (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 10485760 crc E6A07215 md5 F392061D262F6AEF3156D1F045C9FB18 sha1 F3EEEF0FFAA705FAF092D8291E31A9469D963A5E )
 )
 game (
 	name "Power Struggle (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Power Struggle (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 10485760 crc 9E95A2FE md5 112371B52754703A4E74AC39B8D762AC sha1 706B2A35C1CA599BF2CF0944B701864E56E1D553 )
 )
 game (
@@ -8624,10 +8927,12 @@ game (
 )
 game (
 	name "Puzzle Master 64 (World)"
+	region "World"
 	rom ( name "Puzzle Master 64 (World) (Unl).z64" size 10485760 crc 8CEF5822 md5 FBDD421FC2105CF4B9663DF97FD7041D sha1 31EFBFA6A08EFA5E5B2A92A62B342DEE4FCF645E )
 )
 game (
 	name "Puzzle Master 64 (World)"
+	region "World"
 	rom ( name "Puzzle Master 64 (World) (Unl).v64" size 10485760 crc 4CE1D334 md5 8825D99D07FA928B02386AE231C329A1 sha1 84ECAC3C65126833382B29CB739CD62473733E47 )
 )
 game (
@@ -8874,12 +9179,14 @@ game (
 game (
 	name "Rat Attack (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRTP"
 	rom ( name "Rat Attack (Europe) (En,Fr,De,Es,It,Nl).z64" size 8388608 crc DD4FA798 md5 BC66239C12AE8696926E50C2B6ED9C49 sha1 B27E328F7600B7A2E175E4A36D8C85073EAF4D0E serial "NRTP" )
 )
 game (
 	name "Rat Attack (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRTP"
 	rom ( name "Rat Attack (Europe) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc C3909721 md5 1CB8A6D49AC03FACF06E0E24048777DF sha1 8115F19AADE05147DB633266A4DD7BEC82CDD735 serial "NRTP" )
 )
@@ -8898,24 +9205,28 @@ game (
 game (
 	name "Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NY2P"
 	rom ( name "Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It).z64" size 33554432 crc 169A5037 md5 5DBBFD5ACE8222FA8FE51BE113453C13 sha1 619AB27EA1645399439AD324566361D3E7FF020E serial "NY2P" )
 )
 game (
 	name "Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NY2P"
 	rom ( name "Rayman 2 - The Great Escape (Europe) (En,Fr,De,Es,It).v64" size 33554432 crc B7E10177 md5 8D0B9783B56E4D62D0462A80CB61947C sha1 A422B3BE224814C7F01512D778BECFA0BDFFAFC8 serial "NY2P" )
 )
 game (
 	name "Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "NY2E"
 	rom ( name "Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It).z64" size 33554432 crc 02BB4409 md5 03AA4D09FDE77EED9B95BE68E603D233 sha1 50558356B059AD3FBAF5FE95380512B9DCEAAF52 serial "NY2E" )
 )
 game (
 	name "Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "NY2E"
 	rom ( name "Rayman 2 - The Great Escape (USA) (En,Fr,De,Es,It).v64" size 33554432 crc 72EE54B2 md5 55ED44F3ADBE04C3FC405CCEDC261578 sha1 4D7A58F7A87928E592416B75B364E3563BBEED2F serial "NY2E" )
 )
@@ -8946,12 +9257,14 @@ game (
 game (
 	name "Re-Volt (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NRVP"
 	rom ( name "Re-Volt (Europe) (En,Fr,De,Es).z64" size 12582912 crc 81D13A11 md5 FAA64ABB0D222FCC0C6E2515D3805D9F sha1 5ED3CD3888FEC080D44FFE345DD50D75E471FF8F serial "NRVP" )
 )
 game (
 	name "Re-Volt (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NRVP"
 	rom ( name "Re-Volt (Europe) (En,Fr,De,Es).v64" size 12582912 crc 194BB8A1 md5 ABD10FCD29119EF5E7F9915429042449 sha1 31D1B888BDA70D2D5B1C7ECD95F8F2D83AC35D36 serial "NRVP" )
 )
@@ -8970,12 +9283,14 @@ game (
 game (
 	name "Ready 2 Rumble Boxing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRDP"
 	rom ( name "Ready 2 Rumble Boxing (Europe) (En,Fr,De).z64" size 33554432 crc A69DF7B3 md5 ADC95AE01855FA305B13F8B22427E597 sha1 E18477D858C623A834F24DC2717D0EF340E63364 serial "NRDP" )
 )
 game (
 	name "Ready 2 Rumble Boxing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRDP"
 	rom ( name "Ready 2 Rumble Boxing (Europe) (En,Fr,De).v64" size 33554432 crc F2FE85AD md5 F8A3D817DB07D19F3C06207D2835803A sha1 8A2BD9CEB91BC753CBEEBD4CB0D47819361E4BEA serial "NRDP" )
 )
@@ -9026,12 +9341,14 @@ game (
 game (
 	name "Resident Evil 2 (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NREP"
 	rom ( name "Resident Evil 2 (Europe) (En,Fr).z64" size 67108864 crc 7C8EE011 md5 B04F298721223A22E1150CEBC712EE6A sha1 D54561791BC41F1B743F8ABE769A6E8CBF435326 serial "NREP" )
 )
 game (
 	name "Resident Evil 2 (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	serial "NREP"
 	rom ( name "Resident Evil 2 (Europe) (En,Fr).v64" size 67108864 crc A9936CEC md5 7F3B88A0968FE05034F967F646EBD114 sha1 C82E3C253E438C0F742882F26E8006FDF9C99346 serial "NREP" )
 )
@@ -9061,18 +9378,22 @@ game (
 )
 game (
 	name "Retro Dash (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Retro Dash (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 2097152 crc F853037F md5 989F407B99F9F979C3DAF052422C07F4 sha1 84EF1374BDB2AFF153525EFDBFE7AD8CE14846A5 )
 )
 game (
 	name "Retro Dash (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Retro Dash (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 2097152 crc 3445DB6A md5 8D75B7824DDF59F08D3A86E89C0341A5 sha1 E57A1A88EE63B1F3B08F9134CB087D75905E33F9 )
 )
 game (
 	name "Ring Dash 64 (World)"
+	region "World"
 	rom ( name "Ring Dash 64 (World) (Aftermarket) (Unl).z64" size 13074432 crc C1E180E7 md5 E38BCD7DE1F87BE495653CA00502B178 sha1 D6598FB7875D1A979669E9B5EE0EC1196C33AA68 )
 )
 game (
 	name "Ring Dash 64 (World)"
+	region "World"
 	rom ( name "Ring Dash 64 (World) (Aftermarket) (Unl).v64" size 13074432 crc EB16D1DF md5 0C7D3DE22F0511518AA8B44A4C28DC2D sha1 256DAED9AA40ED89FF6B31A97D6DECE2B5BF4A5F )
 )
 game (
@@ -9166,24 +9487,28 @@ game (
 game (
 	name "Roadsters (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRRP"
 	rom ( name "Roadsters (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc 997ED5AF md5 41F67B5C8BB8DAEFFD989123846FC063 sha1 2AD3BCCD29DC879A873C926AF03002E36582525A serial "NRRP" )
 )
 game (
 	name "Roadsters (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRRP"
 	rom ( name "Roadsters (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc C2D2F16B md5 BB95A96AA50732504EC987337A635663 sha1 BDE57B268B6BFFE2E60CCA0E3D9500A35506A81C serial "NRRP" )
 )
 game (
 	name "Roadsters (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NRRE"
 	rom ( name "Roadsters (USA) (En,Fr,Es).z64" size 12582912 crc E4337B92 md5 D3644B398C090528E0ED9EB3C140366E sha1 D896FFCBA44696BDB7E2048841F287EA5951AD2A serial "NRRE" )
 )
 game (
 	name "Roadsters (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NRRE"
 	rom ( name "Roadsters (USA) (En,Fr,Es).v64" size 12582912 crc F68D139E md5 49D0C8BC8AD23306B87456FB3055C5DB sha1 E2827C55874A4883C5D969EB34944324D639AF06 serial "NRRE" )
 )
@@ -9246,12 +9571,14 @@ game (
 game (
 	name "Rocket - Robot on Wheels (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSUP"
 	rom ( name "Rocket - Robot on Wheels (Europe) (En,Fr,De).z64" size 12582912 crc 7DE5D20D md5 427C5457D4A29A222811F0CAA9CCA7B9 sha1 A1AA086F0826BEE4BE71C16BC67468B8D8A49065 serial "NSUP" )
 )
 game (
 	name "Rocket - Robot on Wheels (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSUP"
 	rom ( name "Rocket - Robot on Wheels (Europe) (En,Fr,De).v64" size 12582912 crc 2960FF8B md5 CFC34E10E7BD3DA3420D4C768C82DE10 sha1 FCE3A9B4CC94E44D0C2F58B7669140447F9BF0EC serial "NSUP" )
 )
@@ -9354,12 +9681,14 @@ game (
 game (
 	name "Rush 2 - Extreme Racing USA (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NR2P"
 	rom ( name "Rush 2 - Extreme Racing USA (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc 30F21F89 md5 681DF5A32E857E77194106B35304D6B5 sha1 090A027612140E90FFBBD7C48DEC77005F7B0A69 serial "NR2P" )
 )
 game (
 	name "Rush 2 - Extreme Racing USA (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NR2P"
 	rom ( name "Rush 2 - Extreme Racing USA (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc 9B364DF7 md5 21731BC459610D60C2B604B4D3737C75 sha1 FC590418F82BD5E360FF4530100D72CEA2A97D99 serial "NR2P" )
 )
@@ -9388,12 +9717,14 @@ game (
 game (
 	name "S.C.A.R.S. (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NCSP"
 	rom ( name "S.C.A.R.S. (Europe) (En,Fr,De).z64" size 8388608 crc 4E37B6F2 md5 7ED3F10BC32CF76F172D8C31D15A2799 sha1 8B4EBAD8B7F50381BA2E16D0C475332837BB5780 serial "NCSP" )
 )
 game (
 	name "S.C.A.R.S. (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NCSP"
 	rom ( name "S.C.A.R.S. (Europe) (En,Fr,De).v64" size 8388608 crc DA47D3C9 md5 46DD8A0AE504E32A2338F32A9B3A9CFE sha1 EF5834F25A44931CC9339DD22B6E8F9955736076 serial "NCSP" )
 )
@@ -9456,48 +9787,56 @@ game (
 game (
 	name "San Francisco Rush - Extreme Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSFP"
 	rom ( name "San Francisco Rush - Extreme Racing (Europe) (En,Fr,De).z64" size 8388608 crc E064962A md5 81B1122EE15F7B50A341AE62E9C5716B sha1 BC8D37E3A3B9EDB4C8465ED7E477C6434C31B47D serial "NSFP" )
 )
 game (
 	name "San Francisco Rush - Extreme Racing (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSFP"
 	rom ( name "San Francisco Rush - Extreme Racing (Europe) (En,Fr,De).v64" size 8388608 crc 78CD03C9 md5 E35E6F54850BB6ECDBFE6E4971B419FA sha1 9339CCE34D9EAC2626BA14FA55F558BD7C827CC9 serial "NSFP" )
 )
 game (
 	name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NSFE"
 	rom ( name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De).z64" size 8388608 crc 3E20070B md5 F015FC28E1D62A36B4EBF4C79CA8F285 sha1 CC62539CB30B180C3C7E0AA927786ED061D8D9AB serial "NSFE" )
 )
 game (
 	name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	serial "NSFE"
 	rom ( name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De).v64" size 8388608 crc 32E250BA md5 67C74AB836A9D54FAA4D41B491E3794A sha1 8980D1E967D63CB13F794EE5DE15BEF299B93935 serial "NSFE" )
 )
 game (
 	name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1)"
 	region "USA"
+	language "English / French / German"
 	serial "NSFE"
 	rom ( name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1).z64" size 8388608 crc 886C5753 md5 5B127E6B090A0B3F68A114D4D89323D4 sha1 8AC2DC63AFDE2DA90811CE1A3A951B8C0B19A0E7 serial "NSFE" )
 )
 game (
 	name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1)"
 	region "USA"
+	language "English / French / German"
 	serial "NSFE"
 	rom ( name "San Francisco Rush - Extreme Racing (USA) (En,Fr,De) (Rev 1).v64" size 8388608 crc BA05B83F md5 44F14048D541E36F113446A0320D1677 sha1 867C475E65844A421D51AF3A75414D46899B404C serial "NSFE" )
 )
 game (
 	name "San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRUP"
 	rom ( name "San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc E63B86C5 md5 02B16AC23998F78F09AF6513F4ACB664 sha1 61373D4758ECA3FA831BEAC27B4D4C250845F80C serial "NRUP" )
 )
 game (
 	name "San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NRUP"
 	rom ( name "San Francisco Rush 2049 (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc DF85FDC3 md5 45BB91607C06103C3F545C648F0994A4 sha1 C722FDC039489E1C0E604EED8B81E29DA75CB0BE serial "NRUP" )
 )
@@ -9515,26 +9854,32 @@ game (
 )
 game (
 	name "Sand Castle Clamour (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Sand Castle Clamour (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 2883584 crc 72EF39F8 md5 CD52AF02BFC2E7D088F0306157FF9774 sha1 7877E3D04E37412134CB168CE14CC993BED20D8F )
 )
 game (
 	name "Sand Castle Clamour (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Sand Castle Clamour (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 2883584 crc 46F0FD95 md5 B099EDE183E7E0AF304613D20D2A2DC7 sha1 EB2B87FBA4EC422912D4E314F758681A0C351952 )
 )
 game (
 	name "Sand City (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Sand City (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 56868864 crc 6BFBD2F8 md5 6FC90547CBFAE1343BA2F91739EE3E25 sha1 49FBE671B650129F108D105D4B5797D4BA6522F1 )
 )
 game (
 	name "Sand City (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Sand City (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 56868864 crc F536F0B3 md5 E7E6EE38D61C123AC6F6C4B49E5DD3A5 sha1 5B897C0742743E38A1BBA03CDF6B7548B2793011 )
 )
 game (
 	name "Sblobber 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Sblobber 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 5819136 crc A2369A35 md5 9DC86C6796476E70E10F6F3664A13898 sha1 AFD57182A2C5724D0366F5DDFAFC071DD58BBFD7 )
 )
 game (
 	name "Sblobber 64 (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Sblobber 64 (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 5819136 crc 9B1A418F md5 363EDEFFC630FB6E938D2D75BF4F3DE2 sha1 C303AF0EC3A28BEC4E56C96331CDD44543A7B696 )
 )
 game (
@@ -9612,12 +9957,14 @@ game (
 game (
 	name "Shadow Man (Europe) (En,Es,It)"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "NSDP"
 	rom ( name "Shadow Man (Europe) (En,Es,It).z64" size 33554432 crc 8D230306 md5 A485A6E9E30B7D55D23D8DD043770C64 sha1 39ECE3F37C1F54AF4274A9733419EB693EAC1740 serial "NSDP" )
 )
 game (
 	name "Shadow Man (Europe) (En,Es,It)"
 	region "Europe"
+	language "English / Spanish / Italian"
 	serial "NSDP"
 	rom ( name "Shadow Man (Europe) (En,Es,It).v64" size 33554432 crc 0CD66C1F md5 01EABFA5224182258DE02D20E277F0A2 sha1 7BCD7D9A05363B20F338B092081C2FAE4D8C1F64 serial "NSDP" )
 )
@@ -9672,24 +10019,28 @@ game (
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (Europe) (Es,It)"
 	region "Europe"
+	language "Spanish / Italian"
 	serial "NSGY"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (Europe) (Es,It).z64" size 16777216 crc 87F00472 md5 A06E757CF1930B29FA4C0B5C9F31335F sha1 9F1A413F686032DDA73BE3312F452991A4E29EC9 serial "NSGY" )
 )
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (Europe) (Es,It)"
 	region "Europe"
+	language "Spanish / Italian"
 	serial "NSGY"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (Europe) (Es,It).v64" size 16777216 crc D49B5065 md5 D616CF79F9B2E213FA2B6383893E4064 sha1 EC3ED3D0A854C726C2355BCD8AB23799FC1630CA serial "NSGY" )
 )
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (Europe) (Fr,De,Nl)"
 	region "Europe"
+	language "French / German / Dutch"
 	serial "NSGX"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (Europe) (Fr,De,Nl).z64" size 16777216 crc EEDC0BEA md5 11169A32D449EC3A8903CA8A9D69A6AA sha1 31DE2E29DCE21341E1958B32A7D8B1B03FC56E3B serial "NSGX" )
 )
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (Europe) (Fr,De,Nl)"
 	region "Europe"
+	language "French / German / Dutch"
 	serial "NSGX"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (Europe) (Fr,De,Nl).v64" size 16777216 crc DC3ED03E md5 DC06A3739BE0C9673C97BC29671EEED7 sha1 B8EC5C7F833B7A4AABCD243804ECC824D51E506C serial "NSGX" )
 )
@@ -9708,12 +10059,14 @@ game (
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NSGE"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (USA) (En,Es).z64" size 16777216 crc 69983CC3 md5 407A1A18BD7DBE0485329296C3F84EB8 sha1 4397729F8143EA9A39F319E1F31F2E0B84335A24 serial "NSGE" )
 )
 game (
 	name "Shadowgate 64 - Trials of the Four Towers (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	serial "NSGE"
 	rom ( name "Shadowgate 64 - Trials of the Four Towers (USA) (En,Es).v64" size 16777216 crc 1E9986E5 md5 BCDC05DD4B0F22F640BE713916F4A4FD sha1 5C22F49BDA1332D1C060A576C3E8CEBEEEE6E7A0 serial "NSGE" )
 )
@@ -9753,26 +10106,32 @@ game (
 )
 game (
 	name "Shmup Salad (World) (v1.1)"
+	region "World"
 	rom ( name "Shmup Salad (World) (v1.1) (Aftermarket) (Unl).z64" size 1052672 crc 91EC8CEF md5 6A44C62A6CC060E99A5AA42E72F3A652 sha1 C0E2A1BD433E1D33975D14CDF77951E8F5D0A99B )
 )
 game (
 	name "Shmup Salad (World) (v1.1)"
+	region "World"
 	rom ( name "Shmup Salad (World) (v1.1) (Aftermarket) (Unl).v64" size 1052672 crc 3E7E4744 md5 6B0144C0C2B4484F699BB54F5100AAC5 sha1 F185A99D29561C959C39B8697FD1E93B98A2D51B )
 )
 game (
 	name "Shrunk in the Wash (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Shrunk in the Wash (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 2097152 crc 18C975ED md5 BCC16F61792B6FC0ACFAC6471B2930B2 sha1 A284FDA00C361A1FBD817154778051CF9EF33A8E )
 )
 game (
 	name "Shrunk in the Wash (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Shrunk in the Wash (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 2097152 crc 0DC2555A md5 581E6140BDBB487AEC6B93D38A17CC95 sha1 728684460125DDEE49E0A06EAAE3AD3AD56EF896 )
 )
 game (
 	name "Shufflepuck 64 (World)"
+	region "World"
 	rom ( name "Shufflepuck 64 (World) (Aftermarket) (Unl).z64" size 3932160 crc DDDDA2C6 md5 37149C4064A1D120B9F4F5482A915262 sha1 0CBB7D34864DADF74BEB07EEEE1E34761EC2D6FE )
 )
 game (
 	name "Shufflepuck 64 (World)"
+	region "World"
 	rom ( name "Shufflepuck 64 (World) (Aftermarket) (Unl).v64" size 3932160 crc B400D2C1 md5 0683B5BD54F2D692FF4BAD03C81604B6 sha1 81DF002FBAEC67D4BCDC0D81D20F15BFC880C246 )
 )
 game (
@@ -9792,26 +10151,32 @@ game (
 )
 game (
 	name "ShyGoy BreakOut 64 (World)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Aftermarket) (Unl).z64" size 2768896 crc 98D53818 md5 B9103778F697F732950EE70F4EC87B79 sha1 16E15012E28B3CA1B3F1130F75C7A75ED6F14557 )
 )
 game (
 	name "ShyGoy BreakOut 64 (World)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Aftermarket) (Unl).v64" size 2768896 crc E6785247 md5 528734DBDFBF73B73EBA35C1E1DA7F8A sha1 B2A694808E23BC1F4FF47FAE23B5302899AF010D )
 )
 game (
 	name "ShyGoy BreakOut 64 (World) (Demo 1)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Demo 1) (Aftermarket) (Unl).z64" size 2506752 crc 17B4DD71 md5 C1B350FFAE6D95CE16EF666EA139B454 sha1 9E8A6493693D69FD423937B0C8BB433DC8DD5ACF )
 )
 game (
 	name "ShyGoy BreakOut 64 (World) (Demo 1)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Demo 1) (Aftermarket) (Unl).v64" size 2506752 crc 4E3ED9D6 md5 1A2F95D34D10BEADFD86B0D51F77EBA3 sha1 694C11A68C92CB3DEE61A1A83332496CFABA92EB )
 )
 game (
 	name "ShyGoy BreakOut 64 (World) (Demo 2)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Demo 2) (Aftermarket) (Unl).z64" size 2506752 crc 4A4DD467 md5 C0681855B87D9C87FA6AEA30C560E7EF sha1 5A4A14CFAF38385B81417CD6C0F269E7964521CD )
 )
 game (
 	name "ShyGoy BreakOut 64 (World) (Demo 2)"
+	region "World"
 	rom ( name "ShyGoy BreakOut 64 (World) (Demo 2) (Aftermarket) (Unl).v64" size 2506752 crc F1D1E312 md5 7E2B048F92A800C1F4BB9AD809C51253 sha1 846C6E89B74F1A31EF579AB7174837052FD96499 )
 )
 game (
@@ -9838,26 +10203,32 @@ game (
 )
 game (
 	name "Simpson Kart 64 (World) (Pirate)"
+	region "World"
 	rom ( name "Simpson Kart 64 (World) (Aftermarket) (Pirate).z64" size 16777216 crc B39D26A4 md5 F1E6F4ACB88C9E2950E173C1697F10F1 sha1 FCBEDAAF757D25923C5B1FA2D8F7E95437557800 )
 )
 game (
 	name "Simpson Kart 64 (World) (Pirate)"
+	region "World"
 	rom ( name "Simpson Kart 64 (World) (Aftermarket) (Pirate).v64" size 16777216 crc 5C2A089D md5 6316D91BFB21E8992B37A1479C83C45B sha1 FC76A03E76180FC186699EDB843880962EF822F9 )
 )
 game (
 	name "Slasher Kart 64 (World) (Pirate)"
+	region "World"
 	rom ( name "Slasher Kart 64 (World) (Aftermarket) (Pirate).z64" size 16777216 crc C1D3EA7C md5 EF7E8F7C8060DF356A482F96CF357C02 sha1 521C4647DFFD7996E92F6E3A5D7274ED21AA2E52 )
 )
 game (
 	name "Slasher Kart 64 (World) (Pirate)"
+	region "World"
 	rom ( name "Slasher Kart 64 (World) (Aftermarket) (Pirate).v64" size 16777216 crc C06310D7 md5 E2CEC48D18C104D056D30D343FE57F38 sha1 B5E16AD13983045AB2B00FC7EF7FD3FD76E659A9 )
 )
 game (
 	name "Slime Heist (World) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Slime Heist (World) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 4194304 crc 828F1B4C md5 AD13B661BB17F357D52F7D95AFF51BEC sha1 5326CF8CECAB42A61843860FEDC3583612B76C40 )
 )
 game (
 	name "Slime Heist (World) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Slime Heist (World) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 4194304 crc 3A0BBD09 md5 F89E8BC7D843685975AAFD56F1822BB2 sha1 69BF7F4B5A65A2DFC5C491799687F2FEE8ABE162 )
 )
 game (
@@ -9886,13 +10257,13 @@ game (
 )
 game (
 	name "Snowboard Kids (Europe, Australia)"
-	region "Europe"
+	region "Europe / Australia"
 	serial "NSKP"
 	rom ( name "Snowboard Kids (Europe, Australia).z64" size 8388608 crc 5619A70D md5 AB4382E583AE139EEDBAFCE5FA87E4C8 sha1 B26802748F4CC15F44492BCC6941A487E75BBCA6 serial "NSKP" )
 )
 game (
 	name "Snowboard Kids (Europe, Australia)"
-	region "Europe"
+	region "Europe / Australia"
 	serial "NSKP"
 	rom ( name "Snowboard Kids (Europe, Australia).v64" size 8388608 crc 4F2415F3 md5 127AB20EE41ADB54C83DFB5BF5794D27 sha1 FD4CA5DC092DA70996AF699C8A4591FAEF58EC0C serial "NSKP" )
 )
@@ -9959,12 +10330,14 @@ game (
 game (
 	name "South Park (Europe) (En,Fr,Es)"
 	region "Europe"
+	language "English / French / Spanish"
 	serial "NDTP"
 	rom ( name "South Park (Europe) (En,Fr,Es).z64" size 16777216 crc B2C3E123 md5 40CC2085A5C12456BEF830B047068326 sha1 C70C9FD6EBF1AE9F79155F9384AB1C4B29DC6882 serial "NDTP" )
 )
 game (
 	name "South Park (Europe) (En,Fr,Es)"
 	region "Europe"
+	language "English / French / Spanish"
 	serial "NDTP"
 	rom ( name "South Park (Europe) (En,Fr,Es).v64" size 16777216 crc ACD74F7F md5 251B291DCCE55F9C1B4E8AD4F785C326 sha1 B1905FA89677F770A8B57876488D96BFF4C4B278 serial "NDTP" )
 )
@@ -10067,12 +10440,14 @@ game (
 game (
 	name "SpaceStation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Pt)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese"
 	serial "NSVP"
 	rom ( name "SpaceStation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Pt).z64" size 8388608 crc 63042E36 md5 FCA7AFCADCF5E5545A62919BA94DAD18 sha1 23710541BB3394072740B0F0236A7CB1A7D41531 serial "NSVP" )
 )
 game (
 	name "SpaceStation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Pt)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese"
 	serial "NSVP"
 	rom ( name "SpaceStation Silicon Valley (Europe) (En,Fr,De,Es,It,Nl,Pt).v64" size 8388608 crc 6148B598 md5 33908C5D01C0DDB1A07FFB307A81C2DA sha1 065085D8E956E75980BAED473754FE539EE843D9 serial "NSVP" )
 )
@@ -10114,10 +10489,12 @@ game (
 )
 game (
 	name "Spacer (World)"
+	region "World"
 	rom ( name "Spacer (World) (Unl).z64" size 2683944 crc DC0D3F8A md5 630E4122B0743A29C246DA2C257F92DA sha1 E0FA2B3CD4A56C2B4BAC5686700A1CBF90EBD90C )
 )
 game (
 	name "Spacer (World)"
+	region "World"
 	rom ( name "Spacer (World) (Unl).v64" size 2683944 crc 02CFE8AB md5 A7A2C4DDA207442F6B94022DA9F4339C sha1 4E2B3BBD35BF431CFB5F7EEB4CFA091BB8231391 )
 )
 game (
@@ -10193,12 +10570,14 @@ game (
 game (
 	name "Star Soldier - Vanishing Earth (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "NS6J"
 	rom ( name "Star Soldier - Vanishing Earth (Japan) (En).z64" size 12582912 crc 7EE5F51D md5 14A21928BE46C18BA04161305E89F5DE sha1 0B34BDDD00C49530E0EF47330A05DC70EBE5F8B7 serial "NS6J" )
 )
 game (
 	name "Star Soldier - Vanishing Earth (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "NS6J"
 	rom ( name "Star Soldier - Vanishing Earth (Japan) (En).v64" size 12582912 crc F51D4C7C md5 8A51A0FF79F26A06F70083B2D079DAC1 sha1 F075EEB6890065CE827A900DF99E95F02F19098C serial "NS6J" )
 )
@@ -10229,24 +10608,28 @@ game (
 game (
 	name "Star Wars - Rogue Squadron (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRSP"
 	rom ( name "Star Wars - Rogue Squadron (Europe) (En,Fr,De).z64" size 16777216 crc 6289645F md5 7F919D2E35CBE561E139AE8FE93ACA86 sha1 DA91A86F1F566DC66A2AE1292AA581BFC4F9CDFD serial "NRSP" )
 )
 game (
 	name "Star Wars - Rogue Squadron (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRSP"
 	rom ( name "Star Wars - Rogue Squadron (Europe) (En,Fr,De).v64" size 16777216 crc 13CC4CA4 md5 1488007DB476D3EADB42DBABEAD088B5 sha1 E09FF328184B25F6A9170901FAC2D0A7158CE7B9 serial "NRSP" )
 )
 game (
 	name "Star Wars - Rogue Squadron (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRSP"
 	rom ( name "Star Wars - Rogue Squadron (Europe) (En,Fr,De) (Rev 1).z64" size 16777216 crc C88E5638 md5 A9DD498E6A28F55311CE4EF057E164B8 sha1 66A70566D267532272B15ABC0BE20E2A1074AE45 serial "NRSP" )
 )
 game (
 	name "Star Wars - Rogue Squadron (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	serial "NRSP"
 	rom ( name "Star Wars - Rogue Squadron (Europe) (En,Fr,De) (Rev 1).v64" size 16777216 crc A6E336CE md5 FC21AA1CBF31E5DEA71E804878C3B5F0 sha1 D8B0AAFC759F6BEE328CC5D447250E3BC1D0905F serial "NRSP" )
 )
@@ -10395,12 +10778,14 @@ game (
 game (
 	name "Star Wars Episode I - Racer (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NEPP"
 	rom ( name "Star Wars Episode I - Racer (Europe) (En,Fr,De).z64" size 33554432 crc E0F46629 md5 6EF9FED309F28BD59B605F128869AA00 sha1 899A8245DA017289C88E97327FDCD6694B770A25 serial "NEPP" )
 )
 game (
 	name "Star Wars Episode I - Racer (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NEPP"
 	rom ( name "Star Wars Episode I - Racer (Europe) (En,Fr,De).v64" size 33554432 crc EDE47E8A md5 DE98F1BCEB2C317BB0A9743282CE2C2E sha1 D4968CE06B93705ED40FF4433279F587F62E3C26 serial "NEPP" )
 )
@@ -10479,24 +10864,28 @@ game (
 game (
 	name "Starshot - Space Circus Fever (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSCP"
 	rom ( name "Starshot - Space Circus Fever (Europe) (En,Fr,De).z64" size 12582912 crc 056D2218 md5 A9C393AA232B32798ADF378F4318F99F sha1 B92818C5FF6BE02BEC77EDCBE278D06785D00C78 serial "NSCP" )
 )
 game (
 	name "Starshot - Space Circus Fever (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSCP"
 	rom ( name "Starshot - Space Circus Fever (Europe) (En,Fr,De).v64" size 12582912 crc 171B80E1 md5 DEDB299035EA5C330ED3590599B73241 sha1 4CCCF890424728BA500DB1046984EDCBAE280BEB serial "NSCP" )
 )
 game (
 	name "Starshot - Space Circus Fever (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NSCE"
 	rom ( name "Starshot - Space Circus Fever (USA) (En,Fr,Es).z64" size 12582912 crc 7720E5F3 md5 42AF1992978229BBB5F560571708E25E sha1 7DEF46651F55745D5BBD633C9002BDBFFC53A5E0 serial "NSCE" )
 )
 game (
 	name "Starshot - Space Circus Fever (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NSCE"
 	rom ( name "Starshot - Space Circus Fever (USA) (En,Fr,Es).v64" size 12582912 crc 64370749 md5 5255C9F757D88188ED3D90FAEAFF462E sha1 1A4B81C3BD09D24DBBFED6AAE66CB6761429817B serial "NSCE" )
 )
@@ -10514,26 +10903,32 @@ game (
 )
 game (
 	name "Styx (World) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Styx (World) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 6767408 crc 7B5CFAEA md5 542BED9C63D531A7B180BA31924DA728 sha1 6A934BB7583D5E2BDA89AD8E42F2C5965917D446 )
 )
 game (
 	name "Styx (World) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Styx (World) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 6767408 crc E3F835BC md5 3D2691D1197ACF3B32F76948EBF086AD sha1 4262C2224F54897960A981E545557BED906BD9AC )
 )
 game (
 	name "Sub Mare Imperium - Derelict 64 (World) (Proto)"
+	region "World"
 	rom ( name "Sub Mare Imperium - Derelict 64 (World) (Proto) (Aftermarket) (Unl).z64" size 1064960 crc ADDDBBA9 md5 C496598A657B06BA752CCC43B0E7B555 sha1 EE46984600D010243249365A5AB8314602D90BBA )
 )
 game (
 	name "Sub Mare Imperium - Derelict 64 (World) (Proto)"
+	region "World"
 	rom ( name "Sub Mare Imperium - Derelict 64 (World) (Proto) (Aftermarket) (Unl).v64" size 1064960 crc 17BC7FA6 md5 096257C36E998B3997979A297480E02B sha1 4822E4552D969A396B528FE8F211D1F04BFC53D1 )
 )
 game (
 	name "Summer's Story (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Summer's Story (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).z64" size 20086784 crc EF93E01D md5 B039FFD0FFF45DCE4F25F63834B9CE42 sha1 1FA8ED1BC41A644B3CE999674EF84CA819D09511 )
 )
 game (
 	name "Summer's Story (World) (N64brew Game Jam 2023)"
+	region "World"
 	rom ( name "Summer's Story (World) (N64brew Game Jam 2023) (Aftermarket) (Unl).v64" size 20086784 crc B6ADF758 md5 ECF41A55743AB378C050785CA27994E7 sha1 2FF83720FCF9EEE5B96A9534B9EBFBFCE68D7B4C )
 )
 game (
@@ -10575,12 +10970,14 @@ game (
 game (
 	name "Super Mario 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSMP"
 	rom ( name "Super Mario 64 (Europe) (En,Fr,De).z64" size 8388608 crc 03048DE6 md5 45676429EF6B90E65B517129B700308E sha1 4AC5721683D0E0B6BBB561B58A71740845DCEEA9 serial "NSMP" )
 )
 game (
 	name "Super Mario 64 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSMP"
 	rom ( name "Super Mario 64 (Europe) (En,Fr,De).v64" size 8388608 crc 11FB579B md5 C9E143571EEF343B7BA731D15308A39D sha1 D80EE9EEB6454D53A96CEB6ED0ACA3FFDE045091 serial "NSMP" )
 )
@@ -10669,12 +11066,14 @@ game (
 game (
 	name "Super Smash Bros. (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NALP"
 	rom ( name "Super Smash Bros. (Europe) (En,Fr,De).z64" size 33554432 crc 45A91CB1 md5 5E54C6C563B09C107F86FB33E914EF81 sha1 6EE8A41FEF66280CE3E3F0984D00B96079442FB9 serial "NALP" )
 )
 game (
 	name "Super Smash Bros. (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NALP"
 	rom ( name "Super Smash Bros. (Europe) (En,Fr,De).v64" size 33554432 crc 7976248C md5 1E201F4C469927828BCF3335F2F3C4A3 sha1 A582522C0A09816BF904109E014A970625C06D3C serial "NALP" )
 )
@@ -10702,10 +11101,12 @@ game (
 )
 game (
 	name "Super Snooper Spookers (World) (Proto) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Super Snooper Spookers (World) (Proto) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 8060928 crc 84D1F24F md5 B52B2E09892579384F271DBA78060555 sha1 71986CD816CC075BF31766295B3EDBC7AAAA9ACC )
 )
 game (
 	name "Super Snooper Spookers (World) (Proto) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Super Snooper Spookers (World) (Proto) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 8060928 crc B85D2E66 md5 37DA05F84E9402F2B336A90F58790CEC sha1 633A6055DC7975360F387ED96502FD2E70285548 )
 )
 game (
@@ -10723,12 +11124,14 @@ game (
 game (
 	name "Supercross 2000 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSXP"
 	rom ( name "Supercross 2000 (Europe) (En,Fr,De).z64" size 16777216 crc CB5482EC md5 6D58A01EF7A7A7C779D2A66315992C5F sha1 3FA3F859048A65E1E810ED7BE98ADA0A0B4E49AD serial "NSXP" )
 )
 game (
 	name "Supercross 2000 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NSXP"
 	rom ( name "Supercross 2000 (Europe) (En,Fr,De).v64" size 16777216 crc 0A6377EE md5 EAA08CE91CAFF8A81CD88D4A265CA162 sha1 EE0802389002A907410A0E3F826FDCEFA572E6C1 serial "NSXP" )
 )
@@ -10747,24 +11150,28 @@ game (
 game (
 	name "Superman (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NSPP"
 	rom ( name "Superman (Europe) (En,Fr,De,Es,It,Nl).z64" size 8388608 crc BCA4FF8C md5 5AB39F2D7A144E1BA243DF059560E878 sha1 326378F4C05CA48B69D29CA1C72AB8E19B6EE10D serial "NSPP" )
 )
 game (
 	name "Superman (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NSPP"
 	rom ( name "Superman (Europe) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc 9CEF1753 md5 32D596185AE37074134CEB34CFB476FC sha1 660CBD7F4808D928F8C3DADA9851267B6058FA80 serial "NSPP" )
 )
 game (
 	name "Superman - The New Superman Aventures (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NSPE"
 	rom ( name "Superman - The New Superman Aventures (USA) (En,Fr,Es).z64" size 8388608 crc 437E3677 md5 3F64B4F72E61225EF3AE93976C9BFC7C sha1 C271DB752610C9581E1BA1E9125EA8ECDB56F74F serial "NSPE" )
 )
 game (
 	name "Superman - The New Superman Aventures (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NSPE"
 	rom ( name "Superman - The New Superman Aventures (USA) (En,Fr,Es).v64" size 8388608 crc F10D66F0 md5 6574373D96FB836E5E0B79DB0F7D10EC sha1 25FDC20FF0C55F6223C12058F7EAB2DF893CE9E4 serial "NSPE" )
 )
@@ -10782,18 +11189,22 @@ game (
 )
 game (
 	name "Swamp Hero 64 (World) (Proto) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Swamp Hero 64 (World) (Proto) (N64brew Game Jam 2022) (Aftermarket) (Unl).z64" size 1125001 crc CC05B6E0 md5 29FA9A270A4B09EB78FC36E97AD4F9D3 sha1 04DDA1AC81BC34D6725654A3BA6C0FEE7E46F883 )
 )
 game (
 	name "Swamp Hero 64 (World) (Proto) (N64brew Game Jam 2022)"
+	region "World"
 	rom ( name "Swamp Hero 64 (World) (Proto) (N64brew Game Jam 2022) (Aftermarket) (Unl).v64" size 1125001 crc 9227413F md5 28C1C03EDD6CF729E9E6F91E075BDEFA sha1 0BEDED40C4A26664580C6BCB2CC2CF4F1974366D )
 )
 game (
 	name "Swoop 64, The (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Swoop 64, The (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 11912592 crc C31FC3CD md5 EB0B4D1541E40103C48C05F7BAA78C41 sha1 DBECF5099B574CDA8F32E7F6ED90B60ED6CAA2A3 )
 )
 game (
 	name "Swoop 64, The (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Swoop 64, The (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 11912592 crc AAE961BC md5 F92E12A7DC1FCEB4FB165792D1E4C9DF sha1 658D4AF642E45D3D60FE83F3A3893D70985CFCCB )
 )
 game (
@@ -10889,12 +11300,14 @@ game (
 game (
 	name "Taz Express (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NTXP"
 	rom ( name "Taz Express (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc 0712C306 md5 192B715E8BC5972A4986DF21DC8BF357 sha1 E1D8121986652ED180505AF21456C180C8B29FAB serial "NTXP" )
 )
 game (
 	name "Taz Express (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NTXP"
 	rom ( name "Taz Express (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc 85382541 md5 A9F437615049E404C7D70481B6AF25E2 sha1 FA61BD39F2A02BDF65FBE0B5730FF7C01F239B18 serial "NTXP" )
 )
@@ -10916,18 +11329,22 @@ game (
 )
 game (
 	name "Tecto (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Tecto (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 4194304 crc 6672C59B md5 25F4578B0732C851A7224C6FEA530125 sha1 A8A10C2A5D2790190A0769426C399AD404D770FD )
 )
 game (
 	name "Tecto (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Tecto (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 4194304 crc F586F1B7 md5 584588A122073748F9D565A9C51B3E1F sha1 C64EE6C750A06C788695AAEAC95E153383C64CB6 )
 )
 game (
 	name "Tecto (World) (v1.1)"
+	region "World"
 	rom ( name "Tecto (World) (v1.1) (Aftermarket) (Unl).z64" size 4194304 crc C1F0DABE md5 843F0CCE7531B35D4393A83E29CEE4FA sha1 CC51B2E59FB7972AE12B28655285C17FB61A16BA )
 )
 game (
 	name "Tecto (World) (v1.1)"
+	region "World"
 	rom ( name "Tecto (World) (v1.1) (Aftermarket) (Unl).v64" size 4194304 crc EF62BAB5 md5 61CC95E7ED1C9DE4387DC3FD41641BF6 sha1 EBA7F816F977D14DB553F4C8E9D0B4C40496F491 )
 )
 game (
@@ -10944,21 +11361,25 @@ game (
 )
 game (
 	name "Telocation - Gemini (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Telocation - Gemini (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).z64" size 3080192 crc 7E130DF8 md5 03AF8F67EE32C964EEEAFE75647A85D2 sha1 7FA18E7A0851CE7F5DBFFF5EE02DC613FEC338D5 )
 )
 game (
 	name "Telocation - Gemini (World) (N64brew Game Jam 2020)"
+	region "World"
 	rom ( name "Telocation - Gemini (World) (N64brew Game Jam 2020) (Aftermarket) (Unl).v64" size 3080192 crc 30E790BC md5 840475FB8FD80F910B5212317131D738 sha1 A2227F8743CD931988CF3F72B15405D6378D8ADD )
 )
 game (
 	name "Tetris 64 (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "NT6J"
 	rom ( name "Tetris 64 (Japan) (En).z64" size 8388608 crc F128CD17 md5 7C8EFCF4FBA28F9F5B5EA10A71283BF3 sha1 EA9A3BA1384E15E0AF996B43FE3E56DB889002DE serial "NT6J" )
 )
 game (
 	name "Tetris 64 (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "NT6J"
 	rom ( name "Tetris 64 (Japan) (En).v64" size 8388608 crc 08B4CA1B md5 3692F5A2457004BF8D08D43FD24257C4 sha1 95D42D3B33569FC2F47AC30C7DE277470CB79462 serial "NT6J" )
 )
@@ -10988,21 +11409,25 @@ game (
 )
 game (
 	name "Tic Tac Toe 64 (World)"
+	region "World"
 	rom ( name "Tic Tac Toe 64 (World) (Aftermarket) (Unl).z64" size 1064960 crc AF729B90 md5 273C65C52F38CE8EF3B9092350806FC7 sha1 B91745EBD5BF21E4A0887E7CAB702D3395605158 )
 )
 game (
 	name "Tic Tac Toe 64 (World)"
+	region "World"
 	rom ( name "Tic Tac Toe 64 (World) (Aftermarket) (Unl).v64" size 1064960 crc C0B64102 md5 E011BB21546BCC29355071AA2882D6CA sha1 38116124D6187C76C03E7891EBC9EC88022FEED9 )
 )
 game (
 	name "Tigger's Honey Hunt (Europe) (En,Fr,De,Es,It,Nl,Da)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Danish"
 	serial "NT9P"
 	rom ( name "Tigger's Honey Hunt (Europe) (En,Fr,De,Es,It,Nl,Da).z64" size 16777216 crc D82D5736 md5 A09663B596F348D28AF846A51375EB81 sha1 53944F6C63B2E971ABF756EFECCAB24FA0B96E78 serial "NT9P" )
 )
 game (
 	name "Tigger's Honey Hunt (Europe) (En,Fr,De,Es,It,Nl,Da)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Danish"
 	serial "NT9P"
 	rom ( name "Tigger's Honey Hunt (Europe) (En,Fr,De,Es,It,Nl,Da).v64" size 16777216 crc CF7AA5EF md5 AC60411BBFB28C3B43DC7E5E030DBC73 sha1 92362BF5C1CF95B726FB9B05735BBEB00C0751E0 serial "NT9P" )
 )
@@ -11069,12 +11494,14 @@ game (
 game (
 	name "Tom and Jerry in Fists of Furry (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NTJP"
 	rom ( name "Tom and Jerry in Fists of Furry (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc 9EA8A3B8 md5 46BE5D00682FCC1F7FC0FBA507E8E5C1 sha1 96C874C4556B4872269E41339A1CBAC53CC5B052 serial "NTJP" )
 )
 game (
 	name "Tom and Jerry in Fists of Furry (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NTJP"
 	rom ( name "Tom and Jerry in Fists of Furry (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc B030A574 md5 B49212CBC6E122D8DB2747B03BA0CD24 sha1 C4FF73733C284CC927F06BE23551E73B14844984 serial "NTJP" )
 )
@@ -11111,12 +11538,14 @@ game (
 game (
 	name "Tonic Trouble (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTTP"
 	rom ( name "Tonic Trouble (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc B4322403 md5 3D3573A855835A98DE29D598C35590E0 sha1 81909104362BAEB7AE3793C08C3D138E96105BBF serial "NTTP" )
 )
 game (
 	name "Tonic Trouble (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NTTP"
 	rom ( name "Tonic Trouble (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc A10B0009 md5 00CB176BE188D983890451488755C25C sha1 84E6C54C9DD3F18EBA2C741E5F1CFD1BE04855CC serial "NTTP" )
 )
@@ -11289,12 +11718,14 @@ game (
 game (
 	name "Top Gear Rally (Asia) (En)"
 	region "Asia"
+	language "English"
 	serial "NGRX"
 	rom ( name "Top Gear Rally (Asia) (En).z64" size 8388608 crc C4BC4DF8 md5 50195216C8A37F9BD5B2105A40EE8D8F sha1 7E36A98F6FAFE3FF7E72D14E0FAE16418458DA47 serial "NGRX" )
 )
 game (
 	name "Top Gear Rally (Asia) (En)"
 	region "Asia"
+	language "English"
 	serial "NGRX"
 	rom ( name "Top Gear Rally (Asia) (En).v64" size 8388608 crc C85372CF md5 03953D4B8F4C83772A7C1883018E8090 sha1 7339E97DCC7FCA10788FB29F100C8D2316B7305E serial "NGRX" )
 )
@@ -11637,12 +12068,14 @@ game (
 game (
 	name "Turok - Rage Wars (Europe) (En,Fr,It)"
 	region "Europe"
+	language "English / French / Italian"
 	serial "NRWX"
 	rom ( name "Turok - Rage Wars (Europe) (En,Fr,It).z64" size 8388608 crc F4A2862B md5 241CF94BED487FFF62FFB7B846DA46AB sha1 0B54615930A55675955EEF8D8A22F1DFC34D2B44 serial "NRWX" )
 )
 game (
 	name "Turok - Rage Wars (Europe) (En,Fr,It)"
 	region "Europe"
+	language "English / French / Italian"
 	serial "NRWX"
 	rom ( name "Turok - Rage Wars (Europe) (En,Fr,It).v64" size 8388608 crc 6331B573 md5 72E5F21944E030D4782FAD476CFF2744 sha1 A0173D69A2DFD793B8A23092D7EDC79FA5A61C0C serial "NRWX" )
 )
@@ -11685,12 +12118,14 @@ game (
 game (
 	name "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NT2X"
 	rom ( name "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It).z64" size 33554432 crc 1FEBDE32 md5 144B10A484A22367FD2679529DBD2FED sha1 FB20F8E540C01D321BF805922B05E7A448521E1E serial "NT2X" )
 )
 game (
 	name "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It)"
 	region "Europe"
+	language "English / French / Spanish / Italian"
 	serial "NT2X"
 	rom ( name "Turok 2 - Seeds of Evil (Europe) (En,Fr,Es,It).v64" size 33554432 crc A309D9D3 md5 783F3ED408A5CEEA962F5B4202F9E4D7 sha1 B7D0DD6908ACBC7BC7A2588EEDBDCDFAB8C210BE serial "NT2X" )
 )
@@ -11793,12 +12228,14 @@ game (
 game (
 	name "V-Rally Edition 99 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NVLP"
 	rom ( name "V-Rally Edition 99 (Europe) (En,Fr,De).z64" size 12582912 crc 0735D7A2 md5 DCAC12EB5832D4A489188330EB9EC387 sha1 DA3F262DFB86CFF1376C9A1AA081212E5A7AAD64 serial "NVLP" )
 )
 game (
 	name "V-Rally Edition 99 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NVLP"
 	rom ( name "V-Rally Edition 99 (Europe) (En,Fr,De).v64" size 12582912 crc D200F779 md5 2DC8FBC3F591C0E4C54710AB2B66DF58 sha1 D55B29CEE570D6BD7E8B5A4F817D987A8C08B32E serial "NVLP" )
 )
@@ -11947,35 +12384,41 @@ game (
 game (
 	name "Virtual Chess 64 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NVCP"
 	rom ( name "Virtual Chess 64 (Europe) (En,Fr,De,Es,It,Nl).z64" size 4194304 crc AAE15243 md5 E790BE1A5B883BEBA44BC0D2666C65F5 sha1 0899017B0A5231ECBB084ABFF2303D9C25342828 serial "NVCP" )
 )
 game (
 	name "Virtual Chess 64 (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NVCP"
 	rom ( name "Virtual Chess 64 (Europe) (En,Fr,De,Es,It,Nl).v64" size 4194304 crc D20F855C md5 E78D046A3E65769966BEBFD9280938DD sha1 47B211D0F2CB0C5F53BFBB52649CAF6A616CF24C serial "NVCP" )
 )
 game (
 	name "Virtual Chess 64 (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NVCE"
 	rom ( name "Virtual Chess 64 (USA) (En,Fr,Es).z64" size 4194304 crc 620DE0B7 md5 F8A35270279B277586D7210FD15134FF sha1 B3F84937813EB76F94DFCF1DBEA69B11BDBF7E4F serial "NVCE" )
 )
 game (
 	name "Virtual Chess 64 (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NVCE"
 	rom ( name "Virtual Chess 64 (USA) (En,Fr,Es).v64" size 4194304 crc 3CD894C4 md5 EEC508E77327324B9CD88957C173079B sha1 9F57EC795E3C62D88EA823A5866A7B1012B731DB serial "NVCE" )
 )
 game (
 	name "Virtual Chess 64 (USA) (En,Fr,Es) (LodgeNet)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Virtual Chess 64 (USA) (En,Fr,Es) (LodgeNet).z64" size 4194304 crc AC7AA76D md5 C14D21A693135284A708FEB3F80F487E sha1 90A012EB6A0CB1AC158492A6C2683F181C5B0205 )
 )
 game (
 	name "Virtual Chess 64 (USA) (En,Fr,Es) (LodgeNet)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Virtual Chess 64 (USA) (En,Fr,Es) (LodgeNet).v64" size 4194304 crc A9B97C68 md5 6C9C35F3D72F68E586D9918F43037A45 sha1 55CF4AE1BC5F5095695C728C7063E22094959CF9 )
 )
 game (
@@ -12038,18 +12481,22 @@ game (
 )
 game (
 	name "Voidblade (World)"
+	region "World"
 	rom ( name "Voidblade (World) (Aftermarket) (Unl).z64" size 9364480 crc 99F29203 md5 914434557EC1AAE90281889478929571 sha1 6639891FE5FEBE16B2BC2FBFF50FDC8D23D4868C )
 )
 game (
 	name "Voidblade (World)"
+	region "World"
 	rom ( name "Voidblade (World) (Aftermarket) (Unl).v64" size 9364480 crc 3B1A6E34 md5 A5BAF5565911360AC2C5725686738304 sha1 279DC750FCC5041B843A63AA11F0D2D222167C7A )
 )
 game (
 	name "Voidblade (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Voidblade (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 9371648 crc 2816B2BB md5 FEDCAD4EC658743D99D7587434076E69 sha1 BE87ADB33D80634741C004E0C7F736C59F6C7537 )
 )
 game (
 	name "Voidblade (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Voidblade (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 9371648 crc 0018ECEC md5 92055426B6565745DF991B28DCD9E288 sha1 EBC295CC9FFC13CB6308B3BADA7702CBF5A71F1E )
 )
 game (
@@ -12379,12 +12826,14 @@ game (
 game (
 	name "Wave Race 64 - Kawasaki Jet Ski (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NWRP"
 	rom ( name "Wave Race 64 - Kawasaki Jet Ski (Europe) (En,De).z64" size 8388608 crc FB289893 md5 310659115E9939F219A783ABDD456CE9 sha1 C20AA97DC25AEC7A9B9C6889286BBD216FC7CAA4 serial "NWRP" )
 )
 game (
 	name "Wave Race 64 - Kawasaki Jet Ski (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	serial "NWRP"
 	rom ( name "Wave Race 64 - Kawasaki Jet Ski (Europe) (En,De).v64" size 8388608 crc D74117B0 md5 BAFF32EE50896E62DC713E23D1A589DA sha1 7FFDD44890B1A00E0C13868A18B482FBF8C752F7 serial "NWRP" )
 )
@@ -12461,12 +12910,14 @@ game (
 game (
 	name "Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NW8P"
 	rom ( name "Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es).z64" size 8388608 crc 6F6DC53D md5 24A0D8C8CABC22116E469476FF6C691D sha1 3EB1A78C0480AF0CC6F2180F87260790C37367D0 serial "NW8P" )
 )
 game (
 	name "Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NW8P"
 	rom ( name "Wayne Gretzky's 3D Hockey '98 (Europe) (En,Fr,De,Es).v64" size 8388608 crc 53751331 md5 69F21F9AD371EB5564F0E3E817A7035D sha1 2F1462118B4AFF3DED4AE5AFD3952F2189B43A27 serial "NW8P" )
 )
@@ -12485,12 +12936,14 @@ game (
 game (
 	name "Wayne Gretzky's 3D Hockey (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NWGP"
 	rom ( name "Wayne Gretzky's 3D Hockey (Europe) (En,Fr,De,Es).z64" size 8388608 crc 442A4F5F md5 319816AAA30E512827BE7B7F81F80D86 sha1 D9A6BA9A6E75A198E995AF3C4C81F4CFB3830C64 serial "NWGP" )
 )
 game (
 	name "Wayne Gretzky's 3D Hockey (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	serial "NWGP"
 	rom ( name "Wayne Gretzky's 3D Hockey (Europe) (En,Fr,De,Es).v64" size 8388608 crc 0EFF3F94 md5 1CFC82269D38199171E2FCD48FB93BC4 sha1 BFA32477EA99C93C156E51FDF14107A6BEEB31AA serial "NWGP" )
 )
@@ -12533,12 +12986,14 @@ game (
 game (
 	name "Wetrix (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWTP"
 	rom ( name "Wetrix (Europe) (En,Fr,De,Es,It,Nl).z64" size 8388608 crc EDDC5B06 md5 A99E2CB6ACEF7A004961DE5F6DFEEFF0 sha1 4CC1B6E3AA150CD79093F21E3FBE91A72FB86AD6 serial "NWTP" )
 )
 game (
 	name "Wetrix (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWTP"
 	rom ( name "Wetrix (Europe) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc E26CFF31 md5 185812A68E64C7FED30842C7082A9ADB sha1 8967CD465FBCC1151F8794F0C58181DA1040C2EC serial "NWTP" )
 )
@@ -12557,12 +13012,14 @@ game (
 game (
 	name "Wetrix (USA) (En,Fr,De,Es,It,Nl)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWTE"
 	rom ( name "Wetrix (USA) (En,Fr,De,Es,It,Nl).z64" size 8388608 crc 50CD1F71 md5 6E81D3056E409208E4AF2D39A2FF0F03 sha1 6E40312CF88A9182E93B396B9D82457B1ABA7CD6 serial "NWTE" )
 )
 game (
 	name "Wetrix (USA) (En,Fr,De,Es,It,Nl)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWTE"
 	rom ( name "Wetrix (USA) (En,Fr,De,Es,It,Nl).v64" size 8388608 crc 4EDA94C1 md5 B0DF900CD2B612F23CE81E1AB28DABA2 sha1 80CC6C54CC9517A33E90CCF0CC9F2C03D1F050AD serial "NWTE" )
 )
@@ -12596,26 +13053,32 @@ game (
 )
 game (
 	name "Wide-Boy64 AGB (World) (v0.02c)"
+	region "World"
 	rom ( name "Wide-Boy64 AGB (World) (v0.02c).z64" size 4194304 crc 47A12D39 md5 20897007193C2AC449EBC98084354988 sha1 E23A60306490F49444297AFC1CF685E5EC20DD11 )
 )
 game (
 	name "Wide-Boy64 AGB (World) (v0.02c)"
+	region "World"
 	rom ( name "Wide-Boy64 AGB (World) (v0.02c).v64" size 4194304 crc D962B426 md5 A52958A9E70A73991AC9A943413C2DBA sha1 9110B948BA5BD5750961CFEBDC26499F349A88E9 )
 )
 game (
 	name "Wide-Boy64 AGB (World) (v0.04c)"
+	region "World"
 	rom ( name "Wide-Boy64 AGB (World) (v0.04c).z64" size 4194304 crc 2F681410 md5 DDDAECEDBDEA61182EFB30ADC217BAF2 sha1 F5D4908C141F55BF4AFF6D21E8F4D514310DD26E )
 )
 game (
 	name "Wide-Boy64 AGB (World) (v0.04c)"
+	region "World"
 	rom ( name "Wide-Boy64 AGB (World) (v0.04c).v64" size 4194304 crc 342C5656 md5 77C9376B7E9A4F3973E0A3D96FD20BC4 sha1 F8DACB2F025F6CDFAAB9B749D7B7178712ED6BDC )
 )
 game (
 	name "Wide-Boy64 CGB (World) (v1.02)"
+	region "World"
 	rom ( name "Wide-Boy64 CGB (World) (v1.02).z64" size 4194304 crc AB9F83DE md5 E529B3C207DB945E9631FAF231964CC7 sha1 7C5771AE6F1B54AE46ADC7FD50BB9C187C836EB5 )
 )
 game (
 	name "Wide-Boy64 CGB (World) (v1.02)"
+	region "World"
 	rom ( name "Wide-Boy64 CGB (World) (v1.02).v64" size 4194304 crc 06AD40FD md5 2D9F0271F09D02B4A67C1B440FFFAD1D sha1 C5EAA5441EE16CE2CB2D2B441EF66ECA182D72A5 )
 )
 game (
@@ -12708,26 +13171,32 @@ game (
 )
 game (
 	name "Wizard of the Board (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Wizard of the Board (World) (N64brew Game Jam 2021) (NTSC) (Aftermarket) (Unl).z64" size 8388608 crc 50D29638 md5 06EA696A8D4840F70C9BD7F0670194D6 sha1 A8D3C7F2563CFBA2C6BD3354C8F07309E5425785 )
 )
 game (
 	name "Wizard of the Board (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "Wizard of the Board (World) (N64brew Game Jam 2021) (NTSC) (Aftermarket) (Unl).v64" size 8388608 crc E450056F md5 B9B03F2841A5B3FC46F8CA54C0E6A55D sha1 70CCA7B73DCA8FC9ED44F3A5FA5BAD3B9D3AC7B9 )
 )
 game (
 	name "Wizard of the Board (World) (N64brew Game Jam 2021) (PAL)"
+	region "World"
 	rom ( name "Wizard of the Board (World) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl).z64" size 8388608 crc B51A283C md5 9155A67AA77A568BF4612C7EEA7C00F3 sha1 2AB6BF1188714CFE9FABD3A51A655A9A33E75C36 )
 )
 game (
 	name "Wizard of the Board (World) (N64brew Game Jam 2021) (PAL)"
+	region "World"
 	rom ( name "Wizard of the Board (World) (N64brew Game Jam 2021) (PAL) (Aftermarket) (Unl).v64" size 8388608 crc 9888E750 md5 0A67CA1477273D47D5456647B951AD4A sha1 1EB963C075F96408FDD3E90A9E638B5C251C29BB )
 )
 game (
 	name "Wizard of the Board - Sicko Mode (World)"
+	region "World"
 	rom ( name "Wizard of the Board - Sicko Mode (World) (Aftermarket) (Unl).z64" size 8388608 crc 08C8C8C3 md5 22EF313D62F47B366CC35AC43126A99C sha1 0231F77F8C8FC3FB7D820DB8BADD08B336E915DF )
 )
 game (
 	name "Wizard of the Board - Sicko Mode (World)"
+	region "World"
 	rom ( name "Wizard of the Board - Sicko Mode (World) (Aftermarket) (Unl).v64" size 8388608 crc B865B0FE md5 65B8A57C7F959DD9DE7BB17234D21B9D sha1 70A85BB1F4FA1A28D927136E1375A7539B198441 )
 )
 game (
@@ -12745,36 +13214,42 @@ game (
 game (
 	name "World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Danish"
 	serial "N8WP"
 	rom ( name "World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).z64" size 12582912 crc 79F483F7 md5 3AA263ACA66F3A07BB081B575D66DEEB sha1 CD92B2CBB253411FC66544649567D9B1C44BB210 serial "N8WP" )
 )
 game (
 	name "World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Danish"
 	serial "N8WP"
 	rom ( name "World Cup 98 (Europe) (En,Fr,De,Es,It,Nl,Sv,Da).v64" size 12582912 crc 163481D0 md5 C10FABD6404A7AEF3516DBEEE1DD57E3 sha1 5E115692C924CCD0CA6AFA4C4777077F97A7D9C2 serial "N8WP" )
 )
 game (
 	name "World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Danish"
 	serial "N8WE"
 	rom ( name "World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da).z64" size 12582912 crc 13930C26 md5 4BEF5E9AA9E71205DAC1A7060E778235 sha1 B496EDEE84E5E84EAD8DA6F57A765936B2AF2F9F serial "N8WE" )
 )
 game (
 	name "World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish / Danish"
 	serial "N8WE"
 	rom ( name "World Cup 98 (USA) (En,Fr,De,Es,It,Nl,Sv,Da).v64" size 12582912 crc B875CD94 md5 197399A234FF807C2B0A69061D719C47 sha1 8ECA8B866A0F746E9BD7A6FC1B8DFF6BD7B2F210 serial "N8WE" )
 )
 game (
 	name "World Driver Championship (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NWOP"
 	rom ( name "World Driver Championship (Europe) (En,Fr,De,Es,It).z64" size 16777216 crc 76151DF6 md5 431DE8F6611A8131B536F0EDE1F330D9 sha1 7B054D1580CC263429EB6961AD6ED6E0140E1DF0 serial "NWOP" )
 )
 game (
 	name "World Driver Championship (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "NWOP"
 	rom ( name "World Driver Championship (Europe) (En,Fr,De,Es,It).v64" size 16777216 crc 74FAD5AA md5 EA7663CC3BBF0FFBA3671F8357515163 sha1 DBE027955669E25E6CECAFA6E07BED9890C8995C serial "NWOP" )
 )
@@ -12793,36 +13268,42 @@ game (
 game (
 	name "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWUP"
 	rom ( name "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl).z64" size 12582912 crc 6BFFF27B md5 44FC2A7F028F0B6F71B255F672C8B495 sha1 34042046E3CFA44723C32F6D366052483EDB80D7 serial "NWUP" )
 )
 game (
 	name "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	serial "NWUP"
 	rom ( name "Worms Armageddon (Europe) (En,Fr,De,Es,It,Nl).v64" size 12582912 crc 4862EBBD md5 4CED4F06943551F53EECB3D71324EB24 sha1 EC23BB5489C76933EFF1A2BA17658C7EBD116328 serial "NWUP" )
 )
 game (
 	name "Worms Armageddon (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NADE"
 	rom ( name "Worms Armageddon (USA) (En,Fr,Es).z64" size 12582912 crc 5471AE3B md5 491D4DB6718302489BF05FB962C73651 sha1 3B17B36BA91737B86AA56ECB1B48A89444B53572 serial "NADE" )
 )
 game (
 	name "Worms Armageddon (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NADE"
 	rom ( name "Worms Armageddon (USA) (En,Fr,Es).v64" size 12582912 crc 556268B7 md5 05765F60B64F167AB0CDA48183A72384 sha1 04D60D848A5CB9923EB95B016EEBB6AF829296F2 serial "NADE" )
 )
 game (
 	name "Worms Armageddon (USA) (En,Fr,Es) (Limited Run Games)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NADE"
 	rom ( name "Worms Armageddon (USA) (En,Fr,Es) (Limited Run Games).z64" size 12582912 crc 85F1E911 md5 096C6F823F32F931CC1319855578049D sha1 A07CD80155B0845B8F1D9C30A9E5AF169A447897 serial "NADE" )
 )
 game (
 	name "Worms Armageddon (USA) (En,Fr,Es) (Limited Run Games)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "NADE"
 	rom ( name "Worms Armageddon (USA) (En,Fr,Es) (Limited Run Games).v64" size 12582912 crc D155B143 md5 9B1AD3AA9CFF6D11066851E4C0D15F90 sha1 5272C8C2F1F597DA460EF7827549B36D4ED29FF8 serial "NADE" )
 )
@@ -12914,10 +13395,12 @@ game (
 )
 game (
 	name "Yeti3D Pro (World)"
+	region "World"
 	rom ( name "Yeti3D Pro (World) (Aftermarket) (Unl).z64" size 8388608 crc 5AC6E8FA md5 BD2B39DACDAD7541148D3B26CDF60F1D sha1 424CF16381CFE814B78AB57FD54FAAAF0B59B848 )
 )
 game (
 	name "Yeti3D Pro (World)"
+	region "World"
 	rom ( name "Yeti3D Pro (World) (Aftermarket) (Unl).v64" size 8388608 crc 9952F526 md5 2E6262F9178834B76CD4C2C362CE5DBA sha1 DF0194EB5C116C9A8815EF69B51A0248C28106C0 )
 )
 game (
@@ -12935,35 +13418,41 @@ game (
 game (
 	name "Yoshi's Story (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NYSP"
 	rom ( name "Yoshi's Story (Europe) (En,Fr,De).z64" size 16777216 crc F9FFC760 md5 2524E5FB8ED4BB8C831C5AC057E8F344 sha1 5B56EC1DA78456F968129BADDC1F233E1FB4F4F3 serial "NYSP" )
 )
 game (
 	name "Yoshi's Story (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	serial "NYSP"
 	rom ( name "Yoshi's Story (Europe) (En,Fr,De).v64" size 16777216 crc 21A5F264 md5 6BF066BFAC815FCA8179280ABA469554 sha1 0A480425BAECC4D4FD236275384D9EE67285E8FD serial "NYSP" )
 )
 game (
 	name "Yoshi's Story (USA) (En,Ja)"
 	region "USA"
+	language "English / Japanese"
 	serial "NYSE"
 	rom ( name "Yoshi's Story (USA) (En,Ja).z64" size 16777216 crc A1453E0D md5 586A092E22604840973B82DFACEAC77A sha1 B13072FEF6C6DF48C07D8822C01E5BC59036F6DA serial "NYSE" )
 )
 game (
 	name "Yoshi's Story (USA) (En,Ja)"
 	region "USA"
+	language "English / Japanese"
 	serial "NYSE"
 	rom ( name "Yoshi's Story (USA) (En,Ja).v64" size 16777216 crc 01A4B1E9 md5 D3436319D51DF291BA71A2E512DDB7B5 sha1 2263C34FF25CCE79A51693EBBA109C76F6246D01 serial "NYSE" )
 )
 game (
 	name "Yoshi's Story (USA) (En,Ja) (LodgeNet)"
 	region "USA"
+	language "English / Japanese"
 	rom ( name "Yoshi's Story (USA) (En,Ja) (LodgeNet).z64" size 16777216 crc 19A7091E md5 0543FFDC399361740A5B24B364ABA6A6 sha1 F489A3CDEF729CD1ADE23996096FE88501E75079 )
 )
 game (
 	name "Yoshi's Story (USA) (En,Ja) (LodgeNet)"
 	region "USA"
+	language "English / Japanese"
 	rom ( name "Yoshi's Story (USA) (En,Ja) (LodgeNet).v64" size 16777216 crc F58166C9 md5 7BD23FD16830B29AC2089E6B4F8E599E sha1 3D3D35EEB539720B0F940B21255A2DE4E1FB58AB )
 )
 game (
@@ -12990,10 +13479,12 @@ game (
 )
 game (
 	name "ZZ Gunner (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "ZZ Gunner (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).z64" size 3096576 crc F70EAF6E md5 1DEA2E7699A150237F65565AC6317ECA sha1 F3632F38032E84A1647312288FAEFDD7FD1A0714 )
 )
 game (
 	name "ZZ Gunner (World) (N64brew Game Jam 2021)"
+	region "World"
 	rom ( name "ZZ Gunner (World) (N64brew Game Jam 2021) (Aftermarket) (Unl).v64" size 3096576 crc C24E55B6 md5 898318CE961247176A01CC3C2E4D9669 sha1 329E5FD1A88341F0248D22E35EFE462A0C1F3CE8 )
 )
 game (

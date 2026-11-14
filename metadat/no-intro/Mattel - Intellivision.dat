@@ -1,28 +1,29 @@
 clrmamepro (
 	name "Mattel - Intellivision"
 	description "Mattel - Intellivision"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin|int|rom"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
 	name "ABPA Backgammon (World)"
+	region "World"
 	rom ( name "ABPA Backgammon (World).int" size 8192 crc A60E25FC md5 6890EAF1AC1A7D9A8494B7F5E25A1FAC sha1 71B305F30283A11CCD594071A7E9EA06DB6A2071 )
 )
 game (
 	name "Advanced Dungeons & Dragons (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Advanced Dungeons & Dragons (USA, Europe).int" size 12288 crc 9D4355AA md5 BC9FF9F10E2A1FDAC9CF6BD915F81715 sha1 4783CF6D52748E1CC4EB463033B79AEE72DB28CF )
 )
 game (
 	name "Advanced Dungeons & Dragons - Treasure of Tarmin (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Advanced Dungeons & Dragons - Treasure of Tarmin (USA, Europe).int" size 16384 crc 16C3B62F md5 0229A4889E18A37D1D631505D1CB83DF sha1 DEFFE81AC52CAA93401CA2AAED734A1FB69C498D )
 )
 game (
 	name "Adventure (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Adventure (USA, Europe) (Intellivision Lives!).int" size 16384 crc 11C3BCFA md5 17FD2AF3368C310FB7928DCFE0311514 sha1 009683F3A40ADBDD97B7256D64614FEFF12469AE )
 )
 game (
@@ -32,80 +33,87 @@ game (
 )
 game (
 	name "Antarctic Tales (World)"
+	region "World"
 	rom ( name "Antarctic Tales (World) (Aftermarket) (Unl).bin" size 63041 crc 54F3A391 md5 0CEB547163E96E2153F8C6A2E5A21E31 sha1 16E6E0C1486514B9FB5035A63607ABE65614DD9F )
 )
 game (
 	name "Armor Battle (USA, Europe) (Fast Tanks)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Armor Battle (USA, Europe) (Fast Tanks).int" size 8192 crc 6F91FBC1 md5 7FA60B1CB4ADAC3088727D5AC53EC183 sha1 8BF07BA83BD0DE42393187C6A3DF60B8E341505D )
 )
 game (
 	name "Armor Battle (USA, Europe) (Fast Tanks) (Intellivision Lives!) (Gamecube)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Armor Battle (USA, Europe) (Fast Tanks) (Intellivision Lives!) (Gamecube).int" size 8192 crc F405F823 md5 7D7ED146D133D87F73D2DA6738EB948E sha1 75CC1466913892C8D89934FEDE99F0D0E40F8191 )
 )
 game (
 	name "Armor Battle (USA, Europe) (Slow Tanks)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Armor Battle (USA, Europe) (Slow Tanks).int" size 8192 crc 7DB97F65 md5 7F2478E931DC61C5A0F2B30EADA527C2 sha1 FA5151423DE4D8E4FE3D4307CB7AA9FF5207A32A )
 )
 game (
 	name "Astrosmash (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Astrosmash (USA, Europe).int" size 8192 crc FAB2992C md5 8F6A5B5B65D84F947236E503D378370B sha1 D3529CAD339B3FD5C67B4F503E9360188BE9D3E8 )
 )
 game (
 	name "Atlantis (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Atlantis (USA, Europe).int" size 16384 crc 13FF363C md5 317EF1EE4D12DF7CE7DD57DBC273B4B1 sha1 094B207668C03A6D903270490F495DDC237CD8D7 )
 )
 game (
 	name "Auto Racing (World) (Car-Relative Steering)"
+	region "World"
 	rom ( name "Auto Racing (World) (Car-Relative Steering).int" size 8192 crc B35C1101 md5 97E865E173D137CF5576D080268F7DF5 sha1 2E3461853F60A1928C5C93BB23DEB9229E0230C9 )
 )
 game (
 	name "Auto Racing (World) (Screen-Relative Steering)"
+	region "World"
 	rom ( name "Auto Racing (World) (Screen-Relative Steering).int" size 8192 crc 28637E4E md5 BC1DCF0AE7724A273713A1F8F2D7DF2C sha1 CB01C33066EE9E9BFF254C5BF6E627EC19DC13FC )
 )
 game (
 	name "B-17 Bomber (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "B-17 Bomber (USA, Europe).int" size 24576 crc 8AD19AB3 md5 44FB31805C87974AC205871E61800A77 sha1 E1EF8A5102B1FC14321F83864D1F6E0E0CE5ACF4 )
 )
 game (
 	name "B-17 Bomber Flying Fortress (World)"
+	region "World"
 	rom ( name "B-17 Bomber Flying Fortress (World) (Aftermarket) (Unl).bin" size 32768 crc FC4AE46D md5 5A6AFF0C1AB9F5968BA9E8B78A993D79 sha1 1027CA6C20C30D9349AC1BAF7578AB75DE132C2F )
 )
 game (
 	name "Bank Panic (World)"
+	region "World"
 	rom ( name "Bank Panic (World) (Aftermarket) (Unl).rom" size 69200 crc FC49B63E md5 04116D56E750F392E7B66B908F17BC44 sha1 7515FADCA1A0A8D0973146E29478F44617E817CE )
 )
 game (
 	name "BattleTanks (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "BattleTanks (USA, Europe) (Intellivision Lives!).int" size 8192 crc 22A1F245 md5 DD937CFD29C08DBC567284EBF5DE9C18 sha1 D90353D11EDE41628FC2EBEC8EAF41378A2634B0 )
 )
 game (
 	name "Beach-Head (World)"
+	region "World"
 	rom ( name "Beach-Head (World) (Aftermarket) (Unl).bin" size 61488 crc 922FA5B4 md5 76FAEA7FCD611AB3B13146ED2D063335 sha1 CD6E5E23A1A966EDC83856AB536C86EB89177F2D )
 )
 game (
 	name "Beamrider (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Beamrider (USA, Europe).int" size 16384 crc EAF650CC md5 0CF15A41CCE922DBD7F0DEBFE0BFF792 sha1 1FAA1D401BC7484492F3E1DE433ED73019CBB5B5 )
 )
 game (
 	name "Beat'em & Eat'em (World)"
+	region "World"
 	rom ( name "Beat'em & Eat'em (World) (Aftermarket) (Unl).bin" size 14848 crc E28C545D md5 521E4FCBBD381AED406EBA2608607FEB sha1 2C8688AB173960BEE1C11503A783E78ED2CEDC9F )
 )
 game (
 	name "Beauty & the Beast (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Beauty & the Beast (USA, Europe).int" size 16384 crc C047D487 md5 F6D0E268EFE254DC4539FB6DF5A6CE24 sha1 1B6FD19E745E50E8EA679BD5ADFB719D1F276BC5 )
 )
 game (
 	name "Biplanes (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Biplanes (USA, Europe) (Intellivision Lives!).int" size 8192 crc 44519F2D md5 6DC9F098927799C6D40A9D9DE4281592 sha1 2B66EA4E7945199752C78F3B1323B76656E1C8D3 )
 )
 game (
@@ -120,11 +128,12 @@ game (
 )
 game (
 	name "Bomb Squad (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Bomb Squad (USA, Europe).int" size 24576 crc 32697B72 md5 8D0D0BB758718E663886A890D1412FD5 sha1 BC19D31E771EA3B99AA2E2326DA540057E54703C )
 )
 game (
 	name "Boxing (World)"
+	region "World"
 	rom ( name "Boxing (World).int" size 8192 crc AB87C16F md5 4B29AFC041BF51B1AA0F6505A36D2C6A sha1 24A10945009ACADFE502A5BD5FB5B960885716F4 )
 )
 game (
@@ -134,31 +143,32 @@ game (
 )
 game (
 	name "Buck Rogers - Planet of Zoom (World)"
+	region "World"
 	rom ( name "Buck Rogers - Planet of Zoom (World) (Aftermarket) (Unl).bin" size 54784 crc D6D9B548 md5 5A943B09219A28FC66708AE16F1697B9 sha1 4A164E9970F5EF9241244734D923C997EA539212 )
 )
 game (
 	name "Bump 'n' Jump (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Bump 'n' Jump (USA, Europe).int" size 32768 crc 999CCEED md5 ED0D27C9494C8E06AEFA45AB5640F1F7 sha1 9C9D1852AD9453CA2FAFF46EE443B3F5FBE52256 )
 )
 game (
 	name "BurgerTime (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "BurgerTime (USA, Europe).int" size 16384 crc 43806375 md5 D81075A4C254463724AC3BAB0B500A08 sha1 EACD83365DA40A1A3D6C77CA2DA4A0393460E02F )
 )
 game (
 	name "Buzz Bombers (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Buzz Bombers (USA, Europe).int" size 16384 crc FA492BBD md5 0032F034ED1D761D1F0DFF79115FEC78 sha1 A0EF9A23976DE6EE88C1F970A6585DED2A2B8C04 )
 )
 game (
 	name "Buzz Bombers (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Buzz Bombers (USA, Europe) (Intellivision Lives!).int" size 16384 crc 2A1E0C1C md5 2B928547D16F0EBC08E7B310E170D000 sha1 B36E5416AD5712942F766030E8A04AA307BF056F )
 )
 game (
 	name "Carnival (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Carnival (USA, Europe).int" size 8192 crc 43870908 md5 28EF20B81FD9EAC68A19FBFCAE5DAB9A sha1 13AA104E884701D74E144B85B9583579D1980E80 )
 )
 game (
@@ -168,17 +178,17 @@ game (
 )
 game (
 	name "Championship Tennis (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Championship Tennis (USA, Europe).int" size 32768 crc 4CC46A04 md5 016BE420F1F20FC2ED8EC051E196AAEC sha1 A402BCC8D1E50FEBC01AC2D91237742192AFF7C7 )
 )
 game (
 	name "Checkers (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Checkers (USA, Europe).int" size 8192 crc 243807E2 md5 A545ABA4376A318B58C98415BF023214 sha1 FC9DC2C50F7907F499202A5B68DF970D51B9D218 )
 )
 game (
 	name "Checkers (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Checkers (USA, Europe) (Intellivision Lives!).int" size 8192 crc 36E1D858 md5 8122BB07816ACDCB3F0A037B72F02142 sha1 4FEF3342C0E7100113B4022E4395AD552FDDACF1 )
 )
 game (
@@ -188,6 +198,7 @@ game (
 )
 game (
 	name "Choplifter (World)"
+	region "World"
 	rom ( name "Choplifter (World) (Aftermarket) (Unl).bin" size 32768 crc 3EA0CB91 md5 80C4C7BAAD739212014492EAA4D3AED1 sha1 EB0F6BAC1D73AE517D2C72A7A8E45DA5172C1D2B )
 )
 game (
@@ -202,6 +213,7 @@ game (
 )
 game (
 	name "Copter Command (World)"
+	region "World"
 	rom ( name "Copter Command (World) (Aftermarket) (Unl).bin" size 26624 crc C05449BE md5 2AE7A4DF95C19082EA5522F120682F7D sha1 AFFFD70ABE100BC98111FED9D6E63330E24667D7 )
 )
 game (
@@ -211,11 +223,12 @@ game (
 )
 game (
 	name "Crosswords (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Crosswords (USA, Europe) (Intellivision Lives!).int" size 16384 crc 32162105 md5 778189B03DEA11C31E450E278231267B sha1 B1F019989D74AA63F49070167DABEA510C3AA6ED )
 )
 game (
 	name "DK Arcade (World) (Intelligentvision)"
+	region "World"
 	rom ( name "DK Arcade (World) (Intelligentvision) (Aftermarket) (Unl).int" size 49152 crc EF1BEC41 md5 607D0A959D1C64F6FEB66433B4171D5F sha1 FAD323A8C88B7155EC4456E8909FE21E3CDBBE07 )
 )
 game (
@@ -230,7 +243,7 @@ game (
 )
 game (
 	name "Demon Attack (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Demon Attack (USA, Europe).int" size 16384 crc 5E6A8CD8 md5 9855AEFCC210DF151BA3373D869E8B66 sha1 D6054E8EAD16F3E076C26880FE641543E8519E18 )
 )
 game (
@@ -250,7 +263,13 @@ game (
 )
 game (
 	name "Desert Bus (World)"
+	region "World"
 	rom ( name "Desert Bus (World) (Aftermarket) (Unl).bin" size 81692 crc 32911333 md5 DC9A4F5267AF0B5737AA2AFF90A69F6E sha1 A448C252AB152515A22BE71F0AE9A6593272AC3D )
+)
+game (
+	name "Desert Bus - Cascadia Edition (World)"
+	region "World"
+	rom ( name "Desert Bus - Cascadia Edition (World) (Aftermarket) (Unl).bin" size 81682 crc 91BF1C74 md5 D52CDCB714804352CEF14B38111758BB sha1 5D3018835FA2EF03AE82551E1C8CCA8EDA51C120 )
 )
 game (
 	name "Dig Dug (USA)"
@@ -264,30 +283,32 @@ game (
 )
 game (
 	name "Donkey Kong (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Donkey Kong (USA, Europe).int" size 8192 crc C30F61C0 md5 A43D060B5E7C6155F7469BF3DD245DE4 sha1 93807AFEEE023CE6C787B073705C8BF32BBD8ABF )
 )
 game (
 	name "Donkey Kong Junior (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Donkey Kong Junior (USA, Europe).int" size 16384 crc 6DF61A9F md5 4F16342D203DA7AF060CC6EEC3D103F7 sha1 9D983308EF7051EEF0C324E696776A6F9B9C38D4 )
 )
 game (
 	name "Donkey Kong Junior (World)"
+	region "World"
 	rom ( name "Donkey Kong Junior (World) (Aftermarket) (Unl).bin" size 77842 crc 57B2545B md5 9F2CFABB473FF8A9A3349633E3D6DB94 sha1 BB6E67B1507AB85ACF5D6B52CE80DEA2F9F4B7EF )
 )
 game (
 	name "Dracula (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Dracula (USA, Europe).int" size 16384 crc 84BEDCC1 md5 A52574877A018EF1EC10E0FF3038FBB9 sha1 D211DA07AB620854EE7A2DE3BC103D71D649612F )
 )
 game (
 	name "Dragon Quest (World) (v1.1)"
+	region "World"
 	rom ( name "Dragon Quest (World) (v1.1) (Aftermarket) (Unl).bin" size 91970 crc F60FA56D md5 166A8C4A80A423EC2B854B98E3403546 sha1 8667708D2AF7EEB358F3B6442C6A24595F6976F4 )
 )
 game (
 	name "Dragonfire (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Dragonfire (USA, Europe).int" size 8192 crc AF8718A1 md5 E4DC456380AC48EA36C3B46CB8E2FB51 sha1 DD6B105C7DE9F29E98F11466B063B477AF7C3260 )
 )
 game (
@@ -302,52 +323,57 @@ game (
 )
 game (
 	name "E.T. The Extra-Terrestrial (World)"
+	region "World"
 	rom ( name "E.T. The Extra-Terrestrial (World) (Aftermarket) (Unl).bin" size 89088 crc F6DB8F7C md5 6CCDC15EDE219A52210436273C66827E sha1 2F9F68DE4360CF1BC140A8C2BD65697622D5FF6C )
 )
 game (
 	name "Electric Company, The - Math Fun (USA, Europe) (Forward Entry)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Electric Company, The - Math Fun (USA, Europe) (Forward Entry).int" size 8192 crc C3475FCA md5 1396CD69F6281646867B8FE24414DD2E sha1 AA1F233B84D55E5756C10C9A3FDF9DBC963FA945 )
 )
 game (
 	name "Electric Company, The - Math Fun (USA, Europe) (Reverse Entry)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Electric Company, The - Math Fun (USA, Europe) (Reverse Entry).int" size 8192 crc 54A3FC11 md5 DCBEA7CDE7D03F099680531FE7A80AB5 sha1 6CDB18D1DD3CD57058263904934B37D4713342E6 )
 )
 game (
 	name "Electric Company, The - Word Fun (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Electric Company, The - Word Fun (USA, Europe).int" size 8192 crc C9EAACAB md5 36FF2340FF5972F9AA4D353B633E082E sha1 D3934C328465F0FB423E6A43FCC57018B78DA6B9 )
 )
 game (
 	name "FW Diagnostics (World)"
+	region "World"
 	rom ( name "FW Diagnostics (World) (Aftermarket) (Unl).bin" size 63018 crc FD59FE5D md5 9B75F8A01D210B1A961424E202A1C5BE sha1 D2BD450D223043860F505D8F32D5D41C5A8E6E68 )
 )
 game (
 	name "Factor Fun (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Factor Fun (USA, Europe) (Intellivision Lives!).int" size 16384 crc F3AE29EA md5 2259337D95A907999F76234C9E339D5C sha1 32F924E5D6CF56783EEECC5A521086285E3BFF41 )
 )
 game (
 	name "Fantasy Puzzle (World)"
+	region "World"
 	rom ( name "Fantasy Puzzle (World) (Aftermarket) (Unl).bin" size 81408 crc FE1087F3 md5 08042C041E52F809D06BDCD8E43484BA sha1 FFBBD3D1960BDF3BFF61B2199CDDB4C73DDA2EEF )
 )
 game (
 	name "Fathom (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Fathom (USA, Europe).int" size 16384 crc 4221EDE7 md5 C13B1E3B0D33908C0FC073F2032D9BE9 sha1 49646878C9698C9749B3665110ACDE0906B8F69C )
 )
 game (
 	name "Fox's Quest (World)"
+	region "World"
 	rom ( name "Fox's Quest (World) (Aftermarket) (Unl).bin" size 41984 crc 7EEB5831 md5 AE7D632E5EFDD9727FBE8B60B03A3597 sha1 CC5EFA78F37B3C4680C8DA4993200E379F0E281F )
 )
 game (
 	name "Frog Bog (World)"
+	region "World"
 	rom ( name "Frog Bog (World).int" size 8192 crc 37222762 md5 BB806B41644E33B6FC5A4D9D3F8C7AEE sha1 58842E4425AD5A8F6EC65528C4B485039057F289 )
 )
 game (
 	name "Frogger (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Frogger (USA, Europe).int" size 8192 crc D27495E9 md5 523D46BCAB6C0C11F0672562FE31CD47 sha1 C84F2A2F0007DE06057F7E22A489F76DEF482C86 )
 )
 game (
@@ -362,14 +388,17 @@ game (
 )
 game (
 	name "GoatNom (World)"
+	region "World"
 	rom ( name "GoatNom (World) (Aftermarket) (Unl).bin" size 29372 crc D7E7E7BE md5 5B56D64065F13944C3ED7FA34B5E371C sha1 F05A012C729FF6766821C4356C651E1775EF095D )
 )
 game (
 	name "Gooninuff, The (World)"
+	region "World"
 	rom ( name "Gooninuff, The (World) (Aftermarket) (Unl).rom" size 84044 crc 71C2C0BF md5 783D44F600541ED9EE4471F263CACDE0 sha1 F2F28A9F4C084A2037E3B7C34D5EB071078E5CB0 )
 )
 game (
 	name "Grail of the Gods (World)"
+	region "World"
 	rom ( name "Grail of the Gods (World) (Aftermarket) (Unl).bin" size 37888 crc 7D888C87 md5 D0C918B3F2C67FC900A3F3343242FDEF sha1 693CBA10F797C8EF4A7FFF806CE416857A17F601 )
 )
 game (
@@ -379,6 +408,7 @@ game (
 )
 game (
 	name "H.E.L.I. (World)"
+	region "World"
 	rom ( name "H.E.L.I. (World) (Aftermarket) (Unl).rom" size 85061 crc 906989E2 md5 7C4081E6F24A0034AE4A47BF6DCF2B42 sha1 EDB8AAB5E4A4B7BD678350BD5FE04616DCD018EA )
 )
 game (
@@ -398,15 +428,17 @@ game (
 )
 game (
 	name "Happy Trails (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Happy Trails (USA, Europe).int" size 8192 crc 4B8C5932 md5 01348CED597A48A4EE87A5B3683616CB sha1 5BD74FD0246DA1441F4AF76DC9592F7809F8A821 )
 )
 game (
 	name "Horse Racing (World)"
+	region "World"
 	rom ( name "Horse Racing (World).int" size 8192 crc B5C7F25D md5 96D52AC29D5D4FD50B69675885801C9A sha1 BD024190395A6D5C9AECADB49D59511E265FF7B3 )
 )
 game (
 	name "Hotel Bunny (World)"
+	region "World"
 	rom ( name "Hotel Bunny (World) (Aftermarket) (Unl).bin" size 11264 crc 1D20EF50 md5 C28E3676B1B65236896AB5847E802307 sha1 A5D17E2544F91EF51D6C53D4CF76DF892609150C )
 )
 game (
@@ -421,7 +453,7 @@ game (
 )
 game (
 	name "Ice Trek (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Ice Trek (USA, Europe).int" size 16384 crc 4F3E3F69 md5 79D475FF853683FFD9BE630628A491FA sha1 D70BD2D71227FABA51DE575DF110818ED50BDEE7 )
 )
 game (
@@ -431,7 +463,7 @@ game (
 )
 game (
 	name "International Demonstration Cartridge (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "International Demonstration Cartridge (USA, Europe).int" size 24576 crc 6A02C7E8 md5 A5A6D3B3C00225EE712822C8EB286354 sha1 E15C58D9C6645076BFF545C790227D66D4DA925F )
 )
 game (
@@ -441,10 +473,12 @@ game (
 )
 game (
 	name "Jr. Pac-Man (World)"
+	region "World"
 	rom ( name "Jr. Pac-Man (World) (Aftermarket) (Unl).bin" size 72704 crc FCEC96E6 md5 801EA9279D93DE097834DF5894244614 sha1 B1954FAAC5D577E13CE5C9565416DF9D880851CF )
 )
 game (
 	name "Jumpking Junior (World)"
+	region "World"
 	rom ( name "Jumpking Junior (World) (Aftermarket) (Unl).bin" size 49152 crc BD96EDFB md5 6675EC800683A67806B6C886BFC8AD21 sha1 C67B0D25C230D6B27921F87E24A6CAB649462694 )
 )
 game (
@@ -459,7 +493,7 @@ game (
 )
 game (
 	name "Lady Bug (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Lady Bug (USA, Europe).int" size 16384 crc A6840736 md5 B512D919BF3DB6F1E6B9A80835E032EC sha1 CA3F0D52FC077C98BECEFE3E566895807840152A )
 )
 game (
@@ -469,18 +503,22 @@ game (
 )
 game (
 	name "Las Vegas Poker & Blackjack (World)"
+	region "World"
 	rom ( name "Las Vegas Poker & Blackjack (World).int" size 8192 crc 543DC31D md5 BD8A2439D3A3BBAF44E1A415BBBFD45D sha1 B5167EF37DA223D9D672C80B56B1FE20A6CCA401 )
 )
 game (
 	name "Las Vegas Poker & Blackjack (World) (Intellivision Lives!)"
+	region "World"
 	rom ( name "Las Vegas Poker & Blackjack (World) (Intellivision Lives!).int" size 8192 crc 604611C0 md5 6506A1BF0C749FC768CB6B5162E0CBD7 sha1 A6C03E253E615A06F838E623DF5F557636FDF8E1 )
 )
 game (
 	name "Las Vegas Roulette (World)"
+	region "World"
 	rom ( name "Las Vegas Roulette (World).int" size 8192 crc 48D74D3C md5 203EFD0D5B6C14B88FD5C7C0ED6BFC16 sha1 B7773C3CC93AFE4820287C3F1C14345A1A14E1EE )
 )
 game (
 	name "Laser Sharks (World)"
+	region "World"
 	rom ( name "Laser Sharks (World) (Aftermarket) (Unl).bin" size 49152 crc 647378A6 md5 81E7CDE44A4A67B3D3475070136030D3 sha1 43F724A3DC9CC91F47F1E2FBD0367D0D6E220B13 )
 )
 game (
@@ -500,12 +538,12 @@ game (
 )
 game (
 	name "Lock 'N' Chase (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Lock 'N' Chase (USA, Europe).int" size 12288 crc 04977992 md5 CCDE49CB2450992495156477EFF59E14 sha1 08454A5F7B44730AA8249623785DD7A6471AB98F )
 )
 game (
 	name "Lock 'N' Chase (USA, Europe) (v1.1)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Lock 'N' Chase (USA, Europe) (v1.1) (Aftermarket) (Unl).bin" size 16384 crc 5C7E9848 md5 988F97F6A3C713210EFC2C20A32E970C sha1 AC889A1D76B40BE1A7E7562C8CB8B3F9D00F3728 )
 )
 game (
@@ -515,6 +553,7 @@ game (
 )
 game (
 	name "Lode Runner (World)"
+	region "World"
 	rom ( name "Lode Runner (World) (Aftermarket) (Unl).bin" size 35328 crc 56336CE7 md5 1616753E3031BF9D3D0EA081DBB1536E sha1 6DB64585C51A5F10A9515C335661AC79371E0E04 )
 )
 game (
@@ -529,40 +568,42 @@ game (
 )
 game (
 	name "Major League Baseball (World)"
+	region "World"
 	rom ( name "Major League Baseball (World).int" size 8192 crc DAB36628 md5 B88C2989496A5CA5E276D56A2EBFB2AB sha1 5E83A945F231F55D5DDFA9527F9B94DA06E77058 )
 )
 game (
 	name "Maria (World)"
+	region "World"
 	rom ( name "Maria (World) (Aftermarket) (Unl).bin" size 84480 crc A7AE1E65 md5 34C0A973F183628A58B64478F87AD96A sha1 59B7EDD9D85A469D08129D057A3A9632BAE2D33F )
 )
 game (
 	name "Masters of the Universe - The Power of He-Man (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Masters of the Universe - The Power of He-Man (USA, Europe).int" size 32768 crc 573B9B6D md5 AEE9F481ABD8C290E6A0C3990C185E60 sha1 F1D505B51D9516F4BCD9C4F7231553FA9D4C13C7 )
 )
 game (
 	name "Math Master (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Math Master (USA, Europe) (Intellivision Lives!).int" size 16384 crc 662E2812 md5 2CC9862ABBC78EFE34C31DA000C5934D sha1 DC9369B07BC53A5100A6308D88822C018497CA2A )
 )
 game (
 	name "Melody Blaster (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Melody Blaster (USA, Europe).int" size 24576 crc FF68AA22 md5 0F0969F9716A3D5D1D867AE99323AE7D sha1 77D50B806ADBEB49CC9849BB107220EEED118D26 )
 )
 game (
 	name "Memory Fun (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Memory Fun (USA, Europe) (Intellivision Lives!).int" size 16384 crc 96E000EB md5 4B961A8DF3BE7DCE05D26B0B5EBA9F53 sha1 9B1D37A7C5C99EFBF6F78F9AF0A93D5AF1ECD75C )
 )
 game (
 	name "Microsurgeon (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Microsurgeon (USA, Europe).int" size 16384 crc E806AD91 md5 137D6101EC260405D3D5339822E172F7 sha1 1390F0076470504037720B20F84404D502988231 )
 )
 game (
 	name "Mind Strike (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Mind Strike (USA, Europe).int" size 24576 crc 9D57498F md5 CBD28F3573AB61FDDE21CABB7659CEAA sha1 FCB2E2DD2BACBE08C6E04C6460E574E1014B4331 )
 )
 game (
@@ -572,29 +613,32 @@ game (
 )
 game (
 	name "Missile Domination (World)"
+	region "World"
 	rom ( name "Missile Domination (World) (Aftermarket) (Unl).bin" size 29696 crc 36171A50 md5 D44140EB3CC1C0150D7F3830BE9F2FA8 sha1 42CFE6423225DCC30206F8F1953E549CA599C657 )
 )
 game (
 	name "Missile Domination DX (World)"
+	region "World"
 	rom ( name "Missile Domination DX (World) (Aftermarket) (Unl).bin" size 33792 crc FAC8F0FE md5 B2919B6379B8977D1A90940D4360E63C sha1 4CD7C7FDD37AB2E60BE09D9CD9E92E75E4C6287C )
 )
 game (
 	name "Mission X (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Mission X (USA, Europe).int" size 16384 crc 11FB9974 md5 30F68D218BAE18B69DAEB9E273FDC9D0 sha1 2E6760F418F4E54A244FE1BAA57E573573CC1B7D )
 )
 game (
 	name "Moon Blast (World)"
+	region "World"
 	rom ( name "Moon Blast (World) (Aftermarket) (Unl).bin" size 34304 crc 26642B16 md5 8CC820E7E56A6E8CBB0B2C71436F6800 sha1 EE0F90D2C414462F9CCAFFD364AF4158D950529A )
 )
 game (
 	name "Motocross (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Motocross (USA, Europe).int" size 16384 crc 5F6E1AF6 md5 1AB93DAB53B52EA6AA7D964682DFCF03 sha1 109E0A05E73239962DED327827C7957960802744 )
 )
 game (
 	name "Motocross (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Motocross (USA, Europe) (Alt).int" size 16384 crc EC89D2FD md5 6D8B8EE227F8A876DF852A2CC5CD9C07 sha1 8CE72D2E4E3C44A9A34C6488F3BF07EA47767160 )
 )
 game (
@@ -604,38 +648,42 @@ game (
 )
 game (
 	name "Mouse Trap (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Mouse Trap (USA, Europe).int" size 8192 crc 598662F2 md5 1247C5F449BB1EFCB5D63225A0D57A2D sha1 FD942DDE74C6006A70DBC6902A2E0ED416EDAA55 )
 )
 game (
 	name "Mr. BASIC Meets Bits 'N Bytes (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Mr. BASIC Meets Bits 'N Bytes (USA, Europe).int" size 24576 crc BEF0B0C7 md5 828101531D09E38DAC4CB31954B5AE6E sha1 6DD81B2B7E2405BE87F8253BE62888FF51712B85 )
 )
 game (
 	name "NASL Soccer (World)"
+	region "World"
 	rom ( name "NASL Soccer (World).int" size 8192 crc DBAB54CA md5 EC08C8432F695446BCB78411775FA8B4 sha1 3524384C2E096F22B7CB9608E0A8B9C78F4EF458 )
 )
 game (
 	name "NBA Basketball (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "NBA Basketball (USA, Europe).int" size 8192 crc 81E7FB8C md5 EFAFF20E6BBEB707B2486D031E3E1078 sha1 9C855E864CF926DFD3D09C071E499D7CCD537908 )
 )
 game (
 	name "NFL Football (World)"
+	region "World"
 	rom ( name "NFL Football (World).int" size 8192 crc 4B91CF16 md5 D0EF7A007E8635A13942FB6DA48012A2 sha1 525DFFEB7B53C88BD2E8076C421388ED72E2C90D )
 )
 game (
 	name "NHL Hockey (World)"
+	region "World"
 	rom ( name "NHL Hockey (World).int" size 8192 crc 76564A13 md5 6307B4EA467874B393A9A3F07F3EB50F sha1 3395C6764F60D90D96966B28EE96742B5782D59F )
 )
 game (
 	name "Night Stalker (World)"
+	region "World"
 	rom ( name "Night Stalker (World).int" size 8192 crc 7334CD44 md5 B5E9A146F4F04DAAB3BA68B0EC45958A sha1 13E321593DAF93C2E3E964A05E43E4BB21DA6EA6 )
 )
 game (
 	name "Nova Blast (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Nova Blast (USA, Europe).int" size 16384 crc 5EE2CC2A md5 74EDFE78C836AC3844E7676BFE61EFC5 sha1 CA18F2938168EC681EE34CB25A08C87B752A5024 )
 )
 game (
@@ -650,22 +698,27 @@ game (
 )
 game (
 	name "Onion (World)"
+	region "World"
 	rom ( name "Onion (World) (Aftermarket) (Unl).bin" size 416954 crc A1B83FDB md5 836B46AC3CD6D7C651DD7AC0C3A004F2 sha1 A051D6E581C3B959C23356268DB0E1D02E5615E5 )
 )
 game (
 	name "Operation Cloudfire (World)"
+	region "World"
 	rom ( name "Operation Cloudfire (World) (Unl).bin" size 182422 crc 36A7711B md5 18107C7E6B134BEAE6E23141A4037D75 sha1 8D87E6E5BA6C63E3248EE86157A2D884E8D20E3A )
 )
 game (
 	name "Oregon Bound (World)"
+	region "World"
 	rom ( name "Oregon Bound (World) (Aftermarket) (Unl).bin" size 90112 crc F1791AE4 md5 01018AE5D5154FEF838B51969FA5D53E sha1 AA2CD1FF5AA4DEBCB906A0D78A728E8378D3BFC1 )
 )
 game (
 	name "PBA Bowling (World)"
+	region "World"
 	rom ( name "PBA Bowling (World).int" size 8192 crc 169E3584 md5 26B658BB3F761EE0D50E93CB782E08EC sha1 71A2BF83F18FDBF4DB3AF66681FCFA506BF0D31C )
 )
 game (
 	name "PGA Golf (World)"
+	region "World"
 	rom ( name "PGA Golf (World).int" size 8192 crc FF87FAEC md5 B707C1D38C0C21A7513D1DC0739CDF12 sha1 5BBBDADB74FE62546594A4778928CF1287016083 )
 )
 game (
@@ -680,6 +733,7 @@ game (
 )
 game (
 	name "Parsec (World)"
+	region "World"
 	rom ( name "Parsec (World) (Aftermarket) (Unl).bin" size 48640 crc 8CFF3602 md5 99AA067D01AE282A8EA9E624CBC14E03 sha1 9C75002C73FA058CBABF213D5F918479A7440771 )
 )
 game (
@@ -704,6 +758,7 @@ game (
 )
 game (
 	name "Penguin Land (World)"
+	region "World"
 	rom ( name "Penguin Land (World) (Aftermarket) (Unl).bin" size 75904 crc D7BBA156 md5 66FFE6C47DAA447295D2C93F72E7BB29 sha1 F6498BB15F8B0AADC86A6C43828C707056C0F2AC )
 )
 game (
@@ -713,19 +768,22 @@ game (
 )
 game (
 	name "Pitfall II - Lost Caverns (World)"
+	region "World"
 	rom ( name "Pitfall II - Lost Caverns (World) (Aftermarket) (Unl).bin" size 89088 crc EF098108 md5 51B5E360AE705F4B32E1447C9CEA3E9E sha1 EC54C6710CC5C711B270E49CB8880DDF0051E11D )
 )
 game (
 	name "Pitfall III - Return to the Caverns (World)"
+	region "World"
 	rom ( name "Pitfall III - Return to the Caverns (World) (Aftermarket) (Unl).bin" size 44544 crc F82291EB md5 933B88F5F52BD0CFA374F932FFB41799 sha1 06D9BE193870A5B439B8673AA156FD13ADAB003F )
 )
 game (
 	name "Pitfall! (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Pitfall! (USA, Europe).int" size 8192 crc 9C75EFCC md5 16E989656458AFD35D3C2E1AAA950697 sha1 1F4087BE2C0A51ED08E49E6498794A9D26DC0D65 )
 )
 game (
 	name "Poker Risque (World)"
+	region "World"
 	rom ( name "Poker Risque (World) (Aftermarket) (Unl).bin" size 46080 crc 53F852A5 md5 E7341AE50DE05AA45CD4B6CE824024F4 sha1 B08B7A905C1380EF21900F134833701879A80541 )
 )
 game (
@@ -735,43 +793,47 @@ game (
 )
 game (
 	name "Popeye (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Popeye (USA, Europe).int" size 16384 crc C51464E0 md5 9E8AA1AB70B221E320191AE4B71F9EE2 sha1 FC468DF3AB11C52F157A0C6B881C61F43CB5C88A )
 )
 game (
 	name "Pyramid Warp (World)"
+	region "World"
 	rom ( name "Pyramid Warp (World) (Aftermarket) (Unl).bin" size 44544 crc 69EF7202 md5 2E474766A72974A78A2A2DC9D6525488 sha1 F79492156AE58890EFF747C0C98B49B614B84BEB )
 )
 game (
 	name "Q-bert (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Q-bert (USA, Europe).int" size 16384 crc 6E2DE5A7 md5 91CF4A3575C0D3CF1035174F06A36F67 sha1 49290F41B4DD6A9E088B1CAD2B1BBE48238B441F )
 )
 game (
 	name "Quarteto Brasileiro (World)"
+	region "World"
 	rom ( name "Quarteto Brasileiro (World) (Aftermarket) (Unl) (English Version).bin" size 184014 crc F2C2AEF3 md5 1C69C05D45CE1E5BE7DC0A0BD78C2E18 sha1 F20B559C217B7D233E7180F10B83B4EA2304400C )
 )
 game (
 	name "Racing Cars (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Racing Cars (USA, Europe) (Intellivision Lives!).int" size 8192 crc 156A5645 md5 426940B24BD342BDFD8E7062D11F988D sha1 EEC4154ACC4CBDBAB9FC77E57F9488C66853781A )
 )
 game (
 	name "Raiders of the Lost Ark (World)"
+	region "World"
 	rom ( name "Raiders of the Lost Ark (World) (Aftermarket) (Unl).bin" size 59904 crc BDD0C48E md5 DA7809B6CBED075D5F1ACE3CFCC1A44A sha1 5790E9298925F380634E9508FDCDDBF08D559163 )
 )
 game (
 	name "Reversi (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Reversi (USA, Europe).int" size 8192 crc C7BB1B0E md5 61D8DD664D255DFCA43F8B40802D76AE sha1 3EEA6F5C02942EB3AC96967E3B667911459D09F8 )
 )
 game (
 	name "River Raid (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "River Raid (USA, Europe).int" size 16384 crc 8910C37A md5 13B129AD0FCDB79911CCBDF6B741201F sha1 6C1AA94983C25ED484CC85DADABF0102B5C46726 )
 )
 game (
 	name "Road Fighter (World)"
+	region "World"
 	rom ( name "Road Fighter (World) (Aftermarket) (Unl).bin" size 228600 crc 2ED0A8A4 md5 08C042A16DBC4C20D0D991410B1C9AC2 sha1 40D16ADAD163DEB4EF39A7D43350B38FBC942B00 )
 )
 game (
@@ -796,16 +858,17 @@ game (
 )
 game (
 	name "Royal Dealer (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Royal Dealer (USA, Europe).int" size 12288 crc 0458A491 md5 240A53F04E1B2E71463130CB58F539D9 sha1 918E59D79672577B8B327C5D00C95D03E5E0C920 )
 )
 game (
 	name "SNAFU (World)"
+	region "World"
 	rom ( name "SNAFU (World).int" size 8192 crc 8F959A6E md5 DF286E44CB487DAB088A43D22AF8CCFB sha1 9D5C237C7FB1CF3C444F916E84EE4180D9732C4C )
 )
 game (
 	name "Safecracker (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Safecracker (USA, Europe).int" size 16384 crc 47AA7977 md5 80A64F49D53BB0C2401FBFD4B6FD6E19 sha1 A6A60D4C17866A790351EEBEC9603890DEEDA0FF )
 )
 game (
@@ -815,15 +878,17 @@ game (
 )
 game (
 	name "Scooby Doo's Maze Chase (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Scooby Doo's Maze Chase (USA, Europe).int" size 16384 crc E9E3F60D md5 CB590A4BB37D38EC7E96CF140C6E649D sha1 4E8B7C7308162F58D36B4AFE748A408F8E40C63B )
 )
 game (
 	name "Sea Battle (World)"
+	region "World"
 	rom ( name "Sea Battle (World).int" size 8192 crc 99AE29A9 md5 4E9A8366EB0BB166DAD7A7385417EAC8 sha1 CCB48A11F3CBFA580F2C6A1012C8D794EEE9A5EC )
 )
 game (
 	name "Sea Venture (World)"
+	region "World"
 	rom ( name "Sea Venture (World) (Aftermarket) (Unl).bin" size 48640 crc 42966C84 md5 2EA50C3C7DF79FF43120A176BBAD208C sha1 3A413218ECB0845D117E77502F733632489D2A41 )
 )
 game (
@@ -833,16 +898,17 @@ game (
 )
 game (
 	name "Shark! Shark! (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Shark! Shark! (USA, Europe).int" size 16384 crc 2A4C761D md5 9F85B961E6C40C2C786026F460AE02FA sha1 53D10E890571EF67D39874582F3668B29C580590 )
 )
 game (
 	name "Sharp Shot (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Sharp Shot (USA, Europe).int" size 8192 crc FF7CB79E md5 A1C80E87C8B8BF9549B30E78027F137A sha1 0A0230A5C06F3593D683458AEC3D81654904F16D )
 )
 game (
 	name "Show Must Go On, The (World)"
+	region "World"
 	rom ( name "Show Must Go On, The (World) (Aftermarket) (Unl).bin" size 65096 crc B00156AE md5 174B26A0E0AF9402D1969F58A237252A sha1 D2576864FA73F01EEC2CB26B5BF5D1E625388357 )
 )
 game (
@@ -857,32 +923,37 @@ game (
 )
 game (
 	name "Space Armada (World)"
+	region "World"
 	rom ( name "Space Armada (World).int" size 8192 crc E8B8EBA5 md5 B7C771A6062EE673936008754C987FD1 sha1 2D8DDC0881B63B2F691A97EAB182ED4C3CA56816 )
 )
 game (
 	name "Space Bandits (World)"
+	region "World"
 	rom ( name "Space Bandits (World) (Aftermarket) (Unl).bin" size 35328 crc 11578595 md5 7D9CC8D076ADB3149F636C502E8E929C sha1 3E6E64D502027025D138035C186C5D6FED396131 )
 )
 game (
 	name "Space Battle (World)"
+	region "World"
 	rom ( name "Space Battle (World).int" size 8192 crc E7DB639D md5 DDF114A06CB5F6B43D6190F78EA783E2 sha1 5AA473556905C3754633BEDEBF99785BB37C9786 )
 )
 game (
 	name "Space Battle (World) (v1.1)"
+	region "World"
 	rom ( name "Space Battle (World) (v1.1).int" size 8192 crc F95504E0 md5 8C11519753896450E6F38B8E338CB1F6 sha1 D6036C7E7C0DA20878FD7ACC9F6B476135D1E8D1 )
 )
 game (
 	name "Space Hawk (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Space Hawk (USA, Europe).int" size 8192 crc 39D3B895 md5 20BA9224386C5F64B62B38FDF12589DB sha1 E7E4B8AD30EE69CD9E75F2B3E3D94B75E7288110 )
 )
 game (
 	name "Space Panic (World)"
+	region "World"
 	rom ( name "Space Panic (World) (Aftermarket) (Unl).bin" size 38400 crc 191B74B9 md5 9507FD73F0DB4CFDDE3ED0D7EEB70E4E sha1 60FC17A83C54195BFA39550249040467B21A15E4 )
 )
 game (
 	name "Space Spartans (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Space Spartans (USA, Europe).int" size 16384 crc 3784DC52 md5 628F7614CC3912F5C33B1052E6C61F04 sha1 954D5911A3A41E8F9B4664AB4F60484B2D2648B3 )
 )
 game (
@@ -897,34 +968,37 @@ game (
 )
 game (
 	name "Stampede (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Stampede (USA, Europe).int" size 8192 crc 2DEACD15 md5 E39A9065388384CF439DC1484013D993 sha1 31CF8F77D889C48D2B31670E58B2EC38187F2748 )
 )
 game (
 	name "Star Strike (World)"
+	region "World"
 	rom ( name "Star Strike (World).int" size 8192 crc 72E11FCA md5 F76A250066E55817F42872083BC854B2 sha1 17C37FBC5FF14C55931AE27E21603DFF3DB66DBE )
 )
 game (
 	name "Star Wars - The Empire Strikes Back (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Star Wars - The Empire Strikes Back (USA, Europe).int" size 8192 crc D5B0135A md5 13478528A31D1092BA1B19A8E9626FF3 sha1 B2995ABE45C57E85C36927BA82C428BFBE06CB70 )
 )
 game (
 	name "Striker Super Pro Bowling (World)"
+	region "World"
 	rom ( name "Striker Super Pro Bowling (World) (Aftermarket) (Unl).bin" size 16384 crc F8E09E8A md5 A91A2A485A613844EAB29E7E423ECDA8 sha1 B83A9FFE07FAE9A94EB6C1A67A283882F96124EB )
 )
 game (
 	name "Sub Hunt (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Sub Hunt (USA, Europe).int" size 16384 crc 3D9949EA md5 DD7BC297265CF2F65062966312B0B966 sha1 8B09884A69F4AA8663F42A201DD70DF98F4DA0FC )
 )
 game (
 	name "Super Chef BurgerTime (World)"
+	region "World"
 	rom ( name "Super Chef BurgerTime (World) (Aftermarket) (Unl).bin" size 40960 crc 9BA99F2E md5 184CF465625C9DE1922A0E1F7182A58F sha1 2985B63F527DC7AF357E2F41EC0F2FEEFB75B9FF )
 )
 game (
 	name "Super Cobra (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Cobra (USA, Europe).int" size 16384 crc 7C32C9B8 md5 34A2A81F1993124FC1635A9599F24E41 sha1 9ECED3A6D0CA3A303793D96050DBEC2AB1F35DF6 )
 )
 game (
@@ -939,30 +1013,37 @@ game (
 )
 game (
 	name "Super Pro Auto Racing (World)"
+	region "World"
 	rom ( name "Super Pro Auto Racing (World) (Aftermarket) (Unl).bin" size 16384 crc 51B6512A md5 CB47F33B6A2C35D13DED6408FCEA1E2B sha1 D89B2A2420CE17D8420FF869AE1399834C9EF38C )
 )
 game (
 	name "Super Pro Backgammon (World)"
+	region "World"
 	rom ( name "Super Pro Backgammon (World) (Aftermarket) (Unl).bin" size 16384 crc 0BB33E88 md5 D42CA9ED1A126BA4E8079FD7D86F7A88 sha1 0F46A941890ACA532F96174F72AFDBE8F5371AE3 )
 )
 game (
 	name "Super Pro Baseball (World)"
+	region "World"
 	rom ( name "Super Pro Baseball (World) (Aftermarket) (Unl).bin" size 24576 crc A6907505 md5 A248383B091C99CE1DF7877237061A6E sha1 7070BDB9C2023242D390415FDE2CA6FE91FB2476 )
 )
 game (
 	name "Super Pro Beauty and the Beast (World)"
+	region "World"
 	rom ( name "Super Pro Beauty and the Beast (World) (Aftermarket) (Unl).bin" size 20480 crc 26F070AC md5 79F97E2C618CA57D6D96E4D34B4EF69D sha1 B66C4D9E32FA436ACD6A625C792EFDEABA86EDB1 )
 )
 game (
 	name "Super Pro Bomb Squad (World)"
+	region "World"
 	rom ( name "Super Pro Bomb Squad (World) (Aftermarket) (Unl).bin" size 32768 crc A9C08E9F md5 DE55B3535F22ECB01D3765E4B91FCDAE sha1 F6FA7AF5D7DCCB424FA500BCF4E63039BE484F17 )
 )
 game (
 	name "Super Pro Boxing (World)"
+	region "World"
 	rom ( name "Super Pro Boxing (World) (Aftermarket) (Unl).bin" size 16384 crc 70E7F6A1 md5 F6F44F33CE68B805FF4AC94C42870EB3 sha1 D27FA0DC2713CC3B0E25294556EDFCC2A9736269 )
 )
 game (
 	name "Super Pro Bump-n-Jump (World)"
+	region "World"
 	rom ( name "Super Pro Bump-n-Jump (World) (Aftermarket) (Unl).bin" size 40960 crc C68CEC2D md5 7C7C9A11F1F50D8768983BFFB2BD5A77 sha1 DFF0F8F884C34216BB9A2C3ABCB348C83586AFC5 )
 )
 game (
@@ -987,7 +1068,7 @@ game (
 )
 game (
 	name "Swords & Serpents (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Swords & Serpents (USA, Europe).int" size 16384 crc 15E88FCE md5 1F35F843EC58CC700CDA9E3ED35CDABE sha1 6BEB8682F75E2616009FAEABC08E88871FC172BD )
 )
 game (
@@ -997,17 +1078,17 @@ game (
 )
 game (
 	name "TRON Deadly Discs (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "TRON Deadly Discs (USA, Europe).int" size 8192 crc CA447BBD md5 A0AE3C350ACB9B9BC51128011483D4BE sha1 A84392C29A69A7BFF5F1B521A0E836622405180A )
 )
 game (
 	name "TRON Maze-A-Tron (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "TRON Maze-A-Tron (USA, Europe).int" size 16384 crc 7A558CF5 md5 780A2BE0E38AC7FD6A7A6D350CD18284 sha1 8D4EBA89B8EDB4C51FF0E2E4914E73F2A07BC9A6 )
 )
 game (
 	name "TRON Solar Sailer (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "TRON Solar Sailer (USA, Europe).int" size 24576 crc 07FB9435 md5 E9E3C2A1C3690748D34F711CEAB625CD sha1 6DC430D70C71CA0ECA20C4751D397059946573BE )
 )
 game (
@@ -1017,6 +1098,7 @@ game (
 )
 game (
 	name "Tennis (World)"
+	region "World"
 	rom ( name "Tennis (World).int" size 8192 crc 03E9E62E md5 DCF742ED6EE2101769A48FAF45145F2C sha1 E500B803CBA6E73228A919FDEDC109F0022CEE3A )
 )
 game (
@@ -1036,6 +1118,7 @@ game (
 )
 game (
 	name "Triple Action (World)"
+	region "World"
 	rom ( name "Triple Action (World).int" size 8192 crc 1AC989E2 md5 DF8BF33772EE8A983EE67687A53A0D4A sha1 6C1011B98AC76653632FD13E93466802F7D4DEA9 )
 )
 game (
@@ -1045,7 +1128,7 @@ game (
 )
 game (
 	name "Tropical Trouble (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Tropical Trouble (USA, Europe).int" size 16384 crc 6F23A741 md5 E5836F66ACD6BA7B31C7DCCDA23B34DC sha1 63FADC61F9FE850BEAD7DF76ED915EA00E569CB5 )
 )
 game (
@@ -1055,64 +1138,67 @@ game (
 )
 game (
 	name "Turbo (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Turbo (USA, Europe).int" size 16384 crc 275F3512 md5 38A04C6D7BB006435CD2C3B28755396C sha1 23A4AAFCBF5449EF0F8A684E2F87E85761E83AF7 )
 )
 game (
 	name "Tutankham (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Tutankham (USA, Europe).int" size 16384 crc 6FA698B3 md5 BE9E56495AF99F3F29EF3BC3B0A51FD4 sha1 12A96E4111082F1CF5BEE27F850F28E20009681B )
 )
 game (
 	name "US Ski Team Skiing (World)"
+	region "World"
 	rom ( name "US Ski Team Skiing (World).int" size 8192 crc F093E801 md5 04004FF8ABF2BF4EE5992A0A8F20D3C4 sha1 F93DF55F45EE9B589DB5763CEFE6742860B38E79 )
 )
 game (
 	name "USCF Chess (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "USCF Chess (USA, Europe).int" size 16384 crc 752FD927 md5 11B861F65C37A59E67FF028435AC2025 sha1 4CCF494F9664D5B9E05237D1BC2EEE8A7830F067 )
 )
 game (
 	name "Ultimate Pong (World)"
+	region "World"
 	rom ( name "Ultimate Pong (World) (Aftermarket) (Unl).bin" size 57856 crc A486B369 md5 92BEB7B2E8E3488C2B75D512CAC7E532 sha1 2A08FB0D8D6A12153B0B92ABF8EC064CBB48EAA6 )
 )
 game (
 	name "Utopia (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Utopia (USA, Europe).int" size 8192 crc F9E0789E md5 B93B1169C33B7220887AC7AF54224976 sha1 D72D2A9817E75039D57B1EC877DFE2B96A306B61 )
 )
 game (
 	name "Vanguard (World)"
+	region "World"
 	rom ( name "Vanguard (World) (Aftermarket) (Unl).bin" size 71488 crc 5CBC1BEF md5 F48D48335DE6118F908311BC899108BE sha1 A95E3D5E40F02ED37A22AD29ED573559A62354CA )
 )
 game (
 	name "Vectron (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Vectron (USA, Europe).int" size 24576 crc A4A20354 md5 4C149598BE3A6C3974FF5F90005484FC sha1 DAB5BC9F2BA1EE97AA8E0BCAF0D5D5C242B607B2 )
 )
 game (
 	name "Vectron (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Vectron (USA, Europe) (Intellivision Lives!).int" size 24576 crc 8F48030F md5 BD73D7FCB32BC93762167AED93A91FAB sha1 71E82820ADCB152E8D2BE09EF039CFCE3F8C33F6 )
 )
 game (
 	name "Venture (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Venture (USA, Europe).int" size 16384 crc 6EFA67B2 md5 45B6EBFCECDBA7730DE30C5F95005CA6 sha1 EC7C70DBEC461C9EC5CE0D37290C5ED7116D537C )
 )
 game (
 	name "White Water! (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "White Water! (USA, Europe).int" size 16384 crc F1ED7D27 md5 7DBE8519C0ED760B0AA88C5769B1AFD1 sha1 B3C429B046A75384E02568708B7029E725073DC7 )
 )
 game (
 	name "Word Hunt (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Word Hunt (USA, Europe) (Intellivision Lives!).int" size 16384 crc B8AE7E3B md5 19A6BCD7D6D32D6F3CE05ED7EDDA02A9 sha1 A3D141E02E91E2F158C0A751D7014FAEB0C55D93 )
 )
 game (
 	name "Word Rockets (USA, Europe) (Intellivision Lives!)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Word Rockets (USA, Europe) (Intellivision Lives!).int" size 16384 crc 4B35D11D md5 2E5578E1B08EDEAF76FF74AEF878BB99 sha1 2B9B7CF8E86E22EF14EA1A379AF95F766539A365 )
 )
 game (
@@ -1122,7 +1208,7 @@ game (
 )
 game (
 	name "World Cup Soccer (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "World Cup Soccer (USA, Europe).int" size 32768 crc 15D9D27A md5 DF8FF041F1F3C9DFAD0CF651C67799CA sha1 91ED4563246FBBF7CDC02D52B96F2E053FA2B3BE )
 )
 game (
@@ -1132,11 +1218,12 @@ game (
 )
 game (
 	name "Worm Whomper (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Worm Whomper (USA, Europe).int" size 8192 crc 24B667B9 md5 49999333CF35D0CB321802CA378A7AF7 sha1 E1F3C3AAB41CB1850771CD566ACD6FE4C1161041 )
 )
 game (
 	name "X-Rally (World)"
+	region "World"
 	rom ( name "X-Rally (World) (Aftermarket) (Unl).bin" size 83968 crc 2FC4A110 md5 E543025E13075DB788C1145944918648 sha1 E7DE5573939CFC37C49A894D5891FB1CE9038CE2 )
 )
 game (
@@ -1146,7 +1233,7 @@ game (
 )
 game (
 	name "Zaxxon (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Zaxxon (USA, Europe).int" size 16384 crc 15C65DC5 md5 4C5C490B225748CC6777AFE3AF0D74CB sha1 E46A7E8D118B33A0A17130CF27BC8A4B1D2F93E2 )
 )
 game (

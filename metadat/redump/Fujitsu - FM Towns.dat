@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Fujitsu - FM Towns"
 	description "Fujitsu - FM Towns"
-	version "2026.11.01"
+	version "2026.11.14"
 	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -88,6 +88,12 @@ game (
 	region "Japan"
 	serial "HMD-223"
 	rom ( name "A 1-2-3 (Japan).bin" size 20815200 crc 4F82ABF7 md5 F1E825F7E96D37D28D31262EC02A1C48 sha1 A5C3BCFAEC2E5182FDA688E8B91D38A24B4C5990 serial "HMD-223" )
+)
+game (
+	name "A 1-2-3 (Japan)"
+	region "Japan"
+	serial "MTC-1032"
+	rom ( name "A 1-2-3 (Japan).bin" size 20815200 crc 4F82ABF7 md5 F1E825F7E96D37D28D31262EC02A1C48 sha1 A5C3BCFAEC2E5182FDA688E8B91D38A24B4C5990 serial "MTC-1032" )
 )
 game (
 	name "A.III. - A Ressha de Ikou III (Japan)"
@@ -240,10 +246,10 @@ game (
 	rom ( name "Angel (Japan) (Track 01).bin" size 31399200 crc 0668E2CC md5 BFF9A80BB8BAF56A9E9327661929F3B8 sha1 9AB95AFE28A1A6FB129B454EBC13B29BD08D0173 serial "HME-214" )
 )
 game (
-	name "Angel Haloe (Japan)"
+	name "Angel Halo (Japan)"
 	region "Japan"
 	serial "WIC-5371"
-	rom ( name "Angel Haloe (Japan).bin" size 422515632 crc FDB1EF19 md5 FE3E5587F54634A42441B5EC2DC0FD17 sha1 C04116A0F520F96077B5E20C7EE4F21BBBAFC998 serial "WIC-5371" )
+	rom ( name "Angel Halo (Japan).bin" size 422515632 crc FDB1EF19 md5 FE3E5587F54634A42441B5EC2DC0FD17 sha1 C04116A0F520F96077B5E20C7EE4F21BBBAFC998 serial "WIC-5371" )
 )
 game (
 	name "Animation Zenith (Japan)"
@@ -353,6 +359,7 @@ game (
 game (
 	name "Battle Chess (Japan) (En,Ja) (Rev 1)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMC-123"
 	rom ( name "Battle Chess (Japan) (En,Ja) (Rev 1) (Track 01).bin" size 52038000 crc F120A9A5 md5 798E9D65C2428F7DE7545B492740C247 sha1 789D19FACEE66DA91A619799BD4EA902AF12050A serial "HMC-123" )
 )
@@ -522,6 +529,7 @@ game (
 game (
 	name "CG Syndicate Vol. 1 - Lisa Northpoint (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMC-160"
 	rom ( name "CG Syndicate Vol. 1 - Lisa Northpoint (Japan) (En,Ja).bin" size 116071200 crc 68916210 md5 74CA8E8CFE40F8A1E59BF16FC262A82C sha1 AE818763CBD19557422357DBBA91B428F24B08DD serial "HMC-160" )
 )
@@ -570,12 +578,14 @@ game (
 game (
 	name "Castles (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMD-173"
 	rom ( name "Castles (Japan) (En,Ja) (Track 01).bin" size 10231200 crc B2DAFA0E md5 C2386FDF6333825641323DEE36381C44 sha1 E85C9988F4442B873F310017DFFF4BEBEB194BBB serial "HMD-173" )
 )
 game (
 	name "Castles II - Siege & Conquest (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HME-186"
 	rom ( name "Castles II - Siege & Conquest (Japan) (En,Ja) (Track 01).bin" size 20815200 crc B572264A md5 A8D76AA6634CCFB9A4956575C633C699 sha1 6B3FADC3BE1F78F0E0D1791FC945E79897C185F8 serial "HME-186" )
 )
@@ -758,13 +768,13 @@ game (
 	name "DOR SE (Special Edition) '93 (Japan)"
 	region "Japan"
 	serial "HME-255"
-	rom ( name "DOR SE (Special Edition) '93 (Japan) (Alt) (Track 1).bin" size 310421664 crc 752F9BDD md5 30FB902F6FE14EC9125F479C3E454BB1 sha1 AE19D158D5CC4C094D216B593FF383BD7EE33ABB serial "HME-255" )
+	rom ( name "DOR SE (Special Edition) '93 (Japan) (Track 1).bin" size 317167200 crc E4CC8AC3 md5 652F9A7C35CE775C5BA2B124B48C2B68 sha1 E8E32B1A959F69B4BDD0FEF124D72CE2E64C747D serial "HME-255" )
 )
 game (
 	name "DOR SE (Special Edition) '93 (Japan)"
 	region "Japan"
 	serial "HME-255"
-	rom ( name "DOR SE (Special Edition) '93 (Japan) (Track 1).bin" size 317167200 crc E4CC8AC3 md5 652F9A7C35CE775C5BA2B124B48C2B68 sha1 E8E32B1A959F69B4BDD0FEF124D72CE2E64C747D serial "HME-255" )
+	rom ( name "DOR SE (Special Edition) '93 (Japan) (Alt) (Track 1).bin" size 310421664 crc 752F9BDD md5 30FB902F6FE14EC9125F479C3E454BB1 sha1 AE19D158D5CC4C094D216B593FF383BD7EE33ABB serial "HME-255" )
 )
 game (
 	name "DOR SE (Special Edition) Sakigake - Battle Hold in Ashikaga Kougyou Koukou (Japan)"
@@ -979,18 +989,21 @@ game (
 game (
 	name "Dungeon Master (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMA-240"
 	rom ( name "Dungeon Master (Japan) (En,Ja) (Track 01).bin" size 5056800 crc 73E292F6 md5 80B16E7A14CD3E602D3455830C01BF4C sha1 A268DF7903DDE2B6F68849F212C7BE98376B37A0 serial "HMA-240" )
 )
 game (
 	name "Dungeon Master (Japan) (En,Ja) (Rev 1)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMA-240"
 	rom ( name "Dungeon Master (Japan) (En,Ja) (Rev 1) (Track 01).bin" size 5056800 crc EB474B1E md5 C355FDC6015B7725A94C44F4B17ADE0F sha1 BD503F53428BBCD4654844046995CB4E6821016A serial "HMA-240" )
 )
 game (
 	name "Dungeon Master - Chaos Strikes Back (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-216"
 	rom ( name "Dungeon Master - Chaos Strikes Back (Japan) (En,Ja) (Track 01).bin" size 10231200 crc F1FD8B1B md5 B3CF0E2D34102D7007F95FF327BB6E0A sha1 7D20D41A3C365EFCA9552D49F528C5FBD1CC323C serial "HMB-216" )
 )
@@ -1096,18 +1109,21 @@ game (
 game (
 	name "Emit Vol. 1 - Toki no Maigo (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMF-115"
 	rom ( name "Emit Vol. 1 - Toki no Maigo (Japan) (En,Ja) (Track 1).bin" size 20281296 crc 4B15BC51 md5 8859EDA50225E1AAB7A7BD7065BB6A65 sha1 02433DD33BA55BF686349D1332A5D72914F418C2 serial "HMF-115" )
 )
 game (
 	name "Emit Vol. 2 - Inochigake no Tabi (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMF-157"
 	rom ( name "Emit Vol. 2 - Inochigake no Tabi (Japan) (En,Ja) (Track 1).bin" size 20815200 crc 0AE40089 md5 6ED2D281F3229DFD1173FEE49302A0DE sha1 6B7C70F4C14602F9866E2C125491D39AE80DFDFE serial "HMF-157" )
 )
 game (
 	name "Emit Vol. 3 - Watashi ni Sayonara o (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMF-178"
 	rom ( name "Emit Vol. 3 - Watashi ni Sayonara o (Japan) (En,Ja) (Track 1).bin" size 20815200 crc D77C413F md5 43BEFA54FEEC06CB4A97205F905A356A sha1 5DDC8BCBD38929A6E74845DF23DE3A730D79ADF1 serial "HMF-178" )
 )
@@ -1284,6 +1300,12 @@ game (
 	rom ( name "Eye of the Beholder II - The Legend of Darkmoon (Japan) (Track 01).bin" size 20815200 crc C60A3F66 md5 EB789BBC498B4974C7A8836622A55326 sha1 3FE6C656D43CCF1133D927C98A5D63B5A9B7B4B9 serial "HME-201" )
 )
 game (
+	name "F-BASIC386 Compiler V1.1 L21 (Japan)"
+	region "Japan"
+	serial "B276C020"
+	rom ( name "F-BASIC386 Compiler V1.1 L21 (Japan) (Track 01).bin" size 158407200 crc 75799207 md5 02FE0C20FCC5C4EA59A93A224C22C1D0 sha1 0F45D0866B76BD64DB583B64EE67C4239C1A46D2 serial "B276C020" )
+)
+game (
 	name "F-BASIC386 Compiler V1.1 L21 (Japan) (Rev D)"
 	region "Japan"
 	serial "B276C020"
@@ -1457,16 +1479,16 @@ game (
 	rom ( name "Fouge Vol. 1 - Ki - Japan - Maeda Shinzo no Sekai (Japan) (Track 1).bin" size 63151200 crc 84F5E823 md5 C4298DD52DC01D7CD4C33589766529AA sha1 E9A27D434DE2BC9B57B8F94199C7190079954005 serial "HME-165" )
 )
 game (
-	name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hanga-shuu (Japan)"
+	name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hangashuu (Japan)"
 	region "Japan"
 	serial "HMF-147"
-	rom ( name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hanga-shuu (Japan) (Track 01).bin" size 168991200 crc 39FB72F7 md5 B307BEE197A6F6A06DC69A9EECEFC6F4 sha1 CBF5C1802D50BD9C9108CCDDD0E96304E1FB8538 serial "HMF-147" )
+	rom ( name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hangashuu (Japan) (Track 01).bin" size 168991200 crc 39FB72F7 md5 B307BEE197A6F6A06DC69A9EECEFC6F4 sha1 CBF5C1802D50BD9C9108CCDDD0E96304E1FB8538 serial "HMF-147" )
 )
 game (
-	name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hanga-shuu (Japan) (Rerelease)"
+	name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hangashuu (Japan) (Rerelease)"
 	region "Japan"
 	serial "HMG-711"
-	rom ( name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hanga-shuu (Japan) (Rerelease) (Track 01).bin" size 190159200 crc 1E31A047 md5 046BF0DD8B4F72A9B8561731B23A7DBF sha1 4A39F4C931CE8D4737975D1EA037FA11D2D53E18 serial "HMG-711" )
+	rom ( name "Fouge Vol. 2 - Masuo per Masuo - Ikeda Masuo Hangashuu (Japan) (Rerelease) (Track 01).bin" size 190159200 crc 1E31A047 md5 046BF0DD8B4F72A9B8561731B23A7DBF sha1 4A39F4C931CE8D4737975D1EA037FA11D2D53E18 serial "HMG-711" )
 )
 game (
 	name "Fractal Engine Demo (Japan) (Rev 1)"
@@ -1565,6 +1587,12 @@ game (
 	rom ( name "Free Software Collection 8 (Japan).bin" size 581767200 crc 45A70583 md5 DD4AE46E30D37A3AC86804656C71696C sha1 1C56C231028E8DD0838436D992F1D65E3B2520E1 serial "HMF-141" )
 )
 game (
+	name "Free Software Collection 8 (Japan) (Rev A)"
+	region "Japan"
+	serial "HMF-141A"
+	rom ( name "Free Software Collection 8 (Japan) (Rev A).bin" size 581767200 crc 44CADC21 md5 D8A8FFC5112E369B19552B6835876C16 sha1 4E48BB7A6E93635BC122F64BDFE9FF2D01719A2C serial "HMF-141A" )
+)
+game (
 	name "Free Software Collection 9 (Japan)"
 	region "Japan"
 	serial "HMF-185"
@@ -1609,12 +1637,14 @@ game (
 game (
 	name "Fujitsu Air Warrior V1.2 L11 (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMD-0109B"
 	rom ( name "Fujitsu Air Warrior V1.2 L11 (Japan) (En,Ja) (Track 1).bin" size 20815200 crc 6B411171 md5 2F3BE951F622A26EDC72B1F5BAC2781A sha1 C8E7B617F68D4F94D264695F0D33415CC0068176 serial "HMD-0109B" )
 )
 game (
 	name "Fujitsu Air Warrior V2 - Version 2.1 Level 10 (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMD-109D"
 	rom ( name "Fujitsu Air Warrior V2 - Version 2.1 Level 10 (Japan) (En,Ja) (Track 1).bin" size 31399200 crc C5DA9017 md5 1FFBD6DB25DB1E1FC0630BB7A59920BB sha1 2E768E1F117FCF921ECDE580FD4FFEAFC48D405A serial "HMD-109D" )
 )
@@ -1909,6 +1939,7 @@ game (
 game (
 	name "Heroes of the Lance (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-158"
 	rom ( name "Heroes of the Lance (Japan) (En,Ja).bin" size 6698496 crc B4FB7F62 md5 3E98F422A94EA81CCF0673A2C06E514D sha1 ED9ED92F74BC78FC01ACA78381027E5424F72E39 serial "HMB-158" )
 )
@@ -2203,18 +2234,21 @@ game (
 game (
 	name "Indiana Jones and the Fate of Atlantis (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HME-185"
 	rom ( name "Indiana Jones and the Fate of Atlantis (Japan) (En,Ja).bin" size 200743200 crc C2E5B4DF md5 51160AB1996828FFA453E130E12E2809 sha1 CA3AF16F783ED36CC95CD8103B02E34078BA5FF5 serial "HME-185" )
 )
 game (
 	name "Indiana Jones and the Last Crusade (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-142"
 	rom ( name "Indiana Jones and the Last Crusade (Japan) (En,Ja) (Track 01).bin" size 20808144 crc F68C9F0C md5 FE9F0EA800BB662BC99C0A5C2F124F4D sha1 D505C9D2E8C645EFD6B27505C590DC7EC1AF6E6A serial "HMB-142" )
 )
 game (
 	name "Infestation - Chinmoku no Wakusei (Japan) (En,Ja,Fr,De)"
 	region "Japan"
+	language "English / Japanese / French / German"
 	serial "HMC-199"
 	rom ( name "Infestation - Chinmoku no Wakusei (Japan) (En,Ja,Fr,De) (Track 1).bin" size 20815200 crc 03073950 md5 4A970325901275A1DB40B0132F954379 sha1 EADFF9FF2A067EEA407365135AC4FD9F74D03B52 serial "HMC-199" )
 )
@@ -2237,10 +2271,11 @@ game (
 	rom ( name "Iris-tei Serenade (Japan) (Track 01).bin" size 10231200 crc 07AC491A md5 67EC4CE5FD315802617CC9CD6BA0647D sha1 D0E038D721C80A60B064AEBF1BDAB5A00D890AA5 serial "HMD-212" )
 )
 game (
-	name "Ishidoo - The Way of Stones (Japan) (En,Ja)"
+	name "Ishido - The Way of Stones (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-128"
-	rom ( name "Ishidoo - The Way of Stones (Japan) (En,Ja) (Track 01).bin" size 20286000 crc 58CBA522 md5 593C2FEF7F2FEF222583B236D92EF171 sha1 472EEF6F5A2E8A9D34EE4D85FE8B33D599DE4C21 serial "HMB-128" )
+	rom ( name "Ishido - The Way of Stones (Japan) (En,Ja) (Track 01).bin" size 20286000 crc 58CBA522 md5 593C2FEF7F2FEF222583B236D92EF171 sha1 472EEF6F5A2E8A9D34EE4D85FE8B33D599DE4C21 serial "HMB-128" )
 )
 game (
 	name "Ishin no Arashi (Japan)"
@@ -2267,10 +2302,10 @@ game (
 	rom ( name "Iwanami Bungakukan - Natsume Souseki (Japan) (Eiheiji ni Ima mo Ikiru Dougen Zenshi).bin" size 391255200 crc 311BEAF6 md5 22C2D355F4E3BF7D4FC1D76E8F8DACB9 sha1 312B216517F890685975E319A10C7762238EF08D serial "HMG-502-2" )
 )
 game (
-	name "J. B. Harold Jikenbo 1 - Murder Club DX (Japan)"
+	name "J. B. Harold Jikenbo #1 - Murder Club DX (Japan)"
 	region "Japan"
 	serial "HMD-121"
-	rom ( name "J. B. Harold Jikenbo 1 - Murder Club DX (Japan) (Track 1).bin" size 20815200 crc 8CC51349 md5 90B3B0687F168461B369552D4D66BFA1 sha1 1F867EDF6BAAC20109F36F1F2D84E37A4E3CAC8E serial "HMD-121" )
+	rom ( name "J. B. Harold Jikenbo #1 - Murder Club DX (Japan) (Track 1).bin" size 20815200 crc 8CC51349 md5 90B3B0687F168461B369552D4D66BFA1 sha1 1F867EDF6BAAC20109F36F1F2D84E37A4E3CAC8E serial "HMD-121" )
 )
 game (
 	name "Jan Jaka Jan (Japan)"
@@ -2465,6 +2500,7 @@ game (
 game (
 	name "King's Quest V - Absence Makes the Heart Go Yonder (Japan) (En,Ja) (Rev 1)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "King's Quest V - Absence Makes the Heart Go Yonder (Japan) (En,Ja) (Rev 1).bin" size 287461440 crc 2E9776CA md5 3A05D40509388EFD186E3591AB58E8C2 sha1 C750D7FD52979AD8C472F7F7CA6E8CCF52F08F8B )
 )
 game (
@@ -2547,6 +2583,7 @@ game (
 game (
 	name "Kyrandia II - The Hand of Fate (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMG-130"
 	rom ( name "Kyrandia II - The Hand of Fate (Japan) (En,Ja) (Track 01).bin" size 21497280 crc 7B4C8E55 md5 7D28EE0633BB2FB8891BB1664D46D75F sha1 AEAA1B5E9EF1603816ADC6A83D09692A92C51C35 serial "HMG-130" )
 )
@@ -2613,6 +2650,7 @@ game (
 game (
 	name "Legend of Kyrandia, The (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "SC-93002"
 	rom ( name "Legend of Kyrandia, The (Japan) (En,Ja) (Alt) (Track 01).bin" size 9403296 crc 22887101 md5 1A5921322379002328EFB12BA74B88A0 sha1 310F10BC63DA750541B513913990708DAF57E14F serial "SC-93002" )
 )
@@ -3069,6 +3107,7 @@ game (
 game (
 	name "Monkey Island 2 - LeChuck's Revenge (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HME-253"
 	rom ( name "Monkey Island 2 - LeChuck's Revenge (Japan) (En,Ja).bin" size 41983200 crc C08C2BEA md5 35833A3C7501D9AC5343F945964EB421 sha1 92E36AD38CF7B031784AB2B4EAD098F638CCB1CB serial "HME-253" )
 )
@@ -3109,40 +3148,40 @@ game (
 	rom ( name "Mr. Ed Bogas' Music Machine Lite (Japan) (Rev A) (Track 01).bin" size 52567200 crc E8597AC2 md5 11D5E659407CF92159ECED025FCD168D sha1 0D837CF4930A558BF2358CB9297C57A3BA6578ED serial "HMD-914A" )
 )
 game (
-	name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1)"
+	name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1)"
 	region "Japan"
 	serial "DWFT-2004"
-	rom ( name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1).bin" size 361540032 crc BDEA9BA7 md5 AE944956DD899A5075D725F66D11959E sha1 DEE4AB701ABA51DF0EBD635131F0B040D5AB81D9 serial "DWFT-2004" )
+	rom ( name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1).bin" size 361540032 crc BDEA9BA7 md5 AE944956DD899A5075D725F66D11959E sha1 DEE4AB701ABA51DF0EBD635131F0B040D5AB81D9 serial "DWFT-2004" )
 )
 game (
-	name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1)"
+	name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1)"
 	region "Japan"
 	serial "DWFT-2004-0"
-	rom ( name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1).bin" size 361540032 crc BDEA9BA7 md5 AE944956DD899A5075D725F66D11959E sha1 DEE4AB701ABA51DF0EBD635131F0B040D5AB81D9 serial "DWFT-2004-0" )
+	rom ( name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 1).bin" size 361540032 crc BDEA9BA7 md5 AE944956DD899A5075D725F66D11959E sha1 DEE4AB701ABA51DF0EBD635131F0B040D5AB81D9 serial "DWFT-2004-0" )
 )
 game (
-	name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2)"
+	name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2)"
 	region "Japan"
 	serial "DWFT-2005"
-	rom ( name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2) (Track 1).bin" size 370926864 crc 8D084F92 md5 AA8C17172BA74D15E95B53F0E9B4A3E1 sha1 289CAC34E8EF0D41278F23548704E820724CF4AC serial "DWFT-2005" )
+	rom ( name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2) (Track 1).bin" size 370926864 crc 8D084F92 md5 AA8C17172BA74D15E95B53F0E9B4A3E1 sha1 289CAC34E8EF0D41278F23548704E820724CF4AC serial "DWFT-2005" )
 )
 game (
-	name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2)"
+	name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2)"
 	region "Japan"
 	serial "DWFT-2005-1"
-	rom ( name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2) (Track 1).bin" size 370926864 crc 8D084F92 md5 AA8C17172BA74D15E95B53F0E9B4A3E1 sha1 289CAC34E8EF0D41278F23548704E820724CF4AC serial "DWFT-2005-1" )
+	rom ( name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (Disc 2) (Track 1).bin" size 370926864 crc 8D084F92 md5 AA8C17172BA74D15E95B53F0E9B4A3E1 sha1 289CAC34E8EF0D41278F23548704E820724CF4AC serial "DWFT-2005-1" )
 )
 game (
-	name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (FM Towns Marty)"
+	name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (FM Towns Marty)"
 	region "Japan"
 	serial "DWFS3009"
-	rom ( name "Ms. Detective File 1 - Iwami Ginzan Satsujin Jiken (Japan) (FM Towns Marty) (Track 1).bin" size 473692800 crc 94B7E859 md5 0D146895E6E46D16B795C4719198C523 sha1 7F44D047146DFD282ABF05DC92E5B9DB2EB582FF serial "DWFS3009" )
+	rom ( name "Ms. Detective File #1 - Iwami Ginzan Satsujin Jiken (Japan) (FM Towns Marty) (Track 1).bin" size 473692800 crc 94B7E859 md5 0D146895E6E46D16B795C4719198C523 sha1 7F44D047146DFD282ABF05DC92E5B9DB2EB582FF serial "DWFS3009" )
 )
 game (
-	name "Ms. Detective File 2 - Sugata-naki Irainin (Japan)"
+	name "Ms. Detective File #2 - Sugata-naki Irainin (Japan)"
 	region "Japan"
 	serial "DWDC-3015"
-	rom ( name "Ms. Detective File 2 - Sugata-naki Irainin (Japan) (Track 1).bin" size 411717600 crc B19BF465 md5 93E24005D771E4528D3007908B94CEB1 sha1 1C1E17B564A524F7A5ED44F758FCDA205E564AAE serial "DWDC-3015" )
+	rom ( name "Ms. Detective File #2 - Sugata-naki Irainin (Japan) (Track 1).bin" size 411717600 crc B19BF465 md5 93E24005D771E4528D3007908B94CEB1 sha1 1C1E17B564A524F7A5ED44F758FCDA205E564AAE serial "DWDC-3015" )
 )
 game (
 	name "Mugen Houyou (Japan)"
@@ -3328,6 +3367,12 @@ game (
 	region "Japan"
 	serial "HME-236"
 	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 47275200 crc 68992509 md5 91ADE2C13F6D62F9AE7E8F547459372D sha1 8FB83C6B03B3FAA0E04BF0F8C6FC9B7D099E94DC serial "HME-236" )
+)
+game (
+	name "Nemurenu Yoru no Chiisana Ohanashi (Japan)"
+	region "Japan"
+	serial "AMCD-5001"
+	rom ( name "Nemurenu Yoru no Chiisana Ohanashi (Japan) (Track 01).bin" size 47275200 crc 68992509 md5 91ADE2C13F6D62F9AE7E8F547459372D sha1 8FB83C6B03B3FAA0E04BF0F8C6FC9B7D099E94DC serial "AMCD-5001" )
 )
 game (
 	name "Never Land (Japan)"
@@ -3935,24 +3980,28 @@ game (
 game (
 	name "Remember Beatles No. 2 - Michelle (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMA-252"
 	rom ( name "Remember Beatles No. 2 - Michelle (Japan) (En,Ja) (Track 01).bin" size 10054800 crc EA442B7B md5 BD08410B6A7277B9CC15B211D000A1DA sha1 5374F951070B6DDFDBA6E70B9889D651470D70C8 serial "HMA-252" )
 )
 game (
 	name "Remember Beatles No. 4 - Let It Be (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-169"
 	rom ( name "Remember Beatles No. 4 - Let It Be (Japan) (En,Ja) (Track 01).bin" size 41983200 crc EC5EDCC2 md5 34E0F2C709D09D52E8B0E2046C0C165F sha1 C01BF45CC553C137C219277077323E7302B103BA serial "HMB-169" )
 )
 game (
 	name "Remember Beatles No. 5 - The Long and Winding Road (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-171"
 	rom ( name "Remember Beatles No. 5 - The Long and Winding Road (Japan) (En,Ja) (Track 01).bin" size 41637456 crc A4678857 md5 980C4F0F0CE6FEC903C3044EE4EA6947 sha1 1319D1C46313AF39F8099419E842298688381DD6 serial "HMB-171" )
 )
 game (
 	name "Remember Beatles No. 6 - Imagine (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-172"
 	rom ( name "Remember Beatles No. 6 - Imagine (Japan) (En,Ja) (Track 01).bin" size 41637456 crc 5724E8D8 md5 F01460CD11C009ED2BBE4B7CFE3972D0 sha1 2B97CFB875C4842FB232606A145CDC151FC3D32B serial "HMB-172" )
 )
@@ -3994,6 +4043,7 @@ game (
 game (
 	name "Ryuutouden (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HME-213"
 	rom ( name "Ryuutouden (Japan) (En,Ja) (Track 1).bin" size 10231200 crc 395D0D92 md5 57970CD9E325B3848D0E63FC14F08E63 sha1 85912B5AEAF8700442C696AD59A61A5D29FAB162 serial "HME-213" )
 )
@@ -4136,6 +4186,7 @@ game (
 game (
 	name "Secret of Monkey Island, The (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMD-155"
 	rom ( name "Secret of Monkey Island, The (Japan) (En,Ja) (Track 01).bin" size 13495776 crc 067D4A9A md5 93CEB10110ACCBA4E76C6B1DBC27D3A9 sha1 D7B5582F04F79AEAB286DF02FA06C9F5A7981D9F serial "HMD-155" )
 )
@@ -4201,6 +4252,7 @@ game (
 game (
 	name "Sherlock Holmes - Consulting Detective (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMC-127"
 	rom ( name "Sherlock Holmes - Consulting Detective (Japan) (En,Ja).bin" size 719359200 crc F7A554AF md5 C01111BBA03A380EB436202A985BC5CE sha1 0D0398BA9E04ACA0BEBCC2711A2513A246BC9E57 serial "HMC-127" )
 )
@@ -4276,10 +4328,10 @@ game (
 	rom ( name "Sid Meier's Railroad Tycoon (Japan) (Track 1).bin" size 20815200 crc 339B1645 md5 E539E15B19AAFB3FF44D05273FFECB76 sha1 F514FAA2CEBD731B14FF9CFC4AB28B02F50BDB33 serial "HME-245" )
 )
 game (
-	name "Silent Moebius - Case - Titanic (Japan)"
+	name "Silent Mobius - Case - Titanic (Japan)"
 	region "Japan"
 	serial "HMC-143"
-	rom ( name "Silent Moebius - Case - Titanic (Japan) (Track 01).bin" size 105840000 crc 1583CE5A md5 D6940CF182F07F00B81C7770A9AE0F9D sha1 252FDF9BC6BCF119919772F331E44E18A421D779 serial "HMC-143" )
+	rom ( name "Silent Mobius - Case - Titanic (Japan) (Track 01).bin" size 105840000 crc 1583CE5A md5 D6940CF182F07F00B81C7770A9AE0F9D sha1 252FDF9BC6BCF119919772F331E44E18A421D779 serial "HMC-143" )
 )
 game (
 	name "Silent Service, The - Chinmoku no Kantai (Japan)"
@@ -4302,12 +4354,14 @@ game (
 game (
 	name "SimCity (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-121"
 	rom ( name "SimCity (Japan) (En,Ja) (Track 01).bin" size 31399200 crc 378CDD6B md5 692598509149A18478DCA3B7FF432831 sha1 C375E08CF6C00B1EFA0AD2D9495F63BE14E6333F serial "HMB-121" )
 )
 game (
 	name "SimCity (Japan) (En,Ja) (Rev A)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-121A"
 	rom ( name "SimCity (Japan) (En,Ja) (Rev A) (Track 01).bin" size 4410000 crc 248F0ADC md5 05ED89EEBA490710D993DC0610CEB07C sha1 39D20B568FF8EBEF965A5FB3CD42D0F685FC2F44 serial "HMB-121A" )
 )
@@ -4858,28 +4912,28 @@ game (
 	rom ( name "Towns Hyper Chiiku Ehon - Nihon Mukashi Banashi Vol. 5 - Kintarou & Hanasaka Jiisan (Japan) (Track 01).bin" size 34515600 crc A0EC056A md5 961DA510B2011D7678ACB6DC7B1A1AB1 sha1 62EE9EC22A95CC21EBB5A0247850D79FA5AB7681 serial "HMF-119" )
 )
 game (
-	name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa - Grimm Maerchen - Akazukin (Japan)"
+	name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa - Grimm Marchen - Akazukin (Japan)"
 	region "Japan"
 	serial "HMA-271"
-	rom ( name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa - Grimm Maerchen - Akazukin (Japan) (Track 01).bin" size 105840000 crc 00937CD1 md5 BF83598D26DC7E947016ED0F3AFF719A sha1 BE226CCBB9FC5DD33CB52894FE55E789E86EAC55 serial "HMA-271" )
+	rom ( name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa - Grimm Marchen - Akazukin (Japan) (Track 01).bin" size 105840000 crc 00937CD1 md5 BF83598D26DC7E947016ED0F3AFF719A sha1 BE226CCBB9FC5DD33CB52894FE55E789E86EAC55 serial "HMA-271" )
 )
 game (
-	name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa - Grimm Maerchen - Bremen no Ongakutai (Japan)"
+	name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa - Grimm Marchen - Bremen no Ongakutai (Japan)"
 	region "Japan"
 	serial "HMA-270"
-	rom ( name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa - Grimm Maerchen - Bremen no Ongakutai (Japan) (Track 01).bin" size 105840000 crc B0E135F6 md5 1C03013B6967CE8BF6142E2E208E46F1 sha1 0958FBCC6AC7A77DF9E6E9033315C7DAAB5DDF09 serial "HMA-270" )
+	rom ( name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa - Grimm Marchen - Bremen no Ongakutai (Japan) (Track 01).bin" size 105840000 crc B0E135F6 md5 1C03013B6967CE8BF6142E2E208E46F1 sha1 0958FBCC6AC7A77DF9E6E9033315C7DAAB5DDF09 serial "HMA-270" )
 )
 game (
-	name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa Vol. 3 - Grimm Maerchen - Ookami to Nana-hiki Koyagi (Japan)"
+	name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa Vol. 3 - Grimm Marchen - Ookami to Nana-hiki Koyagi (Japan)"
 	region "Japan"
 	serial "HMB-193"
-	rom ( name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa Vol. 3 - Grimm Maerchen - Ookami to Nana-hiki Koyagi (Japan) (Track 01).bin" size 105487200 crc DC1C65C0 md5 E5AE66F1594472123C62C71B0A5F5314 sha1 6EAFFC752FC8788881A9DD83D1E566C54FBE5C1B serial "HMB-193" )
+	rom ( name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa Vol. 3 - Grimm Marchen - Ookami to Nana-hiki Koyagi (Japan) (Track 01).bin" size 105487200 crc DC1C65C0 md5 E5AE66F1594472123C62C71B0A5F5314 sha1 6EAFFC752FC8788881A9DD83D1E566C54FBE5C1B serial "HMB-193" )
 )
 game (
-	name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa Vol. 4 - Grimm Maerchen - Ibara-hime (Nemuri-hime) (Japan)"
+	name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa Vol. 4 - Grimm Marchen - Ibara-hime (Nemuri-hime) (Japan)"
 	region "Japan"
 	serial "HMB-194"
-	rom ( name "Towns Hyper Ehon - Maerchen Toshokan Grimm Douwa Vol. 4 - Grimm Maerchen - Ibara-hime (Nemuri-hime) (Japan) (Track 01).bin" size 105487200 crc 9464F800 md5 80624EA01B0CBC5F66D1E728EDC16963 sha1 6C72AFCB3BF5807D2998DBEBF55595C4B10A1B11 serial "HMB-194" )
+	rom ( name "Towns Hyper Ehon - Marchen Toshokan Grimm Douwa Vol. 4 - Grimm Marchen - Ibara-hime (Nemuri-hime) (Japan) (Track 01).bin" size 105487200 crc 9464F800 md5 80624EA01B0CBC5F66D1E728EDC16963 sha1 6C72AFCB3BF5807D2998DBEBF55595C4B10A1B11 serial "HMB-194" )
 )
 game (
 	name "Towns Hyper Ehon VII - Sekai no Ohanashi - Hyper Talking Book VII - Alice in Wonderland & Ali Baba and Forty Thieves (Japan)"
@@ -5279,12 +5333,14 @@ game (
 game (
 	name "Where in the World Is Carmen Sandiego Carmen Sandiego o Oe! Sekai-hen (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HME-117"
 	rom ( name "Where in the World Is Carmen Sandiego Carmen Sandiego o Oe! Sekai-hen (Japan) (En,Ja).bin" size 370087200 crc EE91B366 md5 E4218A61F15DE0DE63327B74A9E23CCF sha1 A5AA28A4AAAEB25B8DF7E2F22D046C8A8181B541 serial "HME-117" )
 )
 game (
 	name "Wing Commander (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMD-166"
 	rom ( name "Wing Commander (Japan) (En,Ja) (Alt) (Track 01).bin" size 31399200 crc 5E851E7F md5 5697C78372B1852B81CEE2E132BEB8E4 sha1 BF0D61314A26B1AF8346A8AF56220AFDE20612EF serial "HMD-166" )
 )
@@ -5478,12 +5534,14 @@ game (
 game (
 	name "Zak McKracken and the Alien Mindbenders (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-218"
 	rom ( name "Zak McKracken and the Alien Mindbenders (Japan) (En,Ja) (Track 01).bin" size 54331200 crc 90215765 md5 DAFF4DF02FEBB09D02F0887366B5E28E sha1 B32664D9507C55DC53024267D7B5220AFC42A82B serial "HMB-218" )
 )
 game (
 	name "Zak McKracken and the Alien Mindbenders (Japan) (En,Ja) (Rev A)"
 	region "Japan"
+	language "English / Japanese"
 	serial "HMB-218A"
 	rom ( name "Zak McKracken and the Alien Mindbenders (Japan) (En,Ja) (Rev A) (Track 01).bin" size 54331200 crc 68733F99 md5 86BD5E17335FD8BD37FD3D93CBC6BA7E sha1 A4FFAA88B3C83A9F8DF5E0C3A1CB1F7C11E8509E serial "HMB-218A" )
 )

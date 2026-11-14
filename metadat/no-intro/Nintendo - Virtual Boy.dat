@@ -1,13 +1,14 @@
 clrmamepro (
 	name "Nintendo - Virtual Boy"
 	description "Nintendo - Virtual Boy"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "vb"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
 game (
 	name "3-D BattleSnake (World)"
+	region "World"
 	rom ( name "3-D BattleSnake (World) (Aftermarket) (Unl).vb" size 1048576 crc 14EE3F7D md5 0AB33DB88EE41F540D968127DC55FA50 sha1 35D8C26E62D64DADE68847DD1D8F55A92C6B8058 )
 )
 game (
@@ -18,66 +19,83 @@ game (
 )
 game (
 	name "3D Crosswords (World) (Emulator Version)"
+	region "World"
 	rom ( name "3D Crosswords (World) (Emulator Version) (Aftermarket) (Unl).vb" size 2097152 crc BB061C9D md5 CEF10DF7728F4398AF46D51EFC89D3D0 sha1 C778106D5C378022BBB078CD303BD0155E9FCABC )
 )
 game (
 	name "3D Crosswords (World) (Hardware Version)"
+	region "World"
 	rom ( name "3D Crosswords (World) (Hardware Version) (Aftermarket) (Unl).vb" size 524288 crc 3754E82E md5 35554DCF602FD2452D7ADB033A85CC40 sha1 D02BEFD9E2269093C45109B91609EEFD4B7A2BED )
 )
 game (
 	name "BLOX (World) (v1.0)"
+	region "World"
 	rom ( name "BLOX (World) (v1.0) (Aftermarket) (Unl).vb" size 1048576 crc 7BAF43B0 md5 231145F89792E8399A730612E97AE4DF sha1 E7B28CAFB0950969C8F0EA0DF2288E0F8D418CC8 )
 )
 game (
 	name "BLOX (World) (v1.1)"
+	region "World"
 	rom ( name "BLOX (World) (v1.1) (Aftermarket) (Unl).vb" size 1048576 crc 450FEAB5 md5 F82D4C9FDD81518537D88F70C6602BB5 sha1 F2105349DFF09BDC00E4548460991DDE9AC7C2AF )
 )
 game (
 	name "BLOX 2 (World) (En,Fr,De,Es,It,Sv,Fi,Cs,Sl)"
+	region "World"
+	language "English / French / German / Spanish / Italian / Swedish / Finnish / Czech / Slovenian"
 	rom ( name "BLOX 2 (World) (En,Fr,De,Es,It,Sv,Fi,Cs,Sl) (Aftermarket) (Unl).vb" size 2097152 crc 85460A25 md5 CC91D6389DF2C9777919E8E8AB2C0E66 sha1 66B2A25EF8E1AF74BED4BBBA4785951A9D6EDCE0 )
 )
 game (
 	name "Bound High (World) (Proto 2)"
+	region "World"
 	serial "VBHE"
 	rom ( name "Bound High (World) (Proto 2).vb" size 2097152 crc E365DDD3 md5 CB6262FC277635B2850992B89A219590 sha1 C9D4181ED56E2520AE42A74AFAEAFF9902180F86 serial "VBHE" )
 )
 game (
 	name "Capitan Sevilla 2 (World) (Es)"
+	region "World"
+	language "Spanish"
 	rom ( name "Capitan Sevilla 2 (World) (Es) (Aftermarket) (Unl).vb" size 1048576 crc F18001F0 md5 FE92B28E43EDD00C6B9401D81446A0A7 sha1 D971B1621CBEA6C90907E65780EB2ED20E13EDB5 )
 )
 game (
 	name "Dragon Hopper (Japan, USA) (En,Ja) (Switch Online)"
-	region "Japan"
+	region "Japan / USA"
+	language "English / Japanese"
 	serial "VDHE"
 	rom ( name "Dragon Hopper (Japan, USA) (En,Ja) (Switch Online).vb" size 2097152 crc 193C1A2F md5 07F13D2F9E0618D2A6C1460C10A71FD3 sha1 103CED4EBB5B43832294AE2702E014D08B4756BE serial "VDHE" )
 )
 game (
 	name "Elevated Speed (World) (High Resolution Version)"
+	region "World"
 	rom ( name "Elevated Speed (World) (High Resolution Version) (Aftermarket) (Unl).vb" size 4194304 crc 9C93AA2A md5 8F7BCFDD0F412D9060B06A97A89FE202 sha1 8B08F08F37127621483AA4E204A3E3B2312AF196 )
 )
 game (
 	name "Elevated Speed (World) (Low Resolution Version)"
+	region "World"
 	rom ( name "Elevated Speed (World) (Low Resolution Version) (Aftermarket) (Unl).vb" size 2097152 crc 61D03CCC md5 0B310032EC2EBFCEFB12676E4A8C7414 sha1 8F225D86672A8BA923DD0C262B1E6A1FC22438E5 )
 )
 game (
 	name "Fishbone (World)"
+	region "World"
 	rom ( name "Fishbone (World) (Aftermarket) (Unl).vb" size 2097152 crc B5977E82 md5 EEE8BE03986DDBC3ADA91B10A543F17E sha1 C036C441BB3C16E5B2CC6EA7681F56A8605B932E )
 )
 game (
 	name "Fishbone (World) (Demo 1)"
+	region "World"
 	rom ( name "Fishbone (World) (Demo 1) (Aftermarket) (Unl).vb" size 2097152 crc 9803B3EA md5 5DB98A9E661512105B93268D4F80ADFD sha1 131697F8E08CD30311DD2E220F750DE9E0348F38 )
 )
 game (
 	name "Fishbone (World) (Demo 2)"
+	region "World"
 	rom ( name "Fishbone (World) (Demo 2) (Aftermarket) (Unl).vb" size 2097152 crc 760B9298 md5 919C64E6A2D4D1D952DF1E8E8F5CCB64 sha1 83CD58C219E647C6590B77139DCFD5264AE788C5 )
 )
 game (
 	name "Fishbone (World) (Demo 3)"
+	region "World"
 	rom ( name "Fishbone (World) (Demo 3) (Aftermarket) (Unl).vb" size 2097152 crc 6E107A0A md5 FCB59E8AB2A38EA21F1C7DFB46FA7416 sha1 0D3C6AFD2F8B7CD7017C945A088BC58D65C63103 )
 )
 game (
 	name "Galactic Pinball (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VGPJ"
 	rom ( name "Galactic Pinball (Japan, USA) (En).vb" size 1048576 crc C9710A36 md5 85260599FDADA2E137053A8647AA0D06 sha1 93A25ABF4F86E71A49C1C3A470140BB40CB693D6 serial "VGPJ" )
 )
@@ -89,18 +107,22 @@ game (
 )
 game (
 	name "Hamburgers En Route to Switzerland (World)"
+	region "World"
 	rom ( name "Hamburgers En Route to Switzerland (World) (Aftermarket) (Unl).vb" size 524288 crc EFB7577C md5 45AA19C4B2F10C7EF6782B0CB356E265 sha1 BF426B164378376E11DC0416FFA840A84FD1CD15 )
 )
 game (
 	name "Hamburgers En Route to Switzerland (World) (Demo 1)"
+	region "World"
 	rom ( name "Hamburgers En Route to Switzerland (World) (Demo 1) (Aftermarket) (Unl).vb" size 262144 crc A994CB83 md5 32EC901E7AC6F96CF7D15C82AFB228B4 sha1 BE1C727EE6EC9CC931BCC7CAE62B80D77F1BB821 )
 )
 game (
 	name "Hamburgers En Route to Switzerland (World) (Demo 2)"
+	region "World"
 	rom ( name "Hamburgers En Route to Switzerland (World) (Demo 2) (Aftermarket) (Unl).vb" size 524288 crc 17AF6462 md5 2CB4BFE7564F5A1F9EDBBD481E9DCBBA sha1 5F3F17652741D8B1268E1E39D590E089F717FB1C )
 )
 game (
 	name "Hyper Fighting (World)"
+	region "World"
 	serial "VFDE"
 	rom ( name "Hyper Fighting (World) (Aftermarket) (Unl).vb" size 4194304 crc 3F2A6BA2 md5 C2047A94DCB0DB30794C8533BA625622 sha1 578355DE83822CE67522033DD7545631124A71AB serial "VFDE" )
 )
@@ -112,6 +134,7 @@ game (
 )
 game (
 	name "Insecticide (World)"
+	region "World"
 	rom ( name "Insecticide (World) (Aftermarket) (Unl).vb" size 2097152 crc DE9F669B md5 F2358AE652AFB6A2520CD6DF89EE6B7E sha1 DD7D02CD879584DEA3CB9766E44948AE6A4B320F )
 )
 game (
@@ -128,25 +151,30 @@ game (
 )
 game (
 	name "Mario Clash (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VMCJ"
 	rom ( name "Mario Clash (Japan, USA) (En).vb" size 1048576 crc A47DE78C md5 B1B3A25CE8FB4F406BF82B8765D307D0 sha1 7556A778B60490BDB81774BCBAA7413FC84CB985 serial "VMCJ" )
 )
 game (
 	name "Mario Combat (World)"
+	region "World"
 	rom ( name "Mario Combat (World) (Aftermarket) (Unl).vb" size 2097152 crc FB91380F md5 6FD50C08F16D44DA026DCA190ADE43FE sha1 2DD53EBF483F20D53473D5E7A2A42E39DD1D8F49 )
 )
 game (
 	name "Mario Kart - Virtual Cup (World)"
+	region "World"
 	rom ( name "Mario Kart - Virtual Cup (World) (Aftermarket) (Unl).vb" size 1048576 crc 27988AB9 md5 4B8C8B6A7711A005DD896B3EE9B8D0F1 sha1 7743978A58A27B8E05E36D353439A8B11EAD5235 )
 )
 game (
 	name "Mario VB (World)"
+	region "World"
 	rom ( name "Mario VB (World) (Aftermarket) (Unl).vb" size 524288 crc DD63D32D md5 03F72468609897A17028823691FC1C56 sha1 CCDC23E4F866E771D15FA480706669003AFBDE5B )
 )
 game (
 	name "Mario's Tennis (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VMTJ"
 	rom ( name "Mario's Tennis (Japan, USA) (En).vb" size 524288 crc 7CE7460D md5 38ECC2C5A745A80D32EB9E8E413358C4 sha1 5162F7FA9E3EAE4338C53CCBA641BA080C768754 serial "VMTJ" )
 )
@@ -182,6 +210,7 @@ game (
 )
 game (
 	name "Red Square (World)"
+	region "World"
 	rom ( name "Red Square (World) (Aftermarket) (Unl).vb" size 524288 crc AA50B353 md5 60CC7855DB22FF05C8ED7F18687197FC sha1 58443BAE644D3B777B9CB2DBA4D76BE582E3E0CF )
 )
 game (
@@ -192,34 +221,42 @@ game (
 )
 game (
 	name "Snowball Wars (World) (Demo 1)"
+	region "World"
 	rom ( name "Snowball Wars (World) (Demo 1) (Aftermarket) (Unl).vb" size 262144 crc 91CE8852 md5 D693A18192CBC1BD4AA678AF9A3AE0D1 sha1 5F2FA60D35327BF07847F00617181AF2645C3B2B )
 )
 game (
 	name "Snowball Wars (World) (Demo 2)"
+	region "World"
 	rom ( name "Snowball Wars (World) (Demo 2) (Aftermarket) (Unl).vb" size 1048576 crc 10848EF3 md5 CCB7A50D7FC23EC2890DB7771A077392 sha1 F29C06AFB49930B06C81F2E5432BF2DF3E4E752D )
 )
 game (
 	name "Snowball Wars (World) (Demo 3)"
+	region "World"
 	rom ( name "Snowball Wars (World) (Demo 3) (Aftermarket) (Unl).vb" size 1048576 crc A19CF939 md5 39F4DED02B9A58C1958F521D27D841AF sha1 54E6D1D3400E0FD850366FB56A9D065BA9D810E5 )
 )
 game (
 	name "Soviet Union 2010 (World) (v1.0)"
+	region "World"
 	rom ( name "Soviet Union 2010 (World) (v1.0) (Aftermarket) (Unl).vb" size 2097152 crc 447BA0C0 md5 90EF8D48EB3178F32E9EF45AC83EF7E1 sha1 328EA332004D6150B4AC8D9BDC4F0E16534907F9 )
 )
 game (
 	name "Soviet Union 2010 (World) (v1.2)"
+	region "World"
 	rom ( name "Soviet Union 2010 (World) (v1.2) (Aftermarket) (Unl).vb" size 2097152 crc E7CBC290 md5 74D21EA01F97AC19E018D7F5A3E3BC7C sha1 F534D323BC838A5F5A25E0BF977BA297708EABE3 )
 )
 game (
 	name "Soviet Union 2011 (World) (v1.0)"
+	region "World"
 	rom ( name "Soviet Union 2011 (World) (v1.0) (Aftermarket) (Unl).vb" size 2097152 crc 5CDE2C56 md5 FAD62E87FC51F44D75D17D5F3FFD4E0F sha1 3C55FC50972FD39105DA3FD2BF2DF033A5B7C1C3 )
 )
 game (
 	name "Soviet Union 2011 (World) (v1.1)"
+	region "World"
 	rom ( name "Soviet Union 2011 (World) (v1.1) (Aftermarket) (Unl).vb" size 2097152 crc 0CD7390B md5 9AC4A0BEACCD30FC39F34A494E64A8F4 sha1 82067D7326C217D3B5BBB09031A1D51FC5811E56 )
 )
 game (
 	name "Soviet Union 2011 (World) (v1.2)"
+	region "World"
 	rom ( name "Soviet Union 2011 (World) (v1.2) (Aftermarket) (Unl).vb" size 2097152 crc 3A2E0413 md5 7209A6BD5D788F12E97B9247D28197CE sha1 B6F9C7C86ECAAF37F1966C3480752531F9DD5515 )
 )
 game (
@@ -231,6 +268,7 @@ game (
 game (
 	name "Space Pinball (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	rom ( name "Space Pinball (Japan) (En) (Proto).vb" size 2097152 crc 44C2B723 md5 31073126FAD41777357391ECC36D6F7F sha1 DC182360C7C8D26323DB8921F09DB76638E81CED )
 )
 game (
@@ -247,7 +285,8 @@ game (
 )
 game (
 	name "Teleroboxer (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VTBJ"
 	rom ( name "Teleroboxer (Japan, USA) (En).vb" size 1048576 crc 36103000 md5 0742A861A599FE3361AAC6EBEF6745A7 sha1 C59E020F9674774C5CBC022317EBBA0EB1D744F7 serial "VTBJ" )
 )
@@ -260,6 +299,7 @@ game (
 game (
 	name "V-Tetris (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "VTRJ"
 	rom ( name "V-Tetris (Japan) (En).vb" size 524288 crc 3CCB67AE md5 262BBAE465F851DED3BB7CF46E375224 sha1 FF7D4DFC467E6E0D3FE8517102132A65A9D17589 serial "VTRJ" )
 )
@@ -278,12 +318,14 @@ game (
 game (
 	name "Virtual Bowling (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "VVBJ"
 	rom ( name "Virtual Bowling (Japan) (En).vb" size 1048576 crc 20688279 md5 5B11D402F7E322C71A7D4FA6503631FA sha1 A5BE7654037050F0A781E70EFEA0191F43D26F06 serial "VVBJ" )
 )
 game (
 	name "Virtual Boy Wario Land (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VWCJ"
 	rom ( name "Virtual Boy Wario Land (Japan, USA) (En).vb" size 2097152 crc 133E9372 md5 FB4DC9F4EBD506702EB49E99A62BD803 sha1 274C328FBD904F20E69172AB826BF8F94CED1BDB serial "VWCJ" )
 )
@@ -324,7 +366,8 @@ game (
 )
 game (
 	name "Zero Racers (Japan, USA) (En) (Switch Online)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "VZRE"
 	rom ( name "Zero Racers (Japan, USA) (En) (Switch Online).vb" size 1048576 crc 71553796 md5 7DAA75112C3E9385E9546CD4D8F1C37F sha1 73D161B737E35201AFF703B6FF6BF611E5E9C370 serial "VZRE" )
 )

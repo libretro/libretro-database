@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Family Computer Disk System"
 	description "Nintendo - Family Computer Disk System"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "fds|qd"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -115,12 +115,14 @@ game (
 game (
 	name "All Night Nippon Super Mario Bros. (Japan) (En) (Promo)"
 	region "Japan"
+	language "English"
 	serial "NSM"
 	rom ( name "All Night Nippon Super Mario Bros. (Japan) (En) (Promo).fds" size 65500 crc 43E7FE95 md5 C8719692D0B9D9649492FFB1C2D26AA3 sha1 F30BDD3C556604D7EAA6D0F4864D5566E519B5D4 serial "NSM" )
 )
 game (
 	name "All Night Nippon Super Mario Bros. (Japan) (En) (Promo)"
 	region "Japan"
+	language "English"
 	serial "NSM"
 	rom ( name "All Night Nippon Super Mario Bros. (Japan) (En) (Promo).qd" size 65536 crc CA2DD5C5 md5 535D05395E6772285F2E186524E9CD7E sha1 8B19934F93417FE63F7EEAB79D101294FB1CDB45 serial "NSM" )
 )
@@ -187,12 +189,14 @@ game (
 game (
 	name "Balloon Fight (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	serial "BFD"
 	rom ( name "Balloon Fight (Japan) (En) (Proto).fds" size 65500 crc 2724BA9A md5 2A9D1A67279AFBBCFB7CEAE8C8DFFC9B sha1 AD714F59AE654C3B83EBC578D0AC3647E72F5B0B serial "BFD" )
 )
 game (
 	name "Balloon Fight (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	serial "BFD"
 	rom ( name "Balloon Fight (Japan) (En) (Proto).qd" size 65536 crc DD7551A2 md5 413348AE0CF801D3DF02B76083F7DB11 sha1 82C2D79CC79BC6CEB593560B9C33A1E0AB7F0384 serial "BFD" )
 )
@@ -507,24 +511,28 @@ game (
 game (
 	name "Clu Clu Land (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "CLD"
 	rom ( name "Clu Clu Land (Japan) (En) (Disk Writer).fds" size 65500 crc 85E771B9 md5 A1802300B60961F7670F60ACEBC88842 sha1 DC1B3E6C0DB8D1AD94C619C310F47A28B7ADF884 serial "CLD" )
 )
 game (
 	name "Clu Clu Land (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "CLD"
 	rom ( name "Clu Clu Land (Japan) (En) (Disk Writer).qd" size 65536 crc 26229052 md5 B0D50BA037DCD55E7E0AB8DC067549E1 sha1 B03EB00ED01DD422024F980339E836D77674B132 serial "CLD" )
 )
 game (
 	name "Clu Clu Land (Japan) (En) (GameCube, Virtual Console)"
 	region "Japan"
+	language "English"
 	serial "CLD"
 	rom ( name "Clu Clu Land (Japan) (En) (GameCube, Virtual Console).fds" size 65500 crc 406EDD8D md5 78FA67C8F40D951082178F334FD6DC28 sha1 B7A73DF77DA83D60B6A64918FCACBABBC0DA72F1 serial "CLD" )
 )
 game (
 	name "Clu Clu Land (Japan) (En) (GameCube, Virtual Console)"
 	region "Japan"
+	language "English"
 	serial "CLD"
 	rom ( name "Clu Clu Land (Japan) (En) (GameCube, Virtual Console).qd" size 65536 crc 1FFC2364 md5 44D401F92E1DA528CA4A9D7083ACC9D2 sha1 E405AC41688F8804B8673E60C20AA1C522EF5D1C serial "CLD" )
 )
@@ -1796,12 +1804,14 @@ game (
 game (
 	name "Ice Climber (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "ICD"
 	rom ( name "Ice Climber (Japan) (En) (Disk Writer).fds" size 65500 crc 036A80DD md5 6110C726EE6BB2768CAA35DD77D1F025 sha1 7A599BE966E9918F826AAC5E13473E822F34B89C serial "ICD" )
 )
 game (
 	name "Ice Climber (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "ICD"
 	rom ( name "Ice Climber (Japan) (En) (Disk Writer).qd" size 65536 crc 897A6128 md5 C64DC4111D630FA84EB92C42FFC6226D sha1 E3C50AF9172023B3D6D7C14C64B70123D5E33FC3 serial "ICD" )
 )
@@ -2545,10 +2555,12 @@ game (
 )
 game (
 	name "NESert Golfing (World)"
+	region "World"
 	rom ( name "NESert Golfing (World) (Aftermarket) (Unl).fds" size 65500 crc 912CD8F8 md5 5FE8D15C7279B077BA7847BAA7E95A30 sha1 2BCF3D9836E390D28371823F4CBCBCA09CDB7677 )
 )
 game (
 	name "NESert Golfing (World) (v1.1)"
+	region "World"
 	rom ( name "NESert Golfing (World) (v1.1) (Aftermarket) (Unl).fds" size 65500 crc E9E99977 md5 C3AF62F622AA9C46D30FDF84EDF93DE6 sha1 D84CC8A87A9F078318385632FE91F8B0D36ADD19 )
 )
 game (
@@ -2625,11 +2637,15 @@ game (
 )
 game (
 	name "Nazo no Murasamejou (World) (Ja) (3DS Virtual Console)"
+	region "World"
+	language "Japanese"
 	serial "NMJ"
 	rom ( name "Nazo no Murasamejou (World) (Ja) (3DS Virtual Console).fds" size 131000 crc 1DF004F6 md5 79CD5B28438F0C1857C1029820B768BA sha1 C650D0BEF18014426AC0BDDD80659FEAEDD5C4E6 serial "NMJ" )
 )
 game (
 	name "Nazo no Murasamejou (World) (Ja) (3DS Virtual Console)"
+	region "World"
+	language "Japanese"
 	serial "NMJ"
 	rom ( name "Nazo no Murasamejou (World) (Ja) (3DS Virtual Console).qd" size 131072 crc D03CD1FC md5 1179661B9E4EA10E4068E23999DF3288 sha1 59ECBE786316CA5034D20AB4DE4836B1DEC4751E serial "NMJ" )
 )
@@ -2852,12 +2868,14 @@ game (
 game (
 	name "Pro Wres (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "PRO"
 	rom ( name "Pro Wres (Japan) (En).fds" size 65500 crc D6CE8AC6 md5 4123185940971B3B5F3BBD00CBE1FDF7 sha1 1CE6B58EC4EE95856012478687B6038279772B42 serial "PRO" )
 )
 game (
 	name "Pro Wres (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "PRO"
 	rom ( name "Pro Wres (Japan) (En).qd" size 65536 crc FA073482 md5 D3B48F6D6A07B9BD65CB9CEDF056D242 sha1 DA6C4FCF8DD93F285FEF40F6A3A67188B3A8363F serial "PRO" )
 )
@@ -3204,12 +3222,14 @@ game (
 game (
 	name "Soccer (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SCC"
 	rom ( name "Soccer (Japan) (En).fds" size 65500 crc 638B6903 md5 2BE4505173DF2936B7992030EC4A38E5 sha1 CCA20A3A0FEC86B9295D61AEF093741F3E248839 serial "SCC" )
 )
 game (
 	name "Soccer (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SCC"
 	rom ( name "Soccer (Japan) (En).qd" size 65536 crc 325F38E3 md5 D04BC38FB45CAAE440069E09CA971046 sha1 F9D4D060CC274296FD22E8AC446333179F0AD733 serial "SCC" )
 )
@@ -3366,57 +3386,67 @@ game (
 game (
 	name "Super Mario Bros. (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SMA"
 	rom ( name "Super Mario Bros. (Japan) (En).fds" size 65500 crc E0890CF2 md5 293303FE565DE2333BC1E4115D38FA3F sha1 383AD8E3890A95DE9595F0A6087648F51177DA13 serial "SMA" )
 )
 game (
 	name "Super Mario Bros. (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SMA"
 	rom ( name "Super Mario Bros. (Japan) (En).qd" size 65536 crc 39F4FA48 md5 1FA8712598DA89C7647BC91AAB023D98 sha1 6E3C157A3997462CAC006D353D5D267895B11E3E serial "SMA" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (Japan) (En).fds" size 65500 crc F04CD4CD md5 7F38210A8A2BEFB8D347523B4FF6AE7C sha1 20E50128742162EE47561DB9E82B2836399C880C serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (Japan) (En).qd" size 65536 crc D3A162B3 md5 3ACAB52C23FA0D3F59C4C94525A9AD9D sha1 ACBC81489250E8406CC59FD31B23852981690E7F serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En) (DV 2)"
 	region "Japan"
+	language "English"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (Japan) (En) (DV 2).fds" size 65500 crc 5C419EE8 md5 F62909AD7125ED94EF0FC1D44164A518 sha1 08927227B6FF67F42E759505D176CD924931BD14 serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En) (DV 2)"
 	region "Japan"
+	language "English"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (Japan) (En) (DV 2).qd" size 65536 crc B243E077 md5 BBB6F029224C60100A8F9B9E00309800 sha1 9E730E40FA3178DB96201004A9D85841EB8E2C74 serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.)"
 	region "Japan"
+	language "English"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.).fds" size 65500 crc 42B63CA5 md5 2A322BD3832945CF8D5F71644A9E2135 sha1 CB9FB99B7731ED05B81D4B6BAE06E0FBF8D21FA8 serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Mario Bros. 2 (Japan) (En) (Game & Watch - Super Mario Bros.).qd" size 65536 crc 32E837E8 md5 C0A3FB7B00E3A079D84BE3B97B47437D sha1 4A7173E9C4ED795E8AAAED3803C4C714954E1D0A )
 )
 game (
 	name "Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console)"
+	region "World"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console).fds" size 65500 crc 5D08DD11 md5 B210C0F117D46819CC81720FF521D762 sha1 B2DBC55EFCAE77ABAD6207B802C0A76D7A47ED0D serial "SMB" )
 )
 game (
 	name "Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console)"
+	region "World"
 	serial "SMB"
 	rom ( name "Super Mario Bros. 2 (World) (GameCube, Wii and Wii U Virtual Console).qd" size 65536 crc 378CB78C md5 11DDFC008E43FAED668D60255B0C33CE sha1 B47163160ED6925A95C3CC3DA0A5171F908D99EA serial "SMB" )
 )
@@ -3678,12 +3708,14 @@ game (
 game (
 	name "TwinBee (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "TWN"
 	rom ( name "TwinBee (Japan) (En) (Disk Writer).fds" size 65500 crc 4A5480E1 md5 087BC15B6C352F7B270B6ACE0FEECC2C sha1 96A8147AB43E4460D2E9B4893EB2902D23EDADF0 serial "TWN" )
 )
 game (
 	name "TwinBee (Japan) (En) (Disk Writer)"
 	region "Japan"
+	language "English"
 	serial "TWN"
 	rom ( name "TwinBee (Japan) (En) (Disk Writer).qd" size 65536 crc 98CFB5D5 md5 A92AD91DBD076520EF362D37A2B4B48B sha1 77C98383DED5A8196D781EEA5DE8669042827AA4 serial "TWN" )
 )
@@ -3762,24 +3794,28 @@ game (
 game (
 	name "Vs. Excitebike (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "EBD"
 	rom ( name "Vs. Excitebike (Japan) (En).fds" size 131000 crc FEBE1841 md5 8681DD0370E520D52274EBD5DD7EAC24 sha1 010F6DC860B0BAE80E55C199B3206E95EC14E31F serial "EBD" )
 )
 game (
 	name "Vs. Excitebike (Japan) (En)"
 	region "Japan"
+	language "English"
 	serial "EBD"
 	rom ( name "Vs. Excitebike (Japan) (En).qd" size 131072 crc 4E696A3E md5 D247370ADAAEF1DE945A1A0B780D1EF0 sha1 8D1F0B075BAAB83B6B0E836C7B8E328A06BC395B serial "EBD" )
 )
 game (
 	name "Vs. Excitebike (Japan, USA) (En) (Virtual Console)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "EBD"
 	rom ( name "Vs. Excitebike (Japan, USA) (En) (Virtual Console).fds" size 131000 crc A1A824BF md5 D07F5F79E9FD1CCDD219637EE630AEE6 sha1 080E960BC9C11DD0DA378776EA776B456348BC6A serial "EBD" )
 )
 game (
 	name "Vs. Excitebike (Japan, USA) (En) (Virtual Console)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	serial "EBD"
 	rom ( name "Vs. Excitebike (Japan, USA) (En) (Virtual Console).qd" size 131072 crc AA7D77B3 md5 6B23F38B8211E82CF5F9BC36B1FF3E7B sha1 C1975613787957CB4515061E7167091D0FCD69B6 serial "EBD" )
 )
