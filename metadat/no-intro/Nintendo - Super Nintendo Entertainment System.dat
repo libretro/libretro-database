@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Nintendo - Super Nintendo Entertainment System"
 	description "Nintendo - Super Nintendo Entertainment System"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin|sfc"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -18,14 +18,17 @@ game (
 )
 game (
 	name "16 BIT XMAS 2011 - Christmas Craze (World)"
+	region "World"
 	rom ( name "16 BIT XMAS 2011 - Christmas Craze (World) (Aftermarket) (Unl).sfc" size 524288 crc 5F7B6627 md5 0829EBFDE80E7A9673FE9966A8D47B0F sha1 7752CAA676D15D4D0C42F25548C3E86128A416DB )
 )
 game (
 	name "16 BIT XMAS 2011 - Christmas Craze (World)"
+	region "World"
 	rom ( name "16 BIT XMAS 2011 - Christmas Craze (World) (Aftermarket) (Unl) (Alt).sfc" size 524288 crc D23CA2D7 md5 1FEB26AE4AB5ADFE7ACB6847007D4B84 sha1 7B3FCB6F3CC80AE6A8BA496669944B2D9DCCB6BE )
 )
 game (
 	name "16 BIT XMAS 2012 - Snowball Fight (World)"
+	region "World"
 	rom ( name "16 BIT XMAS 2012 - Snowball Fight (World) (Aftermarket) (Unl).sfc" size 131072 crc DB518E68 md5 A3FB44EE8547ECC51B5D5FB890CE0EEF sha1 03241CA4455840420B5780E579C614F3F08EAB41 )
 )
 game (
@@ -40,6 +43,7 @@ game (
 )
 game (
 	name "2048 (World)"
+	region "World"
 	rom ( name "2048 (World) (Aftermarket) (Unl).sfc" size 262144 crc E155D6F4 md5 2916B01B0A060273025E26E8840BF1E1 sha1 DCD21154E75F269C9118616CA04CD6EBC9239775 )
 )
 game (
@@ -50,11 +54,13 @@ game (
 game (
 	name "3-jigen Kakutou Ballz (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "3-jigen Kakutou Ballz (Japan) (En).sfc" size 1048576 crc F0810694 md5 5403A00958BCB9A3D3FD714C48115E7E sha1 0CACA71401B96B3AB42EC89E9BCF7AF82B1BD3D4 )
 )
 game (
 	name "3-jigen Kakutou Ballz (Japan) (En) (Sample)"
 	region "Japan"
+	language "English"
 	rom ( name "3-jigen Kakutou Ballz (Japan) (En) (Sample).sfc" size 1048576 crc FFF8C139 md5 56F5C0F9559AE498E5C1FC0AF59A6C97 sha1 39AB72CFCB4B14129574069CCE200DE63F26CC8B )
 )
 game (
@@ -141,6 +147,7 @@ game (
 game (
 	name "Acrobat Mission (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Acrobat Mission (Japan) (En).sfc" size 1048576 crc 0DA18A10 md5 445B931E1D09A24CDD467720A641B8E7 sha1 9D48223F671C372BE0AED43C51EC65E9B3CF59DB )
 )
 game (
@@ -196,21 +203,25 @@ game (
 game (
 	name "Actraiser 2 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Actraiser 2 (Europe) (En,Fr,De).sfc" size 1572864 crc 630E16A1 md5 177C67125038A6B0AF1D5B47C9865E7E sha1 6CB1B7F7E904D4C1681647F10E3D1A89A44B89B6 )
 )
 game (
 	name "Addams Family Values (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Addams Family Values (Europe) (En,Fr,De).sfc" size 2097152 crc AE38ADB6 md5 4A34AB48CC89B871D7B3E4C15FEDF2B6 sha1 1F4DE5B9FF27CA58A451E5CBCC43EF0AB1EFD015 )
 )
 game (
 	name "Addams Family Values (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	rom ( name "Addams Family Values (USA) (En,Fr,De).sfc" size 2097152 crc 98B07DB8 md5 7E52067E9CB3E6A190272A9D1D75A9AF sha1 24848E53E32CC16A30ACCE48D40CE09C37B669C4 )
 )
 game (
 	name "Addams Family, The (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Addams Family, The (Europe) (En,Fr,De).sfc" size 1048576 crc 82497F19 md5 1687307B1E71AEDFEBCF60810CA93DA6 sha1 BC67E9A2632F751472E9F91E7E8ED2046A043DAC )
 )
 game (
@@ -256,6 +267,7 @@ game (
 game (
 	name "Adventures of Dr. Franken, The (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	rom ( name "Adventures of Dr. Franken, The (Europe) (En,Fr,De,Es,It,Nl,Sv).sfc" size 1048576 crc E4925F15 md5 2A1E41A27C859E9DCBAEA55A6611FFAB sha1 715223E622579F9E94FE00B0E3BDD6D9CE3CA9F9 )
 )
 game (
@@ -266,6 +278,7 @@ game (
 game (
 	name "Adventures of Kid Kleets, The (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Adventures of Kid Kleets, The (USA) (En,Fr,Es).sfc" size 1310720 crc 1664AE48 md5 5A5F9F82B366700ECAAD6465966FDE3F sha1 AB1BC78DC622E746262F6CF7B4D248449FBC9509 )
 )
 game (
@@ -305,6 +318,7 @@ game (
 )
 game (
 	name "Aero the Acro-Bat (World) (Evercade)"
+	region "World"
 	rom ( name "Aero the Acro-Bat (World) (Evercade).sfc" size 1048576 crc 69CB4875 md5 17DADEAD27B05853459B205F2028AD9C sha1 67E3B9429FDB29FF0812806C94F6E53138C983AE )
 )
 game (
@@ -313,9 +327,19 @@ game (
 	rom ( name "Aero the Acro-Bat 2 (Europe).sfc" size 2097152 crc 242B8181 md5 8CDAE9F521E26EBECDFF4148AD3D0C88 sha1 1597E2CFDFDB0AB4671C4F3549208A5B11D52A8A )
 )
 game (
+	name "Aero the Acro-Bat 2 (Japan) (Switch)"
+	region "Japan"
+	rom ( name "Aero the Acro-Bat 2 (Japan) (Switch).sfc" size 2621440 crc F37C17C1 md5 D84C5C88F49DABF80A871414416D1DAE sha1 B9C09A615A2BABDF848E58A54094F5E70EF80A06 )
+)
+game (
 	name "Aero the Acro-Bat 2 (USA)"
 	region "USA"
 	rom ( name "Aero the Acro-Bat 2 (USA).sfc" size 2097152 crc 8C05ED51 md5 85B449F98AF752E3255A256B6A89BB16 sha1 2DDBFF8F227024806CA456C0FFE96DEF2713A9AA )
+)
+game (
+	name "Aero the Acro-Bat 2 (USA) (Switch)"
+	region "USA"
+	rom ( name "Aero the Acro-Bat 2 (USA) (Switch).sfc" size 2097152 crc 3FF9743B md5 99FB6203D5D8843A8D5F9614CB8FF82C sha1 1C97B49D362B37CFFDB8A2492CB33FAA44986B6D )
 )
 game (
 	name "Aerobiz (USA)"
@@ -439,6 +463,7 @@ game (
 )
 game (
 	name "Aladdin (World) (Disney Classic Games)"
+	region "World"
 	rom ( name "Aladdin (World) (Disney Classic Games).sfc" size 1572864 crc C997AED1 md5 96D395B194695181FA249B88FA410412 sha1 D7A402FE9EADFED99EA2DEFD8D8AC09117C43CE7 )
 )
 game (
@@ -498,10 +523,12 @@ game (
 )
 game (
 	name "Alien Cat 2 (World) (Evercade)"
+	region "World"
 	rom ( name "Alien Cat 2 (World) (Evercade) (Aftermarket) (Unl).sfc" size 1048576 crc C8098944 md5 9F9D721B501F08A41F146CA899A567F0 sha1 B30EEAEB5679F0B20E9BE10D1B5A2D0E1291ED9B )
 )
 game (
 	name "Alien Cat 2 (World) (v1.1) (Evercade)"
+	region "World"
 	rom ( name "Alien Cat 2 (World) (v1.1) (Evercade) (Aftermarket) (Unl).sfc" size 1048576 crc 27DDEEC1 md5 18F20F55640CF34A77883576AAE82B7D sha1 CA081B5FDB3140336ABA9393575B60534F41E1F2 )
 )
 game (
@@ -532,6 +559,7 @@ game (
 game (
 	name "Amazing Tennis (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Amazing Tennis (Japan) (En).sfc" size 1048576 crc 72839930 md5 4C642F44700DC03C80918342001A6816 sha1 C8FF99628FEFE14AE2E9ADE3564A4D255A8F9B4C )
 )
 game (
@@ -567,6 +595,7 @@ game (
 game (
 	name "Andre Agassi Tennis (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Andre Agassi Tennis (Japan) (En).sfc" size 524288 crc D9879A39 md5 16607EA102E62021F127D081D97CF24B sha1 0916428789C5CDFD7B92504F7AE5DC7782F9F9E5 )
 )
 game (
@@ -591,14 +620,17 @@ game (
 )
 game (
 	name "Angelsong (World) (v1.1)"
+	region "World"
 	rom ( name "Angelsong (World) (v1.1) (Aftermarket) (Unl).sfc" size 262144 crc F965D542 md5 853643C5AE2CF38E9CFA474C1CA2C7F4 sha1 DA302D2144858EA877D2C09610672CA2E3E73447 )
 )
 game (
 	name "Angelsong (World) (v1.2) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Angelsong (World) (v1.2) (SNESDEV 2025) (Aftermarket) (Unl).sfc" size 262144 crc 667B31FB md5 12483927D4F0CDE3FA666738B879124F sha1 16C4ADF8C2F2D4480B406286AB09B5B5B68159E9 )
 )
 game (
 	name "Angelsong (World) (v1.4)"
+	region "World"
 	rom ( name "Angelsong (World) (v1.4) (Aftermarket) (Unl).sfc" size 262144 crc C9596C5E md5 15B748081BD08161EE25150BDBA3D03D sha1 D06FE1D33B03137FF447F18FB0E1CA8B9DF30F6C )
 )
 game (
@@ -734,6 +766,7 @@ game (
 game (
 	name "Arkanoid - Doh It Again (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Arkanoid - Doh It Again (Japan) (En).sfc" size 524288 crc 7A8BBAFA md5 2CDBA2EA2369BFE29E9B5C59A04C8F8E sha1 03F839819A253EED9A928D8D7CC80FCC245AB23D )
 )
 game (
@@ -788,20 +821,25 @@ game (
 )
 game (
 	name "Assault Suits Valken (World) (En) (Switch)"
+	region "World"
+	language "English"
 	rom ( name "Assault Suits Valken (World) (En) (Switch).sfc" size 1572864 crc C0DA0170 md5 7BD97DFCBD856AF4E8A98632CF8E3B11 sha1 4F73754563799EF077F9F8FC182285B08B3C8E28 )
 )
 game (
 	name "Asterix & Obelix (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Asterix & Obelix (Europe) (En,Fr,De,Es).sfc" size 1572864 crc 83AF6152 md5 77BF37A9A6779A1D7E109BC1A707ECD1 sha1 BFEA708EE5E733640D1AE1A5F72CA1F0BDA95DED )
 )
 game (
 	name "Asterix (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Asterix (Europe) (En,Fr,De,Es).sfc" size 524288 crc 5DDEDC28 md5 B4FC60315646BFB9280D7EDC4E59B5CC sha1 D684958DA04B909661371D7D5B657A6BEB213629 )
 )
 game (
 	name "Astrohawk (World)"
+	region "World"
 	rom ( name "Astrohawk (World) (Unl).sfc" size 786432 crc 183E3BBF md5 E0061C14BF01B138CF6DA6A2E073C3FE sha1 09FD2D689305E93355C660F09E352D32F1246141 )
 )
 game (
@@ -871,14 +909,17 @@ game (
 )
 game (
 	name "BLT (World)"
+	region "World"
 	rom ( name "BLT (World) (Aftermarket) (Unl).sfc" size 262144 crc 8C7FAEE4 md5 51F3C9D06A3CCDD683C953BF57B0D6B9 sha1 03FA6293F83D3AF717A9EC8A29B10501460A0A5F )
 )
 game (
 	name "BLT (World) (Demo 1)"
+	region "World"
 	rom ( name "BLT (World) (Demo 1) (Aftermarket) (Unl).sfc" size 262144 crc 75F193F0 md5 4839BD9545086A33FE81CFB18B52DB2D sha1 35420235EEE48C138EE823AC42D1ED8DF7F45D38 )
 )
 game (
 	name "BLT (World) (Demo 2)"
+	region "World"
 	rom ( name "BLT (World) (Demo 2) (Aftermarket) (Unl).sfc" size 262144 crc DA63D27F md5 3E22AA87899DEDFA1D34BA5805999BF6 sha1 189AC6C9130CE55D59449D7260C8EB1291C7A3D0 )
 )
 game (
@@ -919,6 +960,7 @@ game (
 game (
 	name "Bananas de Pijamas (Peru) (En) (Pirate)"
 	region "Peru"
+	language "English"
 	rom ( name "Bananas de Pijamas (Peru) (En) (Pirate).sfc" size 1048576 crc 52B0D84B md5 38BACE8688B9962E2F90B294E0E4956B sha1 149E916DFD4058F8DE97D7BC8F74D5E630853FFB )
 )
 game (
@@ -949,6 +991,7 @@ game (
 game (
 	name "Barkley no Power Dunk (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Barkley no Power Dunk (Japan) (En).sfc" size 1572864 crc 8AFF96D0 md5 3CBBB9E3ABD7D472C640E48FF5E1A2A2 sha1 EAAA4E4D6316DF1E71E1B2A9C81911B52765AD56 )
 )
 game (
@@ -979,6 +1022,7 @@ game (
 game (
 	name "Batman Forever (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Batman Forever (Japan) (En).sfc" size 3145728 crc 903348F5 md5 1F6E673B34E85484C98BAAD37284AFA8 sha1 07CC822E9CA7040AF19491BD75DCC18D8641E3CF )
 )
 game (
@@ -999,6 +1043,7 @@ game (
 game (
 	name "Batman Returns (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Batman Returns (Japan) (En).sfc" size 1048576 crc 5BED3661 md5 672B5C06058EE8D1C28AE36B44EB1D12 sha1 EA430D7190D3D40C220F0C972B013EC5E99AEDE1 )
 )
 game (
@@ -1009,6 +1054,7 @@ game (
 game (
 	name "Battle Blaze (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Battle Blaze (Japan) (En).sfc" size 1048576 crc B9CD2FF3 md5 48F9FADE9361D8188AB27CAE6D14309F sha1 E486B107AFCC50D3C5B2C33FA5840BD16EF705C2 )
 )
 game (
@@ -1023,6 +1069,7 @@ game (
 )
 game (
 	name "Battle Cars (World) (Evercade)"
+	region "World"
 	rom ( name "Battle Cars (World) (Evercade).sfc" size 1572864 crc 9CD27606 md5 16A20D2F340371DBB69B4101753D2BC3 sha1 7D733217FC281E6B905B8EFDAE5A722077DA27AD )
 )
 game (
@@ -1058,6 +1105,7 @@ game (
 game (
 	name "Battle Grand Prix (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Battle Grand Prix (Japan) (En).sfc" size 1048576 crc 8B8AFD6F md5 45CE349BD342D6131CD6CCD36BA996B9 sha1 2DBA76455C864273FAC853C1592AF9132685A753 )
 )
 game (
@@ -1167,7 +1215,7 @@ game (
 )
 game (
 	name "Battletoads-Double Dragon (USA, Europe) (Retro-Bit)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Battletoads-Double Dragon (USA, Europe) (Retro-Bit).sfc" size 1048576 crc F7433E03 md5 F827FFBDA26A32617A32136D090050CE sha1 B392D00F78E04A35E1C95C1EB5F11BDD0D843EFA )
 )
 game (
@@ -1298,6 +1346,7 @@ game (
 game (
 	name "BioMetal (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "BioMetal (Japan) (En).sfc" size 1048576 crc 8BA3D382 md5 FD4CC301D2B5853091A84F2C6354BB23 sha1 9B1277BE93AA06C9C0A2ECAE99C5C357FFC5C879 )
 )
 game (
@@ -1368,6 +1417,7 @@ game (
 game (
 	name "BlaZeon (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "BlaZeon (Japan) (En).sfc" size 1048576 crc AD2EFFC3 md5 738BDA0D92DD3DCD6C4B0D65A957E01E sha1 B59E45C1B885FB67C9E0964E3DACCC69D809ED63 )
 )
 game (
@@ -1378,6 +1428,7 @@ game (
 game (
 	name "Blackhawk (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Blackhawk (Europe) (En,Fr,De).sfc" size 1048576 crc 2D1DD10A md5 0500E7DFF0ACB5B86E4909B7DDD41A76 sha1 27EB4C70ECDA592A0473AA8C68B424FF0CCB7413 )
 )
 game (
@@ -1393,6 +1444,7 @@ game (
 game (
 	name "Blanco World Class Rugby (France) (En)"
 	region "France"
+	language "English"
 	rom ( name "Blanco World Class Rugby (France) (En).sfc" size 524288 crc 8EFFC2D4 md5 92FE34E7F0101296325354BE2D67AF2F sha1 D34E903870AB0FA1B15B992696A9497AFDC3183F )
 )
 game (
@@ -1418,6 +1470,7 @@ game (
 game (
 	name "Blues Brothers, The (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Blues Brothers, The (Japan) (En).sfc" size 524288 crc 362620D2 md5 31E4B7AE3C269859D93357CD241C0BD0 sha1 BD052490D6D57B92841FE4E97EDDAA159E660D78 )
 )
 game (
@@ -1472,10 +1525,12 @@ game (
 )
 game (
 	name "Boogerman - A Pick and Flick Adventure (World) (Evercade)"
+	region "World"
 	rom ( name "Boogerman - A Pick and Flick Adventure (World) (Evercade).sfc" size 3145728 crc EF7C3B9D md5 AC1E0FF7E8769AC7DBA59C816469C38D sha1 F3276EE68E5D5BB9C89C95B1811E7EE9CC406E2E )
 )
 game (
 	name "Borderline (World)"
+	region "World"
 	rom ( name "Borderline (World) (Aftermarket) (Unl).sfc" size 524288 crc B1154EC9 md5 2DAD0EAAF23F6A764DF02B0E25F3E528 sha1 17BEC86EB5592BCC0644B69729581E3D225DB631 )
 )
 game (
@@ -1550,6 +1605,7 @@ game (
 )
 game (
 	name "Brawl Brothers (World) (Evercade)"
+	region "World"
 	rom ( name "Brawl Brothers (World) (Evercade).sfc" size 1572864 crc 93356B76 md5 EB1AA51369F39224F47507F562CF6F39 sha1 1ABFA5DA05FBC96D94CEBF9143ABA59107AD09F2 )
 )
 game (
@@ -1574,7 +1630,7 @@ game (
 )
 game (
 	name "Breath of Fire (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Breath of Fire (USA, Europe) (Switch Online).sfc" size 1572864 crc 51FC2638 md5 918732FE0D7B7349B7D75AD8878125D5 sha1 619098C6531504B6815F6CD629BCDF94ACD772AC )
 )
 game (
@@ -1604,7 +1660,7 @@ game (
 )
 game (
 	name "Breath of Fire II (USA, Europe) (Virtual Console, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Breath of Fire II (USA, Europe) (Virtual Console, Switch Online).sfc" size 3145728 crc 6FD722FF md5 7933CAC3CA64DE83D6ADDFE1A9D19159 sha1 4A5019ECDAE118B34DE3F4C7B226CE0922A441A8 )
 )
 game (
@@ -1640,6 +1696,7 @@ game (
 game (
 	name "Bronkie the Bronchiasaurus (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	rom ( name "Bronkie the Bronchiasaurus (USA) (En,Es).sfc" size 1048576 crc 1200F3CF md5 41888F7CF544899C51D2EC5CCFDF95D7 sha1 139ADA7133889126735440968AD58F47FA93A341 )
 )
 game (
@@ -1650,6 +1707,7 @@ game (
 game (
 	name "Brutal - Paws of Fury (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Brutal - Paws of Fury (Europe) (En,Fr,De).sfc" size 2097152 crc 2F6326B1 md5 D29E885781069B6E403CA1F22B30D619 sha1 1947419EACBBE7EB5B5F775763E9A67ABA6ADF4A )
 )
 game (
@@ -1669,7 +1727,13 @@ game (
 )
 game (
 	name "Bubsy II (World) (Steam)"
+	region "World"
 	rom ( name "Bubsy II (World) (Steam).sfc" size 2097152 crc 9582F89F md5 B7DCD461C6C7E97E4254DAF0888B27C3 sha1 1F4CB2040B793179D5BA219D366363816558306B )
+)
+game (
+	name "Bubsy II (World) (The Purrfect Collection)"
+	region "World"
+	rom ( name "Bubsy II (World) (The Purrfect Collection).sfc" size 2097152 crc DA10BCA5 md5 BF457C617FE0FA2EDE2C51AFE011A28C sha1 D7EE2CB172AD6E8EA3604A4A2C1A02487719EF7A )
 )
 game (
 	name "Bubsy in - Claws Encounters of the Furred Kind (Europe)"
@@ -1679,6 +1743,7 @@ game (
 game (
 	name "Bubsy in - Claws Encounters of the Furred Kind (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Bubsy in - Claws Encounters of the Furred Kind (Germany) (En).sfc" size 2097152 crc AB124BE7 md5 FD412F4C8AA847C61A8F0304F97881B6 sha1 AE715A18088B13AE3F673A30725804D83100B50E )
 )
 game (
@@ -1688,10 +1753,17 @@ game (
 )
 game (
 	name "Bubsy in - Claws Encounters of the Furred Kind (World) (Steam)"
+	region "World"
 	rom ( name "Bubsy in - Claws Encounters of the Furred Kind (World) (Steam).sfc" size 2097152 crc C19F0876 md5 8CBA8604CF93352DBF518592F67204C1 sha1 E6BAD5B0708B16D898BA3FE848BAA5451824F3AA )
 )
 game (
+	name "Bubsy in - Claws Encounters of the Furred Kind (World) (The Purrfect Collection)"
+	region "World"
+	rom ( name "Bubsy in - Claws Encounters of the Furred Kind (World) (The Purrfect Collection).sfc" size 2097152 crc 2526FD7A md5 DA9E1BA86705DE2A09DBED9C69E0BCED sha1 6E461B93F82D2C7271E92DF080ED98F86E0AF0F9 )
+)
+game (
 	name "Bucket (World)"
+	region "World"
 	rom ( name "Bucket (World) (Aftermarket) (Unl).sfc" size 262144 crc B7AE6B77 md5 812A7B9537CCD8DC3A07715A40A5A7CD sha1 69EC7A07F896BB67988999D26B351A75DBD02E92 )
 )
 game (
@@ -1756,6 +1828,7 @@ game (
 )
 game (
 	name "CX4 (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "CX4 (World) (Enhancement Chip).bin" size 3072 crc B6E76A6A md5 037AC4296B6B6A5C47C440188D3C72E3 sha1 A002F4EFBA42775A31185D443F3ED1790B0E949A )
 )
 game (
@@ -1781,11 +1854,13 @@ game (
 game (
 	name "California Games II (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "California Games II (Europe) (En,Fr,De).sfc" size 1048576 crc DB0814C5 md5 8609BF5BEEE058D2B7C5C0C8A0E0C7D7 sha1 EF5D5F99FB7BB180A283AAB9B5C584D2473426DC )
 )
 game (
 	name "California Games II (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "California Games II (Japan) (En,Ja).sfc" size 1048576 crc 5FA9485C md5 525BC3122D7332370889F0ECAB46D2ED sha1 2037C554635F5E870D6BA564CF24124AED417F6B )
 )
 game (
@@ -1851,6 +1926,7 @@ game (
 game (
 	name "Captain Novolin (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Captain Novolin (USA) (En,Fr,Es).sfc" size 524288 crc 9FD460A4 md5 006FA55E70348B2020D1ACF0C4A02C3A sha1 72CFB569819DA4E799BF8FA1A6F023664CC7069B )
 )
 game (
@@ -1876,6 +1952,7 @@ game (
 game (
 	name "Caravan Shooting Collection (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Caravan Shooting Collection (Japan) (En).sfc" size 524288 crc 8675B9DF md5 FDAE2214E02F47E0885DB8F2A271E128 sha1 13808EEBEC3727DD436444A5EA34C061F7B6B5D5 )
 )
 game (
@@ -1891,6 +1968,7 @@ game (
 game (
 	name "Carrier Aces (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Carrier Aces (Japan) (En).sfc" size 2097152 crc 89B31066 md5 C1E02B9006490B381739FCB97070B10A sha1 5A7CF0B3BCAD9CE270C6D903AE8602EA6309138E )
 )
 game (
@@ -1900,10 +1978,12 @@ game (
 )
 game (
 	name "Carrot Man and The Great Garden Getaway (World) (Proto) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Carrot Man and The Great Garden Getaway (World) (Proto) (SNESDEV 2025) (NTSC) (Aftermarket) (Unl).sfc" size 262144 crc 0A7BD0CF md5 830FA7362F135444E356E1A9712E36AE sha1 AC6E8D4EF165DE55E781CD28A118AF4F803E9C35 )
 )
 game (
 	name "Carrot Man and The Great Garden Getaway (World) (Proto) (SNESDEV 2025) (PAL)"
+	region "World"
 	rom ( name "Carrot Man and The Great Garden Getaway (World) (Proto) (SNESDEV 2025) (PAL) (Aftermarket) (Unl).sfc" size 262144 crc E6980711 md5 2F878FADB40EE97D57556704621F0DC0 sha1 6F8BC2162BDBF1BA85A36AEDAD4BF8FFBA728A9D )
 )
 game (
@@ -1944,6 +2024,7 @@ game (
 game (
 	name "Champions - World Class Soccer (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Champions - World Class Soccer (Europe) (En,Fr,De,Es).sfc" size 1048576 crc D89C8156 md5 8E76A5E840D694C29B239F6483B646B0 sha1 7CB016AE25D4377F9AABC1825AB5ECAB05BF28E3 )
 )
 game (
@@ -1954,6 +2035,7 @@ game (
 game (
 	name "Champions - World Class Soccer (USA) (En,Fr,De,Es)"
 	region "USA"
+	language "English / French / German / Spanish"
 	rom ( name "Champions - World Class Soccer (USA) (En,Fr,De,Es).sfc" size 1048576 crc BCD59D08 md5 6C28BAC6C9D6D554782940F8D95B2391 sha1 573B316E5B08F47DC0C8E339E2DC3101C4F74AFC )
 )
 game (
@@ -1969,6 +2051,7 @@ game (
 game (
 	name "Championship Soccer '94 (USA) (En,Fr,De,It)"
 	region "USA"
+	language "English / French / German / Italian"
 	rom ( name "Championship Soccer '94 (USA) (En,Fr,De,It).sfc" size 524288 crc 6B953095 md5 E268853CE1A8F8921FD3A3382668DAAD sha1 94FE929852CF0794F64A58D689ACCF7ABEECC40B )
 )
 game (
@@ -1993,6 +2076,7 @@ game (
 )
 game (
 	name "Chaos Engine, The (World) (Evercade)"
+	region "World"
 	rom ( name "Chaos Engine, The (World) (Evercade).sfc" size 1572864 crc D61B2178 md5 EAC6C943728F5409AF8F27E00F203BF4 sha1 76D4D51D7C4DF7B812D5A64EBAD913B8DD18E296 )
 )
 game (
@@ -2003,11 +2087,13 @@ game (
 game (
 	name "Chavez (USA) (Es)"
 	region "USA"
+	language "Spanish"
 	rom ( name "Chavez (USA) (Es).sfc" size 524288 crc A9D604EA md5 2114D08F617EAAD8C6E08E9E8EBAFCB1 sha1 856C5C858B278E97DF7B41828FBD757D7E0C0321 )
 )
 game (
 	name "Chavez II (USA) (Es)"
 	region "USA"
+	language "Spanish"
 	rom ( name "Chavez II (USA) (Es).sfc" size 1048576 crc 86981887 md5 7F20A2E7A299BE4C65A8B773C92F8B9E sha1 12B8E3A04CBAC7DE8181A5EBB8546489A5DF0937 )
 )
 game (
@@ -2052,6 +2138,7 @@ game (
 )
 game (
 	name "Chips Challenge (World) (Itch.io)"
+	region "World"
 	rom ( name "Chips Challenge (World) (Itch.io) (Aftermarket) (Unl).sfc" size 1048576 crc CE7CD57F md5 C1B0663449D2E992145A54DFCFC3FE4C sha1 8CCECFD7875A5DB7C405ADDDE3D75DA1A9C27236 )
 )
 game (
@@ -2062,6 +2149,7 @@ game (
 game (
 	name "Choplifter III - Rescue-Survive (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Choplifter III - Rescue-Survive (Japan) (En).sfc" size 524288 crc AD26CC9E md5 E084FFEC81B78B8962CAA8343B66FB34 sha1 1D5C4FA1B2638591F1F61D8CCC0855C0077BD8C0 )
 )
 game (
@@ -2107,6 +2195,7 @@ game (
 game (
 	name "Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Choujikuu Yousai Macross - Scrambled Valkyrie (Japan) (En).sfc" size 1048576 crc A5DB02E9 md5 E11C1D923EA1B2F6A00E5886AA6B6202 sha1 459A727AEEB013CD1B63F54D4A2355C2F0A1999F )
 )
 game (
@@ -2137,6 +2226,7 @@ game (
 game (
 	name "Circuit USA (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Circuit USA (Japan) (En).sfc" size 2097152 crc 5A13366C md5 8DE0DAFB21A7B1B92D13E956BFCAB124 sha1 AF6FA1E5EE95DF9353ECE8C5A90735785DE88B99 )
 )
 game (
@@ -2146,14 +2236,17 @@ game (
 )
 game (
 	name "Classic Kong (World)"
+	region "World"
 	rom ( name "Classic Kong (World) (Aftermarket) (Unl).sfc" size 262144 crc B068407D md5 248E86C8EA3D24C5A7EF26B7AD680321 sha1 241B3247039D3E5E269A0F878D0021419A2A9D3D )
 )
 game (
 	name "Classic Kong Complete (World) (v2.0)"
+	region "World"
 	rom ( name "Classic Kong Complete (World) (v2.0) (Aftermarket) (Unl).sfc" size 262144 crc BDC32AD8 md5 711828DFF9641140F57D23EA82799AF4 sha1 ABAC92CCC09E4E21B45DA3104BBE3D28B6C0BB24 )
 )
 game (
 	name "Classic Kong Complete (World) (v2.01)"
+	region "World"
 	rom ( name "Classic Kong Complete (World) (v2.01) (Aftermarket) (Unl).sfc" size 262144 crc 8FA368BE md5 34109A821497C892B2BBA264ACEE2045 sha1 33879E1A173B6F3A9E3DEB160F6DEF1DDEB38463 )
 )
 game (
@@ -2178,6 +2271,7 @@ game (
 )
 game (
 	name "Clay Fighter (World) (Evercade)"
+	region "World"
 	rom ( name "Clay Fighter (World) (Evercade) (Fixed).sfc" size 3145728 crc 85322FE3 md5 5C3DDB2A03021AC442311656EBE583E8 sha1 1AE2D9936DFE47989A3A1C2445320A776EB79D57 )
 )
 game (
@@ -2197,6 +2291,7 @@ game (
 )
 game (
 	name "Clay Fighter 2 - Judgment Clay (World) (Evercade)"
+	region "World"
 	rom ( name "Clay Fighter 2 - Judgment Clay (World) (Evercade) (Fixed).sfc" size 3145728 crc AC124DB3 md5 61EF3E3FA983C6ECC8621C66136DBD01 sha1 74C73FD9D4B2337CFB8E2575F88E51E7D2EEFDE2 )
 )
 game (
@@ -2211,6 +2306,7 @@ game (
 )
 game (
 	name "Claymates (World) (Evercade)"
+	region "World"
 	rom ( name "Claymates (World) (Evercade).sfc" size 1048576 crc 296720A1 md5 3894EE329ACDDDDAF192E98AE03AD52A sha1 7B6B71604791CBE9EFF7A206C4FFAE6BB6AC1CDE )
 )
 game (
@@ -2285,26 +2381,36 @@ game (
 )
 game (
 	name "Contra (World) (En) (REV-D) (NES Conversion)"
+	region "World"
+	language "English"
 	rom ( name "Contra (World) (En) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc D102B4D4 md5 BB531E4C36696177D262A942A60004DB sha1 D3F094DE3FF80453A08197C59D7DCA813D8E84CD )
 )
 game (
 	name "Contra (World) (Ja) (REV-B) (NES Conversion)"
+	region "World"
+	language "Japanese"
 	rom ( name "Contra (World) (Ja) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc E7903D3F md5 AFAB6237DC9088144D5D9416B77AB61A sha1 1F34DC4265365D20CEA7AC42885D8B1456DAA4C0 )
 )
 game (
 	name "Contra (World) (Ja) (REV-C) (NES Conversion)"
+	region "World"
+	language "Japanese"
 	rom ( name "Contra (World) (Ja) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 115A4DFE md5 4B986427C05DF38EBCFC9E470FA62597 sha1 ABAF42C31BDD9D9BFFF2B67A4DC70559B115095E )
 )
 game (
 	name "Contra (World) (Ja) (REV-D) (NES Conversion)"
+	region "World"
+	language "Japanese"
 	rom ( name "Contra (World) (Ja) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 0168C3E9 md5 9DF3F65B48383CB8B249829CEA2D0B94 sha1 34951DEFC2527AF4A29BED73F2D258FB457BA3A6 )
 )
 game (
 	name "Contra Force (World) (Proto 1) (NES Conversion)"
+	region "World"
 	rom ( name "Contra Force (World) (Proto 1) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 69989684 md5 9AA031FC12CB47BA48234E0744058AF1 sha1 8CDF278632BCF9CCA0A78D760918280793569762 )
 )
 game (
 	name "Contra Force (World) (Proto 2) (NES Conversion)"
+	region "World"
 	rom ( name "Contra Force (World) (Proto 2) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc E2060F4B md5 17F28D75F7F4CB9406E2EB8D36794D97 sha1 4F08E6E3045CE2F8DBF0F333FF24A97A2375AFCC )
 )
 game (
@@ -2319,6 +2425,7 @@ game (
 )
 game (
 	name "Contra III - The Alien Wars (World) (Contra Anniversary Collection)"
+	region "World"
 	rom ( name "Contra III - The Alien Wars (World) (Contra Anniversary Collection).sfc" size 1048576 crc 6128275A md5 EE8D967297A0BDB4661CD6BF70C383F8 sha1 BADDFEC9F565E2083BAC06DFDCD527FD869BB778 )
 )
 game (
@@ -2328,11 +2435,13 @@ game (
 )
 game (
 	name "Contra Spirits (World) (Contra Anniversary Collection)"
+	region "World"
 	rom ( name "Contra Spirits (World) (Contra Anniversary Collection).sfc" size 1048576 crc 8B037C37 md5 3C6BFE38D0DDE432804C0C64DB48578F sha1 1E822C00CC87FA2CE0919B8BCF55D243599F99A1 )
 )
 game (
 	name "Controller Test Cassette (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Controller Test Cassette (Japan) (En).sfc" size 131072 crc EDF7EBB9 md5 64934A22A04D044C4D6B295CDFBBA89E sha1 B93C39C683BA3BE4C8F7B4FC120444FE0510568E )
 )
 game (
@@ -2368,6 +2477,7 @@ game (
 game (
 	name "Copa Libertadores 3 (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Copa Libertadores 3 (Peru) (Es) (Pirate).sfc" size 524288 crc 0FBC1145 md5 DCEDDC76526C05DDD01C7B6896D4C0A2 sha1 6A11AED1D7EA28A9F0ADE1C3156C49D4688F0239 )
 )
 game (
@@ -2398,6 +2508,7 @@ game (
 game (
 	name "Crash Dummy - Dr. Zabu o Sukuidase (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Crash Dummy - Dr. Zabu o Sukuidase (Japan) (En).sfc" size 1048576 crc C3BC16D5 md5 ECB903B1CD2358AE4C6886EBF371C595 sha1 8EB6827C4CA660233F52567559B72F611FE39FE2 )
 )
 game (
@@ -2412,14 +2523,17 @@ game (
 )
 game (
 	name "Creepy Bird (World)"
+	region "World"
 	rom ( name "Creepy Bird (World) (Aftermarket) (Unl).sfc" size 262144 crc D9BCE9A7 md5 E8EFB980E592024BAE1ED10A50B94041 sha1 22BDED1200764E571863770EE444EFB7EB30D61C )
 )
 game (
 	name "Creepy Bird (World) (v1.02) (Digital)"
+	region "World"
 	rom ( name "Creepy Bird (World) (v1.02) (Digital) (Aftermarket) (Unl).sfc" size 262144 crc 707C5E8B md5 CEFA0AC385EFA80E6E842B51C7E77B5F sha1 AAB7AC18B1168DBF2CD698538C0EED31565736CB )
 )
 game (
 	name "Creepy Bird (World) (v1.02) (Digital) (Retro-Bit Generations)"
+	region "World"
 	rom ( name "Creepy Bird (World) (v1.02) (Digital) (Retro-Bit Generations) (Aftermarket) (Unl).sfc" size 262144 crc EA58B25E md5 276E236DD341F464C57722E88EB640B4 sha1 35350EBF97DE1844CE5B7D1A2A252CF6759D2188 )
 )
 game (
@@ -2444,6 +2558,7 @@ game (
 )
 game (
 	name "Cute Angela (World)"
+	region "World"
 	rom ( name "Cute Angela (World) (Unl).sfc" size 1048576 crc 30A73CE4 md5 412391A6CA0917E45E7AF9A8EE5AD6D6 sha1 3021DD31A8F2E542BB70A69D36A53608CAB4B437 )
 )
 game (
@@ -2483,18 +2598,22 @@ game (
 )
 game (
 	name "DSP1 (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "DSP1 (World) (Enhancement Chip).bin" size 8192 crc E359F184 md5 428FDB968D54353D9C9ECED1B0586671 sha1 188D471FEFEA71EB53F0EE7064697FF0971B1014 )
 )
 game (
 	name "DSP1 B (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "DSP1 B (World) (Enhancement Chip).bin" size 8192 crc 465C4E1C md5 332273CC0DF5775D3803F2FD88E95D18 sha1 78B724811F5F18D8C67669D9390397EB1A47A5E2 )
 )
 game (
 	name "DSP1 Tech Demo (World) (Tech Demo)"
+	region "World"
 	rom ( name "DSP1 Tech Demo (World) (Tech Demo).sfc" size 131072 crc D18A00CD md5 54ECF1DC3401BA5DC0D2A838C26F35C5 sha1 48F17DBCCCA2C2BB8E332BB3B7D2563A512C13E3 )
 )
 game (
 	name "DSP2 (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "DSP2 (World) (Enhancement Chip).bin" size 8192 crc 9A984974 md5 9EBBDCEC67C0C01D5A0593D3CF167C9E sha1 198C4B1C3BFC6D69E734C5957AF3DBFA26238DFB )
 )
 game (
@@ -2504,6 +2623,7 @@ game (
 )
 game (
 	name "DSP4 (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "DSP4 (World) (Enhancement Chip).bin" size 8192 crc E15384C0 md5 F229FDA2D7B33C5A218CBA28147AB9B8 sha1 AF6478AECB6F1B67177E79C82CA04C56250A8C72 )
 )
 game (
@@ -2602,12 +2722,19 @@ game (
 	rom ( name "Daisenryaku Expert WWII - War in Europe (Japan).sfc" size 2097152 crc 4CD45939 md5 812C6119D209925116A0903D7DC92102 sha1 142D2529D9045856D554C567BAEF27E4668BB2AD )
 )
 game (
+	name "Dangerous Dave (USA) (v0.1)"
+	region "USA"
+	rom ( name "Dangerous Dave (USA) (v0.1) (Aftermarket) (Unl).sfc" size 1048576 crc 11333E54 md5 1F5F3F73E52B6783671FEEDEF8AC871C sha1 C0AD62EB0D86D8A8A83067C577C9CC29BE825638 )
+)
+game (
 	name "Darius Force (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Darius Force (Japan) (En).sfc" size 1048576 crc 3E828E49 md5 576E89EA12FC942B9A4F4B03DF5F72B9 sha1 8F45123BCBDCD02FEF42DFBD131704A3B1E7226D )
 )
 game (
 	name "Darius Force (World) (Darius Cozmic Collection)"
+	region "World"
 	rom ( name "Darius Force (World) (Darius Cozmic Collection).sfc" size 1048576 crc 3C346D8B md5 FDA2152B387F4521C00C3EC67FF845E2 sha1 C96233F582360DEA90CB43906F49D5E0AC7BED3A )
 )
 game (
@@ -2627,10 +2754,14 @@ game (
 )
 game (
 	name "Darius Twin (World) (En) (Darius Cozmic Collection)"
+	region "World"
+	language "English"
 	rom ( name "Darius Twin (World) (En) (Darius Cozmic Collection).sfc" size 1048576 crc 94688D7E md5 0B36885799560A1593C15E04BE7DA331 sha1 9002FBFB3C58319AC374F98933EFF1A1FBF598B9 )
 )
 game (
 	name "Darius Twin (World) (Ja) (Darius Cozmic Collection)"
+	region "World"
+	language "Japanese"
 	rom ( name "Darius Twin (World) (Ja) (Darius Cozmic Collection).sfc" size 1048576 crc 0E8AE847 md5 E5A049BB0E7D66CB7A7910380AEE17A4 sha1 F1D0B29DA939B07A5013B1B66BB9760C3CA312F0 )
 )
 game (
@@ -2675,6 +2806,7 @@ game (
 )
 game (
 	name "Daze Before Christmas (World) (Evercade)"
+	region "World"
 	rom ( name "Daze Before Christmas (World) (Evercade).sfc" size 2097152 crc 26FAA9C6 md5 4580ACB8038D177EA4AC616234ED351A sha1 94BFFCD2B5B993C85636DDF56F5044D8BB4E1194 )
 )
 game (
@@ -2754,7 +2886,7 @@ game (
 )
 game (
 	name "Demon's Crest (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Demon's Crest (USA, Europe) (Switch Online).sfc" size 2097152 crc EBC17294 md5 1A2F726D3D1D906FF8856DF51A023494 sha1 33C0630D35E0BCEA4B41B586C12CCD51A1867173 )
 )
 game (
@@ -2845,6 +2977,7 @@ game (
 game (
 	name "Descentralizado 1993 (Peru) (Ja) (Pirate)"
 	region "Peru"
+	language "Japanese"
 	rom ( name "Descentralizado 1993 (Peru) (Ja) (Pirate).sfc" size 524288 crc 83610397 md5 A04580BBFB2D770F303E60E230C77957 sha1 E17EFF5CD7360BFEAB51DBEF9D0F76FD603CBD66 )
 )
 game (
@@ -2874,6 +3007,7 @@ game (
 )
 game (
 	name "Desolate (World) (v1.1) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Desolate (World) (v1.1) (SNESDEV 2025) (Aftermarket) (Unl).sfc" size 262143 crc 1570C9E2 md5 7CC61114AA2C9637F085ED0B4B32AFE9 sha1 0B68A7FE026E62302EB25AE220E8FA3095503505 )
 )
 game (
@@ -2904,11 +3038,13 @@ game (
 game (
 	name "Dimension-Force (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Dimension-Force (Japan) (En).sfc" size 1048576 crc 3D0D6FDC md5 C5C1FA9E0F1F3634DBA100ED82311FE7 sha1 383C26494BCDCAC152EC31D806E7C4E72425748A )
 )
 game (
 	name "Dino Dini's Soccer! (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Dino Dini's Soccer! (Europe) (En,Fr,De).sfc" size 1048576 crc DBF4A8AB md5 EEF0F5D6606B40819A5623DF2CA4955A sha1 80C4F508801146CD5CC4848BD5D1ED54456B937E )
 )
 game (
@@ -2929,6 +3065,7 @@ game (
 game (
 	name "Dirt Racer (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Dirt Racer (Europe) (En,Fr,De).sfc" size 524288 crc 0354F4B1 md5 4CCA376F58DCA81AE9CC977844276E5B sha1 5E38DD23CDD68754B6469DA0725688D0AF34F867 )
 )
 game (
@@ -3000,11 +3137,13 @@ game (
 game (
 	name "Donkey Kong Country (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Donkey Kong Country (Europe) (En,Fr,De).sfc" size 4194304 crc 7A33E836 md5 CD502DADDCC7EA3FB2E86C1F0F8B93C8 sha1 535A5B674859A78852A1ED70B00ECA5EA5BE8417 )
 )
 game (
 	name "Donkey Kong Country (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Donkey Kong Country (Europe) (En,Fr,De) (Rev 1).sfc" size 4194304 crc 17657DB6 md5 00F0BA49B5B2F140B307AFBED33C7997 sha1 6F246ABAE39820E3267704BDF342AD1D27121F19 )
 )
 game (
@@ -3024,7 +3163,7 @@ game (
 )
 game (
 	name "Donkey Kong Country (USA, Europe) (Rev 2) (Virtual Console, Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Donkey Kong Country (USA, Europe) (Rev 2) (Virtual Console, Classic Mini, Switch Online).sfc" size 4194304 crc CAF432AA md5 0CB7BB0387E0464EC0CFCE6355BE3511 sha1 F7223A087CCA2C8D5BBF91C0BCC2D077DE6606FA )
 )
 game (
@@ -3035,56 +3174,67 @@ game (
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1)"
 	region "Europe"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1).sfc" size 4194304 crc 2EA6B7E8 md5 6FF526F388A179EC6EBA9907EB8E3254 sha1 29601B586C57C1F5DA8956B640E5FC48DCC4364F )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1) (Virtual Console)"
 	region "Europe"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (Europe) (En,Fr) (Rev 1) (Virtual Console).sfc" size 4194304 crc 8FAEB68A md5 61B65DE87C7BE898F7344E09BAD298BF sha1 296F52379DE1967DF789FCD15C209F1AE3216DF1 )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De)"
 	region "Germany"
+	language "English / German"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De).sfc" size 4194304 crc 4C794A4D md5 F39D026F5BB47B1E8C72B36DCA524849 sha1 DC6A271AD77B49E59CB86CBA0B7799845D7347A0 )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1)"
 	region "Germany"
+	language "English / German"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1).sfc" size 4194304 crc 2EB33785 md5 2AE8161CB714F2DAD38F845674553A4B sha1 5A5EE7C1E3D36530C3EBF98BDCED2C9C3A0313AB )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1) (Virtual Console)"
 	region "Germany"
+	language "English / German"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (Germany) (En,De) (Rev 1) (Virtual Console).sfc" size 4194304 crc B296039C md5 3A91E7FE961B8CA447A30F80D0A37EBF sha1 50B44869EECFEBDA7602FA58BB4DB5CA44B0FAC2 )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).sfc" size 4194304 crc 006364DB md5 98458530599B9DFF8A7414A7F20B777A sha1 3EC2035962918B5523D8B4745406F46F2A739B8D )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1)"
 	region "USA"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1).sfc" size 4194304 crc 4E2D90F4 md5 D323E6BB4CCC85FD7B416F58350BC1A2 sha1 69D0F91BFD05837B44023E33A6699AA28FCA19CB )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1) (Virtual Console)"
 	region "USA"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr) (Rev 1) (Virtual Console).sfc" size 4194304 crc 46272B03 md5 8BA547E9D87B61D1DDE94AD3DD0DE664 sha1 FAA92FB3A92A8BBDBD962EE3CDB560A9FD8B614D )
 )
 game (
 	name "Donkey Kong Country 2 - Diddy's Kong Quest (USA, Europe) (En,Fr) (Rev 1) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French"
 	rom ( name "Donkey Kong Country 2 - Diddy's Kong Quest (USA, Europe) (En,Fr) (Rev 1) (Switch Online).sfc" size 4194304 crc 24AAE139 md5 CFC251C8E59C25916A706E035DF1818D sha1 89DFA86D7A393FFB1B08438AB3D024C31D741E24 )
 )
 game (
 	name "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (Europe) (En,Fr,De).sfc" size 4194304 crc 0551FE84 md5 FC3333AF2F93D7DD0A4190A01D49A69E sha1 C79CBE60E4CD8EE086BB6C5F6B2DEA5ACEBCC940 )
 )
 game (
 	name "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	rom ( name "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).sfc" size 4194304 crc 448EEC19 md5 120ABF304F0C40FE059F6A192ED4F947 sha1 D737E90D91DBA8620FD5C2985EB6FF2CDA7F23F9 )
 )
 game (
@@ -3095,6 +3245,7 @@ game (
 game (
 	name "Doom (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Doom (Japan) (En).sfc" size 2097152 crc E5D722B2 md5 97503EA48F51D65399FE8235155ACD7F sha1 78D3F9346DC861F216063E2259ED17A9DBD85087 )
 )
 game (
@@ -3159,6 +3310,7 @@ game (
 )
 game (
 	name "Dottie - Dreads Nought (World) (v1.1)"
+	region "World"
 	rom ( name "Dottie - Dreads Nought (World) (v1.1) (Aftermarket) (Unl).sfc" size 1048576 crc 94AFC86D md5 90BD580DB8B208798013B373BF1425A6 sha1 812F508307063CDB5AD37547476C42C3CF1EC892 )
 )
 game (
@@ -3199,6 +3351,7 @@ game (
 game (
 	name "Dr. Mario (Japan) (En) (NP)"
 	region "Japan"
+	language "English"
 	rom ( name "Dr. Mario (Japan) (En) (NP).sfc" size 524288 crc 63CE5132 md5 DD6661BD75AD233C0778477AD82E19FC sha1 F7F11AED2A12824B4093C04CDDF1BFF65635D4E7 )
 )
 game (
@@ -3338,6 +3491,7 @@ game (
 )
 game (
 	name "Dragon View (World) (Evercade)"
+	region "World"
 	rom ( name "Dragon View (World) (Evercade).sfc" size 2621440 crc 37A3F5D2 md5 D84A416783C094A5985C5163519718A5 sha1 652F25EE1EAF654958755AA74ED91C459377F161 )
 )
 game (
@@ -3348,6 +3502,7 @@ game (
 game (
 	name "Dragon's Lair (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	rom ( name "Dragon's Lair (Europe) (En,Fr,De,Es,It,Nl,Sv).sfc" size 524288 crc 304FDB92 md5 A656351F50713512A40A1D7868234090 sha1 1095C8435CC858E6A9BAE3544AFE5F04074C492D )
 )
 game (
@@ -3358,6 +3513,7 @@ game (
 game (
 	name "Dragon's Magic (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Dragon's Magic (Japan) (En).sfc" size 524288 crc 0CF53835 md5 495A4B0CC1249FAB9D41B7717C619B55 sha1 F5271AC9111920C26378A27188C228D531415684 )
 )
 game (
@@ -3382,6 +3538,7 @@ game (
 )
 game (
 	name "Drakkhen (World) (Evercade)"
+	region "World"
 	rom ( name "Drakkhen (World) (Evercade).sfc" size 1572864 crc F1D748B6 md5 457D1E43EE85FC15A831479908C6957B sha1 C2893F7541B10FD87B014E7D68E3CC8F62C046BB )
 )
 game (
@@ -3426,26 +3583,32 @@ game (
 )
 game (
 	name "DuckTales (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 740786A1 md5 4E09AD45A608FE1A29045640E10730FF sha1 B7BD983F2A6B2E6FC24E9F76173F724A2F424378 )
 )
 game (
 	name "DuckTales (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc BFCC3575 md5 5923614EB9D6792B2A23DC347726266A sha1 1B7659DCE45438106E33F086051D2F04DA1CE57E )
 )
 game (
 	name "DuckTales (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc BF7D3209 md5 7DA1C401F1AD62AB720FE6BBE88A9A00 sha1 7ACF8EBFED7182ED5FA45A2971B635E097743C38 )
 )
 game (
 	name "DuckTales (World) (REV-F) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-F) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc CFFD528E md5 308C7975D7EE112870A419E4B677DC78 sha1 3E96278B43DC823FB7211E09BDB270E7FF7A1023 )
 )
 game (
 	name "DuckTales (World) (REV-G) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 48CE1853 md5 34807F1989DF15B9326A1E4F9448F7EB sha1 8D9836B320B9A4FD879D6906958C919955B1A011 )
 )
 game (
 	name "DuckTales (World) (REV-H) (NES Conversion)"
+	region "World"
 	rom ( name "DuckTales (World) (REV-H) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 1BDFE6E6 md5 F79B7E5DFF2701E6762F0DDB61BCCA17 sha1 EC9FBAE45B905614479307D943032FA2B4BB13EC )
 )
 game (
@@ -3535,7 +3698,7 @@ game (
 )
 game (
 	name "Earth Defense Force (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Earth Defense Force (USA, Europe) (Switch Online).sfc" size 1048576 crc 582175B1 md5 D5668EBE58AF9AA9B9341C1F893494A7 sha1 3E1F3C22F0EA5B40B4EA9A61B074638C4CFB7CE2 )
 )
 game (
@@ -3580,6 +3743,7 @@ game (
 )
 game (
 	name "Earthworm Jim 2 (World) (Evercade)"
+	region "World"
 	rom ( name "Earthworm Jim 2 (World) (Evercade) (Fixed).sfc" size 3145728 crc 35A40580 md5 00BF280AC8550455D6C2CC411D40A754 sha1 8CB8B41D6CD36D1C91C727541C687C46967CE976 )
 )
 game (
@@ -3665,6 +3829,7 @@ game (
 game (
 	name "Eric Cantona Football Challenge (France) (En,Fr,De,Es,It,Nl,Sv)"
 	region "France"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	rom ( name "Eric Cantona Football Challenge (France) (En,Fr,De,Es,It,Nl,Sv).sfc" size 524288 crc D190CF58 md5 159DB76662232BF8F9560EB13191F7D5 sha1 188C653E31174CC1EC720F471DBDFBEB5A86FA2E )
 )
 game (
@@ -3710,6 +3875,7 @@ game (
 game (
 	name "Exertainment Mountain Bike Rally + Speed Racer (Europe) (En,Fr,De,Es,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Dutch"
 	rom ( name "Exertainment Mountain Bike Rally + Speed Racer (Europe) (En,Fr,De,Es,Nl).sfc" size 4194304 crc 811475B0 md5 8618FE6CDED4580B438887DE8E3E4407 sha1 C8DF95CDF8D8941ADB5775EFDE3A9489711ECEEE )
 )
 game (
@@ -3725,6 +3891,7 @@ game (
 game (
 	name "Exhaust Heat (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Exhaust Heat (Japan) (En).sfc" size 1048576 crc 5CB9BC35 md5 C54C7D62548698620E779AEAABF1A164 sha1 745EBF8164CA7BE58829C6130C0E06F330CD0748 )
 )
 game (
@@ -3744,10 +3911,12 @@ game (
 )
 game (
 	name "Eyra - The Crow Maiden (World) (Demo 1)"
+	region "World"
 	rom ( name "Eyra - The Crow Maiden (World) (Demo 1) (Aftermarket) (Unl).sfc" size 2097152 crc C207C7D4 md5 82A6767E802254DD46BF6C01B5C01B72 sha1 3DDB3D73D9BCD52B1667FBBC3803A013E68B482B )
 )
 game (
 	name "Eyra - The Crow Maiden (World) (Demo 2)"
+	region "World"
 	rom ( name "Eyra - The Crow Maiden (World) (Demo 2) (Aftermarket) (Unl).sfc" size 2097152 crc 7C2C0BF7 md5 0C79924AB5ECCBC9B55AD14049232B94 sha1 40D9C5E3F394EEBC0A4CA532FB535FC2B7D3AEF6 )
 )
 game (
@@ -3768,6 +3937,7 @@ game (
 game (
 	name "F-15 Super Strike Eagle (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "F-15 Super Strike Eagle (Japan) (En).sfc" size 1048576 crc F0202E26 md5 EC79AFDCC3B7B87115B5216E1EB4A2D8 sha1 40B6DD3958EDC0E39C9C40EBEE7675419B9B2FA6 )
 )
 game (
@@ -3778,11 +3948,13 @@ game (
 game (
 	name "F-Zero (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "F-Zero (Japan) (En).sfc" size 524288 crc 7681EFC1 md5 2656D9781A90440E2C5BE39F512A80C4 sha1 54D06D143383DE0354788B07314C7DC238575DD0 )
 )
 game (
 	name "F-Zero (Japan) (En) (Virtual Console, Switch Online)"
 	region "Japan"
+	language "English"
 	rom ( name "F-Zero (Japan) (En) (Virtual Console, Switch Online).sfc" size 524288 crc F3B356A7 md5 9E2EE711C8FADDCB2EB4AC2D63E18B5F sha1 4ED377A192BAF6FA63289756BFBCEE7324B7FB96 )
 )
 game (
@@ -3792,7 +3964,7 @@ game (
 )
 game (
 	name "F-Zero (USA, Europe) (Virtual Console, Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "F-Zero (USA, Europe) (Virtual Console, Classic Mini, Switch Online).sfc" size 524288 crc 61A8F2E3 md5 2083A0E260B052DDCA7A5D4382A9CA0D sha1 693EAAB4013777BA91FDEAAAA021AC15640EB299 )
 )
 game (
@@ -3828,24 +4000,28 @@ game (
 game (
 	name "FIFA - A Caminho Da Copa 98 (Brazil) (En,Fr,De,Es,It,Sv)"
 	region "Brazil"
+	language "English / French / German / Spanish / Italian / Swedish"
 	serial "A8FB"
 	rom ( name "FIFA - A Caminho Da Copa 98 (Brazil) (En,Fr,De,Es,It,Sv).sfc" size 2097152 crc 28C2D764 md5 9036D197E04EE34D7D364EDC70C6744F sha1 84E58DA5F4A2CD15ACF72FBE5CB0037EA8AD6B4A serial "A8FB" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FE)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Swedish"
 	serial "A8FE"
 	rom ( name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FE).sfc" size 2097152 crc 5E4F4856 md5 CA3D4C3E4C3D4716B82B3B91AEFD16B0 sha1 A9287C363595E81A7FB83E667651B0FB70F4E607 serial "A8FE" )
 )
 game (
 	name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FP)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Swedish"
 	serial "A8FP"
 	rom ( name "FIFA - Road to World Cup 98 (Europe) (En,Fr,De,Es,It,Sv) (A8FP).sfc" size 2097152 crc 0CC77AF7 md5 29B3E4BE108867B5742AACDB7F554956 sha1 322ADB46B7600B0C5512A416A83B4CA43EF30894 serial "A8FP" )
 )
 game (
 	name "FIFA 97 (Europe) (En,Fr,De,Es,It,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Swedish"
 	rom ( name "FIFA 97 (Europe) (En,Fr,De,Es,It,Sv).sfc" size 2097152 crc 470EABE5 md5 3F872AA5EFBA54CD7D27F99E035784FA sha1 685CF7781356A0E354B3DD10FABBA898885BA81B )
 )
 game (
@@ -3866,16 +4042,19 @@ game (
 game (
 	name "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Swedish"
 	rom ( name "FIFA Soccer 96 (Europe) (En,Fr,De,Es,It,Sv).sfc" size 1572864 crc 8FAF17E5 md5 EE9652BEF0F7930BA02EC06028DD5BD2 sha1 B184C03AC65B21EA99D72933383D7A87F2F10C1F )
 )
 game (
 	name "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Swedish"
 	rom ( name "FIFA Soccer 96 (USA) (En,Fr,De,Es,It,Sv).sfc" size 1572864 crc 7566347D md5 8B3448CCE7440268D34FA7B4C46C5966 sha1 07E91BDE033B5A53A5723C9DB5F3649A99ACDB08 )
 )
 game (
 	name "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Swedish"
 	rom ( name "FIFA Soccer 97 (USA) (En,Fr,De,Es,It,Sv).sfc" size 2097152 crc 9CDBB2F8 md5 E7D60DF096393E28DBB08DE4EBAAEC76 sha1 E4F5E96D7EE0EA9FBCAE2B9DB907CD8380372C1B )
 )
 game (
@@ -3977,6 +4156,7 @@ game (
 game (
 	name "Fever Pitch Soccer (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Fever Pitch Soccer (Europe) (En,Fr,De,Es,It).sfc" size 2097152 crc 9B1EA779 md5 C2A0A1F3C9687E8C08E531986A8B2CB8 sha1 92F1A0E583B0DC39E2D6B8D27862167C3F36B916 )
 )
 game (
@@ -3991,6 +4171,7 @@ game (
 )
 game (
 	name "Fighter's History (World) (Evercade)"
+	region "World"
 	rom ( name "Fighter's History (World) (Evercade).sfc" size 2621440 crc F9A8DC7D md5 8E9F9516F9CE23690DE763E58611C9FC sha1 955DCC9A09A49EA4229FCF94026DB7FBA78163A9 )
 )
 game (
@@ -4025,7 +4206,7 @@ game (
 )
 game (
 	name "Final Fantasy II (USA, Europe) (Rev 1) (Virtual Console)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Final Fantasy II (USA, Europe) (Rev 1) (Virtual Console).sfc" size 1048576 crc 96CFA5C9 md5 6EE1BFA6AC945590197C3925EE94B8DD sha1 0A4BC57A58E5289D29A5F7836F27B72DDD0D120A )
 )
 game (
@@ -4186,6 +4367,7 @@ game (
 game (
 	name "Final Knockout (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Final Knockout (Japan) (En).sfc" size 1048576 crc CC1DBC9B md5 4A3F54A6C7DB5D2205D1F4818E1F2166 sha1 09DE40BBF3ACE05465DA2B7ABB65E7433DEB5B8D )
 )
 game (
@@ -4196,10 +4378,12 @@ game (
 game (
 	name "Finalset (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Finalset (Japan) (En).sfc" size 1048576 crc E06FAE58 md5 E7983CE819F5A5976B0BD6E9EC20B9BA sha1 06F411F3AA45A052BAC998BE421082E21FC6B389 )
 )
 game (
 	name "Find Luigi (World)"
+	region "World"
 	rom ( name "Find Luigi (World) (Aftermarket) (Unl).sfc" size 262144 crc FD2A2284 md5 1431012DB45FCA4E9E5C0ECC50C23029 sha1 7D19A5734ED9847165E6401F30AF17AB803CA1D1 )
 )
 game (
@@ -4255,6 +4439,7 @@ game (
 game (
 	name "Firemen, The (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Firemen, The (Europe) (En,Fr,De).sfc" size 1048576 crc DEF665AF md5 AC995AB6F5667BE14EB6471458E491D3 sha1 4B82C70824922380A3193E282D7674A442BD6DD4 )
 )
 game (
@@ -4304,6 +4489,7 @@ game (
 )
 game (
 	name "First Samurai (World) (QUByte Classics)"
+	region "World"
 	rom ( name "First Samurai (World) (QUByte Classics).sfc" size 524288 crc 2B8BA13B md5 7648BE5380826FE30D1DD705020CC74B sha1 DEB137D4CE8D90D22B294BF416388450D353D59F )
 )
 game (
@@ -4314,6 +4500,7 @@ game (
 game (
 	name "Flashback (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Flashback (Europe) (En,Fr,De).sfc" size 2097152 crc A0525B9C md5 49930C477F99A4FE1E30151C9ABAD663 sha1 7B989EE15428D6683D43F9AC12DE6F75B5B41FFC )
 )
 game (
@@ -4324,16 +4511,19 @@ game (
 game (
 	name "Flashback - The Quest for Identity (USA) (En,Fr,De)"
 	region "USA"
+	language "English / French / German"
 	rom ( name "Flashback - The Quest for Identity (USA) (En,Fr,De).sfc" size 2097152 crc 1E6ACEBA md5 1321B154C39E894FFB25ECBE13455544 sha1 35228167B8BA0037D3584FC9986822EB6E1A2180 )
 )
 game (
 	name "Flintstones, The (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Flintstones, The (Europe) (En,Fr,De,Es,It).sfc" size 2097152 crc 85A8B156 md5 5BFF107357BEDE12A3D2D4D2CA9B7488 sha1 9EACC69D9656EBC16CB88597FD09BD62F9A5F5A0 )
 )
 game (
 	name "Flintstones, The (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Flintstones, The (USA) (En,Fr,De,Es,It).sfc" size 2097152 crc 3E7B51E0 md5 C012D50635485789B5A31B1FA0D51AF6 sha1 E52FFB054D849D90151308B3EBDBB7108D9A4DE7 )
 )
 game (
@@ -4374,6 +4564,7 @@ game (
 game (
 	name "Foreman for Real (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Foreman for Real (Japan) (En).sfc" size 3145728 crc D7576775 md5 6D6C629AD9E2BDB3C89E0587438BEDA8 sha1 D55A25471F3B8188E4B2B41DED2457A62F3D1C2B )
 )
 game (
@@ -4394,6 +4585,7 @@ game (
 game (
 	name "Frank Thomas Big Hurt (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Frank Thomas Big Hurt (Japan) (En).sfc" size 3145728 crc 1A895B24 md5 03C1E7EAA124CA127F81A20339872A21 sha1 31760777D2783DC4684D6ADB8DBBB96805C83389 )
 )
 game (
@@ -4418,6 +4610,7 @@ game (
 )
 game (
 	name "FrogNES (World)"
+	region "World"
 	rom ( name "FrogNES (World) (Unl).sfc" size 851968 crc 2BA40B80 md5 624D728F40F76FF400CA9079CF683751 sha1 FE63FC2FF789C62AD6602A614CA7E2598E32FDA8 )
 )
 game (
@@ -4468,6 +4661,7 @@ game (
 game (
 	name "Full Power (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Full Power (Japan) (En).sfc" size 2097152 crc 66C04587 md5 2EF2A029D8DB36A3E899182069D43F8A sha1 B532B95797C60474F201FBED74F46AC0484EBB18 )
 )
 game (
@@ -4482,6 +4676,7 @@ game (
 )
 game (
 	name "Full Throttle - All-American Racing (World) (Evercade)"
+	region "World"
 	rom ( name "Full Throttle - All-American Racing (World) (Evercade).sfc" size 2621440 crc 7219DFCA md5 48DA7271712F260C86BBB666EF84F2A5 sha1 26688C1AF3835A46D6628965E524DC9B2EEA9C16 )
 )
 game (
@@ -4506,6 +4701,7 @@ game (
 )
 game (
 	name "Furry RPG! (World) (Proto)"
+	region "World"
 	rom ( name "Furry RPG! (World) (Proto) (Aftermarket) (Unl).sfc" size 6291456 crc 8C7A9C00 md5 2DCFABF362808A9BA8BE16E866718920 sha1 B316AB0FA33E3DA3310EC2D22349B299E7CA4526 )
 )
 game (
@@ -4531,6 +4727,7 @@ game (
 game (
 	name "Futbol Excitante (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Futbol Excitante (Peru) (Es) (Pirate).sfc" size 2097152 crc 2C9A788F md5 39945FA5BE9FC820E8CCA5EFF6482CCD sha1 035E7DCA68BE446A18224782B354ED9012D97FB5 )
 )
 game (
@@ -4551,6 +4748,7 @@ game (
 game (
 	name "GP-1 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "GP-1 (Japan) (En).sfc" size 1048576 crc 1895299C md5 3F110D28949C912994CF925A3F5EA327 sha1 F52F4A8831F78F9E1ABD4157BFE49B1A2D4BE8EE )
 )
 game (
@@ -4566,6 +4764,7 @@ game (
 game (
 	name "GP-1 RS - Rapid Stream (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "GP-1 RS - Rapid Stream (Japan) (En).sfc" size 1572864 crc D4488768 md5 85F1F77FC5B350F228370FF94419D8A9 sha1 4470525022E561648FDBE917ADC3A21D51D291E8 )
 )
 game (
@@ -4606,6 +4805,7 @@ game (
 game (
 	name "Galaxy Wars (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Galaxy Wars (Japan) (En).sfc" size 262144 crc F159CA70 md5 62D8C5570EE19F996B7656B7084DAD81 sha1 1E74AB222270AA3C88BE3A36BE17BBCE27A1BB1E )
 )
 game (
@@ -4816,6 +5016,7 @@ game (
 game (
 	name "Gekitotsu Dangan Jidousha Kessen - Battle Mobile (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Gekitotsu Dangan Jidousha Kessen - Battle Mobile (Japan) (En).sfc" size 1048576 crc 3E88E883 md5 F03545B1932D26A755B9DCEF3ADEEF59 sha1 220A463789E245E2B970F8D45F5E9FE540B26144 )
 )
 game (
@@ -4841,6 +5042,7 @@ game (
 game (
 	name "Genocide 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Genocide 2 (Japan) (En).sfc" size 2097152 crc DE40AA12 md5 156E52E1CFC79738F0C731FF24AB0736 sha1 947F72EBB7F3B19244103FA5A55C0A5A21267F23 )
 )
 game (
@@ -4991,6 +5193,7 @@ game (
 game (
 	name "Gon (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Gon (Japan) (En).sfc" size 1048576 crc 426881A3 md5 444E00E4DEC0E5D15327E6DFCED9218B sha1 295437BFEC027277E049553B11B406651297F91B )
 )
 game (
@@ -5020,10 +5223,12 @@ game (
 )
 game (
 	name "Goomba BreakOut (World) (v1.3)"
+	region "World"
 	rom ( name "Goomba BreakOut (World) (v1.3) (Aftermarket) (Unl).sfc" size 262144 crc 56817ACC md5 B708166AE6A9059A6E6453E9A2506FD4 sha1 ED4E38976DD9927E7AAE7541C78EED420F7670FE )
 )
 game (
 	name "Goomba BreakOut (World) (v1.4)"
+	region "World"
 	rom ( name "Goomba BreakOut (World) (v1.4) (Aftermarket) (Unl).sfc" size 262144 crc 2AEB2054 md5 5F58FC2F859DD1D579E066AC595D25FD sha1 AC60EF7F3E127BB3918AA55759C4DC8854FF53FD )
 )
 game (
@@ -5048,6 +5253,7 @@ game (
 )
 game (
 	name "Gourmet Warriors (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Gourmet Warriors (World) (QUByte Classics).sfc" size 2621440 crc 690A9540 md5 9A940AB2B5803031A1449111885C7517 sha1 D028D7876D390B7A8CCF0691851D3D7609914C78 )
 )
 game (
@@ -5058,6 +5264,7 @@ game (
 game (
 	name "Gradius III (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Gradius III (Japan) (En).sfc" size 524288 crc BCA9AB02 md5 059C8D6B72D95EDB9FC619BEE864EF3E sha1 E5119C731C9DE5F942565AB0D752CB50ABF4F32C )
 )
 game (
@@ -5123,6 +5330,7 @@ game (
 game (
 	name "GunForce (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "GunForce (Japan) (En).sfc" size 524288 crc EEAFD816 md5 F026A8E4F069513E74895F3E2B627DE1 sha1 6DC973F31B9506BECC5CB6838932A7E90B2B17C3 )
 )
 game (
@@ -5288,6 +5496,7 @@ game (
 game (
 	name "Hat Trick Hero (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Hat Trick Hero (Japan) (En).sfc" size 524288 crc FCE8A74D md5 8CDB19821E71ED3B979F8390E8FEA68E sha1 0B6C5C4F7484AE643DCE60F760B600E3FA310448 )
 )
 game (
@@ -5422,6 +5631,7 @@ game (
 )
 game (
 	name "Hilda (World)"
+	region "World"
 	rom ( name "Hilda (World) (Aftermarket) (Unl).sfc" size 262144 crc 169DDA02 md5 54D007B1DAA712A7BDD0251BAD4A49FE sha1 D94CCFF3737C914BF49B13C3DA642468306A0E43 )
 )
 game (
@@ -5547,11 +5757,13 @@ game (
 game (
 	name "Hong Kong '97 (Japan) (En,Ja,Zh-Hant)"
 	region "Japan"
+	language "English / Japanese / Chinese"
 	rom ( name "Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (Unl).sfc" size 524288 crc 11A6E64B md5 8CB1CFE8F847FE073C3609415ADC2A19 sha1 544BBF6F34A8E9CFA73A0D1785E1017F3CAA5833 )
 )
 game (
 	name "Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (CM)"
 	region "Japan"
+	language "English / Japanese / Chinese"
 	rom ( name "Hong Kong '97 (Japan) (En,Ja,Zh-Hant) (CM) (Unl).sfc" size 524288 crc C6A95816 md5 0C9D4BCF530DC77E07308B7FD201389C sha1 6B518A19ACEA46EC62B7D7CE6604013F62A6906E )
 )
 game (
@@ -5622,14 +5834,17 @@ game (
 game (
 	name "Hori GameCube Controller Test (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Hori GameCube Controller Test (Japan) (En).sfc" size 524288 crc A7DA7773 md5 D916E9F542292C89A542788B03E1D076 sha1 55B77707EFF341882630EDFF499B417C83D223FA )
 )
 game (
 	name "Horizontal Shooter (World) (Demo 1)"
+	region "World"
 	rom ( name "Horizontal Shooter (World) (Demo 1) (Aftermarket) (Unl).sfc" size 109824 crc CDE1DFA9 md5 9B9C326106857D0A7B4E6584BBB21A6F sha1 C2B5D8820051D3796546F6A461A7FA0DDDEB9BD7 )
 )
 game (
 	name "Horizontal Shooter (World) (Demo 2)"
+	region "World"
 	rom ( name "Horizontal Shooter (World) (Demo 2) (Aftermarket) (Unl).sfc" size 131072 crc 901293AE md5 E1B12AB9B1C2B85E97A44B0F8B799704 sha1 9342B8FAB9F8C621865950DAE4BFA3F7EFB99A37 )
 )
 game (
@@ -5680,21 +5895,25 @@ game (
 game (
 	name "Human Grand Prix (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Human Grand Prix (Japan) (En).sfc" size 1048576 crc 823019CA md5 3AB50B70B3CC30161E4D7FA5758F7FA4 sha1 566F67AC388A51BF3BEC7150798703C6041E7B0D )
 )
 game (
 	name "Human Grand Prix II (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Human Grand Prix II (Japan) (En).sfc" size 1048576 crc A5351DB4 md5 F6C6B6361FB0DF836DC146396F672BB8 sha1 8568604DD55E01BA76EAFD9C384F2D40DBD5F376 )
 )
 game (
 	name "Human Grand Prix III - F1 Triple Battle (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Human Grand Prix III - F1 Triple Battle (Japan) (En).sfc" size 2097152 crc 9F6D0228 md5 6EF82F3F011176C6969A9AED5845B8F7 sha1 33F29C6F08A458778A0A065D9E6B0FF56D0C83C3 )
 )
 game (
 	name "Human Grand Prix IV - F1 Dream Battle (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Human Grand Prix IV - F1 Dream Battle (Japan) (En).sfc" size 2097152 crc 47453477 md5 6E5F7A29C72B33D684B57CA369FF8CD1 sha1 09B40B6138C473CAEC41B670912FBECC7F858555 )
 )
 game (
@@ -5709,10 +5928,12 @@ game (
 )
 game (
 	name "Humans, The (World) (Evercade)"
+	region "World"
 	rom ( name "Humans, The (World) (Evercade).sfc" size 1572864 crc 918AE6E0 md5 C496E69A0D0C0F12E015E0483CE8B3C6 sha1 F620F7B35433D8912AE71DA850E4042DCEB19F2F )
 )
 game (
 	name "Humans, The (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Humans, The (World) (QUByte Classics).sfc" size 1048576 crc 4F085456 md5 EF2D9F9570D91876750266840CBB9E16 sha1 E57D19CDA15038FF70608C090F55C26A635C9536 )
 )
 game (
@@ -5763,6 +5984,7 @@ game (
 game (
 	name "HyperZone (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "HyperZone (Japan) (En).sfc" size 1048576 crc 613C62B7 md5 71537EBF8C308CF939B9E8E98ADDDFF0 sha1 4860BBB7474870A4B2565B15480767922C38BFF4 )
 )
 game (
@@ -5782,6 +6004,7 @@ game (
 )
 game (
 	name "Ignition Factor, The (World) (Evercade)"
+	region "World"
 	rom ( name "Ignition Factor, The (World) (Evercade).sfc" size 1048576 crc 88D2416E md5 D8400975534FCF3F83B64BB461F3379A sha1 2CB2494540C0E36FF73C8D8F54F51454206EAC5F )
 )
 game (
@@ -5847,6 +6070,7 @@ game (
 game (
 	name "Inazuma Serve da! Super Beach Volley (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Inazuma Serve da! Super Beach Volley (Japan) (En).sfc" size 1048576 crc 879EDEE8 md5 49B7A352F3CD309C0C79DF37AB1A890E sha1 CB0C5B6B4A4011520888BE6007816165F3A20E89 )
 )
 game (
@@ -5861,14 +6085,17 @@ game (
 )
 game (
 	name "Incantation (World) (Evercade)"
+	region "World"
 	rom ( name "Incantation (World) (Evercade).sfc" size 1048576 crc 1B6E1622 md5 735266767E3B7DF831C46B083436FE0A sha1 8A67D3E4AAD48BD9FE2460E2B2CE2DBBCF49D917 )
 )
 game (
 	name "Incognity - A Rover Story (World) (v0.9.0)"
+	region "World"
 	rom ( name "Incognity - A Rover Story (World) (v0.9.0) (Aftermarket) (Unl).sfc" size 524288 crc 456F3CBF md5 E58A428FBACE2AFC7F1F69283C022B02 sha1 086D62A3DDAFE3D23615DD1929A7743767CED815 )
 )
 game (
 	name "Incognity - A Rover Story (World) (v0.9.1)"
+	region "World"
 	rom ( name "Incognity - A Rover Story (World) (v0.9.1) (Aftermarket) (Unl).sfc" size 524288 crc 7E809B1A md5 BCFA928602176B3C152C6C7E27EDFFFA sha1 38D068DA17BC9F32E6A1FA017932D476F8CD8EBA )
 )
 game (
@@ -5919,6 +6146,7 @@ game (
 game (
 	name "International Sensible Soccer - World Champions (Europe) (En,Fr,De,It) (Rev 1)"
 	region "Europe"
+	language "English / French / German / Italian"
 	rom ( name "International Sensible Soccer - World Champions (Europe) (En,Fr,De,It) (Rev 1).sfc" size 524288 crc 6FF2D97E md5 BB4C8235E6BF0913E13C4BFD3ED06E7E sha1 1B7E843210B1939B1032F829D33C2F27600049CA )
 )
 game (
@@ -5949,6 +6177,7 @@ game (
 game (
 	name "International Tennis Tour (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "International Tennis Tour (Japan) (En).sfc" size 1048576 crc 45F2DAB9 md5 08F5F1736968581949716E1D180BD132 sha1 46D3FF5BE076E6F4738D732102173974B530FDFF )
 )
 game (
@@ -5983,14 +6212,17 @@ game (
 )
 game (
 	name "Iron Commando (World) (QUByte Classics) (PAL)"
+	region "World"
 	rom ( name "Iron Commando (World) (QUByte Classics) (PAL).sfc" size 2097152 crc 0A5B8444 md5 879B5F05A04D8D45874B4FDD1332B3AD sha1 AD4DE699CE58A380416265FB783DC6F569C24398 )
 )
 game (
 	name "Iron Commando (World) (Steam)"
+	region "World"
 	rom ( name "Iron Commando (World) (Steam) (NTSC).sfc" size 2097152 crc CD7C58D4 md5 EB8C18AD7C7EA74AF694066FD7B10386 sha1 C2FFF592AB11D610AAFD3B805FE2438C5DABB772 )
 )
 game (
 	name "Iron Commando (World) (v1.1) (Steam)"
+	region "World"
 	rom ( name "Iron Commando (World) (v1.1) (Steam) (NTSC).sfc" size 2097152 crc 2D911B58 md5 22E90C68B9D317C4B2AFB1C5DE4FE67C sha1 7BCAE41459F2EE9CC036B36142CD8F7075E1C3A8 )
 )
 game (
@@ -6176,11 +6408,13 @@ game (
 game (
 	name "Jaleco Rally - Big Run - The Supreme 4WD Challenge (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Jaleco Rally - Big Run - The Supreme 4WD Challenge (Japan) (En).sfc" size 1048576 crc C157978C md5 DFE85CF6EDFA7CC5EF63020D45775E81 sha1 D79896F4AD042961A6B0111CEE2F6E425C253059 )
 )
 game (
 	name "Jaleco Rally - Big Run - The Supreme 4WD Challenge (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Jaleco Rally - Big Run - The Supreme 4WD Challenge (Japan) (En) (Rev 1).sfc" size 1048576 crc 300A1FB1 md5 9AE59F202D5E0A23449DCEB5CE70EF67 sha1 1D3C710E318783B4917BECAEB2E178C5F01EBED2 )
 )
 game (
@@ -6251,10 +6485,14 @@ game (
 )
 game (
 	name "Jet Pilot Rising (World) (De)"
+	region "World"
+	language "German"
 	rom ( name "Jet Pilot Rising (World) (De) (Aftermarket) (Unl).sfc" size 1048576 crc 9B344A9A md5 3CC707A5072CE9409F788E9FB905CB20 sha1 912EE5525861B184728AC401C52130D01CA3CDA5 )
 )
 game (
 	name "Jet Pilot Rising (World) (De) (v1.1)"
+	region "World"
+	language "German"
 	rom ( name "Jet Pilot Rising (World) (De) (v1.1) (Aftermarket) (Unl).sfc" size 524288 crc 23507977 md5 8E36483B61776951834D6738912CDDED sha1 6349D94230B3D75052FA110F200B23C9D9B89D2E )
 )
 game (
@@ -6369,14 +6607,17 @@ game (
 )
 game (
 	name "Jim Power - The Lost Dimension in 3D (World) (Piko Interactive)"
+	region "World"
 	rom ( name "Jim Power - The Lost Dimension in 3D (World) (Piko Interactive).sfc" size 1048576 crc 929D8D10 md5 73FF5EAB8894AE3BB1F09D75E063D064 sha1 E9E87B1459D63A78FB4865685835DC0CA8C74A53 )
 )
 game (
 	name "Jim Power - The Lost Dimension in 3D (World) (Piko Interactive) (Enhanced)"
+	region "World"
 	rom ( name "Jim Power - The Lost Dimension in 3D (World) (Piko Interactive) (Enhanced).sfc" size 2097152 crc 48164725 md5 43A52C684B49748772AC4FD2A3B324F3 sha1 07E9EF42CD5B1E1FD903ABA6282D7B3B29378633 )
 )
 game (
 	name "Jim Power - The Lost Dimension in 3D (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Jim Power - The Lost Dimension in 3D (World) (QUByte Classics).sfc" size 1048576 crc 79D8EB24 md5 318CD0A7E9D2936F366DBAFAE1FD1139 sha1 07730112C52F737261929DA808CA7695772838EB )
 )
 game (
@@ -6397,6 +6638,7 @@ game (
 game (
 	name "Jimmy Connors Pro Tennis Tour (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Jimmy Connors Pro Tennis Tour (Japan) (En).sfc" size 524288 crc A95BEF02 md5 F9BE2CD00AA7DFAA64A963D099309E18 sha1 7A65E3A89ED72A1E4C63FEB297FCDF05CFBE1C29 )
 )
 game (
@@ -6477,6 +6719,7 @@ game (
 game (
 	name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch"
 	rom ( name "Joe & Mac - Caveman Ninja (Europe) (En,Fr,De,Es,It,Nl).sfc" size 1048576 crc A423A9D8 md5 DCA9B3FCC00E3F7B1868C4207DABEC7B sha1 1B9CE057FD686DB93CBA24403D728A8DFB9F3EB6 )
 )
 game (
@@ -6496,11 +6739,13 @@ game (
 )
 game (
 	name "Joe & Mac 2 - Lost in the Tropics (World) (Evercade)"
+	region "World"
 	rom ( name "Joe & Mac 2 - Lost in the Tropics (World) (Evercade).sfc" size 1048576 crc 8617F7B9 md5 5937237991576DF306E9F1DCD8B889F2 sha1 09F4CA0B2F035755784560953293292DFD106EDE )
 )
 game (
 	name "Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Joe & Mac 3 - Lost in the Tropics (Europe) (En,Fr,De).sfc" size 1048576 crc B9D6269D md5 E5B1841EA2437762D1DCF8416DD02713 sha1 57722343B24590AEB1C894018FC68660CD7B9712 )
 )
 game (
@@ -6541,6 +6786,7 @@ game (
 game (
 	name "Judge Dredd (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Judge Dredd (Japan) (En).sfc" size 2097152 crc D7BC8A52 md5 AFE686FECFF3888E2FC9DD22E0CB37DB sha1 7C672080B6ECFDEC1AFA0A1377257DDC1930746D )
 )
 game (
@@ -6566,6 +6812,7 @@ game (
 game (
 	name "Jungle Book, The (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Jungle Book, The (Japan) (En).sfc" size 2097152 crc CE14892D md5 1BF5EBE464359EF40747CF1FE98001C2 sha1 30C2B0119F697CFB3F9ED5CD8871CD56F47F62E0 )
 )
 game (
@@ -6575,6 +6822,7 @@ game (
 )
 game (
 	name "Jungle Book, The (World) (Disney Classic Games)"
+	region "World"
 	rom ( name "Jungle Book, The (World) (Disney Classic Games).sfc" size 2097152 crc A690CF68 md5 342847114BEBA981A83746A8C1AEDB29 sha1 F8DAA9D605DAB709A0F0F5281984168D88594399 )
 )
 game (
@@ -6645,15 +6893,18 @@ game (
 game (
 	name "Jurassic Park Part 2 - The Chaos Continues (Europe) (En,Fr,De,It)"
 	region "Europe"
+	language "English / French / German / Italian"
 	rom ( name "Jurassic Park Part 2 - The Chaos Continues (Europe) (En,Fr,De,It).sfc" size 2097152 crc 8A926D1A md5 AEFB5332ACA8CBD4FDB3F96C848E2A65 sha1 2BB5E4A9E965E88E374D71BB14BFF9A21453CD19 )
 )
 game (
 	name "Jurassic Park Part 2 - The Chaos Continues (USA) (En,Fr,De,It)"
 	region "USA"
+	language "English / French / German / Italian"
 	rom ( name "Jurassic Park Part 2 - The Chaos Continues (USA) (En,Fr,De,It).sfc" size 2097152 crc 836EE990 md5 64D367E1406FC39281443DA9CFD9F015 sha1 23967B9DD586C01A8B6E89BB3774C3B3F7BDF3BA )
 )
 game (
 	name "Jurl (World) (Proto)"
+	region "World"
 	rom ( name "Jurl (World) (Proto) (Aftermarket) (Unl).sfc" size 262144 crc ECCFF965 md5 B2B36D20C88EE46691933AD893788B64 sha1 7D75CE2C2766FFF87F7AD8AA10C5179EC1335087 )
 )
 game (
@@ -6664,6 +6915,7 @@ game (
 game (
 	name "Justice League Task Force (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Justice League Task Force (Japan) (En).sfc" size 2621440 crc BFA7F180 md5 4B38181FA7BFEEA2EF8CB3180B8D26D5 sha1 3FF24CABA446B75076D0B7C49BB3B998A0AF4D55 )
 )
 game (
@@ -6673,6 +6925,7 @@ game (
 )
 game (
 	name "Justice Ninja Casey (World) (Ratalaika Games)"
+	region "World"
 	rom ( name "Justice Ninja Casey (World) (Ratalaika Games).sfc" size 2097152 crc B4923E4A md5 FEF11CD50A9AD09EABB3E0B04BF8513A sha1 B12BCFD423757209033F8DB7DAD4BC03F3985F07 )
 )
 game (
@@ -6687,10 +6940,13 @@ game (
 )
 game (
 	name "Juusou Kihei Valken (World) (Ja) (Switch)"
+	region "World"
+	language "Japanese"
 	rom ( name "Juusou Kihei Valken (World) (Ja) (Switch).sfc" size 1572864 crc 3A589B8E md5 DC4633FD1722B4F7AFC4F9A637921EDF sha1 0CF5C43A8C112DB39A421FF441DA4B017FF4890B )
 )
 game (
 	name "K-fet Invaders (World)"
+	region "World"
 	rom ( name "K-fet Invaders (World) (Aftermarket) (Unl).sfc" size 262144 crc 67397D0D md5 3FE046ECB232E8DF24F1F16DCD4BE5C1 sha1 A74B5C528EEA85CFE3573D706FEC53D1A03EBAAA )
 )
 game (
@@ -6726,6 +6982,7 @@ game (
 game (
 	name "Kagakusha Harley no Haran Banjou (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Kagakusha Harley no Haran Banjou (Japan) (En).sfc" size 524288 crc F34B6AA2 md5 D8D5E581A14D8E329F82A3A42C606501 sha1 2CEDD514C34FB2A4B00C544A17C3137F2394C264 )
 )
 game (
@@ -6805,6 +7062,7 @@ game (
 )
 game (
 	name "Keeping SNES Alive (World)"
+	region "World"
 	rom ( name "Keeping SNES Alive (World) (Aftermarket) (Unl).sfc" size 262144 crc 2ED0F383 md5 47C08C2435981BD4158B0753D1865F5B sha1 CE85268A9B4EC06D53C7772529705506084F2E8C )
 )
 game (
@@ -6890,6 +7148,7 @@ game (
 game (
 	name "Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Kick Off 3 - European Challenge (Europe) (En,Fr,De,Es,It).sfc" size 1048576 crc 1AC7F523 md5 211E9589DB9C1C007771E25BAB81198C sha1 7AB7898B0D00FA91E75365A060BD36DDBA232F6A )
 )
 game (
@@ -6940,6 +7199,7 @@ game (
 game (
 	name "Kidou Soukou Dion (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Kidou Soukou Dion (Japan) (En).sfc" size 1048576 crc 1E54F2C6 md5 EAACE143D3DCF51B9848419EF07120EC sha1 E98065E1DFC3E8AB1FC00F16EE90D4EA5A46D1BF )
 )
 game (
@@ -7114,7 +7374,7 @@ game (
 )
 game (
 	name "Kirby's Dream Course (USA, Europe) (Virtual Console, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Kirby's Dream Course (USA, Europe) (Virtual Console, Switch Online).sfc" size 1048576 crc C593EB79 md5 FCCA9E2E13C959075BADB1E8F6DDFF46 sha1 1141FB2269CA04D4312B26FFE97ED44CB83B882A )
 )
 game (
@@ -7245,6 +7505,7 @@ game (
 game (
 	name "Krusty World (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Krusty World (Japan) (En).sfc" size 524288 crc DEE4BCB3 md5 596E4516A6D810F88C43DFBEBC5DC577 sha1 F04315CECF1954072C5749342FA2D2DBE4416E75 )
 )
 game (
@@ -7396,6 +7657,7 @@ game (
 )
 game (
 	name "Last Super, The (World)"
+	region "World"
 	rom ( name "Last Super, The (World) (Aftermarket) (Unl).sfc" size 262144 crc 49A36518 md5 8C46213970EF6C38D34774C6381FA9D6 sha1 C5CACFDBED312ACDC9D408DC2060B5B967428633 )
 )
 game (
@@ -7435,31 +7697,38 @@ game (
 )
 game (
 	name "Legend (World) (Piko Interactive)"
+	region "World"
 	rom ( name "Legend (World) (Piko Interactive).sfc" size 1048576 crc FA66536D md5 3A8D1E33ACD44E15F3F88BEA10FA2502 sha1 FA868ED108891E84B62F27A92E539B8CB741F7F0 )
 )
 game (
 	name "Legend (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Legend (World) (QUByte Classics).sfc" size 1048576 crc 33C648AA md5 99C070D3CDF193582A3413168BBA546F sha1 80ACA3DD651657D714C702157166900C61E33C7A )
 )
 game (
 	name "Legend of Zelda, The (World) (REV-F) (Digital) (NES Conversion) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The (World) (REV-F) (Digital) (NES Conversion) (Aftermarket) (Pirate).sfc" size 3145728 crc 6CACD79C md5 B53693517EBAAEDD9147545B02C3B7A9 sha1 3AA0413E1E5FE5B50AD17FF32873D0F8777071EC )
 )
 game (
 	name "Legend of Zelda, The (World) (REV-G) (Digital) (NES Conversion) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The (World) (REV-G) (Digital) (NES Conversion) (Aftermarket) (Pirate).sfc" size 3145728 crc E4BD1859 md5 A727B5259C247F48CECD179C380D906B sha1 A734F282046F198633D386421F16CCF1DFC29290 )
 )
 game (
 	name "Legend of Zelda, The (World) (REV-H) (Digital) (NES Conversion) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The (World) (REV-H) (Digital) (NES Conversion) (Aftermarket) (Pirate).sfc" size 4194304 crc C0AD8FC7 md5 B1A3781BCC8234358F1FD4010EEFA801 sha1 A6ECE6B0FDF3021034CFE8B4BA40CD1FBD1A630E )
 )
 game (
 	name "Legend of Zelda, The (World) (REV-I) (Digital) (NES Conversion) (Pirate)"
+	region "World"
 	rom ( name "Legend of Zelda, The (World) (REV-I) (Digital) (NES Conversion) (Aftermarket) (Pirate).sfc" size 4194304 crc CB5F6855 md5 F7A46ABF32AC9D30348BE39FC912B67A sha1 E87462C6708E6BE06C6F3CEE4A816FC47822AC31 )
 )
 game (
 	name "Legend of Zelda, The - A Link to the Past (Canada) (Fr)"
 	region "Canada"
+	language "French"
 	rom ( name "Legend of Zelda, The - A Link to the Past (Canada) (Fr).sfc" size 1048576 crc 47760381 md5 9C698DB37D1FC2435CD04AD2DA0E553B sha1 C1C6C7F76FFF936C534FF11F87A54162FC0AA100 )
 )
 game (
@@ -7484,7 +7753,7 @@ game (
 )
 game (
 	name "Legend of Zelda, The - A Link to the Past (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Legend of Zelda, The - A Link to the Past (USA, Europe) (Switch Online).sfc" size 1048576 crc FDA7ACE3 md5 863CF13D990B1D39229AD11E21BA9991 sha1 CCE2817177FE8D0CA2409934B2777526FE7008BC )
 )
 game (
@@ -7515,6 +7784,7 @@ game (
 game (
 	name "Lemmings (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Lemmings (Japan) (En).sfc" size 1048576 crc 13027564 md5 AFF500AE36D63BB253FD36E8300CC812 sha1 0B281F6D4EB20B9D35958792968E1EBDB502477D )
 )
 game (
@@ -7594,6 +7864,7 @@ game (
 )
 game (
 	name "Libble Rabble (World) (Evercade)"
+	region "World"
 	rom ( name "Libble Rabble (World) (Evercade).sfc" size 524288 crc DABC86FB md5 ED72FC0639AE65B00C312DCA7BC594DB sha1 D9442FC8711AE64E0AA07712822A73296838D199 )
 )
 game (
@@ -7628,10 +7899,14 @@ game (
 )
 game (
 	name "Lion King, The (World) (En) (Disney Classic Games)"
+	region "World"
+	language "English"
 	rom ( name "Lion King, The (World) (En) (Disney Classic Games).sfc" size 4194304 crc 881CE80A md5 5652B6D507B8E8F29C9B2498EA071E5B sha1 CD354BDFB0B0EEA955CD92FB98CE45B7FD20B470 )
 )
 game (
 	name "Lion King, The (World) (Ja) (Disney Classic Games)"
+	region "World"
+	language "Japanese"
 	rom ( name "Lion King, The (World) (Ja) (Disney Classic Games).sfc" size 4194304 crc E04B0914 md5 FFC9ECA9FD6BEA5D245E8AC9D6100120 sha1 08E08E69CE287DA62CD1B252C538CF9200B5EDD6 )
 )
 game (
@@ -7661,6 +7936,7 @@ game (
 )
 game (
 	name "Lizard (World)"
+	region "World"
 	rom ( name "Lizard (World) (Aftermarket) (Unl).sfc" size 557056 crc 34EE7436 md5 057DBFC351FD75796739F00F607A9747 sha1 1BA6D723682B31566B9D5F360EC899A046F94407 )
 )
 game (
@@ -7696,6 +7972,7 @@ game (
 game (
 	name "Looney Tunes - Road Runner vs Wile E. Coyote (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Looney Tunes - Road Runner vs Wile E. Coyote (Japan) (En).sfc" size 1048576 crc 82399957 md5 1F8BC03690AF2A69A618A305702554EA sha1 457B8FADDAED4E8733A067D9C1E33D4F6ABFEB0C )
 )
 game (
@@ -7731,6 +8008,7 @@ game (
 game (
 	name "Lost Vikings II, The - Norse by Norsewest (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Lost Vikings II, The - Norse by Norsewest (Europe) (En,Fr,De).sfc" size 1048576 crc 3C49A285 md5 9CF4265A4A1AAD19959DCDBB94803D12 sha1 FA76C28408D6D9B441423C1349E1908D8C155001 )
 )
 game (
@@ -7741,6 +8019,7 @@ game (
 game (
 	name "Lost Vikings, The (France) (En,Fr)"
 	region "France"
+	language "English / French"
 	rom ( name "Lost Vikings, The (France) (En,Fr).sfc" size 1048576 crc 94093298 md5 DBD58A2C35E4CDA603B6238CDA0DC6A0 sha1 72B472A389A6392ED8189BDC24BCEAFEA238F6FB )
 )
 game (
@@ -7771,6 +8050,7 @@ game (
 game (
 	name "Lucky Luke (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Lucky Luke (Europe) (En,Fr,De,Es).sfc" size 1572864 crc 7E2C7143 md5 466940840196F36A855668FCF84FB94B sha1 82CEF93F124906E49C4E9EC6F58E23EF7E9F77F9 )
 )
 game (
@@ -7816,6 +8096,7 @@ game (
 game (
 	name "MVP Baseball (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "MVP Baseball (Japan) (En).sfc" size 1048576 crc C7DAA598 md5 5880425952E1A279CF4C2CBE1505835C sha1 79EAC4CC3C50A08BFD56AED1B27417F3D13A3447 )
 )
 game (
@@ -7891,6 +8172,7 @@ game (
 game (
 	name "Magic Johnson no Super Slam Dunk (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Magic Johnson no Super Slam Dunk (Japan) (En).sfc" size 1048576 crc 3276E449 md5 EF9460FB2FB4F10C0BEBDFFF4DDDE532 sha1 37F2329E72908CE6794A3355AB5A5F842FD93E4D )
 )
 game (
@@ -7930,6 +8212,7 @@ game (
 )
 game (
 	name "Magical Drop 2 (World) (Evercade)"
+	region "World"
 	rom ( name "Magical Drop 2 (World) (Evercade).sfc" size 3145728 crc 4D88489F md5 ED917718435646245E386C3CAD8F32B3 sha1 A8CD502ED94D54B797FBBD286EA5B8B21BC82939 )
 )
 game (
@@ -7940,7 +8223,7 @@ game (
 )
 game (
 	name "Magical Drop II (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Magical Drop II (USA, Europe) (Switch Online).sfc" size 2097152 crc A499A384 md5 A5C3F9D450AFF223C13B73A419B6D6A0 sha1 370136A129E2CE4903FC121DA1D60EF5AFF08809 )
 )
 game (
@@ -8055,6 +8338,7 @@ game (
 )
 game (
 	name "Mai Nurse (World) (v1.02)"
+	region "World"
 	rom ( name "Mai Nurse (World) (v1.02) (Aftermarket) (Unl).sfc" size 262144 crc 7CD0EECD md5 EDA757C1006BE557247259D356D73E28 sha1 0E49094FC9E36146436EC4AFD186A7B7937575C1 )
 )
 game (
@@ -8085,6 +8369,7 @@ game (
 game (
 	name "Major Title (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Major Title (Japan) (En).sfc" size 1048576 crc 0E98F71D md5 6634A5AEF26AFFBE074CFAC81DBD82C7 sha1 2B4A6FE13AD464BE863E50C93E9DA75AB93BA1EE )
 )
 game (
@@ -8139,7 +8424,8 @@ game (
 )
 game (
 	name "Mario Paint (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Mario Paint (Japan, USA) (En).sfc" size 1048576 crc 38C9626C md5 881D3772A3EB37A8A0FB254E940C6767 sha1 D027C03EB2FAEFA07640EC828B2A46F601F7B15F )
 )
 game (
@@ -8150,6 +8436,7 @@ game (
 game (
 	name "Mario to Wario (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mario to Wario (Japan) (En).sfc" size 1048576 crc C6695E34 md5 B1774F03700DFC311BFD86411DB629C3 sha1 68B307FA7FDFD91A190FA0148178473AA2406B41 )
 )
 game (
@@ -8170,6 +8457,7 @@ game (
 game (
 	name "Mario's Super Picross (Europe) (Ja) (Virtual Console)"
 	region "Europe"
+	language "Japanese"
 	rom ( name "Mario's Super Picross (Europe) (Ja) (Virtual Console).sfc" size 1048576 crc B230BD11 md5 DF49FC1458FF06F533EF1BC27F9E846F sha1 648019341831AE9A461561CC84E5C7825F1BF3BC )
 )
 game (
@@ -8195,6 +8483,7 @@ game (
 game (
 	name "Marko's Magic Football (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Marko's Magic Football (Europe) (En,Fr,De,Es).sfc" size 2097152 crc 4824A630 md5 3982F2846969F59F19B02CB1238713F3 sha1 A3E6D7711DC62A3092E96B5D9EA636A8AB6DEE36 )
 )
 game (
@@ -8240,6 +8529,7 @@ game (
 game (
 	name "Mask (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mask (Japan) (En).sfc" size 2097152 crc E91BB876 md5 BFFA82F9C6AB0D8D373CEDF5AC0391A6 sha1 E772EA32F969EDB3BB6B92A519E26186B9480F91 )
 )
 game (
@@ -8279,30 +8569,40 @@ game (
 )
 game (
 	name "MazezaM (World) (Proto 1)"
+	region "World"
 	rom ( name "MazezaM (World) (Proto 1) (Aftermarket) (Unl).sfc" size 262144 crc 4424F545 md5 09108E115A03436FB5DD53CF1D924EA8 sha1 48AF2269CAC6A9803163868D2270D328F23B134C )
 )
 game (
 	name "MazezaM (World) (Proto 2)"
+	region "World"
 	rom ( name "MazezaM (World) (Proto 2) (Aftermarket) (Unl).sfc" size 262144 crc F360E2D9 md5 A49E76A5C336D267A00E3981355850D6 sha1 CBEFC134D39B28B024012EC795B29C11A2777876 )
 )
 game (
 	name "MazezaM Challenge (World) (En,Fr) (v1.2)"
+	region "World"
+	language "English / French"
 	rom ( name "MazezaM Challenge (World) (En,Fr) (v1.2) (Aftermarket) (Unl).sfc" size 524288 crc 076AC3FE md5 DDDAF6B133EF16C19A253B5465517513 sha1 D263FFB10A1E4B8B177292FDB48973358A7C5ABA )
 )
 game (
 	name "MazezaM Challenge (World) (NEO Compo 2012)"
+	region "World"
 	rom ( name "MazezaM Challenge (World) (NEO Compo 2012) (Aftermarket) (Unl).sfc" size 524288 crc 86B790C7 md5 0E3DA57AC40885629197DFAF381303FF sha1 CDF110FD6E176F12CB65DECCAA7B29D3D230327D )
 )
 game (
 	name "MazezaM Challenge (World) (v1.1) (NEO Compo 2012)"
+	region "World"
 	rom ( name "MazezaM Challenge (World) (v1.1) (NEO Compo 2012) (Aftermarket) (Unl).sfc" size 524288 crc 5E468FB4 md5 7ECC4AF16B37CBE2B8015ACA09797669 sha1 020FF0DE87968B6F1591358A580A9043D1F1D979 )
 )
 game (
 	name "MazezaM Challenge DX (World) (En,Fr) (v2.1)"
+	region "World"
+	language "English / French"
 	rom ( name "MazezaM Challenge DX (World) (En,Fr) (v2.1) (NTSC) (Aftermarket) (Unl).sfc" size 524288 crc F5A916C4 md5 F0D5DBE570DCE081A12CB323A244A68C sha1 DFCC31B9979F93F82137ABDF7BD4F3349EB49782 )
 )
 game (
 	name "MazezaM Challenge DX (World) (En,Fr) (v2.1) (PAL)"
+	region "World"
+	language "English / French"
 	rom ( name "MazezaM Challenge DX (World) (En,Fr) (v2.1) (PAL) (Aftermarket) (Unl).sfc" size 524288 crc 17F7EE85 md5 68DBCEA87801C7EBDDE961668F5B5EA1 sha1 5E4BA2570EF63F08C92803CD0A24B91915989595 )
 )
 game (
@@ -8367,18 +8667,22 @@ game (
 )
 game (
 	name "Mega Family Bros (World)"
+	region "World"
 	rom ( name "Mega Family Bros (World) (Aftermarket) (Unl).sfc" size 1048576 crc 59CAEBD7 md5 6FF18DFAE7380A1D43422C1695FD0EDB sha1 21FC28BE19D7AECFC890BCF63DFD2F8D8EED5BD6 )
 )
 game (
 	name "Mega Man (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc AC8E409E md5 91D048159AD11BB3EE06BC090A6BDB06 sha1 E151CA94B84D97F7902E6C7EB30D8B3F6F194DC9 )
 )
 game (
 	name "Mega Man (World) (REV-D) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man (World) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 64D1382A md5 2F4AAA8AB4B302A0BDFAD80D43CE4AA7 sha1 D3B1228A37DE792C1CB0C0A319A230B42C666368 )
 )
 game (
 	name "Mega Man (World) (REV-E) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 44660632 md5 9CFFE28DE58AB928DFF2F287D253014E sha1 91286F96F06DC85B7064B1798B9D14B98C9F69FF )
 )
 game (
@@ -8393,46 +8697,57 @@ game (
 )
 game (
 	name "Mega Man II (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man II (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc FBB59CC5 md5 CE1259B08151F9351B6FD9DC5D178A45 sha1 B2ACFF9DA4AF3BDAB59ECBAD808F10EB4F8D4DFC )
 )
 game (
 	name "Mega Man II (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man II (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc B81FABFB md5 1DF88354201A40C70D9F455451421932 sha1 13612A40F8504020A6C5ED13014E5163FAE65256 )
 )
 game (
 	name "Mega Man II (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man II (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc BF9F622D md5 E12DD2F0EAD7BCA3E5289EAF1A71D4DB sha1 334D9D5844A530FEFC4599A6A49274E7B5082AAD )
 )
 game (
 	name "Mega Man II (World) (REV-E) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man II (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc D7CDD5DC md5 259965903452E0F1DA75CC126DF1CF1A sha1 E3F8BDE2C7738EFA50F0E0A24D1741ADBE909726 )
 )
 game (
 	name "Mega Man III (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man III (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 63953FA0 md5 ADEF38E5BA5A6E05D487E948291FEF7A sha1 B49EFDDB806A1BC2E0C99DA5F471513C48ED3814 )
 )
 game (
 	name "Mega Man III (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man III (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 9B241DE4 md5 2036630FE6114AF9CC0B169F196EC1E4 sha1 306956124A4539BD069448BD3A6BA9EF7FE89BEB )
 )
 game (
 	name "Mega Man IV (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man IV (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 88A455A7 md5 14A4B072FD3DC6EF20F22ACDAE867D8D sha1 7FC8861A7BA074D2D03DA31FD18A60D31DADA971 )
 )
 game (
 	name "Mega Man IV (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man IV (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc F6B61385 md5 E49EAD824FA7D819EB3086EB3C87FA67 sha1 48D2BA83676876C0D49A5D4B7DD3966AC3FC1906 )
 )
 game (
 	name "Mega Man IV (World) (REV-D) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man IV (World) (REV-D) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc 63793067 md5 4F15EB067D9165B615E72CA7E5BCE135 sha1 52AD2F6C61C10319708DD0AD85F36C6A83A8D0D7 )
 )
 game (
 	name "Mega Man IV (World) (REV-E) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man IV (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 2097152 crc A34A97AA md5 CF871DA39E12A03CB9DC8AC1AED4F935 sha1 F77CB626DB23B37A2F8D3F6F0B752B0D265411D9 )
 )
 game (
 	name "Mega Man IV (World) (REV-G) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man IV (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 4F914049 md5 65853F7DCC1F4DE97D3187C69ABBE3FE sha1 1FA2D7A9B71ECEF09305EF389A598C4B375B0D66 )
 )
 game (
@@ -8442,14 +8757,17 @@ game (
 )
 game (
 	name "Mega Man V (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man V (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 2131E2B7 md5 606B64BB051091F74AF619CED544ECCB sha1 9992F8C24161A194B6FAF1F490132B1CA96AF3D7 )
 )
 game (
 	name "Mega Man V (World) (REV-E) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man V (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc B1D358C8 md5 344E82612EA9DDBBEC58F6E2732B12D2 sha1 A2AFCB00DF03054EEDA405C57932645C703D8AD7 )
 )
 game (
 	name "Mega Man VI (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "Mega Man VI (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 2587652B md5 CB4C7C89771E0480C80058CAAEF536E3 sha1 1D2D8071666E2D2A2A62C1D0F822265D8DCCC1FF )
 )
 game (
@@ -8479,6 +8797,8 @@ game (
 )
 game (
 	name "Mega Man X (World) (En) (Mega Man X Legacy Collection)"
+	region "World"
+	language "English"
 	rom ( name "Mega Man X (World) (En) (Mega Man X Legacy Collection).sfc" size 1572864 crc 97A10846 md5 F1DFBBCDC3D8CDEAFA4B4B9AA51A56D6 sha1 14AA83CD2EAFAD1A9B04187A854E20B33CEFC207 )
 )
 game (
@@ -8498,6 +8818,8 @@ game (
 )
 game (
 	name "Mega Man X2 (World) (En) (Mega Man X Legacy Collection)"
+	region "World"
+	language "English"
 	rom ( name "Mega Man X2 (World) (En) (Mega Man X Legacy Collection).sfc" size 1572864 crc 8972DF65 md5 A8AA24DF75686A5BB1A08A27D1876F5F sha1 4A57802A0AD3817DAF1FF60D62E094B0612B5612 )
 )
 game (
@@ -8512,6 +8834,8 @@ game (
 )
 game (
 	name "Mega Man X3 (World) (En) (Mega Man X Legacy Collection)"
+	region "World"
+	language "English"
 	rom ( name "Mega Man X3 (World) (En) (Mega Man X Legacy Collection).sfc" size 2097152 crc 1ACB643D md5 FF683B75E75E9B59F0C713C7512A016B sha1 E1259C1BBD8CEF0769F193D8EEC83536BD15E4D0 )
 )
 game (
@@ -8522,6 +8846,7 @@ game (
 game (
 	name "Mega-lo-Mania (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Mega-lo-Mania (Europe) (En,Fr,De).sfc" size 1048576 crc E8042EDF md5 7A67D33F2CFC8C284F772CB681C411A2 sha1 E8DE68AEE66E5A524A0EE4A0FC76142E9A3C7A95 )
 )
 game (
@@ -8561,6 +8886,7 @@ game (
 )
 game (
 	name "Metal Marines (World) (Evercade)"
+	region "World"
 	rom ( name "Metal Marines (World) (Evercade).sfc" size 1572864 crc 972E5F42 md5 9292200F3102430D0BB1138E073BA364 sha1 51F60C67232BCEB195875A3D55361E1BDE4F5F8F )
 )
 game (
@@ -8590,14 +8916,17 @@ game (
 )
 game (
 	name "Metroid (World) (REV-E) (NES Conversion)"
+	region "World"
 	rom ( name "Metroid (World) (REV-E) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc 2A059E29 md5 6111CC9FDBB903687328ED555A31181E sha1 38FACAB4E7F2C93DBD50E249B0ADD83CEB9AD5F3 )
 )
 game (
 	name "Metroid (World) (REV-F) (NES Conversion)"
+	region "World"
 	rom ( name "Metroid (World) (REV-F) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 81B37C6A md5 7FB92D6B2219951437A453BFEF2742D6 sha1 0043C67572A4DA7337E4EC7698CFCBD014462AE8 )
 )
 game (
 	name "Metroid (World) (REV-G) (NES Conversion)"
+	region "World"
 	rom ( name "Metroid (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc CBAA1A84 md5 ABF0BE7777B50C9F32D406EBAA9ED0EE sha1 EC4D6A7FF9ED6CC1600E0554C47E9D377804370C )
 )
 game (
@@ -8733,6 +9062,7 @@ game (
 game (
 	name "Mighty Morphin Power Rangers (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mighty Morphin Power Rangers (Japan) (En).sfc" size 2097152 crc 812329C2 md5 6FC7D9663C350799D8F0B6168691385A sha1 5F2C815E36B3C7E1FD0B8E66DDDFE14D7A453FF2 )
 )
 game (
@@ -8763,16 +9093,19 @@ game (
 game (
 	name "Mike Tyson's Punch-Out!! (World) (REV-B) (NES Conversion)"
 	releaseyear "2024"
+	region "World"
 	rom ( name "Mike Tyson's Punch-Out!! (World) (2024) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 3145728 crc D664DBFA md5 A1B291A352CE1D065475AAAB883CE3D6 sha1 6902F61DD0B6C67930F86F7C66535656B0D706D8 )
 )
 game (
 	name "Mike Tyson's Punch-Out!! (World) (REV-B) (NES Conversion)"
 	releaseyear "2025"
+	region "World"
 	rom ( name "Mike Tyson's Punch-Out!! (World) (2025) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc A78DE923 md5 571CEA8B86208C214E5E8153E090650A sha1 BFCE61B5FF30D7434FD3BC6A602ABF4F68561FF7 )
 )
 game (
 	name "Mike Tyson's Punch-Out!! (World) (REV-C) (NES Conversion)"
 	releaseyear "2024"
+	region "World"
 	rom ( name "Mike Tyson's Punch-Out!! (World) (2024) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc BB3421A3 md5 4CE1E9FEBED55644101E546E98C5FA3A sha1 03C013DB15202084DE74882BF0266DC2AB5D6E03 )
 )
 game (
@@ -8904,6 +9237,7 @@ game (
 game (
 	name "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mortal Kombat - Shinken Kourin Densetsu (Japan) (En).sfc" size 2097152 crc 0BD8EC55 md5 D0527E4391603A2A90713CDF23BD8FBB sha1 3EEF203A3F878473C528ED3F3D2194DA27243907 )
 )
 game (
@@ -8944,6 +9278,7 @@ game (
 game (
 	name "Mortal Kombat II - Kyuukyoku Shinken (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mortal Kombat II - Kyuukyoku Shinken (Japan) (En).sfc" size 3145728 crc FB2D267C md5 3D166EFEE520AA0013C0846C3AC4D417 sha1 CEF60BBAD2A194F87243413F02803167100AFE8F )
 )
 game (
@@ -9009,6 +9344,7 @@ game (
 game (
 	name "Mr. Do! (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mr. Do! (Japan) (En).sfc" size 262144 crc 3847CF64 md5 3A70E3AEBECDA72BE7D0EAF7CEFA4C78 sha1 3DD5B75AFE94E28F9C0D82A18FC2B2ECCA100B64 )
 )
 game (
@@ -9019,35 +9355,43 @@ game (
 game (
 	name "Mr. Nutz (Europe) (En,Fr)"
 	region "Europe"
+	language "English / French"
 	rom ( name "Mr. Nutz (Europe) (En,Fr).sfc" size 1048576 crc BF4FCDF1 md5 42C1E03DD4FBA66F7D9CD74664ADF4A9 sha1 EE594AA4673B08A4BD31460B92A1ADF08DE54562 )
 )
 game (
 	name "Mr. Nutz (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Mr. Nutz (Japan) (En).sfc" size 1048576 crc 3DADD536 md5 1B3CBAE181B43A1B5C692BAEDF2B3DDE sha1 9CAA452368B34C86D55793C4C0835BBF42EF0F77 )
 )
 game (
 	name "Mr. Nutz (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	rom ( name "Mr. Nutz (USA) (En,Fr).sfc" size 1048576 crc A99BDD9A md5 F5889DB38B2152FDE80258C3A89F6A83 sha1 E803E7C067832C3A2604463E2262728117EFECA4 )
 )
 game (
 	name "Mr. Tuff (Europe) (En,Fr,De) (Proto 1)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Mr. Tuff (Europe) (En,Fr,De) (Proto 1).sfc" size 2097152 crc 53DFF1BB md5 8F9E046EF10EB6CFD04CC4A04375E454 sha1 F27EE028B82C594B61AD258118685344EA4A971F )
 )
 game (
 	name "Mr. Tuff (Europe) (En,Fr,De) (Proto 2)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Mr. Tuff (Europe) (En,Fr,De) (Proto 2).sfc" size 1572864 crc 58CD1F5A md5 01180EC2E6F2157FA49127E1371AB687 sha1 58840C2CE4F68E30F3D815E9774A1FD3D0D25BD6 )
 )
 game (
 	name "Mr. Tuff (Europe) (En,Fr,De,Es,It) (Proto 3)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Mr. Tuff (Europe) (En,Fr,De,Es,It) (Proto 3).sfc" size 1572864 crc 83F87BB7 md5 5F83CDC179B9D0220DC2867B8E7FDAA7 sha1 17EFA7BF116A462ABEDD3EA2CB59DDD1B8F9C327 )
 )
 game (
 	name "Mr. Tuff (World) (En,Fr,De,Es,It) (The Retro Room)"
+	region "World"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Mr. Tuff (World) (En,Fr,De,Es,It) (The Retro Room).sfc" size 2097152 crc 5C8A87B6 md5 4FBFFB470258BAB128A184D3F1FB0037 sha1 D4FACCAB9347ADA1AF76A3B39F6DFBC13E2E9544 )
 )
 game (
@@ -9112,10 +9456,12 @@ game (
 )
 game (
 	name "N-Warp Daisakusen (World)"
+	region "World"
 	rom ( name "N-Warp Daisakusen (World) (Aftermarket) (Unl).sfc" size 2097152 crc BB6A870F md5 7A76A36CB8A39AC0E223938005872AB8 sha1 855F6002B8C08904C724B98842342EE486A4E376 )
 )
 game (
 	name "N-Warp Daisakusen (World) (v1.1)"
+	region "World"
 	rom ( name "N-Warp Daisakusen (World) (v1.1) (Aftermarket) (Unl).sfc" size 2097152 crc BE08D788 md5 E6C5D532286EA248CEA10D878DF20A70 sha1 A7F7A2D214E9DCEA51C1A6F0FBFB9DDA39F26F46 )
 )
 game (
@@ -9126,6 +9472,7 @@ game (
 game (
 	name "NBA All-Star Challenge (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NBA All-Star Challenge (Japan) (En).sfc" size 1048576 crc E5014292 md5 067D9128BB7C3AC164CF184A880F6B12 sha1 5A2AC60B132F103DBD43B3A8442A6DBDD12DF8CD )
 )
 game (
@@ -9166,6 +9513,7 @@ game (
 game (
 	name "NBA Jam (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NBA Jam (Japan) (En).sfc" size 2097152 crc 118B162E md5 D9D67A64841F05FCD4F567415F1C7E25 sha1 8C5BE1E760A6EB91E29312AD71D25D4BB093CFF5 )
 )
 game (
@@ -9191,6 +9539,7 @@ game (
 game (
 	name "NBA Jam - Tournament Edition (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NBA Jam - Tournament Edition (Japan) (En).sfc" size 3145728 crc 3C169224 md5 C9C9EA0E0855C282C27FECD491CD4365 sha1 73903679034E74B4972EA0C796501697BA4CB331 )
 )
 game (
@@ -9291,6 +9640,7 @@ game (
 game (
 	name "NFL Football (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NFL Football (Japan) (En).sfc" size 1048576 crc A4B1DD93 md5 7EA711E169B14961932EC5FA715CD476 sha1 F8D1C903616F7B4302DF6D2BA36967EDE9940258 )
 )
 game (
@@ -9306,6 +9656,7 @@ game (
 game (
 	name "NFL Quarterback Club '95 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NFL Quarterback Club '95 (Japan) (En).sfc" size 3145728 crc 1C036B4F md5 B22CDBFBBD47BF49E0D69C7EDB23323A sha1 39A57E0005E656E8E8D3F9FD63C4CFFC39617A8B )
 )
 game (
@@ -9331,6 +9682,7 @@ game (
 game (
 	name "NFL Quarterback Club 96 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "NFL Quarterback Club 96 (Japan) (En).sfc" size 3145728 crc 3A4C0DE6 md5 D67A3E33268937C39C764BB8B2EAF220 sha1 DB582254119A83D34943CD276AC649330F894627 )
 )
 game (
@@ -9406,6 +9758,7 @@ game (
 game (
 	name "NHL Stanley Cup (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	rom ( name "NHL Stanley Cup (USA) (En,Fr).sfc" size 1048576 crc 584CE502 md5 54DC56A5CF3199E53B556775AE0304C7 sha1 D5FD9281A7D7CD25D87ED917873914829937D626 )
 )
 game (
@@ -9515,22 +9868,27 @@ game (
 )
 game (
 	name "New Super Mario Land (World)"
+	region "World"
 	rom ( name "New Super Mario Land (World) (Aftermarket) (Unl).sfc" size 2097152 crc 187CFBFA md5 079AB9C22A0AA40DB0B78A04FF954D00 sha1 E4DA96B8BA2E01DB4B5C85BAF5FBDCB75A3CE9E7 )
 )
 game (
 	name "New Super Mario Land (World) (v1.1)"
+	region "World"
 	rom ( name "New Super Mario Land (World) (v1.1) (Aftermarket) (Unl).sfc" size 2097152 crc 8D69103F md5 3D89D04F1DAEE43C6AF7218235042807 sha1 592D16617F9D8BE111CA914D387BFE59A84C0EEC )
 )
 game (
 	name "New Super Mario Land (World) (v1.2)"
+	region "World"
 	rom ( name "New Super Mario Land (World) (v1.2) (Aftermarket) (Unl).sfc" size 2097152 crc 6C2B54EB md5 EBED74B4E5DDE0423C61AE4730A7B6A4 sha1 37FACDA1CCAFE16235A6703703FB0E069645DE18 )
 )
 game (
 	name "New Super Mario Land (World) (v1.3)"
+	region "World"
 	rom ( name "New Super Mario Land (World) (v1.3) (Aftermarket) (Unl).sfc" size 2097152 crc 981E7001 md5 BEC2422E77DC90A2F3C6C208F206A99A sha1 FCD32CDC86F6678FB006992BDDEC1440789101CF )
 )
 game (
 	name "New Super Mario Land (World) (v1.5)"
+	region "World"
 	rom ( name "New Super Mario Land (World) (v1.5) (Aftermarket) (Unl).sfc" size 2097152 crc 2B50F2AF md5 37AC79B4BF8148BF1B80C36CC8C5F853 sha1 B2B21665C03AD8AF092CC55B2B9DF10B47E8A1CD )
 )
 game (
@@ -9586,6 +9944,7 @@ game (
 game (
 	name "Nigel Mansell IndyCar (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Nigel Mansell IndyCar (Japan) (En).sfc" size 2097152 crc 546062C7 md5 049A88774B855E84A4EC078A3A4D71CF sha1 572246049C52D2AF2796229F5FE84508F2461FD8 )
 )
 game (
@@ -9601,6 +9960,7 @@ game (
 game (
 	name "Nigel Mansell's World Championship Racing (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Nigel Mansell's World Championship Racing (Germany) (En).sfc" size 1048576 crc 83EB5296 md5 E5AB2F72C3704132944F47FC427D222C sha1 5B922C3C0FD06E928E0E54E69C07499608CA2051 )
 )
 game (
@@ -9631,6 +9991,7 @@ game (
 )
 game (
 	name "Nightmare Busters (World) (Super Fighter Team)"
+	region "World"
 	rom ( name "Nightmare Busters (World) (Super Fighter Team) (Unl).sfc" size 2097152 crc ABAAFF79 md5 5B78A0D25CF6E12BDF20C8F6F6B0CDAF sha1 65D156BCC43149D4828289BC78B2565A674F58BE )
 )
 game (
@@ -9640,10 +10001,12 @@ game (
 )
 game (
 	name "Ninja Gaiden Trilogy (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Ninja Gaiden Trilogy (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc E0EDC33F md5 9B41ADF2168574D02A79AAF2355D37DA sha1 FF5D1066445D1A7AD028A3E45B5146DE92C0DB80 )
 )
 game (
 	name "Ninja Gaiden Trilogy (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Ninja Gaiden Trilogy (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 86D2473C md5 23BF075BCD514A3F74AC36DDE8CBDC26 sha1 70A060A4DD269D1DCB202661B9EBE726E60CD757 )
 )
 game (
@@ -9688,12 +10051,13 @@ game (
 )
 game (
 	name "Nintendo Campus Challenge 1992 (USA, Europe) (Competition Cart)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Nintendo Campus Challenge 1992 (USA, Europe) (Competition Cart).sfc" size 1835008 crc 05623AAE md5 C53464E770C855250B58674FAE95894C sha1 DB86707DF15CA301B5E7508F6310C7781A7CDD7D )
 )
 game (
 	name "Nintendo Challenge (Japan) (En) (Competition Cart)"
 	region "Japan"
+	language "English"
 	rom ( name "Nintendo Challenge (Japan) (En) (Competition Cart).sfc" size 1835008 crc 2283A3BD md5 CD136941A7924423388CB982C9AE5431 sha1 256D3242E43B496A9FB4D4D1093AF20978662D83 )
 )
 game (
@@ -9793,6 +10157,7 @@ game (
 )
 game (
 	name "Nuke Your Mum! (World)"
+	region "World"
 	rom ( name "Nuke Your Mum! (World) (Unl).sfc" size 524288 crc C0C35B72 md5 65987A046A6113650FE0DE0703144D05 sha1 4772A2019937621AFE191773D853B2336AEF1C2B )
 )
 game (
@@ -9837,7 +10202,7 @@ game (
 )
 game (
 	name "Ogre Battle - The March of the Black Queen (USA, Europe) (Virtual Console)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Ogre Battle - The March of the Black Queen (USA, Europe) (Virtual Console).sfc" size 1572864 crc 645BE06B md5 A8DE9BB235319EF9B6B96B26F1296783 sha1 D042098F24378B8001FE8D008F562F8A40C084DF )
 )
 game (
@@ -9917,6 +10282,7 @@ game (
 )
 game (
 	name "Operation Logic Bomb - The Ultimate Search & Destroy (World) (Evercade)"
+	region "World"
 	rom ( name "Operation Logic Bomb - The Ultimate Search & Destroy (World) (Evercade).sfc" size 1048576 crc B29A80E7 md5 7C62792386D797856E3E79BD3B2D013C sha1 3C809CE38C22DF75369BD6A75528EDA979B824FC )
 )
 game (
@@ -10042,6 +10408,7 @@ game (
 game (
 	name "PGA Tour Golf (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "PGA Tour Golf (Japan) (En).sfc" size 524288 crc 8A2D377E md5 F6D10D83B5C66F695B5E16AE26411152 sha1 21CFAADE0721E2A893637B77B694CB22CCA16997 )
 )
 game (
@@ -10066,6 +10433,7 @@ game (
 )
 game (
 	name "Pac-Attack (World) (Evercade)"
+	region "World"
 	rom ( name "Pac-Attack (World) (Evercade).sfc" size 524288 crc 7D1D0E76 md5 945A8980E9A1CBFA970FC6873C5C5D79 sha1 210C532E4E6B0041777BC3B8EB55EF9496C47B14 )
 )
 game (
@@ -10206,6 +10574,7 @@ game (
 game (
 	name "Packy & Marlon (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Packy & Marlon (USA) (En,Fr,Es).sfc" size 1048576 crc BAB26E9C md5 80D91F6EEDAF3F3F4F34398AEBBE183D sha1 BBFBC9A781E5DDA63CAFEE9B1C3047DB3EE3A182 )
 )
 game (
@@ -10230,6 +10599,8 @@ game (
 )
 game (
 	name "Panel de Pon (World) (Ja) (Rev 1) (Virtual Console, Switch Online)"
+	region "World"
+	language "Japanese"
 	rom ( name "Panel de Pon (World) (Ja) (Rev 1) (Virtual Console, Switch Online).sfc" size 1048576 crc E3510CB3 md5 55E35840634595F20484EB0EB6D2E5B0 sha1 A5B11D77E105416EEB47172FF1D148BB38860034 )
 )
 game (
@@ -10370,11 +10741,13 @@ game (
 game (
 	name "Phalanx - The Enforce Fighter A-144 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Phalanx - The Enforce Fighter A-144 (Japan) (En).sfc" size 1048576 crc 561AEB8F md5 DE72DA17081CAFE62A9F035F7E71C8E5 sha1 EE2326DDB2AC8A87B7BFFF8B4CA7582687ADBEE8 )
 )
 game (
 	name "Phantom 2040 (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Phantom 2040 (Europe) (En,Fr,De).sfc" size 2097152 crc 14252650 md5 2269AE07AA776624792FE4CAC8BE1A24 sha1 748B19C7C6577BF3A15E284D2AD602D325DBA2C9 )
 )
 game (
@@ -10535,6 +10908,7 @@ game (
 game (
 	name "Pink Panther, The (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Pink Panther, The (Japan) (En).sfc" size 1048576 crc 0D1B3812 md5 C0AC4877C838AB7904B7341FD9399BC1 sha1 39436D24074F9CCC9874C25489AA93E36EFC1DE4 )
 )
 game (
@@ -10590,6 +10964,7 @@ game (
 game (
 	name "Pitfall - Maya no Daibouken (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Pitfall - Maya no Daibouken (Japan) (En).sfc" size 2097152 crc A81F9778 md5 11D81586785D856E1B1751BAB00C2DED sha1 405BA8A69648B11A9A98829DB4CBB5DCCB12EA64 )
 )
 game (
@@ -10615,6 +10990,7 @@ game (
 game (
 	name "Plok (France) (En,Fr)"
 	region "France"
+	language "English / French"
 	rom ( name "Plok (France) (En,Fr).sfc" size 1048576 crc E5E84E18 md5 7BED3A10E8E42D47B542637313EB96FE sha1 9FC200F34EECE7E477CAE7BE0217B66015E613EE )
 )
 game (
@@ -10679,7 +11055,7 @@ game (
 )
 game (
 	name "Pop'n TwinBee (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Pop'n TwinBee (USA, Europe) (Switch Online).sfc" size 1048576 crc 950696D9 md5 10AF6CCEA28EEB16C0D8ABD7C2A265DB sha1 F146317872C6C3312AB1CD674C76A9E964C9910F )
 )
 game (
@@ -10690,6 +11066,7 @@ game (
 game (
 	name "Pop'n TwinBee - Rainbow Bell Adventures (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Pop'n TwinBee - Rainbow Bell Adventures (Germany) (En).sfc" size 1048576 crc D56D74B3 md5 AE9FA79542609DD1561DE3F44A9B997B sha1 156C4C885BF99DC92625C6098669EAA1E0298C88 )
 )
 game (
@@ -10750,16 +11127,19 @@ game (
 game (
 	name "Power Athlete (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Power Athlete (Japan) (En).sfc" size 1048576 crc E9066ACB md5 C5363DBC9F42569AF92F5536C175792A sha1 54CA194A27627A3B89C27D5DC160118634B17DD5 )
 )
 game (
 	name "Power Drive (Europe) (En,Fr,De,Es,Pt)"
 	region "Europe"
+	language "English / French / German / Spanish / Portuguese"
 	rom ( name "Power Drive (Europe) (En,Fr,De,Es,Pt).sfc" size 1048576 crc 0BFDCA70 md5 710893291C4848EACC054B020AADB8EF sha1 9EB647E4CBA65F9CEBF1188D0C4BCFC67CC698AA )
 )
 game (
 	name "Power Drive (USA) (En,Fr,De,Es,Pt) (Proto)"
 	region "USA"
+	language "English / French / German / Spanish / Portuguese"
 	rom ( name "Power Drive (USA) (En,Fr,De,Es,Pt) (Proto).sfc" size 1048576 crc 389507BD md5 D5D2B96BAAD11B26F259E5AFA54E8F98 sha1 2768C87BB864DEE7C3390A229EC8E8690631B72E )
 )
 game (
@@ -10789,6 +11169,7 @@ game (
 )
 game (
 	name "Power Piggs of the Dark Age (World) (Evercade)"
+	region "World"
 	rom ( name "Power Piggs of the Dark Age (World) (Evercade).sfc" size 1572864 crc 491B0BCD md5 998F04F150C6D34CCB2C41F5B427C787 sha1 3CF095C0B589E442A42BE22FF42F08246746ED35 )
 )
 game (
@@ -10844,15 +11225,18 @@ game (
 game (
 	name "Prehistorik Man (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Prehistorik Man (Europe) (En,Fr,De).sfc" size 1048576 crc B0E4E48A md5 90C3BFEF7E6D3C54B23521250D514C69 sha1 77C96255CE51AD8ABBEF06909A6464656329C76F )
 )
 game (
 	name "Prehistorik Man (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "Prehistorik Man (USA) (En,Fr,Es).sfc" size 1048576 crc CB4F87BB md5 FBE14D670F28FA5C67C00DC551204838 sha1 8304FC1170507FC1814B2095FB6C2E42887CE5FD )
 )
 game (
 	name "Prehistorik Man (World)"
+	region "World"
 	rom ( name "Prehistorik Man (World) (Unl).sfc" size 1572864 crc 43B270B8 md5 949B52462A7ABDA1110A72AD327B6F34 sha1 D95F133812BC6F7D27AFBBE41AA664B3C25D3E96 )
 )
 game (
@@ -10918,6 +11302,7 @@ game (
 game (
 	name "Pro Football (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Pro Football (Japan) (En).sfc" size 524288 crc D07CFDCB md5 2E990EB7F8C9B318338D04E69286E394 sha1 1C8DF09898DD29053AA21E6D972132C420B5468E )
 )
 game (
@@ -10998,6 +11383,7 @@ game (
 game (
 	name "Push-Over (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Push-Over (Europe) (En,Fr,De,Es).sfc" size 524288 crc 6A4347FF md5 4B873C78DD98352F98CA31820D0B56CC sha1 CD949F174E8FDD9D6D7D20064AEF2022B13D00B6 )
 )
 game (
@@ -11008,6 +11394,7 @@ game (
 game (
 	name "Putty Moon (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Putty Moon (Japan) (En).sfc" size 1048576 crc ADFC4165 md5 9FCB6FD1AC113C5038626B0DD20BE0C6 sha1 87AE4BD4E7C9322AEEDC77E3323283D2E6AD5BC2 )
 )
 game (
@@ -11048,6 +11435,7 @@ game (
 game (
 	name "Q-bert 3 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Q-bert 3 (Japan) (En).sfc" size 524288 crc EA3BC44E md5 37EFB68B59C9259B38DB72AA90BF96CC sha1 05856B77E44BC47680BAE26C11FCE92A9D915DA8 )
 )
 game (
@@ -11062,6 +11450,7 @@ game (
 )
 game (
 	name "Qwak (World)"
+	region "World"
 	rom ( name "Qwak (World) (Aftermarket) (Unl).sfc" size 262144 crc CFB44991 md5 3982EF26134CED56BB5F5068263B77CE sha1 6C076E60C0B124A446B4C5B49BE13B199612412D )
 )
 game (
@@ -11087,16 +11476,19 @@ game (
 game (
 	name "R-Type III - The Third Lightning (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "R-Type III - The Third Lightning (Japan) (En).sfc" size 2097152 crc 1E1FF9FE md5 E5CB261F53BCA5A8BF70EC05C2A9E3DB sha1 945259EBA6B62E4BA124452A0C393640F4B61A09 )
 )
 game (
 	name "R-Type III - The Third Lightning (Japan) (En) (Virtual Console)"
 	region "Japan"
+	language "English"
 	rom ( name "R-Type III - The Third Lightning (Japan) (En) (Virtual Console).sfc" size 2097152 crc D2B466F6 md5 6AC566248AD240B18D745E949B256CAE sha1 4D103BC1B39CA2F03A2AE6C8DC7D6DA517B7A70C )
 )
 game (
 	name "R.P.M. Racing (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "R.P.M. Racing (Japan) (En).sfc" size 524288 crc 35FCD374 md5 6905BA46D6D5757CB4EABB92B789BBDB sha1 516CD02B2966B3581C3865216FB07E8B58A9B22C )
 )
 game (
@@ -11141,11 +11533,13 @@ game (
 )
 game (
 	name "Radical Rex (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Radical Rex (World) (QUByte Classics).sfc" size 1048576 crc 9437A19B md5 520AD5D30D24D5193557797C2A784C08 sha1 3D488AFB36A55D66A11F9953EA1FBBEFC5A8229D )
 )
 game (
 	name "Raiden Densetsu (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Raiden Densetsu (Japan) (En).sfc" size 1048576 crc C352D27F md5 9335689FCC1720E08DDFFC8DDEC9B62D sha1 E9B0CA191F599BEE60B6491F3D707C9C5B831D83 )
 )
 game (
@@ -11161,6 +11555,7 @@ game (
 game (
 	name "Ramos Ruy no World Wide Soccer (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Ramos Ruy no World Wide Soccer (Japan) (En).sfc" size 1048576 crc 906D505E md5 1333FA2BC1D80B413418D87E7B27FA66 sha1 20EBDD1E76627B361139AE7D95EE265D238E1215 )
 )
 game (
@@ -11216,6 +11611,7 @@ game (
 game (
 	name "RapJam - Volume One (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	rom ( name "RapJam - Volume One (USA) (En,Fr,Es).sfc" size 2097152 crc ADF4FFCE md5 BC4B5B11B75E0D701C8275A6D93574E2 sha1 84066D13DE393ABB5978BFC3DBC04F85FDE112E2 )
 )
 game (
@@ -11241,6 +11637,7 @@ game (
 game (
 	name "Red October (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Red October (Japan) (En).sfc" size 524288 crc 76065E37 md5 083CC827E556260298859F21CBF6F352 sha1 DA5BE64FC5BFA4A512AEEE3AAC7ABCB699D0B9B9 )
 )
 game (
@@ -11291,6 +11688,7 @@ game (
 game (
 	name "Rendering Ranger R2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Rendering Ranger R2 (Japan) (En).sfc" size 2097152 crc 8FB5AC86 md5 057F03C63B9CDB4B1E7DD340982F2640 sha1 F40AC25A6CDFF1E8384723CAD0290BA42FD50BDA )
 )
 game (
@@ -11300,6 +11698,7 @@ game (
 )
 game (
 	name "Rendering Ranger R2 (World) (Limited Run Games)"
+	region "World"
 	rom ( name "Rendering Ranger R2 (World) (Limited Run Games).sfc" size 2097152 crc F6587443 md5 7E846BA3D7E6944C9F90E2E8EC0F7590 sha1 E4A50D170CEA797D2636048343CE91A571D08B89 )
 )
 game (
@@ -11310,14 +11709,17 @@ game (
 game (
 	name "Return of Double Dragon (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Return of Double Dragon (Japan) (En).sfc" size 1048576 crc 10470B58 md5 EF37E657E2BB1FBFF7C1C09A184028B5 sha1 5F03E04CE7BCA88F8C2C11934056A3A67BFB319B )
 )
 game (
 	name "Return of Double Dragon (World) (Evercade)"
+	region "World"
 	rom ( name "Return of Double Dragon (World) (Evercade).sfc" size 1572864 crc BB2684C3 md5 686DA540762C1E280BD081DD396E7109 sha1 C26C6AE19FB0E9EFD2C30B89C88E671180243C63 )
 )
 game (
 	name "Return of Double Dragon (World) (v1.1) (Evercade)"
+	region "World"
 	rom ( name "Return of Double Dragon (World) (v1.1) (Evercade).sfc" size 1572864 crc 3AA42970 md5 2786C5E1D18A0974B5A94E36CBAF9D3F sha1 514C826DA531FB2FAA16528E2D20EE24D4BDA5AE )
 )
 game (
@@ -11333,11 +11735,13 @@ game (
 game (
 	name "Revolution X (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Revolution X (Germany) (En).sfc" size 2097152 crc 59D0F587 md5 B75DCA377CEBBAE23E39820952EF59E7 sha1 CB1182799C76B7947F2415F1406BC13E0692CBA5 )
 )
 game (
 	name "Revolution X (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Revolution X (Japan) (En).sfc" size 2097152 crc B5939FDC md5 D5ACDAA3E261EFA816985A403D4EA533 sha1 7310659D93D6F3E96F6465F47C72E4B11B11C13D )
 )
 game (
@@ -11348,11 +11752,13 @@ game (
 game (
 	name "Rex Ronan - Experimental Surgeon (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	rom ( name "Rex Ronan - Experimental Surgeon (USA) (En,Es).sfc" size 524288 crc 105AC679 md5 9B50EF63A155BBA8468E24FEF63B7CD1 sha1 0CF2A7F472CA59C266BABDABA2E7583685EA3D32 )
 )
 game (
 	name "Riddick Bowe Boxing (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Riddick Bowe Boxing (Japan) (En).sfc" size 524288 crc A9A1836A md5 8D4794A6AF6FC3A363A749D02ECDC838 sha1 3A3FCA771AE4567F119563BE629A0B5FCB7F420A )
 )
 game (
@@ -11367,38 +11773,47 @@ game (
 )
 game (
 	name "Ring Dash (World)"
+	region "World"
 	rom ( name "Ring Dash (World) (Aftermarket) (Unl).sfc" size 458752 crc 992B16B3 md5 0918653DD6E9C9EC0D2CDAA3B064C046 sha1 16645A33F5C631B675DA443019EEB4C3BA5C0E64 )
 )
 game (
 	name "Ring Dash (World) (Demo 1)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 1) (Aftermarket) (Unl).sfc" size 262144 crc 0A479767 md5 A850FAAE27DDEDFA8C6A765C88563CDC sha1 A455151666F8F6A144B1F3693BF9918B6D095C83 )
 )
 game (
 	name "Ring Dash (World) (Demo 2)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 2) (Aftermarket) (Unl).sfc" size 393216 crc B4E6DE65 md5 B46EE8964169618294B7BB7774148521 sha1 40CAFC8EF184AF6CE28F523475E282DBCBB8F0EB )
 )
 game (
 	name "Ring Dash (World) (Demo 3)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 3) (Aftermarket) (Unl).sfc" size 458752 crc 61CBC222 md5 D9B1E45F34146C60F8C723645BAE636C sha1 F8FCFCF9DF79F1C288CFCAEF9683176FE890BA75 )
 )
 game (
 	name "Ring Dash (World) (Demo 4)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 4) (Aftermarket) (Unl).sfc" size 458752 crc 6EC4DAED md5 3BDC3E6B842AB51906F2FE14C50EEC3F sha1 E3FEC638D7C7161EDE0AC31C5DD5557DFC8A1A30 )
 )
 game (
 	name "Ring Dash (World) (Demo 5)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 5) (Aftermarket) (Unl).sfc" size 458752 crc C9CF4F3C md5 CC403A5D9F88C696883CF6294BFD81D6 sha1 E926D64927F9DD0F3629E0ABFD67669BA834A366 )
 )
 game (
 	name "Ring Dash (World) (Demo 6)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 6) (Aftermarket) (Unl).sfc" size 458752 crc DDC49BC1 md5 D8BE5860878D6AAB238400D33C285870 sha1 74955AD41DFA7846F3C621A97C2BDF581FA7F01F )
 )
 game (
 	name "Ring Dash (World) (Demo 7)"
+	region "World"
 	rom ( name "Ring Dash (World) (Demo 7) (Aftermarket) (Unl).sfc" size 458752 crc F7A3ABA0 md5 86BC759DD6DC835FF6AD3CB200D60D26 sha1 9C6C026590EE92CCF6F249439C713B2F5D2289C2 )
 )
 game (
 	name "Ring Dash (World) (v1.1)"
+	region "World"
 	rom ( name "Ring Dash (World) (v1.1) (Aftermarket) (Unl).sfc" size 458752 crc DE9757DB md5 1B1A7DC6523FC2662A803AB758CB8F15 sha1 FDA67B2E091BCAAB65E068A50230B1B9C12CF611 )
 )
 game (
@@ -11419,6 +11834,7 @@ game (
 game (
 	name "Rise of the Robots (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Rise of the Robots (Japan) (En).sfc" size 4194304 crc 09F827A5 md5 A107A7D1313EE5C19F5E28DA009E47F2 sha1 4859D5B6C58AC7D6EBE12A24BD0B7ED89ECF88F9 )
 )
 game (
@@ -11438,50 +11854,72 @@ game (
 )
 game (
 	name "River City Girls Zero (World) (De) (Switch)"
+	region "World"
+	language "German"
 	rom ( name "River City Girls Zero (World) (De) (Switch).sfc" size 4194304 crc 127F554B md5 951D4286A5C2D561E5A8BB4D7285ED03 sha1 6A66F295029D80FAE8C76D94362378E7E2E69D00 )
 )
 game (
 	name "River City Girls Zero (World) (Es) (Switch)"
+	region "World"
+	language "Spanish"
 	rom ( name "River City Girls Zero (World) (Es) (Switch).sfc" size 4194304 crc 324B4D54 md5 85B1003CBB64E7AF7C96426316DA3F70 sha1 C7FED035EAE81645A56060DB21E70AB60FDCFF3E )
 )
 game (
 	name "River City Girls Zero (World) (Fr) (Switch)"
+	region "World"
+	language "French"
 	rom ( name "River City Girls Zero (World) (Fr) (Switch).sfc" size 4194304 crc 6B036F40 md5 71004CE8B55F0FBE42A6393B0DD8635A sha1 0530CFA2174098796078D3A46F82BD7C36CF09C5 )
 )
 game (
 	name "River City Girls Zero (World) (It) (Switch)"
+	region "World"
+	language "Italian"
 	rom ( name "River City Girls Zero (World) (It) (Switch).sfc" size 4194304 crc E8CCC32C md5 462C0A9A43A236FA38F667EEE68376D2 sha1 67A2ADE56FD01E7599A828A57ABD1705784B60E9 )
 )
 game (
 	name "River City Girls Zero (World) (Ja) (Switch)"
+	region "World"
+	language "Japanese"
 	rom ( name "River City Girls Zero (World) (Ja) (Switch).sfc" size 4194304 crc 09B30705 md5 477A3CF7C2D67D85D68F5F76937EA930 sha1 7628A039EEBB3235664EDDF35EB4458C3F2B05EC )
 )
 game (
 	name "River City Girls Zero (World) (Ko) (Switch)"
+	region "World"
+	language "Korean"
 	rom ( name "River City Girls Zero (World) (Ko) (Switch).sfc" size 4194304 crc 932C8D7D md5 85E4285EEC82B3CEB06D9E786E859499 sha1 1EE96602B7F34B738B3B52C1A575DF271F56EA2B )
 )
 game (
 	name "River City Girls Zero (World) (Switch) (Original Translation)"
+	region "World"
 	rom ( name "River City Girls Zero (World) (Switch) (Original Translation).sfc" size 4194304 crc 92C1B170 md5 3ACF4D6E8045F89C9A3898D4A73416A9 sha1 E1CC41DD0FB6FAC8410A699BD0CF0421E1BDAC16 )
 )
 game (
 	name "River City Girls Zero (World) (Switch) (RCG Translation)"
+	region "World"
 	rom ( name "River City Girls Zero (World) (Switch) (RCG Translation).sfc" size 4194304 crc CB32C4A0 md5 CED44A078B12CD3D659874C4DE2FA2D4 sha1 D116AEE4DF76BDD593E33231B1227478DAD484BB )
 )
 game (
 	name "River City Girls Zero (World) (Zh-Hans) (Steam)"
+	region "World"
+	language "Chinese"
 	rom ( name "River City Girls Zero (World) (Zh-Hans) (Steam).sfc" size 4194304 crc C8B39DA3 md5 8A36BD3DD4CDE9527FAC6F25567EB33F sha1 71323911CCEB69995C2B24D50C68F762445FC189 )
 )
 game (
 	name "River City Girls Zero (World) (Zh-Hans) (Switch)"
+	region "World"
+	language "Chinese"
 	rom ( name "River City Girls Zero (World) (Zh-Hans) (Switch).sfc" size 4194304 crc 8FCBE2F3 md5 57206F565FB11014E938D9E6DF395699 sha1 6B7470BDFEA3997802B445F7A802460ED9FC6264 )
 )
 game (
 	name "River City Girls Zero (World) (Zh-Hant) (Steam)"
+	region "World"
+	language "Chinese"
 	rom ( name "River City Girls Zero (World) (Zh-Hant) (Steam).sfc" size 4194304 crc B596E496 md5 7C258F8E4C73D9D575025004B144C047 sha1 E763BE6A0407C740248CF5B1938339D24D45E41D )
 )
 game (
 	name "River City Girls Zero (World) (Zh-Hant) (Switch)"
+	region "World"
+	language "Chinese"
 	rom ( name "River City Girls Zero (World) (Zh-Hant) (Switch).sfc" size 4194304 crc F2EE9BC6 md5 3CA02401097E010909874F300D435CA4 sha1 BB69A166A6B1B2B5BE3D6ED2A1DDB756430D7E73 )
 )
 game (
@@ -11551,6 +11989,7 @@ game (
 )
 game (
 	name "Rockfall (World)"
+	region "World"
 	rom ( name "Rockfall (World) (Unl).sfc" size 393216 crc 655C13DF md5 BED537F046EA4CBB4EE7056446D1BA57 sha1 B3F38DF89AE6B463513BE97BA53DD4188AD2E731 )
 )
 game (
@@ -11575,6 +12014,8 @@ game (
 )
 game (
 	name "Rockman X (World) (Ja) (Mega Man X Legacy Collection)"
+	region "World"
+	language "Japanese"
 	rom ( name "Rockman X (World) (Ja) (Mega Man X Legacy Collection).sfc" size 1572864 crc 94CA42BF md5 D1DB4D338FFCC950D6FE2D2B25A7C4FA sha1 67CC4BC4C9F23532D72D188EF96B431D3BAED401 )
 )
 game (
@@ -11584,6 +12025,8 @@ game (
 )
 game (
 	name "Rockman X2 (World) (Ja) (Mega Man X Legacy Collection)"
+	region "World"
+	language "Japanese"
 	rom ( name "Rockman X2 (World) (Ja) (Mega Man X Legacy Collection).sfc" size 1572864 crc 011E5068 md5 8F2C5FA6003C74E7E3AC823FE0CE7BA1 sha1 44431B4489BD3726B220D9A879DF0A267C57CF2A )
 )
 game (
@@ -11593,6 +12036,8 @@ game (
 )
 game (
 	name "Rockman X3 (World) (Ja) (Mega Man X Legacy Collection)"
+	region "World"
+	language "Japanese"
 	rom ( name "Rockman X3 (World) (Ja) (Mega Man X Legacy Collection).sfc" size 2097152 crc 741AB27B md5 3108E8CBA0B2726988BA42DD1855F89D sha1 10B62C6CDE8EA29E60B409DC357690DD83811C2E )
 )
 game (
@@ -11683,18 +12128,22 @@ game (
 game (
 	name "Royal Conquest (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Royal Conquest (Japan) (En).sfc" size 524288 crc F60E933E md5 94DEDE46202711AEAF1408631193EE3D sha1 EADC7A5E84D57B3092814E339801BC086A63A976 )
 )
 game (
 	name "Rrodas Cross (World) (Demo 1)"
+	region "World"
 	rom ( name "Rrodas Cross (World) (Demo 1) (Aftermarket) (Unl).sfc" size 1048576 crc 87A38470 md5 1A3CA6117F34E15A509BF3E1C85AA242 sha1 66E7CF5B0AB7F166A750F11B6CF755545DCE3E8A )
 )
 game (
 	name "Rrodas Cross (World) (Demo 2)"
+	region "World"
 	rom ( name "Rrodas Cross (World) (Demo 2) (Aftermarket) (Unl).sfc" size 1048576 crc 63854962 md5 37603B5AA42E3CC8FDE02F69E21C91C1 sha1 3B47B05E6108A29590379F159B3B01367AA8CDBD )
 )
 game (
 	name "Rrodas Cross (World) (Demo 3)"
+	region "World"
 	rom ( name "Rrodas Cross (World) (Demo 3) (Aftermarket) (Unl).sfc" size 1048576 crc 186BFD41 md5 58CBAA2B58911C48B320FEDB6C536277 sha1 BAD4900D4FCDE1C0D386005723CF59A8797E478E )
 )
 game (
@@ -11724,6 +12173,7 @@ game (
 )
 game (
 	name "Rushing Beat (World) (Evercade)"
+	region "World"
 	rom ( name "Rushing Beat (World) (Evercade).sfc" size 1048576 crc B8A7B64F md5 B75392CF3E25803A3A3F5B6B5A8435B3 sha1 85E3E581B33C633DA07D595DC482EB3FE614AB30 )
 )
 game (
@@ -11768,6 +12218,7 @@ game (
 )
 game (
 	name "SA1 Demonstration Program (World) (Tech Demo)"
+	region "World"
 	rom ( name "SA1 Demonstration Program (World) (Tech Demo).sfc" size 1048576 crc 239D2862 md5 E383EFE58D3AB9A7DB9472DFE842E765 sha1 7F72357E99D1E899CA5DF82AFF86566423E17CBD )
 )
 game (
@@ -11857,11 +12308,13 @@ game (
 )
 game (
 	name "SNES Christmas Game (World)"
+	region "World"
 	rom ( name "SNES Christmas Game (World) (Aftermarket) (Unl).sfc" size 524288 crc CD5E651E md5 C33A0B4AAEA2C10E81F1BDB4EE15A4E7 sha1 F62061529A85D864E4CAABC48CA71966C058A068 )
 )
 game (
 	name "SNSP Aging Ver 1.02 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "SNSP Aging Ver 1.02 (Japan) (En).sfc" size 131072 crc 55938E4E md5 55B2A79C117F03079A75F51A89990CA0 sha1 BF14FFDEA30D4DF4D158A14E3B8F107DF38D167B )
 )
 game (
@@ -11871,7 +12324,7 @@ game (
 )
 game (
 	name "ST010 (Japan, USA) (Enhancement Chip)"
-	region "Japan"
+	region "Japan / USA"
 	rom ( name "ST010 (Japan, USA) (Enhancement Chip).bin" size 53248 crc 8FC29D4C md5 636093910FBAFF60C8B327BE00AEFBD9 sha1 6472828403DE3589433A906E2C3F3D274C0FF008 )
 )
 game (
@@ -12086,10 +12539,14 @@ game (
 )
 game (
 	name "Secret of Mana (World) (De) (Collection of Mana)"
+	region "World"
+	language "German"
 	rom ( name "Secret of Mana (World) (De) (Collection of Mana).sfc" size 2097152 crc 9499855E md5 FF5790E984D6AB8109963C7B2F8A2A97 sha1 AA220E43981B86CFBD89CB53F41C14DDCEBA472B )
 )
 game (
 	name "Secret of Mana (World) (Fr) (Rev 1) (Collection of Mana)"
+	region "World"
+	language "French"
 	rom ( name "Secret of Mana (World) (Fr) (Rev 1) (Collection of Mana).sfc" size 2097152 crc C5FFEA78 md5 DE712DE1ABCB0EB554911C374EF8919B sha1 B299B5104CFA4F087FD43C010AC5C93F4CD8843F )
 )
 game (
@@ -12140,6 +12597,7 @@ game (
 game (
 	name "Sensible Soccer - European Champions (Europe) (En,Fr,De,It)"
 	region "Europe"
+	language "English / French / German / Italian"
 	rom ( name "Sensible Soccer - European Champions (Europe) (En,Fr,De,It).sfc" size 524288 crc DCC702D4 md5 21DCAD7CBA71991E2A896AE7BB22809B sha1 99D9C978CC54817BB57BFB60D9B5493F6AF01750 )
 )
 game (
@@ -12155,6 +12613,7 @@ game (
 game (
 	name "Sextris (Peru) (En) (Pirate)"
 	region "Peru"
+	language "English"
 	rom ( name "Sextris (Peru) (En) (Pirate).sfc" size 524288 crc 1F27C7E9 md5 9CC9BC50F966B2CCCDB7CD145F117CEB sha1 2255D1D3E03CD1CA276D6C2717279433F1EC74A9 )
 )
 game (
@@ -12424,7 +12883,7 @@ game (
 )
 game (
 	name "Shockman Zero (USA, Europe) (Retro-Bit)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Shockman Zero (USA, Europe) (Retro-Bit).sfc" size 2097152 crc FCB661E6 md5 87D49E09FD56C3142778CA8E8FD52D02 sha1 1947B4D6AEA1AF97588D7D66674D343B0E9B1145 )
 )
 game (
@@ -12505,6 +12964,7 @@ game (
 game (
 	name "Side Pocket (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Side Pocket (Japan) (En).sfc" size 1048576 crc 0E074268 md5 795DEA95B245CBDF063CF536B0FACB2E sha1 87644E8BF4444719C00C67FC4FE6E9D08AEE1297 )
 )
 game (
@@ -12514,6 +12974,7 @@ game (
 )
 game (
 	name "Side Pocket (World) (Evercade)"
+	region "World"
 	rom ( name "Side Pocket (World) (Evercade).sfc" size 1048576 crc 51C0F57B md5 3D8A62C8BAE0EB021C8B77B24BC60DB3 sha1 FEEC2763A82D29816A28EFA830B91A310DA56CB1 )
 )
 game (
@@ -12594,6 +13055,7 @@ game (
 game (
 	name "Simpsons, The - Bart no Fushigi na Yume no Daibouken (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Simpsons, The - Bart no Fushigi na Yume no Daibouken (Japan) (En).sfc" size 1048576 crc 6598790A md5 C878153174C1B65F0DE95AFEE6155796 sha1 9098E80122EAE6503A5C15169A48993302242EB6 )
 )
 game (
@@ -12618,10 +13080,12 @@ game (
 )
 game (
 	name "Skipp and Friends - Unexpected Journey (World) (PDroms Competition 4.01)"
+	region "World"
 	rom ( name "Skipp and Friends - Unexpected Journey (World) (PDroms Competition 4.01) (Aftermarket) (Unl).sfc" size 1048576 crc C879FBC0 md5 28CD4FC2253D245210CEA84A354A8D50 sha1 D1F821DF4542BC5A49AEFD49E54B4103136AFE7E )
 )
 game (
 	name "Skipp and Friends - Unexpected Journey (World) (v1.1)"
+	region "World"
 	rom ( name "Skipp and Friends - Unexpected Journey (World) (v1.1) (Aftermarket) (Unl).sfc" size 1048576 crc C1C4AC32 md5 0FA4813BC4D5BD4982D609DC94733E22 sha1 E7BC816AFECC36510F51C65871BD8FEC859DC63F )
 )
 game (
@@ -12631,11 +13095,13 @@ game (
 )
 game (
 	name "Skuljagger - Revolt of the Westicans (World) (Evercade)"
+	region "World"
 	rom ( name "Skuljagger - Revolt of the Westicans (World) (Evercade).sfc" size 524288 crc 2CA4C8BD md5 48421557187AEC8E199137397FC7D08C sha1 2F157E7B4C0F5DCCC74DFB20A0A488FDD817E31F )
 )
 game (
 	name "Sky Mission (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Sky Mission (Japan) (En).sfc" size 524288 crc 0866A769 md5 97169504F80C4BBDD89EE7A40C6F3D54 sha1 AAA8EE733CD5E60FFAB85CE0948C561B11D24173 )
 )
 game (
@@ -12661,6 +13127,7 @@ game (
 game (
 	name "Sleep (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	rom ( name "Sleep (Japan) (En) (Proto).sfc" size 1048576 crc D294BB47 md5 5718EA0C2D8A057EE3CDA70B5883F9B7 sha1 1DC7706266B321BBCD58997944AF9D00E6307172 )
 )
 game (
@@ -12671,6 +13138,7 @@ game (
 game (
 	name "Smash T.V. (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Smash T.V. (Japan) (En).sfc" size 524288 crc 3147AD34 md5 EAF7F6E246C04B0874854F30709AC705 sha1 CC88454C2BFF47862F1764EB50D3A386A1236652 )
 )
 game (
@@ -12681,15 +13149,18 @@ game (
 game (
 	name "Smurfs Travel the World, The (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Smurfs Travel the World, The (Europe) (En,Fr,De,Es).sfc" size 1310720 crc 22947169 md5 5E2C747B0B106DF325E3D5904DB66615 sha1 6432F7E6F98417F78D30CF31252F4ACFF9089622 )
 )
 game (
 	name "Smurfs, The (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Smurfs, The (Europe) (En,Fr,De,Es,It).sfc" size 1048576 crc 2AE148D6 md5 425D5643E470836B3EF0919811655813 sha1 371B0E8329EB48EBA1CAEB8B8A051FEA240282BD )
 )
 game (
 	name "Snake Blasters (World) (Proto)"
+	region "World"
 	rom ( name "Snake Blasters (World) (Proto) (Unl).sfc" size 98304 crc E57A7819 md5 5B48A492E50C1E21125B3AA44C9BF4E5 sha1 5A6856C6E34C39A63F99559C575CE91CDA56C990 )
 )
 game (
@@ -12705,6 +13176,7 @@ game (
 game (
 	name "Soccer Kid (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Soccer Kid (Europe) (En,Fr,De,Es,It).sfc" size 1310720 crc 2A9966C0 md5 5F0B2EB58FBDA7F2ED56E9DE5D3D7D64 sha1 1560651300A09B2724365B0B558D13BA320099F9 )
 )
 game (
@@ -12714,10 +13186,14 @@ game (
 )
 game (
 	name "Soccer Kid (World) (En,Fr,De,Es,It) (Evercade)"
+	region "World"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Soccer Kid (World) (En,Fr,De,Es,It) (Evercade).sfc" size 1310720 crc 7D2FD6D8 md5 4BB3A4D4652AF58B02810B9B9FDBE98D sha1 B49CFE84C69C81103AA344E843EACE7D8514D0BA )
 )
 game (
 	name "Soccer Kid (World) (En,Fr,De,Es,It) (GOG)"
+	region "World"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Soccer Kid (World) (En,Fr,De,Es,It) (GOG).sfc" size 1310720 crc 4853F92B md5 E5CDDF4252578C0BE35440959E696B24 sha1 6E06FDDDD60AC092F20C60274943CEE8E557697D )
 )
 game (
@@ -12727,7 +13203,7 @@ game (
 )
 game (
 	name "Socks the Cat Rocks the Hill (USA, Europe) (Second Dimension)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Socks the Cat Rocks the Hill (USA, Europe) (Second Dimension) (Unl).sfc" size 1048576 crc CAC6521F md5 83E32937E3EDC564E117FF70E6B8F5C9 sha1 DFD2856DCF975AED784546D1B452EB3FEC3F3A90 )
 )
 game (
@@ -12863,6 +13339,7 @@ game (
 game (
 	name "Sound Factory (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	rom ( name "Sound Factory (Japan) (En) (Proto).sfc" size 1048576 crc FB0A855A md5 5AE643072832047B09462F111099B4F5 sha1 060BF62F0D2CD30D9CD4B843D8B316EBECBB96B6 )
 )
 game (
@@ -12878,6 +13355,7 @@ game (
 game (
 	name "Space Ace (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Space Ace (Japan) (En).sfc" size 1048576 crc 62904E35 md5 BFB35AA992B217264BBAAEE76444AA4A sha1 2E864A78354E67F432303764EF7CB643C626535D )
 )
 game (
@@ -12922,10 +13400,12 @@ game (
 )
 game (
 	name "Space Rescue Squad (World) (Demo 1) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Space Rescue Squad (World) (Demo 1) (SNESDEV 2025) (Aftermarket) (Unl).sfc" size 262144 crc 88FB19F8 md5 D3B60FE253214BEAD8CD080C44612F18 sha1 8FB66E51D863912FEE4F0F0A51461D6C3BF2099E )
 )
 game (
 	name "Space Rescue Squad (World) (Demo 2)"
+	region "World"
 	rom ( name "Space Rescue Squad (World) (Demo 2) (Aftermarket) (Unl).sfc" size 262144 crc 65E423A5 md5 A53BE7F1DDDF4045C1909B4CCA9D36D2 sha1 6E7136197DF031384747C8A2E270B08950AA4CD5 )
 )
 game (
@@ -12951,6 +13431,7 @@ game (
 game (
 	name "Sparkster (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Sparkster (Japan) (En).sfc" size 1048576 crc F5A2A976 md5 C976764C97910E54ED96C3AE3C20758D sha1 2981B8686B3D2819F8757CD465F60E300A69F759 )
 )
 game (
@@ -13035,6 +13516,7 @@ game (
 )
 game (
 	name "Spider-Man - Venom - Maximum Carnage (World) (Marvel MaXimum Collection)"
+	region "World"
 	rom ( name "Spider-Man - Venom - Maximum Carnage (World) (Marvel MaXimum Collection).sfc" size 2097152 crc 9D840D0B md5 76B4558EE02F046168BD9E6B3F2642E7 sha1 C82DFF7C20967E20A849673CD0F0A1A670A17097 )
 )
 game (
@@ -13049,6 +13531,7 @@ game (
 )
 game (
 	name "Spider-Man - X-Men - Arcade's Revenge (World) (Marvel MaXimum Collection)"
+	region "World"
 	rom ( name "Spider-Man - X-Men - Arcade's Revenge (World) (Marvel MaXimum Collection).sfc" size 1048576 crc B07FFB8A md5 7398D0BFC067E010E357486546FC47C5 sha1 EC6BD15F34E41FAE55CE1332B0E8048CD69F2C00 )
 )
 game (
@@ -13059,6 +13542,7 @@ game (
 game (
 	name "Spindizzy Worlds (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Spindizzy Worlds (Japan) (En).sfc" size 1048576 crc 8F5B2404 md5 21424083A20B1AE441EFC10E3F6BFB42 sha1 0F638CB98399A456C826A66E59E9C3286AEBB644 )
 )
 game (
@@ -13069,6 +13553,7 @@ game (
 game (
 	name "Spirou (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Spirou (Europe) (En,Fr,De,Es).sfc" size 1310720 crc 797E2E82 md5 AF9A48FC80B600539CC0F60EA6CDD1C5 sha1 2FC0170173455250CB421DCD380CB933091B9591 )
 )
 game (
@@ -13153,7 +13638,7 @@ game (
 )
 game (
 	name "Star Fox 2 (USA, Europe) (Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Star Fox 2 (USA, Europe) (Classic Mini, Switch Online).sfc" size 1048576 crc 87653732 md5 7D66769F53CB3FB7F5C73044876DB240 sha1 1135A2A6CB786AC7523E81DD553DC81AAA266F51 )
 )
 game (
@@ -13209,6 +13694,7 @@ game (
 game (
 	name "Stargate (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Stargate (Europe) (En,Fr,De).sfc" size 2097152 crc AF4D4439 md5 5325F84FD73B16F43258A49757763DF5 sha1 D2A5E71E75B4D3CDE71C5CCA19403155D1DAE4D3 )
 )
 game (
@@ -13283,6 +13769,7 @@ game (
 )
 game (
 	name "Stone Protectors (World) (Steam)"
+	region "World"
 	rom ( name "Stone Protectors (World) (Steam).sfc" size 2097152 crc FEB912E1 md5 4E2816FC313AA6F2102E473F39EF041F sha1 D560FFCDC2763FDD379F24F7BD97FF39E7383389 )
 )
 game (
@@ -13418,6 +13905,7 @@ game (
 game (
 	name "Street Racer (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Street Racer (Japan) (En).sfc" size 1048576 crc D1C1F675 md5 99D4998CB5D6A35796A6799B636DCD8E sha1 16AA23994F3A2CADB8354A2DB40CAFE3DD9A69A2 )
 )
 game (
@@ -13427,10 +13915,12 @@ game (
 )
 game (
 	name "Street Racer (World) (Evercade)"
+	region "World"
 	rom ( name "Street Racer (World) (Evercade).sfc" size 1048576 crc 53F2C71B md5 091F8CD02C6ED341A1869A26DC378AAE sha1 3F95F05D0DD4341E9E167730C99D432973459C60 )
 )
 game (
 	name "Street Racer (World) (GOG)"
+	region "World"
 	rom ( name "Street Racer (World) (GOG).sfc" size 2097152 crc 62AFD640 md5 0DE39A09BBDC68955CFBA0D4849F2D64 sha1 69E7B46ECD6EE6A8E0BF06BACED6A22FF5C60995 )
 )
 game (
@@ -13446,6 +13936,7 @@ game (
 game (
 	name "Strike Gunner S.T.G (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Strike Gunner S.T.G (Japan) (En).sfc" size 1048576 crc AE2B4567 md5 B427922FF0310F11E5B88EFA4D51692E sha1 B5112C6A237621A726091E130FB783A2BA0E8DCA )
 )
 game (
@@ -13456,6 +13947,7 @@ game (
 game (
 	name "Striker (Europe) (En,Fr,De,Es,It,Nl,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Swedish"
 	rom ( name "Striker (Europe) (En,Fr,De,Es,It,Nl,Sv).sfc" size 524288 crc 60B2D4A8 md5 0008D2A79FA3D7382800F3528AFDD59E sha1 580746916E3963C9867C8B9B2FA951279BA9D573 )
 )
 game (
@@ -13497,6 +13989,26 @@ game (
 	name "Sunset Riders (USA)"
 	region "USA"
 	rom ( name "Sunset Riders (USA).sfc" size 1048576 crc 52ADA404 md5 1E1B47D5E5B0D9FAA5447273A52FC6EA sha1 50F0D77323A5967AA329C72E7A2D926ED158F667 )
+)
+game (
+	name "Supaplex (World) (v0.1)"
+	region "World"
+	rom ( name "Supaplex (World) (v0.1) (Aftermarket) (Unl).sfc" size 4194304 crc 1ABFA83E md5 03F27D7870DA6CEC0E1BD82F6983E898 sha1 36FABB1BEE2F30EC2214A198A6741A43BB2A7DEE )
+)
+game (
+	name "Supaplex (World) (v0.2)"
+	region "World"
+	rom ( name "Supaplex (World) (v0.2) (Aftermarket) (Unl).sfc" size 4194304 crc 146E59DC md5 B387E6B91B95BB1DB51990C7ED814C4D sha1 7E7907EFDD58C3FCCAC6F0AEFBC4563B32B2E25C )
+)
+game (
+	name "Supaplex (World) (v0.3)"
+	region "World"
+	rom ( name "Supaplex (World) (v0.3) (Aftermarket) (Unl).sfc" size 4194304 crc 8E68ED72 md5 F1EABF56F5C5E3D78E281AF4F6D575AC sha1 42254DB2A1836DF16EE2510B7733F10B4756D06E )
+)
+game (
+	name "Supaplex (World) (v0.4)"
+	region "World"
+	rom ( name "Supaplex (World) (v0.4) (Aftermarket) (Unl).sfc" size 4194304 crc 53AC956D md5 962C3173ACD0457C2A559DC2D814F6FD sha1 13058CA832F9E9E10B691B57E302708E2F617BE4 )
 )
 game (
 	name "Supapoon (Japan)"
@@ -13562,6 +14074,7 @@ game (
 game (
 	name "Super Air Diver 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Air Diver 2 (Japan) (En).sfc" size 1310720 crc A6AD6B0F md5 83E721806DD5FFAE336E8CAF03C2FC11 sha1 ACAEC55441B7D894D33540D905E47E5FB0DACBCC )
 )
 game (
@@ -13726,6 +14239,7 @@ game (
 )
 game (
 	name "Super Block'em Sock'em (World)"
+	region "World"
 	rom ( name "Super Block'em Sock'em (World) (Aftermarket) (Unl).sfc" size 2097152 crc FF153921 md5 2A0A9E5BC7E67038AA848F3B649818C6 sha1 26FCE15AD8EECD2F92266077C2643711B2417A15 )
 )
 game (
@@ -13736,6 +14250,7 @@ game (
 game (
 	name "Super Bomberman (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Bomberman (Japan) (En).sfc" size 524288 crc 7989891A md5 CBEF5F02304A2B821A0E1642A6307564 sha1 843364A881EDF3D8CD8F799801A2A6D8F05D7A7D )
 )
 game (
@@ -13756,6 +14271,7 @@ game (
 game (
 	name "Super Bomberman 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Bomberman 2 (Japan) (En).sfc" size 1048576 crc FB259F4F md5 3E0481EDE2CE82E5FAF297CC501E8B7D sha1 8FAEB56F80E82DD042BDC84D19C526A979C6DE8F )
 )
 game (
@@ -13796,6 +14312,7 @@ game (
 game (
 	name "Super Bombliss (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Bombliss (Japan) (En).sfc" size 524288 crc 1D123BE6 md5 E195D69E284590CEF196AF9BCC72FC0A sha1 15DFDD61CB12F636EAE9FBBF4102B734B6ED58BB )
 )
 game (
@@ -13805,15 +14322,18 @@ game (
 )
 game (
 	name "Super Boss Gaiden (World)"
+	region "World"
 	rom ( name "Super Boss Gaiden (World) (Aftermarket) (Unl).sfc" size 524288 crc 188F152B md5 73ABCD4808657A6D546652CFAC4683B5 sha1 65B22D721B148C7863D315CD7BB78A851342D009 )
 )
 game (
 	name "Super Boss Gaiden (World) (v1.2)"
+	region "World"
 	rom ( name "Super Boss Gaiden (World) (v1.2) (Aftermarket) (Unl).sfc" size 524288 crc C9A8412D md5 99A5EBFDF38FAF4E194BFAC535AA936B sha1 60C61DB61EA02C5FF4C57E72EC5147107628FE22 )
 )
 game (
 	name "Super Bowling (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Bowling (Japan) (En).sfc" size 524288 crc 383BC5D5 md5 2F3F6D8461EBB57CB33F031B7D4EA085 sha1 15D3E2A9583D61562E08A6BA16799676DC9BA0A0 )
 )
 game (
@@ -13823,10 +14343,12 @@ game (
 )
 game (
 	name "Super Bug Hunters (World) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Super Bug Hunters (World) (SNESDEV 2025) (Aftermarket) (Unl).sfc" size 262144 crc 4B1CB41A md5 F1E80B379F55660C859CF9E18D5E8339 sha1 376A7F94031429078E1F285A2AC66B818BE335EA )
 )
 game (
 	name "Super Bug Hunters (World) (v1.1)"
+	region "World"
 	rom ( name "Super Bug Hunters (World) (v1.1) (Aftermarket) (Unl).sfc" size 262144 crc F9305A4F md5 AE2CEAC5A95ABF0282DC273107C47120 sha1 02CC5403575C203954F3C6282AAFD4182EE06B29 )
 )
 game (
@@ -13841,10 +14363,12 @@ game (
 )
 game (
 	name "Super C (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Super C (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 36F2E422 md5 D2114C527CCC2348889E4C03FFF699E3 sha1 6ADADA5CCE608635FA9933EDAA2E1EFB92F991B0 )
 )
 game (
 	name "Super C (World) (REV-B) (NES Conversion)"
+	region "World"
 	rom ( name "Super C (World) (REV-B) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 81486E1E md5 9E6850A68A7F4CF0838F49E17835A608 sha1 CC4D22DDCF21EAF76D86083B254515DBB921179F )
 )
 game (
@@ -13855,11 +14379,13 @@ game (
 game (
 	name "Super Campeones (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Super Campeones (Peru) (Es) (Pirate).sfc" size 1048576 crc 82B5AD66 md5 8C53DF0F7D21E338A62544C1715CA397 sha1 C6D943431359FCD22A899644D95787C00E2BCE83 )
 )
 game (
 	name "Super Campeones 4 (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Super Campeones 4 (Peru) (Es) (Pirate).sfc" size 1572864 crc F9800156 md5 CCD3F769542665BB88993295054EA25C sha1 3D6BC0DD1AF33E56BD0769C2A4E58D85A1BC9608 )
 )
 game (
@@ -13950,11 +14476,13 @@ game (
 game (
 	name "Super Copa (USA) (Es,Pt)"
 	region "USA"
+	language "Spanish / Portuguese"
 	rom ( name "Super Copa (USA) (Es,Pt).sfc" size 1048576 crc 49E53877 md5 44A9023E8BC4A1D73D6654AD79745707 sha1 92A3CE60B79D4409AE51048CF3CE0E84828E178D )
 )
 game (
 	name "Super Cup Soccer (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Cup Soccer (Japan) (En).sfc" size 1048576 crc 14A03974 md5 83F4DBDA8CE590436401DECB8F024CFB sha1 F6FEEA0F042834C86EC11A350AB06DAAAC69CB81 )
 )
 game (
@@ -13975,11 +14503,13 @@ game (
 game (
 	name "Super Descentralizado 1995 (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Super Descentralizado 1995 (Peru) (Es) (Pirate).sfc" size 2097152 crc 0BC88449 md5 9872342B1632B3153C789D795BB06584 sha1 6006FA76F11EF773EBFB6D8C49CEEF711EE01B56 )
 )
 game (
 	name "Super Descentralizado II (Peru) (Es) (Pirate)"
 	region "Peru"
+	language "Spanish"
 	rom ( name "Super Descentralizado II (Peru) (Es) (Pirate).sfc" size 3145728 crc B22AD7AE md5 BE71A8EDFFD989756DD83A55C1A8B91C sha1 B040979AE95F7A87550BB4967E4934BD42903B51 )
 )
 game (
@@ -13990,11 +14520,13 @@ game (
 game (
 	name "Super Donkey (Japan) (En) (Proto 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Donkey (Japan) (En) (Proto 1).sfc" size 1048576 crc B3B29718 md5 459A2CED874B250E660867BED6AD16B9 sha1 D4A1C633BD8624143BE535AA0DB43713C483A64E )
 )
 game (
 	name "Super Donkey (Japan) (En) (Proto 2)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Donkey (Japan) (En) (Proto 2).sfc" size 1048576 crc 8FDF6296 md5 86735A7846FE06CD39DF9C91F615427F sha1 B0783DEE20AA6316A059EC6ED92FFFD9EE7AD49F )
 )
 game (
@@ -14065,6 +14597,7 @@ game (
 game (
 	name "Super Drift Out (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Drift Out (Japan) (En).sfc" size 2097152 crc EC8C1CCA md5 1B83CA7F9F35BD2A73C4A013764FDD6A sha1 0E97FE3FDEFF2CD2D806713282726C147E7F3312 )
 )
 game (
@@ -14075,21 +14608,25 @@ game (
 game (
 	name "Super Dunk Shot (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Dunk Shot (Japan) (En).sfc" size 1048576 crc 4674E469 md5 F321E2F1AE57A28062F0ED4A9E4F988F sha1 12E31DCC65676C784BDA58A684D40D9203232F15 )
 )
 game (
 	name "Super Dunk Star (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Dunk Star (Japan) (En).sfc" size 1048576 crc 2D391540 md5 9E3134AA9182876854E4F40DCF23D08B sha1 2ED755825B9D40EBE74B43166E67F259DED7637B )
 )
 game (
 	name "Super E.D.F. (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super E.D.F. (Japan) (En).sfc" size 1048576 crc 3E631524 md5 935C5B4E37904435042B3EE17A77950D sha1 10B81318C3E30D1A3E33189BEFDA975C61B47573 )
 )
 game (
 	name "Super E.D.F. (Japan) (En) (Switch Online)"
 	region "Japan"
+	language "English"
 	rom ( name "Super E.D.F. (Japan) (En) (Switch Online).sfc" size 1048576 crc 5EA2E79C md5 E1D8FA655BB6216DB6653C96D3307B75 sha1 89A95E82E864A31C46EA2E315A8A5F8B0FEDD918 )
 )
 game (
@@ -14125,6 +14662,7 @@ game (
 game (
 	name "Super Famicom Aging Program Ver. 1.00 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Famicom Aging Program Ver. 1.00 (Japan) (En).sfc" size 131072 crc BCBABD55 md5 EAF9F580B4798470F26786D9340922AB sha1 1B80D66A19E281BD4E1A7CBAD55E6285304F7F81 )
 )
 game (
@@ -14285,21 +14823,25 @@ game (
 game (
 	name "Super Full Metal (Europe) (It,Sv) (Proto)"
 	region "Europe"
+	language "Italian / Swedish"
 	rom ( name "Super Full Metal (Europe) (It,Sv) (Proto).sfc" size 524288 crc 32A810A6 md5 594D25AB061E52409723F519D584C732 sha1 F93250B2914C7550A0607C2197EE39F5834CEBAB )
 )
 game (
 	name "Super Full Metal Planet (Europe) (En) (Proto)"
 	region "Europe"
+	language "English"
 	rom ( name "Super Full Metal Planet (Europe) (En) (Proto).sfc" size 524288 crc ACC3E8F3 md5 BE2C0729A162C4B0E7706351258269F0 sha1 81BE71905AFB0FD0479416002B39BEA329B9E1B3 )
 )
 game (
 	name "Super Full Metal Planet (Europe) (En,It) (Proto 1)"
 	region "Europe"
+	language "English / Italian"
 	rom ( name "Super Full Metal Planet (Europe) (En,It) (Proto 1).sfc" size 524288 crc EAEE3A83 md5 6661F7247684AD067769169D748286F8 sha1 FB1090878A360881968A6802826F388E87884C89 )
 )
 game (
 	name "Super Full Metal Planet (Europe) (En,It) (Proto 2)"
 	region "Europe"
+	language "English / Italian"
 	rom ( name "Super Full Metal Planet (Europe) (En,It) (Proto 2).sfc" size 524288 crc 2300FBA8 md5 ECFE697DDDB9A23654CE1D0AF205B850 sha1 C3D3FF08A2430D6958DC1A64F296A074E2B4DDAE )
 )
 game (
@@ -14309,16 +14851,19 @@ game (
 )
 game (
 	name "Super Game Boy (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Super Game Boy (Japan, USA) (En).sfc" size 262144 crc 2E35EDBB md5 6A702A9C6C110863ACE946321B871632 sha1 6ED55C4368333B57F6A2F8BBD70CCD87ED48058E )
 )
 game (
 	name "Super Game Boy (Japan, USA) (En) (Rev 1)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Super Game Boy (Japan, USA) (En) (Rev 1).sfc" size 262144 crc 27A03C98 md5 A4D4D35C827AEDBDA3EECE1AF0B57902 sha1 6380A5913ACE3041A305FBAF822B5A8847FEA7ED )
 )
 game (
 	name "Super Game Boy (World) (Rev 2)"
+	region "World"
 	rom ( name "Super Game Boy (World) (Rev 2).sfc" size 262144 crc 8A4A174F md5 B15DDB15721C657D82C5BAB6DB982EE9 sha1 973E10840DB683CF3FAF61BD443090786B3A9F04 )
 )
 game (
@@ -14333,6 +14878,7 @@ game (
 )
 game (
 	name "Super Game Boy SGB-CPU (World) (Enhancement Chip)"
+	region "World"
 	rom ( name "Super Game Boy SGB-CPU (World) (Enhancement Chip).bin" size 256 crc EC8A83B9 md5 D574D4F9C12F305074798F54C091A8B4 sha1 AA2F50A77DFB4823DA96BA99309085A3C6278515 )
 )
 game (
@@ -14362,7 +14908,7 @@ game (
 )
 game (
 	name "Super Ghouls 'N Ghosts (USA, Europe) (Virtual Console, Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Ghouls 'N Ghosts (USA, Europe) (Virtual Console, Classic Mini, Switch Online).sfc" size 1048576 crc 7646E64E md5 13CC01659E28C2C23F5FE9FEFDE54D05 sha1 8507486C4A81299BE02093573DA42B070D629639 )
 )
 game (
@@ -14377,6 +14923,7 @@ game (
 )
 game (
 	name "Super Goal! 2 (World) (Evercade)"
+	region "World"
 	rom ( name "Super Goal! 2 (World) (Evercade).sfc" size 524288 crc 598116A5 md5 088620876C70F111B5CD48E254ED7153 sha1 4A7BA7CFB2212FBDFD17FD698AEB14AC2A59AA23 )
 )
 game (
@@ -14422,6 +14969,7 @@ game (
 game (
 	name "Super High Impact (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super High Impact (Japan) (En).sfc" size 1048576 crc DA8A5AD5 md5 36ED90476AD19556A8C79D94B8D95296 sha1 B2430A8CBFC0AF5B7FA6869622BE7193AF4899A3 )
 )
 game (
@@ -14432,6 +14980,7 @@ game (
 game (
 	name "Super Hockey '94 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Hockey '94 (Japan) (En).sfc" size 1048576 crc A3890D4F md5 6AEEDAAD578AFD7BFF989388E486B48A sha1 FBA007AC62F1A307D17A0BFEED78DA07CBF65A33 )
 )
 game (
@@ -14442,6 +14991,7 @@ game (
 game (
 	name "Super Hockey (France) (En,Fr)"
 	region "France"
+	language "English / French"
 	rom ( name "Super Hockey (France) (En,Fr).sfc" size 1048576 crc C9CF2601 md5 9A1D538F553BCBBEADF248EF1FDE8646 sha1 B6A8A554E405A7DCDD5AA7DCA467CA5B8DB58434 )
 )
 game (
@@ -14547,6 +15097,7 @@ game (
 game (
 	name "Super Kick Boxing - Best of the Best (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Kick Boxing - Best of the Best (Japan) (En).sfc" size 1048576 crc 4EE4DE37 md5 1DCE1C5D48FAC7D8ABB81631F85288CF sha1 4063B90DCCB28E304C5DB5A92A84213347C5969B )
 )
 game (
@@ -14592,6 +15143,7 @@ game (
 game (
 	name "Super Linearball (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Linearball (Japan) (En).sfc" size 524288 crc 689AC35C md5 EF5F11D518BA98875C07349605313C19 sha1 73CD9170C5935E3367DA84956CA59AA4F851C671 )
 )
 game (
@@ -14602,10 +15154,12 @@ game (
 game (
 	name "Super Loopz (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Loopz (Japan) (En).sfc" size 524288 crc 49601821 md5 3F8A4C4AC29A36A47B2C2CD8C5388A1C sha1 26EA349AEFA5926DC94B493284ECE8052A86B7A8 )
 )
 game (
 	name "Super MIDI Pak (World)"
+	region "World"
 	rom ( name "Super MIDI Pak (World) (Aftermarket) (Unl).sfc" size 524288 crc F466B51D md5 6691F4D34FB7D0F665D357B6C6649156 sha1 CAFAE7573EF7331639D1D5853FF3BA5F7F5A37AA )
 )
 game (
@@ -14720,12 +15274,12 @@ game (
 )
 game (
 	name "Super Mario All-Stars (USA, Europe) (Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Mario All-Stars (USA, Europe) (Switch Online).sfc" size 2097152 crc AA230732 md5 D9E7D0F3C0A220F5B655C84E324BD219 sha1 9779D804BEFECD7F79933A947F4D5843D50DD652 )
 )
 game (
 	name "Super Mario All-Stars (USA, Europe) (Wii U)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Mario All-Stars (USA, Europe) (Wii U).sfc" size 2097152 crc B385345E md5 D2E8F0DB7A1CBAACA702E715CA8668F7 sha1 F2F2DBEFB06498823FD1A5E9F6D3E1D2E84D15D9 )
 )
 game (
@@ -14740,18 +15294,22 @@ game (
 )
 game (
 	name "Super Mario Bros. (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Super Mario Bros. (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 558AAB4E md5 9EC934238FF2E8D2572452BEB1966E46 sha1 D685BE2360730C97E4B57406E62B13919CBADA58 )
 )
 game (
 	name "Super Mario Bros. (World) (REV-C) (NES Conversion)"
+	region "World"
 	rom ( name "Super Mario Bros. (World) (REV-C) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 98FE54D4 md5 DB3E6611A6AECB681C32F0789C7A350C sha1 D15C99A67E2577921822260044B22F97C45691A3 )
 )
 game (
 	name "Super Mario Bros. Maker (World) (Proto 1) (NES Conversion)"
+	region "World"
 	rom ( name "Super Mario Bros. Maker (World) (Proto 1) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 5CC7F538 md5 72B2FB0F9AAE04BD49C0608841D038F1 sha1 3CC905838A9F32E7214973AB4D6F6D348DA596EA )
 )
 game (
 	name "Super Mario Bros. Maker (World) (Proto 2) (NES Conversion)"
+	region "World"
 	rom ( name "Super Mario Bros. Maker (World) (Proto 2) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc FAACA0F5 md5 7F2C3C11D7CB24E5E2653F91A92D7571 sha1 588B6701EF24B4397257436A83590E10529FA1C8 )
 )
 game (
@@ -14811,7 +15369,7 @@ game (
 )
 game (
 	name "Super Mario RPG - Legend of the Seven Stars (USA, Europe) (Virtual Console)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Mario RPG - Legend of the Seven Stars (USA, Europe) (Virtual Console).sfc" size 4194304 crc D695090D md5 597823E50E531FBD300C0C7F334B34AA sha1 54043D7322973F7268F0132C29357CE966FA7DE4 )
 )
 game (
@@ -14827,6 +15385,7 @@ game (
 game (
 	name "Super Mario World (Japan) (En) (Arcade)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Mario World (Japan) (En) (Arcade).sfc" size 524288 crc C46766F2 md5 A5C6E868467AC0D5192373FF0372EE44 sha1 06A6EFC246C6FDB83EFAB1D402D61D2179A84494 )
 )
 game (
@@ -14836,7 +15395,7 @@ game (
 )
 game (
 	name "Super Mario World (USA, Europe) (Virtual Console, Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Mario World (USA, Europe) (Virtual Console, Classic Mini, Switch Online).sfc" size 524288 crc 28AC5863 md5 C4D3CC5200F9B59DCC9444B69FF7D0FF sha1 50A2312099AE7CDF7140E6E66AC0E0A44B9E4779 )
 )
 game (
@@ -14852,16 +15411,19 @@ game (
 game (
 	name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De).sfc" size 2097152 crc 857980B2 md5 CEF1055E9B4A2BE56EA7810C07976C17 sha1 512E0B2AB74081FDA5FF5459162948D28226FC0B )
 )
 game (
 	name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 1)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 1).sfc" size 2097152 crc 07E01EF9 md5 9F235E4C17CF9762A49B83E82794D278 sha1 1E1DC02C684652F9E927F3873AF65EA4B374BB80 )
 )
 game (
 	name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 2)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Super Mario World 2 - Yoshi's Island (Europe) (En,Fr,De) (Rev 2).sfc" size 2097152 crc E71B3E72 md5 8DE2EE0B0BDBDDE16AEFEDECFB837971 sha1 09402FF319D4517409F961B4012E5EEB1B89AC5C )
 )
 game (
@@ -14877,21 +15439,25 @@ game (
 game (
 	name "Super Metroid (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Super Metroid (Europe) (En,Fr,De).sfc" size 3145728 crc AD2CBF9C md5 3D64F89499A403D17D530388854A7DA5 sha1 082ADAC9E38F86240F4378A6AA400DEE1716AE87 )
 )
 game (
 	name "Super Metroid (Japan) (En,Ja) (Virtual Console, Switch Online)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "Super Metroid (Japan) (En,Ja) (Virtual Console, Switch Online).sfc" size 3145728 crc BED9186B md5 A70DF9A82B0D5F3BDE11090DC27E1504 sha1 4DF4804AA7E43A2A6362BE672685C15E52192C43 )
 )
 game (
 	name "Super Metroid (Japan, USA) (En,Ja)"
-	region "Japan"
+	region "Japan / USA"
+	language "English / Japanese"
 	rom ( name "Super Metroid (Japan, USA) (En,Ja).sfc" size 3145728 crc D63ED5F8 md5 21F3E98DF4780EE1C667B84E57D88675 sha1 DA957F0D63D14CB441D215462904C4FA8519C613 )
 )
 game (
 	name "Super Metroid (USA, Europe) (En,Ja) (Virtual Console, Classic Mini, Switch Online)"
-	region "USA"
+	region "USA / Europe"
+	language "English / Japanese"
 	rom ( name "Super Metroid (USA, Europe) (En,Ja) (Virtual Console, Classic Mini, Switch Online).sfc" size 3145728 crc 45913E52 md5 6DB92BFD8F039C847F584A437322DB4A sha1 754BFAB196C40799A74A79D2BF51DBB850163334 )
 )
 game (
@@ -14937,6 +15503,7 @@ game (
 game (
 	name "Super NES Control Deck Tester (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Super NES Control Deck Tester (Japan) (En) (Rev 1).sfc" size 524288 crc B6891571 md5 EEEB07F7B388F208179C4F457C92393F sha1 AAB5CCC38D3B33A4B21D93C5DB7FB91F2FE112C5 )
 )
 game (
@@ -15001,6 +15568,7 @@ game (
 )
 game (
 	name "Super Noah's Ark 3D (World) (Steam)"
+	region "World"
 	rom ( name "Super Noah's Ark 3D (World) (Steam) (Unl).sfc" size 1048576 crc 643D5097 md5 7B79C7F5D881928A805C8334F9941A7D sha1 9077F9742BD0236B910E05FEBFCB5974318ADE8B )
 )
 game (
@@ -15036,6 +15604,7 @@ game (
 game (
 	name "Super Off Road (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Off Road (Japan) (En).sfc" size 524288 crc 3104478A md5 EDA0D8E860D9FD89744AA927C3F52ADF sha1 CE9C7BBBA7A7259C063CE921EE5F149D507F510B )
 )
 game (
@@ -15091,6 +15660,7 @@ game (
 game (
 	name "Super Pinball - Behind the Mask (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Pinball - Behind the Mask (Japan) (En).sfc" size 1048576 crc 4F92F83C md5 65D6D86E9723B71905E956641ABF86C8 sha1 59A8052068C23346731BDE2EB160D31C77AC2B92 )
 )
 game (
@@ -15151,6 +15721,7 @@ game (
 )
 game (
 	name "Super Probotector - Alien Rebels (World) (Contra Anniversary Collection)"
+	region "World"
 	rom ( name "Super Probotector - Alien Rebels (World) (Contra Anniversary Collection).sfc" size 1048576 crc 22D08E51 md5 797AAB4E5EF7F61AC59334C16A4F0804 sha1 EA8DC2F783DDA1EF57CC7F909D0F16EDD9234BE0 )
 )
 game (
@@ -15180,6 +15751,7 @@ game (
 )
 game (
 	name "Super Punch-Out!! (World) (GameCube)"
+	region "World"
 	rom ( name "Super Punch-Out!! (World) (GameCube).sfc" size 2097152 crc 2061FE60 md5 3CD324A626613FEBEBEF2268D0266722 sha1 E25957459FBC02A1E7FAF63A49619B02B91AC3B1 )
 )
 game (
@@ -15209,6 +15781,8 @@ game (
 )
 game (
 	name "Super Puyo Puyo 2 (World) (Ja) (Switch Online)"
+	region "World"
+	language "Japanese"
 	rom ( name "Super Puyo Puyo 2 (World) (Ja) (Switch Online).sfc" size 2097152 crc 8C8897F4 md5 15892783CF2BC369935B3B3D4DC3C4A2 sha1 DAAA898B3ACD0141691A112A9BDBF56E47250D97 )
 )
 game (
@@ -15229,6 +15803,7 @@ game (
 game (
 	name "Super R-Type (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super R-Type (Japan) (En).sfc" size 1048576 crc 4E872C8B md5 07ED293977B29DFFEF1B30DD90531CCA sha1 2991D74A36FB815CF98469CD2539881DC6021566 )
 )
 game (
@@ -15243,10 +15818,12 @@ game (
 )
 game (
 	name "Super Rambler (World) (v1.01)"
+	region "World"
 	rom ( name "Super Rambler (World) (v1.01) (Aftermarket) (Unl).sfc" size 262144 crc 6A41323B md5 D5C25D5DCA588B9A24A270A10A020972 sha1 C570244970EFB20FD7C72B7D2A90A4CA05F1A12E )
 )
 game (
 	name "Super Rambler (World) (v1.02)"
+	region "World"
 	rom ( name "Super Rambler (World) (v1.02) (Aftermarket) (Unl).sfc" size 262144 crc EE8F4E7D md5 F5B370BA3696FDDD48A131A8F9F0D96A sha1 234AA34D01BEE3676D7C278E5B89FE10B8FAB642 )
 )
 game (
@@ -15287,6 +15864,7 @@ game (
 game (
 	name "Super SWIV (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super SWIV (Japan) (En).sfc" size 1048576 crc 70F28A6D md5 E1140DB6E8558B2A5592CFB9E2EF3CC7 sha1 40CFDE9CFD4C3B175957FFC49163BAD8238E64CD )
 )
 game (
@@ -15351,6 +15929,7 @@ game (
 )
 game (
 	name "Super Siika (World)"
+	region "World"
 	rom ( name "Super Siika (World) (Aftermarket) (Unl).sfc" size 262144 crc E7633A78 md5 6E447604C67F9F54C2E8E748DB6FA3F1 sha1 7C998F64279AEB1721DA333F03C92BC37CD3F759 )
 )
 game (
@@ -15361,6 +15940,7 @@ game (
 game (
 	name "Super Slap Shot (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Slap Shot (Japan) (En).sfc" size 524288 crc 403C692D md5 916D7C3A895F680A9ED41245F72D0C2D sha1 A10D51C5E86CA9F00EC822DE74228A4108D1D435 )
 )
 game (
@@ -15406,11 +15986,13 @@ game (
 game (
 	name "Super Solitaire (Europe) (En,Fr,De,Es,It) (Proto)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Super Solitaire (Europe) (En,Fr,De,Es,It) (Proto).sfc" size 524288 crc 933228F3 md5 0EDF50A2FC6957B29291030B002762C3 sha1 D653FA6DDC880CCE73FDEE588214BFBEDC32D83E )
 )
 game (
 	name "Super Solitaire (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Super Solitaire (USA) (En,Fr,De,Es,It).sfc" size 524288 crc C8E80D55 md5 2810C6F1191E23ED158AE4237D0519FE sha1 0E59ECA683A35E61C6182936C45701573F88F355 )
 )
 game (
@@ -15541,6 +16123,7 @@ game (
 game (
 	name "Super Strike Eagle (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Super Strike Eagle (Europe) (En,Fr,De,Es,It).sfc" size 1048576 crc 3ABAB85B md5 29E13CC64A8A5CE0306715FC13F06310 sha1 C9EB8F4627B3B2A090FFB7DAFAF255536B52C6D1 )
 )
 game (
@@ -15555,10 +16138,12 @@ game (
 )
 game (
 	name "Super Sudoku (World) (v1.0)"
+	region "World"
 	rom ( name "Super Sudoku (World) (v1.0) (Aftermarket) (Unl).sfc" size 262144 crc C97432BF md5 12C29B9324082D273250826B16F5B512 sha1 3B339F2EE585522B3671D2819FEC5E7B125F180C )
 )
 game (
 	name "Super Sudoku (World) (v1.1)"
+	region "World"
 	rom ( name "Super Sudoku (World) (v1.1) (Aftermarket) (Unl).sfc" size 262144 crc 21EE5635 md5 421B929CF54A1776650A2C96EBF3EDCD sha1 15FD2899CED2D141411FC23EC3ED082A2DB98CE7 )
 )
 game (
@@ -15589,26 +16174,31 @@ game (
 game (
 	name "Super Tennis - World Circuit (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Tennis - World Circuit (Japan) (En).sfc" size 524288 crc 57BF1D3E md5 626860305219BB5B9B94B6D9F9980922 sha1 B6A079BC2E968BAD25BDFB8A1EA8F30302767B07 )
 )
 game (
 	name "Super Tetris 2 + Bombliss (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Tetris 2 + Bombliss (Japan) (En).sfc" size 1048576 crc 8AE5E443 md5 E1C86D4289EF84F5151F341F62876EF0 sha1 3AC3C616DFE4D36496303B38275D15D7ACEB8572 )
 )
 game (
 	name "Super Tetris 2 + Bombliss (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Tetris 2 + Bombliss (Japan) (En) (Rev 1).sfc" size 1048576 crc 4AE93C10 md5 DAD417DC031D7515D878FAFDBE8B737B sha1 5FA25D027940907B769578D7BF85A9D5BA94911A )
 )
 game (
 	name "Super Tetris 2 + Bombliss Gentei Ban (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Tetris 2 + Bombliss Gentei Ban (Japan) (En).sfc" size 1048576 crc C709B922 md5 3A90852E4B43AC17A9B34F45980E4637 sha1 26F1BE182EEB3D86B276269CC8FEC8F1BC6DBF83 )
 )
 game (
 	name "Super Tetris 3 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Tetris 3 (Japan) (En).sfc" size 1048576 crc 329024C7 md5 F912C443A57A5AE1687EEAF6F2DA49FC sha1 2F808A4F0DB77A54895F5D2B68517331CD8E8855 )
 )
 game (
@@ -15659,6 +16249,7 @@ game (
 game (
 	name "Super Turrican (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Super Turrican (Japan) (En).sfc" size 524288 crc 7EC892F0 md5 E2C52C906835819DE078044978D6560C sha1 1C712F78560C53E050E6FA445A1B1D4E37A9F39B )
 )
 game (
@@ -15778,14 +16369,17 @@ game (
 )
 game (
 	name "Supercooked! (World)"
+	region "World"
 	rom ( name "Supercooked! (World) (Aftermarket) (Unl).sfc" size 524288 crc 1DBF977A md5 CABF7A303D2CF73A8DE559372581A2E2 sha1 E5551C4FD2FD8A2D8246B6DB1A8348196A81FBDF )
 )
 game (
 	name "Supercooked! (World) (v1.1)"
+	region "World"
 	rom ( name "Supercooked! (World) (v1.1) (Aftermarket) (Unl).sfc" size 524288 crc B9D927DD md5 D7542606D0645A5137D466A842D4FDE7 sha1 F3E3F234D3AB01602B9C8F83118CFAC47F1B0F2D )
 )
 game (
 	name "Supercooked! (World) (v1.2)"
+	region "World"
 	rom ( name "Supercooked! (World) (v1.2) (Aftermarket) (Unl).sfc" size 524288 crc 06DF4264 md5 34C8E693445CDE7CA1C39E8F7815C55E sha1 015BE7D6163E6AF9D8666B00CB7E627F78851CD0 )
 )
 game (
@@ -15795,30 +16389,37 @@ game (
 )
 game (
 	name "Supplication (World) (Proto)"
+	region "World"
 	rom ( name "Supplication (World) (Proto) (Aftermarket) (Unl).sfc" size 262144 crc 98A650DB md5 4A68EDCC4F7B6816B70124533A9EF7FD sha1 EED3733E4F8A177BC75A28523405A017987C30D6 )
 )
 game (
 	name "Sure Instinct (World) (v1.0)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0) (NTSC) (Aftermarket) (Unl).sfc" size 524288 crc 0E57E830 md5 AAE080871209150797E19F7E7BE7DB31 sha1 F67648ED217BE1C635A79CCC8316260CA730751E )
 )
 game (
 	name "Sure Instinct (World) (v1.0) (PAL)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0) (PAL) (Aftermarket) (Unl).sfc" size 524288 crc 11960B56 md5 CC5D0BDDB5B005D54622286C36FBBE6A sha1 AB87A362D9BC7BC095171B3672CC179EF78D3AA1 )
 )
 game (
 	name "Sure Instinct (World) (v1.0.1)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0.1) (NTSC) (Aftermarket) (Unl).sfc" size 524288 crc 4528FEDB md5 30E80082761DABFC9C596F6B952BE49C sha1 BE69E0EE9AA7D49506F2120B740ADAC526859975 )
 )
 game (
 	name "Sure Instinct (World) (v1.0.1) (PAL)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0.1) (PAL) (Aftermarket) (Unl).sfc" size 524288 crc E42AE539 md5 47432F0BA95ABDC677EBAE453ECA2E84 sha1 F56D431CB13EFDA5828EF3FFEB7FFB691C2D87FA )
 )
 game (
 	name "Sure Instinct (World) (v1.0.2)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0.2) (NTSC) (Aftermarket) (Unl).sfc" size 524288 crc 9D4E6D2F md5 67FD0FE365A6B7AD5E4C39AAA4CA5288 sha1 34ED5AF8CD1F384ADCBECBCC7FA5EE977EE30014 )
 )
 game (
 	name "Sure Instinct (World) (v1.0.2) (PAL)"
+	region "World"
 	rom ( name "Sure Instinct (World) (v1.0.2) (PAL) (Aftermarket) (Unl).sfc" size 524288 crc 5B1461A1 md5 3D19CA20E3BFC4DF2EC594108A5C7C0A sha1 2F10FA96219199EC22A1BFA73D5954CB9E241FB3 )
 )
 game (
@@ -15834,6 +16435,7 @@ game (
 game (
 	name "Suzuka 8 Hours (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Suzuka 8 Hours (Japan) (En).sfc" size 1048576 crc B846B00D md5 81CEE1957FA875EFBEDAFF130848BA9E sha1 D110E337A49F6A635236C9BF485759E48411CB69 )
 )
 game (
@@ -15868,6 +16470,7 @@ game (
 )
 game (
 	name "Sydney Hunter and the Caverns of Death (World) (v1.1) (Evercade)"
+	region "World"
 	rom ( name "Sydney Hunter and the Caverns of Death (World) (v1.1) (Evercade) (Aftermarket) (Unl).sfc" size 2097152 crc 95C8491F md5 D16711B3600B2754027E0CBFDBABDEB6 sha1 7B30BB8D520437088213DF2B33EECB9C056F1456 )
 )
 game (
@@ -15883,6 +16486,7 @@ game (
 game (
 	name "Syndicate (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Syndicate (Europe) (En,Fr,De).sfc" size 1048576 crc FD851819 md5 1F801D72860E3488AC3C314674C2E934 sha1 98319448AEBE93872EB318D6844CAA0BFDF401E1 )
 )
 game (
@@ -15942,6 +16546,7 @@ game (
 )
 game (
 	name "TV-Chan's Great Escape! (World)"
+	region "World"
 	rom ( name "TV-Chan's Great Escape! (World) (Aftermarket) (Unl).sfc" size 2097152 crc 67E3570F md5 32793E45C2230B6E3166F65B210A7AED sha1 9DF7AD6F297BA3BBD15CC9E9A6C8E5995B3FE0E1 )
 )
 game (
@@ -15982,6 +16587,7 @@ game (
 game (
 	name "Taekwon-Do (Japan) (Ja,Ko)"
 	region "Japan"
+	language "Japanese / Korean"
 	rom ( name "Taekwon-Do (Japan) (Ja,Ko).sfc" size 1048576 crc 93F29DDE md5 E9EB2C3D0B6E21BAAFBFC4B614E04A3F sha1 DC61CB9B82EB58A9B09CB93A10B6731EAA4CD053 )
 )
 game (
@@ -16012,6 +16618,7 @@ game (
 game (
 	name "Takahashi Meijin no Daibouken-jima (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Takahashi Meijin no Daibouken-jima (Japan) (En).sfc" size 1048576 crc 37C0AE76 md5 5B2A83D6727C4E19192AF2878654D301 sha1 090742859B1F8CA6077BEE80855B53FFDA4C0FA1 )
 )
 game (
@@ -16056,6 +16663,7 @@ game (
 )
 game (
 	name "Targa (World) (Proto) (Limited Run Games)"
+	region "World"
 	rom ( name "Targa (World) (Proto) (Limited Run Games).sfc" size 2097152 crc 56DBF46E md5 15741D854012E123BE38E14BE9B99F9C sha1 E99DF93A575B71624C235EFDC77E9707C8FF8311 )
 )
 game (
@@ -16076,6 +16684,7 @@ game (
 game (
 	name "Tatakae Genshijin 2 - Rookie no Bouken (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tatakae Genshijin 2 - Rookie no Bouken (Japan) (En).sfc" size 524288 crc 689CBF05 md5 95775D1573534E21BC3E41B987DEBDAC sha1 D782B92BB7DD79F4B47513CF604FB63E2F7CEF18 )
 )
 game (
@@ -16100,10 +16709,12 @@ game (
 )
 game (
 	name "Tchou (World) (NEO Compo 2012)"
+	region "World"
 	rom ( name "Tchou (World) (NEO Compo 2012) (Aftermarket) (Unl).sfc" size 917504 crc A251501B md5 DC785C9BF5FD8C696C77B888FCC5D499 sha1 F74992808ED0D228C01A91CE7C8F46D87983C5A4 )
 )
 game (
 	name "Tchou (World) (v1.1)"
+	region "World"
 	rom ( name "Tchou (World) (v1.1) (Aftermarket) (Unl).sfc" size 917504 crc 7C582644 md5 026B730E323B65A98FA032568EF9E2A1 sha1 76152CD53EFCFAEFF62EE3A9D411A4D28054055C )
 )
 game (
@@ -16114,6 +16725,7 @@ game (
 game (
 	name "Tecmo Super Baseball (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super Baseball (Japan) (En).sfc" size 1572864 crc 2F98DB3E md5 193F1D0F3838F392070DB8BF215D131C sha1 F967B85614F515830C07D1FAA9F18988100E2F0E )
 )
 game (
@@ -16124,6 +16736,7 @@ game (
 game (
 	name "Tecmo Super Bowl (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super Bowl (Japan) (En).sfc" size 1572864 crc C7D84893 md5 C6610E7578F8D5930C4AA1358D4C2A0D sha1 5742652D7013E7E355C7347AF1CC432C366C1D71 )
 )
 game (
@@ -16134,6 +16747,7 @@ game (
 game (
 	name "Tecmo Super Bowl II - Special Edition (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super Bowl II - Special Edition (Japan) (En).sfc" size 2097152 crc 5ACD46EC md5 1ADE0779EA025CD86BB0C3005A01E8F7 sha1 1FA813A7A628D9C4AE4AA75374449928BA039A06 )
 )
 game (
@@ -16144,6 +16758,7 @@ game (
 game (
 	name "Tecmo Super Bowl III - Final Edition (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super Bowl III - Final Edition (Japan) (En).sfc" size 2097152 crc F06C34E3 md5 54A61236464BA8DEDCA795E641890637 sha1 2438DD4C12A00A82C1C8DF3395432CAE19E72CC9 )
 )
 game (
@@ -16164,11 +16779,13 @@ game (
 game (
 	name "Tecmo Super NBA Basketball (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super NBA Basketball (Japan) (En).sfc" size 1048576 crc 3DFE85B3 md5 0D1561450C26B5F0B85E3A0752AEDC7E sha1 983DE5EBA7F079555070D12BE46926C83F323F1A )
 )
 game (
 	name "Tecmo Super NBA Basketball (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Tecmo Super NBA Basketball (Japan) (En) (Rev 1).sfc" size 1048576 crc 538717B4 md5 3E87411742B25BC178E5BE04FE9644CD sha1 13A1B147A2E158A51A3891FF07B059FF7A7ED2E5 )
 )
 game (
@@ -16193,6 +16810,7 @@ game (
 )
 game (
 	name "Teenage Mutant Ninja Turtles (World) (REV-A) (NES Conversion)"
+	region "World"
 	rom ( name "Teenage Mutant Ninja Turtles (World) (REV-A) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc C9A34685 md5 0F5A4988DAEFABB013541CF4D27E3A7C sha1 694C0C321024354047076E86535663B3AE561E3F )
 )
 game (
@@ -16247,10 +16865,12 @@ game (
 )
 game (
 	name "Teenage Queen (World) (v1.4)"
+	region "World"
 	rom ( name "Teenage Queen (World) (v1.4) (NTSC) (Aftermarket) (Unl).sfc" size 1048576 crc 00E4C4E6 md5 CAD2FE5891242A933B0964BB99348DBD sha1 64EA73D73CED4B7327F68B487B440D3EBB45CA32 )
 )
 game (
 	name "Teenage Queen (World) (v1.4) (PAL)"
+	region "World"
 	rom ( name "Teenage Queen (World) (v1.4) (PAL) (Aftermarket) (Unl).sfc" size 1048576 crc 60B9EF27 md5 047CC263812BE812D416E74C4E2D1280 sha1 86419187D2DE835FA8682EC969A38BFA9FEF8136 )
 )
 game (
@@ -16396,11 +17016,13 @@ game (
 game (
 	name "Tetris Attack (Europe) (En,Ja)"
 	region "Europe"
+	language "English / Japanese"
 	rom ( name "Tetris Attack (Europe) (En,Ja).sfc" size 1048576 crc 7417E83B md5 90854FCF608034C654745AE24411EF7A sha1 08E01F9AD5B6148E1A4355C80E2B23D8B2463443 )
 )
 game (
 	name "Tetris Attack (USA) (En,Ja)"
 	region "USA"
+	language "English / Japanese"
 	rom ( name "Tetris Attack (USA) (En,Ja).sfc" size 1048576 crc 6C128210 md5 44BB94606356F1C0965E12BBC50866B3 sha1 2DC56EAB3E70C0910AE47119D8B69F494E6000DF )
 )
 game (
@@ -16411,6 +17033,7 @@ game (
 game (
 	name "Tetris Flash (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tetris Flash (Japan) (En).sfc" size 1048576 crc 09E9E3BB md5 77865EE0E03A2E1A05AFDB93C5126C47 sha1 A7B03C0807954A1BD9A05AB9927C28284E235208 )
 )
 game (
@@ -16421,6 +17044,7 @@ game (
 game (
 	name "Theme Park (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Theme Park (Europe) (En,Fr,De).sfc" size 1048576 crc CA0E041C md5 B1A4A4696E579168D5B1B6E2C8BA8440 sha1 1470C5F9D3D2078C55E0822B3219189120FD3F7B )
 )
 game (
@@ -16456,6 +17080,7 @@ game (
 game (
 	name "Thunder Spirits (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Thunder Spirits (Japan) (En).sfc" size 1048576 crc 41A933A6 md5 4DCB347551A5D8A232E972F3ADBE9C23 sha1 EC812F490A1453B94C04DE52B0A73BB2E2FD8820 )
 )
 game (
@@ -16525,21 +17150,25 @@ game (
 )
 game (
 	name "Tinhead (World) (Piko Interactive)"
+	region "World"
 	rom ( name "Tinhead (World) (Piko Interactive).sfc" size 1048576 crc BFD26228 md5 44D4B21F9BB5F77E31EAA489E02A157C sha1 90BC3A78BF2569DDBC1EFBC612E8915E5B28DF04 )
 )
 game (
 	name "Tintin - Prisoners of the Sun (Europe) (En,Fr,De,Es)"
 	region "Europe"
+	language "English / French / German / Spanish"
 	rom ( name "Tintin - Prisoners of the Sun (Europe) (En,Fr,De,Es).sfc" size 2097152 crc A94A47BE md5 BEB9FD851586AF3AD5172D07AE1A9103 sha1 C5A18D06AA1E411C73CD97572716F8D712BCCB8A )
 )
 game (
 	name "Tintin in Tibet (Europe) (En,Es,Sv)"
 	region "Europe"
+	language "English / Spanish / Swedish"
 	rom ( name "Tintin in Tibet (Europe) (En,Es,Sv).sfc" size 1572864 crc CAED3FE4 md5 E406F7225927DDCE1B25AA0F1AB6E043 sha1 00507F4BFB70CA4519DD3F44DA69D0EA83EEEC01 )
 )
 game (
 	name "Tintin in Tibet (Europe) (En,Fr,De,Nl)"
 	region "Europe"
+	language "English / French / German / Dutch"
 	rom ( name "Tintin in Tibet (Europe) (En,Fr,De,Nl).sfc" size 1572864 crc F1DCE2B7 md5 5D6716D6793E9F9C456265D18CF763BC sha1 F93338ABC37FCF77E68C4C8C1CBAB9EFCA32B5B4 )
 )
 game (
@@ -16630,6 +17259,7 @@ game (
 game (
 	name "Tom to Jerry (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Tom to Jerry (Japan) (En).sfc" size 524288 crc BA2DE054 md5 5CA81CEF38F609C6EB3AEF7D567137F5 sha1 8AE694DD0113F4C8DC6DD878B85A5F68DAD374EC )
 )
 game (
@@ -16690,27 +17320,33 @@ game (
 game (
 	name "Top Racer (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Top Racer (Japan) (En).sfc" size 524288 crc E5A57B12 md5 BFEBDB22FA71D87E81F41982E798530D sha1 7D95CB50C04B2322630D8D8361983DB1F2AA82DB )
 )
 game (
 	name "Top Racer (World) (Piko Interactive)"
+	region "World"
 	rom ( name "Top Racer (World) (Piko Interactive).sfc" size 524288 crc 19369514 md5 B26095D3C9EEFE11037B554B56BCF2FB sha1 67C26085CBFA0AE31AE500527EE26BED453F2D90 )
 )
 game (
 	name "Top Racer 2 (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Top Racer 2 (Japan) (En).sfc" size 1048576 crc 31DAEBB2 md5 BEE668BDA4EA89744C38582D8F204F36 sha1 23F87973FE61B9B0E424AECEF65C668AED04BC27 )
 )
 game (
 	name "Top Racer 2 (World) (Piko Interactive)"
+	region "World"
 	rom ( name "Top Racer 2 (World) (Piko Interactive).sfc" size 1572864 crc F7665EAF md5 C171C495F5E4499C13BE0C7F154CCCD6 sha1 A778ED4B920C6038686E5E5006B7BBB4BA9071A3 )
 )
 game (
 	name "Top Racer Crossroads (World) (QUByte Classics)"
+	region "World"
 	rom ( name "Top Racer Crossroads (World) (QUByte Classics).sfc" size 524288 crc 39F11CB4 md5 05CAF6A3FEDCFA9D2F2ACFB31E6215A4 sha1 505AC8F49B424D032BA41ED0E86EF39BA6140B32 )
 )
 game (
 	name "Top Racer Crossroads (World) (v1.1) (QUByte Classics)"
+	region "World"
 	rom ( name "Top Racer Crossroads (World) (v1.1) (QUByte Classics).sfc" size 524288 crc CABD55E6 md5 AAD80D7CC6E801FE957E6C7CCA441F49 sha1 7E742F3DE39EF83EE33CCBC763ED6753D6E3EC23 )
 )
 game (
@@ -16741,6 +17377,7 @@ game (
 game (
 	name "Total Football (Europe) (En,Fr,De) (Proto)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Total Football (Europe) (En,Fr,De) (Proto).sfc" size 1048576 crc 9F279963 md5 03A7A4D885E4C9034CE3F6CC75102BF1 sha1 212FAB02D8536759C448642B8139E6986AE17346 )
 )
 game (
@@ -16761,7 +17398,14 @@ game (
 game (
 	name "Toy Story (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "Toy Story (Europe) (En,Fr,De).sfc" size 4194304 crc B144D588 md5 288555A2AAFB42B3D44D7B2663D1A00B sha1 CCF547DD741BD98762662FDFFD964DF5B5791092 )
+)
+game (
+	name "Toy Story (Europe) (En,Fr,De) (Toy Story Retro Roundup!)"
+	region "Europe"
+	language "English / French / German"
+	rom ( name "Toy Story (Europe) (En,Fr,De) (Toy Story Retro Roundup!).sfc" size 4194304 crc 477176B2 md5 7868B580FA19F11EE9D1A73B2414950A sha1 51AFE2130BB241F36F0540DBC693ABD25AF62FF6 )
 )
 game (
 	name "Toy Story (Japan)"
@@ -16769,9 +17413,25 @@ game (
 	rom ( name "Toy Story (Japan).sfc" size 4194304 crc D4AF7724 md5 FBCE0804AA393EE5B6155B1E7553A5C1 sha1 89A226AD54A003964AEB343FA10E2F3355FB8F55 )
 )
 game (
+	name "Toy Story (Japan) (Toy Story Retro Roundup!)"
+	region "Japan"
+	rom ( name "Toy Story (Japan) (Toy Story Retro Roundup!).sfc" size 4194304 crc FD63567C md5 F15E7E3FF01006493069D262D4F7C10D sha1 A3D08182185D1B8BDE4BECECC9C1DBE610ACDBCA )
+)
+game (
 	name "Toy Story (USA)"
 	region "USA"
 	rom ( name "Toy Story (USA).sfc" size 4194304 crc 8328822B md5 DF1D99115CE4A386054B511B62CD5CC6 sha1 FFADFEA439CB5CA3B84911AF6B7BFEE478D9F33C )
+)
+game (
+	name "Toy Story (USA) (En,Fr,De) (Toy Story Retro Roundup!) (Definitive Edition)"
+	region "USA"
+	language "English / French / German"
+	rom ( name "Toy Story (USA) (En,Fr,De) (Toy Story Retro Roundup!) (Definitive Edition).sfc" size 4194304 crc DC891E85 md5 A8DD17BBEBD32C095E58DB5D926EA40C sha1 E63B21E73A3BF69C999B23554E98406099A75450 )
+)
+game (
+	name "Toy Story (USA) (Toy Story Retro Roundup!)"
+	region "USA"
+	rom ( name "Toy Story (USA) (Toy Story Retro Roundup!).sfc" size 4194304 crc F0C8007B md5 57669E0551DBEF2D3DE11D166F00CDE9 sha1 BB199C391DF548893D19A6A5E25AA40CDB9205DB )
 )
 game (
 	name "Toys - Let the Toy Wars begin! (Europe)"
@@ -16805,34 +17465,50 @@ game (
 )
 game (
 	name "Trials of Mana (World) (De) (Collection of Mana)"
+	region "World"
+	language "German"
 	rom ( name "Trials of Mana (World) (De) (Collection of Mana).sfc" size 6291456 crc DDB47390 md5 2DB50232EFE0CC3BBDF07DE5D045CF27 sha1 D882E706DD201F9D0C94199E3317778F14461FB2 )
 )
 game (
 	name "Trials of Mana (World) (De) (Rev 1) (Collection of Mana)"
+	region "World"
+	language "German"
 	rom ( name "Trials of Mana (World) (De) (Rev 1) (Collection of Mana).sfc" size 6291456 crc 534DF838 md5 5FB4A64249B0937FB189FBBF6248805C sha1 5C2088CDC86C4792AEEFFDFBE19004A32D3396C4 )
 )
 game (
 	name "Trials of Mana (World) (En) (Collection of Mana)"
+	region "World"
+	language "English"
 	rom ( name "Trials of Mana (World) (En) (Collection of Mana).sfc" size 6291456 crc 9743DC0E md5 C9829D76E25F8C4BF459CF77A8306825 sha1 462580125693A73DA90DA08D415023A885D84D1D )
 )
 game (
 	name "Trials of Mana (World) (En) (Rev 1) (Collection of Mana)"
+	region "World"
+	language "English"
 	rom ( name "Trials of Mana (World) (En) (Rev 1) (Collection of Mana).sfc" size 6291456 crc 173E6097 md5 D40BD9267FB21AD8F8987CB8DA473DBC sha1 128D966ECF656957B9B9B39128817D1C6A9CBD21 )
 )
 game (
 	name "Trials of Mana (World) (Es) (Collection of Mana)"
+	region "World"
+	language "Spanish"
 	rom ( name "Trials of Mana (World) (Es) (Collection of Mana).sfc" size 6291456 crc CA0C6BAE md5 DF8FACAF7874A0BADC6C8390F56419A9 sha1 6317FC3FDC99B33F73EA69BF6E9F13DA02FB2E8D )
 )
 game (
 	name "Trials of Mana (World) (Es) (Rev 1) (Collection of Mana)"
+	region "World"
+	language "Spanish"
 	rom ( name "Trials of Mana (World) (Es) (Rev 1) (Collection of Mana).sfc" size 6291456 crc 593CD548 md5 4BAD426EF6070DC2C2732ACB12B6B3BF sha1 6908BC9191E4271F9CBB28420DB793F7CABD3BD6 )
 )
 game (
 	name "Trials of Mana (World) (Fr) (Collection of Mana)"
+	region "World"
+	language "French"
 	rom ( name "Trials of Mana (World) (Fr) (Collection of Mana).sfc" size 6291456 crc D4F43F86 md5 5F0E3EC92AF10B2E9E22BF9EEF85F1E5 sha1 F0AD9AF7E8DEE731D2C8112D4E954E9B238032BC )
 )
 game (
 	name "Trials of Mana (World) (Fr) (Rev 1) (Collection of Mana)"
+	region "World"
+	language "French"
 	rom ( name "Trials of Mana (World) (Fr) (Rev 1) (Collection of Mana).sfc" size 6291456 crc 3D09832A md5 4EDB2359E76A7AC13DC0D8D79783B038 sha1 241D5EEA760FBDCFFCFAFD1064D68F18EC38FB94 )
 )
 game (
@@ -16848,6 +17524,7 @@ game (
 game (
 	name "Troddlers (Japan) (En) (Proto)"
 	region "Japan"
+	language "English"
 	rom ( name "Troddlers (Japan) (En) (Proto).sfc" size 524288 crc B19C42C0 md5 D0EBB859A0E97989DA3E55EE7811CCE8 sha1 0C863905FCB174B2BC8B66F0CA232573A143F15A )
 )
 game (
@@ -16893,11 +17570,13 @@ game (
 game (
 	name "True Lies (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "True Lies (Germany) (En).sfc" size 2097152 crc CA7342CD md5 5A3E1278FD9D774D84D5D764FFA6D9EA sha1 F54AA038CD6A8876373D37C70B8DCC933C99F5FF )
 )
 game (
 	name "True Lies (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "True Lies (Japan) (En).sfc" size 2097152 crc 6150D3F9 md5 8C40F310DF027E936BA18DA320856225 sha1 BBF8756AA17B1277C031D3F0E79A3E8B46CA9AC3 )
 )
 game (
@@ -17013,24 +17692,29 @@ game (
 game (
 	name "USA Ice Hockey (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "USA Ice Hockey (Japan) (En).sfc" size 1048576 crc E5A1ADB8 md5 61DF2FA790B7B4E0369E8739E6A09A7F sha1 99C30E1F5327246BCFF9A25F56A60384BA56F7DD )
 )
 game (
 	name "USA Ice Hockey (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "USA Ice Hockey (Japan) (En) (Rev 1).sfc" size 1048576 crc F0E155DA md5 BD9BBA9B7948CF5D746ACE701B606B54 sha1 45C39E7C180891EED135AE7C59D1905F766C7C86 )
 )
 game (
 	name "UWOL - Quest for Money (World)"
+	region "World"
 	rom ( name "UWOL - Quest for Money (World) (Aftermarket) (Unl).sfc" size 262144 crc E3BF975F md5 50B5D42790301503B55F45BA4739EF9A sha1 3B676E2C52308829B57495FCFFC332B3F1094E14 )
 )
 game (
 	name "UWOL - Quest for Money (World) (v1.3)"
+	region "World"
 	rom ( name "UWOL - Quest for Money (World) (v1.3) (Aftermarket) (Unl).sfc" size 262144 crc 6B125B71 md5 329C6F2BE3D70138EF106B159A48C47A sha1 E546375D415716962B68B4E270DB7A76E3266374 )
 )
 game (
 	name "Uchuu Race - Astro Go! Go! (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Uchuu Race - Astro Go! Go! (Japan) (En).sfc" size 1048576 crc E949D47F md5 0F3C8410C9852EDA44301B98B750C4F0 sha1 5CE834EACA982791916C10DF4F40E3214A0D976C )
 )
 game (
@@ -17041,6 +17725,7 @@ game (
 game (
 	name "Ugoku E Ver. 2.0 - Aryol (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "Ugoku E Ver. 2.0 - Aryol (Japan) (En,Ja).sfc" size 1048576 crc 43B1AAD9 md5 03C868AB217E6E676F965A2319871A5C sha1 108774BFBB16F11D9884587F98A4A76077E7B12F )
 )
 game (
@@ -17086,6 +17771,7 @@ game (
 game (
 	name "Ultimate Football (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Ultimate Football (Japan) (En).sfc" size 1048576 crc 4C9A5E89 md5 6B8DECA83891E1B9E5D842C9E866FE47 sha1 CC3EC1051B9FDFA1D30C5F92CE44C37B90DFE8C3 )
 )
 game (
@@ -17160,6 +17846,7 @@ game (
 )
 game (
 	name "Unarmed (World) (SNESDEV 2025)"
+	region "World"
 	rom ( name "Unarmed (World) (SNESDEV 2025) (Aftermarket) (Unl).sfc" size 262144 crc 28897FC6 md5 2F171571C2B2EA8B80FB975329FF412F sha1 DC5A7DB6C7E5BFE8AC60C990E37703C47CFA24D2 )
 )
 game (
@@ -17190,6 +17877,7 @@ game (
 game (
 	name "Unholy Night - The Darkness Hunter (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Unholy Night - The Darkness Hunter (Japan) (En) (Aftermarket) (Unl).sfc" size 4194304 crc 35F3DF22 md5 2E60FE37D3CB806483C825118B4F55A6 sha1 33B1876D990B59C04D20E24DCB7F8F276D3B8951 )
 )
 game (
@@ -17259,6 +17947,7 @@ game (
 )
 game (
 	name "Utopia - The Creation of a Nation (World) (Evercade)"
+	region "World"
 	rom ( name "Utopia - The Creation of a Nation (World) (Evercade).sfc" size 524288 crc 99B152BF md5 E5CD2E26ACDDE90816769E3FFE6128A2 sha1 20E527A025FF2780525EE350419490CA78C0725A )
 )
 game (
@@ -17303,6 +17992,7 @@ game (
 )
 game (
 	name "Venom - Spider-Man - Separation Anxiety (World) (Marvel MaXimum Collection)"
+	region "World"
 	rom ( name "Venom - Spider-Man - Separation Anxiety (World) (Marvel MaXimum Collection).sfc" size 3145728 crc B264F6D0 md5 EF390B5F9EB0C9AD3893A93CD4873F78 sha1 2C54F05EE6D7A61FFD146BD4A932AF1CFCF98597 )
 )
 game (
@@ -17323,6 +18013,7 @@ game (
 game (
 	name "Virtual Bart (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Virtual Bart (Japan) (En).sfc" size 2097152 crc B5A561BB md5 22137A2223CFC876E301685CE5BF8804 sha1 6AA8187488592CF0136D1D005EA242F01125BCC2 )
 )
 game (
@@ -17348,21 +18039,25 @@ game (
 game (
 	name "Volleyball Twin (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Volleyball Twin (Japan) (En).sfc" size 1048576 crc A3F4AF43 md5 74E9C43E71B81150E7507AB076853B86 sha1 B5E340FCF5476A0D395FD7A9B12382CDE399D636 )
 )
 game (
 	name "Vortex (Europe) (En,Es)"
 	region "Europe"
+	language "English / Spanish"
 	rom ( name "Vortex (Europe) (En,Es).sfc" size 524288 crc C6867604 md5 142E09E60A279244E99FDEF1AE9E7DC4 sha1 92DABA15D422654C29C01457B572C07F06A2C1BC )
 )
 game (
 	name "Vortex (USA) (En,Es)"
 	region "USA"
+	language "English / Spanish"
 	rom ( name "Vortex (USA) (En,Es).sfc" size 524288 crc 31B1AD00 md5 C4A6EB75ED7C81D92D298CA0FE591921 sha1 3A71B63605DDECF827D60554C2DDACCDD85B9624 )
 )
 game (
 	name "Vortex - The FX Robot Battle (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "Vortex - The FX Robot Battle (Japan) (En,Ja).sfc" size 524288 crc 51E8A19C md5 D4D3D11D99169713B8E43E51F4A21D10 sha1 1479432EA185DB8ECB109F6E5422E1464B5BDF3C )
 )
 game (
@@ -17393,6 +18088,7 @@ game (
 game (
 	name "WWF Royal Rumble (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "WWF Royal Rumble (Japan) (En).sfc" size 2097152 crc E85352D2 md5 13C79B8D431A05574B6E939EE4CD6C17 sha1 F79E6515A01D864CC82B60F550A9C17FA5166CB0 )
 )
 game (
@@ -17408,6 +18104,7 @@ game (
 game (
 	name "WWF Super WrestleMania (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "WWF Super WrestleMania (Japan) (En).sfc" size 1048576 crc D35543C2 md5 70EBA780BF858588F4D7B58D4F864480 sha1 0F0FD38896FFCB9BDD4C150B7CE1E67631BB50C8 )
 )
 game (
@@ -17423,6 +18120,7 @@ game (
 game (
 	name "WWF WrestleMania - The Arcade Game (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "WWF WrestleMania - The Arcade Game (Japan) (En).sfc" size 3145728 crc AFBEE7B1 md5 BCFA10CCA3DFCF9B7E4167B1FBAE1096 sha1 0C5EE45E15B8E7A654BCD517060912C0DA38B3EF )
 )
 game (
@@ -17457,6 +18155,7 @@ game (
 )
 game (
 	name "Wanderknecht, Der - Jesus ist mein Leben (World) (v1.1)"
+	region "World"
 	rom ( name "Wanderknecht, Der - Jesus ist mein Leben (World) (v1.1) (Aftermarket) (Unl).sfc" size 262144 crc D5D30C22 md5 4AAC858C94912C14D88940C84512E55E sha1 52698821A3681DA41CEF494C252C740F2AE738CC )
 )
 game (
@@ -17492,6 +18191,7 @@ game (
 game (
 	name "Warlock (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Warlock (Japan) (En).sfc" size 2097152 crc DCADBD80 md5 C4BB894BB8F5F76228E1BF1D9E3EB091 sha1 3BD61CE89CE6C3F23F51B8E2DC217F7C027AF6D3 )
 )
 game (
@@ -17551,6 +18251,7 @@ game (
 )
 game (
 	name "WeaponLord (World) (Evercade)"
+	region "World"
 	rom ( name "WeaponLord (World) (Evercade).sfc" size 4194304 crc 59766A7D md5 E19D75B6D9E56F09C58774D022C20292 sha1 FA69D09D3493937A443FC46F3F84C47C0EDE9585 )
 )
 game (
@@ -17571,16 +18272,19 @@ game (
 game (
 	name "Where in Time Is Carmen Sandiego (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Where in Time Is Carmen Sandiego (USA) (En,Fr,De,Es,It).sfc" size 1048576 crc 1712018B md5 23C8B0AEA8BC0DD0C03B252EAA98F8C6 sha1 5240D97B235F5377E842518B70699F6E30436FC4 )
 )
 game (
 	name "Where in the World Is Carmen Sandiego (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Where in the World Is Carmen Sandiego (Europe) (En,Fr,De,Es,It).sfc" size 1048576 crc B7A66353 md5 0F8BE220E192BE92BE08FE0A6CFFABC7 sha1 2A1877DF758372EDD5673491FADA6F29AB527BDE )
 )
 game (
 	name "Where in the World Is Carmen Sandiego (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Where in the World Is Carmen Sandiego (USA) (En,Fr,De,Es,It).sfc" size 1048576 crc 9EF83223 md5 DFCCFA0A4411BB0BFB29F777CAC53858 sha1 98D8ADD2EC009468CAF30BE1FF4753DEDB14F4F7 )
 )
 game (
@@ -17616,6 +18320,7 @@ game (
 game (
 	name "Wild Trax (Japan) (En) (Rev 1)"
 	region "Japan"
+	language "English"
 	rom ( name "Wild Trax (Japan) (En) (Rev 1).sfc" size 1048576 crc 017C68C5 md5 2AB025F4A01B316D4A9627F7AB69EC78 sha1 B51199FA2AFB0A161D6AFDABFA0575513913DDE1 )
 )
 game (
@@ -17711,11 +18416,13 @@ game (
 game (
 	name "Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Portuguese / Swedish / Norwegian"
 	rom ( name "Winter Olympic Games - Lillehammer '94 (USA) (En,Fr,De,Es,It,Pt,Sv,No).sfc" size 2097152 crc 0704ABE4 md5 C895FD98F59546C54C2A5C015A9DD2BC sha1 F95834FECDD4045324AE5BCF66A0591C2B01D4DA )
 )
 game (
 	name "Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Portuguese / Swedish / Norwegian"
 	rom ( name "Winter Olympics - Lillehammer '94 (Europe) (En,Fr,De,Es,It,Pt,Sv,No).sfc" size 2097152 crc FCB1C794 md5 F99D2871EB40F06C6C62139BCC926775 sha1 DDE7484AAC121C94FBE5E840077AA73B1CF7DF13 )
 )
 game (
@@ -17741,6 +18448,7 @@ game (
 game (
 	name "Wizardry I-II-III - Story of Llylgamyn (Japan) (En,Ja) (NP)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "Wizardry I-II-III - Story of Llylgamyn (Japan) (En,Ja) (NP).sfc" size 4194304 crc B8A72553 md5 5987975FB59733089149003C506810AF sha1 6B63C968AEC822C0728513C01CD729FFD45DBAB7 )
 )
 game (
@@ -17751,6 +18459,7 @@ game (
 game (
 	name "Wizardry V - Saika no Chuushin (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	rom ( name "Wizardry V - Saika no Chuushin (Japan) (En,Ja).sfc" size 1048576 crc 547CF7B9 md5 0ACE69E60F682BE7F42F8EFF5BE4196B sha1 358879670B8FAD1C94F52A5C6BE37039B417B2AA )
 )
 game (
@@ -17781,6 +18490,7 @@ game (
 game (
 	name "Wolverine (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Wolverine (Japan) (En).sfc" size 2097152 crc D9119D9B md5 5629862516B201AE74ADBA025DD5E228 sha1 228E12075F9AC73E68F91690298DE8C40CBBA14E )
 )
 game (
@@ -17816,6 +18526,7 @@ game (
 game (
 	name "World Class Rugby (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "World Class Rugby (Japan) (En).sfc" size 524288 crc 3BB679D9 md5 16C7ED944A13CD0C4767A4B46103889D sha1 D4754759D3688119D2C959878A70E22DE15F1538 )
 )
 game (
@@ -17826,6 +18537,7 @@ game (
 game (
 	name "World Cup Striker (Europe) (En,Fr,De)"
 	region "Europe"
+	language "English / French / German"
 	rom ( name "World Cup Striker (Europe) (En,Fr,De).sfc" size 1048576 crc 6D16F5E7 md5 AE748774DCB36A05609310318E313DCC sha1 3E199976050B0E6F53B8529409671354948D450F )
 )
 game (
@@ -17836,16 +18548,19 @@ game (
 game (
 	name "World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	rom ( name "World Cup USA 94 (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv).sfc" size 1572864 crc 5EB18063 md5 DEA7E63AE1BC6F016FC636555729DB28 sha1 AC748A67F63450732503A24148A1478E2F4EBE2A )
 )
 game (
 	name "World Cup USA 94 (Japan) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "Japan"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	rom ( name "World Cup USA 94 (Japan) (En,Fr,De,Es,It,Nl,Pt,Sv).sfc" size 1572864 crc 24F92540 md5 D6C6CD6DBC0F0034D2CB7B117CEBCAC7 sha1 1882B7BE1760F5CB8F2250B62D1FC3816BF36CBB )
 )
 game (
 	name "World Cup USA 94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv)"
 	region "USA"
+	language "English / French / German / Spanish / Italian / Dutch / Portuguese / Swedish"
 	rom ( name "World Cup USA 94 (USA) (En,Fr,De,Es,It,Nl,Pt,Sv).sfc" size 1572864 crc FB1C9082 md5 868CA119EA2DE2A15E8ECECE66E23915 sha1 AEFC74B282101896737245513E7C0A718F122F54 )
 )
 game (
@@ -17896,6 +18611,7 @@ game (
 game (
 	name "World Soccer (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "World Soccer (Japan) (En).sfc" size 524288 crc A3096A8E md5 F1E1430F816D83F165E1D05C37754652 sha1 9437591E9A8CDFC352B61FA21EFB0F59A909B1F7 )
 )
 game (
@@ -17920,7 +18636,8 @@ game (
 )
 game (
 	name "X Zone (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "X Zone (Japan, USA) (En).sfc" size 524288 crc 99627BB0 md5 A316475DFCA41B864B7BE021AFBCAD00 sha1 B25FDDC4A239051B07B996F685FBCE8E8354FEA0 )
 )
 game (
@@ -17980,6 +18697,8 @@ game (
 )
 game (
 	name "Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Bitmap Bureau)"
+	region "World"
+	language "English / Japanese / French / German / Spanish / Italian / Dutch / Portuguese"
 	rom ( name "Xeno Crisis (World) (En,Ja,Fr,De,Es,It,Nl,Pt) (Bitmap Bureau) (Aftermarket) (Unl)_rp2040.bin" size 16777216 crc 3E24EEBA md5 3F8BD2BF4E47152ED16958462E85DDDB sha1 35E07CADC5299C9E5476CBD1961AF03FF75BAC3F )
 )
 game (
@@ -18003,12 +18722,19 @@ game (
 	rom ( name "Yamaneko Bubsy no Daibouken (Japan).sfc" size 2097152 crc 90387380 md5 8BF2DF33AE23BE071BDF429458AB6631 sha1 AC97AF97CF69A1D958457D7D8248F663CB0D1D18 )
 )
 game (
+	name "Yamaneko Bubsy no Daibouken (World) (The Purrfect Collection)"
+	region "World"
+	rom ( name "Yamaneko Bubsy no Daibouken (World) (The Purrfect Collection).sfc" size 2097152 crc 2CCF2681 md5 ACEF13F027DE29098660D7B9CE4366F5 sha1 02BA5662FB33E846E6160A95735312B8C45881A6 )
+)
+game (
 	name "Yo-Yo Shuriken (World)"
+	region "World"
 	rom ( name "Yo-Yo Shuriken (World) (Aftermarket) (Unl).sfc" size 262144 crc C66723B7 md5 581D3D8052383CAF63A2A8D71880F869 sha1 D33C355826F78254D73418B3205E204783D2ABBA )
 )
 game (
 	name "Yogi Bear (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Yogi Bear (Japan) (En).sfc" size 1048576 crc 1A6F48A5 md5 3C7B0221C42FF4CFEF14EE12828715EB sha1 BEC43433EE8DE72ADC168A2169195A8BAE703740 )
 )
 game (
@@ -18203,10 +18929,12 @@ game (
 )
 game (
 	name "Zelda II - The Adventure of Link (World) (REV-G) (NES Conversion)"
+	region "World"
 	rom ( name "Zelda II - The Adventure of Link (World) (REV-G) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc E7339DA0 md5 C611796C835FD1C4AC56632B7BE832E0 sha1 EACD7287F1C0C51D8AC8B423A3FE8BD4FB72317D )
 )
 game (
 	name "Zelda II - The Adventure of Link (World) (REV-H) (NES Conversion)"
+	region "World"
 	rom ( name "Zelda II - The Adventure of Link (World) (REV-H) (NES Conversion) (Aftermarket) (Unl).sfc" size 4194304 crc 1357D141 md5 5090BBA6065A550607591C6E6FF9F01C sha1 C16B5D5E3051A2C02D0B492FE4D427D2E4C44B12 )
 )
 game (
@@ -18280,6 +19008,11 @@ game (
 	rom ( name "Zero the Kamikaze Squirrel (Europe) (Rev 1).sfc" size 2097152 crc F4830329 md5 8E3C8F4883C9A523A9A2750FFBDEC319 sha1 C00BBB06DB50F7D1A9F15A2DE1B44B20D2D34ABD )
 )
 game (
+	name "Zero the Kamikaze Squirrel (Japan) (Switch)"
+	region "Japan"
+	rom ( name "Zero the Kamikaze Squirrel (Japan) (Switch).sfc" size 2621440 crc C4EAF011 md5 D49C0DC6BA3A88EFFA6D655E26714743 sha1 8FF6599318955FF923D49A0C5E9A19C1F787065F )
+)
+game (
 	name "Zero the Kamikaze Squirrel (USA)"
 	region "USA"
 	rom ( name "Zero the Kamikaze Squirrel (USA).sfc" size 2097152 crc 5397D5BC md5 7981BE58E5EEC603C585A0F1A3190840 sha1 622EDFE3A7B2C65724C2D78FB3D692775CD1FDE1 )
@@ -18290,7 +19023,13 @@ game (
 	rom ( name "Zero the Kamikaze Squirrel (USA) (Limited Run Games).sfc" size 2097152 crc C98FB63A md5 44780E97245B367DF564E824915717B5 sha1 B01C1558AAC43775B2DBE980775218EAD36BC7A2 )
 )
 game (
+	name "Zero the Kamikaze Squirrel (USA) (Switch)"
+	region "USA"
+	rom ( name "Zero the Kamikaze Squirrel (USA) (Switch).sfc" size 2097152 crc 9D4F7958 md5 BACAC4358B987DA425D8B858140B87FC sha1 164032CBB3B191B47C9A5E2D230BB9DC2093F903 )
+)
+game (
 	name "Zero the Kamikaze Squirrel (World) (Evercade)"
+	region "World"
 	rom ( name "Zero the Kamikaze Squirrel (World) (Evercade).sfc" size 2097152 crc 72398230 md5 C79F43BC541133EC0C5B421A9685201A sha1 D867AA98DBF62AA0A700B7FF4C1027CE3E44507D )
 )
 game (
@@ -18356,6 +19095,7 @@ game (
 game (
 	name "Zool no Yume Bouken (Japan) (En)"
 	region "Japan"
+	language "English"
 	rom ( name "Zool no Yume Bouken (Japan) (En).sfc" size 1048576 crc 5C2A701D md5 720DE2F44DE00C8677094A6CFB780709 sha1 F650083142D9F3EB2BF1B315B44D18077743FE17 )
 )
 game (
@@ -18380,6 +19120,7 @@ game (
 )
 game (
 	name "sNESert Golfing (World)"
+	region "World"
 	rom ( name "sNESert Golfing (World) (Aftermarket) (Unl).sfc" size 65536 crc 0D6A9C48 md5 C1ED87A43E76EABEC9C02CB8C4041AA2 sha1 1214F1B20859B631342D3215E5C0A0FCE72722AB )
 )
 game (

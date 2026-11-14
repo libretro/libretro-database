@@ -1,7 +1,7 @@
 clrmamepro (
 	name "NEC - PC Engine CD - TurboGrafx-CD"
 	description "NEC - PC Engine CD - TurboGrafx-CD"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -369,7 +369,7 @@ game (
 	name "Cosmic Fantasy - Bouken Shounen Yuu (Japan)"
 	region "Japan"
 	serial "TJCD9003"
-	rom ( name "Cosmic Fantasy - Bouken Shounen Yuu (Japan) (Alt 1) (Track 02).bin" size 20210736 crc 46885BFA md5 4AAFCC88B57FF3EF68E78D3CC6A34935 sha1 5C1E06E5207627E91038BF1795AC1915464C5E34 serial "TJCD9003" )
+	rom ( name "Cosmic Fantasy - Bouken Shounen Yuu (Japan) (Alt 2) (Track 02).bin" size 20210736 crc 46885BFA md5 4AAFCC88B57FF3EF68E78D3CC6A34935 sha1 5C1E06E5207627E91038BF1795AC1915464C5E34 serial "TJCD9003" )
 )
 game (
 	name "Cosmic Fantasy 2 (USA)"
@@ -400,6 +400,12 @@ game (
 	region "Japan"
 	serial "TJCD4038"
 	rom ( name "Cosmic Fantasy 4 - Ginga Shounen Densetsu - Totsunyuu-hen (Japan) (Track 02).bin" size 74008032 crc C2766C07 md5 2E9F7925305F34E286D7D985653CFFE4 sha1 D2531938FC18270944B0DB3BEB6B118A38B4C0DD serial "TJCD4038" )
+)
+game (
+	name "Crest of Wolf (Japan)"
+	region "Japan"
+	serial "HCD3044"
+	rom ( name "Crest of Wolf (Japan) (Track 02).bin" size 5557776 crc 9DA54464 md5 92193F69A78C6D48800A7D8740F5CEE6 sha1 F66276DB5CBE2E002FC76E9AE2FD0C72071D2918 serial "HCD3044" )
 )
 game (
 	name "Cyber City Oedo 808 - Kemono no Alignment (Japan)"
@@ -685,6 +691,7 @@ game (
 game (
 	name "Fantastic Night Dreams - Cotton (Japan) (En,Ja,Zh)"
 	region "Japan"
+	language "English / Japanese / Chinese"
 	serial "HCD3043"
 	rom ( name "Fantastic Night Dreams - Cotton (Japan) (En,Ja,Zh) (Track 02).bin" size 5642448 crc F3A1AFD1 md5 78413FB8E799B7E4F82E5816F2E520DA sha1 FB0DEEBAF4D1542E700A546120DE7273BB963108 serial "HCD3043" )
 )
@@ -793,6 +800,7 @@ game (
 game (
 	name "Forgotten Worlds (USA) (En,Ja)"
 	region "USA"
+	language "English / Japanese"
 	serial "TGXCD1030"
 	rom ( name "Forgotten Worlds (USA) (En,Ja) (Track 02).bin" size 8822352 crc 745C3995 md5 CA9F3798F5436D8304F35C566D01E306 sha1 5F74892CDBC5CCF423EAAA31EB10824454B296A1 serial "TGXCD1030" )
 )
@@ -887,10 +895,10 @@ game (
 	rom ( name "Ginga Ojousama Densetsu Yuna (Japan) (FAFT) (Track 02).bin" size 177446640 crc 1DBC483E md5 AD2EE4A627EB0BE512103C102097230E sha1 AE730B014047A72DB9C79E0BAD0D035284C335F4 serial "HCD5078" )
 )
 game (
-	name "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FAAT)"
+	name "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FABT)"
 	region "Japan"
 	serial "HCD-5075"
-	rom ( name "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FAAT) (Track 02).bin" size 233243136 crc 3160642E md5 CC83B13A5C01A1B26EB399C379072BAC sha1 25A98E554B2BEA06C932561D16976D866BDC5664 serial "HCD-5075" )
+	rom ( name "Ginga Ojousama Densetsu Yuna 2 - Eien no Princess (Japan) (FABT) (Track 02).bin" size 233243136 crc 3160642E md5 CC83B13A5C01A1B26EB399C379072BAC sha1 25A98E554B2BEA06C932561D16976D866BDC5664 serial "HCD-5075" )
 )
 game (
 	name "Ginga Ojousama Densetsu Yuna HuVIDEO CD (Japan)"
@@ -923,16 +931,16 @@ game (
 	rom ( name "Godzilla Bakutou Retsuden (Japan) (Track 02).bin" size 20151936 crc E28FF3AC md5 5A4D1010ABFD2B32CD83119EB17A302B sha1 1C6A486F5145E6ACF18BB45C66106BFF43DE6BC6 serial "TCCD4001" )
 )
 game (
-	name "Goetzendiener (Japan)"
-	region "Japan"
-	serial "HECD4014"
-	rom ( name "Goetzendiener (Japan) (Track 02).bin" size 19253472 crc FBCD3B21 md5 C7B3D7DF218B2606F8D0B491CCA0554C sha1 E39B201A39B97908C33D8ADC18EF837CAFB15C0F serial "HECD4014" )
-)
-game (
 	name "Golden Axe (Japan)"
 	region "Japan"
 	serial "TJCD0005"
 	rom ( name "Golden Axe (Japan) (Alt) (Track 02).bin" size 15245664 crc 4A182523 md5 492E288FB2D4D489CCDFEC5369AC9279 sha1 48E1CD1B9225989718B6F16D09682ADF4C65A64C serial "TJCD0005" )
+)
+game (
+	name "Gotzendiener (Japan)"
+	region "Japan"
+	serial "HECD4014"
+	rom ( name "Gotzendiener (Japan) (Track 02).bin" size 19253472 crc FBCD3B21 md5 C7B3D7DF218B2606F8D0B491CCA0554C sha1 E39B201A39B97908C33D8ADC18EF837CAFB15C0F serial "HECD4014" )
 )
 game (
 	name "Gradius II - Gofer no Yabou (Japan)"
@@ -1114,14 +1122,15 @@ game (
 game (
 	name "J. B. Harold Murder Club (USA) (En,Ja)"
 	region "USA"
+	language "English / Japanese"
 	serial "TGXCD1012"
 	rom ( name "J. B. Harold Murder Club (USA) (En,Ja) (Track 02).bin" size 160509888 crc 6DE97BF9 md5 5F3F22C3416E529FF7B3B7C5D5E001B9 sha1 B0DE3C0F10CA00AB4288641DBB9B4ACA960B526B serial "TGXCD1012" )
 )
 game (
-	name "J. B. Harold Series 1 - Murder Club (Japan)"
+	name "J. B. Harold Series #1 - Murder Club (Japan)"
 	region "Japan"
 	serial "HCD0013"
-	rom ( name "J. B. Harold Series 1 - Murder Club (Japan) (Track 02).bin" size 160509888 crc CF416A01 md5 1C789459F48DBFDE0B852268F7F29677 sha1 344E3087216495CCE2013AE791A5FAA2F453AD9B serial "HCD0013" )
+	rom ( name "J. B. Harold Series #1 - Murder Club (Japan) (Track 02).bin" size 160509888 crc CF416A01 md5 1C789459F48DBFDE0B852268F7F29677 sha1 344E3087216495CCE2013AE791A5FAA2F453AD9B serial "HCD0013" )
 )
 game (
 	name "J.League Tremendous Soccer '94 (Japan)"
@@ -1167,6 +1176,7 @@ game (
 )
 game (
 	name "Jessie Jaeger in Cleopatra's Curse (World)"
+	region "World"
 	rom ( name "Jessie Jaeger in Cleopatra's Curse (World) (Unl) (Track 02).bin" size 3370416 crc F917F093 md5 30E85E7F9A7BC31935B34D7DDC20B6CD sha1 1D999569B014BC5D44BBC54937BF778E1BCE66A6 )
 )
 game (
@@ -1361,10 +1371,10 @@ game (
 	rom ( name "Lemmings (Japan) (Track 02).bin" size 13547520 crc F4E4A4F1 md5 1725251AC38DAFA9CA073D819B82814E sha1 67836E556F1961A03C8E6B2D0CD6B42AEF4E687E serial "SSCD2003" )
 )
 game (
-	name "Linda^3 (Japan) (Rev 1)"
+	name "Linda^3 (Japan) (Rev 2)"
 	region "Japan"
 	serial "HECD5023"
-	rom ( name "Linda^3 (Japan) (Rev 1) (Track 02).bin" size 212830128 crc EBEB5E89 md5 E0DBD6AD713D3937D91ECB67D2054996 sha1 3296A4DB58A92A60DFBD35FC99A8C1943DB995E1 serial "HECD5023" )
+	rom ( name "Linda^3 (Japan) (Rev 2) (Track 02).bin" size 212830128 crc EBEB5E89 md5 E0DBD6AD713D3937D91ECB67D2054996 sha1 3296A4DB58A92A60DFBD35FC99A8C1943DB995E1 serial "HECD5023" )
 )
 game (
 	name "Local Girls of Hawaii, The (USA)"
@@ -1453,7 +1463,7 @@ game (
 	name "Mahjong Vanilla Syndrome (Japan)"
 	region "Japan"
 	serial "NBCD1001"
-	rom ( name "Mahjong Vanilla Syndrome (Japan) (Track 02).bin" size 13333488 crc 78468549 md5 8154856C4D7AEF414F6D2C72058DDA0C sha1 254D19F2E543A4A6A0A9A02F4B0F6306C9B7C3DA serial "NBCD1001" )
+	rom ( name "Mahjong Vanilla Syndrome (Japan) (Alt) (Track 02).bin" size 13333488 crc 78468549 md5 8154856C4D7AEF414F6D2C72058DDA0C sha1 254D19F2E543A4A6A0A9A02F4B0F6306C9B7C3DA serial "NBCD1001" )
 )
 game (
 	name "Mahjong on the Beach (Japan)"
@@ -1597,13 +1607,13 @@ game (
 	name "Monster Maker - Yami no Ryuukishi (Japan)"
 	region "Japan"
 	serial "NAPR-1026"
-	rom ( name "Monster Maker - Yami no Ryuukishi (Japan) (Alt) (Track 02).bin" size 114568272 crc ABD5C089 md5 22DB15A2B5DD15FDB9F447C570809487 sha1 71C98D280C3CFFDB6BDAEA77AD4BD5A0425C480C serial "NAPR-1026" )
+	rom ( name "Monster Maker - Yami no Ryuukishi (Japan) (Track 02).bin" size 114568272 crc E985D2E1 md5 F9010B1E180232817788AA71F052286C sha1 D0857D8CA6646C970C3E6F7F4592C12B1A9604B9 serial "NAPR-1026" )
 )
 game (
 	name "Monster Maker - Yami no Ryuukishi (Japan)"
 	region "Japan"
 	serial "NAPR-1026"
-	rom ( name "Monster Maker - Yami no Ryuukishi (Japan) (Track 02).bin" size 114568272 crc E985D2E1 md5 F9010B1E180232817788AA71F052286C sha1 D0857D8CA6646C970C3E6F7F4592C12B1A9604B9 serial "NAPR-1026" )
+	rom ( name "Monster Maker - Yami no Ryuukishi (Japan) (Alt) (Track 02).bin" size 114568272 crc ABD5C089 md5 22DB15A2B5DD15FDB9F447C570809487 sha1 71C98D280C3CFFDB6BDAEA77AD4BD5A0425C480C serial "NAPR-1026" )
 )
 game (
 	name "Moonlight Lady (Japan)"
@@ -1632,12 +1642,14 @@ game (
 game (
 	name "Mysterious Song (USA) (En,Fr,Es)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "FCD0001"
 	rom ( name "Mysterious Song (USA) (En,Fr,Es) (Unl) (Track 02).bin" size 8104992 crc 29CB97C5 md5 02CDD19420F3F24768CD906243658C0A sha1 1F10986F682BD1891D4252E4F747EF0BD3AC8204 serial "FCD0001" )
 )
 game (
 	name "Mysterious Song (USA) (En,Fr,Es) (Rerelease)"
 	region "USA"
+	language "English / French / Spanish"
 	serial "FCD0001"
 	rom ( name "Mysterious Song (USA) (En,Fr,Es) (Unl) (Rerelease) (Track 02).bin" size 7954464 crc BB5BFEF1 md5 8EB04DE7BFDD30FC2B59FCA5FEBEC239 sha1 73493CB719204C822E1D82AA17BB84C53DB77F6B serial "FCD0001" )
 )
@@ -1702,12 +1714,6 @@ game (
 	rom ( name "Nobunaga no Yabou - Zenkokuban (Japan) (Track 2).bin" size 9422112 crc 835F4786 md5 28F31D094A49D05243BA0455DAA0AC10 sha1 4C75606489E33313B78C03E8825CBA2E808EAF05 serial "KOCD3005" )
 )
 game (
-	name "Ookami-teki Monshou - Crest of Wolf (Japan)"
-	region "Japan"
-	serial "HCD3044"
-	rom ( name "Ookami-teki Monshou - Crest of Wolf (Japan) (Track 02).bin" size 5557776 crc 9DA54464 md5 92193F69A78C6D48800A7D8740F5CEE6 sha1 F66276DB5CBE2E002FC76E9AE2FD0C72071D2918 serial "HCD3044" )
-)
-game (
 	name "PC Engine Fan - Special CD-ROM^2 Vol. 1 (Japan)"
 	region "Japan"
 	serial "TICD-6006"
@@ -1718,12 +1724,6 @@ game (
 	region "Japan"
 	serial "HCD2042"
 	rom ( name "PC Engine Hyper Catalog CD-ROM (Japan) (Track 02).bin" size 3306912 crc 92FC8BA0 md5 6F0640FCF9A31A784043AB8FC7E94618 sha1 DA16EAEC1884A4F22891AD0465D77295FA9E5AE4 serial "HCD2042" )
-)
-game (
-	name "PC Engine Hyper Catalog CD-ROM - 1994 Summer (Japan) (Disc A)"
-	region "Japan"
-	serial "SHCD-4008"
-	rom ( name "PC Engine Hyper Catalog CD-ROM - 1994 Summer (Japan) (Disc A) (Track 17).bin" size 21457296 crc 90EA9342 md5 242657F39D8810263C8DFEAF6E6B5166 sha1 1DDD49039CA723EC9AE310EEE78A49063FC37AE8 serial "SHCD-4008" )
 )
 game (
 	name "PC Engine Hyper Catalog CD-ROM - 1994 Summer (Japan) (Disc B)"
@@ -1754,6 +1754,12 @@ game (
 	region "Japan"
 	serial "SHCD-4005"
 	rom ( name "PC Engine Hyper Catalog CD-ROM 5 - 1994 Spring (Japan) (Track 29).bin" size 14481264 crc EA0DE338 md5 363C85E0E9AAE9C33489C02CA0BDE9B1 sha1 0C8C4A32D4034278BD49F60202E4DDF1E2EC3462 serial "SHCD-4005" )
+)
+game (
+	name "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer (Japan) (Disc A)"
+	region "Japan"
+	serial "SHCD-4006"
+	rom ( name "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer (Japan) (Disc A) (Track 17).bin" size 21457296 crc 90EA9342 md5 242657F39D8810263C8DFEAF6E6B5166 sha1 1DDD49039CA723EC9AE310EEE78A49063FC37AE8 serial "SHCD-4006" )
 )
 game (
 	name "PC Engine Hyper Catalog CD-ROM 6 - 1994 Summer (Japan) (Disc B)"
@@ -2035,7 +2041,7 @@ game (
 	name "ROM^2 Karaoke Volume 1 (Japan)"
 	region "Japan"
 	serial "HRCD-9101"
-	rom ( name "ROM^2 Karaoke Volume 1 (Japan) (Track 02).bin" size 2857680 crc C7565524 md5 8794A57BC14090196D776B86162D584F sha1 1FBD72744C7086B61DCA06DA3EA1E1C90FF33B66 serial "HRCD-9101" )
+	rom ( name "ROM^2 Karaoke Volume 1 (Japan) (Alt) (Track 02).bin" size 2857680 crc C7565524 md5 8794A57BC14090196D776B86162D584F sha1 1FBD72744C7086B61DCA06DA3EA1E1C90FF33B66 serial "HRCD-9101" )
 )
 game (
 	name "ROM^2 Karaoke Volume 2 (Japan)"
@@ -2136,6 +2142,7 @@ game (
 game (
 	name "Revival Chase (USA) (En,Fr)"
 	region "USA"
+	language "English / French"
 	serial "VOC3628"
 	rom ( name "Revival Chase (USA) (En,Fr) (Unl) (Track 01).bin" size 5115600 crc 6FFAD6A2 md5 820322423B1FA93019514903EDCFCF73 sha1 405D4FAD91304A0DE94EF36BC10BEC082BF3404D serial "VOC3628" )
 )
@@ -2164,10 +2171,11 @@ game (
 	rom ( name "Ruin - Kami no Isan (Japan) (Track 02).bin" size 26330640 crc EF793125 md5 2A1563654E40C7391D40AC7DDEEF8815 sha1 AD0F9285E91152CDF90AFD974C70D8348C3986FF serial "JCCD3013" )
 )
 game (
-	name "Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT)"
+	name "Ryuuko no Ken (Japan) (En,Ja,Es) (FACT)"
 	region "Japan"
+	language "English / Japanese / Spanish"
 	serial "HCD4061"
-	rom ( name "Ryuuko no Ken (Japan) (En,Ja,Es) (FAAT) (Track 02).bin" size 135583392 crc F50D6126 md5 E00A753DCD64BA5FF72957DB4CF01CAA sha1 4E78B06D56280F9A63073086FF834845153D75E4 serial "HCD4061" )
+	rom ( name "Ryuuko no Ken (Japan) (En,Ja,Es) (FACT) (Track 02).bin" size 135583392 crc F50D6126 md5 E00A753DCD64BA5FF72957DB4CF01CAA sha1 4E78B06D56280F9A63073086FF834845153D75E4 serial "HCD4061" )
 )
 game (
 	name "Sangokushi - Eiketsu Tenka ni Nozomu (Japan)"
@@ -2692,10 +2700,10 @@ game (
 	rom ( name "Todd's Adventures in Slime World (Japan) (Track 02).bin" size 7258272 crc BD8A14DE md5 AD71DF1C68DEC19E16B46CB16D79AB6F sha1 A9B239C09D1C984B57C1E3A210E2133B123E63AF serial "MWCD2005" )
 )
 game (
-	name "Tokimeki Memorial (Japan) (Rev 1)"
+	name "Tokimeki Memorial (Japan) (Rev 3)"
 	region "Japan"
 	serial "KMCD4007"
-	rom ( name "Tokimeki Memorial (Japan) (Rev 1) (Track 4).bin" size 398485248 crc F70D589B md5 02ECAFF7F61A3E55FDC5332A150F453D sha1 9A875A7F2AEAC5DE848A1ACEA2572AEA28D4EA0C serial "KMCD4007" )
+	rom ( name "Tokimeki Memorial (Japan) (Rev 3) (Track 4).bin" size 398485248 crc F70D589B md5 02ECAFF7F61A3E55FDC5332A150F453D sha1 9A875A7F2AEAC5DE848A1ACEA2572AEA28D4EA0C serial "KMCD4007" )
 )
 game (
 	name "Top o Nerae! GunBuster Vol. 1 (Japan)"
@@ -2779,7 +2787,7 @@ game (
 	name "Valis II (Japan)"
 	region "Japan"
 	serial "TJCD9001"
-	rom ( name "Valis II (Japan) (Alt 1) (Track 02).bin" size 6185760 crc E036867D md5 CF43558CDABA5931AF6D739C1004E4BD sha1 C3EB280F61818450696768D092395EC2A08A2947 serial "TJCD9001" )
+	rom ( name "Valis II (Japan) (Alt 2) (Track 02).bin" size 6185760 crc E036867D md5 CF43558CDABA5931AF6D739C1004E4BD sha1 C3EB280F61818450696768D092395EC2A08A2947 serial "TJCD9001" )
 )
 game (
 	name "Valis II (USA)"
@@ -2832,6 +2840,7 @@ game (
 game (
 	name "Where in the World Is Carmen Sandiego (Japan) (En,Ja)"
 	region "Japan"
+	language "English / Japanese"
 	serial "PVCD-0001"
 	rom ( name "Where in the World Is Carmen Sandiego (Japan) (En,Ja) (Track 02).bin" size 9349200 crc E7CA0AAE md5 B95BB14781BBEA9B13A342626DC1B8DA sha1 DCD94DDE22A0B6CAB1306EA3A59541CF149F498F serial "PVCD-0001" )
 )

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Commodore - CDTV"
 	description "Commodore - CDTV"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -25,6 +25,11 @@ game (
 	name "17 Bit - Continuation Disc (Europe)"
 	region "Europe"
 	rom ( name "17 Bit - Continuation Disc (Europe).bin" size 524512464 crc 64504039 md5 4CDE0425B6DDDB522E611B688744D81C sha1 0C2AC57D774E4DC67F1E5580FA3840E7A1276FD9 )
+)
+game (
+	name "17 Bit - Continuation Disc (Europe)"
+	region "Europe"
+	rom ( name "17 Bit - Continuation Disc (Europe) (Alt).bin" size 522186336 crc 120885BF md5 32EACFEDC0CFEF5AD3B0D83BCEF37EBC sha1 32E72DD918BF798D5F745547BA94509064EF86EF )
 )
 game (
 	name "AMOS PD (UK)"
@@ -100,12 +105,14 @@ game (
 game (
 	name "Cinderella - The Original Fairy Tale (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "CDRM-735100"
 	rom ( name "Cinderella - The Original Fairy Tale (USA) (En,Fr,De,Es,It).bin" size 608222496 crc 9483D665 md5 9A6F8E3AB8560B1EFA1B1E7AE6E6548F sha1 6C848EB2C47A2076FD3E820FEE1B72130FE051C3 serial "CDRM-735100" )
 )
 game (
 	name "Classic Board Games (Europe) (En,Ja,Fr,De,Es,It)"
 	region "Europe"
+	language "English / Japanese / French / German / Spanish / Italian"
 	rom ( name "Classic Board Games (Europe) (En,Ja,Fr,De,Es,It).bin" size 113926176 crc 5540A1D9 md5 343851D323C2D708CEB39208F98D712D sha1 3080A6870E2F574672D8349562DF52B4014B8427 )
 )
 game (
@@ -128,6 +135,7 @@ game (
 game (
 	name "Defender of the Crown II (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "Defender of the Crown II (USA) (En,Fr,De,Es,It) (Track 01).bin" size 65030448 crc 3C1BD1A7 md5 8D06279C2D025C37185BD930BEEF5C2A sha1 DEF7D790861D74742596BC430CE6EE73F055CED5 )
 )
 game (
@@ -149,6 +157,11 @@ game (
 	name "Electric Crayon - All Dogs Go to Heaven (USA)"
 	region "USA"
 	rom ( name "Electric Crayon - All Dogs Go to Heaven (USA).bin" size 33092640 crc 1B7263ED md5 ACA6B8360EED8618DB3665F11FAD707B sha1 B7507EDC8EF7C0E7041DECBFADA558EE0445E2FC )
+)
+game (
+	name "Enciclopedia Elettronica Multimediale Grolier - Edizione 1996 (Italy)"
+	region "Italy"
+	rom ( name "Enciclopedia Elettronica Multimediale Grolier - Edizione 1996 (Italy).bin" size 501187680 crc 9827DD76 md5 FB915ECF7B0411772C00D0AB3474866E sha1 30A868AF4C9CC5BBA372CC222AF3AEEF5676AC45 )
 )
 game (
 	name "Fantastic Voyage (USA)"
@@ -222,6 +235,7 @@ game (
 game (
 	name "Mud Puddle (USA) (En,Fr,De,Es,It)"
 	region "USA"
+	language "English / French / German / Spanish / Italian"
 	serial "CDRM-735000"
 	rom ( name "Mud Puddle (USA) (En,Fr,De,Es,It).bin" size 322557984 crc 1485937A md5 DAFE4AAC6FD8AC341C1BB357BC3392BE sha1 B5B7C32C7E588CF9C67D80A2D4192CDB21DD1696 serial "CDRM-735000" )
 )
@@ -230,6 +244,11 @@ game (
 	region "USA"
 	serial "CDRM-445900"
 	rom ( name "New Basics Electronic Cookbook, The - 1991a Edition (USA).bin" size 95317152 crc C8D7EF3D md5 59BF30DD84E33E6435DE31C256749169 sha1 5E66985095280F9829BC8845955391A9E177C73E serial "CDRM-445900" )
+)
+game (
+	name "North Polar Expedition (Europe)"
+	region "Europe"
+	rom ( name "North Polar Expedition (Europe) (Track 1).bin" size 287532000 crc EA6486E1 md5 840993975BCE6B6D4745DAEABC66A894 sha1 3BC2C089C3F2601FDCD273584365DE95B563EFAA )
 )
 game (
 	name "Now That's What I Call Games (UK)"
@@ -258,6 +277,7 @@ game (
 game (
 	name "SimCity (Europe) (En,Fr,De,Es,It)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian"
 	serial "91133"
 	rom ( name "SimCity (Europe) (En,Fr,De,Es,It) (Track 01).bin" size 6091680 crc 287D124F md5 AA9DE61812285E908C3A111DFF70758D sha1 5A84EB2A945B50206DA5E6DC3DD1172238A2FF8B serial "91133" )
 )
@@ -279,6 +299,7 @@ game (
 game (
 	name "Town with No Name (Europe) (En,Fr,De,Es,It,Da)"
 	region "Europe"
+	language "English / French / German / Spanish / Italian / Danish"
 	rom ( name "Town with No Name (Europe) (En,Fr,De,Es,It,Da) (Track 1).bin" size 80732400 crc 71F38F74 md5 C9819D1148D03786DF01EEDC6A9F2099 sha1 15E684F752C96D9F321F5A3B7458C2DA8156A4D7 )
 )
 game (
@@ -312,6 +333,11 @@ game (
 	rom ( name "Will Bridge Vol. 1 - Initiation aux Encheres - Practice (France).bin" size 25401600 crc D5FB39CE md5 1D094697CD68269ECE9824D5148D9F70 sha1 C9A4D93361C0D5A989C2B2077879C53224EB8CAC )
 )
 game (
+	name "World Vista (USA)"
+	region "USA"
+	rom ( name "World Vista (USA).bin" size 502504800 crc D737D234 md5 C0BC6EBEF859EB04E484BFFB4D50EA18 sha1 700AFC3AD54BE6FE3554D84D240A9E42CBC269EB )
+)
+game (
 	name "Wrath of the Demon (USA)"
 	region "USA"
 	rom ( name "Wrath of the Demon (USA).bin" size 7756896 crc 5397EB5C md5 E92C37712B3BC5AB3D339A9E548E4710 sha1 5AD8D5B13CDD5BBBE5EA03C508804888F5FA344A )
@@ -319,5 +345,6 @@ game (
 game (
 	name "Xenon 2 - Megablast (Europe) (En,Fr,De,It)"
 	region "Europe"
+	language "English / French / German / Italian"
 	rom ( name "Xenon 2 - Megablast (Europe) (En,Fr,De,It) (Track 01).bin" size 14123760 crc 74F0388C md5 C6D86451DA6881150267B20A9ED625EC sha1 A1CD9D031308295F76927C660AA37E4C7FF4E9CA )
 )

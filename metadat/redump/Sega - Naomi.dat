@@ -1,11 +1,23 @@
 clrmamepro (
 	name "Sega - Naomi"
 	description "Sega - Naomi"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
 
+game (
+	name "Azumanga Daioh Puzzle Bobble (Japan)"
+	region "Japan"
+	serial "GDL-0018"
+	rom ( name "Azumanga Daioh Puzzle Bobble (Japan) (Track 3).bin" size 1185760800 crc 76AC102C md5 5EABAC7B0021F9734F80EEF97CF70929 sha1 A2D9120C9F3A95CBF624802C9B10B57807AA8E75 serial "GDL-0018" )
+)
+game (
+	name "Border Down (Japan) (Rev A)"
+	region "Japan"
+	serial "GDL-0023A"
+	rom ( name "Border Down (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 5F07567E md5 301C91A6ED047C586FCCDE4F1E57B41D sha1 FA86A3BCF3A665DA838335C4AD674041441FEA61 serial "GDL-0023A" )
+)
 game (
 	name "Capcom vs. SNK 2 - Millionaire Fighting 2001 (Japan) (Rev A)"
 	region "Japan"
@@ -17,6 +29,12 @@ game (
 	region "Japan"
 	serial "GDL-0025"
 	rom ( name "Chaos Field (Japan) (Track 3).bin" size 1185760800 crc 286CF26E md5 83B3F69ADE6A19EF8093659D1DA0C693 sha1 924121AC1C372421469FCF773BDA22B6D946910D serial "GDL-0025" )
+)
+game (
+	name "Cleopatra Fortune Plus - Matamata Shinpi Desuu (Japan)"
+	region "Japan"
+	serial "GDL-0012"
+	rom ( name "Cleopatra Fortune Plus - Matamata Shinpi Desuu (Japan) (Track 3).bin" size 1185760800 crc 2591906F md5 78A1A65D4B9A2727A28394DEA9245913 sha1 DF7450E18D1F9B7DF4FF3F599675504C398FB69D serial "GDL-0012" )
 )
 game (
 	name "DIMM Firm Update (Japan) (Rev A)"
@@ -38,20 +56,22 @@ game (
 )
 game (
 	name "Dynamic Golf ~ Virtua Golf (World) (En,Ja) (Rev A)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0009A"
 	rom ( name "Dynamic Golf ~ Virtua Golf (World) (En,Ja) (Rev A) (Track 3).bin" size 1185760800 crc 61F4FA45 md5 8490D08F4B8B623E911F42C7620AA0B6 sha1 BB85BA2C98E19487FA761C9DA1E5EE886A70F1E5 serial "GDS-0009A" )
+)
+game (
+	name "Guilty Gear XX - The Midnight Carnival #Reload (Japan)"
+	region "Japan"
+	serial "GDL-0019"
+	rom ( name "Guilty Gear XX - The Midnight Carnival #Reload (Japan) (Track 3).bin" size 1185760800 crc 16D0E0DC md5 E57AF9C31E4D0D82BEDE525C9237118F sha1 F78E662FA7432805668AA36A0A7C5FEBEECE4D78 serial "GDL-0019" )
 )
 game (
 	name "Guilty Gear XX - The Midnight Carnival (Japan)"
 	region "Japan"
 	serial "GDL-0011"
 	rom ( name "Guilty Gear XX - The Midnight Carnival (Japan) (Track 3).bin" size 1185760800 crc 20AC72F3 md5 35A57FAA136A8C8BC608140A79FDA659 sha1 1D2A13BA78F9D56C7C4356B36558C32347E88017 serial "GDL-0011" )
-)
-game (
-	name "Guilty Gear XX - The Midnight Carnival Reload (Japan)"
-	region "Japan"
-	serial "GDL-0019"
-	rom ( name "Guilty Gear XX - The Midnight Carnival Reload (Japan) (Track 3).bin" size 1185760800 crc 16D0E0DC md5 E57AF9C31E4D0D82BEDE525C9237118F sha1 F78E662FA7432805668AA36A0A7C5FEBEECE4D78 serial "GDL-0019" )
 )
 game (
 	name "Guilty Gear XX Accent Core (Japan)"
@@ -66,6 +86,18 @@ game (
 	rom ( name "Guilty Gear XX Slash - The Midnight Carnival (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 6D7C1BFA md5 D70730C20CFD34BD8A3AB83E0620E413 sha1 E032C2D6323E5A976DD9E2F8A54E6FA38276D2CC serial "GDL-0033A" )
 )
 game (
+	name "Ikaruga (Japan)"
+	region "Japan"
+	serial "GDL-0010"
+	rom ( name "Ikaruga (Japan) (Track 3).bin" size 1185760800 crc 53E7A719 md5 E7EA11BF1EF530BEDB65E06E5CA87A15 sha1 AD95D926698AA8737EBADC8F61C2E0820C44B2C4 serial "GDL-0010" )
+)
+game (
+	name "Karous (Japan)"
+	region "Japan"
+	serial "GDL-0040"
+	rom ( name "Karous (Japan) (Track 3).bin" size 1185760800 crc E3A9004C md5 3C4E9ADE25E3FB1AFAB34232A2EB7BC8 sha1 58C655C31B8D6DC3C7AE10EA28C5A1D970D771B5 serial "GDL-0040" )
+)
+game (
 	name "Keyboard, La (Japan)"
 	region "Japan"
 	serial "GDS-0017"
@@ -73,43 +105,67 @@ game (
 )
 game (
 	name "Kidou Senshi Gundam - Renpou vs. Zeon (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDL-0001"
 	rom ( name "Kidou Senshi Gundam - Renpou vs. Zeon (World) (En,Ja) (Track 3).bin" size 1185760800 crc 1665CFC3 md5 8A625ACEA5F9DBC0CE08A1234AC06298 sha1 4353D9B8424E5B2C83DFAA803050D971941E526E serial "GDL-0001" )
 )
 game (
 	name "Kidou Senshi Gundam - Renpou vs. Zeon DX ~ Mobile Suit Gundam - The Earth Federation vs. The Principality of Zeon Deluxe (USA, Japan) (En,Ja)"
-	region "USA"
+	region "USA / Japan"
+	language "English / Japanese"
 	serial "GDL-0006"
 	rom ( name "Kidou Senshi Gundam - Renpou vs. Zeon DX ~ Mobile Suit Gundam - The Earth Federation vs. The Principality of Zeon Deluxe (USA, Japan) (En,Ja) (Track 3).bin" size 1185760800 crc 8C28F0C2 md5 698CB726E6C596290989309508C9FE80 sha1 AF0D68E7CE492D1BE8A629A2670846C43D486CD2 serial "GDL-0006" )
 )
 game (
+	name "Kuru Kuru Chameleon (Japan)"
+	region "Japan"
+	serial "GDL-0034"
+	rom ( name "Kuru Kuru Chameleon (Japan) (Track 3).bin" size 1185760800 crc BF716C3E md5 93D800ACC400976CECD94D26400B874F sha1 0020307CBD42E662F57E16CA8F69CB9CF01A175B serial "GDL-0034" )
+)
+game (
 	name "Maze of the Kings, The (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0022"
 	rom ( name "Maze of the Kings, The (World) (En,Ja) (Track 3).bin" size 1185760800 crc 064CF39D md5 10CD29F9C1D73EE3199F6C1B022D856D sha1 E76ACA3A8A723FD3CFCA908B8C05DAFADE0B27F8 serial "GDS-0022" )
 )
 game (
-	name "Melty Blood - Act Cadenza (Japan) (Rev C)"
+	name "Melty Blood - Act Cadenza (Japan)"
+	region "Japan"
+	serial "GDL-0028"
+	rom ( name "Melty Blood - Act Cadenza (Japan) (Track 3).bin" size 1185760800 crc 80E19713 md5 40C9CE0B6CD4994DECD3F14AD467B1CB sha1 F9A8778414DBD23A77231885DCBB1E4ECFEC682A serial "GDL-0028" )
+)
+game (
+	name "Melty Blood - Act Cadenza - Ver. A (Japan) (Rev C)"
 	region "Japan"
 	serial "GDL-0028C"
-	rom ( name "Melty Blood - Act Cadenza (Japan) (Rev C) (Track 3).bin" size 1185760800 crc 60225B27 md5 5737AB7464581652DE0504551BEF39A1 sha1 BF166199F7FC82AB50EA0C92530F540952CBD0F1 serial "GDL-0028C" )
+	rom ( name "Melty Blood - Act Cadenza - Ver. A (Japan) (Rev C) (Track 3).bin" size 1185760800 crc 60225B27 md5 5737AB7464581652DE0504551BEF39A1 sha1 BF166199F7FC82AB50EA0C92530F540952CBD0F1 serial "GDL-0028C" )
 )
 game (
-	name "Melty Blood - Act Cadenza Ver. B (Japan)"
+	name "Melty Blood - Act Cadenza - Version B (Japan)"
 	region "Japan"
 	serial "GDL-0039"
-	rom ( name "Melty Blood - Act Cadenza Ver. B (Japan) (Track 3).bin" size 1185760800 crc E7747173 md5 A6D6BA4972396AC51D9A98C606118CBA sha1 BC124979A970FCEDD021E07EDA529BDF8DEC71BE serial "GDL-0039" )
+	rom ( name "Melty Blood - Act Cadenza - Version B (Japan) (Track 3).bin" size 1185760800 crc E7747173 md5 A6D6BA4972396AC51D9A98C606118CBA sha1 BC124979A970FCEDD021E07EDA529BDF8DEC71BE serial "GDL-0039" )
 )
 game (
-	name "Melty Blood - Act Cadenza Ver. B (Japan) (Rev A)"
+	name "Melty Blood - Act Cadenza - Version B2 (Japan) (Rev A)"
 	region "Japan"
 	serial "GDL-0039A"
-	rom ( name "Melty Blood - Act Cadenza Ver. B (Japan) (Rev A) (Track 3).bin" size 1185760800 crc F4E4500D md5 E626C8D3A7772F2CD8EE366EBD3CD31E sha1 1E1BD4F86DA0A4EC09BC6DA4E33748A5356286F4 serial "GDL-0039A" )
+	rom ( name "Melty Blood - Act Cadenza - Version B2 (Japan) (Rev A) (Track 3).bin" size 1185760800 crc F4E4500D md5 E626C8D3A7772F2CD8EE366EBD3CD31E sha1 1E1BD4F86DA0A4EC09BC6DA4E33748A5356286F4 serial "GDL-0039A" )
 )
 game (
-	name "Monkey Ball (Japan)"
+	name "Moeru Casinyo (Japan)"
 	region "Japan"
+	serial "GDL-0013"
+	rom ( name "Moeru Casinyo (Japan) (Track 3).bin" size 1185760800 crc 3633B406 md5 B78690C60BB0B488EBD91D8D2F570729 sha1 C1EA19877AB17B412FD49CF95851259CE4254F7B serial "GDL-0013" )
+)
+game (
+	name "Monkey Ball (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0008"
-	rom ( name "Monkey Ball (Japan) (Track 3).bin" size 1185760800 crc CA4FF2AB md5 83D11D9F16D089C68C7882D56C295EFA sha1 189C69CFBDDCD38FB701A083A88735AE06CDBE5D serial "GDS-0008" )
+	rom ( name "Monkey Ball (World) (En,Ja) (Track 3).bin" size 1185760800 crc CA4FF2AB md5 83D11D9F16D089C68C7882D56C295EFA sha1 189C69CFBDDCD38FB701A083A88735AE06CDBE5D serial "GDS-0008" )
 )
 game (
 	name "NouKone Puzzle - Takoron (Japan)"
@@ -119,11 +175,20 @@ game (
 )
 game (
 	name "Power Smash - Sega Professional Tennis ~ Virtua Tennis - Sega Professional Tennis (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0011"
 	rom ( name "Power Smash - Sega Professional Tennis ~ Virtua Tennis - Sega Professional Tennis (World) (En,Ja) (Track 3).bin" size 1185760800 crc B7F65EC6 md5 343AC1301E09315AA578ABFEB770B70D sha1 7826555C28E9419505BC112C916EAF1549A358AD serial "GDS-0011" )
 )
 game (
+	name "Psyvariar 2 - The Will to Fabricate (Japan)"
+	region "Japan"
+	serial "GDL-0024"
+	rom ( name "Psyvariar 2 - The Will to Fabricate (Japan) (Track 3).bin" size 1185760800 crc 0659DBD6 md5 7B267FC766F689F4980F0C5988F3A9FD sha1 088D8EDD08DAB4752DD576571739F19E318D6ACF serial "GDL-0024" )
+)
+game (
 	name "Puyo Pop Fever (World)"
+	region "World"
 	serial "GDS-0034"
 	rom ( name "Puyo Pop Fever (World) (Track 3).bin" size 1185760800 crc E07684E4 md5 005DCFBFCA160510382FF1D3ECF24EB5 sha1 EA7D131570389FCC11F5D86B3D71823E049FB00B serial "GDS-0034" )
 )
@@ -134,10 +199,22 @@ game (
 	rom ( name "Puyo Puyo Fever (Japan) (Track 3).bin" size 1185760800 crc 3784F5B7 md5 A7F0B608FAD73CF118963BE9B065D28A sha1 36C67D76080B9316F6ED3FE86D79022A0C5CD4E5 serial "GDS-0031" )
 )
 game (
+	name "Quiz Keitai Q Mode (Japan)"
+	region "Japan"
+	serial "GDL-0017"
+	rom ( name "Quiz Keitai Q Mode (Japan) (Track 3).bin" size 1185760800 crc 2280F9AB md5 2BB20F14E2049DC8EE3DBBC684D0E5CC sha1 0CAFE837C15CEC8B7DD495BBEC8A25C6954B7286 serial "GDL-0017" )
+)
+game (
 	name "Radirgy (Japan)"
 	region "Japan"
 	serial "GDL-0032"
 	rom ( name "Radirgy (Japan) (Track 3).bin" size 1185760800 crc A3E7A522 md5 85E44A45888E63EE72A0F2CB9A76545E sha1 A5BDA299727DB7221FE0BB62FE6CC428EACCB09B serial "GDL-0032" )
+)
+game (
+	name "Radirgy (Japan) (Rev A)"
+	region "Japan"
+	serial "GDL-0032A"
+	rom ( name "Radirgy (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 05523594 md5 F0228593B5E09A1C6C2D4918BCD2AA7B sha1 FFAB166F269291F286A44FDFD6AF5EE2D1D1A172 serial "GDL-0032A" )
 )
 game (
 	name "Senko no Ronde (Japan)"
@@ -152,6 +229,12 @@ game (
 	rom ( name "Senko no Ronde (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 41424A93 md5 65142C7BC6D31B231BD1D58B1D2E696C sha1 95F7D705EC9D8E2E833BA88D201781E3735C5308 serial "GDL-0030A" )
 )
 game (
+	name "Senko no Ronde SP (World)"
+	region "World"
+	serial "GDL-0038"
+	rom ( name "Senko no Ronde SP (World) (Track 3).bin" size 1185760800 crc 517F9FD1 md5 35E834A486DFBBBEDCCA82F8A6E0FB9D sha1 5B0708FAD5418B2CC56E1F6A7A47FC256A312FAD serial "GDL-0038" )
+)
+game (
 	name "Shikigami no Shiro II (Japan)"
 	region "Japan"
 	serial "GDL-0021"
@@ -159,11 +242,15 @@ game (
 )
 game (
 	name "Slashout (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0004"
 	rom ( name "Slashout (World) (En,Ja) (Track 3).bin" size 1185760800 crc 5B864E5E md5 9D68A360F6D1EFD90479C84125C0D12F sha1 58BF53069D164BAC5B148C8CA8AD233C6E992AFA serial "GDS-0004" )
 )
 game (
 	name "Spikers Battle (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0005"
 	rom ( name "Spikers Battle (World) (En,Ja) (Track 3).bin" size 1185760800 crc 8DF8683B md5 6A90C725583F72A65DDFB0FE7E8F78DF sha1 E34A101AFFCBD84B3E470749040534317B7C3D5B serial "GDS-0005" )
 )
@@ -198,7 +285,46 @@ game (
 	rom ( name "Tetris Kiwamemichi (Japan) (Track 3).bin" size 1185760800 crc 735E94EB md5 615D04F8B8C900E71D5EE18EBA093D41 sha1 D9484F89C52FF762838159B280B6EB9293A35B8B serial "GDL-0020" )
 )
 game (
-	name "Virtua Athletics ~ Virtua Athlete (World)"
+	name "TriggerHeart Exelica (Japan)"
+	region "Japan"
+	serial "GDL-0036"
+	rom ( name "TriggerHeart Exelica (Japan) (Track 3).bin" size 1185760800 crc BAA4F134 md5 1681D8C508FC63C654A1D175E413EA30 sha1 404063D9B99D35B8AB11C7039EBA5129C097CE9B serial "GDL-0036" )
+)
+game (
+	name "TriggerHeart Exelica (Japan) (Rev A)"
+	region "Japan"
+	serial "GDL-0036A"
+	rom ( name "TriggerHeart Exelica (Japan) (Rev A) (Track 3).bin" size 1185760800 crc 02C0F7D9 md5 928D6BF7FA0AFC2E9402ADE567B5FCA7 sha1 39A567BED73ED520105503975420362FA23E3621 serial "GDL-0036A" )
+)
+game (
+	name "Trizeal (Japan)"
+	region "Japan"
+	serial "GDL-0026"
+	rom ( name "Trizeal (Japan) (Track 3).bin" size 1185760800 crc 83C8E96B md5 39095E465C1A4605B494984266D86323 sha1 F4599276AB74A9923DAD2BAC7D7CBDB8597974A3 serial "GDL-0026" )
+)
+game (
+	name "Under Defeat (Japan)"
+	region "Japan"
+	serial "GDL-0035"
+	rom ( name "Under Defeat (Japan) (Track 3).bin" size 1185760800 crc 214E66A7 md5 2EA86F382420FA9A5531E2FD4CF16BD5 sha1 989866655541237FF172F9B41695AAD58E8E4812 serial "GDL-0035" )
+)
+game (
+	name "Usagi - Yasei no Touhai - Yamashiro Mahjong-hen (Japan)"
+	region "Japan"
+	serial "GDL-0022"
+	rom ( name "Usagi - Yasei no Touhai - Yamashiro Mahjong-hen (Japan) (Track 3).bin" size 1185760800 crc FE74AD19 md5 A1B6CC1F12CFB9D558CD1BA2E542375B sha1 9616F7284E2A5FABF785E68F7BEAFECA9849FD7F serial "GDL-0022" )
+)
+game (
+	name "Virtua Athletics ~ Virtua Athlete (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
 	serial "GDS-0019"
-	rom ( name "Virtua Athletics ~ Virtua Athlete (World) (Track 3).bin" size 1185760800 crc F2D965A1 md5 E90D79D4DC6FD62431D8A68A3CEF8297 sha1 B28592A6AA02BDCFD3ADA2B5BECDB5C6B05EB6AA serial "GDS-0019" )
+	rom ( name "Virtua Athletics ~ Virtua Athlete (World) (En,Ja) (Track 3).bin" size 1185760800 crc F2D965A1 md5 E90D79D4DC6FD62431D8A68A3CEF8297 sha1 B28592A6AA02BDCFD3ADA2B5BECDB5C6B05EB6AA serial "GDS-0019" )
+)
+game (
+	name "World Series Baseball ~ Super Major League (World) (En,Ja)"
+	region "World"
+	language "English / Japanese"
+	serial "GDS-0010"
+	rom ( name "World Series Baseball ~ Super Major League (World) (En,Ja) (Track 3).bin" size 1185760800 crc C075AF77 md5 90876EFBDD54E97DA03E8CE231D7385A sha1 5EEB30B61B51E724D70976BCE3834CA7E9D987C2 serial "GDS-0010" )
 )
