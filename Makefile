@@ -32,8 +32,9 @@ libretro-super/retroarch: libretro-super
 build: libretro-super/retroarch
 	rm -rf libretro-super/retroarch/media/libretrodb/dat
 	rm -rf libretro-super/retroarch/media/libretrodb/metadat
+	rm -rf libretro-super/retroarch/media/libretrodb/lookatalldat
 	rm -rf libretro-super/retroarch/media/libretrodb/rdb
-	cp -rf dat metadat rdb libretro-super/retroarch/media/libretrodb
+	cp -rf dat metadat $(wildcard lookatalldat) rdb libretro-super/retroarch/media/libretrodb
 	cd libretro-super && ./libretro-build-database.sh
 	rm -rf rdb
 	cp -rf libretro-super/retroarch/media/libretrodb/rdb .
