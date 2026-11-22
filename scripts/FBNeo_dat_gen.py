@@ -3,16 +3,21 @@
 # FBNeo_dat_gen.py
 # Written in 2017 by SpiralBrad <SpiralBrad@spiralgoat.com>
 
-## usage: FBNeo_dat_gen.py [-h] --dat DAT --path PATH [--output-file OUTPUT_FILE]
+## usage: FBNeo_dat_gen.py [-h] --dat DAT [--path PATH]
+##                       [--output-file OUTPUT_FILE]
 ##                       [--header-name HEADER_NAME]
 ##                       [--header-description HEADER_DESCRIPTION]
 ##                       [--header-version HEADER_VERSION]
+##                       [--set-type {split,non-merged}] [--add-keys DAT]
 ## 
 ## Generates Final Burn Neo .dat file needed for RetroArch/libretro-
 ## db/c_converter
 ## 
 ## optional arguments:
 ##   -h, --help            show this help message and exit
+##   -p, --path PATH       Path to a ClrMamePro verified and TorrentZipped
+##                         ROM set matching the Arcade only dat (see
+##                         --set-type); required unless --add-keys
 ##   -o, --output_file OUTPUT_FILE
 ##                         Path to the target output file; example: FBNeo - 
 ##                         Arcade games.dat
@@ -23,12 +28,16 @@
 ##                         .dat
 ##   --header-version HEADER_VERSION
 ##                         Override the clrmamepro(version) in the output .dat
+##   --set-type {split,non-merged}
+##                         The kind of ROM set --path holds, or that the dat
+##                         --add-keys reads was made from (default: split)
+##   --add-keys DAT        Write DAT with the set fingerprints from --dat
+##                         added, changing nothing else in it; --path is not
+##                         read
 ## 
 ## required arguments:
 ##   -d, --dat DAT              Misc -> Generate dat file -> Generate dat (Arcade 
 ##                         only)
-##   -p, --path PATH            Path to a split, ClrMamePro verified and TorrentZipped 
-##                         ROM set matching the Arcade only dat
 ## 
 ## example usage: python3 FBA_dat_gen.py --dat "FBNeo v0.2.97.42 (ClrMame Pro 
 ##                  XML).dat" --path  "/path/to/split/verified/torrentzipped/roms/" 
@@ -48,6 +57,8 @@ import hashlib
 import operator
 import os
 import os.path
+import re
+import struct
 import sys
 import xml.etree.ElementTree as ET
 import zlib
@@ -58,11 +69,16 @@ def main():
     if parser == None:
         print("parser is none")
     dat_root = get_datroot(args.dat, parser)
+    if args.add_keys:
+        add_keys(args, dat_root)
+        return
+    if not args.path:
+        parser.error('the following arguments are required: -p/--path')
     header_name = get_header_name(args)
     header_version = get_header_version(args, dat_root, parser)
     header_description = get_header_description(args, header_version)
     header = generate_dat_header(header_name, header_description, header_version)
-    game_list = generate_game_list(dat_root, args.path, parser)
+    game_list = generate_game_list(dat_root, args.path, parser, args.set_type)
     output(args, header, game_list)
 
 def setup_argparse():
@@ -70,11 +86,13 @@ def setup_argparse():
     parser = argparse.ArgumentParser(prog='FBgen.py', description='Generates Final Burn Neo .dat file needed for RetroArch/libretro-db/c_converter')
     required_arguments = parser.add_argument_group('required arguments')
     required_arguments.add_argument('-d', '--dat', help='Misc -> Generate dat file -> Generate dat (Arcade only)', required=True)
-    required_arguments.add_argument('-p', '--path', help='Path to a split, ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat', required=True)
+    parser.add_argument('-p', '--path', help='Path to a ClrMamePro verified and TorrentZipped ROM set matching the Arcade only dat (see --set-type); required unless --add-keys')
     parser.add_argument('-o', '--output-file', help='Path to the target output file; example: FBNeo - Arcade games.dat')
     parser.add_argument('--header-name', help='Override the clrmamepro(name) in the output .dat')
     parser.add_argument('--header-description', help='Override the clrmamepro(description) in the output .dat')
     parser.add_argument('--header-version', help='Override the clrmamepro(version) in the output .dat')
+    parser.add_argument('--set-type', choices=['split', 'non-merged'], default='split', help='The kind of ROM set --path holds, or that the dat --add-keys reads was made from (default: split)')
+    parser.add_argument('--add-keys', metavar='DAT', help='Write DAT with the set fingerprints from --dat added, changing nothing else in it; --path is not read')
 
     if len(sys.argv) == 1:
         parser.print_help()
@@ -136,7 +154,7 @@ def generate_dat_header(name, description, version):
               ')']
     return '\n'.join(header)
 
-def generate_game_list(dat_root, path, parser):
+def generate_game_list(dat_root, path, parser, set_type):
     """Generate the sorted list of games with all metadata and return a textual dat list"""
     game_list = []
     
@@ -146,6 +164,7 @@ def generate_game_list(dat_root, path, parser):
         parser.exit()
     else:
         game_entries = []
+        fps = get_set_fps(dat_root, set_type)
         for game in dat_root.iter('game'):
             # 'gpriders.zip' kludge hack, as of at least 0.2.97.42
             #   - rom is exact to 'gprider.zip' and does not exist in a split set
@@ -174,6 +193,8 @@ def generate_game_list(dat_root, path, parser):
                         entry.md5 = get_md5(zip_path)
                         # set zip sha1
                         entry.sha1 = get_sha1(zip_path)
+                        # set the set fingerprints, from the dat
+                        entry.set_fp1, entry.set_fpm1 = fps.get(game.get('name'), (None, None))
                         # Add to game_entries list
                         game_entries.append(entry)
 
@@ -185,10 +206,14 @@ def generate_game_list(dat_root, path, parser):
             text_entry = ['game (',
                           '\t' + 'name "%s"' % entry.name,
                           '\t' + 'releaseyear "%s"' % entry.year,
-                          '\t' + 'publisher "%s"' % entry.publisher,
-                          '\t' + 'rom ( name %s size %s crc %s md5 %s sha1 %s )' % (entry.zip, entry.size, entry.crc, entry.md5, entry.sha1),
-                          ')',
-                          '']
+                          '\t' + 'publisher "%s"' % entry.publisher]
+            if entry.set_fp1:
+                text_entry.append('\t' + 'set_fp1 %s' % entry.set_fp1)
+            if entry.set_fpm1:
+                text_entry.append('\t' + 'set_fpm1 %s' % entry.set_fpm1)
+            text_entry += ['\t' + 'rom ( name %s size %s crc %s md5 %s sha1 %s )' % (entry.zip, entry.size, entry.crc, entry.md5, entry.sha1),
+                           ')',
+                           '']
             game_list.append('\n'.join(text_entry))
     return '\n'.join(game_list)
 
@@ -211,6 +236,8 @@ class GameEntry:
     crc = None
     md5 = None
     sha1 = None
+    set_fp1 = None
+    set_fpm1 = None
     
 def get_crc(file):
     """Return the CRC32 hash of <file>"""
@@ -234,6 +261,81 @@ def get_sha1(file):
         for chunk in iter(lambda: f.read(4096), b""):
             m.update(chunk)
     return m.hexdigest().zfill(40)
+
+def fingerprint(crcs):
+    """Return the CRC32 of <crcs>, de-duplicated, sorted, each as 4 big-endian bytes; None for no crcs"""
+    if not crcs:
+        return None
+    prev = 0
+    for crc in sorted(set(crcs)):
+        prev = zlib.crc32(struct.pack('>I', crc), prev)
+    return str("%X"%(prev & 0xFFFFFFFF)).zfill(8)
+
+def get_bios_crcs(games, name):
+    """Return the ROM crcs of the BIOS the game <name> reaches through romof, at most 4 steps away; empty if none"""
+    romof = games[name][1]
+    for step in range(4):
+        if romof not in games:
+            break
+        if games[romof][2]:
+            return set(crc for crc, merged in games[romof][3])
+        romof = games[romof][1]
+    return set()
+
+def get_set_fps(dat_root, set_type):
+    """Return game name -> (set_fp1, set_fpm1) from <dat_root> for the records of a <set_type> ROM set: a split record holds the game's own ROMs, a non-merged one its parent's too, neither its BIOS; nodump and empty ROMs are left out.  set_fpm1, over a parent's own ROMs and its clones', is given on a split parent where it differs from set_fp1"""
+    games = {}
+    for game in dat_root.iter('game'):
+        roms = [(int(rom.get('crc'), 16), rom.get('merge') is not None)
+                for rom in game.findall('rom')
+                if rom.get('crc') and rom.get('status') != 'nodump'
+                and rom.get('size') != '0']
+        games[game.get('name')] = (game.get('cloneof'), game.get('romof'),
+                                   game.get('isbios') == 'yes', roms)
+    own = {}
+    for name, (cloneof, romof, isbios, roms) in games.items():
+        own[name] = [crc for crc, merged in roms if not merged]
+    merged_set = {}
+    for name, (cloneof, romof, isbios, roms) in games.items():
+        if cloneof in games and not games[cloneof][0]:
+            merged_set.setdefault(cloneof, list(own[cloneof])).extend(own[name])
+    fps = {}
+    for name, (cloneof, romof, isbios, roms) in games.items():
+        if set_type == 'split':
+            set_fp1 = fingerprint(own[name])
+            set_fpm1 = fingerprint(merged_set.get(name))
+        else:
+            bios = get_bios_crcs(games, name)
+            set_fp1 = fingerprint([crc for crc, merged in roms
+                                   if not (merged and crc in bios)])
+            set_fpm1 = None
+        if set_fpm1 == set_fp1:
+            set_fpm1 = None
+        fps[name] = (set_fp1, set_fpm1)
+    return fps
+
+def add_keys(args, dat_root):
+    """Write the dat --add-keys with the set fingerprints from <dat_root> added to each game, before its rom line, in place of any it has; nothing else in it changes"""
+    fps = get_set_fps(dat_root, args.set_type)
+    rom_line = re.compile(r'\trom \( name (\S+)\.zip ')
+    text = []
+    with open(args.add_keys, encoding='utf-8', newline='') as f:
+        for line in f:
+            if line.startswith(('\tset_fp1 ', '\tset_fpm1 ')):
+                continue
+            match = rom_line.match(line)
+            if match:
+                set_fp1, set_fpm1 = fps.get(match.group(1), (None, None))
+                if set_fp1:
+                    text.append('\tset_fp1 %s\n' % set_fp1)
+                if set_fpm1:
+                    text.append('\tset_fpm1 %s\n' % set_fpm1)
+            text.append(line)
+    if not args.output_file:
+        sys.stdout.write(''.join(text))
+    else:
+        with open(args.output_file, 'w', encoding='utf-8', newline='') as f:
+            f.write(''.join(text))
 
 if __name__ == '__main__':
     main()

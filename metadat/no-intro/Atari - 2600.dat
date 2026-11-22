@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Atari - 2600"
 	description "Atari - 2600"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "a26|bin|wav"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -46,7 +46,7 @@ game (
 )
 game (
 	name "32 in 1 Game Cartridge (Europe, Australia)"
-	region "Europe"
+	region "Europe / Australia"
 	rom ( name "32 in 1 Game Cartridge (Europe, Australia).a26" size 65536 crc EAEF28EA md5 291BCDB05F2B37CDF9452D2BF08E0321 sha1 97FFC252438A5C9361096A1151BDBF79BD717CB3 )
 )
 game (
@@ -56,11 +56,13 @@ game (
 )
 game (
 	name "AD&D Tower of Mystery (World) (Prototype)"
+	region "World"
 	rom ( name "AD&D Tower of Mystery (World) (Prototype).bin" size 16384 crc 252E244C md5 87FA09BF6FA4121C3CF700EFAA9D658F sha1 D12E285E06079F4E7B3DF8D91A2040CAA9177BB9 )
 )
 game (
 	name "Abre-te, Sesamo! (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Abre-te, Sesamo! (Brazil) (En) (Unl).a26" size 4096 crc 8CF511A4 md5 52385334AC9E9B713E13FFA4CC5CB940 sha1 CC00C5138FD1A3B723C5F1ACC90FF8E6E87942C1 )
 )
 game (
@@ -138,12 +140,14 @@ game (
 )
 game (
 	name "Air-Sea Battle ~ Target Fun (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Air-Sea Battle ~ Target Fun (Japan, USA) (En).a26" size 2048 crc 1FC6C0F1 md5 16CB43492987D2F32B423817CDAAF7C4 sha1 A746FDC82B336A9D499BF17F50B41E0193BA595E )
 )
 game (
 	name "Air-Sea Battle ~ Target Fun (Japan, USA) (En) (Atari Anthology)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Air-Sea Battle ~ Target Fun (Japan, USA) (En) (Atari Anthology).a26" size 2048 crc 2A2A9F81 md5 835967C3A2475D852286F04B1B8C62D9 sha1 FE70D356B84C9BEF28497332C6B36D9B52A0205D )
 )
 game (
@@ -164,6 +168,7 @@ game (
 game (
 	name "Alien (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Alien (Brazil) (En) (Unl).a26" size 4096 crc E61021EC md5 956496F81775DE0B69A116A0D1AD41CC sha1 ABF186C0108791D998F7738324D0E49A977B015B )
 )
 game (
@@ -193,7 +198,8 @@ game (
 )
 game (
 	name "Alpha Beam with Ernie (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Alpha Beam with Ernie (Japan, USA) (En).a26" size 8192 crc 27C6B897 md5 9E01F7F95CB8596765E03B9A36E8E33C sha1 A1F660827CE291F19719A5672F2C5D277D903B03 )
 )
 game (
@@ -208,46 +214,57 @@ game (
 )
 game (
 	name "Amoeba Jump (World)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc BD556B76 md5 EBBBDF4A936732EBA7C16523507B1111 sha1 A0E55971BAC368902EB11838174F62D10E401A0A )
 )
 game (
 	name "Amoeba Jump (World) (PAL 50Hz)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (PAL 50Hz) (Aftermarket) (Unl).a26" size 4096 crc 0366AD7C md5 CCDC570CD66B12D97755CAA88A3667EA sha1 DB7FCF14696C6D982D4DDC37E4841EEF5EFE3029 )
 )
 game (
 	name "Amoeba Jump (World) (PAL 60Hz)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (PAL 60Hz) (Aftermarket) (Unl).a26" size 4096 crc FA04AE89 md5 CA0035430DAD7DD4F9391F232091D216 sha1 A4D87F3C130F4ED89B8E1C4D8F7C6BED87A88BCA )
 )
 game (
 	name "Amoeba Jump (World) (Retron 77 Version)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (Retron 77 Version) (Aftermarket) (Unl).a26" size 4096 crc 4E7B271C md5 7761418D46AF069B8CD80C29FE6CD814 sha1 57E093068BE21F68FAEE4E5566A65F8A92A955E5 )
 )
 game (
 	name "Amoeba Jump (World) (v0.1)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v0.1) (Aftermarket) (Unl).a26" size 4096 crc 4FFBB09B md5 2649013B983CE353473168D2A0CE2BD3 sha1 A69D25F01D02EE022D3CCA20542EA347EA1892DE )
 )
 game (
 	name "Amoeba Jump (World) (v1.1)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.1) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc 515FA592 md5 3B395AE0CC96EDDEA898FF2DA4332481 sha1 B8DD13FE98DC818F1894A0DF0530F5E12264661E )
 )
 game (
 	name "Amoeba Jump (World) (v1.1) (PAL)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.1) (PAL) (Aftermarket) (Unl).a26" size 4096 crc E592D6C8 md5 4D39A281703687B285A1F132690EF498 sha1 3AB427FB531030B60A7C2DC5C42E76519A03C40B )
 )
 game (
 	name "Amoeba Jump (World) (v1.2)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.2) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc A5617694 md5 03E976A52DBFB5EE03D92FD6C0E9A405 sha1 3F9ED9D8ECE40CAD7907C01B8A559110CAF59A3E )
 )
 game (
 	name "Amoeba Jump (World) (v1.2) (PAL)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.2) (PAL) (Aftermarket) (Unl).a26" size 4096 crc 3644C33A md5 04BFF96F7E878AAF4D65DCE325C8645A sha1 78FC003879B084E6E6477C16BA840F58712803AE )
 )
 game (
 	name "Amoeba Jump (World) (v1.3)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.3) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc E4349CEF md5 539F3C42C4E15F450ED93CB96CE93AF5 sha1 DCCBFB28358CA8339920B584CF64465905CE1354 )
 )
 game (
 	name "Amoeba Jump (World) (v1.3) (PAL)"
+	region "World"
 	rom ( name "Amoeba Jump (World) (v1.3) (PAL) (Aftermarket) (Unl).a26" size 4096 crc 77112941 md5 0C72CC3A6658C1ABD4B735EF55FA72E4 sha1 B04B1181950E2BB898EA23FF11DE93C9B56FDC65 )
 )
 game (
@@ -267,24 +284,34 @@ game (
 )
 game (
 	name "Angry Video Game Nerd K.O. Boxing (World)"
+	region "World"
 	rom ( name "Angry Video Game Nerd K.O. Boxing (World) (NTSC) (Aftermarket) (Unl).a26" size 32768 crc 53F02C00 md5 6A7E6FC102BF7459F89419C548A79E2C sha1 BBCAC5C5B2384AB6AA83574E6B9486C4B60822D4 )
 )
 game (
 	name "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz)"
+	region "World"
 	rom ( name "Angry Video Game Nerd K.O. Boxing (World) (PAL 60hz) (Aftermarket) (Unl).a26" size 32768 crc 9A8505B6 md5 27279303DF0884B2423C2ED1FB7DDC92 sha1 F723B83145BD43E2FB4767E35BCB25958C8B2D03 )
 )
 game (
+	name "Angry Video Game Nerd, The (World)"
+	region "World"
+	rom ( name "Angry Video Game Nerd, The (World) (NTSC) (Aftermarket) (Unl).bin" size 16384 crc 21696547 md5 9150CD982FBD340C75B1371A12796704 sha1 FFC3EFF7AFC1051716159DDFAF2FE2BF149E5D49 )
+)
+game (
 	name "Anguna 2600 (World)"
+	region "World"
 	rom ( name "Anguna 2600 (World) (Aftermarket) (Unl).a26" size 16384 crc D18E91A1 md5 F69A2458D29EFAFF1B4A76ADB923E984 sha1 8BFBF3D404A15DF315BF9C8BF0E5741AC1A42C96 )
 )
 game (
 	name "Apples and Dolls (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Apples and Dolls (Brazil) (En) (Unl).a26" size 4096 crc E7514705 md5 E73838C43040BCBC83E4204A3E72EEF4 sha1 62E92508CF43ACC28BFF8B03A197137D56A5DF79 )
 )
 game (
 	name "Aquaventure (Brazil) (En) (Proto)"
 	region "Brazil"
+	language "English"
 	rom ( name "Aquaventure (Brazil) (En) (Proto) (Unl).a26" size 8192 crc 7FA61FA0 md5 F69D4FCF76942FCD9BDF3FD8FDE790FB sha1 CB400DE2653E125E704ABD8B0FE5DDDB43E3438B )
 )
 game (
@@ -327,6 +354,7 @@ game (
 )
 game (
 	name "Assembloids (World)"
+	region "World"
 	rom ( name "Assembloids (World) (Aftermarket) (Unl).a26" size 4096 crc C106AB8F md5 35F2237213A6771500E324184C37D8B8 sha1 46E789A5843D5CE002932FD05386C580F3AEB026 )
 )
 game (
@@ -336,7 +364,8 @@ game (
 )
 game (
 	name "Asteroids (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Asteroids (Japan, USA) (En).a26" size 8192 crc C7D64C94 md5 DD7884B4F93CAB423AC471AA1935E3DF sha1 D68937E57A367E61EAA4B44550AE8B9D69456661 )
 )
 game (
@@ -367,6 +396,7 @@ game (
 game (
 	name "Astrowar (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Astrowar (Brazil) (En) (Unl).a26" size 4096 crc 7B4B7EAF md5 8F53A3B925F0FD961D9B8C4D46EE6755 sha1 B6F01797E3E8D80F4E33DA73E64AA2935AF96038 )
 )
 game (
@@ -376,7 +406,7 @@ game (
 )
 game (
 	name "Atari Video Cube (USA, Europe) (Atari Anthology)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Atari Video Cube (USA, Europe) (Atari Anthology).a26" size 4096 crc 8172299E md5 7E860C06FCD1AB31C6975DAEC7FA1E84 sha1 AC141BB18CACC5D197FF4F9B5BEF18683C989474 )
 )
 game (
@@ -457,6 +487,7 @@ game (
 game (
 	name "Barnstorming (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Barnstorming (Brazil) (En) (Unl).a26" size 4096 crc 281736D6 md5 5AE73916FA1DA8D38CEFF674FA25A78A sha1 72F0BD35B49E4A35F6E51DF6EC8EA579B5A673EB )
 )
 game (
@@ -511,7 +542,8 @@ game (
 )
 game (
 	name "Battlezone (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Battlezone (Japan, USA) (En).a26" size 8192 crc 9155DD1D md5 41F252A66C6301F1E8AB3612C19BC5D4 sha1 E4134A3B4A065C856802BC935C12FA7E9868110A )
 )
 game (
@@ -527,6 +559,7 @@ game (
 game (
 	name "Beany Bopper (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Beany Bopper (Brazil) (En) (Unl).a26" size 4096 crc 624C9345 md5 6A9E0C72FAB92DF70084ECCD9061FDBD sha1 73D55CF63CCABF881148E71DFDBD7D4445889F80 )
 )
 game (
@@ -537,6 +570,7 @@ game (
 game (
 	name "Beat'Em & Eat'Em (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Beat'Em & Eat'Em (Brazil) (En) (Unl).a26" size 4096 crc E4F66058 md5 6C25F58FD184632CA76020F589BB3767 sha1 8E8E334FA481698D0ADB7F9CB7852E49AC462EB9 )
 )
 game (
@@ -567,6 +601,7 @@ game (
 game (
 	name "Berzerk (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Berzerk (Brazil) (En) (Unl).a26" size 4096 crc F973D708 md5 FAC28963307B6E85082CCD77C88325E7 sha1 6BFFBBE1207662DE89C7EA02C1FCD004071FB9E4 )
 )
 game (
@@ -576,7 +611,8 @@ game (
 )
 game (
 	name "Berzerk (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Berzerk (Japan, USA) (En).a26" size 4096 crc 2E8B4B5F md5 136F75C4DD02C29283752B7E5799F978 sha1 08BCBC8954473E8F0242B881315B0AF4466998AE )
 )
 game (
@@ -586,7 +622,8 @@ game (
 )
 game (
 	name "Big Bird's Egg Catch (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Big Bird's Egg Catch (Japan, USA) (En).a26" size 8192 crc 96DC9A9C md5 1802CC46B879B229272501998C5DE04F sha1 5E4517DB83C061926130AB65975E3B83D9401CC9 )
 )
 game (
@@ -632,11 +669,13 @@ game (
 game (
 	name "Bobby Is Going Home (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Bobby Is Going Home (Brazil) (En) (NTSC) (Unl).a26" size 4096 crc 358940E3 md5 075069AD80CDE15ECA69E3C98BD66714 sha1 E00202DA428DB2D05E30CDD59488E5E0D405C678 )
 )
 game (
 	name "Bobby Is Going Home (Brazil) (En) (PAL)"
 	region "Brazil"
+	language "English"
 	rom ( name "Bobby Is Going Home (Brazil) (En) (PAL) (Unl).a26" size 4096 crc 5C4A04C8 md5 3CBDF71BB9FD261FBC433717F547D738 sha1 876C3B01E68568100DB716BC69BF58189ACB72C2 )
 )
 game (
@@ -680,6 +719,7 @@ game (
 game (
 	name "Boulder Dash (World) (First Star Software)"
 	releaseyear "2012"
+	region "World"
 	rom ( name "Boulder Dash (World) (2012) (First Star Software) (Aftermarket) (Unl).a26" size 32768 crc F96201FC md5 3FDEF56AAC5B0E71BE0067320E4A8695 sha1 99B3A3AC79811D13B49E8E687762ABDFCE5748FC )
 )
 game (
@@ -700,11 +740,13 @@ game (
 game (
 	name "Boxen (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Boxen (Germany) (En).a26" size 2048 crc 7931C845 md5 7F07CD2E89DDA5A3A90D3AB064BFD1F6 sha1 DE7137596223F0E8D0F4E6CD675EA5344892C6F4 )
 )
 game (
 	name "Boxing (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Boxing (Brazil) (En) (Unl).a26" size 2048 crc 0411AE6B md5 A8B3EA6836B99BEA77C8F603CF1EA187 sha1 A7716AF544F0813CE7657BB8A1A55FF6088F09C3 )
 )
 game (
@@ -739,7 +781,8 @@ game (
 )
 game (
 	name "Breakout ~ Breakaway IV (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Breakout ~ Breakaway IV (Japan, USA) (En).a26" size 2048 crc 3037638C md5 F34F08E5EB96E500E851A80BE3277A56 sha1 8D473B87B70E26890268E6C417C0BB7F01E402EB )
 )
 game (
@@ -829,6 +872,7 @@ game (
 )
 game (
 	name "Burying E.T. (World)"
+	region "World"
 	rom ( name "Burying E.T. (World) (Aftermarket) (Unl).a26" size 8192 crc D2A620C9 md5 51DCC505559617F54B699B77D8C45289 sha1 CFF888C3C49065D5380C83007D73B718099875F3 )
 )
 game (
@@ -880,6 +924,11 @@ game (
 	rom ( name "Carnival (USA).a26" size 4096 crc 7AC3C700 md5 028024FB8E5E5F18EA586652F9799C96 sha1 E1ACF7A845B56E4B3D18192A75A81C7AFA6F341A )
 )
 game (
+	name "Carrot Kingdom (World) (Rev B)"
+	region "World"
+	rom ( name "Carrot Kingdom (World) (Rev B) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 7F177E4C md5 E60DDAF73EE51ECBA7DD22219FAEDE50 sha1 5988B25BC64F2C9791C85982ACAE546C3AF29C37 )
+)
+game (
 	name "Casino (Europe)"
 	region "Europe"
 	rom ( name "Casino (Europe).a26" size 4096 crc 675C7F84 md5 2BC26619E31710A9884C110D8430C1DA sha1 0A7C41B4215F792E499D20FF86FD6DA9C2648D17 )
@@ -906,7 +955,8 @@ game (
 )
 game (
 	name "Centipede (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Centipede (Japan, USA) (En).a26" size 8192 crc 77396102 md5 91C2098E88A6B13F977AF8C003E0BCA5 sha1 0B5914BC1526A9BEAF54D7FD11408175CD8FCC72 )
 )
 game (
@@ -981,7 +1031,8 @@ game (
 )
 game (
 	name "Circus Atari (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Circus Atari (Japan, USA) (En).a26" size 4096 crc D2A330A3 md5 A7B96A8150600B3E800A4689C3EC60A2 sha1 8A91ECDBD8BF9D412DA051C3422ABB004EAB8603 )
 )
 game (
@@ -1021,7 +1072,7 @@ game (
 )
 game (
 	name "Combat (USA, Europe) (Atari Anthology)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Combat (USA, Europe) (Atari Anthology).a26" size 2048 crc 0D64A9C5 md5 0D213AC07D3BE0D51D3084769BEBAC17 sha1 1426772D1AA61D7074749AFE4CEC79BA82724D72 )
 )
 game (
@@ -1031,7 +1082,8 @@ game (
 )
 game (
 	name "Combat ~ Tank-Plus (Japan, USA) (En)"
-	region "Japan"
+	region "Japan / USA"
+	language "English"
 	rom ( name "Combat ~ Tank-Plus (Japan, USA) (En).a26" size 2048 crc 9C326A97 md5 4C8832ED387BBAFC055320C05205BC08 sha1 CE7580059E8B41CB4A1E734C9B35CE3774BF777A )
 )
 game (
@@ -1327,6 +1379,7 @@ game (
 game (
 	name "Donkey Kong Junior (Australia) (En,De)"
 	region "Australia"
+	language "English / German"
 	rom ( name "Donkey Kong Junior (Australia) (En,De).a26" size 8192 crc AE444F76 md5 2091AF29B4E7B86914D79D9AAA4CBD20 sha1 F64D68964BC22B6A4217B779C1D58BC204A54307 )
 )
 game (
@@ -1487,6 +1540,7 @@ game (
 game (
 	name "Exocet (Netherlands) (En)"
 	region "Netherlands"
+	language "English"
 	rom ( name "Exocet (Netherlands) (En) (Unl).a26" size 4096 crc D5BFA09B md5 B4362C4EB535EDA58079E2A1A6A45707 sha1 8722B52DFB4C25298CFBFF02FEEAA6691C1155EE )
 )
 game (
@@ -1496,6 +1550,7 @@ game (
 )
 game (
 	name "Fall Down (World) (PAL 50Hz)"
+	region "World"
 	rom ( name "Fall Down (World) (PAL 50Hz) (Aftermarket) (Unl).bin" size 8192 crc C8B46E96 md5 EDD69E956E153057EE548BD76B5017E8 sha1 D8592FB93CEF3CFDD53B16BF5104BC6EBFA75F1A )
 )
 game (
@@ -1775,10 +1830,12 @@ game (
 )
 game (
 	name "Go Fish! (World)"
+	region "World"
 	rom ( name "Go Fish! (World) (NTSC) (Aftermarket) (Unl).a26" size 8192 crc B99FC2BF md5 787A2FAEBADC670A887A0E2483B8F034 sha1 C8094B18EA8D7DD0E1824A5FFF2C26DD5F99A520 )
 )
 game (
 	name "Go Fish! (World) (PAL)"
+	region "World"
 	rom ( name "Go Fish! (World) (PAL) (Aftermarket) (Unl).a26" size 8192 crc 9A08FC7C md5 1B64DBABA6BBC1D428E59F088E8018E7 sha1 F286F2E862CA8361C67D815AFD9D4E7B27094557 )
 )
 game (
@@ -1873,6 +1930,7 @@ game (
 )
 game (
 	name "Halo 2600 (World)"
+	region "World"
 	rom ( name "Halo 2600 (World) (Aftermarket) (Unl).a26" size 4096 crc 3978A823 md5 4AFA7F377EAE1CAFB4265C68F73F2718 sha1 2A9647E27AB27E6CF82B3BF122EDF212FA34AE86 )
 )
 game (
@@ -1952,6 +2010,7 @@ game (
 )
 game (
 	name "INV+ (World)"
+	region "World"
 	rom ( name "INV+ (World) (Aftermarket) (Unl).a26" size 4096 crc 8EBDE037 md5 9EA8ED9DEC03082973244A080941E58A sha1 74DC0247A9C9E4ECEC1C173E01274E2391643A60 )
 )
 game (
@@ -2140,6 +2199,11 @@ game (
 	rom ( name "Lady in Wading (USA).a26" size 4096 crc F197BBCC md5 95A89D1BF767D7CC9D0D5093D579BA61 sha1 6D59DFEA26B7A06545A817F03F62A59BE8993587 )
 )
 game (
+	name "Landungskommando (Germany)"
+	region "Germany"
+	rom ( name "Landungskommando (Germany).a26" size 4096 crc 5EE1F4DD md5 B7345220A0C587F3B0C47AF33EBE533C sha1 F08F89B54455A68A5BC161EC781A5CA0A8DDBDD3 )
+)
+game (
 	name "Laser Blast (USA)"
 	region "USA"
 	rom ( name "Laser Blast (USA).a26" size 2048 crc 99365F26 md5 931B91A8EA2D39FE4DCA1A23832B591A sha1 EA8ECC2F6818E1C9479F55C0A3356EDCF7A4D657 )
@@ -2307,6 +2371,7 @@ game (
 game (
 	name "Mein Weg (Germany) (En)"
 	region "Germany"
+	language "English"
 	rom ( name "Mein Weg (Germany) (En).a26" size 4096 crc 420FF853 md5 1E0EF01E330E5B91387F75F700CCAF8F sha1 683FA09578BCDD129500C51FDC5DD059FF2F7C68 )
 )
 game (
@@ -2514,6 +2579,7 @@ game (
 game (
 	name "Mr. T + moderne Ritter, Der (Europe) (En,De)"
 	region "Europe"
+	language "English / German"
 	rom ( name "Mr. T + moderne Ritter, Der (Europe) (En,De).a26" size 4096 crc 5CD666C2 md5 A1F9159121142D42E63E6FB807D337AA sha1 0A24059914AC078CAEE857219555AE25905447D4 )
 )
 game (
@@ -2534,6 +2600,7 @@ game (
 game (
 	name "My Golf (Germany) (En,De)"
 	region "Germany"
+	language "English / German"
 	rom ( name "My Golf (Germany) (En,De).a26" size 8192 crc 0D2CBD53 md5 DFAD86DD85A11C80259F3DDB6151F48F sha1 B2DF23B1BF6DF9D253AD0705592D3FCE352A837B )
 )
 game (
@@ -2623,6 +2690,7 @@ game (
 )
 game (
 	name "Oozy the Goo Slime Quest (World)"
+	region "World"
 	rom ( name "Oozy the Goo Slime Quest (World) (Aftermarket) (Unl).a26" size 32768 crc DD56E194 md5 94AE9D9A8561988164148B88D7891797 sha1 DD6B89D39FD57DC954D6948D0634EF23402993EA )
 )
 game (
@@ -2662,6 +2730,7 @@ game (
 )
 game (
 	name "Oystron (World)"
+	region "World"
 	rom ( name "Oystron (World) (Aftermarket) (Unl).a26" size 4096 crc 8155DCCF md5 91F0A708EEB93C133E9672AD2C8E0429 sha1 412E8A2438379878EE4DE5C6BF4E5A9EE2707C8B )
 )
 game (
@@ -2873,6 +2942,11 @@ game (
 	rom ( name "Porky's (USA).a26" size 8192 crc ADD0B98A md5 F93D7FEE92717E161E6763A88A293FFA sha1 70AFC2CC870BE546DC976FA0C6811F7E01EBC471 )
 )
 game (
+	name "Portal 2600 (World)"
+	region "World"
+	rom ( name "Portal 2600 (World) (NTSC) (Aftermarket) (Unl).bin" size 4096 crc 97A6C9EC md5 D011D94D78638D09773AF797DF45AAD8 sha1 2BE54553E1366541F6A621EE1E7E64981E28EE3C )
+)
+game (
 	name "Power Lords (USA) (Proto)"
 	region "USA"
 	rom ( name "Power Lords (USA) (Proto).a26" size 8192 crc 6EB0D178 md5 3AD3DC799211CCD424D7C6D454401436 sha1 A09D91F162D665CE8694D75F30F25DE6B9E60ABE )
@@ -2881,6 +2955,21 @@ game (
 	name "Pressure Cooker (USA)"
 	region "USA"
 	rom ( name "Pressure Cooker (USA).a26" size 8192 crc CCF597D8 md5 97D079315C09796FF6D95A06E4B70171 sha1 8B001373BE485060F88182E9A7AFCF55B4D07A57 )
+)
+game (
+	name "Princess Rescue (World)"
+	region "World"
+	rom ( name "Princess Rescue (World) (NTSC) (Aftermarket) (Unl).bin" size 32768 crc 560DAC0C md5 104468E44898B8E9FA4A1500FDE8D4CB sha1 58AA6BBA1D0D26C1287135FC9237B684A984B6BE )
+)
+game (
+	name "Princess Rescue (World) (PAL)"
+	region "World"
+	rom ( name "Princess Rescue (World) (PAL) (Aftermarket) (Unl).a26" size 32768 crc 85B8E00F md5 0383DC02CB82302DA3D155FD108BFE3A sha1 7380960DF4CDCE8D3D7318FB003F7BCFDE173812 )
+)
+game (
+	name "Private Eye (Europe)"
+	region "Europe"
+	rom ( name "Private Eye (Europe).a26" size 8192 crc 7BDD9912 md5 1266B3FD632C981F3EF9BDBF9F86CE9A sha1 24AB03A51BDD113A9845132476045B73532224DD )
 )
 game (
 	name "Private Eye (USA)"
@@ -2914,7 +3003,7 @@ game (
 )
 game (
 	name "Quadrun (USA, Europe) (Atari Anthology)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Quadrun (USA, Europe) (Atari Anthology).a26" size 8192 crc 35592D43 md5 392D34C0498075DD58DF0CE7CD491EA2 sha1 1E634A8733CBC50462D363562B80013343D2FAC3 )
 )
 game (
@@ -3009,7 +3098,8 @@ game (
 )
 game (
 	name "RealSports Baseball (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Baseball (USA, Europe) (En,Fr,De,Es,It).a26" size 8192 crc 3C5A1B5F md5 EB634650C3912132092B7AEE540BBCE3 sha1 ACE97B89B8B6AB947434DBFD263951C6C0B349AC )
 )
 game (
@@ -3024,17 +3114,20 @@ game (
 )
 game (
 	name "RealSports Boxing (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Boxing (USA, Europe) (En,Fr,De,Es,It).a26" size 16384 crc 3398A1B2 md5 3177CC5C04C1A4080A927DFA4099482B sha1 22DEDBFCE6CC9055A6C4CAEC013CA80200E51971 )
 )
 game (
 	name "RealSports Football (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Football (USA, Europe) (En,Fr,De,Es,It).a26" size 8192 crc F89F64EF md5 7AD257833190BC60277C1CA475057051 sha1 200D04C1E7F41A5A3730287ED0C3F9293628F195 )
 )
 game (
 	name "RealSports Soccer (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Soccer (USA, Europe) (En,Fr,De,Es,It).a26" size 8192 crc 02D89819 md5 08F853E8E01E711919E734D85349220D sha1 E3D964D918B7F2C420776ACD3370EC1EE62744EA )
 )
 game (
@@ -3044,12 +3137,14 @@ game (
 )
 game (
 	name "RealSports Tennis (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Tennis (USA, Europe) (En,Fr,De,Es,It).a26" size 8192 crc 379001A0 md5 DAC5C0FE74531F077C105B396874A9F1 sha1 702C1C7D985D0D22F935265BD284D1ED50DF2527 )
 )
 game (
 	name "RealSports Volleyball (USA, Europe) (En,Fr,De,Es,It)"
-	region "USA"
+	region "USA / Europe"
+	language "English / French / German / Spanish / Italian"
 	rom ( name "RealSports Volleyball (USA, Europe) (En,Fr,De,Es,It).a26" size 4096 crc 54FC9EB2 md5 AED0B7BD64CC384F85FDEA33E28DAF3B sha1 2025E1D868595FAD36E5D9E7384FFD24C206208D )
 )
 game (
@@ -3129,6 +3224,7 @@ game (
 )
 game (
 	name "Robo-Ninja Climb (World)"
+	region "World"
 	rom ( name "Robo-Ninja Climb (World) (Aftermarket) (Unl).a26" size 8192 crc 21BCC276 md5 2372DD6D58B8BB34882E171CE1143D3C sha1 22FB7566FD96A02B17FA51A57CF3BCA085200670 )
 )
 game (
@@ -3279,14 +3375,17 @@ game (
 )
 game (
 	name "Sheep It Up! - NTSC (World)"
+	region "World"
 	rom ( name "Sheep It Up! - NTSC (World) (Aftermarket) (Unl).a26" size 4096 crc 5BE003AD md5 8DEBEBC61916692E2D66F2EDF4BED29C sha1 D22009A4C4E92E0533BF4379D743F80F53064FDE )
 )
 game (
 	name "Sheep It Up! - PAL (World)"
+	region "World"
 	rom ( name "Sheep It Up! - PAL (World) (Aftermarket) (Unl).a26" size 4096 crc 13DE1052 md5 1F6267DB16FFEB90BA48890D5F84AC9E sha1 B2D070404738C771E7C5BD3139858F7F8822D423 )
 )
 game (
 	name "Sheep It Up! - SECAM (World)"
+	region "World"
 	rom ( name "Sheep It Up! - SECAM (World) (Aftermarket) (Unl).a26" size 4096 crc F915AD29 md5 DA3F54E89B54B0A2391D0513AB8C9861 sha1 566249FC4B955FE7BAAB05E4818724D3387674B3 )
 )
 game (
@@ -3428,6 +3527,11 @@ game (
 	name "Smurf (Europe)"
 	region "Europe"
 	rom ( name "Smurf (Europe).a26" size 8192 crc 28DBBBD5 md5 24AFF972D58990F9B88A6D787C796F1E sha1 FD8512452E69FD7627222F811E52FC54A92BF905 )
+)
+game (
+	name "Smurf (Europe)"
+	region "Europe"
+	rom ( name "Smurf (Europe) (Alt).a26" size 8192 crc 70114C56 md5 B9426079E0FEC5399CF8753D9BCAEBF5 sha1 35D1AD88594964F1F968E5786D5F8D04E7F6AEA7 )
 )
 game (
 	name "Smurf - Rescue in Gargamel's Castle (USA)"
@@ -3680,6 +3784,7 @@ game (
 )
 game (
 	name "Star Voyager (World)"
+	region "World"
 	rom ( name "Star Voyager (World).a26" size 4096 crc AFF3B46E md5 0ACEB7C3BD13FE048B77A1928ED4267D sha1 422C6544998AC6C5239083A85CE94F50F9A12A00 )
 )
 game (
@@ -3839,7 +3944,7 @@ game (
 )
 game (
 	name "Super Baseball (USA, Europe) (Atari Anthology)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Super Baseball (USA, Europe) (Atari Anthology).a26" size 16384 crc 2245F170 md5 7ADBCF78399B19596671EDBFFC3D34AA sha1 B066A60EA1DF1DB0A55271C7608B0E19E4D18A1E )
 )
 game (
@@ -3969,7 +4074,7 @@ game (
 )
 game (
 	name "Tank AI (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Tank AI (USA, Europe) (Aftermarket) (Unl).a26" size 16384 crc A7CEEA56 md5 4704E6DAE883E35FE31E09E06D4DDBFC sha1 0C382DB92D8E6F3589DA2E020B024BC24BC7DFC6 )
 )
 game (
@@ -4031,6 +4136,11 @@ game (
 	name "Texas Chainsaw Massacre, The (USA)"
 	region "USA"
 	rom ( name "Texas Chainsaw Massacre, The (USA).a26" size 4096 crc EC389CAA md5 5EEB81292992E057B290A5CD196F155D sha1 717122A4184BC8DB41E65AB7C369C40B21C048D9 )
+)
+game (
+	name "Texas Chainsaw Massacre, The (USA) (Proto)"
+	region "USA"
+	rom ( name "Texas Chainsaw Massacre, The (USA) (Proto).a26" size 4096 crc EA9A4268 md5 2D15B092E8350912EC4B2E5E750FA1C6 sha1 1F1660223ABEEE3113C3F75BF4D9CBB3B1CF49E4 )
 )
 game (
 	name "Threshold (USA)"
@@ -4272,10 +4382,12 @@ game (
 	releaseyear "2015"
 	releasemonth "01"
 	releaseday "15"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (2015-01-15) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc 353215E0 md5 3C56C0C5F6F97850ED0AA7BCC2A4E30E sha1 A06FB0C60FFF651B0BE270E926F220706E86A5B4 )
 )
 game (
 	name "Wall Jump Ninja (World)"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (Aftermarket) (Unl).a26" size 4096 crc BB530A55 md5 EB56BEF863BED75F203429E568C23D05 sha1 FBA9479B04A1BB5C6CBD1893BE59630ACD3C8CB6 )
 )
 game (
@@ -4283,6 +4395,7 @@ game (
 	releaseyear "2015"
 	releasemonth "01"
 	releaseday "15"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (2015-01-15) (PAL 60Hz) (Aftermarket) (Unl).a26" size 4096 crc B491C2B6 md5 2489359C38551A1D96CBAA4E52D8BB30 sha1 BD3E8686A09175F51A0FCB51115D9B91B0E6B852 )
 )
 game (
@@ -4290,6 +4403,7 @@ game (
 	releaseyear "2015"
 	releasemonth "01"
 	releaseday "15"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (2015-01-15) (PAL) (Aftermarket) (Unl).a26" size 4096 crc A6574F27 md5 195A8DDF9DEBCC1444A86AEF82B9C26D sha1 1C7DA4646C5F59596914F32EF7F4F04C0D62BFF3 )
 )
 game (
@@ -4297,6 +4411,7 @@ game (
 	releaseyear "2016"
 	releasemonth "05"
 	releaseday "08"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (v1.1) (2016-05-08) (NTSC) (Aftermarket) (Unl).a26" size 4096 crc 4F053653 md5 5DA448A2E1A785D56BF4F04709678156 sha1 3864C9F26576BCB919FF00153A20418A1F7121C1 )
 )
 game (
@@ -4304,6 +4419,7 @@ game (
 	releaseyear "2016"
 	releasemonth "05"
 	releaseday "08"
+	region "World"
 	rom ( name "Wall Jump Ninja (World) (v1.1) (2016-05-08) (PAL) (Aftermarket) (Unl).a26" size 4096 crc 7C81E726 md5 9490206BA47A11332488240F3B91C477 sha1 8C99A56E2B3DADB0569C07BC13EB325DF8E42CB8 )
 )
 game (
@@ -4442,6 +4558,16 @@ game (
 	name "Zaxxon (USA)"
 	region "USA"
 	rom ( name "Zaxxon (USA).a26" size 8192 crc 265AA87F md5 EEA0DA9B987D661264CCE69A7C13C3BD sha1 58C2F6ABC5599CD35C0E722F24BCC128AC8F9A30 )
+)
+game (
+	name "Zippy the Porcupine (World) (v2.0)"
+	region "World"
+	rom ( name "Zippy the Porcupine (World) (v2.0) (NTSC) (Aftermarket) (Unl).bin" size 65536 crc D57D3189 md5 457B03CD48FF6D895795EF043C6B0F1E sha1 CBE88E316B471A6476F284DF8634D5B646B4BDC5 )
+)
+game (
+	name "Zippy the Porcupine (World) (v2.0) (PAL)"
+	region "World"
+	rom ( name "Zippy the Porcupine (World) (v2.0) (PAL) (Aftermarket) (Unl).bin" size 65536 crc ED346394 md5 A9D9E19D0C89FB31780B5D63E1F8C6A4 sha1 E9885F1B0F20DBD56CAB9C0B3A18D2D432D5C3D5 )
 )
 game (
 	name "Zoo Fun (USA)"

@@ -1,7 +1,7 @@
 clrmamepro (
 	name "Magnavox - Odyssey2"
 	description "Magnavox - Odyssey2"
-	version "2026.10.07"
+	version "2026.11.14"
 	extensions "bin"
 	homepage "http://github.com/robloach/libretro-dats"
 )
@@ -18,22 +18,22 @@ game (
 )
 game (
 	name "Alien Invaders - Plus (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Alien Invaders - Plus (USA, Europe).bin" size 2048 crc 71AE8533 md5 4D6CFB7DA66C8D9327B3CCDCE9852509 sha1 9BA0737FDEE2918375725BB5230D075A2F847159 )
 )
 game (
 	name "Alpine Skiing (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Alpine Skiing (USA, Europe).bin" size 2048 crc 4663C4B6 md5 55D7B6575645BFB5890A39491F823FEA sha1 9E7E16744B44FA83FA14C211B2365CF04604E06E )
 )
 game (
 	name "Armored Encounter + Sub Chase (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Armored Encounter + Sub Chase (USA, Europe).bin" size 2048 crc 5AE57A8C md5 8B4C318129A28E313DC89FE73269BE61 sha1 086A29EB625C935295157CE62CA9717DFFFF2AF0 )
 )
 game (
 	name "Atlantis (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Atlantis (USA, Europe).bin" size 4096 crc A7344D1F md5 7D23DF55DFACA55BC4C87677855F4A45 sha1 6975CF9FED3EE1A2567477921EB851A669D42446 )
 )
 game (
@@ -43,7 +43,7 @@ game (
 )
 game (
 	name "Baseball (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Baseball (USA, Europe).bin" size 2048 crc B07748E7 md5 FF418E9819CBCD10F02225F7FA3B2362 sha1 14A37A38C582D8822CB78FB0AACE221A2FA9A44C )
 )
 game (
@@ -68,27 +68,29 @@ game (
 )
 game (
 	name "Blockout + Breakdown (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Blockout + Breakdown (USA, Europe).bin" size 2048 crc FB83171E md5 5F36EBA1EFE84CD06012C0B8BF4C05CB sha1 00EF6868724A6826534DA620F34DAD207FCB3800 )
 )
 game (
 	name "Bombardeio Submarino + Tiro ao Alvo (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Bombardeio Submarino + Tiro ao Alvo (Brazil) (En).bin" size 2048 crc B1109A09 md5 B46E596A81E394246C45A0EA6DF1A1AD sha1 E15F778EFEB95530F8108854B14C404CF63F213A )
 )
 game (
 	name "Bowling + Basketball (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Bowling + Basketball (USA, Europe).bin" size 2048 crc 084EE035 md5 16652634E75560DC830A0C38D7FE1711 sha1 2630C304B6BEB0F8021578277BE68E837202895D )
 )
 game (
 	name "Buraco Negro (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Buraco Negro (Brazil) (En).bin" size 8192 crc 25874B04 md5 397EF93F7E804A32569006C8A50D6B7C sha1 8414605A62E78753E3F8474FA020035596292583 )
 )
 game (
 	name "Casino Slot Machine (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Casino Slot Machine (USA, Europe).bin" size 2048 crc BB6E7135 md5 31A6C912B7AD75ECD0B9387DE6F0FBE9 sha1 052BC62EB03E2673A802BAB866DD0AB3C39FD584 )
 )
 game (
@@ -114,11 +116,13 @@ game (
 game (
 	name "Clay Pigeon (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Clay Pigeon (Brazil) (En).bin" size 4096 crc FD179F6D md5 77EA6C8C52837B0699CA50D26A181043 sha1 C07C1206DB8D4FB5142B38EAD52082D4682D70BE )
 )
 game (
 	name "Comando Noturno (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Comando Noturno (Brazil) (En).bin" size 8192 crc 26517E77 md5 CCA258910C9AF919FB62252C4B2817D0 sha1 E0AA46211967C880BF7FF39836FE5E73C0302460 )
 )
 game (
@@ -143,7 +147,7 @@ game (
 )
 game (
 	name "Conquest of the World (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Conquest of the World (USA, Europe).bin" size 4096 crc AFC093FD md5 619C1545BD9C7C9DE15E73A1BD23BDAF sha1 508D1475670BA561E7DDF961A4F0CF6D139D168C )
 )
 game (
@@ -168,7 +172,7 @@ game (
 )
 game (
 	name "Demon Attack (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Demon Attack (USA, Europe).bin" size 4096 crc 9BFC3E01 md5 EF55AF1C7164948A245EEB71F804BED8 sha1 2D78CCBB56E8B43BB8101B2A1932F5E778B9DBC3 )
 )
 game (
@@ -179,6 +183,7 @@ game (
 game (
 	name "Desafio Chines (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Desafio Chines (Brazil) (En).bin" size 2048 crc 838A2D1E md5 11B36C560C5C677E11C8BD7BB6DF2D0C sha1 241160F0691A394AFE632B5B29969DAE2D8F2D34 )
 )
 game (
@@ -188,7 +193,7 @@ game (
 )
 game (
 	name "Electronic Table Soccer (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Electronic Table Soccer (USA, Europe).bin" size 2048 crc 89C6DE2C md5 2F83125F4E5F1F5E87423CF52E6A2A1A sha1 3A032C9BE1081DB58F28F906940641D74D6BAE2B )
 )
 game (
@@ -198,7 +203,7 @@ game (
 )
 game (
 	name "Football (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Football (USA, Europe).bin" size 2048 crc F9084AA3 md5 5A64C4EA84E12A04A7F0070ED13A9507 sha1 364504FFCE1108BCF09A5CC784F7EA2CF141F7B8 )
 )
 game (
@@ -208,12 +213,13 @@ game (
 )
 game (
 	name "Freedom Fighters (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Freedom Fighters (USA, Europe).bin" size 4096 crc 54736B74 md5 D85945B5E8C37E4298BD962D87728580 sha1 AD11F3FAD2DFD3716445FEF3B7D83D479EDEE0ED )
 )
 game (
 	name "Frogger (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Frogger (Brazil) (En).bin" size 8192 crc A57D84F3 md5 893CEC7B572160E81EAB8A6DAD37F7D3 sha1 BEDB714C88B9AA7A02DA9EBCDE12446EC8350D18 )
 )
 game (
@@ -228,7 +234,7 @@ game (
 )
 game (
 	name "Great Wall Street Fortune Hunt, The (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Great Wall Street Fortune Hunt, The (USA, Europe).bin" size 4096 crc 881CEAE4 md5 E3A89962603ED28584D3270D700B3A31 sha1 D54B1D5667BF90368DDDAB55A91955B1789F177C )
 )
 game (
@@ -243,12 +249,12 @@ game (
 )
 game (
 	name "Hockey + Soccer (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Hockey + Soccer (USA, Europe).bin" size 2048 crc 39989464 md5 BB393FBE922CD34D81ECCDAEE40CBC4D sha1 F39C9801984F97D5A685A4B7A1ACCD0164A49B43 )
 )
 game (
 	name "I've Got Your Number (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "I've Got Your Number (USA, Europe).bin" size 2048 crc 1C8368E7 md5 A3C4D975FCABBEE4FDB253EB414242EE sha1 498CB0882D8A692042889E83775A83CF267A1837 )
 )
 game (
@@ -283,7 +289,7 @@ game (
 )
 game (
 	name "K.C.'s Krazy Chase (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "K.C.'s Krazy Chase (USA, Europe).bin" size 4096 crc A6909A8B md5 27EADDEDA2F30AD4A5310C6E9BDD9DC2 sha1 3391E48C0048A2F588D8238BB202E2EC346A6AD4 )
 )
 game (
@@ -318,7 +324,7 @@ game (
 )
 game (
 	name "Las Vegas Blackjack (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Las Vegas Blackjack (USA, Europe).bin" size 2048 crc 6F66B1F7 md5 972D38914E5AA8E80460B7D32C7C94B5 sha1 3E10FC687B1D07612305F680F24590F99842E62B )
 )
 game (
@@ -348,7 +354,7 @@ game (
 )
 game (
 	name "Math-A-Magic + Echo (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Math-A-Magic + Echo (USA, Europe).bin" size 2048 crc DC5AFAA2 md5 9AA512409F1E3D10BFE2C2F2924C7A31 sha1 4DAC55DE1AFADC1AF2AC9166D7D47C462A8E797A )
 )
 game (
@@ -359,11 +365,12 @@ game (
 game (
 	name "Mission Impossible (Brazil) (En) (Proto)"
 	region "Brazil"
+	language "English"
 	rom ( name "Mission Impossible (Brazil) (En) (Proto).bin" size 2048 crc 655FDF57 md5 DEC3F2D19CA2E5D5F7D96C0BAF23144F sha1 7FF030E8BA236C9F354B903B89B283886C7455D7 )
 )
 game (
 	name "Monkeyshines (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Monkeyshines (USA, Europe).bin" size 4096 crc FEE664F3 md5 4388131DBCE3B68A7D46F80BAFC4A828 sha1 6D6659539934255711357537D4FA6E969C3C4754 )
 )
 game (
@@ -424,11 +431,13 @@ game (
 game (
 	name "O Malabarista + Jogo da Velha (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "O Malabarista + Jogo da Velha (Brazil) (En).bin" size 2048 crc E39500A6 md5 3FE371CAD9B660C0A76969BC53D17F9B sha1 68DE402F57EB0C8AFEFDBC46D80D2BC5520AFC68 )
 )
 game (
 	name "O Segredo do Farao (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "O Segredo do Farao (Brazil) (En).bin" size 4096 crc 16C574C8 md5 5EB860E357DB069A2CBC3FC51D022326 sha1 BA42F5E642F5DC7BE231BB0E230FFA77A766C805 )
 )
 game (
@@ -443,7 +452,7 @@ game (
 )
 game (
 	name "Pachinko (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Pachinko (USA, Europe).bin" size 2048 crc 239DF97D md5 E00CA4155B88AACB044A2598C2180158 sha1 FFD525D5C6023409AFDCDB2AFBDA227BC4568304 )
 )
 game (
@@ -453,7 +462,7 @@ game (
 )
 game (
 	name "Pick Axe Pete (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Pick Axe Pete (USA, Europe).bin" size 4096 crc D62814A3 md5 FFA665173861C544219565E000F79173 sha1 B979ED0C2B8947F764786FCF4444463B3D3AE87D )
 )
 game (
@@ -468,12 +477,13 @@ game (
 )
 game (
 	name "Pocket Billiards (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Pocket Billiards (USA, Europe).bin" size 2048 crc 24D53E2C md5 3F0223DD8609FE320264E45EEEEFE367 sha1 8ABD1057202EBAC12ACF3822ED4D965BBA02B7DE )
 )
 game (
 	name "Popeye (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Popeye (Brazil) (En).bin" size 8192 crc 1B188870 md5 3D8310D2AB62A5A7BCC0ECF088133291 sha1 D12197942A99D5902DE1352BBB5475AB4396C7D0 )
 )
 game (
@@ -503,7 +513,7 @@ game (
 )
 game (
 	name "Quest for the Rings (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Quest for the Rings (USA, Europe).bin" size 4096 crc 9451BE1E md5 0B105A40C8FF6AE7728006CF80C4DDB7 sha1 32759C8D502CD8B959DA5F03351DB7CD46C8F96A )
 )
 game (
@@ -558,7 +568,7 @@ game (
 )
 game (
 	name "Speedway + Spin-out + Crypto-logic (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Speedway + Spin-out + Crypto-logic (USA, Europe).bin" size 2048 crc 4EDA4917 md5 BC66AB63FB5CE04A79AEF9E8FA445225 sha1 29D078F587BE2AFA4612800C64A5AF72705E5681 )
 )
 game (
@@ -579,6 +589,7 @@ game (
 game (
 	name "Super Bee (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Super Bee (Brazil) (En).bin" size 4096 crc 02743352 md5 EF316AF0ED3D1736129C53C1231B8569 sha1 98C1F3A9726FE1BA880D43F0BA004821C4CBEC6C )
 )
 game (
@@ -589,6 +600,7 @@ game (
 game (
 	name "Super Cobra (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Super Cobra (Brazil) (En).bin" size 8192 crc E58AA0AC md5 F274F1ED857324C1B3AC55B0C67A1BA2 sha1 46716A927B902759BFE252022F84186098FB5863 )
 )
 game (
@@ -598,12 +610,12 @@ game (
 )
 game (
 	name "Take the Money and Run (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Take the Money and Run (USA, Europe).bin" size 2048 crc 11FF50AD md5 B2D810DCB97E38192A6DD3D213DBCE10 sha1 8C181F4835D53A358ECB8E4385E087EE942B4B4F )
 )
 game (
 	name "Thunderball (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Thunderball (USA, Europe).bin" size 2048 crc 2C9D1715 md5 0602FD990F5E43BBAB23004286319B60 sha1 D0070E12D6B0F406DAB6E1FA550AB01509C9362E )
 )
 game (
@@ -643,7 +655,7 @@ game (
 )
 game (
 	name "Volleyball (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "Volleyball (USA, Europe).bin" size 2048 crc D3B09FEC md5 8F2B2EADCC1BD72366DB49C89B576EB4 sha1 830C9B3628F2E9C4F8C882024DD912B9D7610765 )
 )
 game (
@@ -654,10 +666,11 @@ game (
 game (
 	name "Wall Street (Brazil) (En)"
 	region "Brazil"
+	language "English"
 	rom ( name "Wall Street (Brazil) (En).bin" size 4096 crc 228842DF md5 4F0DD7AB05C033C27ECBDA05B14BF619 sha1 AF9DB337A2EDBB3FE79A3D50F1B4EC1B007F4A52 )
 )
 game (
 	name "War of Nerves (USA, Europe)"
-	region "USA"
+	region "USA / Europe"
 	rom ( name "War of Nerves (USA, Europe).bin" size 2048 crc 58FA6766 md5 30249D4A85B18F0320F1B5A00E55B5C7 sha1 E56B674C832E5A7CAD977CC76779548FDD2F338E )
 )
