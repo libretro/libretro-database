@@ -97,6 +97,7 @@ Many source databases are in use as listed below.  The table focusses on the 3rd
 |----|---|---|
 |Amstrad - CPC| [Clean CPC DB](https://github.com/clean-cpc-db/dat) > [TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Amstrad - GX4000|[TOSEC](https://www.tosecdev.org/)|[libretro-dats](https://github.com/robloach/libretro-dats)
+|Apple - II|[woz-a-day](https://archive.org/details/wozaday) > [TOSEC](https://www.tosecdev.org/)|[wozaday_dat.py](https://github.com/habib256/pom2/blob/main/tools/wozaday_dat.py) > [libretro-dats](https://github.com/robloach/libretro-dats)
 |Arduboy Inc - Arduboy|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Atari - 2600|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
 |Atari - 5200|[No-Intro](http://datomatic.no-intro.org)|[libretro-dats](https://github.com/robloach/libretro-dats)
